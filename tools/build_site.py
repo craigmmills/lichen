@@ -9,7 +9,7 @@ Writes docs/index.html, docs/data/index.json (one slim row per record) and docs/
 (summary, quoted facts and links, fetched when a record is opened). The page wording and the address
 that corrections go to are in the CONFIG block below.
 """
-import collections, csv, json, shutil
+import collections, csv, html, json, shutil
 from datetime import date
 from pathlib import Path
 import yaml
@@ -27,6 +27,8 @@ CONFIG = {
             "Find your organisation, check what it says, and tell me if it is wrong or missing.",
     "address": "giarcsllim+lichen@gmail.com",
     "repo": "https://github.com/craigmmills/lichen",
+    "site": "https://craigmmills.github.io/lichen/",
+    "description": "18,406 organisations, projects, datasets and models in 207 countries, each fact quoted from a public page. Find yours, check it, and fix it if it is wrong.",
 }
 KINDS = ["organisation", "project", "programme", "dataset", "model"]
 SECTORS = ["government", "ngo", "academic", "company", "community", "funder", "multilateral"]
@@ -66,6 +68,25 @@ stats = {"built": date.today().isoformat(), "records": len(E), "countries": len(
          "scopes": sorted([[s, names.get(s, s), n] for s, n in scopes.items()], key=lambda r: (r[0] != "global", r[1]))}
 page = (ROOT / "tools/site_template.html").read_text()
 page = page.replace("/*CONFIG*/{}", dump(CONFIG).replace("</", "<\\/")).replace("/*STATS*/{}", dump(stats).replace("</", "<\\/"))
-(OUT / "index.html").write_text(page.replace("{{title}}", CONFIG["title"]))
+for k in ("title", "site", "description"):
+    page = page.replace("{{" + k + "}}", html.escape(CONFIG[k], quote=True))
+(OUT / "index.html").write_text(page)
+
+# The link preview image: one mark per record, in bands by kind. build/og.html is turned into
+# tools/og.png with a browser at 1200 by 627 (see the README of this folder), then copied to docs/.
+kinds = collections.Counter(e["kind"] for e in E)
+COL = {"organisation": "#262a2b", "project": "#4e5a63", "programme": "#64796f", "dataset": "#7c7d52", "model": "#d3aa3f"}
+P, COLS, X0, Y0 = 3.7, 140, 642, 62
+marks, n = [], 0
+for k in KINDS:
+    d = "".join(f"M{X0 + (i % COLS) * P:.1f} {Y0 + (i // COLS) * P:.1f}h2.6v2.6h-2.6z" for i in range(n, n + kinds[k]))
+    marks.append(f'<path d="{d}" fill="{COL[k]}"/>'); n += kinds[k]
+legend = "".join(f'<span><i style="background:{COL[k]}"></i>{kinds[k]:,} {k}s</span>' for k in KINDS)
+og = (ROOT / "tools/og_template.html").read_text().replace("{{marks}}", "".join(marks)).replace("{{legend}}", legend)
+og = og.replace("{{records}}", f"{len(E):,}").replace("{{countries}}", str(stats["countries"])).replace("{{facts}}", f"{facts:,}")
+(ROOT / "build").mkdir(exist_ok=True)
+(ROOT / "build/og.html").write_text(og)
+if (ROOT / "tools/og.png").exists():
+    shutil.copy(ROOT / "tools/og.png", OUT / "og.png")
 size = sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file())
 print(f"site: {len(E)} records, {facts} facts, {len(hosts)} websites, {len(detail)} data files, {size / 1e6:.1f} MB in docs/")
