@@ -23,12 +23,11 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs"
 CONFIG = {
     "title": "Who works on data and AI for nature",
-    "lede": "Every record is built from public web pages, and every fact quotes the page it came from. "
-            "Find your organisation, check what it says, and tell me if it is wrong or missing.",
+    "lede": "Find your organisation, check what it says, and tell me if it is wrong or missing.",
     "address": "giarcsllim+lichen@gmail.com",
     "repo": "https://github.com/craigmmills/lichen",
     "site": "https://craigmmills.github.io/lichen/",
-    "description": "18,406 organisations, projects, datasets and models in 207 countries, each fact quoted from a public page. Find yours, check it, and fix it if it is wrong.",
+    "description": "18,406 organisations, projects, datasets and models in 207 countries. Find yours, check it, and fix it if it is wrong.",
 }
 KINDS = ["organisation", "project", "programme", "dataset", "model"]
 SECTORS = ["government", "ngo", "academic", "company", "community", "funder", "multilateral"]
