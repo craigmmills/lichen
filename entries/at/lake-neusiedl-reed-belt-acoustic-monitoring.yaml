@@ -1,0 +1,63 @@
+id: lake-neusiedl-reed-belt-acoustic-monitoring
+kind: project
+name: Protecting Biodiversity at Lake Neusiedl
+scope: at
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning
+countries:
+- at
+scale: local
+status: unknown
+runner: unknown
+summary: Aimed to assess species’ conservation status and ecology in Lake Neusiedl’s reed belt using spectrograms
+  and a convolutional neural network trained on 41 species and song type classes.
+facts:
+- claim: Aimed to assess the conservation status and ecology of species in the reed belt of Lake Neusiedl.
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: The goal was to answer a multitude of questions regarding the current conservation status and
+    ecology of species in the reed belt of Lake Neusiedl
+- claim: Used a deep learning pipeline with a convolutional neural network to classify species from spectrogram
+    images.
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: We implemented a deep learning pipeline that uses a Convolutional Neural Network (CNN) to classify
+    species from spectrogram images.
+  ai_type: deep-learning
+- claim: Training data covered 41 classes of species and song type.
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: We compiled training data for 41 classes (class = species + song type) using pattern matching.
+links:
+- type: built-by
+  to: rainforest-connection
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: We implemented a deep learning pipeline that uses a Convolutional Neural Network (CNN) to classify
+    species from spectrogram images.
+- type: partners-with
+  to: nationalpark-neusiedler-see-seewinkel
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: Partners Huawei Australia University of Vienna Lake Neusiedl National Park
+- type: partners-with
+  to: universitaet-wien
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: Partners Huawei Australia University of Vienna
+- type: uses
+  to: arbimon
+  url: https://rfcx.org/projects/austria
+  fetched: 2026-11-07
+  quote: Our partners used Arbimon’s Pattern Matching (PM) tool to automate the training data acquisition
+    process
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,40 @@
+id: institute-of-geography-russian-academy-of-sciences
+kind: organisation
+name: Institute of Geography, Russian Academy of Sciences
+scope: ru
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ru
+scale: national
+status: active
+website: http://www.igras.ru/
+summary: Russian Academy of Sciences institute, represented by Arkady Tishkov, whose site
+  lists a department of cartography and remote sensing and whose databases GBIF lists.
+facts:
+- claim: GBIF describes the laboratory's work.
+  url: https://api.gbif.org/v1/organization/148dd300-d3cc-4004-a3d8-a7745673dac8
+  fetched: '2026-10-31'
+  quote: The Biogeography Laboratory conducts biogeographic analysis and forecasting of the
+    state of Russia's biodiversity.
+- claim: GBIF lists its databases.
+  url: https://api.gbif.org/v1/organization/148dd300-d3cc-4004-a3d8-a7745673dac8
+  fetched: '2026-10-31'
+  quote: the distribution of some rare species
+- claim: Its site lists a department of cartography and remote sensing.
+  url: http://www.igras.ru/
+  fetched: '2026-10-31'
+  quote: Отдел картографии и дистанционного зондирования Земли
+- claim: GBIF gives its address.
+  url: https://api.gbif.org/v1/organization/148dd300-d3cc-4004-a3d8-a7745673dac8
+  fetched: '2026-10-31'
+  quote: Staromonetniy pereulok 29
+found_by:
+- checklist:queue-gbif-publishers
+added_by: agent
+checked: '2026-10-31'

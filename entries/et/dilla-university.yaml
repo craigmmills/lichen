@@ -1,0 +1,37 @@
+id: dilla-university
+kind: organisation
+name: Dilla University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2026 paper
+  using Google Earth Engine and machine learning to assess vegetation cover change in Nech
+  Sar National Park.
+facts:
+- claim: OpenAlex lists a 2026 paper on Google Earth Engine and machine learning to assess
+    vegetation cover change in Nech Sar National Park.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: 'A Google Earth Engine and Machine Learning Model for Near-Real Time Spatiotemporal
+    Change Detection: Enhancing Vegetation Cover Assessment in Nech Sar National Park, Ethiopia'
+- claim: OpenAlex lists Gezahiegn Tessema, first author of that paper, at Dilla University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Gezahiegn Tessema", "orcid": "https://orcid.org/0000-0001-9575-3395",
+    "observed_orcids": ["https://orcid.org/0000-0001-9575-3395"]}, "institutions": [{"id":
+    "https://openalex.org/I4210136909", "display_name": "Dilla University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

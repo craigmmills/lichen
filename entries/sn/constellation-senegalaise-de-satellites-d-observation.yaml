@@ -1,0 +1,39 @@
+id: constellation-senegalaise-de-satellites-d-observation
+kind: project
+name: Constellation sénégalaise de satellites d'observation de la Terre
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- sn
+status: proposed
+summary: Planned Senegalese constellation of Earth observation nanosatellites, under
+  a January 2024 agreement between ASES and the French operator Prométhée Earth Intelligence,
+  with deployment set for 2028.
+scope: sn
+facts:
+- claim: ASES and Prométhée signed a strategic cooperation agreement for Senegal's
+    first observation satellite constellation.
+  url: https://www.promethee.earth/wp-content/uploads/2024/04/CP_MoU-Promethee-X-ASES-VDEF.pdf
+  fetched: '2026-10-31'
+  quote: ont conclu un accord de coopération stratégique pour le développement de
+    la première constellation sénégalaise de satellites d’observation
+links:
+- type: run-by
+  to: agence-senegalaise-d-etudes-spatiales
+  url: https://www.promethee.earth/wp-content/uploads/2024/04/CP_MoU-Promethee-X-ASES-VDEF.pdf
+  fetched: '2026-10-31'
+  quote: une feuille de route ambitieuse de l’ASES incluant, à l’horizon 2028, le
+    déploiement d’une constellation de NanoSatellites d’observation de la Terre
+- type: partners-with
+  to: promethee-earth-intelligence
+  url: https://www.promethee.earth/wp-content/uploads/2024/04/CP_MoU-Promethee-X-ASES-VDEF.pdf
+  fetched: '2026-10-31'
+  quote: "ont conclu un accord de coopération stratégique pour le développement de la première constellation sénégalaise de satellites"
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

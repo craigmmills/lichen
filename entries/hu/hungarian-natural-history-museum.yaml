@@ -1,0 +1,44 @@
+id: hungarian-natural-history-museum
+kind: organisation
+name: Hungarian Natural History Museum
+also_known_as:
+- Magyar Természettudományi Múzeum
+scope: hu
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: hu
+scale: national
+status: active
+website: http://www.nhmus.hu/en
+summary: Hungary’s largest museum by its account and a DiSSCo partner, with GBIF reporting over 11 million
+  specimens, 12.7% databased and 0.6% fully digitised.
+facts:
+- claim: Holds more than 11 million specimens, of which 12.7% are databased and 0.6% fully digitised,
+    according to its GBIF publisher record.
+  url: https://api.gbif.org/v1/organization/be11c6a0-7cf5-11dc-92cb-b8a03c50a862
+  fetched: 2026-11-08
+  quote: 12,7% of the specimens are databased and 0,6% are fully digitised (imaged) specimens
+- claim: A consortium member in CETAF, GGBN and DiSSCo.
+  url: https://api.gbif.org/v1/organization/be11c6a0-7cf5-11dc-92cb-b8a03c50a862
+  fetched: 2026-11-08
+  quote: HNHM is a consortium member in CETAF, GGBN and DiSSCo.
+- claim: Says it is the largest museum in Hungary, with 11.5 million registered items.
+  url: http://www.nhmus.hu/en
+  fetched: 2026-11-08
+  quote: With its 11.5 million registered items, the Hungarian Natural History Museum is the largest museum
+    of the country.
+links:
+- type: partners-with
+  to: dissco
+  url: https://api.gbif.org/v1/organization/be11c6a0-7cf5-11dc-92cb-b8a03c50a862
+  fetched: 2026-11-08
+  quote: HNHM is a consortium member in CETAF, GGBN and DiSSCo.
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

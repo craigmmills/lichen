@@ -1,0 +1,29 @@
+id: state-nature-reserve-nurgush
+kind: organisation
+name: State Nature Reserve Nurgush
+scope: ru
+sector: government
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: ru
+scale: local
+status: active
+website: https://nurgush.org/
+summary: Nature reserve whose site shows camera-trap footage and whose address GBIF gives.
+facts:
+- claim: The reserve site shows camera-trap footage from the reserve.
+  url: https://nurgush.org/
+  fetched: '2026-10-31'
+  quote: Сегодня вновь показываем кадры с фотоловушек в заповеднике «Нургуш».
+- claim: GBIF gives its address.
+  url: https://api.gbif.org/v1/organization/1beb4a87-695f-423a-a71c-c3c737510894
+  fetched: '2026-10-31'
+  quote: 610002, Kirov, Lenina street, 129a
+found_by:
+- checklist:queue-gbif-publishers
+added_by: agent
+checked: '2026-10-31'

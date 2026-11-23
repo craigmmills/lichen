@@ -1,0 +1,37 @@
+id: gtu-faculty-of-informatics-and-control-systems
+kind: organisation
+name: Faculty of Informatics and Control Systems, Georgian Technical University
+also_known_as: []
+scope: ge
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: ge
+countries:
+- ge
+scale: national
+status: active
+summary: Faculty at Georgian Technical University in Tbilisi, listed as the affiliation of the first author
+  of a 2024 paper on hybrid AI models for identifying trees in UAV forest images.
+facts:
+- claim: The first author of a 2024 paper on using hybrid AI models to identify trees in UAV forest images
+    lists the faculty as his affiliation.
+  url: https://api.openalex.org/works/W4400321915?select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: 'Using Hybrid Models of AI for Identification of Trees by UAV Images of Forests: I. Machine-learning
+    Component of the Models'
+- claim: The paper gives the faculty's address as 77 Kostava Street, Tbilisi.
+  url: https://api.openalex.org/works/W4400321915?select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: Faculty of Informatics and Control Systems, Georgian Technical University, 77, Kostava Str.,
+    Tbilisi, 0160, GEORGIA
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

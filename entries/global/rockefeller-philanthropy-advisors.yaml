@@ -1,0 +1,50 @@
+id: rockefeller-philanthropy-advisors
+kind: organisation
+name: Rockefeller Philanthropy Advisors
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+hq: us
+scale: global
+status: active
+website: https://www.rockpa.org/
+summary: New York philanthropy adviser recorded as giving Global Fishing Watch $4.6 million
+  from 2020 to 2024 and Conservation X Labs $1 million in 2021.
+facts:
+- claim: Recorded as giving Global Fishing Watch $4,612,850 across four grants from 2020 to
+    2024. Grantable table compiled from IRS Form 990 filings.
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: Rockefeller Philanthropy Advisors Inc $4,612,850 4 2020–2024
+  fetched: &id001 2026-10-30
+- claim: Says it advises on and manages more than $500 million in annual giving.
+  url: https://www.rockpa.org/
+  quote: RPA currently advises on and manages more than $500 million in annual giving by individuals,
+    families, foundations, and corporations
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: Global Fishing Watch Inc between 2020-2025. Funder Total given Grants Years National
+    Philanthropic Trust $16,526,282 4 2020-2025 The Carl Victor Page Memorial Foundation $6,000,000
+    2 2023-2024 Rockefeller Philanthropy Advisors Inc $4,612,850 4 2020-2024
+  amount: 4612850
+  currency: USD
+  fetched: *id001
+- type: funds
+  to: conservation-x-labs
+  url: https://grantable.co/nonprofits/conservation-x-labs-inc-morg_2f5c4858d95b4563bca2b21fbd32dccc
+  quote: Rockefeller Philanthropy Advisors Inc $1,000,000 1 2021
+  amount: 1000000
+  currency: USD
+  year: 2021
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

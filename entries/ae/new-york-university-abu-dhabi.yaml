@@ -1,0 +1,48 @@
+id: new-york-university-abu-dhabi
+kind: organisation
+name: New York University Abu Dhabi
+also_known_as:
+- NYUAD
+scope: ae
+sector: academic
+roles:
+- unknown
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+hq: ae
+countries: []
+scale: national
+status: active
+summary: University that says it coordinates the UAE National Coral Reef Monitoring Program, and whose
+  authors published a 2023 paper on identifying heat-resilient corals using machine learning and microbiome
+  data.
+facts:
+- claim: OpenAlex lists a 2023 paper by NYUAD authors on identifying heat-resilient corals with machine
+    learning and microbiome data, with Mai Oudah as corresponding author.
+  url: https://api.openalex.org/works/W4383751854
+  fetched: 2026-11-08
+  quote: Identifying Heat-Resilient Corals Using Machine Learning and Microbiome
+- claim: OpenAlex records both authors' affiliation as NYUAD.
+  url: https://api.openalex.org/works/W4383751854
+  fetched: 2026-11-08
+  quote: raw_affiliation_strings":["New York University Abu Dhabi, Abu Dhabi, UAE"]
+- claim: Says it coordinates the UAE National Coral Reef Monitoring Program with environmental authorities
+    across the Emirates.
+  url: https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/marine-biology-lab/coral-reef-monitoring-network.html
+  fetched: 2026-11-08
+  quote: NYUAD coordinates the UAE National Coral Reef Monitoring Program in partnership with environmental
+    authorities across the Emirates.
+- claim: The paper's first author gives New York University Abu Dhabi as affiliation.
+  url: https://api.openalex.org/works/W4383751854
+  fetched: '2026-11-08'
+  quote: New York University Abu Dhabi, Abu Dhabi, UAE
+links: []
+found_by:
+- checklist:3
+- link-from:oceanx-uae-2023-expedition
+- register:ae
+added_by: agent
+checked: 2026-11-08

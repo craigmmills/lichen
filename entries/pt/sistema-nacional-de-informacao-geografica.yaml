@@ -1,0 +1,33 @@
+id: sistema-nacional-de-informacao-geografica
+kind: dataset
+name: Sistema Nacional de Informação Geográfica
+also_known_as:
+- SNIG
+scope: pt
+ai_label: data-infrastructure
+realms:
+- land
+scale: national
+status: active
+summary: A national geographic information dataset run by the Direção-Geral do Território, which Copernicus
+  Portugal says is responsible for reference geographic databases including it.
+facts:
+- claim: Copernicus Portugal says DGT is responsible for creating and maintaining reference geographic
+    databases, including SNIG.
+  url: https://copernicusportugal.ptspace.pt/sistema-de-monitorizacao-da-ocupacao-do-solo-smos/
+  fetched: '2026-11-02'
+  quote: na criação e manutenção das bases de dados geográficos de referência, nomeadamente Sistema Nacional
+    de Informação Geográfica (SNIG)
+links:
+- type: run-by
+  to: direcao-geral-do-territorio
+  url: https://copernicusportugal.ptspace.pt/sistema-de-monitorizacao-da-ocupacao-do-solo-smos/
+  fetched: '2026-11-02'
+  quote: A DGT tem responsabilidades na manutenção da rede geodésica nacional, na produção de cartografia
+    de referência e na criação e manutenção das bases de dados geográficos de referência, nomeadamente
+    Sistema Nacional de Informação Geográfica (SNIG)
+found_by:
+- checklist:2
+- link-from:direcao-geral-do-territorio
+added_by: agent
+checked: '2026-11-02'

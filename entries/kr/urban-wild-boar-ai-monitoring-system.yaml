@@ -1,0 +1,44 @@
+id: urban-wild-boar-ai-monitoring-system
+kind: model
+name: Urban wild boar AI monitoring system
+also_known_as:
+- 야생멧돼지 실시간 감시 기술
+scope: kr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: A model built by the National Institute of Biological Resources that uses deep learning on drone
+  and camera footage to detect boar within 3 km, which the ministry planned to offer local governments
+  from November 2026.
+facts:
+- claim: A government press release says the climate and environment ministry would offer the technology
+    to local governments from November 2026.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=287652
+  fetched: 2026-11-02
+  quote: 기후에너지환경부는 ’26.11월부터 도시 출몰 멧돼지에 대응하기 위해 개발한 인공지능(AI) 기반 감시기술을 지방정부에 지원한다.
+- claim: Links drone and unmanned camera footage in one monitoring program and uses deep learning to detect
+    boar within 3 km.
+  ai_type: deep-learning
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=287652
+  fetched: 2026-11-02
+  quote: 무인기와 무인 카메라에서 수집한 영상을 통합 감시 프로그램으로 연계하여, 딥러닝 기술을 통해 반경 3km 내 멧돼지를 자동 탐지하고 현장 대응을 신속하게 할 수 있도록
+    지원함.
+- claim: YTN reports a trial around Bukhansan.
+  url: https://www.ytn.co.kr/_ln/0103_202610061728589979
+  fetched: 2026-11-02
+  quote: 일을 제대로 하는지 북한산 일대에서 시범 적용해봤는데, 감시는 물론, 멧돼지를 발견하면 담당자에게 바로 알림 전송까지 해줬습니다.
+links:
+- type: built-by
+  to: national-institute-of-biological-resources
+  url: https://www.insight.co.kr/news/576136
+  fetched: 2026-11-02
+  quote: 국립생물자원관은 멧돼지 이미지 약 1만2000장을 학습시킨 인공지능 모델을 독자 개발해 드론 촬영 영상과 CCTV 화면에서 멧돼지를 자동으로 검출할 수 있도록 했다.
+found_by:
+- register:kr
+added_by: agent
+checked: 2026-11-02

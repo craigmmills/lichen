@@ -1,0 +1,39 @@
+id: ministerio-de-ciencia-tecnologia-e-innovacion-productiva
+kind: organisation
+name: Ministerio de Ciencia, Tecnología e Innovación Productiva
+scope: ar
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+hq: unknown
+countries:
+- ar
+scale: national
+status: unknown
+summary: Argentine ministry that introduced the Sistema Nacional de Datos Biológicos in 2009,
+  which ran until the end of 2020, and is listed in GBIF's registry as a dataset publisher.
+facts:
+- claim: Introduced the Sistema Nacional de Datos Biológicos in 2009, which ran until the
+    end of 2020.
+  url: https://biodiversidad.ar/acerca-de/
+  fetched: 2026-11-03
+  quote: En 2009, el Ministerio de Ciencia, Tecnología e Innovación Productiva introdujo el
+    Sistema Nacional de Datos Biológicos (SNDB) , el cual permaneció en actividad hasta fines
+    del año 2020.
+- claim: GBIF's registry lists it as the publisher of datasets, among them the mammal, bird
+    and insect collections of IADIZA in Mendoza.
+  url: https://api.gbif.org/v1/organization/497c081b-8157-4287-bb5c-291a4c71439c/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: 'Colección Mastozoológica del IADIZA - CCT CONICET Mendoza: IADIZA-CMI'
+links: []
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

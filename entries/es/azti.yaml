@@ -1,0 +1,73 @@
+id: azti
+kind: organisation
+name: AZTI
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+hq: es
+scale: national
+status: active
+website: https://azti.es
+summary: Technology and research centre that built an AI model telling small pelagic fish
+  species apart from their acoustic echo-traces.
+facts:
+- claim: Its automatic classification model distinguishes schools of small pelagic species
+    with up to 80% accuracy.
+  url: https://azti.es/en/new-ai-model-to-optimize-the-identification-of-fish-schools
+  quote: based on the characteristics of their acoustic echo-traces with up to 80% accuracy
+  fetched: '2026-10-31'
+- claim: Partner in BioBoost+ through its Department of Marine Research.
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: '2026-10-31'
+  quote: AZTI Foundation, Department of Marine Research, Sukarrieta, Spain
+- claim: A European team led by AZTI developed a reference framework for reliable, ethical
+    marine AI, published in January 2026.
+  url: https://www.azti.es/noticias/guia-practica-para-que-la-ia-mejore-la-proteccion-del-oceano/
+  fetched: '2026-10-31'
+  quote: un equipo europeo liderado por AZTI ha desarrollado un marco de referencia
+- claim: Applies big data and AI to prediction and management.
+  url: https://www.azti.es/lineas/pesca-acuicultura/gestion-pesquera-sostenible/
+  fetched: '2026-10-31'
+  quote: Aplicación de big data e inteligencia artificial para predicción y gestión.
+- claim: Describes itself as an international science and technology centre for the marine
+    environment and food.
+  url: https://www.azti.es/en/azti/
+  fetched: '2026-10-31'
+  quote: We are an international science and technology centre specialising in the marine
+    environment and food
+- claim: Provides an eDNA biodiversity monitoring service.
+  url: https://www.azti.es/en/services/marine-biodiversity-monitoring/
+  fetched: '2026-10-31'
+  quote: AZTI provides a comprehensive environmental DNA (eDNA) biodiversity monitoring service
+found_by:
+- checklist:4
+- link-from:bioboost-plus
+- checklist:3
+- register:es
+scope: es
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- AZTI
+- Fundación AZTI
+- AZTI-Tecnalia
+links:
+- type: partners-with
+  to: bioboost-plus
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: '2026-10-31'
+  quote: AZTI Foundation, Department of Marine Research, Sukarrieta, Spain
+- type: partners-with
+  to: bioboost-plus
+  url: https://fundacion-biodiversidad.es/proyecto_biodiversa/bioboost-boosting-the-frequency-and-scale-of-marine-biodiversity-monitoring-using-digital-imagery-and-artificial-intelligence/
+  fetched: '2026-10-31'
+  quote: Fundación AZTI
+techniques:
+- computer-vision
+- other
+- edna-genomics

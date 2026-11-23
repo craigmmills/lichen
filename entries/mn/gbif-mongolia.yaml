@@ -1,0 +1,52 @@
+id: gbif-mongolia
+kind: programme
+name: GBIF Mongolia
+scope: mn
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- mn
+status: active
+runner: unknown
+summary: Mongolia's country node of GBIF with associate participant status, which has endorsed
+  the Institute of Biology of the Mongolian Academy of Sciences as a data publisher.
+facts:
+- claim: GBIF's registry lists GBIF Mongolia as the country node, with Mongolia as an associate
+    participant.
+  url: https://api.gbif.org/v1/node/country/MN
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"ASIA","continent":"ASIA","title":"GBIF
+    Mongolia"'
+- claim: The node manager's listed address is at the Mongolian Academy of Sciences.
+  url: https://api.gbif.org/v1/node/country/MN
+  fetched: 2026-11-08
+  quote: Mongolian Academy of Sciences
+- claim: GBIF lists GBIF Mongolia as the country node for Mongolia, with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/country/MN
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"ASIA","continent":"ASIA","title":"GBIF
+    Mongolia","participantTitle":"Mongolia"'
+- claim: The node has endorsed the Institute of Biology of the Mongolian Academy of Sciences
+    as a data publisher.
+  url: https://api.gbif.org/v1/node/fba162f7-e5b5-4ce1-ba7e-896fa2858940/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"endorsementStatus":"ENDORSED","title":"Institute of Biology, Mongolian Academy
+    of Sciences"'
+- claim: GBIF's registry lists GBIF Mongolia as the country node for Mongolia.
+  url: https://api.gbif.org/v1/node/country/MN
+  fetched: 2026-11-08
+  quote: GBIF Mongolia
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/MN
+  fetched: 2026-11-08
+  quote: '"participantTitle":"Mongolia"'
+found_by:
+- checklist:2
+- link-from:botanic-garden-and-research-institute-mongolia
+added_by: agent
+checked: 2026-11-08

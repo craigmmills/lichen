@@ -1,0 +1,104 @@
+id: comision-nacional-de-actividades-espaciales
+kind: organisation
+name: Comisión Nacional de Actividades Espaciales
+also_known_as:
+- CONAE
+scope: ar
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+summary: National space agency that develops its own satellites, completed the two SAOCOM
+  1 radar satellites launched in 2018 and 2020, and builds and runs the Montes forest monitoring
+  system.
+facts:
+- claim: Develops its own satellite missions according to the data needs its users identify,
+    including design, construction, calibration, testing and launch.
+  url: https://www.argentina.gob.ar/ciencia/conae/misiones-espaciales
+  fetched: 2026-11-03
+  quote: CONAE desarrolla misiones satelitales propias de acuerdo a los requerimientos de
+    datos e información que la comunidad de usuarios identifica en cada periodo.
+- claim: Completed the SAOCOM 1 series, two L-band synthetic aperture radar satellites launched
+    in 2018 and 2020, aimed at disasters and soil moisture data.
+  url: https://www.argentina.gob.ar/ciencia/conae/misiones-espaciales
+  fetched: 2026-11-03
+  quote: Su objetivo es generar información útil para prevenir, monitorear, mitigar y evaluar
+    catástrofes naturales o antrópicas y generar datos sobre humedad de suelo
+- claim: The SAOCOM satellites work with four Italian COSMO-SkyMed satellites in SIASGE, a
+    system created by CONAE and the Italian space agency ASI.
+  url: https://www.argentina.gob.ar/ciencia/conae/misiones-espaciales
+  fetched: 2026-11-03
+  quote: Sistema Ítalo-Argentino de Satélites para la Gestión de Emergencias (SIASGE) , creado
+    por la CONAE y la agencia espacial italiana ASI
+- claim: The SABIA-Mar mission, on marine productivity, coasts and estuaries, is in development.
+  url: https://www.argentina.gob.ar/ciencia/conae/misiones-espaciales
+  fetched: 2026-11-03
+  quote: se encuentra en desarrollo la misión SABIA-Mar , dedicada esencialmente a la productividad
+    marina, costas y estuarios
+- claim: The state body with competence to propose and carry out policy for space activities
+    in Argentina.
+  url: https://www.argentina.gob.ar/ciencia/conae/institucional
+  fetched: '2026-11-03'
+  quote: competencia para proponer las políticas para la promoción y ejecución de las actividades
+    en el área espacial con fines pacíficos en todo el ámbito de la República Argentina
+- claim: Its mission includes providing space-derived information on Argentina's continental
+    and maritime territory.
+  url: https://www.argentina.gob.ar/ciencia/conae/institucional
+  fetched: '2026-11-03'
+  quote: Disponer de información de origen espacial y sus aplicaciones, sobre nuestro territorio
+    continental y marítimo
+- claim: Earth observation is one of the objectives of the National Space Plan.
+  url: https://www.argentina.gob.ar/ciencia/conae/aplicaciones-de-la-informacion-satelital
+  fetched: '2026-11-03'
+  quote: Uno de los objetivos del Plan Espacial Nacional es la Observación de la Tierra
+- claim: CEOS lists it as a member agency since 1999.
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: '2026-11-03'
+  quote: Comisión Nacional de Actividades Espaciales (CONAE) Argentina 1999
+- claim: Described as the national space agency, responsible for proposing policy for space
+    activities.
+  url: https://www.argentina.gob.ar/ciencia/conae
+  fetched: 2026-11-03
+  quote: Agencia Espacial Nacional con competencia para proponer las políticas para la promoción
+    y ejecución de las actividades en el área espacial con fines pacíficos
+- claim: In 2022 it reported progress on a land cover change monitoring system to support
+    conservation of native forest.
+  url: https://www.argentina.gob.ar/node/346063
+  fetched: 2026-11-03
+  quote: La Comisión Nacional de Actividades Espaciales (CONAE) avanza en el desarrollo de
+    un sistema de monitoreo de cambios de cobertura del suelo para dar soporte a la conservación
+    del Bosque Nativo Argentino
+links:
+- type: partners-with
+  to: committee-on-earth-observation-satellites
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: '2026-11-03'
+  quote: Comisión Nacional de Actividades Espaciales (CONAE) Argentina 1999
+- type: builds
+  to: montes-monitoreo-temporal-satelital-de-los-bosques
+  url: https://www.argentina.gob.ar/node/346063
+  fetched: &id001 2026-11-03
+  quote: La Comisión Nacional de Actividades Espaciales (CONAE) avanza en el desarrollo de
+    un sistema de monitoreo de cambios de cobertura del suelo para dar soporte a la conservación
+    del Bosque Nativo Argentino
+- type: runs
+  to: montes-monitoreo-temporal-satelital-de-los-bosques
+  url: https://www.argentina.gob.ar/node/346063
+  fetched: *id001
+  quote: uno de los principales desafíos del sistema de monitoreo gestionado por la CONAE
+found_by:
+- checklist:1
+- link-from:committee-on-earth-observation-satellites
+added_by: agent
+checked: 2026-11-03

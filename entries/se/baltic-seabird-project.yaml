@@ -1,0 +1,45 @@
+id: baltic-seabird-project
+kind: project
+name: Baltic Seabird Project
+scope: se
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- se
+status: active
+summary: An active project led by the Swedish University of Agricultural Sciences, using video surveillance,
+  AI and sensors to study seabirds on Stora Karlsö, with 144 million detections over the 2019 to 2021
+  breeding seasons.
+facts:
+- claim: Uses video surveillance, AI and sensors to study seabirds on Stora Karlsö.
+  url: https://www.milestonesys.com/customer-stories/video-research-tools/
+  fetched: '2026-11-02'
+  quote: On the remote island of Stora Karlsö in the Baltic Sea, researchers are pioneering a new model
+    for ecological research that fuses advanced video surveillance, artificial intelligence, and sensor
+    technology to study seabirds
+- claim: The system uses a deep learning algorithm for object detection, YOLOv5.
+  url: https://research.chalmers.se/publication/535132
+  fetched: '2026-11-02'
+  quote: The system uses a deep learning algorithm for object detection (YOLOv5)
+  ai_type: deep-learning
+- claim: Generated 144 million bird detections over three breeding seasons, 2019 to 2021.
+  url: https://research.chalmers.se/publication/535132
+  fetched: '2026-11-02'
+  quote: A total of 144 million bird detections were generated from a breeding cliff over three complete
+    breeding seasons (2019–2021).
+links:
+- type: led-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.milestonesys.com/customer-stories/video-research-tools/
+  fetched: '2026-11-02'
+  quote: Led by the Swedish University of Agricultural Sciences (SLU), this ambitious project relies on
+    Milestone Systems’ XProtect open platform video management software (VMS)
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-02'

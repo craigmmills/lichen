@@ -1,0 +1,31 @@
+id: togo-national-herbarium-database
+kind: dataset
+name: Togo National Herbarium Database
+scope: tg
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- tg
+status: unknown
+runner: unknown
+summary: Dataset extracted from the University of Lomé herbarium's RIHA database, holding specimens from
+  across Togo and covering only angiosperms.
+facts:
+- claim: The dataset is an extraction from the RIHA database of the University of Lomé herbarium.
+  url: https://api.gbif.org/v1/dataset/b05dd467-aaf8-4c67-843c-27f049057b78
+  fetched: 2026-11-08
+  quote: This dataset is an extraction from the RIHA database.
+- claim: Its specimens come from all over Togo.
+  url: https://api.gbif.org/v1/dataset/b05dd467-aaf8-4c67-843c-27f049057b78
+  fetched: 2026-11-08
+  quote: The description dataset collection comes from all over Togo.
+- claim: The database covers only angiosperms.
+  url: https://api.gbif.org/v1/dataset/b05dd467-aaf8-4c67-843c-27f049057b78
+  fetched: 2026-11-08
+  quote: the database covers exclusively Angiosperms
+links: []
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,23 @@
+id: darwin-core
+kind: programme
+name: Darwin Core
+scope: global
+ai_label: data-infrastructure
+status: active
+website: https://dwc.tdwg.org
+summary: Standard vocabulary and schemas for sharing information about biological diversity, used to exchange species occurrence data.
+facts:
+- claim: A standard for biodiversity data sharing.
+  url: https://dwc.tdwg.org/
+  fetched: '2026-10-30'
+  quote: Darwin Core is a standard for biodiversity data sharing maintained by the Darwin Core Maintenance Group
+links:
+- type: run-by
+  to: biodiversity-information-standards
+  url: https://www.tdwg.org/community/dwc/
+  fetched: '2026-10-30'
+  quote: "This interest group is established to meet the requirements in Section 2.1 of the TDWG Vocabulary Maintenance Specification : to maintain the Darwin Core vocabulary."
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,78 @@
+id: gbif-chile
+kind: programme
+name: GBIF Chile
+also_known_as:
+- Nodo GBIF Chile
+- Nodo Nacional de Información sobre Biodiversidad
+- Nodo Nacional de Información sobre Biodiversidad GBIF Chile
+scope: cl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- cl
+status: active
+website: https://gbifchile.mma.gob.cl/
+summary: National programme, run by the environment ministry, that aggregates biodiversity data from several
+  sources and makes it freely available online; Chile signed the GBIF memorandum in 2009 and the node
+  was established in 2012.
+facts:
+- claim: A national collaborative project that aggregates biodiversity data from multiple sources and
+    makes them freely available online.
+  url: https://gbifchile.mma.gob.cl/que-es-gbif/
+  fetched: 2026-11-02
+  quote: GBIF Chile es un proyecto nacional de colaboración que agrega datos de biodiversidad de múltiples
+    fuentes y los hace disponibles y utilizables gratuitamente en línea.
+- claim: Chile is a voting participant in GBIF.
+  url: https://api.gbif.org/v1/node/a8b16421-d80b-4ef3-8f22-098b01a89255
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+- claim: The portal describes the node as a project coordinated by the ministry.
+  url: https://gbifchile.mma.gob.cl/
+  fetched: '2026-11-02'
+  quote: Bienvenido a la página informativa del Nodo GBIF Chile, proyecto coordinado por el Ministerio
+    del Medio Ambiente de Chile.
+- claim: Described as a project coordinated by the environment ministry.
+  url: https://gbifchile.mma.gob.cl/
+  fetched: '2026-11-02'
+  quote: proyecto coordinado por el Ministerio del Medio Ambiente de Chile
+- claim: Describes itself as a national collaborative project that aggregates biodiversity data from several
+    sources and makes it freely available online.
+  url: https://gbifchile.mma.gob.cl/que-es-gbif/
+  fetched: 2026-11-02
+  quote: GBIF Chile es un proyecto nacional de colaboración que agrega datos de biodiversidad de múltiples
+    fuentes
+- claim: Chile signed the GBIF memorandum in 2009 and GBIF was established in Chile in 2012.
+  url: https://gbifchile.mma.gob.cl/que-es-gbif/
+  fetched: 2026-11-02
+  quote: Chile firmó este Memorando el año 2009 y GBIF se estableció en Chile el año 2012
+links:
+- type: run-by
+  to: ministerio-del-medio-ambiente-de-chile
+  url: https://gbifchile.mma.gob.cl/que-es-gbif/
+  fetched: 2026-11-02
+  quote: La entidad signataria es el Ministerio del Medio Ambiente, responsable de coordinar las actividades
+    relacionadas con GBIF en el país.
+- type: run-by
+  to: ministerio-del-medio-ambiente-de-chile
+  url: https://gbifchile.mma.gob.cl/
+  fetched: '2026-11-02'
+  quote: proyecto coordinado por el Ministerio del Medio Ambiente de Chile
+- type: run-by
+  to: ministerio-del-medio-ambiente-de-chile
+  url: https://gbifchile.mma.gob.cl/
+  fetched: '2026-11-02'
+  quote: proyecto coordinado por el Ministerio del Medio Ambiente de Chile.
+- type: run-by
+  to: ministerio-del-medio-ambiente-de-chile
+  url: https://gbifchile.mma.gob.cl/que-es-gbif/
+  fetched: 2026-11-02
+  quote: responsable de coordinar las actividades relacionadas con GBIF en el país
+found_by:
+- checklist:2
+- link-from:queue
+- link-from:ministerio-del-medio-ambiente-chile
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,51 @@
+id: fish-predict
+kind: project
+name: FISH-PREDICT
+also_known_as:
+- Prédire la biodiversité des poissons récifaux
+scope: fr
+ai_label: ai
+realms:
+- ocean
+status: unknown
+runner: unknown
+summary: A French consortium in the Challenge IA-Biodiv working on predicting reef fish biodiversity.
+facts:
+- claim: Carried by a French consortium including MARBEC, LIRMM and the Centre d'écologie
+    fonctionnelle et évolutive.
+  url: https://anr.fr/fr/actus/details/news/lintelligence-artificielle-au-service-de-la-biodiversite-marine-demarrage-dun-challenge-scientif/
+  quote: Le projet FISH-PREDICT ( Prédire la biodiversité des poissons récifaux ) est porté
+    par un consortium français
+  fetched: '2026-10-31'
+- claim: Selected and funded by the ANR in the IA-Biodiv challenge to predict reef fish biodiversity.
+  url: https://anr.fr/fileadmin/aap/2021/selection/AAP-ChallengeIABiodiv-selection-2021.pdf
+  fetched: '2026-10-31'
+  quote: FISH-PREDICT Prédire la biodiversité des poissons récifaux
+- claim: Develops AI methods to predict reef fish biodiversity from video, satellite images
+    and environmental DNA data.
+  url: https://anr.fr/fr/actus/details/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/?cHash=d6757fb10db4aa5c409c35778b765489&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News
+  fetched: '2026-10-31'
+  quote: Ce consortium développe des méthodes d’IA pour prédire la biodiversité, la distribution
+    et l’abondance des poissons récifaux
+links:
+- type: partners-with
+  to: ia-biodiv-challenge
+  url: https://anr.fr/fr/actus/details/news/lintelligence-artificielle-au-service-de-la-biodiversite-marine-demarrage-dun-challenge-scientif/
+  quote: Le projet FISH-PREDICT ( Prédire la biodiversité des poissons récifaux )
+  fetched: '2026-10-31'
+- type: funded-by
+  to: agence-nationale-de-la-recherche
+  url: https://anr.fr/fileadmin/aap/2021/selection/AAP-ChallengeIABiodiv-selection-2021.pdf
+  fetched: '2026-10-31'
+  quote: Liste des projets sélectionnés et financés par l’ANR
+found_by:
+- checklist:7
+- link-from:ia-biodiv-challenge
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr
+techniques:
+- computer-vision
+- remote-sensing
+- edna-genomics

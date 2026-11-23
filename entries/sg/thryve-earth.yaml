@@ -1,0 +1,75 @@
+id: thryve-earth
+kind: organisation
+name: Thryve.Earth
+also_known_as:
+- Thryve
+scope: sg
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+- large-language-models
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sg
+countries:
+- id
+- in
+scale: regional
+status: active
+website: https://www.thryve.earth
+summary: Carbon project developer with a Singapore address that maps land cover with
+  satellite imagery and machine learning to find eligible parcels, listing restoration
+  in Indonesia and agroforestry in India.
+facts:
+- claim: Describes itself as a carbon project developer.
+  url: https://www.thryve.earth/
+  fetched: 2026-11-22
+  quote: We are a carbon project developer
+- claim: Is a registered company, Thryve.Earth PTE. LTD.
+  url: https://thryve.earth/terms-and-conditions
+  fetched: 2026-11-22
+  quote: Thryve.Earth PTE. LTD.
+- claim: Gives a Singapore address.
+  url: https://www.thryve.earth/
+  fetched: 2026-11-22
+  quote: '72 Circular Road, #02-01, Singapore 049426'
+- claim: Maps land use and land cover from field data, time-series satellite imagery
+    and machine-learning classifiers, to find eligible parcels and flag degraded areas.
+  url: https://thryve.earth/our-tech
+  fetched: 2026-11-22
+  quote: We combine field-verified data, time-series satellite imagery, and ML classifiers
+    (e.g. Random Forest, SVM, neural nets) to generate ultra-local, high-accuracy
+    land use/land cover maps.
+- claim: Names random forest and support vector machine classifiers in its land cover
+    mapping.
+  url: https://thryve.earth/our-tech
+  fetched: 2026-11-22
+  ai_type: ml-supervised
+  quote: ML classifiers (e.g. Random Forest, SVM, neural nets)
+- claim: Offers investors a search tool over project documents that uses a large language
+    model, with human oversight.
+  url: https://thryve.earth/our-tech
+  fetched: 2026-11-22
+  ai_type: large-language-models
+  quote: LLM-enhanced search and dynamic synthesis, while maintaining human oversight.
+- claim: Lists a forest landscape restoration project in Sulawesi, Indonesia, that
+    aims to support restoration of 6,000 hectares.
+  url: https://thryve.earth/project/sulawesi
+  fetched: 2026-11-22
+  quote: This project aims to support the restoration of 6,000 hectares of this landscape,
+    with the potential to expand to 10,000 hectares.
+- claim: Lists an agroforestry project in India alongside the Sulawesi restoration
+    project.
+  url: https://www.thryve.earth/
+  fetched: 2026-11-22
+  quote: 'Regenerating landscapes: Agroforestry initiatives in India'
+links: []
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

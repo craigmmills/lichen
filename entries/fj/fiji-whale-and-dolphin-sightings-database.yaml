@@ -1,0 +1,22 @@
+id: fiji-whale-and-dolphin-sightings-database
+kind: dataset
+name: Whale & Dolphin Sightings Database
+scope: fj
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- fj
+status: unknown
+runner: unknown
+summary: A national database of whale and dolphin sightings in Fiji, fed by sightings forms
+  from boaters. The page read does not name who holds it.
+facts:
+- claim: Listed as a national project that boaters can send sightings to.
+  url: https://www.fijimarinas.com/citizen-science/
+  quote: The first is the national Whale & Dolphin Sightings Database.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

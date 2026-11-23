@@ -1,0 +1,77 @@
+id: university-of-south-bohemia
+kind: organisation
+name: University of South Bohemia
+also_known_as:
+- Jihočeská univerzita v Českých Budějovicích
+scope: cz
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- cz
+scale: national
+status: active
+summary: A Czech university that builds Pladias and is listed by Biodiversa+ as a partner
+  in FunDive and SEPPI, through its Faculty of Science and Department of Biology of Ecosystems.
+facts:
+- claim: Biodiversa+ lists its Faculty of Science, Department of Zoology, as a FunDive partner.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: 2026-11-07
+  quote: Faculty of Science, Department of Zoology, University of South Bohemia, Ceske Budejovice,
+    Czech Republic
+- claim: Biodiversa+ lists its Department of Biology of Ecosystems as a SEPPI partner.
+  url: https://www.biodiversa.eu/2024/04/15/seppi/
+  fetched: 2026-11-07
+  quote: Department of Biology of ecosystems, University of South Bohemia, Ceske Budejovice,
+    Czech Republic
+- claim: The Pladias site says the database was prepared by the University of South Bohemia
+    with Masaryk University and the Institute of Botany.
+  url: https://pladias.cz/en
+  fetched: 2026-11-07
+  quote: prepared by Masaryk University, the Institute of Botany of The Czech Academy of Sciences
+    and University of South Bohemia
+- claim: Its Faculty of Science's GBIF publisher record says it collects data during field
+    trips and citizen science projects.
+  url: https://api.gbif.org/v1/organization/33d6af32-c486-4bcc-84eb-808ef68f3eb5
+  fetched: 2026-11-07
+  quote: We collect data during field trips, citizen science projects
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: 2026-11-07
+  quote: Faculty of Science, Department of Zoology, University of South Bohemia, Ceske Budejovice,
+    Czech Republic
+- type: partners-with
+  to: seppi
+  url: https://www.biodiversa.eu/2024/04/15/seppi/
+  fetched: 2026-11-07
+  quote: Department of Biology of ecosystems, University of South Bohemia, Ceske Budejovice,
+    Czech Republic
+- type: partners-with
+  to: plantbank
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: University of South Bohemia – Faculty of Science;
+- type: partners-with
+  to: midipeat
+  url: https://www.biodiversa.eu/2024/04/15/midipeat/
+  fetched: 2026-11-07
+  quote: Faculty of Science, University of South Bohemia in Ceske Budejovice (USB), Ceske
+    Budejovice, Czech Republic
+- type: builds
+  to: pladias
+  url: https://pladias.cz/en
+  fetched: 2026-11-07
+  quote: prepared by Masaryk University, the Institute of Botany of The Czech Academy of Sciences
+    and University of South Bohemia
+found_by:
+- link-from:fundive
+- link-from:seppi
+- register:cz
+added_by: agent
+checked: 2026-11-07

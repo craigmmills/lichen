@@ -1,0 +1,31 @@
+id: northern-australian-fire-information
+kind: programme
+name: Northern Australian Fire Information
+also_known_as:
+- NAFI
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://firenorth.org.au
+summary: Non-profit unit at Charles Darwin University that publishes satellite fire
+  hotspots and related maps for Australian landscapes.
+facts:
+- claim: Hotspots are detected automatically by satellites and sent to the NAFI website.
+  url: https://firenorth.org.au/nafi4/help/faqs
+  fetched: '2026-10-31'
+  quote: A computer algorithm identifies the “hotspots” in the satellite image and
+    their locations are sent to the NAFI website and displayed on a map.
+links:
+- type: run-by
+  to: charles-darwin-university
+  url: https://firenorth.org.au/nafi4/help/faqs
+  fetched: '2026-10-31'
+  quote: NAFI is a non-profit unit based at Charles Darwin University
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

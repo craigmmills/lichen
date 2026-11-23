@@ -1,0 +1,59 @@
+id: spotgalamsey
+kind: project
+name: SpotGalamsey
+scope: gh
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- gh
+status: active
+runner: unknown
+website: https://spotgalamsey.org/
+summary: A platform that describes itself as using AI and satellite imagery to detect
+  and track illegal mining across Ghana, with automated reports sent to the NAIMOS
+  Taskforce for enforcement.
+facts:
+- claim: Describes itself as an AI-powered environmental monitoring platform that
+    uses satellite imagery to detect, track and report illegal mining across Ghana.
+  url: https://spotgalamsey.org/about
+  fetched: 2026-11-12
+  quote: SpotGalamsey is an AI-powered environmental monitoring platform that uses
+    satellite imagery to detect, track, and report illegal mining activity across
+    Ghana.
+- claim: Uses satellite imagery and machine learning to detect new mining sites within
+    days and monitor existing ones.
+  url: https://spotgalamsey.org/about
+  fetched: 2026-11-12
+  quote: By leveraging satellite imagery and machine learning, we can detect new mining
+    sites within days of their appearance, monitor the expansion of existing operations
+- claim: Its machine learning pipeline is trained on confirmed galamsey sites, with
+    drone surveillance for ground-truth checks.
+  url: https://spotgalamsey.org/about
+  fetched: 2026-11-12
+  quote: Training on confirmed galamsey sites across all severity levels
+- claim: Sends automated reports to the NAIMOS Taskforce for enforcement.
+  url: https://spotgalamsey.org/about
+  fetched: 2026-11-12
+  quote: Automated intelligence reports are generated and forwarded to the NAIMOS
+    Taskforce for investigation and action.
+links:
+- type: partners-with
+  to: national-alternative-and-innovative-mining-operations-secretariat
+  url: https://spotgalamsey.org/about
+  fetched: 2026-11-12
+  quote: SpotGalamsey operates in partnership with government agencies, technology
+    providers, and industry partners.
+- type: partners-with
+  to: amazon-web-services
+  url: https://spotgalamsey.org/about
+  fetched: 2026-11-12
+  quote: Amazon Web Services provides cloud computing credits that power our satellite
+    imagery processing and machine learning infrastructure.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

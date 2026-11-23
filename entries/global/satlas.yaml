@@ -1,0 +1,39 @@
+id: satlas
+kind: dataset
+name: Satlas
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/allenai/satlas
+summary: Ai2's open AI-generated geospatial data computed from Sentinel-2 imagery, updated monthly, with foundation models pre-trained on the SatlasPretrain dataset.
+ai_types:
+- foundation-models
+facts:
+- claim: Aims to provide open AI-generated geospatial data updated monthly.
+  url: https://github.com/allenai/satlas
+  fetched: &id001 2026-10-30
+  quote: Satlas aims to provide open AI-generated geospatial data that is highly accurate, available globally, and updated on a frequent (monthly) basis.
+- claim: Computed by deep learning models on Sentinel-2 imagery.
+  url: https://github.com/allenai/satlas
+  fetched: *id001
+  quote: computed by applying deep learning models on Sentinel-2 satellite imagery
+- claim: "The Satlas repository offers foundation models pre-trained on SatlasPretrain."
+  url: "https://github.com/allenai/satlas"
+  fetched: "2026-10-31"
+  quote: "Download and fine-tune our foundation models for remote sensing . These models are pre-trained on SatlasPretrain."
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: allen-institute-for-ai
+  url: https://allenai.org/ai-for-the-environment
+  fetched: *id001
+  quote: "Satlas Use satellite imagery to see how our planet’s surface is changing and explore how our AI models can enhance low-resolution satellite imagery"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

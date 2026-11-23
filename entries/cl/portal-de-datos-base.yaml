@@ -1,0 +1,37 @@
+id: portal-de-datos-base
+kind: programme
+name: BASE Millennium Institute Research Data Portal
+also_known_as:
+- Portal de Datos BASE
+scope: cl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: http://institutobase.cl/en/base-data-portal/
+summary: An active research data portal, built and run by the BASE Millennium Institute, integrating datasets
+  published since 2022 in open repositories such as GBIF, Zenodo and GenBank.
+facts:
+- claim: Integrates datasets published since 2022 in open repositories such as GBIF, Zenodo and GenBank.
+  url: http://institutobase.cl/en/base-data-portal/
+  fetched: 2026-11-02
+  quote: The portal integrates datasets published since 2022 in international open-access repositories
+    such as GBIF, Zenodo, GenBank
+links:
+- type: built-by
+  to: instituto-milenio-base
+  url: http://institutobase.cl/en/base-data-portal/
+  fetched: &id001 2026-11-02
+  quote: was developed autonomously by the Data Management Unit
+- type: run-by
+  to: instituto-milenio-base
+  url: http://institutobase.cl/en/base-data-portal/
+  fetched: *id001
+  quote: Explore datasets, maps, and biological records from the BASE Millennium Institute on our official
+    data platform.
+found_by:
+- link-from:instituto-milenio-base
+added_by: agent
+checked: 2026-11-02

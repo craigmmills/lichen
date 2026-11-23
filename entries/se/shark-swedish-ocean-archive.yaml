@@ -1,0 +1,55 @@
+id: shark-swedish-ocean-archive
+kind: dataset
+name: SHARK
+also_known_as:
+- Svenskt HavsARKiv
+- SHARK
+- Svenskt havsarkiv
+scope: se
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- se
+status: active
+summary: Active dataset run by SMHI, which stores national and regional biological, physical and chemical
+  marine monitoring data, available through a web interface and REST API.
+facts:
+- claim: SMHI stores and supplies national and regional monitoring data as data host.
+  url: https://www.smhi.se/data/oceanografi/datavardskap-oceanografi-och-marinbiologi/sharkweb
+  fetched: '2026-11-02'
+  quote: Datavärden lagrar och tillhandahåller nationella och regionala data, recipientkontroll och projektdata
+    från svensk miljöövervakning och miljöinventering.
+- claim: Stores biological, physical and chemical marine monitoring data.
+  url: https://biodiversitydata.se/explore-data/
+  fetched: 2026-11-02
+  quote: SHARK stores biological, physical and chemical marine environmental monitoring data.
+- claim: Data are stored in SHARK and available through a web interface and REST API.
+  url: https://www.smhi.se/data/hav-och-havsmiljo/datavardskap-oceanografi-och-marinbiologi
+  fetched: '2026-11-02'
+  quote: Data lagras i Svenskt HavsARKiv (SHARK) och görs tillgängliga via webbgränssnitt och REST API.
+- claim: SMHI publishes the data through SHARKweb and SHARKdata.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: SMHI carries out quality control of data and publishes data through the web site SHARKweb and
+    through the API SHARKdata.
+links:
+- type: run-by
+  to: swedish-meteorological-and-hydrological-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SMHI carries out quality control of data and publishes data through the web site SHARKweb and
+    through the API SHARKdata.
+- type: run-by
+  to: swedish-meteorological-and-hydrological-institute
+  url: https://researchdata.se/en/catalogue/dataset/gbif-sweden-10-15468-5ebhr2
+  fetched: '2026-11-02'
+  quote: Data is stored in the Swedish Ocean Archive database (SHARK), by the Swedish Meteorological and
+    Hydrological Institute,
+found_by:
+- checklist:2
+- link-from:swedish-biodiversity-data-infrastructure
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

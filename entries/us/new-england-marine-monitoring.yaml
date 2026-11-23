@@ -1,0 +1,56 @@
+id: new-england-marine-monitoring
+kind: organisation
+name: New England Marine Monitoring
+scope: us
+sector: company
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+hq: us
+scale: regional
+status: active
+summary: Electronic monitoring services company for New England fishermen, providing video
+  review, vessel technical support and programme design.
+facts:
+- claim: Electronic monitoring services company.
+  url: https://www.gmri.org/projects/new-england-marine-monitoring/
+  fetched: '2026-10-30'
+  quote: New England Marine Monitoring is an electronic monitoring (EM) services company that
+    provides video review, on-vessel technical support, and program design service to New
+    England fishermen.
+- claim: Swanson Reed describes it as a Maine company using AI for groundfish data.
+  url: https://www.swansonreed.com/?p=23833
+  fetched: '2026-10-30'
+  quote: a Maine company, got its start using artificial intelligence to improve data collection
+    for groundfish fishermen
+- claim: Approved provider.
+  url: https://www.fisheries.noaa.gov/node/183591
+  fetched: '2026-10-30'
+  quote: New England Marine Monitoring ASM/EM 350 Commercial St
+- claim: NOAA's provider list gives an address on Commercial Street in Portland, Maine.
+  url: https://www.fisheries.noaa.gov/node/183591
+  fetched: '2026-10-31'
+  quote: New England Marine Monitoring ASM/EM 350 Commercial St Portland, ME
+found_by:
+- checklist:5
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+techniques:
+- computer-vision
+links:
+- type: funded-by
+  to: national-fish-and-wildlife-foundation
+  url: https://www.nfwf.org/sites/default/files/2025-07/nfwf-emr-20250714-gs.pdf
+  fetched: '2026-10-30'
+  quote: 'Grantee: New England Marine Monitoring'
+- type: run-by
+  to: gulf-of-maine-research-institute
+  url: https://www.swansonreed.com/?p=23833
+  fetched: '2026-10-30'
+  quote: As a venture of the Gulf of Maine Research Institute’s Ocean Business Accelerator

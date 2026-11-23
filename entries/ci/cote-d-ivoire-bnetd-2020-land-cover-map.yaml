@@ -1,0 +1,50 @@
+id: cote-d-ivoire-bnetd-2020-land-cover-map
+kind: dataset
+name: Côte d'Ivoire BNETD 2020 Land Cover Map
+scope: ci
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ci
+status: active
+summary: A yearly land cover map at 10 metre pixel size, made by the Ivorian government's geographic centre
+  with EU funding, noted as relevant to checking forest status against the EUDR 2020 cut-off.
+facts:
+- claim: The Earth Engine catalogue says the map was produced by the Ivorian government with technical
+    and financial support from the European Union.
+  url: https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1
+  fetched: 2026-11-08
+  quote: The Cote d'Ivoire BNETD 2020 Land Cover Map was produced by the Ivorian Government with technical
+    and financial support from the European Union.
+- claim: The catalogue gives a pixel size of 10 metres and a yearly cadence.
+  url: https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1
+  fetched: 2026-11-08
+  quote: The dataset is available for the period of 2020-01-01 to 2021-01-01 and has a cadence of 1 year,
+    with a pixel size of 10 meters.
+- claim: The catalogue says the map is relevant to EUDR due diligence on whether a plot was forested before
+    the 2020 cut-off.
+  url: https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1
+  fetched: 2026-11-08
+  quote: The map is relevant for the EUDR due diligence process to assess the risk of a plot being located
+    in an area that was forested before the 2020 cut-off date.
+links:
+- type: built-by
+  to: centre-d-information-geographique-et-du-numerique-bnetd
+  url: https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1
+  fetched: 2026-11-08
+  quote: The Cote d'Ivoire BNETD 2020 Land Cover Map was produced by the Ivorian Government through a
+    national institution, the Center for Geographic Information and Digital from the National Study Office
+    Techniques and Development (BNETD-CIGN)
+- type: funded-by
+  to: european-union
+  url: https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1
+  fetched: 2026-11-08
+  quote: The Cote d'Ivoire BNETD 2020 Land Cover Map was produced by the Ivorian Government with technical
+    and financial support from the European Union.
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

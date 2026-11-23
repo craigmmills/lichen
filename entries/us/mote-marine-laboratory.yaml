@@ -1,0 +1,40 @@
+id: mote-marine-laboratory
+kind: organisation
+name: Mote Marine Laboratory & Aquarium
+scope: us
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+scale: regional
+status: active
+website: https://mote.org/
+summary: Sarasota, Florida marine laboratory whose Center for Fisheries Electronic Monitoring
+  uses AI for catch detection in the Gulf of Mexico reef fish fishery.
+facts:
+- claim: Its aquarium is at 225 University Town Center Drive, Sarasota, Florida.
+  url: https://mote.org/research/centers-of-excellence/cfemm/
+  quote: Mote SEA is at 225 University Town Center Drive, Sarasota, FL.
+  fetched: '2026-10-30'
+- claim: The IRS exempt organisation record, through ProPublica, lists Mote Marine Laboratory
+    at Sarasota, Florida.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/590756643.json
+  fetched: '2026-10-31'
+  quote: '"city":"Sarasota","state":"FL"'
+links:
+- type: runs
+  to: center-for-fisheries-electronic-monitoring-at-mote
+  url: https://mote.org/research/centers-of-excellence/cfemm/
+  quote: the independent, nonprofit Mote Marine Laboratory operates the Center for Fisheries
+    Electronic Monitoring at Mote (CFEMM)
+  fetched: '2026-10-30'
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-30'

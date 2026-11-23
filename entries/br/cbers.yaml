@@ -1,0 +1,34 @@
+id: cbers
+kind: programme
+name: China-Brazil Earth Resources Satellite
+also_known_as:
+- CBERS
+- CBERS-4A
+- Satélite Sino-Brasileiro de Recursos Terrestres
+scope: br
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+- cn
+runner: unknown
+summary: Satellite programme of Brazil and China whose imagery feeds INPE's PRODES and DETER
+  deforestation monitoring.
+facts:
+- claim: A joint Brazil and China satellite programme.
+  url: https://dialogue.earth/pt-br/florestas/29044-programa-de-satelites-china-brasil-combate-desmatamento-na-amazonia/
+  quote: Brasil e China lançarão o sexto satélite do programa CBERS
+  fetched: '2026-10-31'
+- claim: An INPE presentation lists CBERS-4, CBERS-4A and Amazonia-1 as sources for DETER
+    Cerrado.
+  url: https://terrabrasilis.github.io/treinamento-dados-aplicacoes/apresentacoes/gomes/COEAM_Projetos_e_atividades.pdf
+  quote: Satélites CBERS-4, CBERS- 4A e Amazonia-1, sensor AWFI.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

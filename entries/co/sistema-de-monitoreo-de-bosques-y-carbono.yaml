@@ -1,0 +1,84 @@
+id: sistema-de-monitoreo-de-bosques-y-carbono
+kind: programme
+name: Sistema de Monitoreo de Bosques y Carbono
+also_known_as:
+- SMByC
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- co
+summary: Colombia's official national forest monitoring system, run by IDEAM. It processes
+  satellite images with eight algorithms to identify deforested areas and issues early
+  deforestation alerts.
+facts:
+- claim: Uses digital processing of satellite images and eight algorithms to identify
+    deforested areas.
+  url: https://www.minambiente.gov.co/modernizacion-en-el-monitoreo-de-bosques-una-de-las-claves-para-frenar-la-deforestacion/
+  quote: mayor procesamiento digital de imágenes satelitales y ocho algoritmos que
+    permiten la identificación de las áreas deforestadas en el país
+  fetched: '2026-10-31'
+- claim: Issues early deforestation alerts.
+  url: https://visionamazonia.minambiente.gov.co/content/uploads/2023/04/SMByC_Resumen-ejecutivo.pdf
+  quote: reportes semanales de Alertas Tempranas de deforestación
+  fetched: '2026-10-31'
+- claim: Defined as the set of processes, methods, protocols and tools for periodic
+    information on forest area in Colombia.
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  fetched: '2026-10-31'
+  quote: es el conjunto de procesos, metodologías, protocolos y herramientas para
+    la generación periódica de información sobre
+- claim: Supports forest monitoring capacity in regional environmental authorities.
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  fetched: '2026-10-31'
+  quote: Apoyar el fortalecimiento de capacidades para el monitoreo de bosques en
+    las autoridades ambientales regionales
+- claim: IDEAM's page gives a purpose of the system as generating official information
+    on natural forest area and change and early deforestation alerts.
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  fetched: '2026-10-31'
+  quote: Generar la información oficial sobre la superficie y cambios del bosque natural
+    y alertas tempranas de deforestación
+- claim: The Universidad de los Andes register says it uses PlanetScope, Landsat and
+    Sentinel satellite images.
+  url: https://algoritmos.uniandes.edu.co/sistema-de-monitoreo-de-bosques-y-carbono-smbyc/
+  fetched: '2026-10-31'
+  quote: a partir de imágenes satelitales de Planet Scope, Landsat y Sentinel
+- claim: IDEAM defines the system as a set of processes, methods, protocols and tools
+    for producing periodic information.
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  quote: 'El Sistema de Monitoreo de Bosques y Carbono (SMByC) es el conjunto de procesos,
+    metodologías, protocolos y herramientas para la generación periódica de información
+    sobre:'
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: instituto-de-hidrologia-meteorologia-y-estudios-ambientales
+  url: https://www.minambiente.gov.co/modernizacion-en-el-monitoreo-de-bosques-una-de-las-claves-para-frenar-la-deforestacion/
+  quote: El Sistema de Monitoreo de Bosques y Carbono (SMByC) del Instituto de Hidrología,
+    Meteorología y Estudios Ambientales (Ideam)
+  fetched: '2026-10-31'
+- type: run-by
+  to: instituto-de-hidrologia-meteorologia-y-estudios-ambientales
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  fetched: '2026-10-31'
+  quote: Sistema de monitoreo de bosques y carbono | Instituto de Hidrología, Meteorología
+    y Estudios Ambientales
+- type: run-by
+  to: instituto-de-hidrologia-meteorologia-y-estudios-ambientales
+  url: https://algoritmos.uniandes.edu.co/sistema-de-monitoreo-de-bosques-y-carbono-smbyc/
+  fetched: '2026-10-31'
+  quote: Entidad pública Instituto de Hidrología, Meteorología y Estudios Ambientales
+    (IDEAM)
+found_by:
+- checklist:2
+- link-from:ideam
+- register:gbif-publisher
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+roles:
+- supplies-data

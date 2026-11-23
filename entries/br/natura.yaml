@@ -1,0 +1,45 @@
+id: natura
+kind: organisation
+name: Natura
+scope: br
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: br
+countries:
+- br
+scale: national
+status: active
+summary: Brazilian cosmetics company that used Bioverse's drone and AI system to inventory
+  six species across 40,000 hectares of Amazon forest for its supply chains.
+facts:
+- claim: Inventoried six key species across 40,000 hectares in six months with Bioverse's
+    technology.
+  url: https://agencia.fapesp.br/drones-speed-up-execution-of-forest-inventories/53899
+  fetched: '2026-10-30'
+  quote: locating six key species for its production process distributed in 40,000 hectares
+    of forest
+- claim: The federal company register, as shown on cnpj-api.com, lists Natura Cosméticos S/A.
+  url: https://cnpj-api.com/en/cnpj/71673990000177
+  quote: Legal Name NATURA COSMETICOS S/A Trade Name NATURA
+  fetched: '2026-10-31'
+- claim: The federal company register, as shown on cnpj-api.com, gives this address.
+  url: https://cnpj-api.com/en/cnpj/71673990000177
+  quote: Street Address AVENIDA ALEXANDRE COLARES 1188 Neighborhood PQ ANHANGUERA Zip Code
+    05106-000 City / State SAO PAULO / SP
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: bioverse
+  url: https://agencia.fapesp.br/drones-speed-up-execution-of-forest-inventories/53899
+  fetched: '2026-10-30'
+  quote: Natura is partnering with Bioverse
+found_by:
+- link-from:queue-br
+added_by: agent
+checked: '2026-10-31'

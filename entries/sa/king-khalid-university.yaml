@@ -1,0 +1,37 @@
+id: king-khalid-university
+kind: organisation
+name: King Khalid University
+scope: sa
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- sa
+scale: national
+status: active
+summary: A university whose authors, according to OpenAlex, published 2021 papers predicting
+  Asir land cover using a neural network and modelling ecosystem health in Saudi Arabia.
+facts:
+- claim: OpenAlex lists a 2021 paper by King Khalid University authors predicting land cover
+    in Asir with a multi-layer perceptron neural network.
+  url: https://api.openalex.org/works/doi:10.1007/s12145-021-00633-2
+  fetched: 2026-11-03
+  quote: Spatial and decadal prediction of land use/land cover using multi-layer perceptron-neural
+    network (MLP-NN) algorithm for a semi-arid region of Asir, Saudi Arabia
+- claim: OpenAlex lists a 2021 paper by King Khalid University authors modelling ecosystem
+    health in Saudi Arabia.
+  url: https://api.openalex.org/works/doi:10.3390/rs13132632
+  fetched: 2026-11-03
+  quote: 'A Novel Technique for Modeling Ecosystem Health Condition: A Case Study in Saudi
+    Arabia'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

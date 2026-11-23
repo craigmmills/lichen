@@ -1,0 +1,39 @@
+id: mapbiomas-alerta
+kind: programme
+name: MapBiomas Alerta
+scope: br
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+website: https://alerta.mapbiomas.org
+summary: System that validates and refines deforestation alerts with high-resolution
+  satellite images for all Brazilian biomes and publishes reports on each event openly
+  and free of charge.
+facts:
+- claim: A system for validating and refining deforestation alerts with high-resolution
+    satellite images.
+  url: https://alerta.mapbiomas.org
+  fetched: '2026-10-30'
+  quote: MapBiomas Alerta é um sistema de validação e refinamento de alertas de desmatamento
+    com imagens de satélite de alta resolução.
+- claim: Brings together alerts from several detection systems for all Brazilian biomes.
+  url: https://alerta.mapbiomas.org
+  fetched: '2026-10-30'
+  quote: reunimos os alertas provenientes de diversos sistemas de detecção para todos
+    os biomas do Brasil
+links:
+- type: run-by
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org
+  fetched: '2026-10-30'
+  quote: A iniciativa MapBiomas Alerta publica toda e qualquer perda de vegetação
+    nativa
+found_by:
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-10-30'

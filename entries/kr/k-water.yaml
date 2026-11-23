@@ -1,0 +1,78 @@
+id: k-water
+kind: organisation
+name: K-water
+scope: kr
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+scale: national
+hq: kr
+status: active
+summary: Korean water body whose research covers satellite and drone monitoring of rivers,
+  dams and algae, and which a June 2026 report says would apply its chlorophyll-a technology
+  on the Nakdong River.
+facts:
+- claim: Researches monitoring of unmeasured shared rivers and dams by satellite.
+  url: https://www.kwater.or.kr/kiwe/field/sub08/sate01Page.do?s_mid=2235
+  fetched: '2026-11-02'
+  quote: 인공위성을 통한 접경댐 모니터링 방법 연구·개발·운용으로 미계측 공유하천 수자원/수재해 대응
+- claim: Its satellite research unit page lists establishment of a research institute for
+    stable satellite operation and information use.
+  url: https://www.kwater.or.kr/kiwe/field/sub08/sate01Page.do?s_mid=2235
+  fetched: '2026-11-02'
+  quote: 수자원위성의 안정적 운영 및 정보활용을 위한 수자원위성연구소 설립
+- claim: OpenAlex lists Korea Water Resources Corporation among Korean institutions with deep
+    learning work in ecology.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:kr,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage
+  fetched: '2026-11-02'
+  quote: Korea Water Resources Corporation (South Korea)
+- claim: Research list includes monitoring for algal bloom and aquatic ecosystem management.
+  url: https://www.kwater.or.kr/kiwe/field/sub02/wtsdMgt02Page.do?s_mid=2058
+  fetched: '2026-11-02'
+  quote: 사전예방적(녹조·수생태) 관리를 위한 모니터링 및 제어기술 개발
+- claim: Research list includes improved algal bloom forecasting.
+  url: https://www.kwater.or.kr/kiwe/field/sub02/wtsdMgt02Page.do?s_mid=2058
+  fetched: '2026-11-02'
+  quote: 녹조예측 기술 고도화를 통한 사전대책 최적 적용방안 도출 연구
+- claim: AI centre page lists big data and AI research.
+  url: https://www.kwater.or.kr/kiwe/field/sub05/tech01Page.do?s_mid=2061
+  fetched: '2026-11-02'
+  quote: 미래 핵심기술 개발 및 플랫폼 연계를 위한 빅데이터·인공지능(AI) 요소기술 연구
+- claim: Research institute address is in Daejeon.
+  url: https://www.kwater.or.kr/kiwe/field/sub05/tech01Page.do?s_mid=2061
+  fetched: '2026-11-02'
+  quote: 우편번호 34045 대전광역시 유성구 유성대로 1689번길 125(전민동 462-1)
+- claim: Monitors algae across watersheds using weekly chlorophyll-a data from the European
+    Space Agency.
+  url: https://www.kwater.or.kr/eng/busi/water01/prevention04Page.do?s_mid=1906
+  fetched: 2026-11-02
+  quote: Monitor watershed-based algae distribution based on weekly Chl-a data provided by
+    the European Space Agency
+- claim: Monitors green algae with unmanned aerial vehicles carrying multi-spectral cameras.
+  url: https://www.kwater.or.kr/eng/busi/water01/prevention04Page.do?s_mid=1906
+  fetched: 2026-11-02
+  quote: Green Algae Monitoring on extensive zones using unmanned aerial vehicles with multi-spectral
+    cameras
+- claim: A June 2026 report says it would apply its own satellite-based chlorophyll-a estimation
+    technology to algae monitoring on the Nakdong River under an agreement with two other
+    agencies.
+  url: https://biz.heraldcorp.com/article/10775257
+  fetched: 2026-11-02
+  quote: K-water will apply its independently developed satellite-based chlorophyll-a concentration
+    estimation technology to visualize the eutrophication level of water systems
+found_by:
+- checklist:2
+- checklist:7
+- register:kr
+also_known_as:
+- Korea Water Resources Corporation
+- Korea Water Resources Corp.
+realms:
+- freshwater
+techniques:
+- remote-sensing
+website: https://www.kwater.or.kr
+added_by: agent
+checked: '2026-11-02'

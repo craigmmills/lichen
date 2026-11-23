@@ -1,0 +1,33 @@
+id: eeiko
+kind: programme
+name: EEIKO
+scope: es
+ai_label: conservation-tech
+status: active
+realms:
+- land
+website: http://www.eeiko.es/
+summary: Multi-platform application for controlling invasive exotic plants, fed by
+  records from the public that a technical team validates.
+facts:
+- claim: A multi-platform application for controlling invasive exotic flora.
+  url: http://www.eeiko.es/
+  fetched: '2026-10-31'
+  quote: Aplicación multiplataforma para el control de las especies de flora exótica
+    invasora
+- claim: Records come from the public and are validated by a technical team.
+  url: https://api.gbif.org/v1/organization/4701cb61-2296-4d74-bc87-525303218515/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: a través de la aportación realizada por la ciudadanía y validada por una
+    equipo técnico
+links:
+- type: run-by
+  to: basoinsa
+  url: https://api.gbif.org/v1/organization/4701cb61-2296-4d74-bc87-525303218515/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Desarrollado por Basoinsa
+found_by:
+- register:es
+- link-from:basoinsa
+added_by: agent
+checked: '2026-10-31'

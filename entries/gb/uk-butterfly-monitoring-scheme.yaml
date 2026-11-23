@@ -1,0 +1,75 @@
+id: uk-butterfly-monitoring-scheme
+kind: dataset
+name: UK Butterfly Monitoring Scheme
+ai_label: data-infrastructure
+summary: Long-running butterfly monitoring scheme, begun in 1976, recording on over
+  3,000 sites a year.
+facts:
+- claim: Began in 1976 and records data on over 3,000 sites a year.
+  url: https://ukbms.org/
+  quote: The scheme began in 1976 and now records data on over 3,000 sites per year
+  fetched: '2026-10-30'
+- claim: Long-running insect monitoring scheme recording over 3,000 sites a year.
+  url: https://www.ukbms.org
+  fetched: '2026-10-30'
+  quote: The scheme began in 1976 and now records data on over 3,000 sites per year
+- claim: Publishes the dataset "Wider Countryside Butterfly Scheme (WCBS)" on GBIF.
+  url: https://api.gbif.org/v1/organization/179ccc1f-7315-4925-9725-69377ca8b6d4/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Wider Countryside Butterfly Scheme (WCBS)
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/179ccc1f-7315-4925-9725-69377ca8b6d4/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: run-by
+  to: butterfly-conservation
+  url: https://ukbms.org/
+  quote: The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation
+    (BC)
+  fetched: '2026-10-30'
+- type: run-by
+  to: british-trust-for-ornithology
+  url: https://ukbms.org/
+  quote: "The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation (BC) , the UK Centre for Ecology and Hydrology (UKCEH) , the British Trust for Ornithology (BTO) and the Joint Nature Conservation Committee (JNCC)"
+  fetched: '2026-10-30'
+- type: run-by
+  to: joint-nature-conservation-committee
+  url: https://ukbms.org/
+  quote: "The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation (BC) , the UK Centre for Ecology and Hydrology (UKCEH) , the British Trust for Ornithology (BTO) and the Joint Nature Conservation Committee (JNCC)"
+  fetched: '2026-10-30'
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://ukbms.org/
+  quote: "The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation (BC) , the UK Centre for Ecology and Hydrology (UKCEH) , the British Trust for Ornithology (BTO) and the Joint Nature Conservation Committee (JNCC)"
+  fetched: '2026-10-30'
+- type: run-by
+  to: butterfly-conservation
+  url: https://www.ukbms.org
+  fetched: '2026-10-30'
+  quote: The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation
+    (BC)
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://www.ukbms.org
+  fetched: '2026-10-30'
+  quote: "The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation (BC) , the UK Centre for Ecology and Hydrology (UKCEH) , the British Trust for Ornithology (BTO) and the Joint Nature Conservation Committee (JNCC)"
+- type: run-by
+  to: joint-nature-conservation-committee
+  url: https://www.ukbms.org
+  fetched: '2026-10-30'
+  quote: "The UK Butterfly Monitoring Scheme is organized and funded by Butterfly Conservation (BC) , the UK Centre for Ecology and Hydrology (UKCEH) , the British Trust for Ornithology (BTO) and the Joint Nature Conservation Committee (JNCC)"
+found_by:
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+also_known_as:
+- UKBMS
+realms:
+- land
+website: https://ukbms.org
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active
+techniques:
+- species-distribution

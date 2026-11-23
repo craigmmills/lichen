@@ -1,0 +1,55 @@
+id: beijing-normal-university
+kind: organisation
+name: Beijing Normal University
+scope: cn
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+hq: cn
+scale: national
+status: active
+summary: University in Beijing, listed on CORDIS as a partner in BioClima, the EU-China project
+  merging AI with ground and remote sensing data for biodiversity and climate monitoring.
+facts:
+- claim: CORDIS lists this body as a partner organisation in BioClima.
+  url: https://cordis.europa.eu/project/id/101181408/en
+  fetched: '2026-10-31'
+  quote: BEIJING NORMAL UNIVERSITY
+- claim: CORDIS gives its address.
+  url: https://cordis.europa.eu/project/id/101181408/en
+  fetched: '2026-10-31'
+  quote: XINJIEKOU WAI STREET 19
+- claim: Lead applicant for the Northeast China Tiger and Leopard National Park ecological
+    monitoring station.
+  url: https://tiger.bnu.edu.cn/
+  fetched: '2026-10-31'
+  quote: 北京师范大学东北虎豹生物多样性国家野外科学观测研究站牵头申报的“东北虎豹国家公园站”成功入选
+- claim: A GLASS paper author is at its State Key Laboratory of Remote Sensing Science or
+    College of Global Change and Earth System Science.
+  url: https://terpconnect.umd.edu/~sliang/papers/Liang.GLASS.BAMS.2021.pdf
+  fetched: '2026-10-31'
+  quote: Beijing Normal University, Beijing, China
+links:
+- type: partners-with
+  to: bioclima
+  url: https://cordis.europa.eu/project/id/101181408/en
+  fetched: '2026-10-31'
+  quote: BEIJING NORMAL UNIVERSITY
+- type: runs
+  to: northeast-china-tiger-and-leopard-biodiversity-national-field-station
+  url: https://tiger.bnu.edu.cn/
+  fetched: '2026-10-31'
+  quote: 北京师范大学东北虎豹生物多样性国家野外科学观测研究站
+found_by:
+- link-from:bioclima
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- remote-sensing

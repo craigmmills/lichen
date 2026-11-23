@@ -1,0 +1,59 @@
+id: tech4all
+kind: programme
+name: TECH4ALL
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+- ocean
+- freshwater
+status: active
+website: https://www.huawei.com/en/tech4all
+summary: Huawei's long-term digital inclusion initiative, whose environment work uses AI, cloud and audio monitoring for projects such as bird protection in the Yellow River Delta and wild Atlantic salmon protection.
+countries:
+- ch
+- cn
+- mu
+- mx
+- rw
+facts:
+- claim: Huawei's long-term digital inclusion initiative.
+  url: https://www.huawei.com/en/tech4all
+  fetched: &id001 2026-10-30
+  quote: TECH4ALL is our long-term digital inclusion initiative and action plan
+- claim: Project list includes AI-powered bird monitoring in the Yellow River Delta.
+  url: https://www.huawei.com/en/tech4all
+  fetched: *id001
+  quote: AI-powered monitoring is driving bird protection and population increases in the Yellow River Delta
+- claim: Project list includes AI for protecting wild Atlantic salmon.
+  url: https://www.huawei.com/en/tech4all
+  fetched: *id001
+  quote: Artificial intelligence is protecting the wild Atlantic salmon from being overwhelmed by its invasive Pacific cousin
+- claim: "A Tech4All case lists acoustic pattern matching models as CNN."
+  url: https://www.huawei.com/en/tech4all/publications/a-partnership-for-our-planet
+  fetched: 2026-10-30
+  quote: "acoustic Pattern Matching models (CNN)"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: huawei
+  url: https://www.huawei.com/en/tech4all
+  fetched: *id001
+  quote: TECH4ALL is our long-term digital inclusion initiative and action plan
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://www.huawei.com/en/tech4all
+  fetched: 2026-10-30
+  quote: 'Partners'
+  logo: "IUCN 1"
+- type: partners-with
+  to: unesco
+  url: https://www.huawei.com/en/tech4all
+  fetched: 2026-10-30
+  quote: 'Partners'
+  logo: "UNESCO 1"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

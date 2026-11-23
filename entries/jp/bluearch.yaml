@@ -1,0 +1,57 @@
+id: bluearch
+kind: organisation
+name: BlueArch
+also_known_as:
+- 一般社団法人BlueArch
+- BlueArch株式会社
+- ブルーアーチ
+scope: jp
+sector: company
+roles:
+- builds-ai
+- uses-ai
+- unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- jp
+scale: local
+status: active
+summary: Described in one report as an association using drones and AI for blue carbon surveys,
+  and by Kanagawa Prefecture as an underwater vehicle maker and collaborator.
+facts:
+- claim: BlueArch, a general incorporated association in this report, developed a blue carbon
+    survey method using drones and AI.
+  url: https://www.drone.jp/?p=109476
+  fetched: 2026-11-02
+  quote: 一般社団法人BlueArchは、ドローンとAI技術等を活用したブルーカーボン調査手法を開発し
+- claim: AI detected quadrat frames and kelp in images and calculated cover automatically.
+  url: https://www.drone.jp/?p=109476
+  fetched: 2026-11-02
+  quote: 取得した画像データを基に、AIを用いてコドラート枠およびカジメを検知し、被度を自動算出する
+- claim: Kanagawa Prefecture describes BlueArch Co., Ltd. as a maker and seller of autonomous
+    underwater vehicles.
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r8414819.html
+  fetched: 2026-11-02
+  quote: 自律型無人潜水機（AUV）の製造販売を行うBlueArch（ブルーアーチ）株式会社
+- claim: A December 2025 prefectural release names BlueArch as a collaborator in developing
+    a measurement method using an underwater drone that switches between autonomous and manual
+    operation.
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r3538978.html
+  fetched: '2026-11-02'
+  quote: 県内ベンチャー企業（一般社団法人BlueArch））と連携し
+links:
+- type: partners-with
+  to: kanagawa-blue-carbon-auv-demonstration
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r8414819.html
+  fetched: 2026-11-02
+  quote: 自律型無人潜水機（AUV）の製造販売を行うBlueArch（ブルーアーチ）株式会社
+found_by:
+- checklist:5
+- link-from:kanagawa-underwater-drone-seaweed-bed-monitoring
+added_by: agent
+checked: 2026-11-02

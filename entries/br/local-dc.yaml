@@ -1,0 +1,45 @@
+id: local-dc
+kind: organisation
+name: Local DC
+scope: br
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: br
+scale: national
+status: active
+website: https://localdc.com.br/
+summary: Brazilian technology and digital infrastructure company based in Sorocaba that developed
+  Aruanã.ai, an AI platform for environmental monitoring.
+facts:
+- claim: Based in Sorocaba, São Paulo state.
+  url: https://exame.com/inteligencia-artificial/plataforma-brasileira-de-ia-ambiental-e-selecionada-pela-onu-para-cop30//
+  fetched: '2026-10-30'
+  quote: empresa brasileira de tecnologia e infraestrutura digital sediada em Sorocaba (SP)
+- claim: Aruanã.ai comes from applied research in deep learning.
+  url: https://exame.com/inteligencia-artificial/plataforma-brasileira-de-ia-ambiental-e-selecionada-pela-onu-para-cop30//
+  fetched: '2026-10-30'
+  quote: fruto de pesquisa aplicada em visão computacional, análise contextual e aprendizado
+    profundo
+  ai_type: deep-learning
+- claim: Its own site gives its address in Sorocaba, São Paulo state.
+  url: https://localdc.com.br/contato/
+  quote: Avenida Itavuvu 11777, Jardim Santa Cecília, Sorocaba–SP, CEP 18078-005
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: arauana-ai
+  url: https://exame.com/inteligencia-artificial/plataforma-brasileira-de-ia-ambiental-e-selecionada-pela-onu-para-cop30//
+  fetched: '2026-10-30'
+  quote: Aruanã.ai foi desenvolvida pela Local DC
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'

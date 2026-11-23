@@ -1,0 +1,30 @@
+id: university-of-agriculture-in-krakow
+kind: organisation
+name: University of Agriculture in Krakow
+also_known_as:
+- Uniwersytet Rolniczy w Krakowie
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University whose authors published a 2018 paper estimating defoliation of Scots pine
+  stands using machine learning methods and Sentinel-2 vegetation indices.
+facts:
+- claim: A 2018 paper by authors at the university estimates defoliation of Scots pine stands
+    with machine learning methods and Sentinel-2 vegetation indices.
+  url: https://api.openalex.org/works/W2782150440?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Estimating defoliation of Scots pine stands using machine learning methods and vegetation
+    indices of Sentinel-2
+  fetched: '2026-11-02'
+scope: pl
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

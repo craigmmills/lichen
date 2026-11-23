@@ -1,0 +1,32 @@
+id: inatsounds
+kind: dataset
+name: iNatSounds
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://github.com/visipedia/inat_sounds
+summary: Bioacoustics data sets drawn from iNaturalist sound recordings, with a 2024 release.
+facts:
+- claim: Repository of iNatSounds datasets.
+  url: https://github.com/visipedia/inat_sounds
+  fetched: '2026-10-30'
+  quote: iNatSounds Datasets
+links:
+- type: run-by
+  to: visipedia
+  url: https://github.com/visipedia/inat_sounds
+  fetched: '2026-10-30'
+  quote: 'GitHub - visipedia/inat_sounds: iNatSounds Datasets'
+- type: builds-on
+  to: inaturalist
+  url: https://raw.githubusercontent.com/visipedia/inat_sounds/main/2024/README.md
+  fetched: '2026-10-30'
+  quote: "with audio and species labels derived from observations submitted to iNaturalist, a global citizen science platform"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

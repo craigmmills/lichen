@@ -1,0 +1,39 @@
+id: smartrawl
+kind: project
+name: Smartrawl
+scope: gb
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: AI-empowered fishing net to reduce bycatch of sharks, rays, dolphins, turtles
+  and seabirds, developed by the FEAST group at Heriot-Watt University with Fisheries
+  Innovation & Sustainability.
+facts:
+- claim: AI-empowered fishing net to prevent marine bycatch.
+  url: https://www.hw.ac.uk/research-enterprise/global/sustaining-our-earth-and-oceans/the-lyell-centre/fisheries-ecosystems-and-advanced-survey-technologies-feast
+  quote: an innovative, AI-empowered fishing net to help prevent marine bycatch
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: feast-heriot-watt
+  url: https://www.hw.ac.uk/research-enterprise/global/sustaining-our-earth-and-oceans/the-lyell-centre/fisheries-ecosystems-and-advanced-survey-technologies-feast
+  quote: "Another example is Smartrawl , an innovative, AI-empowered fishing net to help prevent marine bycatch. Developed in partnership with Fisheries Innovation & Sustainability (FIS)"
+  fetched: *id001
+- type: partners-with
+  to: fisheries-innovation-and-sustainability
+  url: https://www.hw.ac.uk/research-enterprise/global/sustaining-our-earth-and-oceans/the-lyell-centre/fisheries-ecosystems-and-advanced-survey-technologies-feast
+  quote: Developed in partnership with Fisheries Innovation & Sustainability (FIS)
+    and funded by the UK Seafood Innovation Fund
+  fetched: *id001
+- type: funded-by
+  to: uk-seafood-innovation-fund
+  url: https://www.hw.ac.uk/research-enterprise/global/sustaining-our-earth-and-oceans/the-lyell-centre/fisheries-ecosystems-and-advanced-survey-technologies-feast
+  quote: funded by the UK Seafood Innovation Fund
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

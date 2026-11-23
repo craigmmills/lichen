@@ -1,0 +1,57 @@
+id: baghlan-university-department-of-biology
+kind: organisation
+name: Department of Biology, Faculty of Education, Baghlan University
+also_known_as:
+- Biology Department, Baghlan University
+scope: af
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: University biology department whose affiliation appears on a 2025 salamander
+  distribution modelling paper, run in MaxEnt, and on a 2022 OpenAlex-recorded paper
+  estimating emissions and removals from Afghan forest area change.
+facts:
+- claim: A 2025 paper among the Mohamed bin Zayed Species Conservation Fund's grant
+    files lists Mohammad Hassan Jafari first, with the affiliation Department of Biology,
+    Faculty of Education, Baghlan University.
+  url: https://files.speciesconservation.org/grant-files/documents/document-5001.pdf
+  fetched: 2026-11-15
+  quote: Department of Biology, Faculty of Education, Baghlan University, Baghlan,
+    Afghanistan
+- claim: The paper, by Jafari and co-authors in 2025, gives new insights into the
+    distribution and ecological modelling of the salamander.
+  url: https://files.speciesconservation.org/grant-files/documents/document-5001.pdf
+  fetched: 2026-11-15
+  quote: (2025). New insights into the distribution
+- claim: The paper's distribution modelling was run in MaxEnt.
+  url: https://files.speciesconservation.org/grant-files/documents/document-5001.pdf
+  fetched: 2026-11-15
+  quote: conducted using MaxEnt version 3.4.1 software
+- claim: OpenAlex records a 2022 paper estimating emissions and carbon removals from
+    forest area changes in Afghanistan between 1993 and 2030.
+  url: https://api.openalex.org/works/W4210624360?select=title,publication_year,authorships,primary_location
+  fetched: 2026-11-15
+  quote: '"title":"Estimation of baseline emissions, forest reference emission level,
+    and carbon removals due to forest area changes in Afghanistan between 1993 and
+    2030","publication_year":2022'
+- claim: OpenAlex lists the first author of the 2022 paper, Narges Teimoory, with
+    an affiliation to the Biology Department, Baghlan University.
+  url: https://api.openalex.org/works/W4210624360?select=title,publication_year,authorships,primary_location
+  fetched: 2026-11-15
+  quote: '"raw_author_name":"Narges Teimoory","raw_affiliation_strings":["Biology
+    Department, Baghlan University, Pul-e khumri, Baghlan, Afghanistan"]'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

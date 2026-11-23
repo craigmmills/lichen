@@ -1,0 +1,32 @@
+id: gbif-zimbabwe
+kind: programme
+name: GBIF Zimbabwe
+also_known_as: []
+scope: zw
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+runner: unknown
+summary: GBIF country node for Zimbabwe, a voting participant in GBIF, with Luke Jimu listed in GBIF's
+  directory as node manager.
+facts:
+- claim: GBIF's directory lists GBIF Zimbabwe as the country node, with Zimbabwe a voting participant.
+  url: https://api.gbif.org/v1/node/country/ZW
+  fetched: 2026-11-09
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Zimbabwe"'
+- claim: Luke Jimu is listed as the node manager.
+  url: https://api.gbif.org/v1/node/country/ZW
+  fetched: 2026-11-09
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Luke","lastName":"Jimu"'
+- claim: GBIF lists Zimbabwe as a voting participant with GBIF Zimbabwe as its node.
+  url: https://api.gbif.org/v1/node/country/ZW
+  fetched: 2026-11-09
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Zimbabwe","participantTitle":"Zimbabwe"'
+links: []
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-09

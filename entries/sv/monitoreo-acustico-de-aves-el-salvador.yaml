@@ -1,0 +1,49 @@
+id: monitoreo-acustico-de-aves-el-salvador
+kind: project
+name: Monitoreo acústico de aves en El Salvador (zona piloto Imposible-Barra de Santiago)
+also_known_as: []
+scope: sv
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- sv
+status: closed
+runner: unknown
+summary: Closed Imposible-Barra de Santiago pilot using AudioMoth and Arbimon, with
+  acoustic monitoring at 52 sites in October 2018 and reported model accuracy of 0.75–1.00
+  for three bird species.
+facts:
+- claim: The project sheet names the programme as the Fondo de Desarrollo Verde para
+    la región del SICA / REDD+ Landscape.
+  url: https://energypedia.info/images/8/83/P-ElSalvador-Monitoreo-Aves.pdf
+  fetched: 2026-11-12
+  quote: Fondo de Desarrollo Verde para la región del SICA/
+- claim: The sheet says passive acoustic monitoring was carried out at 52 sites from
+    22 to 28 October 2018.
+  url: https://energypedia.info/images/8/83/P-ElSalvador-Monitoreo-Aves.pdf
+  fetched: 2026-11-12
+  quote: Durante el 22 al 28 de octubre de 2018, se realizó un monitoreo pasivo acústico
+    en
+- claim: The sheet says species-specific models built in Arbimon II for three bird
+    species showed accuracy of 0.75 to 1.00.
+  url: https://energypedia.info/images/8/83/P-ElSalvador-Monitoreo-Aves.pdf
+  fetched: 2026-11-12
+  quote: bioacústica) creados para tres especies de aves,  presentaron una alta
+links:
+- type: uses
+  to: audiomoth
+  url: https://energypedia.info/images/8/83/P-ElSalvador-Monitoreo-Aves.pdf
+  fetched: 2026-11-12
+  quote: grabadoras AudioMoth entre uno a tres días.
+- type: uses
+  to: arbimon
+  url: https://energypedia.info/images/8/83/P-ElSalvador-Monitoreo-Aves.pdf
+  fetched: 2026-11-12
+  quote: plataforma ARBIMON
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

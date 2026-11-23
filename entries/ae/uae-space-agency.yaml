@@ -1,0 +1,63 @@
+id: uae-space-agency
+kind: organisation
+name: UAE Space Agency
+also_known_as:
+- UAESA
+- United Arab Emirates Space Agency
+scope: ae
+sector: government
+roles:
+- governs
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: ae
+countries: []
+scale: national
+status: active
+summary: Government space agency and CEOS member since 2018, associated with the Space Analytics
+  and Solutions programme for downstream satellite applications, including environment monitoring
+  and vegetation health.
+facts:
+- claim: Set up the Space Analytics and Solutions programme for downstream satellite applications.
+  url: https://www.unoosa.org/documents/pdf/copuos/stsc/2024/ListTechnicalPresentations/2024_STSC_technical_presentations_slides/e1_--_Item5_UAE_Space_Analytics_presentation.pdf
+  fetched: 2026-11-08
+  quote: The UAE Space Agency established a dedicated program for space downstream applications
+    named
+- claim: The programme themes include environment monitoring and vegetation health.
+  url: https://www.unoosa.org/documents/pdf/copuos/stsc/2024/ListTechnicalPresentations/2024_STSC_technical_presentations_slides/e1_--_Item5_UAE_Space_Analytics_presentation.pdf
+  fetched: 2026-11-08
+  quote: Environment Monitoring Focuses on agriculture and water studies
+- claim: CEOS lists it as a member agency headquartered in the United Arab Emirates, joining
+    in 2018, with Naser Al Hammadi as principal.
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: 2026-11-08
+  quote: United Arab Emirates Space Agency (UAESA) United Arab Emirates 2018 P - Naser Al
+    Hammadi
+- claim: OpenAlex lists the UAE Space Agency as a government institution, also named the United
+    Arab Emirates Space Agency.
+  url: https://api.openalex.org/institutions/ror:02a62p922
+  fetched: '2026-11-08'
+  quote: '"display_name":"UAE Space Agency","country_code":"AE","type":"government"'
+links:
+- type: partners-with
+  to: planet-labs
+  url: https://www.preventionweb.net/news/uae-space-agency-partners-planet-labs-build-satellite-data-driven-loss-and-damage-atlas-global
+  fetched: 2026-11-08
+  quote: the UAE Space Agency has forged a collaboration with Planet Labs
+- type: partners-with
+  to: committee-on-earth-observation-satellites
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: 2026-11-08
+  quote: United Arab Emirates Space Agency (UAESA) United Arab Emirates 2018 P - Naser Al
+    Hammadi
+found_by:
+- checklist:1
+- link-from:committee-on-earth-observation-satellites
+- register:ae
+added_by: agent
+checked: 2026-11-08

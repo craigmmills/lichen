@@ -1,0 +1,34 @@
+id: global-forest-change
+kind: dataset
+name: Global Forest Change
+also_known_as:
+- Hansen Global Forest Change
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://glad.earthengine.app/view/global-forest-change
+summary: Annual global forest loss data derived from Landsat time-series imagery by the GLAD laboratory at the University of Maryland.
+facts:
+- claim: Characterises global forest extent and change.
+  url: https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html
+  fetched: '2026-10-30'
+  quote: Results from time-series analysis of Landsat images in characterizing global forest extent and change from 2000 through 2023.
+links:
+- type: run-by
+  to: global-land-analysis-and-discovery
+  url: https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html
+  fetched: '2026-10-30'
+  quote: "The Global Land Analysis and Discovery (GLAD) laboratory at the University of Maryland, in partnership with Global Forest Watch (GFW) , provides annually updated global-scale forest loss data"
+- type: partners-with
+  to: global-nature-watch
+  url: https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html
+  fetched: '2026-10-30'
+  quote: in partnership with Global Forest Watch (GFW)
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,95 @@
+id: instituto-nacional-de-biodiversidad-ecuador
+kind: organisation
+name: Instituto Nacional de Biodiversidad (Ecuador)
+also_known_as:
+- INABIO
+- National Institute of Biodiversity
+scope: ec
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+- other
+hq: ec
+countries:
+- ec
+scale: national
+status: active
+summary: A public biodiversity institute in Quito, created in 2016, that holds biological
+  collections, publishes herbarium data to GBIF, promotes citizen science, and partners with
+  international-barcode-of-life and alianza-aguas-amazonicas.
+facts:
+- claim: An INABIO director told the National Assembly that its aims include biodiversity
+    research, science, technology and innovation.
+  url: https://www.asambleanacional.gob.ec/es/node/119137
+  fetched: 2026-11-02
+  quote: tiene entre sus objetivos promover y ejecutar procesos de investigación, ciencia,
+    tecnología e innovación relacionados con la biodiversidad
+- claim: Its deputy director explained a national citizen science bioblitz on iNaturalist
+    in May 2025, saying Ecuador had passed 1.8 million records of about 34,000 species there.
+  url: https://www.teleamazonas.com/actualidad/noticias/sociedad/ecuador-inicia-maraton-fotografia-e-identificacion-especies-mediante-app-95815/
+  fetched: 2026-11-03
+  quote: en iNaturalist ya han superado los 1,8 millones de datos referentes a unas 34.000
+    especies registradas en Ecuador
+- claim: Its GBIF record describes it as the biological collections of the former museum and
+    national herbarium.
+  url: https://api.gbif.org/v1/organization/9cf743f8-3a4d-42df-9d1a-fd9cbcc3508f
+  fetched: '2026-11-02'
+  quote: Colecciones Biológicas del Ex Museo Ecuatoriano de Ciencias Naturales y Herbario
+    Nacional.
+- claim: Publishes the National Herbarium's vascular plant collection to GBIF.
+  url: https://api.gbif.org/v1/organization/9cf743f8-3a4d-42df-9d1a-fd9cbcc3508f/publishedDataset?limit=10
+  fetched: '2026-11-02'
+  quote: Colección de vasculares del Herbario Nacional del Ecuador - QCNE - INABIO
+- claim: Its GBIF record gives an address in Quito.
+  url: https://api.gbif.org/v1/organization/9cf743f8-3a4d-42df-9d1a-fd9cbcc3508f
+  fetched: '2026-11-02'
+  quote: Pasaje Rumipamba y Shirys
+- claim: An environment ministry toolkit describes it as a national institution promoting
+    research, biological collections and a citizen science platform.
+  url: https://cajaherramientasea.ambiente.gob.ec/?page_id=1547
+  fetched: '2026-11-03'
+  quote: INABIO Institución nacional que impulsa investigaciones, colecciones biológicas y
+    plataforma de ciencia ciudadana
+- claim: Heifer Ecuador says it signed a letter of understanding with INABIO on biodiversity
+    in coffee and cocoa agroforestry.
+  url: https://heifer-ecuador.org/heifer-ecuador-inabio-fortalecen-investigacion-sobre-biodiversidad-sistemas-agroforestales-cafe-cacao/
+  fetched: '2026-11-03'
+  quote: firmaron una Carta de Entendimiento para fortalecer la investigación aplicada sobre
+    biodiversidad en sistemas agroforestales de café y cacao
+- claim: A National Assembly report records INABIO's director of innovation saying it is a
+    public institution created in 2016 with research, science, technology and innovation aims
+    on biodiversity.
+  url: https://www.asambleanacional.gob.ec/es/node/119137
+  quote: Andrade explicó que el INABIO, institución pública creada en 2016, tiene entre sus
+    objetivos promover y ejecutar procesos de investigación, ciencia, tecnología e innovación
+    relacionados con la biodiversidad.
+  fetched: '2026-11-02'
+- claim: The same report names the Banco Nacional de Datos de Biodiversidad among highlighted
+    initiatives, developed with cooperation from South Korea.
+  url: https://www.asambleanacional.gob.ec/es/node/119137
+  quote: Entre las iniciativas destacadas se encuentra el Banco Nacional de Datos de Biodiversidad,
+    desarrollado con cooperación de la República de Corea del Sur
+  fetched: '2026-11-02'
+- claim: The GBIF publisher record gives an address in Quito.
+  url: https://api.gbif.org/v1/organization/9cf743f8-3a4d-42df-9d1a-fd9cbcc3508f
+  quote: '"city":"Quito"'
+  fetched: '2026-11-02'
+links:
+- type: partners-with
+  to: alianza-aguas-amazonicas
+  url: https://aguasamazonicas.org/socios/
+  fetched: '2026-11-03'
+  quote: INABIO
+found_by:
+- checklist:2
+- link-from:gbif-ecuador
+- checklist:register-d
+added_by: agent
+checked: 2026-11-02

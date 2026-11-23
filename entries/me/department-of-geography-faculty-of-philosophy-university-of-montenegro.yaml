@@ -1,0 +1,34 @@
+id: department-of-geography-faculty-of-philosophy-university-of-montenegro
+kind: organisation
+name: Department of Geography, Faculty of Philosophy, University of Montenegro
+scope: me
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: me
+countries:
+- me
+scale: national
+status: active
+summary: Nikšić department that is the affiliation of the first author of a 2022 paper assessing vegetation
+  condition before and after a Luštica wildfire using the dNBR index.
+facts:
+- claim: Affiliation of the first author of a 2022 paper assessing vegetation condition before and after
+    a wildfire on Luštica with the dNBR index.
+  url: https://api.openalex.org/works/W4313653219?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: differenced Normalized Burn Ratio (dNBR) index
+- claim: The first author's affiliation is this department, in Nikšić.
+  url: https://api.openalex.org/works/W4313653219?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: Department of Geography, Faculty of Philosophy, University of Montenegro, Nik
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

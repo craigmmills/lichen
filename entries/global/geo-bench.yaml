@@ -1,0 +1,38 @@
+id: geo-bench
+kind: dataset
+name: GEO-Bench
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/ServiceNow/geo-bench
+summary: General Earth observation benchmark for evaluating pre-trained models on geospatial data, a ServiceNow Research project with a successor, GEO-Bench-2, from the AI Alliance with IBM, ServiceNow and TUM.
+ai_types:
+- foundation-models
+facts:
+- claim: A ServiceNow Research project.
+  url: https://github.com/ServiceNow/geo-bench
+  fetched: '2026-10-30'
+  quote: GEO-Bench is a ServiceNow Research project.
+- claim: Successor GEO-Bench-2 published by the AI Alliance with IBM, ServiceNow and TUM.
+  url: https://github.com/ServiceNow/geo-bench
+  fetched: '2026-10-30'
+  quote: GEO-Bench-2 is the successor to GEO-Bench, published by the AI Alliance
+- claim: "GEO-Bench is a benchmark aimed at foundation models for Earth monitoring."
+  url: "https://github.com/ServiceNow/geo-bench"
+  fetched: "2026-10-31"
+  quote: "GEO-Bench: Toward Foundation Models for Earth Monitoring"
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: servicenow-research
+  url: https://github.com/ServiceNow/geo-bench
+  fetched: '2026-10-30'
+  quote: GEO-Bench is a ServiceNow Research project.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

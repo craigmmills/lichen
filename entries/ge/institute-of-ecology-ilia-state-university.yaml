@@ -1,0 +1,77 @@
+id: institute-of-ecology-ilia-state-university
+kind: organisation
+name: Institute of Ecology, Ilia State University
+also_known_as: []
+scope: ge
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+- other
+hq: ge
+countries:
+- ge
+scale: national
+status: active
+summary: Ilia State University institute in Tbilisi that implements the Quantitative Ecology Programme
+  (2010 to 2028) and runs the Georgian Biodiversity Database, though GBIF shows no datasets published
+  by it.
+facts:
+- claim: Implements the Quantitative Ecology Programme, listed as ongoing from 2010 to 2028.
+  url: https://research.iliauni.edu.ge/en/project/89-quantitative-ecology-programme
+  fetched: 2026-11-09
+  quote: 'Implementer:: Institute of Ecology'
+- claim: The programme's research areas include modelling forest cover and other natural ecosystems in
+    the Caucasus and Georgia.
+  url: https://research.iliauni.edu.ge/en/project/89-quantitative-ecology-programme
+  fetched: 2026-11-09
+  quote: Modelling Forest cover and other natural ecosystems in the Caucasus and Georgia;
+- claim: The programme's research areas include GIS modelling of biodiversity and a population-genetic
+    study of brown bears.
+  url: https://research.iliauni.edu.ge/en/project/89-quantitative-ecology-programme
+  fetched: 2026-11-09
+  quote: GIS modelling of biodiversity in the Caucasus;
+- claim: The programme page says the institute has access to a molecular-genetic laboratory.
+  url: https://research.iliauni.edu.ge/en/project/89-quantitative-ecology-programme
+  fetched: 2026-11-09
+  quote: a molecular-genetic laboratory (this laboratory is the only functioning molecular-genetic university
+    laboratory throughout the Caucasus)
+- claim: Its GBIF publisher record says it administers the Georgian Biodiversity Database.
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: Institute of ecology administers Georgian Biodiversity Database
+- claim: Its GBIF publisher record gives an address in Tbilisi.
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: Kakutsa Cholokashvili Ave 3/5 Tbilisi 0162, Georgia
+- claim: Its GBIF publisher record says it administers the Georgian Biodiversity Database.
+  url: https://api.gbif.org/v1/organization/f676f380-af3e-4643-a263-9a9441b53995
+  fetched: 2026-11-09
+  quote: Institute of ecology administers Georgian Biodiversity Database
+- claim: Its address on the GBIF publisher record is in Tbilisi.
+  url: https://api.gbif.org/v1/organization/f676f380-af3e-4643-a263-9a9441b53995
+  fetched: 2026-11-09
+  quote: Kakutsa Cholokashvili Ave 3/5 Tbilisi 0162, Georgia
+- claim: GBIF's publisher record shows no datasets published by it on GBIF.
+  url: https://api.gbif.org/v1/organization/f676f380-af3e-4643-a263-9a9441b53995
+  fetched: 2026-11-09
+  quote: '"numPublishedDatasets":0'
+found_by:
+- checklist:3
+- link-from:global-biodiversity-information-facility
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-09
+links:
+- type: runs
+  to: georgian-biodiversity-database
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: Institute of ecology administers Georgian Biodiversity Database

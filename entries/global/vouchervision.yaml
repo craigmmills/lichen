@@ -1,0 +1,43 @@
+id: vouchervision
+kind: programme
+name: VoucherVision
+also_known_as:
+- VoucherVisionGO
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+techniques:
+- computer-vision
+status: active
+website: https://leafmachine.org/vouchervision/
+summary: Tool from University of Michigan researchers that uses language models to turn specimen
+  label text into structured records for natural history collections. It now runs as VoucherVisionGO,
+  and at least one other herbarium reports using it.
+facts:
+- claim: Uses several large language models to help transcribe specimen labels.
+  url: https://biss.pensoft.net/article_preview.php?id=113067
+  fetched: &id001 2026-10-30
+  quote: we introduce VoucherVision, a tool harnessing the capabilities of several Large Language
+    Models
+  ai_type: large-language-models
+- claim: Built into the University of Michigan Herbarium's transcription workflow.
+  url: https://biss.pensoft.net/article_preview.php?id=113067
+  fetched: *id001
+  quote: Integration of VoucherVision with the University of Michigan Herbarium’s transcription
+    workflow resulted in a significant reduction in per-image transcription time
+- claim: A GLOBAL TCN progress report of August 2026 says the herbarium with the Index Herbariorum
+    code COLO is making growing use of it.
+  url: https://globaltcn.utk.edu/wp-content/uploads/2026/08/TCN-Quarterly-Progress-Report-to-iDigBio-GLOBAL-August-2026-page-.pdf
+  fetched: *id001
+  quote: COLO is increasingly using VoucherVision to process/transcribe specimens.
+- claim: About 600 labels can be run in about an hour at COLO, according to the same report.
+  url: https://globaltcn.utk.edu/wp-content/uploads/2026/08/TCN-Quarterly-Progress-Report-to-iDigBio-GLOBAL-August-2026-page-.pdf
+  fetched: *id001
+  quote: VoucherVision at COLO runs well with smaller batches, ~600 labels can be run in about
+    an hour.
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001
+runner: unknown

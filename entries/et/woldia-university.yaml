@@ -1,0 +1,38 @@
+id: woldia-university
+kind: organisation
+name: Woldia University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University with a listed 2024 paper, by first author Alemu Eshetu Fentaw, using Google
+  Earth Engine and random forest to map land use and land cover change in the Upper Tekeze
+  basin.
+facts:
+- claim: OpenAlex lists a 2024 paper on Google Earth Engine and random forest mapping of land
+    use and land cover change in the Upper Tekeze basin.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: Analyzing Land Use/Land Cover Changes Using Google Earth Engine and Random Forest
+    Algorithm and Their Implications to the Management of Land Degradation in the Upper Tekeze
+    Basin, Ethiopia
+- claim: OpenAlex lists Alemu Eshetu Fentaw, first author of that paper, at Woldia University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: '"display_name": "Alemu Eshetu Fentaw", "orcid": "https://orcid.org/0000-0001-6155-9375",
+    "observed_orcids": ["https://orcid.org/0000-0001-6155-9375"]}, "institutions": [{"id":
+    "https://openalex.org/I4210159645", "display_name": "Woldia University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

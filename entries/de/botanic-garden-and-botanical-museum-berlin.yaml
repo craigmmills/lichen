@@ -1,0 +1,78 @@
+id: botanic-garden-and-botanical-museum-berlin
+kind: organisation
+name: Botanic Garden and Botanical Museum Berlin
+also_known_as:
+- BGBM
+- Botanischer Garten Berlin
+- Botanic Garden and Botanical Museum Berlin
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: de
+scale: national
+status: active
+summary: Berlin botanical institution that GBIF Germany lists as responsible for coordination
+  and for the plants and protists node.
+facts:
+- claim: GBIF Germany lists BGBM Berlin as responsible for coordination and for plants and
+    protists.
+  url: https://www.gbif.de/homeenglish
+  quote: BGBM Berlin responsible for Coordination
+  fetched: '2026-10-31'
+- claim: Its informatics centre developed the EDIT Platform for Cybertaxonomy, BioCASE and
+    the DNA Bank Network.
+  url: https://www.bo.berlin/de/wissenschaft-biodiversitaetsinformatik
+  fetched: '2026-10-31'
+  quote: Wichtige Entwicklungen des ZBS sind die EDIT Platform for Cybertaxonomy , der Biological
+    Access Service (BioCASE) und das DNA-Bank-Netzwerk
+- claim: A data centre in NFDI4Biodiversity for collection, observation and taxon data.
+  url: https://www.nfdi4biodiversity.org/de/datenzentren/
+  fetched: '2026-10-31'
+  quote: Der Botanische Garten und das Botanische Museum (BGBM) Berlin fokussiert sich auf
+    Sammlungs- und Beobachtungsdaten sowie die Verwaltung von Daten auf Taxonebene
+- claim: Curates the Virtual Herbarium Germany.
+  url: https://www.biocase.org/
+  fetched: '2026-10-31'
+  quote: The Virtual Herbarium Germany is curated by the Botanic Garden Berlin of Freie Universität
+    Berlin
+- claim: Offers high-resolution images of its herbarium holdings.
+  url: https://www.bgbm.org/biodivinf/projects/digitalisierung/default.htm
+  fetched: '2026-10-31'
+  quote: the BGBM has started to offer to high resolution images of its herbarium holdings
+- claim: Describes the German Virtual Herbarium as part of the GBIF-D project among its sustained
+    data resources.
+  url: https://bo.berlin/en/node/2324
+  fetched: '2026-10-31'
+  quote: The German Virtual Herbarium is part of the GBIF-D project financed by the Federal
+    Ministry of Research and Education
+- claim: Describes itself as an international centre of botanical knowledge.
+  url: http://www.bgbm.org
+  fetched: '2026-10-31'
+  quote: Als internationales Wissenszentrum der Botanik sind wir ein Knotenpunkt der globalen
+    Biodiversitätsforschung.
+found_by:
+- checklist:2
+- link-from:global-genome-biodiversity-network
+- link-from:queue-de
+- register:de
+scope: de
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: biological-collection-access-service
+  url: https://www.bo.berlin/de/wissenschaft-biodiversitaetsinformatik
+  fetched: '2026-10-31'
+  quote: Wichtige Entwicklungen des ZBS sind die EDIT Platform for Cybertaxonomy , der Biological
+    Access Service (BioCASE) und das DNA-Bank-Netzwerk
+- type: partners-with
+  to: nfdi4biodiversity
+  url: https://www.nfdi4biodiversity.org/de/Partnerorganisationen
+  fetched: '2026-10-31'
+  quote: Anton Güntsch, Botanischer Garten und Botanisches Museum Berlin (BGBM), Freie Universität
+    Berlin
+countries:
+- de

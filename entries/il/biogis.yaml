@@ -1,0 +1,55 @@
+id: biogis
+kind: dataset
+name: BioGIS - Israel Biodiversity Information System
+scope: il
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: http://www.biogis.huji.ac.il/
+summary: Active open-access GIS database of Israel's flora and fauna distribution, led by
+  Eyal Ben-Hur and built by Ronen Kadmon, which publishes eight datasets to GBIF.
+facts:
+- claim: Aims to integrate information on the distribution of Israel's flora and fauna in
+    an open-access GIS.
+  url: https://biogis.huji.ac.il/HTMLs/about.html?lang=eng
+  fetched: '2026-11-08'
+  quote: The principal goal of BioGIS is to integrate existing information on the composition
+    and geographical distribution of the flora and fauna of Israel in a unified open-access
+    Geographical Information System (GIS)
+- claim: Built as a long-term, dynamic database.
+  url: https://biogis.huji.ac.il/HTMLs/about.html?lang=eng
+  fetched: '2026-11-08'
+  quote: The system is being developed as a long-term, dynamic database
+- claim: Publishes datasets to GBIF.
+  url: https://api.gbif.org/v1/organization?country=IL&limit=100
+  fetched: '2026-11-08'
+  quote: '"title":"BioGIS - Israel Biodiversity Website"'
+- claim: Its site offers species search and analysis of species diversity in a selected area,
+    by pre-defined regions, shapefiles or custom polygons.
+  url: http://www.biogis.huji.ac.il/
+  fetched: 2026-11-08
+  quote: Analyze the species diversity in a selected area, using pre-defined regions, by shapefiles,
+    or custom polygons.
+- claim: Calls itself the Israel Biodiversity Information System.
+  url: http://www.biogis.huji.ac.il/
+  fetched: 2026-11-08
+  quote: Israel Biodiversity Information System
+- claim: GBIF lists it as a publisher with eight published datasets.
+  url: https://api.gbif.org/v1/organization/67268f0e-3401-4be5-847b-3752cba6e71c
+  fetched: 2026-11-08
+  quote: '"title":"BioGIS - Israel Biodiversity Website","language":"eng","email":[],"phone":[],"homepage":["http://www.biogis.huji.ac.il/"],"address":[],"country":"IL","numPublishedDatasets":8'
+found_by:
+- checklist:2
+- link-from:gbif-israel
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'
+also_known_as:
+- BioGIS
+- BioGIS - Israel Biodiversity Website
+- Israel Biodiversity Information System
+countries:
+- il

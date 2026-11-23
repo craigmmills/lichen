@@ -1,0 +1,86 @@
+id: bioweb-ecuador
+kind: dataset
+name: Bioweb Ecuador
+also_known_as:
+- bioweb.bio
+- Bioweb
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+- other
+countries:
+- ec
+status: active
+summary: Online repository of Ecuadorian biodiversity, built by Pontificia Universidad Católica
+  del Ecuador and Santiago Ron, with fauna, fungi and flora sections, a frog sound database
+  and a REST API.
+facts:
+- claim: Primicias says the repository took its present form as bioweb.bio by 2017.
+  url: https://primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional
+  fetched: 2026-11-02
+  quote: Para 2017 , la idea de los científicos cobró su real dimensión y nació bioweb.bio
+- claim: Its amphibian section contains a database of frog sounds.
+  url: https://primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional
+  fetched: 2026-11-02
+  quote: contiene incluso una amplia base de datos con los sonidos de especies de ranas del
+    Ecuador
+- claim: Has a REST API.
+  url: https://bioweb.bio/developer/occurrence/
+  fetched: '2026-11-02'
+  quote: Bioweb REST API
+- claim: Its pages carry a Pontificia Universidad Católica del Ecuador credit line.
+  url: https://bioweb.bio/aboutus.html
+  fetched: '2026-11-02'
+  quote: Pontificia Universidad Católica del Ecuador. Disponible bajo licencia
+- claim: GBIF lists the Fungario QCAM of the Pontificia Universidad Católica del Ecuador with
+    a Bioweb address.
+  url: https://api.gbif.org/v1/organization?country=EC&limit=100
+  fetched: '2026-11-02'
+  quote: Fungario QCAM de la Pontificia Universidad Católica del Ecuador
+- claim: Primicias describes it as a virtual encyclopaedia of Ecuadorian biodiversity.
+  url: https://www.primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional/
+  fetched: '2026-11-03'
+  quote: Bioweb, la enciclopedia virtual de la biodiversidad ecuatoriana
+- claim: Its amphibian section holds a database of frog sounds.
+  url: https://www.primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional/
+  fetched: '2026-11-03'
+  quote: contiene incluso una amplia base de datos con los sonidos de especies de ranas del
+    Ecuador
+- claim: Primicias reports that it was set up as a web repository of information on Ecuadorian
+    biodiversity.
+  url: https://primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional
+  quote: se propusieron crear un repositorio web con la información de la biodiversidad ecuatoriana.
+  fetched: '2026-11-02'
+- claim: Primicias reports that bioweb.bio came into being in 2017.
+  url: https://primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional
+  quote: Para 2017 , la idea de los científicos cobró su real dimensión y nació bioweb.bio.
+  fetched: '2026-11-02'
+- claim: Its site has sections for fauna, fungi and flora and a page on data use.
+  url: https://bioweb.bio/
+  quote: Uso de datos Faunaweb Fungiweb Floraweb
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: pontificia-universidad-catolica-del-ecuador
+  url: https://primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional
+  fetched: 2026-11-02
+  quote: Santiago Ron y otros investigadores de la Pontificia Universidad Católica del Ecuador
+    (PUCE) se propusieron crear un repositorio web
+- type: built-by
+  to: pontificia-universidad-catolica-del-ecuador
+  url: https://primicias.ec/noticias/tecnologia/bioweb-wikipedia-biodiversidad-nacional
+  quote: Santiago Ron y otros investigadores de la Pontificia Universidad Católica del Ecuador
+    (PUCE) se propusieron crear un repositorio web con la información de la biodiversidad
+    ecuatoriana.
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- checklist:register-d
+- link-from:pontificia-universidad-catolica-del-ecuador
+added_by: agent
+checked: 2026-11-02

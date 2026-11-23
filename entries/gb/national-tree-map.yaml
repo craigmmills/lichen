@@ -1,0 +1,55 @@
+id: national-tree-map
+kind: dataset
+name: National Tree Map
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+- ie
+status: active
+website: https://www.bluesky-world.com/ntm/
+summary: Bluesky dataset of trees in Great Britain and the Republic of Ireland that
+  are 3 metres and taller, with height, location and canopy extent.
+facts:
+- claim: Covers trees 3 metres and taller in Great Britain and the Republic of Ireland.
+  url: https://www.bluesky-world.com/ntm/
+  quote: tree dataset to include trees in Great Britain and Republic of Ireland that
+    are 3 metres and taller
+  fetched: '2026-10-30'
+- claim: Covers more than 280 million trees.
+  url: https://www.gim-international.com/content/news/bluesky-updates-british-national-tree-map-of-280-million-trees
+  quote: identifies the location, height and canopy cover of more than 280 million
+    trees in Great Britain
+  fetched: '2026-10-30'
+- claim: Captures height, location and canopy extent of trees.
+  url: https://bluesky-world.com/ntm/
+  quote: It captures height, location and canopy/crown extent of trees
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: bluesky-international
+  url: https://www.bluesky-world.com/ntm/
+  quote: The Bluesky National Tree Map
+  fetched: '2026-10-30'
+- type: run-by
+  to: bluesky-international
+  url: https://www.gim-international.com/content/news/bluesky-updates-british-national-tree-map-of-280-million-trees
+  quote: Aerial mapping company Bluesky is completing an extensive update of the National
+    Tree Map
+  fetched: '2026-10-30'
+- type: run-by
+  to: bluesky-international
+  url: https://bluesky-world.com/ntm/
+  quote: Bluesky National Tree Map
+  fetched: *id001
+found_by:
+- checklist:2
+- link-from:uk-centre-for-ecology-and-hydrology
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- NTM

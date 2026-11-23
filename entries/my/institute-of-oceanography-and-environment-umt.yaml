@@ -1,0 +1,69 @@
+id: institute-of-oceanography-and-environment-umt
+kind: organisation
+name: Institute of Oceanography and Environment, Universiti Malaysia Terengganu
+also_known_as:
+- INOS
+scope: my
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: my
+countries:
+- my
+scale: national
+status: active
+website: https://inos.umt.edu.my/
+summary: Marine institute run by Universiti Malaysia Terengganu, registered as a GBIF publisher,
+  named the national OBIS node according to the university, with a repository of over 20,000
+  marine specimens.
+facts:
+- claim: Universiti Malaysia Terengganu says it has been named the national Ocean Biogeographic
+    Information System node.
+  url: https://inos.umt.edu.my/?p=22881
+  fetched: 2026-11-03
+  quote: INOS has been named the National Ocean Biogeographic Information System (OBIS) Node,
+    which is pivotal in collecting oceanographic data for Malaysia
+- claim: Registered as a GBIF publisher.
+  url: https://api.gbif.org/v1/organization?country=MY&limit=100
+  fetched: 2026-11-03
+  quote: Institute of Oceanography and Environment (INOS)
+- claim: Its GBIF record describes it as an Associate Data Unit and OBIS node under IODE.
+  url: https://api.gbif.org/v1/organization/843c994a-826d-48aa-8caf-c6a709371aab
+  quote: INOS is one of Associate Data Unit and Ocean Biogeographic Information System Node
+    under International Oceanographic Data and Information Exchange (IODE)
+  fetched: 2026-11-03
+- claim: Its South China Sea Repository and Reference Centre houses more than 20,000 marine
+    specimens.
+  url: https://api.gbif.org/v1/organization/843c994a-826d-48aa-8caf-c6a709371aab
+  quote: The South China Sea Repository and Reference Centre (RRC) under INOS is currently
+    housing more than 20,000 marine specimens
+  fetched: 2026-11-03
+- claim: Its GBIF record gives an address at Universiti Malaysia Terengganu.
+  url: https://api.gbif.org/v1/organization/843c994a-826d-48aa-8caf-c6a709371aab
+  quote: Institute of Oceanography and Environment, Universiti Malaysia Terengganu
+  fetched: 2026-11-03
+- claim: Registered as a GBIF publisher, describing itself as a leading Malaysian institute
+    for oceanography and marine research.
+  url: https://api.gbif.org/v1/organization?country=MY&limit=100
+  fetched: 2026-11-03
+  quote: Institute of Oceanography and Environment (INOS), Universiti Malaysia Terengganu
+    is the leading research institute in Malaysia focusing on oceanography and mari
+links:
+- type: partners-with
+  to: ocean-biodiversity-information-system
+  url: https://api.gbif.org/v1/organization/843c994a-826d-48aa-8caf-c6a709371aab
+  quote: INOS is one of Associate Data Unit and Ocean Biogeographic Information System Node
+  fetched: 2026-11-03
+- type: run-by
+  to: universiti-malaysia-terengganu
+  url: https://api.gbif.org/v1/organization?country=MY&limit=100
+  fetched: 2026-11-03
+  quote: Institute of Oceanography and Environment (INOS), Universiti Malaysia Terengganu
+found_by:
+- checklist:2
+- link-from:queue-my
+added_by: agent
+checked: 2026-11-03

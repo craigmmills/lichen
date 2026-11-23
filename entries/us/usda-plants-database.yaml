@@ -1,0 +1,24 @@
+id: usda-plants-database
+kind: dataset
+name: USDA PLANTS Database
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://plants.sc.egov.usda.gov/
+runner: unknown
+summary: Database of standardised information on the vascular plants, mosses, liverworts,
+  hornworts and lichens of the United States and its territories.
+facts:
+- claim: National plant database. usda.gov refuses robots, so this comes from the
+    GBIF dataset record.
+  url: https://api.gbif.org/v1/organization/58b5fc00-5ba3-11db-8a89-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: The USDA PLANTS Database provides standardized information about the vascular
+    plants
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

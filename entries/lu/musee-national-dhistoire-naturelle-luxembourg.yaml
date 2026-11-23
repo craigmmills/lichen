@@ -1,0 +1,122 @@
+id: musee-national-dhistoire-naturelle-luxembourg
+kind: organisation
+name: Musée national d'histoire naturelle Luxembourg
+also_known_as:
+- MNHNL
+- Naturmusée
+- National Museum of Natural History Luxembourg
+- Musée national d'histoire naturelle Luxembourg
+scope: lu
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: lu
+countries:
+- lu
+scale: national
+status: active
+website: https://mnhn.public.lu
+summary: Luxembourg's state natural history museum, which serves as the national GBIF node, with 56 datasets
+  recorded by GBIF, and aggregates observation data to monitor biodiversity locally.
+facts:
+- claim: Serves as Luxembourg's national node for the Global Biodiversity Information Facility.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: The MNHNL serves as Luxembourg's national node for the Global Biodiversity Information Facility
+    (GBIF)
+- claim: GBIF lists GBIF Luxembourg as a voting participant, with the museum's site as its homepage and
+    an address at 25 rue Munster, Luxembourg-Grund.
+  url: https://api.gbif.org/v1/node/country/LU
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Luxembourg"'
+- claim: Aggregates observation data in its database and publishes it, using it to monitor biodiversity
+    at the local level, track changes in animal populations and issue alerts on spreading invasive species.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: These data are aggregated in the Museum's database, published online, and made accessible to
+    the public. They allow us, for example, to monitor the state of biodiversity at the local level, to
+    track changes in animal populations, and to issue alerts in the event of the spread of invasive species.
+- claim: Mdata, an online application for nature conservation professionals, aggregates Luxembourg observation
+    data from iNaturalist, Observation.org, Ornitho.lu, GBIF and the museum's own databases.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: Mdata is an online application designed for nature conservation professionals. It aggregates
+    observation data for Luxembourg from iNaturalist, Observation.org, Ornitho.lu, GBIF, and all information
+    stored in the MNHNL databases.
+- claim: Has been a partner of Observation.org since 2023, giving professional users features such as
+    transect recording and biomonitoring projects with custom protocols.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: The MNHNL has been a partner since 2023, enabling professional users to access advanced features
+- claim: Its GBIF publisher record describes it as Luxembourg's state natural history museum, holding
+    the largest natural history collections in the country.
+  url: https://api.gbif.org/v1/node/b0ccbf42-26b3-412e-b38a-339889154d77/organization?limit=100
+  fetched: 2026-11-08
+  quote: is Luxembourg's state natural history museum, and it holds the largest natural history collections
+    in the country
+- claim: The same record says it plays a key role in collecting, validating and sharing data on Luxembourg's
+    natural heritage, making millions of species records publicly accessible.
+  url: https://api.gbif.org/v1/node/b0ccbf42-26b3-412e-b38a-339889154d77/organization?limit=100
+  fetched: 2026-11-08
+  quote: it plays a key role in collecting, validating and sharing data on Luxembourg's natural heritage,
+    making millions of species records publicly accessible
+- claim: GBIF records 56 datasets published by the museum.
+  url: https://api.gbif.org/v1/node/b0ccbf42-26b3-412e-b38a-339889154d77/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":56'
+- claim: GBIF's node record places the IPT (data publishing server) of GBIF Luxembourg on the museum's
+    mnhn.lu domain.
+  url: https://api.gbif.org/v1/node/country/LU
+  fetched: 2026-11-08
+  quote: '"url":"https://gbif.mnhn.lu/ipt/rss.do","description":"IPT of GBIF Luxembourg"'
+- claim: Serves as Luxembourg's national node for GBIF.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: The MNHNL serves as Luxembourg’s national node for the Global Biodiversity Information Facility
+    (GBIF)
+- claim: Says the observation data aggregated in its database allow it to monitor biodiversity at the
+    local level, track changes in animal populations and issue alerts on invasive species.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: They allow us, for example, to monitor the state of biodiversity at the local level, to track
+    changes in animal populations, and to issue alerts in the event of the spread of invasive species.
+- claim: Has been part of the iNaturalist network since 2021.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: Since 2021, the MNHNL has been part of the iNaturalist network
+- claim: Its contact address is 25, rue Münster, L-2160 Luxembourg.
+  url: https://www.mnhn.lu
+  fetched: 2026-11-08
+  quote: 25, rue Münster
+links:
+- type: uses
+  to: inaturalist
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: Since 2021, the MNHNL has been part of the iNaturalist network, a participatory science platform
+    that helps identify and document wild species in Luxembourg and worldwide.
+- type: partners-with
+  to: luxembourg-pollinator-monitoring-scheme
+  url: https://researchportal.list.lu/projects/detail/lupoms
+  fetched: 2026-11-08
+  quote: National Museum of Natural History Luxembourg (MNHL)
+- type: partners-with
+  to: namphimo
+  url: https://researchportal.list.lu/projects/detail/namphimo
+  fetched: 2026-11-08
+  quote: Partners Biota.lu National Museum of Natural History Luxembourg (MNHL)
+- type: partners-with
+  to: inaturalist
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: Since 2021, the MNHNL has been part of the iNaturalist network
+found_by:
+- checklist:2
+- link-from:consortium-of-european-taxonomic-facilities
+- register:lu
+added_by: agent
+checked: 2026-11-08

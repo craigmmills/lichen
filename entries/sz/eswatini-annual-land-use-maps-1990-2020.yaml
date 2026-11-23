@@ -1,0 +1,52 @@
+id: eswatini-annual-land-use-maps-1990-2020
+kind: dataset
+name: Eswatini annual land use maps, 1990-2020
+also_known_as: []
+scope: sz
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- sz
+status: unknown
+summary: Annual land use maps of 10 categories covering all of Eswatini from 1990 to 2020,
+  classified with random forest from Landsat time series using CCDC change detection, and
+  validated with over 6,000 reference samples.
+facts:
+- claim: The maps cover 10 land use categories at an annual time step for the whole of Eswatini
+    from 1990 to 2020.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: These maps were generated for 1990-2020 for the entire Eswatini
+- claim: Land use from 1990 to 2020 was classified with random forest-based supervised classification.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: 1990 to 2020 was classified using random forest-based supervised classification methods
+  ai_type: ml-supervised
+- claim: Change was detected in the Landsat time series with the CCDC algorithm.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: the corresponding time segments detected by the CCDC algorithm
+- claim: The maps were validated with more than 6,000 reference samples.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: The data was validated  using a col lection of over 6000 reference samples
+- claim: The report says the greenhouse gas inventory data was led by Wisdom M. D. Dlamini
+    of the University of Eswatini.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: This greenhouse gas inventory data was led by Wisdom M. D. Dlamini (University of
+    Eswatini)
+- claim: The report names the Centre for Sustainable Energy Research, University of Eswatini.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: Centre for Sustainable Energy Research, University of Eswatini
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

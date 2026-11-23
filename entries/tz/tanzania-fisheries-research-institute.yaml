@@ -1,0 +1,82 @@
+id: tanzania-fisheries-research-institute
+kind: organisation
+name: Tanzania Fisheries Research Institute
+also_known_as:
+- TAFIRI
+scope: tz
+sector: government
+roles:
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- freshwater
+- ocean
+hq: tz
+countries:
+- tz
+scale: national
+status: active
+website: https://www.tafiri.go.tz
+summary: Public institution under the Ministry of Livestock and Fisheries, set up in 1980,
+  which says its research vessels support hydroacoustic fish biomass estimates on Lake Victoria
+  and biodiversity monitoring on Lake Tanganyika.
+facts:
+- claim: Says it is a public institution under the Ministry of Livestock and Fisheries, set
+    up by Act of Parliament in 1980.
+  url: https://www.tafiri.go.tz/research/research-vessels/
+  fetched: 2026-11-08
+  quote: The Tanzania Fisheries Research Institute (TAFIRI) is a public institution under
+    the Ministry of Livestock and Fisheries. It was established by Act of Parliament No. 6
+    of 1980 and started operations in August 1983.
+- claim: Says its research vessel RV Explorer uses hydroacoustic systems to estimate fish
+    biomass on Lake Victoria.
+  url: https://www.tafiri.go.tz/research/research-vessels/
+  fetched: 2026-11-08
+  quote: RV Explorer is a key research vessel stationed on Lake Victoria. It is equipped with
+    advanced hydroacoustic systems used to estimate fish biomass, alongside environmental
+    monitoring tools for assessing water quality.
+- claim: Says RV Echoes supports long-term monitoring of Lake Tanganyika's biodiversity.
+  url: https://www.tafiri.go.tz/research/research-vessels/
+  fetched: 2026-11-08
+  quote: The vessel supports long-term monitoring of the lake's unique biodiversity
+- claim: TAFIRI-affiliated researchers co-authored a paper on classifying fish schools in
+    Lake Victoria acoustic survey data with random forests.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:TZ,concepts.id:C119857082,concepts.id:C18903297,from_publication_date:2019-01-01&per-page=50&sort=cited_by_count:desc&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: '"display_name": "Automated classification of schools of the silver cyprinid Rastrineobola
+    argentea in Lake Victoria acoustic survey data using random forests"'
+  ai_type: ml-supervised
+- claim: A public institution under the Ministry of Livestock and Fisheries, established by
+    Act of Parliament in 1980, to promote, conduct and coordinate fisheries and aquaculture
+    research.
+  url: https://www.tafiri.go.tz/
+  fetched: 2026-11-08
+  quote: The Tanzania Fisheries Research Institute (TAFIRI) is a public institution under
+    the Ministry of Livestock and Fisheries. It was established by Act of Parliament No. 6
+    of 1980 and started operations in August 1983.
+- claim: Maintains a fleet for deep-water limnological and marine surveys used to monitor
+    fish stocks and water quality.
+  url: https://www.tafiri.go.tz/
+  fetched: 2026-11-08
+  quote: TAFIRI maintains a specialized fleet capable of deep-water limnological and marine
+    surveys, essential for monitoring fish stocks and water quality.
+- claim: Has centres in Dar es Salaam (headquarters, Kunduchi), Mwanza (Lake Victoria), Kigoma
+    (Lake Tanganyika) and Kyela (Lake Nyasa), and a Sota substation on Lake Victoria.
+  url: https://www.tafiri.go.tz/
+  fetched: 2026-11-08
+  quote: The institute maintains several world-class facilities across its centers in Dar
+    es Salaam (Headquarters/Kunduchi), Mwanza and Sota Substation (Lake Victoria), Kigoma
+    (Lake Tanganyika) and Kyela (Lake Nyasa)
+links:
+- type: partners-with
+  to: gmes-and-africa
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: 2026-11-08
+  quote: Tanzania Fisheries and Research Institute (TAFIRI) - Tanzania, https://www.tafiri.go.tz/
+found_by:
+- checklist:3
+- queue:tz
+added_by: agent
+checked: 2026-11-08

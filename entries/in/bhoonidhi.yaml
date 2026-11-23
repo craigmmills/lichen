@@ -1,0 +1,32 @@
+id: bhoonidhi
+kind: dataset
+name: Bhoonidhi
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- in
+website: https://bhoonidhi.nrsc.gov.in
+summary: ISRO's Earth observation data hub, through which registered users get satellite
+  data including NISAR S-band products.
+scope: in
+status: active
+facts:
+- claim: ISRO's Earth observation data dissemination hub.
+  url: https://www.isro.gov.in/NISARS_Band_SAR_Data_Products_Release.html
+  fetched: '2026-10-31'
+  quote: NISAR data products are disseminated through Bhoonidhi, ISRO’s Earth Observation
+    data dissemination hub
+links:
+- type: run-by
+  to: indian-space-research-organisation
+  url: https://www.isro.gov.in/NISARS_Band_SAR_Data_Products_Release.html
+  fetched: '2026-10-31'
+  quote: Bhoonidhi, ISRO’s Earth Observation data dissemination hub
+found_by:
+- link-from:nisar
+added_by: agent
+checked: '2026-10-31'

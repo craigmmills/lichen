@@ -1,0 +1,33 @@
+id: dead-sea-and-arava-science-center
+kind: organisation
+name: Dead Sea and Arava Science Center
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: Active organisation where an author led a 2025 paper using remote sensing to assess
+  vegetation dynamics in the Arava valley.
+facts:
+- claim: A 2025 paper led by an author there uses remote sensing to assess vegetation dynamics
+    in the Arava valley.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0133h2564,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Using remote sensing to assess vegetation dynamics in a hyper-arid region: The Arava
+    valley as a case study'
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

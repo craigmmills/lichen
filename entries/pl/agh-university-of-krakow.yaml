@@ -1,0 +1,36 @@
+id: agh-university-of-krakow
+kind: organisation
+name: AGH University of Krakow
+also_known_as:
+- AGH University of Science and Technology
+scope: pl
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- pl
+scale: national
+status: active
+summary: A university named as the affiliation of the first author of a 2020 paper on deep
+  learning for acoustic monitoring of night-migrating birds, according to OpenAlex.
+facts:
+- claim: OpenAlex lists a 2020 paper on deep learning methods for acoustic monitoring of night-migrating
+    birds with first author Hanna Pamuła affiliated with AGH University of Krakow in that
+    record.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I686019,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Deep Learning Methods for Acoustic Monitoring of Birds Migrating at Night
+  ai_type: deep-learning
+ai_types:
+- deep-learning
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

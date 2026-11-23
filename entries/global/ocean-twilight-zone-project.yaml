@@ -1,0 +1,38 @@
+id: ocean-twilight-zone-project
+kind: project
+name: Ocean Twilight Zone project
+scope: global
+ai_label: ai
+ai_types: [ml-supervised, deep-learning]
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://twilightzone.whoi.edu
+summary: Woods Hole Oceanographic Institution project on the ocean's twilight zone, in which biologists use AI techniques to analyse images of plankton.
+facts:
+- claim: Heidi Sosik uses AI techniques as lead scientist.
+  url: https://www.whoi.edu/oceanus/feature/ai-in-the-ocean-twilight-zone
+  fetched: '2026-10-30'
+  quote: Biologist Heidi Sosik uses these AI techniques extensively in her work. As the lead scientist for WHOI’s Ocean Twilight Zone project
+- claim: "A neural network algorithm sorts twilight zone images."
+  url: https://www.whoi.edu/oceanus/feature/ai-in-the-ocean-twilight-zone
+  fetched: '2026-10-30'
+  quote: "a specially-designed neural network algorithm"
+  ai_type: deep-learning
+- claim: "Scientists first create an annotated dataset for the model."
+  url: https://www.whoi.edu/oceanus/feature/ai-in-the-ocean-twilight-zone
+  fetched: '2026-10-30'
+  quote: "scientists have to create an annotated dataset"
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: woods-hole-oceanographic-institution
+  url: https://www.whoi.edu/oceanus/feature/ai-in-the-ocean-twilight-zone
+  fetched: '2026-10-30'
+  quote: As the lead scientist for WHOI’s Ocean Twilight Zone project
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

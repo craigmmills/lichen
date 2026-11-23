@@ -1,0 +1,43 @@
+id: utrecht-university
+kind: organisation
+name: Utrecht University
+also_known_as:
+- Universiteit Utrecht
+- Utrecht University
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: A member of the WildlifeNL research consortium on human-wildlife coexistence in the
+  Netherlands.
+facts:
+- claim: Listed first in the WildlifeNL research consortium.
+  url: https://www.smartparks.org/news/nwa-project-grant-for-wildlifenl/
+  fetched: &id001 2026-10-31
+  quote: The research consortium consists of Universiteit Utrecht, Radboud Universiteit, Fontys
+    Hogeschool
+- claim: A partner in WildlifeNL with a named project leader.
+  url: https://www.ru.nl/en/research/research-projects/wildlifenl
+  fetched: '2026-10-31'
+  quote: Ine Dorresteijn (Utrecht University)
+links:
+- type: partners-with
+  to: wildlifenl
+  url: https://www.smartparks.org/news/nwa-project-grant-for-wildlifenl/
+  fetched: *id001
+  quote: The research consortium consists of Universiteit Utrecht, Radboud Universiteit, Fontys
+    Hogeschool
+found_by:
+- link-from:smart-parks
+- checklist:3
+scope: nl
+added_by: agent
+checked: *id001

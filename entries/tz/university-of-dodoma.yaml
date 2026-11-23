@@ -1,0 +1,39 @@
+id: university-of-dodoma
+kind: organisation
+name: The University of Dodoma
+also_known_as:
+- UDOM
+scope: tz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+hq: tz
+countries:
+- tz
+scale: national
+status: active
+summary: University whose affiliated first author, Cesilia Mambile, published a 2026 paper
+  assessing how well deep learning suits forest fire prediction in Tanzania.
+facts:
+- claim: A 2026 paper assesses how well deep learning fits the task of forest fire prediction
+    in Tanzania.
+  url: https://api.openalex.org/works/W7170082988?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Assessing Task-Technology Fit of Deep Learning for Forest Fire Prediction in Tanzania
+  ai_type: deep-learning
+- claim: The OpenAlex record lists first author Cesilia Mambile with a University of Dodoma
+    affiliation, naming the college as 'College of Informatics and Virtue Education'.
+  url: https://api.openalex.org/works/W7170082988?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: College of Informatics and Virtue Education, University of Dodoma (UDOM), P.O Box
+    259, Dodoma, Tanzania
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

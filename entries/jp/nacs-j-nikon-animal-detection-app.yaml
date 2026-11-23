@@ -1,0 +1,52 @@
+id: nacs-j-nikon-animal-detection-app
+kind: model
+name: NACS-J and Nikon animal detection app
+scope: jp
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- jp
+status: active
+summary: App built by NACS-J and Nikon that detects animals in sensor camera images; of 30,108 images
+  it judged animal-free, 29,983 had none (99.6%).
+facts:
+- claim: Of 30,108 images the app judged to have no animal, 29,983 had none, a correct rate of 99.6%.
+  url: https://www.nacsj.or.jp/partner/2022/07/31203/
+  fetched: 2026-11-02
+  quote: 30,809件の画像データのうち、「動物が写っていない」とアプリが判断したデータは30,108件。それらを人がチェックしたところ、動物が写っていなかった画像データはそのうち29,983件で、正解率は99.6%でした。
+- claim: NACS-J supplied animal images and the annotation needed for AI training.
+  url: https://www.nacsj.or.jp/partner/2022/07/31203/
+  fetched: 2026-11-02
+  quote: NACS-Jは動物画像データの提供と、AI（人工知能）が学習するために必要な大量の教師データを作り出すアノテーション作業を担いました。
+- claim: Detects animals in sensor camera images.
+  url: https://www.nacsj.or.jp/media/2022/07/31218/
+  fetched: '2026-11-02'
+  quote: センサーカメラで撮影した画像から動物を自動検出するアプリを共同開発しました。
+links:
+- type: built-by
+  to: nikon-corporation
+  url: https://www.nacsj.or.jp/partner/2022/07/31203/
+  fetched: 2026-11-02
+  quote: 自動検出アプリの開発にあたっては、画像解析技術を有するニコンが、アプリの技術的な開発を担いました。
+- type: built-by
+  to: nature-conservation-society-of-japan
+  url: https://www.nacsj.or.jp/partner/2022/07/31203/
+  fetched: 2026-11-02
+  quote: センサーカメラで撮影した画像から動物を自動検出するアプリを共同開発しました。
+- type: built-by
+  to: nature-conservation-society-of-japan
+  url: https://www.nacsj.or.jp/media/2022/07/31218/
+  fetched: '2026-11-02'
+  quote: 公益財団法人日本自然保護協会（東京都中央区、理事長：亀山 章、以下NACS-J）と株式会社ニコン（東京都港区、代表取締役 兼 社長執行役員：馬立 稔和、以下ニコン）は、センサーカメラで撮影した画像から動物を自動検出するアプリを共同開発しました。
+- type: built-by
+  to: nikon-corporation
+  url: https://www.nacsj.or.jp/media/2022/07/31218/
+  fetched: '2026-11-02'
+  quote: 公益財団法人日本自然保護協会（東京都中央区、理事長：亀山 章、以下NACS-J）と株式会社ニコン（東京都港区、代表取締役 兼 社長執行役員：馬立 稔和、以下ニコン）は、センサーカメラで撮影した画像から動物を自動検出するアプリを共同開発しました。
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-02

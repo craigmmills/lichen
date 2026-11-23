@@ -1,0 +1,39 @@
+id: wildlife-imaging-systems-wur-pilot
+kind: organisation
+name: Wildlife Imaging Systems
+also_known_as:
+- WIS
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: Developed a system of sixteen thermal cameras with artificial intelligence, tested
+  on an offshore wind turbine at Hollandse Kust Zuid to observe potential bird collisions.
+facts:
+- claim: Developed a system using sixteen thermal cameras on an offshore wind turbine.
+  url: https://www.wur.nl/en/news/camera-system-sheds-new-light-bird-collisions-sea
+  fetched: &id001 2026-10-31
+  quote: WIS developed a system using sixteen thermal cameras that were installed on an offshore
+    wind turbine
+links:
+- type: runs
+  to: offshore-bird-collision-camera-pilot
+  url: https://www.wur.nl/en/news/camera-system-sheds-new-light-bird-collisions-sea
+  fetched: *id001
+  quote: The pilot, initiated by Vattenfall, was carried out at the Hollandse Kust Zuid offshore
+    wind farm in a collaboration between Wildlife Imaging Systems (WIS) and Wageningen University
+    & Research (WUR)
+found_by:
+- link-from:wageningen-university-and-research
+scope: nl
+added_by: agent
+checked: *id001

@@ -1,0 +1,50 @@
+id: university-of-parakou
+kind: organisation
+name: University of Parakou
+also_known_as:
+- Université de Parakou
+scope: bj
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: bj
+countries:
+- bj
+scale: national
+status: active
+summary: Beninese university whose mycology research unit was a JRS grantee for wild fungi
+  data mobilisation in Benin from May 2023 to October 2025, and whose MyTIPS laboratory publishes
+  fungi data on GBIF.
+facts:
+- claim: The JRS grant page lists its Research Unit of Tropical Mycology and Soil-Plant Fungi
+    Interactions as grantee for wild fungi data mobilisation in Benin, with funding from May
+    2023 to October 2025.
+  url: https://jrsbiodiversity.org/grants/univ_parakou/
+  fetched: 2026-11-08
+  quote: Research Unit of Tropical Mycology and Soil-Plant Fungi Interactions, University
+    of Parakou (2022) Data Mobilization and Long Term Conservation of Wild Fungi (WEF) in
+    Benin
+- claim: Its MyTIPS laboratory publishes wild edible fungi data for Benin on GBIF.
+  url: https://api.gbif.org/v1/organization/e67232c3-376e-472a-833e-06449de6c3dd/publishedDataset?limit=20
+  fetched: '2026-11-08'
+  quote: Data Mobilization and long-term conservation of Wild Edible Fungi (WEF) in Benin
+    (Project 70030 JRS - University of Parakou)
+- claim: MyTIPS is a laboratory of the university's Faculty of Agronomy.
+  url: https://api.gbif.org/v1/organization/e67232c3-376e-472a-833e-06449de6c3dd
+  fetched: '2026-11-08'
+  quote: is a laboratory of the Faculty of Agronomy of the University of Parakou
+links:
+- type: runs
+  to: research-unit-of-tropical-mycology-university-of-parakou
+  url: https://jrsbiodiversity.org/grants/univ_parakou/
+  fetched: 2026-11-08
+  quote: Research Unit of Tropical Mycology and Soil-Plant Fungi Interactions of University
+    of Parakou
+found_by:
+- link-from:jrs-biodiversity-foundation
+- link-from:mytips-university-of-parakou
+added_by: agent
+checked: 2026-11-08

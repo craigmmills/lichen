@@ -1,0 +1,46 @@
+id: bertarelli-foundation
+kind: organisation
+name: Bertarelli Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- ocean
+hq: ch
+scale: global
+status: active
+summary: Foundation that announced a marine science programme in the British Indian Ocean
+  Territory in 2017, with a $12 million investment for 50 researchers from 14 institutions,
+  coordinated by the Zoological Society of London.
+facts:
+- claim: Committed $12 million to a marine science programme running from 2017 to 2021, with
+    50 researchers from 14 institutions.
+  url: https://chagos-trust.org/news/bertarelli-programme-in-marine-science
+  quote: comprises a team of 50 researchers from 14 institutions worldwide coordinated by
+    the Zoological Society of London and supported by a $12 million investment from the Bertarelli
+    Foundation.
+  fetched: &id001 2026-10-30
+- claim: The UN partnerships site says the Bertarelli Programme in Marine Science brings scientists
+    together to study the marine protected area in the British Indian Ocean Territory.
+  url: https://sdgs.un.org/partnerships/bertarelli-programme-marine-science
+  quote: The Bertarelli Programme in Marine Science (BPMS) brings together talented scientists
+    from around the world to study the Marine Protected Area (MPA) in the British Indian Ocean
+    Territory (BIOT).
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: zoological-society-of-london
+  amount: 12000000
+  currency: USD
+  year: 2017
+  url: https://chagos-trust.org/news/bertarelli-programme-in-marine-science
+  quote: comprises a team of 50 researchers from 14 institutions worldwide coordinated by
+    the Zoological Society of London and supported by a $12 million investment from the Bertarelli
+    Foundation.
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

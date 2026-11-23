@@ -1,0 +1,47 @@
+id: forest-grassland-precision-monitoring-large-model
+kind: model
+name: Forest and Grassland Resource Precision Monitoring Large Model
+also_known_as:
+- 林草资源精准监测大模型
+scope: cn
+ai_label: ai
+ai_types:
+- deep-learning
+- multimodal
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+runner: unknown
+status: active
+countries:
+- cn
+summary: A large model under development that combines drone images, satellite images
+  and LiDAR point clouds to identify tree species and monitor forest resources.
+facts:
+- claim: Uses multimodal deep learning to combine drone, satellite and LiDAR data.
+  ai_type: deep-learning
+  url: https://www.zytd-bj.com/news/shownews.php?id=128
+  fetched: '2026-10-31'
+  quote: 依托多模态深度学习技术，创新性地融合无人机影像、卫星遥感影像、激光雷达（ LiDAR ）点云等多源数据
+- claim: Uses multimodal deep learning to combine drone, satellite and LiDAR data.
+  ai_type: multimodal
+  url: https://www.zytd-bj.com/news/shownews.php?id=128
+  fetched: '2026-10-31'
+  quote: 依托多模态深度学习技术，创新性地融合无人机影像、卫星遥感影像、激光雷达（ LiDAR ）点云等多源数据
+links:
+- type: partners-with
+  to: chinese-academy-of-forestry
+  url: https://www.zytd-bj.com/news/shownews.php?id=128
+  fetched: '2026-10-31'
+  quote: 由中国林业科学研究院、南京林业大学、大连理工大学、中南林业科技大学、南京信息工程大学、中遥天地（北京）信息技术有限公司组成的联合团队
+- type: partners-with
+  to: lulang-software-beijing
+  url: https://www.zytd-bj.com/news/shownews.php?id=128
+  fetched: '2026-10-31'
+  quote: 由中国林业科学研究院、南京林业大学、大连理工大学、中南林业科技大学、南京信息工程大学、中遥天地（北京）信息技术有限公司组成的联合团队
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,84 @@
+id: university-of-tartu-natural-history-museum-and-botanical-garden
+kind: organisation
+name: University of Tartu Natural History Museum and Botanical Garden
+also_known_as: []
+scope: ee
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+hq: ee
+countries:
+- ee
+scale: national
+status: active
+website: https://natmuseum.ut.ee
+summary: Holding over a million specimens, it publishes a GBIF DNA and environmental sample dataset, was
+  developing PlutoF in September 2022 and shares the GBIF Estonia node’s address.
+facts:
+- claim: Its September 2022 databases page says PlutoF was being developed by the UT Natural History Museum
+    and Botanical Garden.
+  url: https://natmuseum.ut.ee/en/databases
+  fetched: 2026-11-08
+  quote: PlutoF, a relational biodiversity information system based on the systematics of wildlife (the
+    so-called taxon tree), is being developed by the UT Natural History Museum and Botanical Garden
+- claim: Its GBIF registry record says its collections include more than one million specimens.
+  url: https://api.gbif.org/v1/organization/cc483d69-50e9-4463-8eb6-41fc459fa485
+  fetched: 2026-11-08
+  quote: Our collections include more than one million specimen of minerals, rocks, fossils, meteorites,
+    invertebrate and vertebrate animals
+- claim: Its GBIF registry record gives an address at Vanemuise 46, Tartu.
+  url: https://api.gbif.org/v1/organization/cc483d69-50e9-4463-8eb6-41fc459fa485
+  fetched: 2026-11-08
+  quote: Vanemuise 46, 51003, Tartu linn
+- claim: Publishes a DNA and environmental sample collections dataset on GBIF.
+  url: https://api.gbif.org/v1/organization/cc483d69-50e9-4463-8eb6-41fc459fa485/publishedDataset?limit=100
+  fetched: 2026-11-08
+  quote: University of Tartu Natural History Museum and Botanical Garden  DNA and Environmental Sample
+    Collections
+- claim: Its site describes PlutoF data as publicly available through outputs including the Estonian biodiversity
+    portal eBiodiversity and the UNITE fungal identifier.
+  url: https://natmuseum.ut.ee/en/plutof
+  fetched: 2026-10-31
+  quote: Examples of public web outputs include the Estonian biodiversity portal eBiodiversity, the global
+    fungal identifier UNITE and the natural history portal "Kõrv loodusesse".
+- claim: GBIF's record for the GBIF Estonia node gives an address at the Natural History Museum and Botanical
+    Garden, University of Tartu.
+  url: https://api.gbif.org/v1/node/2c11b821-d22b-4c64-8cd3-c1578173b129
+  fetched: 2026-11-08
+  quote: '"address":["Natural History Museum and Botanical Garden'
+links:
+- type: builds
+  to: plutof
+  url: https://natmuseum.ut.ee/en/databases
+  fetched: 2026-11-08
+  quote: PlutoF, a relational biodiversity information system based on the systematics of wildlife (the
+    so-called taxon tree), is being developed by the UT Natural History Museum and Botanical Garden
+- type: run-by
+  to: university-of-tartu
+  url: https://natmuseum.ut.ee/en/plutof
+  fetched: 2026-11-08
+  quote: University of Tartu Natural History Museum and Botanical Garden https://natmuseum.ut.ee
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: 2026-11-08
+  quote: Natural History Museum and Botanical Garden, University of Tartu, Tartu, Estonia
+- type: run-by
+  to: university-of-tartu
+  url: https://natmuseum.ut.ee/en/plutof
+  fetched: 2026-10-31
+  quote: University of Tartu Natural History Museum and Botanical Garden
+found_by:
+- queue:ee
+- link-from:gbif-estonia
+- link-from:fundive
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,40 @@
+id: yugra-state-university
+kind: organisation
+name: Yugra State University
+scope: ru
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+hq: ru
+scale: regional
+status: active
+website: https://mukhrinostation.com/
+summary: University whose station site lists the Mukhrino field station, an ecosystem geoinformatics
+  laboratory and a 2025 item on assessing tree stands with unmanned aircraft.
+facts:
+- claim: Its station site lists the Mukhrino international field station.
+  url: https://mukhrinostation.com/
+  fetched: '2026-10-31'
+  quote: Международный полевой стационар «Мухрино»
+- claim: Its station site lists a laboratory of ecosystem geoinformatics.
+  url: https://mukhrinostation.com/
+  fetched: '2026-10-31'
+  quote: Лаборатория геоинформатики экосистем
+- claim: Its station site carries a 2025 item on assessing tree stands with unmanned aircraft.
+  url: https://mukhrinostation.com/
+  fetched: '2026-10-31'
+  quote: Оценка состояния древостоя с использованием БВС
+- claim: GBIF gives the address of its biological collection.
+  url: https://api.gbif.org/v1/organization/fa46e267-4d25-41f5-bbbe-1cd75860b943
+  fetched: '2026-10-31'
+  quote: 16, Chekhova str., Khanty-Mansiysk
+links: []
+found_by:
+- checklist:queue-gbif-publishers
+added_by: agent
+checked: '2026-10-31'

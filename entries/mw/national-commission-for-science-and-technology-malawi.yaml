@@ -1,0 +1,50 @@
+id: national-commission-for-science-and-technology-malawi
+kind: organisation
+name: National Commission for Science and Technology
+also_known_as:
+- NCST
+scope: mw
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: mw
+countries:
+- mw
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.ncst.mw
+summary: Malawian body that, by its GBIF publisher record, promotes and coordinates science, technology
+  and innovation; the GBIF registry lists an Integrated Publishing Toolkit installation registered under
+  it.
+facts:
+- claim: The GBIF registry lists an Integrated Publishing Toolkit (IPT) installation registered under
+    NCST.
+  url: https://api.gbif.org/v1/organization/b43aa701-bc51-40a4-9f6c-b37e41d0e660/installation
+  fetched: 2026-11-08
+  quote: '"type":"IPT_INSTALLATION","title":"NATIONAL COMMISSION FOR SCIENCE AND TECHNOLOGY-IPT","description":"National
+    Commission for Science and Technology (NCST), Integrated Publishing Toolkit (IPT)"'
+- claim: NCST's site carries a page on the Global Biodiversity Information Facility.
+  url: https://ncst.mw/gbif/
+  fetched: 2026-11-08
+  quote: The Global Biodiversity Information Facility ( GBIF ) is an international organisation that focuses
+    on making scientific data on biodiversity available via the Internet using web services.
+- claim: Its GBIF publisher record says it promotes, supports, coordinates and regulates science, technology,
+    research and innovation in Malawi.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: National commission for science and Technology promotes, support, coordinate and regulate the
+    development and application of science, technology, Research and innovation
+- claim: Gives its office as Lingadzi House, Lilongwe.
+  url: https://www.ncst.mw
+  fetched: 2026-11-08
+  quote: 1st Floor Lingadzi House Robert Mugabe Crescent Capital City, Lilongwe
+links: []
+found_by:
+- link-from:gbif-malawi
+added_by: agent
+checked: 2026-11-08

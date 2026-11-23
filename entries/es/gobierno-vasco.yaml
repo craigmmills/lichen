@@ -1,0 +1,39 @@
+id: gobierno-vasco
+kind: organisation
+name: Gobierno Vasco
+scope: es
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: regional
+hq: es
+status: active
+also_known_as:
+- Basque Government
+realms:
+- land
+- freshwater
+website: https://www.euskadi.eus
+summary: Regional government of the Basque Country. It runs the Sistema de Información de
+  la Naturaleza de Euskadi, which publishes monitoring datasets through GBIF.
+facts:
+- claim: Replaced the technology of its nature information system after more than ten years.
+  url: https://www.euskadi.eus/gobierno-vasco/-/nuevo-sistema-de-informacion-de-la-naturaleza/
+  fetched: '2026-10-31'
+  quote: Tras haber pasado más de 10 años desde la puesta en marcha del Sistema de Información
+    de la Naturaleza de Euskadi
+- claim: Publishes monitoring datasets from the system on GBIF.
+  url: https://api.gbif.org/v1/organization/743cc32d-d83d-4e3a-a574-77d1725b1e08/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Sistema de Información de la Naturaleza de Euskadi
+links:
+- type: runs
+  to: sistema-de-informacion-de-la-naturaleza-de-euskadi
+  url: https://www.euskadi.eus/gobierno-vasco/-/nuevo-sistema-de-informacion-de-la-naturaleza/
+  fetched: '2026-10-31'
+  quote: Nuevo Sistema de Información de la Naturaleza - Gobierno Vasco - Euskadi.eus
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'

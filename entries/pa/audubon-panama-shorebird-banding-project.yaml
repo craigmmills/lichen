@@ -1,0 +1,48 @@
+id: audubon-panama-shorebird-banding-project
+kind: project
+name: Población y demografía de aves playeras migratorias (Audubon Panamá)
+scope: pa
+ai_label: conservation-tech
+realms:
+- freshwater
+- ocean
+countries:
+- pa
+status: unknown
+summary: A banding and flagging project run by Sociedad Audubon de Panamá, begun in
+  January 2014 on three migratory shorebird species with three more added in 2015,
+  which banded 370 shorebirds in its first two years.
+facts:
+- claim: Audubon Panamá began a banding and flagging project for three migratory shorebird
+    species in January 2014, adding three more in 2015.
+  url: https://audubonpanama.org/index.php/aves-de-panama/poblacion-y-demografia-de-aves-playeras-migratorias.html
+  fetched: 2026-11-13
+  quote: En enero de 2014 Audubon Panamá inició un proyecto de anillamiento y abanderamiento
+    de tres especies de aves playeras migratorias
+- claim: The project aims to assess the populations and demography of the six species
+    as part of a long-term international marking effort.
+  url: https://audubonpanama.org/index.php/aves-de-panama/poblacion-y-demografia-de-aves-playeras-migratorias.html
+  fetched: 2026-11-13
+  quote: Este proyecto tiene como objetivo evaluar las poblaciones y demografía de
+    estas seis especies
+- claim: In its first two years it banded 370 shorebirds at Panama Bay beaches and
+    at El Retén in Parita Bay.
+  url: https://audubonpanama.org/index.php/aves-de-panama/poblacion-y-demografia-de-aves-playeras-migratorias.html
+  fetched: 2026-11-13
+  quote: En los dos primeros años del proyecto se anilló un total de 370 aves playeras
+links:
+- type: run-by
+  to: sociedad-audubon-de-panama
+  url: https://audubonpanama.org/index.php/aves-de-panama/poblacion-y-demografia-de-aves-playeras-migratorias.html
+  fetched: &id001 2026-11-13
+  quote: El proyecto 'Población y demografía de aves playeras migratorias' nos permite
+    generar mayor información sobre los Playeros Occidentales
+- type: built-by
+  to: sociedad-audubon-de-panama
+  url: https://audubonpanama.org/index.php/aves-de-panama/poblacion-y-demografia-de-aves-playeras-migratorias.html
+  fetched: *id001
+  quote: En enero de 2014 Audubon Panamá inició un proyecto de anillamiento y abanderamiento
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,41 @@
+id: alarmes
+kind: programme
+name: ALARMES
+also_known_as:
+- Sistema ALARMES
+- Plataforma ALARMES
+scope: br
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://alarmes.lasa.ufrj.br/
+summary: Platform of the Environmental Satellite Applications Laboratory at the Federal University
+  of Rio de Janeiro that gives near-real-time alerts of burned areas across Brazil, using
+  deep learning.
+facts:
+- claim: Gives near-real-time burned-area alerts over Brazil.
+  url: https://alarmes.lasa.ufrj.br/area-queimada/
+  fetched: '2026-10-30'
+  quote: A plataforma ALARMES disponibiliza alerta das áreas queimadas sobre o Brasil em tempo
+    quase-real.
+- claim: Its BA-Net algorithm uses deep learning.
+  url: https://alarmes.lasa.ufrj.br/area-queimada/
+  fetched: '2026-10-30'
+  quote: utiliza o algoritmo BA-Net
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: laboratorio-de-aplicacoes-de-satelites-ambientais
+  url: https://alarmes.lasa.ufrj.br/area-queimada/
+  fetched: '2026-10-30'
+  quote: Plataforma ALARMES (https://alarmes.lasa.ufrj.br) do Laboratório de Aplicações de
+    Satélites Ambientais da Universidade Federal do Rio de Janeiro
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

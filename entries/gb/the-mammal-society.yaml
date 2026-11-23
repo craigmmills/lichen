@@ -1,0 +1,35 @@
+id: the-mammal-society
+kind: organisation
+name: The Mammal Society
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+hq: gb
+scale: national
+status: active
+website: http://www.mammal.org.uk/
+summary: UK mammal charity that runs the free Mammal Mapper app and publishes its records
+  on GBIF.
+facts:
+- claim: Asks for records through Mammal Mapper.
+  url: https://mammal.org.uk/how-to-record-mammals
+  fetched: '2026-10-30'
+  quote: please record it using our Mammal Mapper app
+- claim: Publishes the dataset "Mammal Mapper App Sighting Records" on GBIF.
+  url: https://api.gbif.org/v1/organization/d3dd95c3-93d4-4349-a13f-55abf89ad140/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Mammal Mapper App Sighting Records
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/d3dd95c3-93d4-4349-a13f-55abf89ad140/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

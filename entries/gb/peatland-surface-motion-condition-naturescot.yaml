@@ -1,0 +1,38 @@
+id: peatland-surface-motion-condition-naturescot
+kind: dataset
+name: NatureScot RR1356 peatland surface motion condition data
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+status: active
+website: https://gis-downloads.nature.scot/BOGBREATHING_readme.pdf
+summary: Open spatial data that class about 680,000 hectares of peatland by condition from
+  satellite surface motion, distributed by NatureScot.
+facts:
+- claim: Covers about 680,000 hectares of peatland from surface motion remote sensing.
+  url: https://gis-downloads.nature.scot/BOGBREATHING_readme.pdf
+  quote: to quantify the condition and trajectory of change of
+  fetched: '2026-10-31'
+- claim: Distributed by NatureScot.
+  url: https://gis-downloads.nature.scot/BOGBREATHING_readme.pdf
+  quote: Distributed by NatureScot (Scottish Natural Heritage)
+  fetched: '2026-10-31'
+- claim: Released under the Open Government Licence.
+  url: https://gis-downloads.nature.scot/BOGBREATHING_readme.pdf
+  quote: Contains Peatland ACTION data licensed under the Open Government Licence v3.0
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: naturescot
+  url: https://gis-downloads.nature.scot/BOGBREATHING_readme.pdf
+  quote: Distributed by NatureScot (Scottish Natural Heritage)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,71 @@
+id: finnish-peatland-site-type-dataset
+kind: dataset
+name: Finnish peatland site type dataset
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- fi
+status: active
+runner: unknown
+summary: Dataset covering all Finnish peatlands, funded by the Ministry of Agriculture
+  and Forestry and using CSC, that classifies site type, fertility and land use at
+  10 by 10 metre pixels using machine learning and remote sensing.
+facts:
+- claim: Covers all Finnish peatlands.
+  url: https://www.luke.fi/en/news/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland
+  fetched: '2026-11-02'
+  quote: this peatland site type dataset, covering all of the Finnish peatlands
+- claim: Machine learning models were tested to predict peatland site types from remote
+    sensing data.
+  url: https://www.luke.fi/en/news/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland
+  fetched: '2026-11-02'
+  quote: various machine learning models were tested to predict the existence of specific
+    peatland site types with the help of remote sensing data.
+- claim: Data accuracy was improved by combining remote sensing data with machine
+    learning.
+  url: https://www.gtk.fi/en/current/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland/
+  quote: The information accuracy of data previously collected on peatland vegetation
+    and soils was improved by combining remote sensing data with machine learning.
+  fetched: '2026-11-02'
+- claim: Can be used to classify all Finnish peatlands by site type, fertility status
+    and land use at a pixel size of 10 by 10 metres.
+  url: https://www.gtk.fi/en/current/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland/
+  quote: The data can be used to classify all Finnish peatlands into the above-mentioned
+    categories at pixel size of 10×10 metres.
+  fetched: '2026-11-02'
+- claim: Machine learning models were trained on teaching material to predict peatland
+    site types.
+  url: https://www.gtk.fi/en/current/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland/
+  quote: various machine learning models were tested to predict the existence of specific
+    peatland site types with the help of remote sensing data. In practice, the so-called
+    teaching material for the machine learning process
+  ai_type: ml-supervised
+  fetched: '2026-11-02'
+links:
+- type: funded-by
+  to: ministry-of-agriculture-and-forestry-finland
+  url: https://www.luke.fi/en/news/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland
+  fetched: '2026-11-02'
+  quote: funded by the Ministry of Agriculture and Forestry of Finland
+- type: funded-by
+  to: ministry-of-agriculture-and-forestry-finland
+  url: https://www.gtk.fi/en/current/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland/
+  quote: produced in the Advances in Soil Information project (Maaperätiedon kehittäminen,
+    MaaTi) funded by the Ministry of Agriculture and Forestry of Finland
+  fetched: '2026-11-02'
+- type: uses
+  to: csc-it-center-for-science
+  url: https://www.gtk.fi/en/current/first-spatial-dataset-on-peatlands-covers-mires-and-drained-peatlands-throughout-finland/
+  quote: the computing resources of CSC – IT Center for Science
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+scope: fi
+added_by: agent
+checked: '2026-11-02'
+ai_types:
+- ml-supervised

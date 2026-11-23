@@ -1,0 +1,52 @@
+id: kyoto-university-center-for-ecological-research
+kind: organisation
+name: Center for Ecological Research, Kyoto University
+also_known_as:
+- 京都大学生態学研究センター
+scope: jp
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques: []
+hq: unknown
+scale: local
+status: active
+summary: Kyoto University centre that continues the monthly Lake Biwa regular observation
+  begun in 1965, keeps plankton and benthos samples, and is named for the Lake Biwa
+  JaLTER associate site.
+facts:
+- claim: Its database page says the Lake Biwa regular observation began monthly in
+    1965 and was taken over by the centre, which continues it.
+  url: https://www.ecology.kyoto-u.ac.jp/database.html
+  fetched: '2026-11-09'
+  quote: この定期観測は、森主一所長（当時）らの発案により1965年に月に１回の頻度で開始されました。大津臨湖実験所の廃止後は生態学研究センターに引き継がれ、今日まで継続的に実施されています。
+- claim: Collects and keeps plankton and benthos samples at the same time.
+  url: https://www.ecology.kyoto-u.ac.jp/database.html
+  fetched: '2026-11-09'
+  quote: 上記の定期観測と同時にプランクトン、ベントス標本を採集し、保存しています。
+- claim: Named with the Lake Biwa Environmental Research Institute for the Lake Biwa
+    JaLTER associate site.
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Center for Ecological Research, Kyoto Univ.; Lake Biwa Environmental Research
+    institute
+links:
+- type: run-by
+  to: kyoto-university
+  url: https://www.ecology.kyoto-u.ac.jp/database.html
+  fetched: '2026-11-09'
+  quote: 京都大学理学部附属大津臨湖実験所および京都大学生態学研究センターの事業として実施されている琵琶湖定期観測
+- type: partners-with
+  to: jalter
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Center for Ecological Research, Kyoto Univ.; Lake Biwa Environmental Research
+    institute
+found_by:
+- rule:checklist-misses
+- link-from:jalter
+added_by: agent
+checked: '2026-11-09'

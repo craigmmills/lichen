@@ -1,0 +1,35 @@
+id: reefscan
+kind: programme
+name: ReefScan
+scope: au
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+summary: Camera-based reef monitoring system from the Australian Institute of Marine Science,
+  using autonomous vehicles and real-time machine learning, with versions including ReefScan-ASV
+  and ReefScan Transom.
+facts:
+- claim: A camera-based system using autonomous platforms and real-time machine learning.
+  url: https://amsa-2024.p.asnevents.com.au/days/2024-09-19/abstract/104416
+  fetched: '2026-10-31'
+  quote: ReefScan is a camera-based system that uses autonomous platforms and real time Machine
+    Learning
+- claim: ReefScan Transom was used to record coral reefs with Vietnam's Institute of Oceanography.
+  url: https://ecomagazine.com/news/coastal/aims-reef-monitoring-technology-used-in-vietnam/
+  fetched: '2026-10-31'
+  quote: AIMS engineers and scientists used an autonomous imaging system (ReefScan Transom)
+links:
+- type: run-by
+  to: australian-institute-of-marine-science
+  url: https://ecomagazine.com/news/coastal/aims-reef-monitoring-technology-used-in-vietnam/
+  fetched: '2026-10-31'
+  quote: Mr. Scott Bainbridge, who leads the AIMS team that developed ReefScan
+found_by:
+- link-from:australian-institute-of-marine-science
+added_by: agent
+checked: '2026-10-31'

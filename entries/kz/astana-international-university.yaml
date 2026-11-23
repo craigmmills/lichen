@@ -1,0 +1,68 @@
+id: astana-international-university
+kind: organisation
+name: Astana International University
+also_known_as:
+- AIU
+scope: kz
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+hq: kz
+countries:
+- kz
+scale: national
+status: active
+website: https://aiu.kz/?lang=en
+summary: University whose NatureLaB laboratory studies Kazakhstan's flora, and which publishes through
+  GBIF a checklist of native vascular plants covering 5,883 taxa.
+facts:
+- claim: Its NatureLaB research laboratory studies Kazakhstan's flora and biodiversity conservation.
+  url: https://api.gbif.org/v1/organization/d65215c0-cc3a-44be-be68-c1a7774ed73c
+  fetched: 2026-11-08
+  quote: At Astana International University, the NatureLaB research laboratory focuses on the study of
+    Kazakhstan’s flora, biodiversity conservation, and the development of fundamental and applied research
+    in plant biology.
+- claim: The AIU Herbarium is maintained by NatureLaB.
+  url: https://api.gbif.org/v1/organization/d65215c0-cc3a-44be-be68-c1a7774ed73c
+  fetched: 2026-11-08
+  quote: The AIU Herbarium, maintained by NatureLaB, serves as a scientific repository of plant specimens
+- claim: Its GBIF publisher record gives an address in Astana.
+  url: https://api.gbif.org/v1/organization/d65215c0-cc3a-44be-be68-c1a7774ed73c
+  fetched: 2026-11-08
+  quote: '"address":["Kazakhstan, Astana, 8 Kabanbay Batyr Avenue"]'
+- claim: Publishes the Checklist of Native Vascular Plants of Kazakhstan through GBIF, alongside checklists
+    of alien and cultivated vascular plants.
+  url: https://api.gbif.org/v1/organization/d65215c0-cc3a-44be-be68-c1a7774ed73c/publishedDataset
+  fetched: 2026-11-08
+  quote: '"title":"Checklist of Native Vascular Plants of Kazakhstan"'
+- claim: Its home page names the university and its rector, Anar Myrzagaliyeva.
+  url: https://aiu.kz/?lang=en
+  fetched: 2026-11-08
+  quote: Ask AIU Rector Anar Myrzagaliyeva a question
+- claim: Its GBIF publisher record says it works in fields including ecology, biodiversity conservation
+    and plant biology.
+  url: https://api.gbif.org/v1/organization/d65215c0-cc3a-44be-be68-c1a7774ed73c
+  fetched: 2026-11-08
+  quote: including natural sciences, ecology, biodiversity conservation, and plant biology.
+- claim: It publishes a checklist of the native vascular plants of Kazakhstan on GBIF, alongside checklists
+    of alien and cultivated vascular plants.
+  url: https://api.gbif.org/v1/organization/d65215c0-cc3a-44be-be68-c1a7774ed73c/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Checklist of Native Vascular Plants of Kazakhstan
+- claim: The native plant checklist covers 5,883 taxa in 978 genera and 128 families; its originators
+    include staff of the university.
+  url: https://api.gbif.org/v1/dataset/b2931dbf-fdc1-41e3-a2ed-fa54b420afaa
+  fetched: 2026-11-08
+  quote: This checklist documents the native vascular flora of Kazakhstan and includes 5,883 taxa belonging
+    to 978 genera and 128 families.
+links: []
+found_by:
+- link-from:queue-kz-gbif-publishers
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

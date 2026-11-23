@@ -1,0 +1,50 @@
+id: monimet
+kind: programme
+name: MONIMET
+also_known_as: []
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Camera network across Finland maintained by four institutes, run by the Finnish
+  Meteorological Institute, the Finnish Environment Institute and the University of
+  Helsinki, with images accessible online.
+facts:
+- claim: The MONIMET camera network is maintained by four institutes.
+  url: https://www.helsinki.fi/en/research-stations/lammi-biological-station/looking-these/research-infrastructure
+  fetched: '2026-11-08'
+  quote: The MONIMET network is maintained by the Finnish Meteorological Institute,
+    the Finnish Forest Research Institute (Metla), the Finnish Environment Institute
+    and the University of Helsinki.
+- claim: Images from MONIMET cameras across Finland are accessible from the same link
+    as Lammi's.
+  url: https://www.helsinki.fi/en/research-stations/lammi-biological-station/looking-these/research-infrastructure
+  fetched: '2026-11-08'
+  quote: The same link gives access to images taken by other MONIMET cameras operating
+    in Finland.
+links:
+- type: run-by
+  to: finnish-meteorological-institute
+  url: https://www.helsinki.fi/en/research-stations/lammi-biological-station/looking-these/research-infrastructure
+  fetched: '2026-11-08'
+  quote: The MONIMET network is maintained by the Finnish Meteorological Institute
+- type: run-by
+  to: finnish-environment-institute
+  url: https://www.helsinki.fi/en/research-stations/lammi-biological-station/looking-these/research-infrastructure
+  fetched: '2026-11-08'
+  quote: The MONIMET network is maintained by the Finnish Meteorological Institute,
+    the Finnish Forest Research Institute (Metla), the Finnish Environment Institute
+    and the University of Helsinki.
+- type: run-by
+  to: university-of-helsinki
+  url: https://www.helsinki.fi/en/research-stations/lammi-biological-station/looking-these/research-infrastructure
+  fetched: '2026-11-08'
+  quote: The MONIMET network is maintained by the Finnish Meteorological Institute,
+    the Finnish Forest Research Institute (Metla), the Finnish Environment Institute
+    and the University of Helsinki.
+found_by:
+- rule:checklist-misses
+- link-from:lammi-biological-station
+added_by: agent
+checked: '2026-11-08'

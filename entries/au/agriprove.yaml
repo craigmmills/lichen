@@ -1,0 +1,46 @@
+id: agriprove
+kind: organisation
+name: AgriProve
+scope: au
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- au
+scale: national
+status: active
+summary: Issues a Deforestation-Free Beef Credential for buyers with deforestation-free commitments,
+  using national datasets, ground cover analysis and satellite alerts, with independent analysis
+  by partner Verterra Ecological Engineering.
+facts:
+- claim: Issues a Deforestation-Free Beef Credential, described as a market access facilitator
+    for buyers with deforestation-free commitments.
+  url: https://help.agriprove.io/what-is-the-deforestation-free-beef-credential
+  quote: The Deforestation-Free Beef Credential is a market access facilitator
+  fetched: '2026-11-08'
+- claim: Detects woody vegetation change using national datasets, DROVER ground cover analysis
+    and near real-time satellite alerts.
+  url: https://help.agriprove.io/what-is-the-deforestation-free-beef-credential
+  quote: 'Vegetation disturbance detection: using national datasets, DROVER ground cover analysis,
+    and near real-time satellite alerts we detect woody vegetation change over time.'
+  fetched: '2026-11-08'
+- claim: Verterra Ecological Engineering conducts the independent analysis for the credential.
+  url: https://help.agriprove.io/what-is-the-deforestation-free-beef-credential
+  quote: Verterra Ecological Engineering will conduct the independent analysis
+  fetched: '2026-11-08'
+links:
+- type: partners-with
+  to: verterra-ecological-engineering
+  url: https://help.agriprove.io/what-is-the-deforestation-free-beef-credential
+  quote: consent to share this with our partner conducting the analysis
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,59 @@
+id: karst-research-institute-zrc-sazu
+kind: organisation
+name: Karst Research Institute ZRC SAZU
+also_known_as:
+- Inštitut za raziskovanje krasa ZRC SAZU
+- IZRK ZRC SAZU
+scope: si
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: si
+countries:
+- si
+scale: national
+status: active
+website: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+summary: Postojna-based institute within ZRC SAZU whose Data Centre built the IZRK
+  Metadata Portal in 2021 and 2022, which also lists a CC BY 4.0 Postojna Cave dataset.
+facts:
+- claim: ZRC SAZU lists the Karst Research Institute among its institutes.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: Karst Research Institute
+- claim: The institute gives its address in Postojna.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: SI-6230 Postojna
+- claim: The institute's Data Centre developed the IZRK Metadata Portal in 2021 and
+    2022 on the GeoNetwork platform for multidisciplinary environmental data.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: The IZRK Metadata Portal was developed at the Data Centre of the Karst Research
+    Institute ZRC SAZU from 2021 to 2022 using the GeoNetwork platform
+- claim: The portal record for the Postojna-Planina Cave System as an LTER Slovenia
+    site says sites are defined there for permanent water and biodiversity monitoring.
+  url: https://metadata.izrk.zrc-sazu.si/srv/api/records/d3011b1e-3aa5-4b61-a3bc-94da67f582c8
+  fetched: '2026-11-15'
+  quote: sites are defined for permanent water and biodiversity monitoring with the
+    respect to human impact
+- claim: The portal holds an ongoing Postojna Cave bio-geo-chemical dataset with IZRK
+    ZRC SAZU as owner, under a CC BY 4.0 licence.
+  url: https://metadata.izrk.zrc-sazu.si/srv/api/records/8306e789-a3e5-40b2-aad4-aa69436a063c
+  fetched: '2026-11-15'
+  quote: Postojnska jama (Postojna Cave) - bio-geo-chemo data (minisites 1-10)
+links:
+- type: builds
+  to: izrk-metadata-portal
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: The IZRK Metadata Portal was developed at the Data Centre of the Karst Research
+    Institute ZRC SAZU from 2021 to 2022 using the GeoNetwork platform
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

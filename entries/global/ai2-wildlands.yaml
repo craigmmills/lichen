@@ -1,0 +1,24 @@
+id: ai2-wildlands
+kind: programme
+name: Ai2 Wildlands
+scope: global
+ai_label: ai
+realms:
+- land
+status: active
+summary: Ai2 work that applies machine learning to wildlands management, helping land managers record and assess conditions.
+facts:
+- claim: Applies machine learning to wildlands management.
+  url: https://allenai.org/ai-for-the-environment
+  fetched: &id001 2026-10-30
+  quote: Ai2 is applying machine learning to the complex problem of wildlands management
+links:
+- type: run-by
+  to: allen-institute-for-ai
+  url: https://allenai.org/ai-for-the-environment
+  fetched: *id001
+  quote: Ai2 is applying machine learning to the complex problem of wildlands management
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

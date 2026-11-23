@@ -1,0 +1,37 @@
+id: protection-assistant-for-wildlife-security
+kind: model
+name: Protection Assistant for Wildlife Security
+also_known_as:
+- PAWS
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+status: unknown
+website: https://github.com/lily-x/PAWS-public
+summary: A model that predicts and plans against illegal wildlife poaching, with Python
+  code for machine learning risk prediction and patrol planning, and a paper reporting
+  predictions evaluated in field tests.
+facts:
+- claim: Predicts and plans against illegal wildlife poaching.
+  url: https://github.com/lily-x/PAWS-public
+  fetched: 2026-11-21
+  quote: Prediction and prescription to combat illegal wildlife poaching.
+- claim: The repository holds Python code for machine learning risk prediction and
+    for patrol planning.
+  url: https://github.com/lily-x/PAWS-public
+  fetched: 2026-11-21
+  quote: ./iware/ - Python code for ML risk prediction
+- claim: Its paper reports predictions evaluated in field tests.
+  url: https://github.com/lily-x/PAWS-public
+  fetched: 2026-11-21
+  quote: 'Stay Ahead of Poachers: Illegal Wildlife Poaching Prediction and Patrol
+    Planning Under Uncertainty with Field Test Evaluations'
+links: []
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+runner: unknown

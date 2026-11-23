@@ -1,0 +1,43 @@
+id: njala-university-department-of-wildlife-management-and-conservation
+kind: organisation
+name: Department of Wildlife Management and Conservation, School of Natural Resources
+  Management, Njala University
+also_known_as: []
+scope: sl
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+hq: sl
+countries:
+- sl
+scale: local
+status: active
+summary: University department listed as first author Jonathan Johnny's affiliation
+  on a 2025 paper, whose study used field surveys, GIS mapping and biodiversity indices
+  and identified 138 wetlands across seven zones in Bo City.
+facts:
+- claim: OpenAlex gives the department as first author Jonathan Johnny's affiliation
+    on the 2025 paper.
+  url: https://api.openalex.org/works/W4408472916?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: Department of Wildlife Management and Conservation, School of Natural Resources
+    Management, Njala University, Freetown, Sierra Leone
+- claim: The paper's abstract says the study used field surveys, GIS mapping and biodiversity
+    indices to analyse wetland dynamics.
+  url: https://doi.org/10.63002/asrp.32.844
+  fetched: 2026-11-12
+  quote: utilizing field surveys, Geographic Information System (GIS) mapping, and
+    biodiversity indices to analyze wetland dynamics
+- claim: The abstract says the study identified 138 wetlands across seven zones in
+    Bo City.
+  url: https://doi.org/10.63002/asrp.32.844
+  fetched: 2026-11-12
+  quote: The study identified 138 wetlands distributed across seven zones in Bo City
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

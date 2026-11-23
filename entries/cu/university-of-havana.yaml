@@ -1,0 +1,39 @@
+id: university-of-havana
+kind: organisation
+name: Universidad de La Habana
+also_known_as:
+- University of Havana
+scope: cu
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+hq: unknown
+countries:
+- cu
+scale: national
+status: active
+summary: Cuban university whose Centro de Investigaciones Marinas researchers followed
+  two manatees released with satellite transmitters in 2012, and which OpenAlex lists
+  as the Cuban institution with the most works.
+facts:
+- claim: A UNDP report describes researchers of the university's Centro de Investigaciones
+    Marinas following two manatees released with satellite transmitters in 2012.
+  url: https://www.undp.org/sites/g/files/zskgke326/files/migration/cu/30a2392f82dcde325741832c314bb3a4c737e08b23e6d07f7f2d82bee235fa80.pdf
+  fetched: 2026-11-12
+  quote: Dos manatíes fueron liberados con un transmisor satelital y su seguimiento
+    se lleva a cabo por investigadores del Centro de Investigaciones Marinas de la
+    Universidad de La Habana
+- claim: OpenAlex lists the University of Havana as the Cuban institution with the
+    most works.
+  url: https://api.openalex.org/institutions?filter=country_code:CU&per-page=100&select=id,display_name,works_count
+  fetched: 2026-11-12
+  quote: '{"id": "https://openalex.org/I2656126", "display_name": "University of Havana",
+    "works_count": 22219}'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

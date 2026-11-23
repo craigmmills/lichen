@@ -1,0 +1,56 @@
+id: osinforlab
+kind: programme
+name: Osinforlab
+scope: pe
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- pe
+status: active
+summary: Innovation and digital transformation laboratory of OSINFOR, set up at the start of 2026 according
+  to El Peruano, with initiatives including Edge AI fire detection and ADETOP v2 Web.
+facts:
+- claim: El Peruano reports that OSINFOR set up Osinforlab at the start of 2026 as a laboratory integrating
+    technology, data and technical knowledge to protect forests.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: implementó Osinforlab, un laboratorio de innovación y transformación digital que integra tecnología,
+    datos y conocimiento técnico para fortalecer la protección de los bosques.
+- claim: OSINFOR's innovation and digital transformation lab, where technology for forest supervision
+    is developed.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: OSINFORLAB, el laboratorio de innovación y transformación digital del OSINFOR, donde se desarrollan
+    soluciones tecnológicas para fortalecer la supervisión forestal
+- claim: Its initiatives include an Edge AI forest fire detection system and ADETOP v2 Web.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: Entre ellas también están el sistema de detección de incendios forestales basado en Edge AI,
+    el Certificado de Origen Legal y ADETOP v2 Web.
+links:
+- type: run-by
+  to: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: &id001 2026-11-03
+  quote: A través de este laboratorio, y en colaboración con la academia, la institución desarrolla algoritmos
+    de detección para identificar la tala ilegal, incendios forestales y localizar de manera automatizada
+    árboles de shihuahuaco a partir de imágenes captadas por drones.
+- type: built-by
+  to: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: *id001
+  quote: el Organismo de Supervisión de los Recursos Forestales y de Fauna Silvestre (Osinfor) implementó
+    Osinforlab
+- type: run-by
+  to: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: OSINFORLAB, el laboratorio de innovación y transformación digital del OSINFOR
+found_by:
+- link-from:organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+added_by: agent
+checked: 2026-11-03

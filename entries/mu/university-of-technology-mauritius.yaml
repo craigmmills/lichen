@@ -1,0 +1,47 @@
+id: university-of-technology-mauritius
+kind: organisation
+name: University of Technology, Mauritius
+scope: mu
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: mu
+countries:
+- mu
+scale: national
+status: active
+summary: Mauritian university whose OpenAlex-listed work includes 2024 and 2025 papers
+  on mangrove mapping and modelling and on invasive Vachellia nilotica spread on Rodrigues,
+  using remote sensing and GIS.
+facts:
+- claim: OpenAlex lists the Doctoral School, University of Technology, Mauritius as
+    the affiliation of first author Reshma Sunkur on a 2025 paper modelling mangrove
+    dynamics in Mauritius.
+  url: https://api.openalex.org/works/W4407667453?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: Doctoral School, University of Technology, Mauritius, La Tour Koenig, Pointe
+    aux Sables, Mauritius
+- claim: OpenAlex lists among its 2022-2026 environmental science works a 2024 paper
+    on mangrove mapping and monitoring with remote sensing.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I56592726,from_publication_date:2022-01-01,topics.field.id:23&select=id,title,publication_year&per-page=40
+  fetched: 2026-11-12
+  quote: Mangrove mapping and monitoring using remote sensing techniques towards climate
+    change resilience
+- claim: OpenAlex lists a 2024 paper by its researchers on the spread of the invasive
+    Vachellia nilotica on Rodrigues using GIS and remote sensing.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I56592726,from_publication_date:2022-01-01,topics.field.id:23&select=id,title,publication_year&per-page=40
+  fetched: 2026-11-12
+  quote: Spatio-temporal Analysis of An Invasive Alien Species, Vachellia nilotica,
+    on Rodrigues Island, Mauritius, Using Geographic Information Systems and Remote
+    Sensing Techniques
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

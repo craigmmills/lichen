@@ -1,0 +1,73 @@
+id: university-of-debrecen
+kind: organisation
+name: Debreceni Egyetem
+also_known_as:
+- University of Debrecen
+scope: hu
+sector: academic
+roles:
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- species-distribution
+- remote-sensing
+hq: hu
+countries:
+- hu
+scale: national
+status: active
+summary: A university whose researchers have published on deep learning in conservation biology, with
+  2024 abstracts describing neural camera-trap analysis of large game and AI prediction of tiger mosquito
+  occurrence.
+facts:
+- claim: A University of Debrecen researcher’s 2024 abstract describes the aim of developing a tool to
+    estimate large game numbers in Hungarian national parks, using a neural model to detect and identify
+    animals in camera-trap images.
+  url: https://mta.hu/data/esemenyek/mtu2024/1121_5396_Mesters%C3%A9ges_intelligencia_a_hazai_%C3%B6kol%C3%B3gi%C3%A1ban_%C3%A9s_term%C3%A9szetv%C3%A9delemben_FZS.pdf
+  fetched: 2026-11-08
+  quote: eszköz fejlesztése a célunk, aminek a szíve egy neurális modell, amely az állatok felvételeken
+    történő detektálását és osztályozását (fajba azonosítását) végzi.
+- claim: A University of Debrecen researcher’s 2024 abstract describes training an AI model on satellite
+    image series to predict the Asian tiger mosquito’s occurrence in Hungary using citizen science records.
+  url: https://mta.hu/data/esemenyek/mtu2024/1121_5396_Mesters%C3%A9ges_intelligencia_a_hazai_%C3%B6kol%C3%B3gi%C3%A1ban_%C3%A9s_term%C3%A9szetv%C3%A9delemben_FZS.pdf
+  fetched: 2026-11-08
+  quote: Faji elterjedési térképek prediktálása műholdképek alapján Barta Attila PhD (Debreceni Egyetem)
+- claim: A 2023 paper titled "Deep learning in terrestrial conservation biology" has a University of Debrecen
+    first author.
+  url: https://api.openalex.org/works/W4390910659?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-08
+  quote: Deep learning in terrestrial conservation biology
+  ai_type: deep-learning
+- claim: Its English home page gives its address in Debrecen.
+  url: https://unideb.hu/en
+  fetched: 2026-11-08
+  quote: H-4032 Debrecen, Egyetem tér 1.
+- claim: Listed among the OpenBioMaps contributors for 2015 to 2026.
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: University of Debrecen, Hungary
+- claim: A 2023 paper first-authored at the university is titled "Deep learning in terrestrial conservation
+    biology".
+  ai_type: deep-learning
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02xf66n48,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Deep learning in terrestrial conservation biology
+- claim: A 2020 paper first-authored at the university uses NDVI from satellite images to estimate sedimentation
+    and vegetation spread in artificial lakes.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02xf66n48,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: NDVI as a Proxy for Estimating Sedimentation and Vegetation Spread in Artificial Lakes
+ai_types:
+- deep-learning
+links: []
+found_by:
+- checklist:3
+- link-from:openbiomaps
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

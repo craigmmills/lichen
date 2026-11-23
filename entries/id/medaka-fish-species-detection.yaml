@@ -1,0 +1,46 @@
+id: medaka-fish-species-detection
+kind: project
+name: Medaka fish species detection and classification
+scope: id
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- computer-vision
+countries:
+- id
+status: active
+runner: unknown
+summary: Research project on detecting and classifying two medaka fish species with
+  YOLOv8, with the trained model built into a mobile application for use in the field.
+  A Universitas Hasanuddin group reports it.
+facts:
+- claim: It covers the species Oryzias celebensis and Oryzias javanicus.
+  url: https://trg.unhas.ac.id/datascienceai/diskusi-bersama-prof-ohashi-dan-assoc-prof-ogihara-membahas-model-vision-transformer-vitelementor-4692/
+  fetched: '2026-10-31'
+  quote: detection and classification of medaka fish species ( Oryzias celebensis
+    and Oryzias javanicus )
+- claim: The model was trained with YOLOv8.
+  url: https://trg.unhas.ac.id/datascienceai/diskusi-bersama-prof-ohashi-dan-assoc-prof-ogihara-membahas-model-vision-transformer-vitelementor-4692/
+  fetched: '2026-10-31'
+  quote: model training using YOLOv8
+  ai_type: deep-learning
+- claim: The trained model was built into a mobile application for identification
+    in the field.
+  url: https://trg.unhas.ac.id/datascienceai/diskusi-bersama-prof-ohashi-dan-assoc-prof-ogihara-membahas-model-vision-transformer-vitelementor-4692/
+  fetched: '2026-10-31'
+  quote: implemented into a mobile application to facilitate real-time identification
+    in field conditions
+links:
+- type: partners-with
+  to: data-science-and-artificial-intelligence-research-group-unhas
+  url: https://trg.unhas.ac.id/datascienceai/diskusi-bersama-prof-ohashi-dan-assoc-prof-ogihara-membahas-model-vision-transformer-vitelementor-4692/
+  fetched: '2026-10-31'
+  quote: ongoing research project on the detection and classification of medaka fish
+    species
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

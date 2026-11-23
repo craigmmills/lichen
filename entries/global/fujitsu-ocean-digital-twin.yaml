@@ -1,0 +1,43 @@
+id: fujitsu-ocean-digital-twin
+kind: project
+name: Fujitsu ocean digital twin
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- jp
+status: active
+summary: Fujitsu research project that uses LiDAR and AI on autonomous underwater vehicles to map coral reefs in 3D, tested near Ishigaki Island, with seaweed beds as the planned next target.
+facts:
+- claim: Tested in the waters near Ishigaki Island.
+  url: https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0326-01.html
+  fetched: &id001 2026-10-30
+  quote: Fujitsu conducted a field trial in the waters near Ishigaki Island, Okinawa prefecture in Japan
+- claim: Aims to cover seaweed beds by fiscal 2026.
+  url: https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0326-01.html
+  fetched: *id001
+  quote: creating an ocean digital twin for seaweed beds by FY 2026
+- claim: "Fujitsu developed image enhancement AI that performs deep learning."
+  url: https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0326-01.html
+  fetched: 2026-10-30
+  quote: "performs deep learning optimized for underwater subjects"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: fujitsu
+  url: https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0326-01.html
+  fetched: *id001
+  quote: as part of its R&D efforts to create ocean digital twin
+- type: partners-with
+  to: national-maritime-research-institute
+  url: https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0326-01.html
+  fetched: *id001
+  quote: alongside the National Maritime Research Institute, National Institute of Maritime, Port and Aviation Technology (NMRI)
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

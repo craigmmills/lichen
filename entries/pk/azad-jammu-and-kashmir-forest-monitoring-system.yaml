@@ -1,0 +1,42 @@
+id: azad-jammu-and-kashmir-forest-monitoring-system
+kind: programme
+name: Azad Jammu & Kashmir Forest Monitoring System
+also_known_as:
+- AJK-FMS
+scope: pk
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: active
+website: https://www.ajkfmspak.org/
+summary: Forest monitoring platform for Azad Jammu and Kashmir, described as built
+  on the National Forest Monitoring System's architecture, with multi-year forest
+  cover and deforestation layers and 184 sample plots plus 23 inventory sub-plots.
+facts:
+- claim: Describes itself as the forest monitoring platform for Azad Jammu and Kashmir,
+    built on the same architecture as the National Forest Monitoring System.
+  url: https://www.ajkfmspak.org/about
+  fetched: 2026-11-09
+  quote: AJK-FMS is the provincial forest monitoring platform for Azad Jammu & Kashmir,
+    built on the same architecture as Pakistan's National Forest Monitoring System
+    (NFMS).
+- claim: Provides multi-year forest cover and deforestation layers.
+  url: https://www.ajkfmspak.org/about
+  fetched: 2026-11-09
+  quote: Multi-year forest cover and deforestation layers from AJK GeoServer.
+- claim: Holds 184 sample plots and 23 National Forest Inventory sub-plots with species,
+    basal area and carbon attributes.
+  url: https://www.ajkfmspak.org/about
+  fetched: 2026-11-09
+  quote: 184 sample plots and 23 NFI sub-plots with species, basal area, and carbon
+    attributes.
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09
+runner: unknown

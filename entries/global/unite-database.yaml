@@ -1,0 +1,34 @@
+id: unite-database
+kind: dataset
+name: UNITE
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+status: active
+website: https://unite.ut.ee
+summary: Database for the eukaryotic nuclear ribosomal ITS region that clusters sequences
+  to about species level and gives each species hypothesis a DOI, used in fungal DNA work.
+facts:
+- claim: Database and sequence management environment for the eukaryotic ITS region.
+  url: https://unite.ut.ee/
+  fetched: '2026-10-30'
+  quote: UNITE is a database and sequence management environment centered on the
+links:
+- type: builds-on
+  to: international-nucleotide-sequence-database-collaboration
+  url: https://unite.ut.ee/
+  fetched: '2026-10-30'
+  quote: Nucleotide Sequence Database Collaboration are clustered to approximately the species
+    level
+- type: run-by
+  to: university-of-tartu
+  url: https://unite.ut.ee/governance.php
+  fetched: '2026-10-30'
+  quote: Prof. Urmas Kõljalg, Chairman
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

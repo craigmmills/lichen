@@ -1,0 +1,43 @@
+id: universidad-autonoma-de-santo-domingo
+kind: organisation
+name: Universidad Autónoma de Santo Domingo
+also_known_as:
+- UASD
+scope: do
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: do
+scale: national
+status: active
+countries:
+- do
+summary: A university in Santo Domingo that runs the IIBZ, a research unit in its
+  Facultad de Ciencias with 13 published datasets listed on GBIF.
+facts:
+- claim: The GBIF publisher record says the IIBZ is a research unit attached to the
+    Facultad de Ciencias of the UASD, with an address at the Ciudad Universitaria
+    in Santo Domingo.
+  url: https://api.gbif.org/v1/organization/e0f5c405-4f17-426d-a06e-688e31f60d05
+  fetched: 2026-11-12
+  quote: is a research unit attached to the Facultad de Ciencias of the Universidad
+    Autónoma de Santo Domingo (UASD)
+- claim: The record lists 13 published datasets for the institute.
+  url: https://api.gbif.org/v1/organization/e0f5c405-4f17-426d-a06e-688e31f60d05
+  fetched: 2026-11-12
+  quote: '"numPublishedDatasets":13'
+links:
+- type: runs
+  to: instituto-de-investigaciones-botanicas-y-zoologicas-rafael-m-moscoso
+  url: https://api.gbif.org/v1/organization/e0f5c405-4f17-426d-a06e-688e31f60d05
+  fetched: 2026-11-12
+  quote: is a research unit attached to the Facultad de Ciencias of the Universidad
+    Autónoma de Santo Domingo (UASD)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

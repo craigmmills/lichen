@@ -1,0 +1,45 @@
+id: airbus
+kind: organisation
+name: Airbus
+also_known_as:
+- Airbus SE
+scope: global
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: nl
+scale: global
+status: active
+website: https://www.airbus.com
+summary: Aerospace group whose space division runs Pléiades Neo and SPOT Earth observation
+  data and the Starling deforestation monitoring service.
+countries:
+- fr
+- nl
+facts:
+- claim: Wikipedia gives Leiden in the Netherlands as its legal headquarters and Blagnac in
+    France as its operational headquarters.
+  url: https://en.wikipedia.org/wiki/Airbus
+  quote: Leiden , Netherlands (legal headquarters)
+  fetched: '2026-10-30'
+- claim: Says Starling uses satellite imagery up to the 30cm resolution of Pléiades Neo to
+    provide forest cover change data.
+  url: https://intelligence.airbus.com/industries/forest-and-environment/starling/
+  quote: Starling uses various sources of satellite imagery ranging from 10m to Pléiades Neo’s
+    30cm resolution
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: airbus-starling
+  url: https://intelligence.airbus.com/industries/forest-and-environment/starling/
+  quote: Born in 2016 from a collaborative venture between Airbus and Earthworm Foundation
+  fetched: '2026-10-30'
+found_by:
+- link-from:airbus-starling
+added_by: agent
+checked: '2026-10-30'

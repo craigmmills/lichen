@@ -1,0 +1,53 @@
+id: inrae
+kind: organisation
+name: INRAE
+also_known_as:
+- Institut national de recherche pour l'agriculture
+- l'alimentation et l'environnement
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: fr
+scale: global
+website: https://www.inrae.fr
+status: active
+summary: French national research institute. It publishes the One Forest Vision initiative's
+  website, from Castanet Tolosan, and is one of the four bodies in the Pl@ntNet consortium.
+countries:
+- fr
+facts:
+- claim: Named at the foot of the One Forest Vision website, with an address in France.
+  url: https://www.oneforestvision.org
+  fetched: '2026-10-30'
+  quote: INRAE 24, chemin de Borde Rouge –Auzeville – CS52627 31326 Castanet Tolosan cedex
+    - France
+- claim: Says the One Forest Vision initiative was launched at the 2023 One Forest Summit
+    and coordinated by INRAE and CIRAD.
+  url: https://www.inrae.fr/en/news/ai-and-remote-sensing-potent-combination-supporting-research-save-tropical-forests
+  quote: as part of the launch of a new initiative, One Forest Vision ( OFV), and coordinated
+    by INRAE and CIRAD.
+  fetched: '2026-10-30'
+- claim: Says CEA's LSCE works with INRAE on a deep learning approach to forest height at
+    10 m, using Sentinel 1 and 2 and GEDI data.
+  url: https://www.inrae.fr/en/news/ai-and-remote-sensing-potent-combination-supporting-research-save-tropical-forests
+  quote: currently works with INRAE using an AI Deep Learning approach at 10 m scale. It combines
+    the data from Sentinel 1 and 2
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: one-forest-vision-initiative
+  url: https://meetingorganizer.copernicus.org/EGU26/EGU26-21056.html
+  fetched: '2026-10-30'
+  quote: The initiative is led by six major French research organisations—CEA, CIRAD, CNRS,
+    INRAE, IRD and MNHN—and coordinated by INRAE, CIRAD and IRD.
+found_by:
+- link-from:one-forest-vision-initiative
+added_by: agent
+checked: '2026-10-30'

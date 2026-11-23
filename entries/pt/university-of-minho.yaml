@@ -1,0 +1,40 @@
+id: university-of-minho
+kind: organisation
+name: University of Minho
+also_known_as:
+- Universidade do Minho
+scope: pt
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- pt
+scale: national
+status: active
+summary: University whose affiliated first authors are listed by OpenAlex on a 2023 machine
+  learning paper mapping large wildfires in north-west Portugal and a 2024 review of biosensors
+  for non-native freshwater species.
+facts:
+- claim: OpenAlex lists a 2023 paper on mapping large wildfires in north-west Portugal with
+    machine learning and time series whose first author is at the University of Minho.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I99682543,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Remote Sensing Applications for Mapping Large Wildfires Based on Machine Learning
+    and Time Series in Northwestern Portugal
+- claim: OpenAlex lists a 2024 review of biosensors for non-native freshwater species whose
+    first author is at the University of Minho.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I99682543,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: 'Applications of biosensors in non-native freshwater species: a systematic review'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

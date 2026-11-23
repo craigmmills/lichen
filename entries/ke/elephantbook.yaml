@@ -1,0 +1,42 @@
+id: elephantbook
+kind: programme
+name: ElephantBook
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ke
+summary: Mara Elephant Project software that uses machine learning to identify individual
+  elephants from features such as tusks and ear shape.
+status: active
+facts:
+- claim: Nawiri Group says it uses machine learning to identify individual elephants.
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: software that utilises machine learning to identify individual elephants
+- claim: Nawiri Group says 1,500 of 2,600 elephants in the greater Mara area have
+    been identified with it.
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: The MEP team has successfully identified 1,500 out of the 2,600 elephants
+    in the greater Mara area using this technology.
+- claim: Combines manual labelling with computer vision.
+  url: https://arxiv.org/abs/2106.15083
+  fetched: '2026-10-31'
+  quote: a web-based platform and database for human-in-the-loop re-identification
+    of elephants combining manual attribute labeling and state-of-the-art computer
+    vision algorithms
+links:
+- type: run-by
+  to: mara-elephant-project
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: ElephantBook, MEP’s in-house developed software
+found_by:
+- link-from:earthranger
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

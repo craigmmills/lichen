@@ -1,0 +1,37 @@
+id: bas-ai-for-earth-observation
+kind: project
+name: AI for Earth Observation, British Antarctic Survey
+scope: gb
+ai_label: ai
+ai_types:
+- multimodal
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.bas.ac.uk/project/ai-for-earth-observation/
+summary: BAS project developing AI tools to detect icebergs, sea ice, ice floes and
+  wildlife from satellite imagery.
+facts:
+- claim: Detects environmental features including wildlife from satellite imagery.
+  url: https://www.bas.ac.uk/project/ai-for-earth-observation/
+  quote: These include icebergs, sea ice, ice floes, and wildlife
+  fetched: &id001 2026-10-30
+- claim: Uses multimodal machine learning.
+  url: https://www.bas.ac.uk/project/ai-for-earth-observation/
+  quote: The team uses multimodal machine learning approaches
+  ai_type: multimodal
+  fetched: *id001
+links:
+- type: run-by
+  to: british-antarctic-survey
+  url: https://www.bas.ac.uk/project/ai-for-earth-observation/
+  quote: The project develops artificial intelligence (AI) tools to automatically
+    detect environmental features from satellite imagery
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

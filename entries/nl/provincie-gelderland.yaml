@@ -1,0 +1,30 @@
+id: provincie-gelderland
+kind: organisation
+name: Provincie Gelderland
+sector: government
+roles:
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+summary: Dutch province whose Natuurbeheerplan, with a 2027 map, shows where subsidy for nature
+  and landscape is possible in the Gelders Natuurnetwerk.
+facts:
+- claim: The Natuurbeheerplan shows where subsidy for nature and landscape is possible in
+    the Gelders Natuurnetwerk.
+  url: https://www.gelderland.nl/themas/natuur/natuur-beheren-en-ontwikkelen/natuurbeheerplan-waar-welke-natuur
+  quote: In het Natuurbeheerplan staat waar subsidie voor (agrarische) natuur en landschap
+    mogelijk is in het Gelders Natuurnetwerk (GNN).
+  fetched: '2026-11-08'
+- claim: The Natuurbeheerplan 2027 map shows which nature is wanted where.
+  url: https://www.gelderland.nl/themas/natuur/natuur-beheren-en-ontwikkelen/natuurbeheerplan-waar-welke-natuur
+  quote: Op de kaart staat welke natuur waar gewenst is.
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,88 @@
+id: instituto-portugues-do-mar-e-da-atmosfera
+kind: organisation
+name: Instituto Português do Mar e da Atmosfera
+scope: pt
+also_known_as:
+- IPMA
+- Portuguese Institute for Sea and Atmosphere
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+hq: pt
+countries:
+- pt
+scale: national
+status: active
+website: https://www.ipma.pt
+summary: A public institute responsible for the sea and atmosphere, which runs MarBIS, partners
+  with FishMetrics, and per its GBIF record owns Portugal's most important marine biodiversity
+  data repository.
+facts:
+- claim: A public institute responsible across the national territory for the sea and the
+    atmosphere.
+  url: https://www.ipma.pt/pt/oipma/quem/ipma/
+  fetched: 2026-11-02
+  quote: Assume o IPMA as responsabilidades ao nível do território nacional nos domínios do
+    mar e da atmosfera
+- claim: An IPMA internship call names IPMA as the institution responsible for fisheries biological
+    data.
+  url: https://www.ipma.pt/export/sites/ipma/bin/docs/organizacionais/Estagios-IPMA-CallPublica-Inverno2026-v2.pdf
+  fetched: 2026-11-02
+  quote: destaca-se o IPMA como instituição responsável pelos
+- claim: Beneficiary of OBSERVA.PT, a project to put marine monitoring technology on commercial
+    ships to support biodiversity protection and restoration.
+  url: https://ipma.pt/export/sites/ipma/bin/docs/publicacoes/pescas.mar/projetos/Ficha_de_projeto_OBSERVA-PT-WEB.pdf
+  fetched: 2026-11-02
+  quote: Observações a bordo de navios comerciais nacionais para apoio à proteção e
+- claim: Is a public institution with responsibilities for the sea and atmosphere.
+  url: https://www.ipma.pt/en/oipma/
+  fetched: '2026-11-02'
+  quote: is a public institution, part of the indirect administration of State
+- claim: Its GBIF publisher record says it owns Portugal's most important repository of marine
+    biodiversity data.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: IPMA is owner of the most important repository of marine biodiversity data of Portugal
+- claim: Its GBIF publisher record gives an address in Lisbon.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: Rua C - Aeroporto de Lisboa
+- claim: IPMA has coordinated MarBIS under a protocol of 7 July 2017.
+  url: https://marbis.ipma.pt/sobre/
+  fetched: 2026-11-02
+  quote: Por protocolo celebrado a 7 de julho de 2017 entre a EMEPC e o IPMA, I.P., visando
+    assegurar a continuidade do MarBIS, foi acometida ao IPMA a sua coordenação.
+- claim: A public institute in the indirect administration of the state.
+  url: https://www.ipma.pt/export/sites/ipma/bin/docs/institucionais/PA-IPMA-2024.pdf
+  fetched: '2026-11-02'
+  quote: Instituto Público integrado na administração indireta do Estado
+- claim: Its national authority functions include assessment of and advice on managing fisheries
+    resources and their ecosystems.
+  url: https://www.ipma.pt/export/sites/ipma/bin/docs/institucionais/PA-IPMA-2024.pdf
+  fetched: '2026-11-02'
+  quote: avaliação e aconselhamento à gestão dos recursos da pesca e seus ecossistemas
+- claim: Its site lists a Vegetation Health Index.
+  url: http://www.ipma.pt
+  fetched: '2026-11-02'
+  quote: Vegetation Health Index (VHI)
+links:
+- type: partners-with
+  to: fishmetrics
+  url: https://www.ipma.pt/export/sites/ipma/bin/docs/organizacionais/Estagios-IPMA-CallPublica-Inverno2026-v2.pdf
+  fetched: 2026-11-02
+  quote: projeto piloto entre o IPMA e a empresa Fishmetrics
+- type: runs
+  to: marbis
+  url: https://marbis.ipma.pt/sobre/
+  fetched: 2026-11-02
+  quote: Atualmente o MarBIS é coordenado pelo IPMA
+found_by:
+- checklist:1
+- link-from:ccmar
+- checklist:register
+added_by: agent
+checked: 2026-11-02

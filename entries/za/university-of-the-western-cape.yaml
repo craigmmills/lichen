@@ -1,0 +1,35 @@
+id: university-of-the-western-cape
+kind: organisation
+name: University of the Western Cape
+scope: za
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+hq: za
+scale: national
+status: active
+website: https://www.uwc.ac.za
+realms:
+- freshwater
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised
+summary: University in Bellville, Cape Town, whose Institute for Water Studies published a
+  paper classifying satellite images with Random Forest and Support Vector Machine classifiers.
+facts:
+- claim: A paper from its Institute for Water Studies classified satellite images with Random
+    Forest and Support Vector Machine classifiers.
+  url: https://www.arxiv.org/pdf/2106.10087
+  fetched: '2026-10-31'
+  quote: was executed, using the Random Forest (RF), Support Vector
+  ai_type: ml-supervised
+- claim: Address in Bellville, Cape Town.
+  url: https://www.arxiv.org/pdf/2106.10087
+  fetched: '2026-10-31'
+  quote: Private Bag X17, Bellville, 7535, Cape Town, South Africa
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

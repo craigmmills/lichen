@@ -1,0 +1,40 @@
+id: university-of-new-england
+kind: organisation
+name: University of New England
+also_known_as:
+- UNE
+scope: au
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+summary: Australian university that is a partner in the Australian Acoustic Observatory and
+  Open Ecoacoustics. Its own site refuses this tool, so facts come from partners.
+facts:
+- claim: ARDC lists it as a current partner in Open Ecoacoustics.
+  url: https://ardc.edu.au/project/open-ecoacoustics/
+  fetched: '2026-10-31'
+  quote: QUT (project lead) ARDC James Cook University University of New England
+links:
+- type: partners-with
+  to: open-ecoacoustics
+  url: https://ardc.edu.au/project/open-ecoacoustics/
+  fetched: '2026-10-31'
+  quote: QUT (project lead) ARDC James Cook University University of New England
+- type: partners-with
+  to: australian-acoustic-observatory
+  url: https://acousticobservatory.org/partners/
+  fetched: '2026-10-31'
+  quote: James Cook University (JCU), the University of New England (UNE), and the University
+    of Queensland (UQ)
+found_by:
+- link-from:australian-acoustic-observatory
+added_by: agent
+checked: '2026-10-31'

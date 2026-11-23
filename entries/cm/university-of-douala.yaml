@@ -1,0 +1,55 @@
+id: university-of-douala
+kind: organisation
+name: University of Douala
+also_known_as:
+- Université de Douala
+scope: cm
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: cm
+countries:
+- cm
+scale: national
+status: active
+website: https://www.univ-douala.cm
+summary: A university linked through OpenAlex to 2022 and 2026 papers on Sentinel-2 vegetation classification,
+  Sentinel-1 and Sentinel-2 fusion for land cover in Far North Cameroon, and bats around Campo-Ma'an National
+  Park.
+facts:
+- claim: A 2022 paper on classifying vegetation classes from Sentinel-2 time series for large-scale mapping
+    in Cameroon lists H. Tagne as first author, with affiliations including the Department of Physics,
+    Faculty of Science, University of Douala, according to OpenAlex.
+  url: https://api.openalex.org/works/W4280650518?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: CLASSIFICATION OF VEGETATION CLASSES BY USING TIME SERIES OF SENTINEL-2 IMAGES FOR LARGE SCALE
+    MAPPING IN CAMEROON
+- claim: Postal address of the Department of Physics given on that paper.
+  url: https://api.openalex.org/works/W4280650518?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: University of Douala, Faculty of Science, Department of Physics, P.O. Box 24157 Douala, Cameroon
+- claim: A 2026 paper presenting FusionAttNet, a hierarchical attention-driven framework fusing Sentinel-1
+    and Sentinel-2 for semi-arid land cover classification in Far North Cameroon, has Pountianus Berinyuy
+    Wirba of the University of Douala as its first author.
+  url: https://api.openalex.org/works/W7166447223?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: FusionAttNet Framework for Hierarchical Attention Driven Sentinel 1 and Sentinel 2 Fusion for
+    Semi Arid Land Cover Classification in Far North Cameroon
+- claim: A 2026 paper on bats in and around Campo-Ma’an National Park, with an initial acoustic database,
+    lists Franck P. Meyo Okono as first author, with affiliations including the Faculty of Sciences, University
+    of Douala.
+  url: https://api.openalex.org/works/W7154207864?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Laboratory of Biology and Physiology of Animal Organisms, Faculty of Sciences, University of
+    Douala
+found_by:
+- register:cm
+- checklist:3
+added_by: agent
+checked: 2026-11-08

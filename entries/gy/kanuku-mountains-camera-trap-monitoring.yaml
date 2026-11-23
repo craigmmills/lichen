@@ -1,0 +1,51 @@
+id: kanuku-mountains-camera-trap-monitoring
+kind: project
+name: Conservation and Sustainable Resource Use in Guyana's Kanuku Mountains Protected
+  Area (camera-trap monitoring)
+scope: gy
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques: []
+countries:
+- gy
+status: unknown
+summary: Camera-trap project run by the Protected Areas Commission using 14 cameras,
+  which captured over 130,000 images in six months, documented 39 species, and showed
+  declining black curassow occupancy using Wildlife Insights.
+facts:
+- claim: The PAC team deployed 14 camera traps across upland and lowland forest, savannah
+    and wetland habitats to check the status of priority species and whether hunting
+    of game species is sustainable.
+  url: https://wildlifeinsights.org/node/24579
+  fetched: '2026-11-12'
+  quote: the PAC team deployed 14 camera traps across a range of habitats including
+    upland and lowland forest, savannah, and wetland mosaics
+- claim: In six months the cameras captured more than 130,000 images, and Wildlife
+    Insights was used to process the dataset and produce occupancy analyses.
+  url: https://wildlifeinsights.org/node/24579
+  fetched: '2026-11-12'
+  quote: Wildlife Insights provided the platform to process and standardize this dataset,
+    enabling consistent species identification and generating the occupancy analyses
+    needed to track population trends over time
+- claim: The cameras documented 39 species, and the black curassow showed a declining
+    occupancy trend.
+  url: https://wildlifeinsights.org/node/24579
+  fetched: '2026-11-12'
+  quote: the black curassow showed a declining occupancy trend
+links:
+- type: run-by
+  to: guyana-protected-areas-commission
+  url: https://wildlifeinsights.org/node/24579
+  fetched: '2026-11-12'
+  quote: the PAC team deployed 14 camera traps
+- type: uses
+  to: wildlife-insights
+  url: https://wildlifeinsights.org/node/24579
+  fetched: '2026-11-12'
+  quote: Wildlife Insights provided the platform to process and standardize this dataset
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

@@ -1,0 +1,34 @@
+id: inventaire-forestier-national
+kind: dataset
+name: Inventaire forestier national
+also_known_as:
+- IFN
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- fr
+status: active
+summary: France's national forest inventory, run by IGN. Results are published every
+  year and the raw field data can be viewed and downloaded.
+facts:
+- claim: Inventory results are published every year in a summary called the mémento.
+  url: https://www.ign.fr/institut/nos-domaines-dintervention/foret
+  fetched: '2026-10-31'
+  quote: Les résultats de ce travail d’inventaire sont publiés chaque année et font
+    l’objet d’un mémento qui en synthétise les principaux enseignements.
+- claim: The raw data collected by the inventory can be viewed and downloaded.
+  url: https://www.ign.fr/institut/nos-domaines-dintervention/foret
+  fetched: '2026-10-31'
+  quote: Visualiser et télécharger les données brutes collectées par l’inventaire
+links:
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/nos-domaines-dintervention/foret
+  fetched: '2026-10-31'
+  quote: Au-delà de sa mission d’inventaire des ressources forestières
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

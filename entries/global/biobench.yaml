@@ -1,0 +1,31 @@
+id: biobench
+kind: dataset
+name: BioBench
+also_known_as:
+- biobench
+scope: global
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://github.com/samuelstevens/biobench
+summary: Benchmark library for biology-related computer vision tasks that lets people evaluate models and add new tasks.
+facts:
+- claim: Benchmark for biology-related computer vision tasks.
+  url: https://github.com/samuelstevens/biobench
+  fetched: '2026-10-30'
+  quote: This library is an easy-to-read benchmark for biology-related computer vision tasks.
+links:
+- type: run-by
+  to: imageomics-institute
+  url: https://github.com/samuelstevens/biobench
+  fetched: '2026-10-30'
+  quote: GitHub - Imageomics/biobench
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

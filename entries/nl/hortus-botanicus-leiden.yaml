@@ -1,0 +1,41 @@
+id: hortus-botanicus-leiden
+kind: organisation
+name: Hortus botanicus Leiden
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+hq: unknown
+scale: national
+status: active
+summary: Botanical garden, run by Leiden University, that leads a 2024 NWO-listed Biodiversa+
+  BiodivMon grant on harmonising plant metabarcoding pipelines in Europe.
+facts:
+- claim: NWO lists a 2024 grant for harmonising plant metabarcoding pipelines in Europe, in
+    the Biodiversa+ BiodivMon call, led from the Hortus botanicus Leiden.
+  url: https://nwopen-api.nwo.nl/NWOpen-API/api/Projects?project_id=EP.1512.22.006
+  quote: Harmonizing plant metabarcoding pipelines in Europe to support monitoring activities
+    in the field of plants
+  fetched: '2026-11-08'
+- claim: The project leader is Barbara Gravendeel of the Hortus botanicus Leiden, Leiden University.
+  url: https://nwopen-api.nwo.nl/NWOpen-API/api/Projects?project_id=EP.1512.22.006
+  quote: '"role": "Project leader", "member_id": 91897, "last_name": "Gravendeel", "degree_pre_nominal":
+    "prof. dr.", "initials": "B.", "first_name": "Barbara", "organisation": "Universiteit
+    Leiden||Faculteit der Wiskunde en Natuurwetenschappen||Hortus botanicus Leiden",'
+  fetched: '2026-11-08'
+links:
+- type: run-by
+  to: universiteit-leiden
+  url: https://nwopen-api.nwo.nl/NWOpen-API/api/Projects?project_id=EP.1512.22.006
+  quote: Universiteit Leiden||Faculteit der Wiskunde en Natuurwetenschappen||Hortus botanicus
+    Leiden
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

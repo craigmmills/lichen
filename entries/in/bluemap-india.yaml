@@ -1,0 +1,34 @@
+id: bluemap-india
+kind: dataset
+name: BlueMAP-India
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- in
+website: https://wcsindia.org/resources/bluemap-india/
+summary: Continuing compilation of India's marine habitats and species, with a map
+  of marine protected areas notified by the government, published on the WCS-India
+  site.
+scope: in
+status: active
+facts:
+- claim: Compiles an overall view of India's marine realm.
+  url: https://wcsindia.org/resources/bluemap-india/
+  fetched: '2026-10-31'
+  quote: It is a continuing compilation of an overall view of India’s marine realm
+- claim: Maps marine protected areas notified by the government.
+  url: https://wcsindia.org/resources/bluemap-india/
+  fetched: '2026-10-31'
+  quote: the map offers insights on the Marine Protected Areas (MPAs) notified by
+    the Government of India.
+links:
+- type: run-by
+  to: wildlife-conservation-society-india
+  url: https://wcsindia.org/resources/bluemap-india/
+  fetched: '2026-10-31'
+  quote: BlueMAP-India | Marine Conservation Resources
+found_by:
+- link-from:wildlife-conservation-society-india
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,96 @@
+id: biological-records-centre
+kind: programme
+name: Biological Records Centre
+also_known_as:
+- BRC
+ai_label: ai
+realms:
+- land
+- freshwater
+countries:
+- gb
+status: active
+website: https://www.brc.ac.uk
+summary: UK national focus for terrestrial and freshwater species recording, established in
+  1964, working with the voluntary recording community and national recording schemes.
+facts:
+- claim: A national focus for species recording, established in 1964.
+  url: https://www.brc.ac.uk/
+  quote: A national focus in the UK for terrestrial and freshwater species recording, established
+    in 1964.
+  fetched: '2026-10-30'
+- claim: Working to integrate AI into iRecord.
+  url: https://www.brc.ac.uk/node/1000
+  quote: we’ve been working to integrate image recognition (AI) into iRecord
+  fetched: '2026-10-30'
+- claim: Working to integrate image recognition (AI) into iRecord.
+  url: https://www.brc.ac.uk/article/image-recognition-irecord
+  quote: BRC has been working to integrate image recognition (AI) into iRecord
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.brc.ac.uk/contact
+  quote: OX10 8BB
+  fetched: 2026-10-30
+- claim: Supported by JNCC and UKCEH.
+  url: https://www.brc.ac.uk/
+  fetched: '2026-10-30'
+  quote: The BRC is supported by the Joint Nature Conservation Committee ( JNCC ) and the
+    UK Centre for Ecology & Hydrology ( UKCEH )
+- claim: Has integrated AI image recognition into iRecord.
+  url: https://www.brc.ac.uk/theme/image-recognition-irecord
+  fetched: '2026-10-30'
+  quote: we’ve been working to integrate image recognition (AI) into iRecord
+- claim: Publishes the dataset "Calliphoridae, Polleniidae and Rhiniidae data from iRecord"
+    on GBIF.
+  url: https://api.gbif.org/v1/organization/0c392aa0-a452-4254-be5c-e49dd60e9b02/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Calliphoridae, Polleniidae and Rhiniidae data from iRecord
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/0c392aa0-a452-4254-be5c-e49dd60e9b02/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:2
+- link-from:uk-centre-for-ecology-and-hydrology
+- register:gbif-publisher
+links:
+- type: runs
+  to: irecord
+  url: https://www.brc.ac.uk/node/1000
+  quote: integrate image recognition (AI) into iRecord
+  fetched: '2026-10-30'
+- type: runs
+  to: irecord
+  url: https://irecord.org.uk/about
+  quote: It is operated by the Biological Records Centre (BRC) as part of the work of the
+    UK Centre for Ecology & Hydrology (UKCEH)
+  fetched: *id001
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://irecord.org.uk/about
+  quote: It is operated by the Biological Records Centre (BRC) as part of the work of the
+    UK Centre for Ecology & Hydrology (UKCEH)
+  fetched: *id001
+- type: partners-with
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://www.brc.ac.uk/
+  fetched: '2026-10-30'
+  quote: The BRC is supported by the Joint Nature Conservation Committee ( JNCC ) and the
+    UK Centre for Ecology & Hydrology ( UKCEH )
+- type: partners-with
+  to: joint-nature-conservation-committee
+  url: https://www.brc.ac.uk/
+  fetched: '2026-10-30'
+  quote: The BRC is supported by the Joint Nature Conservation Committee ( JNCC )
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+hq: gb
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+- convenes
+techniques:
+- computer-vision
+- species-distribution

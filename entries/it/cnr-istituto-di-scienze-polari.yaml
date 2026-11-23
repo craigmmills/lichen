@@ -1,0 +1,46 @@
+id: cnr-istituto-di-scienze-polari
+kind: organisation
+name: CNR Istituto di Scienze Polari
+also_known_as:
+- CNR-ISP
+scope: it
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: it
+scale: national
+status: active
+website: https://www.isp.cnr.it/index.php/it/sede-secondaria-bologna
+summary: CNR polar sciences institute. Its Bologna branch manages two marine observatories,
+  in Svalbard and the southern Adriatic, that measure biological as well as physical and biogeochemical
+  parameters.
+facts:
+- claim: ISP-Bologna manages two major marine infrastructures.
+  url: https://api.gbif.org/v1/organization/dceeca13-45b7-4155-8069-9ed7cef1ab6a
+  fetched: '2026-10-31'
+  quote: 'the ISP-Bologna manages two major marine infrastructures: one in the Svalbard Islands
+    and another in the southern Adriatic Sea'
+- claim: The Svalbard Italian Observatory collects physical, biogeochemical and biological
+    data.
+  url: https://api.gbif.org/v1/organization/dceeca13-45b7-4155-8069-9ed7cef1ab6a
+  fetched: '2026-10-31'
+  quote: This Observatory collects comprehensive physical, biogeochemical, and biological
+    data from various depths within the water column.
+- claim: Bologna branch address.
+  url: https://api.gbif.org/v1/organization/dceeca13-45b7-4155-8069-9ed7cef1ab6a
+  fetched: '2026-10-31'
+  quote: '"address":["Via P. Gobetti, 101"],"city":"Bologna"'
+links:
+- type: partners-with
+  to: emso-eric
+  url: https://api.gbif.org/v1/organization/dceeca13-45b7-4155-8069-9ed7cef1ab6a
+  fetched: '2026-10-31'
+  quote: This site is an integral component of the European Multidisciplinary Seafloor and
+    Water Column Observatory (EMSO-ERIC)
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

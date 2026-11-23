@@ -1,0 +1,32 @@
+id: nicolaus-copernicus-university
+kind: organisation
+name: Nicolaus Copernicus University
+scope: pl
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- pl
+scale: national
+status: active
+summary: A university named as the affiliation of the first author of 2025 and 2024 works,
+  listed by OpenAlex, on vegetation indices for monitoring the Tuchola Forest ecosystem.
+facts:
+- claim: OpenAlex lists 2025 and 2024 works on vegetation indices for monitoring the Tuchola
+    Forest ecosystem, both with first author Sanjana Dutt affiliated with Nicolaus Copernicus
+    University in those records.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I3019271933,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: 'Uncovering Fragmentation Patterns: Optimal Vegetation Indices for Monitoring the
+    Tuchola Forest Ecosystem'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,60 @@
+id: leverhulme-trust
+kind: organisation
+name: Leverhulme Trust
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.leverhulme.ac.uk
+summary: UK research funder that gave £10 million to the Leverhulme Centre for Nature Recovery
+  at Oxford.
+facts:
+- claim: Awarded £10 million to the centre, per a reprinted University of Oxford notice.
+  url: https://www.countryside-jobs.com/article/2022-01-10-leverhulme-trust-awards-gbp-10-million-to-new-oxford-nature-recovery-centre
+  quote: Leverhulme Trust awards £10 million to new Oxford nature recovery centre
+  fetched: '2026-10-30'
+- claim: Gives a London postcode.
+  url: https://www.leverhulme.ac.uk/contact-us
+  quote: EC4A 3BG
+  fetched: '2026-10-30'
+- claim: Registered charity 1159154, per the Charity Commission.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5053028/contact-information
+  quote: 'Charity number: 1159154'
+  fetched: &id001 2026-10-30
+- claim: The Charity Commission gives its address as 1 Pemberton Row, London.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5053028/contact-information
+  quote: 1 PEMBERTON ROW
+  fetched: *id001
+- claim: The University of York page calls its biodiversity centre a Leverhulme Trust Research
+    Centre.
+  url: https://www.york.ac.uk/anthropocene-biodiversity/about-us/
+  quote: We are a Leverhulme Trust Research Centre based at the University of York
+  fetched: *id001
+found_by:
+- checklist:6
+links:
+- type: funds
+  to: leverhulme-centre-for-nature-recovery
+  url: https://www.countryside-jobs.com/article/2022-01-10-leverhulme-trust-awards-gbp-10-million-to-new-oxford-nature-recovery-centre
+  quote: Leverhulme Trust awards £10 million to new Oxford nature recovery centre
+  fetched: '2026-10-30'
+  amount: 10000000
+  currency: GBP
+- type: funds
+  to: leverhulme-centre-for-nature-recovery
+  url: https://www.naturebasedsolutionsinitiative.org/news/new-10-million-leverhulme-centre-nature-recovery-oxford/
+  quote: The Leverhulme Trust has awarded £10 million to a new Oxford nature recovery centre
+  amount: 10000000
+  currency: GBP
+  year: 2021
+  fetched: *id001
+scope: gb
+added_by: agent
+checked: '2026-10-30'

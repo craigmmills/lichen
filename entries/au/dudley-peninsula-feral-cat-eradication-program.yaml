@@ -1,0 +1,44 @@
+id: dudley-peninsula-feral-cat-eradication-program
+kind: programme
+name: Dudley Peninsula Feral Cat Eradication program
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+summary: Feral cat eradication program run by the Kangaroo Island Landscape Board,
+  where remote cameras capture around 30,000 images a day, processed by the eVorta
+  AI platform to identify cats and priority native species.
+facts:
+- claim: Remote cameras across the eradication zone capture around 30,000 images a
+    day.
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: Across the eradication zone, 4G-enabled remote cameras capture around 30,000
+    images each day.
+  fetched: '2026-11-08'
+- claim: The images are processed by the eVorta AI platform, which identifies feral
+    cats and priority native species.
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: These images are processed in near real time by the eVorta AI platform, which
+    automatically identifies feral cats and priority native species with high accuracy.
+  fetched: '2026-11-08'
+links:
+- type: run-by
+  to: kangaroo-island-landscape-board
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: the KI Landscape Board is delivering the Dudley Peninsula Feral Cat Eradication
+    program
+  fetched: '2026-11-08'
+- type: uses
+  to: evorta
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: These images are processed in near real time by the eVorta AI platform
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

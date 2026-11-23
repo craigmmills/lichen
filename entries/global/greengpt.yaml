@@ -1,0 +1,45 @@
+id: greengpt
+kind: project
+name: GreenGPT
+also_known_as:
+- Greener.Land AI assistant
+scope: global
+ai_label: ai
+ai_types:
+- agentic-ai
+realms:
+- land
+status: active
+summary: AI assistant in Justdiggit's Greener.Land app and website that gives farmers, residents
+  and partners tailored advice on regreening degraded land. OutSystems, which supplied the
+  app platform, gives a reach of 60,000 people a year and is the only source read that uses
+  the name GreenGPT.
+facts:
+- claim: A chatbot giving real-time land restoration advice, built with OutSystems agentic
+    capabilities, by OutSystems' account.
+  url: https://www.outsystems.com/videos/justdiggit-ai-assistant
+  fetched: &id001 2026-10-30
+  quote: The GreenGPT chatbot, built with OutSystems agentic capabilities, delivers real-time,
+    personalized advice for land restoration.
+  ai_type: agentic-ai
+- claim: Greener.land gives regreening advice to 60,000 people a year, according to OutSystems,
+    which expects the figure to double.
+  url: https://www.outsystems.com/news/justdiggit-ai-app/
+  fetched: *id001
+  quote: Currently, Greener.land provides regreening advice to 60,000 people on a yearly basis,
+    a number which is expected to double thanks to the new application.
+- claim: Users receive recommendations from the assistant based on location and landscape
+    characteristics.
+  url: https://www.outsystems.com/news/justdiggit-ai-app/
+  fetched: *id001
+  quote: users receive recommendations from an integrated AI assistant
+links:
+- type: run-by
+  to: justdiggit
+  url: https://www.outsystems.com/news/justdiggit-ai-app/
+  fetched: *id001
+  quote: Justdiggit’s custom built Greener.Land application
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

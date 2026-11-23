@@ -1,0 +1,49 @@
+id: barbuda-benthic-habitat-map
+kind: dataset
+name: Barbuda Benthic Habitat Map for Marine Spatial Planning
+scope: ag
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ag
+status: unknown
+runner: unknown
+summary: Shapefile of Barbuda's benthic habitats for marine spatial planning under the 2013 Barbuda Blue
+  Halo Initiative, classified from 2012 IKONOS-2 imagery using eCognition, and created by Sam Purkis.
+facts:
+- claim: The shapefile shows benthic habitats of Barbuda made for marine spatial planning under the Barbuda
+    Blue Halo Initiative in 2013, from remotely sensed imagery.
+  url: https://emodnet.ec.europa.eu/geonetwork/srv/api/records/bce90f5e-2b50-409a-a08e-5305097d549b
+  fetched: 2026-11-12
+  quote: This shapefile represents simplified benthic marine habitats of Barbuda created for the purposes
+    of marine spatial planning in Barbuda (the Barbuda Blue Halo Initiative) in 2013. Maps were generated
+    from remote sensed imagery
+- claim: The layer is based on IKONOS-2 imagery collected in 2012.
+  url: https://emodnet.ec.europa.eu/geonetwork/srv/api/records/bce90f5e-2b50-409a-a08e-5305097d549b
+  fetched: 2026-11-12
+  quote: IKONOS-2 satellite imagery collected by GeoEye (now DigitalGlobe) in 2012 is the basis for the
+    layer.
+- claim: The classification used object-oriented mapping in eCognition software.
+  url: https://emodnet.ec.europa.eu/geonetwork/srv/api/records/bce90f5e-2b50-409a-a08e-5305097d549b
+  fetched: 2026-11-12
+  quote: The product was created through object-oriented mapping using Definiens eCognition software
+- claim: The record says the data were created by Sam Purkis of the National Coral Reef Institute, Nova
+    Southeastern University.
+  url: https://emodnet.ec.europa.eu/geonetwork/srv/api/records/bce90f5e-2b50-409a-a08e-5305097d549b
+  fetched: 2026-11-12
+  quote: 'Data created by: Sam Purkis, National Coral Reef Institute, Oceanographic Center, Nova Southeastern
+    University'
+links:
+- type: built-by
+  to: sam-purkis
+  url: https://emodnet.ec.europa.eu/geonetwork/srv/api/records/bce90f5e-2b50-409a-a08e-5305097d549b
+  fetched: 2026-11-12
+  quote: 'Data created by: Sam Purkis, National Coral Reef Institute, Oceanographic Center, Nova Southeastern
+    University'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

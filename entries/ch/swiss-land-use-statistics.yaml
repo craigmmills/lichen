@@ -1,0 +1,36 @@
+id: swiss-land-use-statistics
+kind: dataset
+name: Swiss Area Statistics
+also_known_as:
+- Arealstatistik
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: A dataset run by the Federal Statistical Office giving detail on land use and land cover and
+  their change, with four surveys up to 2018 reported as each using 4.1 million sample points.
+facts:
+- claim: Gives detail on land use and land cover and how they change.
+  url: https://www.bafu.admin.ch/de/ubk25
+  quote: Diese liefert detaillierte Informationen zur Bodennutzung und -bedeckung sowie deren Veränderungen
+    über die Zeit.
+  fetched: '2026-11-02'
+- claim: A September 2023 report says the four surveys conducted up to 2018 each used 4.1 million sample
+    points.
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: Anhand dieser Aufnahmen definierte das BFS dann jeweils 4,1 Millionen Stichprobenpunkte.
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: federal-statistical-office
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: Laut Mitteilung setzt das BFS das Deep-Learning-Modell "Adele" zur Erstellung der Arealstatistik
+    ein.
+  fetched: '2026-11-02'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-11-02'

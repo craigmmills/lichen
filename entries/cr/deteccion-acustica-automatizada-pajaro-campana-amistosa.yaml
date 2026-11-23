@@ -1,0 +1,68 @@
+id: deteccion-acustica-automatizada-pajaro-campana-amistosa
+kind: project
+name: Detección acústica automatizada del pájaro campana en el Corredor Biológico
+  AmistOsa
+scope: cr
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- cr
+status: unknown
+summary: Project led and run by ICOMVIS that trains algorithms to recognise the bellbird's
+  call from recorders; El Mundo reports 135 hours of recording a day across several
+  sites.
+facts:
+- claim: Delfino reports that ICOMVIS and the School of Biological Sciences of the
+    Universidad Nacional carried out the project with SINAC and the local management
+    committee.
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-12'
+  quote: ejecutaron el proyecto Detección acústica automatizada del pájaro campana
+    en el Corredor Biológico AmistOsa, en conjunto con el Sistema Nacional de Áreas
+    de Conservación (Sinac) y el Comité Local de Gestión.
+- claim: The project uses passive acoustic monitoring, with recorders left at chosen
+    sites for long periods.
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-12'
+  quote: este proyecto utiliza monitoreo acústico pasivo
+- claim: The researchers built an automated acoustic detection process using algorithms
+    trained to recognise the bellbird's call.
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-12'
+  quote: Los investigadores desarrollaron un proceso de detección acústica automatizada,
+    mediante algoritmos entrenados para reconocer patrones del canto del pájaro campana.
+  ai_type: ml-supervised
+- claim: El Mundo reports the recorders ran five minutes in every fifteen from 5 a.m.
+    to 6 p.m. at several sites, giving 135 hours of recording a day.
+  url: https://elmundo.cr/costa-rica/el-canto-del-pajaro-campana-una-herramienta-para-proteger-la-biodiversidad-en-costa-rica/
+  fetched: '2026-11-12'
+  quote: resultando en 135 horas de grabación por día
+links:
+- type: led-by
+  to: instituto-internacional-en-conservacion-y-manejo-de-vida-silvestre
+  url: https://elmundo.cr/costa-rica/el-canto-del-pajaro-campana-una-herramienta-para-proteger-la-biodiversidad-en-costa-rica/
+  fetched: '2026-11-12'
+  quote: El proyecto, liderado por el Instituto Internacional de Conservación y Manejo
+    de Vida Silvestre (Icomvis) y la Escuela de Ciencias Biológicas (ECB) de la Universidad
+    Nacional (UNA)
+- type: run-by
+  to: instituto-internacional-en-conservacion-y-manejo-de-vida-silvestre
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-12'
+  quote: ejecutaron el proyecto Detección acústica automatizada del pájaro campana
+    en el Corredor Biológico AmistOsa
+- type: partners-with
+  to: sistema-nacional-de-areas-de-conservacion
+  url: https://elmundo.cr/costa-rica/el-canto-del-pajaro-campana-una-herramienta-para-proteger-la-biodiversidad-en-costa-rica/
+  fetched: '2026-11-12'
+  quote: en colaboración con el Sistema Nacional de Áreas de Conservación (Sinac)
+    y el Comité Local de Gestión
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

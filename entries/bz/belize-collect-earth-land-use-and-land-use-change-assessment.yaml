@@ -1,0 +1,61 @@
+id: belize-collect-earth-land-use-and-land-use-change-assessment
+kind: dataset
+name: Belize Collect Earth/Open Foris Land Use and Land Use Change assessment
+also_known_as: []
+scope: bz
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bz
+status: active
+summary: Forest Department land use and land-use change assessment using Collect Earth
+  virtual sampling, begun in 2018 with 21,993 plots selected in Google Earth Engine,
+  covering 2000-2019 data with annual updates planned.
+facts:
+- claim: The annex cites a 2023 Forest Department work titled Belize Collect Earth/Open
+    Foris Land Use and Land Use Change Assessment Protocol.
+  url: https://unfccc.int/sites/default/files/resource/Belize%20Second%20Technical%20Annex_April_21_2026.pdf
+  fetched: 2026-11-15
+  quote: Belize Forest Department (2023). Belize Collect Earth/Open Foris Land Use
+    and Land Use Change
+- claim: The annex says a component launched in 2018 used remote sensing and virtual
+    sampling in Collect Earth to assess land use and land-use change annually; this
+    was later improved using the Coalition for Rainforest Nations Land-Use Application.
+  url: https://unfccc.int/sites/default/files/resource/Belize%20Second%20Technical%20Annex_April_21_2026.pdf
+  fetched: 2026-11-15
+  quote: virtual sampling using the Collect Earth platform to assess land-use and
+    land-use change annually
+- claim: The annex says 21,993 sample plots were selected systematically in Google
+    Earth Engine.
+  url: https://unfccc.int/sites/default/files/resource/Belize%20Second%20Technical%20Annex_April_21_2026.pdf
+  fetched: 2026-11-15
+  quote: Through a systematic selection process conducted in Google Earth Engine,
+    21,993 sample plots
+- claim: The Forest Department's Geospatial Monitoring Unit says it has collected
+    and analysed land use, land use change and forest cover data for 2000-2019 and
+    will update it every year.
+  url: https://forest.gov.bz/geospatial-monitoring/
+  fetched: 2026-11-15
+  quote: To date the Unit has collected and analyzed information on land use and land
+    use change and forest cover for the period 2000-2019 and will continue to update
+    on an annual basis.
+links:
+- type: built-by
+  to: forest-department-belize
+  url: https://forest.gov.bz/geospatial-monitoring/
+  fetched: 2026-11-15
+  quote: Development of Land use/Land cover map (2000-2018) using Collect Earth Desktop
+- type: run-by
+  to: forest-department-belize
+  url: https://forest.gov.bz/geospatial-monitoring/
+  fetched: 2026-11-15
+  quote: To date the Unit has collected and analyzed information on land use and land
+    use change and forest cover for the period 2000-2019 and will continue to update
+    on an annual basis.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

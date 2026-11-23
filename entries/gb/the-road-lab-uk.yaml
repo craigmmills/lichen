@@ -1,0 +1,37 @@
+id: the-road-lab-uk
+kind: project
+name: The Road Lab UK
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+status: active
+runner: unknown
+website: https://www.theroadlab.co.uk
+summary: Citizen science project mapping wildlife roadkill across the UK, with its
+  dataset free to use through the NBN Atlas.
+facts:
+- claim: Citizen science roadkill project.
+  url: https://www.theroadlab.co.uk
+  fetched: '2026-10-30'
+  quote: We are a citizen science project aiming to quantify and map wildlife roadkill
+    across the UK.
+- claim: Data are free to use with credit.
+  url: https://www.theroadlab.co.uk/download
+  fetched: '2026-10-30'
+  quote: This data is free to use, but we do ask to be fully credited in any published
+    work
+- claim: Publishes the dataset "UK Roadkill Records" on GBIF.
+  url: https://api.gbif.org/v1/organization/9ee06e28-a444-42cd-b34e-ba317f1c6b44/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: UK Roadkill Records
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/9ee06e28-a444-42cd-b34e-ba317f1c6b44/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

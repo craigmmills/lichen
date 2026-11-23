@@ -1,0 +1,40 @@
+id: sber-camera-trap-species-classifier
+kind: project
+name: Sber camera-trap species classifier
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ru
+status: active
+summary: Project run by Sber, described as AI for camera-trap monitoring to classify 25 native species
+  and building on MegaDetector; the ITU entry says code repositories are not public.
+facts:
+- claim: Described as AI for camera-trap monitoring to classify 25 native species.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page229.html
+  quote: Use of AI for optimized camera trap monitoring to classify 25 native
+  fetched: '2026-10-31'
+- claim: The ITU entry says code repositories are not public.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page229.html
+  quote: Code Repositories Not publicly available
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: sber
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page229.html
+  quote: This project integrates AI to automate species identification from camera trap images. Our model
+    suite includes a detector (MegaDetector) followed by a classifier capable of distinguishing 25 native
+    species
+  fetched: '2026-10-31'
+- type: builds-on
+  to: megadetector
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page229.html
+  quote: suite includes a detector (MegaDetector) followed by a classifier capable of distinguishing 25
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

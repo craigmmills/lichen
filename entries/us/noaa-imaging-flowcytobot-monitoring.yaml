@@ -1,0 +1,31 @@
+id: noaa-imaging-flowcytobot-monitoring
+kind: project
+name: Robotic microscopes and machine learning for lower trophic levels
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: unknown
+summary: NOAA deployment of the Imaging FlowCytobot on docks and survey ships to monitor
+  phytoplankton with machine learning.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Robotic microscopes and machine learning algorithms remotely
+    and autonomously track lower trophic levels for improved ecosystem monitoring
+    and assessment Deploy the Imaging Flow Cytobot on fixed (docks) and roving
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Robotic microscopes and machine learning algorithms remotely
+    and autonomously track lower trophic levels for improved ecosystem monitoring
+    and assessment Deploy the Imaging Flow Cytobot on fixed (docks) and roving
+found_by:
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'

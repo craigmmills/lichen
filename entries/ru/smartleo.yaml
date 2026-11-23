@@ -1,0 +1,46 @@
+id: smartleo
+kind: model
+name: SmartLeo
+scope: ru
+ai_label: ai
+ai_types:
+- large-language-models
+realms:
+- land
+status: active
+summary: A GSOM SPbU centre built this archive chatbot, piloted on 1970s Kedrovaya Pad records,
+  with a Far Eastern leopard conservation organisation as project partner.
+facts:
+- claim: Says the tool is a chatbot working on retrieval-augmented generation over digitised
+    archives of Russian national parks.
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-10-31
+  quote: Инструмент представляет собой чат-бот, работающий на технологии RAG (Retrieval-Augmented
+    Generation)
+  ai_type: large-language-models
+- claim: Says the pilot uses Nature Chronicle archives of the Kedrovaya Pad reserve from the
+    1970s.
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-10-31
+  quote: Пилотная версия модели использует на основе архивных материалов заповедника «Кедровая
+    Падь»
+links:
+- type: built-by
+  to: gsom-spbu-centre-for-sustainable-territorial-development
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-10-31
+  quote: 'О разработчике
+
+    Центр устойчивого развития территорий Института «Высшая школа менеджмента» Санкт-Петербургского
+    государственного университета при консультационной поддержке ВТБ'
+- type: partners-with
+  to: eurasian-centre-for-conservation-of-far-eastern-leopards
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-10-31
+  quote: 'Стратегический партнер проекта
+
+    АНО «Евроазиатский центр сохранения дальневосточных леопардов»'
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-10-31

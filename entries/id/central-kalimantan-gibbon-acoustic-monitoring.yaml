@@ -1,0 +1,33 @@
+id: central-kalimantan-gibbon-acoustic-monitoring
+kind: project
+name: Central Kalimantan gibbon acoustic monitoring
+scope: id
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- id
+status: unknown
+runner: unknown
+summary: Study using eight recording units and a pretrained deep learning detector
+  to follow Bornean white-bearded gibbon calls over 18 months in Central Kalimantan.
+facts:
+- claim: Deployed eight recording units for 23,244 hours of data over 18 months.
+  url: https://ecoevorxiv.org/repository/view/10245
+  fetched: '2026-10-31'
+  quote: We deployed eight autonomous recording units across three forest types in
+    Central Kalimantan, Indonesia, collecting 23,244 hours of acoustic data over 18
+    months.
+- claim: A pretrained deep learning detector identified great calls.
+  url: https://ecoevorxiv.org/repository/view/10245
+  fetched: '2026-10-31'
+  quote: A pretrained deep learning detector was applied to identify great calls
+  ai_type: deep-learning
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

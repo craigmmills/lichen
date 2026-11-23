@@ -1,0 +1,47 @@
+id: university-of-victoria
+kind: organisation
+name: University of Victoria
+also_known_as:
+- UVic
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: ca
+scale: global
+status: active
+website: https://www.uvic.ca/
+summary: Canadian university of which Ocean Networks Canada is an initiative.
+facts:
+- claim: Ocean Networks Canada is an initiative of the university.
+  url: https://www.oceannetworks.ca/about-onc/
+  fetched: '2026-10-30'
+  quote: Ocean Networks Canada (ONC), an initiative of the University of Victoria (UVic),
+    is a Major Research Facility of Canada
+- claim: ONC's address is at the university in Victoria, Canada.
+  url: https://www.oceannetworks.ca/about-onc/
+  fetched: '2026-10-30'
+  quote: '#100, 2474 Arbutus Road, Victoria, BC, Canada, V8N 1V8'
+- claim: Says it is located on British Columbia's coast and serves more than 22,000 students.
+  url: https://www.uvic.ca/about/index.php
+  quote: Located on British Columbia's coast, UVic serves more than 22,000 students
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: ocean-networks-canada
+  url: https://www.oceannetworks.ca/about-onc/
+  fetched: '2026-10-30'
+  quote: an initiative of the University of Victoria (UVic)
+- type: partners-with
+  to: amazon-web-services
+  url: https://www.uvic.ca/research-innovation/office-vpri/announcements/26may05-ai-alliance.php
+  fetched: 2026-10-30
+  quote: The project’s partners include CanAssist, the Indigenomics Institute, the Maritime
+    Museums of Vancouver and San Francisco, Seaspan, Fortis, and AWS
+found_by:
+- link-from:ocean-networks-canada
+added_by: agent
+checked: '2026-10-30'

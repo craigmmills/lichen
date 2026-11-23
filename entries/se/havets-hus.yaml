@@ -1,0 +1,51 @@
+id: havets-hus
+kind: organisation
+name: Havets Hus
+also_known_as:
+- Havets Hus i Lysekil
+scope: se
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+hq: unknown
+scale: local
+status: active
+website: https://www.havetshus.se/akvariet/bevarande/
+summary: Organisation that has released about 200 tagged aquarium-bred sharks into the Gullmar
+  Fjord since 2003, tracks them with acoustic transmitters from 2021, and released tagged
+  cod with SLU in October 2023.
+facts:
+- claim: Since 2003 has released about 200 tagged aquarium-bred sharks into the Gullmar Fjord.
+  url: https://www.havetshus.se/akvariet/bevarande/
+  fetched: '2026-11-08'
+  quote: Sedan 2003 har vi satt ut ca 200 märkta akvarieuppfödda hajar i Gullmarsfjorden.
+- claim: From 2021 started a project with acoustic transmitters implanted in the sharks, picked
+    up by receivers in the Gullmar Fjord and along the west coast, recording position, depth,
+    acceleration, temperature and ID.
+  url: https://www.havetshus.se/akvariet/bevarande/
+  fetched: '2026-11-08'
+  quote: Sändarna skickar ut ljudsignaler som fångas upp av mottagare som placerats ut i Gullmarsfjorden
+    och utmed svenska västkusten. Sändarna registrerar position, djup, acceleration, temperatur
+    och hajens ID.
+- claim: In October 2023 released nearly 60 cod, 50 of them with telemetry transmitters, with
+    SLU.
+  url: https://www.havetshus.se/akvariet/bevarande/
+  fetched: '2026-11-08'
+  quote: I oktober 2023 sattes närmare 60 torskar ut, varav 50 med telemetrisändare, i samarbete
+    med Sveriges Lantbruksuniversitet SLU.
+links:
+- type: partners-with
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.havetshus.se/akvariet/bevarande/
+  fetched: '2026-11-08'
+  quote: Projektet är ett samarbete med Havets Hus i Lysekil och forskarna Gustav Hellström,
+    Tomas Brodin, Petter Lundberg och Daniel Palm vid Institutionen för vilt, fisk och miljö
+    vid SLU i Umeå.
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-08'

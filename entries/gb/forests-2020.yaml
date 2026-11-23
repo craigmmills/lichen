@@ -1,0 +1,65 @@
+id: forests-2020
+kind: project
+name: Forests 2020
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+- br
+- co
+- mx
+- gh
+- ke
+- id
+status: unknown
+summary: UK Space Agency project using satellite imagery to improve forest monitoring
+  in Brazil, Colombia, Mexico, Ghana, Kenya and Indonesia, reported to IATI by the
+  UK government.
+facts:
+- claim: IATI describes the project.
+  url: https://d-portal.org/q.json?from=act&aid=GB-GOV-13-GCRF-UKSA_NS_UKSA-035
+  quote: This project is using EO imagery from satellites to improve forest monitoring
+    across six partner countries (Brazil, Colombia, Mexico, Ghana, Kenya, and Indonesia)
+  fetched: '2026-10-30'
+- claim: Forty-month project led by Ecometrica in six developing countries.
+  url: https://www.gov.uk/government/case-studies/ecometrica-forest-monitoring-systems
+  quote: Forests 2020 is a 40 month project from a consortium of UK experts and international
+    partners led by Ecometrica
+  fetched: &id001 2026-10-30
+- claim: Target countries.
+  url: https://www.gov.uk/government/case-studies/ecometrica-forest-monitoring-systems
+  quote: Brazil, Colombia, Mexico, Ghana, Kenya, Indonesia
+  fetched: *id001
+- claim: In Kenya the mapping pilot covered 2,039 square kilometres of Kwale County, according to Mongabay.
+  url: https://news.mongabay.com/2018/11/radar-helps-kenya-map-mangroves-and-other-cloud-covered-forests/
+  quote: The Kenya forest mapping project targeted 2,039 square kilometers (787 square miles) of Kwale County
+  fetched: '2026-10-31'
+found_by:
+- checklist:6
+- checklist:7
+- rule:checklist-misses
+links:
+- type: led-by
+  to: ecometrica
+  url: https://www.gov.uk/government/case-studies/ecometrica-forest-monitoring-systems
+  quote: a consortium of UK experts and international partners led by Ecometrica
+  fetched: '2026-10-30'
+- type: funded-by
+  to: uk-space-agency
+  url: https://geoconnexion.com/news/ecometrica-secures-breakthrough-14-2m-uk-space-agency-contract
+  quote: has won a contract worth more than £14 million from the UK Space Agency's
+    recently launched International Partnership Programme (IPP)
+  fetched: '2026-10-30'
+  amount: 14200000
+  currency: GBP
+- type: run-by
+  to: ecometrica
+  url: https://www.gov.uk/government/case-studies/ecometrica-forest-monitoring-systems
+  quote: consortium of UK experts and international partners led by Ecometrica
+  fetched: *id001
+scope: gb
+added_by: agent
+checked: '2026-10-30'

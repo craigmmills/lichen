@@ -1,0 +1,97 @@
+id: portuguese-node-of-gbif
+kind: programme
+name: Portuguese Node of GBIF
+scope: pt
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- pt
+status: active
+runner: unknown
+summary: Hosted by Instituto Superior de Agronomia since September 2015, it runs the Portuguese
+  biodiversity data portal, offers GBIF publishing training and uses the GBIF Integrated Publishing
+  Toolkit.
+facts:
+- claim: GBIF's publisher record says the node brings Portuguese data providers into the GBIF
+    network.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: promotes the integration of Portuguese data providers and resources of biodiversity
+    information on the GBIF network
+- claim: GBIF's publisher record says its host since 2015 is the Instituto Superior de Agronomia.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: From 2015, the new host institution is Instituto Superior de Agronomia
+- claim: GBIF's publisher record says it hosts datasets that no other Portuguese institution
+    can register.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: provides a data hosting service for datasets that cannot be registered by any other
+    Portuguese institution
+- claim: GBIF's node list gives Portugal as a voting participant.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF's node list gives an address at Tapada da Ajuda.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6
+  fetched: '2026-11-02'
+  quote: Tapada da Ajuda
+- claim: Hosted by the Instituto Superior de Agronomia since September 2015.
+  url: https://www.gbif.pt/en/about?language=pt-pt
+  fetched: 2026-11-02
+  quote: The Portuguese Node of GBIF is hosted by the Instituto Superior de Agronomia (ISA),
+    School of Agriculture, since September 2015.
+- claim: Runs training on preparing and publishing biodiversity data through GBIF.
+  url: https://www.gbif.pt/
+  fetched: 2026-11-02
+  quote: Training course on data preparation and publication of biodiversity data through
+    GBIF.
+- claim: Hosted by the Instituto Superior de Agronomia since September 2015.
+  url: https://www.gbif.pt/node/83
+  fetched: '2026-11-02'
+  quote: The Portuguese Node of GBIF is hosted by the Instituto Superior de Agronomia (ISA),
+    School of Agriculture, since September 2015.
+- claim: Maintains the publishing installation that national institutions use for their datasets.
+  url: https://www.gbif.pt/infraestrutura?language=en
+  fetched: '2026-11-02'
+  quote: which is used by national institutions for publishing their datasets
+- claim: Its contact address is the herbarium of the Instituto Superior de Agronomia at Tapada
+    da Ajuda, Lisbon.
+  url: https://www.gbif.pt/contactos
+  fetched: '2026-11-02'
+  quote: 1349-017 Lisboa, Portugal
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6
+  fetched: '2026-11-02'
+  quote: '"title":"GBIF Portugal","participantTitle":"Portugal"'
+- type: runs
+  to: portal-de-dados-de-biodiversidade-de-portugal
+  url: https://dados.gbif.pt/
+  fetched: 2026-11-02
+  quote: O portal de dados do No Português do GBIF contém todos os registos publicados por
+    instituições portuguesas
+- type: uses
+  to: gbif-integrated-publishing-toolkit
+  url: https://www.gbif.pt/infraestrutura?language=en
+  fetched: '2026-11-02'
+  quote: The support infrastructure for biodiversity data publication is based on the open
+    source tool Integrated Publishing Toolkit (IPT).
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- checklist:register
+added_by: agent
+checked: 2026-11-02
+hq: pt
+roles:
+- supplies-data
+- convenes
+also_known_as:
+- Portuguese Node of GBIF
+- GBIF.PT
+- Nó Português do GBIF

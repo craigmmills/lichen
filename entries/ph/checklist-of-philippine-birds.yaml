@@ -1,0 +1,49 @@
+id: checklist-of-philippine-birds
+kind: dataset
+name: Checklist of Philippine Birds
+scope: ph
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ph
+status: active
+website: https://birdwatch.ph/philippine-checklist/
+summary: Dataset giving range and conservation status of Philippine birds; the 2025
+  edition lists 761 species, 274 endemic. Built and run by the Wild Bird Club of the
+  Philippines.
+facts:
+- claim: Gives the name, range and conservation status of bird species.
+  url: https://birdwatch.ph/2025/06/30/2025-checklist-of-philippine-birds/
+  fetched: 2026-11-15
+  quote: The Checklist gives reference to the name, range, and the conservation status
+    of bird species.
+- claim: The 2025 edition lists 761 species in total, of which 274 are endemic.
+  url: https://birdwatch.ph/2025/06/30/2025-checklist-of-philippine-birds/
+  fetched: 2026-11-15
+  quote: Endemics – 274
+- claim: New first country records, species splits and name changes are added to the
+    previous year's list each year.
+  url: https://birdwatch.ph/2025/06/30/2025-checklist-of-philippine-birds/
+  fetched: 2026-11-15
+  quote: New sightings as first country records, species splits and name changes are
+    added to the previous year’s list
+links:
+- type: built-by
+  to: wild-bird-club-of-the-philippines
+  url: https://birdwatch.ph/2025/06/30/2025-checklist-of-philippine-birds/
+  fetched: &id001 2026-11-15
+  quote: The WBCP Records Committee is responsible for consolidating all the data
+    gathered to come up with the annual Philippine bird list.
+- type: run-by
+  to: wild-bird-club-of-the-philippines
+  url: https://birdwatch.ph/2025/06/30/2025-checklist-of-philippine-birds/
+  fetched: *id001
+  quote: The Wild Bird Club of the Philippines (WBCP) takes pride in the presentation
+    of its annual 2025 Checklist of Philippine Birds
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

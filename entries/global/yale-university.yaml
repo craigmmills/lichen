@@ -1,0 +1,47 @@
+id: yale-university
+kind: organisation
+name: Yale University
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.yale.edu/
+summary: Private university in New Haven, Connecticut, and home of the Yale Center for Biodiversity
+  and Global Change.
+countries:
+- rw
+facts:
+- claim: Private university in New Haven, Connecticut.
+  url: https://en.wikipedia.org/wiki/Yale_University
+  fetched: '2026-10-30'
+  quote: Private university in New Haven, Connecticut, US
+- claim: Yale News says the Map of Life team won a $2 million prize, and credits AI algorithms
+    and eDNA processing among the reasons.
+  url: https://news.yale.edu/2024/11/18/map-life-team-wins-2-million-prize-innovative-rainforest-tracking
+  quote: The team was able to identify species from raw samples because of its advanced new
+    modeling technology, state-of-the-art artificial intelligence ( AI ) algorithms
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: yale-center-for-biodiversity-and-global-change
+  url: https://bgc.yale.edu/
+  fetched: '2026-10-30'
+  quote: Yale Center for Biodiversity and Global Change Our group is dedicated to delivering
+    the best-possible research
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://world.yale.edu/news/yale-launches-world-partnership-fund-with-inaugural-projects-to-address-urgent-challenges
+  fetched: 2026-10-30
+  quote: are partnering with the Wildlife Conservation Society to develop a new training and
+    engagement program in Rwanda
+found_by:
+- link-from:yale-center-for-biodiversity-and-global-change
+added_by: agent
+checked: '2026-10-30'

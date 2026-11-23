@@ -1,0 +1,34 @@
+id: malmo-university
+kind: organisation
+name: Malmö University
+scope: se
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University where Per Jönsson, in Materials Science and Applied Mathematics, is first
+  author of a 2018 paper on estimating vegetation seasonality from Landsat and Sentinel-2
+  time series.
+facts:
+- claim: Per Jönsson of Malmö University is first author of a 2018 paper on estimating vegetation
+    seasonality from Landsat and Sentinel-2 time series.
+  url: https://api.openalex.org/works/W2802758852?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: A Method for Robust Estimation of Vegetation Seasonality from Landsat and Sentinel-2
+    Time Series Data
+- claim: His affiliation on the paper is Materials Science and Applied Mathematics, Malmö
+    University.
+  url: https://api.openalex.org/works/W2802758852?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Materials Science and Applied Mathematics
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

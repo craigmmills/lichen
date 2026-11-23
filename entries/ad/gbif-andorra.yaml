@@ -1,0 +1,43 @@
+id: gbif-andorra
+kind: programme
+name: GBIF Andorra
+scope: ad
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+scale: national
+status: active
+website: http://www.gbif.ad
+summary: Andorra's GBIF country node with voting participation, according to GBIF's registry, to which
+  Andorra Recerca + Innovació says Andorra has contributed around 125,000 records.
+facts:
+- claim: GBIF's registry lists GBIF Andorra as a country node with voting participation.
+  url: https://api.gbif.org/v1/node/8df8d012-8e64-4c8a-886e-521a3bdfa623
+  fetched: '2026-11-12'
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Andorra"'
+- claim: Andorra Recerca + Innovació says Andorra has contributed around 125,000 records on taxonomic
+    groups from flora to bryophytes.
+  url: https://ari.ad/en/projects/gbif
+  fetched: '2026-11-12'
+  quote: At the moment Andorra has contributed around 125,000 data on different taxonomic groups
+links:
+- type: partners-with
+  to: andorra-recerca-i-innovacio
+  url: https://ari.ad/en/projects/gbif
+  fetched: '2026-11-12'
+  quote: Currently, Andorra Research + Innovation has taken over and continues to participate with the
+    contribution of data on the country’s biodiversity.
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/8df8d012-8e64-4c8a-886e-521a3bdfa623
+  fetched: '2026-11-12'
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-12'
+runner: unknown

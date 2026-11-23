@@ -1,0 +1,56 @@
+id: victorian-species-recognition-model
+kind: model
+name: Victorian Species Recognition Model
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+summary: AI model that recognises 212 wildlife and feral animal species in remote camera images,
+  launched by Parks Victoria and Addax in April 2026.
+facts:
+- claim: Recognises 212 species and processes more than a thousand images per minute.
+  url: https://www.parks.vic.gov.au/news/2026/04/23/05/08/victoria-leading-the-way-with-ai-tools-to-protect-wildlife
+  fetched: '2026-10-31'
+  quote: The Victorian Species Recognition Model was created using artificial intelligence
+    (AI) and machine learning to recognise 212 different wildlife and feral animal species
+- claim: Hosted on the WildObs platform.
+  url: https://news.uq.edu.au/2026-06-ai-rescue-australian-wildlife-research-drowning-data
+  fetched: '2026-10-31'
+  quote: the Victorian Species Recognition Model by AddaxAI
+links:
+- type: run-by
+  to: parks-victoria
+  url: https://www.parks.vic.gov.au/news/2026/04/23/05/08/victoria-leading-the-way-with-ai-tools-to-protect-wildlife
+  fetched: '2026-10-31'
+  quote: Parks Victoria has partnered with Dutch data science company Addax to launch a new
+    open‑access super‑computing tool
+- type: partners-with
+  to: addaxai
+  url: https://www.parks.vic.gov.au/news/2026/04/23/05/08/victoria-leading-the-way-with-ai-tools-to-protect-wildlife
+  fetched: '2026-10-31'
+  quote: Parks Victoria has partnered with Dutch data science company Addax
+- type: run-by
+  to: addaxai
+  url: https://news.uq.edu.au/2026-06-ai-rescue-australian-wildlife-research-drowning-data
+  fetched: '2026-10-31'
+  quote: the Victorian Species Recognition Model by AddaxAI
+- type: run-by
+  to: parks-victoria
+  url: https://www.parks.vic.gov.au/get-into-nature/conservation-and-science/science-and-research/ai-victorian-species-recognition-model
+  fetched: '2026-10-31'
+  quote: Parks Victoria has co-created the Victorian Species Recognition Model
+- type: partners-with
+  to: addax-data-science
+  url: https://www.parks.vic.gov.au/get-into-nature/conservation-and-science/science-and-research/ai-victorian-species-recognition-model
+  fetched: '2026-10-31'
+  quote: Working with Addax Data Science, millions of images were collected
+found_by:
+- link-from:parks-victoria
+- link-from:wildlife-observatory-of-australia
+added_by: agent
+checked: '2026-10-31'

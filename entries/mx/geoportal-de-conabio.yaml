@@ -1,0 +1,35 @@
+id: geoportal-de-conabio
+kind: dataset
+name: Geoportal de CONABIO
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- mx
+status: active
+summary: Dataset run by CONABIO, listed with 15,845 themes and described in the C Minds toolkit as layers
+  on Mexico's biodiversity.
+scope: mx
+facts:
+- claim: The C Minds toolkit describes it as layers on Mexico's biodiversity.
+  url: https://www.cminds.co/es/toolkits/tech4nature-mexico-conservacion-ia-v01/caja-de-herramientas
+  fetched: '2026-11-03'
+  quote: 'Geoportal de CONABIO
+
+    CONABIO
+
+    Para qué sirve. Capas de biodiversidad de México .'
+links:
+- type: run-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: https://www.cminds.co/es/toolkits/tech4nature-mexico-conservacion-ia-v01/caja-de-herramientas
+  fetched: '2026-11-03'
+  quote: 'Geoportal de CONABIO
+
+    CONABIO'
+found_by:
+- link-from:comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+added_by: agent
+checked: '2026-11-03'

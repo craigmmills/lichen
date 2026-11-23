@@ -1,0 +1,36 @@
+id: samsung-wildlife-watch
+kind: project
+name: Wildlife Watch
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- za
+status: active
+summary: Samsung and Africam pilot that turned Galaxy phones into livestreaming wildlife cameras at Balule Nature Reserve, South Africa, so that viewers could act as virtual rangers for the Black Mamba Anti-Poaching Unit.
+facts:
+- claim: Uses phone cameras as a 24/7 wildlife surveillance system.
+  url: https://samsungmobilepress.com/feature-stories/wildlife-watch-turning-the-world-into-virtual-rangers-to-help-fight-poaching
+  fetched: &id001 2026-10-30
+  quote: reimagining the Galaxy S20 Fan Edition's camera into a 24/7 wildlife surveillance system that livestreams worldwide
+links:
+- type: run-by
+  to: samsung
+  url: https://samsungmobilepress.com/feature-stories/wildlife-watch-turning-the-world-into-virtual-rangers-to-help-fight-poaching
+  fetched: *id001
+  quote: Samsung joined forces with tech pioneer Africam to create Wildlife Watch
+- type: partners-with
+  to: africam
+  url: https://samsungmobilepress.com/feature-stories/wildlife-watch-turning-the-world-into-virtual-rangers-to-help-fight-poaching
+  fetched: *id001
+  quote: Samsung joined forces with tech pioneer Africam to create Wildlife Watch
+- type: partners-with
+  to: black-mamba-anti-poaching-unit
+  url: https://samsungmobilepress.com/feature-stories/wildlife-watch-turning-the-world-into-virtual-rangers-to-help-fight-poaching
+  fetched: *id001
+  quote: The Black Mamba Anti-Poaching Unit
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

@@ -1,0 +1,89 @@
+id: nature-kenya
+kind: organisation
+name: Nature Kenya
+scope: ke
+sector: ngo
+roles:
+- supplies-data
+- convenes
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: ke
+website: https://naturekenya.org/
+countries:
+- ke
+scale: national
+status: active
+summary: Conservation society whose Bird Committee is a joint runner of the Kenya Bird Map.
+facts:
+- claim: Its Bird Committee is a joint runner of the Kenya Bird Map.
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: the Bird Committee of Nature Kenya
+  fetched: '2026-10-30'
+- claim: Says it is a member of BirdLife International.
+  url: https://naturekenya.org/
+  fetched: '2026-10-31'
+  quote: Nature Kenya is a member of Birdlife International
+- claim: Says its census gathered data to update population estimates and assess wetland health.
+  url: https://naturekenya.org/2026/
+  fetched: '2026-10-31'
+  quote: The census gathered vital data to update population estimates and assess wetland
+    health across Kenya.
+- claim: The Kenya Bird Map is a project of its Bird Committee.
+  url: https://naturekenya.org/about/bird-committee/
+  fetched: '2026-10-31'
+  quote: is a project of the Bird Committee of Nature Kenya, in partnership with the National
+    Museums of Kenya, Tropical Biology Association, A Rocha Kenya
+- claim: Publishes a national bird checklist.
+  url: https://api.gbif.org/v1/dataset/513ec885-5e92-407c-be7d-78e9e0d8381f
+  fetched: '2026-10-31'
+  quote: provides a curated, species-level account of the country
+- claim: Gives a Nairobi postal address.
+  url: https://api.gbif.org/v1/organization/2700b39d-c627-49c2-909a-2bd7a00c1035
+  fetched: '2026-10-31'
+  quote: P.O. Box 44486 GPO, Nairobi Kenya
+- claim: Reports the National Waterbird Census.
+  url: https://naturekenya.org/2026/03/11/rising-waters-shifting-flocks-kenyas-2026-waterbird-census-reveals-a-rift-valley-in-flux/
+  fetched: '2026-10-31'
+  quote: The National Waterbird Census, conducted by dedicated volunteers and ornithologists
+- claim: In 2019, its Kamale Kilifi Weaver Reserve was expanded by 810 acres (327 ha) with
+    funding from a World Land Trust appeal.
+  url: https://www.worldlandtrust.org/kenya/
+  quote: funding from a WLT appeal expanded Nature Kenya’s Kamale Kilifi Weaver Reserve by
+    810 acres (327 ha).
+  fetched: '2026-11-16'
+found_by:
+- checklist:4
+- link-from:birdlife-international
+- checklist:register
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- species-distribution
+links:
+- type: partners-with
+  to: birdlife-international
+  url: https://naturekenya.org/
+  fetched: '2026-10-31'
+  quote: Nature Kenya is a member of Birdlife International
+- type: partners-with
+  to: kenya-bird-map
+  url: https://kenya.birdmap.africa
+  fetched: '2026-10-31'
+  quote: Kenya Bird Map is a joint initiative of the National Museums of Kenya
+  via: webfetch
+- type: runs
+  to: kenya-bird-map
+  url: https://naturekenya.org/about/bird-committee/
+  fetched: '2026-10-31'
+  quote: is a project of the Bird Committee of Nature Kenya
+- type: partners-with
+  to: birdlife-international
+  url: https://naturekenya.org/about/working-groups/
+  fetched: '2026-10-31'
+  quote: Nature Kenya is a member of Birdlife International
+also_known_as:
+- East Africa Natural History Society

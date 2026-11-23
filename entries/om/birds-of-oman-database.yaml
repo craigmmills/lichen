@@ -1,0 +1,69 @@
+id: birds-of-oman-database
+kind: dataset
+name: Birds of Oman Database
+also_known_as:
+- Oman Bird Database
+- Oman Birds Database
+scope: om
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+countries:
+- om
+status: active
+website: https://birds.gct.om/about.aspx
+summary: Bird records database built by the Diwan of Royal Court and two Sultan Qaboos
+  University centres, holding over 16 million observations across 623 species as of
+  2019, mapped by GIS at over 455,000 sites.
+facts:
+- claim: The database is the result of a collaboration between the Diwan of Royal
+    Court and Sultan Qaboos University's Center for Environmental Studies and Research
+    and Remote Sensing and GIS Research Center.
+  url: https://birds.gct.om/about.aspx
+  fetched: '2026-11-12'
+  quote: the Birds of Oman Database is the result of a collaboration between the Diwan
+    of Royal Court and Sultan Qaboos University,
+- claim: It holds over 16 million observations across 47 groups and 623 species as
+    of 2019.
+  url: https://birds.gct.om/activities.aspx
+  fetched: '2026-11-12'
+  quote: It includes over 16 million observations across 47 groups and 623 species
+    (as of 2019).
+- claim: It uses GIS to map bird distributions across more than 455,000 sites.
+  url: https://birds.gct.om/activities.aspx
+  fetched: '2026-11-12'
+  quote: The database relies on geographic information systems (GIS) to map bird distributions
+    across more than 455,000 sites.
+- claim: In 2001, financial and technical support became available to transfer the
+    computerised Oman Birds Database to SQU's Environmental Studies and Research Center.
+    The database has since been regularly updated with support from Dr. Jens Eriksen.
+  url: https://birds.gct.om/activities.aspx
+  fetched: '2026-11-12'
+  quote: In 2001, financial and technical support became available to transfer the
+    computerized Oman Birds Database to the Environmental Studies and Research Center.
+links:
+- type: built-by
+  to: diwan-of-royal-court-oman
+  url: https://birds.gct.om/about.aspx
+  fetched: '2026-11-12'
+  quote: the Birds of Oman Database is the result of a collaboration between the Diwan
+    of Royal Court and Sultan Qaboos University,
+- type: built-by
+  to: squ-center-for-environmental-studies-and-research
+  url: https://birds.gct.om/about.aspx
+  fetched: '2026-11-12'
+  quote: specifically the Center for Environmental Studies and Research and the Remote
+    Sensing and Geographic Information Systems Research Center.
+- type: built-by
+  to: squ-remote-sensing-and-gis-research-center
+  url: https://birds.gct.om/about.aspx
+  fetched: '2026-11-12'
+  quote: specifically the Center for Environmental Studies and Research and the Remote
+    Sensing and Geographic Information Systems Research Center.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

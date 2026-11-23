@@ -1,0 +1,63 @@
+id: universite-de-yaounde-i
+kind: organisation
+name: Université de Yaoundé I
+also_known_as:
+- University of Yaoundé I
+scope: cm
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+hq: cm
+countries:
+- cm
+scale: national
+status: active
+summary: A university linked through OpenAlex to papers from 2020 to 2026 on land cover machine learning,
+  lidar biomass prediction, African manatee acoustic detection and coral reef fish indicator species.
+facts:
+- claim: OpenAlex lists a 2022 paper on machine learning for land use and land cover classification in
+    Google Earth Engine, first author at the Natural Resources Management Laboratory, Department of Geography,
+    University of Yaoundé.
+  url: https://api.openalex.org/works/W4212874751?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: machine learning to improve land use/cover classification using Google Earth Engine
+- claim: OpenAlex lists a 2020 paper on airborne lidar sampling for regional above-ground biomass predictions
+    from multispectral images, with the first author affiliated to Université de Yaoundé I among other
+    bodies.
+  url: https://api.openalex.org/works/W3026561311?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Airborne Lidar Sampling Pivotal for Accurate Regional AGB Predictions from Multispectral Images
+    in Forest-Savanna Landscapes
+- claim: A 2023 paper on acoustic detection of the African manatee has Clinton Factheu of the Laboratory
+    of Zoology, University of Yaoundé I as its first author, according to OpenAlex.
+  url: https://api.openalex.org/works/W4313650419?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Acoustic methods improve the detection of the endangered African manatee
+- claim: The first author's affiliation on that paper includes the Laboratory of Zoology at the University
+    of Yaoundé I.
+  url: https://api.openalex.org/works/W4313650419?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Laboratory of Zoology, University of Yaound
+- claim: A 2026 paper on machine learning to identify indicator species in coral reef fish assemblages
+    lists Eberrhard Estephe Kana Djifack as first author, with affiliations including the Department of
+    Computer Sciences, University of Yaoundé I.
+  url: https://api.openalex.org/works/W7135077299?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Machine learning-based identification of key indicator species in coral reef fish assemblages
+- claim: Postal address of the Department of Computer Sciences given on that paper.
+  url: https://api.openalex.org/works/W7135077299?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: P.O. Box 812, Yaound
+links: []
+found_by:
+- checklist:3
+- register:cm
+added_by: agent
+checked: 2026-11-08

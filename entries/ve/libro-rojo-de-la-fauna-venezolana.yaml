@@ -1,0 +1,31 @@
+id: libro-rojo-de-la-fauna-venezolana
+kind: dataset
+name: Libro Rojo de la Fauna Venezolana
+scope: ve
+ai_label: data-infrastructure
+countries:
+- ve
+status: active
+summary: Red list of Venezuelan fauna built by Provita, which says it has published four editions; its
+  IUCN-standard assessments find 289 threatened animal species.
+facts:
+- claim: Provita says it has published four editions.
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-08
+  quote: Hemos publicado cuatro ediciones del Libro Rojo de la Fauna Venezolana.
+- claim: The assessments, coordinated by Provita with dozens of experts under IUCN standards, find 289
+    threatened animal species in Venezuela.
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-08
+  quote: En Venezuela existen 289 especies animales amenazadas de extinción, de las cuales 32 se encuentran
+    en Peligro Crítico
+links:
+- type: built-by
+  to: provita
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-08
+  quote: Hemos publicado cuatro ediciones del Libro Rojo de la Fauna Venezolana.
+found_by:
+- link-from:provita
+added_by: agent
+checked: 2026-11-08

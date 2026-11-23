@@ -1,0 +1,43 @@
+id: county-administrative-board-of-gotland
+kind: organisation
+name: County Administrative Board of Gotland
+also_known_as:
+- Länsstyrelsen i Gotlands län
+- Länsstyrelsen Gotland
+scope: se
+sector: government
+roles:
+- governs
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: unknown
+scale: local
+status: active
+summary: Regional body that, according to Sweco, manages Gotland's protected areas and conservation
+  of threatened species, and explored with Sweco whether GeoAI can map the county's rich fens.
+facts:
+- claim: Sweco says the board is responsible for managing the county's protected areas and
+    conservation measures for threatened species.
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Länsstyrelsen på Gotland ansvarar för skötseln av länets naturskyddade områden och
+    naturvårdsåtgärder för hotade arter.
+- claim: Explored with Sweco whether GeoAI can map Gotland's rich fens.
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Länsstyrelsen på Gotland har tillsammans med Sweco utforskat om GeoAI kan användas
+    för att kartlägga de sköra rikkärr som utgör en viktig del av öns ekosystem.
+links:
+- type: uses
+  to: gotland-rich-fen-geoai-mapping
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Databasen gav Länsstyrelsen på Gotland en översikt över de områden som behöver bevaras
+    eller restaureras
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

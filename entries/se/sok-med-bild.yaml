@@ -1,0 +1,41 @@
+id: sok-med-bild
+kind: model
+name: Sök med bild
+also_known_as: []
+scope: se
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Machine learning image recognition model built by SLU Artdatabanken, building
+  on Artportalen and millions of species photos from northern Europe.
+facts:
+- claim: Uses machine learning.
+  url: https://internt.slu.se/nyheter-originalen/2023/9/battre-bildigenkanning-i-artfakta/
+  fetched: '2026-11-02'
+  quote: Tjänsten Sök med bild använder sig av maskininlärning.
+- claim: Built on millions of species photos from northern Europe.
+  url: https://internt.slu.se/nyheter-originalen/2023/9/battre-bildigenkanning-i-artfakta/
+  fetched: '2026-11-02'
+  quote: Den nya versionen bygger på miljontals artbilder från hela norra Europa,
+    inklusive bilder från Artportalen.
+links:
+- type: built-by
+  to: slu-swedish-species-information-centre
+  url: https://internt.slu.se/nyheter-originalen/2023/9/battre-bildigenkanning-i-artfakta/
+  fetched: '2026-11-02'
+  quote: SLU Artdatabanken har släppt en ny och förbättrad version av bildigenkänningstjänsten
+    Sök med bild.
+- type: builds-on
+  to: artportalen
+  url: https://internt.slu.se/nyheter-originalen/2023/9/battre-bildigenkanning-i-artfakta/
+  fetched: '2026-11-02'
+  quote: inklusive bilder från Artportalen
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

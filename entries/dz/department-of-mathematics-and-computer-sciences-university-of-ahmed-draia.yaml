@@ -1,0 +1,42 @@
+id: department-of-mathematics-and-computer-sciences-university-of-ahmed-draia
+kind: organisation
+name: Department of Mathematics and Computer Sciences, University of Ahmed Draia
+also_known_as: []
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A university department that is the affiliation of the first and corresponding
+  author of a paper whose title covers a deep learning model and Sentinel-2 data for
+  classifying burned forest areas in Algeria.
+facts:
+- claim: Affiliation of Ouahab Abdelwhab, the first and corresponding author of the
+    paper on classifying burned forest areas in Algeria.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Ouahab Abdelwhab", "raw_affiliation_strings": ["Department
+    of Mathematics and Computer Sciences, University of Ahmed Draia, Adrar, Algeria"]'
+- claim: The paper's title names a deep learning model and Sentinel-2 data for classifying
+    forest fire burned areas in Algeria.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: A Deep Learning Model to Classify Forest Fires Burned Areas Using Sentinel-2
+    Data in Algeria
+  ai_type: deep-learning
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,53 @@
+id: eotvos-lorand-university
+kind: organisation
+name: Eötvös Loránd University
+scope: hu
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: Budapest university whose Department of Plant Anatomy partners in FunDive; a 2025 paper first-authored
+  there describes PyEOGPR, a Python package for mapping vegetation traits from Earth observation data.
+facts:
+- claim: Its Department of Plant Anatomy in Budapest is a partner in FunDive.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: 2026-11-08
+  quote: Department of Plant Anatomy, Eötvös Loránd University, Budapest, Hungary
+- claim: Listed among the OpenBioMaps contributors for 2015 to 2026, where the name is written "Eötvös
+    Lóránd University".
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: Eötvös Lóránd University, Hungary
+- claim: A 2025 paper first-authored at the university describes PyEOGPR, a Python package for mapping
+    vegetation traits with Gaussian process regression on Earth observation cloud platforms.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01jsq2704,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'PyEOGPR: A Python package for vegetation trait mapping with Gaussian Process Regression on Earth
+    observation cloud platforms'
+- claim: A 2020 paper first-authored at the university examines how to validate machine learning models
+    on correlated behaviour data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01jsq2704,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Challenges of machine learning model validation using correlated behaviour data
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: 2026-11-08
+  quote: Department of Plant Anatomy, Eötvös Loránd University, Budapest, Hungary
+found_by:
+- link-from:fundive
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08
+techniques:
+- remote-sensing
+also_known_as:
+- ELTE

@@ -1,0 +1,93 @@
+id: directorate-of-resource-surveys-and-remote-sensing
+kind: organisation
+name: Directorate of Resource Surveys and Remote Sensing
+also_known_as:
+- DRSRS
+- Department of Resource Surveys and Remote Sensing
+- Kenya Rangeland Ecological Monitoring Unit
+- KREMU
+scope: ke
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ke
+website: https://www.drsrs.go.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan government remote sensing body in Nairobi, listed as an author affiliation
+  on a random forest land cover map of the Greater Masai Mara.
+facts:
+- claim: Listed in Nairobi as an author affiliation.
+  url: https://www.frontiersin.org/articles/10.3389/frsen.2023.1188635
+  quote: Directorate of Resource Surveys and Remote Sensing (DRSRS), Nairobi, Kenya
+  fetched: '2026-10-30'
+- claim: The paper uses a random forest classifier.
+  url: https://www.frontiersin.org/articles/10.3389/frsen.2023.1188635
+  quote: computationally efficient random forest (RF) classifier
+  fetched: '2026-10-30'
+  ai_type: ml-supervised
+- claim: The Global Forest Observations Initiative names it among institutions with forest
+    monitoring experience.
+  url: https://www.fao.org/gfoi/country-led-planning/kenya/en
+  quote: the Department of Resource Surveys and Remote Sensing
+  fetched: '2026-10-30'
+- claim: Gives its address as Popo Road, South C, Nairobi.
+  url: https://www.drsrs.go.ke/contact-us
+  fetched: '2026-10-30'
+  quote: Popo Road, South C, Nairobi
+- claim: Says it was established in 1976 as the Kenya Rangeland Ecological Monitoring Unit.
+  url: https://www.drsrs.go.ke/about-drsrs
+  fetched: '2026-10-30'
+  quote: formerly known as Kenya Rangeland Ecological Monitoring Unit (KREMU), was established
+    in 1976
+- claim: Says its activities include wildlife aerial census, forest cover mapping and biodiversity
+    surveys.
+  url: https://www.drsrs.go.ke/about-drsrs
+  fetched: '2026-10-30'
+  quote: The Directorate's activities include livestock and wildlife aerial census, species
+    habitat mapping
+- claim: Says its Aerial Survey division has recorded wildlife numbers and trends in the Kenya
+    rangelands since 1977.
+  url: https://www.drsrs.go.ke/aerial-surveys
+  fetched: '2026-10-30'
+  quote: and their trends in the Kenya rangelands since 1977
+- claim: Says its remote sensing division uses LiDAR scanning and hyperspectral sensing.
+  url: https://www.drsrs.go.ke/remote-sensing
+  fetched: '2026-10-30'
+  quote: ultra-modern digital aerial photography technologies which include LiDAR scanning
+    and hyperspectral sensing
+- claim: Runs aerial censuses and habitat, forest and land cover mapping.
+  url: https://www.drsrs.go.ke/about-drsrs
+  fetched: '2026-10-30'
+  quote: The Directorate's activities include livestock and wildlife aerial census, species
+    habitat mapping, landslide risk mapping, forest cover mapping
+- claim: Reports on the status of Kenya's water towers.
+  url: https://www.drsrs.go.ke/remote-sensing
+  fetched: '2026-10-30'
+  quote: The division also provides periodic information on the status of the country's water
+    towers
+- claim: Its address is off Mombasa Road in Nairobi's South C.
+  url: https://www.drsrs.go.ke/remote-sensing
+  fetched: '2026-10-30'
+  quote: Popo Road off Mombasa Road South C
+found_by:
+- checklist:1
+- link-from:gmes-and-africa
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: partners-with
+  to: iroko-analytics
+  url: https://www.drsrs.go.ke/memorandum-understanding-iroko-analytics-18th-march-2026
+  fetched: '2026-10-30'
+  quote: has signed a Memorandum of Understanding (MoU) with Iroko Analytics

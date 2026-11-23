@@ -1,0 +1,38 @@
+id: digitala-varden-i-skog
+kind: dataset
+name: Digitala värden i skog
+also_known_as: []
+scope: se
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Forest nature value indications for boreal and alpine regions, made with
+  machine learning and remote sensing by Skogsstyrelsen, which says the layers need
+  other information or field surveys.
+facts:
+- claim: Its indications of forest nature values in boreal and alpine regions were
+    produced using machine learning, remote sensing data and training data from forests
+    with known high or low nature values.
+  url: https://www.skogsstyrelsen.se/e-tjanster-och-kartor/karttjanster/digitala-varden-i-skog/
+  fetched: '2026-11-02'
+  quote: Kunskapsunderlaget är framtaget genom maskininlärning (AI), där olika fjärranalysdata
+    samt träningsdata för skog med kända naturvärden respektive låga naturvärden har
+    använts.
+- claim: Skogsstyrelsen says the layers show indications and need other information
+    or field surveys.
+  url: https://www.skogsstyrelsen.se/nyhetslista/digitala-ai-kartor-underlattar-for-skogsagare-att-ta-hansyn/
+  fetched: '2026-11-02'
+  quote: De behöver kompletteras med annan information eller fältinventeringar.
+links:
+- type: built-by
+  to: swedish-forest-agency
+  url: https://www.skogsstyrelsen.se/nyhetslista/digitala-ai-kartor-underlattar-for-skogsagare-att-ta-hansyn/
+  fetched: '2026-11-02'
+  quote: Idag lanserar Skogsstyrelsen de första delarna av nya digitala skogskartor
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

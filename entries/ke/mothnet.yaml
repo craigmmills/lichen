@@ -1,0 +1,42 @@
+id: mothnet
+kind: model
+name: MothNet
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ke
+status: proposed
+summary: Lightweight model from DSAIL's Project AMI, built to identify moths on a microchip
+  inside an insect trap. Field trials at the DeKUT Conservancy are planned.
+facts:
+- claim: DSAIL describes a custom lightweight AI program called MothNet.
+  url: https://dekut-dsail.github.io/projects/ami.html
+  fetched: '2026-10-30'
+  quote: 'A Custom AI Program ("MothNet"): We designed a highly specialized, lightweight AI'
+- claim: DSAIL says field trials are a next step.
+  url: https://dekut-dsail.github.io/projects/ami.html
+  fetched: '2026-10-30'
+  quote: 'Real-World Forest Trials: We are taking these smart traps into the wild at the'
+- claim: Named as a custom lightweight AI program.
+  url: https://dekut-dsail.github.io/projects/ami.html
+  fetched: '2026-10-31'
+  quote: a highly specialized, lightweight AI program called MothNet
+- claim: Runs on the trap and focuses on East African moth families.
+  url: https://dekut-dsail.github.io/projects/ami.html
+  fetched: '2026-10-31'
+  quote: focusing specifically on important East African moth families
+links:
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/projects/ami.html
+  fetched: '2026-10-30'
+  quote: 'A Custom AI Program ("MothNet"): We designed a highly specialized, lightweight AI'
+found_by:
+- link-from:university-of-leeds
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

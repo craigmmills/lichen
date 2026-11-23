@@ -1,0 +1,35 @@
+id: abiola-ajimobi-technical-university
+kind: organisation
+name: Abiola Ajimobi Technical University
+scope: ng
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- ng
+scale: local
+status: active
+funding_at_risk: false
+summary: Affiliated authors include the first author of a 2025 paper on AI prediction of tropical
+  forest carbon stocks and co-authors of a 2026 coastal wetland vulnerability dataset and
+  code.
+facts:
+- claim: First author of a 2025 paper on AI prediction of carbon stocks in tropical forests
+    is at this university.
+  url: https://api.openalex.org/works/W4409154723?select=id,doi,title,publication_year,authorships,primary_location,open_access
+  fetched: '2026-11-03'
+  quote: Artificial Intelligence Technique for Prediction of Carbon Stocks and Uncertainty
+    Estimates in Tropical Forests
+- claim: Co-authors on a 2026 dataset and code release on coastal wetland vulnerability.
+  url: https://api.openalex.org/works/W7221077735?select=id,doi,title,publication_year,authorships,primary_location,open_access
+  fetched: '2026-11-03'
+  quote: 'Data and Code for PCA-Informed Machine Learning Framework for Coastal Wetland Vulnerability
+    Assessment: Bonny Island, Nigeria'
+found_by:
+- register:ng
+added_by: agent
+checked: '2026-11-03'

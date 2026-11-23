@@ -1,0 +1,67 @@
+id: university-of-fiji
+kind: organisation
+name: University of Fiji
+scope: fj
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+hq: fj
+scale: national
+status: active
+realms:
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+- other
+website: https://unifiji.ac.fj
+ai_types:
+- deep-learning
+also_known_as:
+- UniFiji
+summary: University at Saweni, Lautoka. Its School of Science and Technology publishes machine
+  learning work on floods, rivers and water, and mapping of mangroves and reefs.
+facts:
+- claim: Campus at Saweni, Lautoka.
+  url: https://unifiji.ac.fj/contact/
+  fetched: '2026-10-31'
+  quote: Saweni Campus, Lautoka.
+- claim: Staff published a ConvLSTM deep learning flood forecasting model in 2021.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:FJ,from_publication_date:2017-01-01,primary_topic.id:T11490&per_page=100&sort=publication_date:desc&select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Designing Deep-Based Learning Flood Forecast Model With ConvLSTM Hybrid Algorithm
+  ai_type: deep-learning
+- claim: Staff published benthic resource mapping of reefs in the Ba region.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:FJ,from_publication_date:2017-01-01,concepts.id:C62649853,primary_topic.field.id:fields/23|fields/11|fields/19&per_page=100&sort=publication_date:desc&select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Benthic Resource Baseline Mapping of Cakaunisasi and Yarawa Reef Ecosystem in the
+    Ba Region of Fiji
+- claim: Its school ran a USAID-funded project on base maps of aquatic resources and set up
+    a GIS laboratory.
+  url: https://unifiji.ac.fj/sost/
+  fetched: '2026-10-31'
+  quote: Developing Base Maps of Tropical Aquatic Resources in the Pacific funded by USAID
+    (PACAM Project)
+- claim: Its Environment Research Group brings together computer science, GIS, remote sensing
+    and marine science.
+  url: https://www.unifiji.ac.fj/the-erg/
+  fetched: '2026-10-31'
+  quote: computer science, biology, climate change, geographical information systems (GIS),
+    remote sensing (RS), chemistry and marine science
+- claim: A project page gives its Saweni campus in Lautoka.
+  url: https://www.unifiji.ac.fj/pacam/
+  fetched: '2026-10-31'
+  quote: Saweni Campus, Lautoka.
+links:
+- type: funded-by
+  to: united-states-agency-for-international-development
+  url: https://unifiji.ac.fj/sost/
+  fetched: '2026-10-31'
+  quote: Developing Base Maps of Tropical Aquatic Resources in the Pacific funded by USAID
+    (PACAM Project)
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

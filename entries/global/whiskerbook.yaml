@@ -1,0 +1,38 @@
+id: whiskerbook
+kind: programme
+name: Whiskerbook
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://www.wildme.org/platforms
+summary: Wildbook platform from Wild Me Lab that applies AI to photographs of whiskered species.
+facts:
+- claim: Listed by Wild Me Lab as one of its Wildbook platforms.
+  url: https://www.wildme.org/platforms
+  quote: 'Whiskerbook: AI for Multiple Whiskered Species'
+  fetched: '2026-10-30'
+- claim: "Wild Me's page lists MIEW-ID, a deep learning algorithm for identifying individuals."
+  url: https://www.wildme.org/whiskerbook.html
+  fetched: '2026-10-30'
+  quote: "MIEW-ID (µID) is a modern deep learning algorithm used to identify individuals."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: wild-me-lab
+  url: https://www.wildme.org/platforms
+  quote: 'Whiskerbook: AI for Multiple Whiskered Species'
+  fetched: '2026-10-30'
+- type: builds-on
+  to: wildbook
+  url: https://www.wildme.org/platforms
+  quote: 'Whiskerbook: AI for Multiple Whiskered Species'
+  fetched: '2026-10-30'
+found_by:
+- link-from:wild-me-lab
+added_by: agent
+checked: '2026-10-30'

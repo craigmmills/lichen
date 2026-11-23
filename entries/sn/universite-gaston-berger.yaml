@@ -1,0 +1,74 @@
+id: universite-gaston-berger
+kind: organisation
+name: Université Gaston Berger
+also_known_as:
+- UGB
+- Gaston Berger University
+scope: sn
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+- freshwater
+- land
+techniques:
+- remote-sensing
+- other
+hq: sn
+countries:
+- sn
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.ugb.sn/
+summary: University in Saint-Louis, Senegal. Its researchers publish on shoreline detection
+  from satellite imagery, and it was a partner in the AIME marine biodiversity AI consortium.
+facts:
+- claim: OpenAlex lists it in Saint-Louis with 67 works from 2018 under AI and environment
+    concepts.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:SN,concepts.id:C119857082|C108583219|C154945302,concepts.id:C39432304|C18903297|C62649853,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage&per_page=50
+  fetched: '2026-10-31'
+  quote: Gaston Berger
+- claim: Researchers published a review of shoreline detection from optical remote sensing.
+  url: https://api.openalex.org/works/W2913605383
+  fetched: '2026-10-31'
+  quote: 'Shoreline Detection using Optical Remote Sensing: A Review'
+- claim: Named as a partner in the AIME project.
+  url: https://www-iuem.univ-brest.fr/lemar/projets-scientifiques/aime/?lang=en
+  fetched: '2026-10-31'
+  quote: Université Gaston Berger de Saint-Louis (Senegal)
+- claim: ANR lists it in the AIME consortium.
+  url: https://anr.fr/fr/actus/details/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/?cHash=d6757fb10db4aa5c409c35778b765489&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News
+  fetched: '2026-10-31'
+  quote: Université Gaston Berger de Saint-Louis et Université Cheick Anta Diop (Sénégal)
+- claim: A staff member supervises masters theses on machine learning and prediction in environment.
+  url: https://sites.google.com/ugb.edu.sn/jean-marie-dembele
+  fetched: '2026-10-31'
+  quote: Machine Learning and prediction in environment
+- claim: Based in Saint-Louis, Senegal.
+  url: https://sites.google.com/ugb.edu.sn/jean-marie-dembele
+  fetched: '2026-10-31'
+  quote: Associate Professor of Computer Science at the Gaston Berger University, Saint-Louis/Sénégal
+- claim: Its Leidi laboratory is listed as an associate of the wetland monitoring service
+    led by the Centre de Suivi Ecologique.
+  url: http://gdzhao.gmes.cse.sn/gmes/whoarewe
+  fetched: '2026-10-31'
+  quote: Laboratoire Leidi Université Gaston BERGER (UGB) de Saint-Louis - Senegal
+- claim: OpenAlex places it in Saint-Louis.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=Gaston%20Berger%20University
+  quote: '"homepage_url": "https://www.ugb.sn/", "geo": {"city": "Saint-Louis"'
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: gmes-gdzhiao
+  url: http://gdzhao.gmes.cse.sn/gmes/whoarewe
+  fetched: '2026-10-31'
+  quote: Laboratoire Leidi Université Gaston BERGER (UGB) de Saint-Louis - Senegal
+found_by:
+- checklist:3
+- checklist:register-d
+added_by: agent
+checked: '2026-10-31'

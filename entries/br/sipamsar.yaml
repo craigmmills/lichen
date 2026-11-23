@@ -1,0 +1,45 @@
+id: sipamsar
+kind: programme
+name: SipamSAR
+also_known_as:
+- Sistema Integrado de Alerta de Desmatamento
+scope: br
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Censipam's integrated deforestation alert system, due to be expanded by the
+  Amazônia SAR project by December 2027.
+facts:
+- claim: Censipam's plan commits to expanding it through the Amazônia SAR project
+    by December 2027.
+  url: https://www.gov.br/censipam/pt-br/acesso-a-informacao/auditorias/PLANO_DE_ACAO___PEI_24_27___VERSAO_FINAL_PARA_PUBLICACAO1.pdf/@@display-file/file
+  fetched: '2026-10-30'
+  quote: Executar o projeto Amazônia SAR para a expansão do SipamSAR. DEZ/2027
+- claim: Uses synthetic aperture radar on satellites and can see the ground under
+    cloud cover.
+  url: https://www.gov.br/censipam/pt-br/atuacao/monitoramento-do-desmatamento
+  fetched: '2026-10-30'
+  quote: A tecnologia SAR é capaz de enxergar o terreno mesmo que ele esteja sob cobertura
+    de nuvens
+links:
+- type: run-by
+  to: centro-gestor-e-operacional-do-sistema-de-protecao-da-amazonia
+  url: https://www.gov.br/censipam/pt-br/acesso-a-informacao/auditorias/PLANO_DE_ACAO___PEI_24_27___VERSAO_FINAL_PARA_PUBLICACAO1.pdf/@@display-file/file
+  fetched: '2026-10-30'
+  quote: Aprimorar o Sistema Integrado de Alerta de Desmatamento (SIPAMSar)
+- type: run-by
+  to: centro-gestor-e-operacional-do-sistema-de-protecao-da-amazonia
+  url: https://www.gov.br/censipam/pt-br/atuacao/monitoramento-do-desmatamento
+  fetched: '2026-10-30'
+  quote: O Censipam desenvolveu um sistema de monitoramento do desmatamento na Amazônia
+    chamado de SipamSAR
+found_by:
+- checklist:2
+- checklist:1
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

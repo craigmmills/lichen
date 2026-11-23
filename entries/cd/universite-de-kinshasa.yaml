@@ -1,0 +1,93 @@
+id: universite-de-kinshasa
+kind: organisation
+name: Université de Kinshasa
+also_known_as:
+- UNIKIN
+- University of Kinshasa
+- Université de Kinshasa
+scope: cd
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: cd
+countries:
+- cd
+scale: national
+status: active
+website: https://www.unikin.ac.cd/
+summary: A DRC university listed in the GERNAC water and natural resources consortium, hosting OSFAC's
+  GIS lab, with OpenAlex papers on forest degradation and deforestation detection and insect data published
+  on GBIF.
+facts:
+- claim: GMES and Africa lists it as a member of the GERNAC consortium on water and natural resources
+    in Central Africa, led by CICOS.
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: 2026-11-08
+  quote: University of Kinshasa (UNIKIN) - DRC, https://www.unikin.ac.cd/
+- claim: GOFC-GOLD says OSFAC keeps a GIS and remote sensing lab in the University of Kinshasa's School
+    of Agronomy.
+  url: https://gofcgold.umd.edu/regional-networks/observatoire-satellital-des-forets-dafrique-central-osfac
+  fetched: 2026-11-08
+  quote: OSFAC operates out of a head office in Kinshasa and maintains a GIS/RS lab within the School
+    of Agronomy at the University of Kinshasa.
+- claim: Describes itself as a pillar of university education, research and innovation in the DRC.
+  url: https://www.unikin.ac.cd/
+  fetched: 2026-11-08
+  quote: Pilier de la formation universitaire, de la recherche scientifique et de l’innovation en République
+    Démocratique du Congo et en Afrique.
+- claim: OpenAlex lists a 2026 paper with a first author at the University of Kinshasa on a random forest
+    classification framework for detecting tropical forest degradation.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:1702|1707&per_page=100&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Design and Evaluation of an Optimized Random Forest Classification Framework for Tropical Forest
+    Degradation Detection
+  ai_type: ml-supervised
+- claim: OpenAlex lists a 2024 paper with a first author at the University of Kinshasa on detecting deforestation
+    points from satellite data with deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:1702|1707&per_page=100&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Detecting Deforestation Points Using Satellite Data and Deep learning
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2026 paper with a first author at the University of Kinshasa setting out a machine
+    learning benchmark for predicting forest habitat disturbance around Salonga National Park.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&page=4&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: A Spatio-Temporal Machine Learning Benchmark for Forest-Habitat Disturbance Prediction around
+    Salonga National Park
+- claim: Publishes insect inventory data on GBIF, including bees and hoverflies in the Luki Biosphere
+    Reserve.
+  url: https://api.gbif.org/v1/organization/59e24d35-adb7-4071-a3e8-c6e17df60569/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Bee and hoverfly inventory in the western region of the Democratic Republic of Congo (Luki Biosphere
+    Reserve)
+- claim: Its website is headed Université de Kinshasa.
+  url: https://www.unikin.ac.cd
+  fetched: 2026-11-08
+  quote: Présentation de l’Unikin
+links:
+- type: partners-with
+  to: commission-internationale-du-bassin-congo-oubangui-sangha
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: 2026-11-08
+  quote: University of Kinshasa (UNIKIN) - DRC, https://www.unikin.ac.cd/
+- type: partners-with
+  to: gmes-and-africa
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: 2026-11-08
+  quote: University of Kinshasa (UNIKIN) - DRC, https://www.unikin.ac.cd/
+found_by:
+- link-from:observatoire-satellital-des-forets-dafrique-centrale
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-08
+ai_types:
+- ml-supervised
+- deep-learning

@@ -1,0 +1,63 @@
+id: wwf-netherlands
+kind: organisation
+name: WWF Netherlands
+also_known_as:
+- WWF-NL
+- WNF
+sector: ngo
+roles:
+- funds
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: Hack the Planet names it as a long-term supporter whose support helps place anti-poaching
+  and monitoring technology in the field. Its own site disallows the fetcher, so this rests
+  on Hack the Planet's page.
+facts:
+- claim: Hack the Planet says its support helps put anti-poaching and monitoring technology
+    in the field.
+  url: https://www.hack-the-planet.io/partners/
+  fetched: &id001 2026-10-31
+  quote: Their support helps us put anti-poaching and monitoring technology in the places
+    where it changes the most.
+- claim: Wageningen University & Research says Forest Foresight is the WNF's new intelligent
+    system.
+  url: https://www.wur.nl/nl/nieuws/ai-systeem-voorspelt-illegale-ontbossing-30-hectare-kap-bij-goudmijn-voorkomen
+  fetched: '2026-10-31'
+  quote: Forest Foresight, het nieuwe intelligente systeem van het Wereld Natuur Fonds (WNF),
+    kan illegale kap gaan voorspellen.
+- claim: FMO says WWF-NL is one of the partners managing the Dutch Fund for Climate and Development.
+  url: https://www.fmo.nl/climate-fund
+  fetched: '2026-10-31'
+  quote: World Wide Fund for Nature (WWF-NL)
+links:
+- type: partners-with
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/partners/
+  fetched: *id001
+  quote: WWF Netherlands brings a global conservation network and decades of field experience
+    to the table.
+- type: runs
+  to: forest-foresight
+  url: https://www.wur.nl/nl/nieuws/ai-systeem-voorspelt-illegale-ontbossing-30-hectare-kap-bij-goudmijn-voorkomen
+  fetched: '2026-10-31'
+  quote: Forest Foresight, het nieuwe intelligente systeem van het Wereld Natuur Fonds (WNF)
+- type: partners-with
+  to: wageningen-university-and-research
+  url: https://www.wur.nl/nl/nieuws/ai-systeem-voorspelt-illegale-ontbossing-30-hectare-kap-bij-goudmijn-voorkomen
+  fetched: '2026-10-31'
+  quote: Donderdag 30 november organiseren WUR en WNF een evenement
+found_by:
+- link-from:hack-the-planet
+- checklist:4
+scope: nl
+added_by: agent
+checked: *id001
+techniques:
+- remote-sensing

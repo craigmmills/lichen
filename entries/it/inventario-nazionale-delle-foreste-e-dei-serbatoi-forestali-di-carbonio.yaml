@@ -1,0 +1,57 @@
+id: inventario-nazionale-delle-foreste-e-dei-serbatoi-forestali-di-carbonio
+kind: dataset
+name: Inventario Nazionale delle Foreste e dei serbatoi forestali di Carbonio
+also_known_as:
+- INFC
+- Italian National Forest Inventory
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://www.inventarioforestale.org/
+summary: Italy's national forest inventory. Its site gives access to statistics, plot-level
+  data and project documents, and the basic data are free to use for any purpose except
+  producing forest statistics at territorial level.
+facts:
+- claim: The site gives access to the inventory's statistics, basic data and project
+    documents.
+  url: https://www.inventarioforestale.org/
+  fetched: 2026-10-31
+  quote: è possibile accedere alle statistiche, ai dati elementari e alla documentazione
+    di progetto
+- claim: Basic data are free and can be used for any purpose, including commercial
+    use, except producing forest resource statistics at national, regional or other
+    territorial level.
+  url: https://www.inventarioforestale.org/
+  fetched: 2026-10-31
+  quote: I dati elementari vengono resi disponibili gratuitamente e possono essere
+    utilizzati per qualunque scopo, anche commerciale
+- claim: The site gives access to the inventory's statistics, elementary data and
+    project documents.
+  url: https://www.inventarioforestale.org/it/
+  fetched: '2026-10-31'
+  quote: è possibile accedere alle statistiche, ai dati elementari e alla documentazione
+    di progetto
+links:
+- type: run-by
+  to: comando-unita-forestali-ambientali-e-agroalimentari-carabinieri
+  url: https://www.inventarioforestale.org/
+  fetched: 2026-10-31
+  quote: i risultati ufficiali INFC vengono prodotti e pubblicati esclusivamente da
+    CUFA e CREA-Foreste e Legno
+- type: run-by
+  to: crea-foreste-e-legno
+  url: https://www.inventarioforestale.org/
+  fetched: 2026-10-31
+  quote: i risultati ufficiali INFC vengono prodotti e pubblicati esclusivamente da
+    CUFA e CREA-Foreste e Legno
+- type: partners-with
+  to: crea-council-for-agricultural-research
+  url: https://creafuturo.crea.gov.it/14618/
+  fetched: '2026-10-31'
+  quote: con il supporto scientifico che CREA Foreste e Legno fornisce da ben 40 anni
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-10-31

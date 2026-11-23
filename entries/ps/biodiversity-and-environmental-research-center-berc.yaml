@@ -1,0 +1,55 @@
+id: biodiversity-and-environmental-research-center-berc
+kind: organisation
+name: Biodiversity and Environmental Research Center
+also_known_as:
+- BERC
+- Biodiversity and Environment Research Centre
+scope: ps
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: ps
+countries: []
+scale: national
+status: active
+summary: Non-governmental research organisation based in Til, Nablus, which CEPF lists as grantee of a
+  2020 to 2022 project assessing endemic plants, focusing on Iris lortetii, and mapping where its communities
+  occur.
+facts:
+- claim: Its GBIF publisher record describes it as a non-governmental organisation dedicated to research
+    and development, based in Til, Nablus.
+  url: https://api.gbif.org/v1/organization?country=PS&limit=50
+  fetched: 2026-11-12
+  quote: is a non-governmental organization dedicated to research and development
+- claim: The same record gives its address as Til, Nablus, Palestine.
+  url: https://api.gbif.org/v1/organization?country=PS&limit=50
+  fetched: 2026-11-12
+  quote: '"address":["Til, Nablus, Palestine"]'
+- claim: The record says it aims to produce basic and applied information on biodiversity, horticulture
+    and the environment.
+  url: https://api.gbif.org/v1/organization?country=PS&limit=50
+  fetched: 2026-11-12
+  quote: To produce basic and applied information on biodiversity, horticulture, environment, and  related
+    biotechnology
+- claim: CEPF lists it as grantee of a project, March 2020 to June 2022, to assess the status of endemic
+    plants, focusing on Iris lortetii, and to identify and map the locations of its communities.
+  url: https://www.cepf.net/grants/grantee-projects/engagement-local-communities-conservation-threatened-ecosystem-and-plant
+  fetched: 2026-11-12
+  quote: Conduct an assessment of the status of endemic plants, focusing on the Iris lortetii. Identify
+    and map the locations of the species communities
+links:
+- type: funded-by
+  to: critical-ecosystem-partnership-fund
+  url: https://www.cepf.net/grants/grantee-projects/engagement-local-communities-conservation-threatened-ecosystem-and-plant
+  fetched: 2026-11-12
+  quote: 'Grantee Name: Biodiversity and Environment Research Centre'
+  amount: 25709
+  currency: USD
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-12

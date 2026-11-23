@@ -1,0 +1,52 @@
+id: kenya-coffee-geo-mapping
+kind: project
+name: Kenya national coffee geo-mapping
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+summary: National exercise that maps coffee farms from satellite imagery and field checks
+  to show coffee is grown on non-deforested land, for the EU Deforestation Regulation.
+facts:
+- claim: Generates farm-level polygons to show coffee is produced on non-deforested land.
+  url: https://www.kenyanews.go.ke/dg-akali-urges-for-swift-coordination-as-coffee-geo-mapping-begins/
+  quote: generate farm-level polygons and location metadata to demonstrate that Kenyan coffee
+    is produced on non-deforested land
+  fetched: '2026-10-31'
+- claim: 30 per cent of coffee-growing areas were reported as captured by satellite imagery.
+  url: https://www.kenyanews.go.ke/dg-akali-urges-for-swift-coordination-as-coffee-geo-mapping-begins/
+  quote: 30 per cent of coffee-growing areas have already been captured through satellite
+    imagery
+  fetched: '2026-10-31'
+- claim: A ministry officer reported coverage of 16 of 33 coffee-growing counties.
+  url: https://www.foodbusinessmea.com/kenya-accelerates-coffee-geo-mapping-to-meet-eu-deforestation-regulation-deadline/
+  quote: The mapping covers 16 out of 33 coffee-growing counties
+  fetched: '2026-10-31'
+links:
+- type: led-by
+  to: directorate-of-resource-surveys-and-remote-sensing
+  url: https://www.kenyanews.go.ke/dg-akali-urges-for-swift-coordination-as-coffee-geo-mapping-begins/
+  quote: spearheaded by DRSRS in partnership with the Kenya Forest Service (KFS) and the Kenya
+    Space Agency (KSA)
+  fetched: '2026-10-31'
+- type: partners-with
+  to: kenya-forest-service
+  url: https://www.kenyanews.go.ke/dg-akali-urges-for-swift-coordination-as-coffee-geo-mapping-begins/
+  quote: spearheaded by DRSRS in partnership with the Kenya Forest Service (KFS) and the Kenya
+    Space Agency (KSA)
+  fetched: '2026-10-31'
+- type: partners-with
+  to: kenya-space-agency
+  url: https://www.kenyanews.go.ke/dg-akali-urges-for-swift-coordination-as-coffee-geo-mapping-begins/
+  quote: spearheaded by DRSRS in partnership with the Kenya Forest Service (KFS) and the Kenya
+    Space Agency (KSA)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

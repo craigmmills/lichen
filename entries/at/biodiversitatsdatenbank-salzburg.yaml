@@ -1,0 +1,53 @@
+id: biodiversitatsdatenbank-salzburg
+kind: dataset
+name: Biodiversitätsdatenbank Salzburg
+also_known_as:
+- Biodiversity Database Salzburg
+scope: at
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+summary: Database run by Haus der Natur with about 3,000,000 records on animals, fungi and plants in Salzburg,
+  part of the GBIF network, using Observation.org for recorded observations.
+facts:
+- claim: Holds about 3,000,000 records on the biodiversity and distribution of animals, fungi and plants
+    in Salzburg.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: includes about 3,000,000 records to date containing detailed information about the biodiversity
+    and distribution of many groups of animals, fungi and plants.
+- claim: Part of the GBIF network.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: The biodiversity database is part of the international gbif network and can also be accessed
+    online .
+- claim: Observations for Salzburg and the national park can be recorded by phone through Observation.org;
+    observations with images or sound recordings are checked by experts.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: Thanks to the cooperation with Observation.org, observation data for Salzburg and the National
+    Park can be recorded directly by mobile phone in the field and transferred to the biodiversity database.
+links:
+- type: run-by
+  to: haus-der-natur-salzburg
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: the Haus der Natur maintains an extensive database documenting the animal and plant species of
+    the province.
+- type: partners-with
+  to: land-salzburg
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: In collaboration with the nature conservation division of the province of Salzburg
+- type: uses
+  to: observation-org
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: Thanks to the cooperation with Observation.org, observation data for Salzburg and the National
+    Park can be recorded directly by mobile phone
+found_by:
+- link-from:haus-der-natur-salzburg
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,58 @@
+id: herbarium-bogoriense
+kind: organisation
+name: Herbarium Bogoriense
+also_known_as:
+- BO
+- Herbarium Bogoriense (BO)
+- Herbarium Bogoriense, National Research and Innovation Agency (BRIN)
+scope: id
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: id
+scale: national
+status: active
+summary: Herbarium under BRIN, described by GBIF as the largest in South East Asia, with seven
+  published datasets.
+facts:
+- claim: GBIF lists it as Herbarium Bogoriense under BRIN.
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: Herbarium Bogoriense, National Research and Innovation Agency (BRIN)
+- claim: Its GBIF description gives nearly 1 million specimens.
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: is the largest herbarium in South East Asia and houses nearly 1 million specimens
+- claim: GBIF's record calls it the largest herbarium in South East Asia, with nearly 1 million
+    specimens, mostly from Indonesia.
+  url: https://api.gbif.org/v1/organization/f891104a-681f-48df-b6a1-68fd1938b44f
+  fetched: '2026-10-31'
+  quote: the largest herbarium in South East Asia and houses nearly 1 million specimens
+- claim: It states its aim of giving online access to specimen data for science, policymakers
+    and the public.
+  url: https://api.gbif.org/v1/organization/f891104a-681f-48df-b6a1-68fd1938b44f
+  fetched: '2026-10-31'
+  quote: start providing online access to its specimen data
+- claim: Its type collection of Magnoliopsida was mostly collected from Indonesia and from
+    many other countries.
+  url: https://api.gbif.org/v1/dataset/6e5319b3-a870-4b5d-a194-e1a9c4ad8845
+  fetched: '2026-10-31'
+  quote: The type collections of Magnoliopsida were mostly collected from Indonesia
+- claim: GBIF gives its address at Cibinong Science Center.
+  url: https://api.gbif.org/v1/organization/f891104a-681f-48df-b6a1-68fd1938b44f
+  fetched: '2026-10-31'
+  quote: Cibinong Science Center, Jalan Raya Jakarta Bogor, KM. 46, Cibinong
+links:
+- type: run-by
+  to: badan-riset-dan-inovasi-nasional
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: Herbarium Bogoriense, National Research and Innovation Agency (BRIN)
+found_by:
+- checklist:2
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,59 @@
+id: inibioma
+kind: organisation
+name: Instituto de Investigaciones en Biodiversidad y Medioambiente
+also_known_as:
+- INIBIOMA
+scope: ar
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+- remote-sensing
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+summary: Bariloche institute of CONICET and Universidad Nacional del Comahue, listed as a
+  member of the MapBiomas Argentina network and the affiliation of co-authors of a 2025 Bombus
+  dahlbomii acoustic data paper.
+facts:
+- claim: CONICET names INIBIOMA as a CONICET and Universidad Nacional del Comahue institute
+    where Snapshot Argentina coordinator Sergio Lambertucci works.
+  url: https://www.conicet.gov.ar/especialistas-del-conicet-coordinan-una-iniciativa-internacional-en-argentina-para-monitorear-mamiferos/
+  quote: Instituto de Investigaciones en Biodiversidad y Medioambiente (INIBIOMA, CONICET-UNCo)
+  fetched: '2026-11-03'
+- claim: Co-authors of the 2025 Bombus dahlbomii acoustic data paper give their affiliation
+    as INIBIOMA, Bariloche.
+  url: https://api.openalex.org/works/W4409062872?select=id,title,doi,publication_year,authorships
+  quote: Instituto de Investigaciones en Biodiversidad y Medioambiente (INIBIOMA), Universidad
+    Nacional del Comahue y CONICET, Bariloche, Argentina
+  fetched: '2026-11-03'
+- claim: Listed as a member of the MapBiomas Argentina network.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Instituto Argentino de Investigaciones de Zonas Áridas, Instituto de Investigaciones
+    en Biodiversidad y Medioambiente
+- claim: MapBiomas says Collection 3 of its Argentina maps is the work of 25 institutions
+    and professionals from across the country.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: es el resultado de la colaboración de 25 instituciones y profesionales de todo el
+    país
+links:
+- type: partners-with
+  to: mapbiomas-argentina
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Instituto Argentino de Investigaciones de Zonas Áridas, Instituto de Investigaciones
+    en Biodiversidad y Medioambiente
+found_by:
+- link-from:snapshot-argentina
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-11-03'

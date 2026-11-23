@@ -1,0 +1,76 @@
+id: masaryk-university
+kind: organisation
+name: Masaryk University
+also_known_as:
+- Masarykova univerzita
+- MUNI
+scope: cz
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+- land
+hq: cz
+countries:
+- cz
+scale: national
+status: active
+summary: A Czech university that runs the Czech National Phytosociological Database, builds
+  Pladias, and is listed by Biodiversa+ as a partner in DNAquaIMG through its Department of
+  Geography.
+facts:
+- claim: Biodiversa+ lists its Faculty of Science, Department of Geography, as a DNAquaIMG
+    partner.
+  url: https://www.biodiversa.eu/2024/04/15/dnaquaimg/
+  fetched: 2026-11-07
+  quote: Faculty of Science, Department of Geography, Masaryk University, Brno, Czech Republic
+- claim: GBIF's publisher record says its Department of Botany and Zoology hosts and coordinates
+    the Czech National Phytosociological Database.
+  url: https://api.gbif.org/v1/organization/9a4467a2-eccd-4aa7-bb6d-aea3a31f2a2c
+  fetched: 2026-11-07
+  quote: The Department also hosts and coordinates the Czech National Phytosociological Database,
+    a database of vegetation plots.
+- claim: GBIF's publisher record gives the department's address in Brno.
+  url: https://api.gbif.org/v1/organization/9a4467a2-eccd-4aa7-bb6d-aea3a31f2a2c
+  fetched: 2026-11-07
+  quote: Kotlářská 2
+- claim: The Pladias site says the database was prepared by Masaryk University with the Institute
+    of Botany and the University of South Bohemia.
+  url: https://pladias.cz/en
+  fetched: 2026-11-07
+  quote: prepared by Masaryk University, the Institute of Botany of The Czech Academy of Sciences
+    and University of South Bohemia
+- claim: Its home page is that of Masarykova univerzita.
+  url: https://www.muni.cz
+  fetched: 2026-11-07
+  quote: Masarykova univerzita | MUNI
+links:
+- type: partners-with
+  to: dnaquaimg
+  url: https://www.biodiversa.eu/2024/04/15/dnaquaimg/
+  fetched: 2026-11-07
+  quote: Faculty of Science, Department of Geography, Masaryk University, Brno, Czech Republic
+- type: runs
+  to: czech-national-phytosociological-database
+  url: https://api.gbif.org/v1/organization/9a4467a2-eccd-4aa7-bb6d-aea3a31f2a2c
+  fetched: 2026-11-07
+  quote: The Department also hosts and coordinates the Czech National Phytosociological Database
+- type: partners-with
+  to: motivate
+  url: https://www.biodiversa.eu/2024/04/15/motivate/
+  fetched: 2026-11-07
+  quote: Faculty of Science / Department of Botany and Zoology, Masaryk University, Brno,
+    Czech Republic
+- type: builds
+  to: pladias
+  url: https://pladias.cz/en
+  fetched: 2026-11-07
+  quote: prepared by Masaryk University, the Institute of Botany of The Czech Academy of Sciences
+    and University of South Bohemia
+found_by:
+- link-from:dnaquaimg
+- register:cz
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,56 @@
+id: instituto-del-mar-del-peru
+kind: organisation
+name: Instituto del Mar del Perú
+also_known_as:
+- IMARPE
+scope: pe
+sector: government
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- freshwater
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Public research institute attached to the Ministry of Production, based in Callao,
+  that lists SOSMAP among its online services and catalogues marine biodiversity.
+facts:
+- claim: Attached to the Ministry of Production, it generates scientific knowledge for the
+    sustainable use of living marine and inland water resources.
+  url: https://www.gob.pe/institucion/imarpe/institucional
+  fetched: 2026-11-03
+  quote: Somos un organismo adscrito al Ministerio de la Producción, cuyas funciones se orientan
+    a la generación de conocimiento científico
+- claim: Has run port biological surveys in Callao since 2022 to set a biological baseline
+    for assessing bioinvasion risk.
+  url: https://www.gob.pe/institucion/imarpe/noticias/1457899-imarpe-fortalece-capacidades-para-el-monitoreo-y-deteccion-de-especies-exoticas-invasoras-en-ambientes-marinos
+  fetched: 2026-11-03
+  quote: la investigación que desarrolla el IMARPE desde 2022 mediante la línea “Evaluaciones
+    Biológicas Portuarias en el Callao”
+- claim: Took part in a September 2026 training run by the Smithsonian Environmental Research
+    Center's BRIDGE programme, which covered eDNA detection techniques.
+  url: https://www.gob.pe/institucion/imarpe/noticias/1457899-imarpe-fortalece-capacidades-para-el-monitoreo-y-deteccion-de-especies-exoticas-invasoras-en-ambientes-marinos
+  fetched: 2026-11-03
+  quote: técnicas de detección mediante ADN ambiental (eDNA), que permiten ampliar las posibilidades
+    de identificar especies y mejorar el monitoreo de las bioinvasiones marinas
+links:
+- type: partners-with
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/annual-report-2025/
+  fetched: 2026-11-03
+  quote: We formalized a strategic scientific partnership agreement with the Instituto del
+    Mar del Perú (IMARPE)
+found_by:
+- checklist:1
+- link-from:global-fishing-watch
+- checklist:2
+added_by: agent
+checked: 2026-11-03
+techniques:
+- remote-sensing
+- edna-genomics

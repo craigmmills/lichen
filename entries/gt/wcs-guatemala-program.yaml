@@ -1,0 +1,64 @@
+id: wcs-guatemala-program
+kind: programme
+name: WCS Guatemala Program
+also_known_as:
+- WCS Guatemala
+- Wildlife Conservation Society - Guatemala Program
+scope: gt
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+countries:
+- gt
+status: active
+website: https://guatemala.wcs.org/
+summary: Programme run by the Wildlife Conservation Society, active in Guatemala since 1992 on the Maya
+  Biosphere Reserve, which published a 2024 GBIF dataset of frog detections from recording units in Laguna
+  del Tigre National Park.
+facts:
+- claim: Its home page dates the start of WCS activities in Guatemala to 1992, with the mission of conserving
+    the Maya Biosphere Reserve.
+  url: https://guatemala.wcs.org/
+  fetched: '2026-11-08'
+  quote: inició sus actividades en Guatemala en 1992 con la misión de conservar la Reserva de Biosfera
+    Maya
+- claim: Biological research and monitoring is the first of its four lines of work in the Maya Biosphere
+    Reserve.
+  url: https://guatemala.wcs.org/
+  fetched: '2026-11-08'
+  quote: 1) Investigación biológica y monitoreo;
+- claim: It started a marine and coastal programme in 2017.
+  url: https://guatemala.wcs.org/
+  fetched: '2026-11-08'
+  quote: Desde el año 2017, iniciamos el programa marino y costero
+- claim: It published to GBIF a dataset of frog detections from autonomous recording unit monitoring at
+    three sites in Laguna del Tigre National Park in 2024.
+  url: https://api.gbif.org/v1/dataset/9e219d43-0e29-44de-ad20-32968cbc0784
+  fetched: '2026-11-08'
+  quote: collected through autonomous recording unit (ARU) monitoring in Laguna del Tigre National Park,
+    within the Maya Biosphere Reserve in Petén, Guatemala
+- claim: GBIF lists it as a publisher endorsed by GBIF Guatemala.
+  url: https://api.gbif.org/v1/node/769169cc-930b-444f-92dd-60a309d1f5eb/organization?limit=100
+  fetched: '2026-11-08'
+  quote: Wildlife Conservation Society - Guatemala Program
+links:
+- type: run-by
+  to: wildlife-conservation-society
+  url: https://guatemala.wcs.org/
+  fetched: '2026-11-08'
+  quote: WCS trabaja bajo cuatro ejes interrelacionados para la conservación de la Reserva de Biosfera
+    Maya (RBM)
+- type: led-by
+  to: gabriela-ponce
+  url: https://icc.org.gt/en/southern-coast-of-guatemala-strengthens-biodiversity-partnerships-at-first-regional-symposium/
+  fetched: 2026-11-08
+  quote: Gabriela Ponce, Director of the WCS Guatemala Program
+found_by:
+- link-from:wildlife-conservation-society
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,49 @@
+id: uk-pollinator-monitoring-scheme
+kind: programme
+name: UK Pollinator Monitoring Scheme
+scope: gb
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+status: active
+website: https://ukpoms.org.uk/
+summary: UK scheme measuring how insect pollinator populations are changing, with FIT Counts
+  submitted through a form or app.
+facts:
+- claim: Aims to establish how insect pollinators are changing.
+  url: https://ukpoms.org.uk/about
+  fetched: '2026-10-30'
+  quote: The UK Pollinator Monitoring Scheme (UK PoMS) aims to establish how insect pollinator
+    populations are changing across the UK.
+- claim: Takes FIT Count results through a form or app.
+  url: https://ukpoms.org.uk/
+  fetched: '2026-10-30'
+  quote: Send in your results via the FIT Count recording form or FIT Count app
+- claim: Publishes the dataset "Bee and hoverfly species data from the UK Pollinator Monitoring
+    Scheme" on GBIF.
+  url: https://api.gbif.org/v1/organization/62433b33-28b2-4f70-8b75-b183f54aabaa/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Bee and hoverfly species data from the UK Pollinator Monitoring Scheme
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/62433b33-28b2-4f70-8b75-b183f54aabaa/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: funded-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://ukpoms.org.uk/about
+  fetched: '2026-10-30'
+  quote: UK PoMS is a partnership funded jointly by the UK Centre for Ecology & Hydrology
+    (UKCEH) and Joint Nature Conservation Committee (JNCC)
+- type: funded-by
+  to: joint-nature-conservation-committee
+  url: https://ukpoms.org.uk/about
+  fetched: '2026-10-30'
+  quote: UK PoMS is a partnership funded jointly by the UK Centre for Ecology & Hydrology
+    (UKCEH) and Joint Nature Conservation Committee (JNCC)
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

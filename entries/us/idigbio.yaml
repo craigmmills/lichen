@@ -1,0 +1,93 @@
+id: idigbio
+kind: programme
+name: iDigBio
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: Integrated Digitized Biocollections, the NSF-funded national coordinating body for
+  digitising US biodiversity collections, at the University of Florida, Florida State University
+  and Arizona State University.
+facts:
+- claim: 'NSF award to University of Florida: iDigBio: Sustaining the digitization, mobilization,
+    accessibility, and use of biodiversity specimen data in U.S. museum and academic collections.'
+  url: https://api.nsf.gov/services/v1/awards/2027654.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'iDigBio: Sustaining the digitization, mobilization, accessibility, and use of biodiversity
+    specimen data in U.S. museum and academic collections'
+- claim: Wikipedia describes it as the NSF-funded national resource for digitising biodiversity
+    collections.
+  url: https://en.wikipedia.org/wiki/IDigBio
+  fetched: '2026-10-30'
+  quote: is the National Resource funded by the National Science Foundation (NSF) for Advancing
+    Digitization of Biodiversity Collections (ADBC)
+- claim: Wikipedia places it in Gainesville, Florida.
+  url: https://en.wikipedia.org/wiki/IDigBio
+  fetched: '2026-10-30'
+  quote: Location 105 NW 16th St., Gainesville, Florida
+- claim: iDigBio focuses on specimen-based biodiversity collections from US institutions.
+  url: https://idigbio.gbif.us/
+  quote: Our focus is on specimen-based biodiversity collections from U.S. institutions
+  fetched: '2026-10-30'
+- claim: Data on the iDigBio portal stopped updating on 8 May 2026.
+  url: https://portal.idigbio.org/portal/search
+  quote: Data on this site is no longer updated as of 8 May 2026
+  fetched: '2026-10-30'
+- claim: re3data records that iDigBio moved to a GBIF hosted portal in August 2026.
+  url: https://www.re3data.org/repository/r3d100011126
+  quote: iDigBio moved to a GBIF Hosted Portal in August 2026
+  fetched: '2026-10-30'
+- claim: US national resource funded by NSF.
+  url: https://api.gbif.org/v1/organization/a86e9e36-12ec-49a4-a94c-c0c981fffb71
+  fetched: '2026-10-30'
+  quote: is the U.S. National Resource for Advancing Digitization of Biodiversity Collections
+    (ADBC) funded by the National Science Foundation
+- claim: Makes specimen data and images available.
+  url: https://api.gbif.org/v1/organization/a86e9e36-12ec-49a4-a94c-c0c981fffb71
+  fetched: '2026-10-30'
+  quote: data and images for millions of biological specimens are being made available in
+    electronic format
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2027654.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'iDigBio: Sustaining the digitization, mobilization, accessibility, and use of biodiversity
+    specimen data in U.S. museum and academic collections'
+  amount: 19995068
+  year: 2021
+  currency: USD
+- type: run-by
+  to: university-of-florida
+  url: https://api.nsf.gov/services/v1/awards/2027654.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: University of Florida
+- type: funded-by
+  to: national-science-foundation
+  url: https://en.wikipedia.org/wiki/IDigBio
+  fetched: '2026-10-30'
+  quote: is the National Resource funded by the National Science Foundation (NSF) for Advancing
+    Digitization of Biodiversity Collections (ADBC)
+- type: funded-by
+  to: national-science-foundation
+  url: https://www.re3data.org/repository/r3d100011126
+  quote: funded by the National Science Foundation
+  fetched: '2026-10-30'
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.gbif.org/v1/organization/a86e9e36-12ec-49a4-a94c-c0c981fffb71
+  fetched: '2026-10-30'
+  quote: funded by the National Science Foundation
+found_by:
+- checklist:3
+- link-from:biodiversity-heritage-library
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- iDigBio
+- Integrated Digitized Biocollections

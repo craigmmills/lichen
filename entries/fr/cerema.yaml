@@ -1,0 +1,36 @@
+id: cerema
+kind: organisation
+name: Cerema
+scope: fr
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+website: https://www.cerema.fr/
+summary: French public expert body on planning. Its REAUZOH project uses field data, satellite
+  imagery and AI to map potential wetlands.
+facts:
+- claim: Describes itself as the public reference body in planning.
+  url: https://www.cerema.fr/fr/actualites/reauzoh-intelligence-artificielle-au-service-cartographie
+  fetched: '2026-10-31'
+  quote: Le Cerema, référent public en aménagement, mobilise son expertise au service de l’État,
+    des collectivités et des entreprises
+links:
+- type: runs
+  to: reauzoh
+  url: https://www.cerema.fr/fr/actualites/reauzoh-intelligence-artificielle-au-service-cartographie
+  fetched: '2026-10-31'
+  quote: la CABBALR et le Cerema ont initié, en 2023, le programme de recherche et développement
+    commun REAUZOH
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

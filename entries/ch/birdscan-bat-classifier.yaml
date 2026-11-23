@@ -1,0 +1,29 @@
+id: birdscan-bat-classifier
+kind: model
+name: BirdScan bat classifier
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+status: unknown
+runner: unknown
+summary: An AI classifier, built by Swiss Birdradar Solution, that discerns between birds and bats from
+  wing beat activity.
+facts:
+- claim: The AI classifier discerns between birds and bats from wing beat activity.
+  url: https://swiss-birdradar.com/new-mr1-software-release-with-bat-classifier/
+  quote: The new AI classifier is now able to discern between birds and bats based on the different biomechanics
+    and backscattering types of wing beat activity.
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: swiss-birdradar-solution
+  url: https://swiss-birdradar.com/new-mr1-software-release-with-bat-classifier/
+  quote: Swiss Birdradar Solution just released a new software version for the BirdScan MR1 and MV1.
+  fetched: '2026-11-02'
+found_by:
+- link-from:swiss-birdradar-solution
+added_by: agent
+checked: '2026-11-02'

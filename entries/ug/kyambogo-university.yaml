@@ -1,0 +1,40 @@
+id: kyambogo-university
+kind: organisation
+name: Kyambogo University
+also_known_as: []
+scope: ug
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ug
+scale: national
+status: active
+summary: University whose staff are first authors of OpenAlex-listed remote sensing studies,
+  including a 2020 Sentinel-1 study of lake inundation and one on environmental degradation
+  in the Lake Victoria watershed.
+facts:
+- claim: OpenAlex lists a 2020 study of freshwater lake inundation using Sentinel-1 radar
+    imagery whose first author, Bernard Barasa, is at Kyambogo University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01wb6tr49,concepts.id:C119857082|C154945302|C62649853|C108583219,primary_topic.subfield.id:2309|1105|2303|2302|2305|2306&per_page=50&sort=cited_by_count:desc
+  fetched: 2026-11-08
+  quote: Freshwater lake inundation monitoring using Sentinel-1 SAR imagery in Eastern Uganda
+- claim: OpenAlex lists a study applying remote sensing and GIS to environmental degradation
+    in the Lake Victoria watershed whose first author, Charles K. Twesigye, is at Kyambogo
+    University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01wb6tr49,concepts.id:C119857082|C154945302|C62649853|C108583219,primary_topic.subfield.id:2309|1105|2303|2302|2305|2306&per_page=50&sort=cited_by_count:desc
+  fetched: 2026-11-08
+  quote: Application of Remote Sensing Technologies and Geographical Information Systems in
+    Monitoring Environmental Degradation in the Lake Victoria Watershed, East Africa
+links: []
+found_by:
+- register:ug
+added_by: agent
+checked: 2026-11-08

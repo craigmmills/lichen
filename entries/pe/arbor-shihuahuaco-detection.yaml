@@ -1,0 +1,78 @@
+id: arbor-shihuahuaco-detection
+kind: model
+name: ARBOR
+scope: pe
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- pe
+status: active
+runner: unknown
+summary: An AI plugin for QGIS built by OSINFOR and the University of Sheffield to find shihuahuaco trees
+  in drone images, reported at 65% precision in initial tests.
+facts:
+- claim: El Peruano describes ARBOR as an AI-based plugin intended to identify the location and condition
+    of shihuahuaco trees from drone images.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Se trata de un plugin basado en inteligencia artificial que permitirá identificar dónde se encuentran
+    los árboles de shihuahuaco y cuál es su estado en el bosque a partir de imágenes captadas por drones.
+- claim: A University of Sheffield computer scientist says the tool runs in QGIS and detected shihuahuaco
+    trees with 65% precision in initial tests, trained on 700 samples.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Nuestra herramienta está acoplada a la plataforma QGIS y permite detectar los árboles de shihuahuaco
+    existentes con una precisión de 65% en los tests iniciales basada en un entrenamiento limitado de
+    700 muestras
+- claim: Trained on a database of 176 drone orthomosaics.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Para entrenar ARBOR se empleó una base de datos conformada por 176 ortomosaicos, imágenes captadas
+    por drones.
+- claim: Uses AI algorithms to segment, identify and georeference trees from drone images; in its first
+    stage it was trained to recognise shihuahuaco.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: La herramienta utiliza algoritmos de inteligencia artificial para segmentar, identificar y georreferenciar
+    especies forestales a partir de imágenes obtenidas mediante drones.
+- claim: Trained on an OSINFOR geospatial database of 176 orthomosaics with records of 1,883 trees, more
+    than 700 of them shihuahuaco.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: se empleó una base de datos geoespacial del OSINFOR conformada por 176 ortomosaicos obtenidos
+    en áreas de manejo forestal supervisadas, que incluyen registros de 1883 árboles
+- claim: The University of Sheffield formally handed ARBOR over to the Peruvian state.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: la Universidad de Sheffield realizó la entrega oficial de ARBOR al Estado peruano
+links:
+- type: partners-with
+  to: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Uno de los proyectos recién implementados, en colaboración con investigadores de la universidad
+    de Sheffield (Reino Unido), es ARBOR.
+- type: partners-with
+  to: university-of-sheffield
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Uno de los proyectos recién implementados, en colaboración con investigadores de la universidad
+    de Sheffield (Reino Unido), es ARBOR.
+- type: built-by
+  to: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: La herramienta, desarrollada por el OSINFOR y la Universidad de Sheffield
+- type: built-by
+  to: university-of-sheffield
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: La herramienta, desarrollada por el OSINFOR y la Universidad de Sheffield
+found_by:
+- link-from:organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+added_by: agent
+checked: 2026-11-03

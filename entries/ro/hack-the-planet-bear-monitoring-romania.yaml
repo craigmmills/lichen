@@ -1,0 +1,67 @@
+id: hack-the-planet-bear-monitoring-romania
+kind: project
+name: Real-time bear monitoring with WWF Romania
+also_known_as: []
+scope: ro
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Hack the Planet project dated 2026, with WWF Romania and Sensing Clues, using 4G cameras and
+  a two-stage pipeline of MegaDetector and SpeciesNet to recognise brown bears in real time.
+facts:
+- claim: Uses 4G cameras with a two-stage AI pipeline that recognises brown bears in real time and sends
+    detections to the Sensing Clues platform.
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: 4G cameras with a two-stage AI pipeline that recognise brown bears in real time and push the
+    detections straight into the Sensing Clues platform.
+- claim: The project page dates it to 2026 in Romania.
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: Romania · 2026
+- claim: MegaDetector locates animals in each image and SpeciesNet classifies each cropped detection.
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: SpeciesNet , a second model that classifies each cropped detection
+- claim: WWF teams and researchers analyse the results in the Sensing Clues platform.
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: The results (species, location, timestamp and image context) are pushed into the Sensing Clues
+    platform , where the WWF teams and researchers analyse the data
+links:
+- type: run-by
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: In collaboration with WWF Romania and Sensing Clues , we monitor brown bears in real time across
+    the Romanian forests.
+- type: partners-with
+  to: wwf-romania
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: In collaboration with WWF Romania and Sensing Clues , we monitor brown bears in real time across
+    the Romanian forests.
+- type: partners-with
+  to: sensing-clues
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: In collaboration with WWF Romania and Sensing Clues , we monitor brown bears in real time across
+    the Romanian forests.
+- type: uses
+  to: megadetector
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: MegaDetector , a first model that locates where in the image an animal is and crops out the relevant
+    regions
+- type: uses
+  to: speciesnet
+  url: https://www.hack-the-planet.io/projects/romania-bear-monitoring/
+  fetched: 2026-11-08
+  quote: SpeciesNet , a second model that classifies each cropped detection
+found_by:
+- link-from:hack-the-planet
+added_by: agent
+checked: 2026-11-08

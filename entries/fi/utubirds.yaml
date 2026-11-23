@@ -1,0 +1,32 @@
+id: utubirds
+kind: dataset
+name: Long-term bird breeding time-series (UTUBirds)
+scope: fi
+ai_label: data-infrastructure
+status: active
+summary: Active long-term bird breeding dataset run by the University of Turku, with time series starting
+  in the 1940s and a plan for a new multiuser database.
+website: https://sites.utu.fi/utubirds/en/
+realms:
+- land
+countries:
+- fi
+facts:
+- claim: The oldest time series start from the 1940s.
+  url: https://www.utu.fi/en/research/research-infrastructure
+  fetched: '2026-11-02'
+  quote: oldest time series starting from 1940's
+- claim: The project is to create a new database with a multiuser interface.
+  url: https://www.utu.fi/en/research/research-infrastructure
+  fetched: '2026-11-02'
+  quote: to create a new database with a multiuser interface
+links:
+- type: run-by
+  to: university-of-turku
+  url: https://www.utu.fi/en/research/research-infrastructure
+  fetched: '2026-11-02'
+  quote: University of Turku holds and maintains many valuable long-term datasets on breeding bird populations
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

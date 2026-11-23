@@ -1,0 +1,44 @@
+id: elsa-haiti
+kind: project
+name: ELSA Haïti (Essential Life Support Areas, "cartes de l'espoir")
+scope: ht
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ht
+status: unknown
+summary: UNDP-run programme, described in March 2021, to map nature for people and planet, listing Haiti
+  as a pilot country; its scientific dossier says the Haiti analysis uses the Prioritizr R package.
+facts:
+- claim: In March 2021, UNDP said it was implementing a programme to map nature for people and planet
+    in Haiti.
+  url: https://www.undp.org/fr/node/214376
+  fetched: 2026-11-12
+  quote: Le PNUD met en œuvre un programme de cartographie de la nature pour les personnes et la planète
+    en Haïti
+- claim: UNDP’s March 2021 page lists Haiti among the pilot countries that would create maps to extend
+    the use of spatial data in decision-making.
+  url: https://www.undp.org/fr/node/214376
+  fetched: 2026-11-12
+  quote: Haïti est, avec la Colombie, le Costa Rica, le Kazakhstan, le Pérou, l’Ouganda, le Cambodge et
+    la République Dominicaine, l'un des sept pays pilotes qui créeront ces "cartes de l'espoir"
+- claim: The project's scientific dossier says the ELSA analysis for Haiti uses the Prioritizr R package.
+  url: https://unbiodiversitylab.org/wp-content/uploads/2024/07/ELSA-Haiti-Dossier-scientifique.pdf
+  fetched: 2026-11-12
+  quote: Pour le projet ELSA en Haïti, Prioritizr est utilisé
+links:
+- type: run-by
+  to: united-nations-development-programme
+  url: https://www.undp.org/fr/node/214376
+  fetched: 2026-11-12
+  quote: Le PNUD met en œuvre un programme de cartographie de la nature pour les personnes et la planète
+    en Haïti
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-12

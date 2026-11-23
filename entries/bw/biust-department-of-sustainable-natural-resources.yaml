@@ -1,0 +1,55 @@
+id: biust-department-of-sustainable-natural-resources
+kind: organisation
+name: Department of Sustainable Natural Resources, Botswana International University
+  of Science and Technology
+also_known_as: []
+scope: bw
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: bw
+countries: []
+scale: national
+status: active
+summary: Based at BIUST in Palapye, the department appears as an affiliation in a
+  2025 paper applying Transformer models to national-scale land cover mapping in Botswana
+  using 30-metre Landsat imagery.
+facts:
+- claim: The 2025 paper gives the department's address at BIUST, Palapye.
+  url: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1654692/full
+  fetched: 2026-11-12
+  quote: Department of Sustainable Natural Resources, Botswana International University
+    of Science and Technology — BIUST, Palapye, Botswana
+- claim: The study applies Transformer-based deep learning models to national-scale
+    land use and land cover mapping in Botswana.
+  url: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1654692/full
+  fetched: 2026-11-12
+  quote: This study presents one of the first applications of Transformer-based deep
+    learning models for national‐scale LULC mapping in Botswana.
+  ai_type: deep-learning
+- claim: The study develops a supervised Transformer model using 30-metre Landsat
+    imagery.
+  url: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1654692/full
+  fetched: 2026-11-12
+  quote: This study addresses the challenges of LULC mapping by developing a supervised
+    Transformer model that utilizes Landsat imagery at a 30-m resolution.
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: botswana-international-university-of-science-and-technology
+  url: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1654692/full
+  fetched: 2026-11-12
+  quote: Department of Sustainable Natural Resources, Botswana International University
+    of Science and Technology — BIUST, Palapye, Botswana
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

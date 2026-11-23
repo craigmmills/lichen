@@ -1,0 +1,45 @@
+id: flora-srpske
+kind: dataset
+name: Flora Srpske
+also_known_as: []
+scope: ba
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ba
+status: active
+website: https://florasrpske.rs.ba/
+summary: A dataset on the vascular flora of the Republic of Srpska, built by the University of Banja Luka's
+  Faculty of Forestry, with a GIS database available as a module of the RS nature conservation information
+  system.
+facts:
+- claim: The GIZ BIMR project developed the geospatial functions of the Flora Srpske project, implemented
+    by the Faculty of Forestry of the University of Banja Luka.
+  url: https://e-prirodafbih.ba/giz_en/
+  fetched: 2026-11-12
+  quote: that was implemented by the Faculty of Forestry,
+- claim: A GIS database of the Republic of Srpska flora is available on the RS nature conservation information
+    system as a separate module.
+  url: https://e-prirodafbih.ba/giz_en/
+  fetched: 2026-11-12
+  quote: GIS database of the Republika Srpska flora is available on ISNC RS,
+- claim: Its own site presents it as the vascular flora of the Republic of Srpska.
+  url: https://florasrpske.rs.ba/
+  fetched: 2026-11-12
+  quote: Vaskularna Flora Republike Srpske
+links:
+- type: built-by
+  to: unibl-faculty-of-forestry
+  url: https://e-prirodafbih.ba/giz_en/
+  fetched: 2026-11-12
+  quote: that was implemented by the Faculty of Forestry,
+- type: funded-by
+  to: ministry-of-scientific-and-technological-development-higher-education-and-information-society-rs
+  url: https://e-prirodafbih.ba/giz_en/
+  fetched: 2026-11-12
+  quote: Project was partially funded by Ministry of Scientific and Technological Development,
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

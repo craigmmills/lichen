@@ -1,0 +1,40 @@
+id: kabul-polytechnic-university-department-of-urban-planning
+kind: organisation
+name: Department of Urban Planning, Kabul Polytechnic University
+also_known_as: []
+scope: af
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: local
+status: unknown
+summary: A university department whose affiliated first author appears on a 2022 paper,
+  recorded in OpenAlex, using Landsat imagery to study the Kajaki Dam's effect on
+  vegetation cover in the surrounding basin.
+facts:
+- claim: OpenAlex records a 2022 paper on the Kajaki Dam's effect on vegetation cover
+    in the surrounding basin using Landsat imagery.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:AF,primary_topic.subfield.id:2303,publication_year:2022-2026&select=id,title,publication_year&per-page=50
+  fetched: 2026-11-13
+  quote: 'Impact Investigation of Kajaki Dam on Vegetation Coverage of the Surrounding
+    Basin Using Landsat Satellite Image Processing Method: An Analytical Comparison
+    between 2000 And 2021", "publication_year": 2022'
+- claim: OpenAlex lists the first author of the 2022 paper, Dawod Shah Farooq, with
+    an affiliation to the Department of Urban Planning, Kabul Polytechnic University.
+  url: https://api.openalex.org/works/W4221131371?select=title,authorships,primary_location
+  fetched: 2026-11-13
+  quote: '"raw_author_name":"Dawod Shah Farooq","raw_affiliation_strings":["Department
+    of Urban Planning, Kabul Polytechnic University, KPU Campus, 5th District, Kabul,
+    Afghanistan"'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,55 @@
+id: tsu-biodiversity-research-project
+kind: project
+name: Biodiversity Research project, Tomsk State University
+also_known_as:
+- Проект «Исследование биоразнообразия» Сибирского центра ИИ ТГУ
+- Tomsk State University biodiversity AI project
+scope: ru
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+status: active
+countries:
+- ru
+summary: A university project reporting models trained on 31 Russian species for planned AddaxAI integration,
+  with tools helping Severtsov Institute staff and three protected areas.
+facts:
+- claim: Says its models, trained on 31 Russian species, are designed to fit into the AddaxAI platform.
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Архитектура предполагает интеграцию в платформу AddaxAI моделей, дообученных для классификации
+    31 вида животных РФ на базе уникальных отечественных датасетов
+- claim: Says the tools now help staff of the Severtsov Institute and three protected areas.
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Сейчас эти технологии помогают сотрудникам Института проблем экологии и эволюции им. А.Н. Северцова
+    РАН
+- claim: AI analyses camera-trap and drone images.
+  url: https://hi-tech.mail.ru/news/136661-v-rossii-predlozhili-tehnologichnyj-sposob-izucheniya-redkih-zhivotnyh/
+  quote: ИИ применяется для анализа изображений, полученных с фотоловушек и дронов
+  fetched: '2026-10-31'
+- claim: EcoAssist is one of the tools, customised by Sber with its own models.
+  url: https://hi-tech.mail.ru/news/136661-v-rossii-predlozhili-tehnologichnyj-sposob-izucheniya-redkih-zhivotnyh/
+  quote: это EcoAssist, открытое решение для обработки фото- и видеоданных дикой природы,
+    которое Сбер кастомизировал и дополнил собственными моделями.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: tomsk-state-university
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Проект «Исследование биоразнообразия» Сибирского центра ИИ ТГУ объединяет разработку нескольких
+    программных продуктов
+- type: used-by
+  to: severtsov-institute-of-ecology-and-evolution
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Сейчас эти технологии помогают сотрудникам Института проблем экологии и эволюции им. А.Н. Северцова
+    РАН
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-10-31

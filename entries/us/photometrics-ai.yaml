@@ -1,0 +1,48 @@
+id: photometrics-ai
+kind: organisation
+name: Photometrics AI
+scope: us
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: Product of EvariLABS LLC whose system uses BirdCast forecast data to dim streetlights
+  during peak bird migration.
+facts:
+- claim: Uses BirdCast data to dim streetlights automatically.
+  url: https://birdcast.info/news/
+  fetched: '2026-10-30'
+  quote: Photometrics AI Integrates Data from Bird Migration Forecasts to Automatically Dim
+    Streetlights to Protect Birds
+- claim: Its contact page says it is based in San Diego.
+  url: https://photometrics.ai/contact
+  fetched: '2026-10-31'
+  quote: Based in San Diego, CA.
+- claim: Its about page says Photometrics AI is a product of EvariLABS LLC.
+  url: https://photometrics.ai/about
+  fetched: '2026-10-31'
+  quote: Photometrics AI is a product of EvariLABS LLC , headquartered in the United States.
+- claim: LightNOW reports it has built BirdCast data into its street-lighting system to dim
+    lights automatically.
+  url: https://www.lightnowblog.com/2026/02/streetlight-control-automates-dimming-during-bird-migrations/
+  fetched: '2026-10-31'
+  quote: Photometrics AI has integrated real-time bird migration data from the Cornell Lab
+    of Ornithology's BirdCast platform
+links:
+- type: uses
+  to: birdcast
+  url: https://birdcast.info/news/
+  fetched: '2026-10-30'
+  quote: System uses BirdCast data to enable real-time lighting adjustments
+found_by:
+- link-from:birdcast
+added_by: agent
+checked: '2026-10-30'
+website: https://photometrics.ai/

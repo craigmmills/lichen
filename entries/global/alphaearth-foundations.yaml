@@ -1,0 +1,43 @@
+id: alphaearth-foundations
+kind: model
+name: AlphaEarth Foundations
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+summary: AI model that integrates Earth observation data into embeddings of the planet's terrestrial land and coastal waters, released through the Satellite Embedding dataset in Google Earth Engine.
+ai_types:
+- foundation-models
+facts:
+- claim: Characterises terrestrial land and coastal waters by integrating Earth observation data into one digital representation.
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: &id001 2026-10-30
+  quote: It accurately and efficiently characterizes the planet’s entire terrestrial land and coastal waters by integrating huge amounts of Earth observation data into a unified digital representation
+- claim: Tested with more than 50 organisations before release.
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: *id001
+  quote: Over the past year, we’ve been working with more than 50 organizations to test this dataset on their real-world applications.
+- claim: "Google DeepMind releases AlphaEarth Foundations' annual embeddings as the Satellite Embedding dataset."
+  url: "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/"
+  fetched: "2026-10-31"
+  quote: "we are now releasing a collection of AlphaEarth Foundations’ annual embeddings as the Satellite Embedding dataset in Google Earth Engine"
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: google-deepmind
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: *id001
+  quote: "Today, we’re introducing AlphaEarth Foundations, an artificial intelligence (AI) model that functions like a virtual satellite."
+- type: partners-with
+  to: google-earth-engine
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: *id001
+  quote: This work was a collaboration between teams at Google DeepMind and Google Earth Engine.
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

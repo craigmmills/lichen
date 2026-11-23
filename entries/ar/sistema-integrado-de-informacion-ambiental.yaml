@@ -1,0 +1,33 @@
+id: sistema-integrado-de-informacion-ambiental
+kind: programme
+name: Sistema Integrado de Información Ambiental
+also_known_as:
+- SInIA
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ar
+status: active
+runner: unknown
+summary: A platform where much of the information produced by the National Native
+  Forest Monitoring System is published, and which that system uses.
+facts:
+- claim: The platform where much of the information produced by the National Native
+    Forest Monitoring System (SNMBN) is published.
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente/recursos-naturales/sistema-nacional-de-monitoreo-de-bosques
+  fetched: 2026-11-09
+  quote: El Sistema Integrado de Información Ambiental ( SInIA ) es la plataforma
+    donde se vuelca gran parte de la información generada por el SNMBN.
+links:
+- type: used-by
+  to: sistema-nacional-de-monitoreo-de-bosques-nativos
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente/recursos-naturales/sistema-nacional-de-monitoreo-de-bosques
+  fetched: 2026-11-09
+  quote: El Sistema Integrado de Información Ambiental ( SInIA ) es la plataforma
+    donde se vuelca gran parte de la información generada por el SNMBN.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

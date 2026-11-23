@@ -1,0 +1,60 @@
+id: servicio-nacional-de-pesca-y-acuicultura
+kind: organisation
+name: Servicio Nacional de Pesca y Acuicultura
+also_known_as:
+- Sernapesca
+- SERNAPESCA
+scope: cl
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+website: https://www.sernapesca.cl/
+countries:
+- cl
+scale: national
+status: active
+summary: Government fisheries regulator that agreed in 2019 to make vessel tracking data public
+  on Global Fishing Watch and fined 21 vessels after an analysis of apparent closed-season
+  fishing.
+facts:
+- claim: Global Fishing Watch calls it the government's fisheries and aquaculture regulator.
+  url: https://globalfishingwatch.org/transparency/chile-leadership/
+  fetched: '2026-11-02'
+  quote: The Chilean government’s fisheries and aquaculture regulator, SERNAPESCA, is also
+    using our map to visualize and track vessel positions
+- claim: Agreed in 2019 to make its vessel tracking data public on the Global Fishing Watch
+    map.
+  url: https://globalfishingwatch.org/our-work-in-chile/
+  fetched: '2026-11-02'
+  quote: Our collaboration began in 2019 when Chile’s National Fisheries and Aquaculture Service,
+    or Sernapesca, agreed to make its vessel tracking data publicly available
+- claim: Issued fines to 21 vessels after an analysis of apparent fishing in a closed season.
+  url: https://globalfishingwatch.org/article/data-transparency-and-effective-monitoring-drive-compliance-in-chilean-patagonian-toothfish-fishery/
+  fetched: '2026-11-02'
+  quote: This led to SERNAPESCA issuing fines to 21 vessels
+links:
+- type: partners-with
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/annual-report-2025/
+  fetched: '2026-11-02'
+  quote: our collaboration with Chile’ s National Fisheries and Aquaculture Service (SERNAPESCA)
+    resulted in a September resolution authorizing citizen surveillance
+- type: uses
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/transparency/chile-leadership/
+  fetched: '2026-11-02'
+  quote: is also using our map to visualize and track vessel positions for their fleet
+found_by:
+- checklist:1
+- link-from:global-fishing-watch
+- link-from:queue
+- checklist:7
+added_by: agent
+checked: 2026-11-02

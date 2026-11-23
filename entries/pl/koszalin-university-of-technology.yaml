@@ -1,0 +1,42 @@
+id: koszalin-university-of-technology
+kind: organisation
+name: Koszalin University of Technology
+also_known_as:
+- Politechnika Koszalińska
+scope: pl
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- pl
+scale: national
+status: active
+summary: A university that says it led the scientific consortium which prepared Baltic Sense,
+  and is the first-author affiliation on a 2019 paper, listed by OpenAlex, on classifying
+  airborne LiDAR bathymetry data with random forest.
+facts:
+- claim: Says Baltic Sense was prepared by a scientific consortium led by Koszalin University
+    of Technology.
+  url: https://www.tu.koszalin.pl/art/8821/projekt-baltic-sense-na-polskiej-mapie-infrastruktury-badawczej
+  fetched: 2026-11-08
+  quote: przygotowany przez konsorcjum naukowe, którego liderem jest Politechnika
+- claim: OpenAlex lists a 2019 paper on classifying airborne LiDAR bathymetry data with a
+    random forest algorithm with a first-author affiliation to Koszalin University of Technology.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I108403487,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: CLASSIFICATION OF DATA FROM AIRBORNE LIDAR BATHYMETRY WITH RANDOM FOREST ALGORITHM
+    BASED ON DIFFERENT FEATURE VECTORS
+  ai_type: ml-supervised
+ai_types:
+- ml-supervised
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

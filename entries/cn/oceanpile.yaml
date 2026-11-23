@@ -1,0 +1,37 @@
+id: oceanpile
+kind: dataset
+name: OceanPile
+also_known_as: []
+scope: cn
+ai_label: ai
+realms:
+- ocean
+techniques:
+- other
+ai_types:
+- multimodal
+- foundation-models
+status: active
+summary: Large multimodal corpus of ocean data for training foundation models, from authors
+  at Zhejiang University.
+facts:
+- claim: Abstract names multimodal large language models and the lack of aligned ocean datasets.
+  url: https://arxiv.org/abs/2605.00877
+  fetched: '2026-10-31'
+  quote: Although Multimodal Large Language Models (MLLMs) have achieved remarkable success
+    in general domains
+  ai_type: multimodal
+- claim: Title describes a multimodal ocean corpus for foundation models.
+  url: https://arxiv.org/abs/2605.00877
+  fetched: '2026-10-31'
+  quote: 'OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models'
+  ai_type: foundation-models
+- claim: Abstract names marine biodiversity as part of the case for it.
+  url: https://arxiv.org/abs/2605.00877
+  fetched: '2026-10-31'
+  quote: supporting marine biodiversity
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

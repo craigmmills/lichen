@@ -1,0 +1,118 @@
+id: institute-of-marine-affairs
+kind: organisation
+name: Institute of Marine Affairs
+also_known_as:
+- IMA
+scope: tt
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+hq: tt
+countries:
+- tt
+scale: national
+status: active
+summary: Publishes 15 datasets through GBIF, and built and runs a long-term Tobago coral reef monitoring
+  programme that used CoralNet, including its deep-learning annotation, from 2019 to 2021.
+facts:
+- claim: Its GBIF publisher record says its Biodiversity and Ecology cluster researches wetlands (mangroves
+    and seagrasses), coral reefs and benthic communities.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=50
+  fetched: 2026-11-09
+  quote: The Biodiversity and Ecology conducts fundamental and applied research on wetlands (mangroves
+    and seagrasses), coral reefs, and benthic communities.
+- claim: Its GBIF publisher record says it holds biodiversity and related datasets; the record gives an
+    address at Hilltop Lane, Chaguaramas.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=50
+  fetched: 2026-11-09
+  quote: The Institute of Marine Affairs (IMA) has a collection of biodiversity and related datasets holdings.
+- claim: An article written on behalf of the IMA and published by Cari-Bois says the IMA received a drone
+    in February 2024 for habitat mapping and wildlife monitoring.
+  url: https://caribois.org/?p=3465
+  fetched: 2026-11-09
+  quote: This drone will be utilised to facilitate habitat mapping and wildlife monitoring.
+- claim: An article by an IMA research officer, published by Cari-Bois, asks the public to report coral
+    disease through the IMA's SeaiTT app.
+  url: https://caribois.org/?p=4109
+  fetched: 2026-11-09
+  quote: If you have observed the disease, make a report using the freely available IMA’s SeaiTT app
+- claim: The same article says the IMA received a SPAW RAC small grant in 2024 for a one-year coral disease
+    preparedness project in Tobago.
+  url: https://caribois.org/?p=4109
+  fetched: 2026-11-09
+  quote: In 2024, the Institute of Marine Affairs (IMA) received a small grant from the Specially Protected
+    Areas and Wildlife Regional Activity Centre (SPAW RAC) to conduct a one-year project
+- claim: The planning minister, quoted by TTT News, names the IMA as one of the bodies through which the
+    ministry works on natural resources.
+  url: https://www.ttt.live/?p=109069
+  fetched: 2026-11-09
+  quote: Through the Institute of Marine Affairs (IMA), the Environmental Management Authority (EMA),
+    the Basel Convention Regional Centre for the Caribbean, the Environmental Policy and Planning Division
+    and other local, regional and international partners, the Ministry is poised
+- claim: Its GBIF publisher record describes research on wetlands, coral reefs and benthic communities.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: The Biodiversity and Ecology conducts fundamental and applied research on wetlands (mangroves
+    and seagrasses), coral reefs, and benthic communities.
+- claim: Its GBIF publisher record gives an address in Chaguaramas, Trinidad and Tobago.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: '"address":["Hilltop Lane"],"city":"Chaguaramas","country":"TT"'
+- claim: Its GBIF publisher record gives a homepage on the Trinidad and Tobago government domain (gov.tt).
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: '"homepage":["https://www.ima.gov.tt"]'
+- claim: Publishes 15 datasets through GBIF.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: '"numPublishedDatasets":15'
+- claim: Established a long-term coral reef monitoring programme in Tobago; its image analysis used CoralNet
+    from 2019 to 2021, including deep-learning annotation.
+  url: https://api.gbif.org/v1/dataset/d4b2cffe-c429-4733-89d3-ef01e74bf052
+  fetched: '2026-11-09'
+  quote: The long-term coral reef monitoring programme was established by the Institute of Marine Affairs
+    to establish baseline surveys of coral reef health throughout Tobago.
+- claim: Its GBIF publisher record gives an address at Hilltop Lane, Chaguaramas, and describes research
+    on wetlands, mangroves, seagrasses, coral reefs and benthic communities.
+  url: https://api.gbif.org/v1/organization/215671db-9a23-4cb0-9d3b-060dc7d7c65d
+  fetched: 2026-11-09
+  quote: The Biodiversity and Ecology conducts fundamental and applied research on wetlands (mangroves
+    and seagrasses), coral reefs, and benthic communities.
+- claim: From 2019 to 2021 its reef images were uploaded to its own CoralNet database and annotated there,
+    with CoralNet's deep-learning tool annotating points above 75% confidence.
+  url: https://api.gbif.org/v1/dataset/d4b2cffe-c429-4733-89d3-ef01e74bf052
+  fetched: 2026-11-09
+  quote: Images were uploaded to the IMA’s CoralNet database and the metadata was inputted.
+- claim: The dataset record names the Government of Trinidad and Tobago as the funder of the coral reef
+    monitoring project data.
+  url: https://api.gbif.org/v1/dataset/d4b2cffe-c429-4733-89d3-ef01e74bf052
+  fetched: 2026-11-09
+  quote: '"funding":"Government of Trinidad and Tobago"'
+links:
+- type: runs
+  to: ima-coral-reef-monitoring-programme-tobago
+  url: https://api.gbif.org/v1/dataset/d4b2cffe-c429-4733-89d3-ef01e74bf052
+  fetched: &id001 2026-11-09
+  quote: The IMA has ten coral reef monitoring sites geographically spread across Tobago.
+- type: uses
+  to: coralnet
+  url: https://api.gbif.org/v1/dataset/d4b2cffe-c429-4733-89d3-ef01e74bf052
+  fetched: 2026-11-09
+  quote: From 2019 to 2021, CPC method was done on CoralNet Platform (coralnet.ucsd.edu).
+- type: builds
+  to: ima-coral-reef-monitoring-programme-tobago
+  url: https://api.gbif.org/v1/dataset/d4b2cffe-c429-4733-89d3-ef01e74bf052
+  fetched: *id001
+  quote: The long-term coral reef monitoring programme was established by the Institute of Marine Affairs
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-09

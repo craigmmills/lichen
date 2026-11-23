@@ -1,0 +1,56 @@
+id: estonian-naturalists-society
+kind: organisation
+name: Estonian Naturalists' Society
+also_known_as:
+- Eesti Looduseuurijate Selts
+scope: ee
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: ee
+countries:
+- ee
+scale: national
+status: active
+website: https://www.elus.ee
+summary: Active society that says its network of trustees across Estonia supports observations, and whose
+  GBIF dataset holds citizen science observations, monitoring data and Atlas of Estonian Flora data.
+facts:
+- claim: Says its network of trustees across Estonia allows it to conduct observations and use the data
+    in research.
+  url: https://www.elus.ee/index.php/en/about-ens/
+  fetched: 2026-11-08
+  quote: The Society’s network of trustees all over Estonia allows conducting observations and the application
+    of collected data in scientific research.
+- claim: Its GBIF dataset holds citizen science observations, data from biodiversity monitoring projects
+    and Atlas of Estonian Flora data.
+  url: https://api.gbif.org/v1/organization/d2519a48-9ed7-4e86-8692-338cfc214629/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Citizen science biodiversity observations, various data from biodiversity monitoring projects,
+    Atlas of Estonian Flora data etc
+- claim: Its GBIF registry record gives an address in Tartu, Estonia.
+  url: https://api.gbif.org/v1/organization/d2519a48-9ed7-4e86-8692-338cfc214629
+  fetched: 2026-11-08
+  quote: '"city":"Tartu","country":"EE","postalCode":"51003"'
+- claim: Lists organising nature observations among its primary work formats.
+  url: https://www.elus.ee/index.php/en/about-ens/
+  fetched: 2026-11-08
+  quote: The Society’s primary work formats are organizing scientific studies, conferences, seminars and
+    discussions, tours and nature observations
+- claim: Its dataset on GBIF is described as citizen science observations, data from biodiversity monitoring
+    projects and Atlas of Estonian Flora data.
+  url: https://api.gbif.org/v1/organization/d2519a48-9ed7-4e86-8692-338cfc214629/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Citizen science biodiversity observations, various data from biodiversity monitoring projects,
+    Atlas of Estonian Flora data etc
+links: []
+found_by:
+- queue:ee
+- link-from:gbif-estonia
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,53 @@
+id: ngorongoro-lion-monitoring-program
+kind: programme
+name: Ngorongoro Lion Monitoring Program
+scope: tz
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- tz
+status: active
+summary: Programme run by KopeLion that individually identifies and monitors lions
+  in the conservation area, with GPS collars on a few; zoo scientists are helping
+  move its data into PopLink.
+facts:
+- claim: The Ngorongoro Conservation Area Authority's research page says the lion
+    monitoring programme individually identifies and monitors lions in the conservation
+    area's strongholds.
+  url: https://www.ncaa.go.tz/research-and-monitoring/
+  fetched: 2026-11-09
+  quote: The Lion Monitoring Program has maintained regular and long-term demography
+    monitoring of the NCA’s lion strongholds, Ngorongoro Crater subpopulations, and
+    the Ndutu/Masek region.
+- claim: The same page says GPS collars are fitted to a few lions in the multiple-use
+    areas to study fine-scale movement.
+  url: https://www.ncaa.go.tz/research-and-monitoring/
+  fetched: 2026-11-09
+  quote: We implant GPS collars on a few individuals in NCA’s multiuse areas to study
+    lions’ behavior through fine scale movement patterns.
+- claim: Lincoln Park Zoo says KopeLion monitors individually recognised lions to
+    add to a long-term database and that zoo scientists are helping move the data
+    into PopLink, software the zoo designed.
+  url: https://www.lpzoo.org/science-project/collaborating-to-conserve-lions/collaborating-with-kopelion/
+  fetched: 2026-11-09
+  quote: KopeLion continues to monitor the population of individually recognized lions
+    to augment its long-term database, which provides vital information on the population
+    dynamics of lions across the area.
+links:
+- type: run-by
+  to: kopelion
+  url: https://www.ncaa.go.tz/research-and-monitoring/
+  fetched: 2026-11-09
+  quote: Conducted by the Ngorongoro Lion Project – Kopelion .
+- type: partners-with
+  to: lincoln-park-zoo
+  url: https://www.lpzoo.org/science-project/collaborating-to-conserve-lions/collaborating-with-kopelion/
+  fetched: 2026-11-09
+  quote: Scientists in the zoo’s Alexander Center for Applied Population Biology are
+    working with KopeLion to help modernize data collection and storage of this important
+    dataset using PopLink
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,45 @@
+id: inpa-observations
+kind: dataset
+name: INPA - Observations
+also_known_as:
+- Israel Nature and Parks Authority - Observations
+scope: il
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- il
+status: active
+runner: unknown
+summary: A GBIF dataset of Israel Nature and Parks Authority observations, with about
+  2.4 million occurrence records covering Israel, the Palestinian authority, Sinai
+  and the Mediterranean Sea, maintained continually under a CC BY-NC 4.0 licence.
+facts:
+- claim: GBIF describes the dataset as Israel Nature and Parks Authority observations.
+  url: https://api.gbif.org/v1/dataset/6c8d87be-829d-4364-b2bc-578258761cc2
+  fetched: 2026-11-12
+  quote: Israel Nature and Parks Authority - Observations
+- claim: It holds about 2.4 million occurrence records.
+  url: https://api.gbif.org/v1/dataset/6c8d87be-829d-4364-b2bc-578258761cc2
+  fetched: 2026-11-12
+  quote: '"occurrenceCount":2389725'
+- claim: Its geographic coverage is Israel, the Palestinian authority, Sinai and the
+    Mediterranean Sea.
+  url: https://api.gbif.org/v1/dataset/6c8d87be-829d-4364-b2bc-578258761cc2
+  fetched: 2026-11-12
+  quote: Israel, Palestinian authority, Sinai and Mediterranean sea
+- claim: It is maintained continually and published under a CC BY-NC 4.0 licence.
+  url: https://api.gbif.org/v1/dataset/6c8d87be-829d-4364-b2bc-578258761cc2
+  fetched: 2026-11-12
+  quote: '"maintenanceUpdateFrequency":"CONTINUALLY"'
+- claim: Its archive is served from the BioGIS IPT.
+  url: https://api.gbif.org/v1/dataset/6c8d87be-829d-4364-b2bc-578258761cc2
+  fetched: 2026-11-12
+  quote: https://biogis.huji.ac.il/ipt/archive.do?r=inpa-observations
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

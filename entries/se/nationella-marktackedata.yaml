@@ -1,0 +1,60 @@
+id: nationella-marktackedata
+kind: dataset
+name: Nationella marktäckedata
+also_known_as:
+- NMD
+- National Land Cover Data
+scope: se
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- se
+status: active
+website: https://geodata.naturvardsverket.se
+runner: unknown
+summary: Nationwide land cover dataset built by Naturvårdsverket and Metria from satellite,
+  laser and thematic data, with classes rising from 25 in NMD2018 to 54 in NMD2023.
+facts:
+- claim: A complete mapping of Sweden based on satellite, laser and thematic data.
+  url: https://geodata.naturvardsverket.se/nedladdning/marktacke/NMD2023/Basskikt_v2_x/Kvalitetsutv%C3%A4rdering_33VWC_NMD2023bas_v2_0.pdf
+  fetched: '2026-11-02'
+  quote: Nationella marktäckedata (NMD) är en heltäckande kartering av Sverige baserad
+    på satellitdata, flygburen laserdata och tematiska kartdata från olika myndigheter.
+- claim: Classes increased from 25 in NMD2018 to 54 in NMD2023.
+  url: https://geodata.naturvardsverket.se/nedladdning/marktacke/NMD2023/Basskikt_v2_x/Kvalitetsutv%C3%A4rdering_33VWC_NMD2023bas_v2_0.pdf
+  fetched: '2026-11-02'
+  quote: Bland annat har antalet klasser utökats från 25 i NMD2018 till 54 i NMD2023.
+- claim: A nationwide land cover mapping.
+  url: https://www.naturvardsverket.se/verktyg-och-tjanster/kartor-och-karttjanster/nationella-marktackedata/
+  fetched: '2026-11-02'
+  quote: Naturvårdsverket har i samarbete med flera svenska myndigheter och organisationer
+    tagit fram en rikstäckande kartering.
+- claim: Metria says it combined Sentinel-2 images with laser and map data.
+  url: https://metria.se/kunskap/sveriges-marktacke-kartlaggs-genom-nationella-marktackedata/
+  fetched: '2026-11-02'
+  quote: De optiska satellitbilderna kombinerades med laserdata och befintliga kartdata
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: built-by
+  to: swedish-environmental-protection-agency
+  url: https://www.naturvardsverket.se/verktyg-och-tjanster/kartor-och-karttjanster/nationella-marktackedata/
+  fetched: '2026-11-02'
+  quote: Naturvårdsverket har i samarbete med flera svenska myndigheter och organisationer
+    tagit fram en rikstäckande kartering.
+- type: built-by
+  to: metria
+  url: https://metria.se/kunskap/sveriges-marktacke-kartlaggs-genom-nationella-marktackedata/
+  fetched: '2026-11-02'
+  quote: Metria har på uppdrag av Naturvårdsverket genomfört den nationella marktäckekarteringen
+- type: builds-on
+  to: sentinel-2
+  url: https://metria.se/kunskap/sveriges-marktacke-kartlaggs-genom-nationella-marktackedata/
+  fetched: '2026-11-02'
+  quote: inhämta och bearbeta extremt stora datamängder från satelliten Sentinel-2

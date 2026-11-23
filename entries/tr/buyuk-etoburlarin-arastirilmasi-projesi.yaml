@@ -1,0 +1,48 @@
+id: buyuk-etoburlarin-arastirilmasi-projesi
+kind: project
+name: Büyük Etoburların Araştırılması Projesi
+scope: tr
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- tr
+status: active
+summary: KuzeyDoğa's large carnivore research project, which a July 2022 report says had 45 camera traps
+  around Sarıkamış, with data collected every six months.
+facts:
+- claim: A July 2022 Anadolu Agency report says 45 camera traps had been placed in Allahuekber Mountains
+    National Park forest and nearby sites around Sarıkamış.
+  url: https://mobile.aa.com.tr/tr/bilim-teknoloji/kars-ormanlarindaki-fotokapanlar-bilimsel-calismalara-isik-tutuyor/2634666
+  fetched: 2026-11-03
+  quote: fotoğraf ve video çekebilen 45 fotokapan yerleştirildi.
+- claim: In the July 2022 report, KuzeyDoğa’s science coordinator said the society collected data from
+    the camera traps every six months.
+  url: https://mobile.aa.com.tr/tr/bilim-teknoloji/kars-ormanlarindaki-fotokapanlar-bilimsel-calismalara-isik-tutuyor/2634666
+  fetched: 2026-11-03
+  quote: Altı ayda bir fotokapanlardan veri aldıklarını ifade eden Çoban
+links:
+- type: run-by
+  to: kuzeydoga-dernegi
+  url: https://mobile.aa.com.tr/tr/bilim-teknoloji/kars-ormanlarindaki-fotokapanlar-bilimsel-calismalara-isik-tutuyor/2634666
+  fetched: &id001 2026-11-03
+  quote: KuzeyDoğa Derneği Bilim Koordinatörü Emrah Çoban, AA muhabirine, KuzeyDoğa Derneği, Doğa Koruma
+    Milli Parklar Genel Müdürlüğü (DKMP), Kafkas, Utah ve Boğaziçi Üniversiteleri ile ortaklaşa gerçekleştirilen
+    projeyle yaban hayatını izleme ve araştırmaya devam ettiklerini söyledi.
+- type: partners-with
+  to: doga-koruma-ve-milli-parklar-genel-mudurlugu
+  url: https://mobile.aa.com.tr/tr/bilim-teknoloji/kars-ormanlarindaki-fotokapanlar-bilimsel-calismalara-isik-tutuyor/2634666
+  fetched: 2026-11-03
+  quote: KuzeyDoğa Derneği, Doğa Koruma Milli Parklar Genel Müdürlüğü (DKMP), Kafkas, Utah ve Boğaziçi
+    Üniversiteleri ile ortaklaşa gerçekleştirilen projeyle
+- type: built-by
+  to: kuzeydoga-dernegi
+  url: https://mobile.aa.com.tr/tr/bilim-teknoloji/kars-ormanlarindaki-fotokapanlar-bilimsel-calismalara-isik-tutuyor/2634666
+  fetched: *id001
+  quote: Kars KuzeyDoğa Derneği tarafından 2006 yılında başlatılan "Büyük Etoburların Araştırılması Projesi"
+    kapsamında
+found_by:
+- checklist:7
+- link-from:kuzeydoga-dernegi
+added_by: agent
+checked: 2026-11-03

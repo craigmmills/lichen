@@ -1,0 +1,51 @@
+id: monitor-de-incendios-forestales-en-tiempo-real-acofop
+kind: programme
+name: Monitor de Incendios Forestales en Tiempo Real
+also_known_as: []
+scope: gt
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gt
+status: active
+summary: ACOFOP's surveillance and early warning system, built and run by ACOFOP,
+  uses NASA FIRMS data to detect heat points and, it says, protects over 15 management
+  units and concessions in the Maya Biosphere Reserve.
+facts:
+- claim: ACOFOP describes the system as its surveillance and early warning system
+    for monitoring heat points and preventing forest fires in the Maya Biosphere Reserve.
+  url: https://portal.acofop.org/views/incendios_dashboard.php
+  fetched: 2026-11-15
+  quote: Sistema de Vigilancia y Alerta Temprana de ACOFOP (Asociación de Comunidades
+    Forestales de Petén) para el monitoreo de focos de calor y prevención de incendios
+    forestales en la Reserva de la Biosfera Maya, Guatemala.
+- claim: The page says it uses NASA FIRMS (VIIRS and MODIS) data for early detection
+    of thermal signatures.
+  url: https://portal.acofop.org/views/incendios_dashboard.php
+  fetched: 2026-11-15
+  quote: Utilizamos datos de alta resolución de la red NASA FIRMS (VIIRS/MODIS) para
+    la detección temprana de firmas térmicas.
+- claim: The page says the system protects more than 15 management units and community
+    forest concessions.
+  url: https://portal.acofop.org/views/incendios_dashboard.php
+  fetched: 2026-11-15
+  quote: Este sistema protege más de 15 unidades de manejo y concesiones forestales
+    comunitarias.
+links:
+- type: built-by
+  to: asociacion-de-comunidades-forestales-de-peten
+  url: https://portal.acofop.org/views/incendios_dashboard.php
+  fetched: 2026-11-15
+  quote: Desarrollado y operado por ACOFOP para la sostenibilidad de los bosques peteneros.
+- type: run-by
+  to: asociacion-de-comunidades-forestales-de-peten
+  url: https://portal.acofop.org/views/incendios_dashboard.php
+  fetched: 2026-11-15
+  quote: Desarrollado y operado por ACOFOP
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

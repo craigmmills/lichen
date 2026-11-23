@@ -1,0 +1,81 @@
+id: norwegian-polar-institute
+kind: organisation
+name: Norwegian Polar Institute
+also_known_as:
+- Norsk Polarinstitutt
+- NPI
+scope: 'no'
+summary: Tromsø-based body for Arctic and Antarctic research, mapping and monitoring that
+  runs SEAPOP; authors from it wrote in 2026 of five years developing drone survey methods
+  for marine mammals.
+facts:
+- claim: MOSJ says its Section for Environmental Management is the secretariat and has principal
+    responsibility for the system.
+  url: https://mosj.no/en/about-mosj/
+  fetched: '2026-11-02'
+  quote: The Section for Environmental Management at the Norwegian Polar Institute is the
+    secretariat for MOSJ
+- claim: SEAPOP says all its work is organised and conducted by staff at NINA and this institute.
+  url: https://seapop.no/en/about/
+  fetched: '2026-11-02'
+  quote: All work within SEAPOP is organized and conducted by personnel at the Norwegian Institute
+    for Nature Research (NINA) and the Norwegian Polar Institute (NPI).
+- claim: GBIF's publisher record says it carries out research, mapping and environmental monitoring
+    in the Arctic and the Antarctic.
+  url: https://api.gbif.org/v1/organization/ad07600d-5425-43e2-9175-0353bb6d40a2
+  fetched: '2026-11-02'
+  quote: carries out scientific research, mapping and environmental monitoring in the Arctic
+    and the Antarctic
+- claim: The record says it is Norway's competent environmental authority in Antarctica.
+  url: https://api.gbif.org/v1/organization/ad07600d-5425-43e2-9175-0353bb6d40a2
+  fetched: '2026-11-02'
+  quote: is Norway’s competent environmental authority in Antarc
+- claim: The record gives an address in Tromsø.
+  url: https://api.gbif.org/v1/organization/ad07600d-5425-43e2-9175-0353bb6d40a2
+  fetched: '2026-11-02'
+  quote: '"city":"Tromsø"'
+- claim: In Fram Forum 2026, authors from the institute said it had spent the preceding five
+    years developing drone survey methods for marine mammals.
+  url: https://framforum.com/2026/03/12/use-of-drones-and-ai-for-monitoring-ringed-seal-abundance-in-svalbard/
+  fetched: '2026-11-02'
+  quote: Over the past five years, the Norwegian Polar Institute has been developing the techniques,
+    methodologies and field competence to survey marine mammals using drones.
+- claim: Its GBIF publisher record says it is Norway's competent environmental authority in
+    Antarctica.
+  url: https://api.gbif.org/v1/organization/ad07600d-5425-43e2-9175-0353bb6d40a2
+  fetched: &id001 2026-11-02
+  quote: is Norway’s competent environmental authority in Antarctica
+- claim: The GBIF publisher record gives its address in Tromsø, Norway.
+  url: https://api.gbif.org/v1/organization/ad07600d-5425-43e2-9175-0353bb6d40a2
+  fetched: *id001
+  quote: '"city":"Tromsø","country":"NO"'
+links:
+- type: runs
+  to: seapop
+  url: https://seapop.no/en/about/
+  fetched: '2026-11-02'
+  quote: All work within SEAPOP is organized and conducted by personnel at the Norwegian Institute
+    for Nature Research (NINA) and the Norwegian Polar Institute (NPI).
+found_by:
+- checklist:2
+- queue:no
+- checklist:7
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: government
+roles:
+- supplies-data
+- governs
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+- land
+countries:
+- 'no'
+techniques:
+- computer-vision

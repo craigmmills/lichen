@@ -1,0 +1,47 @@
+id: grevys-zebra-trust
+kind: organisation
+name: Grevy's Zebra Trust
+scope: ke
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: ke
+countries:
+- ke
+scale: national
+status: active
+website: https://www.grevyszebratrust.org
+summary: Conservation organisation for Grevy's zebra that publishes the Great Grevy's Rally
+  photographic census.
+facts:
+- claim: Publishes the account of the Great Grevy's Rally on its site.
+  url: https://www.grevyszebratrust.org/great-grevys-rally/
+  quote: dubbed the Great Grevy’s Rally
+  fetched: '2026-10-30'
+- claim: Says its field headquarters are in Westgate Conservancy, with an office in Nairobi.
+  url: https://www.grevyszebratrust.org/about-us/
+  fetched: '2026-10-31'
+  quote: Our field headquarters are in Westgate Conservancy and we have an administrative
+    office at the IUCN office complex in Nairobi.
+- claim: On the Rally's organising committee.
+  url: https://www.grevyszebratrust.org/great-grevys-rally/
+  fetched: '2026-10-30'
+  quote: 'GGR Organizing Committee : Batuk, Grevy''s Zebra Trust, Kenya Wildlife Service'
+found_by:
+- checklist:4
+- link-from:wild-me-lab
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- computer-vision
+links:
+- type: partners-with
+  to: great-grevys-rally
+  url: https://www.the-star.co.ke/news/2024-01-25-grevys-zebra-census-to-be-conducted-over-the-weekend
+  fetched: '2026-10-31'
+  quote: The Great Grevy’s Rally organising committee comprises Batuk, Grevy’s Zebra Trust,
+    Kenya Wildlife Service

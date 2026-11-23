@@ -1,0 +1,138 @@
+id: forest-research-institute-poland
+kind: organisation
+name: Forest Research Institute (Poland)
+also_known_as:
+- Instytut Badawczy Leśnictwa
+- IBL
+scope: pl
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pl
+scale: national
+status: active
+website: https://www.ibles.pl
+summary: A Polish institute founded in 1930 and supervised by the climate and environment
+  minister, whose Department of Geomatics develops remote sensing methods, and which runs
+  LIFE+ ForBioSensing and MoniFun-PL and builds ALSGator.
+facts:
+- claim: The Department of Geomatics develops remote sensing and GIS methods to monitor the
+    condition and dynamics of forest areas.
+  url: https://www.ibles.pl/?p=17214
+  fetched: '2026-11-02'
+  quote: Development and development of remote sensing and GIS data analysis methods to monitor
+    the condition and dynamics of forest areas.
+- claim: Its Department of Geomatics wrote an expert report for the Chief Inspectorate of
+    Environmental Protection on using satellite data in nature monitoring.
+  url: https://siedliska.gios.gov.pl/images/pliki_pdf/publikacje/Raporty%20i%20ekspertyzy/Wykorzystanie_danych_satelitarnych-ekspertyza.pdf
+  fetched: '2026-11-02'
+  quote: Ekspertyza na temat możliwości wykorzystania danych satelitarnych w monitoringu przyrodniczym
+- claim: It was the beneficiary of LIFE+ ForBioSensing.
+  url: https://www.ibles.pl/en/project/life-forbiosensing-pl/
+  fetched: '2026-11-02'
+  quote: Beneficiary Forest Research Institute
+- claim: Its head office is at Sękocin Stary.
+  url: https://www.ibles.pl/o-nas/kontakt/
+  fetched: '2026-11-02'
+  quote: Sękocin Stary, ul. Braci Leśnej nr 3 05-090 Raszyn
+- claim: Founded in 1930 and supervised by the Minister of Climate and Environment.
+  url: https://www.ibles.pl/o-nas/
+  fetched: '2026-11-02'
+  quote: działający obecnie pod nadzorem Ministra Klimatu i Środowiska
+- claim: Its project list includes monitoring of forest health for 2026 to 2028 under the
+    State Environmental Monitoring programme.
+  url: https://www.ibles.pl/projekty/
+  fetched: '2026-11-02'
+  quote: Projekt realizowany w ramach Państwowego Monitoringu Środowiska
+- claim: The institute carries out all work packages of MoniFun-PL.
+  url: https://www.ibles.pl/projekt/walidacja-integracji-uczenia-federacyjnego-i-teledetekcji-w-mapowaniu-wielofunkcyjnosci-lasow-w-polsce-monifun-pl/
+  fetched: '2026-11-02'
+  quote: Instytut Badawczy Leśnictwa odpowiada za pełną realizację wszystkich pakietów roboczych.
+- claim: A project task trains a temporal CNN, a deep neural network, in a federated way with
+    the Flower framework.
+  url: https://www.ibles.pl/projekt/walidacja-integracji-uczenia-federacyjnego-i-teledetekcji-w-mapowaniu-wielofunkcyjnosci-lasow-w-polsce-monifun-pl/
+  fetched: '2026-11-02'
+  quote: Rozproszone trenowanie modelu głębokiej sieci neuronowej (czasowego CNN) z wykorzystaniem
+    środowiska Flower
+  ai_type: deep-learning
+- claim: The institute has offices at Sękocin Stary and Białowieża.
+  url: https://www.ibles.pl/projekt/life-forbiosensing-pl/
+  fetched: '2026-11-02'
+  quote: w placówkach Instytutu Badawczego Leśnictwa w Sękocinie Starym oraz w Białowieży
+- claim: Lists MoniFun-PL, on federated learning and remote sensing for forest mapping, among
+    its international projects.
+  url: http://www.ibles.pl/
+  quote: Validation of Federated Learning and Remote Sensing Integration for Forest Multifunctionality
+    Mapping in Poland (MoniFun-PL)
+  fetched: '2026-11-02'
+- claim: One of the stated tasks of MoniFun-PL is to train a deep neural network model.
+  url: https://www.ibles.pl/en/project/validation-of-federated-learning-and-remote-sensing-integration-for-forest-multifunctionality-mapping-in-poland-monifun-pl/
+  quote: Train a deep neural network model (temporal Convolutional Neural Network, CNN)
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: Two authors at the institute are among the 15 authors of a 2025 paper on filling
+    gaps in airborne laser data with multi-task neural networks.
+  url: https://api.openalex.org/works/W4415535622?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Bridging spatio-temporal gaps in ALS data using Landsat time series and forest disturbance-recovery
+    metrics via multi-task neural networks
+  fetched: '2026-11-02'
+- claim: Says the Forest Research Institute is responsible for all four work packages of MoniFun-PL.
+  url: https://www.ibles.pl/en/project/validation-of-federated-learning-and-remote-sensing-integration-for-forest-multifunctionality-mapping-in-poland-monifun-pl/
+  fetched: 2026-11-08
+  quote: The Forest Research Institute (IBL) is responsible for the implementation of all
+    four work packages.
+- claim: MoniFun-PL aims to train a temporal convolutional neural network using the Flower
+    federated learning framework to model growing stock volume.
+  url: https://www.ibles.pl/en/project/validation-of-federated-learning-and-remote-sensing-integration-for-forest-multifunctionality-mapping-in-poland-monifun-pl/
+  fetched: 2026-11-08
+  quote: Train a deep neural network model (temporal Convolutional Neural Network, CNN) using
+    the Flower federated learning framework
+  ai_type: deep-learning
+links:
+- type: runs
+  to: life-forbiosensing
+  url: https://www.ibles.pl/en/project/life-forbiosensing-pl/
+  fetched: '2026-11-02'
+  quote: ForBioSensing project is carried out by substantive and administrative staff in the
+    Forest Research Institute in Sękocin and in Bialowieza.
+- type: partners-with
+  to: european-association-of-remote-sensing-laboratories
+  url: https://earsel.org/members/page/3
+  fetched: '2026-11-02'
+  quote: Department of Geomatics Forest Research Institute (IBL) Poland
+- type: partners-with
+  to: natura-2000-management-and-monitoring-system-poland
+  url: https://projekty-rozwojowe.lasy.gov.pl/en/projekty-rozwojowe/-/asset_publisher/7PcENrBXlBZJ/content/system-zarzadzania-i-monitoringu-obszarow-natura-2000
+  fetched: '2026-11-02'
+  quote: Partnerami projektu są Instytut Badawczy Leśnictwa i Rejonowy Zarząd Infrastruktury
+    w Krakowie
+- type: runs
+  to: monifun-pl
+  url: https://www.ibles.pl/projekt/walidacja-integracji-uczenia-federacyjnego-i-teledetekcji-w-mapowaniu-wielofunkcyjnosci-lasow-w-polsce-monifun-pl/
+  fetched: '2026-11-02'
+  quote: Instytut Badawczy Leśnictwa odpowiada za pełną realizację wszystkich pakietów roboczych.
+- type: builds
+  to: alsgator
+  url: https://www.bdl.lasy.gov.pl/portal/alsgator?v=4
+  fetched: '2026-11-02'
+  quote: została opracowana przez zespół z Zakładu Geomatyki Instytutu Badawczego Leśnictwa
+- type: leads
+  to: digital-nature-valuation-maps-poland
+  url: https://www.ibles.pl/projekt/panstwowe-zasoby-cyfrowych-map-waloryzacji-przyrodniczej-polski-etap-i/
+  fetched: 2026-11-08
+  quote: Instytut Badawczy Leśnictwa – Lider
+found_by:
+- checklist:3
+- link-from:european-association-of-remote-sensing-laboratories
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+ai_types:
+- deep-learning

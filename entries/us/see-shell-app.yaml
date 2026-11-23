@@ -1,0 +1,45 @@
+id: see-shell-app
+kind: project
+name: SEE Shell app
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://www.seeturtles.org/see-shell
+summary: A machine learning app built by SEE Turtles that identifies tortoiseshell
+  products from photos, launched in March 2022 and reported as 90 to 93 percent accurate.
+facts:
+- claim: Uses machine learning to identify tortoiseshell products from photos. These
+    products are illegal in most places.
+  url: https://www.seeturtles.org/see-shell
+  fetched: 2026-11-21
+  quote: these products that are illegal in most places
+- claim: Photos taken with the app feed a study of the trade and its hotspots.
+  url: https://www.seeturtles.org/see-shell
+  fetched: 2026-11-21
+  quote: you’ll also contribute to studying the trade and identifying hotspots for
+    these products.
+- claim: Launched in March 2022 and reported as 90 to 93 percent accurate.
+  url: https://www.seeturtles.org/turtle-blog/2022-review
+  fetched: 2026-11-21
+  quote: The app is between 90-93% accurate in telling which products are or are not
+    tortoiseshell.
+- claim: WWF Australia shared tortoiseshell images to train the machine learning model.
+  url: https://www.seeturtles.org/turtle-blog/2022-review
+  fetched: 2026-11-21
+  quote: starting with their office sharing tortoiseshell images to train the machine
+    learning model.
+links:
+- type: built-by
+  to: see-turtles
+  url: https://www.seeturtles.org/turtle-blog/2022-review
+  fetched: 2026-11-21
+  quote: Working with partners around the world, we created the app, tested it in
+    multiple locations
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

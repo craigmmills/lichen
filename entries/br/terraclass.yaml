@@ -1,0 +1,57 @@
+id: terraclass
+kind: project
+name: TerraClass
+scope: br
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Joint INPE and Embrapa project that has mapped since 2011 what has replaced deforested
+  land in the Amazon and Cerrado.
+facts:
+- claim: Since 2011 the project has mapped what activity occupied deforested areas detected
+    by PRODES.
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/terraclass-divulga-dados-atualizados-sobre-cobertura-e-uso-da-terra-no-bioma-amazonia
+  fetched: '2026-10-30'
+  quote: Desde 2011, o projeto TerraClass produz mapeamentos sistemáticos que qualificam o
+    desmatamento
+- claim: Structured in 2010 to meet a federal government need to qualify deforestation.
+  url: https://www.terraclass.gov.br/o-projeto
+  fetched: '2026-10-30'
+  quote: O Projeto TerraClass foi estruturado em 2010
+- claim: Its land-use data released in August 2024 was produced using the Brazil Data Cube.
+  url: https://www.obt.inpe.br/OBT/noticias-obt-inpe/mapeamento-de-uso-e-cobertura-da-terra-do-projeto-terraclass-utiliza-a-plataforma-brazil-data-cube
+  fetched: '2026-10-30'
+  quote: foram produzidos utilizando a Plataforma Brazil Data Cube (BDC) desenvolvida pelo
+    INPE
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/terraclass-divulga-dados-atualizados-sobre-cobertura-e-uso-da-terra-no-bioma-amazonia
+  fetched: '2026-10-30'
+  quote: plataforma GeoPortal TerraClass, parceria entre INPE e Embrapa
+- type: partners-with
+  to: empresa-brasileira-de-pesquisa-agropecuaria
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/terraclass-divulga-dados-atualizados-sobre-cobertura-e-uso-da-terra-no-bioma-amazonia
+  fetched: '2026-10-30'
+  quote: plataforma GeoPortal TerraClass, parceria entre INPE e Embrapa
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://www.terraclass.gov.br/o-projeto
+  fetched: '2026-10-30'
+  quote: Empresa Brasileira de Pesquisa Agropecuária (Embrapa) e do Instituto Nacional de
+    Pesquisas Espaciais (Inpe)
+- type: run-by
+  to: empresa-brasileira-de-pesquisa-agropecuaria
+  url: https://www.terraclass.gov.br/o-projeto
+  fetched: '2026-10-30'
+  quote: Empresa Brasileira de Pesquisa Agropecuária (Embrapa) e do Instituto Nacional de
+    Pesquisas Espaciais (Inpe)
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

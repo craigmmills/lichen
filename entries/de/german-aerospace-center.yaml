@@ -1,0 +1,86 @@
+id: german-aerospace-center
+kind: organisation
+name: German Aerospace Center
+also_known_as:
+- Deutsches Zentrum für Luft- und Raumfahrt
+- DLR
+- German Aerospace Center
+- Deutsche Raumfahrtagentur im DLR
+sector: government
+roles:
+- governs
+- builds-ai
+- supplies-data
+- funds
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: de
+scale: national
+status: active
+website: https://www.dlr.de
+summary: Germany's aerospace research centre, which gives specialist support to the federal
+  ministry leading on space. Its Earth Observation Center builds satellite forest monitoring
+  services for Germany.
+facts:
+- claim: The German Environment Agency says the federal research ministry leads on space in
+    Germany, with specialist support from DLR.
+  url: https://umweltbundesamt.de/themen/digitalisierung/europaeisches-erdbeobachtungsprogramm-copernicus
+  quote: fachlich unterstützt durch das Deutsche Zentrum für Luft und Raumfahrt ( DLR )
+  fetched: '2026-10-31'
+- claim: Its Earth Observation Center is formed by the German Remote Sensing Data Center and
+    the Remote Sensing Technology Institute.
+  url: https://www.dlr.de/en/eoc
+  quote: DFD and DLR’s Remote Sensing Technology Institute (IMF) together comprise the Earth
+    Observation Center EOC
+  fetched: '2026-10-31'
+- claim: The GRÜNBLICK service recalculates forest biomass estimates with a deep learning
+    model.
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/gruenblick
+  quote: regelmäßig mit Hilfe eines Deep Learning-Modells die Biomasseschätzungen neu berechnen
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: Hosts the German Space Agency.
+  url: https://www.dlr.de/en
+  fetched: '2026-10-31'
+  quote: German Space Agency at DLR
+- claim: Listed as a CEOS member.
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: '2026-10-31'
+  quote: Deutsches Zentrum für Luft-und Raumfahrt (DLR) Germany 1986
+- claim: Gives an address in Cologne.
+  url: https://www.dlr.de/en
+  fetched: '2026-10-31'
+  quote: 51147 Köln
+- claim: The German Space Agency at DLR works for the federal government, including on environmental
+    observation.
+  url: https://www.dlr.de/de/das-dlr/deutsche-raumfahrtagentur
+  fetched: '2026-10-31'
+  quote: Im Auftrag der Bundesregierung übernimmt die Deutsche Raumfahrtagentur im DLR wichtige
+    Aufgaben
+found_by:
+- checklist:1
+- link-from:queue-de
+scope: de
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: earth-observation-center-dlr
+  url: https://www.dlr.de/en/eoc
+  fetched: '2026-10-31'
+  quote: ist ein Institut des Deutschen Zentrums für Luft- und Raumfahrt (DLR) mit Standorten
+    in Oberpfaffenhofen bei München und Neustrelitz in Mecklenburg-Vorpommern. Zusammen mit
+    dem Institut für Methodik der Fernerkundung (IMF) bildet das DFD das Earth Observation
+    Center EOC
+- type: runs
+  to: enmap
+  url: https://www.dlr.de/de/forschung-und-transfer/projekte-und-missionen/enmap
+  fetched: '2026-10-31'
+  quote: Die Umweltmission EnMAP wird von der Deutschen Raumfahrtagentur im Deutschen Zentrum
+    für Luft- und Raumfahrt (DLR) in Bonn

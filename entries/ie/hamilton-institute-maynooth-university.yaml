@@ -1,0 +1,35 @@
+id: hamilton-institute-maynooth-university
+kind: organisation
+name: Hamilton Institute, Maynooth University
+scope: ie
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: ie
+countries:
+- ie
+scale: national
+status: active
+summary: 'Maynooth University research institute, listed as the affiliation of the first author of "NEAL:
+  an open-source tool for audio annotation".'
+facts:
+- claim: 'Affiliation of the first author of "NEAL: an open-source tool for audio annotation" (OpenAlex
+    record).'
+  url: https://api.openalex.org/works?filter=doi:10.64898/2026.06.19.733324|10.7717/peerj.15913|10.5194/egusphere-egu25-5122|10.1016/j.ecolmodel.2026.111524&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: '"display_name": "NEAL: an open-source tool for audio annotation", "authorships": [{"author_position":
+    "first"'
+- claim: The first author's affiliation on that paper is the Hamilton Institute, Department of Mathematics
+    and Statistics, Maynooth University, Kildare.
+  url: https://api.openalex.org/works?filter=doi:10.64898/2026.06.19.733324|10.7717/peerj.15913|10.5194/egusphere-egu25-5122|10.1016/j.ecolmodel.2026.111524&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: Hamilton Institute, Department of Mathematics and Statistics, Maynooth University, Kildare, Ireland
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

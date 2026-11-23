@@ -1,0 +1,32 @@
+id: bs-mamba
+kind: model
+name: BS-Mamba
+also_known_as: []
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+status: active
+summary: Binary segmentation neural network that detects black-soil areas, an extreme form
+  of degraded grassland, on the Qinghai-Tibetan Plateau, trained on an expert-annotated dataset.
+facts:
+- claim: Designed as a binary segmentation neural network for black-soil detection.
+  url: https://arxiv.org/html/2503.12495v1
+  fetched: '2026-10-31'
+  quote: we aim to design a binary segmentation neural network specifically for black-soil
+    area detection
+  ai_type: deep-learning
+- claim: Trained on a dataset built for the plateau, to monitor grassland quality.
+  url: https://arxiv.org/html/2503.12495v1
+  fetched: '2026-10-31'
+  quote: facilitating the evaluation of restoration strategies and monitoring grassland quality
+    on the QTP
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

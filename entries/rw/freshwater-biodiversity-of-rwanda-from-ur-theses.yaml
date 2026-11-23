@@ -1,0 +1,38 @@
+id: freshwater-biodiversity-of-rwanda-from-ur-theses
+kind: dataset
+name: Freshwater biodiversity of Rwanda, data recorded from theses of students of
+  University of Rwanda (UR)
+scope: rw
+ai_label: data-infrastructure
+realms:
+- freshwater
+countries:
+- rw
+status: active
+summary: GBIF dataset, built by the University of Rwanda's CoEB, digitised from graduates'
+  theses as part of the African Biodiversity Challenge, recording freshwater biodiversity
+  in Rwanda.
+facts:
+- claim: GBIF's dataset record says CoEB at the University of Rwanda compiled the
+    dataset.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=RW&limit=50
+  fetched: '2026-11-13'
+  quote: This dataset was compiled by the Centre of Excellence in Biodiversity and
+    Natural Resources Management (CoEB) at University of Rwanda.
+- claim: The record says the data were digitised from theses of the university's graduates
+    as part of the African Biodiversity Challenge.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=RW&limit=50
+  fetched: '2026-11-13'
+  quote: as part of the African Biodiversity Challenge
+links:
+- type: built-by
+  to: centre-of-excellence-in-biodiversity-and-natural-resource-management
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=RW&limit=50
+  fetched: '2026-11-13'
+  quote: This dataset was compiled by the Centre of Excellence in Biodiversity and
+    Natural Resources Management (CoEB) at University of Rwanda.
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-13'
+runner: unknown

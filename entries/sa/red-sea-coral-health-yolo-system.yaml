@@ -1,0 +1,43 @@
+id: red-sea-coral-health-yolo-system
+kind: model
+name: Red Sea coral reef health detection system (YOLOv8 and YOLOv9)
+scope: sa
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- sa
+status: unknown
+summary: A proposed deep learning system, built by Afnan Aldhahri, using YOLOv8 and YOLOv9
+  on 10,285 labelled images to assess Red Sea coral health, detect early bleaching and notify
+  authorities.
+facts:
+- claim: The paper proposes a deep learning and computer vision system to assess coral reef
+    health and detect early bleaching.
+  url: https://etasr.com/index.php/ETASR/article/view/10324
+  fetched: 2026-11-03
+  quote: This study proposes a novel system that utilizes deep learning and computer vision
+    to assess
+  ai_type: deep-learning
+- claim: The study used YOLOv8 and YOLOv9 on an augmented dataset of 10,285 labelled images
+    of healthy, bleached and dead corals, focusing on Red Sea reefs.
+  url: https://etasr.com/index.php/ETASR/article/view/10324
+  fetched: 2026-11-03
+  quote: Focusing on coral reefs in the Red Sea, the YOLOv8 and YOLOv9 object detection models
+    were used on an augmented dataset of 10,285 labeled images representing healthy, bleached,
+    and dead corals.
+- claim: The proposed system includes an interface for image classification and automatic
+    notification of authorities when bleaching or coral death is detected.
+  url: https://etasr.com/index.php/ETASR/article/view/10324
+  fetched: 2026-11-03
+  quote: The system includes a user-friendly interface for image classification and automatic
+    notification of relevant authorities upon detection of bleaching or death.
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,54 @@
+id: universiti-malaysia-sarawak
+kind: organisation
+name: Universiti Malaysia Sarawak
+also_known_as:
+- UNIMAS
+scope: my
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+- bioacoustics
+hq: unknown
+countries:
+- my
+scale: regional
+status: active
+summary: University with 10 OpenAlex-counted AI ecology works since 2018, including a dataset
+  of nesting green sea turtles, a 2024 green turtle detection paper and a bat call classification
+  paper.
+facts:
+- claim: OpenAlex counts 10 works with its authors on AI in ecology subfields since 2018.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: Universiti Malaysia Sarawak
+- claim: OpenAlex lists three of its authors on a dataset of nesting green sea turtles.
+  url: https://api.openalex.org/works/W4405838129
+  fetched: 2026-11-03
+  quote: An image and video dataset of nesting green sea turtles with annotated data
+- claim: OpenAlex lists a 2024 paper by UNIMAS authors on green turtle detection from field
+    recordings.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:camera%20trap%20deep%20learning,from_publication_date:2020-01-01&per_page=15&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: Chelonia mydas detection and image extraction from noisy field recordings
+- claim: OpenAlex lists a 2022 paper on a machine learning framework for classifying bat calls.
+  url: https://api.openalex.org/works/W4213038790?select=id,doi,display_name,authorships,abstract_inverted_index,publication_year
+  fetched: '2026-11-03'
+  quote: A machine learning framework to classify Southeast Asian echolocating bats
+- claim: Three authors of that paper give this affiliation; the first author is at the University
+    of Kent.
+  url: https://api.openalex.org/works/W4213038790?select=id,doi,display_name,authorships,abstract_inverted_index,publication_year
+  fetched: '2026-11-03'
+  quote: Faculty of Resource Science and Technology, Universiti Malaysia Sarawak
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-03

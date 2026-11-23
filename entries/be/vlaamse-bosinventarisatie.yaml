@@ -1,0 +1,39 @@
+id: vlaamse-bosinventarisatie
+kind: dataset
+name: Vlaamse Bosinventarisatie
+also_known_as:
+- VBI
+- Databank Vlaamse Bosinventarisatie
+- Flemish Forest Inventory
+scope: be
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+countries:
+- be
+summary: Dataset of forest measurements from VBI1 (1997 to 1999) and VBI2 (2009 to 2019), from a policy-supporting
+  network covering all Flemish forests on a 10-year cycle.
+facts:
+- claim: The dataset contains measurements from VBI1 in 1997–1999 and VBI2 in 2009–2019.
+  url: https://www.natuurenbos.be/sites/default/files/2023-07/metadata_vbi_databank_vs2020-09-2017.pdf
+  fetched: 2026-11-02
+  quote: 'Temporele dekking VBI1: 1997-1999; VBI2: 2009-2019'
+- claim: A policy-supporting network for all forests in Flanders.
+  url: https://geo-informed.be/?page_id=531
+  fetched: '2026-11-02'
+  quote: This is a policy-supporting network for all forests in Flanders
+- claim: One measurement cycle takes 10 years.
+  url: https://geo-informed.be/?page_id=531
+  fetched: '2026-11-02'
+  quote: Over time, one measurement cycle takes 10 years
+links:
+- type: run-by
+  to: agency-for-nature-and-forests
+  url: https://www.natuurenbos.be/sites/default/files/2023-07/metadata_vbi_databank_vs2020-09-2017.pdf
+  fetched: 2026-11-02
+  quote: Verantwoordelijke organisatie  Agentschap Natuur en Bos
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

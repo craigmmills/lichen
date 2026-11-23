@@ -1,0 +1,60 @@
+id: omar-al-mukhtar-university
+kind: organisation
+name: Omar Al-Mukhtar University
+also_known_as: []
+scope: ly
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ly
+countries:
+- ly
+scale: national
+status: active
+summary: University that OpenAlex lists as the institution on papers from 2022 to
+  2026 using remote sensing, GIS and vegetation indices such as NDVI to study vegetation,
+  rangeland and soil in eastern Libya.
+facts:
+- claim: OpenAlex lists Omar Al-Mukhtar University as the institution of the first
+    and only author of a 2024 paper on NDVI and the use of ArcGIS to create NDVI maps.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: The Importance of the Normalized Difference Vegetation Index (NDVI) and the
+    Use of the ArcGIS to create NDVI Maps
+- claim: OpenAlex lists Omar Al-Mukhtar University as the institution of the first
+    author of a 2026 paper analysing natural vegetation cover change in the Wadi Al-Mamlouh
+    basin from 2004 to 2024 using GIS.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Analysis of Natural Vegetation Cover Change in the Wadi Al-Mamlouh Basin,
+    Al-Jabel Al-Akhdar, for the Period 2004-2024 Using GIS
+- claim: OpenAlex gives the university's Department of Natural Resources as first
+    author's affiliation on a 2022 paper on wildfire effects on vegetation moisture
+    using remote sensing.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Department of natural resources, faculty of natural resources and environment
+    college, Omar AL Mokhtar University, Al Biyda, Libya
+- claim: OpenAlex gives the university's Department of Forest and Rangeland as first
+    author's affiliation on a paper evaluating vegetation indices for assessing rangeland
+    vegetation in eastern Libya.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7167222103|W4293200335|W4391474453|W4414453837&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Department of Forest and Rangeland, Faculty of Natural Resources and Environmental
+    Sciences, Omar Al-Mukhtar University, Al-Bayda, Libya
+- claim: OpenAlex gives the university's Department of Rangeland as first author's
+    affiliation on a 2025 paper evaluating NDVI and MSAVI for predicting soil properties
+    in the rangeland of southern Al-Jabal Al-Akhdar.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4293199334|W4415558012|W4417273217|W4416934212&select=id,display_name,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Department of Rangeland, Faculty of Natural Resources and Environmental Sciences,
+    University of Omar Al-Mukhtar, Al-Bayda, Libya
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

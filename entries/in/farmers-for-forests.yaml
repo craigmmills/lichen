@@ -1,0 +1,78 @@
+id: farmers-for-forests
+kind: organisation
+name: Farmers for Forests
+also_known_as:
+- F4F
+scope: in
+sector: company
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: in
+countries:
+- in
+scale: national
+status: active
+website: https://www.farmersforforests.org/
+summary: Pune social enterprise that helps smallholders move to agroforestry and developed
+  the TreeLens drone tree detection model.
+facts:
+- claim: Says it was founded in December 2019 and is headquartered in Pune.
+  url: https://www.farmersforforests.org/
+  quote: Founded in December 2019 and headquartered in Pune, India, Farmers for Forests (F4F)
+    is a hybrid social enterprise
+  fetched: '2026-10-31'
+- claim: Founded in December 2019 and based in Pune.
+  url: https://farmersforforests.org
+  fetched: '2026-10-31'
+  quote: Founded in December 2019 and headquartered in Pune, India, Farmers for Forests (F4F)
+    is a hybrid social enterprise
+- claim: Builds open-source technology to monitor trees and land.
+  url: https://farmersforforests.org/our-technology/
+  fetched: '2026-10-31'
+  quote: we build open‑source technology to bring accountability and transparency to nature-based
+    solutions.
+- claim: Selected for the Salesforce and Fast Forward support for AI-powered non-profits.
+  url: https://farmersforforests.org/news/
+  fetched: '2026-10-31'
+  quote: F4F is selected as one of the organizations to be part of Salesforce and Fast Forward's
+    partnership to support and provide resources to AI-powered non-profits
+- claim: Its technology page lists TreeLens, an Impact Dashboard and a Forest Protection Dashboard.
+  quote: TreeLens , Impact Dashboard , and Forest Protection Dashboard.
+  url: https://farmersforforests.com/our-technology/
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: treelens
+  url: https://huggingface.co/farmersforforests/TreeLens-detectron2
+  quote: Developed by Farmers for Forests
+  fetched: '2026-10-31'
+- type: partners-with
+  to: google-deepmind-accelerator-ai-for-the-planet-apac
+  url: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/
+  fetched: '2026-10-31'
+  quote: 'Farmers for Forests (India): Turning smallholder agroforestry into measurable carbon
+    and biodiversity action at scale, using AI-powered drones'
+- type: runs
+  to: project-anahita
+  url: https://farmersforforests.org/our-technology/
+  fetched: '2026-10-31'
+  quote: 'Introducing Project Anāhitā: Turning Data into Living Impact Our open‑source AI
+    suite'
+- type: runs
+  to: treelens
+  quote: TreeLens analyzes drone imagery to count and geo‑tag every tree
+  url: https://farmersforforests.com/our-technology/
+  fetched: '2026-10-31'
+found_by:
+- checklist:5
+- queue:in
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'

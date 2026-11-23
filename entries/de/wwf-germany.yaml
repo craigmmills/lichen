@@ -1,0 +1,93 @@
+id: wwf-germany
+kind: organisation
+name: WWF Germany
+also_known_as:
+- WWF Deutschland
+- Stiftung WWF Deutschland
+- WWF Germany
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- computer-vision
+- other
+hq: de
+scale: national
+status: active
+summary: German member of the WWF network. Its annual report describes AI used to find lost
+  fishing nets through the GhostNetZero.ai platform and to train an algorithm on forest elephant
+  camera images.
+facts:
+- claim: Its annual report says it finds abandoned fishing nets with AI on a platform developed
+    for the purpose.
+  url: https://www.lobbyregister.bundestag.de/media/b8/65/738010/WWF_Jahresbericht-25-WEB-DoS-4.pdf
+  quote: So spüren wir über eine eigens entwickelte Plattform unter Ein-
+  fetched: '2026-10-31'
+- claim: Its annual report lists its sites in Germany, including Berlin and Hamburg.
+  url: https://www.lobbyregister.bundestag.de/media/b8/65/738010/WWF_Jahresbericht-25-WEB-DoS-4.pdf
+  quote: 'Hier sind wir vor Ort: Berlin, Dessau, Drochtersen, Frankfurt am Main, Hamburg,
+    Husum, Rügen, Stralsund, Weilheim i. OB'
+  fetched: '2026-10-31'
+- claim: Registered as a foundation with the Berlin justice administration, with an office
+    at Reinhardtstr. 18, Berlin.
+  url: https://www.wwf.de/
+  fetched: '2026-10-31'
+  quote: Registriert als Stiftung WWF Deutschland, Senatsverwaltung für Justiz Berlin
+- claim: Says it is an independent part of the international WWF organisation.
+  url: https://www.wwf.de/
+  fetched: '2026-10-31'
+  quote: Dabei ist der WWF Deutschland selbständiger Teil der internationalen Naturschutzorganisation
+- claim: IBM and WWF Germany announced work on AI-powered visual inspection to identify individual
+    elephants from camera trap photos.
+  url: https://newsroom.ibm.com/2024-08-12-IBM-and-WWF-Germany-to-Build-New-AI-Solution-to-Support-Conservation-of-Keystone-Species
+  fetched: '2026-10-31'
+  quote: supporting the accurate identification of individual elephants from camera trap photos
+- claim: Says it has invested in very high-resolution satellite imagery for mapping and monitoring
+    in Kavango-Zambezi.
+  url: https://www.wwf.de/themen-projekte/waelder/remote-sensing/monitoring-wwf-projects
+  fetched: '2026-10-31'
+  quote: WWF Germany has invested in very high-resolution satellite imagery to support the
+    mapping and monitoring in the international conservation area of Kavango-Zambezi
+- claim: Lists a pilot project with Jade Hochschule using AI for seal protection.
+  url: https://www.wwf.de/aktuell/kuenstliche-intelligenz-im-naturschutz
+  fetched: '2026-10-31'
+  quote: Der WWF Deutschland und die Jade Hochschule starten ein Pilotprojekt für den Robbenschutz.
+- claim: Says it wants to work AI into its work processes and projects in a targeted and responsible
+    way.
+  url: https://www.wwf.de/aktuell/kuenstliche-intelligenz-im-naturschutz
+  fetched: '2026-10-31'
+  quote: Wir wollen KI gezielt und verantwortungsbewusst in unsere Arbeitsprozesse und Projekte
+    integrieren
+links:
+- type: runs
+  to: ghostnetzero
+  url: https://www.lobbyregister.bundestag.de/media/b8/65/738010/WWF_Jahresbericht-25-WEB-DoS-4.pdf
+  quote: Für Gabriele Dederer, Projektleiterin Geisternetze des WWF Deutschland
+  fetched: '2026-10-31'
+- type: partners-with
+  to: ibm
+  url: https://www.wwf.de/2024/august/ki-revolution-im-dschungel
+  fetched: '2026-10-31'
+  quote: Der WWF Deutschland und IBM schließen sich zusammen
+- type: runs
+  to: ghostnetzero
+  url: https://www.wwf.de/themen-projekte/projektregionen/ostsee/geisternetze/ghostnetzeroai
+  fetched: '2026-10-31'
+  quote: geht der WWF mit dem Launch der Website GhostNetZero.AI den nächsten Schritt
+- type: uses
+  to: trapscan
+  url: https://www.wwf.de/2026/maerz/kuenstliche-intelligenz-fuer-wilde-auen
+  fetched: '2026-10-31'
+  quote: KI-Tool ist seit Januar in WWF-Projekten an der Mittleren Elbe erfolgreich im Einsatz
+found_by:
+- checklist:4
+- link-from:ibm-wwf-germany-forest-elephant-monitoring
+scope: de
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,46 @@
+id: wildfish
+kind: organisation
+name: WildFish
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+website: https://wildfish.org
+summary: UK charity for wild fish that runs SmartRivers, a citizen science river survey with
+  an open database and optional eDNA sampling.
+facts:
+- claim: Runs SmartRivers, which now takes eDNA samples from groups.
+  url: https://wildfish.org/project/smart-rivers/
+  quote: SmartRivers groups can now register to collect environmental DNA (eDNA), extending
+    their river benchmarking to a wider range of taxonomic groups.
+  fetched: '2026-10-31'
+- claim: Registered charity in England and Wales and in Scotland.
+  url: https://wildfish.org/about/
+  quote: 'WildFish Conservation is a registered charity: England & Wales No.1123285, Scotland
+    number SC041584'
+  fetched: '2026-10-31'
+- claim: Its contact page gives an office address in Salisbury.
+  url: https://wildfish.org/contact/
+  quote: Address WildFish, Admin Office, PO Box 2412, Salisbury, SP2 2QN
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: smartrivers
+  url: https://wildfish.org/project/smart-rivers/
+  quote: SmartRivers is our scientifically robust citizen science toolkit.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

@@ -1,0 +1,43 @@
+id: journey-north
+kind: programme
+name: Journey North
+scope: us
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+countries:
+- us
+- ca
+- mx
+summary: Crowdsourced programme of the University of Wisconsin-Madison Arboretum tracking
+  migration and seasonal change, with monarch and hummingbird records published as open data
+  packages.
+facts:
+- claim: Published two data packages with the Environmental Data Initiative.
+  url: https://archive.journeynorth.org/node/6172.html
+  quote: Journey North has published two data packages with the Environmental Data Initiative
+    (EDI), a central data repository for environmental data.
+  fetched: '2026-10-31'
+- claim: The monarch and hummingbird packages hold records from 1996 to 2020.
+  url: https://archive.journeynorth.org/node/6172.html
+  quote: Data contains 227,434 observational records submitted by 42,518 citizen scientists
+    for the period 1996 and 2020.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: university-of-wisconsin-madison
+  url: https://edirepository.org/featured/featured-20211101.00
+  quote: Journey North is a crowdsourced community science program of the University of Wisconsin-Madison
+    Arboretum
+  fetched: '2026-10-31'
+- type: uses
+  to: environmental-data-initiative
+  url: https://archive.journeynorth.org/node/6172.html
+  quote: Journey North has published two data packages with the Environmental Data Initiative
+    (EDI)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

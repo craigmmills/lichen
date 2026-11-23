@@ -1,0 +1,39 @@
+id: tel-hai-academic-college
+kind: organisation
+name: Tel Hai Academic College
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: An active college; a 2024 paper whose first author is affiliated with it concerns
+  continuous annual soundscape monitoring using a deep learning system in Agmon Hula Lake
+  Park.
+facts:
+- claim: A 2024 paper whose first author is affiliated with Tel Hai Academic College concerns
+    continuous annual soundscape monitoring using a deep learning system in Agmon Hula Lake
+    Park.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:009st3569,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'The bioacoustic soundscape of a pandemic: Continuous annual monitoring using a deep
+    learning system in Agmon Hula Lake Park'
+  ai_type: deep-learning
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

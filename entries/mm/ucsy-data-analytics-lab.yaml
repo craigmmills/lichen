@@ -1,0 +1,39 @@
+id: ucsy-data-analytics-lab
+kind: organisation
+name: Data Analytics Lab, University of Computer Studies, Yangon
+also_known_as: []
+scope: mm
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+hq: mm
+countries:
+- mm
+scale: national
+status: active
+summary: Research lab at the University of Computer Studies, Yangon, listed as an
+  affiliation by the first author of the 2024 paper Estimation of Annual Deforestation
+  Using Random Forest.
+facts:
+- claim: The first author of the 2024 paper Estimation of Annual Deforestation Using
+    Random Forest lists the Data Analytics Lab, University of Computer Studies, Yangon
+    as an affiliation.
+  url: https://api.openalex.org/works/W4398198505?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Estimation of Annual Deforestation Using Random Forest
+  ai_type: ml-supervised
+- claim: The authors' affiliation places the lab at the University of Computer Studies
+    in Yangon.
+  url: https://api.openalex.org/works/W4398198505?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Data Analytics Lab, University of Computer Studies, Yangon, Yangon, Myanmar
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

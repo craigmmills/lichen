@@ -1,0 +1,35 @@
+id: westmill-solar-farm-pollinator-monitoring
+kind: project
+name: Solar farm pollinator monitoring at Westmill
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+status: unknown
+website: https://www.lancaster.ac.uk/lec/about-us/news/new-study-by-low-carbon-and-lancaster-university-to-pioneer-state-of-the-art-technologies-to-measure-biodiversity-on-solar-farms
+summary: Lancaster University study with Low Carbon using AI and acoustic devices
+  to assess insect pollinators on solar farms, at Westmill Solar Park.
+facts:
+- claim: Deploys AI with acoustic monitoring devices on solar farms.
+  url: https://www.lancaster.ac.uk/lec/about-us/news/new-study-by-low-carbon-and-lancaster-university-to-pioneer-state-of-the-art-technologies-to-measure-biodiversity-on-solar-farms
+  quote: by deploying artificial intelligence (AI) technology alongside cutting-edge
+    acoustic monitoring devi
+  fetched: &id001 2026-10-30
+links:
+- type: led-by
+  to: lancaster-university
+  url: https://www.lancaster.ac.uk/lec/about-us/news/new-study-by-low-carbon-and-lancaster-university-to-pioneer-state-of-the-art-technologies-to-measure-biodiversity-on-solar-farms
+  quote: Led by a researcher at Lancaster University and supported by Low Carbon
+  fetched: *id001
+- type: uses
+  to: ami-system
+  url: https://www.lancaster.ac.uk/lec/about-us/news/new-study-by-low-carbon-and-lancaster-university-to-pioneer-state-of-the-art-technologies-to-measure-biodiversity-on-solar-farms
+  quote: "Automated Monitoring of Insects (AMI) traps"
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

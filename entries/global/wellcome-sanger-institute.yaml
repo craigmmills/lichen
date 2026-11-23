@@ -1,0 +1,61 @@
+id: wellcome-sanger-institute
+kind: organisation
+name: Wellcome Sanger Institute
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+techniques:
+- edna-genomics
+scale: global
+hq: gb
+status: active
+website: https://www.sanger.ac.uk
+countries:
+- gb
+summary: Genome research institute at Hinxton, Cambridgeshire, whose Tree of Life Programme
+  produces reference genomes for eukaryotic species.
+facts:
+- claim: Its site gives its location as Hinxton, Cambridgeshire.
+  url: https://www.sanger.ac.uk/about/
+  quote: Hinxton, Cambridgeshire,
+  fetched: '2026-10-30'
+- claim: Its Tree of Life Programme investigates the diversity and origins of life using DNA
+    sequencing, covering all eukaryotic organisms.
+  url: https://www.sanger.ac.uk/programme/tree-of-life/
+  quote: The Tree of Life Programme investigates the diversity and origins of life on Earth
+    using DNA sequencing.
+  fetched: '2026-10-30'
+- claim: It says Tree of Life's projects run alongside the Earth BioGenome Project.
+  url: https://www.sanger.ac.uk/programme/tree-of-life/
+  quote: Tree of Life’s projects operate in tandem with the Earth BioGenome Project .
+  fetched: '2026-10-30'
+- claim: The Darwin Tree of Life project, which lists the institute among its partners, aims
+    to sequence the genomes of 70,000 species of eukaryotic organisms in Britain and Ireland.
+  url: https://www.darwintreeoflife.org/
+  quote: The Darwin Tree of Life project aims to sequence the genomes of 70,000 species of
+    eukaryotic organisms in Britain and Ireland.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: earth-biogenome-project
+  url: https://www.sanger.ac.uk/programme/tree-of-life/
+  quote: Tree of Life’s projects operate in tandem with the Earth BioGenome Project .
+  fetched: '2026-10-30'
+- type: partners-with
+  to: ancient-environmental-genomics-initiative-for-sustainability
+  url: https://www.sanger.ac.uk/collaboration/ancient-environmental-genomics-initiative-for-sustainability-aegis/
+  quote: The Tree of Life Programme at the Wellcome Sanger Institute is a major contributor
+    to the Earth Biogenome Project’s mission to generate reference genome sequences for all
+    named eukaryotic species. As part of AEGIS
+  fetched: '2026-10-30'
+- type: funded-by
+  to: wellcome-trust
+  url: https://www.sanger.ac.uk/about/
+  quote: Since 1992, Wellcome has invested in the Sanger Institute
+  fetched: '2026-10-30'
+found_by:
+- link-from:aquatic-symbiosis-genomics-project
+added_by: agent
+checked: '2026-10-30'

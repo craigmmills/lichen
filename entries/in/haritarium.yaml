@@ -1,0 +1,35 @@
+id: haritarium
+kind: dataset
+name: Haritarium
+also_known_as: []
+scope: in
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+countries:
+- in
+website: https://ngcpr.org/publish.aspx
+summary: Digitised plant taxonomic database from the Naoroji Godrej Centre for Plant
+  Research, documenting more than 80 endemic and threatened plant species.
+facts:
+- claim: Digitised plant taxonomic database with identification keys.
+  url: https://ngcpr.org/publish.aspx
+  fetched: '2026-10-31'
+  quote: A digitized mega plant taxonomic database is created from freshly collected
+    plant specimens
+- claim: Covers more than 80 endemic and threatened species.
+  url: https://ngcpr.org/publish.aspx
+  fetched: '2026-10-31'
+  quote: More than 80 endemic and threatened plant species have been documented digitally
+links:
+- type: run-by
+  to: naoroji-godrej-centre-for-plant-research
+  url: https://ngcpr.org/publish.aspx
+  fetched: '2026-10-31'
+  quote: "DATABASE Haritarium A digitized mega plant taxonomic database is created from freshly collected plant specimens"
+found_by:
+- register:gbif-publisher
+- link-from:naoroji-godrej-centre-for-plant-research
+added_by: agent
+checked: '2026-10-31'

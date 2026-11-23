@@ -1,0 +1,50 @@
+id: water-and-land-resource-centre
+kind: organisation
+name: Water and Land Resource Centre
+also_known_as:
+- WLRC
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+website: https://wlrc-eth.org
+summary: Centre whose site lists research stations, observatories and learning watersheds;
+  it says its Executive Director presented progress on the Ethiopian Basin Information System
+  in July 2026.
+facts:
+- claim: Its site lists research stations, observatories and learning watersheds.
+  url: https://wlrc-eth.org
+  fetched: '2026-11-08'
+  quote: Research Stations
+- claim: Says its Executive Director presented the progress of the Ethiopian Basin Information
+    System (ETH-BIS) in July 2026.
+  url: https://wlrc-eth.org
+  fetched: '2026-11-08'
+  quote: Water and Land Resource Centre (WLRC), led by the Executive Director, Dr. Gete Zeleke,
+    presented the progress of the Ethiopian Basin Information System (ETH-BIS)
+- claim: OpenAlex lists a 2019 paper on machine learning algorithms for mapping the fractional
+    cover of an invasive plant species in a dryland ecosystem.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Performances of machine learning algorithms for mapping fractional cover of an invasive
+    plant species in a dryland ecosystem
+- claim: OpenAlex gives one affiliation of its first author, Hailu Shiferaw, as the Water
+    and Land Resource Centre at Addis Ababa University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Water and Land Resource Centre, Addis Ababa University, Addis Ababa, Ethiopia
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

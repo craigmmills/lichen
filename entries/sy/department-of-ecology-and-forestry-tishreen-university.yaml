@@ -1,0 +1,44 @@
+id: department-of-ecology-and-forestry-tishreen-university
+kind: organisation
+name: Department of Ecology and Forestry, Faculty of Agriculture, Tishreen University
+scope: sy
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sy
+countries:
+- sy
+scale: national
+status: active
+summary: University department in Latakia whose members authored a 2023 paper on monitoring
+  burnt forest areas by remote sensing and GIS, and co-authored a 2025 CA-Markov land
+  use change paper for Bayer and al-Bassit.
+facts:
+- claim: Both authors of a 2023 paper on monitoring burnt forest areas in Latakia
+    by remote sensing and GIS list this department as their affiliation.
+  url: https://api.openalex.org/works/W4400895565?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-14
+  quote: MONITORING OF FOREST BURNT AREAS IN LATAKIA OF THE SYRIAN ARAB REPUBLIC BY
+    REMOTE SENSING AND GIS TECHNOLOGIES
+- claim: The paper gives the department's affiliation line in Latakia.
+  url: https://api.openalex.org/works/W4400895565?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-14
+  quote: Department of Ecology and Forestry , Faculty of Agriculture Tishreen University
+    , Latakia , Syria
+- claim: A member of the department co-authored a 2025 paper, whose first author lists
+    the General Organization of Remote Sensing, that uses a CA-Markov model to predict
+    land use and land cover change in the Bayer and al-Bassit region of Latakia.
+  url: https://api.openalex.org/works/W4408002018?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-14
+  quote: Forestry and Ecology Department- Agriculture Faculty- Tishreen University-
+    Syria
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

@@ -1,0 +1,34 @@
+id: central-siberian-botanical-garden
+kind: organisation
+name: Central Siberian Botanical Garden SB RAS
+scope: ru
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ru
+scale: national
+status: active
+website: http://csbg-nsk.ru
+summary: Botanical garden whose GBIF record gives its collection size and address and names
+  its Flora of Siberia dataset; it partners with the Specify Collections Consortium.
+facts:
+- claim: GBIF gives the size of its collection.
+  url: https://api.gbif.org/v1/organization/8f6232c3-5523-44ad-825c-e066fc6b15ad
+  fetched: '2026-10-31'
+  quote: Collection contains about 800 000 herbarium specimens
+- claim: GBIF names its Flora of Siberia dataset.
+  url: https://api.gbif.org/v1/dataset/0eacbbfa-45b9-41dc-b7e3-1f0773ce1477
+  fetched: '2026-10-31'
+  quote: Locations of plants on dot distribution maps in the Flora of Siberia
+- claim: GBIF gives its address.
+  url: https://api.gbif.org/v1/organization/8f6232c3-5523-44ad-825c-e066fc6b15ad
+  fetched: '2026-10-31'
+  quote: Zolotodolinskaya, 101
+links: []
+found_by:
+- checklist:queue-specify-members
+added_by: agent
+checked: '2026-10-31'

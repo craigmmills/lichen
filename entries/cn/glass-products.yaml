@@ -1,0 +1,29 @@
+id: glass-products
+kind: dataset
+name: Global Land Surface Satellite Products
+also_known_as:
+- GLASS
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+runner: unknown
+summary: Suite of global land surface satellite products, freely available, several
+  of which are made with machine learning methods.
+facts:
+- claim: Freely available to the public.
+  url: https://terpconnect.umd.edu/~sliang/papers/Liang.GLASS.BAMS.2021.pdf
+  fetched: '2026-10-31'
+  quote: The GLASS products are freely available to the public.
+- claim: The fractional vegetation cover product is based on machine learning.
+  url: https://terpconnect.umd.edu/~sliang/papers/Liang.GLASS.BAMS.2021.pdf
+  fetched: '2026-10-31'
+  quote: The GLASS FVC product is based on machine learning methods
+links: []
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

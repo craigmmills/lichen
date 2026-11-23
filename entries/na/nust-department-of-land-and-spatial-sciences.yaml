@@ -1,0 +1,49 @@
+id: nust-department-of-land-and-spatial-sciences
+kind: organisation
+name: Department of Land and Spatial Sciences, Namibia University of Science and Technology
+scope: na
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: na
+countries:
+- na
+scale: national
+status: active
+summary: Department that is the lead affiliation of the first author of a 2025 paper
+  comparing four supervised image classification algorithms, including Random Forest,
+  for coastal dune change detection.
+facts:
+- claim: Lead affiliation of the first author of the 2025 paper on multi-decadal change
+    detection of coastal dune landscapes.
+  url: https://api.openalex.org/works/W4413447845?select=id,display_name,publication_year,primary_location,authorships
+  fetched: 2026-11-13
+  quote: Namibia University of Science and Technology, Faculty of Engineering and
+    Built Environment, Department of Land and Spatial Sciences, Windhoek
+- claim: The paper compares supervised image classification algorithms for change
+    detection of coastal dune landscapes.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works/W4413447845?select=id,display_name,publication_year,primary_location,authorships
+  fetched: 2026-11-13
+  quote: Multi-decadal change detection of coastal dune landscapes using different
+    supervised image classification algorithms
+- claim: The study compared four supervised image classification algorithms, including
+    Random Forest.
+  ai_type: ml-supervised
+  url: https://doi.org/10.55779/ng53378
+  fetched: 2026-11-13
+  quote: 'comparing the performance of four supervised image classification algorithms:
+    Maximum Likelihood, Minimum Distance, Spectral Angle Mapping, and Random Forest.'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

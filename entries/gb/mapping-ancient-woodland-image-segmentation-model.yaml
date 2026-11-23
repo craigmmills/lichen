@@ -1,0 +1,45 @@
+id: mapping-ancient-woodland-image-segmentation-model
+kind: model
+name: Mapping Ancient Woodland Image Segmentation Model
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- gb
+status: active
+summary: Welsh Government image segmentation model that predicts areas of woodland on historic
+  OS maps, with the resulting shapefiles published for others to use.
+facts:
+- claim: Predicts areas of woodland on OS Landmark maps from manually labelled data.
+  url: https://www.gov.uk/algorithmic-transparency-records/welsh-government-mapping-ancient-woodland-image-segmentation-model
+  quote: Uses an image segmentation model to predict areas of woodland on OS Landmark maps
+    using a sample of manually labelled data.
+  fetched: '2026-10-31'
+- claim: Uses a Masked R-CNN, a convolutional neural network.
+  url: https://www.gov.uk/algorithmic-transparency-records/welsh-government-mapping-ancient-woodland-image-segmentation-model
+  quote: Masked R-CNN image segmentation model - this is a convolutional neural network
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: The outputs can be viewed on Data Map Wales.
+  url: https://www.gov.uk/algorithmic-transparency-records/welsh-government-mapping-ancient-woodland-image-segmentation-model
+  quote: the shape files are available to view as a layer on Data Map Wales
+  fetched: '2026-10-31'
+- claim: Listed in the Beta or pilot phase on the record published in July 2025.
+  url: https://www.gov.uk/algorithmic-transparency-records/welsh-government-mapping-ancient-woodland-image-segmentation-model
+  quote: Beta/Pilot
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: welsh-government
+  url: https://www.gov.uk/algorithmic-transparency-records/welsh-government-mapping-ancient-woodland-image-segmentation-model
+  quote: Data Science Unit
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

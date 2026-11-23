@@ -1,0 +1,49 @@
+id: ai-intervene
+kind: project
+name: 'AI-INTERVENE: AI for Unlocking Datasets for Biodiversity Assessment and Prediction'
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+- species-distribution
+countries:
+- gb
+status: unknown
+summary: NERC award to the University of Reading for AI to unlock datasets for biodiversity
+  assessment and prediction.
+facts:
+- claim: NERC doctoral focal award with its final cohort starting in 2027.
+  url: https://www.ukri.org/publications/doctoral-focal-awards/doctoral-focal-award-investments/
+  quote: 'Final cohort starts: 2027.'
+  fetched: &id001 2026-10-30
+- claim: Trains AI-empowered data scientists on biodiversity data.
+  url: https://www.reading.ac.uk/news/2024/Research-News/New-PhD-centres-support-environmental-sustainability-studies
+  quote: will train a new generation of AI-empowered data scientists
+  fetched: *id001
+found_by:
+- checklist:7
+- checklist:3
+links:
+- type: run-by
+  to: university-of-reading
+  url: https://www.ukri.org/publications/doctoral-focal-awards/doctoral-focal-award-investments/
+  quote: 'Lead university: University of Reading.'
+  fetched: *id001
+- type: funded-by
+  to: natural-environment-research-council
+  url: https://www.reading.ac.uk/news/2024/Research-News/New-PhD-centres-support-environmental-sustainability-studies
+  quote: NERC AI-INTERVENE Doctoral Focal Award
+  fetched: *id001
+- type: partners-with
+  to: natural-history-museum-london
+  url: https://www.reading.ac.uk/news/2024/Research-News/New-PhD-centres-support-environmental-sustainability-studies
+  quote: The core partners are University of Reading, University College London, Natural
+    History Museum
+  fetched: *id001
+also_known_as:
+- AI-INTERVENE
+- AI for Unlocking Datasets for Biodiversity Assessment and Prediction
+scope: gb
+added_by: agent
+checked: '2026-10-30'

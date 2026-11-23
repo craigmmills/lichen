@@ -1,0 +1,27 @@
+id: fishbase
+kind: dataset
+name: FishBase
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+status: active
+website: https://www.fishbase.se
+summary: Global database of fish species, supervised by a consortium of international institutions
+  and edited by Rainer Froese and Daniel Pauly.
+facts:
+- claim: Editors are Froese and Pauly.
+  url: https://www.fishbase.se/search.php
+  fetched: '2026-10-30'
+  quote: Froese, R. and D. Pauly. Editors. 2026. FishBase.
+links:
+- type: run-by
+  to: fishbase-consortium
+  url: https://en.wikipedia.org/wiki/FishBase
+  fetched: '2026-10-30'
+  quote: Since 2000 FishBase has been supervised by a consortium of nine international institutions.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

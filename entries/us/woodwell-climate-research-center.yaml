@@ -1,0 +1,63 @@
+id: woodwell-climate-research-center
+kind: organisation
+name: Woodwell Climate Research Center
+scope: us
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://www.woodwellclimate.org
+summary: Massachusetts climate research centre that runs FishEye, an AI video system for counting
+  river herring.
+facts:
+- claim: Runs FishEye, which uses AI and deep learning models built with MIT to count river
+    herring.
+  url: https://www.woodwellclimate.org/project/fisheye/
+  fetched: '2026-10-30'
+  quote: Leveraging AI and deep learning models developed in collaboration with the Massachusetts
+    Institute of Technology (MIT) CSAIL department and MIT Sea Grant program
+- claim: Uses remote sensing to scale up field observations in its Arctic carbon work.
+  url: https://www.woodwellclimate.org/woodwell-climate-to-lead-critical-arctic-climate-research-thanks-to-new-gordon-and-betty-moore-foundation-funding/
+  fetched: '2026-10-31'
+  quote: Remote sensing to scale up field-based observations to the full Arctic region.
+- claim: Formerly the Woods Hole Research Center.
+  url: https://www.woodwellclimate.org/new-name-renewed-commitment/
+  fetched: '2026-10-31'
+  quote: After 35 years as Woods Hole Research Center, we have become the Woodwell Climate
+    Research Center.
+- claim: The IRS exempt organisation record, through ProPublica, lists Woodwell Climate Research
+    Center at Falmouth, Massachusetts.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/43005094.json
+  fetched: '2026-10-31'
+  quote: '"city":"Falmouth","state":"MA"'
+links:
+- type: runs
+  to: fisheye-river-herring-monitoring
+  url: https://www.woodwellclimate.org/project/fisheye/
+  fetched: '2026-10-30'
+  quote: FishEye - Woodwell Climate
+- type: partners-with
+  to: earth-fire-alliance
+  url: https://www.earthfirealliance.org/partners
+  fetched: '2026-10-30'
+  quote: Woodwell Climate Research Center
+found_by:
+- checklist:4
+- link-from:earth-fire-alliance
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+also_known_as:
+- Woods Hole Research Center

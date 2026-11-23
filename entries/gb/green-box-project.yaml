@@ -1,0 +1,35 @@
+id: green-box-project
+kind: project
+name: Green Box Project
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://newsroom.shropshire.gov.uk/2026/02/national-trust-in-tune-with-digital-bird-monitoring-project/
+summary: Harper Adams University bird monitoring project using smart sensors, advanced
+  wireless and AI across Shropshire sites, including the National Trust's Attingham
+  Park.
+facts:
+- claim: Demonstrates advanced wireless technology and AI in species observation.
+  url: https://newsroom.shropshire.gov.uk/2026/02/national-trust-in-tune-with-digital-bird-monitoring-project/
+  quote: demonstrates the effectiveness of advanced wireless technology and AI in
+    species observation
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: harper-adams-university
+  url: https://newsroom.shropshire.gov.uk/2026/02/national-trust-in-tune-with-digital-bird-monitoring-project/
+  quote: "a bird monitoring project enabled by the River Severn Partnership Advanced Wireless Innovation Region (RSPAWIR) and Harper Adams University"
+  fetched: *id001
+- type: partners-with
+  to: national-trust
+  url: https://newsroom.shropshire.gov.uk/2026/02/national-trust-in-tune-with-digital-bird-monitoring-project/
+  quote: The National Trust is taking part in a bird monitoring project
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

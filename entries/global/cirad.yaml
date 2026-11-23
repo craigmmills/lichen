@@ -1,0 +1,59 @@
+id: cirad
+kind: organisation
+name: CIRAD
+also_known_as:
+- French Agricultural Research Centre for International Development
+scope: global
+sector: government
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: fr
+scale: global
+status: active
+website: https://www.cirad.fr
+summary: French agricultural research organisation for tropical and Mediterranean regions,
+  one of the four research bodies in the Pl@ntNet consortium.
+facts:
+- claim: Agricultural research organisation for tropical and Mediterranean regions.
+  url: https://www.cirad.fr/en
+  fetched: '2026-10-30'
+  quote: CIRAD, agricultural research for the sustainable development of tropical and Mediterranean
+    regions
+- claim: Member of the Pl@ntNet consortium with Inria, INRAE and IRD.
+  url: https://plantnet.org/en/consortium/
+  fetched: '2026-10-30'
+  quote: consortium composé de quatre organismes de recherche ( CIRAD , Inria , INRAE et IRD
+    )
+- claim: Cirad records the Pl@ntNet paper on convolutional neural networks.
+  url: https://publications.cirad.fr/une_notice.php?dk=585562
+  fetched: '2026-10-30'
+  quote: the introduction of convolutional neural networks did improve the whole workflow
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: food-and-agriculture-organization
+  url: https://www.cirad.fr/dans-le-monde/nos-directions-regionales/asie-du-sud-est-continentale/actualites-asie-du-sud-est-continentale/one-health-partnership-framework
+  fetched: 2026-10-30
+  quote: mis en œuvre avec la FAO, CIFOR-ICRAF et WCS
+- type: partners-with
+  to: cifor-icraf
+  url: https://www.cirad.fr/dans-le-monde/nos-directions-regionales/asie-du-sud-est-continentale/actualites-asie-du-sud-est-continentale/one-health-partnership-framework
+  fetched: 2026-10-30
+  quote: mis en œuvre avec la FAO, CIFOR-ICRAF et WCS
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://www.cirad.fr/dans-le-monde/nos-directions-regionales/asie-du-sud-est-continentale/actualites-asie-du-sud-est-continentale/one-health-partnership-framework
+  fetched: 2026-10-30
+  quote: mis en œuvre avec la FAO, CIFOR-ICRAF et WCS
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

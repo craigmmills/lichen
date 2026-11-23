@@ -1,0 +1,60 @@
+id: tropicals-cn
+kind: organisation
+name: Tropicals.cn
+also_known_as: []
+scope: cn
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+ai_types:
+- large-language-models
+hq: cn
+scale: global
+status: active
+website: https://tropicals.cn
+summary: Wuhan-based platform of species data for research, nature education, zoos and gardens,
+  and the plant, aquarium and pet trades. It publishes an open name and taxonomy dataset and
+  an open model that matches Chinese names to scientific names.
+facts:
+- claim: GBIF record describes it as a China-based platform for tropical and subtropical species.
+  url: https://api.gbif.org/v1/organization/69c79f9b-c315-444b-abff-b37b2d8ba5e7
+  fetched: '2026-10-31'
+  quote: Tropicals.cn is a China-based digital platform dedicated to information on tropical
+    and subtropical species
+- claim: Says it serves research, nature education, zoos and gardens, and global trade.
+  url: https://tropicals.cn/about
+  fetched: '2026-10-31'
+  quote: 全球动植物的数据与智能平台。从一个准确的物种出发，服务科研、自然教育、动植物园与全球贸易。
+- claim: Sells API access from 7,000 yuan a year; free for non-commercial use on application.
+  url: https://tropicals.cn/datasets
+  fetched: '2026-10-31'
+  quote: ¥7,000 /年起（含税）
+- claim: Lists a method paper on a large language model pipeline for extracting species traits.
+  url: https://tropicals.cn/datasets
+  fetched: '2026-10-31'
+  quote: A Registry-Bound LLM Pipeline for Evidence-Grounded Trait Extraction across Tropical
+    Plants, Aquatic Species, and Exotic Pets
+  ai_type: large-language-models
+links:
+- type: runs
+  to: tropicals-t1
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 由 Tropicals.cn 在自建语料上训练，权重、训练数据与评测基准全部开放。
+- type: runs
+  to: tropicals-species-datasets
+  url: https://tropicals.cn/datasets
+  fetched: '2026-10-31'
+  quote: 419,741 个物种的名称、分类、养护与性状数据。
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

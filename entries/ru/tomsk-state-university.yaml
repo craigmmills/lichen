@@ -1,0 +1,63 @@
+id: tomsk-state-university
+kind: organisation
+name: Tomsk State University
+also_known_as:
+- ТГУ
+- Томский государственный университет
+- Tomsk State University
+scope: ru
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+hq: ru
+scale: national
+status: active
+summary: A university that says its Siberian AI centre is a joint project with Sberbank, runs
+  a biodiversity research project, and says its scientists use AI to estimate carbon cycling
+  at a Tomsk region test site.
+facts:
+- claim: Says its Siberian AI centre is a joint project of the university and Sberbank.
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Сибирский центр искусственного интеллекта и цифровых технологий ТГУ – совместный
+    проект ТГУ и ПАО «Сбербанк»
+- claim: Says its scientists use AI and machine learning to estimate the carbon cycle at a
+    carbon test site in Tomsk region.
+  url: https://bio.tsu.ru/node/8579
+  fetched: 2026-10-31
+  quote: Ученые используют технологии искусственного интеллекта и машинного обучения для высокоточной
+    оценки цикла углерода
+- claim: Its news site says its scientists and school students in Sirius collected a dataset
+    of holographic plankton images for a neural network.
+  url: https://news.tsu.ru/news/v-tgu-nauchili-neyroset-raspoznavat-parametry-planktona-dlya-ekomonitoringa/
+  fetched: '2026-10-31'
+  quote: Ученые Томского государственного университета вместе со школьниками в «Сириусе» собрали
+    базу голографических изображений планктона
+- claim: Its GBIF publisher record gives its address in Tomsk.
+  url: https://api.gbif.org/v1/organization/3cbfd597-59e3-4126-96e6-7422a9d37ffd
+  fetched: '2026-10-31'
+  quote: Lenin ave., 36
+links:
+- type: runs
+  to: tsu-biodiversity-research-project
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Проект «Исследование биоразнообразия» Сибирского центра ИИ ТГУ объединяет разработку
+    нескольких программных продуктов
+- type: partners-with
+  to: sber
+  url: https://news.tsu.ru/news/proekt-tgu-po-monitoringu-zhivotnykh-cherez-ii-pomogaet-zapovednikam-rossii/
+  fetched: 2026-10-31
+  quote: Сибирский центр искусственного интеллекта и цифровых технологий ТГУ – совместный
+    проект ТГУ и ПАО «Сбербанк»
+found_by:
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: 2026-10-31

@@ -1,0 +1,42 @@
+id: francisk-skorina-gomel-state-university
+kind: organisation
+name: Francisk Skorina Gomel State University
+also_known_as:
+- Гомельский государственный университет имени Франциска Скорины
+scope: by
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- by
+scale: national
+status: active
+website: https://www.gsu.by
+summary: Belarusian university that OpenAlex lists as the affiliation of the sole author of a 2022 remote
+  sensing paper on climate change and ecosystem productivity in Belarusian Polesie.
+facts:
+- claim: OpenAlex lists a 2022 paper on the influence of climate change on the productivity of ecosystems
+    of the Belarusian Polesie, based on remote sensing data.
+  url: https://api.openalex.org/works/W4286374656?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Influence of climate change on the productivity of ecosystems of the Belarusian Polesie based
+    on remote sensing data
+- claim: OpenAlex gives the university as the affiliation of that paper's sole author, A. P. Gusev.
+  url: https://api.openalex.org/works/W4286374656?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: '"raw_author_name":"A. P. GUSEV","raw_affiliation_strings":["F. Skorina Gomel State University"]'
+- claim: Its own site names it as the Gomel State University named after Francisk Skorina.
+  url: https://www.gsu.by
+  fetched: 2026-11-09
+  quote: Учреждение образования «Гомельский государственный университет имени Франциска Скорины»
+links: []
+found_by:
+- register:by
+added_by: agent
+checked: 2026-11-09

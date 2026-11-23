@@ -1,0 +1,35 @@
+id: mapppd
+kind: dataset
+name: Mapping Application for Penguin Populations and Projected Dynamics
+also_known_as:
+- MAPPPD
+scope: us
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+status: active
+summary: Open-access continent-wide database of Antarctic penguin data, developed
+  by Oceanites with the Lynch Lab at Stony Brook University and supported by NASA.
+facts:
+- claim: Developed with the Lynch Lab at Stony Brook University and supported by NASA.
+  url: https://www.oceanites.org/about
+  quote: is a continent-wide, open-access database developed with the Lynch Lab (Stony
+    Brook University) and supported by NASA
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: oceanites
+  url: https://www.oceanites.org/about
+  quote: Maintaining MAPPPD (Mapping Application for Penguin Populations and Projected
+    Dynamics)
+  fetched: '2026-10-30'
+- type: partners-with
+  to: nasa
+  url: https://www.oceanites.org/about
+  quote: "is a continent-wide, open-access database developed with the Lynch Lab (Stony Brook University) and supported by NASA"
+  fetched: '2026-10-30'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

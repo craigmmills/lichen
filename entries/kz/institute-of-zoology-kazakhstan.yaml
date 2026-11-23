@@ -1,0 +1,76 @@
+id: institute-of-zoology-kazakhstan
+kind: organisation
+name: Institute of Zoology of the Republic of Kazakhstan
+also_known_as:
+- Институт зоологии Республики Казахстан
+- Institute of Zoology
+scope: kz
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: kz
+countries:
+- kz
+scale: national
+status: active
+website: https://zool.kz
+summary: Research institute and GBIF publisher in Almaty whose Snow Leopard Monitoring Centre scientists
+  collected data to train a neural network, according to Yandex Cloud.
+facts:
+- claim: Yandex Cloud says scientists from the institute's Snow Leopard Monitoring Centre collected the
+    data to train its neural network.
+  url: https://yandex.cloud/ru-kz/blog/posts/2024/08/snow-leo
+  fetched: 2026-11-08
+  quote: учёные из Центра мониторинга снежного барса Института зоологии Республики Казахстан собрали данные
+    для обучения системы
+- claim: The institute presented on biodiversity data and GBIF in Kazakhstan at the GBIF Central Asia
+    meeting in April 2026.
+  url: https://zool.kz/?p=14159
+  fetched: 2026-11-08
+  quote: The presentation “Biodiversity data and GBIF opportunities in Kazakhstan” highlighted Kazakhstan’s
+    experience in integrating scientific data into the global GBIF infrastructure
+- claim: It is a registered GBIF data publisher.
+  url: https://api.gbif.org/v1/organization?country=KZ&limit=50
+  fetched: 2026-11-08
+  quote: Institute of Zoology of the Republic of Kazakhstan
+- claim: Its GBIF publisher record lists its main directions as the study of Kazakhstan's wildlife and
+    of changes in animal populations.
+  url: https://api.gbif.org/v1/organization/0255f116-fd08-4b15-9eb3-2b4e2062a323
+  fetched: 2026-11-08
+  quote: Kazakhstan wildlife investigation; animal population dynamics changes from environmental impact
+    studying
+- claim: It publishes a dataset on the distribution of marsh frogs in Kazakhstan on GBIF.
+  url: https://api.gbif.org/v1/organization/0255f116-fd08-4b15-9eb3-2b4e2062a323/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Distribution of marsh frogs (Pelophylax ridibundus complex) in Kazakhstan
+- claim: The marsh frog dataset compiles literature, museum, archive and 2021 to 2022 field records into
+    a database; its originators include researchers at the institute.
+  url: https://api.gbif.org/v1/dataset/78f7dbd8-859a-4d46-a278-85439d28db49
+  fetched: 2026-11-08
+  quote: a database has been compiled for all the frog finds known today for the period from the end of
+    the XX century to the present
+- claim: Its site lists a GIS and Remote Sensing Department among its units.
+  url: https://zool.kz/eng/main-page/
+  fetched: 2026-11-08
+  quote: GIS and Remote Sensing Department
+- claim: Its site lists wildlife accounting and monitoring among its services.
+  url: https://zool.kz/eng/main-page/
+  fetched: 2026-11-08
+  quote: Wildlife accounting and monitoring
+- claim: Its site gives an address in Almaty.
+  url: https://zool.kz/eng/main-page/
+  fetched: 2026-11-08
+  quote: Almaty, st. Al-Farabi 93
+links: []
+found_by:
+- checklist:2
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08
+techniques:
+- remote-sensing

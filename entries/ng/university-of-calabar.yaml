@@ -1,0 +1,37 @@
+id: university-of-calabar
+kind: organisation
+name: University of Calabar
+scope: ng
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: ng
+scale: national
+status: active
+website: https://www.unical.edu.ng/
+summary: University at Etagbor, Calabar, with 20 datasets on GBIF; three graduate students
+  began studying Cross River gorillas there in 2023 under an initiative, and their trail cameras
+  recorded the animals.
+facts:
+- claim: Three graduate students at the university began studying Cross River gorillas in
+    2023 under the initiative, and their trail cameras recorded the animals.
+  url: https://ncfnigeria.org/cross-river-gorilla-captured-on-trail-cameras-in-afi-mountain/
+  fetched: 2026-11-03
+  quote: since three graduate students at the University of Calabar in Nigeria began studying
+    this elusive subspecies last year as part of the Cross River Gorilla initiative
+- claim: Has 20 datasets published on GBIF.
+  url: https://api.gbif.org/v1/organization/2eb63315-3dab-4c4b-a992-8cdfb746bcea/publishedDataset?limit=30
+  fetched: 2026-11-03
+  quote: '"count":20'
+- claim: Its address is Etagbor, Calabar, Cross River State.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335/organization?limit=100
+  fetched: 2026-11-03
+  quote: University Of Calabar, Etagbor  PMB 1115 Calabar Cross River State
+found_by:
+- link-from:nigerian-conservation-foundation
+added_by: agent
+checked: 2026-11-03

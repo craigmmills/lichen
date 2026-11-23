@@ -1,0 +1,55 @@
+id: alita
+kind: model
+name: Alita
+scope: nz
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- nz
+status: active
+summary: A free desktop AI classifier for trail camera images, built by the Department of Conservation
+  and Weka Research, that classifies about 80 species and shares its training and validation data.
+facts:
+- claim: A free desktop AI classifier for trail camera images that classifies about 80 species, with training
+    and validation data shared.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/goal-tactics-and-new-technology/tools-to-market
+  fetched: 2026-11-07
+  quote: Development and refinement of a free to use desktop AI classifier ’Alita’ for processing trail
+    camera images. Alita is able to classify approximately 80 species.
+- claim: Classifies about 80 species and includes training and validation data for others to use.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: Alita is able to classify approximately 80 species. This also includes training and validation
+    data for others to use.
+links:
+- type: built-by
+  to: department-of-conservation-new-zealand
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/goal-tactics-and-new-technology/tools-to-market
+  fetched: 2026-11-07
+  quote: Alita (DOC Predator Science Team and Weka Research)
+- type: built-by
+  to: weka-research
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/goal-tactics-and-new-technology/tools-to-market
+  fetched: 2026-11-07
+  quote: Alita (DOC Predator Science Team and Weka Research)
+- type: built-by
+  to: department-of-conservation-new-zealand
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: Alita (DOC Predator Science Team and Weka Research) Development and refinement of a free to use
+    desktop AI classifier
+- type: built-by
+  to: weka-research
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: Alita (DOC Predator Science Team and Weka Research) Development and refinement of a free to use
+    desktop AI classifier
+runner: unknown
+found_by:
+- checklist:1
+- link-from:department-of-conservation
+added_by: agent
+checked: 2026-11-07

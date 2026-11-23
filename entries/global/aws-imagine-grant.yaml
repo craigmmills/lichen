@@ -1,0 +1,62 @@
+id: aws-imagine-grant
+kind: programme
+name: AWS Imagine Grant
+scope: global
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+- ocean
+status: active
+website: https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program
+summary: Public grant from AWS for registered nonprofits using cloud technology, with a generative AI award. Its 2024-2025 winners included The Nature Conservancy, Kent Wildlife Trust and the Wildlife Conservation Society.
+countries:
+- au
+- ca
+- us
+facts:
+- claim: Open to registered nonprofit organisations using cloud technology.
+  url: https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program
+  fetched: &id001 2026-10-30
+  quote: A public grant opportunity open to registered nonprofit organizations who are using cloud technology to accelerate their missions
+- claim: The Nature Conservancy won for generative AI tools for nature-based science.
+  url: https://aws.amazon.com/blogs/publicsector/announcing-the-2024-2025-aws-imagine-grant-winners/
+  fetched: *id001
+  quote: The Nature Conservancy (TNC) is developing the first-ever generative AI suite of tools for nature-based science
+- claim: Provides cash and AWS credit funding.
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  fetched: *id001
+  quote: provides both cash and Amazon Web Services (AWS) credit funding to registered nonprofit organizations
+- claim: 'A public grant for registered nonprofits.'
+  url: https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program
+  fetched: 2026-10-30
+  quote: 'A public grant opportunity open to registered nonprofit organizations'
+links:
+- type: run-by
+  to: amazon-web-services
+  url: https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program
+  fetched: *id001
+  quote: Accelerate Your Nonprofit's Mission with AWS Imagine Grant
+- type: funds
+  to: the-nature-conservancy
+  url: https://aws.amazon.com/blogs/publicsector/announcing-the-2024-2025-aws-imagine-grant-winners/
+  fetched: *id001
+  quote: The Nature Conservancy (TNC) is developing the first-ever generative AI suite of tools for nature-based science
+  year: 2024
+- type: funds
+  to: kent-wildlife-trust
+  url: https://aws.amazon.com/blogs/publicsector/announcing-the-2024-2025-aws-imagine-grant-winners/
+  fetched: *id001
+  quote: Kent Wildlife Trust , in collaboration with Buglife , is expanding their Bugs Matter citizen science app globally.
+  year: 2024
+- type: funds
+  to: mermaid
+  url: https://aws.amazon.com/blogs/publicsector/announcing-the-2024-2025-aws-imagine-grant-winners/
+  fetched: *id001
+  quote: Wildlife Conservation Society is developing Marine Ecological Research Management Aid ( MERMAID )
+  year: 2024
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

@@ -1,0 +1,64 @@
+id: khulna-university
+kind: organisation
+name: Khulna University
+also_known_as: []
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+- ml-unsupervised
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Bangladeshi university whose researchers co-wrote a 2021 wetland classification paper
+  using machine learning and a 2026 paper, with CSIRO and Monash co-authors, on predicting
+  species abundance from sparse observations.
+facts:
+- claim: A researcher in its Environmental Science Discipline co-wrote a 2021 paper on wetland
+    classification using optical indices and unsupervised and supervised machine learning
+    algorithms.
+  url: https://api.openalex.org/works/W3176962641?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: A simple and robust wetland classification approach by using optical indices, unsupervised
+    and supervised machine learning algorithms
+- claim: OpenAlex gives that author's affiliation as the Environmental Science Discipline,
+    Life Science School, Khulna University.
+  url: https://api.openalex.org/works/W3176962641?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Environmental Science Discipline, Life Science School, Khulna University, Khulna,
+    9208, Bangladesh
+- claim: The paper's title names the method (ml-supervised).
+  url: https://api.openalex.org/works/W3176962641?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: A simple and robust wetland classification approach by using optical indices, unsupervised
+    and supervised machine learning algorithms
+  ai_type: ml-supervised
+- claim: The paper's title names the method (ml-unsupervised).
+  url: https://api.openalex.org/works/W3176962641?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: A simple and robust wetland classification approach by using optical indices, unsupervised
+    and supervised machine learning algorithms
+  ai_type: ml-unsupervised
+- claim: A researcher at Khulna University was first author of a 2026 paper, with CSIRO and
+    Monash University co-authors, on predicting species abundance across space and time from
+    sparse observations.
+  url: https://api.openalex.org/works/W7138949203?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Leveraging Sparse Observations to Predict Species Abundance Across Space and Time
+- claim: OpenAlex gives the first author's affiliation as Khulna University.
+  url: https://api.openalex.org/works/W7138949203?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Khulna University, Khulna 9100
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-07'

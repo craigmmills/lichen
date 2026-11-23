@@ -1,0 +1,33 @@
+id: srm-institute-of-science-and-technology
+kind: organisation
+name: SRM Institute of Science and Technology
+scope: in
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: University named by OpenAlex as the affiliation of Sakthi A, first author
+  of a 2026 paper on elephant detection in thermal imagery using YOLOv8n.
+facts:
+- claim: OpenAlex lists Sakthi A, affiliated with its Department of Computational
+    Intelligence, as first author of a 2026 paper on elephant detection in thermal
+    imagery using YOLOv8n.
+  url: https://api.openalex.org/works/W7165394399?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Thermal Vision based Elephant Detection using YOLOv8n for Human Wildlife
+    Conflict Prevention
+- claim: OpenAlex gives the first author's affiliation as this university.
+  url: https://api.openalex.org/works/W7165394399?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: SRM Institute of Science and Technology,Department of Computational Intelligence,Chennai,India
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

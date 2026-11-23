@@ -1,0 +1,77 @@
+id: universidad-de-huelva
+kind: organisation
+name: Universidad de Huelva
+also_known_as:
+- University of Huelva
+- Universidad de Huelva
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: es
+scale: national
+status: active
+summary: Spanish university that ran the AI-CENSUS deep-learning wildlife census in Doñana
+  National Park.
+facts:
+- claim: Its team of ecologists, mathematicians and computer engineers developed a deep-learning
+    system for camera-trap images.
+  url: https://www.ecoticias.com/naturaleza/211086_fauna-donana-inteligencia-artificial
+  quote: Un equipo multidisciplinar formado por ecólogos, matemáticos e ingenieros informáticos
+    estamos desarrollando un sistema de aprendizaje profundo
+  fetched: '2026-10-31'
+- claim: Member of the WildINTEL project consortium.
+  url: https://wildintel.eu/about/
+  fetched: '2026-10-31'
+  quote: University of Huelva
+- claim: A PhD student there integrates photo-trapping and AI image classification in Doñana
+    National Park.
+  url: https://wildintel.eu/about/
+  fetched: '2026-10-31'
+  quote: present in Doñana National Park by integrating photo-trapping as a sampling method
+    and image classification with artificial intelligence
+- claim: Named as the beneficiary of the AI-CENSUS grant by Fundación Biodiversidad.
+  url: https://fundacion-biodiversidad.es/proyectos_ficha/sistema-automatico-de-censo-y-seguimiento-de-la-biodiversidad-usando-tecnicas-de-aprendizaje-profundo-deep-learning/
+  fetched: '2026-10-31'
+  quote: Universidad de Huelva
+- claim: Beneficiary of the AI-CENSUS project.
+  url: https://fundacion-biodiversidad.es/en/proyectos_ficha/automatic-biodiversity-census-and-monitoring-system-using-deep-learning-techniques/
+  fetched: '2026-10-31'
+  quote: Beneficiary entity University of Huelva
+- claim: AI-CENSUS used deep learning to identify species automatically in photo-trapping
+    images.
+  url: https://fundacion-biodiversidad.es/en/proyectos_ficha/automatic-biodiversity-census-and-monitoring-system-using-deep-learning-techniques/
+  fetched: '2026-10-31'
+  quote: through the automatic identification of species in photo-trapping images using deep
+    learning algorithms
+  ai_type: deep-learning
+found_by:
+- checklist:3
+- link-from:wildintel
+- register:es
+scope: es
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: partners-with
+  to: wildintel
+  url: https://wildintel.eu/about/
+  fetched: '2026-10-31'
+  quote: Project Consortium Institute of Nature Conservation PAS University of Huelva
+- type: runs
+  to: ai-census
+  url: https://fundacion-biodiversidad.es/proyectos_ficha/sistema-automatico-de-censo-y-seguimiento-de-la-biodiversidad-usando-tecnicas-de-aprendizaje-profundo-deep-learning/
+  fetched: '2026-10-31'
+  quote: Entidad beneficiaria Universidad de Huelva
+- type: runs
+  to: ai-census
+  url: https://fundacion-biodiversidad.es/en/proyectos_ficha/automatic-biodiversity-census-and-monitoring-system-using-deep-learning-techniques/
+  fetched: '2026-10-31'
+  quote: Beneficiary entity University of Huelva
+ai_types:
+- deep-learning

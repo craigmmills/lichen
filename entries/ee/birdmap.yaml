@@ -1,0 +1,59 @@
+id: birdmap
+kind: programme
+name: BirdMap
+also_known_as:
+- birdmap.5dvision.ee
+scope: ee
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: GPS tracking portal for migratory birds, operating since 2006, with over
+  160 birds of 12 species monitored and more than 850,000 fixes stored; the Environmental
+  Investment Centre funded its upgrade.
+facts:
+- claim: Developed by the NGO Kotkaklubi (Eagle Club) and 5D Vision Ltd to visualise
+    GPS data of migratory birds; operating since 2006.
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: NGO Kotkaklubi (Eagle Club) and 5D Vision Ltd have developed an online portal
+    birdmap.5dvision.ee, to visualize GPS data of migratory birds.
+- claim: Over 160 birds of 12 species monitored, with more than 850,000 GPS fixes
+    stored.
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: Birds of 12 different species have been monitored, total number of individuals
+    has been more than 160. Currently over 850 thousand occurrences (GPS fixes) are
+    stored in the database.
+- claim: Its upgrade was funded by the Environmental Investment Centre.
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: '"funding":"Environmental Investment Centre KIK12964, KIK18864"'
+links:
+- type: built-by
+  to: kotkaklubi
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: NGO Kotkaklubi (Eagle Club) and 5D Vision Ltd have developed an online portal
+    birdmap.5dvision.ee
+- type: built-by
+  to: 5d-vision
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: NGO Kotkaklubi (Eagle Club) and 5D Vision Ltd have developed an online portal
+    birdmap.5dvision.ee
+- type: funded-by
+  to: environmental-investment-centre
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: '"funding":"Environmental Investment Centre KIK12964, KIK18864"'
+- type: uses
+  to: plutof
+  url: https://api.gbif.org/v1/dataset/712dba38-74cc-4704-87c0-63d1bf8484bc
+  fetched: 2026-11-12
+  quote: To enable publishing of the data to GBIF, synchronization to PlutoF biological
+    data management platform was developed.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

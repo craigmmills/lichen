@@ -1,0 +1,44 @@
+id: northern-ireland-water
+kind: organisation
+name: Northern Ireland Water
+scope: gb
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+hq: gb
+countries:
+- gb
+scale: national
+summary: Water company named as a partner in River Deep Mountain AI, which builds open models
+  for river health.
+facts:
+- claim: Named as a project partner in River Deep Mountain AI.
+  url: https://www.nwg.co.uk/news-and-media/news-releases/river-deep-mountain-ai-releases-first-open-source-models/
+  quote: 'Northumbrian Water''s project partners are: ADAS, Anglian Water, Cognizant, Northern
+    Ireland Water, South West Water, Stream, The Rivers Trust, Google, WRc, Wessex Water and
+    Xylem.'
+  fetched: '2026-10-31'
+- claim: Registered at Companies House as NORTHERN IRELAND WATER LIMITED, company number NI054463,
+    registered office Westland House, Old Westland Road, Belfast, Co Antrim, Northern Ireland,
+    BT14 6TE.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=northern+ireland+water
+  quote: NORTHERN IRELAND WATER LIMITED NI054463 - Incorporated on 2 April 2005 Westland House,
+    Old Westland Road, Belfast, Co Antrim, Northern Ireland, BT14 6TE
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: river-deep-mountain-ai
+  url: https://www.nwg.co.uk/news-and-media/news-releases/river-deep-mountain-ai-releases-first-open-source-models/
+  quote: 'Northumbrian Water’s project partners are: ADAS, Anglian Water, Cognizant, Northern
+    Ireland Water, South West Water, Stream, The Rivers Trust, Google, WRc, Wessex Water and
+    Xylem'
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

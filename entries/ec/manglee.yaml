@@ -1,0 +1,48 @@
+id: manglee
+kind: project
+name: MANGLEE
+scope: ec
+ai_label: ai
+realms:
+- land
+- ocean
+countries:
+- ec
+status: unknown
+runner: unknown
+summary: A mangrove mapping and monitoring tool in Google Earth Engine, whose second module uses Random
+  Forest to classify mangrove and non-mangrove areas, with its paper listed in OpenAlex.
+facts:
+- claim: OpenAlex lists the paper describing the tool.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: 'MANGLEE: A Tool for Mapping and Monitoring MANgrove Ecosystem on Google Earth Engine'
+- claim: OpenAlex also lists a 2023 work titled “Monitoring of the mangrove ecosystem on the coastal of
+    Ecuador during the period 2018-2022”, with Lorena Caiza Morales as first author.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: Monitoring of the mangrove ecosystem on the coastal of Ecuador during the period 2018-2022
+- claim: It is a mangrove mapping and monitoring tool in Google Earth Engine.
+  url: https://appcenter.servirglobal.net/detail/53
+  fetched: '2026-11-02'
+  quote: MANGLEE (Mangrove Mapping and Monitoring Tool in Google Earth Engine)
+- claim: Its second module uses Random Forest to classify mangrove and non-mangrove areas.
+  url: https://appcenter.servirglobal.net/detail/53
+  fetched: '2026-11-02'
+  quote: employs Random Forest to classify mangrove and non-mangrove areas
+  ai_type: ml-supervised
+found_by:
+- checklist:3
+- checklist:4
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised
+links:
+- type: builds-on
+  to: google-earth-engine
+  url: https://appcenter.servirglobal.net/detail/53
+  fetched: '2026-11-02'
+  quote: Mangrove Mapping and Monitoring Tool in Google Earth Engine

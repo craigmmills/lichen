@@ -1,0 +1,59 @@
+id: rovbase
+kind: dataset
+name: Rovbase
+scope: 'no'
+summary: Management tool holding information on large carnivores across five species, built and run by
+  the Norwegian Environment Agency, including DNA analysis results.
+facts:
+- claim: A management tool for five species.
+  url: https://www.miljodirektoratet.no/rovbase
+  fetched: '2026-11-02'
+  quote: Rovbase er eit forvaltingsverktøy som tek vare på informasjon som er viktig for forvaltinga av
+    bjørn, jerv, ulv, gaupe og kongeørn.
+- claim: Data can be shown on a map or as a graph, or downloaded.
+  url: https://www.miljodirektoratet.no/rovbase
+  fetched: '2026-11-02'
+  quote: Dataa kan visast på kart, som graf eller lastast ned som ei Excel-fil.
+- claim: A management tool holding information on large carnivores.
+  url: https://www.miljodirektoratet.no/tjenester/nettsteder/rovbase/
+  fetched: '2026-11-02'
+  quote: Rovbase er eit forvaltingsverktøy som tek vare på informasjon som er viktig for forvaltinga av
+    bjørn, jerv, ulv, gaupe og kongeørn.
+- claim: Includes DNA analysis results, which can show animal movements.
+  url: https://www.miljodirektoratet.no/tjenester/nettsteder/rovbase/
+  fetched: '2026-11-02'
+  quote: Til dømes kan DNA-analysar gi informasjon om kor langt ein hannbjørn kan vandre
+links:
+- type: built-by
+  to: norwegian-environment-agency
+  url: https://www.miljodirektoratet.no/rovbase
+  fetched: '2026-11-02'
+  quote: Rovbasen er utvikla og drifta av Miljødirektoratet.
+- type: run-by
+  to: norwegian-environment-agency
+  url: https://www.miljodirektoratet.no/rovbase
+  fetched: '2026-11-02'
+  quote: drifta av Miljødirektoratet
+- type: run-by
+  to: norwegian-environment-agency
+  url: https://www.miljodirektoratet.no/tjenester/nettsteder/rovbase/
+  fetched: '2026-11-02'
+  quote: Rovbasen er utvikla og drifta av Miljødirektoratet.
+- type: built-by
+  to: norwegian-environment-agency
+  url: https://www.miljodirektoratet.no/tjenester/nettsteder/rovbase/
+  fetched: '2026-11-02'
+  quote: Rovbasen er utvikla og drifta av Miljødirektoratet.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- edna-genomics
+website: https://www.miljodirektoratet.no/rovbase
+countries:
+- 'no'

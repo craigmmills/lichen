@@ -1,0 +1,50 @@
+id: oceanites
+kind: organisation
+name: Oceanites
+scope: us
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: regional
+status: active
+website: https://www.oceanites.org/
+summary: Washington DC non-profit that monitors Antarctic penguins, combining field counts
+  with drone imagery, satellite data and AI analysis, and maintains the open MAPPPD database.
+facts:
+- claim: Headquartered in Washington, DC, and founded in 1987.
+  url: https://www.oceanites.org/about
+  quote: Oceanites, headquartered in Washington, DC, was founded in 1987
+  fetched: '2026-10-30'
+- claim: Its monitoring integrates drone imagery, satellite data and AI analysis.
+  url: https://www.oceanites.org/about
+  quote: a global monitoring effort that integrates drone imagery, satellite data, and AI
+    analysis
+  fetched: '2026-10-30'
+- claim: Maintains the MAPPPD open-access Antarctic penguin database.
+  url: https://www.oceanites.org/about
+  quote: Maintaining MAPPPD (Mapping Application for Penguin Populations and Projected Dynamics),
+    the definitive, open-access database of Antarctic penguin data
+  fetched: '2026-10-30'
+- claim: The IRS exempt organisation record, through ProPublica, lists Oceanites in Chevy
+    Chase, Maryland.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/521530218.json
+  fetched: '2026-10-31'
+  quote: '"city":"Chevy Chase","state":"MD"'
+links:
+- type: runs
+  to: mapppd
+  url: https://www.oceanites.org/about
+  quote: Maintaining MAPPPD (Mapping Application for Penguin Populations and Projected Dynamics)
+  fetched: '2026-10-30'
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-30'

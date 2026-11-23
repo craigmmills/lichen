@@ -1,0 +1,36 @@
+id: nawpaq-pacha
+kind: model
+name: ÑAWPAQ PACHA
+scope: pe
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pe
+status: active
+summary: A machine learning model built by Flor Melany Yanarico Huanca forecasts next-month
+  active-fire detection probabilities for Puno’s 108 districts and publishes dashboard risk
+  levels.
+facts:
+- claim: Forecasts one month ahead the probability of at least one active-fire detection in
+    each of Puno's 108 districts from public satellite and climate data.
+  url: https://doi.org/10.5281/zenodo.23355817
+  fetched: 2026-11-09
+  quote: forecasts one month ahead the probability of at least one active-fire detection in
+    each of the 108 districts of Puno, Peru
+- claim: Publishes risk levels, reasons and Spanish and Quechua recommendations in a web dashboard.
+  url: https://doi.org/10.5281/zenodo.23355817
+  fetched: 2026-11-09
+  quote: publishes risk levels, plain-language reasons and Spanish/Quechua recommendations
+    in a static web dashboard
+- claim: The record is tagged machine learning.
+  url: https://doi.org/10.5281/zenodo.23355817
+  fetched: 2026-11-09
+  quote: machine learning
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,29 @@
+id: mammal-diversity-database
+kind: dataset
+name: Mammal Diversity Database
+also_known_as:
+- MDD
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+status: active
+website: https://www.mammaldiversity.org
+summary: Database from the American Society of Mammalogists that tracks taxonomic changes to mammals, recording 6,904 species in version 2.5.
+facts:
+- claim: Tracks taxonomic changes to mammals.
+  url: https://www.mammaldiversity.org/
+  fetched: '2026-10-30'
+  quote: Track the latest taxonomic changes to living and recently extinct
+links:
+- type: run-by
+  to: american-society-of-mammalogists
+  url: https://www.mammaldiversity.org/
+  fetched: '2026-10-30'
+  quote: By the American Society of Mammalogists
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

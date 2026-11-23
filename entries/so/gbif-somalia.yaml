@@ -1,0 +1,32 @@
+id: gbif-somalia
+kind: programme
+name: GBIF Somalia
+scope: so
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- so
+status: active
+runner: unknown
+summary: Somalia's country node of GBIF, recorded by GBIF with voting participation status and created
+  in October 2026, and a partner of the Global Biodiversity Information Facility.
+facts:
+- claim: GBIF's node record lists GBIF Somalia as a country node with voting participation status, created
+    in October 2026.
+  url: https://api.gbif.org/v1/node/51f7e204-9065-4e7b-931f-688144a80a4a
+  fetched: 2026-11-12
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Somalia"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/51f7e204-9065-4e7b-931f-688144a80a4a
+  fetched: 2026-11-12
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

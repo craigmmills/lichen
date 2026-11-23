@@ -1,0 +1,32 @@
+id: darwin-ocean-os
+kind: model
+name: DARWIN
+scope: gb
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://www.oceanos.earth/
+summary: Ocean OS foundation model that turns satellite, buoy and model data into
+  high-resolution marine map layers.
+facts:
+- claim: Foundation model producing marine map layers from oceanographic data.
+  url: https://www.oceanos.earth/
+  quote: Our foundation model, DARWIN, transforms oceanographic data from a wide range
+    of sources
+  ai_type: foundation-models
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: oceanos-earth
+  url: https://www.oceanos.earth/
+  quote: Our foundation model, DARWIN
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

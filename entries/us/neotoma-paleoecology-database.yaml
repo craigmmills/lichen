@@ -1,0 +1,43 @@
+id: neotoma-paleoecology-database
+kind: dataset
+name: Neotoma Paleoecology Database
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+website: https://www.neotomadb.org
+summary: Community palaeoecology database.
+facts:
+- claim: Neotoma Paleoecology Database and community.
+  url: https://www.neotomadb.org/
+  fetched: '2026-10-30'
+  quote: NeotomaDB - Neotoma Paleoecology Database & Community
+- claim: International database collaboration.
+  url: https://api.gbif.org/v1/organization/97ed485e-17cf-4159-918f-1224026d2e6c
+  fetched: '2026-10-30'
+  quote: Neotoma is an international database collaborative effort among individuals
+    from 19 institutions
+- claim: Database, software and community.
+  url: https://www.neotomadb.org/about
+  fetched: '2026-10-30'
+  quote: Neotoma is a database, a software ecosystem, and a community
+- claim: Available to other data cooperatives.
+  url: https://www.neotomadb.org/about
+  fetched: '2026-10-30'
+  quote: It is available for use by other data cooperatives
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- Neotoma
+links:
+- type: led-by
+  to: pennsylvania-state-university
+  url: https://api.gbif.org/v1/organization/97ed485e-17cf-4159-918f-1224026d2e6c
+  fetched: '2026-10-30'
+  quote: The lead institutions are Pennsylvania State University and the Illinois
+    State Museum

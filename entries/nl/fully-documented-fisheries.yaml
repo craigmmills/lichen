@@ -1,0 +1,34 @@
+id: fully-documented-fisheries
+kind: project
+name: Fully Documented Fisheries
+scope: nl
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+countries:
+- nl
+runner: unknown
+summary: Project on a system that records fishing catches automatically with GPS,
+  sensors, cameras and an onboard computer. Researchers at Wageningen Marine Research
+  are developing the computer vision methods.
+facts:
+- claim: The catch is detected and classified automatically by number and species
+    on the conveyor belts.
+  url: https://www.wur.nl/en/longread/ai-opening-doors-large-scale-studies
+  fetched: '2026-10-31'
+  quote: The catch is automatically detected and classified by number and by species
+    as it passes along the conveyor belts.
+links:
+- type: partners-with
+  to: wageningen-university-and-research
+  url: https://www.wur.nl/en/longread/ai-opening-doors-large-scale-studies
+  fetched: '2026-10-31'
+  quote: Researchers at Wageningen Marine Research are developing computer vision
+    methods for analysing and interpreting the images.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

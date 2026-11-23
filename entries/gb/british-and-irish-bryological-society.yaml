@@ -1,0 +1,41 @@
+id: british-and-irish-bryological-society
+kind: organisation
+name: British and Irish Bryological Society
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.bibsbryology.org/
+summary: Society that publishes bryophyte records for Great Britain and Ireland on GBIF.
+facts:
+- claim: Publishes the dataset "Bryophyte data for Great Britain and Ireland from the British
+    Bryological Society held by BRC" on GBIF.
+  url: https://api.gbif.org/v1/organization/32f1b389-5871-4da3-832f-9a89132520c5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Bryophyte data for Great Britain and Ireland from the British Bryological Society
+    held by BRC
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/32f1b389-5871-4da3-832f-9a89132520c5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: The Charity Commission register lists the British Bryological Society as charity
+    228851.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/228851/contact-information
+  quote: BRITISH BRYOLOGICAL SOCIETY - 228851
+  fetched: '2026-10-31'
+- claim: Its own site gives routes for recording through iRecord.
+  url: https://www.bibsbryology.org/
+  quote: Start recording iRecord
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,44 @@
+id: coral-restoration-foundation
+kind: organisation
+name: Coral Restoration Foundation
+scope: us
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+scale: regional
+countries:
+- us
+status: active
+summary: Florida Keys reef restoration nonprofit that built CeruleanAI with AVI to process
+  reef imagery and track restoration progress.
+facts:
+- claim: Based in the Florida Keys.
+  url: https://www.avi.com/?p=13508
+  fetched: '2026-10-30'
+  quote: Based in the Florida Keys
+- claim: Gives its headquarters in Tavernier, Florida.
+  url: https://coralrestoration.org/contact/
+  fetched: '2026-10-31'
+  quote: 'Headquarters: 89111 Overseas Hwy, Tavernier, Florida 33070'
+- claim: The IRS exempt organisation record, through ProPublica, lists Coral Restoration Foundation
+    in Tavernier, Florida.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/651054647.json
+  fetched: '2026-10-31'
+  quote: '"city":"Tavernier","state":"FL"'
+links:
+- type: runs
+  to: ceruleanai
+  url: https://www.avi.com/?p=13508
+  fetched: '2026-10-30'
+  quote: AVI partnered with CRF to build CeruleanAI
+found_by:
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'
+website: https://coralrestoration.org

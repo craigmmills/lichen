@@ -1,0 +1,45 @@
+id: tra-vinh-university
+kind: organisation
+name: Tra Vinh University
+also_known_as: []
+scope: vn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- remote-sensing
+hq: unknown
+countries:
+- vn
+scale: national
+status: active
+funding_at_risk: false
+summary: 'University with authors listed in OpenAlex as first author of two papers: one on
+  urban bat echolocation calls in Vietnam, one on mangrove CO2 sequestration modelling using
+  random forest.'
+facts:
+- claim: OpenAlex lists an author at Tra Vinh University as first author of the paper titled
+    "Description of Echolocation Call Parameters for Urban Bats in Vietnam as a Step Towards
+    a More Integrated Acoustic Monitoring of Urban Wildlife in Southeast Asia".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01abaah21|006qk6d61|04afshy24|00ew91b62|052dmdr17|01rw3qm79|01351mb48|0244cgm12|01cs0jg44|03030f487|02b2dfs85|05kdc4973|004axh929|0363rtq22|01f1fsr30|04bm3wy68|05ghhgs79|044deqz63|047van922|05h7nhz20|04dp8y877|001ydh096|025a27r74|011c0vt04|003szmg30|04k1add31|03z9fzp04|00qpm2f14|05n473c60,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: Description of Echolocation Call Parameters for Urban Bats in Vietnam as a Step Towards
+    a More Integrated Acoustic Monitoring of Urban Wildlife in Southeast Asia
+- claim: OpenAlex lists an author at Tra Vinh University as first author of the paper titled
+    "Enhancing CO2 Sequestration Modeling in Mangrove Forests Through Random Forest Hyperparameter
+    Optimization and Remote Sensing Band Analysis".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01abaah21|006qk6d61|04afshy24|00ew91b62|052dmdr17|01rw3qm79|01351mb48|0244cgm12|01cs0jg44|03030f487|02b2dfs85|05kdc4973|004axh929|0363rtq22|01f1fsr30|04bm3wy68|05ghhgs79|044deqz63|047van922|05h7nhz20|04dp8y877|001ydh096|025a27r74|011c0vt04|003szmg30|04k1add31|03z9fzp04|00qpm2f14|05n473c60,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships&page=2
+  fetched: 2026-11-08
+  quote: Enhancing CO2 Sequestration Modeling in Mangrove Forests Through Random Forest Hyperparameter
+    Optimization and Remote Sensing Band Analysis
+links: []
+found_by:
+- register:vn
+- checklist:3
+added_by: agent
+checked: 2026-11-08

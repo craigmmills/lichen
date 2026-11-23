@@ -1,0 +1,61 @@
+id: iforsabah
+kind: programme
+name: iForSABAH
+also_known_as:
+- iForSabah
+- Sistem Pemantauan Kawasan Hutan Negeri Sabah
+scope: my
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- my
+status: active
+summary: Forest cover monitoring application built by the Malaysian Space Agency and Sabah Forestry Department;
+  a minister said in 2024 it uses satellite images to detect changes in forest reserves.
+facts:
+- claim: An application for forest cover management and monitoring, developed for the Sabah Forestry Department.
+  url: https://www.malaymail.com/news/malaysia/2023/05/26/science-ministry-mysa-sabah-forestry-dept-ink-mou-to-use-space-tech-to-manage-forest-resources/71107
+  fetched: 2026-11-03
+  quote: the iForSABAH application for forest cover management and monitoring
+- claim: Uses satellite images to detect changes in Sabah's forest reserves, a minister said in 2024.
+  url: https://www.malaymail.com/news/malaysia/2024/03/03/nik-nazmi-digital-innovation-usage-to-be-further-enhanced-for-wildlife-conservation/121141
+  fetched: 2026-11-03
+  quote: using satellite imagery as a remote sensing monitoring measure to detect any changes occurring
+    in the forest reserve areas in Sabah
+- claim: The science ministry describes it as an application for managing and monitoring forest cover,
+    developed to help the Sabah Forestry Department.
+  url: https://www.mosti.gov.my/berita/memorandum-persefahaman-mou-bersama-jabatan-perhutanan-sabah-bersama-agensi-angkasa-malaysia/
+  fetched: 2026-11-03
+  quote: Sistem iForSABAH bagi pengurusan dan pemantauan litupan hutan
+links:
+- type: built-by
+  to: sabah-forestry-department
+  url: https://www.malaymail.com/news/malaysia/2024/03/03/nik-nazmi-digital-innovation-usage-to-be-further-enhanced-for-wildlife-conservation/121141
+  fetched: 2026-11-03
+  quote: the Sabah Forestry Department, in collaboration with the Malaysian Space Agency (MYSA), has developed
+    the iForSabah system
+- type: built-by
+  to: malaysian-space-agency
+  url: https://www.mysa.gov.my/space-technology-application/
+  fetched: &id001 2026-11-03
+  quote: SENARAI 65 SISTEM APLIKASI BERTERASKAN TEKNOLOGI ANGKASA YANG DIBANGUNKAN OLEH MYSA SEHINGGA
+    TAHUN 2025
+- type: run-by
+  to: malaysian-space-agency
+  url: https://www.mysa.gov.my/space-technology-application/
+  fetched: *id001
+  quote: Pembangunan dan pengoperasian pelbagai sistem aplikasi ini dilaksanakan secara dalaman oleh MYSA
+    semenjak tahun 2008 dengan kerjasama strategik pelbagai agensi kerajaan.
+- type: built-by
+  to: malaysian-space-agency
+  url: https://www.mosti.gov.my/berita/memorandum-persefahaman-mou-bersama-jabatan-perhutanan-sabah-bersama-agensi-angkasa-malaysia/
+  fetched: 2026-11-03
+  quote: Melalui kerjasama ini, beberapa pakej Sistem Aplikasi telah dibangunkan khusus untuk membantu
+    pihak Jabatan Perhutanan Sabah dalam pengurusan sumber hutan
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

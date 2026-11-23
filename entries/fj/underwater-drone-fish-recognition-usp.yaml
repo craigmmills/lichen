@@ -1,0 +1,28 @@
+id: underwater-drone-fish-recognition-usp
+kind: project
+name: Real-time fish recognition on an underwater drone
+scope: fj
+ai_label: ai
+status: unknown
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- fj
+ai_types:
+- deep-learning
+summary: Deep learning fish recognition for low-quality images on an underwater drone, published
+  in 2024 by authors at the University of the South Pacific.
+facts:
+- claim: Paper on real-time fish recognition with deep learning on an underwater drone.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:FJ,from_publication_date:2017-01-01,primary_topic.id:T10036|T10320|T12026|T11652&per_page=100&sort=publication_date:desc&select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: A Real-Time Fish Recognition Using Deep Learning Algorithms for Low-Quality Images
+    on an Underwater Drone
+  ai_type: deep-learning
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

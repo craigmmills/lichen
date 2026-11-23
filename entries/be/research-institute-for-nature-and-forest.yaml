@@ -1,0 +1,108 @@
+id: research-institute-for-nature-and-forest
+kind: organisation
+name: Research Institute for Nature and Forest
+also_known_as:
+- INBO
+- Instituut voor Natuur- en Bosonderzoek
+- Research Institute for Nature and Forest
+scope: be
+sector: government
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: be
+countries:
+- be
+scale: national
+status: active
+summary: Flemish government research institute that reported in April 2024 that it and three
+  other bodies used AI to digitise historical land use maps of Flanders and Brussels.
+facts:
+- claim: LifeWatch Belgium says INBO is one of two members of the Flemish LifeWatch Consortium.
+  url: https://www.lifewatch.be/news/lifewatch-flanders-ready-next-level
+  fetched: 2026-11-02
+  quote: The Flemish LifeWatch Consortium consists of the Flanders Marine Institute ( VLIZ
+    ) and the Research Institute for Nature and Forest ( INBO ).
+- claim: The GBIF.be team includes a data officer at INBO.
+  url: https://gbif.biodiversity.be/post/2024/node-staff/
+  fetched: 2026-11-02
+  quote: Dimitri Brosens , Data Officer @ INBO
+- claim: B-Cubed describes it as the Flemish research and knowledge centre for nature and
+    its sustainable management and use.
+  url: https://b-cubed.eu/partners
+  fetched: '2026-11-02'
+  quote: is the Flemish research and knowledge centre for nature and its sustainable management
+    and use
+- claim: Peter Desmet leads its Open science lab for biodiversity, B-Cubed says.
+  url: https://b-cubed.eu/partners
+  fetched: '2026-11-02'
+  quote: team lead for INBO's Open science lab for biodiversity
+- claim: VITO says INBO, the Flemish agriculture agency, Digitaal Vlaanderen and VITO pooled
+    their expertise to map historical land use.
+  url: https://vito.be/nl/nieuws/250-jaar-landschapsevolutie-beeld-met-behulp-van-ai
+  fetched: '2026-11-02'
+  quote: hebben hun expertise samengelegd om het historische landgebruik in kaart te brengen
+- claim: A VITO page cites an INBO report on deep learning image classification of three historical
+    maps.
+  url: https://vito.be/nl/nieuws/250-jaar-landschapsevolutie-beeld-met-behulp-van-ai
+  fetched: '2026-11-02'
+  quote: Resultaten van deep learning (AI) beeldclassificatie toegepast op drie historische
+    kaarten.
+  ai_type: deep-learning
+- claim: The VMM says it works with INBO on eDNA methods.
+  url: https://en.vmm.vlaanderen.be/projects/project-portfolio/life-smart-ias-smart-technology-for-the-management-of-invasive-species
+  fetched: '2026-11-02'
+  quote: Together with INBO, the VMM is working on optimizing the eDNA metholodgy.
+- claim: DiSSCo Belgium lists it as a partner in DiSSCo Flanders.
+  url: https://www.dissco.eu/be/
+  fetched: '2026-11-02'
+  quote: Research Institute for Nature and Forest (INBO)
+- claim: GBIF's publisher record describes INBO as the independent research institute of the
+    Flemish government.
+  url: https://api.gbif.org/v1/organization/1cd669d0-80ea-11de-a9d0-f1765f95f18b
+  fetched: 2026-11-02
+  quote: The Research Institute for Nature and Forest (INBO) is the independent research institute
+    of the Flemish government
+links:
+- type: partners-with
+  to: big-picture-camera-trapping
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-11-02'
+  quote: Department of Wildlife Management and Invasive Species, Research Institute for Nature
+    and Forest, Brussels, Belgium
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Research Institute for Nature and Forest, Brussels, Belgium
+- type: partners-with
+  to: hirad
+  url: https://www.biodiversa.eu/2024/04/15/hirad/
+  fetched: '2026-11-02'
+  quote: Institute for Nature and Forest (INBO), Brussels, Belgium
+- type: partners-with
+  to: b-cubed
+  url: https://b-cubed.eu/partners
+  fetched: '2026-11-02'
+  quote: The Research Institute for Nature and Forest (INBO) is the Flemish research and knowledge
+    centre
+found_by:
+- checklist:1
+- link-from:b-cubed
+- link-from:agouti
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing
+- edna-genomics
+- computer-vision
+- bioacoustics
+ai_types:
+- deep-learning

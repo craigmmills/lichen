@@ -1,0 +1,54 @@
+id: hacettepe-universitesi
+kind: organisation
+name: Hacettepe Üniversitesi
+also_known_as:
+- Hacettepe University
+- Hacettepe Üniversitesi
+scope: tr
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: tr
+countries:
+- tr
+scale: national
+status: active
+summary: A university whose affiliated authors published a 2023 neural network study of forest
+  fire susceptibility in Türkiye and a 2021 paper using Maxent and citizen science data on
+  Jacobin cuckoo habitat.
+facts:
+- claim: Authors affiliated with Hacettepe University and ETH Zurich published a 2023 paper
+    on artificial neural networks for assessing forest fire susceptibility in Türkiye.
+  url: https://api.openalex.org/works/W4322102192?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Artificial neural networks for assessing forest fire susceptibility in
+- claim: Address of the department in that paper's affiliation line.
+  url: https://api.openalex.org/works/W4322102192?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Hacettepe University, Department of Geomatics Engineering, 06800 Beytepe, Ankara
+- claim: Its research information system lists a 2021 paper in the ISPRS International Journal
+    of Geo-Information on Maxent and citizen science for Jacobin cuckoo habitat suitability,
+    marked as affiliated with the university.
+  url: https://avesis.hacettepe.edu.tr/yayin/faa4ec1e-f60e-417b-925c-52bec2a65c83/role-of-maximum-entropy-and-citizen-science-to-study-habitat-suitability-of-jacobin-cuckoo-in-different-climate-change-scenarios
+  fetched: '2026-11-03'
+  quote: Role of Maximum Entropy and Citizen Science to Study Habitat Suitability of Jacobin
+    Cuckoo in Different Climate Change Scenarios
+- claim: The abstract says biodiversity data from citizen observatories can be used in machine
+    learning algorithms to predict suitable conditions for species.
+  url: https://avesis.hacettepe.edu.tr/yayin/faa4ec1e-f60e-417b-925c-52bec2a65c83/role-of-maximum-entropy-and-citizen-science-to-study-habitat-suitability-of-jacobin-cuckoo-in-different-climate-change-scenarios
+  fetched: '2026-11-03'
+  quote: The biodiversity data from citizen observatories can be employed in machine learning
+    algorithms for predicting suitable environmental conditions for species' survival and
+    their future migration behaviours.
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03
+techniques:
+- species-distribution

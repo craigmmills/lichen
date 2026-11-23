@@ -1,0 +1,57 @@
+id: bristol-zoological-society
+kind: organisation
+name: Bristol Zoological Society
+also_known_as:
+- BZS
+scope: gb
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+scale: national
+status: active
+website: https://bristolzoo.org.uk/
+summary: Conservation society that worked with the University of Bristol on machine learning
+  and drones for wildlife conservation, including Kordofan giraffe in Cameroon.
+facts:
+- claim: Worked with the University of Bristol on machine learning and drone technology.
+  url: https://www.bristol.ac.uk/news/2020/january/cameroon-giraffes.html
+  quote: are pioneering a new approach to wildlife conservation, involving machine-learning
+    and drone technology
+  fetched: &id001 2026-10-30
+- claim: Registered office in Bristol.
+  url: https://bristolzoo.org.uk/
+  quote: 'Registered office: Hollywood Mansion House, Hollywood Lane, Bristol BS10 7TW.'
+  fetched: 2026-10-30
+- claim: Its native species team records bats and birds with passive acoustic monitors at
+    Bristol Zoo Project.
+  url: https://bristolzoo.org.uk/news/bristol-zoological-society-uses-cutting-edge-technology-for-species-monitoring
+  quote: have been using Passive Acoustic Monitoring (PAM) devices to monitor the diversity
+    of bat species
+  fetched: '2026-10-31'
+- claim: Students compared bird diversity with AudioMoth devices and BirdNET.
+  url: https://bristolzoo.org.uk/news/bristol-zoological-society-uses-cutting-edge-technology-for-species-monitoring
+  quote: students have been using AudioMoth devices and BirdNet to analyse data
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: wilder-sensing
+  url: https://bristolzoo.org.uk/news/bristol-zoological-society-uses-cutting-edge-technology-for-species-monitoring
+  quote: the team put the audio files through software from Wilder Sensing
+  fetched: '2026-10-31'
+- type: partners-with
+  to: university-of-bristol
+  url: https://www.bristol.ac.uk/news/2020/january/cameroon-giraffes.html
+  quote: The University of Bristol and the Bristol Zoological Society (BZS) are pioneering
+    a new approach
+  fetched: *id001
+found_by:
+- checklist:4
+- rule:checklist-misses
+added_by: agent
+checked: *id001

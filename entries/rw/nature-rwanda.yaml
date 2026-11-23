@@ -1,0 +1,52 @@
+id: nature-rwanda
+kind: organisation
+name: Nature Rwanda
+scope: rw
+sector: ngo
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: rw
+countries:
+- rw
+scale: national
+status: active
+website: https://www.naturerwanda.org
+summary: Rwandan non-profit based in Musanze that, per GBIF's publisher record, generates and shares biodiversity
+  data, and says it monitors vulture populations across Rwanda.
+facts:
+- claim: GBIF's publisher record describes it as a Rwandan non-profit based in Musanze that generates,
+    manages and shares biodiversity data.
+  url: https://api.gbif.org/v1/organization/6ea659fb-0611-4afb-98af-2010b6ddeedb
+  fetched: 2026-11-08
+  quote: Nature Rwanda is a Rwandan non-profit organization dedicated to conserving ecosystems and strengthening
+    community-led conservation efforts
+- claim: GBIF's publisher record gives its city as Musanze, Rwanda.
+  url: https://api.gbif.org/v1/organization/6ea659fb-0611-4afb-98af-2010b6ddeedb
+  fetched: 2026-11-08
+  quote: '"city":"Musanze"'
+- claim: JRS lists its 2025 to 2027 grant and a news item on its second pollinator survey.
+  url: https://jrsbiodiversity.org/grants/nature_rwanda/
+  fetched: 2026-11-08
+  quote: 'Field Notes: Nature Rwanda’s 2nd Pollinator Survey'
+- claim: Says it monitors vulture populations across Rwanda, tracking nests, roosts and population trends.
+  url: https://www.naturerwanda.org/volture/
+  fetched: 2026-11-08
+  quote: We monitor vulture populations across Rwanda, work with local communities to end poisoning, and
+    advocate for stronger legal protections for all raptor species.
+- claim: Lists a Wetland Conservation Project and a Vultures Conservation Project among its latest projects.
+  url: https://www.naturerwanda.org
+  fetched: 2026-11-08
+  quote: Wetland Conservation Project
+links: []
+found_by:
+- link-from:jrs-biodiversity-foundation
+- rule:ngo-broad
+- register:rw
+- checklist:4
+added_by: agent
+checked: 2026-11-08

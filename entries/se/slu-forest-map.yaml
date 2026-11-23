@@ -1,0 +1,37 @@
+id: slu-forest-map
+kind: dataset
+name: SLU Forest Map
+scope: se
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- se
+summary: Dataset built by the Swedish University of Agricultural Sciences, building on the Swedish National
+  Forest Inventory, that includes wall-to-wall raster maps of tree species across the country.
+facts:
+- claim: Includes wall-to-wall raster maps of tree species across the country.
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: These include wall-to-wall raster maps of tree species across the country.
+links:
+- type: built-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: The project group works continuously to develop remote sensing methods for the creation of national
+    raster databases containing estimated forest variables. These activities include map products such
+    as the Swedish Open National Forest Attribute Maps and the SLU Forest Map.
+- type: builds-on
+  to: swedish-national-forest-inventory
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: Through the joint processing of field inventories from SLU's National Forest Inventory and satellite
+    imagery, a range of map products has been produced to describe Sweden's forests.
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'

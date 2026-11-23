@@ -1,0 +1,40 @@
+id: salmon-vision
+kind: model
+name: Salmon Vision
+scope: us
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- computer-vision
+countries:
+- us
+- ca
+status: active
+summary: Deep learning model that identifies and counts salmon in video from fish
+  weirs, developed by Wild Salmon Center with the Pacific Salmon Foundation, Gitanyow
+  Fisheries Authority and Skeena Fisheries Commission.
+facts:
+- claim: Identifies and counts fish species from weir video.
+  url: https://wildsalmoncenter.org/2023/10/18/artificial-intelligence-meet-indigenous-fishing-technology/
+  fetched: '2026-10-30'
+  quote: the Salmon Vision computer deep learning model leverages rapidly emerging
+    artificial intelligence tools to identify and count fish species.
+- claim: Described as a computer deep learning model.
+  ai_type: deep-learning
+  url: https://wildsalmoncenter.org/2023/10/18/artificial-intelligence-meet-indigenous-fishing-technology/
+  fetched: '2026-10-30'
+  quote: the Salmon Vision computer deep learning model
+links:
+- type: run-by
+  to: wild-salmon-center
+  url: https://wildsalmoncenter.org/2023/10/18/artificial-intelligence-meet-indigenous-fishing-technology/
+  fetched: '2026-10-30'
+  quote: developed by WSC in partnership with the Pacific Salmon Foundation, Gitanyow
+    Fisheries Authority, and Skeena Fisheries Commission
+found_by:
+- link-from:wild-salmon-center
+added_by: agent
+checked: '2026-10-30'

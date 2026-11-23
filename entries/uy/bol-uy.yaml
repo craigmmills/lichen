@@ -1,0 +1,65 @@
+id: bol-uy
+kind: programme
+name: BoL-UY
+scope: uy
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+status: active
+runner: unknown
+countries:
+- uy
+summary: Programme working towards a national reference database of barcode sequences in Uruguay, begun
+  in 2014 and supported since 2020 by the Ministry of Education and Culture's science directorate.
+facts:
+- claim: Its GBIF publisher record says the first initiative for a national reference database of barcode
+    sequences in Uruguay was launched in 2014 by the then Minister of Education and Culture.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: The first initiative in Uruguay to establish a reference database of barcode-type sequences (Barcode
+    of Life, BOL) at the national level was launched in 2014 by the then Minister of Education and Culture,
+    Dr. Ricardo Ehrlich.
+- claim: The same record says the Ministry of Education and Culture's National Directorate of Innovation,
+    Science and Technology has supported the process since 2020.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: Since 2020, the National Directorate of Innovation, Science, and Technology (DICyT) of the MEC
+    has supported the process initiated by the National Secretariat of Science and Technology.
+- claim: GBIF's registry lists three datasets published by BoL-UY.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"longitude":-55.92805,"numPublishedDatasets":3'
+- claim: Its GBIF publisher record says the first initiative in Uruguay to establish a national reference
+    database of barcode-type sequences was launched in 2014 by the then Minister of Education and Culture.
+  url: https://api.gbif.org/v1/organization/89736335-7c56-4efc-97a2-7c109bfece23
+  fetched: 2026-11-08
+  quote: The first initiative in Uruguay to establish a reference database of barcode-type sequences (Barcode
+    of Life, BOL) at the national level was launched in 2014 by the then Minister of Education and Culture,
+    Dr. Ricardo Ehrlich.
+- claim: Its GBIF publisher record says a 2018 PEDECIBA-Udelar course funded by the CBD set out, among
+    its objectives, to advance the creation of a national Barcode of Life node.
+  url: https://api.gbif.org/v1/organization/89736335-7c56-4efc-97a2-7c109bfece23
+  fetched: 2026-11-08
+  quote: Among the project's objectives was the advancement of the creation of a National BOL Node.
+- claim: Its GBIF publisher record says that since 2020 the National Directorate of Innovation, Science
+    and Technology (DICyT) of the Ministry of Education and Culture has supported the process.
+  url: https://api.gbif.org/v1/organization/89736335-7c56-4efc-97a2-7c109bfece23
+  fetched: 2026-11-08
+  quote: Since 2020, the National Directorate of Innovation, Science, and Technology (DICyT) of the MEC
+    has supported the process initiated by the National Secretariat of Science and Technology.
+links:
+- type: partners-with
+  to: direccion-nacional-de-innovacion-ciencia-y-tecnologia-uruguay
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: Since 2020, the National Directorate of Innovation, Science, and Technology (DICyT) of the MEC
+    has supported the process initiated by the National Secretariat of Science and Technology.
+found_by:
+- link-from:gbif-uruguay
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

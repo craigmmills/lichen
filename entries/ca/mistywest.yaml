@@ -1,0 +1,46 @@
+id: mistywest
+kind: organisation
+name: MistyWest
+scope: ca
+sector: company
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+hq: ca
+scale: national
+status: active
+website: https://www.mistywest.com/
+summary: Vancouver engineering firm that designed a low-power Argos tracking device
+  for polar bears at the request of WWF and IDEO, and published the design files as
+  open source.
+facts:
+- claim: Engineering firm with a Vancouver, British Columbia address.
+  url: https://www.mistywest.com/posts/project/wwf-polar-bear-tracking-device/
+  fetched: 2026-11-21
+  quote: 554 East 15th Ave
+- claim: Designed a low-power Argos tracking device for polar bears, after WWF and
+    IDEO asked it to.
+  url: https://www.mistywest.com/posts/project/wwf-polar-bear-tracking-device/
+  fetched: 2026-11-21
+  quote: WWF and IDEO reached out to MistyWest to design an Argos based tracking device
+    to help solve this problem.
+- claim: Published the design files of the polar bear tracker as open source.
+  url: https://www.mistywest.com/posts/project/wwf-polar-bear-tracking-device/
+  fetched: 2026-11-21
+  quote: The results of this project, along with the open-source files, are now offered
+    on Github to allow other developers opportunities to advance and refine this technology.
+links:
+- type: builds
+  to: polar-bear-tracker
+  url: https://www.mistywest.com/posts/project/wwf-polar-bear-tracking-device/
+  fetched: 2026-11-21
+  quote: MistyWest delivered a low power tracking device that was light enough for
+    a polar bear’s ear
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

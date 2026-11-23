@@ -1,0 +1,41 @@
+id: bigearthnet
+kind: dataset
+name: BigEarthNet
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- at
+- be
+- fi
+- ie
+- lt
+- lu
+- pt
+- rs
+- ch
+status: active
+website: https://bigearth.net
+summary: Benchmark data set of 549,488 paired Sentinel-1 and Sentinel-2 patches from ten European
+  countries with land cover labels, built at TU Berlin.
+facts:
+- claim: 549,488 pairs of Sentinel-1 and Sentinel-2 patches.
+  url: https://bigearth.net/
+  fetched: '2026-10-30'
+  quote: BigEarthNet v2.0 is a benchmark dataset consisting of 549,488 pairs of Sentinel-1
+    and
+links:
+- type: run-by
+  to: technische-universitat-berlin
+  url: https://bigearth.net/
+  fetched: '2026-10-30'
+  quote: The BigEarthNet v2.0 dataset was constructed by the Remote Sensing Image Analysis
+    (RSiM) Group and the Database Systems and Information Management (DIMA) Group at the Technische
+    Universität Berlin (TU Berlin)
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

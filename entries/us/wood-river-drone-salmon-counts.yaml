@@ -1,0 +1,40 @@
+id: wood-river-drone-salmon-counts
+kind: project
+name: Wood River drone salmon counts
+scope: us
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+scale: local
+status: active
+summary: Bristol Bay project using automated drone flights on the Wood River and an AI model
+  trained on hand-counted footage to improve salmon escapement counts. Alaska Fish and Game
+  is not directly involved at this stage.
+facts:
+- claim: Technicians are training an AI-powered model by manually identifying fish.
+  url: https://www.kdlg.org/fisheries/2026-07-03/ai-drones-and-salmon-what-new-technology-could-mean-for-bristol-bay-sockeye-counts
+  quote: By manually identifying the fish, Tibbs and his fellow technicians are training an
+    AI-powered model.
+  fetched: '2026-10-30'
+- claim: Partners include the University of Washington's Fisheries Research Institute, the
+    Bristol Bay Regional Seafood Development Association and the Bristol Bay Economic Development
+    Corporation.
+  url: https://www.kdlg.org/fisheries/2026-07-03/ai-drones-and-salmon-what-new-technology-could-mean-for-bristol-bay-sockeye-counts
+  quote: It’s one of the partners supporting this research, alongside Bristol Bay Regional
+    Seafood Development Association and Bristol Bay Economic Development Corporation.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: university-of-washington
+  url: https://www.kdlg.org/fisheries/2026-07-03/ai-drones-and-salmon-what-new-technology-could-mean-for-bristol-bay-sockeye-counts
+  quote: the University of Washington’s Fisheries Research Institute has a lab on the shore
+    of Lake Aleknagik. It’s one of the partners supporting this research
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

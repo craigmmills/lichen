@@ -1,0 +1,34 @@
+id: tampere-university
+kind: organisation
+name: Tampere University
+scope: fi
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+scale: national
+status: active
+summary: University whose Faculty of Information Technology and Communication Sciences is
+  the affiliation of Fahad Sohrab, first author of a 2020 paper on identifying rare benthic
+  macroinvertebrate taxa.
+facts:
+- claim: Fahad Sohrab is first author of a 2020 paper on boosting identification of rare benthic
+    macroinvertebrate taxa with one-class classification. Its metadata lists his affiliation
+    as Tampere University's Faculty of Information Technology and Communication Sciences and
+    the last author's affiliation as the Finnish Environment Institute.
+  url: https://api.openalex.org/works/W3008985973?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Boosting Rare Benthic Macroinvertebrates Taxa Identification With One-Class Classification
+- claim: The first author's affiliation is the Faculty of Information Technology and Communication
+    Sciences, Tampere University.
+  url: https://api.openalex.org/works/W3008985973?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Faculty of Information Technology and Communication Sciences, Tampere University,
+    Tampere, Finland
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

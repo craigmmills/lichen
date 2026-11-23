@@ -1,0 +1,30 @@
+id: universidad-de-san-carlos-de-guatemala
+kind: organisation
+name: Universidad de San Carlos de Guatemala
+also_known_as:
+- USAC
+scope: gt
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- gt
+scale: national
+status: active
+summary: University whose Centro de Estudios Conservacionistas, according to its GBIF publisher record,
+  is part of the university and holds a conservation data centre.
+facts:
+- claim: The GBIF publisher record of its Centro de Estudios Conservacionistas names the centre as part
+    of the university and says it holds a conservation data centre.
+  url: https://api.gbif.org/v1/organization/1eb0746b-24c4-40b7-9ed7-3381428e9648
+  fetched: 2026-11-08
+  quote: The Centro de Estudios Conservacionistas,Universidad de San Carlos de Guatemala (CECON-USAC)
+found_by:
+- register:openalex-institution
+- link-from:centro-de-estudios-conservacionistas
+added_by: agent
+checked: 2026-11-08

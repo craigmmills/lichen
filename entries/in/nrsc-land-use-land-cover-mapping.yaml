@@ -1,0 +1,37 @@
+id: nrsc-land-use-land-cover-mapping
+kind: dataset
+name: NRSC land use and land cover mapping
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- in
+summary: National Remote Sensing Centre mapping of land use and land cover for India,
+  annual at 1:250,000 and every five years at 1:50,000.
+scope: in
+status: active
+facts:
+- claim: Annual mapping at 1:250,000 scale.
+  url: https://www.nrsc.gov.in/nrscnew/Apps_LULC_overview.php
+  fetched: '2026-10-31'
+  quote: 'Annual Land use / Land cover mapping is carried out at 1 : 250000 scale'
+- claim: Generated every five years at 1:50,000 scale.
+  url: https://www.nrsc.gov.in/nrscnew/Apps_LULC_overview.php
+  fetched: '2026-10-31'
+  quote: 'Land use / land cover information is generated once in 5 years at 1: 50000
+    scale.'
+links:
+- type: run-by
+  to: national-remote-sensing-centre
+  url: https://www.nrsc.gov.in/nrscnew/Apps_LULC_overview.php
+  fetched: '2026-10-31'
+  quote: Annual LULC information on national spatial databases will enable the monitoring
+    of temporal dynamics of agricultural ecosystems, forest conversions, surface water
+    bodies
+found_by:
+- link-from:national-remote-sensing-centre
+added_by: agent
+checked: '2026-10-31'

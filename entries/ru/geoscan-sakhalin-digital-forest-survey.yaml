@@ -1,0 +1,36 @@
+id: geoscan-sakhalin-digital-forest-survey
+kind: project
+name: Geoscan digital forest survey in Sakhalin
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- ru
+status: closed
+summary: A closed project run by Geoscan in which AI determined tree species, height, diameter and plot
+  boundaries across more than 860 hectares.
+facts:
+- claim: AI determined tree species, height and diameter and plot boundaries.
+  url: https://www1.ru/en/news/2025/12/24/drony-i-ii-slediat-za-lesom-geoskan-provel-pervoe-v-rossii-cifrovoe-obsledovanie.html
+  quote: Artificial intelligence algorithms made it possible to determine tree species, calculate their
+    height and diameter, identify plot boundaries, and classify vegetation by category.
+  fetched: '2026-10-31'
+- claim: Surveyed more than 860 hectares.
+  url: https://www1.ru/en/news/2025/12/24/drony-i-ii-slediat-za-lesom-geoskan-provel-pervoe-v-rossii-cifrovoe-obsledovanie.html
+  quote: The total area of the surveyed territory exceeded 860 hectares.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: geoscan
+  url: https://www1.ru/en/news/2025/12/24/drony-i-ii-slediat-za-lesom-geoskan-provel-pervoe-v-rossii-cifrovoe-obsledovanie.html
+  quote: Specialists from the company "Geoscan" have, for the first time in Russia, applied artificial
+    intelligence to assess the results of reforestation using data obtained from drones.
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,54 @@
+id: yorkshire-water
+kind: organisation
+name: Yorkshire Water
+scope: gb
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+website: https://www.yorkshirewater.com
+summary: Water company that says it was the first in the UK to join the 1000 Rivers eDNA Project.
+facts:
+- claim: First UK water company to join the project.
+  url: https://www.yorkshirewater.com/news-media/2020/yorkshire-water-joins-1000-rivers-edna-project/
+  quote: Yorkshire Water has become the first UK water company to join the 1000 Rivers eDNA
+    project
+  fetched: '2026-10-31'
+- claim: Companies House lists Yorkshire Water Services Limited in Leeds.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=yorkshire+water+services
+  quote: YORKSHIRE WATER SERVICES LIMITED 02366682 - Incorporated on 1 April 1989 Ellington
+    House 9 Savannah Way, Leeds Valley Park, Leeds, England, LS10 1AB
+  fetched: '2026-10-31'
+- claim: Its May 2026 release says it has started a project with UnifAI Technology using AI
+    modelling for real-time water quality.
+  url: https://www.yorkshirewater.com/news-media/news-articles/2026/yorkshire-water-begins-real-time-ai-water-quality-project/
+  quote: Yorkshire Water, in collaboration with AI specialists UnifAI Technology, has started
+    an innovative research project that uses AI modelling
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: 1000-rivers-edna-project
+  url: https://www.yorkshirewater.com/news-media/2020/yorkshire-water-joins-1000-rivers-edna-project/
+  quote: Yorkshire Water has become the first UK water company to join the 1000 Rivers eDNA
+    project
+  fetched: '2026-10-31'
+- type: runs
+  to: site-agnostic-ai-models-water-quality-safety
+  url: https://www.yorkshirewater.com/news-media/news-articles/2026/yorkshire-water-begins-real-time-ai-water-quality-project/
+  quote: Yorkshire Water, in collaboration with AI specialists UnifAI Technology, has started
+    an innovative research project
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

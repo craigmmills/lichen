@@ -1,0 +1,44 @@
+id: habitatvision
+kind: organisation
+name: HabitatVision
+also_known_as: []
+scope: dk
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+hq: dk
+countries:
+- dk
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.habitatvision.dk/
+summary: Company that says it monitors terrestrial habitats and species diversity in the national
+  NOVANA programme and has its own sound laboratory for bat, amphibian and insect recordings.
+facts:
+- claim: Says it monitors terrestrial habitats and species diversity in the national NOVANA
+    programme.
+  url: https://www.habitatvision.dk/services/overvagning-kortlaegning
+  fetched: &id001 2026-11-02
+  quote: Af skov og lysåbne naturtyper i det nationale overvågningsprogram NOVANA
+- claim: Has its own sound laboratory for recording and analysing bat, amphibian and insect
+    sounds.
+  url: http://www.habitatvision.dk/vi-tilbyder/flagermus-og-vindelsnegle/31-lydlab
+  fetched: *id001
+  quote: indrettet eget lydlaboratorium til optagelse og analyse af flagermuse-, padde- og
+    insektlyde
+- claim: Says it enters survey data in Danmarks Naturdata.
+  url: https://www.habitatvision.dk/services/overvagning-kortlaegning
+  fetched: *id001
+  quote: indlægning af data i Danmarks Naturdata
+links: []
+found_by:
+- checklist:register
+added_by: agent
+checked: *id001

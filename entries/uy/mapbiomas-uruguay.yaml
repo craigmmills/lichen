@@ -1,0 +1,66 @@
+id: mapbiomas-uruguay
+kind: programme
+name: MapBiomas Uruguay
+also_known_as: []
+scope: uy
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- uy
+status: active
+runner: unknown
+website: https://uruguay.mapbiomas.org/es
+summary: Collaborative programme producing annual maps of 10 land cover classes for 1985 to
+  2024 at 30 m, reporting 2.9 million hectares of natural grassland lost over that period.
+facts:
+- claim: Collection 3 provides annual maps of 10 land cover and land use classes for 1985
+    to 2024 at 30 m resolution.
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/Factsheet_MapBiomas-Uruguay_Col-3_2025.pdf
+  fetched: 2026-11-08
+  quote: de 10 clases de cobertura y uso del suelo entre 1985 y 2024 resolución
+- claim: The factsheet describes the work as collaborative, with researchers from universities
+    and NGOs.
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/Factsheet_MapBiomas-Uruguay_Col-3_2025.pdf
+  fetched: 2026-11-08
+  quote: Trabajo colaborativo en red con investigadores de universidades y ONG
+- claim: Reports that 2.9 million hectares of natural grassland were lost between 1985 and
+    2024.
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/Factsheet_MapBiomas-Uruguay_Col-3_2025.pdf
+  fetched: 2026-11-08
+  quote: Entre 1985 y 2024 se perdieron 2,9 Mha
+- claim: Classification uses machine learning on Google Earth Engine.
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/Factsheet_MapBiomas-Uruguay_Col-3_2025.pdf
+  fetched: 2026-11-08
+  quote: utilizando algoritmos de aprendizaje automático (machine learning) en la plataforma
+    Google Earth Engine
+- claim: The Collection 3 methods document describes a supervised random forest classification.
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/ATBD_MapBiomas-Uruguay_Collection-3.pdf
+  fetched: 2026-11-08
+  quote: a supervised classification using the random forest algorithm was run
+  ai_type: ml-supervised
+- claim: The methods document names Santiago Baeza and Federico Gallego as country coordinators.
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/ATBD_MapBiomas-Uruguay_Collection-3.pdf
+  fetched: 2026-11-08
+  quote: Country coordinators Santiago Baeza Federico Gallego
+- claim: The site states that MapBiomas data are public, open and free, subject to citation.
+  url: https://uruguay.mapbiomas.org/es
+  fetched: 2026-11-08
+  quote: Los datos de MapBiomas son de uso público, abierto y gratuito, sujetos a citación.
+links:
+- type: uses
+  to: google-earth-engine
+  url: https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/Factsheet_MapBiomas-Uruguay_Col-3_2025.pdf
+  fetched: 2026-11-08
+  quote: utilizando algoritmos de aprendizaje automático (machine learning) en la plataforma
+    Google Earth Engine
+found_by:
+- checklist:2
+- checklist:7
+added_by: agent
+checked: 2026-11-08

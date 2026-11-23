@@ -1,0 +1,38 @@
+id: agriculture-and-forestry-university
+kind: organisation
+name: Agriculture and Forestry University
+scope: np
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+hq: unknown
+countries:
+- np
+status: active
+summary: A university whose Faculty of Forestry in Hetauda is listed by OpenAlex as the affiliation of
+  the first author of a paper integrating Earth observation and machine learning for forest fire risk
+  assessment in Rasuwa district.
+facts:
+- claim: OpenAlex lists a paper integrating Earth observation and machine learning for forest fire risk
+    assessment in Rasuwa district.
+  url: https://api.openalex.org/works/W7221573341?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Integrating earth observation and machine learning for forest fire risk assessment in Rasuwa
+    district, Nepal
+- claim: OpenAlex gives the paper's first author, Sudeep Jogi Kanwar, an affiliation with the university's
+    Faculty of Forestry in Hetauda.
+  url: https://api.openalex.org/works/W7221573341?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Faculty of Forestry, Agriculture and Forestry University, Hetauda, Makawanpur, Nepal
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

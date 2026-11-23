@@ -1,0 +1,34 @@
+id: universidad-de-oviedo
+kind: organisation
+name: Universidad de Oviedo
+also_known_as:
+- University of Oviedo
+scope: es
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+summary: Spanish university whose Biodiversity Research Institute, shared with CSIC and the
+  Principality of Asturias, is the first author's affiliation on a 2024 paper applying the
+  random encounter model to camera-trap data.
+facts:
+- claim: Pablo Palencia is first author of a 2024 paper on applying the random encounter model
+    to camera-trap data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I165339363,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: How many sequences should I track when applying the random encounter model to camera
+    trap data?
+- claim: The first author's affiliation is the Biodiversity Research Institute of the University
+    of Oviedo, CSIC and the Principality of Asturias.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I165339363,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Biodiversity Research Institute (University of Oviedo-CSIC-Principado de Asturias)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

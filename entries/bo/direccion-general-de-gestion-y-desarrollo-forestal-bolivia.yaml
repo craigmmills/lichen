@@ -1,0 +1,61 @@
+id: direccion-general-de-gestion-y-desarrollo-forestal-bolivia
+kind: organisation
+name: Dirección General de Gestión y Desarrollo Forestal
+also_known_as:
+- DGGDF
+scope: bo
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: bo
+countries:
+- bo
+scale: national
+status: active
+website: https://simb.produccion.gob.bo/simb/
+summary: Bolivian forest directorate that depends on the planning and environment
+  ministry and runs SIMB, which the SIMB site calls its official platform.
+facts:
+- claim: The SIMB site says the system is the directorate's official platform and
+    that the directorate depends on the Ministerio de Planificación del Desarrollo
+    y Medio Ambiente.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: El SIMB es la plataforma oficial de la Dirección General de Gestión y Desarrollo
+    Forestal (DGGDF), dependiente del Ministerio de Planificación del Desarrollo y
+    Medio Ambiente (MPDyMA).
+- claim: One set of the site's terms says the Ministerio de Medio Ambiente y Agua,
+    through DGGDF, created the site to give users access to forest vector information.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: El Ministerio de Medio Ambiente y Agua (MMAyA) a través de la Dirección General
+    de Gestión y Desarrollo Forestal (DGGDF), ve la importancia de difundir información
+    de calidad
+- claim: Gives its address in Obrajes, La Paz.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: 'Dirección: Av. 14 de Septiembre esq c. 8 Zona de Obrajes'
+links:
+- type: run-by
+  to: ministerio-de-planificacion-del-desarrollo-y-medio-ambiente
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: Dirección General de Gestión y Desarrollo Forestal (DGGDF), dependiente del
+    Ministerio de Planificación del Desarrollo y Medio Ambiente (MPDyMA)
+- type: runs
+  to: sistema-de-informacion-y-monitoreo-de-bosques
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: El SIMB es la plataforma oficial de la Dirección General de Gestión y Desarrollo
+    Forestal (DGGDF)
+found_by:
+- rule:checklist-misses
+- checklist:1
+added_by: agent
+checked: 2026-11-12

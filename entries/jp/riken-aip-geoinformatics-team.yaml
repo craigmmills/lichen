@@ -1,0 +1,43 @@
+id: riken-aip-geoinformatics-team
+kind: organisation
+name: Geoinformatics Team, RIKEN Center for Advanced Intelligence Project
+scope: jp
+sector: government
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://aip.riken.jp/labs/domain_intel/geoinf/
+summary: RIKEN team working on image processing and machine learning to understand Earth from
+  images, with a listed paper on OpenEarthMap, a global high-resolution land cover benchmark
+  dataset.
+facts:
+- claim: Says it works on data analysis based on image processing and machine learning to
+    understand what is happening on Earth from images.
+  url: https://www.riken.jp/en/research/labs/aip/domain/geoinf/index.html
+  fetched: 2026-11-02
+  quote: we are working on intelligent data analysis based on image processing and machine
+    learning
+- claim: Its page lists a paper on OpenEarthMap, a benchmark dataset for global high-resolution
+    land cover mapping.
+  url: https://www.riken.jp/en/research/labs/aip/domain/geoinf/index.html
+  fetched: 2026-11-02
+  quote: 'OpenEarthMap: A benchmark dataset for global high-resolution land cover mapping'
+links:
+- type: run-by
+  to: riken
+  url: https://www.riken.jp/en/research/labs/aip/domain/geoinf/index.html
+  fetched: 2026-11-02
+  quote: Geoinformatics Team | RIKEN
+found_by:
+- link-from:riken
+added_by: agent
+checked: 2026-11-02

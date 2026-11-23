@@ -1,0 +1,33 @@
+id: scar-antarctic-biodiversity-portal
+kind: dataset
+name: SCAR Antarctic Biodiversity Portal
+also_known_as:
+- biodiversity.aq
+- SCAR-MarBIN
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+status: active
+website: https://www.biodiversity.aq
+summary: Portal for Antarctic biodiversity records, which began as SCAR-MarBIN. Its home page counts occurrences in the SCAR and OBIS networks and lists tools and identification keys.
+facts:
+- claim: Its home page counts occurrence records across the SCAR and OBIS networks.
+  url: https://www.biodiversity.aq/
+  quote: Occurrences in both SCAR & OBIS network
+  fetched: 2026-10-30
+- claim: CORDIS reported the launch of the beta version of SCAR-MarBIN, a free online portal on life in and around the Antarctic region.
+  url: https://www.cordis.europa.eu/article/id/30644-new-portal-puts-spotlight-on-antarctic-biodiversity
+  quote: the launch of the beta version of a free, online portal containing the latest information on life in and around the Antarctic region
+  fetched: 2026-10-30
+links:
+- type: run-by
+  to: scientific-committee-on-antarctic-research
+  url: https://www.biodiversity.aq/
+  quote: SCAR Antarctic Biodiversity Portal
+  fetched: 2026-10-30
+found_by:
+- link-from:scientific-committee-on-antarctic-research
+added_by: agent
+checked: 2026-10-30

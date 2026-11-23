@@ -1,0 +1,44 @@
+id: biodiversity-data-portal-of-portugal
+kind: dataset
+name: Biodiversity Data Portal of Portugal
+scope: pt
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- pt
+status: active
+summary: A portal built and run by GBIF Portugal, building on the Atlas of Living
+  Australia, giving access to occurrence data for Portuguese territory published through
+  GBIF.
+facts:
+- claim: Gives access to occurrence data published by national institutions through
+    GBIF and by foreign institutions for Portuguese territory.
+  url: https://www.gbif.pt/infraestrutura?language=en
+  fetched: '2026-11-02'
+  quote: where is possible to access biodiversity occurrence data published by national
+    institutions through GBIF
+links:
+- type: built-by
+  to: portuguese-node-of-gbif
+  url: https://www.gbif.pt/infraestrutura?language=en
+  fetched: '2026-11-02'
+  quote: The Portuguese Node of GBIF implemented
+- type: run-by
+  to: portuguese-node-of-gbif
+  url: https://www.gbif.pt/infraestrutura?language=en
+  fetched: '2026-11-02'
+  quote: implemented and maintains the Biodiversity Data Portal of Portugal
+- type: builds-on
+  to: atlas-of-living-australia
+  url: https://www.gbif.pt/infraestrutura?language=en
+  fetched: '2026-11-02'
+  quote: This portal corresponds to the implementation of the national platform of
+    the Atlas of Living Australia
+found_by:
+- checklist:2
+- checklist:register
+added_by: agent
+checked: 2026-11-02

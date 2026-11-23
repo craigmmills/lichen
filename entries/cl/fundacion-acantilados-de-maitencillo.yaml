@@ -1,0 +1,42 @@
+id: fundacion-acantilados-de-maitencillo
+kind: organisation
+name: Fundación Acantilados de Maitencillo
+scope: cl
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: cl
+scale: local
+status: active
+website: http://www.fundacionacantilados.cl/
+summary: Organisation that says it keeps constant track of biodiversity to produce conservation
+  data, listing a Humboldt booby census and behavioural study and native carnivore monitoring,
+  and is funded by Guanay.
+facts:
+- claim: Says it keeps constant track of biodiversity to produce data for conservation.
+  url: http://www.fundacionacantilados.cl/
+  fetched: 2026-11-02
+  quote: Realizamos un seguimiento constante de la biodiversidad
+- claim: Lists a census and behavioural study of the Humboldt booby among its monitoring.
+  url: http://www.fundacionacantilados.cl/
+  fetched: 2026-11-02
+  quote: Censo y estudio etológico del piquero de Humboldt
+- claim: Lists monitoring of native carnivores.
+  url: http://www.fundacionacantilados.cl/
+  fetched: 2026-11-02
+  quote: Monitoreo de carnívoros nativos
+links:
+- type: funded-by
+  to: guanay
+  url: http://www.fundacionacantilados.cl/
+  fetched: 2026-11-02
+  quote: Guanay financia la Fundación como parte de sus obligaciones ambientales
+found_by:
+- checklist:register
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-02

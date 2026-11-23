@@ -1,0 +1,63 @@
+id: third-millennium-alliance
+kind: organisation
+name: Third Millennium Alliance
+also_known_as:
+- TMA
+scope: ec
+sector: ngo
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- ec
+scale: local
+status: active
+website: https://tma.earth/protecting-rainforest
+summary: Organisation reporting a 2,000-acre rainforest purchase for a reserve, with bioacoustic
+  monitoring and a neural network trained to identify wildlife vocalisations.
+facts:
+- claim: It says it created the reserve by buying 2,000 acres of threatened rainforest.
+  url: https://tma.earth/protecting-rainforest
+  fetched: 2026-11-02
+  quote: We created the Jama-Coaque Reserve (JCR) by purchasing and continuing to protect
+    2,000 acres of threatened rainforest
+- claim: Its monitoring stations use camera traps, automated audio recorders and climate sensors.
+  url: https://tma.earth/protecting-rainforest
+  fetched: 2026-11-02
+  quote: using motion-triggered camera traps, automated audio recorders (Audiomoths), and
+    climate sensors
+- claim: It says it has spent five years building a bioacoustic monitoring programme.
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: TMA has spent the past five years building one of Ecuador’s most advanced bioacoustic
+    monitoring programs
+- claim: It trained a convolutional neural network to identify wildlife vocalisations.
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: we trained a Convolutional Neural Network (CNN)
+  ai_type: deep-learning
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-02
+ai_types:
+- deep-learning
+links:
+- type: partners-with
+  to: rainforest-connection
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: Working with partners like Dr. Shawn McCracken (Texas A&M–Corpus Christi), Rainforest
+    Connection (RFCx), and Huawei Technologies
+- type: uses
+  to: arbimon
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: the AI model developed by TMA and Rainforest Connection using the Arbimon analysis
+    platform

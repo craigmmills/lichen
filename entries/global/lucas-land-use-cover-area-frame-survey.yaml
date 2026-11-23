@@ -1,0 +1,35 @@
+id: lucas-land-use-cover-area-frame-survey
+kind: dataset
+name: LUCAS Land Use/Cover Area Frame Survey
+also_known_as:
+- LUCAS
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: In-situ EU survey run by Eurostat that gives point-level information and harmonised statistics
+  on land use and land cover, publishing microdata for each surveyed point.
+facts:
+- claim: An in-situ survey giving point-level information and harmonised statistics on land use and land
+    cover for the EU.
+  url: https://ec.europa.eu/eurostat/web/lucas/overview
+  fetched: 2026-11-08
+  quote: The land use / cover area frame survey (LUCAS) is an in-situ survey.
+- claim: Publishes microdata on land cover, land use and environmental parameters for each surveyed point.
+  url: https://ec.europa.eu/eurostat/web/lucas/overview
+  fetched: 2026-11-08
+  quote: 'microdata : land cover, land use, and environmental parameters associated with the individual
+    points surveyed'
+links:
+- type: run-by
+  to: eurostat
+  url: https://ec.europa.eu/eurostat/web/lucas/information-data
+  fetched: 2026-11-08
+  quote: Since 2006, Eurostat carries out the land use and coverage area frame survey (LUCAS) every 3
+    to 4 years
+found_by:
+- register:lu
+- link-from:eurostat
+added_by: agent
+checked: 2026-11-08

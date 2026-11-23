@@ -1,0 +1,46 @@
+id: mygeobiod
+kind: dataset
+name: MyGeoBioD
+also_known_as:
+- Sistem Pengurusan dan Pangkalan Data Bersepadu Biodiversiti Kebangsaan
+scope: my
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- my
+status: unknown
+summary: A national integrated biodiversity management system and database, built by the Malaysian Space
+  Agency, whose page describes development with remote sensing, GIS and GPS and aims at a centralised
+  geospatial database.
+facts:
+- claim: Listed by the Malaysian Space Agency as a national integrated biodiversity management system
+    and database.
+  url: https://www.mysa.gov.my/space-technology-application/
+  fetched: 2026-11-03
+  quote: Sistem Pengurusan dan Pangkalan Data Bersepadu Biodiversiti Kebangsaan (MyGeoBioD)
+- claim: Its page describes development using remote sensing, GIS and GPS to support management and conservation
+    of national biodiversity resources.
+  url: https://mygeobiod.mysa.gov.my/
+  fetched: 2026-11-03
+  quote: MyGeoBiod is being developed using remote sensing, GIS and GPS technologies to support the management
+    and conservation of the national biodiversity resources program
+- claim: Its aim is a centralised geospatial biodiversity database.
+  url: https://mygeobiod.mysa.gov.my/
+  fetched: 2026-11-03
+  quote: The aim of MyGeoBiod is to provide a centralized geospatial biodiversity database
+links:
+- type: built-by
+  to: malaysian-space-agency
+  url: https://www.mysa.gov.my/space-technology-application/
+  fetched: 2026-11-03
+  quote: SENARAI 65 SISTEM APLIKASI BERTERASKAN TEKNOLOGI ANGKASA YANG DIBANGUNKAN OLEH MYSA SEHINGGA
+    TAHUN 2025
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

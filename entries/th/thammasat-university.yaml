@@ -1,0 +1,29 @@
+id: thammasat-university
+kind: organisation
+name: Thammasat University
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: https://tu.ac.th
+summary: University listed in OpenAlex as the affiliation given by the first author of a 2020
+  paper, Kritchayan Intarat; no other activity is recorded.
+facts:
+- claim: OpenAlex lists a 2020 paper whose first author, Kritchayan Intarat, gives an affiliation
+    at Thammasat University.
+  url: https://api.openalex.org/works?filter=institutions.ror:002yp7f20,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=200&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Modeling Mangrove Above-Ground Biomass Using Terrestrial Laser Scanning Techniques:
+    A Case Study of the Avicennia marina Species in the Bang Pu District, Thailand'
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

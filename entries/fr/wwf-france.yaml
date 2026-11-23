@@ -1,0 +1,36 @@
+id: wwf-france
+kind: organisation
+name: WWF France
+scope: fr
+sector: ngo
+roles:
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+website: https://www.wwf.fr/
+summary: The French office of WWF. Its team in French Guiana coordinates the Gardiens du Haut-Maroni
+  project, in which local people use camera traps to monitor forest health.
+facts:
+- claim: WWF France launched the Gardiens du Maroni project with the OFB and the Fondation
+    Anyama.
+  url: https://www.wwf.fr/vous-informer/effet-panda/sur-les-traces-des-felins-en-territoire-wayana
+  quote: le WWF France a lancé le projet des
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: gardiens-du-haut-maroni
+  url: https://www.wwf.fr/vous-informer/effet-panda/sur-les-traces-des-felins-en-territoire-wayana
+  quote: il est coordonné par l'antenne du WWF en Guyane
+  fetched: '2026-10-31'
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: '2026-10-31'

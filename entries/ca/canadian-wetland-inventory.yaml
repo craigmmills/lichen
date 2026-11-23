@@ -1,0 +1,40 @@
+id: canadian-wetland-inventory
+kind: dataset
+name: Canadian Wetland Inventory
+also_known_as:
+- CWI
+scope: ca
+ai_label: data-infrastructure
+status: active
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ca
+summary: A database built in 2002 by Ducks Unlimited Canada with Environment Canada,
+  the Canadian Space Agency and the North American Wetlands Conservation Council,
+  supported by more than 150 conservation partners.
+facts:
+- claim: Built in 2002 by Ducks Unlimited Canada with named partners.
+  url: https://www.rbcwealthmanagement.com/en-ca/community/insights/rbc-tech-for-nature-artificial-intelligence-and-canadas-sensitive-wetlands
+  fetched: '2026-10-31'
+  quote: In 2002, DUC—in collaboration with Environment Canada, the Canadian Space
+    Agency and the North American Wetlands Conservation Council—built a database,
+    the Canadian Wetland Inventory (CWI)
+links:
+- type: run-by
+  to: ducks-unlimited-canada
+  url: https://www.rbcwealthmanagement.com/en-ca/community/insights/rbc-tech-for-nature-artificial-intelligence-and-canadas-sensitive-wetlands
+  fetched: '2026-10-31'
+  quote: "In 2002, DUC—in collaboration with Environment Canada, the Canadian Space Agency and the North American Wetlands Conservation Council—built a database, the Canadian Wetland Inventory (CWI)"
+- type: partners-with
+  to: canadian-space-agency
+  url: https://www.rbcwealthmanagement.com/en-ca/community/insights/rbc-tech-for-nature-artificial-intelligence-and-canadas-sensitive-wetlands
+  fetched: '2026-10-31'
+  quote: in collaboration with Environment Canada, the Canadian Space Agency and the
+    North American Wetlands Conservation Council
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

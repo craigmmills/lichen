@@ -1,0 +1,40 @@
+id: hardshell-labs
+kind: organisation
+name: Hardshell Labs
+also_known_as:
+- HARDSHELL LABS
+- INC.
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: conservation-tech
+realms:
+- land
+hq: us
+scale: national
+status: unknown
+summary: Joshua Tree, California company funded by NSF SBIR for internet-connected devices
+  for wildlife research, management and monitoring.
+facts:
+- claim: SBIR Phase I for remotely operated avian management.
+  url: https://api.nsf.gov/services/v1/awards/2136815.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  Remotely Operated Avian Management'
+- claim: The NSF award record gives its address as 61313 Onaga Trail, Joshua Tree, California.
+  url: https://api.nsf.gov/services/v1/awards/2136815.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"61313 ONAGA TRAIL"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2136815.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  Remotely Operated Avian Management'
+  amount: 255014
+  year: 2022
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'

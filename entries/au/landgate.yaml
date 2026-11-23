@@ -1,0 +1,34 @@
+id: landgate
+kind: organisation
+name: Landgate
+scope: au
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: regional
+status: active
+website: https://www.landgate.wa.gov.au
+summary: Western Australian body whose imagery team developed FireWatch, satellite products
+  that detect fires and monitor their effect on the land.
+facts:
+- claim: Its imagery team developed FireWatch.
+  url: https://myfirewatch.landgate.wa.gov.au/help.html
+  fetched: '2026-10-31'
+  quote: FireWatch is a suite of fire monitoring products, services and solutions developed
+    by Landgate’s Imagery team.
+links:
+- type: runs
+  to: firewatch
+  url: https://myfirewatch.landgate.wa.gov.au/help.html
+  fetched: '2026-10-31'
+  quote: developed by Landgate’s Imagery team
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

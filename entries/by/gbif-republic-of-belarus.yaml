@@ -1,0 +1,33 @@
+id: gbif-republic-of-belarus
+kind: programme
+name: GBIF Republic of Belarus
+scope: by
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- by
+status: active
+runner: unknown
+summary: Country node in GBIF's registry for Belarus, whose participation status is observer, linked as
+  a partner of the Global Biodiversity Information Facility.
+facts:
+- claim: GBIF's registry lists a country node titled GBIF Republic of Belarus.
+  url: https://api.gbif.org/v1/node/country/BY
+  fetched: 2026-11-09
+  quote: '"title":"GBIF Republic of Belarus"'
+- claim: Belarus's participation status in GBIF is observer.
+  url: https://api.gbif.org/v1/node/country/BY
+  fetched: 2026-11-09
+  quote: '"participationStatus":"OBSERVER"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/BY
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,60 @@
+id: waardenburg-ecology
+kind: organisation
+name: Waardenburg Ecology
+sector: company
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+- freshwater
+hq: unknown
+scale: national
+status: active
+summary: Dutch ecological consultancy that developed the monitoring programme for the Ecowende
+  offshore wind farm, using data from bird radars, cameras and bird ecologists.
+scope: nl
+facts:
+- claim: Ecowende calls it the largest ecological consultancy firm in the Netherlands.
+  url: https://ecowende.nl/en/news/waardenburg-ecology-and-ecowende-develop-most-extensive-ecological-programme-to-date-for-an-offshore-wind-farm/
+  fetched: '2026-10-31'
+  quote: Waardenburg Ecology, the largest ecological consultancy firm in the Netherlands
+- claim: Ecowende says it developed a comprehensive monitoring programme for the wind farm.
+  url: https://ecowende.nl/en/partner/waardenburg-ecology
+  fetched: '2026-10-31'
+  quote: Waardenburg Ecology developed a comprehensive monitoring programme
+- claim: Uses data from bird radars and cameras in the wind farm.
+  url: https://ecowende.nl/en/partner/waardenburg-ecology
+  fetched: '2026-10-31'
+  quote: Waardenburg Ecology uses data from bird radars and cameras in the wind farm
+- claim: Sees the advantages of AI and invests in these technologies.
+  url: https://waardenburg.eco/dienst/artificial-intelligence
+  fetched: '2026-10-31'
+  quote: Waardenburg Ecology ziet de grote voordelen van AI en investeert graag in deze vernuftige
+    technologieën.
+- claim: Deep learning models make it possible to count glass eels 24 hours a day.
+  url: https://waardenburg.eco/dienst/artificial-intelligence
+  fetched: '2026-10-31'
+  quote: Zo maken deep learning -modellen het mogelijk om 24 uur per dag glasaal te tellen.
+  ai_type: deep-learning
+- claim: Object detection distinguishes and counts breeding birds on drone images.
+  url: https://waardenburg.eco/dienst/artificial-intelligence
+  fetched: '2026-10-31'
+  quote: Met object detection is het mogelijk om broedvogels vanaf dronebeelden te onderscheiden
+    en te tellen.
+links:
+- type: partners-with
+  to: ecowende-ecological-programme
+  url: https://ecowende.nl/en/news/waardenburg-ecology-and-ecowende-develop-most-extensive-ecological-programme-to-date-for-an-offshore-wind-farm/
+  fetched: '2026-10-31'
+  quote: Waardenburg Ecology and Ecowende are developing a comprehensive ecological programme
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+ai_types:
+- deep-learning

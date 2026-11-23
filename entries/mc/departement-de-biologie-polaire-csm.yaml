@@ -1,0 +1,89 @@
+id: departement-de-biologie-polaire-csm
+kind: organisation
+name: Département de Biologie Polaire, Centre Scientifique de Monaco
+scope: mc
+sector: government
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- other
+hq: unknown
+countries: []
+scale: regional
+status: active
+summary: Monaco polar biology department created in 2010 with CNRS-IPHC, which per
+  a 2019 flyer follows penguins since 1998 using electronic monitoring and sensors,
+  and says it also develops AI-based tools for its field databases.
+facts:
+- claim: A 2019 flyer on the Centre Scientifique de Monaco's site says the department
+    was created in 2010 between the CSM and CNRS-IPHC.
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: Ce Département a été créé en 2010 entre le CSM et le CNRS-
+- claim: The flyer says more than 17,000 penguins have been followed continuously
+    since 1998.
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: Plus de 1 7.000 manchots sont suivis en continu
+- claim: The flyer says the department studies penguin behaviour and population trends
+    through electronic monitoring of nearly 17,000 individuals.
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: suivi électronique de près de 1 7.000 individus
+- claim: The flyer lists automatic identification and weighing systems, robots and
+    HD cameras among the technologies developed and used to observe the species.
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: d’identification et de pesée automatiques, robots et
+- claim: The flyer lists miniaturised on-board sensors (GPS, Argos, TDR) for following
+    penguins at sea.
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: (GPS, Argos, TDR ...) pour suivre les manchots pendant
+- claim: The flyer says the department also develops tools based on computing and
+    algorithmic technologies (AI) to manage and analyse its field databases; it names
+    no method.
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: les technologies informatiques et algorithmiques (IA).
+- claim: A 2024 paper indexed in OpenAlex gives the department as an affiliation of
+    two of its authors.
+  url: https://api.openalex.org/works/W4392751259?select=id,display_name,publication_year,authorships,doi
+  fetched: 2026-11-13
+  quote: partement de Biologie Polaire, Centre Scientifique de Monaco, Monaco City,
+    Monaco
+- claim: RFIDeep, a 2023 paper on the potential of deep learning for radio-frequency
+    identification, has a first author whose first listed affiliation is the department.
+  url: https://api.openalex.org/works/W4386095521?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: 'RFIDeep: Unfolding the potential of deep learning for radio'
+  ai_type: deep-learning
+- claim: The first author's affiliation on the RFIDeep record names the Centre Scientifique
+    de Monaco's polar biology department.
+  url: https://api.openalex.org/works/W4386095521?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: partement de Biologie Polaire, Monaco, Principality of Monaco
+links:
+- type: built-by
+  to: centre-scientifique-de-monaco
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: Ce Département a été créé en 2010 entre le CSM et le CNRS-
+- type: funded-by
+  to: alfred-wegener-institute
+  url: https://www.centrescientifique.mc/uploads/documents/fr_Flyer%20BioPol_FR.pdf
+  fetched: 2026-11-13
+  quote: Les moyen s logistiques, financiers et humains des Instituts Polaires français
+    (Paul-Emile Victor, IPEV) et allemand (Alfred Wegener, AWI) permettent au Département
+    de Biologie Polaire de collecter des données en continue
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

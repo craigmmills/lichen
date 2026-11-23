@@ -1,0 +1,42 @@
+id: automated-video-identification-of-marine-species
+kind: project
+name: Automated video identification of marine species (AVIMS)
+ai_label: ai
+summary: Web application commissioned by the Scottish Government's Marine Directorate
+  for machine learning analysis of underwater video of fish and seabed species.
+facts:
+- claim: Machine learning analysis of underwater video.
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: machine learning-based (semi-)automated analysis of underwater video footage
+  fetched: '2026-10-30'
+links:
+- type: funded-by
+  to: marine-directorate-scotland
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: "The Marine Directorate commissioned the University of East Anglia to develop a web-based application"
+  fetched: '2026-10-30'
+- type: run-by
+  to: marine-directorate-scotland
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: The Marine Directorate commissioned the University of East Anglia
+  fetched: &id001 2026-10-30
+- type: partners-with
+  to: university-of-east-anglia
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: The Marine Directorate commissioned the University of East Anglia
+  fetched: *id001
+found_by:
+- link-from:naturescot
+- checklist:7
+also_known_as:
+- AVIMS
+website: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+realms:
+- ocean
+- freshwater
+techniques:
+- computer-vision
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

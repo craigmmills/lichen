@@ -1,0 +1,33 @@
+id: institute-of-microbiology-czech-academy-of-sciences
+kind: organisation
+name: Institute of Microbiology of the Czech Academy of Sciences
+also_known_as:
+- Mikrobiologický ústav AV ČR
+scope: cz
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+hq: cz
+countries:
+- cz
+scale: national
+status: active
+summary: Czech Academy of Sciences institute in Prague 4, listed by OpenAlex as the affiliation
+  of the first author of the GlobalFungi paper.
+facts:
+- claim: OpenAlex lists the institute as the affiliation of the first author of the GlobalFungi
+    paper.
+  url: https://api.openalex.org/works?search=GlobalFungi%20a%20global%20database%20of%20fungal%20occurrences&per-page=1&select=display_name,publication_year,doi,authorships
+  fetched: 2026-11-07
+  quote: Institute of Microbiology of the Czech Academy of Sciences
+- claim: The affiliation line gives an address in Prague 4.
+  url: https://api.openalex.org/works?search=GlobalFungi%20a%20global%20database%20of%20fungal%20occurrences&per-page=1&select=display_name,publication_year,doi,authorships
+  fetched: 2026-11-07
+  quote: 1083, 14220, Praha 4, Czech Republic
+found_by:
+- link-from:globalfungi
+added_by: agent
+checked: 2026-11-07

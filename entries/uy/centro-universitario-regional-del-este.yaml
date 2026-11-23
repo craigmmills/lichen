@@ -1,0 +1,64 @@
+id: centro-universitario-regional-del-este
+kind: organisation
+name: Centro Universitario Regional del Este
+also_known_as:
+- CURE
+scope: uy
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: uy
+countries:
+- uy
+scale: regional
+status: active
+summary: Universidad de la República centre in Maldonado, run by that university, whose research groups
+  produce biodiversity datasets and monitoring data for eastern Uruguay.
+facts:
+- claim: Its GBIF publisher record describes it as a centre of the Universidad de la República with a
+    long record in biodiversity research, ecosystem monitoring and environmental data management.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: El Centro Universitario Regional del Este (CURE) de la Universidad de la República es un centro
+    académico multidisciplinario con una amplia trayectoria en investigación en biodiversidad, monitoreo
+    de ecosistemas y gestión de datos ambientales.
+- claim: GBIF's registry gives its address in Maldonado.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"address":["Av. Cachimba del Rey entre Bvar. Artigas y Av. Aparicio Saravia"],"city":"Maldonado"'
+- claim: Its GBIF publisher record says its coastal-marine, terrestrial and freshwater research groups
+    conduct long-term ecological studies and regional biodiversity assessments and produce datasets across
+    ecosystems in eastern Uruguay.
+  url: https://api.gbif.org/v1/organization/9240c810-0769-4bb4-a37d-835409e23a4a
+  fetched: 2026-11-08
+  quote: Through its coastal-marine, terrestrial, and freshwater research groups, CURE conducts long-term
+    ecological studies, develops regional biodiversity assessments, and produces high-quality datasets
+    across diverse ecosystems in eastern Uruguay.
+- claim: Its GBIF publisher record says it hosts and curates biological collections and thematic datasets
+    generated through field campaigns, monitoring programmes and collaborative projects.
+  url: https://api.gbif.org/v1/organization/9240c810-0769-4bb4-a37d-835409e23a4a
+  fetched: 2026-11-08
+  quote: The institution hosts and curates biological collections and thematic datasets
+links:
+- type: run-by
+  to: universidad-de-la-republica
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: El Centro Universitario Regional del Este (CURE) de la Universidad de la República es un centro
+    académico multidisciplinario
+- type: run-by
+  to: universidad-de-la-republica
+  url: https://api.gbif.org/v1/organization/9240c810-0769-4bb4-a37d-835409e23a4a
+  fetched: 2026-11-08
+  quote: The Centro Universitario Regional del Este (CURE) of the Universidad de la República (Uruguay)
+    is a multidisciplinary academic center
+found_by:
+- link-from:gbif-uruguay
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

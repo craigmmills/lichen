@@ -1,0 +1,44 @@
+id: smithsonian-peru-biodiversity-program
+kind: programme
+name: Smithsonian Peru Biodiversity Program
+scope: pe
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+status: active
+runner: unknown
+countries:
+- pe
+summary: A programme whose GBIF publisher record says it conducts biodiversity assessments and long-term
+  monitoring and manages data across terrestrial, aquatic and marine habitats, with an address in Lima.
+facts:
+- claim: Its GBIF publisher record says it conducts biodiversity assessments and long-term monitoring
+    and manages data in terrestrial, aquatic and marine habitats.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040/organization?limit=200
+  fetched: 2026-11-03
+  quote: The Smithsonian Peru Biodiversity Program conducts assessments and long-term monitoring of biodiversity
+    and manages data in terrestrial, aquatic, and marine habitats, from the Amazon to the Andes to the
+    Pacific.
+- claim: Its GBIF record gives an address in San Isidro, Lima.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040/organization?limit=200
+  fetched: 2026-11-03
+  quote: Calle Lord Cochrane 111, Of 110, San Isidro, Lima, Peru
+- claim: Its GBIF record says it conducts assessments and long-term monitoring of biodiversity and manages
+    data.
+  url: https://api.gbif.org/v1/organization/7a2605e0-8a1e-4393-836b-d6d6ac064e74
+  fetched: '2026-11-03'
+  quote: The Smithsonian Peru Biodiversity Program conducts assessments and long-term monitoring of biodiversity
+    and manages data in terrestrial, aquatic, and marine habitats
+- claim: Its GBIF record gives an address in San Isidro, Lima.
+  url: https://api.gbif.org/v1/organization/7a2605e0-8a1e-4393-836b-d6d6ac064e74
+  fetched: '2026-11-03'
+  quote: Calle Lord Cochrane 111, Of 110, San Isidro, Lima, Peru
+links: []
+found_by:
+- link-from:gbif-peru
+- register:gbif-publisher
+- checklist:7
+added_by: agent
+checked: 2026-11-03

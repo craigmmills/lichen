@@ -1,0 +1,41 @@
+id: fayoum-university
+kind: organisation
+name: Fayoum University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: unknown
+funding_at_risk: false
+website: https://www.fayoum.edu.eg
+summary: University listed by OpenAlex as the affiliation of Ali G. Mahmoud, first author
+  of a 2022 paper on land use and cover change in Al-Jouf, Saudi Arabia, using Google Earth
+  Engine.
+facts:
+- claim: OpenAlex lists the 2022 paper Land Use/Cover Changes in Al-Jouf, KSA in Response
+    to Water Management Strategies Using Multi-Sensor/-Temporal Data in Google Earth Engine.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:023gzwx10,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Land Use/Cover Changes in Al-Jouf, KSA in Response to Water Management
+    Strategies Using Multi-Sensor/-Temporal Data in Google Earth Engine", "publication_year":
+    2022, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Ali G. Mahmoud, the affiliation Fayoum University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:023gzwx10,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Ali Mahmoud", "raw_affiliation_strings": ["Soils and Water Department,
+    Faculty of Agriculture, Fayoum University"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

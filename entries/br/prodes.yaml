@@ -1,0 +1,39 @@
+id: prodes
+kind: dataset
+name: PRODES
+also_known_as:
+- Program to Calculate Deforestation in the Amazon
+- Programa de Cálculo do Desflorestamento da Amazônia
+scope: br
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: INPE's satellite system that produces Brazil's annual deforestation figures,
+  published through TerraBrasilis.
+facts:
+- claim: TerraBrasilis gives access to data from INPE's monitoring projects, including
+    PRODES and DETER.
+  url: https://terrabrasilis.dpi.inpe.br/
+  fetched: '2026-10-30'
+  quote: dados geográficos gerados pelos projetos de monitoramento da vegetação nativa
+    do instituto como o PRODES e o DETER
+- claim: SIM-Biomas plans to combine PRODES spatial precision with DETER speed using
+    AI.
+  url: https://portalamazonia.com/economia/fundo-amazonia-inpe-ia/
+  fetched: '2026-10-30'
+  quote: o projeto pretende combinar a precisão espacial do Prodes com a rapidez do
+    Deter
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://terrabrasilis.dpi.inpe.br/
+  fetched: '2026-10-30'
+  quote: gerados pelos projetos de monitoramento da vegetação nativa do instituto
+    como o PRODES e o DETER
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

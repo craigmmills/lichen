@@ -1,0 +1,29 @@
+id: gbif-niger
+kind: programme
+name: GBIF Niger
+scope: ne
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries:
+- ne
+status: active
+runner: unknown
+summary: Niger's Global Biodiversity Information Facility node, listed as a country node with observer
+  status, which has endorsed ten publishing organisations.
+facts:
+- claim: GBIF lists Niger's node as a country node with observer status.
+  url: https://api.gbif.org/v1/node/dc9041d6-a5ae-4217-92ea-f7674794d760
+  fetched: '2026-11-08'
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Niger"'
+- claim: The node has endorsed ten publishing organisations.
+  url: https://api.gbif.org/v1/node/dc9041d6-a5ae-4217-92ea-f7674794d760/organization
+  fetched: '2026-11-08'
+  quote: '"endOfRecords":true,"count":10'
+links: []
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-08'

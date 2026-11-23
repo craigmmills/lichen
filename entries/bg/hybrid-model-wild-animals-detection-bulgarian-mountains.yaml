@@ -1,0 +1,44 @@
+id: hybrid-model-wild-animals-detection-bulgarian-mountains
+kind: model
+name: Hybrid Model for Wild Animals Detection Based on Camera Traps in Bulgarian Mountains
+scope: bg
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- bg
+status: unknown
+summary: Paper proposing a hierarchical wild animal detector built on YOLOv8n, evaluated
+  on 1,882 annotated camera-trap images from Bulgarian mountains in four classes,
+  listed under COMSCI'2025.
+facts:
+- claim: The paper proposes a hierarchical wild animal detector based on a hybrid
+    model using the YOLOv8n architecture.
+  url: https://e-university.tu-sofia.bg/e-publ/search-det.php?id=20088
+  fetched: '2026-11-12'
+  quote: A hierarchical wild animal detection based on a hybrid model utilizing the
+    YOLOv8n architecture is proposed.
+  ai_type: deep-learning
+- claim: It was evaluated on 1,882 annotated camera-trap images from the Bulgarian
+    mountains in four classes.
+  url: https://e-university.tu-sofia.bg/e-publ/search-det.php?id=20088
+  fetched: '2026-11-12'
+  quote: The experimental evaluation is based on an annotated dataset comprising 1882
+    camera trap images from the Bulgarian mountains
+- claim: The Technical University of Sofia's publication database lists the paper
+    under the 13th International Scientific Conference Computer Science (COMSCI'2025),
+    2025, Bulgaria.
+  url: https://e-university.tu-sofia.bg/e-publ/search-det.php?id=20088
+  fetched: '2026-11-12'
+  quote: 13-th International Scientific Conference COMPUTER SCIENCE (COMSCI’2025),
+    2025, Bulgaria
+links: []
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

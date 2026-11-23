@@ -1,0 +1,40 @@
+id: estonian-nature-information-system
+kind: dataset
+name: Estonian Nature Information System
+also_known_as:
+- Eesti looduse infosüsteem
+- EELIS
+scope: ee
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+runner: unknown
+summary: Dataset where the Environmental Board enters protected bird species sites
+  and sets buffer zones; ERR reported in October 2026 close to 100,000 records, over
+  14,000 revised the previous year.
+facts:
+- claim: The Environmental Board enters protected bird species sites into EELIS and
+    sets buffer zones around them.
+  url: https://www.err.ee/1610158669/madise-kaitsealuse-linnu-leiukoha-toenduseks-ei-piisa-ainult-laulust
+  fetched: 2026-11-12
+  quote: Keskkonnaamet kannab Eesti looduse infosüsteemi (EELIS) kaitsealuste linnuliikide
+    leiukohti kohati puudulike tõendite alusel
+- claim: In ERR's October 2026 report, EELIS held close to 100,000 records; more than
+    14,000 were revised in the previous year.
+  url: https://www.err.ee/1610158669/madise-kaitsealuse-linnu-leiukoha-toenduseks-ei-piisa-ainult-laulust
+  fetched: 2026-11-12
+  quote: EELIS-es on praeguseks ligi 100 000 kirjet
+links:
+- type: used-by
+  to: estonian-environmental-board
+  url: https://www.err.ee/1610158669/madise-kaitsealuse-linnu-leiukoha-toenduseks-ei-piisa-ainult-laulust
+  fetched: 2026-11-12
+  quote: Keskkonnaamet kannab Eesti looduse infosüsteemi (EELIS) kaitsealuste linnuliikide
+    leiukohti kohati puudulike tõendite alusel
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

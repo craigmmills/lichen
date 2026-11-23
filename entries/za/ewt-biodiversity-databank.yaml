@@ -1,0 +1,39 @@
+id: ewt-biodiversity-databank
+kind: dataset
+name: EWT Biodiversity DataBank
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- za
+status: active
+summary: A central store of ecological and spatial information for EWT and its partners, run by the trust,
+  with data requestable through a sharing form.
+facts:
+- claim: The central storage location for ecological and spatial information within the EWT and its partners.
+  url: https://ewt.org/resources/research-and-data/biodiversity-data/
+  quote: The DataBank is the central storage location for all ecological and spatial information within
+    the EWT and its numerous partners.
+  fetched: '2026-10-31'
+- claim: Data can be requested through a data-sharing form.
+  url: https://ewt.org/resources/research-and-data/biodiversity-data/
+  quote: please click here and fill in the data-sharing request form
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: endangered-wildlife-trust
+  url: https://ewt.org/resources/research-and-data/biodiversity-data/
+  quote: Conservation Planning and Science Unit maintains our centralised Biodiversity DataBank
+  fetched: '2026-10-31'
+- type: run-by
+  to: endangered-wildlife-trust
+  url: https://ewt.org/resources/research-and-data/biodiversity-data/
+  fetched: '2026-10-31'
+  quote: our Biodiversity DataBank
+found_by:
+- link-from:endangered-wildlife-trust
+- checklist:2
+scope: za
+added_by: agent
+checked: '2026-10-31'

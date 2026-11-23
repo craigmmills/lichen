@@ -1,0 +1,56 @@
+id: mozambique-national-forest-monitoring-system
+kind: programme
+name: Sistema Nacional de Monitoria Florestal de Moçambique
+also_known_as:
+- NFMS Mozambique
+- National Forest Monitoring System of Mozambique
+scope: mz
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mz
+status: unknown
+runner: unknown
+summary: Forest monitoring system whose May 2021 version 1 document gives a task force of DINAF, the FNDS
+  MRV unit and ANAC the mandate to build it, naming Collect Earth, JJ-FAST and GLAD.
+facts:
+- claim: Version 1 of the system document is dated May 2021.
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: May 2021
+- claim: The task force of DINAF, the FNDS MRV unit and ANAC is mandated to design, develop and operationalise
+    the system.
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: task force who are mandated to design, develop and operationalize the NFMS
+- claim: The document names land use and land cover change detection with the Collect Earth tool.
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: LULC changes detection using Collect Earth Tool
+- claim: Satellite-based monitoring listed in the document uses tools including JJ-FAST and GLAD.
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: The cu rrent observing tools are JJ-FAST, GLAD,
+links:
+- type: partners-with
+  to: direccao-nacional-de-florestas
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: coordination of the DINAF, FNDS MRV uni t and ANAC as the members of the NFMS
+- type: partners-with
+  to: fnds-mrv-unit
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: coordination of the DINAF, FNDS MRV uni t and ANAC as the members of the NFMS
+- type: uses
+  to: jj-fast
+  url: https://redd.unfccc.int/uploads/4993_4c49bb3a4a06_nfms_document_mozambique_ver1_en_final.pdf
+  fetched: 2026-11-08
+  quote: The cu rrent observing tools are JJ-FAST, GLAD,
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

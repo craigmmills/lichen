@@ -1,0 +1,33 @@
+id: tencent-wwf-snow-leopard-detection-platform
+kind: project
+name: Tencent and WWF snow leopard detection platform
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- cn
+status: active
+summary: AI digital detection platform in Gansu Province, built by Tencent and WWF, that tracks snow leopards in Qilian Mountain National Park.
+facts:
+- claim: A digital platform to track snow leopards and collect data on their habitat.
+  url: https://www.tencent.com/en-us/articles/2201360.html
+  fetched: &id001 2026-10-30
+  quote: Tencent has recently started building a digital detection platform to track snow leopards and collect essential data to protect their habitat
+links:
+- type: run-by
+  to: tencent
+  url: https://www.tencent.com/en-us/articles/2201360.html
+  fetched: *id001
+  quote: In partnership with the WWF, Tencent has recently started building a digital detection platform
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://www.tencent.com/en-us/articles/2201360.html
+  fetched: *id001
+  quote: Tencent and the World Wide Fund for Nature (WWF) have partnered in China’s Gansu Province
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

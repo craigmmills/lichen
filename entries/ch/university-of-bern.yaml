@@ -1,0 +1,69 @@
+id: university-of-bern
+kind: organisation
+name: University of Bern
+scope: ch
+sector: academic
+roles:
+- unknown
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: ch
+scale: national
+status: active
+summary: A university that hosts the Global Mountain Biodiversity Assessment's International
+  Project Office, and is linked to a paper on AI bioacoustic wolf monitoring and to the DIMPEO
+  and MoBiKo projects.
+facts:
+- claim: OpenAlex returns University of Bern authors for biodiversity and deep learning, including
+    the ORDNA paper.
+  url: https://api.openalex.org/works?per-page=8&select=display_name,publication_year,authorships,doi&sort=cited_by_count:desc&filter=from_publication_date:2022-01-01,institutions.id:I118564535,title_and_abstract.search:biodiversity%20deep%20learning
+  quote: based ordination for raw environmental DNA samples
+  fetched: '2026-11-02'
+- claim: The International Project Office of the Global Mountain Biodiversity Assessment is
+    located at the University of Bern.
+  url: https://www.gmba.unibe.ch/about/structure
+  quote: located at the University of Bern, Switzerland
+  fetched: '2026-11-02'
+- claim: Its address is Hochschulstrasse 6, Bern.
+  url: https://www.gmba.unibe.ch/about/structure
+  quote: Hochschulstrasse 6
+  fetched: '2026-11-02'
+- claim: A paper co-authored by Thomas Studer of its Institute of Computer Science describes
+    an AI bioacoustic wolf monitoring system.
+  url: https://home.inf.unibe.ch/~tstuder/papers/DeepLearningInTheWild_Published.pdf
+  fetched: '2026-11-02'
+  quote: Development of an AI-based bioacoustic wolf monitoring system
+- claim: The paper gives Neubrückstrasse 10, 3012 Bern as the address of its Institute of
+    Computer Science.
+  url: https://home.inf.unibe.ch/~tstuder/papers/DeepLearningInTheWild_Published.pdf
+  fetched: '2026-11-02'
+  quote: 3012 Bern
+- claim: OpenAlex lists an affiliated 2025 paper on large wood detection in rivers with machine
+    learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I118564535,concepts.id:C62649853,concepts.id:C108583219,from_publication_date:2021-01-01&per_page=6&select=id,title,publication_year,doi,authorships&sort=cited_by_count:desc
+  fetched: '2026-11-02'
+  quote: Automatic instream large wood detection and wood load estimation using machine learning
+    from high-resolution
+- claim: Its Geocomputation and Earth Observation Group is named on DIMPEO.
+  url: https://www.datascience.ch/projects/dimpeo
+  fetched: '2026-11-02'
+  quote: 'University of Bern, Geocomputation and Earth Observation Group:'
+- claim: Named on MoBiKo.
+  url: https://datascience.ch/articles/first-national-calls-for-projects-50-projects-to-start-in-2025
+  fetched: '2026-11-02'
+  quote: Prof. Markus Fischer*, Dr. Mark Snethlage, University of Bern (UniBe)
+found_by:
+- checklist:3
+- link-from:global-mountain-biodiversity-assessment
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- bioacoustics
+- remote-sensing
+also_known_as:
+- UniBe

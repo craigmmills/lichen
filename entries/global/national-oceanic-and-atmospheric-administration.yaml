@@ -1,0 +1,92 @@
+id: national-oceanic-and-atmospheric-administration
+kind: organisation
+name: National Oceanic and Atmospheric Administration
+also_known_as:
+- NOAA
+scope: global
+sector: government
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+- governs
+- funds
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+hq: us
+scale: global
+status: active
+website: https://www.noaa.gov
+summary: US federal agency whose work extends beyond national borders. It runs Coral Reef
+  Watch, which provides near real-time satellite products on coral reef stress, and is a partner
+  of Digital Earth Pacific.
+facts:
+- claim: Says its mission extends beyond national borders and that it works with partners
+    around the world.
+  url: https://www.noaa.gov/about-our-agency
+  quote: extends beyond national borders to monitor global weather and climate, and work with
+    partners around the world
+  fetched: '2026-10-30'
+- claim: Gives its headquarters mailing address in Washington, DC.
+  url: https://www.noaa.gov/about-our-agency
+  quote: 1401 Constitution Avenue NW, Room 5128
+  fetched: '2026-10-30'
+- claim: Listed among the partners of Digital Earth Pacific.
+  url: https://earthobservations.org/groups/digital-earth-pacific
+  quote: National Oceanic and Atmospheric Administration (NOAA)
+  fetched: '2026-10-30'
+- claim: NOAA says AI can help scientists understand the environment and its management.
+  url: https://www.noaa.gov/ai
+  fetched: '2026-10-30'
+  quote: Artificial intelligence (AI) can help scientists better understand the environment
+    and its management.
+- claim: Has an agency AI policy, NAO 216-128.
+  url: https://www.noaa.gov/ai
+  fetched: '2026-10-30'
+  quote: The release of NOAA’s Artificial Intelligence Policy (NAO 216-128) provides direction,
+    guidelines, and governance
+- claim: Issued an agency AI policy, Administrative Order NAO 216-128.
+  url: https://www.noaa.gov/ai
+  fetched: '2026-10-30'
+  quote: Artificial Intelligence Policy (NAO 216-128) provides direction
+- claim: US federal government website.
+  url: https://www.noaa.gov/ai
+  fetched: '2026-10-30'
+  quote: A .gov website belongs to an official government organization in the United States.
+- claim: Kitware says the NOAA members of the AIASI Steering Committee received a US Department
+    of Commerce Gold Medal in 2019 for developing VIAME and CoralNet.
+  url: https://www.viametoolkit.org/
+  quote: The highest technical award within the US Department of Commerce was presented in
+    2019 to the NOAA members of the AIASI Steering Committee for developing VIAME and CoralNet.
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+- checklist:1
+- link-from:noaa-coral-reef-watch
+added_by: agent
+checked: '2026-10-31'
+countries:
+- us
+links:
+- type: runs
+  to: noaa-center-for-artificial-intelligence
+  url: https://www.noaa.gov/ai
+  fetched: '2026-10-30'
+  quote: NOAA Center for Artificial Intelligence (NCAI)
+- type: runs
+  to: noaa-fisheries
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  fetched: '2026-10-30'
+  quote: NOAA’s Southeast Fisheries Science Center has been conducting video surveys
+- type: runs
+  to: noaa-automated-image-analysis-strategic-initiative
+  url: https://www.viametoolkit.org/
+  quote: National Oceanic and Atmospheric Administration’s (NOAA) Automated Image Analysis
+    Strategic Initiative (AIASI)
+  fetched: '2026-10-30'

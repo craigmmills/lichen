@@ -1,0 +1,35 @@
+id: datalakes
+kind: project
+name: Datalakes
+scope: ch
+ai_label: data-infrastructure
+realms:
+- freshwater
+status: active
+runner: unknown
+summary: Platform for searching, visualising and downloading data on Swiss lakes,
+  described by Eawag as a data platform for modelling and forecasting, with the Swiss
+  Data Science Center.
+facts:
+- claim: Lets users search, visualise and download data on Swiss lakes.
+  url: https://www.datalakes.eawag.ch/
+  fetched: '2026-11-08'
+  quote: Search, visualise and download data on Swiss lakes.
+- claim: Eawag describes the CORESIM and Datalakes projects as a heterogeneous data
+    platform for operational modelling and forecasting of Swiss lakes, in collaboration
+    with the Swiss Data Science Center.
+  url: https://www.eawag.ch/en/department/surf/projects/lexplore/
+  fetched: '2026-11-08'
+  quote: Heterogeneous data platform for operational modeling and forecasting of Swiss
+    lakes in collaboration with the Swiss Data Science Center.
+links:
+- type: partners-with
+  to: swiss-data-science-center
+  url: https://www.eawag.ch/en/department/surf/projects/lexplore/
+  fetched: '2026-11-08'
+  quote: Heterogeneous data platform for operational modeling and forecasting of Swiss
+    lakes in collaboration with the Swiss Data Science Center.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

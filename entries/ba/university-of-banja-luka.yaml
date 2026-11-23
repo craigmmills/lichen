@@ -1,0 +1,37 @@
+id: university-of-banja-luka
+kind: organisation
+name: University of Banja Luka
+also_known_as: []
+scope: ba
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ba
+countries:
+- ba
+scale: national
+status: active
+summary: A university whose Faculty of Forestry appears on a 2024 Copernicus vegetation index paper and
+  whose Faculty of Natural Sciences and Mathematics appears on a 2025 paper on remote sensing wildfire
+  monitoring.
+facts:
+- claim: The first author of a 2024 paper monitoring vegetation indices in old-growth forests with Copernicus
+    data lists its Faculty of Forestry as his affiliation.
+  url: https://api.openalex.org/works/W4392467294?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Faculty of Forestry, University of Banja Luka, Banja Luka, Bosnia and Herzegovina
+- claim: Its Faculty of Natural Sciences and Mathematics is the first author's first affiliation on a
+    2025 paper on remote sensing for wildfire monitoring in the Sana River basin.
+  url: https://api.openalex.org/works/W4413074843?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Faculty of Natural Sciences and Mathematics, University of Banja Luka, Mladena Stojanovi
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

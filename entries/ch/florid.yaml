@@ -1,0 +1,66 @@
+id: florid
+kind: model
+name: FlorID
+scope: ch
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://florid.ch
+summary: Model that identifies Swiss plant species from photos, location and date, trained
+  on almost 1.5 million photos of 3,076 species, built by Philipp Brun and WSL with Info Flora
+  as partner.
+facts:
+- claim: Combines deep learning for image classification with ecological modelling.
+  url: https://riccardodelutio.github.io/publication/florid/
+  quote: we combined deep-learning approaches for image classification and ecological modeling
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: Trained on almost 1.5 million photos of 3,076 species.
+  url: https://riccardodelutio.github.io/publication/florid/
+  quote: We trained an ensemble of data-efficient vision transformers on almost 1.5 Mio photos
+    of 3076 plant species
+  fetched: '2026-11-02'
+- claim: Available through a website or in FlorApp.
+  url: https://wsl.ch/en/news/plant-diversity-accurate-distribution-maps-thanks-to-participatory-science-and-ai
+  quote: The FlorID module was developed in close collaboration with InfoFlora
+  fetched: '2026-11-02'
+- claim: Identifies Swiss plant species from photos, location and date.
+  url: https://www.wsl.ch/en/services-produkte/florid/
+  fetched: '2026-11-02'
+  quote: It takes into account both photos and the location and date of an observation.
+- claim: Built with artificial neural networks trained on 1.5 million plant photos.
+  url: https://www.wsl.ch/en/services-produkte/florid/
+  fetched: '2026-11-02'
+  quote: the latest generation of artificial neural networks were trained with 1.5 million
+    plant photos
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: info-flora
+  url: https://wsl.ch/en/news/plant-diversity-accurate-distribution-maps-thanks-to-participatory-science-and-ai
+  quote: The FlorID module was developed in close collaboration with InfoFlora
+  fetched: '2026-11-02'
+- type: built-by
+  to: wsl-swiss-federal-research-institute
+  url: https://www.wsl.ch/en/news/a-new-app-to-identify-plants-more-precisely/
+  fetched: '2026-11-02'
+  quote: The FlorID image recognition tool developed by WSL researchers makes this possible.
+- type: partners-with
+  to: info-flora
+  url: https://www.wsl.ch/en/services-produkte/florid/
+  fetched: '2026-11-02'
+  quote: was developed in close collaboration with the national data and information centre
+    for Swiss flora (InfoFlora)
+found_by:
+- checklist:3
+- checklist:2
+- link-from:info-flora
+added_by: agent
+checked: '2026-11-02'
+countries:
+- ch

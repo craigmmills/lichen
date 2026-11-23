@@ -1,0 +1,34 @@
+id: ecoscope
+kind: programme
+name: EcoScope
+scope: ke
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+countries:
+- ke
+summary: Open-source module for analysing EarthRanger data, developed by the Mara
+  Elephant Project according to Nawiri Group.
+status: active
+facts:
+- claim: Nawiri Group describes it as an open-source analysis module for EarthRanger.
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: MEP has developed EcoScope, an open-source analysis module for EarthRanger
+links:
+- type: run-by
+  to: mara-elephant-project
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: MEP has developed EcoScope
+- type: builds-on
+  to: earthranger
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: an open-source analysis module for EarthRanger
+found_by:
+- link-from:earthranger
+added_by: agent
+checked: '2026-10-30'

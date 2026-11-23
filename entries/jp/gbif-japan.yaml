@@ -1,0 +1,39 @@
+id: gbif-japan
+kind: organisation
+name: GBIF Japan
+scope: jp
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: http://www.gbif.jp
+summary: Japanese country node listed in the GBIF registry with observer participation and
+  a Tsukuba address, partnering with the Global Biodiversity Information Facility.
+facts:
+- claim: The GBIF registry lists a country node titled GBIF Japan with observer participation.
+  url: https://api.gbif.org/v1/node/country/JP
+  fetched: 2026-11-02
+  quote: '"participationStatus":"OBSERVER"'
+- claim: The registry gives a Tsukuba address.
+  url: https://api.gbif.org/v1/node/country/JP
+  fetched: 2026-11-02
+  quote: Tsukuba, Ibaraki Prefecture
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/JP
+  fetched: 2026-11-02
+  quote: '"title":"GBIF Japan"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,57 @@
+id: sapienza-university-of-rome
+kind: organisation
+name: Sapienza University of Rome
+also_known_as:
+- Università degli Studi di Roma La Sapienza
+- Sapienza Università di Roma
+scope: it
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: unknown
+scale: national
+status: active
+website: https://www.uniroma1.it/it/pagina-strutturale/home
+summary: Italian university that CORDIS lists as a participant in NaturaConnect and ILIAD,
+  and that NBFC lists among its partners.
+facts:
+- claim: CORDIS lists it as a participant in NaturaConnect.
+  url: https://cordis.europa.eu/project/id/101060429
+  fetched: '2026-10-31'
+  quote: UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA Italy
+- claim: CORDIS lists it as a participant in ILIAD.
+  url: https://cordis.europa.eu/project/id/101037643
+  fetched: '2026-10-31'
+  quote: UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA Italy
+- claim: Hosts the Global Mammal Assessment in its Department of Biology and Biotechnologies.
+  url: https://globalmammal.org/
+  fetched: '2026-10-31'
+  quote: is a programme carried out at the Department of Biology and Biotechnologies of Sapienza
+    University of Rome
+links:
+- type: partners-with
+  to: naturaconnect
+  url: https://cordis.europa.eu/project/id/101060429
+  fetched: '2026-10-31'
+  quote: UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA Italy
+- type: partners-with
+  to: iliad-digital-twin-of-the-ocean
+  url: https://cordis.europa.eu/project/id/101037643
+  fetched: '2026-10-31'
+  quote: UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA Italy
+- type: partners-with
+  to: national-biodiversity-future-center
+  url: https://www.nbfc.it/it/partner
+  fetched: '2026-10-31'
+  quote: Università degli Studi di Roma La Sapienza
+found_by:
+- link-from:naturaconnect
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- species-distribution

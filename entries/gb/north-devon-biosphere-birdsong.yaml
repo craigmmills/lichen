@@ -1,0 +1,30 @@
+id: north-devon-biosphere-birdsong
+kind: project
+name: North Devon Biosphere Birdsong
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+runner: unknown
+website: https://www.northdevonbiosphere.org.uk/birdsong.html
+summary: Project recording bird calls in North Devon parks and reserves and identifying
+  species by artificial intelligence.
+facts:
+- claim: Recordings are analysed with artificial intelligence to identify species.
+  url: https://www.northdevonbiosphere.org.uk/birdsong.html
+  quote: These recordings are analysed using artificial intelligence to identify species
+    by their distinctive vocal signatures
+  fetched: &id001 2026-10-30
+links:
+- type: partners-with
+  to: devon-wildlife-trust
+  url: https://www.northdevonbiosphere.org.uk/birdsong.html
+  quote: "we have teamed up with our partner organisations, Devon Wildlife Trust and North Devon Council’s Parks team"
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

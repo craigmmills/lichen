@@ -1,0 +1,79 @@
+id: gbif-new-zealand
+kind: programme
+name: GBIF New Zealand
+scope: nz
+roles:
+- unknown
+- supplies-data
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- nz
+status: active
+summary: New Zealand's node of GBIF, offering biodiversity data access and contribution guidance,
+  reporting a 2024 pilot of councils uploading data, and currently recruiting a node manager.
+facts:
+- claim: GBIF lists New Zealand as a voting participant, with GBIF New Zealand as its node.
+  url: https://api.gbif.org/v1/node/country/NZ
+  fetched: 2026-11-07
+  quote: '"participationStatus":"VOTING","gbifRegion":"OCEANIA","continent":"OCEANIA","title":"GBIF
+    New Zealand"'
+- claim: GBIF lists GBIF New Zealand as a country node with voting participation, for New
+    Zealand.
+  url: https://api.gbif.org/v1/node/4f9fd726-20dd-445e-89a1-8ed93792276f
+  fetched: 2026-11-07
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"OCEANIA","continent":"OCEANIA","title":"GBIF
+    New Zealand","participantTitle":"New Zealand"'
+- claim: Its GBIF record gives a postal address in Lincoln and a website.
+  url: https://api.gbif.org/v1/node/4f9fd726-20dd-445e-89a1-8ed93792276f
+  fetched: 2026-11-07
+  quote: '"homepage":["http://www.gbif.org.nz/"],"address":["PO Box 40\nLincoln\n 8152\nNew
+    Zealand"]'
+- claim: Offers access to biodiversity data for Aotearoa New Zealand and guidance on contributing
+    to it.
+  url: https://www.gbif.org.nz/
+  fetched: 2026-11-07
+  quote: Explore biodiversity data for Aotearoa New Zealand and learn how you can contribute.
+- claim: Reports on a pilot in which councils uploaded biodiversity data to GBIF in 2024.
+  url: https://www.gbif.org.nz/
+  fetched: 2026-11-07
+  quote: Summarised findings from councils piloting uploading biodiversity data to the Global
+    Biodiversity Information Facility (GBIF) in 2024
+- claim: Its site says the node manager post is vacant and being recruited.
+  url: https://www.gbif.org.nz/
+  fetched: 2026-11-07
+  quote: Node Manager (position currently vacant — recruitment in progress)
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/NZ
+  fetched: 2026-11-07
+  quote: '"type":"GBIF_PARTICIPANT"'
+- type: partners-with
+  to: ministry-of-business-innovation-and-employment
+  url: https://www.gbif.org.nz/
+  fetched: 2026-11-07
+  quote: Ministry of Business, Innovation & Employment
+- type: partners-with
+  to: environment-canterbury
+  url: https://www.gbif.org.nz/
+  fetched: 2026-11-07
+  quote: Environment Canterbury
+- type: partners-with
+  to: new-zealand-institute-for-bioeconomy-science
+  url: https://www.gbif.org.nz/
+  fetched: 2026-11-07
+  quote: Bioeconomy Science Institute Maiangi Taiao
+runner: unknown
+found_by:
+- checklist:2
+- link-from:department-of-conservation
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07
+also_known_as:
+- GBIF-NZ

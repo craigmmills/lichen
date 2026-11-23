@@ -1,0 +1,41 @@
+id: gabon-biodiversity-collection
+kind: dataset
+name: Gabon Biodiversity Collection
+also_known_as:
+- Collection de la Biodiversité du Gabon
+scope: ga
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ga
+status: active
+summary: A zoological reference collection described as the largest known in Central Africa, with 123,000
+  specimens, from which four datasets are published on GBIF, one with a title and description that disagree.
+facts:
+- claim: The reptile dataset record describes the wider physical Gabon Biodiversity Collection as the
+    largest zoological reference collection known in Central Africa, with 123,000 specimens; its reptile
+    collection has almost 500 specimens.
+  url: https://api.gbif.org/v1/dataset/7ff3e034-54a4-413a-a767-6e2eb479a563
+  fetched: '2026-11-08'
+  quote: Gabon Biodiversity Collection is the largest zoological reference collection known in Central
+    Africa. It consist of 123,000 specimen including Mammals, birds, fish, reptiles and amphibians, plants
+    and mainly arthropods.
+- claim: The reptile records are published as an open collection meant to foster research in the region.
+  url: https://api.gbif.org/v1/dataset/7ff3e034-54a4-413a-a767-6e2eb479a563
+  fetched: '2026-11-08'
+  quote: our hope is to foster more research in the region by making visible what is already available
+    as information. This open source collection, has also the ambition to educate on the various species
+    occurring in Gabon.
+- claim: The publisher lists four GBIF datasets from the collection, titled Aves, Poisson (Fish), Reptilia
+    and Amphibia. The Aves record describes amphibians, so its title and description disagree.
+  url: https://api.gbif.org/v1/organization/72935bbe-d4ce-4984-90d9-327066c56132/publishedDataset
+  fetched: '2026-11-08'
+  quote: Gabon Biodiversity Collection - Poisson (Fish)
+links: []
+found_by:
+- register:ga
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

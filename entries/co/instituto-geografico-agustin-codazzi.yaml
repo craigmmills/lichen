@@ -1,0 +1,82 @@
+id: instituto-geografico-agustin-codazzi
+kind: organisation
+name: Instituto Geográfico Agustín Codazzi
+also_known_as:
+- IGAC
+sector: government
+roles:
+- governs
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: co
+scale: national
+website: https://www.igac.gov.co
+summary: Colombia's national mapping agency. It runs the Observatorio de la Tierra y el Territorio,
+  says it has built AI software to detect illegal mining in protected areas, and is technical
+  secretariat of the Colombian Space Commission.
+facts:
+- claim: Planet describes IGAC as the government body responsible for Colombia's geographic
+    and cartographic data.
+  url: https://investors.planet.com/news/news-details/2025/Planet-Expands-Multi-Year-Contract-with-Instituto-Geogrfico-Agustn-Codazzi-IGAC-Providing-Satellite-Data-and-AI-Powered-Analytics-Feeds-Across-Colombia/default.aspx
+  quote: IGAC is the governmental entity in Colombia responsible for generating, managing,
+    and disseminating geographic and cartographic data.
+  fetched: '2026-10-31'
+- claim: Says it has developed AI software to detect illegal mining patterns and machinery
+    in protected areas such as the Amazon.
+  url: https://www.igac.gov.co/noticias/igac-participo-en-la-68deg-sesion-de-copuos-en-viena-con-el-compromiso-de-colombia-de-fortalecer-el-uso-pacifico-del-espacio-ultraterrestre
+  quote: el IGAC ha desarrollado un software basado en inteligencia artificial para detectar
+    patrones de minería ilegal y maquinaria en zonas protegidas como la Amazonía
+  fetched: '2026-10-31'
+- claim: Technical secretariat of the Colombian Space Commission.
+  url: https://www.igac.gov.co/noticias/igac-participo-en-la-68deg-sesion-de-copuos-en-viena-con-el-compromiso-de-colombia-de-fortalecer-el-uso-pacifico-del-espacio-ultraterrestre
+  quote: en su calidad de Secretara Técnica de la Comisión Colombiana del Espacio (CCE)
+  fetched: '2026-10-31'
+- claim: Its main office is in Bogotá.
+  url: https://www.igac.gov.co/
+  quote: Bogotá D.C. - Carrera 30
+  fetched: '2026-10-31'
+- claim: Its site says the Subdirección Cartográfica y Geodésica generates official cartographic
+    products at national level.
+  url: https://www.igac.gov.co/datos-abiertos/datos-abiertos-geoespaciales
+  fetched: '2026-10-31'
+  quote: se generan tres productos cartográficos oficiales a nivel nacional
+- claim: An article in Revista Geodata describes a pipeline to prepare Sentinel-2 images for
+    Corine Land Cover classification with deep learning, within geospatial AI strategies promoted
+    by IGAC and developed by the ColSMART team.
+  url: https://revistageodata.icde.gov.co/edicion-5/automatizacion-del-preprocesamiento-de-imagenes-sentinel-2-para-clasificacion-corine-land
+  fetched: '2026-10-31'
+  quote: La iniciativa se enmarca en las estrategias de inteligencia artificial geoespacial
+    promovidas por el Instituto Geográfico Agustín Codazzi (IGAC)
+  ai_type: deep-learning
+links:
+- type: uses
+  to: planet-labs
+  url: https://investors.planet.com/news/news-details/2025/Planet-Expands-Multi-Year-Contract-with-Instituto-Geogrfico-Agustn-Codazzi-IGAC-Providing-Satellite-Data-and-AI-Powered-Analytics-Feeds-Across-Colombia/default.aspx
+  quote: With this contract, IGAC will continue leveraging Planet’s technology for national
+    land management
+  fetched: '2026-10-31'
+- type: runs
+  to: observatorio-de-la-tierra-y-el-territorio
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  quote: desde la Dirección de Gestión de Información Geográfica del IGAC se ha materializado
+    esta visión mediante la consolidación del Observatorio de la Tierra y el Territorio (OTT)
+  fetched: '2026-10-31'
+- type: partners-with
+  to: group-on-earth-observations
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  quote: una alianza intergubernamental de la cual Colombia y el IGAC hacen parte activa
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+ai_types:
+- deep-learning

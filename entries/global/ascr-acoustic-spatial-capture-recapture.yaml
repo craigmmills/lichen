@@ -1,0 +1,32 @@
+id: ascr-acoustic-spatial-capture-recapture
+kind: programme
+name: ascr
+also_known_as:
+- Acoustic spatial capture-recapture
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+status: dormant
+runner: unknown
+website: https://github.com/b-steve/ascr
+summary: R package that fits spatial capture-recapture models to estimate animal density
+  from acoustic surveys; it is no longer under active development, as work has moved
+  to the acre package.
+facts:
+- claim: Fits spatial capture-recapture models to estimate animal density from acoustic
+    surveys.
+  url: https://github.com/b-steve/ascr
+  fetched: 2026-11-21
+  quote: The ascr package fits SCR models to estimate animal density from acoustic
+    surveys.
+- claim: No longer under active development; work has moved to the acre package.
+  url: https://github.com/b-steve/ascr
+  fetched: 2026-11-21
+  quote: The ascr package is no longer under active development.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

@@ -1,0 +1,64 @@
+id: mohamed-boudiaf-university-of-msila
+kind: organisation
+name: Mohamed Boudiaf University of M'sila
+also_known_as:
+- University Mohamed Boudiaf of M'sila
+- University of M'sila
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: University whose affiliated authors wrote 2024 and 2025 papers on remote
+  sensing of vegetation in Algeria, covering climate effects in 25 watersheds and
+  NDVI-based vegetation change in M'sila from 1990 to 2023.
+facts:
+- claim: OpenAlex lists among the university's ecology works a 2024 paper on remote
+    sensing indicators to monitor ecosystems in arid and semi-arid areas.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210145508,publication_year:2022-2026,primary_topic.subfield.id:2303&select=id,title,publication_year&per-page=50
+  fetched: 2026-11-15
+  quote: Long-term dynamics of remote sensing indicators to monitor the dynamism of
+    ecosystems in arid and semi-arid areas
+- claim: The first and corresponding author of a 2024 paper on the long-term effects
+    of climate on vegetation in 25 watersheds is affiliated with the university's
+    BBT_VPR laboratory.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4392818381|W4409016963|W4417494215&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Laboratory of Biodiversity and Biotechnological Techniques for the Valorisation
+    of Plant Resources (BBT_VPR), Department of Natural and Life Sciences, University
+    of Mohamed Boudiaf
+- claim: The 2024 watershed vegetation paper is titled 'Assessment of the long-term
+    effects of climate on vegetation in 25 watersheds in dry and semi-dry areas, Algeria'.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4392818381|W4409016963|W4417494215&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Assessment of the long-term effects of climate on vegetation in 25 watersheds
+    in dry and semi-dry areas, Algeria
+- claim: Both authors of a 2025 paper on vegetation cover change in M'sila between
+    1990 and 2023 using NDVI are affiliated with the university's Institute of Urban
+    Techniques Management.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4392818381|W4409016963|W4417494215&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Institute of Urban Techniques Management, University of M'sila, Laboratory
+    of City, Environment, Hydraulics and Sustainable Development
+- claim: The 2025 vegetation cover paper is titled 'Detection and analysis of vegetation
+    cover changes in the city of M'Sila, Algeria, between the years 1990-2023 using
+    the NDVI (Normalized Difference Vegetation Index)'.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4392818381|W4409016963|W4417494215&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Detection and analysis of vegetation cover changes in the city of M'Sila,
+    Algeria, between the years 1990-2023 using the NDVI (Normalized Difference Vegetation
+    Index)
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

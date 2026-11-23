@@ -1,0 +1,44 @@
+id: terra-tech-roslesinforg-illegal-logging-detection
+kind: project
+name: Terra Tech and Roslesinforg illegal logging detection
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ru
+status: unknown
+summary: Project that a September 2022 report says Terra Tech and Roslesinforg were carrying out in Arkhangelsk
+  and Irkutsk regions, using Digital Earth.
+facts:
+- claim: A September 2022 report says Terra Tech and Roslesinforg were carrying out the project in Arkhangelsk
+    and Irkutsk regions.
+  url: https://www.akm.ru/press/roskosmos_podklyuchil_iskusstvennyy_intellekt_k_poisku_nezakonnykh_vyrubok_lesa/
+  quote: Незаконные рубки лесов в Архангельской и Иркутской областях начали искать с помощью космической
+    съемки Земли и технологий искусственного интеллекта. Проект реализуют специалисты компании «ТЕРРА
+    ТЕХ»
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: terra-tech
+  url: https://www.akm.ru/press/roskosmos_podklyuchil_iskusstvennyy_intellekt_k_poisku_nezakonnykh_vyrubok_lesa/
+  quote: Проект реализуют специалисты компании «ТЕРРА ТЕХ» (входит в холдинг «Российские космические системы»
+    Госкорпорации «Роскосмос») и ФГБУ «Рослесинфорг».
+  fetched: '2026-10-31'
+- type: run-by
+  to: roslesinforg
+  url: https://www.akm.ru/press/roskosmos_podklyuchil_iskusstvennyy_intellekt_k_poisku_nezakonnykh_vyrubok_lesa/
+  quote: Проект реализуют специалисты компании «ТЕРРА ТЕХ» (входит в холдинг «Российские космические системы»
+    Госкорпорации «Роскосмос») и ФГБУ «Рослесинфорг».
+  fetched: '2026-10-31'
+- type: uses
+  to: digital-earth-russia
+  url: https://www.akm.ru/press/roskosmos_podklyuchil_iskusstvennyy_intellekt_k_poisku_nezakonnykh_vyrubok_lesa/
+  quote: Основа для мониторинга состояния лесов предоставляется сервисом «Цифровая Земля».
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

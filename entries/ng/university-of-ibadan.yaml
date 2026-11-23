@@ -1,0 +1,28 @@
+id: university-of-ibadan
+kind: organisation
+name: University of Ibadan
+scope: ng
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+countries:
+- ng
+scale: national
+status: active
+summary: University with an author listed by OpenAlex on one paper; the entry gives no other
+  detail.
+facts:
+- claim: OpenAlex lists an author from the university on this paper.
+  url: https://api.openalex.org/works/doi:10.1080/02626667.2022.2098752?select=id,title,authorships
+  fetched: '2026-11-03'
+  quote: 'River sensing: the inclusion of red band in predicting reach-scale types using machine
+    learning algorithms'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+also_known_as: []

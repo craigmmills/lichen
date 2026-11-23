@@ -1,0 +1,37 @@
+id: applied-research-and-innovation-centre-mcast
+kind: organisation
+name: Applied Research and Innovation Centre, Malta College of Arts, Science and Technology
+scope: mt
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- species-distribution
+hq: mt
+countries: []
+scale: national
+status: active
+summary: Research centre at MCAST in Paola, Malta, listed by OpenAlex as the affiliation
+  of the first and corresponding author of a 2025 PeerJ paper comparing GAM and MaxEnt
+  models for bottlenose dolphin habitat mapping.
+facts:
+- claim: OpenAlex lists the centre as the first and corresponding author's affiliation
+    on a 2025 PeerJ paper comparing GAM and MaxEnt models for bottlenose dolphin habitat
+    mapping in Malta.
+  url: https://api.openalex.org/works/W4412954738?select=id,display_name,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-14
+  quote: 'Harnessing citizen science for marine conservation in Malta: a comparative
+    analysis of GAM and MaxEnt models in bottlenose dolphin habitat mapping'
+- claim: The affiliation string names the centre at MCAST in Paola, Malta.
+  url: https://api.openalex.org/works/W4412954738?select=id,display_name,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-14
+  quote: Applied Research and Innovation Centre, Malta College of Arts Science & Technology
+    (MCAST), Paola, Malta
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

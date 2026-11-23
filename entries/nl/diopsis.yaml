@@ -1,0 +1,143 @@
+id: diopsis
+kind: programme
+name: DIOPSIS
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+countries:
+- nl
+website: https://diopsis.eu/en/
+runner: unknown
+summary: Insect camera and image recognition system developed by a Dutch consortium. Cameras
+  in the field send photographs to a central server for analysis, with the aim of following
+  trends in insect numbers and biomass.
+scope: nl
+facts:
+- claim: Described as a system to photograph, recognise and monitor insects fully automatically.
+  url: https://diopsis.eu/en/
+  fetched: '2026-10-31'
+  quote: Een geavanceerd, modern systeem om volledig geautomatiseerd insecten te fotograferen,
+    te herkennen en te monitoren.
+- claim: The final aim is to monitor numbers and biomass of insect species.
+  url: https://diopsis.eu/en/
+  fetched: '2026-10-31'
+  quote: Einddoel is het monitoren van de aantallen en biomassa van verschillende soorten
+    insecten
+- claim: Camera and algorithm were developed within a consortium.
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: De DIOPSIS insectencamera en het beeldherkenningsalgoritme zijn ontwikkeld binnen
+    een consortium van samenwerkende partijen.
+- claim: Naturalis says it built an automated pipeline that analyses camera images.
+  url: https://ainature.eu/
+  fetched: '2026-10-31'
+  quote: Naturalis built an automated pipeline that can analyse millions of camera trap images
+    with AI image recognition.
+- claim: The camera counts and recognises insects automatically.
+  url: https://www.naturalis.nl/en/science/diopsis-insect-camera
+  fetched: &id001 2026-10-31
+  quote: The insect camera can count and recognize insects fully automatically.
+- claim: Naturalis provides an AI insect identification and reporting service to several provinces,
+    municipalities and construction companies using the cameras.
+  url: https://www.naturalis.nl/en/ai
+  fetched: *id001
+  quote: Currently we are providing the AI insect species identification and reporting service
+    to several provinces, municipalities as well as construction companies in the Netherlands
+- claim: Version 2.0 was produced and tested at selected sites with seven Dutch provinces.
+  url: https://diopsis.eu/en/diopsis-insectencamera-update-mei-2021/
+  fetched: *id001
+  quote: in samenwerking met zeven Nederlandse provincies
+- claim: A system of an intelligent camera in the field whose photographs are analysed on
+    a central server.
+  url: https://diopsis.eu/
+  fetched: '2026-10-31'
+  quote: Het systeem bestaat uit een intelligente camera (met een geel scherm) die buiten
+    in het veld geplaatst wordt.
+- claim: Naturalis developed an AI algorithm in 2020 to count and recognise insects on the
+    photographs.
+  url: https://diopsis.eu/beeldherkenningsanalyse/
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center heeft in 2020 een AI algoritme ontwikkeld
+links:
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Projectcoördinatie- en communicatie, ontwikkeling en beheer van het beeldherkenningsalgoritme
+- type: partners-with
+  to: faunabit
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Productie, verkoop, lease en support van de DIOPSIS insectencamera.
+- type: partners-with
+  to: radboud-universiteit
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Ecologische analyse van de DIOPSIS data.
+- type: partners-with
+  to: eis-kenniscentrum-insecten
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Entomologische expertise, annotatie van insectenfoto’s voor het trainen van het algoritme.
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/science/diopsis-insect-camera
+  fetched: *id001
+  quote: Since the beginning of 2019, EIS Knowledge Center for Insects, Naturalis Biodiversity
+    Center, Radboud University and COSMONiO have been working on the development of a new
+    monitoring system for insects.
+- type: partners-with
+  to: eis-kenniscentrum-insecten
+  url: https://www.naturalis.nl/en/science/diopsis-insect-camera
+  fetched: *id001
+  quote: Since the beginning of 2019, EIS Knowledge Center for Insects, Naturalis Biodiversity
+    Center, Radboud University and COSMONiO have been working on the development of a new
+    monitoring system for insects.
+- type: partners-with
+  to: radboud-university
+  url: https://www.naturalis.nl/en/science/diopsis-insect-camera
+  fetched: *id001
+  quote: Since the beginning of 2019, EIS Knowledge Center for Insects, Naturalis Biodiversity
+    Center, Radboud University and COSMONiO have been working on the development of a new
+    monitoring system for insects.
+- type: partners-with
+  to: faunabit
+  url: https://diopsis.eu/en/diopsis-insectencamera-update-mei-2021/
+  fetched: *id001
+  quote: De start-up Faunabit produceert, least en verkoopt de camera’s.
+- type: partners-with
+  to: eis-kenniscentrum-insecten
+  url: https://www.naturalis.nl/wetenschap/diopsis-insectencamera
+  fetched: '2026-10-31'
+  quote: wordt er door EIS Kenniscentrum Insecten, Naturalis Biodiversity Center, Radboud
+    Universiteit en COSMONiO gewerkt aan de ontwikkeling van een nieuw monitoringssysteem
+    voor insecten
+- type: partners-with
+  to: radboud-universiteit
+  url: https://www.naturalis.nl/wetenschap/diopsis-insectencamera
+  fetched: '2026-10-31'
+  quote: wordt er door EIS Kenniscentrum Insecten, Naturalis Biodiversity Center, Radboud
+    Universiteit en COSMONiO gewerkt aan de ontwikkeling van een nieuw monitoringssysteem
+    voor insecten
+- type: partners-with
+  to: cosmonio
+  url: https://www.naturalis.nl/wetenschap/diopsis-insectencamera
+  fetched: '2026-10-31'
+  quote: wordt er door EIS Kenniscentrum Insecten, Naturalis Biodiversity Center, Radboud
+    Universiteit en COSMONiO gewerkt aan de ontwikkeling van een nieuw monitoringssysteem
+    voor insecten
+- type: partners-with
+  to: faunabit
+  url: https://diopsis.eu/en/insectencamera/
+  fetched: '2026-10-31'
+  quote: Via het DIOPSIS webportaal van Faunabit kunnen gebruikers hun insectencamera’s monitoren.
+found_by:
+- checklist:7
+- link-from:naturalis-biodiversity-center
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- DIOPSIS

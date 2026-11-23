@@ -1,0 +1,42 @@
+id: jocotoco-bioacoustic-monitoring-napo
+kind: project
+name: Jocotoco bioacoustic monitoring, Narupa and Kichwa communities
+scope: ec
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ec
+status: active
+summary: A Fundación Jocotoco project in which, Mongabay Latam reports, smart acoustic monitors have processed
+  sound in real time at Narupa since October 2025, with AI models retrained on local data.
+facts:
+- claim: Mongabay Latam reports smart acoustic monitors being installed at Narupa since October 2025,
+    processing sound in real time.
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  fetched: 2026-11-02
+  quote: se vienen instalando, desde octubre de 2025, monitores acústicos inteligentes que procesan sonidos
+    en tiempo real
+- claim: The equipment has an internal computer on which the trained AI models run.
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  fetched: 2026-11-02
+  quote: en la que corren nuestros modelos de IA ya entrenados
+- claim: The team retrains foundation AI models on local acoustic data.
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  fetched: 2026-11-02
+  quote: reentrenar modelos de IA fundacionales
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: fundacion-jocotoco
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  fetched: 2026-11-02
+  quote: resultados del trabajo de monitoreo de Fundación Jocotoco con la IA
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-02

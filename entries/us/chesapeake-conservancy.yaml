@@ -1,0 +1,81 @@
+id: chesapeake-conservancy
+kind: organisation
+name: Chesapeake Conservancy
+scope: us
+sector: ngo
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: us
+scale: regional
+status: active
+website: https://chesapeakeconservancy.org
+summary: NGO working on the Chesapeake Bay watershed, whose Conservation Innovation Center
+  uses geospatial data science and AI, including a wetlands mapping model and high-resolution
+  land cover data.
+facts:
+- claim: Its Conservation Innovation Center uses geospatial data science and AI on conservation
+    problems in the Chesapeake Bay watershed.
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: leveraging cutting-edge geospatial data science, artificial intelligence and advanced
+    analytics to tackle pressing environmental and conservation challenges in the Chesapeake
+    Bay watershed
+- claim: Its data science team developed a deep learning model that maps solar arrays in satellite
+    imagery.
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: data science team developed a deep learning model that automatically maps ground-mounted
+    solar arrays in satellite imagery
+- claim: Uses a deep learning model for wetlands mapping.
+  ai_type: deep-learning
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: Our deep learning model for wetlands mapping
+- claim: Its Conservation Innovation Center uses geospatial data science and AI in the Chesapeake
+    Bay watershed.
+  url: https://www.chesapeakeconservancy.org/what-we-do/chesapeake-conservation-center
+  quote: At the Conservation Innovation Center (CIC), we serve as a catalyst for change, leveraging
+    cutting-edge geospatial data science, artificial intelligence and advanced analytics
+  fetched: '2026-10-30'
+- claim: Uses aerial imagery, LiDAR and machine learning for 1 metre land cover maps.
+  url: https://www.chesapeakeconservancy.org/what-we-do/chesapeake-conservation-center
+  quote: Leveraging aerial imagery, LiDAR elevation data, and machine learning to produce
+    1-meter resolution land cover maps for precision planning
+  fetched: '2026-10-30'
+- claim: Its address is in Annapolis, Maryland.
+  url: https://www.chesapeakeconservancy.org/what-we-do/chesapeake-conservation-center
+  quote: Annapolis, MD 21401
+  fetched: '2026-10-30'
+- claim: The IRS exempt organisation record, through ProPublica, lists Chesapeake Conservancy
+    Inc at Annapolis, Maryland.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/262271377.json
+  fetched: '2026-10-31'
+  quote: '"city":"Annapolis","state":"MD"'
+links:
+- type: runs
+  to: conservation-innovation-center
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: Chesapeake Bay Land Use/Land Cover and Change Data
+- type: runs
+  to: chesapeake-bay-land-use-land-cover-data
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: Using Chesapeake Conservancy’s high-resolution land use and land cover data
+found_by:
+- checklist:4
+- link-from:microsoft-ai-for-good-lab
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+ai_types:
+- deep-learning

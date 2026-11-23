@@ -1,0 +1,36 @@
+id: tilapiamap
+kind: project
+name: TilapiaMap
+scope: gb
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- species-distribution
+status: active
+runner: unknown
+website: http://tilapiamap.bangor.ac.uk
+summary: Tilapia recording project on a Bangor University site, now recording on iNaturalist,
+  with its data free to download through GBIF.
+facts:
+- claim: Project data are free to search and download.
+  url: http://tilapiamap.bangor.ac.uk
+  fetched: '2026-10-30'
+  quote: Data collected during the TilapiaMap project can be accessed free of charge
+    for search and download via the Global Biodiversity Information Facility
+- claim: Recording has moved to iNaturalist.
+  url: http://tilapiamap.bangor.ac.uk
+  fetched: '2026-10-30'
+  quote: The TilapiaMap project has transitioned to recording observations on iNaturalist
+- claim: Publishes the dataset "TilapiaMap" on GBIF.
+  url: https://api.gbif.org/v1/organization/5efc1e1a-ba2f-471e-a8ed-e5849225e949/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: TilapiaMap
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/5efc1e1a-ba2f-471e-a8ed-e5849225e949/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

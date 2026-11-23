@@ -1,0 +1,49 @@
+id: verna
+kind: model
+name: VERNA
+scope: dk
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- dk
+scale: national
+status: active
+summary: Model built by Koordinat that runs several deep-learning architectures side by side on aerial,
+  near-infrared, LiDAR, elevation and Sentinel data; Koordinat says it found over 2000 potential changes
+  and 2500 potential new ponds and lakes across 15 municipalities.
+ai_types:
+- deep-learning
+facts:
+- claim: Runs several deep-learning architectures side by side.
+  url: https://eomag.eu/denmark-as-a-testbed-for-ai-nature-monitoring/
+  fetched: '2026-11-02'
+  quote: It runs several deep-learning architectures side by side, for segmentation, change detection,
+    embedding-based comparison and vegetation-height estimation
+  ai_type: deep-learning
+- claim: Takes aerial orthophotos, near-infrared imagery, airborne LiDAR, elevation models and Sentinel
+    imagery as inputs.
+  url: https://eomag.eu/denmark-as-a-testbed-for-ai-nature-monitoring/
+  fetched: '2026-11-02'
+  quote: The inputs are aerial orthophotos and near-infrared imagery, airborne LiDAR and elevation models,
+    and Sentinel imagery.
+- claim: Koordinat says it has identified more than 2000 potential changes and 2500 potential new ponds
+    and lakes across 15 municipalities.
+  url: https://eomag.eu/denmark-as-a-testbed-for-ai-nature-monitoring/
+  fetched: '2026-11-02'
+  quote: In Denmark it has already identified more than 2,000 potential changes and 2,500 potential new
+    ponds and lakes across 15 municipalities.
+links:
+- type: built-by
+  to: koordinat
+  url: https://eomag.eu/denmark-as-a-testbed-for-ai-nature-monitoring/
+  fetched: '2026-11-02'
+  quote: We build tools that help authorities use Earth Observation data to monitor nature, identify changes
+    and prioritise fieldwork.
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'

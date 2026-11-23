@@ -1,0 +1,113 @@
+id: museum-and-institute-of-zoology-polish-academy-of-sciences
+kind: organisation
+name: Museum and Institute of Zoology, Polish Academy of Sciences
+also_known_as:
+- Muzeum i Instytut Zoologii PAN
+- MIZ PAN
+- MIIZ PAN
+- MiIZ PAN
+- MIZ PAS
+scope: pl
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- edna-genomics
+hq: pl
+scale: national
+status: active
+summary: Warsaw institute holding a zoological collection of almost 8 million specimens, which
+  also houses the bird ringing centre set up in 1931 and now at its Gdańsk station.
+facts:
+- claim: A 2021 paper with an author at the institute covers drones, automatic counting and
+    neural networks in wildlife censuses.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:PL,primary_topic.id:T10199,concepts.id:C154945302,from_publication_date:2019-01-01&sort=publication_date:desc&per_page=25&select=id,doi,title,publication_year,authorships,cited_by_count
+  fetched: '2026-11-02'
+  quote: Drones, automatic counting tools, and artificial neural networks in wildlife population
+    censusing
+- claim: A 2023 paper with authors at the institute covers ground visibility on thermal drone
+    images in forests.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:PL,primary_topic.id:T10199,concepts.id:C154945302,from_publication_date:2019-01-01&sort=publication_date:desc&per_page=25&select=id,doi,title,publication_year,authorships,cited_by_count
+  fetched: '2026-11-02'
+  quote: Estimating ground surface visibility on thermal images from drone wildlife surveys
+    in forests
+- claim: Its address is in Warsaw.
+  url: https://miiz.waw.pl/o-instytucie-ang
+  fetched: '2026-11-02'
+  quote: Twarda 51/55, 00-818 Warszawa
+- claim: Holds a scientific zoological collection of almost 8 million specimens.
+  url: https://miiz.waw.pl/o-instytucie-ang
+  fetched: '2026-11-02'
+  quote: Naukową Kolekcję Zoologiczną liczącą blisko 8 mln okazów
+- claim: Its documentation projects share specimen information through KSIB, CETAF and GBIF.
+  url: https://miiz.waw.pl/o-instytucie-ang
+  fetched: '2026-11-02'
+  quote: udostępniania informacji o zgromadzonych okazach w ramach konsorcjów polskich (KSIB),
+    europejskich (CETAF), oraz światowych (GBIF)
+- claim: Houses the bird ringing centre, set up in 1931 and now at its Ornithological Station
+    in Gdańsk.
+  url: https://miiz.waw.pl/o-instytucie-ang
+  fetched: '2026-11-02'
+  quote: działa Centrala Obrączkowania Ptaków, powołana w 1931 r. a obecnie usytuowana w Stacji
+    Ornitologicznej MiIZ PAN w Gdańsku
+- claim: Its molecular laboratory uses eDNA from water, air and sediment to assess biodiversity.
+  url: https://miiz.waw.pl/ptm
+  fetched: '2026-11-02'
+  quote: Genetyczne monitorowanie bioróżnorodności – wykorzystanie eDNA (z próbek wody, powietrza,
+    osadów) do oceny różnorodności biologicznej.
+- claim: DiSSCo calls it the largest zoological collection in Poland.
+  url: https://www.dissco.eu/pl/
+  fetched: '2026-11-02'
+  quote: is the largest zoological collection in Poland
+- claim: Its address is in Warsaw, Poland.
+  url: http://www.miiz.waw.pl
+  quote: Twarda 51/55, 00-818 Warszawa
+  fetched: '2026-11-02'
+- claim: A 2021 paper by an author at the institute covers drones, automatic counting tools
+    and artificial neural networks in wildlife censusing.
+  url: https://api.openalex.org/works/W3158957901?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Drones, automatic counting tools, and artificial neural networks in wildlife population
+    censusing
+  fetched: '2026-11-02'
+- claim: A 2025 parliamentary question in the Sejm says the database of the institute's ornithological
+    station holds information on more than 4.2 million birds.
+  url: https://api.sejm.gov.pl/sejm/term10/interpellations/13622/body
+  quote: Baza danych stacji ornitologicznej zawiera obecnie informacje o ponad 4,2 mln osobników
+  fetched: '2026-11-02'
+links:
+- type: partners-with
+  to: imbio
+  url: https://www.iop.krakow.pl/files/293/oimbio.pdf
+  fetched: '2026-11-02'
+  quote: Muzeum i Instytut Zoologii Polskiej Akademii Nauk
+- type: partners-with
+  to: consortium-of-european-taxonomic-facilities
+  url: https://miiz.waw.pl/o-instytucie-ang
+  fetched: '2026-11-02'
+  quote: udostępniania informacji o zgromadzonych okazach w ramach konsorcjów polskich (KSIB),
+    europejskich (CETAF), oraz światowych (GBIF)
+- type: partners-with
+  to: polish-biodiversity-information-network
+  url: https://miiz.waw.pl/o-instytucie-ang
+  fetched: '2026-11-02'
+  quote: udostępniania informacji o zgromadzonych okazach w ramach konsorcjów polskich (KSIB),
+    europejskich (CETAF), oraz światowych (GBIF)
+- type: partners-with
+  to: large-area-wildlife-monitoring-system-taxus
+  url: https://grupa-taxus.pl/en/wildlife-monitoring/
+  fetched: '2026-11-02'
+  quote: The project is carried out by a consortium made up of TAXUS UL Sp. z o.o. (consortium
+    leader) and the Museum and Institute of Zoology of the Polish Academy of Sciences (consortium
+    member).
+found_by:
+- checklist:3
+- link-from:consortium-of-european-taxonomic-facilities
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

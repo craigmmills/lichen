@@ -1,0 +1,29 @@
+id: mycoportal
+kind: programme
+name: MyCoPortal
+also_known_as:
+- Mycology Collections data Portal
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: http://www.mycoportal.org
+runner: unknown
+summary: Web portal for fungal biodiversity data from a network of universities, gardens,
+  museums and agencies, built on Symbiota.
+facts:
+- claim: Suite of web-based data access technologies for fungal diversity.
+  url: https://api.gbif.org/v1/organization/b648db34-3bf9-45eb-a65b-8176a3c3be88
+  fetched: '2026-10-30'
+  quote: is a suite of user-friendly, web-based data access technologies
+links:
+- type: builds-on
+  to: symbiota
+  url: https://api.gbif.org/v1/organization/b648db34-3bf9-45eb-a65b-8176a3c3be88
+  fetched: '2026-10-30'
+  quote: Using the Symbiota (http://symbiota.org) system of virtual online floras
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

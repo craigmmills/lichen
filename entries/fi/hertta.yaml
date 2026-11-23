@@ -1,0 +1,25 @@
+id: hertta
+kind: dataset
+name: Hertta
+scope: fi
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+status: active
+summary: Open database run by the Finnish Environment Institute, which Syke describes as its own.
+facts:
+- claim: Syke calls it its open database.
+  url: https://www.syke.fi/fi/projektit/edna-monitor
+  quote: Syken avoimeen Hertta-tietokantaan
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: finnish-environment-institute
+  url: https://www.syke.fi/fi/projektit/edna-monitor
+  fetched: '2026-11-02'
+  quote: Syken avoimeen Hertta-tietokantaan
+found_by:
+- link-from:edna-monitor
+added_by: agent
+checked: '2026-11-02'

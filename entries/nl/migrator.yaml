@@ -1,0 +1,34 @@
+id: migrator
+kind: model
+name: Migrator
+scope: nl
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+status: active
+countries:
+- nl
+summary: KBTS machine learning program that analyses underwater footage from fish
+  migration studies, counting fish and estimating migration direction and length class.
+facts:
+- claim: Based on a machine learning architecture.
+  url: https://kb-ts.nl/beeldanalyse/
+  fetched: '2026-10-31'
+  quote: Migrator is gebasseerd op een architectuur van Machine Learning
+- claim: Determines migration direction as well as recognising and counting fish.
+  url: https://kb-ts.nl/beeldanalyse/
+  fetched: '2026-10-31'
+  quote: Naast het herkennen en tellen van vissen zijn de algoritmes achter Migrator
+    in staat om de migratierichting te bepalen.
+links:
+- type: run-by
+  to: kbts
+  url: https://kb-ts.nl/beeldanalyse/
+  fetched: '2026-10-31'
+  quote: heeft KBTS haar eigen programma ontwikkeld dat de naam Migrator draagt
+found_by:
+- link-from:kbts
+added_by: agent
+checked: '2026-10-31'

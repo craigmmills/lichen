@@ -1,0 +1,73 @@
+id: greenland-institute-of-natural-resources
+kind: organisation
+name: Greenland Institute of Natural Resources
+also_known_as:
+- Pinngortitaleriffik
+- Grønlands Naturinstitut
+scope: gl
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: gl
+countries:
+- gl
+scale: national
+status: active
+website: https://natur.gl
+summary: Researches Arctic ecosystems, monitors living resources and advises Greenland’s government; its
+  researchers co-authored a 2025 paper on a YOLO V5 model trained on Greenlandic seafloor images.
+facts:
+- claim: Conducts research into Arctic ecosystems, monitors living resources and the environment in Greenland,
+    and advises the Government of Greenland.
+  url: https://natur.gl/about-us/naturinstituttet/?lang=en
+  fetched: 2026-11-12
+  quote: The Greenland Institute of Natural Resources conducts research into Arctic ecosystems, monitors
+    the living resources and the environment in Greenland and advises the Government of Greenland
+- claim: Its 2013–17 strategy describes its statutory tasks and funding through the Finance Act.
+  url: https://natur.gl/wp-content/uploads/2019/08/GN_strategi_2013_17_DK.pdf
+  fetched: 2026-11-12
+  quote: Ifølge Lov om Grønlands Naturinstitut er det instituttets opgaver
+- claim: Has carried out a benthic monitoring programme since 2015, the only large-scale survey of the
+    region's seafloor.
+  url: https://tos.org/oceanography/article/the-potential-of-low-tech-tools-and-artificial-intelligence-for-monitoring-blue-carbon-in-greenlands-deep-sea
+  fetched: 2026-11-12
+  quote: Since 2015, a benthic monitoring program carried out by the Greenland Institute of Natural Resources
+    (GINR) has provided the only large-scale, comprehensive survey in this region
+- claim: Its researchers co-authored a 2025 paper demonstrating a YOLO V5 model trained on Greenlandic
+    seafloor images; the paper says deep-learning models can match or, by certain criteria, outperform
+    a human annotator.
+  url: https://tos.org/oceanography/article/the-potential-of-low-tech-tools-and-artificial-intelligence-for-monitoring-blue-carbon-in-greenlands-deep-sea
+  fetched: 2026-11-12
+  quote: The dataset was then exported in a YOLO (You Only Look Once) format and used to train a YOLO
+    V5 large object detection model, and object detection predictions were applied to frames from seafloor
+    footage.
+  ai_type: deep-learning
+- claim: Publishes datasets through GBIF.
+  url: https://api.gbif.org/v1/organization/ee9b5bde-4ae8-4789-b1d3-e82fae98628c
+  fetched: 2026-11-12
+  quote: '"numPublishedDatasets":10'
+- claim: Is fitting GPS tags to eagle chicks in South Greenland to follow their movements.
+  url: https://natur.gl
+  fetched: 2026-11-12
+  quote: GPS-sendere skal følge ørnene i Sydgrønland
+links:
+- type: partners-with
+  to: greenland-ecosystem-monitoring
+  url: https://natur.gl/about-us/naturinstituttet/?lang=en
+  fetched: 2026-11-12
+  quote: The Institute takes part in the monitoring program “Greenland Ecosystem Monitoring”
+found_by:
+- checklist:1
+- checklist:3
+added_by: agent
+checked: 2026-11-12

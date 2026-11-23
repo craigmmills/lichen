@@ -1,0 +1,59 @@
+id: gistda-wildfire-monitoring-system
+kind: programme
+name: GISTDA wildfire monitoring system
+scope: th
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+scale: regional
+status: active
+website: https://disaster.gistda.or.th
+summary: A GISTDA-run system covering Thailand and four neighbouring countries, using
+  Sentinel-2 to map burned areas every three to five days and processing hotspot data
+  to locate hotspots and responsible agencies.
+countries:
+- mm
+- kh
+- la
+- vn
+facts:
+- claim: Hotspot and burned-area data are provided through the GISTDA Disaster Platform.
+  url: https://gistda.or.th/news/a-deeper-look-at-space-technology-in-wildfire-management-it-is-not-limited-to-fire-suppression/
+  fetched: 2026-11-12
+  quote: Both types of data are provided by GISTDA through the GISTDA Disaster Platform,
+    a decision support system for disaster management, via a web application.
+- claim: Monitors fires across Thailand and four neighbouring countries.
+  url: https://gistda.or.th/news/a-deeper-look-at-space-technology-in-wildfire-management-it-is-not-limited-to-fire-suppression/
+  fetched: 2026-11-12
+  quote: GISTDA now monitors wildfires and burning activities throughout Thailand
+    and neighboring countries (Myanmar, Cambodia, Laos, and Vietnam).
+- claim: Uses Sentinel-2 to map burned areas every three to five days in forested
+    and other areas.
+  url: https://gistda.or.th/news/a-deeper-look-at-space-technology-in-wildfire-management-it-is-not-limited-to-fire-suppression/
+  fetched: 2026-11-12
+  quote: burned areas can be monitored every 3-5 days
+- claim: Processes hotspot data with geographic information to locate hotspots by
+    subdistrict, district or province, classify land and identify the responsible
+    agency.
+  url: https://gistda.or.th/news/a-deeper-look-at-space-technology-in-wildfire-management-it-is-not-limited-to-fire-suppression/
+  fetched: 2026-11-12
+  quote: categorizes the area as forest or agricultural land; identifies the responsible
+    agency to facilitate monitoring and coordination at the local level
+links:
+- type: run-by
+  to: geo-informatics-and-space-technology-development-agency
+  url: https://gistda.or.th/news/a-deeper-look-at-space-technology-in-wildfire-management-it-is-not-limited-to-fire-suppression/
+  fetched: 2026-11-12
+  quote: Both types of data are provided by GISTDA through the GISTDA Disaster Platform
+- type: uses
+  to: nasa-firms
+  url: https://gistda.or.th/news/a-deeper-look-at-space-technology-in-wildfire-management-it-is-not-limited-to-fire-suppression/
+  fetched: 2026-11-12
+  quote: the hotspot data published through GISTDA's wildfire system originates from
+    NASA FIRMS
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

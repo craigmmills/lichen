@@ -1,0 +1,31 @@
+id: tropicals-species-datasets
+kind: dataset
+name: Tropicals Datasets
+also_known_as: []
+scope: cn
+ai_label: data-infrastructure
+techniques:
+- other
+status: active
+website: https://tropicals.cn/datasets
+summary: Open snapshot of names and taxonomy for about 420,000 species under CC BY
+  4.0, published yearly with a DOI, with fuller fields sold through an API.
+facts:
+- claim: Name and taxonomy backbone is free, yearly and carries a DOI.
+  url: https://tropicals.cn/datasets
+  fetched: '2026-10-31'
+  quote: 名称与分类骨干免费开放，每年一版，带 DOI
+- claim: Lists a Darwin Core backbone file on Zenodo with a DOI.
+  url: https://tropicals.cn/datasets
+  fetched: '2026-10-31'
+  quote: Darwin Core 骨干 10.5281/zenodo.21274142
+links:
+- type: run-by
+  to: tropicals-cn
+  url: https://tropicals.cn/datasets
+  fetched: '2026-10-31'
+  quote: Tropicals Datasets
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

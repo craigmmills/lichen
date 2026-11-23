@@ -1,0 +1,39 @@
+id: conservation-biology-institute
+kind: organisation
+name: Conservation Biology Institute
+also_known_as:
+- CBI
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: national
+status: active
+website: https://consbio.org
+summary: Science-based nonprofit whose flagship platform Data Basin gives access to geospatial
+  conservation data.
+facts:
+- claim: Science-based conservation nonprofit.
+  url: https://consbio.org/
+  fetched: '2026-10-30'
+  quote: Conservation Biology Institute is a non-partisan, science-based nonprofit working
+    to support the conservation of biological diversity
+- claim: The IRS exempt organisation record, through ProPublica, lists Conservation Biology
+    Institute in Corvallis, Oregon.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/911840582.json
+  fetched: '2026-10-31'
+  quote: '"city":"Corvallis","state":"OR"'
+links:
+- type: runs
+  to: data-basin
+  url: https://consbio.org/
+  fetched: '2026-10-30'
+  quote: Our flagship platform, Data Basin
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-30'

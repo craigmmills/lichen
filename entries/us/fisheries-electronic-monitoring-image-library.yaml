@@ -1,0 +1,31 @@
+id: fisheries-electronic-monitoring-image-library
+kind: dataset
+name: Fisheries Electronic Monitoring Library
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: unknown
+summary: NOAA central repository for electronic monitoring data on marine life, listed
+  as in planning or development.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Fisheries Electronic Monitoring Image Library The Fisheries
+    Electronic Monitoring Library (FEML) will be the central repository for electronic
+    monitoring (EM) data related to marine life. Automated Image Processing
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Fisheries Electronic Monitoring Image Library The Fisheries
+    Electronic Monitoring Library (FEML) will be the central repository for electronic
+    monitoring (EM) data related to marine life. Automated Image Processing
+found_by:
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'

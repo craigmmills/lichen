@@ -1,0 +1,115 @@
+id: rijkswaterstaat
+kind: organisation
+name: Rijkswaterstaat
+sector: government
+roles:
+- uses-ai
+- governs
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: national
+status: active
+website: https://www.rijkswaterstaat.nl
+summary: Says it manages over 18,000 hectares of verges along the Dutch national road network.
+  It is a partner in Automated Biodiversity Monitoring and tested AI estimation of vegetation
+  height from satellite images.
+scope: nl
+facts:
+- claim: Says it manages more than 18,000 hectares of verges along the national road network.
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/11/geavanceerde-biodiversiteitmonitoring-van-start-in-2026
+  fetched: '2026-10-31'
+  quote: ruim 18.000 ha aan bermen langs het rijkswegennet
+- claim: Examined the feasibility of estimating vegetation height directly with AI from high-resolution
+    satellite images.
+  url: https://open.rijkswaterstaat.nl/@295191/vegetatiehoogte-hoge-resolutie/
+  fetched: '2026-10-31'
+  quote: heeft Rijkswaterstaat de haalbaarheid onderzocht van directe schatting van vegetatiehoogte
+    met Artificial Intelligence (AI)-technieken op basis van hoge-resolutie satellietbeelden
+- claim: Says it manages more than 18,000 hectares of roadsides along the national highway
+    network.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: &id001 2026-10-31
+  quote: including more than 18,000 hectares of roadsides along the national highway network
+- claim: Sits on the advisory group of Biodiversity in Focus, according to Witteveen+Bos.
+  url: https://www.witteveenbos.com/news/launch-of-the-biodiversity-in-focus-research-project
+  fetched: *id001
+  quote: the Port of Rotterdam Authority, EcoShape, Rijkswaterstaat, the Municipality of Pijnacker-Nootdorp
+- claim: Listed as part of the Ministry of Infrastructure and Water Management.
+  url: https://www.rijkswaterstaat.nl/leefomgeving/leefbaarheid-en-milieu/natuur-en-biodiversiteit
+  fetched: '2026-10-31'
+  quote: Ministerie van Infrastructuur en Waterstaat
+- claim: Its register entry for the Vegetatiemonitor describes an AI image detection algorithm
+    on satellite images.
+  url: https://algoritmes.overheid.nl/nl/algoritme/oorg10004/31788511/vegetatiemonitor
+  fetched: '2026-10-31'
+  quote: Het systeem maakt gebruik van een AI beelddetectie algoritme op basis van satellietbeelden.
+- claim: Project DEM is to innovate bird and marine mammal monitoring with image recognition
+    by AI.
+  url: https://www.digitalenoordzee.nl/onderwerpen/d/digitale-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Vogel- en zeezoogdiermonitoring innoveren met beeldherkenning door kunstmatige intelligentie.
+- claim: Started a tender for measuring buoys for the Digitalisering Ecologische Monitoring
+    project.
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/07/rijkswaterstaat-start-aanbesteding-meetboeien-inclusief-beheer-en-onderhoud
+  fetched: '2026-10-31'
+  quote: Rijkswaterstaat is gestart met de aanbesteding voor de inkoop van meetboeien ten
+    behoeve van het project Digitalisering Ecologische Monitoring (DEM).
+- claim: The project aims to push forward digital ecological monitoring on the North Sea.
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/07/rijkswaterstaat-start-aanbesteding-meetboeien-inclusief-beheer-en-onderhoud
+  fetched: '2026-10-31'
+  quote: Het doel van het project DEM is om de digitalisering van de ecologische monitoring
+    op de Noordzee een impuls te geven.
+links:
+- type: partners-with
+  to: automated-biodiversity-monitoring
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/11/geavanceerde-biodiversiteitmonitoring-van-start-in-2026
+  fetched: '2026-10-31'
+  quote: Rijkswaterstaat, Naturalis Biodiversity Center, TNO en RIVM slaan de handen ineen
+    om de biodiversiteit te beschermen met een initiatief voor geautomatiseerde biodiversiteitsmonitoring
+    (ABM).
+- type: runs
+  to: vegetatiehoogte-uit-hoge-resolutie-satellietbeelden
+  url: https://open.rijkswaterstaat.nl/@295191/vegetatiehoogte-hoge-resolutie/
+  fetched: '2026-10-31'
+  quote: heeft Rijkswaterstaat de haalbaarheid onderzocht
+- type: partners-with
+  to: automated-biodiversity-monitoring
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/11/geavanceerde-biodiversiteitmonitoring-van-start-in-2026
+  fetched: *id001
+  quote: Rijkswaterstaat, Naturalis Biodiversity Center, TNO en RIVM slaan de handen ineen
+    om de biodiversiteit te beschermen
+- type: runs
+  to: vegetatiemonitor
+  url: https://algoritmes.overheid.nl/nl/algoritme/oorg10004/31788511/vegetatiemonitor
+  fetched: '2026-10-31'
+  quote: Het algoritme kan alleen gebruikt (en niet aangepast) worden door aangewezen gebruikers
+    binnen Rijkswaterstaat
+- type: runs
+  to: digitalisering-ecologische-monitoring-noordzee
+  url: https://www.digitalenoordzee.nl/onderwerpen/d/digitale-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: wordt uitgevoerd door de Centrale Informatie Voorziening (CIV) van Rijkswaterstaat
+    (RWS)
+- type: runs
+  to: wind-op-zee-ecologisch-programma
+  url: https://noordzeeloket.nl/en/functions-use/offshore-energy-transition/offshore-wind-energy/ecology/
+  fetched: '2026-10-31'
+  quote: This project is implemented by Rijkswaterstaat
+found_by:
+- checklist:1
+- link-from:naturalis-biodiversity-center
+- register:nl
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+also_known_as:
+- RWS

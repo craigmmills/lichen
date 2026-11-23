@@ -1,0 +1,29 @@
+id: global-invasive-species-database
+kind: dataset
+name: Global Invasive Species Database
+also_known_as:
+- GISD
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.iucngisd.org/gisd/
+summary: Database of invasive species developed and managed by the Invasive Species Specialist Group of the IUCN Species Survival Commission.
+facts:
+- claim: Developed and managed by the ISSG.
+  url: https://www.iucngisd.org/gisd/
+  fetched: '2026-10-30'
+  quote: The Global Invasive Species Database was developed and is managed by the Invasive Species Specialist Group (ISSG)
+links:
+- type: run-by
+  to: iucn-species-survival-commission
+  url: https://www.iucngisd.org/gisd/
+  fetched: '2026-10-30'
+  quote: "The Global Invasive Species Database was developed and is managed by the Invasive Species Specialist Group (ISSG) of the Species Survival Commission (SSC) of the International Union for Conservation of Nature (IUCN)"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

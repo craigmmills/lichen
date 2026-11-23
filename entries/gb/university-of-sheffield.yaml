@@ -1,0 +1,47 @@
+id: university-of-sheffield
+kind: organisation
+name: University of Sheffield
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- other
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://sheffield.ac.uk
+summary: University whose FORGE project tests AI and drone imagery for tree species in Peru,
+  with work also through its Centre for Machine Intelligence.
+facts:
+- claim: FORGE evaluates AI and drone-based remote sensing of tropical forests in Peru.
+  url: https://sheffield.ac.uk/grantham-centre/news/can-ai-lead-fight-against-illegal-logging-peruvian-rainforest
+  quote: aims to evaluate how artificial intelligence and drone-based remote sensing could
+    improve the monitoring of tropical forests in Peru
+  fetched: '2026-10-30'
+- claim: Gives its address at Western Bank, Sheffield.
+  url: https://sheffield.ac.uk/grantham-centre/news/can-ai-lead-fight-against-illegal-logging-peruvian-rainforest
+  quote: Western Bank
+  fetched: '2026-10-30'
+- claim: Home of a 2026 Royal Society University Research Fellowship on AI for biodiversity
+    recovery.
+  url: https://royalsociety.org/news/2026/09/university-research-fellowships-2026/
+  quote: Harnessing AI to catalyse biodiversity recovery The University of Sheffield
+  fetched: &id001 2026-10-30
+- claim: Postcode.
+  url: https://sheffield.ac.uk/machine-intelligence/community/interest-groups/bioscience-and-ai
+  quote: S10 2TN
+  fetched: *id001
+found_by:
+- checklist:3
+- link-from:uk-research-and-innovation
+scope: gb
+added_by: agent
+checked: '2026-10-30'

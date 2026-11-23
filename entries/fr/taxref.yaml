@@ -1,0 +1,32 @@
+id: taxref
+kind: dataset
+name: TAXREF
+also_known_as:
+- TaxRef
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- fr
+status: active
+summary: France's national taxonomic reference, which lists the scientific and common
+  names of all living things on French territory, developed by PatriNat since 2003.
+facts:
+- claim: National taxonomic reference for marine, land and aquatic organisms in France.
+  url: http://www.patrinat.fr/fr/referentiel-taxonomique-taxref-6057
+  fetched: '2026-10-31'
+  quote: TAXREF est le référentiel taxonomique national français
+links:
+- type: run-by
+  to: patrinat
+  url: http://www.patrinat.fr/fr/referentiel-taxonomique-taxref-6057
+  fetched: '2026-10-31'
+  quote: Depuis 2003, PatriNat développe et diffuse le référentiel taxonomique national
+    TaxRef
+found_by:
+- link-from:patrinat
+added_by: agent
+checked: '2026-10-31'

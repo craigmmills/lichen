@@ -1,0 +1,101 @@
+id: sistema-de-alerta-temprana-de-deforestacion
+kind: programme
+name: Sistema de Alerta Temprana de Deforestación
+also_known_as:
+- SAT
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ar
+scale: national
+status: active
+website: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+summary: Argentine national system processing Sentinel and Landsat 8 imagery every 15 days to detect native
+  forest loss, with alerts received by national parks since November 2021.
+facts:
+- claim: Monitors native forest loss continuously through automated processes based on satellite images.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: 2026-11-03
+  quote: es una herramienta que monitorea la pérdida de bosque nativo de forma continua, a través de procesos
+    automatizados basados en imágenes satelitales.
+- claim: Every 15 days it processes Sentinel and Landsat 8 imagery with algorithms analysing time series
+    and spatial patterns.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: 2026-11-03
+  quote: Cada 15 días, automáticamente el sistema procesa imágenes satelitales Sentinel y Landsat 8, aplicando
+    algoritmos que analizan con diversas técnicas, series de tiempo y patrones espaciales.
+- claim: Began in the Chaco Húmedo and Chaco Semiárido subregions of Parque Chaqueño and later added parts
+    of the Yungas and the Bosque Andino Patagónico.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: 2026-11-03
+  quote: La Subsecretaría de Ambiente de Nación comenzó la implementación del SAT en la región forestal
+    Parque Chaqueño
+- claim: The national native forest monitoring system’s page lists the early deforestation alert system
+    in its “In this section” links.
+  url: https://www.argentina.gob.ar/node/473132
+  fetched: 2026-11-03
+  quote: Sistema de Alerta Temprana de Deforestación
+- claim: Monitors native forest loss continuously through automated processes based on satellite images.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: '2026-11-03'
+  quote: es una herramienta que monitorea la pérdida de bosque nativo de forma continua, a través de procesos
+    automatizados basados en imágenes satelitales
+- claim: Every 15 days it processes Sentinel and Landsat 8 images with algorithms that analyse time series
+    and spatial patterns.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: '2026-11-03'
+  quote: Cada 15 días, automáticamente el sistema procesa imágenes satelitales Sentinel y Landsat 8, aplicando
+    algoritmos que analizan con diversas técnicas, series de tiempo y patrones espaciales
+- claim: All alerts are validated and a report is sent to each province asking whether each clearing was
+    authorised.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: '2026-11-03'
+  quote: Finalmente, se envía un reporte a cada provincia con el detalle de las alertas
+- claim: Monitors loss of native forest continuously through automated processes based on satellite images.
+  url: https://www.argentina.gob.ar/node/466374
+  fetched: 2026-11-03
+  quote: El Sistema de Alerta Temprana de Deforestación (SAT) es una herramienta que monitorea la pérdida
+    de bosque nativo de forma continua, a través de procesos automatizados basados en imágenes satelitales.
+- claim: Every 15 days it processes Sentinel and Landsat 8 images automatically.
+  url: https://www.argentina.gob.ar/node/466374
+  fetched: 2026-11-03
+  quote: Cada 15 días, automáticamente el sistema procesa imágenes satelitales Sentinel y Landsat 8
+- claim: Since November 2021 the national parks' biodiversity information system has received the alerts
+    inside national protected areas every two weeks.
+  url: https://sib.gob.ar/novedades/sat-apn
+  fetched: 2026-11-03
+  quote: Desde noviembre de 2021, la APN mediante el SIB comenzó a recibir quincenalmente informes y coberturas
+    geográficas de las alertas registradas dentro de las Áreas Protegidas (APs) Nacionales de Argentina.
+links:
+- type: run-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: 2026-11-03
+  quote: Mejorar el sistema de monitoreo que lleva adelante la Subsecretaría de Ambiente de Nación como
+    Autoridad Nacional de la Ley de Bosques
+- type: run-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: '2026-11-03'
+  quote: La Subsecretaría de Ambiente de Nación comenzó la implementación del SAT en la región forestal
+    Parque Chaqueño
+- type: built-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.argentina.gob.ar/node/466374
+  fetched: 2026-11-03
+  quote: La Subsecretaría de Ambiente de Nación comenzó la implementación del SAT
+- type: used-by
+  to: administracion-de-parques-nacionales
+  url: https://sib.gob.ar/novedades/sat-apn
+  fetched: 2026-11-03
+  quote: Desde noviembre de 2021, la APN mediante el SIB comenzó a recibir quincenalmente informes y coberturas
+    geográficas de las alertas
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-03

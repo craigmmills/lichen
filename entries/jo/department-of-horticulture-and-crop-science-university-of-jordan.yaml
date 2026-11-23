@@ -1,0 +1,52 @@
+id: department-of-horticulture-and-crop-science-university-of-jordan
+kind: organisation
+name: Department of Horticulture and Crop Science, University of Jordan
+also_known_as: []
+scope: jo
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: jo
+countries:
+- jo
+scale: national
+status: active
+summary: A university department in Amman, lead affiliation on 2022 and 2025 remote
+  sensing papers covering small forest fires, Arabian oryx reintroduction sites and
+  forest moisture, using Sentinel-2 and Landsat data.
+facts:
+- claim: Lead affiliation on a 2022 paper assessing small forest fires in Jordan with
+    Sentinel-2 and Landsat data (OpenAlex record).
+  url: https://api.openalex.org/works?filter=openalex_id:W4313260224|W4367311184|W4229080011&select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Assessment of Small-Extent Forest Fires in Semi-Arid Environment in Jordan
+    Using Sentinel-2 and Landsat Sensors Data
+- claim: The first author of that paper gives this department as affiliation, with
+    an address in Amman.
+  url: https://api.openalex.org/works?filter=openalex_id:W4313260224|W4367311184|W4229080011&select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Department of Horticulture and Crop Science, The University of Jordan, Amman
+    119421, Jordan
+- claim: Lead affiliation, with the Royal Society for the Conservation of Nature,
+    on a 2022 paper on using remotely sensed data to find reintroduction sites for
+    the Arabian oryx (OpenAlex record).
+  url: https://api.openalex.org/works?filter=openalex_id:W4313260224|W4367311184|W4229080011&select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-15
+  quote: The potential of remotely-sensed data to identify suitable sites for the
+    reintroduction of Arabian Oryx (Oryx leucoryx)
+- claim: Lead affiliation on a 2025 paper using Landsat-8 and Sentinel-2 data on moisture
+    in oak and pine forests (OpenAlex record).
+  url: https://api.openalex.org/works?filter=openalex_id:W7214645927|W4417359308|W7164351518&select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Landsat-8 and Sentinel-2 multispectral surface reflectance data differentiated
+    moisture levels in oak and pine forests in Mediterranean arid environments
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

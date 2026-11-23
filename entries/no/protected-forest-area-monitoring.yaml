@@ -1,0 +1,38 @@
+id: protected-forest-area-monitoring
+kind: programme
+name: Arealrepresentativ overvåkning av skog i verneområder
+also_known_as:
+- Area-representative monitoring of forest in protected areas
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: A forest monitoring programme in protected areas, started in 2012 and run
+  in five-year rounds, now in its third, coordinated with the National Forest Inventory
+  using the same parameters inside and outside protected areas.
+facts:
+- claim: Monitoring started in 2012 and runs in five-year rounds; it is now in its
+    third round.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/natur-pa-land/skog-i-verneomrader/
+  fetched: '2026-11-08'
+  quote: 'Programperiode: Overvåkingen startet opp i 2012 og gjennomføres i 5-årige
+    omløp. Vi er nå inne i overvåkingsomløp nr. 3.'
+- claim: Coordinated with the National Forest Inventory, recording the same parameters
+    inside and outside protected areas.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/natur-pa-land/skog-i-verneomrader/
+  fetched: '2026-11-08'
+  quote: 'Slik overvåker vi: Overvåkingen er koordinert med Landsskogtakseringens
+    overvåking som følger et representativt utvalg av all skog i Norge.'
+links:
+- type: partners-with
+  to: norwegian-national-forest-inventory
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/natur-pa-land/skog-i-verneomrader/
+  fetched: '2026-11-08'
+  quote: 'Slik overvåker vi: Overvåkingen er koordinert med Landsskogtakseringens
+    overvåking som følger et representativt utvalg av all skog i Norge.'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

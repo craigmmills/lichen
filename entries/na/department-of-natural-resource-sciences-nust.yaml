@@ -1,0 +1,37 @@
+id: department-of-natural-resource-sciences-nust
+kind: organisation
+name: Department of Natural Resource Sciences, Namibia University of Science and Technology
+scope: na
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: na
+countries:
+- na
+scale: national
+status: active
+summary: NUST department whose affiliated first and corresponding author wrote a 2024
+  paper, listed by OpenAlex, on a rangeland management-oriented approach to mapping
+  dry savanna and woodland mosaics.
+facts:
+- claim: OpenAlex lists a 2024 paper on a rangeland management-oriented approach to
+    mapping dry savanna and woodland mosaics.
+  url: https://api.openalex.org/works/W4403388176?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: A rangeland management-oriented approach to map dry savanna \u2212 Woodland
+    mosaics
+- claim: The first and corresponding author's affiliation is the Department of Natural
+    Resource Sciences, NUST, Windhoek.
+  url: https://api.openalex.org/works/W4403388176?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: '"raw_affiliation_strings":["Department of Natural Resource Sciences, Namibia
+    University of Science and Technology, Windhoek, Namibia"'
+links: []
+found_by:
+- rule:checklist-misses
+- checklist:3
+added_by: agent
+checked: 2026-11-12

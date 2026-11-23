@@ -1,0 +1,62 @@
+id: gbif-tajikistan
+kind: organisation
+name: GBIF Tajikistan
+scope: tj
+sector: government
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- tj
+scale: national
+status: active
+summary: Tajikistan's associate participant node in GBIF, managed by Samariddin Barotov, with five endorsed
+  publishers and a planned host at the Institute of Botany, Plant Physiology and Genetics.
+facts:
+- claim: GBIF's registry records Tajikistan's node as GBIF Tajikistan, with associate participation status.
+  url: https://api.gbif.org/v1/node/country/TJ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- claim: The registry gives no homepage and no address for the node.
+  url: https://api.gbif.org/v1/node/country/TJ
+  fetched: 2026-11-08
+  quote: '"homepage":[],"address":[null]'
+- claim: GBIF lists Tajikistan as an associate participant with a country node called GBIF Tajikistan.
+  url: https://api.gbif.org/v1/node/country/TJ
+  fetched: 2026-11-09
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Tajikistan","participantTitle":"Tajikistan,
+    Republic of"'
+- claim: GBIF's directory lists Samariddin Barotov as node manager.
+  url: https://api.gbif.org/v1/node/country/TJ
+  fetched: 2026-11-09
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Samariddin","lastName":"Barotov"'
+- claim: GBIF lists five publishers in Tajikistan, each endorsed by the Tajik node, among them the Institute
+    of Botany, Plant Physiology and Genetics and Tajik National University.
+  url: https://api.gbif.org/v1/organization?country=TJ&limit=50
+  fetched: 2026-11-09
+  quote: '"endorsingNodeKey":"3e129b9e-3da1-4a6d-a1e3-107f503a888f","endorsementApproved":true,"endorsementStatus":"ENDORSED","title":"Tajik
+    National University"'
+- claim: The Institute of Botany, Plant Physiology and Genetics said in January 2022, when Tajikistan
+    joined GBIF, that it would host the new national node.
+  url: https://ibfgr.tj/en/tajikistan-joins-gbif/news/
+  fetched: 2026-11-09
+  quote: which will host the new node responsible for coordinating national-scale GBIF activities
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/TJ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/TJ
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

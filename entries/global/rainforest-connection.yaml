@@ -1,0 +1,54 @@
+id: rainforest-connection
+kind: organisation
+name: Rainforest Connection
+also_known_as:
+- RFCx
+scope: global
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+hq: us
+scale: global
+status: active
+website: https://rfcx.org
+summary: Organisation that uses sound and AI to protect rainforests and monitor wildlife,
+  with acoustic devices that detect threats such as illegal logging, and the Arbimon analysis
+  platform.
+countries:
+- fr
+- ie
+facts:
+- claim: Uses sound and AI to protect rainforests.
+  url: https://rfcx.org/
+  fetched: '2026-10-30'
+  quote: We use sound and AI to protect rainforests and monitor wildlife.
+- claim: A 501(c) organisation.
+  url: https://rfcx.org/team
+  fetched: '2026-10-30'
+  quote: Rainforest Connection is a 501(c)
+- claim: A paper on Rainforest Connection's surveillance proposes CNN models for sound classification.
+  url: https://arxiv.org/abs/1908.07517
+  fetched: '2026-10-30'
+  quote: We propose new convolutional neural network (CNN) models for environmental sound
+    classification
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: huawei
+  url: https://rfcx.org/projects/poland
+  fetched: 2026-10-30
+  quote: Rainforest Connection (RFCx), Arbimon, and Huawei Poland are partnering on an impactful
+    passive acoustic monitoring project
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

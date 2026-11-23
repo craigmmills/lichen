@@ -1,0 +1,46 @@
+id: remote-sensing-gebiedsclassificatie-op-basis-van-ai-beeldherkenning
+kind: model
+name: Remote sensing gebiedsclassificatie op basis van AI beeldherkenning
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: unknown
+countries:
+- nl
+summary: Provincial Zuid-Holland algorithm that segments satellite images of Natura
+  2000 sites into vegetation structure classes. Three sites are used, and the page
+  says it has so far been applied only for one-off analyses.
+scope: nl
+facts:
+- claim: Three nature sites are used, and the algorithm has only been applied for
+    one-off analyses.
+  url: https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/algoritmeregister/remote-sensing-gebiedsclassificatie-basis-ai
+  fetched: '2026-10-31'
+  quote: Het algoritme is ontwikkeld, maar is tot nu toe slechts toegepast voor eenmalige
+    analyses.
+- claim: The province says it can map changes in nature areas with algorithms.
+  url: https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/algoritmeregister/remote-sensing-gebiedsclassificatie-basis-ai
+  fetched: '2026-10-31'
+  quote: Door gebruik van slimme algoritmes kunnen we veranderingen in een natuurgebied
+    in kaart brengen en analyseren.
+- claim: Satellite images from NSO are segmented by a model into vegetation structure
+    classes.
+  url: https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/algoritmeregister/remote-sensing-gebiedsclassificatie-basis-ai
+  fetched: '2026-10-31'
+  quote: De beelden worden elke één tot vier maanden beschikbaar gesteld en door een
+    model gesegmenteerd in vegetatiestructuur-klassen.
+links:
+- type: run-by
+  to: provincie-zuid-holland
+  url: https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/algoritmeregister/remote-sensing-gebiedsclassificatie-basis-ai
+  fetched: '2026-10-31'
+  quote: De provincie Zuid-Holland streeft naar een goede balans tussen natuur en
+    economie. Door gebruik van slimme algoritmes kunnen we veranderingen in een natuurgebied
+    in kaart brengen en analyseren.
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

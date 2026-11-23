@@ -1,0 +1,54 @@
+id: universite-mohammed-vi-polytechnique
+kind: organisation
+name: Université Mohammed VI Polytechnique
+also_known_as:
+- UM6P
+- Mohammed VI Polytechnic University
+scope: ma
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ma
+countries: []
+scale: national
+status: active
+summary: Moroccan university, listed in OpenAlex, with affiliated remote sensing and machine
+  learning papers on argan tree location (2021), rangeland biomass in the Middle Atlas (2024)
+  and crop and land cover mapping (2026).
+facts:
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "https://www.um6p.ma/", "country_code": "MA"'
+- claim: OpenAlex lists a 2021 paper with Badr-eddine Sebbar as first author, affiliated with
+    Université Mohammed VI Polytechnique, on locating the endemic argan tree through remotely
+    sensed phenology and land-cover classification.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Remotely Sensed Phenology Monitoring and Land-cover Classification for the Localization
+    of the Endemic Argan Tree in the Southern-west of Morocco
+- claim: OpenAlex lists a 2026 paper with Maryam Choukri as first author, affiliated with
+    Université Mohammed VI Polytechnique, on crop and land cover mapping for Morocco with
+    machine learning ensembles.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: A multi-class, multi-temporal crop and Land cover mapping framework for Morocco using
+    Sentinel-1/2 monthly composites and advanced machine learning ensembles
+- claim: OpenAlex lists a 2024 paper with Soumaya Boukrouh as first author, affiliated with
+    Université Mohammed VI Polytechnique, on estimating rangeland biomass in the Middle Atlas
+    from remote sensing data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01ejxf797|03cdvht47|058gnfy87|051hckb40|01t9czq80|00675rp98|05jp6at49|01ec0jk73|05y503v71|02gjqpv16,primary_topic.subfield.id:2309|1105|2303,publication_year:>2021&per-page=100&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Estimation of standing crop biomass in rangelands of the Middle Atlas mountains using
+    remote sensing data
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

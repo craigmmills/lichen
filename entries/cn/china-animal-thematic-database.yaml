@@ -1,0 +1,32 @@
+id: china-animal-thematic-database
+kind: dataset
+name: China Animal Thematic Database
+also_known_as:
+- 中国动物主题数据库
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- cn
+status: active
+website: http://www.zoology.csdb.cn/
+summary: Collection of 22 zoology databases covering China's fauna, birds, bees, inland
+  fishes, amphibians and reptiles, listed by the Institute of Zoology among its scientific
+  databases.
+facts:
+- claim: Has 22 sub-databases on Chinese zoology.
+  url: http://ioz.cas.cn/gb2018/cg/sjk/
+  fetched: '2026-10-31'
+  quote: 包含了22个中国动物学研究的子数据库及其信息服务平台
+links:
+- type: run-by
+  to: institute-of-zoology-cas
+  url: http://ioz.cas.cn/gb2018/cg/sjk/
+  fetched: '2026-10-31'
+  quote: 中国动物主题数据库（ http://www.zoology.csdb.cn/ ）
+found_by:
+- link-from:institute-of-zoology-chinese-academy-of-sciences
+added_by: agent
+checked: '2026-10-31'

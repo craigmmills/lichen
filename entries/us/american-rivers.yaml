@@ -1,0 +1,42 @@
+id: american-rivers
+kind: organisation
+name: American Rivers
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: us
+countries:
+- us
+scale: national
+website: https://www.americanrivers.org
+summary: US river conservation charity that publishes a public database of dam removals.
+facts:
+- claim: Published its dam removal database for public use.
+  url: https://www.americanrivers.org/media-item/american-rivers-dam-removal-database-now-available-public/
+  quote: American Rivers collected the information and has published the database for public
+    benefit, to encourage additional research and support for river restoration.
+  fetched: '2026-10-31'
+- claim: The database may be reused with a citation.
+  url: https://www.americanrivers.org/media-item/american-rivers-dam-removal-database-now-available-public/
+  quote: 'Information from the database may be used by anyone provided the following citation
+    is included:'
+  fetched: '2026-10-31'
+- claim: Says it is headquartered in Washington DC, with offices across the country.
+  url: https://www.americanrivers.org/about-us/staff/
+  fetched: '2026-10-31'
+  quote: Headquartered in Washington, DC, American Rivers has offices across the country
+- claim: The IRS exempt organisation record, through ProPublica, lists American Rivers Inc
+    at Washington, DC.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/237305963.json
+  fetched: '2026-10-31'
+  quote: '"city":"Washington","state":"DC"'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

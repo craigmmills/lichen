@@ -1,0 +1,68 @@
+id: wildlife-and-environmental-society-of-malawi
+kind: organisation
+name: Wildlife and Environmental Society of Malawi
+also_known_as:
+- WESM
+scope: mw
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+techniques: []
+hq: mw
+countries:
+- mw
+scale: national
+status: active
+funding_at_risk: false
+summary: BirdLife International's partner in Malawi, described as the oldest conservation NGO there, founded
+  in 1947; it is digitising biodiversity data and has 18 datasets published through GBIF.
+facts:
+- claim: Its GBIF publisher record says it is digitising and publishing its data through GBIF, including
+    occurrence records and checklists of birds, mammals and plants.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: It is focusing at making this data easily accessible through GBIF platform. The data is being
+    digitized and published.  The data available is occurrence and checklists of birds, mammals, plants,
+    among others.
+- claim: The GBIF registry lists 18 datasets published by WESM.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":18'
+- claim: Its GBIF publisher record gives an address in Limbe, Blantyre.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: Wildlife and Environmental Society of Malawi, Private Bag 578, Limbe, Blantyre
+- claim: Its GBIF registration says it holds flora and fauna data that it is digitising and publishing
+    through GBIF.
+  url: https://api.gbif.org/v1/organization/1e5280a0-3641-465a-8201-3334b11a7ab3
+  fetched: 2026-11-08
+  quote: It is focusing at making this data easily accessible through GBIF platform. The data is being
+    digitized and published.
+- claim: Publishes a species card dataset for the birds of Malawi through GBIF.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=1e5280a0-3641-465a-8201-3334b11a7ab3&limit=20
+  fetched: 2026-11-08
+  quote: This is a species card for Birds in Malawi that also helps as a reference in the filed during
+    bird watching.
+- claim: Publishes bird records from a biodiversity mapping exercise in village forest areas around Vwaza,
+    Thuma and Kuti reserves.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=1e5280a0-3641-465a-8201-3334b11a7ab3&limit=20
+  fetched: 2026-11-08
+  quote: This is specifically for birds found in village forest areas around Vwaza Wildlife Reserve, Thuma
+    forest Reserve and Kuti Wildlife reserve.
+- claim: Its GBIF registration gives an address in Limbe, Blantyre.
+  url: https://api.gbif.org/v1/organization/1e5280a0-3641-465a-8201-3334b11a7ab3
+  fetched: 2026-11-08
+  quote: Wildlife and Environmental Society of Malawi, Private Bag 578, Limbe, Blantyre
+links: []
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:gbif-malawi
+- link-from:birdlife-international
+- register:mw
+added_by: agent
+checked: 2026-11-08

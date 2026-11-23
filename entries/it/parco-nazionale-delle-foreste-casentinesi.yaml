@@ -1,0 +1,33 @@
+id: parco-nazionale-delle-foreste-casentinesi
+kind: organisation
+name: Parco Nazionale delle Foreste Casentinesi
+scope: it
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: local
+status: active
+website: https://www.parcoforestecasentinesi.it/
+summary: Italian national park where the University of Florence runs systematic camera trapping
+  under a formal agreement, using a web platform with AI to sort images.
+facts:
+- claim: The report's title describes systematic camera trapping in the national park.
+  url: https://www.parcoforestecasentinesi.it/sites/default/files/Report_UNIFI_camtrap_anno_2_marzo2022.pdf
+  fetched: 2026-10-31
+  quote: FOTO-TRAPPOLAGGIO SISTEMATICO NEL PARCO NAZIONALE
+links:
+- type: uses
+  to: wild-ai
+  url: https://www.parcoforestecasentinesi.it/sites/default/files/Report_UNIFI_camtrap_anno_2_marzo2022.pdf
+  fetched: 2026-10-31
+  quote: nella piattaforma web in costruzione (chiamata Wild.AI)
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-10-31

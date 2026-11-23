@@ -1,0 +1,35 @@
+id: xeocode
+kind: programme
+name: Xeocode
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+status: active
+countries:
+- es
+summary: Galicia's internal fire management platform, which identifies smoke from
+  241 surveillance cameras with convolutional neural networks.
+facts:
+- claim: Uses convolutional neural networks to identify smoke from 241 surveillance
+    cameras, according to Euronews.
+  url: https://www.euronews.com/2026/07/24/spains-galicia-region-bets-big-on-ai-and-satellites-to-prevent-summer-megafires
+  quote: The system uses convolutional neural networks, a type of AI model suited
+    to recognising patterns in images, to identify smoke rising from any of the 241
+    surveillance cameras
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: xunta-de-galicia
+  url: https://www.euronews.com/2026/07/24/spains-galicia-region-bets-big-on-ai-and-satellites-to-prevent-summer-megafires
+  quote: Xeocode, the region's internal fire management platform
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+scope: es
+added_by: agent
+checked: '2026-10-31'

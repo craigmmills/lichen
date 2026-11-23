@@ -1,0 +1,46 @@
+id: finnish-bird-sound-identification-model
+kind: model
+name: Finnish bird sound identification model
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- fi
+status: active
+runner: unknown
+summary: Active model built by the University of Jyväskylä on the BirdNET neural network, which knows
+  263 Finnish bird species and is also used in the Muuttolintujen Kevät app.
+facts:
+- claim: The model knows 263 Finnish bird species and is also used in the Muuttolintujen Kevät app.
+  url: https://laji.fi/en/theme/sound-identification
+  quote: Sama tunnistusmalli on käytössä Muuttolintujen Kevät -sovelluksessa ( Android , iOS ). Malli
+    tuntee 263 suomalaista lintulajia.
+  fetched: '2026-11-02'
+- claim: Rests on the BirdNET convolutional neural network, with a classifier for Finnish species built
+    on top.
+  url: https://laji.fi/en/theme/sound-identification
+  quote: Tunnistusmallin pohjana toimii BirdNET -konvoluutioneuroverkko
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: university-of-jyvaskyla
+  url: https://laji.fi/en/theme/sound-identification
+  quote: Lintutunnistukset tuotetaan tekoälymallilla, joka on kehitetty Jyväskylän yliopiston akatemiaprofessori
+    Otso Ovaskaisen johtamassa tutkimusryhmässä
+  fetched: '2026-11-02'
+- type: builds-on
+  to: birdnet
+  url: https://laji.fi/en/theme/sound-identification
+  quote: Tunnistusmallin pohjana toimii BirdNET -konvoluutioneuroverkko [1], jonka päälle on rakennettu
+    ja hienosäädetty suomalaisiin lajeihin keskittyvä luokitin
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+scope: fi
+added_by: agent
+checked: '2026-11-02'

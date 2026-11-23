@@ -1,0 +1,61 @@
+id: project-centinela-mount-kenya
+kind: project
+name: Project Centinela at Mount Kenya Wildlife Conservancy
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+summary: Kenya Space Agency project with Mount Kenya Wildlife Conservancy and Planet
+  Labs that uses high-resolution satellite imagery to monitor and restore bongo habitat
+  on Mount Kenya, the Aberdares and in Kakamega Forest.
+status: active
+facts:
+- claim: The Kenya Space Agency calls it a satellite-based conservation initiative.
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: a satellite-based conservation initiative supporting advanced habitat monitoring
+    and restoration efforts
+- claim: People Daily says it provides early warnings on deforestation and habitat
+    degradation.
+  url: https://peopledaily.digital/news/kenya-space-agency-launches-project-centinela-to-protect-endangered-mountain-bongo
+  fetched: '2026-10-30'
+  quote: provide early warnings on deforestation, habitat degradation, and climate
+    risks
+- claim: A satellite-based conservation initiative led by KSA.
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: The Kenya Space Agency (KSA) is leading the implementation of Project Centinela,
+    a satellite-based conservation initiative
+links:
+- type: run-by
+  to: kenya-space-agency
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: The Kenya Space Agency (KSA) is leading the implementation of Project Centinela
+- type: partners-with
+  to: mount-kenya-wildlife-conservancy
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: The project, a collaboration with Mount Kenya Wildlife Conservancy (MKWC)
+    and Planet Labs
+- type: partners-with
+  to: planet-labs
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: The project, a collaboration with Mount Kenya Wildlife Conservancy (MKWC)
+    and Planet Labs
+- type: builds-on
+  to: project-centinela
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: Kenya Space Agency (KSA) is leading the implementation of Project Centinela
+found_by:
+- link-from:mount-kenya-wildlife-conservancy
+- link-from:planet-labs
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

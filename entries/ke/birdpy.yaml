@@ -1,0 +1,40 @@
+id: birdpy
+kind: project
+name: BirdPy
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ke
+status: unknown
+website: https://github.com/ciiram/BirdPy
+summary: Software from the Kenya Bioacoustics Project that studies acoustic indices
+  of biodiversity and recognises bird species from calls and songs, using the bob
+  toolkit.
+facts:
+- claim: Software developed as part of the Kenya Bioacoustics Project, which aims
+    to develop and test bioacoustic technology for biodiversity monitoring in Kenya.
+  url: https://github.com/ciiram/BirdPy
+  fetched: 2026-11-21
+  quote: software developed as part of the Kenya Bioacoustics Project which aims to
+    develop and test bioacoustic technology for biodiversity monitoring in Kenya
+- claim: The code studies acoustic indices of biodiversity and recognises bird species
+    from calls and songs.
+  url: https://github.com/ciiram/BirdPy
+  fetched: 2026-11-21
+  quote: Python code used to study acoustic indices of biodiversity monitoring and
+    bird species recognition using bird calls and songs
+- claim: The bird recognition code uses the bob toolkit to compute audio features
+    and adapt models.
+  url: https://github.com/ciiram/BirdPy
+  fetched: 2026-11-21
+  quote: 19 dimensional MFCCs are used and are computed using bob .
+links: []
+runner: unknown
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

@@ -1,0 +1,50 @@
+id: laboratoire-d-hydrologie-appliquee-et-environnement-universite-de-lome
+kind: organisation
+name: Laboratoire d'Hydrologie Appliquée et Environnement
+also_known_as:
+- LHAE
+- Applied Hydrology and Environment Laboratory
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: Université de Lomé research laboratory, run by the university and listed
+  as the first author's affiliation on a paper forecasting land use and land cover
+  on the Agoènyivé Plateau using remote sensing and machine learning.
+facts:
+- claim: Listed among the Université de Lomé's research structures.
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-12
+  quote: Laboratoire d’Hydrologie Appliquée et Environnement (LHAE)
+- claim: Listed as an affiliation of the first author of a paper forecasting land
+    use and land cover dynamics on the Agoènyivé Plateau with remote sensing, a machine
+    learning algorithm and local perception.
+  url: https://api.openalex.org/works/W4318679070?select=id,display_name,doi,authorships
+  fetched: 2026-11-12
+  quote: Forecasting land use and land cover dynamics using combined remote sensing,
+    machine learning algorithm and local perception
+- claim: The first author's first affiliation is the Applied Hydrology and Environment
+    Laboratory (LHAE), Lomé.
+  url: https://api.openalex.org/works/W4318679070?select=id,display_name,doi,authorships
+  fetched: 2026-11-12
+  quote: Applied Hydrology and Environment Laboratory (LHAE)
+links:
+- type: run-by
+  to: universite-de-lome
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-12
+  quote: Laboratoire d’Hydrologie Appliquée et Environnement (LHAE)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

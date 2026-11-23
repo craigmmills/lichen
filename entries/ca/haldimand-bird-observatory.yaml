@@ -1,0 +1,45 @@
+id: haldimand-bird-observatory
+kind: organisation
+name: Haldimand Bird Observatory
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: Observatory with three stations at Selkirk Provincial Park, Rock Point and
+  Ruthven Park, listed as a station of the Canadian Migration Monitoring Network.
+facts:
+- claim: 'Operates three stations: Selkirk Provincial Park, Rock Point Banding Station
+    and Ruthven Park.'
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: 'Established in 1996, Haldimand Bird Observatory operates three stations:
+    Selkirk Provincial Park, Rock Point Banding Station (both on the north shore of
+    Lake Erie) and Ruthven Park near Cayuga, Ontario.'
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

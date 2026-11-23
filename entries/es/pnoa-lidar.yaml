@@ -1,0 +1,55 @@
+id: pnoa-lidar
+kind: dataset
+name: PNOA-LiDAR
+scope: es
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://pnoa.ign.es/web/portal/pnoa-lidar/presentacion
+runner: unknown
+summary: Spanish national airborne LiDAR programme covering the whole country in three
+  cycles from 2009 to 2025. The third cover uses AI-based classification, and FAO
+  cites it as an example of open forest data.
+facts:
+- claim: Aims to capture three-dimensional information of all Spanish territory with
+    airborne LiDAR.
+  url: https://pnoa.ign.es/web/portal/pnoa-lidar/presentacion
+  fetched: '2026-10-31'
+  quote: El objetivo del proyecto es capturar información tridimensional mediante
+    sensores aerotransportados LiDAR de todo el territorio de España
+- claim: The third cover applies AI-based classification.
+  url: https://pnoa.ign.es/web/portal/pnoa-lidar/presentacion
+  fetched: '2026-10-31'
+  quote: de la implantación de técnicas de clasificación basadas en IA
+- claim: FAO names it, with the National Forest Inventory, as an example of open linked
+    forest data.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: the open national LiDAR coverage provided through the PNOA-LiDAR programme
+links:
+- type: partners-with
+  to: instituto-geografico-nacional-spain
+  url: https://pnoa.ign.es/web/portal/pnoa-lidar/presentacion
+  fetched: '2026-10-31'
+  quote: por medio de la Dirección General del Instituto Geográfico Nacional, el Centro
+    Nacional de Información Geográfica y ENAIRE
+- type: partners-with
+  to: centro-nacional-de-informacion-geografica
+  url: https://pnoa.ign.es/web/portal/pnoa-lidar/presentacion
+  fetched: '2026-10-31'
+  quote: por medio de la Dirección General del Instituto Geográfico Nacional, el Centro
+    Nacional de Información Geográfica y ENAIRE
+- type: partners-with
+  to: ministerio-para-la-transicion-ecologica-y-el-reto-demografico
+  url: https://pnoa.ign.es/web/portal/pnoa-lidar/presentacion
+  fetched: '2026-10-31'
+  quote: el Ministerio para la Transición Ecológica y el Reto Demográfico (por medio
+    de la Dirección General del Agua y la Dirección General de Biodiversidad, Bosques
+    y Desertificación)
+found_by:
+- link-from:food-and-agriculture-organization
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,33 @@
+id: inaturalist-research-grade-observations
+kind: dataset
+name: iNaturalist Research-grade Observations
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+status: active
+summary: Openly licensed research-grade species observations from iNaturalist, published to GBIF.
+facts:
+- claim: Dataset of iNaturalist observations that met quality requirements.
+  url: https://api.gbif.org/v1/dataset/search?q=iNaturalist%20research-grade&limit=2
+  fetched: '2026-10-30'
+  quote: Observations included in this archive met the following requirements
+links:
+- type: run-by
+  to: inaturalist
+  url: https://api.gbif.org/v1/dataset/search?q=iNaturalist%20research-grade&limit=2
+  fetched: '2026-10-30'
+  quote: "\"publishingOrganizationTitle\":\"iNaturalist.org\""
+- type: builds-on
+  to: inaturalist
+  url: https://api.gbif.org/v1/dataset/search?q=iNaturalist%20research-grade&limit=2
+  fetched: '2026-10-30'
+  quote: "Observations from iNaturalist.org, an online social network of people sharing biodiversity information"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

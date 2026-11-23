@@ -1,0 +1,45 @@
+id: cyverse
+kind: programme
+name: CyVerse
+scope: us
+ai_label: data-infrastructure
+status: active
+runner: unknown
+website: https://cyverse.org
+summary: NSF-supported open cyberinfrastructure at the University of Arizona, a partner
+  in ESIIL.
+facts:
+- claim: Free open tools and public data, NSF supported.
+  url: https://cyverse.org/
+  fetched: '2026-10-30'
+  quote: CyVerse is free to use.
+- claim: Began in 2008 as The iPlant Collaborative.
+  url: https://cyverse.org/about
+  fetched: '2026-10-30'
+  quote: CyVerse began its journey in 2008 as The iPlant Collaborative
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://cyverse.org/
+  fetched: '2026-10-30'
+  quote: This material is based upon work supported by the National Science Foundation
+    under DBI Grant Nos. 0735191, 1265383, and 1743442
+- type: partners-with
+  to: environmental-data-science-innovation-and-impact-lab
+  url: https://api.nsf.gov/services/v1/awards/2153040.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: in collaboration with NSF’s CyVerse at the University of Arizona
+- type: funded-by
+  to: national-science-foundation
+  url: https://cyverse.org/about
+  fetched: '2026-10-30'
+  quote: initially funded by the National Science Foundation (NSF)
+found_by:
+- checklist:2
+- link-from:environmental-data-science-innovation-and-impact-lab
+added_by: agent
+checked: '2026-10-30'
+realms:
+- land
+also_known_as:
+- iPlant Collaborative

@@ -1,0 +1,55 @@
+id: inventario-florestal-nacional-portugal
+kind: dataset
+name: Inventário Florestal Nacional
+scope: pt
+also_known_as:
+- IFN6
+- IFN
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pt
+status: active
+website: https://www.icnf.pt/api/file/doc/c8cc40b3b7ec8541
+summary: Portugal's national forest inventory, run and built by ICNF, whose sixth edition drew on digital
+  aerial photography and 2015 field surveys and reports about 70 indicators in five themes.
+facts:
+- claim: The sixth inventory was based on digital aerial photography and field surveys carried out in
+    2015.
+  url: https://www.icnf.pt/api/file/doc/c8cc40b3b7ec8541
+  fetched: 2026-11-02
+  quote: em levantamentos de campo efectuados em 2015
+- claim: The sixth inventory reports about 70 attributes or indicators, in five themes including biological
+    diversity.
+  url: https://www.icnf.pt/api/file/doc/c8cc40b3b7ec8541
+  fetched: 2026-11-02
+  quote: povoamentos, produção florestal, condição dos povoamentos e diversidade biológica
+- claim: IFN6 was based on digital aerial photographs and field surveys made in 2015.
+  url: https://www.icnf.pt/api/file/doc/c8cc40b3b7ec8541
+  fetched: 2026-11-02
+  quote: O IFN6 foi baseado numa cobertura fotográfica aérea digital e em levantamentos de campo efectuados
+    em 2015.
+links:
+- type: run-by
+  to: instituto-da-conservacao-da-natureza-e-das-florestas
+  url: https://portugal.gov.pt/gc21/comunicacao/comunicados/6-inventario-florestal-nacional-esta-concluido
+  fetched: &id001 2026-11-02
+  quote: sob coordenação do Instituto de Conservação da Natureza e das Florestas (ICNF)
+- type: built-by
+  to: instituto-da-conservacao-da-natureza-e-das-florestas
+  url: https://portugal.gov.pt/gc21/comunicacao/comunicados/6-inventario-florestal-nacional-esta-concluido
+  fetched: *id001
+  quote: que foi responsável por toda a conceção do IFN6
+- type: run-by
+  to: instituto-da-conservacao-da-natureza-e-das-florestas
+  url: https://portugal.gov.pt/api/media/edge/Project/Portal-do-Governo/Portal-do-Governo/gc21/Files/Comunicados/6-inventario-florestal-nacional-esta-concluido/item_6_inventario_florestal_nacional_esta_concluido.pdf
+  fetched: 2026-11-02
+  quote: sob coordenação do Instituto de Conservação da Natureza e das Florestas (ICNF), que foi responsável
+    por toda a conceção do IFN 6
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

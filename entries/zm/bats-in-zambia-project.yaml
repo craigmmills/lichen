@@ -1,0 +1,42 @@
+id: bats-in-zambia-project
+kind: project
+name: Bats in Zambia Project
+also_known_as: []
+scope: zm
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries:
+- zm
+status: unknown
+runner: unknown
+summary: A project that a GBIF record says was established in 2014 to collate and collect
+  Zambian bat data, funded by the Rufford Foundation and led by Helen Taylor-Boyd.
+facts:
+- claim: A GBIF dataset record says the project was established in 2014 to collate and collect
+    data on bats in Zambia.
+  url: https://api.gbif.org/v1/dataset/80ea955b-3905-4049-961f-a1dd1e9d5659
+  fetched: 2026-11-08
+  quote: a research project established in 2014 to collate and collect data on bats in Zambia
+- claim: The record says its bat monitoring data were collected by the project.
+  url: https://api.gbif.org/v1/dataset/80ea955b-3905-4049-961f-a1dd1e9d5659
+  fetched: 2026-11-08
+  quote: This dataset contains bat monitoring data collected by the ‘Bats in Zambia’ bat conservation
+    and research project.
+- claim: The record names Helen Taylor-Boyd as the project's Principal Investigator, in the
+    past tense.
+  url: https://api.gbif.org/v1/dataset/80ea955b-3905-4049-961f-a1dd1e9d5659
+  fetched: 2026-11-08
+  quote: The Principal Investigator was Helen Taylor-Boyd.
+links:
+- type: funded-by
+  to: the-rufford-foundation
+  url: https://api.gbif.org/v1/dataset/80ea955b-3905-4049-961f-a1dd1e9d5659
+  fetched: 2026-11-08
+  quote: The project was funded by the Rufford Foundation and personal donations.
+found_by:
+- register:zm
+- link-from:livingstone-museum
+added_by: agent
+checked: 2026-11-08

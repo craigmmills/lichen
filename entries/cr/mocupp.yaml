@@ -1,0 +1,55 @@
+id: mocupp
+kind: project
+name: Monitoreo de Cambio de Uso en Paisajes Productivos
+also_known_as:
+- MOCUPP
+scope: cr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cr
+status: unknown
+summary: Land-use change monitoring project run by the Centro Nacional de Alta Tecnología; a 2020 UNDP
+  report said it used free Landsat and Sentinel imagery and published data through SNIT.
+facts:
+- claim: A 2020 UNDP report said MOCUPP used freely available Landsat and Sentinel imagery, allowing annual
+    monitoring at low cost.
+  url: https://www.undp.org/es/costa-rica/noticias/seminario-virtual-sobre-monitoreo-de-paisajes-productivos-presentara-experiencia-en-costa-rica
+  fetched: '2026-11-08'
+  quote: El MOCUPP trabaja con insumos de imágenes satelitales obtenidas de los sensores Landsat de la
+    NASA y Sentinel de la Agencia Espacial Alemana, los cuales son de acceso libre.
+- claim: A 2020 UNDP report said it held data on pineapple area for 2015 to 2018 and oil palm for 2018.
+  url: https://www.undp.org/es/costa-rica/noticias/seminario-virtual-sobre-monitoreo-de-paisajes-productivos-presentara-experiencia-en-costa-rica
+  fetched: '2026-11-08'
+  quote: cuenta con datos del área cultivada de piña desde el año 2015 al 2018, palma aceitera para el
+    año 2018
+- claim: The 2020 UNDP report said all information produced by MOCUPP was freely available through SNIT.
+  url: https://www.undp.org/es/costa-rica/noticias/seminario-virtual-sobre-monitoreo-de-paisajes-productivos-presentara-experiencia-en-costa-rica
+  fetched: '2026-11-08'
+  quote: Toda la información producida por MOCUPP es de acceso libre en el Sistema Nacional de Información
+    Territorial (SNIT).
+- claim: Planet says the project uses Planet satellite data to monitor land-use change and deforestation
+    linked to farming.
+  url: https://planet.com/pulse/analyzing-the-impact-of-agricultural-activity-on-ecosystems
+  fetched: '2026-11-08'
+  quote: uses Planet satellite data to monitor the changes in land use and analysis of deforestation processes
+    associated with agricultural dynamics in the country
+links:
+- type: run-by
+  to: centro-nacional-de-alta-tecnologia
+  url: https://planet.com/pulse/analyzing-the-impact-of-agricultural-activity-on-ecosystems
+  fetched: '2026-11-08'
+  quote: The National Center for High Technology (CeNAT)’s Monitoring of Change of Use in Productive Landscapes
+    project
+- type: uses
+  to: landsat
+  url: https://www.undp.org/es/costa-rica/noticias/seminario-virtual-sobre-monitoreo-de-paisajes-productivos-presentara-experiencia-en-costa-rica
+  fetched: '2026-11-08'
+  quote: sensores Landsat de la NASA
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-08'

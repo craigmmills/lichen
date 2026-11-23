@@ -1,0 +1,35 @@
+id: bombus-dahlbomii-acoustic-environmental-dataset
+kind: dataset
+name: High-resolution acoustic and environmental dataset for monitoring Bombus dahlbomii
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ar
+scale: local
+status: unknown
+summary: 2025 data paper listed in OpenAlex on high-resolution acoustic and environmental data for monitoring
+  Bombus dahlbomii, with Argentine co-authors at INIBIOMA, Universidad Nacional del Comahue and CONICET
+  in Bariloche.
+facts:
+- claim: OpenAlex lists a 2025 data paper on high-resolution acoustic and environmental data to monitor
+    Bombus dahlbomii.
+  url: https://api.openalex.org/works/W4409062872?select=id,title,doi,publication_year,authorships
+  quote: High-Res Acoustic and Environmental Data to Monitor Bombus dahlbomii Amid Invasive Species, Habitat
+    Loss
+  fetched: '2026-11-03'
+- claim: Argentine co-authors give their affiliation as INIBIOMA, Universidad Nacional del Comahue and
+    CONICET, Bariloche.
+  url: https://api.openalex.org/works/W4409062872?select=id,title,doi,publication_year,authorships
+  quote: Instituto de Investigaciones en Biodiversidad y Medioambiente (INIBIOMA), Universidad Nacional
+    del Comahue y CONICET, Bariloche, Argentina
+  fetched: '2026-11-03'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+runner: unknown

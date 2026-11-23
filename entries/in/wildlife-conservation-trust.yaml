@@ -1,0 +1,76 @@
+id: wildlife-conservation-trust
+kind: organisation
+name: Wildlife Conservation Trust
+also_known_as:
+- WCT
+scope: in
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: in
+countries:
+- in
+scale: national
+status: active
+website: https://www.wildlifeconservationtrust.org/
+summary: Indian conservation trust whose Conservation Behaviour team applies AI to conservation
+  projects, including models with Google Research India to predict human-wildlife conflict.
+facts:
+- claim: Says its Conservation Behaviour team has applied AI in several projects.
+  url: https://www.wildlifeconservationtrust.org/can-artificial-intelligence-predict-human-wildlife-conflict/
+  quote: WCT’s Conservation Behaviour team has been applying AI in several conservation projects.
+  fetched: '2026-10-31'
+- claim: Its offices are in Mumbai, Maharashtra.
+  url: https://www.wildlifeconservationtrust.org/partners/
+  fetched: '2026-10-31'
+  quote: Wildlife Conservation Trust, 1103, 11th Floor, P.J.Tower, Bombay Stock Exchange Building,
+    Dalal Street, Fort, Mumbai – 400001, Maharashtra, India.
+- claim: Says it can survey about 8,000 sq km of tiger habitat with camera traps each year.
+  url: https://www.wildlifeconservationtrust.org/our-work/wildlife-conservation/wildlife-population-estimation/
+  fetched: '2026-10-31'
+  quote: WCT has the capacity to survey about 8,000 sq. km of tiger habitat using camera traps
+    each year.
+links:
+- type: runs
+  to: wct-google-human-wildlife-conflict-ai
+  url: https://www.wildlifeconservationtrust.org/can-artificial-intelligence-predict-human-wildlife-conflict/
+  quote: In 2020, WCT embarked on a unique project with Google Research India under its AI
+    for Social Good Programme.
+  fetched: '2026-10-31'
+- type: runs
+  to: wct-wildtech
+  url: https://www.wildlifeconservationtrust.org/our-work/technology-for-wildlife-conservation-wildtech/
+  fetched: '2026-10-31'
+  quote: 'Some of the technological innovations developed by WCT include:'
+- type: partners-with
+  to: aadax-data-science
+  url: https://www.wildlifeconservationtrust.org/a-new-open-source-species-recognition-model-developed-by-wildlife-conservation-trust-wct-for-wildlife-monitoring-in-central-india/
+  fetched: '2026-10-31'
+  quote: Built by WCT with Aadax Data Science
+- type: runs
+  to: wct-wildtech
+  url: https://www.wildlifeconservationtrust.org/our-work/wildlife-conservation/technology-for-wildlife-conservation-wildtech/
+  quote: Through this project WCT aims to develop low-cost, open-source, replicable, and customised
+    tools for sustainable conservation impact.
+  fetched: '2026-10-31'
+- type: runs
+  to: wct-google-human-wildlife-conflict-prediction
+  quote: One such project, which is a promising collaboration between WCT and Google Research
+    India’s AI Lab , involves designing AI models that will help predict human-wildlife interactions
+  url: https://www.wildlifeconservationtrust.org/can-artificial-intelligence-predict-human-wildlife-conflict/
+  fetched: '2026-10-31'
+found_by:
+- checklist:4
+- queue:in
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- remote-sensing
+- bioacoustics

@@ -1,0 +1,69 @@
+id: catrat
+kind: model
+name: CaTRAT
+also_known_as:
+- Camera Trap data Repository and Analysis Tool
+- CaTRAT
+- Camera Trap Data Repository and Analysis Tool
+scope: in
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- in
+status: active
+runner: unknown
+summary: Software that sorts camera-trap photographs by species with neural network models,
+  used in India's national tiger assessment.
+facts:
+- claim: The National Tiger Conservation Authority describes CaTRAT as AI and neural network
+    software that sorts camera-trap photographs to species.
+  url: https://ntca.gov.in/a/monitoring-tigers/
+  quote: automated segregation of camera trap photographs to species using artificial intelligence
+    and neural network models (software CaTRAT
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: IIIT-Delhi work developed a deep learning species module for it.
+  url: https://repository.iiitd.edu.in/jspui/handle/123456789/1371?show=full
+  fetched: '2026-10-31'
+  quote: we have developed the Deep Learning (DL) based species categorization module for
+    the Camera Trap Data Repository and Analysis Tool (CaTRAT)
+  ai_type: deep-learning
+- claim: Sorts camera-trap photographs to species using artificial intelligence and neural
+    network models.
+  ai_type: deep-learning
+  quote: automated segregation of camera trap photographs to species using artificial intelligence
+    and neural network models (software CaTRAT – Camera Trap data Repository and Analysis
+    Tool)
+  url: https://www.ntca.gov.in/milestone_initiatives
+  fetched: '2026-10-31'
+- claim: IndiaAI says WII uses it to geotag images and sort them into species folders.
+  url: https://indiaai.gov.in/case-study/iiit-delhi-develops-ai-model-to-save-tiger-population
+  fetched: '2026-10-31'
+  quote: The image processing software known as CaTRAT (Camera Trap Data Repository and Analysis
+    Tool)
+found_by:
+- checklist:2
+- queue:in
+- checklist:in-c
+- register:gbif-publisher
+- link-from:wildlife-institute-of-india
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: used-by
+  to: wildlife-institute-of-india
+  url: https://repository.iiitd.edu.in/jspui/handle/123456789/1371?show=full
+  fetched: '2026-10-31'
+  quote: which was used by theWildlife Institute of India (WII) for processing the camera
+    trap images during the All India Tiger Estimation 2022.
+- type: used-by
+  to: national-tiger-conservation-authority
+  quote: Further, it involved the development of innovative technology like automated segregation
+    of camera trap photographs to species
+  url: https://www.ntca.gov.in/milestone_initiatives
+  fetched: '2026-10-31'

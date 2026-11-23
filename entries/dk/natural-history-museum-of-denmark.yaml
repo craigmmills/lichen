@@ -1,0 +1,100 @@
+id: natural-history-museum-of-denmark
+kind: organisation
+name: Statens Naturhistoriske Museum
+also_known_as:
+- Natural History Museum of Denmark
+- Statens Naturhistoriske Museum
+- NHMD
+- SNM
+scope: dk
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: dk
+scale: national
+status: active
+website: https://www.snm.ku.dk
+summary: Danish natural history museum, run by the University of Copenhagen, responsible for
+  the national collections and their digitisation, with a new DNA laboratory announced in
+  a 22 October 2026 release and a new museum due to open on 6 March 2027.
+facts:
+- claim: Its site says a new laboratory will use DNA from natural history collections.
+  url: https://www.snm.ku.dk/people/icalabuig
+  fetched: '2026-11-02'
+  quote: Nyt laboratorium skal bruge DNA fra naturhistoriske samlinger til at forstå fremtidens
+    natur
+- claim: Its site gives 6 March 2027 as the opening date of a new museum.
+  url: https://www.snm.ku.dk/people/icalabuig
+  fetched: '2026-11-02'
+  quote: Den 6. marts 2027 slår vi dørene op for det nye museum
+- claim: Responsible for the national natural history collections.
+  url: https://snm.dk/en/about-museum
+  fetched: '2026-11-02'
+  quote: The museum is responsible for the management of the national natural history collections
+    as well as the associated research and public outreach.
+- claim: Works on digitising the collections.
+  url: https://snm.dk/en/research-and-collections
+  fetched: '2026-11-02'
+  quote: We are continuously working on digitization, and you can explore hundreds of thousands
+    of items on our collections portal
+- claim: A December 2024 announcement said its Science and Society section was responsible
+    for developing portals for reporting species observations.
+  url: https://snm.dk/en/news/new-head-research-natural-history-museum-denmark
+  fetched: '2026-11-02'
+  quote: The section is also responsible for developing portals for reporting species findings
+    and observations in nature.
+- claim: GBIF gives an address in Copenhagen.
+  url: https://api.gbif.org/v1/node/4ddd294f-02b7-4359-ac33-0806a9ca9c6b
+  fetched: '2026-11-02'
+  quote: DK-1123 Copenhagen K
+- claim: DaSSCo names it as lead, as part of the University of Copenhagen.
+  url: https://dassco.dk/about.html
+  fetched: '2026-11-02'
+  quote: The Natural History Museum of Denmark (The University of Copenhagen) is leading the
+    project
+- claim: Its site lists a press release of 22 October 2026 on a new laboratory using DNA from
+    natural history collections.
+  url: http://snm.ku.dk/english/
+  fetched: &id001 2026-11-02
+  quote: New Laboratory Will Use DNA from Natural History Collections to Understand the Future
+    of Nature
+- claim: A vice director of the museum was quoted on Arter in a foundation release.
+  url: https://www.avjf.dk/pressemeddelelser/fonde-giver-millioner-til-danskernes-nye-portal-om-arter-og-natur/
+  fetched: *id001
+  quote: siger vicemuseumschef Anders P. Tøttrup på Statens Naturhistoriske Museum
+- claim: Named as a partner in a planned three-year mammal monitoring project with Danmarks
+    Jægerforbund, in an undated release.
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: Projektet er et samarbejde mellem Danmarks Jægerforbund, Nationalt Center for Miljø
+    og Energi (Institut for Ecoscience, Aarhus Universitet), Naturhistorisk Museum Aarhus
+    og Statens Naturhistoriske Museum.
+found_by:
+- checklist:2
+- link-from:consortium-of-european-taxonomic-facilities
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+techniques:
+- edna-genomics
+- computer-vision
+links:
+- type: run-by
+  to: university-of-copenhagen
+  url: https://snm.dk/en/about-museum
+  fetched: '2026-11-02'
+  quote: The museum provides world-class research and is thus organized as a department of
+    the University of Copenhagen.
+- type: run-by
+  to: university-of-copenhagen
+  url: https://dassco.dk/about.html
+  fetched: '2026-11-02'
+  quote: The Natural History Museum of Denmark (The University of Copenhagen)

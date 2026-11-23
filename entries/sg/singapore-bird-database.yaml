@@ -1,0 +1,37 @@
+id: singapore-bird-database
+kind: dataset
+name: Singapore Bird Database
+scope: sg
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- sg
+status: active
+website: https://records.singaporebirds.com/
+summary: Bird dataset run by the Bird Society of Singapore, which says its team uses
+  eBird data and makes it accessible through bar charts and the database.
+facts:
+- claim: The Bird Society of Singapore says its team uses eBird data and makes it
+    accessible through its bar charts and the Singapore Bird Database.
+  url: https://singaporebirds.com/2025/12/09/why-am-i-receiving-emails-from-ebird-moderators/
+  fetched: 2026-11-15
+  quote: our team frequently uses data from the platform to make them easily accessible
+    through our bar charts and Singapore Bird Database.
+- claim: The society's 2023 launch post names the Singapore Bird Database among its
+    online work.
+  url: https://singaporebirds.com/blog/the-bird-society-of-singapore-is-officially-launched
+  fetched: 2026-11-15
+  quote: Discussing our efforts in the online space in publishing species writeups
+    as well as the Singapore Bird Database
+links:
+- type: run-by
+  to: bird-society-of-singapore
+  url: https://singaporebirds.com/2025/12/09/why-am-i-receiving-emails-from-ebird-moderators/
+  fetched: 2026-11-15
+  quote: our team frequently uses data from the platform to make them easily accessible
+    through our bar charts and Singapore Bird Database.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

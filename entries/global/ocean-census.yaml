@@ -1,0 +1,33 @@
+id: ocean-census
+kind: project
+name: The Nippon Foundation-Nekton Ocean Census
+also_known_as:
+- Ocean Census
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+scale: global
+status: active
+website: https://oceancensus.org
+summary: Global initiative to discover unknown marine life, launched jointly by The Nippon Foundation and Nekton Foundation as an open network across science, media, academia and business.
+facts:
+- claim: A global initiative to discover unknown marine life, launched by The Nippon Foundation and Nekton Foundation.
+  url: https://www.nippon-foundation.or.jp/en/what/projects/ocean
+  quote: is a global initiative to discover unknown marine life, jointly launched by The Nippon Foundation and Nekton Foundation
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: the-nippon-foundation
+  url: https://www.nippon-foundation.or.jp/en/what/projects/ocean
+  quote: "The Nippon Foundation – Nekton Ocean Census is a global initiative to discover unknown marine life, jointly launched by The Nippon Foundation and Nekton Foundation"
+  fetched: *id001
+- type: partners-with
+  to: nekton-foundation
+  url: https://www.nippon-foundation.or.jp/en/what/projects/ocean
+  quote: jointly launched by The Nippon Foundation and Nekton Foundation
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

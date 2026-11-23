@@ -1,0 +1,67 @@
+id: marine-directorate-scotland
+kind: organisation
+name: Marine Directorate
+also_known_as:
+- Marine Scotland
+- Marine Directorate
+sector: government
+roles:
+- governs
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+- freshwater
+techniques:
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://blogs.gov.scot/marine-scotland/
+summary: Scottish Government directorate for marine affairs. A Scottish Government reply lists
+  fish scale identification among its uses of AI, and a 2020 post describes a study of AI
+  for marine images.
+facts:
+- claim: The Scottish Government lists fish scale identification under its AI uses.
+  url: https://gov.scot/publications/which-scottish-government-directorates-artificial-intelligence-in-whatever-technical-form-is-used-to-support-the-development-of-policy-foi-release
+  quote: Marine Scotland – fish scale identification
+  fetched: '2026-10-30'
+- claim: A 2020 post describes a study of how AI can help Marine Scotland.
+  url: https://blogs.gov.scot/marine-scotland/tag/automated-imaging-workshop/
+  quote: a new study is exploring how Artificial Intelligence (AI) can help Marine Scotland
+    uncover the secrets under our seas
+  fetched: '2026-10-30'
+- claim: Collects underwater video in monitoring.
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: the Scottish Government’s Marine Directorate collects a large amount of underwater
+    video
+  fetched: '2026-10-30'
+- claim: Commissioned a web application for machine learning analysis of video.
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: The Marine Directorate commissioned the University of East Anglia to develop a web-based
+    application
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.gov.scot/contact
+  quote: EH1 3DG
+  fetched: 2026-10-30
+- claim: Responsible for the integrated management of Scotland's seas.
+  url: https://www.gov.scot/about/how-government-is-run/directorates/marine-scotland/
+  quote: We are responsible for the integrated management of Scotland's seas
+  fetched: 2026-10-30
+found_by:
+- checklist:1
+- link-from:automated-video-identification-of-marine-species
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: runs
+  to: automated-video-identification-of-marine-species
+  url: https://www.gov.scot/publications/new-application-automated-video-identification-marine-species-avims/pages/1/
+  quote: The Marine Directorate commissioned the University of East Anglia to develop a web-based
+    application
+  fetched: *id001

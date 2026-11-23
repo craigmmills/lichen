@@ -1,0 +1,37 @@
+id: broad-institute
+kind: organisation
+name: Broad Institute
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+techniques:
+- edna-genomics
+scale: global
+hq: us
+status: active
+website: https://www.broadinstitute.org
+countries: []
+summary: Research institute in Cambridge, Massachusetts, that the Earth BioGenome Project
+  names as the body behind Zoonomia, a comparison of the DNA of over 200 mammals.
+facts:
+- claim: OpenAlex lists the institute as a nonprofit in Cambridge, US.
+  url: https://api.openalex.org/institutions?search=broad%20institute&per-page=1
+  quote: '"country_code": "US", "type": "nonprofit"'
+  fetched: '2026-10-30'
+- claim: The Earth BioGenome Project says Zoonomia was spearheaded by the Broad Institute.
+  url: https://www.earthbiogenome.org/affiliated-project-networks
+  quote: Zoonomia This large-scale project spearheaded by the Broad Institute aims to compare
+    the DNA of over 200 different mammals
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: zoonomia
+  url: https://www.earthbiogenome.org/affiliated-project-networks
+  quote: Zoonomia This large-scale project spearheaded by the Broad Institute
+  fetched: '2026-10-30'
+found_by:
+- link-from:zoonomia
+added_by: agent
+checked: '2026-10-30'

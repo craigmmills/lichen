@@ -1,0 +1,43 @@
+id: sistema-remote
+kind: programme
+name: Sistema REMOTE
+also_known_as:
+- REMOTE
+scope: es
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- es
+status: active
+website: https://sigred.oapn.es/mapaRedPPNN/
+summary: A semi-automatic system that analyses satellite data to follow ecosystem
+  functioning, such as primary productivity, in Spain's national parks.
+facts:
+- claim: REMOTE is a semi-automatic monitoring system that analyses data derived from
+    satellite images to obtain information on how ecosystems function.
+  url: https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/seguimiento/seguimiento-ecologico/productividad.html
+  fetched: '2026-10-31'
+  quote: Mediante el sistema semiautomático de seguimiento denominado REMOTE
+- claim: It draws on Landsat, MODIS, Sentinel-2 and CMEMS data.
+  url: https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/seguimiento/seguimiento-ecologico/productividad.html
+  fetched: '2026-10-31'
+  quote: constelación Sentinel 2 y del CMEMS
+links:
+- type: run-by
+  to: organismo-autonomo-parques-nacionales
+  url: https://sigred.oapn.es/VisorRedPPNN/visorparques/public/ayudaRemote/manualUsuarioRemote.html
+  fetched: '2026-10-31'
+  quote: Iniciativa elaborada por el Organismo Autónomo Parques Nacionales
+- type: partners-with
+  to: universidad-de-almeria
+  url: https://sigred.oapn.es/VisorRedPPNN/visorparques/public/ayudaRemote/manualUsuarioRemote.html
+  fetched: '2026-10-31'
+  quote: participación y asesoramiento de la Universidad de Almería
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

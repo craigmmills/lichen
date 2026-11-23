@@ -1,0 +1,50 @@
+id: seasonal-fractional-cover-sentinel-2-jrsrp-v3
+kind: dataset
+name: Seasonal Fractional Cover - Sentinel-2, JRSRP Algorithm Version 3.0
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- au
+status: unknown
+runner: unknown
+summary: Dataset using a multilayer perceptron to estimate bare ground and vegetation
+  cover from Sentinel-2 reflectance, trained on Landsat data and about 4,000 field
+  observations, released under CC BY 4.0.
+facts:
+- claim: Uses a multilayer perceptron model to estimate cover of bare ground, photosynthetic
+    and non-photosynthetic vegetation from surface reflectance.
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: A multilayer perceptron (MLP) model is used to estimate percentage cover
+    in three fractions – bare ground, photosynthetic vegetation (PV) and non-photosynthetic
+    vegetation (NPV) from surface reflectance
+  fetched: '2026-11-08'
+- claim: The model was trained with Tensorflow on Landsat surface reflectance and
+    about 4,000 field observations.
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: The MLP model was trained with Tensorflow using Landsat TM, ETM+ and OLI
+    surface reflectance and a collection of approximately 4000 field observations
+  fetched: '2026-11-08'
+- claim: The record names the Joint Remote Sensing Research Program and the Queensland
+    Department of the Environment, Tourism, Science and Innovation.
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: Joint Remote Sensing Research Program ; Department of the Environment, Tourism,
+    Science and Innovation, Queensland Government
+  fetched: '2026-11-08'
+- claim: Released under a Creative Commons Attribution 4.0 licence.
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: Creative Commons Attribution 4.0 International Licence
+  fetched: '2026-11-08'
+links:
+- type: builds-on
+  to: sentinel-2
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: Sentinel-2 data was downloaded from the ESA as Level 1C
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

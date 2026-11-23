@@ -1,0 +1,23 @@
+id: imapinvasives
+kind: dataset
+name: iMapInvasives
+scope: us
+ai_label: data-infrastructure
+status: unknown
+realms:
+- land
+- freshwater
+countries:
+- us
+runner: unknown
+summary: Online all-taxa invasive species database and mapping tool, listed by SciStarter.
+facts:
+- claim: SciStarter describes it as an online all-taxa invasive species database and mapping
+    tool.
+  url: https://scistarter.org/imapinvasives
+  quote: on-line, all-taxa invasive species database and mapping tool
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

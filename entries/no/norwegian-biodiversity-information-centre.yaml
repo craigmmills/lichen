@@ -1,0 +1,89 @@
+id: norwegian-biodiversity-information-centre
+kind: organisation
+name: Norwegian Biodiversity Information Centre
+also_known_as:
+- Artsdatabanken
+- NBIC
+scope: 'no'
+summary: National biodiversity knowledge bank set up in 2005 in Trondheim, supplying information
+  on Norwegian biodiversity and running Artsobservasjoner; it also publishes identification
+  keys and datasets.
+facts:
+- claim: The national data catalogue says it publishes digital expert-written identification
+    keys.
+  url: https://data.norge.no/en/datasets/754b3a68-e824-38c7-aff1-95806de8085b
+  fetched: '2026-11-02'
+  quote: Artsdatabanken publiserer digitale, ekspertskrevne bestemmelsesnøkler
+- claim: Its App Store listing says Artsorakel tries to identify species in images with AI.
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Artsdatabankens Artsorakel prøver å artsbestemme bilder ved hjelp av kunstig intelligens.
+- claim: GBIF's publisher record says it publishes datasets from government bodies and citizen
+    science observation services.
+  url: https://api.gbif.org/v1/organization/d3978a37-635a-4ae3-bb85-7b4d41bc0b88
+  fetched: '2026-11-02'
+  quote: Publishing datasets from governmental organizations and Citizen Science observations
+    services.
+- claim: GBIF's record places it in Trondheim.
+  url: https://api.gbif.org/v1/organization/d3978a37-635a-4ae3-bb85-7b4d41bc0b88
+  fetched: '2026-11-02'
+  quote: '"city":"Trondheim"'
+- claim: BirdLife Norway says Artsobservasjoner is run by Artsdatabanken.
+  url: https://birdlifedata.no/
+  fetched: '2026-11-02'
+  quote: NOF har ansvar for kvalitetssikring og rapportering på fugler på Artsobservasjoner.no
+    som driftes av Artsdatabanken.
+- claim: GBIF Norway lists it as a consortium member of the Norwegian node.
+  url: https://www.gbif.no/about/
+  fetched: '2026-11-02'
+  quote: Norwegian Biodiversity Information Centre (NBIC)
+- claim: GBIF Norway, on the University of Oslo Natural History Museum site, says it collaborates
+    closely with the centre in Trondheim.
+  url: https://www.nhm.uio.no/english/research/projects/gbif/
+  fetched: &id001 2026-11-02
+  quote: GBIF Norway maintain a particular close collaboration with the Norwegian Biodiversity
+    Information Centre (NBIC) in Trondheim.
+- claim: The Norway open data portal lists Artskart under Artsdatabanken, with over 50 million
+    records of 68,222 taxa as of September 2025.
+  url: https://data.norge.no/en/datasets/cd2e780b-f2fc-4c3a-b219-bfdd1f0de758/artskart-funn-av-arter
+  fetched: *id001
+  quote: inneholder per september 2025 over 50 millioner funn av 68222 ulike takson
+- claim: The GBIF publisher record gives its address in Trondheim, Norway.
+  url: https://api.gbif.org/v1/organization/d3978a37-635a-4ae3-bb85-7b4d41bc0b88
+  fetched: *id001
+  quote: '"city":"Trondheim","province":"Trøndelag","country":"NO"'
+links:
+- type: runs
+  to: artsobservasjoner
+  url: https://birdlifedata.no/
+  fetched: '2026-11-02'
+  quote: Artsobservasjoner.no som driftes av Artsdatabanken.
+- type: runs
+  to: artsobservasjoner
+  url: https://birdlifedata.no/
+  fetched: '2026-11-02'
+  quote: NOF har ansvar for kvalitetssikring og rapportering på fugler på Artsobservasjoner.no
+    som driftes av Artsdatabanken.
+found_by:
+- checklist:2
+- queue:no
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+- edna-genomics
+countries:
+- 'no'

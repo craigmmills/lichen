@@ -1,0 +1,34 @@
+id: earth-index
+kind: programme
+name: Earth Index
+scope: global
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://earthindex.ai
+summary: Tool from Earth Genome that uses Earth foundation models to let users search satellite imagery for features by labelling examples.
+facts:
+- claim: Applies large Earth foundation models in a working tool.
+  url: https://earthindex.ai/
+  fetched: '2026-10-30'
+  quote: Earth Index applies and deploys these models in a working environment.
+- claim: "Earth Index says it uses large Earth foundation models."
+  url: https://earthindex.ai
+  fetched: '2026-10-30'
+  quote: "Large Earth foundation models are trained to understand any feature on the planet."
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: earth-genome
+  url: https://earthindex.ai/
+  fetched: '2026-10-30'
+  quote: by Earth Genome
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

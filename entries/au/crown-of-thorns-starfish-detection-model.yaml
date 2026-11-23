@@ -1,0 +1,41 @@
+id: crown-of-thorns-starfish-detection-model
+kind: model
+name: Crown-of-thorns starfish detection model
+scope: au
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+runner: unknown
+summary: Machine learning model from Google, CSIRO and the Kaggle community that detects
+  crown-of-thorns starfish in underwater images of the Great Barrier Reef, which Google
+  said it would open source.
+facts:
+- claim: Google teamed up with CSIRO and the Kaggle community.
+  url: https://blog.google/intl/en-au/company-news/outreach-initiatives/protecting-our-reef-with-csiro/
+  fetched: '2026-10-31'
+  quote: we teamed up with CSIRO and the Kaggle data science community to develop
+    a machine learning solution to analyse underwater images of the starfish species
+- claim: Google announced it was open sourcing the model.
+  url: https://blog.google/intl/en-au/company-news/outreach-initiatives/protecting-our-reef-with-csiro/
+  fetched: '2026-10-31'
+  quote: we're announcing that we are open sourcing this AI model
+links:
+- type: partners-with
+  to: csiro
+  url: https://blog.google/intl/en-au/company-news/outreach-initiatives/protecting-our-reef-with-csiro/
+  fetched: '2026-10-31'
+  quote: we teamed up with CSIRO and the Kaggle data science community
+- type: partners-with
+  to: google
+  url: https://blog.google/intl/en-au/company-news/outreach-initiatives/protecting-our-reef-with-csiro/
+  fetched: '2026-10-31'
+  quote: we teamed up with CSIRO and the Kaggle data science community
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

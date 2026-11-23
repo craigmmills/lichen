@@ -1,0 +1,40 @@
+id: global-ecosystem-research-infrastructure
+kind: programme
+name: Global Ecosystem Research Infrastructure
+also_known_as:
+- GERI
+scope: global
+roles:
+- supplies-data
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+runner: unknown
+summary: Network of site-based research infrastructures that studies how indicator ecosystems function and change across global biomes.
+facts:
+- claim: An integrated network of site-based research infrastructures.
+  url: https://www.tern.org.au/international/
+  fetched: 2026-10-30
+  quote: The Global Ecosystem Research Infrastructure (GERI) is an integrated network of site-based research infrastructures
+links:
+- type: partners-with
+  to: terrestrial-ecosystem-research-network
+  url: https://www.tern.org.au/international/
+  fetched: 2026-10-30
+  quote: TERN is a founding member of GERI.
+- type: partners-with
+  to: integrated-carbon-observation-system
+  url: https://deims.org/networks/c3abdc60-49f1-49db-81fe-863b7dbb21d3
+  fetched: 2026-10-31
+  quote: "Consists of SAEON CERN (LTER China) TERN Australia ICOS"
+- type: partners-with
+  to: national-ecological-observatory-network
+  url: https://deims.org/networks/c3abdc60-49f1-49db-81fe-863b7dbb21d3
+  fetched: 2026-10-31
+  quote: "Consists of SAEON CERN (LTER China) TERN Australia ICOS NEON"
+found_by:
+- rule:sweep2
+added_by: agent
+checked: 2026-10-30

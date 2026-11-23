@@ -1,0 +1,45 @@
+id: roskilde-municipality
+kind: organisation
+name: Roskilde Municipality
+also_known_as:
+- Roskilde Kommune
+scope: dk
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: local
+status: active
+summary: Danish municipality whose nature officer, quoted on Koordinat's site, says it maintains
+  its register of §3 protected nature with the VERNA tool.
+facts:
+- claim: A municipal nature officer quoted on Koordinat's site says the municipality maintains
+    its register of §3 protected nature with Koordinat's VERNA tool.
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: Når vi bruger VERNA sker vedligeholdelsen af §3-registreringen grundigere og hurtigere
+    end hidtil.
+- claim: Koordinat's site names Roskilde Kommune among the Danish municipalities quoted on
+    its use.
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: Roskilde Kommune
+links:
+- type: uses
+  to: verna
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: Når vi bruger VERNA sker vedligeholdelsen af §3-registreringen grundigere og hurtigere
+    end hidtil.
+found_by:
+- rule:checklist-misses
+- link-from:koordinat
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,54 @@
+id: edentity
+kind: programme
+name: eDentity
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+status: active
+countries:
+- nl
+website: https://www.naturalis.nl/en/edentity
+summary: Naturalis programme building a Dutch research infrastructure for eDNA analysis of
+  soil, water and air samples, to be delivered by 2028.
+scope: nl
+facts:
+- claim: Described by Naturalis as its program for eDNA analysis combining DNA metabarcoding
+    with reference databases.
+  url: https://www.naturalis.nl/en/edentity
+  fetched: '2026-10-31'
+  quote: Naturalis's eDentity program unlocks the power of eDNA analysis for advanced biomonitoring
+    by integrating scalable DNA metabarcoding solutions with high-quality reference databases.
+- claim: Naturalis says it will deliver the research infrastructure by 2028.
+  url: https://www.naturalis.nl/en/edentity
+  fetched: '2026-10-31'
+  quote: By 2028, we will deliver a research infrastructure capable of analysing large quantities
+    of eDNA samples with standardised procedures.
+- claim: Naturalis says the laboratory facility is being set up to process 75,000 samples.
+  url: https://www.naturalis.nl/en/edentity
+  fetched: '2026-10-31'
+  quote: establishing a laboratory facility capable of processing 75,000 samples from all
+    over the Netherlands
+- claim: Aims to collect 75,000 samples within three years for a national reference database.
+  url: https://www.naturalis.nl/en/edentity
+  fetched: &id001 2026-10-31
+  quote: With the goal of collecting 75,000 samples within three years, we are building a
+    national reference database of Dutch eDNA biodiversity.
+links:
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/edentity
+  fetched: '2026-10-31'
+  quote: Naturalis's eDentity program
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/edentity
+  fetched: *id001
+  quote: Naturalis's eDentity program unlocks the power of eDNA analysis
+found_by:
+- checklist:2
+- link-from:naturalis-biodiversity-center
+added_by: agent
+checked: '2026-10-31'

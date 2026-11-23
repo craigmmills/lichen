@@ -1,0 +1,52 @@
+id: thunen-institut
+kind: organisation
+name: Johann Heinrich von Thünen-Institut
+also_known_as:
+- Thünen-Institut
+- Bundesforschungsinstitut für Ländliche Räume
+- Wald und Fischerei
+scope: de
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: de
+scale: national
+status: active
+summary: German federal research institute for rural areas, forests and fisheries, based in
+  Braunschweig. Its forest ecosystems institute leads the national forest inventory and coordinates
+  national forest monitoring. Its main site refused the fetcher, so facts come from its project
+  sites and partners.
+facts:
+- claim: The Bundeswaldinventur site says its forest ecosystems institute leads the inventory.
+  url: https://www.bundeswaldinventur.de/ansprechpartner
+  fetched: '2026-10-31'
+  quote: Das Thünen-Institut für Waldökosysteme als Inventurleitung entwickelt in enger Zusammenarbeit
+    mit anderen Forschungseinrichtungen die Methoden
+- claim: The FNEWs project site says the forest ecosystems institute coordinates national
+    forest monitoring systems.
+  url: https://www.fnews-wald.de/beteiligte/thuenen-institut/thuenen-institut-fuer-waldoekosysteme
+  fetched: '2026-10-31'
+  quote: koordiniert neben seiner forstökologischen Forschung seit vielen Jahren erfolgreich
+    verschiedene bundesweite Monitoringsysteme im Wald
+- claim: Address in Braunschweig on its CopWald site.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-10-31'
+  quote: Bundesallee 50 38116 Braunschweig
+links:
+- type: runs
+  to: bundeswaldinventur
+  url: https://www.bundeswaldinventur.de/ansprechpartner
+  fetched: '2026-10-31'
+  quote: Das Thünen-Institut für Waldökosysteme als Inventurleitung entwickelt in enger Zusammenarbeit
+    mit anderen Forschungseinrichtungen die Methoden
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

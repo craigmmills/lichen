@@ -1,0 +1,40 @@
+id: satclip
+kind: model
+name: SatCLIP
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/microsoft/satclip
+summary: Global, general-purpose geographic location encoder from Microsoft that trains location and image encoders by matching satellite images to their locations.
+facts:
+- claim: Trains location and image encoders via contrastive learning.
+  url: https://github.com/microsoft/satclip
+  fetched: '2026-10-30'
+  quote: SatCLIP trains location and image encoders via contrastive learning
+- claim: "SatCLIP publishes models with ResNet18 vision encoders."
+  url: https://github.com/microsoft/satclip
+  fetched: '2026-10-30'
+  quote: "microsoft/SatCLIP-ResNet18-L10 ResNet18"
+  ai_type: deep-learning
+- claim: "The SatCLIP repository provides pretrained SatCLIP location encoders."
+  url: "https://github.com/microsoft/satclip"
+  fetched: "2026-10-31"
+  quote: "We provide six pretrained SatCLIP models"
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: microsoft
+  url: https://github.com/microsoft/satclip
+  fetched: '2026-10-30'
+  quote: GitHub - microsoft/satclip
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

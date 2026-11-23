@@ -1,0 +1,50 @@
+id: portal-de-bosques-y-usos-de-la-tierra
+kind: dataset
+name: Portal de Bosques y Usos de la Tierra
+also_known_as: []
+scope: py
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries: []
+status: active
+summary: Portal launched by INFONA with data on native forest, crops, plantations and land-use change,
+  generated and validated from Landsat, Sentinel and Planet imagery, with over 25,000 visits across INFONA's
+  two portals in under a year.
+facts:
+- claim: Bichos de Campo reports that INFONA launched the portal, which gives detailed information on
+    the area and distribution of natural and productive resources.
+  url: https://bichosdecampo.com/?p=171430
+  fetched: 2026-11-12
+  quote: el Instituto Forestal Nacional (Infona) acaba de lanzar el Portal de Bosques y Usos de la Tierra
+- claim: Its data on native forest, crops and plantations, with land-use change records, were generated
+    and validated from Landsat, Sentinel and Planet imagery.
+  url: https://bichosdecampo.com/?p=171430
+  fetched: 2026-11-12
+  quote: los cuales fueron generados y validados a través de imágenes satelitales provenientes de Landsat,
+    Sentinel y Planet.
+- claim: Infonegocios says users can generate reports, upload polygons and analyse historical change,
+    and that INFONA's two portals had more than 25,000 visits in under a year.
+  url: https://infonegocios.com.py/default/mapas-satelitales-datos-abiertos-y-gestion-digital-asi-se-moderniza-la-gestion-forestal-en-paraguay
+  fetched: 2026-11-12
+  quote: Allí, los usuarios pueden generar reportes, cargar polígonos y analizar cambios históricos en
+    el territorio.
+links:
+- type: built-by
+  to: instituto-forestal-nacional-paraguay
+  url: https://bichosdecampo.com/?p=171430
+  fetched: 2026-11-12
+  quote: el Instituto Forestal Nacional (Infona) acaba de lanzar el Portal de Bosques y Usos de la Tierra
+- type: builds-on
+  to: landsat
+  url: https://bichosdecampo.com/?p=171430
+  fetched: 2026-11-12
+  quote: los cuales fueron generados y validados a través de imágenes satelitales provenientes de Landsat,
+    Sentinel y Planet.
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

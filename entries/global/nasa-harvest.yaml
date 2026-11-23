@@ -1,0 +1,80 @@
+id: nasa-harvest
+kind: organisation
+name: NASA Harvest
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+- multimodal
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://nasaharvest.org
+summary: NASA-commissioned consortium of agriculture and remote sensing experts, managed from
+  the University of Maryland, that publishes the Presto and Galileo Earth observation models.
+countries:
+- au
+- gt
+- mx
+- to
+- ua
+- us
+- uy
+facts:
+- claim: Commissioned by NASA in 2017 as a multidisciplinary consortium.
+  url: https://nasaharvest.org/about-us
+  fetched: '2026-10-30'
+  quote: Commissioned by NASA in 2017, Harvest is a multidisciplinary consortium of agriculture
+    and remote sensing experts
+- claim: Management hub at the University of Maryland.
+  url: https://nasaharvest.org/about-us
+  fetched: '2026-10-30'
+  quote: The consortium’s administrative and management hub is based at the University of
+    Maryland’s Department of Geographical Sciences .
+- claim: NASA Harvest released Galileo, called a multimodal model.
+  url: https://nasaharvest.org
+  fetched: '2026-10-30'
+  quote: The Open-Source Multimodal Model Advancing Earth Observation
+  ai_type: multimodal
+- claim: A NASA Harvest paper maps craters with deep learning.
+  url: https://nasaharvest.org/publications
+  fetched: '2026-10-30'
+  quote: satellite imagery and deep learning
+  ai_type: deep-learning
+- claim: A NASA Harvest paper compares support vector machines.
+  url: https://nasaharvest.org/publications
+  fetched: '2026-10-30'
+  quote: A Comparison between Support Vector Machine and Water Cloud Model
+  ai_type: ml-supervised
+- claim: The University of Maryland says NASA Harvest was established in 2018 as the NASA
+    Applied Sciences Program on Agriculture and Food Security.
+  url: https://bsos.umd.edu/featured-content/umd-and-nasa-join-forces-improve-global-food-security-through-satellite-data
+  quote: Established in 2018, NASA Harvest is the NASA Applied Sciences Program on Agriculture
+    and Food Security.
+  fetched: '2026-10-30'
+- claim: NASA Harvest's repository publishes Galileo, a family of pretrained remote sensing
+    models.
+  url: https://github.com/nasaharvest/galileo
+  fetched: '2026-10-31'
+  quote: Galileo is a family of pretrained remote sensing models.
+  ai_type: foundation-models
+links:
+- type: funded-by
+  to: nasa
+  url: https://nasaharvest.org/about-us
+  fetched: '2026-10-30'
+  quote: Harvest operates via grant funding, primarily supported by NASA's Applied Sciences
+    Agriculture Program Area
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

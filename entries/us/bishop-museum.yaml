@@ -1,0 +1,37 @@
+id: bishop-museum
+kind: organisation
+name: Bishop Museum
+scope: us
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: Hawaiʻi museum listed as an institutional member of TDWG.
+facts:
+- claim: Listed as a TDWG member.
+  url: https://www.tdwg.org/about/membership/
+  fetched: '2026-10-30'
+  quote: Bishop Museum
+- claim: Gives its address in Honolulu, Hawaii.
+  url: https://www.bishopmuseum.org/
+  fetched: '2026-10-31'
+  quote: 1525 Bernice Street, Honolulu, Hawai‘i 96817
+links:
+- type: partners-with
+  to: biodiversity-information-standards
+  url: https://www.tdwg.org/about/membership/
+  fetched: '2026-10-30'
+  quote: Bishop Museum
+found_by:
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'
+website: https://www.bishopmuseum.org/

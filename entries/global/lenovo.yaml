@@ -1,0 +1,38 @@
+id: lenovo
+kind: organisation
+name: Lenovo
+scope: global
+sector: company
+roles:
+- uses-ai
+- funds
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: cn
+scale: global
+status: active
+website: https://www.lenovo.com
+summary: Technology company that supplied edge servers for AI camera trap analysis to Island
+  Conservation on Robinson Crusoe Island and donated a smart IT system for Yangtze finless
+  porpoise protection.
+facts:
+- claim: Worked with Island Conservation through its Work for Humankind initiative.
+  url: https://lenovo.com/ca/en/case-studies-customer-success-stories/island-conservation
+  fetched: &id001 2026-10-30
+  quote: Island Conservation worked with Lenovo’s Work for Humankind initiative to protect
+    endangered wildlife
+- claim: Collaborated with the Tian'ezhou Reserve from 2021.
+  url: https://www.3blmedia.com/news/leap-hope-technology-and-community-unite-yangtze-finless-porpoise
+  fetched: *id001
+  quote: In 2021, Lenovo’s collaboration with the Tian’ezhou Reserve and donation of China’s
+    first smart IT ecological protection solution marked a significant step
+- claim: Headquartered in Beijing.
+  url: https://en.wikipedia.org/wiki/Lenovo
+  fetched: 2026-10-30
+  quote: Headquarters in Haidian, Beijing , China
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

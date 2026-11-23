@@ -1,0 +1,30 @@
+id: synecoculture
+kind: project
+name: Synecoculture
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+status: active
+summary: Sony CSL research on farming dense, mixed plantings based on the self-organisation of ecosystems, with work on ecosystem sensing AI and robotics. It falls within the map as on-farm biodiversity.
+facts:
+- claim: Keywords include ecosystem sensing AI and a cyber ecosystem platform.
+  url: https://www.sonycsl.co.jp/?p=17311
+  fetched: &id001 2026-10-30
+  quote: Synecoculture, Augmented Ecosystem, Ecosystem Sensing AI, Robotics ／Cyber Ecosystem Platform, Symbiotic Earth
+- claim: A demonstration ran on the Roppongi Hills rooftop garden from November 2019.
+  url: https://www.sonycsl.co.jp/en/projects/syneco-portal/
+  fetched: *id001
+  quote: Sony CSL started a demonstration experiment related to Synecoculture farming on the rooftop garden of Roppongi Hills in November 2019.
+links:
+- type: run-by
+  to: sony-computer-science-laboratories
+  url: https://www.sonycsl.co.jp/en/projects/syneco-portal/
+  fetched: *id001
+  quote: Sony CSL started a demonstration experiment related to Synecoculture farming
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

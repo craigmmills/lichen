@@ -1,0 +1,34 @@
+id: satbird
+kind: dataset
+name: SatBird
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+- remote-sensing
+status: active
+website: https://arxiv.org/abs/2311.00936
+summary: Bird species distribution data set that pairs remote sensing with citizen science
+  data from eBird.
+countries:
+- us
+facts:
+- claim: Bird species distribution modelling with remote sensing and citizen science data.
+  url: https://arxiv.org/abs/2311.00936
+  fetched: '2026-10-30'
+  quote: 'SatBird: Bird Species Distribution Modeling with Remote Sensing and Citizen Science
+    Data'
+links:
+- type: builds-on
+  to: ebird
+  url: https://arxiv.org/abs/2311.00936
+  fetched: '2026-10-30'
+  quote: SatBird, a satellite dataset of locations in the USA with labels derived from presence-absence
+    observation data from the citizen science database eBird
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

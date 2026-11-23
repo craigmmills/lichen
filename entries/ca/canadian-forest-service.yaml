@@ -1,0 +1,91 @@
+id: canadian-forest-service
+kind: organisation
+name: Canadian Forest Service
+also_known_as:
+- CFS
+- Natural Resources Canada - Canadian Forest Service
+- Service canadien des forêts
+scope: ca
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: ai
+scale: national
+hq: ca
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+summary: Part of Natural Resources Canada. It publishes national forest datasets made with
+  remote sensing and machine learning, and works with the Canadian Space Agency on forest
+  mapping.
+facts:
+- claim: Generated the SCANFI forest attribute rasters using machine learning on remote sensing,
+    climate and environmental data.
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: The data was generated using machine learning algorithms applied to remote sensing
+    data, climate data, and other environmental variables.
+- claim: Works with the Canadian Space Agency and other partners.
+  url: https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp
+  fetched: '2026-10-31'
+  quote: the CFS works with the Canadian Space Agency (CSA) and other partners
+  via: webfetch
+- claim: Maintains the national database of the National Forest Inventory and leads analysis
+    and reporting.
+  url: https://natural-resources.canada.ca/forests-forestry/sustainable-forest-management/forest-inventory
+  fetched: '2026-10-31'
+  quote: The CFS maintains a national database and leads data analysis and reporting
+- claim: Develops forest inventory tools using aerial and terrestrial LiDAR and high-resolution
+    digital imagery.
+  url: https://natural-resources.canada.ca/forests-forestry/sustainable-forest-management/forest-inventory
+  fetched: '2026-10-31'
+  quote: are developing forest inventory tools and techniques
+- claim: Part of Natural Resources Canada, with an office in Ottawa and five research centres.
+  url: http://www.rncan.gc.ca/forets/apropos/17546
+  fetched: '2026-10-31'
+  quote: L’organisation fait partie de Ressources naturelles Canada et possède un bureau à
+    Ottawa et cinq centres de recherche
+- claim: Says one of its main mandates is scientific research on the forests of Canada.
+  url: http://www.rncan.gc.ca/forets/apropos/17546
+  fetched: '2026-10-31'
+  quote: Un des principaux mandats du SCF consiste à effectuer des recherches scientifiques
+    sur les forêts du Canada
+links:
+- type: runs
+  to: scanfi
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: 'SCANFI: Spatialized Canadian National Forest Inventory data product. Natural Resources
+    Canada, Canadian Forest Service, Laurentian Forestry Centre, Quebec, Canada.'
+- type: runs
+  to: canada-landsat-disturbance
+  url: https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad
+  fetched: '2026-10-31'
+  quote: Government of Canada; Natural Resources Canada; Canadian Forest Service
+- type: runs
+  to: biospace
+  url: https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp
+  fetched: '2026-10-31'
+  quote: BioSpace is a joint project of the CFS and the CSA
+- type: run-by
+  to: natural-resources-canada
+  url: https://natural-resources.canada.ca/forests-forestry/sustainable-forest-management/forest-inventory
+  fetched: '2026-10-31'
+  quote: The Canadian Forest Service (CFS) is a leader in the development of a range of forest
+    inventory tools
+- type: runs
+  to: biospace
+  url: https://natural-resources.canada.ca/forests-forestry/sustainable-forest-management/monitoring-biodiversity-remote-sensing
+  fetched: '2026-10-31'
+  quote: is a joint project of the Canadian Forest Service and the Canadian Space Agency
+found_by:
+- checklist:1
+- checklist:2
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

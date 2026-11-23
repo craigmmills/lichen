@@ -1,0 +1,54 @@
+id: national-oceanography-centre
+kind: organisation
+name: National Oceanography Centre
+also_known_as:
+- NOC
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://noc.ac.uk
+summary: UK ocean research centre and a partner in the TiMBER project on marine ecosystem
+  tipping points.
+facts:
+- claim: Partner in TiMBER.
+  url: https://www.uea.ac.uk/about/news/article/new-ps425m-project-to-investigate-climate-tipping-points-in-marine-ecosystems
+  quote: the National Oceanography Centre (NOC)
+  fetched: '2026-10-30'
+- claim: Registered at Companies House as NATIONAL OCEANOGRAPHY CENTRE, company number 11444362.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=national+oceanography+centre
+  quote: 11444362 - Incorporated on 2 July 2018
+  fetched: '2026-10-30'
+- claim: Exists to deepen understanding of the ocean.
+  url: https://noc.ac.uk/
+  quote: The National Oceanography Centre exists to deepen our understanding of the ocean
+  fetched: '2026-10-30'
+- claim: Uses image analysis to observe habitats and organisms.
+  url: https://www.noc.ac.uk/our-work/biodiversity/monitoring-mapping-and-management/image-analysis
+  quote: 'At NOC, we use this for a few key purposes: mainly to collect observations of habitats
+    and the organisms'
+  fetched: &id001 2026-10-30
+- claim: Says image analysis is increasingly automated by machine learning and AI.
+  url: https://www.noc.ac.uk/our-work/biodiversity/monitoring-mapping-and-management/image-analysis
+  quote: it is increasingly being automated by machine learning and AI
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://www.noc.ac.uk/
+  quote: European Way, Southampton SO14 3ZH
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+- link-from:partnership-for-observation-of-the-global-ocean
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- computer-vision

@@ -1,0 +1,49 @@
+id: colombia-biodiversity-observation-network
+kind: programme
+name: Colombia Biodiversity Observation Network
+also_known_as:
+- Colombia BON
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- co
+summary: National biodiversity observation network implemented by the Instituto Humboldt.
+facts:
+- claim: Implemented by the Humboldt Institute.
+  url: https://proyectos.humboldt.org.co/cambioclimatico/?p=665
+  quote: The Alexander von Humboldt Institute for Biological Resources implements
+    the Colombia BON
+  fetched: '2026-10-31'
+- claim: GEO BON says it has worked with the Humboldt Institute since 2015 to design
+    a national BON.
+  url: https://geobon.org/bons/national-regional-bon/national-bon/colombia-bon/
+  fetched: '2026-10-31'
+  quote: directly works with Colombia's Alexander von Humboldt Institute to design
+    a Colombian National BON
+links:
+- type: run-by
+  to: instituto-humboldt
+  url: https://proyectos.humboldt.org.co/cambioclimatico/?p=665
+  quote: The Alexander von Humboldt Institute for Biological Resources implements
+    the Colombia BON
+  fetched: '2026-10-31'
+- type: partners-with
+  to: geo-bon
+  url: https://geobon.org/bons/national-regional-bon/national-bon/colombia-bon/
+  fetched: '2026-10-31'
+  quote: directly works with Colombia's Alexander von Humboldt Institute
+- type: partners-with
+  to: instituto-humboldt
+  url: https://geobon.org/bons/national-regional-bon/national-bon/colombia-bon/
+  fetched: '2026-10-31'
+  quote: directly works with Colombia's Alexander von Humboldt Institute
+found_by:
+- checklist:2
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+roles:
+- supplies-data

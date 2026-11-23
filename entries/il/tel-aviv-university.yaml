@@ -1,0 +1,60 @@
+id: tel-aviv-university
+kind: organisation
+name: Tel Aviv University
+scope: il
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: il
+countries:
+- il
+scale: national
+status: active
+summary: An active university that hosts the Steinhardt Museum, with affiliated papers on
+  AI for climate change biology and bat tracking, and a 2024-reported vulture study using
+  15 years of GPS data from 142 birds.
+facts:
+- claim: HaMaarag names the Steinhardt Museum the Israel National Center for Biodiversity
+    Studies in Tel Aviv University.
+  url: http://www.hamaarag.org.il/en
+  fetched: '2026-11-08'
+  quote: the Steinhardt Museum of Nature History – the Israel National Center for Biodiversity
+    Studies in Tel Aviv University
+- claim: A Tel Aviv University study reported in September 2024 used 15 years of GPS data
+    from 142 vultures.
+  url: https://www.eurekalert.org/news-releases/1056413
+  fetched: '2026-11-08'
+  quote: The researchers utilized a database accumulated over 15 years from GPS devices attached
+    to 142 vultures
+- claim: The Steinhardt Museum says more than five and a half million items in Tel Aviv University's
+    natural history collections have moved to the museum.
+  url: https://smnh.tau.ac.il/en/about-2/
+  fetched: 2026-11-08
+  quote: More than five and a half million items, included in the natural history collections
+    of Tel Aviv University, have been transferred to their new home at the Steinhardt Museum
+    of Natural History.
+- claim: 'A 2024 paper whose first author is affiliated with Tel Aviv University is titled
+    Artificial Intelligence for Climate Change Biology: From Data Collection to Predictions.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04mhzgx49,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Artificial Intelligence for Climate Change Biology: From Data Collection to Predictions'
+- claim: A 2020 paper whose first author is affiliated with Tel Aviv University concerns cognitive
+    map-based navigation in wild bats revealed by a new high-throughput tracking system.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04mhzgx49,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: in wild bats revealed by a new high-throughput tracking system
+links: []
+found_by:
+- checklist:3
+- link-from:steinhardt-museum-of-natural-history
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'
+also_known_as:
+- TAU

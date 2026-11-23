@@ -1,0 +1,35 @@
+id: lifewatch-ecotopes-ecopatches
+kind: dataset
+name: LifeWatch ecotopes and ecopatches
+scope: be
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- be
+status: active
+summary: Dataset built by LifeWatch Belgium, with datacubes at Belgian and European scale that users can
+  download directly.
+facts:
+- claim: Datacubes exist at a Belgian and a European scale.
+  url: https://www.lifewatch.be/habitat-mapping-services
+  fetched: '2026-11-02'
+  quote: 'The datacubes exist at two different scales: one for Belgium (the ecotopes, based on LifeWatch’s
+    2 m land cover) and one for Europe (the ecopatches, based LifeWatch’s 10 m land cover).'
+- claim: Users can download the dataset directly.
+  url: https://www.lifewatch.be/habitat-mapping-services
+  fetched: '2026-11-02'
+  quote: Advanced users can of course also download the dataset directly.
+links:
+- type: built-by
+  to: lifewatch-belgium
+  url: https://www.lifewatch.be/habitat-mapping-services
+  fetched: '2026-11-02'
+  quote: LifeWatch has designed a geographic datacube based on irregular polygons
+found_by:
+- link-from:lifewatch-belgium
+added_by: agent
+checked: '2026-11-02'

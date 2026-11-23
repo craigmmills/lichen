@@ -1,0 +1,86 @@
+id: ecobank-korea
+kind: dataset
+name: EcoBank
+scope: kr
+ai_label: data-infrastructure
+status: active
+summary: Ecological information portal run by the National Institute of Ecology, stating
+  3,054,010 data items and 90 Open API services, with research data searchable by
+  DOI.
+facts:
+- claim: Describes itself as an ecological information portal that links information
+    on living things and ecosystems, including the institute's own survey results.
+  url: https://www.nie-ecobank.kr/cmmn/about.do
+  fetched: '2026-11-02'
+  quote: EcoBank is an ecological information portal service that enables you to integrate,
+    link and manage information on home and abroad living things and ecosystems, including
+    ecological information researched by the National Institute of Ecology
+- claim: States it holds 3,054,010 data items and offers 90 Open API services.
+  url: https://www.nie-ecobank.kr/cmmn/about.do
+  fetched: '2026-11-02'
+  quote: DATA(3,054,010건) - 전국자연환경조사, 생태계 정밀조사, 장기생태, DMZ/백두대간, 생태통로, 외래생물
+- claim: Its page counts 90 Open API items.
+  url: https://www.nie-ecobank.kr/cmmn/about.do
+  fetched: '2026-11-02'
+  quote: Open API(90건) - 생태·자연도, 전국자연환경조사, 생태계 정밀조사
+- claim: An August 2023 report says EcoBank began service in 2019 and then held over
+    390 million rows of biological and ecological data.
+  url: https://www.fnnews.com/news/202308211419545822
+  fetched: '2026-11-02'
+  quote: 에코뱅크(https://www.nie-ecobank.kr/)는 지난 2019년부터 서비스를 시작한 생태정보플랫폼으로 전국자연환경조사,
+    생태·자연도, 로드킬 자료 등 총 3억 9000만건(행렬 기준) 이상의 국내외 생물·생태 관련 빅데이터를 보유하고 있다.
+- claim: Lets anyone use and publish ecological information.
+  url: https://www.nie-ecobank.kr/cmmn/Index.do?lang=en
+  fetched: '2026-11-02'
+  quote: Anyone can freely use and publish various ecological information from all
+    over the world.
+- claim: Research data can be searched with DOI.
+  url: https://www.nie-ecobank.kr/cmmn/Index.do?lang=en
+  fetched: '2026-11-02'
+  quote: You can search for research data that has been published with DOI and view
+    details.
+- claim: A 2020 paper says its cleaned National Ecosystem Survey dataset is open freely
+    online through EcoBank.
+  url: https://koreascience.kr/article/JAKO202022558872275.page
+  fetched: 2026-11-02
+  quote: The dataset through this study is open freely online via EcoBank (nie-ecobank.kr)
+- claim: The portal's home page was reachable on 2 November 2026 under the EcoBank
+    name.
+  url: https://www.nie-ecobank.kr
+  fetched: 2026-11-02
+  quote: 메인 | 에코뱅크
+links:
+- type: run-by
+  to: national-institute-of-ecology-korea
+  url: https://www.data.go.kr/data/15120243/fileData.do?recommendDataYn=Y
+  fetched: '2026-11-02'
+  quote: 이 데이터는 국립생태원이 운영 중인 국제생태정보종합은행(EcoBank) 시스템에서
+- type: built-by
+  to: national-institute-of-ecology-korea
+  url: https://www.nie-ecobank.kr/cmmn/about.do
+  fetched: '2026-11-02'
+  quote: 국립생태원이 전세계 생태정보공유를 위한 생태정보 포털서비스를 시작합니다.
+- type: run-by
+  to: national-institute-of-ecology-korea
+  url: https://www.nie-ecobank.kr/cmmn/Index.do?lang=en
+  fetched: '2026-11-02'
+  quote: '[국립생태원] 생태전문 데이터 플랫폼 에코뱅크 (ECOBank)'
+- type: built-by
+  to: national-institute-of-ecology-korea
+  url: https://koreascience.kr/article/JAKO202022558872275.page
+  fetched: 2026-11-02
+  quote: the first ecological information portal system in Korea developed by National
+    Institute of Ecology
+found_by:
+- checklist:2
+- link-from:national-institute-of-ecology-korea
+- register:kr
+realms:
+- land
+- freshwater
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr
+also_known_as:
+- 에코뱅크

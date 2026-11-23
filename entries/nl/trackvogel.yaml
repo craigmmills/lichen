@@ -1,0 +1,42 @@
+id: trackvogel
+kind: project
+name: Trackvogel
+scope: nl
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+countries:
+- nl
+summary: Bird monitoring network of the municipality of Alkmaar, started in February
+  2026, using measuring boxes with smart software that record and recognise bird sounds.
+  Set up with Vogelwerkgroep Alkmaar and Sovon.
+facts:
+- claim: Measuring boxes record and recognise bird sounds.
+  url: https://duurzaam.alkmaar.nl/trackvogel/
+  fetched: '2026-10-31'
+  quote: Dit doen we met speciale meetkastjes die de geluiden van vogels opnemen en
+    herkennen.
+- claim: Started in February 2026.
+  url: https://duurzaam.alkmaar.nl/trackvogel/
+  fetched: '2026-10-31'
+  quote: Gemeente Alkmaar startte in februari 2026 met meten van vogelgeluiden.
+links:
+- type: run-by
+  to: gemeente-alkmaar
+  url: https://duurzaam.alkmaar.nl/trackvogel/
+  fetched: '2026-10-31'
+  quote: Gemeente Alkmaar startte in februari 2026 met meten van vogelgeluiden.
+- type: partners-with
+  to: sovon-vogelonderzoek-nederland
+  url: https://duurzaam.alkmaar.nl/trackvogel/
+  fetched: '2026-10-31'
+  quote: Dit meetnet zetten we op met Vogelwerkgroep Alkmaar en SOVON (Vogelonderzoek
+    Nederland).
+found_by:
+- checklist:7
+- link-from:sovon-vogelonderzoek-nederland
+added_by: agent
+checked: '2026-10-31'

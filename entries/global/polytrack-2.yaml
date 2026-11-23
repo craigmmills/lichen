@@ -1,0 +1,38 @@
+id: polytrack-2
+kind: model
+name: Polytrack 2.0
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: closed
+runner: unknown
+website: https://github.com/malikaratnayake/Polytrack2.0
+summary: Tracks several insect pollinator species and their pollination behaviour
+  in video using YOLOv4 and a background subtractor, and its owner archived the repository
+  on 14 January 2025.
+facts:
+- claim: Tracks several species of insect pollinators and their pollination behaviour
+    in video.
+  url: https://github.com/malikaratnayake/Polytrack2.0
+  fetched: 2026-11-21
+  quote: Polytrack 2.0 is designed to track multiple species of insect pollinators
+    in complex dynamic environments and to monitor their pollination behaviour.
+- claim: Uses a YOLOv4 deep learning detector together with a background subtractor.
+  url: https://github.com/malikaratnayake/Polytrack2.0
+  fetched: 2026-11-21
+  quote: deep learning-based detection (YOLOv4) for tracking
+  ai_type: deep-learning
+- claim: The owner archived this repository on 14 January 2025. Its README directs
+    users to a new Polytrack repository.
+  url: https://github.com/malikaratnayake/Polytrack2.0
+  fetched: 2026-11-21
+  quote: This repository was archived by the owner on Jan 14, 2025. It is now read-only.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

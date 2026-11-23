@@ -1,0 +1,73 @@
+id: maya-biosphere-reserve-ai-bioacoustic-threat-detection
+kind: project
+name: AI bioacoustic detection of environmental crime in the Maya Biosphere Reserve
+also_known_as: []
+scope: gt
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- gt
+- br
+status: proposed
+runner: unknown
+summary: Proposed project, as reported by Mongabay, to install bioacoustic devices
+  in the Maya Biosphere Reserve using AI models trained to detect chainsaws and gunshots,
+  with testing planned for 2026.
+facts:
+- claim: Mongabay reports the project will install bioacoustic devices in the Maya
+    Biosphere Reserve using AI models trained to identify chainsaws, gunshots and
+    other sounds of environmental crime.
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: A new project in Guatemala’s Maya Biosphere Reserve will install bioacoustics
+    devices that can “listen” for illegal activity, using AI models trained to identify
+    chainsaws, gunshots and other sounds associated with environmental crime.
+- claim: Mongabay reports the team will train the model on recordings of engines,
+    chainsaws and firearms before the devices are installed.
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: The process involves feeding it recordings of engines, chainsaws, firearms
+    and other sounds so that it can “learn” how to differentiate their subtle acoustic
+    signatures.
+  ai_type: ml-supervised
+- claim: Mongabay reports the devices were to be tested in 2026 and installed early
+    the following year.
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: Researchers at Cornell are providing much more sophisticated devices, which
+    are scheduled to be tested this year and installed early next year.
+- claim: Mongabay reports that WCS, Cornell's Lab of Ornithology, Chemnitz University
+    of Technology and the Federal University of Mato Grosso do Sul submitted the proposal
+    together.
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: WCS, the Lab of Ornithology at Cornell University in the U.S., Chemnitz University
+    of Technology in Germany, and Brazil’s Federal University of Mato Grosso do Sul
+    submitted the proposal together.
+- claim: Mongabay reports a second component in the Pantanal with WCS Brazil.
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: The project will also have a second component in the Pantanal wetland with
+    WCS Brazil.
+links:
+- type: funded-by
+  to: ai-for-climate-and-nature-grand-challenge
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: The group was one of 15 winners of the challenge, each given as much as $2
+    million.
+- type: partners-with
+  to: chemnitz-university-of-technology
+  url: https://news.mongabay.com/2026/04/in-guatemala-new-ai-technology-will-be-listening-for-illegal-deforestation/amp/
+  fetched: 2026-11-12
+  quote: Chemnitz University of Technology in Germany, and Brazil’s Federal University
+    of Mato Grosso do Sul submitted the proposal together.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

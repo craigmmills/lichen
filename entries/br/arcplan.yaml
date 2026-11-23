@@ -1,0 +1,46 @@
+id: arcplan
+kind: organisation
+name: ArcPlan
+scope: br
+sector: company
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: br
+countries:
+- br
+scale: national
+status: active
+website: https://www.arcplan.com.br
+summary: Private cartography and geoprocessing company in São Paulo. It co-coordinates the
+  Atlantic Forest and Pantanal in MapBiomas and supplies its technical coordinator.
+facts:
+- claim: A private company based in São Paulo, working in Brazil since January 1998.
+  url: https://www.arcplan.com.br
+  fetched: '2026-10-30'
+  quote: A ArcPlan é uma empresa privada, com sede em São Paulo, que atua no mercado brasileiro
+    desde janeiro de 1998.
+- claim: Co-coordinates the Atlantic Forest in MapBiomas.
+  url: https://sites.mapbiomas.org/conheca-o-mapbiomas/quem-somos/
+  fetched: '2026-10-30'
+  quote: Atlantic Forest – SOS Mata Atlantica Foundation and ArcPlan
+- claim: Named as co-producer of SAD Mata Atlântica.
+  url: https://sosma.org.br/iniciativas/alertas/
+  fetched: '2026-10-30'
+  quote: é uma realização da Fundação SOS Mata Atlântica e Arcplan
+links:
+- type: partners-with
+  to: mapbiomas
+  url: https://sites.mapbiomas.org/conheca-o-mapbiomas/quem-somos/
+  fetched: '2026-10-30'
+  quote: Atlantic Forest – SOS Mata Atlantica Foundation and ArcPlan
+found_by:
+- link-from:mapbiomas
+- checklist:5
+added_by: agent
+checked: '2026-10-30'

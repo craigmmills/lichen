@@ -1,0 +1,41 @@
+id: the-rock-pool-project
+kind: project
+name: The Rock Pool Project
+scope: gb
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+status: active
+runner: unknown
+website: https://www.therockpoolproject.co.uk/
+summary: UK rock pool citizen science project with a BioBlitz Battle app and a public
+  guide to downloading its iNaturalist data.
+facts:
+- claim: Collects species data at UK locations every month.
+  url: https://www.therockpoolproject.co.uk/download-data
+  fetched: '2026-10-30'
+  quote: We collect data on species at locations across the UK.
+- claim: Offers an up-to-date dataset for download.
+  url: https://www.therockpoolproject.co.uk/download-data
+  fetched: '2026-10-30'
+  quote: 'You can download an up-to-date dataset by following the steps below:'
+- claim: Runs a BioBlitz Battle app.
+  url: https://www.therockpoolproject.co.uk/
+  fetched: '2026-10-30'
+  quote: Access the BioBlitz Battle App!
+- claim: Publishes the dataset "The Rock Pool Project database - intertidal species
+    records from rocky shore habitats - from February 2019" on GBIF.
+  url: https://api.gbif.org/v1/organization/d8247ad5-f3d5-4e03-b190-a452cc1c002f/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: The Rock Pool Project database - intertidal species records from rocky shore
+    habitats - from February 2019
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/d8247ad5-f3d5-4e03-b190-a452cc1c002f/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

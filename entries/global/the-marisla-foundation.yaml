@@ -1,0 +1,41 @@
+id: the-marisla-foundation
+kind: organisation
+name: The Marisla Foundation
+also_known_as:
+- Marisla Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+website: https://marisla.org
+summary: California foundation whose environment programme concentrates on marine and coastal
+  biodiversity. It is a listed funder of Global Fishing Watch.
+facts:
+- claim: Its environment programme concentrates on conserving biological diversity, with primary
+    emphasis on marine and coastal biodiversity.
+  url: https://marisla.org/
+  quote: Primary emphasis is on marine and coastal biodiversity conservation
+  fetched: &id001 2026-10-30
+- claim: Listed among the philanthropic partners and institutional donors on Global Fishing
+    Watch's financials page.
+  url: https://globalfishingwatch.org/?p=13515
+  quote: Marisla Foundation
+  fetched: *id001
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: The Marisla Foundation $1,575,000 5 2020–2024
+  fetched: *id001
+  amount: 1575000
+  currency: USD
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

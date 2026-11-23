@@ -1,0 +1,37 @@
+id: university-of-vienna
+kind: organisation
+name: University of Vienna
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Austrian university whose authors published a 2022 paper on machine learning predictions
+  of global plant diversity and a 2023 paper on reed dynamics at Lake Neusiedl using drones
+  and deep learning.
+facts:
+- claim: A 2022 paper with authors at the University of Vienna, including Franz Essl, presents
+    global models and predictions of plant diversity based on machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I129774422,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Global models and predictions of plant diversity based on advanced machine learning
+    techniques
+- claim: A 2023 paper with authors at the University of Vienna analyses reed ecosystem dynamics
+    at Lake Neusiedl with drone imagery and deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I129774422,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Spatial Analysis of Intra-Annual Reed Ecosystem Dynamics at Lake Neusiedl Using RGB
+    Drone Imagery and Deep Learning
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-07

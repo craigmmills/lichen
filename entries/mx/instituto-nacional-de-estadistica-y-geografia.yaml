@@ -1,0 +1,66 @@
+id: instituto-nacional-de-estadistica-y-geografia
+kind: organisation
+name: Instituto Nacional de Estadística y Geografía
+also_known_as:
+- INEGI
+- Inegi
+scope: mx
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: mx
+countries:
+- mx
+scale: national
+status: active
+website: https://www.inegi.org.mx
+summary: The Mexican body in charge of national mapping and environmental monitoring, which
+  sets statistical and geographic rules and produces the official vegetation cartography that
+  CONAFOR says it has used to monitor forest loss.
+facts:
+- claim: Is the body in charge of national mapping and has the task of monitoring environmental
+    phenomena.
+  url: https://www.inegi.org.mx/contenidos/investigacion/geomediana/doc/cubo_de_datos.pdf
+  fetched: 2026-11-03
+  quote: institución encargada de la cartografía nacional
+- claim: Sets rules for statistical and geographic activity.
+  url: https://www.inegi.org.mx/inegi/contenido/instituto.html
+  fetched: '2026-11-03'
+  quote: Normar las actividades estadísticas y geográficas.
+- claim: Produces statistical and geographic information.
+  url: https://www.inegi.org.mx/inegi/contenido/instituto.html
+  fetched: '2026-11-03'
+  quote: Producir información estadística y geográfica.
+- claim: The C Minds toolkit describes its land use and vegetation series as the official
+    vegetation cartography of Mexico.
+  url: https://www.cminds.co/es/toolkits/tech4nature-mexico-conservacion-ia-v01/caja-de-herramientas
+  fetched: '2026-11-03'
+  quote: 'INEGI: Uso de suelo y vegetación
+
+    INEGI
+
+    Para qué sirve. Cartografía oficial de vegetación en México .'
+- claim: Its organisation manual assigns a unit to run the programme for capturing remote
+    sensing data.
+  url: https://sc.inegi.org.mx/repositorioNormateca/MOE_DGGMA.pdf
+  fetched: '2026-11-03'
+  quote: Instrumentar, controlar y dar seguimiento al programa de captación de datos de percepción
+    remota
+- claim: CONAFOR says it has used INEGI cartographic inputs to monitor forest loss; that page
+    reverses “Estadística” and “Geografía” in the institute’s name.
+  url: https://www.gob.mx/conafor/articulos/enfoques-para-el-monitoreo-de-la-cobertura-forestal-en-mexico?idiom=es
+  fetched: '2026-11-03'
+  quote: ha utilizado los insumos cartográficos proporcionados por el Instituto Nacional de
+    Geografía y Estadística (Inegi)
+links: []
+found_by:
+- checklist:1
+- link-from:tech4nature-mexico
+added_by: agent
+checked: 2026-11-03

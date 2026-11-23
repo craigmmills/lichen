@@ -1,0 +1,31 @@
+id: noaa-gulf-optical-survey-automation
+kind: project
+name: Automated species identification from optical survey data in the Gulf of Mexico
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: unknown
+summary: NOAA work building an image library of landed catch and automated image processing
+  to identify and count species in the Gulf.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: 'USDOC NOAA - Developing automation to determine species and count using
+    optical survey data in the Gulf of Mexico Focuses on optical survey collected
+    in the Gulf of Mexico: 1) develops an image library of landed catch, 2)'
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: 'USDOC NOAA - Developing automation to determine species and count using
+    optical survey data in the Gulf of Mexico Focuses on optical survey collected
+    in the Gulf of Mexico: 1) develops an image library of landed catch, 2)'
+found_by:
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,38 @@
+id: battelle
+kind: organisation
+name: Battelle
+scope: us
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: Operator of the National Ecological Observatory Network for the US National Science
+  Foundation.
+facts:
+- claim: Operates NEON.
+  url: https://www.neonscience.org/about/about
+  fetched: '2026-10-30'
+  quote: is a continental-scale observation facility operated by Battelle
+- claim: The IRS exempt organisation record, through ProPublica, lists Battelle Memorial Institute
+    at Columbus, Ohio.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/314379427.json
+  fetched: '2026-10-31'
+  quote: '"city":"Columbus","state":"OH"'
+links:
+- type: runs
+  to: national-ecological-observatory-network
+  url: https://www.neonscience.org/about/about
+  fetched: '2026-10-30'
+  quote: is a continental-scale observation facility operated by Battelle
+found_by:
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'

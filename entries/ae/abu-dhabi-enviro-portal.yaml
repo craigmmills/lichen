@@ -1,0 +1,33 @@
+id: abu-dhabi-enviro-portal
+kind: dataset
+name: Enviro-portal
+also_known_as: []
+scope: ae
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+countries:
+- ae
+scale: local
+status: active
+summary: A public portal run by EAD, which says it provides the latest environmental data and the distribution
+  of flora, fauna, marine habitats and protected areas in the emirate.
+facts:
+- claim: EAD says the portal gives the public the latest environmental data and the distribution of flora,
+    fauna, marine habitats and protected areas in the emirate.
+  url: https://www.ead.gov.ae/en/About-Us/What-We-Do/Monitor-and-Manage
+  fetched: 2026-11-08
+  quote: Our Enviro-portal gives the public access to the latest environmental data and information on
+    the geographic distribution of flora, fauna, marine habitats and protected areas in the Emirate of
+    Abu Dhabi.
+links:
+- type: run-by
+  to: environment-agency-abu-dhabi
+  url: https://www.ead.gov.ae/en/About-Us/What-We-Do/Monitor-and-Manage
+  fetched: 2026-11-08
+  quote: Our Enviro-portal gives the public access to the latest environmental data
+found_by:
+- link-from:environment-agency-abu-dhabi
+added_by: agent
+checked: 2026-11-08

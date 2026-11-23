@@ -1,0 +1,36 @@
+id: barcode-of-life-data-systems
+kind: dataset
+name: Barcode of Life Data Systems
+also_known_as:
+- BOLD
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+status: active
+website: https://boldsystems.org
+summary: Data platform for the acquisition, validation, analysis and publication of DNA barcodes, used for DNA-based species identification.
+facts:
+- claim: Created in 2005 to support DNA-based species identification.
+  url: https://boldsystems.org/about/mission/
+  fetched: '2026-10-30'
+  quote: It was created in 2005 by Sujeevan Ratnasingham and Paul Hebert
+- claim: Described by its host centre as the largest repository of DNA barcode data.
+  url: https://www.biodiversitygenomics.net/
+  fetched: '2026-10-30'
+  quote: BOLD, the world’s largest repository of DNA barcode data
+links:
+- type: partners-with
+  to: centre-for-biodiversity-genomics
+  url: https://www.biodiversitygenomics.net/
+  fetched: '2026-10-30'
+  quote: "Specimen records stored on BOLD"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

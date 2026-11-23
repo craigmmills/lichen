@@ -1,0 +1,34 @@
+id: nonatobase
+kind: dataset
+name: NONATObase
+scope: br
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+countries:
+- br
+summary: Database of polychaete worms of the Southwestern Atlantic, from 5°N to 80°S,
+  built by the NONATO network of South American researchers and published on GBIF
+  by the Universidade Federal de Santa Catarina.
+facts:
+- claim: Integrates available information on polychaetes from 5°N to 80°S in the Atlantic
+    Ocean.
+  url: https://api.gbif.org/v1/dataset/8c763ac2-74ab-44d1-979b-3dcb422ae581
+  fetched: '2026-10-30'
+  quote: who integrated available information on polychaetes from between 5°N and
+    80°S in the Atlantic Ocean
+- claim: Published under CC BY-NC 4.0.
+  url: https://api.gbif.org/v1/dataset/8c763ac2-74ab-44d1-979b-3dcb422ae581
+  fetched: '2026-10-30'
+  quote: creativecommons.org/licenses/by-nc/4.0
+links:
+- type: run-by
+  to: nonato-network
+  url: https://api.gbif.org/v1/dataset/8c763ac2-74ab-44d1-979b-3dcb422ae581
+  fetched: '2026-10-30'
+  quote: the NONATO network, a team of South American researchers
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,38 @@
+id: ain-shams-university
+kind: organisation
+name: Ain Shams University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.asu.edu.eg/
+summary: University listed by OpenAlex as the affiliation of Nourhan K. ElBahnasy, first author
+  of a 2025 paper on litterfall forecasting with tree-based ensemble models.
+facts:
+- claim: OpenAlex lists the 2025 paper Ablation-Guided Litterfall Forecasting With Treebased
+    Ensemble Models, with Nourhan K. ElBahnasy as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00cb9w016,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Ablation-Guided Litterfall Forecasting With Treebased Ensemble
+    Models", "publication_year": 2025, "authorships": [{"author_position": "first", "author":
+    {"id": "https://openalex.org/A5121663959", "display_name": "Nourhan K. ElBahnasy"'
+- claim: OpenAlex gives the first author's affiliation as Ain Shams University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00cb9w016,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Nourhan K. ElBahnasy", "raw_affiliation_strings": ["Ain Shams
+    University,Faculty of Computer and Information Sciences,Cairo,Egypt"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

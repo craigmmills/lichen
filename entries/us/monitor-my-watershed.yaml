@@ -1,0 +1,28 @@
+id: monitor-my-watershed
+kind: dataset
+name: Monitor My Watershed
+scope: us
+ai_label: data-infrastructure
+status: active
+realms:
+- freshwater
+countries:
+- us
+summary: Data portal for sharing do-it-yourself environmental monitoring data, hosting EnviroDIY
+  sensor data and Leaf Pack Network macroinvertebrate data.
+facts:
+- claim: Hosts EnviroDIY sensor data and Leaf Pack Network data.
+  url: https://www.cuahsi.org/community/water-data-portals/monitor-my-watershed
+  quote: Monitor My Watershed is a data portal that allows you to share and explore do-it-yourself
+    environmental monitoring data.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: stroud-water-research-center
+  url: https://www.cuahsi.org/community/water-data-portals/monitor-my-watershed
+  quote: Monitor My Watershed is part of Stroud Water Research Center
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

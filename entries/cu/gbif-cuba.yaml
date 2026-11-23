@@ -1,0 +1,41 @@
+id: gbif-cuba
+kind: programme
+name: GBIF Cuba
+also_known_as: []
+scope: cu
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+countries:
+- cu
+status: unknown
+runner: unknown
+summary: The GBIF country node for Cuba, listed in GBIF's registry with observer status, using the environment
+  ministry's address, with a record created and last modified on 3 May 2010.
+facts:
+- claim: GBIF's registry lists GBIF Cuba as a country node with observer status.
+  url: https://api.gbif.org/v1/node/country/CU
+  fetched: 2026-11-09
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Cuba"'
+- claim: The registry gives the ministry's address for the node.
+  url: https://api.gbif.org/v1/node/country/CU
+  fetched: 2026-11-09
+  quote: Ministerio di Ciencia, Tecnologia y Medio Ambiente
+- claim: The registry record was created and last modified on 3 May 2010.
+  url: https://api.gbif.org/v1/node/country/CU
+  fetched: 2026-11-09
+  quote: '"modified":"2010-05-03T22:02:00.000+00:00"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/CU
+  fetched: 2026-11-09
+  quote: '"participationStatus":"OBSERVER"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-09

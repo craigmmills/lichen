@@ -1,0 +1,38 @@
+id: norppagalleria
+kind: dataset
+name: Norppagalleria
+scope: fi
+ai_label: conservation-tech
+realms:
+- freshwater
+status: active
+website: https://wwf.fi/norppagalleria/
+summary: A photo dataset, built by WWF Finland and run by the University of Eastern Finland, mostly from
+  researchers' trail cameras, in which fur patterns identify individual Saimaa ringed seals.
+facts:
+- claim: Most of its photos come from researchers' trail cameras.
+  url: https://wwf.fi/norppagalleria/
+  quote: Pääosa Norppagallerian kuvista on saatu tutkijoiden saimaannorpan lepokiville asentamista riistakameroista.
+  fetched: '2026-11-02'
+- claim: The fur patterns of Saimaa ringed seals allow individuals to be identified.
+  url: https://wwf.fi/norppagalleria/
+  quote: Saimaannorpan turkin kuviot ovat yksilöllisiä ja niitä voidaan käyttää sormenjälkien tapaan yksilöiden
+    tunnistamiseen.
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: wwf-finland
+  url: https://wwf.fi/norppagalleria/
+  fetched: '2026-11-02'
+  quote: Norppagallerian norppakuvista ja -tiedoista vastaa Itä-Suomen yliopisto ja sivuston toteutuksesta
+    WWF.
+- type: run-by
+  to: university-of-eastern-finland
+  url: https://wwf.fi/norppagalleria/
+  fetched: '2026-11-02'
+  quote: Norppagallerian norppakuvista ja -tiedoista vastaa Itä-Suomen yliopisto ja sivuston toteutuksesta
+    WWF.
+found_by:
+- link-from:wwf-finland
+added_by: agent
+checked: '2026-11-02'

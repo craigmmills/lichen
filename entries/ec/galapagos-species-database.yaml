@@ -1,0 +1,54 @@
+id: galapagos-species-database
+kind: dataset
+name: Galapagos Species Database
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+countries:
+- ec
+status: active
+website: https://datazone.darwinfoundation.org/en/checklist
+summary: Open database run by the Charles Darwin Foundation sharing its Natural History Collections, which
+  comprise more than 135,000 specimens from more than 7,500 species.
+facts:
+- claim: The collections comprise more than 135,000 specimens from more than 7,500 species.
+  url: https://datazone.darwinfoundation.org/en/checklist
+  fetched: 2026-11-02
+  quote: currently comprise more than 135,000 specimens from more than 7,500 species
+- claim: Openly shares information from the Natural History Collections Database on more than 7,500 species.
+  url: https://www.darwinfoundation.org/en/research-hub/datazone/
+  fetched: '2026-11-02'
+  quote: any of the +7,500 species that inhabit the Galapagos Islands
+- claim: Openly shares the Natural History Collections database of the Charles Darwin Research Station.
+  url: https://datazone.darwinfoundation.org/en/checklist
+  quote: In the Galapagos Species Database we openly share the information from the Charles Darwin Research
+    Station Natural History Collections database
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: fundacion-charles-darwin
+  url: https://datazone.darwinfoundation.org/en/checklist
+  fetched: 2026-11-02
+  quote: shares the information about the species from our Natural History Collections
+- type: run-by
+  to: fundacion-charles-darwin
+  url: https://www.darwinfoundation.org/en/research-hub/datazone/
+  fetched: '2026-11-02'
+  quote: In our Galapagos Species Database, we openly share the information from our Natural History Collections
+    Database.
+- type: run-by
+  to: fundacion-charles-darwin
+  url: https://datazone.darwinfoundation.org/en/checklist
+  quote: The Galapagos Species Database shares the information about the species from our Natural History
+    Collections.
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+- link-from:charles-darwin-foundation
+- checklist:register-d
+added_by: agent
+checked: 2026-11-02
+techniques:
+- other

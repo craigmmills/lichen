@@ -1,0 +1,36 @@
+id: cosia
+kind: dataset
+name: Carte de couverture du sol par intelligence artificielle
+also_known_as:
+- CoSIA
+scope: fr
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- fr
+status: active
+summary: IGN's land cover map made with artificial intelligence, from deep learning
+  models that analyse aerial images.
+facts:
+- claim: Named by IGN as its land cover map produced by artificial intelligence.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: Carte de couverture du sol par intelligence artificielle (CoSIA)
+- claim: The models produce high-resolution prediction maps at 20 cm per pixel.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: Ces cartes de « prédiction » de haute résolution (20 cm par pixel)
+links:
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: "Ces cartes de « prédiction » de haute résolution (20 cm par pixel) sont diffusées sous le nom de CoSIA (Couverture du Sol par Intelligence Artificielle)"
+found_by:
+- link-from:institut-national-de-linformation-geographique-et-forestiere
+added_by: agent
+checked: '2026-10-31'

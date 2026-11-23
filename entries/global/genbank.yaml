@@ -1,0 +1,30 @@
+id: genbank
+kind: dataset
+name: GenBank
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+status: active
+website: https://www.ncbi.nlm.nih.gov/genbank/
+summary: The NIH genetic sequence database, an annotated collection of all publicly available DNA sequences and part of the International Nucleotide Sequence Database Collaboration.
+facts:
+- claim: The NIH genetic sequence database of publicly available DNA sequences.
+  url: https://www.ncbi.nlm.nih.gov/genbank/
+  fetched: '2026-10-30'
+  quote: is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences
+links:
+- type: partners-with
+  to: international-nucleotide-sequence-database-collaboration
+  url: https://www.ncbi.nlm.nih.gov/genbank/
+  fetched: '2026-10-30'
+  quote: "GenBank is part of the International Nucleotide Sequence Database Collaboration , which comprises the DNA DataBank of Japan (DDBJ), the European Nucleotide Archive (ENA), and GenBank at NCBI."
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

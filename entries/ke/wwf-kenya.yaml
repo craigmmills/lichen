@@ -1,0 +1,57 @@
+id: wwf-kenya
+kind: organisation
+name: WWF-Kenya
+scope: ke
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+hq: ke
+website: https://www.wwfkenya.org/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan office of WWF, which supported AI-enabled thermal cameras at rhino sites and
+  tested the m-Twiga wildlife alert system.
+facts:
+- claim: Its rhino coordinator described AI-enabled FLIR cameras at the handover at Solio
+    Game Reserve.
+  url: https://citizen.digital/article/kws-rhino-sites-using-ai-enabled-cameras-to-stop-black-rhino-poaching-n349961
+  quote: Geoffrey Chege, Rhino Programme Coordinator, WWF-Kenya, at the handing over ceremony
+    at Solio Game Reserve
+  fetched: '2026-10-30'
+- claim: Citizen Digital quotes its Rhino Programme Coordinator on AI-enabled FLIR cameras
+    that send automated alerts.
+  url: https://citizen.digital/news/kws-rhino-sites-using-ai-enabled-cameras-to-stop-black-rhino-poaching-n349961
+  fetched: '2026-10-30'
+  quote: The artificial intelligence-enabled FLIR cameras have inbuilt analytics that send
+    out automated alerts every time they detect an intrusion
+- claim: Says trained community monitors test more than sixty rivers across Kenya each month.
+  url: https://www.wwfkenya.org/
+  fetched: '2026-10-30'
+  quote: Every month, trained community monitors test more than sixty rivers across Kenya.
+- claim: Capital FM reported its move from a WWF project office to a national office.
+  url: https://capitalfm.africa/first-lady-applauds-wwf-kenya-transition-to-local-ngo/
+  fetched: '2026-10-31'
+  quote: WWF Kenya becomes only the Second WWF office in Africa to transition into a national
+    office
+links:
+- type: partners-with
+  to: kenya-wildlife-service
+  url: https://citizen.digital/news/kws-rhino-sites-using-ai-enabled-cameras-to-stop-black-rhino-poaching-n349961
+  fetched: '2026-10-30'
+  quote: With support from the US Department of State Bureau of International Narcotics and
+    Law Enforcement Affairs and the World Wide Fund for Nature (WWF), the Kenya Wildlife Service
+    (KWS) has installed FLIR thermal cameras
+found_by:
+- checklist:4
+- link-from:teledyne-flir
+added_by: agent
+checked: '2026-10-30'

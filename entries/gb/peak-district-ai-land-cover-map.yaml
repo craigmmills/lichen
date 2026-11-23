@@ -1,0 +1,77 @@
+id: peak-district-ai-land-cover-map
+kind: project
+name: Peak District AI land cover map
+also_known_as:
+- Peak District AI land cover mapping
+ai_label: ai
+website: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+summary: Project by the Peak District National Park Authority with Cranfield University
+  and the Alan Turing Institute that used deep learning on Bluesky aerial photographs
+  to make a detailed land cover map.
+facts:
+- claim: Uses a deep-learning network.
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: has developed a new variant of deep-learning network that automatically classifies
+    the landscape into different land cover classes
+  fetched: '2026-10-30'
+- claim: The article names a deep-learning network.
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: a new variant of deep-learning network
+  ai_type: deep-learning
+  fetched: '2026-10-30'
+- claim: Land cover classified with convolutional neural networks.
+  url: https://www.agi.org.uk/peak-district-pioneers-ai-landscape-mapping-using-bluesky-aerial-images/
+  quote: Land cover was classified from the Bluesky photography using Convolutional Neural
+    Networks, a deep-learning AI method
+  ai_type: deep-learning
+  fetched: 2026-10-30
+links:
+- type: run-by
+  to: peak-district-national-park-authority
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: "The UK’s Peak District National Park Authority is pioneering the use of artificial intelligence (AI)"
+  fetched: '2026-10-30'
+- type: partners-with
+  to: cranfield-university
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: in partnership with Cranfield University and The Alan Turing Institute
+  fetched: '2026-10-30'
+- type: partners-with
+  to: alan-turing-institute
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: in partnership with Cranfield University and The Alan Turing Institute
+  fetched: '2026-10-30'
+- type: builds-on
+  to: bluesky-international
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: Using high-resolution aerial photography from Bluesky International
+  fetched: '2026-10-30'
+- type: run-by
+  to: peak-district-national-park-authority
+  url: https://www.agi.org.uk/peak-district-pioneers-ai-landscape-mapping-using-bluesky-aerial-images/
+  quote: the Authority has developed a new variant of deep-learning network
+  fetched: 2026-10-30
+- type: partners-with
+  to: cranfield-university
+  url: https://www.agi.org.uk/peak-district-pioneers-ai-landscape-mapping-using-bluesky-aerial-images/
+  quote: in partnership with Cranfield University and The Alan Turing Institute
+  fetched: 2026-10-30
+- type: builds-on
+  to: bluesky-international
+  url: https://www.agi.org.uk/peak-district-pioneers-ai-landscape-mapping-using-bluesky-aerial-images/
+  quote: "Using high-resolution aerial photography from Bluesky International, the Authority has developed a new variant of deep-learning network"
+  fetched: 2026-10-30
+found_by:
+- link-from:alan-turing-institute
+- checklist:7
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

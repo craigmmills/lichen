@@ -1,0 +1,72 @@
+id: mount-kenya-wildlife-conservancy
+kind: organisation
+name: Mount Kenya Wildlife Conservancy
+also_known_as:
+- MKWC
+scope: ke
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: ke
+website: https://www.mountkenyawildlifeconservancy.org/
+countries:
+- ke
+scale: local
+status: active
+summary: Conservancy at Mount Kenya that People Daily reports uses AI-powered cameras to identify
+  individual mountain bongos, and a partner in Project Centinela.
+facts:
+- claim: People Daily reports it uses AI-powered cameras to identify individual bongos.
+  url: https://peopledaily.digital/news/how-ai-is-keeping-the-endangered-kenyas-mountain-bongo-safe
+  quote: Using AI-powered cameras and real-time monitoring systems, MKWC is now able to identify
+    individual bongos
+  fetched: '2026-10-30'
+- claim: Says it became a registered Kenyan conservation trust in 2004.
+  url: https://mountkenyawildlifeconservancy.org/
+  fetched: '2026-10-30'
+  quote: In 2004, that work became Mount Kenya Wildlife Conservancy, a registered Kenyan conservation
+    trust
+- claim: A non-profit trust.
+  url: https://www.mountkenyawildlifeconservancy.org/about
+  fetched: '2026-10-31'
+  quote: MKWC is a non-profit trust dedicated to preserving the environment and the wildlife
+    within.
+links:
+- type: uses
+  to: conservation-ai
+  url: https://peopledaily.digital/news/how-ai-is-keeping-the-endangered-kenyas-mountain-bongo-safe
+  quote: supported by a Memorandum of Understanding with Chester Zoo and ConservationAI
+  fetched: '2026-10-30'
+- type: partners-with
+  to: project-centinela
+  url: https://ksa.go.ke/project_centinela.html
+  quote: a collaboration with Mount Kenya Wildlife Conservancy (MKWC) and Planet Labs
+  fetched: '2026-10-30'
+- type: partners-with
+  to: kenya-space-agency
+  url: https://ksa.go.ke/project_centinela.html
+  quote: implemented under a Memorandum of Understanding (MoU) between KSA and MKWC
+  fetched: '2026-10-30'
+- type: partners-with
+  to: conservation-ai
+  url: https://peopledaily.digital/news/how-ai-is-keeping-the-endangered-kenyas-mountain-bongo-safe
+  fetched: '2026-10-30'
+  quote: This technological leap is supported by a Memorandum of Understanding with Chester
+    Zoo and ConservationAI.
+- type: partners-with
+  to: project-centinela-mount-kenya
+  url: https://ksa.go.ke/project_centinela.html
+  fetched: '2026-10-30'
+  quote: a collaboration with Mount Kenya Wildlife Conservancy (MKWC) and Planet Labs
+found_by:
+- checklist:4
+- link-from:conservation-ai
+- link-from:liverpool-john-moores-university
+added_by: agent
+checked: '2026-10-30'

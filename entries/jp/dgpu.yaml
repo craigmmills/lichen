@@ -1,0 +1,38 @@
+id: dgpu
+kind: model
+name: DGPU
+scope: jp
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: Four-step method (Detect, Group, Promote, Union) built by Biologging Solutions on an audio foundation
+  model tuned to ocean sound, tested so far only on existing recordings.
+found_by:
+- link-from:biologging-solutions
+facts:
+- claim: Detect, Group, Promote and Union are its four steps.
+  url: https://www.biologging-solutions.com/en/biologging/research/unknown-underwater-sounds-dgpu
+  fetched: '2026-11-02'
+  quote: DGPU has four steps.
+- claim: Built on an audio foundation model tuned to ocean sound.
+  url: https://www.biologging-solutions.com/en/biologging/research/unknown-underwater-sounds-dgpu
+  fetched: '2026-11-02'
+  quote: It is built on an audio foundation model tuned to ocean sound.
+  ai_type: foundation-models
+- claim: Tested on existing recordings so far.
+  url: https://www.biologging-solutions.com/en/biologging/research/unknown-underwater-sounds-dgpu
+  fetched: '2026-11-02'
+  quote: This time we put together and tested the main steps of DGPU on existing recordings.
+links:
+- type: built-by
+  to: biologging-solutions
+  url: https://www.biologging-solutions.com/en/biologging/research/unknown-underwater-sounds-dgpu
+  fetched: '2026-11-02'
+  quote: This time we put together and tested the main steps of DGPU on existing recordings.
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,52 @@
+id: university-of-canberra
+kind: organisation
+name: University of Canberra
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- generative-ai
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+- other
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: Australian university whose authors lead papers from 2021 to 2023 on eDNA detection
+  of a cryptic insect and rare native fish, and on generative AI applied to bird bill shapes.
+facts:
+- claim: An author from its Centre for Conservation Ecology and Genomics, Institute for Applied
+    Ecology, leads a 2022 paper on detecting a cryptic insect with new eDNA collection techniques.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I188329596,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Detection of a cryptic terrestrial insect using novel eDNA collection techniques
+  fetched: '2026-11-08'
+- claim: That author is listed with the Centre for Conservation Ecology and Genomics, Institute
+    for Applied Ecology, University of Canberra.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I188329596,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Centre for Conservation Ecology and Genomics, Institute for Applied Ecology, University
+    of Canberra, Bruce, Australian Capital Territory, Australia
+  fetched: '2026-11-08'
+- claim: A University of Canberra author leads a 2021 paper on detecting rare native fish
+    in eDNA metabarcoding surveys.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I188329596,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Improving the detection of rare native fish species in environmental DNA metabarcoding
+    surveys
+  fetched: '2026-11-08'
+- claim: An Institute for Applied Ecology author leads a 2023 paper using generative AI to
+    extract ecological meaning from bird bill shapes.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I188329596,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Generative A.I. helps extract ecological meaning from the complex three dimensional
+    shapes of bird bills
+  ai_type: generative-ai
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

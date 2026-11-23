@@ -1,0 +1,65 @@
+id: university-of-fribourg
+kind: organisation
+name: University of Fribourg
+scope: ch
+sector: academic
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: ch
+scale: national
+status: active
+summary: A university where a team led by Daniele Silvestro trained the CAPTAIN software (reported
+  April 2022), and whose AI-based tools were reported in December 2022 to have supported a
+  review of Madagascar's biodiversity.
+facts:
+- claim: OpenAlex lists authors at the Department of Biology here on papers from its search
+    for biodiversity and deep learning.
+  url: https://api.openalex.org/works?per-page=8&select=display_name,publication_year,authorships,doi&sort=cited_by_count:desc&filter=from_publication_date:2022-01-01,institutions.id:I154338468,title_and_abstract.search:biodiversity%20deep%20learning
+  quote: Department of Biology, University of Fribourg, Switzerland
+  fetched: '2026-11-02'
+- claim: In April 2022, its faculty news reported that a team led by Daniele Silvestro of
+    the University of Fribourg and University of Gothenburg had trained the CAPTAIN software.
+  url: https://www.unifr.ch/scimed/en/info/news/26965/faculty/
+  quote: led by SIB Group Leader Daniele Silvestro of the University of Fribourg and University
+    of Gothenburg, has trained a new software package, CAPTAIN
+  fetched: '2026-11-02'
+- claim: In December 2022, SIB reported that AI-based tools developed by Daniele Silvestro
+    and his team at the University of Fribourg supported a review of Madagascar’s biodiversity.
+  url: https://www.sib.swiss/news/supporting-an-urgent-call-to-protect-madagascars-biodiversity-with-ai
+  fetched: '2026-11-02'
+  quote: AI-based tools developed by SIB’s Daniele Silvestro and his team at the University
+    of Fribourg
+- claim: OpenAlex lists an affiliated 2021 paper on deep learning approaches to approximate
+    species' extinction risk.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I154338468,concepts.id:C130217890,concepts.id:C119857082,from_publication_date:2021-01-01&per_page=6&select=id,title,publication_year,doi,authorships&sort=cited_by_count:desc
+  fetched: '2026-11-02'
+  quote: Deep learning approaches to approximate species' extinction risk
+- claim: OpenAlex lists an affiliated 2022 paper on estimating diversity through deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I154338468,concepts.id:C130217890,concepts.id:C119857082,from_publication_date:2021-01-01&per_page=6&select=id,title,publication_year,doi,authorships&sort=cited_by_count:desc
+  fetched: '2026-11-02'
+  quote: Estimating Alpha, Beta, and Gamma Diversity Through Deep Learning
+- claim: Its March 2022 news report describes CAPTAIN software trained by a team led by Daniele
+    Silvestro.
+  url: https://www.unifr.ch/news/en/26875/biodiversity-using-artificial-intelligence-to-better-identify-areas-to-protect
+  fetched: '2026-11-02'
+  quote: has trained a new software package, CAPTAIN
+- claim: Its December 2022 news report says AI-based tools developed by Silvestro's team supported
+    a review of Madagascar's biodiversity.
+  url: https://www.unifr.ch/news/en/28308/supporting-an-urgent-call-to-protect-madagascar-s-biodiversity-with-ai/
+  fetched: '2026-11-02'
+  quote: were supported by AI-based tools developed by SIB’s Daniele Silvestro and his team
+    at the University of Fribourg
+found_by:
+- checklist:3
+- link-from:swiss-institute-of-bioinformatics
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- other
+also_known_as:
+- Université de Fribourg

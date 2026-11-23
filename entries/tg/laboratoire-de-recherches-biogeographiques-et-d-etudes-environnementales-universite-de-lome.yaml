@@ -1,0 +1,41 @@
+id: laboratoire-de-recherches-biogeographiques-et-d-etudes-environnementales-universite-de-lome
+kind: organisation
+name: Laboratoire de Recherches Biogéographiques et d'Etudes Environnementales
+also_known_as:
+- LaRBE
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: A geography department laboratory cited as affiliation by all three authors
+  of a 2026 paper using Maxent and WorldClim variables on climate change and Afzelia
+  africana.
+facts:
+- claim: All three authors of a 2026 paper on climate change and the distribution
+    of Afzelia africana in Tchaoudjo give the laboratory, in the geography department,
+    as affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W7125528559|W4394852430|W4400837108&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: Etudes Environnementales (LaRBE)
+- claim: The analysis used the Maxent software.
+  url: https://api.openalex.org/works?filter=openalex:W7125528559|W4394852430|W4400837108&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: '"logiciel": [87], "Maxent": [88]'
+- claim: The bioclimatic variables were downloaded from WorldClim.
+  url: https://api.openalex.org/works?filter=openalex:W7125528559|W4394852430|W4400837108&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: '"Worldclim.": [80]'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,56 @@
+id: nafcoast
+kind: project
+name: NAFCOAST
+also_known_as:
+- ناف كوست
+scope: eg
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+countries:
+- eg
+- tn
+- ma
+- mr
+status: closed
+summary: A closed project funded by GMES and Africa and run by NARSS, studying North African coastal Earth
+  observation services, including fishing zone mapping and Sentinel-1 oil spill detection.
+facts:
+- claim: A June 2020 GMES and Africa post described NAfCOAST as part of the GMES and Africa programme.
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: NAfCOAST project is part of GMES and Africa program
+- claim: The June 2020 post described a service mapping potential fishing zones for fish species from
+    Sentinel-3, MODIS and other data.
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: use the available data sources (e.g. Sentinel 3, MODIS and, ancillary data) to map the potential
+    fishing zone (PFZ) of each kind of fish
+- claim: The June 2020 post described using Sentinel-1 radar images to detect and map oil spills, showing
+    spill maps along the Egyptian Mediterranean coast and anticipating an operational model.
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: the use of space-borne Synthetic Aperture Radar (SAR) images (from Sentinel 1 satellite) for
+    oil spill detection and mapping
+links:
+- type: partners-with
+  to: national-authority-for-remote-sensing-and-space-sciences
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: NAfCOAST gathered 4 partners (NARSS, CERT, CDU and IMROP) from 4 north African's (Egypt, Tunisia,
+    Morocco and Mauritania) and 1 regional organization (CEDARE).
+- type: partners-with
+  to: centre-for-environment-and-development-for-the-arab-region-and-europe
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: NAfCOAST gathered 4 partners (NARSS, CERT, CDU and IMROP) from 4 north African's (Egypt, Tunisia,
+    Morocco and Mauritania) and 1 regional organization (CEDARE).
+found_by:
+- checklist:7
+- link-from:gmes-and-africa
+added_by: agent
+checked: 2026-11-08
+runner: unknown

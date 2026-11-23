@@ -1,0 +1,28 @@
+id: bioscann
+kind: model
+name: BIOSCANN
+also_known_as: []
+scope: se
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: A deep-learning segmentation model for forests of high biodiversity value.
+facts:
+- claim: A deep-learning segmentation model for forests of high biodiversity value.
+  url: https://biodiversity.se/
+  fetched: '2026-11-02'
+  quote: BIOSCANN implements a deep-learning segmentation model that integrates multiple layers of environmental
+    data -- satellite images, airborne laser scanning, and soil information -- to identify forests of
+    high biodiversity value in Sweden.
+  ai_type: deep-learning
+links: []
+found_by:
+- link-from:biodiversity-data-lab
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

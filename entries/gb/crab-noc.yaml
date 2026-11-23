@@ -1,0 +1,29 @@
+id: crab-noc
+kind: dataset
+name: CRAB
+also_known_as:
+- Centralised Repository for Annotations and BLOBs
+scope: gb
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+summary: National Oceanography Centre framework for collecting biodiversity observations
+  and annotations for use in machine learning, across images, audio and 3D holography.
+facts:
+- claim: Framework for collecting biodiversity observations and annotations for machine
+    learning.
+  url: https://www.noc.ac.uk/our-work/digital-science-and-data/artificial-intelligence
+  quote: CRAB (Centralised Repository for Annotations and BLOBs) is a framework for
+    collection of biodiversity observations and annotations for use in machine learning.
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: national-oceanography-centre
+  url: https://www.noc.ac.uk/our-work/digital-science-and-data/artificial-intelligence
+  quote: "Centralised Repository for Annotations and BLOBs (CRAB) CRAB (Centralised Repository for Annotations and BLOBs) is a framework for collection of biodiversity observations"
+  fetched: *id001
+found_by:
+- checklist:2
+added_by: agent
+checked: *id001

@@ -1,0 +1,46 @@
+id: universidade-da-regiao-de-joinville
+kind: organisation
+name: Universidade da Região de Joinville
+scope: br
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: regional
+hq: br
+status: active
+also_known_as:
+- Univille
+realms:
+- ocean
+countries:
+- br
+website: https://www.univille.edu.br/
+summary: University in Joinville, Santa Catarina. It passes the register test because it publishes
+  ZooarchBR, a national database of fish remains from archaeological sites on GBIF.
+facts:
+- claim: Publishes the Brazilian Zooarch Database on GBIF.
+  url: https://api.gbif.org/v1/dataset/a564010e-a964-4b71-b87e-30ce2109ff89
+  fetched: '2026-10-30'
+  quote: TRADITION Project | Brazilian Zooarch Database (ZooarchBR) - Fish
+- claim: Its GBIF address is in Joinville.
+  url: https://api.gbif.org/v1/organization/efe6e324-c6aa-4ed0-9693-80e7ba5bab12
+  fetched: '2026-10-30'
+  quote: Rua Paulo Malschitzki, 10
+- claim: Its own site gives its legal name and CNPJ, Fundação Educacional da Região de Joinville,
+    at Joinville.
+  url: https://www.univille.edu.br/
+  quote: 'Razão Social: Fundação Educacional da Região de Joinville CNPJ 84.714.682/0001-94'
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: brazilian-zooarch-database
+  url: https://api.gbif.org/v1/dataset/a564010e-a964-4b71-b87e-30ce2109ff89
+  fetched: '2026-10-30'
+  quote: Universidade de São Paulo (USP), Universidade da Região de Joinville (Univille),
+    Museu Arqueológico de Sambaqui de Joinville (MASJ), Universidade Federal de Pelotas (UFPel)
+    e PainelMar
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

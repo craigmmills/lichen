@@ -1,0 +1,87 @@
+id: vlaamse-milieumaatschappij
+kind: organisation
+name: Vlaamse Milieumaatschappij
+also_known_as:
+- VMM
+- Flanders Environment Agency
+- Vlaamse Milieumaatschappij
+scope: be
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+hq: be
+countries:
+- be
+scale: regional
+status: active
+summary: Flemish environment agency using sensors, with 100 reported by VMM in January 2024
+  and over 200 by BEPROACT, which reports machine learning predictions of oxygen-poor conditions.
+facts:
+- claim: BEPROACT reports that VMM staff showed how sensors, alarms and AI-based methods are
+    applied to water quality in Flanders.
+  url: https://beproact.nweurope.eu/blog/beproact-news-23/smart-monitoring-and-ai-for-better-water-quality-management-2270
+  fetched: 2026-11-02
+  quote: Koen De Witte and Simon Nachtergaele from Vlaamse Milieumaatschappij (VMM) demonstrated
+    how advanced sensors, smart alarms and AI-based methods are being applied to monitor and
+    interpret water quality in Flanders.
+- claim: Uses multiparameter probes that report water quality every 15 minutes.
+  url: https://vmm.vlaanderen.be/beleid/waterbeleid/kwaliteit-waterlopen/sensoren-en-iot
+  fetched: '2026-11-02'
+  quote: Die leveren elke 15 minuten data aan over de waterkwaliteit.
+- claim: Takes part in LIFE SMART IAS with fieldwork in Belgium.
+  url: https://en.vmm.vlaanderen.be/projects/project-portfolio/life-smart-ias-smart-technology-for-the-management-of-invasive-species
+  fetched: '2026-11-02'
+  quote: The VMM contributes to fieldwork in Belgium, focusing on the capture and monitoring
+    of target species.
+- claim: GBIF's publisher record places it in the Environment, Nature and Energy policy domain
+    of the Flemish government.
+  url: https://api.gbif.org/v1/organization/ec5f9a9c-09b0-4da3-ae8e-22627620fff6
+  fetched: &id001 2026-11-02
+  quote: VMM is part of the Environment, Nature and Energy policy domain of the Flemish government.
+- claim: VMM's own January 2024 article gives 100 sensors measuring temperature, pH, oxygen,
+    turbidity and conductivity in its waterways.
+  url: https://vmm.vlaanderen.be/nieuws/betere-waterkwaliteit-via-slimme-data-analyse
+  fetched: *id001
+  quote: Met ondertussen 100 sensoren in onze waterlopen meet de VMM continu de temperatuur,
+    het pH-niveau, het zuurstofgehalte, de troebelheid en de conductiviteit.
+- claim: The BEPROACT project says VMM has deployed over 200 sensors across Flemish waterways.
+  url: https://beproact.nweurope.eu/monitoring-flanders-rivers-with-sensors
+  fetched: *id001
+  quote: the Flemish Environment Agency (VMM) has deployed over 200 multi-parameter sensors
+    across Flemish waterways
+- claim: The BEPROACT project says machine learning models predict oxygen-poor conditions
+    before they occur.
+  url: https://beproact.nweurope.eu/monitoring-flanders-rivers-with-sensors
+  fetched: *id001
+  quote: Using advanced machine learning models, the system predicts oxygen-poor conditions
+    before they occur, allowing preventive action.
+- claim: VMM said it wants to use predictive analytics in future to calculate the risk of
+    fish deaths when oxygen falls.
+  url: https://vmm.vlaanderen.be/nieuws/betere-waterkwaliteit-via-slimme-data-analyse
+  fetched: *id001
+  quote: In de toekomst willen we, bijvoorbeeld bij een daling van de zuurstof in het water,
+    aan de hand van voorspellende analytics ook het risico op vissterfte berekenen.
+links:
+- type: partners-with
+  to: geosparc
+  url: https://www.dvo.be/artikel/geospart-monitort-waterkwaliteit-voor-vmm-met-ai-en-iot
+  fetched: '2026-11-02'
+  quote: Technisch partner Geosparc ontwikkelde daarom AI- en IoT-toepassingen om de efficiëntie
+    in het beheer te verhogen.
+- type: partners-with
+  to: geosparc
+  url: https://vmm.vlaanderen.be/nieuws/betere-waterkwaliteit-via-slimme-data-analyse
+  fetched: *id001
+  quote: Hiervoor werkt de VMM samen met het Gentse bedrijf Geosparc.
+found_by:
+- checklist:1
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+techniques:
+- edna-genomics
+- other

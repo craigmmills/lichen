@@ -1,0 +1,49 @@
+id: gota-tabasco
+kind: programme
+name: GOTA-Tabasco
+also_known_as:
+- Gestión y Observación Transparente del Agua de Tabasco
+scope: mx
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- freshwater
+countries:
+- mx
+status: active
+website: https://alexcueva.github.io/niveles-rios-tabasco
+summary: Built by ECOSUR and two researchers, this open dashboard shows daily levels for 14
+  rivers; its October 2026 page reports flow estimates at two stations and disclaims official
+  alerts.
+facts:
+- claim: An open web dashboard showing the daily level of 14 rivers, with a station map, a
+    historical series from 2021 and recent weather.
+  url: https://www.ecosur.mx/gota-tabasco-gestion-y-observacion-transparente-del-agua-de-tabasco/
+  fetched: 2026-11-03
+  quote: un tablero web abierto que muestra el nivel diario de 14 ríos, con mapa de estaciones,
+    serie histórica desde 2021 y clima de los últimos 7 días
+- claim: Estimates flow with models including Random Forest and ANFIS and compares it with
+    the reference ecological flow; the October 2026 page says these features are available
+    at only 2 of the 14 stations.
+  url: https://www.ecosur.mx/gota-tabasco-gestion-y-observacion-transparente-del-agua-de-tabasco/
+  fetched: 2026-11-03
+  quote: estima el gasto con modelos (Random Forest, ANFIS y curva gasto-elevación)
+  ai_type: ml-supervised
+- claim: The page says it is not an official alert, and that flow and ecological flow compliance
+    are available at only 2 of the 14 stations.
+  url: https://www.ecosur.mx/gota-tabasco-gestion-y-observacion-transparente-del-agua-de-tabasco/
+  fetched: 2026-11-03
+  quote: GOTA no es una alerta oficial ni sustituye los avisos de Protección Civil. Hoy el
+    gasto y el cumplimiento del caudal ecológico están disponibles solo en 2 de las 14 estaciones
+links:
+- type: built-by
+  to: el-colegio-de-la-frontera-sur
+  url: https://www.ecosur.mx/ecosur-presenta-gota-tabasco-una-plataforma-abierta-para-monitorear-los-rios-del-estado/
+  fetched: 2026-11-03
+  quote: Sergio Salinas-Rodríguez y Alejandro Cueva Rodríguez, investigadores del Grupo Académico
+    de Cuencas y Zonas Costeras de Ecosur y desarrolladores de GOTA-Tabasco
+found_by:
+- link-from:el-colegio-de-la-frontera-sur
+added_by: agent
+checked: 2026-11-03

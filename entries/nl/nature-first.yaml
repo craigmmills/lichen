@@ -1,0 +1,37 @@
+id: nature-first
+kind: project
+name: Nature FIRST
+ai_label: ai
+ai_types:
+- digital-twins
+realms:
+- land
+- freshwater
+techniques:
+- other
+status: unknown
+summary: A project of 12 partners, led by Sensing Clues, that built predictive biodiversity
+  monitoring tools for four European protected areas, including digital twins.
+facts:
+- claim: United 12 partners across research, technology, field operations and business development.
+  url: https://www.sensingclues.org/success-stories/naturefirstproject
+  fetched: &id001 2026-10-31
+  quote: Led by Sensing Clues , the project united 12 partners from research, technology,
+    field operations and business development.
+- claim: Developed digital twins that simulate ecosystems and help predict behaviours.
+  url: https://www.sensingclues.org/success-stories/naturefirstproject
+  fetched: *id001
+  quote: Another of Nature FIRST’s standout achievements was the development of digital twins
+    – data-driven models that simulate real-world ecosystems and help predict behaviours.
+  ai_type: digital-twins
+links:
+- type: led-by
+  to: sensing-clues
+  url: https://www.sensingclues.org/success-stories/naturefirstproject
+  fetched: *id001
+  quote: Led by Sensing Clues , the project united 12 partners
+found_by:
+- link-from:sensing-clues
+scope: nl
+added_by: agent
+checked: *id001

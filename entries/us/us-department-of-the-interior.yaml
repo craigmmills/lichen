@@ -1,0 +1,54 @@
+id: us-department-of-the-interior
+kind: organisation
+name: U.S. Department of the Interior
+also_known_as:
+- DOI
+scope: us
+sector: government
+roles:
+- governs
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: us
+scale: national
+status: active
+website: https://www.doi.gov
+summary: US federal department over the National Park Service, Fish and Wildlife Service,
+  Geological Survey, Bureau of Land Management and Bureau of Indian Affairs. It keeps an inventory
+  of AI use cases across its bureaus.
+facts:
+- claim: Publishes an inventory of current and planned AI use cases, which its site now calls
+    Super Intelligence.
+  url: https://www.doi.gov/ai
+  fetched: '2026-10-30'
+  quote: View the Department's inventory of non-classified and non-sensitive current and planned
+    Super Intelligence use cases.
+- claim: Publishes an AI use case inventory naming the Fish & Wildlife Service.
+  url: https://www.doi.gov/ai/use-case-inventory
+  fetched: '2026-10-30'
+  quote: U.S. Fish & Wildlife Service
+- claim: A copy of the federal AI inventory lists a fish distribution project under DOI.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Fluvial Fish Native Distributions for the Conterminous United States
+- claim: Interior says AI could help with fighting wildland fire, managing Western water and
+    stewarding natural resources at a landscape scale.
+  url: https://www.doi.gov/node/59991
+  quote: stewarding natural resources at a landscape scale
+  fetched: '2026-10-30'
+- claim: Its inspector general published an overview of AI and machine learning use across
+    the department.
+  url: https://www.oversight.gov/sites/default/files/documents/reports/2025-07/FLASH%20REPORT%20-%20Artificial%20Intelligence%20and%20Machine%20Learning%20Development%20In%20the%20U.S.%20Department%20of%20the%20Interior.pdf
+  quote: selected use cases
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us

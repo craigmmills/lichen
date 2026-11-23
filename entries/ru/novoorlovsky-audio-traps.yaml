@@ -1,0 +1,49 @@
+id: novoorlovsky-audio-traps
+kind: project
+name: Novoorlovsky audio traps
+also_known_as:
+- «Аудиоловушки» в Новоорловском заказнике
+scope: ru
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+summary: Audio trap system that IT Russia says was started in the Novoorlovsky sanctuary to collect audio
+  files for training neural networks, run by the St Petersburg nature use committee.
+facts:
+- claim: IT Russia says the system was started in the Novoorlovsky sanctuary.
+  url: https://itrussia.media/ru/article/v-peterburgskom-zakaznike-uchatsya-slyshat-prirodu-08-07-2026
+  fetched: 2026-10-31
+  quote: запущена система непрерывного акустического мониторинга
+- claim: IT Russia says the audio files are for training neural networks.
+  url: https://itrussia.media/ru/article/v-peterburgskom-zakaznike-uchatsya-slyshat-prirodu-08-07-2026
+  fetched: 2026-10-31
+  quote: Аудиофайлы нужны для обучения нейросетей
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: st-petersburg-committee-for-nature-use
+  url: https://itrussia.media/ru/article/v-peterburgskom-zakaznike-uchatsya-slyshat-prirodu-08-07-2026
+  fetched: 2026-10-31
+  quote: совместный проект Комитета по природопользованию, охране окружающей среды и обеспечению экологической
+    безопасности Санкт-Петербурга
+- type: partners-with
+  to: yandex-cloud
+  url: https://itrussia.media/ru/article/v-peterburgskom-zakaznike-uchatsya-slyshat-prirodu-08-07-2026
+  fetched: 2026-10-31
+  quote: совместный проект Комитета по природопользованию, охране окружающей среды и обеспечению экологической
+    безопасности Санкт-Петербурга, Центра технологий для общества YandexCloud и Природоохранного фонда
+    защитников природы
+- type: partners-with
+  to: nature-defenders-fund
+  url: https://itrussia.media/ru/article/v-peterburgskom-zakaznike-uchatsya-slyshat-prirodu-08-07-2026
+  fetched: 2026-10-31
+  quote: Центра технологий для общества YandexCloud и Природоохранного фонда защитников природы
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-10-31

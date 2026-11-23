@@ -1,0 +1,69 @@
+id: institute-for-environment-and-nature
+kind: organisation
+name: Institute for Environment and Nature
+also_known_as:
+- Zavod za zaštitu okoliša i prirode
+- IEN
+scope: hr
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+hq: hr
+countries:
+- hr
+scale: national
+status: active
+summary: Croatia's GBIF node, run by the Ministry of Environmental Protection and Green Transition, coordinating
+  biodiversity data publication and running and building the Croatian Bioportal.
+facts:
+- claim: Serves as the GBIF node for Croatia, coordinating the mobilisation and publication of biodiversity
+    data.
+  url: https://bioportal.hr/en/gbif-croatia
+  fetched: 2026-11-08
+  quote: serves as the GBIF node for Croatia, responsible for coordinating and promoting the mobilization
+    and publication of biodiversity data
+- claim: Bioportal says Croatia joined GBIF in 2022.
+  url: https://bioportal.hr/en/gbif-croatia
+  fetched: 2026-11-08
+  quote: The Republic of Croatia joined the Global Biodiversity Information Facility ( GBIF) in 2022.
+- claim: Has a Service for Inventory, Assessment and Monitoring of Nature, whose head is listed by the
+    CBD.
+  url: https://www.cbd.int/countries/nfp?country=hr
+  fetched: 2026-11-08
+  quote: Head of Service for Inventory, Assessment and Monitoring of Nature
+- claim: Its address is given as Radnička cesta 80/7, Zagreb.
+  url: https://www.cbd.int/countries/nfp?country=hr
+  fetched: 2026-11-08
+  quote: Radnička cesta 80/7
+links:
+- type: runs
+  to: croatian-bioportal
+  url: https://bioportal.hr/en/terms-of-use
+  fetched: &id001 2026-11-08
+  quote: Bioportal is a web portal of the Information System for Nature Protection, established, managed,
+    and administered by the Institute for Environment and Nature
+- type: run-by
+  to: ministry-of-environmental-protection-and-green-transition
+  url: https://bioportal.hr/en/gbif-croatia
+  fetched: 2026-11-08
+  quote: Institute for Environment and Nature of the Ministry of Environmental Protection and Green Transition
+    serves as the GBIF node for Croatia
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://bioportal.hr/en/gbif-croatia
+  fetched: 2026-11-08
+  quote: serves as the GBIF node for Croatia, responsible for coordinating and promoting the mobilization
+    and publication of biodiversity data
+- type: builds
+  to: croatian-bioportal
+  url: https://bioportal.hr/en/terms-of-use
+  fetched: *id001
+  quote: Bioportal is a web portal of the Information System for Nature Protection, established, managed,
+    and administered by the Institute for Environment and Nature
+found_by:
+- checklist:1
+- checklist:2
+added_by: agent
+checked: 2026-11-08

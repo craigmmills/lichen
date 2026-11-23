@@ -1,0 +1,79 @@
+id: landscape-observatory
+kind: programme
+name: Landscape Observatory
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- gb
+status: active
+summary: AI mapping project for England's Protected Landscapes, with a core team at
+  the Peak District National Park working with Cranfield University. Facts come from
+  the Landscape Institute because the project's own hosts refuse us.
+facts:
+- claim: The Landscape Institute describes an AI mapping project from the Protected
+    Landscape Partnership.
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: an AI mapping project from the Protected Landscape Partnership
+  fetched: '2026-10-30'
+- claim: Combines aerial imagery and machine learning.
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: combines high-resolution aerial imagery with advanced machine learning
+  fetched: '2026-10-30'
+- claim: Named in the Land Use Framework for England.
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: has been recognised in the Government’s Land Use Framework for England
+  fetched: '2026-10-30'
+- claim: Project from the Protected Landscapes Partnership.
+  url: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+  quote: Landscape Observatory is a bold new project from the Protected Landscapes
+    Partnership
+  fetched: &id001 2026-10-30
+- claim: AI is enabling automated landscape monitoring.
+  url: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+  quote: Rapid advances in artificial intelligence (AI) are enabling us to automate
+    landscape monitoring
+  fetched: *id001
+- claim: Unites AI mapping, habitat condition monitoring and adaptive management.
+  url: https://www.landscapeobservatory.org.uk/
+  quote: Landscape Observatory is uniting AI mapping, habitat condition monitoring,
+    and Adaptive Management
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+- link-from:vodafone-uk-national-parks-ai-habitat-mapping
+- checklist:7
+links:
+- type: run-by
+  to: peak-district-national-park-authority
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: The core team are based at the Peak District National Park and work in collaboration
+    with specialists from Cranfield University
+  fetched: '2026-10-30'
+- type: partners-with
+  to: cranfield-university
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: work in collaboration with specialists from Cranfield University
+  fetched: '2026-10-30'
+- type: run-by
+  to: protected-landscapes-partnership
+  url: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+  quote: Landscape Observatory is a bold new project from the Protected Landscapes
+    Partnership
+  fetched: *id001
+- type: partners-with
+  to: cranfield-university
+  url: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+  quote: work in collaboration with specialists from Cranfield University
+  fetched: *id001
+- type: partners-with
+  to: peak-district-national-park-authority
+  url: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+  quote: Landscape Observatory team, based at the Peak District National Park
+  fetched: *id001
+scope: gb
+added_by: agent
+checked: '2026-10-30'

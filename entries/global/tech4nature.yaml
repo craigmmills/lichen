@@ -1,0 +1,59 @@
+id: tech4nature
+kind: programme
+name: Tech4Nature
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- computer-vision
+countries:
+- br
+- ch
+- cn
+- es
+- ke
+- mu
+- mx
+- tr
+status: active
+summary: Partnership launched by Huawei and IUCN in 2020 to develop technology for protected and conserved areas. Phase 1 covered China, Mauritius, Mexico, Spain and Switzerland; Phase 2 runs six projects from 2023 to 2026.
+facts:
+- claim: A global partnership launched by Huawei and IUCN in 2020.
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: &id001 2026-10-30
+  quote: Tech4Nature is a global partnership launched by Huawei and IUCN in 2020
+- claim: Phase 1 ran from 2020 to 2023 in five protected and conserved areas.
+  url: https://prnewswire.com/il/news-releases/huawei-and-iucn-host-tech4nature-summit-to-promote-innovation-in-nature-conservation-302166109.html
+  fetched: *id001
+  quote: Tech4Nature Phase 1 ran from 2020 to 2023 in five PCAs in China , Mauritius , Mexico , Spain , and Switzerland .
+- claim: Phase 2 supports six projects in China, Mexico, Spain, Brazil, Kenya and Türkiye.
+  url: https://prnewswire.com/il/news-releases/huawei-and-iucn-host-tech4nature-summit-to-promote-innovation-in-nature-conservation-302166109.html
+  fetched: *id001
+  quote: Tech4Nature Phase 2 (2023–2026) will support flagship six projects in China , Mexico , Spain , Brazil , Kenya , and Türkiye.
+- claim: Included acoustic monitoring of the Hainan gibbon.
+  url: https://prnewswire.com/il/news-releases/huawei-and-iucn-host-tech4nature-summit-to-promote-innovation-in-nature-conservation-302166109.html
+  fetched: *id001
+  quote: Acoustic monitoring of the world's rarest ape - the Hainan gibbon
+links:
+- type: run-by
+  to: huawei
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: *id001
+  quote: Tech4Nature is a global partnership launched by Huawei and IUCN in 2020
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: *id001
+  quote: Tech4Nature is a global partnership launched by Huawei and IUCN in 2020
+- type: partners-with
+  to: kenya-wildlife-service
+  url: https://tech4nature.iucngreenlist.org/what-is-tech4nature/
+  fetched: 2026-10-31
+  quote: 'Huawei and IUCN launch Tech4Nature project in partnership with KWS to protect Kenya''s coral reefs'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

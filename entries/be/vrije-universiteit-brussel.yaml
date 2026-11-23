@@ -1,0 +1,55 @@
+id: vrije-universiteit-brussel
+kind: organisation
+name: Vrije Universiteit Brussel
+also_known_as:
+- VUB
+scope: be
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: unknown
+countries:
+- be
+scale: national
+status: active
+website: https://www.vub.be/
+summary: University whose researchers authored two 2024 papers, one fusing PlanetScope and
+  aerial imagery to map urban tree species and one using deep learning to classify mammal
+  vocalisations.
+facts:
+- claim: A 2024 paper with Robbe Neyns of its Cartography and GIS Research Group as first
+    author fused PlanetScope data and aerial imagery to map urban tree species.
+  url: https://api.openalex.org/works/doi:10.1016/j.ufug.2024.128410
+  fetched: 2026-11-08
+  quote: Fusion of multi-temporal PlanetScope data and very high-resolution aerial imagery
+    for urban tree species mapping
+- claim: The first author of the urban tree mapping paper lists its Cartography and GIS Research
+    Group.
+  url: https://api.openalex.org/works/doi:10.1016/j.ufug.2024.128410
+  fetched: 2026-11-08
+  quote: Cartography and GIS Research Group, Vrije Universiteit Brussel (VUB)
+- claim: A 2024 paper whose first author lists its Artificial Intelligence Lab classified
+    a small dataset of mammal vocalisations with deep learning.
+  url: https://api.openalex.org/works/doi:10.1080/09524622.2024.2354468
+  fetched: 2026-11-08
+  quote: Bioacoustic classification of a small dataset of mammalian vocalisations using deep
+    learning
+- claim: The first author of the bioacoustics paper lists its Artificial Intelligence Lab.
+  url: https://api.openalex.org/works/doi:10.1080/09524622.2024.2354468
+  fetched: 2026-11-08
+  quote: Artificial Intelligence Lab, Vrije Universiteit Brussel, Brussel, Belgium
+- claim: OpenAlex gives its home page as vub.be.
+  url: https://api.openalex.org/institutions?filter=country_code:BE,type:education&per-page=40&select=id,display_name,homepage_url,works_count
+  fetched: 2026-11-08
+  quote: '"display_name": "Vrije Universiteit Brussel", "homepage_url": "https://www.vub.be/"'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

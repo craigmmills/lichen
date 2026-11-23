@@ -1,0 +1,45 @@
+id: marcosouth-wio-coral-bleaching-monitoring-service
+kind: project
+name: MarCOSouth Western Indian Ocean Coral Bleaching Monitoring Service
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ke
+status: unknown
+website: https://marine.copernicus.eu/print/pdf/node/18849
+summary: Service showing satellite-derived thermal stress on coral in the Western Indian Ocean
+  with bleaching observations from CORDIO East Africa, co-designed by the CSIR under the GMES
+  and Africa programme.
+facts:
+- claim: Combines Copernicus Marine sea surface temperature products with in situ observations
+    from CORDIO East Africa.
+  url: https://marine.copernicus.eu/print/pdf/node/18849
+  quote: links to external resources (e.g., coral bleaching alerts) and in situ bleaching
+    observations from CORDIO East Africa
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: cordio-east-africa
+  url: https://marine.copernicus.eu/print/pdf/node/18849
+  quote: in collaboration with domain experts and consortium partners from Coastal Oceans
+    Research and Development - Indian Ocean (CORDIO) East Africa
+  fetched: '2026-10-31'
+- type: partners-with
+  to: copernicus-marine-service
+  url: https://marine.copernicus.eu/print/pdf/node/18849
+  quote: products provided by the Copernicus Marine Service
+  fetched: '2026-10-31'
+- type: partners-with
+  to: gmes-and-africa
+  url: https://marine.copernicus.eu/print/pdf/node/18849
+  quote: The MarCOSouth Western Indian Ocean Coral Bleaching Monitoring Service
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

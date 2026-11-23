@@ -1,0 +1,35 @@
+id: pyeo
+kind: dataset
+name: PyEO
+also_known_as:
+- Python Earth Observation
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.fao.org/in-action/sepal/news-and-events/news/detail/fao-and-university-of-leicester-join-forces-to-enhance-integration-of-real-time-forest-alerts-in-sepal/en
+summary: Near real-time forest alert system from the University of Leicester, being
+  embedded in FAO's SEPAL under the AIM4Forests programme.
+facts:
+- claim: Forest alerts being integrated into SEPAL, launched under AIM4Forests.
+  url: https://www.fao.org/in-action/sepal/news-and-events/news/detail/fao-and-university-of-leicester-join-forces-to-enhance-integration-of-real-time-forest-alerts-in-sepal/en
+  quote: integration of Python Earth Observation (PyEO) forest alerts into FAO's SEPAL
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: university-of-leicester
+  url: https://www.fao.org/in-action/sepal/news-and-events/news/detail/fao-and-university-of-leicester-join-forces-to-enhance-integration-of-real-time-forest-alerts-in-sepal/en
+  quote: the University of Leicester’s PyEO backend
+  fetched: *id001
+- type: partners-with
+  to: aim4forests
+  url: https://www.fao.org/in-action/sepal/news-and-events/news/detail/fao-and-university-of-leicester-join-forces-to-enhance-integration-of-real-time-forest-alerts-in-sepal/en
+  quote: launched under the AIM4Forests programme
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

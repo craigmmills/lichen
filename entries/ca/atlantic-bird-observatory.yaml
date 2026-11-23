@@ -1,0 +1,45 @@
+id: atlantic-bird-observatory
+kind: organisation
+name: Atlantic Bird Observatory
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: Acadia University-affiliated observatory that has operated regularly on Bon
+  Portage and Seal Islands since 1995, listed as a Canadian Migration Monitoring Network
+  station.
+facts:
+- claim: Has operated on Bon Portage and Seal Islands on a regular basis since 1995,
+    affiliated with Acadia University.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: the Observatory has been operating on a regular basis since 1995 (in both
+    spring and fall)
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

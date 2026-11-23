@@ -1,0 +1,32 @@
+id: sistema-teledeteccion-aprovechamientos-forestales-galicia
+kind: project
+name: Galicia remote sensing system for forest harvesting
+scope: es
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- es
+status: active
+summary: A Xunta de Galicia system that uses Sentinel images and an algorithm built
+  for Galicia to detect ground changes caused by forest harvesting.
+facts:
+- claim: The system uses Sentinel images and an algorithm developed for Galicia to
+    detect harvesting changes.
+  url: https://xera.xunta.gal/es/la-agencia/noticias/la-xunta-pone-en-marcha-un-nuevo-sistema-de-teledeteccion-de-aprovechamientos
+  fetched: '2026-10-31'
+  quote: El sistema emplea las imágenes proporcionadas por el satélite Sentinel para,
+    aplicando un algoritmo desarrollado específicamente para Galicia
+links:
+- type: run-by
+  to: xunta-de-galicia
+  url: https://xera.xunta.gal/es/la-agencia/noticias/la-xunta-pone-en-marcha-un-nuevo-sistema-de-teledeteccion-de-aprovechamientos
+  fetched: '2026-10-31'
+  quote: La Xunta pone en marcha un nuevo sistema de teledetección de aprovechamientos
+    forestales
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

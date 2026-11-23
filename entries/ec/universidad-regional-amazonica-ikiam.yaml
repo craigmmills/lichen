@@ -1,0 +1,40 @@
+id: universidad-regional-amazonica-ikiam
+kind: organisation
+name: Universidad Regional Amazónica Ikiam
+also_known_as:
+- Ikiam
+scope: ec
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ec
+scale: regional
+status: active
+summary: University with an author on a 2018 paper classifying long-term forest dynamics in
+  the Ecuadorian Amazon, and which proposes an open-source relational database management
+  system.
+facts:
+- claim: OpenAlex lists a 2018 paper with an Ikiam author on classifying long-term forest
+    dynamics in the Ecuadorian Amazon.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,concepts.id:C119857082,concepts.id:C62649853,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=40&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: 'Monitoring long-term forest dynamics with scarce data: a multi-date classification
+    implementation in the Ecuadorian Amazon'
+- claim: It proposes an open-source relational database management system.
+  url: https://www.ikiam.edu.ec/index.php/coordinacioninvestigacioninnovacion/innovacion-y-transferencia-de-tecnologia/
+  fetched: '2026-11-02'
+  quote: la Universidad Regional Amazónica Ikiam propone desarrollar un sistema de gestión
+    de bases de datos relacional de código abierto
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

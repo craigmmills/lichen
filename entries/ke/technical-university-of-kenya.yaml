@@ -1,0 +1,34 @@
+id: technical-university-of-kenya
+kind: organisation
+name: Technical University of Kenya
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: ke
+website: https://www.tukenya.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Nairobi university whose authors model potential fishing zones in Kenya's exclusive
+  economic zone with machine learning and satellite data.
+facts:
+- claim: Authors there modelled potential fishing zones with machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Modelling Potential Fishing Zones in Kenya's Exclusive Economic Zones Using Machine
+    Learning
+  fetched: &id001 2026-10-31
+- claim: Gives its address on Haile Selassie Avenue, Nairobi.
+  url: https://www.tukenya.ac.ke/
+  fetched: '2026-10-31'
+  quote: P.O. Box 52428 - 00200, Haile Selassie Avenue, Nairobi, Kenya
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

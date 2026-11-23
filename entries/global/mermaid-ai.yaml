@@ -1,0 +1,40 @@
+id: mermaid-ai
+kind: model
+name: MERMAID AI
+scope: global
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: AI feature launched by the Wildlife Conservation Society in June 2025 that classifies benthic photo quadrats inside MERMAID, using a model trained on more than 500,000 public CoralNet images.
+facts:
+- claim: Launched in June 2025.
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  quote: When WCS launched MERMAID AI on World Oceans Day in June 2025
+  fetched: 2026-10-30
+- claim: Trained on more than 500,000 public CoralNet images.
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  quote: Powered by a shared model trained on more than 500,000 public CoralNet images
+  fetched: 2026-10-30
+links:
+- type: run-by
+  to: wildlife-conservation-society
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  quote: When WCS launched MERMAID AI on World Oceans Day in June 2025
+  fetched: 2026-10-30
+- type: builds-on
+  to: coralnet
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  quote: "Powered by a shared model trained on more than 500,000 public CoralNet images in partnership with the University of San Diego and Scripps Institute of Oceanography, MERMAID"
+  fetched: 2026-10-30
+- type: builds-on
+  to: mermaid
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  quote: analysis could be done directly inside MERMAID
+  fetched: 2026-10-30
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

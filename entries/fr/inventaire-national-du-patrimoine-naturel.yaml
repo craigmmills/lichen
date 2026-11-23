@@ -1,0 +1,56 @@
+id: inventaire-national-du-patrimoine-naturel
+kind: dataset
+name: Inventaire national du patrimoine naturel
+also_known_as:
+- INPN
+- OpenObs
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: France's national natural heritage inventory, managed by PatriNat. It acts
+  as the national platform of the SINP, and species observation data are available
+  through its OpenObs tool.
+facts:
+- claim: Acts as the national platform of the SINP.
+  url: https://www.data.gouv.fr/datasets/inpn-donnees-dobservation-et-de-suivi-sur-les-especes
+  quote: L'INPN est un dispositif clé du Système d'Information sur l'inventaire du
+    patrimoine naturel (SINP) pour lequel il assure notamment le rôle de plateforme
+    nationale
+  fetched: '2026-10-31'
+- claim: Species observation data are available through OpenObs.
+  url: https://www.data.gouv.fr/datasets/inpn-donnees-dobservation-et-de-suivi-sur-les-especes
+  quote: Les données d'observation et de suivi sur les espèces sont accessibles via
+    l'outil OpenObs
+  fetched: '2026-10-31'
+- claim: The OFB describes the INPN as the portal for French biodiversity and geodiversity.
+  url: https://ofb.gouv.fr/les-observatoires-et-portails-acces-aux-donnees
+  fetched: '2026-10-31'
+  quote: L’inventaire national du patrimoine naturel (INPN), le portail de la bio
+    et géodiversité françaises
+- claim: National platform of the SINP.
+  url: https://ofb.gouv.fr/les-observatoires-et-portails-acces-aux-donnees
+  fetched: '2026-10-31'
+  quote: l’INPN est plus particulièrement la plateforme nationale du SINP
+links:
+- type: run-by
+  to: patrinat
+  url: https://www.data.gouv.fr/datasets/inpn-donnees-dobservation-et-de-suivi-sur-les-especes
+  quote: Géré par PatriNat pour le compte de l' OFB , du CNRS, de l'IRD et du MNHN
+  fetched: '2026-10-31'
+- type: run-by
+  to: patrinat
+  url: http://www.patrinat.fr/fr/inventaire-national-du-patrimoine-naturel-inpn-6042
+  fetched: '2026-10-31'
+  quote: PatriNat assure le pilotage, l’animation, la gestion et le développement
+    de l’INPN.
+found_by:
+- checklist:2
+- link-from:patrinat
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

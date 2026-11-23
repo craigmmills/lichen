@@ -1,0 +1,44 @@
+id: tanta-university
+kind: organisation
+name: Tanta University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.tanta.edu.eg/en/
+summary: University that OpenAlex lists among the first author's affiliations on a 2026 paper
+  using Google Earth Engine remote sensing to assess vegetation dynamics in Bavaria's protected
+  areas.
+facts:
+- claim: OpenAlex lists the 2026 paper Evaluating Ecological Stability and Vegetation Dynamics
+    in Bavaria's Protected Areas Using Google Earth Engine-Derived Remote Sensing and Environmental
+    Modeling.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:016jp5b92,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Evaluating Ecological Stability and Vegetation Dynamics in Bavaria\u2019s
+    Protected Areas Using Google Earth Engine-Derived Remote Sensing and Environmental Modeling",
+    "publication_year": 2026, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Heba Bedair, affiliations including Tanta University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:016jp5b92,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Heba Bedair", "raw_affiliation_strings": ["Botany and Microbiology
+    Department, Faculty of Science, Tanta University, Tanta 31527, Egypt", "Quantitative Landscape
+    Ecology Group, Department of Natural and Environmental Sciences, University of Kaiserslautern-Landau
+    (RPTU), 76829'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

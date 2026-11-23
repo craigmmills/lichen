@@ -1,0 +1,42 @@
+id: snappergps
+kind: project
+name: SnapperGPS
+scope: gb
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+status: active
+website: https://github.com/SnapperGPS
+summary: Described as a low-cost, low-power Oxford-built wildlife tracking system,
+  with certified open-source hardware and a receiver for non-real-time tracking that
+  can operate for over a year.
+facts:
+- claim: Describes itself as a small, low-cost, low-power wildlife tracking system
+    developed at the University of Oxford.
+  url: https://github.com/SnapperGPS
+  fetched: 2026-11-21
+  quote: A small, low-cost, low-power wildlife tracking system. Developed at the University
+    of Oxford.
+- claim: The receiver is for non-real-time wildlife tracking and can operate for more
+    than a year.
+  url: https://github.com/SnapperGPS
+  fetched: 2026-11-21
+  quote: The SnapperGPS receiver is a small, low-cost, and low-power GNSS receiver
+    for non-real-time wildlife tracking.
+- claim: Hardware is certified open-source and its firmware, web app and design files
+    are published.
+  url: https://github.com/SnapperGPS
+  fetched: 2026-11-21
+  quote: Is certified open-source hardware.
+links:
+- type: built-by
+  to: university-of-oxford
+  url: https://github.com/SnapperGPS
+  fetched: 2026-11-21
+  quote: Developed at the University of Oxford.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

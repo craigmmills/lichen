@@ -1,0 +1,34 @@
+id: digitalt-skovkort
+kind: dataset
+name: Digitalt Skovkort
+scope: dk
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+ai_types:
+- ml-supervised
+summary: Map of Danish forests made with machine learning and satellite data, using a model trained on
+  data that agency forestry staff drew from orthophotos.
+facts:
+- claim: A map of Danish forests made with machine learning and satellite data.
+  url: https://sgavmst.dk/skovbrug-og-landbrug/skovbrug/digitalt-skovkort
+  fetched: '2026-11-02'
+  quote: Digitalt Skovkort er et kort over de danske skove som er skabt vha. af maskinlæring og satellitdata.
+- claim: Its machine learning model was trained on data that agency forestry staff drew from orthophotos.
+  url: https://sgavmst.dk/skovbrug-og-landbrug/skovbrug/digitalt-skovkort
+  fetched: '2026-11-02'
+  quote: Modellen er trænet ud fra et sæt af såkaldte træningsdata
+  ai_type: ml-supervised
+- claim: The page says gradient boosting based on LightGBM was used for the map.
+  url: https://sgavmst.dk/skovbrug-og-landbrug/skovbrug/digitalt-skovkort
+  fetched: '2026-11-02'
+  quote: Til kortet er metoden Gradient Boosting blevet brugt, baseret på LightGBM frameworket.
+links: []
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

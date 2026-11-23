@@ -1,0 +1,32 @@
+id: hawk-migration-association-of-north-america
+kind: organisation
+name: Hawk Migration Association of North America
+also_known_as:
+- HMANA
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+countries:
+- us
+- ca
+scale: regional
+summary: Runs HawkCount, its system to collect, archive, visualise and distribute raptor migration
+  counts. Its own sites refused us, so this comes from Raptor Population Index reports.
+facts:
+- claim: The IRS exempt organisation record, through ProPublica, lists Hawk Migration Association
+    at Hancock, New Hampshire.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/510141690.json
+  fetched: '2026-10-31'
+  quote: '"city":"Hancock","state":"NH"'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

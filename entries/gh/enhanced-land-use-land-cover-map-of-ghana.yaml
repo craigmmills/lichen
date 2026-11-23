@@ -1,0 +1,62 @@
+id: enhanced-land-use-land-cover-map-of-ghana
+kind: dataset
+name: Enhanced Land Use Land Cover Map of Ghana
+also_known_as:
+- Ghana land use map
+scope: gh
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gh
+status: active
+summary: According to the UK Space Agency blog, this Forestry Commission and KNUST
+  land cover map distinguishes monocropped from agroforestry cocoa, with overall accuracy
+  of about 90 per cent.
+facts:
+- claim: The UK Space Agency blog says the map was produced by the Ghana Forestry
+    Commission from field mapping, Sentinel-1 and Sentinel-2 imagery and machine learning.
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The map was produced by the Ghana Forestry Commission using local expertise
+    - teams on the ground essentially mapping and recording every cocoa farm and the
+    surrounding vegetation - along with satellite imagery from Sentinel-1 satellite
+- claim: It distinguishes monocropped from agroforestry cocoa, with accuracy given
+    as about 90 per cent.
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The resulting land map is one of the most accurate (approx 90%) maps of cocoa
+    growing in the world and crucially is able to differentiate between monocropped
+    and agroforestry cocoa.
+- claim: The Forestry Commission worked with KNUST and the University of Leicester
+    to create it.
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The Ghanaian Forestry Commission worked closely with the Kwame Nkrumah, University
+    of Science and Technology and the University of Leicester, to create a land map
+    that enables cocoa farms to be monitored nationally.
+- claim: It was developed as part of Forests 2020, a project led by Ecometrica.
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: As part of Forests 2020, a project by a consortium of UK experts and international
+    partners led by Ecometrica Limited, a land use map was developed.
+links:
+- type: built-by
+  to: forestry-commission-ghana
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The map was produced by the Ghana Forestry Commission
+- type: built-by
+  to: kwame-nkrumah-university-of-science-and-technology
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The Ghanaian Forestry Commission worked closely with the Kwame Nkrumah, University
+    of Science and Technology and the University of Leicester, to create a land map
+    that enables cocoa farms to be monitored nationally.
+found_by:
+- checklist:2
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

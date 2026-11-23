@@ -1,0 +1,58 @@
+id: sentinel-2-macrophyte-identification-model-lithuanian-lakes
+kind: model
+name: Near-infrared reflectance thresholding model for macrophyte identification in temperate
+  lakes using Sentinel-2
+also_known_as: []
+scope: lt
+ai_label: ai
+ai_types:
+- ml-supervised
+- ml-unsupervised
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- lt
+status: unknown
+runner: unknown
+summary: Satellite-data algorithm, built by Yahor Levachou and funded by Vilnius University,
+  that separates open water, submerged or floating macrophytes and emergent macrophytes, trained
+  with regression trees on clustering-derived labels, for Nemunas Basin lakes.
+facts:
+- claim: The paper says the authors created a satellite-data algorithm for macrophyte detection
+    that separates open water, submerged and floating macrophytes and emergent macrophytes,
+    for aquatic ecosystem monitoring.
+  url: https://resolve-he.cambridge.org/core/journals/environmental-conservation/article/nearinfrared-reflectance-thresholding-for-macrophyte-identification-in-temperate-lakes-using-sentinel2/229241AE4BBE3F2689AD3C9DE6968A87
+  fetched: 2026-11-15
+  quote: The derived algorithm, employing Sentinel-2 satellite reflectance data, enables the
+    identification of open water, submerged and floating macrophytes and emergent macrophytes.
+- claim: The paper says the model was trained with the Recursive Partitioning and Regression
+    Trees method, using clustering results as target labels.
+  ai_type: ml-supervised
+  url: https://resolve-he.cambridge.org/core/journals/environmental-conservation/article/nearinfrared-reflectance-thresholding-for-macrophyte-identification-in-temperate-lakes-using-sentinel2/229241AE4BBE3F2689AD3C9DE6968A87
+  fetched: 2026-11-15
+  quote: The model was trained using the Recursive Partitioning and Regression Trees (RPART)
+    method
+- claim: The paper says clustering was used to create the target labels for the machine-learning
+    model.
+  ai_type: ml-unsupervised
+  url: https://resolve-he.cambridge.org/core/journals/environmental-conservation/article/nearinfrared-reflectance-thresholding-for-macrophyte-identification-in-temperate-lakes-using-sentinel2/229241AE4BBE3F2689AD3C9DE6968A87
+  fetched: 2026-11-15
+  quote: we utilized clustering, with its results serving as target labels for building a
+    machine-learning model
+- claim: The paper says the algorithm was designed for broad use across lakes in the Nemunas
+    River Basin.
+  url: https://resolve-he.cambridge.org/core/journals/environmental-conservation/article/nearinfrared-reflectance-thresholding-for-macrophyte-identification-in-temperate-lakes-using-sentinel2/229241AE4BBE3F2689AD3C9DE6968A87
+  fetched: 2026-11-15
+  quote: Designed for broad applicability across lakes within the Nemunas River Basin
+links:
+- type: funded-by
+  to: vilnius-university
+  url: https://resolve-he.cambridge.org/core/journals/environmental-conservation/article/nearinfrared-reflectance-thresholding-for-macrophyte-identification-in-temperate-lakes-using-sentinel2/229241AE4BBE3F2689AD3C9DE6968A87
+  fetched: 2026-11-15
+  quote: This research was supported by the Science Promotion Fund of Vilnius University (MSF-JM-06-2023).
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

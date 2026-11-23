@@ -1,0 +1,28 @@
+id: atlas-survey-of-the-butterflies-of-denmark
+kind: dataset
+name: Atlas Survey of the Butterflies of Denmark
+also_known_as:
+- Atlasprojektet Danmarks Dagsommerfugle
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries:
+- dk
+status: closed
+summary: Closed survey of butterflies in Denmark, carried out from 1989 to 1994, built by
+  Michael Stoltze and published under a CC-BY 4.0 licence.
+facts:
+- claim: The survey was carried out from 1989 to 1994.
+  url: https://danbif.au.dk/ipt/resource?r=ds32
+  fetched: &id001 2026-11-02
+  quote: The survey was carried out 1989 through 1994
+- claim: Published under a CC-BY 4.0 licence.
+  url: https://danbif.au.dk/ipt/resource?r=ds32
+  fetched: *id001
+  quote: This work is licensed under a Creative Commons Attribution (CC-BY 4.0) License
+found_by:
+- checklist:register
+added_by: agent
+checked: *id001

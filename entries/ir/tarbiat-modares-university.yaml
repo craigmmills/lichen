@@ -1,0 +1,66 @@
+id: tarbiat-modares-university
+kind: organisation
+name: Tarbiat Modares University
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+ai_types:
+- ml-supervised
+techniques:
+- species-distribution
+- remote-sensing
+- computer-vision
+hq: ir
+scale: national
+status: active
+website: https://www.modares.ac.ir
+summary: Iranian university with a natural resources and marine sciences faculty, whose authors
+  OpenAlex lists on species and habitat papers from 2020, 2022 and 2026, two using machine
+  learning.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2022 paper: Improving species distribution
+    models for dominant trees in climate data-poor forests using high-resolution remote sensing.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Improving species distribution models for dominant trees in climate data-poor forests
+    using high-resolution remote sensing
+- claim: 'Its authors are listed by OpenAlex on a 2026 machine learning paper: Machine learning
+    meets ecology: XGBoost-based prediction of endangered species habitats using multi-source
+    environmental data.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: 'Machine learning meets ecology: XGBoost-based prediction of endangered species habitats
+    using multi-source environmental data'
+- claim: 'Its authors are listed by OpenAlex on a 2020 machine learning paper: Comparison
+    of machine learning algorithms for broad leaf species classification using UAV-RGB images.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Comparison of machine learning algorithms for broad leaf species classification using
+    UAV-RGB images
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Department of Forestry, Faculty of Natural Resources and Marine Sciences, Tarbiat
+    Modares University, Tehran, Iran
+- claim: Its own site names the organisation.
+  url: https://www.modares.ac.ir
+  fetched: '2026-11-03'
+  quote: دانشگاه تربیت مدرس | دانشگاه تربیت مدرس
+- claim: Its site lists a faculty of natural resources and marine sciences.
+  url: https://www.modares.ac.ir
+  fetched: '2026-11-03'
+  quote: منابع طبیعی و علوم دریایی
+- ai_type: ml-supervised
+  claim: The title names machine learning classification of leaf species.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Comparison of machine learning algorithms for broad leaf species classification using
+    UAV-RGB images
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

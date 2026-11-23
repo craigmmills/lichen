@@ -1,0 +1,38 @@
+id: geonorge
+kind: dataset
+name: Geonorge
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- 'no'
+scale: national
+status: active
+website: https://www.geonorge.no/en/about/what-is-geonorge/
+summary: National website for map data and other location information in Norway, run and built by the
+  Norwegian Mapping Authority; NIBIO's SR16 page points to it for download.
+facts:
+- claim: The national website for map data and other location information in Norway.
+  url: https://www.geonorge.no/en/about/what-is-geonorge/
+  fetched: '2026-11-02'
+  quote: Geonorge is the national website for map data and other location information in Norway.
+- claim: NIBIO's SR16 page points to Geonorge for download.
+  url: https://www.nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: '2026-11-02'
+  quote: SR16 på Geonorge (nedlasting og tjenester)
+links:
+- type: run-by
+  to: norwegian-mapping-authority
+  url: https://www.geonorge.no/en/about/what-is-geonorge/
+  fetched: '2026-11-02'
+  quote: Geonorge is developed and run by the Norwegian Mapping Authority
+- type: built-by
+  to: norwegian-mapping-authority
+  url: https://www.geonorge.no/en/about/what-is-geonorge/
+  fetched: '2026-11-02'
+  quote: Geonorge is developed and run by the Norwegian Mapping Authority
+found_by:
+- link-from:sr16-forest-resource-map
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,38 @@
+id: maasai-mara-university
+kind: organisation
+name: Maasai Mara University
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+hq: ke
+website: https://mmarau.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university whose authors publish on ecoacoustics for ecosystem monitoring
+  and machine learning for wetland restoration.
+facts:
+- claim: An author there published on ecoacoustics for monitoring degradation and restoration.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: The role of ecoacoustics in monitoring ecosystem degradation and restoration
+  fetched: &id001 2026-10-31
+- claim: An author there published on machine learning for wetland restoration.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:%22deep%20learning%22%20wildlife&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: Enhancing Wetland Restoration through Machine Learning-Based Decision Support Systems
+  fetched: *id001
+- claim: Gives a postal address in Narok.
+  url: https://mmarau.ac.ke/?p=155
+  fetched: '2026-10-31'
+  quote: P.O. Box 861 – 20500, Narok, Kenya
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

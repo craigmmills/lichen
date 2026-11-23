@@ -1,0 +1,37 @@
+id: institut-agronomique-et-veterinaire-hassan-ii
+kind: organisation
+name: Institut Agronomique et Vétérinaire Hassan II
+also_known_as:
+- IAV Hassan II
+scope: ma
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ma
+countries: []
+scale: national
+status: active
+summary: A Moroccan institution in OpenAlex, listed with 2018 and 2022 papers on processing
+  multispectral image time series for crop and forest mapping.
+facts:
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "http://www.iav.ac.ma/", "country_code": "MA"'
+- claim: OpenAlex lists 2018 and 2022 papers with first author Loubna El Mansouri, with Institut
+    Agronomique et Vétérinaire Hassan II as their affiliation, on processing multispectral
+    image time series for crop and forest mapping.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Time Series Multispectral Images Processing for Crops and Forest Mapping
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

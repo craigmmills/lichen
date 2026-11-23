@@ -1,0 +1,40 @@
+id: university-of-leicester
+kind: organisation
+name: University of Leicester
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+summary: University hosting a fellowship on an environmental digital twin of tropical wetland
+  methane emissions.
+facts:
+- claim: FAO reports it is integrating PyEO forest alerts from Leicester into SEPAL.
+  url: https://www.fao.org/in-action/sepal/news-and-events/news/detail/fao-and-university-of-leicester-join-forces-to-enhance-integration-of-real-time-forest-alerts-in-sepal/en
+  quote: FAO and University of Leicester join forces to enhance integration of real-time forest
+    alerts in SEPAL
+  fetched: &id001 2026-10-30
+- claim: Companies House lists it under Royal Charter number RC000659.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=university+of+leicester
+  quote: UNIVERSITY OF LEICESTER RC000659
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: food-and-agriculture-organization
+  url: https://www.fao.org/in-action/sepal/news-and-events/news/detail/fao-and-university-of-leicester-join-forces-to-enhance-integration-of-real-time-forest-alerts-in-sepal/en
+  quote: FAO and University of Leicester join forces
+  fetched: *id001
+found_by:
+- link-from:uk-research-and-innovation
+- checklist:3
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+hq: gb
+status: active
+scale: national

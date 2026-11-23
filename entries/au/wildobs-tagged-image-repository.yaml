@@ -1,0 +1,42 @@
+id: wildobs-tagged-image-repository
+kind: dataset
+name: WildObs Camera Trap Tagged Image Repository
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+website: https://www.wildobs.org.au/tagged-image-repository
+summary: Verified, species-labelled camera-trap images from WildObs, published on
+  the Atlas of Living Australia for training and testing computer vision models.
+facts:
+- claim: Each image carries metadata, species ID, date, time and location.
+  url: https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/
+  fetched: '2026-10-31'
+  quote: Each image includes rich metadata, species ID, date, time, and location
+- claim: First release is on the Atlas of Living Australia.
+  url: https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/
+  fetched: '2026-10-31'
+  quote: The first release of tagged camera trap images from WildObs is now live on
+    the Atlas of Living Australia (ALA).
+links:
+- type: run-by
+  to: wildlife-observatory-of-australia
+  url: https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/
+  fetched: '2026-10-31'
+  quote: The first release of tagged camera trap images from WildObs is now live on
+    the Atlas of Living Australia (ALA).
+- type: uses
+  to: atlas-of-living-australia
+  url: https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/
+  fetched: '2026-10-31'
+  quote: The first release of tagged camera trap images from WildObs is now live on
+    the Atlas of Living Australia (ALA).
+found_by:
+- link-from:wildlife-observatory-of-australia
+added_by: agent
+checked: '2026-10-31'

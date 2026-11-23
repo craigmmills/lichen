@@ -1,0 +1,51 @@
+id: green-empowerment-for-development
+kind: organisation
+name: Green Empowerment for Development
+also_known_as:
+- GEFD
+scope: ye
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: ye
+countries:
+- ye
+scale: national
+status: active
+website: https://www.gengo-yemen.org/home
+summary: Yemeni non-profit based in Taiz that says it uses satellite imagery and IoT sensors for biodiversity
+  tracking, and has a GBIF dataset of Ziziphus spina-christi occurrences recorded between June and August
+  2026.
+facts:
+- claim: Describes itself as a Yemeni non-profit organisation.
+  url: https://www.gengo-yemen.org/home
+  fetched: 2026-11-12
+  quote: (A Yemeni Non-Profit Organization)
+- claim: Says it uses satellite imagery and IoT sensors to track biodiversity and measure the impact of
+    its conservation work.
+  url: https://www.gengo-yemen.org/home
+  fetched: 2026-11-12
+  quote: 'Digital Environmental Monitoring: Utilizing satellite imagery and IoT sensors to track biodiversity
+    and measure the real-time impact of our conservation efforts.'
+- claim: Its GBIF dataset records occurrences of Ziziphus spina-christi recorded by GEFD between June
+    and August 2026 across six governorates.
+  url: https://api.gbif.org/v1/organization/569353c1-3c67-41bc-af14-1a1a934d5461/publishedDataset
+  fetched: 2026-11-12
+  quote: Recorded by Green Empowerment for Development (GEFD) between June and August 2026, the dataset
+    covers six governorates
+- claim: GBIF's publisher record describes it as a non-governmental development organisation.
+  url: https://api.gbif.org/v1/organization?country=YE&limit=50
+  fetched: 2026-11-12
+  quote: Green Empowerment for Development (GEFD) is a non-governmental development organization dedicated
+    to driving sustainable social and environmental impact in Yemen.
+- claim: GBIF's publisher record gives its address as Jamal Street, Taiz.
+  url: https://api.gbif.org/v1/organization?country=YE&limit=50
+  fetched: 2026-11-12
+  quote: '"address":["Jamal Street"],"city":"Taiz","country":"YE"'
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-12

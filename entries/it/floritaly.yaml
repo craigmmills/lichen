@@ -1,0 +1,54 @@
+id: floritaly
+kind: dataset
+name: FlorItaly
+also_known_as:
+- Portale della Flora d'Italia
+- Portal to the Flora of Italy
+- FlorItaly
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://dryades.units.it/floritaly/
+summary: Online portal to the checklist of native and alien vascular plants of Italy,
+  running on servers of the Dryades project at the University of Trieste.
+facts:
+- claim: Organises nomenclatural and distribution data from the checklists of Italian
+    native and alien vascular plants.
+  url: https://dryades.units.it/floritaly/
+  fetched: 2026-10-31
+  quote: This portal organises nomenclatural and distributional data from the recent
+    checklists of the Italian native and alien vascular plants
+- claim: A 2020 paper says it is updated every six months.
+  url: https://phytokeys.pensoft.net/article_preview.php?id=54023
+  fetched: 2026-10-31
+  quote: is being updated every six months
+- claim: Organises data from recent checklists of native and alien Italian vascular
+    plants.
+  url: https://www.floritaly.plantdata.it/?procedure=intro
+  fetched: '2026-10-31'
+  quote: organizza i dati tassonomici, nomenclaturali e distributivi derivanti dalle
+    recenti checklist delle piante vascolari native e aliene italiane
+- claim: Organises data from checklists of native and alien plants.
+  url: https://dryades.units.it/floritaly
+  fetched: '2026-10-31'
+  quote: This portal organises nomenclatural and distributional data from the recent
+    checklists of the Italian native and alien vascular plants
+links:
+- type: partners-with
+  to: dryades-project
+  url: https://phytokeys.pensoft.net/article_preview.php?id=54023
+  fetched: 2026-10-31
+  quote: "was developed in a collaborative effort by more than 50 taxonomists, with the support of the Italian Botanical Society, and of Project “Dryades” (University of Trieste)"
+- type: run-by
+  to: university-of-trieste-department-of-life-sciences
+  url: https://dsv.units.it/en/news/34753
+  fetched: '2026-10-31'
+  quote: The portal was created by the Department of Life Sciences of the Trieste
+    University ( Dryades Project ).
+found_by:
+- checklist:2
+- link-from:university-of-trieste-department-of-life-sciences
+added_by: agent
+checked: 2026-10-31

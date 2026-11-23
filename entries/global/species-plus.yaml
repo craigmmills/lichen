@@ -1,0 +1,31 @@
+id: species-plus
+kind: dataset
+name: Species+
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+website: https://speciesplus.net
+summary: Website developed by UNEP-WCMC and the CITES Secretariat that gives a central portal to information on species listed under CITES, CMS and the EU Wildlife Trade Regulations.
+facts:
+- claim: "Developed by UNEP-WCMC and the CITES Secretariat to help Parties implement CITES, CMS and other agreements."
+  url: https://speciesplus.net/about
+  fetched: 2026-10-30
+  quote: "Species+, developed by UNEP-WCMC and the CITES Secretariat, is a website designed to assist Parties with implementing CITES, CMS and other multilateral environmental agreements"
+- claim: "Covers all species listed in the CITES and CMS Appendices, other CMS Family listings and the EU Wildlife Trade Regulations annexes."
+  url: https://speciesplus.net/about
+  fetched: 2026-10-30
+  quote: "Species+ contains information on all species that are listed in the Appendices of CITES and CMS, as well as other CMS Family listings and species included in the Annexes to the EU Wildlife Trade Regulations."
+links:
+- type: run-by
+  to: unep-wcmc
+  url: https://speciesplus.net/about
+  quote: "Species+, developed by UNEP-WCMC and the CITES Secretariat, is a website"
+  fetched: '2026-10-30'
+found_by:
+- link-from:unep-wcmc
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,35 @@
+id: denombrement-des-oiseaux-d-eau-du-senegal
+kind: dataset
+name: Dénombrement des oiseaux d'eau du Sénégal de 2016 à 2018
+also_known_as: []
+scope: sn
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- other
+countries:
+- sn
+status: unknown
+summary: National waterbird counts made by the Direction des Parcs Nationaux each
+  15 January from 2016 to 2018, published on GBIF.
+facts:
+- claim: Comes from the annual 15 January counts by the parks directorate.
+  url: https://api.gbif.org/v1/dataset/665edebe-8d21-49bd-9435-155ef2789ab0
+  fetched: '2026-10-31'
+  quote: dénombrements annuels effectués par la Direction des parcs nationaux
+links:
+- type: run-by
+  to: institut-des-sciences-de-l-environnement-ucad
+  url: https://api.gbif.org/v1/dataset/665edebe-8d21-49bd-9435-155ef2789ab0
+  fetched: '2026-10-31'
+  quote: Institut des Sciences de l'Environnement
+- type: builds-on
+  to: direction-des-parcs-nationaux-senegal
+  url: https://api.gbif.org/v1/dataset/665edebe-8d21-49bd-9435-155ef2789ab0
+  fetched: '2026-10-31'
+  quote: "Ce jeu de données provient des dénombrements annuels effectués par la Direction des parcs nationaux"
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,33 @@
+id: atlas-natuurlijk-kapitaal
+kind: dataset
+name: Atlas Natuurlijk Kapitaal
+scope: nl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+countries:
+- nl
+website: https://www.atlasnatuurlijkkapitaal.nl
+summary: Digital platform of detailed maps of Dutch natural capital, including the
+  ecosystem type map used in the CBS natural capital accounts.
+facts:
+- claim: The ecosystem type map divides the Netherlands into ecosystems.
+  url: https://www.atlasnatuurlijkkapitaal.nl/ecosysteemtypenkaart
+  fetched: '2026-10-31'
+  quote: Op deze kaart is Nederland ingedeeld in verschillende ecosystemen.
+- claim: A digital platform with many detailed maps.
+  url: https://www.cbs.nl/nl-nl/maatschappij/natuur-en-milieu/natuurlijk-kapitaal/atlas-natuurlijk-kapitaal
+  fetched: '2026-10-31'
+  quote: Dit digitale platform bevat veel gedetailleerde kaarten
+links:
+- type: run-by
+  to: rivm
+  url: https://www.cbs.nl/nl-nl/maatschappij/natuur-en-milieu/natuurlijk-kapitaal/atlas-natuurlijk-kapitaal
+  fetched: '2026-10-31'
+  quote: de Atlas Natuurlijk Kapitaal van het RIVM
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

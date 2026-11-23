@@ -1,0 +1,36 @@
+id: squirrels-of-south-asia-database
+kind: dataset
+name: Squirrels of South Asia Database
+also_known_as: []
+scope: in
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- species-distribution
+countries:
+- in
+summary: Occurrence records for all 34 squirrel species of South Asia from museums,
+  literature, field records, citizen science and social media, covering 1766 to 2022.
+facts:
+- claim: GBIF dataset covers all squirrel species in South Asia.
+  url: https://api.gbif.org/v1/organization/a5f4c39e-d6fc-4334-a95a-a2b49aead1f8/publishedDataset?limit=100
+  fetched: '2026-10-31'
+  quote: is a collection of occurrence records of all squirrel species (34 specices)
+    that occur in South Asia
+- claim: Years covered.
+  url: https://api.gbif.org/v1/organization/a5f4c39e-d6fc-4334-a95a-a2b49aead1f8/publishedDataset?limit=100
+  fetched: '2026-10-31'
+  quote: 'Years covered: 1766 - 2022.'
+links:
+- type: run-by
+  to: sciurid-lab
+  url: https://api.gbif.org/v1/organization/a5f4c39e-d6fc-4334-a95a-a2b49aead1f8/publishedDataset?limit=100
+  fetched: '2026-10-31'
+  quote: The database is built and curated by the Sciurid Lab at IISER Tirupati
+found_by:
+- register:gbif-publisher
+- link-from:iiser-tirupati
+added_by: agent
+checked: '2026-10-31'

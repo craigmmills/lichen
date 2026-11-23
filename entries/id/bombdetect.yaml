@@ -1,0 +1,42 @@
+id: bombdetect
+kind: model
+name: BombDetect
+also_known_as: []
+scope: id
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+countries:
+- id
+status: active
+runner: unknown
+summary: Machine learning system trained on underwater audio to identify bomb fishing
+  blasts, used to quantify blast fishing in Indonesia's Spermonde Archipelago.
+facts:
+- claim: UCL says the team developed it and that it was trained on the acoustic signatures
+    of bomb fishing.
+  url: https://www.ucl.ac.uk/life-sciences/news/ai-powered-monitoring-reveals-widespread-bomb-fishing-indonesia
+  fetched: '2026-10-31'
+  quote: The team developed BombDetect, a machine learning system trained to identify
+    the distinctive acoustic signatures of bomb fishing.
+- claim: The study detected and verified 3,567 incidents.
+  url: https://www.ucl.ac.uk/life-sciences/news/ai-powered-monitoring-reveals-widespread-bomb-fishing-indonesia
+  fetched: '2026-10-31'
+  quote: detected and verified 3,567 bomb fishing incidents
+links:
+- type: partners-with
+  to: zoological-society-of-london
+  url: https://www.ucl.ac.uk/life-sciences/news/ai-powered-monitoring-reveals-widespread-bomb-fishing-indonesia
+  fetched: '2026-10-31'
+  quote: Researchers from UCL, Zoological Society of London (ZSL) and collaborators
+- type: partners-with
+  to: ucl-people-and-nature-lab
+  url: https://www.ucl.ac.uk/life-sciences/news/ai-powered-monitoring-reveals-widespread-bomb-fishing-indonesia
+  fetched: '2026-10-31'
+  quote: Researchers from UCL, Zoological Society of London (ZSL) and collaborators
+found_by:
+- keyword:id-b
+added_by: agent
+checked: '2026-10-31'

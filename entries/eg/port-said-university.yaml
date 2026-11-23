@@ -1,0 +1,40 @@
+id: port-said-university
+kind: organisation
+name: Port Said University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.psu.edu.eg/en/
+summary: University that OpenAlex lists among the first author's affiliations on a 2024 paper
+  on automated machine learning tools to distinguish two killer whale ecotypes.
+facts:
+- claim: OpenAlex lists the 2024 paper Auto machine learning tools to distinguish between
+    two killer whale ecotypes, with M. E. Ismail as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01vx5yq44,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Auto machine learning tools to distinguish between two killer whale
+    ecotypes", "publication_year": 2024, "authorships": [{"author_position": "first", "author":
+    {"id": "https://openalex.org/A5101464372", "display_name": "M. E. Ismail"'
+- claim: OpenAlex gives the first author's affiliations as including Port Said University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01vx5yq44,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Mohamed E. Ismail", "raw_affiliation_strings": ["Department
+    of Marine Science, Faculty of Science, Port-Said University, Port Said, Egypt", "Department
+    of Vertebrate Zoology, Faculty of Biology, Lomonosov Moscow State University, Moscow,
+    Russia"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

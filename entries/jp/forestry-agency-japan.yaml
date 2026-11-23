@@ -1,0 +1,47 @@
+id: forestry-agency-japan
+kind: organisation
+name: Forestry Agency of Japan
+also_known_as:
+- 林野庁
+scope: jp
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://www.rinya.maff.go.jp/
+summary: Government agency that runs the national forest ecosystem diversity survey, whose
+  4 km plot mesh it describes and whose first to fifth round data, including tree-level records,
+  are published through a help desk site.
+facts:
+- claim: The agency's survey site describes the 4 km mesh of plots.
+  url: https://www.rinya.maff.go.jp/j/keikaku/tayouseichousa/index.html
+  fetched: 2026-11-02
+  quote: 全国を4kmメッシュで区切り、その交点が森林
+- claim: Page of the Forestry Agency describing the national survey.
+  url: https://www.rinya.maff.go.jp/j/keikaku/tayouseichousa/
+  fetched: '2026-11-02'
+  quote: 森林生態系多様性基礎調査：林野庁
+- claim: Survey data from the first to fifth rounds are published through a help desk site,
+    including tree-level records for researchers.
+  url: https://www.rinya.maff.go.jp/j/keikaku/tayouseichousa/
+  fetched: '2026-11-02'
+  quote: 単木ごとの情報（樹種、胸高直径、樹高等）や下層植生の植物種などの詳細なデータを確認できる「研究者等向けデータ」を
+links:
+- type: runs
+  to: national-forest-ecosystem-diversity-survey
+  url: https://www.rinya.maff.go.jp/j/keikaku/tayouseichousa/index.html
+  fetched: 2026-11-02
+  quote: 調査は5年間で全国を一巡するサイクルとしており、平成11年度に調査を開始し、令和6年度から第6期調査を実施しています。
+found_by:
+- checklist:1
+- checklist:2
+added_by: agent
+checked: 2026-11-02

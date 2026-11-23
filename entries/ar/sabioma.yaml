@@ -1,0 +1,60 @@
+id: sabioma
+kind: project
+name: SABIOMA
+scope: ar
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+countries:
+- ar
+status: active
+website: https://sabioma.org/es/
+summary: International Argentina–UK collaboration on nature-based solutions to biodiversity loss, climate
+  change and social wellbeing, funded by UKRI; in May 2023 a partner institute reported testing AMI moth
+  traps and planned BirdNET bird-call identification.
+facts:
+- claim: An international collaboration between Argentina and the United Kingdom studying nature-based
+    solutions to biodiversity loss, climate change and social wellbeing.
+  url: https://sabioma.org/es/
+  fetched: 2026-11-03
+  quote: SABIOMA es una colaboración internacional entre Argentina y el Reino Unido, que estudia soluciones
+    basadas en la naturaleza para enfrentar los desafíos de la pérdida de biodiversidad, el cambio climático
+    y el bienestar social.
+- claim: In May 2023, the Instituto de Ecología Regional reported testing AMI traps with NERC staff within
+    SABIOMA; an AI algorithm would identify photographed moths, but still needed training for local species.
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: Luego, las mariposas nocturnas de las fotos tomadas, serán determinadas por un algoritmo de inteligencia
+    artificial (IA) que está entrenado para reconocerlas a nivel de especie.
+- claim: In May 2023, the institute planned to place sound recorders alongside the AMI traps and identify
+    recorded bird calls with BirdNET, described as an AI developed by Cornell University.
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: se colocaran grabadores de sonido que registran la actividad vocal de las aves que también serán
+    identificadas por una IA, en este caso desarrollada por la Universidad de Cornell, BirdNET.
+links:
+- type: funded-by
+  to: uk-research-and-innovation
+  url: https://sabioma.org/es/
+  fetched: 2026-11-03
+  quote: Defra Global Centre on Biodiversity for Climate (GCBC) fast track research scheme, via UKRI [Grant
+    no. 2022GCBCSABIOMA]
+- type: partners-with
+  to: instituto-de-ecologia-regional
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: En el proyecto SABIOMA estamos implementando el uso de trampas camara para monitorear mariposas
+    nocturas y grabadores para aves.
+- type: uses
+  to: ami-system
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: con quienes estuvimos poniendo a prueba las AMI-traps (Autonomous Monitoring of Insects)
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-03
+runner: unknown

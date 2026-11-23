@@ -1,0 +1,44 @@
+id: nasbsat-2
+kind: project
+name: NASBSat-2
+scope: by
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- by
+status: active
+runner: unknown
+summary: A Belarusian satellite launched on 28 December 2025 with two infrared cameras
+  and one optical camera, intended for early detection of thermal anomalies such as
+  forest fires in Belarus.
+facts:
+- claim: 'A National Academy of Sciences of Belarus news item of February 2026 says
+    two Belarusian satellites were launched from the Vostochny cosmodrome on 28 December
+    2025: NASBSat-2 and a satellite written as NASBat-1 in the launch sentence and
+    NASBSat-1 in the next sentence.'
+  url: https://nasb.gov.by/bel/news/15466/
+  fetched: 2026-11-15
+  quote: 28 снежня 2025 г. з касмадрома «Усходні» ў касмічную прастору запушчаны два
+    беларускія касмічныя апараты NASBat-1 і NASBSat-2
+- claim: The same item says NASBSat-2, with two infrared cameras and one optical camera,
+    is meant for monitoring the Earth's surface to detect thermal anomalies (forest
+    fires) early on the territory of Belarus.
+  url: https://nasb.gov.by/bel/news/15466/
+  fetched: 2026-11-15
+  quote: Спадарожнік NASBSat-2 з дзвюма камерамі інфрачырвонага дыяпазону і адной
+    аптычнай камерай прызначаны для маніторынгу зямной паверхні з мэтай ранняга выяўлення
+    цеплавых анамалій (лясных пажараў) на тэрыторыі Беларусі.
+- claim: Another NAS news item quotes the Academy's chairman saying NASBSat-2 was
+    completing flight tests and would soon be handed over for operation.
+  url: https://nasb.gov.by/rus/news/15556/
+  fetched: 2026-11-15
+  quote: Спутник NASBSat-2, запущенный в декабре, завершает летные испытания и в ближайшее
+    время будет передан в эксплуатацию.
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

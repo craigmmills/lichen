@@ -1,0 +1,35 @@
+id: council-for-geoscience
+kind: organisation
+name: Council for Geoscience
+scope: za
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+ai_types:
+- ml-unsupervised
+hq: za
+website: https://www.geoscience.org.za
+scale: national
+status: active
+summary: A body whose authors reported in August 2021 that they tested three machine learning
+  techniques, including k-means clustering, in Table Bay.
+facts:
+- claim: An August 2021 article by its authors reports three machine learning techniques tested
+    in Table Bay.
+  url: https://www.hydro-international.com/content/article/using-machine-learning-to-derive-benthic-habitat-maps-article
+  fetched: '2026-10-31'
+  quote: three different machine learning techniques were tested in Table Bay, South Africa
+- claim: The article names k-means clustering among the methods and calls them unsupervised.
+  url: https://www.hydro-international.com/content/article/using-machine-learning-to-derive-benthic-habitat-maps-article
+  fetched: '2026-10-31'
+  quote: Decision Tree Classifiers, Random Forests and k-means clustering algorithms were
+    used to classify the hydroacoustic data. These unsupervised classification methods
+  ai_type: ml-unsupervised
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,43 @@
+id: hkbu-department-of-biology
+kind: organisation
+name: Department of Biology, Hong Kong Baptist University
+also_known_as: []
+scope: hk
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: University department that led 2024 papers on a DNA barcode reference database
+  for Hong Kong marine animals and on refining environmental DNA sampling for fish
+  diversity assessment.
+facts:
+- claim: Lead affiliation (first and corresponding authors) on a 2024 paper on a DNA
+    barcode reference database and gap analysis for biomonitoring Hong Kong's marine
+    animals.
+  url: https://api.openalex.org/works/W4404734882?select=id,title,publication_year,corresponding_institution_ids,authorships
+  fetched: 2026-11-14
+  quote: DNA barcode reference database and gap analysis for biomonitoring Hong Kong
+- claim: The first author of that paper gives the department as their affiliation.
+  url: https://api.openalex.org/works/W4404734882?select=id,title,publication_year,corresponding_institution_ids,authorships
+  fetched: 2026-11-14
+  quote: Department of Biology, Hong Kong Baptist University,
+- claim: Lead affiliation (first author, and one corresponding author) on a 2024 paper
+    refining environmental DNA sampling for fish diversity assessment in Hong Kong's
+    estuarine and oceanic waters.
+  url: https://api.openalex.org/works/W4402606321?select=id,title,publication_year,corresponding_institution_ids,authorships
+  fetched: 2026-11-14
+  quote: Refining Sampling Efforts for Fish Diversity Assessment in Subtropical Urban
+    Estuarine and Oceanic Waters Using Environmental DNA With Multiple Primers
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

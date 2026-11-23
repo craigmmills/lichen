@@ -1,0 +1,33 @@
+id: united-states-international-university-africa
+kind: organisation
+name: United States International University Africa
+also_known_as:
+- USIU-Africa
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: ke
+countries:
+- ke
+scale: national
+status: active
+summary: Nairobi university with authors of a review of automated bioacoustics classification.
+facts:
+- claim: Authors there reviewed automated bioacoustics classification.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: A Review of Automated Bioacoustics and General Acoustics Classification Research
+  fetched: &id001 2026-10-31
+- claim: KLISC gives USIU Road, off Thika Road, Nairobi.
+  url: https://klisc.or.ke/membership/united-states-international-university-africa
+  fetched: '2026-10-31'
+  quote: USIU Road, Off Thika Road (Exit 7), P. O. Box 14634 – 00800,
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

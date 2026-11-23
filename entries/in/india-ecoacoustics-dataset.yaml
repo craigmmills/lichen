@@ -1,0 +1,36 @@
+id: india-ecoacoustics-dataset
+kind: dataset
+name: India open-access ecoacoustic biodiversity dataset
+scope: in
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+countries:
+- in
+scale: national
+status: active
+runner: unknown
+summary: Crowdsourced open-access dataset reported at 518 species and 5,815 minutes
+  of recordings from 25 states and union territories. Only secondary reports were
+  found; no repository or DOI.
+facts:
+- claim: Civilsdaily reports the dataset's size and coverage.
+  url: https://www.civilsdaily.com/news/indias-first-open-access-ecoacoustic-biodiversity-dataset/
+  quote: Researchers have released India’s first open-access, crowdsourced ecoacoustic
+    biodiversity dataset, capturing 518 species across 5,815 minutes of recordings
+    from 25 states and union territories.
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: india-ecoacoustics-network
+  url: https://wildlabs.net/node/21651/
+  quote: We are curating an open-access, annotated acoustic dataset for India!
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

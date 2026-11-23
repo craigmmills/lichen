@@ -1,0 +1,36 @@
+id: chiang-mai-university
+kind: organisation
+name: Chiang Mai University
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: https://www.cmu.ac.th/
+summary: University given as the affiliation of first authors of two papers listed in OpenAlex,
+  from 2021 and 2023, the later one on deep learning for forest fire detection.
+facts:
+- claim: OpenAlex lists a 2021 paper whose first author, Ahmad Yahya Dawod, gives an affiliation
+    at Chiang Mai University.
+  url: https://api.openalex.org/works?filter=institutions.ror:05m2fqn25,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=200&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Assessing mangrove deforestation using pixel-based image: a machine learning approach'
+- claim: OpenAlex lists a 2023 paper on deep learning for forest fire detection whose first
+    author, Parinya Suwansrikham, gives an affiliation at Chiang Mai University.
+  url: https://api.openalex.org/works?filter=institutions.ror:05m2fqn25,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=200&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Performance Evaluation of Deep Learning Algorithm for Forest Fire Detection
+  ai_type: deep-learning
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,27 @@
+id: allen-coral-atlas
+kind: dataset
+name: Allen Coral Atlas
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://allencoralatlas.org
+summary: Global maps of coral reef habitats with a bleaching monitoring system and turbidity detection, powered by Arizona State University.
+facts:
+- claim: Maps the world's coral reefs and monitors their threats.
+  url: https://allencoralatlas.org/
+  fetched: '2026-10-30'
+  quote: maps the world’s coral reefs and monitors their threats
+links:
+- type: run-by
+  to: arizona-state-university
+  url: https://allencoralatlas.org/
+  fetched: '2026-10-30'
+  quote: The Allen Coral Atlas, powered by Arizona State University
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,40 @@
+id: lila-bc
+kind: dataset
+name: LILA BC
+also_known_as:
+- Labeled Information Library of Alexandria
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://lila.science
+summary: Repository of labelled data sets for biology and conservation, hosting over ten million
+  labelled images for machine learning work.
+facts:
+- claim: Repository of data sets for biology and conservation.
+  url: https://lila.science/
+  fetched: '2026-10-30'
+  quote: LILA BC is a repository for data sets related to biology and conservation
+- claim: Hosts over ten million labelled images.
+  url: https://lila.science/
+  fetched: '2026-10-30'
+  quote: we currently host over ten million labeled images
+links:
+- type: partners-with
+  to: source-cooperative
+  url: https://lila.science/
+  fetched: '2026-10-30'
+  quote: Hosting on AWS is provided by Source Cooperative
+- type: partners-with
+  to: microsoft-ai-for-good-lab
+  url: https://lila.science/
+  fetched: '2026-10-30'
+  quote: Hosting on Microsoft Azure is provided by the Microsoft AI for Good Lab
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

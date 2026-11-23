@@ -1,0 +1,31 @@
+id: half-earth-project-map
+kind: dataset
+name: Half-Earth Project Map
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+website: https://www.half-earthproject.org/
+summary: Biodiversity map used for species-focused indicators and decision support, shown alongside Map of Life at a GEO session
+  at the 2024 UN biodiversity conference. The Half-Earth Project site is that of the E.O. Wilson Biodiversity Foundation.
+facts:
+- claim: GEO session title pairs it with Map of Life.
+  url: https://earthobservations.org/about-us/events/2024-un-biodiversity-conference/schedule/species-focused-indicators-and-decision-support-map-life-and-half-earth-project-map
+  quote: Species-focused indicators and decision-support with Map of Life and the Half-Earth Project Map
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: e-o-wilson-biodiversity-foundation
+  url: https://www.half-earthproject.org/
+  quote: "The E.O. Wilson Biodiversity Foundation’s Half-Earth Project Map shares this information for free"
+  fetched: '2026-10-30'
+- type: partners-with
+  to: map-of-life
+  url: https://earthobservations.org/about-us/events/2024-un-biodiversity-conference/schedule/species-focused-indicators-and-decision-support-map-life-and-half-earth-project-map
+  quote: with Map of Life and the Half-Earth Project Map
+  fetched: '2026-10-30'
+found_by:
+- link-from:map-of-life
+added_by: agent
+checked: '2026-10-30'

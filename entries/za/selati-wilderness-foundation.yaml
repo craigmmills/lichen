@@ -1,0 +1,54 @@
+id: selati-wilderness-foundation
+kind: organisation
+name: Selati Wilderness Foundation
+scope: za
+sector: ngo
+roles:
+- funds
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: za
+website: https://selatiwf.org
+scale: local
+status: active
+summary: Non-profit company established in 2018 whose page describes reserve monitoring technology,
+  including 25 ecological camera traps at Selati Game Reserve by 2022; it is funded by IUCN
+  Save Our Species.
+facts:
+- claim: Its page says the reserve has invested in wildlife monitoring, personnel tracking
+    and data recording.
+  url: https://selatiwf.org/monitoring-technology/
+  fetched: '2026-10-31'
+  quote: Over the recent years Selati Game Reserve has been researching and investing in innovative
+    Wildlife Monitoring, Personnel Tracking, and Data Recording
+- claim: Its technology page describes the reserve research team using camera traps and VHF
+    collars and adding a drone and LoRa tracking collars in its account of developments through
+    2022.
+  url: https://selatiwf.org/technology/
+  fetched: '2026-10-31'
+  quote: including a drone and tracking collars with a LoRa component
+- claim: Its account of technology developments through 2022 lists 25 ecological camera traps
+    at Selati Game Reserve.
+  url: https://selatiwf.org/technology/
+  fetched: '2026-10-31'
+  quote: 'Ecological Camera Traps: 25'
+- claim: A registered Non-Profit Company established in 2018.
+  url: https://selatiwf.org/about-us/
+  fetched: '2026-10-31'
+  quote: The Selati Wilderness Foundation (registration number 2018/090330/08) was established
+    in 2018.
+found_by:
+- checklist:4
+- checklist:register
+- rule:ngo-broad
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: funded-by
+  to: iucn-save-our-species
+  url: https://selatiwf.org/technology/
+  fetched: '2026-10-31'
+  quote: Thanks to the IUCN Save Our Species and EU International Partnerships Grant to the
+    Selati Wilderness Foundation

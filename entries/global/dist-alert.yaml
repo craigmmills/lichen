@@ -1,0 +1,37 @@
+id: dist-alert
+kind: dataset
+name: OPERA Land Surface Disturbance Alert
+also_known_as:
+- DIST-ALERT
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Satellite-based system that tracks land surface disturbance globally, created and operated by University of Maryland
+  researchers with NASA's OPERA project, using Landsat 8/9 and Sentinel-2 data.
+facts:
+- claim: Created and operated by University of Maryland researchers.
+  url: https://today.umd.edu/umd-researchers-create-first-system-to-track-near-real-time-changes-to-global-land-cover
+  quote: a new satellite-based monitoring system created and operated by University of Maryland researchers
+  fetched: '2026-10-30'
+- claim: Uses Landsat 8/9 and Sentinel-2A/B/C, five satellites in total.
+  url: https://today.umd.edu/umd-researchers-create-first-system-to-track-near-real-time-changes-to-global-land-cover
+  quote: leverages data from both Landsat 8/9 and Sentinel-2A/B/C, totaling five satell
+  fetched: '2026-10-30'
+- claim: Available on Global Forest Watch, which gives alerts within forests globally and in other ecosystems.
+  url: https://www.globalforestwatch.org/blog/data-and-tools/global-vegetation-disturbance-deforestation-alerts
+  quote: a new alert system available on GFW called DIST-ALERT provides alerts within forests globally
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: university-of-maryland
+  url: https://today.umd.edu/umd-researchers-create-first-system-to-track-near-real-time-changes-to-global-land-cover
+  quote: created and operated by University of Maryland researchers
+  fetched: '2026-10-30'
+found_by:
+- link-from:global-land-analysis-and-discovery
+added_by: agent
+checked: '2026-10-30'

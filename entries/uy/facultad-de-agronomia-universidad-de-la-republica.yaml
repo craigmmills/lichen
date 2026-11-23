@@ -1,0 +1,63 @@
+id: facultad-de-agronomia-universidad-de-la-republica
+kind: organisation
+name: Facultad de Agronomía, Universidad de la República
+also_known_as:
+- Fagro
+- FAGRO
+scope: uy
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: uy
+countries:
+- uy
+scale: national
+status: active
+website: https://portal.fagro.edu.uy
+summary: Faculty of the Universidad de la República that holds herbarium collections and thematic databases,
+  including 2001 to 2009 grassland vegetation surveys, and leads Flora Uruguaya Online through its plant
+  biology department.
+facts:
+- claim: Its GBIF publisher record says it holds and manages collections, among them the Bernardo Rosengurtt
+    herbarium, and thematic databases from sampling campaigns, monitoring programmes and collaborative
+    projects.
+  url: https://api.gbif.org/v1/organization/aa60f06d-d365-45d7-8c05-dbf04bcf3991
+  fetched: 2026-11-08
+  quote: La institución alberga y gestiona colecciones (por ejemplo, el Herbario Ing. Agr. Bernardo Rosengurtt)
+    y bases de datos temáticas producidas en el marco de campañas de muestreo, programas de monitoreo
+    y proyectos colaborativos nacionales e internacionales.
+- claim: A comment in its GBIF publisher record describes its expected data content as systematic observations
+    of vascular plants in Uruguay’s natural grasslands, obtained through phytosociological surveys.
+  url: https://api.gbif.org/v1/organization/aa60f06d-d365-45d7-8c05-dbf04bcf3991
+  fetched: 2026-11-08
+  quote: Las bases de datos reúnen registros sistemáticos de observaciones de plantas vasculares en pastizales
+    (campo natural) en Uruguay.
+- claim: GBIF's registry gives its address as Av. Gral. Eugenio Garzón 780, Montevideo.
+  url: https://api.gbif.org/v1/organization/aa60f06d-d365-45d7-8c05-dbf04bcf3991
+  fetched: 2026-11-08
+  quote: '"address":["Av. Gral. Eugenio Garzón 780"],"city":"Montevideo"'
+- claim: Its GBIF dataset list includes vegetation surveys of natural grassland in Uruguay from 2001 to
+    2009.
+  url: https://api.gbif.org/v1/organization/aa60f06d-d365-45d7-8c05-dbf04bcf3991/publishedDataset
+  fetched: 2026-11-08
+  quote: Censos de vegetación de campo natural en Uruguay 2001-2009
+- claim: Flora Uruguaya Online's GBIF publisher record says the initiative is led by the faculty's Departamento
+    de Biología Vegetal.
+  url: https://api.gbif.org/v1/organization/d4fa28ea-7857-4b9b-9f44-f90318cdb583
+  fetched: 2026-11-08
+  quote: Flora Uruguaya Online (FUO) is a national floristics initiative led by the Departamento de Biología
+    Vegetal, Facultad de Agronomía (FAGRO), Universidad de la República (UdelaR), Uruguay
+links:
+- type: run-by
+  to: universidad-de-la-republica
+  url: https://api.gbif.org/v1/organization/aa60f06d-d365-45d7-8c05-dbf04bcf3991
+  fetched: 2026-11-08
+  quote: La Facultad de Agronomía de la Universidad de la República es una institución pública
+found_by:
+- link-from:gbif-uruguay
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

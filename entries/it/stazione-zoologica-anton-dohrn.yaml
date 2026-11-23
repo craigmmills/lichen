@@ -1,0 +1,78 @@
+id: stazione-zoologica-anton-dohrn
+kind: organisation
+name: Stazione Zoologica Anton Dohrn
+scope: it
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- edna-genomics
+- computer-vision
+hq: it
+scale: national
+status: active
+summary: Italian marine research institute that took part in an OGS environmental DNA study
+  of the Marano and Grado lagoon.
+facts:
+- claim: OGS says the study was carried out with colleagues at ARPA FVG and the Stazione Zoologica
+    Anton Dohrn.
+  url: https://ogs.it/sites/default/files/CS_studio%20eDNA%20laguna%20Marano%20e%20Grado_0.pdf
+  fetched: 2026-10-31
+  quote: studio condotto insieme a colleg
+- claim: Offers marine environmental quality monitoring among its services.
+  url: http://www.szn.it
+  fetched: '2026-10-31'
+  quote: Monitoraggio qualità ambiente marino
+- claim: Its zoological collection database holds 4,373 videos and 18,212 still images.
+  url: http://www.szn.it/it/ricerca/database-ed-ulteriori-risorse
+  fetched: '2026-10-31'
+  quote: Il database raccoglie 4.373 video, 18.212 immagini statiche e 7.771 etichette
+- claim: Biodiversa+ lists its Sicily Marine Centre as a CAMBioMed partner.
+  url: https://www.biodiversa.eu/2024/04/15/cambiomed/
+  fetched: '2026-10-31'
+  quote: Sicily Marine Centre, Zoological Station Anton Dohrn, Palermo, Italy
+- claim: Operates the Imaging FlowCytobot in the Gulf of Naples.
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: mette in funzione l’ Imaging FlowCytobot (IFCB) nel Golfo di Napoli
+- claim: Machine learning algorithms identify organisms' species, shapes and sizes.
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: viene analizzata da algoritmi di machine learning che identificano automaticamente
+    specie, forme e dimensioni degli organismi
+- claim: Marine biology and ecology research institution.
+  url: https://api.gbif.org/v1/organization/227e6095-87ed-4d33-bd90-f0eec697f918
+  fetched: '2026-10-31'
+  quote: The Stazione Zoologica is among the top research institutions in the world in the
+    fields of marine biology and ecology.
+- claim: Address at Villa Comunale, Naples.
+  url: https://api.gbif.org/v1/organization/227e6095-87ed-4d33-bd90-f0eec697f918
+  fetched: '2026-10-31'
+  quote: '"address":["Villa Comunale"],"city":"Napoli"'
+found_by:
+- link-from:istituto-nazionale-di-oceanografia-e-di-geofisica-sperimentale
+- link-from:cambiomed
+- queue:it
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-10-31
+also_known_as:
+- SZN
+- Anton Dohrn Zoological Station
+links:
+- type: partners-with
+  to: cambiomed
+  url: https://www.biodiversa.eu/2024/04/15/cambiomed/
+  fetched: '2026-10-31'
+  quote: Sicily Marine Centre, Zoological Station Anton Dohrn, Palermo, Italy
+- type: runs
+  to: imaging-flowcytobot-golfo-di-napoli
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: La Stazione Zoologica Anton Dohrn (SZN) mette in funzione l’ Imaging FlowCytobot
+    (IFCB) nel Golfo di Napoli

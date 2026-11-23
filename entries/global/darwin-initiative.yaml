@@ -1,0 +1,35 @@
+id: darwin-initiative
+kind: programme
+name: Darwin Initiative
+scope: global
+roles: [funds]
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+scale: global
+status: active
+website: https://www.gov.uk/government/groups/the-darwin-initiative
+summary: UK government grants scheme for biodiversity conservation and poverty reduction in eligible low and middle income countries, with a related Darwin Plus fund for the UK Overseas Territories.
+countries:
+- gb
+facts:
+- claim: UK government grants scheme for biodiversity conservation and poverty reduction in eligible low and middle income countries.
+  url: https://www.gov.uk/government/groups/the-darwin-initiative
+  quote: The Darwin Initiative is a UK government grants scheme for biodiversity conservation and poverty reduction activities in eligible low and middle income countries.
+  fetched: &id001 2026-10-30
+- claim: A related fund, Darwin Plus, covers the natural environment and climate change in the UK Overseas Territories.
+  url: https://www.gov.uk/government/groups/the-darwin-initiative
+  quote: Darwin Plus , which offers funding for the natural environment and climate change in the UK Overseas Territories (OTs)
+  fetched: *id001
+links:
+- type: run-by
+  to: department-for-environment-food-and-rural-affairs
+  url: https://www.gov.uk/government/groups/the-darwin-initiative
+  quote: contact the Darwin Initiative Secretariat at the Department for Environment, Food and Rural Affairs
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

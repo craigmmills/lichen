@@ -1,0 +1,56 @@
+id: registry-of-open-data-on-aws
+kind: programme
+name: Registry of Open Data on AWS
+scope: global
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+status: active
+website: https://registry.opendata.aws
+summary: Catalogue that helps people find and share datasets available through AWS, including collections from NOAA, NASA, Digital Earth Africa and the Amazon Sustainability Data Initiative. Most datasets are provided by third parties.
+countries:
+- au
+- bd
+- br
+- ca
+- ch
+- cl
+- cr
+- es
+- fr
+- gb
+- jp
+- kr
+- mx
+- np
+- nz
+- ru
+- rw
+- tr
+- us
+facts:
+- claim: Helps people discover and share datasets on AWS.
+  url: https://registry.opendata.aws/
+  fetched: &id001 2026-10-30
+  quote: This registry exists to help people discover and share datasets that are available via AWS resources.
+- claim: Datasets are generally provided and maintained by third parties.
+  url: https://registry.opendata.aws/
+  fetched: *id001
+  quote: datasets available through the Registry of Open Data on AWS are not provided and maintained by AWS
+- claim: 'Helps people find and share datasets on AWS.'
+  url: https://registry.opendata.aws
+  fetched: 2026-10-30
+  quote: 'This registry exists to help people discover and share datasets that are available via AWS resources.'
+links:
+- type: run-by
+  to: amazon-web-services
+  url: https://aws.amazon.com/blogs/publicsector/the-amazon-sustainability-data-initiative-driving-sustainability-innovation-with-open-data-and-cloud-technology
+  fetched: *id001
+  quote: The AWS Open Data program already makes numerous datasets available for public use through its Registry of Open Data on AWS
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

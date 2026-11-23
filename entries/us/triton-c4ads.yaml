@@ -1,0 +1,50 @@
+id: triton-c4ads
+kind: programme
+name: Triton
+scope: us
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+status: active
+website: https://triton.fish/
+summary: Tool built and run by C4ADS linking industrial fishing vessels to their controlling
+  entities for counter-IUU fishing partners, using beneficial ownership data and,
+  at its May 2024 launch, free by invitation only.
+facts:
+- claim: Tool that links industrial fishing vessels to the entities that control them,
+    for counter-IUU fishing partners.
+  url: https://c4ads.org/news/c4ads-launches-triton/
+  fetched: 2026-11-21
+  quote: C4ADS is proud to introduce Triton, a new tool created to equip our partners
+    in the counter-IUU fishing space with the data they need to understand the multilayered
+    relationships between industrial fishing vessels and the entities that control
+    them.
+- claim: Uses a repository of beneficial ownership data for the world's industrial
+    fishing fleets.
+  url: https://c4ads.org/news/c4ads-launches-triton/
+  fetched: 2026-11-21
+  quote: By assembling and structuring the first-ever repository of beneficial ownership
+    data for the world’s industrialized fishing fleets
+- claim: At its May 2024 launch, Triton was free to use by invitation only.
+  url: https://c4ads.org/news/c4ads-launches-triton/
+  fetched: 2026-11-21
+  quote: While free to use, Triton is still invite-only.
+links:
+- type: built-by
+  to: c4ads
+  url: https://c4ads.org/news/c4ads-launches-triton/
+  fetched: &id001 2026-11-21
+  quote: Today, C4ADS is proud to introduce Triton
+- type: run-by
+  to: c4ads
+  url: https://c4ads.org/news/c4ads-launches-triton/
+  fetched: *id001
+  quote: Triton will only grow from here as we continue to add new data and new features.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

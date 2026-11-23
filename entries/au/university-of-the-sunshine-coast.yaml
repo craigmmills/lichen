@@ -1,0 +1,43 @@
+id: university-of-the-sunshine-coast
+kind: organisation
+name: University of the Sunshine Coast
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- other
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: Australian university whose authors lead 2025 papers on validating machine learning
+  for classifying animal behaviour from accelerometers and on forest restoration potential
+  using machine learning.
+facts:
+- claim: A USC author leads a 2025 paper on validating supervised machine learning models
+    for classifying animal behaviour from accelerometers.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I174025329,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Practical guidelines for validation of supervised machine learning models in accelerometer
+  ai_type: ml-supervised
+  fetched: '2026-11-08'
+- claim: A Forest Research Institute author leads a 2025 paper on forest ecosystem restoration
+    potential using machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I174025329,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Forest ecosystem restoration potential unravelled through machine learning algorithms
+  fetched: '2026-11-08'
+- claim: That author is listed with the Forest Research Institute, University of the Sunshine
+    Coast.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I174025329,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Forest Research Institute, University of the Sunshine Coast, Sippy Downs, Australia
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

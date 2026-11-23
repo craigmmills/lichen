@@ -1,0 +1,25 @@
+id: edna-fungi-forest-monitoring-plots-northwestern-siberia
+kind: dataset
+name: eDNA-based occurrence dataset on fungi from forest monitoring plots in Northwestern Siberia
+scope: ru
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+status: unknown
+runner: unknown
+website: https://fungariumysu.org/moleculab/metabarcoding/
+summary: Occurrence dataset on fungi from forest monitoring plots in Northwestern Siberia, for which GBIF
+  describes the eDNA sampling and sequencing.
+facts:
+- claim: GBIF describes the sampling and sequencing.
+  url: https://api.gbif.org/v1/dataset/fa49d9f1-d82b-4529-b63d-c4497e944c5e
+  fetched: '2026-10-31'
+  quote: soil and forest litter samples were collected for sequencing of nrITS region of fungal eDNA on
+    NanoporeMinION platform
+links: []
+found_by:
+- link-from:yugra-state-university
+added_by: agent
+checked: '2026-10-31'

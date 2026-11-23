@@ -1,0 +1,50 @@
+id: university-of-benghazi-department-of-botany
+kind: organisation
+name: Department of Botany, Faculty of Sciences, University of Benghazi
+also_known_as: []
+scope: ly
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ly
+countries:
+- ly
+scale: local
+status: active
+summary: University botany department linked to a paper using GIS and NDVI to assess
+  Storm Daniel's effects around El-Gabal El-Akhdar, and a 2025 article mapping the
+  invasive plant Bassia indica in Benghazi from satellite images.
+facts:
+- claim: 'OpenAlex gives the department as the affiliation of the first author record
+    on Using GIS and NDVI applications to evaluate Storm Daniel impacts on El-Gabal
+    El-Akhdar Area-Libya: Wadi El-kof as example. That record combines the names Salem
+    Elshatshat, Fatima Alsaeh and Abd Elrahmann El shatshat.'
+  url: https://api.openalex.org/works?filter=ids.openalex:W7167222103|W4293200335|W4391474453|W4414453837&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: -Faculty of Sciences, Department of Botany, Benghazi University, Libya
+- claim: The paper uses GIS and NDVI to evaluate the effects of Storm Daniel on the
+    El-Gabal El-Akhdar area, taking Wadi El-Kof as its example.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7167222103|W4293200335|W4391474453|W4414453837&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: 'Using GIS and NDVI applications to evaluate Storm Daniel impacts on El-Gabal
+    El-Akhdar Area-Libya: Wadi El-kof as example'
+- claim: A 2025 article whose author affiliation is the department used satellite
+    images and GIS to map the distribution and abundance of the invasive plant Bassia
+    indica in Benghazi.
+  url: https://www.srcest.org.ly/journal/index.php/ljest/article/view/375
+  fetched: 2026-11-12
+  quote: Use of Satellite Image Techniques to Determine Distribution and Abundance
+    of the Invasive Bassia indica in Benghazi City, Libya
+- claim: The article gives the department as its author affiliation.
+  url: https://www.srcest.org.ly/journal/index.php/ljest/article/view/375
+  fetched: 2026-11-12
+  quote: Botany department, Faculty of science, Benghazi University
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

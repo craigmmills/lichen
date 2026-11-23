@@ -1,0 +1,39 @@
+id: iabg
+kind: organisation
+name: IABG mbH
+scope: de
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Company listed by the CopWald service as active in forest remote sensing, offering
+  satellite land-use classification, change analyses, storm damage studies and biomass estimation.
+facts:
+- claim: Listed by the CopWald service as a provider active in forest remote sensing.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hier ist eine alphabetische Liste von Behörden und kommerziellen Dienstleistern,
+    die im Bereich Wald-Fernerkundung tätig sind.
+- claim: CopWald lists its Dresden Geodaten Factory for remote sensing analyses and forest
+    condition analyses.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: 'IABG mbh Dresden Geodaten Factory Tätigkeitsbereich: Themenfeld Forstwirtschaft:
+    Fernerkundliche Auswertungen, Waldzustandsanalysen'
+- claim: Offers land-use classification with optical and radar satellites, change analyses,
+    storm damage studies and biomass estimation.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Landnutzungsklassifikation mittels optischer und Radarsatelliten, Änderungsanalysen,
+    Datenmigration, Untersuchungen zu Sturmschäden, Biomassenbestimmung
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

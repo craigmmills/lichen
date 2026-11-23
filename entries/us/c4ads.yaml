@@ -1,0 +1,44 @@
+id: c4ads
+kind: organisation
+name: C4ADS
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: us
+scale: global
+website: https://c4ads.org
+countries:
+- us
+status: active
+summary: Nonprofit that serves as a data and technology hub for a global coalition against
+  wildlife trafficking, and runs the Wildlife Defense Platform.
+facts:
+- claim: Data and technology hub against wildlife trafficking.
+  url: https://c4ads.org/wildlife-crime/
+  fetched: '2026-10-30'
+  quote: we serve as a data and technology hub for a global coalition of front-line counter-wildlife
+    trafficking (CWT) organizations
+- claim: Its contact page gives 1201 I St NW, Suite 200, Washington DC.
+  url: https://c4ads.org/contact/
+  fetched: '2026-10-31'
+  quote: 1201 I St NW, Suite 200
+- claim: The IRS exempt organisation record, through ProPublica, lists The Center For Advanced
+    Defense Studies Inc at Washington, DC.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/731681366.json
+  fetched: '2026-10-31'
+  quote: '"city":"Washington","state":"DC"'
+links:
+- type: runs
+  to: wildlife-defense-platform
+  url: https://c4ads.org/news/c4ads-launches-new-wildlife-defense-platform/
+  fetched: '2026-10-30'
+  quote: C4ADS is proud to introduce our cutting-edge Wildlife Defense Platform
+found_by:
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'

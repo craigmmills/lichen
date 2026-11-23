@@ -1,0 +1,85 @@
+id: artsobservasjoner
+kind: dataset
+name: Artsobservasjoner
+scope: 'no'
+summary: A Norwegian citizen science species observation portal run by the Norwegian Biodiversity Information
+  Centre, launched in 2008, with about 25,000 registered users in 2025 according to Sabima.
+facts:
+- claim: Sabima describes it as a reporting system for species from the Norwegian Biodiversity Information
+    Centre.
+  url: https://www.ardal.kommune.no/_f/p1/icd98d437-273c-4216-8b9a-d5927f04dd99/artsobservasjoner_kristoffer_bohn_sabima_ardal_2842025.pdf
+  fetched: '2026-11-02'
+  quote: Et rapportsystem for arter fra Artsdatabanken
+- claim: Launched in 2008, according to Sabima.
+  url: https://www.ardal.kommune.no/_f/p1/icd98d437-273c-4216-8b9a-d5927f04dd99/artsobservasjoner_kristoffer_bohn_sabima_ardal_2842025.pdf
+  fetched: '2026-11-02'
+  quote: Lansert i 2008
+- claim: About 25,000 registered users in 2025, according to Sabima.
+  url: https://www.ardal.kommune.no/_f/p1/icd98d437-273c-4216-8b9a-d5927f04dd99/artsobservasjoner_kristoffer_bohn_sabima_ardal_2842025.pdf
+  fetched: '2026-11-02'
+  quote: 25.000 registrerte brukere
+- claim: In Sabima's 2025 presentation, its observations accounted for about two thirds of Artskart's
+    records.
+  url: https://www.ardal.kommune.no/_f/p1/icd98d437-273c-4216-8b9a-d5927f04dd99/artsobservasjoner_kristoffer_bohn_sabima_ardal_2842025.pdf
+  fetched: '2026-11-02'
+  quote: Artsobservasjoner utgjør ca. 2/3 av postene i Artskart
+- claim: BirdLife Norway says it is responsible for quality checks and reporting on birds on Artsobservasjoner.no,
+    which Artsdatabanken runs.
+  url: https://birdlifedata.no/
+  fetched: '2026-11-02'
+  quote: NOF har ansvar for kvalitetssikring og rapportering på fugler på Artsobservasjoner.no som driftes
+    av Artsdatabanken.
+- claim: Sabima says records in Artsobservasjoner become available immediately to management, research
+    and others.
+  url: https://www.sabima.no/kartlegging/kartlegging-av-natur/
+  fetched: '2026-11-02'
+  quote: Når frivillige registrerer artsfunn i Artsobservasjoner, blir informasjonen umiddelbart tilgjengelig
+    for forvaltning, forskning og alle som jobber med natur.
+- claim: A Norwegian citizen science species observation portal whose records are published to GBIF.
+  url: https://www.nhm.uio.no/english/research/projects/gbif/
+  fetched: &id001 2026-11-02
+  quote: maintained by NBIC are published to the GBIF portal.
+- claim: A REST API lets users fetch and report species observations.
+  url: https://data.norge.no/en/datasets/54e64995-06a3-4af9-b8f0-ce1ce66f4ec7/artskart
+  fetched: *id001
+  quote: REST API to artsobservasjoner.no. Observations of species by users can be fetched and reported
+    here.
+links:
+- type: run-by
+  to: norwegian-biodiversity-information-centre
+  url: https://www.ardal.kommune.no/_f/p1/icd98d437-273c-4216-8b9a-d5927f04dd99/artsobservasjoner_kristoffer_bohn_sabima_ardal_2842025.pdf
+  fetched: '2026-11-02'
+  quote: Et rapportsystem for arter fra Artsdatabanken
+- type: run-by
+  to: norwegian-biodiversity-information-centre
+  url: https://birdlifedata.no/
+  fetched: '2026-11-02'
+  quote: Artsobservasjoner.no som driftes av Artsdatabanken.
+- type: run-by
+  to: norwegian-biodiversity-information-centre
+  url: https://birdlifedata.no/
+  fetched: '2026-11-02'
+  quote: NOF har ansvar for kvalitetssikring og rapportering på fugler på Artsobservasjoner.no som driftes
+    av Artsdatabanken.
+- type: run-by
+  to: norwegian-biodiversity-information-centre
+  url: https://www.nhm.uio.no/english/research/projects/gbif/
+  fetched: *id001
+  quote: maintained by NBIC are published to the GBIF portal.
+found_by:
+- checklist:2
+- link-from:norwegian-biodiversity-information-centre
+added_by: agent
+checked: '2026-11-02'
+ai_label: conservation-tech
+status: active
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- 'no'
+techniques:
+- other
+also_known_as:
+- Norwegian Species Observation Service

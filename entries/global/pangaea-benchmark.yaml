@@ -1,0 +1,35 @@
+id: pangaea-benchmark
+kind: dataset
+name: PANGAEA Benchmark
+also_known_as:
+- PANGAEA
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/VMarsocci/pangaea-bench
+summary: Global and inclusive benchmark for geospatial foundation models, officially adopted
+  to benchmark TerraMind.
+ai_types:
+- foundation-models
+facts:
+- claim: Benchmark for geospatial foundation models.
+  ai_type: foundation-models
+  url: https://github.com/VMarsocci/pangaea-bench
+  fetched: '2026-10-30'
+  quote: 'PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation Models'
+links:
+- type: partners-with
+  to: terramind
+  url: https://github.com/VMarsocci/pangaea-bench
+  fetched: '2026-10-30'
+  quote: PANGAEA was officialy adopted to benchmark TerraMind
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

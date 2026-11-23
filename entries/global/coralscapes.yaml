@@ -1,0 +1,29 @@
+id: coralscapes
+kind: dataset
+name: Coralscapes
+scope: global
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://josauder.github.io/coralscapes/
+summary: General-purpose dense semantic segmentation data set for coral reefs with 2,075 images
+  and 174,000 annotations from five countries.
+facts:
+- claim: First general-purpose dense semantic segmentation dataset for coral reefs.
+  url: https://josauder.github.io/coralscapes/
+  fetched: '2026-10-30'
+  quote: The Coralscapes dataset is the first general-purpose dense semantic segmentation
+    dataset for coral reefs.
+links:
+- type: run-by
+  to: ecole-polytechnique-federale-de-lausanne
+  url: https://josauder.github.io/coralscapes/
+  fetched: '2026-10-30'
+  quote: load_dataset("EPFL-ECEO/coralscapes")
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,61 @@
+id: universiti-kebangsaan-malaysia
+kind: organisation
+name: Universiti Kebangsaan Malaysia
+also_known_as:
+- UKM
+- National University of Malaysia
+scope: my
+sector: academic
+roles:
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: University with OpenAlex-listed papers from 2022 to 2024 on machine learning for
+  logging impacts from drone images, elephant behaviour from collar data and mangrove biomass,
+  and an Earth Observation Centre.
+facts:
+- claim: OpenAlex lists a 2022 paper by its authors on machine learning for mapping selective
+    logging impacts from drone images.
+  url: https://api.openalex.org/works/W4206340880
+  fetched: 2026-11-03
+  quote: Integrated Segmentation Approach with Machine Learning Classifier in Detecting and
+    Mapping Post Selective Logging Impacts Using UAV Imagery
+- claim: OpenAlex lists a 2023 paper with an author there on machine learning for Asian elephant
+    behaviour from satellite collar data.
+  url: https://api.openalex.org/works/W4386103452
+  fetched: 2026-11-03
+  quote: Machine Learning Models for Behavioural Diversity of Asian Elephants Prediction Using
+    Satellite Collar Data
+- claim: OpenAlex lists a 2022 paper by UKM authors using a machine learning classifier to
+    map post-logging impacts from UAV imagery.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:machine%20learning%20biodiversity,from_publication_date:2021-01-01&per_page=15&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: Integrated Segmentation Approach with Machine Learning Classifier in Detecting and
+    Mapping Post Selective Logging Impacts Using UAV Imagery
+  ai_type: ml-supervised
+- claim: OpenAlex lists a 2024 paper by UKM authors on machine learning for above-ground biomass
+    in mangroves.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:machine%20learning%20biodiversity,from_publication_date:2021-01-01&per_page=15&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: Modelling Above-Ground Biomass Using Machine Learning Algorithms in Mangrove Forests
+    of Peninsular Malaysia
+- claim: The Earth Observation Centre is one of its research centres.
+  url: https://www.ukm.my/ipi/?p=3529
+  fetched: '2026-11-03'
+  quote: EOC IS ONE OF THE RESEARCH CENTRE IN UKM
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- ml-supervised

@@ -1,0 +1,42 @@
+id: national-butterfly-survey-of-finland
+kind: programme
+name: National Butterfly Survey of Finland
+also_known_as:
+- NAFI
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Research project coordinated and run by the Finnish Lepidopterological Society,
+  with observations recorded in the Finnish Museum of Natural History's database.
+facts:
+- claim: A research project coordinated by the Finnish Lepidopterological Society.
+  url: https://www.helsinki.fi/en/research-stations/kilpisjarvi-biological-station/research/long-term-monitoring-schemes
+  fetched: '2026-11-08'
+  quote: The National Butterfly survey of Finland (NAFI) is a research project coordinated
+    by the Finnish Lepidopterological Society.
+- claim: Observations are recorded in the database of the Finnish Museum of Natural
+    History.
+  url: https://www.helsinki.fi/en/research-stations/kilpisjarvi-biological-station/research/long-term-monitoring-schemes
+  fetched: '2026-11-08'
+  quote: The monitoring observations are recorded in the database of the Finnish Museum
+    of Natural History.
+links:
+- type: run-by
+  to: finnish-lepidopterological-society
+  url: https://www.helsinki.fi/en/research-stations/kilpisjarvi-biological-station/research/long-term-monitoring-schemes
+  fetched: '2026-11-08'
+  quote: The National Butterfly survey of Finland (NAFI) is a research project coordinated
+    by the Finnish Lepidopterological Society.
+- type: uses
+  to: finnish-museum-of-natural-history
+  url: https://www.helsinki.fi/en/research-stations/kilpisjarvi-biological-station/research/long-term-monitoring-schemes
+  fetched: '2026-11-08'
+  quote: The monitoring observations are recorded in the database of the Finnish Museum
+    of Natural History.
+found_by:
+- rule:checklist-misses
+- link-from:kilpisjarvi-biological-station
+added_by: agent
+checked: '2026-11-08'

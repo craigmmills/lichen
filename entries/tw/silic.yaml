@@ -1,0 +1,52 @@
+id: silic
+kind: model
+name: SILIC (Sound Identification and Labeling Intelligence for Creatures)
+also_known_as:
+- SILIC
+- 生物音智慧辨識與標記系統
+scope: tw
+ai_label: ai
+ai_types:
+- deep-learning
+status: active
+runner: unknown
+realms:
+- land
+techniques:
+- bioacoustics
+countries: []
+website: https://github.com/RedbirdTaiwan/silic
+summary: Sound identification model using Python and the yolov5 package for object detection on sounds;
+  the March 2025 release covers 390 sound classes of 272 species, built by the Taiwan Biodiversity Research
+  Institute.
+facts:
+- claim: Uses Python and the yolov5 package to build an object detection model for sounds.
+  url: https://github.com/RedbirdTaiwan/silic
+  fetched: 2026-11-12
+  quote: SILIC uses Python language and yolov5 package (Glenn Jocher et al., 2020) to construct an object
+    detection model.
+- claim: The model released in March 2025 covers 390 sound classes of 272 species.
+  url: https://github.com/RedbirdTaiwan/silic
+  fetched: 2026-11-12
+  quote: ./model/exp32 , including 390 sound classes of 272 species, updated on Mar. 2025
+- claim: The repository lists a dataset paper on acoustic detection of birds using a deep learning approach.
+  url: https://github.com/RedbirdTaiwan/silic
+  fetched: 2026-11-12
+  quote: An acoustic detection dataset of birds (Aves) in montane forests using a deep learning approach.
+  ai_type: deep-learning
+- claim: The SILIC paper, with S.-H. Wu as first author, appeared in Ecological Informatics in 2022.
+  url: https://github.com/RedbirdTaiwan/silic
+  fetched: 2026-11-12
+  quote: 'Wu, S. H., Chang, H. W., Lin, R. S., & Tuanmu, M. N. (2022). SILIC: A cross database framework
+    for automatically extracting robust biodiversity information from soundscape recordings based on object
+    detection and a tiny training dataset.'
+links:
+- type: built-by
+  to: taiwan-biodiversity-research-institute
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: SILIC (Sound Identification and Labeling Intelligence for Creatures) which was developed by ESRI
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

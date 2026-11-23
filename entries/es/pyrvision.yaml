@@ -1,0 +1,49 @@
+id: pyrvision
+kind: model
+name: PyrVision
+also_known_as:
+- PyrVisión
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+countries:
+- es
+website: http://github.com/ArnauCampanera/PyrVision
+summary: Open-source AI model that detects up to 17 kinds of animals, including humans, and
+  motor vehicles in camera-trap images from the Pyrenees.
+facts:
+- claim: Detects up to 17 kinds of animals, including humans, as well as motor vehicles.
+  url: https://blog.ctfc.cat/en/artificial-intelligence-drives-biodiversity-data-analysis/
+  quote: an AI model capable of automatically detecting up to 17 different kinds of animals
+    (including humans) as well as motor vehicles
+  fetched: '2026-10-31'
+- claim: Trained on 35,000 camera-trap photographs given by the Rural Agents and the Generalitat's
+    Fauna Service, according to 3Cat.
+  url: https://www.3cat.cat/3catinfo/la-ia-agilitzara-el-seguiment-de-los-bru-al-pirineu-feina-de-mesos-feta-en-segons/noticia-amp/3304550/
+  quote: s'ha entrenat amb 35.000 fotografies d'animals fetes per aquestes càmeres de fototrampeig
+    i cedides pels Agents Rurals i pel Servei de Fauna de la Generalitat
+  fetched: '2026-10-31'
+- claim: Open-source software.
+  url: https://blog.ctfc.cat/en/artificial-intelligence-drives-biodiversity-data-analysis/
+  quote: the open-source software can be accessed through the following link
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: centre-de-ciencia-i-tecnologia-forestal-de-catalunya
+  url: https://blog.ctfc.cat/en/artificial-intelligence-drives-biodiversity-data-analysis/
+  quote: PyrVisión is an artificial intelligence model developed by the CTFC and the CVC
+  fetched: '2026-10-31'
+- type: partners-with
+  to: centre-de-vision-per-computador
+  url: https://blog.ctfc.cat/en/artificial-intelligence-drives-biodiversity-data-analysis/
+  quote: in collaboration with the Center for Computer Vision (CVC) of the Universitat Autònoma
+    de Barcelona
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+scope: es
+added_by: agent
+checked: '2026-10-31'

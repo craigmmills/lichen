@@ -1,0 +1,40 @@
+id: charcoal-production-site-monitoring-service
+kind: programme
+name: Charcoal Production Site Monitoring Service
+scope: gh
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gh
+status: active
+summary: A web platform run by CERSGIS showing where charcoal production sites are,
+  to support monitoring of savannah woodland degradation in Ghana, with information
+  updated alongside national partners and communities.
+facts:
+- claim: A web platform visualising the spatial distribution of charcoal production
+    sites to support savannah woodland degradation monitoring in Ghana.
+  url: https://appcenter.servirglobal.net/detail/79
+  fetched: 2026-11-12
+  quote: This monitoring service is a web-based platform for visualizing the spatial
+    distribution of charcoal production sites, to facilitate savannah woodland degradation
+    monitoring in Ghana.
+- claim: CERSGIS produces and updates the information with national partners and communities.
+  url: https://appcenter.servirglobal.net/detail/79
+  fetched: 2026-11-12
+  quote: The information is produced and updated by CERSGIS in collaboration with
+    national partner institutions and communities.
+links:
+- type: run-by
+  to: centre-for-remote-sensing-and-geographic-information-services
+  url: https://appcenter.servirglobal.net/detail/79
+  fetched: 2026-11-12
+  quote: The information is produced and updated by CERSGIS in collaboration with
+    national partner institutions and communities.
+found_by:
+- rule:checklist-misses
+- link-from:centre-for-remote-sensing-and-geographic-information-services
+added_by: agent
+checked: 2026-11-12

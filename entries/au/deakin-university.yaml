@@ -1,0 +1,46 @@
+id: deakin-university
+kind: organisation
+name: Deakin University
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- other
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: University whose authors led a 2022 paper on a smart camera trap and a 2021 paper
+  evaluating machine learning classifiers for smart animal trackers; it hosts Deakin Marine
+  Mapping.
+facts:
+- claim: A Deakin School of Engineering author leads a 2022 paper on a smart camera trap for
+    detecting endotherms and ectotherms.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I149704539,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=10&select=id,title,publication_year,authorships
+  quote: A Smart Camera Trap for Detection of Endotherms and Ectotherms
+  fetched: '2026-11-08'
+- claim: The lead author of the smart camera trap paper is listed with the School of Engineering,
+    Deakin University, Geelong.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I149704539,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=10&select=id,title,publication_year,authorships
+  quote: School of Engineering, Deakin University, Geelong, VIC 3216, Australia
+  fetched: '2026-11-08'
+- claim: A Deakin Centre for Integrative Ecology author leads a 2021 paper evaluating machine
+    learning classifiers for smart animal trackers.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I149704539,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=10&select=id,title,publication_year,authorships
+  quote: An evaluation of machine learning classifiers for next-generation, continuous-ethogram
+    smart trackers
+  fetched: '2026-11-08'
+- claim: Deakin Marine Mapping is based at Deakin University.
+  url: https://www.marinemapping.org/
+  quote: Deakin Marine Mapping is based at Deakin University
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

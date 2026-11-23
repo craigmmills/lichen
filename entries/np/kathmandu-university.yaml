@@ -1,0 +1,37 @@
+id: kathmandu-university
+kind: organisation
+name: Kathmandu University
+scope: np
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+scale: national
+hq: unknown
+countries:
+- np
+status: active
+summary: A university whose Aquatic Ecology Centre is listed by OpenAlex as an affiliation of Prayon Joshi,
+  first author of a paper on monitoring chlorophyll-a in Phewa Lake with satellite images and ensemble-based
+  learning.
+facts:
+- claim: OpenAlex lists a paper on monitoring chlorophyll-a in Phewa Lake using satellite images and ensemble-based
+    learning.
+  url: https://api.openalex.org/works/W7129043809?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Monitoring chlorophyll-a in Phewa Lake, Nepal using satellite images and ensemble-based learning
+- claim: OpenAlex gives the paper's first author, Prayon Joshi, an affiliation with the Aquatic Ecology
+    Centre, School of Science, Kathmandu University, as well as Nepal Open University.
+  url: https://api.openalex.org/works/W7129043809?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Aquatic Ecology Centre, School of Science, Kathmandu University
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

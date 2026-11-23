@@ -1,0 +1,43 @@
+id: gbif-uganda
+kind: programme
+name: GBIF Uganda
+scope: ug
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ug
+status: active
+runner: unknown
+summary: Country node of GBIF with observer participation status, listed alongside seven publishing organisations
+  in Uganda and acting as endorsing node for the National Fisheries Resources Research Institute.
+facts:
+- claim: GBIF's registry lists GBIF Uganda as a country node with observer participation status.
+  url: https://api.gbif.org/v1/node/country/UG
+  fetched: 2026-11-08
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Uganda"'
+- claim: GBIF lists seven publishing organisations in Uganda, including the National Biodiversity Data
+    Bank, NatureUganda, A Rocha Uganda and the National Fisheries Resources Research Institute.
+  url: https://api.gbif.org/v1/organization?country=UG&limit=100
+  fetched: 2026-11-08
+  quote: '"count":7'
+- claim: GBIF lists GBIF Uganda as a country node with observer status.
+  url: https://api.gbif.org/v1/node/71b40829-6a12-4c3d-8fee-5746f5e9cf8c
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER"'
+- claim: It is the endorsing node for the National Fisheries Resources Research Institute.
+  url: https://api.gbif.org/v1/organization/4f3d98d3-f69a-4929-9291-6c35340b6711
+  fetched: 2026-11-08
+  quote: '"endorsingNodeKey":"71b40829-6a12-4c3d-8fee-5746f5e9cf8c"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/UG
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER"'
+found_by:
+- checklist:2
+- link-from:gbif
+added_by: agent
+checked: 2026-11-08

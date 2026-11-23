@@ -1,0 +1,31 @@
+id: macrobiome-image-archive
+kind: dataset
+name: Macrobiome Image Archive
+scope: ke
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- ke
+status: active
+summary: Public archive of geo-referenced biodiversity photographs from the ITCER
+  site in Ng'iya, western Kenya.
+facts:
+- claim: Holds image segments that are publicly visible.
+  url: https://itcer.org/itcer-monitoring-macrobiome-biodiversity-on-site
+  fetched: '2026-10-31'
+  quote: which are publicly visible in the Macrobiome Image Archive
+- claim: Every record has a date, time and coordinates.
+  url: https://itcer.org/itcer-monitoring-macrobiome-biodiversity-on-site
+  fetched: '2026-10-31'
+  quote: every record includes camera model identifiers
+links:
+- type: run-by
+  to: international-training-centre-for-environmental-research
+  url: https://itcer.org/itcer-monitoring-macrobiome-biodiversity-on-site
+  fetched: '2026-10-31'
+  quote: 'Project lead: International Training Centre for Environmental Research (ITCER)'
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

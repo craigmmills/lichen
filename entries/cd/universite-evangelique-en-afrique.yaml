@@ -1,0 +1,39 @@
+id: universite-evangelique-en-afrique
+kind: organisation
+name: Université Evangélique en Afrique
+also_known_as:
+- UEA
+scope: cd
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: cd
+countries:
+- cd
+scale: national
+status: active
+website: http://uea.ac.cd
+summary: A university located in Panzi, Bukavu, linked through OpenAlex to a 2023 paper on mapping small
+  inland wetlands in South Kivu with optical and SAR data.
+facts:
+- claim: OpenAlex lists a 2023 paper on mapping small inland wetlands in South Kivu with optical and SAR
+    data, whose first author's affiliations include the Université Evangélique en Afrique.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Mapping small inland wetlands in the South-Kivu province by integrating optical and SAR data
+    with statistical models for accurate distribution assessment
+- claim: Its website gives its location as Panzi, Bukavu.
+  url: http://uea.ac.cd
+  fetched: 2026-11-08
+  quote: RDCongo, Bukavu, Panzi
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

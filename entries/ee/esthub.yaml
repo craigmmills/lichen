@@ -1,0 +1,48 @@
+id: esthub
+kind: programme
+name: ESTHub
+also_known_as:
+- Estonian National Satellite Data Center
+scope: ee
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ee
+status: active
+summary: Active programme, run by the Land and Spatial Board, that stores Sentinel data covering Estonia,
+  free to all users, and received €430,000 from the EU Structural Fund.
+facts:
+- claim: Stores data from Sentinel missions covering Estonian territory and other areas of interest.
+  url: https://www.maaruum.ee/en/maps-geodata-and-addresses/remote-sensing/satellite-data
+  fetched: 2026-11-08
+  quote: ESTHub stores data from Sentinel missions covering Estonian territory and other areas of interest.
+- claim: Data are free to all users, while the processing environment is for government agencies and companies
+    developing services for them.
+  url: https://www.maaruum.ee/en/maps-geodata-and-addresses/remote-sensing/satellite-data
+  fetched: 2026-11-08
+  quote: the data processing environment is currently intended for use only by government agencies and
+    companies that develop services for government agencies.
+- claim: Received €430,000 from the European Union Structural Fund for its development.
+  url: https://www.maaruum.ee/en/maps-geodata-and-addresses/remote-sensing/satellite-data
+  fetched: 2026-11-08
+  quote: Funding for the development of ESTHub has been received from the European Union Structural Fund
+    in the amount of €430,000.
+links:
+- type: run-by
+  to: land-and-spatial-board-estonia
+  url: https://www.maaruum.ee/en/maps-geodata-and-addresses/remote-sensing/satellite-data
+  fetched: 2026-11-08
+  quote: The national satellite data center ESTHub, established under the Estonian Land and Spatial Development
+    Board
+found_by:
+- checklist:1
+- checklist:2
+added_by: agent
+checked: 2026-11-08

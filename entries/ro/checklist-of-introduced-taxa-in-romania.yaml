@@ -1,0 +1,41 @@
+id: checklist-of-introduced-taxa-in-romania
+kind: dataset
+name: Checklist of introduced taxa in Romania
+scope: ro
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+countries:
+- ro
+status: active
+summary: Dataset run by Ovidius University of Constanța and the University of Bucharest, covering 827
+  introduced taxa occurring in Romania and published under a CC BY 4.0 licence.
+facts:
+- claim: Contains information on 827 introduced taxa occurring in Romania.
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: It contains information on 827 introduced taxa occurring in Romania
+- claim: Published under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: run-by
+  to: ovidius-university-of-constanta
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: is a taxa checklist dataset managed by the University of Constanta and University of Bucharest,
+    Romania
+- type: run-by
+  to: university-of-bucharest
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: is a taxa checklist dataset managed by the University of Constanta and University of Bucharest,
+    Romania
+found_by:
+- register:ro
+- link-from:ovidius-university-of-constanta
+added_by: agent
+checked: 2026-11-08

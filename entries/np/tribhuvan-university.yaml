@@ -1,0 +1,60 @@
+id: tribhuvan-university
+kind: organisation
+name: Tribhuvan University
+scope: np
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+hq: np
+countries:
+- np
+scale: national
+status: active
+summary: A university that OpenAlex lists as having the most Nepal-affiliated works since 2018 in ecology
+  and nature conservation subfields, with 1,024 of 1,599, and whose authors appear on several species
+  and habitat papers.
+facts:
+- claim: OpenAlex lists Tribhuvan University as the institution with the most Nepal-affiliated works since
+    2018 in ecology and nature conservation subfields (1,024 of 1,599).
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:NP,primary_topic.subfield.id:2309|1105|2303,publication_year:>2017&group_by=authorships.institutions.lineage
+  fetched: 2026-11-08
+  quote: Tribhuvan University
+- claim: OpenAlex records a Tribhuvan University author on the paper Climate change amplifies plant invasion
+    hotspots in Nepal.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I155028946|I2801534221|I94973836,publication_year:>2017,primary_topic.id:T10895&sort=cited_by_count:desc&per-page=15&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Climate change amplifies plant invasion hotspots in Nepal
+- claim: OpenAlex records Tribhuvan University authors on a paper predicting the distribution of pangolins
+    in Nepal.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I155028946|I2801534221|I94973836,publication_year:>2017,primary_topic.id:T10895&sort=cited_by_count:desc&per-page=15&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Predicting the potential distribution and habitat variables associated with pangolins in Nepal
+- claim: OpenAlex lists a paper on habitat suitability for red panda in Dhorpatan Hunting Reserve whose
+    first author is at Tribhuvan University's Central Department of Environmental Science.
+  url: https://api.openalex.org/works/W4411966365?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Central Department of Environmental Science, Institute of Science and Technology, Tribhuvan University,
+    Kirtipur, Nepal
+- claim: OpenAlex lists a paper on mammal community occupancy in Dhorpatan Hunting Reserve whose first
+    author is at Tribhuvan University's Central Department of Zoology.
+  url: https://api.openalex.org/works/W4362720647?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Central Department of Zoology, Institute of Science and Technology, Tribhuvan University, Kathmandu,
+    Nepal
+- claim: The zoology department site gives the university address as "Kritipur", Kathmandu, using that
+    spelling.
+  url: https://www.cdztu.edu.np/
+  fetched: 2026-11-08
+  quote: Tribhuvan University, Kritipur, Kathmandu, Nepal
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08
+also_known_as:
+- TU

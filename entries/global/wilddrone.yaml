@@ -1,0 +1,74 @@
+id: wilddrone
+kind: programme
+name: WildDrone
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+- ml-unsupervised
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+website: https://wilddrone.eu
+summary: International doctoral training network funded by the EU's Marie Skłodowska-Curie
+  Actions that develops autonomous drones for monitoring wildlife, with 13 doctoral candidates.
+countries:
+- gb
+- ke
+- na
+facts:
+- claim: Funded by the EU's Marie Skłodowska-Curie Actions to research drones for wildlife
+    conservation.
+  url: https://wilddrone.eu/
+  quote: An international training network funded by the EU’s Marie Skłodowska Curie Actions
+    to research and develop the use of drones for wildlife conservation.
+  fetched: '2026-10-30'
+- claim: Trains 13 doctoral candidates.
+  url: https://wilddrone.eu/
+  quote: The consortium will train 13 doctoral candidates
+  fetched: '2026-10-30'
+- claim: A WildDrone model was trained on images featuring labelled plumes.
+  url: https://wilddrone.eu/scientific-publications/
+  fetched: '2026-10-30'
+  quote: by training a YOLOv8 object detection model thanks to a database of 1505 images that
+    feature labelled plumes
+  ai_type: ml-supervised
+- claim: WildDrone's CATER method uses an unsupervised detection mechanism.
+  url: https://wilddrone.eu/scientific-publications/
+  fetched: '2026-10-30'
+  quote: a novel methodology combining an unsupervised probabilistic detection mechanism
+  ai_type: ml-unsupervised
+links:
+- type: partners-with
+  to: max-planck-society
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: 2026-10-30
+  quote: Max-Planck-Gesellschaft (MPG)
+- type: partners-with
+  to: wageningen-university-and-research
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: 2026-10-30
+  quote: Wageningen University (WU)
+  logo: https://www.wur.nl/en.htm
+- type: partners-with
+  to: university-of-bristol
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: 2026-10-30
+  quote: University of Bristol (UB)
+- type: partners-with
+  to: ecole-polytechnique-federale-de-lausanne
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: 2026-10-30
+  quote: Ecole Polytechnique Fédérale de Lausanne (EPFL)
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: 2026-10-30
+  quote: World Wildlife Fund (WWF)
+found_by:
+- link-from:global-conservation-tech-and-drone-forum
+added_by: agent
+checked: '2026-10-30'

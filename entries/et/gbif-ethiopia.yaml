@@ -1,0 +1,45 @@
+id: gbif-ethiopia
+kind: programme
+name: GBIF Ethiopia
+scope: et
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+countries:
+- et
+status: active
+runner: unknown
+summary: Country node of GBIF with associate participation status, whose head of delegation is listed
+  as Karta Kaske Kalsa.
+facts:
+- claim: GBIF's directory lists GBIF Ethiopia as a country node with associate participation status.
+  url: https://api.gbif.org/v1/node/country/ET
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- claim: The node record lists Karta Kaske Kalsa as head of delegation.
+  url: https://api.gbif.org/v1/node/country/ET
+  fetched: 2026-11-08
+  quote: '"type":"HEAD_OF_DELEGATION","primary":false,"userId":[],"firstName":"Karta Kaske","lastName":"Kalsa"'
+- claim: GBIF's node record lists GBIF Ethiopia as a country node with Associate participation.
+  url: https://api.gbif.org/v1/node/644d5d6b-3aac-4d1a-9237-464c38dbda21
+  fetched: '2026-11-08'
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Ethiopia"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/ET
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Ethiopia","participantTitle":"Ethiopia"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/644d5d6b-3aac-4d1a-9237-464c38dbda21
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

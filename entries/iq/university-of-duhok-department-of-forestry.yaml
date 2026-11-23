@@ -1,0 +1,39 @@
+id: university-of-duhok-department-of-forestry
+kind: organisation
+name: Department of Forestry, College of Agricultural Engineering Sciences, University
+  of Duhok
+also_known_as: []
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- iq
+scale: local
+status: active
+summary: Forestry department at the University of Duhok, listed by OpenAlex as lead
+  affiliation on a 2025 remote sensing assessment of forest degradation and environmental
+  stress in Amedi District.
+facts:
+- claim: Lead (first-author) affiliation on a 2025 remote sensing assessment of forest
+    degradation and environmental stress in Amedi District, per OpenAlex.
+  url: https://api.openalex.org/works/W4413874153?select=authorships
+  fetched: 2026-11-12
+  quote: Department of Forestry, College of Agricultural Engineering Sciences, University
+    of Duhok, Duhok, Kurdistan Region, Iraq
+- claim: OpenAlex lists the paper's title.
+  url: https://api.openalex.org/works?filter=institutions.country_code:IQ,from_publication_date:2022-01-01,title.search:forest%20remote%20sensing&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: A Comprehensive Remote Sensing Approach for Assessing Forest Degradation
+    and Environmental Stress in Amedi District, Kurdistan Region of Iraq
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

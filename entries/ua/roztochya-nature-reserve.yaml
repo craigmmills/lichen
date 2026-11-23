@@ -1,0 +1,68 @@
+id: roztochya-nature-reserve
+kind: organisation
+name: Roztochya Nature Reserve
+also_known_as:
+- Strict Nature Reserve Roztochya
+- Nature Reserve "Roztochya"
+scope: ua
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+hq: ua
+countries:
+- ua
+scale: local
+status: active
+summary: Nature reserve in western Ukraine that publishes bird and amphibian records from
+  acoustic monitoring analysed with deep learning models, and camera trap observations from
+  a project begun in 2020.
+facts:
+- claim: A nature reserve on the main European watershed in western Ukraine.
+  url: https://api.gbif.org/v1/organization/fa99bff8-6caa-495c-b136-128e541041cc
+  fetched: 2026-11-03
+  quote: Roztochya is a nature reserve located on the main European watershed
+- claim: Publishes to GBIF bird and amphibian records from passive acoustic monitoring and
+    observations from a camera trap monitoring project.
+  url: https://api.gbif.org/v1/organization/fa99bff8-6caa-495c-b136-128e541041cc/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: Observations from camera trap monitoring project in Roztochya Nature Reserve
+- claim: Its bird dataset was recorded with autonomous acoustic recorders and analysed with
+    BirdNET, a deep learning species identification model.
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-03
+  quote: analyzed using BirdNET, a deep learning-based species identification model
+  ai_type: deep-learning
+- claim: Its amphibian dataset was analysed with a custom deep learning model developed from
+    the BirdNET architecture, with a sample of detections checked by experts.
+  url: https://api.gbif.org/v1/dataset/790244fc-c7cb-41ca-91ac-15ff7d7c4716
+  fetched: 2026-11-03
+  quote: analyzed using a custom deep learning model for amphibian species identification,
+    developed based on the BirdNET architecture
+  ai_type: deep-learning
+- claim: The camera trap monitoring project started in 2020 and the dataset says it is ongoing.
+  url: https://api.gbif.org/v1/dataset/b587c2e3-0252-4940-947f-5899a27dcaf9
+  fetched: 2026-11-03
+  quote: The project started in 2020 and is ongoing.
+links:
+- type: uses
+  to: birdnet
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-03
+  quote: analyzed using BirdNET, a deep learning-based species identification model
+- type: uses
+  to: frognet
+  url: https://api.gbif.org/v1/dataset/790244fc-c7cb-41ca-91ac-15ff7d7c4716
+  fetched: 2026-11-03
+  quote: processed through the custom-trained model for automated species detection
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

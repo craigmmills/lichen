@@ -1,0 +1,38 @@
+id: instituto-de-investigaciones-geograficas-umsa
+kind: organisation
+name: Instituto de Investigaciones Geográficas, Universidad Mayor de San Andrés
+scope: bo
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- bo
+scale: national
+status: active
+summary: Geography research institute at the Universidad Mayor de San Andrés, whose
+  affiliation appears on a 2024 paper comparing spectral signatures of asaí, majo
+  and cacao using remote sensors in northern La Paz.
+facts:
+- claim: OpenAlex lists a 2024 paper comparing spectral signatures of asaí, majo and
+    cacao with remote sensors in the northern Amazon of La Paz.
+  url: https://api.openalex.org/works/W4407687839?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: con sensores remotos en el Norte Amaz\u00f3nico de La Paz-Bolivia
+- claim: The first author's affiliation is the Instituto de Investigaciones Geográficas,
+    Carrera de Ingeniería Geográfica, Universidad Mayor de San Andrés.
+  url: https://api.openalex.org/works/W4407687839?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Javier Nu\u00f1ez-Villalba","raw_affiliation_strings":["Docente
+    Investigador , Instituto de Investigaciones Geogr\u00e1ficas'
+links: []
+found_by:
+- rule:checklist-misses
+- checklist:3
+added_by: agent
+checked: 2026-11-12

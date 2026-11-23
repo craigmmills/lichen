@@ -1,0 +1,92 @@
+id: biome-app
+kind: dataset
+name: Biome app and BiomeDB
+also_known_as:
+- BiomeDB
+- Biome Creature Collection App
+- いきものコレクションアプリBiome
+scope: jp
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- jp
+status: active
+website: https://biome.co.jp/en/
+summary: Citizen species-identification app and database from Biome Inc., released April 2019, covering
+  about 100,000 Japanese species; the company reports 1.3 million downloads, and BiomeDB record counts
+  differ between sources.
+facts:
+- claim: BiomeDB is described as a domestic real-time biological database of more than 10 million records.
+  url: https://www.ntt.com/about-us/press-releases/news/article/2026/0528_2.html
+  fetched: 2026-11-02
+  quote: バイオームが保有する国内最大級1,000万件以上のリアルタイム生物データベース「BiomeDB」
+- claim: Citizen biological information platform with species identification AI, covering almost all Japanese
+    flora and fauna, approximately 100,000 species.
+  url: https://biome.co.jp/en/products/biome-creature-collection-app/
+  fetched: '2026-11-02'
+  quote: Biome is a citizen-participatory biological information collection platform equipped with the
+    latest species identification AI, covering almost all Japanese flora and fauna (approximately 100,000
+    species).
+- claim: Biome Inc. says the app has passed 1.3 million downloads.
+  url: https://biome.co.jp/en/about-us/
+  fetched: '2026-11-02'
+  quote: which has surpassed 1.3 million downloads
+- claim: Released in April 2019.
+  url: https://biome.co.jp/en/about-us/
+  fetched: '2026-11-02'
+  quote: April 2019 App “Biome” released
+- claim: NTT’s March 2025 release describes it as Biome’s real-time database of organisms with over 8.5
+    million entries.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: Biome's real-time "BiomeDB" database of organisms, one of the largest in Japan with over 8.5
+    million entries
+- claim: Says its AI covers nearly all of Japan's plants and animals, about 100,000 species.
+  url: https://biome.co.jp/products/biome-app/
+  fetched: '2026-11-02'
+  quote: 日本の動植物ほぼ全て（約10万種）に対応した最新の名前判定AI
+- claim: Its own AI proposes species names from the place and season of a posted photograph.
+  url: https://biome.co.jp/products/biome-app/
+  fetched: '2026-11-02'
+  quote: 撮影された場所と季節をもとに、独自開発のAIが種名候補を自動提案します。
+links:
+- type: built-by
+  to: biome-inc
+  url: https://biome.co.jp/en/
+  fetched: 2026-11-02
+  quote: Through products like the Biome app, we build big data that continues to capture changes in nature.
+- type: built-by
+  to: biome-inc
+  url: https://biome.co.jp/en/about-us/
+  fetched: '2026-11-02'
+  quote: April 2019 App “Biome” released
+- type: run-by
+  to: biome-inc
+  url: https://biome.co.jp/en/about-us/
+  fetched: '2026-11-02'
+  quote: We self-develop and self-operate multiple services specialized in the biodiversity field.
+- type: run-by
+  to: biome-inc
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: Biome's real-time "BiomeDB" database of organisms
+- type: built-by
+  to: biome-inc
+  url: https://biome.co.jp/about/
+  fetched: '2026-11-02'
+  quote: 生物多様性分野に特化した複数のサービスを自社開発・自社運営しています。
+- type: run-by
+  to: biome-inc
+  url: https://biome.co.jp/about/
+  fetched: '2026-11-02'
+  quote: 生物多様性分野に特化した複数のサービスを自社開発・自社運営しています。
+found_by:
+- checklist:5
+- link-from:biome-inc
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision

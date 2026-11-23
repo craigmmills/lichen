@@ -1,0 +1,39 @@
+id: natural-capital-accounts-netherlands
+kind: dataset
+name: Natural Capital Accounts for the Netherlands
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- nl
+summary: National ecosystem accounts produced by Statistics Netherlands and Wageningen
+  University and Research, which have worked together on natural capital accounting
+  since 2015.
+scope: nl
+facts:
+- claim: Statistics Netherlands and Wageningen University and Research have collaborated
+    since 2015.
+  url: https://www.cbs.nl/-/media/natuurlijk-kapitaal/nca_nl-technical-report-2025.pdf
+  fetched: '2026-10-31'
+  quote: Statistics Netherlands (CBS) and Wageningen University and Research (WUR)
+    have collaborated since 2015 to implement natural capital accounting for the Netherlands.
+links:
+- type: run-by
+  to: centraal-bureau-voor-de-statistiek
+  url: https://www.cbs.nl/-/media/natuurlijk-kapitaal/nca_nl-technical-report-2025.pdf
+  fetched: '2026-10-31'
+  quote: Statistics Netherlands (CBS) and Wageningen University and Research (WUR)
+    have collaborated since 2015 to implement natural capital accounting for the Netherlands.
+- type: run-by
+  to: wageningen-university-and-research
+  url: https://www.cbs.nl/-/media/natuurlijk-kapitaal/nca_nl-technical-report-2025.pdf
+  fetched: '2026-10-31'
+  quote: Statistics Netherlands (CBS) and Wageningen University and Research (WUR)
+    have collaborated since 2015 to implement natural capital accounting for the Netherlands.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

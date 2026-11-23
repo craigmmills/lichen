@@ -1,0 +1,48 @@
+id: firescope-ai
+kind: model
+name: FireScope AI
+scope: bg
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Active model built by INSAIT and ETH Zurich that combines Sentinel-2 imagery and climate data
+  to produce wildfire risk maps, with the map, paper, code and data released at firescope.ai.
+facts:
+- claim: Combines satellite imagery and climate data into continuous risk maps, inferring vegetation density
+    and dryness and seasonal drought trends.
+  url: https://insait.ai/announcing-firescope-ai-the-first-public-wildfire-risk-map-for-europe/
+  fetched: 2026-11-08
+  quote: FireScope AI works by combining satellite imagery and climate data into continuous risk maps.
+    To produce robust, expert-level fire risk estimates, it uses these inputs to infer vegetation density
+    and dryness, seasonal drought trends
+- claim: Uses a model trained to reason over Sentinel-2 imagery and climate variables and a vision model
+    that produces wildfire risk rasters.
+  url: https://insait.ai/announcing-firescope-ai-the-first-public-wildfire-risk-map-for-europe/
+  fetched: 2026-11-08
+  quote: 'FireScope AI uses a novel reasoning-to-generation pipeline: a thinking model we trained to explicitly
+    reason over Sentinel-2 imagery and climate variables and a vision model that turns its signal into
+    dense wildfire risk rasters.'
+- claim: The map, paper, code and data are released at firescope.ai.
+  url: https://insait.ai/announcing-firescope-ai-the-first-public-wildfire-risk-map-for-europe/
+  fetched: 2026-11-08
+  quote: 'We are releasing the European interactive map, as well as our research paper, code, data, at:
+    www.firescope.ai'
+links:
+- type: built-by
+  to: insait
+  url: https://uni-sofia.bg/index.php/eng/news/news_and_events/insait_develops_ai_system_for_predicting_wildfire_risk_across_europe
+  fetched: 2026-11-08
+  quote: FireScope AI is the first system of its kind and has been developed by the Institute for Computer
+    Science, Artificial Intelligence and Technology (INSAIT) at Sofia University “St. Kliment Ohridski”.
+- type: built-by
+  to: eth-zurich
+  url: https://insait.ai/announcing-firescope-ai-the-first-public-wildfire-risk-map-for-europe/
+  fetched: 2026-11-08
+  quote: FireScope is built in collaboration with ETH Zurich
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-08

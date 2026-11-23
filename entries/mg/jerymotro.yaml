@@ -1,0 +1,48 @@
+id: jerymotro
+kind: programme
+name: JeryMotro
+also_known_as: []
+scope: mg
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mg
+status: active
+runner: unknown
+summary: A wildfire alert programme that aggregates FIRMS satellite data across all
+  22 regions of Madagascar and uses a machine learning model trained on three years
+  of data to predict next-day fire risk; the site presents it as a 2026 undergraduate
+  thesis.
+facts:
+- claim: Aggregates FIRMS satellite data, applies machine learning models and sends
+    real-time alerts to protect Malagasy forests.
+  url: https://jerymotro.duckdns.org/en/
+  fetched: 2026-11-15
+  quote: JeryMotro aggregates FIRMS satellite data, applies advanced ML models, and
+    alerts you in real time to protect Malagasy forests.
+- claim: Uses a machine learning model trained on three years of data to predict wildfire
+    risk for the next day.
+  url: https://jerymotro.duckdns.org/en/
+  fetched: 2026-11-15
+  quote: ML model trained on 3 years of data to predict wildfire risk J+1 with 89%
+    accuracy.
+  ai_type: ml-supervised
+- claim: Covers all 22 regions of Madagascar using MODIS and VIIRS satellite detections.
+  url: https://jerymotro.duckdns.org/en/
+  fetched: 2026-11-15
+  quote: The platform monitors all 22 regions of Madagascar using MODIS Terra/Aqua
+    and VIIRS Suomi-NPP satellites.
+- claim: The site presents it as a 2026 undergraduate (L3) software engineering thesis.
+  url: https://jerymotro.duckdns.org/en/
+  fetched: 2026-11-15
+  quote: Mémoire L3 Génie Logiciel 2026
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

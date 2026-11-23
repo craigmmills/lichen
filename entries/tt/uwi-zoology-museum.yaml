@@ -1,0 +1,62 @@
+id: uwi-zoology-museum
+kind: organisation
+name: The University of the West Indies Zoology Museum
+also_known_as:
+- UWIZM
+scope: tt
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+hq: tt
+countries: []
+scale: national
+status: active
+website: https://sta.uwi.edu/fst/lifesciences/uwi-zoology-museum
+summary: A university zoology museum that its GBIF record calls the de facto national zoology collection
+  of Trinidad and Tobago, publishes 45 GBIF datasets, and says it mainly organises the annual Bioblitz
+  it runs.
+facts:
+- claim: Its GBIF publisher record calls it the de facto national zoology collection of Trinidad and Tobago.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: The University of the West Indies Zoology Museum (UWIZM) is the de facto national zoology collection
+    of Trinidad & Tobago.
+- claim: Says it is the main organiser of the annual Trinidad and Tobago Bioblitz.
+  url: https://sta.uwi.edu/fst/lifesciences/node/219
+  fetched: '2026-11-09'
+  quote: The UWIZM is the main organiser of the annual Trinidad & Tobago Bioblitz.
+- claim: Publishes 45 datasets through GBIF.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: '"numPublishedDatasets":45'
+- claim: Publishes on GBIF a survey of terrestrial and some freshwater molluscs at 111 sites across Trinidad
+    and Tobago, 2014 to 2017, done by its then curator Mike Rutherford for his PhD.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=954e32db-634d-4d5f-908c-3d14c961b097&q=survey&limit=5
+  fetched: '2026-11-09'
+  quote: This dataset contains information about the mollusc specimens collected from a variety of mainly
+    terrestrial but also some freshwater habitats at 111 sites throughout the twin-island Republic of
+    Trinidad &amp; Tobago.
+- claim: Its GBIF publisher record gives an address on the UWI campus at St. Augustine.
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: '"address":["UWI Campus"],"city":"St. Augustine","province":"Trinidad","country":"TT"'
+links:
+- type: run-by
+  to: uwi-st-augustine-department-of-life-sciences
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: It is run by the Department of Life Sciences at the UWI campus in St. Augustine.
+- type: runs
+  to: trinidad-and-tobago-bioblitz
+  url: https://sta.uwi.edu/fst/lifesciences/node/219
+  fetched: '2026-11-09'
+  quote: The UWIZM is the main organiser of the annual Trinidad & Tobago Bioblitz.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-09'

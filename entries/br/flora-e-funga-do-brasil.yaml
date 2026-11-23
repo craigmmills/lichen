@@ -1,0 +1,47 @@
+id: flora-e-funga-do-brasil
+kind: dataset
+name: Flora e Funga do Brasil
+also_known_as:
+- Reflora
+- Flora do Brasil 2020
+- Lista de Espécies da Flora do Brasil
+scope: br
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- br
+status: active
+summary: Brazil's plant and fungus database, with the Reflora Virtual Herbarium, offered
+  through web services by the Rio de Janeiro Botanical Garden.
+facts:
+- claim: Available through a web service with the Reflora Virtual Herbarium.
+  url: https://www.gov.br/jbrj/pt-br/acesso-a-informacao/dados-abertos-1/servicos-web
+  fetched: '2026-10-30'
+  quote: Consulta, via web service ao banco de dados da Flora e Funga do Brasil e
+    Herbário Virtual REFLORA
+- claim: Published on GBIF as the official list.
+  url: https://api.gbif.org/v1/dataset/aacd816d-662c-49d2-ad1a-97e66e2a2908
+  fetched: '2026-10-30'
+  quote: Flora e Funga do Brasil - Lista Oficial
+- claim: Published under CC BY 4.0.
+  url: https://api.gbif.org/v1/dataset/aacd816d-662c-49d2-ad1a-97e66e2a2908
+  fetched: '2026-10-30'
+  quote: creativecommons.org/licenses/by/4.0
+- claim: Follows the online Lista de Espécies da Flora do Brasil and the Flora do
+    Brasil 2020 project.
+  url: https://api.gbif.org/v1/dataset/aacd816d-662c-49d2-ad1a-97e66e2a2908
+  fetched: '2026-10-30'
+  quote: foi lançado o projeto Flora do Brasil 2020
+links:
+- type: run-by
+  to: instituto-de-pesquisas-jardim-botanico-do-rio-de-janeiro
+  url: https://ferramentasreflora.jbrj.gov.br/noticia/nova-pagina-reflora
+  fetched: '2026-10-30'
+  quote: Novo espaço do JBRJ integra acesso a dados, publicações e conteúdos de divulgação
+    produzidos pela rede de especialistas da Flora e Funga do Brasil
+found_by:
+- checklist:2
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

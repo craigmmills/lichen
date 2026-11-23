@@ -1,0 +1,37 @@
+id: marine-protection-atlas
+kind: dataset
+name: Marine Protection Atlas
+also_known_as:
+- MPAtlas
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://mpatlas.org
+summary: Atlas that integrates science-based assessments measuring progress toward protecting 30% of the global ocean in fully and highly protected areas by 2030.
+facts:
+- claim: Measures progress toward 30% protection.
+  url: https://mpatlas.org/
+  fetched: '2026-10-30'
+  quote: integrates science-based assessments that measure progress toward protecting 30% of the global ocean
+links:
+- type: builds-on
+  to: protected-planet
+  url: https://mpatlas.org/
+  fetched: '2026-10-30'
+  quote: 'MPA data: MPAtlas , WDPCA/ProtectedPlanet'
+- type: builds-on
+  to: marine-regions
+  url: https://mpatlas.org/
+  fetched: '2026-10-30'
+  quote: 'EEZ data: marineregions.org'
+- type: run-by
+  to: marine-conservation-institute
+  url: https://mpatlas.org/
+  fetched: '2026-10-30'
+  quote: It was created by the Marine Conservation Institute in partnership with Astute Spruce, LLC
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

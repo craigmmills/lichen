@@ -1,0 +1,33 @@
+id: forestpulse
+kind: project
+name: ForestPulse
+scope: de
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- de
+status: unknown
+runner: unknown
+website: https://forestpulse.thuenen.de/arbeitsbereiche/waldstruktur
+summary: Forest monitoring project at Thünen that derives forest structure from airborne
+  laser scanning at Bundeswaldinventur plots and tree crown segmentation.
+facts:
+- claim: Uses a canopy height model derived from lidar at national forest inventory
+    plots.
+  url: https://forestpulse.thuenen.de/arbeitsbereiche/waldstruktur
+  fetched: '2026-10-31'
+  quote: Aus Lidar-Daten abgeleitetes Bestandeshöhenmodell an einem Inventurpunkt
+    der Bundeswaldinventur (BWI).
+links:
+- type: funded-by
+  to: bundesministerium-fur-verkehr
+  url: https://forestpulse.thuenen.de/arbeitsbereiche/waldstruktur
+  fetched: '2026-10-31'
+  quote: ForestPulse wird gefördert vom Bundesministerium für Verkehr.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

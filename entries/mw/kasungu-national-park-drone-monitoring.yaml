@@ -1,0 +1,53 @@
+id: kasungu-national-park-drone-monitoring
+kind: project
+name: Kasungu National Park drone monitoring
+scope: mw
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mw
+status: unknown
+runner: unknown
+summary: Drone monitoring effort at Kasungu National Park reported in 2023, using
+  DroneDeploy to protect elephants, with AI elephant counting reported as being tested;
+  the report's firm name differs from The Nation's Tech265.
+facts:
+- claim: Drones.R.Africa reported in 2023 that Kasungu park officials brought in the
+    drone services company DroneDeploy to help protect the park's elephant population.
+  url: https://dronenews.africa/?p=6730
+  fetched: 2026-11-12
+  quote: parks officials roped in the help of drone services company DroneDeploy
+- claim: The October 2023 report quotes DroneDeploy's 2022 social impact report saying
+    rangers used drone maps to examine elephants' effects on the park's ecosystem.
+  url: https://dronenews.africa/?p=6730
+  fetched: 2026-11-12
+  quote: For habitat monitoring, the rangers use drone maps to look at the effects
+    elephants are having on the park’s ecosystem
+- claim: The report quotes DroneDeploy's 2022 social impact report saying the team
+    was testing AI tools with DroneDeploy developers to count individual elephants.
+  url: https://dronenews.africa/?p=6730
+  fetched: 2026-11-12
+  quote: Together with DroneDeploy developers, we are also testing AI tools to count
+    individuals.
+- claim: The October 2023 report says IFAW bought and adapted two drones for elephant
+    management and the government worked with a local start-up it calls Tech365 in
+    June 2023; The Nation's June report names the firm Tech265.
+  url: https://dronenews.africa/?p=6730
+  fetched: 2026-11-12
+  quote: while two others were purchased and adapted for elephant management by the
+    International Federation on Animal Welfare (IFAW), with rangers trained to fly
+    them.
+links:
+- type: uses
+  to: dronedeploy
+  url: https://dronenews.africa/?p=6730
+  fetched: 2026-11-12
+  quote: Using DroneDeploy, they can find and identify herd locations and behaviour,
+    and even measure the size of individual elephants.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

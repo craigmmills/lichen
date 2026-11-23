@@ -1,0 +1,113 @@
+id: universite-de-lome
+kind: organisation
+name: Université de Lomé
+also_known_as:
+- University of Lomé
+- University of Benin
+scope: tg
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: tg
+countries:
+- tg
+scale: national
+status: active
+summary: Active university in Lomé that publishes 39 datasets on GBIF, including the Togo National Herbarium
+  Database and red lists, and in November 2026 signed an agreement with LuxDev to host a protected-areas
+  diploma.
+facts:
+- claim: The GBIF dataset record says the University of Lomé herbarium, hosted in the Department of Botany
+    of the Faculty of Sciences, acts as the national herbarium.
+  url: https://api.gbif.org/v1/dataset/b05dd467-aaf8-4c67-843c-27f049057b78
+  fetched: 2026-11-08
+  quote: the herbarium of the University of Lome, hosted in the Department of Botany of the Faculty of
+    Sciences, acts as national herbarium
+- claim: The dataset citation names the Université de Lomé as publisher of the Togo National Herbarium
+    Database.
+  url: https://api.gbif.org/v1/dataset/b05dd467-aaf8-4c67-843c-27f049057b78
+  fetched: 2026-11-08
+  quote: Togo National Herbarium Database. Version 3.8. Université de Lomé.
+- claim: GBIF's registry gives its address as P.O. Box 1515 in Lomé.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb
+  fetched: 2026-11-08
+  quote: University of Lomé P.O Box 1515
+- claim: GBIF's registry lists 39 datasets published by the university.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":39'
+- claim: Its published datasets include the Togo National Herbarium Database, whose metadata says the
+    university's herbarium acts as the national herbarium.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: the herbarium of the University of Lome, hosted in the Department of Botany of the Faculty of
+    Sciences, acts as national herbarium
+- claim: Its published datasets include the Togo Plant Red List and the Togo animal red list.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Togo Plant Red List
+- claim: Its published datasets include monitoring data on marine turtles on the Togolese coast for 2012
+    to 2013.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Monitoring data of marine turtles on the Togolese coast over 2012-2013 years
+- claim: Previously called the University of Benin, founded in 1970.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb
+  fetched: 2026-11-08
+  quote: The University of Lomé (previously called University of Benin, founded 1970)
+- claim: Publishes the Togo National Herbarium Database on GBIF.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Togo National Herbarium Database
+- claim: The dataset description says the university's herbarium, in the Department of Botany of the Faculty
+    of Sciences, acts as the national herbarium.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: the herbarium of the University of Lome, hosted in the Department of Botany of the Faculty of
+    Sciences, acts as national herbarium.
+- claim: Publishes on GBIF a Coleoptera dataset from the insect collection of its Laboratory of Applied
+    Entomology, intended to be a component of a national Coleoptera diversity database for Togo.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: 'This database aims to be a component of a larger one: A national Coleoptera diversity database
+    in Togo.'
+- claim: Its Laboratoire de Botanique et Ecologie Végétale lists forest geomatics and modelling among
+    its research themes.
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-08
+  quote: Géomatique et modélisation des forêts;
+- claim: Its Laboratoire de Recherche Forestière lists biodiversity informatics among its research themes.
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-08
+  quote: Informatique de la biodiversité
+- claim: In November 2026 signed an agreement with LuxDev to host a university diploma in sustainable
+    management of protected areas.
+  url: https://univ-lome.tg/universite-de-lome-nouvelle-offre-de-formation-en-gestion-durable-des-aires-protegees/
+  fetched: 2026-11-08
+  quote: 'l’institution a signé une convention avec l’agence luxembourgeoise pour la Coopération au développement
+    (LuxDev), qui lui permet d’abriter une formation certifiante inédite : le Diplôme universitaire en
+    Gestion durable des aires protégées (DU-GDAP)'
+- claim: Its Laboratoire de Botanique et d'Ecologie Végétale leads the operational phase of that diploma
+    project.
+  url: https://univ-lome.tg/universite-de-lome-nouvelle-offre-de-formation-en-gestion-durable-des-aires-protegees/
+  fetched: 2026-11-08
+  quote: La phase opérationnelle du projet est pilotée par le Laboratoire de Botanique et d’Ecologie Végétale
+    (LBEV)
+links:
+- type: partners-with
+  to: togo-flying-labs
+  url: https://flyinglabs.org/blog/formation-en-photogrammetrie-par-drone-togo-flying-labs-et-luniversite-de-lome-collaborent-pour-le-developpement-des-competences-des-etudiants
+  fetched: 2026-11-08
+  quote: It is in this context that Togo Flying Labs, in collaboration with LTAG at the University of
+    Lomé, has provided training in drone photogrammetry.
+found_by:
+- checklist:2
+- link-from:gbif-togo
+- checklist:register
+added_by: agent
+checked: 2026-11-08

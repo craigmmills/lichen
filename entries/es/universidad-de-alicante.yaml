@@ -1,0 +1,38 @@
+id: universidad-de-alicante
+kind: organisation
+name: Universidad de Alicante
+also_known_as:
+- UA
+- University of Alicante
+scope: es
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+ai_types:
+- deep-learning
+hq: unknown
+scale: national
+status: active
+summary: University whose Department of Computer Technology and Computation hosts first author
+  David Mulero-Pérez of a 2026 paper on predicting Mediterranean wetland bird observations
+  with deep learning.
+facts:
+- claim: David Mulero-Pérez is first author of a 2026 paper on predicting bird observation
+    patterns in Mediterranean wetlands with spatiotemporal deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I130194489,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: 'Predicting Avian Observation Patterns in Mediterranean Wetlands: Spatiotemporal
+    Deep Learning Fusion of Multi-Source Surveys'
+  ai_type: deep-learning
+- claim: The first author's affiliation is the university's Department of Computer Technology
+    and Computation.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I130194489,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Department of Computer Technology and Computation, University of Alicante
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

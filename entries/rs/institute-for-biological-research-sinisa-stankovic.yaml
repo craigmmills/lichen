@@ -1,0 +1,49 @@
+id: institute-for-biological-research-sinisa-stankovic
+kind: organisation
+name: Institute for Biological Research "Siniša Stanković"
+also_known_as:
+- IBISS
+scope: rs
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+hq: rs
+countries:
+- rs
+scale: national
+status: active
+website: https://www.ibiss.bg.ac.rs
+summary: Serbian national institute within Belgrade University, monitoring birds including
+  endangered griffon vultures, with its genetic research department listed as a 2025
+  soil eDNA mammal monitoring paper affiliation.
+facts:
+- claim: Its ecology department's bird work includes census and demographic monitoring
+    of endangered species, mainly the griffon vulture, and monitoring of indicator
+    species.
+  url: https://www.ibiss.bg.ac.rs/en/about-the-institute/departments/department-of-ecology
+  fetched: 2026-11-12
+  quote: census and demographic monitoring of endangered species of bird (primarily
+    the vulture Gyps fulvus)
+- claim: OpenAlex gives its homepage as ibiss.bg.ac.rs.
+  url: https://api.openalex.org/institutions?filter=country_code:RS,type:education&per-page=10&select=id,display_name,works_count,homepage_url
+  fetched: 2026-11-12
+  quote: '"homepage_url": "https://www.ibiss.bg.ac.rs"'
+- claim: Its Department of Genetic Research is an affiliation of the first author
+    of a 2025 paper on a soil eDNA assay for monitoring terrestrial mammals; the affiliation
+    names the institute as a national institute of the Republic of Serbia within the
+    University of Belgrade.
+  url: https://api.openalex.org/works/W4412981934?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: National Institute of Republic of Serbia, University of Belgrade, Belgrade,
+    Serbia
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

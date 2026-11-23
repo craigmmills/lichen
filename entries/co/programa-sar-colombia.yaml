@@ -1,0 +1,59 @@
+id: programa-sar-colombia
+kind: programme
+name: Programa SAR Colombia
+scope: co
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- co
+scale: national
+status: active
+runner: unknown
+summary: Programme that IGAC says gives Colombia access to synthetic aperture radar
+  data and builds processing skills for deforestation monitoring and territorial mapping,
+  with NASA and others as partners.
+facts:
+- claim: IGAC says the programme gives Colombia access to synthetic aperture radar
+    data and builds training in processing it, for deforestation monitoring and territorial
+    mapping.
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  fetched: 2026-11-08
+  quote: fundamentales para el monitoreo de la deforestación y el mapeo territorial
+- claim: IGAC highlights the programme when describing plans to add radar and LiDAR
+    to its Observatorio de la Tierra y el Territorio for cloudy regions such as the
+    Amazon and Pacific.
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  fetched: 2026-11-08
+  quote: En este contexto se destaca el Programa SAR Colombia
+links:
+- type: partners-with
+  to: nasa
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  fetched: 2026-11-08
+  quote: en colaboración con la NASA —a través de la misión NISAR, desarrollada conjuntamente
+    con la ISRO de la India—, la Agencia Espacial Canadiense y la CONAE de Argentina
+- type: uses
+  to: nisar
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  fetched: 2026-11-08
+  quote: en colaboración con la NASA —a través de la misión NISAR, desarrollada conjuntamente
+    con la ISRO de la India—, la Agencia Espacial Canadiense y la CONAE de Argentina
+- type: partners-with
+  to: canadian-space-agency
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  fetched: 2026-11-08
+  quote: en colaboración con la NASA —a través de la misión NISAR, desarrollada conjuntamente
+    con la ISRO de la India—, la Agencia Espacial Canadiense y la CONAE de Argentina
+- type: partners-with
+  to: comision-nacional-de-actividades-espaciales
+  url: https://www.igac.gov.co/noticias/geointeligencia-en-accion-el-observatorio-de-la-tierra-y-el-territorio-motor-de-la-inteligencia-territorial-de-colombia
+  fetched: 2026-11-08
+  quote: en colaboración con la NASA —a través de la misión NISAR, desarrollada conjuntamente
+    con la ISRO de la India—, la Agencia Espacial Canadiense y la CONAE de Argentina
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

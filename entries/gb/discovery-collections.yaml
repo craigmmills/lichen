@@ -1,0 +1,38 @@
+id: discovery-collections
+kind: dataset
+name: The Discovery Collections
+scope: gb
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+status: active
+website: http://www.noc.ac.uk/facilities/discovery-collections
+summary: Deep-sea collections at the National Oceanography Centre, published on GBIF
+  as trawl and sample datasets.
+facts:
+- claim: Held at the National Oceanography Centre.
+  url: http://www.noc.ac.uk/facilities/discovery-collections
+  fetched: '2026-10-30'
+  quote: The Discovery Collections | National Oceanography Centre
+- claim: Publishes the dataset "Annelids from Trawl samples at the Porcupine Abyssal
+    Plain Sustained Observatory (PAP-SO) Northeast Atlantic 2013-2024" on GBIF.
+  url: https://api.gbif.org/v1/organization/fc220232-de19-407f-b834-1d7c3d248c70/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Annelids from Trawl samples at the Porcupine Abyssal Plain Sustained Observatory
+    (PAP-SO) Northeast Atlantic 2013-2024
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/fc220232-de19-407f-b834-1d7c3d248c70/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: run-by
+  to: national-oceanography-centre
+  url: http://www.noc.ac.uk/facilities/discovery-collections
+  fetched: '2026-10-30'
+  quote: The Discovery Collections | National Oceanography Centre
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

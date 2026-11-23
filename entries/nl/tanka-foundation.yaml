@@ -1,0 +1,33 @@
+id: tanka-foundation
+kind: organisation
+name: Tanka Foundation
+sector: funder
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: unknown
+scale: national
+status: active
+summary: A foundation that, according to Hack the Planet, funds nature-positive work and is
+  a long-term supporter of it. Its own site disallows the fetcher.
+facts:
+- claim: Hack the Planet says it funds nature-positive work across three themes.
+  url: https://www.hack-the-planet.io/partners/
+  fetched: &id001 2026-10-31
+  quote: 'Tanka Foundation funds nature-positive work across three themes: Life with Land,
+    Life Below Water and Future Food Systems.'
+links:
+- type: funds
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/partners/
+  fetched: *id001
+  quote: 'The Fred and Tanka Foundation show what''s possible: multi-year backing gives us
+    the runway to plan, build and deploy with the patience real impact requires.'
+found_by:
+- link-from:hack-the-planet
+scope: nl
+added_by: agent
+checked: *id001

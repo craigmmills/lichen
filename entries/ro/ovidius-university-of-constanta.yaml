@@ -1,0 +1,61 @@
+id: ovidius-university-of-constanta
+kind: organisation
+name: Ovidius University of Constanța
+also_known_as:
+- UOC
+scope: ro
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: ro
+countries:
+- ro
+scale: national
+status: active
+summary: Public university established in 1961, described by B-Cubed as the largest EU university on the
+  Black Sea, which runs the GBIF Checklist of introduced taxa in Romania.
+facts:
+- claim: Established in 1961 as a public higher education institution; B-Cubed describes it as the largest
+    EU university on the Black Sea.
+  url: https://b-cubed.eu/partners
+  fetched: 2026-11-08
+  quote: Established in 1961 as a public higher education institution, it became a university in 1990
+- claim: A member of its Department of Natural Sciences has worked on updating the status of alien and
+    invasive species in Romania.
+  url: https://b-cubed.eu/partners
+  fetched: 2026-11-08
+  quote: Her recent work on updating the status of alien and invasive species in Romania included developing
+    collaborations with stakeholders and policymakers.
+- claim: Publishes on GBIF the Checklist of introduced taxa in Romania, which the dataset says is managed
+    by the University of Constanța and the University of Bucharest.
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: is a taxa checklist dataset managed by the University of Constanta and University of Bucharest,
+    Romania
+- claim: The first named originator of the checklist is Cristina Preda of Ovidius University of Constanța.
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: '"firstName":"Cristina","lastName":"Preda"'
+links:
+- type: partners-with
+  to: b-cubed
+  url: https://b-cubed.eu/partners
+  fetched: 2026-11-08
+  quote: Ovidius University of Constanța (UOC) is the largest university in the European Union at the
+    Black Sea
+- type: runs
+  to: checklist-of-introduced-taxa-in-romania
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: is a taxa checklist dataset managed by the University of Constanta and University of Bucharest,
+    Romania
+found_by:
+- link-from:b-cubed
+- register:ro
+added_by: agent
+checked: 2026-11-08

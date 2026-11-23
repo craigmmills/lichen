@@ -1,0 +1,40 @@
+id: contrat-de-riviere-senne
+kind: organisation
+name: Contrat de rivière Senne
+scope: be
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+hq: be
+countries: []
+scale: local
+status: active
+website: http://www.crsenne.be/
+summary: An NGO described by GBIF as gathering water management stakeholders across Wallonia's
+  Senne catchment, leading invasive alien species surveillance and holding pond and river
+  survey data.
+facts:
+- claim: Its GBIF record describes it as an NGO gathering those involved in water management
+    across the Senne catchment in Wallonia.
+  url: https://api.gbif.org/v1/organization/0efacc87-e8ba-4088-a76f-a69ce04d990c
+  fetched: &id001 2026-11-02
+  quote: is an NGO acting as a participative platform gathering stakeholders involved with
+    water management across the river catchment of the Senne in Wallonia
+- claim: Its GBIF record says it leads the surveillance and management of invasive alien species.
+  url: https://api.gbif.org/v1/organization/0efacc87-e8ba-4088-a76f-a69ce04d990c
+  fetched: *id001
+  quote: is leading the surveillance and the management of invasive alien species
+- claim: Its GBIF dataset comes from monitoring managed or watched ponds and rivers in the
+    Senne basin, with each event a complete site survey for target species.
+  url: https://api.gbif.org/v1/dataset/49717845-86b1-4bbe-886e-4cddc1f98ebf
+  fetched: *id001
+  quote: data are derived from the monitoring of a set of managed or surveilled water points
+    (ponds, rivers)
+found_by:
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: *id001

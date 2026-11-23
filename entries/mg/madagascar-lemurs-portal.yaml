@@ -1,0 +1,47 @@
+id: madagascar-lemurs-portal
+kind: project
+name: Madagascar Lemurs Portal
+also_known_as:
+- Lemurs Portal
+scope: mg
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries:
+- mg
+status: unknown
+runner: unknown
+summary: Portal set up to improve sharing of existing lemur data, with a species database, visualisations
+  and an iNaturalist-based citizen science app, and GBIF datasets of lemur observations from four contributing
+  organisations.
+facts:
+- claim: Set up to improve the sharing of existing lemur data between people working on lemur conservation.
+  url: https://api.gbif.org/v1/organization/7d3cd162-288f-42ad-b2ad-915272be963e
+  fetched: 2026-11-08
+  quote: tool was established to overcome difficulties in communication of existing data, addressing gaps
+    and facilitating exchanges between stakeholders in lemur conservation
+- claim: Includes a species database, visualisations and a mobile app that uses iNaturalist for citizen
+    science.
+  url: https://api.gbif.org/v1/organization/7d3cd162-288f-42ad-b2ad-915272be963e
+  fetched: 2026-11-08
+  quote: a comprehensive species database, a ready-made and tailored visualizations, and a mobile application
+    integrating iNaturalist for citizen science
+- claim: Its GBIF datasets hold lemur observations from Madagasikara Voakajy, Centre ValBio, GERP and
+    The Aspinall Foundation, reviewed and validated by the portal's experts.
+  url: https://api.gbif.org/v1/organization/7d3cd162-288f-42ad-b2ad-915272be963e/publishedDataset?limit=4
+  fetched: 2026-11-08
+  quote: These data are already reviewed and validated by experts from Madagascar lemurs Portal
+links:
+- type: uses
+  to: inaturalist
+  url: https://api.gbif.org/v1/organization/7d3cd162-288f-42ad-b2ad-915272be963e
+  fetched: 2026-11-08
+  quote: a mobile application integrating iNaturalist for citizen science
+found_by:
+- link-from:gbif-madagascar
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+roles:
+- supplies-data

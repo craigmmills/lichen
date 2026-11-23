@@ -1,0 +1,55 @@
+id: ecoregistros
+kind: organisation
+name: EcoRegistros
+also_known_as:
+- Registros Ecológicos de la Comunidad
+scope: ar
+sector: community
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- ar
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.ecoregistros.org
+summary: Describes itself as a database of living things started in 2011 holding over 2.5
+  million records, and says ÉRIA is trained exclusively on its database.
+facts:
+- claim: Describes itself as a database of living things started in 2011 that holds more than
+    2.5 million records.
+  url: http://www.ecoregistros.org
+  fetched: 2026-11-03
+  quote: Base de datos de seres vivos eclosionada en 2011, que al día de la fecha reúne más
+    de 2.526.997 registros
+- claim: Users can publish records with a photo, film or audio.
+  url: http://www.ecoregistros.org
+  fetched: 2026-11-03
+  quote: Publicar Registro con Foto Publicar Registro con Filmación Publicar Registro con
+    Audio
+- claim: Says it developed the ÉRIA species identification assistant itself, trained only
+    on its own database.
+  url: https://www.ecoregistros.org/site_en/ERIA.php
+  fetched: 2026-11-03
+  quote: It is a system entirely developed by EcoRegistros, with no reliance on external services,
+    sponsors, or institutional funding. Its training is based exclusively on our own database,
+    without incorporating material from external sources.
+- claim: GBIF’s organisation registry describes it as community wildlife watching with species
+    sheets, reports and maps.
+  url: https://api.gbif.org/v1/organization/8791c19c-dbeb-4b6b-8dc9-fa726ba8ff21
+  fetched: 2026-11-03
+  quote: Community wildlife watchers, user's rankings, species's sheets, reports and maps.
+found_by:
+- checklist:4
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

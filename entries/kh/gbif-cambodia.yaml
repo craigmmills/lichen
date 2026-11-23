@@ -1,0 +1,31 @@
+id: gbif-cambodia
+kind: programme
+name: GBIF Cambodia
+also_known_as: []
+scope: kh
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+countries: []
+status: active
+runner: unknown
+summary: Cambodia's country node of GBIF, listed in the GBIF registry with associate participation status,
+  with most contacts based at the Morodok Techo Building in Phnom Penh.
+facts:
+- claim: GBIF's registry lists GBIF Cambodia as a country node with associate participation status.
+  url: https://api.gbif.org/v1/node/88d84e6a-b9b1-4739-ad0d-023918498b8b
+  fetched: 2026-11-12
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"ASIA","continent":"ASIA","title":"GBIF
+    Cambodia"'
+- claim: Most of the node contacts, including its node manager, are listed at the Morodok Techo Building,
+    Tonle Bassac, Phnom Penh.
+  url: https://api.gbif.org/v1/node/88d84e6a-b9b1-4739-ad0d-023918498b8b
+  fetched: 2026-11-12
+  quote: Morodok Techo Building
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

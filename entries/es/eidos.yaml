@@ -1,0 +1,36 @@
+id: eidos
+kind: dataset
+name: EIDOS
+scope: es
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- es
+status: active
+website: https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/eidos_acceso.html
+summary: A database of official information on wild species present in Spain, gathered
+  by the environment ministry and structured on the Plinian Core standard.
+facts:
+- claim: EIDOS holds official information on wild species in Spain gathered by the
+    ministry.
+  url: https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/eidos_acceso.html
+  fetched: '2026-10-31'
+  quote: incorpora la información oficial sobre las especies silvestres presentes
+    en España que ha ido recopilando el MITECO
+- claim: It uses a common structure based on the Plinian Core standard.
+  url: https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/eidos_acceso.html
+  fetched: '2026-10-31'
+  quote: basada en el estándar internacional Plinian Core
+links:
+- type: run-by
+  to: ministerio-para-la-transicion-ecologica-y-el-reto-demografico
+  url: https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/eidos_acceso.html
+  fetched: '2026-10-31'
+  quote: que ha ido recopilando el MITECO en sus distintos proyectos
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

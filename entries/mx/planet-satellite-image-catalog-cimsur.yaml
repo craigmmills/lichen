@@ -1,0 +1,35 @@
+id: planet-satellite-image-catalog-cimsur
+kind: dataset
+name: Planet Satellite Image Catalog
+scope: mx
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mx
+status: unknown
+summary: A satellite image catalogue covering Chiapas, Central America and the Caribbean, which a conference
+  abstract says UIFS-CIMSUR-UNAM developed, using Planet Labs imagery.
+facts:
+- claim: A conference abstract says it was developed by UIFS-CIMSUR-UNAM and covers Chiapas, Central America
+    and the Caribbean.
+  url: https://nomadit.co.uk/conference/pollen2026/paper/94794
+  fetched: 2026-11-03
+  quote: the Planet Satellite Image Catalog developed by UIFS-CIMSUR-UNAM
+links:
+- type: built-by
+  to: cimsur-unam
+  url: https://nomadit.co.uk/conference/pollen2026/paper/94794
+  fetched: 2026-11-03
+  quote: the Planet Satellite Image Catalog developed by UIFS-CIMSUR-UNAM
+- type: uses
+  to: planet-labs
+  url: https://nomadit.co.uk/conference/pollen2026/paper/94794
+  fetched: 2026-11-03
+  quote: offering PlanetScope (3m) and SkySat (50cm) imagery
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-03

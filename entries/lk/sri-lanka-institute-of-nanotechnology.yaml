@@ -1,0 +1,53 @@
+id: sri-lanka-institute-of-nanotechnology
+kind: organisation
+name: Sri Lanka Institute of Nanotechnology
+also_known_as:
+- SLINTEC
+scope: lk
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+hq: lk
+countries:
+- lk
+scale: national
+status: active
+website: https://www.slintec.lk/
+summary: Self-described first public-private research institute in Sri Lanka, publishing a CC0 soil bacterial
+  eDNA dataset with 14,958 records from research GBIF says the National Research Council funded.
+facts:
+- claim: GBIF lists it as a publisher with an address in Homagama, Sri Lanka.
+  url: https://api.gbif.org/v1/organization/10edba3c-8fe0-4a8c-8767-312d0e2badb5
+  fetched: 2026-11-08
+  quote: Sri Lanka Institute of Nanotechnology (SLINTEC), Mahenwatta, Pitipana, Homagama , Sri Lanka
+- claim: Describes itself as the first public-private research institute in Sri Lanka.
+  url: https://api.gbif.org/v1/organization/10edba3c-8fe0-4a8c-8767-312d0e2badb5
+  fetched: 2026-11-08
+  quote: SLINTEC is the first public-private research institute in Sri Lanka
+- claim: Publishes a soil bacterial eDNA metabarcoding dataset from agricultural fields in Sri Lanka's
+    24 main agroecological zones, with 14,958 records, under a CC0 licence; GBIF says the research was
+    funded by the National Research Council of Sri Lanka.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=10edba3c-8fe0-4a8c-8767-312d0e2badb5
+  fetched: 2026-11-08
+  quote: The research was carried out at the Sri Lanka Institute of Nanotechnology and was funded by the
+    National Research Council of Sri Lanka.
+- claim: The dataset was collected by eDNA metabarcoding of the 16S rDNA gene.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=10edba3c-8fe0-4a8c-8767-312d0e2badb5
+  fetched: 2026-11-08
+  quote: Data was collected by eDNA metabarcoding, where the V4 region of the 16S rDNA gene was analysed
+    to capture the soil bacterial diversity.
+links:
+- type: funded-by
+  to: national-research-council-of-sri-lanka
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=10edba3c-8fe0-4a8c-8767-312d0e2badb5
+  fetched: 2026-11-08
+  quote: was funded by the National Research Council of Sri Lanka.
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

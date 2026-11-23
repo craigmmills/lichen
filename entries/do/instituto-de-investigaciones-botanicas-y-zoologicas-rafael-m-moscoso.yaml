@@ -1,0 +1,58 @@
+id: instituto-de-investigaciones-botanicas-y-zoologicas-rafael-m-moscoso
+kind: organisation
+name: Instituto de Investigaciones Botánicas y Zoológicas Prof. Rafael M. Moscoso
+also_known_as:
+- IIBZ
+- Instituto de Investigaciones Botánicas y Zoológicas - Prof. Rafael M. Moscoso
+scope: do
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: do
+countries:
+- do
+scale: national
+status: active
+summary: University research unit in Santo Domingo holding the first Dominican herbarium of some 10,000
+  specimens, with 13 GBIF datasets, including macroinvertebrate data used to calibrate water-quality indices.
+facts:
+- claim: GBIF's publisher record describes it as a research unit of the Facultad de Ciencias of the Universidad
+    Autónoma de Santo Domingo, focused on the biodiversity of the Dominican Republic and Hispaniola.
+  url: https://api.gbif.org/v1/node/62869b60-d122-4125-bdbf-47d14cc0a0bf/organization
+  fetched: 2026-11-09
+  quote: is a research unit attached to the Facultad de Ciencias of the Universidad Autónoma de Santo
+    Domingo (UASD). The institute focuses on research on the biodiversity of the Dominican Republic and
+    the island of Hispaniola.
+- claim: It houses the first Dominican herbarium, with some 10,000 specimens collected since 1910.
+  url: https://api.gbif.org/v1/node/62869b60-d122-4125-bdbf-47d14cc0a0bf/organization
+  fetched: 2026-11-09
+  quote: It houses the first Dominican herbarium (USD), with some 10,000 specimens collected since 1910.
+- claim: GBIF gives its address at the Ciudad Universitaria in Santo Domingo.
+  url: https://api.gbif.org/v1/node/62869b60-d122-4125-bdbf-47d14cc0a0bf/organization
+  fetched: 2026-11-09
+  quote: '"address":["Ave. Alma Mater esq. Correa y Cidrón, Ciudad Universitaria"],"city":"Santo Domingo"'
+- claim: GBIF lists 13 datasets published by it.
+  url: https://api.gbif.org/v1/organization/e0f5c405-4f17-426d-a06e-688e31f60d05/publishedDataset
+  fetched: 2026-11-09
+  quote: '"endOfRecords":true,"count":13'
+- claim: It publishes a sampling-event dataset of aquatic macroinvertebrates used to calibrate the BMWP-RD
+    and IBF-RD water-quality indices for Dominican rivers.
+  url: https://api.gbif.org/v1/organization/e0f5c405-4f17-426d-a06e-688e31f60d05/publishedDataset
+  fetched: 2026-11-09
+  quote: Macroinvertebrados acuáticos bioindicadores de calidad de agua utilizados en la calibración de
+    los índices BMWP-RD e IBF-RD para ríos de República Dominicana
+links:
+- type: funded-by
+  to: biodiversity-information-for-development
+  url: https://api.gbif.org/v1/organization/e0f5c405-4f17-426d-a06e-688e31f60d05/publishedDataset
+  fetched: 2026-11-09
+  quote: el financiamiento para su digitalizaci&amp;oacute;n por el Programa Biodiversity Information
+    for Development (proyecto BID-CA2020-031-NAC)
+found_by:
+- link-from:gbif-dominican-republic
+added_by: agent
+checked: 2026-11-09

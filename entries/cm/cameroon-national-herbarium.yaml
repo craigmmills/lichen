@@ -1,0 +1,55 @@
+id: cameroon-national-herbarium
+kind: organisation
+name: Cameroon National Herbarium
+also_known_as:
+- Herbier national du Cameroun
+scope: cm
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- cm
+scale: national
+status: active
+summary: Plant collection in Yaoundé that publishes two GBIF datasets, including Cameroon's freshwater
+  plants, and whose collection is described as representing vascular plant diversity across ten major
+  land ecosystems.
+facts:
+- claim: Its GBIF dataset description says the collection represents the vascular plant diversity of Cameroon's
+    ten major land ecosystems.
+  url: https://api.gbif.org/v1/organization/24266ce0-38be-11d9-8439-b8a03c50a862/publishedDataset
+  fetched: 2026-11-08
+  quote: La collection de l'Herbier national du Cameroun represente la diversité floristique des plantes
+    vasculaires des dix écosystèmes terrestres majeurs du Cameroun.
+- claim: It publishes a dataset of Cameroon's freshwater plants, part of the herbarium's RIHA database.
+  url: https://api.gbif.org/v1/organization/24266ce0-38be-11d9-8439-b8a03c50a862/publishedDataset
+  fetched: 2026-11-08
+  quote: This is the first set of the Cameroon freshwater plants database, part of the national herbarium
+    of Cameroon's database RIHA
+- claim: Its GBIF dataset on freshwater plants is described as the first set of the Cameroon freshwater
+    plants database, part of the herbarium's RIHA database.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=24266ce0-38be-11d9-8439-b8a03c50a862&limit=5
+  fetched: 2026-11-08
+  quote: This is the first set of the Cameroon freshwater plants database, part of the national herbarium
+    of Cameroon
+- claim: Its collection is described as representing the vascular plant diversity of Cameroon's ten major
+    terrestrial ecosystems.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=24266ce0-38be-11d9-8439-b8a03c50a862&limit=5
+  fetched: 2026-11-08
+  quote: des dix écosystèmes terrestres majeurs du Cameroun
+- claim: GBIF lists the herbarium as a publisher in Yaoundé with two published datasets and an IRD website
+    address.
+  url: https://api.gbif.org/v1/organization/24266ce0-38be-11d9-8439-b8a03c50a862
+  fetched: 2026-11-08
+  quote: '"title":"Cameroon National Herbarium"'
+links: []
+found_by:
+- link-from:gbif-cameroon
+- register:cm
+added_by: agent
+checked: 2026-11-08

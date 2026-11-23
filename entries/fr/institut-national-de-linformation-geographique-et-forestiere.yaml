@@ -1,0 +1,94 @@
+id: institut-national-de-linformation-geographique-et-forestiere
+kind: organisation
+name: Institut national de l'information géographique et forestière
+also_known_as:
+- IGN
+- IGNF
+scope: fr
+sector: government
+roles:
+- governs
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- foundation-models
+- deep-learning
+- generative-ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: fr
+scale: national
+status: active
+website: https://www.ign.fr/
+summary: The French public mapping agency, which also runs the national forest inventory.
+  It develops open source AI models for geospatial information, including the Maestro foundation
+  model and the FLAIR land cover datasets.
+facts:
+- claim: Says it is the French public mapping agency and develops open source AI models for
+    geospatial information.
+  url: https://huggingface.co/IGNF
+  quote: IGNF is the French public mapping agency. We develop open source AI models for geospatial
+    information and monitor ongoing ecological changes.
+  fetched: '2026-10-31'
+- claim: Publishes results of the national forest inventory.
+  url: https://www.ign.fr/institut
+  quote: L'IGN publie les nouveaux résultats de son Inventaire forestier national (IFN).
+  fetched: '2026-10-31'
+- claim: Le Monde Informatique reports that IGN built its own foundation AI model to map French
+    forests.
+  url: https://www.lemondeinformatique.fr/actualites/lireamp-l-ign-developpe-un-modele-ia-pour-observer-les-forets-francaises-99781.html
+  quote: l'IGN a développé son propre modèle de fondation IA
+  ai_type: foundation-models
+  fetched: '2026-10-31'
+- claim: Co-developer of the Ginco application.
+  url: http://www.patrinat.fr/fr/gestion-dinformation-naturaliste-collaborative-et-ouverte-ginco-6238
+  fetched: '2026-10-31'
+  quote: l’Institut national de l’information géographique et forestière (IGN)
+- claim: Ecoteka names it as a scientific partner.
+  url: https://www.natural-solutions.eu/blog/mycelium-ecoteka-lance-son-assistant-au-service-de-votre-patrimoine-vgtal
+  fetched: '2026-10-31'
+  quote: avec des partenaires scientifiques comme l’INRAE, le MNHN et l’IGN
+- claim: A public body under the ministry responsible for ecology and forests.
+  url: https://www.ign.fr/institut/lign-cartographe-du-service-public
+  fetched: '2026-10-31'
+  quote: L’Institut national de l’information géographique et forestière est un établissement
+    public placé sous la tutelle du ministère chargé de l’écologie et de la forêt.
+- claim: Says machine learning, deep learning and generative AI applied to remote sensing
+    data have sped up its map production.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: Les technologies de machine learning, de deep learning et d’IA générative, appliquées
+    aux données de télédétection, ont considérablement accéléré la production cartographique.
+  ai_type: generative-ai
+- claim: Uses models trained by deep learning on aerial images to produce a first estimate
+    of land cover.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: Des modèles obtenus par apprentissage profond analysent les images aériennes
+  ai_type: deep-learning
+- claim: Its MAESTRO model is a foundation model pre-trained on large volumes of unlabelled
+    data.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: 'MAESTRO est un modèle de fondation : pré-entraîné sur de vastes volumes de données
+    non annotées'
+  ai_type: foundation-models
+- claim: Address in Saint-Mandé.
+  url: https://www.ign.fr/institut/lign-cartographe-du-service-public
+  fetched: '2026-10-31'
+  quote: 94165 SAINT-MANDÉ Cedex
+links:
+- type: partners-with
+  to: ecoteka
+  url: https://www.natural-solutions.eu/blog/mycelium-ecoteka-lance-son-assistant-au-service-de-votre-patrimoine-vgtal
+  fetched: '2026-10-31'
+  quote: avec des partenaires scientifiques comme l’INRAE, le MNHN et l’IGN
+found_by:
+- checklist:1
+- link-from:patrinat
+added_by: agent
+checked: '2026-10-31'

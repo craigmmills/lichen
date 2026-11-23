@@ -1,0 +1,28 @@
+id: riverfly-recording-schemes
+kind: programme
+name: Riverfly Recording Schemes
+scope: gb
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- species-distribution
+status: active
+runner: unknown
+website: http://www.riverflies.org/riverfly-recording-schemes
+summary: Recording schemes that publish mayfly and stonefly records for Britain and
+  Ireland on GBIF.
+facts:
+- claim: Publishes the dataset "Mayfly (Ephemeroptera) Data for Great Britain for
+    1906-2017" on GBIF.
+  url: https://api.gbif.org/v1/organization/125b5016-8748-43a8-ae03-632345d3262a/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Mayfly (Ephemeroptera) Data for Great Britain for 1906-2017
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/125b5016-8748-43a8-ae03-632345d3262a/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

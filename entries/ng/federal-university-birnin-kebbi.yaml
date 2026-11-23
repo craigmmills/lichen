@@ -1,0 +1,37 @@
+id: federal-university-birnin-kebbi
+kind: organisation
+name: Federal University Birnin Kebbi
+scope: ng
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- ng
+scale: local
+status: active
+funding_at_risk: false
+ai_types:
+- multimodal
+summary: Active university whose authors wrote a 2026 paper on plant species classification,
+  developing a multimodal Swin Transformer using PlantCLEF images.
+facts:
+- claim: Authors at this university wrote a 2026 paper on plant species classification.
+  url: https://api.openalex.org/works/W7224848526?select=id,doi,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-03'
+  quote: Fine-Grained Plant Species Classification Using Contextual Metadata
+- claim: The paper developed a multimodal Swin Transformer using PlantCLEF images.
+  url: https://doi.org/10.38124/ijsrmt.v5i10.1743
+  fetched: '2026-11-03'
+  quote: This study developed an Enhanced Multimodal Swin Transformer that combines visual
+    features from PlantCLEF images with contextual metadata
+  ai_type: multimodal
+found_by:
+- register:ng
+added_by: agent
+checked: '2026-11-03'

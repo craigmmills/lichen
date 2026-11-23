@@ -1,0 +1,47 @@
+id: deeplitterai
+kind: model
+name: DeepLitterAI
+scope: jp
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- jp
+status: active
+summary: System built by JAMSTEC to detect and count deep seafloor litter from video, tested
+  on footage from 860 to 5,600 m around Japan, with AI counts differing from expert counts
+  by about 10%.
+found_by:
+- link-from:japan-agency-for-marine-earth-science-and-technology
+facts:
+- claim: JAMSTEC says it developed the system to detect and count deep seafloor litter from
+    video.
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: has developed DeepLitterAI, an AI system that automatically detects and counts macrolitter
+- claim: Tested on footage from 860 to 5,600 m in waters around Japan.
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: The system was tested using survey footage collected at depths of 860 to 5,600 m
+    in waters around Japan.
+- claim: AI counts differed from expert counts by about 10%.
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: with a difference of approximately 10%
+links:
+- type: built-by
+  to: japan-agency-for-marine-earth-science-and-technology
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: A research team at the Japan Agency for Marine-Earth Science and Technology (JAMSTEC)
+    has developed DeepLitterAI
+- type: builds-on
+  to: j-litter
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: combines advanced object-detection technology trained on the newly developed J-Litter
+    dataset
+added_by: agent
+checked: '2026-11-02'

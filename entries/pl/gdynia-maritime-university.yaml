@@ -1,0 +1,45 @@
+id: gdynia-maritime-university
+kind: organisation
+name: Gdynia Maritime University
+scope: pl
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+summary: A university whose laboratory develops machine learning and deep learning methods
+  for classifying benthic habitats, and which carried out the Polish marine benthic habitat
+  mapping project.
+also_known_as:
+- Uniwersytet Morski w Gdyni
+- UMG
+realms:
+- ocean
+ai_types:
+- deep-learning
+website: https://im.umg.edu.pl
+facts:
+- claim: The laboratory develops machine learning and deep learning algorithms.
+  url: https://im.umg.edu.pl/pl/laboratorium-badania-siedlisk-dennych
+  fetched: '2026-11-02'
+  quote: Istotnym kierunkiem działalności Laboratorium jest opracowywanie i rozwijanie algorytmów
+    uczenia maszynowego oraz uczenia głębokiego.
+- claim: The methods are used for automatic classification of benthic habitats.
+  url: https://im.umg.edu.pl/pl/laboratorium-badania-siedlisk-dennych
+  fetched: '2026-11-02'
+  quote: Metody te są wykorzystywane do automatycznej identyfikacji, segmentacji i klasyfikacji
+    siedlisk bentosowych
+  ai_type: deep-learning
+links:
+- type: runs
+  to: benthic-habitat-mapping-poland
+  url: https://www.gov.pl/web/gios/badania-siedlisk-dennych-baltyku-gios-podsumowuje-projekt
+  fetched: '2026-11-02'
+  quote: Projekt zrealizowany został na zlecenie Głównego Inspektoratu Ochrony Środowiska
+    przez Uniwersytet Morski w Gdyni oraz MEWO S.A.
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-02'

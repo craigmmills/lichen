@@ -1,0 +1,53 @@
+id: national-early-warning-system-platform-lebanon
+kind: programme
+name: National Early Warning System Platform (Lebanon)
+also_known_as:
+- NEWSP
+scope: lb
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- lb
+status: active
+summary: Platform built by CNRS-L on forest fire data collected since 2016, forecasting
+  fire danger up to 72 hours ahead and issuing a daily bulletin; L'Orient Today in
+  July 2024 reported its data on burned land.
+facts:
+- claim: An Esri case study says CNRS-L built the platform on forest fire data it
+    has collected since 2016, and that it forecasts fire danger up to 72 hours in
+    advance.
+  url: https://esri.com/en-us/lg/industry/public-safety/stories/lebanon-online-gis-tool-forest-fire-response-improvement
+  fetched: 2026-11-12
+  quote: GIS tools have allowed the CNRS-L to use the NEWSP to forecast fire danger
+    up to 72 hours in advance
+- claim: The same case study says ArcGIS Pro was used for data collection, analysis,
+    modelling and remote sensing in setting it up.
+  url: https://esri.com/en-us/lg/industry/public-safety/stories/lebanon-online-gis-tool-forest-fire-response-improvement
+  fetched: 2026-11-12
+  quote: ArcGIS Pro was used for data collection, analysis, modeling, and remote sensing.
+- claim: The case study says the platform issues a daily early warning bulletin on
+    forest fire potential through social media and its website.
+  url: https://esri.com/en-us/lg/industry/public-safety/stories/lebanon-online-gis-tool-forest-fire-response-improvement
+  fetched: 2026-11-12
+  quote: NEWSP is also being used to communicate early warning messages for forest
+    fire potentiality in Lebanon through a daily bulletin
+- claim: In July 2024, L'Orient Today reported that NEWSP data showed Israeli attacks
+    had burned 17 million square metres of land in south Lebanon between 7 October
+    and 20 June, including 11.5 million square metres of oak trees.
+  url: https://today.lorientlejour.com/article/1419457/israel-deliberately-targeting-lebanons-environment-experts-say.html
+  fetched: 2026-11-12
+  quote: 11.5 million square meters represent the total area of burned oak trees
+links:
+- type: built-by
+  to: national-council-for-scientific-research-lebanon
+  url: https://esri.com/en-us/lg/industry/public-safety/stories/lebanon-online-gis-tool-forest-fire-response-improvement
+  fetched: 2026-11-12
+  quote: CNRS-L staff collected information from past fires, weather model information,
+    and various spatial datasets from government agencies to set up NEWSP.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

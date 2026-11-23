@@ -1,0 +1,36 @@
+id: cukurova-university
+kind: organisation
+name: Cukurova University
+scope: tr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: University with OpenAlex-listed work including a 2015 neural network paper on forest
+  fire probability mapping and a 2022 paper on machine learning for plankton traits from images.
+facts:
+- claim: OpenAlex lists a 2015 paper mapping regional forest fire probability with an artificial
+    neural network model in a Mediterranean forest ecosystem.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I55931168,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: Mapping regional forest fire probability using artificial neural network model in
+    a Mediterranean forest ecosystem
+- claim: OpenAlex lists a 2022 paper on machine learning to characterise functional traits
+    of plankton from image data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I55931168,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: Machine learning techniques to characterize functional traits of plankton from image
+    data
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

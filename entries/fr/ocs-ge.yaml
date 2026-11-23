@@ -1,0 +1,33 @@
+id: ocs-ge
+kind: dataset
+name: Occupation du sol à grande échelle
+also_known_as:
+- OCS GE
+scope: fr
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+summary: National large-scale land cover and land use reference, led by IGN, which
+  uses AI object detection on aerial images to speed up production.
+facts:
+- claim: IGN leads production of the national large-scale land cover reference.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: l’IGN pilote la production du référentiel national d' occupation du sol à
+    grande échelle (OCS GE)
+links:
+- type: led-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: l’IGN pilote la production du référentiel national d' occupation du sol à
+    grande échelle (OCS GE)
+found_by:
+- link-from:institut-national-de-linformation-geographique-et-forestiere
+added_by: agent
+checked: '2026-10-31'

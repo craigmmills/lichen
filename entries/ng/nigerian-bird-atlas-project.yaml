@@ -1,0 +1,91 @@
+id: nigerian-bird-atlas-project
+kind: programme
+name: Nigerian Bird Atlas Project
+also_known_as:
+- NiBAP
+- Nigeria Bird Atlas Project
+scope: ng
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ng
+status: active
+summary: Citizen science programme running since late 2015 that maps Nigerian bird species using the Birdlasser
+  app, with a published dataset covering May 2015 to January 2022 and over 320 observers reported in a
+  team paper.
+facts:
+- claim: Volunteers and bird clubs have recorded bird distributions since 2015.
+  url: https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2025.1728231/full
+  fetched: '2026-11-03'
+  quote: Since 2015, NiBAP has mobilised hundreds of trained volunteers, students, and local bird clubs
+    across Nigeria to document bird distributions systematically.
+- claim: Participants submit records through mobile applications on a grid-based system.
+  url: https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2025.1728231/full
+  fetched: '2026-11-03'
+  quote: Using a standardised grid-based mapping system, participants submit observations via mobile applications
+- claim: Aims to map all of Nigeria's bird species with citizen scientists, and has run since the end
+    of 2015.
+  url: https://api.gbif.org/v1/dataset/ae857486-36ca-4669-9c7f-1d3aab6d2ce2
+  fetched: 2026-11-03
+  quote: The NiBAP aims to map all of Nigeria’s bird species and describe their status with the help of
+    valued input from Citizen Scientists
+- claim: The published dataset covers May 2015 to January 2022.
+  url: https://api.gbif.org/v1/dataset/ae857486-36ca-4669-9c7f-1d3aab6d2ce2
+  fetched: 2026-11-03
+  quote: The dataset published here covers from the beginning of the project in 2015-05-22 to 2022-01-23.
+- claim: GBIF records that the A.P. Leventis Ornithological Research Institute hosts the project. No page
+    read says who operates it.
+  url: https://api.gbif.org/v1/organization/6419723e-4da4-46b2-9738-2fef69fae76a
+  fetched: 2026-11-03
+  quote: APLORI is the host institution for the Nigerian Bird Atlas Project
+- claim: A paper by its team calls it the first coordinated citizen science bird monitoring initiative
+    in Nigeria, begun in late 2015.
+  url: https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2026.1797647/full
+  fetched: 2026-11-03
+  quote: The Nigerian Bird Atlas Project (NiBAP), initiated in late 2015, represents the first coordinated
+    citizen science bird monitoring initiative in Nigeria
+- claim: The same paper reports over 320 observers and 13,226 full protocol cards from 6,026 pentads.
+  url: https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2026.1797647/full
+  fetched: 2026-11-03
+  quote: over 320 NiBAP observers have contributed 13,226 full protocol cards from 6,026 pentads
+- claim: Aims to map all of Nigeria's bird species with citizen scientists and has run since the end of
+    2015.
+  url: https://api.gbif.org/v1/dataset/993982f8-3883-435d-af0a-4b3fdd9a0295
+  fetched: '2026-11-03'
+  quote: The project has been running since the end of 2015
+- claim: Data is collected with the Birdlasser mobile application.
+  url: https://api.gbif.org/v1/dataset/993982f8-3883-435d-af0a-4b3fdd9a0295
+  fetched: '2026-11-03'
+  quote: a digital data collection mobile application called Birdlasser
+- claim: Published on GBIF under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/dataset/993982f8-3883-435d-af0a-4b3fdd9a0295
+  fetched: '2026-11-03'
+  quote: creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: run-by
+  to: a-p-leventis-ornithological-research-institute
+  url: https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2025.1728231/full
+  fetched: '2026-11-03'
+  quote: NiBAP coordinated by the A. P. Leventis Ornithological Research Institute (APLORI)
+- type: uses
+  to: birdlasser
+  url: https://api.gbif.org/v1/dataset/ae857486-36ca-4669-9c7f-1d3aab6d2ce2
+  fetched: 2026-11-03
+  quote: 'with the aid of a digital data collection mobile application (Birdlasser: https://www.birdlasser.com/)'
+- type: partners-with
+  to: african-bird-atlas-project
+  url: https://api.gbif.org/v1/dataset/ae857486-36ca-4669-9c7f-1d3aab6d2ce2
+  fetched: 2026-11-03
+  quote: a member of the continent-wide project - the African Bird Atlas Project (ABAP)
+- type: funded-by
+  to: national-geographic-society
+  url: https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2026.1797647/full
+  fetched: 2026-11-03
+  quote: NiBAP secured funding from the National Geographic Society in 2019 to train 30 citizen scientists
+found_by:
+- checklist:2
+- link-from:a-p-leventis-ornithological-research-institute
+- register:ng
+added_by: agent
+checked: '2026-11-03'

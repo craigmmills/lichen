@@ -1,0 +1,39 @@
+id: university-of-ruhuna
+kind: organisation
+name: University of Ruhuna
+also_known_as: []
+scope: lk
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: lk
+countries:
+- lk
+scale: national
+status: active
+summary: University whose departments are lead affiliations on papers about acoustic
+  records of free-tailed bats and kingfisher identification using machine learning
+  and deep learning.
+facts:
+- claim: Its Department of Agricultural Biology is the lead affiliation on an acoustic
+    record of free-tailed bats.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4415685933|W7167897942&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Tharaka Kusuminda", "raw_affiliation_strings": ["Department
+    of Agricultural Biology, Faculty of Agriculture, University of Ruhuna, Kamburupitiya,
+    Sri Lanka"]'
+- claim: Its Department of Computer Science is the lead affiliation on a paper on
+    kingfisher species identification with machine learning and deep learning.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4409494946|W4415883503&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "C. S. Vidanagamachchi", "raw_affiliation_strings": ["University
+    of Ruhuna,Dept. of Computer Science,Matara,Sri Lanka"]'
+links: []
+found_by:
+- rule:checklist-misses
+- link-from:department-of-computer-science-university-of-ruhuna
+added_by: agent
+checked: 2026-11-12

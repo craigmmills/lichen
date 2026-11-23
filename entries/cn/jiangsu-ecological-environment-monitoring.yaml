@@ -1,0 +1,38 @@
+id: jiangsu-ecological-environment-monitoring
+kind: organisation
+name: Jiangsu Ecological Environment Monitoring
+also_known_as:
+- 江苏省生态环境监测监控有限公司
+scope: cn
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+hq: cn
+scale: regional
+status: active
+summary: Jiangsu company that runs AI video and sound monitoring of birds in ten cities in
+  the province, with a local library of bird calls and images.
+facts:
+- claim: Its staff built a local bird sample library, with about 510,000 call samples from
+    more than 400 species.
+  url: https://www.ncsti.gov.cn/kjdt/kjrd/202609/t20260921_256849.html
+  fetched: '2026-10-31'
+  quote: 数据库已收录鸟类鸣声标本400余种、共计51万余条，图像标本500余种、共计10万余张
+links:
+- type: runs
+  to: jiangsu-ai-bird-monitoring
+  url: https://www.ncsti.gov.cn/kjdt/kjrd/202609/t20260921_256849.html
+  fetched: '2026-10-31'
+  quote: 我们整合了网上开源数据、江苏历年鸟类调查数据、野外实测影像和本土鸟鸣声纹素材
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'

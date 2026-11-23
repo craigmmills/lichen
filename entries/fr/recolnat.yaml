@@ -1,0 +1,48 @@
+id: recolnat
+kind: programme
+name: Récolnat
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- fr
+status: active
+website: https://recolnat.fr/fr
+summary: French national research infrastructure for natural history collections,
+  led by the Muséum, with a portal of nearly 11 million images and data from over
+  80 institutions.
+facts:
+- claim: The GBIF registry describes it as a national research infrastructure with
+    a database, image bank and collaborative tools.
+  url: https://api.gbif.org/v1/organization/02fce6f4-8dcd-4eaf-afe9-28ba30822751
+  fetched: '2026-10-31'
+  quote: Récolnat is a national research infrastructure.
+- claim: The ANR project summary says the data can be exported and reused.
+  url: https://anr.fr/ProjetIA-11-INBS-0004
+  fetched: '2026-10-31'
+  quote: ces données sont exportables et réutilisables
+- claim: The ANR project summary says it has been a scientific interest group since
+    June 2020.
+  url: https://anr.fr/ProjetIA-11-INBS-0004
+  fetched: '2026-10-31'
+  quote: Depuis juin 2020, e-ReColNat a consolidé sa fondation sous la forme d’un
+    groupement d’intérêt scientifique.
+- claim: DiSSCo says the consortium includes more than 70 institutions.
+  url: https://www.dissco.eu/fr
+  fetched: '2026-10-31'
+  quote: This consortium now includes more than 70 institutions
+links:
+- type: run-by
+  to: museum-national-dhistoire-naturelle
+  url: https://anr.fr/ProjetIA-11-INBS-0004
+  fetched: '2026-10-31'
+  quote: 'Etablissement coordinateur : Museum National D''Histoire Naturelle'
+found_by:
+- link-from:gbif-france
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- e-ReColNat
+- RECOLNAT

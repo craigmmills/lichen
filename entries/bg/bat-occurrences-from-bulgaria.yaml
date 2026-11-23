@@ -1,0 +1,44 @@
+id: bat-occurrences-from-bulgaria
+kind: dataset
+name: Bat occurrences from Bulgaria
+also_known_as:
+- bat-data-bulgaria
+scope: bg
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- bg
+status: active
+summary: Dataset of bat occurrence records in Bulgaria from 1905 to 2025, drawn from
+  literature and unpublished data, with GBIF listing 10,203 records and the National
+  Museum of Natural History as publisher.
+facts:
+- claim: The dataset holds occurrence records of bat species in Bulgaria from 1905
+    to 2025.
+  url: https://api.gbif.org/v1/dataset/6b2a3042-db4f-4bf2-85a4-0301654a083a
+  fetched: '2026-11-15'
+  quote: This dataset contains occurrence records of bat species (Chiroptera) in Bulgaria,
+    covering the period from 1905 to 2025.
+- claim: The records come from published literature and unpublished original data,
+    including field observations and expert-verified records.
+  url: https://api.gbif.org/v1/dataset/6b2a3042-db4f-4bf2-85a4-0301654a083a
+  fetched: '2026-11-15'
+  quote: The records have been compiled from both published literature sources and
+    unpublished original data, including field observations and expert-verified records.
+- claim: GBIF lists the National Museum of Natural History, Bulgarian Academy of Sciences,
+    as the dataset's publisher.
+  url: https://api.gbif.org/v1/dataset/search?q=Bat%20occurrences%20from%20Bulgaria&limit=5
+  fetched: '2026-11-15'
+  quote: '"publishingOrganizationTitle":"National Museum of Natural History, Bulgarian
+    Academy of Sciences"'
+- claim: GBIF lists 10,203 records in the dataset.
+  url: https://api.gbif.org/v1/dataset/search?q=Bat%20occurrences%20from%20Bulgaria&limit=5
+  fetched: '2026-11-15'
+  quote: '"recordCount":10203'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'
+runner: unknown

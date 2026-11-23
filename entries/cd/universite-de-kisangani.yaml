@@ -1,0 +1,80 @@
+id: universite-de-kisangani
+kind: organisation
+name: Université de Kisangani
+also_known_as:
+- UNIKIS
+- University of Kisangani
+scope: cd
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: ai
+hq: cd
+countries:
+- cd
+scale: national
+status: active
+summary: A public higher education and research institution in Tshopo province, which runs the Centre
+  de Surveillance de la Biodiversité, created in January 2011, with OpenAlex papers on forest mapping
+  and peat carbon.
+facts:
+- claim: Created the Centre de Surveillance de la Biodiversité by rectoral decision on 8 January 2011.
+  url: https://centresurveillancebiodiversite.org/
+  fetched: 2026-11-08
+  quote: Le Centre de Surveillance de la Biodiversité (CSB) fut créé par la décision Rectorale N°005/UNIKIS
+    le 8 janvier 2011
+- claim: OpenAlex lists authors at the university on a 2022 paper mapping peat thickness and carbon stocks
+    of the central Congo Basin.
+  url: https://api.openalex.org/works?filter=institutions.country_code:cd,primary_topic.subfield.id:2309|2303|1105,publication_year:>2017&per-page=200&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Mapping peat thickness and carbon stocks of the central Congo Basin using field data
+- claim: Says it is a public institution of higher education and research in the DRC, in Tshopo province.
+  url: http://unikis.ac.cd/
+  fetched: 2026-11-08
+  quote: L' Université de Kisangani (UNIKIS) est une institution publique d'enseignement supérieur et
+    de recherche de premier plan en République Démocratique du Congo.
+- claim: Names research in biodiversity and forest management among its aims.
+  url: http://unikis.ac.cd/
+  fetched: 2026-11-08
+  quote: Promouvoir la recherche scientifique innovante, particulièrement dans les domaines de la biodiversité,
+    de la gestion forestière et des sciences sociales.
+- claim: OpenAlex lists a 2020 paper with a first author at the Université de Kisangani on a random forest
+    algorithm for mapping deforestation in the Ituri-Epulu-Aru landscape.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:1702|1707&per_page=100&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Random Forest Algorithm for Mapping Deforestation in the Ituri-Epulu-Aru Landscape (Democratic
+    Republic of Congo)
+  ai_type: ml-supervised
+- claim: OpenAlex lists a 2019 paper with a first author at the Université de Kisangani on multi-temporal
+    Landsat analysis of forest fragmentation in the Yoko Forest.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&page=3&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Multi-Temporal Landsat Remote Sensing for Forest Landscape Fragmentation Analysis in the Yoko
+    Forest, Kisangani, DRC
+links:
+- type: runs
+  to: centre-de-surveillance-de-la-biodiversite
+  url: https://centresurveillancebiodiversite.org/collaborations/
+  fetched: 2026-11-08
+  quote: le CSB étant une entité de l’UNIKIS
+- type: partners-with
+  to: meise-botanic-garden
+  url: https://centresurveillancebiodiversite.org/
+  fetched: 2026-11-08
+  quote: 'initiative d’un Consortium constitué de l’Université de Kisangani et 3 institutions Belges dont
+    : le Musée Royal de l’Afrique Centrale, l’Institut Royal des Sciences Naturelles de Belgique et le
+    Jardin Botanique de Meise'
+found_by:
+- checklist:3
+- link-from:centre-de-surveillance-de-la-biodiversite-kisangani
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised

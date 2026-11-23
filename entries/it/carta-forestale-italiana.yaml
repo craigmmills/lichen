@@ -1,0 +1,64 @@
+id: carta-forestale-italiana
+kind: dataset
+name: Carta Forestale Italiana
+also_known_as:
+- CFI2020
+- Forest Map of Italy
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: National forest map at 1:10,000 scale, made by CREA for the agriculture ministry's
+  forests directorate and available through the national forest information system
+  SINFor.
+facts:
+- claim: Shows forest area at 1:10,000 scale.
+  url: https://www.meteoweb.eu/2024/11/nasce-nuova-carta-forestale-italiana/1001689000/
+  fetched: 2026-10-31
+  quote: permette di visualizzare, a scala 1:10.000, la superficie forestale
+- claim: Can be consulted on the site of the national forest information system, SINFor.
+  url: https://www.meteoweb.eu/2024/11/nasce-nuova-carta-forestale-italiana/1001689000/
+  fetched: 2026-10-31
+  quote: è consultabile sul sito del Sistema informativo nazionale delle foreste e
+    delle filiere forestali (SINFor)
+- claim: Made on a mandate from the agriculture ministry.
+  url: https://cfi-sinfor.crea.gov.it/Home/CartaForestale
+  fetched: '2026-10-31'
+  quote: su mandato del Ministero dell’agricoltura della sovranità alimentare e delle
+    foreste
+- claim: Vector format at a scale of 1:10,000, nominal reference year 2020.
+  url: https://cfi-sinfor.crea.gov.it/Home/CartaForestale
+  fetched: '2026-10-31'
+  quote: in formato vettoriale (shapefile), a una scala pari a 1:10.000. L’anno nominale
+    di riferimento della Carta è il 2020.
+- claim: Made by CREA FL and viewable in SINFor.
+  url: https://creafuturo.crea.gov.it/14618/
+  fetched: '2026-10-31'
+  quote: La recente CFI2020 realizzata dal CREA FL, è una dettagliata e funzionale
+    rappresentazione vettoriale, consultabile all’interno del Sistema Informativo
+    Nazionale delle Foreste e del Settore Forestale (SINFor)
+links:
+- type: run-by
+  to: crea-foreste-e-legno
+  url: https://www.meteoweb.eu/2024/11/nasce-nuova-carta-forestale-italiana/1001689000/
+  fetched: 2026-10-31
+  quote: La Carta (CFI2020), realizzata dal CREA su incarico della Direzione Foreste
+    del MASAF
+- type: run-by
+  to: crea-council-for-agricultural-research
+  url: https://cfi-sinfor.crea.gov.it/Home/CartaForestale
+  fetched: '2026-10-31'
+  quote: La CFI2020 è stata realizzata dal CREA Foreste e Legno
+- type: run-by
+  to: crea-council-for-agricultural-research
+  url: https://creafuturo.crea.gov.it/14618/
+  fetched: '2026-10-31'
+  quote: La recente CFI2020 realizzata dal CREA FL
+found_by:
+- checklist:2
+- link-from:consiglio-per-la-ricerca-in-agricoltura-e-lanalisi-delleconomia-agraria
+added_by: agent
+checked: 2026-10-31
+techniques:
+- remote-sensing

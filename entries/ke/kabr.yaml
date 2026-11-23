@@ -1,0 +1,48 @@
+id: kabr
+kind: dataset
+name: KABR
+scope: ke
+runner: unknown
+also_known_as:
+- Kenyan Animal Behavior Recognition
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ke
+summary: Open CC0 dataset of drone video of giraffes, plains zebras and Grévy's zebras,
+  filmed at Mpala Research Centre in January 2023, for animal behaviour recognition.
+status: active
+facts:
+- claim: The dataset card says drones filmed the animals at Mpala Research Centre.
+  url: https://huggingface.co/datasets/imageomics/KABR
+  fetched: '2026-10-31'
+  quote: The dataset was collected using drones that flew over the animals in the
+    Mpala Research Centre in Kenya
+- claim: The dataset card gives 1,139,893 frames.
+  url: https://huggingface.co/datasets/imageomics/KABR
+  fetched: '2026-10-31'
+  quote: The dataset consists of a total of 1,139,893 frames captured from drone videos.
+- claim: The dataset is licensed CC0.
+  url: https://huggingface.co/datasets/imageomics/KABR
+  fetched: '2026-10-31'
+  quote: 'License: cc0-1.0'
+- claim: More than 10 hours of annotated video of giraffes and zebras.
+  url: https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/papers/Kholiavchenko_KABR_In-Situ_Dataset_for_Kenyan_Animal_Behavior_Recognition_From_Drone_WACVW_2024_paper.pdf
+  fetched: '2026-10-31'
+  quote: consisting of more than 10 hours of annotated videos of reticulated gi- raffes,
+    plains zebras, and Grevy's zebras
+links:
+- type: partners-with
+  to: imageomics-institute
+  url: https://huggingface.co/datasets/imageomics/KABR
+  fetched: '2026-10-31'
+  quote: "This work was supported by the Imageomics Institute"
+found_by:
+- link-from:imageomics-institute
+- link-from:tanya-berger-wolf
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,58 @@
+id: lec-khutse-leopard-density-study
+kind: project
+name: Leopard Density Study (Khutse Game Reserve)
+also_known_as: []
+scope: bw
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Active Leopard Ecology and Conservation survey over more than 4,400 km2 in
+  Khutse and the southern Central Kalahari, run in 2023 and 2025, using TrapTagger
+  and African Carnivore Wildbook and feeding the National Leopard Survey.
+facts:
+- claim: Images are first processed with the AI-driven platform TrapTagger to sort
+    species, and leopards are matched with African Carnivore Wildbook.
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: Images are first processed using an AI-driven platform called TrapTagger,
+    which helps sort species efficiently.
+- claim: The survey covers more than 4,400 km2 divided into four blocks.
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: The survey spans a vast area of more than 4,400 km², divided into four blocks.
+- claim: Run in 2023 over Khutse and the southern Central Kalahari and repeated in
+    2025.
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: The camera-trap survey was successfully implemented in 2023, covering Khutse
+    and the southern part of the Central Kalahari. In 2025, the survey was repeated
+- claim: Its data contribute to the Department of Wildlife and National Parks' National
+    Leopard Survey.
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: the data contribute to broader monitoring efforts, including the Department
+    of Wildlife and National Parks’ National Leopard Survey
+links:
+- type: run-by
+  to: leopard-ecology-and-conservation
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: At LEC, we use camera traps equipped with flash technology
+- type: uses
+  to: traptagger
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: Images are first processed using an AI-driven platform called TrapTagger
+- type: uses
+  to: african-carnivore-wildbook
+  url: https://www.leopard.ch/index.php/en/research/research-projects/leopard-density/
+  fetched: 2026-11-12
+  quote: individual recognition is supported by specialized software such as African
+    Carnivore Wildbook
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

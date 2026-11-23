@@ -1,0 +1,34 @@
+id: forest-iq
+kind: dataset
+name: Forest IQ
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://forestiq.org
+summary: Open access data platform on how companies and financial institutions address their links to deforestation, created by an alliance of not-for-profit organisations.
+facts:
+- claim: Open access data on over 2,000 companies, for screening portfolios and due diligence.
+  url: https://forestiq.org
+  quote: Screen portfolios, assess risk and complete due diligence with open access data on over 2,000 companies.
+  fetched: '2026-10-30'
+- claim: Funded by the Gordon and Betty Moore Foundation, the Norwegian Agency for Development Cooperation and Arc.
+  url: https://forestiq.org/about
+  quote: Forest IQ is made possible by the generous support of the Gordon and Betty Moore Foundation, the Norwegian Agency for Development Cooperation and Arc.
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: global-canopy
+  url: https://forestiq.org/about
+  quote: was designed by Global Canopy in partnership with SEI and ZSL
+  fetched: '2026-10-30'
+- type: partners-with
+  to: norwegian-agency-for-development-cooperation
+  url: https://forestiq.org/about
+  quote: "Forest IQ is made possible by the generous support of the Gordon and Betty Moore Foundation, the Norwegian Agency for Development Cooperation and Arc."
+  fetched: '2026-10-30'
+found_by:
+- link-from:global-canopy
+added_by: agent
+checked: '2026-10-30'

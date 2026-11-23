@@ -1,0 +1,78 @@
+id: ulusal-arazi-ortusu-siniflandirma-ve-izleme-sistemi
+kind: project
+name: Ulusal Arazi Örtüsü Sınıflandırma ve İzleme Sistemi
+also_known_as:
+- UASİS
+- National Land Cover Classification and Monitoring System
+scope: tr
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- tr
+status: active
+summary: AI-supported national land cover system built by the environment ministry, classifying Sentinel-2
+  images into 5 main and 79 sub-classes, with pilot basin accuracy for main classes of 71% to 95%.
+facts:
+- claim: Sentinel-2 images and auxiliary data from institutions are classified semi-automatically with
+    AI-based algorithms to produce annual land cover maps.
+  url: https://dergipark.org.tr/tr/pub/csid/article/1558594
+  fetched: 2026-11-03
+  quote: Sentinel-2 uydu görüntüleri ve kurumlardan alınan yardımcı veriler yapay zeka tabanlı algoritmalar
+    ile yarı otomatik olarak sınıflandırılarak arazi örtüsü haritaları yıllık olarak oluşturulmaktadır.
+- claim: Produces national land cover maps in 5 main classes and 79 sub-classes, 32 of them generated
+    automatically.
+  url: https://dergipark.org.tr/tr/pub/csid/article/1558594
+  fetched: 2026-11-03
+  quote: UASİS projesi ile 5 ana sınıf ve 79 alt sınıfta arazi örtüsü haritası ulusal ölçekte üretilmektedir.
+- claim: In pilot basins, accuracy for the 5 main classes was between 71% and 95%.
+  url: https://dergipark.org.tr/tr/pub/csid/article/1558594
+  fetched: 2026-11-03
+  quote: 5 ana sınıfta doğruluk oranı %71 ile %95 arasında
+- claim: In December 2023 the environment ministry said it had developed the AI-supported system to determine
+    land cover and monitor change over the years.
+  url: https://www.memurlar.net/haber/1086502/turkiye-nin-arazi-ortusu-verileri-yapay-zeka-destekli-yeni-sistemle-tespit-edilecek.html
+  fetched: 2026-11-03
+  quote: Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, arazi örtüsünün mevcut durumunun belirlenmesi
+    ve yıllar içindeki değişimlerin izlenebilmesi amacıyla yapay zeka destekli Ulusal Arazi Örtüsü Sınıflandırma
+    ve İzleme Sistemi (UASİS) projesini geliştirdi.
+- claim: Tree cover density, surface imperviousness and land cover change data are to be produced annually.
+  url: https://www.memurlar.net/haber/1086502/turkiye-nin-arazi-ortusu-verileri-yapay-zeka-destekli-yeni-sistemle-tespit-edilecek.html
+  fetched: 2026-11-03
+  quote: arazi örtüsü verisi, ağaç kapalılık, yüzey geçirimsizlik, arazi örtüsü değişimi gibi veriler
+    yıllık olarak üretilecek
+links:
+- type: run-by
+  to: collesme-ve-erozyonla-mucadele-genel-mudurlugu
+  url: https://dergipark.org.tr/tr/pub/csid/article/1558594
+  fetched: 2026-11-03
+  quote: Çölleşme ve Erozyonla Mücadele Genel Müdürlüğü ve Türkiye Bilimsel ve Teknolojik Araştırma Kurumu
+    Bilişim ve Bilgi Güvenliği İleri Teknolojiler Araştırma Merkezi (TÜBİTAK BİLGEM) işbirliği ile yürütülen
+    UASİS projesinde
+- type: partners-with
+  to: tubitak-bilgem
+  url: https://dergipark.org.tr/tr/pub/csid/article/1558594
+  fetched: 2026-11-03
+  quote: UASİS projesi kapsamında Çölleşme ve Erozyonla Mücadele Genel Müdürlüğü ile iş birliği içerisinde
+    olan Türkiye Bilimsel ve Teknolojik Araştırma Kurumu Bilişim ve Bilgi Güvenliği İleri Teknolojiler
+    Araştırma Merkezi proje ekibine
+- type: built-by
+  to: cevre-sehircilik-ve-iklim-degisikligi-bakanligi
+  url: https://www.memurlar.net/haber/1086502/turkiye-nin-arazi-ortusu-verileri-yapay-zeka-destekli-yeni-sistemle-tespit-edilecek.html
+  fetched: 2026-11-03
+  quote: Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, arazi örtüsünün mevcut durumunun belirlenmesi
+    ve yıllar içindeki değişimlerin izlenebilmesi amacıyla yapay zeka destekli Ulusal Arazi Örtüsü Sınıflandırma
+    ve İzleme Sistemi (UASİS) projesini geliştirdi.
+- type: uses
+  to: sentinel-2
+  url: https://dergipark.org.tr/tr/pub/csid/article/1558594
+  fetched: 2026-11-03
+  quote: Sentinel-2 uydu görüntüleri ve kurumlardan alınan yardımcı veriler yapay zeka tabanlı algoritmalar
+    ile yarı otomatik olarak sınıflandırılarak
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

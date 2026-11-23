@@ -1,0 +1,36 @@
+id: earth-i
+kind: organisation
+name: Earth-i
+scope: gb
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gb
+scale: national
+status: active
+website: https://earthi.space/
+summary: Guildford company developing indicators for environmental land monitoring from satellite
+  images for the Rural Payments Agency.
+facts:
+- claim: Developing novel indicators for environmental land monitoring.
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: by developing novel indicators for environmental land monitoring
+  fetched: &id001 2026-10-30
+- claim: Registered office on the Companies House register.
+  url: https://find-and-update.company-information.service.gov.uk/company/08508188
+  quote: 71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ
+  fetched: 2026-10-30
+- claim: Blends Earth observation data from several operators using AI.
+  url: https://earthi.space/about-us/
+  quote: we harness Earth observation data from multiple operators across multiple sensors
+    and resolutions
+  fetched: 2026-10-30
+found_by:
+- checklist:5
+added_by: agent
+checked: *id001

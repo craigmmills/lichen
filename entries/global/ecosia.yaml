@@ -1,0 +1,44 @@
+id: ecosia
+kind: organisation
+name: Ecosia
+scope: global
+sector: company
+roles:
+- funds
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: de
+scale: global
+status: active
+website: https://www.ecosia.org
+summary: Berlin-based not-for-profit search engine that funds tree planting and works with
+  the French startup Kanop to monitor its reforestation sites with satellite data and AI.
+facts:
+- claim: Berlin-based search engine that teamed up with Kanop to monitor reforestation.
+  url: https://thenextweb.com/news/tree-planting-search-engine-ecosia-kanop-reforestation-space
+  fetched: &id001 2026-10-30
+  quote: Berlin-based Ecosia, best known as the tree-planting search engine, has teamed up
+    with French startup Kanop to monitor its reforestation efforts from space.
+- claim: Claims to have planted 200 million trees since 2009.
+  url: https://thenextweb.com/news/tree-planting-search-engine-ecosia-kanop-reforestation-space
+  fetched: *id001
+  quote: The company claims to have planted 200 million trees since its inception in 2009.
+- claim: Says 100% of its profits go to the planet.
+  url: https://www.ecosia.org/
+  quote: 100% of profits for the planet
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: kanop
+  url: https://thenextweb.com/news/tree-planting-search-engine-ecosia-kanop-reforestation-space
+  fetched: *id001
+  quote: Ecosia, best known as the tree-planting search engine, has teamed up with French
+    startup Kanop
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

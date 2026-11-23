@@ -1,0 +1,65 @@
+id: project-guacamaya
+kind: project
+name: Project Guacamaya
+scope: global
+ai_label: ai
+ai_types: [multimodal]
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+countries:
+- co
+status: active
+summary: Joint project in the Colombian Amazon that uses AI on satellite imagery, camera trap images and bioacoustics to monitor deforestation and biodiversity.
+facts:
+- claim: A joint effort that uses satellite imagery, camera traps and bioacoustics.
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: &id001 2026-10-30
+  quote: uses best-in-class AI models to monitor deforestation and protect the biodiversity of the ecosystem, through a combination of satellite imagery, camera traps and bioacoustics
+- claim: Colombia's IDEAM will use its models in official deforestation reporting.
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: *id001
+  quote: will now use Project Guacamaya’s models in its reporting
+- claim: "Guacamaya uses a multimodal language model called CLAP."
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: 2026-10-30
+  quote: "The audio language model is a custom-made multimodal language model called CLAP"
+  ai_type: multimodal
+links:
+- type: led-by
+  to: microsoft-ai-for-good-lab
+  url: https://parispeaceforum.org/projects/project-guacamaya/
+  fetched: *id001
+  quote: "Project Guacamaya addresses this challenge by leveraging AI and cloud technology to monitor deforestation and protect biodiversity. Led by Microsoft AI for Good Lab , Universidad de los Andes , Instituto Sinchi , and Instituto Humboldt"
+- type: partners-with
+  to: universidad-de-los-andes
+  url: https://parispeaceforum.org/projects/project-guacamaya/
+  fetched: *id001
+  quote: "Project Guacamaya addresses this challenge by leveraging AI and cloud technology to monitor deforestation and protect biodiversity. Led by Microsoft AI for Good Lab , Universidad de los Andes , Instituto Sinchi , and Instituto Humboldt"
+- type: partners-with
+  to: instituto-sinchi
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: *id001
+  quote: Instituto SINCHI
+- type: partners-with
+  to: instituto-humboldt
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: *id001
+  quote: Instituto Humboldt
+- type: partners-with
+  to: planet-labs
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: *id001
+  quote: "Project Guacamaya is a joint effort of the CinfonIA Research Center at Universidad de los Andes , Instituto SINCHI , Instituto Humboldt , Planet Labs PBC and Microsoft AI for Good Lab"
+- type: partners-with
+  to: ideam
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: *id001
+  quote: The Institute of Hydrology, Meteorology and Environmental Studies (IDEAM)
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

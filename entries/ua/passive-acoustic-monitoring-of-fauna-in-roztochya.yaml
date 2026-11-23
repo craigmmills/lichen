@@ -1,0 +1,52 @@
+id: passive-acoustic-monitoring-of-fauna-in-roztochya
+kind: project
+name: Passive acoustic monitoring of fauna in the Roztochya region of Ukraine
+scope: ua
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ua
+status: active
+runner: unknown
+summary: Records birds using autonomous acoustic equipment funded by the Finnish Embassy,
+  identifies them with BirdNET, checks sampled detections with experts and publishes
+  records to GBIF.
+facts:
+- claim: Records birds with autonomous acoustic recorders and identifies them with
+    BirdNET, a deep learning model.
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-09
+  quote: Data were recorded using autonomous acoustic recorders and analyzed using
+    BirdNET, a deep learning-based species identification model.
+  ai_type: deep-learning
+- claim: Automated detections were randomly sampled and checked by human experts;
+    logistic regression set a confidence threshold intended to ensure at least 95%
+    identification accuracy.
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-09
+  quote: automated detections were randomly sampled and verified by human experts
+- claim: Publishes its bird records to GBIF as a dataset of passive acoustic monitoring
+    observations.
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-09
+  quote: Passive acoustic monitoring observations of birds in Ukrainian Roztochya
+- claim: The Embassy of Finland in Ukraine funded the acoustic recording equipment.
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-09
+  quote: This study was supported by the Embassy of Finland in Ukraine, which provided
+    funding for the acquisition of acoustic recording equipment.
+links:
+- type: uses
+  to: birdnet
+  url: https://api.gbif.org/v1/dataset/af2b5fb0-3177-4df2-9a5e-2d776ef5f0a4
+  fetched: 2026-11-09
+  quote: analyzed using BirdNET, a deep learning-based species identification model
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

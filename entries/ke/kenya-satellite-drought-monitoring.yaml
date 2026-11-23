@@ -1,0 +1,31 @@
+id: kenya-satellite-drought-monitoring
+kind: project
+name: Satellite-based drought monitoring in Kenya
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: unknown
+summary: Operational processing chain that maps drought across Kenya from MODIS vegetation
+  data, set up by BOKU in Vienna with the National Drought Management Authority.
+facts:
+- claim: BOKU set up the chain with NDMA.
+  url: https://isprs-archives.copernicus.org/articles/XL-7-W3/433/2015/
+  quote: has setup an operational processing chain for mapping drought occurrence and strength
+    for the territory of Kenya
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: university-of-natural-resources-and-life-sciences-vienna
+  url: https://isprs-archives.copernicus.org/articles/XL-7-W3/433/2015/
+  quote: The University of Natural Resources and Life Sciences (BOKU) in Vienna (Austria)
+    in cooperation with the National Drought Management Authority (NDMA)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,39 @@
+id: archipelago-research-institute
+kind: organisation
+name: Archipelago Research Institute
+scope: fi
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: unknown
+scale: local
+status: active
+summary: Research institute that has monitored the environment and marine conditions on Seili
+  Island since 1966, producing datasets over 50 years long, including seawater and plankton
+  time series; run by the University of Turku.
+facts:
+- claim: Has carried out environmental and marine monitoring on Seili Island since 1966, producing
+    datasets spanning more than 50 years.
+  url: https://sites.utu.fi/seili/en/station/research/
+  fetched: '2026-11-08'
+  quote: The Archipelago Research Institute (ARI) has carried out environmental and marine
+    monitoring on Seili Island since 1966.
+- claim: The time series include seawater conditions and plankton communities, and researchers
+    and students are welcome to use the data.
+  url: https://sites.utu.fi/seili/en/station/research/
+  fetched: '2026-11-08'
+  quote: Researchers and students are welcome to use Seili monitoring data in their work.
+links:
+- type: run-by
+  to: university-of-turku
+  url: https://sites.utu.fi/kevo/en/about-the-institute/research/
+  fetched: '2026-11-08'
+  quote: the Archipelago Research Institute at Seili
+found_by:
+- rule:checklist-misses
+- link-from:kevo-subarctic-research-station
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,60 @@
+id: ode-clay
+kind: organisation
+name: ODE Clay
+scope: global
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- foundation-models
+techniques:
+- remote-sensing
+hq: global
+scale: global
+status: active
+website: https://madewithclay.org
+summary: Team that built the Clay foundation model and works on AI for public-interest uses
+  of Earth data, hosted by Renaissance Philanthropy.
+facts:
+- claim: Says it has a partnership with Renaissance Philanthropy to host its work.
+  url: https://madewithclay.org/
+  fetched: '2026-10-30'
+  quote: This includes our new partnership with Renaissance Philanthropy
+- claim: The team developed the Clay foundation model.
+  url: https://madewithclay.org
+  fetched: '2026-10-30'
+  quote: developing the Clay foundation model of Earth data
+  ai_type: foundation-models
+- claim: Says versions 0 to 1.5 of the Clay model were a fiscally sponsored project of Radiant
+    Earth, and that Clay is now a program of Renaissance Philanthropy.
+  url: https://clay-foundation.github.io/model
+  quote: CLAY model v0 to v1.5 was a fiscal sponsored project of the 501c3 non-profit Radiant
+    Earth
+  fetched: '2026-10-30'
+- claim: A 2024 release called Clay a nonprofit AI startup and described its model as a foundation
+    model of satellite data trained on freely available data.
+  url: https://prnewswire.com/news-releases/tech-startup-launches-ai-products-to-slash-satellite-data-costs-by-99-aiming-to-accelerate-innovation-on-climate-and-nature-302147036.html
+  quote: Clay , a nonprofit AI startup, unveiled new products
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: renaissance-philanthropy
+  url: https://madewithclay.org/
+  fetched: '2026-10-30'
+  quote: our new partnership with Renaissance Philanthropy
+- type: run-by
+  to: renaissance-philanthropy
+  url: https://madewithclay.org/
+  quote: CLAY IS A PROGRAM OF RENAISSANCE PHILANTHROPY
+  fetched: '2026-10-30'
+- type: partners-with
+  to: radiant-earth
+  url: https://clay-foundation.github.io/model
+  quote: CLAY model v0 to v1.5 was a fiscal sponsored project of the 501c3 non-profit Radiant
+    Earth
+  fetched: '2026-10-30'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

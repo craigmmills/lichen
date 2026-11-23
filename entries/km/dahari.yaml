@@ -1,0 +1,68 @@
+id: dahari
+kind: organisation
+name: Dahari
+scope: km
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: km
+countries:
+- km
+scale: national
+status: active
+website: https://www.daharicomores.org
+summary: Comorian NGO, funded by CEPF, with GPS tracking of two flying foxes in 2019, a Livingstone's
+  fruit bat survey with Durrell, a GBIF publisher role, and a 2030 aim of fisher-managed reef reserves.
+facts:
+- claim: Durrell describes Dahari as a Comorian NGO that joined Durrell and Bristol Zoological Society
+    to complete the most comprehensive survey of the Livingstone's fruit bat to date.
+  url: https://www.durrell.org/news/a-bat-on-the-brink-joining-forces-to-save-the-world-s-most-endangered-fruit-bat/
+  fetched: 2026-11-12
+  quote: researchers from Durrell Wildlife Conservation Trust, Bristol Zoological Society and the Comorian
+    NGO Dahari joined forces to complete the most comprehensive survey of this species to date
+- claim: Its CEPF final report says GPS loggers tracked two flying foxes between January and August 2019.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2175
+  fetched: 2026-11-12
+  quote: GPS loggers were used to track two flying foxes between January and August 2019.
+- claim: Its October 2019 final report said population monitoring and GPS tracking of Livingstone's fruit
+    bat were among the studies planned to continue.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2175
+  fetched: 2026-11-12
+  quote: Those studies that will be continued are the population monitoring and GPS tracking of the
+- claim: The report gives Dahari's address in Mutsamudu, Anjouan.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2175
+  fetched: 2026-11-12
+  quote: BP 277, Hombo – Mutsamudu, Anjouan, Comores
+- claim: OpenAlex lists authors affiliated with Dahari on the 2024 paper 'Seasonal trends and population
+    status of the highly threatened Pteropus livingstonii in the Comoros archipelago'.
+  url: https://api.openalex.org/works/doi:10.1186/s12862-024-02255-w?select=display_name,publication_year,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Hugh Doulton","raw_affiliation_strings":["NGO Dahari, Hombo - Mutsamudu,
+    Anjouan, Comoros"]'
+- claim: Registered as a GBIF publisher, endorsed in November 2026; it says it maintains databases of
+    species occurrence.
+  url: https://api.gbif.org/v1/organization?country=KM&limit=50
+  fetched: 2026-11-12
+  quote: We undertake research into ecological patterns in order to identify conservation priorities and
+    inform national policies, as part of which we maintain databases of species occurence.
+- claim: Its site says that by 2030 it aims to create a national network of permanent reserves managed
+    by fishers to restore coral reefs.
+  url: https://www.daharicomores.org
+  fetched: 2026-11-12
+  quote: D’ici 2030, Dahari cible de créer un réseau national de réserves permanentes gérées par les pêcheurs
+    et pêcheuses, afin de restaurer les récifs coralliens des Comores
+links:
+- type: funded-by
+  to: critical-ecosystem-partnership-fund
+  url: https://www.cepf.net/grants/grantee-projects/developing-conservation-agreement-scheme-restore-forests-anjouan-island
+  fetched: 2026-11-12
+  quote: 'Grantee Name: Dahari'
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-12

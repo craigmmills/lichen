@@ -1,0 +1,48 @@
+id: agriculture-and-agri-food-canada
+kind: organisation
+name: Agriculture and Agri-Food Canada
+also_known_as:
+- AAFC
+scope: ca
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: ca
+status: active
+realms:
+- land
+summary: Federal department that, with Canadensys and the Canadian Museum of Nature, offers
+  a shared site for sharing occurrence data in Canada, and carries out Earth observation work
+  on land.
+facts:
+- claim: Joined Canadensys and the Canadian Museum of Nature to offer a unified occurrence
+    data site.
+  url: https://www.canadensys.net/post/2023/canadensyslaunch/
+  fetched: '2026-10-31'
+  quote: Canadensys , the Canadian Museum of Nature , and Agriculture and Agri-Food Canada
+    have come together to offer a unified site for sharing occurrence data in Canada.
+- claim: GBIF record says it maintains collections of living and preserved biological material.
+  url: https://api.gbif.org/v1/organization/055bd978-2daa-4543-b3f0-44e0e87e86ca
+  fetched: '2026-10-31'
+  quote: AAFC maintains collections of living and preserved biological material
+links:
+- type: partners-with
+  to: canadensys
+  url: https://www.canadensys.net/post/2023/canadensyslaunch/
+  fetched: '2026-10-31'
+  quote: Canadensys , the Canadian Museum of Nature , and Agriculture and Agri-Food Canada
+    have come together
+- type: runs
+  to: aafc-land-use
+  url: https://donnees.iriu.ca/fr/dataset/339b8b7c-8b4f-43d6-8c3b-362ba1da4a29
+  fetched: '2026-10-31'
+  quote: Agriculture and Agri-Food Canada | Agriculture et Agroalimentaire Canada
+found_by:
+- checklist:2
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

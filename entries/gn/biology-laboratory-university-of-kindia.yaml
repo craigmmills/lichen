@@ -1,0 +1,50 @@
+id: biology-laboratory-university-of-kindia
+kind: organisation
+name: Biology Laboratory, Department of Biology, University of Kindia
+scope: gn
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gn
+countries:
+- gn
+scale: local
+status: active
+summary: University laboratory named as the affiliation of the lead author of a 2025
+  paper that used Landsat images to analyse land use around the Mount Gangan classified
+  forest between 1995 and 2024.
+facts:
+- claim: The lead author of the 2025 paper on land occupation in the Gangan classified
+    forest is affiliated to the Biology Laboratory of the University of Kindia's Department
+    of Biology.
+  url: https://api.openalex.org/works/W4412845795?select=id,display_name,doi,publication_year,primary_location,authorships
+  fetched: 2026-11-12
+  quote: '"author_position":"first","author":{"id":"https://openalex.org/A5032291201","display_name":"Soua
+    Dore"'
+- claim: The paper lists that affiliation as the Biology Laboratory, Department of
+    Biology, University of Kindia.
+  url: https://www.scirp.org/journal/paperinformation?paperid=144545
+  fetched: 2026-11-12
+  quote: 1 Biology Laboratory, Department of Biology, University of Kindia, Kindia,
+    Republic of Guinea .
+- claim: The study used Landsat images for a diachronic analysis of land use in the
+    study area between 1995 and 2024.
+  url: https://www.scirp.org/journal/paperinformation?paperid=144545
+  fetched: 2026-11-12
+  quote: In our case, images from Landsat sensors are used to set up a diachronic
+    analysis of land use between 1995 and 2024 in our study area.
+- claim: It monitored land use around the Mount Gangan classified forest with Landsat
+    images.
+  url: https://www.scirp.org/journal/paperinformation?paperid=144545
+  fetched: 2026-11-12
+  quote: Monitoring land use dynamics around the Mount Gangan classified forest was
+    carried out using high-resolution Landsat satellite images.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

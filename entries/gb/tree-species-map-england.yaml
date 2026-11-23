@@ -1,0 +1,38 @@
+id: tree-species-map-england
+kind: dataset
+name: Tree Species Map England
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.data.gov.uk/dataset/05350a8c-3f9a-4d78-a671-908e83f24237/tree-species-map-england
+summary: Predicted distribution of common tree species in England from Sentinel-2
+  imagery and machine learning, funded by the Natural Capital and Ecosystem Assessment
+  programme.
+facts:
+- claim: Created with Sentinel-2 data and machine learning to classify common tree
+    species in England.
+  url: https://www.data.gov.uk/dataset/05350a8c-3f9a-4d78-a671-908e83f24237/tree-species-map-england
+  quote: The map was created using satellite remote sensing data (Sentinel-2) and
+    machine learning to classify common tree species in England
+  fetched: &id001 2026-10-30
+links:
+- type: funded-by
+  to: natural-capital-and-ecosystem-assessment
+  url: https://www.data.gov.uk/dataset/05350a8c-3f9a-4d78-a671-908e83f24237/tree-species-map-england
+  quote: The England species map was funded by DEFRA’s Natural Capital and Ecosystem
+    Assessment (NCEA) programme
+  fetched: *id001
+- type: run-by
+  to: forestry-commission
+  url: https://www.data.gov.uk/dataset/05350a8c-3f9a-4d78-a671-908e83f24237/tree-species-map-england
+  quote: © Forestry Commission copyright and/or database right 2024
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- rule:checklist-misses
+added_by: agent
+checked: *id001

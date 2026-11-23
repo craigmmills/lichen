@@ -1,0 +1,31 @@
+id: noaa-marine-mammal-acoustic-detection
+kind: project
+name: AI-based automation of acoustic detection of marine mammals
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: unknown
+summary: NOAA in-house software for training and deploying machine learning models
+  that detect marine mammals in passive acoustic data.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - AI-based automation of acoustic detection of marine mammals
+    Command line software which was developed in-house for model training, evaluation,
+    and deployment of machine learning models for the purpose of marine
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - AI-based automation of acoustic detection of marine mammals
+    Command line software which was developed in-house for model training, evaluation,
+    and deployment of machine learning models for the purpose of marine
+found_by:
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'

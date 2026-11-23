@@ -1,0 +1,34 @@
+id: game-and-wildlife-conservation-trust
+kind: organisation
+name: Game & Wildlife Conservation Trust
+also_known_as:
+- GWCT
+scope: gb
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- other
+hq: gb
+scale: national
+status: active
+website: https://www.gwct.org.uk
+summary: UK charity whose publication list includes a 2026 study applying deep learning to
+  resistivity fish counter data on three English rivers.
+facts:
+- claim: Publishes a study applying deep learning to fish counter data.
+  url: https://www.gwct.org.uk/research/scientific-publications/2026/elliott20262/
+  quote: We applied deep learning models to identify diadromous fish using continuous electrical
+    resistivity data from resistivity fish counters
+  fetched: &id001 2026-10-30
+- claim: Charity registration.
+  url: https://www.gwct.org.uk/research/scientific-publications/2026/elliott20262/
+  quote: Charity registered in England and Wales, 1112023, in Scotland SC038868
+  fetched: *id001
+found_by:
+- checklist:4
+added_by: agent
+checked: *id001

@@ -1,0 +1,41 @@
+id: vatteninformationssystem-sverige
+kind: dataset
+name: Vatteninformationssystem Sverige
+also_known_as:
+- VISS
+scope: se
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+status: active
+summary: Dataset with information on Sweden's larger lakes, watercourses, groundwater
+  and coastal waters, built by Vattenmyndigheterna and Länsstyrelserna and partnered
+  with Havs- och vattenmyndigheten.
+facts:
+- claim: Contains information on Sweden's larger lakes, watercourses, groundwater
+    and coastal waters.
+  url: https://www.havochvatten.se/planering-forvaltning-och-samverkan/vattenforvaltning/vattendirektivet/information-om-sveriges-vatten-viss.html
+  fetched: '2026-11-02'
+  quote: VISS innehåller information om Sveriges större sjöar, vattendrag, grundvatten
+    och kustvatten.
+links:
+- type: built-by
+  to: vattenmyndigheterna
+  url: https://www.havochvatten.se/planering-forvaltning-och-samverkan/vattenforvaltning/vattendirektivet/information-om-sveriges-vatten-viss.html
+  fetched: '2026-11-02'
+  quote: VISS är en databas som utvecklats av Vattenmyndigheterna och Länsstyrelserna
+- type: built-by
+  to: county-administrative-boards-of-sweden
+  url: https://www.havochvatten.se/planering-forvaltning-och-samverkan/vattenforvaltning/vattendirektivet/information-om-sveriges-vatten-viss.html
+  fetched: '2026-11-02'
+  quote: VISS är en databas som utvecklats av Vattenmyndigheterna och Länsstyrelserna
+- type: partners-with
+  to: swedish-agency-for-marine-and-water-management
+  url: https://www.havochvatten.se/planering-forvaltning-och-samverkan/vattenforvaltning/vattendirektivet/information-om-sveriges-vatten-viss.html
+  fetched: '2026-11-02'
+  quote: i samverkan med Havs- och vattenmyndigheten
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

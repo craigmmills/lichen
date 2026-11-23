@@ -1,0 +1,43 @@
+id: prince-edward-point-bird-observatory
+kind: organisation
+name: Prince Edward Point Bird Observatory
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: A migration monitoring station established in 1995 that monitors in spring
+  and fall and is listed as a station of the Canadian Migration Monitoring Network.
+facts:
+- claim: Established as a migration monitoring station in 1995, with monitoring in
+    spring and fall.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Observatory was established as a migration monitoring station in 1995
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

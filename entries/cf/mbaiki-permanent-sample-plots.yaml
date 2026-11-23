@@ -1,0 +1,40 @@
+id: mbaiki-permanent-sample-plots
+kind: dataset
+name: M'Baïki permanent sample plots forest dynamics data (1982-2022)
+scope: cf
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- cf
+status: unknown
+runner: unknown
+summary: Data from three control plots near M'Baïki record girth, mortality and recruitment
+  monitored almost annually from 1982 to 2022; the paper carries a CC BY 4.0 licence.
+facts:
+- claim: The AGRIS record of the 2024 Scientific Data paper says a silvicultural experiment
+    set up in 1982 near M'Baïki monitors the recovery of tropical forest after disturbance.
+  url: https://agris.fao.org/search/en/records/669f5fd100eb85b7d72c232b
+  fetched: 2026-11-12
+  quote: A vast silvicultural experiment was set up in 1982 nearby the town of M'Baïki
+    in the Central African Republic to monitor the recovery of tropical forests after
+    disturbance.
+- claim: Girth, mortality and recruitment were monitored almost annually from 1982
+    to 2022.
+  url: https://agris.fao.org/search/en/records/669f5fd100eb85b7d72c232b
+  fetched: 2026-11-12
+  quote: Girth, mortality and newly recruited trees, were monitored almost annually
+    over the 1982–2022 period with inventory campaigns for 35 years.
+- claim: The data released with the paper cover the three control plots.
+  url: https://agris.fao.org/search/en/records/669f5fd100eb85b7d72c232b
+  fetched: 2026-11-12
+  quote: The data released from this paper cover the three control plots
+- claim: The record gives the paper a CC BY 4.0 licence.
+  url: https://agris.fao.org/search/en/records/669f5fd100eb85b7d72c232b
+  fetched: 2026-11-12
+  quote: https://creativecommons.org/licenses/by/4.0/
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

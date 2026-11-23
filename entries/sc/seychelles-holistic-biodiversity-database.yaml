@@ -1,0 +1,39 @@
+id: seychelles-holistic-biodiversity-database
+kind: dataset
+name: Seychelles Holistic Biodiversity Database (Bio)
+also_known_as:
+- Bio database
+- KBA-Herbarium database
+scope: sc
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- sc
+status: unknown
+runner: unknown
+summary: National biodiversity database called Bio, which a GBIF record says grew from a 2011 to 2013
+  herbarium digitisation project and, with smartphone tools since 2013, from 23,000 to 48,000 records.
+facts:
+- claim: The Seychelles National Herbarium's GBIF record says a 2011 to 2013 project of the Plant Conservation
+    Action group and the herbarium digitised collections and literature records, defining 75 Key Biodiversity
+    Areas, and that this KBA-Herbarium database became the national biodiversity database called Bio.
+  url: https://api.gbif.org/v1/organization?country=SC&limit=50
+  fetched: 2026-11-09
+  quote: This became known as the KBA-Herbarium database and has now evolved into a National Biodiversity
+    Database called Bio.
+- claim: The same record says smartphone tools developed by PCA members since 2013 grew the database from
+    23,000 to 48,000 records.
+  url: https://api.gbif.org/v1/organization?country=SC&limit=50
+  fetched: 2026-11-09
+  quote: Since 2013, ongoing projects led by PCA members have developed Smartphone tools to collect biodiversity
+    data. As a consequence, the database has grown from 23000 to 48000 records.
+- claim: Gaea Seychelles names it the Seychelles' Holistic Biodiversity Database on species and ecosystems.
+  url: https://www.gaeaseychelles.sc/projects/developing-a-freshwater-biodiversity-information-system-for-long-term-conservation-and-management-in-the-seychelles/
+  fetched: 2026-11-09
+  quote: Holistic Biodiversity Database on species and ecosystems’ (Bio database)
+found_by:
+- link-from:gaea-seychelles
+added_by: agent
+checked: 2026-11-09

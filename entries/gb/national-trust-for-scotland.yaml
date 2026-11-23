@@ -1,0 +1,30 @@
+id: national-trust-for-scotland
+kind: organisation
+name: National Trust for Scotland
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.nts.org.uk/
+summary: Publishes the National Trust for Scotland Species Records dataset on GBIF.
+facts:
+- claim: Publishes the dataset "National Trust for Scotland Species Records" on GBIF.
+  url: https://api.gbif.org/v1/organization/90e9563c-9e64-40ba-910b-66100232a212/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: National Trust for Scotland Species Records
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/90e9563c-9e64-40ba-910b-66100232a212/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,34 @@
+id: caltech-camera-traps
+kind: dataset
+name: Caltech Camera Traps
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- us
+status: active
+website: https://lila.science/datasets/caltech-camera-traps
+summary: Labelled data set of 243,100 camera trap images from 140 locations in the south-western
+  United States, published with the paper Recognition in Terra Incognita.
+facts:
+- claim: 243,100 images from 140 camera locations.
+  url: https://lila.science/datasets/caltech-camera-traps
+  fetched: '2026-10-30'
+  quote: This data set contains 243,100 images from 140 camera locations in the Southwestern
+    United States
+links:
+- type: builds-on
+  to: lila-bc
+  url: https://lila.science/datasets/caltech-camera-traps
+  fetched: '2026-10-30'
+  quote: 'Labeled Information Library of Alexandria: Biology and Conservation'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown
+also_known_as:
+- CaltechCameraTraps

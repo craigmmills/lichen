@@ -1,0 +1,30 @@
+id: j-litter
+kind: dataset
+name: J-Litter
+scope: jp
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- jp
+status: active
+website: https://www.godac.jamstec.go.jp/dsdebris/e/dataset/j-litter.html
+summary: A dataset built by the Japan Agency for Marine-Earth Science and Technology holding 12,029 original
+  images, of which 4,197 contain seafloor litter.
+found_by:
+- link-from:deeplitterai
+facts:
+- claim: Holds 12,029 original images, of which 4,197 contain seafloor litter.
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: Of the 12,029 images, 4,197 contain seafloor litter
+links:
+- type: built-by
+  to: japan-agency-for-marine-earth-science-and-technology
+  url: https://www.jamstec.go.jp/e/about/press_release/20260903/
+  fetched: '2026-11-02'
+  quote: the research team built J-Litter, a new dataset of more than 12,000 images
+added_by: agent
+checked: '2026-11-02'

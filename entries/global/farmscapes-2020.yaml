@@ -1,0 +1,38 @@
+id: farmscapes-2020
+kind: dataset
+name: Farmscapes 2020
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+status: active
+summary: High-resolution map of hedgerows, stone walls and copses across England from Google Research and the Leverhulme Centre for Nature Recovery, later released in a vectorised form.
+facts:
+- claim: Identifies features such as hedgerows and linear woodlands across England.
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: &id001 2026-10-30
+  quote: the first large-scale, high-resolution map to identify overlooked features like hedgerows and linear woodlands across England
+links:
+- type: run-by
+  to: google-research
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: we previously released Farmscapes 2020
+- type: partners-with
+  to: leverhulme-centre-for-nature-recovery
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: "Farmscapes 2020 : the first large-scale, high-resolution map to identify overlooked features like hedgerows and linear woodlands across England, in collaboration with the Leverhulme Centre for Nature Recovery at the University of Oxford."
+- type: builds-on
+  to: remote-sensing-foundations
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: we used Remote Sensing Foundations’ (RSF) Vision-Transformer (ViT) Backbone
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

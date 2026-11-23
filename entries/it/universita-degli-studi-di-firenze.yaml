@@ -1,0 +1,84 @@
+id: universita-degli-studi-di-firenze
+kind: organisation
+name: Università degli Studi di Firenze
+also_known_as:
+- University of Florence
+- Università degli Studi di Firenze
+- UniFI
+scope: it
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: Italian university whose departments of information engineering and biology work
+  on the Wild.AI camera-trap platform, and which carried out the PANACEA project on robots
+  monitoring Posidonia with the University of Pisa.
+facts:
+- claim: Funded Wild.AI as a two-year project.
+  url: https://micc.unifi.it/seidenari/project/wild.ai
+  fetched: 2026-10-31
+  quote: This is a two year project, funded by the University of Florence.
+- claim: Developed the autonomous surface vehicle FeelHippo used in PANACEA.
+  url: https://www.unipi.it/en/news/autonomous-and-intelligent-multi-robot-system/
+  fetched: 2026-10-31
+  quote: FeelHippo, developed by the University of Florence as an autonomous surface vehicle
+- claim: Biodiversa+ lists its Department of Biology as a BIG_PICTURE partner.
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-10-31'
+  quote: Department of Biology, University of Florence, Florence, Italy
+- claim: BIG_PICTURE works on AI-enabled image processing tools.
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-10-31'
+  quote: AI-enabled image processing tools.
+- claim: Funded the two-year Wild.AI project.
+  url: https://www.micc.unifi.it/seidenari/project/wild.ai/
+  fetched: '2026-10-31'
+  quote: This is a two year project, funded by the University of Florence
+- claim: Its animal ecology group studies mammals in Italian protected areas with AI-aided
+    camera trapping.
+  url: https://www.ecologyandbiodiversity.unifi.it/vp-13-projects.html
+  fetched: '2026-10-31'
+  quote: standardized study and monitoring of mammalian species and communities across Italian
+    protected areas through AI-aided camera trapping and analytics
+links:
+- type: funds
+  to: wild-ai
+  url: https://micc.unifi.it/seidenari/project/wild.ai
+  fetched: 2026-10-31
+  quote: This is a two year project, funded by the University of Florence.
+- type: runs
+  to: panacea-posidonia-robots
+  url: https://www.unipi.it/en/news/autonomous-and-intelligent-multi-robot-system/
+  fetched: 2026-10-31
+  quote: carried out over the past two and a half years by the Universities of Pisa and Florence
+- type: partners-with
+  to: big-picture-camera-trapping
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-10-31'
+  quote: Department of Biology, University of Florence, Florence, Italy
+- type: partners-with
+  to: dissco
+  url: https://www.dissco.eu/partners/
+  fetched: '2026-10-31'
+  quote: University of Florence Italy
+- type: partners-with
+  to: national-biodiversity-future-center
+  url: https://www.nbfc.it/it/partner
+  fetched: '2026-10-31'
+  quote: Università degli Studi di Firenze
+found_by:
+- link-from:wild-ai
+- link-from:big-picture-camera-trapping
+- queue:it
+- checklist:3
+added_by: agent
+checked: 2026-10-31

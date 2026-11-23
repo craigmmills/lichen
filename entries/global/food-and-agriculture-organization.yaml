@@ -1,0 +1,74 @@
+id: food-and-agriculture-organization
+kind: organisation
+name: Food and Agriculture Organization of the United Nations
+also_known_as:
+- FAO
+scope: global
+sector: multilateral
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+- convenes
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+hq: it
+scale: global
+status: active
+website: https://www.fao.org
+summary: UN agency whose Forestry Division builds open-source forest and land monitoring tools,
+  including Open Foris, and runs the AIM4Forests programme.
+facts:
+- claim: States that its central AI challenge in forest monitoring is to ensure deployment
+    strengthens national sovereignty over forest data.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: 2026-10-30
+  quote: For FAO, the central challenge is not simply to accelerate the uptake of AI, but
+    to ensure that its deployment strengthens national sovereignty over forest data
+- claim: Headquarters are in Rome, Italy.
+  url: https://www.fao.org/in-action/aim4forests/news-and-events/news/news-detail/expert-workshop-advances-ai-driven-forest-growth-monitoring-and-climate-mitigation-strategies/en
+  fetched: 2026-10-30
+  quote: held at FAO headquarters from 9 to 10 June 2025 in Rome, Italy.
+- claim: A presentation on Earth observation and AI in forest monitoring by Inge Jonckheere,
+    hosted by Think Namibia, lists use of AI for the calculations in its SEPAL notebook material.
+  url: https://www.thinknamibia.org.na/images/projects/forest/Inge_Jonckheere-The_Role_of_Earth_Observation_and_AI_in_Forest_Monitoring_compressed-1.pdf
+  quote: Use of AI for the calculations
+  fetched: '2026-10-30'
+- claim: Says the second phase of SEPAL is a $15 million multi-donor project.
+  url: https://www.fao.org/newsroom/detail/a-revamped-state-of-the-art-forest-and-land-monitoring-tool-to-reverse-forest-loss-and-combat-climate-change/en
+  quote: The $15 million second phase of the SEPAL project is a multi-donor project
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: open-foris
+  url: https://www.fao.org/in-action/openforis/overview
+  fetched: 2026-10-30
+  quote: FAO’s Open Foris initiative
+- type: runs
+  to: aim4forests
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: 2026-10-30
+  quote: AIM4Forests – FAO programme supporting countries in strengthening forest monitoring
+    data systems, and digital public infrastructure
+- type: funded-by
+  to: norways-international-climate-and-forest-initiative
+  url: https://www.fao.org/newsroom/detail/a-revamped-state-of-the-art-forest-and-land-monitoring-tool-to-reverse-forest-loss-and-combat-climate-change/en
+  quote: an initial contribution from Norway's International Climate and Forest Initiative
+    ( NICFI ) of $10 million
+  amount: 10000000
+  currency: USD
+  fetched: '2026-10-30'
+- type: partners-with
+  to: planet-labs
+  url: https://www.fao.org/newsroom/detail/Planet-satellites-bolster-FAO-s-geospatial-toolkit/fr
+  quote: updated daily by a fleet of more than 190 satellites run by Planet
+  fetched: '2026-10-30'
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

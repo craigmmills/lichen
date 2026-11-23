@@ -1,0 +1,77 @@
+id: inidep
+kind: organisation
+name: Instituto Nacional de Investigación y Desarrollo Pesquero
+also_known_as:
+- INIDEP
+scope: ar
+sector: government
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+hq: unknown
+countries:
+- ar
+scale: national
+status: active
+summary: Argentine fisheries research institute that carried out 17 research campaigns and
+  252 days at sea in 2021, advises government on fishery resources, and offers satellite-derived
+  environmental data.
+facts:
+- claim: In 2021 it carried out 17 research campaigns and 252 days at sea with its research
+    vessels.
+  url: https://www.argentina.gob.ar/noticias/el-inidep-cierra-el-ano-con-17-campanas-de-investigacion-y-252-dias-navegados
+  quote: A lo largo de 2021 , el Instituto Nacional de Investigación y Desarrollo Pesquero
+    (INIDEP) concretó a 17 campañas de investigación y 252 días de navegación
+  fetched: '2026-11-03'
+- claim: Its 2021 campaigns included hake in the northern Patagonian nursery area and assessments
+    of southern demersal fish and Patagonian scallop.
+  url: https://www.argentina.gob.ar/noticias/el-inidep-cierra-el-ano-con-17-campanas-de-investigacion-y-252-dias-navegados
+  quote: En 2021 el BIP Dr. Eduardo L. Holmberg realizó la campaña de merluza en la zona de
+    cría norpatagónica, las evaluaciones de peces demersales australes y de vieira patagónica
+  fetched: '2026-11-03'
+- claim: Co-authors of the 2025 deep learning plankton classification paper give affiliations
+    at INIDEP.
+  url: https://api.openalex.org/works/W4415214000?select=id,title,doi,publication_year,authorships
+  quote: Pesquero (INIDEP), Buenos Aires, Argentina
+  fetched: '2026-11-03'
+- claim: Advises the national fisheries undersecretariat, the Federal Fisheries Council and
+    the foreign ministry on the rational use of fishery resources, with the aim of preserving
+    the marine ecosystem.
+  url: https://www.argentina.gob.ar/inidep/mision-funcion
+  fetched: 2026-11-03
+  quote: asesora a la Subsecretaría de Pesca y Acuicultura de la Nación (SSPyA), al Consejo
+    Federal Pesquero (CFP) y a la Cancillería Argentina en el uso racional de los recursos
+    pesqueros con el objetivo de preservar el ecosistema marino
+- claim: Its functions include research projects on the prospecting and assessment of fisheries.
+  url: https://www.argentina.gob.ar/inidep/mision-funcion
+  fetched: 2026-11-03
+  quote: formular, ejecutar y controlar los proyectos de investigación en prospección, evaluación
+    y desarrollo de pesquerías
+- claim: GBIF's registry says its fish collection comes mainly from INIDEP's research cruises.
+  url: https://api.gbif.org/v1/organization/b8f8154f-de98-4ed6-859c-65cc45597f8b
+  fetched: 2026-11-03
+  quote: The samples come mainly from the research cruises carried on by the INIDEP
+- claim: Its site offers environmental variables derived from satellite images.
+  url: https://www.argentina.gob.ar/inidep
+  fetched: 2026-11-03
+  quote: Información Satelital Variables ambientales obtenidas a partir de imágenes satelitales
+- claim: Its data catalogue gives access to physical data and bio-optical phytoplankton variables
+    for the Argentine continental shelf.
+  url: https://www.argentina.gob.ar/inidep
+  fetched: 2026-11-03
+  quote: Catálogo de Datos Acceso a datos físicos y a variables bio ópticas del fitoplancton
+    en la Plataforma Continental Argentina
+- claim: Lists a species geoviewer among its resources.
+  url: https://www.argentina.gob.ar/inidep
+  fetched: 2026-11-03
+  quote: Geovisor de Especies
+links: []
+found_by:
+- checklist:1
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-03'
+techniques:
+- remote-sensing

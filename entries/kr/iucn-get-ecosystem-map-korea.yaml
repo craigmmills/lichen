@@ -1,0 +1,36 @@
+id: iucn-get-ecosystem-map-korea
+kind: dataset
+name: IUCN GET ecosystem map of the Republic of Korea
+scope: kr
+ai_label: ai
+status: active
+summary: Ecosystem map of Korea built by Seonyoung Park on Landsat, with 36 Korea-specific
+  classes and overall accuracy of about 85%, using machine learning and deep learning.
+facts:
+- claim: Comprises 36 classes specific to Korea, with overall accuracy of about 85%.
+  url: https://meetingorganizer.copernicus.org/EGU26/EGU26-16158.html
+  fetched: '2026-11-02'
+  quote: resulting in ecosystem maps comprising 36 classes specific to Korea
+- claim: Uses machine learning and deep learning approaches.
+  url: https://meetingorganizer.copernicus.org/EGU26/EGU26-16158.html
+  fetched: '2026-11-02'
+  quote: using machine learning and deep learning approaches
+  ai_type: deep-learning
+links:
+- type: builds-on
+  to: landsat
+  url: https://meetingorganizer.copernicus.org/EGU26/EGU26-16158.html
+  fetched: '2026-11-02'
+  quote: using time-series Landsat satellite imagery
+found_by:
+- checklist:7
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- kr
+added_by: agent
+checked: '2026-11-02'

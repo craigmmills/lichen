@@ -1,0 +1,74 @@
+id: centre-national-de-floristique
+kind: organisation
+name: Centre National de Floristique
+also_known_as:
+- National Flora Center
+- CNF
+scope: ci
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: ci
+countries:
+- ci
+scale: national
+status: unknown
+summary: A biodiversity information and research centre in Abidjan with an arboretum and a herbarium of
+  about 60,000 specimens, publishing 37 datasets through GBIF and run by Université Félix Houphouët-Boigny.
+facts:
+- claim: Its GBIF publisher record says it houses an arboretum of at least 750 species and a herbarium
+    of about 60,000 specimens from Côte d'Ivoire and Africa.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952
+  fetched: '2026-11-08'
+  quote: It houses an arboretum of at list 750 species and a rich herbarium of about 60 000 specimens
+    of Côte d'Ivoire and Africa.
+- claim: The same record says it works on biodiversity information management and carries out research.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952
+  fetched: '2026-11-08'
+  quote: It steps in biodiversity information management. Research activities are also carried out in
+    this center.
+- claim: The same record shows 37 published datasets.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952
+  fetched: '2026-11-08'
+  quote: '"numPublishedDatasets":37'
+- claim: The same record gives a postal address in Abidjan.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952
+  fetched: '2026-11-08'
+  quote: 22 BP 1682 ABIDJAN 22
+- claim: GBIF's publisher record says it holds an arboretum and a herbarium of about 60,000 specimens
+    from Côte d'Ivoire and Africa, and works in biodiversity information management.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952
+  fetched: '2026-11-08'
+  quote: It houses an arboretum of at list 750 species and a rich herbarium of about 60 000 specimens
+    of Côte d'Ivoire and Africa. It steps in biodiversity information management.
+- claim: Publishes through GBIF a dataset of arachnid records drawn from articles, reports and papers
+    in twelve West African countries, among 37 datasets.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952/publishedDataset?limit=40
+  fetched: '2026-11-08'
+  quote: Arachnids data from articles, reports and papers in twelve west African countries
+- claim: Publishes the seed plants of its herbarium as a series of occurrence datasets through GBIF.
+  url: https://api.gbif.org/v1/organization/a3250342-34a5-4101-8831-d1a136483952/publishedDataset?limit=40
+  fetched: '2026-11-08'
+  quote: 'Les spermaphytes de l''Herbier du Centre National de Floristique de Côte d''Ivoire: première
+    partie.'
+- claim: Held a workshop from 21 to 23 April 2026 to set up a continuing training programme in the conservation
+    of biodiversity and ecosystem services.
+  url: https://univ-fhb.edu.ci/preservation-de-la-biodiversite-et-conservation-des-services-ecosystemiques/
+  fetched: '2026-11-08'
+  quote: atelier de réflexion consacré à la mise en place d’un programme de formation continue en conservation
+    de la biodiversité et des services écosystémiques
+links:
+- type: run-by
+  to: universite-felix-houphouet-boigny
+  url: https://univ-fhb.edu.ci/preservation-de-la-biodiversite-et-conservation-des-services-ecosystemiques/
+  fetched: '2026-11-08'
+  quote: le Centre National de Floristique (CNF) de l’Université Félix Houphouët-Boigny (UFHB)
+found_by:
+- link-from:global-targeted-2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

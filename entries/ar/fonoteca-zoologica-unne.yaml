@@ -1,0 +1,30 @@
+id: fonoteca-zoologica-unne
+kind: dataset
+name: Fonoteca Zoológica de la Universidad Nacional del Nordeste
+also_known_as:
+- FZ-UNNE
+scope: ar
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+techniques:
+- bioacoustics
+countries:
+- ar
+status: unknown
+runner: unknown
+summary: Bioacoustic recording archive at the Universidad Nacional del Nordeste, which GBIF's dataset
+  record describes as holding 700 anuran vocalisations.
+facts:
+- claim: GBIF's dataset record describes 700 anuran vocalisations from the FZ-UNNE, an archive specialised
+    in bioacoustic recordings.
+  url: https://api.gbif.org/v1/organization/0f56ac70-81c1-11d9-b6d0-b8a03c50a862/publishedDataset?limit=50
+  fetched: 2026-11-03
+  quote: El dataset corresponde a 700 vocalizaciones de anuros, pertenecientes a la Fonoteca Zoológica
+    de la Universidad Nacional del Nordeste (FZ-UNNE), un archivo especializado en registros bioacústicos.
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

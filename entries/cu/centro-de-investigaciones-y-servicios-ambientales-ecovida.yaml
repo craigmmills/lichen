@@ -1,0 +1,42 @@
+id: centro-de-investigaciones-y-servicios-ambientales-ecovida
+kind: organisation
+name: Centro de Investigaciones y Servicios Ambientales Ecovida
+also_known_as:
+- ECOVIDA
+scope: cu
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques: []
+hq: cu
+countries:
+- cu
+scale: local
+status: active
+summary: A Cuban government institution placed at Guanahacabibes National Park in a 2025 predator video
+  survey paper, whose first and corresponding author is affiliated with the centre.
+facts:
+- claim: OpenAlex lists a 2025 paper on baited remote underwater video surveys of predators in Guanahacabibes
+    National Park, whose first and corresponding author is affiliated with the centre.
+  url: https://api.openalex.org/works?filter=institutions.country_code:CU,from_publication_date:2022-01-01,title_and_abstract.search:remote%20sensing%20OR%20machine%20learning%20OR%20deep%20learning%20OR%20species%20distribution&select=id,title,publication_year,authorships&per-page=40
+  fetched: 2026-11-09
+  quote: Using Baited Remote Underwater Video Surveys (BRUVs) to Analyze the Structure of Predators in
+    Guanahacabibes National Park, Cuba
+- claim: The paper's affiliation line places the centre at Guanahacabibes National Park, La Bajada, Sandino.
+  url: https://api.openalex.org/works?filter=institutions.country_code:CU,from_publication_date:2022-01-01,title_and_abstract.search:remote%20sensing%20OR%20machine%20learning%20OR%20deep%20learning%20OR%20species%20distribution&select=id,title,publication_year,authorships&per-page=40
+  fetched: 2026-11-09
+  quote: Parque Nacional Guanahacabibes, Centro de Investigaciones y Servicios Ambientales (ECOVIDA),
+    La Bajada, Sandino 24150, Cuba
+- claim: OpenAlex classes the centre as a government institution in Cuba.
+  url: https://api.openalex.org/works?filter=institutions.country_code:CU,from_publication_date:2022-01-01,title_and_abstract.search:remote%20sensing%20OR%20machine%20learning%20OR%20deep%20learning%20OR%20species%20distribution&select=id,title,publication_year,authorships&per-page=40
+  fetched: 2026-11-09
+  quote: '"display_name": "Centro de Investigaciones y Servicios Ambientales Ecovida", "ror": "https://ror.org/01f37hg92",
+    "country_code": "CU", "type": "government"'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

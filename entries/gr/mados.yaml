@@ -1,0 +1,41 @@
+id: mados
+kind: dataset
+name: MADOS
+also_known_as:
+- Marine Debris and Oil Spill dataset
+scope: gr
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+status: active
+website: https://marine-pollution.github.io
+summary: Open-access Sentinel-2 dataset of 15 classes including oil spills and marine debris,
+  built from 174 scenes (2015 to 2022) with about 1.5 million annotated pixels, by Katerina
+  Kikaki.
+facts:
+- claim: An open-access dataset with 15 classes, including oil spills and marine debris, based
+    on Sentinel-2 data.
+  url: https://marine-pollution.github.io
+  fetched: '2026-11-03'
+  quote: We introduce a new open-access dataset named MADOS, which includes 15 classes,
+- claim: Built from 174 Sentinel-2 scenes captured between 2015 and 2022, with about 1.5 million
+    annotated pixels.
+  url: https://marine-pollution.github.io
+  fetched: '2026-11-03'
+  quote: consisting of 174 scenes captured between 2015-2022, with approximately 1.5M annotated
+    pixels
+- claim: Released with a deep learning framework for semantic segmentation, MariNeXt.
+  url: https://marine-pollution.github.io
+  fetched: '2026-11-03'
+  quote: we propose a novel Deep Learning (DL) framework named MariNeXt, based on recent state-of-the-art
+    architectural advancements for semantic segmentation
+  ai_type: deep-learning
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,51 @@
+id: universiti-teknologi-malaysia
+kind: organisation
+name: Universiti Teknologi Malaysia
+also_known_as:
+- UTM
+scope: my
+sector: academic
+roles:
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: Malaysian university whose Centre for Artificial Intelligence and Robotics developed
+  KenalKayu, an automated timber species identification system, and which hosts the TropicalMap
+  research group in its Faculty of Built Environment and Surveying.
+facts:
+- claim: Its Centre for Artificial Intelligence and Robotics developed KenalKayu, an automated
+    timber species identification system.
+  url: https://research.utm.my/cairo/kenalkayu-ai-based-system-for-tropical-timber-species-identification/
+  fetched: 2026-11-03
+  quote: the Centre for Artificial Intelligence and Robotics (CAIRO), Universiti Teknologi
+    Malaysia (UTM) has developed KenalKayu, an automated system for tropical timber species
+    identification
+- claim: OpenAlex lists the SEA-BIRD30 dataset with a first author at the university.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:bioacoustic%20machine%20learning%20species,from_publication_date:2020-01-01&per_page=15&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: dataset for 30 Southeast Asian bird sounds
+- claim: Lists the TropicalMap research group under its Faculty of Built Environment and Surveying.
+  url: https://www.utm.my/tropicalmap
+  fetched: '2026-11-03'
+  quote: under the Faculty of Built Environment and Surveying
+links:
+- type: builds
+  to: kenalkayu
+  url: https://research.utm.my/cairo/kenalkayu-ai-based-system-for-tropical-timber-species-identification/
+  fetched: 2026-11-03
+  quote: has developed KenalKayu, an automated system for tropical timber species identification
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-03

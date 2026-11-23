@@ -1,0 +1,50 @@
+id: university-of-bergen
+kind: organisation
+name: University of Bergen
+also_known_as:
+- UiB
+- Universitetet i Bergen
+scope: 'no'
+sector: academic
+roles:
+- unknown
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+hq: 'no'
+countries:
+- 'no'
+scale: national
+status: active
+website: https://www.uib.no/
+summary: Bergen university named by the Institute of Marine Research as a CRIMAC research
+  partner, with a 2025 doctoral thesis on machine learning for fisheries acoustic data.
+facts:
+- claim: Named by the Institute of Marine Research as a research partner in CRIMAC.
+  url: https://www.hi.no/en/hi/forskning/projects/crimac
+  fetched: '2026-11-02'
+  quote: 'Research partners: NORCE, Norsk Regnesentral and UiB'
+- claim: A 2025 doctoral thesis at the university introduced machine learning methods to automate
+    the analysis of fisheries acoustic data.
+  url: https://www4.uib.no/forskning/disputaser/bruk-av-maskinlaering-for-a-oppdage-fisk-i-akustiske-data
+  fetched: &id001 2026-11-02
+  quote: Dette doktorgradsarbeidet introduserer maskinlæringsmetoder for å automatisere prosessen.
+- claim: The thesis was supervised by two University of Bergen staff and one from the Institute
+    of Marine Research.
+  url: https://www4.uib.no/forskning/disputaser/bruk-av-maskinlaering-for-a-oppdage-fisk-i-akustiske-data
+  fetched: *id001
+  quote: Hans veiledere er Anna Oleynik og Guttorm Alendal (Universitetet i Bergen), og Nils
+    Olav Handegard (Havforskningsinstituttet).
+- claim: The GBIF publisher record gives its address in Bergen, Norway.
+  url: https://api.gbif.org/v1/organization/3f3967bf-ecc7-4455-ba89-4e0ab6d6fd3c
+  fetched: *id001
+  quote: '"city":"Bergen","country":"NO"'
+found_by:
+- link-from:crimac
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- bioacoustics

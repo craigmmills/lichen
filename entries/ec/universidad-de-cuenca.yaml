@@ -1,0 +1,48 @@
+id: universidad-de-cuenca
+kind: organisation
+name: Universidad de Cuenca
+scope: ec
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- other
+hq: ec
+countries:
+- ec
+scale: national
+status: active
+summary: University linked to a 2023 LSTM runoff forecasting paper, a reported agreement for
+  a satellite, drone and AI tool, and a laboratory listing freshwater biomonitoring research.
+facts:
+- claim: OpenAlex lists a 2023 paper with Universidad de Cuenca authors on LSTM networks for
+    runoff forecasting in a mountain basin.
+  url: https://api.openalex.org/works/W4387057450
+  fetched: '2026-11-02'
+  quote: Integrating geographic data and the SCS-CN method with LSTM networks for enhanced
+    runoff forecasting in a complex mountain basin
+  ai_type: deep-learning
+- claim: The first author gives the university's Department of Water Resources and Environmental
+    Sciences in Cuenca as her affiliation.
+  url: https://api.openalex.org/works/W4387057450
+  quote: Universidad de Cuenca, Cuenca, Ecuador
+  fetched: '2026-11-02'
+- claim: The GBIF publisher record of its Aquatic Ecology Laboratory lists freshwater biomonitoring
+    among its research lines.
+  url: https://api.gbif.org/v1/organization/e4c09fa1-d012-4a8a-a8bf-623566d94ae3
+  quote: freshwater biomonitoring, estimation of environmental flows, taxonomy of freshwater
+    insects
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+- checklist:register-d
+added_by: agent
+checked: '2026-11-03'

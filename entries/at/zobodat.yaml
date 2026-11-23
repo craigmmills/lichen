@@ -1,0 +1,34 @@
+id: zobodat
+kind: dataset
+name: ZOBODAT
+also_known_as:
+- Zoological Botanical Database
+- ZOODAT
+scope: at
+ai_label: data-infrastructure
+realms:
+- land
+countries: []
+status: active
+runner: unknown
+summary: Biogeographical database, formerly ZOODAT, founded in 1972 with analysis, documentation and communication
+  facilities, listed on GBIF with Oberösterreichische Landeskultur GmbH/Biologiezentrum as originator.
+facts:
+- claim: A digital biogeographical database with analysis, documentation and communication facilities,
+    formerly ZOODAT.
+  url: https://api.gbif.org/v1/organization/2d6e0e40-2aee-11d8-aa2d-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: ZOBODAT (Zooligical-Botanical Database, formerly ZOODAT) is a digital, biogeographical database
+    including analysis, documentation and communication facilities.
+- claim: Founded in 1972.
+  url: https://api.gbif.org/v1/organization/2d6e0e40-2aee-11d8-aa2d-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: Founded in 1972 by Univ.-Prof. Dr. Ernst Rudolf Reichl
+- claim: Listed on GBIF as a dataset whose originator is Oberösterreichische Landeskultur GmbH/Biologiezentrum.
+  url: https://api.gbif.org/v1/organization/2d6e0e40-2aee-11d8-aa2d-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: Oberösterreichische Landeskultur GmbH/Biologiezentrum
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

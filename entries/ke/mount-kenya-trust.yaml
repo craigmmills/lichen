@@ -1,0 +1,54 @@
+id: mount-kenya-trust
+kind: organisation
+name: Mount Kenya Trust
+scope: ke
+sector: ngo
+roles:
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+hq: ke
+website: https://www.mountkenyatrust.org/
+countries:
+- ke
+scale: local
+status: active
+summary: Non-profit in Nanyuki working on Mount Kenya's environment, wildlife and communities,
+  which uses SMART and EarthRanger for patrols and monitoring.
+facts:
+- claim: Located in Nanyuki.
+  url: https://wildlabs.net/article/mount-kenya-trust-thinking-locally-smart-and-earthranger
+  quote: is a non-profit organization located in Nanyuki, Kenya
+  fetched: '2026-10-30'
+- claim: Uses SMART and EarthRanger.
+  url: https://wildlabs.net/article/mount-kenya-trust-thinking-locally-smart-and-earthranger
+  quote: use conservation tools like SMART and EarthRanger technology
+  fetched: '2026-10-30'
+- claim: FAO's Mountain Partnership gives PO Box 690, Nanyuki.
+  url: https://www.fao.org/mountain-partnership/members/detail/mount-kenya-trust/en
+  fetched: '2026-10-31'
+  quote: Mount Kenya Trust, PO Box 690, Nanyuki, 10600, KENYA
+- claim: Calls itself a Kenyan NGO working to protect the forest ecosystems and wildlife around
+    Mount Kenya.
+  url: https://www.mountkenyatrust.org/
+  fetched: '2026-10-31'
+  quote: Mount Kenya Trust (MKT) is a Kenyan NGO
+links:
+- type: uses
+  to: earthranger
+  url: https://wildlabs.net/article/mount-kenya-trust-thinking-locally-smart-and-earthranger
+  quote: use conservation tools like SMART and EarthRanger technology
+  fetched: '2026-10-30'
+- type: funded-by
+  to: allen-institute-for-ai
+  url: https://allenai.org/blog/earthranger-names-mount-kenya-trust-and-conservation-x-labs-as-2023-conservation-technology-award-2d84a67abcbd
+  quote: Mount Kenya Trust and Conservation X Labs will each receive a $15,000 grant
+  fetched: '2026-10-30'
+  amount: 15000
+  currency: USD
+  year: 2023
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-30'

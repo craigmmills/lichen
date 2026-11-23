@@ -1,0 +1,32 @@
+id: fully-documented-fishing
+kind: programme
+name: Fully Documented Fishing
+scope: dk
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Programme run by the Danish Pelagic Producers Organisation that documents fishing activity on
+  member vessels with sensors, AI and CCTV cameras, for use in science, management and traceability.
+facts:
+- claim: Documents fishing activity on DPPO member vessels with sensors, AI and CCTV cameras.
+  url: https://www.dppo.dk/fully-documented-fisheries-on-all-vessels/
+  fetched: '2026-11-02'
+  quote: all fishing-related activities on board are documented using a combination of sensors, AI, and
+    CCTV cameras placed on the vessel
+- claim: Data can be used in science, management and traceability.
+  url: https://www.dppo.dk/fully-documented-fisheries-on-all-vessels/
+  fetched: '2026-11-02'
+  quote: for use in science, management, and traceability
+links:
+- type: run-by
+  to: danish-pelagic-producers-organisation
+  url: https://www.dppo.dk/fully-documented-fisheries-on-all-vessels/
+  fetched: '2026-11-02'
+  quote: The system is owned and operated by the DPPO
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-02'

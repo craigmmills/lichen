@@ -1,0 +1,51 @@
+id: terramind
+kind: model
+name: TerraMind
+scope: global
+ai_label: ai
+ai_types:
+- multimodal
+- foundation-models
+- generative-ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://huggingface.co/ibm-esa-geospatial
+summary: Multimodal generative foundation model for Earth observation from IBM and ESA Φ-lab, pre-trained with the Jülich Supercomputing Centre and supported by the FAST-EO project.
+facts:
+- claim: Described as the first multimodal, any-to-any generative foundation model for Earth observation.
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: 2026-10-30
+  quote: IBM and the European Space Agency (ESA) Φ-lab introduce TerraMind, the first multimodal, any-to-any generative foundation model for Earth Observation.
+- claim: "TerraMind is called multimodal."
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: 2026-10-30
+  quote: "TerraMind, the first multimodal, any-to-any generative foundation model for Earth Observation."
+  ai_type: multimodal
+- claim: "TerraMind is called a foundation model."
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: 2026-10-30
+  quote: "TerraMind, the first multimodal, any-to-any generative foundation model for Earth Observation."
+  ai_type: foundation-models
+- claim: "TerraMind is called generative."
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: 2026-10-30
+  quote: "TerraMind, the first multimodal, any-to-any generative foundation model for Earth Observation."
+  ai_type: generative-ai
+links:
+- type: run-by
+  to: phi-lab
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: 2026-10-30
+  quote: IBM and the European Space Agency (ESA) Φ-lab introduce TerraMind
+- type: partners-with
+  to: ibm
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: 2026-10-30
+  quote: IBM and the European Space Agency (ESA) Φ-lab introduce TerraMind
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

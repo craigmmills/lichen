@@ -1,0 +1,53 @@
+id: carta-de-ocupacao-do-solo-conjuntural
+kind: dataset
+name: Carta de Ocupação do Solo Conjuntural
+scope: pt
+also_known_as:
+- COSc
+- COSsim
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised
+countries:
+- pt
+status: active
+website: https://www.dgterritorio.gov.pt/COSc2022-Carta-de-Ocupacao-do-Solo-Conjuntural-de-2022
+summary: A land cover dataset built by the Direção-Geral do Território, produced yearly at 10 m resolution,
+  updated to 2022, classifying Sentinel-2 images with machine learning and expert rules.
+facts:
+- claim: Formerly called COSsim, and updated to 2022.
+  url: https://www.dgterritorio.gov.pt/COSc2022-Carta-de-Ocupacao-do-Solo-Conjuntural-de-2022
+  fetched: 2026-11-02
+  quote: A Carta de Ocupação do Solo Conjuntural (COSc), designada anteriormente por COSsim, foi atualizada
+    para 2022
+- claim: Produced yearly in raster format at 10 m spatial resolution.
+  url: https://www.dgterritorio.gov.pt/COSc2022-Carta-de-Ocupacao-do-Solo-Conjuntural-de-2022
+  fetched: 2026-11-02
+  quote: a COSc tem uma frequência de produção e atualização anual no formato raster e com uma resolução
+    espacial de 10 m
+- claim: Uses machine learning algorithms and expert rules to classify Sentinel-2 image series.
+  url: https://www.dgterritorio.gov.pt/COSc2022-Carta-de-Ocupacao-do-Solo-Conjuntural-de-2022
+  fetched: 2026-11-02
+  quote: as quais incluem algoritmos de machine learning e regras de conhecimento pericial para classificar
+    séries multiespectrais
+  ai_type: ml-supervised
+- claim: Copernicus Portugal describes it as produced annually in raster format with 10 metre pixels.
+  url: https://copernicusportugal.ptspace.pt/sistema-de-monitorizacao-da-ocupacao-do-solo-smos/
+  fetched: '2026-11-02'
+  quote: a Carta de Ocupação do Solo Conjuntural (COSc), produzido anualmente em formato raster com pixels
+    de 10 m
+links:
+- type: built-by
+  to: direcao-geral-do-territorio
+  url: https://www.dgterritorio.gov.pt/COSc2022-Carta-de-Ocupacao-do-Solo-Conjuntural-de-2022
+  fetched: 2026-11-02
+  quote: resulta das atividades de investigação e desenvolvimento decorridas na DGT, no âmbito do SMOS
+found_by:
+- checklist:2
+- link-from:sistema-de-monitorizacao-da-ocupacao-do-solo
+added_by: agent
+checked: 2026-11-02

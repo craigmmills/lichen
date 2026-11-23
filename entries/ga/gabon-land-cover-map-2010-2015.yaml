@@ -1,0 +1,48 @@
+id: gabon-land-cover-map-2010-2015
+kind: dataset
+name: Cartographie de l'occupation du sol du Gabon 2010 et 2015
+also_known_as:
+- Land cover map of Gabon 2010 and 2015
+scope: ga
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ga
+status: unknown
+summary: Land cover maps for 2010 and 2015 and a change map, made by AGEOS under the
+  OSFACO programme and described as the first national reference map, showing forests
+  at 89% of Gabon in 2015.
+facts:
+- claim: The 2010 and 2015 land cover maps and change map were made under the OSFACO
+    programme by AGEOS, using SPOT 5/7 and Sentinel-2 imagery for 2015 and SPOT 4,
+    ASTER and ALOS 1 for 2010.
+  url: https://rfpt.sfpt.fr/index.php/RFPT/article/download/567/303/2507
+  fetched: 2026-11-12
+  quote: dans le cadre du programme OSFACO1 par l'Agence Gabonaise d'Etudes et d'Observations
+    Spatiales (AGEOS).
+- claim: Described as the first national reference land use map, with a legend built
+    through consultation.
+  url: https://rfpt.sfpt.fr/index.php/RFPT/article/download/567/303/2507
+  fetched: 2026-11-12
+  quote: This is the first reference land use map at the national level
+- claim: Forests occupied 89% of Gabon's total area in 2015.
+  url: https://rfpt.sfpt.fr/index.php/RFPT/article/download/567/303/2507
+  fetched: 2026-11-12
+  quote: groups dominated by forests which occupied 89% of the total area of the country
+    in 2015.
+links:
+- type: built-by
+  to: agence-gabonaise-detudes-et-dobservations-spatiales
+  url: https://rfpt.sfpt.fr/index.php/RFPT/article/download/567/303/2507
+  fetched: 2026-11-12
+  quote: dans le cadre du programme OSFACO1 par l'Agence Gabonaise d'Etudes et d'Observations
+    Spatiales (AGEOS).
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

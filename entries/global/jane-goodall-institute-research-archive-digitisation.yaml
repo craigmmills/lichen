@@ -1,0 +1,50 @@
+id: jane-goodall-institute-research-archive-digitisation
+kind: project
+name: Jane Goodall Institute research archive digitisation
+scope: global
+ai_label: ai
+ai_types:
+- generative-ai
+- agentic-ai
+realms:
+- land
+countries:
+- tz
+status: active
+summary: Project funded by $1 million from the AWS Generative AI Innovation Fund to turn 65 years of handwritten notes, films and observations on chimpanzees and baboons into digital formats with language models.
+facts:
+- claim: AWS committed $1 million through its Generative AI Innovation Fund.
+  url: https://www.aboutamazon.com/news/aws/jane-goodall-institute-research-archive-aws-ai
+  fetched: &id001 2026-10-30
+  quote: AWS is committing $1 million through its Generative AI Innovation Fund to digitize the Jane Goodall Institute's extensive research archives.
+- claim: Uses Amazon Bedrock and Amazon SageMaker.
+  url: https://www.aboutamazon.com/news/aws/jane-goodall-institute-research-archive-aws-ai
+  fetched: *id001
+  quote: from analog to digital formats using Amazon Bedrock and Amazon SageMaker
+- claim: "The archive digitisation is funded through a generative AI fund."
+  url: https://www.aboutamazon.com/news/aws/jane-goodall-institute-research-archive-aws-ai
+  fetched: 2026-10-30
+  quote: "AWS is committing $1 million through its Generative AI Innovation Fund"
+  ai_type: generative-ai
+- claim: "JGI says generative and agentic AI will unlock its archives."
+  url: https://www.aboutamazon.com/news/aws/jane-goodall-institute-research-archive-aws-ai
+  fetched: 2026-10-30
+  quote: "generative and agentic AI technologies"
+  ai_type: agentic-ai
+links:
+- type: run-by
+  to: jane-goodall-institute
+  url: https://www.aboutamazon.com/news/aws/jane-goodall-institute-research-archive-aws-ai
+  fetched: *id001
+  quote: the Jane Goodall Institute's groundbreaking digital transformation
+- type: funded-by
+  to: amazon-web-services
+  url: https://www.aboutamazon.com/news/aws/jane-goodall-institute-research-archive-aws-ai
+  fetched: *id001
+  quote: "AWS is committing $1 million through its Generative AI Innovation Fund to digitize the Jane Goodall Institute's extensive research archives."
+  amount: 1000000
+  currency: USD
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

@@ -1,0 +1,29 @@
+id: seabird-tracking-database
+kind: dataset
+name: Seabird Tracking Database
+also_known_as:
+- BirdLife International Seabird Tracking Database
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+status: active
+website: https://www.seabirdtracking.org/
+summary: BirdLife International's central store of seabird tracking data from around the world, used for seabird conservation work.
+facts:
+- claim: Describes itself as the largest collection of seabird tracking data in existence.
+  url: https://www.seabirdtracking.org/about/
+  fetched: '2026-10-30'
+  quote: The BirdLife International Seabird Tracking Database is the largest collection of seabird tracking data in existence.
+links:
+- type: run-by
+  to: birdlife-international
+  url: https://www.seabirdtracking.org/about/
+  fetched: '2026-10-30'
+  quote: The BirdLife International Seabird Tracking Database is the largest collection of seabird tracking data in existence.
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

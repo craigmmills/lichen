@@ -1,0 +1,56 @@
+id: jordan-university-of-science-and-technology
+kind: organisation
+name: Jordan University of Science and Technology
+scope: jo
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: jo
+countries:
+- jo
+scale: national
+status: active
+summary: University departments are lead affiliations on a 2022 satellite deforestation
+  paper and 2024 and 2025 papers on grassland leaf area index and rangeland biomass.
+facts:
+- claim: Its Department of Computer Science is the lead affiliation on a 2022 paper
+    on monitoring deforestation in Jordan with deep semantic segmentation of satellite
+    imagery (OpenAlex record).
+  url: https://api.openalex.org/works?filter=institutions.country_code:jo,publication_year:2022-2026,title.search:deforestation&select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Monitoring deforestation in Jordan using deep semantic segmentation with
+    satellite imagery
+- claim: The authors of that paper give the Department of Computer Science in Irbid
+    as affiliation.
+  url: https://api.openalex.org/works?filter=institutions.country_code:jo,publication_year:2022-2026,title.search:deforestation&select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Department of Computer Science, Jordan University of Science and Technology,
+    Irbid 22110, Jordan
+- claim: Its natural resources and environment unit is the lead affiliation on a 2025
+    paper combining Sentinel-2 imagery and the PHYGROW model to estimate biomass in
+    arid rangelands of northern Jordan (OpenAlex record).
+  url: https://api.openalex.org/works?filter=openalex_id:W4407320987|W4392585713|W4408439663&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Integrating Sentinel-2 Imagery and PHYGROW Model for Biomass Estimation in
+    Arid Rangelands of Northern Jordan
+- claim: The same unit is the lead affiliation on a 2024 paper modelling 40 years
+    of leaf area index trends in Jordan's arid grasslands (OpenAlex record).
+  url: https://api.openalex.org/works?filter=openalex_id:W4407320987|W4392585713|W4408439663&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: 'Simulation Modeling of Arid Grassland Dynamics in Jordan: A 40-Year Analysis
+    of Leaf Area Index Trends'
+- claim: The authors of the 2024 paper give this affiliation.
+  url: https://api.openalex.org/works?filter=openalex_id:W4407320987|W4392585713|W4408439663&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Jordan University of Science & Technology, Natural Resources& Environment,
+    Irbid, Jordan
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

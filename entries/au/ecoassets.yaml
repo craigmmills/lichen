@@ -1,0 +1,39 @@
+id: ecoassets
+kind: project
+name: EcoAssets
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- au
+status: active
+website: https://www.ala.org.au/current-projects/
+summary: Atlas of Living Australia project with ARDC that links three national research
+  infrastructures to deliver integrated data for State of the Environment reporting.
+facts:
+- claim: Links data from three NCRIS infrastructures for State of the Environment
+    reporting.
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: the EcoAssets project builds data linkages between three world-leading research
+    infrastructures
+links:
+- type: run-by
+  to: atlas-of-living-australia
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: In partnership with the Australian Research Data Commons, the EcoAssets project
+    builds data linkages
+- type: partners-with
+  to: australian-research-data-commons
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: In partnership with the Australian Research Data Commons, the EcoAssets project
+    builds data linkages
+found_by:
+- link-from:atlas-of-living-australia
+added_by: agent
+checked: '2026-10-31'

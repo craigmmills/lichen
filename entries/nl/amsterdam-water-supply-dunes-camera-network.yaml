@@ -1,0 +1,76 @@
+id: amsterdam-water-supply-dunes-camera-network
+kind: project
+name: Amsterdam Water Supply Dunes automated camera network
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+countries:
+- nl
+summary: Network of solar-powered wildlife cameras in the Amsterdam Water Supply Dunes that
+  transmits images wirelessly. Its web portal can send images to AI platforms for species
+  identification. Developed by University of Amsterdam researchers with Waternet.
+scope: nl
+facts:
+- claim: Solar-powered cameras collect images and transmit them to a database.
+  url: https://uva.nl/en/content/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: this project has set up an innovative network of solar-powered wildlife cameras that
+    continuously collects images and wirelessly transmits them to a database
+- claim: The web portal can send images to AI platforms.
+  url: https://uva.nl/en/content/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: The web portal can send images to artificial intelligence (AI) platforms that can
+    identify species in the captured images.
+- claim: Tested camera traps from 2021 to 2023 and developed a web portal.
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: &id001 2026-10-31
+  quote: From 2021-2023, the team tested different camera traps in the field and developed
+    a web portal
+- claim: The tested AI model detected rabbits, foxes and fallow deer reasonably well.
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: *id001
+  quote: The tested AI model was able to detect rabbits, foxes and fallow deer reasonably
+    well
+- claim: Combines autonomous cameras, wireless data transmission and AI-driven species identification.
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: combines autonomous cameras, wireless data transmission and AI-driven species identification
+- claim: Placed 65 cameras in a grid pattern.
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: The sampling design placed 65 cameras in a grid pattern
+links:
+- type: partners-with
+  to: waternet
+  url: https://uva.nl/en/content/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: have teamed up with Waternet in a nature reserve in the Dutch coastal dunes
+- type: partners-with
+  to: university-of-amsterdam
+  url: https://uva.nl/en/content/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: Researchers at the University of Amsterdam Institute for Biodiversity and Ecosystem
+    Dynamics (IBED) have teamed up with Waternet
+- type: run-by
+  to: institute-for-biodiversity-and-ecosystem-dynamics
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: *id001
+  quote: They have developed and put into place an innovative wildlife monitoring system
+- type: partners-with
+  to: waternet
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: *id001
+  quote: have teamed up with Waternet in a nature reserve in the Dutch coastal dunes
+- type: partners-with
+  to: arise-biodiversity
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: is part of the NIEBA-ARISE project
+found_by:
+- checklist:7
+- link-from:university-of-amsterdam
+added_by: agent
+checked: '2026-10-31'

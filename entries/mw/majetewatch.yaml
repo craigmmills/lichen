@@ -1,0 +1,80 @@
+id: majetewatch
+kind: project
+name: MajeteWatch
+also_known_as:
+- Majete Watch
+scope: mw
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+countries:
+- mw
+status: active
+website: https://majetewatch.com/
+summary: Described by PixCams as an AI wildlife detection and survey system across Majete Wildlife Reserve,
+  built and run by PixCams, using live video analysis, MegaDetector and BirdNET.
+facts:
+- claim: PixCams describes it as a real-time AI wildlife detection and survey system deployed across Majete
+    Wildlife Reserve.
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: is a real-time AI-powered wildlife detection and survey system deployed across Majete Wildlife
+    Reserv e
+- claim: Six off-grid PixCams EZ Streamer units stream live video, which a Camect AI hub analyses in real
+    time with computer vision.
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: A Camect AI hub receives all six streams simultaneously and analyzes them in real time using
+    computer vision.
+- claim: Each image is processed overnight by MegaDetector v5a, a deep learning model, as a second check.
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: Every image is then processed overnight by MegaDetector v5a — a deep learning model developed
+    by Microsoft AI for Earth specifically for wildlife camera trap analysis
+  ai_type: deep-learning
+- claim: Each camera station also runs a BirdNET audio classifier that identifies bird species by sound
+    and streams detections to BirdWeather.
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: each camera station is also equipped with a BirdNET audio classifier developed by Cornell Lab
+    of Ornithology, which identifies bird species by sound in real time, streaming detections to BirdWeather
+- claim: Researchers can tag detections to build a training dataset for a planned custom species model.
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: contributing to the training dataset for a future custom AI model that will identify individual
+    species
+links:
+- type: built-by
+  to: pixcams
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: thanks to a first-of-its-kind technology platform built by PixCams, Inc.
+- type: run-by
+  to: pixcams
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: MajeteWatch is a PixCams, Inc. initiative, developed in partnership with Majete Wildlife Reserve.
+- type: uses
+  to: megadetector
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: Every image is then processed overnight by MegaDetector v5a
+- type: uses
+  to: birdnet
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: each camera station is also equipped with a BirdNET audio classifier
+- type: uses
+  to: birdweather
+  url: https://pixcams.com/majete-watch-ai-powered-live-stream-wildlife-detection-system/
+  fetched: 2026-11-08
+  quote: streaming detections to BirdWeather with species-level identification and confidence scores
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

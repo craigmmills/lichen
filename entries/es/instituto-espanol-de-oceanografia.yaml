@@ -1,0 +1,52 @@
+id: instituto-espanol-de-oceanografia
+kind: organisation
+name: Instituto Español de Oceanografía
+also_known_as:
+- IEO-CSIC
+- IEO
+- Spanish Institute of Oceanography
+scope: es
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: es
+scale: national
+status: active
+summary: Spanish oceanography institute, now part of CSIC. Its research cruises use the iOBSERVER
+  electronic observer, which identifies catch species with AI.
+facts:
+- claim: SINC reports on its researchers and AI in fisheries.
+  url: https://cdn.agenciasinc.es/Reportajes/Inteligencia-artificial-para-tomar-decisiones-eficientes-y-sostenibles-en-el-sector-de-la-pesca
+  fetched: '2026-10-31'
+  quote: el investigador del Instituto Español de Oceanografía (IEO) del CSIC Antonio Punzón
+- claim: A public research organisation that conducts oceanographic research.
+  url: https://api.gbif.org/v1/organization/e3837372-dfa4-450c-af2f-ce7a91ce135c
+  fetched: '2026-10-31'
+  quote: is a public research organization, with a variety of activities
+- claim: Advises the Spanish government on oceanographic and fishing policy.
+  url: https://api.gbif.org/v1/organization/e3837372-dfa4-450c-af2f-ce7a91ce135c
+  fetched: '2026-10-31'
+  quote: Advising the Spanish government on its oceanographic and fishing policies
+- claim: Carries out the RADIALES time series, sampled monthly from 1988 along the north and
+    north-west Spanish coast.
+  url: https://api.gbif.org/v1/organization/e3837372-dfa4-450c-af2f-ce7a91ce135c/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: The sampling is undertaken monthly from 1988 at a series of stations located along
+    five transects
+found_by:
+- checklist:3
+- register:es
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: run-by
+  to: consejo-superior-de-investigaciones-cientificas
+  url: https://api.gbif.org/v1/organization/e3837372-dfa4-450c-af2f-ce7a91ce135c/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: RADIALES time series monitoring programme, carried out by the IEO-CSIC

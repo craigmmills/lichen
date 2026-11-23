@@ -1,0 +1,71 @@
+id: national-trust
+kind: organisation
+name: National Trust
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- land
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: UK conservation charity and lead on a NERC award on restoring resilient ecosystems.
+facts:
+- claim: On the Charity Commission register for England and Wales, charity number 205846.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/205846
+  quote: 'Charity number: 205846'
+  fetched: '2026-10-30'
+- claim: Rezatec says the National Trust adopted its analytics.
+  url: https://www.rezatec.com/national-trust-adopts-rezatecs-geospatial-analytics/
+  quote: National Trust adopts Rezatec’s geospatial analytics to optimise landscape recovery
+    at scale
+  fetched: '2026-10-30'
+- claim: Taking part in a bird monitoring project with Harper Adams University.
+  url: https://newsroom.shropshire.gov.uk/2026/02/national-trust-in-tune-with-digital-bird-monitoring-project/
+  quote: The National Trust is taking part in a bird monitoring project
+  fetched: 2026-10-30
+- claim: Publishes the dataset "National Trust Species Records" on GBIF.
+  url: https://api.gbif.org/v1/organization/2f855af0-a1cc-4478-b370-ddbd1e40f6eb/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: National Trust Species Records
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/2f855af0-a1cc-4478-b370-ddbd1e40f6eb/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+- claim: The Charity Commission register gives its Swindon address.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/205846/contact-information
+  quote: HEELIS KEMBLE DRIVE SWINDON SN2 2NA
+  fetched: '2026-10-31'
+- claim: The Charity Commission register names its website.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/205846/contact-information
+  quote: www.nationaltrust.org.uk
+  fetched: '2026-10-31'
+- claim: Looks after the places in its care, as Europe's largest conservation charity by its
+    own account.
+  url: https://www.nationaltrust.org.uk/about-us
+  quote: As Europe’s largest conservation charity, we need help to look after the places in
+    our care that benefit millions of people.
+  fetched: '2026-11-17'
+found_by:
+- checklist:4
+- link-from:rezatec
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- remote-sensing
+- bioacoustics
+- species-distribution
+links:
+- type: uses
+  to: rezatec
+  url: https://www.rezatec.com/national-trust-adopts-rezatecs-geospatial-analytics/
+  quote: National Trust adopts Rezatec’s geospatial analytics
+  fetched: '2026-10-30'
+website: https://www.nationaltrust.org.uk

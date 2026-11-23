@@ -1,0 +1,30 @@
+id: danish-roadside-dataset-invasive-plants
+kind: dataset
+name: Danish Roadside Dataset for Camera-Assisted Monitoring of Invasive Plant Species
+scope: dk
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- dk
+scale: national
+status: active
+runner: unknown
+summary: Dataset of 14838 high-resolution images taken along Danish roadsides, designed to evaluate and
+  benchmark image classification and object detection methods.
+facts:
+- claim: Holds 14838 high-resolution images taken along Danish roadsides.
+  url: https://zenodo.org/record/14013930
+  fetched: '2026-11-02'
+  quote: The dataset consists of 14,838 high-resolution images (4024x3036 pixels) taken along Danish roadsides.
+- claim: Designed to evaluate and benchmark image classification and object detection methods.
+  url: https://zenodo.org/record/14013930
+  fetched: '2026-11-02'
+  quote: This repository provides a unique dataset designed to evaluate and benchmark high-throughput
+    image classification and object detection methods.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-02'

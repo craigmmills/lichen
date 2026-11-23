@@ -1,0 +1,48 @@
+id: skatespotter
+kind: programme
+name: SkateSpotter
+ai_label: ai
+summary: Online photo identification catalogue for flapper skate in Scotland, with a neural
+  network that matches new photos against the database.
+facts:
+- claim: Online photo ID catalogue.
+  url: https://skatespotter.sams.ac.uk/
+  quote: Skatespotter is an online photo ID catalogue and database for flapper skate in Scotland.
+  fetched: '2026-10-30'
+- claim: A neural network scans photos for likely matches.
+  url: https://ecomagazine.com/news/research/facial-recognition-software-to-help-protect-endangered-ocean-giants/
+  quote: devised a neural network (machine learning) program that can scan thousands of photos
+    in minutes and present the most likely matches from the database
+  fetched: '2026-10-30'
+- claim: The article names a neural network.
+  url: https://ecomagazine.com/news/research/facial-recognition-software-to-help-protect-endangered-ocean-giants/
+  quote: devised a neural network (machine learning) program
+  ai_type: deep-learning
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: scottish-association-for-marine-science
+  url: https://skatespotter.sams.ac.uk/
+  quote: Skatespotter is an online photo ID catalogue
+  fetched: '2026-10-30'
+- type: partners-with
+  to: naturescot
+  url: https://ecomagazine.com/news/research/facial-recognition-software-to-help-protect-endangered-ocean-giants/
+  quote: Rate A Skate, a collaboration between NatureScot and The Scottish Association for
+    Marine Science (SAMS)
+  fetched: '2026-10-30'
+found_by:
+- link-from:scottish-association-for-marine-science
+website: https://skatespotter.sams.ac.uk/
+also_known_as:
+- Skatespotter
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

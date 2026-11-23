@@ -1,0 +1,40 @@
+id: universidad-centroamericana
+kind: organisation
+name: Universidad Centroamericana
+also_known_as:
+- UCA
+- University of Central America
+- Central American University
+scope: ni
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: ni
+countries: []
+scale: national
+status: unknown
+summary: A university whose Molecular Biology Center and Institute of Interdisciplinary Research in Natural
+  Sciences are the listed affiliations of all authors of an OpenAlex-listed DNA barcoding survey of a
+  dry-corridor river.
+facts:
+- claim: OpenAlex lists all authors of the DNA barcoding survey at the university's Molecular Biology
+    Center or its Institute of Interdisciplinary Research in Natural Sciences.
+  url: https://api.openalex.org/works/W4308260741?select=title,authorships
+  fetched: 2026-11-12
+  quote: Institute of Interdisciplinary Research in Natural Sciences, University of Central America, UCA,
+    Managua, Nicaragua
+- claim: The paper surveyed aquatic macroinvertebrates in a dry-corridor river using biological indices
+    and DNA barcoding.
+  url: https://api.openalex.org/works/W4308260741?select=title,authorships
+  fetched: 2026-11-12
+  quote: A survey of aquatic macroinvertebrates in a river from the dry corridor of Nicaragua using biological
+    indices and DNA barcoding
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

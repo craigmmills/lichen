@@ -1,0 +1,38 @@
+id: scorecar
+kind: model
+name: ScoreCAR
+scope: br
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+summary: API from Imaflora and Agrotools that scores the reliability of records in Brazil's
+  rural environmental registry using AI and machine learning.
+facts:
+- claim: An API that uses AI and machine learning.
+  url: https://imaflora.org/noticias/imaflora-e-agrotools-lancam-algoritmo-exclusivo-com-base-em-ia-para-aumentar-a-confianca-do-cadastro-ambiental-rural-car
+  quote: O lançamento ScoreCAR, é uma API, conjunto de definições e protocolos que permite
+    que diferentes softwares ou sistemas se comuniquem entre si, que utiliza algoritmo avançado
+    com inteligência artificial, machine learning
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: instituto-de-manejo-e-certificacao-florestal-e-agricola
+  url: https://imaflora.org/noticias/imaflora-e-agrotools-lancam-algoritmo-exclusivo-com-base-em-ia-para-aumentar-a-confianca-do-cadastro-ambiental-rural-car
+  quote: Imaflora e Agrotools lançam algoritmo exclusivo com base em IA para aumentar a confiança
+    do Cadastro Ambiental Rural (CAR)
+  fetched: '2026-10-31'
+- type: run-by
+  to: agrotools
+  url: https://imaflora.org/noticias/imaflora-e-agrotools-lancam-algoritmo-exclusivo-com-base-em-ia-para-aumentar-a-confianca-do-cadastro-ambiental-rural-car
+  quote: Imaflora e Agrotools lançam algoritmo exclusivo com base em IA para aumentar a confiança
+    do Cadastro Ambiental Rural (CAR)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

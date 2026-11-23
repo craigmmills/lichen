@@ -1,0 +1,52 @@
+id: yaohua-coral-reef-model
+kind: model
+name: Yaohua coral reef multimodal large model
+also_known_as:
+- 瑶华珊瑚礁多模态大模型
+scope: cn
+ai_label: ai
+ai_types:
+- multimodal
+- foundation-models
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- cn
+scale: regional
+status: active
+summary: A large model for coral reef images built on Alibaba Cloud's Qwen2-VL, trained
+  on more than 100,000 underwater images, with stated accuracy of 88% for coral genus
+  and species identification.
+facts:
+- claim: Analyses more than 100,000 underwater images, with 88% accuracy in identifying
+    coral genera and species.
+  url: https://scsio.cas.cn/news/kydt/202503/t20250321_7563212.html
+  fetched: '2026-10-31'
+  quote: 通过分析10多万张水下影像，实现珊瑚种属识别准确率88%
+- claim: Described as a multimodal large model.
+  ai_type: multimodal
+  url: https://scsio.cas.cn/news/kydt/202503/t20250321_7563212.html
+  fetched: '2026-10-31'
+  quote: 研发了 “瑶华”珊瑚礁多模态大模型1.0版
+- claim: Built on Alibaba Cloud's Qwen2-VL base model.
+  ai_type: foundation-models
+  url: https://scsio.cas.cn/news/kydt/202503/t20250321_7563212.html
+  fetched: '2026-10-31'
+  quote: 基于阿里云Qwen2-VL基座模型
+links:
+- type: run-by
+  to: south-china-sea-institute-of-oceanology
+  url: https://scsio.cas.cn/news/kydt/202503/t20250321_7563212.html
+  fetched: '2026-10-31'
+  quote: 珊瑚礁生物地貌团队基于阿里云Qwen2-VL基座模型，研发了 “瑶华”珊瑚礁多模态大模型1.0版
+- type: builds-on
+  to: alibaba-cloud
+  url: https://scsio.cas.cn/news/kydt/202503/t20250321_7563212.html
+  fetched: '2026-10-31'
+  quote: 基于阿里云Qwen2-VL基座模型
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,75 @@
+id: ntt-biome-vegetation-estimation
+kind: project
+name: NTT and Biome large-scale vegetation and organism estimation
+scope: jp
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+- species-distribution
+countries:
+- jp
+status: active
+summary: Project proposed in March 2025 combining satellite analysis with Biome’s database, listing a
+  Sennan demonstration from January 2025 and scheduling a Shobara demonstration from April 2025.
+found_by:
+- link-from:queue-jp
+facts:
+- claim: The March 2025 announcement proposes combining satellite image analysis with Biome’s database.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: By combining NTT Group's assets, including satellite image data analysis technology, 4 with Biome's
+    real-time "BiomeDB" database of organisms
+- claim: The March 2025 announcement lists a field demonstration starting in January 2025 at NTT Docomo’s
+    forest in Sennan City, Osaka.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: At "Docomo Sennan Horigo no Mori" forest in Sennan City, Osaka managed by NTT Docomo starting
+    in January 2025
+- claim: The March 2025 announcement schedules a field demonstration at Asahi Forest in Shobara City,
+    Hiroshima, starting in April 2025.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: At the Asahi Forest in Shobara City, Hiroshima Prefecture, managed by Asahi Group Japan starting
+    in April 2025
+links:
+- type: run-by
+  to: ntt-docomo-business
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: 'NTT Corp: 　　　　　Overall project management'
+- type: built-by
+  to: ntt-docomo-business
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: NTT Corporation, Biome Inc., NTT Com, NTT COMWARE, NTT DATA and NTT DOCOMO announced today that
+    they have jointly begun developing technology
+- type: built-by
+  to: biome-inc
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: NTT Corporation, Biome Inc., NTT Com, NTT COMWARE, NTT DATA and NTT DOCOMO announced today that
+    they have jointly begun developing technology
+- type: partners-with
+  to: ntt-docomo
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: 'NTT DOCOMO: 　　 Provision of field sites and verification of business use cases'
+- type: partners-with
+  to: ntt-data
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: 'NTT DATA: 　　　　 Provision of high-resolution satellite image data (AW3D)'
+- type: partners-with
+  to: ntt-communications
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: 'NTT Com: 　　　　　Implementation of field demonstrations'
+- type: partners-with
+  to: ntt-comware
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: 'NTT COMWARE: 　　Comprehensive data analysis and accuracy verification'
+added_by: agent
+checked: '2026-11-02'

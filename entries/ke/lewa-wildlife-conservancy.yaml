@@ -1,0 +1,56 @@
+id: lewa-wildlife-conservancy
+kind: organisation
+name: Lewa Wildlife Conservancy
+scope: ke
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: ke
+website: https://www.lewa.org/
+countries:
+- ke
+scale: local
+status: active
+summary: Private conservancy in northern Kenya, one of the reserves on the Northern Rangelands
+  Trust's IoT conservation network.
+facts:
+- claim: One of the four private reserves on the network.
+  url: https://iotm2mcouncil.org/iot-library/news/iot-newsdesk/lorawan-protects-vulnerable-species-in-kenya/
+  quote: four private reserves – Lewa Wildlife Conservancy
+  fetched: '2026-10-30'
+- claim: Gives its address as Isiolo 60300 in Kenya.
+  url: https://www.lewa.org/
+  fetched: '2026-10-30'
+  quote: Lewa Wildlife Conservancy Isiolo 60300, Kenya
+- claim: EarthRanger says the joint operations centre shares information on poaching and livestock
+    theft with Kenya Police and Kenya Wildlife Service.
+  url: https://www.earthranger.com/partners
+  fetched: '2026-10-30'
+  quote: enables their patrolling teams to share critical information with the Kenya Police
+    and Kenya Wildlife Service
+- claim: Climate.co.ke reports AI-enabled cameras at Lewa.
+  url: https://climate.co.ke/gctdf-inside-kenyas-tech-driven-conservation-reset/
+  fetched: '2026-10-31'
+  quote: At Lewa, AI-enabled camera systems monitor known infiltration routes.
+found_by:
+- checklist:4
+- link-from:earthranger
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- other
+- computer-vision
+links:
+- type: partners-with
+  to: earthranger
+  url: https://www.earthranger.com/partners
+  fetched: '2026-10-30'
+  quote: Using EarthRanger, NRT and Lewa run a joint operations command centre (JOCC)
+- type: partners-with
+  to: northern-rangelands-trust
+  url: https://www.earthranger.com/partners
+  fetched: '2026-10-30'
+  quote: Using EarthRanger, NRT and Lewa run a joint operations command centre (JOCC)

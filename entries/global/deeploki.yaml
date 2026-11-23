@@ -1,0 +1,63 @@
+id: deeploki
+kind: model
+name: DeepLOKI
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+- ml-unsupervised
+- deep-learning
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://helmholtz.software/software/deeploki
+summary: Deep learning software that classifies zooplankton from high-resolution images for
+  use on board research vessels, from authors at Heinrich Heine University Düsseldorf and
+  the Alfred Wegener Institute.
+facts:
+- claim: Classifies zooplankton from images on board.
+  url: https://helmholtz.software/software/deeploki
+  fetched: '2026-10-30'
+  quote: DeepLOKI is an AI-based software that uses deep learning to classify zooplankton
+    species from high-resolution images
+- claim: The paper's authors include the Alfred Wegener Institute's polar biological oceanography
+    section.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2023.1280510
+  fetched: '2026-10-30'
+  quote: Polar Biological Oceanography, Alfred- Wegener- Institut Helmholtz Center for Polar
+    and Marine Research, Bremerhaven, Germany
+- claim: DeepLOKI uses deep learning to classify zooplankton.
+  url: https://helmholtz.software/software/deeploki
+  fetched: '2026-10-30'
+  quote: Directory Ctrl K Software Projects Organisations Communities Sign in Ctrl K DeepLOKI
+    DeepLOKI is an AI-based software that uses deep learning to classify zooplankton species
+    from high-resolution images, improving research efficiency by enabling faster and more
+    accurate
+  ai_type: deep-learning
+- claim: DeepLOKI was trained on pre-labelled images.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2023.1280510
+  fetched: '2026-10-30'
+  quote: We trained and validated the model on pre-labeled images from four cruises, while
+    images from a fifth cruise were used for testing.
+  ai_type: ml-supervised
+- claim: The best DeepLOKI model used a self-supervised pre-trained backbone.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2023.1280510
+  fetched: '2026-10-30'
+  quote: The best-performing model, utilizing the self-supervised pre-trained ResNet18 Backbone,
+    achieved a notable average classification accuracy of 83.9%, surpassing the regularly
+    and frequently used method EcoTaxa (default) in this field by a factor of two.
+  ai_type: ml-unsupervised
+links:
+- type: partners-with
+  to: alfred-wegener-institute
+  url: https://helmholtz.software/software/deeploki
+  fetched: '2026-10-30'
+  quote: BN Barbara Niehoff Alfred Wegener Institute Helmholtz Centre for Polar and Marine
+    Research
+found_by:
+- link-from:ecotaxa
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

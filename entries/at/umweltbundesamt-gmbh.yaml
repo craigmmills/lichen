@@ -1,0 +1,109 @@
+id: umweltbundesamt-gmbh
+kind: organisation
+name: Umweltbundesamt GmbH
+also_known_as:
+- Environment Agency Austria
+- Umweltbundesamt
+- Umweltbundesamt GmbH
+- Umweltbundesamt Österreich
+scope: at
+sector: government
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: at
+countries:
+- at
+scale: national
+status: active
+website: http://www.umweltbundesamt.at/
+summary: Austrian environment agency, a limited liability company since 1999, that coordinates
+  GBIF Austria, runs AimBiodat, publishes monitoring reports and GBIF datasets, and partners
+  with the European Environment Agency.
+facts:
+- claim: GBIF Austria's site says the Austrian initiative for mobilising biodiversity data
+    is coordinated by the Umweltbundesamt.
+  url: https://www.gbif.at
+  fetched: 2026-11-07
+  quote: Diese österreichische Initiative zur Mobilisierung von Biodiversitäts-Daten wird
+    vom Umweltbundesamt koordiniert.
+- claim: Published the 2020 report on monitoring habitat types and species of Community interest
+    in Austria 2016 to 2018, prepared as the basis for the Article 17 report under the Habitats
+    Directive, commissioned by the Austrian federal states.
+  url: https://www.umweltbundesamt.at/fileadmin/site/publikationen/rep0734.pdf
+  fetched: 2026-11-07
+  quote: Diese Publikation wurde im Auftrag der österreichischen Bundesländer erstellt.
+- claim: Its 2020 report gives its address as Spittelauer Lände 5, Vienna.
+  url: https://www.umweltbundesamt.at/fileadmin/site/publikationen/rep0734.pdf
+  fetched: 2026-11-07
+  quote: Spittelauer Lände 5, 1090 Wien/Österreich
+- claim: Set up under the Environmental Control Act of 1985 and a limited liability company
+    since 1999, active in environmental protection and monitoring in Austria and Europe.
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: In 1999 it received the legal status of a limited liability company. In our 40-year
+    history we played an active role in environmental protection and monitoring in Austria
+    and in Europe.
+- claim: Partner of the European Environment Agency.
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: We are a partner of the European Environment Agency EEA
+- claim: Coordinates the Austrian initiative for mobilising biodiversity data (GBIF Austria).
+  url: http://www.gbif.at/
+  fetched: 2026-11-07
+  quote: Diese österreichische Initiative zur Mobilisierung von Biodiversitäts-Daten wird
+    vom Umweltbundesamt koordiniert.
+- claim: Offers DNA metabarcoding for biodiversity analysis.
+  url: https://www.umweltbundesamt.at/
+  fetched: 2026-11-07
+  quote: DNA-Metabarcoding für Biodiversitätsanalysen
+- claim: Published a news item on satellite images showing the extent of drought in Austria.
+  url: https://www.umweltbundesamt.at/
+  fetched: 2026-11-07
+  quote: Satellitenbilder zeigen Ausmaß der Dürre in Österreich
+- claim: Published a review of an event on the Copernicus land monitoring service in Austria.
+  url: https://www.umweltbundesamt.at/
+  fetched: 2026-11-07
+  quote: 'Nachlese: Copernicus Landmonitoring-Service Österreich'
+- claim: Publishes to GBIF datasets of bird, moss and forest vegetation surveys on permanent
+    monitoring plots at the eLTER site Zöbelboden, including point-count bird surveys in 1997,
+    2005 and 2025.
+  url: https://api.gbif.org/v1/organization/ba63ea08-e909-4622-85be-cf8d8361663d/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: Point count bird surveys were conducted on permanent monitoring plots in 1997, 2005,
+    and 2025
+links:
+- type: runs
+  to: aimbiodat
+  url: http://www.gbif.at/
+  fetched: 2026-11-07
+  quote: Diese österreichische Initiative zur Mobilisierung von Biodiversitäts-Daten wird
+    vom Umweltbundesamt koordiniert.
+- type: partners-with
+  to: european-environment-agency
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: We are a partner of the European Environment Agency EEA
+- type: partners-with
+  to: university-of-natural-resources-and-life-sciences-vienna
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: universities such as the University of Natural Resources and Life Sciences, Vienna
+- type: partners-with
+  to: austrian-institute-of-technology
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: the Austrian Institute of Technology AIT
+found_by:
+- checklist:1
+- checklist:2
+- link-from:queue-at
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07
+techniques:
+- edna-genomics
+- remote-sensing

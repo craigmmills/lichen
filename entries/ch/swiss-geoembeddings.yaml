@@ -1,0 +1,35 @@
+id: swiss-geoembeddings
+kind: dataset
+name: Geoembeddings of Switzerland
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Annual TESSERA-based Swiss geoembeddings provided by the Swiss Data Cube team, with December
+  2025 reporting full 2024 and partial 2017–2023 coverage, and completion planned for 2026.
+facts:
+- claim: The Swiss Data Cube team provides annual geoembeddings based on TESSERA.
+  url: https://www.swissdatacube.org/index.php/2025/12/03/geoembeddings-for-switzerland/
+  quote: The Swiss Data Cube team now provides access to annual geombeddings for Switzerland
+  fetched: '2026-11-02'
+- claim: A December 2025 post reports full coverage for 2024 and partial coverage for 2017–2023, with
+    completion planned in 2026.
+  url: https://www.swissdatacube.org/index.php/2025/12/03/geoembeddings-for-switzerland/
+  quote: for the whole Switzerland (2024 only) and partially for years 2017-2023 (the full dataset will
+    be completed in 2026)
+  fetched: '2026-11-02'
+links:
+- type: builds-on
+  to: tessera
+  url: https://www.swissdatacube.org/index.php/2025/12/03/geoembeddings-for-switzerland/
+  quote: based on the Temporal Embeddings of Surface Spectra for Earth Representation and Analysis (TESSERA)
+    foundation model from Cambridge University
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

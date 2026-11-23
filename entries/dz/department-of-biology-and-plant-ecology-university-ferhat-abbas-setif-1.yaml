@@ -1,0 +1,36 @@
+id: department-of-biology-and-plant-ecology-university-ferhat-abbas-setif-1
+kind: organisation
+name: Department of Biology and Plant Ecology, Faculty of Natural and Life Sciences,
+  Ferhat Abbas University Sétif 1
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: Sétif 1 university department affiliated with the author of a paper whose
+  title names a geospatial modelling approach to land surface temperature and vegetation
+  cover change in the Mount Babor forest area.
+facts:
+- claim: Affiliation of the author of the Mount Babor forest paper.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4382247025|W4404585270|W4396610185|W4206931777|W4392818381&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Department of Biology and Plant Ecology, Faculty of Natural and Life Sciences,
+    Ferhat Abbas University, Setif 1, 19000, Setif, Algeria
+- claim: The paper's title names a geospatial modelling approach to temporal variation
+    of land surface temperature and vegetation cover in the Mount Babor forest area.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4382247025|W4404585270|W4396610185|W4206931777|W4392818381&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: 'Association of temporal variation of land surface temperature and vegetation
+    cover at the Mount Babor forest area, Algeria: a geospatial modeling approach'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

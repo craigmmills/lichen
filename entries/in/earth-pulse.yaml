@@ -1,0 +1,37 @@
+id: earth-pulse
+kind: programme
+name: Earth Pulse
+scope: in
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- in
+status: active
+runner: unknown
+website: https://www.earth-pulse.org/about
+summary: A network of hyperlocal environmental observatories starting at Baner Hill,
+  Pune, which records air quality, weather, bird sound and plants as open data, using
+  BirdNET for acoustic detections.
+facts:
+- claim: Node 001 at Baner Hill, Pune has run since January 2022.
+  quote: Node 001 is at Baner Hill, Pune, on the edge of the Western Ghats. It has
+    been running since January 2022.
+  url: https://www.earth-pulse.org/about
+  fetched: '2026-10-31'
+- claim: Runs two BirdNET acoustic nodes.
+  quote: Two BirdNET acoustic AI nodes running continuously
+  url: https://www.earth-pulse.org/about
+  fetched: '2026-10-31'
+links:
+- type: uses
+  to: birdnet
+  quote: Two BirdNET acoustic AI nodes running continuously
+  url: https://www.earth-pulse.org/about
+  fetched: '2026-10-31'
+found_by:
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'

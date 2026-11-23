@@ -1,0 +1,46 @@
+id: trust-for-public-land
+kind: organisation
+name: Trust for Public Land
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+countries:
+- us
+scale: national
+website: https://www.tpl.org
+summary: US land conservation charity that publishes the ParkServe park database and the Conservation
+  Almanac and LandVote databases.
+facts:
+- claim: Says ParkServe is built on the country's most comprehensive database of local parks.
+  url: https://www.tpl.org/parkserve/about
+  quote: The ParkServe mapping platform is built on the country’s most comprehensive database
+    of local parks
+  fetched: '2026-10-31'
+- claim: Runs Conservation Almanac on funding for conservation since 1998.
+  url: https://www.tpl.org/lab/databases
+  quote: Conservation Almanac allows you to discover, analyze, and map the results of federal,
+    state, and local funding for conservation since 1998.
+  fetched: '2026-10-31'
+- claim: The IRS exempt organisation record, through ProPublica, lists Trust for Public Land
+    in San Francisco, California.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/237222333.json
+  fetched: '2026-10-31'
+  quote: '"city":"San Francisco","state":"CA"'
+links:
+- type: runs
+  to: parkserve
+  url: https://www.tpl.org/parkserve/about
+  quote: Trust for Public Land has mapped park access for every urban area in the U.S., including
+    Puerto Rico.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

@@ -1,0 +1,59 @@
+id: amazon-sustainability-data-initiative
+kind: programme
+name: Amazon Sustainability Data Initiative
+also_known_as:
+- ASDI
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://www.aboutamazon.eu/sustainability/amazon-sustainability-data-initiative
+summary: Amazon programme that hosts commonly used sustainability datasets for free on AWS
+  and offers cloud credits to researchers who analyse them, including biodiversity and ecosystem
+  modelling work.
+countries:
+- de
+- ie
+facts:
+- claim: Aims to reduce the cost and time of acquiring and analysing large sustainability
+    datasets.
+  url: https://aws.amazon.com/blogs/publicsector/predicting-global-biodiversity-patterns-in-costa-rica-with-ecosystem-modeling-on-aws
+  fetched: &id001 2026-10-30
+  quote: a program that seeks to accelerate sustainability research and innovation by minimizing
+    the cost and time required to acquire and analyze large sustainability datasets
+- claim: Hosts commonly used datasets for free.
+  url: https://www.aboutamazon.eu/sustainability/amazon-sustainability-data-initiative
+  fetched: *id001
+  quote: The initiative hosts commonly used datasets for free through the AWS Public Datasets
+- claim: Researchers can apply for AWS promotional credits.
+  url: https://aws.amazon.com/blogs/publicsector/the-amazon-sustainability-data-initiative-driving-sustainability-innovation-with-open-data-and-cloud-technology
+  fetched: *id001
+  quote: researchers can apply for AWS Promotional Credits through the AWS Cloud Credits for
+    Research program
+links:
+- type: run-by
+  to: amazon-web-services
+  url: https://aws.amazon.com/blogs/publicsector/the-amazon-sustainability-data-initiative-driving-sustainability-innovation-with-open-data-and-cloud-technology
+  fetched: *id001
+  quote: Amazon’s Sustainability Team began collaborating with AWS last year to start warehousing
+    the vast amounts of public data that describe our planet.
+- type: partners-with
+  to: group-on-earth-observations
+  url: https://aws.amazon.com/blogs/publicsector/how-cloud-helping-remove-barriers-addressing-climate-change
+  fetched: 2026-10-30
+  quote: Through the Earth Observation Cloud Credits Programme, AWS, with the Group on Earth
+    Observations (GEO), committed $1.5 million USD worth of cloud services
+- type: partners-with
+  to: nasa
+  url: https://aws.amazon.com/blogs/publicsector/nasa-asdi-announce-no-cost-access-important-climate-dataset-aws-cloud
+  fetched: 2026-10-30
+  quote: Through a collaboration between NASA and the Amazon Sustainability Data Initiative
+    (ASDI), under the NASA-AWS Space Act Agreement
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

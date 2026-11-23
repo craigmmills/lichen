@@ -1,0 +1,40 @@
+id: universita-di-parma
+kind: organisation
+name: Università di Parma
+scope: it
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: it
+scale: national
+status: active
+website: https://www.unipr.it/
+summary: University whose ethologists worked with AI specialists at the University of Perugia
+  on ANTPI, a system that recognises ant species in real time. It also teaches a course on
+  AI in biodiversity monitoring.
+facts:
+- claim: Address in Parma.
+  url: https://www.unipr.it/
+  fetched: '2026-10-31'
+  quote: Via Università, 12 - I 43121 Parma
+- claim: Its course introduces AI applications in biodiversity monitoring and conservation.
+  url: https://corsi.unipr.it/it/ugov/degreecourse/331432
+  fetched: '2026-10-31'
+  quote: Il corso introduce le principali applicazioni dell’Intelligenza Artificiale (AI)
+    nel monitoraggio e nella conservazione della biodiversità
+links:
+- type: partners-with
+  to: antpi
+  url: https://www.unipr.it/notizie/ia-ecologia-nasce-antpi-il-sistema-intelligente-il-riconoscimento-tempo-reale-delle
+  fetched: '2026-10-31'
+  quote: frutto della collaborazione tra esperte ed esperti di intelligenza artificiale dell’Università
+    di Perugia ed etologhe ed etologi dell’Università di Parma
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

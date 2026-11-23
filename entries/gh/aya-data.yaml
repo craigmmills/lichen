@@ -1,0 +1,61 @@
+id: aya-data
+kind: organisation
+name: Aya Data
+also_known_as: []
+scope: gh
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+ai_types:
+- ml-supervised
+hq: unknown
+countries:
+- gh
+- sl
+scale: global
+status: active
+website: https://www.ayadata.ai/
+summary: Company that says it operates across Africa, Europe and Asia and collected multispectral
+  drone data of Oko Environmental's forests for a dashboard tracking forest growth and illegal
+  deforestation.
+facts:
+- claim: Says it operates across Africa, Europe and Asia.
+  url: https://www.ayadata.ai/
+  fetched: 2026-11-08
+  quote: With operations across Africa, Europe, and Asia, we tap into top global talent to
+    deliver comprehensive AI consulting
+- claim: Says it has a Ghana team.
+  url: https://www.ayadata.ai/
+  fetched: 2026-11-08
+  quote: Aya Data's Ghana team accurately transcribed 500,000 police radio communications
+- claim: Says it collected multispectral drone data of Oko Environmental's forests for a dashboard
+    tracking forest growth and illegal deforestation.
+  url: https://www.ayadata.ai/?p=27184
+  fetched: 2026-11-08
+  quote: By levering multispectral drone imaging, Aya collected real-time data of Oko’s forests
+    housed in an interactive dashboard capable of pinpointing nutrient deficiencies, tracking
+    forest growth, and identifying illegal deforestation activities.
+- claim: Says drone images from a reforestation project in Sierra Leone were labelled with
+    bounding boxes and used to build a model of tree germination status.
+  url: https://www.ayadata.ai/?p=27184
+  fetched: 2026-11-08
+  quote: This annotated data was used to develop a model that could automatically determine
+    tree germination status when applied to new data.
+  ai_type: ml-supervised
+links:
+- type: partners-with
+  to: oko-environmental
+  url: https://www.ayadata.ai/?p=27184
+  fetched: 2026-11-08
+  quote: Aya’s Solutions team works with Oko to assess the project and find ways to circumvent
+    these challenges characteristic to forestry and climate
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-08

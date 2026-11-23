@@ -1,0 +1,45 @@
+id: debre-berhan-university
+kind: organisation
+name: Debre Berhan University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-semi-supervised
+realms:
+- land
+techniques:
+- other
+hq: et
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2026 paper
+  on semi-supervised spatial graph convolutional networks for early detection of soil erosion.
+facts:
+- claim: OpenAlex lists a 2026 paper on semi-supervised spatial graph convolutional networks
+    for early detection of soil erosion.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C39432304|C18903297|C62649853|C130217890|C97137747|C2780648208&per_page=200&select=id,title,publication_year,authorships&page=15
+  fetched: '2026-11-08'
+  quote: Semi-Supervised Spatial Graph Convolutional Networks for Early Detection of Soil
+    Erosion in Ethiopia
+- claim: OpenAlex lists Surafel Asfawosen Haile Surafel, first author of that paper, at Debre
+    Berhan University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C39432304|C18903297|C62649853|C130217890|C97137747|C2780648208&per_page=200&select=id,title,publication_year,authorships&page=15
+  fetched: '2026-11-08'
+  quote: '"display_name": "Surafel Asfawosen Haile Surafel", "orcid": null, "observed_orcids":
+    []}, "institutions": [{"id": "https://openalex.org/I1282700336", "display_name": "Debre
+    Berhan University", "ror": "https://ror.org/04e72vw61", "country_code": "ET"'
+- claim: The paper's title names a semi-supervised method.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C39432304|C18903297|C62649853|C130217890|C97137747|C2780648208&per_page=200&select=id,title,publication_year,authorships&page=15
+  fetched: '2026-11-08'
+  quote: Semi-Supervised Spatial Graph Convolutional Networks for Early Detection of Soil
+    Erosion in Ethiopia
+  ai_type: ml-semi-supervised
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

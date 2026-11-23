@@ -1,0 +1,37 @@
+id: kisu-faculty-of-earth-and-environmental-sciences
+kind: organisation
+name: Faculty of Earth and Environmental Sciences, Kim Il Sung University
+also_known_as: []
+scope: kp
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: kp
+countries:
+- kp
+scale: national
+status: active
+summary: Faculty of Kim Il Sung University in Pyongyang, listed by OpenAlex as the affiliation of both
+  authors of a 2023 paper on estimating chlorophyll a from MODIS data in Sinpho Bay.
+facts:
+- claim: OpenAlex lists a 2023 paper on a genetic-algorithm-optimised neural network for estimating chlorophyll
+    a from MODIS data in Sinpho Bay, with both authors at this faculty.
+  url: https://api.openalex.org/works/W4381335072?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: 'A Genetic Algorithm-Optimized Neural Network for Chlorophyll a Estimation Using MODIS Satellite
+    Data in Coastal Water: Application to the Sinpho Bay of DPR Korea'
+- claim: The authors' affiliation is given as the Faculty of Earth and Environmental Sciences, Kim Il
+    Sung University, Pyongyang.
+  url: https://api.openalex.org/works/W4381335072?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Faculty of Earth and Environmental Sciences, Kim Il Sung University, Pyongyang
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

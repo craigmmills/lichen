@@ -1,0 +1,31 @@
+id: scotlands-rural-college
+kind: organisation
+name: SRUC, Scotland's Rural College
+scope: gb
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+also_known_as:
+- SRUC
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- gb
+scale: national
+summary: Scottish college where OpenAlex lists an author on an interactive machine learning
+  tool for marine image analysis.
+facts:
+- claim: OpenAlex lists an SRUC author on this work.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I260719752,from_publication_date:2018-01-01,concepts.id:C119857082|C108583219|C31972630,primary_topic.subfield.id:2309|2303|1105|1104|1107|2306&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  quote: New interactive machine learning tool for marine image analysis
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

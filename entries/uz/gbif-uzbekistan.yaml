@@ -1,0 +1,45 @@
+id: gbif-uzbekistan
+kind: programme
+name: GBIF Uzbekistan
+also_known_as: []
+scope: uz
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- uz
+status: active
+runner: unknown
+summary: Uzbekistan's node in the GBIF directory, where the country is a voting participant, partnering
+  with the Global Biodiversity Information Facility.
+facts:
+- claim: The GBIF directory lists GBIF Uzbekistan as the node of Uzbekistan, a voting participant.
+  url: https://api.gbif.org/v1/node/country/UZ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Uzbekistan"'
+- claim: Registered in the GBIF directory as the node for Uzbekistan.
+  url: https://api.gbif.org/v1/node/f4457fbc-1e17-4559-b8f8-9465217a5b7c
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Uzbekistan","participantTitle":"Uzbekistan"'
+- claim: Uzbekistan is a voting participant of GBIF.
+  url: https://api.gbif.org/v1/node/f4457fbc-1e17-4559-b8f8-9465217a5b7c
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/UZ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Uzbekistan"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/f4457fbc-1e17-4559-b8f8-9465217a5b7c
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

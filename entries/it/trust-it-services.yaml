@@ -1,0 +1,51 @@
+id: trust-it-services
+kind: organisation
+name: Trust-IT Services
+also_known_as:
+- TRUST-IT SERVICES SRL
+scope: it
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: unknown
+scale: regional
+status: unknown
+summary: Company that CORDIS names as coordinator of Blue-Cloud, and a participant in the
+  BioDT and DTO-BioFlow projects. No page of its own has been read.
+facts:
+- claim: CORDIS names it as coordinator of Blue-Cloud.
+  url: https://cordis.europa.eu/project/id/862409
+  fetched: '2026-10-31'
+  quote: Coordinated by TRUST-IT SERVICES SRL Italy
+- claim: CORDIS lists it as a participant in BioDT.
+  url: https://cordis.europa.eu/project/id/101057437
+  fetched: '2026-10-31'
+  quote: TRUST-IT SERVICES SRL Italy
+- claim: CORDIS lists it as a participant in DTO-BioFlow.
+  url: https://cordis.europa.eu/project/id/101112823
+  fetched: '2026-10-31'
+  quote: TRUST-IT SERVICES SRL Italy
+links:
+- type: leads
+  to: blue-cloud
+  url: https://cordis.europa.eu/project/id/862409
+  fetched: '2026-10-31'
+  quote: Coordinated by TRUST-IT SERVICES SRL Italy
+- type: partners-with
+  to: biodiversity-digital-twin
+  url: https://cordis.europa.eu/project/id/101057437
+  fetched: '2026-10-31'
+  quote: TRUST-IT SERVICES SRL Italy
+- type: partners-with
+  to: dto-bioflow
+  url: https://cordis.europa.eu/project/id/101112823
+  fetched: '2026-10-31'
+  quote: TRUST-IT SERVICES SRL Italy
+found_by:
+- link-from:blue-cloud
+- queue:it
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,33 @@
+id: chelsa
+kind: dataset
+name: CHELSA
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+website: https://chelsa-climate.org
+summary: Global, kilometre-scale climate datasets including bioclimatic variables, generated
+  with the CHELSA downscaling model, on a site run by the Swiss research institute WSL.
+facts:
+- claim: CHELSA-bioclim is a global, kilometre-scale climate dataset of bioclimatic variables.
+  url: https://chelsa-climate.org/datasets/chelsa_bioclim
+  quote: is a global, kilometer-scale climate dataset generated with the CHELSA downscaling
+    model. It consists of bioclimatic variables.
+  fetched: '2026-10-30'
+- claim: Dirk Nikolaus Karger is project lead and head of the CHELSA team.
+  url: https://chelsa-climate.org/about/team
+  quote: Project lead and head of the CHELSA team.
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: wsl-swiss-federal-research-institute
+  url: https://chelsa-climate.org/about/team
+  quote: © 2025 WSL
+  fetched: '2026-10-30'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

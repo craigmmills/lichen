@@ -1,0 +1,67 @@
+id: scottish-association-for-marine-science
+kind: organisation
+name: Scottish Association for Marine Science
+also_known_as:
+- SAMS
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: Marine research body in Scotland and a partner in TiMBER. OpenAlex lists its authors
+  on eDNA-based marine biomonitoring using machine learning.
+facts:
+- claim: Partner in TiMBER.
+  url: https://www.uea.ac.uk/about/news/article/new-ps425m-project-to-investigate-climate-tipping-points-in-marine-ecosystems
+  quote: the Scottish Association for Marine Science (SAMS)
+  fetched: '2026-10-30'
+- claim: Registered at Companies House as SCOTTISH MARINE BIOLOGICAL ASSOCIATION, registered
+    address Sams, Dunbeg, Oban, company number SC009292.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=scottish+association+for+marine+science
+  quote: SC009292 - Incorporated on 18 December 1914
+  fetched: '2026-10-30'
+- claim: Scotland's independent marine science organisation.
+  url: https://www.sams.ac.uk/
+  quote: is Scotland's premier independent marine science organisation
+  fetched: '2026-10-30'
+- claim: News item on AI software.
+  url: https://www.sams.ac.uk/
+  quote: New AI software will revolutionise seabed health checks
+  fetched: '2026-10-30'
+- claim: Scotland's independent marine science organisation since 1884.
+  url: https://sams.ac.uk/science/past-projects/sea-ai/
+  quote: is Scotland's premier independent marine science organisation
+  fetched: &id001 2026-10-30
+- claim: Trained an AI taxonomist for monitoring the seabed below fish farms.
+  url: https://www.sams.ac.uk/news/sams-news-edna-sampling.html
+  quote: Scientists at SAMS in Oban have trained an AI taxonomist
+  fetched: *id001
+- claim: Its SEA-AI work uses convolutional neural nets for seabed images.
+  url: https://sams.ac.uk/science/past-projects/sea-ai/
+  quote: The use of CNN machines to assist human experts in the identification of PMFs
+  ai_type: deep-learning
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://www.sams.ac.uk/
+  quote: Scottish Association for Marine Science, Oban, Argyll, PA37 1QA
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+- link-from:partnership-for-observation-of-the-global-ocean
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- edna-genomics
+ai_types:
+- deep-learning
+website: https://www.sams.ac.uk/

@@ -1,0 +1,56 @@
+id: national-plant-monitoring-scheme
+kind: programme
+name: National Plant Monitoring Scheme
+scope: gb
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+website: http://www.npms.org.uk/
+summary: UK plant survey run by BSBI, JNCC, Plantlife and UKCEH, with a mobile recording
+  app.
+facts:
+- claim: Offers a mobile recording app.
+  url: http://www.npms.org.uk/
+  fetched: '2026-10-30'
+  quote: NPMS Mobile Recording App available
+- claim: Publishes the dataset "National Plant Monitoring Scheme - England, Scotland,
+    Wales" on GBIF.
+  url: https://api.gbif.org/v1/organization/edbf0897-6149-44c9-b06f-bf83d4fc4437/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: National Plant Monitoring Scheme - England, Scotland, Wales
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/edbf0897-6149-44c9-b06f-bf83d4fc4437/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: run-by
+  to: botanical-society-of-britain-and-ireland
+  url: http://www.npms.org.uk/
+  fetched: '2026-10-30'
+  quote: The survey was designed, developed, and is run by the BSBI , JNCC , Plantlife
+    , and UKCEH .
+- type: run-by
+  to: joint-nature-conservation-committee
+  url: http://www.npms.org.uk/
+  fetched: '2026-10-30'
+  quote: The survey was designed, developed, and is run by the BSBI , JNCC , Plantlife
+    , and UKCEH .
+- type: run-by
+  to: plantlife
+  url: http://www.npms.org.uk/
+  fetched: '2026-10-30'
+  quote: The survey was designed, developed, and is run by the BSBI , JNCC , Plantlife
+    , and UKCEH .
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: http://www.npms.org.uk/
+  fetched: '2026-10-30'
+  quote: The survey was designed, developed, and is run by the BSBI , JNCC , Plantlife
+    , and UKCEH .
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

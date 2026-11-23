@@ -1,0 +1,86 @@
+id: university-of-the-aegean
+kind: organisation
+name: University of the Aegean
+scope: gr
+sector: academic
+roles:
+- builds-ai
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+hq: unknown
+countries:
+- gr
+scale: national
+status: active
+summary: Hosts the Marine Remote Sensing Group, partners in BioBoost+ and ANTENNA, and has
+  a marine sciences department using neural networks for fisheries research and underwater
+  acoustics.
+facts:
+- claim: Home of the Marine Remote Sensing Group, based in Mytilene.
+  url: http://mrsg.aegean.gr/
+  fetched: '2026-11-03'
+  quote: The Marine Remote Sensing Group (MRSG) at the University of the Aegean
+- claim: Its Department of Marine Sciences in Mytilene is a partner in BioBoost+, which applies
+    AI to identify and count marine species from images.
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: '2026-11-03'
+  quote: Department of Marine Sciences, University of the Aegean, Mytilene, Greece
+- claim: Its Department of Geography in Mytilene is a partner in ANTENNA, on automated sorting
+    and image recognition for pollinator monitoring.
+  url: https://www.biodiversa.eu/2024/04/15/antenna/
+  fetched: '2026-11-03'
+  quote: Department of Geography, University of the Aegean, Mytilene, Greece
+- claim: Its Department of Marine Sciences says its fisheries research uses methods including
+    artificial neural networks alongside classical statistics.
+  url: https://mar.aegean.gr/en/research-2/marine-biodiversity-and-ecosystems-management/
+  fetched: 2026-11-03
+  quote: other quantitative methods, such as Bayesian Statistics, Multivariate Time Series
+    Analysis, and Artificial Neural Networks are used
+- claim: The department says it uses underwater acoustics for estimating abundance and classifying
+    habitats of biological resources.
+  url: https://mar.aegean.gr/en/research-2/marine-biodiversity-and-ecosystems-management/
+  fetched: 2026-11-03
+  quote: Underwater acoustic technologies are among the most effective approaches for monitoring
+    of marine areas
+links:
+- type: partners-with
+  to: life-marenatura
+  url: https://archelon.gr/en/news/life-mare-natura-the-largest-marine-biodiversity-program-in-greece
+  fetched: '2026-11-03'
+  quote: The other institutions participating are the University of the Aegean
+- type: partners-with
+  to: bioboost-plus
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: '2026-11-03'
+  quote: Department of Marine Sciences, University of the Aegean, Mytilene, Greece
+- type: partners-with
+  to: cambiomed
+  url: https://www.biodiversa.eu/2024/04/15/cambiomed/
+  fetched: '2026-11-03'
+  quote: Department of Marine Sciences, University of the Aegean, Mytilene Greece
+- type: partners-with
+  to: antenna-pollinator-monitoring
+  url: https://www.biodiversa.eu/2024/04/15/antenna/
+  fetched: '2026-11-03'
+  quote: Department of Geography, University of the Aegean, Mytilene, Greece
+- type: runs
+  to: department-of-environment-university-of-the-aegean
+  url: https://api.gbif.org/v1/organization/66be2c36-b382-45cf-8181-bd912f6ca365
+  fetched: 2026-11-03
+  quote: The Department of Environment, University of the Aegean, is the first Environmental
+    Sciences’ University Department established in Greece
+found_by:
+- checklist:3
+- link-from:bioboost-plus
+- link-from:antenna-pollinator-monitoring
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

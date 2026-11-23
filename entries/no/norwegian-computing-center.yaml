@@ -1,0 +1,113 @@
+id: norwegian-computing-center
+kind: organisation
+name: Norwegian Computing Center
+also_known_as:
+- Norsk Regnesentral
+- NR
+scope: 'no'
+summary: Independent non-profit contract research foundation in Oslo that builds SeaBee, heading
+  its deep learning development, and develops remote sensing methods for environmental and
+  climate monitoring.
+facts:
+- claim: An independent, non-profit foundation carrying out contract research.
+  url: https://nr.no/en/about/
+  fetched: '2026-11-02'
+  quote: Norwegian Computing Center (NR) is an independent, non-profit foundation that carries
+    out contract research
+- claim: Heads the development of deep learning for SeaBee.
+  url: https://nr.no/en/projects/seabee
+  fetched: '2026-11-02'
+  quote: NR heads the development of AI algorithms, specifically deep learning, that enables
+    automatic analysis of the data.
+  ai_type: deep-learning
+- claim: Oslo address.
+  url: https://nr.no/en/projects/seabee
+  fetched: '2026-11-02'
+  quote: Gaustadalleen 23a, 4th floor
+- claim: An independent non-profit foundation doing contract research.
+  url: https://nr.no/en/about/
+  fetched: '2026-11-02'
+  quote: is an independent, non-profit foundation that carries out contract research
+- claim: Based on the University of Oslo campus.
+  url: https://nr.no/en/about/
+  fetched: '2026-11-02'
+  quote: We are based in Kristen Nygaards hus on the University of Oslo campus.
+- claim: Develops algorithms that turn remote sensing data into usable knowledge, from forest
+    and snow to coastal monitoring.
+  url: https://nr.no/fagfelt/bildeanalyse-og-jordobservasjon/jordobservasjon/kartlegging-og-overvaking/
+  fetched: '2026-11-02'
+  quote: På NR utvikler vi algoritmer som gjør de enorme datamengdene fra fjernmåling til
+    nyttig kunnskap
+- claim: Uses deep learning methods to detect, identify and track fish automatically in underwater
+    video.
+  url: https://nr.no/fagfelt/bildeanalyse-og-jordobservasjon/bildeanalyse/marin-bildeanalyse/
+  fetched: '2026-11-02'
+  quote: Ved hjelp av metoder basert på dyp læring kan fisk i undervannsvideoer automatisk
+    oppdages, identifiseres og spores over tid.
+  ai_type: deep-learning
+- claim: Developed deep learning methods for mapping average forest vegetation height in Tanzania
+    from Landsat, in a project for the Norwegian Ministry of Foreign Affairs running 2011
+    to 2015.
+  url: https://nr.no/fagfelt/bildeanalyse-og-jordobservasjon/jordobservasjon/klima-og-miljo/
+  fetched: '2026-11-02'
+  quote: NR utviklet metoder basert på dyp læring for å kartlegge gjennomsnittlig skogvegetasjonshøyde
+- claim: Works on methods for remote sensing in environmental and climate monitoring and mapping
+    of natural resources.
+  url: https://nr.no/en/areas/image-analysis-and-earth-observation/earth-observation/
+  fetched: '2026-11-02'
+  quote: Our vision is to carry out research and development that leads to new and better
+    methods for remote sensing within environmental and climate monitoring, and mapping and
+    monitoring of natural resources
+- claim: Reports deep learning as raising the potential of remote sensing.
+  url: https://nr.no/en/areas/image-analysis-and-earth-observation/earth-observation/
+  fetched: '2026-11-02'
+  quote: artificial intelligence, and in particular deep learning, has increased the potential
+    for remote sensing in an increasing number of applications
+  ai_type: deep-learning
+- claim: Tested methods for detecting land-cover change on commission from the Environment
+    Agency.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/fjernmaling/
+  fetched: '2026-11-02'
+  quote: Norsk Regnesentral har på oppdrag fra Miljødirektoratet testet ut metoder som ved
+    hjelp av fjernmåling kan detektere endring i arealdekke
+links:
+- type: builds
+  to: seabee
+  url: https://nr.no/en/projects/seabee
+  fetched: '2026-11-02'
+  quote: NR heads the development of AI algorithms, specifically deep learning
+- type: partners-with
+  to: institute-of-marine-research
+  url: https://nr.no/fagfelt/bildeanalyse-og-jordobservasjon/bildeanalyse/marin-bildeanalyse/
+  fetched: '2026-11-02'
+  quote: I samarbeid med Havforskningsinstituttet utvikler vi derfor metoder som forbedrer
+    og effektivserer informasjonsuttrekk av marine bildedata.
+- type: partners-with
+  to: visual-intelligence
+  url: https://nr.no/en/about/research-centres/visual-intelligence/
+  fetched: '2026-11-02'
+  quote: NR is part of Visual Intelligence, a Centre for Research-Based Innovation (SFI)
+found_by:
+- checklist:3
+- link-from:seabee
+- link-from:marint-naturkart
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+website: https://nr.no
+countries:
+- 'no'

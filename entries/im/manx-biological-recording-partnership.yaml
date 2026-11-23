@@ -1,0 +1,51 @@
+id: manx-biological-recording-partnership
+kind: programme
+name: Manx Biological Recording Partnership
+scope: im
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques: []
+countries: []
+status: active
+summary: Partnership led by the Department of Environment, Food and Agriculture and Manx Wildlife Trust
+  that collates terrestrial and marine Isle of Man data, has 11 datasets listed on GBIF, and supports
+  NBN Atlas Isle of Man.
+facts:
+- claim: A partnership collating terrestrial and marine data on the Isle of Man, much of it from surveys
+    carried out by the lead organisations and also from individual recorders and specialist groups.
+  url: https://api.gbif.org/v1/organization/7774fda0-457b-40da-8936-214f632ba991
+  fetched: 2026-11-12
+  quote: Much of our data comes from surveys carried out by the lead organisations but also includes records
+    from individual wildlife recorders and several specialist groups
+- claim: GBIF lists 11 datasets published by the partnership.
+  url: https://api.gbif.org/v1/organization/7774fda0-457b-40da-8936-214f632ba991
+  fetched: 2026-11-12
+  quote: '"numPublishedDatasets":11'
+- claim: The partnership supports NBN Atlas Isle of Man.
+  url: https://isleofman.nbnatlas.org/about-nbn-atlas
+  fetched: 2026-11-12
+  quote: NBN Atlas Isle of Man is supported by the Manx Biological Recording Partnership
+links:
+- type: led-by
+  to: isle-of-man-department-of-environment-food-and-agriculture
+  url: https://api.gbif.org/v1/organization/7774fda0-457b-40da-8936-214f632ba991
+  fetched: 2026-11-12
+  quote: led jointly by Manx National Heritage, the Department of Environment, Food and Agriculture, Isle
+    of Man Government and the Manx Wildlife Trust
+- type: led-by
+  to: manx-wildlife-trust
+  url: https://api.gbif.org/v1/organization/7774fda0-457b-40da-8936-214f632ba991
+  fetched: 2026-11-12
+  quote: led jointly by Manx National Heritage, the Department of Environment, Food and Agriculture, Isle
+    of Man Government and the Manx Wildlife Trust
+- type: partners-with
+  to: nbn-atlas-isle-of-man
+  url: https://isleofman.nbnatlas.org/about-nbn-atlas
+  fetched: 2026-11-12
+  quote: NBN Atlas Isle of Man is supported by the Manx Biological Recording Partnership
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

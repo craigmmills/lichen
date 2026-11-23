@@ -1,0 +1,36 @@
+id: geoplantnet
+kind: programme
+name: GeoPl@ntNet
+scope: fr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- species-distribution
+- remote-sensing
+status: active
+website: https://geo.plantnet.org/
+summary: Maps of biodiversity from deep learning models trained on remote sensing,
+  climate and occurrence data, which predict species assemblages and derive indicators.
+  Developed by the Pl@ntNet team.
+facts:
+- claim: Uses Deep-SDM convolutional models trained on remote sensing, climate and
+    occurrence data.
+  url: https://geo.plantnet.org/en
+  fetched: '2026-10-31'
+  quote: it uses Deep-SDM convolutional models trained on remote-sensing, climate
+    and occurrence data to predict species assemblages
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: plantnet
+  url: https://geo.plantnet.org/fr
+  fetched: '2026-10-31'
+  quote: GeoPl@ntNet est développé et maintenu par l'équipe Pl@ntNet dans le cadre
+    d'un accord de consortium entre le CIRAD, l'INRAE, l'INRIA et l'IRD.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

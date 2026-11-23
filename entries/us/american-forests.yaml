@@ -1,0 +1,48 @@
+id: american-forests
+kind: organisation
+name: American Forests
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: national
+status: active
+website: https://www.americanforests.org
+summary: US forest nonprofit working with data, science and policy, and behind Tree Equity
+  Score.
+facts:
+- claim: Works by combining data, science, policy and partnerships.
+  url: https://www.americanforests.org/
+  fetched: '2026-10-30'
+  quote: we lead by combining data, science, policy
+- claim: Address in Washington DC.
+  url: https://www.americanforests.org/about-us/
+  fetched: '2026-10-30'
+  quote: Washington, DC 20037
+- claim: The IRS exempt organisation record, through ProPublica, lists American Forests in
+    Washington, DC.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/530196544.json
+  fetched: '2026-10-31'
+  quote: '"city":"Washington","state":"DC"'
+links:
+- type: runs
+  to: tree-equity-score
+  url: https://americanforests.org/our-work/tree-equity-score
+  fetched: '2026-10-30'
+  quote: One of the ways we are doing this is with our Tree Equity Score tool
+- type: funded-by
+  to: patrick-j-mcgovern-foundation
+  url: https://www.mcgovern.org/grants/
+  fetched: '2026-10-30'
+  quote: American Forests
+found_by:
+- checklist:4
+- link-from:patrick-j-mcgovern-foundation
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us

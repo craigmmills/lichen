@@ -1,0 +1,52 @@
+id: bahir-dar-university
+kind: organisation
+name: Bahir Dar University
+scope: et
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+- other
+hq: et
+countries:
+- et
+scale: national
+status: active
+summary: University with authors on OpenAlex-listed papers on machine learning for water quality
+  and Lake Tana water hyacinth, including a 2026 paper on predicting hyacinth expansion.
+facts:
+- claim: OpenAlex lists a paper by Bahir Dar University authors on predicting water quality
+    indicators from remote sensing with machine learning.
+  url: https://api.openalex.org/works?filter=openalex_id:W4402012585|W4416865056|W7143840115|W4381839875|W7212135226&select=id,display_name,authorships,abstract_inverted_index,primary_location
+  fetched: 2026-11-08
+  quote: Predicting Optical Water Quality Indicators from Remote Sensing Using Machine Learning
+    Algorithms in Tropical Highlands of Ethiopia
+- claim: OpenAlex lists a paper by authors at Bahir Dar University and Malmö University on
+    IoT and machine learning to monitor water hyacinth in Lake Tana.
+  url: https://api.openalex.org/works?filter=openalex_id:W4402012585|W4416865056|W7143840115|W4381839875|W7212135226&select=id,display_name,authorships,abstract_inverted_index,primary_location
+  fetched: 2026-11-08
+  quote: IoT and Machine Learning Based Techniques for Monitoring and Predicting Water Hyacinth
+    Expansion Rate in Lake Tana Ecosystem
+- claim: OpenAlex lists a 2026 paper on machine learning to predict water hyacinth expansion
+    in Lake Tana.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: Predicting water hyacinth expansion and identifying environmental drivers in Lake
+    Tana using machine learning
+- claim: OpenAlex lists Haileyesus Amssaya, first author of that paper, at Bahir Dar University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Haileyesus Amssaya", "orcid": null, "observed_orcids": []}, "institutions":
+    [{"id": "https://openalex.org/I57092466", "display_name": "Bahir Dar University", "ror":
+    "https://ror.org/01670bg46", "country_code": "ET"'
+links: []
+found_by:
+- checklist:3
+- register:et
+added_by: agent
+checked: 2026-11-08

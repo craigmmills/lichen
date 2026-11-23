@@ -1,0 +1,50 @@
+id: king-saud-university
+kind: organisation
+name: King Saud University
+also_known_as: []
+scope: sa
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: sa
+scale: national
+status: active
+website: https://ksu.edu.sa
+summary: Saudi education body listed in OpenAlex, with 2026 papers on vegetation trend prediction
+  using neural networks and ensemble models, and on identifying behavioural states from movement
+  data.
+facts:
+- claim: OpenAlex lists it as an education body in Saudi Arabia with the homepage ksu.edu.sa.
+  url: https://api.openalex.org/institutions/ror:02f81g417?select=id,display_name,display_name_alternatives,type,country_code,homepage_url,geo
+  fetched: '2026-11-03'
+  quote: '"type":"education","country_code":"SA","homepage_url":"https://ksu.edu.sa"'
+- claim: OpenAlex records a 2026 paper comparing neural networks and ensemble models for vegetation
+    trend prediction in a semiarid mountain ecosystem in Saudi Arabia.
+  url: https://api.openalex.org/works/W7165162160?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Comparative evaluation of neural networks and ensemble models for vegetation trend
+    prediction in a semiarid mountain ecosystem, Saudi Arabia
+- claim: An author of the vegetation paper gives the university's Chair of Climate Change,
+    Environmental Development and Vegetation Cover as affiliation.
+  url: https://api.openalex.org/works/W7165162160?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Chair of Climate Change, Environmental Development and Vegetation Cover, Department
+    of Botany and Microbiology, College of Science, King Saud University
+- claim: OpenAlex records a 2026 paper on identifying behavioural states from ultra-high-frequency
+    movement data.
+  url: https://api.openalex.org/works/W7172517017?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Behavioural state identification from ultra\u2010high\u2010frequency movement data
+- claim: An author of the movement paper gives the university's Statistics and Operations
+    Research Department as an affiliation.
+  url: https://api.openalex.org/works/W7172517017?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Statistics &amp; Operations Research Department King Saud University
+links: []
+found_by:
+- register:sa
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,40 @@
+id: higher-national-school-of-forests-algeria
+kind: organisation
+name: Higher National School of Forests
+also_known_as: []
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A forestry school named as the lead affiliation of the first author of a
+  paper whose title covers GIS and remote sensing for assessing vegetation dynamics
+  in the Ouled Yagoub forest from 1994 to 2025.
+facts:
+- claim: Lead affiliation of the first author on the paper whose title is quoted in
+    the next fact.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Oussama Meghithi", "raw_affiliation_strings": ["Higher
+    National School of Forests, Khenchela 40000, Algeria"]'
+- claim: The paper's title names GIS and remote sensing for assessing vegetation dynamics
+    in the Ouled Yagoub forest from 1994 to 2025.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Spatio-Temporal Assessment of Vegetation Dynamics for Forest Sustainability
+    in Ouled Yagoub Forest, Khenchela, Algeria, from 1994 to 2025, Using GIS and Remote
+    Sensing
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

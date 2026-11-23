@@ -1,0 +1,43 @@
+id: batmapph
+kind: dataset
+name: 'BatMapPH: Philippine Bat Species Occurrence Database'
+also_known_as:
+- BatMapPH
+scope: ph
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ph
+status: active
+summary: A CC0-licensed database of Philippine bat records from published research and field
+  surveys, published on GBIF by the Eco/Con Lab Biodiversity Synthesis+ Centre, led by Krizler
+  Tanalgo, and said to support species distribution models.
+facts:
+- claim: Gathers biodiversity records for Philippine bats from published research and field
+    surveys.
+  url: https://api.gbif.org/v1/dataset/2877b66a-577b-40d6-bdca-daeb0ae762bc
+  fetched: 2026-11-08
+  quote: BatMapPH has been initiated with the goal of mobilising and consolidating biodiversity
+    records for Philippine bats published in research and field surveys.
+- claim: Published under a CC0 public domain dedication.
+  url: https://api.gbif.org/v1/dataset/2877b66a-577b-40d6-bdca-daeb0ae762bc
+  fetched: 2026-11-08
+  quote: '"license":"http://creativecommons.org/publicdomain/zero/1.0/legalcode"'
+- claim: Its record says the data can support species distribution models.
+  url: https://api.gbif.org/v1/dataset/2877b66a-577b-40d6-bdca-daeb0ae762bc
+  fetched: 2026-11-08
+  quote: these data can facilitate the development of species distribution models
+- claim: Published under a CC0 public domain licence.
+  url: https://api.gbif.org/v1/dataset/2877b66a-577b-40d6-bdca-daeb0ae762bc
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+- claim: Published on GBIF by the Eco/Con Lab Biodiversity Synthesis+ Centre.
+  url: https://api.gbif.org/v1/dataset/2877b66a-577b-40d6-bdca-daeb0ae762bc
+  fetched: 2026-11-08
+  quote: '"publishingOrganizationKey":"137233c6-366b-45e4-af0d-df251902a5cd"'
+found_by:
+- link-from:eco-con-lab-biodiversity-synthesis-centre
+- register:ph
+added_by: agent
+checked: 2026-11-08

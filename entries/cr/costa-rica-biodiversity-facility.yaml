@@ -1,0 +1,44 @@
+id: costa-rica-biodiversity-facility
+kind: programme
+name: Costa Rica Biodiversity Facility
+scope: cr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- cr
+status: active
+runner: unknown
+summary: Costa Rica's GBIF node, listed with voting status in GBIF's registry, with its node manager based
+  at CONAGEBIO in the Ministry of Environment and Energy.
+facts:
+- claim: GBIF's node registry lists it as Costa Rica's node, with voting status.
+  url: https://api.gbif.org/v1/node/3379bb09-1a58-41e7-9c57-e3b66c3eb5a0
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF's node registry names it.
+  url: https://api.gbif.org/v1/node/3379bb09-1a58-41e7-9c57-e3b66c3eb5a0
+  fetched: '2026-11-08'
+  quote: Costa Rica Biodiversity Facility
+- claim: GBIF's node registry lists biodiversidad.go.cr among its home pages.
+  url: https://api.gbif.org/v1/node/3379bb09-1a58-41e7-9c57-e3b66c3eb5a0
+  fetched: '2026-11-08'
+  quote: http://biodiversidad.go.cr/
+- claim: GBIF lists the Costa Rica Biodiversity Facility as the node for Costa Rica.
+  url: https://api.gbif.org/v1/node/3379bb09-1a58-41e7-9c57-e3b66c3eb5a0
+  fetched: '2026-11-08'
+  quote: '"title":"Costa Rica Biodiversity Facility","participantTitle":"Costa Rica"'
+- claim: GBIF gives the node manager's address as the National Commission for Biodiversity Management
+    (CONAGEBIO) at the Ministry of Environment and Energy.
+  url: https://api.gbif.org/v1/node/3379bb09-1a58-41e7-9c57-e3b66c3eb5a0
+  fetched: '2026-11-08'
+  quote: National Commission for the Biodiversity Management (CONAGEBIO)\nMinistery of Environment and
+    Energy
+links: null
+found_by:
+- checklist:2
+- link-from:queue-cr
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,197 @@
+id: mapbiomas-argentina
+kind: programme
+name: MapBiomas Argentina
+scope: ar
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ar
+scale: national
+status: active
+summary: Network run by Fundación Vida Silvestre Argentina producing open Landsat maps, whose
+  data Unidiversidad reported showed Argentina lost 7.6 million hectares of natural vegetation
+  between 1998 and 2022.
+facts:
+- claim: Unidiversidad describes it as a collaborative network of remote sensing and natural
+    resources experts from research institutes and civil society organisations.
+  url: https://www.unidiversidad.com.ar/argentina-perdio-76-millones-de-hectareas-de-vegetacion-natural-en-los-ultimos-25-anos
+  quote: MapBiomas Argentina es una red colaborativa de expertos y expertas en teledetección
+    y recursos naturales de institutos de investigación y organizaciones de la sociedad civil.
+  fetched: '2026-11-03'
+- claim: Unidiversidad reports that by processing satellite images the team produced the first
+    collection of 25 annual maps with 15 land cover and land use classes.
+  url: https://www.unidiversidad.com.ar/argentina-perdio-76-millones-de-hectareas-de-vegetacion-natural-en-los-ultimos-25-anos
+  quote: Mediante el procesamiento de imágenes satelitales el equipo de especialistas logró
+    generar la primera colección de 25 mapas anuales con 15 clases de cobertura y uso del
+    suelo.
+  fetched: '2026-11-03'
+- claim: Unidiversidad reported in May 2024 that the data show Argentina lost 7.6 million
+    hectares of natural vegetation between 1998 and 2022, mainly in the north.
+  url: https://www.unidiversidad.com.ar/argentina-perdio-76-millones-de-hectareas-de-vegetacion-natural-en-los-ultimos-25-anos
+  quote: Argentina perdió en los últimos 25 años 7,6 millones de hectáreas de vegetación natural
+  fetched: '2026-11-03'
+- claim: Collection 3 updates the annual land cover and land use maps to 2025 and adds glaciers
+    and soya for the first time; a first fire collection maps burned area since 1999.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: La Colección 3 de MapBiomas Argentina actualiza los mapas anuales de cobertura y
+    uso del suelo hasta 2025 e incorpora por primera vez el mapeo de glaciares y soja
+- claim: The maps are made from 30-metre Landsat imagery.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: a partir de imágenes satelitales Landsat de 30 metros de resolución
+- claim: Says Collection 3 is the work of 25 institutions and professionals across the country.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: es el resultado de la colaboración de 25 instituciones y profesionales de todo el
+    país
+- claim: Part of the international MapBiomas network created in Brazil in 2015; its data are
+    public, open and free.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: MapBiomas Argentina forma parte de una red internacional creada en 2015 en Brasil
+- claim: Awarded the first MapBiomas Argentina Prize in 2026, in general and student categories.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: En el mismo evento se realizó la entrega de la primera edición del Premio MapBiomas
+    Argentina
+- claim: Describes itself as a network of NGOs, universities, research institutes and technology
+    companies that uses remote sensing to produce open data on land use and land cover change
+    in Argentina, including fire, water and deforestation.
+  url: https://argentina.mapbiomas.org
+  fetched: '2026-11-03'
+  quote: MapBiomas Argentina es una red de ONGs, universidades e institutos de investigación
+    y empresas tecnológicas que, a partir de sensores remotos, genera datos abiertos
+- claim: Its country coordination committee, responsible for strategic direction and methodological
+    coherence, lists nine coordinators, including Ana Eljall and Santiago Verón.
+  url: https://argentina.mapbiomas.org/conozca-mapbiomas/
+  fetched: '2026-11-03'
+  quote: Este comité es responsable de la orientación estratégica, la expansión internacional
+    y la coherencia metodológica entre todas las iniciativas locales de MapBiomas.
+- claim: A network of NGOs, universities, research institutes and technology companies that
+    uses remote sensing to produce open data on land cover and land use change in Argentina.
+  url: https://argentina.stg.mapbiomas.org/conozca-mapbiomas/
+  fetched: 2026-11-03
+  quote: MapBiomas Argentina es una red de ONGs, universidades e institutos de investigación
+    y empresas tecnológicas que, a partir de sensores remotos, genera datos abiertos, confiables
+    y actualizados sobre los cambios en el uso y cobertura del suelo en Argentina
+- claim: Its annual maps are produced by pixel-by-pixel classification of Landsat images with
+    machine learning algorithms on Google Earth Engine.
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: Todo el proceso se realiza con amplios algoritmos de aprendizaje automático, a través
+    de la plataforma Google Earth Engine
+- claim: Classifies Landsat images pixel by pixel into land cover and land use classes.
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: Todos los mapas anuales de cobertura y uso de la tierra de MapBiomas se producen
+    a partir de la clasificación píxel por píxel de las imágenes de los satélites Landsat.
+  ai_type: ml-supervised
+- claim: The 2024 national collection involved 63 technical staff from 18 institutions, including
+    INTA.
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: participan 63 técnicos de 18 instituciones y organizaciones de ciencia y técnica,
+    entre las cuales se encuentra el INTA
+runner: unknown
+links:
+- type: partners-with
+  to: mapbiomas
+  url: https://www.unidiversidad.com.ar/argentina-perdio-76-millones-de-hectareas-de-vegetacion-natural-en-los-ultimos-25-anos
+  quote: Dos de las principales novedades que trae MapBiomas como red en cada país miembro
+    es la generación de información sólida metodológicamente y disponible de forma gratuita
+  fetched: '2026-11-03'
+- type: run-by
+  to: fundacion-vida-silvestre-argentina
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: MapBiomas Argentina es coordinado por Fundación Vida Silvestre Argentina
+- type: partners-with
+  to: facultad-de-agronomia-universidad-de-buenos-aires
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: 'Forman parte de la red las siguientes instituciones: Fundación Vida Silvestre Argentina,
+    Facultad de Agronomía de la UBA'
+- type: partners-with
+  to: instituto-nacional-de-tecnologia-agropecuaria
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Facultad de Agronomía de la UBA, el Instituto Nacional de Tecnología Agropecuaria,Geosimple
+- type: partners-with
+  to: geosimple
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: el Instituto Nacional de Tecnología Agropecuaria,Geosimple e Universidad Nacional
+    del Centro de la Provincia de Buenos Aires
+- type: partners-with
+  to: centro-de-investigacion-y-extension-forestal-andino-patagonico
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Instituto de Investigaciones en Biodiversidad y Medioambiente, Centro de Investigación
+    y Extensión Forestal Andino Patagónico
+- type: partners-with
+  to: inibioma
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Instituto Argentino de Investigaciones de Zonas Áridas, Instituto de Investigaciones
+    en Biodiversidad y Medioambiente
+- type: partners-with
+  to: instituto-argentino-de-investigaciones-de-zonas-aridas
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Instituto de Matemática Aplica de San Luis, Instituto Argentino de Investigaciones
+    de Zonas Áridas
+- type: partners-with
+  to: laboratorio-de-analisis-regional-y-teledeteccion
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Laboratorio de Análisis Regional y Teledetección (CONICET-FAUBA)
+- type: partners-with
+  to: trama-viva
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Centro de Investigación Científica y de Transferencia Tecnológica a la Producción
+    y Trama Viva
+- type: partners-with
+  to: instituto-de-biologia-subtropical
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Facultad de Ciencias Forestales – UnaM, Instituto de Biología Subtropical
+- type: partners-with
+  to: secretaria-de-ambiente-tierra-del-fuego
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Universidad Nacional del Comahue Bariloche, Secretaria de Ambiente – Tierra del Fuego
+- type: partners-with
+  to: instituto-nacional-de-tecnologia-agropecuaria
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: Las instituciones que participan de este proyecto, además del INTA, son Fundación
+    vida silvestre
+- type: partners-with
+  to: fundacion-vida-silvestre-argentina
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: Las instituciones que participan de este proyecto, además del INTA, son Fundación
+    vida silvestre
+- type: uses
+  to: google-earth-engine
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: Este sistema utiliza procesamiento en la nube y clasificadores automatizados desarrollados
+    y operados desde la plataforma de Google Earth Engine
+found_by:
+- checklist:7
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-11-03'
+hq: unknown
+roles:
+- builds-ai
+- supplies-data
+ai_types:
+- ml-supervised

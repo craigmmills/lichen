@@ -1,0 +1,47 @@
+id: university-of-khartoum
+kind: organisation
+name: University of Khartoum
+also_known_as:
+- UofK
+scope: sd
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sd
+countries: []
+scale: national
+status: active
+website: https://www.uofk.edu
+summary: Public university in Khartoum, described as Sudan's largest and oldest, whose
+  departments are listed on papers on machine learning tree species mapping and Google
+  Earth Engine forest monitoring.
+facts:
+- claim: The university describes itself as a public university in Khartoum and the
+    largest and oldest in Sudan.
+  url: https://www.uofk.edu
+  fetched: 2026-11-14
+  quote: The University of Khartoum is a public university located in Khartoum, Sudan.
+    It is the largest and oldest university in Sudan.
+- claim: The first author of a paper on machine learning mapping of dominant tree
+    species in dryland forests lists the university's Department of Forest Management
+    as his affiliation.
+  url: https://api.openalex.org/works?filter=openalex_id:W4405664774|W7154522367|W7150165483|W7213533975|W7223232132|W4408537451|W7212978267|W7202274198&select=id,title,authorships
+  fetched: 2026-11-14
+  quote: Machine Learning-Based Mapping of Dominant Tree Species in Dryland Forests
+    Using Multi-Temporal and Multi-Source Data
+- claim: The first author of a paper on Google Earth Engine forest monitoring at Elrawashdah
+    Forest lists the university's Department of GIS and Cartography as his affiliation.
+  url: https://api.openalex.org/works?filter=openalex_id:W4405664774|W7154522367|W7150165483|W7213533975|W7223232132|W4408537451|W7212978267|W7202274198&select=id,title,authorships
+  fetched: 2026-11-14
+  quote: 'Google Earth Engine Based Forest Monitoring and Decision Support: Evidence
+    from Elrawashdah Forest, Sudan'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

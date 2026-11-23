@@ -1,0 +1,54 @@
+id: florabank1
+kind: dataset
+name: Florabank1
+also_known_as:
+- Florabank
+scope: be
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- be
+status: active
+runner: unknown
+summary: CC0 dataset whose GBIF description reports about three million vascular plant
+  records from Flanders and Brussels since 1800, while its occurrence count is 6,136,750.
+facts:
+- claim: Its GBIF description says it holds about 3 million vascular plant records
+    from Flanders and the Brussels Capital Region, dating from 1800 onward; the record’s
+    occurrence count is 6,136,750.
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: It holds about 3 million records of vascular plants, dating from 1800 till
+    present
+- claim: Published under a CC0 public domain dedication.
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+links:
+- type: built-by
+  to: flo-wer
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: The database is an initiative of &#34;Flo.Wer&#34; (http://www.plantenwerkgroep.be),
+    the Research Institute for Nature and Forest (INBO) (http://www.inbo.be) and the
+    National Botanic Garden of Belgium (http://www.br.fgov.be).
+- type: built-by
+  to: research-institute-for-nature-and-forest
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: The database is an initiative of &#34;Flo.Wer&#34; (http://www.plantenwerkgroep.be),
+    the Research Institute for Nature and Forest (INBO) (http://www.inbo.be) and the
+    National Botanic Garden of Belgium (http://www.br.fgov.be).
+- type: built-by
+  to: meise-botanic-garden
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: The database is an initiative of &#34;Flo.Wer&#34; (http://www.plantenwerkgroep.be),
+    the Research Institute for Nature and Forest (INBO) (http://www.inbo.be) and the
+    National Botanic Garden of Belgium (http://www.br.fgov.be).
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

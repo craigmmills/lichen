@@ -1,0 +1,36 @@
+id: cisco
+kind: organisation
+name: Cisco
+scope: global
+sector: company
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.cisco.com
+summary: Networking company that works with the Connected Conservation Foundation on protecting
+  rhinos, elephants and other wildlife.
+facts:
+- claim: Its newsroom describes work with the Connected Conservation Foundation on rhinos
+    and elephants.
+  url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m12/built-for-what-next-how-cisco-s-workplaces-bring-purpose-to-life.html
+  fetched: &id001 2026-10-30
+  quote: Connected Conservation Foundation and Cisco help protect rhinos, elephants, and more.
+- claim: Headquartered in San Jose, California.
+  url: https://en.wikipedia.org/wiki/Cisco
+  fetched: *id001
+  quote: Headquarters San Jose, California
+links:
+- type: partners-with
+  to: connected-conservation-foundation
+  url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m12/built-for-what-next-how-cisco-s-workplaces-bring-purpose-to-life.html
+  fetched: *id001
+  quote: Connected Conservation Foundation and Cisco help protect rhinos, elephants, and more.
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

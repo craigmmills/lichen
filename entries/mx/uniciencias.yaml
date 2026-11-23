@@ -1,0 +1,36 @@
+id: uniciencias
+kind: programme
+name: UniCiencias
+also_known_as:
+- Unidad de Informática para la Biodiversidad en las Ciencias
+scope: mx
+ai_label: data-infrastructure
+countries:
+- mx
+status: active
+website: http://uniciencias.fciencias.unam.mx/
+summary: A programme run by the Facultad de Ciencias, UNAM, that holds specimen records of the Museo de
+  Zoología Alfonso L. Herrera mammal collection and gives open access to collection databases, with written
+  permission requested for publications.
+facts:
+- claim: The bird collection page says the collections' databases are available online, especially through
+    UniCiencias, and that the data are open access, with authors asked to request written permission for
+    publications.
+  url: https://pagina.fciencias.unam.mx/vida-en-ciencias/instalaciones/instalaciones-academicas/museos/coleccion-de-aves
+  fetched: 2026-11-03
+  quote: Los datos son de libre acceso. Sin embargo, es responsabilidad de los usuarios el solicitar por
+    escrito la autorización de los curadores para el uso de los datos en publicaciones
+- claim: Holds specimen records of the mammal collection of the Museo de Zoología Alfonso L. Herrera.
+  url: http://uniciencias.fciencias.unam.mx/ficha.php?id=19860
+  fetched: 2026-11-03
+  quote: Colección de Mamíferos del Museo de Zoología "Alfonso L. Herrera"
+links:
+- type: run-by
+  to: facultad-de-ciencias-unam
+  url: https://pagina.fciencias.unam.mx/vida-en-ciencias/instalaciones/instalaciones-academicas/museos/coleccion-de-aves
+  fetched: 2026-11-03
+  quote: la Unidad de Informática para la Biodiversidad de la Facultad de Ciencias (UniCiencias)
+found_by:
+- checklist:register
+added_by: agent
+checked: 2026-11-03

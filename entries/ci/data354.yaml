@@ -1,0 +1,55 @@
+id: data354
+kind: organisation
+name: data354
+scope: ci
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ci
+scale: national
+status: active
+summary: An organisation listed by ITU as lead partner on a mangrove biomass and carbon monitoring use
+  case in Côte d'Ivoire, responsible for AI model development, field integration and remote sensing.
+facts:
+- claim: ITU's AI for Good Innovate for Impact report lists data354 as the organisation behind an AI-powered
+    mangrove biomass and carbon stock monitoring use case in Côte d'Ivoire.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page196.html
+  fetched: 2026-11-08
+  quote: 'Use Case 3: AI-powered Monitoring of Mangrove Biomass and Carbon Stocks Organization: data354
+    Country: Côte d''Ivoire'
+- claim: The report lists data354 as lead partner, responsible for AI model development, field integration
+    and remote sensing.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: data354 – Lead partner (AI model development, field integration, remote sensing)
+- claim: The report says the models are supervised machine learning with field-validated features, using
+    Random Forest and XGBoost.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page196.html
+  fetched: 2026-11-08
+  quote: Supervised ML with field-validated features
+  ai_type: ml-supervised
+- claim: The mangrove dataset card names data354's Data4Good department as the contact organisation.
+  url: https://huggingface.co/datasets/data354/civ_mangrove_biomass_dataset/blob/main/README.md
+  fetched: 2026-11-08
+  quote: 'Organization : Data4Good department – data354'
+links:
+- type: leads
+  to: ai-powered-monitoring-of-mangrove-biomass-and-carbon-stocks-cote-d-ivoire
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: data354 – Lead partner (AI model development, field integration, remote sensing)
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-08

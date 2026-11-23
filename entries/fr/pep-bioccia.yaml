@@ -1,0 +1,39 @@
+id: pep-bioccia
+kind: project
+name: PEP BIOccIA
+scope: fr
+ai_label: ai
+realms:
+- land
+status: active
+runner: unknown
+summary: An Occitanie project that uses AI to give a high-resolution map of natural
+  habitats and predict the distribution of land species, updated yearly, with data
+  free to use.
+facts:
+- claim: Uses AI to address gaps in regional biodiversity data.
+  url: https://openig.org/sites/default/files/2024-11/13_PEP-BiOccIA_Presentation_generale_v3.pdf
+  quote: Mobilisation de l'IA dans le cadre du projet PEP BIOccIA pour répondre à
+    ces limites
+  fetched: '2026-10-31'
+- claim: Provides maps that predict with AI models the presence of species in the
+    region's natural habitats.
+  url: https://www.terroiko.fr/fr/recherche-et-developpement/pepbioccia
+  fetched: '2026-10-31'
+  quote: Fournir des cartes permettant de prédire, grâce à des modèles d’IA, la présence
+    des espèces dans les différents milieux naturels de la région
+- claim: Winner of the frugal AI demonstrators call for the ecological transition
+    of territories.
+  url: https://www.terroiko.fr/fr/recherche-et-developpement/pepbioccia
+  fetched: '2026-10-31'
+  quote: Il est lauréat de l’appel à projet « Démonstrateurs d’IA frugale pour la
+    transition écologique des territoires »
+found_by:
+- checklist:7
+- link-from:terroiko
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr
+techniques:
+- species-distribution

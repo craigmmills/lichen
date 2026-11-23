@@ -1,0 +1,46 @@
+id: delft-university-of-technology
+kind: organisation
+name: Delft University of Technology
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+- land
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: Its Department of Intelligent Systems is a partner in CAMBioMed, a Biodiversa+ project.
+facts:
+- claim: Its Department of Intelligent Systems is listed as a CAMBioMed partner.
+  url: https://www.biodiversa.eu/2024/04/15/cambiomed/
+  fetched: &id001 2026-10-31
+  quote: Department of Intelligent Systems, Delft University of Technology, Delft, Netherlands
+- claim: Runs the BioMorphic Intelligence Lab among its AI labs.
+  url: https://www.tudelft.nl/en/ai/biomorphic-intelligence-lab
+  fetched: '2026-10-31'
+  quote: 'TU Delft AI Lab: BioMorphic Intelligence Lab'
+- claim: The lab says bio-inspired brain-like models can lower computational load for drones.
+  url: https://www.tudelft.nl/en/ai/biomorphic-intelligence-lab
+  fetched: '2026-10-31'
+  quote: Bio-inspired, brain-like models from Neuromorphic AI can help lower the computational
+    load
+links:
+- type: partners-with
+  to: cambiomed
+  url: https://www.biodiversa.eu/2024/04/15/cambiomed/
+  fetched: *id001
+  quote: Department of Intelligent Systems, Delft University of Technology, Delft, Netherlands
+found_by:
+- link-from:cambiomed
+- checklist:3
+scope: nl
+added_by: agent
+checked: *id001
+also_known_as:
+- TU Delft
+- Delft University of Technology

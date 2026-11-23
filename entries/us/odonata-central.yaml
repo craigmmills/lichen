@@ -1,0 +1,32 @@
+id: odonata-central
+kind: programme
+name: Odonata Central
+scope: us
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+status: active
+website: https://www.odonatacentral.org/
+summary: Citizen science website recording dragonflies and damselflies in the Western Hemisphere,
+  with records checked by expert vetters.
+facts:
+- claim: Citizen science site for Odonata in the Western Hemisphere.
+  url: https://api.gbif.org/v1/organization/76591189-6f20-4784-8576-94eafe7a0aee/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: This citizen science web site is focused on expanding our understanding of the distribution,
+    biogeography, biodiversity, and identification of Odonata
+- claim: Experts review records.
+  url: https://api.gbif.org/v1/organization/76591189-6f20-4784-8576-94eafe7a0aee/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: An expert team of vetters reviews records
+links:
+- type: run-by
+  to: birds-in-the-hand-llc
+  url: https://www.odonatacentral.org/about/
+  fetched: '2026-10-30'
+  quote: Built and managed by Birds in the Hand, LLC
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,35 @@
+id: british-lichen-society
+kind: organisation
+name: British Lichen Society
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: http://www.britishlichensociety.org.uk
+summary: Society that keeps the BLS lichen database and publishes its records on GBIF.
+facts:
+- claim: Publishes dot maps from its database.
+  url: https://britishlichensociety.org.uk/recording-mapping/using-bls-records
+  fetched: '2026-10-30'
+  quote: Dot maps for all the lichens and lichenicolous fungi for which there are records
+    in the BLS database
+- claim: Publishes the dataset "Lichen and lichenicolous fungi records held by BLS" on GBIF.
+  url: https://api.gbif.org/v1/organization/90da406e-9e67-4830-a480-befef56beedb/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Lichen and lichenicolous fungi records held by BLS
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/90da406e-9e67-4830-a480-befef56beedb/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

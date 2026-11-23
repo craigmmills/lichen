@@ -1,0 +1,34 @@
+id: miljodata-mvm
+kind: dataset
+name: Miljödata MVM
+scope: se
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+status: active
+website: https://www.slu.se/miljoanalys/statistik-och-miljodata/miljodatakatalogen/miljodata-mvm/
+summary: Web service for land, water and environmental data from two SLU data host
+  assignments, covering agricultural land and lakes and watercourses, including national
+  and regional monitoring water chemistry and biological data.
+facts:
+- claim: A web service for land, water and environmental data from two SLU data host
+    assignments, agricultural land and lakes and watercourses.
+  url: https://www.slu.se/miljoanalys/statistik-och-miljodata/miljodatakatalogen/miljodata-mvm/
+  fetched: '2026-11-08'
+  quote: Miljödata MVM är en webbtjänst för mark-, vatten- och miljödata, som används
+    för att tillgängliggöra data från två av SLU:s datavärdskap, Jordbruksmark samt
+    Sjöar och vattendrag.
+- claim: The lakes and watercourses data host covers water chemistry and biological
+    data from national and regional monitoring, recipient control and municipal monitoring.
+  url: https://www.slu.se/miljoanalys/statistik-och-miljodata/miljodatakatalogen/miljodata-mvm/
+  fetched: '2026-11-08'
+  quote: Datavärdskapet för sjöar och vattendrag omfattar vattenkemiska och biologiska
+    data som samlats in inom nationell och regional miljöövervakning, recipientkontroll,
+    egenkontroll och kommunal övervakning.
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

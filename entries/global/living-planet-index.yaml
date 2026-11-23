@@ -1,0 +1,38 @@
+id: living-planet-index
+kind: dataset
+name: Living Planet Index
+also_known_as:
+- LPI
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.livingplanetindex.org
+summary: Measure of the state of biological diversity based on population trends of vertebrate species, and an indicator in the Kunming-Montreal Global Biodiversity Framework.
+facts:
+- claim: Based on population trends of vertebrate species.
+  url: https://www.livingplanetindex.org/
+  fetched: '2026-10-30'
+  quote: is a measure of the state of the world's biological diversity based on population trends of vertebrate species
+- claim: Portal holds data on 5790 species and 35803 populations.
+  url: https://www.livingplanetindex.org/
+  fetched: '2026-10-30'
+  quote: 5790 species and 35803 populations
+links:
+- type: run-by
+  to: zoological-society-of-london
+  url: https://en.wikipedia.org/wiki/World_Wide_Fund_for_Nature
+  fetched: '2026-10-30'
+  quote: "WWF publishes the Living Planet Index in collaboration with the Zoological Society of London ."
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://www.livingplanetindex.org/
+  fetched: '2026-10-30'
+  quote: © Zoological Society of London and WWF 2026
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

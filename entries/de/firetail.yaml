@@ -1,0 +1,49 @@
+id: firetail
+kind: project
+name: Firetail
+scope: de
+ai_label: ai
+techniques:
+- other
+status: active
+website: https://www.firetail.de
+summary: Desktop application built by Schäuffelhut Berger for visualising and annotating
+  tagged animal movement data, with a machine learning behaviour-labelling module,
+  connecting to Movebank and described by its developers as successor to the Movebank
+  Acceleration Viewer.
+facts:
+- claim: A desktop application for visualising and annotating movement data from tagged
+    wild animals.
+  url: https://www.firetail.de
+  fetched: 2026-11-22
+  quote: Firetail is a desktop application that lets you load GPS, acceleration, and
+    sensor data from tagged wild animals, visualize their movements on interactive
+    maps, and annotate behavior patterns at scale.
+- claim: Includes a machine learning module for labelling behaviour patterns.
+  url: https://www.firetail.de
+  fetched: 2026-11-22
+  quote: Label behavior patterns with FireSOM, Firetail's ML module.
+- claim: Connects to Movebank and imports data from tag manufacturers.
+  url: https://www.firetail.de
+  fetched: 2026-11-22
+  quote: Link your Movebank account or import tag data files directly from e-obs,
+    Technosmart, and other manufacturers.
+- claim: Is the successor to the Movebank Acceleration Viewer, according to its developers.
+  url: https://www.firetail.de/company/about-us/
+  fetched: 2026-11-22
+  quote: Movebank today names Firetail as its successor
+links:
+- type: built-by
+  to: schaeuffelhut-berger
+  url: https://www.firetail.de/company/about-us/
+  fetched: 2026-11-22
+  quote: we at Schäuffelhut Berger develop Firetail
+- type: uses
+  to: movebank
+  url: https://www.firetail.de
+  fetched: 2026-11-22
+  quote: Connected to Movebank
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

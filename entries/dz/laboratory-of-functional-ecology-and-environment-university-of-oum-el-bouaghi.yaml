@@ -1,0 +1,44 @@
+id: laboratory-of-functional-ecology-and-environment-university-of-oum-el-bouaghi
+kind: organisation
+name: Laboratory of Functional Ecology and Environment, Larbi Ben M'hidi University
+  of Oum El Bouaghi
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: Oum El Bouaghi university laboratory affiliated with the first author of
+  a 2025 paper assessing Zouagha Forest vegetation dynamics from 2000 to 2020, with
+  NDVI among the indices analysed.
+facts:
+- claim: Affiliation of the first author of the 2025 Zouagha Forest vegetation dynamics
+    paper.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4401365089|W4316095863|W7108465390|W4412933321&select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Laboratory of Functional Ecology and Environment, Department of Nature and
+    Life Sciences, Faculty of Exact Sciences, Nature and Life Sciences
+- claim: The paper's title names a spatio-temporal assessment of vegetation dynamics
+    in the Zouagha Forest from 2000 to 2020.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4401365089|W4316095863|W7108465390|W4412933321&select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Spatio-Temporal Assessment of Vegetation Dynamics in the Zouagha Forest,
+    Northeastern Algeria (2000-2020)
+- claim: The abstract names the Normalized Difference Vegetation Index among the vegetation
+    indices analysed.
+  url: https://api.openalex.org/works/W4412933321?select=display_name,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"(Normalized":[47],"Difference":[48],"Vegetation":[49,53,58],"Index),":[50,54,59]'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,44 @@
+id: morris-kahn-marine-research-station-database
+kind: dataset
+name: Morris Kahn Marine Research Station database
+scope: il
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- bioacoustics
+countries:
+- il
+status: active
+summary: A downloadable long-term ecological research dataset from the Morris Kahn
+  Marine Research Station, split into five sub-divisions and including moored acoustic
+  records of dolphin and toothed whale presence along Israel's Mediterranean coast.
+facts:
+- claim: The station offers its long-term ecological research data for download, divided
+    into five sub-divisions.
+  url: https://med-lter.haifa.ac.il/data-base/
+  fetched: 2026-11-12
+  quote: 'The station has divided its prescient research into five sub-divisions:
+    Apex predators , Water chemistry , Rocky reefs , , Fish pathogens ,and Sediment
+    microbiome .'
+- claim: Users are asked to credit the data as data from the station.
+  url: https://med-lter.haifa.ac.il/data-base/
+  fetched: 2026-11-12
+  quote: Data from the Morris Kahn Marine Research Station
+- claim: Its coastal dolphin data give presence or absence of toothed whales and dolphins
+    along Israel's Mediterranean coast from moored acoustic receivers.
+  url: https://med-lter.haifa.ac.il/dolphin-survey/
+  fetched: 2026-11-12
+  quote: Presence/absence data of toothed whales or dolphins along Israel’s Mediterranean
+    coast.
+links:
+- type: run-by
+  to: morris-kahn-marine-research-station
+  url: https://med-lter.haifa.ac.il/data-base/
+  fetched: 2026-11-12
+  quote: To download from our database, please scroll down and wait for the page to
+    upload up to 10 seconds
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

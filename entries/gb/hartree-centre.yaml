@@ -1,0 +1,46 @@
+id: hartree-centre
+kind: organisation
+name: STFC Hartree Centre
+scope: gb
+sector: government
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: gb
+scale: national
+status: active
+website: https://www.hartree.stfc.ac.uk
+summary: UK computing centre that worked with IBM, Plymouth Marine Laboratory and the University
+  of Exeter on foundation models for marine satellite data.
+facts:
+- claim: Investigated how geospatial foundation models can be adapted to new satellite missions.
+  url: https://www.hartree.stfc.ac.uk/case-studies/2026/07/20/improving-marine-environmental-monitoring-with-ai/
+  quote: we investigated how geospatial foundation models can be adapted to new satellite
+    missions
+  ai_type: foundation-models
+  fetched: 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.hartree.stfc.ac.uk/
+  quote: WA4 4AD
+  fetched: 2026-10-30
+- claim: Hugging Face's model card says IBM and STFC jointly developed granite-geospatial-ocean.
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: The granite-geospatial-ocean foundation model was jointly developed by IBM and STFC
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: partners-with
+  to: granite-geospatial-ocean
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: This work was supported by the Hartree National Centre for Digital Innovation, a
+    collaboration between STFC and IBM.
+  fetched: '2026-10-31'

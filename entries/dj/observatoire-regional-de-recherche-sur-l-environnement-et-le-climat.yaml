@@ -1,0 +1,53 @@
+id: observatoire-regional-de-recherche-sur-l-environnement-et-le-climat
+kind: organisation
+name: Observatoire Régional de Recherche sur l'Environnement et le Climat
+also_known_as:
+- ORREC
+scope: dj
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+hq: dj
+countries:
+- dj
+scale: regional
+status: active
+summary: Regional environment and climate research body, created in 2022 under CERD's
+  supervision according to HCERES, and named as affiliation on a 2026 paper on mangrove
+  dieback and recovery at Godorya.
+facts:
+- claim: HCERES reports that ORREC was created in 2022 under the supervision of CERD.
+  url: https://hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/D2025-EV-0990085I-DEI-ETAB250024682-RD.pdf
+  fetched: 2026-11-12
+  quote: placé sous la tutelle du CERD, a été créé en 2022
+- claim: The first and corresponding author of a 2026 paper on mangrove dieback and
+    recovery at Godorya Marine Protected Area gives ORREC, CERD, Djibouti City, as
+    affiliation.
+  url: https://api.openalex.org/works/W7155740646?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: Environnement et le Climat (ORREC), Centre d'Etudes et de Recherches de Djibouti
+    (CERD)
+- claim: The paper is titled Long term mangrove dieback and recovery at Godorya Marine
+    Protected Area in the Gulf of Aden under climate variability.
+  url: https://api.openalex.org/works/W7155740646?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: Long term mangrove dieback and recovery at Godorya Marine Protected Area
+    in the Gulf of Aden under climate variability
+- claim: OpenAlex tags the paper with the keywords NDVI and mangrove cover change.
+  url: https://api.openalex.org/works/W7155740646?select=id,keywords,concepts
+  fetched: 2026-11-12
+  quote: '"display_name":"mangrove cover change"'
+links:
+- type: run-by
+  to: centre-d-etudes-et-de-recherches-de-djibouti
+  url: https://hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/D2025-EV-0990085I-DEI-ETAB250024682-RD.pdf
+  fetched: 2026-11-12
+  quote: placé sous la tutelle du CERD, a été créé en 2022
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

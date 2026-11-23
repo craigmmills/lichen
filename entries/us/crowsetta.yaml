@@ -1,0 +1,36 @@
+id: crowsetta
+kind: programme
+name: crowsetta
+scope: us
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+status: unknown
+runner: unknown
+website: https://crowsetta.readthedocs.io/en/latest/index.html
+summary: Python tool for working with animal sound annotation formats, with built-in
+  support for Audacity, Praat and Raven, and conversion of annotations into formats
+  for training machine learning models.
+facts:
+- claim: A Python tool for working with any format used to annotate animal sounds
+    and bioacoustics data.
+  url: https://crowsetta.readthedocs.io/en/latest/index.html
+  fetched: 2026-11-21
+  quote: A Python tool to work with any format for annotating animal sounds and bioacoustics
+    data.
+- claim: Has built-in support for Audacity, Praat and Raven annotation formats.
+  url: https://crowsetta.readthedocs.io/en/latest/index.html
+  fetched: 2026-11-21
+  quote: crowsetta has built-in support for many widely used formats
+- claim: Can convert annotations into the format needed to train machine learning
+    models.
+  url: https://crowsetta.readthedocs.io/en/latest/index.html
+  fetched: 2026-11-21
+  quote: Convert your annotations into a format that's needed to train machine learning
+    models
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

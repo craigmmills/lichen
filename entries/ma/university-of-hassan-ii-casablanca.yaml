@@ -1,0 +1,46 @@
+id: university-of-hassan-ii-casablanca
+kind: organisation
+name: University of Hassan II Casablanca
+scope: ma
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+hq: ma
+countries: []
+scale: national
+status: active
+summary: Moroccan university, listed in OpenAlex, with affiliated papers on machine learning
+  for mining-induced vegetation change (2024) and a 2026 paper on automatic video annotation
+  of coral taxa with YOLOv11.
+facts:
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "http://www.univh2c.ma/", "country_code": "MA"'
+- claim: OpenAlex lists a 2024 paper with Oussama Himmy as first author, affiliated with University
+    of Hassan II Casablanca, on machine learning and Landsat time series for mapping mining-induced
+    vegetation changes.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Leveraging machine learning and Landsat time series for high-resolution mapping of
+    mining-induced vegetation changes in Ouagadougou, Burkina Faso
+- claim: OpenAlex lists a 2026 paper with Ali Loulidi as first author, affiliated with University
+    of Hassan II Casablanca and the Institut National de Recherche Halieutique, on automatic
+    video annotation of coral taxa with YOLOv11.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: Using AI computer vision algorithm (YOLOv11) for automatic video annotation of coral
+    taxa on the Moroccan Atlantic Coast
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

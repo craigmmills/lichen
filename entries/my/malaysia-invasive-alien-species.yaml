@@ -1,0 +1,46 @@
+id: malaysia-invasive-alien-species
+kind: dataset
+name: Malaysia Invasive Alien Species
+also_known_as:
+- MyIAS
+scope: my
+ai_label: data-infrastructure
+status: active
+runner: unknown
+realms:
+- land
+- freshwater
+countries:
+- my
+website: https://www.mybis.gov.my/ias/
+summary: A portal powered by MyBIS offering a list of invasive species and the National
+  Action Plan on Invasive Alien Species 2021-2025, carrying two ministries' copyright.
+facts:
+- claim: Its site offers a list of invasive species and the National Action Plan on
+    Invasive Alien Species 2021-2025.
+  url: https://www.mybis.gov.my/ias/
+  fetched: '2026-11-12'
+  quote: National Action Plan on Invasive Alien Species 2021-2025
+- claim: The site carries the copyright of the Ministry of Agriculture and Food Security
+    and the Ministry of Natural Resources and Environmental Sustainability.
+  url: https://www.mybis.gov.my/ias/
+  fetched: '2026-11-12'
+  quote: Copyright © 2026, Malaysia Invasive Alien Species (MyIAS), Ministry of Agriculture
+    and Food Security, and Ministry of Natural Resources and Environmental Sustainability,
+    Malaysia
+- claim: The portal is powered by MyBIS, Malaysia's national clearing-house mechanism
+    for biodiversity information.
+  url: https://www.mybis.gov.my/ias/
+  fetched: '2026-11-12'
+  quote: Malaysia Biodiversity Information System (MyBIS) is a National Clearing-House
+    Mechanism (CHM)
+links:
+- type: uses
+  to: mybis
+  url: https://www.mybis.gov.my/ias/
+  fetched: '2026-11-12'
+  quote: powered by MyBIS
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

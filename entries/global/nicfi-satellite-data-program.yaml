@@ -1,0 +1,48 @@
+id: nicfi-satellite-data-program
+kind: programme
+name: NICFI Satellite Data Program
+scope: global
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+scale: global
+status: active
+website: https://www.nicfi.no/current/nicfi-satellite-data-program/
+summary: Norwegian-funded programme giving free access to monthly high-resolution satellite images of the tropics, with data back to 2015. In January 2025 NICFI said the contract period was ending and that it was developing a new phase.
+facts:
+- claim: Images of tropical land masses are updated every month and anyone can access them free of charge.
+  url: https://www.nicfi.no/?p=13115
+  quote: The high-resolution satellite images provide an overview of tropical land masses, and these images are updated every month. Anyone can access this data free of charge.
+  fetched: &id001 2026-10-30
+- claim: The contract period was due to end on 23 January, with a new phase under development and level 0 and 1 access temporarily extended by Planet and KSAT.
+  url: https://www.nicfi.no/current/nicfi-satellite-data-program/
+  quote: Access for level 0 and 1 data will be temporarily extended by Planet and KSAT free of charge.
+  fetched: *id001
+- claim: 'Gives free access to satellite mosaics.'
+  url: https://www.nicfi.no/current/nicfi-satellite-data-program/
+  fetched: 2026-10-30
+  quote: 'extend the free access for level 1 mosaics'
+links:
+- type: run-by
+  to: norways-international-climate-and-forest-initiative
+  url: https://www.nicfi.no/current/nicfi-satellite-data-program/
+  quote: "NICFI is developing a new phase of the Satellite Data Program"
+  fetched: *id001
+- type: partners-with
+  to: planet-labs
+  url: https://www.nicfi.no/?p=13115
+  quote: entered into a contract with Kongsberg Satellite Services (KSAT) and its partners Airbus and Planet
+  fetched: *id001
+- type: partners-with
+  to: kongsberg-satellite-services
+  url: https://www.nicfi.no/?p=13115
+  quote: entered into a contract with Kongsberg Satellite Services (KSAT) and its partners Airbus and Planet
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

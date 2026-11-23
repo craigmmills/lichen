@@ -1,0 +1,35 @@
+id: gbif-sierra-leone
+kind: programme
+name: GBIF Sierra Leone
+scope: sl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- sl
+status: active
+runner: unknown
+summary: GBIF node for Sierra Leone, listed as an associate country participant, whose node record was
+  created in March 2022.
+facts:
+- claim: GBIF lists Sierra Leone as an associate country participant with the node GBIF Sierra Leone.
+  url: https://api.gbif.org/v1/node/b6f5a2c1-c54b-48d9-9766-7c1a17eb633a
+  fetched: 2026-11-12
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Sierra
+    Leone"'
+- claim: The node record was created in March 2022.
+  url: https://api.gbif.org/v1/node/b6f5a2c1-c54b-48d9-9766-7c1a17eb633a
+  fetched: 2026-11-12
+  quote: '"created":"2022-03-30T05:34:22.321+00:00"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/b6f5a2c1-c54b-48d9-9766-7c1a17eb633a
+  fetched: 2026-11-12
+  quote: '"type":"GBIF_PARTICIPANT"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

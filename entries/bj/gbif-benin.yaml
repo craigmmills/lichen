@@ -1,0 +1,102 @@
+id: gbif-benin
+kind: programme
+name: GBIF Benin
+also_known_as:
+- GBIF Bénin
+- Point nodal du Bénin
+scope: bj
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- bj
+status: active
+runner: unknown
+website: http://www.gbifbenin.org/
+summary: Benin's GBIF country node, based at the Université d'Abomey-Calavi, led by Jean Cossi
+  Ganglo, which provided the platform for the Benin NBIS and trained members of GBIF Nigeria
+  in December 2018.
+facts:
+- claim: GBIF's directory lists the node as GBIF Benin, with Benin as a voting participant.
+  url: https://api.gbif.org/v1/node/country/BJ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Benin"'
+- claim: The node's own site says its mission is to help data holders make use of the data
+    they hold.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: Les Missions du GBIF Benin sont de permettre aux fournisseurs de données de valoriser
+    les données qu'ils possèdent
+- claim: The node's site gives its address at the Université d'Abomey-Calavi, Faculty of Agricultural
+    Sciences.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: GBIF Benin ● Université d'Abomey-Calavi, Faculté des Sciences Agronomiques ● BP 1493
+    – Calavi – Benin
+- claim: A 2014 JRS release said GBIF Benin, led by Professor Ganglo, provided the platform
+    for the Benin NBIS.
+  url: https://jrsbiodiversity.org/benin-and-tulane-grant-announcement/
+  fetched: 2026-11-08
+  quote: The Global Biodiversity Information Facility of Benin ( GBIF Benin ), led by Professor
+    Ganglo, provides the platform for the Benin NBIS.
+- claim: GBIF lists Benin as a voting participant with GBIF Benin as its country node.
+  url: https://api.gbif.org/v1/node/efb9c00e-f802-45dd-8826-a52ec45b89ff
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Benin"'
+- claim: The node's address is the Faculty of Agricultural Sciences, University of Abomey-Calavi.
+  url: https://api.gbif.org/v1/node/efb9c00e-f802-45dd-8826-a52ec45b89ff
+  fetched: 2026-11-08
+  quote: '"homepage":["http://www.gbifbenin.org/"],"address":["University of Abomey-Calavi,\nFaculty
+    of Agricultural Sciences'
+- claim: Its site announced a master's degree in biodiversity informatics at the Faculty of
+    Agronomic Sciences, University of Abomey-Calavi.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: Master en biodiversité informatique / Faculté des Sciences Agronomiques / Université
+    D'Abomey-Calavi / BENIN
+- claim: Its site links to a GBIF Benin data portal.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: Consulter Accès au portail du GBIF Bénin
+- claim: In December 2018 GBIF Benin trained members of GBIF Nigeria.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: Du 10 décembre au 14 décembre 2018, les membres du GBIF NIGERIA sont venus se faire
+    former par ceux du GBIF BENIN.
+- claim: Benin is a voting participant in GBIF, with GBIF Benin as its country node.
+  url: https://api.gbif.org/v1/node/efb9c00e-f802-45dd-8826-a52ec45b89ff
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"VOTING"'
+- claim: The node's site describes itself as Benin's nodal point and offers access to a GBIF
+    Benin portal.
+  url: http://www.gbifbenin.org/
+  fetched: '2026-11-08'
+  quote: Accès au portail du GBIF Bénin
+- claim: In December 2018 members of GBIF Nigeria came to be trained by GBIF Benin.
+  url: http://www.gbifbenin.org/
+  fetched: '2026-11-08'
+  quote: les membres du GBIF NIGERIA sont venus se faire former par ceux du GBIF BENIN
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/BJ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Benin"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/efb9c00e-f802-45dd-8826-a52ec45b89ff
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- queue:bj
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

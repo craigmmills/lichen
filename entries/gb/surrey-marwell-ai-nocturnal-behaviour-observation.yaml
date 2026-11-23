@@ -1,0 +1,50 @@
+id: surrey-marwell-ai-nocturnal-behaviour-observation
+kind: project
+name: Surrey and Marwell AI nocturnal behaviour observation system
+ai_label: ai
+summary: Three-year partnership between the University of Surrey and Marwell Wildlife on AI
+  that reads night-time video to monitor zoo animal behaviour.
+facts:
+- claim: Develops a bespoke AI observation system.
+  url: https://www.eurekalert.org/news-releases/1129181
+  quote: to develop a bespoke AI nocturnal behaviour observation system that interprets video
+    footage and flags unusual behavioural patterns in animals
+  fetched: '2026-10-30'
+- claim: Bespoke AI nocturnal behaviour observation system for zoo animals.
+  url: https://www.surrey.ac.uk/news/artificial-intelligence-camera-platform-help-monitor-zoo-animals-welfare-new-surrey-marwell-wildlife
+  quote: to develop a bespoke AI nocturnal behaviour observation system
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: university-of-surrey
+  url: https://www.eurekalert.org/news-releases/1129181
+  quote: Professor Kevin Wells, from the University of Surrey’s Centre for Vision, Speech
+    and Signal Processing, and project lead at Surrey
+  fetched: '2026-10-30'
+- type: partners-with
+  to: marwell-wildlife
+  url: https://www.eurekalert.org/news-releases/1129181
+  quote: a new partnership between the University of Surrey and Marwell Wildlife
+  fetched: '2026-10-30'
+- type: run-by
+  to: university-of-surrey
+  url: https://www.surrey.ac.uk/news/artificial-intelligence-camera-platform-help-monitor-zoo-animals-welfare-new-surrey-marwell-wildlife
+  quote: Researchers from Surrey’s Centre for Vision, Speech and Signal Processing (CVSSP)
+    are working closely with Marwell
+  fetched: *id001
+- type: partners-with
+  to: marwell-wildlife
+  url: https://www.surrey.ac.uk/news/artificial-intelligence-camera-platform-help-monitor-zoo-animals-welfare-new-surrey-marwell-wildlife
+  quote: a new partnership between the University of Surrey and Marwell Wildlife
+  fetched: *id001
+found_by:
+- link-from:university-of-bristol
+- checklist:7
+realms:
+- land
+techniques:
+- computer-vision
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

@@ -1,0 +1,44 @@
+id: crestpent-ipb
+kind: organisation
+name: Center for Regional System, Analysis, Planning and Development, IPB University
+also_known_as:
+- CRESTPENT
+- P4W IPB
+scope: id
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: id
+scale: national
+status: active
+summary: IPB research centre whose authors applied deep learning to high-resolution satellite
+  images to map smallholder oil palm.
+facts:
+- claim: Paper title.
+  url: https://api.openalex.org/works/W4328039783?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: 'Mapping smallholder plantation as a key to sustainable oil palm: A deep learning
+    approach to high-resolution satellite'
+  ai_type: deep-learning
+- claim: Author affiliation.
+  url: https://api.openalex.org/works/W4328039783?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Center for Regional System, Analysis, Planning and Development, (P4W/CRESTPENT),
+    IPB University
+- claim: OpenAlex places IPB University in Bogor.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=IPB%20University
+  quote: '"display_name": "IPB University", "homepage_url": "https://www.ipb.ac.id", "geo":
+    {"city": "Bogor"'
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+website: https://p4w.ipb.ac.id/en/

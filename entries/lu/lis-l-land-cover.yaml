@@ -1,0 +1,47 @@
+id: lis-l-land-cover
+kind: dataset
+name: LIS-L Land Cover 2018, 2021, 2024
+also_known_as:
+- LIS-L LC
+scope: lu
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- lu
+status: active
+summary: Land cover dataset for 2018, 2021 and 2024 with changes between them, updated every three years,
+  whose 2024 map used semi-automatic classification and reached 91.44% overall validation accuracy.
+facts:
+- claim: Contains land cover for 2018, 2021 and 2024 and the changes between those years.
+  url: https://data.public.lu/en/datasets/lis-l-land-cover-2018-2021-2024/
+  fetched: 2026-11-08
+  quote: 'LC2018_2021_2024: Combined dataset with land cover data for 2018, 2021 and 2024, as well as
+    changes between the years.'
+- claim: Updated every three years.
+  url: https://data.public.lu/en/datasets/lis-l-land-cover-2018-2021-2024/
+  fetched: 2026-11-08
+  quote: Frequency Triennial
+- claim: The 2024 map was produced with a semi-automatic classification method.
+  url: https://download.data.public.lu/resources/lis-l-land-cover-2018-2021-2024/20260219-132124/landcover-2018-2021-2024-documentation.pdf
+  fetched: 2026-11-08
+  quote: The land cover map was produced using a robust semi-automatic classification methodology based
+    on
+- claim: The 2024 classification had an overall accuracy of 91.44% in validation.
+  url: https://download.data.public.lu/resources/lis-l-land-cover-2018-2021-2024/20260219-132124/landcover-2018-2021-2024-documentation.pdf
+  fetched: 2026-11-08
+  quote: The land cover validation results for the LC2024 classification show a robust overall accuracy
+    of 91.44%.
+links:
+- type: built-by
+  to: departement-de-lamenagement-du-territoire-luxembourg
+  url: https://data.public.lu/en/datasets/lis-l-land-cover-2018-2021-2024/
+  fetched: 2026-11-08
+  quote: Producer Ministère du Logement et de l'Aménagement du territoire - Département de l'aménagement
+    du territoire
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

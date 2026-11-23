@@ -1,0 +1,65 @@
+id: searching-for-the-lost-tooth-billed-pigeon
+kind: project
+name: Searching for the Lost Tooth-Billed Pigeon
+also_known_as: []
+scope: ws
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ws
+status: active
+summary: A project run by the Colossal Foundation with the Samoa Conservation Society
+  and BirdLife International, aiming to develop AI algorithms that detect tooth-billed
+  pigeon calls in audio from microphones deployed in Samoa's forests.
+facts:
+- claim: The Colossal Foundation says it is working with the Samoa Conservation Society,
+    BirdLife International and the IUCN SSC Pigeon and Dove Specialist Group to locate
+    the tooth-billed pigeon using AI-powered bioacoustic technology.
+  url: https://colossalfoundation.org/?p=254
+  fetched: 2026-11-14
+  quote: In partnership with the Samoa Conservation Society, BirdLife International,
+    and the IUCN SSC Pigeon and Dove Specialist Group, The Colossal Foundation is
+    working to locate the lost tooth-billed pigeon using AI-powered bioacoustic technology.
+- claim: The project aims to develop AI algorithms to detect and identify tooth-billed
+    pigeon calls captured on microphones deployed in Samoa's forests.
+  url: https://colossalfoundation.org/?p=254
+  fetched: 2026-11-14
+  quote: This project aims to develop AI algorithms to detect and identify tooth-billed
+    pigeon calls captured on microphones deployed on the forests of Samoa.
+- claim: The foundation says audio from the microphones will be analysed with machine
+    learning algorithms to identify the pigeon's calls; a 2025 arXiv preprint funded
+    by Colossal Biosciences describes the classification pipeline, which lets users
+    train and deploy classifiers for a chosen bird species.
+  url: https://arxiv.org/html/2504.16276v1
+  fetched: 2026-11-14
+  quote: allowing conservationists and researchers to easily train and deploy new
+    classifiers for their bird species of interest
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: colossal-foundation
+  url: https://colossalfoundation.org/?p=254
+  fetched: 2026-11-14
+  quote: The Colossal Foundation is working to locate the lost tooth-billed pigeon
+    using AI-powered bioacoustic technology.
+- type: partners-with
+  to: samoa-conservation-society
+  url: https://colossalfoundation.org/?p=254
+  fetched: 2026-11-14
+  quote: In partnership with the Samoa Conservation Society, BirdLife International,
+    and the IUCN SSC Pigeon and Dove Specialist Group
+- type: partners-with
+  to: birdlife-international
+  url: https://colossalfoundation.org/?p=254
+  fetched: 2026-11-14
+  quote: In partnership with the Samoa Conservation Society, BirdLife International,
+    and the IUCN SSC Pigeon and Dove Specialist Group
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

@@ -1,0 +1,73 @@
+id: guyra-paraguay
+kind: organisation
+name: Guyra Paraguay
+also_known_as:
+- Asociación Guyra Paraguay Conservación de Aves
+scope: py
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: py
+countries: []
+scale: national
+status: active
+website: https://guyra.org.py/
+summary: Paraguayan non-profit protecting biodiversity, reported in September 2020 to have launched an
+  AI-based Gran Chaco deforestation tracker, and listed among affiliations on a 2023 camera-trap jaguar
+  density paper.
+facts:
+- claim: Its IUCN member page describes it as a non-profit civil society organisation working to defend
+    and protect Paraguay's biological diversity.
+  url: https://iucn.org/node/34406
+  fetched: 2026-11-12
+  quote: La Asociación GUYRA PARAGUAY es una organización de la sociedad civil sin fines de lucro que
+    trabaja en la defensa y protección de la diversidad biológica de nuestro país
+- claim: IUCN NL reported in September 2020 that Guyra Paraguay had launched an automated, AI-based system
+    tracking deforestation in the Gran Chaco.
+  url: https://www.iucn.nl/en/story/artificial-intelligence-helps-conservationists-tackle-deforestation/
+  fetched: 2026-11-12
+  quote: IUCN NL partner organization Guyra Paraguay recently launched an automated monitoring system
+    that tracks deforestation in the Gran Chaco.
+- claim: The September 2020 article says the system compared satellite images with public permit information
+    to identify illegal deforestation.
+  url: https://www.iucn.nl/en/story/artificial-intelligence-helps-conservationists-tackle-deforestation/
+  fetched: 2026-11-12
+  quote: The new system, which is based on Artificial Intelligence (AI), automatically compares satellite
+    images to public information about permits to identify illegal deforestation.
+- claim: Paraguay's 2024 national report to the Convention on Migratory Species describes it as a non-governmental
+    organisation carrying out monitoring.
+  url: https://www.cms.int/sites/default/files/document/CMS%20INFORME%20%20%20FINAL%202024%20%20%20COP%2014.pdf
+  fetched: 2026-11-12
+  quote: La Asociación Guyra Paraguay, una organización no gubernamental, viene realizando el monitoreo
+- claim: Its GBIF publisher record gives an address in Asunción and the website guyra.org.py.
+  url: https://api.gbif.org/v1/organization?country=PY&limit=50
+  fetched: 2026-11-12
+  quote: '"homepage":["https://guyra.org.py/"],"logoUrl":"https://i1.wp.com/guyra.org.py/wp-content/uploads/2016/03/logo-nuevo.png?w=750&ssl=1","address":["Av.
+    Carlos Bóveda"],"city":"Asunción"'
+- claim: OpenAlex records a 2023 paper using camera-trap data to estimate jaguar density in the Paraguayan
+    Dry Chaco, whose first author lists Guyra Paraguay among his affiliations.
+  url: https://api.openalex.org/works/W4388112932?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Using Camera-Trap Data to Simultaneously Estimate Jaguar (Panthera onca) Density and Resource
+    Selection in the Paraguayan Dry Chaco
+- claim: OpenAlex lists Guyra Paraguay as a nonprofit institution with its own ROR identifier among the
+    paper's affiliations.
+  url: https://api.openalex.org/works/W4388112932?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: '"display_name":"Guyra Paraguay","ror":"https://ror.org/01v7fn691","country_code":"PY","type":"nonprofit"'
+links:
+- type: partners-with
+  to: iucn-national-committee-of-the-netherlands
+  url: https://www.iucn.nl/en/story/artificial-intelligence-helps-conservationists-tackle-deforestation/
+  fetched: 2026-11-12
+  quote: IUCN NL partner organization Guyra Paraguay recently launched an automated monitoring system
+    that tracks deforestation in the Gran Chaco.
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-12

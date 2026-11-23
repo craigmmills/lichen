@@ -1,0 +1,99 @@
+id: wwf-malaysia
+kind: organisation
+name: WWF-Malaysia
+also_known_as:
+- World Wide Fund for Nature Malaysia
+scope: my
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+- unknown
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+hq: my
+countries:
+- my
+scale: national
+status: active
+website: https://www.wwf.org.my/
+summary: Conservation trust and tax-exempt non-profit established in 1972 and part of WWF,
+  which relies on camera traps for surveys and, per WWF-UK, is piloting deep learning for
+  orang-utan nest detection in Sabah.
+facts:
+- claim: Registered as a conservation trust and tax-exempt non-profit approved by Malaysia's
+    Inland Revenue Board.
+  url: https://www.wwf.org.my/ourwork/our_research/
+  fetched: 2026-11-03
+  quote: WWF-Malaysia (World Wide Fund for Nature, Malaysia) is a conservation trust and a
+    tax-exempt non-profit organization approved by the Inland Revenue Board of Malaysia
+- claim: Camera traps are its main method for scientific surveys.
+  url: https://www.wwf.org.my/ourwork/our_research/
+  fetched: 2026-11-03
+  quote: main method of carrying out scientific surveys is with the use of camera-traps
+- claim: Established in 1972 and part of WWF.
+  url: https://www.wwf.org.my/our_work/
+  quote: Established in 1972, WWF-Malaysia is part of WWF, the international conservation
+    organisation.
+  fetched: 2026-11-03
+- claim: A conservation trust and tax-exempt non-profit.
+  url: https://www.wwf.org.my/our_work/
+  quote: WWF-Malaysia (World Wide Fund for Nature, Malaysia) is a conservation trust and a
+    tax-exempt non-profit organization
+  fetched: 2026-11-03
+- claim: Uses camera traps to study Bornean banteng.
+  url: https://www.wwf.org.my/sabahlandscapes/our_work/species/borneanbanteng
+  quote: WWF-Malaysia uses special motion-activated cameras, called camera traps, placed in
+    forests where bantengs are known to roam.
+  fetched: 2026-11-03
+- claim: Its main method for scientific surveys of tigers is the camera trap.
+  url: https://www.wwf.org.my/ourwork/our_research/
+  fetched: 2026-11-03
+  quote: WWF-Malaysia’s main method of carrying out scientific surveys is with the use of
+    camera-traps
+- claim: WWF-UK says the team in Sabah is piloting deep learning models for automatic nest
+    detection.
+  url: https://www.wwf.org.uk/what-we-do/projects/counting-canopy
+  fetched: 2026-11-03
+  quote: the team in Sabah is piloting the use of computer vision and deep learning models
+    to help with automatic nest detection from aerial images
+  ai_type: deep-learning
+links:
+- type: builds
+  to: orang-utan-nest-ai-sabah
+  url: https://www.thestar.com.my/news/nation/2023/08/19/counting-on-ai-to-keep-tabs-on-orang-utan-numbers
+  fetched: 2026-11-03
+  quote: WWF Malaysia and Universiti Malaysia Sabah (UMS) are working together to create an
+    AI technology
+- type: run-by
+  to: world-wide-fund-for-nature
+  url: https://www.wwf.org.my/our_work/
+  quote: WWF-Malaysia is part of WWF, the international conservation organisation.
+  fetched: 2026-11-03
+- type: partners-with
+  to: sabah-wildlife-department
+  url: https://www.wwf.org.my/sabahlandscapes/our_work/species/borneanbanteng
+  quote: In partnership with the Sabah Wildlife Department and others, we contributed to the
+    development of the Banteng Action Plan 2019–2028
+  fetched: 2026-11-03
+- type: leads
+  to: counting-in-the-canopy
+  url: https://www.wwf.org.uk/what-we-do/projects/counting-canopy
+  fetched: 2026-11-03
+  quote: In Sabah, a pioneering project led WWF-Malaysia may help to better protect critically
+    endangered orangutans
+found_by:
+- checklist:4
+- link-from:world-wide-fund-for-nature
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

@@ -1,0 +1,59 @@
+id: satbaltyk
+kind: project
+name: SatBałtyk
+also_known_as:
+- Satellite Environment Control of the Baltic Sea
+- Satelitarna Kontrola Środowiska Morza Bałtyckiego
+scope: pl
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- pl
+status: unknown
+runner: unknown
+summary: Project led by the Institute of Oceanology PAS that, per a 2015 brochure, ran from 2010 to 2015
+  and produced an operational satellite monitoring system for the Baltic environment.
+facts:
+- claim: Its goal was routine determination of the state of the Baltic environment.
+  url: https://catalogue.odis.org/view/94
+  fetched: '2026-11-02'
+  quote: enabling efficient, routine determination of the states of the Baltic environment
+- claim: The Institute of Oceanology invited three other research teams.
+  url: https://catalogue.odis.org/view/94
+  fetched: '2026-11-02'
+  quote: the Institute of Oceanology of the Polish Academy of Sciences (IO PAN) invited research teams
+- claim: The portal lists sea surface temperature and chlorophyll a among its layers.
+  url: https://www.satbaltyk.pl/
+  fetched: '2026-11-02'
+  quote: Temperatura powierzchni morza Chlorofil a Produkcja pierwotna
+- claim: The Institute of Oceanology links to it from its home page.
+  url: https://www.iopan.pl/
+  fetched: '2026-11-02'
+  quote: Wejście do systemu Satbałtyk
+- claim: A 2015 brochure describes SatBałtyk as a 2010–2015 project that produced an operational system
+    for satellite monitoring of the Baltic environment.
+  url: https://wm.umg.edu.pl/sites/default/files/zalaczniki/broszurasatbaltyk_1.pdf
+  quote: 'i wdrożenie go jest rezultatem końcowym projektu realizowa nego w latach
+
+    2010–2015 przez Konsorcjum SatBałtyk.'
+  fetched: '2026-11-02'
+links:
+- type: partners-with
+  to: institute-of-oceanology-polish-academy-of-sciences
+  url: https://catalogue.odis.org/view/94
+  fetched: '2026-11-02'
+  quote: an agreement was concluded to create the SatBałtyk Scientific Consortium
+- type: led-by
+  to: institute-of-oceanology-polish-academy-of-sciences
+  url: https://wm.umg.edu.pl/sites/default/files/zalaczniki/broszurasatbaltyk_1.pdf
+  quote: PAN w Sopocie (koordynatora)
+  fetched: '2026-11-02'
+found_by:
+- checklist:7
+- link-from:institute-of-oceanology-pas
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

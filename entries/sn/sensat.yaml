@@ -1,0 +1,55 @@
+id: sensat
+kind: programme
+name: SENSAT
+also_known_as:
+- GAINDESAT
+- SENSAT
+scope: sn
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- sn
+status: active
+summary: Senegal’s national satellite programme. Its CubeSat GAINDESAT-1A, launched in August
+  2024, collected environmental data and imagery, and a second satellite, GAINDESAT-1B, is
+  planned.
+facts:
+- claim: GAINDESAT-1A collects environmental data and imagery for natural resource management.
+  url: https://spaceinafrica.com/2026/02/02/senegal-to-expand-space-capabilities-with-gaindesat-1b-launch-in-2026/
+  fetched: '2026-10-31'
+  quote: The 1U CubeSat collects environmental data and imagery supporting natural resource
+    management, territorial monitoring, and climate observation.
+- claim: GAINDESAT-1B was announced for 2026.
+  url: https://spaceinafrica.com/2026/02/02/senegal-to-expand-space-capabilities-with-gaindesat-1b-launch-in-2026/
+  fetched: '2026-10-31'
+  quote: Senegal plans to launch its second satellite, GAINDESAT-1B , in 2026
+- claim: A second data collection buoy was placed on Lac de Guiers on 30 August 2025.
+  url: https://www.rts.sn/actualite/detail/a-la-une/sensat-installe-une-nouvelle-balise-au-lac-de-guiers-pour-mieux-surveiller-leau
+  fetched: '2026-10-31'
+  quote: une deuxième balise de collecte de données a été déployée au Lac de Guiers
+- claim: The buoys are designed by Senegalese engineers and linked to GAINDESAT-1A.
+  url: https://www.rts.sn/actualite/detail/a-la-une/sensat-installe-une-nouvelle-balise-au-lac-de-guiers-pour-mieux-surveiller-leau
+  fetched: '2026-10-31'
+  quote: sont reliés au satellite GAINDESAT-1A
+- claim: RTS reports that SENSAT signed a memorandum with TerraKora AI, an Ivorian body that
+    works on satellite data with AI.
+  url: https://www.rts.sn/actualite/detail/a-la-une/espace-sensat-noue-un-partenariat-avec-une-structure-ivoirienne-specialisee-en-intelligence-artificielle
+  fetched: '2026-10-31'
+  quote: La structure sénégalaise a signé un protocole d’accord avec TerraKora AI
+links:
+- type: partners-with
+  to: office-des-lacs-et-cours-d-eau
+  url: https://www.rts.sn/actualite/detail/a-la-une/sensat-installe-une-nouvelle-balise-au-lac-de-guiers-pour-mieux-surveiller-leau
+  fetched: '2026-10-31'
+  quote: en partenariat avec l’Office des Lacs et Cours d’Eau
+found_by:
+- keyword:sn-b
+- checklist:7
+scale: national
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

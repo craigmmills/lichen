@@ -1,0 +1,34 @@
+id: treeoflife-10m
+kind: dataset
+name: TreeOfLife-10M
+scope: global
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://imageomics.github.io/bioclip/
+summary: Data set of 10 million biology images covering more than 450,000 species, combined from iNaturalist, BIOSCAN-1M and Encyclopedia of Life.
+facts:
+- claim: 10M images spanning 450K+ species.
+  url: https://imageomics.github.io/bioclip/
+  fetched: '2026-10-30'
+  quote: TreeOfLife-10M is the largest and most diverse available dataset of biology images.
+links:
+- type: run-by
+  to: imageomics-institute
+  url: https://github.com/Imageomics/bioclip
+  fetched: '2026-10-30'
+  quote: "Imageomics/bioclip: This is the repository for the BioCLIP model and the TreeOfLife-10M dataset"
+- type: builds-on
+  to: inaturalist
+  url: https://imageomics.github.io/bioclip/
+  fetched: '2026-10-30'
+  quote: We combine images from three sources, iNaturalist, BIOSCAN-1M, and Encyclopedia of Life
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

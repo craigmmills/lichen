@@ -1,0 +1,52 @@
+id: coastal-carbon
+kind: organisation
+name: Coastal Carbon
+scope: ca
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ca
+scale: global
+status: active
+website: https://www.coastalcarbon.ai
+summary: Company training earth observation AI on satellite data. It curated the SeeFar dataset
+  for geospatial foundation models.
+facts:
+- claim: Says it is training on thousands of terabytes of satellite data.
+  url: https://www.coastalcarbon.ai
+  fetched: '2026-10-31'
+  quote: thousands of terabytes
+- claim: Says it creates a positive impact through earth observation and AI.
+  url: https://www.coastalcarbon.ai
+  fetched: '2026-10-31'
+  quote: create a positive impact through earth observation and AI.
+- claim: SeeFar was curated for training geospatial foundation models.
+  url: https://www.coastalcarbon.ai/seefar
+  fetched: '2026-10-31'
+  quote: We specifically curated this dataset for training geospatial foundation models
+  ai_type: foundation-models
+- claim: An announcement says the B.C. Centre for Innovation and Clean Energy invested in
+    pilots led by Planetary Technologies and Coastal Carbon on ocean carbon dioxide removal.
+  url: https://cice.ca/knowledge-hub/cice-invests-in-the-future-of-ocean-carbon-dioxide-removal/
+  fetched: '2026-10-31'
+  quote: These projects, led by Planetary Technologies and Coastal Carbon
+links:
+- type: runs
+  to: seefar
+  url: https://www.coastalcarbon.ai/seefar
+  fetched: '2026-10-31'
+  quote: We specifically curated this dataset
+found_by:
+- link-from:queue-ca
+added_by: agent
+checked: '2026-10-31'

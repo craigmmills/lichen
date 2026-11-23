@@ -1,0 +1,66 @@
+id: fundacion-ecociencia
+kind: organisation
+name: Fundación EcoCiencia
+also_known_as:
+- EcoCiencia
+- Fundación Ecuatoriana de Estudios Ecológicos
+scope: ec
+sector: ngo
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ec
+scale: national
+status: active
+summary: Ecuadorian private non-profit scientific body, a partner of RAISG and the Waorani,
+  which Primicias says presented the fourth MapBiomas Ecuador collection on 14 October 2026.
+facts:
+- claim: Primicias says it presented the fourth MapBiomas Ecuador collection on 14 October
+    2026.
+  url: https://www.primicias.ec/ciencia-tecnologia/ecuador-bosques-cobertura-natural-glaciares-tala-arboles-estudio-ecociencia-134914/
+  fetched: 2026-11-02
+  quote: reveló este miércoles 14 de octubre la Fundación EcoCiencia junto a la cuarta colección
+    de MapBiomas Ecuador
+- claim: OpenAlex lists the MANGLEE paper with authors at EcoCiencia.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: 'MANGLEE: A Tool for Mapping and Monitoring MANgrove Ecosystem on Google Earth Engine'
+- claim: RAISG describes it as a private non-profit scientific body.
+  url: https://www.raisg.org/es/sobre/
+  fetched: '2026-11-02'
+  quote: es una entidad científica privada sin fines de lucro
+- claim: RAISG says it generates information for managing resources sustainably and for decisions.
+  url: https://www.raisg.org/es/sobre/
+  fetched: '2026-11-02'
+  quote: se dedica a la generación de información de calidad para el manejo sostenible de
+    los recursos y para la toma de decisiones
+- claim: IUCN lists it as a member.
+  url: https://iucn.org/our-union/members/iucn-members/ecociencia-fundacion-ecuatoriana-de-estudios-ecologicos
+  fetched: '2026-11-02'
+  quote: EcoCiencia, Fundación Ecuatoriana de Estudios Ecológicos
+links:
+- type: partners-with
+  to: raisg
+  url: https://primicias.ec/noticias/sociedad/ecuador-cobertura-natural-vegetal-investigacion
+  fetched: 2026-11-02
+  quote: con la Fundación EcoCiencia como su coordinadora en Ecuador, como parte de la Red
+    Amazónica de Información Socioambiental Georreferenciada (RAISG)
+- type: partners-with
+  to: raisg
+  url: https://www.raisg.org/es/sobre/
+  fetched: '2026-11-02'
+  quote: La RAISG es el resultado de la cooperación de ocho organizaciones de la sociedad
+    civil que trabajan en seis países amazónicos
+found_by:
+- checklist:4
+- link-from:raisg
+added_by: agent
+checked: 2026-11-02

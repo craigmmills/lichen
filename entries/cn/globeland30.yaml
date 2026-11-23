@@ -1,0 +1,27 @@
+id: globeland30
+kind: dataset
+name: GlobeLand30
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Global land cover map at 30 metre resolution produced in China, describing
+  the world in ten classes.
+facts:
+- claim: Is a land cover map describing the world in ten generic classes.
+  url: https://isprs-archives.copernicus.org/articles/XLIII-B4-2021/175/2021/isprs-archives-XLIII-B4-2021-175-2021.pdf
+  fetched: '2026-10-31'
+  quote: two land cover maps describing world in 10 generic classes (GlobeLand30
+links:
+- type: run-by
+  to: national-geomatics-center-of-china
+  url: https://isprs-archives.copernicus.org/articles/XLIII-B4-2021/175/2021/isprs-archives-XLIII-B4-2021-175-2021.pdf
+  fetched: '2026-10-31'
+  quote: National Geomatics Center of China, producer of this map,
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

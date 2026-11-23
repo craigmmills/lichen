@@ -1,0 +1,36 @@
+id: carte-dendrometrique-lidar
+kind: dataset
+name: Carte dendrométrique lidar
+also_known_as: []
+scope: ca
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ca
+summary: An open vector product for Quebec that gives forest stand characteristics
+  from lidar data at a finer scale than the ecoforest map, under a CC-BY 4.0 licence.
+facts:
+- claim: A vector product presenting dendrometric characteristics useful in forest
+    planning.
+  url: https://www.donneesquebec.ca/recherche/dataset/carte_dendrometrique_lidar
+  fetched: '2026-10-31'
+  quote: La carte dendrométrique lidar présente diverses caractéristiques dendrométriques
+    utiles notamment en planification forestière.
+- claim: Published under CC-BY 4.0.
+  url: https://www.donneesquebec.ca/recherche/dataset/carte_dendrometrique_lidar
+  fetched: '2026-10-31'
+  quote: Attribution (CC-BY 4.0)
+links:
+- type: run-by
+  to: ministere-des-ressources-naturelles-et-des-forets
+  url: https://www.donneesquebec.ca/recherche/dataset/carte_dendrometrique_lidar
+  fetched: '2026-10-31'
+  quote: Ministère des Ressources naturelles et des Forêts
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

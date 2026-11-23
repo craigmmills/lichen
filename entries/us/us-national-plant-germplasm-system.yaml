@@ -1,0 +1,30 @@
+id: us-national-plant-germplasm-system
+kind: programme
+name: US National Plant Germplasm System
+also_known_as:
+- NPGS
+- GRIN
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: http://www.ars-grin.gov
+summary: USDA Agricultural Research Service system whose GRIN Taxonomy covers all
+  families and genera of vascular plants and over 46,000 species worldwide.
+facts:
+- claim: GRIN Taxonomy scope.
+  url: https://api.gbif.org/v1/organization/83e105d0-1e21-11de-85d0-fe7fa1df8ee2/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: all families and genera of vascular plants and over 46,000 species from throughout
+    the world are represented
+links:
+- type: run-by
+  to: usda-agricultural-research-service
+  url: https://api.gbif.org/v1/organization/83e105d0-1e21-11de-85d0-fe7fa1df8ee2/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: "National Plant Germplasm System (NPGS), part of the National Genetic Resources Program (NGRP) of the United States Department of Agriculture's (USDA's) Agricultural Research Service (ARS)"
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

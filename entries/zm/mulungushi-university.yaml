@@ -1,0 +1,35 @@
+id: mulungushi-university
+kind: organisation
+name: Mulungushi University
+scope: zm
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- zm
+scale: national
+status: active
+summary: University with both authors of a 2025 Zambia ICT Journal paper, listed in
+  OpenAlex, on using AI to reduce monkey-human conflicts.
+facts:
+- claim: OpenAlex lists a 2025 paper in the Zambia ICT Journal on using AI to reduce
+    monkey-human conflicts, with both authors at Mulungushi University.
+  url: https://api.openalex.org/works/W4416980100?select=id,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: Using Artificial Intelligence to Mitigate Monkey-Human Conflicts in Hospitality
+    Spaces in Zambia
+- claim: The first author's affiliation is Mulungushi University.
+  url: https://api.openalex.org/works/W4416980100?select=id,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Francis Chisenga","raw_affiliation_strings":["Mulungushi
+    University"]'
+links: []
+found_by:
+- rule:checklist-misses
+- checklist:3
+added_by: agent
+checked: 2026-11-12

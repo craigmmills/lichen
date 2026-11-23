@@ -1,0 +1,59 @@
+id: dronewild
+kind: organisation
+name: DroneWild
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+summary: Edinburgh company that, according to the drone supplier heliguy, built a machine
+  learning tool that identifies species from drone data. Its own site refused the fetcher.
+facts:
+- claim: heliguy says it developed a machine learning tool.
+  url: https://www.heliguy.com/blogs/posts/transforming-wildlife-management-drones-and-ai/
+  quote: DroneWild has developed a machine learning tool that uses UAS data to automatically
+    identify and verify species via a web app
+  fetched: '2026-10-30'
+- claim: heliguy calls it Edinburgh-based.
+  url: https://www.heliguy.com/blogs/posts/transforming-wildlife-management-drones-and-ai/
+  quote: The Edinburgh-based firm is the brainchild of husband and wife team, Katie and Ben
+    Harrower
+  fetched: '2026-10-30'
+- claim: Provides rangers with thermal micro drones with built-in software and AI.
+  url: https://www.civtech.scot/demo-day-9-dronewild
+  quote: DroneWild is providing Forestry and Land Scotland rangers with thermal micro drones,
+    with built in customised software and AI
+  fetched: &id001 2026-10-30
+- claim: Registered office on the Companies House register.
+  url: https://find-and-update.company-information.service.gov.uk/company/SC800864
+  quote: 3 Beaufort Road, Edinburgh, Scotland, EH9 1AG
+  fetched: 2026-10-30
+- claim: CIEEM article gives its site as www.dronewild.co.uk and its base as Edinburgh.
+  url: https://cieem.net/teaching-a-drone-to-know-a-sika-from-a-red-dronewilds-journey-in-machine-learning-and-wildlife/
+  quote: Find out more at www.dronewild.co.uk
+  fetched: 2026-10-30
+- claim: A Scottish Wildlife Trust article reports work to integrate machine learning into
+    thermal drone surveys.
+  url: https://scottishwildlifetrust.org.uk/?p=2155652
+  quote: The model is being trained to recognise all six deer species present in the UK
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: forestry-and-land-scotland
+  url: https://www.civtech.scot/demo-day-9-dronewild
+  quote: DroneWild is providing Forestry and Land Scotland rangers with thermal micro drones
+  fetched: *id001
+found_by:
+- link-from:uk-research-and-innovation
+- checklist:5
+- rule:checklist-misses
+realms:
+- land
+techniques:
+- computer-vision
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+hq: gb
+status: active
+scale: national
+website: https://www.dronewild.co.uk

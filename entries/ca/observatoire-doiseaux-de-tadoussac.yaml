@@ -1,0 +1,45 @@
+id: observatoire-doiseaux-de-tadoussac
+kind: organisation
+name: Observatoire d'oiseaux de Tadoussac
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: An observatory operating since 1993, first on hawk and owl migration with
+  a songbird programme from 1995, listed as a station of the Canadian Migration Monitoring
+  Network.
+facts:
+- claim: In operation since 1993, first on hawk and owl migration, with a songbird
+    programme from 1995.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: In operation since 1993, this station had its early focus on hawk and owl
+    migration, but a songbird program was initiated in 1995.
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

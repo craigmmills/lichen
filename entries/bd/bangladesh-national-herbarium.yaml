@@ -1,0 +1,48 @@
+id: bangladesh-national-herbarium
+kind: organisation
+name: Bangladesh National Herbarium
+also_known_as:
+- BNH
+- বাংলাদেশ ন্যাশনাল হারবেরিয়াম
+scope: bd
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- bd
+scale: national
+status: active
+website: http://www.bnh.gov.bd/
+summary: Herbarium whose site lists field plant surveys and specimen collection, lets applicants
+  examine specimens, and whose records fed a Jagannath University dataset registered with
+  GBIF.
+facts:
+- claim: Its site lists field plant surveys and specimen collection among its activities.
+  url: http://www.bnh.gov.bd/
+  fetched: 2026-11-07
+  quote: মাঠ পর্যায়ে উদ্ভিদ জরীপ ও নমুনা সংগ্রহ কার্যক্রম
+- claim: Its site offers an application form to examine herbarium specimens and collect data
+    from them.
+  url: http://www.bnh.gov.bd/
+  fetched: 2026-11-07
+  quote: হারবেরিয়াম নমুনা পর্যবেক্ষণ ও তথ্য সংগ্রহের জন্য আবেদন ফরম
+- claim: A dataset registered with GBIF by Jagannath University drew on its specimen records.
+  url: https://api.gbif.org/v1/organization/ec9c26d4-c177-40c0-857b-eb0862a2d30b
+  fetched: 2026-11-07
+  quote: these crops specimens were investigated in the records of the Bangladesh National
+    Herbarium
+links:
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://iucn.org/story/202411/bangladesh-launches-its-first-plant-red-list
+  fetched: 2026-11-07
+  quote: IUCN Bangladesh provided technical support to the Forest Department and the Bangladesh
+    National Herbarium
+found_by:
+- link-from:international-union-for-conservation-of-nature
+added_by: agent
+checked: 2026-11-07

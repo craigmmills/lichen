@@ -1,0 +1,35 @@
+id: basoinsa
+kind: organisation
+name: Basoinsa
+scope: es
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+scale: regional
+hq: es
+status: active
+realms:
+- land
+summary: Environmental consultancy founded in 1985 in the Basque Country. It developed EEIKO,
+  a multi-platform tool for recording and controlling invasive plants.
+facts:
+- claim: An environmental consulting and services company founded in 1985 in the Basque Country.
+  url: https://api.gbif.org/v1/organization/4701cb61-2296-4d74-bc87-525303218515
+  fetched: '2026-10-31'
+  quote: is an environmental consulting and services company founded in 1985 in the Basque
+    Country
+- claim: Developed the EEIKO invasive plant database.
+  url: https://api.gbif.org/v1/organization/4701cb61-2296-4d74-bc87-525303218515/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Desarrollado por Basoinsa
+links:
+- type: runs
+  to: eeiko
+  url: https://api.gbif.org/v1/organization/4701cb61-2296-4d74-bc87-525303218515/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Desarrollado por Basoinsa
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'

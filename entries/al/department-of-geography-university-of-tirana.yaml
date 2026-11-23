@@ -1,0 +1,42 @@
+id: department-of-geography-university-of-tirana
+kind: organisation
+name: Department of Geography, Faculty of History and Philology, University of Tirana
+also_known_as: []
+scope: al
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- al
+scale: national
+status: active
+summary: A university department that OpenAlex links to two 2025 papers on Divjakë-Karavasta National
+  Park, one using GIS and remote sensing for forest health and one on drone use.
+facts:
+- claim: OpenAlex lists a 2025 paper on the use of GIS and remote sensing to assess abiotic factors affecting
+    forest health in Divjakë-Karavasta National Park, whose first author is at this department.
+  url: https://api.openalex.org/works/W4413005932?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Assoc. Professor, University of Tirana, Faculty of History and Philology, Department of Geography,
+    Albania
+- claim: 'The 2025 paper is titled ''The use of GIS/RS technology in assessing abiotic influencing factors
+    on Forest Health: a Case Study, Divjakë-Karavasta National Park''.'
+  url: https://api.openalex.org/works/W4413005932?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: The use of GIS/RS technology in assessing abiotic influencing factors on Forest Health
+- claim: OpenAlex lists a second 2025 paper, on drone use in Divjakë-Karavasta National Park, with all
+    authors at this department.
+  url: https://api.openalex.org/works/W4413376874?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: 'THE USE OF DRONE/UAV TECHNOLOGY IN PRECISION FORESTRY. CASE STUDY: NATIONAL PARK DIVJAKE KARAVASTA'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

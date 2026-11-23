@@ -1,0 +1,42 @@
+id: hmm-dnn-low-frequency-ocean-acoustics
+kind: model
+name: HMM-DNN system for low-frequency ocean acoustic signals
+scope: cl
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- bioacoustics
+countries:
+- cl
+scale: national
+status: active
+summary: Model combining a hidden Markov model with a deep neural network, reported in July
+  2023 using data from a CTBTO-managed hydroacoustic station with six hydrophones off the
+  Juan Fernández archipelago.
+facts:
+- claim: Based on a hidden Markov model with a deep neural network.
+  url: https://copas-coastal.cl/2023/07/22/desarrollan-sistema-basado-en-inteligencia-artificial-para-estudiar-registros-acusticos-del-oceano/
+  fetched: '2026-11-02'
+  quote: se basó en un modelo oculto de Márkov (HMM, Hidden Markov Model ) con una red neuronal
+    profunda (DNN, Deep Neural Network )
+  ai_type: deep-learning
+- claim: The study reported in July 2023 used data from an international hydroacoustic station
+    with six hydrophones off the Juan Fernández archipelago, managed by the CTBTO.
+  url: https://copas-coastal.cl/2023/07/22/desarrollan-sistema-basado-en-inteligencia-artificial-para-estudiar-registros-acusticos-del-oceano/
+  fetched: '2026-11-02'
+  quote: una estación hidroacústica internacional con 6 hidrófonos instalados fuera del Archipiélago
+    Juan Fernández
+links:
+- type: funded-by
+  to: agencia-nacional-de-investigacion-y-desarrollo
+  url: https://copas-coastal.cl/2023/07/22/desarrollan-sistema-basado-en-inteligencia-artificial-para-estudiar-registros-acusticos-del-oceano/
+  fetched: '2026-11-02'
+  quote: este se dio a través de un proyecto de investigación Fondecyt de la ANID en la Universidad
+    de Chile
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

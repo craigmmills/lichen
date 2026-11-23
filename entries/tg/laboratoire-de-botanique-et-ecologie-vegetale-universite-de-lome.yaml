@@ -1,0 +1,45 @@
+id: laboratoire-de-botanique-et-ecologie-vegetale-universite-de-lome
+kind: organisation
+name: Laboratoire de Botanique et Ecologie Végétale
+also_known_as:
+- LBEV
+- Laboratory of Botany and Plant Ecology
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: Université de Lomé research laboratory, run by the university and led by Koffi Akpagana,
+  listed as an affiliation for five authors of a paper mapping above-ground forest biomass
+  in the Atacora mountains with Google Earth Engine.
+facts:
+- claim: Listed among the Université de Lomé's research structures.
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-12
+  quote: Laboratoire de Botanique et Ecologie Végétale (LBEV)
+- claim: Listed as an affiliation of the first author and four of eight co-authors of a paper
+    mapping forest above-ground biomass in the Atacora mountain chain from remote sensing
+    in Google Earth Engine.
+  url: https://api.openalex.org/works/W7125736498?select=id,display_name,doi,authorships
+  fetched: 2026-11-12
+  quote: Remote Sensing-Based Mapping of Forest Above-Ground Biomass and Its Relationship
+    with Bioclimatic Factors in the Atacora Mountain Chain (Togo) Using Google Earth Engine
+links:
+- type: run-by
+  to: universite-de-lome
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-12
+  quote: Laboratoire de Botanique et Ecologie Végétale (LBEV)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

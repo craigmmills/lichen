@@ -1,0 +1,39 @@
+id: birdeep-audio-annotations
+kind: dataset
+name: BIRDeep Audio Annotations
+scope: es
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- bioacoustics
+website: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+summary: Open dataset of bird vocalisations from Doñana National Park, annotated for
+  training and testing detection and classification models.
+facts:
+- claim: A collection of bird vocalisations from Doñana National Park.
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: dataset is a collection of bird vocalizations from Doñana National Park,
+    Spain
+- claim: Released under the MIT licence.
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: 'License: mit'
+links:
+- type: run-by
+  to: estacion-biologica-de-donana
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: 'Curated by: Estación Biológica de Doñana (CSIC) and Universidad de Córdoba'
+- type: partners-with
+  to: universidad-de-cordoba
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: 'Curated by: Estación Biológica de Doñana (CSIC) and Universidad de Córdoba'
+found_by:
+- register:es
+- link-from:estacion-biologica-de-donana
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,49 @@
+id: india-roadkill-monitoring-project
+kind: project
+name: India Roadkill Monitoring Project
+also_known_as: []
+scope: in
+ai_label: conservation-tech
+status: active
+realms:
+- land
+countries:
+- in
+website: https://www.roadkillmonitoring.in/
+summary: Citizen science platform and mobile app that maps wildlife killed on India's roads
+  and railways, with an open dataset on GBIF.
+facts:
+- claim: Describes itself as an open access citizen science platform for wildlife road deaths.
+  url: https://www.roadkillmonitoring.in/
+  fetched: '2026-10-31'
+  quote: A citizen-science open access platform for documenting, mapping and understanding
+    wildlife mortality on Indian road network
+- claim: GBIF dataset describes records collected through its mobile app and trained observers.
+  url: https://api.gbif.org/v1/dataset/f334ae5e-0991-44bb-b64b-d602f4c8c289
+  fetched: '2026-10-31'
+  quote: Citizen science contributions enable large-scale spatial coverage, while systematic
+    surveys conducted by trained observers provide more standardized data
+- claim: Project page lists RISKY and GBIF as partners and collaborators.
+  url: https://www.roadkillmonitoring.in/
+  fetched: '2026-10-31'
+  quote: Partners & Collaborators RISKY Wildlife Road Impact International Network GBIF Global
+    Biodiversity Information Facility
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://www.roadkillmonitoring.in/
+  fetched: '2026-10-31'
+  quote: Partners & Collaborators RISKY Wildlife Road Impact International Network GBIF Global
+    Biodiversity Information Facility
+- type: partners-with
+  to: risky-wildlife-road-impact-network
+  url: https://www.roadkillmonitoring.in/
+  fetched: '2026-10-31'
+  quote: Partners & Collaborators RISKY Wildlife Road Impact International Network GBIF Global
+    Biodiversity Information Facility
+found_by:
+- register:gbif-publisher
+- link-from:koola-wild-foundation
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

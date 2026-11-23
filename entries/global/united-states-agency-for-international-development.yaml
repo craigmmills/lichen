@@ -1,0 +1,35 @@
+id: united-states-agency-for-international-development
+kind: organisation
+name: United States Agency for International Development
+also_known_as:
+- USAID
+scope: global
+sector: government
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: us
+scale: global
+status: closed
+summary: US foreign aid agency whose operations ceased on 1 July 2025, with remaining foreign
+  assistance moved to the State Department. It ran the Wildlife Crime Tech Challenge.
+facts:
+- claim: Its operations ceased on 1 July 2025.
+  url: https://en.wikipedia.org/wiki/United_States_Agency_for_International_Development
+  quote: Since July 1, 2025, USAID's operations have ceased
+  fetched: &id001 2026-10-30
+links:
+- type: runs
+  to: wildlife-crime-tech-challenge
+  url: https://wildlabs.net/en/article/wildlife-crime-tech-challenge-winners-announced
+  quote: The U.S. Agency for International Development (USAID), with support of its partners
+    National Geographic, Smithsonian, and TRAFFIC, has selected 16 Wildlife Crime Tech Challenge
+    Prize Winners
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

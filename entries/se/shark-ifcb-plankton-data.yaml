@@ -1,0 +1,33 @@
+id: shark-ifcb-plankton-data
+kind: dataset
+name: SHARK Phyto- and Microzooplankton Data Collected by Imaging FlowCytobots
+scope: se
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- se
+summary: Active dataset of phyto- and microzooplankton collected with image recognition by Imaging FlowCytobots,
+  with monitoring performed by SMHI, which runs it.
+facts:
+- claim: Collected with image recognition through the Imaging FlowCytobot.
+  url: https://www.smhi.se/data/hav-och-havsmiljo/datavardskap-oceanografi-och-marinbiologi/om-datavardskap-for-oceanografi-och-marinbiologi/uppdateringar/uppdateringar-i-datavardskapet-for-oceanografi-och-marinbiologi/2025-06-17-planktondata-insamlad-med-ai-baserad-bildigenkanning
+  fetched: '2026-11-02'
+  quote: Datan samlas in med bildigenkänning via instrumentet Imaging FlowCytobot.
+- claim: Monitoring is performed by SMHI.
+  url: https://researchdata.se/en/catalogue/dataset/gbif-sweden-10-15468-5ebhr2
+  fetched: '2026-11-02'
+  quote: Monitoring is performed by Swedish Meteorological and Hydrological Institute.
+links:
+- type: run-by
+  to: swedish-meteorological-and-hydrological-institute
+  url: https://researchdata.se/en/catalogue/dataset/gbif-sweden-10-15468-5ebhr2
+  fetched: '2026-11-02'
+  quote: Monitoring is performed by Swedish Meteorological and Hydrological Institute.
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'

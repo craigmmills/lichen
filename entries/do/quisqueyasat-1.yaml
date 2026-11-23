@@ -1,0 +1,51 @@
+id: quisqueyasat-1
+kind: project
+name: QuisqueyaSat-1
+scope: do
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- do
+status: proposed
+summary: Proposed nanosatellite INTEC runs and plans to build with MESCyT funding for real-time
+  sargassum monitoring; August 2025 reporting described assembly, funding needs and launch
+  expected in 2026.
+facts:
+- claim: El Inmobiliario reports that the satellite is meant to detect, georeference and analyse
+    sargassum mats floating towards Caribbean coasts in real time.
+  url: https://inmobiliario.do/quisqueyasat-1-el-satelite-con-cedula-dominicana-que-vigilara-el-sargazo-desde-el-espacio/
+  fetched: 2026-11-08
+  quote: detectar, georreferenciar y analizar en tiempo real los cúmulos de sargazo que flotan
+    hacia las costas caribeñas
+- claim: In August 2025, the project lead said it was in assembly and needed funding to complete
+    the phase; the report calls the testing “post-launch” even though it says launch was still
+    expected in 2026.
+  url: https://inmobiliario.do/quisqueyasat-1-el-satelite-con-cedula-dominicana-que-vigilara-el-sargazo-desde-el-espacio/
+  fetched: 2026-11-08
+  quote: Actualmente estamos en el proceso de ensamblaje y pruebas posteriores al lanzamiento.
+    Para completar esta fase, necesitamos del apoyo financiero de instituciones
+links:
+- type: run-by
+  to: instituto-tecnologico-de-santo-domingo
+  url: https://inmobiliario.do/quisqueyasat-1-el-satelite-con-cedula-dominicana-que-vigilara-el-sargazo-desde-el-espacio/
+  fetched: &id001 2026-11-08
+  quote: QuisqueyaSat-1, es un proyecto de la universidad INTEC.
+- type: funded-by
+  to: ministerio-de-educacion-superior-ciencia-y-tecnologia
+  url: https://inmobiliario.do/quisqueyasat-1-el-satelite-con-cedula-dominicana-que-vigilara-el-sargazo-desde-el-espacio/
+  fetched: 2026-11-08
+  quote: el principal respaldo lo han recibido del MESCyT, a través de los fondos de investigación
+    FONDOCYT
+- type: built-by
+  to: instituto-tecnologico-de-santo-domingo
+  url: https://inmobiliario.do/quisqueyasat-1-el-satelite-con-cedula-dominicana-que-vigilara-el-sargazo-desde-el-espacio/
+  fetched: *id001
+  quote: 'el Instituto Tecnológico de Santo Domingo (INTEC), apuesta por una solución innovadora:
+    fabricar y poner en órbita el primer nanosatélite diseñado en el país, QuisqueyaSat-1'
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

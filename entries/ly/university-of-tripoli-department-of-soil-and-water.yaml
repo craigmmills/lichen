@@ -1,0 +1,36 @@
+id: university-of-tripoli-department-of-soil-and-water
+kind: organisation
+name: Department of Soil and Water, College of Agriculture, University of Tripoli
+also_known_as: []
+scope: ly
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: ly
+countries:
+- ly
+scale: local
+status: active
+summary: University department named in OpenAlex as the first author's affiliation
+  on a paper assessing how well the soil-adjusted vegetation index detects vegetation
+  cover change in the Al-Jafara region, Libya.
+facts:
+- claim: OpenAlex gives the department as first author Azalarib S. Ali's affiliation
+    on Assessment of the Soil-Adjusted Vegetation Index (SAVI) Performance in Monitoring
+    and Detecting Vegetation Cover Changes in the Al-Jafara Region, Libya.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7140753479|W7217075620|W7164181558|W7161037552&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: Department of Soil and Water - College of Agriculture - University of Tripoli
+- claim: The paper assesses how well the soil-adjusted vegetation index monitors and
+    detects vegetation cover change in the Al-Jafara region.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7140753479|W7217075620|W7164181558|W7161037552&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: Assessment of the Soil-Adjusted Vegetation Index (SAVI) Performance in Monitoring
+    and Detecting Vegetation Cover Changes in the Al-Jafara Region, Libya.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

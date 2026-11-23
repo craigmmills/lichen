@@ -1,0 +1,39 @@
+id: forest-monitoring-system-for-tanzania
+kind: model
+name: A Forest Monitoring System for Tanzania
+scope: tz
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- tz
+status: unknown
+runner: unknown
+summary: 2021 Remote Sensing paper on forest monitoring in Tanzania, recorded in OpenAlex
+  with keywords including Landsat 8, XGBoost and forest loss, with Elikana John as lead author.
+facts:
+- claim: OpenAlex records the 2021 paper A Forest Monitoring System for Tanzania in Remote
+    Sensing.
+  url: https://api.openalex.org/works/doi:10.3390/rs13163081
+  fetched: 2026-11-12
+  quote: '"display_name":"A Forest Monitoring System for Tanzania","publication_year":2021'
+- claim: OpenAlex gives the lead author's affiliations as Aberystwyth University and the Tanzania
+    Forest Services Agency.
+  url: https://api.openalex.org/works/doi:10.3390/rs13163081
+  fetched: 2026-11-12
+  quote: '"raw_affiliation_strings":["Department of Geography and Earth Sciences, Aberystwyth
+    University, Aberystwyth SY23 3DB, UK","Tanzania Forest Services (TFS) Agency, Dar Es Salaam
+    15472, Tanzania"]'
+- claim: The record's keywords include Landsat 8, XGBoost and forest loss.
+  url: https://api.openalex.org/works/doi:10.3390/rs13163081
+  fetched: 2026-11-12
+  quote: '"display_name":"XGBoost"'
+  ai_type: ml-supervised
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

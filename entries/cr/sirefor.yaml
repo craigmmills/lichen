@@ -1,0 +1,50 @@
+id: sirefor
+kind: programme
+name: Sistema de Información de Recursos Forestales de Costa Rica
+also_known_as:
+- SIREFOR
+scope: cr
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- cr
+status: active
+website: https://www.sirefor.go.cr/
+summary: Costa Rica's integrated forest information management system, run by SINAC,
+  covering themes such as forest cover and illegal logging and including the national
+  forest inventory and the SIPLAMA system.
+facts:
+- claim: Its home page describes SIREFOR as the country's integrated forest information
+    management system.
+  url: https://www.sirefor.go.cr/
+  fetched: '2026-11-12'
+  quote: El SIREFOR es el sistema integrado de manejo de la información forestal del
+    país.
+- claim: The site lists themes including forest cover and illegal logging.
+  url: https://www.sirefor.go.cr/
+  fetched: '2026-11-12'
+  quote: Cobertura boscosa Tala ilegal
+- claim: The site describes the national forest inventory as beginning in 2013 with
+    forest type mapping, followed by field work in 2013 and 2014.
+  url: https://www.sirefor.go.cr/
+  fetched: '2026-11-12'
+  quote: Se inicio en el año 2013 con la elaboración de la cartografía de tipos de
+    bosque.La implementación en campo ocurre entre el 2013 y el 2014.
+- claim: A news item says SIREFOR designed and launched SIPLAMA, an information system
+    for forest management plans.
+  url: https://www.sirefor.go.cr/
+  fetched: '2026-11-12'
+  quote: ha diseñado y ha puesto en marcha, el Sistema de Información para la gestión
+    de Planes de Manejo de Bosques (SIPLAMA-2019)
+links:
+- type: run-by
+  to: sistema-nacional-de-areas-de-conservacion
+  url: https://www.sirefor.go.cr/
+  fetched: '2026-11-12'
+  quote: El Programa de Sistemas de Información de los Recursos Forestales (SIREFOR)
+    del Sistema Nacional de áreas de Conservación (SINAC)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

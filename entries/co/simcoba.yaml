@@ -1,0 +1,35 @@
+id: simcoba
+kind: programme
+name: Sistema de Monitoreo de las Coberturas de la tierra de la Amazonia colombiana
+also_known_as:
+- SIMCOBA
+scope: co
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- co
+website: https://siatac.co/simcoba/
+status: active
+summary: Monitoring system that tracks changes in land cover in the Colombian Amazon
+  by interpreting remote-sensing images.
+facts:
+- claim: Tracks spatial and temporal changes in land cover from the interpretation
+    of remote-sensing images.
+  url: https://siatac.co/simcoba/
+  fetched: '2026-10-31'
+  quote: a partir de la interpretación de imágenes de sensores remotos
+links:
+- type: led-by
+  to: instituto-amazonico-de-investigaciones-cientificas-sinchi
+  url: https://siatac.co/simcoba/
+  fetched: '2026-10-31'
+  quote: El SIMCOBA es el sistema liderado por el Instituto Sinchi
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

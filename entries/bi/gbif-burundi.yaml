@@ -1,0 +1,48 @@
+id: gbif-burundi
+kind: programme
+name: GBIF Burundi
+scope: bi
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- bi
+status: active
+runner: unknown
+summary: Burundi's GBIF node, listed with Burundi as a voting participant and Gitega, Quartier Regideso
+  as the address for its node manager and a staff contact.
+facts:
+- claim: GBIF's directory lists the node GBIF Burundi, with Burundi as a voting participant.
+  url: https://api.gbif.org/v1/node/country/BI
+  fetched: 2026-11-09
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Burundi","participantTitle":"Burundi"'
+- claim: GBIF's directory lists the node as GBIF Burundi, with Burundi as a voting participant.
+  url: https://api.gbif.org/v1/node/country/BI
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Burundi"'
+- claim: GBIF's directory gives Gitega, Quartier Regideso as the address for the node manager and a node
+    staff contact.
+  url: https://api.gbif.org/v1/node/country/BI
+  fetched: 2026-11-09
+  quote: '"organization":"GBIF Burundi","address":["GITEGA\nQuartier REGIDESO"]'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/BI
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/BI
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Burundi"'
+found_by:
+- checklist:2
+- queue:bi
+added_by: agent
+checked: 2026-11-09
+roles:
+- unknown

@@ -1,0 +1,162 @@
+id: fundacion-charles-darwin
+kind: organisation
+name: Fundación Charles Darwin
+also_known_as:
+- Charles Darwin Foundation
+- CDF
+- FCD
+- Charles Darwin Foundation for the Galapagos Islands
+- Fondation Charles Darwin pour les îles Galapagos
+- Fundación Charles Darwin
+scope: ec
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+hq: ec
+countries:
+- ec
+scale: local
+status: active
+website: https://www.darwinfoundation.org/en/about/
+summary: International non-profit working in the Galápagos since 1959, with a Research Station
+  in Puerto Ayora, that uses drones, geospatial analysis and machine learning and shares data
+  through its dataZone.
+facts:
+- claim: Its species database openly shares the natural history collections database.
+  url: https://datazone.darwinfoundation.org/en/checklist
+  fetched: 2026-11-02
+  quote: we openly share the information from the Charles Darwin Research Station Natural
+    History Collections database
+- claim: Its 2023 impact report says its technical teams supported the Floreana programme
+    with geospatial analysis, drones and image analysis.
+  url: https://www.darwinfoundation.org/es/documents/632/22_8_24-Reporte_de_Impacto_-_2023.pdf
+  fetched: 2026-11-02
+  quote: geoespacial y el uso de tecnología de drones y análisis de imágenes
+- claim: OpenAlex lists a 2025 paper on Galápagos coral reefs using machine learning with
+    authors at the foundation.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: using differential alignment of 3D models and Machine-Learning
+- claim: Says the Foundation and its Research Station are the largest and oldest science and
+    conservation organisation in the archipelago.
+  url: https://www.darwinfoundation.org/en/about/
+  fetched: '2026-11-02'
+  quote: are the largest and oldest science and conservation organization in the archipelago
+- claim: Its dataZone is a set of online applications giving access to scientific information
+    from almost 60 years of research in the Galápagos.
+  url: https://www.darwinfoundation.org/en/research-hub/datazone/
+  fetched: '2026-11-02'
+  quote: The dataZone is a collection of applications, accessible online, that provide access
+    to the scientific information stored in several databases
+- claim: A staff blog says drones were used in 2020 to estimate green turtle numbers.
+  url: https://www.darwinfoundation.org/en/news/blog/sea-turtles-from-above-drones-used-for-research-conservation/
+  fetched: '2026-11-02'
+  quote: This technology lets us acquire aerial images and panoramic videos, to estimate the
+    number of turtles
+- claim: The same blog says tracking and monitoring devices were installed on nesting female
+    green turtles.
+  url: https://www.darwinfoundation.org/en/news/blog/sea-turtles-from-above-drones-used-for-research-conservation/
+  fetched: '2026-11-02'
+  quote: we installed tracking and monitoring devices in some nesting female green turtles
+- claim: Its contact page gives the Research Station's address in Puerto Ayora, Galápagos,
+    Ecuador.
+  url: https://www.darwinfoundation.org/en/about/contact-us/
+  fetched: '2026-11-02'
+  quote: Av. Charles Darwin s/n, Puerto Ayora, Galápagos, Ecuador
+- claim: Its registered office as an international non-profit association is in Brussels.
+  url: https://www.darwinfoundation.org/en/
+  fetched: '2026-11-02'
+  quote: has its registered office at 54 Avenue Louise, 1050 Brussels, Belgium
+- claim: Its dataZone gives access to information from almost 60 years of research.
+  url: https://www.darwinfoundation.org/es/
+  fetched: '2026-11-02'
+  quote: El dataZone es una colección de aplicaciones, accesibles en línea o dentro de la
+    Estación Científica Charles Darwin
+- claim: Its location is in Puerto Ayora.
+  url: https://www.darwinfoundation.org/en/about/our-campus/
+  fetched: '2026-11-03'
+  quote: We are at Ave Charles Darwin 854, Puerto Ayora 200350, Ecuador
+- claim: The GBIF publisher record describes it as an international non-profit dedicated to
+    scientific research, working in the Galapagos since 1959.
+  url: https://api.gbif.org/v1/organization/ef807e08-c954-487f-9e70-3cc75f173812
+  quote: is an international non-profit organization dedicated to scientific research
+  fetched: '2026-11-02'
+- claim: The first and last authors of a 2025 paper on coral reefs and machine learning give
+    the Charles Darwin Research Station as their affiliation.
+  url: https://api.openalex.org/works/W4415749346
+  quote: using differential alignment of 3D models and Machine-Learning
+  fetched: '2026-11-02'
+- claim: Its dataZone site invites reuse of its information with attribution.
+  url: https://datazone.darwinfoundation.org/en
+  quote: You are welcome to download and use the information found in this page, acknowledging
+    its source.
+  fetched: '2026-11-02'
+- claim: States that its registered office is in Brussels.
+  url: https://datazone.darwinfoundation.org/en
+  quote: has its registered office at 54 Avenue Louise, 1050 Brussels, Belgium
+  fetched: '2026-11-02'
+- claim: Its site names the foundation and its Research Station.
+  url: https://www.darwinfoundation.org/en/
+  quote: The latest news releases from the Charles Darwin Foundation and its Research Station.
+  fetched: '2026-11-02'
+- claim: The GBIF publisher record gives its address in Puerto Ayora, Galapagos, Ecuador.
+  url: https://api.gbif.org/v1/organization/ef807e08-c954-487f-9e70-3cc75f173812
+  quote: '"city":"Puerto Ayora"'
+  fetched: '2026-11-02'
+found_by:
+- checklist:4
+- link-from:global-biodiversity-information-facility
+- checklist:register-d
+added_by: agent
+checked: 2026-11-02
+links:
+- type: funded-by
+  to: bezos-earth-fund
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: Bezos Earth Fund
+  year: 2025
+- type: funded-by
+  to: gordon-and-betty-moore-foundation
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: Gordon and Betty Moore Foundation
+  year: 2025
+- type: funded-by
+  to: rewild
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: Re:wild
+  year: 2025
+- type: funded-by
+  to: united-states-agency-for-international-development
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: USAID
+  year: 2025
+- type: funded-by
+  to: the-pew-charitable-trusts
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: The Pew Charitable Trusts
+  year: 2025
+- type: funded-by
+  to: paul-m-angell-family-foundation
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: Paul M. Angell Family Foundation
+  year: 2025
+- type: funded-by
+  to: fundacion-jocotoco
+  url: https://www.darwinfoundation.org/en/get-involved/our-donors/
+  fetched: '2026-11-02'
+  quote: Fundación de Conservación Jocotoco
+  year: 2025

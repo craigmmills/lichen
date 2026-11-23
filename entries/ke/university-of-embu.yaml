@@ -1,0 +1,62 @@
+id: university-of-embu
+kind: organisation
+name: University of Embu
+scope: ke
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: ke
+website: https://embuni.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university whose authors use machine learning on tree survival and published
+  spatial data on Kenya's grassland and rangeland extent.
+facts:
+- claim: Authors there used machine learning to predict survival of drought resistant trees.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Integrating climate projections and machine learning to predict survival of drought
+    resistant trees
+  fetched: &id001 2026-10-31
+- claim: An author there is on a dataset for mapping Kenya's grassland and rangeland.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Dataset of spatial products and supporting tables for the paper
+  fetched: *id001
+- claim: Received an AMI system.
+  url: https://embuni.ac.ke/?p=19109
+  fetched: '2026-10-31'
+  quote: has received an Autonomous Monitoring of Insects (AMI) system
+- claim: The system uses computer vision and classifies moths to species level.
+  url: https://embuni.ac.ke/?p=19109
+  fetched: '2026-10-31'
+  quote: innovative algorithms within the system locate moths in images and accurately classify
+    them to the species level
+- claim: Gives its contact address in Embu.
+  url: https://embuni.ac.ke/
+  fetched: '2026-10-31'
+  quote: P. O. Box 6 – 60100, Embu, Kenya
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: *id001
+links:
+- type: uses
+  to: ami-system
+  url: https://embuni.ac.ke/?p=19109
+  fetched: '2026-10-31'
+  quote: Autonomous Monitoring of Insects (AMI) system
+- type: partners-with
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://embuni.ac.ke/?p=19109
+  fetched: '2026-10-31'
+  quote: has received an Autonomous Monitoring of Insects (AMI) system from the Tropical Biology
+    Association (TBA) and the UK Centre for Ecology & Hydrology (UKCEH)

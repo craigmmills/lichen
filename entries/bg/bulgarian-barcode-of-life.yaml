@@ -1,0 +1,62 @@
+id: bulgarian-barcode-of-life
+kind: programme
+name: Bulgarian Barcode of Life
+also_known_as:
+- BgBOL
+scope: bg
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+countries:
+- bg
+status: active
+runner: unknown
+summary: An active programme whose members page lists the Institute of Plant Physiology
+  and Genetics as Bulgaria's representative node of the International Barcode of Life
+  Consortium, alongside four other partner bodies including Pensoft.
+facts:
+- claim: Its members page lists the Institute of Plant Physiology and Genetics as
+    Bulgaria's representative node of the International Barcode of Life Consortium.
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: IPPG is a representative node for Bulgaria of the International Barcode of
+    Life Consortium ( iBOL ) and a partner of its European hub Bioscan Europe .
+- claim: Members include the Institute of Biodiversity and Ecosystem Research, the
+    National Museum of Natural History, Pensoft and the Institute of Oceanology.
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: Institute of Biodiversity and Ecosystem Research – BAS
+links:
+- type: partners-with
+  to: institute-of-biodiversity-and-ecosystem-research-bas
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: Institute of Biodiversity and Ecosystem Research – BAS
+- type: partners-with
+  to: national-museum-of-natural-history-sofia
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: National Museum of Natural History – BAS
+- type: partners-with
+  to: institute-of-oceanology-bas
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: Institute of oceanology at the Bulgarian Academy of Sciences (IO–BAS)
+- type: partners-with
+  to: pensoft-publishers
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: Pensoft Publishers
+- type: partners-with
+  to: institute-of-plant-physiology-and-genetics-bas
+  url: https://www.bgbol.org/members
+  fetched: 2026-11-12
+  quote: Institute of Plant Physiology and Genetics - BAS
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

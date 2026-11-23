@@ -1,0 +1,28 @@
+id: milliontrees
+kind: dataset
+name: MillionTrees
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+website: https://milliontrees.idtrees.org
+summary: Benchmark that seeks to collect a million tree locations for machine learning models that predict trees from airborne imagery.
+facts:
+- claim: Benchmark for airborne tree prediction.
+  url: https://milliontrees.idtrees.org/
+  fetched: '2026-10-30'
+  quote: The MillionTrees seeks to collect a million tree locations to create a global benchmark for machine learning models for airborne tree prediction.
+links:
+- type: run-by
+  to: weecology
+  url: https://github.com/weecology/MillionTrees
+  fetched: '2026-10-30'
+  quote: "GitHub - weecology/MillionTrees: The MillionTreesBenchmark"
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

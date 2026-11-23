@@ -1,0 +1,90 @@
+id: swedish-museum-of-natural-history
+kind: organisation
+name: Swedish Museum of Natural History
+also_known_as:
+- Naturhistoriska riksmuseet
+- NRM
+- Swedish Museum of Natural History
+scope: se
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+- computer-vision
+hq: se
+scale: national
+status: active
+summary: Stockholm government agency and research institution that hosts SBDI, leads the Swedish
+  GBIF node, curates specimen, survey and eDNA data, and is developing a machine learning
+  pipeline in DarkTree.
+facts:
+- claim: Curates mainly museum specimen data, survey-based observational data and eDNA datasets.
+  url: https://biodiversitydata.se/uploads/SBDI-Organizational-and-Technical-Overview.pdf
+  fetched: '2026-11-02'
+  quote: museum specimen data, survey-based observational data, and environmental DNA (eDNA)
+    datasets.
+- claim: Stockholm postal address.
+  url: https://biodiversitydata.se/uploads/SBDI-Organizational-and-Technical-Overview.pdf
+  fetched: '2026-11-02'
+  quote: 104 05 Stockholm
+- claim: Says it is a government agency and a research institution.
+  url: https://www.nrm.se/engelska/in-english/about-us/vision-and-tasks
+  fetched: 2026-11-02
+  quote: The Swedish Museum of Natural History is a government agency, a world-class research
+    institution, and at the same time, Sweden's largest museum with exhibitions and Cosmonova.
+- claim: SBDI says it hosts SBDI and is home to key posts in the executive office.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: The Swedish Museum of Natural History (NRM) hosts SBDI, and is the home for key positions
+    in the Executive office, including the SBDI Director and Project Coordinator.
+- claim: Based in Stockholm, according to GBIF Sweden.
+  url: https://www.gbif.se/gbif-sweden/
+  fetched: 2026-11-02
+  quote: The Swedish Museum of Natural History in Stockholm has hosted the Swedish participant
+    node
+- claim: SBDI has its seat at the museum.
+  url: https://www.nrm.se/forskning/forskningsinfrastruktur/sbdi
+  fetched: '2026-11-02'
+  quote: SBDI har sitt säte på Naturhistoriska riksmuseet.
+- claim: Leads the part of FinBio on eDNA techniques and satellite data.
+  url: https://www.nrm.se/engelska/in-english/research/research-projects/forskningsprojekt/finbio
+  fetched: '2026-11-02'
+  quote: The Swedish Museum of Natural History leads the part of FinBio that focuses on new
+    technologies such as eDNA techniques and satellite data to monitor biodiversity.
+- claim: Responsible for the core technical infrastructure of SBDI and leads the Swedish GBIF
+    node.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: NRM is responsible for the core technical infrastructure and leads the Swedish node
+    of the Global Biodiversity Information Facility
+- claim: Says it holds some of the largest natural history collections in Europe.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: NRM holds some of the largest natural history collections in Europe
+- claim: Developing a pipeline using genome sequencing, computer vision and probabilistic
+    machine learning in DarkTree.
+  url: https://www.nrm.se/forskning/forskningsprojekt/forskningsprojekt/darktree---charting-the-dark-regions-of-the-insect-tree
+  fetched: '2026-11-02'
+  quote: we are developing and refining a state-of-the-art pipeline using genome sequencing,
+    computer vision, and probabilistic machine learning
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: partners-with
+  to: insect-biome-atlas
+  url: https://www.insectbiomeatlas.org/
+  fetched: 2026-11-02
+  quote: The Insect Biome Atlas is a collaboration between The Swedish Museum of Natural History
+countries:
+- se

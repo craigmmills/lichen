@@ -1,0 +1,59 @@
+id: stiftung-naturschutz-berlin
+kind: organisation
+name: Stiftung Naturschutz Berlin
+also_known_as:
+- SNB
+scope: de
+sector: ngo
+roles:
+- supplies-data
+- governs
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: local
+status: active
+website: https://berlin.artenfinder.net
+summary: Non-governmental foundation that runs ArtenFinder platforms, partners with Stiftung
+  Natur und Umwelt Rheinland-Pfalz, and hosts the Berlin ArtenFinder observations, 6% of the
+  records.
+facts:
+- claim: Its GBIF publisher record says it and Stiftung Natur und Umwelt Rheinland-Pfalz are
+    non-governmental and operate ArtenFinder platforms.
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-11-07'
+  quote: Both organizations are non-governmental, committed to wildlife and nature and operate
+    ArtenFinder platforms.
+- claim: Hosts the ArtenFinder observations from Berlin, 6% of the records.
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-11-07'
+  quote: Observations from Berlin are hosted by the SNB (6%).
+- claim: The record gives berlin.artenfinder.net as a homepage.
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-11-07'
+  quote: https://berlin.artenfinder.net
+- claim: Has ranger teams working in eleven Berlin districts that care for the protection
+    and upkeep of ecologically valuable areas.
+  url: https://www.stiftung-naturschutz.de/
+  quote: Unsere Stadtnatur-Ranger-Teams sind in elf Berliner Bezirken unterwegs und kümmern
+    sich um den Schutz und Erhalt ökologisch wertvoller Flächen.
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: artenfinder
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-11-07'
+  quote: Both organizations are non-governmental, committed to wildlife and nature and operate
+    ArtenFinder platforms.
+- type: partners-with
+  to: stiftung-natur-und-umwelt-rheinland-pfalz
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-11-07'
+  quote: The ArtenFinder project is a cooperation of the Stiftung Natur und Umwelt Rheinland-Pfalz
+    (SNU RLP) and the Stiftung Naturschutz Berlin (SNB).
+found_by:
+- rule:checklist-misses
+- link-from:artenfinder
+added_by: agent
+checked: '2026-11-07'

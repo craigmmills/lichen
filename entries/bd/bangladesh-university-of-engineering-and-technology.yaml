@@ -1,0 +1,45 @@
+id: bangladesh-university-of-engineering-and-technology
+kind: organisation
+name: Bangladesh University of Engineering and Technology
+also_known_as:
+- BUET
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+techniques:
+- edna-genomics
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Dhaka university whose computer science and engineering researchers wrote a 2021
+  paper on the accuracy of DNA mini-barcodes for species identification using supervised machine
+  learning.
+facts:
+- claim: Two researchers in its Department of Computer Science and Engineering wrote a 2021
+    paper on the accuracy of DNA mini-barcodes for species identification with a supervised
+    machine learning approach.
+  url: https://api.openalex.org/works/W3207177628?select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Efficacy and accuracy responses of DNA mini-barcodes in species identification under
+    a supervised machine learning approach
+- claim: OpenAlex gives both authors' affiliation as the Department of Computer Science and
+    Engineering, BUET, Dhaka.
+  url: https://api.openalex.org/works/W3207177628?select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Department of Computer Science and Engineering, Bangladesh University of Engineering
+    and Technology, Dhaka, Bangladesh
+- claim: The paper's title names a supervised machine learning approach.
+  url: https://api.openalex.org/works/W3207177628?select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: under a supervised machine learning approach
+  ai_type: ml-supervised
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-07

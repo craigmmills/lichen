@@ -1,0 +1,28 @@
+id: lifewatch-cetacean-passive-acoustic-network
+kind: dataset
+name: LifeWatch permanent Cetacean passive acoustic sensor network
+scope: be
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: Active dataset from a permanent sensor network run by LifeWatch Belgium, which uses C-PODs to
+  register harbour porpoise.
+facts:
+- claim: Uses C-PODs to register harbour porpoise.
+  url: https://data.gov.be/en/datasets/2cc86bfe-c082-454b-afca-7fea3b798fa4
+  fetched: '2026-11-02'
+  quote: The sensor network uses C-PODs (Chelonia Limited) to register the presence of harbour porpoise
+links:
+- type: run-by
+  to: lifewatch-belgium
+  url: https://data.gov.be/en/datasets/2cc86bfe-c082-454b-afca-7fea3b798fa4
+  fetched: '2026-11-02'
+  quote: As part of the Belgian LifeWatch observatory, a permanent Cetacean passive acoustic network is
+    established in the Belgian Part of the North Sea.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,46 @@
+id: addaxai
+kind: model
+name: AddaxAI
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://addaxdatascience.com/addaxai/
+summary: Open-source software that identifies animals in camera-trap photos and videos,
+  using MegaDetector and regional species models.
+facts:
+- claim: Identifies animals in camera-trap photos and videos.
+  url: https://addaxdatascience.com/addaxai/
+  fetched: '2026-10-30'
+  quote: AddaxAI identifies the animals in your camera-trap photos and videos.
+- claim: Free and open source.
+  url: https://addaxdatascience.com/addaxai/
+  fetched: '2026-10-30'
+  quote: Free and open source
+- claim: AddaxAI offers DINOv2 ViT embedding models.
+  url: https://addaxdatascience.com/addaxai/
+  fetched: '2026-10-30'
+  quote: DINOv2 ViT-S/14
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: addax-data-science
+  url: https://addaxdatascience.com/about/
+  fetched: '2026-10-30'
+  quote: I’ve also created the open-source AI platform AddaxAI
+- type: builds-on
+  to: megadetector
+  url: https://addaxdatascience.com/addaxai/
+  fetched: '2026-10-30'
+  quote: MegaDetector finds the animals, and the species model
+found_by:
+- global:nature-tech-companies
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- EcoAssist

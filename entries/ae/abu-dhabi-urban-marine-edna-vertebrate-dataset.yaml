@@ -1,0 +1,47 @@
+id: abu-dhabi-urban-marine-edna-vertebrate-dataset
+kind: dataset
+name: First eDNA-Based Monitoring of Marine Vertebrates in the Urbanized Marine Ecosystem
+  Abu Dhabi
+scope: ae
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+status: active
+runner: unknown
+summary: An eDNA inventory of marine vertebrates at four urban Abu Dhabi sites that
+  detected 83 taxa, holds about 348 GBIF occurrence records, and was funded by Sorbonne
+  University Abu Dhabi.
+facts:
+- claim: An eDNA inventory of marine vertebrates at four urban sites in Abu Dhabi
+    that detected 83 vertebrate taxa.
+  url: https://api.gbif.org/v1/dataset/70a53441-4e44-4216-aac3-4e9d02e33212
+  fetched: 2026-11-12
+  quote: This project presents the first eDNA-based inventory of marine vertebrates
+    in urban marine ecosystems of Abu Dhabi (Arabian Gulf).
+- claim: Holds about 348 occurrence records on GBIF.
+  url: https://api.gbif.org/v1/dataset/70a53441-4e44-4216-aac3-4e9d02e33212
+  fetched: 2026-11-12
+  quote: '"approximateCounts":{"occurrenceCount":348}'
+- claim: Fieldwork was supported by the Environment Agency Abu Dhabi.
+  url: https://api.gbif.org/v1/dataset/70a53441-4e44-4216-aac3-4e9d02e33212
+  fetched: 2026-11-12
+  quote: Fieldwork was conducted with logistical support from the Environment Agency
+    Abu Dhabi.
+links:
+- type: funded-by
+  to: sorbonne-university-abu-dhabi
+  url: https://api.gbif.org/v1/dataset/70a53441-4e44-4216-aac3-4e9d02e33212
+  fetched: 2026-11-12
+  quote: This project was funded by Sorbonne University Abu Dhabi and the Ocean Institute.
+- type: partners-with
+  to: environment-agency-abu-dhabi
+  url: https://api.gbif.org/v1/dataset/70a53441-4e44-4216-aac3-4e9d02e33212
+  fetched: 2026-11-12
+  quote: Fieldwork was conducted with logistical support from the Environment Agency
+    Abu Dhabi.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

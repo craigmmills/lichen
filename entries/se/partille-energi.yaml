@@ -1,0 +1,40 @@
+id: partille-energi
+kind: organisation
+name: Partille Energi
+scope: se
+sector: company
+roles:
+- funds
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+scale: local
+status: active
+summary: Energy organisation that Sportfiskarna says helped pay, with Lerums Energi, for AI
+  underwater cameras in the Säveån, intended to follow fish migration and collect knowledge
+  on threatened fish species.
+facts:
+- claim: Sportfiskarna says the AI camera installation in the Säveån was paid for by Lerums
+    Energi and Partille Energi.
+  url: https://www.sportfiskarna.se/om-oss/aktuellt/nyheter/nyhet/nu-kan-fiskvandringen-i-savean-foljas-med-ai-kameror/
+  fetched: '2026-11-08'
+  quote: Satsningen är bekostad av Lerums Energi och Partille Energi.
+- claim: The AI-based underwater cameras installed in the Jonsered fish passes are intended
+    to follow fish migration upstream and downstream and collect knowledge on threatened fish
+    species.
+  url: https://www.sportfiskarna.se/om-oss/aktuellt/nyheter/nyhet/nu-kan-fiskvandringen-i-savean-foljas-med-ai-kameror/
+  fetched: '2026-11-08'
+  quote: Arbetet med att installera nya AI-baserade undervattenskameror i fiskvandringsvägarna
+    i Jonsered är nu klart.
+links:
+- type: funds
+  to: saveans-ai-kameror
+  url: https://www.sportfiskarna.se/om-oss/aktuellt/nyheter/nyhet/nu-kan-fiskvandringen-i-savean-foljas-med-ai-kameror/
+  fetched: '2026-11-08'
+  quote: Satsningen är bekostad av Lerums Energi och Partille Energi.
+found_by:
+- rule:checklist-misses
+- link-from:saevean-ai-fish-migration-research
+added_by: agent
+checked: '2026-11-08'

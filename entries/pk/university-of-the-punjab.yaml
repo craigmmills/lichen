@@ -1,0 +1,62 @@
+id: university-of-the-punjab
+kind: organisation
+name: University of the Punjab
+scope: pk
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pk
+countries:
+- pk
+scale: national
+status: active
+summary: A university established in 1882 at Lahore, whose Institute of Geography is the affiliation
+  of a 2026 canopy height paper's lead author, and which had the most works (39) in a saved
+  OpenAlex search of Pakistan-affiliated AI and nature studies since 2020.
+facts:
+- claim: Its Institute of Geography is the listed affiliation of the lead author of a 2026
+    deep learning canopy height paper on Pakistan's western Himalayas.
+  url: https://api.openalex.org/works/W7118640374
+  fetched: 2026-11-03
+  quote: Institute of Geography, University of the Punjab, Lahore, 54590, Pakistan
+- claim: Had the most works (39) in a saved OpenAlex search of Pakistan-affiliated works since
+    2020 combining nature terms with MaxEnt, deep learning, machine learning, random forest
+    or neural network terms.
+  url: https://api.openalex.org/works?filter=institutions.country_code:pk,from_publication_date:2020-01-01,title_and_abstract.search:(%22camera%20trap%22%20OR%20%22species%20distribution%22%20OR%20bioacoustic%20OR%20eDNA%20OR%20%22land%20cover%22%20OR%20mangrove%20OR%20wildlife)%20AND%20(%22deep%20learning%22%20OR%20%22machine%20learning%22%20OR%20%22random%20forest%22%20OR%20%22neural%20network%22%20OR%20MaxEnt)&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: '"key_display_name": "University of the Punjab", "count": 39'
+- claim: Established in 1882 at Lahore.
+  url: https://www.pu.edu.pk
+  fetched: 2026-11-03
+  quote: Established in 1882 at Lahore, the University of the Punjab is the largest and the
+    oldest seat of higher learning in Pakistan.
+- claim: OpenAlex lists a 2021 study with University of the Punjab authors that used machine
+    learning to analyse forest fire events in the Margalla Hills, Islamabad.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I172780181,concepts.id:C119857082|C154945302|C108583219,primary_topic.id:T10199|T10005|T10659|T10385|T12319|T10779|T11880|T12644|T14399|T12414|T10487|T11004|T12467|T10226|T10555|T10319|T14050|T11753|T10230|T12213|T13377&sort=cited_by_count:desc&per_page=12&select=id,title,publication_year,primary_topic,authorships
+  fetched: 2026-11-03
+  quote: Spatio-temporal analysis of forest fire events in the Margalla Hills, Islamabad,
+    Pakistan using socio-economic and environmental variable data with machine learning methods
+- claim: OpenAlex lists a 2024 study with University of the Punjab authors on rangeland change
+    using machine learning and remote sensing data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I172780181,concepts.id:C119857082|C154945302|C108583219,primary_topic.id:T10199|T10005|T10659|T10385|T12319|T10779|T11880|T12644|T14399|T12414|T10487|T11004|T12467|T10226|T10555|T10319|T14050|T11753|T10230|T12213|T13377&sort=cited_by_count:desc&per_page=12&select=id,title,publication_year,primary_topic,authorships
+  fetched: 2026-11-03
+  quote: Spatio-Temporal Dynamics of Rangeland Transformation using machine learning algorithms
+    and Remote Sensing data
+- claim: OpenAlex lists a 2026 study with University of the Punjab authors on forest fire
+    susceptibility mapping using remote sensing and machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I172780181,concepts.id:C119857082|C154945302|C108583219,primary_topic.id:T10199|T10005|T10659|T10385|T12319|T10779|T11880|T12644|T14399|T12414|T10487|T11004|T12467|T10226|T10555|T10319|T14050|T11753|T10230|T12213|T13377&sort=cited_by_count:desc&per_page=12&select=id,title,publication_year,primary_topic,authorships
+  fetched: 2026-11-03
+  quote: 'Artificial intelligence-driven forest fire land susceptibility mapping: A remote
+    sensing and machine learning approach'
+links: []
+found_by:
+- checklist:3
+- register:pk
+added_by: agent
+checked: 2026-11-03

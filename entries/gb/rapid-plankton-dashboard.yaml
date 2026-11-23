@@ -1,0 +1,36 @@
+id: rapid-plankton-dashboard
+kind: model
+name: RAPID
+also_known_as:
+- Real-time Automated Plankton Identification Dashboard
+scope: gb
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+summary: End-to-end zooplankton data pipeline using Edge AI on the Plankton Imager
+  camera aboard a ship.
+facts:
+- claim: Deployed on the Plankton Imager.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+  quote: 'We describe RAPID: a Real-time Automated Plankton Identification Dashboard,
+    deployed on the Plankton Imager'
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: centre-for-environment-fisheries-and-aquaculture-science
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+  quote: "The system outlined above was deployed on the Cefas RV Endeavour"
+  fetched: *id001
+- type: builds-on
+  to: plankton-analytics
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+  quote: "The PI, a high-speed colour line scan-based imaging instrument available from Plankton Analytics Ltd"
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

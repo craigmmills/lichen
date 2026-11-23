@@ -1,0 +1,47 @@
+id: central-department-of-zoology-tribhuvan-university
+kind: organisation
+name: Central Department of Zoology, Tribhuvan University
+also_known_as:
+- CDZ
+scope: np
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+scale: national
+hq: np
+countries:
+- np
+status: active
+website: https://www.cdztu.edu.np
+summary: A Tribhuvan University department in Kathmandu, listed by OpenAlex as the affiliation of the
+  first author of a paper on factors influencing mammalian community occupancy in Dhorpatan Hunting Reserve.
+facts:
+- claim: The department site gives its address as Tribhuvan University, "Kritipur", Kathmandu, using that
+    spelling.
+  url: https://www.cdztu.edu.np/
+  fetched: 2026-11-08
+  quote: Tribhuvan University, Kritipur, Kathmandu, Nepal
+- claim: OpenAlex lists a paper on factors influencing mammalian community occupancy in Dhorpatan Hunting
+    Reserve.
+  url: https://api.openalex.org/works/W4362720647?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Factors influencing mammalian community occupancy in Dhorpatan Hunting Reserve, Nepal
+- claim: OpenAlex gives the paper's first author, Sandeep Regmi, an affiliation with the department.
+  url: https://api.openalex.org/works/W4362720647?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Central Department of Zoology, Institute of Science and Technology, Tribhuvan University, Kathmandu,
+    Nepal
+links:
+- type: run-by
+  to: tribhuvan-university
+  url: https://www.cdztu.edu.np/
+  fetched: 2026-11-08
+  quote: Central Department of Zoology, Tribhuvan University
+found_by:
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-08

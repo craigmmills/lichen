@@ -1,0 +1,58 @@
+id: gbif-georgia
+kind: programme
+name: GBIF Georgia
+also_known_as: []
+scope: ge
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+countries:
+- ge
+status: active
+runner: unknown
+summary: Georgia's GBIF country node, an associate participant, to which GBIF moved endorsement of existing
+  Georgian publishers, including Ilia State University's Institute of Ecology, in August 2025.
+facts:
+- claim: GBIF's node record lists GBIF Georgia as the node for Georgia.
+  url: https://api.gbif.org/v1/node/country/GE
+  fetched: 2026-11-09
+  quote: '"title":"GBIF Georgia","participantTitle":"Georgia"'
+- claim: GBIF's directory lists GBIF Georgia as the node for Georgia, an associate participant.
+  url: https://api.gbif.org/v1/node/country/GE
+  fetched: 2026-11-09
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Georgia","participantTitle":"Georgia"'
+- claim: GBIF records that endorsement of Ilia State University's Institute of Ecology was moved to the
+    new national node in August 2025.
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: re-connecting endorsement from the PNMC to the new national node
+- claim: GBIF lists GBIF Georgia as the country node for Georgia, an associate participant.
+  url: https://api.gbif.org/v1/node/47f8cdaf-8418-420b-b7b8-2aeb6c357f43
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Georgia"'
+- claim: In August 2025 GBIF moved the endorsement of existing Georgian publishers, such as the Institute
+    of Ecology at Ilia State University, to the new national node.
+  url: https://api.gbif.org/v1/organization/f676f380-af3e-4643-a263-9a9441b53995
+  fetched: 2026-11-09
+  quote: re-connecting endorsement from the PNMC to the new national node
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/GE
+  fetched: 2026-11-09
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"EUROPE"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/47f8cdaf-8418-420b-b7b8-2aeb6c357f43
+  fetched: 2026-11-09
+  quote: '"participationStatus":"ASSOCIATE"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- link-from:institute-of-ecology-ilia-state-university
+added_by: agent
+checked: 2026-11-09

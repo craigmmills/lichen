@@ -1,0 +1,53 @@
+id: google-species-range-maps
+kind: project
+name: Google species range maps
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- species-distribution
+countries:
+- au
+status: active
+summary: Google research using a graph neural network on field observations, AlphaEarth Foundations embeddings and species traits to produce range maps, with a pilot on Australian mammals and 23 maps released through the UN Biodiversity Lab and Earth Engine.
+facts:
+- claim: Combines field observations, satellite embeddings and species traits in a graph neural network.
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: &id001 2026-10-30
+  quote: The Graph Neural Net (GNN) model combines open databases of field observations of species
+- claim: Released 23 species maps.
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: We are also releasing 23 of these species maps via the UN Biodiversity Lab and Earth Engine today.
+- claim: "The range maps come from a graph neural network."
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: 2026-10-30
+  quote: "The Graph Neural Net (GNN) model combines open databases of field observations of species"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: google-research
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: Google researchers are developing a new AI-powered approach for producing species range maps
+- type: partners-with
+  to: qcif
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: As part of a pilot with researchers at QCIF and EcoCommons
+- type: partners-with
+  to: ecocommons
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: As part of a pilot with researchers at QCIF and EcoCommons
+- type: builds-on
+  to: alphaearth-foundations
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: "The Graph Neural Net (GNN) model combines open databases of field observations of species, with satellite embeddings from AlphaEarth Foundations"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

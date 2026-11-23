@@ -1,0 +1,31 @@
+id: watersense
+kind: organisation
+name: WaterSense
+scope: pl
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+summary: Company that says it builds measuring systems, software and analytics for inland
+  waters, with a project described on its site that includes AI modules for anomaly detection
+  and forecasting.
+realms:
+- freshwater
+website: https://watersense.pl
+facts:
+- claim: Says it builds measuring systems, software and analytics for inland waters.
+  url: https://watersense.pl/rd-projects
+  fetched: '2026-11-02'
+  quote: tworząc systemy pomiarowe, oprogramowanie i analitykę potrzebne do ochrony wód śródlądowych.
+- claim: Its site describes a project with AI modules for anomaly detection and forecasting.
+  url: https://watersense.pl/rd-projects
+  fetched: '2026-11-02'
+  quote: wyposażona w moduły AI wykrywające anomalie i prognozujące wartości parametrów wody
+    z 72-godzinnym wyprzedzeniem.
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'

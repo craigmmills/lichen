@@ -1,0 +1,46 @@
+id: alibaba-cloud
+kind: organisation
+name: Alibaba Cloud
+scope: global
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: cn
+scale: global
+status: active
+website: https://www.alibabacloud.com
+summary: Cloud arm of Alibaba whose DAMO Academy built AI Earth, a platform for remote sensing
+  analysis used in natural resources, water and environmental work.
+countries:
+- ke
+facts:
+- claim: AI Earth is documented on Alibaba Cloud's help site and built on DAMO Academy expertise.
+  url: https://help.aliyun.com/en/document_detail/128318.html
+  fetched: &id001 2026-10-30
+  quote: AI Earth (Analytical Insight of Earth) is built on the expertise of the Alibaba DAMO
+    Academy in deep learning, computer vision, and geospatial analysis.
+- claim: AI Earth is built on DAMO Academy expertise in deep learning.
+  url: https://help.aliyun.com/en/document_detail/128318.html
+  fetched: 2026-10-30
+  quote: is built on the expertise of the Alibaba DAMO Academy in deep learning, computer
+    vision, and geospatial analysis.
+  ai_type: deep-learning
+- claim: Said in 2018 that a first project with Kenya's ministry, then under discussion, would
+    take place in Tsavo East and West National Parks.
+  url: https://www.alibabacloud.com/blog/alibaba-cloud-to-work-with-kenyan-ministry-to-protect-wildlife_594010
+  quote: The first project under the collaboration in discussion will take place at a designated
+    area inside the Tsavo East and West National Parks
+  fetched: '2026-10-30'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

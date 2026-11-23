@@ -1,0 +1,60 @@
+id: taxus-it
+kind: organisation
+name: Taxus.IT
+scope: pl
+sector: company
+roles:
+- unknown
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Company that says its analysts produce stand health analyses from drone and Sentinel-2
+  data, and which is linked as a builder of the SAT4EST service with IGIK.
+facts:
+- claim: The 2018 SAT4EST account describes the service as a joint effort of the Remote Sensing
+    Centre of IGIK and Taxus.IT.
+  url: https://www.nereus-regions.eu/download/5258
+  fetched: '2026-11-02'
+  quote: 2. Taxus.IT, Poland
+- claim: Was named in the SILVA NYMPHA consortium.
+  url: https://www.ibles.pl/wp-content/uploads/2025/10/M.-Mielcarek-et-al-12.09.2025.pdf
+  fetched: '2026-11-02'
+  quote: przez konsorcjum Politechniki Wrocławskiej, Instytutu Badawcze- go Leśnictwa oraz
+    TAXUS IT Spółki z o.o.
+- claim: Says its analysts produce stand health analyses from drone and Sentinel-2 data.
+  url: https://taxusit.pl/eksperci-branzowi/
+  fetched: '2026-11-02'
+  quote: Zespół analityków środowiskowych TAXUS IT tworzy ortofotomapy i analizy zdrowotności
+    drzewostanu na podstawie danych z dronów
+- claim: Says it detects changes in forest structure and monitors damage.
+  url: https://taxusit.pl/eksperci-branzowi/
+  fetched: '2026-11-02'
+  quote: możliwe jest wykrywanie zmian w strukturze lasu, monitorowanie uszkodzeń oraz generowanie
+    chmur punktów do analiz 3D.
+links:
+- type: partners-with
+  to: institute-of-geodesy-and-cartography-poland
+  url: https://www.nereus-regions.eu/download/5258
+  fetched: '2026-11-02'
+  quote: 'The EO based service is a joint effort of the Remote Sensing Centre
+
+    of IGIK and Taxus.IT.'
+- type: builds
+  to: sat4est
+  url: https://www.igik.edu.pl/pl/oferta/oferta-uslugowa/przetwarzanie-danych-geoprzestrzennych/budowa-systemow-geoinformatycznych/aplikacja-sat4est/
+  fetched: '2026-11-02'
+  quote: 'System SAT4EST został opracowany przez konsorcjum: TaxusIT Sp. z.o.o . i Instytut
+    Geodezji i Kartografii .'
+found_by:
+- checklist:5
+- link-from:forest-research-institute-poland
+added_by: agent
+checked: '2026-11-02'
+also_known_as:
+- TaxusIT Sp. z o.o.

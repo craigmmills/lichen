@@ -1,0 +1,43 @@
+id: nigeria-land-accounts
+kind: dataset
+name: Nigeria Land Accounts
+scope: ng
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ng
+scale: national
+status: active
+summary: Dataset the report calls the first land accounts for Nigeria and for Kaduna and Nasarawa states,
+  based on satellite-derived land cover maps for 2015 and 2020, built by the World Bank and led by the
+  statistics bureau.
+facts:
+- claim: The report calls these the first set of land accounts for the country and for Kaduna and Nasarawa
+    states.
+  url: https://www.nigerianstat.gov.ng/pdfuploads/Nigeria%20Land%20Accounts%20Final%20Report.pdf
+  fetched: 2026-11-03
+  quote: This report presents the first set of land accounts for the nation as a whole and for
+- claim: The accounts rest on land cover maps for 2015 and 2020 generated from satellite data.
+  url: https://www.nigerianstat.gov.ng/pdfuploads/Nigeria%20Land%20Accounts%20Final%20Report.pdf
+  fetched: 2026-11-03
+  quote: (a) Land cover maps for 2015 and 2020, generated using satellite remote sensing datasets.
+links:
+- type: built-by
+  to: world-bank
+  url: https://www.nigerianstat.gov.ng/pdfuploads/Nigeria%20Land%20Accounts%20Final%20Report.pdf
+  fetched: 2026-11-03
+  quote: This report was prepared jointly by staff of the World Bank, the United Nations Statistics
+- type: led-by
+  to: national-bureau-of-statistics-nigeria
+  url: https://www.nigerianstat.gov.ng/pdfuploads/Nigeria%20Land%20Accounts%20Final%20Report.pdf
+  fetched: 2026-11-03
+  quote: 'In Nigeria, the process was led by the National Bureau of Statistics (NBS) through a
+
+    Technical Working Group (TWG) representing some federal and state ministries and agencies.'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

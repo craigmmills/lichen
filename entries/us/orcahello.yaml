@@ -1,0 +1,48 @@
+id: orcahello
+kind: model
+name: OrcaHello
+also_known_as:
+- OrcaHello SRKW Detector
+scope: us
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+website: https://huggingface.co/orcasound/orcahello-srkw-detector-v1
+summary: Open AI model that detects endangered Southern Resident killer whale calls
+  in live hydrophone audio from the Orcasound network, with alerts used to pause coastal
+  construction and redirect boats.
+facts:
+- claim: Trained on labelled audio from the Orcasound hydrophone network.
+  url: https://huggingface.co/orcasound/orcahello-srkw-detector-v1
+  fetched: '2026-10-30'
+  quote: It was trained on labeled audio data from the Orcasound hydrophone network
+    in Puget Sound, Washington.
+- claim: Architecture is ResNet50.
+  url: https://huggingface.co/orcasound/orcahello-srkw-detector-v1
+  fetched: '2026-10-30'
+  quote: ResNet50 with custom classification head
+  ai_type: deep-learning
+- claim: Started in 2019 as a hackathon project and has expanded to 7 locations.
+  url: https://news.mongabay.com/2026/04/ai-tool-listens-for-endangered-orcas-in-real-time-to-reduce-human-disturbance/
+  fetched: '2026-10-30'
+  quote: OrcaHello started in 2019 as a hackathon project
+links:
+- type: builds-on
+  to: orcasound
+  url: https://news.mongabay.com/2026/04/ai-tool-listens-for-endangered-orcas-in-real-time-to-reduce-human-disturbance/
+  fetched: '2026-10-30'
+  quote: The tool builds on Orcasound
+- type: run-by
+  to: orcasound
+  url: https://huggingface.co/orcasound/orcahello-srkw-detector-v1
+  fetched: '2026-10-30'
+  quote: orcasound/orcahello-srkw-detector-v1
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

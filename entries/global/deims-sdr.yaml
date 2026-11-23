@@ -1,0 +1,29 @@
+id: deims-sdr
+kind: dataset
+name: DEIMS
+also_known_as:
+- Digital Environmental Information Management System
+- DEIMS-SDR
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: Metadatabase on which ILTER carries out yearly accreditation of the sites in its 39 member networks.
+facts:
+- claim: ILTER accredits its sites each year on DEIMS.
+  url: https://www.ilter.network/network/global-coverage
+  fetched: '2026-10-30'
+  quote: The periodic accreditation of ILTER sites is carried out each year on our metadatabase, DEIMS (Digital Environmental Information Management System).
+links:
+- type: run-by
+  to: international-long-term-ecological-research-network
+  url: https://www.ilter.network/network/global-coverage
+  fetched: '2026-10-30'
+  quote: our metadatabase, DEIMS
+found_by:
+- link-from:international-long-term-ecological-research-network
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,26 @@
+id: eurobis
+kind: dataset
+name: EurOBIS
+scope: be
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+summary: The European node of the international Ocean Biodiversity Information System, run by the VLIZ
+  Marine Data Center.
+facts:
+- claim: European node of the international Ocean Biodiversity Information System.
+  url: https://www.vliz.be/en/what-we-do/data-information/data
+  fetched: '2026-11-02'
+  quote: 'EurOBIS : European node of the international Ocean Biodiversity Information System, an online
+    marine biogeographic database'
+links:
+- type: run-by
+  to: vliz-marine-data-center
+  url: https://www.vliz.be/en/what-we-do/data-information/data
+  fetched: '2026-11-02'
+  quote: 'The data center manages international e-infrastructures such as:'
+found_by:
+- link-from:flanders-marine-institute
+added_by: agent
+checked: '2026-11-02'

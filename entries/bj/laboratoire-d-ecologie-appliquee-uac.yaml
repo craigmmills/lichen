@@ -1,0 +1,71 @@
+id: laboratoire-d-ecologie-appliquee-uac
+kind: organisation
+name: Laboratoire d'Ecologie Appliquée
+also_known_as:
+- LEA
+- Laboratory of Applied Ecology
+- LEA/UAC
+scope: bj
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: bj
+countries:
+- bj
+scale: national
+status: active
+website: http://leabenin-fsauac.net/en/
+summary: Laboratory in the Faculty of Agronomic Sciences at the University of Abomey-Calavi,
+  created in 1994, listed as publisher of twenty GBIF datasets, including an inventory of
+  animal species in protected areas.
+facts:
+- claim: Part of the Faculty of Agronomic Sciences at the University of Abomey-Calavi, created
+    in 1994.
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08
+  fetched: 2026-11-08
+  quote: Created by Professor Brice Sinsin in 1994, the Laboratory of Applied Ecology (LEA)
+    is part of the Faculty of Agronomic Sciences (FSA) at the University of Abomey-Calavi
+    (UAC-Benin).
+- claim: Publishes a GBIF dataset inventorying animal species in Benin's protected areas and
+    national parks.
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08/publishedDataset
+  fetched: 2026-11-08
+  quote: Inventaire des espèces animales présentes dans les aires protégées et parcs nationaux
+    au Bénin
+- claim: Twenty datasets are listed under it as publisher on GBIF.
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08/publishedDataset
+  fetched: 2026-11-08
+  quote: '"count":20'
+- claim: Its GBIF record says its research has produced more than 300 scientific publications
+    in peer-reviewed international journals, books and conference proceedings.
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08
+  fetched: 2026-11-08
+  quote: Scientific research at the LEA has resulted in more than 300 scientific publications
+    in peer-reviewed international scientific journals
+- claim: Its GBIF datasets include an inventory of animal species in Benin's protected areas
+    and national parks.
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08/publishedDataset?limit=25
+  fetched: '2026-11-08'
+  quote: Inventaire des espèces animales présentes dans les aires protégées et parcs nationaux
+    au Bénin
+links:
+- type: run-by
+  to: universite-d-abomey-calavi
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08
+  fetched: 2026-11-08
+  quote: the Laboratory of Applied Ecology (LEA) is part of the Faculty of Agronomic Sciences
+    (FSA) at the University of Abomey-Calavi (UAC-Benin)
+- type: run-by
+  to: universite-d-abomey-calavi
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08
+  fetched: '2026-11-08'
+  quote: is part of the Faculty of Agronomic Sciences (FSA) at the University of Abomey-Calavi
+    (UAC-Benin)
+found_by:
+- queue:bj
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

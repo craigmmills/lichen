@@ -1,0 +1,51 @@
+id: microsoft-ai-for-good-lab
+kind: organisation
+name: Microsoft AI for Good Lab
+also_known_as:
+- AI for Good Lab
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/
+summary: Microsoft research lab whose biodiversity work covers MegaDetector, PyTorch-Wildlife,
+  SPARROW, bioacoustics, overhead imagery and sonar detection of ghost nets.
+facts:
+- claim: Hosts its biodiversity work in one GitHub hub.
+  url: https://github.com/microsoft/CameraTraps
+  fetched: &id001 2026-10-30
+  quote: Microsoft AI for Good Lab — Biodiversity research hub. Open-source AI models, edge
+    devices, and tools for biodiversity monitoring and conservation.
+- claim: Reports 94% detection accuracy for ghost nets from sonar data.
+  url: https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/
+  fetched: *id001
+  quote: Using AI-driven analysis of high-resolution sonar data, researchers achieve 94% detection
+    accuracy
+- claim: The lab's repository is tagged deep-learning.
+  url: https://github.com/microsoft/CameraTraps
+  fetched: 2026-10-30
+  quote: conservation conservation-ai deep-learning ecology
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: microsoft
+  url: https://blogs.microsoft.com/on-the-issues/2024/12/18/announcing-sparrow-a-breakthrough-ai-tool-to-measure-and-protect-earths-biodiversity-in-the-most-remote-places/
+  fetched: *id001
+  quote: developed by Microsoft’s AI for Good Lab
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

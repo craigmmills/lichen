@@ -1,0 +1,51 @@
+id: alphonse-pelagic-shark-satellite-tracking
+kind: project
+name: Tracking Pelagic Sharks around Alphonse
+scope: sc
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+status: active
+countries:
+- sc
+summary: Satellite-tracking project built and run by the Island Conservation Society,
+  aiming to fit 10 tags to five shark species, with seven deployed at the time of
+  the news item.
+facts:
+- claim: ICS has launched a satellite-tracking project to understand shark movements,
+    fishing pressures and the role of marine protected areas.
+  url: https://www.islandconservationseychelles.com/news.html
+  fetched: 2026-11-12
+  quote: Island Conservation Society (ICS) has launched a satellite-tracking project
+    to understand shark movements, fishing pressures and the role of Marine Protected
+    Areas in safeguarding these vital predators.
+- claim: Aims to fit 10 satellite tags to bull, dusky, silky, shortfin mako and tiger
+    sharks; seven had been deployed at the time of the news item.
+  url: https://www.islandconservationseychelles.com/news.html
+  fetched: 2026-11-12
+  quote: Despite challenging sea conditions, the team has successfully deployed seven
+    tags so far.
+- claim: Uses SPOT tags for location and temperature and SPLASH tags that also record
+    depth and diving behaviour.
+  url: https://www.islandconservationseychelles.com/news.html
+  fetched: 2026-11-12
+  quote: The SPOT tags collect location and temperature data and are expected to operate
+    for approximately 18 months.
+links:
+- type: built-by
+  to: island-conservation-society
+  url: https://www.islandconservationseychelles.com/news.html
+  fetched: &id001 2026-11-12
+  quote: Island Conservation Society (ICS) has launched a satellite-tracking project
+- type: run-by
+  to: island-conservation-society
+  url: https://www.islandconservationseychelles.com/news.html
+  fetched: *id001
+  quote: The research is ongoing, and ICS will share further findings as the satellite
+    tracking data reveal more about the journeys of these remarkable animals.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

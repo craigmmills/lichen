@@ -1,0 +1,31 @@
+id: groenmonitor
+kind: dataset
+name: Groenmonitor
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+countries:
+- nl
+runner: unknown
+summary: Service that monitors how green the Netherlands is using satellite images.
+scope: nl
+facts:
+- claim: The EU open data portal describes it as monitoring how green the Netherlands
+    is with satellite images.
+  url: https://data.europa.eu/publications/use-cases/groenmonitor
+  fetched: '2026-10-31'
+  quote: Groenmonitor (Green monitor) monitors how green the Netherlands is by using
+    satellite images.
+- claim: Shows a current vegetation map of the whole Netherlands from satellite images.
+  url: https://www.wur.nl/nl/onderzoek/producten-diensten/groenmonitor
+  fetched: '2026-10-31'
+  quote: De Groenmonitor toont via satellietbeelden een actuele vegetatiekaart van
+    heel Nederland.
+links: []
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

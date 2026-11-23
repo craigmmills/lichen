@@ -1,0 +1,65 @@
+id: amba
+kind: organisation
+name: Ambá
+scope: uy
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: uy
+countries:
+- uy
+scale: local
+status: active
+summary: NGO working to restore people's emotional bond with nature, which says it has run camera-trap
+  mammal surveys in the Sierras de Rocha since 2015 and in Río Negro since 2023.
+facts:
+- claim: Its GBIF publisher record says it has run continuous camera-trap mammal surveys in the Sierras
+    de Rocha since 2015, on its own properties and those of neighbours.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: Since 2015, Ambá has been conducting continuous mammal surveys in the Sierras de Rocha by setting
+    up camera traps on both its own properties and those of neighbors who grant access.
+- claim: The same record says camera traps are set in areas used by margay to identify individuals from
+    their spot patterns.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: Additionally, camera traps are set up in areas frequented by margay to perform individual identification
+    through spot patterns.
+- claim: GBIF's registry gives its address on Ruta 109, Rocha.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"address":["Ruta 109km 22"],"city":"Rocha","country":"UY"'
+- claim: Describes itself as an NGO working to restore people's emotional bond with nature and regenerate
+    ecosystems.
+  url: http://www.amba.org.uy
+  fetched: 2026-11-08
+  quote: Somos una ONG que trabaja con el propósito de restaurar el vínculo emocional del ser humano con
+    la naturaleza y regenerar los ecosistemas.
+- claim: Its GBIF publisher record says it has run continuous mammal surveys with camera traps in the
+    Sierras de Rocha since 2015.
+  url: https://api.gbif.org/v1/organization/2f64d029-5e01-4e52-b586-469a94dab463
+  fetched: 2026-11-08
+  quote: Since 2015, Ambá has been conducting continuous mammal surveys in the Sierras de Rocha by setting
+    up camera traps on both its own properties and those of neighbors who grant access.
+- claim: Its GBIF publisher record says it also sets camera traps in areas used by margay to identify
+    individuals from their spot patterns.
+  url: https://api.gbif.org/v1/organization/2f64d029-5e01-4e52-b586-469a94dab463
+  fetched: 2026-11-08
+  quote: camera traps are set up in areas frequented by margay to perform individual identification through
+    spot patterns.
+- claim: Its GBIF publisher record says mammal surveys with camera traps have been carried out in the
+    Río Uruguay area, Río Negro Department, since 2023.
+  url: https://api.gbif.org/v1/organization/2f64d029-5e01-4e52-b586-469a94dab463
+  fetched: 2026-11-08
+  quote: Since 2023, mammal surveys have been conducted in the Río Uruguay area, in the Río Negro Department,
+    by setting up camera traps on private properties that provide access.
+links: []
+found_by:
+- link-from:gbif-uruguay
+- rule:ngo-broad
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,66 @@
+id: gbif-bulgaria
+kind: programme
+name: GBIF Bulgaria
+scope: bg
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- bg
+status: active
+summary: Active national node of GBIF, listed as a voting participant in Europe, after Bulgaria's environment
+  minister signed a memorandum to join in July 2025.
+facts:
+- claim: GBIF's registry lists GBIF Bulgaria as a voting participant node in the Europe region.
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Bulgaria"'
+- claim: In July 2025, the ministry announced that the Minister of Environment and Water had signed a
+    memorandum for Bulgaria to join GBIF.
+  url: https://www.moew.government.bg/en/bulgaria-joins-the-global-biodiversity-information-facility/
+  fetched: 2026-11-08
+  quote: The Minister of Environment and Water Manol Genov signed a memorandum of understanding with which
+    Bulgaria joins the Global Biodiversity Information Facility (GBIF).
+- claim: Bulgaria is a voting participant in GBIF.
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE"'
+- claim: The node's contact address is a unit for monitoring of biodiversity, forest ecosystems and soils,
+    under environmental monitoring and assessment, in Sofia.
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: Monitoring of biodiversity, forest ecosystems and soils\nEnvironmental Monitoring and Assessment\nSofia
+    1618
+- claim: GBIF's registry lists the node as GBIF Bulgaria.
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Bulgaria"'
+- claim: GBIF's registry lists Bulgaria as a voting participant.
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF's registry records a Sofia University collection's endorsement being moved to the new national
+    node in August 2025.
+  url: https://api.gbif.org/v1/organization/1f5785cc-6de1-494a-ab33-4b1083f8f1b3
+  fetched: 2026-11-08
+  quote: re-connecting endorsement from the PNMC to the new national node
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Bulgaria","participantTitle":"Bulgaria"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/8dae0f8c-12bc-444d-b889-6b177550a8b2
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+runner: unknown

@@ -1,0 +1,39 @@
+id: safetynet-technologies
+kind: organisation
+name: SafetyNet Technologies
+scope: gb
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: gb
+scale: national
+status: closed
+summary: Closed conservation tech start-up that hired for SeaFrame, underwater video analysis
+  software; former staff founded CatchCam Technologies in 2024.
+facts:
+- claim: Advertised for a computer vision engineer for underwater video analysis software.
+  url: https://sntech.co.uk/wp-content/uploads/2024/02/SeaFrame-Computer-Vision-Engineer-Job-Description.pdf
+  quote: Computer Vision Engineer at SafetyNet Technologies
+  fetched: &id002 2026-10-30
+- claim: CatchCam says SafetyNet Technologies closed because of market conditions.
+  url: https://sntech.co.uk/about/
+  quote: While SNTech closed its doors due to challenging market conditions
+  fetched: &id001 2026-10-30
+- claim: Companies House shows the company as dissolved.
+  url: https://find-and-update.company-information.service.gov.uk/company/07834546
+  quote: Dissolved on
+  fetched: *id001
+- claim: Filing history records an offer from CatchCam Technologies for all its assets.
+  url: https://find-and-update.company-information.service.gov.uk/company/07834546/filing-history
+  quote: proposed offer received from catchcam technologies to purchase all of the assets
+    of the company
+  fetched: *id001
+found_by:
+- checklist:5
+added_by: agent
+checked: *id002

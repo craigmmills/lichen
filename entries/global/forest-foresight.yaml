@@ -1,0 +1,39 @@
+id: forest-foresight
+kind: model
+name: Forest Foresight
+scope: global
+ai_label: ai
+ai_types: [ml-supervised]
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pe
+status: active
+website: https://www.forestforesight.org
+summary: Open-source predictive model from WWF that combines satellite imagery with geospatial and socioeconomic data to predict forest loss up to six months ahead.
+facts:
+- claim: Predicts forest loss up to six months in advance.
+  url: https://www.thestar.com.my/tech/tech-news/2026/03/09/leveraging-ai-for-global-conservation-efforts-wwf039s-innovative-approach
+  quote: predict forest loss up to six months in advance through a predictive AI model that analyses past forest loss patterns
+  fetched: 2026-10-30
+- claim: Open source.
+  url: https://www.thestar.com.my/tech/tech-news/2026/03/09/leveraging-ai-for-global-conservation-efforts-wwf039s-innovative-approach
+  quote: Forest Foresight has also been made open-source
+  fetched: 2026-10-30
+- claim: "Forest Foresight trains an XGBoost model for deforestation prediction."
+  url: https://forestforesight.atlassian.net/wiki/spaces/EWS/pages/551747586/ff_train+training+a+model
+  fetched: 2026-10-30
+  quote: "The ff_train function is designed to train an XGBoost model for deforestation prediction"
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: world-wide-fund-for-nature
+  url: https://www.thestar.com.my/tech/tech-news/2026/03/09/leveraging-ai-for-global-conservation-efforts-wwf039s-innovative-approach
+  quote: the WWF has deployed both ManglarIA, which looks at supporting mangrove ­ecosystems, and Forest Foresight
+  fetched: 2026-10-30
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

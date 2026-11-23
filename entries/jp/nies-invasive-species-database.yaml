@@ -1,0 +1,41 @@
+id: nies-invasive-species-database
+kind: dataset
+name: NIES Invasive Species Database
+also_known_as:
+- 侵入生物データベース
+- Invasive Alien Species data base in NIES
+scope: jp
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+countries:
+- jp
+summary: Database run and built by the National Institute for Environmental Studies, listed on its home
+  page, with a fiscal 2010 project page describing its management and extension.
+facts:
+- claim: A National Institute for Environmental Studies project page from fiscal 2010 describes managing
+    and extending the institute's invasive species database.
+  url: https://www.nies.go.jp/research/subjects/2010/21014_fy2010.html
+  fetched: 2026-11-02
+  quote: 既存の国立環境研究所侵入生物データベースの拡張を行う
+- claim: The institute's home page lists it under the databases it offers.
+  url: https://www.nies.go.jp/
+  fetched: 2026-11-02
+  quote: 侵入生物データベース
+links:
+- type: run-by
+  to: national-institute-for-environmental-studies
+  url: https://www.nies.go.jp/research/subjects/2010/21014_fy2010.html
+  fetched: &id001 2026-11-02
+  quote: The management of Invasive Alien Species data base in NIES
+- type: built-by
+  to: national-institute-for-environmental-studies
+  url: https://www.nies.go.jp/research/subjects/2010/21014_fy2010.html
+  fetched: *id001
+  quote: 国立環境研究所侵入生物研究チームは地球環境研究総合推進費2002年度開始課題「侵入種による生物多様性影響機構に関する研究」（総額180,000千円、課題代表：五箇公一）の一環として、侵入種の生態学的特性を網羅した国内初の電子版データベースを構築し、2004年春より国立環境研ＨＰにて一般に公開を開始した。
+found_by:
+- link-from:national-institute-for-environmental-studies
+added_by: agent
+checked: 2026-11-02

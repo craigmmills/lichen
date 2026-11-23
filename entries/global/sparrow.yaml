@@ -1,0 +1,39 @@
+id: sparrow
+kind: project
+name: SPARROW
+also_known_as:
+- Solar-Powered Acoustic and Remote Recording Observation Watch
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+status: active
+website: https://github.com/microsoft/SPARROW
+summary: Solar-powered edge device from the Microsoft AI for Good Lab that collects camera trap and acoustic data, runs wildlife AI models on site and sends results by low-Earth orbit satellite.
+facts:
+- claim: Solar-powered device that processes biodiversity data on low-energy edge GPUs and transmits it by low-Earth orbit satellite.
+  url: https://blogs.microsoft.com/on-the-issues/2024/12/18/announcing-sparrow-a-breakthrough-ai-tool-to-measure-and-protect-earths-biodiversity-in-the-most-remote-places/
+  fetched: &id001 2026-10-30
+  quote: transmitted via low-Earth orbit satellites directly to the cloud
+- claim: Microsoft said software, hardware plans and designs would be open source.
+  url: https://blogs.microsoft.com/on-the-issues/2024/12/18/announcing-sparrow-a-breakthrough-ai-tool-to-measure-and-protect-earths-biodiversity-in-the-most-remote-places/
+  fetched: *id001
+  quote: Every aspect of SPARROW—from its software and hardware plans to its 3D-printable designs—will be open source.
+links:
+- type: run-by
+  to: microsoft-ai-for-good-lab
+  url: https://github.com/microsoft/SPARROW
+  fetched: *id001
+  quote: SPARROW , developed by Microsoft's AI for Good Lab
+- type: builds-on
+  to: pytorch-wildlife
+  url: https://blogs.microsoft.com/on-the-issues/2024/12/18/announcing-sparrow-a-breakthrough-ai-tool-to-measure-and-protect-earths-biodiversity-in-the-most-remote-places/
+  fetched: *id001
+  quote: processed using our most advanced PyTorch-based wildlife AI models
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

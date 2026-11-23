@@ -1,0 +1,64 @@
+id: wendou
+kind: dataset
+name: WENDOU
+also_known_as:
+- Water ENvironment Dashboard for Observation in support of Users
+- Water ENvironment Dashboard for Observation in support of Users in Ferlo, Senegal
+scope: sn
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+countries:
+- sn
+status: unknown
+runner: unknown
+summary: Dashboard for monitoring temporary surface water bodies in the Ferlo region
+  of Senegal, from the SERVIR programme, using satellite data.
+facts:
+- claim: SERVIR's app centre calls it an ephemeral water body monitoring dashboard.
+  url: https://appcenter.servirglobal.net/detail/25
+  fetched: '2026-10-31'
+  quote: Wendou is an Ephemeral Water Body Monitoring Dashboard
+- claim: A 2025 Frontiers paper describes the platform as promising but not yet used
+    routinely to assess water availability.
+  url: https://www.frontiersin.org/articles/10.3389/frwa.2025.1320010/full
+  fetched: '2026-10-31'
+  quote: on the WENDOU platform (Water ENvironment Dashboard for Observation in support
+    of Users; SERVIR, 2024 )
+- claim: Full name of the dashboard, which covers the Ferlo.
+  url: https://wendou.cse.sn/
+  fetched: '2026-10-31'
+  quote: WENDOU (Water ENvironment Dashboard for Observation in support of Users in
+    Ferlo, Senegal)
+- claim: Carries layers of herbaceous biomass.
+  url: https://wendou.cse.sn/
+  fetched: '2026-10-31'
+  quote: biomasse herbacée
+- claim: Its disclaimer names the SERVIR programme, NASA and USAID.
+  url: https://wendou.cse.sn/
+  fetched: '2026-10-31'
+  quote: The SERVIR Program, NASA, USAID and SERVIR partner organizations
+- claim: Listed on the Centre de Suivi Ecologique's platforms page.
+  url: https://www.cse.sn/plateformes/
+  fetched: '2026-10-31'
+  quote: WENDOU
+links:
+- type: partners-with
+  to: servir
+  url: https://wendou.cse.sn/
+  fetched: '2026-10-31'
+  quote: The SERVIR Program, NASA, USAID and SERVIR partner organizations
+- type: partners-with
+  to: centre-de-suivi-ecologique
+  url: https://www.cse.sn/
+  fetched: '2026-10-31'
+  quote: "Plateformes BADGE GMES & AFRICA ORLOA RRIS WENDOU GDZHAO"
+found_by:
+- checklist:2
+- link-from:servir
+- link-from:centre-de-suivi-ecologique
+added_by: agent
+checked: '2026-10-31'

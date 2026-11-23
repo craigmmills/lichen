@@ -1,0 +1,62 @@
+id: hong-kong-university-of-science-and-technology
+kind: organisation
+name: Hong Kong University of Science and Technology
+also_known_as:
+- HKUST
+scope: hk
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- edna-genomics
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: University whose staff authored a 2025 coral reef image labelling tool paper
+  and who, from June 2018, worked with the Drainage Services Department on AI cameras
+  counting egrets, per a 2019 government report.
+facts:
+- claim: Its staff are first and corresponding authors of a 2025 paper describing
+    CoralSCOP-LAT, a tool for labelling and analysing coral reef images.
+  url: https://api.openalex.org/works/W4413884133?select=id,title,publication_year,corresponding_institution_ids,authorships,primary_location
+  fetched: 2026-11-14
+  quote: 'CoralSCOP-LAT: Labeling and analyzing tool for coral reef images with dense
+    semantic mask'
+- claim: Corresponding institution on a 2025 paper on cetacean-specific primers for
+    environmental DNA metabarcoding.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I200769079,publication_year:2022-2026,primary_topic.subfield.id:2303&per_page=30&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: A Set of Cetacean
+- claim: Corresponding institution on a 2023 study linking hidden heatwaves and severe
+    coral bleaching to mesoscale eddies.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I200769079,publication_year:2022-2026,primary_topic.subfield.id:2303&per_page=30&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: Hidden heatwaves and severe coral bleaching linked to mesoscale eddies and
+    thermocline dynamics
+- claim: From June 2018 worked with the Drainage Services Department on AI cameras
+    at the Sha Tin Sewage Treatment Works and Penfold Park that distinguish types
+    of egret and count them, according to a 2019 government news report.
+  url: https://www.news.gov.hk/eng/2019/06/20190606/20190606_133241_198.html
+  fetched: 2026-11-14
+  quote: Last June, the Drainage Services Department began collaborating with the
+    Hong Kong University of Science & Technology to use state of the art green artificial
+    intelligence technology to monitor the birds.
+- claim: The report quotes the project team saying they trained the model by telling
+    it which egret species each example showed, against different backgrounds.
+  url: https://www.news.gov.hk/eng/2019/06/20190606/20190606_133241_198.html
+  fetched: 2026-11-14
+  quote: We train the model. We tell the model this is a great egret.
+  ai_type: ml-supervised
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

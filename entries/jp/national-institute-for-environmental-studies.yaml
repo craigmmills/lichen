@@ -1,0 +1,97 @@
+id: national-institute-for-environmental-studies
+kind: organisation
+name: National Institute for Environmental Studies
+also_known_as:
+- 国立環境研究所
+- NIES
+scope: jp
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+- computer-vision
+- remote-sensing
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://www.nies.go.jp/
+summary: Tsukuba institute describing itself as Japan’s only public institute spanning environmental
+  research, whose fiscal 2026 plan calls for observation technology using eDNA, cameras, AI,
+  drones and remote sensing.
+facts:
+- claim: Describes itself as Japan's only public institute working across environmental research.
+  url: https://www.nies.go.jp/whatsnew/2025/20250430/20250430.html
+  fetched: 2026-11-02
+  quote: 国立環境研究所（国環研）は幅広い環境研究に学際的かつ総合的に取り組む我が国唯一の公的な研究所です。
+- claim: The Biodiversity Division advances biodiversity observation methods using automated
+    observation and environmental DNA, on a base of long-term monitoring.
+  url: https://www.nies.go.jp/about/organization/biology.html
+  fetched: 2026-11-02
+  quote: 特に、長期モニタリングを基盤として、自動観測技術や環境DNAを活用した生物多様性観測手法の高度化を進めています。
+- claim: The division says it will establish an environmental DNA research hub and promote
+    eDNA analysis and links between regional research institutions.
+  url: https://www.nies.go.jp/about/organization/biology.html
+  fetched: 2026-11-02
+  quote: 「環境DNA研究拠点」を新たに設置し、環境DNA解析の普及と地域研究機関をつなぐハブ機能の構築を進めます。
+- claim: The Biodiversity Division's methods include monitoring projects, DNA barcoding, camera
+    trap data and environmental DNA analyses.
+  url: https://api.gbif.org/v1/organization/ec424844-8efc-47ea-a446-60c6ded83cf3
+  fetched: '2026-11-02'
+  quote: including monitoring projects, DNA barcoding, camera trap data, environmental DNA
+    analyses
+- claim: GBIF record says AI-based classification is expected to be introduced with other
+    institutions.
+  url: https://api.gbif.org/v1/organization/ec424844-8efc-47ea-a446-60c6ded83cf3
+  fetched: '2026-11-02'
+  quote: AI-based classification is expected to be introduced in collaboration with other
+    institutions
+- claim: Address at 16-2 Onogawa, Tsukuba.
+  url: https://www.nies.go.jp/biology/en/index.html
+  fetched: '2026-11-02'
+  quote: 16-2 Onogawa, Tsukuba, Ibaraki 305-8506, Japan
+- claim: Publishes biodiversity databases from its research.
+  url: https://www.nies.go.jp/biology/en/index.html
+  fetched: '2026-11-02'
+  quote: We make databases of biodiversity information derived from our research and publish
+    it on the website.
+- claim: Its fiscal 2026 research plan calls for developing observation technology using eDNA,
+    automatic cameras, AI, drones and remote sensing.
+  url: https://www.nies.go.jp/research/subjects/2026/27654_fy2026.html
+  fetched: '2026-11-02'
+  quote: 環境DNA、自動撮影、AI、ドローン・リモートセンシング等を活用した観測技術の開発を進める。
+- claim: Plans a nationwide eDNA monitoring system for inland waters, with local environmental
+    research institutes.
+  url: https://www.nies.go.jp/research/subjects/2026/27656_fy2026.html
+  fetched: '2026-11-02'
+  quote: 環境DNAによる全国規模の陸水域生物多様性モニタリング体制を整備する。
+- claim: Says it offers its survey and research results widely as databases.
+  url: https://www.nies.go.jp/
+  fetched: 2026-11-02
+  quote: データベースとして広く提供しています
+- claim: A data paper gives its Biodiversity Division's location as Tsukuba, Ibaraki.
+  url: https://bdj.pensoft.net/article/141168/download/xml/
+  fetched: 2026-11-02
+  quote: Biodiversity Division, National Institute for Environmental Studies, Tsukuba, Ibaraki,
+    Japan
+found_by:
+- checklist:3
+- link-from:queue-jp
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+links:
+- type: partners-with
+  to: japan-initiative-for-biodiversity-information
+  url: https://api.gbif.org/v1/organization/ec424844-8efc-47ea-a446-60c6ded83cf3
+  fetched: '2026-11-02'
+  quote: The Biodiversity Division at NIES promotes open data in biodiversity research as
+    a sub-core center of the Japan Initiative for Biodiversity Information (JBIF)

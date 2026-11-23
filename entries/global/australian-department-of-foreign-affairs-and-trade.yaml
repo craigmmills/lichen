@@ -1,0 +1,38 @@
+id: australian-department-of-foreign-affairs-and-trade
+kind: organisation
+name: Australian Department of Foreign Affairs and Trade
+also_known_as:
+- DFAT
+scope: global
+sector: government
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- remote-sensing
+hq: au
+scale: global
+status: active
+summary: Australian government department named as a funding partner of Digital Earth Africa,
+  with the Helmsley Charitable Trust.
+facts:
+- claim: Named as a funding partner of Digital Earth Africa.
+  url: https://digitalearthafrica.org/fr/?p=3433
+  quote: our funding partners, the Helmsley Charitable Trust and the Australian Government
+    Department of Foreign Affairs and Trade
+  fetched: &id001 2026-10-30
+links:
+- type: funds
+  to: digital-earth-africa
+  url: https://digitalearthafrica.org/fr/?p=3433
+  quote: our funding partners, the Helmsley Charitable Trust and the Australian Government
+    Department of Foreign Affairs and Trade
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

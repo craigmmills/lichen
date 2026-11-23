@@ -1,0 +1,32 @@
+id: satcat
+kind: dataset
+name: SatCat
+scope: es
+also_known_as:
+- Catalonia Satellite Image Server
+- Servidor d'Imatges de Satèl·lit de Catalunya
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: Catalonia Satellite Image Server, a public bank of Landsat images of Catalonia
+  from 1972 onwards, prepared with MiraMon.
+facts:
+- claim: Gives access to a historical bank of Landsat images of Catalonia from 1972
+    onwards.
+  url: http://www.creaf.cat/ca/recerca/directori-de-recerca/catalonia-satellite-image-server
+  fetched: '2026-10-31'
+  quote: dóna accés a un banc històric d'imatges del territori català preses pels
+    satèl·lits Landsat entre l'any 1972 i l'actualitat
+links:
+- type: run-by
+  to: grumets-research-group
+  url: http://www.creaf.cat/ca/recerca/directori-de-recerca/catalonia-satellite-image-server
+  fetched: '2026-10-31'
+  quote: GRUMETS ha estat ordenant i carregant al servidor totes les imatges de Catalunya
+found_by:
+- link-from:creaf
+added_by: agent
+checked: '2026-10-31'

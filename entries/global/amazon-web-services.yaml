@@ -1,0 +1,58 @@
+id: amazon-web-services
+kind: organisation
+name: Amazon Web Services
+also_known_as:
+- AWS
+scope: global
+sector: company
+roles:
+- supplies-data
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://aws.amazon.com
+summary: Cloud company that hosts open environmental data through the Registry of Open Data
+  and the Amazon Sustainability Data Initiative and funds nonprofit technology work through
+  the AWS Imagine Grant.
+facts:
+- claim: Runs the Amazon Sustainability Data Initiative jointly with Amazon's sustainability
+    team.
+  url: https://aws.amazon.com/blogs/publicsector/the-amazon-sustainability-data-initiative-driving-sustainability-innovation-with-open-data-and-cloud-technology
+  fetched: &id001 2026-10-30
+  quote: is a joint effort between the AWS Open Data and Amazon Sustainability teams
+- claim: The National Fish and Wildlife Foundation says AWS selected it for a 2025 IMAGINE
+    Grant.
+  url: https://www.nfwf.org/media-center/press-releases/nfwf-awarded-50000-amazon-web-services-aws-2025-imagine-grant
+  quote: Now AWS has selected NFWF as a winner of the 2025 AWS IMAGINE Grant
+  fetched: '2026-10-30'
+- claim: The National Biodiversity Network Trust says it won an award from the inaugural 2023
+    IMAGINE Grant UK.
+  url: https://nbn.org.uk/?p=31933
+  quote: The NBN Trust is delighted to be receiving a Go Further, Faster award from Amazon
+    Web Services’ inaugural 2023 IMAGINE Grant UK for Non-profits.
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: wildlife-conservation-society
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  fetched: *id001
+  quote: WCS creates transparency around coral reef health and empowers people and institutions
+    with the data they need to take action to save reefs. With support from the AWS Imagine
+    Grant that provides both cash and Amazon Web Services (AWS) credit funding
+- type: partners-with
+  to: natural-history-museum-london
+  url: https://sustainabilitymag.com/articles/inside-the-natural-history-museums-partnership-with-aws
+  quote: Amazon Web Services and London’s Natural History Museum have teamed up to reshape
+    biodiversity monitoring
+  fetched: '2026-10-30'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

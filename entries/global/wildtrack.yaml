@@ -1,0 +1,79 @@
+id: wildtrack
+kind: organisation
+name: WildTrack
+scope: global
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://wildtrack.org
+summary: Non-profit that identifies endangered animals from their footprints, using data analytics,
+  AI and traditional ecological knowledge.
+countries:
+- zw
+facts:
+- claim: Uses data analytics, AI and traditional ecological knowledge.
+  url: https://wildtrack.org/
+  quote: WildTrack’s mission is to protect endangered species using a unique combination of
+    advanced data analytics, artificial intelligence, and traditional ecological knowledge.
+  fetched: 2026-10-30
+- claim: Listed in Durham, North Carolina in ProPublica's Nonprofit Explorer as Wildtrack
+    Inc.
+  url: https://projects.propublica.org/nonprofits/api/v2/search.json?q=WildTrack
+  quote: '"name":"Wildtrack Inc","sub_name":"Wildtrack Inc","city":"Durham","state":"NC"'
+  fetched: 2026-10-30
+- claim: Wildtrack publishes on print classification using deep learning.
+  url: https://wildtrack.org/our-work/publications
+  fetched: 2026-10-30
+  quote: Classification on Soil Substrates Using Deep Learning
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: amazon-web-services
+  url: https://wildtrack.org/about/partners
+  fetched: 2026-10-31
+  quote: Corporate Partners
+  logo: https://aws.amazon.com/?utm_source=wildtrack
+- type: partners-with
+  to: nvidia
+  url: https://wildtrack.org/about/partners
+  fetched: 2026-10-31
+  quote: Corporate Partners
+  logo: https://www.nvidia.com/en-us/?utm_source=wildtrack
+- type: partners-with
+  to: us-forest-service
+  url: https://wildtrack.org/about/partners
+  fetched: 2026-10-31
+  quote: Government Partners
+  logo: https://www.fs.usda.gov/
+- type: partners-with
+  to: texas-parks-and-wildlife-department
+  url: https://wildtrack.org/about/partners
+  fetched: 2026-10-31
+  quote: Government Partners
+  logo: https://tpwd.texas.gov/?utm_source=wildtrack
+- type: partners-with
+  to: university-of-california-berkeley
+  url: https://wildtrack.org/about/story
+  fetched: 2026-10-31
+  quote: Started working with UC Berkeley to design an AI-powered pipeline to automate the
+    identification and classification of footprint images.
+- type: partners-with
+  to: harvard-university
+  url: https://wildtrack.org/about/story
+  fetched: 2026-10-31
+  quote: Started collaborating with Harvard University groups on further development of the
+    AI pipeline.
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

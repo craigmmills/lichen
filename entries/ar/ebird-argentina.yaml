@@ -1,0 +1,43 @@
+id: ebird-argentina
+kind: programme
+name: eBird Argentina
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ar
+scale: national
+status: active
+summary: Argentine portal of eBird, set up in 2013 and run by Aves Argentinas, in
+  which more than 18,800 users have reported 1,062 species in over 817,200 checklists.
+facts:
+- claim: A poster by Aves Argentinas staff describes eBird as developed by the Cornell
+    Lab of Ornithology and managed locally by Aves Argentinas.
+  url: https://sedici.unlp.edu.ar/bitstream/handle/10915/64822/P%C3%B3ster_.pdf?sequence=1
+  quote: eBird es una plataforma de ciencia ciudadana desarrollada por el Laboratorio
+    de Ornitología de la Universidad de Cornell y gestionada localmente por Aves Argentinas.
+  fetched: '2026-11-03'
+- claim: The poster says automated filters detect unusual observations, which 33 volunteer
+    expert reviewers then verify.
+  url: https://sedici.unlp.edu.ar/bitstream/handle/10915/64822/P%C3%B3ster_.pdf?sequence=1
+  quote: Revisor experto (33 revisores voluntarios) verifica los registros inusuales
+    detectados por el filtro.
+  fetched: '2026-11-03'
+- claim: The poster describes the data as an open-access pool.
+  url: https://sedici.unlp.edu.ar/bitstream/handle/10915/64822/P%C3%B3ster_.pdf?sequence=1
+  quote: Pool de datos de acceso libre
+  fetched: '2026-11-03'
+links:
+- type: run-by
+  to: aves-argentinas
+  url: https://sedici.unlp.edu.ar/bitstream/handle/10915/64822/P%C3%B3ster_.pdf?sequence=1
+  quote: gestionada localmente por Aves Argentinas.
+  fetched: '2026-11-03'
+found_by:
+- checklist:2
+- link-from:aves-argentinas
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,38 @@
+id: tech4nature-mexico
+kind: project
+name: Tech4Nature Mexico
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+countries:
+- mx
+status: active
+summary: Tech4Nature project in Dzilam de Bravo State Reserve, Yucatán, that uses audio devices, camera traps and AI to recognise species and protect jaguars; Phase Two began in 2025.
+facts:
+- claim: The first phase installed 60 audio devices and more than 20 camera traps.
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: &id001 2026-10-30
+  quote: the first phase of the project installed 60 audio devices and more than 20 camera traps in Dzilam de Bravo State Reserve
+- claim: Phase Two launched at the 2025 Tech4Nature Summit.
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: *id001
+  quote: launched Phase Two of the Mexico Tech4Nature project
+links:
+- type: run-by
+  to: tech4nature
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: *id001
+  quote: launched Phase Two of the Mexico Tech4Nature project
+- type: partners-with
+  to: c-minds
+  url: https://www.prnewswire.com/il/news-releases/phase-two-of-tech4nature-jaguar-protection-project-launched-in-mexico-302427022.html
+  fetched: *id001
+  quote: the State Government of Yucatán, and local partner C-Minds
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

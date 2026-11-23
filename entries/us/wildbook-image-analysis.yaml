@@ -1,0 +1,40 @@
+id: wildbook-image-analysis
+kind: programme
+name: Wildbook Image Analysis (WBIA)
+also_known_as:
+- WBIA
+- Wildbook IA
+scope: us
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+status: unknown
+runner: unknown
+website: https://github.com/WildMeOrg/wildbook
+summary: Machine learning engine used by Wildbook to detect image features and identify
+  individual animals, bringing large-scale computer vision to wildlife research.
+facts:
+- claim: Wildbook uses WBIA as its machine learning engine to detect features in images
+    and identify individual animals.
+  url: https://github.com/WildMeOrg/wildbook
+  fetched: 2026-11-21
+  quote: Wildbook leverages Wildbook IA (WBIA) as the machine learning engine, which
+    pulls data from Wildbook servers to detect features in images and identify individual
+    animals.
+- claim: Brings computer vision at large scale to wildlife research.
+  url: https://github.com/WildMeOrg/wildbook
+  fetched: 2026-11-21
+  quote: WBIA brings massive-scale computer vision to wildlife research.
+links:
+- type: used-by
+  to: wildbook
+  url: https://github.com/WildMeOrg/wildbook
+  fetched: 2026-11-21
+  quote: Wildbook leverages Wildbook IA (WBIA) as the machine learning engine
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

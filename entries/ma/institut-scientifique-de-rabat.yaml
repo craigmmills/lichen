@@ -1,0 +1,93 @@
+id: institut-scientifique-de-rabat
+kind: organisation
+name: Institut Scientifique de Rabat
+also_known_as:
+- Institut Scientifique, Mohamed V University
+- Scientific Institute of Rabat
+- Institut Scientifique Chérifien
+scope: ma
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: ma
+countries:
+- ma
+scale: national
+status: active
+website: http://israbat.ac.ma/
+summary: Run by Mohammed V University, this Rabat institute holds natural history collections
+  and publishes one herbarium dataset through GBIF, which lists no other publisher registered
+  in Morocco.
+facts:
+- claim: Lists museum collections and natural heritage resources including the Flora of Morocco
+    and Fauna of Morocco.
+  url: http://israbat.ac.ma/
+  fetched: 2026-11-08
+  quote: Patrimoine Naturel du Maroc
+- claim: The only GBIF publishing organisation registered with Morocco as its country.
+  url: https://api.gbif.org/v1/organization?country=MA&limit=50
+  fetched: 2026-11-08
+  quote: Institut Scientifique, Mohamed V University
+- claim: Started Morocco's winter waterbird monitoring in 1983 jointly with the Department
+    of Water and Forests, according to a Tour du Valat report written by its wetland unit.
+  url: https://tourduvalat.org/download/33250
+  fetched: 2026-11-08
+  quote: Démarré en 1983, conjointement par l'Institut Scientifique et le Département des
+    Eaux et Forêts, le suivi hivernal
+- claim: Gives its address as Avenue Ibn Batouta, Agdal, Rabat.
+  url: http://israbat.ac.ma/
+  fetched: 2026-11-08
+  quote: Avenue Ibn Batouta, B.P 703, Agdal, Rabat, Maroc
+- claim: Says a decree charges it with the systematic inventory of the physical and biological
+    environment and with building the collections of a national natural history museum.
+  url: http://israbat.ac.ma/
+  fetched: 2026-11-08
+  quote: Il est chargé en outre de dresser l’inventaire systématique du milieu physique et
+    biologique, de constituer des collections d’un muséum national d’histoire naturelle
+- claim: Is a GBIF publisher with one dataset, the herbarium specimens of the Institut Scientifique
+    (RAB).
+  url: https://api.gbif.org/v1/organization/899dccde-1e1b-4da0-953d-3be7d31f2da7/publishedDataset
+  fetched: 2026-11-08
+  quote: Herbarium specimens of Institut Scientifique Mohamed V university (RAB)
+- claim: Hosted the December 2025 workshop to validate the Red List of Birds of Morocco.
+  url: https://ma.chm-cbd.net/en/news/validation-de-la-liste-rouge-des-oiseaux-du-maroc-une-etape-cle-pour-la-conservation-de-la
+  fetched: 2026-11-08
+  quote: the Scientific Institute of Rabat hosted the validation workshop for the Red List
+    of Birds of Morocco
+- claim: Its decreed role includes a systematic inventory of the physical and biological environment
+    and building the collections of a national natural history museum.
+  url: http://www.israbat.ac.ma/
+  fetched: '2026-11-08'
+  quote: dresser l’inventaire systématique du milieu physique et biologique, de constituer
+    des collections d’un muséum national d’histoire naturelle
+- claim: Says it is the oldest university research institution in Morocco.
+  url: http://www.israbat.ac.ma/
+  fetched: '2026-11-08'
+  quote: L’Institut Scientifique est le plus ancien établissement universitaire de recherche
+    au Maroc
+- claim: Gives its address in Agdal, Rabat.
+  url: http://www.israbat.ac.ma/
+  fetched: '2026-11-08'
+  quote: Avenue Ibn Batouta, B.P 703, Agdal, Rabat, Maroc
+links:
+- type: run-by
+  to: mohammed-v-university-in-rabat
+  url: https://ma.chm-cbd.net/en/related-websites/scientific-institute
+  fetched: 2026-11-08
+  quote: The Scientific Institute of the Mohammed V University of Rabat.
+- type: run-by
+  to: mohammed-v-university
+  url: https://api.gbif.org/v1/organization/899dccde-1e1b-4da0-953d-3be7d31f2da7
+  fetched: '2026-11-08'
+  quote: Mohamed V university, Scientific Institute
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

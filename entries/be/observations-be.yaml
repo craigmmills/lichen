@@ -1,0 +1,125 @@
+id: observations-be
+kind: dataset
+name: Observations.be
+scope: be
+ai_label: ai
+status: active
+realms:
+- land
+- freshwater
+countries:
+- be
+website: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+summary: Belgian nature database launched in 2008, run by Natagora and built with
+  Natuurpunt; Natagora reported over 80 million observations in December 2024, checked
+  by AI or volunteers.
+facts:
+- claim: Natagora reported in December 2024 that it was Belgium’s largest participatory
+    naturalist database, with more than 80 million observations.
+  url: https://www.natagora.be/news/10-millions-dobservations-naturalistes-en-1
+  fetched: 2026-11-02
+  quote: Observations.be est la plus grande base de données naturalistes participative
+    du pays, avec plus de 80 millions d'observations.
+- claim: Artificial intelligence assesses reliability and decides which observations
+    need extra checks.
+  url: https://www.natagora.be/news/10-millions-dobservations-naturalistes-en-1
+  fetched: 2026-11-02
+  quote: l'intelligence artificielle qui évalue la fiabilité des observations, déterminant
+    lesquelles nécessitent un contrôle supplémentaire
+- claim: Covers more than 21,000 species.
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: '2026-11-02'
+  quote: le portail rassemble des données concernant plus de 21 000 espèces
+- claim: Launched in 2008 by Natagora in collaboration with Natuurpunt.
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: '2026-11-02'
+  quote: En 2008, en collaboration avec Natuurpunt, Natagora décide d’informatiser
+    le système et lance observations.be.
+- claim: An identification aid analyses uploaded images automatically, and human validators
+    check the data.
+  url: https://www.natagora.be/naturaliste-chez-moi
+  fetched: '2026-11-02'
+  quote: un outil d’aide à l’identification analyse automatiquement votre image
+- claim: Natagora says the portal has AI-based photo identification.
+  url: https://volontariat.natagora.be/faq/comment-fonctionnons-nous/comment-est-organisee-lequipe-professionnelle
+  fetched: '2026-11-02'
+  quote: système d’aide à l’identification sur photo basé sur l’intelligence artificielle
+- claim: In July 2026, Natagora called it the largest nature database in Belgium,
+    online since 2008 and receiving about 10 million observations a year.
+  url: https://www.natagora.be/news/observationsbe-franchit-le-cap-des-100-millions-dobservations
+  fetched: &id001 2026-11-02
+  quote: Le site web Observations.be existe depuis 2008 et reçoit actuellement environ
+    10 millions d’observations par an.
+- claim: GBIF's checklist record describes it and waarnemingen.be as the two Belgian
+    subsites of observation.org.
+  url: https://api.gbif.org/v1/dataset/2c38cf8a-f981-4dfb-bc9d-dd2b6fc792ed
+  fetched: *id001
+  quote: are the two local Belgian subsites of the global
+- claim: Natagora says observations are checked by AI or by specialist volunteers.
+  url: https://www.natagora.be/news/observationsbe-franchit-le-cap-des-100-millions-dobservations
+  fetched: *id001
+  quote: Vos observations sont vérifiées par l’IA ou par l’un de nos 360 bénévoles
+    spécialisés
+- claim: Natuurpunt's GBIF record says it collects over 6 million observation records
+    a year.
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: &id002 2026-11-02
+  quote: With our database www.waarnemingen.be we collect over 6 million observation
+    records per year.
+links:
+- type: run-by
+  to: natagora
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: 2026-11-02
+  quote: Observations.be est l'interface quotidienne de partage et de gestion de millions
+    de données d'observations naturalistes, gérée par Natagora.
+- type: built-by
+  to: natagora
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: 2026-11-02
+  quote: En 2008, en collaboration avec Natuurpunt, Natagora décide d’informatiser
+    le système et lance observations.be.
+- type: run-by
+  to: natagora
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: '2026-11-02'
+  quote: gérée par Natagora
+- type: built-by
+  to: natagora
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: '2026-11-02'
+  quote: Natagora décide d’informatiser le système et lance observations.be
+- type: built-by
+  to: natuurpunt
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: '2026-11-02'
+  quote: En 2008, en collaboration avec Natuurpunt, Natagora décide d’informatiser
+    le système et lance observations.be.
+- type: run-by
+  to: natagora
+  url: https://api.gbif.org/v1/dataset/2c38cf8a-f981-4dfb-bc9d-dd2b6fc792ed
+  fetched: *id001
+  quote: (in French, managed by Natagora)
+- type: partners-with
+  to: natuurpunt
+  url: https://api.gbif.org/v1/dataset/e5707b52-5222-4b64-8b6d-be7d1b279cb3
+  fetched: *id001
+  quote: an initiative from the nature conservation NGO Natagora (https://www.natagora.be)
+    in collaboration with Stichting Natuurinformatie and Natuurpunt
+- type: run-by
+  to: natuurpunt
+  url: https://api.gbif.org/v1/dataset/2c38cf8a-f981-4dfb-bc9d-dd2b6fc792ed
+  fetched: *id002
+  quote: (in Dutch, managed by Natuurpunt)
+found_by:
+- checklist:2
+- link-from:eurobirdportal
+- link-from:natagora
+- link-from:natuurpunt
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision
+also_known_as:
+- Observations.be
+- Waarnemingen.be

@@ -1,0 +1,72 @@
+id: uk-space-agency
+kind: organisation
+name: UK Space Agency
+sector: government
+roles:
+- funds
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.gov.uk/government/organisations/uk-space-agency
+summary: UK government space agency. Delivers Unlocking Space for Business, which has funded
+  satellite data pilots that include nature monitoring.
+facts:
+- claim: Delivers Unlocking Space for Business.
+  url: https://www.gov.uk/government/news/25-million-for-satellite-data-pilots-to-benefit-citizens-and-businesses
+  quote: Unlocking Space for Business is delivered by the UK Space Agency
+  fetched: '2026-10-30'
+- claim: GOV.UK gives its UK address.
+  url: https://www.gov.uk/government/organisations/uk-space-agency
+  quote: SW1A 2EG
+  fetched: '2026-10-30'
+- claim: Funded a project in Guatemala to tackle illegal logging with technology.
+  url: https://www.gov.uk/government/news/inab-and-the-uk-space-agency-sign-agreement-to-protect-guatemalas-forests
+  quote: The UK Space Agency will fund a three-year £5.3 million project in Guatemala
+  fetched: '2026-10-30'
+- claim: Funded projects that use satellite data to track animal and plant life.
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: track animal and plant life
+  fetched: &id001 2026-10-30
+- claim: GeoConnexion reports a £14.2 million contract from it to Ecometrica.
+  url: https://geoconnexion.com/news/ecometrica-secures-breakthrough-14-2m-uk-space-agency-contract
+  quote: Ecometrica secures breakthrough £14.2m UK Space Agency contract
+  fetched: '2026-10-31'
+links:
+- type: funds
+  to: treeconomy
+  url: https://www.gov.uk/government/news/25-million-for-satellite-data-pilots-to-benefit-citizens-and-businesses
+  quote: Octopus Investments Ltd & Treeconomy Ltd - Earth Observation for Natural Capital
+    Investments
+  fetched: '2026-10-30'
+- type: funds
+  to: safe-earth-solutions
+  url: https://www.gov.uk/government/news/25-million-for-satellite-data-pilots-to-benefit-citizens-and-businesses
+  quote: Safe Earth Solutions Ltd - Accelerating adoption of nature-related financial derivatives
+    using Earth Observation data
+  fetched: '2026-10-30'
+- type: funds
+  to: thicket
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: will use satellite data to help transform the delivery of public services, thanks
+    to new funding from the UK Space Agency
+  fetched: *id001
+- type: funds
+  to: eo4biodiversity
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: will use satellite data to help transform the delivery of public services, thanks
+    to new funding from the UK Space Agency
+  fetched: *id001
+found_by:
+- checklist:1
+- link-from:international-partnership-programme
+scope: gb
+added_by: agent
+checked: '2026-10-31'

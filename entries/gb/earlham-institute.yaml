@@ -1,0 +1,59 @@
+id: earlham-institute
+kind: organisation
+name: Earlham Institute
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://earlham.ac.uk
+summary: Genomics research institute that takes part in the Darwin Tree of Life project.
+facts:
+- claim: Takes part in the project to map the genomes of life in the UK.
+  url: https://earlham.ac.uk/node/5703
+  quote: Earlham Institute takes part in ambitious 'Tree of Knowledge' to map the genomes
+    of all life in UK
+  fetched: '2026-10-30'
+- claim: Part of Darwin Tree of Life.
+  url: https://www.earlham.ac.uk/node/5140
+  quote: Earlham Institute branches out to Darwin Tree of Life
+  fetched: '2026-10-30'
+- claim: Partners bring expertise across machine learning and genome annotation.
+  url: https://www.earlham.ac.uk/decoding-biodiversity
+  quote: the partners bring leading expertise across machine learning, shared compute resources
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.earlham.ac.uk/
+  quote: Norwich Research Park, Norwich, NR4 7UZ
+  fetched: 2026-10-30
+- claim: The Darwin Tree of Life site lists it among who it is.
+  url: https://www.darwintreeoflife.org/
+  quote: Who we are Earlham Institute EMBL-EBI
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:darwin-tree-of-life
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: partners-with
+  to: darwin-tree-of-life
+  url: https://www.earlham.ac.uk/node/5140
+  quote: The Earlham Institute (EI) will be part of the epic DNA sequencing project
+  fetched: '2026-10-30'
+- type: partners-with
+  to: ibm
+  url: https://www.earlham.ac.uk/decoding-biodiversity
+  quote: with partners at IBM Research, Royal Botanic Gardens Kew
+  fetched: *id001

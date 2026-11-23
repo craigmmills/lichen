@@ -1,0 +1,27 @@
+id: balticmicrobedb
+kind: dataset
+scope: se
+name: BalticMicrobeDB
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+status: active
+summary: An active dataset run by KTH Royal Institute of Technology, which SBDI describes as an interface
+  for metagenomics data of the Baltic Sea.
+facts:
+- claim: SBDI describes it as an interface for metagenomics data of the Baltic Sea.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: KTH also maintain BalticMicrobeDB , an interface for metagenomics data of the Baltic Sea
+links:
+- type: run-by
+  to: kth-royal-institute-of-technology
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: KTH also maintain BalticMicrobeDB , an interface for metagenomics data of the Baltic Sea
+found_by:
+- link-from:swedish-biodiversity-data-infrastructure
+added_by: agent
+checked: 2026-11-02

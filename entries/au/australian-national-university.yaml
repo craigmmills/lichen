@@ -1,0 +1,40 @@
+id: australian-national-university
+kind: organisation
+name: Australian National University
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: University whose Fenner School of Environment & Society published an article on a
+  fuel moisture map that uses a machine-learning model.
+facts:
+- claim: Its Fenner School of Environment & Society published an article on a fuel moisture
+    map that uses a machine-learning model.
+  url: https://fennerschool.anu.edu.au/news-events/news/new-interactive-map-shows-how-flammable-your-part-australia-right-now
+  quote: It uses a machine-learning model trained on fuel moisture content estimates
+  fetched: '2026-11-08'
+- claim: OpenAlex lists Fenner School authors with the Australian National University in Canberra.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I118347636,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=10&select=id,title,publication_year,authorships
+  quote: Fenner School of Environment and Society, Australian National University, Canberra,
+    Australia
+  fetched: '2026-11-08'
+links:
+- type: runs
+  to: fenner-school-of-environment-and-society
+  url: https://fennerschool.anu.edu.au/news-events/news/new-interactive-map-shows-how-flammable-your-part-australia-right-now
+  quote: ANU Fenner School of Environment & Society
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

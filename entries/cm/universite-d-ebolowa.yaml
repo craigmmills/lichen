@@ -1,0 +1,40 @@
+id: universite-d-ebolowa
+kind: organisation
+name: Université d'Ébolowa
+also_known_as:
+- University of Ebolowa
+scope: cm
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- cm
+scale: national
+status: active
+website: https://unv-ebolowa.cm
+summary: A university whose Department of Environmental Sciences appears among the first author's affiliations
+  on a 2026 paper on bat diversity and distribution around Campo-Ma'an National Park, with an initial
+  acoustic database, per OpenAlex.
+facts:
+- claim: A 2026 paper on the diversity and distribution of bats in and around Campo-Ma'an National Park,
+    with an initial acoustic database, has Franck P. Meyo Okono as its first author, according to OpenAlex.
+  url: https://api.openalex.org/works/W7154207864?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: National Park, Cameroon, with an initial acoustic database
+- claim: The first author's affiliations include the Department of Environmental Sciences of the Higher
+    Institute of Agriculture, Forestry, Water and Environment, University of Ebolowa.
+  url: https://api.openalex.org/works/W7154207864?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Higher Institute of Agriculture, Forestry, Water and Environment (HIAFWE), Department of Environmental
+    Sciences, University of Ebolowa
+found_by:
+- register:cm
+- checklist:3
+added_by: agent
+checked: 2026-11-08

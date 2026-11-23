@@ -1,0 +1,46 @@
+id: universiti-putra-malaysia
+kind: organisation
+name: Universiti Putra Malaysia
+also_known_as:
+- UPM
+scope: my
+sector: academic
+roles:
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: Malaysian university with 45 OpenAlex-listed works on AI in ecology subfields since
+  2018, the most of any Malaysian institution in that query, including a 2026 paper on mapping
+  Sarawak mangroves with machine learning.
+facts:
+- claim: OpenAlex counts 45 works with its authors on AI in ecology subfields since 2018,
+    the most of any Malaysian institution in that query.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: Universiti Putra Malaysia
+- claim: OpenAlex lists a 2026 paper by its authors on mapping mangroves in Sarawak with machine
+    learning.
+  url: https://api.openalex.org/works/W7162535087
+  fetched: 2026-11-03
+  quote: Mangrove extent and above-ground biomass mapping in Sarawak, Malaysia using Sentinel
+    data and machine learning
+- claim: A paper held in the university's repository, seen through a library catalogue, proposes
+    an IoT system with neural network prediction of peatland ground water level.
+  url: https://cendekia.unisza.edu.my/neuaxis-e/Record/upm-115875/Details?print=1
+  fetched: '2026-11-03'
+  quote: this paper proposed an IoT system with neural network-based GWL prediction for real-time
+    monitoring
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-03

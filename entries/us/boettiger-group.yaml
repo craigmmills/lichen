@@ -1,0 +1,48 @@
+id: boettiger-group
+kind: programme
+name: Boettiger Group
+scope: us
+ai_label: ai
+ai_types:
+- ml-reinforcement
+realms:
+- land
+- ocean
+status: active
+website: https://www.carlboettiger.info/
+summary: UC Berkeley research group led by Carl Boettiger on ecological forecasting and decisions
+  under uncertainty, whose RL for Conservation project trains reinforcement learning agents
+  on environments such as forest fires and overfishing.
+facts:
+- claim: Works on ecological forecasting and decision making under uncertainty, with applications
+    in conservation and natural resource management.
+  url: https://www.carlboettiger.info/
+  fetched: 2026-11-21
+  quote: We work on problems in ecological forecasting and decision making under uncertainty,
+    with applications for global change, conservation and natural resource management.
+- claim: Is the research group of Carl Boettiger in the Department of Environmental Science,
+    Policy and Management at UC Berkeley.
+  url: https://www.carlboettiger.info/
+  fetched: 2026-11-21
+  quote: Welcome to the research group of Carl Boettiger, Associate Professor in the Department
+    of Environmental Science, Policy and Management
+- claim: Its project RL for Conservation develops environments, including forest fires and
+    overfishing, on which reinforcement learning agents are trained and compared.
+  url: https://boettiger-lab.github.io/conservation-gym/
+  fetched: 2026-11-21
+  quote: to train, test, and compare performance of the RL agents on those environments.
+  ai_type: ml-reinforcement
+- claim: A doctoral student in the Boettiger Lab leads the RL for Conservation project.
+  url: https://boettiger-lab.github.io/conservation-gym/
+  fetched: 2026-11-21
+  quote: Marcus is a PhD student in the Boettiger Lab at UC Berkeley and the project leader.
+links:
+- type: run-by
+  to: university-of-california-berkeley
+  url: https://www.carlboettiger.info/
+  fetched: 2026-11-21
+  quote: Boettiger Group, UC Berkeley
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

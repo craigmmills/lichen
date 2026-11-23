@@ -1,0 +1,79 @@
+id: institute-of-oceanology-polish-academy-of-sciences
+kind: organisation
+name: Institute of Oceanology, Polish Academy of Sciences
+also_known_as:
+- Instytut Oceanologii PAN
+- IO PAN
+- IOPAN
+scope: pl
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- edna-genomics
+- remote-sensing
+hq: pl
+scale: national
+status: active
+website: https://www.iopan.pl
+summary: A Polish Academy of Sciences institute in Sopot, set up in 1983, researching the
+  Baltic Sea and European Arctic, with expertise in satellite remote sensing and SatBałtyk,
+  and a partner in IMBIO.
+facts:
+- claim: OpenAlex lists 43 works published from 2021 onward on the environmental DNA topic
+    for the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:PL,primary_topic.id:T12640,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage&per_page=14
+  fetched: '2026-11-02'
+  quote: '"key_display_name": "Instytut Oceanologii Polskiej Akademii Nauk", "count": 43'
+- claim: A 2021 review with an author at the institute covers environmental DNA for biomonitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:PL,primary_topic.id:T12640,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=12&select=id,doi,title,publication_year,authorships,cited_by_count
+  fetched: '2026-11-02'
+  quote: Environmental DNA for biomonitoring
+- claim: Set up in 1983 as successor to the Marine Station at Sopot.
+  url: https://www.iopan.pl/
+  fetched: '2026-11-02'
+  quote: został powołany w roku 1983 jako następca Stacji Morskiej istniejącej w Sopocie od
+    1953 roku
+- claim: Its research includes metagenomics of marine bacteria and viruses.
+  url: https://www.iopan.pl/
+  fetched: '2026-11-02'
+  quote: zastosowanie metagenomiki do badań morskich bakterii i wirusów
+- claim: Its news lists an award to Dominik Lis for work on estimating chlorophyll a in the
+    Baltic Sea with machine learning.
+  url: https://www.iopan.pl/en/blog/9/
+  fetched: '2026-11-02'
+  quote: Remote estimation of near-surface concentrations and vertical profiles of chlorophyll
+    a in the Baltic Sea using machine learning methods
+- claim: A meeting at the institute covered underwater cameras used to observe Calanus in
+    the Norwegian Sea.
+  url: https://www.iopan.pl/pl/blog/1/
+  fetched: '2026-11-02'
+  quote: wykorzystania kamer podwodnych (UVP) do obserwacji rozmieszczenia Calanus w Morzu
+    Norweskim
+- claim: Listed in the Baltic Sense consortium.
+  url: https://www.tu.koszalin.pl/art/8821/projekt-baltic-sense-na-polskiej-mapie-infrastruktury-badawczej
+  fetched: '2026-11-02'
+  quote: Instytut Oceanologii PAN
+- claim: Its research covers the Baltic Sea and the European Arctic.
+  url: https://www.iopan.pl/
+  quote: Badania, prowadzone na Bałtyku oraz w obszarze Arktyki Europejskiej
+  fetched: '2026-11-02'
+- claim: A 2015 SatBałtyk brochure gives the institute's address in Sopot.
+  url: https://wm.umg.edu.pl/sites/default/files/zalaczniki/broszurasatbaltyk_1.pdf
+  quote: Sopot, ul. Powstańców Warszawy 55
+  fetched: '2026-11-02'
+links:
+- type: partners-with
+  to: imbio
+  url: https://www.iop.krakow.pl/files/293/oimbio.pdf
+  fetched: '2026-11-02'
+  quote: Instytut Oceanologii Polskiej Akademii Nauk
+found_by:
+- checklist:3
+- link-from:international-oceanographic-data-and-information-exchange
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

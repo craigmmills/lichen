@@ -1,0 +1,44 @@
+id: terrabrasilis
+kind: programme
+name: TerraBrasilis
+scope: br
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://terrabrasilis.dpi.inpe.br/
+summary: INPE's web platform for reaching, querying and analysing the geographic data
+  from its native vegetation monitoring projects.
+facts:
+- claim: A platform developed by INPE for spatial data from monitoring programmes
+    such as PRODES and DETER.
+  url: https://terrabrasilis.dpi.inpe.br/
+  fetched: '2026-10-30'
+  quote: TerraBrasilis web portal is a platform developed by INPE to provide access,
+    query, analysis and dissemination of spatial data
+- claim: DETER alerts are published on TerraBrasilis and offered for free public access.
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/inpe-mcti-e-secd-mma-lancam-sistema-deter-nao-floresta-para-monitoramento-diario-de-todo-o-bioma-amazonia/
+  fetched: '2026-10-30'
+  quote: Os alertas são publicados na plataforma TerraBrasilis e disponibilizados
+    para acesso público e gratuito
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://terrabrasilis.dpi.inpe.br/
+  fetched: '2026-10-30'
+  quote: TerraBrasilis web portal is a platform developed by INPE
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-de-prevencao-a-desmatamentos-na-amazonia-e-atualizado-e-fica-ainda-mais-preciso
+  fetched: '2026-10-30'
+  quote: plataforma TerraBrasilis, desenvolvida pelo INPE
+found_by:
+- checklist:2
+- link-from:food-and-agriculture-organization
+- checklist:1
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

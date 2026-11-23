@@ -1,0 +1,39 @@
+id: floraweb
+kind: dataset
+name: FloraWeb
+scope: de
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- de
+status: active
+website: https://floraweb.de/
+summary: Federal Agency for Nature Conservation information service on the distribution,
+  threat, protection and ecology of Germany's wild plants.
+facts:
+- claim: An information service of the Federal Agency for Nature Conservation.
+  url: https://floraweb.de/
+  fetched: '2026-10-31'
+  quote: FloraWeb ist ein Informationsangebot des Bundesamtes für Naturschutz (BfN)
+- claim: Holds data on more than 4,000 plants.
+  url: https://www.floraweb.de
+  fetched: '2026-10-31'
+  quote: Daten zu mehr als 4000 Pflanzen (Verbreitungskarten, Fotos, Herbarbelege,
+    Daten zu Gefährdung, Schutz, Ökologie, …)
+links:
+- type: run-by
+  to: federal-agency-for-nature-conservation
+  url: https://floraweb.de/
+  fetched: '2026-10-31'
+  quote: FloraWeb ist ein Informationsangebot des Bundesamtes für Naturschutz (BfN)
+- type: run-by
+  to: federal-agency-for-nature-conservation
+  url: https://www.floraweb.de
+  fetched: '2026-10-31'
+  quote: FloraWeb ist ein Informationsangebot des Bundesamtes für Naturschutz (BfN)
+found_by:
+- checklist:2
+- register:de
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,41 @@
+id: bajdah-wildlife-reserve-monitoring-pilot
+kind: project
+name: Bajdah Wildlife Reserve Monitoring Pilot
+scope: sa
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+countries:
+- sa
+status: unknown
+summary: A pilot study in NEOM, Saudi Arabia, described in a paper as a local-scale
+  case study, using 20 monitoring stations with camera traps and acoustic recorders,
+  with AI preprocessing the files.
+facts:
+- claim: The paper describes a pilot study in Saudi Arabia as one of two real-world
+    examples of filling dryland monitoring data gaps.
+  url: https://kar.kent.ac.uk/115265/3/Bridging%20monitoring%20gaps%20in%20global%20drylands_Farhadinia_PUB.pdf
+  fetched: 2026-11-09
+  quote: A pilot study in the Kingdom of Saudi Arabia
+- claim: The pilot used 20 monitoring stations with camera traps and acoustic recorders.
+  url: https://kar.kent.ac.uk/115265/3/Bridging%20monitoring%20gaps%20in%20global%20drylands_Farhadinia_PUB.pdf
+  fetched: 2026-11-09
+  quote: 20 stations equipped with Browning StrikeForce camera traps and Audio-
+- claim: AI was used to preprocess the camera trap, UAV and acoustic files.
+  url: https://kar.kent.ac.uk/115265/3/Bridging%20monitoring%20gaps%20in%20global%20drylands_Farhadinia_PUB.pdf
+  fetched: 2026-11-09
+  quote: used AI to preprocess the camera trap, UAV images, and acoustic ﬁles,
+- claim: The paper presents the work as a local-scale case study in NEOM, Saudi Arabia.
+  url: https://kar.kent.ac.uk/115265/3/Bridging%20monitoring%20gaps%20in%20global%20drylands_Farhadinia_PUB.pdf
+  fetched: 2026-11-09
+  quote: 'Case study 1: local scale—NEOM Saudi Arabia'
+links: []
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

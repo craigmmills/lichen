@@ -1,0 +1,54 @@
+id: universidad-tecnologica-centroamericana
+kind: organisation
+name: Universidad Tecnológica Centroamericana
+also_known_as:
+- UNITEC
+- Central American Technological University
+scope: hn
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: hn
+countries:
+- hn
+scale: national
+status: active
+website: https://www.unitec.edu
+summary: A Honduran university whose engineering faculty affiliates all authors of
+  a 2022 coral detection paper at Cayo Blanco, which presented Earth Observation Centre
+  products in September 2026.
+facts:
+- claim: All three authors of a 2022 IEEE conference paper on coral detection with
+    artificial neural networks at Cayo Blanco give the university's Faculty of Engineering
+    in San Pedro Sula as their affiliation, according to OpenAlex.
+  url: https://api.openalex.org/works?filter=openalex_id:W4313452749|W4399635690&select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Coral Detection using Artificial Neural Networks based on Blurry Images for
+    Reef Protection in Cayo Blanco, Honduras
+- claim: Gives a campus address in Tegucigalpa.
+  url: https://www.unitec.edu/blog/unitec-conferencia-usuarios-esri-2026-centro-observacion-tierra/
+  fetched: 2026-11-12
+  quote: Boulevard Kennedy V-782,frente a Residencial Honduras. Tegucigalpa, Francisco
+    Morazán 11101.
+- claim: In September 2026 it presented products developed for its Earth Observation
+    Centre at the ESRI user conference in Honduras; the page does not say what the
+    centre observes.
+  url: https://www.unitec.edu/blog/unitec-conferencia-usuarios-esri-2026-centro-observacion-tierra/
+  fetched: 2026-11-12
+  quote: dando a conocer los productos desarrollados para el Centro de Observación
+    de la Tierra y el Instituto de Investigaciones One Health
+links:
+- type: runs
+  to: facultad-de-ingenieria-universidad-tecnologica-centroamericana
+  url: https://www.unitec.edu/blog/unitec-conferencia-usuarios-esri-2026-centro-observacion-tierra/
+  fetched: 2026-11-12
+  quote: Facultad de Ingeniería
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,34 @@
+id: agroforchange
+kind: project
+name: AgroForChange
+scope: es
+also_known_as:
+- AFC
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://retechfor.es/agroforchange-afc/
+summary: R software that analyses 20 years of Landsat and Sentinel data with Random Forest
+  to detect abandoned farm plots turning into other land uses.
+facts:
+- claim: Uses satellite time series and Random Forest to detect abandoned agricultural plots.
+  url: https://retechfor.es/agroforchange-afc/
+  fetched: '2026-10-31'
+  quote: Utiliza series temporales de satélites (Landsat/Sentinel) e Inteligencia Artificial
+    (Random Forest)
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: itagra
+  url: https://retechfor.es/agroforchange-afc/
+  fetched: '2026-10-31'
+  quote: Entidad líder Itagra CT
+found_by:
+- link-from:retechfor
+added_by: agent
+checked: '2026-10-31'

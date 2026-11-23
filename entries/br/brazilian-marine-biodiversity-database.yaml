@@ -1,0 +1,53 @@
+id: brazilian-marine-biodiversity-database
+kind: programme
+name: Brazilian Marine Biodiversity Database
+scope: br
+ai_label: data-infrastructure
+status: active
+also_known_as:
+- BaMBa
+realms:
+- ocean
+techniques:
+- edna-genomics
+countries:
+- br
+website: https://marinebiodiversity.lncc.br/metacatui/
+summary: National open data infrastructure for marine datasets, including omics, microbiology,
+  and benthic and fish surveys, hosted at the National Laboratory of Scientific Computing.
+  Facts come from its GBIF record, because its own site timed out.
+facts:
+- claim: Describes itself as a national open data infrastructure.
+  url: https://api.gbif.org/v1/organization/6b6f5206-bbbc-4079-8685-ce5b664eaaf3
+  fetched: '2026-10-30'
+  quote: is a national open data infrastructure
+- claim: Takes datasets with physical-chemical, omics, microbiology, benthic and fish
+    survey data.
+  url: https://api.gbif.org/v1/organization/6b6f5206-bbbc-4079-8685-ce5b664eaaf3
+  fetched: '2026-10-30'
+  quote: comprising physical-chemical parameters, -omics, microbiology, benthic and
+    fish surveys
+- claim: Hosted at the National Laboratory of Scientific Computing (LNCC).
+  url: https://api.gbif.org/v1/organization/6b6f5206-bbbc-4079-8685-ce5b664eaaf3
+  fetched: '2026-10-30'
+  quote: hosted in the National Laboratory of Scientific Computing (LNCC)
+- claim: Connected to SiBBr, GBIF and DataONE.
+  url: https://api.gbif.org/v1/organization/6b6f5206-bbbc-4079-8685-ce5b664eaaf3
+  fetched: '2026-10-30'
+  quote: BaMBa is connected to other national and international databases
+links:
+- type: run-by
+  to: rede-nacional-de-pesquisa-em-biotecnologia-marinha
+  url: https://api.gbif.org/v1/organization/6b6f5206-bbbc-4079-8685-ce5b664eaaf3
+  fetched: '2026-10-30'
+  quote: BaMBa is an initiative of National Research Network in Marine Biotechnology
+    (Biotecmar)
+- type: funded-by
+  to: ministerio-da-ciencia-tecnologia-e-inovacao
+  url: https://api.gbif.org/v1/organization/6b6f5206-bbbc-4079-8685-ce5b664eaaf3
+  fetched: '2026-10-30'
+  quote: is funded by the Brazilian Ministry of Science, Tecnology and Inovation (MCTI)
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

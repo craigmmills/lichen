@@ -1,0 +1,24 @@
+id: ordna
+kind: model
+name: ORDNA
+scope: ch
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- edna-genomics
+status: active
+runner: unknown
+summary: A model for deep learning ordination of raw eDNA samples, listed by OpenAlex with a 2025 paper.
+facts:
+- claim: OpenAlex lists a 2025 paper on deep learning ordination for raw eDNA samples.
+  url: https://api.openalex.org/works?per-page=8&select=display_name,publication_year,authorships,doi&sort=cited_by_count:desc&filter=from_publication_date:2022-01-01,institutions.id:I118564535,title_and_abstract.search:biodiversity%20deep%20learning
+  quote: based ordination for raw environmental DNA samples
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-02'

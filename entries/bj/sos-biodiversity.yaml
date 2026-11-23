@@ -1,0 +1,41 @@
+id: sos-biodiversity
+kind: organisation
+name: SOS Biodiversity
+also_known_as: []
+scope: bj
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: bj
+countries:
+- bj
+scale: national
+status: active
+summary: Beninese NGO aiming to protect and sustainably manage biodiversity, which publishes
+  a plant census on GBIF and a floristic inventory with permanent plots in Agrimey, Lama and
+  Djigbé forests.
+facts:
+- claim: NGO that aims to protect, sustainably manage and enhance biodiversity in Benin; its
+    objectives include scientific research on biodiversity.
+  url: https://api.gbif.org/v1/organization/47737ea6-3620-4c0c-bc6d-c67cc2acfa34
+  fetched: '2026-11-08'
+  quote: SOS Biodiversity is a Non Governmental Organization (NGO) that aims to protect biodiversity,
+    sustainably manage and enhance biodiversity in Benin.
+- claim: Publishes a census of plant species of Benin on GBIF.
+  url: https://api.gbif.org/v1/organization/47737ea6-3620-4c0c-bc6d-c67cc2acfa34/publishedDataset?limit=10
+  fetched: '2026-11-08'
+  quote: 'Census of plant species of Benin (West Africa): Database4'
+- claim: Published a floristic inventory with the installation of permanent plots in the high
+    conservation value forests of Agrimey, Lama and Djigbé.
+  url: https://api.gbif.org/v1/organization/47737ea6-3620-4c0c-bc6d-c67cc2acfa34/publishedDataset?limit=10
+  fetched: '2026-11-08'
+  quote: Floristic inventory and installation of permanent plots in the high conservation
+    value forest of Agrimey, Lama and Djigbé
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,49 @@
+id: ringmo
+kind: model
+name: Kongtian Lingmou
+also_known_as:
+- 空天·灵眸
+scope: cn
+ai_label: ai
+ai_types:
+- foundation-models
+- generative-ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cn
+scale: national
+status: active
+summary: A remote sensing interpretation foundation model from the Aerospace Information
+  Research Institute and Peng Cheng Laboratory. Version 3.0, with tens of billions
+  of parameters, was released in September 2024.
+facts:
+- claim: Version 3.0 is described as a foundation model with tens of billions of parameters,
+    jointly built by the Aerospace Information Research Institute and Peng Cheng Laboratory.
+  ai_type: foundation-models
+  url: https://www.cas.cn/cm/202409/t20240921_5033097.shtml
+  fetched: '2026-10-31'
+  quote: 全球首个百亿参数级遥感解译基础模型“空天·灵眸”3.0版正式发布。该模型由中国科学院空天信息创新研究院与鹏城实验室联合研制
+- claim: Described as a generative foundation model for multimodal remote sensing
+    data.
+  ai_type: generative-ai
+  url: https://aircas.cas.cn/dtxw/cmsm/202409/t20240923_7378702.html
+  fetched: '2026-10-31'
+  quote: “空天·灵眸”是我国首个面向多模态遥感数据生成式基础模型
+links:
+- type: run-by
+  to: aerospace-information-research-institute-cas
+  url: https://www.cas.cn/cm/202409/t20240921_5033097.shtml
+  fetched: '2026-10-31'
+  quote: 该模型由中国科学院空天信息创新研究院与鹏城实验室联合研制
+- type: partners-with
+  to: peng-cheng-laboratory
+  url: https://www.cas.cn/cm/202409/t20240921_5033097.shtml
+  fetched: '2026-10-31'
+  quote: 该模型由中国科学院空天信息创新研究院与鹏城实验室联合研制
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

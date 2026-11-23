@@ -1,0 +1,42 @@
+id: china-national-genebank
+kind: organisation
+name: China National GeneBank
+also_known_as:
+- CNGB
+scope: cn
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+techniques:
+- edna-genomics
+hq: cn
+scale: global
+status: active
+website: https://www.cngb.org/
+summary: Government-funded science infrastructure in Shenzhen that conserves bioresources
+  and runs CNGBdb, a biological data platform.
+facts:
+- claim: Science infrastructure in Shenzhen approved and funded by the Chinese government.
+  url: https://api.gbif.org/v1/organization/da5762ef-a7fd-4a0a-b46e-90721f698025
+  fetched: '2026-10-31'
+  quote: is one of the key scientific infrastructure in Shenzhen, approved and funded by the
+    Chinese government
+- claim: Stated address in Dapeng New District, Shenzhen.
+  url: https://api.gbif.org/v1/organization/da5762ef-a7fd-4a0a-b46e-90721f698025
+  fetched: '2026-10-31'
+  quote: Jinsha Road, Dapeng New District, Shenzhen
+- claim: Page says it is owned by the government.
+  url: https://db.cngb.org/isba/
+  fetched: '2026-10-31'
+  quote: China National GeneBank (CNGB) is owned by the government and
+links:
+- type: runs
+  to: cngbdb
+  url: https://api.gbif.org/v1/organization/da5762ef-a7fd-4a0a-b46e-90721f698025
+  fetched: '2026-10-31'
+  quote: CNGB builds and operates a comprehensive database
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

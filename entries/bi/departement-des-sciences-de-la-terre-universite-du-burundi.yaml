@@ -1,0 +1,43 @@
+id: departement-des-sciences-de-la-terre-universite-du-burundi
+kind: organisation
+name: Département des Sciences de la Terre, Université du Burundi
+scope: bi
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- bi
+scale: national
+status: active
+summary: University of Burundi earth sciences department, within the CRSNE, that is the affiliation of
+  the first author of a 2024 IGARSS paper on drone photogrammetry for land degradation at Mugoboka.
+facts:
+- claim: Affiliation of the first author of a 2024 IGARSS paper on monitoring land degradation with drone
+    photogrammetry at Mugoboka, east of Bujumbura.
+  url: https://api.openalex.org/works?filter=openalex_id:W7140321517|W4402263790&select=id,title,doi,authorships&per-page=5
+  fetched: 2026-11-09
+  quote: Monitoring Land Degradation Using Drone Photogrammetry for the Mugoboka (Eastern Bujumbura, Burundi)
+    Case Study
+- claim: The department sits in the University of Burundi's Centre de Recherche en Sciences Naturelles
+    et de l'Environnement (CRSNE).
+  url: https://api.openalex.org/works?filter=openalex_id:W7140321517|W4402263790&select=id,title,doi,authorships&per-page=5
+  fetched: 2026-11-09
+  quote: (CRSNE),D&#x00E9;partement des Sciences de la Terre
+links:
+- type: run-by
+  to: university-of-burundi
+  url: https://api.openalex.org/works?filter=openalex_id:W7140321517|W4402263790&select=id,title,doi,authorships&per-page=5
+  fetched: 2026-11-09
+  quote: Universit&#x00E9; du Burundi,Centre de Recherche en Sciences Naturelles et de l&#x2019;Environnement
+    (CRSNE),D&#x00E9;partement des Sciences de la Terre
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-09

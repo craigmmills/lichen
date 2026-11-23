@@ -1,0 +1,46 @@
+id: nkhotakota-conformal-camera-trap-triage
+kind: project
+name: 'Conformal triage for camera-trap classification: Nkhotakota Wildlife Reserve, Malawi'
+scope: mw
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- mw
+status: active
+runner: unknown
+summary: Active Zenodo record of code and derived data for a paper, submitted to Ecological
+  Informatics, applying conformal prediction to a camera-trap classifier in Nkhotakota Wildlife
+  Reserve using LILA BC images.
+facts:
+- claim: The Zenodo record holds code and derived data for a paper on conformal prediction
+    for a locally adapted camera-trap classifier in Nkhotakota Wildlife Reserve, submitted
+    to Ecological Informatics.
+  url: https://zenodo.org/records/23834686
+  fetched: 2026-11-12
+  quote: 'Code and derived data for “Conformal prediction for a locally adapted camera-trap
+    classifier under domain shift: uncertainty-aware triage in Nkhotakota Wildlife Reserve,
+    Malawi” (submitted to Ecological Informatics).'
+- claim: Its images come from the Nkhotakota Camera Traps dataset on LILA BC.
+  url: https://zenodo.org/records/23834686
+  fetched: 2026-11-12
+  quote: Images are from the Nkhotakota Camera Traps dataset on LILA BC (Appel et al. 2025)
+    and are not included.
+- claim: Creators are Frackson Makwangwala (Lilongwe University of Agriculture and Natural
+    Resources) and Tamara B. Chirwa (Malawi University of Science and Technology).
+  url: https://zenodo.org/records/23834686
+  fetched: 2026-11-12
+  quote: 'Copyright: © 2026 Frackson Makwangwala and Tamara B. Chirwa'
+links:
+- type: builds-on
+  to: lila-bc
+  url: https://zenodo.org/records/23834686
+  fetched: 2026-11-12
+  quote: Images are from the Nkhotakota Camera Traps dataset on LILA BC (Appel et al. 2025)
+    and are not included.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,63 @@
+id: biodiverskripsi
+kind: dataset
+name: Biodiverskripsi
+also_known_as:
+- 'Biodiverskripsi: Biodiversity Theses Database'
+- The Biodiversity Thesis Database
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- id
+status: active
+website: https://biodiverskripsi.wixsite.com/biodiverskripsi
+summary: Open database of Indonesian biodiversity records taken from student theses, published
+  through GBIF under a CC BY 4.0 licence.
+facts:
+- claim: GBIF's record says it collates ecological monitoring data from student theses so
+    they can be used in wider research.
+  url: https://api.gbif.org/v1/dataset/ca58433a-3ff8-492f-9d7b-6f6d289eb6d6
+  fetched: '2026-10-31'
+  quote: collating ecological monitoring data inherent in student theses in a sustainable
+    platform
+- claim: Its geographic coverage is Indonesia and its licence is CC BY 4.0.
+  url: https://api.gbif.org/v1/dataset/ca58433a-3ff8-492f-9d7b-6f6d289eb6d6
+  fetched: '2026-10-31'
+  quote: creativecommons.org/licenses/by/4.0/legalcode
+- claim: Its own site says it records biodiversity data from theses at universities across
+    Indonesia.
+  url: https://biodiverskripsi.wixsite.com/biodiverskripsi
+  fetched: '2026-10-31'
+  quote: Pendataan keanekaragaman hayati Indonesia dari seluruh skripsi, tesis, dan disertasi
+    mahasiswa
+- claim: Tambora says the project has run since 2019 with support from the Biodiversity Information
+    Fund for Asia.
+  url: https://tamboramuda.org/kegiatan/
+  fetched: '2026-10-31'
+  quote: Proyek yang berjalan sejak 2019 ini didukung oleh Biodiversity Information Fund for
+    Asia (BIFA)
+links:
+- type: run-by
+  to: tambora-muda-indonesia
+  url: https://tamboramuda.org/kegiatan/
+  fetched: '2026-10-31'
+  quote: Biodiverskripsi merupakan proyek yang digagas Tambora bersama Indonesian Biodiversity
+    Information Facility (InaBIF)
+- type: partners-with
+  to: indonesian-biodiversity-information-facility
+  url: https://tamboramuda.org/kegiatan/
+  fetched: '2026-10-31'
+  quote: Biodiverskripsi merupakan proyek yang digagas Tambora bersama Indonesian Biodiversity
+    Information Facility (InaBIF)
+- type: funded-by
+  to: biodiversity-information-fund-for-asia
+  url: https://tamboramuda.org/kegiatan/
+  fetched: '2026-10-31'
+  quote: didukung oleh Biodiversity Information Fund for Asia (BIFA)
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

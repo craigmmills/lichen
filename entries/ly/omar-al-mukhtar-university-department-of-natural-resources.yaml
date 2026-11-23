@@ -1,0 +1,51 @@
+id: omar-al-mukhtar-university-department-of-natural-resources
+kind: organisation
+name: Department of Natural Resources, Omar Al-Mukhtar University
+also_known_as: []
+scope: ly
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ly
+countries:
+- ly
+scale: local
+status: active
+summary: University department that OpenAlex lists as the affiliation on two remote
+  sensing papers by different first authors, one from 2022 on wildfire effects on
+  vegetation moisture and one from 2024 on desertification near Tobruk.
+facts:
+- claim: OpenAlex gives the department as first author Mohamed Bufarwa's affiliation
+    on a 2022 paper on wildfire effects on vegetation moisture at Ain Marah, Al-Jabal
+    Al-Akhdar, using remote sensing.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Department of natural resources, faculty of natural resources and environment
+    college, Omar AL Mokhtar University, Al Biyda, Libya
+- claim: The 2022 paper studies wildfire effects on vegetation moisture using remote
+    sensing techniques.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: 'Wildfire Effects on Vegetation Moisture, Using Remote Sensing Techniques:
+    Case Study of Ain Marah Al-Jabal Al-Akhdar, Libya'
+- claim: OpenAlex gives the department as first author Yousef Abdalrahman's affiliation
+    on a 2024 paper evaluating the desertification rate in south-east Tobruk with
+    NDVI and BSI indicators.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Department of Natural Resources, Faculity of Natural Resources and Environmental
+    Sciences, Omar Al-Mohktar University, Libya
+- claim: The 2024 paper evaluates the desertification rate using NDVI and BSI indicators.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4309807644|W4408756730|W7221081530|W7221278580|W7221203410|W4399334231&select=id,display_name,doi,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Desertification Rate Evaluation Using NDVI and BSI Indicators in Southeast
+    Tobruk, Libya
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

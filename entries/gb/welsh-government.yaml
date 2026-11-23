@@ -1,0 +1,44 @@
+id: welsh-government
+kind: organisation
+name: Welsh Government
+sector: government
+roles:
+- governs
+- funds
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: Government of Wales. Its Data Science Unit has tested computer vision on historic
+  maps to find lost woodland, and it funds the Living Wales project.
+facts:
+- claim: Its Data Science Unit has investigated computer vision on historic maps.
+  url: https://wgdsu.github.io/Woodland-AI-1
+  quote: The Data Science Unit has been investigating how computer vision models could be
+    used to label large areas of historic maps
+  fetched: '2026-10-30'
+- claim: Funds Living Wales.
+  url: https://naturalresourceswales.gov.uk/evidence-and-data/research-and-reports/state-of-natural-resources-report-2025/sonarr-2025-map-of-wales-eight-broad-ecosystems/?lang=en
+  quote: which is funded by Welsh Government
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.gov.wales/contact-welsh-government
+  quote: CF10 3NQ
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: living-wales
+  url: https://naturalresourceswales.gov.uk/evidence-and-data/research-and-reports/state-of-natural-resources-report-2025/sonarr-2025-map-of-wales-eight-broad-ecosystems/?lang=en
+  quote: which is funded by Welsh Government
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.gov.wales/

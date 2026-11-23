@@ -1,0 +1,55 @@
+id: base-nacional-de-datos-de-biodiversidad
+kind: dataset
+name: Base Nacional de Datos de Biodiversidad
+also_known_as:
+- BNDB
+- Banco Nacional de Datos de Biodiversidad (Ecuador)
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ec
+status: active
+techniques:
+- remote-sensing
+summary: Ecuadorian national biodiversity database run by the national biodiversity institute, which Lexis
+  reported in March 2026 was established by ministry rule as the single, official, compulsory system for
+  biological information.
+facts:
+- claim: On 2 March 2026, Lexis reported the ministry's technical rule establishing it as the single,
+    official and compulsory national system for registering biological information.
+  url: https://www.lexis.com.ec/noticias/registro-oficial-del-dia-ecuador-establece-la-base-nacional-de-datos-de-biodiversidad-como-sistema-unico-oficial
+  fetched: '2026-11-03'
+  quote: como el sistema nacional único, oficial y obligatorio para el registro de información biológica
+    en el país
+- claim: The National Assembly records it as developed with South Korean cooperation and an
+    investment of about USD 9 million.
+  url: https://www.asambleanacional.gob.ec/es/node/119137
+  fetched: 2026-11-02
+  quote: Banco Nacional de Datos de Biodiversidad, desarrollado con cooperación de la República
+    de Corea del Sur y una inversión aproximada de USD 9 millones
+- claim: It is meant to strengthen information on ecosystems, species and genetic resources.
+  url: https://www.asambleanacional.gob.ec/es/node/119137
+  fetched: 2026-11-02
+  quote: disponibilidad de información sobre los ecosistemas, especies y recursos genéticos
+    del Ecuador
+links:
+- type: run-by
+  to: instituto-nacional-de-biodiversidad-ecuador
+  url: https://www.lexis.com.ec/noticias/registro-oficial-del-dia-ecuador-establece-la-base-nacional-de-datos-de-biodiversidad-como-sistema-unico-oficial
+  fetched: '2026-11-03'
+  quote: la administración operativa, gestión técnica y validación científica de los datos recae sobre
+    el Instituto Público de Investigación sobre Biodiversidad (INABIO)
+- type: run-by
+  to: ministerio-de-ambiente-y-energia-ecuador
+  url: https://proamazonia.org/wp-content/uploads/2025/02/arte-informe-de-bosques_V7.pdf
+  fetched: 2026-11-02
+  quote: a través del Sistema Nacional de Monitoreo de Bosques (SNMB) realiza el monitoreo
+    continuo de los bosques
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-03'

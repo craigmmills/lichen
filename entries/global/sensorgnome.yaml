@@ -1,0 +1,24 @@
+id: sensorgnome
+kind: programme
+name: SensorGnome
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+status: active
+website: https://sensorgnome.org
+runner: unknown
+summary: Automated radio receiver, powered by a Raspberry Pi, that detects and records signals from wildlife tracking tags without anyone present. Its logo is under Major supporters on the Motus site.
+facts:
+- claim: A user guide covers assembling SensorGnome hardware and installing its V2 software, which runs on Raspberry Pi computers.
+  url: https://github.com/MotusWTS/sensorgnome-guide-v2
+  quote: that runs on Raspberry Pi4, Pi3, Zero-2W and SensorStation V1
+  fetched: '2026-10-31'
+- claim: "A user guide describes it as an automated radio receiver for wildlife tracking tags."
+  url: https://github.com/MotusWTS/sensorgnome-guide-v2
+  fetched: 2026-10-31
+  quote: "A SensorGnome is an automated radio receiver, designed to detect and record radio signals transmitted by wildlife tracking tags"
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

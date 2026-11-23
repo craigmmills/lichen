@@ -1,0 +1,54 @@
+id: wri-indonesia
+kind: organisation
+name: WRI Indonesia
+also_known_as: []
+scope: id
+sector: ngo
+roles:
+- supplies-data
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: World Resources Institute's Indonesian office, implementing partner of the Indonesian
+  Peat Prize and on the drafting team of Pantau Gambut. Its own site refused the fetcher,
+  so facts come from other pages.
+facts:
+- claim: WRI's release names it implementing partner of the Indonesian Peat Prize.
+  url: https://www.wri.org/news/release-indonesian-peat-prize-announces-winner-1-million-international-peat-mapping-team-ipmt
+  fetched: '2026-10-31'
+  quote: WRI Indonesia is the implementing partner for the Prize.
+- claim: Gave South Sumatra a server and peat and forestry data systems for the SONGKET fire
+    system, per Medcom.
+  url: https://www.medcom.id/nasional/daerah/lKYwGYQb-herman-deru-rilis-aplikasi-deteksi-karhutla-pertama-di-indonesia
+  quote: memberikan bantuan berupa satu unit server DELL Poweredge R740, 1 unit sistem data
+    dan informasi ekosistem gambut dan 1 unit sistem data dan informasi kehutanan
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: world-resources-institute
+  url: https://www.wri.org/news/release-indonesian-peat-prize-announces-winner-1-million-international-peat-mapping-team-ipmt
+  fetched: '2026-10-31'
+  quote: International Websites WRI Africa WRI Brasil WRI China WRI Colombia WRI India WRI
+    Indonesia
+- type: runs
+  to: indonesian-peat-prize
+  url: https://www.wri.org/news/release-indonesian-peat-prize-announces-winner-1-million-international-peat-mapping-team-ipmt
+  fetched: '2026-10-31'
+  quote: WRI Indonesia is the implementing partner for the Prize.
+- type: partners-with
+  to: songket-sumsel
+  url: https://www.medcom.id/nasional/daerah/lKYwGYQb-herman-deru-rilis-aplikasi-deteksi-karhutla-pertama-di-indonesia
+  quote: Aplikasi ini digagas oleh Pemprov Sumsel, Polda Sumsel, WRI Indonesia dan Forum DAS
+    Sumsel.
+  fetched: '2026-10-31'
+found_by:
+- link-from:world-resources-institute
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

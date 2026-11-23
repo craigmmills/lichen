@@ -1,0 +1,124 @@
+id: metsahallitus
+kind: organisation
+name: Metsähallitus
+sector: government
+roles:
+- governs
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+hq: fi
+scale: national
+status: active
+website: https://www.metsa.fi
+summary: A state-owned enterprise managing state land and water across Finland, including
+  most conservation areas, and training staff in AI.
+facts:
+- claim: Manages most of Finland's Natura 2000 network through Parks & Wildlife Finland.
+  url: https://www.metsa.fi/en/lands-and-waters/protected-areas/natura-2000-sites/
+  fetched: '2026-11-02'
+  quote: Most part of the network is managed by Metsähallitus, Parks & Wildlife Finland as
+    a part of its nature reserve network.
+- claim: Trains its staff in the use of AI and has updated its principles for using it.
+  url: https://www.metsa.fi/en/press-releases/metsahallitus-updates-usage-principles-for-artificial-intelligence/
+  fetched: '2026-11-02'
+  quote: Metsähallitus actively trains its personnel in the use of AI
+- claim: Describes itself as a state-owned enterprise producing environmental services.
+  url: https://www.metsa.fi/en/about-us/
+  quote: Metsähallitus is a state-owned enterprise that produces environmental services for
+    a diverse customer base
+  fetched: '2026-11-02'
+- claim: Says it uses, manages and protects state-owned land and water areas.
+  url: https://www.metsa.fi/en/about-us/
+  quote: We use, manage, and protect state-owned land and water areas
+  fetched: '2026-11-02'
+- claim: Its Parks & Wildlife Finland unit manages 85% of the fell areas in Northern Lapland,
+    or 1.5 million hectares.
+  url: https://www.metsa.fi/en/project/remote-sensing-northern-lapland/
+  quote: Metsähallitus, Parks & Wildlife Finland manages 85% of the fell areas, i.e. 1.5 million
+    hectares.
+  fetched: '2026-11-02'
+- claim: Runs Uljas, a geographic information system with subsystems for habitat and species
+    data.
+  url: https://www.metsa.fi/en/lands-and-waters/geographic-information/
+  quote: Uljas is a geographic information system based on Metsähallitus’ ESRI products.
+  fetched: '2026-11-02'
+- claim: CollectiveCrunch republished a 2021 Metsähallitus article saying some 100 field experts
+    would use AI yield predictions on almost 3 million hectares.
+  url: https://www.collectivecrunch.com/customers/metsahallitus-utilises-artificial-intelligence-in-operational-forest-management-planning/
+  quote: The predictions produced by AI will be used by some 100 field experts in almost 3
+    million hectares of forest land.
+  fetched: '2026-11-02'
+- claim: In 2019 its subsidiary Metsähallitus Forestry Ltd. announced an innovation partnership
+    on AI with CollectiveCrunch.
+  url: https://www.metsa.fi/en/press-releases/metsahallitus-and-collectivecrunch-announce-partnership-to-bring-ai-to-forestry/
+  quote: have entered into an innovation partnership with the goal of improving harvesting
+    and forest development planning through deep artificial intelligence (AI) technology and
+    big data analysis.
+  fetched: '2026-11-02'
+- claim: Head office at Opastinsilta 12 C, Helsinki.
+  url: https://www.metsa.fi/en/about-us/organisation/
+  quote: P.O. Box 80 (Opastinsilta 12 C)
+  fetched: '2026-11-02'
+- claim: A state-owned enterprise.
+  url: https://www.metsa.fi/en/about-us/organisation/
+  quote: Metsähallitus is a state-owned enterprise that produces environmental services
+  fetched: '2026-11-02'
+- claim: Its public administration services manage almost all nature conservation areas in
+    Finland.
+  url: https://www.metsa.fi/en/about-us/organisation/
+  quote: Our tasks include managing almost all nature conservation areas and dozens of cultural
+    heritage sites in Finland
+  fetched: '2026-11-02'
+- claim: Parks & Wildlife Finland is responsible for species inventories and monitoring in
+    the conservation areas it manages.
+  url: https://www.metsa.fi/en/protection-and-management/species/
+  quote: is responsible for species inventories and species monitoring in the conservation
+    areas managed by it
+  fetched: '2026-11-02'
+- claim: Manages state-owned lands and waters all over Finland.
+  url: https://www.metsa.fi/en/about-us/business-units/parkswildlife-finland/
+  fetched: '2026-11-02'
+  quote: Parks & Wildlife Finland is a unit of Metsähallitus, which manages state-owned lands
+    and waters all over Finland
+- claim: National Parks Finland manages state-owned nature reserves.
+  url: https://www.metsa.fi/en/about-us/business-units/parkswildlife-finland/
+  fetched: '2026-11-02'
+  quote: manages state-owned nature reserves and historic sites
+- claim: Its National Parks Finland unit compiles GPS data on conservation issues in protected
+    areas.
+  url: https://www.metsa.fi/en/about-us/business-units/parkswildlife-finland/
+  fetched: '2026-11-02'
+  quote: compiles GPS data on conservation issues in protected areas
+- claim: Gives its head office address as Opastinsilta 12 C, Helsinki.
+  url: https://www.metsa.fi/en/
+  fetched: '2026-11-02'
+  quote: P.O. Box 80 (Opastinsilta 12 C)
+found_by:
+- checklist:1
+- link-from:collectivecrunch
+- checklist:register
+scope: fi
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- remote-sensing
+links:
+- type: uses
+  to: linda-forest
+  url: https://www.collectivecrunch.com/customers/metsahallitus-utilises-artificial-intelligence-in-operational-forest-management-planning/
+  fetched: '2026-11-02'
+  quote: Metsähallitus is now ramping up the utilisation of yield predictions produced by
+    our AI-powered service platform Linda.
+- type: runs
+  to: lajigis
+  url: https://www.metsa.fi/en/protection-and-management/species/
+  quote: also maintains the national species information database LajiGIS which is used by
+    the environmental authorities
+  fetched: '2026-11-02'
+countries:
+- fi

@@ -1,0 +1,41 @@
+id: instituto-nacional-de-investigaciones-forestales-agricolas-y-pecuarias
+kind: organisation
+name: Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias
+also_known_as:
+- INIFAP
+scope: mx
+sector: government
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- mx
+scale: national
+status: active
+website: https://www.gob.mx/inifap
+summary: A Mexican research institute that describes training a YOLO model to detect crowns
+  of dead and stressed trees in RGB drone images, saying AI with drones speeds forest health
+  analysis.
+facts:
+- claim: Describes training a YOLO model to detect and segment crowns of dead and stressed
+    trees in RGB drone images.
+  url: https://www.gob.mx/inifap/es/articulos/drones-e-ia-para-la-conservacion-de-los-bosques
+  fetched: '2026-11-03'
+  quote: Desarrollo de algoritmo de detección con Yolov11
+  ai_type: deep-learning
+- claim: Says AI combined with drone imagery allows faster and more scalable forest health
+    analysis.
+  url: https://www.gob.mx/inifap/es/articulos/drones-e-ia-para-la-conservacion-de-los-bosques
+  fetched: '2026-11-03'
+  quote: permite un análisis más rápido, objetivo y escalable
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'

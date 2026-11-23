@@ -1,0 +1,49 @@
+id: proyecto-ondas-panama
+kind: project
+name: Proyecto Ondas
+scope: pa
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: Project with MiAmbiente and Fundación Panacetacea that, as reported in March
+  2021, installed four underwater recorders in Panama's Pacific waters to study the
+  acoustic landscape of Isla Iguana and Coiba National Park.
+facts:
+- claim: In March 2021, MiAmbiente and Fundación Panacetacea were reported to have
+    installed four underwater recorders for natural and human-made sounds in Panama's
+    Pacific waters.
+  url: https://www.tvn-2.com/nacionales/instalan-grabadoras-acusticas-pacifico-monitorear_1_1111183.html
+  fetched: 2026-11-12
+  quote: Cuatro grabadoras submarinas que captan los sonidos naturales y los producidos
+    por las actividades antrópicas (actividades del hombre) fueron instaladas por
+    el Ministerio de Ambiente (MiAmbiente), y la Fundación Panacetacea, en aguas del
+    Pacífico panameño.
+- claim: The March 2021 report said the equipment would monitor fish, dolphin and
+    whale populations under Proyecto Ondas, which aimed to study the acoustic landscape
+    of Isla Iguana and Coiba National Park.
+  url: https://www.tvn-2.com/nacionales/instalan-grabadoras-acusticas-pacifico-monitorear_1_1111183.html
+  fetched: 2026-11-12
+  quote: Los equipos servirán para monitorear las poblaciones de peces, delfines y
+    ballenas, como parte del Proyecto Ondas que busca conocer el paisaje acústico
+    de ecosistemas marinos
+links:
+- type: partners-with
+  to: ministerio-de-ambiente-de-panama
+  url: https://www.tvn-2.com/nacionales/instalan-grabadoras-acusticas-pacifico-monitorear_1_1111183.html
+  fetched: 2026-11-12
+  quote: fueron instaladas por el Ministerio de Ambiente (MiAmbiente), y la Fundación
+    Panacetacea
+- type: partners-with
+  to: panacetacea
+  url: https://www.tvn-2.com/nacionales/instalan-grabadoras-acusticas-pacifico-monitorear_1_1111183.html
+  fetched: 2026-11-12
+  quote: fueron instaladas por el Ministerio de Ambiente (MiAmbiente), y la Fundación
+    Panacetacea
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

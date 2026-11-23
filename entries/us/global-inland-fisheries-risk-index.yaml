@@ -1,0 +1,31 @@
+id: global-inland-fisheries-risk-index
+kind: project
+name: Global Inland Fisheries Risk Index
+scope: us
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- other
+status: unknown
+summary: Interior Department index using boosted regression trees to map threats to
+  inland fisheries globally.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Global Inland Fisheries Risk Index Informs the relative influence of
+    threats in the development of a global inland fisheries assessment using boosted
+    regression trees to derive a spatially-explicit risk index of stressors.
+links:
+- type: run-by
+  to: us-department-of-the-interior
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Global Inland Fisheries Risk Index Informs the relative influence of
+    threats in the development of a global inland fisheries assessment using boosted
+    regression trees to derive a spatially-explicit risk index of stressors.
+found_by:
+- link-from:us-department-of-the-interior
+added_by: agent
+checked: '2026-10-30'

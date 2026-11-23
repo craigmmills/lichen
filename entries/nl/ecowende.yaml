@@ -1,0 +1,55 @@
+id: ecowende
+kind: organisation
+name: Ecowende
+sector: company
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+hq: unknown
+scale: national
+status: active
+website: https://ecowende.nl/en/
+summary: Developer of the Hollandse Kust (west) Wind Farm Site VI, a joint venture with an
+  ecological monitoring programme run with Waardenburg Ecology.
+scope: nl
+facts:
+- claim: Developer of the Hollandse Kust (west) Wind Farm Site VI.
+  url: https://ecowende.nl/en/news/waardenburg-ecology-and-ecowende-develop-most-extensive-ecological-programme-to-date-for-an-offshore-wind-farm/
+  fetched: '2026-10-31'
+  quote: Ecowende’s offshore wind farm Hollandse Kust (west) Wind Farm Site VI
+- claim: DHI describes it as a joint venture of Shell, Chubu and Eneco.
+  url: https://www.dhigroup.com/news/dhi-to-monitor-birds-and-bats-in-pioneering-new-dutch-offshore-wind-farm
+  fetched: '2026-10-31'
+  quote: the wind farm developer – a joint venture of Shell, Chubu and Eneco
+- claim: The offshore wind farm Hollandse Kust West.
+  url: https://ecowende.nl/en/
+  fetched: '2026-10-31'
+  quote: Ecowende - Offshore Wind Farm Hollandse Kust West
+- claim: Plans to deploy DHI's MUSE AI at the wind farm to monitor and protect bats.
+  url: https://ecowende.nl/en/news/dhi-biologists-film-bats-and-birds-at-night-to-train-muse/
+  fetched: '2026-10-31'
+  quote: MUSE will be deployed at our offshore wind farm to monitor and protect bats.
+links:
+- type: partners-with
+  to: ecowende-ecological-programme
+  url: https://ecowende.nl/en/news/waardenburg-ecology-and-ecowende-develop-most-extensive-ecological-programme-to-date-for-an-offshore-wind-farm/
+  fetched: '2026-10-31'
+  quote: Waardenburg Ecology and Ecowende are developing a comprehensive ecological programme
+- type: partners-with
+  to: dhi
+  url: https://ecowende.nl/en/partner/dhi/
+  fetched: '2026-10-31'
+  quote: DHI plays an important part in realising our ambition by helping us monitor birds
+    and bats within the wind farm zone
+found_by:
+- checklist:5
+- checklist:7
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+techniques:
+- computer-vision
+- bioacoustics

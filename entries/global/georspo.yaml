@@ -1,0 +1,26 @@
+id: georspo
+kind: programme
+name: GeoRSPO
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Public interactive map from the Roundtable on Sustainable Palm Oil showing members' concessions, land cover and active hotspots.
+facts:
+- claim: A public interactive map showing data on members' concessions and land cover, including active hotspots.
+  url: https://rspo.org/rspo-hotspot-monitoring/
+  fetched: '2026-10-30'
+  quote: our interactive map application GeoRSPO is publicly available and displays relevant data relating to members’ concessions and land cover, including any active hotspots.
+links:
+- type: run-by
+  to: roundtable-on-sustainable-palm-oil
+  url: https://rspo.org/rspo-hotspot-monitoring/
+  fetched: '2026-10-30'
+  quote: our interactive map application GeoRSPO is publicly available
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

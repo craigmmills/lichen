@@ -1,0 +1,42 @@
+id: sei-wetland-monitoring-tool
+kind: model
+name: Wetland Monitoring Tool
+also_known_as:
+- WMT
+scope: bd
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- bd
+- in
+- th
+status: active
+summary: Tool that SEI says generates annual wetland maps from 1994 for the Meghna and Lower Songkhram
+  River Basins using Landsat archives and machine learning, built and run by the institute.
+facts:
+- claim: SEI says the tool generates annual wetland maps from 1994 for the Meghna River Basin and the
+    Lower Songkhram River Basin using Landsat archives and machine learning.
+  url: https://www.sei.org/perspectives/can-ai-help-conserve-meghnas-vanishing-wetlands/
+  fetched: 2026-11-07
+  quote: "Wetland Monitoring Tool (WMT) \uFEFF : Generates annual wetland maps (1994-present) for the\
+    \ MRB (India-Bangladesh), and Thailand’s Lower Songkhram River Basin (LSRB) using Landsat archives\
+    \ and machine learning."
+links:
+- type: built-by
+  to: stockholm-environment-institute
+  url: https://www.sei.org/perspectives/can-ai-help-conserve-meghnas-vanishing-wetlands/
+  fetched: 2026-11-07
+  quote: Wetlands extent in the Meghna River Basin using the Wetland Monitoring Tool developed by SEI.
+- type: run-by
+  to: stockholm-environment-institute
+  url: https://www.sei.org/perspectives/can-ai-help-conserve-meghnas-vanishing-wetlands/
+  fetched: 2026-11-07
+  quote: "SEI’s interactive portal Asia River Monitoring \uFEFF offers remote sensing tools for rivers,\
+    \ coasts, and wetlands."
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-07

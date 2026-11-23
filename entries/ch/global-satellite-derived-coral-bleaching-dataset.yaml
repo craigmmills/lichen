@@ -1,0 +1,44 @@
+id: global-satellite-derived-coral-bleaching-dataset
+kind: dataset
+name: A global satellite-derived coral bleaching dataset (2016–2025)
+scope: ch
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries: []
+status: active
+runner: unknown
+summary: Dataset of monthly predicted coral bleaching at about 1 km resolution across the
+  global tropics for 2016 to 2025, from a neural network, embargoed until 1 December 2027.
+facts:
+- claim: Provides monthly predicted coral bleaching for reef cells at about 1 km resolution
+    across the global tropics, 2016 to 2025.
+  url: https://doi.org/10.5281/zenodo.20676158
+  fetched: '2026-11-08'
+  quote: This dataset provides monthly predicted coral bleaching for reef cells with a ca.
+    1km resolution across the global tropics, from 2016 to 2025.
+- claim: Bleaching is predicted by a recurrent (LSTM) neural network applied to monthly features
+    from Sentinel-2 imagery and MODIS ocean colour.
+  url: https://doi.org/10.5281/zenodo.20676158
+  fetched: '2026-11-08'
+  quote: Bleaching is predicted using a recurrent (LSTM) neural network trained on survey-
+    and aerial-survey-based bleaching observations
+  ai_type: deep-learning
+- claim: The files are under embargo and will be made public on 1 December 2027.
+  url: https://doi.org/10.5281/zenodo.20676158
+  fetched: '2026-11-08'
+  quote: The files will be made publicly available on December 1, 2027.
+links:
+- type: builds-on
+  to: allen-coral-atlas
+  url: https://doi.org/10.5281/zenodo.20676158
+  fetched: '2026-11-08'
+  quote: Reef locations are restricted to cells overlapping the Allen Coral Atlas
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

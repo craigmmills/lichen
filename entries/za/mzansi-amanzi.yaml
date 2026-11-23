@@ -1,0 +1,31 @@
+id: mzansi-amanzi
+kind: dataset
+name: Mzansi Amanzi
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- za
+runner: unknown
+status: active
+summary: Monthly water datasets derived from Sentinel-2 calculations of surface water area and dam water
+  volume across South Africa, distributed by SANSA.
+facts:
+- claim: Monthly water datasets derived from Sentinel-2 calculations of surface water area and dam water
+    volume across South Africa.
+  url: https://www.sansa.org.za/2021/11/every-drop-counts-sansa-supports-water-resource-management-and-monitoring-with-mzansi-amanzi/
+  quote: The Mzansi Amanzi tool uses Sentinel-2 satellite data to calculate surface water area and dam
+    water volume levels across South Africa on a monthly basis.
+  fetched: '2026-10-31'
+- claim: The monthly datasets are distributed by SANSA.
+  url: https://www.sansa.org.za/2021/11/every-drop-counts-sansa-supports-water-resource-management-and-monitoring-with-mzansi-amanzi/
+  quote: The Mzansi Amanzi monthly water datasets (2016 - current) distributed by SANSA
+  fetched: '2026-10-31'
+links: []
+found_by:
+- link-from:south-african-national-space-agency
+scope: za
+added_by: agent
+checked: '2026-10-31'

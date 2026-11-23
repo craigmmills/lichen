@@ -1,0 +1,36 @@
+id: sisbio-occurrence-records
+kind: dataset
+name: Dados de ocorrência de espécies do SISBio
+scope: br
+ai_label: data-infrastructure
+status: active
+also_known_as:
+- SISBio occurrence dataset
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- br
+summary: Species occurrence records that researchers report through ICMBio's SISBio
+  research permit system, published on GBIF under CC BY 4.0.
+facts:
+- claim: Records the occurrences that researchers report through the Sisbio system.
+  url: https://api.gbif.org/v1/dataset/ffe38a37-d659-4b1a-a935-5a5264e3cc0a
+  fetched: '2026-10-30'
+  quote: Registro das ocorrencias informadas pelo pesquisadores
+- claim: Published under CC BY 4.0.
+  url: https://api.gbif.org/v1/dataset/ffe38a37-d659-4b1a-a935-5a5264e3cc0a
+  fetched: '2026-10-30'
+  quote: creativecommons.org/licenses/by/4.0
+links:
+- type: run-by
+  to: instituto-chico-mendes-de-conservacao-da-biodiversidade
+  url: https://api.gbif.org/v1/dataset/ffe38a37-d659-4b1a-a935-5a5264e3cc0a
+  fetched: '2026-10-30'
+  quote: ICMBio | Dados de ocorrência de espécies do Sistema de Autorização e Informações
+    de Biodiversidade (SISBio) do ICMBio
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

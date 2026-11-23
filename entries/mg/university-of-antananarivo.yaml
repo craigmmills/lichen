@@ -1,0 +1,54 @@
+id: university-of-antananarivo
+kind: organisation
+name: University of Antananarivo
+also_known_as:
+- Université d'Antananarivo
+scope: mg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: mg
+countries:
+- mg
+scale: national
+status: active
+website: http://www.univ-antananarivo.mg/
+summary: An education institution in Antananarivo that OpenAlex links to 79 remote
+  sensing works since January 2022, including a 2022 humpback whale drone study, and
+  which partnered with Cétamada on whale research, as Newsmada reported.
+facts:
+- claim: OpenAlex records it as an education institution in Antananarivo, with this
+    homepage.
+  url: https://api.openalex.org/institutions/I137724175?select=id,display_name,type,homepage_url,geo,ror
+  fetched: 2026-11-12
+  quote: '"display_name":"University of Antananarivo","type":"education","homepage_url":"http://www.univ-antananarivo.mg/"'
+- claim: OpenAlex lists 79 works since January 2022 with a University of Antananarivo
+    author and the remote sensing concept, among them the 2022 drone photogrammetry
+    study of humpback whales off Sainte Marie.
+  url: https://api.openalex.org/works?filter=institutions.id:I137724175,concepts.id:C62649853,from_publication_date:2022-01-01&per-page=15&select=id,title,publication_year,primary_location
+  fetched: 2026-11-12
+  quote: Morphometric study of humpback whale mother-calf pairs in the Sainte Marie
+    channel, Madagascar, using a simple drone-based photogrammetric method
+- claim: In January 2023, Newsmada reported that the university and NeuroPSI partnered
+    with Cétamada in studies of humpback whale mother and calf pairs.
+  url: https://newsmada.com/?p=12078
+  fetched: 2026-11-12
+  quote: Cétamada, en partenariat avec le laboratoire NeuroPSI de l’Université de
+    Paris Saclay France et l’Université d’Antananarivo
+links:
+- type: partners-with
+  to: cetamada
+  url: https://newsmada.com/?p=12078
+  fetched: 2026-11-12
+  quote: Cétamada, en partenariat avec le laboratoire NeuroPSI de l’Université de
+    Paris Saclay France et l’Université d’Antananarivo
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

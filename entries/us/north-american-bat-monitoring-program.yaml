@@ -1,0 +1,39 @@
+id: north-american-bat-monitoring-program
+kind: programme
+name: North American Bat Monitoring Program
+also_known_as:
+- NABat
+- NA Bat
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+runner: unknown
+summary: Nationwide repository of bat occurrence records. USGS pages describing it
+  could not be read, so its operator is left open here.
+facts:
+- claim: A nationwide repository for bat occurrence records.
+  url: https://dendra.science/research-stories/ca-sentinel-site-network
+  fetched: '2026-10-30'
+  quote: NA Bat, a nation-wide repository for bat occurrence records
+- claim: Assesses status and trends of bat populations.
+  url: https://digitalcommons.unl.edu/ncfwrustaff/317
+  fetched: '2026-10-30'
+  quote: aims to use its technology infrastructure to assess status and trends of
+    bat populations
+- claim: NABat ML uses convolutional neural networks.
+  ai_type: deep-learning
+  url: https://digitalcommons.unl.edu/ncfwrustaff/317
+  fetched: '2026-10-30'
+  quote: This model combines signal processing techniques and convolutional neural
+    networks (CNNs) to detect and classify recorded bat echolocation calls.
+found_by:
+- checklist:2
+- link-from:wildlife-acoustics
+added_by: agent
+checked: '2026-10-30'
+ai_types:
+- deep-learning

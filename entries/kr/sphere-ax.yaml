@@ -1,0 +1,87 @@
+id: sphere-ax
+kind: organisation
+name: Sphere AX
+scope: kr
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+summary: An AI company, led by Park Yoon-ha according to a May 2025 trade report, that builds
+  Eco.AI and Eco.AI Korea and lists deep learning wildlife detection among its products.
+facts:
+- claim: A May 2025 trade report calls it an AI company led by Park Yoon-ha and says it was
+    expanding in Vietnam.
+  url: https://m.boannews.com/html/detail.html?idx=137140
+  fetched: '2026-11-02'
+  quote: 인공지능 전문기업 스피어AX(대표이사 박윤하)가 베트남을 중심으로 해외 사업 확장에 박차를 가하고 있다.
+- claim: Signed a memorandum with GTEL Robot for a Vietnamese forest protection project.
+  url: https://m.boannews.com/html/detail.html?idx=137140
+  fetched: '2026-11-02'
+  quote: 베트남 산림 보호 프로젝트를 위한 업무협약(MOU)을 체결했다.
+- claim: Its brochure describes wildlife detection for ecological monitoring and wildlife
+    protection, among other uses.
+  url: https://www.sphereax.com/free/SPHERE-AX_%ED%9A%8C%EC%82%AC%EC%86%8C%EA%B0%9C%EC%84%9C_250210.pdf
+  fetched: '2026-11-02'
+  quote: 야생동물을 찾아내고 특정 객체의 출몰, 빈도, 이벤트 등을 분석해 생태 감시
+- claim: Lists VISCOPER for wildlife detection.
+  url: https://www.sphereax.com/free/SPHERE-AX_%ED%9A%8C%EC%82%AC%EC%86%8C%EA%B0%9C%EC%84%9C_250210.pdf
+  fetched: '2026-11-02'
+  quote: VISCOPER(야생동물 탐지) 26
+- claim: Lists a 2022 contract for AI video analysis of wildlife in eco-corridors.
+  url: https://www.sphereax.com/free/SPHERE-AX_%ED%9A%8C%EC%82%AC%EC%86%8C%EA%B0%9C%EC%84%9C_250210.pdf
+  fetched: '2026-11-02'
+  quote: 22.05.26~22.12.21 AI 영상분석 기반 생태통로 야생동물 모니터링 및 데이터 분석 서비스
+- claim: Its brochure says its detection is deep learning based.
+  url: https://www.sphereax.com/free/SPHERE-AX_%ED%9A%8C%EC%82%AC%EC%86%8C%EA%B0%9C%EC%84%9C_250210.pdf
+  fetched: '2026-11-02'
+  quote: 딥러닝 영상분석 기술을 적용해 CCTV 및 트랩 카메라로 촬영된 이미지에서
+  ai_type: deep-learning
+- claim: Described by the National Institute of Ecology as a specialist AI company.
+  url: https://www.nie.re.kr/nie/bbs/BMSR00029/view.do?boardId=695965811&menuNo=200098
+  fetched: '2026-11-02'
+  quote: 인공지능 전문기업 스피어에이엑스(스피어AX,대표이사 박윤하)
+- claim: Developed the deep learning algorithm used in Eco.AI.
+  url: https://www.nie.re.kr/nie/bbs/BMSR00029/view.do?boardId=695965811&menuNo=200098
+  fetched: '2026-11-02'
+  quote: 기존 스피어AX에서 개발한 딥러닝 알고리즘
+  ai_type: deep-learning
+links:
+- type: builds
+  to: eco-ai
+  url: https://www.dailyvet.co.kr/?p=240384
+  fetched: '2026-11-02'
+  quote: 인공지능 전문기업 스피어에이엑스(스피어AX, 대표이사 박윤하)와 협업해 야생동물 자동 종동정 에코에이아이(Eco.AI) 시스템을 개발했다고 밝혔다.
+- type: builds
+  to: eco-ai
+  url: https://www.nie.re.kr/nie/bbs/BMSR00029/view.do?boardId=695965811&menuNo=200098
+  fetched: '2026-11-02'
+  quote: 국립생태원(원장 이창석)은 인공지능 전문기업 스피어에이엑스(스피어AX,대표이사 박윤하)와 협업해 「야생동물 자동 종동정 에코에이아이(Eco.AI)
+    시스템」(이하 Eco.AI)을 개발했다고 밝혔다.
+- type: builds
+  to: eco-ai
+  url: https://www.nie.re.kr/nie/bbs/BMSR00029/view.do?boardId=695965811&menuNo=200098
+  fetched: '2026-11-02'
+  quote: 환경부 산하 국립생태원(원장 이창석)은 인공지능 전문기업 스피어에이엑스(스피어AX,대표이사 박윤하)와 협업해 「야생동물 자동 종동정 에코에이아이(Eco.AI)
+    시스템」(이하 Eco.AI)을 개발했다고 밝혔다.
+found_by:
+- checklist:5
+- link-from:national-institute-of-ecology-korea
+also_known_as:
+- SphereAX
+- 스피어AX
+- 스피어에이엑스
+- SPHERE AX
+- SpearAX
+realms:
+- land
+techniques:
+- computer-vision
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr
+ai_types:
+- deep-learning

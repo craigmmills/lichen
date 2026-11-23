@@ -1,0 +1,58 @@
+id: marine-bio-resource-information-system-korea
+kind: dataset
+name: MBRIS
+ai_label: data-infrastructure
+realms:
+- ocean
+website: https://www.mbris.kr/en/obis/about
+summary: System run by the National Marine Biodiversity Institute of Korea, whose spatial service opened
+  fully in December 2021, offering 425,396 quality-checked records covering 8,860 registered species.
+facts:
+- claim: Marine biodiversity data collected by OBIS Korea are managed using MABIK’s MBRIS system.
+  url: https://www.mbris.kr/en/obis/about
+  fetched: '2026-11-02'
+  quote: these resources and information have been meticulously collected and managed using the MBRIS
+    system of the National Marine Biodiversity Institute of Korea (MABIK).
+- claim: When the spatial information service opened fully in December 2021, it offered 425,396 quality-checked
+    records for 8,860 species registered in MBRIS, plus OBIS data for Korean waters.
+  url: https://m.dailian.co.kr/news/view/1060200
+  fetched: 2026-11-02
+  quote: 해양생물 공간정보시스템은 MBRIS에 등록된 해양생물자원 채집정보 중 품질검증을 거친 8860종에 대한 공간정보 42만5396건과 한반도 주변 해역의 OBIS(전 세계
+    해양생물의 다양성 및 지리정보를 제공하는 시스템) 데이터(1만774종, 52만134건)를 제공하고 있다.
+- claim: A December 2021 report says sea turtle movement data were offered to researchers through an Open
+    API.
+  url: https://m.dailian.co.kr/news/view/1060200
+  fetched: 2026-11-02
+  quote: 바다거북 이동경로의 경우 국내외 연구자들이 활용할 수 있도록 Open API(응용프로그램을 작성할 수 있게 하는 공개된 인터페이스)를 개발해 서비스하고 있다.
+- claim: The institute's home page links to MBRIS.
+  url: https://www.mabik.re.kr/
+  fetched: 2026-11-02
+  quote: MBRIS 해양생명자원 통합정보시스템
+links:
+- type: run-by
+  to: national-marine-biodiversity-institute-of-korea
+  url: https://www.mbris.kr/en/obis/about
+  fetched: '2026-11-02'
+  quote: meticulously collected and managed using the MBRIS system of the National Marine Biodiversity
+    Institute of Korea (MABIK)
+- type: run-by
+  to: national-marine-biodiversity-institute-of-korea
+  url: https://m.dailian.co.kr/news/view/1060200
+  fetched: 2026-11-02
+  quote: 해양생물자원관은 해양생물 표본에 대한 형태학적, 생태적 정보 중심의 해양생명자원통합정보시스템(MBRIS)를 개선하기 위해 2019년에 정보화전략계획을 수립하고 2020년
+    11월부터 해양생물종에 대한 공간정보 제공을 추가했다.
+- type: uses
+  to: ocean-biodiversity-information-system
+  url: https://m.dailian.co.kr/news/view/1060200
+  fetched: 2026-11-02
+  quote: 한반도 주변 해역의 OBIS(전 세계 해양생물의 다양성 및 지리정보를 제공하는 시스템) 데이터(1만774종, 52만134건)를 제공하고 있다.
+found_by:
+- checklist:2
+- register:kr
+scope: kr
+status: active
+added_by: agent
+checked: '2026-11-02'
+also_known_as:
+- 해양생명자원 통합정보시스템
+- 해양생명자원통합정보시스템

@@ -1,0 +1,37 @@
+id: ghfs-marine-megafauna-database
+kind: dataset
+name: GHFS Marine Megafauna Database
+scope: sr
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+countries:
+- sr
+status: active
+summary: A dataset run by Green Heritage Fund Suriname which it says holds over 10,000
+  records and contributes to regional conservation planning, alongside its field,
+  photo-identification, acoustic and habitat datasets.
+facts:
+- claim: GHFS says its Marine Megafauna Database holds over 10,000 records and contributes
+    to regional conservation planning.
+  url: https://api.gbif.org/v1/organization?country=SR&limit=50
+  fetched: 2026-11-13
+  quote: Our Marine Megafauna Database contains over 10,000 records and contributes
+    to regional conservation planning efforts.
+- claim: GHFS maintains structured datasets from field observations, photo-identification
+    records, acoustic monitoring and habitat assessments.
+  url: https://api.gbif.org/v1/organization?country=SR&limit=50
+  fetched: 2026-11-13
+  quote: We maintain structured datasets derived from field observations, photo-identification
+    records, acoustic monitoring, and habitat assessments.
+links:
+- type: run-by
+  to: green-heritage-fund-suriname
+  url: https://api.gbif.org/v1/organization?country=SR&limit=50
+  fetched: 2026-11-13
+  quote: Our Marine Megafauna Database contains over 10,000 records
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,57 @@
+id: ligue-pour-la-protection-des-oiseaux
+kind: organisation
+name: Ligue pour la Protection des Oiseaux
+also_known_as:
+- LPO
+scope: fr
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+website: https://www.lpo.fr/
+summary: French bird conservation charity. It runs Vol de Nuit, a citizen science programme
+  that studies night migration by standardised acoustic monitoring.
+facts:
+- claim: Its site presents Vol de Nuit, a citizen science acoustic monitoring programme.
+  url: https://www.lpo.fr/la-lpo-en-actions/connaissance-des-especes-sauvages/suivis-ornithologiques/oiseaux-migrateurs/vol-de-nuit
+  quote: Vol de Nuit est un programme de sciences participatives visant à étudier la migration
+    nocturne des oiseaux via une méthode de suivi acoustique standardisée.
+  fetched: '2026-10-31'
+- claim: Has more than 80,000 members.
+  url: https://www.lpo.fr/
+  fetched: '2026-10-31'
+  quote: Plus de 80 000 membres de l'association, rejoignez-les !
+- claim: Invites people to take part in national monitoring of bird populations in France.
+  url: https://www.lpo.fr/la-lpo-en-actions/connaissance-des-especes-sauvages/suivis-ornithologiques
+  fetched: '2026-10-31'
+  quote: Participez aux suivis nationaux des populations d'oiseaux en France avec la LPO !
+- claim: Faune-France is an online portal created in 2017 and administered by the LPO.
+  url: https://www.lpo.fr/la-lpo-en-actions/connaissance-des-especes-sauvages/faune-france
+  fetched: '2026-10-31'
+  quote: Faune-France est un portail en ligne créé en 2017 et administré par la LPO
+links:
+- type: runs
+  to: vol-de-nuit
+  url: https://www.lpo.fr/la-lpo-en-actions/connaissance-des-especes-sauvages/suivis-ornithologiques/oiseaux-migrateurs/vol-de-nuit
+  quote: Fruit d’une collaboration entre la LPO, le MNHN, Biophonia et Trektellen, le programme
+  fetched: '2026-10-31'
+- type: runs
+  to: faune-france
+  url: https://www.lpo.fr/la-lpo-en-actions/connaissance-des-especes-sauvages/faune-france
+  fetched: '2026-10-31'
+  quote: Faune-France est un portail en ligne créé en 2017 et administré par la LPO
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:vigie-nature
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

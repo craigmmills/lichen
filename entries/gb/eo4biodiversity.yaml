@@ -1,0 +1,46 @@
+id: eo4biodiversity
+kind: project
+name: EO4Biodiversity
+ai_label: ai
+summary: Project combining Earth observation data and GeoAI to refine habitat classification
+  for biodiversity net gain calculations in the UK. The record is held by HR Wallingford.
+facts:
+- claim: Combines EO data with GeoAI.
+  url: https://eprints.hrwallingford.com/id/eprint/1716/
+  quote: EO4Biodiversity combines Earth Observation (EO) data with existing datasets
+    and GeoAI techniques to refine habitat classification
+  fetched: '2026-10-30'
+- claim: Develops ways to use Earth Observation data to track biodiversity changes.
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: they’re developing ways to use Earth Observation data to track biodiversity
+    changes over time
+  fetched: &id001 2026-10-30
+- claim: Web-based tool using Earth observation data and machine learning to automate
+    biodiversity net gain calculations.
+  url: https://www.hrwallingford.com/projects/automating-biodiversity-impact-assessments-earth-observation
+  quote: a web-based tool that uses Earth observation (EO) data and machine learning
+    to automate biodiversity net gain (BNG) calculations
+  fetched: 2026-10-30
+links:
+- type: led-by
+  to: hr-wallingford
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: HR Wallingford in Oxfordshire is leading a project that uses satellite information
+    to help improve plant and animal diversity
+  fetched: *id001
+- type: funded-by
+  to: uk-space-agency
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: "will use satellite data to help transform the delivery of public services, thanks to new funding from the UK Space Agency"
+  fetched: *id001
+found_by:
+- link-from:joint-nature-conservation-committee
+- checklist:7
+realms:
+- land
+techniques:
+- remote-sensing
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

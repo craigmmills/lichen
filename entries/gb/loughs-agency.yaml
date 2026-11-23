@@ -1,0 +1,38 @@
+id: loughs-agency
+kind: organisation
+name: Loughs Agency
+scope: gb
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+countries:
+- gb
+- ie
+hq: unknown
+scale: regional
+summary: Agency for the Foyle and Carlingford areas. It publishes acoustic receiver datasets
+  for tagged fish in the Foyle catchment under a Creative Commons licence.
+facts:
+- claim: Published a dataset of acoustic receivers in the Foyle catchment.
+  url: https://marineinfo.org/doc/dataset/8914
+  quote: 'Loughs Agency (2025): Foyle_Catchment: Deployment of acoustic receivers in rivers
+    within the Foyle Catchment.'
+  fetched: '2026-10-31'
+- claim: The dataset is under a Creative Commons licence.
+  url: https://marineinfo.org/doc/dataset/8914
+  quote: This dataset is licensed under a Creative Commons Attribution 4.0 International License
+  fetched: '2026-10-31'
+- claim: The receivers detect acoustically tagged fish.
+  url: https://marineinfo.org/doc/dataset/8914
+  quote: to detect the movements of acoustically tagged fish species in rivers feeding into
+    Lough Foyle
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

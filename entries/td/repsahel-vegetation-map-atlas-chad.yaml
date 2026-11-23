@@ -1,0 +1,44 @@
+id: repsahel-vegetation-map-atlas-chad
+kind: dataset
+name: Tchad, Atlas des cartes de végétation (REPSAHEL)
+scope: td
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- td
+status: unknown
+summary: Atlas of Chad vegetation maps at 1:200,000, made from 2013 satellite images
+  and field observations, with the data and thematic maps added to the REPSAHEL project
+  information system.
+facts:
+- claim: Contains 1:200,000 maps made from 2013 satellite images and field observations.
+  url: https://oss-online.org/fr/publications/REPSAHEL-Atlas_Tchad
+  fetched: 2026-11-12
+  quote: Il intègre des cartes au 1/200.000e établies à partir d’images satellites
+    récentes (2013) et d’observations de terrain.
+- claim: The data and derived thematic maps were added to the REPSAHEL project information
+    system.
+  url: https://oss-online.org/fr/publications/REPSAHEL-Atlas_Tchad
+  fetched: 2026-11-12
+  quote: L’ensemble des données utilisées, ainsi que les cartes thématiques dérivées
+    ont été intégrées au système d’information du projet REPSAHEL.
+links:
+- type: built-by
+  to: sahara-and-sahel-observatory
+  url: https://oss-online.org/fr/publications/REPSAHEL-Atlas_Tchad
+  fetched: 2026-11-12
+  quote: Il est également le fruit du partenariat OSS/Centre National d’Appui à la
+    Recherche (CNAR).
+- type: built-by
+  to: centre-national-de-recherche-pour-le-developpement-tchad
+  url: https://oss-online.org/fr/publications/REPSAHEL-Atlas_Tchad
+  fetched: 2026-11-12
+  quote: Il est également le fruit du partenariat OSS/Centre National d’Appui à la
+    Recherche (CNAR).
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

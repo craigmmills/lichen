@@ -1,0 +1,36 @@
+id: department-of-geography-universitas-indonesia
+kind: organisation
+name: Department of Geography, Universitas Indonesia
+scope: id
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: id
+scale: national
+status: active
+summary: University department whose authors published a machine learning classification of
+  coral reefs at Derawan Island over two decades.
+facts:
+- claim: Paper title.
+  url: https://api.openalex.org/works/W4390789570?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: 'Coral Reefs over Two Decades: A Machine Learning Classification Perspective'
+- claim: Author affiliation.
+  url: https://api.openalex.org/works/W4390789570?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Department of Geography, Faculty of Mathematics and Natural Sciences, University
+    of Indonesia, Depok 16424
+- claim: OpenAlex places University of Indonesia in Depok.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=Universitas%20Indonesia
+  quote: '"display_name": "University of Indonesia", "homepage_url": "https://www.ui.ac.id/",
+    "geo": {"city": "Depok"'
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

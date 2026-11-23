@@ -1,0 +1,43 @@
+id: rostelecom
+kind: organisation
+name: Rostelecom
+scope: ru
+also_known_as:
+- Ростелеком
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- ru
+scale: national
+status: active
+summary: A company that installed the Lesokhranitel system in Kurgan Oblast and says it supports
+  the system in the Trans-Urals under contracts with the Kurgan forest fire centre.
+facts:
+- claim: Installed the Lesokhranitel system in Kurgan Oblast.
+  url: https://zoom.cnews.ru/news/item/686696
+  quote: начала работать цифровая система «Лесохранитель», установленная компанией «Ростелеком»
+  fetched: '2026-10-31'
+- claim: Says it supports the Lesokhranitel system in the Trans-Urals under contracts with
+    the Kurgan forest fire centre.
+  url: https://www.company.rt.ru/press/news_fill/d479709/
+  fetched: 2026-10-31
+  quote: Обеспечение бесперебойной работы системы дистанционного мониторинга и раннего обнаружения
+    ландшафтных пожаров «Лесохранитель» в Зауралье проводится по контрактам «Ростелекома»
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+links:
+- type: uses
+  to: lesokhranitel
+  url: https://www.company.rt.ru/press/news_fill/d479709/
+  fetched: 2026-10-31
+  quote: Обеспечение бесперебойной работы системы дистанционного мониторинга и раннего обнаружения
+    ландшафтных пожаров «Лесохранитель» в Зауралье проводится по контрактам «Ростелекома»

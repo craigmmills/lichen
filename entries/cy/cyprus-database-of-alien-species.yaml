@@ -1,0 +1,46 @@
+id: cyprus-database-of-alien-species
+kind: dataset
+name: Cyprus Database of Alien Species
+also_known_as:
+- CyDAS
+scope: cy
+ai_label: data-infrastructure
+status: active
+countries:
+- cy
+website: https://ris-ky.info/cydas
+summary: Database that aims to be a single source on alien species in Cyprus, built by RIS-KY, collecting
+  occurrence records through two iNaturalist projects.
+facts:
+- claim: Aims to be a single source of information on alien species on Cyprus.
+  url: https://ris-ky.info/cydas
+  fetched: 2026-11-08
+  quote: with the aim of making a "one stop shop" of information on alien species on Cyprus, and have
+    added much new data
+- claim: Collects occurrence data on non-native species in Cyprus through two iNaturalist projects.
+  url: https://ris-ky.info/cydas
+  fetched: 2026-11-08
+  quote: We now have two iNaturalist projects specifically aimed at collecting occurrence data on non-native
+    species in Cyprus
+- claim: Its initial compilation drew on DAISIE, EASIN and the unpublished ELNAIS database, and Nikolas
+    Michailidis of the Department of Fisheries and Marine Research later contributed data.
+  url: https://ris-ky.info/cydas
+  fetched: 2026-11-08
+  quote: included data from DAISIE, EASIN and data from the unpublished ELNAIS database
+links:
+- type: built-by
+  to: ris-ky
+  url: https://ris-ky.info/cydas
+  fetched: 2026-11-08
+  quote: As a part of the RIS-Ky project, we have transferred this information into a new database
+- type: uses
+  to: inaturalist
+  url: https://ris-ky.info/cydas
+  fetched: 2026-11-08
+  quote: We now have two iNaturalist projects specifically aimed at collecting occurrence data on non-native
+    species in Cyprus
+found_by:
+- register:cy
+- link-from:checklist-of-introduced-taxa-in-cyprus
+added_by: agent
+checked: 2026-11-08

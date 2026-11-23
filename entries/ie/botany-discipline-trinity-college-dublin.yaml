@@ -1,0 +1,33 @@
+id: botany-discipline-trinity-college-dublin
+kind: organisation
+name: Botany Discipline, School of Natural Sciences, Trinity College Dublin
+scope: ie
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: ie
+countries:
+- ie
+scale: national
+status: active
+summary: Trinity College Dublin academic unit, listed as an affiliation of the first author of an abstract
+  applying random forest to predict water tables in selected Irish peatlands.
+facts:
+- claim: An affiliation of the first author of the abstract "Assessing the application of random forest
+    (RF) to predict water-table (WT) in selected Irish peatlands" (OpenAlex record).
+  url: https://api.openalex.org/works?filter=doi:10.64898/2026.06.19.733324|10.7717/peerj.15913|10.5194/egusphere-egu25-5122|10.1016/j.ecolmodel.2026.111524&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: '"display_name": "Assessing the application of random forest (RF) to predict water-table (WT)
+    in selected Irish peatlands", "authorships": [{"author_position": "first"'
+- claim: The first author's affiliations on that abstract are the Botany Discipline, School of Natural
+    Sciences, Trinity College Dublin, and Atlantic Technological University.
+  url: https://api.openalex.org/works?filter=doi:10.64898/2026.06.19.733324|10.7717/peerj.15913|10.5194/egusphere-egu25-5122|10.1016/j.ecolmodel.2026.111524&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: Botany Discipline, School of Natural Sciences, Trinity College Dublin, Ireland
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

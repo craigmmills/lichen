@@ -1,0 +1,50 @@
+id: lomonosov-moscow-state-university
+kind: organisation
+name: Lomonosov Moscow State University
+scope: ru
+also_known_as:
+- Moscow State University
+- МГУ
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ru
+countries:
+- ru
+scale: national
+status: active
+summary: University named in the citation of the Moscow Digital Herbarium and recorded on
+  GBIF as publisher of the Flora of Russia backlog, and it runs the national depository bank
+  of live systems.
+facts:
+- claim: GBIF names its depository project.
+  url: https://api.gbif.org/v1/organization/f5fc4e61-b7a0-414b-ab68-b41cb23e7fdc
+  fetched: '2026-10-31'
+  quote: National Depository Bank of Live Systems
+- claim: The RU-BIRDS.RU title on GBIF names the university's Zoological Museum.
+  url: https://api.gbif.org/v1/dataset/ba19fc1d-670c-426b-b99d-49f003792ac4
+  fetched: '2026-10-31'
+  quote: Zoological Museum of M.V. Lomonosov Moscow State University
+- claim: GBIF records the university as publisher of the Flora of Russia backlog.
+  url: https://api.gbif.org/v1/dataset/47cac062-7224-4570-8141-c822320627fd
+  fetched: '2026-10-31'
+  quote: f5fc4e61-b7a0-414b-ab68-b41cb23e7fdc
+- claim: Its GBIF publisher record gives its address.
+  url: https://api.gbif.org/v1/organization/f5fc4e61-b7a0-414b-ab68-b41cb23e7fdc
+  fetched: '2026-10-31'
+  quote: Leninskie Gory 1
+found_by:
+- checklist:2
+- checklist:queue-gbif-publishers
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: national-depository-bank-of-live-systems
+  url: https://api.gbif.org/v1/organization/f5fc4e61-b7a0-414b-ab68-b41cb23e7fdc
+  fetched: '2026-10-31'
+  quote: The project of the Lomonosov Moscow State University

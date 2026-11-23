@@ -1,0 +1,81 @@
+id: irecord
+kind: programme
+name: iRecord
+ai_label: ai
+realms:
+- land
+- freshwater
+countries:
+- gb
+status: active
+website: https://irecord.org.uk
+summary: UK website for entering wildlife records, with verification and record checks and
+  data sharing.
+facts:
+- claim: Offers casual records and species group forms.
+  url: https://irecord.org.uk/
+  quote: Enter a casual record
+  fetched: '2026-10-30'
+- claim: Includes verification and record checks.
+  url: https://irecord.org.uk/about
+  quote: Verification and record checks
+  fetched: '2026-10-30'
+- claim: Runs two models.
+  url: https://www.brc.ac.uk/node/1000
+  quote: 'We are running two models within iRecord app: Pl@ntNet (in the Plant List Survey)
+    and Naturalis’ Nature Identification API (NIA).'
+  fetched: '2026-10-30'
+- claim: Brings together wildlife sightings to be checked by experts and made available for
+    research and decisions.
+  url: https://irecord.org.uk/about
+  quote: The goal of iRecord is to help bring together wildlife sightings from many sources
+  fetched: &id001 2026-10-30
+- claim: Image recognition supports species identification during record creation.
+  url: https://www.brc.ac.uk/article/image-recognition-irecord
+  quote: focusing on supporting species identification during record creation
+  fetched: *id001
+- claim: Runs two identification models in the iRecord app.
+  url: https://www.brc.ac.uk/theme/image-recognition-irecord
+  fetched: '2026-10-30'
+  quote: 'We are running two models within iRecord app: Pl@ntNet (in the Plant List Survey)
+    and Naturalis’ Nature Identification API (NIA).'
+found_by:
+- checklist:2
+- link-from:butterfly-conservation
+- link-from:biological-records-centre
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+links:
+- type: uses
+  to: plantnet
+  url: https://www.brc.ac.uk/node/1000
+  quote: 'We are running two models within iRecord app: Pl@ntNet'
+  fetched: '2026-10-30'
+- type: uses
+  to: naturalis-biodiversity-center
+  url: https://www.brc.ac.uk/node/1000
+  quote: Naturalis’ Nature Identification API (NIA)
+  fetched: '2026-10-30'
+- type: run-by
+  to: biological-records-centre
+  url: https://irecord.org.uk/about
+  quote: It is operated by the Biological Records Centre (BRC)
+  fetched: *id001
+- type: run-by
+  to: biological-records-centre
+  url: https://www.glasgowlife.org.uk/museums/biological-record-centre
+  fetched: '2026-10-30'
+  quote: We recommend iRecord , managed by The Biological Records Centre.
+- type: uses
+  to: plantnet
+  url: https://www.brc.ac.uk/theme/image-recognition-irecord
+  fetched: '2026-10-30'
+  quote: 'We are running two models within iRecord app: Pl@ntNet (in the Plant List Survey)'
+- type: uses
+  to: naturalis-biodiversity-center
+  url: https://www.brc.ac.uk/theme/image-recognition-irecord
+  fetched: '2026-10-30'
+  quote: Naturalis’ Nature Identification API (NIA)

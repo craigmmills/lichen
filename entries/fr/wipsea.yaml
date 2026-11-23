@@ -1,0 +1,32 @@
+id: wipsea
+kind: organisation
+name: WIPSEA
+scope: fr
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+hq: fr
+scale: national
+status: unknown
+summary: French small company at Lancieux, Brittany, listed by CORDIS as a participant in
+  the WildDrone project, with its participation marked as ended.
+facts:
+- claim: CORDIS lists it in Lancieux, Brittany.
+  url: https://cordis.europa.eu/project/id/101071224
+  fetched: '2026-10-31'
+  quote: 1 RUE DU BOIS FLOTTE
+- claim: CORDIS marks its participation as ended.
+  url: https://cordis.europa.eu/project/id/101071224
+  fetched: '2026-10-31'
+  quote: WIPSEA Participation ended France
+links:
+- type: partners-with
+  to: wilddrone
+  url: https://cordis.europa.eu/project/id/101071224
+  fetched: '2026-10-31'
+  quote: WIPSEA Participation ended France
+found_by:
+- link-from:wilddrone
+added_by: agent
+checked: '2026-10-31'

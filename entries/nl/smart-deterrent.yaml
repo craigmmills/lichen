@@ -1,0 +1,29 @@
+id: smart-deterrent
+kind: programme
+name: Smart Deterrent
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: A non-lethal deterrent from Hack the Planet that pairs with AI cameras and
+  fires light and sound only when the right species is detected.
+facts:
+- claim: Pairs with AI cameras and fires only when the right species is detected.
+  url: https://www.hack-the-planet.io/products/
+  fetched: &id001 2026-10-31
+  quote: 'Smart Deterrent pairs with AI cameras to keep wildlife and people apart:
+    light, sound and unpredictable patterns, fired only when the right species is
+    detected.'
+links:
+- type: run-by
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/products/
+  fetched: *id001
+  quote: "Field-proven hardware and software, built alongside the rangers, NGOs and research teams who use it every day."
+found_by:
+- link-from:hack-the-planet
+scope: nl
+added_by: agent
+checked: *id001

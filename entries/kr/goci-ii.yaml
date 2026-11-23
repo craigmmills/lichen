@@ -1,0 +1,37 @@
+id: goci-ii
+kind: programme
+name: GOCI-II
+scope: kr
+ai_label: data-infrastructure
+status: unknown
+summary: Ocean observation satellite payload that KARI describes as having 250 m resolution and 13 channels,
+  intended in a February 2020 pre-launch report to succeed GOCI and observe red and brown tides.
+facts:
+- claim: KARI's page gives 250 m resolution and 13 channels.
+  url: https://www.kari.re.kr//eng/contents/174
+  fetched: '2026-11-02'
+  quote: Cheollian 2B’s marine payload(GOCI-II) observes the ocean with 250 m resolution, which is 4 times
+    the observation performance of Cheollian 1.
+- claim: KARI says it can monitor the ocean carbon cycle and marine environment.
+  url: https://www.kari.re.kr//eng/contents/174
+  fetched: '2026-11-02'
+  quote: GOCI-II can monitor the ocean's carbon cycle as well as the marine environment such as red tide/green
+    algae and salt concentration and marine pollution such as oil pollution.
+- claim: WMO OSCAR names KIOST as providing agency.
+  url: https://space.oscar.wmo.int/instruments/view/goci_ii
+  fetched: '2026-11-02'
+  quote: Providing Agency KIOST
+found_by:
+- checklist:2
+- link-from:korea-aerospace-research-institute
+runner: unknown
+also_known_as:
+- GOCI-2
+realms:
+- ocean
+techniques:
+- remote-sensing
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr

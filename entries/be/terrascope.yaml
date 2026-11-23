@@ -1,0 +1,88 @@
+id: terrascope
+kind: programme
+name: Terrascope
+also_known_as:
+- Belgian Earth Observation Data Space
+- TERRASCOPE
+scope: be
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- be
+website: https://docs.terrascope.be/
+summary: VITO-run platform launched in 2017 giving access to open satellite data and Copernicus archives,
+  which VITO says has over 38,000 users and whose operations are secured until the end of 2028.
+facts:
+- claim: Provides access to open satellite data, derived products and reference data sets.
+  url: https://docs.terrascope.be/
+  fetched: 2026-11-02
+  quote: It provides easy access to open-source satellite data, derived products and reference data sets.
+- claim: Operations are secured until the end of 2028.
+  url: https://eo.belspo.be/en/news/terrascope-ii-unveiled-belgium-expands-its-free-satellite-imaging-services
+  fetched: 2026-11-02
+  quote: Its operations are now secured until the end of 2028.
+- claim: VITO says it gives access to Copernicus data archives and cloud-based processing.
+  url: https://vito.be/sites/vito/files/2025-04/vito-jaarverslag2024-digitaal-en.pdf
+  fetched: '2026-11-02'
+  quote: seamless access to Copernicus data archives and cloud-based processing
+- claim: VITO says more than 38,000 users use the platform.
+  url: https://vito.be/en/news/terrascope-wins-two-begeo-awards
+  fetched: '2026-11-02'
+  quote: more than 38,000 users make use of the platform
+- claim: VITO says new Sentinel datasets support applications including biodiversity monitoring.
+  url: https://vito.be/en/news/terrascope-wins-two-begeo-awards
+  fetched: '2026-11-02'
+  quote: supporting applications in areas such as agriculture, biodiversity monitoring, and water and
+    air quality monitoring
+- claim: Launched in 2017 to give access to Copernicus data.
+  url: https://remotesensing.vito.be/services/terrascope
+  fetched: '2026-11-02'
+  quote: Terrascope is the Belgian collaborative ground segment launched in 2017
+- claim: Holds Sentinel data and the SPOT-Vegetation and PROBA-V sets.
+  url: https://remotesensing.vito.be/services/terrascope
+  fetched: '2026-11-02'
+  quote: the unique data sets from the SPOT-Vegetation and PROBA-V missions
+links:
+- type: run-by
+  to: vito
+  url: https://docs.terrascope.be/
+  fetched: 2026-11-02
+  quote: It is managed by VITO on behalf of the Belgian Federal Science Policy Office
+- type: run-by
+  to: vito
+  url: https://vito.be/sites/vito/files/2025-04/vito-jaarverslag2024-digitaal-en.pdf
+  fetched: '2026-11-02'
+  quote: Managed and operated by VITO on behalf of the Belgian Science Policy (BELSPO)
+- type: built-by
+  to: vito
+  url: https://vito.be/en/news/terrascope-wins-two-begeo-awards
+  fetched: '2026-11-02'
+  quote: The platform was developed and continues to be developed by VITO on behalf of BELSPO (Belgian
+    Science Policy Office).
+- type: uses
+  to: copernicus-data-space-ecosystem
+  url: https://vito.be/en/news/terrascope-wins-two-begeo-awards
+  fetched: '2026-11-02'
+  quote: Through its integration with the Copernicus Data Space Ecosystem
+- type: run-by
+  to: vito
+  url: https://remotesensing.vito.be/services/terrascope
+  fetched: '2026-11-02'
+  quote: operated by VITO Remote Sensing
+- type: funded-by
+  to: belgian-science-policy-office
+  url: https://remotesensing.vito.be/services/terrascope
+  fetched: '2026-11-02'
+  quote: Terrascope is funded by the Belgian Science Policy Office (BELSPO)
+found_by:
+- checklist:1
+- link-from:vito
+- checklist:2
+added_by: agent
+checked: 2026-11-02

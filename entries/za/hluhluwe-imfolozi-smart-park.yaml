@@ -1,0 +1,51 @@
+id: hluhluwe-imfolozi-smart-park
+kind: project
+name: Hluhluwe-iMfolozi Smart Park
+ai_label: ai
+realms:
+- land
+countries:
+- za
+runner: unknown
+status: unknown
+summary: A smart park where February 2018 reports described Azure AI returning under 1,300 potential human
+  incursion images from over 25,000 received in just over three months.
+facts:
+- claim: Peace Parks says Smart Parks supports sensors and communication networks for a smart park it
+    calls "Hlhuluwe-iMfolozi", as part of the Rhino Protection Programme.
+  url: https://www.peaceparks.org/about/donors-and-partners/
+  quote: Smart Parks is supporting the development of sensors and pioneering communication networks for
+    the Hlhuluwe-iMfolozi Smart Park as part of the Rhino Protection Programme.
+  fetched: '2026-10-31'
+- claim: A February 2018 report says Azure AI returned fewer than 1,300 images relevant to potential human
+    incursion from more than 25,000 images received over just over three months.
+  url: https://www.peaceparks.org/enlisting-microsoft-azure-in-the-fight-against-rhino-poaching-2/
+  fetched: '2026-10-31'
+  quote: more than 25 000 images were received by in-field cameras
+- claim: In February 2018, ITWeb reported that the park used Microsoft Azure and its AI cognitive visual
+    service.
+  url: https://itweb.co.za/content/DZQ587VJ9z27zXy2
+  fetched: '2026-10-31'
+  quote: the park is using Microsoft Azure and its baked-in services, such as the AI cognitive visual
+    service API
+links:
+- type: partners-with
+  to: smart-parks
+  url: https://www.peaceparks.org/about/donors-and-partners/
+  quote: Smart Parks is supporting the development of sensors and pioneering communication networks for
+    the Hlhuluwe-iMfolozi Smart Park
+  fetched: '2026-10-31'
+- type: partners-with
+  to: ezemvelo-kzn-wildlife
+  url: https://www.peaceparks.org/enlisting-microsoft-azure-in-the-fight-against-rhino-poaching-2/
+  fetched: '2026-10-31'
+  quote: In partnership with Ezemvelo KZN Wildlife
+found_by:
+- link-from:peace-parks-foundation
+- checklist:register
+- link-from:ezemvelo-kzn-wildlife
+scope: za
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision

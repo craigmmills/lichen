@@ -1,0 +1,44 @@
+id: university-of-the-south-pacific
+kind: organisation
+name: University of the South Pacific
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- other
+hq: fj
+scale: regional
+status: active
+website: https://www.usp.ac.fj/
+summary: Regional university established in 1968, jointly owned by Pacific governments, and
+  a publisher of biodiversity records through GBIF.
+facts:
+- claim: GBIF's publisher record describes it as a higher-learning institution for the Pacific
+    region, established in 1968.
+  url: https://api.gbif.org/v1/organization/d3ed306d-f994-4fb0-abeb-a9a373e20728
+  fetched: '2026-10-30'
+  quote: Established in 1968, USP is one of only two universities of its type in the world.
+- claim: The GBIF publisher record places it in Suva, Fiji.
+  url: https://api.gbif.org/v1/organization/d3ed306d-f994-4fb0-abeb-a9a373e20728
+  fetched: '2026-10-30'
+  quote: '"city":"Suva"'
+- claim: Wikipedia describes it as an Oceanian university headquartered in Suva, Fiji.
+  url: https://en.wikipedia.org/wiki/University_of_the_South_Pacific
+  quote: Oceanian university headquartered in Suva, Fiji
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: south-pacific-regional-herbarium
+  url: https://api.gbif.org/v1/organization/d3ab0cb3-38e8-489b-9164-abc6a63fdc83
+  fetched: '2026-10-30'
+  quote: The University of the South Pacific (USP), through theInstitute of Applied Sciences,
+    assumed responsibility for the maintenance and administratio
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

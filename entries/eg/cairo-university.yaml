@@ -1,0 +1,41 @@
+id: cairo-university
+kind: organisation
+name: Cairo University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://cu.edu.eg/Home
+summary: University listed by OpenAlex as the affiliation of Ahmad K. Hegazy, first author
+  of a 2024 paper on Avicennia marina populations in South Sinai using satellite radiometric
+  indices.
+facts:
+- claim: OpenAlex lists the 2024 paper Spatial pattern and satellite radiometric indices of
+    Avicennia marina populations in different habitat types of South Sinai, Egypt.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03q21mh05,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Spatial pattern and satellite radiometric indices of Avicennia
+    marina populations in different habitat types of South Sinai, Egypt", "publication_year":
+    2024, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Ahmad K. Hegazy, the affiliation Cairo University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03q21mh05,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Ahmed Kamel Hegazy", "raw_affiliation_strings": ["Cairo Univiresty"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

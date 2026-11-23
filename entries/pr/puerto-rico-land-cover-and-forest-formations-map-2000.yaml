@@ -1,0 +1,53 @@
+id: puerto-rico-land-cover-and-forest-formations-map-2000
+kind: dataset
+name: Puerto Rico land cover and forest formations map, 2000 (IITF_GISciRS44_puertorico_landcov2000)
+also_known_as:
+- IITF_GISciRS44_puertorico_landcov2000.img
+scope: pr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pr
+status: closed
+summary: Land cover and forest formations map for Puerto Rico, Vieques and Culebra,
+  made from 1991 and 2000 Landsat mosaics by decision tree classification, and the
+  original basis for the USGS 2001 NLCD data.
+facts:
+- claim: The map covers land cover and forest formations for Puerto Rico, Vieques
+    and Culebra for about the year 2000, from Landsat image mosaics dated 1991 and
+    2000.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Puerto_Rico/IITF_GISciRS44_puertorico_landcov2000_metadata.php
+  fetched: 2026-11-15
+  quote: This file is the map of land cover and forest formations for about the year
+    2000 for Puerto Rico, Vieques and Culebra.
+- claim: The forest type and land cover maps in the series are based on decision tree
+    classification of Landsat image mosaics.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Puerto_Rico/IITF_GISciRS44_puertorico_landcov2000_metadata.php
+  fetched: 2026-11-15
+  quote: The other two maps are of forest type and land cover and are based on decision
+    tree classification of Landsat image mosaics dated 1991 and 2000.
+- claim: The data are the original basis for the USGS 2001 NLCD data.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Puerto_Rico/IITF_GISciRS44_puertorico_landcov2000_metadata.php
+  fetched: 2026-11-15
+  quote: These data are the original basis for the 2001 NLCD data from the USGS.
+links:
+- type: funded-by
+  to: international-institute-of-tropical-forestry
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Puerto_Rico/IITF_GISciRS44_puertorico_landcov2000_metadata.php
+  fetched: 2026-11-15
+  quote: The International Institute of Tropical Forestry provided funding for this
+    work.
+- type: built-by
+  to: international-institute-of-tropical-forestry
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/index.php
+  fetched: 2026-11-15
+  quote: The International Institute of Tropical Forestry and partners have mapped
+    forest types and land cover in the Caribbean since 2002 to support forest management.
+runner: unknown
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

@@ -1,0 +1,45 @@
+id: globeo
+kind: organisation
+name: GlobEO
+scope: fr
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- fr
+scale: global
+status: active
+website: https://globeo.net/
+summary: A Toulouse-based organisation created in 2018 that develops environmental monitoring
+  services from Earth observation data, mainly Sentinel imagery.
+facts:
+- claim: Hosted in Toulouse and created in 2018 by Stéphane Mermoz, a member of the CESBIO
+    radar remote sensing team from 2011 to 2018.
+  url: https://globeo.net/about-us/
+  fetched: '2026-11-07'
+  quote: GlobEO is a company hosted in Toulouse, created in 2018 by Stéphane Mermoz who was
+    a member of the CESBIO radar remote sensing team from 2011 to 2018.
+- claim: Develops environmental monitoring services from Earth observation data, mainly Copernicus
+    Sentinel imagery.
+  url: https://globeo.net/about-us/
+  fetched: '2026-11-07'
+  quote: GlobEO develops services in the field of environmental monitoring using Earth observation
+    data, primarily derived from Sentinel satellite images of the European Copernicus program
+- claim: Named with the CNES and CESBIO as co-developer of the TropiSCO radar deforestation
+    method.
+  url: https://www.spaceclimateobservatory.org/fr/tropisco
+  fetched: '2026-11-07'
+  quote: grâce à une collaboration du CNES, du laboratoire CESBIO et de la startup GlobEO,
+    une approche novatrice a été développée
+links: []
+found_by:
+- rule:checklist-misses
+- link-from:tropisco
+added_by: agent
+checked: '2026-11-07'

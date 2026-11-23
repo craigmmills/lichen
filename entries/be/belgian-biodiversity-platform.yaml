@@ -1,0 +1,85 @@
+id: belgian-biodiversity-platform
+kind: organisation
+name: Belgian Biodiversity Platform
+also_known_as:
+- BBPf
+scope: be
+sector: government
+roles:
+- convenes
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: be
+countries:
+- be
+scale: national
+status: active
+website: https://www.biodiversity.be
+summary: Science-policy interface body funded by the Belgian Science Policy Office and run
+  by the Royal Belgian Institute of Natural Sciences, brokering between policy, science and
+  practice and supporting biodiversity data publishing.
+facts:
+- claim: A science-policy interface body supported by a Cooperation Agreement between the
+    federal and federated authorities.
+  url: https://gbif.biodiversity.be/about
+  fetched: 2026-11-02
+  quote: a science-policy interface body funded by the Belgian Science Policy Office (BELSPO)
+    supported by a Cooperation Agreement between the federal and concerned federated authorities
+- claim: A science-policy interface body funded by BELSPO under a Cooperation Agreement between
+    federal and federated authorities.
+  url: https://gbif.biodiversity.be/about/
+  fetched: '2026-11-02'
+  quote: a science-policy interface body funded by the Belgian Science Policy Office (BELSPO)
+    supported by a Cooperation Agreement between the federal and concerned federated authorities
+- claim: Offers to help users access or publish biodiversity data online.
+  url: https://www.biodiversity.be/
+  fetched: '2026-11-02'
+  quote: Access / publish biodiversity data online
+- claim: Stated address is WTC III, Boulevard Simon Bolivar 30.
+  url: https://www.biodiversity.be/
+  fetched: '2026-11-02'
+  quote: WTC III, Boulevard Simon Bolivar, 30
+- claim: Describes itself as a science-policy interface body that acts as a broker between
+    policy, science and practice.
+  url: https://www.biodiversity.be/3222/
+  fetched: &id001 2026-11-02
+  quote: Within the field of biodiversity, it acts as a broker between policy, science and
+    practice.
+- claim: Provides technical support for installing and hosting data publishing tools.
+  url: https://www.biodiversity.be/1767
+  fetched: *id001
+  quote: We also provide technical support for the installation of IPTs and we can also host
+    IPTs.
+links:
+- type: funded-by
+  to: belgian-science-policy-office
+  url: https://gbif.biodiversity.be/about
+  fetched: 2026-11-02
+  quote: a science-policy interface body funded by the Belgian Science Policy Office (BELSPO)
+- type: funded-by
+  to: belgian-science-policy-office
+  url: https://www.biodiversity.be/
+  fetched: '2026-11-02'
+  quote: The Belgian Biodiversity Platform is initiated and funded by the Belgian Science
+    Policy Office
+- type: funded-by
+  to: belgian-science-policy-office
+  url: https://www.biodiversity.be/3222/
+  fetched: *id001
+  quote: The Belgian Biodiversity Platform (BBPf) is a science-policy interface body funded
+    by the Belgian Science Policy Office (BELSPO).
+- type: uses
+  to: gbif-integrated-publishing-toolkit
+  url: https://www.biodiversity.be/1767
+  fetched: *id001
+  quote: For instance, we currently host BioFresh and AntaBIS IPTs.
+found_by:
+- checklist:2
+- link-from:biodiversity-information-standards
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

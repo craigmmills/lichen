@@ -1,0 +1,33 @@
+id: radarsat-constellation-mission
+kind: programme
+name: RADARSAT Constellation Mission
+also_known_as:
+- RCM
+scope: ca
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ca
+runner: unknown
+summary: A Canadian system of three synthetic aperture radar satellites launched in
+  June 2019. Canadian agencies use its data for forest, wetland, park and coastal
+  monitoring.
+facts:
+- claim: A system of three synthetic aperture radar satellites.
+  url: https://www.asc-csa.gc.ca/eng/blog/2025/09/29/siku-traditional-knowledge-meets-satellite-data.asp
+  fetched: '2026-10-31'
+  quote: a system of three synthetic aperture radar (SAR) satellites
+- claim: Launched in June 2019 and used to detect harvesting and monitor forest regeneration.
+  url: https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp
+  fetched: '2026-10-31'
+  quote: launched in June 2019
+found_by:
+- rule:eo-providers
+added_by: agent
+checked: '2026-10-31'

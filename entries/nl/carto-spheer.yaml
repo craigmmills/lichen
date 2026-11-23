@@ -1,0 +1,67 @@
+id: carto-spheer
+kind: model
+name: Carto
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+countries:
+- nl
+- bq
+summary: Spheer's AI model and web application for satellite imagery, shown distinguishing
+  kinds of reed around the Lauwersmeer. The province of Groningen lists it for nature
+  monitoring.
+scope: nl
+facts:
+- claim: Binnenlands Bestuur shows it distinguishing kinds of reed.
+  url: https://www.binnenlandsbestuur.nl/digitaal/satellietbeelden-welkome-aanvulling-voor-natuurbeheer
+  fetched: '2026-10-31'
+  quote: Carto toont verschillende soorten riet rond het Lauwersmeer
+- claim: The province of Groningen lists Spheer.ai in the national algorithm register,
+    for identifying differences in vegetation from satellite photographs.
+  url: https://algoritmes.overheid.nl/en/algoritme/76244490
+  fetched: '2026-10-31'
+  quote: Het aan de hand van satellietfoto's identificeren van verschillen in vegetatie,
+    ten behoeve van het monitoren van de natuur.
+- claim: An AI-driven platform for analysing large areas.
+  url: https://geoinformatienederland.nl/nieuws/groningse-ai-startup-zorgt-voor-frisse-datagedreven-blik-op-landschapsbeheer
+  fetched: '2026-10-31'
+  quote: met Carto, een AI-gedreven platform dat het analyseren van grote gebieden
+    op een toegankelijke en efficiënte manier mogelijk maakt
+- claim: Used with satellite images and AI to make maps for monitoring and managing
+    habitat areas in the Dutch Caribbean.
+  url: https://www.naturetoday.com/intl/nl/nature-reports/message/?msg=32983
+  fetched: '2026-10-31'
+  quote: satellietbeelden en kunstmatige intelligentie te gebruiken om kaarten te
+    maken voor het monitoren en beheren van habitatgebieden
+links:
+- type: run-by
+  to: spheer
+  url: https://www.binnenlandsbestuur.nl/digitaal/satellietbeelden-welkome-aanvulling-voor-natuurbeheer
+  fetched: '2026-10-31'
+  quote: De Groningse startup Spheer bouwde een AI-model op basis van satellietbeelden
+    van het Nederlandse aardoppervlak.
+- type: run-by
+  to: spheer
+  url: https://www.naturetoday.com/intl/nl/nature-reports/message/?msg=32983
+  fetched: '2026-10-31'
+  quote: ontwikkeld door Spheer.ai
+- type: funded-by
+  to: dutch-caribbean-nature-alliance
+  url: https://www.naturetoday.com/intl/nl/nature-reports/message/?msg=32983
+  fetched: '2026-10-31'
+  quote: gedeeltelijk gefinancierd door de Dutch Caribbean Nature Alliance (DCNA)
+- type: used-by
+  to: provincie-groningen
+  url: https://spheer.ai/en/resources/artikelen/satellietbeelden-welkome-aanvulling-voor-natuurbeheer
+  fetched: '2026-10-31'
+  quote: Several provinces, including Groningen, are already experimenting with the
+    web application.
+found_by:
+- checklist:5
+- link-from:spheer
+added_by: agent
+checked: '2026-10-31'

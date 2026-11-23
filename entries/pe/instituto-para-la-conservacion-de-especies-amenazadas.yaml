@@ -1,0 +1,32 @@
+id: instituto-para-la-conservacion-de-especies-amenazadas
+kind: organisation
+name: Instituto para la Conservación de Especies Amenazadas
+scope: pe
+sector: ngo
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+hq: pe
+scale: local
+status: active
+website: https://conservaperu.org
+summary: Cusco-based organisation whose GBIF record says its research involves monitoring
+  species populations.
+facts:
+- claim: Its GBIF record says its research involves monitoring species populations.
+  url: https://api.gbif.org/v1/organization/68378c5d-4cf3-4558-84ae-436bc773a777
+  fetched: '2026-11-03'
+  quote: Our research efforts involve monitoring species populations, habitat restoration,
+    and implementing sustainable conservation strategies
+- claim: Its GBIF record gives an address in Cusco.
+  url: https://api.gbif.org/v1/organization/68378c5d-4cf3-4558-84ae-436bc773a777
+  fetched: '2026-11-03'
+  quote: '"city":"Cusco","province":"Cusco","country":"PE"'
+links: []
+found_by:
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-03'

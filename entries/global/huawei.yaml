@@ -1,0 +1,49 @@
+id: huawei
+kind: organisation
+name: Huawei
+scope: global
+sector: company
+roles:
+- builds-ai
+- funds
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- computer-vision
+hq: cn
+scale: global
+status: active
+website: https://www.huawei.com/en/tech4all
+summary: Technology company whose TECH4ALL initiative funds and builds nature monitoring projects
+  with AI, cloud and acoustic sensors, including Tech4Nature with IUCN and Nature Guardian
+  with Rainforest Connection.
+countries:
+- ch
+- cn
+- mu
+- mx
+- rw
+facts:
+- claim: Hosted the 2024 Tech4Nature Summit in Shenzhen with IUCN.
+  url: https://prnewswire.com/il/news-releases/huawei-and-iucn-host-tech4nature-summit-to-promote-innovation-in-nature-conservation-302166109.html
+  fetched: &id001 2026-10-30
+  quote: Huawei and the International Union for Conservation of Nature (IUCN) jointly hosted
+    the 2024 Tech4Nature Summit
+- claim: Dateline of the 2024 summit release is Shenzhen, China.
+  url: https://prnewswire.com/il/news-releases/huawei-and-iucn-host-tech4nature-summit-to-promote-innovation-in-nature-conservation-302166109.html
+  fetched: *id001
+  quote: SHENZHEN, China , June 6, 2024
+- claim: A Tech4All case lists acoustic pattern matching models as CNN.
+  url: https://www.huawei.com/en/tech4all/publications/a-partnership-for-our-planet
+  fetched: 2026-10-30
+  quote: acoustic Pattern Matching models (CNN)
+  ai_type: deep-learning
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

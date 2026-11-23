@@ -1,0 +1,37 @@
+id: seabed-2030
+kind: project
+name: The Nippon Foundation-GEBCO Seabed 2030 Project
+also_known_as:
+- Seabed 2030
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+scale: global
+status: active
+website: https://seabed2030.org
+summary: Project formed by The Nippon Foundation and GEBCO to produce a complete map of the seabed by 2030 and make it available to all, by gathering bathymetric data from governments, companies and other organisations.
+facts:
+- claim: Formed by The Nippon Foundation and GEBCO to produce a definitive map of the ocean by 2030.
+  url: https://seabed2030.org/
+  quote: The Nippon Foundation and the General Bathymetric Chart of the Oceans (GEBCO) formed Seabed 2030 as an ambitious call to action
+  fetched: &id001 2026-10-30
+- claim: A flagship programme of the UN Decade of Ocean Science for Sustainable Development.
+  url: https://seabed2030.org/
+  quote: Seabed 2030 is a flagship programme of the United Nation’s Ocean Decade of Ocean Science for Sustainable Development (2021-2030).
+  fetched: *id001
+links:
+- type: run-by
+  to: the-nippon-foundation
+  url: https://seabed2030.org/
+  quote: "The Nippon Foundation and the General Bathymetric Chart of the Oceans (GEBCO) formed Seabed 2030"
+  fetched: *id001
+- type: partners-with
+  to: general-bathymetric-chart-of-the-oceans
+  url: https://seabed2030.org/
+  quote: The Nippon Foundation and the General Bathymetric Chart of the Oceans (GEBCO) formed Seabed 2030
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

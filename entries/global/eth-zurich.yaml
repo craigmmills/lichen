@@ -1,0 +1,53 @@
+id: eth-zurich
+kind: organisation
+name: ETH Zurich
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: ch
+scale: global
+status: active
+website: https://ethz.ch
+summary: Swiss public university where the EcoVision Lab produced the Global Canopy Height
+  2020 map by deep learning from satellite images.
+countries:
+- ch
+- sg
+facts:
+- claim: Public university in Zurich, Switzerland.
+  url: https://en.wikipedia.org/wiki/ETH_Zurich
+  fetched: '2026-10-30'
+  quote: is a public university in Zurich , Switzerland
+- claim: The EcoVision Lab sat within Photogrammetry and Remote Sensing at ETH Zurich.
+  url: https://langnico.github.io/globalcanopyheight/
+  fetched: '2026-10-30'
+  quote: EcoVision Lab, Photogrammetry and Remote Sensing, ETH Zurich, Switzerland
+- claim: The ETH canopy height work is a probabilistic deep learning model.
+  url: https://langnico.github.io/globalcanopyheight/
+  fetched: '2026-10-30'
+  quote: we have developed a probabilistic deep learning model to retrieve canopy height
+  ai_type: deep-learning
+- claim: Says it ranks in the first twelve for Science and Engineering in the THE and QS listings.
+  url: https://ethz.ch/en/the-eth-zurich.html
+  quote: ETH Zurich is in the first twelve for Science and Engineering in the THE and QS listings.
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: global-canopy-height-2020
+  url: https://ethz.ch/content/dam/ethz/special-interest/baug/department/departement/dokumente/jahresberichte/baug_report_2022_mobile.pdf
+  fetched: '2026-10-31'
+  quote: Nico Lang, one of the researchers at the lab, created the first vegetation height
+    map covering the entire Earth using a neural network approach.
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-31'

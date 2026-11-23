@@ -1,0 +1,52 @@
+id: lingnan-university-science-unit
+kind: organisation
+name: Science Unit, Lingnan University
+also_known_as: []
+scope: hk
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+techniques:
+- edna-genomics
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: University unit that, with the Hong Kong Bird Watching Society, quantified
+  20-year waterbird population trends in Deep Bay, and began a 2019 to 2021 specimen
+  collection funded by the Environment and Conservation Fund.
+facts:
+- claim: With the Hong Kong Bird Watching Society, quantified 20-year wintering population
+    trends of 42 waterbird species in the Deep Bay area.
+  url: https://ln.edu.hk/news/20210625/lu-and-hkbws-study-shows-preservation-of-wetlands-in-deep-bay-area-vital-to-protect-declining-waterbird-species
+  fetched: 2026-11-14
+  quote: jointly conducted by the Science Unit of Lingnan University (LU) and the
+    Hong Kong Bird Watching Society (HKBWS) , quantified the 20-year wintering population
+    trends of 42 waterbirds species in the Deep Bay area
+- claim: Lingnan University is the corresponding institution on a 2022 paper using
+    eDNA techniques to find the endangered big-headed turtle.
+  url: https://api.openalex.org/works?filter=institutions.country_code:hk,publication_year:2022-2026,primary_topic.id:T12640&per_page=40&select=id,title,publication_year,corresponding_institution_ids
+  fetched: 2026-11-14
+  quote: Using eDNA techniques to find the endangered big-headed turtle (Platysternon
+    megacephalum)
+- claim: Started an amphibian and reptile specimen collection for Hong Kong from 2019
+    to 2021 with Environment and Conservation Fund money.
+  url: https://api.gbif.org/v1/organization?country=HK&limit=30
+  fetched: 2026-11-14
+  quote: The specimen collection is a new undertaking of the Lingnan University Science
+    Unit.
+links:
+- type: funded-by
+  to: environment-and-conservation-fund
+  url: https://api.gbif.org/v1/organization?country=HK&limit=30
+  fetched: 2026-11-14
+  quote: Funded by Hong Kong Government through the Environment and Conservation Fund,
+    the goal is to start an amphibian and reptile collection for Hong Kong.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

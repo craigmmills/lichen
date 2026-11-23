@@ -1,0 +1,49 @@
+id: royal-horticultural-society
+kind: organisation
+name: Royal Horticultural Society
+also_known_as:
+- RHS
+scope: gb
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.rhs.org.uk
+summary: Gardening charity using AI with the University of Nottingham to build a knowledge
+  bank of cultivated plants that benefit the environment, from its herbarium.
+facts:
+- claim: Will use AI to build a knowledge bank of cultivated plants.
+  url: https://www.rhs.org.uk/science/articles/ai-to-create-plants-for-purpose
+  quote: The RHS will use AI (artificial intelligence) to help build a knowledge bank of cultivated
+    plants for specific uses
+  fetched: &id001 2026-10-30
+- claim: Charity registration.
+  url: https://www.rhs.org.uk/science/articles/ai-to-create-plants-for-purpose
+  quote: RHS Registered Charity no. 222879 / SC038262
+  fetched: *id001
+- claim: Runs a gardening science research centre.
+  url: https://www.rhs.org.uk/science
+  fetched: '2026-10-30'
+  quote: the UK’s first research centre for gardening science
+- claim: Publishes the dataset "RHS Slugs Count" on GBIF.
+  url: https://api.gbif.org/v1/organization/f6213f74-d638-4907-a96d-26ca3b5da0c7/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: RHS Slugs Count
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/f6213f74-d638-4907-a96d-26ca3b5da0c7/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:4
+- register:gbif-publisher
+added_by: agent
+checked: *id001

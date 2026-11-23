@@ -1,0 +1,60 @@
+id: prithvi
+kind: model
+name: Prithvi
+also_known_as:
+- Prithvi-EO
+- Prithvi Geospatial Foundation Model
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Open-source geospatial foundation model from NASA, IBM Research and the Jülich Supercomputing Centre, trained on Harmonized Landsat and Sentinel-2 data and used for tasks including flood, fire and biomass mapping.
+facts:
+- claim: Developed by NASA, IBM Research and the Jülich Supercomputing Centre.
+  url: https://science.data.nasa.gov/learn/blog/prithvi-geospatial-model-applications
+  fetched: &id001 2026-10-30
+  quote: The Prithvi Geospatial Foundation Model (Prithvi) is an open-source AI geospatial foundation model developed through collaboration among NASA, IBM Research, and Jülich Supercomputing Centre.
+- claim: Prithvi-EO-2.0 can be applied to mapping floods, wildfires and landslides.
+  url: https://research.ibm.com/blog/nasa-award-ibm-foundation-model
+  fetched: *id001
+  quote: which can be applied to mapping the extent of floods, wildfires, and landslides
+- claim: Tested on above-ground biomass prediction with the BioMassters dataset.
+  url: https://science.data.nasa.gov/learn/blog/prithvi-geospatial-model-applications
+  fetched: *id001
+  quote: The BioMassters dataset aimed to explore deep learning approaches for predicting yearly above ground biomass (AGB)
+- claim: "NASA describes geospatial foundation models."
+  url: https://science.data.nasa.gov/learn/blog/prithvi-geospatial-model-applications
+  fetched: 2026-10-30
+  quote: "Science Collaborations Sparking New Applications With Geospatial Foundation Models"
+  ai_type: foundation-models
+- claim: "IBM describes Prithvi as a transformer-based model."
+  url: https://research.ibm.com/blog/nasa-award-ibm-foundation-model
+  fetched: 2026-10-30
+  quote: "Before newer transformer-based models like Prithvi and Surya"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: ibm
+  url: https://research.ibm.com/blog/nasa-award-ibm-foundation-model
+  fetched: *id001
+  quote: IBM and NASA’s family of foundation models
+- type: partners-with
+  to: nasa
+  url: https://science.data.nasa.gov/learn/blog/prithvi-geospatial-model-applications
+  fetched: *id001
+  quote: "(Prithvi) is an open-source AI geospatial foundation model developed through collaboration among NASA, IBM Research, and Jülich Supercomputing Centre."
+- type: partners-with
+  to: julich-supercomputing-centre
+  url: https://science.data.nasa.gov/learn/blog/prithvi-geospatial-model-applications
+  fetched: *id001
+  quote: "(Prithvi) is an open-source AI geospatial foundation model developed through collaboration among NASA, IBM Research, and Jülich Supercomputing Centre."
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

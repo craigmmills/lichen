@@ -1,0 +1,99 @@
+id: instituto-de-investigaciones-de-la-amazonia-peruana
+kind: organisation
+name: Instituto de Investigaciones de la Amazonía Peruana
+also_known_as:
+- IIAP
+scope: pe
+sector: government
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+- remote-sensing
+- computer-vision
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Public research body attached to Peru's environment ministry that runs an AI laboratory
+  and, as reported by Caretas, uses AI, drones and sensors to monitor Amazon biodiversity.
+facts:
+- claim: A specialised technical public body that researches, evaluates and controls natural
+    resources in the Peruvian Amazon.
+  url: https://www.gob.pe/institucion/iiap/institucional
+  fetched: 2026-11-03
+  quote: El Instituto de Investigaciones de la Amazonía Peruana (IIAP), es un organismo público
+    técnico especializado, y desarrolla actividades de investigación, evaluación y control
+    de los recursos naturales
+- claim: Caretas, citing the environment ministry, reports that IIAP uses artificial intelligence,
+    drones and smart sensors to monitor biodiversity and detect environmental threats.
+  url: https://caretas.pe/?p=812882
+  fetched: 2026-11-03
+  quote: El IIAP , organismo adscrito al Minam , viene utilizando inteligencia artificial
+    , drones y sensores inteligentes para monitorear la biodiversidad, detectar amenazas ambientales
+- claim: Caretas reports that IIAP has developed an automated system that uses artificial
+    intelligence to count fish post-larvae.
+  url: https://caretas.pe/?p=812882
+  fetched: 2026-11-03
+  quote: El IIAP ha desarrollado un sistema automatizado que utiliza inteligencia artificial
+    para realizar el conteo de postlarvas de peces
+- claim: Caretas reports that IIAP uses drones to count aguaje palms.
+  url: https://caretas.pe/?p=812882
+  fetched: 2026-11-03
+  quote: El IIAP emplea drones para realizar el conteo de palmeras de aguaje
+- claim: A body attached to the environment ministry that has started a science and technology
+    programme using AI on the Amazon's environmental problems.
+  url: https://www.gob.pe/institucion/iiap/noticias/1195843-iiap-impulsa-la-conservacion-amazonica-con-inteligencia-artificial-aplicada-a-problemas-criticos-del-ambiente
+  fetched: 2026-11-03
+  quote: El Instituto de Investigaciones de la Amazonía Peruana (IIAP), entidad adscrita al
+    Ministerio del Ambiente , ha puesto en marcha un programa científico-tecnológico enfocado
+    en el uso de inteligencia artificial (IA)
+- claim: Has built a mobile app that identifies 40 timber species from their leaves.
+  url: https://www.gob.pe/institucion/iiap/noticias/1195843-iiap-impulsa-la-conservacion-amazonica-con-inteligencia-artificial-aplicada-a-problemas-criticos-del-ambiente
+  fetched: 2026-11-03
+  quote: se ha creado una aplicación móvil que permite identificar 40 especies forestales
+    maderables a partir de hojas
+- claim: OpenAlex lists a 2023 paper with IIAP authors on a deep learning image classifier
+    for Amazonian fishes.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210099258,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Application of a deep learning image classifier for identification of Amazonian fishes
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2020 paper with IIAP authors on mapping canopy palms in an Amazon
+    forest with deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210099258,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Regional Mapping and Spatial Distribution Analysis of Canopy Palms in an Amazon Forest
+    Using Deep Learning and VHR Images
+- claim: GBIF lists IIAP as a data publisher in Loreto, Peru.
+  url: https://api.gbif.org/v1/organization/3c1d3550-c688-11da-bc3f-b8a03c50a862
+  fetched: '2026-11-03'
+  quote: '"city":"Loreto","country":"PE"'
+- claim: GBIF lists one dataset published by IIAP.
+  url: https://api.gbif.org/v1/organization/3c1d3550-c688-11da-bc3f-b8a03c50a862
+  fetched: '2026-11-03'
+  quote: '"numPublishedDatasets":1'
+links:
+- type: runs
+  to: iiap-artificial-intelligence-laboratory
+  url: https://www.gob.pe/institucion/iiap/noticias/1195843-iiap-impulsa-la-conservacion-amazonica-con-inteligencia-artificial-aplicada-a-problemas-criticos-del-ambiente
+  fetched: 2026-11-03
+  quote: A través de su Laboratorio de Inteligencia Artificial, el IIAP desarrolla soluciones
+    innovadoras
+found_by:
+- checklist:1
+- checklist:3
+- checklist:4
+- register:gbif-publisher
+- checklist:2
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

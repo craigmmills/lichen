@@ -1,0 +1,47 @@
+id: station-d-ecologie-de-lamto
+kind: organisation
+name: Station d'Écologie de Lamto
+scope: ci
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: ci
+countries:
+- ci
+scale: local
+status: active
+summary: Ecology station in Lamto Scientific Reserve, run by Université Nangui Abrogoua,
+  with savanna research since 1961 and a 100-hectare plot protected from fire since
+  1962.
+facts:
+- claim: The Lamto Scientific Reserve, created on 12 July 1968 in the Taabo department,
+    houses the Lamto Ecology Station. The page says Lamto has hosted research programmes
+    on tropical savanna since 1961.
+  url: https://ci.chm-cbd.net/node/423
+  fetched: 2026-11-12
+  quote: Elle abrite la Station d’Ecologie de Lamto. Depuis 1961, elle accueille de
+    multiples programmes de recherche dans le but de connaitre la structure et le
+    fonctionnement d’un Ecosystème de savane tropicale.
+- claim: A December 2023 article describes Lamto as a centre for monitoring in tropical
+    ecology, with regular monitoring of control plots for long-term observation.
+  url: https://revuegeo-univdaloa.net/sites/default/files/2024-03/DaloG%C3%A9o_009_11.pdf
+  fetched: 2026-11-12
+  quote: '2.2-Lamto : un centre de suivi en écologie tropicale'
+- claim: The same article says a 100-hectare savanna plot has been protected from
+    fire since 1962.
+  url: https://revuegeo-univdaloa.net/sites/default/files/2024-03/DaloG%C3%A9o_009_11.pdf
+  fetched: 2026-11-12
+  quote: cette parcelle a été protégée des feux depuis 1962.
+links:
+- type: run-by
+  to: universite-nangui-abrogoua
+  url: https://api.gbif.org/v1/organization/ad6ceb4c-512d-47ec-aaf9-e7959e5d1237
+  fetched: 2026-11-12
+  quote: It is attached to Nangui Abrogoua University of Abidjan.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

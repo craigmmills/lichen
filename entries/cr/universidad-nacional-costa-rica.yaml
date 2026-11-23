@@ -1,0 +1,67 @@
+id: universidad-nacional-costa-rica
+kind: organisation
+name: Universidad Nacional
+also_known_as:
+- UNA
+scope: cr
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+- other
+hq: cr
+countries:
+- cr
+scale: national
+status: active
+summary: Costa Rican university whose ICOMVIS contributed to passive acoustic bellbird
+  detection, and whose Jaguar Program research, reported by the Tico Times, flagged
+  declining jaguar records.
+facts:
+- claim: Delfino (March 2026) says ICOMVIS and the School of Biological Sciences,
+    both of the Universidad Nacional, carried out the project Automated acoustic detection
+    of the bellbird in the AmistOsa Biological Corridor, with SINAC and the local
+    management committee.
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-15'
+  quote: El Instituto Internacional de Conservación y Manejo de Vida Silvestre (Icomvis)
+    y la Escuela de Ciencias Biológicas (ECB), ambos de la Universidad Nacional (UNA),
+    ejecutaron el proyecto
+- claim: The same article says the project uses passive acoustic monitoring.
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-15'
+  quote: este proyecto utiliza monitoreo acústico pasivo
+- claim: OpenAlex records a paper on camera-trap placement and photo rates of jaguars
+    and their prey in northwestern Costa Rica whose first author gives the Universidad
+    Nacional in Heredia as affiliation.
+  url: https://api.openalex.org/works/W4322618309?select=id,display_name,doi,authorships
+  fetched: '2026-11-15'
+  quote: Effects of camera trap placement on photo rates of jaguars, their prey, and
+    competitors in northwestern Costa Rica
+- claim: The OpenAlex record gives the first author's affiliation as the Universidad
+    Nacional, Heredia, Costa Rica.
+  url: https://api.openalex.org/works/W4322618309?select=id,display_name,doi,authorships
+  fetched: '2026-11-15'
+  quote: Universidad Nacional, Apdo 1350
+- claim: The Tico Times (13 September 2026) says long-term research by the National
+    University's Jaguar Program has flagged declining records of jaguars and their
+    prey across the Osa Conservation Area.
+  url: https://ticotimes.net/2026/09/13/costa-rica-jaguar-reappears-osa-peninsula
+  fetched: '2026-11-15'
+  quote: Long-term research by the National University’s Jaguar Program has flagged
+    declining records of jaguars and their prey across the Osa Conservation Area
+links:
+- type: runs
+  to: instituto-internacional-en-conservacion-y-manejo-de-vida-silvestre
+  url: https://delfino.cr/2026/03/estudio-de-la-una-sobre-el-canto-del-pajaro-campana-brinda-hallazgos-para-su-proteccion-y-del-ecosistema
+  fetched: '2026-11-15'
+  quote: ambos de la Universidad Nacional (UNA)
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

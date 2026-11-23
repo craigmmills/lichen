@@ -1,0 +1,36 @@
+id: unsa-faculty-of-forestry
+kind: organisation
+name: Faculty of Forestry, University of Sarajevo
+also_known_as: []
+scope: ba
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ba
+countries:
+- ba
+scale: national
+status: active
+summary: University of Sarajevo faculty listed as the affiliation of the first author
+  of a 2025 paper on detecting dry trees using NDVI images taken by a drone.
+facts:
+- claim: The first author of a 2025 paper on detecting dry trees with NDVI images
+    taken by a drone lists this faculty as his affiliation.
+  url: https://api.openalex.org/works/W4411624418?select=id,title,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Detection of Dry Trees Using NDVI Images Taken by a Drone
+- claim: The first author's affiliation gives the faculty at the University of Sarajevo.
+  url: https://api.openalex.org/works/W4411624418?select=id,title,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Faculty of Forestry, University of Sarajevo, 71000, Sarajevo, Bosnia and
+    Herzegovina
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

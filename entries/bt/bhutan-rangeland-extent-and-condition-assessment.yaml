@@ -1,0 +1,47 @@
+id: bhutan-rangeland-extent-and-condition-assessment
+kind: project
+name: Bhutan nationwide rangeland extent and condition assessment
+scope: bt
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bt
+status: closed
+runner: unknown
+summary: A closed study giving the first nationwide high-resolution multi-temporal map of Bhutan's rangelands,
+  using Google Earth Engine, Sentinel-2 and Random Forest, with training points collected by herders on
+  smartphones.
+facts:
+- claim: The study presents the first nationwide high-resolution multi-temporal assessment of rangeland
+    extent and condition in Bhutan, using Google Earth Engine.
+  url: https://lib.icimod.org/records/24kv8-xm388
+  fetched: 2026-11-12
+  quote: This study presents the first nationwide, high-resolution, multi-temporal assessment of rangeland
+    extent and condition in Bhutan using Google Earth Engine (GEE)-based multi-sensor data integration.
+- claim: It used Sentinel-2 imagery and a Random Forest classification algorithm to map three rangeland
+    types.
+  url: https://lib.icimod.org/records/24kv8-xm388
+  fetched: 2026-11-12
+  quote: Sentinel-2 imagery and a Random Forest classification algorithm based on FAO’s Land Cover Classification
+    System (LCCS 3) helped delineate three major rangeland types
+  ai_type: ml-supervised
+- claim: Local herders collected training and validation points with smartphone apps.
+  url: https://lib.icimod.org/records/24kv8-xm388
+  fetched: 2026-11-12
+  quote: Participatory field data were collected through the engagement of local herders using smartphone
+    applications
+links:
+- type: funded-by
+  to: international-centre-for-integrated-mountain-development
+  url: https://lib.icimod.org/records/24kv8-xm388
+  fetched: 2026-11-12
+  quote: This study was funded by the core contributions of ICIMOD
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,52 @@
+id: nationwide-mangrove-map-2023
+kind: dataset
+name: Nationwide Mangrove Map 2023
+also_known_as:
+- Philippine Mangrove Map 2023
+scope: ph
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ph
+status: active
+summary: Mangrove map built by the Philippine Space Agency from Sentinel-2 and ALOS PALSAR2 images; in
+  March 2024 PhilSA said it would be validated, with ground data from local offices, NGOs and academics.
+facts:
+- claim: Produced from Sentinel-2 and ALOS PALSAR2 images; in March 2024, PhilSA said it would undergo
+    validation.
+  url: https://philsa.gov.ph/?p=6884
+  fetched: 2026-11-07
+  quote: The map will undergo a validation process to enhance the reliability and applicability of data
+    to support coastal management, conservation efforts, and scientific research.
+- claim: PhilSA says the validated data will be used to improve its mangrove mapping algorithm using machine
+    learning; a PhilSA presentation was titled "AI-powered Philippine Mangrove Map of 2023".
+  url: https://philsa.gov.ph/?p=6884
+  fetched: 2026-11-07
+  quote: Upon completion of the validation activity, the data will be used to enhance PhilSA’s mangrove
+    mapping algorithm using machine learning (ML).
+- claim: Local DENR offices, NGOs and academic partners were to collect ground validation data through
+    ODK.
+  url: https://philsa.gov.ph/?p=6884
+  fetched: 2026-11-07
+  quote: Through ODK, local DENR offices, NGOs, and academe partners will be mobilized to acquire and
+    contribute data such as image and location of various mangrove areas in the country for ground validation.
+links:
+- type: built-by
+  to: philippine-space-agency
+  url: https://philsa.gov.ph/?p=6884
+  fetched: 2026-11-07
+  quote: PhilSA, in partnership with the DENR, produced the Nationwide Mangrove Map for 2023
+- type: partners-with
+  to: department-of-environment-and-natural-resources
+  url: https://philsa.gov.ph/?p=6884
+  fetched: 2026-11-07
+  quote: PhilSA, in partnership with the DENR, produced the Nationwide Mangrove Map for 2023
+runner: unknown
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-07

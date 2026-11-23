@@ -1,0 +1,37 @@
+id: gruenblick
+kind: project
+name: GRÜNBLICK
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: DLR Earth Observation Center project on an AI system for forest monitoring
+  that estimates forest biomass from Sentinel-1 and Sentinel-2 data. Listed as running
+  from August 2024 to February 2026.
+facts:
+- claim: Aims to develop an AI-driven system for comprehensive forest monitoring.
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/gruenblick
+  quote: Ziel von GRÜNBLICK ist es, ein KI-gesteuertes System für ein umfassendes
+    Waldmonitoring zu entwickeln
+  fetched: '2026-10-31'
+- claim: Recalculates biomass estimates with a deep learning model.
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/gruenblick
+  quote: regelmäßig mit Hilfe eines Deep Learning-Modells die Biomasseschätzungen
+    neu berechnen
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: german-aerospace-center
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/gruenblick
+  quote: "Unser System wird den Wert der Copernicus-Produkte durch die Nutzung von Sentinel-1- und Sentinel-2-Erdbeobachtungsdaten zur Erstellung präziser Schätzungen der Waldbiomasse auf einzigartige Weise steigern."
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+scope: de
+added_by: agent
+checked: '2026-10-31'

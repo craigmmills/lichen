@@ -1,0 +1,35 @@
+id: clean-water-hub
+kind: dataset
+name: Clean Water Hub
+scope: us
+ai_label: data-infrastructure
+status: active
+realms:
+- freshwater
+countries:
+- us
+summary: Open US database of volunteer water quality results, used by Save Our Streams and
+  other monitoring groups.
+facts:
+- claim: Described by the Izaak Walton League as a resource for water quality information
+    across America.
+  url: https://www.iwla.org/water
+  quote: Find out in the Clean Water Hub, a first-of-its-kind resource for information about
+    water quality across America.
+  fetched: '2026-10-31'
+- claim: The Izaak Walton League's database for volunteers' water quality data.
+  url: https://iwla.org/wp-content/uploads/2024-SOS-Annual-Report-compressed.pdf
+  quote: The Clean Water Hub is the water quality database used to store and visualize data
+    reported by Izaak Walton League water quality monitoring volunteers.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: izaak-walton-league
+  url: https://www.iwla.org/water
+  quote: Find out in the Clean Water Hub, a first-of-its-kind resource for information about
+    water quality across America.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

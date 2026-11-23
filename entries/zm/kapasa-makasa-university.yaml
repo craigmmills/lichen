@@ -1,0 +1,58 @@
+id: kapasa-makasa-university
+kind: organisation
+name: Kapasa Makasa University
+also_known_as:
+- KMU
+scope: zm
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: zm
+countries:
+- zm
+scale: national
+status: active
+website: https://www.kmu.ac.zm/about-kapasa-makasa-university
+summary: Zambian university proclaimed in 2016 whose affiliated authors wrote a 2025
+  remote sensing study of forest degradation in Kafue National Park, and appear on
+  a 2025 biomass paper.
+facts:
+- claim: Proclaimed a university by the President of Zambia on 28 June 2016, under
+    the administrative oversight of Copperbelt University at first.
+  url: https://www.kmu.ac.zm/about-kapasa-makasa-university
+  fetched: 2026-11-17
+  quote: proclaimed Kapasa Makasa University to be a University under the administrative
+    oversight of the Copperbelt University
+- claim: Located along the Great North Road north of Chinsali.
+  url: https://www.kmu.ac.zm/about-kapasa-makasa-university
+  fetched: 2026-11-17
+  quote: is located along the Great North Road in Mulakupikwa Village, north of Chinsali
+- claim: All authors of a 2025 study of forest degradation and encroachment in Kafue
+    National Park from 2014 to 2024 using remote sensing and GIS give Kapasa Makasa
+    University as their affiliation.
+  url: https://api.openalex.org/works/W4415232472?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-17
+  quote: Assessing Forest Degradation and Encroachment Patterns in Kafue National
+    Park Using Remote Sensing and GIS (2014-2024)
+- claim: The first and corresponding author of the Kafue study is affiliated with
+    Kapasa Makasa University.
+  url: https://api.openalex.org/works/W4415232472?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-17
+  quote: '"raw_author_name":"Bwalya Mutale","raw_affiliation_strings":["Kapasa Makasa
+    University"]'
+- claim: Its School of Applied Sciences is one affiliation of the first and corresponding
+    author of a 2025 paper evaluating radar and optical imagery for above-ground biomass
+    estimation with Zambia's national forest inventory.
+  url: https://api.openalex.org/works/W4408913959?select=id,title,doi,authorships,publication_year
+  fetched: 2026-11-17
+  quote: School of Applied Sciences, Kapasa Makasa University, Chinsali, Zambia
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-17

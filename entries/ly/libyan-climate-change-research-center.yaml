@@ -1,0 +1,42 @@
+id: libyan-climate-change-research-center
+kind: organisation
+name: Libyan Climate Change Research Center
+also_known_as:
+- Libyan Center for Climate Change Research
+scope: ly
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: ly
+countries:
+- ly
+scale: national
+status: active
+website: https://www.lccrc.ly
+summary: Government research centre in Tripoli, listed as the affiliation of both authors of a 2025 paper
+  assessing wetland dynamics at Sabkhat Tawergha with remote sensing and GIS.
+facts:
+- claim: OpenAlex lists both authors of a 2025 paper assessing wetland dynamics at Sabkhat Tawergha with
+    remote sensing and GIS at the centre in Tripoli.
+  url: https://api.openalex.org/works/W4417248547?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: '"title":"Assessment of Wetland Dynamics Using Remote Sensing and GIS Techniques: A Case Study
+    of Sabkhat Tawergha","publication_year":2025'
+- claim: OpenAlex records the centre as a government institution in Libya.
+  url: https://api.openalex.org/works/W4417248547?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: '"display_name":"Libyan Climate Change Research Center","ror":"https://ror.org/05brsx115","country_code":"LY","type":"government"'
+- claim: The lead author's affiliation is the Libyan Center for Climate Change Research, Tripoli.
+  url: https://api.openalex.org/works/W4417248547?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Miftah Ali Alsayd","raw_affiliation_strings":["Libyan Center for Climate
+    Change Research, Tripoli, Libya"]'
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

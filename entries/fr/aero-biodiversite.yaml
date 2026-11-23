@@ -1,0 +1,43 @@
+id: aero-biodiversite
+kind: organisation
+name: Aéro Biodiversité
+scope: fr
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+scale: national
+hq: fr
+status: active
+summary: French non-profit that runs standardised biodiversity surveys on airports and airfields
+  and supports operators in managing those sites.
+facts:
+- claim: Keeps a scientific database and draws up habitat maps for each site.
+  url: https://aerobiodiversite.org/programmes-scientifiques
+  fetched: '2026-10-31'
+  quote: Une base de données scientifiques est tenue à jour et des cartographies d’habitat
+    sont alors établies pour chaque structure.
+- claim: Measures bird abundance twice each spring through listening points on each airport.
+  url: https://aerobiodiversite.org/programmes-scientifiques
+  fetched: '2026-10-31'
+  quote: L’association mesure des indices d’abondance, deux fois par an au printemps
+- claim: Takes part with the MNHN and Vigie Nature in Vigie Chiro Point Fixe, whose recordings
+    are analysed by the Tadarida software.
+  url: https://aerobiodiversite.org/programmes-scientifiques
+  fetched: '2026-10-31'
+  quote: Les enregistrements sont ensuite analysés par le logiciel Tadarida (développé par
+    le MNHN)
+- claim: The GBIF registry describes it as a French non-profit working on airfields and airport
+    sites, at Bonneuil sur Marne.
+  url: https://api.gbif.org/v1/organization/0b136545-9e66-4011-b735-474eaabf71bb
+  fetched: '2026-10-31'
+  quote: Aéro Biodiversité is a French non-profit organization dedicated to evaluating, enhancing,
+    and preserving biodiversity on airfields and airport sites.
+realms:
+- land
+website: https://aerobiodiversite.org/
+found_by:
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: '2026-10-31'

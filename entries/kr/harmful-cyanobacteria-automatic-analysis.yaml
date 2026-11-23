@@ -1,0 +1,41 @@
+id: harmful-cyanobacteria-automatic-analysis
+kind: model
+name: AI harmful cyanobacteria automatic analysis
+scope: kr
+ai_label: ai
+status: active
+summary: Model built by the National Institute of Environmental Research and E-Solutions that counts cyanobacteria
+  cells from grid images, trained on 15,080 images, cutting analysis from about four hours to about one.
+facts:
+- claim: Identifies cyanobacteria and counts cells from automatically taken grid images.
+  url: https://www.ajunews.com/view/20260614153616346
+  fetched: '2026-11-02'
+  quote: 현미경 챔버의 격자 이미지를 자동 촬영한 뒤 AI가 남조류 종류를 판별하고 세포수를 산정하는 방식이다.
+- claim: Trained on 15,080 high-resolution images, cutting analysis from about four hours to about one.
+  url: https://www.ajunews.com/view/20260614153616346
+  fetched: '2026-11-02'
+  quote: 고해상도 유해남조류 이미지 1만5080장을 확보하고 전문가 판독 자료를 기반으로 학습 데이터를 구축했다.
+- claim: A June 2026 announcement plans comparison with manual counts at Hoenam, Chudong and Munui during
+    2026.
+  url: https://www.ajunews.com/view/20260614153616346
+  fetched: '2026-11-02'
+  quote: 회남·추동·문의 등 3곳에서 기존 수동 분석 결과와 자동 분석 결과를 비교 검증해
+links:
+- type: built-by
+  to: national-institute-of-environmental-research-korea
+  url: https://www.ajunews.com/view/20260614153616346
+  fetched: '2026-11-02'
+  quote: 측정·분석기기 전문기업 이솔루션즈와 공동으로 개발한 AI 기반 유해남조류 자동 분석 기술
+- type: built-by
+  to: e-solutions-korea
+  url: https://www.ajunews.com/view/20260614153616346
+  fetched: '2026-11-02'
+  quote: 측정·분석기기 전문기업 이솔루션즈와 공동으로 개발한 AI 기반 유해남조류 자동 분석 기술
+found_by:
+- checklist:2
+realms:
+- freshwater
+techniques:
+- computer-vision
+added_by: agent
+checked: '2026-11-02'

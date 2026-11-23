@@ -1,0 +1,44 @@
+id: birdweather
+kind: programme
+name: BirdWeather
+scope: global
+roles:
+- uses-ai
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://www.birdweather.com
+summary: Visualisation platform that uses the BirdNET neural network to monitor bird vocalisations through about 2,000 active audio stations.
+facts:
+- claim: Monitors birds through 2,000 active audio stations using BirdNET.
+  url: https://www.birdweather.com/about
+  fetched: '2026-10-30'
+  quote: harnesses the BirdNET artificial neural network to monitor bird vocalizations globally through 2000 active audio stations
+- claim: "BirdWeather's cloud server uses the BirdNET neural network."
+  url: https://www.birdweather.com
+  fetched: '2026-10-30'
+  quote: "Our cloud server uses the BirdNET neural network"
+  ai_type: deep-learning
+- claim: 'Uses the BirdNET neural network on citizen science stations.'
+  url: https://www.birdweather.com
+  fetched: 2026-10-30
+  quote: 'Using the BirdNET artificial neural network, BirdWeather is continuously listening'
+links:
+- type: run-by
+  to: scribe-labs
+  url: https://www.birdweather.com/
+  fetched: '2026-10-30'
+  quote: "Scribe Labs is a small team of technologists who spend our days building products that we love. We're excited to launch BirdWeather"
+- type: builds-on
+  to: birdnet
+  url: https://www.birdweather.com/about
+  fetched: '2026-10-30'
+  quote: harnesses the BirdNET artificial neural network
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

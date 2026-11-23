@@ -1,0 +1,45 @@
+id: ringsted-municipality
+kind: organisation
+name: Ringsted Municipality
+also_known_as:
+- Ringsted Kommune
+scope: dk
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: local
+status: active
+summary: Danish municipality whose nature officer, quoted on Koordinat's site, says it uses
+  the VERNA tool to review aerial photographs for unwanted changes in nature.
+facts:
+- claim: A municipal nature officer quoted on Koordinat's site says the municipality uses
+    Koordinat's VERNA tool to review aerial photographs for unwanted changes in nature.
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: VERNA sparer os tid ved at gennemgå luftfotos systematisk og giver mulighed for hurtigt
+    at reagere på uønskede ændringer i naturen.
+- claim: Koordinat's site names Ringsted Kommune among the Danish municipalities quoted on
+    its use.
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: Ringsted Kommune
+links:
+- type: uses
+  to: verna
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: VERNA sparer os tid ved at gennemgå luftfotos systematisk og giver mulighed for hurtigt
+    at reagere på uønskede ændringer i naturen.
+found_by:
+- rule:checklist-misses
+- link-from:koordinat
+added_by: agent
+checked: '2026-11-08'

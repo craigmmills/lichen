@@ -1,0 +1,37 @@
+id: henan-university
+kind: organisation
+name: Henan University
+also_known_as: []
+scope: cn
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: A university named in the affiliation of the first author of a 2022 paper
+  that classified Zambian grasslands using random forest feature selection.
+facts:
+- claim: A 2022 paper with Yifan Zhao of a Henan University key laboratory as first
+    author classified Zambian grasslands with random forest feature selection.
+  url: https://api.openalex.org/works/W4206336768
+  fetched: 2026-11-08
+  quote: Classification of Zambian grasslands using random forest feature importance
+    selection during the optimal phenological period
+- claim: The first author's affiliation names the institution.
+  url: https://api.openalex.org/works/W4206336768
+  fetched: 2026-11-08
+  quote: Key Laboratory of Geospatial Technology for the Middle and Lower Yellow River
+    Regions (Henan University)
+links: []
+found_by:
+- rule:checklist-misses
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,60 @@
+id: olmoearth
+kind: model
+name: OlmoEarth
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- multimodal
+- foundation-models
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://allenai.org/olmoearth
+summary: Ai2's family of open foundation models for Earth observation and the platform built around them, used for tasks such as mapping land cover change, detecting vessels and identifying deforestation.
+facts:
+- claim: A family of open foundation models for Earth observation.
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: &id001 2026-10-30
+  quote: OlmoEarth is our family of open foundation models built entirely in-house for Earth observation.
+- claim: Pretrained on about 10 terabytes of Earth observations.
+  url: https://allenai.org/blog/olmoearth
+  fetched: *id001
+  quote: OlmoEarth was pretrained on millions of Earth observations (~10 terabytes of data)
+- claim: Global Mangrove Watch reported 97% accuracy in early access.
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: *id001
+  quote: Global Mangrove Watch found that using OlmoEarth in early access achieved 97% accuracy
+- claim: "Ai2 calls OlmoEarth a family of foundation models."
+  url: https://allenai.org/olmoearth
+  fetched: 2026-10-30
+  quote: "Our OlmoEarth foundation models are at the heart of Skylight"
+  ai_type: foundation-models
+- claim: "OlmoEarth is described as a multimodal foundation model."
+  url: https://arxiv.org/abs/2511.13655
+  fetched: 2026-10-30
+  quote: "We present OlmoEarth: a multimodal, spatio-temporal foundation model"
+  ai_type: multimodal
+- claim: "OlmoEarth uses a self-supervised learning formulation."
+  url: https://arxiv.org/abs/2511.13655
+  fetched: 2026-10-30
+  quote: "a novel self-supervised learning formulation"
+  ai_type: ml-unsupervised
+links:
+- type: run-by
+  to: allen-institute-for-ai
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: *id001
+  quote: OlmoEarth is our family of open foundation models
+- type: partners-with
+  to: global-mangrove-watch
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: *id001
+  quote: Global Mangrove Watch found that using OlmoEarth in early access achieved 97% accuracy
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

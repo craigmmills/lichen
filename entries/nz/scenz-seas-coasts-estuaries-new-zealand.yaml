@@ -1,0 +1,39 @@
+id: scenz-seas-coasts-estuaries-new-zealand
+kind: dataset
+name: SCENZ (Seas, Coasts, Estuaries New Zealand)
+also_known_as:
+- NIWA-SCENZ
+- SCENZ
+scope: nz
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- nz
+status: active
+summary: A dataset focused on 500 m MODIS-Aqua data, extending from the coast past
+  the 12 nautical mile limit, for which a DOC report on coastal suspended sediment
+  recommends improvements.
+facts:
+- claim: Focuses on moderate-resolution (500 m) data from MODIS-Aqua.
+  url: https://www.doc.govt.nz/globalassets/documents/conservation/marine-and-coastal/sediment/monitoring-coastal-suspended-sediment-in-nz-report.pdf
+  fetched: 2026-11-09
+  quote: SCENZ focusses on moderate-resolution (500 m) data from MODIS-Aqua.
+- claim: Its datasets extend from the coast out past the 12 nautical mile limit.
+  url: https://www.doc.govt.nz/globalassets/documents/conservation/marine-and-coastal/sediment/monitoring-coastal-suspended-sediment-in-nz-report.pdf
+  fetched: 2026-11-09
+  quote: NIWA-SCENZ datasets extend from the coast out past the 12 nm mile limit and
+    continental shelf
+- claim: A Department of Conservation report on coastal suspended sediment recommends
+    improvements to SCENZ.
+  url: https://www.doc.govt.nz/nature/habitats/marine/threats-facing-our-oceans/sediment-and-our-coasts/monitoring-suspended-sediment/
+  fetched: 2026-11-09
+  quote: To provide recommendations for improvements of Seas, Coasts and Estuaries
+    New Zealand (SCENZ) and other tools.
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

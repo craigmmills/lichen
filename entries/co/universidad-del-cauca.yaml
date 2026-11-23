@@ -1,0 +1,32 @@
+id: universidad-del-cauca
+kind: organisation
+name: Universidad del Cauca
+scope: co
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: University whose Information Technology Research Group includes the first
+  author of a 2018 paper on a genetic-programming vegetation index for detecting bare
+  ground in the Amazon.
+facts:
+- claim: An author in its Information Technology Research Group is the first author
+    of a 2018 paper on a vegetation index built with genetic programming to detect
+    bare ground in the Amazon.
+  url: https://api.openalex.org/works/W2906692501?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Vegetation Index Based on Genetic Programming for Bare Ground Detection in
+    the Amazon
+- claim: OpenAlex gives the first author's affiliation as this university.
+  url: https://api.openalex.org/works/W2906692501?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Information Technology Research Group (GTI), University of Cauca
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,38 @@
+id: maphilindo-hcs-map
+kind: dataset
+name: Maphilindo High Carbon Stock map
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- my
+- id
+- ph
+status: unknown
+summary: A dataset identifying forests with high conservation value, built by Barry Callebaut and Ecovision
+  Lab, with its current status unknown.
+facts:
+- claim: Identifies forests with high conservation value.
+  url: https://www.foodingredientsfirst.com/news/ai-against-deforestation-barry-callebaut-and-ecovision-lab-unveil-large-scale-hcs-map-for-maphilindo.html
+  quote: This latest collaboration has led to developing the publicly available HCS map that identifies
+    forests with high conservation value
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: barry-callebaut
+  url: https://www.foodingredientsfirst.com/news/ai-against-deforestation-barry-callebaut-and-ecovision-lab-unveil-large-scale-hcs-map-for-maphilindo.html
+  quote: Barry Callebaut has launched a first-of-its-kind, large-scale indicative High Carbon Stock (HCS)
+    map
+  fetched: '2026-11-02'
+- type: built-by
+  to: ecovision-lab
+  url: https://www.foodingredientsfirst.com/news/ai-against-deforestation-barry-callebaut-and-ecovision-lab-unveil-large-scale-hcs-map-for-maphilindo.html
+  quote: This latest collaboration has led to developing the publicly available HCS map
+  fetched: '2026-11-02'
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'

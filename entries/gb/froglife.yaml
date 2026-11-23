@@ -1,0 +1,38 @@
+id: froglife
+kind: organisation
+name: Froglife
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- other
+hq: gb
+scale: national
+status: active
+website: http://www.froglife.org/
+summary: UK charity for amphibians and reptiles that runs the free Dragon Finder recording
+  app.
+facts:
+- claim: Offers the Dragon Finder app.
+  url: https://www.froglife.org/dragon-finder-app/
+  fetched: '2026-10-30'
+  quote: Froglife are delighted to introduce you to the Dragon Finder app
+- claim: Publishes the dataset "Froglife's Common Toad and Great Crested Newt records from
+    the UK Toads on Roads project from 2000-2024 (inclusive)" on GBIF.
+  url: https://api.gbif.org/v1/organization/2884418b-373a-408d-8deb-d4fb7eb8aed6/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Froglife's Common Toad and Great Crested Newt records from the UK Toads on Roads
+    project from 2000-2024 (inclusive)
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/2884418b-373a-408d-8deb-d4fb7eb8aed6/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,77 @@
+id: research-institute-of-forests-and-rangelands
+kind: organisation
+name: Research Institute of Forests and Rangelands
+also_known_as:
+- RIFR
+- موسسه تحقیقات جنگل‌ها و مراتع کشور
+- موسسه تحقیقات جنگلها و مراتع کشور
+scope: ir
+sector: academic
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: ir
+countries:
+- ir
+scale: national
+status: active
+summary: An Iranian research institute whose authors OpenAlex lists on 2023 and 2025 machine
+  learning papers on Hyrcanian forests, and whose site lists a herbarium and the Natural Resources
+  Gene Bank.
+facts:
+- claim: The CBD lists the head of the Research Institute for Forests and Rangelands as Iran's
+    national focal point for the Global Strategy for Plant Conservation.
+  url: https://www.cbd.int/countries/nfp?country=ir
+  fetched: 2026-11-03
+  quote: Head of Research Institute for Forests and Rangelands (RIFR)
+- claim: Wikipedia says the National Botanical Garden of Iran is building a herbarium of Iranian
+    plants (TARI) of about 160,000 specimens, citing a page published by the institute.
+  url: https://en.wikipedia.org/wiki/National_Botanical_Garden_of_Iran
+  fetched: 2026-11-07
+  quote: A herbarium of Iranian plants (TARI) is gradually being built up and now consists
+    of some 160,000 numbers.
+- claim: 'Its authors are listed by OpenAlex on a 2023 machine learning paper: Machine learning
+    prediction of tree species diversity using forest structure and environmental factors:
+    a case study from the Hyrcanian forest, Iran.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: 'Machine learning prediction of tree species diversity using forest structure and
+    environmental factors: a case study from the Hyrcanian forest, Iran'
+- claim: 'Its authors are listed by OpenAlex on a 2025 machine learning paper: Spatially explicit
+    machine learning reveals province-specific drivers of deforestation in the Hyrcanian forests.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Spatially explicit machine learning reveals province-specific drivers of deforestation
+    in the Hyrcanian forests
+- claim: 'Its authors are listed by OpenAlex on a 2025 machine learning paper: Modeling structural
+    attributes of Hyrcanian forests using spaceborne LiDAR, machine learning algorithms, and
+    a hierarchical field data collection approach.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Modeling structural attributes of Hyrcanian forests using spaceborne LiDAR, machine
+    learning algorithms, and a hierarchical field data collection approach
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Research Institute of Forests and Rangelands, Agricultural Research, Education and
+    Extension Organization (AREEO), Tehran, 1496793612, Iran
+- claim: Its own site, in Persian, is headed with the institute's name.
+  url: https://rifr-ac.ir
+  fetched: '2026-11-03'
+  quote: موسسه تحقیقات جنگلها و مراتع
+- claim: Its site lists a herbarium and the Natural Resources Gene Bank of Iran among its
+    units and services.
+  url: https://rifr-ac.ir
+  fetched: '2026-11-03'
+  quote: بانک ژن منابع طبیعی ایران
+found_by:
+- checklist:2
+- register:ir
+added_by: agent
+checked: 2026-11-07
+techniques:
+- remote-sensing
+- other

@@ -1,0 +1,25 @@
+id: national-depository-bank-of-live-systems
+kind: programme
+name: National Depository Bank of Live Systems
+scope: ru
+ai_label: data-infrastructure
+status: unknown
+summary: Programme run by Lomonosov Moscow State University, whose portal GBIF's record says holds data
+  on 700,000 specimens.
+facts:
+- claim: GBIF's record says the portal holds data on 700,000 specimens.
+  url: https://api.gbif.org/v1/organization/f5fc4e61-b7a0-414b-ab68-b41cb23e7fdc
+  fetched: '2026-10-31'
+  quote: currently holds data on 700K specimens of plants, algae, fungi, and animals
+links:
+- type: run-by
+  to: lomonosov-moscow-state-university
+  url: https://api.gbif.org/v1/organization/f5fc4e61-b7a0-414b-ab68-b41cb23e7fdc
+  fetched: '2026-10-31'
+  quote: The project of the Lomonosov Moscow State University
+found_by:
+- link-from:lomonosov-moscow-state-university
+realms:
+- land
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,47 @@
+id: sistema-nacional-de-informacao-de-recursos-hidricos
+kind: dataset
+name: Sistema Nacional de Informação de Recursos Hídricos
+scope: pt
+also_known_as:
+- SNIRH
+- National Water Resources Information System
+ai_label: data-infrastructure
+realms:
+- freshwater
+countries:
+- pt
+status: active
+summary: A dataset run by the Agência Portuguesa do Ambiente that processes, validates and publishes water
+  monitoring data, including from the Azores and Madeira, through a public portal.
+facts:
+- claim: A 2019 APA note says anyone can check monitoring on the SNIRH portal, which draws on daily data
+    from automatic stations in its networks.
+  url: https://apambiente.pt/sites/default/files/_A_APA/Comunicacao/Media/NotasOCS2019/Nota_ComSocial_2019_57_EstacoesMonitorizacao.pdf
+  fetched: 2026-11-02
+  quote: conforme pode ser verificado por qualquer cidadão através do portal do SNIRH
+- claim: Processes, validates and publishes data from APA and other monitoring networks, including the
+    Azores and Madeira.
+  url: https://apambiente.pt/agua/sistema-nacional-de-informacao-de-recursos-hidricos-snirh
+  fetched: 2026-11-02
+  quote: O Sistema Nacional de Informação de Recursos Hídricos (SNIRH) processa, valida e divulga toda
+    a informação recolhida nas redes de monitorização da APA e de outras entidades
+- claim: Its uses include assessing water quality trends and identifying pollution accidents.
+  url: https://apambiente.pt/agua/sistema-nacional-de-informacao-de-recursos-hidricos-snirh
+  fetched: 2026-11-02
+  quote: avaliação da evolução da qualidade da água; avaliação das situações extremas de secas e cheias;
+    identificação de acidentes de poluição
+links:
+- type: run-by
+  to: agencia-portuguesa-do-ambiente
+  url: https://apambiente.pt/sites/default/files/_A_APA/Comunicacao/Media/NotasOCS2019/Nota_ComSocial_2019_57_EstacoesMonitorizacao.pdf
+  fetched: 2026-11-02
+  quote: SNIRH- Sistema Nacional de Informação de Recursos Hídricos da APA
+- type: run-by
+  to: agencia-portuguesa-do-ambiente
+  url: https://apambiente.pt/apa/departamento-de-recursos-hidricos
+  fetched: 2026-11-02
+  quote: Consolidar e manter atualizado um sistema nacional de informação de recursos hídricos
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

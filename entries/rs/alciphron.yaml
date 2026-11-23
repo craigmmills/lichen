@@ -1,0 +1,65 @@
+id: alciphron
+kind: dataset
+name: Alciphron
+also_known_as:
+- Алцифрон
+scope: rs
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Database of the insects of Serbia, run by HabiProt, which says it held almost 430,000 records
+  by 2021, calls it Serbia's largest insect database, and publishes arthropod observations from it to
+  GBIF.
+facts:
+- claim: HabiProt says its database of the insects of Serbia is available to everyone and invites people
+    to add data and photographs.
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: База података о инсектима Србије је коначно доступна свима!
+- claim: HabiProt says the database reached almost 430,000 records in 2021.
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: наша база Алцифрон је лепо напредовала и стигла скоро до броја од 430.000 налаза
+- claim: HabiProt calls Alciphron the largest database of insects in Serbia.
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: Алцифрон је највећа база података о инсектима у Србији
+- claim: HabiProt publishes arthropod observations from Alciphron to GBIF.
+  url: https://api.gbif.org/v1/organization/786d0d05-2e99-491a-81b7-54eaaf954b08/publishedDataset
+  fetched: 2026-11-08
+  quote: HabiProt is Serbian NGO making effort to collect data on insects of Serbia. Results so far can
+    be seen at Alciphron web-site
+- claim: The site invites users to add records and photographs or edit a group.
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: Надамо се да ћете нам се придружити и унапредити базу својим подацима и фотографијама или уређивањем
+    неке групе.
+- claim: Held almost 430,000 records by the end of 2021.
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: стигла скоро до броја од 430.000 налаза
+links:
+- type: run-by
+  to: habiprot
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: Иако у 2021. нисмо оборили рекорд у новим налазима, наша база Алцифрон је лепо напредовала
+- type: run-by
+  to: habiprot
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: наша база Алцифрон је лепо напредовала и стигла скоро до броја од 430.000 налаза
+- type: run-by
+  to: habiprot
+  url: https://habiprot.org.rs/
+  fetched: 2026-11-08
+  quote: наша база Алцифрон је лепо напредовала
+found_by:
+- checklist:2
+- link-from:habiprot
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+countries:
+- rs

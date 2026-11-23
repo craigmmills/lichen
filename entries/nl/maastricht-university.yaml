@@ -1,0 +1,43 @@
+id: maastricht-university
+kind: organisation
+name: Maastricht University
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+summary: University whose Department of Neuropsychology and Psychopharmacology is the affiliation
+  of the first author of a 2024 paper using deep learning to classify mammal vocalisations.
+facts:
+- claim: A 2024 paper on deep learning classification of mammal vocalisations, with a lead
+    author affiliated with Maastricht University and the Vrije Universiteit Brussel.
+  url: https://api.openalex.org/works/W4400248248?select=id,display_name,doi,publication_year,authorships
+  quote: Bioacoustic classification of a small dataset of mammalian vocalisations using deep
+    learning
+  fetched: '2026-11-08'
+- claim: The 2024 paper lists first author Rodrigo Manriquez P at Maastricht University's
+    Department of Neuropsychology and Psychopharmacology and the Artificial Intelligence Lab
+    at Vrije Universiteit Brussel.
+  url: https://api.openalex.org/works/W4400248248?select=id,display_name,doi,publication_year,authorships
+  quote: Department of Neuropsychology and Psychopharmacology, Faculty of Psychology and Neuroscience,
+    Maastricht University, Maastricht, The Netherlands
+  fetched: '2026-11-08'
+- claim: The paper uses deep learning to classify vocalisations.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works/W4400248248?select=id,display_name,doi,publication_year,authorships
+  quote: Bioacoustic classification of a small dataset of mammalian vocalisations using deep
+    learning
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

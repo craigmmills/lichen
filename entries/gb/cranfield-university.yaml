@@ -1,0 +1,46 @@
+id: cranfield-university
+kind: organisation
+name: Cranfield University
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.cranfield.ac.uk
+summary: University working with the Peak District National Park on the AI mapping work of
+  Landscape Observatory.
+facts:
+- claim: The Landscape Institute names its specialists on the project.
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: work in collaboration with specialists from Cranfield University
+  fetched: '2026-10-30'
+- claim: Gives its postcode.
+  url: https://www.cranfield.ac.uk/contact
+  quote: MK43 0AL
+  fetched: '2026-10-30'
+- claim: Partner in AI land cover mapping for the Peak District.
+  url: https://www.agi.org.uk/peak-district-pioneers-ai-landscape-mapping-using-bluesky-aerial-images/
+  quote: in partnership with Cranfield University and The Alan Turing Institute, is pioneering
+    the use of Artificial Intelligence (AI) to automate the production of highly detailed
+    land cover maps
+  fetched: &id001 2026-10-30
+- claim: Postcode on its site.
+  url: https://www.cranfield.ac.uk/centres/cranfield-environment-centre/research-groups/applied-remote-sensing-group
+  quote: MK43 0AL
+  fetched: *id001
+found_by:
+- checklist:3
+- link-from:landscape-observatory
+scope: gb
+added_by: agent
+checked: '2026-10-30'

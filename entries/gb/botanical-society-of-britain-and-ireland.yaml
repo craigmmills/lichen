@@ -1,0 +1,37 @@
+id: botanical-society-of-britain-and-ireland
+kind: organisation
+name: Botanical Society of Britain and Ireland
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+summary: Society for the study of British and Irish botany, which supports recording of wild
+  plants.
+facts:
+- claim: Publishes the dataset "Plant Atlas 2020 - vascular plant and charophyte 2 x 2 km
+    grid square locations, subdivided by survey period, up to 2019" on GBIF.
+  url: https://api.gbif.org/v1/organization/aa569acf-991d-4467-b327-8442f30ddbd2/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Plant Atlas 2020 - vascular plant and charophyte 2 x 2 km grid square locations,
+    subdivided by survey period, up to 2019
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/aa569acf-991d-4467-b327-8442f30ddbd2/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links: []
+found_by:
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+also_known_as:
+- BSBI
+website: https://bsbi.org
+realms:
+- land
+hq: gb
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active
+scale: national
+techniques:
+- species-distribution

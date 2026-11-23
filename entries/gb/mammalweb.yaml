@@ -1,0 +1,107 @@
+id: mammalweb
+kind: programme
+name: MammalWeb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- gb
+status: active
+website: https://www.mammalweb.org
+summary: Durham University citizen science platform for camera trap images, used by the National
+  Hedgehog Monitoring Programme.
+facts:
+- claim: Durham University describes MammalWeb as its project and a programme partner.
+  url: https://dur.ac.uk/news-events/latest-news/2024/03/national-hedgehog-monitoring-programme/
+  quote: Durham University and our MammalWeb project are partners in the National Hedgehog
+    Monitoring Programme (NHMP).
+  fetched: '2026-10-30'
+- claim: Developed by Durham University with AI.
+  url: https://dur.ac.uk/research/research-impact-at-durham/case-studies/mammalweb/
+  quote: MammalWeb, a citizen science project developed by Durham University, is transforming
+    how we monitor and understand mammal populations.
+  fetched: '2026-10-30'
+- claim: Holds over 440,000 classified sequences.
+  url: https://dur.ac.uk/research/research-impact-at-durham/case-studies/mammalweb/
+  quote: MammalWeb has amassed over 440,000 classified sequences and videos from more than
+    2,500 locations
+  fetched: '2026-10-30'
+- claim: Citizen science platform for camera trap data.
+  url: https://www.mammalweb.org/en/about/about-mammalweb
+  quote: is a "citizen science" platform intended to collate, validate and curate camera trap
+    data
+  fetched: &id001 2026-10-30
+- claim: Integrated AI to analyse wildlife images faster.
+  url: https://dur.ac.uk/research/research-impact-at-durham/case-studies/mammalweb/
+  quote: With the integration of artificial intelligence (AI), the project is making the process
+    of analysing wildlife images faster
+  fetched: *id001
+- claim: Moved to a charity at the end of 2024.
+  url: https://www.mammalweb.org/en/about/about-mammalweb
+  quote: At the end of 2024, we transitioned to a charity (charity number 1211183 )
+  fetched: *id001
+- claim: Citizen science platform for camera-trap data.
+  url: https://www.mammalweb.org/en/about/about-mammalweb
+  fetched: '2026-10-30'
+  quote: MammalWeb is a "citizen science" platform intended to collate, validate and curate
+    camera trap data
+- claim: Runs uploaded images through two AI classifiers.
+  url: https://www.mammalweb.org/en/about/faq
+  fetched: '2026-10-30'
+  quote: Newly uploaded images are queued for assessment by two AI image classifiers before
+    being released to classify.
+- claim: A PhD at the project used deep learning on submitted photographs.
+  url: https://www.mammalweb.org/en/about/about-mammalweb
+  fetched: '2026-10-30'
+  quote: focused on the use of image analysis and deep learning to help us extract more information
+  ai_type: deep-learning
+- claim: Publishes the dataset "MammalWeb records (post-2024)" on GBIF.
+  url: https://api.gbif.org/v1/organization/b99b5db6-4c2c-4402-9458-edbea25043f3/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: MammalWeb records (post-2024)
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/b99b5db6-4c2c-4402-9458-edbea25043f3/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Says it was run by MammalWeb Limited until 2025 and moved to a charity at the end
+    of 2024.
+  url: https://www.mammalweb.org/en/about/about-mammalweb
+  quote: Until 2025, it was run by MammalWeb Limited, a not-for-profit company limited by
+    guarantee.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: durham-university
+  url: https://dur.ac.uk/news-events/latest-news/2024/03/national-hedgehog-monitoring-programme/
+  quote: Durham University and our MammalWeb project
+  fetched: '2026-10-30'
+- type: run-by
+  to: durham-university
+  url: https://dur.ac.uk/research/research-impact-at-durham/case-studies/mammalweb/
+  quote: a citizen science project developed by Durham University
+  fetched: '2026-10-30'
+- type: partners-with
+  to: durham-university
+  url: https://www.mammalweb.org/en/about/about-mammalweb
+  quote: MammalWeb was set up in collaboration between Durham University and Durham Wildlife
+    Trust
+  fetched: *id001
+found_by:
+- checklist:4
+- link-from:wildlife-insights
+- register:gbif-publisher
+- rule:checklist-misses
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+hq: gb
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_types:
+- deep-learning
+also_known_as:
+- MammalWeb Limited

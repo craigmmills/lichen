@@ -1,0 +1,36 @@
+id: local-cosmos
+kind: project
+name: Local Cosmos
+scope: de
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+countries:
+- de
+status: active
+website: https://localcosmos.org
+summary: Non-profit, open-source software project that lets institutions and small local groups
+  build apps and websites for species identification, monitoring and education without programming.
+facts:
+- claim: Offers an app kit for species identification, monitoring or education.
+  url: https://localcosmos.org
+  fetched: '2026-10-31'
+  quote: With the Local Cosmos app kit, you can start your own projects easily and inexpensively.
+    For species identification, monitoring or education.
+- claim: A non-profit open-source software project, says its GBIF publisher record.
+  url: https://api.gbif.org/v1/organization/c3772c32-d3c9-4e5d-a974-f459d464021b
+  fetched: '2026-10-31'
+  quote: Local Cosmos is a non-profit, open-source software project
+links:
+- type: used-by
+  to: alfred-wegener-institute
+  url: https://api.gbif.org/v1/organization/c3772c32-d3c9-4e5d-a974-f459d464021b
+  fetched: '2026-10-31'
+  quote: Local Cosmos is currently used by institutions such as the Alfred Wegener Institute
+    in Bremerhaven
+found_by:
+- register:de
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

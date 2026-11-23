@@ -1,0 +1,28 @@
+id: timberflow
+kind: dataset
+name: Timberflow
+scope: br
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+countries:
+- br
+summary: Imaflora data platform that joins Brazil's timber control systems, including DOF/Sinaflor
+  and Sisflora Mato Grosso, and publishes technical bulletins.
+facts:
+- claim: Created by Imaflora to integrate the DOF/Sinaflor and Sisflora Mato Grosso systems.
+  url: https://admin.imaflora.org/public/media/biblioteca/boletim_11_timberflow_2023.pdf
+  quote: base de dados da plataforma Timberflow, criada pelo Imaflora para integrar o sistema
+    DOF/SINAFLOR, SISFLORA Mato Grosso
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: instituto-de-manejo-e-certificacao-florestal-e-agricola
+  url: https://admin.imaflora.org/public/media/biblioteca/boletim_11_timberflow_2023.pdf
+  quote: base de dados da plataforma Timberflow, criada pelo Imaflora
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,38 @@
+id: vegetatiemonitor
+kind: model
+name: Vegetatiemonitor
+scope: nl
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+status: active
+countries:
+- nl
+summary: Rijkswaterstaat AI system that detects vegetation types along the floodplains
+  of the major Dutch rivers from satellite images, for comparison with the legally
+  set vegetation standard.
+facts:
+- claim: Detects vegetation types along the floodplains of the major rivers.
+  url: https://algoritmes.overheid.nl/nl/algoritme/oorg10004/31788511/vegetatiemonitor
+  fetched: '2026-10-31'
+  quote: Het betreft een detectie van de vegetatietypes langs de uiterwaarden van
+    de grote rivieren.
+- claim: Determines five vegetation types from the most recent high-resolution satellite
+    data.
+  url: https://algoritmes.overheid.nl/nl/algoritme/oorg10004/31788511/vegetatiemonitor
+  fetched: '2026-10-31'
+  quote: Het doel is het bepalen van vijf verschillende vegetatietypes
+links:
+- type: run-by
+  to: rijkswaterstaat
+  url: https://algoritmes.overheid.nl/nl/algoritme/oorg10004/31788511/vegetatiemonitor
+  fetched: '2026-10-31'
+  quote: "Het algoritme kan alleen gebruikt (en niet aangepast) worden door aangewezen gebruikers binnen Rijkswaterstaat"
+found_by:
+- checklist:1
+- link-from:rijkswaterstaat
+added_by: agent
+checked: '2026-10-31'

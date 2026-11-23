@@ -1,0 +1,41 @@
+id: chinese-ecosystem-long-term-monitoring-database
+kind: dataset
+name: Chinese Ecosystem Long-term Dynamic Monitoring Database
+also_known_as:
+- 中国生态系统长期动态监测数据库
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+countries:
+- cn
+status: active
+website: https://rs.cern.ac.cn/data/initDRsearch
+summary: A database of long-term water, soil, atmosphere and biological monitoring
+  data from 42 stations across seven ecosystem types, run by the Chinese Ecosystem
+  Research Network, which holds its copyright.
+facts:
+- claim: Holds long-term monitoring data on water, soil, atmosphere and biological
+    environment from 42 stations across seven ecosystem types.
+  url: https://rs.cern.ac.cn/data/initDRsearch
+  fetched: 2026-11-08
+  quote: 共42个定位生态站上进行的水环境、土壤环境、大气环境、生物环境等方面的长期定位监测数据。
+- claim: CERN's synthesis centre integrates and publishes the database, and CERN holds
+    its copyright.
+  url: https://rs.cern.ac.cn/data/initDRsearch
+  fetched: 2026-11-08
+  quote: 综合中心是CERN监测数据库集成和发布的中心。
+links:
+- type: run-by
+  to: chinese-ecosystem-research-network
+  url: https://rs.cern.ac.cn/data/initDRsearch
+  fetched: 2026-11-08
+  quote: 综合中心是CERN监测数据库集成和发布的中心。
+found_by:
+- rule:checklist-misses
+- link-from:chinese-ecosystem-research-network
+added_by: agent
+checked: 2026-11-08

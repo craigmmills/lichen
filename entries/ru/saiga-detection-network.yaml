@@ -1,0 +1,67 @@
+id: saiga-detection-network
+kind: model
+name: Saiga detection network
+also_known_as:
+- Сеть для поиска сайгаков
+- Saiga search network
+scope: ru
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: unknown
+summary: Model for automated detection and counting of saiga with deep convolutional neural networks,
+  named in an institute paper and built by the Severtsov Institute and ES-PAS.
+facts:
+- claim: The institute names the paper on automated detection and counting of saiga with deep convolutional
+    neural networks.
+  url: https://sev-in.ru/node/3935
+  fetched: 2026-10-31
+  quote: с помощью глубоких конволюционных нейронных сетей
+  ai_type: deep-learning
+- claim: Its detector of herds was built on ResNet-50, followed by a network based on YOLOv7.
+  url: https://sev-in.ru/node/3935
+  fetched: '2026-10-31'
+  quote: Нейронная сеть, выявляющая скопления, была разработана на базе стандартной архитектуры
+    ResNet-50
+  ai_type: deep-learning
+- claim: The institute's page names it the network for finding saiga.
+  url: https://sev-in.ru/node/3935
+  fetched: '2026-10-31'
+  quote: «Сеть для поиска сайгаков» разработана благодаря сотрудничеству специалистов разных
+    сфер
+links:
+- type: built-by
+  to: severtsov-institute-of-ecology-and-evolution
+  url: https://sev-in.ru/node/3935
+  fetched: 2026-10-31
+  quote: Ученые ИПЭЭ РАН работают совместно с программистами и инженерами компании Эс-Пас, с которыми
+    также активно сотрудничают по вопросам спутниковой телеметрии и слежения за животными с помощью передатчиков.
+    «Сеть для поиска сайгаков» разработана благодаря сотрудничеству специалистов разных сфер.
+- type: built-by
+  to: es-pas
+  url: https://sev-in.ru/node/3935
+  fetched: 2026-10-31
+  quote: Ученые ИПЭЭ РАН работают совместно с программистами и инженерами компании Эс-Пас, с которыми
+    также активно сотрудничают по вопросам спутниковой телеметрии и слежения за животными с помощью передатчиков.
+    «Сеть для поиска сайгаков» разработана благодаря сотрудничеству специалистов разных сфер.
+- type: built-by
+  to: severtsov-institute-of-ecology-and-evolution
+  url: https://sev-in.ru/node/3935
+  fetched: '2026-10-31'
+  quote: В 2023 году мы начали работы по подбору соответствующих задачам алгоритмов нейронных
+    сетей и их обучению на имеющемся пуле данных
+- type: partners-with
+  to: es-pas
+  url: https://sev-in.ru/node/3935
+  fetched: '2026-10-31'
+  quote: Ученые ИПЭЭ РАН работают совместно с программистами и инженерами компании Эс-Пас
+found_by:
+- checklist:3
+- link-from:severtsov-institute-of-ecology-and-evolution
+added_by: agent
+checked: 2026-10-31

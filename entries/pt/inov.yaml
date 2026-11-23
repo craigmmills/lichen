@@ -1,0 +1,48 @@
+id: inov
+kind: organisation
+name: INOV
+also_known_as:
+- INOV INESC
+scope: pt
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- pt
+- gr
+- it
+scale: regional
+status: active
+website: https://www.inov.pt/project/ciclope/index.html
+summary: An organisation whose CORUJA project page says it developed CICLOPE, used in Portugal,
+  Greece and Italy, while CORUJA aims to detect rural fires at night using AI.
+facts:
+- claim: Its CORUJA project page says CICLOPE was developed by INOV and is used in Portugal,
+    Greece and Italy.
+  url: https://www.inov.pt/project/coruja/index.html
+  fetched: 2026-11-02
+  quote: Os resultados poderão ser integrados no sistema CICLOPE, desenvolvido pelo INOV e
+    atualmente utilizado em Portugal, Grécia e Itália.
+- claim: CORUJA aims to detect rural fires at night with AI and advanced neural networks.
+  url: https://www.inov.pt/project/coruja/index.html
+  fetched: 2026-11-02
+  quote: utilizando Inteligência Artificial e redes neuronais avançadas
+  ai_type: deep-learning
+links:
+- type: builds
+  to: ciclope
+  url: https://www.inov.pt/project/coruja/index.html
+  fetched: 2026-11-02
+  quote: sistema CICLOPE, desenvolvido pelo INOV
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,76 @@
+id: haus-der-natur-salzburg
+kind: organisation
+name: Haus der Natur
+also_known_as:
+- Haus der Natur Salzburg
+- Museum für Natur und Technik
+scope: at
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: local
+status: active
+website: https://www.hausdernatur.at
+summary: Museum running Salzburg’s species database with about 3,000,000 records, mostly workgroup
+  observations, and a High Tauern database, whose distribution data and digitised specimens
+  are available through a GBIF portal.
+facts:
+- claim: Maintains, with the province of Salzburg's nature conservation division, a database
+    of the province's animal and plant species with about 3,000,000 records.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: In collaboration with the nature conservation division of the province of Salzburg,
+    the Haus der Natur maintains an extensive database documenting the animal and plant species
+    of the province.
+- claim: Maintains a species database for the High Tauern National Park on the park's behalf.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: on behalf of High Tauern National Park and in close collaboration with the national
+    park administrations of Kärnten, Salzburg, and Tirol, the Haus der Natur also maintains
+    an extensive database documenting the animal and plant species of the High Tauern.
+- claim: Runs a GBIF Hosted Portal with its distribution data and digitised specimens.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: Through the Haus der Natur’s new GBIF Hosted Portal, all distribution data from the
+    biodiversity database, as well as all digitized collection specimens, are available online.
+- claim: The database holds about 3,000,000 records.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: includes about 3,000,000 records to date
+- claim: The database mainly contains observational data collected by members of the museum's
+    scientific workgroups.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: the database mainly contains observational data collected by members of the scientific
+    workgroups at the museum
+- claim: Maintains a species database for the High Tauern National Park on its behalf.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: on behalf of High Tauern National Park and in close collaboration with the national
+    park administrations of Kärnten, Salzburg, and Tirol, the Haus der Natur also maintains
+    an extensive database
+links:
+- type: runs
+  to: biodiversitatsdatenbank-salzburg
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: the Haus der Natur maintains an extensive database documenting the animal and plant
+    species of the province.
+- type: runs
+  to: biodiversitatsdatenbank-nationalpark-hohe-tauern
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: the Haus der Natur also maintains an extensive database documenting the animal and
+    plant species of the High Tauern.
+found_by:
+- link-from:queue-at
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

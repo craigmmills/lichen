@@ -1,0 +1,44 @@
+id: galileo
+kind: model
+name: Galileo
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- multimodal
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/nasaharvest/galileo
+summary: Family of remote sensing models pretrained on a diversity of inputs, published with
+  authors from NASA Harvest and Ai2.
+facts:
+- claim: Family of pretrained remote sensing models.
+  ai_type: foundation-models
+  url: https://github.com/nasaharvest/galileo
+  fetched: '2026-10-30'
+  quote: Galileo is a family of pretrained remote sensing models.
+- claim: Galileo is a self-supervised learning algorithm.
+  url: https://arxiv.org/abs/2502.09356
+  fetched: '2026-10-30'
+  quote: We present a novel self-supervised learning algorithm
+  ai_type: ml-unsupervised
+- claim: Galileo extracts features across a flexible set of input modalities.
+  url: https://arxiv.org/abs/2502.09356
+  fetched: '2026-10-30'
+  quote: We present a novel self-supervised learning algorithm that extracts multi-scale features
+    across a flexible set of input modalities
+  ai_type: multimodal
+links:
+- type: run-by
+  to: nasa-harvest
+  url: https://github.com/nasaharvest/galileo
+  fetched: '2026-10-30'
+  quote: 'GitHub - nasaharvest/galileo: The Galileo family of pretrained remote sensing models'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

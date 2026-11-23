@@ -1,0 +1,64 @@
+id: lesokhranitel
+kind: programme
+name: Lesokhranitel
+scope: ru
+also_known_as:
+- Лесохранитель
+- ЛЕСОХРАНИТЕЛЬ
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ru
+status: active
+summary: Forest fire detection programme built by Formoza Service, partnered with Rostelecom, described
+  as AI-based video monitoring with exact coordinates, with 47 cameras reported in Kurgan Oblast in 2026.
+facts:
+- claim: In 2026, CNews reported that 47 AI cameras were in use in Kurgan Oblast.
+  url: https://zoom.cnews.ru/news/item/686696
+  quote: Благодаря 47 камерам с искусственным интеллектом, возгорания фиксируются моментально
+  fetched: '2026-10-31'
+- claim: In November 2022, the Amur Oblast governor said the system had recorded nearly 1,000 fires in
+    eight months.
+  url: https://www.eastrussia.ru/news/sistema-lesokhranitel-vyyavila-tysyachu-vozgoraniy-v-lesakh-priamurya/
+  quote: За восемь месяцев система зафиксировала почти 1 000 возгораний
+  fetched: '2026-10-31'
+- claim: Its site says it is based on artificial intelligence technologies.
+  url: https://lesohranitel.ru/
+  fetched: 2026-10-31
+  quote: основана на технологиях искусственного интеллекта
+- claim: Its site lists automated video monitoring of fires with exact coordinates.
+  url: https://lesohranitel.ru/
+  fetched: 2026-10-31
+  quote: Автоматизированный видеомониторинг пожаров онлайн с точным определением координат и моментальным
+    оповещением
+- claim: In September 2026, Rostelecom quoted a branch director saying cameras in Kurgan Oblast scanned
+    forest within 25 km every 10 to 12 minutes.
+  url: https://www.company.rt.ru/press/news_fill/d479709/
+  fetched: 2026-10-31
+  quote: сканируют лестную местность в радиусе 25 км каждые 10–12 минут
+links:
+- type: built-by
+  to: formoza-service
+  url: https://www.comnews.ru/content/103256/2016-08-12
+  quote: Компания "Формоза-Сервис" разработала системное решение
+  fetched: '2026-10-31'
+- type: partners-with
+  to: rostelecom
+  url: https://zoom.cnews.ru/news/item/686696
+  quote: Компания "Ростелеком" шестой год является техническим партнером проекта по мониторингу лесных
+    пожаров в Курганской области
+  fetched: '2026-10-31'
+- type: built-by
+  to: formoza-service
+  url: https://platforms.su/platform/3825/contacts
+  fetched: 2026-10-31
+  quote: Владелец - российская коммерческая организация ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ " ФОРМОЗА-СЕРВИС",
+    Собственная разработка
+found_by:
+- checklist:5
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

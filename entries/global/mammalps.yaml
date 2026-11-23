@@ -1,0 +1,25 @@
+id: mammalps
+kind: dataset
+name: MammAlps
+scope: global
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+summary: Multi-view video behaviour monitoring dataset of wild mammals, recorded in the Swiss
+  National Park with video and audio.
+facts:
+- claim: Paper title describes it as a multi-view video behaviour monitoring dataset of wild
+    mammals in the Swiss Alps.
+  url: https://arxiv.org/abs/2503.18223
+  quote: 'MammAlps: A multi-view video behavior monitoring dataset of wild mammals in the
+    Swiss Alps'
+  fetched: '2026-10-30'
+found_by:
+- link-from:biobench
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

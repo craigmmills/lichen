@@ -1,0 +1,36 @@
+id: university-of-portsmouth
+kind: organisation
+name: University of Portsmouth
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on selecting mangrove sites using remote sensing and machine
+  learning.
+facts:
+- claim: 'OpenAlex lists authors at University of Portsmouth on this work: Optimizing mangrove
+    afforestation site selection in gulf cooperation council nations using remote sensing
+    and machine le'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Optimizing mangrove afforestation site selection in gulf cooperation council nations
+    using remote sensing and machine le
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.port.ac.uk/
+  quote: PO1 2EG
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.port.ac.uk/

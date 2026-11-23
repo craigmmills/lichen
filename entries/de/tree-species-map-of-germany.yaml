@@ -1,0 +1,30 @@
+id: tree-species-map-of-germany
+kind: dataset
+name: Tree species map of Germany (Koeltzow, FU-Berlin, SITS-BERT)
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- de
+status: active
+runner: unknown
+website: https://zenodo.org/records/15655451
+summary: Map of tree species across Germany from Sentinel-2 time series and SITS-BERT,
+  published on Zenodo with training code on GitHub.
+facts:
+- claim: A map of tree species in Germany on Zenodo.
+  url: https://zenodo.org/records/15655451
+  fetched: '2026-10-31'
+  quote: Tree species map of Germany with discrete values (see legend below)
+- claim: Built from Sentinel-2 time series and SITS-BERT.
+  url: https://zenodo.org/records/15655451
+  fetched: '2026-10-31'
+  quote: Combining Sentinel-2 time-series and SITS-BERT for area-wide mapping of eight
+    central European tree species
+found_by:
+- link-from:freie-universitat-berlin
+added_by: agent
+checked: '2026-10-31'

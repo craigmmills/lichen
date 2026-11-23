@@ -1,0 +1,40 @@
+id: deepsee
+kind: model
+name: DeepSee
+scope: 'no'
+summary: Model using YOLOv8 to detect benthic lifeforms in North Atlantic deep-sea environments, presented
+  with a dataset of 2,825 annotated images and built by Bergwerk and Aker BP.
+facts:
+- claim: A model using YOLOv8 to detect benthic lifeforms in deep-sea environments of the North Atlantic,
+    presented alongside a new dataset.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1470424/full
+  fetched: '2026-11-02'
+  quote: We present a new dataset combined with the DeepSee model, which utilizes the YOLOv8 architecture,
+    designed to rapidly and accurately detect benthic lifeforms in deep-sea environments of the North
+    Atlantic.
+- claim: The dataset holds 2,825 annotated images.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1470424/full
+  fetched: '2026-11-02'
+  quote: The resulting dataset comprises 2,825 images, each annotated with bounding boxes by a single
+    observer.
+links:
+- type: built-by
+  to: bergwerk
+  url: https://geoexpro.com/seabed-mapping-let-ai-do-the-work/
+  fetched: '2026-11-02'
+  quote: Bergwerk developed an AI-powered methodology to detect marine organisms
+- type: built-by
+  to: aker-bp
+  url: https://geoexpro.com/seabed-mapping-let-ai-do-the-work/
+  fetched: '2026-11-02'
+  quote: In collaboration with Aker BP
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision

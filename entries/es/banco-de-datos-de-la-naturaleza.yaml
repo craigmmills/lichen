@@ -1,0 +1,58 @@
+id: banco-de-datos-de-la-naturaleza
+kind: dataset
+name: Banco de Datos de la Naturaleza
+also_known_as:
+- BDN
+- IEPNB
+- Banco de Datos de la Naturaleza
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- es
+website: https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza.html
+summary: The environment ministry's data bank on nature, with downloads including
+  habitats of community interest and a map server.
+facts:
+- claim: Offers downloads on habitats of community interest under the EU Habitats
+    Directive.
+  url: https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/index_habitat_descargas.html
+  quote: Hábitats de Interés Comunitario del Anexo I de la Directiva 92/43/CEE
+  fetched: '2026-10-31'
+- claim: The portal aims to guarantee access to all information on Spain's nature.
+  url: https://iepnb.gob.es/acerca-de
+  fetched: '2026-10-31'
+  quote: tiene como principal objetivo garantizar el acceso y fomentar la divulgación
+    de toda la información sobre naturaleza de España
+- claim: The information is held in the Sistema Integrado de Información de la Biodiversidad.
+  url: https://iepnb.gob.es/acerca-de
+  fetched: '2026-10-31'
+  quote: depositada en el Sistema Integrado de Información de la Biodiversidad
+- claim: One of the instruments for knowing and planning natural heritage and biodiversity
+    under Law 42/2007.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-espanol-patrimonio-natural-biodiv.html
+  fetched: '2026-10-31'
+  quote: es uno de los instrumentos para el conocimiento y la planificación del patrimonio
+    natural y de la biodiversidad
+- claim: Its data are held in an integrated information system, the Banco de Datos
+    de la Naturaleza.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-espanol-patrimonio-natural-biodiv.html
+  fetched: '2026-10-31'
+  quote: Todos estos datos se albergan en un Sistema Integrado de Información (Banco
+    de Datos de la Naturaleza)
+links:
+- type: run-by
+  to: ministerio-para-la-transicion-ecologica-y-el-reto-demografico
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-espanol-patrimonio-natural-biodiv.html
+  quote: "Todos estos datos se albergan en un Sistema Integrado de Información (Banco de Datos de la Naturaleza) que permite el análisis, integración y difusión de la información del Inventario."
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- register:es
+- link-from:ministerio-para-la-transicion-ecologica-y-el-reto-demografico
+scope: es
+added_by: agent
+checked: '2026-10-31'

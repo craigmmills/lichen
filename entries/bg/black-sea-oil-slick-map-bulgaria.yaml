@@ -1,0 +1,48 @@
+id: black-sea-oil-slick-map-bulgaria
+kind: project
+name: Black Sea oil slick map, Bulgaria
+scope: bg
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- bg
+status: unknown
+summary: Map built by Greenpeace Bulgaria with SkyTruth support, showing over 170 twice-confirmed slicks
+  covering 819.1 square kilometres in Bulgarian waters, 6 July 2024 to 26 June 2025.
+facts:
+- claim: Recorded more than 170 oil and ship-fuel slicks covering 819.1 square kilometres in Bulgaria’s
+    Black Sea waters between 6 July 2024 and 26 June 2025.
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: Над 170 петна от изхвърлен нефт и корабно гориво с обща площ 819.1 кв. км са регистрирани за
+    последната година в акваторията на България в Черно море
+- claim: Slicks were detected with SkyTruth's Cerulean system, which uses Sentinel-1 data from the European
+    Space Agency.
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: За да се засекат нефтените петна, е използвана системата SkyTruth Cerulean , която използва сателитни
+    данни от Sentinel-1 на Европейската космическа агенция.
+- claim: The map covers 6 July 2024 to 26 June 2025 and shows only slicks confirmed twice by Greenpeace
+    and SkyTruth specialists after the software check.
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: Картата показва нефтени петна в период от 6 юли 2024 г. до 26 юни 2025 г.
+links:
+- type: built-by
+  to: greenpeace-bulgaria
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: Това показва разследване на „Грийнпийс“ – България и SkyTruth, обобщено в нова интерактивна карта
+    .
+- type: uses
+  to: cerulean
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: За да се засекат нефтените петна, е използвана системата SkyTruth Cerulean
+found_by:
+- link-from:cerulean
+added_by: agent
+checked: 2026-11-08

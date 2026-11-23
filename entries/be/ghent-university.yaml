@@ -1,0 +1,64 @@
+id: ghent-university
+kind: organisation
+name: Ghent University
+also_known_as:
+- UGent
+scope: be
+sector: academic
+roles:
+- unknown
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+hq: be
+countries:
+- be
+- cd
+scale: national
+status: active
+website: https://www.ugent.be
+summary: Has computational bioacoustics research, a June 2020 announcement of planned AI training
+  on drone footage, and a July 2021 to June 2025 acoustic machine learning project.
+facts:
+- claim: Its Department of Environment lists the Laboratory of Quantitative Forest Ecosystem
+    Science among its research groups.
+  url: https://www.ugent.be/bw/environment/en/research
+  fetched: 2026-11-02
+  quote: Laboratory of Quantitative Forest Ecosystem Science [ Q-ForestLab ]
+- claim: A June 2020 project announcement said IDLab-MEDIA would train computer vision and
+    AI algorithms on drone footage to recognise biodiverse regions in grasslands.
+  url: https://media.idlab.ugent.be/interdisc-biodiversity
+  fetched: '2026-11-02'
+  quote: training computer vision and AI algorithms in order to recognise biodiverse regions
+    in grasslands
+- claim: Its Research Group Mycology is listed on FunDive.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Research Group Mycology, Ghent University, Ghent, Belgium
+- claim: Q-ForestLab belongs to it.
+  url: https://spacetwin.ugent.be/
+  fetched: '2026-11-02'
+  quote: Q-ForestLab - Ghent University
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Research Group Mycology, Ghent University, Ghent, Belgium
+- type: funds
+  to: ghent-mowing-ai-project
+  url: https://media.idlab.ugent.be/interdisc-biodiversity
+  fetched: '2026-11-02'
+  quote: This project is funded by the Special Research Fund of Ghent University
+found_by:
+- checklist:3
+- link-from:fundive
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

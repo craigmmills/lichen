@@ -1,0 +1,72 @@
+id: japan-agency-for-marine-earth-science-and-technology
+kind: organisation
+name: Japan Agency for Marine-Earth Science and Technology
+also_known_as:
+- JAMSTEC
+- 海洋研究開発機構
+scope: jp
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://www.jamstec.go.jp/e/
+summary: National ocean research and development agency in Yokosuka that runs BISMaL, through
+  its Data and information Technology Development Group, and is listed by POGO as a member
+  from Japan.
+facts:
+- claim: A national research and development agency engaged in ocean research.
+  url: https://www.jamstec.go.jp/e/about/
+  fetched: 2026-11-02
+  quote: JAMSTEC made a fresh start as a "National Research and Development Agency."
+- claim: Headquarters address at Natsushima-cho, Yokosuka.
+  url: https://www.jamstec.go.jp/e/about/
+  fetched: 2026-11-02
+  quote: 2-15, Natsushima-cho, Yokosuka, Kanagawa, Japan
+- claim: Its home page lists BISMaL, J-EDI, Deep-sea Debris Database and J-OBIS among its
+    services.
+  url: https://www.jamstec.go.jp/e/
+  fetched: '2026-11-02'
+  quote: BISMaL, J-EDI, Deep-sea Debris Database, J-OBIS, Document Catalog
+- claim: POGO lists it as a member from Japan.
+  url: https://pogo-ocean.org/who-is-pogo/members/
+  fetched: '2026-11-02'
+  quote: Japan Agency for Marine-Earth Science and Technology (JAMSTEC)
+- claim: Says its Data and information Technology Development Group operates BISMaL.
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: '2026-11-02'
+  quote: The Data and information Technology Development Group(DiG) operates The Biological
+    Information System for Marine Life (BISMaL)
+links:
+- type: runs
+  to: bismal
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: 2026-11-02
+  quote: The Data and information Technology Development Group(DiG) operates The Biological
+    Information System for Marine Life (BISMaL)
+- type: partners-with
+  to: partnership-for-observation-of-the-global-ocean
+  url: https://pogo-ocean.org/who-is-pogo/members/
+  fetched: '2026-11-02'
+  quote: Japan Agency for Marine-Earth Science and Technology (JAMSTEC)
+- type: runs
+  to: bismal
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: '2026-11-02'
+  quote: The Data and information Technology Development Group(DiG) operates The Biological
+    Information System for Marine Life (BISMaL)
+found_by:
+- checklist:2
+- link-from:partnership-for-observation-of-the-global-ocean
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision

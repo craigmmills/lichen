@@ -1,0 +1,36 @@
+id: kuwait-university
+kind: organisation
+name: Kuwait University
+also_known_as: []
+scope: kw
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: kw
+countries:
+- kw
+scale: national
+status: active
+website: https://ku.edu.kw
+summary: University whose Department of Geography is the affiliation of a 2025 paper's first author, and
+  which Times Kuwait reported in June 2025 as a partner in a national sea turtle monitoring project.
+facts:
+- claim: The first author of a 2025 paper modelling urban expansion effects on Kuwait's land ecosystems
+    with random forest and cellular automata is affiliated with its Department of Geography.
+  url: https://api.openalex.org/works/W4411094717?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Department of Geography, College of Social Sciences, Kuwait University, 5969, Safat, Kuwait
+- claim: Times Kuwait reported in June 2025 that some sea turtles released in Kuwait were fitted with
+    tracking devices as part of a national sea turtle monitoring project in partnership with Kuwait University.
+  url: https://timeskuwait.com/?p=49256
+  fetched: 2026-11-12
+  quote: Some of these turtles were fitted with tracking devices as part of a national sea turtle monitoring
+    project in partnership with the Kuwait University.
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

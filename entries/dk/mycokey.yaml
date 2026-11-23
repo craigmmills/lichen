@@ -1,0 +1,58 @@
+id: mycokey
+kind: organisation
+name: MycoKey
+scope: dk
+sector: company
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: dk
+countries:
+- dk
+scale: national
+status: unknown
+website: https://www.mycokey.com/default.html
+summary: Fungal identification key resource in Tirstrup, built by Jens H. Petersen and Thomas
+  Laessoe, which offers an AI trained on its pictures and Danish fungal atlas images, though
+  it stopped updating its key program around 2020 and calls it obsolete.
+facts:
+- claim: Biodiversa+ places it in Tirstrup.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: MycoKey, Tirstrup, Denmark
+- claim: Its site describes multi-access and synoptic identification keys.
+  url: https://www.mycokey.com/default.html
+  fetched: '2026-11-02'
+  quote: multi-access key,
+- claim: Offers an AI trained on pictures from MycoKey and the Danish fungal atlas.
+  url: http://www.mycokey.com
+  fetched: &id001 2026-11-02
+  quote: Try our new AI (upload picture, get name!) trained on thousands of pictures from
+    MycoKey and The Danish fungal atlas
+- claim: Stopped updating its key program around 2020 and calls it obsolete.
+  url: http://www.mycokey.com
+  fetched: *id001
+  quote: We stopped updating MycoKey for new operation systems around 2020 and MycoKey is
+    now obsolete.
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: MycoKey, Tirstrup, Denmark
+- type: partners-with
+  to: atlas-of-danish-fungi
+  url: https://apps.apple.com/dk/app/atlas-of-danish-fungi/id1467728588
+  fetched: *id001
+  quote: which is a collaborative effort between Center for Makroecology, Evolution and Climate
+    (CMEC) at the Natural History Museum of Denmark (SNM, University of Copenhagen), Danish
+    Mycological Society and MycoKey.
+found_by:
+- link-from:fundive
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision

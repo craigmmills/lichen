@@ -1,0 +1,39 @@
+id: ia-biodiv-challenge
+kind: programme
+name: Challenge IA-Biodiv
+also_known_as:
+- IA-Biodiv
+scope: global
+ai_label: ai
+realms:
+- land
+countries:
+- fr
+scale: regional
+status: dormant
+website: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+summary: Research challenge from the French National Research Agency and AFD supporting AI research on biodiversity, open to scientific communities in France and AFD partner countries in Africa.
+facts:
+- claim: Supports research in artificial intelligence on biodiversity.
+  url: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+  quote: Le challenge IA-Biodiv ambitionne ainsi de soutenir les recherches en Intelligence Artificielle dans le champ de la biodiversité
+  fetched: &id001 2026-10-30
+- claim: Open to scientific communities in AI and biodiversity in France and AFD partner countries in Africa.
+  url: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+  quote: Le challenge IA-Biodiv est destiné aux communautés scientifiques en IA et en biodiversité de France et de pays partenaires de l’AFD, en Afrique.
+  fetched: *id001
+links:
+- type: run-by
+  to: agence-nationale-de-la-recherche
+  url: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+  quote: Le challenge IA-Biodiv
+  fetched: *id001
+- type: funded-by
+  to: agence-francaise-de-developpement
+  url: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+  quote: "Les consortiums internationaux seront financés par Expertise France (mandaté par l’AFD)"
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

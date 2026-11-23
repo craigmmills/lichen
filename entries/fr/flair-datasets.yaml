@@ -1,0 +1,56 @@
+id: flair-datasets
+kind: dataset
+name: FLAIR
+also_known_as:
+- French Land cover from Aerospace ImageRy
+- FLAIR-HUB
+- FLAIR
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+summary: IGN's AI challenges and benchmark datasets for land cover mapping from aerial
+  and satellite sensors. FLAIR-HUB covers over 2,500 square kilometres of France with
+  63 billion hand-annotated pixels.
+facts:
+- claim: IGN presents the FLAIR AI challenges and benchmark datasets.
+  url: https://ignf.github.io/FLAIR/
+  quote: presents its AI challenges and benchmark datasets FLAIR (for French Land
+    cover from Aerospace ImageRy)
+  fetched: '2026-10-31'
+- claim: FLAIR-HUB spans over 2,500 square kilometres with 63 billion hand-annotated
+    pixels.
+  url: https://ignf.github.io/FLAIR/FLAIR-HUB/flairhub
+  quote: Spanning over 2,500 km² of diverse French ecoclimates and landscapes, it
+    features 63 billion hand-annotated pixels
+  fetched: '2026-10-31'
+- claim: Large training datasets opened through the FLAIR challenges, competitions
+    on research problems in land cover analysis by AI.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: Des jeux de données d’apprentissage massifs ont ainsi été ouverts dans le
+    cadre des challenges FLAIR , compétitions scientifiques et techniques sur des
+    problèmes de recherche pour l’analyse de l’occupation des sols par IA.
+links:
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://ignf.github.io/FLAIR/
+  quote: Welcome to IGN's FLAIR datasets page!
+  fetched: '2026-10-31'
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: Des jeux de données d’apprentissage massifs ont ainsi été ouverts dans le
+    cadre des challenges FLAIR
+found_by:
+- checklist:2
+- link-from:institut-national-de-linformation-geographique-et-forestiere
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

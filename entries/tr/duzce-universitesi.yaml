@@ -1,0 +1,60 @@
+id: duzce-universitesi
+kind: organisation
+name: Düzce Üniversitesi
+also_known_as:
+- Düzce University
+- Düzce Üniversitesi
+scope: tr
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: tr
+countries:
+- tr
+scale: national
+status: active
+website: https://duzce.edu.tr
+summary: University listed as a GBIF publisher in Türkiye that publishes the Alien Flora of
+  Turkey dataset, and runs a wild sheep project that qualified for TÜBİTAK 1001 support in
+  August 2023.
+facts:
+- claim: In August 2023, the university said a project led by Hüseyin Ambarlı of its Faculty
+    of Forestry’s Wildlife Ecology and Management Department had qualified for TÜBİTAK 1001
+    support.
+  url: https://duzce.edu.tr/duyuru/a803/universitemizin-yaban-hayati-projesine-tubtaktan-destek
+  fetched: 2026-11-03
+  quote: Üniversitemizin Yaban Hayatı Projesine TÜBİTAK’tan Destek
+- claim: Listed as a GBIF publishing organisation in Türkiye.
+  url: https://api.gbif.org/v1/organization?country=TR&limit=100
+  fetched: 2026-11-03
+  quote: Duzce University
+- claim: Publishes the Alien Flora of Turkey dataset through GBIF.
+  url: https://api.gbif.org/v1/organization/af5132dd-d748-44c4-8fed-42bdce8be726/publishedDataset
+  fetched: '2026-11-03'
+  quote: Alien Flora of Turkey
+- claim: GBIF's publisher record describes it as a young public university that started to
+    focus on health and environment in 2016.
+  url: https://api.gbif.org/v1/organization/af5132dd-d748-44c4-8fed-42bdce8be726
+  fetched: '2026-11-03'
+  quote: A young public university, we started to focus on health and environment since 2016.
+- claim: GBIF's publisher record gives an address at the Konuralp campus in Düzce.
+  url: https://api.gbif.org/v1/organization/af5132dd-d748-44c4-8fed-42bdce8be726
+  fetched: '2026-11-03'
+  quote: Düzce Üniversitesi Konuralp Yerleşkesi Konuralp
+links:
+- type: runs
+  to: rastgele-karsilasma-modeli-yaban-koyunu-kizilgeyik-projesi
+  url: https://duzce.edu.tr/duyuru/a803/universitemizin-yaban-hayati-projesine-tubtaktan-destek
+  fetched: 2026-11-03
+  quote: Üniversitemizin Yaban Hayatı Projesine TÜBİTAK’tan Destek
+found_by:
+- checklist:3
+- link-from:rastgele-karsilasma-modeli-yaban-koyunu-kizilgeyik-projesi
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03

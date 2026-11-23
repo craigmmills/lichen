@@ -1,0 +1,36 @@
+id: sea-watch-foundation
+kind: organisation
+name: Sea Watch Foundation
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+hq: gb
+scale: national
+status: active
+website: https://www.seawatchfoundation.org.uk/
+summary: Cetacean charity that runs the Sea Watcher recording app and publishes marine megafauna
+  sightings on GBIF.
+facts:
+- claim: Launched the Sea Watcher recording app.
+  url: https://www.seawatchfoundation.org.uk/
+  fetched: '2026-10-30'
+  quote: Sea Watch Foundation have launched a brand-new recording app, entitled “Sea Watcher”
+- claim: Publishes the dataset "Sea Watch Foundation Marine Megafauna Sightings:1930 to 1970"
+    on GBIF.
+  url: https://api.gbif.org/v1/organization/bb7b579c-791f-4e5a-9fd1-5b0fc63a5526/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Sea Watch Foundation Marine Megafauna Sightings:1930 to 1970
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/bb7b579c-791f-4e5a-9fd1-5b0fc63a5526/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

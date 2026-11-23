@@ -1,0 +1,74 @@
+id: university-of-lagos
+kind: organisation
+name: University of Lagos
+scope: ng
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: ng
+countries:
+- ng
+scale: national
+status: active
+summary: University with 63 datasets on GBIF, including a CC BY 4.0 checklist of marine fishes
+  and shellfishes of Nigerian coastal waters, and a partner of the Partnership for Observation
+  of the Global Ocean.
+facts:
+- claim: Named as home of the centre.
+  url: https://unilag.edu.ng/?p=20533
+  fetched: '2026-11-03'
+  quote: the TETFund Centre for Biodiversity Conservation and Ecosystem Management, University
+    of Lagos
+- claim: Has 63 datasets published on GBIF.
+  url: https://api.gbif.org/v1/organization/bdee9e20-df5e-4ef8-a012-53d2e83010e4/publishedDataset?limit=70
+  fetched: 2026-11-03
+  quote: '"count":63'
+- claim: Its GBIF datasets include fishes and shellfish of Nigeria's coast.
+  url: https://api.gbif.org/v1/organization/bdee9e20-df5e-4ef8-a012-53d2e83010e4/publishedDataset?limit=70
+  fetched: 2026-11-03
+  quote: Marine Fishes and Shell Fishes of the Nigerian Coastal Environments
+- claim: Its GBIF contact address is the Department of Zoology, Faculty of Science, in Lagos.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335/organization?limit=100
+  fetched: 2026-11-03
+  quote: Department of Zoology, Faculty of Science
+- claim: Publishes a CC BY 4.0 GBIF checklist of marine fishes and shell fishes in Nigerian
+    coastal waters.
+  url: https://api.gbif.org/v1/dataset/3d61eef2-2232-43f0-8365-14743ea8c431
+  fetched: '2026-11-03'
+  quote: This is a checklist of marine fishes and shell fishes found in the Nigerian coastal
+    waters.
+- claim: Publishes a GBIF red list of plants and animals along the Nigerian coast.
+  url: https://api.gbif.org/v1/dataset/94149ad2-3e2a-45c5-8c8b-fe4e733236ae
+  fetched: '2026-11-03'
+  quote: This is a red list of some plants and animals along the Nigerian Coast.
+- claim: The GBIF licence is CC BY 4.0.
+  url: https://api.gbif.org/v1/dataset/3d61eef2-2232-43f0-8365-14743ea8c431
+  fetched: '2026-11-03'
+  quote: creativecommons.org/licenses/by/4.0/legalcode
+- claim: A University of Lagos-affiliated author is first author of a 2019 land cover mapping
+    paper for Lagos State.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ng,concepts.id:C62649853,concepts.id:C119857082,from_publication_date:2016-01-01&sort=cited_by_count:desc&per_page=200&select=id,title,publication_year,authorships,cited_by_count
+  fetched: '2026-11-03'
+  quote: Land cover mapping using Sentinel-1 SAR and Landsat 8 imageries of Lagos State for
+    2017
+found_by:
+- checklist:3
+- queue:ng
+- register:ng
+added_by: agent
+checked: '2026-11-03'
+also_known_as:
+- UNILAG
+links:
+- type: partners-with
+  to: partnership-for-observation-of-the-global-ocean
+  url: https://pogo-ocean.org/who-is-pogo/members/
+  fetched: 2026-11-03
+  quote: Department of Marine Sciences, University of Lagos (UNILAG)
+techniques:
+- remote-sensing

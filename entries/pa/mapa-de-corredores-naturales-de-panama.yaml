@@ -1,0 +1,48 @@
+id: mapa-de-corredores-naturales-de-panama
+kind: dataset
+name: Mapa de corredores naturales de Panamá
+scope: pa
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+countries:
+- pa
+status: active
+website: https://www.almanaqueazul.org/conectividad/
+summary: A CC-BY dataset built by Fundación Almanaque Azul, modelled with Omniscape at 30 m resolution
+  across Panama's land and 10 km border buffers, using the ministry's 2022 land-use map.
+facts:
+- claim: Covers all of Panama's land surface, with a 10 km buffer along the borders with Costa Rica and
+    Colombia.
+  url: https://www.almanaqueazul.org/conectividad/
+  fetched: 2026-11-08
+  quote: 'Extensión del mapa: Toda la superficie terrestre de Panamá, con un buffer de 10 km a lo largo
+    de las fronteras de Costa Rica y Colombia.'
+- claim: Modelled with the open-source application Omniscape.
+  url: https://www.almanaqueazul.org/conectividad/
+  fetched: 2026-11-08
+  quote: 'Aplicación utilizada para el modelado: Omniscape'
+- claim: The model input and output raster layers have a resolution of 30 m per pixel.
+  url: https://www.almanaqueazul.org/conectividad/
+  fetched: 2026-11-08
+  quote: 'Resolución: 30m por pixel'
+- claim: Uses the environment ministry's 2022 land use map among its input layers.
+  url: https://www.almanaqueazul.org/conectividad/
+  fetched: 2026-11-08
+  quote: Uso de suelo, Miambiente 2022
+- claim: Maps and data are published under CC-BY.
+  url: https://www.almanaqueazul.org/conectividad/
+  fetched: 2026-11-08
+  quote: Todos los mapas y datos están publicados bajo una licencia Creative Commons CC-BY
+links:
+- type: built-by
+  to: fundacion-almanaque-azul
+  url: https://www.almanaqueazul.org/conectividad/
+  fetched: 2026-11-08
+  quote: Proyecto realizado por Almanaque Azul
+found_by:
+- link-from:fundacion-almanaque-azul
+added_by: agent
+checked: 2026-11-08

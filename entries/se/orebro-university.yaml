@@ -1,0 +1,37 @@
+id: orebro-university
+kind: organisation
+name: Örebro University
+scope: se
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: University whose School of Science and Technology researchers co-authored a 2023
+  paper on predicting larch casebearer damage using YOLO models and conformal prediction,
+  with Ulf Norinder first author.
+facts:
+- claim: Ulf Norinder, affiliated with Örebro University's School of Science and Technology
+    and Stockholm University, is first author of a paper on predicting larch casebearer damage
+    with YOLO network models; the last author, Stephanie M. Lowry, is also at Örebro.
+  url: https://api.openalex.org/works/W4386935290?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Predicting Larch Casebearer damage with confidence using Yolo network models and
+    conformal prediction
+- claim: The authors' affiliation on the paper is the School of Science and Technology, Örebro
+    University.
+  url: https://api.openalex.org/works/W4386935290?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: School of Science and Technology
+- claim: The 2023 paper’s title refers to using YOLO network models and conformal prediction.
+  url: https://api.openalex.org/works/W4386935290?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: using Yolo network models
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

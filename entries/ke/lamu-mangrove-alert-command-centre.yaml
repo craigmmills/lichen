@@ -1,0 +1,47 @@
+id: lamu-mangrove-alert-command-centre
+kind: project
+name: Lamu mangrove alert command centre
+scope: ke
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+summary: Kenya Forest Service centre in Lamu, set up with Wetlands International,
+  that checks satellite mangrove alerts from Global Mangrove Watch before sending
+  patrols.
+facts:
+- claim: Global Mangrove Watch lets forest managers check alerts before sending patrols.
+  url: https://www.wetlands.org/blog/technology-for-good-identifying-real-time-mangrove-loss-in-kenya/
+  quote: allowing forest managers to scrutinize alerts before sending patrols
+  fetched: '2026-10-30'
+- claim: The Kenya Forest Service runs a national forest alert system with bi-weekly
+    updates.
+  url: https://www.wetlands.org/blog/technology-for-good-identifying-real-time-mangrove-loss-in-kenya/
+  quote: the KFS established a national forest alert system, that sends bi-weekly
+    updates on mangrove disturbances in protected areas
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: kenya-forest-service
+  url: https://www.wetlands.org/blog/technology-for-good-identifying-real-time-mangrove-loss-in-kenya/
+  quote: "Wetlands International supported KFS in setting up a first-of-its-kind alert command center"
+  fetched: '2026-10-30'
+- type: partners-with
+  to: wetlands-international
+  url: https://www.wetlands.org/blog/technology-for-good-identifying-real-time-mangrove-loss-in-kenya/
+  quote: "Wetlands International supported KFS in setting up a first-of-its-kind alert command center"
+  fetched: '2026-10-30'
+- type: builds-on
+  to: global-mangrove-watch
+  url: https://www.wetlands.org/blog/technology-for-good-identifying-real-time-mangrove-loss-in-kenya/
+  quote: the Global Mangrove Watch (GMW) platform steps in
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

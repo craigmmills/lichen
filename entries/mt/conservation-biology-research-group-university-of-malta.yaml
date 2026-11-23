@@ -1,0 +1,59 @@
+id: conservation-biology-research-group-university-of-malta
+kind: organisation
+name: Conservation Biology Research Group, Department of Biology, University of Malta
+also_known_as: []
+scope: mt
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+- land
+techniques:
+- edna-genomics
+- bioacoustics
+hq: mt
+countries: []
+scale: national
+status: active
+summary: Based in the University of Malta's Department of Biology, the group is listed
+  by OpenAlex as all three authors' affiliation on a 2025 paper about marine vertebrate
+  eDNA detection.
+facts:
+- claim: OpenAlex lists the group as the affiliation of all three authors, including
+    the first and corresponding author, of a 2025 paper on eDNA detection of marine
+    vertebrates in Maltese waters.
+  url: https://api.openalex.org/works/W4415377535?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-14
+  quote: Environmental DNA (eDNA) for the Detection of Marine Vertebrate Diversity
+    in Maltese Waters
+- claim: The affiliation string places the group in the Department of Biology, Faculty
+    of Science, University of Malta.
+  url: https://api.openalex.org/works/W4415377535?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-14
+  quote: Conservation Biology Research Group, Department of Biology, Faculty of Science,
+    University of Malta, MSD 2080 Msida, Malta
+- claim: In 2018 the University of Malta reported that the group developed a bioacoustic
+    tool with artificial neural networks to identify Maltese bat species automatically
+    from their echolocation calls.
+  url: https://www.um.edu.mt/newspoint/news/2018/09/batacousticsresearchaidedbyartificialintelligencetechnology
+  fetched: 2026-11-14
+  ai_type: ml-supervised
+  quote: This research effort was then augmented by the use of artificial neural networks
+    to allow automatic identification of bat species from their echolocation calls.
+- claim: The 2018 report says the tool was developed with artificial neural networks
+    and can be used for bat ecological and conservation research.
+  url: https://www.um.edu.mt/newspoint/news/2018/09/batacousticsresearchaidedbyartificialintelligencetechnology
+  fetched: 2026-11-14
+  quote: The bioacoustic identification tool, developed with artificial neural networks
+    after extensive data analyses, can be used for bat ecological and conservation
+    research.
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

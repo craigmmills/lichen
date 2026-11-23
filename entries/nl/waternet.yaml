@@ -1,0 +1,51 @@
+id: waternet
+kind: organisation
+name: Waternet
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: unknown
+scale: local
+status: active
+summary: Dutch water company that worked with University of Amsterdam researchers on the automated
+  camera network in the Amsterdam Water Supply Dunes.
+scope: nl
+facts:
+- claim: DutchNews calls it a water company.
+  url: https://www.dutchnews.nl/2024/05/utrecht-pits-predatory-fish-plants-and-ai-against-crayfish
+  fetched: '2026-10-31'
+  quote: Utrecht council and water company Waternet
+- claim: Teamed up with University of Amsterdam researchers on wildlife monitoring in the
+    dunes.
+  url: https://uva.nl/en/content/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: have teamed up with Waternet in a nature reserve in the Dutch coastal dunes
+- claim: Teamed up with IBED researchers in a Dutch coastal dune reserve.
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: &id001 2026-10-31
+  quote: have teamed up with Waternet in a nature reserve in the Dutch coastal dunes
+links:
+- type: partners-with
+  to: amsterdam-water-supply-dunes-camera-network
+  url: https://uva.nl/en/content/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: '2026-10-31'
+  quote: have teamed up with Waternet in a nature reserve in the Dutch coastal dunes
+- type: partners-with
+  to: amsterdam-water-supply-dunes-camera-network
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: *id001
+  quote: have teamed up with Waternet in a nature reserve in the Dutch coastal dunes
+found_by:
+- checklist:5
+- link-from:university-of-amsterdam
+- link-from:amsterdam-water-supply-dunes-camera-network
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+techniques:
+- computer-vision

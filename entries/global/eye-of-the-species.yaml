@@ -1,0 +1,47 @@
+id: eye-of-the-species
+kind: model
+name: Eye of the Species
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- cn
+- np
+status: active
+summary: Tencent AI model that sorts camera trap images, first made for snow leopard studies in China and adapted for use in Nepal; it recognised 286 species at the time of the source.
+facts:
+- claim: Identifies snow leopards with up to 98 percent accuracy and works offline, according to Tencent.
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: &id001 2026-10-30
+  quote: The system identifies snow leopards from thousands of images with up to 98 percent accuracy
+- claim: Recognises 286 species.
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: *id001
+  quote: It recognizes 286 species and counting
+- claim: Originally developed in China and adapted for Nepal.
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: *id001
+  quote: Originally developed for snow leopard studies in China, the model has been adapted for use in Nepal.
+links:
+- type: run-by
+  to: tencent
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: *id001
+  quote: Tencent developed “Eye of the Species”
+- type: partners-with
+  to: national-trust-for-nature-conservation
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: *id001
+  quote: The Tencent team recently hosted a workshop with Nepal’s National Trust for Nature Conservation (NTNC) and China’s Shan Shui Conservation Center
+- type: partners-with
+  to: shan-shui-conservation-center
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: *id001
+  quote: "The Tencent team recently hosted a workshop with Nepal’s National Trust for Nature Conservation (NTNC) and China’s Shan Shui Conservation Center to introduce this system to conservationists"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

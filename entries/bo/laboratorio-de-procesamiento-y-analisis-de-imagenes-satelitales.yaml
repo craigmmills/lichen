@@ -1,0 +1,57 @@
+id: laboratorio-de-procesamiento-y-analisis-de-imagenes-satelitales
+kind: organisation
+name: Laboratorio de Procesamiento y Análisis de Imágenes Satelitales
+also_known_as:
+- LPAIS
+scope: bo
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: bo
+countries: []
+scale: national
+status: active
+website: https://www.abe.bo/lpais/
+summary: A laboratory run by the Bolivian Space Agency that built a satellite fire
+  monitoring platform and says its GIS team uses machine learning and Google Earth
+  Engine.
+facts:
+- claim: The laboratory uses Earth observation and positioning satellite data to monitor
+    land cover.
+  url: https://www.abe.bo/lpais/
+  fetched: 2026-11-12
+  quote: hace uso de datos provenientes de satélites de observación y de posicionamiento,
+    combinados con tecnologías, técnicas y metodologías innovadoras para el monitoreo
+    de la cubierta terrestre
+- claim: Its GIS team says it uses big data tools, machine learning and Google Earth
+    Engine to analyse satellite images.
+  url: https://www.abe.bo/lpais/
+  fetched: 2026-11-12
+  quote: El equipo experto en SIG, utiliza la herramientas de Big Data y machine learning,
+    como también el uso de Google Earth Engine
+- claim: The ABE page gives a La Paz address.
+  url: https://www.abe.bo/lpais/
+  fetched: 2026-11-12
+  quote: Edificio “Torre Lucia”, zona Calacoto, Av. Ballivián Nro. s/n, esquina calle
+    13, Piso 4. La Paz, Bolivia
+links:
+- type: run-by
+  to: agencia-boliviana-espacial
+  url: https://www.abe.bo/lpais/
+  fetched: 2026-11-12
+  quote: Laboratorio de Procesamiento y Análisis de Imágenes Satelitales - LPAIS
+- type: builds
+  to: abe-satellite-fire-monitoring-platform
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: La plataforma fue desarrollada por el Laboratorio de Procesamiento y Análisis
+    de Imágenes Satelitales (LPAIS)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

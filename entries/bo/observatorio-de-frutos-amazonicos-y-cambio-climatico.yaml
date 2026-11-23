@@ -1,0 +1,34 @@
+id: observatorio-de-frutos-amazonicos-y-cambio-climatico
+kind: dataset
+name: Observatorio de Frutos Amazónicos y Cambio Climático
+scope: bo
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bo
+status: active
+summary: Portal run by ACEAA that gives access to its technical and scientific documents
+  and real-time monitoring of fires in Pando.
+facts:
+- claim: ACEAA describes it as a portal giving access to its technical and scientific
+    documents and real-time monitoring of fires in Pando.
+  url: https://conservacionamazonica.org.bo/?page_id=465
+  fetched: 2026-11-12
+  quote: un portal que ofrece el acceso a la documentación técnica y científica realizada,
+    al igual que el monitoreo en tiempo real de los fuegos en el departamento de Pando-
+    Bolivia.
+links:
+- type: run-by
+  to: conservacion-amazonica-aceaa
+  url: https://conservacionamazonica.org.bo/?page_id=465
+  fetched: 2026-11-12
+  quote: Como ser el Observatorio de Frutos Amazónicos y Cambio Climático, un portal
+    que ofrece el acceso a la documentación técnica y científica realizada
+found_by:
+- rule:checklist-misses
+- link-from:conservacion-amazonica-aceaa
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,61 @@
+id: wyvern
+kind: organisation
+name: Wyvern
+also_known_as: []
+scope: ca
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: global
+status: active
+website: https://www.wyvern.space/
+summary: An Edmonton space company described by Emissions Reduction Alberta as using
+  three hyperspectral satellites, which says its imagery improved tree species classification
+  accuracy by up to 45% in a Tesera study.
+facts:
+- claim: Emissions Reduction Alberta describes it as an Edmonton space company using
+    three hyperspectral imaging satellites.
+  url: https://www.eralberta.ca/projects/details/wildfire-monitoring-and-methane-detection-from-space-via-high-resolution-hyperspectral-satellites/
+  fetched: 2026-11-08
+  quote: The Edmonton space company currently utilizes three satellites, capturing
+    data across various spectral bands.
+- claim: Says its imagery improved tree species classification accuracy by up to 45%
+    in a study with the forestry analytics company Tesera.
+  url: https://www.wyvern.space/industries/forestry
+  fetched: 2026-11-08
+  quote: Our imagery improved tree speciation accuracy by up to 45%, with significant
+    performance boosts on species like Sugar Maple, Balsam Fir, and Eastern Cedar.
+- claim: Emissions Reduction Alberta describes a project demonstrating Wyvern’s second-generation
+    satellite technology for wildfire monitoring and methane detection, including
+    data on fire hotspots, vegetation moisture and forest health.
+  url: https://www.eralberta.ca/projects/details/wildfire-monitoring-and-methane-detection-from-space-via-high-resolution-hyperspectral-satellites/
+  fetched: 2026-11-08
+  quote: The current project focuses on demonstrating Wyvern’s second-generation (Gen
+    2) satellite technology to mitigate wildfires for the forestry industry, as well
+    as to detect small methane leaks for energy industries.
+links:
+- type: funded-by
+  to: emissions-reduction-alberta
+  url: https://www.eralberta.ca/projects/details/wildfire-monitoring-and-methane-detection-from-space-via-high-resolution-hyperspectral-satellites/
+  fetched: 2026-11-08
+  quote: 'Funding Amount
+
+    $5,000,000'
+  amount: 5000000
+- type: partners-with
+  to: tesera-systems
+  url: https://www.wyvern.space/industries/forestry
+  fetched: 2026-11-08
+  quote: We partnered with Tesera, a Canadian forestry analytics company to investigate
+    the impact of hyperspectral imaging on species classification in mixed wood forests.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,58 @@
+id: university-of-eswatini
+kind: organisation
+name: University of Eswatini
+also_known_as: []
+scope: sz
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sz
+countries: []
+scale: national
+status: active
+summary: A university named in a 2022 ICAT land mapping report for Eswatini, where
+  its researcher led the land-use greenhouse gas inventory data, and named by All
+  Out Africa Foundation as a savannah monitoring partner.
+facts:
+- claim: A 2022 Initiative for Climate Action Transparency report on land mapping
+    for Eswatini names the Centre for Sustainable Energy Research, University of Eswatini.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: Centre for Sustainable Energy Research, University of Eswatini
+- claim: The report says the land-use greenhouse gas inventory data was led by Wisdom
+    M. D. Dlamini of the University of Eswatini.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: This greenhouse gas inventory data was led by Wisdom M. D. Dlamini (University
+    of Eswatini)
+- claim: The report's land use maps for 1990 to 2020 were classified with random forest-based
+    supervised classification.
+  url: https://climateactiontransparency.org/wp-content/uploads/2022/09/Activity-4-LULUCF-Land-mapping-methodology_Final.pdf
+  fetched: 2026-11-14
+  quote: 1990 to 2020 was classified using random forest-based supervised classification
+    methods
+  ai_type: ml-supervised
+- claim: The All Out Africa Foundation names the University of Eswatini as a partner
+    in its long-term savannah biodiversity monitoring.
+  url: https://www.alloutafrica.org/savannah-conservation.html
+  fetched: 2026-11-14
+  quote: In partnership with researchers from the University of Florida and the University
+    of Eswatini we conduct seasonal biodiversity surveys
+links:
+- type: partners-with
+  to: all-out-africa-foundation
+  url: https://www.alloutafrica.org/savannah-conservation.html
+  fetched: 2026-11-14
+  quote: In partnership with researchers from the University of Florida and the University
+    of Eswatini we conduct seasonal biodiversity surveys
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

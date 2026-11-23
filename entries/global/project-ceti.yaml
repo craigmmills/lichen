@@ -1,0 +1,61 @@
+id: project-ceti
+kind: organisation
+name: Project CETI
+also_known_as:
+- Cetacean Translation Initiative
+scope: global
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- generative-ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: us
+countries:
+- dm
+- us
+scale: global
+status: active
+website: https://www.projectceti.org
+summary: Nonprofit that uses machine learning, robotics and underwater acoustics to understand
+  and translate sperm whale communication, with its field station in Dominica.
+facts:
+- claim: A nonprofit working on translating sperm whale communications.
+  url: https://www.projectceti.org/
+  fetched: &id001 2026-10-30
+  quote: dedicated to understanding and translating the communications of sperm whales through
+    advanced machine learning, state-of-the-art robotics, and underwater acoustics
+- claim: Field research is primarily based in Dominica.
+  url: https://www.projectceti.org/
+  fetched: *id001
+  quote: CETI’s field research is primarily based in Dominica, where it operates a field station
+- claim: Formed in 2020 with catalyst funding through The Audacious Project.
+  url: https://www.projectceti.org/about
+  fetched: *id001
+  quote: In 2020, Project CETI formed as a 501c3 nonprofit organization with catalyst funding
+    through TED's The Audacious Project
+- claim: WhAM, from Project CETI, is a transformer-based model.
+  url: https://arxiv.org/abs/2512.02206
+  fetched: 2026-10-30
+  quote: the first transformer-based model capable of generating synthetic sperm whale codas
+  ai_type: deep-learning
+- claim: WhAM generates synthetic sperm whale codas.
+  url: https://arxiv.org/abs/2512.02206
+  fetched: 2026-10-30
+  quote: WhAM generates high-fidelity synthetic codas
+  ai_type: generative-ai
+links:
+- type: funded-by
+  to: the-audacious-project
+  url: https://www.projectceti.org/about
+  fetched: *id001
+  quote: with catalyst funding through TED's The Audacious Project
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

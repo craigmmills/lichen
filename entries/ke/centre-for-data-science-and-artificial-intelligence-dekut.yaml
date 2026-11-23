@@ -1,0 +1,178 @@
+id: centre-for-data-science-and-artificial-intelligence-dekut
+kind: organisation
+name: Centre for Data Science and Artificial Intelligence, Dedan Kimathi University of Technology
+also_known_as:
+- DSAIL
+- Data Science and AI Lab
+scope: ke
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+hq: ke
+countries:
+- ke
+scale: national
+status: active
+website: https://dekut-dsail.github.io/
+summary: Research centre at Dedan Kimathi University of Technology that builds computer vision
+  and acoustic tools for wildlife and forest monitoring in Kenya.
+facts:
+- claim: Develops computer vision systems for wildlife monitoring in Kenya.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: Our work focuses on developing computer vision systems tailored to wildlife monitoring
+    in Kenya
+  fetched: '2026-10-30'
+- claim: Works on Graph Neural Networks among other models.
+  url: https://dekut-dsail.github.io/
+  quote: Gaussian processes, Graph Neural Networks
+  fetched: '2026-10-30'
+  ai_type: deep-learning
+- claim: Its authors compared acoustic monitoring and machine learning for bird monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: Comparing point counts, passive acoustic monitoring, citizen science and machine
+    learning for bird species
+  fetched: 2026-10-31
+- claim: Built a Raspberry Pi recorder for bird acoustic monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: Raspberry Pi Based Recording System for Acoustic Monitoring of Bird Species
+  fetched: 2026-10-31
+- claim: Assembled a low cost camera trap.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: A low cost camera trap assembled at DSAIL
+  fetched: '2026-10-30'
+- claim: Gives its address as the Dedan Kimathi University of Technology main campus in Nyeri.
+  url: https://dekut-dsail.github.io/contact.html
+  fetched: '2026-10-30'
+  quote: Main campus - Nyeri, Kenya
+- claim: Says it builds machine learning for conservation, health and agriculture.
+  url: https://dekut-dsail.github.io/
+  fetched: '2026-10-30'
+  quote: We are developing advanced machine learning methods to address challenges in environmental
+    conservation, health and agriculture
+- claim: Lists work on detecting tree crowns in aerial imagery to track reforestation.
+  url: https://dekut-dsail.github.io/projects.html
+  fetched: '2026-10-30'
+  quote: Detects individual tree crowns in aerial imagery to track reforestation progress.
+- claim: Lists work tracking river water parameters to assess ecosystem health.
+  url: https://dekut-dsail.github.io/projects.html
+  fetched: '2026-10-30'
+  quote: Tracks river water parameters to assess the health of the ecosystem.
+- claim: Uses EfficientNet-B0 and other lightweight neural networks as student models.
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: Trained and evaluated several lightweight student models, including EfficientNet-B0
+  ai_type: deep-learning
+- claim: Distils the large bird-classification model Perch into small models for edge devices.
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: We use knowledge distillation to transfer the capabilities of a large bird-classification
+    model, Perch
+  ai_type: foundation-models
+- claim: Develops computer vision for wildlife monitoring in Kenya.
+  url: https://dsail.dkut.ac.ke/projects/mugie.html
+  fetched: '2026-10-31'
+  quote: Our work focuses on developing computer vision systems tailored to wildlife monitoring
+    in Kenya.
+- claim: Combines detection, classification and re-identification.
+  url: https://dsail.dkut.ac.ke/projects/mugie.html
+  fetched: '2026-10-31'
+  quote: By combining animal detection, species classification, and individual animal re-identification
+- claim: Works on probabilistic models, graph neural networks and large language models.
+  url: https://dsail.dkut.ac.ke/
+  fetched: '2026-10-31'
+  quote: focusing on probabilistic models like Gaussian processes, Graph Neural Networks and
+    Large Language Models.
+  ai_type: deep-learning
+- claim: Works on environmental monitoring and conservation.
+  url: https://dekut-dsail.github.io/
+  fetched: '2026-10-31'
+  quote: At DSAIL, we use advanced data acquisition and analysis methods alongside traditional
+    conservation techniques to monitor ecosystems and support conservation decisions.
+- claim: Distils the Perch bird model into small models for field devices.
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-31'
+  quote: We use knowledge distillation to transfer the capabilities of a large bird-classification
+    model, Perch, into smaller models that can run locally on low-cost edge devices.
+- claim: Builds computer vision for camera trap data with Mugie Conservancy.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  fetched: '2026-10-31'
+  quote: By combining animal detection, species classification, and individual animal re-identification
+- claim: Publishes a bird sound dataset used with deep learning models.
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-31'
+  quote: used to demonstrate the use of large deep learning models to recognise species
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: mugie-conservancy
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: In partnership with Mugie Conservancy in Laikipia
+  fetched: '2026-10-30'
+- type: runs
+  to: dsail-bioacoustic-monitoring
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: Bioacoustic approaches for ecosystem monitoring and conservation
+- type: runs
+  to: dsail-annotate
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  fetched: '2026-10-30'
+  quote: Our work focuses on developing computer vision systems tailored to wildlife monitoring
+    in Kenya.
+- type: runs
+  to: dsail-porini
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: DSAIL PORINI
+- type: runs
+  to: miti360
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: Miti360
+- type: runs
+  to: ndege-zetu
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: NDEGE ZETU
+- type: partners-with
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://dekut-dsail.github.io/Blogs/LeedsVisit.html
+  fetched: '2026-10-30'
+  quote: a partnership between our centre, the Centre for Data Science and Artificial Intelligence
+    and the UK Centre for Ecology & Hydrology
+- type: funded-by
+  to: international-development-research-centre
+  url: https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/centre-data-science-and-artificial-intelligence
+  fetched: '2026-10-31'
+  quote: 'Centre for Data Science and Artificial Intelligence: Multidisciplinary artificial
+    intelligence laboratory Kenya Project ID 110473 Total Funding CAD 1,000,000.00'
+- type: run-by
+  to: dedan-kimathi-university-of-technology
+  url: https://miti360.github.io/
+  fetched: '2026-10-31'
+  quote: the Centre for Data Science and Artificial Intelligence (DSAIL) at Dedan Kimathi
+    University of Technology
+- type: builds-on
+  to: perch
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-31'
+  quote: We use knowledge distillation to transfer the capabilities of a large bird-classification
+    model, Perch, into smaller models
+found_by:
+- checklist:3
+- link-from:university-of-leeds
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

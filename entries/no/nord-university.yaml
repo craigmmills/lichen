@@ -1,0 +1,54 @@
+id: nord-university
+kind: organisation
+name: Nord University
+scope: 'no'
+summary: State university based in Bodø that leads the Horizon Europe project MPA Europe (2023
+  to 2026, per a 2024 advert) and is a partner in BioBoost+, which applies AI to digital imagery.
+facts:
+- claim: GBIF's publisher record describes it as a Norwegian state university with central
+    management in Bodø.
+  url: https://api.gbif.org/v1/organization/1a6f3173-021f-4370-82e0-0cc68dad5668
+  fetched: '2026-11-02'
+  quote: is a Norwegian state university
+- claim: A 2025 advert for a PhD in benthic ecology says AI applications will be used on meroplankton
+    and benthos data.
+  url: https://stilling.forskning.no/job-ads-jobads-nord-universitet/phd-position-in-benthic-ecology/2556592
+  fetched: &id001 2026-11-02
+  quote: artificial intelligence (AI) applications will be used on both meroplankton and benthos
+    data
+- claim: A 2024 PhD advert says the Horizon Europe funded project MPA Europe is led by Nord
+    University for 2023 to 2026.
+  url: https://stilling.forskning.no/job-ads-jobads-nord-universitet/phd-position-on-developing-methods-for-monitoring-marine-biodiversity/2380640
+  fetched: *id001
+  quote: led by Nord University (2023-2026)
+- claim: The GBIF publisher record gives its address in Bodø, Norway.
+  url: https://api.gbif.org/v1/organization/1a6f3173-021f-4370-82e0-0cc68dad5668
+  fetched: *id001
+  quote: '"city":"Bodø","country":"NO"'
+links:
+- type: partners-with
+  to: bioboost-plus
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: '2026-11-02'
+  quote: Faculty of Biosciences and Aquaculture, Nord University, Bodo, Norway
+found_by:
+- checklist:3
+- queue:no
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- 'no'
+also_known_as:
+- Nord universitet

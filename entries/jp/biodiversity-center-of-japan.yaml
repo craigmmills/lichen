@@ -1,0 +1,81 @@
+id: biodiversity-center-of-japan
+kind: organisation
+name: Biodiversity Center of Japan
+also_known_as:
+- 生物多様性センター
+scope: jp
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://www.biodic.go.jp/
+summary: Run by the Ministry of the Environment, it surveys and monitors Japan's vegetation,
+  species, rivers, lakes, tidal flats and coral reefs, and runs Monitoring Sites 1000.
+facts:
+- claim: Carries out basic surveys and monitoring of Japan's vegetation, species distributions,
+    rivers and lakes, tidal flats and coral reefs.
+  url: https://www.biodic.go.jp/
+  fetched: 2026-11-02
+  quote: 環境省自然環境局生物多様性センターでは、わが国の植生、動植物の分布、河川・湖沼、干潟、サンゴ礁などについて基礎的な調査やモニタリングを実施しています。
+- claim: Its slides list the National Survey on the Natural Environment, Monitoring Sites
+    1000 and Ikimono-log among its work.
+  url: https://www.biodic.go.jp/relatedinst/28th/s-2.pdf
+  fetched: 2026-11-02
+  quote: いきものログなど
+- claim: Its four functions are surveys, information, specimens and public education.
+  url: https://www.biodic.go.jp/center/framework.html
+  fetched: '2026-11-02'
+  quote: 「調査」「情報」「標本資料」「普及啓発」の４つの機能を活動
+- claim: Surveys include the National Survey on the Natural Environment, Monitoring Sites
+    1000 and Ikimono-log.
+  url: https://www.biodic.go.jp/center/framework.html
+  fetched: '2026-11-02'
+  quote: 自然環境保全基礎調査 (緑の国勢調査)、モニタリングサイト1000、鳥類標識調査、いきものログなどの調査を通じて
+- claim: Has published guides to eDNA survey methods for freshwater fish and amphibians.
+  url: https://www.biodic.go.jp/edna/edna_top.html
+  fetched: '2026-11-02'
+  quote: 環境DNA分析技術を用いた調査手法の手引き（淡水魚類・両生類）
+- claim: Part of the Ministry of the Environment's nature bureau, as the site title gives
+    it.
+  url: https://www.biodic.go.jp/center/framework.html
+  fetched: '2026-11-02'
+  quote: 生物多様性センター(環境省 自然環境局)
+links:
+- type: run-by
+  to: ministry-of-the-environment-japan
+  url: https://www.biodic.go.jp/
+  fetched: 2026-11-02
+  quote: 生物多様性センター(環境省 自然環境局)
+- type: runs
+  to: monitoring-sites-1000
+  url: https://www.env.go.jp/press/9631.html
+  fetched: 2026-11-02
+  quote: 環境省生物多様性センターでは、モニタリングサイト１０００（注１）の一環として実施している里地調査において
+- type: run-by
+  to: ministry-of-the-environment-japan
+  url: https://www.biodic.go.jp/center/framework.html
+  fetched: '2026-11-02'
+  quote: 生物多様性センター(環境省 自然環境局)
+- type: partners-with
+  to: asia-pacific-biodiversity-observation-network
+  url: https://www.esabii.biodic.go.jp/ap-bon/aboutus/index.html
+  fetched: '2026-11-02'
+  quote: This site is managed by Biodiversity Center of Japan (APBON secretariat)
+found_by:
+- checklist:1
+- checklist:2
+- link-from:asia-pacific-biodiversity-observation-network
+added_by: agent
+checked: 2026-11-02
+techniques:
+- edna-genomics

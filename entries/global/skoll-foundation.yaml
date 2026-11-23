@@ -1,0 +1,30 @@
+id: skoll-foundation
+kind: organisation
+name: Skoll Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+summary: Foundation listed as a funder of the MapBiomas Project since 2021.
+facts:
+- claim: Listed in the history of funders of the MapBiomas Project.
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Skoll Foundation / 2021 – Current
+  fetched: &id001 2026-10-30
+links:
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: History of funders who have supported the MapBiomas Project in one or more years
+    since 2015. Skoll Foundation / 2021 – Current
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

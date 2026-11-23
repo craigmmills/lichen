@@ -1,0 +1,157 @@
+id: okavango-research-institute
+kind: organisation
+name: Okavango Research Institute
+also_known_as:
+- ORI
+- Harry Oppenheimer Okavango Research Centre
+- HOORC
+scope: bw
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: bw
+countries:
+- bw
+scale: local
+status: active
+summary: University of Botswana institute studying the Okavango Delta, which publishes long-term monitoring
+  datasets through GBIF and used random forest machine learning to predict riparian vegetation areas in
+  an Esri user story.
+facts:
+- claim: An Esri South Africa user story says ORI conducts scientific studies that inform management of
+    the Okavango Delta environment.
+  url: https://www.esri-southafrica.com/?p=2072
+  fetched: 2026-11-08
+  quote: ORI conducts scientific studies that inform decision-making on the management of the Okavango
+    Delta environment and its surrounding ecological systems.
+- claim: The Esri user story says the ORI GIS laboratory used machine learning in ArcGIS Pro in Seronga
+    to predict areas of riparian vegetation, but did not predict individual plant communities.
+  url: https://www.esri-southafrica.com/?p=2072
+  fetched: 2026-11-08
+  quote: FbCR tool successfully predicted new areas (in a form of raster’s) riparian vegetation in the
+    area. However, individual plant communities were not predicted.
+- claim: The tool used is an adaptation of the random forest algorithm, run in classification mode on
+    GeoEye-1 vegetation indices and a 30 m elevation raster.
+  url: https://www.esri-southafrica.com/?p=2072
+  fetched: 2026-11-08
+  quote: This new tool can create models and generates predictions using an adaptation of the random forest
+    algorithm of Leo Breiman and Adele Cutler.
+  ai_type: ml-supervised
+- claim: It is registered as a data publisher in Botswana on GBIF.
+  url: https://api.gbif.org/v1/organization?country=BW&limit=100
+  fetched: 2026-11-08
+  quote: Okavango Research Institute
+- claim: A 2017 JRS Biodiversity Foundation grant to ORI was for scaling fisheries monitoring in the Okavango
+    Delta with low-cost technology, piloting fish data collection through iNaturalist.
+  url: https://jrsbiodiversity.org/grants/ori-2017/
+  fetched: 2026-11-08
+  quote: Scaling fisheries monitoring in the Okavango Delta with low‐cost technology
+- claim: Dedicated to the study of wetlands and adjacent drylands, and formerly the Harry Oppenheimer
+    Okavango Research Centre.
+  url: https://ori.ub.bw/about-ori
+  fetched: 2026-11-08
+  quote: formerly Harry Oppenheimer Okavango Research Centre (HOORC) and under the auspices of the University
+    of Botswana in 1994. ORI is dedicated to the study of wetlands and adjacent drylands.
+- claim: Based at Sexaxa, Shorobe Road, Maun.
+  url: https://ori.ub.bw/about-ori
+  fetched: 2026-11-08
+  quote: Private Bag 285 Maun, Botswana
+- claim: Its GBIF publisher record says it has been tasked with monitoring to support the Okavango Delta
+    Management Plan.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f
+  fetched: 2026-11-08
+  quote: has also been tasked with conducting monitoring to support the Okavango Delta Management Plan
+- claim: Its GBIF publisher record says it hosts IPT infrastructure, formats biodiversity datasets to
+    Darwin Core and publishes datasets in its custody.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f
+  fetched: 2026-11-08
+  quote: hosting reliable  IPT infrustructure, formatting BD datasets to Darwincore standards, as well
+    as publishing of BD datasets in its custody
+- claim: Publishes a long-term time series from its own fish monitoring through GBIF.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Long Term Time-Series Data on Fish Monitoring by Okavango Research Institute, Botswana
+- claim: Publishes a long-term time series from its own aquatic macro-invertebrate monitoring through
+    GBIF.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Long Term Time-Series Data on Aquatic Macro-invertebrates Monitoring by Okavango Research Institute,
+    Botswana
+- claim: Its GBIF dataset record says it runs a monthly macro-invertebrate survey at monitoring sites
+    in the lower south-east Okavango Delta.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: (ORI) conducts a monthly survey at three of four monitoring sites, to determine changes in relative
+    abundances and diversity of macroinvertebrate taxa
+- claim: Publishes floodplain vegetation monitoring data from 2017 onward through GBIF.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Floodplain_Vegetation_Monitoring_by_Okavango_Research_Institute_2017_onward
+- claim: Received a JRS Biodiversity Foundation grant in 2017 for scaling fisheries monitoring in the
+    Okavango Delta.
+  url: https://jrsbiodiversity.org/our-grants/
+  fetched: 2026-11-08
+  quote: University of Botswana Okavango Research Institute (2017) Scaling fisheries monitoring in the
+    Okavango Delta
+- claim: Received a JRS Biodiversity Foundation grant in 2016 for building capacity for biodiversity data
+    management in the Okavango Delta.
+  url: https://jrsbiodiversity.org/our-grants/
+  fetched: 2026-11-08
+  quote: University of Botswana Okavango Research Institute (2016) Building Capacity for Biodiversity
+    Data Management and Dissemination in the Okavango Delta
+- claim: The institute of the University of Botswana carries out research on the Okavango Delta and was
+    tasked with monitoring to support the Okavango Delta Management Plan.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f
+  fetched: 2026-11-08
+  quote: tasked with conducting monitoring to support the Okavango Delta Management Plan
+- claim: Its GBIF publisher record says its monitoring data are kept in databases reachable through a
+    web portal.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f
+  fetched: 2026-11-08
+  quote: Monitoring data are stored and managed in SQL databases accessible through a web portal
+- claim: Formats biodiversity datasets to Darwin Core and publishes the datasets in its custody.
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f
+  fetched: 2026-11-08
+  quote: formatting BD datasets to Darwincore standards, as well as publishing of BD datasets in its custody
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/grants/ori-2017/
+  fetched: 2026-11-08
+  quote: 'Grantee Organization: University of Botswana Okavango Research Institute Grant Amount: $180,840'
+  amount: 180840
+  currency: USD
+  year: 2017
+- type: run-by
+  to: university-of-botswana
+  url: https://ori.ub.bw/about-ori
+  fetched: 2026-11-08
+  quote: ORI is currently the only Research Institute of the University of Botswana.
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/our-grants/
+  fetched: 2026-11-08
+  quote: 'Okavango Research Institute, University of Botswana (2020) ORBIS: Okavango Repository for BIodiverSity
+    Data Planning $50,000 (6 months)'
+  amount: 50000
+  year: 2020
+- type: run-by
+  to: university-of-botswana
+  url: https://api.gbif.org/v1/organization/02b89818-33ab-4bf7-984d-f88a8e0b0b0f
+  fetched: 2026-11-08
+  quote: The Okavango Research Institute (ORI) of the University of Botswana
+found_by:
+- checklist:3
+- link-from:jrs-biodiversity-foundation
+- checklist:register
+added_by: agent
+checked: 2026-11-08

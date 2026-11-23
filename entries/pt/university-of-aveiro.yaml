@@ -1,0 +1,36 @@
+id: university-of-aveiro
+kind: organisation
+name: University of Aveiro
+also_known_as:
+- Universidade de Aveiro
+scope: pt
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+hq: pt
+scale: national
+status: active
+website: http://www.ua.pt
+summary: Active university listed by B-Cubed as a partner and by Specify as a member at Aveiro,
+  with a GBIF publisher address on the Santiago campus.
+facts:
+- claim: B-Cubed lists it as a partner and describes it as a public foundation under private
+    law.
+  url: https://b-cubed.eu/partners
+  fetched: '2026-11-02'
+  quote: The University of Aveiro (UAVR) is a public foundation under private law
+- claim: Its GBIF publisher record gives an address on the Santiago campus.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: Departamento de Biologia, Campus de Santiago
+links:
+- type: partners-with
+  to: b-cubed
+  url: https://b-cubed.eu/partners
+  fetched: '2026-11-02'
+  quote: The University of Aveiro (UAVR) is a public foundation under private law
+found_by:
+- link-from:b-cubed
+added_by: agent
+checked: '2026-11-02'

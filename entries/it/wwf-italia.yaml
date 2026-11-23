@@ -1,0 +1,65 @@
+id: wwf-italia
+kind: organisation
+name: WWF Italia
+scope: it
+sector: ngo
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+website: https://www.wwf.it/
+summary: Italian WWF organisation. With Huawei it ran the Guardiani della natura project,
+  using AI sound recognition in reserves it manages.
+facts:
+- claim: Press coverage says the state nature reserves in the project are managed by the association.
+  url: https://www.corrierecomunicazioni.it/green-economy/huawei-wwf-per-i-guardiani-della-natura-piu-di-mille-segnalazioni-in-tre-mesi
+  fetched: 2026-10-31
+  quote: alcune delle Riserve Naturali dello Stato gestite dall’associazione
+- claim: Installed 48 bioacoustic monitoring devices in and near eight WWF oases.
+  url: https://www.wwf.it/cosa-facciamo/pubblicazioni/guardiani-della-natura/
+  fetched: '2026-10-31'
+  quote: sono stati installati 48 dispositivi “Edge Audiomoth” per il monitoraggio bioacustico
+- claim: The Arbimon platform analysed the recordings and recognised 57 of 63 target bird
+    species.
+  url: https://www.wwf.it/cosa-facciamo/pubblicazioni/guardiani-della-natura/
+  fetched: '2026-10-31'
+  quote: riconosciuto all’interno delle registrazioni 57 delle 63 specie di uccelli target
+- claim: Protects more than 27,000 hectares of land through its network of over 100 Oases.
+  url: https://www.wwf.it/dove-interveniamo/il-nostro-lavoro-in-italia/oasi/
+  quote: oggi le Oasi sono oltre 100 , tutelano più di 27 mila ettari di territorio
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: guardiani-della-natura
+  url: https://www.corrierecomunicazioni.it/green-economy/huawei-wwf-per-i-guardiani-della-natura-piu-di-mille-segnalazioni-in-tre-mesi
+  fetched: 2026-10-31
+  quote: progetto “ Guardiani della natura ”, realizzato da Wwf Italia e Huawei
+- type: uses
+  to: arbimon
+  url: https://www.wwf.it/cosa-facciamo/pubblicazioni/guardiani-della-natura/
+  fetched: '2026-10-31'
+  quote: La piattaforma Arbimon, basata su Cloud e Intelligenza Artificiale, ha analizzato
+    questa enorme mole di dati sonori
+- type: partners-with
+  to: rainforest-connection
+  url: https://www.wwf.it/cosa-facciamo/pubblicazioni/guardiani-della-natura/
+  fetched: '2026-10-31'
+  quote: forniti dal partner tecnico Rainforest Connection (RFCx)
+- type: partners-with
+  to: huawei
+  url: https://www.wwf.it/cosa-facciamo/pubblicazioni/guardiani-della-natura/
+  fetched: '2026-10-31'
+  quote: il nuovo report di WWF Italia e Huawei
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-10-31

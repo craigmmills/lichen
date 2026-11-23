@@ -1,0 +1,86 @@
+id: biodiversity4all
+kind: programme
+name: BioDiversity4All
+scope: pt
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- pt
+status: active
+runner: unknown
+summary: A Portuguese citizen science platform launched in 2010 and run by Associação Biodiversity4All,
+  linked to iNaturalist; a 2020 talk summary reported over 276,000 records from 10,400 species.
+facts:
+- claim: Launched in 2010, and first connected to the Dutch Waarneming project before linking to iNaturalist.
+  url: https://www.ce3c.pt/en/agenda/encontro-scientia/biodiversity4all-10-years-recording-portuguese-biodiversity
+  fetched: 2026-11-02
+  quote: Launched in 2010, the International Year of Biodiversity, BioDiversity4All platform
+- claim: A cE3c talk summary, dated to 2020 by the university's event listing, reported more than 276,000
+    records from 10,400 species.
+  url: https://www.ce3c.pt/en/agenda/encontro-scientia/biodiversity4all-10-years-recording-portuguese-biodiversity
+  fetched: 2026-11-02
+  quote: more than 276,000 records of plants, animals or fungi from 10,400 species
+- claim: Its citizen science profile says it hosts several hundred projects in Portugal.
+  url: https://citizenscience.eu/project/53
+  fetched: 2026-11-02
+  quote: The BioDiversity4All platform is currently “home” of several hundreds of projects in Portugal
+- claim: Its GBIF publisher record calls it a biodiversity citizen science database for Portugal, founded
+    in 2010.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: BioDiversity4All is a biodiversity citizen science database for Portugal, founded in 2010
+- claim: Its GBIF publisher record calls it the Portuguese node for iNaturalist.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: It is the portuguese node for iNaturalist
+- claim: A Portuguese citizen science platform.
+  url: https://www.cienciacidada.pt/platform/1
+  fetched: 2026-11-02
+  quote: A BioDiversity4All é uma plataforma de ciência cidadã portuguesa
+- claim: An open online database where anyone can contribute observations of animals, plants and fungi.
+  url: https://www.cienciacidada.pt/platform/1
+  fetched: 2026-11-02
+  quote: Nesta base de dados online e de acesso livre, qualquer cidadão pode contribuir com observações
+    de animais, plantas e cogumelos
+- claim: Barlavento describes it as a Portuguese citizen science association.
+  url: https://www.barlavento.pt/?p=282846
+  fetched: '2026-11-02'
+  quote: é uma associação portuguesa de ciência cidadã
+- claim: A February 2020 CE3C event page says the platform was home to around 80 projects in Portugal.
+  url: https://www.ce3c.pt/en/agenda/encontro-scientia/biodiversity4all-10-years-recording-portuguese-biodiversity
+  fetched: '2026-11-02'
+  quote: is currently "home" of around 80 projects in Portugal
+links:
+- type: uses
+  to: inaturalist
+  url: https://www.ce3c.pt/en/agenda/encontro-scientia/biodiversity4all-10-years-recording-portuguese-biodiversity
+  fetched: 2026-11-02
+  quote: Later a connection to the “iNaturalist” network was established
+- type: partners-with
+  to: inaturalist
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: It is the portuguese node for iNaturalist
+- type: run-by
+  to: associacao-biodiversity4all
+  url: https://biodiversity4all.nloja.com/sobre-nos/
+  fetched: 2026-11-02
+  quote: tem ajudado a associação BioDiversity4All no desenvolvimento e manutenção das suas plataformas
+    online.
+- type: uses
+  to: inaturalist
+  url: https://www.ce3c.pt/en/agenda/encontro-scientia/biodiversity4all-10-years-recording-portuguese-biodiversity
+  fetched: '2026-11-02'
+  quote: Later a connection to the "iNaturalist" network was established
+found_by:
+- checklist:2
+- link-from:gbif-portugal
+- checklist:register
+added_by: agent
+checked: 2026-11-02
+hq: unknown
+roles:
+- supplies-data

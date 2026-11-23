@@ -1,0 +1,76 @@
+id: centre-de-recherches-oceanographiques-de-dakar-thiaroye
+kind: organisation
+name: Centre de Recherches Océanographiques de Dakar-Thiaroye
+also_known_as:
+- CRODT
+scope: sn
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- other
+hq: sn
+countries:
+- sn
+scale: national
+status: active
+funding_at_risk: false
+ai_types:
+- deep-learning
+summary: ISRA's oceanographic research centre in Dakar. It runs fisheries acoustic assessment,
+  and its researcher co-wrote work applying convolutional networks to echogram labelling.
+facts:
+- claim: ISRA advertised for an acoustic assessment researcher at CRODT.
+  url: https://isra.sn/wp-content/uploads/2024/04/Chercheur-en-acoustique.pdf
+  fetched: '2026-10-31'
+  quote: Poste basé au CRODT, Route du Front de terre, PRH, Dakar.
+- claim: An ISRA author co-wrote a paper on deep learning for labelling fisheries acoustics.
+  url: https://api.openalex.org/works/W3091339956
+  fetched: '2026-10-31'
+  quote: 'Complex data labeling with deep learning methods: Lessons from fisheries acoustics'
+- claim: The paper trains convolutional neural networks on echograms.
+  url: https://arxiv.org/abs/2010.11010
+  fetched: '2026-10-31'
+  quote: convolutional neural networks trained with non-stationary datasets
+  ai_type: deep-learning
+- claim: Listed in the GMES and Africa MarCNoWA consortium.
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: '2026-10-31'
+  quote: Centre for Oceanographic Research of Dakar-Thiaroye (CRODT) - Senegal
+- claim: Its director manages the OBIS Senegal node for marine biodiversity data.
+  url: https://isracrodt.sn/
+  fetched: '2026-10-31'
+  quote: Il est le Manager du nœud OBIS Sénégal (Système d'Information Biogéographique sur
+    les Océans)
+- claim: Based at the Pôle de Recherches de Hann.
+  url: https://isracrodt.sn/
+  fetched: '2026-10-31'
+  quote: PRH - Pôle de Recherches de Hann
+links:
+- type: partners-with
+  to: gmes-and-africa
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: '2026-10-31'
+  quote: Centre for Oceanographic Research of Dakar-Thiaroye (CRODT) - Senegal
+- type: runs
+  to: obis-senegal-node
+  url: https://isracrodt.sn/
+  fetched: '2026-10-31'
+  quote: Manager du nœud OBIS Sénégal
+- type: run-by
+  to: institut-senegalais-de-recherches-agricoles
+  url: https://isracrodt.sn/
+  fetched: '2026-10-31'
+  quote: Le CRODT est la structure nationale de référence de l'ISRA en charge de la recherche
+    halieutique, aquacole et océanographique
+found_by:
+- checklist:3
+- link-from:gmes-and-africa
+- checklist:2
+added_by: agent
+checked: '2026-10-31'
+website: https://isracrodt.sn/

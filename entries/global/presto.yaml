@@ -1,0 +1,47 @@
+id: presto
+kind: model
+name: Presto
+also_known_as:
+- Pretrained Remote Sensing Transformer
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/nasaharvest/presto
+summary: Lightweight model pre-trained on remote sensing pixel time series, usable for transfer
+  learning or as a feature extractor.
+facts:
+- claim: Model pre-trained on remote sensing pixel-timeseries data.
+  ai_type: foundation-models
+  url: https://arxiv.org/abs/2304.14065
+  fetched: '2026-10-30'
+  quote: a model pre-trained on remote sensing pixel-timeseries data
+- claim: The Presto paper is titled as pre-trained transformers.
+  url: https://arxiv.org/abs/2304.14065
+  fetched: '2026-10-30'
+  quote: Lightweight, Pre-trained Transformers for Remote Sensing Timeseries
+  ai_type: deep-learning
+- claim: The Presto paper describes self-supervised models for satellite data.
+  url: https://arxiv.org/abs/2304.14065
+  fetched: '2026-10-30'
+  quote: Self-supervision is a natural solution in settings with limited labeled data, but
+    current self-supervised models for satellite data fail to take advantage of the characteristics
+    of that data, including the temporal dimension (which is
+  ai_type: ml-unsupervised
+links:
+- type: run-by
+  to: nasa-harvest
+  url: https://github.com/nasaharvest/presto
+  fetched: '2026-10-30'
+  quote: GitHub - nasaharvest/presto
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

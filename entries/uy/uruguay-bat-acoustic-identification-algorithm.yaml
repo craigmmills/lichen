@@ -1,0 +1,49 @@
+id: uruguay-bat-acoustic-identification-algorithm
+kind: model
+name: Uruguay bat acoustic identification algorithm
+also_known_as: []
+scope: uy
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- uy
+status: unknown
+runner: unknown
+summary: Random forest algorithm identifying bat species from calls, reported by Mongabay
+  in 2018 as Uruguay's first, open source and already used by wind farm company scientists.
+facts:
+- claim: Mongabay reported in October 2018 that Uruguayan scientists had developed the first
+    AI algorithm for acoustic identification of bat species in Uruguay, available online under
+    a free licence with open-source code.
+  url: https://news.mongabay.com/2018/10/decoding-the-language-of-bats-key-for-their-conservation/
+  fetched: 2026-11-08
+  quote: a group of scientists has developed the first artificial intelligence (AI) algorithm
+    for acoustic identification of bat species in Uruguay. It is available online, under a
+    free license and in open-source code.
+- claim: Mongabay reports that the team compared neural networks, random forests and support
+    vector machines and chose random forests.
+  url: https://news.mongabay.com/2018/10/decoding-the-language-of-bats-key-for-their-conservation/
+  fetched: 2026-11-08
+  quote: They selected the random forests algorithm because it works better under the specific
+    conditions of having few individuals, many groups (species) and many (12) predictive variables.
+- claim: Mongabay describes the training data as labelled calls of known species for a supervised
+    classifier.
+  url: https://news.mongabay.com/2018/10/decoding-the-language-of-bats-key-for-their-conservation/
+  fetched: 2026-11-08
+  quote: A supervised automatic learning algorithm classifies the known species.
+  ai_type: ml-supervised
+- claim: Mongabay reported in October 2018 that wind farm company scientists were already
+    using the algorithm.
+  url: https://news.mongabay.com/2018/10/decoding-the-language-of-bats-key-for-their-conservation/
+  fetched: 2026-11-08
+  quote: The algorithm, already in use by wind farm company scientists, is also available
+    to the public.
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,82 @@
+id: smart-biodiv
+kind: project
+name: SMART-BIODIV
+also_known_as:
+- Technologies d'intelligence artificielle pour la recherche en biodiversité
+scope: fr
+ai_label: ai
+realms:
+- ocean
+- freshwater
+techniques:
+- computer-vision
+- species-distribution
+status: unknown
+summary: A French consortium in the Challenge IA-Biodiv that uses machine learning to fill
+  gaps in coastal marine biodiversity data and build indicators, drawing on plankton images.
+facts:
+- claim: Carried by a French consortium including the Laboratoire d'océanographie de Villefranche.
+  url: https://anr.fr/fr/actus/details/news/lintelligence-artificielle-au-service-de-la-biodiversite-marine-demarrage-dun-challenge-scientif/
+  quote: Le projet SMART-BIODIV ( Technologies d'intelligence artificielle pour la recherche
+    en biodiversité ) est porté par un consortium français
+  fetched: '2026-10-31'
+- claim: Uses plankton images from quantitative imaging systems.
+  url: https://anr.fr/fr/actus/details/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/
+  quote: Les données utilisées proviennent notamment d'images individuelles de plancton
+  fetched: '2026-10-31'
+- claim: Selected and funded by the ANR in the IA-Biodiv challenge on AI technologies for
+    biodiversity research.
+  url: https://anr.fr/fileadmin/aap/2021/selection/AAP-ChallengeIABiodiv-selection-2021.pdf
+  fetched: '2026-10-31'
+  quote: Smart-Biodiv Technologies d'Intelligence Artificielle pour la recherche en biodiversité
+- claim: The proposal rests on machine learning to complete sparse and unbalanced data, and
+    on designing indicators.
+  url: https://anr.fr/Projet-ANR-21-AAFI-0002
+  fetched: '2026-10-31'
+  quote: exploiter la puissance des algorithmes d'apprentissage automatique pour compléter
+    et traiter les données éparses et déséquilibrées
+- claim: The consortium brings together expertise in deep learning, computer vision, oceanography
+    and plankton imaging.
+  url: https://anr.fr/Projet-ANR-21-AAFI-0002
+  fetched: '2026-10-31'
+  quote: notre consortium rassemble des expertises complémentaires en apprentissage profond,
+    vision par ordinateur, océanographie, imagerie du plancton et bioindication en eau douce
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: laboratoire-doceanographie-de-villefranche
+  url: https://anr.fr/fr/actus/details/news/lintelligence-artificielle-au-service-de-la-biodiversite-marine-demarrage-dun-challenge-scientif/
+  quote: et le Laboratoire d'océanographie de Villefranche
+  fetched: '2026-10-31'
+- type: partners-with
+  to: ia-biodiv-challenge
+  url: https://anr.fr/fr/actus/details/news/lintelligence-artificielle-au-service-de-la-biodiversite-marine-demarrage-dun-challenge-scientif/
+  quote: Le projet SMART-BIODIV ( Technologies d'intelligence artificielle pour la recherche
+    en biodiversité )
+  fetched: '2026-10-31'
+- type: funded-by
+  to: agence-nationale-de-la-recherche
+  url: https://anr.fr/fileadmin/aap/2021/selection/AAP-ChallengeIABiodiv-selection-2021.pdf
+  fetched: '2026-10-31'
+  quote: Liste des projets sélectionnés et financés par l’ANR
+- type: funded-by
+  to: agence-nationale-de-la-recherche
+  url: https://anr.fr/Projet-ANR-21-AAFI-0002
+  fetched: '2026-10-31'
+  quote: Aide de l'ANR 486 018 euros
+- type: partners-with
+  to: laboratoire-doceanographie-de-villefranche
+  url: https://anr.fr/fr/actus/details/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/?cHash=d6757fb10db4aa5c409c35778b765489&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News
+  fetched: '2026-10-31'
+  quote: Laboratoire de Recherche International Georgia Tech-CNRS, CentraleSupélec Loria,
+    Laboratoire interdisciplinaire des environnements continentaux (LIEC), Laboratoire d’océanographie
+    de Villefranche-sur-mer
+found_by:
+- checklist:7
+- link-from:ia-biodiv-challenge
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr
+ai_types:
+- deep-learning

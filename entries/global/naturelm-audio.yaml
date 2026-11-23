@@ -1,0 +1,47 @@
+id: naturelm-audio
+kind: model
+name: NatureLM-audio
+scope: global
+ai_label: ai
+ai_types:
+- multimodal
+- foundation-models
+- large-language-models
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+status: active
+website: https://github.com/earthspecies/NatureLM-audio
+summary: Audio-language foundation model for bioacoustics that learns from paired audio and text to describe recordings and identify and detect species.
+facts:
+- claim: Described as a multimodal audio-language foundation model for bioacoustics.
+  url: https://github.com/earthspecies/NatureLM-audio
+  fetched: '2026-10-30'
+  quote: NatureLM-audio is a multimodal audio-language foundation model designed for bioacoustics.
+- claim: "NatureLM-audio is a multimodal audio-language foundation model."
+  url: https://github.com/earthspecies/NatureLM-audio
+  fetched: '2026-10-30'
+  quote: "NatureLM-audio is a multimodal audio-language foundation model"
+  ai_type: multimodal
+- claim: "NatureLM-audio is a foundation model for bioacoustics."
+  url: https://github.com/earthspecies/NatureLM-audio
+  fetched: '2026-10-30'
+  quote: "an Audio-Language Foundation Model for Bioacoustics"
+  ai_type: foundation-models
+- claim: "The NatureLM-audio repository describes it as a Llama model fine-tuned from Llama 3.1 8B."
+  url: "https://github.com/earthspecies/NatureLM-audio"
+  fetched: "2026-10-31"
+  quote: "We've updated the NatureLM-audio Llama model by allowing for a flexible merge operation between the original Llama 3.1 8B and the LoRA fine-tuned one"
+  ai_type: large-language-models
+links:
+- type: run-by
+  to: earth-species-project
+  url: https://www.mcgovern.org/?p=9225
+  fetched: '2026-10-30'
+  quote: "Earth Species Project to support the development and scaling of NatureLM-audio, the first audio-language foundation model"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

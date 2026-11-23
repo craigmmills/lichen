@@ -1,0 +1,30 @@
+id: forms-t
+kind: dataset
+name: FORMS-T
+scope: fr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+runner: unknown
+summary: France-wide forest height, wood volume and biomass maps from 2018 onwards,
+  made with a deep learning framework on Sentinel-1, Sentinel-2 and GEDI data.
+facts:
+- claim: Forest attribute maps of France derived from a deep learning framework using
+    three satellite sources.
+  url: https://doi.theia.data-terra.org/FormsT/
+  fetched: '2026-10-31'
+  quote: This collection contains France-wide forest attribute maps (2018 - present)
+    derived from a deep learning framework that leverages data from Sentinel-1, Sentinel-2,
+    and GEDI satellites.
+  ai_type: deep-learning
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

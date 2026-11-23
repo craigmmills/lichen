@@ -1,0 +1,52 @@
+id: walmart-foundation
+kind: organisation
+name: Walmart Foundation
+also_known_as:
+- Wal-Mart Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+hq: us
+scale: global
+status: active
+website: https://www.walmart.org/
+summary: US corporate foundation recorded as giving Global Fishing Watch $1.8 million from
+  2021 to 2023, and listed as a funder of MapBiomas in 2023 and 2024.
+facts:
+- claim: Recorded as giving Global Fishing Watch $1,797,917 across two grants from 2021 to
+    2023. Grantable table compiled from IRS Form 990 filings.
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: WAL-Mart Foundation $1,797,917 2 2021–2023
+  fetched: &id001 2026-10-30
+- claim: Listed in the history of funders of the MapBiomas Project.
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Walmart Foundation (USA) / 2023 – 2024
+  fetched: *id001
+- claim: Its site announces a Great Plains Grassland Fund with the National Fish and Wildlife
+    Foundation.
+  url: https://www.walmart.org/
+  quote: NFWF and Walmart Foundation Launch Great Plains Grassland Fund with Funding from
+    McDonald’s USA and Key Suppliers
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: WAL-Mart Foundation $1,797,917 2 2021–2023
+  amount: 1797917
+  currency: USD
+  fetched: *id001
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Walmart Foundation (USA) / 2023 – 2024
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

@@ -1,0 +1,41 @@
+id: sierra-nevada-bioacoustics-monitoring
+kind: project
+name: Sierra Nevada acoustic bird monitoring
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- remote-sensing
+countries:
+- us
+status: active
+summary: Acoustic monitoring network across California's Sierra Nevada, begun to track Spotted
+  Owls, that gave BirdNET its first large-scale test and was combined with satellite imagery
+  in a decision tool for public land agencies.
+facts:
+- claim: First successful large-scale test of BirdNET.
+  url: https://www.audubon.org/magazine/5-projects-show-how-ai-advancing-bird-conservation
+  fetched: '2026-10-30'
+  quote: the audio data provided the first successful large-scale test of BirdNet
+- claim: NASA grant combined acoustic and satellite data.
+  url: https://www.audubon.org/magazine/5-projects-show-how-ai-advancing-bird-conservation
+  fetched: '2026-10-30'
+  quote: With a grant from NASA, they combined their avian acoustic data with satellite imagery
+links:
+- type: funded-by
+  to: nasa
+  url: https://www.audubon.org/magazine/5-projects-show-how-ai-advancing-bird-conservation
+  fetched: '2026-10-30'
+  quote: With a grant from NASA
+- type: uses
+  to: birdnet
+  url: https://www.audubon.org/magazine/5-projects-show-how-ai-advancing-bird-conservation
+  fetched: '2026-10-30'
+  quote: Later, the program detected more than 90 species in 1 million hours of Wood’s recordings.
+found_by:
+- link-from:birdnet
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

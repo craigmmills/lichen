@@ -1,0 +1,34 @@
+id: provincie-limburg
+kind: organisation
+name: Provincie Limburg
+sector: government
+roles:
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+hq: nl
+scale: regional
+status: active
+summary: Dutch province whose executive adopted the Natuurbeheerplan Limburg 2027 on 25 August
+  2026, showing nature area boundaries on two maps, the first being the management type map.
+facts:
+- claim: The provincial executive adopted the Natuurbeheerplan Limburg 2027 on 25 August 2026.
+  url: https://lokaleregelgeving.overheid.nl/CVDR766062
+  quote: Gedeputeerde Staten van Limburg maken bekend dat zij op 25 augustus 2026 het Natuurbeheerplan
+    Limburg 2027 definitief hebben vastgesteld.
+  fetched: '2026-11-08'
+- claim: The boundaries of nature areas are shown on two maps, the first being the management
+    type map.
+  url: https://lokaleregelgeving.overheid.nl/CVDR766062
+  quote: De begrenzing voor natuurgebieden is aangeduid op twee kaarten
+  fetched: '2026-11-08'
+- claim: Office at Limburglaan 10, Maastricht.
+  url: https://lokaleregelgeving.overheid.nl/CVDR766062
+  quote: ter inzage bij de Provincie Limburg, Limburglaan 10 te Maastricht
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

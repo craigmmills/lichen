@@ -1,0 +1,54 @@
+id: service-de-conservation-du-parc-national-de-lobeke
+kind: organisation
+name: Service de Conservation du Parc National de Lobéké
+scope: cm
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: cm
+countries:
+- cm
+scale: local
+status: active
+website: https://parcnationallobeke.org
+summary: Park conservation service monitoring elephants, great apes and ungulates
+  with camera traps, transects and drones, also conducting acoustic monitoring and
+  using EarthRanger for real-time data.
+facts:
+- claim: The park runs wildlife monitoring of elephants, great apes and ungulates
+    with camera traps, transects, bai observation and drones.
+  url: https://parcnationallobeke.org/recherche-et-biomonitoring/
+  fetched: 2026-11-12
+  quote: le suivi de la faune (éléphants, grands singes, ongulés) via camera traps
+    , transects, observation des bais et drones,
+- claim: It uses EarthRanger to collect, analyse and visualise data in real time.
+  url: https://parcnationallobeke.org/recherche-et-biomonitoring/
+  fetched: 2026-11-12
+  quote: le déploiement du système EarthRanger pour la collecte, l’analyse et la visualisation
+    en temps réel des données,
+- claim: Its programme also covers phenological, botanical and acoustic monitoring.
+  url: https://parcnationallobeke.org/recherche-et-biomonitoring/
+  fetched: 2026-11-12
+  quote: le suivi phénologique, botanique et acoustique,
+links:
+- type: uses
+  to: earthranger
+  url: https://parcnationallobeke.org/recherche-et-biomonitoring/
+  fetched: 2026-11-12
+  quote: le déploiement du système EarthRanger pour la collecte, l’analyse et la visualisation
+    en temps réel des données,
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://parcnationallobeke.org/recherche-et-biomonitoring/
+  fetched: 2026-11-12
+  quote: Le Service de Conservation du Parc National de Lobéké est accompagné dans
+    sa gestion par le Partenaire Technique WWF.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

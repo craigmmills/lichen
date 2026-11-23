@@ -1,0 +1,40 @@
+id: blast-spel-as
+kind: organisation
+name: Blåst Spel AS
+also_known_as:
+- Blaast
+- Blast Spel AS
+scope: 'no'
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: 'no'
+scale: national
+status: active
+funding_at_risk: false
+summary: Company whose GBIF publisher record describes species observations recorded by users
+  of its mobile application, and which the App Store names as provider of ibbi.
+facts:
+- claim: Its GBIF publisher record describes observations of species recorded by users of
+    its mobile application.
+  url: https://api.gbif.org/v1/organization/623a4940-3a7f-439f-a75f-e5a192a1e745
+  fetched: &id001 2026-11-02
+  quote: Observations of species recorded by users of the Blåst Spel mobile application.
+- claim: The App Store names Blast Spel AS as provider of ibbi.
+  url: https://apps.apple.com/se/app/ibbi/id1608355964
+  fetched: *id001
+  quote: Leverantör Blast Spel AS
+- claim: The GBIF publisher record gives its address in Gurskøy, Norway.
+  url: https://api.gbif.org/v1/organization/623a4940-3a7f-439f-a75f-e5a192a1e745
+  fetched: *id001
+  quote: '"city":"Gurskøy","country":"NO"'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: *id001

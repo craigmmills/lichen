@@ -1,0 +1,32 @@
+id: novia-university-of-applied-sciences
+kind: organisation
+name: Novia University of Applied Sciences
+scope: fi
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: unknown
+scale: national
+status: active
+summary: University of applied sciences listed as Stefan Heinänen's affiliation in a 2020
+  paper on satellite telemetry and aerial surveys of red-throated divers near offshore wind
+  farms.
+facts:
+- claim: Stefan Heinänen, affiliated with Novia University of Applied Sciences and DHI, is
+    first author of a 2020 paper on satellite telemetry and digital aerial surveys of red-throated
+    divers around offshore wind farms.
+  url: https://api.openalex.org/works/W3016377546?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Satellite telemetry and digital aerial surveys show strong displacement of red-throated
+    divers
+- claim: The first author's affiliations include Novia University of Applied Sciences.
+  url: https://api.openalex.org/works/W3016377546?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Novia University of Applied Sciences
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,44 @@
+id: deepcascade-ggw-forecast
+kind: model
+name: DeepCascade GGW-Forecast
+scope: sn
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- sn
+status: active
+summary: Deep learning framework that forecasts land use and land cover change in
+  Senegal’s Great Green Wall from Sentinel-2 images and Dynamic World data, described
+  in a 2026 conference paper listing IRD and other authors.
+facts:
+- claim: Presented as a deep learning framework using Sentinel-2 and Dynamic World
+    data.
+  url: https://publications.cirad.fr/une_notice.php?dk=617035
+  fetched: '2026-10-31'
+  quote: we present DeepCascade GGW-Forecast, a deep learning framework that leverages
+    Sentinel-2 and corresponding Dynamical World data
+- claim: Combines SatForecaster with U-Net segmentation; SatForecaster uses ConvLSTM
+    layers.
+  url: https://publications.cirad.fr/une_notice.php?dk=617035
+  fetched: '2026-10-31'
+  quote: integrates the SatForecaster model to forecast future satellite imagery and
+    U-Net for semantic segmentation
+  ai_type: deep-learning
+found_by:
+- link-from:institut-de-recherche-pour-le-developpement
+- checklist:3
+scale: local
+runner: unknown
+ai_types:
+- deep-learning
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: builds-on
+  to: dynamic-world
+  url: https://publications.cirad.fr/une_notice.php?dk=617035
+  fetched: '2026-10-31'
+  quote: corresponding Dynamical World data

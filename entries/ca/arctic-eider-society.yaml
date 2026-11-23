@@ -1,0 +1,63 @@
+id: arctic-eider-society
+kind: organisation
+name: Arctic Eider Society
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+scale: regional
+hq: ca
+status: active
+realms:
+- ocean
+techniques:
+- remote-sensing
+summary: Created SIKU with northern communities. With Canadian Space Agency support and University
+  of Waterloo researchers, it used machine learning to detect recurring polynyas for the SIKU
+  ice map.
+facts:
+- claim: Used machine learning to detect recurring polynyas, with a model identifying about
+    80 percent of target polynyas.
+  url: https://www.asc-csa.gc.ca/eng/blog/2025/09/29/siku-traditional-knowledge-meets-satellite-data.asp
+  fetched: '2026-10-31'
+  quote: the Arctic Eider Society used machine learning to detect recurring polynyas
+- claim: The Canadian Space Agency supported SIKU through smartEarth.
+  url: https://www.asc-csa.gc.ca/eng/blog/2025/09/29/siku-traditional-knowledge-meets-satellite-data.asp
+  fetched: '2026-10-31'
+  quote: The Canadian Space Agency ( CSA ) supported the development of SIKU through its smartEarth
+    funding initiative
+- claim: Described as based in Sanikiluaq, Nunavut.
+  url: https://oceansupercluster.ca/project/canadas-ocean-supercluster-announces-project-to-advance-groundbreaking-indigenous-led-technology-platform/
+  fetched: '2026-10-31'
+  quote: The project is led by Sanikiluaq, NU-based Arctic Eider Society in partnership with
+    SmartICE
+links:
+- type: runs
+  to: siku
+  url: https://www.asc-csa.gc.ca/eng/blog/2025/09/29/siku-traditional-knowledge-meets-satellite-data.asp
+  fetched: '2026-10-31'
+  quote: the Arctic Eider Society and the communities of Sanikiluaq, Inukjuak, Umiujaq, Kuujjuaraapik
+    and Chisasibi, in consultation with regional Indigenous organizations from across the
+    North, created SIKU
+- type: funded-by
+  to: canadian-space-agency
+  url: https://www.asc-csa.gc.ca/eng/blog/2025/09/29/siku-traditional-knowledge-meets-satellite-data.asp
+  fetched: '2026-10-31'
+  quote: The Canadian Space Agency ( CSA ) supported the development of SIKU through its smartEarth
+    funding initiative
+- type: leads
+  to: siku-ocean-ai-tools-project
+  url: https://oceansupercluster.ca/project/canadas-ocean-supercluster-announces-project-to-advance-groundbreaking-indigenous-led-technology-platform/
+  fetched: '2026-10-31'
+  quote: The project is led by Sanikiluaq, NU-based Arctic Eider Society
+found_by:
+- checklist:4
+- link-from:canadas-ocean-supercluster
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

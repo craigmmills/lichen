@@ -1,0 +1,37 @@
+id: frias-global-dataset-of-freshwater-invasive-and-alien-species
+kind: dataset
+name: FRIAS
+scope: es
+ai_label: data-infrastructure
+status: active
+also_known_as:
+- Global Dataset of Freshwater Invasive and Alien Species
+- Global Dataset of Freshwater Introduced Alien Species
+realms:
+- freshwater
+summary: Global compilation of more than 3,800 freshwater non-native species from
+  94 online sources, built by automated extraction, web scraping and manual download.
+facts:
+- claim: A global compilation of more than 3,800 freshwater non-native species from
+    94 online data sources.
+  url: https://api.gbif.org/v1/organization/dfa60bf9-be17-4b11-bdd1-23734e6dbfbd/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: dataset is a global compilation of more than 3,800 freshwater non-native
+    species derived from 94 online data sources
+- claim: Built through a screening process combining automated extraction in R, web
+    scraping and manual downloading.
+  url: https://api.gbif.org/v1/organization/dfa60bf9-be17-4b11-bdd1-23734e6dbfbd/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: combining automated extraction in R (v4.5.0), web scraping (HTML, APIs and
+    scientific literature) and manual downloading
+links:
+- type: run-by
+  to: instituto-pirenaico-de-ecologia
+  url: https://api.gbif.org/v1/organization/dfa60bf9-be17-4b11-bdd1-23734e6dbfbd/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: "Global Dataset of Freshwater Invasive and Alien Species. Version 2.3. Instituto Pirenaico de Ecología (CSIC)."
+found_by:
+- register:es
+- link-from:instituto-pirenaico-de-ecologia
+added_by: agent
+checked: '2026-10-31'

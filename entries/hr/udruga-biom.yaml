@@ -1,0 +1,60 @@
+id: udruga-biom
+kind: organisation
+name: Association BIOM
+also_known_as:
+- Udruga Biom
+scope: hr
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques: []
+hq: hr
+countries:
+- hr
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.biom.hr/en/
+summary: Croatian civil society nature conservation organisation, working since 2006 according to its
+  own account, with offices in Zagreb and Sinj, which published a GBIF dataset of at-sea seabird surveys
+  from the LIFE Artina project (2019 to 2021).
+facts:
+- claim: Says it protects and studies wild birds and other species and habitats, and has worked since
+    2006.
+  url: https://www.biom.hr/o-nama/tko-smo-mi/
+  fetched: 2026-11-08
+  quote: Djelujemo od 2006. godine i predstavnik smo Hrvatske u BirdLife Internationalu
+- claim: Says it monitors and records species together with its volunteers.
+  url: https://www.biom.hr/o-nama/tko-smo-mi/
+  fetched: 2026-11-08
+  quote: Zajedno pratimo i bilježimo vrste
+- claim: Its GBIF publisher record describes it as a civil society organisation dedicated to nature conservation.
+  url: https://api.gbif.org/v1/organization/474b8fb3-61ea-495f-bef3-b25c98465c1f
+  fetched: 2026-11-08
+  quote: Association Biom is a civil society organisation dedicated to nature conservation, its promotion
+    and popularization.
+- claim: Has offices in Zagreb and Sinj.
+  url: https://www.biom.hr/o-nama/tko-smo-mi/
+  fetched: 2026-11-08
+  quote: 'Zagreb: Čazmanska 2, 10000 Zagreb'
+- claim: Published through GBIF a dataset of systematic at-sea seabird surveys from the LIFE Artina project,
+    May 2019 to May 2021.
+  url: https://api.gbif.org/v1/organization/474b8fb3-61ea-495f-bef3-b25c98465c1f/publishedDataset
+  fetched: 2026-11-08
+  quote: The dataset was collected through systematic at-sea surveys following the standardized 'European
+    Seabirds at Sea' protocol.
+links:
+- type: partners-with
+  to: birdlife-international
+  url: https://www.biom.hr/o-nama/tko-smo-mi/
+  fetched: 2026-11-08
+  quote: Kao hrvatski BirdLife partner
+found_by:
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-08

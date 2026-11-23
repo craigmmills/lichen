@@ -1,0 +1,71 @@
+id: mapbiomas-alerta-peru
+kind: programme
+name: MapBiomas Alerta Perú
+scope: pe
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pe
+status: active
+summary: ACCA-led initiative that validates existing deforestation alerts in Peru with satellite images
+  of up to 3.7 metres resolution, having processed over 90,000 alerts since 2021 by March 2026.
+facts:
+- claim: Caretas reports that it validates existing alerts with satellite images of up to 3.7 metres resolution
+    rather than generating its own.
+  url: https://caretas.pe/?p=799143
+  fetched: 2026-11-03
+  quote: A diferencia de otros sistemas, MapBiomas Alerta Perú no genera alertas propias, sino que valida
+    las existentes mediante imágenes satelitales de hasta 3,7 metros de resolución.
+- claim: Caretas reports that since 2021 the system has processed more than 90,000 deforestation alerts,
+    39,000 of them validated and free to download.
+  url: https://caretas.pe/?p=799143
+  fetched: 2026-11-03
+  quote: Desde 2021, el sistema ha procesado más de 90.000 alertas de deforestación en Perú , de las cuales
+    39.000 alertas validadas ya están disponibles para descarga gratuita.
+- claim: An initiative led by ACCA that validates deforestation alerts in Peru with satellite images.
+  url: https://acca.org.pe/plataforma-mapbiomas-alerta-peru-refuerza-el-monitoreo-de-la-deforestacion/
+  fetched: 2026-11-03
+  quote: MapBiomas Alerta Perú , es una iniciativa liderada por Conservación Amazónica – ACCA, permite
+    validar alertas de deforestación en Perú con imágenes satelitales
+- claim: Does not generate its own alerts; validates existing ones with satellite images of up to 3.7
+    metres resolution.
+  url: https://acca.org.pe/plataforma-mapbiomas-alerta-peru-refuerza-el-monitoreo-de-la-deforestacion/
+  fetched: 2026-11-03
+  quote: MapBiomas Alerta Perú no genera alertas propias, sino que valida las existentes mediante imágenes
+    satelitales de hasta 3,7 metros de resolución
+- claim: As of March 2026, the system had processed more than 90,000 deforestation alerts in Peru since
+    2021, of which 39,000 validated alerts were free to download.
+  url: https://acca.org.pe/plataforma-mapbiomas-alerta-peru-refuerza-el-monitoreo-de-la-deforestacion/
+  fetched: 2026-11-03
+  quote: Desde 2021, el sistema ha procesado más de 90.000 alertas de deforestación en Perú , de las cuales
+    39.000 alertas validadas ya están disponibles para descarga gratuita
+links:
+- type: led-by
+  to: conservacion-amazonica-acca
+  url: https://caretas.pe/?p=799143
+  fetched: 2026-11-03
+  quote: MapBiomas Alerta Perú , es una iniciativa liderada por Conservación Amazónica - ACCA
+- type: builds-on
+  to: geobosques
+  url: https://caretas.pe/?p=799143
+  fetched: 2026-11-03
+  quote: una herramienta que integra información de sistemas como GeoBosques (MINAM) y GLAD (Universidad
+    de Maryland)
+- type: led-by
+  to: conservacion-amazonica-acca
+  url: https://acca.org.pe/plataforma-mapbiomas-alerta-peru-refuerza-el-monitoreo-de-la-deforestacion/
+  fetched: 2026-11-03
+  quote: es una iniciativa liderada por Conservación Amazónica – ACCA
+- type: builds-on
+  to: geobosques
+  url: https://acca.org.pe/plataforma-mapbiomas-alerta-peru-refuerza-el-monitoreo-de-la-deforestacion/
+  fetched: 2026-11-03
+  quote: una herramienta que integra información de sistemas como GeoBosques (MINAM) y GLAD (Universidad
+    de Maryland)
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

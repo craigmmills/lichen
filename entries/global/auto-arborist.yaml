@@ -1,0 +1,35 @@
+id: auto-arborist
+kind: dataset
+name: Auto Arborist
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- ca
+- us
+status: closed
+website: https://google.github.io/auto-arborist
+summary: Google dataset of over 2 million urban trees in more than 300 genera across 23 cities in the United States and Canada, built from public tree censuses with street and aerial imagery. It was taken down on 27 May 2025.
+facts:
+- claim: Contains over 2 million trees in over 300 genera across 23 cities.
+  url: https://google.github.io/auto-arborist
+  fetched: &id001 2026-10-30
+  quote: contains over 2 million trees belonging to over 300 genus-level categories in 23 cities across the US and Canada
+- claim: The dataset was turned down on 27 May 2025 and is no longer offered.
+  url: https://google.github.io/auto-arborist
+  fetched: 2026-10-30
+  quote: Due to maintenance constraints, the dataset was turned down on May 27, 2025.
+links:
+- type: run-by
+  to: google-research
+  url: https://research.google/blog/mapping-urban-trees-across-north-america-with-the-auto-arborist-dataset/?m=1
+  fetched: *id001
+  quote: Today we introduce the Auto Arborist Dataset
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

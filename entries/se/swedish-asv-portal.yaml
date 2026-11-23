@@ -1,0 +1,74 @@
+id: swedish-asv-portal
+kind: dataset
+scope: se
+name: Swedish ASV portal
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- edna-genomics
+status: active
+summary: Dataset giving access to molecular data in SBDI, with a database of Amplicon Sequence Variants
+  and a web interface, built and run by Stockholm University and Karolinska Institute.
+facts:
+- claim: Gives access to molecular data in SBDI.
+  url: https://biodiversitydata.se/explore-data/
+  fetched: 2026-11-02
+  quote: The Swedish Amplicon Sequence Variants (ASV) portal gives access to molecular data in SBDI
+- claim: Includes a database of Amplicon Sequence Variants and a web interface.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: develop and maintain the Swedish ASV portal which includes a database of Amplicon Sequence Variants
+    (ASVs), and a web interface
+links:
+- type: built-by
+  to: stockholm-university
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SU/KI develop and maintain the Swedish ASV portal
+- type: run-by
+  to: stockholm-university
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SU/KI develop and maintain the Swedish ASV portal which includes a database of Amplicon Sequence
+    Variants (ASVs)
+- type: built-by
+  to: karolinska-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SU/KI develop and maintain the Swedish ASV portal
+- type: run-by
+  to: karolinska-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SU/KI develop and maintain the Swedish ASV portal which includes a database of Amplicon Sequence
+    Variants (ASVs)
+- type: built-by
+  to: stockholm-university
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: More specifically, SU/KI develop and maintain the Swedish ASV portal
+- type: run-by
+  to: stockholm-university
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: More specifically, SU/KI develop and maintain the Swedish ASV portal
+- type: built-by
+  to: karolinska-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: More specifically, SU/KI develop and maintain the Swedish ASV portal
+- type: run-by
+  to: karolinska-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: More specifically, SU/KI develop and maintain the Swedish ASV portal
+found_by:
+- link-from:swedish-biodiversity-data-infrastructure
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+countries:
+- se

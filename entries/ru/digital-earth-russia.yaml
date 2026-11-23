@@ -1,0 +1,51 @@
+id: digital-earth-russia
+kind: programme
+name: Digital Earth
+scope: ru
+also_known_as:
+- Цифровая Земля
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ru
+status: active
+summary: Roscosmos-run satellite image analysis by Terra Tech using neural networks; Rosleshoz said a
+  continuous forest monitoring experiment in Arkhangelsk and Irkutsk regions began in June 2022.
+facts:
+- claim: A tool for objective information on natural assets and economic activity from space images, carried
+    out by Terra Tech to the order of Roscosmos.
+  url: https://www1.ru/news/2024/08/27/cetyrexkratnoe-pokrytie-rossii-sto-neirosetei-cto-delaet-proekt-cifrovaia-zemlia.html
+  quote: АО «Терра Тех» по заказу госкорпорации «Роскосмос» в рамках мероприятий национальной программы
+    «Цифровая экономика РФ». Это инструмент получения объективных сведений о природных активах и хозяйственной
+    деятельности с помощью космических снимков.
+  fetched: '2026-10-31'
+- claim: Data are processed automatically with neural networks, statistical analysis and expert control.
+  url: https://www1.ru/news/2024/08/27/cetyrexkratnoe-pokrytie-rossii-sto-neirosetei-cto-delaet-proekt-cifrovaia-zemlia.html
+  quote: Обработка данных происходит автоматизированно с использованием нейросетей, статистического анализа
+    и экспертного контроля данных.
+  fetched: '2026-10-31'
+- claim: Says analysis of satellite images across the country is based on machine learning, using neural
+    networks.
+  url: https://dgearth.ru/
+  fetched: 2026-10-31
+  quote: Анализ спутниковых снимков на территорию всей страны осуществляется на основе технологий машинного
+    обучения (нейронных сетей)
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: roscosmos
+  url: https://dgearth.ru/
+  fetched: 2026-10-31
+  quote: Доступ к системе осуществляется по решению Госкорпорации «Роскосмос» и в настоящее время предоставлен
+    всем региональным органам исполнительной власти.
+found_by:
+- checklist:2
+- checklist:1
+- checklist:7
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

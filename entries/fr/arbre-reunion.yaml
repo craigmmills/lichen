@@ -1,0 +1,43 @@
+id: arbre-reunion
+kind: organisation
+name: ARBRE
+scope: fr
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+scale: regional
+hq: unknown
+status: active
+summary: Association on La Réunion that monitors marine and land biodiversity there and in
+  the Indian Ocean, and led an environmental DNA inventory of sharks and rays.
+facts:
+- claim: Its purpose is to help watch over, monitor and promote marine and land biodiversity
+    on La Réunion and in the Indian Ocean.
+  url: http://www.arb-reunion.fr/
+  fetched: '2026-10-31'
+  quote: L’association ARBRE a pour objet de contribuer à la veille, au suivi et à la mise
+    en valeur de la biodiversité marine et terrestre à La Réunion et dans l’océan Indien.
+- claim: Founded in 2016.
+  url: http://www.arb-reunion.fr/
+  fetched: '2026-10-31'
+  quote: Depuis sa création en 2016
+also_known_as:
+- Association pour la Recherche et la Biodiversité à la Réunion
+realms:
+- land
+- ocean
+techniques:
+- edna-genomics
+website: http://www.arb-reunion.fr/
+links:
+- type: runs
+  to: irrae
+  url: https://arb-reunion.fr/nos-projets/projet-irrae/
+  fetched: '2026-10-31'
+  quote: Un projet porté par l’Association pour la Recherche et la Biodiversité à la Réunion
+found_by:
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: '2026-10-31'

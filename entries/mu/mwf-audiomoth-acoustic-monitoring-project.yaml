@@ -1,0 +1,46 @@
+id: mwf-audiomoth-acoustic-monitoring-project
+kind: project
+name: Mauritian Wildlife Foundation AudioMoth acoustic monitoring project
+scope: mu
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- mu
+status: unknown
+summary: Mauritian Wildlife Foundation project in which 15 AudioMoth recorders were deployed
+  on a grid at the Ferney fenced plot in August 2021, with endemic birds detected using Kaleidoscope
+  Pro.
+facts:
+- claim: The 2021 Mauritian Wildlife Foundation report says audio recordings are collected
+    by 15 AudioMoth devices.
+  url: https://adriengelle.netlify.app/publication/pdf/2021_MWF_audiomoth.pdf
+  fetched: 2026-11-13
+  quote: Audio recordings are collected by 15 AudioMoth devices
+- claim: It says 15 AudioMoths were deployed on a 100 by 100 metre grid at the Ferney fenced
+    plot from 12 to 20 August 2021.
+  url: https://adriengelle.netlify.app/publication/pdf/2021_MWF_audiomoth.pdf
+  fetched: 2026-11-13
+  quote: the Ferney fenced plot. We deployed 15 AudioMoths (version 1.1.0) from 12/08/2021
+    to
+- claim: Endemic birds were detected in the recordings using Kaleidoscope Pro.
+  url: https://adriengelle.netlify.app/publication/pdf/2021_MWF_audiomoth.pdf
+  fetched: 2026-11-13
+  quote: endemic birds were detected using Kaleidoscope Pro® (Wildlife Acoustics, Inc. ).
+links:
+- type: run-by
+  to: mauritian-wildlife-foundation
+  url: https://adriengelle.netlify.app/publication/pdf/2021_MWF_audiomoth.pdf
+  fetched: 2026-11-13
+  quote: Here at the Mauritian Wildlife Foundation we chose
+- type: uses
+  to: audiomoth
+  url: https://adriengelle.netlify.app/publication/pdf/2021_MWF_audiomoth.pdf
+  fetched: 2026-11-13
+  quote: Audio recordings are collected by 15 AudioMoth devices
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

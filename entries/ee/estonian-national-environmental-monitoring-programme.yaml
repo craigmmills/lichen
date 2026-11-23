@@ -1,0 +1,59 @@
+id: estonian-national-environmental-monitoring-programme
+kind: programme
+name: National Environmental Monitoring Programme (Estonia)
+also_known_as:
+- Riikliku keskkonnaseire programm
+- Riiklik keskkonnaseire programm
+scope: ee
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ee
+status: active
+summary: Estonian national programme, set by ministerial regulation, with sub-programmes
+  including biodiversity and landscape, forest and marine monitoring; the Estonian
+  Environment Agency is reported to be responsible for managing and implementing it.
+facts:
+- claim: A Minister of the Environment regulation sets the requirements and procedure
+    for the national environmental monitoring programme and its sub-programmes.
+  url: https://faolex.fao.org/docs/pdf/est207309.pdf
+  fetched: 2026-11-15
+  quote: 'Väljaandja: Keskkonnaminister'
+- claim: The programme is made up of sub-programmes that include biodiversity and
+    landscape monitoring, forest monitoring and marine monitoring.
+  url: https://faolex.fao.org/docs/pdf/est207309.pdf
+  fetched: 2026-11-15
+  quote: 6) elustiku mitmekesisuse ja maastike seire;
+- claim: The forest monitoring sub-programme is one of the programme's sub-programmes.
+  url: https://faolex.fao.org/docs/pdf/est207309.pdf
+  fetched: 2026-11-15
+  quote: 7) metsaseire;
+- claim: The regulation requires sub-programme monitoring data to be submitted to
+    the environmental monitoring database or through the programme website's data
+    submission module. It requires GPS coordinates for monitoring stations, areas
+    or sites, using centre or end points for monitoring areas.
+  url: https://faolex.fao.org/docs/pdf/est207309.pdf
+  fetched: 2026-11-15
+  quote: Seiretöö vahetu täitja peab määrama GPSiga seirejaama, -ala või -koha täpsed
+    geograafilised koordinaadid
+- claim: Estonia's 2020 Marine Strategy Framework Directive Article 11 report says
+    the Estonian Environment Agency is responsible for the management and implementation
+    of the national environmental monitoring programme.
+  url: https://water.europa.eu/marine/assessment-module/national-descriptors-assessments/ee/bal/@@art11-view-report-data-2020
+  fetched: 2026-11-15
+  quote: EEA is a state authority responsible for the management and implementation
+    of the national environmental monitoring program
+links:
+- type: run-by
+  to: estonian-environment-agency
+  url: https://water.europa.eu/marine/assessment-module/national-descriptors-assessments/ee/bal/@@art11-view-report-data-2020
+  fetched: 2026-11-15
+  quote: EEA is a state authority responsible for the management and implementation
+    of the national environmental monitoring program
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

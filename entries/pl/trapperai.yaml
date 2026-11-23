@@ -1,0 +1,84 @@
+id: trapperai
+kind: model
+name: TrapperAI
+also_known_as:
+- Trapper AI
+- TrapperAI
+scope: pl
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://huggingface.co/OSCF/TrapperAI-v02.2024
+summary: Model described as detecting 18 European mammal species, fine-tuned from YOLOv8-m, trained and
+  evaluated on 401,458 camera-trap images from five countries, building on TRAPPER and MegaDetector.
+facts:
+- claim: The model card describes detection and classification of 18 European mammal species using fine-tuned
+    YOLOv8-m, although its class list also includes Bird.
+  url: https://huggingface.co/OSCF/TrapperAI-v02.2024
+  fetched: '2026-11-02'
+  quote: This model is based on the fine-tuned YOLOv8-m model
+  ai_type: deep-learning
+- claim: It was trained and evaluated on 401,458 camera trap images from Poland, Germany, Sweden, Austria
+    and Switzerland.
+  url: https://huggingface.co/OSCF/TrapperAI-v02.2024
+  fetched: '2026-11-02'
+  quote: comprised 401,458 camera trap images from Poland, Germany, Sweden, Austria, and Switzerland
+- claim: It extends the TRAPPER ecosystem.
+  url: https://kpn.gov.pl/pliki-do-pobrania/otworz/c175b5d9-5f3a-478a-a3f6-e05c595a8f69.pdf
+  fetched: '2026-11-02'
+  quote: TrapperAI stanowi rozszerzenie ekosystemu TRAPPER.
+- claim: A sponsor's note says it has been used in Karkonosze National Park and ten national parks in
+    Germany.
+  url: https://www.kp.pl/en/for-media/supercomputer-from-the-zubr-fund-sees-hears-and-understands-wild-animals
+  fetched: '2026-11-02'
+  quote: Trapper AI has been successfully implemented in the Karkonoski National Park and ten national
+    parks in Germany
+- claim: The model card says it detects and classifies 18 European mammal species.
+  url: https://huggingface.co/OSCF/TrapperAI-v02.2024
+  quote: The TrapperAI model is responsible for the detection and classification of 18 European mammal
+    species
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: mammal-research-institute-polish-academy-of-sciences
+  url: https://www.kp.pl/en/for-media/supercomputer-from-the-zubr-fund-sees-hears-and-understands-wild-animals
+  fetched: '2026-11-02'
+  quote: designed by MRI PAS, Open Science Conservation Fund and Slavic AI from Bialystok
+- type: built-by
+  to: open-science-conservation-fund
+  url: https://www.kp.pl/en/for-media/supercomputer-from-the-zubr-fund-sees-hears-and-understands-wild-animals
+  fetched: '2026-11-02'
+  quote: designed by MRI PAS, Open Science Conservation Fund and Slavic AI from Bialystok
+- type: built-by
+  to: slavic-ai
+  url: https://www.kp.pl/en/for-media/supercomputer-from-the-zubr-fund-sees-hears-and-understands-wild-animals
+  fetched: '2026-11-02'
+  quote: designed by MRI PAS, Open Science Conservation Fund and Slavic AI from Bialystok
+- type: builds-on
+  to: trapper
+  url: https://kpn.gov.pl/pliki-do-pobrania/otworz/c175b5d9-5f3a-478a-a3f6-e05c595a8f69.pdf
+  fetched: '2026-11-02'
+  quote: TrapperAI stanowi rozszerzenie ekosystemu TRAPPER.
+- type: builds-on
+  to: megadetector
+  url: https://kpn.gov.pl/pliki-do-pobrania/otworz/c175b5d9-5f3a-478a-a3f6-e05c595a8f69.pdf
+  fetched: '2026-11-02'
+  quote: MegaDetectora (threshold >=0.7);
+- type: built-by
+  to: mammal-research-institute-polish-academy-of-sciences
+  url: https://www.kp.pl/en/for-media/supercomputer-from-the-zubr-fund-sees-hears-and-understands-wild-animals
+  quote: the AI algorithm developed by MRI PAS – Trapper AI
+  fetched: '2026-11-02'
+found_by:
+- checklist:7
+- link-from:trapper
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- pl

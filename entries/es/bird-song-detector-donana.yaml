@@ -1,0 +1,41 @@
+id: bird-song-detector-donana
+kind: model
+name: Bird Song Detector
+scope: es
+ai_label: ai
+status: active
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+website: https://arxiv.org/html/2503.15576v1
+summary: Deep learning detector of bird song segments for audio from Doñana, used before a
+  fine-tuned BirdNET classifier. Set out in a 2025 preprint.
+facts:
+- claim: The combination of the Bird Song Detector and fine-tuned BirdNET raised precision,
+    recall and F1 over the baseline.
+  url: https://arxiv.org/html/2503.15576v1
+  fetched: '2026-10-31'
+  quote: the combination of the Bird Song Detector and fine-tuned BirdNET achieved increases
+    in weighted precision
+  ai_type: deep-learning
+links:
+- type: builds-on
+  to: birdnet
+  url: https://arxiv.org/html/2503.15576v1
+  fetched: '2026-10-31'
+  quote: The final stage consisted first of a fine-tuning of BirdNET model, using the audio
+    from Doñana annotated by experts
+- type: builds-on
+  to: birdeep-audio-annotations
+  url: https://arxiv.org/html/2503.15576v1
+  fetched: '2026-10-31'
+  quote: The training data for fine-tuning were derived directly from the expert annotations
+found_by:
+- register:es
+- link-from:estacion-biologica-de-donana
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

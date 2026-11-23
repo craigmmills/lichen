@@ -1,0 +1,42 @@
+id: registro-nacional-de-zonas-deforestadas
+kind: dataset
+name: Registro Nacional de Zonas Deforestadas
+also_known_as:
+- RNZD
+scope: co
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- co
+scale: national
+status: active
+summary: Register created by Article 31 of Law 2169 of 2021 as a module of the Forest
+  and Carbon Monitoring System, run by IDEAM, with a semester report covering the
+  second half of 2025.
+facts:
+- claim: Article 31 of Law 2169 of 2021 created the register as a module of the Forest
+    and Carbon Monitoring System.
+  url: https://bart.ideam.gov.co/smbyc/Registro%20Nacional%20de%20Zonas%20Deforestadas/RNZD%20-%20Reporte%20semestral%202025%20II.pdf
+  fetched: 2026-11-08
+  quote: este objetivo, el Artículo 31 de la Ley 2169 de 2021 creó el Registro Nacional
+    de Zonas
+- claim: The semester report for the second half of 2025 summarises early deforestation
+    detections and analyses large deforestation polygons.
+  url: https://bart.ideam.gov.co/smbyc/Registro%20Nacional%20de%20Zonas%20Deforestadas/RNZD%20-%20Reporte%20semestral%202025%20II.pdf
+  fetched: 2026-11-08
+  quote: sección 4 presenta un análisis exploratorio sobre los macropolígonos, para
+    señalar áreas
+links:
+- type: run-by
+  to: instituto-de-hidrologia-meteorologia-y-estudios-ambientales
+  url: https://bart.ideam.gov.co/smbyc/Registro%20Nacional%20de%20Zonas%20Deforestadas/RNZD%20-%20Reporte%20semestral%202025%20II.pdf
+  fetched: 2026-11-08
+  quote: (SMByC) a cargo del IDEAM, estableciendo las bases para su administración
+    y objetivos.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

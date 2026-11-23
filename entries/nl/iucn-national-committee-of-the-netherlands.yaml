@@ -1,0 +1,68 @@
+id: iucn-national-committee-of-the-netherlands
+kind: organisation
+name: IUCN National Committee of the Netherlands
+also_known_as:
+- IUCN NL
+sector: ngo
+roles:
+- funds
+- convenes
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: nl
+scale: national
+status: active
+website: https://www.iucn.nl/en/
+countries:
+- nl
+summary: Works with international partners and IUCN members in the Netherlands, and is named
+  by Rainforest Connection as a funder of an acoustic monitoring project in Sumatra and by
+  Witteveen+Bos as a member of the Biodiversity in Focus knowledge team.
+facts:
+- claim: Rainforest Connection names it as a funder of its Sumatra project.
+  url: https://rfcx.org/projects/west-sumatra
+  fetched: &id001 2026-10-31
+  quote: 'IUCN National Committee of the Netherlands (IUCN NL): Cornerstone supporter and
+    funder of the project.'
+- claim: Works with international partners and IUCN members in the Netherlands.
+  url: https://www.iucn.nl/en/?p=427020
+  fetched: *id001
+  quote: together with international partners and with IUCN members in the Netherlands
+- claim: Operates from Amsterdam.
+  url: https://www.iucn.nl/organisatie/
+  fetched: '2026-10-31'
+  quote: IUCN NL is een niet-gouvernementele internationale natuurorganisatie die opereert
+    vanuit Amsterdam.
+- claim: National Committee uniting the Dutch members of IUCN.
+  url: https://www.iucn.nl/organisatie/
+  fetched: '2026-10-31'
+  quote: Als Nationaal Comité verenigen wij de Nederlandse leden van de International Union
+    for Conservation of Nature (IUCN)
+- claim: Supports and facilitates partners' use of these technologies through funding and
+    training.
+  url: https://www.iucn.nl/ons-werk/technologie-en-natuurbescherming/
+  fetched: '2026-10-31'
+  quote: IUCN NL ondersteunt en faciliteert het gebruik van deze technologieën door partners
+    in hun projecten.
+- claim: Supported Neowild's camera-trap work on jaguars in Suriname through Operation Jaguar.
+  url: https://www.iucn.nl/ons-werk/technologie-en-natuurbescherming/
+  fetched: '2026-10-31'
+  quote: Met het project Operation Jaguar ondersteunden we het jaguaronderzoek van Neowild
+    in Suriname
+links:
+- type: partners-with
+  to: biodiversity-in-focus
+  url: https://www.witteveenbos.com/news/launch-of-the-biodiversity-in-focus-research-project
+  fetched: *id001
+  quote: comprising Deltares, Wageningen Environmental Research, Naturalis Biodiversity Center,
+    IUCN NL and Deltaplan Biodiversity Restoration
+found_by:
+- link-from:rainforest-connection
+- checklist:4
+scope: nl
+added_by: agent
+checked: *id001
+techniques:
+- remote-sensing

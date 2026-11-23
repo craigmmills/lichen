@@ -1,0 +1,55 @@
+id: google-earth-ai
+kind: programme
+name: Google Earth AI
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+- large-language-models
+- agentic-ai
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Google's collection of geospatial AI models and datasets, covering weather, floods, wildfire, urban planning and public health, and including AlphaEarth Foundations, SpeciesNet and Remote Sensing Foundations.
+facts:
+- claim: Introduced by Google in 2025 as a collection of geospatial models and datasets.
+  url: https://blog.google/technology/ai/google-earth-ai/
+  fetched: &id001 2026-10-30
+  quote: Today we’re introducing Google Earth AI, our collection of geospatial models and datasets to help people, businesses and organizations tackle the planet's most critical needs.
+- claim: AlphaEarth Foundations is part of the collection.
+  ai_type: foundation-models
+  url: https://blog.google/technology/ai/google-earth-ai/
+  fetched: *id001
+  quote: AlphaEarth Foundations , also announced today, is part of Google Earth AI.
+- claim: Remote Sensing Foundations is part of the collection.
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: RSF is part of Google Earth AI
+- claim: Google's Geospatial Reasoning agent connects Gemini to Earth AI's foundation models.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: 2026-10-30
+  quote: The agent connects Gemini to the capabilities of Earth AI’s foundation models
+  ai_type: large-language-models
+- claim: The agent plans a multi-step workflow before selecting and running Earth AI tools.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: 2026-10-30
+  quote: Our Geospatial Reasoning agent responds to a user’s question by first planning a multistep workflow
+  ai_type: agentic-ai
+- claim: "A Google Earth AI post describes a high-resolution deep learning framework."
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: 2026-10-30
+  quote: "We developed a high-resolution deep learning framework"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: google
+  url: https://blog.google/technology/ai/google-earth-ai/
+  fetched: *id001
+  quote: Today we’re introducing Google Earth AI
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

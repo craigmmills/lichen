@@ -1,0 +1,101 @@
+id: aristotle-university-of-thessaloniki
+kind: organisation
+name: Aristotle University of Thessaloniki
+also_known_as:
+- AUTH
+- Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
+- ΑΠΘ
+scope: gr
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+ai_types:
+- ml-supervised
+hq: gr
+countries:
+- gr
+scale: national
+status: active
+website: https://www.auth.gr/
+summary: A Thessaloniki university that coordinated SAT4FOREST, which it says produced Greece’s
+  first national satellite-based forest monitoring system, with 61 OpenAlex works matching
+  specified AI and biodiversity-related tags since 2021.
+facts:
+- claim: Its press office gives an address in Thessaloniki.
+  url: https://www.auth.gr/wp-content/uploads/2026_6_30_SAT4FOREST-eng.pdf
+  fetched: '2026-11-03'
+  quote: Administration Building «Κ. Karatheodori» AUTH, P.C. 541 24, Thessaloniki
+- claim: Says it developed Greece's first national satellite-based forest monitoring system
+    through SAT4FOREST.
+  url: https://www.auth.gr/wp-content/uploads/2026_6_30_SAT4FOREST-eng.pdf
+  fetched: '2026-11-03'
+  quote: Aristotle University Develops Greece's First National Satellite-Based
+- claim: A 2023 paper with first author Giorgos Mallinis and other AUTH researchers evaluated
+    multiple classifier systems for forest mapping in Northeastern Greece using Sentinel-2,
+    Sentinel-1 and ICESat-2 data.
+  url: https://api.openalex.org/works/W4388634792
+  fetched: '2026-11-03'
+  quote: Evaluation of Multiple Classifier Systems for Mapping Different Hierarchical Levels
+    of Forest Ecosystems in the Mediterranean Region
+  ai_type: ml-supervised
+- claim: Says the national forest monitoring application was developed in SAT4FOREST with
+    the university as coordinator.
+  url: https://www.auth.gr/press/to-aristoteleio-panepistimio-dimioy/
+  fetched: 2026-11-03
+  quote: αναπτύχθηκε στο πλαίσιο του ερευνητικού έργου SAT4FOREST- Forest Monitoring Service,
+    με συντονιστή το Αριστοτέλειο Πανεπιστήμιο
+- claim: A team from its School of Surveying and Rural Engineering, supported by Olympos Consulting,
+    recorded more than 2 terabytes of Earth observation data in pilot work at Valia Kalda
+    and Kotychi-Strofylia Wetlands National Park for LIFE EL-BIOS.
+  url: https://biodiversity-greece.gr/en/new/video-life-el-bios-innovative-methods-amp-technologies-for-recording-biodiversity-related-data-in-protected-areas/
+  fetched: 2026-11-03
+  quote: A team of scientists from the School of Surveying and Rural Engineering of the Aristotle
+    University of Thessaloniki, with the support of Olympos Consulting Company, recorded more
+    than 2 Terabyte of Earth Observation data on biodiversity
+- claim: OpenAlex lists it as the Greek institution with the most works since 2021 tagged
+    with both machine learning or deep learning and ecology or biodiversity (61).
+  url: https://api.openalex.org/works?filter=institutions.country_code:gr,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&group_by=institutions.id
+  fetched: 2026-11-03
+  quote: '"key_display_name": "Aristotle University of Thessaloniki", "count": 61'
+- claim: ELGO-DIMITRA names its Department of Biology as scientific lead of the protected-area
+    fauna monitoring project.
+  url: https://agres.elgo.gr/el/istories-apo-ta-institoyta/crimes-against-forest-are-tackled-passive-audio-monitoring
+  fetched: 2026-11-03
+  quote: επιστημονικά υπεύθυνος το Τμήμα Βιολογίας του ΑΠΘ
+links:
+- type: partners-with
+  to: el-bios
+  url: https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE20-GIE-GR-001317/hellenic-bioodiversity-information-system-an-innovative-tool-for-biodiversity-conservation
+  fetched: '2026-11-03'
+  quote: AUTH-DRSE(Aristotle University of Thessaloniki - Special Account for Research Funds),
+    Greece
+- type: runs
+  to: sat4forest
+  url: https://geosystems-hellas.gr/sat4forest/
+  fetched: 2026-11-03
+  quote: The project was coordinated by the Aristotle University of Thessaloniki (AUTH)
+- type: runs
+  to: department-of-forestry-and-natural-environment-auth
+  url: https://api.gbif.org/v1/organization/6e618858-4e7f-446a-a899-8fd5a52d130d
+  fetched: 2026-11-03
+  quote: the Department of Forestry and Natural Environment of the Aristotle University of
+    Thessaloniki has been a leading contributor to forestry education and research
+- type: partners-with
+  to: acoustic-and-optical-sensors-for-fauna-monitoring-in-greek-protected-areas
+  url: https://agres.elgo.gr/el/istories-apo-ta-institoyta/crimes-against-forest-are-tackled-passive-audio-monitoring
+  fetched: 2026-11-03
+  quote: επιστημονικά υπεύθυνος το Τμήμα Βιολογίας του ΑΠΘ
+found_by:
+- checklist:2
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

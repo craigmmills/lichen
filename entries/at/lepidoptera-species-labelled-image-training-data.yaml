@@ -1,0 +1,36 @@
+id: lepidoptera-species-labelled-image-training-data
+kind: dataset
+name: 'Machine learning training data: over 500,000 images of butterflies and moths (Lepidoptera) with
+  species labels'
+scope: at
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- at
+scale: national
+status: active
+runner: unknown
+summary: Dataset of over 500,000 species-labelled butterfly and moth images, listed by OpenAlex as a 2025
+  Scientific Data paper with Friederike Barkmann as first author.
+facts:
+- claim: OpenAlex lists it as a 2025 data paper in Scientific Data, first author Friederike Barkmann (Universität
+    Innsbruck).
+  url: https://api.openalex.org/works/W4413024159?select=id,doi,display_name,publication_year,type,primary_location,authorships
+  fetched: 2026-11-07
+  quote: 'Machine learning training data: over 500,000 images of butterflies and moths (Lepidoptera) with
+    species labels'
+- claim: The University of Innsbruck says butterfly photos collected by volunteers through the free app
+    of Blühendes Österreich are the basis of the first author's machine learning research; it does not
+    name this dataset.
+  url: https://www.uibk.ac.at/de/newsroom/2025/biodiversitat-ein-supercomputer-als-schmetterlingsexperte/
+  fetched: 2026-11-07
+  quote: Über die kostenlose Schmetterlings-App von Blühendes Österreich , der gemeinnützigen BILLA-Privatstiftung,
+    haben Freiwillige in den letzten Jahren mehrere hunderttausend Bilder heimischer Falter gesammelt.
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-07

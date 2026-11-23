@@ -1,0 +1,41 @@
+id: pakistan-museum-of-natural-history
+kind: organisation
+name: Pakistan Museum of Natural History
+also_known_as:
+- PMNH
+scope: pk
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: pk
+countries:
+- pk
+scale: national
+status: unknown
+summary: Museum that Pakistan's 2014 fifth national report to the CBD named as the only GBIF
+  focal point in Pakistan, with GBIF listing the Pakistan node as an observer.
+facts:
+- claim: Pakistan's fifth national report to the CBD, of March 2014, said PMNH was the only
+    GBIF focal point in Pakistan.
+  url: https://environment.gov.pk/SiteImage/Misc/files/NBC/National%20Reports/pk-nr-05-en.pdf
+  fetched: 2026-11-03
+  quote: PMNH is the only focal point of GBIF here in Pakistan
+- claim: GBIF's registry lists the GBIF Pakistan node as an observer, with its homepage on
+    the PMNH site and an address at Shakarparian, Islamabad.
+  url: https://api.gbif.org/v1/node/country/PK
+  fetched: 2026-11-03
+  quote: '"participationStatus":"OBSERVER"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://environment.gov.pk/SiteImage/Misc/files/NBC/National%20Reports/pk-nr-05-en.pdf
+  fetched: 2026-11-03
+  quote: PMNH is the only focal point of GBIF here in Pakistan
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

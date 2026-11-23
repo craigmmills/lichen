@@ -1,0 +1,54 @@
+id: next-forest-peatland-ai-model
+kind: model
+name: NeXT FOREST tropical peatland AI hydrological model
+also_known_as:
+- AI水理モデル
+- 音声AIを活用した生物多様性モニタリングの実証実験
+scope: jp
+ai_label: ai
+realms:
+- land
+- freshwater
+status: active
+summary: Tropical peatland hydrological AI model that a June 2023 release said would let AI predict groundwater
+  levels.
+facts:
+- claim: The June 2023 release says introducing the technology would let AI predict groundwater levels,
+    a task previously limited to experienced Sumitomo Forestry engineers.
+  url: https://sfc.jp/information/news/2023/2023-06-27.html
+  fetched: 2026-11-02
+  quote: この技術の導入で住友林業の経験豊富な技術者のみができた地下水位予測をAIで行うことが可能となります。
+- claim: Okumura Corporation and Sagamihara City began the trial jointly, reported on 27 August 2026.
+  url: https://www.oricon.co.jp/pressrelease/2959765/
+  fetched: 2026-11-02
+  quote: 音声AIを活用した生物多様性モニタリングの実証実験を共同で開始しました。
+links:
+- type: built-by
+  to: next-forest
+  url: https://sfc.jp/information/news/2023/2023-06-27.html
+  fetched: 2026-11-02
+  quote: 初期AIモデル（AI水理モデル）を構築しました。
+- type: built-by
+  to: recursive-japan
+  url: https://sfc.jp/information/news/2023/2023-06-27.html
+  fetched: 2026-11-02
+  quote: リカーシブと協業しています。
+- type: built-by
+  to: okumura-corporation
+  url: https://www.oricon.co.jp/pressrelease/2959765/
+  fetched: 2026-11-02
+  quote: 音声AIを活用した生物多様性モニタリングの実証実験を共同で開始しました。
+- type: partners-with
+  to: sagamihara-city
+  url: https://www.oricon.co.jp/pressrelease/2959765/
+  fetched: 2026-11-02
+  quote: 本実証実験は、奥村組と相模原市が2024年8月に締結した包括連携協定（※）に基づき実施するものです。
+found_by:
+- checklist:5
+- checklist:7
+added_by: agent
+checked: 2026-11-02
+countries:
+- jp
+techniques:
+- bioacoustics

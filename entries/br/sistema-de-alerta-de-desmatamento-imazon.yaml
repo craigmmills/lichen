@@ -1,0 +1,68 @@
+id: sistema-de-alerta-de-desmatamento-imazon
+kind: programme
+name: Sistema de Alerta de Desmatamento
+also_known_as:
+- SAD
+- SAD Imazon
+- Deforestation Alert System
+- Sistema de Alerta do Desmatamento
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Imazon's monthly alerts on deforestation and forest degradation in the Brazilian
+  Amazon, moved to Google Earth Engine in 2012.
+facts:
+- claim: Gives monthly alerts on deforestation and degradation.
+  url: https://news.mongabay.com/2012/06/near-real-time-amazon-deforestation-alert-system-added-to-google-earth-engine/
+  fetched: '2026-10-30'
+  quote: A system providing monthly alerts on deforestation and forest degradation
+    in the Brazilian Amazon
+- claim: Coordinated at Imazon by Carlos Souza Jr.
+  url: https://portalamazonia.com/educacao/pesquisador-imazon-cientistas-mais-citados-do-mundo/
+  fetched: '2026-10-30'
+  quote: Além de coordenar diversos programas no Imazon, como o Sistema de Alerta
+    do Desmatamento (SAD)
+- claim: Has used AI to validate alerts since August 2023.
+  url: https://imazongeo.org.br/sad/
+  fetched: '2026-10-30'
+  quote: Desde agosto de 2023 o SAD utiliza inteligência artificial (IA) na validação
+    dos alertas
+- claim: The AI model was developed with IMPA and has saved 24% of validation hours.
+  url: https://imazongeo.org.br/sad/
+  fetched: '2026-10-30'
+  quote: Através de uma parceria do Imazon com o IMPA, foi desenvolvido um modelo
+    de IA para auxiliar no processo de validação, que já economizou 24% do tempo de
+    horas validadas
+links:
+- type: run-by
+  to: instituto-do-homem-e-meio-ambiente-da-amazonia
+  url: https://news.mongabay.com/2012/06/near-real-time-amazon-deforestation-alert-system-added-to-google-earth-engine/
+  fetched: '2026-10-30'
+  quote: reports Imazon, the Brazilian NGO that developed the Alert Sys
+- type: run-by
+  to: instituto-do-homem-e-meio-ambiente-da-amazonia
+  url: https://portalamazonia.com/educacao/pesquisador-imazon-cientistas-mais-citados-do-mundo/
+  fetched: '2026-10-30'
+  quote: Além de coordenar diversos programas no Imazon, como o Sistema de Alerta
+    do Desmatamento (SAD)
+- type: run-by
+  to: instituto-do-homem-e-meio-ambiente-da-amazonia
+  url: https://imazongeo.org.br/sad/
+  fetched: '2026-10-30'
+  quote: foi desenvolvida pelo Imazon em 2008
+- type: partners-with
+  to: instituto-de-matematica-pura-e-aplicada
+  url: https://imazongeo.org.br/sad/
+  fetched: '2026-10-30'
+  quote: Através de uma parceria do Imazon com o IMPA
+found_by:
+- checklist:7
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

@@ -1,0 +1,48 @@
+id: university-of-california-san-diego
+kind: organisation
+name: University of California San Diego
+also_known_as:
+- UC San Diego
+- UCSD
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://ucsd.edu
+summary: Public university in La Jolla, California, where the CoralNet coral image analysis
+  tool began in the computer science department.
+facts:
+- claim: Located in La Jolla, California.
+  url: https://ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: 9500 Gilman Drive, La Jolla, CA 92093-0021
+- claim: CoralNet began with a PhD student in the computer science department.
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: then PhD student at the UCSD computer science department
+- claim: CoralNet deploys deep neural networks.
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: The site deploys deep neural networks which allow fully and semi automated annotation
+    of images.
+  ai_type: deep-learning
+- claim: CoralNet trains an automated annotator on manually annotated images.
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: When enough images are manually annotated, an automated annotator is trained.
+  ai_type: ml-supervised
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

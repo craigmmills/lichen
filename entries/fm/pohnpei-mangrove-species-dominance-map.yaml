@@ -1,0 +1,41 @@
+id: pohnpei-mangrove-species-dominance-map
+kind: dataset
+name: Mangrove Species Dominance Map of Pohnpei
+scope: fm
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- species-distribution
+countries:
+- fm
+status: active
+summary: Dataset published in 2022 as a public US Geological Survey data release, modelling mangrove species
+  dominance on Pohnpei with k-nearest neighbour and random forest models.
+facts:
+- claim: Mangrove species dominance on Pohnpei was modelled with k-nearest neighbour and random forest
+    models.
+  url: https://data.usgs.gov/datacatalog/data/USGS:62bf0f6dd34e82c548ced842
+  fetched: 2026-11-12
+  quote: 'Mangrove species dominance on Pohnpei island, Federated States of Micronesia was modeled with
+    two geospatial model types: k-nearest neighbor (KNN) and random forest (RF) and a common set of predictors.'
+- claim: The release shares the KNN RStudio model and its resulting mangrove species dominance map.
+  url: https://data.usgs.gov/datacatalog/data/USGS:62bf0f6dd34e82c548ced842
+  fetched: 2026-11-12
+  quote: The KNN RStudio model and resulting map are shared here.
+  ai_type: ml-supervised
+- claim: Published in 2022 as a US Geological Survey data release with public access.
+  url: https://data.usgs.gov/datacatalog/data/USGS:62bf0f6dd34e82c548ced842
+  fetched: 2026-11-12
+  quote: 'Peneva-Reed, E.I., Woltz, V.L., and Zhu, Z., 2022, Mangrove Species Dominance Map of Pohnpei,
+    Federated States of Micronesia as Modeled by a K-Nearest Neighbor (KNN) Model : U.S. Geological Survey
+    data release'
+links: []
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

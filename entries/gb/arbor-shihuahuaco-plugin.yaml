@@ -1,0 +1,38 @@
+id: arbor-shihuahuaco-plugin
+kind: model
+name: ARBOR
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- gb
+- pe
+status: active
+summary: Artificial intelligence plugin for forest monitoring, developed by OSINFOR
+  and the University of Sheffield and trained on drone data from the Peruvian Amazon.
+facts:
+- claim: OSINFOR says it was developed with the University of Sheffield and trained
+    on drone data.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  quote: La herramienta, desarrollada por el OSINFOR y la Universidad de Sheffield,
+    fue entrenada con datos de bosques amazónicos peruanos obtenidas mediante drones.
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+links:
+- type: run-by
+  to: university-of-sheffield
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  quote: La herramienta, desarrollada por el OSINFOR y la Universidad de Sheffield
+  fetched: '2026-10-30'
+- type: partners-with
+  to: osinfor
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  quote: desarrollada por el OSINFOR
+  fetched: '2026-10-30'
+scope: gb
+added_by: agent
+checked: '2026-10-30'

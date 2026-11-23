@@ -1,0 +1,33 @@
+id: alliance-for-the-chesapeake-bay
+kind: organisation
+name: Alliance for the Chesapeake Bay
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: us
+countries:
+- us
+scale: local
+website: https://www.allianceforthebay.org
+summary: Regional watershed charity that lists the Chesapeake Monitoring Cooperative among
+  its projects.
+facts:
+- claim: Lists the cooperative as one of its projects.
+  url: https://www.allianceforthebay.org/project/chesapeake-monitoring-cooperative/
+  quote: Chesapeake Monitoring Cooperative - Alliance for the Chesapeake Bay
+  fetched: '2026-10-31'
+- claim: The IRS exempt organisation record, through ProPublica, lists Alliance For The Chesapeake
+    Bay Inc at Annapolis, Maryland.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/541060924.json
+  fetched: '2026-10-31'
+  quote: '"city":"Annapolis","state":"MD"'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

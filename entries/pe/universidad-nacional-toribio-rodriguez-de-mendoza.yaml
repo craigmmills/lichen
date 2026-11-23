@@ -1,0 +1,85 @@
+id: universidad-nacional-toribio-rodriguez-de-mendoza
+kind: organisation
+name: Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas
+also_known_as:
+- UNTRM
+scope: pe
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: pe
+countries:
+- pe
+scale: local
+status: active
+website: https://www.untrm.edu.pe
+summary: Education institution in Chachapoyas, Peru, whose researchers, per OpenAlex, have
+  published on machine learning for forest fire risk, lakes, land cover change, drone tree
+  detection and open ecological data.
+facts:
+- claim: OpenAlex lists a 2025 paper led by a UNTRM researcher comparing three machine learning
+    methods to model forest fire risk in Amazonas.
+  url: https://api.openalex.org/works?filter=institutions.id:I3133295647,title_and_abstract.search:machine%20learning%20OR%20random%20forest%20OR%20deep%20learning&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: 'Modeling of Forest Fire Risk Areas of Amazonas Department, Peru: Comparative Evaluation
+    of Three Machine Learning Methods'
+- claim: OpenAlex lists a 2022 paper by UNTRM researchers on lake dynamics using SAR data
+    and machine learning classifiers.
+  url: https://api.openalex.org/works?filter=institutions.id:I3133295647,title_and_abstract.search:machine%20learning%20OR%20random%20forest%20OR%20deep%20learning&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Dynamics of the Burlan and Pomacochas Lakes Using SAR Data in GEE, Machine Learning
+    Classifiers, and Regression Methods
+- claim: OpenAlex lists a 2024 paper by UNTRM researchers on land use and land cover change
+    in Peru's dry forests with cloud computing.
+  url: https://api.openalex.org/works?filter=institutions.id:I3133295647,title_and_abstract.search:machine%20learning%20OR%20random%20forest%20OR%20deep%20learning&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Cloud Computing Application for the Analysis of Land Use and Land Cover Changes in
+    Dry Forests of Peru
+- claim: Prociencia reports that a UNTRM forest researcher and lecturer trained in LiDAR in
+    Brazil.
+  url: https://www.gob.pe/institucion/prociencia/noticias/1382992-investigador-de-la-untrm-incorpora-tecnologia-de-vanguardia-para-modernizar-la-gestion-forestal-en-la-amazonia
+  fetched: 2026-11-03
+  quote: Vergara, investigador y docente de la Universidad Nacional Toribio Rodríguez de Mendoza
+    de Amazonas
+- claim: OpenAlex gives its location as Chachapoyas, Peru.
+  url: https://api.openalex.org/institutions/I3133295647?select=id,display_name,homepage_url,geo,type
+  fetched: 2026-11-03
+  quote: '"city":"Chachapoyas"'
+- claim: OpenAlex lists National University Toribio Rodríguez de Mendoza as an education institution
+    in Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "https://www.untrm.edu.pe", "country_code": "PE", "type": "education"'
+- claim: OpenAlex lists a 2026 paper with its authors on detecting the threatened tree Manilkara
+    bidentata from drone canopy images with deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I3133295647,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Detection of the Threatened Tree Species Manilkara bidentata Using UAV-Captured Canopy
+    Images and Deep Learning Models
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2025 paper with its authors on detecting Ceroxylon palms by deep
+    learning in a protected area in Amazonas.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I3133295647,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Automatic Detection of Ceroxylon Palms by Deep Learning in a Protected Area in Amazonas
+    (NW Peru)
+- claim: OpenAlex lists a 2026 paper with its authors on opening ecological data to strengthen
+    AI in ecology.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I3133295647,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Opening ecological data to reduce bias and strengthen AI in ecology
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

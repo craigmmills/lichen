@@ -1,0 +1,30 @@
+id: oppal
+kind: organisation
+name: OPPAL
+scope: ch
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+website: https://oppal.ch/en/programmes/surveillance/
+summary: An organisation whose volunteers watch over flocks on mountain pastures at night,
+  and whose video dataset is the basis for WolfCam.
+facts:
+- claim: Volunteers watch over flocks on mountain pastures at night.
+  url: https://oppal.ch/en/programmes/surveillance/
+  fetched: '2026-11-02'
+  quote: OPPAL's monitoring program proposes that watchmen relieve shepherds on the summering
+    areas in order to ensure a continuous surveillance of the flock during the night.
+- claim: WolfCam is based on a video dataset collected by OPPAL.
+  url: https://www.idiap.ch/en/projects/wolfcam
+  fetched: '2026-11-02'
+  quote: Based on a large video dataset collected by OPPAL
+found_by:
+- link-from:wolfcam
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,47 @@
+id: state-key-laboratory-of-marine-pollution
+kind: organisation
+name: State Key Laboratory of Marine Pollution
+scope: hk
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- edna-genomics
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: Laboratory, named in an author affiliation as part of City University of
+  Hong Kong, that is the corresponding institution on three 2024 studies using eDNA
+  and marine indicators.
+facts:
+- claim: Corresponding institution on a 2024 study of community interactions in Hong
+    Kong coastal waters using environmental DNA.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I4391768037,publication_year:2022-2026,primary_topic.subfield.id:2303&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: Unraveling Community Potential Interactions by Environmental DNA in the Hong
+    Kong Coastal Waters
+- claim: Corresponding institution on a 2024 study comparing eDNA metabarcoding and
+    underwater visual census for fish diversity in urban-impacted ecosystems.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I4391768037,publication_year:2022-2026,primary_topic.subfield.id:2303&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: A Comparative Approach of eDNA Metabarcoding and UVC
+- claim: Corresponding institution on a 2024 study using biological indicators to
+    assess a conservation scheme for marine protected areas.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I4391768037,publication_year:2022-2026,primary_topic.subfield.id:2303&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: Multifaceted biological indicators reveal an effective conservation scheme
+    for marine protected areas
+- claim: An author affiliation names it as a laboratory of City University of Hong
+    Kong.
+  url: https://api.openalex.org/works/W4404734882?select=id,title,publication_year,corresponding_institution_ids,authorships
+  fetched: 2026-11-14
+  quote: State Key Laboratory of Marine Pollution, City University of Hong Kong,
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

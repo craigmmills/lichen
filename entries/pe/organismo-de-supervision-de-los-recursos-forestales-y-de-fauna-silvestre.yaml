@@ -1,0 +1,90 @@
+id: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+kind: organisation
+name: Organismo de Supervisión de los Recursos Forestales y de Fauna Silvestre
+also_known_as:
+- OSINFOR
+scope: pe
+sector: government
+roles:
+- governs
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Forest supervision body that runs Osinforlab and presented ADETOP v2 in July 2025,
+  an AI algorithm for detecting selective logging from space, developed with Sheffield and
+  Cambridge universities.
+facts:
+- claim: El Peruano reports that OSINFOR has used artificial intelligence to detect illegal
+    logging since 2023.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Desde el 2023, Osinfor usan inteligencia artificial para detectar la tala ilegal
+    en nuestro país.
+- claim: El Peruano reports that through Osinforlab, with academia, it develops detection
+    algorithms for illegal logging, forest fires and automated location of shihuahuaco trees
+    in drone images.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: la institución desarrolla algoritmos de detección para identificar la tala ilegal,
+    incendios forestales y localizar de manera automatizada árboles de shihuahuaco a partir
+    de imágenes captadas por drones.
+- claim: El Peruano reports that OSINFOR is developing forest fire sensor prototypes with
+    the Universidad Nacional de Ingeniería.
+  url: https://elperuano.pe/noticia/300312-inteligencia-artificial-y-drones-se-usan-para-proteger-la-amazonia
+  fetched: 2026-11-03
+  quote: Actualmente, con la Universidad Nacional de Ingeniería (UNI) se viene desarrollando
+    prototipos de sensores para detectar incendios forestales.
+- claim: Presented ADETOP v2 in July 2025, an AI algorithm to detect selective logging from
+    space, developed with the universities of Sheffield and Cambridge.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: presentó ADETOP v2, un nuevo algoritmo de inteligencia artificial para detectar tala
+    selectiva desde el espacio. Desarrollado junto con las universidades de Sheffield y Cambridge
+- claim: ADETOP v2 uses the Random Forest machine learning method.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: el ADETOP v2 utiliza el método del aprendizaje automático Random Forest
+  ai_type: ml-supervised
+- claim: Says that between 2023 and June 2025 ADETOP v1 helped detect 60 cases of illegal
+    logging.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: Durante el mismo período, permitió detectar 60 casos de tala ilegal
+links:
+- type: uses
+  to: geobosques
+  url: https://www.gob.pe/institucion/bosques/noticias/1423122-minam-celebra-los-10-anos-de-geobosques-la-plataforma-que-democratizo-el-acceso-a-la-informacion-sobre-los-bosques-del-peru
+  fetched: 2026-11-03
+  quote: información generada por Geobosques respalda el trabajo de instituciones como el
+    Servicio Nacional de Áreas Naturales Protegidas por el Estado (Sernanp), las Fiscalías
+    Especializadas en Materia Ambiental (FEMA), el Organismo de Supervisión de los Recursos
+    Forestales y de Fauna Silvestre (Osinfor)
+- type: runs
+  to: osinforlab
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: ARBOR forma parte de las iniciativas de OSINFORLAB, el laboratorio de innovación
+    y transformación digital del OSINFOR
+- type: partners-with
+  to: university-of-sheffield
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: La herramienta, desarrollada por el OSINFOR y la Universidad de Sheffield, fue entrenada
+    con datos de bosques amazónicos peruanos obtenidas mediante drones.
+found_by:
+- checklist:1
+- checklist:5
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- ml-supervised

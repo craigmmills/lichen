@@ -1,0 +1,34 @@
+id: beachwatch
+kind: dataset
+name: Beachwatch
+scope: gb
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- gb
+status: active
+website: https://mcsuk-production.herokuapp.com/beach-data-to-policy-change
+summary: Marine Conservation Society's 30-year citizen science dataset of UK beach litter
+  surveys, shared under data sharing agreements.
+facts:
+- claim: Shared freely under data sharing agreements with academics, councils, regulators
+    and others.
+  url: https://mcsuk-production.herokuapp.com/beach-data-to-policy-change
+  quote: sharing it freely with academia, local councils, regulators, businesses, water companies,
+    other charities, and grass roots campaigners
+  fetched: '2026-10-31'
+- claim: Survey results join a 30-year litter dataset.
+  url: https://mcsuk-production.herokuapp.com/beach-data-to-policy-change
+  quote: added to our 30-year litter data set
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: marine-conservation-society
+  url: https://mcsuk-production.herokuapp.com/beach-data-to-policy-change
+  quote: Our Beachwatch data has been influential in securing policy and legislative changes
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

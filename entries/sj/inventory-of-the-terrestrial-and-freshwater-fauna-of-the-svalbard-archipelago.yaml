@@ -1,0 +1,29 @@
+id: inventory-of-the-terrestrial-and-freshwater-fauna-of-the-svalbard-archipelago
+kind: dataset
+name: Inventory of the terrestrial and freshwater fauna of the Svalbard archipelago
+scope: sj
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+summary: Active GBIF checklist of Svalbard terrestrial and freshwater fauna, built
+  from species names in almost 800 publications from 1869 to 2023, assessed by taxon
+  experts and published by the University Centre in Svalbard.
+facts:
+- claim: GBIF lists it as a checklist built from species names in almost 800 scientific
+    publications from 1869 to 2023, assessed by taxon experts.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=SJ&limit=50
+  fetched: 2026-11-15
+  quote: This is an inventory created by searching species names from almost 800 scientific
+    publications from 1869 until 2023.
+- claim: GBIF gives the University Centre in Svalbard as its publishing organisation.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=SJ&limit=50
+  fetched: 2026-11-15
+  quote: '"publishingOrganizationTitle":"The University Centre in Svalbard","publicationDate":"2024-03-07T12:00:00.000+00:00"'
+links: []
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-15

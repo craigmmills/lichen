@@ -1,0 +1,30 @@
+id: global-forest-cover-2020
+kind: dataset
+name: Global Forest Cover 2020
+also_known_as:
+- GFC2020
+- JRC Global Map of Forest Cover
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://forobs.jrc.ec.europa.eu/GFC
+summary: Global map of where forests existed in 2020, made by combining global datasets on tree cover, tree height, land cover and land use.
+facts:
+- claim: Combines global datasets on tree cover, height, land cover and land use.
+  url: https://forobs.jrc.ec.europa.eu/GFC
+  fetched: '2026-10-30'
+  quote: was created by combining available global datasets
+links:
+- type: run-by
+  to: joint-research-centre
+  url: https://forobs.jrc.ec.europa.eu/GFC
+  fetched: '2026-10-30'
+  quote: European Commission, Joint Research Centre
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

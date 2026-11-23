@@ -1,0 +1,32 @@
+id: mapa-de-cobertura-vegetal-y-uso-de-la-tierra-2025-guatemala
+kind: dataset
+name: Mapa de Cobertura Vegetal y Uso de la Tierra 2025 de Guatemala
+scope: gt
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- gt
+status: active
+runner: unknown
+summary: Land cover and land use map of Guatemala at 1:50,000, described by the agriculture
+  ministry's catalogue as a 2025 MAGA update through DIGEGR, validated in all 22 departments.
+facts:
+- claim: The agriculture ministry's catalogue describes the 2025 map as a 1:50,000
+    update by MAGA through DIGEGR.
+  url: https://apps.maga.gob.gt/sieagro/Normativas?categoriaId=204&clasificacionId=21&page=1&sortOrder=FechaDocumento_desc&tipoId=1
+  fetched: 2026-11-12
+  quote: EL MAPA DE COBERTURA VEGETAL Y USO DE LA TIERRA 2025 DE GUATEMALA, A ESCALA
+    1:50,000, ES UNA ACTUALIZACION ESTRATEGICA DEL MINISTERIO DE AGRICULTURA, GANADERIA
+    Y ALIMENTACION (MAGA) A TRAVES DE LA DIGEGR.
+- claim: The map is validated in the 22 departments and details forests, farmland
+    and urban areas.
+  url: https://apps.maga.gob.gt/sieagro/Normativas?categoriaId=204&clasificacionId=21&page=1&sortOrder=FechaDocumento_desc&tipoId=1
+  fetched: 2026-11-12
+  quote: VALIDADA EN LOS 22 DEPARTAMENTOS, DETALLA BOSQUES, TIERRAS AGRICOLAS Y AREAS
+    URBANAS
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

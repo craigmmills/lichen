@@ -1,0 +1,41 @@
+id: planscape
+kind: project
+name: Planscape
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+scale: national
+status: active
+runner: unknown
+website: https://www.planscape.org/
+summary: Free, open source decision support tool for prioritising landscape treatments
+  for wildfire resilience, built as a collaboration including the US Forest Service,
+  Google.org and the University of California.
+facts:
+- claim: A free decision support tool for prioritising landscape treatments.
+  url: https://www.planscape.org/
+  quote: Planscape is a free decision support tool built to maximize wildfire resilience
+  fetched: '2026-10-30'
+- claim: A collaboration of the US Forest Service, Google.org, the University of California
+    and others.
+  url: https://www.planscape.org/
+  quote: Planscape is a collaborative effort by the US Forest Service, Google.org,
+    University of California, Spatial Informatics Group, American Forests, Indian
+    Land Tenure Foundation, California Natural Resources Agency, and others.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: us-forest-service
+  url: https://www.planscape.org/
+  quote: Planscape is a collaborative effort by the US Forest Service
+  fetched: '2026-10-30'
+- type: partners-with
+  to: google-org
+  url: https://www.planscape.org/
+  quote: "is supported by major agencies including the USFS, ILTF, American Forests, CNRA, University of California, the California Wildfire and Forest Resilience Taskforce, and Google.org"
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

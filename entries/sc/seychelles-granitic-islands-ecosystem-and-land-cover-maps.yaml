@@ -1,0 +1,58 @@
+id: seychelles-granitic-islands-ecosystem-and-land-cover-maps
+kind: dataset
+name: Mapping ecosystem types and land cover types in the Seychelles granitic islands, using
+  Earth Engine and Sentinel-2
+scope: sc
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- sc
+status: active
+runner: unknown
+summary: Dataset on Zenodo under a CC BY 4.0 licence, including a 10 m Sentinel-2 land cover
+  classification of the granitic islands, built by Bruno Senterre and funded partly by the
+  Seychelles Government and GBIF.
+facts:
+- claim: The maps include a 10 m land cover classification from Sentinel-2 using object-based
+    image analysis, for the granitic islands.
+  url: https://zenodo.org/record/7511302
+  fetched: 2026-11-09
+  quote: The maps include a land cover classification based on Sentinel-2, at 10m resolution,
+    using an Object-Based Image Analysis approach, for the Seychelles granitic islands.
+- claim: Published on Zenodo under a Creative Commons Attribution 4.0 licence.
+  url: https://zenodo.org/record/7511302
+  fetched: 2026-11-09
+  quote: Creative Commons Attribution 4.0 International
+- claim: The record says the work was funded in part by the Government of Seychelles through
+    the UNDP-GEF Ridge to Reef project and in part by GBIF through a Plant Conservation Action
+    group project.
+  url: https://zenodo.org/record/7511302
+  fetched: 2026-11-09
+  quote: in part by Global Biodiversity Information Facility (PCA project titled "Mainstreaming
+    recent species and ecosystem distribution data into Seychelles Key Biodiversity Areas
+    assessments", BID-AF2020-094-NAC)
+links:
+- type: builds-on
+  to: sentinel-2
+  url: https://zenodo.org/record/7511302
+  fetched: 2026-11-09
+  quote: The maps include a land cover classification based on Sentinel-2, at 10m resolution
+- type: builds-on
+  to: google-earth-engine
+  url: https://zenodo.org/record/7511302
+  fetched: 2026-11-09
+  quote: We share here maps produced using Earth Engine
+- type: funded-by
+  to: global-biodiversity-information-facility
+  url: https://zenodo.org/record/7511302
+  fetched: 2026-11-09
+  quote: in part by Global Biodiversity Information Facility (PCA project titled "Mainstreaming
+    recent species and ecosystem distribution data into Seychelles Key Biodiversity Areas
+    assessments", BID-AF2020-094-NAC)
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-09

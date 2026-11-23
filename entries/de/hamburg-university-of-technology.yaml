@@ -1,0 +1,50 @@
+id: hamburg-university-of-technology
+kind: organisation
+name: Hamburg University of Technology
+also_known_as:
+- TUHH
+- Technische Universität Hamburg
+scope: de
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: de
+scale: local
+status: active
+website: https://www.sensors.tuhh.de/Research/BioDivKI2/
+summary: University whose Smart Sensors Group partners in BioIntAkt-2, responsible for developing
+  the intelligent acoustic sensor system and hardware accelerators for embedded AI on the
+  sensor.
+facts:
+- claim: Its Smart Sensors Group is a cooperation partner in BioIntAkt-2 and is responsible
+    for developing the intelligent acoustic sensor system.
+  url: https://www.sensors.tuhh.de/Research/BioDivKI2/
+  fetched: '2026-11-07'
+  quote: Smart Sensors Group of Hamburg University of Technology (TUHH) is a cooperation partner
+    within this joint project and is responsible in particular for the development of the
+    intelligent, robust and reliable acoustic sensor system.
+- claim: Develops dedicated hardware accelerators for embedded AI on the sensor.
+  url: https://www.sensors.tuhh.de/Research/BioDivKI2/
+  fetched: '2026-11-07'
+  quote: dedicated HW accelerators are being developed for the processing of embedded AI
+- claim: Gives its address in Hamburg.
+  url: https://www.sensors.tuhh.de/Research/BioDivKI2/
+  fetched: '2026-11-07'
+  quote: D-21073 Hamburg
+links:
+- type: partners-with
+  to: biointakt
+  url: https://www.sensors.tuhh.de/Research/BioDivKI2/
+  fetched: '2026-11-07'
+  quote: Smart Sensors Group of Hamburg University of Technology (TUHH) is a cooperation partner
+    within this joint project
+found_by:
+- rule:checklist-misses
+- link-from:biointakt
+added_by: agent
+checked: '2026-11-07'

@@ -1,0 +1,30 @@
+id: inventaire-permanent-des-ressources-forestieres-de-wallonie
+kind: dataset
+name: Inventaire permanent des Ressources forestières de Wallonie
+also_known_as:
+- IPRFW
+scope: be
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Permanent Walloon forest inventory, run by the Department of Nature and Forests
+  (SPW), which began on 1 February 1994 and gained its own administrative unit in
+  1996.
+facts:
+- claim: The permanent Walloon forest inventory began on 1 February 1994; its dedicated
+    administrative unit was created in 1996.
+  url: https://environnement.wallonie.be/home/milieux/forets-et-nature/forets-wallonnes/en-chiffres-et-en-cartes/la-cellule-inventaire.html
+  fetched: '2026-11-02'
+  quote: L'inventaire proprement dit a débuté le 1er février 1994
+links:
+- type: run-by
+  to: departement-de-la-nature-et-des-forets
+  url: https://environnement.wallonie.be/home/milieux/forets-et-nature/forets-wallonnes/en-chiffres-et-en-cartes/la-cellule-inventaire.html
+  fetched: '2026-11-02'
+  quote: Elle est intégrée au Département de la Nature et des Forêts, au sein de la
+    Direction des Ressources forestières.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,58 @@
+id: abe-satellite-fire-monitoring-platform
+kind: programme
+name: ABE satellite fire-monitoring platform
+scope: bo
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bo
+status: active
+website: https://sots.abe.bo/
+summary: Satellite platform updating heat hotspots from Earth-observation data, running
+  around the clock according to the Ministry of Public Works, which instructed ABE
+  to monitor fires in July 2026.
+facts:
+- claim: The Ministry of Public Works says the platform was developed by the Laboratorio
+    de Procesamiento y Análisis de Imágenes Satelitales (LPAIS) and runs 24 hours
+    a day.
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: La plataforma fue desarrollada por el Laboratorio de Procesamiento y Análisis
+    de Imágenes Satelitales (LPAIS)
+- claim: Processes data from several Earth-observation satellites to update heat hotspots.
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: La plataforma procesa y analiza información proveniente de diferentes satélites
+    de observación de la Tierra, para actualizar los focos de calor
+- claim: Shows the extent and evolution of fires, access roads, water sources and
+    buildings at risk.
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: A través de esta herramienta es posible identificar la extensión de los incendios,
+    su evolución
+- claim: In July 2026 the Minister of Public Works instructed ABE to carry out satellite
+    monitoring of forest fires and heat hotspots.
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: instruyó a la Agencia Boliviana Espacial (ABE) realizar el monitoreo satelital
+    de incendios forestales y focos de calor
+links:
+- type: run-by
+  to: agencia-boliviana-espacial
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: constituye una capacidad tecnológica de la ABE al servicio del Estado
+- type: partners-with
+  to: japan-international-cooperation-agency
+  url: https://www.oopp.gob.bo/nota_prensa/ministro-zamora-instruye-a-la-abe-el-monitoreo-satelital-de-incendios-y-focos-de-calor/
+  fetched: 2026-11-12
+  quote: Su desarrollo cuenta con el apoyo de la Agencia de Cooperación Internacional
+    del Japón (JICA).
+found_by:
+- checklist:1
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

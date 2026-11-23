@@ -1,0 +1,40 @@
+id: sistema-nacional-de-anilhamento-de-aves-silvestres
+kind: programme
+name: Sistema Nacional de Anilhamento de Aves Silvestres
+also_known_as:
+- SNA
+scope: br
+ai_label: conservation-tech
+status: active
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- br
+summary: National bird ringing system, run by CEMAVE, that coordinates ringer registration,
+  authorisations, ring distribution and processing of ringing and recovery data, with
+  recoveries used to monitor lifespan, migration and population change.
+facts:
+- claim: Coordinates, at national level, the registration of ringers, ringing authorisations,
+    ring distribution, processing of ringing data and of recoveries.
+  url: https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/aves-silvestres/destaques/sistema-nacional-anilhamento
+  fetched: '2026-11-09'
+  quote: O Sistema Nacional de Anilhamento de Aves Silvestres (SNA) coordena e controla,
+    em nível nacional, os seguintes procedimentos
+- claim: Recoveries of ringed birds show their lifespan, the places they live, migration
+    routes and population changes, used for monitoring.
+  url: https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/aves-silvestres/destaques/sistema-nacional-anilhamento
+  fetched: '2026-11-09'
+  quote: flutuações dos tamanhos populacionais, dentre outras informações que são
+    fundamentais para o monitoramento
+links:
+- type: run-by
+  to: centro-nacional-de-pesquisa-e-conservacao-de-aves-silvestres
+  url: https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/centros_de_pesquisa_icmbio_especial_10_anos.pdf
+  fetched: '2026-11-09'
+  quote: O Cemave coordena o Sistema Nacional de
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

@@ -1,0 +1,39 @@
+id: deter
+kind: dataset
+name: DETER
+also_known_as:
+- Real-Time System for Detection of Deforestation
+- Sistema de Detecção do Desmatamento em Tempo Real
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: INPE's satellite alert system for deforestation, extended from 2023 to the
+  Pantanal and non-forest areas of the Amazon.
+facts:
+- claim: Alerts were extended to the Pantanal and non-forest parts of the Amazon from
+    2023.
+  url: https://terrabrasilis.dpi.inpe.br/
+  fetched: '2026-10-30'
+  quote: will now provide alerts on changes in vegetation cover in the Pantanal biome
+    and in non-forested areas of the Amazon starting in 2023
+- claim: Portal Amazônia says the wider system uses AI and satellite images for daily
+    alerts.
+  url: https://portalamazonia.com/amazonia/amazonia-nova-ferramenta-monitora/
+  fetched: '2026-10-30'
+  quote: Com o uso de inteligência artificial e imagens de satélite, o sistema vai
+    emitir alertas diários sobre desmatamento, mineração ilegal e queimadas na Amazônia.
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://terrabrasilis.dpi.inpe.br/
+  fetched: '2026-10-30'
+  quote: gerados pelos projetos de monitoramento da vegetação nativa do instituto
+    como o PRODES e o DETER
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

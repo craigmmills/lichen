@@ -1,0 +1,46 @@
+id: eritrea-wetlands-monitoring-and-assessment
+kind: dataset
+name: Eritrea Wetlands Monitoring and Assessment
+also_known_as:
+- Eritrea_WMA
+scope: er
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- er
+status: unknown
+runner: unknown
+summary: Map service covering Debarwa wetlands in Eritrea for 1990, 2000 and 2019,
+  tagged with status maps, change maps, Sentinel-2 and Landsat, with credited bodies’
+  roles unspecified.
+facts:
+- claim: The map service describes itself as monitoring and assessment of the Debarwa
+    wetlands in Eritrea for 2019, 2000 and 1990.
+  url: https://maps.rcmrd.org/ArcGIS/rest/services/Eritrea/Eritrea_WMA/MapServer/info/iteminfo
+  fetched: 2026-11-15
+  quote: Eritrea Debarwa Wetlands Monitoring and Assessment for 2019,2000 & 1990
+- claim: The map service is tagged with wetland monitoring, status maps and change
+    maps.
+  url: https://maps.rcmrd.org/ArcGIS/rest/services/Eritrea/Eritrea_WMA/MapServer/info/iteminfo
+  fetched: 2026-11-15
+  quote: '"wetland_monitoring","status_maps","change_maps","landcover"'
+- claim: The map service is tagged with the Sentinel-2 and Landsat satellites.
+  url: https://maps.rcmrd.org/ArcGIS/rest/services/Eritrea/Eritrea_WMA/MapServer/info/iteminfo
+  fetched: 2026-11-15
+  quote: '"Sentinel-2","Landsat."'
+- claim: The service's access information line credits the AUC, the EUC, RCMRD's GMES
+    and Africa programme and the Environmental Information and Awareness unit of the
+    Ministry of Land, Water and Environment; the page does not say which of them built
+    or runs it.
+  url: https://maps.rcmrd.org/ArcGIS/rest/services/Eritrea/Eritrea_WMA/MapServer/info/iteminfo
+  fetched: 2026-11-15
+  quote: 'AUC, EUC, RCMRD GMES & AFRICA PROGRAM, ENVIRONMENTAL INFORMATION AND AWARENESS:
+    MINISTRY OF LAND, WATER AND ENVIRONMENT-ERITREA'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

@@ -1,0 +1,33 @@
+id: living-switzerland
+kind: project
+name: Living Switzerland
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: A project described as building a digital twin of the environment with satellite data and AI,
+  built by the University of Geneva, delivering 10 m land cover maps and time series since 2018.
+facts:
+- claim: Described as building a digital twin of the environment with satellite data and AI.
+  url: https://www.bafu.admin.ch/de/ubk25
+  quote: Living Switzerland monitors climate change impacts by building a Digital Twin of the environment
+    using satellite data and AI.
+  fetched: '2026-11-02'
+- claim: Delivers 10 m land cover maps and time series since 2018.
+  url: https://www.bafu.admin.ch/de/ubk25
+  quote: Since 2018, it delivers 10 m resolution land cover maps and time series analyses to track changes
+    in ecosystems, soil, and vegetation
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: university-of-geneva
+  url: https://www.bafu.admin.ch/de/ubk25
+  quote: Developed at the University of Geneva
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

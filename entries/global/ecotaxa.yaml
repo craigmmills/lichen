@@ -1,0 +1,23 @@
+id: ecotaxa
+kind: dataset
+name: EcoTaxa
+scope: global
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://ecotaxa.obs-vlfr.fr
+summary: Web tool for the taxonomic classification of plankton and other images, hosting over
+  900 million images from about 900 institutions.
+facts:
+- claim: Hosts over 900 million images.
+  url: https://ecotaxa.obs-vlfr.fr/
+  fetched: '2026-10-30'
+  quote: EcoTaxa hosts over 900 million images from ~900 institutions and 4500 users.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

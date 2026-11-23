@@ -1,0 +1,34 @@
+id: vigilife
+kind: programme
+name: Vigilife
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+website: https://vigilife.org
+summary: Alliance and observatory that publishes biodiversity data from environmental DNA studies around the world. SPYGEN manages its site.
+facts:
+- claim: Says it tracks world biodiversity with environmental DNA.
+  url: https://vigilife.org
+  quote: Suivez l’évolution de la biodiversité mondiale grâce à l’ ADN environnemental .
+  fetched: '2026-10-30'
+- claim: Publishes biodiversity data from environmental DNA studies.
+  url: https://vigilife.org
+  quote: Découvrez les données de biodiversité issues d’expertises ADN environnemental.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: spygen
+  url: https://vigilife.org/mentions-legales
+  quote: "La gestion du site vigilife.org est confiée par l’alliance Vigilife à SPYGEN"
+  fetched: '2026-10-30'
+scope: global
+runner: unknown
+status: active
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

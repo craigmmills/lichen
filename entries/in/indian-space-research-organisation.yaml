@@ -1,0 +1,74 @@
+id: indian-space-research-organisation
+kind: organisation
+name: Indian Space Research Organisation
+also_known_as:
+- ISRO
+scope: in
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+hq: in
+countries:
+- in
+scale: national
+status: active
+website: https://www.isro.gov.in/
+summary: India's space agency. Its Bhuvan portal and National Remote Sensing Centre supply
+  satellite data on land cover and forests.
+facts:
+- claim: Says it is the space agency of India.
+  url: https://www.isro.gov.in/profile.html
+  quote: Indian Space Research Organisation (ISRO) is the space agency of India.
+  fetched: '2026-10-31'
+- claim: NISAR is a joint mission with NASA.
+  url: https://www.nrsc.gov.in/
+  fetched: '2026-10-31'
+  quote: NISAR is a joint Earth-observing mission between NASA and the Indian Space Research
+    Organization (ISRO)
+- claim: Released NISAR S-band data products through Bhoonidhi.
+  url: https://www.isro.gov.in/NISARS_Band_SAR_Data_Products_Release.html
+  fetched: '2026-10-31'
+  quote: ISRO has released the NISAR S-Band SAR daily processed data products through Bhoonidhi
+- claim: Says remote sensing data are used for biodiversity characterisation, wetlands, and
+    forest and biomass mapping.
+  quote: Remote sensing data is used for varieties of applications in forestry and environment
+    including Biodiversity characterization,
+  url: https://www.isro.gov.in/ForestandEnvironment.html
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+- link-from:nisar
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: partners-with
+  to: nisar
+  url: https://science.nasa.gov/mission/nisar/
+  fetched: '2026-10-31'
+  quote: NISAR (NASA-ISRO Synthetic Aperture Radar)
+- type: runs
+  to: bhoonidhi
+  url: https://www.isro.gov.in/NISARS_Band_SAR_Data_Products_Release.html
+  fetched: '2026-10-31'
+  quote: Bhoonidhi, ISRO’s Earth Observation data dissemination hub
+- type: runs
+  to: national-remote-sensing-centre
+  url: https://www.nrsc.gov.in/nrscnew/about.php
+  fetched: '2026-10-31'
+  quote: National Remote Sensing Centre (NRSC) is one of the primary centres of Indian Space
+    Research Organisation (ISRO)
+- type: partners-with
+  to: forest-survey-of-india
+  quote: satellite data and are provided to Forest Survey of India (FSI), MoEF&CC and other
+    state forest departments for field interventions.
+  url: https://www.isro.gov.in/ForestandEnvironment.html
+  fetched: '2026-10-31'

@@ -1,0 +1,35 @@
+id: uae-mangrove-deep-learning-monitoring-model
+kind: model
+name: Artificial Intelligence Mangrove Monitoring System (UAE, 2017-2024)
+scope: ae
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- remote-sensing
+status: unknown
+summary: Model using UNet++, Sentinel-2 data and hand-labelled training data to monitor UAE mangroves
+  from 2017 to 2024, reporting about 9,142 hectares of dense mangrove in 2024, up about 2,061 hectares
+  on 2017.
+facts:
+- claim: Uses UNet++ deep learning, Sentinel-2 multispectral data and hand-labelled training data to monitor
+    UAE mangroves with coverage greater than 70% from 2017 to 2024.
+  url: https://www.arxiv.org/abs/2411.11918
+  fetched: 2026-11-08
+  quote: This study utilizes the UNet++ deep learning model combined with Sentinel-2 multispectral data
+    and manually annotated labels
+  ai_type: deep-learning
+- claim: Reports about 9,142 hectares of densely distributed mangroves with coverage greater than 70%
+    in the UAE in 2024, up about 2,061 hectares on 2017.
+  url: https://www.arxiv.org/abs/2411.11918
+  fetched: 2026-11-08
+  quote: the total mangrove area in the UAE in 2024 was approximately 9,142.21 hectares, an increase of
+    2,061.33 hectares compared to 2017
+links: []
+runner: unknown
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

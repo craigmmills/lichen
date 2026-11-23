@@ -1,0 +1,60 @@
+id: iiit-delhi
+kind: organisation
+name: Indraprastha Institute of Information Technology, Delhi
+also_known_as:
+- IIIT-Delhi
+- IIIT Delhi
+- IIITD
+scope: in
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: in
+countries:
+- in
+scale: national
+status: active
+summary: University in Delhi whose computer vision group built CaTRAT with the Wildlife Institute
+  of India and works on AI monitoring for the national tiger census.
+facts:
+- claim: IndiaAI reports that a doctoral student there took on the tiger project with the
+    Wildlife Institute of India.
+  url: https://indiaai.gov.in/article/this-indian-ai-researcher-s-work-may-help-save-tiger-population
+  quote: she was offered to work on the tiger project with WII
+  fetched: '2026-10-31'
+- claim: A thesis in its repository developed a deep learning species module for camera-trap
+    images.
+  url: https://repository.iiitd.edu.in/jspui/handle/123456789/1371?show=full
+  fetched: '2026-10-31'
+  quote: we have developed the Deep Learning (DL) based species categorization module for
+    the Camera Trap Data Repository and Analysis Tool (CaTRAT)
+  ai_type: deep-learning
+- claim: Microsoft says it was working on a tool for identifying and locating monkeys in human
+    habitats.
+  quote: is working on an intelligent tool for identifying and locating monkeys in human habitats
+  url: https://news.microsoft.com/en-in/microsoft-announces-ai-for-earth-grant-recipients-from-india-and-deepens-commitment-to-sustainability-in-the-country/
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+- queue:in
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning
+links:
+- type: partners-with
+  to: ai-and-biodiversity-change-global-center
+  url: https://sites.google.com/view/abcresearchcenter/team
+  fetched: '2026-10-31'
+  quote: IIIT Delhi
+- type: funded-by
+  to: microsoft
+  quote: Microsoft today announced grants to seven recipients from India under AI for Earth
+  url: https://news.microsoft.com/en-in/microsoft-announces-ai-for-earth-grant-recipients-from-india-and-deepens-commitment-to-sustainability-in-the-country/
+  fetched: '2026-10-31'

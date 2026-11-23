@@ -1,0 +1,55 @@
+id: rtm-adatbazis
+kind: dataset
+name: RTM adatbázis
+also_known_as:
+- Ritka és Telepesen fészkelő madarak Monitoringja (RTM) database
+scope: hu
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- hu
+status: active
+summary: Breeding bird database built and run by MME's Monitoring Centre staff, holding
+  over four million uploaded records and, since 2013, data summarised for 2.5 by 2.5
+  km UTM squares.
+facts:
+- claim: The database shows more than four million uploaded records.
+  url: https://rtm.mme.hu/
+  fetched: 2026-11-12
+  quote: 'Feltöltött adatok száma: 4038123'
+- claim: Since 2013 it takes data from any survey from which the breeding population
+    of birds in an area can be determined, summarised for 2.5 by 2.5 km UTM squares.
+  url: https://rtm.mme.hu/
+  fetched: 2026-11-12
+  quote: 2013-tól nem csak az RTM adatokat lehet feltölteni, hanem minden olyan felmérés
+    adatait
+- claim: MME developed the database in a cross-border bird monitoring network project
+    (HURO/0901/098/1.3.1.), with 2013 developments under a further project (HUSK/1101/2.2.1/0336).
+  url: https://rtm.mme.hu/
+  fetched: 2026-11-12
+  quote: Ezt az adatbázist a Magyar Madártani és Természetvédelmi Egyesület (MME)
+    fejlesztette
+- claim: Staff of MME's Monitoring Centre develop and operate the database.
+  url: https://rtm.mme.hu/
+  fetched: 2026-11-12
+  quote: Az adatbázis fejlesztését és működtetését az MME Monitoring Központjának
+    munkatársai végzik.
+links:
+- type: built-by
+  to: magyar-madartani-es-termeszetvedelmi-egyesulet
+  url: https://rtm.mme.hu/
+  fetched: 2026-11-12
+  quote: Ezt az adatbázist a Magyar Madártani és Természetvédelmi Egyesület (MME)
+    fejlesztette
+- type: run-by
+  to: magyar-madartani-es-termeszetvedelmi-egyesulet
+  url: https://rtm.mme.hu/
+  fetched: 2026-11-12
+  quote: Az adatbázis fejlesztését és működtetését az MME Monitoring Központjának
+    munkatársai végzik.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

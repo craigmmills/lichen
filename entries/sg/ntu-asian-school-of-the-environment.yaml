@@ -1,0 +1,49 @@
+id: ntu-asian-school-of-the-environment
+kind: organisation
+name: Asian School of the Environment, Nanyang Technological University
+scope: sg
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- sg
+scale: national
+status: active
+summary: School run by Nanyang Technological University; NTU reported in May 2024 an AI biodiversity monitoring
+  unit on campus and ten moth monitoring stations around Singapore, and it publishes dung beetle records
+  to GBIF.
+facts:
+- claim: A May 2024 NTU news report shows an AI biodiversity monitoring unit set up on the NTU campus,
+    pictured with Asian School of the Environment staff.
+  url: https://www.ntu.edu.sg/news/detail/scientists-turn-to-moths-to-assess-health-of-ecosystems
+  fetched: '2026-11-08'
+  quote: In the middle is an AI biodiversity monitoring unit set up on the NTU campus at the edge of the
+    forest, in the western catchment area.
+- claim: In May 2024, NTU reported ten remote moth monitoring stations with UV lights and cameras around
+    Singapore; it said AI could identify species in real time after a local database was established using
+    iNaturalist images.
+  url: https://www.ntu.edu.sg/news/detail/scientists-turn-to-moths-to-assess-health-of-ecosystems
+  fetched: '2026-11-08'
+  quote: 10 remote monitoring stations have been placed around the island, each fitted with an ultraviolet
+    (UV) light source to attract the insects and a camera to photograph them automatically.
+- claim: Publishes dung beetle records of Singapore to GBIF.
+  url: https://api.gbif.org/v1/organization/bcca26a2-c260-4784-96f7-fda23a2761fd/publishedDataset?limit=50
+  fetched: '2026-11-08'
+  quote: 'Records of Dung Beetles (Coleoptera: Scarabaeidae: Scarabaeinae) of Singapore'
+links:
+- type: run-by
+  to: nanyang-technological-university
+  url: https://www.ntu.edu.sg/news/detail/scientists-turn-to-moths-to-assess-health-of-ecosystems
+  fetched: '2026-11-08'
+  quote: NTU Asian School of the Environment
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-11-08'

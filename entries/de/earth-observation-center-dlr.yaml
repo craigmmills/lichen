@@ -1,0 +1,58 @@
+id: earth-observation-center-dlr
+kind: programme
+name: Earth Observation Center
+also_known_as:
+- EOC
+- DLR Earth Observation Center
+scope: de
+ai_label: ai
+roles:
+- supplies-data
+- builds-ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+countries: []
+website: https://www.dlr.de/en/eoc
+summary: Germany's centre for Earth observation at DLR, formed by the German Remote
+  Sensing Data Center and the Remote Sensing Technology Institute.
+facts:
+- claim: Formed by DFD and IMF, and described as the competence centre for Earth observation
+    in Germany.
+  url: https://www.dlr.de/en/eoc
+  fetched: '2026-10-31'
+  quote: Zusammen mit dem Institut für Methodik der Fernerkundung (IMF) bildet das
+    DFD das Earth Observation Center EOC – das Kompetenzzentrum für Erdbeobachtung
+    in Deutschland
+- claim: Develops and uses AI methods for big data analysis, including deep learning.
+  url: https://www.dlr.de/de/eoc/ueber-uns/earth-observation-center-eoc
+  fetched: '2026-10-31'
+  quote: Entwicklung und Nutzung von Verfahren der Künstlichen Intelligenz bei der
+    Big Data Analyse, z. B. mit Maschinellem Lernen und Deep Learning
+  ai_type: deep-learning
+- claim: About 400 staff and the directorate are at Oberpfaffenhofen.
+  url: https://www.dlr.de/de/eoc/ueber-uns/earth-observation-center-eoc
+  fetched: '2026-10-31'
+  quote: Oberpfaffenhofen (ca. 400 Mitarbeiter und Sitz des Direktoriums)
+links:
+- type: run-by
+  to: german-aerospace-center
+  url: https://www.dlr.de/en/eoc
+  fetched: '2026-10-31'
+  quote: "ist ein Institut des Deutschen Zentrums für Luft- und Raumfahrt (DLR) mit Standorten in Oberpfaffenhofen bei München und Neustrelitz in Mecklenburg-Vorpommern. Zusammen mit dem Institut für Methodik der Fernerkundung (IMF) bildet das DFD das Earth Observation Center EOC"
+- type: runs
+  to: forsteo
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/forsteo
+  fetched: '2026-10-31'
+  quote: Das DFD koordiniert das Projekt ForstEO
+found_by:
+- link-from:queue-de
+- checklist:1
+added_by: agent
+checked: '2026-10-31'
+hq: de
+ai_types:
+- deep-learning

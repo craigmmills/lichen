@@ -1,0 +1,38 @@
+id: national-museum-of-nature-and-science
+kind: organisation
+name: National Museum of Nature and Science, Japan
+also_known_as:
+- 国立科学博物館
+scope: jp
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: http://www.kahaku.go.jp/english/
+summary: Tokyo museum whose GBIF publisher record lists 606 published datasets.
+facts:
+- claim: Its GBIF publisher record gives Tokyo as its city.
+  url: https://api.gbif.org/v1/organization/4fd82480-ea1c-11da-8db4-b8a03c50a862
+  fetched: 2026-11-02
+  quote: '"city":"Tokyo"'
+- claim: Its GBIF publisher record lists 606 published datasets.
+  url: https://api.gbif.org/v1/organization/4fd82480-ea1c-11da-8db4-b8a03c50a862
+  fetched: 2026-11-02
+  quote: '"numPublishedDatasets":606'
+- claim: A 2017 talk by one of its researchers says it operates Science Museum Net.
+  url: https://japanlinkcenter.org/rduf/doc/171106_07.pdf
+  fetched: 2026-11-02
+  quote: 国立科学博物館が運営
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

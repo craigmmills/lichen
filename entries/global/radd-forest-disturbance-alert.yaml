@@ -1,0 +1,30 @@
+id: radd-forest-disturbance-alert
+kind: dataset
+name: RADD Forest Disturbance Alert
+also_known_as:
+- RADD
+- Radar for Detecting Deforestation
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.wur.nl/en/research/products-services/radd-forest-disturbance-alert
+summary: Alerts that use Sentinel-1 radar imagery to map new disturbances in primary humid tropical forest at 10 m scale in near real time.
+facts:
+- claim: Uses Sentinel-1 radar at 10 m in near real time.
+  url: https://www.wur.nl/en/research/products-services/radd-forest-disturbance-alert
+  fetched: '2026-10-30'
+  quote: Radar satellite imagery from the European Space Agency’s Sentinel-1 mission is used to map new disturbances in primary humid tropical forest at 10 m spatial scale and in near real-time.
+links:
+- type: run-by
+  to: wageningen-university-and-research
+  url: https://www.wur.nl/en/research/products-services/radd-forest-disturbance-alert
+  fetched: '2026-10-30'
+  quote: "Wageningen University started developing the RADD detection method"
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

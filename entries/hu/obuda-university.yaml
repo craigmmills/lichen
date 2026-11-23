@@ -1,0 +1,35 @@
+id: obuda-university
+kind: organisation
+name: Obuda University
+scope: hu
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: A university whose researchers first-authored a 2024 paper classifying land cover from Sentinel-2
+  time series with machine learning, and a 2025 paper on first experiences with AlphaEarth Foundations.
+facts:
+- claim: A 2024 paper first-authored at the university classifies land cover from Sentinel-2 time series
+    with machine learning algorithms.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00ax71d21,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Temporal Interpolation of Sentinel-2 Multispectral Time Series in Context of Land Cover Classification
+    with Machine Learning Algorithms
+- claim: A 2025 paper first-authored at the university reports first experiences with the AlphaEarth Foundations
+    model.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00ax71d21,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'First Experiences with the AlphaEarth Foundations Model: A Cosine Distance-Based Evaluation'
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,52 @@
+id: gfa-consulting-group
+kind: organisation
+name: GFA Consulting Group
+scope: ci
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+hq: unknown
+scale: global
+status: active
+summary: A consultancy supporting the GIZ drone wildlife monitoring project in 2025 to 2026 with flight
+  planning, survey design and a semi-automated AI image processing workflow.
+facts:
+- claim: Its news page says it supports the GIZ project with flight planning, survey design and a semi-automated
+    workflow based on AI for image processing.
+  url: https://www.gfa-group.de/news/AERIAL_WILDLIFE_MONITORING_4143691.html
+  fetched: 2026-11-08
+  quote: GFA Consulting Group supports the project through technical advice on flight planning, the definition
+    of suitable survey designs and the development of an innovative analytical approach using a semi-automated
+    workflow based on artificial intelligence for image processing.
+- claim: The same page says deep-learning tools will help detect, identify and count animals in aerial
+    photographs.
+  url: https://www.gfa-group.de/news/AERIAL_WILDLIFE_MONITORING_4143691.html
+  fetched: 2026-11-08
+  quote: deep-learning tools will help to detect, identify and count animals in aerial photographs
+  ai_type: deep-learning
+- claim: Its project page lists the work as a GIZ commission for 2025 to 2026 under the DIMIA regional
+    programme.
+  url: https://www.gfa-group.de/projects/Drone_data_in_wildlife_surveys_4143703.html
+  fetched: 2026-11-08
+  quote: Commissioned by GIZ under the regional programme "Triangular Cooperation for Digital Innovation
+    Made in Africa (DIMIA)"
+links:
+- type: partners-with
+  to: drone-wildlife-monitoring-comoe-national-park
+  url: https://www.gfa-group.de/news/AERIAL_WILDLIFE_MONITORING_4143691.html
+  fetched: 2026-11-08
+  quote: GFA Consulting Group supports the project through technical advice on flight planning
+website: https://www.gfa-group.de
+found_by:
+- link-from:drone-wildlife-monitoring-comoe-national-park
+added_by: agent
+checked: 2026-11-08

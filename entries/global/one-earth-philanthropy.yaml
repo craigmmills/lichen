@@ -1,0 +1,42 @@
+id: one-earth-philanthropy
+kind: organisation
+name: One Earth Philanthropy
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.oneearth.org
+summary: US charitable organisation that fiscally sponsors Nature Data Lab, which works with
+  it on the Global Safety Net map of natural land.
+facts:
+- claim: Fiscal sponsor of Nature Data Lab.
+  url: https://www.naturedatalab.org/
+  quote: The Nature Data Lab (NDL) is a fiscally sponsored project of One Earth Philanthropy
+    501(c)(3), a U.S. charitable organization.
+  fetched: &id001 2026-10-30
+- claim: The Global Safety Net is a partnership with One Earth Philanthropy.
+  url: https://www.naturedatalab.org/
+  quote: the Global Safety Net, a partnership with One Earth Philanthropy
+  fetched: *id001
+- claim: Says it has supported more than 45 scientific reports.
+  url: https://www.oneearth.org/
+  quote: We've supported the development and publication of more than 45 groundbreaking scientific
+    reports.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: nature-data-lab
+  url: https://www.naturedatalab.org/
+  quote: The Nature Data Lab (NDL) is a fiscally sponsored project of One Earth Philanthropy
+    501(c)(3), a U.S. charitable organization.
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

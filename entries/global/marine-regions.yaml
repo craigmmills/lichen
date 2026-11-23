@@ -1,0 +1,25 @@
+id: marine-regions
+kind: dataset
+name: Marine Regions
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://www.marineregions.org
+summary: Standard georeferenced list of marine place names and boundaries, integrating the VLIMAR Gazetteer and the VLIZ Maritime Boundaries Geodatabase.
+facts:
+- claim: Integrates a gazetteer and a boundaries database.
+  url: https://www.marineregions.org/about.php
+  fetched: '2026-10-30'
+  quote: Marine Regions is an integration of the VLIMAR Gazetteer and the VLIZ Maritime Boundaries Geodatabase.
+links:
+- type: run-by
+  to: flanders-marine-institute
+  url: https://www.marineregions.org/about.php
+  fetched: '2026-10-30'
+  quote: Marine Regions is managed by the Flanders Marine Institute.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

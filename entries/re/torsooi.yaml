@@ -1,0 +1,44 @@
+id: torsooi
+kind: dataset
+name: TORSOOI
+also_known_as:
+- TORtues marines du Sud Ouest de l'Océan Indien
+scope: re
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+countries:
+- re
+status: active
+runner: unknown
+summary: Marine turtle database for the south-west Indian Ocean, built in MySQL from
+  existing databases under a 2008 to 2010 project, and planned as the store for CEDTM's
+  Europa monitoring data.
+facts:
+- claim: A project leaflet on Ifremer's Indian Ocean site describes TORSOOI as a project
+    to develop tools for monitoring and conserving marine turtles in the south-west
+    Indian Ocean, 2008 to 2010.
+  url: https://ocean-indien.ifremer.fr/en/content/download/24541/file/D%C3%A9pliant%20TORSOOI.pdf
+  fetched: 2026-11-14
+  quote: pour le suivi et la conservation de la
+- claim: The leaflet says the database is built in MySQL from existing turtle databases.
+  url: https://ocean-indien.ifremer.fr/en/content/download/24541/file/D%C3%A9pliant%20TORSOOI.pdf
+  fetched: 2026-11-14
+  quote: Construite au format MySQL à partir des bases de données
+- claim: The 2008–2010 project leaflet planned networked database access reserved
+    for partners and secured by login and password.
+  url: https://ocean-indien.ifremer.fr/en/content/download/24541/file/D%C3%A9pliant%20TORSOOI.pdf
+  fetched: 2026-11-14
+  quote: réservé aux partenaires et sécurisé par login et mot de
+- claim: A December 2025 national council opinion says the individual and nest monitoring
+    data from CEDTM's Europa project will be banked in TORSOOI.
+  url: https://www.avis-biodiversite.developpement-durable.gouv.fr/IMG/pdf/2025-10-34x-01581_cedtm__taaf_avis_du_12_2025_.pdf
+  fetched: 2026-11-14
+  quote: seront bancarisées dans TORSOOI
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

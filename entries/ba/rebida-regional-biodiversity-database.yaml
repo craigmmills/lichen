@@ -1,0 +1,49 @@
+id: rebida-regional-biodiversity-database
+kind: dataset
+name: Regional Biodiversity Database (REBIDA)
+also_known_as:
+- REBIDA
+scope: ba
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+countries:
+- ba
+status: unknown
+runner: unknown
+summary: Open-access, searchable biodiversity platform built by the Institute for
+  Genetic Engineering and Biotechnology, described in 2017 with tissue, DNA and digital
+  genetic segments and a mobile app, REBIDA SCANNER, for contributions.
+facts:
+- claim: Described in 2017 as an internet-based, searchable and open-access platform.
+  url: https://genapp.ba/editions/index.php/journal/article/view/86
+  fetched: 2026-11-15
+  quote: This internet-based database represents a comprehensive, searchable and open
+    access platform for science community, academia, governmental and non-governmental
+    stakeholders and general public.
+- claim: 'The 2017 paper described three connected segments: a tissue database, a
+    DNA database and a digital genetic database.'
+  url: https://genapp.ba/editions/index.php/journal/article/view/86
+  fetched: 2026-11-15
+  quote: 'consisting of three functionally connected segments: tissue database, DNA
+    database and digital genetic database on plant, animal and human samples'
+- claim: A mobile app, REBIDA SCANNER, was developed so that others could contribute
+    data.
+  url: https://genapp.ba/editions/index.php/journal/article/view/86
+  fetched: 2026-11-15
+  quote: To complement REBIDA, a mobile application called REBIDA SCANNER was also
+    developed.
+links:
+- type: built-by
+  to: ingeb-university-of-sarajevo
+  url: https://genapp.ba/editions/index.php/journal/article/view/86
+  fetched: 2026-11-15
+  quote: University of Sarajevo-Institute for Genetic Engineering and Biotechnology
+    (INGEB) developed the Regional Biodiversity Database – REBIDA
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

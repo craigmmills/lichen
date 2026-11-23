@@ -1,0 +1,42 @@
+id: magtel
+kind: organisation
+name: Magtel
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: Spanish company whose R&D area built the Lynx project, a computer vision system to
+  detect, identify and follow Iberian lynx in the Guadiamar green corridor.
+facts:
+- claim: Its R&D director names Lynx among its latest projects.
+  url: https://www.ecoticias.com/tecnologia-verde/169464_compromiso-innovacion-motor-cambio
+  quote: la iniciativa ‘Lynx’, que consiste en la implantación de técnicas de visión artificial
+    para ayudar a proteger al lince ibérico
+  fetched: '2026-10-31'
+- claim: Named as coordinator of Lynx.
+  url: https://magtel.es/proyectos/lynx/
+  fetched: '2026-10-31'
+  quote: '> Coordina: Magtel'
+links:
+- type: runs
+  to: lynx-magtel
+  url: https://www.ecoticias.com/tecnologia-verde/169464_compromiso-innovacion-motor-cambio
+  quote: uno de los últimos proyectos que ha llevado, ‘Lynx’
+  fetched: '2026-10-31'
+- type: leads
+  to: lynx-magtel
+  url: https://magtel.es/proyectos/lynx/
+  fetched: '2026-10-31'
+  quote: '> Coordina: Magtel'
+found_by:
+- checklist:5
+scope: es
+added_by: agent
+checked: '2026-10-31'

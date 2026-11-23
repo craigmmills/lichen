@@ -1,0 +1,60 @@
+id: sea-turtles-of-dominica-obis-seamap-dataset
+kind: dataset
+name: Sea Turtles of Dominica (OBIS-SEAMAP dataset 890)
+also_known_as: []
+scope: dm
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- dm
+status: closed
+runner: unknown
+summary: Closed OBIS-SEAMAP dataset of 5,720 satellite-tag sea turtle records from
+  30 April 2011 to 10 July 2013, provided and owned by the Dominica Sea Turtle Conservation
+  Organization.
+facts:
+- claim: The OBIS-SEAMAP page names the Dominica Sea Turtle Conservation Organization
+    as data provider for the Sea Turtles of Dominica dataset.
+  url: https://seamap.env.duke.edu/dataset/890/html
+  fetched: 2026-11-13
+  quote: Dominica Sea Turtle Conservation Organization
+- claim: The dataset holds telemetry locations from satellite tags.
+  url: https://seamap.env.duke.edu/dataset/890/html
+  fetched: 2026-11-13
+  quote: Data type Telemetry location
+- claim: It holds 5,720 sea turtle records.
+  url: https://seamap.env.duke.edu/dataset/890/html
+  fetched: 2026-11-13
+  quote: Sea turtles 5,720
+- claim: Its records begin on 30 April 2011 and end on 10 July 2013.
+  url: https://seamap.env.duke.edu/dataset/890/html
+  fetched: 2026-11-13
+  quote: Date, End 2013-07-10
+- claim: The page says a Disney Friends for Change Project Green grant funded the
+    start of the satellite tagging programme.
+  url: https://seamap.env.duke.edu/dataset/890/html
+  fetched: 2026-11-13
+  quote: A grant from Disney's Friends for Change Project Green program gave the satellite
+    tagging program the funding to get off the ground
+- claim: The Flanders Marine Institute's IMIS record of the aggregated copy, last
+    updated in January 2026, gives the dataset status as completed.
+  url: https://marineinfo.org/doc/dataset/4261
+  fetched: 2026-11-13
+  quote: 'Dataset status: Completed'
+- claim: The same record lists Dominica's Sea Turtle Conservation Organization Inc.
+    (DomSeTCO) as data creator and data owner.
+  url: https://marineinfo.org/doc/dataset/4261
+  fetched: 2026-11-13
+  quote: Dominica’s Sea Turtle Conservation Organization Inc. (DomSeTCO)
+links:
+- type: funded-by
+  to: international-fund-for-animal-welfare
+  url: https://seamap.env.duke.edu/dataset/890/html
+  fetched: 2026-11-13
+  quote: This project has been funded, in part, by grants from International Fund
+    for Animal Welfare (IFAW).
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

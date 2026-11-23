@@ -1,0 +1,52 @@
+id: copphil-land-cover-change
+kind: dataset
+name: CopPhil Land Cover Change map
+scope: ph
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ph
+status: active
+summary: A dataset identifying and classifying land cover change, detected with BFASTmonitor on Sentinel-1
+  and Sentinel-2 time series and classified by machine learning, with annual updates built by CopPhil.
+facts:
+- claim: Identifies and classifies areas where land cover has changed over time.
+  url: https://copphil.philsa.gov.ph/land-cover-mapping-service/
+  fetched: 2026-11-08
+  quote: The Land Cover Change map identifies areas where land cover has changed over time
+- claim: Detects change with BFASTmonitor on Sentinel-1 and Sentinel-2 time series and classifies it with
+    a machine learning model.
+  url: https://copphil.philsa.gov.ph/land-cover-mapping-service/
+  fetched: 2026-11-08
+  quote: Changes are identified using the BFASTmonitor algorithm , classified through a machine-learning
+    model, and refined by filtering out small or isolated detections to reduce noise in the final output.
+- claim: The service page says its annual updates let users track urban expansion and encroachment on
+    natural habitats.
+  url: https://copphil.philsa.gov.ph/land-cover-mapping-service/
+  fetched: 2026-11-08
+  quote: the service’s annual updates allow stakeholders to track urban expansion and its encroachment
+    on natural habitats
+links:
+- type: built-by
+  to: copphil
+  url: https://copphil.philsa.gov.ph/about/
+  fetched: 2026-11-08
+  quote: the CopPhil Centre has co-developed Earth Observation-based services and products together with
+    Philippine stakeholders
+- type: partners-with
+  to: philippine-space-agency
+  url: https://copphil.philsa.gov.ph/land-cover-mapping-service/
+  fetched: 2026-11-08
+  quote: Developed in close collaboration with PhilSA and NAMRIA
+- type: partners-with
+  to: national-mapping-and-resource-information-authority
+  url: https://copphil.philsa.gov.ph/land-cover-mapping-service/
+  fetched: 2026-11-08
+  quote: Developed in close collaboration with PhilSA and NAMRIA
+found_by:
+- link-from:copphil
+added_by: agent
+checked: 2026-11-08

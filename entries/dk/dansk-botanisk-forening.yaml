@@ -1,0 +1,40 @@
+id: dansk-botanisk-forening
+kind: organisation
+name: Dansk Botanisk Forening
+scope: dk
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries:
+- dk
+scale: national
+status: active
+funding_at_risk: false
+website: http://botaniskforening.dk/
+summary: Danish flora organisation whose eastern branch is developing a citizen science project
+  where volunteers monitor sites for rare plants, with one aim of making the data freely available.
+facts:
+- claim: Says it explores, protects and communicates the Danish flora.
+  url: http://botaniskforening.dk/
+  fetched: &id001 2026-11-02
+  quote: Udforsker, bevarer og formidler den danske flora
+- claim: Its eastern branch is developing a citizen science project in which volunteers monitor
+    sites for rare plants.
+  url: https://botaniskforening.dk/har-du-lyst-til-en-botanisk-sommeraktivitet/
+  fetched: *id001
+  quote: hvor grupper af frivillige løbende overvåger vigtige lokaliteter for sjældne planter
+- claim: One aim of that project is to collect data and make it freely available.
+  url: https://botaniskforening.dk/har-du-lyst-til-en-botanisk-sommeraktivitet/
+  fetched: *id001
+  quote: At samle data til understøttelse af naturpleje og forskning i naturbeskyttelse og
+    stille dem frit til rådighed
+links: []
+found_by:
+- checklist:register
+added_by: agent
+checked: *id001

@@ -1,0 +1,52 @@
+id: labelled-dataset-direct-deforestation-drivers-cameroon
+kind: dataset
+name: Labelled dataset to classify direct deforestation drivers in Cameroon
+scope: cm
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cm
+status: active
+summary: Open Zenodo dataset, version 1.00 published 15 February 2024, holding images and forest loss
+  data used to train and test a model classifying direct deforestation drivers in Cameroon.
+facts:
+- claim: Zenodo describes it as the images, auxiliary data and forest loss data used to train, validate
+    and test a model classifying direct deforestation drivers in Cameroon.
+  url: https://zenodo.org/records/8325259
+  fetched: 2026-11-08
+  quote: used to train, validate and test a model to classify direct deforestation drivers in Cameroon
+- claim: Version 1.00 was published on Zenodo on 15 February 2024 as an open dataset.
+  url: https://zenodo.org/records/8325259
+  fetched: 2026-11-08
+  quote: Published February 15, 2024
+- claim: Its creators include authors affiliated to the University of Cambridge, CED, FODER and the Joint
+    Research Centre.
+  url: https://zenodo.org/records/8325259
+  fetched: 2026-11-08
+  quote: Forêts et Développement Rural (FODER)
+links:
+- type: built-by
+  to: amandine-debus
+  url: https://zenodo.org/records/8325259
+  fetched: 2026-11-08
+  quote: 'Authors/Creators
+
+    Debus, Amandine'
+- type: builds-on
+  to: nicfi-satellite-data-program
+  url: https://zenodo.org/records/8325259
+  fetched: 2026-11-08
+  quote: This dataset includes the images (visible bands for Landsat-8 or NICFI PlanetScope)
+- type: builds-on
+  to: global-forest-change
+  url: https://zenodo.org/records/8325259
+  fetched: 2026-11-08
+  quote: data about forest loss (Global Forest Change)
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-08

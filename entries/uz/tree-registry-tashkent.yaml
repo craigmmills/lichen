@@ -1,0 +1,56 @@
+id: tree-registry-tashkent
+kind: project
+name: Tree Registry (Tashkent)
+also_known_as:
+- green.tashkent.uz
+scope: uz
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- uz
+status: active
+summary: Tashkent tree database project whose AI training dataset covered 257,000
+  trees and nearly two million photographs in December 2025, with 227,013 Shaykhantakhur
+  trees recorded by June 2026.
+facts:
+- claim: In December 2025, the Tree Registry project was creating a unified digital
+    database of trees for the inventory and monitoring of Tashkent's urban green spaces.
+  url: https://gov.uz/en/eco/news/view/110198
+  fetched: 2026-11-15
+  quote: Tashkent is continuing its work to introduce modern digital tools for the
+    inventory and monitoring of urban green spaces. One of the key components of this
+    effort is the creation of a unified digital database of trees
+- claim: In December 2025 the project was training artificial intelligence on data
+    validated by professional dendrologists, with a training dataset covering 257,000
+    trees and nearly two million photographs.
+  url: https://gov.uz/en/eco/news/view/110198
+  fetched: 2026-11-15
+  quote: extensive work is underway to train artificial intelligence using data validated
+    by professional dendrologists. The training dataset currently includes information
+    on 257,000 trees and nearly two million photographs.
+  ai_type: ml-supervised
+- claim: In June 2026 the results for the Shaykhantakhur district were presented;
+    tree digitisation there was complete and 227,013 trees were recorded on green.tashkent.uz.
+  url: https://gov.uz/en/eco/news/view/181212
+  fetched: 2026-11-15
+  quote: The tree digitization process has been completed, and all collected information
+    has been uploaded to the digital platform green.tashkent.uz . According to the
+    registry, a total of 227,013 trees have been recorded and digitized across the
+    district
+links:
+- type: run-by
+  to: national-committee-on-ecology-and-climate-change-uzbekistan
+  url: https://gov.uz/en/eco/news/view/181212
+  fetched: 2026-11-15
+  quote: the “Tree Registry” project, implemented by the National Committee on Ecology
+    and Climate Change of the Republic of Uzbekistan in cooperation with the Tashkent
+    City Administration and the Zamin Foundation
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

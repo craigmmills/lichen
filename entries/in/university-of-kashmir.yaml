@@ -1,0 +1,28 @@
+id: university-of-kashmir
+kind: organisation
+name: University of Kashmir
+scope: in
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- in
+scale: local
+status: active
+summary: University whose Department of Geoinformatics published an above-ground biomass dataset
+  for the Kashmir Himalaya. Found by Europe PMC while OpenAlex was out of budget.
+facts:
+- claim: Authors of the dataset paper give this affiliation.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI:10.1016/j.dib.2024.111262
+  quote: Department of Geoinformatics, University of Kashmir
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

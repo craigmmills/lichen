@@ -1,0 +1,40 @@
+id: institute-of-geography-and-geoecology-mongolian-academy-of-sciences
+kind: organisation
+name: Institute of Geography and Geoecology, Mongolian Academy of Sciences
+also_known_as:
+- Institute of Geography-Geoecology
+scope: mn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: mn
+scale: national
+status: active
+countries:
+- mn
+summary: A Mongolian Academy of Sciences institute in Ulaanbaatar, listed by OpenAlex
+  as the affiliation of the first author of a 2025 Remote Sensing paper using Landsat
+  data and machine learning to map grassland vegetation change.
+facts:
+- claim: OpenAlex lists a 2025 Remote Sensing paper mapping vegetation changes in
+    Mongolian grasslands with Landsat data and machine learning, whose first author
+    is at the institute.
+  url: https://api.openalex.org/works/W4406782687?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Using Landsat Data and Advanced Machine Learning Algorithm
+- claim: The first author's affiliation is the Institute of Geography-Geoecology,
+    Mongolian Academy of Sciences, Ulaanbaatar.
+  url: https://api.openalex.org/works/W4406782687?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Institute of Geography-Geoecology, Mongolian Academy of Sciences, Ulaanbaatar
+    13330, Mongolia
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

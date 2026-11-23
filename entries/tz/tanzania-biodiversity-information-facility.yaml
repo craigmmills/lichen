@@ -1,0 +1,96 @@
+id: tanzania-biodiversity-information-facility
+kind: organisation
+name: Tanzania Biodiversity Information Facility
+also_known_as:
+- TanBIF
+scope: tz
+sector: academic
+roles:
+- supplies-data
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: tz
+countries:
+- tz
+scale: national
+status: active
+website: https://tanbif.costech.or.tz
+summary: Consortium of universities, research institutions and NGOs, set up in 2007, hosted
+  by COSTECH, acting as Tanzania's GBIF node with associate status and 23 published datasets.
+facts:
+- claim: Says it is a consortium of universities, research institutions and NGOs giving open
+    access to Tanzania's biodiversity data, set up on 30 August 2007.
+  url: https://tanbif.costech.or.tz/pages/about-us
+  fetched: 2026-11-08
+  quote: Established on 30th August 2007, the Tanzania Biodiversity Information Facility (TanBIF)
+    is a consortium of biodiversity universities, research institutions and non-governmental
+    organisations of the United Republic of Tanzania
+- claim: Says it is hosted and coordinated by COSTECH and is the national node of GBIF.
+  url: https://tanbif.costech.or.tz/pages/about-us
+  fetched: 2026-11-08
+  quote: Hosted and coordinated by the Tanzania Commission for Science and Technology (COSTECH),
+    TanBIF is the national node of the Global Biodiversity Information Facility.
+- claim: Says the consortium built the national biodiversity data portal in 2008, now based
+    on Atlas of Living Australia technology.
+  url: https://tanbif.costech.or.tz/pages/about-us
+  fetched: 2026-11-08
+  quote: The Consortium developed the national biodiversity data infrastructure (TanBIF Portal)
+    in 2008 to meet biodiversity stakeholders’ data and information needs.
+- claim: Says the portal was developed by DIT in collaboration with COSTECH.
+  url: https://tanbif.costech.or.tz/pages/about-us
+  fetched: 2026-11-08
+  quote: This portal is developed by DIT in collaboration with COSTECH
+- claim: The GBIF registry lists it as Tanzania's node, with associate participant status.
+  url: https://api.gbif.org/v1/node/country/TZ
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"Tanzania
+    Biodiversity Information Facility"'
+- claim: GBIF's registry lists the Tanzania Biodiversity Information Facility as Tanzania's
+    country node, with associate participation status.
+  url: https://api.gbif.org/v1/node/abd95ca6-3959-4db9-aaa6-2de1aeecf514
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"Tanzania
+    Biodiversity Information Facility"'
+- claim: The node's address in the GBIF registry is the Tanzania Commission for Science and
+    Technology, Dar es Salaam.
+  url: https://api.gbif.org/v1/node/abd95ca6-3959-4db9-aaa6-2de1aeecf514
+  fetched: 2026-11-08
+  quote: Tanzania Commission for Science and Technology
+- claim: As a GBIF publisher, TanBIF is listed with 23 published datasets.
+  url: https://api.gbif.org/v1/organization/76905ca0-1e21-11de-9ca0-cd203b273f5d
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":23'
+- claim: Its GBIF node record gives an address at the Tanzania Commission for Science and
+    Technology.
+  url: https://api.gbif.org/v1/node/abd95ca6-3959-4db9-aaa6-2de1aeecf514
+  fetched: 2026-11-08
+  quote: '"homepage":["http://www.tanbif.or.tz"],"address":["Tanzania Commission for Science
+    and Technology'
+links:
+- type: partners-with
+  to: tanzania-wildlife-research-institute
+  url: https://tanbif.costech.or.tz/pages/about-us
+  fetched: 2026-11-08
+  quote: Tanzania Wildlife Research Institute https://tawiri.or.tz
+- type: partners-with
+  to: sokoine-university-of-agriculture
+  url: https://tanbif.costech.or.tz/pages/about-us
+  fetched: 2026-11-08
+  quote: 'Currently, TanBIF is composed of: University of Dar es Salaam https://www.udsm.ac.tz
+    State University of Zanzibar https://www.suza.ac.tz Sokoine University of Agriculture
+    https://www.sua.ac.tz'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/abd95ca6-3959-4db9-aaa6-2de1aeecf514
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,33 @@
+id: epa-biological-q-results
+kind: dataset
+name: Biological Q Results
+scope: ie
+ai_label: data-infrastructure
+realms:
+- freshwater
+countries:
+- ie
+status: active
+website: https://gis.epa.ie/LatestReleases/Release/2
+summary: River quality dataset run by the EPA, with records dating back to 1971 and a Q-value assigned
+  to each river station; the latest listed update is 19 January 2023.
+facts:
+- claim: A series of river quality data records dating back to 1971.
+  url: https://gis.epa.ie/LatestReleases/Release/2
+  fetched: 2026-11-09
+  quote: Biological Q Results are a series of river quality data records dating back to 1971.
+- claim: An overall river quality value (Q-value) is assigned to the water at each river station; the
+    most recent data update listed is 19 January 2023.
+  url: https://gis.epa.ie/LatestReleases/Release/2
+  fetched: 2026-11-09
+  quote: An overall river quality value (Q-Value) is assigned to the water at each river station.
+links:
+- type: run-by
+  to: environmental-protection-agency-ireland
+  url: https://gis.epa.ie/LatestReleases/Release/2
+  fetched: 2026-11-09
+  quote: part of the analysis work carried out by the EPA under the guise of the EU Water Framework
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-09

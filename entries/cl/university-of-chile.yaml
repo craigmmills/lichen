@@ -1,0 +1,73 @@
+id: university-of-chile
+kind: organisation
+name: University of Chile
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+summary: University that, with the EU, launched CopernicusLAC Chile in March 2023, and whose
+  authors appear in OpenAlex on papers on blue whale call detection and rainforest disturbance
+  mapping.
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+countries:
+- cl
+also_known_as:
+- Universidad de Chile
+facts:
+- claim: The EU and the university launched CopernicusLAC Chile in March 2023.
+  url: https://www.cmm.uchile.cl/?p=57984
+  fetched: '2026-11-02'
+  quote: In March 2023, the EU and the University of Chile officially launched this joint
+    project
+- claim: A faculty formalised a collaboration agreement with Lemu on remote sensing of forest
+    resources.
+  url: https://uchile.cl/noticias/214044/u-de-chile-monitoreara-bosques-mediante-el-uso-de-satelites-e-ia
+  fetched: '2026-11-02'
+  quote: ha formalizado un acuerdo de colaboración con Lemu
+- claim: University specialists worked on the MapBiomas surface water and glacier mapping.
+  url: https://portaluchile.uchile.cl/noticias/242530/mapbiomas-chile-perdio-344-mil-hectareas-de-glaciares-en-28-anos
+  fetched: '2026-11-02'
+  quote: por especialistas de la Universidad de Chile -a través de la Facultad de Ciencias
+    Forestales y de la Conservación de la Naturaleza-
+- claim: OpenAlex lists University of Chile authors on a 2019 paper on an unsupervised Hidden
+    Markov Model system for detecting and classifying blue whale calls off Chile.
+  url: https://api.openalex.org/works/W2910980169?select=display_name,publication_year,authorships
+  fetched: 2026-11-02
+  quote: An unsupervised Hidden Markov Model-based system for the detection and classification
+    of blue whale vocalizations off Chile
+- claim: OpenAlex lists University of Chile authors on a 2022 paper on detecting disturbance
+    in temperate rainforest with Sentinel-2 and machine learning.
+  url: https://api.openalex.org/works/W4281739850?select=display_name,publication_year,authorships
+  fetched: 2026-11-02
+  quote: DETECTING AND EVALUATING DISTURBANCE IN TEMPERATE RAINFOREST WITH SENTINEL-2, MACHINE
+    LEARNING AND FOREST PARAMETERS
+links:
+- type: builds
+  to: copernicuslac-chile
+  url: https://www.cmm.uchile.cl/?p=57984
+  fetched: '2026-11-02'
+  quote: In March 2023, the EU and the University of Chile officially launched this joint
+    project
+- type: partners-with
+  to: lemu
+  url: https://uchile.cl/noticias/214044/u-de-chile-monitoreara-bosques-mediante-el-uso-de-satelites-e-ia
+  fetched: '2026-11-02'
+  quote: alianza establecida entre la Facultad de Ciencias Forestales y de la Conservación
+    de la Naturaleza de la Universidad de Chile y la startup Lemu
+found_by:
+- link-from:copernicuslac-chile
+- checklist:3
+- checklist:register
+scope: cl
+added_by: agent
+checked: '2026-11-02'

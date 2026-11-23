@@ -1,0 +1,38 @@
+id: mohamed-i-university
+kind: organisation
+name: Mohamed I University
+also_known_as:
+- Université Mohammed Premier
+scope: ma
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ma
+countries: []
+scale: national
+status: active
+summary: A Moroccan institution in OpenAlex, listed with a 2025 paper on GIS and remote sensing
+  for tracking vegetation cover in two north-eastern basins.
+facts:
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "https://www.ump.ma", "country_code": "MA"'
+- claim: OpenAlex lists a 2025 paper with first author Omar Mouadili, with Mohamed I University
+    as their affiliation, on GIS and remote sensing for tracking vegetation cover in two north-eastern
+    basins.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01ejxf797|03cdvht47|058gnfy87|051hckb40|01t9czq80|00675rp98|05jp6at49|01ec0jk73|05y503v71|02gjqpv16,primary_topic.subfield.id:2309|1105|2303,publication_year:>2021&per-page=100&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: The role of GIS and remote sensing in tracking vegetation cover in the Tlagh and
+    El-Abed Basins (Northeastern Morocco) from 1986 to 2018
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

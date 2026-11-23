@@ -1,0 +1,62 @@
+id: koster-seafloor-observatory
+kind: project
+name: Koster Seafloor Observatory
+also_known_as:
+- KSO
+scope: se
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: System built by Combine to identify underwater species, partnered with three
+  organisations, whose page reports no data during architecture restructuring and
+  connection to SUBSIM's computing platform.
+facts:
+- claim: A system to automatically identify species underwater.
+  url: https://combine.se/cases/uncovering-ocean-secrets-by-combining-video-analysis-and-state-of-the-art-deep-learning/
+  fetched: '2026-11-02'
+  quote: We set out to create a system that was able to automatically identify species
+    underwater
+- claim: The page says the project is out of data while restructuring its architecture
+    and connecting to the deep-learning and high-performance computing platform at
+    SUBSIM.
+  url: https://www.zooniverse.org/projects/victorav/the-koster-seafloor-observatory/about/team
+  fetched: '2026-11-02'
+  quote: Koster Seafloor Observatory is currently re-structuring its architecture
+    and connecting to the Deep-learning (DL) and High-performance Computing (HPC)
+    platform at SUBSIM.
+links:
+- type: built-by
+  to: combine-sweden
+  url: https://combine.se/cases/uncovering-ocean-secrets-by-combining-video-analysis-and-state-of-the-art-deep-learning/
+  fetched: '2026-11-02'
+  quote: We set out to create a system that was able to automatically identify species
+    underwater and thereby reduce the need for laborious human annotation.
+- type: partners-with
+  to: university-of-gothenburg
+  url: https://www.zooniverse.org/projects/victorav/the-koster-seafloor-observatory/about/team
+  fetched: '2026-11-02'
+  quote: The Koster Seafloor laboratory is a collaborative project between Wildlife.ai
+    , SeAnalytics and the University of Gothenburg .
+- type: partners-with
+  to: wildlife-ai
+  url: https://www.zooniverse.org/projects/victorav/the-koster-seafloor-observatory/about/team
+  fetched: '2026-11-02'
+  quote: The Koster Seafloor laboratory is a collaborative project between Wildlife.ai
+    , SeAnalytics and the University of Gothenburg .
+- type: partners-with
+  to: seanalytics
+  url: https://www.zooniverse.org/projects/victorav/the-koster-seafloor-observatory/about/team
+  fetched: '2026-11-02'
+  quote: The Koster Seafloor laboratory is a collaborative project between Wildlife.ai
+    , SeAnalytics and the University of Gothenburg .
+found_by:
+- link-from:ocean-data-factory-sweden
+- register:gbif-publisher
+- link-from:subsim
+added_by: agent
+checked: '2026-11-02'
+countries:
+- se

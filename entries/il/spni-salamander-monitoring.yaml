@@ -1,0 +1,43 @@
+id: spni-salamander-monitoring
+kind: project
+name: Salamander population monitoring (SPNI and Yarok Balev)
+scope: il
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- il
+status: active
+summary: According to AI4Biodiversity, SPNI and Yarok Balev monitor salamanders through
+  expert identification from annual winter images, while AI4Biodiversity proposes
+  an automated identification algorithm.
+facts:
+- claim: AI4Biodiversity says SPNI, with Yarok Balev, tracks salamander population
+    size by experts identifying individuals from images collected in annual winter
+    monitoring.
+  url: https://ai4biodiversity.haifa.ac.il/impact/
+  fetched: 2026-11-12
+  quote: The Society for the Protection of Nature in Israel, in collaboration with
+    Yarok Balev NGO, works to track Salamander population size by identifying individual
+    salamanders by human experts based on digital images collected during annual winter
+    monitoring projects.
+- claim: AI4Biodiversity proposes developing an automated algorithm to identify individual
+    salamanders from the images.
+  url: https://ai4biodiversity.haifa.ac.il/impact/
+  fetched: 2026-11-12
+  quote: we propose the development of an automated algorithm to process the images
+    so that the identification of individual salamanders can take place without human
+    intervention.
+links:
+- type: run-by
+  to: society-for-the-protection-of-nature-in-israel
+  url: https://ai4biodiversity.haifa.ac.il/impact/
+  fetched: 2026-11-12
+  quote: The Society for the Protection of Nature in Israel, in collaboration with
+    Yarok Balev NGO, works to track Salamander population size by identifying individual
+    salamanders by human experts based on digital images collected during annual winter
+    monitoring projects.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

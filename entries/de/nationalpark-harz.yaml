@@ -1,0 +1,52 @@
+id: nationalpark-harz
+kind: organisation
+name: Nationalpark Harz
+also_known_as:
+- Harz National Park
+scope: de
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: unknown
+scale: local
+status: active
+summary: National park taking part with twelve other parks and two wilderness areas in KI-Nationalpark,
+  having installed 120 camera traps and 52 audio recorders whose data is analysed with AI.
+facts:
+- claim: Takes part with twelve other national parks and two wilderness areas in KI-Nationalpark,
+    collecting data with camera traps and recorders that are then analysed with AI.
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Der Nationalpark Harz beteiligt sich zusammen mit zwölf weiteren deutschen Nationalparken
+    und zwei Wildnisgebieten am Projekt „KI-Nationalpark".
+- claim: Installed 120 camera traps at randomly chosen sites and 52 audio recorders for birds
+    by day and bats by night.
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Wir haben dafür 120 Fotofallen angebracht, und zwar an zufällig ausgewählten Standorten.
+    Zusätzlich wurden 52 Audiogeräte installiert.
+- claim: Acts as the lower nature conservation authority and the forestry and hunting authority
+    for the national park's area.
+  url: https://www.nationalpark-harz.de/de/der-nationalpark-harz/wir-ueber-uns/
+  quote: Sie ist für die Fläche des Nationalparks auch untere Naturschutzbehörde, Wald- und
+    Jagdbehörde.
+  fetched: '2026-11-17'
+links:
+- type: partners-with
+  to: ai-national-park
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Der Nationalpark Harz beteiligt sich zusammen mit zwölf weiteren deutschen Nationalparken
+    und zwei Wildnisgebieten am Projekt „KI-Nationalpark".
+found_by:
+- rule:checklist-misses
+- link-from:ai-national-park
+added_by: agent
+checked: '2026-11-07'

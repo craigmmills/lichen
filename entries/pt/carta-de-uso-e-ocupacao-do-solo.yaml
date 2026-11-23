@@ -1,0 +1,41 @@
+id: carta-de-uso-e-ocupacao-do-solo
+kind: dataset
+name: Carta de Uso e Ocupação do Solo
+also_known_as:
+- COS
+- Soil occupation cartography
+scope: pt
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+status: active
+summary: A vector land use and cover dataset built by the Direção-Geral do Território, with a minimum
+  mapping unit of 1 hectare, within SMOS.
+facts:
+- claim: Portugal Space says DGT applies products derived from satellite images, operationally, to produce
+    it.
+  url: https://ptspace.pt/earth-observation/
+  fetched: '2026-11-02'
+  quote: already applying, in an operational manner, products derived from satellite images in the process
+    of production of soil occupation cartography (COS)
+- claim: Copernicus Portugal describes it as a vector product with a minimum mapping unit of 1 hectare,
+    within SMOS.
+  url: https://copernicusportugal.ptspace.pt/sistema-de-monitorizacao-da-ocupacao-do-solo-smos/
+  fetched: '2026-11-02'
+  quote: O SMOS integra a atual Carta de Uso e Ocupação do Solo (COS), um produto vetorial com uma unidade
+    mínima cartográfica de 1 ha
+links:
+- type: built-by
+  to: direcao-geral-do-territorio
+  url: https://ptspace.pt/earth-observation/
+  fetched: '2026-11-02'
+  quote: already applying, in an operational manner, products derived from satellite images in the process
+    of production of soil occupation cartography (COS)
+found_by:
+- checklist:2
+- link-from:direcao-geral-do-territorio
+added_by: agent
+checked: '2026-11-02'

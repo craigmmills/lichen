@@ -1,0 +1,27 @@
+id: glc-fcs30
+kind: dataset
+name: GLC_FCS30
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://zenodo.org/records/3986872
+summary: Global land cover product at 30 m with a fine classification system, built from time-series Landsat imagery, from Chinese Academy of Sciences researchers.
+facts:
+- claim: Global land-cover product at 30 m from time-series Landsat imagery.
+  url: https://zenodo.org/records/3986872
+  fetched: '2026-10-30'
+  quote: Global land-cover product with fine classification system at 30 m using time-series Landsat imagery
+links:
+- type: run-by
+  to: aerospace-information-research-institute-cas
+  url: https://essd.copernicus.org/articles/13/2753/2021/
+  fetched: '2026-10-30'
+  quote: State Key Laboratory of Remote Sensing, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing 100094, China
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

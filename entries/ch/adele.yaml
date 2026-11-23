@@ -1,0 +1,73 @@
+id: adele
+kind: model
+name: ADELE
+also_known_as:
+- Arealstatistik Deep Learning
+- ADELE
+scope: ch
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+summary: A deep learning model, run by the Federal Statistical Office, that automates part of the aerial
+  image interpretation for Swiss area statistics, in use since 2022 after a 2017 to 2021 project.
+facts:
+- claim: Automates part of the aerial image interpretation for the Swiss area statistics, in use since
+    2022.
+  url: https://www.bafu.admin.ch/de/ubk25
+  quote: Das Deep-Learning-Tool ADELE automatisiert Teile der arbeitsintensiven Luftbild-Interpretationen
+    der Arealstatistik.
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: Trained partly on 16.4 million points from earlier area statistics.
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: Trainiert wurde dieses unter anderem auf 16,4 Millionen ausgewertet Stichprobenpunkten der bisherigen
+    Arealstatistiken.
+  fetched: '2026-11-02'
+- claim: The aerial images used for the statistics came from the Federal Office of Topography.
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: Zur Erstellung des Modells kamen jeweils Luftaufnahmen des Bundesamts für Landestopografie zum
+    Einsatz.
+  fetched: '2026-11-02'
+- claim: Ran from 2017 to 2021.
+  url: https://statistik.admin.ch/en/innovative-and-interactive-statistics/expstat/projects/adele
+  fetched: '2026-11-02'
+  quote: The project ran from 2017 to 2021
+- claim: Used AI to automate part of the visual interpretation of aerial images.
+  url: https://statistik.admin.ch/en/innovative-and-interactive-statistics/expstat/projects/adele
+  fetched: '2026-11-02'
+  quote: to eventually automate (even partially) the visual interpretation of aerial images in order for
+    change detection and classification
+- claim: The page names deep learning as the method.
+  url: https://statistik.admin.ch/en/innovative-and-interactive-statistics/expstat/projects/adele
+  fetched: '2026-11-02'
+  quote: Deep Learning is particularly adapted to statistics on land use and cover
+  ai_type: deep-learning
+- claim: ExoLabs lists ADELE among its references and says its classifiers support the Swiss government
+    on 99 land use and land cover categories.
+  url: https://www.exolabs.ch/
+  fetched: '2026-11-02'
+  quote: 'ADELE: Deep Learning for Land Use and Land Cover Changes'
+links:
+- type: run-by
+  to: federal-statistical-office
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: setzt das BFS das Deep-Learning-Modell "Adele" zur Erstellung der Arealstatistik ein
+  fetched: '2026-11-02'
+- type: run-by
+  to: federal-statistical-office
+  url: https://statistik.admin.ch/en/innovative-and-interactive-statistics/expstat/projects/adele
+  fetched: '2026-11-02'
+  quote: The project was carried out in two phases. The first phase consisted of developing a computer
+    prototype and the second one consisted of implementing it in the land use statistics production system.
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-11-02'
+countries:
+- ch

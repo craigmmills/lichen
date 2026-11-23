@@ -1,0 +1,47 @@
+id: aves-argentinas
+kind: organisation
+name: Aves Argentinas
+also_known_as:
+- Asociación Ornitológica del Plata
+scope: ar
+sector: ngo
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+website: https://www.avesargentinas.org.ar/
+summary: Non-profit founded in 1916 and BirdLife Partner in Argentina, working on the study
+  and conservation of wild birds and their habitats; GBIF's registry records 99 datasets published
+  by it.
+facts:
+- claim: A poster by its staff gives its address in Buenos Aires.
+  url: https://sedici.unlp.edu.ar/bitstream/handle/10915/64822/P%C3%B3ster_.pdf?sequence=1
+  fetched: '2026-11-03'
+  quote: Aves Argentinas, Matheu 1246/8, CABA
+- claim: A non-profit body founded in 1916 whose mission is the study and conservation of
+    wild birds and their habitats.
+  url: https://api.gbif.org/v1/organization/281cedbb-b1ec-4d4f-bb03-d0a43221fe27
+  fetched: 2026-11-03
+  quote: Aves Argentinas/Asociación Ornitológica del Plata es una entidad civil sin fines
+    de lucro fundada en 1916
+- claim: GBIF's registry records 99 datasets published by it.
+  url: https://api.gbif.org/v1/organization/281cedbb-b1ec-4d4f-bb03-d0a43221fe27
+  fetched: 2026-11-03
+  quote: '"numPublishedDatasets":99'
+links: []
+found_by:
+- checklist:4
+- link-from:birdlife-international
+- rule:ngo-broad
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-03'

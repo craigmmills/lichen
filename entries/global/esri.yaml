@@ -1,0 +1,39 @@
+id: esri
+kind: organisation
+name: Esri
+scope: global
+sector: company
+roles:
+- supplies-data
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://www.esri.com
+summary: Geographic information system company that gives software to conservation groups
+  through its Conservation Program and publishes the Sentinel-2 10-metre land use and land
+  cover time series.
+facts:
+- claim: Dateline of its land cover release is Redlands, California.
+  url: https://www.esri.com/about/newsroom/announcements/esri-releases-latest-land-cover-map-with-improved-ai-modeling
+  fetched: &id001 2026-10-30
+  quote: REDLANDS, Calif.— July 10, 2023
+- claim: Links its conservation, disaster response, education and nonprofit programmes under
+    GIS for Good.
+  url: https://www.esri.com/about/newsroom/arcnews/gis-for-good-esri-commitment-to-people-planet-prosperity-peace
+  fetched: *id001
+  quote: GIS for Good links Esri’s conservation, disaster response, education, and nonprofit
+    programs
+- claim: Wikipedia says the company was founded in 1969 in Redlands, California.
+  url: https://en.wikipedia.org/wiki/Esri
+  quote: Founded 1969 ; 57 years ago ( 1969 ) in Redlands, California , U.S.
+  fetched: '2026-10-30'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

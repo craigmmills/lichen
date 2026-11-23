@@ -1,0 +1,56 @@
+id: merlin-bird-id
+kind: model
+name: Merlin Bird ID
+also_known_as:
+- Merlin
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+status: active
+website: https://merlin.allaboutbirds.org
+summary: Free app from the Cornell Lab of Ornithology that identifies birds from photos and sounds, using AI-powered photo
+  recognition.
+facts:
+- claim: The Macaulay Library page calls it a free, global bird ID and field guide app.
+  url: https://www.macaulaylibrary.org/
+  quote: Free, global bird ID and field guide app powered by your sightings and media.
+  fetched: '2026-10-30'
+- claim: Wikipedia says the Cornell Lab publishes the app.
+  url: https://en.wikipedia.org/wiki/Merlin_Bird_ID
+  quote: The Cornell Lab publishes the free Merlin Bird ID app
+  fetched: '2026-10-30'
+- claim: Wikipedia says it added AI-powered photo recognition in 2017.
+  url: https://en.wikipedia.org/wiki/Merlin_Bird_ID
+  quote: updated to include AI-powered automatic photo recognition
+  fetched: '2026-10-30'
+- claim: Wikipedia says Sound ID identifies species in real time or from a recording.
+  url: https://en.wikipedia.org/wiki/Merlin_Bird_ID
+  quote: The app also offers Sound ID
+  fetched: '2026-10-30'
+- claim: Merlin Sound ID feeds spectrograms into a deep convolutional neural network.
+  url: https://www.macaulaylibrary.org/?p=6741
+  fetched: '2026-10-30'
+  quote: a modern computer vision model called a deep convolutional neural network
+  ai_type: deep-learning
+- claim: Merlin's model is trained with audio clips labelled by experts.
+  url: https://www.macaulaylibrary.org/?p=6741
+  fetched: '2026-10-30'
+  quote: ask the sound ID experts to label more audio clips
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: cornell-lab-of-ornithology
+  url: https://en.wikipedia.org/wiki/Merlin_Bird_ID
+  quote: The Cornell Lab publishes the free Merlin Bird ID app
+  fetched: '2026-10-30'
+found_by:
+- link-from:cornell-lab-of-ornithology
+added_by: agent
+checked: '2026-10-30'

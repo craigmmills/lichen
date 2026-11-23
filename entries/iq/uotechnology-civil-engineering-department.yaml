@@ -1,0 +1,42 @@
+id: uotechnology-civil-engineering-department
+kind: organisation
+name: Civil Engineering Department, University of Technology - Iraq
+also_known_as: []
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- iq
+scale: national
+status: active
+summary: Civil engineering department at the University of Technology, Iraq, listed
+  by OpenAlex as lead affiliation on remote sensing and GIS studies of Al-Dalmage
+  Marsh (2025) and Al-Hawizeh Marsh (2022).
+facts:
+- claim: Lead affiliation on a 2025 study monitoring surface ecological change with
+    remote sensing and GIS in Al-Dalmage Marsh, per OpenAlex.
+  url: https://api.openalex.org/works/W4416320990?select=authorships
+  fetched: 2026-11-12
+  quote: Civil Engineering Department, University of Technology-Iraq, Baghdad, Iraq
+- claim: OpenAlex lists the paper titles, including the 2025 Al-Dalmage study and
+    a 2022 study over Al-Hawizeh Marsh.
+  url: https://api.openalex.org/works?filter=institutions.country_code:IQ,from_publication_date:2022-01-01,title.search:marshes%20remote%20sensing&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: Monitoring Surface Ecological Change Using Integrated Remote Sensing Data
+    and GIS Techniques in Al-Dalmage Marsh, Iraq
+- claim: Lead affiliation on the 2022 Al-Hawizeh Marsh study, per OpenAlex.
+  url: https://api.openalex.org/works/W4281749395?select=authorships
+  fetched: 2026-11-12
+  quote: Civil Engineering Department, University of Technology, Baghdad, 10066, Iraq
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

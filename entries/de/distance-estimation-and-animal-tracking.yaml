@@ -1,0 +1,47 @@
+id: distance-estimation-and-animal-tracking
+kind: project
+name: Distance Estimation and Animal Tracking for Wildlife Camera Trapping
+also_known_as:
+- DistanceEstimationTracking
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://github.com/PJ-cs/DistanceEstimationTracking
+summary: Open-source MIT-licensed pipeline built by Peter Johanns that uses MegaDetector to
+  find animals in camera-trap video, then estimates their distance and tracks them without
+  reference footage, for density estimation.
+facts:
+- claim: Recognises animals in camera-trap video, calculates their distance and tracks them
+    without reference footage.
+  url: https://github.com/PJ-cs/DistanceEstimationTracking
+  fetched: 2026-11-22
+  quote: Our approach recognizes animals, calculates their distance to the camera and tracks
+    animals across the complete video, completely automatic.
+- claim: Aimed at wildlife density estimation, where reference videos, extra sensors and manual
+    annotation are commonly used in combination.
+  url: https://github.com/PJ-cs/DistanceEstimationTracking
+  fetched: 2026-11-22
+  quote: In practice, combinations of pre-recorded reference videos, additional sensors and
+    manual annotation are used to retrieve this information.
+- claim: Uses MegaDetector to find animals.
+  url: https://github.com/PJ-cs/DistanceEstimationTracking
+  fetched: 2026-11-22
+  quote: This version uses an updated MegaDetector version.
+- claim: Released under the MIT licence.
+  url: https://github.com/PJ-cs/DistanceEstimationTracking
+  fetched: 2026-11-22
+  quote: MIT license
+links:
+- type: uses
+  to: megadetector
+  url: https://github.com/PJ-cs/DistanceEstimationTracking
+  fetched: 2026-11-22
+  quote: This version uses an updated MegaDetector version.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

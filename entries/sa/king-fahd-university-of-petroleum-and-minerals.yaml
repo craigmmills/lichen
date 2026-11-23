@@ -1,0 +1,57 @@
+id: king-fahd-university-of-petroleum-and-minerals
+kind: organisation
+name: King Fahd University of Petroleum and Minerals
+also_known_as:
+- KFUPM
+scope: sa
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+- other
+hq: sa
+countries:
+- sa
+scale: national
+status: active
+summary: A Saudi university with research on mapping Gulf mangroves using Sentinel-2 imagery
+  and predicting phytoplankton absorption coefficients using ensemble machine learning models.
+facts:
+- claim: Surya Prakash Tiwari of KFUPM's Center for Environment and Water co-authored the
+    Red Sea coral cover machine learning paper.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.heliyon.2024.e38249&resultType=core&format=json
+  fetched: 2026-11-03
+  quote: Center for Environment and Water, The Research Institute, King Fahd University of
+    Petroleum and Minerals (KFUPM), Dhahran, 31261, Saudi Arabia.
+- claim: OpenAlex lists it as an education body in Saudi Arabia with the homepage kfupm.edu.sa.
+  url: https://api.openalex.org/institutions/ror:03yez3163?select=id,display_name,display_name_alternatives,type,country_code,homepage_url,geo
+  fetched: '2026-11-03'
+  quote: '"type":"education","country_code":"SA","homepage_url":"https://www.kfupm.edu.sa"'
+- claim: OpenAlex records a 2024 paper on ensemble machine learning models to predict phytoplankton
+    absorption coefficients.
+  url: https://api.openalex.org/works/W4390603821?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Optimized Ensemble Machine Learning Models for Predicting Phytoplankton Absorption
+    Coefficients
+- claim: The authors of the phytoplankton paper give the university's Applied Research Center
+    for Environment and Marine Studies in Dhahran as their affiliation.
+  url: https://api.openalex.org/works/W4390603821?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Applied Research Center for Environment and Marine Studies, Research Institute, King
+    Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia
+- claim: OpenAlex records a 2023 conference paper on a hybrid machine learning model to estimate
+    chlorophyll-a in clear and coastal waters.
+  url: https://api.openalex.org/works/W4387801763?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: A Hybrid Machine Learning Model to Estimate Chlorophyll-a in Clear and Coastal Waters
+links: []
+found_by:
+- checklist:3
+- register:sa
+added_by: agent
+checked: 2026-11-03

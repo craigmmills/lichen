@@ -1,0 +1,50 @@
+id: gbif-india
+kind: programme
+name: GBIF India
+scope: in
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- in
+status: unknown
+runner: unknown
+summary: India's entry in the GBIF registry, listed with observer status and the Wildlife
+  Institute of India's Dehradun address.
+facts:
+- claim: The GBIF registry lists GBIF India as a country node with observer status.
+  url: https://api.gbif.org/v1/node/country/IN
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"ASIA","continent":"ASIA","title":"GBIF
+    India"'
+  fetched: '2026-10-31'
+- claim: Listed in GBIF's registry with observer status.
+  url: https://api.gbif.org/v1/node/country/IN
+  fetched: '2026-10-31'
+  quote: '"participationStatus":"OBSERVER"'
+- claim: The registry address is in Dehradun.
+  url: https://api.gbif.org/v1/node/country/IN
+  fetched: '2026-10-31'
+  quote: Dehradun
+- claim: The GBIF registry lists a country node titled GBIF India.
+  quote: '"title":"GBIF India","participantTitle":"India"'
+  url: https://api.gbif.org/v1/node/country/IN
+  fetched: '2026-10-31'
+links:
+- type: represented-by
+  to: wildlife-institute-of-india
+  url: https://api.gbif.org/v1/node/country/IN
+  quote: '"address":["Post Box #18\nChandrabani\nDehradun\nUttarakhand\n248001\nIndia"]'
+  fetched: '2026-10-31'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/IN
+  fetched: '2026-10-31'
+  quote: '"title":"GBIF India"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'

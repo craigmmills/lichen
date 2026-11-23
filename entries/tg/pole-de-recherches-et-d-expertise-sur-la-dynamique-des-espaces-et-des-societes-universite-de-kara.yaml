@@ -1,0 +1,48 @@
+id: pole-de-recherches-et-d-expertise-sur-la-dynamique-des-espaces-et-des-societes-universite-de-kara
+kind: organisation
+name: Pôle de Recherches et d'Expertise sur la Dynamique des espaces et des Sociétés
+also_known_as:
+- PREDES
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: Université de Kara research group, led by Assogba Guézéré, named by its acronym PREDES
+  in a 2023 Landsat remote sensing study of land use change in the Mont Balam classified forest,
+  1985 to 2020.
+facts:
+- claim: The sole author of a 2023 paper on geomatics for the management plan of the Mont
+    Balam classified forest gives PREDES, Department of Geography, Université de Kara, as
+    affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W4387082286&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: sur la Dynamique des espaces et des Soci
+- claim: The affiliation names the group by its acronym.
+  url: https://api.openalex.org/works?filter=openalex:W4387082286&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: (PREDES)
+- claim: The study processed Landsat satellite images by remote sensing to show land use change
+    in the reserve between 1985 and 2020.
+  url: https://api.openalex.org/works?filter=openalex:W4387082286&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: '"remote": [320], "sensing,": [321], "satellite": [324, 377], "from": [326]'
+links:
+- type: run-by
+  to: universite-de-kara
+  url: https://univkara.tg/structures-de-recherche/
+  fetched: 2026-11-13
+  quote: Pôle de Recherches et d’Expertise sur la Dynamique des Espaces et des Sociétés
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

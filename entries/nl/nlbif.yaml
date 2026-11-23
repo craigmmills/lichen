@@ -1,0 +1,65 @@
+id: nlbif
+kind: programme
+name: Netherlands Biodiversity Information Facility
+also_known_as:
+- NLBIF
+- Netherlands Biodiversity Information Facility
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- nl
+website: https://www.nlbif.nl/
+summary: The Dutch national node of GBIF, a department of Naturalis Biodiversity Center
+  that helps Dutch organisations publish biodiversity data to GBIF.
+scope: nl
+facts:
+- claim: National node of GBIF that helps Dutch organisations publish data.
+  url: https://naturalis.nl/en/wetenschap/nlbif-open-biodiversiteitsdata-voor-wetenschap-en-beleid
+  fetched: '2026-10-31'
+  quote: NLBIF is the national node of GBIF ( Global Biodiversity Information Facility
+    ) and helps and supports Dutch organisations to publish biodiversity data online
+    to GBIF.
+- claim: Helps Dutch organisations publish biodiversity data to GBIF.
+  url: https://www.naturalis.nl/en/science/nlbif
+  fetched: &id001 2026-10-31
+  quote: NLBIF is the Dutch national node of GBIF and helps and supports Dutch organisations
+    to publish biodiversity data online to GBIF.
+- claim: National knowledge node of GBIF.
+  url: https://www.nlbif.nl/
+  fetched: '2026-10-31'
+  quote: is het nationaal kennisknooppunt van GBIF
+- claim: Assists Dutch organisations in publishing biodiversity data to GBIF.
+  url: https://www.naturalis.nl/en/science/nlbif
+  fetched: '2026-10-31'
+  quote: NLBIF assists and supports Dutch organizations in publishing biodiversity
+    data to GBIF
+links:
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://naturalis.nl/en/wetenschap/nlbif-open-biodiversiteitsdata-voor-wetenschap-en-beleid
+  fetched: '2026-10-31'
+  quote: NLBIF is a department of Naturalis Biodiversity Center.
+- type: represented-by
+  to: niels-raes
+  url: https://naturalis.nl/en/wetenschap/nlbif-open-biodiversiteitsdata-voor-wetenschap-en-beleid
+  fetched: '2026-10-31'
+  quote: Dr. Niels Raes (node-manager NLBIF)
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/science/nlbif
+  fetched: *id001
+  quote: NLBIF is a department of Naturalis Biodiversity Center.
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://www.naturalis.nl/en/science/nlbif
+  fetched: *id001
+  quote: NLBIF is the Dutch national node of GBIF
+found_by:
+- checklist:2
+- link-from:naturalis-biodiversity-center
+added_by: agent
+checked: '2026-10-31'

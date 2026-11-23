@@ -1,0 +1,51 @@
+id: department-of-environmental-management-uenr
+kind: organisation
+name: Department of Environmental Management, University of Energy and Natural Resources
+also_known_as: []
+scope: gh
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gh
+countries:
+- gh
+scale: national
+status: active
+summary: Department at the University of Energy and Natural Resources in Sunyani,
+  listed as the first author's affiliation on papers on land use and land cover change,
+  and on vegetation loss using machine learning and remote sensing.
+facts:
+- claim: The department, in Sunyani, is the first author's affiliation on a paper
+    on land use change detection in Bosomtwe District.
+  url: https://api.openalex.org/works/W4384501666?select=id,display_name,authorships,type
+  fetched: 2026-11-15
+  quote: Land use change detection using the intensity analysis at the Bosomtwe District,
+    Ashanti Region, Ghana
+- claim: The department is the first author's affiliation on a 2024 paper on land
+    cover change after forest landscape restoration in a degraded forest reserve.
+  url: https://api.openalex.org/works/W4397024254?select=id,display_name,authorships,primary_location,type
+  fetched: 2026-11-15
+  quote: Forest landscape restoration-induced changes in land cover and woody plant
+    community structure in a degraded forest reserve in Ghana
+- claim: The department is the first author's affiliation on a work on vegetation
+    loss in Dormaa Central Municipal using machine learning and remote sensing.
+  url: https://api.openalex.org/works/W7161593690?select=id,display_name,authorships
+  fetched: 2026-11-15
+  quote: 'The Changing Landscape of Dormaa Central Municipal Through Vegetation Losses:
+    Evidence from Machine Learning and Remote Sensing Analysis'
+- claim: The affiliation line places the department at the University of Energy and
+    Natural Resources in Sunyani.
+  url: https://api.openalex.org/works/W7161593690?select=id,display_name,authorships
+  fetched: 2026-11-15
+  quote: Department of Environmental Management, University of Energy and Natural
+    Resources, Sunyani, Ghana
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

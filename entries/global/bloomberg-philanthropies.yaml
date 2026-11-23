@@ -1,0 +1,46 @@
+id: bloomberg-philanthropies
+kind: organisation
+name: Bloomberg Philanthropies
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+website: https://www.bloomberg.org
+summary: Philanthropy that runs the Bloomberg Ocean Initiative, which funds data collection,
+  satellite monitoring and AI for transparency at sea, and is a listed funder of Global Fishing
+  Watch.
+facts:
+- claim: Runs the Bloomberg Ocean Initiative, launched in 2014.
+  url: https://www.bloomberg.org/environment/protecting-the-oceans/
+  quote: Launched in 2014, the Bloomberg Ocean Initiative partners with coastal communities,
+    leading nonprofits, governments, and research institutions
+  fetched: &id001 2026-10-30
+- claim: Wikipedia says it and eight other foundations announced a $1 billion commitment to
+    ocean conservation in June 2022.
+  url: https://en.wikipedia.org/wiki/Bloomberg_Philanthropies
+  quote: Bloomberg Philanthropies and eight other foundations announced in June 2022 they
+    would partner on a $1 billion commitment to support ocean conservation and marine protection.
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: bloomberg-ocean-initiative
+  url: https://www.bloomberg.org/environment/protecting-the-oceans/
+  quote: Launched in 2014, the Bloomberg Ocean Initiative partners with coastal communities
+  fetched: *id001
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: The Bloomberg Family Foundation Inc $2,860,000 2 2020–2021
+  fetched: *id001
+  amount: 2860000
+  currency: USD
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

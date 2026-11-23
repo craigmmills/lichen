@@ -1,0 +1,64 @@
+id: hasanuddin-university
+kind: organisation
+name: Hasanuddin University
+also_known_as:
+- Universitas Hasanuddin
+- Hasanuddin University
+- Unhas
+scope: id
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+- land
+- freshwater
+techniques:
+- bioacoustics
+- remote-sensing
+- computer-vision
+hq: id
+scale: national
+status: active
+website: https://unhas.ac.id
+summary: University in Makassar; its authors co-wrote work on machine learning for marine
+  soundscapes at the Mars restoration site.
+facts:
+- claim: Author affiliation on the soundscape paper.
+  url: https://api.openalex.org/works/W4280552027?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Graduate School, Hasanuddin University, 90245 Makassar, Indonesia
+- claim: GBIF describes it as engaged in biodiversity research and ecological field surveys.
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: is a higher education and research institution engaged in biodiversity research,
+    ecological field surveys
+- claim: Its Geospatial for Sustainable Land Use group lists GIS, multi-criteria analysis
+    and machine learning for assessing land use.
+  url: https://trg.unhas.ac.id/geosus
+  fetched: '2026-10-31'
+  quote: Integratd approaches of GIS, MCDM, and Machine Learing in the assessment of sustainable
+    land use.
+- claim: Its Marine Spatial Planning group uses GIS, remote sensing and oceanographic modelling,
+    from an address in Makassar.
+  url: https://trg.unhas.ac.id/marsplan/
+  fetched: '2026-10-31'
+  quote: Jalan Perintis Kemerdekaan Km 10, Makassar, Sulawesi Selatan, 90245
+- claim: GBIF's record says it supports biodiversity data sharing on freshwater ecosystems
+    around Lake Matano.
+  url: https://api.gbif.org/v1/organization/f04b4a25-e222-4d33-a7c9-88c27ceb42b4
+  fetched: '2026-10-31'
+  quote: particularly in Lake Matano and the surrounding areas of South Sulawesi
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: data-science-and-artificial-intelligence-research-group-unhas
+  url: https://trg.unhas.ac.id/datascienceai/
+  fetched: '2026-10-31'
+  quote: Faculty of Mathematics and Natural Science, Hasanuddin University

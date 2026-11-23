@@ -1,0 +1,50 @@
+id: washington-state-university
+kind: organisation
+name: Washington State University
+scope: us
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: US university whose extension service runs Stock-Smart.com, which uses AI to interpret
+  virtual fence data for grazing that reduces wildfire risk and improves wildlife habitat.
+facts:
+- claim: Extension service is the awardee for Stock-Smart.com.
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: 'Awardee: Stock-Smart.com – Washington State University Extension'
+- claim: WSU researchers ran images through a fully automated pipeline using SpeciesNet.
+  url: https://news.wsu.edu/press-release/2026/05/07/ai-cuts-wildlife-tracking-time-from-months-to-days/
+  quote: Using a general AI model called SpeciesNet, developed by Google, the researchers
+    ran images through a fully automated pipeline with no human review
+  fetched: '2026-10-30'
+- claim: The release is datelined Pullman, Washington.
+  url: https://news.wsu.edu/press-release/2026/05/07/ai-cuts-wildlife-tracking-time-from-months-to-days/
+  quote: PULLMAN, Wash.
+  fetched: '2026-10-30'
+- claim: Says its oldest and largest campus is at Pullman, in southeastern Washington.
+  url: https://wsu.edu/about/
+  fetched: '2026-10-31'
+  quote: The oldest (founded 1890) and largest campus, WSU Pullman is in southeastern Washington.
+links:
+- type: runs
+  to: stock-smart
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: 'Awardee: Stock-Smart.com – Washington State University Extension'
+found_by:
+- link-from:microsoft-ai-for-good-lab
+- checklist:3
+added_by: agent
+checked: '2026-10-30'
+website: https://wsu.edu/

@@ -1,0 +1,38 @@
+id: linnaeus-university
+kind: organisation
+scope: se
+name: Linnaeus University
+also_known_as:
+- LnU
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+scale: national
+hq: se
+status: active
+website: https://lnu.se/en/
+summary: University whose EEMiS centre, SBDI says, is part of the molecular module team and
+  focuses on the Ampliseq amplicon denoising pipeline.
+facts:
+- claim: SBDI says its EEMiS centre is part of the molecular module team.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: The EEMiS centre at the Linnaeus University is part of the molecular module team
+    of SBDI.
+- claim: EEMiS centre focuses on the Ampliseq amplicon denoising pipeline.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: LnU particularly focuses on development of the Nextflow amplicon denoising pipeline
+    nf-core/Ampliseq .
+found_by:
+- link-from:swedish-biodiversity-data-infrastructure
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+countries:
+- se

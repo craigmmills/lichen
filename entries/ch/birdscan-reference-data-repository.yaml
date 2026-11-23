@@ -1,0 +1,29 @@
+id: birdscan-reference-data-repository
+kind: dataset
+name: BirdScan reference data repository
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+status: active
+summary: A dataset run by Swiss Birdradar Solution, with several thousand labelled echoes, used to validate
+  the classification modules.
+facts:
+- claim: Several thousand echoes have been labelled, and the repository is used to validate the classification
+    modules.
+  url: https://swiss-birdradar.com/reference-data-repository/
+  quote: This Reference data repository with known type of the targets allows us to validate the classification
+    modules.
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: swiss-birdradar-solution
+  url: https://swiss-birdradar.com/reference-data-repository/
+  quote: Our development lab manages our growing data repository
+  fetched: '2026-11-02'
+found_by:
+- link-from:swiss-birdradar-solution
+added_by: agent
+checked: '2026-11-02'

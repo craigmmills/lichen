@@ -1,0 +1,31 @@
+id: automated-seabird-colony-monitoring-atlit
+kind: model
+name: Automated deep-learning monitoring of seabird breeding colonies (Atlit)
+scope: il
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Active deep-learning model, built by Inbal Schekler, using YOLOv8 on remote camera
+  images of seabird colonies, with counts within 2% of manual counts on average and over 90%
+  species accuracy for nesting birds.
+facts:
+- claim: Uses YOLOv8 object detection on remote-controlled camera images.
+  url: https://animalflight.haifa.ac.il/?p=2802
+  fetched: '2026-11-08'
+  quote: Using YOLOv8 for initial object detection using remote-controlled cameras
+  ai_type: deep-learning
+- claim: Counts were within 2% of manual counts on average, with over 90% species accuracy
+    for nesting birds.
+  url: https://animalflight.haifa.ac.il/?p=2802
+  fetched: '2026-11-08'
+  quote: with an average discrepancy of only 2 % compared to manual counts
+found_by:
+- checklist:3
+- link-from:animal-flight-group
+added_by: agent
+checked: '2026-11-08'

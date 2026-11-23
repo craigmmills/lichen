@@ -1,0 +1,70 @@
+id: danmarks-jaegerforbund
+kind: organisation
+name: Danmarks Jægerforbund
+scope: dk
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: dk
+countries:
+- dk
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.jaegerforbundet.dk
+summary: Organisation in Rønde doing citizen science with Danish hunters, aiming for a statistically
+  robust, validated dataset on larger nocturnal mammals in Denmark.
+facts:
+- claim: The project aims at a statistically robust, validated dataset on larger nocturnal
+    mammals in Denmark.
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: &id001 2026-11-02
+  quote: har til formål at tilvejebringe et statistisk robust og valideret datasæt om de større
+    nataktive pattedyrs forekomst i Danmark
+- claim: The work is done through a citizen science project with Danish hunters.
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: Dette gøres gennem et Citizen Science projekt med deltagelse af danske jægere
+- claim: Its address is in Rønde.
+  url: https://www.jaegerforbundet.dk
+  fetched: *id001
+  quote: Molsvej 34
+links:
+- type: funded-by
+  to: aage-v-jensen-naturfond
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: AAGE V. JENSEN NATURFOND har valgt at støtte vigtig dataindsamling om pattedyr i
+    Danmark med 1,5 million kroner.
+  amount: 1500000
+  currency: DKK
+- type: partners-with
+  to: danish-centre-for-environment-and-energy
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: Projektet er et samarbejde mellem Danmarks Jægerforbund, Nationalt Center for Miljø
+    og Energi (Institut for Ecoscience, Aarhus Universitet), Naturhistorisk Museum Aarhus
+    og Statens Naturhistoriske Museum.
+- type: partners-with
+  to: naturhistorisk-museum-aarhus
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: Projektet er et samarbejde mellem Danmarks Jægerforbund, Nationalt Center for Miljø
+    og Energi (Institut for Ecoscience, Aarhus Universitet), Naturhistorisk Museum Aarhus
+    og Statens Naturhistoriske Museum.
+- type: partners-with
+  to: natural-history-museum-of-denmark
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: Projektet er et samarbejde mellem Danmarks Jægerforbund, Nationalt Center for Miljø
+    og Energi (Institut for Ecoscience, Aarhus Universitet), Naturhistorisk Museum Aarhus
+    og Statens Naturhistoriske Museum.
+found_by:
+- checklist:register
+- rule:ngo-broad
+added_by: agent
+checked: *id001

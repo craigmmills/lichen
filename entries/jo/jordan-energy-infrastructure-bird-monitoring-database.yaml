@@ -1,0 +1,41 @@
+id: jordan-energy-infrastructure-bird-monitoring-database
+kind: dataset
+name: Jordan national online database on bird collisions and electrocution at energy
+  infrastructure
+scope: jo
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- jo
+status: unknown
+summary: A national online database, reported by the Renewables Grid Initiative as
+  established by RSCN, to monitor and mitigate migratory bird collisions and electrocution
+  at energy infrastructure, alongside 116 wind shutdowns at the time of writing.
+facts:
+- claim: The Renewables Grid Initiative says RSCN established a national online database
+    to monitor and mitigate migratory bird collisions and electrocution around energy
+    infrastructure.
+  url: https://renewables-grid.eu/?p=8229
+  fetched: 2026-11-12
+  quote: Jordan’s Royal Society for the Conservation of Nature (RSCN) established
+    a national online database to monitor and mitigate migratory bird collisions and
+    electrocution around energy infrastructure.
+- claim: The same page says shutdown-on-demand protocols were adopted for wind projects,
+    with 116 shutdowns carried out at the time of writing.
+  url: https://renewables-grid.eu/?p=8229
+  fetched: 2026-11-12
+  quote: adopted shutdown-on-demand protocols (116 shutdowns have been carried out
+    to date)
+links:
+- type: built-by
+  to: royal-society-for-the-conservation-of-nature
+  url: https://renewables-grid.eu/?p=8229
+  fetched: 2026-11-12
+  quote: Jordan’s Royal Society for the Conservation of Nature (RSCN) established
+    a national online database
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

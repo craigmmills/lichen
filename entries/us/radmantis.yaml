@@ -1,0 +1,57 @@
+id: radmantis
+kind: organisation
+name: Radmantis
+also_known_as:
+- RADMANTIS LLC
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+hq: us
+scale: national
+status: unknown
+summary: Toledo, Ohio company funded by NSF SBIR to detect and suppress sea lamprey and protect
+  wild salmonid fisheries in the Great Lakes.
+facts:
+- claim: SBIR Phase I on sea lamprey control.
+  url: https://api.nsf.gov/services/v1/awards/2212614.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  Adapting uncrewed aquaculture management to control sea lamprey and
+    to protect wild salmonid fisheries of the Great Lakes'
+- claim: Uses machine-learning inference to detect, identify and characterise individual fish
+    underwater.
+  url: https://radmantis.com/
+  quote: Radmantis uses machine-learning inference to detect, identify, and characterize individual
+    fish underwater
+  fetched: '2026-10-30'
+- claim: Selected for the second round of the Department of Energy's Hydropower Testing Network.
+  url: https://radmantis.com/
+  quote: Radmantis has been selected in the second round of the U.S. Department of Energy's
+    Hydropower Testing Network (HyTN)
+  fetched: '2026-10-30'
+- claim: The NSF award record gives its address as 5470 Larchwood Ln, Toledo, Ohio.
+  url: https://api.nsf.gov/services/v1/awards/2212614.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"5470 LARCHWOOD LN"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2212614.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  Adapting uncrewed aquaculture management to control sea lamprey'
+  amount: 276000
+  year: 2023
+  currency: USD
+found_by:
+- checklist:5
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+techniques:
+- computer-vision
+website: https://radmantis.com/

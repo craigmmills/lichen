@@ -1,0 +1,86 @@
+id: national-fisheries-resources-research-institute
+kind: organisation
+name: National Fisheries Resources Research Institute
+also_known_as:
+- NaFIRRI
+scope: ug
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: ug
+countries:
+- ug
+scale: national
+status: active
+summary: Public research institute in Jinja under NARO that publishes 38 GBIF datasets, received
+  a $260,000 JRS grant in 2018, and says its freshwater data portal is not yet completed.
+facts:
+- claim: Received a $260,000 JRS grant in 2018 for a project to make Uganda's freshwater biodiversity
+    data accessible and identify freshwater Key Biodiversity Areas.
+  url: https://jrsbiodiversity.org/three-freshwater-grants-east-africa-2018/
+  fetched: 2026-11-08
+  quote: 'National Fisheries Resources Research Institute (NaFIRRI) – From the Lab to the
+    World: Unlocking Uganda’s Freshwater Biodiversity Data for Sustainable Development, $260,000'
+- claim: GBIF lists it as a Ugandan publisher with 38 datasets.
+  url: https://api.gbif.org/v1/organization?country=UG&limit=100
+  fetched: 2026-11-08
+  quote: National Fisheries Resources Research Institute
+- claim: A public research institute under NARO that researches capture fisheries and the
+    water environment and mobilises freshwater biodiversity data.
+  url: https://api.gbif.org/v1/organization/4f3d98d3-f69a-4929-9291-6c35340b6711
+  fetched: 2026-11-08
+  quote: NaFIRRI conducts basic and applied research in Capture fisheries and Water environment.
+    This research scope has enabled NaFIRRI to mobilize data on freshwater biodiversity in
+    Uganda.
+- claim: Publishes 38 datasets on GBIF, including the first national surveys of fish in streams
+    and rivers and a checklist of Uganda's native fishes.
+  url: https://api.gbif.org/v1/organization/4f3d98d3-f69a-4929-9291-6c35340b6711/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Fish taxa observed in the first national surveys of streams and rivers in Uganda
+- claim: Publishes a checklist of Uganda's aquatic macroinvertebrates.
+  url: https://api.gbif.org/v1/organization/4f3d98d3-f69a-4929-9291-6c35340b6711/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: A checklist of aquatic macroinvertebrates of Uganda
+- claim: One of the public National Agricultural Research Institutes under the co-ordination
+    of the National Agricultural Research Organisation.
+  url: http://www.firi.go.ug
+  fetched: 2026-11-08
+  quote: We are one of the seven public National Agricultural Research Institutes (NARIs)
+    under the policy guidance and co-ordination of the National Agricultural Research Organisation
+    (NARO)
+- claim: Says it is consolidating data on fish, invertebrates and algae from Uganda's freshwater
+    ecosystems into a publicly accessible data portal, not yet completed.
+  url: http://www.firi.go.ug
+  fetched: 2026-11-08
+  quote: into a publicly accessible data portal. When completed, the Ugandan government, NGOs,
+    researchers, journalists, and developers can use the data
+- claim: Lists a baseline and monitoring project for critical habitat biodiversity of the
+    Upper Victoria Nile.
+  url: http://www.firi.go.ug
+  fetched: 2026-11-08
+  quote: Biodiversity Action Plan (BAP) Baseline and monitoring activities of Critical Habitat-qualifying
+    biodiversity of the Upper Victoria Nile
+- claim: Headquartered in Jinja.
+  url: http://www.firi.go.ug
+  fetched: 2026-11-08
+  quote: NaFIRRI headquarters are located along plots 39-45, Nile Crescent
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/three-freshwater-grants-east-africa-2018/
+  fetched: 2026-11-08
+  quote: 'National Fisheries Resources Research Institute (NaFIRRI) – From the Lab to the
+    World: Unlocking Uganda’s Freshwater Biodiversity Data for Sustainable Development, $260,000'
+  amount: 260000
+  currency: USD
+  year: 2018
+found_by:
+- checklist:2
+- checklist:6
+- link-from:gbif
+- register:ug
+added_by: agent
+checked: 2026-11-08

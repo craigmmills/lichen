@@ -1,0 +1,123 @@
+id: automated-biodiversity-monitoring
+kind: project
+name: Automated Biodiversity Monitoring
+also_known_as:
+- ABM
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+- other
+- computer-vision
+- bioacoustics
+status: active
+countries:
+- nl
+summary: Initiative of Naturalis, TNO, RIVM and Rijkswaterstaat running from 2026 to 2030
+  to build a Dutch infrastructure of sensors and AI for biodiversity monitoring at national,
+  regional and local level.
+scope: nl
+facts:
+- claim: Runs from 2026 to 2030 and focuses on an infrastructure with sensors and AI.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: they are jointly launching an initiative for Automated Biodiversity Monitoring (ABM),
+    running from 2026 to 2030
+- claim: Aims at infrastructure at national, regional and local level.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: The ABM initiative focuses on realizing an infrastructure for automated biodiversity
+    monitoring at the national, regional, and local level.
+- claim: Rijkswaterstaat says the initiative has started.
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/11/geavanceerde-biodiversiteitmonitoring-van-start-in-2026
+  fetched: '2026-10-31'
+  quote: Om deze reden is het initiatief Automated Biodiversity Monitoring (ABM) gestart.
+- claim: A grant of 19.4 million euros supports the initiative, which runs from 2026 to 2030.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: &id001 2026-10-31
+  quote: Thanks to a grant of 19.4 million euros, they are jointly launching an initiative
+    for Automated Biodiversity Monitoring (ABM), running from 2026 to 2030.
+- claim: The money comes from the FTO grant of the central government.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: The funding for the Automated Biodiversity Monitoring (ABM) initiative from the FTO
+    grant of the central government
+- claim: Plans autonomous field stations connected to a central AI system.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: we are deploying autonomous field stations that will be connected to a central AI
+    system
+- claim: Rijkswaterstaat also reports the initiative, under the Dutch name geautomatiseerde
+    biodiversiteitsmonitoring.
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/11/geavanceerde-biodiversiteitmonitoring-van-start-in-2026
+  fetched: *id001
+  quote: initiatief voor geautomatiseerde biodiversiteitsmonitoring (ABM)
+links:
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center, TNO, RIVM, and Rijkswaterstaat are joining forces
+    to protect biodiversity.
+- type: partners-with
+  to: tno
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center, TNO, RIVM, and Rijkswaterstaat are joining forces
+    to protect biodiversity.
+- type: partners-with
+  to: rivm
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center, TNO, RIVM, and Rijkswaterstaat are joining forces
+    to protect biodiversity.
+- type: partners-with
+  to: rijkswaterstaat
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center, TNO, RIVM, and Rijkswaterstaat are joining forces
+    to protect biodiversity.
+- type: funded-by
+  to: faciliteiten-toegepast-onderzoek
+  url: https://www.rijkswaterstaat.nl/nieuws/archief/2025/11/geavanceerde-biodiversiteitmonitoring-van-start-in-2026
+  fetched: '2026-10-31'
+  quote: De financiering hiervoor komt vanuit de Faciliteiten Toegepast Onderzoek (FTO)-subsidie
+    van de Rijksoverheid van 19,4 miljoen euro.
+  amount: 19400000
+  currency: EUR
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: This is a joint press release from Naturalis Biodiversity Center , TNO , RIVM en
+    Rijkswaterstaat .
+- type: partners-with
+  to: tno
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: TNO will focus on the technical development of these field stations (sensors)
+- type: partners-with
+  to: rivm
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: RIVM and Rijkswaterstaat will be responsible for installing these stations within
+    their monitoring networks
+- type: partners-with
+  to: rijkswaterstaat
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: RIVM and Rijkswaterstaat will be responsible for installing these stations within
+    their monitoring networks
+- type: partners-with
+  to: arise-biodiversity
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: This ABM initiative is an important link within the larger whole.
+found_by:
+- checklist:7
+- link-from:naturalis-biodiversity-center
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

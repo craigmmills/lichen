@@ -1,0 +1,138 @@
+id: norwegian-environment-agency
+kind: organisation
+name: Norwegian Environment Agency
+also_known_as:
+- Miljødirektoratet
+scope: 'no'
+summary: Agency of 700 employees under the Ministry of Climate and Environment, managing Norwegian
+  nature, running Rovbase, and using remote sensing and AI to develop a national nature map.
+facts:
+- claim: A government agency under the Ministry of Climate and Environment, with 700 employees.
+  url: https://www.environmentagency.no/norwegian-environment-agency/about-us/
+  fetched: '2026-11-02'
+  quote: We are a government agency under the Ministry of Climate and Environment and have
+    700 employees at our two offices in Trondheim and Oslo
+- claim: Its primary tasks include managing Norwegian nature.
+  url: https://www.environmentagency.no/norwegian-environment-agency/about-us/
+  fetched: '2026-11-02'
+  quote: Our primary tasks are to reduce greenhouse gas emissions, manage Norwegian nature,
+    and prevent pollution.
+- claim: Carries out conservation work with the county governors and the governor of Svalbard.
+  url: https://www.environmentagency.no/norwegian-environment-agency/our-responsibilities/
+  fetched: '2026-11-02'
+  quote: the Norwegian Environment Agency, the country governors, and the governor of Svalbard
+    carry out the conservation work
+- claim: National contact point for the scientific committee of the Convention on Biological
+    Diversity.
+  url: https://www.miljodirektoratet.no/regelverk/konvensjoner/biologisk-mangfold/
+  fetched: '2026-11-02'
+  quote: Vi er det nasjonale kontaktpunktet for vitenskapskomiteen (SBSTTA).
+- claim: Uses remote sensing and AI to develop a national nature map.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: tas fjernmåling og kunstig intelligens i bruk for å utvikle kartet som vi kaller
+    for naturkart
+- claim: Has tested sensors in remote sensing pilots with the Norwegian Space Agency through
+    Copernicus.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/natur-pa-land/fjernmaling/
+  fetched: '2026-11-02'
+  quote: Miljødirektoratet har i samarbeid med Norsk romsenter gjennom Copernicusprogrammet
+    og flere fagmiljøer prøvd ut forskjellige sensorer i ulike piloter.
+- claim: Its main tasks are cutting emissions, managing Norwegian nature and preventing pollution.
+  url: https://www.miljodirektoratet.no/om-oss/
+  fetched: '2026-11-02'
+  quote: Hovudoppgåvene våre er å redusere klimagassutslepp, forvalte norsk natur og hindre
+    forureining.
+- claim: A state administrative body under the Ministry of Climate and Environment.
+  url: https://www.miljodirektoratet.no/om-oss/
+  fetched: '2026-11-02'
+  quote: Vi er eit statleg forvaltningsorgan underlagde Klima- og miljødepartementet.
+- claim: Its nature management office is in Trondheim, per its GBIF publisher record.
+  url: https://api.gbif.org/v1/organization/c227aa75-e44d-42b3-89b5-3d2a6210c841
+  fetched: '2026-11-02'
+  quote: has offices in Trondheim for nature management
+- claim: Its protected areas section leads the setting up of new protected areas on the mainland
+    and Svalbard.
+  url: https://www.miljodirektoratet.no/om-oss/miljodirektoratets-organisasjon/land--og-friluftslivavdelingen/verneomrader/
+  fetched: '2026-11-02'
+  quote: Seksjonen har ansvar for å styre prosesser for etablering av nye verneområder på
+    fastlandet og på Svalbard.
+- claim: Says it uses remote sensing to make collection of environmental data more efficient.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/fjernmaling/
+  fetched: '2026-11-02'
+  quote: 'Miljødirektoratet bruker fjernmåling for å effektivisere innsamling av miljødata
+    knyttet til:'
+- claim: A state administrative body under the Ministry of Climate and Environment.
+  url: https://www.miljodirektoratet.no/utskrift-nettpublikasjon/?id=164778
+  fetched: &id001 2026-11-02
+  quote: Vi er et statlig forvaltningsorgan underlagt Klima- og miljødepartementet
+- claim: Uses remote sensing to collect environmental data more efficiently.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/fjernmaling/
+  fetched: *id001
+  quote: Miljødirektoratet bruker fjernmåling for å effektivisere innsamling av miljødata
+- claim: Norsk Regnesentral tested methods for the agency that detect land cover change from
+    Sentinel-2 images with the U-Net deep neural network.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/fjernmaling/
+  fetched: *id001
+  quote: Metoden som er benyttet er basert på Sentinel-2 satellittbilder i kombinasjon med
+    det dype nevrale nettverket U-Net (maskinlæring).
+  ai_type: deep-learning
+- claim: The GBIF publisher record gives its address in Trondheim, Norway.
+  url: https://api.gbif.org/v1/organization/c227aa75-e44d-42b3-89b5-3d2a6210c841
+  fetched: *id001
+  quote: '"city":"Trondheim","province":"Trøndelag","country":"NO"'
+links:
+- type: partners-with
+  to: norwegian-space-agency
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/natur-pa-land/fjernmaling/
+  fetched: '2026-11-02'
+  quote: Miljødirektoratet har i samarbeid med Norsk romsenter gjennom Copernicusprogrammet
+- type: run-by
+  to: norwegian-ministry-of-climate-and-environment
+  url: https://www.miljodirektoratet.no/om-oss/
+  fetched: '2026-11-02'
+  quote: Vi er eit statleg forvaltningsorgan underlagde Klima- og miljødepartementet.
+- type: runs
+  to: rovbase
+  url: https://www.miljodirektoratet.no/tjenester/nettsteder/rovbase/
+  fetched: '2026-11-02'
+  quote: Rovbasen er utvikla og drifta av Miljødirektoratet.
+- type: builds
+  to: rovbase
+  url: https://www.miljodirektoratet.no/tjenester/nettsteder/rovbase/
+  fetched: '2026-11-02'
+  quote: Rovbasen er utvikla og drifta av Miljødirektoratet.
+- type: funds
+  to: lavdas
+  url: https://kartverket.no/forskning-og-utvikling-fou/lavdas-landsdekkende-vatmarksdatasett/landsdekkende-vatmarksdatasett
+  fetched: '2026-11-02'
+  quote: Forskningsrådet støtter prosjektet med 7 millioner og Miljødirektoratet bidrar med
+    3 millioner kroner.
+found_by:
+- checklist:1
+- queue:no
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: government
+roles:
+- governs
+- builds-ai
+- supplies-data
+- uses-ai
+- funds
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+website: https://www.environmentagency.no
+countries:
+- 'no'
+ai_types:
+- deep-learning

@@ -1,0 +1,37 @@
+id: ai-guardian-of-endangered-species
+kind: model
+name: AI Guardian of Endangered Species
+also_known_as:
+- 濒危物种AI守护官
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Image recognition model from Baidu's PaddlePaddle team and the International Fund for Animal Welfare that finds wildlife product images in online trade, trained on IFAW's image data.
+facts:
+- claim: Version 2.0 was released in 2024.
+  url: https://m.tech.china.com/redian/2025/0711/072025_1698164.html
+  fetched: &id001 2026-10-30
+  quote: 2024年，飞桨与IFAW进一步深化合作，发布“濒危物种AI守护官2.0”
+- claim: By June 2025 it had screened over 410,000 suspect images and led to the removal of over 13,000 illegal trade adverts.
+  url: https://m.tech.china.com/redian/2025/0711/072025_1698164.html
+  fetched: *id001
+  quote: 截至2025年6月，“濒危物种AI守护官”已筛查超41万张可疑图片
+links:
+- type: run-by
+  to: baidu
+  url: https://m.tech.china.com/redian/2025/0711/072025_1698164.html
+  fetched: *id001
+  quote: "由百度飞桨与国际爱护动物基金会（IFAW）联合研发的 “ 濒危物种AI守护官2.0”项目"
+- type: partners-with
+  to: international-fund-for-animal-welfare
+  url: https://m.tech.china.com/redian/2025/0711/072025_1698164.html
+  fetched: *id001
+  quote: "此次获奖的是由百度飞桨与国际爱护动物基金会（IFAW）联合研发的 “ 濒危物种AI守护官2.0”项目"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

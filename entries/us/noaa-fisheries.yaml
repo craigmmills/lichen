@@ -1,0 +1,36 @@
+id: noaa-fisheries
+kind: organisation
+name: NOAA Fisheries
+scope: us
+sector: government
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+countries:
+- us
+scale: national
+website: https://www.fisheries.noaa.gov
+summary: US federal fisheries agency whose feature stories describe the use of AI on video
+  surveys. Entries already linked to this id had no record behind it.
+facts:
+- claim: Published a feature story on AI for video surveys.
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  quote: Increasing Efficiency of Video Surveys with Artificial Intelligence
+  fetched: '2026-10-31'
+- claim: Says its national headquarters are in Silver Spring, Maryland.
+  url: https://www.fisheries.noaa.gov/about-us
+  fetched: '2026-10-31'
+  quote: national headquarters in Silver Spring, Maryland
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

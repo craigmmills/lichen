@@ -1,0 +1,43 @@
+id: amazon-mining-watch
+kind: project
+name: Amazon Mining Watch
+scope: global
+ai_label: ai
+ai_types: [ml-supervised, deep-learning]
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://amazonminingwatch.org
+summary: Platform that uses AI on satellite imagery to map gold mining across all nine Amazonian countries, developed by the Pulitzer Center's Rainforest Investigations Network, Amazon Conservation Association and Earth Genome.
+facts:
+- claim: Uses artificial intelligence to map gold mining across the nine Amazonian countries.
+  url: https://amazonminingwatch.org/
+  quote: Amazon Mining Watch leverages artificial intelligence to map the impact of gold mining activities across all nine Amazonian countries.
+  fetched: '2026-10-30'
+- claim: "The mine detector is an ensemble of convolutional neural networks."
+  url: https://github.com/earthrise-media/mining-detector
+  fetched: '2026-10-30'
+  quote: "The mine detector is an ensemble of convolutional neural networks"
+  ai_type: deep-learning
+- claim: "The mine detector is trained on hand-labelled examples."
+  url: https://github.com/earthrise-media/mining-detector
+  fetched: '2026-10-30'
+  quote: "trained to discriminate mines from other terrain using hand-labeled examples"
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: earth-genome
+  url: https://amazonminingwatch.org/en/about
+  quote: Amazon Mining Watch is a collaborative platform developed through a partnership between the Pulitzer Center's Rainforest Investigations Network, Amazon Conservation Association, and Earth Genome.
+  fetched: '2026-10-30'
+- type: run-by
+  to: amazon-conservation
+  url: https://amazonminingwatch.org/en/about
+  quote: Amazon Mining Watch is a collaborative platform developed through a partnership between the Pulitzer Center's Rainforest Investigations Network, Amazon Conservation Association, and Earth Genome.
+  fetched: '2026-10-30'
+found_by:
+- link-from:earth-genome
+added_by: agent
+checked: '2026-10-30'

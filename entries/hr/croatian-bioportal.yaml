@@ -1,0 +1,39 @@
+id: croatian-bioportal
+kind: dataset
+name: Bioportal
+also_known_as:
+- Croatian Bioportal
+scope: hr
+ai_label: data-infrastructure
+countries:
+- hr
+status: active
+website: https://bioportal.hr
+summary: Web portal of the Information System for Nature Protection, run and built by the Institute for
+  Environment and Nature, whose GBIF page describes consolidating local data.
+facts:
+- claim: Bioportal is the web portal of the Information System for Nature Protection.
+  url: https://bioportal.hr/en/terms-of-use
+  fetched: 2026-11-08
+  quote: Bioportal is a web portal of the Information System for Nature Protection
+- claim: Its GBIF page describes local information systems such as the Croatian Bioportal as bringing
+    data together and presenting it in one place.
+  url: https://bioportal.hr/en/gbif-croatia
+  fetched: 2026-11-08
+  quote: Local information systems, such as the Croatian Bioportal, are of immense importance because
+    they allow data consolidation and presentation in one place.
+links:
+- type: run-by
+  to: institute-for-environment-and-nature
+  url: https://bioportal.hr/en/terms-of-use
+  fetched: &id001 2026-11-08
+  quote: established, managed, and administered by the Institute for Environment and Nature
+- type: built-by
+  to: institute-for-environment-and-nature
+  url: https://bioportal.hr/en/terms-of-use
+  fetched: *id001
+  quote: established, managed, and administered by the Institute for Environment and Nature
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

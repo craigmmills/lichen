@@ -1,0 +1,57 @@
+id: prefectura-naval-argentina
+kind: organisation
+name: Prefectura Naval Argentina
+also_known_as:
+- PNA
+- Argentina's Naval Prefecture
+scope: ar
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+website: https://www.argentina.gob.ar/prefecturanaval
+summary: Argentine maritime authority that says its Coast Guard System detected illegal Vanuatu-flagged
+  fishing vessels in 2025 and 2026, and which uses Skylight, whose analytics Ai2 said helped
+  validate one detection.
+facts:
+- claim: Says its Coast Guard System detected Vanuatu-flagged fishing vessels operating illegally
+    in the exclusive economic zone in 2025 and 2026, later sanctioned by the national fisheries
+    undersecretariat.
+  url: https://www.argentina.gob.ar/noticias/de-la-vigilancia-remota-la-sancion-la-experiencia-de-prefectura-contra-la-pesca-ilegal
+  fetched: '2026-11-03'
+  quote: detectados por el Sistema Guardacostas operando ilegalmente dentro de la Zona Económica
+    Exclusiva (ZEE) en 2025 y 2026
+- claim: Says a UNODC manual on maritime domain awareness and digital evidence draws on Argentina's
+    use of information from its Coast Guard System to detect and sanction illegal fishing
+    vessels.
+  url: https://www.argentina.gob.ar/noticias/de-la-vigilancia-remota-la-sancion-la-experiencia-de-prefectura-contra-la-pesca-ilegal
+  fetched: '2026-11-03'
+  quote: una publicación que incorpora la experiencia de nuestro país en el uso de información
+    obtenida por el Sistema Guardacostas de la Prefectura Naval Argentina para detectar y
+    sancionar a buques que realizan pesca ilegal
+- claim: In April 2026, Ai2 said Skylight’s analytics had helped validate the Prefecture’s
+    detection of a foreign fishing vessel earlier that year, contributing to a fine.
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: '2026-11-03'
+  quote: Earlier this year, Argentina's Naval Prefecture identified a foreign fishing vessel
+    operating within its waters. Skylight's advanced analytics helped validate the detection
+links:
+- type: uses
+  to: skylight
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: '2026-11-03'
+  quote: Argentina's Naval Prefecture identified a foreign fishing vessel operating within
+    its waters. Skylight's advanced analytics helped validate the detection
+found_by:
+- link-from:skylight
+added_by: agent
+checked: '2026-11-03'

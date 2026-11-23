@@ -1,0 +1,73 @@
+id: sailyugemsky-camera-trap-neural-network
+kind: project
+name: Sailyugemsky National Park camera-trap neural network
+also_known_as:
+- Sailyugemsky snow leopard neural network
+scope: ru
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ru
+status: active
+summary: Built by Yandex Cloud with the park as partner, this camera-trap model reportedly recognised
+  10 species, trained on 40,000 objects totalling 150 GB, according to Yandex in October 2023.
+facts:
+- claim: In October 2023, Yandex Cloud's press service said the model had been trained on 40,000 labelled
+    objects totalling 150 GB and recognised 10 animal species.
+  url: https://habr.com/ru/news/769240
+  quote: 'Они обучили модель на массиве из 40 тысяч размеченных объектов: фотографий и фрагментов видео
+    — общим объёмом 150 Гб.'
+  fetched: '2026-10-31'
+- claim: The October 2023 report describes a neural network that recognises 10 animal species in camera-trap
+    images and videos.
+  url: https://habr.com/ru/news/769240
+  quote: разработали нейросеть, распознающую 10 разных видов животных на изображениях и видео, полученных
+    с помощью фотоловушек
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: Yandex says the neural network was trained on 40,000 labelled objects.
+  url: https://yandex.ru/company/news/01-23-10-2023
+  fetched: 2026-10-31
+  quote: Специалисты обучили модель на массиве из 40 тысяч размеченных объектов
+- claim: Yandex said the first stage of the project was finished in October 2023.
+  url: https://yandex.ru/company/news/01-23-10-2023
+  fetched: 2026-10-31
+  quote: завершила первый этап проекта по мониторингу диких животных для национального парка
+    «Сайлюгемский» в Республике Алтай
+- claim: Yandex Cloud says it used the YOLO architecture.
+  url: https://yandex.cloud/ru/blog/posts/2023/10/irbis
+  fetched: 2026-10-31
+  quote: Мы использовали архитектуру YOLO
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: yandex-cloud
+  url: https://habr.com/ru/news/769240
+  quote: Специалисты облачного провайдера и студенты ШАД разработали нейросеть
+  fetched: '2026-10-31'
+- type: partners-with
+  to: sailyugemsky-national-park
+  url: https://habr.com/ru/news/769240
+  quote: «Мы начали работу с национальным парком в мае 2023 года, проект будет реализован в несколько
+    этапов.
+  fetched: '2026-10-31'
+- type: built-by
+  to: yandex-cloud
+  url: https://yandex.ru/company/news/01-23-10-2023
+  fetched: 2026-10-31
+  quote: Студенты ШАДа вместе со специалистами Yandex Cloud разработали нейросеть, которая
+    всего за несколько секунд обрабатывает такие снимки и находит на них животных.
+- type: partners-with
+  to: sailyugemsky-national-park
+  url: https://yandex.ru/company/news/01-23-10-2023
+  fetched: 2026-10-31
+  quote: проекта по мониторингу диких животных для национального парка «Сайлюгемский»
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

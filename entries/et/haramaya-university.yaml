@@ -1,0 +1,36 @@
+id: haramaya-university
+kind: organisation
+name: Haramaya University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+hq: unknown
+scale: national
+status: active
+summary: University that OpenAlex lists as the affiliation of the first author of a 2025 paper
+  on machine learning predictions of climate change effects on a near-threatened bird's habitat.
+facts:
+- claim: OpenAlex lists a 2025 paper on machine learning predictions of climate change effects
+    on the habitat of a near-threatened bird species.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: Machine learning predictions of climate change effects on nearly threatened bird
+    species (Crithagra xantholaema) habitat in Ethiopia for conservation strategies
+- claim: OpenAlex lists Tadele Bedo Gelete, first author of that paper, at Haramaya University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: '"display_name": "Tadele Bedo Gelete", "orcid": "https://orcid.org/0000-0001-5344-2580",
+    "observed_orcids": ["https://orcid.org/0000-0001-5344-2580"]}, "institutions": [{"id":
+    "https://openalex.org/I153487414", "display_name": "Haramaya University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

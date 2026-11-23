@@ -1,0 +1,41 @@
+id: inaturalist-canada
+kind: dataset
+name: iNaturalist Canada
+also_known_as: []
+scope: ca
+ai_label: conservation-tech
+status: active
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ca
+runner: unknown
+summary: Canadian site of iNaturalist, launched in June 2015 by the Canadian Wildlife
+  Federation and ROM Biodiversity, for recording wildlife observations with photos.
+  Its own site refused the fetcher, so this rests on the ROM release.
+facts:
+- claim: The Royal Ontario Museum release says the mobile app launched on 13 June
+    2015 for users to contribute knowledge of Canadian species.
+  url: https://www.rom.on.ca/news-releases/rom-leads-citizen-science-campaign-document-plants-animals-and-fungi-june-13-14-don
+  fetched: '2026-10-31'
+  quote: The new iNaturalist Canada mobile app for Android and Apple platforms launched
+    today
+links:
+- type: partners-with
+  to: royal-ontario-museum
+  url: https://www.rom.on.ca/news-releases/rom-leads-citizen-science-campaign-document-plants-animals-and-fungi-june-13-14-don
+  fetched: '2026-10-31'
+  quote: Canadian Wildlife Federation and ROM Biodiversity launch new App iNaturalist
+    Canada
+- type: partners-with
+  to: canadian-wildlife-federation
+  url: https://www.rom.on.ca/news-releases/rom-leads-citizen-science-campaign-document-plants-animals-and-fungi-june-13-14-don
+  fetched: '2026-10-31'
+  quote: Canadian Wildlife Federation and ROM Biodiversity launch new App iNaturalist
+    Canada
+found_by:
+- rule:citizen-science
+added_by: agent
+checked: '2026-10-31'

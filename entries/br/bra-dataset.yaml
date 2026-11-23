@@ -1,0 +1,29 @@
+id: bra-dataset
+kind: dataset
+name: BRA-Dataset
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- br
+status: active
+summary: Image set of 1,458 pictures of five Brazilian wild animals, made by researchers coordinated
+  from ICMC-USP to train YOLO object detectors to monitor animals crossing roads.
+facts:
+- claim: A database of 1,458 images of the species.
+  url: https://revistapesquisa.fapesp.br/sistemas-baseados-em-ia-podem-monitorar-travessia-de-animais-em-rodovias/
+  fetched: '2026-10-30'
+  quote: denominado BRA-Dataset, com 1.458 imagens das espécies
+- claim: Work coordinated by ICMC-USP researchers testing 14 versions of YOLO systems.
+  url: https://revistapesquisa.fapesp.br/sistemas-baseados-em-ia-podem-monitorar-travessia-de-animais-em-rodovias/
+  fetched: '2026-10-30'
+  quote: um trabalho coordenado por pesquisadores do Instituto de Ciências Matemáticas e de
+    Computação de São Carlos da Universidade de São Paulo (ICMC-USP)
+found_by:
+- link-from:queue-br
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

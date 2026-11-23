@@ -1,0 +1,49 @@
+id: naturetech-alliance
+kind: programme
+name: NatureTech Alliance
+also_known_as:
+- Nature Tech Alliance
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+- edna-genomics
+status: active
+summary: Alliance of ERM, Salesforce, NatureMetrics and Planet, formed at Davos, to help companies assess, manage and disclose biodiversity impacts and dependencies on nature. Current status not checked.
+facts:
+- claim: Formed by ERM, Salesforce, NatureMetrics and Planet.
+  url: https://www.naturemetrics.com/news/introducing-the-naturetech-alliance
+  fetched: &id001 2026-10-30
+  quote: ERM, Salesforce, NatureMetrics and Planet have announced a pioneering global alliance
+- claim: Formed at the World Economic Forum Annual Meeting at Davos.
+  url: https://www.planet.com/pulse/the-nature-tech-alliance-planet-erm-salesforce-and-naturemetric-launch-initiative-to-measure-biodiversity-and-report-on-impact/
+  fetched: *id001
+  quote: The Nature Tech Alliance, formed at the World Economic Forum Annual Meeting at Davos
+links:
+- type: partners-with
+  to: salesforce
+  url: https://www.naturemetrics.com/news/introducing-the-naturetech-alliance
+  fetched: *id001
+  quote: "ERM, Salesforce, NatureMetrics and Planet have announced a pioneering global alliance"
+- type: partners-with
+  to: erm
+  url: https://www.naturemetrics.com/news/introducing-the-naturetech-alliance
+  fetched: *id001
+  quote: ERM, Salesforce, NatureMetrics and Planet have announced
+- type: partners-with
+  to: naturemetrics
+  url: https://www.naturemetrics.com/news/introducing-the-naturetech-alliance
+  fetched: *id001
+  quote: ERM, Salesforce, NatureMetrics and Planet have announced
+- type: partners-with
+  to: planet-labs
+  url: https://www.naturemetrics.com/news/introducing-the-naturetech-alliance
+  fetched: *id001
+  quote: ERM, Salesforce, NatureMetrics and Planet have announced
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

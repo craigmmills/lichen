@@ -1,0 +1,28 @@
+id: for-instance-dataset
+kind: dataset
+name: FOR-instance
+also_known_as:
+- ForInstance
+scope: 'no'
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- 'no'
+scale: global
+status: active
+runner: unknown
+summary: UAV laser scanning benchmark dataset for segmentation of individual trees, drawn from five data
+  collections.
+facts:
+- claim: A UAV laser scanning benchmark dataset for segmentation of individual trees, from five data collections.
+  url: https://smartforest.no/2023/09/20/instance-segmentation-of-individual-tree-crowns-with-yolov5-a-comparison-of-approaches-using-the-forinstance-benchmark-lidar-dataset/
+  fetched: '2026-11-02'
+  quote: a UAV laser scanning benchmark dataset for semantic and instance segmentation of individual trees
+    from five data collections
+found_by:
+- link-from:smartforest
+added_by: agent
+checked: '2026-11-02'

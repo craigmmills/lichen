@@ -1,0 +1,45 @@
+id: southern-california-coastal-ocean-observing-system
+kind: organisation
+name: Southern California Coastal Ocean Observing System
+also_known_as:
+- SCCOOS
+scope: us
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+countries:
+- us
+scale: local
+website: https://sccoos.org
+summary: Regional ocean observing system whose site hosts the California Imaging FlowCytobot
+  Network, which classifies phytoplankton with machine learning.
+facts:
+- claim: Its site describes the California IFCB Network.
+  url: https://sccoos.org/ifcb/
+  quote: CA Imaging FlowCytobot Network | Southern California Coastal Ocean Observing System
+  fetched: '2026-10-31'
+- claim: Gives a postal address at Scripps Institution of Oceanography, University of California,
+    San Diego.
+  url: https://sccoos.org/contact/
+  fetched: '2026-10-31'
+  quote: 9500 Gilman Drive, Mail Code 0208 La Jolla, CA 92037
+links:
+- type: runs
+  to: california-imaging-flowcytobot-network
+  url: https://cdn.ioos.noaa.gov/attachments/2025/NHABON%20Funding%20Awards%20FY24.pdf
+  quote: This award supports the operation and maintenance of the California Imaging FlowCytobot
+    Network (CA IFCB Network)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

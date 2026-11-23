@@ -1,0 +1,101 @@
+id: natagora
+kind: organisation
+name: Natagora
+scope: be
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- funds
+- governs
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+hq: be
+countries:
+- be
+scale: national
+status: active
+website: https://www.natagora.be
+summary: Nature organisation protecting nature in Wallonia and Brussels, which coordinates
+  Observations.be, where AI assesses the reliability of observations and supports volunteer
+  validators.
+facts:
+- claim: Coordinates Observations.be for Wallonia and Brussels.
+  url: https://www.natagora.be/news/10-millions-dobservations-naturalistes-en-1
+  fetched: 2026-11-02
+  quote: Le site web Observations.be coordonné par Natagora pour la Wallonie et Bruxelles
+- claim: Artificial intelligence assesses the reliability of observations and supports the
+    validators.
+  url: https://www.natagora.be/news/10-millions-dobservations-naturalistes-en-1
+  fetched: 2026-11-02
+  quote: Les validateurs sont soutenus par l'intelligence artificielle qui évalue la fiabilité
+    des observations
+- claim: Has an office in Namur.
+  url: https://www.natagora.be/contacts
+  fetched: 2026-11-02
+  quote: 5000 Namur
+- claim: Collects, analyses and interprets biological observations in each of its reserves.
+  url: https://www.natagora.be/le-suivi-biologique-des-reserves
+  fetched: '2026-11-02'
+  quote: Dans chacune de ses réserves, Natagora assure la récolte, l’analyse et l’interprétation
+    des observations biologiques effectuées.
+- claim: Monitors habitats and the rarest species in its reserves.
+  url: https://www.natagora.be/le-suivi-biologique-des-reserves
+  fetched: '2026-11-02'
+  quote: Natagora s'investit dans le suivi des habitats et des espèces les plus rares
+- claim: Its aim is to protect nature, particularly in Wallonia and Brussels.
+  url: https://aves.natagora.be/les-donnees-ornithologiques
+  fetched: '2026-11-02'
+  quote: Natagora a pour but de protéger la nature, plus particulièrement en Wallonie et à
+    Bruxelles.
+- claim: Named as a co-financer of the LIFE EBP reinforcement project.
+  url: https://life.eurobirdportal.org/who
+  fetched: '2026-11-02'
+  quote: The project also counts with the co-financing of the EBCC , Natagora
+- claim: Says the Observations.be portal has AI-based photo identification.
+  url: https://volontariat.natagora.be/faq/comment-fonctionnons-nous/comment-est-organisee-lequipe-professionnelle
+  fetched: '2026-11-02'
+  quote: Ce portail est doublé d’un système d’aide à l’identification sur photo basé sur l’intelligence
+    artificielle
+- claim: Its GBIF record says it coordinates and supports volunteers collecting information
+    on wild biodiversity in Wallonia and Brussels.
+  url: https://api.gbif.org/v1/organization/147d711e-8a02-4b67-b4ce-918abd7dbb76
+  fetched: &id001 2026-11-02
+  quote: We coordinate and support volunteers in collecting information about wild biodiversity
+    in Wallonia and Brussels of all taxonomic groups.
+- claim: A director at Natagora says observations are checked by AI or by one of 360 specialist
+    volunteers.
+  url: https://www.natagora.be/news/observationsbe-franchit-le-cap-des-100-millions-dobservations
+  fetched: *id001
+  quote: Vos observations sont vérifiées par l’IA ou par l’un de nos 360 bénévoles spécialisés
+- claim: Says an identification tool automatically analyses images entered on its platform.
+  url: https://www.natagora.be/naturaliste-chez-moi
+  fetched: *id001
+  quote: un outil d’aide à l’identification analyse automatiquement votre image
+- claim: Manages more than 300 nature reserves covering 6,200 hectares.
+  url: https://www.natagora.be/news/natagora-engage-un-directeur-general-ou-une-directrice-generale-hfx
+  quote: Natagora gère plus de 300 réserves naturelles (6 200 hectares)
+  fetched: '2026-11-17'
+links:
+- type: partners-with
+  to: natuurpunt
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: 2026-11-02
+  quote: En 2008, en collaboration avec Natuurpunt, Natagora décide d’informatiser le système
+    et lance observations.be.
+- type: runs
+  to: observations-be
+  url: https://www.natagora.be/observationsbe-un-portail-dencodage-pour-tous
+  fetched: '2026-11-02'
+  quote: Observations.be est l'interface quotidienne de partage et de gestion de millions
+    de données d'observations naturalistes, gérée par Natagora.
+found_by:
+- checklist:4
+- link-from:eurobirdportal
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

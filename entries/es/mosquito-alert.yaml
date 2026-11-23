@@ -1,0 +1,96 @@
+id: mosquito-alert
+kind: programme
+name: Mosquito Alert
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+status: active
+countries:
+- es
+summary: Citizen science platform that detects invasive mosquitoes from photographs sent by
+  the public, using an AI algorithm to identify species and trigger alerts.
+facts:
+- claim: Since 2023 it has enabled detection of the tiger mosquito in 156 municipalities.
+  url: https://www.ceab.csic.es/en/?p=17204
+  quote: Since 2023, Mosquito Alert has enabled the detection of the tiger mosquito in 156
+    municipalities
+  fetched: '2026-10-31'
+- claim: Its authors published deep learning identification of tiger mosquitoes in 2021.
+  url: https://www.ceab.csic.es/en/?p=9449
+  quote: Deep learning identification for citizen science surveillance of tiger mosquitoes
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: A non-profit cooperative citizen science project coordinated by public research centres.
+  url: https://www.mosquitoalert.com/proyecto/que-es-mosquito-alert/
+  fetched: '2026-10-31'
+  quote: Mosquito Alert es un proyecto de ciencia ciudadana cooperativo sin ánimo de lucro,
+    coordinado por diferentes centros de investigación públicos
+- claim: Aims to study, monitor and fight the spread of invasive mosquitoes.
+  url: https://www.mosquitoalert.com/proyecto/que-es-mosquito-alert/
+  fetched: '2026-10-31'
+  quote: El objetivo es estudiar, vigilar y luchar contra la expansión de mosquitos invasores
+- claim: Researchers showed that an AI algorithm can recognise the tiger mosquito in citizens'
+    photographs.
+  url: https://www.ceab.csic.es/es/la-inteligencia-artificial-identifica-al-mosquito-tigre-de-las-fotos-recibidas-en-la-app-mosquito-alert/
+  fetched: '2026-10-31'
+  quote: han demostrado que un algoritmo de inteligencia artificial es capaz de reconocer
+    al mosquito tigre
+- claim: The study is titled deep learning identification for citizen science surveillance.
+  url: https://www.ceab.csic.es/es/la-inteligencia-artificial-identifica-al-mosquito-tigre-de-las-fotos-recibidas-en-la-app-mosquito-alert/
+  fetched: '2026-10-31'
+  quote: Deep learning identification for citizen science surveillance of tiger mosquitoes
+  ai_type: deep-learning
+- claim: A citizen science system for investigating and managing disease-carrying mosquitoes.
+  url: https://api.gbif.org/v1/organization/7f7b1e09-01e5-4eb3-8dc0-6a3a6bea9a5c/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Mosquito Alert, a citizen science system for investigating and managing disease-carrying
+    mosquitoes
+- claim: Each record links to a citizen's photograph validated by entomological experts.
+  url: https://api.gbif.org/v1/organization/7f7b1e09-01e5-4eb3-8dc0-6a3a6bea9a5c/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: linked to a photograph submitted by a citizen scientist and validated by entomological
+    experts
+links:
+- type: run-by
+  to: centre-destudis-avancats-de-blanes
+  url: https://www.ceab.csic.es/en/?p=17204
+  quote: promoted and coordinated by the CEAB-CSIC, CREAF, UPF, and ICREA
+  fetched: '2026-10-31'
+- type: run-by
+  to: creaf
+  url: https://www.ceab.csic.es/en/?p=17204
+  quote: promoted and coordinated by the CEAB-CSIC, CREAF, UPF, and ICREA
+  fetched: '2026-10-31'
+- type: run-by
+  to: creaf
+  url: http://www.mosquitoalert.com/
+  fetched: '2026-10-31'
+  quote: Proyecto Coordinado por CREAF , CEAB-CSIC e ICREA
+- type: run-by
+  to: centre-destudis-avancats-de-blanes
+  url: http://www.mosquitoalert.com/
+  fetched: '2026-10-31'
+  quote: Proyecto Coordinado por CREAF , CEAB-CSIC e ICREA
+- type: led-by
+  to: centre-destudis-avancats-de-blanes
+  url: https://www.mosquitoalert.com/proyecto/que-es-mosquito-alert/
+  fetched: '2026-10-31'
+  quote: Proyecto Coordinado por CREAF , CEAB-CSIC e ICREA
+- type: run-by
+  to: centre-destudis-avancats-de-blanes
+  url: http://www.ceab.csic.es
+  fetched: '2026-10-31'
+  quote: Coordinem aquesta iniciativa de ciència ciutadana que estudia, vigila i lluita contra
+    l’expansió de mosquits invasors
+found_by:
+- checklist:7
+- link-from:creaf
+- register:es
+- link-from:centre-destudis-avancats-de-blanes
+scope: es
+added_by: agent
+checked: '2026-10-31'

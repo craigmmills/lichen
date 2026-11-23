@@ -1,0 +1,39 @@
+id: geoai-salt-marsh-pond-collapse
+kind: project
+name: GeoAI toolset for salt marsh pond collapse
+scope: us
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+summary: NSF award for a GeoAI toolset that identifies locations and drivers of pond collapse
+  in salt marshes from high-resolution imagery.
+facts:
+- claim: 'NSF award to University of Florida: Elements: A GeoAI Toolset for Identifying Locations
+    and Drivers of Pond Collapse in Salt Marshes from High-Resolution Earth Imagery.'
+  url: https://api.nsf.gov/services/v1/awards/2410884.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'Elements: A GeoAI Toolset for Identifying Locations and Drivers of Pond Collapse
+    in Salt Marshes from High-Resolution Earth Imagery'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2410884.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'Elements: A GeoAI Toolset for Identifying Locations and Drivers of Pond Collapse
+    in Salt Marshes from High-Resolution Earth Imagery'
+  amount: 599999
+  year: 2024
+  currency: USD
+- type: run-by
+  to: university-of-florida
+  url: https://api.nsf.gov/services/v1/awards/2410884.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: University of Florida
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-30'

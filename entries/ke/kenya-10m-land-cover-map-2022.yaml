@@ -1,0 +1,28 @@
+id: kenya-10m-land-cover-map-2022
+kind: dataset
+name: 10 m land-cover map of Kenya for 2022
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: unknown
+summary: National 10 m land-cover map of Kenya for 2022 from Sentinel-2 composites using deep
+  noisy-label learning, by authors at Wuhan University, the University of Nairobi and others.
+facts:
+- claim: The study generates a 10 m land-cover map of Kenya for 2022.
+  url: https://isprs-archives.copernicus.org/articles/XLVIII-4-W21-2025/19/2026/
+  quote: a scalable framework for generating a 10 m land-cover map of Kenya for 2022
+  fetched: &id001 2026-10-31
+- claim: The method is deep noisy-label learning.
+  url: https://isprs-archives.copernicus.org/articles/XLVIII-4-W21-2025/19/2026/
+  quote: 'Keywords: Land-cover mapping, noisy-label learning, cross-resolution, deep learning'
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001
+runner: unknown

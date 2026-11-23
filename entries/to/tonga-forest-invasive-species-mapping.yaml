@@ -1,0 +1,53 @@
+id: tonga-forest-invasive-species-mapping
+kind: project
+name: Forest invasive species mapping in Tonga
+also_known_as: []
+scope: to
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- to
+scale: local
+status: unknown
+runner: unknown
+summary: Project mapping invasive species in Tonga's forests, which a FOSS4G 2025 talk says trained a
+  Random Forest model on Sentinel-2 data, with Cordia overestimated early in Toloa Forest and detection
+  at edges improved by a third iteration.
+facts:
+- claim: The FOSS4G 2025 talk says field points were used to train a Random Forest machine learning model
+    on Sentinel-2 data.
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: 2026-11-12
+  quote: The data were then used to train a Random Forest machine learning model that was initially tested
+    against small parcels and continuously improved.
+- claim: The model is a supervised classifier trained on ground-collected labelled data.
+  ai_type: ml-supervised
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: 2026-11-12
+  quote: used machine learning (ML) models that were trained from ground-collected data and Sentinel-2
+    satellite images
+- claim: Preliminary classifications in Tonga's Toloa Forest overestimated Cordia, and a third iteration
+    improved detection at forest edges.
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: 2026-11-12
+  quote: Preliminary classifications in the Toloa Forest of Tonga overestimated the amount of Cordia salmwood
+    due to unbalanced training data and the lack of seasonal filtering.
+- claim: Two workshops were held in Tonga with the Ministry of Agriculture, Food, and Forests.
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: 2026-11-12
+  quote: There were two workshops held in Tonga with the Ministry of Agriculture, Food, and Forests.
+links:
+- type: uses
+  to: digital-earth-pacific
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: 2026-11-12
+  quote: These vector training points were loaded into the Digital Earth Pacific platform
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-12

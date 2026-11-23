@@ -1,0 +1,48 @@
+id: nordic-microalgae
+kind: dataset
+scope: se
+name: Nordic Microalgae
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+status: active
+summary: Dataset run and built by SMHI, covering microalgae in the Baltic Sea, North East Atlantic and
+  Nordic freshwaters, with taxonomic information and expert-provided images.
+facts:
+- claim: Covers microalgae in the Baltic Sea, the North East Atlantic and Nordic lakes, rivers and streams.
+  url: https://biodiversitydata.se/explore-data/
+  fetched: 2026-11-02
+  quote: Nordic Microalgae is a website containing information about microalgae and related organisms
+    in the Nordic area, i.e. the Baltic Sea, the North East Atlantic and lakes, rivers and streams in
+    the area.
+- claim: Includes taxonomic information and images of microalgae provided by experts.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: The system includes the Nordic Microalgae with taxonomic information and images of microalgae
+    provided by the users, i.e. microalgae experts.
+links:
+- type: run-by
+  to: swedish-meteorological-and-hydrological-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: &id001 2026-11-02
+  quote: SMHI maintains and develops an information system on aquatic microalgae. The system includes
+    the Nordic Microalgae
+- type: built-by
+  to: swedish-meteorological-and-hydrological-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: *id001
+  quote: SMHI maintains and develops an information system on aquatic microalgae. The system includes
+    the Nordic Microalgae
+- type: run-by
+  to: swedish-meteorological-and-hydrological-institute
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: SMHI maintains and develops an information system on aquatic microalgae.
+found_by:
+- link-from:swedish-biodiversity-data-infrastructure
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+countries:
+- se

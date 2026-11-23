@@ -1,0 +1,43 @@
+id: cbes-marine-mammal-encounters-citizen-science-dataset
+kind: dataset
+name: CBES marine mammals encounters through citizen science apps (2022)
+also_known_as: []
+scope: vn
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- vn
+status: active
+summary: 2022 dataset of marine mammal encounters in Viet Nam recorded by fishers,
+  tourists, ship crews and marine protected area staff, with AppSheet forms given
+  to 20 protected areas, delivered under GBIF's BIFA programme.
+facts:
+- claim: The dataset holds marine mammal encounters recorded by local fishers, tourists,
+    ship crews and marine protected area staff in Viet Nam.
+  url: https://api.gbif.org/v1/dataset/8dd916d3-848b-4fae-9e69-ba0d01ff0396
+  fetched: 2026-11-13
+  quote: This dataset contains the records of marine mammal encounters made by local
+    fishermen, tourists, ship crews and staff of marine protected areas in Vietnam.
+- claim: Custom AppSheet forms were given to staff of 20 marine protected areas to
+    record encounters.
+  url: https://api.gbif.org/v1/dataset/8dd916d3-848b-4fae-9e69-ba0d01ff0396
+  fetched: 2026-11-13
+  quote: Custom Google Appsheet forms (in Vietnamese) were developed and distributed
+    to 20 marine protected areas staff
+- claim: It is a deliverable of the BIFA5_027 project, funded through GBIF's BIFA
+    programme.
+  url: https://api.gbif.org/v1/dataset/8dd916d3-848b-4fae-9e69-ba0d01ff0396
+  fetched: 2026-11-13
+  quote: This is one deliverable of the BIFA5_027 project
+links:
+- type: uses
+  to: inaturalist
+  url: https://api.gbif.org/v1/dataset/8dd916d3-848b-4fae-9e69-ba0d01ff0396
+  fetched: 2026-11-13
+  quote: Data were collected through iNaturalist and Google AppSheet.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13
+runner: unknown

@@ -1,0 +1,43 @@
+id: provincie-groningen
+kind: organisation
+name: Provincie Groningen
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: regional
+status: active
+summary: Dutch province that lists Spheer.ai in the national algorithm register for identifying
+  differences in vegetation in order to monitor nature.
+scope: nl
+facts:
+- claim: Lists Spheer.ai for nature monitoring.
+  url: https://algoritmes.overheid.nl/en/algoritme/76244490
+  fetched: '2026-10-31'
+  quote: Gebruik voor natuurmonitoring, de verschillen in vegetatie identificeren.
+- claim: Nature Today says nature areas of the province are now mainly mapped by hand by ecologists
+    in the field.
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33166
+  fetched: '2026-10-31'
+  quote: de provincie Groningen worden nu vooral handmatig door ecologen in het veld in kaart
+    gebracht
+- claim: An article republished by Spheer says several provinces including Groningen are experimenting
+    with its web application.
+  url: https://spheer.ai/en/resources/artikelen/satellietbeelden-welkome-aanvulling-voor-natuurbeheer
+  fetched: '2026-10-31'
+  quote: Several provinces, including Groningen, are already experimenting with the web application.
+links:
+- type: uses
+  to: carto-spheer
+  url: https://algoritmes.overheid.nl/en/algoritme/76244490
+  fetched: '2026-10-31'
+  quote: Gebruik voor natuurmonitoring, de verschillen in vegetatie identificeren.
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

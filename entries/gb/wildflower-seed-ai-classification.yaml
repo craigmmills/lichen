@@ -1,0 +1,39 @@
+id: wildflower-seed-ai-classification
+kind: project
+name: AI classification of wildflower seeds
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://www.earlham.ac.uk/news/could-ai-improve-effectiveness-biodiversity-initiatives
+summary: Earlham Institute study using machine learning on over 145,000 flatbed scanner images
+  to classify native wildflower seeds used in restoration.
+facts:
+- claim: Group leader describes it as a practical example of AI and deep learning.
+  url: https://www.earlham.ac.uk/news/could-ai-improve-effectiveness-biodiversity-initiatives
+  quote: The study is a practical example of how AI and deep learning are most valuable when
+    closely connected to biological expertise
+  ai_type: deep-learning
+  fetched: &id001 2026-10-30
+- claim: Over 145,000 images of seeds from commonly traded wildflower species.
+  url: https://www.earlham.ac.uk/news/could-ai-improve-effectiveness-biodiversity-initiatives
+  quote: obtaining over 145,000 images representing seeds from commonly traded wildflower
+    species
+  fetched: *id001
+links:
+- type: run-by
+  to: earlham-institute
+  url: https://www.earlham.ac.uk/news/could-ai-improve-effectiveness-biodiversity-initiatives
+  quote: Scientists at Earlham Institute investigating the genetic diversity of UK wildflower
+    species have developed AI-driven techniques to improve the speed and effectiveness of
+    seed classification.
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

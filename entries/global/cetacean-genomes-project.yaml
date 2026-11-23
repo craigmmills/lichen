@@ -1,0 +1,38 @@
+id: cetacean-genomes-project
+kind: project
+name: Cetacean Genomes Project
+also_known_as:
+- CGP
+- Cetaceans Genomes Project
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+status: active
+summary: Project that began in early 2020 to generate chromosome-resolved reference genomes
+  for all cetacean species, affiliated to the Earth BioGenome Project.
+facts:
+- claim: Began in early 2020 to generate reference genomes for all cetacean species.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2025.1562045/full
+  quote: The Cetacean Genomes Project (CGP) began in early 2020 to facilitate the generation
+    of near error-free, chromosome-resolved reference genomes for all cetacean species.
+  fetched: '2026-10-30'
+- claim: Listed as an affiliated project of the Earth BioGenome Project.
+  url: https://www.earthbiogenome.org/affiliated-project-networks
+  quote: Their primary goal is to coordinate or facilitate generation of high-quality, nearly
+    complete reference genomes for all cetacean species, to maximize the utility of cetacean
+    genomic data for research and conservation.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: earth-biogenome-project
+  url: https://www.earthbiogenome.org/affiliated-project-networks
+  quote: Cetaceans Genomes Project Their primary goal is to coordinate or facilitate generation
+    of high-quality, nearly complete reference genomes for all cetacean species
+  fetched: '2026-10-30'
+found_by:
+- link-from:earth-biogenome-project
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,47 @@
+id: university-of-basel
+kind: organisation
+name: University of Basel
+also_known_as:
+- Universität Basel
+scope: ch
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University represented in OpenAlex-listed 2026 papers on Sentinel-2 peatland mapping
+  and a Swiss butterfly index, and a Zenodo dataset predicting coral bleaching with a neural
+  network.
+facts:
+- claim: OpenAlex lists a 2026 paper with Miriam Gross-Schmölders of the University of Basel
+    as first author on distinguishing pristine and drained peatland sites with Sentinel-2
+    imagery.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I1850255,primary_topic.subfield.id:2303|2309|1105,concepts.id:C119857082|C108583219|C154945302|C62649853,from_publication_date:2021-01-01&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Distinguishing pristine and drained peatland sites: How effective is open source
+    Sentinel-2 imagery?'
+- claim: OpenAlex lists a 2026 paper with Tobias Roth of the University of Basel as first
+    author combining citizen-science data with a structured monitoring programme for a Swiss
+    butterfly index.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I1850255,primary_topic.subfield.id:2303|2309|1105,concepts.id:C119857082|C108583219|C154945302|C62649853,from_publication_date:2021-01-01&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Combining citizen-science data with data from a structured monitoring programme for
+    a Swiss butterfly index
+- claim: A Zenodo dataset by Roman Eric Sieler of the University of Basel predicts coral bleaching
+    across the global tropics with a recurrent neural network applied to satellite features.
+  url: https://doi.org/10.5281/zenodo.20676158
+  fetched: '2026-11-08'
+  quote: Bleaching is predicted using a recurrent (LSTM) neural network trained on survey-
+    and aerial-survey-based bleaching observations
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

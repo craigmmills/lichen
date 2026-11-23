@@ -1,0 +1,37 @@
+id: university-of-mosul-department-of-forestry
+kind: organisation
+name: Department of Forestry, College of Agriculture and Forestry, University of Mosul
+also_known_as: []
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- iq
+scale: local
+status: active
+summary: Forestry department at the University of Mosul, listed by OpenAlex as lead
+  affiliation on a 2023 paper determining canopy gaps in Atrush forest from remote
+  sensing data.
+facts:
+- claim: Lead (first-author) affiliation on a 2023 paper determining canopy gaps in
+    Atrush forest from remote sensing data, per OpenAlex.
+  url: https://api.openalex.org/works/W4385481852?select=authorships
+  fetched: 2026-11-12
+  quote: Department of Forestry, College of Agriculture and Forestry, University of
+    Mosul, Mosul, Iraq
+- claim: OpenAlex lists the paper's title.
+  url: https://api.openalex.org/works?filter=institutions.country_code:IQ,from_publication_date:2022-01-01,title.search:forest%20remote%20sensing&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: Determine Canopy Gaps for Atrush Forest using Remote Sensing Data
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

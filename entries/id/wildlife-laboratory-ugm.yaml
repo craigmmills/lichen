@@ -1,0 +1,65 @@
+id: wildlife-laboratory-ugm
+kind: organisation
+name: Wildlife Laboratory, Faculty of Forestry, Universitas Gadjah Mada
+also_known_as:
+- Laboratorium Pengelolaan Satwa Liar UGM
+scope: id
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+- other
+hq: id
+scale: national
+status: active
+website: https://satwaliar.fkt.ugm.ac.id/
+summary: University laboratory that studies wildlife management, including camera trap distance
+  sampling of Sumatran tiger prey, and publishes to GBIF.
+facts:
+- claim: GBIF lists it as a publisher.
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: Wildlife Laboratory, Faculty of Forestry, Universitas Gadjah Mada
+- claim: Its site describes a study of Sumatran tiger prey density by camera trap distance
+    sampling.
+  url: https://satwaliar.fkt.ugm.ac.id/
+  fetched: '2026-10-31'
+  quote: Mengungkap Kepadatan Mangsa Harimau Sumatra lewat Camera Trap Distance Sampling (CTDS)
+- claim: Its team collected elephant sound data to develop machine learning that detects elephant
+    vocalisations.
+  url: https://satwaliar.fkt.ugm.ac.id/2024/11/25/bioakustik-untuk-konservasi-di-indonesia-pendekatan-teknologi-melalui-suara/
+  fetched: '2026-10-31'
+  quote: pengembangan machine learning deteksi vokalisasi gajah
+- claim: GBIF lists the laboratory in the Forest Resources Conservation Department, in Sleman.
+  url: https://api.gbif.org/v1/organization/18935ef6-83f1-4f1e-a0db-85e1ecbe223a
+  fetched: '2026-10-31'
+  quote: one of the many laboratoriums in the Forest Resources Conservation Department
+- claim: Its 2024 article says the team integrates bioacoustics with an Android app, machine
+    learning and webGIS to prevent elephant conflict.
+  url: https://satwaliar.fkt.ugm.ac.id/2024/11/25/bioakustik-untuk-konservasi-di-indonesia-pendekatan-teknologi-melalui-suara/
+  fetched: '2026-10-31'
+  quote: integrasi teknologi bioakustik dengan aplikasi Android, machine learning , dan webGIS
+links:
+- type: run-by
+  to: universitas-gadjah-mada
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: Wildlife Laboratory, Faculty of Forestry, Universitas Gadjah Mada
+- type: runs
+  to: elephant-early-warning-system-bukit-tigapuluh
+  url: https://satwaliar.fkt.ugm.ac.id/2024/11/25/bioakustik-untuk-konservasi-di-indonesia-pendekatan-teknologi-melalui-suara/
+  fetched: '2026-10-31'
+  quote: yang juga sedang dikembangkan oleh Laboratorium Pengelolaan Satwa Liar Fakultas Kehutanan
+    UGM
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

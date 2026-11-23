@@ -1,0 +1,43 @@
+id: tdc-net
+kind: organisation
+name: TDC NET
+scope: dk
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: Organisation that says it uses 5G, AI and cameras with Ericsson to gather butterfly
+  information, which Welcome.AI says is part of its heathland restoration programme.
+facts:
+- claim: Says it uses 5G, AI and cameras with Ericsson to gather information on butterflies.
+  url: https://www.telecomtv.com/content/5g/tdc-net-and-ericsson-bring-technology-and-biodiversity-together-56216/amp/
+  fetched: '2026-11-02'
+  quote: In Denmark, TDC NET and Ericsson are now using 5G, artificial intelligence, and cameras
+- claim: Welcome.AI says the butterfly work is part of its heathland restoration programme.
+  url: https://welcome.ai/content/ai-and-5g-enhance-butterfly-monitoring-for-biodiversity-conservation
+  fetched: '2026-11-02'
+  quote: as part of its heathland restoration program in Skamlebæk, North-West Zealand, Denmark
+- claim: Its site says it connects Denmark.
+  url: https://tdcnet.com/
+  fetched: '2026-11-02'
+  quote: TDC NET - We connect Denmark. For everyone.
+links:
+- type: uses
+  to: skamlebaek-butterfly-monitoring
+  url: https://www.telecomtv.com/content/5g/tdc-net-and-ericsson-bring-technology-and-biodiversity-together-56216/amp/
+  fetched: '2026-11-02'
+  quote: a solution that automatically records butterflies
+found_by:
+- checklist:5
+- link-from:ai-for-earth
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk

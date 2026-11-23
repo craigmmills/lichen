@@ -1,0 +1,39 @@
+id: georgian-technical-university
+kind: organisation
+name: Georgian Technical University
+scope: ge
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: ge
+countries:
+- ge
+scale: national
+status: active
+summary: University at 77 Kostava Street, Tbilisi, given by both authors of a 2024
+  paper on hybrid AI models for identifying trees in forest UAV images, according
+  to OpenAlex.
+facts:
+- claim: Both authors of a 2024 paper on hybrid AI models for identifying trees in
+    UAV images of forests give Georgian Technical University as their institution,
+    according to OpenAlex.
+  url: https://api.openalex.org/works/W4400321915?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: 'Using Hybrid Models of AI for Identification of Trees by UAV Images of Forests:
+    I. Machine-learning Component of the Models'
+- claim: The affiliation strings give its address as 77 Kostava Street, Tbilisi.
+  url: https://api.openalex.org/works/W4400321915?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Faculty of Agricultural Science and Biosystems Engineering, Georgian Technical
+    University, 77, Kostava Str., Tbilisi, 0160, GEORGIA
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

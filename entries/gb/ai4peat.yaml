@@ -1,0 +1,33 @@
+id: ai4peat
+kind: project
+name: AI4Peat
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+website: https://www.gov.uk/algorithmic-transparency-records/natural-england-ai4peat
+summary: Natural England tool that maps upland peat drainage and damage in England
+  with deep learning on aerial imagery.
+facts:
+- claim: Maps upland peat surface features using deep learning and aerial imagery.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-ai4peat
+  quote: Mapping upland peat surface features for peat drainage and damage using deep
+    learning and aerial imagery
+  ai_type: deep-learning
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: natural-england
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-ai4peat
+  quote: 'Natural England : AI4Peat'
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

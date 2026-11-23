@@ -1,0 +1,32 @@
+id: asean-fire-alert-tool
+kind: programme
+name: ASEAN Fire Alert Tool
+scope: my
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- my
+status: active
+runner: unknown
+website: https://aseanfirealert.org
+summary: Tool that compares daily satellite hotspot data from the ASEAN Specialised Meteorological Centre
+  with users' registered land.
+facts:
+- claim: Compares daily satellite hotspot data with users' registered land.
+  url: https://aseanfirealert.org/about/
+  fetched: 2026-11-03
+  quote: The ASEAN Fire Alert Tool uses daily hotspot data (from satellite imagery) and compares them
+    with your registered land regions.
+- claim: Hotspot data come daily from the ASEAN Specialised Meteorological Centre.
+  url: https://aseanfirealert.org/about/
+  fetched: 2026-11-03
+  quote: Daily updates from the ASEAN Specialised Meteorological Centre (ASMC) on hotspots across the
+    ASEAN region.
+links: []
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-03

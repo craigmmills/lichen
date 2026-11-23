@@ -1,0 +1,47 @@
+id: burundi-land-cover-maps-1990-2022
+kind: dataset
+name: Land cover maps of Burundi, 1990, 2000, 2010 and 2022 (CBIT project)
+scope: bi
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bi
+status: unknown
+summary: According to the final report, Burundi’s land cover maps use Landsat composites
+  for 1990, 2000, 2010 and 2022 classified with Random Forests, and show progressive
+  forest land decline.
+facts:
+- claim: The final report says the maps were produced by the ATMOST-CIDEX consortium
+    under the auspices of OBPE.
+  url: https://bi.chm-cbd.net/sites/bi/files/2025-12/rapport%20final%20livrables%20a-b-c-afat%20par%20le%20projet%20cbit.inventaire%20atmost%202025.pdf
+  fetched: '2026-11-12'
+  quote: réalisé par le Consortium ATMOST-CIDEX sous l’égide de l’OBPE, établit pour
+    la première fois
+- claim: The Random Forests algorithm was used to classify the mosaics of the four
+    periods.
+  url: https://bi.chm-cbd.net/sites/bi/files/2025-12/rapport%20final%20livrables%20a-b-c-afat%20par%20le%20projet%20cbit.inventaire%20atmost%202025.pdf
+  fetched: '2026-11-12'
+  quote: L’algorithme Random Forests a été utilisé pour la classification des mosaïques
+    des quatre périodes
+  ai_type: ml-supervised
+- claim: The classifications used Landsat composite images for 1990, 2000, 2010 and
+    2022.
+  url: https://bi.chm-cbd.net/sites/bi/files/2025-12/rapport%20final%20livrables%20a-b-c-afat%20par%20le%20projet%20cbit.inventaire%20atmost%202025.pdf
+  fetched: '2026-11-12'
+  quote: Images composites LANDSAT utilisées pour les classifications 1990, 2000,
+    2010, 2022
+- claim: The report finds a progressive decline of forest land over the three decades.
+  url: https://bi.chm-cbd.net/sites/bi/files/2025-12/rapport%20final%20livrables%20a-b-c-afat%20par%20le%20projet%20cbit.inventaire%20atmost%202025.pdf
+  fetched: '2026-11-12'
+  quote: progressive des terres forestières pendant les trois décennies (1990-2022)
+links: []
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

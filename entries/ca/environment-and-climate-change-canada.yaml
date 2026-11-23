@@ -1,0 +1,93 @@
+id: environment-and-climate-change-canada
+kind: organisation
+name: Environment and Climate Change Canada
+also_known_as:
+- ECCC
+scope: ca
+sector: government
+roles:
+- governs
+- funds
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: ca
+status: active
+realms:
+- land
+- freshwater
+- ocean
+summary: Federal department that published Canada's 2030 Nature Strategy, its plan for implementing
+  the Kunming-Montreal Global Biodiversity Framework. It is named as author of the Canadian
+  Wildlife Service's national layer of acoustic and point count survey locations.
+facts:
+- claim: Published the backgrounder saying the 2030 Nature Strategy sets out how Canada will
+    implement the Kunming-Montreal framework.
+  url: https://www.canada.ca/en/environment-climate-change/news/2024/06/2030-nature-strategy-and-nature-accountability-bill.html
+  fetched: '2026-10-31'
+  quote: The 2030 Nature Strategy charts a path for how Canada will implement the Framework.
+  via: webfetch
+- claim: The national strategy says parties to the Convention on Biological Diversity must
+    report on progress towards the goals and targets.
+  url: https://www.canada.ca/en/environment-climate-change/services/biodiversity/canada-2030-nature-strategy.html
+  fetched: '2026-10-31'
+  quote: All parties to the CBD must report on their progress toward the four goals and 23
+    targets
+  via: webfetch
+- claim: Named as author of the Canadian Wildlife Service acoustic and point count survey
+    layer.
+  url: https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/SurveyARUPointCountCanada1993to2025/MapServer/1?f=pjson
+  fetched: '2026-10-31'
+  quote: 'Author: Environment and Climate Change Canada / Environnement et Changement climatique
+    Canada'
+- claim: WWF-Canada names it as a STREAM partner.
+  url: https://techhub.wwf.ca/technology/genomics-edna-applications/
+  fetched: '2026-10-31'
+  quote: Genome Canada and Environment and Climate Change Canada
+- claim: GEO BON lists it against a member of its governance.
+  url: https://geobon.org/about/governance/
+  fetched: '2026-10-31'
+  quote: Environment and Climate Change Canada (ECCC)
+- claim: The Government of Canada, through this department, is responsible for leading the
+    2030 biodiversity strategy and reporting on progress to meet the Kunming-Montreal targets.
+  url: https://www.canada.ca/content/dam/eccc/documents/pdf/wildlife/biodiversity/23016.01-Toward%20a%202030%20Biodiversity%20Strategy%20for%20Canada-EN_V05.pdf
+  fetched: '2026-10-31'
+  quote: is responsible for leading the development of the 2030 Biodiversity Strategy and
+    reporting on Canada’s progress to meet the KMGBF targets
+  via: webfetch
+- claim: Publication address in Gatineau, Quebec.
+  url: https://www.canada.ca/content/dam/eccc/documents/pdf/wildlife/biodiversity/23016.01-Toward%20a%202030%20Biodiversity%20Strategy%20for%20Canada-EN_V05.pdf
+  fetched: '2026-10-31'
+  quote: 200 Sacré-Coeur Boulevard Gatineau
+  via: webfetch
+- claim: Invited the Office of the Chief Science Advisor to examine three issues related to
+    the Nature Strategy.
+  url: https://ised-isde.canada.ca/site/science/en/office-chief-science-advisor/annual-reports/annual-report-chief-science-advisor-2024-2025
+  fetched: '2026-10-31'
+  quote: Environment and Climate Change Canada invited the OCSA to examine three key issues
+    related to the Nature Strategy
+- claim: GBIF publisher record describes its role.
+  url: https://api.gbif.org/v1/organization/4bb7a553-e74c-47cc-bd90-3aeb20ae3faf
+  fetched: '2026-10-31'
+  quote: is the federal department responsible for protecting migratory birds, species at
+    risk, and their habitats.
+links:
+- type: runs
+  to: canadian-wildlife-service-aru-and-point-count-surveys
+  url: https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/SurveyARUPointCountCanada1993to2025/MapServer/1?f=pjson
+  fetched: '2026-10-31'
+  quote: 'Author: Environment and Climate Change Canada / Environnement et Changement climatique
+    Canada'
+- type: runs
+  to: canadian-protected-and-conserved-areas-database
+  url: https://open.canada.ca/data/en/dataset/6c343726-1e92-451a-876a-76e17d398a1c
+  fetched: '2026-10-31'
+  quote: CPCAD is compiled and managed by Environment and Climate Change Canada (ECCC)
+found_by:
+- checklist:1
+- link-from:stream-sequencing-the-rivers
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

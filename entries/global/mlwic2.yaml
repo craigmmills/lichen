@@ -1,0 +1,41 @@
+id: mlwic2
+kind: model
+name: MLWIC2
+also_known_as:
+- Machine Learning for Wildlife Image Classification
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: dormant
+runner: unknown
+website: https://github.com/mikeyEcology/MLWIC2
+summary: Tool for classifying camera trap images and training new image classification
+  models, with pre-trained species and empty-image models, which its maintainer says
+  is no longer maintained and points to WildObserve instead.
+facts:
+- claim: Classifies camera trap images and trains new image classification models,
+    with pre-trained species and empty-image models.
+  url: https://github.com/mikeyEcology/MLWIC2
+  fetched: 2026-11-21
+  quote: the species_model identifies 58 species and empty images, and the empty_animal
+    model distinguishes between images with animals and those that are empty
+- claim: Trains deep neural networks, with ResNet and DenseNet among the architectures
+    offered.
+  url: https://github.com/mikeyEcology/MLWIC2
+  fetched: 2026-11-21
+  quote: architecture is the DNN architecture. The options are c("alexnet", "densenet",
+    "googlenet", "nin", "resnet", "vgg").
+  ai_type: deep-learning
+- claim: Its maintainer says it is no longer maintained and points to WildObserve.
+  url: https://github.com/mikeyEcology/MLWIC2
+  fetched: 2026-11-21
+  quote: MLWIC2 is no longer maintained.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

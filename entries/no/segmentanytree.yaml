@@ -1,0 +1,36 @@
+id: segmentanytree
+kind: model
+name: SegmentAnyTree
+scope: 'no'
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+countries:
+- 'no'
+scale: global
+status: active
+runner: unknown
+summary: A sensor- and platform-agnostic deep learning model for tree crown segmentation in
+  lidar data, built by Maciej Wielgosz.
+facts:
+- claim: A sensor- and platform-agnostic deep learning model for tree crown segmentation in
+    lidar data.
+  url: https://smartforest.no/2024/08/23/segmentanytree-a-sensor-and-platform-agnostic-deep-learning-model-for-tree-segmentation-using-laser-scanning-data/
+  fetched: '2026-11-02'
+  quote: developing a sensor- and platform-agnostic deep learning model transferable across
+    a spectrum of dense laser scanning datasets
+  ai_type: deep-learning
+- claim: SmartForest credits the article to Maciej Wielgosz, Stefano Puliti, Binbin Xiang,
+    Konrad Schindler and Rasmus Astrup.
+  url: https://smartforest.no/2024/08/23/segmentanytree-a-sensor-and-platform-agnostic-deep-learning-model-for-tree-segmentation-using-laser-scanning-data/
+  fetched: '2026-11-02'
+  quote: Congratulations to the authors Maciej Wielgosz , Stefano Puliti , Binbin Xiang ,
+    Konrad Schindler and Rasmus Astrup on their work!
+found_by:
+- link-from:smartforest
+added_by: agent
+checked: '2026-11-02'

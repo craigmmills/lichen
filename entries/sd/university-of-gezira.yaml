@@ -1,0 +1,48 @@
+id: university-of-gezira
+kind: organisation
+name: University of Gezira
+also_known_as:
+- U of G
+- جامعة الجزيرة
+scope: sd
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sd
+countries: []
+scale: national
+status: active
+website: https://www.uofg.edu.sd
+summary: Public university founded in 1975 in Wad Madani, Gezira State, whose departments
+  appear in author affiliations for papers on satellite-based forest degradation and
+  conflict-related land use change.
+facts:
+- claim: The university describes itself as a public university established in 1975
+    in Wad Madani, Gezira State.
+  url: https://www.uofg.edu.sd
+  fetched: 2026-11-14
+  quote: The University of Gezira, located in Sudan, is a prominent public university
+    established in 1975. It is situated in the city of Wad Madani, in the Gezira State.
+- claim: The first author of a paper on conflict-driven forest degradation at Sunut
+    Reserved Forest, using high-resolution satellite data, lists the university's
+    Department of Forest and Environment.
+  url: https://api.openalex.org/works?filter=openalex_id:W7214921121|W7165669551|W7203635163|W4413211983&select=id,title,authorships
+  fetched: 2026-11-14
+  quote: 'Conflict-driven rapid forest degradation in an urban riparian ecosystem:
+    High-resolution satellite evidence from Sunut Reserved Forest, Sudan'
+- claim: The first author of a paper on mapping and monitoring land use change in
+    the gum arabic belt lists the university's Department of Forest Management Science.
+  url: https://api.openalex.org/works?filter=openalex_id:W4405664774|W7154522367|W7150165483|W7213533975|W7223232132|W4408537451|W7212978267|W7202274198&select=id,title,authorships
+  fetched: 2026-11-14
+  quote: Mapping and monitoring land usage changes of gum Arabic belt in armed conflict-disturbed
+    areas to support sustainable management of the belt
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

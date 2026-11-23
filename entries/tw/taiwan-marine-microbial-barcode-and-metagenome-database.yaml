@@ -1,0 +1,57 @@
+id: taiwan-marine-microbial-barcode-and-metagenome-database
+kind: dataset
+name: Taiwan Marine Microbial Barcode and Metagenome Database
+also_known_as:
+- 臺灣海洋微生物生命條碼與多源基因體資料庫
+- MDB
+- ODB Metagenomics DB
+scope: tw
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+status: active
+website: https://edna.oc.ntu.edu.tw/mdb
+summary: Web database of marine microbial metagenome data for Taiwan and surrounding
+  seas, built and run by the Ocean Data Bank, with eDNA, eRNA and RNA sequencing data
+  listed as targets in a May 2026 newsletter.
+facts:
+- claim: Developed by the Ocean Data Bank for marine microbial sample data and biological
+    sequence data, according to its May 2026 newsletter.
+  url: https://www.odb.ntu.edu.tw/wp-content/uploads/2026/05/ODB%20letter_30.pdf
+  fetched: 2026-11-15
+  quote: 海洋微生物樣本資料與生物序列資料，ODB 開發了「臺灣海洋微生物生命條碼與多源基因
+- claim: A web database service gathering marine microbial metagenome data for Taiwan
+    and the surrounding seas.
+  url: https://www.odb.ntu.edu.tw/wp-content/uploads/2026/05/ODB%20letter_30.pdf
+  fetched: 2026-11-15
+  quote: MDB 是一個彙整臺灣與周邊海域海洋微生物多源基因體資料的網站資料庫服務，結合
+- claim: The May 2026 newsletter lists eDNA and eRNA barcode data, RNA sequencing
+    data and metagenome data as collection targets.
+  url: https://www.odb.ntu.edu.tw/wp-content/uploads/2026/05/ODB%20letter_30.pdf
+  fetched: 2026-11-15
+  quote: '括 eDNA/eRNA 生命條碼資料、RNA 定序資料，以及多源基因體資料等，例如 : 中綱計畫'
+- claim: The newsletter gives the database's website address.
+  url: https://www.odb.ntu.edu.tw/wp-content/uploads/2026/05/ODB%20letter_30.pdf
+  fetched: 2026-11-15
+  quote: MDB 資料庫網站 (https://edna.oc.ntu.edu.tw/mdb) 主要有 Project view、Sample
+- claim: The database's own site is titled ODB Metagenomics DB.
+  url: https://edna.oc.ntu.edu.tw/mdb
+  fetched: 2026-11-15
+  quote: ODB Metagenomics DB > Project view
+links:
+- type: built-by
+  to: ocean-data-bank
+  url: https://www.odb.ntu.edu.tw/wp-content/uploads/2026/05/ODB%20letter_30.pdf
+  fetched: 2026-11-15
+  quote: 海洋微生物樣本資料與生物序列資料，ODB 開發了「臺灣海洋微生物生命條碼與多源基因
+- type: run-by
+  to: ocean-data-bank
+  url: https://www.odb.ntu.edu.tw/wp-content/uploads/2026/05/ODB%20letter_30.pdf
+  fetched: 2026-11-15
+  quote: 以達成海洋微生物樣本與序列資料的長期累積和公開展示。我們的收錄標的
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

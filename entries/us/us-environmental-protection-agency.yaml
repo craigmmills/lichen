@@ -1,0 +1,55 @@
+id: us-environmental-protection-agency
+kind: organisation
+name: U.S. Environmental Protection Agency
+also_known_as:
+- EPA
+scope: us
+sector: government
+roles:
+- supplies-data
+- governs
+- uses-ai
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: us
+scale: national
+status: active
+website: https://www.epa.gov
+summary: US federal environment agency, which publishes an AI strategy and compliance plan
+  and runs the EnviroAtlas ecosystem services data portal and the National Aquatic Resource
+  Surveys.
+facts:
+- claim: Published an AI strategy in 2025.
+  url: https://www.epa.gov/ai
+  fetched: '2026-10-30'
+  quote: EPA AI Strategy (Final 2025) (pdf)
+- claim: CyAN is a collaborative project among EPA, NASA, NOAA, USGS and the Army Corps of
+    Engineers.
+  url: https://www.epa.gov/water-research/cyanobacteria-assessment-network-cyan
+  quote: CyAN is a collaborative project among EPA; the National Aeronautics and Space Administration
+    (NASA); the National Oceanic and Atmospheric Administration (NOAA); the United States
+    Geological Survey (USGS)
+  fetched: '2026-10-30'
+- claim: USAGov gives its main address on Pennsylvania Avenue NW.
+  url: https://www.usa.gov/agencies/environmental-protection-agency
+  fetched: '2026-10-31'
+  quote: 1200 Pennsylvania Ave. NW
+links:
+- type: runs
+  to: enviroatlas
+  url: https://www.epa.gov/enviroatlas
+  fetched: '2026-10-30'
+  quote: EnviroAtlas | US EPA
+- type: partners-with
+  to: cyanobacteria-assessment-network
+  url: https://www.epa.gov/water-research/cyanobacteria-assessment-network-cyan
+  quote: CyAN is a collaborative project among EPA
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- remote-sensing

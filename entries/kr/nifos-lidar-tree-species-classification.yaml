@@ -1,0 +1,36 @@
+id: nifos-lidar-tree-species-classification
+kind: model
+name: NIFoS LiDAR tree species classification
+scope: kr
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- kr
+status: active
+summary: LiDAR tree species classification model built by the National Institute of
+  Forest Science, reporting 99% accuracy for coniferous versus broadleaved forest,
+  with plans to extend it to more species.
+facts:
+- claim: Reported classification accuracy was 99% for coniferous versus broadleaved
+    forest, 94% for five conifer species plus broadleaved forest, and 92% for three
+    broadleaved species plus coniferous forest.
+  url: https://m.etnews.com/20250801000023
+  fetched: '2026-11-02'
+  quote: 침엽수림과 활엽수림 분류에서 99%, 침엽수 5종과 활엽수림 분류에서 94%, 활엽수 3종과 침엽수림 분류에서 92%로 나타나
+- claim: The institute plans further work to extend it to more species.
+  url: https://m.etnews.com/20250801000023
+  fetched: '2026-11-02'
+  quote: 더 다양한 수종을 분류할 수 있도록 기술 고도화를 추진할 계획이다.
+links:
+- type: built-by
+  to: national-institute-of-forest-science
+  url: https://m.etnews.com/20250801000023
+  fetched: '2026-11-02'
+  quote: 인공지능(AI) 기반 자동화 기술을 개발했다.
+found_by:
+- link-from:national-institute-of-forest-science-korea
+added_by: agent
+checked: '2026-11-02'

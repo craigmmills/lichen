@@ -1,0 +1,97 @@
+id: kementerian-kehutanan
+kind: organisation
+name: Kementerian Kehutanan
+also_known_as:
+- Ministry of Forestry
+- Kemenhut
+- Kementerian Kehutanan
+- Forestry Ministry
+scope: id
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: id
+scale: national
+status: active
+website: https://www.kehutanan.go.id/
+summary: Indonesia's Ministry of Forestry. Its site links the SIMONTANA forest monitoring
+  system and the SIPONGI fire system, and it is promoting drones for forest surveillance.
+facts:
+- claim: RRI reports the ministry is promoting drones to strengthen surveillance of forest
+    areas.
+  url: https://rri.co.id/en/environment/2583400/indonesia-adopts-drone-tech-for-forest-protection
+  fetched: '2026-10-31'
+  quote: The Ministry of Forestry is promoting the use of drone technology to strengthen surveillance
+    of forest areas.
+- claim: Its home page lists SIPONGI and SIMONTANA among public services.
+  url: https://www.kehutanan.go.id/
+  fetched: '2026-10-31'
+  quote: SIMONTANA
+- claim: JakartaTerkini reports the ministry has begun using AI to detect changes in vegetation
+    cover and to separate forest from non-forest.
+  url: https://www.jakartaterkini.id/terkini/2321716457/kemenhut-gunakan-ai-dan-sistem-peringatan-dini-untuk-deteksi-deforestasi-ilegal-di-indonesia
+  fetched: '2026-10-31'
+  quote: Kemenhut juga mulai memanfaatkan teknologi kecerdasan buatan (artificial intelligence/
+    AI ) untuk mendeteksi perubahan tutupan vegetasi dan membedakan kawasan hutan serta non-hutan.
+- claim: JakartaTerkini quotes its director giving AI confidence of 82 percent for devegetation
+    and 84 percent for deforestation. The ministry's own release gives 86 and 82.
+  url: https://www.jakartaterkini.id/terkini/2321716457/kemenhut-gunakan-ai-dan-sistem-peringatan-dini-untuk-deteksi-deforestasi-ilegal-di-indonesia
+  fetched: '2026-10-31'
+  quote: Tingkat kepercayaan AI untuk mendeteksi devegetasi sudah mencapai 82 persen, sedangkan
+    untuk deforestasi mencapai 84 persen
+- claim: Says it now uses AI to help analyse devegetation and deforestation, with stated confidence
+    levels of 86% and 82%.
+  url: https://www.kehutanan.go.id/news/kementerian-kehutanan-perkuat-pemantauan-hutan-untuk-early-warning-system-pencegahan-deforestasi
+  fetched: '2026-10-31'
+  quote: penggunaan Artificial Intelegent (AI) kini juga telah dilakukan oleh Kementerian
+    Kehutanan untuk membantu analisis
+- claim: Its press office gives an address in Jakarta.
+  url: https://www.kehutanan.go.id/news/kementerian-kehutanan-perkuat-pemantauan-hutan-untuk-early-warning-system-pencegahan-deforestasi
+  fetched: '2026-10-31'
+  quote: Gedung Manggala Wanabakti Blok I lt. 2, Jl. Jenderal Gatot Subroto - Jakarta 10270
+- claim: RRI reports the ministry promoting drones for forest surveillance, and thermal drones
+    for wildlife, in July 2026.
+  url: https://rri.co.id/voice-of-indonesia/environment/2583400/indonesia-adopts-drone-tech-for-forest-protection
+  quote: The Ministry of Forestry is promoting the use of drone technology to strengthen surveillance
+    of forest areas.
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: simontana
+  url: https://www.nies.go.jp/gio/wgia/pi5dm300001g1vab-att/IV-5_WGIA21_Indonesia_3.pdf
+  fetched: '2026-10-31'
+  quote: Motivation to build NFMS - SIMONTANA
+- type: partners-with
+  to: badan-meteorologi-klimatologi-dan-geofisika
+  url: https://www.bmkg.go.id/siaran-pers/lindungi-hutan-indonesia-bmkg-dan-kemenhut-perkuat-akurasi-data-prediksi-dan-omc
+  fetched: '2026-10-31'
+  quote: penandatanganan nota kesepahaman bersama Kementerian Kehutanan
+- type: runs
+  to: simontana
+  url: https://www.idntimes.com/tech/trend/situs-perubahan-tutupan-lahan-dan-peringatan-deforestasi-c1c2-01-7cxy7-v99pnv
+  fetched: '2026-10-31'
+  quote: SIMONTANA (Sistem Monitoring Hutan Nasional/NFMS) milik Kementerian Kehutanan
+- type: runs
+  to: sipashut
+  url: https://www.undp.org/indonesia/blog/advancing-forest-monitoring-strengthening-sipashut-achieve-indonesias-folu-net-sink-target
+  fetched: '2026-10-31'
+  quote: the Ministry of Forestry—supported by UNDP's Climate Promise—has upgraded its SIPASHUT
+- type: runs
+  to: simontana
+  url: https://www.kehutanan.go.id/news/kementerian-kehutanan-perkuat-pemantauan-hutan-untuk-early-warning-system-pencegahan-deforestasi
+  fetched: '2026-10-31'
+  quote: Direktur IPSDH R. Agus Budi Santosa menjelaskan bahwa pemantauan dilakukan secara
+    digital dengan aplikasi Simontana (Sistem Monitoring Hutan Nasional)
+found_by:
+- checklist:1
+- link-from:food-and-agriculture-organization
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

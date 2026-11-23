@@ -1,0 +1,43 @@
+id: sentinel-2-10m-land-use-land-cover
+kind: dataset
+name: Sentinel-2 10-Meter Land Use/Land Cover Time Series
+also_known_as:
+- Esri Land Cover
+- 10m Annual Land Use Land Cover
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Global annual land use and land cover map at 10 metres from Sentinel-2 imagery, produced by Impact Observatory, Microsoft and Esri with a deep learning model trained on human-labelled pixels.
+facts:
+- claim: Produced by Impact Observatory, Microsoft and Esri.
+  url: https://registry.opendata.aws/io-lulc/
+  fetched: &id001 2026-10-30
+  quote: This dataset, produced by Impact Observatory, Microsoft, and Esri, displays a global map of land use and land cover (LULC)
+- claim: Each map has an assessed average accuracy of over 75%.
+  url: https://registry.opendata.aws/io-lulc/
+  fetched: *id001
+  quote: Each of the maps has an assessed average accuracy of over 75%.
+links:
+- type: run-by
+  to: esri
+  url: https://www.esri.com/about/newsroom/announcements/esri-releases-latest-land-cover-map-with-improved-ai-modeling
+  fetched: *id001
+  quote: Esri developed its Sentinel-2 10-Meter Land Use/Land Cover Time Series
+- type: partners-with
+  to: impact-observatory
+  url: https://www.esri.com/about/newsroom/announcements/esri-releases-latest-land-cover-map-with-improved-ai-modeling
+  fetched: *id001
+  quote: machine learning workflows developed by Esri Silver partner Impact Observatory
+- type: builds-on
+  to: microsoft-planetary-computer
+  url: https://www.esri.com/about/newsroom/announcements/esri-releases-latest-land-cover-map-with-improved-ai-modeling
+  fetched: *id001
+  quote: European Space Agency (ESA) Sentinel-2 imagery hosted on the Microsoft Planetary Computer
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

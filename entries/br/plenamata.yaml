@@ -1,0 +1,38 @@
+id: plenamata
+kind: project
+name: PlenaMata
+scope: br
+ai_label: conservation-tech
+status: unknown
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+website: https://plenamata.eco/
+summary: Platform launched in 2021 by Natura, MapBiomas, InfoAmazonia and Hacklab to show
+  Amazon deforestation with daily updates. Its site's certificate failed when read.
+facts:
+- claim: Forbes says it was promoted by Natura, MapBiomas, InfoAmazonia and Hacklab with daily
+    updates.
+  url: https://forbes.com.br/negocios/2021/09/empresas-lancam-plataforma-para-monitorar-desmatamento-na-amazonia/
+  quote: Promovida pela Natura, Mapbiomas, InfoAmazonia e Hacklab, PlenaMata contará com atualizações
+    diárias sobre a situação do bioma
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: natura
+  url: https://forbes.com.br/negocios/2021/09/empresas-lancam-plataforma-para-monitorar-desmatamento-na-amazonia/
+  quote: Promovida pela Natura, Mapbiomas, InfoAmazonia e Hacklab
+  fetched: '2026-10-31'
+- type: partners-with
+  to: infoamazonia
+  url: https://forbes.com.br/negocios/2021/09/empresas-lancam-plataforma-para-monitorar-desmatamento-na-amazonia/
+  quote: Promovida pela Natura, Mapbiomas, InfoAmazonia e Hacklab
+  fetched: '2026-10-31'
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

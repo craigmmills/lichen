@@ -1,0 +1,29 @@
+id: vannmiljo
+kind: dataset
+name: Vannmiljø
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+status: active
+summary: The Norwegian Environment Agency’s system into which monitoring data from
+  operational and baseline monitoring are to be imported.
+facts:
+- claim: Monitoring data from operational and baseline monitoring are to be imported
+    into the agency's system Vannmiljø.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/vann-hav-og-kyst/miljoovervaking-vann/
+  fetched: '2026-11-08'
+  quote: Overvåkningsdata som kommer fram gjennom tiltaksrettet overvåking og basisovervåkning,
+    skal importeres i Miljødirektoratets fagsystem Vannmiljø.
+links:
+- type: run-by
+  to: norwegian-environment-agency
+  url: https://www.miljodirektoratet.no/ansvarsomrader/vann-hav-og-kyst/miljoovervaking-vann/
+  fetched: '2026-11-08'
+  quote: Overvåkningsdata som kommer fram gjennom tiltaksrettet overvåking og basisovervåkning,
+    skal importeres i Miljødirektoratets fagsystem Vannmiljø.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

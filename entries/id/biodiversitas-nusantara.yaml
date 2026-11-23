@@ -1,0 +1,34 @@
+id: biodiversitas-nusantara
+kind: programme
+name: Biodiversitas Nusantara
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- id
+status: active
+runner: unknown
+website: https://www.gbif.co.id
+summary: A free web portal showing GBIF records for Indonesia by province and taxon,
+  with open source code. It says a volunteer team runs it and names no operator.
+facts:
+- claim: A web platform presenting Indonesian biodiversity data openly.
+  url: https://www.gbif.co.id/tentang
+  fetched: '2026-10-31'
+  quote: Biodiversitas Nusantara adalah sebuah platform digital berbasis web yang
+    dirancang untuk menyajikan data keanekaragaman hayati Indonesia
+- claim: Says it is run by a volunteer team.
+  url: https://www.gbif.co.id/tentang
+  fetched: '2026-10-31'
+  quote: Platform ini dikelola secara sukarela oleh tim yang berdedikasi
+- claim: Takes its raw data from the GBIF API.
+  url: https://www.gbif.co.id/tentang
+  fetched: '2026-10-31'
+  quote: data mentah diambil dari GBIF API
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

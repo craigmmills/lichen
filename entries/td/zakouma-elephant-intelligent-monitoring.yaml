@@ -1,0 +1,49 @@
+id: zakouma-elephant-intelligent-monitoring
+kind: project
+name: Towards Elephants Intelligent Monitoring in Zakouma National Park, Chad
+scope: td
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- td
+status: unknown
+runner: unknown
+summary: Published Springer chapter, with a 2024 CSCE abstract, proposing an AI approach
+  to protecting endangered species in Zakouma National Park and benchmarking Faster
+  R-CNN, Mask R-CNN and YOLO detection models.
+facts:
+- claim: The 2024 CSCE abstract proposes an AI approach to protecting endangered species
+    in Zakouma National Park and reports benchmarking detection and segmentation algorithms
+    on wildlife.
+  url: https://www.american-cse.org/static/CSCE24-book-abstracts.pdf
+  fetched: 2026-11-13
+  quote: endangered species in Zakouma National Park, Chad. This paper analyzes a
+    few major algorithm models used in the detection or
+- claim: It benchmarked detection and segmentation algorithms including Faster R-CNN,
+    Mask R-CNN, YOLO V7, YOLO V8 and YOLO NAS.
+  url: https://www.american-cse.org/static/CSCE24-book-abstracts.pdf
+  fetched: 2026-11-13
+  quote: on detection and segmentation algorithms such as Faster RCNN, Mask R -CNN,
+    YOLO V7, YOLO V8 and YOLO NAS.
+- claim: Deep learning detection models (Faster R-CNN, Mask R-CNN and YOLO) are the
+    methods compared.
+  url: https://www.american-cse.org/static/CSCE24-book-abstracts.pdf
+  fetched: 2026-11-13
+  quote: on detection and segmentation algorithms such as Faster RCNN, Mask R -CNN,
+    YOLO V7, YOLO V8 and YOLO NAS.
+  ai_type: deep-learning
+- claim: Published as a Springer book chapter; its first author's raw affiliation
+    is the Department of Computer Science, Virtual University of Chad, N'Djamena.
+  url: https://api.openalex.org/works/W4409537601?select=id,title,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: Department of Computer Science, Virtual University of Chad
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

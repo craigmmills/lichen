@@ -1,0 +1,34 @@
+id: bugbase
+kind: dataset
+name: Bugbase
+also_known_as: []
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+countries:
+- dk
+status: active
+summary: A dataset run by the Lepidopterologisk Forening, published under a CC-BY-NC 4.0 licence, where
+  only society members can enter records.
+facts:
+- claim: Published under a CC-BY-NC 4.0 licence.
+  url: https://danbif.au.dk/ipt/resource?r=bugbase
+  fetched: &id001 2026-11-02
+  quote: This work is licensed under a Creative Commons Attribution Non Commercial (CC-BY-NC 4.0) License
+- claim: Only members of the society can enter records.
+  url: https://danbif.au.dk/ipt/resource?r=bugbase
+  fetched: *id001
+  quote: only members of the society are given access to enter records in the database
+links:
+- type: run-by
+  to: lepidopterologisk-forening
+  url: https://danbif.au.dk/ipt/resource?r=bugbase
+  fetched: *id001
+  quote: Society specialist groups check data for errors and unusual records
+found_by:
+- link-from:lepidopterologisk-forening
+added_by: agent
+checked: *id001

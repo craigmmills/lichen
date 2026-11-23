@@ -1,0 +1,44 @@
+id: shell-beach-sea-turtle-monitoring
+kind: project
+name: Shell Beach sea turtle monitoring
+scope: gy
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+countries:
+- gy
+status: active
+summary: Turtle monitoring run by the Protected Areas Commission and funded by the Protected Areas Trust,
+  which reports 92% of nests relocated to hatcheries in 2024 and patrol hours down 58% from erosion.
+facts:
+- claim: Rangers relocate nests, monitor turtle activity and protect hatchlings.
+  url: https://protectedareastrust.org.gy/beyond-the-shells/
+  fetched: 2026-11-08
+  quote: Rangers work tirelessly to relocate nests, monitor turtle activity, and protect hatchlings from
+    predators.
+- claim: The Protected Areas Trust reports that 92% of nests were relocated to hatcheries in 2024.
+  url: https://protectedareastrust.org.gy/beyond-the-shells/
+  fetched: 2026-11-08
+  quote: 92% of nests relocated to safe hatcheries in 2024, ensuring higher survival rates.
+- claim: The Trust reports that patrol hours fell by 58% in 2024 because erosion shortened the beaches.
+  url: https://protectedareastrust.org.gy/beyond-the-shells/
+  fetched: 2026-11-08
+  quote: Patrol hours dropped by 58% in 2024 due to shorter beaches, limiting monitoring efforts.
+links:
+- type: run-by
+  to: guyana-protected-areas-commission
+  url: https://protectedareastrust.org.gy/beyond-the-shells/
+  fetched: 2026-11-08
+  quote: Funding for these projects has been co-financed through the Protected Areas Trust and executed
+    by the Protected Areas Commission.
+- type: funded-by
+  to: protected-areas-trust-guyana
+  url: https://protectedareastrust.org.gy/beyond-the-shells/
+  fetched: 2026-11-08
+  quote: Since 2017, PAT has issued multiple grants to Shell Beach, supporting turtle monitoring, educational
+    outreach, and alternative livelihoods for surrounding communities.
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

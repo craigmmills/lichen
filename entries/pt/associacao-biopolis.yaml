@@ -1,0 +1,42 @@
+id: associacao-biopolis
+kind: organisation
+name: Associação BIOPOLIS
+also_known_as:
+- BIOPOLIS Association
+scope: pt
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+hq: pt
+scale: national
+status: active
+summary: Private, non-profit scientific and technical association, according to GBIF's record
+  for CIBIO, established in 2020 and placed by Biodiversa+ at Vairão, Portugal.
+facts:
+- claim: GBIF's record for CIBIO describes it as a private, non-profit scientific and technical
+    association.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: a private, non-profit scientific and technical association with administrative and
+    financial autonomy
+- claim: GBIF's record for CIBIO says it was established in 2020.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: Established in 2020, Associação BIOPOLIS is a major institutional outcome of the
+    BIOPOLIS Teaming project
+- claim: Biodiversa+ places it at Vairão, Portugal.
+  url: https://www.biodiversa.eu/2024/04/15/dnaquaimg/
+  fetched: '2026-11-02'
+  quote: Research Centre in Biodiversity and Genetic Resources (CIBIO), BIOPOLIS Association
+    Vairão, Portugal
+links:
+- type: partners-with
+  to: dnaquaimg
+  url: https://www.dnaquaimg.eu/consortium/
+  fetched: '2026-11-02'
+  quote: ASSOCIACAO BIOPOLIS
+found_by:
+- link-from:dnaquaimg
+added_by: agent
+checked: '2026-11-02'

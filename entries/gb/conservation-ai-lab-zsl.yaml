@@ -1,0 +1,45 @@
+id: conservation-ai-lab-zsl
+kind: organisation
+name: Conservation AI Lab
+scope: gb
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+techniques:
+- computer-vision
+- bioacoustics
+- species-distribution
+hq: gb
+scale: global
+status: active
+website: https://robinfreeman.github.io/index.html
+summary: Robin Freeman's academic group at the Institute of Zoology, Zoological Society of
+  London, combining ecology and machine learning on animal behaviour, camera traps, acoustics
+  and biodiversity forecasting.
+facts:
+- claim: Robin Freeman's academic group at the Institute of Zoology, ZSL.
+  url: https://robinfreeman.github.io/index.html
+  quote: The Conservation AI Lab is Robin Freeman's academic group at the Institute of Zoology
+    , Zoological Society of London .
+  fetched: &id001 2026-10-30
+- claim: Works on movement, indicators, camera traps, acoustics, citizen science and forecasting.
+  url: https://robinfreeman.github.io/index.html
+  quote: Our work spans animal movement and behaviour, biodiversity indicators, camera traps,
+    acoustics, citizen science, and biodiversity forecasting.
+  fetched: *id001
+- claim: Companies House lists The Zoological Society of London as a Royal Charter company.
+  url: https://find-and-update.company-information.service.gov.uk/company/RC000749
+  quote: Company Overview for THE ZOOLOGICAL SOCIETY OF LONDON (RC000749)
+  fetched: 2026-10-30
+links:
+- type: run-by
+  to: zoological-society-of-london
+  url: https://robinfreeman.github.io/index.html
+  quote: The Conservation AI Lab is Robin Freeman's academic group at the Institute of Zoology
+    , Zoological Society of London
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

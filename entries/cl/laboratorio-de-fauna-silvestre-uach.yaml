@@ -1,0 +1,51 @@
+id: laboratorio-de-fauna-silvestre-uach
+kind: organisation
+name: Laboratorio de Fauna Silvestre, Universidad Austral de Chile
+scope: cl
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- cl
+scale: national
+status: active
+summary: Wildlife laboratory run by Universidad Austral de Chile and running Snapshot Chile;
+  in March 2026 CONAF named it co-ordinator of the project, a role added in 2025.
+facts:
+- claim: Listed among the faculty's laboratories, with Eduardo Silva as contact.
+  url: https://www.forestal.uach.cl/instituto/conservacion-biodiversidad-territorio/laboratorios.php
+  fetched: 2026-11-02
+  quote: 'Laboratorio de Fauna Silvestre. Contacto: Prof. Eduardo Silva.'
+- claim: In March 2026, CONAF named the laboratory as co-ordinator of Snapshot Chile with
+    CONAF, a role added in 2025.
+  url: https://www.conaf.cl/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/
+  fetched: '2026-11-02'
+  quote: el rol de CONAF como coordinador de la red nacional Snapshot Chile, junto con el
+    Laboratorio de Fauna Silvestre de la Universidad Austral de Chile
+links:
+- type: runs
+  to: snapshot-chile
+  url: https://radionuevomundo.cl/2026/03/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/?print=pdf
+  fetched: 2026-11-02
+  quote: 'sumó en 2025 el rol de CONAF como coordinador de la red
+
+    nacional Snapshot Chile, junto con el Laboratorio de Fauna
+
+    Silvestre de la Universidad Austral de Chile'
+- type: run-by
+  to: universidad-austral-de-chile
+  url: https://www.conaf.cl/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/
+  fetched: '2026-11-02'
+  quote: Laboratorio de Fauna Silvestre de la Universidad Austral de Chile
+found_by:
+- checklist:3
+- link-from:snapshot-chile
+added_by: agent
+checked: 2026-11-02

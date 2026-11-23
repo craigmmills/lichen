@@ -1,0 +1,55 @@
+id: conservation-ai
+kind: organisation
+name: Conservation AI
+scope: global
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+scale: global
+status: closed
+summary: UK-based non-profit platform that used machine learning and computer vision to detect
+  and classify animals, humans and poaching-related objects in camera trap and thermal images.
+  A 2026 preprint says it wound down as a public service in 2025 and was rebuilt as Trap Tracker.
+facts:
+- claim: Platform detects animals, humans and poaching-related objects.
+  url: https://arxiv.org/abs/2409.10523v1
+  fetched: '2026-10-30'
+  quote: Leveraging machine learning and computer vision, Conservation AI detects and classifies
+    animals, humans, and poaching-related objects using visual spectrum and thermal infrared
+    cameras.
+- claim: UK-based non-profit with cameras powered by NVIDIA Jetson.
+  url: https://blogs.nvidia.com/blog/earth-day-ai-accelerated-computing/
+  fetched: '2026-10-30'
+  quote: Conservation AI, a U.K.-based nonprofit, has deployed 70+ cameras around the world
+- claim: The platform uses CNNs and transformer architectures.
+  url: https://arxiv.org/abs/2409.10523v1
+  fetched: '2026-10-30'
+  quote: The platform processes this data with convolutional neural networks (CNNs) and Transformer
+    architectures
+  ai_type: deep-learning
+- claim: A 2026 preprint says the platform wound down as a public service in 2025 and was
+    rebuilt as Trap Tracker.
+  url: https://arxiv.org/pdf/2606.10940
+  fetched: '2026-10-31'
+  quote: wound down as a public service in 2025 and was rebuilt as Trap Tracker
+links:
+- type: partners-with
+  to: nvidia
+  url: https://blogs.nvidia.com/blog/earth-day-ai-accelerated-computing/
+  fetched: '2026-10-30'
+  quote: Conservation AI, a U.K.-based nonprofit, has deployed 70+ cameras around the world
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- ConservationAI

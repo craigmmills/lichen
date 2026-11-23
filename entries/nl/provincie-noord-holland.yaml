@@ -1,0 +1,30 @@
+id: provincie-noord-holland
+kind: organisation
+name: Provincie Noord-Holland
+sector: government
+roles:
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+summary: Dutch province responsible for managing nature, whose Natuurbeheerplan sets the boundaries
+  of areas where subsidy for managing and developing nature applies.
+facts:
+- claim: The province is responsible for managing nature.
+  url: https://www.noord-holland.nl/Onderwerpen/Natuur/Natuurbeheer
+  quote: De provincie is verantwoordelijk voor het beheer van de natuur.
+  fetched: '2026-11-08'
+- claim: The Natuurbeheerplan sets the boundaries of areas where subsidy for managing and
+    developing nature applies.
+  url: https://www.noord-holland.nl/Onderwerpen/Natuur/Natuurbeheer
+  quote: In dit plan worden gebieden begrensd waarop de subsidie voor beheer en ontwikkeling
+    van natuur, agrarische natuur en landschapselementen van toepassing is.
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

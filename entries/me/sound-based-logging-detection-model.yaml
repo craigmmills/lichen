@@ -1,0 +1,42 @@
+id: sound-based-logging-detection-model
+kind: model
+name: Sound-based logging detection model (University of Montenegro)
+also_known_as: []
+scope: me
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- me
+status: unknown
+runner: unknown
+summary: A 2022 TELFOR conference paper from the University of Montenegro that uses deep learning,
+  comparing MLP and CNN approaches to detecting chainsaw sound, built by Budimir Anđelić.
+facts:
+- claim: A 2022 TELFOR conference paper titled "Sound-based logging detection using deep learning".
+  url: https://api.openalex.org/works/W4312090278?select=id,display_name,publication_year,authorships,primary_location,doi
+  fetched: 2026-11-15
+  quote: Sound-based logging detection using deep learning
+- claim: The paper uses deep learning.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works/W4312090278?select=id,display_name,publication_year,authorships,primary_location,doi
+  fetched: 2026-11-15
+  quote: Sound-based logging detection using deep learning
+- claim: All three authors give the Faculty of Electrical Engineering, University of Montenegro,
+    Podgorica, as their affiliation.
+  url: https://api.openalex.org/works/W4312090278?select=id,display_name,publication_year,authorships,primary_location,doi
+  fetched: 2026-11-15
+  quote: University of Montenegro,Faculty of Electrical Engineering,Podgorica,Montenegro
+- claim: The indexed abstract compares MLP and CNN approaches to detecting chainsaw sound;
+    it calls the MLP approach 'multilayer perception'.
+  url: https://api.openalex.org/works/W4312090278?select=id,abstract_inverted_index
+  fetched: 2026-11-15
+  quote: '"convolutional":[77],"neural":[78],"network":[79]'
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

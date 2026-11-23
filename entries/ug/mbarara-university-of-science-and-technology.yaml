@@ -1,0 +1,54 @@
+id: mbarara-university-of-science-and-technology
+kind: organisation
+name: Mbarara University of Science and Technology
+also_known_as:
+- MUST
+scope: ug
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+hq: ug
+countries:
+- ug
+scale: national
+status: active
+summary: University with authors on OpenAlex-listed camera trap and eDNA biodiversity papers,
+  and an Institute of Tropical Forest Conservation set up in 1991 as its field station.
+facts:
+- claim: OpenAlex lists a 2012 camera trap assessment of terrestrial vertebrates in Bwindi
+    Impenetrable National Park, with Mbarara University authors.
+  url: https://api.openalex.org/works?filter=ids.openalex:W2008375871|W2982720699|W4403413201|W4388499228
+  fetched: 2026-11-08
+  quote: A camera trap assessment of terrestrial vertebrates in B windi I mpenetrable N ational
+    P ark, U ganda
+- claim: OpenAlex lists a 2019 paper on camera trapping trends in forest duiker populations
+    in African national parks with Mbarara University authors.
+  url: https://api.openalex.org/works?filter=ids.openalex:W2008375871|W2982720699|W4403413201|W4388499228
+  fetched: 2026-11-08
+  quote: Camera trapping reveals trends in forest duiker populations in African National Parks
+- claim: OpenAlex lists a 2024 paper with Mbarara University authors using environmental DNA
+    barcoding to show biodiversity patterns in Lake Albert.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ug,title_and_abstract.search:environmental%20DNA&per-page=30
+  fetched: 2026-11-08
+  quote: Environmental DNA barcoding reveals general biodiversity patterns in the large tropical
+    rift Lake Albert
+- claim: Its Institute of Tropical Forest Conservation was set up in 1991 as a semi-autonomous
+    research institution and field station of the university, for ecological and sociological
+    research, monitoring and training.
+  url: https://www.must.ac.ug/university_unit/institute-of-tropical-forest-conservation/
+  fetched: 2026-11-08
+  quote: ITFC was Established in 1991 as a semi-autonomous research institution and field
+    station of Mbarara University of Science and Technology ( MUST ) to carry out ecological
+    and sociological research, monitoring and training.
+links: []
+found_by:
+- checklist:3
+- register:ug
+added_by: agent
+checked: 2026-11-08

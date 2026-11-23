@@ -1,0 +1,51 @@
+id: chester-zoo
+kind: organisation
+name: Chester Zoo
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.chesterzoo.org
+summary: National conservation zoo. OpenAlex lists a Chester Zoo author on a paper about bird
+  classification from camera trap images with deep learning.
+facts:
+- claim: OpenAlex lists a Chester Zoo author on this work.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Removing Human Bottlenecks in Bird Classification Using Camera Trap Images and Deep
+    Learning
+  fetched: '2026-10-30'
+- claim: Registered at Companies House as NORTH OF ENGLAND ZOOLOGICAL SOCIETY (THE), at Zoological
+    Gardens, Chester, company number 00287902.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=north+of+england+zoological+society
+  quote: 00287902 - Incorporated on 9 May 1934
+  fetched: '2026-10-30'
+- claim: Staff expertise includes conservation technology, camera traps and AI applications.
+  url: https://www.chesterzoo.org/conservation-science-education/meet-the-experts
+  quote: conservation technology, camera traps, AI applications, species distribution and
+    occupancy modelling
+  fetched: 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.chesterzoo.org/
+  quote: © Chester Zoo Upton-by-Chester, Chester, CH2 1EU Registered Charity No. 306077
+  fetched: 2026-10-30
+links:
+- type: partners-with
+  to: conservation-ai
+  url: https://arxiv.org/pdf/2606.10940
+  quote: We thank Chester Zoo for partnership across multiple Conservation AI projects
+  fetched: '2026-10-31'
+found_by:
+- checklist:4
+- rule:checklist-misses
+scope: gb
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,53 @@
+id: university-of-reading
+kind: organisation
+name: University of Reading
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- species-distribution
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on GlobalGeoTree, a vision-language dataset for tree species
+  classification.
+ai_types:
+- foundation-models
+facts:
+- claim: 'OpenAlex lists authors at University of Reading on this work: GlobalGeoTree: a multi-granular
+    vision-language dataset for global tree species classification'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: 'GlobalGeoTree: a multi-granular vision-language dataset for global tree species
+    classification'
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.reading.ac.uk/
+  quote: the University of Reading was granted its Royal Charter
+  fetched: '2026-10-30'
+- claim: Lead university for AI-INTERVENE.
+  url: https://www.ukri.org/publications/doctoral-focal-awards/doctoral-focal-award-investments/
+  quote: 'Lead university: University of Reading.'
+  fetched: &id001 2026-10-30
+- claim: Computer science group exploits machine learning in environmental science.
+  url: https://www.reading.ac.uk/computer-science/research
+  quote: exploiting machine learning in environmental science
+  fetched: *id001
+- claim: GlobalGeoTree, a paper with University of Reading authors listed by OpenAlex, introduces
+    GeoTreeCLIP, a pretrained vision-language model.
+  url: https://arxiv.org/abs/2505.12513
+  fetched: '2026-10-31'
+  quote: we introduce a baseline model, GeoTreeCLIP, which leverages paired remote sensing
+    data and taxonomic text labels within a vision-language framework pretrained on GlobalGeoTree-6M
+  ai_type: foundation-models
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.reading.ac.uk/

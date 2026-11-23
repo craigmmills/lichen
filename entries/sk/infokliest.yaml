@@ -1,0 +1,61 @@
+id: infokliest
+kind: project
+name: InfoKliešť
+also_known_as:
+- Info kliešť
+scope: sk
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- computer-vision
+- species-distribution
+countries:
+- sk
+status: active
+website: https://www.infokliest.sk/
+summary: Run by the Institute of Zoology SAS, it asks the public for tick photos and
+  locations to help an AI recognise ticks and map them; an app reported for 2027.
+facts:
+- claim: Asks the public to upload a photo of a tick and where it was found, to help
+    an artificial intelligence recognise ticks and to build a map of their occurrence.
+  url: https://www.infokliest.sk/
+  fetched: 2026-11-15
+  quote: Pomôžeš umelej inteligencii rozoznávať kliešte a spolu vytvárať mapu ich
+    výskytu a možných ochorení, ktoré prenášajú.
+- claim: Uses tick plots to follow when ticks are most active in forests, parks and
+    housing estates.
+  url: https://www.infokliest.sk/
+  fetched: 2026-11-15
+  quote: Pomocou tzv. kliešťových záhradiek sledujeme, kedy sú kliešte najaktívnejšie
+    – v lesoch, parkoch aj na sídliskách.
+- claim: Studies whether new tick species from warmer areas are appearing in Slovakia.
+  url: https://www.infokliest.sk/
+  fetched: 2026-11-15
+  quote: či sa na Slovensku objavujú nové druhy z teplejších oblastí
+- claim: CVTI SR's open science portal says scientists from the Institute of Informatics
+    SAS train the AI on the reported data and zoologists' expertise to identify tick
+    species.
+  ai_type: ml-supervised
+  url: https://otvorenaveda.cvtisr.sk/projekty-obcianskej-vedy-na-slovensku/
+  fetched: 2026-11-15
+  quote: Pomocou týchto dát a expertízy zoológov trénujú vedci z Ústavu informatiky
+    SAV umelú inteligenciu, ktorá pomôže určovať druhy kliešťov.
+- claim: CVTI SR's open science portal says the resulting app is to be available in
+    2027.
+  url: https://otvorenaveda.cvtisr.sk/projekty-obcianskej-vedy-na-slovensku/
+  fetched: 2026-11-15
+  quote: Výsledná aplikácia má byť k dispozícii v roku 2027
+links:
+- type: run-by
+  to: institute-of-zoology-sas
+  url: https://otvorenaveda.cvtisr.sk/projekty-obcianskej-vedy-na-slovensku/
+  fetched: 2026-11-15
+  quote: Mapovanie týchto zmien za pomoci dobrovoľníkov a umelej inteligencie si kladie
+    za cieľ projekt zoologického ústavu SAV InfoKliešť.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

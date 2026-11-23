@@ -1,0 +1,33 @@
+id: aionwetlands
+kind: project
+name: AIonWetlands
+scope: fr
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+runner: unknown
+summary: A project using satellite image time series and AI to map Mediterranean wetland
+  habitats and follow their change, with its geoportal still in development.
+facts:
+- claim: Uses satellite image time series and AI to map Mediterranean wetland habitats
+    and follow their change.
+  url: https://geodes.cnes.fr/projects/aionwetlands/
+  fetched: '2026-11-07'
+  quote: AIonWetlands exploite des séries d’images satellitaires et l’intelligence
+    artificielle pour cartographier les habitats des zones humides méditerranéennes
+    et suivre leur évolution.
+- claim: The geoportal is still in development.
+  url: https://geodes.cnes.fr/projects/aionwetlands/
+  fetched: '2026-11-07'
+  quote: 'Conditions d’accès : Géoportail en cours de développement'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

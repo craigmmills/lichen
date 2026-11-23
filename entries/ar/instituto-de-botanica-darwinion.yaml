@@ -1,0 +1,50 @@
+id: instituto-de-botanica-darwinion
+kind: organisation
+name: Instituto de Botánica Darwinion
+also_known_as:
+- IBODA
+- Instituto de Botánica Darwinion - CONICET
+scope: ar
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+website: https://iboda.conicet.gov.ar/
+summary: Botanical institute of CONICET and the National Academy of Exact, Physical and Natural
+  Sciences, which developed the Documenta Florae Australis database and is a GBIF-endorsed
+  data publisher.
+facts:
+- claim: An executing unit of CONICET and the National Academy of Exact, Physical and Natural
+    Sciences.
+  url: https://iboda.conicet.gov.ar/
+  fetched: '2026-11-03'
+  quote: Instituto de Botánica Darwinion (Consejo Nacional de Investigaciones Científicas
+    y Técnicas-Academia Nacional de Ciencias Exactas, Físicas y Naturales)
+- claim: Developed the Documenta Florae Australis database, which feeds the Flora Vascular
+    de la República Argentina.
+  url: https://iboda.conicet.gov.ar/flora-argentina/
+  fetched: '2026-11-03'
+  quote: al enorme acervo de datos de la base Documenta Florae Australis desarrollada por
+    el IBODA
+- claim: GBIF lists it as a data publisher endorsed by the Argentine node.
+  url: https://api.gbif.org/v1/organization/b6f05cf0-43ce-11d9-8439-b8a03c50a862
+  fetched: '2026-11-03'
+  quote: '"endorsementStatus":"ENDORSED","title":"Instituto de Botánica Darwinion - CONICET"'
+links:
+- type: builds
+  to: documenta-florae-australis
+  url: https://iboda.conicet.gov.ar/flora-argentina/
+  fetched: '2026-11-03'
+  quote: al enorme acervo de datos de la base Documenta Florae Australis desarrollada por
+    el IBODA
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-03'

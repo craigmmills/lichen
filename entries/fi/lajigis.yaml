@@ -1,0 +1,27 @@
+id: lajigis
+kind: dataset
+name: LajiGIS
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+status: active
+summary: A national species information database used by the environmental authorities and run by Metsähallitus.
+facts:
+- claim: National species information database used by the environmental authorities.
+  url: https://www.metsa.fi/en/protection-and-management/species/
+  quote: maintains the national species information database LajiGIS which is used by the environmental
+    authorities
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: metsahallitus
+  url: https://www.metsa.fi/en/protection-and-management/species/
+  quote: Metsähallitus, Parks & Wildlife Finland also maintains the national species information database
+    LajiGIS
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+scope: fi
+added_by: agent
+checked: '2026-11-02'

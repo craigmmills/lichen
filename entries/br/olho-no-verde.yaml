@@ -1,0 +1,30 @@
+id: olho-no-verde
+kind: programme
+name: Olho no Verde
+scope: br
+ai_label: conservation-tech
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+runner: unknown
+summary: Rio de Janeiro state programme that monitors Atlantic Forest cover by satellite and
+  sends alerts to field inspectors.
+facts:
+- claim: Correio da Manhã says the state monitors by satellite through the programme, identifying
+    clearance from 200 square metres.
+  url: https://www.correiodamanha.com.br/rio-de-janeiro/2024/05/134161-estado-reduz-desmatamento.html
+  quote: O Governo do Estado realiza um monitoramento por satélite por meio do programa Olho
+    no Verde
+  fetched: '2026-10-31'
+- claim: Satellite images let the programme follow tree removal; alerts go to inspectors.
+  url: https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/rio-lanca-projeto-para-conter-desmatamento-na-mata-atlantica.pdf
+  quote: Através das imagens via satélite, é possível acompanhar a supressão arbórea
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

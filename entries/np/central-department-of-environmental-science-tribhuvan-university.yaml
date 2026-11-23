@@ -1,0 +1,52 @@
+id: central-department-of-environmental-science-tribhuvan-university
+kind: organisation
+name: Central Department of Environmental Science, Tribhuvan University
+also_known_as:
+- CDES
+scope: np
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+scale: national
+hq: np
+countries:
+- np
+status: active
+website: https://cdes.tu.edu.np
+summary: A Tribhuvan University department in Kirtipur, established in 2001, listed by OpenAlex as the
+  affiliation of the first author of a paper on Himalayan red panda habitat suitability in Dhorpatan Hunting
+  Reserve.
+facts:
+- claim: The department's site describes it as part of the Institute of Science and Technology, Tribhuvan
+    University, in Kirtipur, established in 2001.
+  url: https://cdes.tu.edu.np/
+  fetched: 2026-11-08
+  quote: Central Department of Environmental Science (CDES) was established in 2001
+- claim: OpenAlex lists a paper on the distribution and habitat suitability of the Himalayan red panda
+    in Dhorpatan Hunting Reserve.
+  url: https://api.openalex.org/works/W4411966365?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Distribution and habitat suitability for Himalayan red panda (Ailurus fulgens) in Dhorpatan Hunting
+    Reserve, Nepal
+- claim: OpenAlex gives the paper's first author, Jhalak Paudel, an affiliation with the department.
+  url: https://api.openalex.org/works/W4411966365?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Central Department of Environmental Science, Institute of Science and Technology, Tribhuvan University,
+    Kirtipur, Nepal
+links:
+- type: run-by
+  to: tribhuvan-university
+  url: https://cdes.tu.edu.np/
+  fetched: 2026-11-08
+  quote: Central Department of Environmental Science (CDES), Institute of Science and Technology, Tribhuvan
+    University, Kirtipur
+found_by:
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-08

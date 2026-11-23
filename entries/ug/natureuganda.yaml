@@ -1,0 +1,92 @@
+id: natureuganda
+kind: organisation
+name: NatureUganda
+also_known_as:
+- Nature Uganda
+- NatureUganda
+scope: ug
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: ug
+countries:
+- ug
+scale: national
+status: active
+website: https://natureuganda.org
+summary: Ugandan NGO and BirdLife partner that documents and monitors biodiversity, produced
+  a 2019 waterfowl count report for UWA, and has a JRS grant for 2023 to 2025 to train herpetologists.
+facts:
+- claim: Its GBIF publisher record describes it as an NGO for documentation and monitoring
+    of Uganda's biodiversity, gathering data from field surveys, ESIA reports and citizen
+    science.
+  url: https://api.gbif.org/v1/organization/baf02eb8-6f22-4966-8d69-c358f1056e74
+  fetched: 2026-11-08
+  quote: We organize and harness biodiversity data from field surveys, ESIA reports, and citizens
+    science, focusing on birds, amphibians, reptiles, and aquatic organisms.
+- claim: Produced the July to August 2019 waterfowl counts and bird population monitoring
+    report for the Uganda Wildlife Authority, with UWA financial support.
+  url: https://ugandawildlife.org/wp-content/uploads/2023/09/UWA-Birds-Report-2019.pdf
+  fetched: 2026-11-08
+  quote: Produced by NatureUganda with
+- claim: The 2019 report is titled as a report by NatureUganda to the Uganda Wildlife Authority
+    on waterfowl counts and bird population monitoring.
+  url: https://ugandawildlife.org/wp-content/uploads/2023/09/UWA-Birds-Report-2019.pdf
+  fetched: 2026-11-08
+  quote: A report by NatureUganda
+- claim: Its GBIF record describes it as Uganda's BirdLife partner and a regional centre of
+    excellence for biodiversity information.
+  url: https://api.gbif.org/v1/organization/baf02eb8-6f22-4966-8d69-c358f1056e74
+  fetched: 2026-11-08
+  quote: Being Uganda's BirdLife partner and a regional center of excellence for biodiversity
+    information
+- claim: Its GBIF publisher record says it runs long-term ecological studies and species and
+    habitat censuses.
+  url: https://api.gbif.org/v1/organization/baf02eb8-6f22-4966-8d69-c358f1056e74
+  fetched: 2026-11-08
+  quote: Our work integrates long-term ecological studies, species and habitat censuses, and
+    community-driven restoration in key ecosystems.
+- claim: JRS lists funding dates of 2023–2025 for a grant to train herpetologists, with an
+    estimated 50,000 amphibian and reptile records to be generated and shared through GBIF
+    and NBDB.
+  url: https://jrsbiodiversity.org/grants/nature_uganda/
+  fetched: 2026-11-08
+  quote: 2023-2025
+- claim: Its GBIF publisher record gives an address in Kampala.
+  url: https://api.gbif.org/v1/organization/baf02eb8-6f22-4966-8d69-c358f1056e74
+  fetched: 2026-11-08
+  quote: Plot 1, Katalima Crescent, Lower Naguru
+links:
+- type: partners-with
+  to: birdlife-international
+  url: https://api.gbif.org/v1/organization/baf02eb8-6f22-4966-8d69-c358f1056e74
+  fetched: 2026-11-08
+  quote: Being Uganda's BirdLife partner
+- type: funded-by
+  to: uganda-wildlife-authority
+  url: https://ugandawildlife.org/wp-content/uploads/2023/09/UWA-Birds-Report-2019.pdf
+  fetched: 2026-11-08
+  quote: 'Produced by NatureUganda with
+
+    Financial support from Uganda
+
+    Wildlife Authority'
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/grants/nature_uganda/
+  fetched: 2026-11-08
+  quote: 'Grant Amount: $256,446'
+  amount: 256446
+  currency: USD
+  year: 2022
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:gbif
+- register:ug
+added_by: agent
+checked: 2026-11-08

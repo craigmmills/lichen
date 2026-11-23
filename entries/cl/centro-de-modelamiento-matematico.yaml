@@ -1,0 +1,73 @@
+id: centro-de-modelamiento-matematico
+kind: organisation
+name: Centro de Modelamiento Matemático
+also_known_as:
+- CMM
+- Center for Mathematical Modeling
+scope: cl
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+- edna-genomics
+hq: unknown
+website: https://cmm.uchile.cl/
+countries:
+- cl
+scale: national
+status: active
+summary: A University of Chile mathematical modelling centre that presented a Magallanes wetland
+  monitoring system with GIZ, hosted the regional Copernicus centre (reported November 2024),
+  and has authors on a 2021 blue whale call detection paper.
+facts:
+- claim: Presented, with GIZ, the wetland and peatland monitoring system in Magallanes.
+  url: https://www.eeas.europa.eu/node/451386_en
+  fetched: 2026-11-02
+  quote: El Centro de Modelamiento Matemático (CMM) de la Universidad de Chile, junto a la
+    agencia alemana de cooperación GIZ, presentó oficialmente el nuevo Sistema de Monitoreo
+    de Humedales y Turberas
+- claim: A 2021 paper with authors at the centre covers detection of blue whale calls with
+    a convolutional neural network.
+  url: https://api.openalex.org/works/doi:10.1109/la-cci48322.2021.9769846?select=title,authorships
+  fetched: 2026-11-02
+  quote: Detection of blue whale vocalisations using a temporal-domain convolutional neural
+    network
+  ai_type: deep-learning
+- claim: In November 2024, CMM reported that it hosted the regional Copernicus centre.
+  url: https://www.cmm.uchile.cl/?p=57984
+  fetched: '2026-11-02'
+  quote: The Regional Center, hosted by the CMM, now has two of the three satellite tools
+- claim: One research line explores the impact of environmental pressures on biodiversity,
+    from omics to mathematical models.
+  url: https://www.cmm.uchile.cl/investigacion/investigacion-aplicada/clima-y-biodiversidad/
+  fetched: '2026-11-02'
+  quote: Esta línea explora el impacto de las presiones ambientales sobre la biodiversidad,
+    la salud y el desarrollo humano.
+- claim: A centre of the Faculty of Physical and Mathematical Sciences at the University of
+    Chile.
+  url: https://www.cmm.uchile.cl/noticias/cmm-lanza-sistema-pionero-para-proteger-humedales-y-turberas-en-magallanes/
+  fetched: '2026-11-02'
+  quote: El Centro de Modelamiento Matemático (CMM) de la Facultad de Ciencias Físicas y Matemáticas
+    de la Universidad de Chile
+ai_types:
+- deep-learning
+found_by:
+- checklist:3
+- link-from:copernicuslac-chile
+added_by: agent
+checked: 2026-11-02
+links:
+- type: run-by
+  to: university-of-chile
+  url: https://www.cmm.uchile.cl/noticias/cmm-lanza-sistema-pionero-para-proteger-humedales-y-turberas-en-magallanes/
+  fetched: '2026-11-02'
+  quote: El Centro de Modelamiento Matemático (CMM) de la Facultad de Ciencias Físicas y Matemáticas
+    de la Universidad de Chile

@@ -1,0 +1,92 @@
+id: bialowieza-acoustic-monitoring
+kind: project
+name: Białowieża acoustic monitoring
+scope: pl
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- pl
+status: closed
+summary: Closed study run from 27 March to 9 June 2023 with recorders at 61 locations, which identified
+  56 animal species using acoustic species-identification algorithms.
+facts:
+- claim: The study ran from 27 March to 9 June 2023. Recorders at 61 locations collected data for an average
+    of 37 days each, producing 1,091,790 one-minute recordings.
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: 1 091 790 jednominutowych nagrań
+- claim: 56 animal species were identified.
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: zidentyfikowano 56 gatunków zwierząt
+- claim: Rainforest Connection says the study used acoustic species-identification algorithms.
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: use acoustic species-identification algorithms to assess the presence and distribution of wildlife
+- claim: Ran from 27 March to 9 June 2023.
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: We implemented passive acoustic monitoring (PAM) within Białowieża National Park, Poland, from
+    March 27, 2023, to June 9, 2023.
+- claim: Collected 1, 081, 790 one-minute recordings.
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: resulting in 1,081,790 one-minute recordings
+- claim: Used 70 offline AudioMoth Edge devices and 3 Guardian devices.
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: 70 offline AudioMoth Edge and 3 Guardian devices designed by RFCx
+links:
+- type: run-by
+  to: bialowieza-national-park
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: Białowieski Park Narodowy, startup Rainforest Connection (RFCx) oraz Huawei wdrożyły system monitoringu
+    akustycznego
+- type: run-by
+  to: rainforest-connection
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: Białowieski Park Narodowy, startup Rainforest Connection (RFCx) oraz Huawei wdrożyły system monitoringu
+    akustycznego
+- type: run-by
+  to: huawei
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: Białowieski Park Narodowy, startup Rainforest Connection (RFCx) oraz Huawei wdrożyły system monitoringu
+    akustycznego
+- type: uses
+  to: arbimon
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: były na bieżąco przesyłane na platformę Arbimon w celu analizy
+- type: uses
+  to: audiomoth
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: zainstalowano rejestratory AudioMoth
+- type: run-by
+  to: rainforest-connection
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: We implemented passive acoustic monitoring (PAM) within Białowieża National Park, Poland
+- type: partners-with
+  to: tech4all
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: Partners Białowieża National Park Huawei TECH4ALL
+- type: uses
+  to: arbimon
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: We used Arbimon's PM (pattern matching) to automatically identify 21 species
+found_by:
+- checklist:7
+- link-from:rainforest-connection
+added_by: agent
+checked: '2026-11-02'
+also_known_as:
+- Białowieża passive acoustic monitoring project

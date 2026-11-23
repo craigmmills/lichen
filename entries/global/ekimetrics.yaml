@@ -1,0 +1,28 @@
+id: ekimetrics
+kind: organisation
+name: Ekimetrics
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+hq: fr
+scale: global
+status: active
+website: https://www.ekimetrics.com/
+summary: French AI and data management company that built ClimateQ&A, a public chatbot over
+  IPCC and IPBES reports.
+facts:
+- claim: French company specialising in AI and data management, according to IPBES.
+  url: https://www.ipbes.net/impact/66580
+  fetched: &id001 2026-10-30
+  quote: Ekimetrics, a French company specialising in artificial intelligence and data management
+- claim: Legal notice gives the address of EKI METRICS SAS in Paris.
+  url: https://www.ekimetrics.com/legal/legal-notices
+  fetched: 2026-10-30
+  quote: 36 rue La Fayette, 75009 Paris, France
+links: []
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

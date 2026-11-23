@@ -1,0 +1,66 @@
+id: tapyta-soundscape-passive-acoustic-monitoring
+kind: project
+name: Paisajes sonoros de la Reserva Natural Tapyta (monitoreo acústico pasivo de
+  aves y anfibios)
+also_known_as: []
+scope: py
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+countries:
+- py
+status: active
+summary: Run by Fundación Moisés Bertoni at Tapyta, the project reported over 200
+  sites sampled, 20 TB recorded and manual labelling to train a classification algorithm
+  in August 2025.
+facts:
+- claim: La Nación reported on 31 August 2025 that an interdisciplinary team was researching
+    soundscapes at Reserva Natural Tapyta in Caazapá to strengthen biodiversity conservation.
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: se encuentra realizando una investigación en la Reserva Natural Tapyta, departamento
+    de Caazapá
+- claim: In August 2025, the team reported completing field data collection, with
+    more than 200 sites sampled and 20 TB of recordings.
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: colecta de datos en campo (grabaciones), más de 200 sitios muestreados y
+    20 TB de grabaciones
+- claim: In August 2025, the team said recordings were being labelled by manual species
+    identification to train a classification algorithm for subsequent automatic analysis.
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: para el entrenamiento del algoritmo de clasificación
+  ai_type: ml-supervised
+- claim: The coordinator says automatic detection and classification methods are needed
+    because the recorders produce huge amounts of data.
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: por lo cual el uso de metodologías de detección y clasificación automática
+    es necesario
+- claim: In August 2025, the team reported using 20 Wildlife Acoustics Song Meter
+    Micro 2 passive automatic recorders.
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: de la empresa Wildlife Acoustics, modelo Song Meter Micro 2
+- claim: The August 2025 article says the work was undertaken in collaboration with
+    FP-UNA and co-funded by CONACYT.
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: en colaboración con la Facultad Politécnica de la Universidad Nacional de
+    Asunción (FP-UNA) y es cofinanciado por el Consejo Nacional de Ciencia y
+links:
+- type: run-by
+  to: fundacion-moises-bertoni
+  url: https://www.lanacion.com.py/gran-diario-domingo/2025/08/31/que-nos-dicen-los-sapos-y-las-ranas-al-croar/
+  fetched: 2026-11-15
+  quote: El trabajo es llevado ade­lante por la Fundación Moi­sés Bertoni
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

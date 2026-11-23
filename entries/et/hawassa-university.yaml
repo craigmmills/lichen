@@ -1,0 +1,38 @@
+id: hawassa-university
+kind: organisation
+name: Hawassa University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: et
+scale: national
+status: active
+summary: University that OpenAlex lists as the affiliation of the first author of a 2026 paper
+  on cloud-based machine learning to predict land use and land cover change in the Gidabo
+  watershed.
+facts:
+- claim: OpenAlex lists a 2026 paper on cloud-based machine learning to predict land use and
+    land cover change in the Gidabo watershed.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: Cloud based machine learning approaches for land use and cover changes prediction
+    to support watershed management in the Gidabo watershed, Ethiopia
+- claim: OpenAlex lists Degefu Dogiso, first author of that paper, at Hawassa University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Degefu Dogiso", "orcid": "https://orcid.org/0009-0003-0285-8844",
+    "observed_orcids": ["https://orcid.org/0009-0003-0285-8844"]}, "institutions": [{"id":
+    "https://openalex.org/I193649603", "display_name": "Hawassa University", "ror": "https://ror.org/04r15fz20",
+    "country_code": "ET"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

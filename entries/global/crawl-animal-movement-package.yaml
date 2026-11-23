@@ -1,0 +1,29 @@
+id: crawl-animal-movement-package
+kind: programme
+name: crawl
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- other
+status: active
+website: https://cran.r-project.org/web/packages/crawl/index.html
+summary: R package that fits continuous-time correlated random walk models to animal movement
+  data, built by Devin Johnson; its latest version reached CRAN on 26 February 2026.
+facts:
+- claim: R package to fit continuous-time correlated random walk models to animal movement
+    data.
+  url: https://cran.r-project.org/web/packages/crawl/index.html
+  fetched: 2026-11-21
+  quote: Fit continuous-time correlated random walk models with time indexed covariates to
+    animal telemetry data.
+- claim: Latest version published on CRAN on 26 February 2026.
+  url: https://cran.r-project.org/web/packages/crawl/index.html
+  fetched: 2026-11-21
+  quote: 2026-02-26
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

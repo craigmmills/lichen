@@ -1,0 +1,36 @@
+id: wood-krew
+kind: organisation
+name: Wood Krew
+scope: de
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Provider listed by the CopWald service for forest remote sensing, offering drone
+  flights and satellite image analysis to map and mark trees affected by bark beetle.
+facts:
+- claim: Listed by the CopWald service as a provider active in forest remote sensing.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hier ist eine alphabetische Liste von Behörden und kommerziellen Dienstleistern,
+    die im Bereich Wald-Fernerkundung tätig sind.
+- claim: CopWald gives its field as drone services and bark beetle monitoring.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: 'Tätigkeitsbereich: Drohnen-Dienstleistungen, Borkenkäfermonitoring'
+- claim: Offers drone flights and satellite image analysis, mapping and marking affected trees.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Drohnenflüge und Satellitenbildauswertung, Kartierung und Markierung betroffener
+    Bäume im Wald
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

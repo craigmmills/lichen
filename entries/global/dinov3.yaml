@@ -1,0 +1,39 @@
+id: dinov3
+kind: model
+name: DINOv3
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Meta's self-supervised vision model, with a backbone pre-trained on the SAT-493M satellite imagery dataset that is used in Canopy Height Maps v2.
+facts:
+- claim: Self-supervised vision model from Meta, used at the core of CHMv2.
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: &id001 2026-10-30
+  quote: At the heart of CHMv2 is DINOv3 , Meta’s self-supervised vision model
+- claim: The satellite backbone is pre-trained on SAT-493M.
+  ai_type: foundation-models
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: *id001
+  quote: our more capable DINOv3 backbone, pre-trained on SAT-493M, a large and diverse dataset of satellite imagery
+- claim: "DINOv3 learns visual features from large amounts of unlabelled imagery."
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: 2026-10-30
+  quote: "DINOv3 learns robust visual features from large amounts of unlabeled imagery."
+  ai_type: ml-unsupervised
+links:
+- type: run-by
+  to: meta
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: *id001
+  quote: "DINOv3 , Meta's self-supervised vision model,"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

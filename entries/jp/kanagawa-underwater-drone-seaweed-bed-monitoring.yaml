@@ -1,0 +1,42 @@
+id: kanagawa-underwater-drone-seaweed-bed-monitoring
+kind: project
+name: Kanagawa underwater drone seaweed bed monitoring
+scope: jp
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Project run by the prefectural government with BlueArch and a Keio laboratory; an AI model for
+  seaweed cover was reported in December 2025 and 9.6 t of credits certified.
+facts:
+- claim: In December 2025, the prefecture reported developing an AI model with Keio University’s Furuya
+    laboratory to detect cover by seaweed type in underwater drone images.
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r3538978.html
+  fetched: '2026-11-02'
+  quote: 種別ごとに被度の検出が可能なAIモデルを開発。
+- claim: Credits of 9.6 t at Enoshima were certified on 19 December 2025.
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r3538978.html
+  fetched: '2026-11-02'
+  quote: 江の島（ 別紙1（PDF：1,112KB） ）：9.6t
+links:
+- type: run-by
+  to: kanagawa-prefectural-government
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r3538978.html
+  fetched: '2026-11-02'
+  quote: 同手法によるクレジット申請に関する実証事業について、江の島（NPO法人江の島・フィッシャーマンズ・プロジェクト）及び城ヶ島（三和漁業協同組合城ヶ島支所）にて本年度実施しました。
+- type: partners-with
+  to: bluearch
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r3538978.html
+  fetched: '2026-11-02'
+  quote: 県内ベンチャー企業（一般社団法人BlueArch））と連携し
+- type: partners-with
+  to: keio-university-furuya-laboratory
+  url: https://www.pref.kanagawa.jp/docs/bs5/prs/r3538978.html
+  fetched: '2026-11-02'
+  quote: 慶應義塾大学総合政策学部古谷研究室と連携し
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-02'

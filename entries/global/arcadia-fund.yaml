@@ -1,0 +1,57 @@
+id: arcadia-fund
+kind: organisation
+name: Arcadia
+also_known_as:
+- Arcadia Fund
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: gb
+scale: global
+status: active
+website: https://www.arcadiafund.org.uk
+summary: Family philanthropy founded by Lisbet Rausing and Peter Baldwin in 2002, with funding
+  areas in nature, culture and open access. It gave Plazi and the Biodiversity Literature
+  Repository EUR 1.1 million to open up data held in biodiversity publications.
+countries:
+- gb
+facts:
+- claim: Family philanthropy founded by Lisbet Rausing and Peter Baldwin in 2002, with a small
+    London-based team.
+  url: https://www.arcadiafund.org.uk/who-we-are
+  quote: Arcadia is a family philanthropy founded by Lisbet Rausing and Peter Baldwin in 2002.
+  fetched: &id001 2026-10-30
+- claim: Works on cultural heritage, conserving nature and open access to knowledge.
+  url: https://www.arcadiafund.org.uk/
+  quote: Arcadia helps people to record cultural heritage, to conserve and restore nature,
+    and to promote open access to knowledge.
+  fetched: *id001
+- claim: Wikipedia describes it as a UK-based charitable fund founded by Lisbet Rausing and
+    Peter Baldwin, established in 2002.
+  url: https://en.wikipedia.org/wiki/Arcadia_Fund
+  quote: The Arcadia Philanthropic Trust is a charitable fund based in the UK founded by Lisbet
+    Rausing and Peter Baldwin
+  fetched: '2026-10-30'
+- claim: Oryx reports that Arcadia supported the 2024 Conservation Leadership Programme team
+    awards.
+  url: https://www.cambridge.org/core/product/3397677956494594D39D3DB8719315D3/core-reader
+  quote: thanks to support from the Hempel Foundation, the March Conservation Fund, and Arcadia
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: plazi
+  amount: 1100000
+  currency: EUR
+  year: 2018
+  url: https://plazi.org/posts/arcadia-fund/
+  quote: Plazi has received a grant of EUR 1.1 million from Arcadia
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

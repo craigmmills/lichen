@@ -1,0 +1,37 @@
+id: politeknik-statistika-stis
+kind: organisation
+name: Politeknik Statistika STIS
+scope: id
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: id
+scale: national
+status: active
+summary: Statistics polytechnic in Jakarta whose Department of Statistical Computing publishes
+  on satellite machine learning for oil palm area detection.
+facts:
+- claim: Paper title.
+  url: https://api.openalex.org/works/W4293868374?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Machine Learning Approaches using Satellite Data for Oil Palm Area Detection in Pekanbaru
+    City, Riau
+- claim: Author affiliation.
+  url: https://api.openalex.org/works/W4293868374?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Politeknik Statistika STIS,Department of Statistical Computing,Jakarta,Indonesia
+- claim: OpenAlex places Politeknik Statistika STIS in Jakarta.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=Politeknik%20Statistika%20STIS
+  quote: '"display_name": "Politeknik Statistika STIS", "homepage_url": "https://stis.ac.id",
+    "geo": {"city": "Jakarta"'
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+website: https://stis.ac.id

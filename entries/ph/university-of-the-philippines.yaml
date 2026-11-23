@@ -1,0 +1,47 @@
+id: university-of-the-philippines
+kind: organisation
+name: University of the Philippines
+also_known_as:
+- UP
+scope: ph
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ph
+scale: national
+status: active
+summary: A university that runs PhilCoMaRS jointly with DENR to map coral reefs and
+  mangroves, and whose Diliman campus houses the College of Science and its Institute
+  of Environmental Science and Meteorology.
+facts:
+- claim: Runs PhilCoMaRS jointly with DENR to produce coral reef and mangrove resource
+    maps.
+  url: https://iesm.science.upd.edu.ph/predictions-for-the-environment-and-application-of-remote-sensing-pears-laboratory/
+  fetched: 2026-11-12
+  quote: PhilCoMaRS is a joint project of UP and DENR which aims to produce user-friendly
+    coral reef and mangrove resource maps which can be consulted in a regional and
+    provincial scale.
+- claim: Its Diliman campus holds the College of Science, home of the Institute of
+    Environmental Science and Meteorology.
+  url: https://iesm.science.upd.edu.ph/predictions-for-the-environment-and-application-of-remote-sensing-pears-laboratory/
+  fetched: 2026-11-12
+  quote: College of Science University of the Philippines, Diliman
+links:
+- type: runs
+  to: philippine-coral-reef-and-mangrove-remote-sensing
+  url: https://iesm.science.upd.edu.ph/predictions-for-the-environment-and-application-of-remote-sensing-pears-laboratory/
+  fetched: 2026-11-12
+  quote: PhilCoMaRS is a joint project of UP and DENR
+found_by:
+- rule:checklist-misses
+- link-from:copphil-benthic-habitat-classification-map
+added_by: agent
+checked: 2026-11-12

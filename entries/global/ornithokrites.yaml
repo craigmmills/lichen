@@ -1,0 +1,34 @@
+id: ornithokrites
+kind: project
+name: Ornithokrites
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+status: unknown
+website: https://github.com/tracek/Ornithokrites
+summary: Tool for automatically identifying kiwi calls in low-quality audio recordings,
+  classifying regions of interest in each recording with a support vector machine.
+facts:
+- claim: A tool for automatic identification of kiwi calls from low-quality audio
+    recordings.
+  url: https://github.com/tracek/Ornithokrites
+  fetched: 2026-11-21
+  quote: the program itself is a tool meant for an automatic identification of kiwi
+    calls from low quality audio recordings
+- claim: It classifies regions of interest in a recording with a support vector machine.
+  url: https://github.com/tracek/Ornithokrites
+  fetched: 2026-11-21
+  quote: a Machine Learning algorithm, that is Support Vector Machine (SVM), will
+    try to classify ROI as kiwi male, kiwi female and not a kiwi
+  ai_type: ml-supervised
+links: []
+runner: unknown
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

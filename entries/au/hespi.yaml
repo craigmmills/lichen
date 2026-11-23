@@ -1,0 +1,44 @@
+id: hespi
+kind: model
+name: Hespi
+also_known_as: []
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- other
+countries:
+- au
+scale: national
+status: active
+ai_types:
+- large-language-models
+- deep-learning
+summary: Open-source pipeline that extracts text from herbarium specimen sheets using object
+  detection, image classification and a large language model.
+facts:
+- claim: Open-source software for extracting information from herbarium specimens, say its
+    authors on AIhub.
+  url: https://aihub.org/2025/09/29/botanical-time-machines-ai-is-unlocking-a-treasure-trove-of-data-held-in-herbarium-collections/
+  fetched: '2026-10-31'
+  quote: we created Hespi – open-source software for automatically extracting information
+    from herbarium specimens.
+- claim: Combines computer vision with object detection, image classification and large language
+    models.
+  url: https://aihub.org/2025/09/29/botanical-time-machines-ai-is-unlocking-a-treasure-trove-of-data-held-in-herbarium-collections/
+  fetched: '2026-10-31'
+  quote: Hespi combines advanced computer vision techniques with AI tools such as object detection,
+    image classification and large language models.
+  ai_type: large-language-models
+- claim: Uses YOLO, described in the paper as a neural network object detection model.
+  url: https://arxiv.org/html/2410.08740v2
+  fetched: '2026-10-31'
+  quote: YOLO is a neural network object detection model
+  ai_type: deep-learning
+found_by:
+- link-from:university-of-melbourne
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

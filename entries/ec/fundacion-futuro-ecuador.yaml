@@ -1,0 +1,84 @@
+id: fundacion-futuro-ecuador
+kind: organisation
+name: Fundación Futuro (Ecuador)
+scope: ec
+sector: ngo
+roles:
+- unknown
+- governs
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+- remote-sensing
+- edna-genomics
+- other
+hq: ec
+countries:
+- ec
+scale: local
+status: active
+summary: A foundation using camera traps and recorders in Mashpi, partnering with Rainforest
+  Connection and WCS Ecuador, and reporting planned environmental DNA research with WWF-Ecuador
+  in 2022.
+facts:
+- claim: Rainforest Connection reports installing 10 Guardian devices in the Mashpi Reserve
+    canopy.
+  url: https://rfcx.org/projects/ecuador
+  fetched: 2026-11-03
+  quote: Successfully installed 10 Guardians within the tree canopy at strategic places in
+    the Mashpi Reserve
+- claim: In February 2022, Primicias reported a planned environmental DNA study by UDLA researchers
+    and WWF-Ecuador.
+  url: https://primicias.ec/noticias/tecnologia/investigadores-especies-amazonia-adn-ambiental
+  fetched: 2026-11-02
+  quote: investigadores de la Universidad de las Américas (UDLA) y la organización WWF-Ecuador
+- claim: OpenAlex lists a 2022 paper with a UDLA author on forecasting Amazon deforestation
+    with machine learning.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: Forecasting Amazon Rain-Forest Deforestation Using a Hybrid Machine Learning Model
+- claim: In June 2025, WCS Ecuador described a partnership to trial SMART and EarthRanger
+    in Mashpi-Tayra, with SMART training underway and EarthRanger training planned.
+  url: https://ecuador.wcs.org/Recursos/Noticias/articleType/ArticleView/articleId/24633/Refugio-Privado-Mashpi-Tayra-pionero-en-a
+  fetched: '2026-11-02'
+  quote: Actualmente, el equipo técnico del refugio se encuentra en proceso de capacitación
+    en el uso de SMART, y continuará con la formación en Earth Ranger en las siguientes fases.
+- claim: In February 2022, it said its research with WWF-Ecuador would contribute to environmental
+    DNA databases.
+  url: https://www.udla.edu.ec/en/noticias/udla-y-wwf-se-unen-en-una-impactante-investigacion-en-el-marco-del-dia-de-la-amazonia-ecuatoriana/
+  fetched: '2026-11-03'
+  quote: contribuirá a la generación de bases de datos de ADN ambiental
+links:
+- type: partners-with
+  to: rainforest-connection
+  url: https://rfcx.org/projects/ecuador
+  fetched: 2026-11-03
+  quote: In 2019, Rainforest Connection partnered with local on-ground partner, Fundación
+    Futuro
+- type: partners-with
+  to: rainforest-connection
+  url: https://rfcx.org/projects/ecuador
+  fetched: '2026-11-02'
+  quote: Rainforest Connection partnered with local on-ground partner, Fundación Futuro
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://ecuador.wcs.org/Recursos/Noticias/articleType/ArticleView/articleId/24633/Refugio-Privado-Mashpi-Tayra-pionero-en-a
+  fetched: '2026-11-02'
+  quote: La alianza entre Fundación Futuro y WCS Ecuador
+found_by:
+- checklist:4
+- checklist:1
+- checklist:2
+- checklist:3
+- link-from:gbif-ecuador
+- checklist:register-d
+added_by: agent
+checked: 2026-11-03
+also_known_as:
+- UDLA

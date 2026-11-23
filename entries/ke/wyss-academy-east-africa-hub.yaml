@@ -1,0 +1,43 @@
+id: wyss-academy-east-africa-hub
+kind: organisation
+name: Wyss Academy for Nature East Africa Hub
+scope: ke
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ke
+countries:
+- ke
+scale: regional
+status: active
+summary: East Africa hub of the Wyss Academy for Nature, which ran a 10-terabyte aerial survey
+  of Laikipia and Isiolo rangelands and shared the data with communities.
+facts:
+- claim: Convened a data-sharing workshop in Nanyuki in April 2026.
+  url: https://wyssacademy-website.pages.dev/en/sharing-aerial-survey-data-with-communities-in-northern-kenya
+  quote: gathered in Nanyuki for a data-sharing workshop convened by the Wyss Academy for
+    Nature East Africa Hub
+  fetched: &id001 2026-10-31
+- claim: A 2021 job advert for its director gives the location as Nanyuki, Kenya.
+  url: https://www.greatkenyanjobs.com/jobs/job-detail/job-Director-Regional-Stewardship-Hub-East-Africa,-Kenya-Job-at-The-Wyss-Academy-for-Nature-WA-Career-Opportunity-in-Kenya-42255
+  fetched: '2026-10-31'
+  quote: 'Location: Nanyuki, Kenya, with frequent regional and international travels'
+- claim: The same advert says the hub reports to the Academy's headquarters in Bern.
+  url: https://www.greatkenyanjobs.com/jobs/job-detail/job-Director-Regional-Stewardship-Hub-East-Africa,-Kenya-Job-at-The-Wyss-Academy-for-Nature-WA-Career-Opportunity-in-Kenya-42255
+  fetched: '2026-10-31'
+  quote: at the WA headquarters in Bern, Switzerland
+links:
+- type: runs
+  to: id-pes-aerial-survey
+  url: https://wyssacademy-website.pages.dev/en/sharing-aerial-survey-data-with-communities-in-northern-kenya
+  quote: a key milestone in the Wyss Academy’s ID PES project
+  fetched: *id001
+found_by:
+- checklist:4
+added_by: agent
+checked: *id001

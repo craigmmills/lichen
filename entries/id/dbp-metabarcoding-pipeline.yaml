@@ -1,0 +1,26 @@
+id: dbp-metabarcoding-pipeline
+kind: model
+name: DBP metabarcoding pipeline
+scope: id
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+countries:
+- id
+status: unknown
+summary: Integrated tool for eDNA analysis of nanopore data against an Indonesian marine fish
+  database, published from Diponegoro University in 2026.
+facts:
+- claim: An integrated tool for eDNA analysis of nanopore data using an Indonesian marine
+    fish database.
+  url: https://marineinfo.org/id/publication/437854
+  quote: 'DBP metabarcoding pipeline: An integrated tool for eDNA analysis of ONT data using
+    the Indonesian marine fish database'
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

@@ -1,0 +1,40 @@
+id: terrainworks
+kind: organisation
+name: TerrainWorks
+also_known_as:
+- TERRAINWORKS
+- INC.
+scope: us
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+hq: us
+scale: national
+status: active
+summary: Mount Shasta, California company leading TealWaters, an NSF Convergence Accelerator
+  project to map current and past wetlands and their value.
+facts:
+- claim: Awardee for TealWaters.
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'NSF Convergence Accelerator Future Water Systems: TealWaters - Mapping and modeling
+    the nation''s wetlands and their benefits to enhance water access and community resilience'
+- claim: The NSF award record gives an address in Mount Shasta, California.
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"310 N MOUNT SHASTA BLVD"'
+links:
+- type: runs
+  to: tealwaters
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: TERRAINWORKS, INC.
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'

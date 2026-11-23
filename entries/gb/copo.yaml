@@ -1,0 +1,35 @@
+id: copo
+kind: programme
+name: Collaborative OPen Omics
+also_known_as:
+- COPO
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+status: active
+website: https://www.earlham.ac.uk/news/accelerating-uk-biodiversity-research-fair-metadata
+summary: Earlham Institute data brokering platform for genomics metadata, used by Darwin Tree
+  of Life and being extended for ARIA's Accelerated Adaptation programme.
+facts:
+- claim: Earlham data brokering platform to be extended for an ARIA programme.
+  url: https://www.earlham.ac.uk/news/accelerating-uk-biodiversity-research-fair-metadata
+  quote: The project will extend and adopt Earlham Institute’s data brokering platform - Collaborative
+    OPen Omics (COPO)
+  fetched: &id001 2026-10-30
+- claim: Has delivered metadata curation for Darwin Tree of Life.
+  url: https://www.earlham.ac.uk/news/accelerating-uk-biodiversity-research-fair-metadata
+  quote: large international genomics consortia including Darwin Tree of Life
+  fetched: *id001
+links:
+- type: run-by
+  to: earlham-institute
+  url: https://www.earlham.ac.uk/news/accelerating-uk-biodiversity-research-fair-metadata
+  quote: Earlham Institute’s data brokering platform
+  fetched: *id001
+found_by:
+- checklist:2
+added_by: agent
+checked: *id001

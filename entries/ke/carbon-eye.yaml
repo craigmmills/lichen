@@ -1,0 +1,39 @@
+id: carbon-eye
+kind: model
+name: Carbon-Eye
+scope: ke
+also_known_as: []
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+website: https://carbon-eye.org/
+runner: unknown
+summary: Tool estimating above-ground biomass and carbon stock across Kenya's 47 counties
+  from satellite and environmental data with a machine-learning ensemble in Google
+  Earth Engine.
+facts:
+- claim: Estimates biomass and carbon across Kenya's 47 counties.
+  url: https://carbon-eye.org/
+  fetched: '2026-10-31'
+  quote: estimates above-ground biomass and carbon stock across Kenya's 47 counties
+    - fusing Sentinel radar and optical data, terrain, climate and soils with a machine-learning
+    ensemble in Google Earth Engine.
+- claim: Estimates are checked against held-out data.
+  url: https://carbon-eye.org/
+  fetched: '2026-10-31'
+  quote: checked against held-out data (RMSE, MAE, R²)
+links:
+- type: builds-on
+  to: google-earth-engine
+  url: https://carbon-eye.org/
+  fetched: '2026-10-31'
+  quote: with a machine-learning ensemble in Google Earth Engine.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,51 @@
+id: ktu-forest-sound-analysis-model
+kind: model
+name: KTU forest sound analysis model (CNN-BiLSTM)
+scope: lt
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- lt
+status: unknown
+summary: Model built by Kaunas University of Technology that, KTU says, combines a
+  convolutional network with a bidirectional LSTM to identify forest sounds and flag
+  anomalies, and integrates into its Forest 4.0 smart forest IoT.
+facts:
+- claim: KTU says its researchers developed a sound analysis system that identifies
+    natural forest sounds and detects anomalies that may indicate ecosystem disturbances
+    or human activity.
+  url: https://en.ktu.edu/news/ktu-scientists-develop-advanced-forest-monitoring-systems-will-forests-monitor-themselves-in-the-future/
+  fetched: 2026-11-13
+  quote: Another tool developed by the researchers is a sound analysis system that
+    can identify natural forest sounds and detect anomalies that may indicate ecosystem
+    disturbances or human activity.
+- claim: KTU says the model combines a convolutional neural network with a bidirectional
+    long short-term memory model.
+  url: https://en.ktu.edu/news/ktu-scientists-develop-advanced-forest-monitoring-systems-will-forests-monitor-themselves-in-the-future/
+  fetched: 2026-11-13
+  quote: The model, proposed by KTU RLKSC PhD student Ahmad Qurthobi, is innovative
+    in combining a convolutional neural network (CNN) with a bi-directional long short-term
+    memory (BiLSTM) model.
+  ai_type: deep-learning
+- claim: KTU says the system integrates into its Forest 4.0 smart forest IoT.
+  url: https://en.ktu.edu/news/ktu-scientists-develop-advanced-forest-monitoring-systems-will-forests-monitor-themselves-in-the-future/
+  fetched: 2026-11-13
+  quote: The sound analysis system easily integrates into the KTU developed smart
+    forest Internet of Things (IoT) – Forest 4.0.
+links:
+- type: built-by
+  to: kaunas-university-of-technology
+  url: https://en.ktu.edu/news/ktu-scientists-develop-advanced-forest-monitoring-systems-will-forests-monitor-themselves-in-the-future/
+  fetched: 2026-11-13
+  quote: Another tool developed by the researchers is a sound analysis system that
+    can identify natural forest sounds and detect anomalies that may indicate ecosystem
+    disturbances or human activity.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

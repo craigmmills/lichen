@@ -1,0 +1,44 @@
+id: science-museum-net
+kind: dataset
+name: Science Museum Net
+also_known_as:
+- S-Net
+- サイエンスミュージアムネット
+scope: jp
+ai_label: data-infrastructure
+status: active
+runner: unknown
+website: http://science-net.kahaku.go.jp/
+summary: Specimen data portal run by the National Museum of Nature and Science, which the Mycological
+  Society of Japan says offers Japanese-language search and holds fungal data from over 80 partner institutions.
+facts:
+- claim: The Mycological Society of Japan says S-Net publishes specimen data with Japanese-language search,
+    which the GBIF site lacks.
+  url: https://www.mycology-jp.org/html/gbif.html
+  fetched: '2026-11-02'
+  quote: 日本語情報を使えるようにしてデータを公開しているのが，サイエンス・ミュージアムネット（S-Net）です．
+- claim: The same page says it holds fungal data from more than 80 partner institutions across Japan.
+  url: https://www.mycology-jp.org/html/gbif.html
+  fetched: '2026-11-02'
+  quote: 80を超える日本全国の協力機関（自然史系博物館，公立の研究所や大学など）から提供された数万件の菌類データを
+- claim: A 2017 talk by a National Museum researcher describes it as a portal built with the participation
+    of Japan's natural history museums.
+  url: https://japanlinkcenter.org/rduf/doc/171106_07.pdf
+  fetched: 2026-11-02
+  quote: 日本の自然史系博物館の参加の下で
+found_by:
+- checklist:2
+- link-from:national-museum-of-nature-and-science
+added_by: agent
+checked: '2026-11-02'
+countries:
+- jp
+realms:
+- land
+- ocean
+links:
+- type: run-by
+  to: national-museum-of-nature-and-science
+  url: https://japanlinkcenter.org/rduf/doc/171106_07.pdf
+  fetched: 2026-11-02
+  quote: 国立科学博物館が運営

@@ -1,0 +1,41 @@
+id: heilongjiang-human-tiger-conflict-platform
+kind: project
+name: Heilongjiang Smart Monitoring and Early Warning Platform for Human-Tiger Conflict
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+runner: unknown
+summary: Province-wide platform in Heilongjiang integrating 8,085 camera traps, AI identification
+  of individual Amur tigers from stripes, and a three-layer warning system around villages.
+facts:
+- claim: Identifies each Amur tiger from its stripe pattern with AI-based recognition software.
+  url: https://en.nefu.edu.cn/info/1039/2962.htm
+  fetched: '2026-10-31'
+  quote: With our AI-based recognition software, individual identification can be performed
+    quickly and accurately
+- claim: Integrates 165 standardised survey units and 8,085 infrared cameras.
+  url: https://en.nefu.edu.cn/info/1039/2962.htm
+  fetched: '2026-10-31'
+  quote: integrates 165 standardized survey units and 8,085 infrared cameras
+- claim: Has 165 survey units and 8,085 infrared cameras across 32,000 square kilometres of
+    forest.
+  url: https://www.chinadaily.com.cn/a/202511/05/WS690aa747a310f215074b9069.html
+  fetched: '2026-10-31'
+  quote: a monitoring network of 165 standardized survey units and 8,085 infrared automatic
+    cameras, covering 32,000 square kilometers of forest area in the province
+links:
+- type: partners-with
+  to: northeast-forestry-university
+  url: https://en.nefu.edu.cn/info/1039/2962.htm
+  fetched: '2026-10-31'
+  quote: NEFU Contributes to the Establishment of Heilongjiang’s First Smart Monitoring and
+    Early Warning Platform for Human-Tiger Conflict
+found_by:
+- checklist:7
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

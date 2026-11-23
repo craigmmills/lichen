@@ -1,0 +1,46 @@
+id: sentinel-3-ocean-foundation-model
+kind: project
+name: Sentinel-3 ocean foundation model
+scope: gb
+runner: unknown
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://www.hartree.stfc.ac.uk/case-studies/2026/07/20/improving-marine-environmental-monitoring-with-ai/
+summary: Hartree Centre work with IBM, Plymouth Marine Laboratory and the University
+  of Exeter adapting a geospatial foundation model to Sentinel-3 ocean data.
+facts:
+- claim: Investigated how geospatial foundation models can be adapted to new satellite
+    missions.
+  url: https://www.hartree.stfc.ac.uk/case-studies/2026/07/20/improving-marine-environmental-monitoring-with-ai/
+  quote: we investigated how geospatial foundation models can be adapted to new satellite
+    missions
+  ai_type: foundation-models
+  fetched: &id001 2026-10-30
+links:
+- type: partners-with
+  to: hartree-centre
+  url: https://www.hartree.stfc.ac.uk/case-studies/2026/07/20/improving-marine-environmental-monitoring-with-ai/
+  quote: "STFC Hartree® Centre collaborated with IBM, Plymouth Marine Laboratory (PML) and the University of Exeter"
+  fetched: *id001
+- type: partners-with
+  to: plymouth-marine-laboratory
+  url: https://www.hartree.stfc.ac.uk/case-studies/2026/07/20/improving-marine-environmental-monitoring-with-ai/
+  quote: STFC Hartree® Centre collaborated with IBM, Plymouth Marine Laboratory (PML)
+    and the University of Exeter
+  fetched: *id001
+- type: partners-with
+  to: university-of-exeter
+  url: https://www.hartree.stfc.ac.uk/case-studies/2026/07/20/improving-marine-environmental-monitoring-with-ai/
+  quote: STFC Hartree® Centre collaborated with IBM, Plymouth Marine Laboratory (PML)
+    and the University of Exeter
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

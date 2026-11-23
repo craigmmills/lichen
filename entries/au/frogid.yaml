@@ -1,0 +1,90 @@
+id: frogid
+kind: programme
+name: FrogID
+scope: au
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- bioacoustics
+countries:
+- au
+status: active
+summary: National citizen science project in which people record frog calls on a smartphone,
+  with expert validation and work towards automated identification.
+facts:
+- claim: Anyone with a smartphone can record frog calls.
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: The project enables anyone with a smartphone to record frog calls as a measurement
+    of frog distribution and ecosystem health across the country.
+- claim: Atlassian volunteers worked on how to identify recordings automatically.
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: volunteer their worktime towards solving how to automatically identify FrogID
+    recordings
+- claim: Participants submit recordings of calling frogs through a smartphone application.
+  url: https://australian.museum/learn/news/blog/frogid_data_for_conservation/
+  fetched: '2026-10-31'
+  quote: FrogID collects data via a smartphone application
+- claim: Its first year gave 55,003 biodiversity records.
+  url: https://australian.museum/learn/news/blog/frogid_data_for_conservation/
+  fetched: '2026-10-31'
+  quote: accumulating to 55
+  ai_type: 003 biodiversity records
+- claim: FrogID AI uses machine learning models trained on FrogID data.
+  url: https://www.frogid.net.au/science/frogid-ai/
+  fetched: '2026-10-31'
+  quote: our AI will automatically review the submission using machine-learning (ML)
+    models trained with our FrogID data
+- claim: A national citizen science project run by the Australian Museum.
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: FrogID is a national citizen science project run by the Australian Museum.
+- claim: Earth Species Project reports that FrogID evaluated NatureLM-audio and will
+    add Frog vs. Not-a-Frog classification to pre-processing.
+  url: https://www.earthspecies.org/blog/listening-for-frogs-at-scale-how-frogid-evaluated-naturelm-audio-on-real-world-data
+  fetched: '2026-10-31'
+  quote: NatureLM-audio achieved near-perfect scores on Frog vs. Not-a-Frog classification,
+    which the FrogID team will now incorporate into their pre-processing pipeline.
+- claim: Worked with the Atlassian Foundation on automated identification.
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: The FrogID project was selected for the Atlassian Foundation Engage4Good
+    program mid-March 2022
+links:
+- type: run-by
+  to: australian-museum
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: FrogID is a national citizen science project run by the Australian Museum.
+- type: partners-with
+  to: atlassian-foundation
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: The Australian Museum collaborated with Atlassian Foundation through the
+    Engage4Good program
+- type: led-by
+  to: australian-museum
+  url: https://australian.museum/learn/news/blog/frogid_data_for_conservation/
+  fetched: '2026-10-31'
+  quote: FrogID is a national citizen science project led by the Australian Museum.
+- type: run-by
+  to: australian-museum
+  url: https://www.frogid.net.au/science/frogid-ai/
+  fetched: '2026-10-31'
+  quote: the Australian Museum’s FrogID project
+- type: uses
+  to: naturelm-audio
+  url: https://www.earthspecies.org/blog/listening-for-frogs-at-scale-how-frogid-evaluated-naturelm-audio-on-real-world-data
+  fetched: '2026-10-31'
+  quote: FrogID , the largest frog-focused citizen science project in the world, led
+    by the Australian Museum, recently evaluated NatureLM-audio for use in processing
+    and analyzing hundreds of thousands of frog recordings.
+found_by:
+- link-from:australian-museum
+- link-from:open-ecoacoustics
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

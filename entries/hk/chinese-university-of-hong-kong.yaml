@@ -1,0 +1,46 @@
+id: chinese-university-of-hong-kong
+kind: organisation
+name: The Chinese University of Hong Kong
+scope: hk
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: University that is the corresponding institution on studies from 2022 to
+  2025 covering mangrove change in the Greater Bay Area, coastal wetland bird habitat
+  and remote sensing for mangrove valuation.
+facts:
+- claim: Corresponding institution on a 2022 study interpreting mangrove habitat and
+    coastal land cover change in the Greater Bay Area from 1924 to 2020 using historical
+    aerial photos and satellite data.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I177725633,publication_year:2022-2026,primary_topic.id:T10779&per_page=20&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: Interpreting Mangrove Habitat and Coastal Land Cover Change in the Greater
+    Bay Area, Southern China, from 1924 to 2020 Using Historical Aerial Photos and
+    Multiple Sources of Satellite Data
+- claim: Corresponding institution on a 2023 study tracking the impacts of land use
+    change on a key coastal wetland for birds.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I177725633,publication_year:2022-2026,primary_topic.id:T10779&per_page=20&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: 'Rise and fall of an avian oasis: Tracking the impacts of land use change
+    in a key coastal wetland'
+- claim: Corresponding institution on a 2025 review of advances in remote sensing
+    for mangrove valuation.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I177725633,publication_year:2022-2026,primary_topic.id:T10779&per_page=20&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: 'From space to screen: Recent advances in remote sensing for mangrove valuation
+    through a bibliometric lens'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

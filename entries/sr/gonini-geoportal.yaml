@@ -1,0 +1,44 @@
+id: gonini-geoportal
+kind: dataset
+name: Gonini
+also_known_as:
+- Gonini geoportal
+scope: sr
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- sr
+status: active
+summary: Online database of geographic forest information for Suriname, launched by
+  SBB in December 2016, which hosts the mangrove occurrence map and was named in October
+  2025 as an existing mangrove monitoring platform.
+facts:
+- claim: An online database with geographic forest-related information about Suriname,
+    launched by SBB in December 2016.
+  url: https://www.surinameredd.org/en/reddplus-suriname/national-forest-monitoring-system/
+  fetched: 2026-11-12
+  quote: Since December 2016, SBB has launched a geoportal called Gonini. This is
+    an online database with geographic forest related information about Suriname.
+- claim: The REDD+ Suriname site says the mangrove occurrence map from the forest
+    inventory can be viewed on it.
+  url: https://www.surinameredd.org/en/reddplus-suriname/national-forest-monitoring-system/
+  fetched: 2026-11-12
+  quote: This card can also be viewed on the Gonini website.
+- claim: In October 2025 the SBB chairman urged workshop participants to use the existing
+    mangrove monitoring data platforms Gonini and Kopi.
+  url: https://www.undp.org/suriname/press-releases/sbb-workshop-enhance-understanding-national-mangrove-monitoring-system
+  fetched: 2026-11-12
+  quote: in which he encouraged the participants to use the existing mangrove monitoring
+    data platforms, Gonini and Kopi
+links:
+- type: built-by
+  to: foundation-for-forest-management-and-production-control
+  url: https://www.surinameredd.org/en/reddplus-suriname/national-forest-monitoring-system/
+  fetched: 2026-11-12
+  quote: Since December 2016 the SBB launched Gonini, a geoportal with Suriname's
+    forests.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

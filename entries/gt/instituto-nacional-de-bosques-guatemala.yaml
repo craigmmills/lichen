@@ -1,0 +1,110 @@
+id: instituto-nacional-de-bosques-guatemala
+kind: organisation
+name: Instituto Nacional de Bosques
+also_known_as:
+- INAB
+- National Forest Institute
+- National Institute of Forestry
+scope: gt
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gt
+countries:
+- gt
+scale: national
+status: active
+summary: Guatemala's forestry authority, which runs the forest fire monitoring system, maps fire scars
+  with Landsat 8 imagery and forest cover change, and publishes forest biodiversity data to GBIF.
+facts:
+- claim: Under the national fire management strategy INAB leads the line on knowledge and technology,
+    running the forest fire monitoring system and national statistics based on geospatial analysis.
+  url: https://www.inab.gob.gt/images/centro_descargas/boletines_investigacion/Cicatrices%20de%20fuego_Mayo_2024_DIF_MC_DG_VF.pdf
+  fetched: 2026-11-08
+  quote: implementación del Sistema de Monitoreo de
+- claim: INAB analyses and reports forest fire scars nationally and maps degraded areas and forest cover
+    change.
+  url: https://www.inab.gob.gt/images/centro_descargas/boletines_investigacion/Cicatrices%20de%20fuego_Mayo_2024_DIF_MC_DG_VF.pdf
+  fetched: 2026-11-08
+  quote: reportar las cicatrices de incendios forestales a
+- claim: Its fire scar analysis uses Landsat 8 imagery as a main input.
+  url: https://www.inab.gob.gt/images/centro_descargas/boletines_investigacion/Cicatrices%20de%20fuego_Mayo_2024_DIF_MC_DG_VF.pdf
+  fetched: 2026-11-08
+  quote: Landsat 8 como insumos primarios, con el fin de
+- claim: GBIF lists INAB as a Guatemalan data publisher.
+  url: https://api.gbif.org/v1/organization?country=GT&limit=100
+  fetched: 2026-11-08
+  quote: Instituto Nacional de Bosques
+- claim: GBIF's publisher record describes it as a state, autonomous and decentralised institution and
+    the competent authority for forestry.
+  url: https://api.gbif.org/v1/organization/cbd6dc51-44a5-4359-a2e5-8bbd10c44754
+  fetched: '2026-11-08'
+  quote: El Instituto Nacional de Bosques (INAB) es una institución estatal, autónoma y descentralizada
+- claim: GBIF's publisher record says it manages and publishes biological data on Guatemala's forest ecosystems.
+  url: https://api.gbif.org/v1/organization/cbd6dc51-44a5-4359-a2e5-8bbd10c44754
+  fetched: '2026-11-08'
+  quote: El INAB gestiona y publica datos biológicos sobre los ecosistemas forestales de Guatemala.
+- claim: It holds a forest entomology collection with data from monitoring insects of importance to forests.
+  url: https://api.gbif.org/v1/organization/cbd6dc51-44a5-4359-a2e5-8bbd10c44754
+  fetched: '2026-11-08'
+  quote: Cuenta con una Colección Entomológica Forestal que recopila datos sobre monitoreo de insectos
+    de importancia forestal.
+- claim: GBIF's publisher record gives its address in Zona 13, Guatemala City.
+  url: https://api.gbif.org/v1/organization/cbd6dc51-44a5-4359-a2e5-8bbd10c44754
+  fetched: '2026-11-08'
+  quote: 7 Av 06-80 zona 13
+- claim: Its website presents SEINEF as a system that guarantees the lawful origin of forest products
+    from registered forestry businesses, using high-security documents.
+  url: https://www.inab.gob.gt/
+  fetched: '2026-11-08'
+  quote: Garantiza el origen lícito de los productos forestales provenientes de las empresas registradas
+    del sector
+- claim: Its website lists a Forest Information System of Guatemala (SIFGUA).
+  url: https://www.inab.gob.gt/
+  fetched: '2026-11-08'
+  quote: SIFGUA - Sistema de Información Forestal de Guatemala
+- claim: Its website lists a Geo Portal SIG.
+  url: https://www.inab.gob.gt/
+  fetched: '2026-11-08'
+  quote: Geo Portal SIG
+- claim: Its GBIF publisher record describes it as a state, autonomous and decentralised institution and
+    the competent authority for forestry in the public agricultural sector.
+  url: https://api.gbif.org/v1/organization/cbd6dc51-44a5-4359-a2e5-8bbd10c44754
+  fetched: 2026-11-08
+  quote: es una institución estatal, autónoma y descentralizada
+links:
+- type: builds
+  to: sistema-integral-de-informacion-para-la-gestion-de-fuego-guatemala
+  url: https://lahora.gt/?p=968423
+  fetched: &id001 2026-11-08
+  quote: a través de la plataforma interactiva desarrollada por el Inab, en coordinación con el Consejo
+    Nacional de Áreas Protegidas (Conap) y la Coordinadora Nacional para la Reducción de Desastres (Conred).
+- type: runs
+  to: sistema-integral-de-informacion-para-la-gestion-de-fuego-guatemala
+  url: https://lahora.gt/?p=968423
+  fetched: *id001
+  quote: Sistema Integral de Información para la Gestión de Fuego en Guatemala del Instituto Nacional
+    de Bosques (Inab)
+- type: partners-with
+  to: forestry-management-and-protection-guatemala
+  url: https://www.gov.uk/government/news/inab-and-the-uk-space-agency-sign-agreement-to-protect-guatemalas-forests
+  fetched: '2026-11-08'
+  quote: Guatemala’s National Institute of Forestry (INAB) signed the agreement to implement a system
+    of Forestry Management and Protection (FMAP).
+- type: partners-with
+  to: sistema-nacional-de-monitoreo-forestal-guatemala
+  url: https://www.fao.org/gfoi/news-and-events/news/news-detail/guatemala-leads-the-way-in-institutionalizing-its-national-forest-monitoring-system/en
+  fetched: '2026-11-08'
+  quote: the National Forest Institute (INAB) and other supporting partners
+found_by:
+- checklist:2
+- link-from:international-partnership-programme
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,58 @@
+id: trailguard-ai
+kind: project
+name: TrailGuard AI
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Anti-poaching camera that identifies people and vehicles entering nature
+  reserves and alerts rangers, developed by RESOLVE with Intel, the National Geographic
+  Society and the Leonardo DiCaprio Foundation. Current status not checked.
+facts:
+- claim: Alerts rangers when it spots unknown persons or vehicles entering a reserve.
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: &id001 2026-10-30
+  quote: When TrailGuard spots unknown persons or vehicles entering a nature reserve,
+    it immediately alerts nearby rangers
+- claim: TrailGuard AI relies on convolutional neural networks.
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: 2026-10-30
+  quote: convolutional neural networks
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: resolve
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: *id001
+  quote: TrailGuard AI was developed by the non-profit sustainability organization
+    Resolve in conjunction with tech giant Intel
+- type: partners-with
+  to: intel
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: *id001
+  quote: TrailGuard AI was developed by the non-profit sustainability organization
+    Resolve in conjunction with tech giant Intel , the National Geographic Society,
+    the Leonardo DiCaprio Foundation and others.
+- type: partners-with
+  to: national-geographic-society
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: *id001
+  quote: TrailGuard AI was developed by the non-profit sustainability organization
+    Resolve in conjunction with tech giant Intel , the National Geographic Society,
+    the Leonardo DiCaprio Foundation and others.
+- type: partners-with
+  to: leonardo-dicaprio-foundation
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: *id001
+  quote: the National Geographic Society, the Leonardo DiCaprio Foundation and others
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001
+also_known_as:
+- Trailguard

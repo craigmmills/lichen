@@ -1,0 +1,55 @@
+id: instituto-gulich
+kind: organisation
+name: Instituto de Altos Estudios Espaciales Mario Gulich
+also_known_as:
+- Instituto Gulich
+- IG
+scope: ar
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ar
+scale: national
+status: active
+summary: Space studies institute created by CONAE and the Universidad Nacional de Córdoba,
+  whose 2020 report lists research in machine learning, computer vision and data fusion, including
+  vessel detection and wetland monitoring.
+facts:
+- claim: Its 2020 report says it was created by CONAE and Universidad Nacional de Córdoba.
+  url: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2021/04/informe-2020.pdf
+  quote: Creado por la Comisión Nacional de Actividades Espaciales (CONAE) y la Universidad
+    Nacional de Córdoba (UNC)
+  fetched: '2026-11-03'
+- claim: The 2020 report lists research areas including machine learning (AI and neural networks),
+    computer vision and data fusion.
+  url: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2021/04/informe-2020.pdf
+  quote: aprendizaje automática (IA y RN), optimización, visión por computadoras, fusión de
+    datos
+  fetched: '2026-11-03'
+- claim: The report lists topics including detection and tracking of vessels at sea from satellite
+    images and monitoring of wetlands in tropical and subtropical environments.
+  url: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2021/04/informe-2020.pdf
+  quote: monitoreo de humedales en ambientes tropicales y subtropicales
+  fetched: '2026-11-03'
+- claim: OpenAlex lists a 2024 paper co-authored by an Instituto Gulich author on a deep learning
+    urban growth model for Córdoba from multispectral satellite data.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ar,concepts.id:C108583219,concepts.id:C18903297|C130217890|C62649853,from_publication_date:2020-01-01&sort=cited_by_count:desc&per_page=40&select=id,doi,title,publication_year,authorships
+  quote: A Novel Deep Learning Prospective Urban Growth Model Applied to Multispectral Satellite
+    Data over the City of C
+  fetched: '2026-11-03'
+  ai_type: deep-learning
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'

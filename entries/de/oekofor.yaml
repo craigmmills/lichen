@@ -1,0 +1,46 @@
+id: oekofor
+kind: organisation
+name: OekoFor
+also_known_as:
+- Ökofor
+scope: de
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning
+hq: unknown
+countries: []
+scale: national
+status: active
+website: https://www.oekofor.de/en/portfolio/ecopi-bird_en/
+summary: Maker of the ecoPi:Bird automated acoustic recorder for bird monitoring, with a neural
+  network being developed to recognise target species.
+facts:
+- claim: The ecoPi:Bird records bird song and calls automatically with its own power supply.
+  url: https://www.oekofor.de/en/portfolio/ecopi-bird_en/
+  fetched: '2026-10-31'
+  quote: The ecoPi:Bird is a device for automated acoustic recordings of bird songs and calls,
+    with a self-sufficient power supply
+- claim: Says it is developing a neural network to recognise target bird species.
+  url: https://www.oekofor.de/en/portfolio/ecopi-bird_en/
+  fetched: '2026-10-31'
+  quote: For this purpose we are developing a neuronal network, which recognises the vocalisations
+    of target bird species from the recorded data
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: federal-agency-for-nature-conservation
+  url: https://www.oekofor.de/en/portfolio/ecopi-bird_en/
+  fetched: '2026-10-31'
+  quote: was developed and implemented within the framework of the project “Windenergie im
+    Wald II” (Wind energy in forests II) of the Federal Agency for Nature Conservation
+found_by:
+- link-from:queue-de
+added_by: agent
+checked: '2026-10-31'

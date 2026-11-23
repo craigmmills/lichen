@@ -1,0 +1,49 @@
+id: carte-de-changement-du-couvert-forestier-republique-du-congo-2000-2012
+kind: dataset
+name: Carte de changement du couvert forestier en République du Congo 2000-2012
+scope: cg
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cg
+scale: national
+status: unknown
+summary: Forest cover change map for the Republic of the Congo, 2000 to 2012, built by CNIAF from FACET,
+  GAF and Global Forest Change data as a base for REDD+.
+facts:
+- claim: The map combines three existing products, FACET, GAF and Global Forest Change, to meet the national
+    forest definition of 30% tree cover and 0.5 hectare minimum mapping unit.
+  url: https://un-redd.org/sites/default/files/2021-10/REDD_Rapport_final_cartographie_Septembre2015%20%28956380%29.pdf
+  fetched: 2026-11-08
+  quote: It builds on 3 existing products, which are combined to  comply with the national forest definition
+    (30% tree cover, 0.5 hectare MMU).
+- claim: The report says the map was made as a base for the REDD+ process, including the forest reference
+    emission level and the national land allocation plan.
+  url: https://un-redd.org/sites/default/files/2021-10/REDD_Rapport_final_cartographie_Septembre2015%20%28956380%29.pdf
+  fetched: 2026-11-08
+  quote: pour le calcul du Niveau des Emissions de Référence pour les Forêts (NERF), le plan national
+    d’affectation des terres (PNAT)
+links:
+- type: built-by
+  to: centre-national-dinventaire-et-damenagement-des-ressources-forestieres-et-fauniques
+  url: https://un-redd.org/sites/default/files/2021-10/REDD_Rapport_final_cartographie_Septembre2015%20%28956380%29.pdf
+  fetched: 2026-11-08
+  quote: a été réalisée par le Centre National d’Inventaire et d’Aménagement des Ressources Forestières
+    et Fauniques (CNIAF) avec l’assistance technique de la FAO à travers le Programme ONU -REDD.
+- type: builds-on
+  to: global-forest-change
+  url: https://un-redd.org/sites/default/files/2021-10/REDD_Rapport_final_cartographie_Septembre2015%20%28956380%29.pdf
+  fetched: 2026-11-08
+  quote: GFC (résolution 30m, pertes annuelles de couverture arborée, Hansen et al., 2013).
+- type: partners-with
+  to: un-redd-programme
+  url: https://un-redd.org/sites/default/files/2021-10/REDD_Rapport_final_cartographie_Septembre2015%20%28956380%29.pdf
+  fetched: 2026-11-08
+  quote: in collaboration with FAO technical assistance through the UN -REDD Programme
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

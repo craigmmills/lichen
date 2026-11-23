@@ -1,0 +1,61 @@
+id: centro-de-informacion-de-recursos-naturales
+kind: organisation
+name: Centro de Información de Recursos Naturales
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: cl
+status: active
+summary: An organisation that provides information on Chile's natural resources and satellite
+  and aerial imagery analysis, uses Sentinel-2, and in October 2026 was reported to be working
+  on forest change detection.
+website: https://www.ciren.cl/
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+also_known_as:
+- CIREN
+countries:
+- cl
+facts:
+- claim: Says it generates, manages and makes available information on the natural and productive
+    resources of Chile.
+  url: https://www.ciren.cl/
+  fetched: '2026-11-02'
+  quote: genera, gestiona y pone a disposición información sobre los recursos naturales y
+    productivos de Chile
+- claim: Offers processing and analysis of satellite and aerial imagery.
+  url: https://www.ciren.cl/
+  fetched: '2026-11-02'
+  quote: cuenta con capacidades e infraestructura especializada para procesar y analizar imágenes
+    satelitales, aéreas y de otras fuentes
+- claim: Its home page gives an address in Providencia, Santiago.
+  url: https://www.ciren.cl/
+  fetched: '2026-11-02'
+  quote: Avenida Manuel Montt 1164,
+- claim: In October 2026, its technology manager said it was working on detecting forest change
+    with Sentinel-2 and NISAR imagery.
+  url: https://www.ciren.cl/noticia?id=25121
+  fetched: '2026-11-02'
+  quote: presentar diversas tecnologías para detectar cambios en el bosque usando imágenes
+    libres de Sentinel-2 y Nisar, que son innovaciones en las que estamos trabajando actualmente
+- claim: One of the three bodies that carry out SIMEF.
+  url: https://simef.minagri.gob.cl/que-es-simef
+  fetched: '2026-11-02'
+  quote: el Centro de Información de Recursos Naturales (CIREN)
+links:
+- type: uses
+  to: sentinel-2
+  url: https://www.ciren.cl/noticia?id=25121
+  fetched: '2026-11-02'
+  quote: detectar cambios en el bosque usando imágenes libres de Sentinel-2 y Nisar
+found_by:
+- link-from:queue
+- checklist:2
+scope: cl
+added_by: agent
+checked: '2026-11-02'

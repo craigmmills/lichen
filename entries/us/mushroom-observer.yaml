@@ -1,0 +1,27 @@
+id: mushroom-observer
+kind: programme
+name: Mushroom Observer
+scope: us
+ai_label: conservation-tech
+realms:
+- land
+status: active
+website: https://mushroomobserver.org
+runner: unknown
+summary: Website run by Mushroom Observer, Inc. for recording mushroom observations
+  and getting help identifying them, published as an open dataset through GBIF.
+facts:
+- claim: Website to record observations about mushrooms. Read through GBIF because
+    the site refuses robots.
+  url: https://api.gbif.org/v1/organization/b873c239-a68e-4133-ae0b-0c534101f7b5
+  fetched: '2026-10-30'
+  quote: Provide a website to record observations about mushrooms
+- claim: Purpose as stated in its GBIF dataset.
+  url: https://api.gbif.org/v1/organization/b873c239-a68e-4133-ae0b-0c534101f7b5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: The purpose of Mushroom Observer is to record observations about mushrooms
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

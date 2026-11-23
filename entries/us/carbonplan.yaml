@@ -1,0 +1,49 @@
+id: carbonplan
+kind: organisation
+name: CarbonPlan
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: national
+status: active
+website: https://carbonplan.org
+summary: A Californian non-profit offering open climate tools and data, it has an
+  open-source near-real-time satellite fire pipeline and reported in August 2023 on
+  monitoring wildfires in California’s forest offsets.
+facts:
+- claim: Is a registered nonprofit in California.
+  url: https://carbonplan.org
+  fetched: 2026-11-22
+  quote: CarbonPlan is a registered nonprofit public benefit corporation in California
+    with 501(c)(3) status.
+- claim: Says it improves the transparency of climate solutions with open data and
+    tools.
+  url: https://carbonplan.org
+  fetched: 2026-11-22
+  quote: Improving the transparency and scientific integrity of climate solutions
+    with open data and tools
+- claim: Reported in August 2023 that it had monitored wildfires within forest carbon
+    offset projects enrolled in California's offsets programme over the preceding
+    three fire seasons.
+  url: https://carbonplan.org/blog/forest-offsets-firms
+  fetched: 2026-11-22
+  quote: we have monitored wildfires that burn within forest carbon offsets projects
+    enrolled under California
+- claim: Built an open source pipeline for near real-time satellite fire data for
+    its forest offsets monitoring tool.
+  url: https://carbonplan.org/blog/forest-offsets-firms
+  fetched: 2026-11-22
+  quote: We created an open source pipeline for generating a cloud-optimized version
+    of the near real-time thermal anomaly data from the NASA-sponsored Fire Information
+    for Resource Management System (FIRMS).
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

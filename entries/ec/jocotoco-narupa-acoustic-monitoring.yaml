@@ -1,0 +1,43 @@
+id: jocotoco-narupa-acoustic-monitoring
+kind: project
+name: Jocotoco smart acoustic monitors at Narupa
+scope: ec
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ec
+status: active
+summary: A Fundación Jocotoco project that, Mongabay Latam reports, has had smart acoustic monitors installed
+  at Narupa since October 2025, each with an internal computer running trained AI models.
+facts:
+- claim: Mongabay Latam reports that smart acoustic monitors processing sound in real time have been installed
+    at Narupa since October 2025.
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  quote: Se trata de una reserva protegida privada de la Amazonía ecuatoriana en la que se vienen instalando,
+    desde octubre de 2025, monitores acústicos inteligentes que procesan sonidos en tiempo real
+  fetched: '2026-11-02'
+- claim: Each unit has an internal computer that runs the trained AI models.
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  quote: consta de una computadora interna llamada Rapsberry5, en la que corren nuestros modelos de IA
+    ya entrenados
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: fundacion-jocotoco
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  quote: Este es uno de los resultados del trabajo de monitoreo de Fundación Jocotoco con la IA.
+  fetched: '2026-11-02'
+- type: built-by
+  to: fundacion-jocotoco
+  url: https://es.mongabay.com/2026/05/comunidades-kichwa-protegen-territorio-ia-entrenada-miles-sonidos-amazonia-ecuatoriana/
+  quote: Un grupo de científicos de la organización Jocotoco entrena una herramienta con inteligencia
+    artificial
+  fetched: '2026-11-02'
+found_by:
+- checklist:register-d
+- link-from:fundacion-de-conservacion-jocotoco
+added_by: agent
+checked: '2026-11-02'

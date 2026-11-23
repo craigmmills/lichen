@@ -1,0 +1,42 @@
+id: finnish-breeding-bird-atlas
+kind: programme
+name: Finnish Breeding Bird Atlas
+also_known_as:
+- Lintuatlas
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: closed
+runner: unknown
+summary: Closed fourth Finnish bird atlas (2022–2025) that aimed to record bird distribution
+  and breeding certainty across 3,859 ten-kilometre squares, taking observations through
+  the Finnish Biodiversity Information Facility's and BirdLife Finland's services.
+facts:
+- claim: The fourth Bird Atlas in Finland (2022–2025) aimed to provide up-to-date
+    information on bird distribution and breeding certainty in 10 km by 10 km atlas
+    squares.
+  url: https://lintuatlas.fi/bird-atlas/
+  fetched: '2026-11-08'
+  quote: The Breeding Bird Atlas aims to provide up-to-date information on the distribution
+    and certainty of breeding of bird species in Finland.
+- claim: There are 3,859 atlas squares.
+  url: https://lintuatlas.fi/bird-atlas/
+  fetched: '2026-11-08'
+  quote: There are 3,859 atlas squares in total
+- claim: The 2022–2025 atlas accepted observations through the Finnish Biodiversity
+    Information Facility's Notebook services and BirdLife Finland's Tiira service.
+  url: https://lintuatlas.fi/bird-atlas/
+  fetched: '2026-11-08'
+  quote: Finnish Biodiversity Info Facility’s Notebook observation services
+links:
+- type: uses
+  to: finnish-biodiversity-information-facility
+  url: https://lintuatlas.fi/bird-atlas/
+  fetched: '2026-11-08'
+  quote: Finnish Biodiversity Info Facility’s Notebook observation services
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

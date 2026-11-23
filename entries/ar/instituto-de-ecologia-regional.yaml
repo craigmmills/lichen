@@ -1,0 +1,84 @@
+id: instituto-de-ecologia-regional
+kind: organisation
+name: Instituto de Ecología Regional
+also_known_as:
+- IER
+scope: ar
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+hq: ar
+countries:
+- ar
+scale: local
+status: active
+summary: Research institute of the Universidad Nacional de Tucumán and CONICET that reported
+  testing AMI camera traps for moth monitoring in SABIOMA in May 2023.
+facts:
+- claim: The Red de Bosques Andinos lists it among its associated institutions, in Argentina.
+  url: https://redbosques.condesan.org/instituciones-asociadas/
+  fetched: '2026-11-03'
+  quote: Instituto de Ecología Regional Argentina
+- claim: The network's steering committee includes Cecilia Blundo of IER, Tucumán.
+  url: https://redbosques.condesan.org/la-red/
+  fetched: '2026-11-03'
+  quote: 'Actualmente está constituido por: Cecilia Blundo (IER, Tucumán, Argentina)'
+- claim: The network promotes long-term research sites through installing and monitoring permanent
+    forest plots in the Andes.
+  url: https://redbosques.condesan.org/la-red/
+  fetched: '2026-11-03'
+  quote: Promover el establecimiento de sitios de investigación a largo plazo a través de
+    la instalación y monitoreo de parcelas forestales permanentes en los Andes.
+- claim: In May 2023, reported testing AMI camera traps for moth monitoring in SABIOMA, with
+    bird recorders planned; the local insect recognition software still needed training.
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: En el proyecto SABIOMA estamos implementando el uso de trampas camara para monitorear
+    mariposas nocturas y grabadores para aves.
+- claim: A research institute of the Universidad Nacional de Tucumán and CONICET.
+  url: https://ier.conicet.gov.ar/
+  fetched: 2026-11-03
+  quote: Instituto de Ecología Regional (Universidad Nacional de Tucumán-Consejo Nacional
+    de Investigaciones Científicas y Técnicas)
+- claim: Its researchers developed the InBioAgro monitoring protocol for north-west Argentina.
+  url: https://ier.conicet.gov.ar/inbioagro/
+  fetched: 2026-11-03
+  quote: Los/las investigadores/as del IER desarrollaron específicamente el protocolo de monitoreo
+    para la región NOA.
+- claim: GBIF's registry says it derives from the Laboratorio de Investigaciones Ecológicas
+    de las Yungas, created in 1992.
+  url: https://api.gbif.org/v1/organization/e1208556-b4e7-42f7-8378-1ce9bd67850a
+  fetched: 2026-11-03
+  quote: Deriva del Laboratorio de Investigaciones Ecológicas de las Yungas (LIEY) creado
+    en el año 1992
+links:
+- type: partners-with
+  to: red-de-bosques-andinos
+  url: https://redbosques.condesan.org/instituciones-asociadas/
+  fetched: '2026-11-03'
+  quote: Instituto de Ecología Regional Argentina
+- type: partners-with
+  to: sabioma
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: En el proyecto SABIOMA estamos implementando el uso de trampas camara para monitorear
+    mariposas nocturas y grabadores para aves.
+- type: uses
+  to: ami-system
+  url: https://ier.conicet.gov.ar/monitoreos-automatizados-de-biodiversidad/
+  fetched: 2026-11-03
+  quote: con quienes estuvimos poniendo a prueba las AMI-traps (Autonomous Monitoring of Insects)
+found_by:
+- link-from:red-de-bosques-andinos
+- checklist:3
+- register:gbif-publisher
+- link-from:inbioagro
+added_by: agent
+checked: '2026-11-03'
+techniques:
+- computer-vision
+- bioacoustics

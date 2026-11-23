@@ -1,0 +1,65 @@
+id: ai-for-the-belize-national-marine-habitat-map
+kind: project
+name: AI for the Belize National Marine Habitat Map
+scope: bz
+ai_label: ai
+ai_types:
+- ml-supervised
+- ml-unsupervised
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- bz
+status: unknown
+summary: Project run by the Coastal Zone Management Authority and Institute, funded by Microsoft, that
+  updated the 1997 national marine habitat map using machine learning and satellite imagery, covering
+  20,538 square kilometres.
+facts:
+- claim: The project updated the 1997 Landsat-based National Marine Habitat Map using cloud computing,
+    field surveys, satellite imagery and machine learning.
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  quote: Belize’s 1997 30m Landsat-based National Marine Habitat Map was updated, using a combination
+    of Microsoft Azure’s cloud computing power in conjunction with field surveys
+- claim: Supervised classifiers tested included Random Forest and Support Vector Machines.
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  ai_type: ml-supervised
+  quote: (iii) Random Forest (with 5 different iterations based on the number of ‘trees’) & (iv) Support
+    Vector Machines (SVM)
+- claim: ISODATA unsupervised classifications were also run.
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  ai_type: ml-unsupervised
+  quote: in addition to ISODATA unsupervised classifications
+- claim: The dataset covers 20,538 square kilometres including all of Belize's territorial sea.
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  quote: The geographic domain includes a 20,538 km 2 area including all of Belize’s territorial sea
+- claim: The project was carried out in the framework of a GEO BON solicitation.
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  quote: in the framework of a solicitation from the Group on Earth Observations’ Biodiversity Observation
+    Network (GEO BON)
+links:
+- type: run-by
+  to: coastal-zone-management-authority-and-institute
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  quote: the Coastal Zone Management Authority & Institute – the project’s implementing agency
+- type: funded-by
+  to: microsoft
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  quote: The collection of this data was funded by Microsoft
+- type: partners-with
+  to: grh-consulting
+  url: https://coastalzonebelize.org/?p=9546
+  fetched: 2026-11-09
+  quote: supported by GRH Consulting Ltd., has been implementing the
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,31 @@
+id: untdf-camera-trap-fauna-classification
+kind: project
+name: AI multi-class fauna classification for camera-trap photos (Tierra del Fuego)
+scope: ar
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ar
+scale: local
+status: unknown
+summary: Tierra del Fuego work on AI multi-class fauna classification in camera-trap photos, known from
+  a 2025 preprint listed in OpenAlex, one co-author of which is affiliated with CADIC-CONICET in Ushuaia.
+facts:
+- claim: OpenAlex lists a 2025 preprint, 'Inteligencia artificial para la multi-clasificación de fauna
+    en fotografías automáticas utilizadas en investigación científica', with arXiv DOI 10.48550/arxiv.2502.04064.
+  url: https://api.openalex.org/works/W4407245216?select=id,title,doi,publication_year,authorships
+  quote: https://doi.org/10.48550/arxiv.2502.04064
+  fetched: '2026-11-03'
+- claim: One co-author gives an affiliation at CADIC-CONICET, Ushuaia.
+  url: https://api.openalex.org/works/W4407245216?select=id,title,doi,publication_year,authorships
+  quote: CADIC - CONICET Ushuaia , Tierra del Fuego
+  fetched: '2026-11-03'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+runner: unknown

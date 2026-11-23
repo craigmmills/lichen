@@ -1,0 +1,38 @@
+id: egerton-university
+kind: organisation
+name: Egerton University
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ke
+website: https://www.egerton.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university with an author using geospatial and machine learning methods to
+  simulate ecosystem services.
+facts:
+- claim: An author there used geospatial and machine learning technologies on ecosystem services.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Harnessing geospatial and machine learning technologies to simulate ecosystem services
+  fetched: &id001 2026-10-31
+- claim: Its Faculty of Science gives P.O. Box 536-20115, Egerton.
+  url: https://fos.egerton.ac.ke/contact-us
+  fetched: '2026-10-31'
+  quote: P.o Box 536-20115, Egerton KE
+- claim: Says its main campus is in Njoro.
+  url: https://www.egerton.ac.ke/about-us
+  fetched: '2026-10-31'
+  quote: Egerton University has two campuses, Main Campus in Njoro and Nakuru Town Campus
+    College.
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

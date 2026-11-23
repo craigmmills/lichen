@@ -1,0 +1,41 @@
+id: barcode-uk
+kind: dataset
+name: Barcode UK
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+countries:
+- gb
+status: active
+summary: DNA barcode reference collection for the native flowering plants and conifers of
+  the UK, kept by the National Botanic Garden of Wales. Its Welsh barcodes are open to researchers
+  through the Barcode of Life Database.
+facts:
+- claim: Covers 1,473 native species with 6,100 plants sampled.
+  url: https://botanicgarden.wales/science/saving-plants-and-fungi/dna-barcoding/
+  quote: now covers 1,473 native flowering plant and conifer species of the UK, with 6,100
+    individual plants sampled
+  fetched: '2026-10-31'
+- claim: The Welsh barcoding work is freely available through the Barcode of Life Database.
+  url: https://botanicgarden.wales/science/saving-plants-and-fungi/dna-barcoding/
+  quote: freely available to all researchers via the Barcode of Life Database
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: national-botanic-garden-of-wales
+  url: https://botanicgarden.wales/science/saving-plants-and-fungi/dna-barcoding/
+  quote: Our Barcode UK collection now covers 1,473 native flowering plant and conifer species
+    of the UK
+  fetched: '2026-10-31'
+- type: builds-on
+  to: barcode-of-life-data-systems
+  url: https://botanicgarden.wales/science/saving-plants-and-fungi/dna-barcoding/
+  quote: freely available to all researchers via the Barcode of Life Database
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

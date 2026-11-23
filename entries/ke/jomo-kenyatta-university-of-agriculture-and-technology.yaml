@@ -1,0 +1,44 @@
+id: jomo-kenyatta-university-of-agriculture-and-technology
+kind: organisation
+name: Jomo Kenyatta University of Agriculture and Technology
+also_known_as:
+- JKUAT
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ke
+website: https://www.jkuat.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university whose authors use machine learning and geospatial data to predict
+  forest cover change and carbon stocks.
+facts:
+- claim: An author there integrated machine learning and geospatial technologies for forest
+    cover change.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Integration of machine learning and geospatial technologies for predicting forest
+    cover change
+  fetched: &id001 2026-10-31
+- claim: Authors there mapped forest carbon in the Mau Forest Complex.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Estimating and Mapping Forest Carbon Sequestration in the Mau Forest Complex Using
+    Sentinel-2 Remote Sensing
+  fetched: *id001
+- claim: Its SIEAL lab gives its Department of Geomatic Engineering and Geospatial Information
+    Systems in Nairobi, Kenya.
+  url: https://sieal.org/
+  fetched: '2026-10-31'
+  quote: Department of Geomatic Engineering & Geospatial Information Systems, JKUAT — Nairobi,
+    Kenya
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

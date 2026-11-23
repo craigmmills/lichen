@@ -1,0 +1,29 @@
+id: iastracker
+kind: programme
+name: IAS Tracker
+scope: es
+ai_label: conservation-tech
+status: unknown
+also_known_as:
+- IASTracker
+realms:
+- land
+summary: Crowdsourced project with a geoportal and mobile app for reporting locations
+  of invasive alien species.
+facts:
+- claim: A crowdsourced project made up of a geoportal and a mobile app for submitting
+    observations of invasive alien species.
+  url: https://api.gbif.org/v1/organization/c809c047-2f7f-4da4-a284-35d2e7d44c36/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: This crowdsourced project consist in the Geoportal IASTracker
+links:
+- type: run-by
+  to: ic5team
+  url: https://api.gbif.org/v1/organization/c809c047-2f7f-4da4-a284-35d2e7d44c36
+  fetched: '2026-10-31'
+  quote: IC5Team has developed IAS Tracker project
+found_by:
+- register:es
+- link-from:ic5team
+added_by: agent
+checked: '2026-10-31'

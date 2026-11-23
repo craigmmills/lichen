@@ -1,0 +1,34 @@
+id: arri-ghost-gear-detection-model
+kind: model
+name: ARRI ghost gear detection model
+also_known_as: []
+scope: th
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+- remote-sensing
+scale: local
+status: active
+summary: An AI program built by the Aerial Recon & Recovery Initiative to identify
+  ghost gear in drone images, as reported by Thai Union.
+countries: []
+facts:
+- claim: Thai Union reports that drone images are processed by an AI program developed
+    by ARRI and trained to identify ghost gear.
+  url: https://www.thaiunion.com/newsroom/sustainability-and-csr/thai-union-strengthens-global-ocean-plastics-efforts-with-new-drone-and-ai-partnership-targeting-gho
+  fetched: 2026-11-12
+  quote: These are processed using an AI program developed by ARRI and trained specifically
+    to identify ghost gear
+links:
+- type: built-by
+  to: aerial-recon-and-recovery-initiative
+  url: https://www.thaiunion.com/newsroom/sustainability-and-csr/thai-union-strengthens-global-ocean-plastics-efforts-with-new-drone-and-ai-partnership-targeting-gho
+  fetched: 2026-11-12
+  quote: These are processed using an AI program developed by ARRI and trained specifically
+    to identify ghost gear
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

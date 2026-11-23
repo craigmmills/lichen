@@ -1,0 +1,73 @@
+id: development-seed
+kind: organisation
+name: Development Seed
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- large-language-models
+- agentic-ai
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+countries:
+- pt
+scale: global
+status: active
+website: https://developmentseed.org
+summary: Engineering and product company that applies earth data, cloud computing and geospatial
+  AI, including work with Land & Carbon Lab.
+facts:
+- claim: Describes itself as an engineering and product company using earth data, cloud computing
+    and geospatial AI.
+  url: https://www.developmentseed.org/company
+  quote: Development Seed is an engineering and product company that is accelerating the application
+    of earth data
+  fetched: '2026-10-30'
+- claim: Gives a Washington DC mailing address and an office in Lisbon.
+  url: https://developmentseed.org/contact/
+  quote: Washington, DC - Mailing Address
+  fetched: '2026-10-30'
+- claim: Development Seed builds on large language models.
+  url: https://developmentseed.org/projects/global-nature-watch/
+  fetched: '2026-10-30'
+  quote: backed by high-throughput Large Language Models from Google and Anthropic
+  ai_type: large-language-models
+- claim: Development Seed builds agentic systems.
+  url: https://developmentseed.org/projects/global-nature-watch/
+  fetched: '2026-10-30'
+  quote: Agentic systems built using LangChain platform
+  ai_type: agentic-ai
+- claim: 2i2c describes it as a data and software engineering company using satellite imagery,
+    machine learning and open data.
+  url: https://2i2c.org/collaborators/devseed/
+  quote: Development Seed is a data and software engineering company that specializes in using
+    satellite imagery, machine learning, and open data.
+  fetched: '2026-10-30'
+- claim: Development Seed says it uses embeddings learned by geospatial foundation models.
+  url: https://developmentseed.org/blog/2026-10-02-earth-embeddings/
+  fetched: '2026-10-31'
+  quote: Embeddings are one way we make use of the rich representations learned by geospatial
+    foundation models
+  ai_type: foundation-models
+links:
+- type: partners-with
+  to: land-and-carbon-lab
+  url: https://developmentseed.org/projects/global-nature-watch/
+  quote: Client With Land & Carbon Lab
+  fetched: '2026-10-30'
+- type: partners-with
+  to: microsoft
+  url: https://www.microsoft.com/en-us/research/project/land-cover-mapping/news-and-awards/?lang=zh-cn
+  quote: Development Seed and Microsoft AI for Earth are launching PEARL, an AI-accelerated
+    platform for fast land cover mapping
+  fetched: '2026-10-30'
+found_by:
+- global:nature-tech-companies
+added_by: agent
+checked: '2026-10-30'

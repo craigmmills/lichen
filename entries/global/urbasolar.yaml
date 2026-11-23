@@ -1,0 +1,38 @@
+id: urbasolar
+kind: organisation
+name: Urbasolar
+scope: global
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: fr
+scale: regional
+status: active
+website: https://www.urbasolar.com
+summary: Solar developer, part of the Axpo Group, that runs an internal chatbot over the biodiversity
+  reports for its solar sites.
+countries:
+- ch
+- fr
+facts:
+- claim: Founded in 2006 and part of the Axpo Group since 2019, with more than 750 solar plants
+    in operation, by Microsoft's account.
+  url: https://news.microsoft.com/source/emea/features/ki-zum-schutz-der-artenvielfalt-wie-urbasolar-eine-nachhaltige-solarentwicklung-unterstuetzt/?lang=gs
+  fetched: &id001 2026-10-30
+  quote: Urbasolar wurde 2006 gegründet, ist seit 2019 Teil der Axpo Group
+- claim: The solar division of the Swiss energy company Axpo, which it joined in 2019.
+  url: https://www.urbasolar.com/group/
+  fetched: 2026-10-30
+  quote: As the solar division of the Swiss energy company Axpo, which we joined in 2019
+- claim: Gives its address in Montpellier.
+  url: https://www.urbasolar.com/contact-us/
+  fetched: 2026-10-30
+  quote: Based in Montpellier, we have a local presence throughout France
+links: []
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

@@ -1,0 +1,35 @@
+id: ornitho-de
+kind: dataset
+name: ornitho.de
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://www.ornitho.de
+summary: Internet portal for bird observation and population surveys in Germany, whose
+  verified records go to scientific evaluation and nature conservation.
+facts:
+- claim: The internet portal for bird watching and population surveys in Germany and
+    Luxembourg.
+  url: https://www.ornitho.de/
+  quote: is the internet portal for bird watching and population surveys in Germany
+    and Luxembourg.
+  fetched: '2026-10-31'
+- claim: The DDA's page describes monitoring with ornitho.de.
+  url: https://www.dda-web.de/ornitho/info
+  fetched: '2026-10-31'
+  quote: Monitoring mit ornitho.de
+links:
+- type: run-by
+  to: dachverband-deutscher-avifaunisten
+  url: https://www.ornitho.de/
+  quote: It is run by the Dachverband Deutscher Avifaunisten (DDA) e.V. (Federation
+    of German Avifaunists)
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'
+countries:
+- de

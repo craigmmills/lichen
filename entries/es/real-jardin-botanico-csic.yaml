@@ -1,0 +1,67 @@
+id: real-jardin-botanico-csic
+kind: organisation
+name: Real Jardín Botánico
+scope: es
+also_known_as:
+- RJB-CSIC
+- Royal Botanical Garden of Madrid
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: es
+scale: national
+status: active
+website: https://rjb.csic.es/
+summary: CSIC botanical garden and research institute in Madrid, with the MA herbarium. Its
+  Mycology Department is a partner in the FunDive project.
+facts:
+- claim: Partner in FunDive through its Mycology Department.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-10-31'
+  quote: Mycology Department, Real Jardín Botánico, The Spanish National Research Council,
+    Madrid, Spain
+- claim: Holds the MA herbarium.
+  url: https://rjb.csic.es/
+  fetched: '2026-10-31'
+  quote: Herbario MA
+- claim: Named as advising CSIC on GBIF coordination in Spain.
+  url: https://gbif.es/en/about-gbif-es/
+  fetched: '2026-10-31'
+  quote: Museo Nacional de Ciencias Naturales and the Real Jardín Botánico
+- claim: A CSIC research institute since 1939 that is also a botanic garden.
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950
+  fetched: '2026-10-31'
+  quote: is a Research Institute belonging to the Higher Council of Scientific Research (CSIC)
+    since 1939
+- claim: Has developed and maintained databases on the plants of the Iberian Peninsula.
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: El Real Jardín Botánico ha desarrollado y mantenido diversas bases de datos sobre
+    las plantas de la Península Ibérica
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-10-31'
+  quote: Mycology Department, Real Jardín Botánico, The Spanish National Research Council,
+    Madrid, Spain
+- type: run-by
+  to: consejo-superior-de-investigaciones-cientificas
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950
+  fetched: '2026-10-31'
+  quote: is a Research Institute belonging to the Higher Council of Scientific Research (CSIC)
+    since 1939
+- type: runs
+  to: anthos
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: El Real Jardín Botánico ha desarrollado y mantenido diversas bases de datos sobre
+    las plantas de la Península Ibérica
+found_by:
+- link-from:fundive
+- register:es
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,35 @@
+id: missouri-botanical-garden
+kind: organisation
+name: Missouri Botanical Garden
+scope: global
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.missouribotanicalgarden.org
+summary: Botanical garden in Saint Louis, Missouri, and a TDWG institutional member. Wikipedia
+  names it as the producer of the Tropicos plant database.
+facts:
+- claim: TDWG's 2026 member list gives Saint Louis, MO as its city.
+  url: https://www.tdwg.org/about/membership/
+  quote: Missouri Botanical Garden Saint Louis, MO
+  fetched: '2026-10-30'
+- claim: Wikipedia names it as producer of Tropicos.
+  url: https://en.wikipedia.org/wiki/Tropicos
+  quote: Producer Missouri Botanical Garden (United States)
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: biodiversity-information-standards
+  url: https://www.tdwg.org/about/membership/
+  quote: Missouri Botanical Garden
+  fetched: '2026-10-30'
+found_by:
+- link-from:biodiversity-information-standards
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,112 @@
+id: wildlife-research-and-training-institute
+kind: organisation
+name: Wildlife Research and Training Institute
+also_known_as:
+- WRTI
+scope: ke
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+hq: ke
+website: https://wrti.go.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan state institute for wildlife research and training, which carried out the
+  national wildlife census and is building a national wildlife database.
+facts:
+- claim: Its headquarters are in Naivasha.
+  url: https://capitalfm.africa/kenya-to-launch-national-wildlife-database-for-conservation/
+  quote: at the institute’s headquarters in Naivasha
+  fetched: '2026-10-30'
+- claim: Its core mandate is research to guide wildlife conservation.
+  url: https://www.capitalfm.co.ke/business/2020/08/kenya-inaugurates-its-first-wildlife-research-institution/
+  quote: the institute’s core mandate is to undertake research
+  fetched: '2026-10-30'
+- claim: Co-authored a paper on satellite monitoring of a mammal migration with deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:%22deep%20learning%22%20wildlife&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: largest terrestrial mammal migration using deep learning
+  fetched: 2026-10-31
+- claim: Its authors published on machine learning to categorise drought in the Tsavo area.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Machine Learning-Based Categorization of Drought and Wet Conditions Using SPI, VCI
+    and Elevation in Tsavo
+  fetched: 2026-10-31
+- claim: Ran its first Drone Technology for Wildlife Conservation short course.
+  url: https://www.standardmedia.co.ke/environment-climate/article/2001553652/research-institute-to-adopt-drones-in-wildlife-conservation-census
+  quote: the inaugural Drone Technology for Wildlife Conservation Short Course
+  fetched: '2026-10-30'
+- claim: Says it was set up so the wildlife research agenda provides reliable scientific information.
+  url: https://wrti.go.ke/
+  fetched: '2026-10-30'
+  quote: WRTI has been established with the understanding that wildlife research agenda needs
+    to be more focused
+- claim: Gives a campsite address on Moi South Lake Road in Naivasha.
+  url: https://wrti.go.ke/
+  fetched: '2026-10-30'
+  quote: located along the Moi South Lake Road, Naivasha, Kenya
+- claim: Mpala says it joined as the fifth anchor institution in 2023.
+  url: https://mpala.org/partners/
+  fetched: '2026-10-30'
+  quote: In 2023, the Wildlife Research and Training Institute of Kenya joined as a fifth
+    anchor institution
+- claim: Says its research division has 5 departments and 4 field research centres.
+  url: https://wrti.go.ke/
+  fetched: '2026-10-31'
+  quote: into 5 departments and 4 Field Research Centres.
+- claim: Set up to coordinate wildlife research and training.
+  url: https://wrti.go.ke/?page_id=2876
+  fetched: '2026-10-31'
+  quote: The object and purpose for which WRTI was established is to coordinate and undertake
+    wildlife research and training in the country
+links:
+- type: runs
+  to: national-wildlife-database
+  url: https://capitalfm.africa/kenya-to-launch-national-wildlife-database-for-conservation/
+  quote: The Wildlife Research and Training Institute (WRTI) on Friday convened a high-level
+    stakeholder validation meeting in Kisumu to advance the development of the platform
+  fetched: '2026-10-30'
+- type: runs
+  to: kenya-national-wildlife-census
+  url: https://www.standardmedia.co.ke/environment-climate/article/2001553652/research-institute-to-adopt-drones-in-wildlife-conservation-census
+  quote: carried out the national wildlife census
+  fetched: '2026-10-30'
+- type: partners-with
+  to: tech4nature-kisite-mpunguti
+  url: https://iucn.org/news/202501/huawei-and-iucn-launch-tech4nature-project-partnership-kws-protect-kenyas-coral-reefs
+  fetched: '2026-10-30'
+  quote: The project will be implemented in partnership with KWS and the Wildlife Research
+    and Training Institute (WRTI).
+- type: partners-with
+  to: save-the-elephants
+  url: https://www.savetheelephants.org/our-partners
+  fetched: '2026-10-30'
+  quote: The Wildlife Research and Training Institute (WRTI)
+- type: partners-with
+  to: mpala-research-centre
+  url: https://mpala.org/partners/
+  fetched: '2026-10-30'
+  quote: Mpala is jointly operated by Princeton University, the Smithsonian Institution, the
+    Kenya Wildlife Service, the National Museums of Kenya and the Wildlife Research and Training
+    Institute.
+- type: runs
+  to: national-wildlife-database
+  url: https://database.wrti.go.ke/about-wrti
+  fetched: '2026-10-31'
+  quote: developed and maintained by the Wildlife Research and Training Institute (WRTI).
+found_by:
+- checklist:1
+- link-from:save-the-elephants
+- link-from:tech4nature
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,35 @@
+id: manchester-museum
+kind: organisation
+name: Manchester Museum
+scope: gb
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+hq: gb
+scale: national
+status: active
+website: http://www.museum.manchester.ac.uk/
+summary: University museum that publishes its botany collection records on GBIF.
+facts:
+- claim: Publishes the dataset "Manchester Museum, University of Manchester, Botany Collection"
+    on GBIF.
+  url: https://api.gbif.org/v1/organization/b472a35a-6461-444a-a3d6-84e97e6636fe/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Manchester Museum, University of Manchester, Botany Collection
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/b472a35a-6461-444a-a3d6-84e97e6636fe/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+- claim: Its site gives its address at the University of Manchester.
+  url: https://www.museum.manchester.ac.uk/
+  quote: Manchester Museum, The University of Manchester, Oxford Road, Manchester M13 9PL
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

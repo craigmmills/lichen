@@ -1,0 +1,70 @@
+id: observatoire-de-lactivite-miniere
+kind: programme
+name: Observatoire de l'activité minière
+also_known_as:
+- OAM
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+summary: Observatory pooling survey and satellite data, including ONF Sentinel-2 alerts,
+  to track gold mining and forest clearance in French Guiana over nearly twenty years,
+  built by the ONF and run by EMOPI.
+facts:
+- claim: Regular surveys combined with satellite image analysis have, for nearly twenty
+    years, tracked gold mining in French Guiana and its impacts on ecosystems.
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: Depuis près de vingt ans, un travail de recensement régulier couplé à l'analyse
+    des images satellite a permis d'améliorer considérablement les connaissances sur
+    l'activité aurifère en Guyane
+- claim: The ONF's Sentinel-2 alert system feeds a mapping information system that
+    tracks forest clearance over time, with data pooled in the OAM.
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: la mise au point par l'ONF d'un système efficace d'alerte par l'analyse des
+    images satellite "Sentinel 2" alimentant, après validation des détections, un
+    système d'information territorial cartographique de suivi des déboisements dans
+    le temps
+- claim: Gives the fullest available account of mining and its impacts on forest and
+    rivers.
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: C'est aussi le moyen de dresser le bilan le plus exhaustif possible sur l'activité
+    minière et ses impacts sur la forêt et les rivières.
+links:
+- type: built-by
+  to: office-national-des-forets
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: L'ONF a ainsi été chargé de mettre en place et d'animer un Observatoire de
+    l'activité minière (OAM) dont la gestion a été reprise en 2018 par l’EMOPI nouvellement
+    créé.
+- type: run-by
+  to: emopi
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: l'Observatoire de l'activité minière, géré par l’Etat Major de Lutte contre
+    l’orpaillage et la pêche illicites (EMOPI)
+- type: partners-with
+  to: parc-amazonien-de-guyane
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: auquel collaborent notamment le Parc amazonien de Guyane (PAG) , les Forces
+    de gendarmerie, les Forces armées de Guyane et l'ONF
+- type: partners-with
+  to: office-national-des-forets
+  url: https://www.onf.fr/vivre-la-foret/%2B/1de3%3A%3Ala-surveillance-des-milieux-naturels-en-guyane.html
+  fetched: '2026-11-07'
+  quote: auquel collaborent notamment le Parc amazonien de Guyane (PAG) , les Forces
+    de gendarmerie, les Forces armées de Guyane et l'ONF
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

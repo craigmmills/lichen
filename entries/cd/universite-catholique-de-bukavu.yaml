@@ -1,0 +1,39 @@
+id: universite-catholique-de-bukavu
+kind: organisation
+name: Université Catholique de Bukavu
+also_known_as:
+- UCB
+scope: cd
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- cd
+scale: national
+status: active
+website: https://ucbukavu.ac.cd
+summary: A university in Bukavu, listed by OpenAlex with a 2019 paper by a first author there on land
+  use and land cover change around forests of Kabare and Idjwi.
+facts:
+- claim: OpenAlex lists a 2019 paper with a first author at the Université Catholique de Bukavu on land
+    use and land cover change around forest ecosystems of Kabare and Idjwi, using GIS and remote sensing.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&page=4&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Study of land use/cover dynamics around forest ecosystems of Kabare and Idjwi areas in Democratic
+    Republic of Congo using GIS and remote sensing
+- claim: Its website is that of the Université Catholique de Bukavu.
+  url: https://ucbukavu.ac.cd
+  fetched: 2026-11-08
+  quote: Site web de l'Université Catholique de Bukavu (UCB)
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

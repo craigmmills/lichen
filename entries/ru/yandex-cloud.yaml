@@ -1,0 +1,69 @@
+id: yandex-cloud
+kind: organisation
+name: Yandex Cloud
+scope: ru
+also_known_as:
+- Яндекс Облако
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+hq: unknown
+countries:
+- ru
+scale: national
+status: active
+website: https://yandex.cloud/ru
+summary: Cloud provider that published Baikal monitoring code in December 2022, reports plankton
+  analysis work, and helped build snow leopard analysis tools and a hogweed detection service.
+facts:
+- claim: Published the source code of a machine learning algorithm for monitoring Lake Baikal
+    in December 2022.
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  quote: Облачная платформа Yandex Cloud опубликовала исходный код алгоритма машинного обучения
+    для экомониторинга Байкала.
+  fetched: '2026-10-31'
+- claim: Completed the first stage of a wildlife monitoring project for Sailyugemsky National
+    Park with students of the School of Data Analysis in October 2023.
+  url: https://habr.com/ru/news/769240
+  quote: Yandex Cloud и Школа анализа данных (ШАД) «Яндекса» завершили первый этап проекта
+    по мониторингу диких животных для национального парка «Сайлюгемский» в Республике Алтай.
+  fetched: '2026-10-31'
+- claim: www1.ru reports it said it was ready to become a technology partner of the national
+    animal monitoring project.
+  url: https://www1.ru/en/news/2026/10/19/francuzskaia-argos-uxodit-iz-rossii-sledit-za-nerpoi-i-drugimi-krasnokniznymi-zivotnymi-stanet-necem.html
+  fetched: '2026-10-31'
+  quote: Yandex Cloud announced its readiness to become a technological partner of the project
+- claim: Says its ecology direction runs projects with experts and scientists.
+  url: https://yandex.cloud/ru/social-tech/ecology
+  fetched: 2026-10-31
+  quote: Направление экологии реализует проекты, которые затрагивают весь окружающий мир
+- claim: Says it built a neural network for automatic analysis of Baikal plankton samples,
+    part of the project since 2022.
+  url: https://yandex.cloud/ru/social-tech/ecology
+  fetched: 2026-10-31
+  quote: Мы разработали нейросеть для автоматического анализа проб
+found_by:
+- checklist:5
+- link-from:es-pas
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: builds
+  to: sailyugemsky-camera-trap-neural-network
+  url: https://yandex.ru/company/news/01-23-10-2023
+  fetched: 2026-10-31
+  quote: Студенты ШАДа вместе со специалистами Yandex Cloud разработали нейросеть, которая
+    всего за несколько секунд обрабатывает такие снимки и находит на них животных.
+- type: builds
+  to: stopborshevik-hogweed-detection-service
+  url: https://yandex.cloud/ru/social-tech/ecology
+  fetched: 2026-10-31
+  quote: Школа анализа данных, Центр технологий для общества Yandex Cloud и движение «СтопБорщевик»
+    запустили ИИ‑сервис для обнаружения борщевика Сосновского на спутниковых снимках

@@ -1,0 +1,39 @@
+id: west-sumatra-guardian-monitoring
+kind: project
+name: West Sumatra forest acoustic monitoring
+scope: id
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- id
+status: unknown
+summary: Rainforest Connection Guardian devices in four West Sumatra villages, using
+  TensorFlow to send forest sounds to rangers' phones, with KKI Warsi.
+facts:
+- claim: The Guardian uses Google TensorFlow to send forest sounds to rangers' smartphones.
+  url: https://www.thejakartapost.com/life/2019/08/02/googles-artificial-intelligence-helps-protect-west-sumatras-rainforests.html
+  fetched: '2026-10-31'
+  quote: The Guardian uses a Google technology called TensorFlow
+links:
+- type: run-by
+  to: rainforest-connection
+  url: https://www.thejakartapost.com/life/2019/08/02/googles-artificial-intelligence-helps-protect-west-sumatras-rainforests.html
+  fetched: '2026-10-31'
+  quote: the Rainforest Connection has installed 12 monitoring tools
+- type: partners-with
+  to: kki-warsi
+  url: https://www.thejakartapost.com/life/2019/08/02/googles-artificial-intelligence-helps-protect-west-sumatras-rainforests.html
+  fetched: '2026-10-31'
+  quote: Warsi Indonesian Conservation Community (KKI Warsi)
+- type: uses
+  to: google
+  url: https://www.thejakartapost.com/life/2019/08/02/googles-artificial-intelligence-helps-protect-west-sumatras-rainforests.html
+  fetched: '2026-10-31'
+  quote: "The Guardian uses a Google technology called TensorFlow"
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

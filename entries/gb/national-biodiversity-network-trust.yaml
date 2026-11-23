@@ -1,0 +1,105 @@
+id: national-biodiversity-network-trust
+kind: organisation
+name: National Biodiversity Network Trust
+also_known_as:
+- NBN Trust
+- NBN
+- National Biodiversity Network
+sector: ngo
+roles:
+- supplies-data
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://nbn.org.uk
+summary: UK partnership for sharing wildlife data, with over 200 members. It runs the NBN
+  Atlas and is the UK node for GBIF.
+facts:
+- claim: Says it is the UK's largest partnership for nature, with over 200 members and more
+    than 300 million records on the NBN Atlas.
+  url: https://nbn.org.uk/about-us/
+  quote: We are the UK’s largest partnership for nature, with over 200 members and more than
+    300 million wildlife records available through the NBN Atlas.
+  fetched: '2026-10-30'
+- claim: The UK node for GBIF.
+  url: https://nbn.org.uk/about-us/where-we-are/the-global-perspective
+  quote: it is the UK node for GBIF, the Global Biodiversity Information Facility
+  fetched: '2026-10-30'
+- claim: UK's largest partnership for nature, with over 200 members.
+  url: https://nbn.org.uk/
+  quote: We are the UK’s largest partnership for nature, with over 200 members
+  fetched: '2026-10-30'
+- claim: The NBN Trust oversees the network.
+  url: https://nbn.org.uk/
+  quote: The NBN Trust, the charity which oversees and facilitates the development of the
+    Network
+  fetched: '2026-10-30'
+- claim: The NBN Trust is the UK node for GBIF.
+  url: https://nbn.org.uk/wp-content/uploads/2025/10/NBN-Atlas-Strategy-2025-2030-final-A4-23-July-25-with-cover.pdf
+  quote: the NBN Trust is also the UK node for the Global Biodiversity Information Facility
+    (GBIF)
+  fetched: &id001 2026-10-30
+- claim: Says it is the UK's largest partnership for nature, with over 200 members and over
+    300 million wildlife records in the Atlas.
+  url: https://nbn.org.uk/about-us/where-we-are/the-global-perspective/
+  quote: with over 200 members and more than 300 million wildlife records available through
+    the NBN Atlas
+  fetched: *id001
+- claim: Registered company and charity.
+  url: https://nbn.org.uk/about-us/who-we-are/contact-us/
+  quote: Registered in England and Wales 3963387. Registered charity 1082163.
+  fetched: 2026-10-30
+- claim: Partnership sharing wildlife data since 2000.
+  url: https://nbn.org.uk/about-us/
+  fetched: '2026-10-30'
+  quote: The National Biodiversity Network has been championing the sharing of wildlife data
+    since 2000.
+- claim: Publishes the dataset "Steve Lane - Warwickshire dataset and Personal records from
+    various vice-counties" on GBIF.
+  url: https://api.gbif.org/v1/organization/07f617d0-c688-11d8-bf62-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Steve Lane - Warwickshire dataset and Personal records from various vice-counties
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/07f617d0-c688-11d8-bf62-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+links:
+- type: runs
+  to: nbn-atlas
+  url: https://nbnatlas.org/about-nbn-atlas/
+  quote: The National Biodiversity Network Trust has taken this open source platform
+  fetched: '2026-10-30'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://nbn.org.uk/about-us/where-we-are/the-global-perspective
+  quote: it is the UK node for GBIF, the Global Biodiversity Information Facility
+  fetched: '2026-10-30'
+- type: runs
+  to: nbn-atlas
+  url: https://nbn.org.uk/wp-content/uploads/2025/10/NBN-Atlas-Strategy-2025-2030-final-A4-23-July-25-with-cover.pdf
+  quote: The NBN Atlas is managed and developed by the National Biodiversity Network Trust
+    (NBN Trust), a UK charity
+  fetched: *id001
+- type: runs
+  to: nbn-atlas
+  url: https://nbn.org.uk/about-us/
+  fetched: '2026-10-30'
+  quote: We are the UK’s largest partnership for nature, with over 200 members and more than
+    300 million wildlife records available through the NBN Atlas.
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- species-distribution

@@ -1,0 +1,36 @@
+id: mmap-spatial-data-protected-areas-species-habitats
+kind: dataset
+name: Date spațiale privind ariile naturale protejate și distribuția speciilor și
+  habitatelor (Portal GIS MMAP)
+scope: ro
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+runner: unknown
+website: https://mmediu.ro/en/portal-gis/date-spatiale/arii-naturale-protejate-de-interes-national-si-international/
+summary: GIS portal page offering Habitats Directive Article 17 and Birds Directive
+  Article 12 distribution data, plus distributions from approved management plans
+  updated to the end of 2024.
+facts:
+- claim: The page offers species and habitat distributions reported under Article
+    17 of the Habitats Directive.
+  url: https://mmediu.ro/en/portal-gis/date-spatiale/arii-naturale-protejate-de-interes-national-si-international/
+  fetched: 2026-11-13
+  quote: Distribuția speciilor și habitatelor (Art.17 din Directiva Habitate)
+- claim: The page offers bird species distributions reported under Article 12 of the
+    Birds Directive.
+  url: https://mmediu.ro/en/portal-gis/date-spatiale/arii-naturale-protejate-de-interes-national-si-international/
+  fetched: 2026-11-13
+  quote: Distribuția speciilor de păsări (Art. 12 din Directiva Păsări)
+- claim: The page offers species and habitat distributions from approved management
+    plans, updated to the end of 2024.
+  url: https://mmediu.ro/en/portal-gis/date-spatiale/arii-naturale-protejate-de-interes-national-si-international/
+  fetched: 2026-11-13
+  quote: Distribuția speciilor și habitatelor din planurile de management aprobate
+    (actualizare până la finalul anului 2024)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

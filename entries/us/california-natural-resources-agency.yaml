@@ -1,0 +1,38 @@
+id: california-natural-resources-agency
+kind: organisation
+name: California Natural Resources Agency
+scope: us
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: us
+countries:
+- us
+scale: local
+summary: California state agency that leads the state's 30x30 initiative and built the CA
+  Nature mapping hub.
+facts:
+- claim: Lead agency for the state's 30x30 initiative.
+  url: https://www.esri.com/en-us/industries/blog/articles/explore-californias-pathways-to-30x30
+  quote: As part of its role as the lead agency for the initiative, CNRA developed a geospatial
+    infrastructure, known as CA Nature
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: ca-nature
+  url: https://www.esri.com/en-us/industries/blog/articles/explore-californias-pathways-to-30x30
+  quote: CNRA developed a geospatial infrastructure, known as CA Nature
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false
+website: https://resources.ca.gov/

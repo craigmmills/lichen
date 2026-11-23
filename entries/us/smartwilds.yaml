@@ -1,0 +1,41 @@
+id: smartwilds
+kind: dataset
+name: SmartWilds
+scope: us
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- us
+website: https://imageomics.github.io/naturelab
+summary: Multimodal wildlife monitoring dataset and living laboratory at The Wilds, Ohio,
+  built by the naturelab group with funding from ICICLE and Imageomics.
+runner: unknown
+facts:
+- claim: Publishes a multimodal dataset for wildlife monitoring on Hugging Face.
+  url: https://imageomics.github.io/naturelab
+  quote: 'Paper : SmartWilds: A Multimodal Dataset for Wildlife Monitoring'
+  fetched: '2026-10-31'
+- claim: Describes multimodal AI work at The Wilds.
+  url: https://imageomics.github.io/naturelab
+  quote: Building the future of biodiversity monitoring through multimodal AI and digital
+    ecosystem modeling at The Wilds.
+  fetched: '2026-10-31'
+links:
+- type: funded-by
+  to: icicle-ai-institute
+  url: https://imageomics.github.io/naturelab
+  quote: 'Funding : ICICLE (NSF AI Institute for Intelligent Cyberinfrastructure) and Imageomics'
+  fetched: '2026-10-31'
+- type: funded-by
+  to: imageomics-institute
+  url: https://imageomics.github.io/naturelab
+  quote: 'Funding : ICICLE (NSF AI Institute for Intelligent Cyberinfrastructure) and Imageomics'
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

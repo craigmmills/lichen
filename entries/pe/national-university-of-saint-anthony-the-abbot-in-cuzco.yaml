@@ -1,0 +1,45 @@
+id: national-university-of-saint-anthony-the-abbot-in-cuzco
+kind: organisation
+name: National University of Saint Anthony the Abbot in Cuzco
+scope: pe
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pe
+scale: national
+status: active
+website: https://www.unsaac.edu.pe/
+summary: Peruvian university that OpenAlex lists with authored papers on machine learning
+  for national glacier mapping (2023) and deep learning for segmenting water bodies in high-mountain
+  remote sensing images (2024).
+facts:
+- claim: OpenAlex lists National University of Saint Anthony the Abbot in Cuzco as an education
+    institution in Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "https://www.unsaac.edu.pe/", "country_code": "PE", "type": "education"'
+- claim: OpenAlex lists a 2023 paper with its authors comparing machine learning methods for
+    national glacier mapping in Peru.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I3132302805,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: 'A Comparative Analysis of Machine Learning Techniques for National Glacier Mapping:
+    Evaluating Performance through Spatial Cross-Validation in Per'
+- claim: OpenAlex lists a 2024 paper with its authors on deep learning for segmenting water
+    bodies in high-mountain remote sensing images of Peru.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I3132302805,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Exploratory Analysis Using Deep Learning for Water-Body Segmentation of Peru
+  ai_type: deep-learning
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-03'

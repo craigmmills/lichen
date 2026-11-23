@@ -1,0 +1,48 @@
+id: hark
+kind: model
+name: HARK
+scope: nz
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- nz
+status: active
+summary: Model that runs Google's Perch v2 on the device, built by 800 Trust, used in a Taranaki zero
+  possum project, and winner of a 2026 NZ Hi-Tech Awards category.
+facts:
+- claim: Runs Google's Perch v2 model on the device.
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: Because it runs Google’s Perch v2 AI model directly on the device, it manages power efficiently
+- claim: Won Best Hi-Tech Solution for the Public Good at the 2026 NZ Hi-Tech Awards.
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: The device won “Best Hi-Tech Solution for the Public Good” at the 2026 NZ Hi-Tech Awards.
+- claim: Used by Towards Predator-Free Taranaki in its zero possum project.
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: with Towards Predator-Free Taranaki utilising it in their zero possum project
+links:
+- type: built-by
+  to: 800-trust
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: Taranaki-based ecological organisation 800 Trust developed HARK
+- type: builds-on
+  to: perch
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: Because it runs Google’s Perch v2 AI model directly on the device
+- type: used-by
+  to: towards-predator-free-taranaki
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: with Towards Predator-Free Taranaki utilising it in their zero possum project
+runner: unknown
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-07

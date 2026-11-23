@@ -1,0 +1,47 @@
+id: ai-monitoring-semois
+kind: project
+name: AI-assisted wildlife monitoring in the Semois valley
+scope: be
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+status: active
+summary: Park-led project funded by WWF Belgium; camera traps captured 260,000 images
+  and videos in 2024, and in September 2025 WWF reported AI had helped detect 104
+  species since April 2025.
+facts:
+- claim: In 2024 camera traps captured 260,000 images and videos.
+  url: https://wwf.be/fr/actualites/lia-au-service-de-la-conservation-dans-la-semois
+  fetched: '2026-11-02'
+  quote: Rien qu’en 2024, les pièges photographiques ont capturé 260 000 images et
+    vidéos dans la vallée de la Semois.
+- claim: WWF Belgium reported in September 2025 that AI had helped detect 104 species
+    since April 2025.
+  url: https://wwf.be/fr/actualites/lia-au-service-de-la-conservation-dans-la-semois
+  fetched: '2026-11-02'
+  quote: l’IA a déjà aidé à détecter 104 espèces différentes.
+links:
+- type: led-by
+  to: national-park-semois-valley
+  url: https://wwf.be/fr/actualites/lia-au-service-de-la-conservation-dans-la-semois
+  fetched: '2026-11-02'
+  quote: Le projet est mené par Parc national de la vallée de la Semois
+- type: funded-by
+  to: wwf-belgium
+  url: https://wwf.be/fr/actualites/lia-au-service-de-la-conservation-dans-la-semois
+  fetched: '2026-11-02'
+  quote: avec le soutien financier du WWF-Belgique
+- type: uses
+  to: audiomoth
+  url: https://wwf.be/fr/actualites/lia-au-service-de-la-conservation-dans-la-semois
+  fetched: '2026-11-02'
+  quote: comme le suivi acoustique, que ce soit dans la forêt (Audiomoth) ou dans
+    la rivière (Hydromoth).
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-02'

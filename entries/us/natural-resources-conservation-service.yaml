@@ -1,0 +1,37 @@
+id: natural-resources-conservation-service
+kind: organisation
+name: USDA Natural Resources Conservation Service
+also_known_as:
+- NRCS
+scope: us
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: us
+scale: national
+status: active
+summary: USDA agency that co-developed the Rangeland Analysis Platform and supplies field
+  vegetation measurements to it.
+facts:
+- claim: NRCS is a development partner of the Rangeland Analysis Platform.
+  url: https://rangelands.app/products
+  quote: Developed in partnership by the USDA Natural Resources Conservation Service (NRCS)
+  fetched: '2026-10-30'
+- claim: USAGov gives its main address in Washington, DC.
+  url: https://www.usa.gov/agencies/natural-resources-conservation-service
+  fetched: '2026-10-31'
+  quote: 14th and Independence Ave., SW
+links:
+- type: partners-with
+  to: rangeland-analysis-platform
+  url: https://rangelands.app/products
+  quote: Developed in partnership by the USDA Natural Resources Conservation Service (NRCS)
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-30'

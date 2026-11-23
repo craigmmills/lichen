@@ -1,0 +1,41 @@
+id: fundacao-florestal
+kind: organisation
+name: Fundação Florestal
+scope: br
+sector: government
+roles:
+- supplies-data
+- governs
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: br
+scale: local
+status: active
+summary: São Paulo state foundation, under the state environment secretariat, that manages
+  state protected areas and launched Monitora Bio SP.
+facts:
+- claim: Tied to the state secretariat for environment, infrastructure and logistics.
+  url: https://www.correiodamanha.com.br/nacional/sao-paulo/estado-de-sao-paulo/2026/05/286116-sao-paulo-lanca-plataforma-para-monitorar-biodiversidade.html
+  fetched: '2026-10-30'
+  quote: por meio da Fundação Florestal, vinculada à Secretaria de Meio Ambiente, Infraestrutura
+    e Logística (Semil)
+- claim: A 2021 document on the São Paulo Legislative Assembly's site carries its address
+    at Avenida Professor Frederico Hermann Junior, São Paulo.
+  url: https://www.al.sp.gov.br/spl/2021/12/Acessorio/1000428383_1000523314_Acessorio.pdf
+  quote: Fundação Florestal | Av. Prof. Frederico Hermann Jr 345 | CEP 05459-010
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- bioacoustics
+- computer-vision
+links:
+- type: runs
+  to: monitorabiosp
+  url: https://www.infraestruturameioambiente.sp.gov.br/ipa/2025/11/instituto-de-pesquisas-ambientas-da-subsidio-a-gestao-tecnica-e-estrategica-de-fauna-em-unidades-de-conservacao-de-sp/
+  fetched: '2026-10-30'
+  quote: programa MonitoraBIOSP , da Fundação Florestal

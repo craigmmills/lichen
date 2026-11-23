@@ -1,0 +1,52 @@
+id: university-of-the-ryukyus
+kind: organisation
+name: University of the Ryukyus
+scope: jp
+sector: academic
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: Has 45 works in a saved OpenAlex query for Japanese-affiliated research since 2022
+  on topic T12640; it reports developing corporate nature-risk quantification methods with
+  Think Nature.
+facts:
+- claim: The saved OpenAlex query groups 45 works since 2022 with a Japanese author affiliation
+    and primary topic T12640 under the university.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,primary_topic.id:T12640,from_publication_date:2022-01-01&group_by=authorships.institutions.lineage&per_page=15
+  fetched: 2026-11-02
+  quote: University of the Ryukyus
+- claim: Says a team of Professor Kubota and Think Nature developed a way of quantifying companies'
+    nature-related risks and built a base for ESG rating.
+  url: https://www.u-ryukyu.ac.jp/news/30620/
+  fetched: '2026-11-02'
+  quote: 琉球大学理学部・久保田康裕教授と（株）シンクネイチャーの研究チームは、企業の自然関連リスクや生物多様性への取り組み実績を定量する手法を開発し
+- claim: An OIST news release on EurekAlert names it among the collaborators on the coral
+    environmental DNA study.
+  url: https://www.eurekalert.org/news-releases/1084192
+  fetched: 2026-11-02
+  quote: the University of the Ryukyus, the Okinawa Churashima Foundation Institute
+- claim: An Ocean Policy Research Institute newsletter says a network of Southeast Asian mangrove
+    researchers built up by a University of the Ryukyus professor was at the heart of ANEMONE
+    Global.
+  url: https://www.spf.org/opri/en/newsletter/604_3.html
+  fetched: 2026-11-02
+  quote: a network of Southeast Asian mangrove researchers built up by Professor KAJITA Tadashi
+    of the University of the Ryukyus
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+also_known_as:
+- 琉球大学
+techniques:
+- edna-genomics

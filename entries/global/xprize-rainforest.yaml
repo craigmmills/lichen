@@ -1,0 +1,58 @@
+id: xprize-rainforest
+kind: programme
+name: XPRIZE Rainforest
+also_known_as:
+- Rainforest XPRIZE
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- edna-genomics
+- remote-sensing
+- computer-vision
+scale: global
+status: closed
+website: https://www.xprize.org/prizes/rainforest
+summary: $10 million competition launched in 2019 for autonomous biodiversity monitoring technology. Six finalist teams competed in the Brazilian Amazon in 2024 and Team Limelight's drone-deployed system won the grand prize.
+countries:
+- us
+facts:
+- claim: A $10 million competition launched in 2019.
+  url: https://www.xprize.org/prizes/rainforest
+  quote: XPRIZE Rainforest is a $10M competition to accelerate autonomous biodiversity monitoring and data collection technologies. Launched in 2019
+  fetched: &id001 2026-10-30
+- claim: Six finalist teams competed in 2024 in the Brazilian Amazon, using technology that included AI acoustic monitoring and machine learning for eDNA.
+  url: https://www.xprize.org/prizes/rainforest
+  quote: Six finalist teams competed in the prize finals in 2024 in the Brazilian Amazon.
+  fetched: *id001
+- claim: The grand prize winner identified 250 species in 24 hours.
+  url: https://www.xprize.org/prizes/rainforest
+  quote: 250 species identified in 24 hours by Grand Prize Winner
+  fetched: *id001
+links:
+- type: run-by
+  to: xprize
+  url: https://www.xprize.org/prizes/rainforest
+  quote: XPRIZE Rainforest is a $10M competition
+  fetched: *id001
+- type: funded-by
+  to: alana-foundation
+  url: https://www.xprize.org/prizes/rainforest
+  quote: Alana Foundation Sponsor of the Rainforest XPRIZE
+  fetched: *id001
+- type: partners-with
+  to: united-nations-development-programme
+  url: https://www.xprize.org/news/xprize-rainforest-partners-with-undp-to-scale-and-implement-conservation-solutions
+  fetched: 2026-10-30
+  quote: 'has formalized a partnership with the United Nations Development Programme (UNDP)'
+- type: partners-with
+  to: esri
+  url: https://www.xprize.org/prizes/rainforest
+  fetched: 2026-10-30
+  quote: "As part of our partnership with Esri they have given free access to their globally leading geospatial platform, ArcGIS, for all competing teams."
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

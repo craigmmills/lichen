@@ -1,0 +1,79 @@
+id: deepotolith
+kind: model
+name: DeepOtolith
+scope: gr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- computer-vision
+status: unknown
+summary: A web-based system using convolutional neural networks to return fish age from otolith images,
+  presented in a 2022 paper as open source, built by Greek and Norwegian research institutes.
+facts:
+- claim: An automatic web-based system that returns fish age from otolith images of a given species.
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: DeepOtolith is easy to use, receiving as input otolith images from a specific fish species and
+    returning fish age.
+- claim: Based on convolutional neural networks trained on otolith images for each species.
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: DeepOtolith is based on convolutional neural networks (CNNs), a class of deep neural networks
+    efficient for analysing images to resolve computer vision tasks.
+  ai_type: deep-learning
+- claim: Age reading supports estimates of the demographic and population dynamics of fish stocks.
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: Age-reading of fish otoliths or scales is important to estimate demographic and population dynamics
+    parameters of fish stocks
+- claim: The repository lists red mullet, Greenland halibut and Atlantic salmon as tested species.
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: Red mullet ( Mullus barbatus )
+- claim: A 2022 paper presents DeepOtolith v1.0 as an open-source AI platform for automating fish age
+    reading from otolith or scale images.
+  url: https://api.openalex.org/works/W4281752630?select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-03
+  quote: 'DeepOtolith v1.0: An Open-Source AI Platform for Automating Fish Age Reading from Otolith or
+    Scale Images'
+links:
+- type: built-by
+  to: hellenic-centre-for-marine-research
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: 'This AI platform was the result of collaboration of: Hellenic Center for Marine Reserach (HCMR),
+    National Centre of Scientific Research "Demokritos, Norwegian Computing Center (NR) and Institute
+    of Marine Research (IMR) in Bergen, Norway.'
+- type: built-by
+  to: ncsr-demokritos
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: 'This AI platform was the result of collaboration of: Hellenic Center for Marine Reserach (HCMR),
+    National Centre of Scientific Research "Demokritos, Norwegian Computing Center (NR) and Institute
+    of Marine Research (IMR) in Bergen, Norway.'
+- type: built-by
+  to: norwegian-computing-center
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: 'This AI platform was the result of collaboration of: Hellenic Center for Marine Reserach (HCMR),
+    National Centre of Scientific Research "Demokritos, Norwegian Computing Center (NR) and Institute
+    of Marine Research (IMR) in Bergen, Norway.'
+- type: built-by
+  to: institute-of-marine-research-norway
+  url: https://github.com/dimpolitik/Deep-Otolith
+  fetched: '2026-11-03'
+  quote: 'This AI platform was the result of collaboration of: Hellenic Center for Marine Reserach (HCMR),
+    National Centre of Scientific Research "Demokritos, Norwegian Computing Center (NR) and Institute
+    of Marine Research (IMR) in Bergen, Norway.'
+found_by:
+- link-from:hellenic-centre-for-marine-research
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+countries:
+- gr
+also_known_as:
+- DeepOtolith v1.0

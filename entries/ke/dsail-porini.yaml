@@ -1,0 +1,47 @@
+id: dsail-porini
+kind: dataset
+name: DSAIL Porini
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ke
+summary: Annotated camera-trap images from a Kenyan conservancy covering six categories of
+  grazing mammals.
+status: active
+facts:
+- claim: DSAIL describes it as annotated camera-trap images from a conservancy in Kenya.
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: This dataset has camera trap images of wildlife species from a
+- claim: DataCite's record of the dataset describes camera trap images and annotations from
+    a Kenyan conservancy.
+  url: https://api.datacite.org/dois/10.17632/6mhrhn7rxc.6
+  fetched: '2026-10-31'
+  quote: This dataset has camera trap images of wildlife species from a conservancy in Kenya
+    and their annotation.
+- claim: DataCite records an open licence, Creative Commons Attribution 4.0.
+  url: https://api.datacite.org/dois/10.17632/6mhrhn7rxc.6
+  fetched: '2026-10-31'
+  quote: Creative Commons Attribution 4.0 International
+links:
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: DSAIL PORINI
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dsail.dkut.ac.ke/projects/camera-trap.html
+  fetched: '2026-10-31'
+  quote: At DSAIL, we have designed, developed and deployed 4 camera traps in the Dedan Kimathi
+    Wildlife Conservancy
+found_by:
+- link-from:university-of-leeds
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

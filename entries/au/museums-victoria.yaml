@@ -1,0 +1,37 @@
+id: museums-victoria
+kind: organisation
+name: Museums Victoria
+scope: au
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+hq: unknown
+scale: regional
+status: active
+summary: Museum body listed as a partner in Open Ecoacoustics. Its own site refuses this tool,
+  so the fact comes from a partner.
+facts:
+- claim: ARDC lists it as a partner in Open Ecoacoustics.
+  url: https://ardc.edu.au/project/open-ecoacoustics/
+  fetched: '2026-10-31'
+  quote: Museums Victoria
+- claim: University of Melbourne authors, writing on AIhub, name a collaboration with Museums
+    Victoria on an AI digitisation pipeline.
+  url: https://aihub.org/2025/09/29/botanical-time-machines-ai-is-unlocking-a-treasure-trove-of-data-held-in-herbarium-collections/
+  fetched: '2026-10-31'
+  quote: Our next step is a collaboration with Museums Victoria to adapt Hespi to create an
+    AI digitisation pipeline suitable for museum collections.
+found_by:
+- queue:au
+- link-from:open-ecoacoustics
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+countries:
+- au

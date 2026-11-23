@@ -1,0 +1,26 @@
+id: xeno-canto-foundation-for-nature-sounds
+kind: organisation
+name: Xeno-canto Foundation for Nature Sounds
+scope: global
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+hq: nl
+scale: global
+status: active
+website: https://xeno-canto.org
+summary: Dutch foundation that publishes the Xeno-canto wildlife sound collection to GBIF.
+facts:
+- claim: Named publisher of Xeno-canto datasets on GBIF, with hosting at Naturalis.
+  url: https://api.gbif.org/v1/dataset/search?q=xeno-canto&limit=2
+  fetched: '2026-10-30'
+  quote: '"publishingOrganizationTitle":"Xeno-canto Foundation for Nature Sounds"'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

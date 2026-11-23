@@ -1,0 +1,34 @@
+id: observatoire-des-forets-francaises
+kind: programme
+name: Observatoire des forêts françaises
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: A forest observatory listed on IGN's institute page, with a site, map data
+  and a resource catalogue.
+facts:
+- claim: Listed on IGN's institute page.
+  url: https://www.ign.fr/institut
+  quote: Observatoire des forêts françaises
+  fetched: '2026-10-31'
+- claim: Launched in July 2023 and brings together all data on French forests across
+    themes.
+  url: https://www.ign.fr/institut/nos-domaines-dintervention/foret
+  fetched: '2026-10-31'
+  quote: Lancé en juillet 2023, l’Observatoire des forêts françaises ( https://observatoire.foret.gouv.fr
+    ) rassemble pour la première fois toutes les données de la forêt française toutes
+    thématiques confondues
+links:
+- type: led-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/nos-domaines-dintervention/foret
+  fetched: '2026-10-31'
+  quote: Il est piloté par l’IGN
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

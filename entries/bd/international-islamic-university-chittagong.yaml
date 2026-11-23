@@ -1,0 +1,41 @@
+id: international-islamic-university-chittagong
+kind: organisation
+name: International Islamic University Chittagong
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Chattogram university whose computer science and engineering authors wrote a 2025
+  paper on a ResNet101 deep residual learning framework for automated coral reef health assessment.
+facts:
+- claim: Authors from its Department of Computer Science and Engineering wrote a 2025 paper
+    on a ResNet101 deep residual learning framework for automated coral reef health assessment.
+  url: https://api.openalex.org/works/W7131466652?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: 'Coral Reef Health Assessment through Deep Residual Learning: A High-Precision ResNet101
+    Framework for Automated Monitoring and Conservation in the Indo-Pacific Region'
+- claim: OpenAlex gives the authors’ affiliation as the Department of Computer Science and
+    Engineering, International Islamic University Chittagong, Chattogram.
+  url: https://api.openalex.org/works/W7131466652?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: International Islamic University Chittagong,Department of Computer Science and Engineering,Chattogram,Bangladesh,4318
+- claim: The paper's title names the method (deep-learning).
+  url: https://api.openalex.org/works/W7131466652?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: 'Coral Reef Health Assessment through Deep Residual Learning: A High-Precision ResNet101
+    Framework for Automated Monitoring and Conservation in the Indo-Pacific Region'
+  ai_type: deep-learning
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-07'

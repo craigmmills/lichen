@@ -1,0 +1,37 @@
+id: sentinel-hub
+kind: programme
+name: Sentinel Hub
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.sinergise.com
+summary: Cloud service from Sinergise that makes Sentinel, Landsat and other satellite data available to browse and analyse.
+facts:
+- claim: Sinergise says it makes satellite data accessible to browse or analyse in its cloud GIS or a user's own environment.
+  url: https://www.sinergise.com
+  quote: Sentinel Hub makes satellite data (Sentinels, Landsat and other providers) easily accessible for you to be browsed or analyzed
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: sinergise
+  url: https://www.sinergise.com
+  quote: "Sentinel Hub makes satellite data (Sentinels, Landsat and other providers) easily accessible for you to be browsed or analyzed, within our cloud GIS"
+  fetched: '2026-10-30'
+- type: partners-with
+  to: airbus
+  url: http://www.sinergise.com/en/news/sinergise-partners-airbus-defence-and-space
+  fetched: 2026-10-30
+  quote: 'Sinergise partnered with Airbus Defence and Space to provide Pléiades imagery, which will be available for purchase and distributed through Sentinel Hub services'
+- type: partners-with
+  to: planet-labs
+  url: http://www.sinergise.com/en/news/sinergise-partners-planet-labs
+  fetched: 2026-10-30
+  quote: 'Sinergise partners with Planet Labs'
+found_by:
+- link-from:sinergise
+added_by: agent
+checked: '2026-10-30'

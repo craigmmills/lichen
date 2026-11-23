@@ -1,0 +1,48 @@
+id: malawi-ecological-condition-maps
+kind: dataset
+name: Malawi ecological condition maps
+scope: mw
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- mw
+status: active
+runner: unknown
+summary: An ecological condition map for Malawi, planned as an SBAPP output in May
+  2025, building on the national land cover map, with planned additions of fishing,
+  water quality and invasive species data.
+facts:
+- claim: In May 2025, an ecological condition map for Malawi was a planned output
+    of the SBAPP project.
+  url: https://www.must.ac.mw/posts/must-supports-updating-of-national-land-cover-map/details
+  fetched: 2026-11-13
+  quote: one of its outputs is to come up with an ecological condition map for Malawi
+    and this could not be done without an updated land cover map
+- claim: In May 2026 a Malawi team led by MUST presented national progress in ecological
+    condition mapping at a regional workshop in Cape Town.
+  url: https://www.must.ac.mw/posts/must-team-advances-ecological-condition-mapping-at-sa-workshop/details
+  fetched: 2026-11-13
+  quote: During the workshop, the Malawi team presented national progress in ecological
+    condition mapping and engaged in collaborative planning with regional partners.
+- claim: Malawi planned to improve the maps with fishing density and water quality
+    data for Lake Malawi and invasive species data for terrestrial ecosystems.
+  url: https://www.must.ac.mw/posts/must-team-advances-ecological-condition-mapping-at-sa-workshop/details
+  fetched: 2026-11-13
+  quote: Malawi will be working to improve its ecological condition maps by analysing
+    fishing density and water quality data for Lake Malawi ecological condition and
+    include invasive and alien species data for terrestrial ecosystems condition.
+links:
+- type: builds-on
+  to: malawi-national-land-cover-map-2025
+  url: https://www.must.ac.mw/posts/must-supports-updating-of-national-land-cover-map/details
+  fetched: 2026-11-13
+  quote: an updated land cover map, which is one of the critical input into the ecological
+    map.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

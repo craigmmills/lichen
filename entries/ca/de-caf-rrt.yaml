@@ -1,0 +1,35 @@
+id: de-caf-rrt
+kind: project
+name: De CAF-RRT
+also_known_as: []
+scope: ca
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ca
+status: unknown
+runner: unknown
+summary: Project aiming to develop a wide-area satellite Earth observation tool to
+  support salmon habitat monitoring, funded by SmartEarth.
+facts:
+- claim: Aims to develop a wide-area satellite Earth observation monitoring tool to
+    support salmon habitat monitoring.
+  url: https://www.asc-csa.gc.ca/eng/funding-programs/programs/smartearth/contributions-grants-contracts-awarded.asp
+  fetched: 2026-11-08
+  quote: This project aims to develop the De CAF-RRT , a wide-area monitoring tool
+    using satellite Earth observation ( SEO ), to support salmon habitat monitoring.
+links:
+- type: funded-by
+  to: smartearth
+  url: https://www.asc-csa.gc.ca/eng/funding-programs/programs/smartearth/contributions-grants-contracts-awarded.asp
+  fetched: 2026-11-08
+  quote: 'List of projects that received funding for the AO : Satellite Mobilization
+    for Biodiversity Action'
+found_by:
+- rule:checklist-misses
+- link-from:smartearth
+added_by: agent
+checked: 2026-11-08

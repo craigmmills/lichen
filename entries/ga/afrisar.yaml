@@ -1,0 +1,82 @@
+id: afrisar
+kind: project
+name: AfriSAR
+scope: ga
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ga
+status: closed
+runner: unknown
+summary: A 2016 NASA campaign with ESA, DLR and AGEOS, flown in Gabon from 27 February
+  to 8 March, collected lidar canopy and biomass data at five sites, with field plot
+  data from the Mondah Forest used to train models.
+facts:
+- claim: AfriSAR was a NASA collaboration with ESA, DLR and AGEOS that collected forest
+    canopy data in Gabon in 2016 to help prepare for and calibrate spaceborne missions.
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: AfriSAR is a NASA collaboration with the European Space Agency (ESA), German
+    Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS) that is collecting
+    data useful for deriving forest canopy structure
+- claim: The campaign was flown from 27 February to 8 March 2016.
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: The AfriSAR campaign was flown from 2016-02-27 to 2016-03-08.
+- claim: Its datasets include gridded forest canopy and aboveground biomass products
+    from NASA's LVIS lidar for five sites in Gabon (Lopé, Mondah/Akanda, Pongara,
+    Rabi and Mabouni).
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: The LVIS lidar instrument was flown over study sites in Lope, Mondah/Akanda,
+    Pongara, Rabi, and Mabouni from February to March 2016.
+- claim: Field data from 15 one-hectare plots in the Mondah Forest, covering nearly
+    6,700 trees, were collected and used to train models for the remote-sensing biomass
+    products.
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: These biophysical and biomass data were used for training models to derive
+    the AfriSAR remote sensing-based aboveground biomass products.
+- claim: ESA describes AfriSAR as a campaign in Gabon following an earlier one in
+    July 2015, with AGEOS and ANPN as partners.
+  url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Focus_on_Gabon_forests_for_Biomass
+  fetched: 2026-11-15
+  quote: The latest campaign, AfriSAR, brought Gabon under the radar spotlight.
+links:
+- type: partners-with
+  to: nasa
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: AfriSAR is a NASA collaboration with the European Space Agency (ESA), German
+    Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS)
+- type: partners-with
+  to: european-space-agency
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: AfriSAR is a NASA collaboration with the European Space Agency (ESA), German
+    Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS)
+- type: partners-with
+  to: german-aerospace-center
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: AfriSAR is a NASA collaboration with the European Space Agency (ESA), German
+    Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS)
+- type: partners-with
+  to: agence-gabonaise-detudes-et-dobservations-spatiales
+  url: https://registry.opendata.aws/nasa-afrisar/
+  fetched: 2026-11-15
+  quote: AfriSAR is a NASA collaboration with the European Space Agency (ESA), German
+    Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS)
+- type: partners-with
+  to: agence-nationale-des-parcs-nationaux
+  url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Focus_on_Gabon_forests_for_Biomass
+  fetched: 2026-11-15
+  quote: the Gabonese Space Agency AGEOS and ANPN, who are partners in this initiative,
+    have been instrumental in AfriSAR's success
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

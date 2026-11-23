@@ -1,0 +1,29 @@
+id: asociacion-gaica
+kind: organisation
+name: Asociación GAICA
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: local
+status: active
+website: https://gaica.org.co/
+summary: Colombian association whose projects page lists camera trap monitoring.
+facts:
+- claim: Its projects page lists monitoring with camera traps.
+  url: https://gaica.org.co/que-hacemos/proyectos/
+  quote: Monitoreo con Cámaras Trampa
+  fetched: '2026-10-31'
+- claim: Its home page names camera trap monitoring in the department of Meta.
+  url: http://www.gaica.org.co/
+  quote: Monitoreo con cámaras trampa en el departamento del Meta
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+- rule:ngo-broad
+scope: co
+added_by: agent
+checked: '2026-10-31'

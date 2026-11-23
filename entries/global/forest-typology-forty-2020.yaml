@@ -1,0 +1,38 @@
+id: forest-typology-forty-2020
+kind: dataset
+name: Forest Typology (ForTy) 2020
+also_known_as:
+- ForTy
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Global 10-metre map that sorts land into six forest and land-use types, released in October 2026 with an early time series, as a baseline for the EU deforestation regulation.
+facts:
+- claim: Sorts every 10-by-10-metre patch of land into six forest and land-use types.
+  url: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
+  fetched: &id001 2026-10-30
+  quote: a global map that categorizes every 10-by-10-meter patch of land on Earth into six distinct forest and land-use types
+links:
+- type: run-by
+  to: google-deepmind
+  url: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
+  fetched: *id001
+  quote: Today, Google DeepMind and Google Research, together with the World Resources Institute (WRI) and the International Institute for Applied Systems Analysis (IIASA), are releasing Forest Typology (ForTy) 2020
+- type: partners-with
+  to: world-resources-institute
+  url: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
+  fetched: *id001
+  quote: "together with the World Resources Institute (WRI) and the International Institute for Applied Systems Analysis (IIASA), are releasing Forest Typology (ForTy)"
+- type: partners-with
+  to: international-institute-for-applied-systems-analysis
+  url: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
+  fetched: *id001
+  quote: "together with the World Resources Institute (WRI) and the International Institute for Applied Systems Analysis (IIASA), are releasing Forest Typology (ForTy)"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

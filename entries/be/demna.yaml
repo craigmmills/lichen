@@ -1,0 +1,57 @@
+id: demna
+kind: organisation
+name: Département de l'Étude du Milieu naturel et agricole
+also_known_as:
+- DEMNA
+- SPW-DEMNA
+scope: be
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- be
+scale: regional
+status: active
+summary: A department, run by the Service public de Wallonie ARNE, that coordinates and validates
+  invasive alien species surveillance in Wallonia, drawing on online recording systems including
+  OFFH.
+facts:
+- claim: Coordinates surveillance of invasive alien species in Wallonia and validates the
+    data.
+  url: https://biodiversite.wallonie.be/home/evaluation-biologique/monitoring-des-especes/especes-exotiques-envahissantes.html
+  fetched: 2026-11-02
+  quote: En Wallonie, la coordination de la surveillance des EEE et la validation des données
+    récoltées sont assurées par le Département de l’Etude du Milieu Naturel et Agricole (DEMNA)
+- claim: Its early warning dataset aims to deliver records of introduced species in Wallonia
+    in real time.
+  url: https://api.gbif.org/v1/dataset/04871911-1b00-41f3-8dc6-fc0cea421f96
+  fetched: &id001 2026-11-02
+  quote: is a presence-only dataset aimed to deliver in real time the occurrence records of
+    introduced species within Wallonia
+- claim: The data are drawn from online recording systems it maintains.
+  url: https://api.gbif.org/v1/dataset/04871911-1b00-41f3-8dc6-fc0cea421f96
+  fetched: *id001
+  quote: Data are aggregated from various online recording systems that are maintenaid by
+    the
+- claim: Among them is OFFH, the main platform on which its experts and partners enter records.
+  url: https://api.gbif.org/v1/dataset/04871911-1b00-41f3-8dc6-fc0cea421f96
+  fetched: *id001
+  quote: OFFH (Observations Faune Flore Habitats), the main occurrence encoding platform for
+    the department experts and partners
+links:
+- type: run-by
+  to: service-public-de-wallonie-arne
+  url: https://biodiversite.wallonie.be/home/evaluation-biologique/monitoring-des-especes/especes-exotiques-envahissantes.html
+  fetched: 2026-11-02
+  quote: Département de l’Etude du Milieu Naturel et Agricole (DEMNA) du Service Public de
+    Wallonie Agriculture, Ressources Naturelles et Environnement (SPW ARNE)
+found_by:
+- checklist:1
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

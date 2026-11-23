@@ -1,0 +1,39 @@
+id: balfour-browne-club
+kind: organisation
+name: Balfour-Browne Club
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- species-distribution
+hq: unknown
+scale: national
+status: active
+summary: Water beetle study group whose recording scheme data are published on GBIF. GBIF
+  says the Aquatic Coleoptera Conservation Trust has taken over the scheme.
+facts:
+- claim: GBIF says the scheme has passed to the Aquatic Coleoptera Conservation Trust.
+  url: https://api.gbif.org/v1/organization/76e846b0-1332-411e-a4fc-4e2251bfeea5
+  fetched: '2026-10-30'
+  quote: has taken over as a registered charity
+- claim: Publishes the dataset "Water Beetle Surveys from Britain and Ireland" on GBIF.
+  url: https://api.gbif.org/v1/organization/76e846b0-1332-411e-a4fc-4e2251bfeea5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Water Beetle Surveys from Britain and Ireland
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/76e846b0-1332-411e-a4fc-4e2251bfeea5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+- claim: The Aquatic Coleoptera Conservation Trust site names Professor Robert Angus as a
+    founder of the trust.
+  url: https://waterbeetles.info/about/
+  quote: Professor Robert Angus is a founder of the Aquatic Coleoptera Conservation Trust
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,79 @@
+id: viame
+kind: programme
+name: Video and Image Analytics for Marine Environments
+also_known_as:
+- VIAME
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Open-source AI system that automates the processing of underwater video and images,
+  developed by NOAA with Mississippi State University's Northern Gulf Institute and Kitware.
+facts:
+- claim: NOAA's Southeast Fisheries Science Center partnered with Mississippi State University-Northern
+    Gulf Institute and Kitware to automate processing of Gulf of Mexico videos.
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  fetched: '2026-10-30'
+  quote: We partnered with Mississippi State University-Northern Gulf Institute and Kitware
+    Inc. to develop an Artificial Intelligence and Machine Learning process to automate the
+    processing of videos collected in the Gulf.
+- claim: Software is open to anyone who wants to use it.
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  fetched: '2026-10-30'
+  quote: The project is taking an Open Science approach by making the software accessible
+    to anyone who would like to use it.
+- claim: Open source computer vision platform for do-it-yourself AI.
+  url: https://www.viametoolkit.org/
+  fetched: '2026-10-30'
+  quote: VIAME is an open source computer vision software platform designed for do-it-yourself
+    artificial intelligence (AI).
+- claim: Trackers use techniques including deep learning.
+  ai_type: deep-learning
+  url: https://www.viametoolkit.org/
+  fetched: '2026-10-30'
+  quote: that use different techniques, such as deep learning
+- claim: It was first aimed at marine species analytics and is available as a desktop or web
+    application.
+  url: https://www.viametoolkit.org/
+  quote: Originally targeting marine species analytics
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: kitware
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  fetched: '2026-10-30'
+  quote: Mississippi State University-Northern Gulf Institute and Kitware Inc.
+- type: partners-with
+  to: northern-gulf-institute
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  fetched: '2026-10-30'
+  quote: Mississippi State University-Northern Gulf Institute and Kitware Inc.
+- type: run-by
+  to: noaa-fisheries
+  url: https://www.fisheries.noaa.gov/feature-story/increasing-efficiency-video-surveys-artificial-intelligence
+  fetched: '2026-10-30'
+  quote: We partnered with Mississippi State University-Northern Gulf Institute and Kitware
+    Inc.
+- type: run-by
+  to: kitware
+  url: https://www.viametoolkit.org/
+  fetched: '2026-10-30'
+  quote: Kitware and its partners have developed Video and Image Analytics for Marine Environments
+    (VIAME)
+- type: partners-with
+  to: national-oceanic-and-atmospheric-administration
+  url: https://www.viametoolkit.org/
+  fetched: '2026-10-30'
+  quote: In cooperation with the National Oceanic and Atmospheric Administration’s (NOAA)
+    Automated Image Analysis Strategic Initiative (AIASI)
+found_by:
+- checklist:7
+- link-from:coralnet
+- checklist:1
+added_by: agent
+checked: '2026-10-30'
+ai_types:
+- deep-learning

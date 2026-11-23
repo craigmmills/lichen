@@ -1,0 +1,38 @@
+id: uk-bioscan
+kind: project
+name: UK BIOSCAN
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+status: active
+website: https://bioscan.tol.sanger.ac.uk/
+summary: Five-year project led by the Wellcome Sanger Institute that uses DNA barcoding
+  on flying insects from Malaise traps at over 100 UK sites.
+facts:
+- claim: Led by the Wellcome Sanger Institute.
+  url: https://api.gbif.org/v1/organization/132f79e7-3a5e-48c1-886a-4dfee4239375
+  fetched: '2026-10-30'
+  quote: The UK BIOSCAN project is a five-year initiative led by the Wellcome Sanger
+    Institute
+- claim: Publishes the dataset "UK BIOSCAN DNA-derived occurrence records 2019-2025
+    United Kingdom" on GBIF.
+  url: https://api.gbif.org/v1/organization/132f79e7-3a5e-48c1-886a-4dfee4239375/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: UK BIOSCAN DNA-derived occurrence records 2019-2025 United Kingdom
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/132f79e7-3a5e-48c1-886a-4dfee4239375/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: led-by
+  to: wellcome-sanger-institute
+  url: https://api.gbif.org/v1/organization/132f79e7-3a5e-48c1-886a-4dfee4239375
+  fetched: '2026-10-30'
+  quote: led by the Wellcome Sanger Institute
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

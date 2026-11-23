@@ -1,0 +1,43 @@
+id: marine-conservation-society
+kind: organisation
+name: Marine Conservation Society
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+website: https://www.mcsuk.org
+summary: UK ocean charity that runs the Good Fish Guide and the Beachwatch litter survey,
+  whose 30-year dataset it shares under data sharing agreements. No page read shows AI.
+facts:
+- claim: Registered charity with a registered office in Ross-on-Wye.
+  url: https://www.mcsuk.org/goodfishguide/
+  quote: 'Registered office: Overross House, Ross Park, Ross-on-Wye, HR9 7US.'
+  fetched: '2026-10-31'
+- claim: The Charity Commission register gives its Ross-on-Wye address.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1004005/contact-information
+  quote: Overross House Ross Park ROSS-ON-WYE HEREFORDSHIRE HR9 7US
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: good-fish-guide
+  url: https://www.mcsuk.org/what-we-do/choosing-sustainable-seafood/how-our-good-fish-guide-ratings-work/
+  quote: There are more than 600 sustainability ratings on the Good Fish Guide
+  fetched: '2026-10-31'
+- type: runs
+  to: beachwatch
+  url: https://mcsuk-production.herokuapp.com/beach-data-to-policy-change
+  quote: Our Beachwatch data has been influential in securing policy and legislative changes
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

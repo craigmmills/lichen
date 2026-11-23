@@ -1,0 +1,58 @@
+id: plantlife
+kind: organisation
+name: Plantlife
+also_known_as:
+- Plantlife International
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+- governs
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: global
+status: active
+website: http://www.plantlife.org.uk/uk
+summary: Charity for wild plants and fungi that helps run the National Plant Monitoring Scheme
+  and publishes survey records on GBIF.
+facts:
+- claim: GBIF record describes it as a global charity for wild plants and fungi.
+  url: https://api.gbif.org/v1/organization/c6e13440-2545-4ab7-9e7e-c347e8cd7cf2
+  fetched: '2026-10-30'
+  quote: Plantlife is the global charity working to enhance, protect, restore and celebrate
+    the wild plants and fungi
+- claim: Publishes the dataset "Survey records for Plantlife Nature Reserves from 1980-2016
+    in Great Britain" on GBIF.
+  url: https://api.gbif.org/v1/organization/c6e13440-2545-4ab7-9e7e-c347e8cd7cf2/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Survey records for Plantlife Nature Reserves from 1980-2016 in Great Britain
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/c6e13440-2545-4ab7-9e7e-c347e8cd7cf2/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: The Charity Commission register lists it as Plantlife International, with a Salisbury
+    address.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1059559/contact-information
+  quote: BREWERY HOUSE 36 MILFORD STREET SALISBURY SP1 2AP
+  fetched: '2026-10-31'
+- claim: Manages 24 nature reserves across the country, from Carmarthenshire to Caithness
+    and Cumbria to Kent.
+  url: https://www.plantlife.org.uk/protecting-plants-fungi/nature-reserves/
+  quote: 'Plantlife manages 24 nature reserves across the country: from Carmarthenshire to
+    Caithness, and Cumbria to Kent.'
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: national-plant-monitoring-scheme
+  url: http://www.npms.org.uk/
+  fetched: '2026-10-30'
+  quote: The survey was designed, developed, and is run by the BSBI , JNCC , Plantlife , and
+    UKCEH .
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

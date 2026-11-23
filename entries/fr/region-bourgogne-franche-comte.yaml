@@ -1,0 +1,36 @@
+id: region-bourgogne-franche-comte
+kind: organisation
+name: Région Bourgogne-Franche-Comté
+scope: fr
+sector: government
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- fr
+scale: local
+status: active
+summary: Regional authority that gave 20,000 euros to Réserves naturelles de France for the
+  Thalera project.
+facts:
+- claim: Gave 20,000 euros to Réserves naturelles de France for the Thalera project.
+  url: https://reserves-naturelles.org/projet-thalera-papillons-de-nuit/
+  fetched: '2026-11-07'
+  quote: Pour ce projet, RNF a bénéficié du soutien financier de la Région Bourgogne-Franche-Comté
+    à hauteur de 20 000 €
+links:
+- type: funds
+  to: thalera
+  url: https://reserves-naturelles.org/projet-thalera-papillons-de-nuit/
+  fetched: '2026-11-07'
+  quote: Pour ce projet, RNF a bénéficié du soutien financier de la Région Bourgogne-Franche-Comté
+    à hauteur de 20 000 €
+  amount: 20000
+  currency: EUR
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

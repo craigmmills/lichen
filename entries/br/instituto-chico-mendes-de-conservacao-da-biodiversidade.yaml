@@ -1,0 +1,117 @@
+id: instituto-chico-mendes-de-conservacao-da-biodiversidade
+kind: organisation
+name: Instituto Chico Mendes de Conservação da Biodiversidade
+also_known_as:
+- ICMBio
+- Chico Mendes Institute for the Conservation of Biodiversity
+- Chico Mendes Institute for Biodiversity Conservation
+scope: br
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: br
+scale: national
+status: active
+website: https://www.gov.br/icmbio/pt-br
+summary: Brazil's federal protected-area agency, which runs the national biodiversity monitoring
+  programme Monitora and the Salve platform on species extinction risk.
+facts:
+- claim: Agência Brasil reports that ICMBio launched the Salve platform with data on nearly
+    15,000 species.
+  url: https://agenciabrasil.ebc.com.br/en/geral/noticia/2023-08/conservation-body-launch-platform-brazils-endangered-species
+  fetched: '2026-10-30'
+  quote: has announced the launch of an online platform dubbed Salve, with data on nearly
+    15 thousand species
+- claim: Its site lists monitoring of fire-hit areas in protected areas under the name Velozzia.
+  url: https://www.gov.br/icmbio/pt-br
+  fetched: '2026-10-30'
+  quote: Monitoramento de Áreas Atingidas por Fogo em UCs (Velozzia)
+- claim: IUCN reports it has established sampling units in the Soure reserve under its Monitora
+    Program.
+  url: https://iucn.org/story/202507/marajo-where-mangroves-inspire-future
+  fetched: '2026-10-30'
+  quote: As part of ICMBio’s Monitora Program, nine sampling units have been established across
+    three stations along the reserve
+- claim: Runs the national monitoring programme across more than 130 federal conservation
+    units.
+  url: https://www.gov.br/icmbio/pt-br/assuntos/monitoramento
+  fetched: '2026-10-30'
+  quote: com participação de mais de 130 Unidades de Conservação Federais
+- claim: A federal agency responsible for biodiversity conservation across the country, managing
+    federal protected areas.
+  url: https://api.gbif.org/v1/organization/25be1cbb-af76-44ea-8ff3-074799790dce
+  fetched: '2026-10-30'
+  quote: is a federal agency under Brazil
+- claim: Publishes species occurrence data from SISBio on GBIF under CC BY 4.0.
+  url: https://api.gbif.org/v1/dataset/ffe38a37-d659-4b1a-a935-5a5264e3cc0a
+  fetched: '2026-10-30'
+  quote: Registro das ocorrencias informadas pelo pesquisadores
+- claim: Lists Salve, on species at risk of extinction, among its systems.
+  url: https://www.gov.br/icmbio/pt-br/assuntos/programas-e-projetos/portal-da-biodiversidade
+  fetched: '2026-10-30'
+  quote: Animais em Risco de Extinção (Salve)
+- claim: Is the publisher on GBIF of the Jaguar Movement Database, covering 117 jaguars in
+    five countries.
+  url: https://api.gbif.org/v1/dataset/06e98c3e-2801-4d29-8e81-943a13bb3785
+  fetched: '2026-10-30'
+  quote: A total of 117 individuals were monitored within Argentina, Brazil, Costa Rica, México
+    and Paraguay
+- claim: Its headquarters address on GBIF is in Brasília.
+  url: https://api.gbif.org/v1/organization/25be1cbb-af76-44ea-8ff3-074799790dce
+  fetched: '2026-10-30'
+  quote: St. Sudoeste Superquadra Sudoeste 103/104
+- claim: The environment ministry's addresses page gives ICMBio's head office in the Setor
+    Sudoeste, Brasília.
+  url: https://www.gov.br/mma/pt-br/canais_atendimento/fale-conosco
+  quote: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio) EQSW 103/104, Bloco
+    “C”, Complexo Administrativo, Setor Sudoeste Brasilia - DF
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: programa-monitora
+  url: https://www.gov.br/icmbio/pt-br/assuntos/monitoramento
+  fetched: '2026-10-30'
+  quote: Programa Nacional de Monitoramento da Biodiversidade - Programa Monitora, instituído
+    pela Instrução Normativa ICMBio
+- type: runs
+  to: salve
+  url: https://agenciabrasil.ebc.com.br/en/geral/noticia/2023-08/conservation-body-launch-platform-brazils-endangered-species
+  fetched: '2026-10-30'
+  quote: has announced the launch of an online platform dubbed Salve
+- type: runs
+  to: programa-monitora
+  url: https://iucn.org/story/202507/marajo-where-mangroves-inspire-future
+  fetched: '2026-10-30'
+  quote: As part of ICMBio’s Monitora Program
+- type: partners-with
+  to: amazon-coast-watch
+  url: https://iucn.org/story/202507/marajo-where-mangroves-inspire-future
+  fetched: '2026-10-30'
+  quote: the project is being implemented in Soure through a collaborative network composed
+    of IUCN, Rare Brazil, ICMBio, the Federal University of Pará (UFPA), and the local association
+    ASSUREMAS
+- type: runs
+  to: velozzia
+  url: https://www.gov.br/icmbio/pt-br/assuntos/programas-e-projetos/portal-da-biodiversidade
+  fetched: '2026-10-30'
+  quote: Monitoramento de Áreas Atingidas por Fogo em UCs (Velozzia)
+- type: runs
+  to: sisbio-occurrence-records
+  url: https://api.gbif.org/v1/dataset/ffe38a37-d659-4b1a-a935-5a5264e3cc0a
+  fetched: '2026-10-30'
+  quote: ICMBio | Dados de ocorrência de espécies do Sistema de Autorização e Informações
+    de Biodiversidade (SISBio) do ICMBio
+found_by:
+- checklist:1
+- link-from:tech4nature
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+countries:
+- br

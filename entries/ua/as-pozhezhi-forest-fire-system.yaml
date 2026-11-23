@@ -1,0 +1,40 @@
+id: as-pozhezhi-forest-fire-system
+kind: programme
+name: Automated System "Pozhezhi" (Fires)
+also_known_as:
+- АС «Пожежі»
+- автоматизована система «Пожежі»
+scope: ua
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ua
+status: active
+summary: Automated fire detection system that LIAC keeps improving, finding temperature anomalies in real
+  time using NASA satellite data and the State Space Agency of Ukraine's national observation system.
+facts:
+- claim: LIAC keeps improving the automated system, which detects temperature anomalies in real time.
+  url: https://forest.gov.ua/news/suputnykovi-dani-dopomahaiut-vchasno-reahuvaty-na-zahrozu-vynyknennia-pozhezh-u-lisakh
+  fetched: 2026-11-03
+  quote: ДП «ЛІАЦ» постійно вдосконалює автоматизовану систему «Пожежі», яка дозволяє в режимі реального
+    часу виявляти температурні аномалії
+- claim: The system uses satellite information from NASA and from the national observation system of the
+    State Space Agency of Ukraine.
+  url: https://forest.gov.ua/news/suputnykovi-dani-dopomahaiut-vchasno-reahuvaty-na-zahrozu-vynyknennia-pozhezh-u-lisakh
+  fetched: 2026-11-03
+  quote: Це NASA із даними супутників Terra, Aqua, NOAA, Suomi NPP, а також дані національної системи
+    спостереження Державного космічного агентства України.
+links:
+- type: uses
+  to: state-space-agency-of-ukraine
+  url: https://forest.gov.ua/news/suputnykovi-dani-dopomahaiut-vchasno-reahuvaty-na-zahrozu-vynyknennia-pozhezh-u-lisakh
+  fetched: 2026-11-03
+  quote: а також дані національної системи спостереження Державного космічного агентства України
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03
+runner: unknown

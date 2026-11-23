@@ -1,0 +1,42 @@
+id: laboratoire-de-recherche-sur-la-dynamique-des-milieux-et-des-societes-universite-de-lome
+kind: organisation
+name: Laboratoire de Recherche sur la Dynamique des Milieux et des Sociétés
+also_known_as:
+- LARDYMES
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: A geography department laboratory affiliated with a 2024 GIS and remote sensing
+  study of anthropogenic threats to degraded forest land in the Savannahs Region from
+  1984 to 2020.
+facts:
+- claim: The first author of a 2024 paper on anthropogenic threats to degraded forest
+    land in Togo's Savannahs Region from 1984 to 2020 gives the laboratory as first
+    affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W4391263961&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: Laboratoire de Recherche sur la Dynamique des Milieux et des Soci
+- claim: A co-author's affiliation gives the laboratory as in the Department of Geography.
+  url: https://api.openalex.org/works?filter=openalex:W4391263961&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: (LARDYMES), Department of Geography, FSHS,
+- claim: The study analyses satellite images using GIS and remote sensing.
+  url: https://api.openalex.org/works?filter=openalex:W4391263961&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: '"satellite": [23], "images": [24], "analysis": [25], "using": [26], "GIS":
+    [27]'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

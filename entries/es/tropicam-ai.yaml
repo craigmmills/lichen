@@ -1,0 +1,44 @@
+id: tropicam-ai
+kind: model
+name: TropiCam-AI
+scope: es
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- br
+- pe
+- cr
+- gf
+status: active
+summary: Algorithm that automatically identifies arboreal mammals and birds in camera trap
+  images from Neotropical forests.
+facts:
+- claim: Identifies species from camera trap photographs and video with 95% precision.
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: TropiCam-AI analiza miles de fotografías y videos de las cámaras trampa e identifica
+    las especies de animales con un 95% de precisión
+- claim: Available on the AddaxAI platform.
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: TropiCam-AI está disponible en la plataforma AddaxAI
+- claim: Trained on more than 180,000 camera trap images from Brazil, Peru, Costa Rica and
+    French Guiana.
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: el equipo entrenó el algoritmo con más de 180.000 imágenes de cámaras trampa procedentes
+    de Brasil, Perú, Costa Rica y la Guayana Francesa
+links:
+- type: run-by
+  to: museo-nacional-de-ciencias-naturales
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: Un equipo de investigación del Museo Nacional de Ciencias Naturales (MNCN-CSIC) ha
+    desarrollado TropiCam-AI
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

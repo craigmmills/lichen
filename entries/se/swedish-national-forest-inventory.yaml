@@ -1,0 +1,71 @@
+id: swedish-national-forest-inventory
+kind: programme
+name: Swedish National Forest Inventory
+also_known_as:
+- Riksskogstaxeringen
+- Swedish National Forest Inventory
+- NFI
+scope: se
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- se
+status: active
+summary: Annual sample inventory of Sweden's whole area, describing forest state since 1923, producing
+  official forest statistics, and run by the Swedish University of Agricultural Sciences.
+facts:
+- claim: Its plots are used to make the Skogliga grunddata maps.
+  url: https://www.skogsstyrelsen.se/globalassets/om-oss/regeringsuppdrag/uppdatering-av-skogliga-grundata/skogliga-grunddata---produktbeskrivning.pdf
+  fetched: '2026-11-02'
+  quote: Riksskogstaxeringen (SLU).
+- claim: Its GBIF publisher record says it describes the state and changes in Sweden's forests.
+  url: https://api.gbif.org/v1/organization/45d6c628-0c75-42fe-bf4c-9e2f0f4e54c6
+  fetched: 2026-11-02
+  quote: The Swedish National Forest Inventory has the task of describing the state and changes in Sweden's
+    forests.
+- claim: Its GBIF publisher record says data are part of Sweden's official statistics.
+  url: https://api.gbif.org/v1/organization/45d6c628-0c75-42fe-bf4c-9e2f0f4e54c6
+  fetched: 2026-11-02
+  quote: Data from the Swedish National Forest Inventory is part of Sweden's official statistics.
+- claim: Has described the state of Sweden's forests since 1923.
+  url: https://www.slu.se/riksskogstaxeringen/
+  fetched: '2026-11-02'
+  quote: Riksskogstaxeringen har sedan 1923 beskrivit tillstånd och förändringar i Sveriges skogar.
+- claim: Carries out an annual sample inventory of Sweden's whole area.
+  url: https://www.slu.se/riksskogstaxeringen/
+  fetched: '2026-11-02'
+  quote: utför Riksskogstaxeringen en årlig stickprovsinventering av hela Sveriges areal
+- claim: Produces the official statistics on Swedish forests.
+  url: https://www.slu.se/en/environment/statistics-and-environmental-data/official-statistics/
+  fetched: '2026-11-02'
+  quote: The Swedish National Forest Inventory (NFI, Riksskogstaxeringen) is responsible for the production
+    of these statistics.
+- claim: Time series go back to the 1920s.
+  url: https://www.slu.se/en/environment/statistics-and-environmental-data/official-statistics/
+  fetched: '2026-11-02'
+  quote: The National Forest Inventory has 100-year-old time series of forest data
+links:
+- type: run-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://api.gbif.org/v1/organization/45d6c628-0c75-42fe-bf4c-9e2f0f4e54c6
+  fetched: 2026-11-02
+  quote: Swedish National Forest Inventory, Department of Forest Resource Management, SLU
+- type: run-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.slu.se/riksskogstaxeringen/
+  fetched: '2026-11-02'
+  quote: Riksskogstaxeringen drivs av Institutionen för skoglig resurshushållning vid SLU i Umeå.
+- type: run-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://collections.biodiversitydata.se/public/show/in27
+  fetched: '2026-11-02'
+  quote: The Swedish National Forest Inventory (NFI) is a sample based field inventory performed by the
+    Swedish University of Agricultural Sciences (SLU).
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

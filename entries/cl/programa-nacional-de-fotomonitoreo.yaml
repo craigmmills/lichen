@@ -1,0 +1,86 @@
+id: programa-nacional-de-fotomonitoreo
+kind: programme
+name: Programa Nacional de Fotomonitoreo
+scope: cl
+ai_label: ai
+realms:
+- land
+countries:
+- cl
+status: active
+summary: CONAF runs a programme with reportedly about 2,000 cameras in 35 protected areas and 617,000
+  new GBIF records; in December 2023, it reported university collaboration on AI image analysis.
+facts:
+- claim: CONAF's executive director said in March 2026 that the programme has about 2,000 active cameras
+    in 35 protected areas.
+  url: https://radionuevomundo.cl/2026/03/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/?print=pdf
+  fetched: 2026-11-02
+  quote: fotomonitoreo de CONAF reúne alrededor de 2000 cámaras activas en 35 áreas protegidas
+- claim: Runs about 2,000 active cameras in 35 protected areas, with a decade of records, according to
+    CONAF.
+  url: https://www.conaf.cl/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/
+  fetched: '2026-11-02'
+  quote: reúne alrededor de 2000 cámaras activas en 35 áreas protegidas y una década de registros continuos
+- claim: In December 2023, CONAF said it was working with Chilean universities on AI to speed up image
+    analysis.
+  url: https://www.conaf.cl/aplican-inteligencia-artificial-en-fotomonitoreo-con-camaras-trampa-dentro-de-areas-silvestres-protegidas/
+  fetched: '2026-11-02'
+  quote: Se trata de experiencias colaborativas con universidades chilenas
+- claim: In December 2023, CONAF reported that a member of the Universidad del Bío-Bío team was training
+    neural networks to discard empty images.
+  url: https://www.conaf.cl/aplican-inteligencia-artificial-en-fotomonitoreo-con-camaras-trampa-dentro-de-areas-silvestres-protegidas/
+  fetched: '2026-11-02'
+  quote: entrenando varios modelos de redes neuronales y haciendo pruebas para determinar la mejor opción
+  ai_type: deep-learning
+- claim: CONAF says the work has reported 617,000 new records to GBIF.
+  url: https://www.conaf.cl/parques-nacionales/nuestros-parques/conservacion/
+  fetched: '2026-11-02'
+  quote: ya ha reportado 617 mil nuevos registros de fauna chilena al portal de Infraestructura Mundial
+    de Información sobre Biodiversidad
+- claim: CONAF says rangers implement the camera-trap monitoring in each protected area.
+  url: https://www.conaf.cl/chile-integra-plataforma-mundial-colaborativa-de-monitoreo-de-fauna-nativa/
+  fetched: '2026-11-02'
+  quote: Este fotomonitoreo es implementado por los y las guardaparques de cada unidad
+links:
+- type: run-by
+  to: corporacion-nacional-forestal
+  url: https://radionuevomundo.cl/2026/03/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/?print=pdf
+  fetched: 2026-11-02
+  quote: Fotomonitoreo, ejecutado por la Corporación Nacional Forestal (CONAF)
+- type: run-by
+  to: corporacion-nacional-forestal
+  url: https://www.conaf.cl/confirman-relevancia-internacional-de-sistema-chileno-de-monitoreo-de-fauna/
+  fetched: '2026-11-02'
+  quote: Programa Nacional de Fotomonitoreo , ejecutado por la Corporación Nacional Forestal (CONAF)
+- type: partners-with
+  to: programa-austral-patagonia
+  url: https://www.conaf.cl/conaf-recibe-donacion-de-60-camaras-trampa/
+  fetched: '2026-11-02'
+  quote: en el marco del trabajo colaborativo con la Corporación para mejorar la gestión de parques, reservas
+    y monumentos naturales en la Patagonia chilena
+- type: partners-with
+  to: the-pew-charitable-trusts
+  url: https://www.conaf.cl/chile-estrena-la-plataforma-de-fotomonitoreo-en-areas-protegidas-mas-grande-del-mundo/
+  fetched: '2026-11-02'
+  quote: The Pew Charitable Trusts, una de las ONG´s que ha apoyado el desarrollo del fotomonitoreo
+- type: partners-with
+  to: universidad-del-bio-bio
+  url: https://www.conaf.cl/aplican-inteligencia-artificial-en-fotomonitoreo-con-camaras-trampa-dentro-de-areas-silvestres-protegidas/
+  fetched: '2026-11-02'
+  quote: ganaron el “Hackatón por el cambio climático”, tras proponer un modelo de etiquetado de especies
+    invasoras que fue “entrenado” con más de 40 mil fotografías obtenidas con las cámaras trampa de CONAF
+- type: partners-with
+  to: universidad-adolfo-ibanez
+  url: https://www.conaf.cl/aplican-inteligencia-artificial-en-fotomonitoreo-con-camaras-trampa-dentro-de-areas-silvestres-protegidas/
+  fetched: '2026-11-02'
+  quote: estudiantes de la Universidad Adolfo Ibáñez (UAI) están trabajando en el desarrollo de un modelo
+    alternativo que detecte las fotografías fantasmas con inteligencia artificial
+found_by:
+- checklist:2
+- link-from:corporacion-nacional-forestal
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision
+ai_types:
+- deep-learning

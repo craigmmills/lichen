@@ -1,0 +1,36 @@
+id: debark-university
+kind: organisation
+name: Debark University
+scope: et
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2026 systematic
+  review of AI and remote sensing for freshwater quality monitoring.
+facts:
+- claim: OpenAlex lists a 2026 paper on AI and remote sensing for freshwater quality monitoring
+    (a systematic review).
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: 'Artificial Intelligence and Remote Sensing for Freshwater Quality Monitoring: A
+    Systematic Review of Methods, Applications, Model Performance, and Research Gaps'
+- claim: OpenAlex lists Gebre Ayanaw Alula, first author of that paper, at Debark University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Gebre Ayanaw Alula", "orcid": "https://orcid.org/0009-0000-4439-6279",
+    "observed_orcids": ["https://orcid.org/0009-0000-4439-6279"]}, "institutions": [{"id":
+    "https://openalex.org/I4210124803", "display_name": "Debark University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

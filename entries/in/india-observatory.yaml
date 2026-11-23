@@ -1,0 +1,61 @@
+id: india-observatory
+kind: dataset
+name: India Observatory
+scope: in
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- in
+scale: national
+status: active
+website: https://indiaobservatory.org.in/
+summary: Data platform with datasets on social, economic and ecological parameters
+  for any state, district or block in India.
+facts:
+- claim: Its site describes the platform.
+  url: https://indiaobservatory.org.in/
+  quote: The data platform houses various datasets on social, economic and ecological
+    parameters
+  fetched: '2026-10-31'
+- claim: Built on more than 1,600 data layers.
+  url: https://indiaobservatory.org.in/our-tools
+  fetched: '2026-10-31'
+  quote: We do so with our unique platforms built on 1,600+ data layers across various
+    disciplines.
+- claim: Runs the Code 4 Nature national challenge.
+  url: https://indiaobservatory.org.in/code-for-nature-challenge-2026
+  fetched: '2026-10-31'
+  quote: a national innovation challenge where technology meets sustainability
+- claim: Presents social, ecological and economic parameters on one platform.
+  quote: It aims to demystify and present comprehensive information on India’s social,
+    ecological and economic parameters on a single spatial and temporal platform.
+  url: https://www.indiaobservatory.org.in/about-io
+  fetched: '2026-10-31'
+links:
+- type: led-by
+  to: foundation-for-ecological-security
+  url: https://indiaobservatory.org.in/
+  quote: The India Observatory, led by Foundation for Ecological Security (FES)
+  fetched: '2026-10-31'
+- type: led-by
+  to: foundation-for-ecological-security
+  url: https://indiaobservatory.org.in/about
+  fetched: '2026-10-31'
+  quote: The India Observatory, led by Foundation for Ecological Security (FES) ,
+    is a collaborative action-oriented tech initiative.
+- type: run-by
+  to: foundation-for-ecological-security
+  quote: The India Observatory, led by Foundation for Ecological Security (FES) ,
+    is a collaborative tech initiative
+  url: https://www.indiaobservatory.org.in/about-io
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:foundation-for-ecological-security
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- remote-sensing

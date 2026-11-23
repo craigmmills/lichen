@@ -1,0 +1,62 @@
+id: trapper
+kind: programme
+name: TRAPPER
+scope: global
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://os-conservation.org/trapper/
+summary: Open-source web application for managing camera-trap projects, with AI object detection
+  and species classification.
+countries:
+- pl
+- se
+facts:
+- claim: Describes itself as an open-source, AI-driven camera trap data infrastructure for
+    professional and citizen-science projects.
+  url: https://os-conservation.org/trapper/
+  fetched: '2026-10-30'
+  quote: a scalable, open-source and AI-driven camera trap data infrastructure for professional
+    and citizen-science projects
+- claim: TRAPPER supports ViT and EfficientNet architectures.
+  url: https://os-conservation.org/trapper/
+  fetched: '2026-10-30'
+  quote: Supported architectures YOLOR, YOLOv5, YOLOv8, YOLOv9, YOLOv10, RT-DETR, ViT, EfficientNet
+  ai_type: deep-learning
+- claim: Offers AI object detection and species classification for camera-trap projects.
+  url: https://os-conservation.org/trapper/
+  fetched: 2026-10-30
+  quote: AI-powered object detection and species classification
+links:
+- type: run-by
+  to: open-science-conservation-fund
+  url: https://os-conservation.org/
+  fetched: '2026-10-30'
+  quote: TRAPPER is our flagship open-source project
+- type: funded-by
+  to: wildlabs-awards
+  url: https://os-conservation.org/projects/
+  fetched: 2026-10-30
+  quote: With support from the WILDLABS Awards and Arm
+- type: partners-with
+  to: arm
+  url: https://os-conservation.org/projects/
+  fetched: 2026-10-30
+  quote: With support from the WILDLABS Awards and Arm
+- type: partners-with
+  to: bearid-project
+  url: https://os-conservation.org/projects/
+  fetched: 2026-10-30
+  quote: with collaboration of BearID Project , Universidad de San Francisco de Quito and
+    San Diego Zoo Wildlife Alliance are launching Trapper Keeper
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

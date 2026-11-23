@@ -1,0 +1,42 @@
+id: quaid-i-azam-university
+kind: organisation
+name: Quaid-i-Azam University
+also_known_as:
+- QAU
+scope: pk
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: pk
+countries:
+- pk
+scale: national
+status: active
+website: https://qau.edu.pk/
+summary: Islamabad university whose Herbarium of Pakistan dataset on GBIF, about 36,000
+  occurrence records, describes it as the largest herbarium in Pakistan, with specimens
+  from throughout the country.
+facts:
+- claim: GBIF lists the Herbarium of Pakistan (ISL) at the Department of Plant Sciences,
+    Quaid-i-Azam University, in Islamabad.
+  url: https://api.gbif.org/v1/organization/c254a6f2-87d8-440c-9da9-8f9161f47e3d
+  fetched: 2026-11-03
+  quote: '"address":["Department of Plant Sciences, Quaid-i-Azam University"],"city":"Islamabad"'
+- claim: Its herbarium's GBIF dataset, titled Quaid-i-Azam University Herbarium, describes
+    it as the largest herbarium in Pakistan, with specimens from throughout the country.
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: It is now the largest herbarium in Pakistan having over 180,000 specimens,
+    collected from throughout Pakistan.
+- claim: The GBIF dataset holds about 36,000 occurrence records.
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: '"occurrenceCount":36175'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

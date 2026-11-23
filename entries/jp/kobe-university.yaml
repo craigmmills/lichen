@@ -1,0 +1,39 @@
+id: kobe-university
+kind: organisation
+name: Kobe University
+scope: jp
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://www.kobe-u.ac.jp/
+summary: University with a laboratory developing environmental DNA analysis and leading surveys;
+  OpenAlex groups 65 Japanese-affiliated works since 2022 in topic T12640 under it.
+facts:
+- claim: OpenAlex groups 65 works since 2022 with a Japanese author affiliation in topic T12640
+    under this institution.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,primary_topic.id:T12640,from_publication_date:2022-01-01&group_by=authorships.institutions.lineage&per_page=15
+  fetched: 2026-11-02
+  quote: Kobe University
+- claim: Says a laboratory in its Graduate School of Human Development and Environment develops
+    environmental DNA analysis and leads surveys in various places.
+  url: https://www.sdgs.kobe-u.ac.jp/project15.html
+  fetched: 2026-11-02
+  quote: このような環境DNA分析技術の開発を行い、各所における調査を主導しており
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- edna-genomics
+also_known_as:
+- 神戸大学

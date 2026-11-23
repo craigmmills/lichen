@@ -1,0 +1,46 @@
+id: open-ocean-camera
+kind: project
+name: Open Ocean Camera
+scope: hk
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://github.com/oocam/camera
+summary: Underwater camera system built by Clear Robotics that records for up to a
+  month at depths to 400 metres, with AI software that identifies and counts animals
+  and a public code base.
+facts:
+- claim: AI software analyses the photos and video, identifying, counting and classifying
+    animals.
+  url: https://hkmb.hktdc.com/en/1X0ALHG5/article/oceans-of-data
+  fetched: 2026-11-21
+  quote: The camera’s AI software analyses the photos and videos, automatically identifying
+    and counting creatures, classifying them into type, and sends back results to
+    the scientists.
+- claim: Records for up to a month at depths to 400 metres, with 2 TB of memory and
+    up to 13 sensors.
+  url: https://hkmb.hktdc.com/en/1X0ALHG5/article/oceans-of-data
+  fetched: 2026-11-21
+  quote: The camera can last for as long as one month underwater, at a depth of up
+    to 400 metres.
+- claim: Its code base is public, covering the Raspberry Pi set-up and the mobile
+    app link.
+  url: https://github.com/oocam/camera
+  fetched: 2026-11-21
+  quote: This is the code for Open Ocean Camera hardware.
+links:
+- type: built-by
+  to: clear-robotics
+  url: https://hkmb.hktdc.com/en/1X0ALHG5/article/oceans-of-data
+  fetched: 2026-11-21
+  quote: Concern for the marine environment led to the development of the company’s
+    first robot, the Open Ocean Camera
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+also_known_as:
+- Open Ocean Cam

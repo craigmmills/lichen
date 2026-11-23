@@ -1,0 +1,38 @@
+id: university-of-sharjah
+kind: organisation
+name: University of Sharjah
+scope: ae
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ae
+scale: national
+status: active
+summary: University listed by first authors of a 2024 machine learning poacher detection paper, from Electrical
+  Engineering, and a 2021 GISTAM paper on remote sensing of invasive Prosopis juliflora in Sharjah.
+facts:
+- claim: A 2024 conference paper used machine learning models for poacher detection; its first author
+    lists the university’s Department of Electrical Engineering.
+  url: https://api.openalex.org/works/W4408325685
+  fetched: '2026-11-08'
+  quote: 'Enhancing Wildlife Protection: Poacher Detection Using Machine Learning Models'
+- claim: The poacher detection paper's first author gives the university's Department of Electrical Engineering
+    as affiliation.
+  url: https://api.openalex.org/works/W4408325685
+  fetched: '2026-11-08'
+  quote: University of Sharjah,Department of Electrical Engineering,Sharjah,UAE
+- claim: A 2021 GISTAM paper on mapping and monitoring invasive Prosopis juliflora in Sharjah with multitemporal
+    remote sensing lists its first author at the University of Sharjah.
+  url: https://api.openalex.org/works/W3159190686
+  fetched: '2026-11-08'
+  quote: 'Multitemporal Remote Sensing for Invasive Prosopis Juliflora Plants Mapping and Monitoring:
+    Sharjah, UAE'
+found_by:
+- register:ae
+added_by: agent
+checked: '2026-11-08'

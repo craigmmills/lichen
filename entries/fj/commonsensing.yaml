@@ -1,0 +1,52 @@
+id: commonsensing
+kind: project
+name: CommonSensing
+scope: fj
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- fj
+- sb
+- vu
+status: unknown
+runner: unknown
+summary: A UK Space Agency programme that supports Fiji, the Solomon Islands and Vanuatu to
+  use satellite Earth observation data, including on deforestation and land degradation. UNOSAT
+  hosts a CommonSensing mangrove map of Fiji's five main islands.
+facts:
+- claim: Supports Fiji, the Solomon Islands and Vanuatu to use satellite Earth observation
+    data.
+  url: https://www.preventionweb.net/news/how-satellite-technologies-can-aid-fiji-and-pacific-build-climate-resilience
+  quote: CommonSensing supports Fiji, the Solomon Islands and Vanuatu to use satellite remote
+    sensing-based earth observation (EO) data
+  fetched: '2026-10-31'
+- claim: Uses satellite data to measure change in forests, land degradation, fisheries and
+    coastal protection.
+  url: https://www.preventionweb.net/news/how-satellite-technologies-can-aid-fiji-and-pacific-build-climate-resilience
+  quote: deforestation, sea-level rise, flooding, land degradation, fisheries, coastal protection
+    and food security
+  fetched: '2026-10-31'
+- claim: A mangrove map layer for Fiji's five main islands is hosted under CommonSensing.
+  url: https://unosat-geodrr.cern.ch/data/rest/services/commonsensing/FJ004_Mangrove/MapServer?f=pjson
+  quote: Mangrove data of FIJI including 5 main islands
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: uk-space-agency
+  url: https://www.preventionweb.net/news/how-satellite-technologies-can-aid-fiji-and-pacific-build-climate-resilience
+  quote: "the UK Space Agency’s International Partnership Programme (IPP) CommonSensing"
+  fetched: '2026-10-31'
+- type: partners-with
+  to: unitar-unosat
+  url: https://unosat-geodrr.cern.ch/data/rest/services/commonsensing/FJ004_Mangrove/MapServer?f=pjson
+  quote: The United Nations Institute for Training and Research (UNITAR) | United Nations
+    Satellite Centre (UNOSAT)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

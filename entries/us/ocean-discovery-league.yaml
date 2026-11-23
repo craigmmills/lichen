@@ -1,0 +1,54 @@
+id: ocean-discovery-league
+kind: organisation
+name: Ocean Discovery League
+scope: us
+sector: ngo
+roles:
+- supplies-data
+- convenes
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+website: https://oceandiscoveryleague.org
+summary: Deep ocean exploration organisation working to speed deep ocean exploration, including
+  a 2026 workshop in Hawaii.
+facts:
+- claim: Works to accelerate deep ocean exploration.
+  url: https://oceandiscoveryleague.org/
+  fetched: '2026-10-30'
+  quote: are needed to accelerate deep ocean exploration dramatically
+- claim: Founded by Katy Croff Bell.
+  url: https://oceandiscoveryleague.org/about/
+  fetched: '2026-10-30'
+  quote: Founded by deep-sea explorer Dr. Katy Croff Bell, the Ocean Discovery League’s mission
+    is to accelerate deep-ocean exploration
+- claim: Partners with MBARI on FathomNet and Ocean Vision AI.
+  url: https://www.oceandiscoveryleague.org/fathomnet-accelerating-data-analysis
+  quote: We are currently partnering with Monterey Bay Aquarium Research Institute (MBARI)
+    on FathomNet
+  fetched: '2026-10-30'
+- claim: The IRS exempt organisation record, through ProPublica, lists Ocean Discovery League
+    in Saunderstown, Rhode Island.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/841827384.json
+  fetched: '2026-10-31'
+  quote: '"city":"Saunderstown","state":"RI"'
+found_by:
+- checklist:4
+- link-from:fathomnet
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+techniques:
+- computer-vision
+links:
+- type: partners-with
+  to: fathomnet
+  url: https://www.oceandiscoveryleague.org/fathomnet-accelerating-data-analysis
+  quote: We are currently partnering with Monterey Bay Aquarium Research Institute (MBARI)
+    on FathomNet
+  fetched: '2026-10-30'

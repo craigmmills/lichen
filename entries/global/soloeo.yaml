@@ -1,0 +1,38 @@
+id: soloeo
+kind: organisation
+name: soloEO
+scope: global
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: se
+scale: global
+status: active
+website: https://soloeo.com
+summary: Small Earth observation consultancy founded in 2009 by Ake Rosenqvist, with offices
+  in Stockholm and Tokyo. It co-leads Global Mangrove Watch with JAXA and Aberystwyth University.
+facts:
+- claim: Founded in 2009 with offices in Stockholm and Tokyo.
+  url: https://soloeo.com/
+  quote: Ake founded solo Earth Observation (soloEO) in 2009 with offices in Stockholm, Sweden
+    and Tokyo, Japan
+  fetched: '2026-10-30'
+- claim: JAXA names it on a tropical wetland dataset.
+  url: https://www.eorc.jaxa.jp/ALOS/en/dataset/tropical_wetland_inundation_dataset_e.htm
+  quote: This dataset has been developed as a collaboration between JAXA, soloEO, Aberystwyth
+    University, Wetlands International
+  fetched: '2026-10-30'
+links:
+- type: leads
+  to: global-mangrove-watch
+  url: https://soloeo.com/
+  quote: an international initiative led by JAXA, soloEO and Aberystwyth University
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

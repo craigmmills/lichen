@@ -1,0 +1,56 @@
+id: environmental-investigation-agency
+kind: organisation
+name: Environmental Investigation Agency
+also_known_as:
+- EIA
+- Environmental Investigation Agency UK
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- other
+hq: gb
+scale: global
+status: active
+website: https://eia-international.org/
+summary: UK charity that monitors and analyses data on illegal trade in wildlife,
+  timber and refrigerant gases, and builds and runs the public Global Environmental
+  Crime Tracker.
+facts:
+- claim: Registered as a UK charity in England and Wales.
+  url: https://eia-international.org/global-environmental-
+  fetched: 2026-11-21
+  quote: Environmental Investigation Agency UK | UK Reg. Charity No. 1182208
+- claim: Monitors, collects and analyses data on illegal trade in wildlife, timber
+    and refrigerant gases.
+  url: https://eia-international.org/global-environmental-
+  fetched: 2026-11-21
+  quote: At EIA, we monitor, collect and analyse data on the illegal trade in wildlife,
+    timber and dangerous global warming refrigerant gases.
+- claim: Runs a public Global Environmental Crime Tracker with dashboards and maps
+    of trafficking hotspots and routes.
+  url: https://eia-international.org/global-environmental-
+  fetched: 2026-11-21
+  quote: We track the global trends through dashboards and maps that illustrate the
+    smuggling and trafficking hotspots as well as the transportation routes
+links:
+- type: runs
+  to: global-environmental-crime-tracker
+  url: https://eia-international.org/global-environmental-
+  fetched: &id001 2026-11-21
+  quote: We would welcome any information to help make our Tracker a valuable tool
+    in the fight against all global environmental crime.
+- type: builds
+  to: global-environmental-crime-tracker
+  url: https://eia-international.org/global-environmental-
+  fetched: *id001
+  quote: we have now launched our interactive Global Environmental Crime Tracker
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

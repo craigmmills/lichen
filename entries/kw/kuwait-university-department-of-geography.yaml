@@ -1,0 +1,46 @@
+id: kuwait-university-department-of-geography
+kind: organisation
+name: Department of Geography, Kuwait University
+also_known_as: []
+scope: kw
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+hq: kw
+countries:
+- kw
+scale: national
+status: active
+summary: Kuwait University department, given as the affiliation of the first author
+  of a 2025 paper modelling urban expansion effects on Kuwait's land ecosystems with
+  random forest and cellular automata.
+facts:
+- claim: The first author of a 2025 paper on geospatial modelling of urban expansion
+    effects on Kuwait's land ecosystems using random forest and cellular automata
+    lists the department as his affiliation.
+  url: https://api.openalex.org/works/W4411094717?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Geospatial modelling of urban expansion effects on the land ecosystems in
+    Kuwait using random forest and cellular automata
+  ai_type: ml-supervised
+- claim: The first author's affiliation gives the department's address in Safat, Kuwait.
+  url: https://api.openalex.org/works/W4411094717?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Department of Geography, College of Social Sciences, Kuwait University, 5969,
+    Safat, Kuwait
+links:
+- type: run-by
+  to: kuwait-university
+  url: https://api.openalex.org/works/W4411094717?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Department of Geography, College of Social Sciences, Kuwait University, 5969,
+    Safat, Kuwait
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

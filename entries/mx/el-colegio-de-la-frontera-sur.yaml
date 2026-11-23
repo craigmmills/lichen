@@ -1,0 +1,59 @@
+id: el-colegio-de-la-frontera-sur
+kind: organisation
+name: El Colegio de la Frontera Sur
+also_known_as:
+- ECOSUR
+- Ecosur
+scope: mx
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: mx
+countries:
+- mx
+scale: national
+status: active
+website: https://www.ecosur.mx
+summary: Describes itself as a public research centre supporting sustainable development in
+  southern border regions of Mexico, Central America and the Caribbean, and builds the GOTA-Tabasco
+  dashboard.
+facts:
+- claim: Its researchers developed ERISNET.
+  url: https://www.ecosur.mx/erisnet-deteccion-del-sargazo-en-las-costas-del-caribe-mexicano/
+  fetched: '2026-11-03'
+  quote: investigadores de ECOSUR desarrollaron ERISNET
+- claim: Describes itself as a public scientific research centre working on sustainable development
+    in the southern border region of Mexico, Central America and the Caribbean.
+  url: https://api.gbif.org/v1/organization/dabff3bc-a8ee-47da-b660-0b5072d2d228
+  fetched: 2026-11-03
+  quote: El Colegio de la Frontera Sur is a public scientific research center that seeks to
+    contribute to the sustainable development of the southern border region of Mexico, Central
+    America, and the Caribbean
+- claim: Its GOTA-Tabasco dashboard estimates river flow with models including Random Forest;
+    the October 2026 page says flow estimates are available at only 2 of the 14 stations.
+  url: https://www.ecosur.mx/gota-tabasco-gestion-y-observacion-transparente-del-agua-de-tabasco/
+  fetched: 2026-11-03
+  quote: estima el gasto con modelos (Random Forest, ANFIS y curva gasto-elevación)
+  ai_type: ml-supervised
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-11-03'
+ai_types:
+- ml-supervised
+links:
+- type: builds
+  to: gota-tabasco
+  url: https://www.ecosur.mx/ecosur-presenta-gota-tabasco-una-plataforma-abierta-para-monitorear-los-rios-del-estado/
+  fetched: 2026-11-03
+  quote: Sergio Salinas-Rodríguez y Alejandro Cueva Rodríguez, investigadores del Grupo Académico
+    de Cuencas y Zonas Costeras de Ecosur y desarrolladores de GOTA-Tabasco

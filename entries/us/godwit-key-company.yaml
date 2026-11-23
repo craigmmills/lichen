@@ -1,0 +1,39 @@
+id: godwit-key-company
+kind: organisation
+name: Godwit Key Company
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: conservation-tech
+realms:
+- land
+hq: us
+scale: national
+status: active
+summary: San Diego company building a marketplace platform for biodiversity credits supporting
+  species conservation, with NSF SBIR funding.
+facts:
+- claim: SBIR Phase II award for a platform of biodiversity credits for species conservation.
+  url: https://api.nsf.gov/services/v1/awards/2345382.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II: Platform for providing long haul support for species conservation
+    through biodiversity credits'
+- claim: The NSF award record gives an address in San Diego.
+  url: https://api.nsf.gov/services/v1/awards/2345382.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"2654 WORDEN ST UNIT 102"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2345382.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II: Platform for providing long haul support for species conservation
+    through biodiversity credits'
+  amount: 1192647
+  year: 2024
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'

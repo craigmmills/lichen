@@ -1,0 +1,87 @@
+id: centre-de-ciencia-i-tecnologia-forestal-de-catalunya
+kind: organisation
+name: Centre de Ciència i Tecnologia Forestal de Catalunya
+also_known_as:
+- CTFC
+- Forest Science and Technology Centre of Catalonia
+- Centre de Ciència i Tecnologia Forestal de Catalunya
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: es
+scale: regional
+status: active
+summary: Catalan forest research centre whose Conservation Biology Group built the PyrVision
+  camera-trap model, and a partner in the Spanish phase of Tech4Nature.
+facts:
+- claim: Its Conservation Biology Group created PyrVision with the Center for Computer Vision.
+  url: https://blog.ctfc.cat/en/artificial-intelligence-drives-biodiversity-data-analysis/
+  quote: technicians from the Conservation Biology Group of the Forestry Science and Technology
+    Center of Catalonia (CTFC) in collaboration with the Center for Computer Vision (CVC)
+  fetched: '2026-10-31'
+- claim: Partner in TABMON through its Department of Landscape Dynamics and Biodiversity.
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: '2026-10-31'
+  quote: Department of Landscape Dynamics and Biodiversity, Forest Science and Technology
+    Centre of Catalonia, Spain
+- claim: Partner in FunDive through its Global Forest Ecosystem Research group in Solsona.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-10-31'
+  quote: Global Forest Ecosystem Research, Forest Science and Technology Centre of Catalonia
+    (CTFC), Solsona, Spain
+- claim: A team led by CTFC published a detailed annotated global database of bird song.
+  url: https://blog.ctfc.cat/es/la-inteligencia-artificial-aprende-a-escuchar-a-los-pajaros/
+  fetched: '2026-10-31'
+  quote: Un equipo de investigación liderado por el Centro de Ciencia y Tecnología Forestal
+    de Cataluña (CTFC) ha publicado la primera base de datos mundial de cantos de aves anotados
+    de manera detallada
+- claim: A thesis at CTFC developed deep learning tools for camera trap monitoring.
+  url: https://blog.ctfc.cat/es/la-tesis-de-arnau-campanera-explora-el-potencial-de-la-inteligencia-artificial-para-mejorar-el-monitoreo-de-fauna/
+  fetched: '2026-10-31'
+  quote: 'Automating Wildlife Monitoring with Camera Traps: Deep Learning Approaches for Detection,
+    Real-Time Deployment, and Behavioral Insights'
+  ai_type: deep-learning
+- claim: Recruited a technician for AI applied to biodiversity.
+  url: https://www.ctfc.cat/docs/24-09-00049%20T%C3%A8cnic-a%20AI%20Biodiversitat.pdf
+  fetched: '2026-10-31'
+  quote: de detecció d’objectes amb intel·ligència artificial aplicada a la biodiversitat.
+links:
+- type: runs
+  to: pyrvision
+  url: https://blog.ctfc.cat/en/artificial-intelligence-drives-biodiversity-data-analysis/
+  quote: PyrVisión is an artificial intelligence model developed by the CTFC and the CVC
+  fetched: '2026-10-31'
+- type: partners-with
+  to: tabmon
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: '2026-10-31'
+  quote: Department of Landscape Dynamics and Biodiversity, Forest Science and Technology
+    Centre of Catalonia, Spain
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-10-31'
+  quote: Global Forest Ecosystem Research, Forest Science and Technology Centre of Catalonia
+    (CTFC), Solsona, Spain
+- type: uses
+  to: birdnet
+  url: https://blog.ctfc.cat/es/la-inteligencia-artificial-aprende-a-escuchar-a-los-pajaros/
+  fetched: '2026-10-31'
+  quote: ya ha sido utilizada para evaluar, a nivel mundial, el rendimiento y los mejores
+    parámetros para ejecutar BirdNET
+found_by:
+- checklist:3
+- link-from:tabmon
+scope: es
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

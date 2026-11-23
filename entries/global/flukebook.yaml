@@ -1,0 +1,38 @@
+id: flukebook
+kind: project
+name: Flukebook
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+website: https://www.flukebook.org
+summary: Wild Me platform that applies AI to photographs of whales and dolphins.
+facts:
+- claim: Listed on Wild Me's platforms page as AI for whales and dolphins.
+  url: https://www.wildme.org/platforms.html
+  quote: 'Flukebook: AI for Whales and Dolphins'
+  fetched: '2026-10-30'
+- claim: "Flukebook uses deep learning to find animals."
+  url: https://www.flukebook.org
+  fetched: '2026-10-30'
+  quote: "Deep Learning Finds Animals"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: wild-me-lab
+  url: https://www.wildme.org/platforms.html
+  quote: 'Flukebook: AI for Whales and Dolphins'
+  fetched: '2026-10-30'
+- type: builds-on
+  to: wildbook
+  url: https://www.wildme.org/platforms.html
+  quote: "Flukebook: AI for Whales and Dolphins Sharkbook: AI for Sharks"
+  fetched: '2026-10-30'
+found_by:
+- link-from:wildbook
+added_by: agent
+checked: '2026-10-30'

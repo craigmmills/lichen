@@ -1,0 +1,35 @@
+id: urubu-safe
+kind: project
+name: Urubu Safe
+scope: br
+ai_label: conservation-tech
+status: unknown
+realms:
+- land
+countries:
+- br
+summary: Road safety app from the startup UpgradeX, built on Sistema Urubu data to model the
+  risk of collisions with animals across Brazil's roads.
+facts:
+- claim: Models collision risk across Brazil's road network from Sistema Urubu data.
+  url: https://revistapesquisa.fapesp.br/animais-na-pista/
+  quote: a startup UpgradeX, que funciona na Incubadora de Empresas de Base Tecnológica da
+    Ufla, criou um aplicativo de segurança viária, o Urubu Safe, para modelar o risco de ocorrência
+    de uma colisão com animais
+  fetched: '2026-10-31'
+links:
+- type: builds-on
+  to: sistema-urubu
+  url: https://revistapesquisa.fapesp.br/animais-na-pista/
+  quote: Com base nos dados do Sistema Urubu, a startup UpgradeX
+  fetched: '2026-10-31'
+- type: run-by
+  to: upgradex
+  url: https://revistapesquisa.fapesp.br/animais-na-pista/
+  quote: a startup UpgradeX, que funciona na Incubadora de Empresas de Base Tecnológica da
+    Ufla, criou um aplicativo de segurança viária, o Urubu Safe
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

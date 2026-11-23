@@ -1,0 +1,47 @@
+id: genwhales
+kind: project
+name: GenWhales
+also_known_as: []
+scope: ca
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- remote-sensing
+ai_types:
+- generative-ai
+countries:
+- ca
+summary: Project led by AltaML with Hatfield that uses generative AI to make synthetic
+  satellite images of North Atlantic right whales, to improve detection in the smartWhales
+  system. It has Canadian Space Agency funding under smartEarth.
+facts:
+- claim: Aims to use generative AI to generate synthetic satellite images of right
+    whales.
+  url: https://hatfieldgroup.com/?p=36182
+  fetched: '2026-10-31'
+  quote: to generate synthetic satellite images of NARW in aquatic environments to
+    address the challenge of data scarcity
+  ai_type: generative-ai
+links:
+- type: led-by
+  to: altaml
+  url: https://hatfieldgroup.com/?p=36182
+  fetched: '2026-10-31'
+  quote: Hatfield is supporting AltaML, project lead
+- type: partners-with
+  to: hatfield-consultants
+  url: https://hatfieldgroup.com/?p=36182
+  fetched: '2026-10-31'
+  quote: Hatfield is supporting AltaML, project lead
+- type: funded-by
+  to: canadian-space-agency
+  url: https://hatfieldgroup.com/?p=36182
+  fetched: '2026-10-31'
+  quote: This project is undertaken with the financial support from the Canadian Space
+    Agency under the smartEarth initiative.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

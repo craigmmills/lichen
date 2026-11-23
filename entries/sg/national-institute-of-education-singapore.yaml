@@ -1,0 +1,67 @@
+id: national-institute-of-education-singapore
+kind: organisation
+name: National Institute of Education
+also_known_as:
+- NIE
+scope: sg
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: sg
+countries:
+- sg
+scale: national
+status: active
+website: https://www.nie.edu.sg
+summary: An autonomous institute within NTU and the national teacher education institute,
+  whose authors appear on OpenAlex-listed papers on mangrove degradation mapping with
+  deep learning and on connectivity for an arboreal gliding mammal.
+facts:
+- claim: NIE describes itself as an autonomous institute within NTU and the national
+    teacher education institute.
+  url: https://www.nie.edu.sg
+  fetched: '2026-11-13'
+  quote: The National Institute of Education (NIE), Singapore, an autonomous institute
+    within NTU, is the national teacher education institute
+- claim: OpenAlex lists a paper, first author affiliated with NIE, on assessing mangrove
+    intactness and degradation with Alpha Earth and multisensor datasets using deep
+    and machine learning algorithms.
+  url: https://api.openalex.org/works?filter=openalex_id:W7128724090|W4322495095&select=id,title,authorships,primary_location
+  fetched: '2026-11-13'
+  quote: A Scalable Potential of Alpha Earth and Multisensor Datasets for Assessing
+    Mangrove Intactness and Degradation Using Deep and Machine Learning Algorithms
+  ai_type: deep-learning
+- claim: The paper's first author gives the affiliation National Institute of Education,
+    Nanyang Technological University.
+  url: https://api.openalex.org/works?filter=openalex_id:W7128724090|W4322495095&select=id,title,authorships,primary_location
+  fetched: '2026-11-13'
+  quote: National Institute of Education (NIE), Nanyang Technological University (NTU),
+    Singapore
+- claim: OpenAlex lists a Journal of Applied Ecology paper with NIE first and last
+    authors on optimising connectivity solutions for an arboreal gliding mammal.
+  url: https://api.openalex.org/works?filter=openalex_id:W7128724090|W4322495095&select=id,title,authorships,primary_location
+  fetched: '2026-11-13'
+  quote: 'Bridging the gap: Optimising connectivity solutions for an arboreal gliding
+    mammal'
+- claim: NIE gives its address as 1 Nanyang Walk, Singapore.
+  url: https://www.nie.edu.sg
+  fetched: '2026-11-13'
+  quote: National Institute of Education 1 Nanyang Walk, Singapore 637616
+links:
+- type: run-by
+  to: nanyang-technological-university
+  url: https://www.nie.edu.sg
+  fetched: '2026-11-13'
+  quote: an autonomous institute within NTU
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-13'

@@ -1,0 +1,63 @@
+id: instituto-de-biologia-subtropical
+kind: organisation
+name: Instituto de Biología Subtropical
+also_known_as:
+- IBS
+scope: ar
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+- remote-sensing
+hq: ar
+countries:
+- ar
+scale: local
+status: active
+summary: Argentine institute whose scientists carried out jaguar monitoring at Iguaçu National
+  Park, reported by CONICET in 2017, and which is a member of the MapBiomas Argentina network.
+facts:
+- claim: In June 2017, CONICET reported that IBS scientists had carried out the jaguar monitoring
+    with scientists from Brazil’s Projeto Carnivoros at Iguaçu National Park.
+  url: https://www.conicet.gov.ar/nuevo-monitoreo-cientifico-indica-que-crecio-la-poblacion-de-yaguaretes-en-misiones/
+  quote: el monitoreo fue llevado adelante por los científicos del IBS, en colaboración con
+    científicos del Projeto Carnivoros del Parque Nacional do Iguaçu.
+  fetched: '2026-11-03'
+- claim: CONICET’s June 2017 report said the study combined camera-trap surveys from 2016
+    with mathematical models to estimate the jaguar population.
+  url: https://www.conicet.gov.ar/nuevo-monitoreo-cientifico-indica-que-crecio-la-poblacion-de-yaguaretes-en-misiones/
+  quote: El nuevo estudio incluye relevamientos fotográficos realizados con cámaras trampa
+    durante 2016, que fueron combinados con modelos matemáticos para obtener la estimación
+    poblacional.
+  fetched: '2026-11-03'
+- claim: OpenAlex lists a 2020 paper with IBS authors on dealing with overprediction in species
+    distribution models.
+  url: https://api.openalex.org/works/W3037477230?select=id,title,doi,publication_year,authorships
+  quote: 'Dealing with overprediction in species distribution models: How adding distance
+    constraints can improve model accuracy'
+  fetched: '2026-11-03'
+- claim: Listed as a member of the MapBiomas Argentina network.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Facultad de Ciencias Forestales – UnaM, Instituto de Biología Subtropical
+- claim: MapBiomas says Collection 3 of its Argentina maps is the work of 25 institutions
+    and professionals from across the country.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: es el resultado de la colaboración de 25 instituciones y profesionales de todo el
+    país
+links:
+- type: partners-with
+  to: mapbiomas-argentina
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Facultad de Ciencias Forestales – UnaM, Instituto de Biología Subtropical
+found_by:
+- checklist:3
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-11-03'

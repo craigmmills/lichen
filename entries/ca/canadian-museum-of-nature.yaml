@@ -1,0 +1,54 @@
+id: canadian-museum-of-nature
+kind: organisation
+name: Canadian Museum of Nature
+also_known_as: []
+scope: ca
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+scale: national
+hq: ca
+status: active
+realms:
+- land
+summary: National museum that joined Canadensys and Agriculture and Agri-Food Canada to offer
+  a shared site for occurrence data in Canada.
+facts:
+- claim: Joined Canadensys and Agriculture and Agri-Food Canada on a unified occurrence data
+    site.
+  url: https://www.canadensys.net/post/2023/canadensyslaunch/
+  fetched: '2026-10-31'
+  quote: Canadensys , the Canadian Museum of Nature , and Agriculture and Agri-Food Canada
+    have come together to offer a unified site for sharing occurrence data in Canada.
+- claim: Mitacs lists it as partner on the project.
+  url: https://www.mitacs.ca/our-projects/machine-learning-classification-of-canadian-mammal-bones/
+  fetched: '2026-10-31'
+  quote: 'Partner: Canadian Museum of Nature'
+- claim: The project page states a plan to classify mammal skulls and mandibles with machine
+    learning.
+  url: https://www.mitacs.ca/our-projects/machine-learning-classification-of-canadian-mammal-bones/
+  fetched: '2026-10-31'
+  quote: we will use machine learning to classify Canadian mammal skulls and mandibles
+links:
+- type: partners-with
+  to: canadensys
+  url: https://www.canadensys.net/post/2023/canadensyslaunch/
+  fetched: '2026-10-31'
+  quote: Canadensys , the Canadian Museum of Nature , and Agriculture and Agri-Food Canada
+    have come together
+- type: partners-with
+  to: university-of-british-columbia
+  url: https://www.mitacs.ca/our-projects/machine-learning-classification-of-canadian-mammal-bones/
+  fetched: '2026-10-31'
+  quote: 'University: The University of British Columbia'
+found_by:
+- checklist:2
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca
+techniques:
+- computer-vision

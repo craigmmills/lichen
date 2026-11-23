@@ -1,0 +1,57 @@
+id: dna-data-bank-of-japan
+kind: dataset
+name: DNA Data Bank of Japan
+also_known_as:
+- DDBJ
+scope: jp
+ai_label: data-infrastructure
+techniques:
+- edna-genomics
+countries:
+- jp
+status: active
+website: https://www.ddbj.nig.ac.jp/
+summary: Nucleotide sequence database run by the National Institute of Genetics as an INSDC member, providing
+  data freely and exchanging released data daily with ENA/EBI and NCBI.
+facts:
+- claim: The Bioinformation and DDBJ Center collects nucleotide sequence data as a member of INSDC and
+    provides it freely.
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: 2026-11-02
+  quote: Bioinformation and DDBJ Center (BI-DDBJ) collects nucleotide sequence data as a member of
+- claim: Collects nucleotide sequence data as an INSDC member and provides it freely.
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: '2026-11-02'
+  quote: collects nucleotide sequence data as a member of
+- claim: Exchanges released data daily with ENA/EBI and NCBI.
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: '2026-11-02'
+  quote: exchanges the released data with
+links:
+- type: run-by
+  to: national-institute-of-genetics
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: 2026-11-02
+  quote: To operate DDBJ more efficiently, CIB; the Center for Information Biology was established in
+    NIG.
+- type: partners-with
+  to: international-nucleotide-sequence-database-collaboration
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: 2026-11-02
+  quote: Bioinformation and DDBJ Center (BI-DDBJ) collects nucleotide sequence data as a member of
+- type: partners-with
+  to: international-nucleotide-sequence-database-collaboration
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: '2026-11-02'
+  quote: collects nucleotide sequence data as a member of
+- type: run-by
+  to: national-institute-of-genetics
+  url: https://www.ddbj.nig.ac.jp/about/index-e.html
+  fetched: '2026-11-02'
+  quote: Currently, BI-DDBJ is in operation at
+found_by:
+- checklist:2
+- link-from:international-nucleotide-sequence-database-collaboration
+- link-from:national-institute-of-genetics
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,86 @@
+id: sistema-nacional-de-areas-de-conservacion
+kind: organisation
+name: Sistema Nacional de Áreas de Conservación
+also_known_as:
+- SINAC
+scope: cr
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+hq: cr
+scale: national
+status: active
+summary: Environment ministry body created under the 1998 Biodiversity Law, split into eleven
+  conservation areas, whose staff have collected ecological monitoring data under official
+  protocols since 2017.
+facts:
+- claim: Attached to the Ministry of Environment and Energy.
+  url: https://delfino.cr/2025/04/primer-encuentro-nacional-del-sinac-costa-rica-apuesta-por-fortalecer-su-monitoreo-ecologico
+  fetched: '2026-11-08'
+  quote: El Sistema Nacional de Áreas de Conservación (SINAC) , adscrito al Ministerio de
+    Ambiente y Energía (MINAE)
+- claim: Its staff have collected ecological monitoring data since 2017 under official protocols
+    in marine, land and freshwater ecosystems.
+  url: https://www.delfino.cr/2025/08/minae-implementara-nueva-plataforma-para-monitoreo-ecologico-de-la-biodiversidad
+  fetched: '2026-11-08'
+  quote: La plataforma integrará por primera vez todos los datos recolectados por SINAC desde
+    2017 mediante protocolos oficiales en ecosistemas marinos, terrestres y de agua dulce.
+- claim: A 2024 news report quotes its technical director on the use of AI and AudioMoth recorders
+    to gather data on great green macaws.
+  url: https://delfino.cr/2024/01/habitat-de-la-lapa-verde-sera-monitoreado-con-inteligencia-artificial
+  fetched: '2026-11-08'
+  quote: usar tecnologías de última generación como la inteligencia artificial y los audiomoths
+    para recopilar la información de las lapas verdes en esta primera etapa
+- claim: The 2025 national monitoring network meeting looked at camera traps and database
+    systems.
+  url: https://delfino.cr/2025/04/primer-encuentro-nacional-del-sinac-costa-rica-apuesta-por-fortalecer-su-monitoreo-ecologico
+  fetched: '2026-11-08'
+  quote: el uso de nuevas tecnologías como cámaras trampa y sistemas de bases de datos
+- claim: Is a body of the Ministry of Environment and Energy (MINAE), created under the Biodiversity
+    Law of 1998.
+  url: https://sinac.go.cr/ES/conozca/Paginas/default.aspx
+  fetched: '2026-11-08'
+  quote: Es una dependencia del Ministerio de Ambiente y Energ ía (MINAE)
+- claim: Brings together the national powers over forests, wildlife, protected areas and watersheds.
+  url: https://sinac.go.cr/ES/conozca/Paginas/default.aspx
+  fetched: '2026-11-08'
+  quote: que integra las competencias en materia forestal, vida silvestre, áreas protegidas
+    y la protección y conservación del uso de cuencas hidrográficas y sistemas hídricos
+- claim: Is divided into eleven conservation areas.
+  url: https://sinac.go.cr/ES/conozca/Paginas/default.aspx
+  fetched: '2026-11-08'
+  quote: Territorialmente, el SINAC esta dividido en once áreas de conservación
+- claim: Osa Conservation says its arboreal bridge dataset was gathered in collaboration with
+    SINAC.
+  url: https://osaconservation.org/database/
+  fetched: '2026-11-08'
+  quote: gathered in collaboration with SINAC
+links:
+- type: runs
+  to: costa-rica-es-biodiversidad-30x30
+  url: https://www.delfino.cr/2025/08/minae-implementara-nueva-plataforma-para-monitoreo-ecologico-de-la-biodiversidad
+  fetched: '2026-11-08'
+  quote: ejecutado por el SINAC y respaldado por fondos europeos
+- type: run-by
+  to: ministerio-de-ambiente-y-energia-costa-rica
+  url: https://sinac.go.cr/ES/conozca/Paginas/default.aspx
+  fetched: '2026-11-08'
+  quote: Es una dependencia del Ministerio de Ambiente y Energ ía (MINAE)
+- type: partners-with
+  to: osa-conservation
+  url: https://osaconservation.org/database/
+  fetched: '2026-11-08'
+  quote: gathered in collaboration with SINAC
+found_by:
+- checklist:1
+- link-from:osa-conservation
+added_by: agent
+checked: '2026-11-08'
+countries:
+- cr

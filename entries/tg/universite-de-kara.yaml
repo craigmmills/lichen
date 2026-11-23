@@ -1,0 +1,48 @@
+id: universite-de-kara
+kind: organisation
+name: Université de Kara
+also_known_as:
+- University of Kara
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: tg
+countries:
+- tg
+scale: national
+status: active
+website: https://univkara.tg
+summary: Togolese university in Kara that describes its research as done by laboratories,
+  specialised centres and international partnerships, with PREDES among its laboratories
+  and linked to a 2023 Mont Balam remote sensing paper.
+facts:
+- claim: The university describes its research as carried out by laboratories, specialised
+    centres and international partnerships.
+  url: https://univkara.tg/structures-de-recherche/
+  fetched: 2026-11-13
+  quote: L’Université de Kara dispose d’un écosystème de recherche dynamique composé
+    de laboratoires, centres spécialisés et partenariats internationaux.
+- claim: Its south campus address is in Kara, Togo.
+  url: https://univkara.tg/structures-de-recherche/
+  fetched: 2026-11-13
+  quote: 'Campus Sud : Route de l’ex ENI, BP : 43,'
+- claim: PREDES is listed among the university's research laboratories.
+  url: https://univkara.tg/structures-de-recherche/
+  fetched: 2026-11-13
+  quote: Pôle de Recherches et d’Expertise sur la Dynamique des Espaces et des Sociétés
+- claim: OpenAlex gives the University of Kara as the institution of the sole author
+    of a 2023 paper that processed Landsat images by remote sensing for the Mont Balam
+    classified forest management plan.
+  url: https://api.openalex.org/works?filter=openalex:W4387082286&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: '"display_name": "University of Kara"'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

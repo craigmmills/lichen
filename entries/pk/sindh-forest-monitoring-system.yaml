@@ -1,0 +1,40 @@
+id: sindh-forest-monitoring-system
+kind: programme
+name: Sindh Forest Monitoring System
+also_known_as:
+- SDFMS
+scope: pk
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: active
+website: https://www.sindhfmspak.org/
+summary: Provincial forest monitoring platform for Sindh, described as built on the
+  National Forest Monitoring System's architecture, with forest cover and deforestation
+  layers and data from 151 sample plots and 40 sub-plots measured in 2017.
+facts:
+- claim: Describes itself as Sindh's provincial forest monitoring platform, built
+    on the same architecture as the National Forest Monitoring System.
+  url: https://www.sindhfmspak.org/about
+  fetched: 2026-11-09
+  quote: SDFMS is the provincial forest monitoring platform for Sindh, built on the
+    same architecture as Pakistan's National Forest Monitoring System (NFMS).
+- claim: Provides multi-year forest cover and deforestation layers.
+  url: https://www.sindhfmspak.org/about
+  fetched: 2026-11-09
+  quote: Multi-year forest cover and deforestation layers from SD GeoServer.
+- claim: Holds data from 151 National Forest Inventory sample plots and 40 sub-plots
+    measured in 2017.
+  url: https://www.sindhfmspak.org/about
+  fetched: 2026-11-09
+  quote: 151 NFI sample plots and 40 sub-plots (2017) for Sindh.
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09
+runner: unknown

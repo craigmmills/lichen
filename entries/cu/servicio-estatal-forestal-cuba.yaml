@@ -1,0 +1,61 @@
+id: servicio-estatal-forestal-cuba
+kind: organisation
+name: Dirección del Servicio Estatal Forestal
+also_known_as:
+- Servicio Estatal Forestal
+- DSEF
+scope: cu
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- cu
+scale: national
+status: active
+summary: Forest sector authority under MINAG, coordinating the national forest monitoring
+  system, using Collect Earth Online and cited as the source of the 2019–2023 forest
+  emissions balance.
+facts:
+- claim: The technical annex names the Servicio Estatal Forestal (MINAG) as the competent
+    authority for the forest sector and institutional coordinator of the national
+    forest monitoring system.
+  url: https://unfccc.int/sites/default/files/resource/Anexo%20Tecnico%20de%20Resultados.pdf
+  fetched: 2026-11-12
+  quote: '1) Servicio Estatal Forestal (MINAG): Autoridad competente del sector forestal,
+    coordinador insƟtucional del'
+- claim: The annex gives the directorate as the source of the forest emissions balance
+    for 2019 to 2023.
+  url: https://unfccc.int/sites/default/files/resource/Anexo%20Tecnico%20de%20Resultados.pdf
+  fetched: 2026-11-12
+  quote: 'Tabla 11: Balance de emisiones. Periodo 2019-2023. (Fuente: Dirección Servicio
+    Estatal Forestal, Minag).'
+- claim: Forest activity data in the annex come from visual interpretation of satellite
+    imagery on the Collect Earth Online platform.
+  url: https://unfccc.int/sites/default/files/resource/Anexo%20Tecnico%20de%20Resultados.pdf
+  fetched: 2026-11-12
+  quote: utilizando la plataforma Collect Earth Online.
+links:
+- type: uses
+  to: collect-earth-online
+  url: https://unfccc.int/sites/default/files/resource/Anexo%20Tecnico%20de%20Resultados.pdf
+  fetched: 2026-11-12
+  quote: estadísƟco uƟlizando la plataforma Collect Earth Online (CEO), siguiendo
+    el mismo protocolo aplicado para la
+- type: leads
+  to: sistema-nacional-de-monitoreo-forestal-cuba
+  url: https://unfccc.int/sites/default/files/resource/Anexo%20Tecnico%20de%20Resultados.pdf
+  fetched: 2026-11-12
+  quote: '1) Servicio Estatal Forestal (MINAG): Autoridad competente del sector forestal,
+    coordinador insƟtucional del
+
+    SNMF y enlace técnico nacional ante la FAO y la CMNUCC.'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

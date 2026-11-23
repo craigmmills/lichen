@@ -1,0 +1,39 @@
+id: cnr-dipartimento-di-scienze-bio-agroalimentari
+kind: organisation
+name: CNR Dipartimento di Scienze Bio-AgroAlimentari
+also_known_as:
+- CNR-DiSBA
+scope: it
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+hq: it
+scale: national
+status: active
+website: https://www.disba.cnr.it/
+summary: CNR department that coordinates institutes holding research collections of organisms.
+  Its GBIF record says these collections are part of the national BioMemory network and have
+  been digitised and published.
+facts:
+- claim: The collections are part of the national BioMemory network and were digitised and
+    published under ITINERIS.
+  url: https://api.gbif.org/v1/organization/6563e0ba-fab7-431c-b897-b6bf364f4f1e
+  fetched: '2026-10-31'
+  quote: These collections are part of the national network of biological research collections
+    “BioMemory”, and have been fully digitized, standardized, and published within the Next
+    Generation EU Project
+- claim: Address in Rome.
+  url: https://www.disba.cnr.it/
+  fetched: '2026-10-31'
+  quote: P.le Aldo Moro.7
+links:
+- type: partners-with
+  to: dissco
+  url: https://api.gbif.org/v1/organization/6563e0ba-fab7-431c-b897-b6bf364f4f1e
+  fetched: '2026-10-31'
+  quote: Distributed System of Scientific Collections
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

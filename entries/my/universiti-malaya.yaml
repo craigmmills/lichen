@@ -1,0 +1,52 @@
+id: universiti-malaya
+kind: organisation
+name: Universiti Malaya
+also_known_as:
+- University of Malaya
+- UM
+- Universiti Malaya
+scope: my
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: University with 16 OpenAlex-counted works on AI in ecology subfields since 2018,
+  a 2021 cephalopod identification paper, and a sustainability site promoting the City Nature
+  Challenge in Klang Valley.
+facts:
+- claim: OpenAlex counts 16 works with its authors on AI in ecology subfields since 2018.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: University of Malaya
+- claim: Its sustainability site promotes the City Nature Challenge in Klang Valley and encourages
+    uploads to iNaturalist.
+  url: https://sustainability.um.edu.my/events/city-nature-challenge-returns-to-klang-valley-for-its-11th-year
+  fetched: 2026-11-03
+  quote: Take clear photos and upload them using iNaturalist.
+- claim: OpenAlex lists a 2021 paper on identifying cephalopod species.
+  url: https://api.openalex.org/works/W3190149569?select=id,doi,display_name,authorships,publication_year
+  fetched: '2026-11-03'
+  quote: Cephalopod species identification using integrated analysis of machine learning and
+    deep learning approaches
+  ai_type: deep-learning
+- claim: The first author gives this affiliation.
+  url: https://api.openalex.org/works/W3190149569?select=id,doi,display_name,authorships,publication_year
+  fetched: '2026-11-03'
+  quote: Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, Universiti
+    Malaya
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

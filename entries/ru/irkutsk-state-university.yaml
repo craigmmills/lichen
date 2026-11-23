@@ -1,0 +1,43 @@
+id: irkutsk-state-university
+kind: organisation
+name: Irkutsk State University
+scope: ru
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+scale: national
+hq: ru
+status: active
+summary: University whose biologists Snob named among Baikal plankton network developers in
+  September 2022 and reported sampling at one lake point under a monitoring programme dating
+  from 1945.
+facts:
+- claim: In September 2022, Snob named its Research Institute of Biology among the developers
+    of the Baikal plankton network.
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: Разработкой нейросети занимались команда Yandex Cloud, специалисты НИИ биологии Иркутского
+    государственного университета, компания MaritimeAI и Фонд поддержки прикладных экологических
+    разработок и исследований «Озеро Байкал»
+- claim: Snob reports that its specialists take water samples from one point on Lake Baikal
+    under the Point No. 1 monitoring programme, running since 1945.
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: С 1945 года на Байкале действует программа мониторинга экосистемы под названием «Точка
+    №1»
+- claim: Its GBIF publisher record gives its address in Irkutsk.
+  url: https://api.gbif.org/v1/organization/4fc71e6a-ca13-4ab4-a6ad-c797459f09eb
+  fetched: '2026-10-31'
+  quote: Karl Marx St., 1
+also_known_as:
+- ИГУ
+realms:
+- freshwater
+techniques:
+- computer-vision
+website: http://isu.ru/ru/index.html
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

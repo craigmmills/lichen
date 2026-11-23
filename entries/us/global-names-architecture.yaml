@@ -1,0 +1,30 @@
+id: global-names-architecture
+kind: programme
+name: Global Names Architecture
+also_known_as:
+- GNA
+- GlobalNames
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: http://globalnames.org/
+runner: unknown
+summary: System of web services and databases that registers, finds, checks and cross-links
+  the scientific names of organisms.
+facts:
+- claim: System of web services for biological names.
+  url: http://globalnames.org/
+  fetched: '2026-10-30'
+  quote: is a system of web-services which helps people to register, find, index,
+    check and organize biological scientific names
+- claim: Scope covers all life forms.
+  url: https://api.gbif.org/v1/organization/8bf297bb-ec4e-4165-97f5-f250109480c0
+  fetched: '2026-10-30'
+  quote: The scope encompasses all life forms
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

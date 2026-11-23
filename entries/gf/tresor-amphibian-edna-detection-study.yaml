@@ -1,0 +1,64 @@
+id: tresor-amphibian-edna-detection-study
+kind: project
+name: Etude sur la détection d'Amphibiens de Guyane à partir de l'ADN environnemental
+scope: gf
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+countries:
+- gf
+status: closed
+summary: A closed study led by Association Trésor, funded by the Collectivité Territoriale
+  de Guyane and DGTM Guyane, on detecting French Guiana amphibians from environmental
+  DNA, sampled from December 2021 to January 2022 with SPYGEN analysis.
+facts:
+- claim: The report says Association Trésor, a manager of protected natural areas
+    in French Guiana, led the study, which included sampling from December 2021 to
+    January 2022.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: L’association Trésor, gestionnaire d’espaces naturels protégés en Guyane,
+    porte ce présent
+- claim: The report says the project is on detecting French Guiana amphibian species
+    from environmental DNA.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: projet sur la détection de la présence d’espèces d’amphibiens de Guyane à
+    partir d’ADN
+- claim: The report says SPYGEN sent the analysis results to Association Trésor.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: La société SPYGEN a transmis à l’association Trésor les résultats d’analyses
+links:
+- type: led-by
+  to: association-tresor
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: L’association Trésor, gestionnaire d’espaces naturels protégés en Guyane,
+    porte ce présent
+- type: funded-by
+  to: collectivite-territoriale-de-guyane
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: Le projet a bénéficié du soutien financier de la Direction Générale des Territoires
+    et de la Mer, de la Fondation Trésor et de la Collectivité Territoriale de la
+    Guyane.
+- type: funded-by
+  to: dgtm-guyane
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: Le projet a bénéficié du soutien financier de la Direction Générale des Territoires
+    et de la Mer, de la Fondation Trésor et de la Collectivité Territoriale de la
+    Guyane.
+- type: uses
+  to: spygen
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2022/12/2022_Rapport_final_Projet_ADNe_VF.pdf
+  fetched: 2026-11-14
+  quote: La société SPYGEN a transmis à l’association Trésor les résultats d’analyses
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

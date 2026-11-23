@@ -1,0 +1,42 @@
+id: southeast-university-bangladesh
+kind: organisation
+name: Southeast University
+also_known_as: []
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+techniques:
+- edna-genomics
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Dhaka university whose Department of Computer Science and Engineering researcher
+  was last author of a 2019 paper on identifying species from DNA barcode sequences using
+  supervised learning.
+facts:
+- claim: A researcher in its Department of Computer Science and Engineering was last author
+    of a 2019 paper on species identification from DNA barcode sequences with supervised learning
+    methods.
+  url: https://api.openalex.org/works/W2938496417?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Species Identification using DNA Barcode Sequences through Supervised Learning Methods
+- claim: OpenAlex gives the last author's affiliation as the Department of Computer Science
+    and Engineering, Southeast University, Dhaka.
+  url: https://api.openalex.org/works/W2938496417?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Department of Computer Science and Engineering, Southeast University, Dhaka, Bangladesh
+- claim: The paper's title names the method (ml-supervised).
+  url: https://api.openalex.org/works/W2938496417?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Species Identification using DNA Barcode Sequences through Supervised Learning Methods
+  ai_type: ml-supervised
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-07'

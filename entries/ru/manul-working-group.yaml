@@ -1,0 +1,52 @@
+id: manul-working-group
+kind: organisation
+name: Manul Working Group
+scope: ru
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+website: http://savemanul.org
+countries:
+- ru
+summary: Group of specialists on the manul that runs and built the Small Wild Cats of Eurasia
+  database and uses a faunistics Web-GIS, where Sibecocenter's GBIF record says it has sections.
+facts:
+- claim: Its site says it brings together specialists on the manul.
+  url: http://savemanul.org
+  fetched: '2026-10-31'
+  quote: Manul Working Group brings together specialists involved in the study and conservation
+    of manul in the wild and in captivity
+- claim: Sibecocenter's GBIF record names the Working Group on the Study and Conservation
+    of Pallas' Cat among the groups with sections on its Web-GIS.
+  url: https://api.gbif.org/v1/organization/477dbd45-674f-4389-8952-7c9bbde10f68
+  fetched: '2026-10-31'
+  quote: Working Group on the Study and Conservation of Pallas' Cat in the Steppes Northern
+    Eurasia
+links:
+- type: runs
+  to: small-wild-cats-of-eurasia-database
+  url: https://savemanul.org/resources/database/
+  fetched: '2026-10-31'
+  quote: The Manul Working Group has created and maintains a database on Small Wild Cats of
+    Eurasia
+- type: uses
+  to: web-gis-faunistics
+  url: https://api.gbif.org/v1/organization/477dbd45-674f-4389-8952-7c9bbde10f68
+  fetched: '2026-10-31'
+  quote: Working Group on the Study and Conservation of Pallas' Cat in the Steppes Northern
+    Eurasia
+- type: builds
+  to: small-wild-cats-of-eurasia-database
+  url: https://savemanul.org/resources/database/
+  fetched: '2026-10-31'
+  quote: The Manul Working Group has created
+found_by:
+- link-from:sibecocenter
+added_by: agent
+checked: '2026-10-31'

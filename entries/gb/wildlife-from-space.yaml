@@ -1,0 +1,53 @@
+id: wildlife-from-space
+kind: programme
+name: Wildlife from Space
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+website: https://www.bas.ac.uk/project/wildlife-from-space/
+summary: British Antarctic Survey project using very high resolution satellite images, and
+  automated counting with AI, to census polar wildlife including whales, seals and walrus.
+facts:
+- claim: BAS scientists developed automated counting using AI on satellite images.
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  fetched: '2026-10-31'
+  quote: developed automated counting techniques using Artificial Intelligence
+- claim: Runs a whole-population census of Atlantic and Laptev walrus from satellite images.
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  fetched: '2026-10-31'
+  quote: aims to carry out the first ever whole population census of Atlantic and Laptev walrus
+    using satellite imagery
+- claim: Project staff are authors of a study of whale detection with deep learning.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7162558743|W4324055448|W4381853351&select=id,title,publication_year,authorships&per_page=10
+  fetched: '2026-10-31'
+  quote: Gray whale detection in satellite imagery using deep learning
+  ai_type: deep-learning
+- claim: Developed automated counting techniques using AI.
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  quote: developed automated counting techniques using Artificial Intellige
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: british-antarctic-survey
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  fetched: '2026-10-31'
+  quote: BAS scientists have led investigations using satellite technology
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  quote: British Antarctic Survey (BAS) and WWF (Worldwide Fund for Nature) are asking the
+    public to become
+  fetched: *id001
+found_by:
+- checklist:research
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,47 @@
+id: copenhagen-zoo
+kind: organisation
+name: Copenhagen Zoo
+scope: dk
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: dk
+countries:
+- dk
+- id
+scale: global
+status: active
+website: https://www.zoo.dk
+summary: A zoo in Frederiksberg that contributes biodiversity monitoring in Danish forests
+  and monitors species by satellite tracking in Baluran, funded by the Hempel Foundation.
+facts:
+- claim: Contributes biodiversity monitoring in Danish forests.
+  url: https://www.zoo.dk/en/projects/species-rich-production-forest-in-vesterskoven
+  fetched: '2026-11-02'
+  quote: Today, Copenhagen Zoo contributes biological expertise, advice and biodiversity monitoring
+    to help document how nature is developing in the forests.
+- claim: Monitors species by satellite tracking in Baluran.
+  url: https://www.zoo.dk/en/projects/baluran-national-park
+  fetched: '2026-11-02'
+  quote: we monitor populations of species including banteng and Javan leopard using satellite
+    tracking devices
+- claim: Its address is in Frederiksberg.
+  url: https://www.zoo.dk/en/contact-zoo
+  fetched: '2026-11-02'
+  quote: 2000 Frederiksberg
+links:
+- type: funded-by
+  to: hempel-foundation
+  url: https://hempelfoundation.com/biodiversity-partners
+  fetched: '2026-11-02'
+  quote: Copenhagen ZOO 2024- 2028 | 7.950 M DKK
+  amount: 7950000
+  currency: DKK
+found_by:
+- link-from:hempel-foundation
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-02'

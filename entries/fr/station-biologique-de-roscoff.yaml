@@ -1,0 +1,30 @@
+id: station-biologique-de-roscoff
+kind: organisation
+name: Station Biologique de Roscoff
+scope: fr
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+hq: fr
+scale: national
+status: active
+summary: Marine station in Brittany whose Plankton Group work led to the PR2 reference sequence
+  database, and where ATLASea has run sampling campaigns.
+facts:
+- claim: PR2 grew from work in the Plankton Group at Roscoff.
+  url: https://pr2-database.org/
+  fetched: '2026-10-31'
+  quote: in the Plankton Group of the Station Biologique of Roscoff
+- claim: ATLASea ran a sampling campaign at the station in 2026.
+  url: https://www.atlasea.fr/en/
+  fetched: '2026-10-31'
+  quote: ATLASea conducted a new sampling campaign at the Roscoff Biological Station
+found_by:
+- link-from:pr2-database
+added_by: agent
+checked: '2026-10-31'

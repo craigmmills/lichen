@@ -1,0 +1,53 @@
+id: dalhousie-university
+kind: organisation
+name: Dalhousie University
+scope: ca
+sector: academic
+roles:
+- convenes
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+hq: unknown
+countries:
+- ca
+scale: national
+status: active
+summary: Canadian university that is the host institution for the Ocean Tracking Network,
+  leads the Ocean Frontier Institute, and houses DeepSense in its Faculty of Computer Science.
+facts:
+- claim: Host institution for the Ocean Tracking Network.
+  url: https://oceantrackingnetwork.org/funding-partners/
+  fetched: '2026-10-31'
+  quote: Dalhousie University is the host institution for OTN.
+- claim: Holds two large Canada First Research Excellence Fund awards managed by OFI.
+  url: https://oceanfrontierinstitute.com/about
+  fetched: '2026-10-31'
+  quote: Dalhousie University’s two largest awards from the Canada First Research Excellence
+    Fund
+- claim: MERIDIAN says Ketos was developed by its Data Analytics Team at the Institute for
+    Big Data Analytics at Dalhousie University.
+  url: https://meridian.cs.dal.ca/2015/04/12/ketos/
+  fetched: '2026-10-31'
+  quote: Ketos was developed by the MERIDIAN Data Analytics Team at the Institute for Big
+    Data Analytics at Dalhousie University.
+links:
+- type: leads
+  to: ocean-frontier-institute
+  url: https://oceanfrontierinstitute.com/about
+  fetched: '2026-10-31'
+  quote: led by Dalhousie University
+- type: runs
+  to: ketos
+  url: https://meridian.cs.dal.ca/2015/04/12/ketos/
+  fetched: '2026-10-31'
+  quote: Ketos was developed by the MERIDIAN Data Analytics Team at the Institute for Big
+    Data Analytics at Dalhousie University.
+found_by:
+- link-from:ocean-tracking-network
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- bioacoustics

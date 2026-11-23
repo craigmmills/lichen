@@ -1,0 +1,35 @@
+id: the-nat
+kind: organisation
+name: The NAT
+scope: us
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+hq: unknown
+countries:
+- us
+scale: national
+status: active
+summary: New York organisation with a Patrick J. McGovern Foundation grant to create AI tools
+  for monitoring and storytelling. Its own sites refused the fetcher.
+facts:
+- claim: McGovern Foundation grant for AI tools for monitoring and storytelling.
+  url: https://www.mcgovern.org/grants/
+  fetched: '2026-10-30'
+  quote: to support creating and deploying AI tools for monitoring and storytelling
+- claim: Global University Systems describes it as a cultural platform launched during London
+    Climate Action Week.
+  url: https://www.globaluniversitysystems.com/news/group/global-university-systems-partners-with-the-nat-to-champion-nature-positive-education
+  fetched: '2026-10-31'
+  quote: a bold new cultural platform launched during London Climate Action Week
+links:
+- type: funded-by
+  to: patrick-j-mcgovern-foundation
+  url: https://www.mcgovern.org/grants/
+  fetched: '2026-10-30'
+  quote: to support creating and deploying AI tools for monitoring and storytelling
+found_by:
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'

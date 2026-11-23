@@ -1,0 +1,41 @@
+id: remote-forest-use-monitoring-russia
+kind: programme
+name: Remote monitoring of forest use in Russia
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ru
+status: active
+summary: A programme run by Roslesinforg using Roscosmos data, which covered 546 forest districts and
+  300 million hectares in April 2024.
+facts:
+- claim: Covered 546 forest districts and 300 million hectares in April 2024.
+  url: https://www.comnews.ru/content/232662/2024-04-12/2024-w15/1012/roslesinforg-vyyavlyaet-nezakonnye-rubki-pomoschyu-kosmicheskogo-monitoringa
+  quote: На сегодняшний день из космоса наблюдают за 546 лесничествами площадью 300 млн га
+  fetched: '2026-10-31'
+- claim: Expert reported Roslesinforg as saying that in 2024 it would cover every second region and reach
+    300 million hectares.
+  url: https://expert.ru/news/sputnikovyy-kontrol-vpervye-rasprostranyat-na-vse-kommercheskie-rubki-lesa-v-rossii
+  quote: В 2024 году дистанционный мониторинг использования лесов будет проводиться в каждом втором регионе
+    страны.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: roslesinforg
+  url: https://www.akm.ru/press/ezhednevno_v_roslesinforge_analiziruyut_svyshe_1_tysyachi_kosmosnimkov_lesov/
+  quote: В Рослесинфорге сопоставляют официально зарегистрированные рубки с теми, которые отражены на
+    космическом снимке и анализируют динамику изменений лесного покрова.
+  fetched: '2026-10-31'
+- type: uses
+  to: roscosmos
+  url: https://www.comnews.ru/content/232662/2024-04-12/2024-w15/1012/roslesinforg-vyyavlyaet-nezakonnye-rubki-pomoschyu-kosmicheskogo-monitoringa
+  quote: снимки высокого разрешения для мониторинга лесов, Рослесинфоргу предоставляет Роскосмос
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

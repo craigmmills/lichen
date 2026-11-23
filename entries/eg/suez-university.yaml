@@ -1,0 +1,41 @@
+id: suez-university
+kind: organisation
+name: Suez University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: https://suezuni.edu.eg
+summary: University that OpenAlex gives as the first author's affiliation on a 2026 paper
+  assessing Lake Nasser's optical and thermal variability with MODIS data from 2005 to 2025.
+facts:
+- claim: 'OpenAlex lists the 2026 paper Two Decades of Optical and Thermal Variability in
+    Lake Nasser: A Multi-Variable MODIS Assessment on a 5 km Analysis Grid (2005-2025).'
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00ndhrx30,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Two Decades of Optical and Thermal Variability in Lake Nasser:
+    A Multi-Variable MODIS Assessment on a 5 km Analysis Grid (2005\u20132025)", "publication_year":
+    2026, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Youssef M. Youssef, the affiliation Suez University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00ndhrx30,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Youssef M. Youssef", "raw_affiliation_strings": ["Geological
+    and Geophysical Engineering Department, Faculty of Petroleum and Mining Engineering, Suez
+    University, Suez 43518, Egypt"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

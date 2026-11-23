@@ -1,0 +1,65 @@
+id: kronotsky-state-nature-reserve
+kind: organisation
+name: Kronotsky State Nature Reserve
+scope: ru
+sector: government
+roles:
+- uses-ai
+- convenes
+- governs
+ai_label: ai
+scale: local
+hq: ru
+status: active
+summary: State nature reserve whose 2024 pages describe ongoing neural network training to
+  detect litter from quadcopter images and conservation research involving AI with Greentech.
+facts:
+- claim: Its page on 2024 marine projects says the south Kamchatka litter project team uses
+    a neural network, which it trains to detect litter from a quadcopter.
+  url: https://kronoki.ru/ru/news/newswire/3405.html
+  fetched: '2026-10-31'
+  quote: использует нейросеть, которую обучает обнаружению и качественному распознаванию скоплений
+    мусора с квадрокоптера в разных условиях
+- claim: In April 2024, its page said its staff and Greentech were carrying out conservation
+    projects including AI and neural network research.
+  url: https://kronoki.ru/ru/news/newswire/3384.html
+  fetched: '2026-10-31'
+  quote: различные исследования, связанные с искусственным интеллектом и нейросетями
+- claim: Its GBIF publisher record gives its address in Yelizovo.
+  url: https://api.gbif.org/v1/organization/f51adf9c-55cc-4983-92bf-fa5016740927
+  fetched: '2026-10-31'
+  quote: 684000, Kamchatka region, Yelizovo, Ryabikova street 48
+- claim: CROC’s February 2022 report says the WildHack hackathon was held with the reserve
+    in the preceding December.
+  url: https://habr.com/ru/companies/croc/articles/651391/
+  fetched: 2026-10-31
+  quote: совместно с Кроноцким заповедником
+- claim: CROC’s February 2022 hackathon report describes participant neural network solutions
+    for detecting bears in camera-trap images and counting fish.
+  url: https://habr.com/ru/companies/croc/articles/651391/
+  fetched: 2026-10-31
+  quote: два решения на основе нейронных сетей (одно отлавливает медведей на фотоловушках,
+    а другое подсчитывает рыб)
+- claim: Has state inspectors who protect the Kronotsky Reserve and the Koryak Reserve and
+    South Kamchatka Federal Sanctuary under its structure.
+  url: https://kronoki.ru/ru/tasks/protection/
+  quote: Государственные инспекторы охраняют территорию не только Кроноцкого заповедника,
+    но и структурно подчиненных ФГБУ «Кроноцкий государственный заповедник» Корякского заповедника
+    и Южно-Камчатского федерального заказника.
+  fetched: '2026-11-17'
+also_known_as:
+- Кроноцкий заповедник
+- ФГБУ «Кроноцкий государственный заповедник»
+- Kronotsky Nature Reserve
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- computer-vision
+website: https://kronoki.ru/
+found_by:
+- register:gbif-publisher
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

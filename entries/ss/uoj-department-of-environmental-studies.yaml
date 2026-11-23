@@ -1,0 +1,39 @@
+id: uoj-department-of-environmental-studies
+kind: organisation
+name: Department of Environmental Studies, University of Juba
+scope: ss
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: ss
+countries: []
+scale: national
+status: active
+summary: Department at the University of Juba, with which the first author of a 2023 paper on land use
+  change from oil exploration and production in Melut County was affiliated.
+facts:
+- claim: The first author of a 2023 paper on land use and land cover change from oil exploration and production
+    in Melut County was affiliated with the department.
+  url: https://api.openalex.org/works/W4381057536?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Land Use Land Cover Change Detection of Oil Exploration and Production in Melut County, Upper
+    Nile State, South Sudan
+- claim: The first author's affiliation gives the department and school in Juba.
+  url: https://api.openalex.org/works/W4381057536?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Department of Environmental Studies, School of Natural Resources and Environmental Studies, University
+    of Juba, Juba, Republic of South Sudan
+links:
+- type: run-by
+  to: university-of-juba
+  url: https://api.openalex.org/works/W4381057536?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Department of Environmental Studies, School of Natural Resources and Environmental Studies, University
+    of Juba, Juba, Republic of South Sudan
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

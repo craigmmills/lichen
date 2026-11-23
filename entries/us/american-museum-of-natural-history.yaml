@@ -1,0 +1,44 @@
+id: american-museum-of-natural-history
+kind: organisation
+name: American Museum of Natural History
+scope: us
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: New York museum where Mary Blair presented work for NASA on an integrated biodiversity
+  monitoring system for Colombia's protected areas.
+facts:
+- claim: Presented at the NASA Biodiversity team meeting.
+  url: https://cce.nasa.gov/biodiversity/meeting_2024/agenda.html
+  fetched: '2026-10-30'
+  quote: Mary Blair/American Museum of Natural History
+- claim: 'BON in a Box: Wallace is an R application for ecological modelling.'
+  url: https://boninabox.geobon.org/tool-detail?id=231
+  fetched: '2026-10-30'
+  quote: Wallace is an R-based GUI application for ecological modeling
+- claim: BON in a Box names the museum as contact organisation for Wallace.
+  url: https://boninabox.geobon.org/tool-detail?id=231
+  fetched: '2026-10-30'
+  quote: 'Contact Organization: American Museum of Natural History'
+- claim: The IRS exempt organisation record, through ProPublica, lists American Museum Of
+    Natural History at New York, New York.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/136162659.json
+  fetched: '2026-10-31'
+  quote: '"city":"New York","state":"NY"'
+found_by:
+- link-from:nasa-ecological-conservation-program
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- species-distribution
+also_known_as:
+- AMNH

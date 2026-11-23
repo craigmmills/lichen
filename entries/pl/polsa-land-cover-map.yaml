@@ -1,0 +1,45 @@
+id: polsa-land-cover-map
+kind: dataset
+name: POLSA Land Cover Map (MPT)
+scope: pl
+ai_label: data-infrastructure
+status: active
+summary: Land cover dataset run by the Polish Space Agency, whose newest edition has 10 classes, two of
+  them forest, and whose Geoportal map was made from Sentinel-2 images recorded in 2024.
+also_known_as:
+- Mapa pokrycia terenu
+- MPT
+realms:
+- land
+techniques:
+- remote-sensing
+facts:
+- claim: The newest edition of the map has 10 classes, two of them forest.
+  url: https://polsa.gov.pl/wydarzenia/nowe-produkty-satelitarne-polsa-w-obszarze-lesnictwa/
+  fetched: '2026-11-02'
+  quote: 'mapa pokrycia terenu (MPT), oferująca podział na 10 klas, w tym dwie leśne: lasy liściaste oraz
+    lasy iglaste'
+- claim: The map shown on Geoportal was made from Sentinel-2 images recorded in 2024.
+  url: https://www.gov.pl/web/gugik/nowa-warstwa--klasyfikacja-pokrycia-terenu-2024
+  fetched: '2026-11-02'
+  quote: Mapa przedstawia klasyfikację pokrycia terenu wykonaną na podstawie zdjęć satelitarnych Sentinel-2
+    zarejestrowanych w 2024 roku.
+- claim: In April 2021, agency president Grzegorz Wrochna said the map had been commissioned by POLSA.
+  url: https://polsa.gov.pl/wydarzenia/polsa-i-gugik-wspolnie-udostepniaja-dane-satelitarne/
+  fetched: '2026-11-02'
+  quote: mapy zobrazowania Polski, która powstała na zlecenie POLSA
+links:
+- type: run-by
+  to: polish-space-agency
+  url: https://polsa.gov.pl/wydarzenia/nowe-produkty-satelitarne-polsa-w-obszarze-lesnictwa/
+  fetched: '2026-11-02'
+  quote: nowa edycja flagowego produktu satelitarnego POLSA – mapa pokrycia terenu (MPT)
+- type: partners-with
+  to: head-office-of-geodesy-and-cartography-poland
+  url: https://polsa.gov.pl/wydarzenia/polsa-i-gugik-wspolnie-udostepniaja-dane-satelitarne/
+  fetched: '2026-11-02'
+  quote: współpraca przy przygotowywaniu i aktualizacji mapy pokrycia terenu Polski
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

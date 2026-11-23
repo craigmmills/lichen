@@ -1,0 +1,37 @@
+id: accenture
+kind: organisation
+name: Accenture
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: ie
+scale: global
+status: active
+website: https://www.accenture.com
+summary: Professional services company that built Project CORaiL with Intel and the Sulubaaï
+  Environmental Foundation.
+facts:
+- claim: A press release carried by Nasdaq says it developed the Project CORaiL reef monitoring
+    solution with Intel and the Sulubaaï Environmental Foundation.
+  url: https://www.nasdaq.com/press-release/accenture-intel-and-sulubaai-environmental-foundation-use-artificial-intelligence-to
+  fetched: &id001 2026-10-30
+  quote: 'Accenture (NYSE: ACN), Intel and the Philippines -based Sulubaaï Environmental Foundation
+    have developed a new solution powered by artificial intelligence (AI)'
+- claim: Headquartered in Dublin.
+  url: https://en.wikipedia.org/wiki/Accenture
+  fetched: 2026-10-30
+  quote: Headquarters at 1 Grand Canal Square , Dublin
+- claim: Wikipedia says it is a technology consulting company headquartered in Dublin, Ireland.
+  url: https://en.wikipedia.org/wiki/Accenture
+  quote: Accenture plc is a technology consulting company headquartered in Dublin , Ireland.
+  fetched: '2026-10-30'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

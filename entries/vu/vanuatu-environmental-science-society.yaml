@@ -1,0 +1,95 @@
+id: vanuatu-environmental-science-society
+kind: organisation
+name: The Vanuatu Environmental Science Society
+also_known_as:
+- VESS
+scope: vu
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+hq: vu
+countries: []
+scale: national
+status: unknown
+website: https://www.vanuatuconservation.org
+summary: Small local NGO in Port Vila, funded by CEPF, publishing bat, seagrass and
+  dugong datasets to GBIF, including 849 recalled dugong sightings with uncertain
+  dates and locations.
+facts:
+- claim: Its GBIF publisher registration describes it as a small local NGO concerned
+    with conservation and environmental issues in Vanuatu.
+  url: https://api.gbif.org/v1/organization/7fba1c45-ef92-4472-85f0-0165361356d3
+  fetched: 2026-11-14
+  quote: VESS is a small local NGO conserved with conservation and environmental issues
+    in Vanuatu.
+- claim: The same registration says it had projects for the conservation of dugongs
+    and flying foxes and was collecting occurrence data on both.
+  url: https://api.gbif.org/v1/organization/7fba1c45-ef92-4472-85f0-0165361356d3
+  fetched: 2026-11-14
+  quote: Currently we have project for the conservation of dugongs and flying foxes
+    and are collecting occurrence data on them both.
+- claim: The registration gives an address at Anchor House, Kumal Highway, Port Vila.
+  url: https://api.gbif.org/v1/organization/7fba1c45-ef92-4472-85f0-0165361356d3
+  fetched: 2026-11-14
+  quote: Anchor House, Kumal Highway
+- claim: It publishes 849 records of dugong sightings recalled by community members
+    during the CMS dugong catch and by-catch questionnaire survey conducted in 2015
+    to 2017. The sightings could date from any time in respondents' lives, and their
+    dates and mapped locations may be inaccurate.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=7fba1c45-ef92-4472-85f0-0165361356d3&limit=20
+  fetched: 2026-11-14
+  quote: Vanuatu dugong sightings recorded during CMS dugong catch / by-catch standardised
+    questionnaire 2015-2017
+- claim: It also publishes datasets of bats netted in the Banks Islands and of seagrass
+    specimens it collected.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=7fba1c45-ef92-4472-85f0-0165361356d3&limit=20
+  fetched: 2026-11-14
+  quote: Seagrass plants collected by the Vanuatu Environmental Science Society form
+    various locations in Vanuatu.
+- claim: Its CEPF final report for a project from April 2020 to December 2021 says
+    it led the project, and that the planned bat acoustic and trapping survey was
+    changed to static acoustic monitoring while Vanuatu's borders were closed.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2775
+  fetched: 2026-11-14
+  quote: The Vanuatu Environmental Science Society was the project lead and responsible
+    for the
+- claim: The same report describes static acoustic monitoring of bats in that project.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2775
+  fetched: 2026-11-14
+  quote: The planned acoustic and trapping survey was modified to include static acoustic
+    monitoring
+- claim: Its CEPF final report for a dugong and seagrass project from July 2017 to
+    December 2021 says it implemented the project and that the monitoring under it
+    created a baseline, with sites including Erakor Lagoon.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2453
+  fetched: 2026-11-14
+  quote: The monitoring that has taken place under this project has created a baseline
+    for continued
+- claim: The same report lists ten monitoring events at Erakor Lagoon, South Efate.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2453
+  fetched: 2026-11-14
+  quote: Erakor Lagoon, South Efate, (10 monitoring events)
+- claim: A third CEPF final report, for a project from June 2017 to December 2021,
+    says its datasets were published to GBIF.
+  url: https://cepf.net/resources/final-project-report/final-project-report-2455
+  fetched: 2026-11-14
+  quote: datasets have been published to GBIF.
+links:
+- type: funded-by
+  to: critical-ecosystem-partnership-fund
+  url: https://cepf.net/resources/final-project-report/final-project-report-2453
+  fetched: 2026-11-14
+  quote: 'Grant Amount:  $92,550.00'
+  amount: 92550
+  year: 2017
+found_by:
+- rule:round-2
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-14

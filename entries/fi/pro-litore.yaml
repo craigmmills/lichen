@@ -1,0 +1,36 @@
+id: pro-litore
+kind: organisation
+name: Pro Litore
+also_known_as:
+- Pro Litore ry
+scope: fi
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+hq: unknown
+scale: local
+status: active
+summary: Organisation that carried out the SAARI water quality measurements using the Coastrider
+  method, an automatic moving system that needs no samples.
+facts:
+- claim: Carried out the SAARI water quality measurements with the Coastrider method, an automatic
+    moving measuring system that needs no samples.
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: Pro Litore ry will carry this out with the Coastrider method, which measures the
+    water quality using an automatic, moving measuring system.
+links:
+- type: runs
+  to: saari-gullkrona-water-quality-mapping
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: SAARI is a joint project between Pro Litore ry and BSAG.
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+- link-from:saari-gullkrona-water-quality-mapping
+added_by: agent
+checked: '2026-11-08'

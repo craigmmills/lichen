@@ -1,0 +1,49 @@
+id: kasetsart-university
+kind: organisation
+name: Kasetsart University
+also_known_as:
+- KU
+scope: th
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: th
+countries:
+- th
+scale: national
+status: active
+website: https://www.ku.ac.th/
+summary: University with a Bangkok address that publishes a GBIF dataset on medically important
+  flies in Thailand.
+facts:
+- claim: Its GBIF publisher record gives a Bangkok address.
+  url: https://api.gbif.org/v1/organization/e29a1806-c1cf-424d-bf0e-4c9557a3b35f
+  fetched: 2026-11-08
+  quote: 50 Ngamwongwan Rd, Chatuchak Bangkok 10900 Thailand
+- claim: Publishes a dataset on the distribution of flies of medical importance in Thailand
+    through GBIF.
+  url: https://api.gbif.org/v1/organization/e29a1806-c1cf-424d-bf0e-4c9557a3b35f/publishedDataset
+  fetched: 2026-11-08
+  quote: Distribution of flies of medical importance in Thailand
+- claim: Was the executing agency of the ITTO border forest monitoring project.
+  url: https://www.itto.int/project/id/PP-A_60-369
+  fetched: 2026-11-08
+  quote: Kasetsart University as the Executing agency
+- claim: OpenAlex lists a 2016 paper whose first author, Yongyut Trisurat, gives an affiliation
+    at Kasetsart University.
+  url: https://api.openalex.org/works?filter=institutions.ror:05gzceg21,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=50&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Integrating land use and climate change scenarios and models into assessment of forested
+    watershed services in Southern Thailand
+links: []
+found_by:
+- checklist:3
+- register:th
+added_by: agent
+checked: 2026-11-08

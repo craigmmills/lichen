@@ -1,0 +1,39 @@
+id: ramboll
+kind: organisation
+name: Ramboll
+also_known_as:
+- Galago
+- Galago by Ramboll
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- gb
+scale: global
+summary: Consultancy whose Galago team built a prototype for National Highways that maps landcover
+  and habitats from satellite imagery with machine learning.
+facts:
+- claim: Says Galago made machine learning models for habitat prediction.
+  url: https://www.ramboll.com/en/galago/national-highways-intelligent-environmental-estate
+  quote: produce well-performing machine learning models for habitat prediction
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: national-highways-intelligent-environmental-estate
+  url: https://www.ramboll.com/en/galago/national-highways-intelligent-environmental-estate
+  quote: We created a prototype system that produces network-wide digital maps of landcover
+    and habitats using satellite imagery and machine learning.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

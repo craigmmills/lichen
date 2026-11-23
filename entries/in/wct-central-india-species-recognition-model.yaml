@@ -1,0 +1,48 @@
+id: wct-central-india-species-recognition-model
+kind: model
+name: WCT Central India species recognition model
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- in
+summary: Open-source camera-trap model that recognises 40 classes of wild animals in central
+  India, built by the Wildlife Conservation Trust with Aadax Data Science on 1.1 million images.
+scope: in
+status: active
+facts:
+- claim: Recognises 40 classes of wild animals across central India; the developers state
+    97.3 percent accuracy.
+  url: https://www.wildlifeconservationtrust.org/a-new-open-source-species-recognition-model-developed-by-wildlife-conservation-trust-wct-for-wildlife-monitoring-in-central-india/
+  fetched: '2026-10-31'
+  quote: The model is capable of recognising 40 different classes of wild animals across Central
+    India with an accuracy of 97.3 percent
+- claim: Trained on 1.1 million camera trap images from over 10,000 locations.
+  url: https://www.wildlifeconservationtrust.org/a-new-open-source-species-recognition-model-developed-by-wildlife-conservation-trust-wct-for-wildlife-monitoring-in-central-india/
+  fetched: '2026-10-31'
+  quote: a comprehensive dataset of 1.1 million camera trap images from over 10,000 unique
+    locations
+- claim: Runs offline as stand-alone open-source software.
+  url: https://www.wildlifeconservationtrust.org/a-new-open-source-species-recognition-model-developed-by-wildlife-conservation-trust-wct-for-wildlife-monitoring-in-central-india/
+  fetched: '2026-10-31'
+  quote: This species identification model is a stand-alone open source software that can
+    be run locally on your system offline.
+links:
+- type: run-by
+  to: wildlife-conservation-trust
+  url: https://www.wildlifeconservationtrust.org/a-new-open-source-species-recognition-model-developed-by-wildlife-conservation-trust-wct-for-wildlife-monitoring-in-central-india/
+  fetched: '2026-10-31'
+  quote: Wildlife Conservation Trust (WCT), in collaboration with Aadax Data Science, has
+    developed an automated species recognition model
+- type: partners-with
+  to: aadax-data-science
+  url: https://www.wildlifeconservationtrust.org/a-new-open-source-species-recognition-model-developed-by-wildlife-conservation-trust-wct-for-wildlife-monitoring-in-central-india/
+  fetched: '2026-10-31'
+  quote: Wildlife Conservation Trust (WCT), in collaboration with Aadax Data Science, has
+    developed an automated species recognition model
+found_by:
+- link-from:wildlife-conservation-trust
+added_by: agent
+checked: '2026-10-31'

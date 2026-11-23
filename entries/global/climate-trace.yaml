@@ -1,0 +1,100 @@
+id: climate-trace
+kind: organisation
+name: Climate TRACE
+scope: global
+sector: ngo
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://climatetrace.org
+summary: Non-profit coalition building an open greenhouse gas emissions inventory with AI
+  and satellite data. It is on this map only for its monitoring of forestry and land use;
+  its other sectors are not in scope.
+facts:
+- claim: Describes itself as a non-profit coalition building an inventory of greenhouse gas
+    emissions.
+  url: https://climatetrace.org/about
+  quote: Climate TRACE is a non-profit coalition of organizations building a timely, open,
+    and accessible inventory of exactly where greenhouse gas emissions are coming from.
+  fetched: '2026-10-30'
+- claim: Says it uses artificial intelligence and machine learning on satellite and sensor
+    data.
+  url: https://climatetrace.org/about
+  quote: We’re harnessing technologies like artificial intelligence (AI) and machine learning
+    (ML)
+  fetched: '2026-10-30'
+- claim: A 2025 paper by its authors lists Forestry and Land Use as a sector of the inventory.
+  url: https://arxiv.org/pdf/2511.19277
+  quote: Forestry and Land Use 15745.6 20.7 99.8
+  fetched: '2026-10-30'
+- claim: The same paper says satellite imagery can show land use change over time.
+  url: https://arxiv.org/pdf/2511.19277
+  quote: enabling indirect measurement of emissions from deforestation
+  fetched: '2026-10-30'
+- claim: Its privacy policy gives WattTime, a co-founding member, in Oakland, California,
+    as its postal contact.
+  url: https://climatetrace.org/privacy
+  quote: Oakland, CA 94609, USA
+  fetched: '2026-10-30'
+- claim: The Climate TRACE paper uses gradient-boosted decision trees.
+  url: https://arxiv.org/pdf/2511.19277
+  fetched: '2026-10-30'
+  quote: ML models (gradient-boosted decision trees and convolutional neural networks;
+  ai_type: ml-supervised
+- claim: The Climate TRACE paper uses convolutional neural networks.
+  url: https://arxiv.org/pdf/2511.19277
+  fetched: '2026-10-30'
+  quote: ML models (gradient-boosted decision trees and convolutional neural networks;
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: ctrees
+  url: https://climatetrace.org/privacy
+  quote: Our coalition organizations include Carbon Yield, CTrees, Duke University Nicholas
+    Institute for Energy, Environment & Sustainability, Earth Genome
+  fetched: '2026-10-30'
+- type: partners-with
+  to: earth-genome
+  url: https://climatetrace.org/privacy
+  quote: Our coalition organizations include Carbon Yield, CTrees, Duke University Nicholas
+    Institute for Energy, Environment & Sustainability, Earth Genome
+  fetched: '2026-10-30'
+- type: funded-by
+  to: john-d-and-catherine-t-macarthur-foundation
+  url: https://climatetrace.org/team
+  quote: Funders Al Gore Benificus Foundation Clean Air Fund Generation Foundation Google.org
+    Holdfast Collective IKEA Foundation MacArthur Foundation
+  fetched: '2026-10-30'
+- type: funded-by
+  to: minderoo-foundation
+  url: https://climatetrace.org/team
+  quote: Funders Al Gore Benificus Foundation Clean Air Fund Generation Foundation Google.org
+    Holdfast Collective IKEA Foundation MacArthur Foundation Minderoo Foundation
+  fetched: '2026-10-30'
+- type: funded-by
+  to: patrick-j-mcgovern-foundation
+  url: https://climatetrace.org/team
+  quote: Funders Al Gore Benificus Foundation Clean Air Fund Generation Foundation Google.org
+    Holdfast Collective IKEA Foundation MacArthur Foundation Minderoo Foundation Patrick J.
+    McGovern Foundation
+  fetched: '2026-10-30'
+- type: funded-by
+  to: google-org
+  url: https://climatetrace.org/team
+  quote: Funders Al Gore Benificus Foundation Clean Air Fund Generation Foundation Google.org
+  fetched: '2026-10-30'
+found_by:
+- global:round5
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,45 @@
+id: cote-d-ivoire-mangrove-biomass-and-carbon-stocks-dataset
+kind: dataset
+name: Mangrove Biomass and Carbon Stocks in Côte d'Ivoire
+also_known_as:
+- civ_mangrove_biomass_dataset
+- 'The First Open Dataset of Mangrove Above- and Belowground Biomass and Soil Carbon Stocks in Côte d''Ivoire:
+  Insights from Fresco and Sassandra'
+scope: ci
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ci
+status: active
+summary: A CC-BY 4.0 dataset of 300 observations of mangrove biomass and carbon at Sassandra and Fresco,
+  covering January to May 2025, with Sentinel-1 and Sentinel-2 bands and Lacuna Fund backing.
+facts:
+- claim: The dataset card describes biomass and carbon stock records from mangroves at Sassandra and Fresco,
+    with bands from Sentinel-2 and Sentinel-1 imagery.
+  url: https://huggingface.co/datasets/data354/civ_mangrove_biomass_dataset/blob/main/README.md
+  fetched: 2026-11-08
+  quote: This dataset contains biomass and carbon stock records from mangroves in Côte d'Ivoire (sites
+    of Sassandra and Fresco).
+- claim: The card gives 300 observations and a licence of CC-BY 4.0.
+  url: https://huggingface.co/datasets/data354/civ_mangrove_biomass_dataset/blob/main/README.md
+  fetched: 2026-11-08
+  quote: 'Number of observations : 300'
+- claim: The card gives its temporal coverage as January to May 2025.
+  url: https://huggingface.co/datasets/data354/civ_mangrove_biomass_dataset/blob/main/README.md
+  fetched: 2026-11-08
+  quote: From January to May 2025
+links:
+- type: funded-by
+  to: lacuna-fund
+  url: https://huggingface.co/datasets/data354/civ_mangrove_biomass_dataset/blob/main/README.md
+  fetched: 2026-11-08
+  quote: Funding This work was supported by Lacuna Fund
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

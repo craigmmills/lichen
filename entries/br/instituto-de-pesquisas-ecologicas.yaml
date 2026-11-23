@@ -1,0 +1,62 @@
+id: instituto-de-pesquisas-ecologicas
+kind: organisation
+name: Instituto de Pesquisas Ecológicas
+also_known_as:
+- IPÊ
+scope: br
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- edna-genomics
+hq: br
+countries:
+- br
+scale: national
+status: active
+website: https://ipe.org.br
+summary: Brazilian research and conservation NGO working in the Atlantic Forest, Amazon, Pantanal
+  and Cerrado. It is credited as a data contributor to Forest Listeners, Google's bioacoustic
+  AI experiment.
+facts:
+- claim: Works on research and community action in four biomes.
+  url: https://ipe.org.br
+  fetched: '2026-10-30'
+  quote: Ações de impacto com participação comunitária e educação na Mata Atlântica, Amazônia,
+    Pantanal e Cerrado.
+- claim: Credited as a data contributor on Forest Listeners.
+  url: https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA
+  fetched: '2026-10-30'
+  quote: With Google DeepMind, Wildmon, and 5 data contributors.
+  via: webfetch
+- claim: Partner of Suzano in a biodiversity monitoring study in Mato Grosso do Sul.
+  url: https://www.suzano.com.br/noticia/suzano-utiliza-gravadores-som-dna-ambiental-iniciativa-pioneira-monitoramento-biodiversidade-ms
+  fetched: '2026-10-30'
+  quote: em parceria com Instituto de Pesquisas Ecológicas (IPE), está conduzindo um estudo
+    inédito de monitoramento da biodiversidade em Mato Grosso do Sul
+- claim: Its own site gives its address in Nazaré Paulista, São Paulo state.
+  url: https://ipe.org.br/
+  quote: Rod. Dom Pedro I, km 47 Nazaré Paulista, SP, Brasil
+  fetched: '2026-10-31'
+links:
+- type: used-by
+  to: forest-listeners
+  url: https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA
+  fetched: '2026-10-30'
+  quote: 'Audio recordings and data contributed by:'
+  via: webfetch
+- type: uses
+  to: floreviewer
+  url: https://bioflore.com.br
+  fetched: '2026-10-30'
+  quote: O IPÊ tem usado o sistema Floreviewer, desenvolvido pela Bioflore
+found_by:
+- link-from:forest-listeners
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

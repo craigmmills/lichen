@@ -1,0 +1,56 @@
+id: addis-ababa-university
+kind: organisation
+name: Addis Ababa University
+scope: et
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+- other
+hq: et
+countries:
+- et
+scale: national
+status: active
+summary: University with the most Ethiopian works since 2021 tagged with both machine learning
+  and ecology in OpenAlex (137), and listed by GBIF as a data publisher in Ethiopia.
+facts:
+- claim: In OpenAlex, Addis Ababa University has the most works from Ethiopian institutions
+    since 2021 tagged with both machine learning and ecology, 137 of them.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ET,concepts.id:C119857082,concepts.id:C18903297,from_publication_date:2021-01-01&group_by=authorships.institutions.id
+  fetched: 2026-11-08
+  quote: '"key_display_name": "Addis Ababa University", "count": 137'
+- claim: OpenAlex lists a dataset by an Addis Ababa University author on climate-driven changes
+    in habitat suitability of two keystone species in Ethiopia's dry Afromontane forests.
+  url: https://api.openalex.org/works?filter=openalex_id:W4402012585|W4416865056|W7143840115|W4381839875|W7212135226&select=id,display_name,authorships,abstract_inverted_index,primary_location
+  fetched: 2026-11-08
+  quote: 'Data from: Climate-driven changes in habitat suitability of two keystone species
+    in dry Afromontane forests of Ethiopia'
+- claim: GBIF lists Addis Ababa University as a data publisher in Ethiopia.
+  url: https://api.gbif.org/v1/organization?country=ET&limit=100
+  fetched: 2026-11-08
+  quote: Addis Ababa University
+- claim: OpenAlex lists a 2018 paper on an artificial neural network for predicting a water
+    quality index in the Little Akaki River.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=3
+  fetched: '2026-11-08'
+  quote: 'Application of artificial neural network in water quality index prediction: a case
+    study in Little Akaki River, Addis Ababa, Ethiopia'
+- claim: OpenAlex lists Mulugeta Yilma, first author of that paper, at Addis Ababa University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=3
+  fetched: '2026-11-08'
+  quote: '"display_name": "Mulugeta Yilma", "orcid": null, "observed_orcids": []}, "institutions":
+    [{"id": "https://openalex.org/I4537092", "display_name": "Addis Ababa University", "ror":
+    "https://ror.org/038b8e254", "country_code": "ET"'
+links: []
+found_by:
+- checklist:3
+- register:et
+added_by: agent
+checked: 2026-11-08

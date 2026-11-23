@@ -1,0 +1,31 @@
+id: nc-uk
+kind: programme
+name: NC-UK
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+website: https://www.ceh.ac.uk/our-science/projects/nc-uk-news-events
+summary: UKCEH programme running events on UK environmental monitoring over five years,
+  source of the report arguing for a UK Biodiversity Observation Network.
+facts:
+- claim: Bringing people together on environmental challenges over five years.
+  url: https://www.ceh.ac.uk/our-science/projects/nc-uk-news-events
+  quote: The NC-UK programme is bringing people together to tackle environmental challenges
+  fetched: &id001 2026-10-30
+- claim: Report outlines the case for a UK Biodiversity Observation Network.
+  url: https://www.ceh.ac.uk/our-science/projects/nc-uk-news-events
+  quote: outlines the case for a UK Biodiversity Observation Network (UKBON)
+  fetched: *id001
+links:
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://www.ceh.ac.uk/our-science/projects/nc-uk-news-events
+  quote: The NC-UK programme is bringing people together
+  fetched: *id001
+found_by:
+- checklist:2
+added_by: agent
+checked: *id001

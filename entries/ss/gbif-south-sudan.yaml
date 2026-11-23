@@ -1,0 +1,31 @@
+id: gbif-south-sudan
+kind: programme
+name: GBIF South Sudan
+scope: ss
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+summary: Active GBIF node for South Sudan, which GBIF lists as an associate country participant,
+  led by Lwanga Tiba Charles and linked to the Global Biodiversity Information Facility.
+facts:
+- claim: GBIF lists South Sudan as an associate country participant with this node.
+  url: https://api.gbif.org/v1/node/604f4f0d-323f-43e2-8469-955f0822d4cd
+  fetched: 2026-11-12
+  quote: '"title":"GBIF South Sudan","participantTitle":"South Sudan"'
+- claim: Participation status is associate.
+  url: https://api.gbif.org/v1/node/604f4f0d-323f-43e2-8469-955f0822d4cd
+  fetched: 2026-11-12
+  quote: '"participationStatus":"ASSOCIATE"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/604f4f0d-323f-43e2-8469-955f0822d4cd
+  fetched: 2026-11-12
+  quote: '"type":"GBIF_PARTICIPANT"'
+found_by:
+- checklist:2
+- queue:ss
+added_by: agent
+checked: 2026-11-12

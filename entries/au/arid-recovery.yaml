@@ -1,0 +1,50 @@
+id: arid-recovery
+kind: organisation
+name: Arid Recovery
+scope: au
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- au
+scale: local
+status: active
+summary: Reserve in arid South Australia that uses Felixer traps with artificial intelligence,
+  and trap alert systems, in feral animal control.
+facts:
+- claim: Solar-powered Felixers at its reserve use range-finder sensors and AI to distinguish
+    cats and foxes.
+  url: https://aridrecovery.org.au/what-we-do/our-reserve/controlling-feral-predators
+  fetched: '2026-10-31'
+  quote: The solar-powered machines use an array of range-finder sensors and artificial intelligence
+    to distinguish cats and foxes from other wildlife, humans, and vehicles.
+- claim: Describes itself as an independent not-for-profit advancing conservation science.
+  url: https://aridrecovery.org.au/
+  fetched: '2026-10-31'
+  quote: Arid Recovery is an independent not-for-profit advancing conservation science for
+    Australian threatened species
+- claim: Says it researches and monitors ecological restoration in the arid lands.
+  url: https://aridrecovery.org.au/
+  fetched: '2026-10-31'
+  quote: We research and monitor critical ecological restoration in Australia’s arid lands.
+- claim: NESP names Dr Lauren Young of Arid Recovery as co-leader of a project on the kowari.
+  url: https://nesplandscapes.edu.au/projects/nesp-rlh/kowari-decline/
+  fetched: '2026-10-31'
+  quote: Dr Lauren Young of Arid Recovery
+links:
+- type: uses
+  to: felixer
+  url: https://aridrecovery.org.au/what-we-do/our-reserve/controlling-feral-predators
+  fetched: '2026-10-31'
+  quote: A solar-powered felixer ready for action at Arid Recovery
+found_by:
+- link-from:felixer
+- link-from:nesp-resilient-landscapes-hub
+- rule:ngo-broad
+added_by: agent
+checked: '2026-10-31'

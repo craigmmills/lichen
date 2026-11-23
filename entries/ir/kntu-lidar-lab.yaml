@@ -1,0 +1,39 @@
+id: kntu-lidar-lab
+kind: organisation
+name: K. N. Toosi University of Technology LiDAR Lab
+scope: ir
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ir
+scale: national
+status: unknown
+summary: A university lab associated in the Earth Engine Data Catalog with Iran Land Cover
+  Map v1, made using an object-based random forest classifier trained on reference samples.
+facts:
+- claim: The Earth Engine Data Catalog says the lab developed the Iran Land Cover Map v1 dataset.
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: This dataset, developed by K.N. Toosi University of Technology LiDAR Lab, utilized
+    over 2,500 Sentinel-1 and 11,000 Sentinel-2 images.
+- claim: The map was made with an object-based random forest classifier trained on reference
+    samples.
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: The classification was performed using an object-based Random Forest method trained
+    with a large number of reference samples.
+  ai_type: ml-supervised
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

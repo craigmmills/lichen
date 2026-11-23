@@ -1,0 +1,46 @@
+id: danmarks-naturfredningsforening
+kind: organisation
+name: Danmarks Naturfredningsforening
+scope: dk
+sector: ngo
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: dk
+scale: national
+status: active
+summary: Copenhagen organisation that was a partner in Biodiversitet Nu, which investigated
+  Danish nature in 2015–2020 with university researchers; the campaign was renamed Det store
+  Naturtjek soon after starting.
+facts:
+- claim: Was a partner in Biodiversitet Nu, which investigated Danish nature in 2015–2020
+    with University of Copenhagen and Aarhus University researchers.
+  url: https://biodiversitet.nu/om-projektet
+  fetched: '2026-11-02'
+  quote: Projektet er et samarbejde mellem Danmarks Naturfredningsforening og forskere fra
+    Københavns Universitet (CMEC) samt Aarhus Universitet (DCE)
+- claim: Its Aarhus branch says the campaign ran from 2015 to 2020 to map biodiversity.
+  url: https://aarhus.dn.dk/vi-arbejder-med/kampagner/biodiversitet-nu-naturtjek/
+  fetched: &id001 2026-11-02
+  quote: Kampagnen løber fra 2015 til 2020, og har til formål at få kortlagt vores biodiversitet
+- claim: The campaign was renamed Det store Naturtjek soon after its start.
+  url: https://aarhus.dn.dk/vi-arbejder-med/kampagner/biodiversitet-nu-naturtjek/
+  fetched: *id001
+  quote: ændrede kort tid efter navn til ”Det store Naturtjek”
+- claim: Its address is in Copenhagen.
+  url: http://www.dn.dk/
+  fetched: *id001
+  quote: Masnedøgade 20, 2100 København Ø.
+found_by:
+- checklist:4
+- rule:ngo-broad
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+also_known_as:
+- DN

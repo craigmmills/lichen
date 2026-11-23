@@ -1,0 +1,32 @@
+id: reforestree
+kind: dataset
+name: ReforesTree
+scope: ec
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ec
+status: active
+runner: unknown
+summary: Benchmark dataset covering six sites in Ecuador, whose authors show a deep learning model estimating
+  carbon stock from drone imagery.
+facts:
+- claim: It is a benchmark dataset for six sites in Ecuador.
+  url: https://zenodo.org/records/6813783
+  fetched: '2026-11-02'
+  quote: a benchmark dataset of forest carbon stock in six agro-forestry carbon offsetting sites in Ecuador
+- claim: The authors show a deep learning model estimating carbon stock from drone imagery.
+  url: https://zenodo.org/records/6813783
+  fetched: '2026-11-02'
+  quote: a deep learning-based end-to-end model using individual tree detection from low cost RGB-only
+    drone imagery
+  ai_type: deep-learning
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-03'

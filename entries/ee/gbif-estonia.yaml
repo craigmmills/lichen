@@ -1,0 +1,59 @@
+id: gbif-estonia
+kind: programme
+name: GBIF Estonia
+scope: ee
+roles:
+- unknown
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ee
+status: active
+website: https://elurikkus.ee
+runner: unknown
+summary: Active programme listed in GBIF's registry as the voting country node for Estonia, with the eElurikkus
+  portal as its homepage, and partnered with GBIF.
+facts:
+- claim: GBIF's registry lists GBIF Estonia as the country node for Estonia, a voting participant.
+  url: https://api.gbif.org/v1/node/country/EE
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- claim: GBIF's registry gives the node's homepage as elurikkus.ee.
+  url: https://api.gbif.org/v1/node/country/EE
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Estonia","participantTitle":"Estonia","email":[],"phone":[],"homepage":["https://elurikkus.ee"]'
+- claim: The GBIF registry lists GBIF Estonia as a voting country participant.
+  url: https://api.gbif.org/v1/node/2c11b821-d22b-4c64-8cd3-c1578173b129
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Estonia"'
+- claim: The registry record gives elurikkus.ee as its home page and an address at the University of Tartu
+    Natural History Museum and Botanical Garden.
+  url: https://api.gbif.org/v1/node/2c11b821-d22b-4c64-8cd3-c1578173b129
+  fetched: 2026-11-08
+  quote: '"homepage":["https://elurikkus.ee"],"address":["Natural History Museum and Botanical Garden\nUniversity
+    of Tartu'
+- claim: GBIF lists GBIF Estonia as a country node with voting participation.
+  url: https://api.gbif.org/v1/node/2c11b821-d22b-4c64-8cd3-c1578173b129
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- claim: GBIF gives the eElurikkus portal as the node's homepage.
+  url: https://api.gbif.org/v1/node/2c11b821-d22b-4c64-8cd3-c1578173b129
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Estonia","participantTitle":"Estonia","email":[],"phone":[],"homepage":["https://elurikkus.ee"]'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/2c11b821-d22b-4c64-8cd3-c1578173b129
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE"'
+found_by:
+- checklist:2
+- queue:ee
+- link-from:university-of-tartu-natural-history-museum-and-botanical-garden
+added_by: agent
+checked: 2026-11-08

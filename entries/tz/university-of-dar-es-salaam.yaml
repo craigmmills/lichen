@@ -1,0 +1,38 @@
+id: university-of-dar-es-salaam
+kind: organisation
+name: University of Dar es Salaam
+scope: tz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: tz
+countries:
+- tz
+scale: national
+status: active
+summary: University whose affiliated first author, Khadija Mahanga, published a 2026 paper
+  combining Sentinel-1 and Sentinel-2 data with machine learning to estimate aboveground forest
+  carbon stock.
+facts:
+- claim: A 2026 paper combines Sentinel-1 and Sentinel-2 data with machine learning to estimate
+    aboveground forest carbon stock.
+  url: https://api.openalex.org/works/W7165366843?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Integrating Sentinel-1 and Sentinel-2 Data for Machine Learning-Based Aboveground
+    Forest Carbon Stock Estimation
+- claim: The paper's first author, Khadija Mahanga, gives a University of Dar es Salaam affiliation.
+  url: https://api.openalex.org/works/W7165366843?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: '"author_position":"first","author":{"id":"https://openalex.org/A5138995760","display_name":"Khadija
+    Mahanga","orcid":null,"observed_orcids":[]},"institutions":[{"id":"https://openalex.org/I182078086","display_name":"University
+    of Dar es Salaam"'
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

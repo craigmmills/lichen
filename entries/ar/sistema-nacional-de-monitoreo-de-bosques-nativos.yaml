@@ -1,0 +1,72 @@
+id: sistema-nacional-de-monitoreo-de-bosques-nativos
+kind: programme
+name: Sistema Nacional de Monitoreo de Bosques Nativos
+also_known_as:
+- SNMBN
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ar
+scale: national
+status: active
+summary: National system run by the Instituto Geográfico Nacional giving unified information on native
+  forest extent, change, condition and fires, mainly using remote sensing and GIS, with much published
+  on SInIA.
+facts:
+- claim: Provides unified, up-to-date information for the whole country on the extent, change, condition,
+    composition, structure, function, production and fires of native forest.
+  url: https://www.argentina.gob.ar/node/473132
+  fetched: 2026-11-03
+  quote: provee información, unificada para todo el país y actualizada, sobre la extensión, cambios, estado
+    de conservación, composición, estructura, funcionamiento, producción e incendios del bosque nativo.
+- claim: Much of the information it produces is loaded into SInIA, the integrated environmental information
+    system.
+  url: https://www.argentina.gob.ar/node/473132
+  fetched: 2026-11-03
+  quote: es la plataforma donde se vuelca gran parte de la información generada por el SNMBN.
+- claim: The page is in the national environment body’s natural resources section and links to the National
+    Native Forest Inventory under “In this section”.
+  url: https://www.argentina.gob.ar/node/473132
+  fetched: 2026-11-03
+  quote: Inventario Nacional de Bosques Nativos
+- claim: Provides unified, updated national information on the extent, change, condition, composition,
+    structure, production and fires of native forest.
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente/recursos-naturales/sistema-nacional-de-monitoreo-de-bosques
+  fetched: '2026-11-03'
+  quote: El Sistema Nacional de Monitoreo de Bosques Nativos de la República Argentina provee información,
+    unificada para todo el país y actualizada, sobre la extensión, cambios, estado de conservación
+- claim: Much of its information is published on the Integrated Environmental Information System (SInIA).
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente/recursos-naturales/sistema-nacional-de-monitoreo-de-bosques
+  fetched: '2026-11-03'
+  quote: El Sistema Integrado de Información Ambiental ( SInIA ) es la plataforma donde se vuelca gran
+    parte de la información generada por el SNMBN.
+- claim: Forest monitoring maps forest distribution and quantifies forest loss each year, mainly with
+    remote sensing and GIS.
+  url: https://www.argentina.gob.ar/ambiente/bosques/umsef
+  fetched: '2026-11-03'
+  quote: Para su realización se utilizan, principalmente, técnicas de teledetección y un Sistema de Información
+    Geográfica (SIG).
+- claim: Provides unified, current information for the whole country on the extent, changes, conservation
+    status, structure and fires of native forest.
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente/recursos-naturales/sistema-nacional-de-monitoreo-de-bosques
+  fetched: 2026-11-03
+  quote: El Sistema Nacional de Monitoreo de Bosques Nativos de la República Argentina provee información,
+    unificada para todo el país y actualizada, sobre la extensión, cambios, estado de conservación, composición,
+    estructura, funcionamiento, producción e incendios del bosque nativo.
+runner: unknown
+links:
+- type: run-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.argentina.gob.ar/node/466374
+  fetched: 2026-11-03
+  quote: Mejorar el sistema de monitoreo que lleva adelante la Subsecretaría de Ambiente de Nación como
+    Autoridad Nacional de la Ley de Bosques
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-03
+techniques:
+- remote-sensing

@@ -1,0 +1,35 @@
+id: inventario-nacional-de-bosques-el-salvador
+kind: dataset
+name: Inventario Nacional de Bosques de El Salvador
+also_known_as:
+- INB
+scope: sv
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- sv
+status: active
+summary: National forest inventory dated to 2017 and 2018, led by Amilcar Antonio López Melara,
+  whose data the forest reference level used to estimate carbon density in forest categories.
+facts:
+- claim: The forest reference level dates the national forest inventory to 2017 and 2018.
+  url: https://redd.unfccc.int/media/nivel_de_referencia_forestal_el_salvador_2020_modified_en.pdf
+  fetched: 2026-11-15
+  quote: El inventario Nacional de Bosques de El Salvador (2017—2018) permite obtener los
+    datos
+- claim: The forest reference level used the inventory's data to estimate carbon density in
+    forest categories.
+  url: https://redd.unfccc.int/media/nivel_de_referencia_forestal_el_salvador_2020_modified_en.pdf
+  fetched: 2026-11-15
+  quote: Los datos del Inventario Nacional de Bosque (INB) fueron utilizados para estimar
+    la densidad
+- claim: The forest reference level cites the inventory as a 2018 MARN publication.
+  url: https://redd.unfccc.int/media/nivel_de_referencia_forestal_el_salvador_2020_modified_en.pdf
+  fetched: 2026-11-15
+  quote: MARN 2018. Inventario Nacional de Bosques de El Salvador. Ministerio de Medio
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15
+runner: unknown

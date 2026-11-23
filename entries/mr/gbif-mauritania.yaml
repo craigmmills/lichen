@@ -1,0 +1,30 @@
+id: gbif-mauritania
+kind: programme
+name: GBIF Mauritania
+also_known_as: []
+scope: mr
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques: []
+status: active
+runner: unknown
+summary: Country node of GBIF with voting participation, according to GBIF's registry, which
+  also lists Moulaye Mohamed Baba Ainina as node manager and shows a partnership with GBIF.
+facts:
+- claim: GBIF's registry lists GBIF Mauritania as a country node with voting participation.
+  url: https://api.gbif.org/v1/node/a48482b4-725f-49e9-934d-2f572deaa361
+  fetched: 2026-11-12
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Mauritania"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/a48482b4-725f-49e9-934d-2f572deaa361
+  fetched: 2026-11-12
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

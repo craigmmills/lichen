@@ -1,0 +1,93 @@
+id: lee-kong-chian-natural-history-museum
+kind: organisation
+name: Lee Kong Chian Natural History Museum
+also_known_as:
+- LKCNHM
+scope: sg
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+hq: sg
+countries:
+- sg
+scale: regional
+status: active
+summary: National University of Singapore museum of Southeast Asian specimens that publishes eight datasets
+  to GBIF and joined a Naturalis-coordinated project to digitise its butterfly specimens.
+facts:
+- claim: GBIF's record says it houses zoological and botanical specimens collected mainly in Singapore
+    and Southeast Asia and does biodiversity research with a Southeast Asian focus.
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7
+  fetched: '2026-11-08'
+  quote: Lee Kong Chian Natural History Museum houses zoological and botanical specimens collected primarily
+    in Singapore and Southeast Asia. The museum engages in biodiversity research with a Southeast Asian
+    focus
+- claim: GBIF lists its address at 2 Conservatory Drive, National University of Singapore.
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7
+  fetched: '2026-11-08'
+  quote: 2 Conservatory Drive, National University of Singapore
+- claim: Publishes eight datasets to GBIF, including SIGNIFY and butterfly records of Singapore and Peninsular
+    Malaysia.
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7/publishedDataset?limit=50
+  fetched: '2026-11-08'
+  quote: Butterflies of Singapore and Peninsular Malaysia (Papilionidae)
+- claim: Joined the Butterflies of the Southeast Asian Islands Consortium Project, coordinated by Naturalis
+    Biodiversity Center, to digitise butterfly specimens in its collection.
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7/publishedDataset?limit=20
+  fetched: '2026-11-08'
+  quote: The Lee Kong Chian Natural History Museum (LKCNHM) joined the Butterflies of the Southeast Asian
+    Islands Consortium Project coordinated by Naturalis Biodiversity Center
+- claim: The International Commission on Zoological Nomenclature says its secretariat is based at the
+    museum, which supports the commission.
+  url: https://www.iczn.org/about-the-iczn/
+  fetched: '2026-11-08'
+  quote: The work of the Commission is supported by a small Secretariat based at the Lee Kong Chian Natural
+    History Museum in Singapore.
+- claim: Its GBIF publisher record says it houses zoological and botanical specimens collected mainly
+    in Singapore and Southeast Asia and does biodiversity research with a Southeast Asian focus.
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7
+  fetched: 2026-11-08
+  quote: Lee Kong Chian Natural History Museum houses zoological and botanical specimens collected primarily
+    in Singapore and Southeast Asia.
+- claim: Publishes butterfly specimen datasets for Singapore and Peninsular Malaysia on GBIF under a CC
+    BY 4.0 licence, digitised as part of the Butterflies of the Southeast Asian Islands Consortium Project
+    coordinated by Naturalis Biodiversity Center.
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: joined the Butterflies of the Southeast Asian Islands Consortium Project coordinated by Naturalis
+    Biodiversity Center and aimed to mobilize specimen data through the digitization of butterfly specimens
+    housed in our collection
+links:
+- type: run-by
+  to: national-university-of-singapore
+  url: https://api.gbif.org/v1/dataset/deb38f6b-09e9-4ee2-8d0b-056bb6a1c6db
+  fetched: '2026-11-08'
+  quote: the Lee Kong Chian Natural History Museum (LKCNHM) at the National University of Singapore
+- type: partners-with
+  to: international-commission-on-zoological-nomenclature
+  url: https://www.iczn.org/about-the-iczn/
+  fetched: '2026-11-08'
+  quote: ICZN is supported by the Lee Kong Chian Natural History Museum, National University of Singapore
+- type: runs
+  to: signify-singapore-natural-history
+  url: https://api.gbif.org/v1/dataset/deb38f6b-09e9-4ee2-8d0b-056bb6a1c6db
+  fetched: '2026-11-08'
+  quote: The SIGNIFY (Singapore in Global Natural History Museums Information Facility) project, an initiative
+    of the Lee Kong Chian Natural History Museum (LKCNHM) at the National University of Singapore
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://api.gbif.org/v1/organization/14c4c7da-fb56-44f7-9589-76bd670bf8a7/publishedDataset?limit=20
+  fetched: '2026-11-08'
+  quote: The Lee Kong Chian Natural History Museum (LKCNHM) joined the Butterflies of the Southeast Asian
+    Islands Consortium Project coordinated by Naturalis Biodiversity Center
+found_by:
+- checklist:2
+- link-from:international-commission-on-zoological-nomenclature
+- register:sg
+added_by: agent
+checked: '2026-11-08'
+realms:
+- land
+- freshwater
+- ocean

@@ -1,0 +1,35 @@
+id: azercosmos-deforestation-detection
+kind: model
+name: Azercosmos Deforestation Detection
+scope: az
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: A tool run by Azercosmos that, by its account, detects land-cover change and deforestation patterns
+  linked to logging or land clearing, available as an AI model on GEO360.
+facts:
+- claim: Azercosmos says the tool detects land-cover changes and identifies deforestation patterns linked
+    to logging or land clearing.
+  url: https://azercosmos.az/en/earth-observation/ai-products
+  fetched: 2026-11-09
+  quote: It detects land-cover changes and identifies deforestation patterns linked to logging or land
+    clearing
+- claim: It is one of the AI models users can apply through the GEO360 platform.
+  url: https://azercosmos.az/en/earth-observation/ai-products
+  fetched: 2026-11-09
+  quote: apply multiple AI models—such as deforestation and building detection—directly through a web
+    browser
+links:
+- type: run-by
+  to: azercosmos
+  url: https://azercosmos.az/en/earth-observation/ai-products
+  fetched: 2026-11-09
+  quote: Our Deforestation Detection tool uses satellite imagery and advanced machine learning to monitor
+    forest loss.
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-09

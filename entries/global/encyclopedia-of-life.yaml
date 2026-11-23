@@ -1,0 +1,37 @@
+id: encyclopedia-of-life
+kind: dataset
+name: Encyclopedia of Life
+also_known_as:
+- EOL
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://eol.org
+summary: Free online encyclopedia intended to document all known living species, compiled from existing databases.
+countries:
+- us
+facts:
+- claim: Wikipedia describes it as a free online encyclopedia intended to document the 1.9 million living species known to
+    science.
+  url: https://en.wikipedia.org/wiki/Encyclopedia_of_Life
+  quote: is a free, online encyclopedia intended to document all of the 1.9 million living species known to science
+  fetched: '2026-10-30'
+- claim: GBIF lists it as a dataset publisher in the United States.
+  url: https://api.gbif.org/v1/dataset/search?q=%22Encyclopedia%20of%20Life%22&limit=3
+  quote: '"publishingOrganizationTitle":"Encyclopedia of Life (EOL)"'
+  fetched: '2026-10-30'
+links:
+- type: funded-by
+  to: smithsonian-institution
+  url: https://en.wikipedia.org/wiki/Encyclopedia_of_Life
+  quote: "The additional US$25 million came from five cornerstone institutions—the Field Museum , Harvard University , the Marine Biological Laboratory , the Missouri Botanical Garden , and the Smithsonian Institution ."
+  fetched: '2026-10-30'
+found_by:
+- link-from:treeoflife-10m
+added_by: agent
+checked: '2026-10-30'

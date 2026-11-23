@@ -1,0 +1,40 @@
+id: similipal-ai-surveillance
+kind: project
+name: Similipal Tiger Reserve AI surveillance
+scope: in
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- in
+scale: local
+status: active
+summary: About 900 AI cameras across Similipal Tiger Reserve in Odisha, used against poaching
+  and to detect forest fires, with more than 500 more being installed.
+facts:
+- claim: OrissaPOST reports that the reserve runs about 900 AI cameras.
+  url: https://www.orissapost.com/500-more-ai-cams-in-str-for-wildlife-protection/
+  quote: The tiger reserve currently operates about 900 AI cameras
+  fetched: '2026-10-31'
+- claim: OrissaPOST reports that the cameras can detect forest fires by identifying smoke.
+  url: https://www.orissapost.com/500-more-ai-cams-in-str-for-wildlife-protection/
+  quote: can detect forest fires by identifying smoke
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: odisha-forest-department
+  url: https://www.orissapost.com/500-more-ai-cams-in-str-for-wildlife-protection/
+  quote: 'Baripada: Forest Department will install more than 500 artificial intelligence (AI)-enabled
+    surveillance cameras'
+  fetched: '2026-10-31'
+- type: uses
+  to: trailguard-ai
+  url: https://www.orissapost.com/500-more-ai-cams-in-str-for-wildlife-protection/
+  quote: The reserve also uses AI-powered trail guard
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

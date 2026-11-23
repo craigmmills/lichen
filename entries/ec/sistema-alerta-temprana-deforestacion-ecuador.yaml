@@ -1,0 +1,42 @@
+id: sistema-alerta-temprana-deforestacion-ecuador
+kind: project
+name: Cloud based Early Warning System for forest disturbances in Ecuador
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ec
+status: unknown
+summary: Project in which GAF announced in August 2018 a six-month effort, started 1 July, to design a
+  deforestation early warning system using free Sentinel-1, Sentinel-2 and Landsat 8 data, funded by KfW.
+facts:
+- claim: In August 2018, GAF announced a six-month project, started on July 1, to design and implement
+    an early warning system for deforestation using Earth observation data.
+  url: https://www.gaf.de/?p=3123
+  fetched: 2026-11-03
+  quote: design and implement an Early Warning System based on Earth Observation data to detect deforestation
+    events
+- claim: The planned system would use freely available satellite data from Sentinel-1, Sentinel-2 and
+    Landsat 8.
+  url: https://www.gaf.de/?p=3123
+  fetched: 2026-11-03
+  quote: freely available satellite data from the Sentinel-1, Sentinel-2 and Landsat 8 sensors
+links:
+- type: partners-with
+  to: ministerio-de-ambiente-y-energia-ecuador
+  url: https://www.gaf.de/?p=3123
+  fetched: 2026-11-03
+  quote: implemented in strong collaboration with the Ministry of Environment in Ecuador
+- type: funded-by
+  to: kfw-development-bank
+  url: https://www.gaf.de/?p=3123
+  fetched: 2026-11-03
+  quote: supported with KfW funds
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-03
+runner: unknown

@@ -1,0 +1,51 @@
+id: eea-ai-habitat-mapping-study
+kind: project
+name: AI habitat mapping feasibility study
+scope: be
+runner: unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+status: closed
+summary: A closed feasibility study, requested and funded by the EEA, that used AI and machine learning
+  on high-resolution satellite data to map habitats, trained on the European Vegetation Archive.
+facts:
+- claim: Requested by the EEA to model high-resolution terrestrial habitats with AI and machine learning.
+  url: https://vito.be/en/news/habitat-mapping-ai-preserve-europes-natural-capital
+  fetched: '2026-11-02'
+  quote: The European Environment Agency (EEA) requested a feasibility study to use novel AI/ML techniques
+    to model the distribution of high-resolution (10m) terrestrial habitats
+- claim: The feasibility study used AI and machine learning with high-resolution satellite datasets to
+    generate habitat maps.
+  url: https://vito.be/en/news/habitat-mapping-ai-preserve-europes-natural-capital
+  fetched: '2026-11-02'
+  quote: By using Neural Networks or Deep Learning methods and satellite-based high-resolution datasets
+  ai_type: deep-learning
+- claim: The European Vegetation Archive served as training data.
+  url: https://vito.be/en/news/habitat-mapping-ai-preserve-europes-natural-capital
+  fetched: '2026-11-02'
+  quote: acts as training data
+links:
+- type: funded-by
+  to: european-environment-agency
+  url: https://vito.be/en/news/habitat-mapping-ai-preserve-europes-natural-capital
+  fetched: '2026-11-02'
+  quote: The study was co-funded by the European Environment Agency (EEA)
+- type: partners-with
+  to: europabon
+  url: https://vito.be/en/news/habitat-mapping-ai-preserve-europes-natural-capital
+  fetched: '2026-11-02'
+  quote: The study is conducted in close cooperation with EuropaBON
+- type: partners-with
+  to: wageningen-university-and-research
+  url: https://vito.be/en/news/habitat-mapping-ai-preserve-europes-natural-capital
+  fetched: '2026-11-02'
+  quote: conducted in collaboration with Wageningen Environmental Research (WENR)
+found_by:
+- link-from:vito
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,39 @@
+id: okostor
+kind: programme
+name: Økosystemovervåkning i store innsjøer (Økostor)
+also_known_as:
+- Økostor
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- freshwater
+status: active
+runner: unknown
+summary: A monitoring programme for 27 large Norwegian lakes covering phytoplankton,
+  aquatic plants, invertebrates and fish, with all data entered in Vannmiljø.
+facts:
+- claim: 27 large lakes across the country are monitored.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/ferskvann-hav-og-kyst/store-innsjoer/
+  fetched: '2026-11-08'
+  quote: Til sammen overvåkes 27 store innsjøer fordelt over hele landet.
+- claim: 'Covers all the biological quality elements of the water regulation: phytoplankton,
+    aquatic plants, invertebrates and fish.'
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/ferskvann-hav-og-kyst/store-innsjoer/
+  fetched: '2026-11-08'
+  quote: Programmet omfatter alle de biologiske kvalitetselementene i vannforskriften,
+    planteplankton, vannplanter, invertebrater og fisk, samt de tradisjonelle fysisk-kjemiske
+    parameterne.
+- claim: All monitoring data are entered in Vannmiljø.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/ferskvann-hav-og-kyst/store-innsjoer/
+  fetched: '2026-11-08'
+  quote: Alle overvåkingsdata legges inn i systemet Vannmiljø .
+links:
+- type: uses
+  to: vannmiljo
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/ferskvann-hav-og-kyst/store-innsjoer/
+  fetched: '2026-11-08'
+  quote: Alle overvåkingsdata legges inn i systemet Vannmiljø .
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

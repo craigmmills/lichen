@@ -1,0 +1,44 @@
+id: keen-ai
+kind: organisation
+name: Keen AI
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+summary: Technology firm that built, with UKCEH, AI software identifying plants beside railway
+  lines from train cameras.
+facts:
+- claim: Worked with UKCEH and Network Rail.
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: UKCEH and Keen AI have created AI software
+  fetched: '2026-10-30'
+- claim: Created AI software with UKCEH that identifies ash and invasive plants.
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: UKCEH and Keen AI have created AI software that can identify ash trees as well as
+    Japanese knotweed
+  fetched: &id001 2026-10-30
+- claim: Companies House lists KEEN AI LIMITED, company number 11621146, as dissolved on 5
+    March 2024.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=keen+ai
+  quote: KEEN AI LIMITED 11621146 - Dissolved on 5 March 2024 Moseley Exchange, 149-153 Alcester
+    Road, Birmingham, England, B13 8JP
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: network-rail-lineside-biodiversity-ai
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: and technology firm Keen AI have been working with Network Rail
+  fetched: *id001
+found_by:
+- link-from:network-rail-lineside-vegetation-ai
+- checklist:5
+realms:
+- land
+techniques:
+- computer-vision
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+hq: gb
+status: active
+scale: national

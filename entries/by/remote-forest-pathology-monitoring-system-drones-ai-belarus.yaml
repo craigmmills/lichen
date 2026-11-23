@@ -1,0 +1,46 @@
+id: remote-forest-pathology-monitoring-system-drones-ai-belarus
+kind: project
+name: Remote forest pathology monitoring system using drones and AI (Belarus)
+also_known_as:
+- Система дистанционного лесопатологического мониторинга с использованием беспилотных летательных
+  аппаратов и искусственного интеллекта
+scope: by
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- by
+status: unknown
+runner: unknown
+summary: Drone and AI monitoring system for forest pathology, described in a BSTU repository
+  paper that trained five U-Net based networks to segment early weakening of conifer stands,
+  using over 15,000 images collected in 2021 to 2023.
+facts:
+- claim: A paper in the BSTU repository describes developing a remote forest pathology monitoring
+    system using drones and artificial intelligence for automatic detection.
+  url: https://elib.belstu.by/bitstream/123456789/65748/1/%d0%9f%d0%be%d0%bd%d1%82%d1%83%d1%81_%d0%a0%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0_%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b.pdf
+  fetched: 2026-11-12
+  quote: ЛЕСОПАТОЛОГИЧЕСКОГО МОНИТОРИНГА
+- claim: The authors say they showed the use of five neural network architectures based on
+    U-Net for segmenting early weakening of conifer stands on an orthophoto map.
+  url: https://elib.belstu.by/bitstream/123456789/65748/1/%d0%9f%d0%be%d0%bd%d1%82%d1%83%d1%81_%d0%a0%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0_%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b.pdf
+  fetched: 2026-11-12
+  quote: использования пяти современных архитектур нейронных сетей на ос-
+- claim: The models trained were U-Net, Attention U-Net, R2-UNet, Attention R2-Unet and U-Net3+.
+  url: https://elib.belstu.by/bitstream/123456789/65748/1/%d0%9f%d0%be%d0%bd%d1%82%d1%83%d1%81_%d0%a0%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0_%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b.pdf
+  fetched: 2026-11-12
+  quote: (U-Net, Attention U-Net, R2-UNet, Attention R2-Unet и U -Net3+). Также
+  ai_type: deep-learning
+- claim: More than 15,000 images at 2 to 6 cm per pixel were collected in 2021 to 2023.
+  url: https://elib.belstu.by/bitstream/123456789/65748/1/%d0%9f%d0%be%d0%bd%d1%82%d1%83%d1%81_%d0%a0%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0_%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b.pdf
+  fetched: 2026-11-12
+  quote: За 2021 –  2023 годы было собрано более 15 000 снимков с про-
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

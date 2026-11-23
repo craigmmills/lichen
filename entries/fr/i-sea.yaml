@@ -1,0 +1,52 @@
+id: i-sea
+kind: organisation
+name: i-Sea
+scope: fr
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+website: https://i-sea.fr/
+summary: French firm that maps natural habitats and coastlines from satellite and aerial images.
+  Its Biocoast service applies machine learning to Pléiades images and field records.
+facts:
+- claim: Biocoast applies a machine learning algorithm to very high resolution satellite images
+    and field records.
+  url: https://i-sea.fr/en/our-solutions/biodiversity/
+  fetched: '2026-10-31'
+  quote: Biocoast met en œuvre un algorithme de Machine Learning exploitant en entrée des
+    images satellite très haute résolution (Pléiades – 0,5 à 2 m de résolution) et des relevés
+    de végétation de terrain
+- claim: Its Trees in the City mapping uses deep learning to recognise trees.
+  url: https://i-sea.fr/en/our-solutions/biodiversity/
+  fetched: '2026-10-31'
+  quote: combining the benefits of deep learning (automatic recognition of trees, young trees
+    in particular)
+  ai_type: deep-learning
+- claim: Names Bpifrance, the OFB and the Conservatoire du Littoral among its financial backers.
+  url: https://i-sea.fr/en/our-solutions/biodiversity/
+  fetched: '2026-10-31'
+  quote: 'Our financial backers: Bpifrance, the French Office for Biodiversity (OFB), the
+    Conservatoire du Littoral'
+links:
+- type: funded-by
+  to: office-francais-de-la-biodiversite
+  url: https://i-sea.fr/en/our-solutions/biodiversity/
+  fetched: '2026-10-31'
+  quote: 'Our financial backers: Bpifrance, the French Office for Biodiversity (OFB), the
+    Conservatoire du Littoral'
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,81 @@
+id: argentinat
+kind: programme
+name: ArgentiNat
+scope: ar
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+countries:
+- ar
+scale: national
+status: active
+summary: Argentina's national iNaturalist portal, run by Fundación Vida Silvestre Argentina since 2019,
+  which La Nación reported had reached one million verifiable observations from 16,000 people by April
+  2023.
+facts:
+- claim: La Nación describes it as the Argentine portal of iNaturalist.
+  url: https://www.lanacion.com.ar/sociedad/un-gran-fuente-de-informacion-una-plataforma-participativa-llego-al-millon-de-registros-de-especies-nid28042023/
+  quote: ArgentiNat es el portal argentino de la plataforma iNaturalist
+  fetched: '2026-11-03'
+- claim: La Nación reports that an AI engine gives a first identification, which other users validate
+    or correct.
+  url: https://www.lanacion.com.ar/sociedad/un-gran-fuente-de-informacion-una-plataforma-participativa-llego-al-millon-de-registros-de-especies-nid28042023/
+  quote: Un motor de inteligencia artificial permite dar una primera determinación que luego es validada
+    o corregida por otros usuarios.
+  fetched: '2026-11-03'
+- claim: In April 2023, La Nación reported that it had reached one million verifiable observations from
+    16,000 people over four years.
+  url: https://www.lanacion.com.ar/sociedad/un-gran-fuente-de-informacion-una-plataforma-participativa-llego-al-millon-de-registros-de-especies-nid28042023/
+  quote: La plataforma de ciencia ciudadana ArgentiNat consiguió alcanzar un millón de observaciones verificables
+    de animales, plantas y otros organismos silvestres
+  fetched: '2026-11-03'
+- claim: La Nación reports that community-verified observations are exported to open biodiversity data
+    repositories.
+  url: https://www.lanacion.com.ar/sociedad/un-gran-fuente-de-informacion-una-plataforma-participativa-llego-al-millon-de-registros-de-especies-nid28042023/
+  quote: Cuando las observaciones son verificadas por la comunidad, los datos se exportan a repositorios
+    de datos abiertos sobre biodiversidad
+  fetched: '2026-11-03'
+- claim: The national iNaturalist portal for Argentina, run in Argentina by Fundación Vida Silvestre Argentina
+    since 2019.
+  url: https://biodiversidad.ar/noticias/2024/datos-de-ciencia-ciudadana/
+  fetched: 2026-11-03
+  quote: En Argentina, administrado por Fundación Vida Silvestre Argentina desde el año 2019.
+- claim: Its records, with those of eBird Argentina, are aggregated in the Portal de Datos de Biodiversidad
+    de Argentina.
+  url: https://biodiversidad.ar/noticias/2024/datos-de-ciencia-ciudadana/
+  fetched: 2026-11-03
+  quote: Los datos primarios de biodiversidad que son registrados en plataformas de ciencia ciudadana,
+    también son agregados en este portal de Biodiversidad de Argentina.
+- claim: The national biodiversity data portal describes ArgentiNat as the national portal of iNaturalist
+    for Argentina.
+  url: https://biodiversidad.ar/noticias/2024/datos-de-ciencia-ciudadana/
+  fetched: 2026-11-03
+  quote: ArgentiNat es el portal nacional de iNaturalist para Argentina.
+- claim: In 2022 the national parks agency reported that iNaturalist users' observations were the second-largest
+    open biodiversity dataset in Argentina.
+  url: https://www.argentina.gob.ar/noticias/la-administracion-de-parques-nacionales-se-suma-la-plataforma-comunitaria-de-registro-e
+  fetched: 2026-11-03
+  quote: En la actualidad, las observaciones de los usuarios de iNaturalist son el segundo set de datos
+    abiertos sobre biodiversidad más grande de Argentina.
+runner: unknown
+links:
+- type: run-by
+  to: fundacion-vida-silvestre-argentina
+  url: https://biodiversidad.ar/noticias/2024/datos-de-ciencia-ciudadana/
+  fetched: 2026-11-03
+  quote: En Argentina, administrado por Fundación Vida Silvestre Argentina desde el año 2019.
+- type: builds-on
+  to: inaturalist
+  url: https://biodiversidad.ar/noticias/2024/datos-de-ciencia-ciudadana/
+  fetched: 2026-11-03
+  quote: ArgentiNat es el portal nacional de iNaturalist para Argentina.
+found_by:
+- checklist:4
+- checklist:2
+- link-from:portal-de-datos-de-biodiversidad-de-argentina
+added_by: agent
+checked: '2026-11-03'

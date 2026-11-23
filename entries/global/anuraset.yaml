@@ -1,0 +1,38 @@
+id: anuraset
+kind: dataset
+name: AnuraSet
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+countries:
+- br
+- co
+status: active
+website: https://github.com/soundclim/anuraset
+summary: Open dataset of Neotropical frog calls for benchmarking automated identification
+  in passive acoustic monitoring, with authors in Colombia, Brazil and the United States.
+facts:
+- claim: A dataset for benchmarking Neotropical frog call identification.
+  url: https://arxiv.org/pdf/2307.06860v1.pdf
+  fetched: '2026-10-30'
+  quote: All ourexperiments and resources can be found on our GitHub repositoryhttps://github.com/soundclim/anuraset.
+links:
+- type: partners-with
+  to: pontificia-universidad-javeriana-cali
+  url: https://arxiv.org/pdf/2307.06860v1.pdf
+  fetched: '2026-10-30'
+  quote: Pontificia Universidad Javeriana Seccional Cali, Calle 18 No 118-250
+- type: partners-with
+  to: cornell-lab-of-ornithology
+  url: https://arxiv.org/pdf/2307.06860v1.pdf
+  fetched: '2026-10-30'
+  quote: CornellLab of Ornithology, Cornell University
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

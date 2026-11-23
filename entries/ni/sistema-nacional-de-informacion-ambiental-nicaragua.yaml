@@ -1,0 +1,41 @@
+id: sistema-nacional-de-informacion-ambiental-nicaragua
+kind: programme
+name: Sistema Nacional de Información Ambiental (Nicaragua)
+also_known_as:
+- SINIA
+- National Environmental Information System
+scope: ni
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ni
+status: unknown
+summary: MARENA-run national environmental information system which, per the CBD country
+  profile, collects and gives access to indicators, with national biodiversity indicators
+  monitored every two years.
+facts:
+- claim: The CBD country profile for Nicaragua says SINIA collects, systematises and
+    gives access to information and indicators.
+  url: https://www.cbd.int/countries/profile?country=ni
+  fetched: 2026-11-14
+  quote: SINIA collects, systematizes and facilitates access to information and indicators
+    at the national, regional and international levels.
+- claim: The profile says national biodiversity indicators are monitored through SINIA
+    every two years and published in "Medio Ambiente en Cifras".
+  url: https://www.cbd.int/countries/profile?country=ni
+  fetched: 2026-11-14
+  quote: Through SINIA, national biodiversity indicators are monitored every two years
+    and published in the magazine “Medio Ambiente en Cifras” (environment in figures).
+links:
+- type: run-by
+  to: ministerio-del-ambiente-y-los-recursos-naturales-nicaragua
+  url: https://www.cbd.int/doc/nr/nr-06/ni-nr-06-es.pdf
+  fetched: 2026-11-14
+  quote: Nacional (SINIA) del MARENA4.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

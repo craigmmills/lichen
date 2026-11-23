@@ -1,0 +1,62 @@
+id: google-deepmind
+kind: organisation
+name: Google DeepMind
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+- species-distribution
+hq: gb
+scale: global
+status: active
+website: https://deepmind.google
+summary: AI research laboratory within Google whose ecosystem modelling work covers deforestation
+  risk, forest typology, species range maps, the Perch bioacoustics model and AlphaEarth Foundations.
+facts:
+- claim: Announced research on deforestation risk, species range mapping and Perch in November
+    2025.
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: &id001 2026-10-30
+  quote: Today we're announcing new biosphere research predicting the risk of deforestation,
+    a new project to map the ranges of Earth’s species, and the latest updates on our bioacoustics
+    model Perch.
+- claim: Headquartered in London.
+  url: https://en.wikipedia.org/wiki/Google_DeepMind
+  fetched: 2026-10-30
+  quote: Headquarters at Platform 37 , Kings Cross Central , London
+- claim: A DeepMind post describes a model built around vision transformers.
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: 2026-10-30
+  quote: an efficient model architecture, built around vision transformers
+  ai_type: deep-learning
+- claim: Google DeepMind says its Perch 2.0 model is available as a foundational model.
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: '2026-10-31'
+  quote: is also available as a foundational model
+  ai_type: foundation-models
+links:
+- type: partners-with
+  to: world-resources-institute
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: Together with the World Resources Institute , we recently went one level deeper,
+    developing a model of the drivers of forest loss
+- type: partners-with
+  to: unep-wcmc
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: We’d also like to thank our partners at UNEP-WCMC and QCIF
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

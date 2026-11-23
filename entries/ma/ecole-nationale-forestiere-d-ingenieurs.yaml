@@ -1,0 +1,36 @@
+id: ecole-nationale-forestiere-d-ingenieurs
+kind: organisation
+name: École Nationale Forestière d'Ingénieurs
+scope: ma
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ma
+countries: []
+scale: national
+status: active
+summary: A Moroccan institution in OpenAlex, listed with a 2023 paper on assessing cork oak
+  decline using digital multispectral imagery.
+facts:
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "http://enfi-ma.net/", "country_code": "MA"'
+- claim: OpenAlex lists a 2023 paper with first author Soumia El Ahmadi, with École Nationale
+    Forestière d'Ingénieurs as their affiliation, on assessing cork oak decline with digital
+    multispectral imagery.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Assessment of Cork Oak Decline Using Digital Multispectral Imagery in Relation with
+    in Situ Crown Condition
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

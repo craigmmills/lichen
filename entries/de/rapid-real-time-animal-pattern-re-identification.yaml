@@ -1,0 +1,52 @@
+id: rapid-real-time-animal-pattern-re-identification
+kind: model
+name: RAPID
+also_known_as:
+- Real Time Animal Pattern Re-Identification on Edge Devices
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Open-source, modular model built by the University of Stuttgart and WildCap
+  that re-identifies known individual animals in real time from coat patterns, tested
+  on six datasets.
+facts:
+- claim: Re-identifies individual wild animals in real time from their unique coat
+    pattern, provided they are already in its reference database.
+  url: https://idw-online.de/de/news873198
+  fetched: '2026-11-07'
+  quote: Auf diese Weise können wir neu beobachtete Tiere in Bruchteilen von Sekunden
+    identifizieren, vorausgesetzt sie sind in der Referenzdatenbank gespeichert
+- claim: Open source and modular, so rangers or research groups can build it into
+    their own drones, camera traps, airships or other monitoring devices.
+  url: https://idw-online.de/de/news873198
+  fetched: '2026-11-07'
+  quote: Das KI-Instrument ist open-source verfügbar und modular aufgebaut.
+- claim: Tested on six datasets, including new zebra images from drones in Mpala,
+    Kenya, and jaguar images from foundation camera traps in Ecuador; the page names
+    the foundation as Joctoco.
+  url: https://idw-online.de/de/news873198
+  fetched: '2026-11-07'
+  quote: der Jaguar-Datensatz stammt von Kamerafallen der Joctoco-Stiftung aus dem
+    Regenwald in Ecuador
+links:
+- type: built-by
+  to: university-of-stuttgart
+  url: https://idw-online.de/de/news873198
+  fetched: '2026-11-07'
+  quote: Die von Tenure-Track-Professor Aamir Ahmad geleitete Flugrobotik-Gruppe am
+    Institut für Flugmechanik und Flugregelung (IFR) der Universität Stuttgart entwickelte
+    gemeinsam mit weiteren Kooperationspartnern
+- type: built-by
+  to: wildcap
+  url: https://idw-online.de/de/news873198
+  fetched: '2026-11-07'
+  quote: Der neue Algorithmus RAPID ist im Rahmen des Forschungs-Projektes „Wildcap"
+    entstanden
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

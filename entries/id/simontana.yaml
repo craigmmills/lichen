@@ -1,0 +1,64 @@
+id: simontana
+kind: dataset
+name: SIMONTANA
+also_known_as:
+- National Forest Monitoring System
+- NFMS
+- Sistem Monitoring Hutan Nasional
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- id
+status: active
+summary: Indonesia's national forest monitoring system, used for land cover maps, deforestation
+  figures and the national greenhouse gas inventory.
+facts:
+- claim: A 2024 Indonesian presentation to a Japanese-hosted inventory workshop names it as
+    the national forest monitoring system.
+  url: https://www.nies.go.jp/gio/wgia/pi5dm300001g1vab-att/IV-5_WGIA21_Indonesia_3.pdf
+  fetched: '2026-10-31'
+  quote: INDONESIA'S NATIONAL FOREST MONITORING SYSTEM TO
+- claim: The same presentation sets out why the system was built.
+  url: https://www.nies.go.jp/gio/wgia/pi5dm300001g1vab-att/IV-5_WGIA21_Indonesia_3.pdf
+  fetched: '2026-10-31'
+  quote: Motivation to build NFMS - SIMONTANA
+- claim: FAO describes it as integrating remote sensing and terrestrial data.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: SIMONTANA integrates remote sensing and terrestrial data within a single institutional
+    platform
+- claim: Detects land cover change every three months using 23 land cover classes.
+  url: https://www.kehutanan.go.id/news/kementerian-kehutanan-perkuat-pemantauan-hutan-untuk-early-warning-system-pencegahan-deforestasi
+  fetched: '2026-10-31'
+  quote: aplikasi Simontana (Sistem Monitoring Hutan Nasional) untuk mendeteksi perubahan
+    tutupan lahan setiap tiga bulan sekali
+- claim: The ministry says AI will be integrated with the deforestation early warning system.
+  url: https://www.kehutanan.go.id/news/kementerian-kehutanan-perkuat-pemantauan-hutan-untuk-early-warning-system-pencegahan-deforestasi
+  fetched: '2026-10-31'
+  quote: Teknologi AI ini akan diintegrasikan dengan sistem peringatan dini deforestasi
+links:
+- type: run-by
+  to: kementerian-kehutanan
+  url: https://www.kehutanan.go.id/
+  fetched: '2026-10-31'
+  quote: Layanan Publik SP4N Lapor JAPRI ELHKPN JDIH PPID GOKUPS SIPONGI MUSPERA SIMONTANA
+- type: run-by
+  to: kementerian-kehutanan
+  url: https://www.idntimes.com/tech/trend/situs-perubahan-tutupan-lahan-dan-peringatan-deforestasi-c1c2-01-7cxy7-v99pnv
+  fetched: '2026-10-31'
+  quote: SIMONTANA (Sistem Monitoring Hutan Nasional/NFMS) milik Kementerian Kehutanan
+- type: run-by
+  to: kementerian-kehutanan
+  url: https://www.kehutanan.go.id/news/kementerian-kehutanan-perkuat-pemantauan-hutan-untuk-early-warning-system-pencegahan-deforestasi
+  fetched: '2026-10-31'
+  quote: Direktur IPSDH R. Agus Budi Santosa menjelaskan bahwa pemantauan dilakukan secara
+    digital dengan aplikasi Simontana (Sistem Monitoring Hutan Nasional)
+found_by:
+- checklist:2
+- link-from:food-and-agriculture-organization
+added_by: agent
+checked: '2026-10-31'

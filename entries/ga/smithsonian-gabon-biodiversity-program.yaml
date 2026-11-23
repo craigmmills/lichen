@@ -1,0 +1,40 @@
+id: smithsonian-gabon-biodiversity-program
+kind: programme
+name: Smithsonian Gabon Biodiversity Program
+scope: ga
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ga
+status: active
+runner: unknown
+summary: A programme publishing four GBIF datasets from a 123,000-specimen collection described as the
+  largest zoological reference collection known in Central Africa.
+facts:
+- claim: Its GBIF record, with an address in Gamba, says it manages the Smithsonian Gabon Biodiversity
+    Collection of specimens.
+  url: https://api.gbif.org/v1/organization/72935bbe-d4ce-4984-90d9-327066c56132
+  fetched: 2026-11-08
+  quote: Manage the Smithsonian Gabon Biodiversity Collection of specimens
+- claim: The collection holds 123,000 specimens and is described as the largest zoological reference collection
+    known in Central Africa; the dataset is published under CC0.
+  url: https://api.gbif.org/v1/dataset/7dbe8ff6-c4ba-41b3-89f5-d6e47ca77788
+  fetched: 2026-11-08
+  quote: Gabon Biodiversity Collection is the largest zoological reference collection known in Central
+    Africa. It consist of 123000 specimen
+- claim: Publishes four datasets from the collection on GBIF, for birds, fish, reptiles and amphibians.
+  url: https://api.gbif.org/v1/organization/72935bbe-d4ce-4984-90d9-327066c56132/publishedDataset
+  fetched: 2026-11-08
+  quote: Gabon Biodiversity Collection - Amphibia
+links: []
+found_by:
+- checklist:2
+- register:ga
+added_by: agent
+checked: 2026-11-08
+also_known_as:
+- Gabon Biodiversity Program

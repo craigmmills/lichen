@@ -1,0 +1,31 @@
+id: specky
+kind: programme
+name: Specky
+scope: us
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+status: unknown
+runner: unknown
+website: https://github.com/rhine3/specky
+summary: Spectrogram viewing application for quickly labelling short WAV or MP3 clips
+  by sound and spectrogram, with default labels for species presence and whether the
+  sound is a song or call.
+facts:
+- claim: A spectrogram viewing application for quickly labelling short WAV or MP3
+    clips using their sound and spectrogram.
+  url: https://github.com/rhine3/specky
+  fetched: 2026-11-21
+  quote: A spectrogram viewing application that allows you to quickly label short
+    WAV or MP3 clips using a combination of their sound and their spectrogram.
+- claim: Its default labels record whether a species is present and whether the sound
+    is a song or a call.
+  url: https://github.com/rhine3/specky
+  fetched: 2026-11-21
+  quote: species_present,present,absent,unsure
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

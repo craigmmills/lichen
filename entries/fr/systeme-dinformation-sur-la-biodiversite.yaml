@@ -1,0 +1,37 @@
+id: systeme-dinformation-sur-la-biodiversite
+kind: programme
+name: Système d'information sur la biodiversité
+also_known_as:
+- SIB
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- fr
+status: active
+summary: French system that federates data from 31 public policies on biodiversity
+  and gives open access to it, through services including Naturefrance and the INPN.
+facts:
+- claim: Federates data from 31 public policies linked to biodiversity.
+  url: http://www.patrinat.fr/fr/systeme-dinformation-sur-la-biodiversite-sib-6876
+  fetched: '2026-10-31'
+  quote: vise à fédérer l’ensemble des données issues de 31 politiques publiques en
+    lien avec des enjeux sur la biodiversité
+- claim: The OFB page reported its portals inaccessible at the end of 2025 after a
+    cyberattack.
+  url: https://ofb.gouv.fr/les-observatoires-et-portails-acces-aux-donnees
+  fetched: '2026-10-31'
+  quote: trois portails thématiques (inaccessibles fin 2025 en raison d'une cyberattaque)
+links:
+- type: run-by
+  to: patrinat
+  url: http://www.patrinat.fr/fr/systeme-dinformation-sur-la-biodiversite-sib-6876
+  fetched: '2026-10-31'
+  quote: PatriNat est responsable du pilotage opérationnel du SIB
+found_by:
+- link-from:patrinat
+added_by: agent
+checked: '2026-10-31'

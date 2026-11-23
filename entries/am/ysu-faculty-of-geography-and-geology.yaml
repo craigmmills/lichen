@@ -1,0 +1,36 @@
+id: ysu-faculty-of-geography-and-geology
+kind: organisation
+name: Faculty of Geography and Geology, Yerevan State University
+scope: am
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: am
+countries: []
+scale: national
+status: active
+summary: University faculty given as the affiliation of the first author of a 2023
+  paper assessing floating aquatic vegetation change in Lake Sevan using Landsat imagery
+  and vegetation indices.
+facts:
+- claim: Affiliation of the first author of a 2023 paper assessing changes in floating
+    aquatic vegetation in Lake Sevan with Landsat imagery and vegetation indices.
+  url: https://api.openalex.org/works?filter=openalex_id:W4389134186|W4402488055|W4404850287|W4412832364&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Assessing Spatio-temporal Changes of Floating Aquatic Vegetation in Lake
+    Sevan Using Landsat Imagery and Vegetation Indices
+- claim: The first author's affiliation is given as the Faculty of Geography and Geology
+    of Yerevan State University.
+  url: https://api.openalex.org/works?filter=openalex_id:W4389134186|W4402488055|W4404850287|W4412832364&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Yerevan State University, Faculty of Geography and Geology, Yerevan, Armenia
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

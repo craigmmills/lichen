@@ -1,0 +1,60 @@
+id: invasive-species-manager-latvia
+kind: dataset
+name: Invasive Species Manager
+also_known_as:
+- invazivs.lv
+- Invasive Species Management System
+scope: lv
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+countries:
+- lv
+summary: Reporting platform run by the Nature Conservation Agency, launched in 2021,
+  which received 9,774 reports of wild invasive species in 2025, reviewed by experts
+  and including reports from platforms such as Dabasdati.lv.
+facts:
+- claim: The Nature Conservation Agency's LatViaNature project website received 9,774
+    reports of invasive species observed in the wild in 2025.
+  url: https://latvianature.daba.gov.lv/en/news/the-invasive-species-manager-website-received-nearly-10000-reports-last-year/
+  fetched: 2026-11-12
+  quote: In 2025, the Nature Conservation Agency’s LatViaNature project website, “Invasive
+    Species Manager” (www.invazivs.lv), received and compiled a record-high number
+    of reports on invasive species observed in the wild – 9,774 reports from all regions
+    of Latvia.
+- claim: Integrates reports from residents made on other platforms, such as Dabasdati.lv.
+  url: https://latvianature.daba.gov.lv/en/news/the-invasive-species-manager-website-received-nearly-10000-reports-last-year/
+  fetched: 2026-11-12
+  quote: Reports from residents are also integrated from other reporting platforms,
+    such as www.dabasdati.lv.
+- claim: Reports are reviewed by experts at the Nature Conservation Agency, Daugavpils
+    University and the body named on the page as the Latvian Institute of Hydroecology,
+    and mapped to allow early detection of invasive species.
+  url: https://latvianature.daba.gov.lv/en/news/the-invasive-species-manager-website-received-nearly-10000-reports-last-year/
+  fetched: 2026-11-12
+  quote: The reports are then recorded on maps of invasive species distribution to
+    enable early detection and mapping of the spread of invasive species
+- claim: The website was launched in 2021.
+  url: https://latvianature.daba.gov.lv/en/news/the-invasive-species-manager-website-received-nearly-10000-reports-last-year/
+  fetched: 2026-11-12
+  quote: has reached its highest level since the launch of the website www.invazivs.lv
+    in 2021.
+links:
+- type: run-by
+  to: nature-conservation-agency-latvia
+  url: https://latvianature.daba.gov.lv/en/news/the-invasive-species-manager-website-received-nearly-10000-reports-last-year/
+  fetched: 2026-11-12
+  quote: the Nature Conservation Agency’s LatViaNature project website, “Invasive
+    Species Manager” (www.invazivs.lv)
+- type: uses
+  to: dabasdati-lv
+  url: https://latvianature.daba.gov.lv/en/news/the-invasive-species-manager-website-received-nearly-10000-reports-last-year/
+  fetched: 2026-11-12
+  quote: Reports from residents are also integrated from other reporting platforms,
+    such as www.dabasdati.lv.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

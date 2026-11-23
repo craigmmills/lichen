@@ -1,0 +1,44 @@
+id: universidad-del-valle-de-guatemala
+kind: organisation
+name: Universidad del Valle de Guatemala
+also_known_as:
+- UVG
+scope: gt
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- gt
+scale: national
+status: active
+summary: Privately managed Guatemalan university that GBIF lists as a data publisher, hosting three sets
+  of biological collections and handing the satellite Quetzal 1 to JAXA for launch in 2019.
+facts:
+- claim: The university handed Quetzal 1, the first Guatemalan satellite, to JAXA for launch in 2019.
+  url: https://www.laestrella.com.pa/cafe-estrella/ciencia/191105/191106-primer-satelite-guatemalteco-saldra-espacio-marzo
+  fetched: 2026-11-08
+  quote: La Universidad del Valle de Guatemala entregó este martes el primer satélite guatemalteco llamado
+    Quetzal 1
+- claim: GBIF lists the university as a Guatemalan data publisher.
+  url: https://api.gbif.org/v1/organization?country=GT&limit=100
+  fetched: 2026-11-08
+  quote: Universidad del Valle de Guatemala
+- claim: Its GBIF publisher record describes it as a privately managed university hosting three sets of
+    biological collections, with the aim of making this biodiversity information available.
+  url: https://api.gbif.org/v1/organization/5c1a4c27-795a-4294-aecc-46d7176706b7
+  fetched: 2026-11-08
+  quote: Our main goal is to make this biodiversity information available to the scientific community
+    in order to inform policies and develop collaborative scientific research.
+found_by:
+- checklist:1
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,91 @@
+id: clearcut
+kind: programme
+name: ClearCut
+scope: ua
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- ua
+status: unknown
+summary: Deforestation monitoring programme that Quantum says it developed with SCGIS, using computer
+  vision on satellite images processed every five days, first implemented in the Kharkiv region according
+  to Quantum's 2020 report.
+facts:
+- claim: Quantum says it developed ClearCut with SCGIS as a cloud-based deforestation platform to help
+    ecological institutions monitor logging and react to illegal cases.
+  url: https://d3foupoddfxxue.cloudfront.net/portfolio/clearcut-an-open-source-web-platform-tracking-planet-deforestation
+  fetched: 2026-11-03
+  quote: In cooperation with the ecological organization, SCGIS , Quantum has developed ClearCut, a cloud-based
+    precision deforestation platform to help ecological institutions and private initiatives monitor the
+    logging process and promptly react to illegal cases.
+- claim: Monitors deforestation automatically with computer vision and artificial intelligence, comparing
+    satellite data collected every 3 to 5 days.
+  url: https://d3foupoddfxxue.cloudfront.net/portfolio/clearcut-an-open-source-web-platform-tracking-planet-deforestation
+  fetched: 2026-11-03
+  quote: By collecting satellite data – every 3-5 days, ClearCut automatically compares the state of forests
+    and provides reports on changes that occurred.
+- claim: Its segmentation models were built in Keras and then PyTorch.
+  url: https://d3foupoddfxxue.cloudfront.net/portfolio/clearcut-an-open-source-web-platform-tracking-planet-deforestation
+  fetched: 2026-11-03
+  quote: Segmentation models were built using Keras, which is easy to use in the early stages of development.
+    Further, we have moved to PyTorch, which allows building more complex models.
+- claim: The case study lists Ukraine as the location and environmental monitoring as the industry.
+  url: https://d3foupoddfxxue.cloudfront.net/portfolio/clearcut-an-open-source-web-platform-tracking-planet-deforestation
+  fetched: 2026-11-03
+  quote: Location Ukraine Industry Environmental Monitoring
+- claim: Downloads, preprocesses and prepares new satellite images for clearcut segmentation automatically.
+  url: https://quantumobile.com/rd-blog/clearcut-segmentation-on-satellite-images-using-deep-learning/
+  fetched: 2026-11-03
+  quote: there has been a solution developed that automatically downloads new images from the satellite
+    storage, preprocesses and prepares data for clearcuts segmentation
+- claim: A deep learning model turns images into clearcut masks and polygons.
+  url: https://quantumobile.com/rd-blog/clearcut-segmentation-on-satellite-images-using-deep-learning/
+  fetched: 2026-11-03
+  quote: Then a deep learning model converts images to binary masks of clearcuts and polygonizes them
+    to vector objects that can be displayed on the map.
+  ai_type: deep-learning
+- claim: New images are processed every five days.
+  url: https://quantumobile.com/rd-blog/clearcut-segmentation-on-satellite-images-using-deep-learning/
+  fetched: 2026-11-03
+  quote: once every 5 days new images are downloaded, processed and the polygons are saved to the database
+- claim: Quantum's 2020 CSR report says ClearCut was first implemented in the Kharkiv region and was being
+    launched for the Lviv region with the NGO ForestCom.
+  url: https://quantumobile.com/static/5eb99270ef8847a7a3b6cc2dc10ab243/Quantum-CSR-report-2020.pdf
+  fetched: 2026-11-03
+  quote: The first region to implement ClearCut is the Kharkiv region. Now we
+links:
+- type: built-by
+  to: quantum-software
+  url: https://d3foupoddfxxue.cloudfront.net/portfolio/clearcut-an-open-source-web-platform-tracking-planet-deforestation
+  fetched: 2026-11-03
+  quote: ClearCut is an online platform developed by Quantum, which uses present-day technologies and
+    allows us to automatically monitor deforestation by means of computer vision and artificial intelligence.
+- type: partners-with
+  to: scgis
+  url: https://d3foupoddfxxue.cloudfront.net/portfolio/clearcut-an-open-source-web-platform-tracking-planet-deforestation
+  fetched: 2026-11-03
+  quote: In cooperation with the ecological organization, SCGIS , Quantum has developed ClearCut
+- type: built-by
+  to: quantum-software
+  url: https://quantumobile.com/rd-blog/clearcut-segmentation-on-satellite-images-using-deep-learning/
+  fetched: 2026-11-03
+  quote: During the training of our machine learning model, we have to change weights in the right direction
+    to get better predictions.
+- type: partners-with
+  to: forest-initiatives-and-communities
+  url: https://quantumobile.com/static/5eb99270ef8847a7a3b6cc2dc10ab243/Quantum-CSR-report-2020.pdf
+  fetched: 2026-11-03
+  quote: 'are launching the product for the Lviv region, in cooperation with NGO
+
+    “ForestCom”.'
+runner: unknown
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

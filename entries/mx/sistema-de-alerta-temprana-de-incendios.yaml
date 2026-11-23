@@ -1,0 +1,30 @@
+id: sistema-de-alerta-temprana-de-incendios
+kind: programme
+name: Sistema de Alerta Temprana de Incendios
+scope: mx
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mx
+status: active
+website: https://incendios.conabio.gob.mx/
+summary: Fire early warning programme built by CONABIO, which lists it among the systems it has developed,
+  with fire detection from AVHRR and MODIS imagery in its monitoring history.
+facts:
+- claim: CONABIO lists the system among those it has developed and makes available.
+  url: http://www.conabio.gob.mx/web/transparencia.html
+  fetched: 2026-11-03
+  quote: Sistema de Alerta Temprana de Incendios
+links:
+- type: built-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: http://www.conabio.gob.mx/web/transparencia.html
+  fetched: 2026-11-03
+  quote: ha desarrollado diversos sistemas bioinformáticos, plataformas y herramientas informáticas
+found_by:
+- link-from:comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+added_by: agent
+checked: 2026-11-03

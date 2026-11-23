@@ -1,0 +1,31 @@
+id: biowm
+kind: programme
+name: BioWM
+also_known_as:
+- 生物多様性ウェブマッピングシステム
+scope: jp
+ai_label: data-infrastructure
+status: active
+website: https://www.nies.go.jp/biowm/
+summary: Mapping service built by the National Institute for Environmental Studies, offering GBIF occurrence
+  records and the institute's biodiversity data, downloadable by dataset as Darwin Core Archives.
+facts:
+- claim: Offers mapping of occurrence records extracted from GBIF and of the institute's biodiversity
+    research data.
+  url: https://www.nies.go.jp/biowm/
+  fetched: '2026-11-02'
+  quote: BioWMではGBIFに登録されたオカレンスデータ（観察記録、採集記録など）を抽出してマッピングするシステム、国立環境研究所 生物多様性領域の研究データをマッピングするシステムが利用できます。
+- claim: Occurrence data can be downloaded by dataset as Darwin Core Archives.
+  url: https://www.nies.go.jp/biowm/
+  fetched: '2026-11-02'
+  quote: オカレンスデータはデータセット単位でDarwin Core Archive（ZIP形式）としてダウンロードできます。
+links:
+- type: built-by
+  to: national-institute-for-environmental-studies
+  url: https://www.nies.go.jp/biowm/about/
+  fetched: '2026-11-02'
+  quote: 国立環境研究所生物多様性領域が制作・開発しました。
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

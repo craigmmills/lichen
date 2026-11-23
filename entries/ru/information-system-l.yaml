@@ -1,0 +1,87 @@
+id: information-system-l
+kind: programme
+name: Information System L.
+scope: ru
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+website: https://isling.org
+also_known_as:
+- L.
+- IS L.
+summary: Tool for biological data from various sources, which GBIF says replaced the CRIS
+  platform, led by Alexey Melekhin, with financial support listed from two research funds
+  and three institutes.
+facts:
+- claim: Its site describes it as a tool for biological data from various sources.
+  url: https://isling.org
+  fetched: '2026-10-31'
+  quote: Information System (IS) "L." - is a tool for entering, storing, organizing, analyzing
+    and showing data from various sources
+- claim: GBIF says it results from a change in the technical platform of CRIS.
+  url: https://api.gbif.org/v1/organization/0b00f562-9702-4d6d-b936-406996c60869
+  fetched: '2026-10-31'
+  quote: L. - is the result of a change in the technical platform of the information system
+    CRIS.
+- claim: Its site lists collections that use it as their main information system.
+  url: https://isling.org/about
+  fetched: '2026-10-31'
+  quote: 'Collections that use L. as their main information system: KPABG, SMR, INEP, KAND,
+    PZV, JCUCC.'
+- claim: Its GBIF record says it replaced the platform of the CRIS information system.
+  url: https://api.gbif.org/v1/organization/0b00f562-9702-4d6d-b936-406996c60869
+  fetched: '2026-10-31'
+  quote: the result of a change in the technical platform of the information system CRIS
+- claim: Its GBIF record gives an address in Apatity.
+  url: https://api.gbif.org/v1/organization/0b00f562-9702-4d6d-b936-406996c60869
+  fetched: '2026-10-31'
+  quote: microdistrict Akademgorodok, 26A
+- claim: Its site lists financial support from the RFBR and RSF funds and from three institutes.
+  url: https://isling.org/about
+  fetched: '2026-10-31'
+  quote: 'Financial support is provided by: RFBR, RSF funds; institutes: PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+links:
+- type: funded-by
+  to: polar-alpine-botanical-garden-institute
+  url: https://isling.org/about
+  fetched: '2026-10-31'
+  quote: 'Financial support is provided by: RFBR, RSF funds; institutes: PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+- type: funded-by
+  to: institute-of-north-industrial-ecology-problems
+  url: https://isling.org/about
+  fetched: '2026-10-31'
+  quote: 'Financial support is provided by: RFBR, RSF funds; institutes: PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+- type: funded-by
+  to: russian-science-foundation
+  url: https://isling.org/about
+  fetched: '2026-10-31'
+  quote: 'Financial support is provided by: RFBR, RSF funds; institutes: PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+- type: funded-by
+  to: russian-foundation-for-basic-research
+  url: https://isling.org/about
+  fetched: '2026-10-31'
+  quote: 'Financial support is provided by: RFBR, RSF funds; institutes: PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+- type: funded-by
+  to: russian-science-foundation
+  url: https://api.gbif.org/v1/organization/0b00f562-9702-4d6d-b936-406996c60869
+  fetched: '2026-10-31'
+  quote: 'Funding. Support is provided by: RFBR fund, RSF fund, KSC RAS, PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+- type: funded-by
+  to: russian-foundation-for-basic-research
+  url: https://api.gbif.org/v1/organization/0b00f562-9702-4d6d-b936-406996c60869
+  fetched: '2026-10-31'
+  quote: 'Funding. Support is provided by: RFBR fund, RSF fund, KSC RAS, PABGI KSC RAS, INEP
+    KSC RAS, ISDCT SB RAS.'
+found_by:
+- checklist:queue-gbif-publishers
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

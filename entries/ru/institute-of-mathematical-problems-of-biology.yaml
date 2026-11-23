@@ -1,0 +1,47 @@
+id: institute-of-mathematical-problems-of-biology
+kind: organisation
+name: Institute of Mathematical Problems of Biology RAS
+scope: ru
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ru
+scale: national
+status: active
+website: http://www.impb.ru/
+also_known_as:
+- ИМПБ РАН
+- IMPB RAS
+summary: Russian Academy of Sciences institute in Pushchino whose GBIF record lists an online
+  database of finds of a rare lichen, Lobaria pulmonaria, in Russia.
+facts:
+- claim: Its site gives its main task.
+  url: http://www.impb.ru/
+  fetched: '2026-10-31'
+  quote: Основной задачей института является разработка математических и вычислительных методов
+    для биологических исследований.
+- claim: GBIF names a database of finds of Lobaria pulmonaria in Russia.
+  url: https://api.gbif.org/v1/dataset/4bb083e8-53b9-418e-b83d-105e75a1798d
+  fetched: '2026-10-31'
+  quote: DATABASE OF FINDS OF RARE LICHEN SPECIES Lobaria pulmonaria IN RUSSIA
+- claim: Its site gives its address.
+  url: http://www.impb.ru/
+  fetched: '2026-10-31'
+  quote: 142290, Московская область, г.Пущино, ул. проф. Виткевича, д.1
+- claim: Its GBIF record lists an online database on finds of a rare lichen in Russia.
+  url: https://api.gbif.org/v1/organization/fcb15579-e732-4e2d-aa74-796787ef8c27
+  fetched: '2026-10-31'
+  quote: Online database on finds of rare lichen species Lobaria pulmonaria in Russia (about
+    500 records)
+- claim: Its GBIF record gives its address in Pushchino.
+  url: https://api.gbif.org/v1/organization/fcb15579-e732-4e2d-aa74-796787ef8c27
+  fetched: '2026-10-31'
+  quote: 4, Institutskaja str.
+found_by:
+- checklist:queue-gbif-publishers
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

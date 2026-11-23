@@ -1,0 +1,27 @@
+id: enviroatlas
+kind: dataset
+name: EnviroAtlas
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+website: https://www.epa.gov/enviroatlas
+summary: EPA data portal publishing ecosystem and environmental datasets as web services,
+  including hydrology and land cover layers.
+facts:
+- claim: Publishes datasets as web services, including dominant land cover maps.
+  url: https://www.epa.gov/enviroatlas
+  fetched: '2026-10-30'
+  quote: is now available as EnviroAtlas webservices
+links:
+- type: run-by
+  to: us-environmental-protection-agency
+  url: https://www.epa.gov/enviroatlas
+  fetched: '2026-10-30'
+  quote: "EnviroAtlas | US EPA"
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

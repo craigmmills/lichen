@@ -1,0 +1,108 @@
+id: institute-of-botany-of-the-czech-academy-of-sciences
+kind: organisation
+name: Institute of Botany of the Czech Academy of Sciences
+also_known_as:
+- Botanický ústav AV ČR
+- IBOT CAS
+- Institute of Botany
+scope: cz
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: cz
+countries:
+- cz
+scale: national
+status: active
+website: https://www.ibot.cas.cz/en/
+summary: Self-described largest Czech botanical research centre in Průhonice, which builds
+  Pladias, administers the shared Pladias GBIF publisher for PlantBank and partners in ForBioMon.
+facts:
+- claim: Describes itself as the largest centre of botanical research in the Czech Republic.
+  url: https://www.ibot.cas.cz/en/
+  fetched: 2026-11-07
+  quote: the largest centre of botanical research in the Czech Republic
+- claim: Address at Zámek 1, Průhonice.
+  url: https://www.ibot.cas.cz/en/
+  fetched: 2026-11-07
+  quote: Institute of Botany of the Czech Academy of Sciences Zámek 1, 252 43 Průhonice, Czechia
+- claim: OpenAlex lists the institute as the affiliation of co-author Jan Altman on a 2021
+    paper extending deep learning approaches for forest disturbance segmentation on very high-resolution
+    satellite images.
+  url: https://api.openalex.org/works/https://doi.org/10.1002/rse2.194
+  fetched: 2026-11-07
+  quote: Extending deep learning approaches for forest disturbance segmentation
+- claim: GBIF lists the institute as a registered data publisher and says it administers the
+    shared Pladias publisher on behalf of PlantBank.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=100
+  fetched: 2026-11-07
+  quote: Institute of Botany of the Czech Academy of Sciences
+- claim: GBIF's publisher record describes it as an academic institution of the Academy of
+    Sciences of Czechia.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: Institute of Botany is an academic institution and belongs to the Academy of Sciences
+    of Czechia.
+- claim: The PlantBank record says the consortium mandates it to administer the shared Pladias
+    GBIF publisher.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: the consortium formally mandates the Institute of Botany (IBOT CAS) to act on behalf
+    of PlantBank by administering the shared GBIF publisher “Pladias”
+- claim: Its GBIF publisher record says it runs a research programme across a wide range of
+    plant sciences.
+  url: https://api.gbif.org/v1/organization/3ae77ff6-a9f1-4487-9d8a-af9f3e40cef9
+  fetched: 2026-11-07
+  quote: The institute runs a comprehensive research program on a wide range of plant sciences.
+- claim: The PlantBank consortium mandates it to act on PlantBank's behalf in administering
+    the shared GBIF publisher.
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: the consortium formally mandates the Institute of Botany (IBOT CAS) to act on behalf
+    of PlantBank by administering the shared GBIF publisher
+- claim: Its site says the institute is represented in IPBES.
+  url: https://www.ibot.cas.cz/en/
+  fetched: 2026-11-07
+  quote: Institute of Botany is represented in the Intergovernmental Platform IPBES
+links:
+- type: builds
+  to: pladias
+  url: https://pladias.cz/en
+  fetched: 2026-11-07
+  quote: Critically revised data about Czech flora and vegetation prepared by Masaryk University,
+    the Institute of Botany of The Czech Academy of Sciences and University of South Bohemia
+    in collaboration with the Czech Botanical Society.
+- type: partners-with
+  to: plantbank
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+- type: partners-with
+  to: forbiomon
+  url: https://www.biodiversa.eu/2024/04/15/forbiomon/
+  fetched: 2026-11-07
+  quote: Department of Vegetation Ecology, Institute of Botany of the Czech Academy of Sciences,
+    Brno, Czech Republic
+- type: represents
+  to: plantbank
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: the consortium formally mandates the Institute of Botany (IBOT CAS) to act on behalf
+    of PlantBank by administering the shared GBIF publisher
+- type: builds
+  to: pladias
+  url: https://pladias.cz/en
+  fetched: 2026-11-07
+  quote: prepared by Masaryk University, the Institute of Botany of The Czech Academy of Sciences
+    and University of South Bohemia
+found_by:
+- checklist:3
+- link-from:consortium-of-european-taxonomic-facilities
+- register:cz
+added_by: agent
+checked: 2026-11-07
+techniques:
+- species-distribution

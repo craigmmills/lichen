@@ -1,0 +1,36 @@
+id: afghanistan-annual-land-cover
+kind: dataset
+name: Annual land cover for Afghanistan
+also_known_as: []
+scope: af
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries: []
+status: unknown
+summary: A 2024 paper recorded in OpenAlex describes annual land cover for Afghanistan derived from Google
+  Earth Engine and Landsat imagery, with a first author listed at ICIMOD in Kathmandu.
+facts:
+- claim: OpenAlex records a 2024 paper describing the development of annual land cover for Afghanistan
+    from Google Earth Engine and Landsat imagery.
+  url: https://api.openalex.org/works/pmid:38550239?select=id,title,doi,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: Bridging the national data gap with Google earth engine and landsat imagery by developing annual
+    land cover for Afghanistan
+- claim: The paper's DOI is 10.1016/j.dib.2024.110316.
+  url: https://api.openalex.org/works/pmid:38550239?select=id,title,doi,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: https://doi.org/10.1016/j.dib.2024.110316
+- claim: The first and corresponding author, Kabir Uddin, is listed at ICIMOD in Kathmandu.
+  url: https://api.openalex.org/works/pmid:38550239?select=id,title,doi,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Kabir Uddin","raw_affiliation_strings":["International Centre for Integrated
+    Mountain Development (ICIMOD), Kathmandu, Nepal"]'
+links: []
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

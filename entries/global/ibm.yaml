@@ -1,0 +1,48 @@
+id: ibm
+kind: organisation
+name: IBM
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://research.ibm.com
+summary: Technology company that builds open geospatial foundation models with NASA and ESA,
+  including Prithvi and TerraMind, and is working with WWF-Germany on identifying forest elephants
+  from camera trap photos.
+facts:
+- claim: Dateline of its 2024 WWF-Germany announcement places it in Armonk, New York.
+  url: https://newsroom.ibm.com/2024-08-12-IBM-and-WWF-Germany-to-Build-New-AI-Solution-to-Support-Conservation-of-Keystone-Species
+  fetched: &id001 2026-10-30
+  quote: ARMONK, N.Y. , Aug. 12, 2024
+- claim: Says its family of open-source foundation models with NASA was collectively downloaded
+    more than 600,000 times since 2023.
+  url: https://research.ibm.com/blog/nasa-award-ibm-foundation-model
+  fetched: *id001
+  quote: the model family has been collectively downloaded more than 600,000 times and cited
+    in more than 350 studies
+- claim: IBM and NASA have a family of foundation models.
+  url: https://research.ibm.com/blog/nasa-award-ibm-foundation-model
+  fetched: 2026-10-30
+  quote: IBM and NASA’s family of foundation models
+  ai_type: foundation-models
+- claim: IBM describes transformer-based models such as Prithvi.
+  url: https://research.ibm.com/blog/nasa-award-ibm-foundation-model
+  fetched: 2026-10-30
+  quote: Before newer transformer-based models like Prithvi and Surya
+  ai_type: deep-learning
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

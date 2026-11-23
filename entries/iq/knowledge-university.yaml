@@ -1,0 +1,55 @@
+id: knowledge-university
+kind: organisation
+name: Knowledge University
+also_known_as:
+- KNU
+scope: iq
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: iq
+countries:
+- iq
+scale: regional
+status: active
+website: https://fccc.knu.edu.iq/
+summary: A private university in Erbil, established in 2009, whose listed 2025 study
+  modelled Duhok border forest dynamics for 2015 to 2024 using Sentinel-2 and machine
+  learning, finding canopy cover fell from about 630 to 577 km2.
+facts:
+- claim: Describes itself as a private institution established in 2009 under the Kurdistan
+    Region Ministry of Higher Education and Scientific Research.
+  url: https://fccc.knu.edu.iq/single_research?publishId=239
+  fetched: 2026-11-13
+  quote: Knowledge University is a private institution established in 2009 under the
+    Kurdistan Region Ministry of Higher Education & Scientific Research.
+- claim: Gives its address as Knowledge University, Erbil 446015.
+  url: https://fccc.knu.edu.iq/single_research?publishId=239
+  fetched: 2026-11-13
+  quote: Knowledge University, Erbil 446015
+- claim: Its research publications list a 2025 study that used Sentinel-2 imagery,
+    climate data and machine learning to model forest dynamics along the Iraq–Turkey
+    border within Duhok from 2015 to 2024, with XGBoost the best of seven models.
+  url: https://fccc.knu.edu.iq/single_research?publishId=239
+  fetched: 2026-11-13
+  quote: Seven ML models were evaluated, and XGBoost consistently outperformed the
+    others
+  ai_type: ml-supervised
+- claim: The study found forest canopy cover fell from about 630 km2 in 2015 to 577
+    km2 in 2024.
+  url: https://fccc.knu.edu.iq/single_research?publishId=239
+  fetched: 2026-11-13
+  quote: Forest canopy cover decreased significantly, from approximately 630 km2 in
+    2015 to 577 km2 in 2024
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,131 @@
+id: kenya-bird-map
+kind: programme
+name: Kenya Bird Map
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+countries:
+- ke
+status: active
+website: http://kenya.birdmap.africa/
+summary: Citizen science atlas documenting the distribution and status of all birds across
+  Kenya, on a grid of pentads of about 9 km by 9 km.
+facts:
+- claim: Aims to document the distribution and status of all birds across Kenya.
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: The Kenya Bird Map is a research project aiming to document the current distribution
+    and status of all birds across Kenya
+  fetched: '2026-10-30'
+- claim: Says it aims to map the current distribution of all Kenya's birds.
+  url: https://kenya.birdmap.africa
+  fetched: '2026-10-31'
+  quote: The Kenya Bird Map project aims to map the current distribution of all of Kenya's
+    bird species
+  via: webfetch
+- claim: The Peregrine Fund says a study combined it with eBird and the historical atlas to
+    map changes in bird distributions.
+  url: https://peregrinefund.org/news/combining-bird-atlas-and-citizen-science-data-reveal-kenyan-bird-trends
+  fetched: '2026-10-31'
+  quote: compares the historical data from the Bird Atlas of Kenya (pre-1984 data) to more
+    recent citizen science data from eBird and the Kenya Bird Map
+- claim: Maps all Kenya's bird species with citizen scientists.
+  url: https://naturekenya.org/about/bird-committee/
+  fetched: '2026-10-31'
+  quote: Kenya Bird Map aims to map the distribution of all of Kenya's bird species and describe
+    their status with the help of input from Citizen Scientists
+- claim: A Rocha Kenya calls it a joint initiative with four other bodies.
+  url: https://www.arocha.or.ke/kenya-bird-map/
+  fetched: '2026-10-31'
+  quote: is a joint initiative by A Rocha Kenya together with National Museums of Kenya ,
+    Tropical Biology Association , Nature Kenya
+- claim: Aims to map all Kenya's bird species with citizen scientists.
+  url: https://www.arocha.or.ke/?p=14319
+  fetched: '2026-10-31'
+  quote: The project aims to map all of Kenya’s bird species and describe their status
+- claim: Occurrence data appear on GBIF under the Kenya Wildlife Service.
+  url: https://api.gbif.org/v1/dataset/d1e8a7af-097a-4ca8-aa91-62d3ff834711
+  fetched: '2026-10-31'
+  quote: Kenya Bird Map Occurrence Data
+- claim: An EU Cordis report on the BIRD ATLAS project says researchers made an Android mapping
+    application for it.
+  url: https://cordis.europa.eu/article/id/181095-watching-birds-in-kenya
+  quote: Researchers created a new mapping application to be used on Android mobile devices.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: national-museums-of-kenya
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: It is a collaborative project run jointly by the National Museums of Kenya (Ornithology
+    Section)
+  fetched: '2026-10-30'
+- type: run-by
+  to: a-rocha-kenya
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: It is a collaborative project run jointly by the National Museums of Kenya (Ornithology
+    Section), A Rocha Kenya, the Tropical Biology Association, the Bird Committee of Nature
+    Kenya, and the Percy FitzPatrick Institute of African Ornithology (University of Cape
+    Town).
+  fetched: '2026-10-30'
+- type: run-by
+  to: nature-kenya
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: It is a collaborative project run jointly by the National Museums of Kenya (Ornithology
+    Section), A Rocha Kenya, the Tropical Biology Association, the Bird Committee of Nature
+    Kenya, and the Percy FitzPatrick Institute of African Ornithology (University of Cape
+    Town).
+  fetched: '2026-10-30'
+- type: run-by
+  to: tropical-biology-association
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: It is a collaborative project run jointly by the National Museums of Kenya (Ornithology
+    Section), A Rocha Kenya, the Tropical Biology Association, the Bird Committee of Nature
+    Kenya, and the Percy FitzPatrick Institute of African Ornithology (University of Cape
+    Town).
+  fetched: '2026-10-30'
+- type: run-by
+  to: national-museums-of-kenya
+  url: https://kenya.birdmap.africa
+  fetched: '2026-10-31'
+  quote: Kenya Bird Map is a joint initiative of the National Museums of Kenya
+  via: webfetch
+- type: run-by
+  to: nature-kenya
+  url: https://naturekenya.org/about/bird-committee/
+  fetched: '2026-10-31'
+  quote: is a project of the Bird Committee of Nature Kenya
+- type: partners-with
+  to: national-museums-of-kenya
+  url: https://naturekenya.org/about/bird-committee/
+  fetched: '2026-10-31'
+  quote: in partnership with the National Museums of Kenya
+- type: partners-with
+  to: a-rocha-kenya
+  url: https://www.arocha.or.ke/kenya-bird-map/
+  fetched: '2026-10-31'
+  quote: is a joint initiative by A Rocha Kenya
+- type: run-by
+  to: a-rocha-kenya
+  url: https://www.arocha.or.ke/?p=14319
+  fetched: '2026-10-31'
+  quote: joint initiative by A Rocha Kenya together with National Museums of Kenya
+- type: run-by
+  to: national-museums-of-kenya
+  url: https://www.arocha.or.ke/?p=14319
+  fetched: '2026-10-31'
+  quote: joint initiative by A Rocha Kenya together with National Museums of Kenya
+- type: run-by
+  to: nature-kenya
+  url: https://www.arocha.or.ke/?p=14319
+  fetched: '2026-10-31'
+  quote: Nature Kenya and the the Fitzpatrick Institute for African Ornithology
+found_by:
+- checklist:2
+- link-from:birdlife-international
+- checklist:register
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-30'

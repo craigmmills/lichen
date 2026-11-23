@@ -1,0 +1,38 @@
+id: ai-for-nature-and-climate-grant-fund
+kind: programme
+name: AI for Nature and Climate grant fund
+scope: global
+ai_label: ai
+realms:
+- land
+countries:
+- br
+status: active
+summary: Open call for AI-enabled solutions from Brazilian nonprofits and research centres on biodiversity, bioeconomy and regenerative agriculture, paid for by $3 million from Google.org and run by Instituto Clima e Sociedade.
+facts:
+- claim: Google.org gave $3 million to iCS for the open call.
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: &id001 2026-10-30
+  quote: Google.org has provided $3M to iCS to launch an open call for grant submissions
+- claim: Supports AI-enabled solutions from Brazilian nonprofits and research centres.
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: *id001
+  quote: to support AI-enabled solutions from Brazilian nonprofit organizations and research centers selected by iCS
+links:
+- type: run-by
+  to: instituto-clima-e-sociedade
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: *id001
+  quote: Google.org has provided $3M to iCS to launch an open call
+- type: funded-by
+  to: google-org
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: *id001
+  quote: "AI for Nature and Climate: A new grant fund for nonprofits Google.org has provided $3M to iCS to launch an open call for grant submissions"
+  amount: 3000000
+  currency: USD
+  year: 2025
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

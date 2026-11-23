@@ -1,0 +1,36 @@
+id: edge-hill-university
+kind: organisation
+name: Edge Hill University
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with authors on random forest classification of a wetland in Ghana from
+  remote sensing.
+facts:
+- claim: 'OpenAlex lists authors at Edge Hill University on this work: Testing the Contribution
+    of Multi-Source Remote Sensing Features for Random Forest Classification of the Greater
+    Amanzul'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Testing the Contribution of Multi-Source Remote Sensing Features for Random Forest
+    Classification of the Greater Amanzul
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.edgehill.ac.uk/
+  quote: L39 4QP
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.edgehill.ac.uk/

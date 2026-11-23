@@ -1,0 +1,50 @@
+id: lemu-nge
+kind: project
+name: Lemu Nge
+scope: cl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- cl
+status: active
+summary: Satellite mission built and run by Lemu, described by the company as launched in 2024 and the
+  first designed explicitly to monitor biodiversity.
+facts:
+- claim: The company describes it as launched in 2024 and as the world's first satellite mission designed
+    explicitly to monitor biodiversity.
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: 2026-11-02
+  quote: Launched in 2024 and led from the Chilean Patagonia, Lemu Nge is the world’s first satellite
+    mission designed explicitly to monitor biodiversity.
+- claim: Its April 2025 scenes cover 32 hyperspectral bands and are intended to enrich Atlas.
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: 2026-11-02
+  quote: Captured across 32 hyperspectral bands (420–900 nm), these observations will enrich Atlas , Lemu’s
+    Nature Intelligence Platform.
+- claim: Codelco describes it as the first satellite dedicated specifically to measuring biodiversity
+    and the first private Chilean satellite in orbit.
+  url: https://www.codelco.com/codelco-presenta-proyecto-pionero-que-incorpora-tecnologia-satelital-e
+  fetched: '2026-11-02'
+  quote: primer satélite del mundo dedicado específicamente a la medición de biodiversidad y primer satélite
+    privado chileno puesto en órbita, lanzado desde EE.UU. en 2024
+links:
+- type: run-by
+  to: lemu
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: &id001 2026-11-02
+  quote: has released the first validated outputs from its orbital biodiversity mission, Lemu Nge
+- type: built-by
+  to: lemu
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: *id001
+  quote: We launched Lemu Nge, the world’s first biodiversity-focused hyperspectral satellite, and Atlas,
+    our Nature Intelligence platform that transforms complex environmental data into clear, actionable
+    insight.
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-02

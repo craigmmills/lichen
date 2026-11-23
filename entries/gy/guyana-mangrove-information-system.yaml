@@ -1,0 +1,64 @@
+id: guyana-mangrove-information-system
+kind: project
+name: Guyana Mangrove Information System (GuyMIS)
+also_known_as:
+- GuyMIS
+scope: gy
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+countries:
+- gy
+status: active
+website: https://guy-mangroves.servirglobal.net/home/
+summary: Web application for monitoring mangrove extent and change in Guyana, built
+  and run by SERVIR and used by NAREI, with Random Forest maps from optical and radar
+  imagery for 2010, 2015 and 2020.
+facts:
+- claim: GuyMIS is a web application for monitoring the extent and change of mangroves
+    in Guyana.
+  url: https://narei.org.gy/mangrove/
+  fetched: '2026-11-12'
+  quote: GuyMIS is a web application dedicated to monitoring the extent and the change
+    of mangroves in Guyana.
+- claim: The app says it is a critical component of NAREI's mangrove monitoring system.
+  url: https://guy-mangroves.servirglobal.net/home/
+  fetched: '2026-11-12'
+  quote: This web application is a critical component of NAREI’s mangrove monitoring
+    system
+- claim: A Random Forest classification of combined optical and radar imagery in Google
+    Earth Engine was used to map mangrove and non-mangrove pixels for 2010, 2015 and
+    2020.
+  url: https://guy-mangroves.servirglobal.net/home/
+  fetched: '2026-11-12'
+  quote: Random Forest Classification algorithm was used to classify mangrove and
+    non-mangrove pixels
+  ai_type: ml-supervised
+links:
+- type: built-by
+  to: servir
+  url: https://guy-mangroves.servirglobal.net/home/
+  fetched: '2026-11-12'
+  quote: This web app is created and maintanined by the SERVIR Science Coordination
+    office
+- type: run-by
+  to: servir
+  url: https://guy-mangroves.servirglobal.net/home/
+  fetched: '2026-11-12'
+  quote: This web app is created and maintanined by the SERVIR Science Coordination
+    office
+- type: used-by
+  to: national-agricultural-research-and-extension-institute
+  url: https://guy-mangroves.servirglobal.net/home/
+  fetched: '2026-11-12'
+  quote: This web application is a critical component of NAREI’s mangrove monitoring
+    system
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

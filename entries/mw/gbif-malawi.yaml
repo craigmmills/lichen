@@ -1,0 +1,39 @@
+id: gbif-malawi
+kind: programme
+name: GBIF Malawi
+also_known_as: []
+scope: mw
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+countries:
+- mw
+status: active
+runner: unknown
+summary: Country node for Malawi in GBIF, with associate participant status, which the registry lists
+  as endorsing most of ten Malawian publishing organisations.
+facts:
+- claim: The GBIF directory lists GBIF Malawi as the country node, with Malawi as an associate participant.
+  url: https://api.gbif.org/v1/node/country/MW
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Malawi"'
+- claim: The GBIF registry lists GBIF Malawi as the country node for Malawi, with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/country/MW
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Malawi","participantTitle":"Malawi"'
+- claim: The GBIF registry lists ten Malawian publishing organisations, most of them endorsed by the GBIF
+    Malawi node, including the Department of Fisheries and the National Herbarium and Botanic Gardens
+    of Malawi.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: '"endOfRecords":true,"count":10'
+links: []
+found_by:
+- checklist:2
+- link-from:queue-mw
+added_by: agent
+checked: 2026-11-08

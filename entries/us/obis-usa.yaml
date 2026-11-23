@@ -1,0 +1,37 @@
+id: obis-usa
+kind: dataset
+name: OBIS-USA
+also_known_as:
+- Ocean Biodiversity Information System USA
+scope: us
+ai_label: data-infrastructure
+realms:
+- ocean
+scale: national
+status: active
+summary: US node of the Ocean Biodiversity Information System. Its marine biological occurrence
+  data are archived by NOAA's National Centers for Environmental Information.
+facts:
+- claim: Marine biological occurrence data managed by OBIS-USA are published by NOAA's National
+    Centers for Environmental Information.
+  url: https://catalog.data.gov/dataset/marine-biological-occurrence-data-managed-by-ocean-biodiversity-information-system-usa-obi
+  quote: Marine biological occurrence data managed by Ocean Biodiversity Information System
+    USA (OBIS-USA) Integrated Publishing Toolkit (IPT)
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: ocean-biodiversity-information-system
+  url: https://catalog.data.gov/dataset/marine-biological-occurrence-data-managed-by-ocean-biodiversity-information-system-usa-obi
+  quote: OBIS-USA is part of an international data sharing network (Ocean Biogeographic Information
+    System, OBIS)
+  fetched: '2026-10-30'
+- type: run-by
+  to: united-states-geological-survey
+  url: https://catalog.data.gov/dataset/marine-biological-occurrence-data-managed-by-ocean-biodiversity-information-system-usa-obi
+  fetched: '2026-10-31'
+  quote: Coordinated by the Science Analytics and Synthesis (SAS) program of the United States
+    Geological Survey (USGS), OBIS-USA
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

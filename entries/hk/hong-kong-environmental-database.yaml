@@ -1,0 +1,51 @@
+id: hong-kong-environmental-database
+kind: dataset
+name: Hong Kong Environmental Database
+also_known_as:
+- HKED
+scope: hk
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- ocean
+techniques: []
+countries: []
+summary: Mapping database built by the Environmental Protection Department, integrating
+  over 100 types of baseline survey data, with an AI application using large language
+  models planned in March 2025.
+facts:
+- claim: Developed by the Environmental Protection Department on a GIS and mapping
+    platform that holds baseline data on environment and ecology from EIA reports.
+  url: https://www.news.gov.hk/eng/2022/12/20221219/20221219_175626_516.html
+  fetched: 2026-11-14
+  quote: The database is developed by the Environmental Protection Department with
+    the application of a geographic information system and a mapping system platform
+    which encompasses various baseline data related to environment and ecology in
+    the EIA reports.
+- claim: Integrates over 100 types of environmental baseline survey data and tracks
+    changes in the environment over time.
+  url: https://www.info.gov.hk/gia/general/202503/26/P2025032500468p.htm
+  fetched: 2026-11-14
+  quote: The database utilises geographic information system and three dimensional
+    mapping platforms to integrate over 100 types of environmental baseline survey
+    data
+- claim: In March 2025 the department said it was working with the Hong Kong Generative
+    AI Research and Development Center on an AI application for the database using
+    large language models.
+  url: https://www.info.gov.hk/gia/general/202503/26/P2025032500468p.htm
+  fetched: 2026-11-14
+  quote: The department is currently collaborating with the Hong Kong Generative AI
+    Research and Development Center (HKGAI) to develop and integrate a new AI-powered
+    application into the foundation of the HKED.
+links:
+- type: built-by
+  to: environmental-protection-department
+  url: https://www.info.gov.hk/gia/general/202503/26/P2025032500468p.htm
+  fetched: 2026-11-14
+  quote: The Hong Kong Environmental Database (HKED) ( hked.epd.gov.hk/ ), developed
+    by the Environmental Protection Department (EPD)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

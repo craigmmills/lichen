@@ -1,0 +1,29 @@
+id: magyar-agrar-es-elettudomanyi-egyetem
+kind: organisation
+name: Magyar Agrár- és Élettudományi Egyetem
+scope: hu
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: A university whose researchers first-authored a 2023 paper estimating reed bed cover in Hungarian
+  fish ponds using an NDVI-based remote sensing technique.
+facts:
+- claim: A 2023 paper first-authored at the university estimates reed bed cover in Hungarian fish ponds
+    with an NDVI-based remote sensing technique.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01394d192,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Estimating Reed Bed Cover in Hungarian Fish Ponds Using NDVI-Based Remote Sensing Technique
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,44 @@
+id: canadian-biogenome-project
+kind: project
+name: Canadian BioGenome Project
+scope: ca
+also_known_as:
+- CBP
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+countries:
+- ca
+status: active
+website: https://earthbiogenome.ca
+summary: Canadian branch of the Earth BioGenome Project, which aims to produce high-quality
+  reference genomes for all Canadian species and share them openly.
+facts:
+- claim: Described as the Canadian branch of the Earth BioGenome Project.
+  url: https://earthbiogenome.ca/
+  fetched: '2026-10-31'
+  quote: The Canadian BioGenome Project is the Canadian branch of the international consortium
+- claim: Its goal is reference genomes for all Canadian species.
+  url: https://earthbiogenome.ca/
+  fetched: '2026-10-31'
+  quote: The central goal of the Canadian BioGenome Project is to produce high-quality reference
+    genomes for all Canadian species.
+- claim: Data are deposited to NCBI and accessible from Ensembl.
+  url: https://earthbiogenome.ca/
+  fetched: '2026-10-31'
+  quote: All generated data are deposited to the NCBI as BioProject 813333
+links:
+- type: partners-with
+  to: earth-biogenome-project
+  url: https://earthbiogenome.ca/
+  fetched: '2026-10-31'
+  quote: Represent Canada within the Earth BioGenome Project
+found_by:
+- link-from:earth-biogenome-project
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

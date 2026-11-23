@@ -1,0 +1,110 @@
+id: darwin-tree-of-life
+kind: project
+name: Darwin Tree of Life
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+countries:
+- gb
+- ie
+status: active
+website: https://sanger.ac.uk/collaboration/darwin-tree-of-life-project
+summary: Project to sequence the species of the British Isles, run by the Wellcome Sanger
+  Institute with partner institutions and £9.4 million from Wellcome for its first phase.
+facts:
+- claim: Wellcome's £9.4m supports the Sanger Institute and nine other partner institutions
+    for the first phase.
+  url: https://www.sanger.ac.uk/news/view/ambitious-project-map-genomes-all-life-british-isles-funded-wellcome
+  quote: The £9.4m funding from Wellcome will support researchers at the Wellcome Sanger Institute
+    and nine other partner institutions involved in the Darwin Tree of Life project
+  fetched: '2026-10-30'
+- claim: Aims to sequence 70,000 species.
+  url: https://www.darwintreeoflife.org/
+  quote: aims to sequence the genomes of 70,000 species of eukaryotic organisms in Britain
+    and Ireland
+  fetched: '2026-10-30'
+- claim: Produces reference genomes for species in Britain and Ireland.
+  url: https://www.sanger.ac.uk/collaboration/darwin-tree-of-life-project/
+  quote: The Darwin Tree of Life project produces high-quality reference genomes
+  fetched: &id001 2026-10-30
+links:
+- type: partners-with
+  to: wellcome-sanger-institute
+  url: https://www.sanger.ac.uk/news/view/ambitious-project-map-genomes-all-life-british-isles-funded-wellcome
+  quote: The £9.4m funding from Wellcome will support researchers at the Wellcome Sanger Institute
+    and nine other partner institutions involved in the Darwin Tree of Life project
+  fetched: '2026-10-30'
+- type: funded-by
+  to: wellcome-trust
+  url: https://www.sanger.ac.uk/news/view/ambitious-project-map-genomes-all-life-british-isles-funded-wellcome
+  quote: The £9.4m funding from Wellcome
+  amount: 9400000
+  currency: GBP
+  fetched: '2026-10-30'
+- type: partners-with
+  to: marine-biological-association
+  url: https://www.mba.ac.uk/major-milestone-reached-in-darwin-tree-of-life-project/
+  quote: Over 1,000 genomes have now been produced as part of the Darwin Tree of Life project
+    – a collaboration between ten leading research organisations and funded by Wellcome
+  fetched: '2026-10-30'
+- type: partners-with
+  to: royal-botanic-garden-edinburgh
+  url: https://www.rbge.org.uk/science/biodiversity-genomics-and-analytics/biodiversity-genomics-infrastructure/darwin-tree-of-life
+  quote: The Royal Botanic Garden Edinburgh (RBGE) is involved in the project as a genome
+    acquisition lab for plants
+  fetched: '2026-10-30'
+- type: partners-with
+  to: earlham-institute
+  url: https://earlham.ac.uk/node/5703
+  quote: £9.4m Wellcome Trust funding to the Darwin Tree of Life Project. This will support
+    the ten UK Institutions, including EI, involved in the project
+  fetched: '2026-10-30'
+- type: funded-by
+  to: wellcome-trust
+  url: https://www.rbge.org.uk/news/media-centre/press-releases/current/ambitious-plan-to-map-genetic-code-of-all-life-on-the-british-isles/
+  quote: the £9.4m Wellcome-funded Darwin Tree of Life (DToL) project
+  fetched: '2026-10-30'
+- type: partners-with
+  to: royal-botanic-garden-edinburgh
+  url: https://www.rbge.org.uk/news/media-centre/press-releases/current/ambitious-plan-to-map-genetic-code-of-all-life-on-the-british-isles/
+  quote: will work with nine partner organisations, including the University of Edinburgh
+    and the Wellcome Sanger Institute, on the £9.4m Wellcome-funded Darwin Tree of Life (DToL)
+    project
+  fetched: '2026-10-30'
+- type: partners-with
+  to: wellcome-sanger-institute
+  url: https://www.rbge.org.uk/news/media-centre/press-releases/current/ambitious-plan-to-map-genetic-code-of-all-life-on-the-british-isles/
+  quote: will work with nine partner organisations, including the University of Edinburgh
+    and the Wellcome Sanger Institute, on the £9.4m Wellcome-funded Darwin Tree of Life (DToL)
+    project
+  fetched: '2026-10-30'
+- type: partners-with
+  to: university-of-edinburgh
+  url: https://www.rbge.org.uk/news/media-centre/press-releases/current/ambitious-plan-to-map-genetic-code-of-all-life-on-the-british-isles/
+  quote: will work with nine partner organisations, including the University of Edinburgh
+    and the Wellcome Sanger Institute, on the £9.4m Wellcome-funded Darwin Tree of Life (DToL)
+    project
+  fetched: '2026-10-30'
+- type: partners-with
+  to: earth-biogenome-project
+  url: https://www.darwintreeoflife.org/
+  quote: The Darwin Tree of Life Project is one of several initiatives across the globe working
+    towards the ultimate goal of sequencing all complex life on Earth, in a venture known
+    as the Earth BioGenome Project
+  fetched: '2026-10-30'
+- type: partners-with
+  to: wellcome-sanger-institute
+  url: https://www.sanger.ac.uk/collaboration/darwin-tree-of-life-project/
+  quote: Darwin Tree of Life
+  fetched: *id001
+found_by:
+- checklist:7
+- link-from:wellcome-sanger-institute
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

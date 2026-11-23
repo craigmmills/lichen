@@ -1,0 +1,62 @@
+id: laboratoire-de-biomathematiques-et-d-estimations-forestieres
+kind: organisation
+name: Laboratoire de Biomathématiques et d'Estimations Forestières
+also_known_as:
+- LABEF
+- Laboratory of Biomathematics and Forest Estimation
+scope: bj
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- species-distribution
+hq: bj
+countries: []
+scale: national
+status: active
+website: https://labef-uac.org/
+summary: Laboratory run by the Université d'Abomey-Calavi, where the Faculty of Agronomic
+  Sciences trains biostatisticians, with research on ecological modelling, forest
+  genetic resources and ecosystem services, and a 2024 paper on random forest variants.
+facts:
+- claim: The Faculty of Agronomic Sciences of the University of Abomey-Calavi trains
+    biostatisticians through the laboratory.
+  url: https://labef-uac.org/
+  fetched: 2026-11-12
+  quote: The Faculty of Agronomic Sciences of the University of Abomey-Calavi, through
+    the Laboratory of Biomathematics and Forest Estimations (LABEF), ensures the training
+    of Biostatisticians
+- claim: Its research covers modelling ecological systems, forest genetic resources
+    and ecosystem services.
+  url: https://labef-uac.org/
+  fetched: 2026-11-12
+  quote: This includes modeling ecological systems, analyzing forest genetic resources,
+    forest economics, ecosystem services
+- claim: A 2024 paper whose first author is affiliated with LABEF compares random
+    forest spatial variants for predicting species abundance.
+  url: https://api.openalex.org/works/W4399576043?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: 'Predicting species abundance using machine learning approach: a comparative
+    assessment of random forest spatial variants and performance metrics'
+  ai_type: ml-supervised
+- claim: The paper's first and last authors give LABEF at the Faculty of Agronomic
+    Sciences, Université d'Abomey-Calavi, as an affiliation.
+  url: https://api.openalex.org/works/W4399576043?select=id,title,publication_year,authorships,doi
+  fetched: 2026-11-12
+  quote: Estimations Foresti
+links:
+- type: run-by
+  to: universite-d-abomey-calavi
+  url: https://labef-uac.org/
+  fetched: 2026-11-12
+  quote: The Faculty of Agronomic Sciences of the University of Abomey-Calavi, through
+    the Laboratory of Biomathematics and Forest Estimations (LABEF)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

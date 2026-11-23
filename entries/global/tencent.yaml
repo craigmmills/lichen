@@ -1,0 +1,40 @@
+id: tencent
+kind: organisation
+name: Tencent
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: cn
+scale: global
+status: active
+website: https://www.tencent.com
+summary: Technology company that built the Eye of the Species camera trap model and a digital
+  detection platform for snow leopards with WWF in Gansu Province.
+countries:
+- cn
+facts:
+- claim: Developed the Eye of the Species AI model.
+  url: https://www.tencent.com/en-us/articles/2202096.html
+  fetched: &id001 2026-10-30
+  quote: Tencent developed “Eye of the Species”, an AI model to enhance conservation efforts.
+- claim: Headquartered in Shenzhen, China.
+  url: https://en.wikipedia.org/wiki/Tencent
+  fetched: 2026-10-30
+  quote: Headquarters Tencent Binhai Mansion , Nanshan District, Shenzhen , Guangdong, China
+links:
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://www.tencent.com/en-us/articles/2201360.html
+  fetched: *id001
+  quote: Tencent and the World Wide Fund for Nature (WWF) have partnered in China’s Gansu
+    Province
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

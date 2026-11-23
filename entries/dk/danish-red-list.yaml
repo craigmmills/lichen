@@ -1,0 +1,29 @@
+id: danish-red-list
+kind: dataset
+name: Den Danske Rødliste
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- dk
+status: active
+runner: unknown
+website: https://ecos.au.dk/forskningraadgivning/temasider/redlistframe
+summary: A dataset giving an overview of about 13,900 Danish species, with assessments that can be exported
+  to a file.
+facts:
+- claim: Overview of about 13,900 Danish species.
+  url: https://ecos.au.dk/forskningraadgivning/temasider/redlistframe
+  fetched: '2026-11-02'
+  quote: Den Danske Rødliste er en samlet oversigt over ca. 13.900 danske arter
+- claim: Assessments can be exported to a file.
+  url: https://ecos.au.dk/forskningraadgivning/temasider/redlistframe
+  fetched: '2026-11-02'
+  quote: Du har også mulighed for at eksportere de fremsøgte vurderinger til en fil
+found_by:
+- link-from:aarhus-university
+added_by: agent
+checked: '2026-11-02'

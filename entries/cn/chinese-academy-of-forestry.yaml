@@ -1,0 +1,45 @@
+id: chinese-academy-of-forestry
+kind: organisation
+name: Chinese Academy of Forestry
+also_known_as:
+- 中国林业科学研究院
+- CAF
+- 中国林科院
+scope: cn
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: National forestry research institution directly under the National Forestry and Grassland
+  Administration, with 19 independent institutes and centres.
+facts:
+- claim: Directly under the National Forestry and Grassland Administration.
+  url: https://www.forestry.gov.cn/c/www/zsdw/376049.jhtml
+  fetched: '2026-10-31'
+  quote: 中国林业科学研究院（简称中国林科院）是国家林业和草原局直属的综合性、多学科、社会公益型国家级科研机构
+- claim: Named in the joint team developing the forest and grassland resource monitoring large
+    model.
+  url: https://www.zytd-bj.com/news/shownews.php?id=128
+  fetched: '2026-10-31'
+  quote: 由中国林业科学研究院、南京林业大学、大连理工大学、中南林业科技大学、南京信息工程大学、中遥天地（北京）信息技术有限公司组成的联合团队
+links:
+- type: run-by
+  to: national-forestry-and-grassland-administration
+  url: https://www.forestry.gov.cn/c/www/zsdw/376049.jhtml
+  fetched: '2026-10-31'
+  quote: 中国林业科学研究院（简称中国林科院）是国家林业和草原局直属的综合性、多学科、社会公益型国家级科研机构
+found_by:
+- link-from:national-forestry-and-grassland-administration
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn
+techniques:
+- remote-sensing

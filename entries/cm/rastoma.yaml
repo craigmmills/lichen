@@ -1,0 +1,77 @@
+id: rastoma
+kind: organisation
+name: 'RASTOMA: Réseau des Acteurs et professionnels de la Sauvegarde des Tortues Marines en Afrique Centrale'
+also_known_as:
+- RASTOMA
+scope: cm
+sector: ngo
+roles:
+- supplies-data
+- convenes
+ai_label: conservation-tech
+realms:
+- ocean
+hq: cm
+countries:
+- cm
+- gq
+- st
+- ga
+- cg
+- cd
+scale: regional
+status: active
+summary: Sea turtle conservation network in Yaoundé, created in 2012 across six Central African countries,
+  which publishes eight GBIF datasets including Cameroonian coast turtle data under CC BY 4.0, and showed
+  a maintenance notice on 8 November 2026.
+facts:
+- claim: Its GBIF publisher record says the network was created in 2012 and covers sea turtle conservationists
+    in six Central African countries.
+  url: https://api.gbif.org/v1/organization/a2c7bd63-c4c0-461b-a0d6-0be2e027b52c
+  fetched: 2026-11-08
+  quote: The Rastoma network was created in 2012. It brings together sea turtle conservationists in the
+    6 countries of Central Africa that have a coastline on the Atlantic Ocean
+- claim: The record says it provides technical support to collect data on marine turtles in a standardised
+    way and use it for national, regional and international strategies.
+  url: https://api.gbif.org/v1/organization/a2c7bd63-c4c0-461b-a0d6-0be2e027b52c
+  fetched: 2026-11-08
+  quote: provide technical support to collect data on marine species especially on turtles  in standardized
+    and harmonized way, and to use this data to feed national, regional and international strategies and
+    indicators
+- claim: The record gives an address in Nkoleton-Bastos, Yaoundé, and eight published datasets.
+  url: https://api.gbif.org/v1/organization/a2c7bd63-c4c0-461b-a0d6-0be2e027b52c
+  fetched: 2026-11-08
+  quote: '"address":["RUE 1.881 NKOLETON-BASTOS"],"city":"Yaoundé"'
+- claim: GBIF's record describes it as a network created in 2012 that brings together sea turtle conservationists
+    in the six Central African countries with an Atlantic coastline.
+  url: https://api.gbif.org/v1/organization/a2c7bd63-c4c0-461b-a0d6-0be2e027b52c
+  fetched: 2026-11-08
+  quote: The Rastoma network was created in 2012. It brings together sea turtle conservationists in the
+    6 countries of Central Africa
+- claim: GBIF's record gives an address in Nkoleton-Bastos, Yaoundé.
+  url: https://api.gbif.org/v1/organization/a2c7bd63-c4c0-461b-a0d6-0be2e027b52c
+  fetched: 2026-11-08
+  quote: RUE 1.881 NKOLETON-BASTOS
+- claim: It publishes a dataset of sea turtle data for the Cameroonian coast, combining nesting beach
+    monitoring at Batoke and Bakingili with landing-site records of turtles caught in fishing nets along
+    the whole coast, under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/dataset/496ca8cb-dd98-4a87-8482-1bfaff86fb34
+  fetched: 2026-11-08
+  quote: regroupent les données des suivis de plages de ponte des tortues marines de Batoke et Bakingili
+- claim: The same dataset includes turtle records from the Siren application, which it says was developed
+    by AMMCO and is used by volunteer fishers.
+  url: https://api.gbif.org/v1/dataset/496ca8cb-dd98-4a87-8482-1bfaff86fb34
+  fetched: 2026-11-08
+  quote: Siren est une application qui a été dévelopée par AMMCO et est actuellement utilisée par les
+    pêcheurs volontaires
+- claim: Its own website showed a maintenance notice on 8 November 2026.
+  url: https://www.rastoma.org/
+  fetched: 2026-11-08
+  quote: Notre site est actuellement en maintenance.
+links: []
+found_by:
+- link-from:gbif-cameroon
+- rule:ngo-broad
+- register:cm
+added_by: agent
+checked: 2026-11-08

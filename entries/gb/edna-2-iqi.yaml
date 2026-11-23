@@ -1,0 +1,32 @@
+id: edna-2-iqi
+kind: model
+name: eDNA-2-IQI
+scope: gb
+ai_label: ai
+realms:
+- ocean
+techniques:
+- edna-genomics
+status: active
+website: https://www.sams.ac.uk/news/sams-news-edna-sampling.html
+summary: Software that uses machine learning and metabarcoding to assess seabed health below
+  fish farms, adopted by the Scottish Environment Protection Agency.
+facts:
+- claim: Uses machine learning and metabarcoding.
+  url: https://www.sams.ac.uk/news/sams-news-edna-sampling.html
+  quote: eDNA-2-IQI uses a combination of machine learning and metabarcoding
+  fetched: &id001 2026-10-30
+- claim: Formally adopted by SEPA.
+  url: https://www.sams.ac.uk/news/sams-news-edna-sampling.html
+  quote: has now been formally adopted by the Scottish Environment Protection Agency (SEPA)
+  fetched: *id001
+links:
+- type: led-by
+  to: scottish-association-for-marine-science
+  url: https://www.sams.ac.uk/news/sams-news-edna-sampling.html
+  quote: SAMS, a partner of UHI, led the research project that devised the method
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

@@ -1,0 +1,40 @@
+id: world-flora-online
+kind: dataset
+name: World Flora Online
+also_known_as:
+- WFO
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://about.worldfloraonline.org
+summary: Open-access database of the world's plant species, a follow-up to The Plant List, conceived in 2012 by four botanical
+  institutions.
+facts:
+- claim: Wikipedia describes it as an open-access database launched in October 2012 as a follow-up to The Plant List.
+  url: https://en.wikipedia.org/wiki/World_Flora_Online
+  quote: launched in October 2012 as a follow-up project to The Plant List
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: world-flora-online-consortium
+  url: https://annals.mobot.org/index.php/annals/article/view/234
+  quote: "a proposed outline of the scope and content of a World Flora Online (WFO), as well as a decision to create an international consortium of institutions and organizations to collaborate on providing its content."
+  fetched: '2026-10-30'
+- type: partners-with
+  to: new-york-botanical-garden
+  url: https://en.wikipedia.org/wiki/World_Flora_Online
+  quote: WFO was conceived in 2012 by an initial group of four institutions; the Missouri Botanical Garden , the New York
+    Botanical Garden
+  fetched: '2026-10-30'
+- type: partners-with
+  to: royal-botanic-gardens-kew
+  url: https://en.wikipedia.org/wiki/World_Flora_Online
+  quote: WFO was conceived in 2012 by an initial group of four institutions; the Missouri Botanical Garden , the New York
+    Botanical Garden , the Royal Botanic Garden Edinburgh and the Royal Botanic Gardens, Kew
+  fetched: '2026-10-30'
+found_by:
+- link-from:international-plant-names-index
+added_by: agent
+checked: '2026-10-30'

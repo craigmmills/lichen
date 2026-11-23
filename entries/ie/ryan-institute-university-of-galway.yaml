@@ -1,0 +1,53 @@
+id: ryan-institute-university-of-galway
+kind: organisation
+name: Ryan Institute, University of Galway
+also_known_as: []
+scope: ie
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: ie
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+summary: Galway institute listed as an affiliation on a 2022 paper mapping peatland soil with machine
+  learning and a 2023 paper monitoring intertidal golden tides with Sentinel-2 imagery.
+facts:
+- claim: The first author of a 2022 paper mapping peatland soil with airborne radiometric data and supervised
+    machine learning is affiliated with the Hy-Res Research Group, Earth and Ocean Sciences and Ryan Institute
+    at the National University of Ireland, Galway.
+  url: https://api.openalex.org/works/W4296641486?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Hy-Res Research Group, Earth and Ocean Sciences and Ryan Institute, College of Science and Engineering,
+    National University of Ireland, Galway
+- claim: The 2022 peatland paper uses supervised machine learning.
+  url: https://api.openalex.org/works/W4296641486?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Digital soil mapping of peatland using airborne radiometric data and supervised machine learning
+  ai_type: ml-supervised
+- claim: Lead affiliation of a 2023 paper monitoring intertidal golden tides dominated by Ectocarpus siliculosus
+    with Sentinel-2 imagery.
+  url: https://api.openalex.org/works/W4385755776?select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: Monitoring intertidal golden tides dominated by Ectocarpus siliculosus using Sentinel-2 imagery
+- claim: The first author of the golden tides paper is listed at Earth and Life Sciences, School of Natural
+    Sciences and Ryan Institute, University of Galway.
+  url: https://api.openalex.org/works/W4385755776?select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: Earth and Life Sciences, School of Natural Sciences and Ryan Institute, University of Galway,
+    H91TK33, Ireland
+links: []
+found_by:
+- register:ie
+- checklist:3
+added_by: agent
+checked: 2026-11-09

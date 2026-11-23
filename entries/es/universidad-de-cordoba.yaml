@@ -1,0 +1,27 @@
+id: universidad-de-cordoba
+kind: organisation
+name: Universidad de Córdoba
+scope: es
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+realms:
+- land
+techniques:
+- bioacoustics
+summary: Public university in Spain. It curates the BIRDeep Audio Annotations dataset with
+  the Estación Biológica de Doñana.
+facts:
+- claim: Co-curates the BIRDeep Audio Annotations dataset.
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: 'Curated by: Estación Biológica de Doñana (CSIC) and Universidad de Córdoba'
+found_by:
+- register:es
+- link-from:birdeep-audio-annotations
+added_by: agent
+checked: '2026-10-31'

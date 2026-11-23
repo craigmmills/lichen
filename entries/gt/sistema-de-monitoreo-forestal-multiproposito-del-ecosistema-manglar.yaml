@@ -1,0 +1,42 @@
+id: sistema-de-monitoreo-forestal-multiproposito-del-ecosistema-manglar
+kind: programme
+name: Sistema de Monitoreo Forestal Multipropósito del Ecosistema Manglar
+scope: gt
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+countries:
+- gt
+status: active
+runner: unknown
+summary: Active mangrove monitoring system based on permanent plots, used by INAB
+  to set technical criteria for incentives, restoration and management, with remote
+  sensing also used for updated cover maps.
+facts:
+- claim: INAB says it relies on the system to define technical criteria for forest
+    incentives, restoration and sustainable management of mangroves.
+  url: https://www.inab.gob.gt/images/boletines/2025/julio/Bolet%C3%ADn_manglares.pdf
+  fetched: 2026-11-12
+  quote: el INAB se apoya en el Sistema de Monitoreo Forestal
+- claim: The platform is based on permanent plots in mangrove ecosystems and generates
+    information on their ecological dynamics.
+  url: https://www.inab.gob.gt/images/boletines/2025/julio/Bolet%C3%ADn_manglares.pdf
+  fetched: 2026-11-12
+  quote: Esta plataforma, basada en parcelas permanentes establecidas en estos ecosistemas,
+    genera información clave sobre su dinámica ecológica.
+- claim: The same July 2025 bulletin says remote sensing is also used to produce updated
+    maps of mangrove cover.
+  url: https://www.inab.gob.gt/images/boletines/2025/julio/Bolet%C3%ADn_manglares.pdf
+  fetched: 2026-11-12
+  quote: Adicionalmente se utiliza tecnología de sensores remotos para generar
+links:
+- type: used-by
+  to: instituto-nacional-de-bosques-guatemala
+  url: https://www.inab.gob.gt/images/boletines/2025/julio/Bolet%C3%ADn_manglares.pdf
+  fetched: 2026-11-12
+  quote: el INAB se apoya en el Sistema de Monitoreo Forestal
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

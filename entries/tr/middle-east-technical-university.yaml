@@ -1,0 +1,29 @@
+id: middle-east-technical-university
+kind: organisation
+name: Middle East Technical University
+scope: tr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- freshwater
+hq: unknown
+scale: national
+status: active
+summary: University for which OpenAlex lists a 2000 paper presenting case studies on the use
+  of neural networks in eutrophication modelling.
+facts:
+- claim: OpenAlex lists a 2000 paper with case studies on the use of neural networks in eutrophication
+    modelling.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I201799495,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: Case studies on the use of neural networks in eutrophication modeling
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,43 @@
+id: manipal-academy-of-higher-education
+kind: organisation
+name: Manipal Academy of Higher Education
+scope: in
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+ai_types:
+- deep-learning
+summary: University named by OpenAlex as the affiliation of K. A. Yashaswini, first
+  author of a 2025 paper on deep learning for animal sensing systems in habitat monitoring.
+facts:
+- claim: OpenAlex lists K. A. Yashaswini, affiliated with its Manipal Institute of
+    Technology Bengaluru, as first author of a 2025 paper on deep learning for animal
+    sensing systems in habitat monitoring.
+  url: https://api.openalex.org/works/W4416161470?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Optimizing Data Processing in Animal Sensing Systems using Deep Learning
+    Algorithms for Efficient Habitat Monitoring
+- claim: OpenAlex gives the first author's affiliation as this university.
+  url: https://api.openalex.org/works/W4416161470?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Department of Information Technology , Manipal Institute of Technology Bengaluru
+    , Manipal Academy of Higher Education , Manipal , India
+- claim: The paper title concerns deep learning algorithms for data processing in
+    animal sensing systems and habitat monitoring.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works/W4416161470?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Optimizing Data Processing in Animal Sensing Systems using Deep Learning
+    Algorithms
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,65 @@
+id: pha-khao-lao
+kind: project
+name: Pha Khao Lao
+also_known_as:
+- PKL
+scope: la
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- la
+status: active
+summary: Platform built and run jointly by NAFRI and the University of Bern's Centre for Development and
+  Environment, with a database integrating information on plant and animal species.
+facts:
+- claim: A joint initiative of NAFRI and the Centre for Development and Environment of the University
+    of Bern, which have collaborated on developing the platform.
+  url: https://phakhaolao.la/en/?p=11331
+  fetched: 2026-11-12
+  quote: Both institutions have been collaborating on the development of the PKL platform and are committed
+    to continue their fruitful collaboration.
+- claim: Its database collects and integrates information on plant and animal species, as a CDE staff
+    member managing it describes.
+  url: https://phakhaolao.la/en/?p=11331
+  fetched: 2026-11-12
+  quote: I manage the Pha Khao Lao Database, collecting and integrating information on plant and animal
+    species.
+links:
+- type: built-by
+  to: national-agriculture-and-forestry-research-institute
+  url: https://phakhaolao.la/en/?p=11331
+  fetched: &id001 2026-11-12
+  quote: Both institutions have been collaborating on the development of the PKL platform and are committed
+    to continue their fruitful collaboration.
+- type: built-by
+  to: centre-for-development-and-environment-university-of-bern
+  url: https://phakhaolao.la/en/?p=11331
+  fetched: &id002 2026-11-12
+  quote: Both institutions have been collaborating on the development of the PKL platform
+- type: run-by
+  to: national-agriculture-and-forestry-research-institute
+  url: https://phakhaolao.la/en/?p=11331
+  fetched: *id001
+  quote: 'Pha Khao Lao is a project by:
+
+    Centre for Development and Environment (CDE)
+
+    University of Bern, Switzerland
+
+    National Agriculture and Forestry Research Institute (NAFRI)
+
+    Ministry of Agriculture and Forestry, Lao PDR'
+- type: run-by
+  to: centre-for-development-and-environment-university-of-bern
+  url: https://phakhaolao.la/en/?p=11331
+  fetched: *id002
+  quote: 'Pha Khao Lao is a project by:
+
+    Centre for Development and Environment (CDE)
+
+    University of Bern, Switzerland'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

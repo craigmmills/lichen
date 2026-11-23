@@ -1,0 +1,45 @@
+id: agence-nationale-de-la-statistique-et-de-la-demographie
+kind: organisation
+name: Agence Nationale de la Statistique et de la Démographie
+also_known_as:
+- ANSD
+scope: sn
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sn
+countries:
+- sn
+scale: national
+website: https://www.ansd.sn/
+summary: Senegal's statistics agency, which publishes land cover accounts and trained staff
+  on Earth observation data with Digital Earth Africa in 2025.
+facts:
+- claim: Publishes a report on land cover accounts.
+  url: https://www.ansd.sn/node/16395
+  quote: Rapport sur les comptes de l'occupation des sols
+  fetched: '2026-10-31'
+- claim: Digital Earth Africa says it partnered with ANSD and UN Women on Earth observation
+    training in October 2025.
+  url: https://digitalearthafrica.org/fr/?p=5118
+  quote: In October 2025, Digital Earth Africa (DE Africa) partnered with Senegal’s Agence
+    Nationale de la Statistique et de la Démographie (ANSD) and UN Women
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: digital-earth-africa
+  url: https://digitalearthafrica.org/fr/?p=5118
+  quote: Digital Earth Africa (DE Africa) partnered with Senegal’s Agence Nationale de la
+    Statistique et de la Démographie (ANSD)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

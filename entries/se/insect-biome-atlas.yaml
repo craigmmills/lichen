@@ -1,0 +1,134 @@
+id: insect-biome-atlas
+kind: dataset
+name: Insect Biome Atlas
+also_known_as:
+- IBA
+scope: se
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+countries:
+- se
+- mg
+status: active
+runner: unknown
+summary: Dataset led by Fredrik Ronquist and funded by the Knut and Alice Wallenberg Foundation,
+  charting insect faunas of Sweden and Madagascar by DNA sequencing, with over 30,000 species
+  detected in Sweden.
+facts:
+- claim: Aims to chart the insect faunas of Sweden and Madagascar using DNA sequencing.
+  url: https://www.insectbiomeatlas.org/
+  fetched: 2026-11-02
+  quote: a large-scale insect project aimed at charting the insect faunas of Sweden and Madagascar
+    and their associated microbiomes using high-throughput DNA sequencing of Malaise trap
+    and soil samples.
+- claim: GBIF Sweden says its datasets are open through GBIF and SBDI.
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: 2026-11-02
+  quote: The datasets are now fully accessible via GBIF.org and the Swedish Biodiversity Data
+    Infrastructure (SBDI).
+- claim: Charts insect faunas of Sweden and Madagascar with high-throughput DNA sequencing.
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: is a large-scale insect project aimed at charting the insect faunas of Sweden and
+    Madagascar
+- claim: During its 2019–2020 field phase, insects were collected with 200 traps in Sweden
+    and 50 in Madagascar.
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: 200 traps in Sweden and 50 in Madagascar
+- claim: Aim of the project.
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: aimed at charting the insect faunas of Sweden and Madagascar and their associated
+    microbiomes using high-throughput DNA sequencing of Malaise trap and soil samples
+- claim: More than 30,000 species detected in Sweden.
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: More than 30,000 species were detected in Sweden, including approximately 10,000
+    species new to the country.
+- claim: Occurrence records available.
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: With more than 3.4 million occurrence records
+found_by:
+- checklist:3
+- link-from:gbif-sweden
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: funded-by
+  to: knut-and-alice-wallenberg-foundation
+  url: https://www.insectbiomeatlas.org/
+  fetched: 2026-11-02
+  quote: The project is funded by the Knut and Alice Wallenberg Foundation .
+- type: partners-with
+  to: kth-royal-institute-of-technology
+  url: https://www.insectbiomeatlas.org/
+  fetched: 2026-11-02
+  quote: the Royal Institute of Technology in Stockholm
+- type: partners-with
+  to: stockholm-university
+  url: https://www.insectbiomeatlas.org/
+  fetched: 2026-11-02
+  quote: the Royal Institute of Technology in Stockholm , Stockholm University, Station Linné
+    and the Madagascar Biodiversity Center
+- type: funded-by
+  to: knut-and-alice-wallenberg-foundation
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: The project is funded by the Knut and Alice Wallenberg Foundation
+- type: partners-with
+  to: swedish-museum-of-natural-history
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: The Insect Biome Atlas is a collaboration between The Swedish Museum of Natural History
+- type: partners-with
+  to: stockholm-university
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: The Insect Biome Atlas is a collaboration between The Swedish Museum of Natural History
+    , The Swedish University of Agricultural Sciences , the Royal Institute of Technology
+    in Stockholm , Stockholm University, Station Linné and the Madagascar Biodiversity Center
+    .
+- type: partners-with
+  to: swedish-museum-of-natural-history
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: This collaborative effort involved several leading institutions in Sweden, Madagascar,
+    and Poland, including the Swedish Museum of Natural History, Stockholm University, the
+    Swedish University of Agricultural Sciences (SLU), KTH Royal Institute of Technology,
+    SciLifeLab, Station Linné
+- type: partners-with
+  to: stockholm-university
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: This collaborative effort involved several leading institutions in Sweden, Madagascar,
+    and Poland, including the Swedish Museum of Natural History, Stockholm University, the
+    Swedish University of Agricultural Sciences (SLU), KTH Royal Institute of Technology,
+    SciLifeLab, Station Linné
+- type: partners-with
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: This collaborative effort involved several leading institutions in Sweden, Madagascar,
+    and Poland, including the Swedish Museum of Natural History, Stockholm University, the
+    Swedish University of Agricultural Sciences (SLU), KTH Royal Institute of Technology,
+    SciLifeLab, Station Linné
+- type: partners-with
+  to: kth-royal-institute-of-technology
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: This collaborative effort involved several leading institutions in Sweden, Madagascar,
+    and Poland, including the Swedish Museum of Natural History, Stockholm University, the
+    Swedish University of Agricultural Sciences (SLU), KTH Royal Institute of Technology,
+    SciLifeLab, Station Linné
+- type: partners-with
+  to: station-linne
+  url: https://www.insectbiomeatlas.org/
+  fetched: '2026-11-02'
+  quote: The Swedish inventory was implementeded in collaboration with Station Linné

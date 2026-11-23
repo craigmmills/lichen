@@ -1,0 +1,91 @@
+id: observation-international
+kind: organisation
+name: Observation International
+also_known_as:
+- Stichting Observation International
+- Observation International
+- Observation.org
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: nl
+scale: global
+status: active
+website: https://observation-international.org/en/
+summary: Dutch non-profit foundation that provides a worldwide platform for storing, validating
+  and sharing nature information, and offers the ObsIdentify app.
+scope: nl
+facts:
+- claim: Says it provides a worldwide platform for nature information.
+  url: https://observation-international.org/en/
+  fetched: '2026-10-31'
+  quote: Observation International provides a worldwide platform for storing, validating and
+    sharing nature information.
+- claim: A non-profit foundation under Dutch law.
+  url: https://observation-international.org/en/organization/
+  fetched: '2026-10-31'
+  quote: Observation International is a non-profit foundation under Dutch law.
+- claim: Dylan Verheul is its current managing director.
+  url: https://observation-international.org/en/organization/
+  fetched: '2026-10-31'
+  quote: The current managing director is Dylan Verheul.
+- claim: An App Store listing names it as maker of ObsIdentify.
+  url: https://apps.apple.com/gb/app/obsidentify/id1464543488
+  fetched: &id001 2026-10-31
+  quote: ObsIdentify is a product of the Observation International Foundation
+- claim: Offers a worldwide biodiversity platform for citizen science and monitoring.
+  url: https://observation-international.org/nl/
+  fetched: '2026-10-31'
+  quote: Observation International biedt een wereldwijd biodiversiteitsplatform voor burgerwetenschap
+    en monitoring.
+- claim: Can help with sites, apps and other technology.
+  url: https://observation-international.org/nl/
+  fetched: '2026-10-31'
+  quote: Observation International kan u helpen met sites, apps en andere technologie.
+- claim: Apple's App Store listing says ObsIdentify is a product of the Observation International
+    Foundation.
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: ObsIdentify is a product of the Observation International Foundation, in collaboration
+    with Naturalis Biodiversity Center (The Netherlands) and Natuurpunt (Belgium).
+- claim: The App Store listing names the provider as Stichting Observation International.
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: Provider Stichting Observation International
+- claim: NatureToday reports that a large database of insect images from observation.org was
+    used to train insect recognition software.
+  url: https://www.naturetoday.com/intl/en/nature-reports/message/?msg=25214
+  fetched: '2026-10-31'
+  quote: using a huge database of insect images made available by observation.org
+links:
+- type: runs
+  to: obsidentify
+  url: https://observation-international.org/en/
+  fetched: '2026-10-31'
+  quote: New user? Download our app ObsIdentify
+- type: runs
+  to: obsidentify
+  url: https://apps.apple.com/gb/app/obsidentify/id1464543488
+  fetched: *id001
+  quote: ObsIdentify is a product of the Observation International Foundation
+- type: runs
+  to: obsidentify
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: De app is een initiatief van Stichting Observation International, Naturalis Biodiversity
+    Center en COSMONiO Imaging bv.
+found_by:
+- checklist:4
+- link-from:naturalis-biodiversity-center
+- register:nl
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision

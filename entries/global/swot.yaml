@@ -1,0 +1,30 @@
+id: swot
+kind: programme
+name: Surface Water and Ocean Topography mission
+also_known_as:
+- SWOT
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+website: https://swot.jpl.nasa.gov
+summary: Satellite mission for surface water and ocean measurement, run by NASA and the French space agency CNES.
+facts:
+- claim: Mission page names CNES, with contributions from the Canadian and UK space agencies.
+  url: https://swot.jpl.nasa.gov/mission/overview/
+  quote: with contributions from the Canadian Space Agency (CSA) and United Kingdom Space Agency
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: nasa
+  url: https://swot.jpl.nasa.gov/
+  quote: "Data provided by the water satellite, a joint effort between NASA and the French space agency"
+  fetched: '2026-10-30'
+found_by:
+- link-from:hydrosheds
+added_by: agent
+checked: '2026-10-30'

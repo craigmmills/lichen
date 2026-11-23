@@ -1,0 +1,42 @@
+id: mapbiomas-ecuador
+kind: dataset
+name: MapBiomas Ecuador
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ec
+status: active
+summary: A collaborative land mapping initiative using satellite images and geospatial analysis,
+  led by Fundación EcoCiencia, whose fourth collection was reported by Primicias as presented
+  on 14 October 2026.
+facts:
+- claim: Primicias describes it as a collaborative initiative using satellite images and geospatial
+    analysis.
+  url: https://www.primicias.ec/ciencia-tecnologia/ecuador-bosques-cobertura-natural-glaciares-tala-arboles-estudio-ecociencia-134914/
+  fetched: 2026-11-02
+  quote: MapBiomas Ecuador es una iniciativa colaborativa que utiliza imágenes satelitales
+    y tecnologías de análisis geoespacial
+- claim: Its first collection included interactive maps and downloadable statistics.
+  url: https://primicias.ec/noticias/sociedad/ecuador-cobertura-natural-vegetal-investigacion
+  fetched: 2026-11-02
+  quote: incluye una serie de mapas interactivos, estadísticas descargables e infografías
+- claim: Primicias reports that EcoCiencia presented findings alongside the fourth MapBiomas
+    Ecuador collection on 14 October 2026.
+  url: https://www.primicias.ec/ciencia-tecnologia/ecuador-bosques-cobertura-natural-glaciares-tala-arboles-estudio-ecociencia-134914/
+  fetched: '2026-11-02'
+  quote: reveló este miércoles 14 de octubre la Fundación EcoCiencia junto a la cuarta colección
+    de MapBiomas Ecuador
+links:
+- type: led-by
+  to: fundacion-ecociencia
+  url: https://primicias.ec/noticias/sociedad/ecuador-cobertura-natural-vegetal-investigacion
+  fetched: 2026-11-02
+  quote: con la Fundación EcoCiencia como su coordinadora en Ecuador
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

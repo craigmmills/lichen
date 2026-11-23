@@ -1,0 +1,43 @@
+id: sandtracer
+kind: project
+name: SandTracer
+scope: nl
+ai_label: ai
+status: active
+runner: unknown
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- nl
+summary: Prototype that follows Dutch dune dynamics with AI on satellite images and
+  LiDAR data, from research commissioned by STOWA and Rijkswaterstaat. A year of field
+  validation is planned.
+facts:
+- claim: Prototype arising from research into AI combined with satellite images and
+    LiDAR.
+  url: https://www.stowa.nl/nieuws/sandtracer-monitoring-van-duindynamiek-met-satellietdata-en-ai
+  fetched: '2026-10-31'
+  quote: Dit heeft geleid tot de ontwikkeling van een prototype ‘SandTracer’.
+- claim: STOWA says managers can follow sand drift and its effects on nature and infrastructure
+    each month.
+  url: https://www.stowa.nl/nieuws/sandtracer-monitoring-van-duindynamiek-met-satellietdata-en-ai
+  fetched: '2026-10-31'
+  quote: kunnen beheerders nu maandelijks inzicht krijgen in zandverstuivingen en
+    hun effecten op natuur en infrastructuur.
+links:
+- type: partners-with
+  to: stowa
+  url: https://www.stowa.nl/nieuws/sandtracer-monitoring-van-duindynamiek-met-satellietdata-en-ai
+  fetched: '2026-10-31'
+  quote: hebben STOWA en Rijkswaterstaat onderzoek laten doen
+- type: partners-with
+  to: rijkswaterstaat
+  url: https://www.stowa.nl/nieuws/sandtracer-monitoring-van-duindynamiek-met-satellietdata-en-ai
+  fetched: '2026-10-31'
+  quote: hebben STOWA en Rijkswaterstaat onderzoek laten doen
+found_by:
+- link-from:stowa
+added_by: agent
+checked: '2026-10-31'

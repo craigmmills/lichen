@@ -1,0 +1,38 @@
+id: provincie-zeeland
+kind: organisation
+name: Provincie Zeeland
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: unknown
+scale: regional
+status: active
+summary: Dutch province that follows plants and animals through several monitoring programmes,
+  with counts done by site managers, volunteers and others and data published in its data
+  portal.
+facts:
+- claim: Plants and animals are followed through several monitoring programmes.
+  url: https://www.zeeland.nl/natuur-en-landschap/natuurmonitoring
+  quote: Het volgen van de verschillende planten en dieren gebeurt met verschillende monitoringprogramma’s.
+  fetched: '2026-11-08'
+- claim: Site managers, species organisations, volunteers and consultancies carry out the
+    counts in consultation with or commissioned by the province.
+  url: https://www.zeeland.nl/natuur-en-landschap/natuurmonitoring
+  quote: Terreinbeheerders, soortenorganisaties, vrijwilligers en adviesbureaus voeren deze
+    tellingen uit in overleg of in opdracht van de Provincie Zeeland.
+  fetched: '2026-11-08'
+- claim: Data collected for the province is published in its data portal.
+  url: https://www.zeeland.nl/natuur-en-landschap/natuurmonitoring
+  quote: Data die verzameld is in opdracht van de Provincie Zeeland is te vinden in ons dataportaal
+    .
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

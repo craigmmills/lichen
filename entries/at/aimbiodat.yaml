@@ -1,0 +1,109 @@
+id: aimbiodat
+kind: programme
+name: AIMBioDat (Austrian Initiative for Mobilizing Biodiversity Data)
+also_known_as:
+- GBIF Austria
+- GBIF-Austria
+- Austrian Initiative for Mobilizing Biodiversity Data
+- AIM BioDat
+scope: at
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- at
+scale: national
+status: active
+website: https://www.gbif.at
+summary: Programme run by Umweltbundesamt and funded by the environment department since 2004, with 26
+  data providers and almost 14 million records on GBIF, where Austria is an observer.
+facts:
+- claim: Says Austria is currently only an observer of the international GBIF network.
+  url: https://www.gbif.at
+  fetched: 2026-11-07
+  quote: Österreich ist aktuell nur „Observer“ des internationalen GBIF-Netzwerks
+- claim: The initiative has been funded by the environment department since 2004.
+  url: https://www.gbif.at
+  fetched: 2026-11-07
+  quote: Die seit 2004 vom Umweltressort geförderte Initiative zur Mobilisierung von Biodiversitäts-Daten
+- claim: The federal research infrastructure database says GBIF-Austria makes about 14 million records
+    freely available.
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: Davon stellt GBIF-Austria circa 14 Millionen Datensätze zu unterschiedlichsten Tier-, Pflanzen-
+    und Pilzarten frei zur Verfügung.
+- claim: The network currently has 26 data providers.
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: Das AIMBioDat-Netzwerk umfasst derzeit 26 Datenprovider
+- claim: Austria is currently only an observer in the GBIF network.
+  url: http://www.gbif.at/
+  fetched: 2026-11-07
+  quote: Österreich ist aktuell nur „Observer“ des internationalen GBIF-Netzwerks
+- claim: Austrian institutions publish almost 14 million released records through GBIF.
+  url: http://www.gbif.at/
+  fetched: 2026-11-07
+  quote: leisten aktuell mit fast 14 Millionen an freigeschalteten Datensätzen einen wertvollen Beitrag
+- claim: GBIF lists the node as GBIF Austria, with observer status.
+  url: https://api.gbif.org/v1/node/1e789bc9-79fc-4e60-a49e-89dfc45a7188
+  fetched: 2026-11-07
+  quote: '"participationStatus":"OBSERVER"'
+links:
+- type: run-by
+  to: umweltbundesamt-gmbh
+  url: https://www.gbif.at
+  fetched: 2026-11-07
+  quote: Diese österreichische Initiative zur Mobilisierung von Biodiversitäts-Daten wird vom Umweltbundesamt
+    koordiniert.
+- type: funded-by
+  to: bundesministerium-fuer-land-und-forstwirtschaft-klima-und-umweltschutz-regionen-und-wasserwirtschaft
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: AIMBioDat (Austrian Initiative for Mobilizing Biodiversity Data) ist eine vom Bundesministerium
+    für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft geförderte Initiative
+- type: partners-with
+  to: biodiversitaets-atlas-oesterreich
+  url: https://www.gbif.at
+  fetched: 2026-11-07
+  quote: Seit 2021 besteht eine enge inhaltliche Kooperation mit der Initiative „Biodiversitäts-Atlas
+    Österreich“
+- type: partners-with
+  to: nationalpark-neusiedler-see-seewinkel
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: Nationalpark Neusiedler See-Seewinkel
+- type: partners-with
+  to: birdlife-oesterreich
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: Birdlife Österreich
+- type: partners-with
+  to: naturschutzbund-oesterreich
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: Naturschutzbund
+- type: run-by
+  to: umweltbundesamt-gmbh
+  url: http://www.gbif.at/
+  fetched: 2026-11-07
+  quote: Diese österreichische Initiative zur Mobilisierung von Biodiversitäts-Daten wird vom Umweltbundesamt
+    koordiniert.
+- type: partners-with
+  to: biodiversitaets-atlas-oesterreich
+  url: http://www.gbif.at/
+  fetched: 2026-11-07
+  quote: Seit 2021 besteht eine enge inhaltliche Kooperation mit der Initiative „Biodiversitäts-Atlas
+    Österreich“
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/1e789bc9-79fc-4e60-a49e-89dfc45a7188
+  fetched: 2026-11-07
+  quote: '"title":"GBIF Austria"'
+found_by:
+- checklist:2
+- link-from:queue-at
+added_by: agent
+checked: 2026-11-07

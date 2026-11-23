@@ -1,0 +1,38 @@
+id: salahaddin-university-department-of-geography
+kind: organisation
+name: Department of Geography, College of Art, Salahaddin University-Erbil
+also_known_as: []
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- iq
+scale: local
+status: active
+summary: Geography department at Salahaddin University-Erbil, listed by OpenAlex as
+  lead affiliation on a 2025 paper on monitoring biodiversity in Erbil Governorate
+  using remote sensing data.
+facts:
+- claim: Lead (first-author) affiliation on a 2025 paper on monitoring biodiversity
+    in Erbil Governorate with remote sensing data, per OpenAlex.
+  url: https://api.openalex.org/works/W4407568033?select=authorships
+  fetched: 2026-11-12
+  quote: Department of Geography, College of Art, Salahaddin University-Erbil, Kurdistan
+    Region, Iraq
+- claim: OpenAlex lists the paper's title.
+  url: https://api.openalex.org/works?filter=institutions.country_code:IQ,from_publication_date:2022-01-01,title.search:biodiversity%20monitoring&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: Monitoring of Biodiversity in the Erbil Governorate -Iraq Using Remote Sensing
+    Data
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

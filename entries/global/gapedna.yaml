@@ -1,0 +1,22 @@
+id: gapedna
+kind: project
+name: GAPeDNA
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+- freshwater
+techniques:
+- edna-genomics
+summary: Web interface giving a global overview of genetic database completeness for a taxon
+  across space and conservation status, for eDNA metabarcoding.
+facts:
+- claim: Paper proposes it as a web interface for database completeness.
+  url: https://archimer.ifremer.fr/doc/00688/79976/
+  quote: We propose GAPeDNA
+  fetched: '2026-10-30'
+found_by:
+- link-from:midori-reference
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,37 @@
+id: foresta
+kind: project
+name: Foresta
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ch
+status: active
+summary: Project that turns LiDAR point clouds into inventories of individual trees, built by Schweiz3D
+  and funded by Gebert Rüf Stiftung.
+facts:
+- claim: Turns LiDAR point clouds into inventories of individual trees.
+  url: https://www.grstiftung.ch/en/funding/portfolio~grs-023-26~.html
+  fetched: '2026-11-02'
+  quote: We turn point clouds from different LiDAR sensors into inventories that capture attributes such
+    as position, species, diameter, structure and vitality of individual trees
+links:
+- type: built-by
+  to: schweiz3d
+  url: https://www.grstiftung.ch/en/funding/portfolio~grs-023-26~.html
+  fetched: '2026-11-02'
+  quote: Foresta by Schweiz3D – Automated tree-level forest inventories (PROOF)
+- type: funded-by
+  to: gebert-ruf-stiftung
+  url: https://www.grstiftung.ch/en/funding/portfolio~grs-023-26~.html
+  fetched: '2026-11-02'
+  quote: 'Amount of funding: CHF 25''000'
+  amount: 25000
+  currency: CHF
+found_by:
+- checklist:6
+added_by: agent
+checked: '2026-11-02'

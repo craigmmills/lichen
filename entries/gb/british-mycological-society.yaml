@@ -1,0 +1,34 @@
+id: british-mycological-society
+kind: organisation
+name: British Mycological Society
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.britmycolsoc.org.uk/
+summary: Society that publishes the Fungal Records Database of Britain and Ireland on GBIF.
+facts:
+- claim: Says fungal records inform conservation priorities.
+  url: https://www.britmycolsoc.org.uk/recording-fungi.html
+  fetched: '2026-10-30'
+  quote: are used to inform conservation priorities and policies
+- claim: Publishes the dataset "Fungal Records Database of Britain and Ireland" on GBIF.
+  url: https://api.gbif.org/v1/organization/764dc23f-4a2f-4d81-93cb-3cf16077d191/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Fungal Records Database of Britain and Ireland
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/764dc23f-4a2f-4d81-93cb-3cf16077d191/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

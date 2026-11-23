@@ -1,0 +1,44 @@
+id: abdelmalek-essaadi-university
+kind: organisation
+name: Abdelmalek Essaâdi University
+also_known_as: []
+scope: ma
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: ma
+countries: []
+scale: national
+status: active
+summary: A Moroccan institution in OpenAlex, listed with a 2023 paper on forecasting Mediterranean
+  basin vegetation and a 2024 paper on trait-based biomonitoring of rivers in the north-western
+  Rif.
+facts:
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "https://www.uae.ac.ma/", "country_code": "MA"'
+- claim: OpenAlex lists a 2023 paper with first author Hafssa Naciri, with Abdelmalek Essaâdi
+    University as their affiliation, on approaches to forecasting Mediterranean basin vegetation.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Mediterranean basin vegetation forecasting approaches: accuracy analysis'
+- claim: OpenAlex lists a 2024 paper with first author Sara El Yaagoubi, with Abdelmalek Essaâdi
+    University as their affiliation, on trait-based biomonitoring of rivers in the north-western
+    Rif.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01ejxf797|03cdvht47|058gnfy87|051hckb40|01t9czq80|00675rp98|05jp6at49|01ec0jk73|05y503v71|02gjqpv16,primary_topic.subfield.id:2309|1105|2303,publication_year:>2021&per-page=100&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Ephemeroptera, Plecoptera and Trichoptera (EPT) trait-based biomonitoring of rivers
+    within the northwestern Rif of Morocco
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

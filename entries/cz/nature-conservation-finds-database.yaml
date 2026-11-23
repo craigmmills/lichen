@@ -1,0 +1,38 @@
+id: nature-conservation-finds-database
+kind: dataset
+name: Nálezová databáze ochrany přírody
+also_known_as:
+- NDOP
+- Nature Conservation Finds Database
+scope: cz
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- cz
+status: active
+summary: A Czech database run by the Nature Conservation Agency that collects available species occurrence
+  data for conservation authorities and for public use, including research.
+facts:
+- claim: Collects available data on species occurrence in the Czech Republic, for nature conservation
+    authorities and for public use including research.
+  url: https://ziva.avcr.cz/files/ziva/pdf/mobilni-aplikace-biolog-a-dalsi-cesty-dat-do-nalez.pdf
+  fetched: 2026-11-07
+  quote: V NDOP se shro- mažďují dostupná data o výskytu druhů na území ČR, která slouží jednak orgánům
+    ochrany přírody, jednak jsou veřejně k dis- pozici
+- claim: Its data entry tool is a web application at ndop.nature.cz.
+  url: https://ziva.avcr.cz/files/ziva/pdf/mobilni-aplikace-biolog-a-dalsi-cesty-dat-do-nalez.pdf
+  fetched: 2026-11-07
+  quote: nástroj, v dnešním kontextu webová apli- kace, NDOP – ndop.nature.cz
+links:
+- type: run-by
+  to: nature-conservation-agency-of-the-czech-republic
+  url: https://mzp.gov.cz/system/files/2026-05/ODOIMZ-SOBR_CR_2026-2050_a_AP_2026-2030_20260519.pdf
+  fetched: 2026-11-07
+  quote: Základními zdroji informací je ISOP, konkrétně Nálezová databáze ochrany přírody (NDOP) a vrstva
+    mapování biotopů, které spravuje AOPK ČR.
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-07

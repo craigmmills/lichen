@@ -1,0 +1,44 @@
+id: inventaire-forestier-et-pastoral-national-tunisie
+kind: programme
+name: Inventaire Forestier et Pastoral National (Tunisie)
+also_known_as:
+- IFPN
+scope: tn
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+status: unknown
+summary: National inventory meant to describe forest and pastoral resources in detail,
+  run by the forestry directorate; its 1995 and 2010 rounds produced land cover maps,
+  and FAO lists a support project completed in March 2024.
+facts:
+- claim: The inventory is meant to give a detailed account of forest and pastoral
+    resources.
+  url: https://www.un-redd.org/sites/default/files/2021-10/SNSF.pdf
+  fetched: 2026-11-12
+  quote: L’inventaire forestier et pastoral national (IFPN) est destiné à fournir
+    un état détaillé des ressources forestières et pastorales.
+- claim: The 1995 and 2010 inventories produced data on the areas of vegetation units,
+    mapped as land cover maps.
+  url: https://www.un-redd.org/sites/default/files/2021-10/SNSF.pdf
+  fetched: 2026-11-12
+  quote: L’IFPN (1995/2010) a produit des données sur les superficies des unités végétales.
+- claim: FAO lists a completed support project for the national forest, pastoral and
+    olive inventory, from 7 January 2019 to 29 March 2024, covering all areas of the
+    national forest inventory.
+  url: https://www.fao.org/forest-monitoring/country-support/project-detail/appui-%C3%A0-la-mise-en-oeuvre-du-rga-et-de-l-inventaire--forestier--pastoral-et-ol%C3%A9icole-national-%28ifpon%29/en
+  fetched: 2026-11-12
+  quote: All areas of NFI.
+links:
+- type: run-by
+  to: direction-generale-des-forets-tunisie
+  url: https://www.un-redd.org/sites/default/files/2021-10/SNSF.pdf
+  fetched: 2026-11-12
+  quote: 1 Ingénieur forestier à la DGF en charge de l’IFPN
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

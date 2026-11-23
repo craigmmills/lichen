@@ -1,0 +1,117 @@
+id: severtsov-institute-of-ecology-and-evolution
+kind: organisation
+name: A.N. Severtsov Institute of Ecology and Evolution of the Russian Academy of Sciences
+scope: ru
+also_known_as:
+- IEE RAS
+- ИПЭЭ РАН
+- Институт проблем экологии и эволюции им. А.Н. Северцова РАН
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: ru
+countries:
+- ru
+scale: national
+status: active
+website: https://sev-in.ru
+summary: Moscow institute, established in 1934 per GBIF, that signed an AI memorandum with
+  Sberbank in November 2023 and says it trained neural networks to count saiga on satellite
+  images.
+facts:
+- claim: Signed a memorandum with Sberbank on AI in November 2023 under the national Ecology
+    project.
+  url: https://sev-in.ru/en/node/3392
+  quote: November 28, 2023 Sberbank and the A.N. Severtsov Institute of Ecology and Evolution
+    of the Russian Academy of Sciences signed a memorandum of cooperation in the field of
+    artificial intelligence as part of the implementation of the national project “Ecology”
+  fetched: '2026-10-31'
+- claim: Has a centre for remote sensing and thematic interpretation in ecology.
+  url: https://sev-in.ru/en/node/3392
+  quote: CENTER FOR REMOTE EARTH SENSING AND THEMATIC DECIPHERING IN ECOLOGY
+  fetched: '2026-10-31'
+- claim: GBIF says the beaver database was developed at the institute.
+  url: https://api.gbif.org/v1/dataset/9ad675c5-1182-4b25-bb2a-4acc5f51ea16
+  fetched: '2026-10-31'
+  quote: The Database was developed at the A.N. Severtsov Institute of Ecology and Evolution,
+    RAS
+- claim: GBIF calls that database the first checklist of the beaver's present locations in
+    Russia.
+  url: https://api.gbif.org/v1/dataset/9ad675c5-1182-4b25-bb2a-4acc5f51ea16
+  fetched: '2026-10-31'
+  quote: is a first checklist of the actual locations of present habitation of the Eurasian
+    beaver in Russia
+- claim: Says neural networks were trained to count saiga on satellite images.
+  url: https://sev-in.ru/node/3935
+  fetched: 2026-10-31
+  quote: В ИПЭЭ РАН искусственный интеллект привлекли к подсчету сайгаков на снимках Земли
+    из космоса
+- claim: Says it has requested satellite monitoring of the saiga population of the north-west
+    Caspian every year since 2012.
+  url: https://sev-in.ru/node/3935
+  fetched: 2026-10-31
+  quote: С 2012 года ИПЭЭ РАН ежегодно делает запрос на спутниковый мониторинг состояния популяции
+    сайгака Северо-Западного Прикаспия
+- claim: The Russian Geographical Society says the institute began work under the presidential
+    Beluga programme in 2009.
+  url: https://rgo.ru/activity/project-list/sokhranenie-redkikh-vidov-belukha-belyy-kit/?sphrase_id=44605080
+  fetched: 2026-10-31
+  quote: В 2009 году Институт проблем экологии и эволюции им. Северцова РАН приступил к работам
+    по президентской программе «Белуха — Белый кит»
+- claim: Its site reports a paper in Biology Bulletin (2024) on recognising saiga in satellite
+    images with deep convolutional neural networks.
+  url: https://sev-in.ru/node/3935
+  fetched: '2026-10-31'
+  quote: Automated Identification and Counting of Saigas ( Saiga tatarica ) by Using Deep
+    Convolutional Neural Networks in High-Resolution Satellite Images
+  ai_type: deep-learning
+- claim: Its GBIF publisher record gives its address in Moscow.
+  url: https://api.gbif.org/v1/organization/9d8de7ef-a571-4bc3-985a-86a9b8dddd77
+  fetched: '2026-10-31'
+  quote: 33 Leninskij prosp.
+- claim: Its GBIF record says the institute was established in 1934.
+  url: https://api.gbif.org/v1/organization/9d8de7ef-a571-4bc3-985a-86a9b8dddd77
+  fetched: '2026-10-31'
+  quote: established in 1934 by academician A.N. Severtsov
+links:
+- type: partners-with
+  to: tamura-programme
+  url: https://www.rosneft.com/press/news/item/222307/
+  quote: Specialists from the Severtsov Institute of Ecology and Evolution participated in
+    fieldwork in northern Krasnoyarsk and on the Yamal Peninsula.
+  fetched: '2026-10-31'
+- type: builds
+  to: saiga-detection-network
+  url: https://sev-in.ru/node/3935
+  fetched: 2026-10-31
+  quote: «Сеть для поиска сайгаков» разработана благодаря сотрудничеству специалистов разных
+    сфер.
+- type: partners-with
+  to: moscow-department-of-nature-management
+  url: https://www.mos-gaz.ru/press-service/news-moscow/2026/10/14/10290
+  fetched: 2026-10-31
+  quote: Исследование ведут специалисты Института проблем экологии и эволюции имени А.Н. Северцова
+    Российской академии наук (ИПЭЭ РАН) совместно со столичным Департаментом природопользования
+- type: partners-with
+  to: es-pas
+  url: https://sev-in.ru/node/3935
+  fetched: '2026-10-31'
+  quote: Ученые ИПЭЭ РАН работают совместно с программистами и инженерами компании Эс-Пас
+found_by:
+- checklist:3
+- link-from:marine-research-center-lomonosov-moscow-state-university
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- remote-sensing
+ai_types:
+- deep-learning

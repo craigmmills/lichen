@@ -1,0 +1,40 @@
+id: bohol-island-state-university
+kind: organisation
+name: Bohol Island State University
+scope: ph
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+- species-distribution
+hq: unknown
+countries:
+- ph
+scale: local
+status: active
+summary: A university with two 2025 papers listed in OpenAlex, one on a machine learning web
+  application for counting aerial fauna and one comparing models predicting species distribution
+  in fishing data.
+facts:
+- claim: OpenAlex lists a 2025 Bohol Island State University paper on a machine learning web
+    application for identifying and counting aerial fauna.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PH,title_and_abstract.search:machine%20learning%20species,from_publication_date:2021-01-01&per-page=50&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'iBon: A Web Application for Aerial Fauna Identification and Counting Using Machine
+    Learning'
+- claim: OpenAlex lists a 2025 paper comparing machine learning models for predicting species
+    distribution in fishing data.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PH,title_and_abstract.search:machine%20learning%20species,from_publication_date:2021-01-01&per-page=50&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Comparative Analysis of Machine Learning Models for Predicting Species Distribution
+    in Fishing Data
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-07

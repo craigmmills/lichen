@@ -1,0 +1,37 @@
+id: mermaid
+kind: project
+name: MERMAID
+also_known_as:
+- Marine Ecological Research Management Aid
+scope: global
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Wildlife Conservation Society platform for coral reef survey data, adding machine learning to classify reef photos with support from an AWS Imagine Grant.
+facts:
+- claim: Used by over 2,000 scientists in 44 countries since 2018.
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  fetched: &id001 2026-10-30
+  quote: over 2,000 scientists in 44 countries have used MERMAID to upload more than 50,000 surveys and 8.5 million observations
+- claim: Is adding machine learning so that divers' reef photos are analysed automatically.
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  fetched: *id001
+  quote: MERMAID is evolving to integrate machine learning workflows
+links:
+- type: run-by
+  to: wildlife-conservation-society
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  fetched: *id001
+  quote: Through their MERMAID (Marine Ecological Research Management AID) platform, WCS creates transparency around coral reef health
+- type: funded-by
+  to: aws-imagine-grant
+  url: https://aws.amazon.com/blogs/publicsector/how-the-wildlife-conservation-society-uses-aws-to-accelerate-coral-reef-monitoring-worldwide
+  fetched: *id001
+  quote: "With support from the AWS Imagine Grant that provides both cash and Amazon Web Services (AWS) credit funding to registered nonprofit organizations who are using cloud technology to accelerate their missions, MERMAID"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

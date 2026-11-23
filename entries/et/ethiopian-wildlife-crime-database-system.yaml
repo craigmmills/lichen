@@ -1,0 +1,37 @@
+id: ethiopian-wildlife-crime-database-system
+kind: dataset
+name: Ethiopian Wildlife Crime Database System
+scope: et
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- et
+status: active
+website: https://wildlifecrime.gov.et/
+summary: Active database funded by the US Fish and Wildlife Service, which AWF's 2023
+  call said was meant to let EWCA collect, collate and analyse Ethiopian wildlife
+  crime data.
+facts:
+- claim: The site presents itself as the Ethiopian Wildlife Crime Database System.
+  url: https://wildlifecrime.gov.et/
+  fetched: 2026-11-12
+  quote: WELCOME TO ETHIOPIAN WILDLIFE CRIME DATABASE SYSTEM
+- claim: AWF's 2023 call said the database was to let EWCA collect, collate and analyse
+    wildlife crime data in Ethiopia.
+  url: https://www.awf.org/about/careers/rfp-development-wildlife-crime-database-ewca
+  fetched: 2026-11-12
+  quote: development of a wildlife crime database for EWCA to allow for collecting,
+    collating and analysing wildlife crime data in Ethiopia
+links:
+- type: funded-by
+  to: us-fish-and-wildlife-service
+  url: https://www.awf.org/about/careers/rfp-development-wildlife-crime-database-ewca
+  fetched: 2026-11-12
+  quote: AWF has received funding from the United States Fish and Wildlife Service
+    (USFWS) to help address several critical areas
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

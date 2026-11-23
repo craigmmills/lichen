@@ -1,0 +1,106 @@
+id: uwi-mona-centre-for-marine-sciences
+kind: organisation
+name: Centre for Marine Sciences, University of the West Indies, Mona
+also_known_as:
+- UWI Centre for Marine Sciences
+- CMS
+- Centre for Marine Sciences
+scope: jm
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+hq: jm
+countries:
+- jm
+scale: national
+status: active
+summary: University of the West Indies centre in the Department of Life Sciences that runs the Caribbean
+  Coastal Data Centre and coordinates Jamaica's Reef Check reef surveys, alongside mangrove carbon research.
+facts:
+- claim: Pew quotes the centre as providing field-based carbon storage assessments of representative mangroves
+    and seagrasses around Jamaica.
+  url: https://www.pew.org/en/research-and-analysis/articles/2024/08/14/mangrove-and-seagrass-mapping-informs-jamaicas-climate-policy
+  fetched: 2026-11-09
+  quote: “The Centre for Marine Sciences at the University of the West Indies Mona campus is pleased to
+    be collaborating with our project partners by providing field-based carbon storage assessments of
+    representative mangroves and seagrasses around the island of Jamaica,”
+- claim: OpenAlex lists the Discovery Bay Marine Laboratory as part of the centre, in the affiliation
+    of a 2026 paper on carbon stocks of Kingston Harbour mangroves.
+  url: https://api.openalex.org/works?filter=openalex:W7220939436|W7207162191|W7214078884|W7165946805&select=id,display_name,publication_year,doi,authorships,abstract_inverted_index
+  fetched: 2026-11-09
+  quote: Discovery Bay Marine Laboratory, Centre for Marine Sciences, The University of the West Indies,
+    Mona. Kingston 7, Kingston, Jamaica
+- claim: Forms part of the Department of Life Sciences and is responsible for the Discovery Bay Marine
+    Laboratory and the Caribbean Coastal Data Centre.
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: The Centre for Marine Sciences (CMS) forms part of the Department of Life Sciences and has responsibility
+    for the Discovery Bay Marine Laboratory , as well as the Caribbean Coastal Data Centre .
+- claim: Collects data on fish counts and benthic cover on coral reefs, seagrass and mangrove biomass
+    and growth, and sea surface temperature.
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: Data collected include fish count & benthic cover on coral reefs, seagrass and mangrove biomass
+    and growth measures, sea surface temperature, air temperature and rainfall.
+- claim: Surveys reefs across Jamaica through Reef Check, carried out by the Jamaica Coral Reef Monitoring
+    Network coordinated in the Centre.
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: where reefs across the island are methodically surveyed (14 locations in 2008) by the Jamaica
+    Coral Reef Monitoring Network (JCRMN) coordinated in the CMS
+- claim: Continues monitoring at known sites as well as research at new locations.
+  url: https://www.mona.uwi.edu/cms/research/research-at-cms
+  fetched: 2026-11-09
+  quote: the Centre conducts research at new locations but also continues monitoring at known sites using
+    a balance of pure and applied research
+- claim: Provides project development, monitoring, data archiving and outreach services to government
+    and non-governmental agencies.
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: Currently, we provide project development, monitoring, data archiving and outreach services to
+    local, regional and international governmental and non-governmental agencies.
+- claim: Its address is The University of the West Indies, Mona, Kingston 7, Jamaica.
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: Kingston 7
+- claim: Jamaica's reefs are surveyed through Reef Check by the Jamaica Coral Reef Monitoring Network,
+    which is coordinated in the CMS.
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: reefs across the island are methodically surveyed (14 locations in 2008) by the Jamaica Coral
+    Reef Monitoring Network (JCRMN) coordinated in the CMS
+- claim: A 2026 paper with authors affiliated with the Department of Life Sciences and Centre for Marine
+    Sciences assessed carbon stocks across Jamaican mangrove forest types and used random forest regression
+    to identify predictors.
+  url: https://doi.org/10.3389/fenvs.2026.1950286
+  fetched: 2026-11-09
+  quote: The random forest regression predictor identified sediment pH as important predictors across
+    all carbon components
+  ai_type: ml-supervised
+- claim: The first author of that paper is affiliated with the Department of Life Sciences, Centre for
+    Marine Sciences, UWI Mona.
+  url: https://doi.org/10.3389/fenvs.2026.1950286
+  fetched: 2026-11-09
+  quote: Department of Life Sciences, Centre for Marine Sciences, The University of the West Indies, Mona,
+    Kingston, Jamaica
+links:
+- type: runs
+  to: caribbean-coastal-data-centre
+  url: https://www.mona.uwi.edu/cms/about
+  fetched: 2026-11-09
+  quote: has responsibility for the Discovery Bay Marine Laboratory , as well as the Caribbean Coastal
+    Data Centre
+found_by:
+- checklist:7
+- checklist:3
+- link-from:caribbean-coastal-data-centre
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-09
+ai_types:
+- ml-supervised

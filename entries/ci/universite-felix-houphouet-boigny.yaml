@@ -1,0 +1,38 @@
+id: universite-felix-houphouet-boigny
+kind: organisation
+name: Université Félix Houphouët-Boigny
+also_known_as:
+- UFHB
+scope: ci
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+hq: ci
+countries:
+- ci
+scale: national
+status: active
+website: https://univ-fhb.edu.ci
+summary: University whose Centre National de Floristique held an April 2026 workshop on a continuing training
+  programme in biodiversity conservation, and whose biosciences faculty GBIF describes as housing biological
+  science laboratories.
+facts:
+- claim: Its Centre National de Floristique held a workshop in April 2026 on a continuing training programme
+    in biodiversity conservation.
+  url: https://univ-fhb.edu.ci/preservation-de-la-biodiversite-et-conservation-des-services-ecosystemiques/
+  fetched: '2026-11-08'
+  quote: le Centre National de Floristique (CNF) de l’Université Félix Houphouët-Boigny (UFHB) réunit
+    un parterre d’experts, d’universitaires et de représentants institutionnels
+- claim: GBIF's publisher record for its biosciences faculty describes it as housing laboratories working
+    on the biological sciences.
+  url: https://api.gbif.org/v1/organization/c7dffba6-0ee3-4b89-93c9-31b0308a0c8d
+  fetched: '2026-11-08'
+  quote: Cette UFR renferme des laboratoires qui travaillent sur les sciences biologiques.
+found_by:
+- register:openalex-institution
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

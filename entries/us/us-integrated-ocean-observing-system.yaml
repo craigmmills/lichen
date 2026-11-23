@@ -1,0 +1,60 @@
+id: us-integrated-ocean-observing-system
+kind: programme
+name: U.S. Integrated Ocean Observing System
+also_known_as:
+- IOOS
+- NOAA Integrated Ocean Observing System
+- U.S. IOOS
+- Integrated Ocean Observing System
+scope: us
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://ioos.noaa.gov
+summary: NOAA-hosted US ocean observing system, which includes the Marine Biodiversity
+  Observation Network and the Animal Telemetry Network.
+facts:
+- claim: Its site lists the Marine Biodiversity Observation Network among its work.
+  url: https://ioos.noaa.gov/about/about-us/
+  fetched: '2026-10-30'
+  quote: Marine Biodiversity Observation Network
+- claim: Hosts the Animal Telemetry Network.
+  url: https://ioos.noaa.gov/project/atn/
+  fetched: '2026-10-30'
+  quote: Animal Telemetry Network - The U.S. Integrated Ocean Observing System (IOOS)
+- claim: National-regional partnership.
+  url: https://api.gbif.org/v1/organization/1d38bb22-cbea-4845-8b0c-f62551076080
+  fetched: '2026-10-30'
+  quote: is a national-regional partnership
+- claim: Gathers and provides integrated ocean information.
+  url: https://api.gbif.org/v1/organization/1d38bb22-cbea-4845-8b0c-f62551076080
+  fetched: '2026-10-30'
+  quote: IOOS and its network of 11 regional associations gather and provide access
+    to integrated ocean information
+- claim: Develops tracking and predictive tools.
+  url: https://ioos.noaa.gov
+  fetched: '2026-10-30'
+  quote: gathering observing data and developing tracking and predictive tools
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://ioos.noaa.gov/project/atn/
+  fetched: '2026-10-30'
+  quote: 'Website Owner: National Ocean Service | National Oceanic and Atmospheric
+    Administration'
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://ioos.noaa.gov
+  fetched: '2026-10-30'
+  quote: 'Website Owner: National Ocean Service | National Oceanic and Atmospheric
+    Administration'
+found_by:
+- checklist:2
+- link-from:queue-us
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- edna-genomics
+- bioacoustics

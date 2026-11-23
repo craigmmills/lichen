@@ -1,0 +1,26 @@
+id: gbif-mali
+kind: programme
+name: GBIF Mali
+scope: ml
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+runner: unknown
+summary: Mali's GBIF country node, listed with observer participation status, with no publishing organisation
+  based in Mali listed by GBIF.
+facts:
+- claim: GBIF lists GBIF Mali as a country node with observer participation status.
+  url: https://api.gbif.org/v1/node?q=Mali
+  fetched: 2026-11-12
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Mali"'
+- claim: GBIF lists no publishing organisation based in Mali.
+  url: https://api.gbif.org/v1/organization?country=ML
+  fetched: 2026-11-12
+  quote: '"count":0'
+links: []
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

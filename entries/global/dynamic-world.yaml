@@ -1,0 +1,42 @@
+id: dynamic-world
+kind: dataset
+name: Dynamic World
+scope: global
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://dynamicworld.app
+summary: Near real-time global land cover dataset at ten metres, made by Google with the World Resources Institute, that estimates nine land cover types in each Sentinel-2 image.
+facts:
+- claim: Provides global near real-time land cover data at ten-metre resolution.
+  url: https://blog.google/products/earth/dynamic-world-land-cover-data/
+  fetched: &id001 2026-10-30
+  quote: Powered by Google Earth Engine and AI Platform, Dynamic World provides global, near real-time land cover data at a ten-meter resolution
+- claim: Classifies nine land cover types identified by WRI.
+  url: https://blog.google/products/earth/dynamic-world-land-cover-data/
+  fetched: *id001
+  quote: water, flooded vegetation, built-up areas, trees, crops, bare ground, grass, shrub/scrub, and snow/ice
+links:
+- type: run-by
+  to: google
+  url: https://blog.google/products/earth/dynamic-world-land-cover-data/
+  fetched: *id001
+  quote: "we worked with the World Resources Institute (WRI) to create Dynamic World . Powered by Google"
+- type: partners-with
+  to: world-resources-institute
+  url: https://blog.google/products/earth/dynamic-world-land-cover-data/
+  fetched: *id001
+  quote: we worked with the World Resources Institute (WRI) to create Dynamic World
+- type: builds-on
+  to: google-earth-engine
+  url: https://blog.google/products/earth/dynamic-world-land-cover-data/
+  fetched: *id001
+  quote: "Powered by Google Earth Engine and AI Platform, Dynamic World"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

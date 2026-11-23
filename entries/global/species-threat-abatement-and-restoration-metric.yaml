@@ -1,0 +1,34 @@
+id: species-threat-abatement-and-restoration-metric
+kind: model
+name: Species Threat Abatement and Restoration Metric
+also_known_as:
+- STAR
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.iucn.org/resources/conservation-tool/species-threat-abatement-and-restoration-star-metric
+summary: Metric that measures the contribution investments can make to reducing species' extinction risk, based on IUCN Red List data and available through IBAT.
+facts:
+- claim: Measures contribution of investments to reducing extinction risk.
+  url: https://www.iucn.org/resources/conservation-tool/species-threat-abatement-and-restoration-star-metric
+  fetched: '2026-10-30'
+  quote: measures the contribution that investments can make to reducing species’ extinction risk
+links:
+- type: run-by
+  to: iucn-species-survival-commission
+  url: https://www.iucn.org/resources/conservation-tool/species-threat-abatement-and-restoration-star-metric
+  fetched: '2026-10-30'
+  quote: The IUCN Species Survival Commission Post-2020 Taskforce, hosted by the University of Newcastle, led the development of STAR.
+- type: builds-on
+  to: iucn-red-list-of-threatened-species
+  url: https://www.iucn.org/resources/conservation-tool/species-threat-abatement-and-restoration-star-metric
+  fetched: '2026-10-30'
+  quote: The metric bases its scores on data from the IUCN Red Lis
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

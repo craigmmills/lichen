@@ -1,0 +1,38 @@
+id: fonoteca-zoologica
+kind: dataset
+name: Fonoteca Zoológica
+scope: es
+ai_label: data-infrastructure
+status: active
+also_known_as:
+- Zoologic Audio
+- FonoZoo
+realms:
+- land
+techniques:
+- bioacoustics
+website: http://www.fonozoo.com
+summary: Bioacoustic collection of the Museo Nacional de Ciencias Naturales that gathers,
+  classifies and stores recordings of amphibians, birds, insects, mammals and reptiles.
+facts:
+- claim: Collects, classifies and stores sound recordings of the main acoustic animal
+    groups.
+  url: https://api.gbif.org/v1/organization/68209dd2-7f9c-4176-8135-d93f3321d3d3/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: recopila, clasifica y almacena los registros sonoros de los principales animales
+    acústicos
+- claim: 'Published on GBIF in five groups: amphibians, birds, insects, mammals and
+    reptiles.'
+  url: https://api.gbif.org/v1/organization/68209dd2-7f9c-4176-8135-d93f3321d3d3/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: FZ_AMPHIBIA
+links:
+- type: run-by
+  to: museo-nacional-de-ciencias-naturales
+  url: https://api.gbif.org/v1/organization/68209dd2-7f9c-4176-8135-d93f3321d3d3/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: 'Fonoteca Zoológica, Museo Nacional de Ciencias Naturales, Madrid: FZ_AVES'
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'

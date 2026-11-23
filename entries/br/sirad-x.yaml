@@ -1,0 +1,43 @@
+id: sirad-x
+kind: dataset
+name: Sirad-X
+also_known_as:
+- Sirad X
+- Sistema de indicação por radar de desmatamento
+scope: br
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Monitoring of deforestation and degradation in the Xingu basin in Mato Grosso
+  and Pará, used by the Rede Xingu+ network.
+facts:
+- claim: Monitoring that shows deforestation and degradation in the Xingu basin.
+  url: https://socioambiental.org/sites/default/files/2025-06/rel2024.pdf
+  fetched: '2026-10-30'
+  quote: por meio do Sirad-X, monitoramento que mostra o desmatamento e a degradação
+    na Bacia do Xingu (MT/PA)
+- claim: Used by Rede Xingu+ to raise alarms on illegal mining and timber theft.
+  url: https://socioambiental.org/sites/default/files/2025-06/rel2024.pdf
+  fetched: '2026-10-30'
+  quote: A Rede Xingu+ realizou a mostra
+- claim: Detects deforestation in the Xingu even under heavy cloud.
+  url: https://site-antigo.socioambiental.org/print/6019
+  fetched: '2026-10-30'
+  quote: o ISA consegue detectar o desmatamento que acontece na Bacia do Xingu mesmo
+    com intensa cobertura de nuvens
+found_by:
+- checklist:7
+- link-from:raisg
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br
+links:
+- type: run-by
+  to: instituto-socioambiental
+  url: https://site-antigo.socioambiental.org/print/6019
+  fetched: '2026-10-30'
+  quote: Nova tecnologia desenvolvida pelo ISA, o Sirad X

@@ -1,0 +1,49 @@
+id: fundacion-proyungas
+kind: organisation
+name: Fundación ProYungas
+also_known_as:
+- ProYungas
+- ProYungas Foundation
+scope: ar
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries:
+- ar
+scale: regional
+status: active
+funding_at_risk: false
+summary: According to GBIF, an NGO created in 1999 for conservation and territorial planning
+  that installed 15 camera traps at Finca La Moraleja, Salta, in 2017.
+facts:
+- claim: GBIF's registry describes it as an NGO created in 1999 working on conservation and
+    territorial planning, mainly in northern Argentina.
+  url: https://api.gbif.org/v1/organization/50eb9888-55d0-4c51-b4ce-8593600897d0
+  fetched: 2026-11-03
+  quote: ProYungas Foundation is an NGO that works for environmental conservation and sustainable
+    development, promoting territorial planning processes at different scales
+- claim: Its dataset on GBIF says it installed 15 camera traps in 2017 to survey medium and
+    large mammals at Finca La Moraleja, Salta.
+  url: https://api.gbif.org/v1/organization/50eb9888-55d0-4c51-b4ce-8593600897d0/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: Durante los meses de octubre y noviembre del año 2017 instalamos un total de 15 cámaras
+    trampa marca Bushnell HD.
+- claim: A June 2019 Vía País article reported that a jaguar was photographed near Caimancito,
+    Jujuy, in a ProYungas monitoring programme with the provincial environment ministry’s
+    collaboration.
+  url: https://viapais.com.ar/jujuy/1065597-un-yaguarete-fue-fotografiado-por-camaras-automaticas-en-las-yungas/
+  fetched: 2026-11-03
+  quote: en el marco del programa de monitoreo que lleva adelante la Fundación ProYungas con
+    la colaboración del Ministerio de Ambiente provincial.
+links: []
+found_by:
+- checklist:4
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,37 @@
+id: remote-sensing-foundations
+kind: model
+name: Remote Sensing Foundations
+also_known_as:
+- RSF
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Google's vision transformer backbone for remote sensing, pre-trained on more than 300 million satellite images and part of Google Earth AI.
+facts:
+- claim: Pre-trained on more than 300 million global satellite images.
+  ai_type: foundation-models
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: &id001 2026-10-30
+  quote: Vision-Transformer (ViT) Backbone pre-trained on more than 300 million global satellite images
+- claim: "Google's post names the Remote Sensing Foundations Vision-Transformer backbone."
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: 2026-10-30
+  quote: "Remote Sensing Foundations’ (RSF) Vision-Transformer (ViT) Backbone pre-trained on more than 300 million global satellite images."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: google-research
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: RSF is part of Google Earth AI
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

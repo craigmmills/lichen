@@ -1,0 +1,48 @@
+id: universidad-de-antioquia
+kind: organisation
+name: Universidad de Antioquia
+scope: co
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- edna-genomics
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+summary: Colombian university whose Ichthyology group is building a fish gene reference library
+  for the Magdalena basin, and whose G-LIMA group built the stations for Cornare's MARCO tool.
+facts:
+- claim: The NCBI record names its Ichthyology group.
+  url: https://www.ncbi.nlm.nih.gov/bioproject/1040268
+  fetched: '2026-10-31'
+  quote: the Ichthyology group from the Universidad de Antioquia
+- claim: Cornare names its G-LIMA group as the partner on MARCO.
+  url: https://www.cornare.gov.co/noticias-corporativas/cornare-lanza-marco-una-herramienta-para-monitorear-en-tiempo-real-el-aire-el-agua-y-el-riesgo-en-la-region/
+  fetched: '2026-10-31'
+  quote: Grupo de Investigación y Laboratorio de Monitoreo Ambiental (G-LIMA)
+- claim: A paper listing SISTEMIC presents an unsupervised method for multi-species call recognition.
+  url: https://agris.fao.org/search/en/records/6878b92b5d9ad5f58d601161
+  quote: We present an unsupervised methodology for multi-species call recognition from ecological
+    soundscapes.
+  ai_type: ml-unsupervised
+  fetched: '2026-10-31'
+- claim: The record names the University of Antioquia.
+  url: https://agris.fao.org/search/en/records/6878b92b5d9ad5f58d601161
+  quote: University of Antioquia
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- ml-unsupervised
+also_known_as:
+- UdeA

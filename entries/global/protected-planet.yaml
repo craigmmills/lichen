@@ -1,0 +1,38 @@
+id: protected-planet
+kind: programme
+name: Protected Planet
+scope: global
+roles: [supplies-data]
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+scale: global
+status: active
+website: https://www.protectedplanet.net
+summary: Global source of data on protected areas and other effective area-based conservation measures, used for monitoring Target 3 of the Global Biodiversity Framework.
+facts:
+- claim: Calls itself the authoritative source of data on protected areas and OECMs.
+  url: https://www.protectedplanet.net/en/about
+  fetched: 2026-10-30
+  quote: Protected Planet is the authoritative source of data on protected areas and other effective area-based conservation measures (OECMs).
+- claim: Provides the basis for monitoring Target 3 of the Global Biodiversity Framework.
+  url: https://www.protectedplanet.net/en/about
+  fetched: 2026-10-30
+  quote: provides the basis for monitoring and reporting on progress towards international environmental targets such as Target 3 of the Kunming-Montreal Global Biodiversity Framework
+links:
+- type: run-by
+  to: unep-wcmc
+  url: https://www.downtoearth.org.in/wildlife-biodiversity/as-world-gears-up-for-this-years-biggest-biodiversity-talks-what-progress-have-we-made-towards-global-ambitions-on-protected-areas
+  fetched: 2026-10-30
+  quote: "Heather Bingham, lead of the Protected Planet Initiative at the UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC)"
+- type: funded-by
+  to: arcadia-fund
+  url: https://digitalreport.protectedplanet.net/
+  fetched: 2026-10-30
+  quote: 'This report was made possible by the generous financial contributions of the Arcadia Fund.'
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

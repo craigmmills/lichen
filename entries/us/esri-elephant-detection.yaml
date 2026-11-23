@@ -1,0 +1,44 @@
+id: esri-elephant-detection
+kind: model
+name: Elephant Detection (ArcGIS pretrained model)
+scope: us
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+runner: unknown
+website: https://doc.arcgis.com/en/pretrained-models/latest/imagery/introduction-to-elephant-detection.htm
+summary: Pretrained ArcGIS deep learning model, first released in May 2022, that detects
+  elephants in 3–13 cm aerial imagery using FasterRCNN and reports an average precision
+  of 0.857.
+facts:
+- claim: A deep learning model that automates detecting elephants in high-resolution
+    aerial imagery, for monitoring them and their movements.
+  url: https://doc.arcgis.com/en/pretrained-models/latest/imagery/introduction-to-elephant-detection.htm
+  fetched: 2026-11-21
+  quote: This deep learning model helps automate the task of detecting elephants from
+    high-resolution aerial imagery.
+  ai_type: deep-learning
+- claim: Takes aerial imagery at 3–13 cm resolution and is expected to work well for
+    aerial imagery of southern African forests in South Africa, Botswana and Namibia.
+  url: https://doc.arcgis.com/en/pretrained-models/latest/imagery/introduction-to-elephant-detection.htm
+  fetched: 2026-11-21
+  quote: The model is expected to work well with aerial imagery of southern African
+    forests (South Africa, Botswana, and Namibia)
+- claim: Uses the FasterRCNN architecture and reports an average precision of 0.857
+    for elephants.
+  url: https://doc.arcgis.com/en/pretrained-models/latest/imagery/introduction-to-elephant-detection.htm
+  fetched: 2026-11-21
+  quote: This model has an average precision score of 0.857 for elephants.
+- claim: First released in May 2022.
+  url: https://doc.arcgis.com/en/pretrained-models/latest/imagery/introduction-to-elephant-detection.htm
+  fetched: 2026-11-21
+  quote: First release of Elephant Detection
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

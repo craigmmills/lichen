@@ -1,0 +1,39 @@
+id: rev-ocean
+kind: organisation
+name: REV Ocean
+scope: global
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: 'no'
+scale: global
+status: active
+website: https://www.revocean.org
+summary: Operates a privately owned research and exploration vessel. Data from its missions
+  goes into open systems through HUB Ocean.
+facts:
+- claim: Says all mission data goes into open systems through HUB Ocean.
+  url: https://www.revocean.org/platform
+  quote: All mission data contributes to open, interoperable systems via HUB Ocean
+  fetched: '2026-10-30'
+- claim: Gives an address in Lysaker, Norway.
+  url: https://www.revocean.org/about
+  quote: 1360 Lysaker, Norway
+  fetched: '2026-10-30'
+- claim: Environment Coastal & Offshore reports an agreement with the IOC of UNESCO.
+  url: https://ecomagazine.com/news/industry/ioc-of-unesco-and-rev-ocean-partner-to-support-un-ocean-decade/
+  quote: IOC of UNESCO and REV Ocean agree on solutions-oriented initiatives
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: intergovernmental-oceanographic-commission
+  url: https://ecomagazine.com/news/industry/ioc-of-unesco-and-rev-ocean-partner-to-support-un-ocean-decade/
+  quote: IOC of UNESCO and REV Ocean Partner to Support UN Ocean Decade
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

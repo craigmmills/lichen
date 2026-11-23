@@ -1,0 +1,37 @@
+id: baku-state-university-geography-department
+kind: organisation
+name: Geography Department, Baku State University
+scope: az
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- az
+scale: national
+status: active
+summary: University department listed by OpenAlex as the sole affiliation on a 2023
+  paper analysing forest landscape change in Eastern Zangezur, Azerbaijan, using satellite
+  imagery.
+facts:
+- claim: OpenAlex lists the department as the sole author affiliation of a 2023 paper
+    on forest landscape transformation in Eastern Zangezur based on satellite imagery.
+  url: https://api.openalex.org/works/W4404764174?select=display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Baku State University, Geography Department, Baku, Azerbaijan
+- claim: The paper is titled The Analysis of the Transformation of Forest Landscapes
+    in the Eastern Zangezur Region of Azerbaijan Based on Satellite Imagery.
+  url: https://api.openalex.org/works/W4404764174?select=display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: The Analysis of the Transformation of Forest Landscapes in the Eastern Zangezur
+    Region of Azerbaijan Based on Satellite Imagery
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

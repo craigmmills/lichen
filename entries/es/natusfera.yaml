@@ -1,0 +1,99 @@
+id: natusfera
+kind: programme
+name: Natusfera
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: unknown
+countries:
+- es
+summary: Open platform for biodiversity monitoring inspired by iNaturalist, available
+  in English, Spanish, Catalan, Galician and Basque, whose research-grade observations
+  are published to GBIF.
+facts:
+- claim: An open platform for biodiversity monitoring.
+  url: https://gbif.es/en/?p=13002
+  quote: Natusfera is an open platform for biodiversity monitoring available in English,
+    Spanish, Catalan, Galician, and Euskera
+  fetched: '2026-10-31'
+- claim: GBIF.ES, ICM, CREAF and Bineo Consulting agreed in 2020 to continue with
+    two different platforms.
+  url: https://gbif.es/en/proyectos/natusfera/
+  fetched: '2026-10-31'
+  quote: hemos acordado en 2020 continuar con dos plataformas diferentes de ciencia
+    ciudadana
+- claim: The version run by GBIF.ES and CREAF is reached through spain.inaturalist.org.
+  url: https://gbif.es/en/proyectos/natusfera/
+  fetched: '2026-10-31'
+  quote: A la Natusfera gestionada por GBIF.ES y CREAF, integrada en iNaturalist,
+    se accede de momento por https://spain.inaturalist.org/
+- claim: Is the iNaturalist node for Spain.
+  url: https://api.gbif.org/v1/organization/6c4a0bb0-2a4d-11d8-aa2d-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: constituye el Nodo de iNaturalist en España
+- claim: A platform for recording, organising and sharing nature observations.
+  url: https://api.gbif.org/v1/organization/6c4a0bb0-2a4d-11d8-aa2d-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Natusfera es una plataforma que permite registrar, organizar y compartir
+    observaciones de naturaleza
+links:
+- type: run-by
+  to: gbif-spain
+  url: https://gbif.es/en/?p=13002
+  quote: The project is run by CREAF, ICM-CSIC, the Spanish GBIF Node and the Basque
+    Government
+  fetched: '2026-10-31'
+- type: run-by
+  to: creaf
+  url: https://gbif.es/en/?p=13002
+  quote: The project is run by CREAF, ICM-CSIC, the Spanish GBIF Node and the Basque
+    Government
+  fetched: '2026-10-31'
+- type: run-by
+  to: institut-de-ciencies-del-mar
+  url: https://gbif.es/en/?p=13002
+  quote: The project is run by CREAF, ICM-CSIC, the Spanish GBIF Node and the Basque
+    Government
+  fetched: '2026-10-31'
+- type: run-by
+  to: gbif-spain
+  url: https://gbif.es/en/proyectos/natusfera/
+  fetched: '2026-10-31'
+  quote: A la Natusfera gestionada por GBIF.ES y CREAF
+- type: run-by
+  to: creaf
+  url: https://gbif.es/en/proyectos/natusfera/
+  fetched: '2026-10-31'
+  quote: A la Natusfera gestionada por GBIF.ES y CREAF
+- type: partners-with
+  to: inaturalist
+  url: https://gbif.es/en/proyectos/natusfera/
+  fetched: '2026-10-31'
+  quote: integrada en la red global de iNaturalist
+- type: run-by
+  to: gbif-spain
+  url: https://api.gbif.org/v1/organization/6c4a0bb0-2a4d-11d8-aa2d-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Está gestionada desde 2020 por el Nodo Nacional de Información en Biodiversidad,
+    GBIF.ES
+- type: partners-with
+  to: creaf
+  url: https://api.gbif.org/v1/organization/6c4a0bb0-2a4d-11d8-aa2d-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: y también impulsada por el CREAF
+- type: partners-with
+  to: inaturalist
+  url: https://api.gbif.org/v1/organization/6c4a0bb0-2a4d-11d8-aa2d-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: es parte de la red global de iNaturalist
+found_by:
+- checklist:2
+- register:es
+- link-from:gbif-es
+scope: es
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- iNaturalist España

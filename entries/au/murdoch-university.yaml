@@ -1,0 +1,50 @@
+id: murdoch-university
+kind: organisation
+name: Murdoch University
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- other
+- computer-vision
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: Australian university whose authors lead papers from 2021 to 2026 on machine learning
+  for animal behaviour, drone surveys of coastal dolphins and camera trap placement.
+facts:
+- claim: A Murdoch author leads a 2026 paper on FishDiveR, which uses machine learning to
+    classify animal behaviour from time-depth data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I176790772,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'FishDiveR: wavelet analyses and machine learning provide robust classification of
+    animal behaviour from time-depth data'
+  fetched: '2026-11-08'
+- claim: The FishDiveR lead author is listed with the Centre for Sustainable Aquatic Ecosystems,
+    Harry Butler Institute, Murdoch University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I176790772,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Centre for Sustainable Aquatic Ecosystems, Harry Butler Institute, Murdoch University,
+    Perth, WA, Australia
+  fetched: '2026-11-08'
+- claim: A Murdoch author leads a 2022 paper using drones to estimate error in aerial surveys
+    of coastal dolphins.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I176790772,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Using Unoccupied Aerial Vehicles to estimate availability and group size error for
+    aerial surveys of coastal dolphins
+  fetched: '2026-11-08'
+- claim: A Murdoch author leads a 2021 paper comparing camera trap models and placement for
+    animal detections.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I176790772,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Animal detections increase by using a wide-angle camera trap model but not by periodically
+    repositioning camera traps within study sites
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

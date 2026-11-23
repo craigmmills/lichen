@@ -1,0 +1,87 @@
+id: natural-england
+kind: organisation
+name: Natural England
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+- species-distribution
+ai_types:
+- ml-supervised
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.gov.uk/government/organisations/natural-england
+summary: The UK government's adviser for the natural environment in England. It produces the
+  Living England habitat map using satellite imagery, field survey and machine learning.
+facts:
+- claim: Government adviser for the natural environment in England.
+  url: https://www.gov.uk/government/organisations/natural-england
+  quote: We’re the government’s adviser for the natural environment in England.
+  fetched: '2026-10-30'
+- claim: An executive non-departmental public body sponsored by Defra.
+  url: https://www.gov.uk/government/organisations/natural-england
+  quote: Natural England is an executive non-departmental public body, sponsored by the Department
+    for Environment, Food & Rural Affairs
+  fetched: '2026-10-30'
+- claim: Living England uses a random forest classification model trained on labelled ground
+    data.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: Distributed random forest classification model
+  ai_type: ml-supervised
+  fetched: '2026-10-30'
+- claim: Builds the Living England habitat map with an in-house team using a random forest
+    model.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: This has been developed by our in-house team
+  fetched: &id001 2026-10-30
+- claim: Uses a distributed random forest classification model for habitat prediction.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: which includes the use of a distributed random forest classification model
+  ai_type: ml-supervised
+  fetched: *id001
+- claim: Publishes maps and data for download.
+  url: https://www.gov.uk/guidance/how-to-access-natural-englands-maps-and-data
+  fetched: '2026-10-30'
+  quote: Download and use Natural England's maps and data on the natural environment.
+- claim: Publishes the dataset "Long Term Monitoring Network Vegetation Quadrats" on GBIF.
+  url: https://api.gbif.org/v1/organization/598eb93d-a844-4289-8adb-0f8583dac91e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Long Term Monitoring Network Vegetation Quadrats
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/598eb93d-a844-4289-8adb-0f8583dac91e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: GOV.UK gives its address in York.
+  url: https://www.gov.uk/government/organisations/natural-england
+  quote: Foss House, Kings Pool, 1-2 Peasholme Green York YO1 7PX
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: living-england
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: 'Natural England: Living England'
+  fetched: '2026-10-30'
+- type: runs
+  to: living-england
+  url: https://www.data.gov.uk/dataset/living-england-habitat-map-phase-4
+  quote: The Living England project, led by Natural England
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+- link-from:department-for-environment-food-and-rural-affairs
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-31'

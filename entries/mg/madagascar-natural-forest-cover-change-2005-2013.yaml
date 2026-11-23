@@ -1,0 +1,67 @@
+id: madagascar-natural-forest-cover-change-2005-2013
+kind: project
+name: Changement de la couverture de forêts naturelles à Madagascar 2005-2010-2013
+also_known_as:
+- Natural forest cover change in Madagascar 2005-2010-2013
+scope: mg
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mg
+status: closed
+summary: Closed report on historical deforestation in western Madagascar ecoregions for 2005, 2010 and
+  2013, using Landsat images and Random Forest, with a deforestation map for humid, dry and spiny forest
+  and mangroves.
+facts:
+- claim: The report covers historical deforestation analysis in the ecoregions of western Madagascar for
+    the reference years 2005, 2010 and 2013, for the Projet Éco-Régional REDD Forêts Humides (PERR-FH)
+    and its extension FAPE3.
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Ce rapport restitue les réalisations relatives au Projet Éco-Régional REDD Forêts Humides (PERR-FH)
+    et son extension, projet FAPE3
+- claim: It used Landsat 5, 7 and 8 images.
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Les données satellitaires utilisées dans le cadre de ce travail proviennent des satellites LANDSAT5,
+    LANDSAT 7 et LANDSAT8
+- claim: Its method used the Random Forest algorithm.
+  ai_type: ml-supervised
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: La méthodologie utilisée se singularise par l'utilisation de l'algorithme RandomForest.
+- claim: Its results include a historical deforestation map for the humid, dry and spiny forest and mangrove
+    ecoregions.
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Une carte de la déforestation historique de 2005-2010-2013 pour l’ensemble des quatre (4) écorégions
+links:
+- type: run-by
+  to: office-national-pour-l-environnement-madagascar
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Les travaux ont été menés par le consortium WCS, ONE, MNP et ETC
+- type: run-by
+  to: wildlife-conservation-society
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Les travaux ont été menés par le consortium WCS, ONE, MNP et ETC
+- type: run-by
+  to: madagascar-national-parks
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Les travaux ont été menés par le consortium WCS, ONE, MNP et ETC
+- type: run-by
+  to: etc-terra
+  url: https://www.pnae.mg/deforestation.html
+  fetched: 2026-11-08
+  quote: Les travaux ont été menés par le consortium WCS, ONE, MNP et ETC
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

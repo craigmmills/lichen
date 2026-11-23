@@ -1,0 +1,56 @@
+id: hebrew-university-of-jerusalem
+kind: organisation
+name: Hebrew University of Jerusalem
+scope: il
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: il
+countries:
+- il
+scale: national
+status: active
+summary: Active university holding the National Natural History Collections, with BioGIS staff
+  listed there, researchers reported in 2020 to use ATLAS on wild bats, and papers on machine
+  learning in 2021 and 2024.
+facts:
+- claim: BioGIS's head and data team are listed at the Hebrew University of Jerusalem.
+  url: https://biogis.huji.ac.il/HTMLs/about.html?lang=eng
+  fetched: '2026-11-08'
+  quote: Eyal Ben-Hur BIOGIS HEAD National Natural History Collections The Hebrew University
+    of Jerusalem
+- claim: A 2020 report describes Hebrew University researchers using ATLAS to track wild bats.
+  url: https://www.eurekalert.org/news-releases/922695
+  fetched: '2026-11-08'
+  quote: Hebrew University researchers use ATLAS, a new "reverse-GPS" wildlife tracking system
+- claim: Holds the National Natural History Collections, described as the most extensive biological
+    collections of the Middle East.
+  url: https://en-nnhc.huji.ac.il/
+  fetched: 2026-11-08
+  quote: The National Natural History Collections at the Hebrew University of Jerusalem are
+    the most extensive biological collections of the Middle East.
+- claim: A 2021 paper led by a Hebrew University author applies machine learning to animal
+    behaviour and personality.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03qxff017,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Animal behavior and animal personality from a non-human perspective: Getting help
+    from the machine'
+- claim: A 2024 paper led by a Hebrew University author describes machine learning-based bee
+    recognition and tracking.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03qxff017,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Machine learning-based bee recognition and tracking for advancing insect behavior
+    research
+links: []
+found_by:
+- checklist:3
+- link-from:national-natural-history-collections-hebrew-university
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'

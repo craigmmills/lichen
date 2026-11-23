@@ -1,0 +1,155 @@
+id: arter-dk
+kind: dataset
+name: Arter.dk
+also_known_as:
+- Arter
+- Arter.dk
+scope: dk
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- dk
+scale: national
+status: active
+website: https://arter.dk
+summary: Species records database that says it holds 53 million verified records and
+  shares data with GBIF; a 2026 abstract says it integrates AI to validate citizen
+  observations.
+facts:
+- claim: Says its data is freely available to managers, researchers and people interested
+    in nature.
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: stilles frit til rådighed for forvaltere, forskere og naturinteresserede
+- claim: Shares all collected data with GBIF.
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Arter deler alle indsamlede data med gbif.org
+- claim: Artsbogen is the official Danish taxonomy, with more than 40,000 species.
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Artsbogen er Danmarks officielle taxonomi
+- claim: A 2026 conference abstract says Arter.dk integrates AI and machine learning
+    to validate citizen observations.
+  url: https://nomadit.co.uk/conference/ecsa2026/paper/92904
+  fetched: &id001 2026-11-02
+  quote: Arter.dk, Denmark’s national biodiversity portal, integrates AI and machine
+    learning to validate citizen-contributed species observations.
+- claim: The same abstract says it is experimenting with detecting outliers in location
+    and time.
+  url: https://nomadit.co.uk/conference/ecsa2026/paper/92904
+  fetched: *id001
+  quote: we are experimenting with data driven and AI based concepts to detect outliers
+    in location, time and more
+- claim: Its home page says its data are freely available to managers, researchers
+    and people interested in nature.
+  url: https://arter.dk
+  fetched: *id001
+  quote: Data på Arter ejes af os allesammen, og stilles frit til rådighed for forvaltere,
+    forskere og naturinteresserede.
+- claim: A foundation release says new funds would go to an app, image recognition
+    and support for natural history societies.
+  url: https://www.avjf.dk/pressemeddelelser/fonde-giver-millioner-til-danskernes-nye-portal-om-arter-og-natur/
+  fetched: *id001
+  quote: med app, billedgenkendelse og understøttelse af de naturhistoriske foreninger
+links:
+- type: partners-with
+  to: styrelsen-for-gron-arealomlaegning-og-vandmiljo
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Arter er et samarbejde mellem Styrelsen for Grøn Arealomlægning og Vandmiljø,
+    Statens Naturhistoriske Museum og Naturhistorisk Museum Aarhus.
+- type: partners-with
+  to: natural-history-museum-of-denmark
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Arter er et samarbejde mellem Styrelsen for Grøn Arealomlægning og Vandmiljø,
+    Statens Naturhistoriske Museum og Naturhistorisk Museum Aarhus.
+- type: partners-with
+  to: naturhistorisk-museum-aarhus
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Arter er et samarbejde mellem Styrelsen for Grøn Arealomlægning og Vandmiljø,
+    Statens Naturhistoriske Museum og Naturhistorisk Museum Aarhus.
+- type: funded-by
+  to: aage-v-jensen-naturfond
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Projektet er finansieret af Aage V. Jensen Naturfond, 15. Juni Fonden og
+    den danske stat.
+- type: funded-by
+  to: 15-juni-fonden
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Projektet er finansieret af Aage V. Jensen Naturfond, 15. Juni Fonden og
+    den danske stat.
+- type: built-by
+  to: natural-history-museum-of-denmark
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Udviklingen af Arter er sket som et samarbejde mellem Statens Naturhistoriske
+    Museum, Miljøstyrelsen, Naturhistorisk Museum Aarhus og DanBIF.
+- type: built-by
+  to: danish-environmental-protection-agency
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Udviklingen af Arter er sket som et samarbejde mellem Statens Naturhistoriske
+    Museum, Miljøstyrelsen, Naturhistorisk Museum Aarhus og DanBIF.
+- type: built-by
+  to: naturhistorisk-museum-aarhus
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Udviklingen af Arter er sket som et samarbejde mellem Statens Naturhistoriske
+    Museum, Miljøstyrelsen, Naturhistorisk Museum Aarhus og DanBIF.
+- type: built-by
+  to: danbif
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Udviklingen af Arter er sket som et samarbejde mellem Statens Naturhistoriske
+    Museum, Miljøstyrelsen, Naturhistorisk Museum Aarhus og DanBIF.
+- type: run-by
+  to: natural-history-museum-of-denmark
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: I det daglige er det en projektgruppe på syv personer med medarbejdere fra
+    de nævnte organisationer, som varetager arbejdet med Arter.
+- type: run-by
+  to: danish-environmental-protection-agency
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: I det daglige er det en projektgruppe på syv personer med medarbejdere fra
+    de nævnte organisationer, som varetager arbejdet med Arter.
+- type: run-by
+  to: naturhistorisk-museum-aarhus
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: I det daglige er det en projektgruppe på syv personer med medarbejdere fra
+    de nævnte organisationer, som varetager arbejdet med Arter.
+- type: run-by
+  to: danbif
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: I det daglige er det en projektgruppe på syv personer med medarbejdere fra
+    de nævnte organisationer, som varetager arbejdet med Arter.
+- type: funded-by
+  to: aage-v-jensen-naturfond
+  url: https://www.avjf.dk/pressemeddelelser/fonde-giver-millioner-til-danskernes-nye-portal-om-arter-og-natur/
+  fetched: *id001
+  quote: har AAGE V. JENSEN NATURFOND og 15. Juni Fonden endnu en gang givet en stor
+    håndsrækning på i alt 10 mio. kr.
+- type: funded-by
+  to: 15-juni-fonden
+  url: https://www.avjf.dk/pressemeddelelser/fonde-giver-millioner-til-danskernes-nye-portal-om-arter-og-natur/
+  fetched: *id001
+  quote: har AAGE V. JENSEN NATURFOND og 15. Juni Fonden endnu en gang givet en stor
+    håndsrækning på i alt 10 mio. kr.
+found_by:
+- checklist:2
+- link-from:natural-history-museum-of-denmark
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision

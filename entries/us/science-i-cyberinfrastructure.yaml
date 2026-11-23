@@ -1,0 +1,33 @@
+id: science-i-cyberinfrastructure
+kind: project
+name: Science-i
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: NSF-funded cyberinfrastructure for forest ecosystem research at Purdue University.
+facts:
+- claim: 'NSF award to Purdue University: Elements: Science-i Cyberinfrastructure for Forest
+    Ecosystem Research.'
+  url: https://api.nsf.gov/services/v1/awards/2311762.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'Elements: Science-i Cyberinfrastructure for Forest Ecosystem Research'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2311762.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'Elements: Science-i Cyberinfrastructure for Forest Ecosystem Research'
+  amount: 695815
+  year: 2023
+  currency: USD
+- type: run-by
+  to: purdue-university
+  url: https://api.nsf.gov/services/v1/awards/2311762.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: Purdue University
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-30'

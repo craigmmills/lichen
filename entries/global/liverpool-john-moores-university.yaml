@@ -1,0 +1,45 @@
+id: liverpool-john-moores-university
+kind: organisation
+name: Liverpool John Moores University
+also_known_as:
+- LJMU
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+scale: global
+status: active
+website: https://www.ljmu.ac.uk/
+summary: University in Liverpool, England, whose researchers published the Conservation AI
+  platform papers.
+facts:
+- claim: Wikipedia describes it as a university in Liverpool.
+  url: https://en.wikipedia.org/wiki/Liverpool_John_Moores_University
+  fetched: '2026-10-30'
+  quote: University in Liverpool, England
+- claim: The Conservation AI platform paper uses CNNs and transformer architectures.
+  url: https://arxiv.org/abs/2409.10523v1
+  fetched: '2026-10-30'
+  quote: The platform processes this data with convolutional neural networks (CNNs) and Transformer
+    architectures
+  ai_type: deep-learning
+links:
+- type: runs
+  to: conservation-ai
+  url: https://www.prospects.ac.uk/podcasts/future-you-podcast-transcripts/how-artificial-intelligence-can-help-endangered-species-with-ljmu-podcast-transcript/
+  fetched: '2026-10-30'
+  quote: So Conservation AI is a research project that's been in development at John Moores
+    University. It's been developed by myself and Paul and some other academics around the
+    university.
+found_by:
+- link-from:conservation-ai
+added_by: agent
+checked: '2026-10-30'

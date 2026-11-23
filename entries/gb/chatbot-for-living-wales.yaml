@@ -1,0 +1,41 @@
+id: chatbot-for-living-wales
+kind: project
+name: Chatbot for Living Wales
+scope: gb
+ai_label: ai
+ai_types:
+- large-language-models
+realms:
+- land
+status: active
+website: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+summary: Web-based chatbot that lets people ask plain-language questions of Living
+  Wales land cover, habitat, burnt area and flood data.
+facts:
+- claim: Developing a web-based chatbot for plain-language questions about the environment
+    in Wales.
+  url: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+  quote: This project is developing a web-based chatbot that allows people to ask
+    questions about the environment in Wales using plain language
+  fetched: &id001 2026-10-30
+- claim: Described as using chatbots, smart agents and LLMs.
+  url: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+  quote: Chatbots, smart agents, LLMs
+  ai_type: large-language-models
+  fetched: *id001
+links:
+- type: run-by
+  to: centre-for-environmental-intelligence-exeter
+  url: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+  quote: Chatbot for Living Wales | Centre for Environmental Intelligence
+  fetched: *id001
+- type: builds-on
+  to: living-wales
+  url: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+  quote: collected through the Living Wales programme and stored in the Welsh Data
+    Cube (WDC)
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

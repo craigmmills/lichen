@@ -1,0 +1,44 @@
+id: ornitho-cat
+kind: programme
+name: Ornitho.cat
+scope: es
+also_known_as:
+- Ornitho
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+status: active
+website: http://www.ornitho.cat
+summary: Online bird records portal among the web portals of the Institut Català d'Ornitologia.
+facts:
+- claim: Listed as a web portal of the Institut Català d'Ornitologia.
+  url: http://www.ornitho.cat
+  fetched: '2026-10-31'
+  quote: Portals web ICO
+- claim: A website that lets citizens store and share field observations of animal
+    groups.
+  url: https://api.gbif.org/v1/organization/ada19a05-4216-44c7-aa4f-6e7177bcb0ac
+  fetched: '2026-10-31'
+  quote: a website that allows citizens to store and share field observations
+- claim: Observations are uploaded to GBIF at 1 km resolution, or 10 km for some species
+    of conservation concern.
+  url: https://api.gbif.org/v1/organization/ada19a05-4216-44c7-aa4f-6e7177bcb0ac/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: The observations are uploaded to GBIF at a resolution of 1x1 km
+links:
+- type: run-by
+  to: institut-catala-dornitologia
+  url: http://www.ornitho.cat
+  fetched: '2026-10-31'
+  quote: Portals web ICO
+- type: run-by
+  to: institut-catala-dornitologia
+  url: https://api.gbif.org/v1/organization/ada19a05-4216-44c7-aa4f-6e7177bcb0ac
+  fetched: '2026-10-31'
+  quote: the maintenance and promotion of the use of the portal www.ornitho.cat
+found_by:
+- link-from:institut-catala-dornitologia
+- register:es
+added_by: agent
+checked: '2026-10-31'

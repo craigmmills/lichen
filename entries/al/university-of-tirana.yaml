@@ -1,0 +1,43 @@
+id: university-of-tirana
+kind: organisation
+name: University of Tirana
+scope: al
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- al
+scale: national
+status: active
+website: https://unitir.edu.al
+summary: A university with a November 2019 project page on rare plants and invertebrates in Korçë, Berat
+  and Vlorë, and a Department of Geography linked by OpenAlex to a 2025 forest health paper.
+facts:
+- claim: A November 2019 university page describes a 24-month project to assess rare and endangered plants
+    and invertebrates and their habitats in the mountainous areas of Korçë, Berat and Vlorë.
+  url: https://unitir.edu.al/en/vleresimi-i-llojeve-te-ralla-dhe-te-rrezikuara-te-bimeve-dhe-invertebroreve-si-dhe-habitateve-te-tyre-ne-zonat-malore-te-qarkut-korce-berat-dhe-vlore/
+  fetched: 2026-11-12
+  quote: 'Title: Assessment of rare and endangered species of plants and invertebrates as well as their
+    habitats in the mountainous areas of Korçë, Berat and Vlorë districts'
+- claim: The project described in November 2019 proposed a hub in the Department of Biology to coordinate
+    data flow and discussions between partners and BioNNA.
+  url: https://unitir.edu.al/en/vleresimi-i-llojeve-te-ralla-dhe-te-rrezikuara-te-bimeve-dhe-invertebroreve-si-dhe-habitateve-te-tyre-ne-zonat-malore-te-qarkut-korce-berat-dhe-vlore/
+  fetched: 2026-11-12
+  quote: Establishing a HUB in the Department of Biology in order to increase the quality of scientific
+    research as a coordinating center for data-flow and discussions between partners and BioNNA
+- claim: OpenAlex gives the University of Tirana as the institution of the first author of a 2025 GIS
+    and remote sensing paper on forest health, at its Department of Geography.
+  url: https://api.openalex.org/works/W4413005932?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Assoc. Professor, University of Tirana, Faculty of History and Philology, Department of Geography,
+    Albania
+links: []
+found_by:
+- checklist:3
+- rule:tier1-university
+added_by: agent
+checked: 2026-11-12

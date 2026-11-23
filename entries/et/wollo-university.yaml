@@ -1,0 +1,36 @@
+id: wollo-university
+kind: organisation
+name: Wollo University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University with a listed 2020 paper, by first author Abebe Mohammed Ali, using machine
+  learning to retrieve plant traits of a mixed mountain forest from Sentinel-2 data.
+facts:
+- claim: OpenAlex lists a 2020 paper on machine learning to retrieve plant traits of a mixed
+    mountain forest from Sentinel-2 data.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Machine learning methods\u2019 performance in radiative transfer model inversion
+    to retrieve plant traits from Sentinel-2 data of a mixed mountain forest
+- claim: OpenAlex lists Abebe Mohammed Ali, first author of that paper, at Wollo University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Abebe Mohammed Ali", "orcid": "https://orcid.org/0000-0002-3962-0333",
+    "observed_orcids": ["https://orcid.org/0000-0002-3962-0333"]}, "institutions": [{"id":
+    "https://openalex.org/I4210114501", "display_name": "Wollo University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

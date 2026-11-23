@@ -1,0 +1,43 @@
+id: geokuup-estonia
+kind: dataset
+name: Geokuup data cube for Estonia
+scope: ee
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ee
+status: active
+website: https://geokuup.ee/estonia
+summary: Active data cube for Estonia, built on Sentinel-2, combining Sentinel, Landsat and airborne LiDAR
+  data, which a FOSS4G 2025 talk says aims to advance biodiversity and carbon research.
+facts:
+- claim: The FOSS4G 2025 talk says the project aims to create a comprehensive data cube for Estonia to
+    advance biodiversity and carbon dynamics research.
+  url: https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/
+  fetched: 2026-11-08
+  quote: Our project aims to create a comprehensive data cube for Estonia, utilizing remote sensing and
+    geospatial data and open-source tools to advance biodiversity and carbon dynamics research.
+- claim: It combines Sentinel-1, Sentinel-2, Landsat and high-resolution airborne LiDAR data.
+  url: https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/
+  fetched: 2026-11-08
+  quote: We incorporated data from Sentinel-1, Sentinel-2, Landsat, and high-resolution airborne LiDAR.
+- claim: LiDAR data were used to calculate biodiversity-relevant indices including ecosystem height, cover
+    and structural complexity.
+  url: https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/
+  fetched: 2026-11-08
+  quote: LiDAR data allowed us to calculate biodiversity-relevant indices, including ecosystem height,
+    cover, and structural complexity.
+links:
+- type: builds-on
+  to: sentinel-2
+  url: https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/
+  fetched: 2026-11-08
+  quote: We incorporated data from Sentinel-1, Sentinel-2, Landsat, and high-resolution airborne LiDAR.
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-08
+runner: unknown

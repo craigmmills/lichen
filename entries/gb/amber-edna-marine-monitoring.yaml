@@ -1,0 +1,59 @@
+id: amber-edna-marine-monitoring
+kind: project
+name: 'AMBER: Automated Monitoring of Biodiversity via eDNA Recovery'
+also_known_as:
+- AMBER
+- AMBER - Automated biodiversity monitoring
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- edna-genomics
+- computer-vision
+- bioacoustics
+countries:
+- gb
+status: unknown
+runner: unknown
+summary: Project to process marine eDNA in near real time on lab-on-a-chip technology,
+  won by Platform Kinetics and Intuitiq. No page read says which of the two leads.
+facts:
+- claim: Samples marine water on lab-on-a-chip technology to process eDNA in near
+    real time.
+  url: https://www.aquatechtrade.com/news/surface-water/funding-projects-health-biodiversity-marine-ecosystem
+  quote: Marine water will be sampled by lab-on-a-chip technology to process eDNA
+    in near real-time.
+  fetched: '2026-10-30'
+- claim: Funded by the Abrdn Charitable Foundation, to develop and trial technology
+    for monitoring biodiversity.
+  url: https://www.ceh.ac.uk/our-science/projects/amber-automated-biodiversity-monitoring
+  quote: funded by the Abrdn Charitable Foundation, will develop and trial cutting
+    edge technology for monitoring biodiversity
+  fetched: &id001 2026-10-30
+found_by:
+- checklist:7
+links:
+- type: partners-with
+  to: platform-kinetics
+  url: https://www.aquatechtrade.com/news/surface-water/funding-projects-health-biodiversity-marine-ecosystem
+  quote: 'Award winners: Platform Kinetics, Intuitiq'
+  fetched: '2026-10-30'
+- type: partners-with
+  to: intuitiq
+  url: https://www.aquatechtrade.com/news/surface-water/funding-projects-health-biodiversity-marine-ecosystem
+  quote: 'Award winners: Platform Kinetics, Intuitiq'
+  fetched: '2026-10-30'
+- type: funded-by
+  to: innovate-uk
+  url: https://www.ukri.org/news/funding-to-improve-biodiversity-observation-capabilities-in-uk-waters/
+  quote: "This project follows on from successful phase one Innovate UK funding with the development of the AMBER (Automated Monitoring of Biodiversity via eDNA Recovery) systems building blocks."
+  fetched: '2026-10-30'
+- type: funded-by
+  to: improving-observation-of-biodiversity-in-uk-waters
+  url: https://www.ukri.org/news/funding-to-improve-biodiversity-observation-capabilities-in-uk-waters/
+  quote: "An automated end-to-end eDNA-based marine biodiversity and species monitoring system Award winners: Platform Kinetics, Intuitiq Ltd"
+  fetched: '2026-10-30'
+scope: gb
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,52 @@
+id: narok-county-government
+kind: organisation
+name: Narok County Government
+scope: ke
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: conservation-tech
+realms:
+- land
+hq: ke
+website: https://narok.go.ke/
+countries:
+- ke
+scale: local
+summary: County government that adopted EarthRanger for the Maasai Mara National Reserve and
+  is part of a LoRaWAN deployment there.
+facts:
+- claim: The Standard reports the county adopted EarthRanger.
+  url: https://standardmedia.co.ke/rift-valley/article/2001505805/narok-county-adopts-technology-to-secure-maasai-mara
+  quote: The county government has adopted EarthRanger (ER), a software solution for wildlife
+    conservation.
+  fetched: '2026-10-31'
+- claim: Gives its county headquarters off the Mau Narok to Nakuru road in Narok Town.
+  url: https://narok.go.ke/?p=52
+  fetched: '2026-10-31'
+  quote: PO BOX 898-20500 Narok,Kenya Off Mau Narok - Nakuru Road, Narok Town
+- claim: Manages the Maasai Mara National Reserve, according to Kenya's national clearing-house
+    page for the reserve.
+  url: https://ke.chm-cbd.net/protected-areas/maasai-mara-national-reserve
+  quote: 'Governorship Type: Managed by the Narok County Government'
+  fetched: '2026-11-16'
+links:
+- type: runs
+  to: maasai-mara-earthranger-deployment
+  url: https://standardmedia.co.ke/rift-valley/article/2001505805/narok-county-adopts-technology-to-secure-maasai-mara
+  quote: Narok county government has invested in technology in efforts to secure Maasai Mara
+    National Reserve. The county government has adopted EarthRanger (ER)
+  fetched: '2026-10-31'
+- type: partners-with
+  to: safari-collection-footprint-trust
+  url: https://connectedconservation.foundation/news/lorawan-network-boosts-conservation-in-maasai-mara
+  quote: A collaboration between The Safari Collection Footprint Trust, Narok County Government,
+    51 Degrees, Cisco, Actility and the Connected Conservation Foundation
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

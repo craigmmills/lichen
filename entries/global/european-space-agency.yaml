@@ -1,0 +1,119 @@
+id: european-space-agency
+kind: organisation
+name: European Space Agency
+also_known_as:
+- ESA
+scope: global
+sector: multilateral
+roles:
+- builds-ai
+- supplies-data
+- funds
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+- foundation-models
+- large-language-models
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+hq: fr
+scale: global
+status: active
+website: https://www.esa.int
+summary: European intergovernmental space agency that flies the Biomass forest mission, funds
+  global land cover and biomass data products, and through its Φ-lab develops AI models for
+  Earth observation.
+facts:
+- claim: Its Biomass mission is designed to deliver information on the state of forests.
+  url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass
+  fetched: 2026-10-30
+  quote: the Biomass mission is designed to deliver crucial information about the state of
+    our forests
+- claim: Headquarters are in Paris.
+  url: https://www.esa.int/About_Us/Corporate_news/ESA_facts
+  fetched: 2026-10-30
+  quote: ESA's headquarters are in Paris which is where policies and programmes are decided.
+- claim: An ESA Climate Office item maps forest degradation with deep learning.
+  url: https://climate.esa.int/en/projects/biomass/
+  fetched: 2026-10-30
+  quote: Mapping tropical forest degradation with deep learning and Planet NICFI data
+  ai_type: deep-learning
+- claim: An ESA Climate Office item covers self-supervised learning for SAR.
+  url: https://climate.esa.int/en/projects/land-cover/
+  fetched: 2026-10-30
+  quote: Self-Supervised Learning for SAR
+  ai_type: ml-unsupervised
+- claim: Says its budget for 2025 is €7.68 billion.
+  url: https://www.esa.int/About_Us/Corporate_news/ESA_facts
+  quote: ESA's budget for 2025 is €7.68 billion.
+  fetched: '2026-10-30'
+- claim: Says its mandatory activities are funded by contributions from all its Member States,
+    set by each country's gross national product.
+  url: https://www.esa.int/About_Us/Corporate_news/ESA_facts
+  quote: funded by a financial contribution from all the Agency’s Member States
+  fetched: '2026-10-30'
+- claim: ESA's Φ-lab and IBM introduced TerraMind, a generative foundation model for Earth
+    observation.
+  url: https://huggingface.co/ibm-esa-geospatial
+  fetched: '2026-10-31'
+  quote: IBM and the European Space Agency (ESA) Φ-lab introduce TerraMind, the first multimodal,
+    any-to-any generative foundation model for Earth Observation.
+  ai_type: foundation-models
+- claim: ESA says its Φ-lab and partners developed EVE, a large language model.
+  url: https://www.esa.int/ESA_Multimedia/Images/2026/10/Meet_the_technical_team_behind_EVE
+  fetched: '2026-10-31'
+  quote: Together they developed EVE, a large language model (LLM), which summarises, translates
+    and presents huge amounts of data in accessible ways.
+  ai_type: large-language-models
+links:
+- type: runs
+  to: phi-lab
+  url: https://philab.esa.int/
+  fetched: 2026-10-30
+  quote: ESA Φ-lab accelerates the future of Earth Observation (EO)
+- type: runs
+  to: esa-biomass-mission
+  url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass
+  fetched: 2026-10-30
+  quote: Biomass ESA's forest mission
+- type: runs
+  to: esa-worldcover
+  url: https://esa-worldcover.org/en/about/about
+  fetched: 2026-10-30
+  quote: the European Space Agency (ESA) initiated the WorldCover project
+- type: runs
+  to: esa-cci-biomass
+  url: https://climate.esa.int/en/projects/biomass/
+  fetched: 2026-10-30
+  quote: The primary science objective of ESA’s Climate Change Initiative (CCI) Biomass project
+- type: runs
+  to: esa-cci-land-cover
+  url: https://climate.esa.int/en/projects/land-cover/
+  fetched: 2026-10-30
+  quote: As part of the ESA Climate Change Initiative (CCI), the Land Cover project
+- type: runs
+  to: biodiversity-plus-precursors
+  url: https://eo4society.esa.int/projects/biomondo/
+  fetched: 2026-10-30
+  quote: The European Space Agency (ESA) activity called Biodiversity+ Precursors
+- type: partners-with
+  to: european-commission
+  url: https://eo4society.esa.int/partners/
+  fetched: 2026-10-31
+  quote: ESA aims to enhance its contribution to existing partnerships at European level with
+    the European Commission
+- type: partners-with
+  to: african-union-commission
+  url: https://eo4society.esa.int/partners/
+  fetched: 2026-10-31
+  quote: ESA aims to enhance its contribution to existing partnerships at European level with
+    the European Commission, at African level with the AUC and national institutions
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

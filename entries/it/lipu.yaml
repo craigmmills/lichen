@@ -1,0 +1,53 @@
+id: lipu
+kind: organisation
+name: Lipu
+scope: it
+sector: ngo
+roles:
+- supplies-data
+- governs
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+website: https://www.lipu.it/
+summary: Italian bird conservation NGO and BirdLife International's Italian partner. Since
+  2009 the agriculture ministry has tasked it with calculating the Farmland Bird Index from
+  a national bird survey.
+facts:
+- claim: BirdLife International's Italian partner since 1994.
+  url: https://www.lipu.it/sites/default/files/2025-02/Uccelli%20Comuni%202024%20WEB.pdf
+  fetched: 2026-10-31
+  quote: Dal 1994 la Lipu è il partner italiano di BirdLife International
+- claim: Has carried out the Farmland Bird Index for many years on behalf of the agriculture
+    ministry.
+  url: https://www.lipu.it/cosa-facciamo/proteggiamo-uccelli/fbi-farmland-bird-index
+  fetched: '2026-10-31'
+  quote: Svolto da molti anni dalla Lipu per conto del Ministero dell'Agricoltura, Sovranità
+    Alimentare e delle Foreste (MASAF)
+- claim: Manages 25 Oases and Reserves in Italy.
+  url: https://corsi.lipu.it/aree-formative/le-25-oasi-e-riserve-gestite-dalla-lipu-contribuiscono
+  quote: Le 25 Oasi e Riserve gestite dalla Lipu contribuiscono attivamente alla conservazione
+    della biodiversità italiana
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: farmland-bird-index-italia
+  url: https://www.lipu.it/sites/default/files/2025-02/Uccelli%20Comuni%202024%20WEB.pdf
+  fetched: 2026-10-31
+  quote: Dal 2009 la Lipu è stata incaricata dal Ministero dell’agricoltura, della sovranità
+    alimentare e delle foreste (MASAF, già Mipaaf) di calcolare l’indica- tore FBI
+- type: partners-with
+  to: birdlife-international
+  url: https://www.lipu.it/sites/default/files/2025-02/Uccelli%20Comuni%202024%20WEB.pdf
+  fetched: 2026-10-31
+  quote: Dal 1994 la Lipu è il partner italiano di BirdLife International
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: 2026-10-31
+also_known_as:
+- Lega Italiana Protezione Uccelli

@@ -1,0 +1,61 @@
+id: lemu-atlas
+kind: project
+name: Atlas
+also_known_as:
+- Lemu-Atlas
+- Atlas
+scope: cl
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- cl
+status: active
+summary: Lemu's platform, built and run by Lemu, with LemuRank and Biorarity indicators, used by Banco
+  Central de Chile, Codelco and Conexión Kimal Lo Aguirre.
+facts:
+- claim: Atlas is Lemu's platform, with LemuRank and Biorarity indicators, and is used by Banco Central
+    de Chile, Codelco and Conexión Kimal Lo Aguirre.
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: 2026-11-02
+  quote: Atlas is already being used by organisations including Banco Central de Chile, Codelco, and Conexión
+    Kimal Lo Aguirre
+- claim: Arauco announced in April 2026 that its biodiversity data can be seen publicly on the platform.
+  url: https://www.theclinic.cl/2026/04/23/se-puede-ver-el-desplazamiento-de-huemules-o-la-ranita-de-darwin-arauco-pone-a-disposicion-publica-datos-de-biodiversidad-de-sus-bosques/amp/
+  fetched: 2026-11-02
+  quote: Arauco anunció un convenio con la plataforma Atlas, de Lemu, para poner a disposición pública
+    sus datos de biodiversidad
+- claim: Lemu says it created Atlas as a platform that turns natural capital into intelligence for decisions.
+  url: https://le.mu/es/blog/atlas-1-0-dice-hola-mundo-una-nueva-infraestructura-digital-para-la-naturaleza/
+  fetched: '2026-11-02'
+  quote: 'creamos Atlas : la plataforma que convierte el capital natural en inteligencia lista para decidir'
+links:
+- type: run-by
+  to: lemu
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: &id001 2026-11-02
+  quote: these observations will enrich Atlas , Lemu’s Nature Intelligence Platform
+- type: built-by
+  to: lemu
+  url: https://leo.prie.to/lemu-nge-delivers-on-promise-biodiversity-signals-from-space-now-visible/
+  fetched: *id001
+  quote: We launched Lemu Nge, the world’s first biodiversity-focused hyperspectral satellite, and Atlas,
+    our Nature Intelligence platform that transforms complex environmental data into clear, actionable
+    insight.
+- type: built-by
+  to: lemu
+  url: https://le.mu/es/blog/atlas-1-0-dice-hola-mundo-una-nueva-infraestructura-digital-para-la-naturaleza/
+  fetched: '2026-11-02'
+  quote: 'creamos Atlas : la plataforma que convierte el capital natural en inteligencia lista para decidir'
+- type: run-by
+  to: lemu
+  url: https://le.mu/es/blog/atlas-1-0-dice-hola-mundo-una-nueva-infraestructura-digital-para-la-naturaleza/
+  fetched: '2026-11-02'
+  quote: Hoy, en nuestro segundo año de operación, damos el siguiente paso con “Atlas 1.0”.
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-02

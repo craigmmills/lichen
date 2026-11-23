@@ -1,0 +1,26 @@
+id: pelaobs
+kind: dataset
+name: PelaObs
+scope: fr
+ai_label: data-infrastructure
+status: active
+summary: Open online tool listing the marine megafauna observations Pelagis has collected
+  since 2003 on aerial and oceanographic surveys.
+facts:
+- claim: Lists all data collected by Pelagis since 2003, as part of its move to open
+    data.
+  url: https://www.observatoire-pelagis.cnrs.fr/visualisation-des-donnees-dobservation-decouvrez-pelaobs/
+  fetched: '2026-10-31'
+  quote: Cet outil recense l’ensemble des données collectées depuis 2003 par Pelagis
+realms:
+- ocean
+links:
+- type: run-by
+  to: observatoire-pelagis
+  url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/bases-de-donnees/
+  fetched: '2026-10-31'
+  quote: Cette application en ligne est développée par Pelagis
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

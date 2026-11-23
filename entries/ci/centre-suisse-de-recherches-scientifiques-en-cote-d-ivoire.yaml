@@ -1,0 +1,46 @@
+id: centre-suisse-de-recherches-scientifiques-en-cote-d-ivoire
+kind: organisation
+name: Centre Suisse de Recherches Scientifiques en Côte d'Ivoire
+also_known_as:
+- CSRS
+scope: ci
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ci
+countries:
+- ci
+scale: national
+status: active
+website: https://www.csrs.ch
+summary: A research centre studying biodiversity and nature-based solutions, with a primate station at
+  Taï and a herbarium dataset on GBIF containing 8,896 records.
+facts:
+- claim: Runs a research programme on biodiversity and nature-based solutions, covering biodiversity and
+    ecosystem services, species and mangrove conservation.
+  url: https://www.csrs.ch
+  fetched: '2026-11-08'
+  quote: Ce programme étudie la préservation de la biodiversité et des services écosystémiques, la conservation
+    des espèces et des mangroves
+- claim: Lists a primate ecology station at Taï among its research stations.
+  url: https://www.csrs.ch
+  fetched: '2026-11-08'
+  quote: Tai - Ecologie des primates
+- claim: Its herbarium occurrence dataset on GBIF counts 8,896 records representing 11,469 specimens.
+  url: https://api.gbif.org/v1/organization/18941f4f-543a-41ef-abd6-4b04d9332c5c/publishedDataset?limit=5
+  fetched: '2026-11-08'
+  quote: a permis de dénombrer 8896 données d'occurrence répresentant 11469 échantillons
+- claim: The dataset's title names it as occurrences of plant samples from the CSRS herbarium in Côte
+    d'Ivoire.
+  url: https://api.gbif.org/v1/organization/18941f4f-543a-41ef-abd6-4b04d9332c5c/publishedDataset?limit=5
+  fetched: '2026-11-08'
+  quote: Occurrences des échantillons de plantes de l'Herbier du Centre Suisse de Recherches Scientifiques
+    (CSRS) en Côte d'Ivoire
+found_by:
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'

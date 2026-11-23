@@ -1,0 +1,64 @@
+id: elme-project
+kind: project
+name: ELME project
+also_known_as:
+- Elurikkuse sotsiaalmajanduslikult ja kliimamuutustega seostatud keskkonnaseisundi hindamiseks,
+  prognoosiks ja andmete kättesaadavuse tagamiseks vajalikud töövahendid
+scope: ee
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+- edna-genomics
+countries:
+- ee
+status: unknown
+summary: Estonian monitoring project whose 2023 methods report covers camera traps, drones,
+  acoustic recorders and DNA, and says it bought Kaleidoscope Pro 5 and planned to test BirdNET.
+facts:
+- claim: Its 2023 methods report has chapters on camera traps and drones.
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: Rajakaameratest tuleb täpsemalt juttu peatükis 2, droonidest peatükis 3,
+- claim: The same report has chapters on acoustic recorders and a DNA study.
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: helisalvestajatest peatükis 4, DNA-uuringust peatükis 5
+- claim: Says ELME trials led to the idea of applying AI to camera-trap images, and that an
+    AI-based software prototype was completed in 2021 under a separate structural funds project.
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: 2021. aastal valmiski tehisintellektil tuginev tarkvara prototüüp
+- claim: Bought the machine-learning sound analysis software Kaleidoscope Pro 5 to analyse
+    recordings and identify species.
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: masinõppe meetodil põhinev tarkvara Kaleidoscope Pro 5
+- claim: The report says the team planned to test the AI-based software BirdNET for sound
+    analysis.
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: hetkel on plaanis katsetada tehisintellektil
+links:
+- type: led-by
+  to: estonian-environment-agency
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: Keskkonnaagentuuri (KAUR) juhitava ELME projekti
+- type: funded-by
+  to: environmental-investment-centre
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: Euroopa Liidu Ühtekuuluvusfondi ja SA Keskkonnainvesteeringute Keskuse kaasrahastatud
+- type: uses
+  to: kaleidoscope-pro
+  url: https://www.keskkonnaagentuur.ee/sites/default/files/documents/2024-01/KOONDKOKKUV6TE-ELME-II-plokk_02-2023.pdf
+  fetched: 2026-11-08
+  quote: masinõppe meetodil põhinev tarkvara Kaleidoscope Pro 5
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

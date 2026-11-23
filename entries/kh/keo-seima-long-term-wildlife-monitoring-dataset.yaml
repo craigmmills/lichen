@@ -1,0 +1,52 @@
+id: keo-seima-long-term-wildlife-monitoring-dataset
+kind: dataset
+name: Long-term monitoring of primate, bird, and ungulate populations 2010-2022 for
+  protected area management, Keo Seima Wildlife Sanctuary, Cambodia
+scope: kh
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries: []
+status: active
+summary: A GBIF dataset of 13 key species over 12 years from standardised line-transect
+  surveys in Keo Seima Wildlife Sanctuary, built by WCS Cambodia, the Forestry Administration
+  and the Ministry of Environment for protected area management.
+facts:
+- claim: The GBIF dataset record says it holds observations of 13 key species over
+    12 years from standardised line-transect surveys, analysed with distance sampling
+    and density surface models.
+  url: https://api.gbif.org/v1/dataset/bcaaf133-5433-46ab-b2e3-a1a9f4ce84d1
+  fetched: 2026-11-13
+  quote: Observations of 13 key species over 12 years in Keo Seima Wildlife Sanctuary,
+    Cambodia, recorded during standardized line transect surveys.
+- claim: The record says the data are collected to estimate wildlife populations and
+    distributions for protected area management.
+  url: https://api.gbif.org/v1/dataset/bcaaf133-5433-46ab-b2e3-a1a9f4ce84d1
+  fetched: 2026-11-13
+  quote: Data are collected in order to estimate wildlife populations and distributions,
+    used to inform protected area management.
+links:
+- type: built-by
+  to: wcs-cambodia
+  url: https://api.gbif.org/v1/dataset/bcaaf133-5433-46ab-b2e3-a1a9f4ce84d1
+  fetched: 2026-11-13
+  quote: Data were collected jointly by the Wildlife Conservation Society (WCS) and
+    the Forestry Administration of the Royal Government of Cambodia (RGC) between
+    2010 and 2016
+- type: built-by
+  to: forestry-administration-cambodia
+  url: https://api.gbif.org/v1/dataset/bcaaf133-5433-46ab-b2e3-a1a9f4ce84d1
+  fetched: 2026-11-13
+  quote: Data were collected jointly by the Wildlife Conservation Society (WCS) and
+    the Forestry Administration of the Royal Government of Cambodia (RGC) between
+    2010 and 2016
+- type: built-by
+  to: ministry-of-environment-cambodia
+  url: https://api.gbif.org/v1/dataset/bcaaf133-5433-46ab-b2e3-a1a9f4ce84d1
+  fetched: 2026-11-13
+  quote: and by WCS and the Ministry of Environment of the RGC in 2018 and 2020.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

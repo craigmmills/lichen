@@ -1,0 +1,31 @@
+id: biodiversity-information-service-for-powys-and-brecon-beacons
+kind: organisation
+name: Biodiversity Information Service for Powys and Brecon Beacons National Park
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- other
+hq: gb
+scale: local
+status: active
+website: http://www.bis.org.uk/
+summary: Mid Wales records centre that runs WiReD, an online wildlife recording database.
+facts:
+- claim: Publishes the dataset "Radnorshire Wildlife Trust records held by BIS" on GBIF.
+  url: https://api.gbif.org/v1/organization/834a1d9d-b66f-4694-9475-e9cb656294a1/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Radnorshire Wildlife Trust records held by BIS
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/834a1d9d-b66f-4694-9475-e9cb656294a1/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

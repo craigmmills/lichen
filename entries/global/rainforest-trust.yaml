@@ -1,0 +1,37 @@
+id: rainforest-trust
+kind: organisation
+name: Rainforest Trust
+scope: global
+sector: ngo
+roles:
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: global
+status: active
+website: https://www.rainforesttrust.org
+summary: Conservation organisation that creates rainforest reserves with partners and tracks
+  threats to them with satellite imagery and custom software. A member of the Key Biodiversity
+  Areas Partnership.
+facts:
+- claim: Uses satellite imagery, geospatial technology and custom software to track threats.
+  url: https://www.rainforesttrust.org/project-life-cycle/
+  quote: our conservation team relies on satellite imagery, geospatial technology, and custom
+    software platforms
+  fetched: '2026-10-31'
+- claim: TraceMark describes a case study on forest alerts for it.
+  url: https://tracemark.com/rainforest-trust
+  quote: Global digital partner ecosystem for actionable forest alerts.
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: key-biodiversity-areas-partnership
+  url: https://www.keybiodiversityareas.org/en/about-kbas/kba-programme/kba-partnership
+  quote: Rainforest Trust
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

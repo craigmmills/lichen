@@ -1,0 +1,33 @@
+id: atlas-flora-danica
+kind: dataset
+name: Atlas Flora Danica
+also_known_as: []
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries:
+- dk
+status: closed
+summary: Closed dataset run by Dansk Botanisk Forening, begun in 1992 and ended with publication in December
+  2015, with data it says are available on GBIF.
+facts:
+- claim: The project began in 1992 and ended with publication in December 2015.
+  url: https://botaniskforening.dk/botanik/atlas-flora-danica/
+  fetched: &id001 2026-11-02
+  quote: Atlas Flora Danica-projektet startede i 1992 og sluttedes med udgivelsen i december 2015.
+- claim: Says its data are available on GBIF.
+  url: https://botaniskforening.dk/botanik/atlas-flora-danica/
+  fetched: *id001
+  quote: Data fra Atlas Flora Danica er tilgængelig på hjemmesiden GBIF
+links:
+- type: run-by
+  to: dansk-botanisk-forening
+  url: https://botaniskforening.dk/botanik/atlas-flora-danica/
+  fetched: *id001
+  quote: Det var medlemmer af Dansk Botanisk Forening, som udførte dette arbejde.
+found_by:
+- link-from:dansk-botanisk-forening
+added_by: agent
+checked: *id001

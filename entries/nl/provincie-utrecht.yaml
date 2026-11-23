@@ -1,0 +1,45 @@
+id: provincie-utrecht
+kind: organisation
+name: Provincie Utrecht
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: unknown
+scale: regional
+status: active
+summary: Dutch province that has run monitoring of flora and fauna in its rural area since
+  1975, with results going to the Nationale Databank Flora en Fauna, and partners with Netwerk
+  Ecologische Monitoring.
+facts:
+- claim: The province maps flora and fauna of verges, ditches, ponds, hedgerows and small
+    woods in its rural area.
+  url: https://www.provincie-utrecht.nl/onderwerpen/natuur/monitoring-flora-en-fauna
+  quote: In het overige landelijk gebied brengt de provincie de flora en fauna van wegbermen,
+    sloten, slootkanten, poelen, houtwallen, kleine bosjes en dergelijke in kaart.
+  fetched: '2026-11-08'
+- claim: It has run this monitoring since 1975.
+  url: https://www.provincie-utrecht.nl/onderwerpen/natuur/monitoring-flora-en-fauna
+  quote: Dit doet de provincie al sinds 1975.
+  fetched: '2026-11-08'
+- claim: Survey results go into the Nationale Databank Flora en Fauna and can also be requested
+    from the province.
+  url: https://www.provincie-utrecht.nl/onderwerpen/natuur/monitoring-flora-en-fauna
+  quote: De gegevens komen in de Nationale Databank Flora en Fauna (NDFF) en zijn ook op te
+    vragen bij de provincie.
+  fetched: '2026-11-08'
+links:
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.provincie-utrecht.nl/onderwerpen/natuur/monitoring-flora-en-fauna
+  quote: Daarnaast doet de provincie mee aan het Netwerk Ecologische Monitoring (NEM)
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

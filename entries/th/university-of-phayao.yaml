@@ -1,0 +1,29 @@
+id: university-of-phayao
+kind: organisation
+name: University of Phayao
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: https://www.up.ac.th
+summary: University listed in OpenAlex as the affiliation given by the first author of a 2021
+  paper, Jiraporn Kulsoontornrat; no other activity is recorded.
+facts:
+- claim: OpenAlex lists a 2021 paper whose first author, Jiraporn Kulsoontornrat, gives an
+    affiliation at University of Phayao.
+  url: https://api.openalex.org/works?filter=institutions.ror:00a5mh069,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=50&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Suitable Land-Use and Land-Cover Allocation Scenarios to Minimize Sediment and Nutrient
+    Loads into Kwan Phayao, Upper Ing Watershed, Thailand
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

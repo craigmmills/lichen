@@ -1,0 +1,42 @@
+id: optimal-ipb
+kind: model
+name: OPTIMAL-IPB
+also_known_as:
+- Oil Palm Identification Based on Machine Learning-IPB
+scope: id
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- id
+status: active
+summary: Deep learning model from IPB University that detects individual oil palms in high-resolution
+  satellite imagery, funded by LPDP and used to delineate smallholder plantations.
+facts:
+- claim: Detects oil palm in high-resolution satellite imagery with a deep learning model.
+  url: https://lpdp.kemenkeu.go.id/informasi/berita/didanai-lpdp-ipb-luncurkan-teknologi-pemetaan-lahan-sawit-berbasis-model-deep-learning/
+  fetched: '2026-10-31'
+  quote: Inovasi ini mampu mendeteksi objek kelapa sawit pada citra satelit resolusi tinggi
+    berbasis pada model deep learning
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: ipb-university
+  url: https://lpdp.kemenkeu.go.id/informasi/berita/didanai-lpdp-ipb-luncurkan-teknologi-pemetaan-lahan-sawit-berbasis-model-deep-learning/
+  fetched: '2026-10-31'
+  quote: Institut Pertanian Bogor (IPB) meluncurkan inovasi teknologi citra satelit beresolusi
+    tinggi
+- type: funded-by
+  to: lpdp
+  url: https://lpdp.kemenkeu.go.id/informasi/berita/didanai-lpdp-ipb-luncurkan-teknologi-pemetaan-lahan-sawit-berbasis-model-deep-learning/
+  fetched: '2026-10-31'
+  quote: Riset OPTIMAL-IPB yang berbasis teknologi 4.0 tidak lepas dari dukungan pendanaan
+    Lembaga Pengelola Dana Pendidikan (LPDP)
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

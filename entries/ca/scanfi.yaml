@@ -1,0 +1,56 @@
+id: scanfi
+kind: dataset
+name: 'SCANFI: Spatialized Canadian National Forest Inventory data product'
+also_known_as:
+- SCANFI
+- Spatialized CAnadian National Forest Inventory
+scope: ca
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised
+countries:
+- ca
+summary: Raster layers predicting vegetation attributes and tree species distribution across
+  Canada, generated with machine learning from remote sensing, climate and environmental data,
+  from the Canadian National Forest Inventory.
+facts:
+- claim: Generated using machine learning applied to remote sensing, climate and other environmental
+    data.
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: This repository contains a set of raster files predicting vegetation attributes and
+    tree species distribution in Canada.
+- claim: Arctic ecozones were predicted with a single random forest model and were not properly
+    validated.
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: Vegetation attributes in the arctic ecozones were predicted using a single random
+    forest model
+  ai_type: ml-supervised
+- claim: The readme says the data was generated using machine learning algorithms.
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: The data was generated using machine learning algorithms applied to remote sensing
+    data, climate data, and other environmental variables.
+- claim: The dataset citation names Natural Resources Canada, Canadian Forest Service, Laurentian
+    Forestry Centre.
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: Natural Resources Canada, Canadian Forest Service, Laurentian Forestry Centre
+links:
+- type: run-by
+  to: canadian-forest-service
+  url: https://www.download-telecharger.services.geo.ca/pub/nrcan_rncan/Forests_Foret/SCANFI/v1/_readme.txt
+  fetched: '2026-10-31'
+  quote: 'SCANFI: Spatialized Canadian National Forest Inventory data product. Natural Resources
+    Canada, Canadian Forest Service, Laurentian Forestry Centre, Quebec, Canada.'
+found_by:
+- checklist:2
+- link-from:canadian-forest-service
+added_by: agent
+checked: '2026-10-31'

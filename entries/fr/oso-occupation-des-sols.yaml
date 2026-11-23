@@ -1,0 +1,29 @@
+id: oso-occupation-des-sols
+kind: dataset
+name: Carte d'occupation des sols OSO
+also_known_as:
+- OSO
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+runner: unknown
+summary: Automatic 10 metre land cover maps of mainland France made from Sentinel-2
+  by the Theia land cover expert group.
+facts:
+- claim: An expert group produces automatic land cover maps of mainland France from
+    Sentinel-2 data at 10 metre resolution.
+  url: https://www.theia-land.fr/blog/product/carte-doccupation-des-sols-de-la-france-metropolitaine/
+  fetched: '2026-10-31'
+  quote: Le groupe d’experts Occupation des sols produit automatiquement des cartes
+    d’occupation du sol de la France métropolitaine à partir de données Sentinel-2A
+    et Sentinel-2B.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

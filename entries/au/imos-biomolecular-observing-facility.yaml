@@ -1,0 +1,37 @@
+id: imos-biomolecular-observing-facility
+kind: programme
+name: IMOS Biomolecular Observing Facility
+scope: au
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+countries:
+- au
+status: active
+summary: Programme run by the Integrated Marine Observing System that analyses DNA
+  in water samples from reference stations and a Southern Ocean mooring to build a
+  time series of marine communities.
+facts:
+- claim: Analyses biological molecules to describe biodiversity.
+  url: https://imos.org.au/facility/biomolecular-observing
+  quote: The IMOS Biomolecular Observing Facility analyses biological molecules to
+    describe biodiversity at its foundational level
+  fetched: '2026-11-08'
+- claim: Uses DNA in water samples from IMOS National Reference Stations and the Southern
+    Ocean Time Series mooring to build a time series of communities.
+  url: https://imos.org.au/facility/biomolecular-observing
+  quote: Using DNA present in water samples collected at IMOS National Reference Stations
+    and the Southern Ocean Time Series mooring, this Facility is establishing a time-series
+  fetched: '2026-11-08'
+links:
+- type: run-by
+  to: integrated-marine-observing-system
+  url: https://imos.org.au/facility/biomolecular-observing
+  quote: The IMOS Biomolecular Observing Facility analyses biological molecules
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

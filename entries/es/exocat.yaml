@@ -1,0 +1,28 @@
+id: exocat
+kind: dataset
+name: EXOCAT
+scope: es
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+website: http://exocat.creaf.cat/
+summary: CREAF information system and database on exotic species in Catalonia.
+facts:
+- claim: A CREAF line of work on the status and future risk of biological invasion in Catalonia,
+    with a public database.
+  url: http://www.creaf.cat/ca/recerca/directori-de-recerca/exocat
+  fetched: '2026-10-31'
+  quote: Catàleg d’Espècies Exòtiques de Catalunya
+links:
+- type: run-by
+  to: creaf
+  url: http://www.creaf.cat/ca/recerca/directori-de-recerca/exocat
+  fetched: '2026-10-31'
+  quote: el CREAF vol impulsar una línia d‘anàlisi de l’estat actual i el risc futur d’invasió
+    de Catalunya
+found_by:
+- link-from:creaf
+added_by: agent
+checked: '2026-10-31'

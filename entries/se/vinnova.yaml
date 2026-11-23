@@ -1,0 +1,53 @@
+id: vinnova
+kind: organisation
+name: Vinnova
+scope: se
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+hq: se
+scale: national
+status: active
+website: https://www.vinnova.se/en/
+summary: Swedish innovation agency that granted SEK 3,462,381 to Ocean Data Factory Sweden,
+  and funds Deep Forestry, with SEK 500,000 listed for a Deep Forestry AB drone project.
+facts:
+- claim: Granted SEK 3,462,381 to Ocean Data Factory Sweden.
+  url: https://vinnova.se/en/p/ocean-data-factory-sweden
+  fetched: '2026-11-02'
+  quote: SEK 3 462 381
+- claim: PandionAI names it the Swedish Innovation Agency among its funders.
+  url: https://www.pandionai.com/about-us
+  fetched: 2026-11-02
+  quote: the Swedish Innovation Agency (Vinnova)
+- claim: Its project database shows SEK 500,000 for a drone project coordinated by Deep Forestry
+    AB.
+  url: https://www.vinnova.se/en/p/forestry-uav/
+  fetched: 2026-11-02
+  quote: Coordinator Deep Forestry AB Funding from Vinnova SEK 500 000
+- claim: Vinnova lists a SEK 1,000,000 grant for eDNA monitoring validation, coordinated by
+    GenomeVault AB, for November 2026 to April 2028.
+  url: https://www.vinnova.se/p/validering-av-hogkapacitetsovervakning-av-biologisk-mangfald-med-edna-med-hjalp-av-scilifelabs-national-genomics-infrastructure-ngi/
+  fetched: '2026-11-02'
+  quote: Bidrag från Vinnova 1 000 000 kronor
+- claim: SUBSIM names VINNOVA as Sweden's innovation agency and funder of Ocean Data Factory.
+  url: https://subsim.se/
+  fetched: '2026-11-02'
+  quote: Ocean Data Factory (grant no. 2019-02256) from Sweden's innovation agency (VINNOVA)
+found_by:
+- checklist:6
+- link-from:deep-forestry
+added_by: agent
+checked: '2026-11-02'
+also_known_as:
+- Swedish Innovation Agency
+links:
+- type: funds
+  to: deep-forestry
+  url: https://www.vinnova.se/en/p/forestry-uav/
+  fetched: 2026-11-02
+  quote: Coordinator Deep Forestry AB Funding from Vinnova SEK 500 000
+  amount: 500000
+  currency: SEK
+  year: 2018

@@ -1,0 +1,35 @@
+id: tmat-gambut
+kind: dataset
+name: TMAT Gambut
+also_known_as:
+- Tinggi Muka Air Tanah di Lahan Gambut
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- id
+status: active
+website: https://tmat-klh.inarth.or.id/
+summary: Monitoring and reporting system for the water table in peatland, by province, from
+  the peat ecosystem directorate of the environment ministry.
+facts:
+- claim: A monitoring and reporting system for the peatland water table.
+  url: https://tmat-klh.inarth.or.id/
+  quote: Sistem Pemantauan dan Pelaporan
+  fetched: '2026-10-31'
+- claim: Carries the name of the ministry's peat ecosystem directorate.
+  url: https://tmat-klh.inarth.or.id/
+  quote: Direktorat Perlindungan dan Pengelolaan Ekosistem Gambut
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: kementerian-lingkungan-hidup
+  url: https://tmat-klh.inarth.or.id/
+  quote: Kementerian Lingkungan Hidup / Badan Pengendalian Lingkungan Hidup
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

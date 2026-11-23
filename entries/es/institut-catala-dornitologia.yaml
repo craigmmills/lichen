@@ -1,0 +1,71 @@
+id: institut-catala-dornitologia
+kind: organisation
+name: Institut Català d'Ornitologia
+scope: es
+also_known_as:
+- ICO
+- Catalan Institute for Ornithology
+- Catalan Ornithological Institute
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: es
+scale: national
+status: active
+website: http://www.ornitologia.org
+summary: Catalan bird science NGO whose main activity is monitoring bird populations. It runs
+  the Ornitho.cat portal and the SOCC common bird scheme.
+facts:
+- claim: Monitoring bird populations is its main activity.
+  url: http://www.ornitologia.org/ca/quefem/monitoratge/index.html
+  fetched: '2026-10-31'
+  quote: El monitoratge de les poblacions d’ocells és l’activitat principal que desenvolupa
+    l’Institut Català d’Ornitologia
+- claim: Based at Nat, Museu de Ciències Naturals de Barcelona, Pl. Leonardo da Vinci 4-5.
+  url: http://www.ornitologia.org
+  fetched: '2026-10-31'
+  quote: Pl. Leonardo da Vinci, 4-5
+- claim: SOCC is promoted by the institute and the Generalitat's environment department to
+    determine bird trends.
+  url: https://monitoratge.ornitologia.org/monitoratge/
+  fetched: '2026-10-31'
+  quote: El programa de Seguiment d’Ocells Comuns a Catalunya (SOCC) és un projecte impulsat
+    des de l’Institut Català d’Ornitologia
+- claim: Describes itself in the GBIF registry as an NGO focused on bird research and monitoring
+    in Catalonia.
+  url: https://api.gbif.org/v1/organization/ada19a05-4216-44c7-aa4f-6e7177bcb0ac
+  fetched: '2026-10-31'
+  quote: is an NGO focused on research and monitoring of birds in Catalonia
+- claim: Says bird monitoring is its main activity.
+  url: https://ornitologia.org/ca/quefem/monitoratge/index.html
+  fetched: '2026-10-31'
+  quote: El monitoratge de les poblacions d’ocells és l’activitat principal que desenvolupa
+    l’Institut Català d’Ornitologia
+links:
+- type: runs
+  to: seguiment-docells-comuns-a-catalunya
+  url: https://monitoratge.ornitologia.org/monitoratge/
+  fetched: '2026-10-31'
+  quote: El programa de Seguiment d’Ocells Comuns a Catalunya (SOCC) és un projecte impulsat
+    des de l’Institut Català d’Ornitologia
+- type: runs
+  to: ornitho-cat
+  url: https://api.gbif.org/v1/organization/ada19a05-4216-44c7-aa4f-6e7177bcb0ac
+  fetched: '2026-10-31'
+  quote: the maintenance and promotion of the use of the portal www.ornitho.cat
+- type: runs
+  to: seguiment-docells-comuns-a-catalunya
+  url: https://socc.cat/socc/
+  fetched: '2026-10-31'
+  quote: és un projecte impulsat des de l’Institut Català d’Ornitologia i el Departament de
+    Territori, Habitatge i Transició Ecològica de la Generalitat de Catalunya
+found_by:
+- link-from:eurobirdportal
+- checklist:4
+- rule:ngo-broad
+- register:es
+added_by: agent
+checked: '2026-10-31'

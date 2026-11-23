@@ -1,0 +1,38 @@
+id: birdnet
+kind: model
+name: BirdNET
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://birdnet.cornell.edu
+summary: Open-source deep learning model and tools that recognise over 11,000 bird and other species by sound, built by Cornell and Chemnitz University of Technology.
+facts:
+- claim: Recognises over 11,000 species.
+  url: https://birdnet.cornell.edu/
+  fetched: '2026-10-30'
+  quote: BirdNET uses deep learning to recognize over 11,000 species globally.
+- claim: "BirdNET uses a convolutional neural network to detect species-specific patterns."
+  url: https://birdnet.cornell.edu
+  fetched: '2026-10-30'
+  quote: "A Convolutional Neural Network (CNN) scans these visuals, utilizing millions of trained weights to detect species-specific patterns."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: cornell-lab-of-ornithology
+  url: https://birdnet.cornell.edu/about/
+  fetched: '2026-10-30'
+  quote: "BirdNET is a joint effort between: Cornell K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology"
+- type: run-by
+  to: chemnitz-university-of-technology
+  url: https://birdnet.cornell.edu/about/
+  fetched: '2026-10-30'
+  quote: "BirdNET is a joint effort between: Cornell K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology Chair of Media Informatics, Chemnitz University of Technology"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

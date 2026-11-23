@@ -1,0 +1,36 @@
+id: drawerdissect
+kind: model
+name: DrawerDissect
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- large-language-models
+status: active
+summary: Software that turns a single image of an insect drawer into individual specimen images
+  with structured metadata, using computer vision and large language models.
+facts:
+- claim: 'Roboflow case study: what it does.'
+  url: https://roboflow.com/case-studies/field-museum
+  fetched: '2026-10-30'
+  quote: The software takes a single image of a drawer and transforms it into individual specimen
+    images
+- claim: 'Roboflow case study: method.'
+  url: https://roboflow.com/case-studies/field-museum
+  fetched: '2026-10-30'
+  quote: This solution uses a combination of computer vision and large language models
+  ai_type: large-language-models
+links:
+- type: run-by
+  to: field-museum
+  url: https://roboflow.com/case-studies/field-museum
+  fetched: '2026-10-30'
+  quote: This prompted the Field Museum team, along with researchers from several other institutions,
+    to develop custom software called DrawerDissect.
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

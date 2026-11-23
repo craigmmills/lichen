@@ -1,0 +1,81 @@
+id: observatoire-hommes-milieux-international-tessekere
+kind: organisation
+name: Observatoire Hommes-Milieux International Téssékéré
+also_known_as:
+- OHMi Téssékéré
+- OHMI Tessékéré
+- OHMi Téssékré
+scope: sn
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+- remote-sensing
+- bioacoustics
+hq: sn
+countries:
+- sn
+scale: local
+status: active
+funding_at_risk: false
+website: https://ohmi-tessekere.in2p3.fr/
+summary: CNRS human-environment observatory in the Ferlo, northern Senegal, studying the Great
+  Green Wall zone. It publishes bird and large mammal data on GBIF.
+facts:
+- claim: Its territory of study is the Ferlo in northern Senegal.
+  url: https://ohmi-tessekere.in2p3.fr/
+  fetched: '2026-10-31'
+  quote: Dans le Ferlo, au nord du Sénégal
+- claim: A CNRS device for interdisciplinary research.
+  url: https://ohmi-tessekere.in2p3.fr/
+  fetched: '2026-10-31'
+  quote: dispositif de l’Institut Écologie et Environnement du CNRS
+- claim: Publishes trapping data for large mammals in the Ferlo on GBIF.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=SN&limit=40
+  fetched: '2026-10-31'
+  quote: Large wild mammals in Ferlo (North of Senegal)_Trapping data
+- claim: Created jointly by CNRS and UCAD in 2009.
+  url: https://api.gbif.org/v1/organization/e09d908a-6bde-419b-8f21-4bc03f46f3c6
+  fetched: '2026-10-31'
+  quote: was created jointly by the Centre National de la Recherche Scientifique (CNRS, France)
+    and the Université Cheikh Anta Diop (UCAD, Senegal) in 2009
+- claim: Published camera-trap data on large wild mammals in the Great Green Wall area, under
+    CC BY.
+  url: https://api.gbif.org/v1/dataset/47c9bb35-9efc-4b6f-aff5-9a40019df487
+  fetched: '2026-10-31'
+  quote: These data are collected using camera trapping in the extension area of the Great
+    Green Wall in Ferlo (North, Senegal)
+- claim: A Senegalese team linked to UCAD and the observatory tested counting trees with a
+    drone and an algorithm.
+  url: https://actugeomatique.com/articles/compter-les-arbres-du-sahel-depuis-le-ciel-ce-que-revele-une-etude-par-drone-dans-le-ferlo-senegalais/
+  fetched: '2026-10-31'
+  quote: rattachée notamment à l'Université Cheikh Anta Diop de Dakar et à l'Observatoire
+    Homme-Milieux international de Tessékéré
+- claim: The local maxima algorithm reached an F score of 0.93 against field-recorded trees.
+  url: https://actugeomatique.com/articles/compter-les-arbres-du-sahel-depuis-le-ciel-ce-que-revele-une-etude-par-drone-dans-le-ferlo-senegalais/
+  fetched: '2026-10-31'
+  quote: l'algorithme obtient un rappel de 0,97, une précision de 0,90 et un score F de 0,93
+links:
+- type: run-by
+  to: centre-national-de-la-recherche-scientifique
+  url: https://ohmi-tessekere.in2p3.fr/
+  fetched: '2026-10-31'
+  quote: Le concept d’Observatoire Hommes-Milieux désigne un dispositif de l’Institut Écologie
+    et Environnement du CNRS
+- type: partners-with
+  to: universite-cheikh-anta-diop
+  url: https://api.gbif.org/v1/organization/e09d908a-6bde-419b-8f21-4bc03f46f3c6
+  fetched: '2026-10-31'
+  quote: was created jointly by the Centre National de la Recherche Scientifique (CNRS, France)
+    and the Université Cheikh Anta Diop (UCAD, Senegal) in 2009
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

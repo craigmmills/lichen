@@ -1,0 +1,48 @@
+id: laboratorio-de-silvicultura-tropical
+kind: organisation
+name: Laboratório de Silvicultura Tropical
+also_known_as:
+- LASTROP
+scope: br
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+hq: br
+scale: local
+status: active
+summary: Forest restoration laboratory at Esalq, University of São Paulo, whose projects use
+  drones, remote sensing and deep learning to monitor restored forests.
+facts:
+- claim: FAPESP lists a project on restoration plantings with drones and deep learning under
+    its coordinator.
+  url: https://bv.fapesp.br/pt/pesquisador/72339/pedro-henrique-santin-brancalion
+  fetched: '2026-10-31'
+  quote: Monitoramento de plantios jovens de restauração florestal a partir de imagens aéreas
+    baseadas em drones e aprendizado profundo
+  ai_type: deep-learning
+- claim: FAPESP lists a project classifying successional stages with remote sensing and deep
+    learning.
+  url: https://bv.fapesp.br/pt/pesquisador/72339/pedro-henrique-santin-brancalion
+  fetched: '2026-10-31'
+  quote: aplicação de sensoriamento remoto e deep learning para se classificar estágios sucessionais
+- claim: Its coordinator is an author of a 2026 paper on AI in forest restoration.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7162138065|W7211906009|W7128712722&select=id,title,publication_year,authorships&per_page=10
+  fetched: '2026-10-31'
+  quote: Human, natural, and artificial intelligence in forest restoration
+- claim: Esalq, the University of São Paulo college that hosts the laboratory, gives its address
+    in Piracicaba.
+  url: https://www.esalq.usp.br/
+  quote: Av. Pádua Dias, 11 - Cx. Postal 9 - Piracicaba - SP
+  fetched: '2026-10-31'
+found_by:
+- checklist:research
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,33 @@
+id: hrlulc-japan-detailed-vegetation
+kind: dataset
+name: HRLULC-Japan 2024 with Detailed Vegetation
+scope: jp
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+runner: unknown
+website: https://pen.envr.tsukuba.ac.jp/~utlulc/archive/Japan/2024JPN_v26.03_vegetation.html
+summary: A land use and land cover dataset reflecting Japan in 2024, apart from some outlying islands,
+  released in March 2026.
+facts:
+- claim: Reflects Japan in 2024, apart from some outlying islands.
+  url: https://pen.envr.tsukuba.ac.jp/~utlulc/archive/Japan/2024JPN_v26.03_vegetation.html
+  fetched: '2026-11-02'
+  quote: 本プロダクトは2024年の日本全域（Sentinel-2衛星での観測頻度が不十分な一部の離島を除く）の状況を反映した
+- claim: Released in March 2026.
+  url: https://pen.envr.tsukuba.ac.jp/~utlulc/archive/Japan/2024JPN_v26.03_vegetation.html
+  fetched: '2026-11-02'
+  quote: (Released in March 2026 / 2024JPN_v26.03_vegetation)
+links:
+- type: built-by
+  to: university-of-tsukuba
+  url: https://pen.envr.tsukuba.ac.jp/~utlulc/archive/Japan/2024JPN_v26.03_vegetation.html
+  fetched: '2026-11-02'
+  quote: JAXA EORCおよびRESTECのご協力を頂きながら, 筑波大学として作成したものです。
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

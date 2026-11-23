@@ -1,0 +1,38 @@
+id: njala-university
+kind: organisation
+name: Njala University
+scope: sl
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sl
+countries:
+- sl
+scale: national
+status: active
+summary: University whose Institute of Geography and Development Studies is affiliated with the first
+  author of a 2026 Landsat forest cover study, and whose staff joined CSSL-coordinated waterbird census
+  training on Tasso Island.
+facts:
+- claim: Its Institute of Geography and Development Studies is an affiliation of the first author of a
+    2026 Landsat study of forest cover change.
+  url: https://api.openalex.org/works/W7224583079?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: Quantifying Forest Cover Change at District and Forest Reserve Levels in Southern and Eastern
+    Sierra Leone Using Landsat Data
+- claim: Its staff took part in waterbird census and monitoring training coordinated by CSSL on Tasso
+    Island; the report dates the training to January 2020, while its annexes give 15 to 19 December 2019.
+  url: https://flyway.waddensea-worldheritage.org/sites/default/files/2022-07/Final%20report%20for%20Tasso%20training.pdf
+  fetched: 2026-11-12
+  quote: Protected Area Authority (NPAA), CSSL, Fourah Bay College -USL, Njala University, students and
+links: []
+found_by:
+- checklist:3
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

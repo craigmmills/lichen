@@ -1,0 +1,52 @@
+id: central-botanical-garden-nas-belarus
+kind: organisation
+name: Central Botanical Garden of the National Academy of Sciences of Belarus
+also_known_as:
+- Central Botanical garden of NAS Belarus
+- Центральный ботанический сад НАН Беларуси
+scope: by
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: by
+countries:
+- by
+scale: national
+status: active
+website: http://www.cbg.org.by/
+summary: Minsk institute researching plant resources that publishes GBIF datasets on bat mist-netting,
+  acoustic monitoring and winter hibernation surveys, with the latter covering 2018 to 2024.
+facts:
+- claim: GBIF lists it as a scientific institute in Minsk researching the rational use of plant resources.
+  url: https://api.gbif.org/v1/organization/612b5aef-8c57-4704-ba08-ccec96c86a75
+  fetched: 2026-11-09
+  quote: Scientific institute directed on research of rational use of plant resources
+- claim: Its site names it the Central Botanical Garden of the National Academy of Sciences of Belarus.
+  url: http://www.cbg.org.by/
+  fetched: 2026-11-09
+  quote: Центральный ботанический сад Национальной академии наук Беларуси
+- claim: Publishes a GBIF dataset of bat mist-netting surveys conducted across Belarus, described as baseline
+    information for monitoring bat populations.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=612b5aef-8c57-4704-ba08-ccec96c86a75&limit=20&facet=type
+  fetched: 2026-11-09
+  quote: captured during mist-netting surveys conducted across Belarus
+- claim: Publishes a GBIF dataset of bat echolocation calls from an acoustic monitoring survey across
+    several protected areas, recorded with BATLOGGER M and Batcorder detectors.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=612b5aef-8c57-4704-ba08-ccec96c86a75&limit=20&facet=type
+  fetched: 2026-11-09
+  quote: Bat echolocation calls were recorded using BATLOGGER M and Batcorder ecoObs.
+- claim: Publishes a GBIF dataset of bat winter hibernation surveys from 2018 to 2024 across all regions
+    of Belarus.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=612b5aef-8c57-4704-ba08-ccec96c86a75&limit=20&facet=type
+  fetched: 2026-11-09
+  quote: across all regions of Belarus
+links: []
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-09

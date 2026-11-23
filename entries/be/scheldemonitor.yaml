@@ -1,0 +1,44 @@
+id: scheldemonitor
+kind: dataset
+name: ScheldeMonitor
+scope: be
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+countries:
+- be
+- nl
+status: active
+summary: Portal for estuarine research results in the Scheldt, active for two decades, with MONEOS as
+  its largest raw data provider and run and built by the Flanders Marine Institute.
+facts:
+- claim: Portal for estuarine research results in the Scheldt, for two decades.
+  url: https://www.vliz.be/en/scheldemonitor-two-decades-insights-scheldt
+  fetched: '2026-11-02'
+  quote: The ScheldeMonitor data and information portal has served as a hub for results and information
+    from estuarine research in the Scheldt estuary for two decades.
+- claim: The MONEOS monitoring network is its largest provider of raw data.
+  url: https://www.vliz.be/en/scheldemonitor-two-decades-insights-scheldt
+  fetched: '2026-11-02'
+  quote: This network, comprising various policy and research institutions from Flanders and the Netherlands,
+    is the largest provider of raw data for ScheldeMonitor.
+- claim: The Flemish-Dutch Scheldt Commission oversees the portal as contracting authority.
+  url: https://www.vliz.be/en/scheldemonitor-two-decades-insights-scheldt
+  fetched: '2026-11-02'
+  quote: continues to oversee the operation of the portal as the contracting authority
+links:
+- type: run-by
+  to: flanders-marine-institute
+  url: https://www.vliz.be/en/scheldemonitor-two-decades-insights-scheldt
+  fetched: '2026-11-02'
+  quote: Managed and developed by VLIZ
+- type: built-by
+  to: flanders-marine-institute
+  url: https://www.vliz.be/en/scheldemonitor-two-decades-insights-scheldt
+  fetched: '2026-11-02'
+  quote: Managed and developed by VLIZ
+found_by:
+- link-from:flanders-marine-institute
+added_by: agent
+checked: '2026-11-02'

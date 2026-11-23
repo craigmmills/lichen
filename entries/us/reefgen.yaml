@@ -1,0 +1,51 @@
+id: reefgen
+kind: organisation
+name: ReefGen
+also_known_as:
+- REEFGEN INC.
+scope: us
+sector: company
+roles:
+- uses-ai
+- builds-ai
+ai_label: conservation-tech
+realms:
+- ocean
+hq: us
+scale: national
+status: unknown
+summary: San Francisco company funded by NSF SBIR to develop robotic coral reef restoration.
+facts:
+- claim: SBIR Phase II for robotic coral reef restoration.
+  url: https://api.nsf.gov/services/v1/awards/2111718.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II:  Robotic Coral Reef Restoration'
+- claim: GeekWire describes it as a San Francisco company building robots to reverse marine
+    ecosystem degradation.
+  url: https://www.geekwire.com/2024/meet-grasshopper-a-startups-underwater-robot-helping-restore-critical-eelgrass-meadows/
+  quote: The San Francisco company is partnering with the Washington State Department of Natural
+    Resources (DNR) to field test its new device.
+  fetched: '2026-10-30'
+- claim: The NSF award record gives its address as 1500 Michigan St, San Francisco.
+  url: https://api.nsf.gov/services/v1/awards/2111718.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"1500 MICHIGAN ST"'
+- claim: The Invading Sea says it is headquartered in the San Francisco Bay area.
+  url: https://www.theinvadingsea.com/2025/12/02/reefgen-marine-robots-seagrass-restoration-coral-reefs-mangroves-ocean-exchange-florida/
+  fetched: '2026-10-31'
+  quote: Reefgen is headquartered in the San Francisco Bay area with an indoor lab and boat
+    access
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2111718.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II:  Robotic Coral Reef Restoration'
+  amount: 1655316
+  year: 2021
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'
+website: https://www.reefgen.io/

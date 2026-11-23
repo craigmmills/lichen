@@ -1,0 +1,86 @@
+id: national-park-service
+kind: organisation
+name: National Park Service
+also_known_as:
+- NPS
+scope: us
+sector: government
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+- computer-vision
+hq: us
+scale: national
+status: active
+website: https://www.nps.gov
+summary: US federal protected-area agency. Its Natural Sounds and Night Skies Division uses
+  BirdNET to study bird sound in parks and its Inventory and Monitoring Division runs long-term
+  ecological monitoring.
+facts:
+- claim: NPS staff use BirdNET to assess change in the bird soundscape at Glacier Bay.
+  url: https://www.nps.gov/articles/000/eavesdropping-on-birds-has-a-smart-new-tool.htm
+  fetched: '2026-10-30'
+  quote: We’ve been using BirdNET to assess how the avian soundscape is changing over time
+    in a long-running acoustic monitoring project at Glacier Bay National Park and Preserve.
+- claim: Exploring BirdNET's potential for parks.
+  url: https://www.nps.gov/articles/000/eavesdropping-on-birds-has-a-smart-new-tool.htm
+  fetched: '2026-10-30'
+  quote: BirdNET uses artificial intelligence to analyze audio recordings and detect bird
+    species by sound.
+- claim: Natural Sounds and Night Skies Division.
+  url: https://www.nps.gov/articles/000/eavesdropping-on-birds-has-a-smart-new-tool.htm
+  fetched: '2026-10-30'
+  quote: a biologist in the National Park Service’s Natural Sounds and Night Skies Division
+- claim: NPS publishes camera monitoring datasets with species detections exported from TrapTagger.
+  url: https://catalog.data.gov/dataset/roosevelt-vanderbilt-nhs-rova-camera-monitoring-data-set-20260114-to-20260311
+  quote: the images file contains species detections and numbers that is exported from the
+    TrapTagger web site
+  fetched: '2026-10-30'
+- claim: Its Sonoran Desert Network says it is working with the Tohono O'odham Nation to help
+    train the Nation's AI models.
+  url: https://www.nps.gov/articles/000/sodn_heliograph_2025_1.htm
+  quote: We are also working with the Tohono O’odham Nation to help train their AI models
+    to identify animals
+  fetched: '2026-10-30'
+links:
+- type: builds-on
+  to: birdnet
+  url: https://www.nps.gov/articles/000/eavesdropping-on-birds-has-a-smart-new-tool.htm
+  fetched: '2026-10-30'
+  quote: We’ve been using BirdNET to assess how the avian soundscape is changing
+- type: runs
+  to: nps-inventory-and-monitoring-division
+  url: https://www.nps.gov/im/index.htm
+  fetched: '2026-10-30'
+  quote: Inventory and Monitoring Division (U.S. National Park Service)
+- type: runs
+  to: nps-natural-sounds-and-night-skies-division
+  url: https://www.nps.gov/articles/000/eavesdropping-on-birds-has-a-smart-new-tool.htm
+  fetched: '2026-10-30'
+  quote: a biologist in the National Park Service’s Natural Sounds and Night Skies Division
+- type: uses
+  to: birdnet
+  url: https://www.nps.gov/articles/000/eavesdropping-on-birds-has-a-smart-new-tool.htm
+  fetched: '2026-10-30'
+  quote: We’ve been using BirdNET to assess how the avian soundscape is changing
+- type: partners-with
+  to: tohono-oodham-nation
+  url: https://www.nps.gov/articles/000/sodn_heliograph_2025_1.htm
+  quote: We are also working with the Tohono O’odham Nation to help train their AI models
+    to identify animals
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+- link-from:birdnet
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us

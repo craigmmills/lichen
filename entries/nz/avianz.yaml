@@ -1,0 +1,41 @@
+id: avianz
+kind: programme
+name: AviaNZ
+also_known_as: []
+scope: nz
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- nz
+status: active
+summary: Software built and led by Stephen Marsland to analyse recordings and estimate bird
+  abundance, trained by 2019 to detect two native bat types and described as a national collaboration.
+facts:
+- claim: In 2019 Victoria University of Wellington said Stephen Marsland and his team had
+    created AviaNZ, software that analyses sound recordings from the New Zealand bush and
+    estimates the abundance of bird species.
+  url: https://wgtn.ac.nz/news/2019/06/acoustic-bird-monitoring-software-conservation
+  fetched: 2026-11-15
+  quote: they have created computer software called AviaNZ that can analyse sound recordings
+    from the New Zealand bush and deduce the abundance of various types of birds.
+- claim: In 2019 the software could be trained to recognise sounds and had been trained to
+    detect two types of native bats.
+  url: https://wgtn.ac.nz/news/2019/06/acoustic-bird-monitoring-software-conservation
+  fetched: 2026-11-15
+  quote: We’ve already succeeded in training the software to detect two types of native bats
+  ai_type: ml-supervised
+- claim: In April 2026 the University of Auckland described AviaNZ as a national bioacoustics
+    collaboration monitoring ecological systems through sound.
+  url: https://www.auckland.ac.nz/en/news/2026/04/14/acoustic-technology-helps-researchers-hear-kiwi-dark.html
+  fetched: 2026-11-15
+  quote: His research is part of AviaNZ, a national bioacoustics collaboration monitoring
+    ecological systems through sound.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

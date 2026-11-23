@@ -1,0 +1,31 @@
+id: finnish-nature-information-hub
+kind: dataset
+name: Finnish Nature Information Hub
+also_known_as:
+- luontotieto.syke.fi
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://luontotieto.syke.fi
+summary: Website, built by the Finnish Ecosystem Observatory, which Syke says gives an overview of Finland's
+  biodiversity and ecosystem monitoring, alongside other data services.
+facts:
+- claim: Syke says the website offers an overview of Finland's biodiversity and ecosystem monitoring,
+    and other data services.
+  url: https://www.syke.fi/en/projects/finnish-ecosystem-observatory-feo
+  quote: The new website also offers an overview of Finland's biodiversity and ecosystem monitoring
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: finnish-ecosystem-observatory
+  url: https://www.syke.fi/en/projects/finnish-ecosystem-observatory-feo
+  fetched: '2026-11-02'
+  quote: the Finnish Nature Information Hub (luontotieto.syke.fi) was created
+found_by:
+- link-from:finnish-ecosystem-observatory
+added_by: agent
+checked: '2026-11-02'

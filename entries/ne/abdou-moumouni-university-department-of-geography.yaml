@@ -1,0 +1,49 @@
+id: abdou-moumouni-university-department-of-geography
+kind: organisation
+name: Department of Geography, Faculty of Letters and Human Sciences, Abdou Moumouni
+  University
+also_known_as: []
+scope: ne
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ne
+countries:
+- ne
+scale: national
+status: active
+summary: Geography department in the Faculty of Letters and Human Sciences at Abdou
+  Moumouni University, Niamey, whose first author's 2026 Remote Sensing paper maps
+  land cover in an agropastoral area of Niger using Sentinel-2 and Landsat 8 imagery
+  with random forest regression.
+facts:
+- claim: The department is in the Faculty of Letters and Human Sciences of Abdou Moumouni
+    University in Niamey, the first author's affiliation on the 2026 paper.
+  url: https://api.openalex.org/works/W7133128274?select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Department of Geography, Faculty of Letters and Human Sciences, Abdou Moumouni
+    University, Niamey 418, Niger
+- claim: Its 2026 paper in Remote Sensing maps land cover in an agropastoral area
+    of Niger from Sentinel-2 and Landsat 8 imagery within a random forest regression
+    framework.
+  url: https://api.openalex.org/works/W7133128274?select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Using Sentinel-2 and Landsat 8 Imagery Within a Random Forest Regression
+    Framework
+- claim: The paper uses random forest regression.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works/W7133128274?select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Within a Random Forest Regression Framework
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

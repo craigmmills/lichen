@@ -1,0 +1,24 @@
+id: peace-parks-tfca-gis-database
+kind: dataset
+name: Peace Parks TFCA GIS Database
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: GIS database of protected area and transfrontier conservation area boundaries in southern Africa, maintained by Peace Parks Foundation and listed on the TFCA Portal.
+facts:
+- claim: The TFCA Portal lists it as a database of protected area and TFCA boundaries.
+  url: https://tfcaportal.org/repository/tfca-gis-shape-files
+  quote: This is a link to PPF maintained GIS data base of Protected area and TFCA boundaries.
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: peace-parks-foundation
+  url: https://tfcaportal.org/repository/tfca-gis-shape-files
+  quote: "This is a link to PPF maintained GIS data base of Protected area and TFCA boundaries. Vision Peace Parks Foundation"
+  fetched: '2026-10-30'
+found_by:
+- link-from:peace-parks-foundation
+added_by: agent
+checked: '2026-10-30'

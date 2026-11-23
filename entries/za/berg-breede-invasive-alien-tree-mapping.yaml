@@ -1,0 +1,43 @@
+id: berg-breede-invasive-alien-tree-mapping
+kind: project
+name: Berg-Breede invasive alien tree mapping
+scope: za
+ai_label: ai
+status: unknown
+runner: unknown
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+summary: Mapping of invasive alien trees in the upper Berg and Breede catchments, part of the SEBEI project, classifying Sentinel 2a imagery with a reported 93% accuracy and a first draft map in 2019.
+facts:
+- claim: In 2019, the authors classified Sentinel 2a imagery using Google Earth Engine, expert knowledge
+    and drone technology.
+  url: https://acdi.uct.ac.za/node/170360
+  fetched: '2026-10-31'
+  quote: combined Google Earth Engine’s processing power, expert knowledge and drone technology to classify
+    Sentinel 2a imagery
+- claim: In October 2019, the African Climate and Development Initiative reported 93% classification accuracy
+    on both training and validation datasets.
+  url: https://acdi.uct.ac.za/node/170360
+  fetched: '2026-10-31'
+  quote: which resulted in a 93% accuracy with both the training and validation datasets
+- claim: The October 2019 report says the work forms part of the larger SEBEI project.
+  url: https://acdi.uct.ac.za/node/170360
+  fetched: '2026-10-31'
+  quote: This work forms part of the larger SEBEI project
+- claim: The October 2019 report says a first draft of the map was launched in September 2019.
+  url: https://acdi.uct.ac.za/node/170360
+  fetched: '2026-10-31'
+  quote: launched a first draft of this alien tree map in September 2019
+links:
+- type: funded-by
+  to: danish-international-development-agency
+  url: https://acdi.uct.ac.za/node/170360
+  fetched: '2026-10-31'
+  quote: This project is fully funded by the Danish International Development Agency.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

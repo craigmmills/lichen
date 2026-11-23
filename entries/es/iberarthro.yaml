@@ -1,0 +1,28 @@
+id: iberarthro
+kind: dataset
+name: IberArthro
+scope: es
+runner: unknown
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+website: https://www.digitartro.es/
+summary: Database of the distribution of Ibero-Balearic arthropods in ten taxonomic
+  groups, with 1,006,768 records on a 10 km grid.
+facts:
+- claim: Contains 1,006,768 records across 10 taxonomic groups.
+  url: https://api.gbif.org/v1/organization/74249eb0-0df2-48dd-96a6-be8770eb175b/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: The database contains 1,006,768 records with associated geographic data
+- claim: Published on GBIF by the University of Murcia's Department of Ecology and
+    Hydrology.
+  url: https://api.gbif.org/v1/organization/74249eb0-0df2-48dd-96a6-be8770eb175b/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: 'IberArthro: A database compiling taxonomic and distributional data on Ibero-Balearic
+    arthropods'
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'

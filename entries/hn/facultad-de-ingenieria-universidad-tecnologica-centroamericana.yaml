@@ -1,0 +1,37 @@
+id: facultad-de-ingenieria-universidad-tecnologica-centroamericana
+kind: organisation
+name: Facultad de Ingeniería, Universidad Tecnológica Centroamericana
+scope: hn
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- hn
+scale: local
+status: active
+summary: A San Pedro Sula engineering faculty named, according to OpenAlex, as the affiliation of all
+  three authors of a 2022 IEEE paper on coral detection with neural networks at Cayo Blanco.
+facts:
+- claim: All three authors of a 2022 IEEE conference paper on coral detection with artificial neural networks
+    for reef protection in Cayo Blanco, Honduras, give this faculty as their affiliation, according to
+    OpenAlex.
+  url: https://api.openalex.org/works?filter=openalex_id:W4313452749|W4399635690&select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-09
+  quote: Coral Detection using Artificial Neural Networks based on Blurry Images for Reef Protection in
+    Cayo Blanco, Honduras
+- claim: The affiliation recorded for the paper’s first author is the Faculty of Engineering of Universidad
+    Tecnológica Centroamericana, San Pedro Sula.
+  url: https://api.openalex.org/works?filter=openalex_id:W4313452749|W4399635690&select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-09
+  quote: Faculty of engineering,San Pedro Sula,Honduras
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

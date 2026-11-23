@@ -1,0 +1,60 @@
+id: american-bird-conservancy
+kind: organisation
+name: American Bird Conservancy
+scope: global
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: us
+scale: regional
+status: active
+website: https://abcbirds.org
+summary: Bird conservation organisation working across the Americas. Its BirdsPlus Index uses
+  recorders and AI to identify bird calls and track biodiversity. A co-leader of Conserva
+  Aves.
+countries:
+- cr
+facts:
+- claim: Its BirdsPlus Index uses recorders with AI.
+  url: https://abcbirds.org/what-we-do/programs/birdsplus/
+  quote: using recorders paired with artificial intelligence (AI) to identify species-specific
+    vocalizations
+  fetched: '2026-10-31'
+- claim: Gives an address in The Plains, Virginia.
+  url: https://abcbirds.org/contact/
+  quote: The Plains, VA 20198
+  fetched: '2026-10-31'
+- claim: Named as a member of the Key Biodiversity Areas Partnership.
+  url: https://www.keybiodiversityareas.org/en/about-kbas/kba-programme/kba-partnership
+  quote: American Bird Conservancy
+  fetched: '2026-10-30'
+- claim: Describes pairing autonomous acoustic recording units with AI to identify bird vocalisations
+    for the BirdsPlus Index.
+  url: https://abcbirds.org/news/birdsplus-index/
+  quote: autonomous acoustic recording units paired with artificial intelligence (AI) can
+    be used to identify these species-specific vocalizations
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: key-biodiversity-areas-partnership
+  url: https://www.keybiodiversityareas.org/en/about-kbas/kba-programme/kba-partnership
+  quote: American Bird Conservancy
+  fetched: '2026-10-30'
+- type: runs
+  to: birdsplus-index
+  url: https://abcbirds.org/news/birdsplus-index/
+  quote: 'BirdsPlus Index: A Simple and Innovative Tool for Measuring Biodiversity on Working
+    Lands - American Bird Conservancy'
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+- checklist:4
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- bioacoustics
+also_known_as:
+- ABC

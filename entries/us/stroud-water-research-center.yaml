@@ -1,0 +1,44 @@
+id: stroud-water-research-center
+kind: organisation
+name: Stroud Water Research Center
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: us
+countries:
+- us
+scale: national
+summary: Freshwater research nonprofit behind WikiWatershed and the Monitor My Watershed data
+  portal, which hosts EnviroDIY sensor data.
+facts:
+- claim: Developed the WikiWatershed toolkit.
+  url: https://www.plt.org/ee-resource/wikiwatershed/
+  quote: Developed by the Stroud Water Research Center, the toolkit enables users to share
+    watershed-model scenarios, watershed-monitoring data
+  fetched: '2026-10-31'
+- claim: Gives its address in Avondale, Pennsylvania.
+  url: https://stroudcenter.org
+  fetched: '2026-10-31'
+  quote: 970 Spencer Road, Avondale, Pennsylvania, 19311, USA
+- claim: The IRS exempt organisation record, through ProPublica, lists Stroud Water Research
+    Center in Avondale, Pennsylvania.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/522081073.json
+  fetched: '2026-10-31'
+  quote: '"city":"Avondale","state":"PA"'
+links:
+- type: runs
+  to: monitor-my-watershed
+  url: https://www.cuahsi.org/community/water-data-portals/monitor-my-watershed
+  quote: Monitor My Watershed is part of Stroud Water Research Center
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false
+website: https://stroudcenter.org

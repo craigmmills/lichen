@@ -1,0 +1,32 @@
+id: alertsat
+kind: programme
+scope: se
+name: AlertSat
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: An active programme built by PandionAI, which says it can detect changes anywhere on Earth, with
+  a forestry service covering forests, green spaces and managed landscapes.
+facts:
+- claim: PandionAI says it can detect changes anywhere on Earth.
+  url: https://www.pandionai.com/about-us
+  fetched: 2026-11-02
+  quote: AlertSat, an extraordinary tool that can detect changes anywhere on Earth
+- claim: Its forestry service covers forests, green spaces and managed landscapes.
+  url: https://www.pandionai.com/services/forestry-management
+  fetched: 2026-11-02
+  quote: Consistent, up-to-date visibility across forestry assets, green spaces and managed landscapes
+links:
+- type: built-by
+  to: pandionai
+  url: https://www.pandionai.com/about-us
+  fetched: 2026-11-02
+  quote: 'They devised a space-based solution to a growing problem: large, sprawling networks were becoming
+    too difficult and expensive to monitor.'
+found_by:
+- link-from:pandionai
+added_by: agent
+checked: 2026-11-02

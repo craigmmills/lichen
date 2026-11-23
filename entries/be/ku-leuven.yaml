@@ -1,0 +1,79 @@
+id: ku-leuven
+kind: organisation
+name: KU Leuven
+also_known_as:
+- Katholieke Universiteit Leuven
+scope: be
+sector: academic
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: be
+countries:
+- be
+scale: national
+status: active
+summary: University partner in GEO.INFORMED, TRANSPONDER, SEPPI and SSPIRIT, with a Belgian
+  TRANSPONDER contact and a project aiming to develop AI methods for extracting tree density,
+  biomass and biodiversity from imagery.
+facts:
+- claim: Named first among the GEO.INFORMED partners.
+  url: https://zenodo.org/records/18837577
+  fetched: 2026-11-02
+  quote: The GEO.INFORMED project (a collaboration between KU Leuven, Digitaal Vlaanderen,
+    INBO, and VITO)
+- claim: Biodiversa+ lists its Department of Biology on TRANSPONDER.
+  url: https://www.biodiversa.eu/2024/04/15/transponder/
+  fetched: '2026-11-02'
+  quote: Department of Biology, KU Leuven, Leuven, Belgium
+- claim: The Belgian Science Policy Office names Luc De Meester of KU Leuven as the Belgian
+    contribution to TRANSPONDER.
+  url: https://belspo.be/Belspo/brain2-be/projects/TRANSPONDER_E.pdf
+  fetched: '2026-11-02'
+  quote: Katholieke Universiteit Leuven (KU Leuven)
+- claim: EarthMapps sits at its Department of Earth & Environmental Science.
+  url: https://earthmapps.io/
+  fetched: '2026-11-02'
+  quote: at the Department of Earth & Environmental Science of KU Leuven
+- claim: The Leuven.AI page on Ben Somers says deep learning models are applied mainly to
+    forest characterisation, land cover classification and agriculture.
+  url: https://ai.kuleuven.be/members/00050928
+  fetched: &id001 2026-11-02
+  quote: Deep learning models are applied mainly for forest characterization, land cover classification
+    and agricultural applications (e.g. oil palm mapping).
+- claim: A project in its research portal aims to develop AI methods for extracting tree density,
+    biomass and biodiversity from drone and satellite imagery.
+  url: https://research.kuleuven.be/portal/en/project/3E250684
+  fetched: *id001
+  quote: This project aims to develop AI-based approaches that can extract key indicators
+    such as tree density, biomass, and biodiversity from high-resolution drone and satellite
+    imagery.
+links:
+- type: partners-with
+  to: transponder
+  url: https://www.biodiversa.eu/2024/04/15/transponder/
+  fetched: '2026-11-02'
+  quote: Department of Biology, KU Leuven, Leuven, Belgium
+- type: partners-with
+  to: seppi
+  url: https://www.biodiversa.eu/2024/04/15/seppi/
+  fetched: '2026-11-02'
+  quote: Biology Department, Catholic University of Leuven, Leuven, Belgium
+- type: partners-with
+  to: sspirit
+  url: https://vito.be/en/news/seabed-satellite-vito-leads-research-plastic-pollution-innovative-detection-technologies
+  fetched: '2026-11-02'
+  quote: The project is a collaboration between VITO, VLIZ, KU Leuven, University of Antwerp,
+    Ghent University, Blue Cluster, and Flanders Space
+found_by:
+- checklist:3
+- link-from:transponder
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing

@@ -1,0 +1,52 @@
+id: nezahat-gokyigit-botanic-garden
+kind: organisation
+name: Nezahat Gökyiğit Botanic Garden
+also_known_as:
+- Nezahat Gökyiğit Botanik Bahçesi
+- NGBB
+scope: tr
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: tr
+scale: national
+status: active
+website: https://www.ngbb.org.tr/
+summary: Botanic garden in Ataşehir, Istanbul, whose herbarium holds about 20,000 specimens
+  published through GBIF, and which runs a plant list and lists a threatened plant species
+  platform.
+facts:
+- claim: GBIF's publisher record says its herbarium holds about 20,000 plant specimens and
+    that a virtual herbarium has begun to provide services.
+  url: https://api.gbif.org/v1/organization/55560a2c-28f0-4dd8-8b68-5318c4ed9f62
+  fetched: '2026-11-03'
+  quote: The NGBB Herbarium was established in 2004 and currently holds approximately 20,000
+    plant specimens.
+- claim: Its online services page lists a platform on Türkiye's threatened plant species and
+    their conservation status.
+  url: https://www.bizimbitkiler.org.tr/list.html
+  fetched: '2026-11-03'
+  quote: Türkiye'nin nesli tehdit altında olan bitki türleri ve koruma durumlarına ilişkin
+    bilgi platformu.
+- claim: Its GBIF publisher record gives an address in Ataşehir, Istanbul.
+  url: https://api.gbif.org/v1/organization/55560a2c-28f0-4dd8-8b68-5318c4ed9f62
+  fetched: '2026-11-03'
+  quote: Atatürk Neigborhood, Ataşehir Boulevard, Rıfat Danışman Street, Ataşehir
+- claim: Publishes its herbarium specimens as a dataset through GBIF.
+  url: https://api.gbif.org/v1/organization/55560a2c-28f0-4dd8-8b68-5318c4ed9f62/publishedDataset
+  fetched: '2026-11-03'
+  quote: Nezahat Gökyiğit Botanic Garden (NGBB) Herbarium Specimens
+links:
+- type: runs
+  to: turkiye-bitkileri-listesi
+  url: https://www.bizimbitkiler.org.tr/list.html
+  fetched: '2026-11-03'
+  quote: Nezahat Gökyiğit Botanik Bahçesi'nin ana görevi, bitkileri araştırmak , korumak ve
+    paylaşmaktır . Aşağıdaki platformlar bu görevin çevrimiçi uzantılarıdır.
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-03'

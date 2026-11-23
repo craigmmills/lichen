@@ -1,0 +1,71 @@
+id: university-of-agder
+kind: organisation
+name: University of Agder
+also_known_as:
+- UiA
+- Universitetet i Agder
+scope: 'no'
+summary: University with campuses in Kristiansand and Grimstad that advertised posts in 2020,
+  2021 and 2023 on AI for marine bioacoustics, cod vocalisation processing and coastal video.
+facts:
+- claim: The December 2021 advert said the proposed research would use deep learning to extract
+    information from acoustic data in aquatic and marine ecosystems.
+  url: https://stilling.forskning.no/agder-job-ads-naturvitenskap/phd-research-fellow-in-ecology-machine-learning-and-bioacoustics/1958468
+  fetched: '2026-11-02'
+  quote: This interdisciplinary project will use the latest developments in data science,
+    including deep learning, to extract information from acoustic data in aquatic and marine
+    ecosystems.
+  ai_type: deep-learning
+- claim: The December 2021 advert described bioacoustics and AI as relatively new research
+    areas at the university.
+  url: https://stilling.forskning.no/agder-job-ads-naturvitenskap/phd-research-fellow-in-ecology-machine-learning-and-bioacoustics/1958468
+  fetched: '2026-11-02'
+  quote: are relatively new areas of research at UiA
+- claim: Campuses in Kristiansand and Grimstad.
+  url: https://stilling.forskning.no/agder-job-ads-naturvitenskap/phd-research-fellow-in-ecology-machine-learning-and-bioacoustics/1958468
+  fetched: '2026-11-02'
+  quote: We are situated at two modern campuses in Kristiansand and Grimstad respectively.
+- claim: In 2020, advertised a postdoctoral post in AI for marine bioacoustics, linked to
+    its Centre for Coastal Research and Centre for Artificial Intelligence Research.
+  url: https://stilling.forskning.no/agder-job-ads-postdocpostdoktor/post-doctoral-research-fellow-in-artificial-intelligence-for-marine-bioacoustics/1686085
+  fetched: &id001 2026-11-02
+  quote: This position will be associated with the Centre for Coastal Research (CCR) at the
+    Department of Natural Sciences and work in close cooperation with the Centre for Artificial
+    Intelligence Research (CAIR)
+- claim: The post was to develop tools for automated processing of cod vocalisation data.
+  url: https://stilling.forskning.no/agder-job-ads-postdocpostdoktor/post-doctoral-research-fellow-in-artificial-intelligence-for-marine-bioacoustics/1686085
+  fetched: *id001
+  quote: develop analytical tools for identification, localization, and automated processing
+    of cod vocalization data
+- claim: A 2023 advert for a PhD in coastal ecology described a team developing automated
+    processing of video data with AI and computer vision.
+  url: https://stilling.forskning.no/agder-job-ads-phd/phd-research-fellow-in-coastal-ecology/2165167
+  fetched: *id001
+  quote: a team that develops new observation methods and automated processing of video data
+    using artificial intelligence and machine learning (computer vision)
+- claim: The GBIF publisher record gives its address in Kristiansand, Norway.
+  url: https://api.gbif.org/v1/organization/826d1920-7f5c-4091-a84e-668aa2e35b61
+  fetched: *id001
+  quote: '"city":"Kristiansand","country":"NO"'
+links: []
+found_by:
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+- freshwater
+techniques:
+- bioacoustics
+- computer-vision
+ai_types:
+- deep-learning

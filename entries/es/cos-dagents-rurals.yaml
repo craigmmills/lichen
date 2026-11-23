@@ -1,0 +1,42 @@
+id: cos-dagents-rurals
+kind: organisation
+name: Cos d'Agents Rurals
+also_known_as:
+- Agents Rurals
+scope: es
+sector: government
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: regional
+status: active
+summary: Rural agents body whose AI system for identifying Pyrenean bears from camera-trap
+  images is reported by Lleida Diari as under development, alongside monitoring with cameras
+  and hair traps.
+facts:
+- claim: Lleida Diari reports it is developing an AI-based system to identify Pyrenean bears
+    from camera-trap images.
+  url: https://lleidadiari.cat/ia-identificar-ossos-pirineu-cameres/
+  fetched: '2026-11-08'
+  quote: Els Agents Rurals estan desenvolupant un nou sistema basat en intel·ligència artificial
+    per identificar ossos del Pirineu.
+- claim: Its monitoring combines automatic cameras and hair traps.
+  url: https://lleidadiari.cat/ia-identificar-ossos-pirineu-cameres/
+  fetched: '2026-11-08'
+  quote: Actualment, el sistema de seguiment combina càmeres automàtiques i trampes de pèl
+links:
+- type: builds
+  to: pyrenean-bear-ai-identification
+  url: https://lleidadiari.cat/ia-identificar-ossos-pirineu-cameres/
+  fetched: '2026-11-08'
+  quote: Els Agents Rurals estan desenvolupant un nou sistema basat en intel·ligència artificial
+    per identificar ossos del Pirineu.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

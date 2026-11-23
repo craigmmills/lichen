@@ -1,0 +1,77 @@
+id: norways-international-climate-and-forest-initiative
+kind: organisation
+name: Norway's International Climate and Forest Initiative
+also_known_as:
+- NICFI
+- Norwegian International Climate and Forest Initiative
+scope: global
+sector: government
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: 'no'
+scale: global
+status: active
+website: https://www.nicfi.no
+summary: Norwegian government funder of tropical forest protection, run through the Ministry
+  of Climate and Environment. It paid for universal free access to high-resolution satellite
+  data of the tropics and funded capacity building in its use.
+facts:
+- claim: In September 2020 the Ministry of Climate and Environment, through NICFI, contracted
+    Kongsberg Satellite Services, Airbus and Planet to provide universal access to high-resolution
+    satellite data of the tropics.
+  url: https://www.nicfi.no/?p=13115
+  quote: entered into a contract with Kongsberg Satellite Services (KSAT) and its partners
+    Airbus and Planet , to provide universal access to high-resolution satellite data of the
+    tropics.
+  fetched: &id001 2026-10-30
+- claim: Mandated by the Norwegian parliament to provide capacity building for governments
+    and civil society in using the imagery.
+  url: https://www.nicfi.no/?p=13115
+  quote: NICFI has been mandated by Parliament (Stortinget) to provide capacity building for
+    governments and civil society organisations in the use of the imagery
+  fetched: *id001
+- claim: Global Forest Watch says NICFI partnered with Planet and Kongsberg Satellite Services
+    in 2020 to provide high-resolution imagery for free.
+  url: https://globalforestwatch.org/blog/data-and-tools/planet-imagery-changes-gfw
+  quote: Launched in 2020, Norway’s International Climate and Forest Initiative (NICFI) partnered
+    with Planet and Kongsberg Satellite Services (KSAT)
+  fetched: '2026-10-30'
+- claim: Wikipedia says the NICFI-funded deal gave access to basemaps of 64 tropical countries
+    until April 2025.
+  url: https://en.wikipedia.org/wiki/Planet_Labs
+  quote: Through a deal funded by Norway's Climate and Forests Initiative (NICFI), Planet
+    and its partners Airbus and KSAT provided access to high-resolution basemaps of 64 tropical
+    countries
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: nicfi-satellite-data-program
+  url: https://www.nicfi.no/current/nicfi-satellite-data-program/
+  quote: NICFI is currently developing a new phase of the Satellite Data Program
+  fetched: *id001
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Iniciativa Internacional de Clima e Florestas da Noruega (NICFI) / 2020 – 2024
+  fetched: *id001
+- type: funds
+  to: stockholm-environment-institute
+  url: https://www.sei.org/tools/trase/
+  quote: The grant from NICFI, managed by Norad (Pb. 1303 Vika, NO-0112 OSLO, Norway) includes
+    funds for the main grantee SEI
+  fetched: '2026-10-30'
+- type: partners-with
+  to: planet-labs
+  url: https://globalforestwatch.org/blog/data-and-tools/planet-imagery-changes-gfw
+  quote: Launched in 2020, Norway’s International Climate and Forest Initiative (NICFI) partnered
+    with Planet and Kongsberg Satellite Services (KSAT)
+  fetched: '2026-10-30'
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

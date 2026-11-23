@@ -1,0 +1,36 @@
+id: eco-catch
+kind: project
+name: ECO-CATCH
+also_known_as: []
+scope: be
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries: []
+status: active
+runner: unknown
+summary: An active project with 35 partners from 10 countries, funded by Horizon Europe, aiming to reduce
+  Baltic and North Sea bycatch, with real-time AI detection being developed with fishermen.
+facts:
+- claim: Involves 35 partners from 10 countries and aims to reduce bycatch in Baltic and North Sea fisheries.
+  url: https://ilvo.vlaanderen.be/en/research-projects/ecocatch-nieuw-eco-catch-digitale-oplossingen-tegen-bijvangst-in-noord-en-oostzee
+  fetched: &id001 2026-11-02
+  quote: ECO-CATCH is an international project involving 35 partners from 10 countries, aimed at reducing
+    bycatch in the Baltic and North Sea fisheries.
+- claim: Real-time AI detection systems are being developed with fishermen.
+  url: https://ilvo.vlaanderen.be/en/research-projects/ecocatch-nieuw-eco-catch-digitale-oplossingen-tegen-bijvangst-in-noord-en-oostzee
+  fetched: *id001
+  quote: real-time AI detection systems (automatic recognition on board) are being developed and linked
+    to a series of decision support tools
+links:
+- type: funded-by
+  to: horizon-europe
+  url: https://ilvo.vlaanderen.be/en/research-projects/ecocatch-nieuw-eco-catch-digitale-oplossingen-tegen-bijvangst-in-noord-en-oostzee
+  fetched: *id001
+  quote: EU Horizon Europe
+found_by:
+- link-from:flanders-research-institute-for-agriculture-fisheries-and-food
+added_by: agent
+checked: *id001

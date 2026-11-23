@@ -1,0 +1,36 @@
+id: sayed-jamaluddin-afghani-university
+kind: organisation
+name: Sayed Jamaluddin Afghani University
+also_known_as: []
+scope: af
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: Afghan university whose affiliated first author wrote a 2025 paper, recorded in OpenAlex, on
+  vegetation cover in Nuristan Province using remote sensing and GIS.
+facts:
+- claim: OpenAlex records a 2025 paper on vegetation cover in Nuristan Province using remote sensing and
+    GIS.
+  url: https://api.openalex.org/works/W7117607730?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Effects of Precipitation and Temperature Variability on Vegetation Cover of Nuristan Province
+    (2000-2025) Using Remote Sensing and GIS
+- claim: The paper's first author is affiliated with Sayed Jamaluddin Afghani University.
+  url: https://api.openalex.org/works/W7117607730?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Said Rahmatullah Sadat","raw_affiliation_strings":["Sayed Jamaluddin Afghani
+    University"]'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

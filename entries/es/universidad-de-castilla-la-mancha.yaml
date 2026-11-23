@@ -1,0 +1,40 @@
+id: universidad-de-castilla-la-mancha
+kind: organisation
+name: Universidad de Castilla-La Mancha
+also_known_as:
+- UCLM
+- University of Castilla-La Mancha
+scope: es
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+summary: Spanish university linked to IREC, a joint institute with CSIC and the regional government,
+  whose author led a 2026 paper on how camera height affects camera-trapping rates.
+facts:
+- claim: An IREC author is first author of a 2026 paper on how camera height affects camera-trapping
+    rates.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I79189158,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: 'Knee height is often right: evaluating device height effects on camera trapping
+    rate'
+- claim: The first author's affiliation is IREC, a CSIC, UCLM and regional government institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I79189158,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Institute for Game and Wildlife Research, IREC (CSIC
+links:
+- type: builds
+  to: institute-for-game-and-wildlife-research
+  url: https://api.gbif.org/v1/organization/2e5b488d-52e2-4f80-862b-0a60517e3f50
+  fetched: '2026-11-08'
+  quote: founded by the Spanish National Research Council (CSIC), the University of Castilla-La
+    Mancha (UCLM)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

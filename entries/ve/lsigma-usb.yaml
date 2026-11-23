@@ -1,0 +1,85 @@
+id: lsigma-usb
+kind: organisation
+name: Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental, Universidad Simón Bolívar
+also_known_as:
+- LSIGMA-USB
+- LSIGMA
+scope: ve
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ve
+countries:
+- ve
+scale: national
+status: active
+summary: University-run digital geography research centre working in remote sensing, cartography and GIS,
+  which Provita names among three MapBiomas Venezuela co-leads.
+facts:
+- claim: MapBiomas Venezuela names the laboratory as one of the initiative's co-creators.
+  url: https://venezuela.mapbiomas.org/en/?p=10
+  fetched: 2026-11-08
+  quote: el Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental de la Universidad Simón
+    Bolívar (LSIGMA–USB)
+- claim: The MapBiomas Venezuela launch press release describes it as a digital geography research centre
+    attached to Universidad Simón Bolívar.
+  url: https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2023/11/ES_Nota-de-prensa_MBVenezuela-.pdf
+  fetched: 2026-11-08
+  quote: El Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental LSIGMA – USB esun centro
+    de investigación de geografía digital, adscrito al Laboratorio de Electrónica C de laUniversidad Simón
+    Bolívar
+- claim: Co-coordinates the second edition of the Premio MapBiomas Venezuela with Provita and Wataniba.
+  url: https://venezuela.mapbiomas.org/premio-mapbiomas/
+  fetched: 2026-11-08
+  quote: bajo la coordinación de Provita, Wataniba y el Laboratorio de Sistemas de Información Geográfica
+    y Modelado Ambiental de la Universidad Simón Bolívar (LSIGMA-USB)
+- claim: Its GBIF record says it is a digital geography research centre attached to the Department of
+    Environmental Studies of Universidad Simón Bolívar since 2016.
+  url: https://api.gbif.org/v1/organization/5e690d82-fcde-43c2-ab7e-9578ccfc4030
+  fetched: 2026-11-08
+  quote: es un centro de investigación de geografía digital, adscrito al Laboratorio al Departamento de
+    Estudios Ambientales de la Universidad Simón Bolívar, desde el año 2016.
+- claim: Its GBIF record says its work combines data collection, satellite positioning, remote sensing,
+    photogrammetry, cartography and GIS.
+  url: https://api.gbif.org/v1/organization/5e690d82-fcde-43c2-ab7e-9578ccfc4030
+  fetched: 2026-11-08
+  quote: integrando de manera sistémica técnicas y metodologías de levantamiento de datos, posicionamiento
+    global, percepción remota, fotogrametría, cartografía y Sistemas de Información Geográfica.
+- claim: Its GBIF record says it supports research projects on the transformation of landscapes and their
+    ecosystems and their conservation.
+  url: https://api.gbif.org/v1/organization/5e690d82-fcde-43c2-ab7e-9578ccfc4030
+  fetched: 2026-11-08
+  quote: asociados al estudio de las transformaciones del paisaje y de sus ecosistemas, espacios urbanos
+    y rurales, así como de su conservación y desarrollo sustentable.
+- claim: Provita names LSIGMA-USB as one of the three co-leads of MapBiomas Venezuela.
+  url: https://www.provita.org.ve/programas/mapbiomasvenezuela/
+  fetched: 2026-11-08
+  quote: mediante la iniciativa MapBiomas Venezuela , la cual co-lideramos junto a nuestros aliados de
+    LSIGMA-USB y Wataniba.
+found_by:
+- link-from:mapbiomas-venezuela
+- link-from:provita
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+links:
+- type: run-by
+  to: universidad-simon-bolivar
+  url: https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2023/11/ES_Nota-de-prensa_MBVenezuela-.pdf
+  fetched: 2026-11-08
+  quote: adscrito al Laboratorio de Electrónica C de laUniversidad Simón Bolívar
+- type: run-by
+  to: universidad-simon-bolivar
+  url: https://api.gbif.org/v1/organization/5e690d82-fcde-43c2-ab7e-9578ccfc4030
+  fetched: 2026-11-08
+  quote: adscrito al Laboratorio al Departamento de Estudios Ambientales de la Universidad Simón Bolívar
+- type: partners-with
+  to: provita
+  url: https://www.provita.org.ve/programas/mapbiomasvenezuela/
+  fetched: 2026-11-08
+  quote: la cual co-lideramos junto a nuestros aliados de LSIGMA-USB y Wataniba.

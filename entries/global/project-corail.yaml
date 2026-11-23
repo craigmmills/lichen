@@ -1,0 +1,38 @@
+id: project-corail
+kind: project
+name: Project CORaiL
+scope: global
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- ph
+status: unknown
+summary: AI-powered system for monitoring coral reef resilience, built by Accenture, Intel and the Sulubaaï Environmental Foundation and deployed in 2019 at Pangatalan Island in the Philippines. Current status not checked.
+facts:
+- claim: A press release carried by Nasdaq says the solution was deployed in May 2019.
+  url: https://www.nasdaq.com/press-release/accenture-intel-and-sulubaai-environmental-foundation-use-artificial-intelligence-to
+  fetched: &id001 2026-10-30
+  quote: Since being deployed in May 2019 , the solution has collected roughly 40,000 images
+links:
+- type: run-by
+  to: accenture
+  url: https://www.nasdaq.com/press-release/accenture-intel-and-sulubaai-environmental-foundation-use-artificial-intelligence-to
+  fetched: *id001
+  quote: 'Accenture (NYSE: ACN), Intel and the Philippines -based Sulubaaï Environmental Foundation have developed a new solution powered by artificial intelligence (AI)'
+- type: partners-with
+  to: intel
+  url: https://www.nasdaq.com/press-release/accenture-intel-and-sulubaai-environmental-foundation-use-artificial-intelligence-to
+  fetched: *id001
+  quote: 'Accenture (NYSE: ACN), Intel and the Philippines -based Sulubaaï Environmental Foundation have developed a new solution powered by artificial intelligence (AI)'
+- type: partners-with
+  to: sulubaai-environmental-foundation
+  url: https://www.nasdaq.com/press-release/accenture-intel-and-sulubaai-environmental-foundation-use-artificial-intelligence-to
+  fetched: *id001
+  quote: 'Accenture (NYSE: ACN), Intel and the Philippines -based Sulubaaï Environmental Foundation have developed a new solution powered by artificial intelligence (AI)'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

@@ -1,0 +1,86 @@
+id: bundesforschungszentrum-fuer-wald
+kind: organisation
+name: Bundesforschungszentrum für Wald
+also_known_as:
+- BFW
+- Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft
+- Austrian Research Centre for Forests
+- Bundesforschungszentrum für Wald
+scope: at
+sector: government
+roles:
+- supplies-data
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Organisation serving the federal government as a research, training, information
+  and advisory centre on forests, natural hazards and landscape, which runs Forest Groove
+  and carries out forest inventory work.
+facts:
+- claim: The ministry says the organisational and technical work of the forest inventory is
+    carried out by the BFW.
+  url: https://www.bmluk.gv.at/themen/wald/wald-in-oesterreich/wald-und-zahlen/oesterreichswaldinzeitendesklimawandels.html
+  fetched: 2026-11-07
+  quote: Die organisatorische und technische Abwicklung wird vom BFW durchgeführt.
+- claim: A 2007 article says its Institute of Forest Inventory produced the first Austria-wide
+    satellite-based forest map.
+  url: https://www.waldwissen.net/de/technik-und-planung/waldinventur/erste-oesterreichweite-oewi-waldkarte
+  fetched: 2026-11-07
+  quote: Mit Hilfe von Methoden der Fernerkundung wurde am Institut für Waldinventur des Bundesforschungs-
+    und Ausbildungszentrums für Wald, Naturgefahren und Landschaft erstmals eine bundesweit
+    flächendeckende satellitenbildbasierte Waldkarte
+- claim: ESA Sentinel Online says a BFW team and partner universities mapped forest tree species
+    across Austria with Sentinel-2 data and neural-network modelling.
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: An innovative research team from the Austrian Research Centre for Forests (BFW) and
+    partner universities has now shown that Copernicus Sentinel-2 data, combined with advanced
+    neural-network modelling
+- claim: Serves the federal government as a research, training, information and advisory centre
+    on forests, natural hazards and landscape.
+  url: https://www.bmluk.gv.at/ministerium/rechtliches/rechtsgrundlagen-der-institutionen/BFW.html
+  fetched: 2026-11-07
+  quote: Das Bundesforschungs- und Ausbildungszentrums für Wald, Naturgefahren und Landschaft
+    dient dem Bund als Forschungs-, Ausbildungs- und Weiterbildungsstelle sowie als Informations-,
+    Koordinations- und Beratungsstelle in den Bereichen Wald, Naturgefahren und Landschaft.
+- claim: Its remit includes long-term ecosystem change and the conservation and promotion
+    of biological diversity, according to the ministry.
+  url: https://www.bmluk.gv.at/ministerium/rechtliches/rechtsgrundlagen-der-institutionen/BFW.html
+  fetched: 2026-11-07
+  quote: die langfristigen Ökosystemveränderungen und die Erhaltung sowie Förderung der biologischen
+    Vielfalt,
+- claim: The Natural History Museum Vienna describes Forest Groove as a BFW Sparkling Science
+    project.
+  url: https://www.nhm.at/forschung/mitmachen/sparkling-science-20/forest-groove-waldbiodiversitt-im-einklang
+  fetched: 2026-11-07
+  quote: das innovative Sparkling-Science-Projekt „Forest Groove“ vom Bundesforschungszentrum
+    für Wald (BFW)
+- claim: A 2026 paper with Gernot Hoch of the Austrian Research Centre for Forests identifies
+    predictors of bark beetle damage in Austria using interpretable machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210155026,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Identifying bark beetle damage predictors in Austria using interpretable machine
+    learning
+links:
+- type: runs
+  to: forest-groove
+  url: https://www.nhm.at/forschung/mitmachen/sparkling-science-20/forest-groove-waldbiodiversitt-im-einklang
+  fetched: 2026-11-07
+  quote: das innovative Sparkling-Science-Projekt „Forest Groove“ vom Bundesforschungszentrum
+    für Wald (BFW)
+found_by:
+- checklist:2
+- link-from:naturhistorisches-museum-wien
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-07

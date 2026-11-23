@@ -1,0 +1,38 @@
+id: university-of-sulaimani-department-of-biology
+kind: organisation
+name: Department of Biology, College of Science, University of Sulaimani
+also_known_as: []
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+hq: unknown
+countries:
+- iq
+scale: national
+status: active
+summary: Biology department at the University of Sulaimani's College of Science, listed
+  by OpenAlex as lead affiliation on a 2023 paper predicting the distribution of the
+  Persian leopard.
+facts:
+- claim: Lead (first-author) affiliation on a 2023 paper predicting the distribution
+    of the Persian leopard, per OpenAlex.
+  url: https://api.openalex.org/works/W4387849834?select=authorships
+  fetched: 2026-11-12
+  quote: Department of Biology, College of Science, University of Sulaimani, Sulaimani,
+    Kurdistan Region, Iraq
+- claim: OpenAlex lists the paper's title.
+  url: https://api.openalex.org/works?filter=institutions.country_code:IQ,from_publication_date:2022-01-01,title.search:species%20distribution&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: Predicting the geographical distribution of the Persian leopard, Panthera
+    pardus tulliana, a rare and endangered species
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

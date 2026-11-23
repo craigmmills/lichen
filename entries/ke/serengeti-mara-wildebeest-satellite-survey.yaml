@@ -1,0 +1,34 @@
+id: serengeti-mara-wildebeest-satellite-survey
+kind: project
+name: Serengeti-Mara wildebeest satellite survey
+scope: ke
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+- tz
+status: unknown
+runner: unknown
+summary: Study that counted wildebeest in the Serengeti-Mara from high-resolution
+  satellite images with two deep learning models, as described by its authors in Capital
+  FM.
+facts:
+- claim: The authors used a U-Net and a YOLO model.
+  url: https://capitalfm.africa/satellites-ai-bring-new-precision-to-tracking-the-great-wildebeest-migration/
+  quote: 'two complementary deep learning models: a pixel-based U-Net and an object-based
+    YOLO model'
+  fetched: '2026-10-30'
+  ai_type: deep-learning
+- claim: Images were at 33-60cm per pixel.
+  url: https://capitalfm.africa/satellites-ai-bring-new-precision-to-tracking-the-great-wildebeest-migration/
+  quote: very high spatial resolution (33-60cm per pixel)
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,46 @@
+id: geomolg-portal
+kind: dataset
+name: Geomolg Portal
+also_known_as:
+- Geomolg
+scope: ps
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Free public geospatial data portal, run and built by the Ministry of Local Government, which
+  its 2020 report says hosted all fundamental layers in Palestine, including environmental layers and
+  a natural reserve layer.
+facts:
+- claim: The ministry's 2020 report to UN-GGIM lists a natural reserve layer among the examples of layers
+    on the portal.
+  url: https://ggim.un.org/country-reports/documents/Country_Report_Secretariat_UNGGIM_State_of_Palestine.pdf
+  fetched: 2026-11-12
+  quote: 9 Jurisdiction Borders 20 Natural Reserve 31 Bench Marks
+- claim: The ministry’s 2020 report says the portal hosted all fundamental geospatial layers in Palestine,
+    including agriculture, water, environmental and imagery layers.
+  url: https://ggim.un.org/country-reports/documents/Country_Report_Secretariat_UNGGIM_State_of_Palestine.pdf
+  fetched: 2026-11-12
+  quote: building Geomolg Portal which hosts all fundamental
+- claim: The ministry’s 2020 report says the portal offered a free public service and let users download
+    the data.
+  url: https://ggim.un.org/country-reports/documents/Country_Report_Secretariat_UNGGIM_State_of_Palestine.pdf
+  fetched: 2026-11-12
+  quote: The portal offers a free public service and provides very powerful tools and functions that ensure
+    friendly interaction with maps
+links:
+- type: built-by
+  to: ministry-of-local-government-palestine
+  url: https://ggim.un.org/country-reports/documents/Country_Report_Secretariat_UNGGIM_State_of_Palestine.pdf
+  fetched: 2026-11-12
+  quote: the Palestinian Ministry of Local Government (MOLG) took the initiative to develop a web
+- type: run-by
+  to: ministry-of-local-government-palestine
+  url: https://ggim.un.org/country-reports/documents/Country_Report_Secretariat_UNGGIM_State_of_Palestine.pdf
+  fetched: 2026-11-12
+  quote: Currently, Geomolg Portal is entirely run and administrated by the Palestine Ministry of Local
+    Government
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

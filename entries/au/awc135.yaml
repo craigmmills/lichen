@@ -1,0 +1,32 @@
+id: awc135
+kind: model
+name: AWC135
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+website: https://www.australianwildlife.org/australian-wildlife-classifier-awc135
+summary: Open species classifier from Australian Wildlife Conservancy with 135 labels
+  for threatened, common and introduced animals in motion-sensor camera images across
+  mainland Australia.
+facts:
+- claim: Hosted on the WildObs platform as a model from the Australian Wildlife Conservancy.
+  url: https://news.uq.edu.au/2026-06-ai-rescue-australian-wildlife-research-drowning-data
+  fetched: '2026-10-31'
+  quote: AWC135 from the Australian Wildlife Conservancy
+links:
+- type: run-by
+  to: australian-wildlife-conservancy
+  url: https://news.uq.edu.au/2026-06-ai-rescue-australian-wildlife-research-drowning-data
+  fetched: '2026-10-31'
+  quote: AWC135 from the Australian Wildlife Conservancy
+found_by:
+- link-from:wildlife-observatory-of-australia
+- link-from:australian-wildlife-conservancy
+added_by: agent
+checked: '2026-10-31'

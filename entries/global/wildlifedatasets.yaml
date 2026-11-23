@@ -1,0 +1,36 @@
+id: wildlifedatasets
+kind: project
+name: WildlifeDatasets
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://github.com/WildlifeDatasets/wildlife-datasets
+summary: Open-source toolkit for animal re-identification that gathers wildlife data sets.
+facts:
+- claim: Open-source toolkit for animal re-identification.
+  url: https://github.com/WildlifeDatasets/wildlife-datasets
+  fetched: '2026-10-30'
+  quote: 'WildlifeDatasets: An open-source toolkit for animal re-identification'
+- claim: The WildlifeDatasets repository is tagged deep-learning.
+  url: https://github.com/WildlifeDatasets/wildlife-datasets
+  fetched: '2026-10-30'
+  quote: Topics dataset datasets deep-learning ecology
+  ai_type: deep-learning
+- claim: The toolkit clusters individuals in unlabelled databases.
+  url: https://github.com/WildlifeDatasets/wildlife-datasets
+  fetched: '2026-10-30'
+  quote: clustering individuals in unlabelled databases
+  ai_type: ml-unsupervised
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

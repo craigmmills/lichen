@@ -1,0 +1,37 @@
+id: waitt-foundation
+kind: organisation
+name: Waitt Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+website: https://www.waittfoundation.org/
+summary: Foundation listed as a funder of Global Fishing Watch.
+facts:
+- claim: Listed among the philanthropic partners and institutional donors on Global Fishing
+    Watch's financials page.
+  url: https://globalfishingwatch.org/?p=13515
+  quote: Waitt Foundation
+  fetched: &id001 2026-10-30
+- claim: Its site describes it as funding ocean conservation and blue prosperity.
+  url: https://www.waittfoundation.org/
+  quote: Waitt Foundation | Funding for Ocean Conservation and Blue Prosperity
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: Waitt Foundation $600,000 3 2022–2024
+  fetched: *id001
+  amount: 600000
+  currency: USD
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

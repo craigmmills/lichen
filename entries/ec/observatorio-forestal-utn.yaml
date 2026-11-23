@@ -1,0 +1,42 @@
+id: observatorio-forestal-utn
+kind: programme
+name: Observatorio Forestal UTN
+scope: ec
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ec
+status: active
+website: https://observatorioforestal.utn.edu.ec/index.html
+summary: Programme whose deforestation platform joins geospatial tools, simulators and an AI assistant
+  trained on all of Ecuador's forest rules, with primary forest loss alert viewers, using Google Earth
+  Engine.
+facts:
+- claim: Its deforestation platform joins geospatial tools, an AI assistant on forest rules and simulators.
+  url: https://observatorioforestal.utn.edu.ec/index.html
+  fetched: '2026-11-02'
+  quote: Este espacio integra herramientas geoespaciales avanzadas para el seguimiento de la deforestación
+    en Ecuador
+- claim: It offers viewers with primary forest loss alerts and dashboards.
+  url: https://observatorioforestal.utn.edu.ec/index.html
+  fetched: '2026-11-02'
+  quote: visores interactivos con alertas de pérdida de bosque primario en tiempo real
+- claim: Its assistant is trained on all of Ecuador's forest rules.
+  url: https://observatorioforestal.utn.edu.ec/index.html
+  fetched: '2026-11-02'
+  quote: un asistente virtual inteligente entrenado específicamente con toda la Normativa Forestal del
+    Ecuador
+links:
+- type: uses
+  to: google-earth-engine
+  url: https://observatorioforestal.utn.edu.ec/index.html
+  fetched: '2026-11-02'
+  quote: herramientas de análisis geoespacial desarrolladas con Google Earth Engine
+found_by:
+- link-from:universidad-tecnica-del-norte
+added_by: agent
+checked: '2026-11-03'
+runner: unknown

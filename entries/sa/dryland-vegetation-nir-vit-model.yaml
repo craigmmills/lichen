@@ -1,0 +1,40 @@
+id: dryland-vegetation-nir-vit-model
+kind: model
+name: Vision Transformer model for near-infrared estimation in dryland vegetation mapping
+scope: sa
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- sa
+status: unknown
+summary: Vision Transformer model built to estimate near-infrared bands from Maxar satellite
+  images to improve dryland vegetation identification, validated against SkySat near-infrared
+  imagery with an R2 of 0.92.
+facts:
+- claim: A Vision Transformer deep learning model was developed to estimate near-infrared
+    bands from Maxar satellite images.
+  url: https://meetingorganizer.copernicus.org/EGU24/EGU24-20836.html
+  fetched: 2026-11-03
+  quote: a Vision Transformer (ViT) deep learning model was developed to estimate near infrared
+    (NIR) spectral bands from high resolution Maxar Satellite images.
+  ai_type: deep-learning
+- claim: The aim is to improve identification of vegetation in dryland ecosystems.
+  url: https://meetingorganizer.copernicus.org/EGU24/EGU24-20836.html
+  fetched: 2026-11-03
+  quote: This study aims to improve the identification of vegetation in dryland ecosystems
+    by integrating deep learning methods to remote sensing.
+- claim: Validated against SkySat near-infrared imagery with an R2 of 0.92.
+  url: https://meetingorganizer.copernicus.org/EGU24/EGU24-20836.html
+  fetched: 2026-11-03
+  quote: The accuracy of the model was validated against high-resolution SkySat NIR imagery,
+    and achieved an R2 of 0.92.
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

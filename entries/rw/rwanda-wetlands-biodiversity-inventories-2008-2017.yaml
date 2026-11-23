@@ -1,0 +1,35 @@
+id: rwanda-wetlands-biodiversity-inventories-2008-2017
+kind: dataset
+name: Rwanda's wetlands biodiversity data from different inventories that were conducted
+  between year 2008 and 2017
+scope: rw
+ai_label: data-infrastructure
+realms:
+- freshwater
+countries:
+- rw
+status: active
+runner: unknown
+summary: GBIF dataset compiled from reports of wetland biodiversity inventories carried
+  out by REMA and partners between 2008 and 2017, with the compilation facilitated
+  by CoEB and technical support from ARCOS.
+facts:
+- claim: GBIF's dataset record says the data were compiled from reports of wetland
+    biodiversity inventories carried out by REMA and its partners.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=RW&limit=50
+  fetched: '2026-11-13'
+  quote: This data was compiled from different reports of the biodiversity inventories
+    conducted in wetlands by the Rwanda Environment Management Authority (REMA) and
+    its partners.
+- claim: The record says the compilation was facilitated by CoEB with technical support
+    from ARCOS.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=RW&limit=50
+  fetched: '2026-11-13'
+  quote: The compilation was facilitated by the Centre of Excellence in Biodiversity
+    and Natural Resources Management (CoEB) with technical support from the Albertine
+    Rift Conservation Society (ARCOS)
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-13'

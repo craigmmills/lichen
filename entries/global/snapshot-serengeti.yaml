@@ -1,0 +1,34 @@
+id: snapshot-serengeti
+kind: dataset
+name: Snapshot Serengeti
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- tz
+status: active
+website: https://www.snapshotserengeti.org
+summary: Camera trap data set of about 7.1 million images from Serengeti National Park, the flagship project of the Snapshot Safari network, labelled by Zooniverse volunteers.
+facts:
+- claim: About 2.65 million sequences and 7.1 million images.
+  url: https://lila.science/datasets/snapshot-serengeti
+  fetched: '2026-10-30'
+  quote: approximately 2.65M sequences of camera trap images, totaling 7.1M images
+links:
+- type: run-by
+  to: snapshot-safari
+  url: https://lila.science/datasets/snapshot-serengeti
+  fetched: '2026-10-30'
+  quote: the flagship project of the Snapshot Safari network
+- type: partners-with
+  to: zooniverse
+  url: https://www.snapshotserengeti.org/
+  fetched: '2026-10-30'
+  quote: Snapshot Serengeti | Zooniverse - People-powered research
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

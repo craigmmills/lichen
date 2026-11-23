@@ -1,0 +1,30 @@
+id: geoplant
+kind: dataset
+name: GeoPlant
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+- remote-sensing
+status: active
+website: https://arxiv.org/abs/2408.13928
+summary: Plant species prediction data set for species distribution modelling, from authors
+  including the Pl@ntNet leads.
+facts:
+- claim: Spatial plant species prediction dataset.
+  url: https://arxiv.org/abs/2408.13928
+  fetched: '2026-10-30'
+  quote: 'GeoPlant: Spatial Plant Species Prediction Dataset'
+links:
+- type: partners-with
+  to: plantnet
+  url: https://plantnet.org/en/
+  fetched: '2026-10-30'
+  quote: GeoPlant dataset
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

@@ -1,0 +1,49 @@
+id: eria-ecoregistros
+kind: model
+name: ÉRIA
+also_known_as:
+- ÉRIA 2.0
+- EcoRegistros AI Assistant
+scope: ar
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+countries:
+- ar
+status: active
+website: https://www.ecoregistros.org/site_en/ERIA.php
+summary: Species identification model built by EcoRegistros, designed to identify species from photographs,
+  trained on images validated by its community, and running offline inside the EcoRegistros Android app.
+facts:
+- claim: Designed to identify species automatically from photographs.
+  url: https://www.ecoregistros.org/site_en/ERIA.php
+  fetched: 2026-11-03
+  quote: ÉRIA is the AI Assistant of EcoRegistros designed to automatically identify species from photographs.
+- claim: Its AI engine is trained on real images validated by the EcoRegistros community.
+  url: https://www.ecoregistros.org/site_en/ERIA.php
+  fetched: 2026-11-03
+  quote: ÉRIA operates through an artificial intelligence engine trained with real images validated by
+    the EcoRegistros community.
+- claim: Runs within the EcoRegistros app for Android.
+  url: https://www.ecoregistros.org/site_en/ERIA.php
+  fetched: 2026-11-03
+  quote: ÉRIA is currently integrated into the official EcoRegistros APP , available for Android.
+- claim: Works offline in the field.
+  url: https://www.ecoregistros.org/site_en/ERIA.php
+  fetched: 2026-11-03
+  quote: Field-ready, works even offline.
+links:
+- type: built-by
+  to: ecoregistros
+  url: https://www.ecoregistros.org/site_en/ERIA.php
+  fetched: 2026-11-03
+  quote: It is a system entirely developed by EcoRegistros
+found_by:
+- checklist:5
+- link-from:ecoregistros
+added_by: agent
+checked: 2026-11-03

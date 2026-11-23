@@ -1,0 +1,52 @@
+id: utb-school-of-computing-and-informatics
+kind: organisation
+name: School of Computing and Informatics, Universiti Teknologi Brunei
+also_known_as:
+- SCI
+scope: bn
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: bn
+countries: []
+scale: national
+status: active
+website: https://utb.edu.bn/academics/school-of-computing-and-informatics
+summary: An active school at Universiti Teknologi Brunei, formed in 2014, offering
+  undergraduate and postgraduate degrees; its affiliation appears on a 2023 OpenAlex-listed
+  paper on LoRa-based remote sensing of peatland in Brunei.
+facts:
+- claim: The school was formed at Universiti Teknologi Brunei in 2014.
+  url: https://utb.edu.bn/academics/school-of-computing-and-informatics
+  fetched: 2026-11-13
+  quote: SCI was formed in 2014 and consists of three programme areas
+- claim: It offers undergraduate and postgraduate degree programmes.
+  url: https://utb.edu.bn/academics/school-of-computing-and-informatics
+  fetched: 2026-11-13
+  quote: Our School currently offers undergraduate and postgraduate degree programmes
+    through coursework and research.
+- claim: Its page gives the university's address in Gadong, Brunei Darussalam.
+  url: https://utb.edu.bn/academics/school-of-computing-and-informatics
+  fetched: 2026-11-13
+  quote: Jalan Tungku Link Gadong
+- claim: OpenAlex lists a 2023 paper, LoRa-based remote sensing of peatland in Brunei
+    Darussalam, whose first author is affiliated with the school.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I200859690,publication_year:2022-2026,title.search:peatland&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-13
+  quote: '"title": "LoRa-based remote sensing of peatland in Brunei Darussalam", "publication_year":
+    2023'
+- claim: The first author's affiliation on that paper is the School of Computing and
+    Informatics.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I200859690,publication_year:2022-2026,title.search:peatland&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-13
+  quote: School of Computing and Informatics, Universiti Teknologi Brunei, Tungku
+    Highway, BE1410, Gadong A, Brunei Darussalam
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

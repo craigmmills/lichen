@@ -1,0 +1,24 @@
+id: bio-ai-nsf
+kind: programme
+name: NSF BIO-AI
+scope: us
+ai_label: ai
+status: active
+summary: NSF Biological Sciences awards labelled BIO-AI, covering AI for taxonomy,
+  arthropod identification and ecological cyberinfrastructure.
+facts:
+- claim: NSF award titles carry the BIO-AI label.
+  url: https://api.nsf.gov/services/v1/awards/2524622.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'Collaborative Research: BIO-AI: Human-in-the-loop Artificial Intelligence
+    System for High Throughput Automated Identification of Ground-dwelling Arthropods'
+links:
+- type: run-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2524622.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: BIO-AI
+found_by:
+- checklist:6
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,33 @@
+id: cites-trade-database
+kind: dataset
+name: CITES Trade Database
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+status: active
+website: https://trade.cites.org
+summary: Database of international trade in CITES-listed species. OCCRP reports more than 25 million transactions over 50 years, and the Cambridge Network describes a technical overhaul led by the CITES
+  Secretariat, UNEP and UNEP-WCMC.
+facts:
+- claim: The Cambridge Network says the database is mainly used by CITES parties to inform decisions on species under threat.
+  url: https://www.cambridgenetwork.co.uk/index.php/news/cites-trade-database-breaks-new-ground-open-source-technology
+  quote: which is primarily used by parties to CITES to inform their decisions on species under threat
+  fetched: 2026-10-30
+links:
+- type: partners-with
+  to: cites-secretariat
+  url: https://www.cambridgenetwork.co.uk/index.php/news/cites-trade-database-breaks-new-ground-open-source-technology
+  quote: "has undergone a technical overhaul led by the CITES Secretariat, the United Nations Environment Programme (UNEP) and UNEP-WCMC"
+  fetched: 2026-10-30
+- type: run-by
+  to: unep-wcmc
+  url: https://www.cambridgenetwork.co.uk/index.php/news/cites-trade-database-breaks-new-ground-open-source-technology
+  quote: "the database, which is managed for CITES by UNEP-WCMC"
+  fetched: 2026-10-30
+found_by:
+- link-from:cites-secretariat
+added_by: agent
+checked: 2026-10-30

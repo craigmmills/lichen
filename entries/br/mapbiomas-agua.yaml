@@ -1,0 +1,37 @@
+id: mapbiomas-agua
+kind: dataset
+name: MapBiomas Água
+also_known_as:
+- MapBiomas Water
+scope: br
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+summary: Maps of surface water in Brazil and derived products from 1985, which GeoDatin
+  describes as made with artificial intelligence techniques.
+facts:
+- claim: GeoDatin describes it as using AI techniques to map water surface dynamics
+    for Brazil since 1985.
+  url: https://geodatin.com
+  fetched: '2026-10-30'
+  quote: Platform that uses Artificial Intelligence techniques for
+links:
+- type: run-by
+  to: mapbiomas
+  url: https://brasil.mapbiomas.org/
+  fetched: '2026-10-30'
+  quote: Mapas de superfície de água no Brasil e produtos derivados
+- type: partners-with
+  to: geodatin
+  url: https://geodatin.com
+  fetched: '2026-10-30'
+  quote: "Our projects Check out the results of some of our works MapBiomas Água Platform that uses Artificial Intelligence techniques for territorial mapping of water surface dynamics"
+found_by:
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-10-30'

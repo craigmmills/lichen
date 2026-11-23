@@ -1,0 +1,73 @@
+id: consejo-nacional-de-areas-protegidas-guatemala
+kind: organisation
+name: Consejo Nacional de Áreas Protegidas
+also_known_as:
+- CONAP
+- National Council for Protected Areas
+- National Council of Protected Areas
+scope: gt
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+realms:
+- land
+hq: gt
+countries:
+- gt
+scale: national
+status: active
+summary: Public body responsible, per the CBD secretariat's draft profile, for implementing Guatemala's
+  biodiversity policy; it runs CEMEC, hosts the GBIF node's homepage and led a national forest monitoring
+  roadmap workshop.
+facts:
+- claim: The CBD secretariat's draft country profile says responsibility for implementing all biodiversity
+    policy in Guatemala is assigned to CONAP.
+  url: https://www.cbd.int/countries/profile?country=gt
+  fetched: 2026-11-08
+  quote: Responsibility for implementation of all policy related to biodiversity is assigned to the National
+    Council for Protected Areas (CONAP).
+- claim: The CBD lists CONAP's Executive Secretary as Guatemala's CBD primary national focal point, with
+    its office in Edificio IPM, zona 1, Guatemala City.
+  url: https://www.cbd.int/countries/nfp?country=gt
+  fetched: 2026-11-08
+  quote: 5a. Avenida 6-06 zona 1, Edificio IPM, Séptimo Nivel
+- claim: GBIF's directory gives Guatemala's GBIF participant node as the National Information System on
+    Biological Diversity of Guatemala (SNIBgt), with a homepage on CONAP's domain.
+  url: https://api.gbif.org/v1/node?q=Guatemala
+  fetched: 2026-11-08
+  quote: National Information System on Biological Diversity of Guatemala -SNIBgt
+- claim: GBIF's publisher record describes it as a public entity working on the conservation and sustainable
+    use of Guatemala's protected areas and biological diversity.
+  url: https://api.gbif.org/v1/organization/35bbc10c-2ce9-4644-992c-1f9f0ae8b398
+  fetched: '2026-11-08'
+  quote: CONAP is a public entity, recognized for its effective work with other stakeholders in ensuring
+    the conservation and sustainable use of Guatemala's protected areas and biological diversity.
+- claim: GBIF's publisher record gives its address in Zona 1, Guatemala City.
+  url: https://api.gbif.org/v1/organization/35bbc10c-2ce9-4644-992c-1f9f0ae8b398
+  fetched: '2026-11-08'
+  quote: 5 avenida 6-06 Edificio IPM 7 nivel, Zona 1
+- claim: GFOI reports that it led the third interinstitutional workshop on implementing Guatemala's national
+    forest monitoring system roadmap.
+  url: https://www.fao.org/gfoi/news-and-events/news/news-detail/guatemala-leads-the-way-in-institutionalizing-its-national-forest-monitoring-system/en
+  fetched: '2026-11-08'
+  quote: The latest step in this journey was an interinstitutional workshop led by the National Council
+    of Protected Areas (CONAP)
+links:
+- type: runs
+  to: centro-de-monitoreo-y-evaluacion-conap
+  url: https://guatemala.wcs.org/es-es/Sobre-nosotros/Noticias/articleType/ArticleView/articleId/22303/Fortalecimiento-de-Capacidades-y-Colaboracion-para-Reforzar-la-Gobernanza-y-la-Conservacion-de-la-Selva-Maya.aspx
+  fetched: 2026-11-08
+  quote: el Centro de Monitoreo y Evaluación (CEMEC) del Consejo Nacional de Áreas Protegidas (CONAP)
+- type: partners-with
+  to: red-bioma
+  url: https://csuca.org/en/?p=6952
+  fetched: '2026-11-08'
+  quote: Consejo Nacional de Áreas Protegidas (CONAP), por medio del nodo GBIF Guatemala
+found_by:
+- checklist:1
+- link-from:red-bioma
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

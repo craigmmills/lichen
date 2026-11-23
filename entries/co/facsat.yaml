@@ -1,0 +1,37 @@
+id: facsat
+kind: programme
+name: FACSAT
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- co
+summary: Colombian Air Force nanosatellite programme. FACSAT-2, launched in April
+  2023, takes optical images and measures greenhouse gases, and is meant to help detect
+  deforestation and illegal mining.
+facts:
+- claim: FACSAT-2 is meant to allow detection of activities such as deforestation,
+    illegal mining and illegal fishing.
+  url: https://www.unoosa.org/documents/pdf/copuos/2023/Statements/8_AM/14_Colombia_8_Jun_AM.pdf
+  quote: como la deforestación, la minería ilegal y la pesca ilegal
+  fetched: '2026-10-31'
+- claim: FACSAT-3, three satellites, was announced with launch expected in 2029, focused
+    on environmental protection and territorial monitoring.
+  url: https://www.igac.gov.co/noticias/igac-participo-en-la-68deg-sesion-de-copuos-en-viena-con-el-compromiso-de-colombia-de-fortalecer-el-uso-pacifico-del-espacio-ultraterrestre
+  quote: una constelación de tres satélites cuyo lanzamiento está previsto para 2029
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: fuerza-aerea-colombiana
+  url: https://www.unoosa.org/documents/pdf/copuos/2023/Statements/8_AM/14_Colombia_8_Jun_AM.pdf
+  quote: La Fuerza Aérea, a través de programas como el FACSAT
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+- link-from:fuerza-aerea-colombiana
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active

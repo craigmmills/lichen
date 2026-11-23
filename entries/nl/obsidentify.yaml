@@ -1,0 +1,151 @@
+id: obsidentify
+kind: model
+name: ObsIdentify
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en
+summary: Species identification app from Observation International with Naturalis
+  and Natuurpunt, trained on millions of observations from users of Waarneming.nl,
+  Waarnemingen.be and Observation.org.
+scope: nl
+facts:
+- claim: The image recognition is made possible by millions of observations from users
+    of the three platforms.
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en
+  fetched: '2026-10-31'
+  quote: The image recognition in ObsIdentify is made possible by millions of observations
+    from thousands of users of Waarneming.nl, Waarnemingen.be and Observation.org.
+- claim: It recognises wild animals, plants and mushrooms in Europe and the Dutch
+    Caribbean.
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en
+  fetched: '2026-10-31'
+  quote: ObsIdentify only recognizes wild animals, plants and mushrooms in Europe
+    and the Dutch Caribbean.
+- claim: Naturalis says the app has over 1 million downloads worldwide.
+  url: https://www.naturalis.nl/en/ai
+  fetched: &id001 2026-10-31
+  quote: ObsIdentify, the app from Observation International that connects to our
+    API, has over 1 million downloads worldwide.
+- claim: The App Store listing says its image recognition rests on millions of observations
+    from users of Waarneming.nl, Waarnemingen.be and Observation.org.
+  url: https://apps.apple.com/gb/app/obsidentify/id1464543488
+  fetched: *id001
+  quote: The image recognition in ObsIdentify is made possible by millions of observations
+    from thousands of users of Waarneming.nl, Waarnemingen.be and Observation.org.
+- claim: A photo recognition app for wild plants, animals and fungi from the Netherlands
+    and Belgium.
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: ObsIdentify is een fotoherkenningsapp die wilde planten, dieren en paddenstoelen
+    uit Nederland en België waarneemt.
+- claim: Can recognise more than 13, 000 species.
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: De app is momenteel in staat om meer dan 13.000 soorten te herkennen
+- claim: The recognition model is based on validated reference images from Observation
+    International's databases.
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: Het onderliggende herkenningsmodel is gebaseerd op gevalideerde referentiebeelden
+    uit de waarnemingendatabases van Observation International.
+- claim: The App Store listing says it recognises only wild animals, plants and mushrooms
+    in Europe and the Dutch Caribbean.
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: ObsIdentify only recognizes wild animals, plants and mushrooms in Europe
+    and the Dutch Caribbean.
+- claim: The App Store listing says its image recognition rests on millions of observations.
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: The image recognition in ObsIdentify is made possible by millions of observations
+    from thousands of users of Waarneming.nl, Waarnemingen.be and Observation.org.
+- claim: A STOWA webinar summary says the Naturalis model is used in platforms such
+    as ObsIdentify and Waarneming.nl.
+  url: https://www.stowa.nl/sites/default/files/assets/AGENDA/Agenda%202025/20250925%20Waterdiertjes%20en%20AI/Waterdiertjes_AI_Rapport%20-%20samenvatting%20webinar%2025-9.pdf
+  fetched: '2026-10-31'
+  quote: Het model wordt gebruikt in platforms zoals ObsIdentify en Waarneming.nl
+links:
+- type: run-by
+  to: observation-international
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en
+  fetched: '2026-10-31'
+  quote: ObsIdentify is a product of the Observation International Foundation, in
+    collaboration with Naturalis Biodiversity Center (The Netherlands) and Natuurpunt
+    (Belgium).
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en
+  fetched: '2026-10-31'
+  quote: ObsIdentify is a product of the Observation International Foundation, in
+    collaboration with Naturalis Biodiversity Center (The Netherlands) and Natuurpunt
+    (Belgium).
+- type: run-by
+  to: observation-international
+  url: https://apps.apple.com/gb/app/obsidentify/id1464543488
+  fetched: *id001
+  quote: ObsIdentify is a product of the Observation International Foundation, in
+    collaboration with Naturalis Biodiversity Center (The Netherlands) and Natuurpunt
+    (Belgium).
+- type: uses
+  to: nature-identification-api
+  url: https://www.naturalis.nl/en/ai
+  fetched: *id001
+  quote: ObsIdentify, the app from Observation International that connects to our
+    API
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://apps.apple.com/gb/app/obsidentify/id1464543488
+  fetched: *id001
+  quote: ObsIdentify is a product of the Observation International Foundation, in
+    collaboration with Naturalis Biodiversity Center (The Netherlands) and Natuurpunt
+    (Belgium).
+- type: run-by
+  to: observation-international
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: De app is een initiatief van Stichting Observation International, Naturalis
+    Biodiversity Center en COSMONiO Imaging bv.
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: De app is een initiatief van Stichting Observation International, Naturalis
+    Biodiversity Center en COSMONiO Imaging bv.
+- type: partners-with
+  to: cosmonio
+  url: https://www.ru.nl/sites/default/files/2025-04/handleiding-obsidentify.pdf
+  fetched: '2026-10-31'
+  quote: De app is een initiatief van Stichting Observation International, Naturalis
+    Biodiversity Center en COSMONiO Imaging bv.
+- type: run-by
+  to: observation-international
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: ObsIdentify is a product of the Observation International Foundation
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: in collaboration with Naturalis Biodiversity Center (The Netherlands) and
+    Natuurpunt (Belgium).
+- type: partners-with
+  to: natuurpunt
+  url: https://apps.apple.com/nl/app/obsidentify/id1464543488?l=en-GB
+  fetched: '2026-10-31'
+  quote: in collaboration with Naturalis Biodiversity Center (The Netherlands) and
+    Natuurpunt (Belgium).
+found_by:
+- checklist:4
+- link-from:naturalis-biodiversity-center
+- link-from:observation-international
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+- be

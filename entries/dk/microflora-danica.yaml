@@ -1,0 +1,52 @@
+id: microflora-danica
+kind: project
+name: Microflora Danica
+also_known_as:
+- The microbiome of Denmark
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- edna-genomics
+countries:
+- dk
+status: closed
+website: https://www.en.bio.aau.dk/research/projects/microflora-danica
+summary: A finished project that Aalborg University calls the world's first national atlas
+  of environmental microorganisms, with 10,683 samples collected, run by its chemistry and
+  bioscience department and funded by the Poul Due Jensen Foundation.
+facts:
+- claim: Aalborg University calls it the world's first national atlas of environmental microorganisms.
+  url: https://www.en.aau.dk/historic-danish-research-sheds-unique-light-on-the-microbial-worldb-n156354
+  fetched: &id001 2026-11-02
+  quote: Microflora Danica is the world's first national atlas of the microorganisms of the
+    environment and maps more than 140,000 bacterial species
+- claim: A total of 10,683 samples were collected.
+  url: https://www.en.aau.dk/historic-danish-research-sheds-unique-light-on-the-microbial-worldb-n156354
+  fetched: *id001
+  quote: A total of 10,683 samples were collected from all over the country
+- claim: The university's research portal gives its status as finished.
+  url: https://vbn.aau.dk/da/projects/the-microbiome-of-denmark/
+  fetched: *id001
+  quote: Status Afsluttet
+links:
+- type: run-by
+  to: department-of-chemistry-and-bioscience-aalborg-university
+  url: https://www.en.bio.aau.dk/research/projects
+  fetched: *id001
+  quote: The project is carried out at the Department of Chemistry and Bioscience at Aalborg
+    University
+- type: funded-by
+  to: poul-due-jensen-foundation
+  url: https://www.en.bio.aau.dk/research/projects
+  fetched: *id001
+  quote: is supported by the Poul Due Jensen/Grundfos Foundation with DKK 30 million in the
+    period 2019-2023
+  amount: 30000000
+  currency: DKK
+found_by:
+- link-from:department-of-chemistry-and-bioscience-aalborg-university
+added_by: agent
+checked: *id001

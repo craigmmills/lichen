@@ -1,0 +1,90 @@
+id: institute-of-botany-cas
+kind: organisation
+name: Institute of Botany, Chinese Academy of Sciences
+also_known_as:
+- 中国科学院植物研究所
+- IBCAS
+scope: cn
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- other
+hq: cn
+scale: national
+status: active
+summary: Chinese Academy of Sciences institute that started and runs the Plant Photo Bank
+  of China and has a research centre for big data and AI in biodiversity conservation, which
+  maintains the image bank.
+facts:
+- claim: Initiated and runs the Plant Photo Bank of China.
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: initiated and operated by the Institute of Botany, Chinese Academy of Sciences (IBCAS)
+    in 2008
+- claim: Its Research Centre for Big Data and AI in Biodiversity Conservation maintains the
+    image bank's site.
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: 中国科学院植物研究所 大数据与AI生物多样性保护研究中心 / 运维
+- claim: Set up its Big Data and AI Biodiversity Conservation Research Center in February
+    2024 on the basis of the Plant Science Data Center.
+  url: https://www.plantplus.cn/cn/news/3243
+  fetched: '2026-10-31'
+  quote: 中国科学院植物研究所于2024年2月在中国科学院植物科学数据中心基础上成立大数据与AI生物多样性保护研究中心
+- claim: Its address on the data centre's site is Xiangshan Road, Haidian District, Beijing.
+  url: https://www.plantplus.cn/sinobon
+  fetched: '2026-10-31'
+  quote: 北京市海淀区香山路
+- claim: BotAI has a scheduling layer driven by a large language model.
+  url: https://www.plantplus.cn/cn/news/3245
+  fetched: '2026-10-31'
+  quote: BotAI 的核心是一个由大语言模型（ LLM ）驱动的调度层
+  ai_type: large-language-models
+- claim: BotAI wraps plant diversity tasks as agent skills that the agent calls by itself.
+  url: https://www.plantplus.cn/cn/news/3245
+  fetched: '2026-10-31'
+  quote: BotAI 将植物多样性数据处理中高频、可复用的专业任务封装为可由智能体自动调用的 Agent Skills
+  ai_type: agentic-ai
+- claim: Hosts the integrated monitoring centre of Sino BON.
+  url: https://www.plantplus.cn/cn/news/71
+  fetched: '2026-10-31'
+  quote: 1 综合监测管理中心 中国科学院植物研究所 冯晓娟 赵长征
+links:
+- type: runs
+  to: plant-photo-bank-of-china
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: initiated and operated by the Institute of Botany, Chinese Academy of Sciences (IBCAS)
+    in 2008
+- type: run-by
+  to: chinese-academy-of-sciences
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: Institute of Botany, Chinese Academy of Sciences (IBCAS)
+- type: runs
+  to: botai
+  url: https://www.plantplus.cn/cn/news/3245
+  fetched: '2026-10-31'
+  quote: 中国科学院植物研究所中国科学院植物科学数据中心与中国科学院自动化研究所紫东太初大模型中心联合研发了 BotAI
+- type: runs
+  to: big-data-and-ai-biodiversity-conservation-research-center
+  url: https://www.plantplus.cn/cn/news/3243
+  fetched: '2026-10-31'
+  quote: 中国科学院植物研究所于2024年2月在中国科学院植物科学数据中心基础上成立大数据与AI生物多样性保护研究中心
+found_by:
+- checklist:3
+- link-from:queue-cn
+- checklist:2
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- large-language-models
+- agentic-ai
+countries:
+- cn

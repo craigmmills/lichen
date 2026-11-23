@@ -1,0 +1,31 @@
+id: estonian-environment-information-centre
+kind: organisation
+name: Estonian Environment Information Centre
+also_known_as: []
+scope: ee
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- ee
+scale: national
+status: unknown
+summary: Registered GBIF data publisher whose one listed dataset is the Estonian Nature Observations Database.
+facts:
+- claim: Registered as a data publisher on GBIF.
+  url: https://api.gbif.org/v1/organization/6d2a7654-1ed0-4924-b22e-9bc221ab2124
+  fetched: 2026-11-08
+  quote: '"title":"Estonian Environment Information Centre"'
+- claim: GBIF lists one dataset published by it, the Estonian Nature Observations Database.
+  url: https://api.gbif.org/v1/organization/6d2a7654-1ed0-4924-b22e-9bc221ab2124/publishedDataset?limit=10
+  fetched: 2026-11-08
+  quote: '"title":"Estonian Nature Observations Database"'
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

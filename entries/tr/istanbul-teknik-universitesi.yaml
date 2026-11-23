@@ -1,0 +1,66 @@
+id: istanbul-teknik-universitesi
+kind: organisation
+name: İstanbul Teknik Üniversitesi
+also_known_as:
+- Istanbul Technical University
+- İTÜ
+scope: tr
+sector: academic
+roles:
+- uses-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: tr
+countries:
+- tr
+scale: national
+status: active
+summary: A university whose geomatics authors published a 2021 comparison of random forest
+  and support vector machine land cover classification, with OpenAlex also listing a 2019
+  paper on watershed impermeability monitoring.
+facts:
+- claim: Authors affiliated with its geomatics engineering department published a 2021 comparison
+    of random forest and support vector machine algorithms for land use and land cover classification.
+  url: https://api.openalex.org/works/W4200441431?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Comparison between random forest and support vector machine algorithms for LULC classification
+- claim: Affiliation of the authors of that paper.
+  url: https://api.openalex.org/works/W4200441431?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-03
+  quote: ISTANBUL TECHNICAL UNIVERSITY, FACULTY OF CIVIL ENGINEERING, DEPARTMENT OF GEOMATICS
+    ENGINEERING
+- claim: The Akustik Anadolu site gives the university's Eurasia Institute of Earth Sciences
+    on the Ayazağa campus in Istanbul.
+  url: https://akustikanadolu.itu.edu.tr/
+  fetched: 2026-11-03
+  quote: İstanbul Teknik Üniversitesi Avrasya Yer Bilimleri Enstitüsü İTÜ Ayazağa Kampüsü,
+    Maslak, Sarıyer, İstanbul
+- claim: OpenAlex lists a 2021 paper comparing random forest and support vector machine algorithms
+    for land use and land cover classification.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I48912391,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: Comparison between random forest and support vector machine algorithms for LULC classification
+- claim: OpenAlex lists a 2019 paper on remote sensing monitoring of watershed impermeability.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I48912391,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: Remote sensing monitoring of multi-scale watersheds impermeability for urban hydrological
+    evaluation
+links:
+- type: partners-with
+  to: akustik-anadolu
+  url: https://akustikanadolu.itu.edu.tr/
+  fetched: 2026-11-03
+  quote: İstanbul Teknik Üniversitesi Bilimsel Araştırma Projeleri (BAP) birimince desteklenen
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- ml-supervised

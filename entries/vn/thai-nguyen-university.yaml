@@ -1,0 +1,37 @@
+id: thai-nguyen-university
+kind: organisation
+name: Thai Nguyen University
+also_known_as: []
+scope: vn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+- species-distribution
+hq: unknown
+countries:
+- vn
+scale: national
+status: active
+funding_at_risk: false
+summary: University with an author listed in OpenAlex as first author of a paper predicting
+  the distribution of estuary fish larvae and juveniles by salinity, using remote sensing
+  and fuzzy logic.
+facts:
+- claim: OpenAlex lists an author at Thai Nguyen University as first author of the paper titled
+    "Distribution of fish larvae and juveniles on salinity in an estuary predicted from remote
+    sensing and fuzzy logic approach".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02wsd5p50|00waaqh38|04nyv3z04|02jmfj006|02wdwrr89|01drq0835|05ezss144|04qva2324|0071qz696|05jfbgm49|03t0zs859|05w54hk79|00qaa6j11|04r9s1v23|03mj71j26|03ecpp171|05hzn5427|03anxx281|0360g3z42|03dth0f39|04wgyjv21|03esj4g97|02ryrf141|019sx5d52|02128gy91|010y5b925|05hhz4s12|00tean533|05xpj2n48,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: Distribution of fish larvae and juveniles on salinity in an estuary predicted from
+    remote sensing and fuzzy logic approach
+links: []
+found_by:
+- register:vn
+- checklist:3
+added_by: agent
+checked: 2026-11-08

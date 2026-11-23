@@ -1,0 +1,40 @@
+id: global-drivers-of-forest-loss
+kind: dataset
+name: Global drivers of forest loss at 1 km resolution
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Global 1 km map of the dominant drivers of tree cover loss, made by the World Resources Institute and Google DeepMind with a deep learning model and updated annually with the Global Forest Change product.
+facts:
+- claim: Classifies seven driver classes of tree cover loss from 2001 to 2023 at 1 km resolution in version 1.1.
+  url: https://zenodo.org/records/15225267
+  fetched: &id001 2026-10-30
+  quote: created a global map of the dominant drivers of tree cover loss from 2001 to 2023 at 1 km spatial resolution (v1.1)
+- claim: Updated annually with the University of Maryland Global Forest Change product.
+  url: https://zenodo.org/records/15225267
+  fetched: *id001
+  quote: This dataset is updated annually with the Global Forest Change product from the University of Maryland
+links:
+- type: run-by
+  to: world-resources-institute
+  url: https://zenodo.org/records/15225267
+  fetched: *id001
+  quote: The World Resources Institute and Google DeepMind created a global map of the dominant drivers of tree cover loss
+- type: partners-with
+  to: google-deepmind
+  url: https://zenodo.org/records/15225267
+  fetched: *id001
+  quote: The World Resources Institute and Google DeepMind created a global map of the dominant drivers of tree cover loss
+- type: builds-on
+  to: global-forest-change
+  url: https://zenodo.org/records/15225267
+  fetched: *id001
+  quote: This dataset is updated annually with the Global Forest Change product from the University of Maryland
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

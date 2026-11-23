@@ -1,0 +1,41 @@
+id: laboratory-of-water-resources-and-environment-university-of-saida
+kind: organisation
+name: Laboratory of Water Resources and Environment, University of Saida Dr. Tahar
+  Moulay
+also_known_as: []
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A university laboratory named as the lead affiliation of the first author
+  of a paper whose title covers remote sensing and clustering for managing green oak
+  forests in western Algeria.
+facts:
+- claim: Lead affiliation of the first author on the paper whose title is quoted in
+    the next fact.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Yahia DJELLOULI", "raw_affiliation_strings": ["University
+    of Saida \u2013 Dr. Tahar Moulay, Faculty of Science, Department of Biology, Laboratory
+    of Water Resources and Environment, 20000 Saida"]'
+- claim: The paper's title names remote sensing and clustering for the management
+    of green oak forests in western Algeria.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Application of remote sensing and clustering for the sustainable management
+    of green oak forests in western Algeria
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,40 @@
+id: king-salman-international-university
+kind: organisation
+name: King Salman International University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: https://ksiu.edu.eg
+summary: University that OpenAlex gives as the first author's affiliation on a 2025 coral
+  reef image classification dataset work for deep learning and marine biodiversity monitoring.
+facts:
+- claim: OpenAlex lists the 2025 work Coral Reef Image Classification Dataset for Deep Learning
+    and Marine Biodiversity Monitoring, with M.B. Badawi as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04gj69425,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Coral Reef Image Classification Dataset for Deep Learning and Marine
+    Biodiversity Monitoring", "publication_year": 2025, "authorships": [{"author_position":
+    "first", "author": {"id": null, "display_name": "Badawi, M.B."'
+- claim: OpenAlex gives the first author's affiliation as King Salman International University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04gj69425,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Badawi, M.B.", "raw_affiliation_strings": ["King Salman International
+    University"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

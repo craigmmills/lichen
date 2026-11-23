@@ -1,0 +1,34 @@
+id: sequoia-climate-foundation
+kind: organisation
+name: Sequoia Climate Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.sequoiaclimate.org/
+summary: Foundation listed as a funder of the MapBiomas Project in 2023 and 2024.
+facts:
+- claim: Listed in the history of funders of the MapBiomas Project.
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Sequoia Climate Foundation / 2023 – 2024
+  fetched: &id001 2026-10-30
+- claim: Says it believes in a world powered by clean energy.
+  url: https://www.sequoiaclimate.org/
+  quote: Sequoia Climate Foundation believes in a world powered by clean energy
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Sequoia Climate Foundation / 2023 – 2024
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

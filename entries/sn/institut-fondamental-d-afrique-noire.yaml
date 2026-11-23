@@ -1,0 +1,93 @@
+id: institut-fondamental-d-afrique-noire
+kind: organisation
+name: Institut Fondamental d'Afrique Noire Cheikh Anta Diop
+also_known_as:
+- IFAN Ch. A. Diop
+- IFAN
+scope: sn
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- other
+hq: sn
+countries:
+- sn
+scale: national
+status: active
+funding_at_risk: false
+summary: Research institute at Université Cheikh Anta Diop that publishes herbarium occurrence
+  data for Senegal's flora on GBIF and supports biodiversity training with SOS SAHEL.
+facts:
+- claim: GBIF lists it at Université Cheikh Anta Diop in Dakar.
+  url: https://api.gbif.org/v1/organization/f308968b-a685-4eb5-9aba-fafaafbaf589
+  fetched: '2026-10-31'
+  quote: Biodiversity information mobilisation
+- claim: Publishes occurrence data for Senegal's flora from the IFAN herbarium.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=SN&limit=40
+  fetched: '2026-10-31'
+  quote: Herbier IFAN
+- claim: Supports training materials in French, Wolof and other languages with SOS SAHEL.
+  url: https://jrsbiodiversity.org/grants/sos_sahel_2025/
+  fetched: '2026-10-31'
+  quote: with support from IFAN
+- claim: GBIF lists it at Université Cheikh Anta Diop in Dakar.
+  url: https://api.gbif.org/v1/organization/f308968b-a685-4eb5-9aba-fafaafbaf589
+  fetched: '2026-10-31'
+  quote: '"address":["Université Cheikh Anta Diop"],"city":"Dakar"'
+- claim: Publishes herbarium occurrences for the flora of Senegal, the oldest from 1825.
+  url: https://api.gbif.org/v1/dataset/a044815a-afb2-4bce-b23a-99b6810c075f
+  fetched: '2026-10-31'
+  quote: Les plus anciens ont été récoltés en 1825.
+- claim: The IFAN herbarium dataset carries a CC BY licence.
+  url: https://api.gbif.org/v1/dataset/a044815a-afb2-4bce-b23a-99b6810c075f
+  fetched: '2026-10-31'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Published the IFAN herbarium flora occurrence dataset in June 2018.
+  url: https://ipt-senegal.gbif.fr/resource?r=ifan
+  fetched: '2026-10-31'
+  quote: published by Institut Fondamental d’Afrique Noire / Cheikh Anta Diop (IFAN Ch. A.
+    Diop) on Jun 29, 2018
+- claim: Publishes occurrence records of threatened plants of Senegal held in the IFAN herbarium.
+  url: https://api.gbif.org/v1/dataset/31a29499-0189-4c72-975b-eede9114d550
+  fetched: '2026-10-31'
+  quote: Les spécimens ont été collectés dans différentes régions du Sénégal
+- claim: Publishes occurrence records of Senegal's flora from Acanthaceae to Chenopodiaceae,
+    with specimens from 1825.
+  url: https://api.gbif.org/v1/dataset/a044815a-afb2-4bce-b23a-99b6810c075f
+  fetched: '2026-10-31'
+  quote: Herbier IFAN
+- claim: These records are offered under a Creative Commons Attribution licence.
+  url: https://api.gbif.org/v1/dataset/a044815a-afb2-4bce-b23a-99b6810c075f
+  fetched: '2026-10-31'
+  quote: creativecommons.org/licenses/by/4.0
+- claim: Founded in 1936.
+  url: https://www.ucad.sn/node/634
+  fetched: '2026-10-31'
+  quote: L’Institut fondamental d’Afrique noire (IFAN) est créé en août 1936
+- claim: Listed by GBIF at Université Cheikh Anta Diop in Dakar.
+  url: https://api.gbif.org/v1/organization/f308968b-a685-4eb5-9aba-fafaafbaf589
+  fetched: '2026-10-31'
+  quote: Université Cheikh Anta Diop
+links:
+- type: partners-with
+  to: sos-sahel
+  url: https://jrsbiodiversity.org/grants/sos_sahel_2025/
+  fetched: '2026-10-31'
+  quote: with support from IFAN
+- type: runs
+  to: ifan-herbarium-flora-of-senegal-occurrences
+  url: https://ipt-senegal.gbif.fr/resource?r=ifan
+  fetched: '2026-10-31'
+  quote: published by Institut Fondamental d’Afrique Noire / Cheikh Anta Diop (IFAN Ch. A.
+    Diop)
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- checklist:register-d
+added_by: agent
+checked: '2026-10-31'

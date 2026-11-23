@@ -1,0 +1,66 @@
+id: institute-for-game-and-wildlife-research
+kind: organisation
+name: Institute for Game and Wildlife Research
+scope: es
+also_known_as:
+- IREC
+- Instituto de Investigación en Recursos Cinegéticos
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: es
+scale: national
+status: active
+website: https://www.irec.es
+summary: Wildlife research institute in Ciudad Real linked to CSIC, the University of Castilla-La
+  Mancha and the regional government. It is a partner in the BIG_PICTURE camera trap project.
+facts:
+- claim: Partner in the BIG_PICTURE project.
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-10-31'
+  quote: Institute for Game and Wildlife Research, University of Castilla-LaMancha, Ciudad
+    Real, Spain
+- claim: Listed by GBIF as a joint CSIC, UCLM and JCCM institute in Ciudad Real.
+  url: https://api.gbif.org/v1/organization?country=ES&limit=8&q=Instituto%20de%20Investigaci%C3%B3n%20en%20Recursos%20Cineg%C3%A9ticos
+  fetched: '2026-10-31'
+  quote: Instituto de Investigación en Recursos Cinegéticos (IREC /CSIC-UCLM-JCCM)
+- claim: Reports a study of more than three decades of monitoring of Montagu's harrier nests.
+  url: https://www.irec.es
+  fetched: '2026-10-31'
+  quote: A study based on more than three decades of monitoring over 20.000 Montagu's harrier
+    nests
+- claim: A multidisciplinary research centre with a national scope.
+  url: https://api.gbif.org/v1/organization/2e5b488d-52e2-4f80-862b-0a60517e3f50
+  fetched: '2026-10-31'
+  quote: is a multidisciplinary research centre with a national scope
+- claim: Publishes long-term presence data for eight wild ungulates and red fox across Spain
+    on a 5 km grid.
+  url: https://api.gbif.org/v1/organization/2e5b488d-52e2-4f80-862b-0a60517e3f50/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: provide long-term information of the only-presence of eight wild ungulates and red
+    fox derived from harvest data from Spain
+links:
+- type: partners-with
+  to: big-picture-camera-trapping
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-10-31'
+  quote: Institute for Game and Wildlife Research, University of Castilla-LaMancha, Ciudad
+    Real, Spain
+- type: run-by
+  to: consejo-superior-de-investigaciones-cientificas
+  url: https://api.gbif.org/v1/organization/2e5b488d-52e2-4f80-862b-0a60517e3f50
+  fetched: '2026-10-31'
+  quote: It is a mixed centre, founded by the Spanish National Research Council (CSIC), the
+    University of Castilla-La Mancha (UCLM) and the regional authority Junta de Comunidades
+    de Castilla-La Mancha (JCCM).
+found_by:
+- link-from:big-picture-camera-trapping
+- register:es
+added_by: agent
+checked: '2026-10-31'

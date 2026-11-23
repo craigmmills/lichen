@@ -1,0 +1,65 @@
+id: south-african-national-land-cover
+kind: dataset
+name: South African National Land Cover
+scope: za
+ai_label: data-infrastructure
+status: active
+runner: unknown
+also_known_as:
+- SANLC
+realms:
+- land
+techniques:
+- remote-sensing
+summary: National land cover dataset whose 2022 edition uses Sentinel-2 imagery with automated classification,
+  which the department builds, runs and uses, including for protected area monitoring.
+facts:
+- claim: The 2022 edition uses Sentinel-2 multispectral imagery and computer automated land cover classification.
+  url: https://statssa.gov.za/wp-content/uploads/2024/07/3.-NATIONAL-NCA-FORUM-LANDCOVER-2024-08-07-1.pdf
+  fetched: '2026-10-31'
+  quote: Computer Automated Land Cover
+- claim: A presentation to the National Natural Capital Accounting Forum gives 73 land cover classes.
+  url: https://statssa.gov.za/wp-content/uploads/2024/07/3.-NATIONAL-NCA-FORUM-LANDCOVER-2024-08-07-1.pdf
+  fetched: '2026-10-31'
+  quote: The 73 Land-Cover Classes
+- claim: The presentation describes its operational use for the department, including protected area monitoring.
+  url: https://statssa.gov.za/wp-content/uploads/2024/07/3.-NATIONAL-NCA-FORUM-LANDCOVER-2024-08-07-1.pdf
+  fetched: '2026-10-31'
+  quote: operational use for DFFE
+- claim: A conference presentation says DFFE produces the national land cover datasets.
+  url: https://cce-datasharing.gsfc.nasa.gov/files/conference_presentations/Talk_Moyo_43_43.pdf
+  fetched: '2026-10-31'
+  quote: In South Africa, DFFE is responsible for producing the national land cover datasets
+- claim: The 2018, 2020 and 2022 land cover maps were generated in CALC.
+  url: https://cce-datasharing.gsfc.nasa.gov/files/conference_presentations/Talk_Moyo_43_43.pdf
+  fetched: '2026-10-31'
+  quote: 2020 and 2022 land cover generated in CALC.
+links:
+- type: used-by
+  to: department-of-forestry-fisheries-and-the-environment
+  url: https://statssa.gov.za/wp-content/uploads/2024/07/3.-NATIONAL-NCA-FORUM-LANDCOVER-2024-08-07-1.pdf
+  fetched: '2026-10-31'
+  quote: operational use for DFFE
+- type: run-by
+  to: department-of-forestry-fisheries-and-the-environment
+  url: https://cce-datasharing.gsfc.nasa.gov/files/conference_presentations/Talk_Moyo_43_43.pdf
+  fetched: '2026-10-31'
+  quote: 'South African National Land Cover (SANLC) datasets are
+
+    generated and managed by the DFFE.'
+- type: builds-on
+  to: computer-automated-land-cover-system
+  url: https://cce-datasharing.gsfc.nasa.gov/files/conference_presentations/Talk_Moyo_43_43.pdf
+  fetched: '2026-10-31'
+  quote: 2020 and 2022 land cover generated in CALC.
+- type: built-by
+  to: department-of-forestry-fisheries-and-the-environment
+  url: https://cce-datasharing.gsfc.nasa.gov/files/conference_presentations/Talk_Moyo_43_43.pdf
+  fetched: '2026-10-31'
+  quote: 'South African National Land Cover (SANLC) datasets are
+
+    generated and managed by the DFFE.'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

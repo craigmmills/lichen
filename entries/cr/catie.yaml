@@ -1,0 +1,65 @@
+id: catie
+kind: organisation
+name: Centro Agronómico Tropical de Investigación y Enseñanza
+also_known_as:
+- CATIE
+- Tropical Agricultural Research and Higher Education Center
+scope: cr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: cr
+countries:
+- cr
+scale: regional
+status: active
+website: https://www.catie.cr/
+summary: Regional research and teaching centre in Turrialba, Costa Rica, with 13 member countries,
+  which runs the SERVIR Central America hub and is affiliated with a 2021 Landsat paper on
+  tropical forest degradation.
+facts:
+- claim: Describes itself as a regional centre dedicated to research.
+  url: https://www.catie.cr/sobre-catie
+  fetched: '2026-11-08'
+  quote: Somos un centro regional dedicado a la investigación
+- claim: Says it has 13 member countries.
+  url: https://www.catie.cr/sobre-catie
+  fetched: '2026-11-08'
+  quote: 13 Países Miembros
+- claim: Gives its address in Turrialba, Costa Rica.
+  url: https://www.catie.cr/sobre-catie
+  fetched: '2026-11-08'
+  quote: Turrialba 30501, Costa Rica
+- claim: SERVIR says its Central America hub is implemented by CATIE in Costa Rica.
+  url: https://www.servirglobal.net/about
+  fetched: '2026-11-08'
+  quote: Implemented by the Tropical Agricultural Research and Higher Education Center (CATIE)
+    in Costa Rica.
+- claim: OpenAlex lists a 2021 paper on the causes of tropical forest degradation from Landsat
+    time series whose first author, Julie Betbeder, is affiliated with CATIE and CIRAD.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05tkvpg69|05byh2e17|00cxrw595|004yr7j39|02s4dhq46|0529rbt18|02tkjx303,publication_year:>2017,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707|1710&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-08
+  quote: 'Assessing the Causes of Tropical Forest Degradation Using Landsat Time Series: A
+    Case Study in the Brazilian Amazon'
+- claim: The first author is listed with CATIE.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05tkvpg69|05byh2e17|00cxrw595|004yr7j39|02s4dhq46|0529rbt18|02tkjx303,publication_year:>2017,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707|1710&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-08
+  quote: Centro Agronomico Tropical de Investigacion y Ensenanza Catie
+links:
+- type: runs
+  to: servir-central-america
+  url: https://www.servirglobal.net/about
+  fetched: '2026-11-08'
+  quote: Implemented by the Tropical Agricultural Research and Higher Education Center (CATIE)
+    in Costa Rica.
+found_by:
+- link-from:servir
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

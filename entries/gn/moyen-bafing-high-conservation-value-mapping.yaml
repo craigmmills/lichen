@@ -1,0 +1,63 @@
+id: moyen-bafing-high-conservation-value-mapping
+kind: project
+name: Mapping of high conservation value areas in Moyen-Bafing National Park (Femmes
+  pro-Forêts)
+also_known_as:
+- Identification des zones de haute valeur pour la conservation de la biodiversité,
+  Parc national du Moyen-Bafing
+scope: gn
+ai_label: ai
+ai_types:
+- ml-supervised
+- ml-unsupervised
+realms:
+- land
+techniques:
+- remote-sensing
+- species-distribution
+countries:
+- gn
+status: closed
+summary: A closed mapping project for Moyen-Bafing National Park, built by Habitat,
+  whose 2024 report identifies high conservation value areas using Sentinel-2 land
+  cover classification and species distribution models.
+facts:
+- claim: Habitat's 2024 report identifies high conservation value areas for biodiversity.
+  url: https://www.upa.qc.ca/fileadmin/UPADI/afrique/Femmes_Pro-Forets/Rapport_Habitat.pdf
+  fetched: 2026-11-15
+  quote: Habitat (2024). Identification des zones de haute valeur pour la conservation
+    de la biodiversité
+- claim: The Femmes pro-Forêts project is led by the Union des producteurs agricoles
+    - Développement international.
+  url: https://www.upa.qc.ca/fileadmin/UPADI/afrique/Femmes_Pro-Forets/Rapport_Habitat.pdf
+  fetched: 2026-11-15
+  quote: Le projet Femmes pro-Forêts, mené par l’Union des producteurs agricoles -
+    Développement
+- claim: The land cover of the park was classified by unsupervised classification,
+    mainly from Sentinel-2 satellite images.
+  url: https://www.upa.qc.ca/fileadmin/UPADI/afrique/Femmes_Pro-Forets/Rapport_Habitat.pdf
+  fetched: 2026-11-15
+  quote: classification non supervisée, principalement à partir d’images satellitaires
+    de Sentinel-2, pour
+  ai_type: ml-unsupervised
+- claim: A supervised classification model was developed from the labelled data of
+    the 2020 unsupervised classification.
+  url: https://www.upa.qc.ca/fileadmin/UPADI/afrique/Femmes_Pro-Forets/Rapport_Habitat.pdf
+  fetched: 2026-11-15
+  quote: nous avons développé un modèle de classification supervisé basé sur les données
+  ai_type: ml-supervised
+- claim: Species distribution models were used to characterise habitat quality.
+  url: https://www.upa.qc.ca/fileadmin/UPADI/afrique/Femmes_Pro-Forets/Rapport_Habitat.pdf
+  fetched: 2026-11-15
+  quote: distribution d’espèces, il a été possible de caractériser la qualité des
+    habitats en se basant sur
+links:
+- type: built-by
+  to: habitat-eco2urb
+  url: https://www.upa.qc.ca/fileadmin/UPADI/afrique/Femmes_Pro-Forets/Rapport_Habitat.pdf
+  fetched: 2026-11-15
+  quote: Modélisation réalisée par Habitat (détaillée à la section 3.2)
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

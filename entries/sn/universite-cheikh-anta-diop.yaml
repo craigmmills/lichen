@@ -1,0 +1,33 @@
+id: universite-cheikh-anta-diop
+kind: organisation
+name: Université Cheikh Anta Diop
+also_known_as:
+- Cheikh Anta Diop University
+- UCAD
+scope: sn
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: sn
+countries:
+- sn
+scale: national
+summary: University in Dakar behind the Senegal Bird Atlas, and the parent of several research
+  units already on the map.
+facts:
+- claim: OpenAlex places Cheikh Anta Diop University in Dakar.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=Cheikh%20Anta%20Diop%20University
+  quote: '"display_name": "Cheikh Anta Diop University", "homepage_url": "https://www.ucad.sn/",
+    "geo": {"city": "Dakar"'
+  fetched: '2026-10-31'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false
+website: https://www.ucad.sn/

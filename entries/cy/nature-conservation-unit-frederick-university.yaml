@@ -1,0 +1,45 @@
+id: nature-conservation-unit-frederick-university
+kind: organisation
+name: Nature Conservation Unit, Frederick University
+scope: cy
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: cy
+countries:
+- cy
+scale: national
+status: active
+website: https://frederick.ac.cy/nature-conservation-unit
+summary: Established in 2005 to study, monitor and conserve Cyprus's flora, fauna
+  and habitats, the unit is the first author's affiliation on a 2025 bird acoustic
+  indices paper.
+facts:
+- claim: OpenAlex lists a 2025 paper on the combined effectiveness of acoustic indices
+    in measuring bird species richness in Cyprus, China and Australia.
+  url: https://api.openalex.org/works/W4406588817?select=id,title,publication_year,authorships
+  fetched: '2026-11-12'
+  quote: '"title":"The combined effectiveness of acoustic indices in measuring bird
+    species richness in biodiverse sites in Cyprus, China, and Australia","publication_year":2025'
+- claim: The paper's first author gives the Nature Conservation Unit, Frederick University,
+    Nicosia, as his first affiliation.
+  url: https://api.openalex.org/works/W4406588817?select=id,title,publication_year,authorships
+  fetched: '2026-11-12'
+  quote: '"raw_affiliation_strings":["Nature Conservation Unit, Frederick University,
+    Nicosia 1036, Cyprus"'
+- claim: Frederick University says the unit was established in 2005 and focuses on
+    the study, monitoring and conservation of the flora, fauna and habitats of Cyprus.
+  url: https://frederick.ac.cy/nature-conservation-unit
+  fetched: '2026-11-12'
+  quote: More specifically, the Unit focuses on the study, monitoring and conservation
+    of the flora, fauna and habitats of Cyprus and the management of ecologically
+    important areas of the island.
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

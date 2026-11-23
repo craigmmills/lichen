@@ -1,0 +1,87 @@
+id: universidad-san-francisco-de-quito
+kind: organisation
+name: Universidad San Francisco de Quito
+also_known_as:
+- USFQ
+scope: ec
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+hq: ec
+countries:
+- ec
+scale: national
+status: active
+summary: Quito university whose researchers published deep learning work on sharks, sea lions,
+  Amazon animals and ladybird beetles, and which reports research, teaching and conservation
+  at three scientific stations.
+facts:
+- claim: OpenAlex lists a paper with USFQ authors on tracking hammerhead sharks with deep
+    learning.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: Tracking Hammerhead Sharks With Deep Learning
+  ai_type: deep-learning
+- claim: OpenAlex lists a paper with USFQ authors on classifying native Amazon animals with
+    deep learning.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: On the Use of Deep Learning Models for Automatic Animal Classification of Native
+    Species in the Amazon
+- claim: A PLOS One paper with USFQ authors reports deep learning detection of ladybird beetles.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253027
+  fetched: 2026-11-02
+  quote: Automatic ladybird beetle detection using deep-learning models
+- claim: Says it runs research, teaching and conservation at three scientific stations.
+  url: https://www.usfq.edu.ec/es/investigacion/unidades-de-investigacion
+  fetched: '2026-11-02'
+  quote: desarrolla investigación, docencia y conservación en 3 estaciones científicas
+- claim: Its main campus is at Cumbayá.
+  url: https://www.usfq.edu.ec/es
+  fetched: '2026-11-02'
+  quote: Tu formación parte del campus Cumbayá
+- claim: USFQ researchers published a paper on using YOLO-NAS and YOLOv8 to detect sea lions
+    in the Galapagos.
+  url: https://api.openalex.org/works/W4391496666
+  quote: On the Use of YOLO-NAS and YOLOv8 for the Detection of Sea Lions in the Galapagos
+    Islands
+  fetched: '2026-11-02'
+- claim: USFQ researchers published a paper on deep learning models for classifying native
+    animal species in the Amazon.
+  url: https://api.openalex.org/works/W4388758612
+  quote: On the Use of Deep Learning Models for Automatic Animal Classification of Native
+    Species in the Amazon
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: USFQ researchers published a paper on automatic animal classification for monitoring
+    native species in the Amazon.
+  url: https://api.openalex.org/works/W4386211390
+  quote: Towards Automatic Animal Classification in Wildlife Environments for Native Species
+    Monitoring in the Amazon
+  fetched: '2026-11-02'
+- claim: The paper's affiliations give Quito, Ecuador.
+  url: https://api.openalex.org/works/W4386211390
+  quote: Quito,Ecuador,170157
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+- link-from:amazon-ia
+- link-from:bearid-project
+- checklist:register-d
+added_by: agent
+checked: 2026-11-02
+links:
+- type: partners-with
+  to: amazon-ia
+  url: https://cyprusshippingnews.com/2026/09/29/planet-announces-amazon-ia-a-new-tool-that-combines-satellite-data-science-and-ai-to-protect-the-amazon/
+  fetched: '2026-11-02'
+  quote: Universidad San Francisco de Quito (Rivas Torres Lab)

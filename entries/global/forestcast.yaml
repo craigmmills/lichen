@@ -1,0 +1,30 @@
+id: forestcast
+kind: dataset
+name: ForestCast
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Deep learning approach and benchmark dataset for forecasting deforestation risk from satellite data, released by Google DeepMind and Google Research in November 2025.
+facts:
+- claim: Described by its authors as the first publicly available benchmark for training deep learning models to predict deforestation risk.
+  url: https://research.google/blog/forecasting-the-future-of-forests-with-ai-from-counting-losses-to-predicting-risk/
+  fetched: &id001 2026-10-30
+  quote: the first publicly available benchmark dataset dedicated to training deep learning models to predict deforestation risk
+- claim: The authors say it gives a template for scaling to Latin America and Africa.
+  url: https://research.google/blog/forecasting-the-future-of-forests-with-ai-from-counting-losses-to-predicting-risk/
+  fetched: *id001
+  quote: to model tropical deforestation across Latin America and Africa
+links:
+- type: run-by
+  to: google-deepmind
+  url: https://research.google/blog/forecasting-the-future-of-forests-with-ai-from-counting-losses-to-predicting-risk/
+  fetched: *id001
+  quote: Drew Purves, Research Scientist, Google DeepMind, and Charlotte Stanton, Senior Program Manager, Google Research, on behalf of the ForestCast team
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

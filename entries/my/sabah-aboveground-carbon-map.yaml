@@ -1,0 +1,32 @@
+id: sabah-aboveground-carbon-map
+kind: dataset
+name: Sabah aboveground carbon map
+scope: my
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- my
+status: active
+summary: Carbon map built by the Carnegie Airborne Observatory, which Mongabay reports used airborne LiDAR
+  and satellite imagery to give a wall-to-wall account of carbon in Sabah.
+facts:
+- claim: Mongabay reports that airborne LiDAR and satellite imagery gave a wall-to-wall account of carbon
+    in Sabah.
+  url: https://news.mongabay.com/2017/11/new-carbon-maps-of-sabahs-forests-guide-conservation-in-borneo/
+  fetched: 2026-11-03
+  quote: Airborne LiDAR mapping combined with satellite imagery analysis has provided scientists, government
+    agencies and NGOs with a “wall-to-wall” account of the carbon held in Sabah
+links:
+- type: built-by
+  to: carnegie-airborne-observatory
+  url: https://news.mongabay.com/2017/11/new-carbon-maps-of-sabahs-forests-guide-conservation-in-borneo/
+  fetched: 2026-11-03
+  quote: In the end, they came up with a “wall-to-wall” map of carbon stocks in Sabah down to 30-meter
+    (98-foot) resolution
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-03

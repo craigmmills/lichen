@@ -1,0 +1,41 @@
+id: fish-detection-ai
+kind: model
+name: Fish Detection AI
+scope: us
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- freshwater
+techniques:
+- computer-vision
+scale: national
+status: active
+summary: Sonar image models from the US Department of Energy, including a Faster R-CNN
+  trained on Alaska Fish and Game sonar images, to identify, track and count fish.
+facts:
+- claim: A Faster R-CNN was developed using Alaska Fish and Game sonar images to identify,
+    track and count fish.
+  url: https://catalog.data.gov/dataset/fish-detection-ai-sonar-image-trained-detection-counting-tracking-models
+  quote: A Faster R-CNN (Region-based Convolutional Neural Network) was developed
+    using sonar images from Alaska Fish and Games to identify, track, and count fish
+    in underwater environments.
+  ai_type: deep-learning
+  fetched: '2026-10-30'
+- claim: Trained with supervised methods on labelled fish data.
+  url: https://catalog.data.gov/dataset/fish-detection-ai-sonar-image-trained-detection-counting-tracking-models
+  quote: Supervised methods were used with Faster R-CNN to detect fish based on training
+    using labeled data of fish.
+  ai_type: ml-supervised
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: water-power-technologies-office
+  url: https://catalog.data.gov/dataset/fish-detection-ai-sonar-image-trained-detection-counting-tracking-models
+  quote: Published by Water Power Technology Office
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

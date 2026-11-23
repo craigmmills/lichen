@@ -1,0 +1,41 @@
+id: moscow-region-protected-area-ai-monitoring
+kind: project
+name: Moscow Region protected-area AI monitoring
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ru
+status: proposed
+summary: Proposed protected-area monitoring system, which the ministry described in October 2026 as validated
+  and ready for replication, comparing satellite images, radar readings and other sources to find anomalies.
+facts:
+- claim: In October 2026, the ministry described a validated system that compares satellite images, radar
+    readings and other sources to find anomalies.
+  url: https://360.ru/news/mosobl/v-podmoskove-razrabotali-ii-sistemu-monitoringa-sostojanija-oopt/
+  quote: Она постоянно анализирует ситуацию в ООПТ, сопоставляя данные, полученные из нескольких источников,
+    в том числе снимков из космоса, показаний радаров и других
+  fetched: '2026-10-31'
+- claim: Passed validation and is ready for replication.
+  url: https://360.ru/news/mosobl/v-podmoskove-razrabotali-ii-sistemu-monitoringa-sostojanija-oopt/
+  quote: Система прошла валидацию и готова к тиражированию.
+  fetched: '2026-10-31'
+links:
+- type: built-by
+  to: ministry-of-ecology-moscow-region
+  url: https://360.ru/news/mosobl/v-podmoskove-razrabotali-ii-sistemu-monitoringa-sostojanija-oopt/
+  quote: В Минэкологии Московской области разработали систему автоматического мониторинга состояния особо
+    охраняемых природных территорий
+  fetched: '2026-10-31'
+- type: partners-with
+  to: sber
+  url: https://360.ru/news/mosobl/v-podmoskove-razrabotali-ii-sistemu-monitoringa-sostojanija-oopt/
+  quote: Проект реализован совместно со Сбером.
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

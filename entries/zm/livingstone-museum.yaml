@@ -1,0 +1,53 @@
+id: livingstone-museum
+kind: organisation
+name: Livingstone Museum
+also_known_as: []
+scope: zm
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+hq: zm
+countries:
+- zm
+scale: national
+status: active
+summary: Zambia's oldest and largest museum, which says it holds the largest reference collection on Zambian
+  biodiversity and publishes Zambian bat specimen and monitoring datasets through GBIF.
+facts:
+- claim: Its GBIF publisher record says it is the oldest and largest museum in Zambia and one of the five
+    national museums under the National Museums Board.
+  url: https://api.gbif.org/v1/organization/41ed8e0d-6ec5-43a7-a417-f275015fc96b
+  fetched: 2026-11-08
+  quote: The Livingstone Museum is the oldest and largest museum in Zambia. Established in 1934, it is
+    one of the five national museums under the National Museums Board.
+- claim: Its GBIF publisher record says it holds the largest reference collection on the biodiversity
+    of Zambia.
+  url: https://api.gbif.org/v1/organization/41ed8e0d-6ec5-43a7-a417-f275015fc96b
+  fetched: 2026-11-08
+  quote: It holds the largest reference collection on the biodiversity of Zambia, dating back to the mid-20th
+    Century.
+- claim: Publishes through GBIF a dataset of Zambian bat specimen records collected in Zambia and stored
+    in institutions around the world.
+  url: https://api.gbif.org/v1/organization/41ed8e0d-6ec5-43a7-a417-f275015fc96b/publishedDataset?limit=5
+  fetched: 2026-11-08
+  quote: This dataset contains records of bat specimens collected in Zambia and stored in various institutions
+    around the world.
+- claim: The dataset record says it set out to cover all sources of Zambian bat occurrence data from preserved
+    specimens not already published to GBIF.
+  url: https://api.gbif.org/v1/dataset/b2d6d198-fad5-492f-a36b-8da2296189bb
+  fetched: 2026-11-08
+  quote: An attempt was made to cover all sources of Zambian bat occurrence data from preserved specimens
+    that had not already been published to the GBIF online database.
+- claim: Also publishes through GBIF bat monitoring data from the Bats in Zambia project.
+  url: https://api.gbif.org/v1/organization/41ed8e0d-6ec5-43a7-a417-f275015fc96b/publishedDataset?limit=5
+  fetched: 2026-11-08
+  quote: This dataset contains bat monitoring data collected by the ‘Bats in Zambia’ bat conservation
+    and research project.
+found_by:
+- register:zm
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,76 @@
+id: space-research-centre-polish-academy-of-sciences
+kind: organisation
+name: Space Research Centre of the Polish Academy of Sciences
+also_known_as:
+- Centrum Badań Kosmicznych PAN
+- CBK PAN
+scope: pl
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: pl
+scale: national
+status: active
+summary: Research institute established in 1977 that builds S2GLC maps, processes satellite
+  images and classifies land cover using Random Forest, while also working on land use classification.
+facts:
+- claim: It was established in 1977 as a research institute.
+  url: https://arica.gridw.pl/en/partners/cbk-pan
+  fetched: '2026-11-02'
+  quote: It was established in 1977 as a research institute
+- claim: The Earth Observation Department works on processing satellite images and on land
+    cover and land use classification.
+  url: https://arica.gridw.pl/en/partners/cbk-pan
+  fetched: '2026-11-02'
+  quote: activity is focused on processing of satellite images and developing GIS applications
+- claim: Its land cover classification uses a Random Forest classifier.
+  url: https://www.iopan.pl/KNK2025/a/KNK2025_Lewinski_abstract.pdf
+  fetched: '2026-11-02'
+  quote: Zastosowano klasyfikator Random Forest.
+  ai_type: ml-supervised
+- claim: The department specialises in remote sensing.
+  url: https://cbkpan.pl/o-nas/struktura/zoz/
+  fetched: '2026-11-02'
+  quote: Zakład specjalizuje się w teledetekcji.
+- claim: Its Earth Observation Department monitors land and marine waters at local and regional
+    level.
+  url: https://cbkpan.pl/o-nas/struktura/zoz/
+  fetched: '2026-11-02'
+  quote: Środowisko – monitoring lądów oraz wód morskich na poziomie lokalnym i regionalnym
+- claim: Its Earth Observation Department classifies images using supervised, unsupervised,
+    hybrid and object methods.
+  url: https://cbkpan.pl/o-nas/struktura/zoz/
+  fetched: '2026-11-02'
+  quote: 'Klasyfikacja zobrazowań: nienadzorowana, nadzorowana, hybrydowa i obiektowa.'
+- claim: Its page gives an address in Warsaw.
+  url: https://cbkpan.pl/o-nas/struktura/zoz/
+  fetched: '2026-11-02'
+  quote: ul. Bartycka 18a, 00-716 Warszawa
+links:
+- type: builds
+  to: s2glc-land-cover-maps
+  url: https://polsa.gov.pl/?p=18604
+  fetched: '2026-11-02'
+  quote: The methodology developed by The Space Research Centre of the Polish Academy of Sciences
+    (CBK PAN)
+- type: partners-with
+  to: polish-partnership-for-earth-observation
+  url: https://ctk.agh.edu.pl/en/news/detail/polish-partnership-for-earth-observation-established
+  fetched: '2026-11-02'
+  quote: 'The partnership involves three scientific and educational institutions: the Space
+    Technology Centre AGH, the Space Research Centre PAN, and the Centre for Scientific Geospatial
+    Analyses and Satellite Computations.'
+found_by:
+- checklist:3
+- checklist:1
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,96 @@
+id: plantbank
+kind: organisation
+name: PlantBank
+scope: cz
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- cz
+scale: national
+status: active
+summary: A Czech consortium of four members that jointly operates an e-infrastructure for
+  curated plant and vegetation data, and runs Pladias, according to GBIF's publisher record.
+facts:
+- claim: GBIF's publisher record names its four members and says they jointly operate the
+    PlantBank e-infrastructure.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+    Masaryk University – Faculty of Science; University of South Bohemia – Faculty of Science;
+    and the Czech Botanical Society) that jointly operates the PlantBank e-infrastructure
+- claim: Its GBIF publisher record describes it as a Czech consortium that jointly operates
+    an e-infrastructure for curated plant and vegetation data centred on Pladias.
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: jointly operates the PlantBank e-infrastructure centred on the Pladias platform (pladias.cz)
+    and related systems for curated plant and vegetation data.
+links:
+- type: runs
+  to: pladias
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: jointly operates the PlantBank e-infrastructure centred on the Pladias platform (pladias.cz)
+- type: partners-with
+  to: institute-of-botany-of-the-czech-academy-of-sciences
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+- type: partners-with
+  to: masaryk-university
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: Masaryk University – Faculty of Science;
+- type: partners-with
+  to: university-of-south-bohemia
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: University of South Bohemia – Faculty of Science;
+- type: partners-with
+  to: czech-botanical-society
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: and the Czech Botanical Society) that jointly operates the PlantBank e-infrastructure
+- type: partners-with
+  to: institute-of-botany-of-the-czech-academy-of-sciences
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+    Masaryk University – Faculty of Science; University of South Bohemia – Faculty of Science;
+    and the Czech Botanical Society)
+- type: partners-with
+  to: masaryk-university
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+    Masaryk University – Faculty of Science; University of South Bohemia – Faculty of Science;
+    and the Czech Botanical Society)
+- type: partners-with
+  to: university-of-south-bohemia
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+    Masaryk University – Faculty of Science; University of South Bohemia – Faculty of Science;
+    and the Czech Botanical Society)
+- type: partners-with
+  to: czech-botanical-society
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: PlantBank is a Czech consortium (Institute of Botany of the Czech Academy of Sciences;
+    Masaryk University – Faculty of Science; University of South Bohemia – Faculty of Science;
+    and the Czech Botanical Society)
+- type: represented-by
+  to: institute-of-botany-of-the-czech-academy-of-sciences
+  url: https://api.gbif.org/v1/organization/a1f0ce78-f8aa-4ad9-8315-4c5de93f3ea6
+  fetched: 2026-11-07
+  quote: the consortium formally mandates the Institute of Botany (IBOT CAS) to act on behalf
+    of PlantBank by administering the shared GBIF publisher
+found_by:
+- link-from:masaryk-university
+- register:cz
+added_by: agent
+checked: 2026-11-07

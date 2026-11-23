@@ -1,0 +1,29 @@
+id: mitofish
+kind: dataset
+name: MitoFish
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+status: active
+realms:
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+website: https://mitofish.aori.u-tokyo.ac.jp
+summary: Fish mitochondrial genome resource with the MitoAnnotator and MiFish Pipeline tools, at the University of Tokyo.
+facts:
+- claim: OpenAlex lists the 2023 update paper.
+  url: https://api.openalex.org/works?search=MitoFish%20MiFish%20Pipeline&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: 'MitoFish, MitoAnnotator, and MiFish Pipeline: Updates in 10 Years'
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: university-of-tokyo
+  url: https://api.openalex.org/works?search=MitoFish%20MiFish%20Pipeline&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: The University of Tokyo
+  fetched: '2026-10-30'
+found_by:
+- link-from:midori-reference
+added_by: agent
+checked: '2026-10-30'

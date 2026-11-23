@@ -1,0 +1,27 @@
+id: czech-national-phytosociological-database
+kind: dataset
+name: Czech National Phytosociological Database
+scope: cz
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- cz
+status: active
+summary: Database of vegetation plots, described in GBIF's publisher record for the department and run
+  by Masaryk University.
+facts:
+- claim: GBIF's publisher record for the department describes it as a database of vegetation plots.
+  url: https://api.gbif.org/v1/organization/9a4467a2-eccd-4aa7-bb6d-aea3a31f2a2c
+  fetched: 2026-11-07
+  quote: the Czech National Phytosociological Database, a database of vegetation plots
+links:
+- type: run-by
+  to: masaryk-university
+  url: https://api.gbif.org/v1/organization/9a4467a2-eccd-4aa7-bb6d-aea3a31f2a2c
+  fetched: 2026-11-07
+  quote: The Department also hosts and coordinates the Czech National Phytosociological Database
+found_by:
+- link-from:masaryk-university
+added_by: agent
+checked: 2026-11-07

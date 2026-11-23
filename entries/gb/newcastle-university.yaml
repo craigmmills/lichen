@@ -1,0 +1,46 @@
+id: newcastle-university
+kind: organisation
+name: Newcastle University
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+- species-distribution
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University building ALGAE-Watch, a low-cost cyanobacterial sensor and Earth observation
+  analytics for Lough Neagh.
+facts:
+- claim: Advancing a low-cost cyanobacterial sensor and multi-modal Earth observation analytics.
+  url: https://www.daera-ni.gov.uk/news/space-technology-initiative-progresses-help-tackle-blue-green-algae-blooms-muir
+  quote: Advancing a low‑cost cyanobacterial sensor and multi‑modal Earth observation analytics
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.ncl.ac.uk/
+  quote: NE1 7RU
+  fetched: '2026-10-30'
+- claim: 'Publishes the dataset "GalliForm: Galliformes occurrence records from the Indo-Malay
+    and Palaearctic, 1800-2008" on GBIF.'
+  url: https://api.gbif.org/v1/organization/2963d877-8230-45bd-a223-544376275120/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: 'GalliForm: Galliformes occurrence records from the Indo-Malay and Palaearctic, 1800-2008'
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/2963d877-8230-45bd-a223-544376275120/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:3
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.ncl.ac.uk/

@@ -1,0 +1,28 @@
+id: mapa-interactivo-ambiental-ecuador
+kind: dataset
+name: Mapa Interactivo Ambiental
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ec
+status: active
+summary: An environmental map dataset built by the environment ministry, listed with 73 geographic layers
+  in a 2023 consular note.
+facts:
+- claim: A consular note from 2023 lists it with 73 geographic layers.
+  url: https://www.cancilleria.gob.ec/caracas/2023/11/02/geografia-ambiente-hidrico-ecuador/
+  fetched: '2026-11-03'
+  quote: Mapa Interactivo (Con 73 capas geográficas de diferentes temáticas ambientales e hídricas)
+links:
+- type: built-by
+  to: ministerio-de-ambiente-y-energia-ecuador
+  url: https://www.cancilleria.gob.ec/caracas/2023/11/02/geografia-ambiente-hidrico-ecuador/
+  fetched: '2026-11-03'
+  quote: se comparte las distintas herramientas trabajadas por el MAATE
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-03'

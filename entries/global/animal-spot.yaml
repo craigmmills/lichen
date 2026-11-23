@@ -1,0 +1,41 @@
+id: animal-spot
+kind: programme
+name: ANIMAL-SPOT
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- bioacoustics
+status: unknown
+website: https://github.com/ChristianBergler/ANIMAL-SPOT
+summary: Animal-independent deep learning framework for identifying bioacoustic signals,
+  built on a ResNet18 convolutional network and evaluated on ten species and one genus,
+  including killer whale and Atlantic cod.
+facts:
+- claim: Animal-independent deep learning framework for bioacoustic signal identification.
+  url: https://github.com/ChristianBergler/ANIMAL-SPOT/blob/master/README.md
+  fetched: 2026-11-21
+  quote: ANIMAL-SPOT is an animal-independent deep learning software framework that
+    addresses various bioacoustic signal identifcation scenarios
+- claim: Built as a ResNet18-based convolutional neural network.
+  url: https://github.com/ChristianBergler/ANIMAL-SPOT/blob/master/README.md
+  fetched: 2026-11-21
+  quote: ANIMAL-SPOT is a ResNet18-based Convolutional Neural Network (CNN)
+  ai_type: deep-learning
+- claim: Evaluated on ten species and one genus, including killer whale, harbour seal
+    and Atlantic cod.
+  url: https://github.com/ChristianBergler/ANIMAL-SPOT/blob/master/README.md
+  fetched: 2026-11-21
+  quote: was evaluated detecting binary target/noise signals using 10 different species
+    and 1 genus
+links: []
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+runner: unknown

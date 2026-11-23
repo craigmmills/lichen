@@ -1,0 +1,66 @@
+id: eo-clinic-dilijan-national-park-forest-ecosystems
+kind: project
+name: Characterization of Dilijan National Park Forest Ecosystems (ESA EO Clinic EOC0004)
+also_known_as:
+- EOC0004
+scope: am
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- am
+status: closed
+summary: Closed ESA EO Clinic project, run by GeoVille, whose final report delivers
+  land cover maps for eight epochs between 1991 and 2019 to support characterising
+  forest ecosystems in Dilijan National Park.
+facts:
+- claim: The document is the final work order report of ESA EO Clinic project EOC0004.
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: This document is the final Work Order Report of the ESA (European Space Agency)
+    EO Clinic project EOC0004
+- claim: The project delivered land use and land cover maps for eight epochs between
+    1991 and 2019 as planning support for characterising forest ecosystems and their
+    trends in Dilijan National Park.
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: The provided LULC products for 8 epochs between 1991 and 2019 should enable
+    the user to assess historic land
+- claim: Outputs include land cover classifications for 1991, 1995, 2000, 2002, 2005,
+    2010, 2015 and 2019.
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: Land Cover Land Use classification for each epoch (2019, 2015, 2010, 2005,
+    2002, 2000, 1995 and 1991).
+- claim: Land cover change was classified with a supervised stratified random forest
+    classifier.
+  ai_type: ml-supervised
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: The algorithm itself is a supervised stratified random forest classifier
+links:
+- type: run-by
+  to: geoville
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: The consortium is managed by GeoVille who will undertake the initial communication
+    with ESA and UNDP to
+- type: partners-with
+  to: european-space-agency
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: in partnership between ESA, the United
+- type: partners-with
+  to: united-nations-development-programme
+  url: https://eo4society.esa.int/wp-content/uploads/2020/10/EOC0004_WOR_V1.0.pdf
+  fetched: 2026-11-15
+  quote: Nations Development Programme (UNDP) Armenian Office, and a team of service
+    providers contracted by ESA
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

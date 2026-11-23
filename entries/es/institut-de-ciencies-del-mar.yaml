@@ -1,0 +1,103 @@
+id: institut-de-ciencies-del-mar
+kind: organisation
+name: Institut de Ciències del Mar
+also_known_as:
+- ICM-CSIC
+- Institute of Marine Sciences
+- ICM
+- Institute of Marine Sciences of Barcelona
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+hq: es
+scale: national
+status: active
+website: https://www.icm.csic.es
+summary: CSIC marine research institute that promotes the MINKA citizen science platform and
+  coordinates the SMART-ME deep-sea monitoring project.
+facts:
+- claim: Promotes MINKA.
+  url: https://www.icm.csic.es/en/news/minka-reaches-more-100000-biodiversity-observations-catalan-coast-historical-record
+  quote: the citizen science platform MINKA, promoted by the Institut de Ciències del Mar
+    (ICM-CSIC)
+  fetched: '2026-10-31'
+- claim: Coordinates SMART-ME.
+  url: https://cirs.udg.edu/?p=2679
+  quote: Coordinated by the Institute of Marine Sciences (ICM-CSIC)
+  fetched: '2026-10-31'
+- claim: Has joined the MORSE Horizon Europe project.
+  url: https://www.icm.csic.es/es/noticia/el-icm-se-suma-al-proyecto-europeo-morse-para-crear-modelos-para-la-restauracion-y
+  fetched: '2026-10-31'
+  quote: El ICM se suma al proyecto europeo MORSE para crear modelos para la restauración
+    y protección de los ecosistemas marinos
+- claim: GBIF lists it as Institut de Ciències del Mar (CSIC) in Barcelona.
+  url: https://api.gbif.org/v1/organization?country=ES&limit=8&q=Ci%C3%A8ncies%20del%20Mar
+  fetched: '2026-10-31'
+  quote: Institut de Ciències del Mar (CSIC)
+- claim: Leads PETRI-MED.
+  url: https://www.icm.csic.es/es/noticia/arranca-petri-med-un-ambicioso-proyecto-para-monitorizar-la-biodiversidad-microbiana-marina
+  fetched: '2026-10-31'
+  quote: una iniciativa liderada por el Institut de Ciències del Mar (ICM-CSIC)
+- claim: Coordinates SMART-ME.
+  url: https://www.icm.csic.es/es/noticia/arranca-smart-me-un-innovador-proyecto-para-promover-la-recuperacion-de-los-fondos-marinos
+  fetched: '2026-10-31'
+  quote: Coordinada por el ICM-CSIC, la iniciativa instalará un observatorio inteligente de
+    aguas profundas
+- claim: Describes itself as CSIC's largest institute for marine research.
+  url: https://api.gbif.org/v1/organization/ad2c7028-26fd-49c6-88d2-457c207c387b
+  fetched: '2026-10-31'
+  quote: is the largest research institute dedicated to marine research of the Spanish National
+    Research Council (CSIC)
+- claim: Publishes dolphin acoustic recordings made with HydroMoth devices.
+  url: https://api.gbif.org/v1/organization/ad2c7028-26fd-49c6-88d2-457c207c387b/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Recordings were made using a HydroMoth device
+links:
+- type: run-by
+  to: consejo-superior-de-investigaciones-cientificas
+  url: https://api.gbif.org/v1/organization?country=ES&limit=8&q=Ci%C3%A8ncies%20del%20Mar
+  fetched: '2026-10-31'
+  quote: is the largest research institute dedicated to marine research of the Spanish National
+    Research Council (CSIC)
+- type: leads
+  to: petri-med
+  url: https://www.icm.csic.es/es/noticia/arranca-petri-med-un-ambicioso-proyecto-para-monitorizar-la-biodiversidad-microbiana-marina
+  fetched: '2026-10-31'
+  quote: una iniciativa liderada por el Institut de Ciències del Mar (ICM-CSIC)
+- type: leads
+  to: smart-me
+  url: https://www.icm.csic.es/es/noticia/arranca-smart-me-un-innovador-proyecto-para-promover-la-recuperacion-de-los-fondos-marinos
+  fetched: '2026-10-31'
+  quote: Coordinada por el ICM-CSIC
+- type: runs
+  to: minka
+  url: https://minka-sdg.org/
+  fetched: '2026-10-31'
+  quote: Es una iniciativa del grupo EMBIMOS del Institut de Ciències del Mar (ICM‑CSIC).
+- type: run-by
+  to: consejo-superior-de-investigaciones-cientificas
+  url: https://api.gbif.org/v1/organization/ad2c7028-26fd-49c6-88d2-457c207c387b
+  fetched: '2026-10-31'
+  quote: is the largest research institute dedicated to marine research of the Spanish National
+    Research Council (CSIC)
+- type: runs
+  to: minka
+  url: https://icm.csic.es/en/news/icm-spanish-institution-protagonist-european-ocean-days
+  fetched: '2026-10-31'
+  quote: MINKA, one of the ICM-CSIC citizen science observatories
+found_by:
+- checklist:3
+- link-from:gbif-spain
+- register:es
+scope: es
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- remote-sensing
+- edna-genomics
+- bioacoustics

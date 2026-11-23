@@ -1,0 +1,48 @@
+id: scotland-habitat-and-land-cover-map
+kind: dataset
+name: Scotland Habitat and Land Cover Map
+also_known_as:
+- Space Intelligence land cover map of Scotland
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+status: active
+website: https://www.data.gov.uk/dataset/fb20f816-d3cb-433b-9cd5-0e0b8eea7367/scotland-habitat-and-land-cover-map-2022
+summary: Time series of habitat and land cover maps of Scotland, made by AI classification
+  of satellite data to the EUNIS scheme.
+facts:
+- claim: Created using AI to classify satellite data to EUNIS.
+  url: https://www.data.gov.uk/dataset/fb20f816-d3cb-433b-9cd5-0e0b8eea7367/scotland-habitat-and-land-cover-map-2022
+  quote: Habitat and land cover map created using AI to classify satellite data to
+    EUNIS by Space Intelligence in partnership with NatureScot
+  fetched: &id001 2026-10-30
+- claim: Published by Space Intelligence.
+  url: https://thedatalab.com/collaborate-and-innovate/satellite-technology-and-scotlands-biodiversity-a-collaboration-between-space-intelligence-and-naturescot/
+  quote: Check out Space Intelligence’s land cover map of Scotland
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: space-intelligence
+  url: https://www.data.gov.uk/dataset/fb20f816-d3cb-433b-9cd5-0e0b8eea7367/scotland-habitat-and-land-cover-map-2022
+  quote: Habitat and land cover map created using AI to classify satellite data to
+    EUNIS by Space Intelligence in partnership with NatureScot
+  fetched: *id001
+- type: partners-with
+  to: naturescot
+  url: https://www.data.gov.uk/dataset/fb20f816-d3cb-433b-9cd5-0e0b8eea7367/scotland-habitat-and-land-cover-map-2022
+  quote: in partnership with NatureScot
+  fetched: *id001
+- type: run-by
+  to: space-intelligence
+  url: https://thedatalab.com/collaborate-and-innovate/satellite-technology-and-scotlands-biodiversity-a-collaboration-between-space-intelligence-and-naturescot/
+  quote: Space Intelligence’s land cover map of Scotland
+  fetched: '2026-10-30'
+found_by:
+- checklist:2
+- link-from:space-intelligence
+added_by: agent
+checked: *id001

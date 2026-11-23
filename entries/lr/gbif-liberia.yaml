@@ -1,0 +1,30 @@
+id: gbif-liberia
+kind: programme
+name: GBIF Liberia
+also_known_as: []
+scope: lr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques: []
+countries: []
+status: active
+runner: unknown
+summary: Liberia's country node in GBIF, listed in the registry with associate participation status and
+  managed by Benedictus Freeman.
+facts:
+- claim: GBIF's registry lists GBIF Liberia as a country node with associate participation status.
+  url: https://api.gbif.org/v1/node/2f3725cd-0d3d-45eb-9597-1d9d90f14a87
+  fetched: 2026-11-12
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Liberia"'
+- claim: The node manager is Benedictus Freeman.
+  url: https://api.gbif.org/v1/node/2f3725cd-0d3d-45eb-9597-1d9d90f14a87
+  fetched: 2026-11-12
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Benedictus","lastName":"Freeman"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

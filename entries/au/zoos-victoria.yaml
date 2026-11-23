@@ -1,0 +1,45 @@
+id: zoos-victoria
+kind: organisation
+name: Zoos Victoria
+scope: au
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- au
+scale: regional
+status: active
+summary: Zoo-based conservation organisation that worked with Parks Victoria on AI cameras
+  to monitor seals in Port Phillip Bay, as described in a supplier's report.
+facts:
+- claim: A report from the camera supplier describes a Zoos Victoria and Parks Victoria seal
+    monitoring project.
+  url: https://www.securityworldmarket.com/uk/News/Business-News/ai-security-solution-boosts-wildlife-conservation-for-australian-gov
+  fetched: '2026-10-31'
+  quote: The project, a collaborative effort between two Australian government entities—Zoos
+    Victoria and Parks Victoria, aimed to monitor seals on protected haul-out structures in
+    the middle of Port Phillip Bay.
+- claim: A statutory authority.
+  url: https://www.zoo.org.au/about-us/
+  fetched: '2026-10-31'
+  quote: Zoos Victoria is a statutory authority, governed by the Zoological Parks and Gardens
+    Board.
+links:
+- type: partners-with
+  to: parks-victoria
+  url: https://www.securityworldmarket.com/uk/News/Business-News/ai-security-solution-boosts-wildlife-conservation-for-australian-gov
+  fetched: '2026-10-31'
+  quote: The project, a collaborative effort between two Australian government entities—Zoos
+    Victoria and Parks Victoria
+found_by:
+- checklist:rule-zoos-museums
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,82 @@
+id: arauco
+kind: organisation
+name: Arauco
+scope: cl
+sector: company
+roles:
+- supplies-data
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: cl
+countries:
+- cl
+scale: regional
+status: active
+summary: Forestry company headquartered in Chile that uses OroraTech and Lemu-Atlas; the first
+  stage covers more than 91,500 hectares of its land in 20 conservation zones.
+facts:
+- claim: The first stage covers more than 91,500 hectares of its land in 20 conservation zones.
+  url: https://www.theclinic.cl/2026/04/23/se-puede-ver-el-desplazamiento-de-huemules-o-la-ranita-de-darwin-arauco-pone-a-disposicion-publica-datos-de-biodiversidad-de-sus-bosques/amp/
+  fetched: 2026-11-02
+  quote: la plataforma incorpora el análisis de más de 91.500 hectáreas de patrimonio de ARAUCO
+    distribuidas en 20 zonas de conservación
+- claim: In May 2024, OroraTech said it had helped ARAUCO, headquartered in Chile, protect
+    its assets against fires since 2020.
+  url: https://ororatech.com/resources/news-blog/fire-spread-arauco-experience
+  fetched: '2026-11-02'
+  quote: Since 2020, OroraTech has been helping ARAUCO, a leading paper and forest production
+    manufacturer with headquarters in Chile to protect its assets from fires.
+- claim: In March 2023, OroraTech called ARAUCO the largest commercial forestry company in
+    Chile.
+  url: https://ororatech.com/resources/news-blog/ororatech-arauco-battling-devastating-fires-in-chile
+  fetched: '2026-11-02'
+  quote: the largest commercial forestry company in the country ARAUCO
+- claim: Ex-Ante reports ARAUCO announcing it would be the first company to publish biodiversity
+    and environmental data obtained through Lemu-Atlas.
+  url: https://www.ex-ante.cl/arauco-pone-a-disposicion-publica-datos-de-biodiversidad-a-traves-de-lemu-atlas/
+  fetched: 2026-11-02
+  quote: ARAUCO anunció que será la primera empresa en hacer públicos los datos de biodiversidad
+    y ambientales obtenidos a través de Lemu-Atlas
+- claim: The same piece describes Lemu-Atlas as combining satellite data, artificial intelligence
+    and science.
+  url: https://www.ex-ante.cl/arauco-pone-a-disposicion-publica-datos-de-biodiversidad-a-traves-de-lemu-atlas/
+  fetched: 2026-11-02
+  quote: combinando datos satelitales, inteligencia artificial y ciencia
+- claim: The piece covers more than 91,500 hectares of ARAUCO land in 20 conservation zones.
+  url: https://www.ex-ante.cl/arauco-pone-a-disposicion-publica-datos-de-biodiversidad-a-traves-de-lemu-atlas/
+  fetched: 2026-11-02
+  quote: más de 91.500 hectáreas de patrimonio de ARAUCO distribuidas en 20 zonas de conservación
+links:
+- type: uses
+  to: lemu-atlas
+  url: https://www.theclinic.cl/2026/04/23/se-puede-ver-el-desplazamiento-de-huemules-o-la-ranita-de-darwin-arauco-pone-a-disposicion-publica-datos-de-biodiversidad-de-sus-bosques/amp/
+  fetched: 2026-11-02
+  quote: Arauco anunció un convenio con la plataforma Atlas, de Lemu
+- type: uses
+  to: ororatech
+  url: https://ororatech.com/resources/news-blog/fire-spread-arauco-experience
+  fetched: '2026-11-02'
+  quote: our customers from Chile utilize Fire Spread in real-life scenarios to combat wildfires
+    on the ground
+- type: uses
+  to: lemu
+  url: https://www.ex-ante.cl/arauco-pone-a-disposicion-publica-datos-de-biodiversidad-a-traves-de-lemu-atlas/
+  fetched: 2026-11-02
+  quote: ARAUCO pone a disposición pública datos de biodiversidad a través de Lemu-Atlas
+- type: partners-with
+  to: ororatech
+  url: https://www.ex-ante.cl/?p=338559
+  fetched: 2026-11-02
+  quote: junto a su socio tecnológico OroraTech, habilitó de forma gratuita y extraordinaria
+    para CONAF una plataforma satelital de detección y simulación de incendios
+found_by:
+- checklist:5
+- link-from:ororatech
+- checklist:register
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing

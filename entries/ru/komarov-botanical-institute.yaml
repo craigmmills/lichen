@@ -1,0 +1,50 @@
+id: komarov-botanical-institute
+kind: organisation
+name: Komarov Botanical Institute of the Russian Academy of Sciences
+also_known_as:
+- БИН РАН
+- Ботанический институт им. В. Л. Комарова РАН
+scope: ru
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ru
+scale: national
+status: active
+website: https://www.binran.ru
+summary: Russian Academy of Sciences botanical institute that runs the Phytocoenarium database
+  and lists herbarium indexes and the Russian Arctic Vegetation Archive among its databases.
+facts:
+- claim: Lists the Phytocoenarium database of geobotanical descriptions.
+  url: https://www.binran.ru/resursy/informatsionnyye-resursy/
+  fetched: 2026-10-31
+  quote: База данных геоботанических описаний «Фитоценарий БИН РАН»
+- claim: Lists Herbaria of Russia, Index Herbariorum Rossicum.
+  url: https://www.binran.ru/resursy/informatsionnyye-resursy/
+  fetched: 2026-10-31
+  quote: Гербарии России (Index Herbariorum Rossicum)
+- claim: Its Laboratory of Dynamics of the Arctic Vegetation Cover lists the Russian Arctic
+    Vegetation Archive under databases.
+  url: https://www.binran.ru/en/structure/podrazdelenia/laboratoriya-dinamiki-rastitelnogo-pokrova-arktiki/baza-dannykh/
+  fetched: '2026-10-31'
+  quote: Russian Arctic Vegetation Archive — A new database of plant community composition
+    and environmental conditions
+- claim: Its GBIF publisher record gives its address.
+  url: https://api.gbif.org/v1/organization/6fc06c4f-cbc6-408b-9d93-3061dfe015c9
+  fetched: '2026-10-31'
+  quote: Professora Popova str., 2
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-10-31
+links:
+- type: runs
+  to: phytocoenarium
+  url: https://binran.ru/resursy/informatsionnyye-resursy/tekuschie-proekty/phytocoenarium/
+  fetched: '2026-10-31'
+  quote: Фитоценарий БИН РАН ведет свою деятельность с 02.05.2023 года и в настоящий момент
+    находится на стадии пополнения со стороны сотрудников лабораторий

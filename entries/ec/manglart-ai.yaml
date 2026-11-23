@@ -1,0 +1,34 @@
+id: manglart-ai
+kind: model
+name: ManglArt AI
+scope: ec
+ai_label: ai
+ai_types:
+- ml-unsupervised
+realms:
+- ocean
+countries:
+- ec
+status: active
+summary: A model, built by Universidad Espíritu Santo, that uses unsupervised machine learning to interpret
+  biosignals taken from mangroves by dendrometric sensors.
+facts:
+- claim: It interprets biosignals that dendrometric sensors take from mangroves.
+  url: https://uees.edu.ec/programa-biodiversidad-sostenible/
+  fetched: '2026-11-02'
+  quote: interpreta las bioseñales que los sensores dendrométricos obtienen de los manglares
+- claim: It uses unsupervised machine learning.
+  url: https://uees.edu.ec/programa-biodiversidad-sostenible/
+  fetched: '2026-11-02'
+  quote: analiza miles de registros mediante Machine Learning No Supervisado
+  ai_type: ml-unsupervised
+links:
+- type: built-by
+  to: universidad-espiritu-santo
+  url: https://uees.edu.ec/programa-biodiversidad-sostenible/
+  fetched: '2026-11-02'
+  quote: ManglArt AI es el marco computacional desarrollado dentro del Programa Biodiversidad Sostenible
+found_by:
+- link-from:universidad-espiritu-santo
+added_by: agent
+checked: '2026-11-03'

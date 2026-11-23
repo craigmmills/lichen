@@ -1,0 +1,39 @@
+id: universidad-politecnica-de-madrid
+kind: organisation
+name: Universidad Politécnica de Madrid
+also_known_as:
+- UPM
+- Technical University of Madrid
+scope: es
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+summary: Spanish technical university whose Center for Automation and Robotics, shared with
+  CSIC, is the first author's affiliation on a 2023 paper on detecting fin whale pulses with
+  deep neural networks.
+ai_types:
+- deep-learning
+facts:
+- claim: Marta Román Ruiz, of the Center for Automation and Robotics (UPM-CSIC), is first
+    author of a 2023 paper on fin whale pulse detection with deep neural networks.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I88060688,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Fin whale pulse detection with deep neural networks
+  ai_type: deep-learning
+- claim: The first author's affiliation is the Center for Automation and Robotics of the university
+    and CSIC.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I88060688,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Center for Automation and Robotics, Universidad Politecnica de Madrid - CSIC
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,62 @@
+id: gbif-switzerland
+kind: programme
+name: Global Biodiversity Information Facility Switzerland
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+runner: unknown
+summary: Swiss GBIF programme under the Federal Office for the Environment’s aegis, aiming in the long
+  term to register all specimens in Switzerland’s botanical, palaeontological and zoological collections.
+facts:
+- claim: Aims in the long term to register all specimens in botanical, paleontological and zoological
+    collections of museums, conservatories and botanical gardens in Switzerland.
+  url: https://scnat.ch/en/id/RaUa2
+  quote: in the long term aims to register all specimens of botanical, paleontological and zoological
+    collections
+  fetched: '2026-11-02'
+- claim: Switzerland is a voting participant in GBIF.
+  url: https://api.gbif.org/v1/node/169eb292-376b-4cc6-8e31-9c2c432de0ad
+  quote: '"participationStatus":"VOTING"'
+  fetched: '2026-11-02'
+- claim: The portal says it brings together data on national biodiversity and represents the network of
+    partners that contribute it.
+  url: https://www.gbif.ch
+  quote: Le portail rassemble les données sur la biodiversité nationale
+  fetched: '2026-11-02'
+- claim: It works under the aegis of the Federal Office for the Environment.
+  url: https://www.gbif.ch
+  quote: Sous l’égide de l’Office fédéral de l’environnement, GBIF Suisse répond à l’engagement du Conseil
+    fédéral suisse
+  fetched: '2026-11-02'
+- claim: Operates under the aegis of the Federal Office for the Environment and meets the Federal Council's
+    commitment to share biodiversity data.
+  url: http://www.gbif.ch
+  fetched: '2026-11-02'
+  quote: Sous l’égide de l’Office fédéral de l’environnement, GBIF Suisse répond à l’engagement du Conseil
+    fédéral suisse de partager des données sur la biodiversité
+- claim: The portal brings together national biodiversity data and represents a network of partners.
+  url: http://www.gbif.ch
+  fetched: '2026-11-02'
+  quote: Le portail rassemble les données sur la biodiversité nationale
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+also_known_as:
+- GBIF Suisse
+links:
+- type: partners-with
+  to: federal-office-for-the-environment
+  url: https://www.gbif.ch
+  quote: OFEV, Office fédéral de l’environnement
+  fetched: '2026-11-02'
+- type: partners-with
+  to: federal-office-for-the-environment
+  url: http://www.gbif.ch
+  fetched: '2026-11-02'
+  quote: Partenaires OFEV, Office fédéral de l’environnement

@@ -1,0 +1,41 @@
+id: usp-aquatic-biodiversity-records
+kind: dataset
+name: Aquatic biodiversity records at The University of the South Pacific
+scope: fj
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+countries:
+- fj
+status: active
+website: https://doi.org/10.15468/w8jpdj
+summary: Occurrence records for specimens in the USP Marine Collection in Suva, mostly from
+  Fiji with records from other South Pacific island countries, published through GBIF and
+  updated regularly.
+facts:
+- claim: Records specimens held by the Marine Collection at USP.
+  url: https://api.gbif.org/v1/dataset/a0bb9d01-8f0e-4d62-aea8-cb190eeccb98
+  quote: occurrence records for specimens held by the Marine Collection, an aquatic natural
+    history collection, at The University of the South Pacific in Suva, Fiji
+  fetched: '2026-10-31'
+- claim: Covers Fiji and other South Pacific island countries.
+  url: https://api.gbif.org/v1/dataset/a0bb9d01-8f0e-4d62-aea8-cb190eeccb98
+  quote: A large component of records are from Fiji, however, there are records from different
+    South Pacific island countries.
+  fetched: '2026-10-31'
+- claim: The dataset is to be updated regularly.
+  url: https://api.gbif.org/v1/dataset/a0bb9d01-8f0e-4d62-aea8-cb190eeccb98
+  quote: This dataset will be updated regularly.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: university-of-the-south-pacific
+  url: https://api.gbif.org/v1/dataset/a0bb9d01-8f0e-4d62-aea8-cb190eeccb98
+  quote: held by the Marine Collection, an aquatic natural history collection, at The University
+    of the South Pacific
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

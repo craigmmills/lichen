@@ -1,0 +1,46 @@
+id: red-de-sensores-acusticos-de-madrid
+kind: project
+name: Red de sensores acústicos de biodiversidad de Madrid
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+ai_types:
+- digital-twins
+status: active
+countries:
+- es
+summary: Network of 15 acoustic sensors in Madrid Río and the Valdebebas-Felipe VI
+  forest park that identify birds and bats in real time with AI without keeping recordings,
+  with data fed to a digital twin.
+facts:
+- claim: Network of 15 acoustic sensors presented on 26 August.
+  url: https://madridinforma.eldiario.es/?p=61179
+  quote: El Ayuntamiento de Madrid presentó el 26 de agosto una red de 15 sensores
+    acústicos para seguir la biodiversidad urbana
+  fetched: '2026-10-31'
+- claim: The data will be fed into a digital twin working with generative AI, according
+    to Ecoticias.
+  url: https://www.ecoticias.com/naturaleza/ia-para-detectar-fauna-en-madrid-126-especies-aves-murcielagos
+  quote: estarán integrados en un gemelo digital que trabaja con inteligencia artificial
+    generativa
+  ai_type: digital-twins
+  fetched: '2026-10-31'
+- claim: First results pass 12,000 observations.
+  url: https://madridinforma.eldiario.es/?p=61179
+  quote: Los primeros resultados ya superan las 12.000 observaciones entre ambos espacios
+    verdes
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: ayuntamiento-de-madrid
+  url: https://www.ecoticias.com/naturaleza/ia-para-detectar-fauna-en-madrid-126-especies-aves-murcielagos
+  quote: El Ayuntamiento de la capital ha desplegado una red de IA para detectar fauna
+    en Madrid
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+scope: es
+added_by: agent
+checked: '2026-10-31'

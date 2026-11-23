@@ -1,0 +1,95 @@
+id: eelurikkus
+kind: programme
+name: eElurikkus
+also_known_as:
+- Estonian biodiversity portal
+- eBiodiversity
+scope: ee
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+- bioacoustics
+countries:
+- ee
+status: active
+website: https://elurikkus.ee
+runner: unknown
+summary: Active public portal on Estonian biodiversity, built on PlutoF, which says it holds over 7 million
+  records and 45,580 species, including DNA-based and sound observations.
+facts:
+- claim: Describes itself as a public portal on Estonian biodiversity that aims to bring together data
+    from science, monitoring and citizen science.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: Eesmärgiks on kokku tuua teaduse, seire ja rahvateaduse andmed.
+- claim: Says it holds over 7 million data records.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: liiki ja üle 7 miljoni andmekirje
+- claim: Lists DNA-based observations and sound observations among its data collections.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: DNA põhised vaatlused
+- claim: Lists Minu loodusheli as a tool for recording sound observations.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: Minu loodusheli - helivaatluste salvestamine
+- claim: Says it brings Estonia's nature data together in one portal, with 45,580 species and over 7 million
+    records stored.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: eElurikkus koondab ühte portaali Eesti looduse andmed. Juba on talletatud 45580 liiki ja üle
+    7 miljoni andmekirje
+- claim: Its home page lists DNA-based observations and a UNITE data resource.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: DNA põhised vaatlused UNITE andmeressurss
+- claim: Research in Estonia describes PlutoF as the back-end platform for eElurikkus, a portal on all
+    species found in Estonia.
+  url: https://researchinestonia.eu/2025/06/20/plutof-biodiversity/
+  fetched: 2026-11-08
+  quote: PlutoF is the backend platform for eElurikkus, or eBiodiversity, a portal that contains information
+    on all species found in Estonia.
+- claim: Says it gathers Estonian nature data into one portal.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: eElurikkus koondab ühte portaali Eesti looduse andmed.
+- claim: Says it is a public portal on Estonian biodiversity that aims to bring together science, monitoring
+    and citizen science data.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: eElurikkus on avalik portaal, mis kuvab informatsiooni Eesti elurikkuse ehk bioloogilise mitmekesisuse
+    kohta. Eesmärgiks on kokku tuua teaduse, seire ja rahvateaduse andmed.
+- claim: Its portal has a section for sound observations of birds.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: Lindude helivaatlused
+- claim: Content on the site is licensed CC BY 4.0 except where noted.
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: Creative Commons Attribution 4.0
+links:
+- type: builds-on
+  to: plutof
+  url: https://elurikkus.ee
+  fetched: 2026-11-08
+  quote: mille omanikeks on üksikisikud, töörühmad või asutused ning mis on üles ehitatud ühisele andmebaaside
+    platvormile PlutoF.
+- type: builds-on
+  to: plutof
+  url: https://researchinestonia.eu/2025/06/20/plutof-biodiversity/
+  fetched: 2026-11-08
+  quote: PlutoF is the backend platform for eElurikkus, or eBiodiversity, a portal that contains information
+    on all species found in Estonia.
+found_by:
+- checklist:2
+- link-from:gbif-estonia
+- link-from:plutof
+added_by: agent
+checked: 2026-11-08

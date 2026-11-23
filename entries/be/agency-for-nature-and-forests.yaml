@@ -1,0 +1,85 @@
+id: agency-for-nature-and-forests
+kind: organisation
+name: Agency for Nature and Forests
+also_known_as:
+- Agentschap voor Natuur en Bos
+- ANB
+- Agency for Nature and Forests
+- Natuur en Bos
+scope: be
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: be
+countries:
+- be
+scale: regional
+status: active
+website: https://www.natuurenbos.be
+summary: Agency that says it cares for over 70,000 hectares of nature areas, forests and parks
+  in Flanders, and uses an AI camera detection system on fire towers as a pilot.
+facts:
+- claim: Its site says it has more than 300 nature areas.
+  url: https://www.natuurenbos.be/
+  fetched: 2026-11-02
+  quote: de meer dan 300 natuurgebieden van Natuur en Bos zijn er voor iedereen!
+- claim: Natuurinvest says the agency manages nature areas in Flanders.
+  url: https://natuurinvest.be/diensten/natuurlocaties/film-foto-sport-events-en-vergaderen-in-de-natuur
+  fetched: 2026-11-02
+  quote: in Vlaanderen beheerd door Agentschap voor Natuur en Bos
+- claim: Natuurinvest is the agency's own capital and provides it with services for development
+    and management.
+  url: https://natuurinvest.be/
+  fetched: 2026-11-02
+  quote: Als dienstverlener van het Agentschap voor Natuur en Bos leveren wij professionele
+    diensten voor inrichting en beheer
+- claim: The municipality of Lennik describes the agency as a partner in conserving and managing
+    nature and forests in Flanders.
+  url: https://www.lennik.be/natuur-en-bos
+  fetched: '2026-11-02'
+  quote: Het Agentschap voor Natuur en Bos is een belangrijke partner van de gemeente Lennik
+    als het gaat over het behoud en beheer van natuur en bos in Vlaanderen.
+- claim: GEO.INFORMED names it as the Agency for Nature and Forests.
+  url: https://geo-informed.be/?page_id=531
+  fetched: '2026-11-02'
+  quote: the Agency for Nature and Forests
+- claim: Says it cares for, protects and develops more than 70,000 hectares of nature areas,
+    forests and parks in Flanders.
+  url: https://www.natuurenbos.be/
+  fetched: &id001 2026-11-02
+  quote: Wij koesteren, beschermen en ontwikkelen ruim 70.000 hectare aan natuurgebieden,
+    bossen en parken in Vlaanderen.
+- claim: A camera detection system based on AI was installed on fire towers in the Kalmthoutse
+    Heide and Groot Schietveld, as a pilot that supports volunteer tower watchers.
+  url: https://www.natuurenbos.be/persberichten/slimme-cameras-houden-vinger-aan-de-pols-de-strijd-tegen-natuurbranden-de-kalmthoutse
+  fetched: *id001
+  quote: Die slimme camera’s op basis van artificiële intelligentie, ondersteunen de tientallen
+    vrijwillige brandtorenwachters.
+- claim: Set up a separate unit for digitalisation and innovation in the structure in place
+    since 1 September 2025.
+  url: https://www.natuurenbos.be/over-ons/organisatie
+  fetched: *id001
+  quote: Er komt een aparte cel voor digitalisering en innovatie.
+- claim: Its GBIF record says it will publish monitoring data on invasive plants and crayfish
+    within the LIFE RIPARIAS project.
+  url: https://api.gbif.org/v1/organization/d2b220bd-5701-4fe4-ba06-a1e3fc6288fe
+  fetched: *id001
+  quote: we will publish some monitoring data on invasive plants and crayfish
+links:
+- type: uses
+  to: iq-firewatch
+  url: https://www.natuurenbos.be/persberichten/slimme-cameras-houden-vinger-aan-de-pols-de-strijd-tegen-natuurbranden-de-kalmthoutse
+  fetched: *id001
+  quote: Het geïnstalleerde systeem is afkomstig van het Duitse IQ FireWatch
+found_by:
+- checklist:1
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision

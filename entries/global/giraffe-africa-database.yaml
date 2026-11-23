@@ -1,0 +1,26 @@
+id: giraffe-africa-database
+kind: dataset
+name: Giraffe Africa Database
+also_known_as:
+- GAD
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Central repository of historical and current wild giraffe population records for all four species, kept by the Giraffe Conservation Foundation.
+facts:
+- claim: Holds historical and current giraffe population records.
+  url: https://giraffeconservation.org/programs/conservation-tech/
+  quote: The Giraffe Africa Database (GAD) is a central repository for all historical and current wild giraffe population records across all four species.
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: giraffe-conservation-foundation
+  url: https://giraffeconservation.org/programs/conservation-tech/
+  quote: The Giraffe Africa Database (GAD) is a central repository for all historical and current wild giraffe population records across all four species.
+  fetched: '2026-10-30'
+found_by:
+- link-from:giraffe-conservation-foundation
+added_by: agent
+checked: '2026-10-30'

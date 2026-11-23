@@ -1,0 +1,52 @@
+id: lilongwe-university-of-agriculture-and-natural-resources
+kind: organisation
+name: Lilongwe University of Agriculture and Natural Resources
+also_known_as:
+- LUANAR
+scope: mw
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- mw
+scale: national
+status: active
+summary: Active university in Lilongwe that received two JRS grants totalling $592,000,
+  announced in April 2020, for biodiversity data portals and tools, and is the affiliation
+  of the Nkhotakota classifier code's first creator.
+facts:
+- claim: Received two JRS grant awards totalling $592,000, announced in April 2020,
+    to develop biodiversity data portals and tools.
+  url: https://jrsbiodiversity.org/luanardataportals/
+  fetched: 2026-11-12
+  quote: These projects will now begin developing data portals and tools to break
+    down barriers to biodiversity knowledge in Malawi and connect this knowledge to
+    action.
+- claim: The first creator of the 2026 Nkhotakota camera-trap classifier triage code
+    is listed with a LUANAR affiliation.
+  url: https://zenodo.org/records/23834686
+  fetched: 2026-11-12
+  quote: Lilongwe University of Agriculture and Natural Resources
+- claim: OpenAlex records the university in Lilongwe, Malawi, with its home page at
+    luanar.ac.mw.
+  url: https://api.openalex.org/institutions/I4210101907?select=id,display_name,homepage_url,geo,type,ror
+  fetched: 2026-11-12
+  quote: '"homepage_url":"https://luanar.ac.mw/luanar/"'
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/luanardataportals/
+  fetched: 2026-11-12
+  quote: Researchers are on their way after receiving two JRS grant awards totaling
+    $592,000.
+  amount: 592000
+  currency: USD
+  year: 2020
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

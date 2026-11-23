@@ -1,0 +1,56 @@
+id: ukraine-soil-fungi-edna-inventory
+kind: dataset
+name: The first environmental DNA-based inventory of soil fungal diversity in Ukraine
+also_known_as: []
+scope: ua
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+countries:
+- ua
+status: active
+summary: First national-scale DNA metabarcoding record of soil fungal communities in Ukraine, built from
+  225 topsoil samples collected in 2023 and published to GBIF.
+facts:
+- claim: The first national-scale, DNA metabarcoding-based record of soil fungal communities in Ukraine.
+  url: https://api.gbif.org/v1/dataset/341e5878-1075-40ac-bc52-b0fd7f693cb7
+  fetched: 2026-11-03
+  quote: This dataset presents the first national-scale, DNA metabarcoding-based record of soil fungal
+    communities in Ukraine
+- claim: Built from 225 topsoil samples collected across accessible regions of Ukraine between June and
+    November 2023.
+  url: https://api.gbif.org/v1/dataset/341e5878-1075-40ac-bc52-b0fd7f693cb7
+  fetched: 2026-11-03
+  quote: It is derived from 225 topsoil samples collected across accessible regions of Ukraine
+- claim: Taxonomy was first assigned automatically with a scikit-learn Naive Bayes classifier trained
+    against UNITE; six taxonomic experts then manually checked 3,366 OTUs.
+  url: https://api.gbif.org/v1/dataset/341e5878-1075-40ac-bc52-b0fd7f693cb7
+  fetched: 2026-11-03
+  quote: we automatically assigned taxonomy using scikit-learn Naїve Bayes classifier
+- claim: Published to GBIF by Falz-Fein Biosphere Reserve Askania Nova.
+  url: https://api.gbif.org/v1/dataset/341e5878-1075-40ac-bc52-b0fd7f693cb7
+  fetched: 2026-11-03
+  quote: Version 1.2. Falz-Fein Biosphere Reserve
+- claim: A companion SSU-based version is published as a separate GBIF dataset.
+  url: https://api.gbif.org/v1/organization/a8b02799-6e2e-4084-a9e5-86c5917b75f1/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: The first environmental DNA-based inventory of soil fungal diversity in Ukraine - SSU-based occurrences
+links:
+- type: funded-by
+  to: human-frontier-science-program
+  url: https://api.gbif.org/v1/dataset/341e5878-1075-40ac-bc52-b0fd7f693cb7
+  fetched: 2026-11-03
+  quote: '"funding":"Human Frontiers Science Program, Scientists for Scientists Initiative"'
+- type: builds-on
+  to: unite-database
+  url: https://api.gbif.org/v1/dataset/341e5878-1075-40ac-bc52-b0fd7f693cb7
+  fetched: 2026-11-03
+  quote: RESCRIPt tool tained against UNITE reference dataset (v10)
+found_by:
+- register:gbif-publisher
+- link-from:askania-nova-biosphere-reserve
+added_by: agent
+checked: 2026-11-03
+runner: unknown

@@ -1,0 +1,44 @@
+id: national-drought-management-authority
+kind: organisation
+name: National Drought Management Authority
+scope: ke
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: data-infrastructure
+realms:
+- land
+also_known_as:
+- NDMA
+techniques:
+- remote-sensing
+hq: ke
+countries:
+- ke
+scale: national
+summary: Kenyan authority whose drought monitoring rests on satellite vegetation condition
+  data, using a processing chain set up with BOKU in Vienna.
+facts:
+- claim: A 2015 paper gives its address in Nairobi.
+  url: https://isprs-archives.copernicus.org/articles/XL-7-W3/433/2015/
+  quote: National Drought Management Authority (NDMA), Lonrho House -Standard Street , Nairobi,
+    Kenya
+  fetched: '2026-10-31'
+- claim: A paper names the Vegetation Condition Index as its indicator for pastoral zones.
+  url: https://arxiv.org/abs/1911.10339
+  quote: the 3-month Vegetation Condition Index (VCI3M) over pastoral livelihood zones in
+    Kenya
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: kenya-satellite-drought-monitoring
+  url: https://isprs-archives.copernicus.org/articles/XL-7-W3/433/2015/
+  quote: in cooperation with the National Drought Management Authority (NDMA)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

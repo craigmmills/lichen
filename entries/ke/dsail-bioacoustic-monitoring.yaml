@@ -1,0 +1,51 @@
+id: dsail-bioacoustic-monitoring
+kind: project
+name: Bioacoustic approaches for ecosystem monitoring and conservation
+scope: ke
+ai_label: ai
+ai_types:
+- foundation-models
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ke
+summary: DSAIL project that shrinks the Perch bird-classification model to run on
+  low-cost edge devices, with a prototype deployed at the DeKUT Conservancy that reports
+  over LoRaWAN.
+status: active
+facts:
+- claim: Deployed a prototype at the DeKUT Conservancy on Raspberry Pi hardware.
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: Deployed a prototype bioacoustic monitoring system at the DeKUT Conservancy,
+    using Raspberry Pi-based edge hardware and the PiWild platform
+- claim: Uses knowledge distillation from Perch.
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: We use knowledge distillation to transfer the capabilities of a large bird-classification
+    model, Perch
+  ai_type: foundation-models
+- claim: Student models include EfficientNet-B0, ShuffleNet, SqueezeNet and MobileNet.
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: Trained and evaluated several lightweight student models, including EfficientNet-B0
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: Bioacoustic approaches for ecosystem monitoring and conservation
+- type: builds-on
+  to: perch
+  url: https://dekut-dsail.github.io/projects/bioacoustics.html
+  fetched: '2026-10-30'
+  quote: "We use knowledge distillation to transfer the capabilities of a large bird-classification model, Perch, into smaller models"
+found_by:
+- link-from:perch
+- link-from:university-of-leeds
+added_by: agent
+checked: '2026-10-30'

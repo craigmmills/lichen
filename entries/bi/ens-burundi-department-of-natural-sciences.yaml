@@ -1,0 +1,53 @@
+id: ens-burundi-department-of-natural-sciences
+kind: organisation
+name: Department of Natural Sciences, École Normale Supérieure (Burundi)
+also_known_as:
+- DSN
+- Department of Natural Sciences
+scope: bi
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- bi
+scale: national
+status: active
+summary: Natural sciences department at the École Normale Supérieure in Bujumbura, listed first among
+  the affiliations of the first author of a 2026 Landsat paper on land-cover change in mining landscapes.
+facts:
+- claim: First-listed affiliation, alongside the Peoples' Friendship University of Russia, of the first
+    author of a 2026 paper on monitoring land-cover change in mining landscapes with Landsat imagery.
+  url: https://api.openalex.org/works/W7224269630?select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: '"raw_affiliation_strings":["Department of Natural Sciences (DSN), Ecole Normale Sup'
+- claim: The paper is titled Monitoring land-cover changes in mining landscapes using Landsat remote sensing
+    imagery.
+  url: https://api.openalex.org/works/W7224269630?select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: Monitoring land-cover changes in mining landscapes using Landsat remote sensing imagery
+- claim: First-listed affiliation of the first and corresponding author of a 2026 paper on monitoring
+    land-cover change in mining landscapes with Landsat imagery.
+  url: https://api.openalex.org/works/W7224269630?select=id,title,doi,authorships
+  fetched: 2026-11-09
+  quote: Monitoring land-cover changes in mining landscapes using Landsat remote sensing imagery
+- claim: The department is at the École Normale Supérieure in Bujumbura.
+  url: https://api.openalex.org/works/W7224269630?select=id,title,doi,authorships
+  fetched: 2026-11-09
+  quote: Department of Natural Sciences (DSN), Ecole Normale
+links:
+- type: run-by
+  to: ecole-normale-superieure-burundi
+  url: https://api.openalex.org/works/W7224269630?select=id,title,doi,authorships
+  fetched: 2026-11-09
+  quote: Department of Natural Sciences (DSN), Ecole Normale
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-09

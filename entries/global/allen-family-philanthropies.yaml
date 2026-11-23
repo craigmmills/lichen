@@ -1,0 +1,69 @@
+id: allen-family-philanthropies
+kind: organisation
+name: Allen Family Philanthropies
+also_known_as:
+- Paul G. Allen Family Foundation
+- Paul G. Allen Philanthropies
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://allenphilanthropies.org
+summary: Philanthropy founded in 1988 by Jody Allen and Paul G. Allen, with arts, youth and
+  environment programmes. It invests in science and technology to protect wildlife and habitats,
+  unveiled the Allen Coral Atlas under its earlier name and funds Earth Species Project.
+facts:
+- claim: Founded in 1988 by Jody Allen and the late Paul G. Allen.
+  url: https://allenphilanthropies.org/
+  quote: Founded in 1988 by Jody Allen and the late Paul G. Allen, co-founder of Microsoft,
+    Allen Family Philanthropies
+  fetched: &id001 2026-10-30
+- claim: Says it invests in community-driven solutions that use science and technology to
+    protect wildlife and habitats.
+  url: https://allenphilanthropies.org/
+  quote: We invest in community-driven solutions that leverage science and technology to protect
+    wildlife and habitats.
+  fetched: *id001
+- claim: Paul G. Allen Philanthropies and partners unveiled the Allen Coral Atlas in 2018.
+  url: https://www.geekwire.com/2018/allen-coral-atlas-tracks-changes-worlds-reefs-space-via-satellite/
+  quote: Today the Paul G. Allen Philanthropies and its consortium of partners unveiled the
+    Allen Coral Atlas
+  fetched: *id001
+links:
+- type: partners-with
+  to: allen-coral-atlas
+  url: https://www.geekwire.com/2018/allen-coral-atlas-tracks-changes-worlds-reefs-space-via-satellite/
+  quote: Today the Paul G. Allen Philanthropies and its consortium of partners unveiled the
+    Allen Coral Atlas
+  fetched: *id001
+- type: funds
+  to: earth-species-project
+  url: https://grantable.co/nonprofits/the-earth-species-project-morg_8037bb9169f342129cd38771621f845c
+  quote: Earth Species Project between 2020-2025. Funder Total given Grants Years Aphorism
+    Foundation $10,005,300 1 2024 Morgan Stanley Global Impact Funding Trust Inc $3,175,000
+    9 2022-2024 Waverley Street Foundation $3,000,000 1 2024 Allen Family Philanthropies $1,199,998
+    2 2023-2024
+  fetched: *id001
+  amount: 1199998
+  currency: USD
+- type: partners-with
+  to: wild-me-lab
+  url: https://www.wildme.org/supporters.html
+  fetched: 2026-10-30
+  quote: The Seattle-based Paul G. Allen Family Foundation, founded by philanthropists Jody
+    Allen and the late Paul Allen, is pleased to partner with Wild Me to improve wildlife
+    survey accuracy and reliability.
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

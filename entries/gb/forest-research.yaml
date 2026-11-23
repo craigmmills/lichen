@@ -1,0 +1,89 @@
+id: forest-research
+kind: organisation
+name: Forest Research
+sector: government
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- edna-genomics
+- bioacoustics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.forestresearch.gov.uk
+summary: Great Britain's main organisation for forestry and tree research. It runs remote
+  sensing for woodland loss and storm damage, and woodland monitoring under Defra's Natural
+  Capital and Ecosystem Assessment.
+facts:
+- claim: Great Britain's principal organisation for forestry and tree-related research.
+  url: https://www.forestresearch.gov.uk/about-us/
+  quote: Great Britain's principal organisation for forestry and tree-related research
+  fetched: '2026-10-30'
+- claim: Built a woodland loss algorithm using Sentinel imagery and machine learning.
+  url: https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/remote-sensing/
+  quote: Using a combination of Sentinel data imaging and machine learning, Forest Research
+    has developed a woodland loss algorithm
+  fetched: '2026-10-30'
+- claim: Uses DNA and eDNA metabarcoding to monitor woodland biodiversity across England.
+  url: https://www.forestresearch.gov.uk/about-us/our-work/natural-capital-ecosystem-assessment-programme-ncea/our-projects/
+  quote: These projects use DNA and eDNA metabarcoding to monitor woodland biodiversity across
+    England
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.forestresearch.gov.uk/contact-us/
+  quote: Forest Research, Alice Holt Lodge, Farnham, Surrey GU10 4LH
+  fetched: '2026-10-30'
+- claim: Mapped non-woodland trees.
+  url: https://www.gov.uk/government/news/englands-non-woodland-trees-freely-mapped-for-first-time
+  quote: the country’s top tree scientists at the UK Government’s Forest Research agency built
+    a comprehensive picture of non-woodland trees across England
+  fetched: '2026-10-30'
+- claim: Says it is leading across the Forestry Commission on AI applications.
+  url: https://www.gov.uk/government/publications/forest-research-annual-report-and-accounts-2025-to-2026/forest-research-annual-report-and-accounts-2025-to-2026
+  quote: are leading across the Forestry Commission on AI applications (machine l
+  fetched: &id001 2026-10-30
+- claim: Tree Species Map England was classified with an XGBoost classifier.
+  url: https://www.data.gov.uk/dataset/05350a8c-3f9a-4d78-a671-908e83f24237/tree-species-map-england
+  quote: A classifier based on the XGBoost algorithm was trained to distinguish tree species
+  ai_type: ml-supervised
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://www.forestresearch.gov.uk/contact-us
+  quote: Forest Research, Alice Holt Lodge, Farnham, Surrey GU10 4LH
+  fetched: 2026-10-30
+- claim: Its NCEA project page describes DNA and eDNA metabarcoding of woodland biodiversity
+    across England.
+  url: https://www.forestresearch.gov.uk/about-us/our-work/natural-capital-ecosystem-assessment-programme-ncea/our-projects/
+  quote: These projects use DNA and eDNA metabarcoding to monitor woodland biodiversity across
+    England
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: natural-capital-and-ecosystem-assessment
+  url: https://www.forestresearch.gov.uk/about-us/our-work/natural-capital-ecosystem-assessment-programme-ncea/our-projects/
+  quote: Learn more about the work our scientists, technicians, surveyors and remote sensing
+    teams are delivering as part of the programme.
+  fetched: '2026-10-30'
+- type: runs
+  to: trees-outside-woodland-map
+  url: https://www.gov.uk/government/news/englands-non-woodland-trees-freely-mapped-for-first-time
+  quote: the country’s top tree scientists at the UK Government’s Forest Research agency built
+    a comprehensive picture of non-woodland trees across England
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+- link-from:department-for-environment-food-and-rural-affairs
+- rule:checklist-misses
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+ai_types:
+- ml-supervised

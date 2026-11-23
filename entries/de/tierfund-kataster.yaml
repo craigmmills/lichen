@@ -1,0 +1,33 @@
+id: tierfund-kataster
+kind: programme
+name: Tierfund-Kataster
+scope: de
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- de
+status: active
+summary: German register of animals found dead, focused on conflicts between animals
+  and traffic, operated by the Deutscher Jagdverband.
+facts:
+- claim: Germany-wide since 2017, says the Deutscher Jagdverband's GBIF publisher
+    record, with a focus on conflicts between animals and traffic.
+  url: https://api.gbif.org/v1/organization/63ed155b-d511-4026-b474-8945d0a36b13
+  fetched: '2026-10-31'
+  quote: The focus is on conflicts between animals and traffic.
+- claim: The project began in Schleswig-Holstein in 2011, says the same record.
+  url: https://api.gbif.org/v1/organization/63ed155b-d511-4026-b474-8945d0a36b13
+  fetched: '2026-10-31'
+  quote: The project was launched in the state of Schleswig-Holstein in 2011.
+links:
+- type: run-by
+  to: deutscher-jagdverband
+  url: https://api.gbif.org/v1/organization/63ed155b-d511-4026-b474-8945d0a36b13
+  fetched: '2026-10-31'
+  quote: the association has been operating a Germany-wide animal register to record
+    animals found dead
+found_by:
+- link-from:deutscher-jagdverband
+added_by: agent
+checked: '2026-10-31'

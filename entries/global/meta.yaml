@@ -1,0 +1,60 @@
+id: meta
+kind: organisation
+name: Meta
+also_known_as:
+- Meta Platforms
+scope: global
+sector: company
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://ai.meta.com
+summary: Technology company that built global canopy height maps and models with the World
+  Resources Institute, using its DINOv2 and DINOv3 vision models.
+countries:
+- gb
+facts:
+- claim: Trained DINOv2 on 18 million satellite images with WRI to make a global canopy height
+    map.
+  url: https://ai.meta.com/blog/forest-research-dino/
+  fetched: &id001 2026-10-30
+  quote: Meta trained its open source computer vision model, DINOv2, on 18 million satellite
+    images to create an open source global map of tree canopy height at a 1-meter resolution
+- claim: Headquartered in Menlo Park, California.
+  url: https://en.wikipedia.org/wiki/Meta_Platforms
+  fetched: 2026-10-30
+  quote: Headquarters in Menlo Park, California
+- claim: Meta describes DINOv3 as a self-supervised vision model.
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: 2026-10-30
+  quote: Meta’s self-supervised vision model
+  ai_type: ml-unsupervised
+- claim: Meta's canopy height work uses its DINOv3 backbone, pre-trained on satellite imagery.
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: '2026-10-31'
+  quote: replacing the DINOv2 backbone with our more capable DINOv3 backbone, pre-trained
+    on SAT-493M, a large and diverse dataset of satellite imagery
+  ai_type: foundation-models
+links:
+- type: partners-with
+  to: world-resources-institute
+  url: https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/
+  fetched: *id001
+  quote: in partnership with the World Resources Institute , we’re announcing Canopy Height
+    Maps v2 (CHMv2)
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

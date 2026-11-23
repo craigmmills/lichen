@@ -1,0 +1,38 @@
+id: lead-city-university
+kind: organisation
+name: Lead City University
+scope: ng
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- ng
+scale: local
+status: active
+funding_at_risk: false
+summary: University affiliated with first authors of a 2026 marine conservation paper on underwater
+  vehicle object detection and a 2026 coastal wetland vulnerability data and code release.
+facts:
+- claim: First author of a 2026 paper on object detection with autonomous underwater vehicles
+    for marine conservation is at this university.
+  url: https://api.openalex.org/works/W7162428614?select=id,doi,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-03'
+  quote: 'ADVANCING MARINE ECOSYSTEM CONSERVATION: OBJECT DETECTION WITH AUVS AND REAL-TIME
+    ALGORITHMS'
+- claim: First author of a 2026 data and code release on coastal wetland vulnerability is
+    at this university.
+  url: https://api.openalex.org/works/W7221077735?select=id,doi,title,publication_year,authorships,primary_location,open_access
+  fetched: '2026-11-03'
+  quote: 'Data and Code for PCA-Informed Machine Learning Framework for Coastal Wetland Vulnerability
+    Assessment: Bonny Island, Nigeria'
+found_by:
+- register:ng
+added_by: agent
+checked: '2026-11-03'

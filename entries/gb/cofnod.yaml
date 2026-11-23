@@ -1,0 +1,43 @@
+id: cofnod
+kind: organisation
+name: Cofnod
+also_known_as:
+- North Wales Environmental Information Service
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- other
+hq: gb
+scale: regional
+status: active
+website: https://www.cofnod.org.uk/
+summary: North Wales environmental records centre that runs an online recording system and
+  an eMapper mapping tool.
+facts:
+- claim: Runs an online recording system.
+  url: https://www.cofnod.org.uk/
+  fetched: '2026-10-30'
+  quote: Using our easy to use Online Recording System
+- claim: GBIF says data come through its eMapper tool.
+  url: https://api.gbif.org/v1/organization/47eaaa43-47c7-4754-8e7a-bfaf616da4df
+  fetched: '2026-10-30'
+  quote: unique eMapper online mapping
+- claim: Publishes the dataset "Mammal records captured from Licence Returns submitted to
+    Natural Resources Wales" on GBIF.
+  url: https://api.gbif.org/v1/organization/47eaaa43-47c7-4754-8e7a-bfaf616da4df/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Mammal records captured from Licence Returns submitted to Natural Resources Wales
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/47eaaa43-47c7-4754-8e7a-bfaf616da4df/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

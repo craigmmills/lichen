@@ -1,0 +1,45 @@
+id: floga
+kind: dataset
+name: FLOGA (Forest wiLdfire Observations for the Greek Area)
+also_known_as:
+- FLOGA
+scope: gr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gr
+status: active
+summary: Machine learning ready dataset of satellite imagery from before and after wildfires
+  in the wider Greek region, built by Maria Sdraka, with a proposed deep learning model for
+  burnt areas.
+facts:
+- claim: The paper introduces FLOGA as a machine learning ready dataset of satellite imagery
+    from before and after wildfires.
+  url: https://arxiv.org/abs/2311.03339
+  fetched: 2026-11-03
+  quote: In this work, we create and introduce a machine-learning ready dataset we name FLOGA
+    (Forest wiLdfire Observations for the Greek Area).
+- claim: The paper proposes a deep learning model, BAM-CD, for extracting burnt areas.
+  url: https://arxiv.org/abs/2311.03339
+  fetched: 2026-11-03
+  quote: Finally, we propose a novel Deep Learning model, namely BAM-CD.
+  ai_type: deep-learning
+- claim: The paper says the dataset covers the wider region of Greece.
+  url: https://arxiv.org/abs/2311.03339
+  fetched: 2026-11-03
+  quote: FLOGA covers the wider region of Greece, which is characterized by a Mediterranean
+    landscape and climatic conditions.
+- claim: Two of the authors are with the Hellenic Fire Service.
+  url: https://arxiv.org/pdf/2311.03339
+  fetched: 2026-11-03
+  quote: A. Malounis and Z. Ntasiou are with the Hellenic Fire Service, Greece.
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03
+runner: unknown

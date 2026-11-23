@@ -1,0 +1,68 @@
+id: environmental-association
+kind: organisation
+name: Environmental Association
+also_known_as:
+- Environmental Association Limited
+scope: hk
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- computer-vision
+hq: hk
+countries: []
+scale: local
+status: active
+website: https://www.fungyuen.org/en/digitalbutterflyconservationprogram
+summary: Charitable institution managing Fung Yuen Butterfly Reserve that launched
+  a 2024 AI butterfly recognition programme and built an identification system, with
+  countryside conservation funding received.
+facts:
+- claim: Manages Fung Yuen Butterfly Reserve.
+  url: https://news.gov.hk/eng/2025/02/20250221/20250221_163222_114.html
+  fetched: 2026-11-14
+  quote: The Environmental Association manages Fung Yuen Butterfly Reserve, providing
+    a suitable habitat for butterflies.
+- claim: Its site gives it as a charitable institution with a charity registration
+    number, and gives the reserve's address in Tai Po.
+  url: https://www.fungyuen.org/en/digitalbutterflyconservationprogram
+  fetched: 2026-11-14
+  quote: Charity Registration Number：91/7376
+- claim: Launched the Digital Butterfly Conservation Program in 2024, which applies
+    AI to train a system to recognise 245 butterfly species for public education and
+    ecological surveys.
+  url: https://www.fungyuen.org/en/digitalbutterflyconservationprogram
+  fetched: 2026-11-14
+  quote: The project applies AI to train a system capable of recognizing 245 butterfly
+    species for public education and ecological surveys.
+  ai_type: ml-supervised
+- claim: Its chief executive said thousands of photographs had to be accumulated so
+    that the AI system could learn to identify butterfly species.
+  url: https://news.gov.hk/eng/2025/02/20250221/20250221_163222_114.html
+  fetched: 2026-11-14
+  quote: We have to accumulate thousands of photographs so that the AI (system) can
+    learn.
+  ai_type: ml-supervised
+links:
+- type: builds
+  to: fung-yuen-ai-butterfly-identification-system
+  url: https://news.gov.hk/eng/2025/02/20250221/20250221_163222_114.html
+  fetched: 2026-11-14
+  quote: Developing an AI (artificial intelligence) programme is something (that is)
+    not easy. We have to accumulate thousands of photographs so that the AI (system)
+    can learn.
+- type: funded-by
+  to: countryside-conservation-funding-scheme
+  url: https://news.gov.hk/eng/2025/02/20250221/20250221_163222_114.html
+  fetched: 2026-11-14
+  quote: The Environmental Association has received funding from the Environment &
+    Conservation Fund and the Countryside Conservation Funding Scheme successively
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

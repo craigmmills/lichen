@@ -1,0 +1,60 @@
+id: ukrainian-national-forestry-university
+kind: organisation
+name: Ukrainian National Forestry University
+scope: ua
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ua
+scale: national
+status: active
+summary: University whose researchers published a 2026 paper on random forest and deep learning
+  for forest cover change and describe a Random Forest platform for Carpathian old-growth
+  forest monitoring.
+facts:
+- claim: Its researchers, with the Institute of Ecology of the Carpathians, published a 2026
+    paper on random forest and deep learning approaches for detecting forest cover changes.
+  url: https://api.openalex.org/works/W7212143519
+  fetched: 2026-11-03
+  quote: Random Forest and deep learning approaches for detecting forest cover changes
+  ai_type: ml-supervised
+- claim: The same paper names deep learning approaches for forest cover change detection.
+  url: https://api.openalex.org/works/W7212143519
+  fetched: 2026-11-03
+  quote: Random Forest and deep learning approaches for detecting forest cover changes
+  ai_type: deep-learning
+- claim: A UNFU researcher published a 2026 paper on strengthening forest remote sensing by
+    linking research and practice.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4405263366|I20521324,from_publication_date:2019-01-01,title_and_abstract.search:remote%20sensing%20OR%20satellite%20OR%20Sentinel%20OR%20%22machine%20learning%22%20OR%20monitoring&sort=cited_by_count:desc&per_page=20&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: 'Strengthening forest remote sensing by linking research and practice: a collaborative
+    framework'
+- claim: Authors at the Ukrainian National Forestry University, Lviv, and the Institute of
+    Ecology of the Carpathians describe a platform for automated interpretation and retrospective
+    monitoring of Carpathian virgin and old-growth forests for 1986 to 2024.
+  url: https://nv.nltu.edu.ua/index.php/journal/article/view/2949
+  fetched: 2026-11-03
+  quote: Національний лісотехнічний університет України, м. Львів; Інститут екології Карпат
+    НАН України, м. Львів
+- claim: The platform uses a machine learning pipeline built on the Random Forest algorithm.
+  url: https://nv.nltu.edu.ua/index.php/journal/article/view/2949
+  fetched: 2026-11-03
+  quote: Побудовано пайплайн машинного навчання моделі на основі алгоритму Random Forest
+  ai_type: ml-supervised
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03
+also_known_as:
+- UNFU
+- Національний лісотехнічний університет України

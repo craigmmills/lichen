@@ -1,0 +1,52 @@
+id: gmv
+kind: organisation
+name: GMV
+sector: company
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: es
+scale: global
+status: active
+website: https://gmv.com
+summary: Space and technology company whose remote sensing division worked on the MySustainableForest
+  project and presented its forest diversity product.
+facts:
+- claim: Presented the forest diversity product developed in the project.
+  url: https://gmv.com/es-es/comunicacion/noticias/gmv-participa-en-el-webinar-de-formacion-del-proyecto-mysustainableforest
+  quote: GMV presentó el producto de diversidad del bosque desarrollado en el marco del proyecto
+  fetched: '2026-10-31'
+- claim: Lists an address at Tres Cantos, Madrid.
+  url: https://www.gmv.com/es/productos/espacio/eoclima
+  fetched: '2026-10-31'
+  quote: E-28760 Madrid
+- claim: A drought product combines vegetation indices and climate data with machine learning
+    algorithms.
+  url: https://www.gmv.com/en/products/space/eoforest
+  fetched: '2026-10-31'
+  quote: Multitemporal vegetation indices and climate data are combined with Machine Learning
+    algorithms
+  ai_type: ml-supervised
+links:
+- type: runs
+  to: eoforest
+  url: https://www.gmv.com/en/products/space/eoforest
+  fetched: '2026-10-31'
+  quote: Eoforest is GMV’s catalogue of forestry-related geoinformation products
+- type: leads
+  to: mysustainableforest
+  url: https://cordis.europa.eu/project/id/776045
+  fetched: '2026-10-31'
+  quote: Coordinated by GMV AEROSPACE AND DEFENCE SA
+found_by:
+- checklist:5
+scope: es
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- ml-supervised

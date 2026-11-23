@@ -1,0 +1,52 @@
+id: wildtrax
+kind: dataset
+name: WildTrax
+also_known_as: []
+scope: ca
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+countries:
+- ca
+website: https://wildtrax.ca
+summary: Online platform for storing, managing, processing and sharing data from environmental
+  sensors such as autonomous recording units, remote cameras and point counts. It offers public
+  data discovery and is developing machine learning auto-recognition.
+facts:
+- claim: Project holdings of the Canadian Wildlife Service are published on WildTrax, according
+    to ECCC's map layer.
+  url: https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/SurveyARUPointCountCanada1993to2025/MapServer/1?f=pjson
+  fetched: '2026-10-31'
+  quote: WildTrax
+- claim: An online platform for environmental sensor data.
+  url: https://wildtrax.ca/
+  fetched: '2026-10-31'
+  quote: WildTrax is an online platform that simplifies the processing, organization, storage,
+    and sharing of environmental sensor data
+links:
+- type: uses
+  to: megadetector
+  url: https://ab-rcsc.github.io/RCSC-WildCAM_Remote-Camera-Survey-Guidelines-and-Metadata-Standards/1_survey-guidelines/1_8.0_Data-management-and-processing.html
+  fetched: '2026-10-31'
+  quote: WildTrax automatically uses Megadetector to filter out blank images when data is
+    uploaded to the platform.
+- type: run-by
+  to: alberta-biodiversity-monitoring-institute
+  url: https://wildtrax.ca/about/our-team/
+  fetched: '2026-10-31'
+  quote: WildTrax is delivered by a team from the Alberta Biodiversity Monitoring Institute
+- type: run-by
+  to: bioacoustic-unit
+  url: https://wildtrax.ca/about/our-team/
+  fetched: '2026-10-31'
+  quote: WildTrax is delivered by a team from the Alberta Biodiversity Monitoring Institute
+    and the Bioacoustic Unit at the University of Alberta
+found_by:
+- checklist:2
+- link-from:alberta-biodiversity-monitoring-institute
+added_by: agent
+checked: '2026-10-31'

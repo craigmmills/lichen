@@ -1,0 +1,49 @@
+id: ducks-unlimited
+kind: organisation
+name: Ducks Unlimited
+scope: us
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: regional
+website: https://www.ducks.org
+countries:
+- us
+status: active
+summary: Waterfowl conservation NGO whose geospatial team uses remote sensing and machine
+  learning to map wetlands in North America and publishes spatial data.
+facts:
+- claim: Uses machine learning to map wetland habitat.
+  url: https://www.ducks.org/conservation/geographic-information-systems/map-viewers
+  fetched: '2026-10-30'
+  quote: Ducks Unlimited uses advanced remote sensing and machine learning technology to map
+    wetland habitat in North America
+- claim: Uses remote sensing and machine learning to map wetland habitat in North America.
+  url: https://www.ducks.org/conservation/sustainability/geographic-information-systems
+  quote: Ducks Unlimited uses advanced remote sensing and machine learning technology to map
+    wetland habitat in North America
+  fetched: '2026-10-30'
+- claim: Says it maps North American wetlands with remote sensing and machine learning.
+  url: https://www.ducks.org/conservation/geographic-information-systems/map-viewers
+  quote: Ducks Unlimited uses advanced remote sensing and machine learning technology to map
+    wetland habitat in North America
+  fetched: '2026-10-31'
+- claim: The IRS exempt organisation record, through ProPublica, lists Ducks Unlimited Inc
+    at Memphis, Tennessee.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/462790400.json
+  fetched: '2026-10-31'
+  quote: '"city":"Memphis","state":"TN"'
+found_by:
+- link-from:the-nature-conservancy
+- checklist:4
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-30'

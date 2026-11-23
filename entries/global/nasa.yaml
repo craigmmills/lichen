@@ -1,0 +1,56 @@
+id: nasa
+kind: organisation
+name: National Aeronautics and Space Administration
+also_known_as:
+- NASA
+scope: global
+sector: government
+roles:
+- supplies-data
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://www.nasa.gov
+summary: US space agency that funds research and applications on biodiversity and conservation
+  with Earth observation, and flies missions such as GEDI that supply forest structure data.
+facts:
+- claim: Its Biological Diversity and Ecological Conservation programmes support basic and
+    applied research in the Earth Science Division.
+  url: https://cce.nasa.gov/biodiversity/index.html
+  fetched: 2026-10-30
+  quote: The NASA Biological Diversity and Ecological Conservation programs support basic
+    and applied research as part of NASA's Earth Science Division.
+- claim: Headquarters address is in Washington, DC.
+  url: https://www.nasa.gov/contact/
+  fetched: 2026-10-30
+  quote: Washington, DC 20546
+links:
+- type: runs
+  to: nasa-biological-diversity-program
+  url: https://cce.nasa.gov/biodiversity/about.html
+  fetched: 2026-10-30
+  quote: The NASA Biological Diversity program is part of the NASA Earth Science Division
+    Research & Analysis program
+- type: runs
+  to: nasa-ecological-conservation-program
+  url: https://cce.nasa.gov/biodiversity/about.html
+  fetched: 2026-10-30
+  quote: The Ecological Conservation Program is part of the NASA Earth Science Division Earth
+    Action program.
+- type: funds
+  to: bioscape
+  url: https://bioscape.io/
+  fetched: 2026-10-30
+  quote: funded by the United States government (NASA)
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

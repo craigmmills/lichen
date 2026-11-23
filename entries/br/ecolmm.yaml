@@ -1,0 +1,40 @@
+id: ecolmm
+kind: project
+name: EcoLMM
+scope: br
+ai_label: ai
+ai_types:
+- multimodal
+- large-language-models
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+countries:
+- br
+status: active
+summary: Federal University of Amazonas project for multimodal biodiversity monitoring
+  using large language models on audio and visual data.
+facts:
+- claim: Uses large language models to analyse audio and visual inputs for environmental
+    monitoring.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: Multimodal biodiversity monitoring using Large Language Models (LLMs)
+  ai_type: multimodal
+- claim: Uses large language models.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: using Large Language Models (LLMs) to analyze diverse data types
+  ai_type: large-language-models
+links:
+- type: run-by
+  to: icomp-ai-research-group-ufam
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: 'EcoLMM: Multimodal biodiversity monitoring'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

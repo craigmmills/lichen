@@ -1,0 +1,55 @@
+id: predator-early-warning-system-gilgit-baltistan
+kind: project
+name: Predator Early Warning System (Gilgit-Baltistan)
+scope: pk
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- pk
+status: active
+summary: Active project, built by WWF-Pakistan and LUMS, using solar-powered Raspberry Pi camera traps
+  since 2022 with AI to detect snow leopards and alert communities; LUMS recorded five deployed in 2024.
+facts:
+- claim: Since 2022, solar-powered camera traps built on Raspberry Pi 4 have been installed in high-risk
+    zones near settlements.
+  url: https://www.raspberrypi.com/news/powering-coexistence-how-raspberry-pi-technology-is-helping-wwf-protect-wildlife-and-communities-in-pakistan/
+  fetched: 2026-11-03
+  quote: Since 2022, solar-powered camera traps built around Raspberry Pi 4 single-board computers have
+    been strategically installed in high-risk zones near human settlements.
+- claim: A trained AI algorithm analyses the images to detect snow leopards and other predators, and alerts
+    field teams and communities.
+  url: https://www.raspberrypi.com/news/powering-coexistence-how-raspberry-pi-technology-is-helping-wwf-protect-wildlife-and-communities-in-pakistan/
+  fetched: 2026-11-03
+  quote: A trained AI algorithm analyses incoming images to detect the presence of snow leopards and other
+    predators, including foxes, wolves, and Himalayan lynxes.
+- claim: LUMS's 2024 academic report records five camera traps deployed in Gilgit-Baltistan, with plans
+    to extend to Azad Jammu and Kashmir.
+  url: https://lums.edu.pk/academic-report/ar2024/centre-tpi.php
+  fetched: 2026-11-03
+  quote: Five of these camera traps have been successfully deployed in Gilgit-Baltistan, with plans to
+    extend the project to Azad Jammu-Kashmir.
+links:
+- type: built-by
+  to: wwf-pakistan
+  url: https://www.raspberrypi.com/news/powering-coexistence-how-raspberry-pi-technology-is-helping-wwf-protect-wildlife-and-communities-in-pakistan/
+  fetched: 2026-11-03
+  quote: WWF-Pakistan partnered with the National Center of Robotics and Automation at the Lahore University
+    of Management Sciences (LUMS) to develop and deploy an AI-powered Predator Early Warning System
+- type: built-by
+  to: lahore-university-of-management-sciences
+  url: https://www.raspberrypi.com/news/powering-coexistence-how-raspberry-pi-technology-is-helping-wwf-protect-wildlife-and-communities-in-pakistan/
+  fetched: 2026-11-03
+  quote: WWF-Pakistan partnered with the National Center of Robotics and Automation at the Lahore University
+    of Management Sciences (LUMS) to develop and deploy an AI-powered Predator Early Warning System
+- type: built-by
+  to: lahore-university-of-management-sciences
+  url: https://lums.edu.pk/academic-report/ar2024/centre-tpi.php
+  fetched: 2026-11-03
+  quote: has developed an AI-based camera trap system for wildlife detection
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-03

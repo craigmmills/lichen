@@ -1,0 +1,32 @@
+id: carbon-ai
+kind: model
+name: Carbon AI
+also_known_as: []
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+countries:
+- au
+scale: national
+status: active
+summary: AI used on NatureMapr that suggests possible species identifications and
+  directs moderators' attention.
+facts:
+- claim: Suggests identifications for moderators to verify.
+  url: https://naturemapr.org/content/moderators
+  fetched: '2026-10-31'
+  quote: Carbon AI can suggest possible identifications and help moderators focus
+    their attention where it is most useful.
+links:
+- type: run-by
+  to: naturemapr
+  url: https://naturemapr.org/content/moderators
+  fetched: '2026-10-31'
+  quote: "NatureMapr may use artificial intelligence to assist with the identification and prioritisation of records. Carbon AI can suggest possible identifications"
+found_by:
+- link-from:naturemapr
+added_by: agent
+checked: '2026-10-31'

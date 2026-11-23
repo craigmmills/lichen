@@ -1,0 +1,41 @@
+id: coastal-change-analysis-program
+kind: dataset
+name: Coastal Change Analysis Program Regional Land Cover
+also_known_as:
+- C-CAP
+scope: us
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://coast.noaa.gov/digitalcoast/data/ccapregional.html
+summary: Nationally consistent satellite-derived land cover time series for US coasts,
+  published through NOAA's Digital Coast.
+facts:
+- claim: Land cover products for US coasts derived from satellite imagery.
+  url: https://coast.noaa.gov/digitalcoast/data/ccapregional.html
+  fetched: '2026-10-30'
+  quote: These nationally consistent, raster-based land cover products represent a
+    long-standing time series of authoritative land cover information for U.S. coasts.
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Coastal Change Analysis Program (C-CAP) C-CAP embarked on operational
+    high resolution land cover development effort that utilized geographic object-based
+    image analysis and ML algorithms such as Random Forest to
+found_by:
+- checklist:2
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Coastal Change Analysis Program (C-CAP) C-CAP embarked on operational
+    high resolution land cover development effort that utilized geographic object-based
+    image analysis and ML algorithms such as Random Forest to

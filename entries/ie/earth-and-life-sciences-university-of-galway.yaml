@@ -1,0 +1,42 @@
+id: earth-and-life-sciences-university-of-galway
+kind: organisation
+name: Earth and Life Sciences, School of Natural Sciences, University of Galway
+scope: ie
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: ie
+countries:
+- ie
+scale: national
+status: active
+summary: University of Galway academic unit, affiliation of the first author of the BioIntertidal Mapper
+  paper on satellite NDVI intertidal habitat mapping; version 2.0 of the software appeared in 2026.
+facts:
+- claim: 'Affiliation of the first author of "BioIntertidal Mapper software: A satellite approach for
+    NDVI-based intertidal habitat mapping" (OpenAlex record).'
+  url: https://api.openalex.org/works?filter=doi:10.5281/zenodo.20321309|10.1016/j.softx.2023.101520|10.30955/gnc2025.00123|10.5194/egusphere-egu24-18342|10.1016/j.dsr.2025.104607&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: '"display_name": "BioIntertidal Mapper software: A satellite approach for NDVI-based intertidal
+    habitat mapping", "authorships": [{"author_position": "first"'
+- claim: The first author and three of the four corresponding authors are affiliated with Earth and Life
+    Sciences, School of Natural Sciences and Ryan Institute, University of Galway; another corresponding
+    author is affiliated with the University of Malaga.
+  url: https://api.openalex.org/works?filter=doi:10.5281/zenodo.20321309|10.1016/j.softx.2023.101520|10.30955/gnc2025.00123|10.5194/egusphere-egu24-18342|10.1016/j.dsr.2025.104607&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: Earth and Life Sciences, School of Natural Sciences and Ryan Institute, University of Galway,
+    H91TK33, Ireland
+- claim: An updated version 2.0 of the BioIntertidal Mapper software was published in 2026 (OpenAlex record).
+  url: https://api.openalex.org/works?filter=institutions.country_code:IE,publication_year:>2021,primary_topic.subfield.id:2303|2309|1105,concepts.id:C62649853&select=display_name,doi,publication_year&per-page=40&page=2
+  fetched: 2026-11-09
+  quote: 'Updated 2.0 to biointertidal mapper software: A satellite approach for NDVI-based intertidal
+    habitat mapping'
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

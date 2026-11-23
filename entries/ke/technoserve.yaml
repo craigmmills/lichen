@@ -1,0 +1,40 @@
+id: technoserve
+kind: organisation
+name: TechnoServe
+scope: ke
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+website: https://technoserve.org
+hq: unknown
+countries:
+- ke
+scale: national
+summary: Development organisation whose TechnoServe Labs built TerraTrac, a free app for mapping
+  farms, used by Kenyan coffee cooperatives to show deforestation-free supply.
+facts:
+- claim: Its Kenya team piloted TerraTrac through the Nespresso AAA Sustainable Quality Program.
+  url: https://technoserve.org/blog/kenyan-coffee-eudr-compliance-sustainable-solutions
+  quote: the TechnoServe Kenya team–through the Nespresso AAA Sustainable Quality Program
+    –conducted a pilot
+  fetched: '2026-10-31'
+- claim: Supported 19 cooperative societies to use the app.
+  url: https://technoserve.org/blog/kenyan-coffee-eudr-compliance-sustainable-solutions
+  quote: The program team has supported 19 cooperative societies
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: terratrac
+  url: https://technoserve.org/blog/kenyan-coffee-eudr-compliance-sustainable-solutions
+  quote: TerraTrac, an Android application developed by TechnoServe Labs
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

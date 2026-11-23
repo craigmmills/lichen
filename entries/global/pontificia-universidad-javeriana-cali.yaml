@@ -1,0 +1,40 @@
+id: pontificia-universidad-javeriana-cali
+kind: organisation
+name: Pontificia Universidad Javeriana Cali
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+hq: co
+scale: global
+status: active
+website: https://www.javerianacali.edu.co/
+summary: Colombian university with authors on AnuraSet, a neotropical anuran call dataset
+  for machine learning.
+facts:
+- claim: Listed as an author affiliation on the AnuraSet paper.
+  url: https://arxiv.org/pdf/2307.06860v1.pdf
+  fetched: '2026-10-30'
+  quote: Pontificia Universidad Javeriana Seccional Cali
+- claim: The AnuraSet authors train deep learning models.
+  url: https://arxiv.org/pdf/2307.06860v1.pdf
+  fetched: '2026-10-30'
+  quote: to train deep learning models
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: anuraset
+  url: https://arxiv.org/pdf/2307.06860v1.pdf
+  fetched: '2026-10-30'
+  quote: Pontificia Universidad Javeriana Seccional Cali
+found_by:
+- link-from:anuraset
+added_by: agent
+checked: '2026-10-30'

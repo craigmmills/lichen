@@ -1,0 +1,45 @@
+id: bcg-coral-shiny-app
+kind: model
+name: BCG shiny app (Biological Condition Gradient for Puerto Rico and U.S. Virgin
+  Islands coral reefs)
+scope: pr
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+countries: []
+status: active
+website: https://ccri-uprm.shinyapps.io/BCG_Coral/
+summary: Publicly available web application, cited as EPA and NOAA (2023), that scores
+  coral reef health from 1 to 6 but currently accepts only line-point-intercept and
+  benthic demographic coral data.
+facts:
+- claim: The BCG is a numerical model that, fed data on coral reef sites, gives a
+    value between 1 and 6 for the relative health of those ecosystems.
+  url: https://www.uprm.edu/ccri/research/development-and-implementation-of-a-biological-condition-gradient-bcg-model-around-puerto-rico/
+  fetched: 2026-11-14
+  quote: uses that information to deliver a value between 1 and 6 that represents
+    the relative health of those ecosystems
+- claim: The application is publicly available but currently works only with coral
+    data collected by line-point-intercept and benthic demographic methods.
+  url: https://www.uprm.edu/ccri/research/development-and-implementation-of-a-biological-condition-gradient-bcg-model-around-puerto-rico/
+  fetched: 2026-11-14
+  quote: is currently working ONLY with coral assemblage data collected using Line-Point-Intercept
+    (LPI) and benthic demographic (DEMO) methods
+- claim: The page cites the app as an EPA and NOAA (2023) web application developed
+    by Edlin Guerrera Castro and Arturo Sánchez Porras. Its subcontracted programmer
+    list spells the first name Edlin Guerra Castro.
+  url: https://www.uprm.edu/ccri/research/development-and-implementation-of-a-biological-condition-gradient-bcg-model-around-puerto-rico/
+  fetched: 2026-11-14
+  quote: 'Developed by: Edlin Guerrera Castro and Arturo Sánchez Porras.'
+links:
+- type: built-by
+  to: caribbean-coral-reef-institute
+  url: https://www.uprm.edu/ccri/research/development-and-implementation-of-a-biological-condition-gradient-bcg-model-around-puerto-rico/
+  fetched: 2026-11-14
+  quote: CCRI is collaborating to create a “ BCG shiny app ”
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

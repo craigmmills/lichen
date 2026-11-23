@@ -1,0 +1,33 @@
+id: swedish-red-list
+kind: dataset
+name: Swedish Red List
+also_known_as:
+- Rödlistan
+scope: se
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- se
+status: active
+summary: Dataset compiling the extinction risk of species in Sweden, built by the SLU Swedish Species
+  Information Centre.
+facts:
+- claim: A compilation of the extinction risk of species in Sweden.
+  url: https://www.slu.se/en/environment/statistics-and-environmental-data/environmental-data-catalogue/den-svenska-rodlistan/
+  fetched: '2026-11-02'
+  quote: The Swedish Red List is compiled by the Swedish Species Information Centre at the Swedish University
+    of Agricultural Sciences and is a compilation of the extinction risk of species in Sweden.
+links:
+- type: built-by
+  to: slu-swedish-species-information-centre
+  url: https://www.slu.se/en/environment/statistics-and-environmental-data/environmental-data-catalogue/den-svenska-rodlistan/
+  fetched: '2026-11-02'
+  quote: The Swedish Red List is compiled by the Swedish Species Information Centre at the Swedish University
+    of Agricultural Sciences
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

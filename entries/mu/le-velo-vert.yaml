@@ -1,0 +1,40 @@
+id: le-velo-vert
+kind: organisation
+name: Le Velo Vert
+also_known_as:
+- LVV
+scope: mu
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- mu
+scale: national
+status: unknown
+summary: Mauritian NGO working to mainstream organic agriculture, whose biannual surveys
+  of non-crop plants in pilot organic fields set up in 2017 produced 1,003 records
+  in a GBIF dataset.
+facts:
+- claim: The GBIF dataset "Monitoring of non-crop plants in organic fields of Mauritius"
+    says the monitoring of ten fields or greenhouses around the island is part of
+    an effort by the Mauritius NGO Le Velo Vert to mainstream organic agriculture.
+  url: https://api.gbif.org/v1/dataset/search?q=non-crop%20plants%20organic%20fields%20Mauritius&limit=3
+  fetched: 2026-11-13
+  quote: is part of an effort from Mauritius NGO Le Velo Vert (LVV) to mainstream
+    organic agriculture
+- claim: The dataset consists of biannual qualitative surveys for non-crop flora in
+    and around pilot organic fields set up in 2017, with 1,003 records.
+  url: https://api.gbif.org/v1/dataset/search?q=non-crop%20plants%20organic%20fields%20Mauritius&limit=3
+  fetched: 2026-11-13
+  quote: This dataset consists of biannual qualitative surveys for the presence of
+    the non-crop flora in and around pilot organic fields set in 2017 on the island
+    of Mauritius.
+found_by:
+- rule:round-2
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-13

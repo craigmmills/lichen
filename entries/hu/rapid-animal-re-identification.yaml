@@ -1,0 +1,53 @@
+id: rapid-animal-re-identification
+kind: model
+name: RAPID (Real-time Animal Pattern re-Identification on Edge Devices)
+also_known_as:
+- RAPID
+scope: hu
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries: []
+status: active
+runner: unknown
+summary: Open source model, built by the MTA–ELTE group, András Zábó and the University of
+  Stuttgart, which ELTE says recognises individual patterned animals in real time, including
+  from drone footage.
+facts:
+- claim: ELTE says RAPID recognises individual patterned animals in real time, even from drone
+    footage.
+  url: https://www.elte.hu/en/innovative-algorithms-for-species-conservation
+  fetched: 2026-11-12
+  quote: is capable of recognizing individual patterned animals in real time, even from drone
+    footage
+- claim: It processes 40 to 60 identifications per second on a standard computer and up to
+    10 per second on embedded devices such as those used in drones.
+  url: https://www.elte.hu/en/innovative-algorithms-for-species-conservation
+  fetched: 2026-11-12
+  quote: it can process 40–60 identifications per second on a standard computer, and up to
+    10 identifications per second on smaller, embedded devices such as those used in drones
+- claim: It is available as open source.
+  url: https://www.elte.hu/en/innovative-algorithms-for-species-conservation
+  fetched: 2026-11-12
+  quote: RAPID is available as an open-source development
+links:
+- type: built-by
+  to: mta-elte-lendulet-collective-behaviour-research-group
+  url: https://www.elte.hu/en/innovative-algorithms-for-species-conservation
+  fetched: 2026-11-12
+  quote: It was developed by András Zábó and Máté Nagy of the MTA–ELTE “Lendület” Collective
+    Behaviour Research Group, together with Aamir Ahmad of the Max Planck Institute and the
+    University of Stuttgart.
+- type: built-by
+  to: university-of-stuttgart
+  url: https://www.elte.hu/en/innovative-algorithms-for-species-conservation
+  fetched: 2026-11-12
+  quote: The RAPID system—created in collaboration between the MTA–ELTE “Lendület” Collective
+    Behaviour Research Group, the Max Planck Institute, and the University of Stuttgart—is
+    capable of recognizing individual patterned animals in real time, even from drone footage.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

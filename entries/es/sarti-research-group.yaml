@@ -1,0 +1,81 @@
+id: sarti-research-group
+kind: organisation
+name: SARTI Research Group
+scope: es
+also_known_as:
+- SARTI-UPC
+- SARTI-MAR
+- Centre de Desenvolupament de Sistemes d'Adquisició Remota i Tractament de la Informació
+- SARTI
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: es
+scale: national
+status: active
+website: https://cdsarti.org
+summary: Research group at the Universitat Politècnica de Catalunya that builds remote data
+  acquisition and ocean instruments and runs the OBSEA seafloor observatory.
+facts:
+- claim: A research group of UPC staff working on remote data acquisition and processing systems.
+  url: https://cdsarti.org
+  fetched: '2026-10-31'
+  quote: SARTI és un grup de recerca, format per personal de diferents departaments de la
+    UPC
+- claim: Its GBIF publisher record gives its address as Rambla de l'Exposició 24, Vilanova
+    i la Geltrú.
+  url: https://api.gbif.org/v1/organization/0cfd8405-febc-49c0-89c7-6c9ab073f92b
+  fetched: '2026-10-31'
+  quote: Rambla de l'Exposició 24
+- claim: Says it aims to publish marine biodiversity data automatically from an AI fish detector
+    on OBSEA camera images.
+  url: https://api.gbif.org/v1/organization/0cfd8405-febc-49c0-89c7-6c9ab073f92b
+  fetched: '2026-10-31'
+  quote: We aim to automatically publish marine biodiversity data using Darwin Core archives.
+- claim: SARTI stands for a centre for remote acquisition systems and information processing.
+  url: https://cdsarti.org
+  fetched: '2026-10-31'
+  quote: Centre de Desenvolupament de S istemes d' A dquisició R emota i T ractament de la
+    I nformació
+- claim: A research group within the Universitat Politècnica de Catalunya's quality system.
+  url: https://obsea.es/
+  fetched: '2026-10-31'
+  quote: The research group SARTI has joined the Quality Assurance System for Research and
+    Knowledge Transfer (SAQRA) of the Universitat Politècnica de Catalunya (UPC)
+- claim: Publishes a YOLO network trained on fish images from OBSEA.
+  url: https://zenodo.org/records/14910365/latest
+  fetched: '2026-10-31'
+  quote: A YOLOv11 xlarge network trained with labeled fish images acquired at OBSEA Underwater
+    Observatory
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: universitat-politecnica-de-catalunya
+  url: https://cdsarti.org
+  fetched: '2026-10-31'
+  quote: pel fet de pertànyer a la universitat politècnica de Catalunya
+- type: partners-with
+  to: emso-eric
+  url: https://obsea.es
+  fetched: '2026-10-31'
+  quote: SARTI-UPC has joined EMSO EVOLVE – European VisiOn for long-term ocean observations
+    and environmental sustainability, a new four-year Horizon Europe project coordinated by
+    EMSO ERIC.
+- type: run-by
+  to: universitat-politecnica-de-catalunya
+  url: https://obsea.es/
+  fetched: '2026-10-31'
+  quote: The SARTI research group at Universitat Politècnica de Catalunya
+found_by:
+- link-from:gbif-spain
+- register:es
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

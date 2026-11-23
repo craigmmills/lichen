@@ -1,0 +1,43 @@
+id: baidu
+kind: organisation
+name: Baidu
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: cn
+scale: global
+status: active
+summary: Technology company whose PaddlePaddle deep learning platform underlies the AI Guardian
+  of Endangered Species, built with the International Fund for Animal Welfare.
+facts:
+- claim: Launched the first version of the AI Guardian with IFAW in 2020.
+  url: https://m.tech.china.com/redian/2025/0711/072025_1698164.html
+  fetched: &id001 2026-10-30
+  quote: 早在2020年，百度与IFAW基于飞桨深度学习平台推出全球首个“濒危物种AI守护官”
+- claim: Headquartered in Beijing.
+  url: https://en.wikipedia.org/wiki/Baidu
+  fetched: 2026-10-30
+  quote: Headquarters Beijing
+- claim: IFAW says it and Baidu launched an AI tool to identify images of endangered wildlife
+    products traded online.
+  url: https://www.ifaw.org/press-releases/ai-endangered-species-recognize-images-illegal-wildlife?form=join
+  quote: the International Fund for Animal Welfare (IFAW) and Baidu launched an artificial
+    intelligence (AI) -powered tool to identify images of endangered wildlife products traded
+    online.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: international-fund-for-animal-welfare
+  url: https://www.ifaw.org/press-releases/ai-endangered-species-recognize-images-illegal-wildlife?form=join
+  quote: jointly developed by IFAW and Baidu’s open-source deep learning platform PaddlePaddle
+  fetched: '2026-10-30'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

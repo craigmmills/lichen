@@ -1,0 +1,58 @@
+id: mapbiomas-chile
+kind: project
+name: MapBiomas Chile
+scope: cl
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cl
+status: active
+website: https://chile.mapbiomas.org
+summary: Active satellite mapping project led by Jaime Hernández, partnering with WWF Chile
+  and two universities, using Landsat imagery and AI classifiers run on Google Earth Engine.
+facts:
+- claim: A press digest on Universidad Católica's site says the platform's first collection
+    of annual maps is a collaboration of the universities of Chile, Concepción, Magallanes
+    and La Frontera with WWF Chile.
+  url: https://www.uc.cl/academia-en-los-medios/perdida-de-590-mil-ha-de-bosque-nativo-en-dos-decadas/
+  fetched: 2026-11-02
+  quote: una colaboración entre especialistas de la Universidad de Chile, Universidad de Concepción,
+    Universidad de Magallanes, Universidad de La Frontera y WWF Chile
+- claim: Uses Landsat imagery, cloud processing and artificial intelligence classifiers run
+    on Google Earth Engine.
+  url: https://www.uc.cl/academia-en-los-medios/perdida-de-590-mil-ha-de-bosque-nativo-en-dos-decadas/
+  fetched: 2026-11-02
+  quote: utiliza imágenes satelitales Landsat de la NASA, procesamiento en la nube y clasificadores
+    de inteligencia artificial operados desde la plataforma Google Earth Engine
+- claim: Allows monitoring of national territory through satellite images and open science.
+  url: https://uchile.cl/noticias/227287/mapbiomas-chile-uchile-impulsa-plataforma-pionera-sobre-uso-de-suelo
+  fetched: '2026-11-02'
+  quote: permite monitorear la transformación del territorio nacional a través de imágenes
+    satelitales y ciencia abierta
+runner: unknown
+links:
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://www.uc.cl/academia-en-los-medios/perdida-de-590-mil-ha-de-bosque-nativo-en-dos-decadas/
+  fetched: 2026-11-02
+  quote: una colaboración entre especialistas de la Universidad de Chile, Universidad de Concepción,
+    Universidad de Magallanes, Universidad de La Frontera y WWF Chile
+- type: partners-with
+  to: university-of-chile
+  url: https://uchile.cl/noticias/227287/mapbiomas-chile-uchile-impulsa-plataforma-pionera-sobre-uso-de-suelo
+  fetched: '2026-11-02'
+  quote: la firma del convenio de colaboración entre la Universidad de Chile, la Universidad
+    de Concepción y la Universidad de La Frontera
+- type: partners-with
+  to: universidad-de-concepcion
+  url: https://uchile.cl/noticias/227287/mapbiomas-chile-uchile-impulsa-plataforma-pionera-sobre-uso-de-suelo
+  fetched: '2026-11-02'
+  quote: la firma del convenio de colaboración entre la Universidad de Chile, la Universidad
+    de Concepción y la Universidad de La Frontera
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,50 @@
+id: parks-victoria
+kind: organisation
+name: Parks Victoria
+scope: au
+sector: government
+roles:
+- builds-ai
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- au
+scale: regional
+status: active
+website: https://www.parks.vic.gov.au
+summary: Victorian park management body that launched an open-access AI tool to identify wildlife
+  in remote camera images with the Dutch company Addax.
+facts:
+- claim: Partnered with Addax to launch an open-access tool that analyses remote camera images.
+  url: https://www.parks.vic.gov.au/news/2026/04/23/05/08/victoria-leading-the-way-with-ai-tools-to-protect-wildlife
+  fetched: '2026-10-31'
+  quote: Parks Victoria has partnered with Dutch data science company Addax to launch a new
+    open‑access super‑computing tool that rapidly analyses remote camera images to identify
+    and protect native wildlife.
+- claim: Co-created the Victorian Species Recognition Model.
+  url: https://www.parks.vic.gov.au/get-into-nature/conservation-and-science/science-and-research/ai-victorian-species-recognition-model
+  fetched: '2026-10-31'
+  quote: Parks Victoria has co-created the Victorian Species Recognition Model
+links:
+- type: runs
+  to: victorian-species-recognition-model
+  url: https://www.parks.vic.gov.au/news/2026/04/23/05/08/victoria-leading-the-way-with-ai-tools-to-protect-wildlife
+  fetched: '2026-10-31'
+  quote: Parks Victoria has partnered with Dutch data science company Addax to launch a new
+    open‑access super‑computing tool
+- type: partners-with
+  to: addaxai
+  url: https://www.parks.vic.gov.au/news/2026/04/23/05/08/victoria-leading-the-way-with-ai-tools-to-protect-wildlife
+  fetched: '2026-10-31'
+  quote: Parks Victoria has partnered with Dutch data science company Addax
+found_by:
+- checklist:rule-state-agencies
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

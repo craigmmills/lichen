@@ -1,0 +1,43 @@
+id: the-chicago-community-trust
+kind: organisation
+name: The Chicago Community Trust
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+hq: us
+scale: global
+status: active
+summary: Community foundation recorded as giving Global Fishing Watch $2 million and Earth
+  Species Project $87,000 in 2025.
+facts:
+- claim: Recorded as giving Global Fishing Watch $2,000,000 in 2025. Grantable table compiled
+    from IRS Form 990 filings.
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: The Chicago Community Trust $2,000,000 1 2025
+  fetched: &id001 2026-10-30
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: The Chicago Community Trust $2,000,000 1 2025
+  amount: 2000000
+  currency: USD
+  year: 2025
+  fetched: *id001
+- type: funds
+  to: earth-species-project
+  url: https://grantable.co/nonprofits/the-earth-species-project-morg_8037bb9169f342129cd38771621f845c
+  quote: The Chicago Community Trust $87,000 1 2025
+  amount: 87000
+  currency: USD
+  year: 2025
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

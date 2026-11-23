@@ -1,0 +1,38 @@
+id: wassercluster-lunz
+kind: organisation
+name: WasserCluster Lunz - Biologische Station GmbH
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Austrian research organisation whose authors appear on two OpenAlex-listed papers,
+  from 2021 and 2022, on monitoring fish communities with eDNA methods, including metabarcoding
+  and qPCR.
+facts:
+- claim: OpenAlex lists a 2022 paper with WasserCluster Lunz authors on quantitative large-scale
+    monitoring of fish communities combining eDNA metabarcoding and qPCR.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01q437m46,publication_year:2021-2026&sort=cited_by_count:desc&per_page=8&select=id,title,publication_year
+  fetched: 2026-11-07
+  quote: Quantitative monitoring of diverse fish communities on a large scale combining eDNA
+    metabarcoding and qPCR
+- claim: OpenAlex lists a 2021 paper with WasserCluster Lunz authors comparing traditional
+    and eDNA-based sampling of fish communities.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01q437m46,publication_year:2021-2026&sort=cited_by_count:desc&per_page=8&select=id,title,publication_year
+  fetched: 2026-11-07
+  quote: Congruency between two traditional and eDNA-based sampling methods in characterising
+    taxonomic and trait-based structure of fish communities
+found_by:
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-07

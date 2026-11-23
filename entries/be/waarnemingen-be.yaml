@@ -1,0 +1,28 @@
+id: waarnemingen-be
+kind: dataset
+name: Waarnemingen.be
+scope: be
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- be
+status: active
+website: http://www.waarnemingen.be
+summary: Observation database run by Natuurpunt, which says it collects over 6 million observation records
+  a year.
+facts:
+- claim: Natuurpunt says the database collects over 6 million observation records a year.
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: '2026-11-02'
+  quote: we collect over 6 million observation records per year
+links:
+- type: run-by
+  to: natuurpunt
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: '2026-11-02'
+  quote: With our database www.waarnemingen.be we collect over 6 million observation records per year.
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-02'

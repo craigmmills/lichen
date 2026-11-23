@@ -1,0 +1,42 @@
+id: swansea-university
+kind: organisation
+name: Swansea University
+scope: gb
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+website: https://www.swansea.ac.uk
+hq: unknown
+countries:
+- gb
+scale: national
+summary: University whose Swansea Lab for Animal Movement develops animal-attached tags and
+  analyses their data. OpenAlex lists its authors on work applying machine learning to tag
+  data.
+facts:
+- claim: OpenAlex lists Swansea authors on supervised learning for sea turtle behaviour.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I39586589,from_publication_date:2018-01-01,concepts.id:C119857082|C108583219|C31972630,primary_topic.subfield.id:2309|2303|1105|1104|1107|2306&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  quote: Combined use of two supervised learning algorithms to model sea turtle behaviours
+  fetched: '2026-10-31'
+- claim: OpenAlex lists Swansea authors on fish eDNA monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I39586589,from_publication_date:2018-01-01,concepts.id:C119857082|C108583219|C31972630,primary_topic.subfield.id:2309|2303|1105|1104|1107|2306&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  quote: 'A drop in the ocean: Monitoring fish communities in spawning areas using environmental
+    DNA'
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: swansea-lab-for-animal-movement
+  url: https://www.swansea.ac.uk/bioscience/research-and-impact/slam/
+  quote: Swansea Lab for Animal Movement (SLAM) - Swansea University
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

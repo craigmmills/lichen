@@ -1,0 +1,46 @@
+id: lau-coralnet-benthic-image-automation
+kind: project
+name: Lau CoralNet benthic image automation
+scope: fj
+ai_label: ai
+status: unknown
+realms:
+- ocean
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- fj
+summary: Joint project of the Khaled bin Sultan Living Oceans Foundation and Pacific Blue
+  Foundation to train CoralNet on annotated reef images from Lau Province, Fiji.
+facts:
+- claim: Aims to train CoralNet on the foundation's annotated images from Lau.
+  url: https://www.livingoceansfoundation.org/?p=43852
+  fetched: '2026-10-31'
+  quote: The project aims to train the CoralNet algorithm on KSLOF’s annotated images from
+    Lau Province to automate image analysis from benthic transects
+- claim: A related foundation study models reef condition from public remote sensing data,
+    with Lau as the test case.
+  url: https://www.livingoceansfoundation.org/?p=43852
+  fetched: '2026-10-31'
+  quote: Using data from the Lau Islands as a test case example
+links:
+- type: run-by
+  to: khaled-bin-sultan-living-oceans-foundation
+  url: https://www.livingoceansfoundation.org/?p=43852
+  fetched: '2026-10-31'
+  quote: joint effort by KSLOF and Pacific Blue Foundation
+- type: partners-with
+  to: pacific-blue-foundation
+  url: https://www.livingoceansfoundation.org/?p=43852
+  fetched: '2026-10-31'
+  quote: joint effort by KSLOF and Pacific Blue Foundation
+- type: builds-on
+  to: coralnet
+  url: https://www.livingoceansfoundation.org/?p=43852
+  fetched: '2026-10-31'
+  quote: to improve the CoralNet machine learning platform
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

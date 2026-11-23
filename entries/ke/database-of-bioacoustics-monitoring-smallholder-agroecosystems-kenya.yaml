@@ -1,0 +1,25 @@
+id: database-of-bioacoustics-monitoring-smallholder-agroecosystems-kenya
+kind: dataset
+name: Database of Bioacoustics Monitoring in Smallholder Agroecosystems, Kenya
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ke
+status: active
+runner: unknown
+summary: Dataset of bioacoustics monitoring on Kenyan smallholder farms, with authors
+  at the International Center for Tropical Agriculture.
+facts:
+- claim: OpenAlex lists the dataset.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: Database of Bioacoustics Monitoring in Smallholder Agroecosystems, Kenya
+  fetched: &id001 2026-10-31
+links:
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

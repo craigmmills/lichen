@@ -1,0 +1,89 @@
+id: university-of-warsaw
+kind: organisation
+name: University of Warsaw
+also_known_as:
+- Uniwersytet Warszawski
+- UW
+scope: pl
+sector: academic
+roles:
+- supplies-data
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: pl
+scale: national
+status: active
+summary: University that led IMBIO, hosts the GBIF Poland node established in 2003, runs the
+  Polish Biodiversity Information Network, and partners in FunDive, with several Sentinel-2
+  and satellite imagery studies.
+facts:
+- claim: It was the lead partner of IMBIO.
+  url: https://www.iop.krakow.pl/files/293/oimbio.pdf
+  fetched: '2026-11-02'
+  quote: Uniwersytet Warszawski (Lider)
+- claim: Its Faculty of Biology hosts the GBIF node.
+  url: https://api.gbif.org/v1/organization/17fba53b-3c1b-4689-82e1-4d66ad4f445c
+  fetched: '2026-11-02'
+  quote: is hosted by the Faculty of Biology of the University of Warsaw, Poland
+- claim: Biodiversa+ lists the Faculty of Biology as a FunDive partner.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Faculty of Biology, University of Warsaw, Warsaw, Poland
+- claim: DiSSCo says the Faculty of Biology hosts the GBIF node and coordinates KSIB.
+  url: https://www.dissco.eu/pl/
+  fetched: '2026-11-02'
+  quote: The Faculty of Biology hosts the GBIF National Participant Node, and coordinates
+    the Polish Biodiversity Information Network ( KSIB )
+- claim: A project in its Department of Geoinformatics ran from January 2024 to January 2026
+    to assess spruce forest damage using Sentinel-2 data.
+  url: https://geoinformatics.uw.edu.pl/ncn-preludium-22/
+  fetched: '2026-11-02'
+  quote: Spruce Forest Damage Assessment Using Machine Learning on Sentinel-2 Time Series
+    in the Tatra Mountains
+- claim: GBIF Poland was established in 2003 and is hosted at the university.
+  url: https://www.biol.uw.edu.pl/en/gbif-speaks-polish/
+  quote: Established in 2003 and hosted at UW, GBIF Poland node
+  fetched: '2026-11-02'
+- claim: A 2023 paper by University of Warsaw and Tatra National Park authors maps mountain
+    tree species from satellite and airborne imagery.
+  url: https://api.openalex.org/works/W4319083649?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Mountain Tree Species Mapping Using Sentinel-2, PlanetScope, and Airborne HySpex
+    Hyperspectral Imagery
+  fetched: '2026-11-02'
+- claim: A 2020 paper by University of Warsaw authors compares support vector machine and
+    random forest classification of invasive species.
+  url: https://api.openalex.org/works/W3005383134?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Comparison of Support Vector Machine and Random Forest Algorithms for Invasive and
+    Expansive Species Classification Using Airborne Hyperspectral Data
+  ai_type: ml-supervised
+  fetched: '2026-11-02'
+links:
+- type: leads
+  to: imbio
+  url: https://www.iop.krakow.pl/files/293/oimbio.pdf
+  fetched: '2026-11-02'
+  quote: Uniwersytet Warszawski (Lider)
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Faculty of Biology, University of Warsaw, Warsaw, Poland
+- type: runs
+  to: polish-biodiversity-information-network
+  url: https://www.dissco.eu/pl/
+  fetched: '2026-11-02'
+  quote: coordinates the Polish Biodiversity Information Network ( KSIB )
+found_by:
+- checklist:2
+- link-from:fundive
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised

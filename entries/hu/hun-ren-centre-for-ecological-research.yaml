@@ -1,0 +1,122 @@
+id: hun-ren-centre-for-ecological-research
+kind: organisation
+name: HUN-REN Ökológiai Kutatóközpont
+also_known_as:
+- HUN-REN Centre for Ecological Research
+- HUN-REN Ökológiai Kutatóközpont
+- Centre for Ecological Research
+scope: hu
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+- computer-vision
+- species-distribution
+hq: hu
+countries:
+- hu
+scale: national
+status: active
+summary: Research centre studying aquatic and terrestrial ecosystems, mosquito and animal sound recognition,
+  and public monitoring, with OpenAlex listing 801 ecology and conservation works since 2018.
+facts:
+- claim: Researchers of the centre, with Eötvös Loránd University and the University of Szeged, studied
+    whether mosquito species can be told apart by wingbeat sound, as a step towards AI monitoring of hazardous
+    mosquito species.
+  url: https://hun-ren.hu/research_news/we-tell-what-it-is-from-its-buzz-artificial-intelligence-in-mosquito-monitoring-110026
+  fetched: 2026-11-08
+  quote: The findings of this recent study represent an important step toward enabling the effective application
+    of artificial intelligence under real-world conditions for monitoring hazardous mosquito species.
+- claim: A centre researcher’s 2024 Academy session abstract says the group uses machine learning to recognise
+    invasive mosquito species in citizen science reports and identify environmental factors behind their
+    spread.
+  url: https://mta.hu/data/esemenyek/mtu2024/1121_5396_Mesters%C3%A9ges_intelligencia_a_hazai_%C3%B6kol%C3%B3gi%C3%A1ban_%C3%A9s_term%C3%A9szetv%C3%A9delemben_FZS.pdf
+  fetched: 2026-11-08
+  quote: Kutatásainkban gépi tanulásos módszereket használunk a fajok felismerésére
+- claim: A centre researcher’s 2024 Academy session abstract discusses animal sounds and AI, citing convolutional
+    neural networks for identifying and classifying animal sounds.
+  url: https://mta.hu/data/esemenyek/mtu2024/1121_5396_Mesters%C3%A9ges_intelligencia_a_hazai_%C3%B6kol%C3%B3gi%C3%A1ban_%C3%A9s_term%C3%A9szetv%C3%A9delemben_FZS.pdf
+  fetched: 2026-11-08
+  quote: Különösen a konvolúciós neurális hálózatok
+  ai_type: deep-learning
+- claim: OpenAlex lists 801 works since 2018 in ecology and in nature and landscape conservation with
+    an author at the centre.
+  url: https://api.openalex.org/works?filter=institutions.country_code:HU,primary_topic.subfield.id:2303|2309,publication_year:>2017&group_by=authorships.institutions.lineage
+  fetched: 2026-11-08
+  quote: '"key_display_name": "HUN-REN Centre for Ecological Research", "count": 801'
+- claim: Its main mission is research on biodiversity and ecosystems, aquatic and terrestrial.
+  url: https://ecolres.hun-ren.hu/en/home/
+  fetched: 2026-11-08
+  quote: Our main mission is to conduct high-quality research on biodiversity and ecosystems, including
+    aquatic and terrestrial life.
+- claim: Its Institute of Ecology and Botany carries out public monitoring as well as basic research.
+  url: https://ecolres.hun-ren.hu/en/home/
+  fetched: 2026-11-08
+  quote: In addition to its basic research activities, the institute carries out a number of public monitoring
+    and applied research activities.
+- claim: Its large-river monitoring covers bacterioplankton, phytoplankton, zooplankton, mussels and fish.
+  url: https://ecolres.hun-ren.hu/kozcelu_feladatok/nagy-folyokon-vegzett-monitorozasok/
+  fetched: 2026-11-08
+  quote: Az HUN-REN Ökológiai Kutatóközpont nagy folyó monitorozásában bakterio-, fito-, zooplankton,
+    kagyló, és halmonitorozás történik.
+- claim: Its IAE Service and Environmental Monitoring Unit conducts surveys for the public monitoring
+    programmes.
+  url: https://ecolres.hun-ren.hu/en/iae-service-and-environmental-monitoring-unit/
+  fetched: 2026-11-08
+  quote: conducting surveys related to the public monitoring programmes
+- claim: Its Large-scale Vegetation Ecology Research Group documents, models and predicts the effects
+    of climate and land use change and biological invasion, using vegetation and environmental databases.
+  url: https://ecolres.hun-ren.hu/en/kutatocsoportok/large-scale-vegetation-ecology-research-group/
+  fetched: 2026-11-08
+  quote: The focus of our interest is to document, model and predict the effects of climate and land use
+    change and that of the biological invasion.
+- claim: Lists among its research infrastructure the KISKUN LTER long-term ecological research site and
+    the ER HTV database of the Hungarian Forest Reserve Programme.
+  url: https://ecolres.hun-ren.hu/en/research/research-infrastructure/
+  fetched: 2026-11-08
+  quote: The ER HTV database of the Hungarian Forest Reserve Programme manages and helps to process data-flow
+    services of the standard inventory data acquired from the permanent sampling plots (PSPs)
+- claim: Says its task is research on terrestrial and aquatic ecosystems and that it studies and monitors
+    how ecosystems function.
+  url: https://ecolres.hun-ren.hu
+  fetched: 2026-11-08
+  quote: Vizsgáljuk és monitorozzuk az ökoszisztémák működését
+- claim: Its site lists among featured publications a paper on RAPID, an open-source tool for real-time
+    animal pattern re-identification on edge devices for field deployment.
+  url: https://ecolres.hun-ren.hu
+  fetched: 2026-11-08
+  quote: 'RAPID: Real‐time animal pattern re‐identification on edge devices, an open‐source tool for field
+    deployment'
+- claim: Its site says researchers of its Institute of Aquatic Ecology take part in three of four Biodiversa+
+    projects with Hungarian participation proposed for funding in the 2025-2026 BiodivConnect call.
+  url: https://ecolres.hun-ren.hu
+  fetched: 2026-11-08
+  quote: A Biodiversa+ négy magyar részvételű, támogatásra javasolt projektjéből háromban az ÖK Vízi Ökológiai
+    Intézetének kutatói vesznek részt.
+ai_types:
+- deep-learning
+links:
+- type: partners-with
+  to: seppi
+  url: https://www.biodiversa.eu/2024/04/15/seppi/
+  fetched: 2026-11-08
+  quote: Institute of Ecology and Botany, Centre for Ecological Research, Vácrátót, Hungary
+- type: partners-with
+  to: transponder
+  url: https://www.biodiversa.eu/2024/04/15/transponder/
+  fetched: 2026-11-08
+  quote: Institute of Aquatic Ecology, Centre for Ecological Research, Budapest, Hungary
+found_by:
+- checklist:3
+- link-from:seppi
+- link-from:transponder
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

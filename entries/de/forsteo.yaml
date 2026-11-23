@@ -1,0 +1,41 @@
+id: forsteo
+kind: project
+name: ForstEO
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: Research project from 2023 to 2026 of the Bavarian State Institute of Forestry
+  and partners on detecting forest crown damage with AI and remote sensing.
+facts:
+- claim: Aims to record climate-related forest damage automatically and reliably.
+  url: https://www.waldwissen.net/de/lebensraum-wald/naturschutz/ki-biodiversitaetsforschung-naturschutz
+  quote: Ziel ist es, klimabedingte Waldschäden automatisiert und zuverlässig zu erfassen.
+  fetched: '2026-10-31'
+- claim: Produces information products on forest condition and damage in Germany.
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/forsteo
+  fetched: '2026-10-31'
+  quote: Im Projekt werden Informationsprodukte entwickelt, die den Waldzustand in
+    Deutschland beschreiben und die aktuelle Waldschadensdynamik abbilden.
+links:
+- type: run-by
+  to: bavarian-state-institute-of-forestry
+  url: https://www.waldwissen.net/de/lebensraum-wald/naturschutz/ki-biodiversitaetsforschung-naturschutz
+  quote: Im Forschungsprojekt ForstEO (2023–2026) untersucht die LWF gemeinsam mit
+    Partnern
+  fetched: '2026-10-31'
+- type: run-by
+  to: earth-observation-center-dlr
+  url: https://www.dlr.de/de/eoc/forschung-transfer/projekte-und-missionen/forsteo
+  fetched: '2026-10-31'
+  quote: Das DFD koordiniert das Projekt ForstEO
+found_by:
+- checklist:7
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'
+countries:
+- de

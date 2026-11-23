@@ -1,0 +1,48 @@
+id: frognet
+kind: model
+name: FrogNET
+also_known_as:
+- 'FrogNET: Acoustic Classifier and Training Dataset for 11 European Anuran Species'
+scope: ua
+ai_label: ai
+ai_types:
+- deep-learning
+techniques:
+- bioacoustics
+countries:
+- ua
+status: active
+summary: Acoustic classifier adapted from BirdNET by transfer learning for 11 Eastern European
+  frog and toad species, published with a dataset of 15,213 segmented audio clips from a Ukrainian
+  study.
+facts:
+- claim: An automated acoustic classifier based on the BirdNET architecture, optimised by
+    transfer learning for 11 Eastern European anuran species.
+  url: https://doi.org/10.5281/zenodo.17736511
+  fetched: 2026-11-03
+  quote: An automated acoustic classifier based on the BirdNET architecture
+- claim: Published with a training and test dataset of 15,213 segmented audio clips.
+  url: https://doi.org/10.5281/zenodo.17736511
+  fetched: 2026-11-03
+  quote: 15,213 segmented audio clips used for model development and internal evaluation
+- claim: The repository describes a study repurposing BirdNET for amphibian monitoring in
+    Ukraine.
+  url: https://doi.org/10.5281/zenodo.17736511
+  fetched: 2026-11-03
+  quote: repurposing the BirdNET architecture for amphibian monitoring in Ukraine
+- claim: Described by the Roztochya amphibian dataset as a custom deep learning model.
+  url: https://api.gbif.org/v1/dataset/790244fc-c7cb-41ca-91ac-15ff7d7c4716
+  fetched: 2026-11-03
+  quote: custom deep learning model for amphibian species identification
+  ai_type: deep-learning
+links:
+- type: builds-on
+  to: birdnet
+  url: https://doi.org/10.5281/zenodo.17736511
+  fetched: 2026-11-03
+  quote: An automated acoustic classifier based on the BirdNET architecture
+found_by:
+- register:gbif-publisher
+- link-from:roztochya-nature-reserve
+added_by: agent
+checked: 2026-11-03

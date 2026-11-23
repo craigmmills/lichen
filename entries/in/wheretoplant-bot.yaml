@@ -1,0 +1,37 @@
+id: wheretoplant-bot
+kind: model
+name: WhereToPlant Bot
+scope: in
+ai_label: ai
+realms:
+- land
+countries:
+- in
+status: active
+runner: unknown
+summary: A chatbot that predicts the survival probability of saplings at a given location,
+  developed by forest officer Pushpendra Rana with RootIQ Labs, reported by Mongabay India.
+facts:
+- claim: Predicts the survival probability of saplings in a location from climatic and environmental
+    parameters.
+  quote: a chatbot that can predict the survival probability of saplings in a given location
+    based on different climatic and environmental parameters
+  url: https://india.mongabay.com/2026/07/a-machine-learning-powered-chatbot-to-guide-tree-plantation-in-the-himalayas/
+  fetched: '2026-10-31'
+- claim: Mongabay India reports records showing it guided site selection on over 500 hectares
+    of plantations.
+  quote: WhereToPlant guided site selection for planting trees in over 500 hectares out of
+    3,000 hectares of plantations
+  url: https://india.mongabay.com/2026/07/a-machine-learning-powered-chatbot-to-guide-tree-plantation-in-the-himalayas/
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: rootiq-labs
+  quote: Rana partnered with RootIQ Labs Pvt. Ltd., a New Delhi-based artificial intelligence
+    company, to develop WhereToPlant Bot
+  url: https://india.mongabay.com/2026/07/a-machine-learning-powered-chatbot-to-guide-tree-plantation-in-the-himalayas/
+  fetched: '2026-10-31'
+found_by:
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'

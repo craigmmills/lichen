@@ -1,0 +1,59 @@
+id: dolphingemma
+kind: model
+name: DolphinGemma
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+- generative-ai
+- foundation-models
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: AI model from Google, trained on the Wild Dolphin Project's acoustic database, that learns the structure of dolphin vocalisations and generates dolphin-like sound sequences.
+facts:
+- claim: A foundational model trained to learn the structure of dolphin vocalisations, built with Georgia Tech and the Wild Dolphin Project.
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: &id001 2026-10-30
+  quote: Google, in collaboration with researchers at Georgia Tech and the field research of the Wild Dolphin Project (WDP), is announcing progress on DolphinGemma
+- claim: Trained on the Wild Dolphin Project's acoustic database of Atlantic spotted dolphins.
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: *id001
+  quote: Trained extensively on WDP’s acoustic database of wild Atlantic spotted dolphins
+- claim: "DolphinGemma is called a large language model."
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: 2026-10-30
+  quote: "DolphinGemma, a large language model developed by Google"
+  ai_type: large-language-models
+- claim: "DolphinGemma is trained to generate novel dolphin-like sound sequences."
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: 2026-10-30
+  quote: "researchers at Georgia Tech and the field research of the Wild Dolphin Project (WDP), is announcing progress on DolphinGemma: a foundational AI model trained to learn the structure of dolphin vocalizations and generate novel dolphin-like sound sequences."
+  ai_type: generative-ai
+- claim: "DolphinGemma is trained to generate novel dolphin-like sound sequences."
+  url: "https://blog.google/technology/ai/dolphingemma/"
+  fetched: "2026-10-30"
+  quote: "researchers at Georgia Tech and the field research of the Wild Dolphin Project (WDP), is announcing progress on DolphinGemma: a foundational AI model trained to learn the structure of dolphin vocalizations and generate novel dolphin-like sound sequences."
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: google
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: *id001
+  quote: "DolphinGemma. Developed by Google, this AI model makes use of specific Google audio technologies:"
+- type: partners-with
+  to: wild-dolphin-project
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: *id001
+  quote: "Google, in collaboration with researchers at Georgia Tech and the field research of the Wild Dolphin Project (WDP), is announcing progress on DolphinGemma"
+- type: partners-with
+  to: georgia-institute-of-technology
+  url: https://blog.google/technology/ai/dolphingemma/
+  fetched: *id001
+  quote: "in collaboration with researchers at Georgia Tech and the field research of the Wild Dolphin Project (WDP), is announcing progress on DolphinGemma:"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

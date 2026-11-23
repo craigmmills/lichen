@@ -1,0 +1,69 @@
+id: international-livestock-research-institute
+kind: organisation
+name: International Livestock Research Institute
+also_known_as:
+- ILRI
+scope: ke
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ke
+countries:
+- ke
+scale: global
+status: active
+website: https://www.ilri.org
+summary: Livestock research institute that publishes rangeland work including a study using
+  AI and remote sensing to detect invasive Prosopis juliflora in Baringo County.
+facts:
+- claim: Lists a study assessing AI and remote sensing for monitoring Prosopis juliflora.
+  url: https://www.ilri.org/knowledge/publications/utilizing-artificial-intelligence-and-remote-sensing-detect-prosopis
+  quote: This study assesses the effectiveness of artificial intelligence (AI) and remote
+    sensing in monitoring the invasion of Prosopis juliflora in Baringo County, Kenya
+  fetched: '2026-10-30'
+- claim: The study used a Random Forest classifier.
+  url: https://www.ilri.org/knowledge/publications/utilizing-artificial-intelligence-and-remote-sensing-detect-prosopis
+  quote: Random Forest
+  fetched: '2026-10-30'
+  ai_type: ml-supervised
+- claim: Studied machine learning for detecting the invasive plant.
+  url: https://www.ilri.org/index.php/news/can-artificial-intelligence-and-space-technology-transform-livestock-insurance-and-rangeland
+  fetched: '2026-10-31'
+  quote: data scientists from ILRI conducted a study exploring the potential of machine learning
+    algorithms to detect P
+- claim: Its publications give Nairobi as its place of publication.
+  url: https://www.ilri.org/knowledge/publications/clarity-rangelands-distinguishing-invasive-species-palatable-forage-using
+  fetched: '2026-10-31'
+  quote: 'Nairobi, Kenya: ILRI.'
+- claim: Leads development of the Global Rangelands Data Platform.
+  url: https://www.cgiar.org/news-events/news/ilri-and-partners-unveil-the-global-rangelands-data-platform
+  fetched: '2026-10-31'
+  quote: The development of the Global Rangelands Data Platform led by ILRI
+- claim: Gives a Nairobi address.
+  url: https://www.ilri.org/
+  fetched: '2026-10-31'
+  quote: Nairobi 00100, Kenya
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: runs
+  to: global-rangelands-data-platform
+  url: https://www.cgiar.org/news-events/news/ilri-and-partners-unveil-the-global-rangelands-data-platform
+  fetched: '2026-10-31'
+  quote: The development of the Global Rangelands Data Platform led by ILRI
+- type: runs
+  to: rangelands-atlas
+  url: https://www.ilri.org/knowledge/publications/rangelands-atlas
+  fetched: '2026-10-31'
+  quote: ILRI, IUCN, FAO, WWF, UNEP and ILC. 2021. Rangelands Atlas.

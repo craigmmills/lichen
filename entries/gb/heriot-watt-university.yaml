@@ -1,0 +1,35 @@
+id: heriot-watt-university
+kind: organisation
+name: Heriot-Watt University
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on species classification from DNA barcodes with deep learning.
+facts:
+- claim: 'OpenAlex lists authors at Heriot-Watt University on this work: AI-Powered Biodiversity
+    Assessment: Species Classification via DNA Barcoding and Deep Learning'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: 'AI-Powered Biodiversity Assessment: Species Classification via DNA Barcoding and
+    Deep Learning'
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.hw.ac.uk/
+  quote: Scottish registered charity number
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.hw.ac.uk/

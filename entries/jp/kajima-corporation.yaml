@@ -1,0 +1,32 @@
+id: kajima-corporation
+kind: organisation
+name: Kajima Corporation
+scope: jp
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: Company that has a case study listed under its name by Deep Forestry, which it is
+  linked to as a user.
+found_by:
+- link-from:deep-forestry
+facts:
+- claim: Deep Forestry lists a case study under its name.
+  url: https://www.deepforestry.com
+  fetched: '2026-11-02'
+  quote: Kajima Corporation - Japan
+links:
+- type: uses
+  to: deep-forestry
+  url: https://www.deepforestry.com
+  fetched: '2026-11-02'
+  quote: Deep Forestry’s autonomous drone mapped forests tree-by-tree
+added_by: agent
+checked: '2026-11-02'

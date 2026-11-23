@@ -1,0 +1,29 @@
+id: batscope
+kind: model
+name: BatScope
+scope: ch
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ch
+status: unknown
+summary: A model built by the WSL Swiss Federal Research Institute that handles BATLOGGER data and automatically
+  recognises the calling bat species.
+facts:
+- claim: Handles BATLOGGER data and automatically recognises the calling bat species.
+  url: https://www.wsl.ch/de/biodiversitaet/naturschutzbiologie-und-schutzgebiete/fledermaeuse/
+  fetched: '2026-11-02'
+  quote: die automatische Erkennung der rufenden Fledermausart!
+links:
+- type: built-by
+  to: wsl-swiss-federal-research-institute
+  url: https://www.wsl.ch/de/biodiversitaet/naturschutzbiologie-und-schutzgebiete/fledermaeuse/
+  fetched: '2026-11-02'
+  quote: Die WSL hat dazu die Software BatScope entwickelt
+found_by:
+- checklist:rule-sensors
+added_by: agent
+checked: '2026-11-02'

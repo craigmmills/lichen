@@ -1,0 +1,53 @@
+id: the-nippon-foundation
+kind: organisation
+name: The Nippon Foundation
+also_known_as:
+- Nippon Foundation
+scope: global
+sector: funder
+roles:
+- funds
+- convenes
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: jp
+scale: global
+status: active
+website: https://www.nippon-foundation.or.jp/en
+summary: Japan-based grant maker founded in 1962. Its ocean work includes the Seabed 2030
+  seabed mapping project with GEBCO and the Ocean Census with Nekton Foundation.
+countries:
+- jp
+facts:
+- claim: Japan-based grant maker founded in 1962.
+  url: https://www.nippon-foundation.or.jp/en/who
+  quote: The Nippon Foundation is a Japan-based grant maker, founded in 1962.
+  fetched: &id001 2026-10-30
+- claim: Co-launched the Ocean Census with Nekton Foundation to discover unknown marine life.
+  url: https://www.nippon-foundation.or.jp/en/what/projects/ocean
+  quote: is a global initiative to discover unknown marine life, jointly launched by The Nippon
+    Foundation and Nekton Foundation
+  fetched: *id001
+- claim: Wikipedia says the foundation was established in 1962 by Ryōichi Sasakawa, and directs
+    Japanese motorboat racing revenue into humanitarian work.
+  url: https://en.wikipedia.org/wiki/Nippon_Foundation
+  quote: The foundation's mission is to direct Japanese motorboat racing revenue into humanitarian
+    work
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: seabed-2030
+  url: https://seabed2030.org/
+  quote: The Nippon Foundation and the General Bathymetric Chart of the Oceans (GEBCO) formed
+    Seabed 2030
+  fetched: *id001
+- type: runs
+  to: ocean-census
+  url: https://www.nippon-foundation.or.jp/en/what/projects/ocean
+  quote: jointly launched by The Nippon Foundation and Nekton Foundation
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

@@ -1,0 +1,46 @@
+id: nanodetector
+kind: model
+name: NanoDetector
+scope: us
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- us
+website: https://nanodetector.ai/
+runner: unknown
+summary: Open-source on-device camera trap model and device that identifies animals to species
+  across 25 classes, working with MegaDetector and sending detections over satellite. Developed
+  with the WHISL project under NSF award 2317537.
+facts:
+- claim: An ensemble of custom-trained models analyses camera trap photos on the device.
+  url: https://nanodetector.ai/
+  quote: Using an ensemble of custom-trained Artificial Intelligence models to analyze camera
+    trap photos on-device
+  fetched: '2026-10-31'
+- claim: MegaDetector finds animals, and the NanoDetector model identifies species across
+    25 classes.
+  url: https://nanodetector.ai/
+  quote: the custom-trained NanoDetector model identifies the animal to species across 25
+    classes
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: Funded by the National Science Foundation.
+  url: https://nanodetector.ai/
+  quote: Funded under the National Science Foundation Award No. 2317537
+  fetched: '2026-10-31'
+links:
+- type: builds-on
+  to: megadetector
+  url: https://nanodetector.ai/
+  quote: MegaDetector locates animals, people, and vehicles in the frame
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

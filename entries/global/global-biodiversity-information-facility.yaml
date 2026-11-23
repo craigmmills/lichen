@@ -1,0 +1,69 @@
+id: global-biodiversity-information-facility
+kind: organisation
+name: Global Biodiversity Information Facility
+also_known_as:
+- GBIF
+scope: global
+sector: multilateral
+roles:
+- supplies-data
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+hq: dk
+scale: global
+status: active
+website: https://www.gbif.org
+summary: International network that makes biodiversity data, mainly species occurrence records
+  from many institutions, available through a single open portal.
+facts:
+- claim: International organisation making biodiversity data available via the Internet.
+  url: https://en.wikipedia.org/wiki/Global_Biodiversity_Information_Facility
+  fetched: '2026-10-30'
+  quote: is an international organisation that focuses on making scientific data on biodiversity
+    available via the Internet
+- claim: Secretariat is at Universitetsparken 15 in Copenhagen.
+  url: https://api.gbif.org/v1/organization?q=GBIF%20Secretariat&limit=2
+  fetched: '2026-10-30'
+  quote: Universitetsparken 15
+- claim: Secretariat of about 35 staff; the Executive Secretary post was being recruited in
+    June 2026.
+  url: https://nbn.org.uk/news/recruitment-of-executive-secretary-for-gbif/
+  fetched: '2026-10-30'
+  quote: Recruitment of Executive Secretary for GBIF
+- claim: The Barbados biodiversity site describes GBIF as an international network funded
+    by the world's governments and coordinated through its Secretariat in Copenhagen.
+  url: https://biodiversity.gov.bb/?p=1181
+  quote: Coordinated through its Secretariat in Copenhagen, the GBIF network of participating
+    countries and organizations
+  fetched: '2026-10-30'
+- claim: The same page says GBIF is funded by the world's governments.
+  url: https://biodiversity.gov.bb/?p=1181
+  quote: is an international network and research infrastructure funded by the world’s governments
+  fetched: '2026-10-30'
+links:
+- type: builds-on
+  to: darwin-core
+  url: https://en.wikipedia.org/wiki/Darwin_Core
+  fetched: '2026-10-30'
+  quote: Key projects using Darwin Core [ edit ] The Global Biodiversity Information Facility
+    (GBIF)
+- type: partners-with
+  to: amazon-cooperation-treaty-organization
+  url: https://otca.org/?p=9594
+  fetched: 2026-10-30
+  quote: signed a Memorandum of Understanding (MoU) for cooperation in sharing data on biodiversity
+- type: partners-with
+  to: intergovernmental-science-policy-platform-on-biodiversity-and-ecosystem-services
+  url: https://gbif.es/en/gbif-colabora-con-ipbes/
+  fetched: 2026-10-30
+  quote: GBIF formalizes collaboration with biodiversity assessment platform IPBES
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

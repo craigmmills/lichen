@@ -1,0 +1,44 @@
+id: entrain
+kind: project
+name: ENTRAIN
+scope: gb
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- other
+status: unknown
+website: https://www.ceh.ac.uk/cy/our-science/projects/entrain
+summary: Feasibility study led by UKCEH with the University of Lincoln on automating
+  quality control and analysis of environmental sensor data with AI and machine learning.
+facts:
+- claim: Automates quality control and analysis of sensor data with AI and machine
+    learning.
+  url: https://www.ceh.ac.uk/cy/our-science/projects/entrain
+  quote: automating the quality control and analysis of sensor network data using
+    AI and machine learning techniques
+  fetched: &id001 2026-10-30
+links:
+- type: led-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://www.ceh.ac.uk/cy/our-science/projects/entrain
+  quote: led by the Centre for Ecology & Hydrology in partnership with University
+    of Lincoln School of Computer Science
+  fetched: *id001
+- type: partners-with
+  to: university-of-lincoln
+  url: https://www.ceh.ac.uk/cy/our-science/projects/entrain
+  quote: led by the Centre for Ecology & Hydrology in partnership with University
+    of Lincoln School of Computer Science
+  fetched: *id001
+- type: funded-by
+  to: natural-environment-research-council
+  url: https://www.ceh.ac.uk/cy/our-science/projects/entrain
+  quote: The ENTRAIN project is a feasibility study within the NERC Constructing a
+    Digital Environment Strategic Priorities Fund Programme
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

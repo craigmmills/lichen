@@ -1,0 +1,31 @@
+id: resistivity-fish-counter-deep-learning
+kind: project
+name: Deep learning models for resistivity fish counters
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- other
+status: active
+runner: unknown
+website: https://www.gwct.org.uk/research/scientific-publications/2026/elliott20262/
+summary: 2026 study testing deep learning on electrical resistivity fish counter data
+  from the Frome, Fowey and Test.
+facts:
+- claim: Applied deep learning models to resistivity counter data on three rivers.
+  url: https://www.gwct.org.uk/research/scientific-publications/2026/elliott20262/
+  quote: Our models were tested on three rivers (Frome, Fowey and Test in the South
+    and South-West of England)
+  fetched: &id001 2026-10-30
+- claim: Deep learning models applied.
+  url: https://www.gwct.org.uk/research/scientific-publications/2026/elliott20262/
+  quote: We applied deep learning models to identify diadromous fish
+  ai_type: deep-learning
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

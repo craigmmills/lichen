@@ -1,0 +1,89 @@
+id: ai4biodiversity
+kind: project
+name: AI4Biodiversity
+scope: il
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-semi-supervised
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+website: https://ai4biodiversity.haifa.ac.il/
+summary: Active project developing new methods, with conservation agencies, to assess the state of nature,
+  using transfer-learned YOLOv5 and MegaDetector on camera images, and proposing satellite mammal detection
+  for two gazelle species.
+facts:
+- claim: Aims to develop new methods for assessing the state of nature, with conservation agencies.
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: AI4Biodiversity project aims at developing novel methods for assessing the state-of-nature.
+- claim: Retrained a YOLOv5 neural network by transfer learning to classify animals in images.
+  url: https://ai4biodiversity.haifa.ac.il/projects/
+  fetched: '2026-11-08'
+  quote: We re-trained the head of the trained neural network yolov5 using transfer learning and fine-tuning
+    techniques
+  ai_type: deep-learning
+- claim: Uses MegaDetector to remove empty camera images.
+  url: https://ai4biodiversity.haifa.ac.il/projects/
+  fetched: '2026-11-08'
+  quote: we created a pipeline that utilizes mega-detector (MD)
+- claim: Trained a fine-grained model on images cropped from wild boar videos to distinguish piglets from
+    adults and males from females.
+  url: https://ai4biodiversity.haifa.ac.il/projects/
+  fetched: '2026-11-08'
+  quote: We propose a method for identifying the sex and gender using fine-grained classifying neural
+    network.
+  ai_type: deep-learning
+- claim: Proposes combining semi-supervised annotations with ML detections to detect mammals in very-high-resolution
+    satellite images, with planned evaluation of two gazelle species.
+  url: https://ai4biodiversity.haifa.ac.il/projects/
+  fetched: '2026-11-08'
+  quote: the proposed approach uses cross-validation of semi-supervised annotations with synced ML-based
+    detections of targeted objects
+  ai_type: ml-semi-supervised
+links:
+- type: partners-with
+  to: hamaarag
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: HaMaarag, Israel's National Nature Assessment Program, operating under the auspices of the Israel
+    Academy of Sciences and Humanities.
+- type: partners-with
+  to: israel-nature-and-parks-authority
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: Through our collaboration with practitioners and nature conservation agencies (e.g. HaMaarag,
+    Israel's National Nature Assessment Program; Israel Citizen Science Center at the Steinhardt Museum
+    of Natural History; Israel Nature and Parks Authority)
+- type: partners-with
+  to: inaturalist
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: iNaturalist, the world's largest network of nature monitoring communities
+- type: partners-with
+  to: wild-me-lab
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: Furthermore, through our collaboration with leading research centers such as WildMe and the Human
+    Computation Institute, we advance scientific research in the areas of ecology, artificial intelligence
+    and human computation
+- type: partners-with
+  to: human-computation-institute
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: The Human Computation Institute, a nonprofit innovation center
+- type: partners-with
+  to: israel-citizen-science-center
+  url: https://ai4biodiversity.haifa.ac.il/partners/
+  fetched: '2026-11-08'
+  quote: Israel Citizen Science Center at the Steinhardt Museum of Natural History on public engagement
+    programs.
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

@@ -1,0 +1,65 @@
+id: atlas-de-cobertura-de-suelo-de-uruguay
+kind: dataset
+name: Atlas dinámico de cobertura de suelo de Uruguay
+also_known_as:
+- Atlas de Cobertura del Suelo
+scope: uy
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+countries:
+- uy
+status: active
+summary: Developed and maintained by Dinot, the atlas had a machine learning layer
+  with 27 classes presented in December 2021; a later report described a 2021–2022
+  layer in preparation.
+facts:
+- claim: A December 2021 ministry news item says the mapping continues the 2008-2011
+    and 2000-2015 map series and forms a dynamic land cover atlas of Uruguay that
+    Dinot develops and maintains.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/se-presento-metodologia-genera-datos-coberturas-suelo-mayor-exactitud-rapidez
+  fetched: 2026-11-15
+  quote: se constituye en un atlas dinámico de cobertura de suelo de Uruguay, producto
+    que desarrolla y mantiene Dinot.
+- claim: In December 2021 Dinot presented an updated land cover layer based on the
+    LCCS system, with the 2019-2020 map of the Río Negro basin, made with FAO support.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/se-presento-metodologia-genera-datos-coberturas-suelo-mayor-exactitud-rapidez
+  fetched: 2026-11-15
+  quote: La Dinot presentó la capa de cobertura del suelo actualizada, basada en el
+    sistema LCCS
+- claim: The ministry says the new cover is based on machine learning tools.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/se-presento-metodologia-genera-datos-coberturas-suelo-mayor-exactitud-rapidez
+  fetched: 2026-11-15
+  quote: Esta nueva cobertura, basada en herramientas de machine learning
+- claim: The classification gives 27 land cover classes, among them native woodland,
+    grassland and water bodies as well as crops and forest plantations.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/se-presento-metodologia-genera-datos-coberturas-suelo-mayor-exactitud-rapidez
+  fetched: 2026-11-15
+  quote: Como resultado se obtuvieron 27 clases de cobertura de suelo, entre las que
+    se encuentran diferentes tipos de cultivos, plantaciones forestales, montes nativos,
+    pastizales y cuerpos de agua.
+- claim: A later MVOT news item says Dinot was working on the Atlas de Cobertura del
+    Suelo to produce an updated layer for 2021-2022, and that the layer shows native
+    woodland, grassland, wetlands and rivers among other covers.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/potenciar-capacidades-para-monitoreo-del-suelo
+  fetched: 2026-11-15
+  quote: la Dinot se encuentra trabajando en el Atlas de Cobertura del Suelo con el
+    fin de tener la última capa actualizada con los datos más recientes correspondientes
+    a 2021-2022.
+links:
+- type: built-by
+  to: direccion-nacional-de-ordenamiento-territorial-uruguay
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/se-presento-metodologia-genera-datos-coberturas-suelo-mayor-exactitud-rapidez
+  fetched: 2026-11-15
+  quote: producto que desarrolla
+- type: run-by
+  to: direccion-nacional-de-ordenamiento-territorial-uruguay
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/comunicacion/noticias/se-presento-metodologia-genera-datos-coberturas-suelo-mayor-exactitud-rapidez
+  fetched: 2026-11-15
+  quote: mantiene Dinot
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

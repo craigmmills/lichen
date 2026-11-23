@@ -1,0 +1,64 @@
+id: swedish-forest-agency
+kind: organisation
+name: Swedish Forest Agency
+also_known_as:
+- Skogsstyrelsen
+- Swedish Forest Agency
+scope: se
+sector: government
+roles:
+- governs
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+hq: se
+scale: national
+status: active
+website: https://www.skogsstyrelsen.se
+summary: Agency responsible for forest biotope protection whose 2024 report described AI model
+  development and which launched AI maps of possible high forest nature values in February
+  2026.
+facts:
+- claim: Responsible for biotope protection in forest land.
+  url: https://www.naturvardsverket.se/amnesomraden/skyddad-natur/sa-bildas-skyddade-omraden/vem-gor-vad-inom-skyddad-natur/
+  fetched: '2026-11-02'
+  quote: Skogsstyrelsen ansvarar för biotopskydd i skogsmark och kan även upprätta naturvårdsavtal.
+- claim: Its 2024 annual report says it continued to develop AI models to detect changes in
+    forests caused by pests and pathogens.
+  url: https://www.skogsstyrelsen.se/globalassets/om-oss/var-verksamhet/arsredovisning/arsredovisning-2024.pdf
+  fetched: 2026-11-02
+  quote: Skogsstyrelsen har under året fortsatt att utveckla AI-modeller för att på ett snabbt
+    och effektivt sätt upptäcka förändringar i skogen som orsakats av olika skadegörare.
+- claim: Its 2024 annual report says it has gone furthest with AI in analysing raster images
+    from satellites, aerial photographs, drones and laser data.
+  url: https://www.skogsstyrelsen.se/globalassets/om-oss/var-verksamhet/arsredovisning/arsredovisning-2024.pdf
+  fetched: 2026-11-02
+  quote: kommit längst i användningen av AI när det gäller analys av rasterbilder. Det gäller
+    både satellitbilder, ortofoton, drönarbilder och laserdata.
+- claim: The Swedish National Space Agency says it uses Earth observation data to monitor
+    forest harvesting.
+  url: https://www.rymdstyrelsen.se/en/space-data-and-services2/
+  fetched: 2026-11-02
+  quote: The Swedish Forest Agency uses, among other things, earth observation data to monitor
+    forest harvesting
+- claim: In February 2026, launched the first digital maps of possible high forest nature
+    values in Norrland and most of Svealand, produced with AI.
+  url: https://www.skogsstyrelsen.se/nyhetslista/digitala-ai-kartor-underlattar-for-skogsagare-att-ta-hansyn/
+  fetched: '2026-11-02'
+  quote: Idag lanserar Skogsstyrelsen de första delarna av nya digitala skogskartor som visar
+    var det kan finnas höga naturvärden
+- claim: Works with Naturvårdsverket on a 2022-2027 government assignment on digital knowledge
+    bases.
+  url: https://www.skogsstyrelsen.se/nyhetslista/digitala-ai-kartor-underlattar-for-skogsagare-att-ta-hansyn/
+  fetched: '2026-11-02'
+  quote: Skogsstyrelsen och Naturvårdsverket arbetar sedan 2022 med regeringsuppdraget
+found_by:
+- checklist:1
+- link-from:swedish-national-space-agency
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- remote-sensing

@@ -1,0 +1,55 @@
+id: hamburg-port-authority
+kind: organisation
+name: Hamburg Port Authority
+also_known_as:
+- HPA
+scope: de
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+scale: local
+status: active
+summary: Public-law port body that launched and builds the SIMON project, announced in February
+  2026, to test sensor-equipped autonomous underwater vehicles in the tidal Elbe, with federal
+  funding.
+facts:
+- claim: Launched the SIMON research project with bbe Moldaenke, the Hamburg environment authority
+    BUKEA and the University of Lübeck, funded by the Federal Ministry of Research, Technology
+    and Space under its Digital GreenTech Robotics call.
+  url: https://www.hafen-hamburg.de/en/press1/news/launch-of-the-simon-research-project/
+  fetched: '2026-11-07'
+  quote: the Hamburg Port Authority (HPA) is launching the innovative research project SIMON
+- claim: The February 2026 SIMON launch announcement describes plans to develop and test sensor-equipped
+    autonomous underwater vehicles in the port’s tidal Elbe area, measuring suspended matter,
+    oxygen, algal composition and oil residues.
+  url: https://www.hafen-hamburg.de/en/press1/news/launch-of-the-simon-research-project/
+  fetched: '2026-11-07'
+  quote: Parameters recorded include suspended matter concentrations, oxygen levels, algal
+    composition and oil residues
+- claim: Names itself as a public-law institution (AöR).
+  url: https://www.hafen-hamburg.de/en/press1/news/launch-of-the-simon-research-project/
+  fetched: '2026-11-07'
+  quote: HPA Hamburg Port Authority AöR
+links:
+- type: builds
+  to: simon-unterwasser-monitoring
+  url: https://www.hafen-hamburg.de/en/press1/news/launch-of-the-simon-research-project/
+  fetched: '2026-11-07'
+  quote: the Hamburg Port Authority (HPA) is launching the innovative research project SIMON
+- type: funded-by
+  to: federal-ministry-of-research-technology-and-space
+  url: https://www.hafen-hamburg.de/en/press1/news/launch-of-the-simon-research-project/
+  fetched: '2026-11-07'
+  quote: HPA will receive funding of approximately €232,000.
+  amount: 232000
+  currency: EUR
+  year: 2026
+found_by:
+- rule:checklist-misses
+- link-from:simon-unterwasser-monitoring
+added_by: agent
+checked: '2026-11-07'

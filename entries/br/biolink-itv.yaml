@@ -1,0 +1,37 @@
+id: biolink-itv
+kind: programme
+name: Biolink
+scope: br
+ai_label: data-infrastructure
+status: unknown
+realms:
+- land
+countries:
+- br
+summary: Platform from Instituto Tecnológico Vale that merges global biodiversity databases
+  so analysts can produce species inventory reports for licensing. In 2023 its use was mainly
+  within ITV and Vale.
+facts:
+- claim: A platform that brings together biodiversity data and lets researchers and analysts
+    produce reports for licensing.
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: plataforma que reúne os dados sobre biodiversidade
+- claim: Results from merging global biodiversity databases.
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: trata-se de uma ferramenta que resulta na fusão de bases de dados globais de biodiversidade
+- claim: In 2023 it was mainly used within ITV and Vale, at prototype stage.
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: por enquanto, ela está muito centrada no ITV e na Vale
+links:
+- type: run-by
+  to: instituto-tecnologico-vale
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: Criamos o Biolink para ajudar nesse inventário
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

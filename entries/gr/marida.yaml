@@ -1,0 +1,52 @@
+id: marida
+kind: dataset
+name: MARIDA
+also_known_as:
+- Marine Debris Archive
+- MARIDA
+scope: gr
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+summary: Sentinel-2 marine debris dataset of 1,381 patches of 256 by 256 pixels with pixel-level
+  annotations, built by Katerina Kikaki, with train, validation and test splits.
+facts:
+- claim: A marine debris dataset on Sentinel-2 images, including co-existing sea features,
+    aimed at weakly supervised pixel-level semantic segmentation.
+  url: https://zenodo.org/record/5151941
+  fetched: '2026-11-03'
+  quote: MARIne Debris Archive (MARIDA) is a marine debris-oriented dataset on Sentinel-2
+    satellite images.
+- claim: Holds 1,381 patches of 256 by 256 pixels with pixel-level annotated classes and confidence
+    levels.
+  url: https://zenodo.org/record/5151941
+  fetched: '2026-11-03'
+  quote: 1381 patches (256 x 256) structured by Unique Dates and S2 Tiles.
+- claim: Provides train, validation and test splits for evaluating machine learning algorithms.
+  url: https://zenodo.org/record/5151941
+  fetched: '2026-11-03'
+  quote: Train, Validation and Test split for evaluating machine learning algorithms.
+- claim: Describes itself as a marine debris dataset on Sentinel-2 images, focused on weakly
+    supervised pixel-level semantic segmentation.
+  url: https://zenodo.org/records/5151941
+  fetched: 2026-11-03
+  quote: MARIDA is primarily focused on the weakly supervised pixel-level semantic segmentation
+    task.
+- claim: Includes training, validation and test splits for evaluating machine learning algorithms.
+  url: https://zenodo.org/records/5151941
+  fetched: 2026-11-03
+  quote: Train, Validation and Test split for evaluating machine learning algorithms.
+- claim: Source Cooperative lists the National Technical University of Athens as the owner
+    of the MARIDA listing.
+  url: https://source.coop/ntua/marida
+  fetched: 2026-11-03
+  quote: Owner National Technical University of Athens
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

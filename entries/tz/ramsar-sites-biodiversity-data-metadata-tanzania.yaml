@@ -1,0 +1,53 @@
+id: ramsar-sites-biodiversity-data-metadata-tanzania
+kind: project
+name: Establishing Metadata of Biodiversity Data Generated from Ramsar Sites in Tanzania
+also_known_as:
+- BID-AF2017-0258-SMA
+scope: tz
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+countries:
+- tz
+scale: national
+status: closed
+runner: unknown
+summary: A project that ran from October 2017 to March 2019 to inventory scattered
+  Ramsar wetland biodiversity data and publish it to GBIF, including 8,463 bird records
+  for Kilombero Valley Floodplains.
+facts:
+- claim: TanBIF lists the project under the identifier BID-AF2017-0258-SMA.
+  url: https://tanbif.costech.or.tz/projects
+  fetched: 2026-11-15
+  quote: BID-AF2017-0258-SMA
+- claim: TanBIF gives it a start date of 30 October 2017.
+  url: https://tanbif.costech.or.tz/projects
+  fetched: 2026-11-15
+  quote: '2017-10-30'
+- claim: TanBIF gives it an end date of 31 March 2019.
+  url: https://tanbif.costech.or.tz/projects
+  fetched: 2026-11-15
+  quote: '2019-03-31'
+- claim: TanBIF's page says biodiversity data from the Ramsar sites is held across
+    many sources in incompatible formats, which the project addresses.
+  url: https://tanbif.costech.or.tz/projects
+  fetched: 2026-11-15
+  quote: this data is held across a variety of sources and in incompatible formats
+- claim: The project's GBIF metadata describes an inventory of wetland biodiversity
+    data and its publication to GBIF.org.
+  url: https://api.gbif.org/v1/dataset/18799ce9-1a66-40fc-ad18-5ac54cd3417b/document
+  fetched: 2026-11-15
+  quote: An inventory of wetland biodiversity data by type, format, digitization state,
+    accessibility and source, and ensure its publication to GBIF.org portals.
+- claim: It produced a bird occurrence dataset for the Kilombero Valley Floodplains
+    Ramsar site, with 8,463 records on GBIF, published by Sokoine University of Agriculture's
+    Department of Ecosystems and Conservation.
+  url: https://api.gbif.org/v1/dataset/search?projectId=BID-AF2017-0258-SMA
+  fetched: 2026-11-15
+  quote: '"recordCount":8463'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

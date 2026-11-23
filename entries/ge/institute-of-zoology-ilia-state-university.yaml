@@ -1,0 +1,88 @@
+id: institute-of-zoology-ilia-state-university
+kind: organisation
+name: Institute of Zoology, Ilia State University
+also_known_as: []
+scope: ge
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: ge
+countries:
+- ge
+scale: national
+status: active
+summary: Described by GBIF as Georgia's oldest zoological research organisation, it publishes GBIF datasets
+  on bats (1835 to 2022), rodents (1900 to 2018) and insectivores, plus a wetland plant checklist.
+facts:
+- claim: Its GBIF publisher record describes it as the oldest zoological research organisation in Georgia.
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: The Institute of Zoology is the oldest zoological research organization in Georgia.
+- claim: Its GBIF publisher record gives an address in Tbilisi.
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: '"address":["cholokashvili 3/5"],"city":"Tbilisi","province":"Georgia","country":"GE","postalCode":"0162"'
+- claim: Publishes a GBIF dataset of rodent occurrence in Georgia from 1900 to 2018.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GE&limit=50
+  fetched: 2026-11-09
+  quote: The data set represents the occurrence data of rodents in Georgia from 1900 to 2018
+- claim: Publishes a GBIF dataset of all bat records in Georgia from 1835 to 2022, from literature and
+    unpublished data.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GE&limit=50
+  fetched: 2026-11-09
+  quote: Data set all records of bat species in Georgia from 1835 up to 2022 compiled from literature
+    sources and unpublished original data.
+- claim: Publishes a dataset of all known field records of insectivores in Georgia up to 2022.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GE&limit=50
+  fetched: 2026-11-09
+  quote: All known field based records of insectivores in Georgia (including own unpublished data) accumulated
+    as of 2022 are collected in one dataset for the first time.
+- claim: Publishes an annotated checklist of 270 plant species recorded in Georgian wetland habitats.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GE&limit=50
+  fetched: 2026-11-09
+  quote: The checklist includes 270 plant species recorded in Georgian wetland habitats
+- claim: GBIF's publisher record describes it as the oldest zoological research organisation in Georgia,
+    whose members collect and study the animals of Georgia and the South Caucasus.
+  url: https://api.gbif.org/v1/organization/3702ad69-3b08-4250-b28d-18298fabe936
+  fetched: 2026-11-09
+  quote: members of the institute have been collecting and studying the animals of Georgia and the South
+    Caucasus
+- claim: Its address on the GBIF publisher record is in Tbilisi.
+  url: https://api.gbif.org/v1/organization/3702ad69-3b08-4250-b28d-18298fabe936
+  fetched: 2026-11-09
+  quote: '"address":["cholokashvili 3/5"],"city":"Tbilisi"'
+- claim: Publishes Bats of Georgia through GBIF, a dataset of all records of bat species in Georgia from
+    1835 to 2022 compiled from literature and unpublished original data.
+  url: https://api.gbif.org/v1/organization/3702ad69-3b08-4250-b28d-18298fabe936/publishedDataset
+  fetched: 2026-11-09
+  quote: Data set all records of bat species in Georgia from 1835 up to 2022 compiled from literature
+    sources and unpublished original data.
+- claim: Also publishes rodent occurrence data for Georgia from 1900 to 2018.
+  url: https://api.gbif.org/v1/organization/3702ad69-3b08-4250-b28d-18298fabe936/publishedDataset
+  fetched: 2026-11-09
+  quote: The data set represents the occurrence data of rodents in Georgia from 1900 to 2018
+- claim: Its insectivores dataset gathers all known field records of insectivores in Georgia up to 2022
+    in one dataset for the first time.
+  url: https://api.gbif.org/v1/organization/3702ad69-3b08-4250-b28d-18298fabe936/publishedDataset
+  fetched: 2026-11-09
+  quote: All known field based records of insectivores in Georgia (including own unpublished data) accumulated
+    as of 2022 are collected in one dataset for the first time.
+- claim: All authors of a 2022 paper titled Species diversity and DNA barcode library of freshwater Molluscs
+    of South Caucasus list the Institute of Zoology, Ilia State University as their affiliation.
+  url: https://api.openalex.org/works/W4296588485?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Species diversity and DNA barcode library of freshwater Molluscs of South Caucasus
+links: []
+found_by:
+- link-from:global-biodiversity-information-facility
+- checklist:2
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-09
+techniques:
+- edna-genomics

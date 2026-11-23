@@ -1,0 +1,31 @@
+id: algaebase
+kind: dataset
+name: AlgaeBase
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.algaebase.org
+summary: Database of information on algae, including terrestrial, marine and freshwater organisms.
+facts:
+- claim: Database of information on algae including terrestrial, marine and freshwater organisms.
+  url: https://www.algaebase.org/about/
+  quote: AlgaeBase is a database of information on algae that includes terrestrial, marine and freshwater organisms.
+  fetched: '2026-10-30'
+- claim: In existence since 20 March 1996.
+  url: https://www.algaebase.org/about/
+  quote: since its small beginnings on 20 March 1996
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: university-of-galway
+  url: https://www.algaebase.org/about/
+  quote: Guiry, M.D. & Guiry, G.M. . AlgaeBase . World-wide electronic publication, University of Galway.
+  fetched: '2026-10-30'
+found_by:
+- link-from:ocean-biodiversity-information-system
+added_by: agent
+checked: '2026-10-30'

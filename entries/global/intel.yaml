@@ -1,0 +1,39 @@
+id: intel
+kind: organisation
+name: Intel
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://www.intel.com
+summary: Chip maker whose vision processors and AI work are used in TrailGuard AI, an anti-poaching
+  camera, and Project CORaiL, a coral reef monitoring system.
+facts:
+- claim: TrailGuard AI relies on Intel's Movidius Myriad 2 computer vision processor.
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: &id001 2026-10-30
+  quote: The tool relies on Intel’s Movidius Myriad 2 computer vision processor
+- claim: Headquartered in Santa Clara, California.
+  url: https://en.wikipedia.org/wiki/Intel
+  fetched: 2026-10-30
+  quote: Headquarters Santa Clara, California
+- claim: TrailGuard relies on Intel's processor and convolutional neural networks.
+  url: https://www.smithsonianmag.com/smart-news/new-ai-camera-helps-conservationists-spot-elephant-poachers-180971180/
+  fetched: 2026-10-30
+  quote: as well as convolutional neural networks
+  ai_type: deep-learning
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

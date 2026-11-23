@@ -1,0 +1,44 @@
+id: united-nations-office-on-drugs-and-crime
+kind: organisation
+name: United Nations Office on Drugs and Crime
+also_known_as:
+- UNODC
+scope: global
+sector: multilateral
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+scale: global
+status: active
+website: https://www.unodc.org
+summary: UN office whose data portal publishes wildlife seizures data. It has a partnership
+  with IUCN on crimes that affect the environment and is a member of the International Consortium
+  on Combating Wildlife Crime.
+facts:
+- claim: Its data portal has a wildlife seizures report.
+  url: https://data.unodc.org/datareport/wildlife-seizures
+  quote: Wildlife Trafficking Wildlife seizures trends
+  fetched: '2026-10-31'
+- claim: IUCN reports a strategic partnership agreement with it.
+  url: https://iucn.org/news/202606/iucn-and-un-office-drugs-and-crime-join-forces-combat-crimes-affect-environment
+  quote: launched a strategic partnership agreement to deepen cooperation in tackling crimes
+    that affect the environment
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://iucn.org/news/202606/iucn-and-un-office-drugs-and-crime-join-forces-combat-crimes-affect-environment
+  quote: launched a strategic partnership agreement to deepen cooperation
+  fetched: '2026-10-31'
+- type: partners-with
+  to: cites-secretariat
+  url: https://www.wcoomd.org/es-es/media/newsroom/2013/march/global-consortium-to-fight-wildlife-crime-meets-to-discuss-future-strategies.aspx?p=1
+  quote: The five organizations joined forces as ICCWC in 2010
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

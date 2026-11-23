@@ -1,0 +1,71 @@
+id: sistema-nacional-de-monitoreo-de-bosques-ecuador
+kind: programme
+name: Sistema Nacional de Monitoreo de Bosques (Ecuador)
+also_known_as:
+- SNMB
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ec
+status: active
+website: https://snmb.ambiente.gob.ec/snmb/?page_id=713
+summary: Active national forest monitoring programme run by the environment ministry, using SEPAL for
+  map processing since the 2018 coverage and generating early warning alerts every 15 days in its first
+  phase.
+facts:
+- claim: Its satellite monitoring process provides deforestation information from processed satellite
+    images at set intervals.
+  url: https://snmb.ambiente.gob.ec/snmb/?page_id=713
+  fetched: 2026-11-02
+  quote: El objetivo de este proceso es proveer información relacionada a la deforestación
+- claim: From the 2018 coverage onward the map processing used SEPAL, the open platform developed by FAO.
+  url: https://proamazonia.org/wp-content/uploads/2025/02/arte-informe-de-bosques_V7.pdf
+  fetched: 2026-11-02
+  quote: a partir de la cobertura del año 2018 se empleó la plataforma de libre acceso desarrollada por
+    FAO
+- claim: Ecuador's deforestation-free coffee and cocoa certification scheme uses the national forest monitoring
+    system.
+  url: https://www.un-redd.org/post/ecuadors-new-deforestation-free-certification-scheme-turns-coffee-and-cocoa-trade-ally-forests
+  fetched: 2026-11-02
+  quote: uses Ecuador’s national forest monitoring system
+- claim: It is a set of actors, components, methods and processes that gathers and reports information
+    on forests and other natural ecosystems.
+  url: https://snmb.ambiente.gob.ec/snmb/?page_id=474
+  fetched: '2026-11-02'
+  quote: se genera, recopila, analiza y reporta información espacial, biofísica y socioeconómica relacionada
+    con los bosques, otros ecosistemas naturales y su biodiversidad asociada
+- claim: Its first-phase early warning component generates alerts every 15 days using satellite images,
+    Sentinel-1 radar and field data.
+  url: https://snmb.ambiente.gob.ec/snmb/?page_id=717
+  fetched: '2026-11-02'
+  quote: genera alertas en un período de cada 15 días, utilizando como insumo información satelital
+    de imágenes de mediana resolución, imagénes SAR (Sentinel 1)
+links:
+- type: run-by
+  to: ministerio-de-ambiente-y-energia-ecuador
+  url: https://proamazonia.org/wp-content/uploads/2025/02/arte-informe-de-bosques_V7.pdf
+  fetched: 2026-11-02
+  quote: a través del Sistema Nacional de Monitoreo de Bosques (SNMB) realiza el monitoreo continuo de
+    los bosques
+- type: uses
+  to: sepal
+  url: https://proamazonia.org/wp-content/uploads/2025/02/arte-informe-de-bosques_V7.pdf
+  fetched: 2026-11-02
+  quote: 'a partir de la cobertura del año 2018 se empleó la
+
+    plataforma de libre acceso desarrollada por FAO: System for Earth Observa-
+
+    tion Data Access, Processing and Analysis for Land Monitoring (SEPAL)'
+- type: uses
+  to: sepal
+  url: https://snmb.ambiente.gob.ec/snmb/?page_id=717
+  fetched: '2026-11-02'
+  quote: Implementación en la plataforma SEPAL de algoritmos de detección directa de cambios por deforestación
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

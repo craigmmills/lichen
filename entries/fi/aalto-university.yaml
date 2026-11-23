@@ -1,0 +1,39 @@
+id: aalto-university
+kind: organisation
+name: Aalto University
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University whose listed connections include a remote sensing review co-authored by
+  Miina Rautiainen, coordination of the ESA BIC Finland programme (per its Startup Center
+  page), and a water and environmental engineering group hosting Digital Waters.
+facts:
+- claim: OpenAlex lists a review of remote sensing time series for vegetation productivity
+    with Miina Rautiainen of Aalto University among the authors.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:FI,primary_topic.subfield.id:2303|2309|1105|1107|1104,concepts.id:C119857082|C108583219,from_publication_date:2022-01-01&sort=cited_by_count:desc&per_page=60&select=title,publication_year,cited_by_count,doi,authorships
+  fetched: '2026-11-02'
+  quote: 'Reviews and syntheses: Remotely sensed optical time series for monitoring vegetation
+    productivity'
+- claim: The Aalto Startup Center page says it coordinates the ESA BIC Finland programme.
+  url: https://startupcenter.aalto.fi/meet-our-startup-koko-forest-has-eyes-on-the-worlds-forests
+  fetched: '2026-11-02'
+  quote: The program, coordinated by Aalto Startup Center
+- claim: Digital Waters lists its water and environmental engineering group as a host unit.
+  url: https://digitalwaters.fi/partners/
+  quote: WAT/Aalto (Water and Environmental Engineering)
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+- link-from:digital-waters-flagship
+scope: fi
+added_by: agent
+checked: '2026-11-02'

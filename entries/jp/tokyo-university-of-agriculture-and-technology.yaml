@@ -1,0 +1,43 @@
+id: tokyo-university-of-agriculture-and-technology
+kind: organisation
+name: Tokyo University of Agriculture and Technology
+scope: jp
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: Leads a saved OpenAlex query for Japanese-affiliated works since 2021 on topic T10199
+  with 87 works; its laboratory described machine learning in March 2025.
+facts:
+- claim: In the saved OpenAlex query for works since 2021 with a Japanese author affiliation
+    and primary topic T10199, the university has the highest grouped count, 87.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,primary_topic.id:T10199,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage&per_page=12
+  fetched: 2026-11-02
+  quote: Tokyo University of Agriculture and Technology
+- claim: In a March 2025 interview, its laboratory described analysing field data with machine
+    learning, including predicting sika deer behaviour.
+  url: https://web.tuat.ac.jp/~admiss/agriculture/topics10.html
+  fetched: 2026-11-02
+  quote: 取得したデータは、研究室に戻ってから、AI（人工知能）の機械学習などを用いて解析していきます。
+- claim: In a March 2025 interview, its laboratory described using cameras that sense animal
+    heat and GPS collars.
+  url: https://web.tuat.ac.jp/~admiss/agriculture/topics10.html
+  fetched: 2026-11-02
+  quote: 赤外線で動物の熱を自動で感知するカメラ、GPSで位置情報を取得できる首輪などを用いて
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- other
+also_known_as:
+- 東京農工大学

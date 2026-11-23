@@ -1,0 +1,37 @@
+id: sonochiro
+kind: model
+name: SonoChiro
+scope: fr
+ai_label: ai
+status: active
+summary: Software that automatically analyses bat ultrasound recordings and identifies
+  111 bat species.
+facts:
+- claim: Analyses large volumes of data from detectors and recorders and identifies
+    111 bat species.
+  url: https://www.biotope.fr/bureaux/biotope-technologies/
+  fetched: '2026-10-31'
+  quote: ce logiciel d’analyse automatique d’ultrasons de chauve-souris analyse de
+    très grands volumes de données issues de détecteurs et d’enregistreurs, et permet
+    l’identification de 111 espèces de chiroptères.
+- claim: Detects recorded bat signals, then classifies them by many parameters.
+  url: https://www.biotope.fr/innovation/?lang=en
+  fetched: '2026-10-31'
+  quote: It detects all recorded bat signals in input, then classifies them according
+    to many parameters.
+realms:
+- land
+techniques:
+- bioacoustics
+website: https://sonochiro.biotope.fr/
+links:
+- type: run-by
+  to: biotope
+  url: https://www.biotope.fr/bureaux/biotope-technologies/
+  fetched: '2026-10-31'
+  quote: Biotope Technologies conçoit, commercialise et assure la maintenance de solutions
+    innovantes telles que SonoChiro
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

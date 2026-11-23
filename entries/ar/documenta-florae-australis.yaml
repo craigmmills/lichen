@@ -1,0 +1,31 @@
+id: documenta-florae-australis
+kind: dataset
+name: Documenta Florae Australis
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+countries:
+- ar
+summary: Dataset developed by IBODA, built by Instituto de Botánica Darwinion, whose data make the Flora
+  Vascular de la República Argentina possible and which the Flora Argentina page links for consultation.
+facts:
+- claim: Developed by IBODA; its data make the Flora Vascular de la República Argentina possible.
+  url: https://iboda.conicet.gov.ar/flora-argentina/
+  fetched: '2026-11-03'
+  quote: al enorme acervo de datos de la base Documenta Florae Australis desarrollada por el IBODA
+- claim: The Flora Argentina page offers a link to consult it.
+  url: https://iboda.conicet.gov.ar/flora-argentina/
+  fetched: '2026-11-03'
+  quote: Consulta Documentae Florae Australis
+links:
+- type: built-by
+  to: instituto-de-botanica-darwinion
+  url: https://iboda.conicet.gov.ar/flora-argentina/
+  fetched: '2026-11-03'
+  quote: al enorme acervo de datos de la base Documenta Florae Australis desarrollada por el IBODA
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-03'

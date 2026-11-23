@@ -1,0 +1,50 @@
+id: national-natural-history-collections-hebrew-university
+kind: organisation
+name: The National Natural History Collections
+also_known_as:
+- NNHC
+- The Hebrew University of Jerusalem National Natural History Collections
+scope: il
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: il
+countries: []
+scale: national
+status: active
+website: https://en-nnhc.huji.ac.il/
+summary: Collections at the Hebrew University of Jerusalem that it says are the most extensive
+  biological collections in the Middle East, with twelve datasets listed on GBIF.
+facts:
+- claim: Says it holds the most extensive biological collections of the Middle East, at the
+    Hebrew University of Jerusalem.
+  url: https://en-nnhc.huji.ac.il/
+  fetched: 2026-11-08
+  quote: The National Natural History Collections at the Hebrew University of Jerusalem are
+    the most extensive biological collections of the Middle East.
+- claim: GBIF's record says it advises national organisations including the Nature and Parks
+    Authority and the Ministry of Environmental Protection.
+  url: https://api.gbif.org/v1/organization/cb633566-ed21-4684-bcce-df84d0eb4c8a
+  fetched: 2026-11-08
+  quote: provide consultation services to national organizations (the Nature & Parks Authority,
+    the Ministry of Agriculture, the Ministry of Environmental Protection, the Ministry of
+    Health, and others)
+- claim: GBIF lists twelve datasets published by it.
+  url: https://api.gbif.org/v1/organization/cb633566-ed21-4684-bcce-df84d0eb4c8a/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: '"endOfRecords":true,"count":12'
+- claim: One of its GBIF datasets is a wildlife CryoBank.
+  url: https://api.gbif.org/v1/organization/cb633566-ed21-4684-bcce-df84d0eb4c8a/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: CryoBank - The National Natural History Collections
+links: []
+found_by:
+- link-from:consortium-of-european-taxonomic-facilities
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

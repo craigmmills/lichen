@@ -1,0 +1,27 @@
+id: weevil-and-bark-beetle-recording-scheme
+kind: programme
+name: Weevil and Bark Beetle Recording Scheme
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+runner: unknown
+website: http://www.brc.ac.uk/scheme/weevil-and-bark-beetle-recording-scheme
+summary: British recording scheme for weevils and bark beetles, whose iRecord records
+  are published on GBIF.
+facts:
+- claim: Publishes the dataset "Weevil and Bark Beetle records via iRecord" on GBIF.
+  url: https://api.gbif.org/v1/organization/8b09e94e-a95e-417f-8695-53dd9ae7f4e1/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Weevil and Bark Beetle records via iRecord
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/8b09e94e-a95e-417f-8695-53dd9ae7f4e1/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

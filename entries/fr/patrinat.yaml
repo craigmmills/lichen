@@ -1,0 +1,70 @@
+id: patrinat
+kind: organisation
+name: PatriNat
+also_known_as:
+- Unité Patrimoine Naturel
+- PatriNat, centre d'expertise et de données sur la nature
+- UAR PatriNat
+- Patrimoine Naturel
+- UMS PatriNat
+scope: fr
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: fr
+scale: national
+status: active
+website: https://www.patrinat.fr/
+summary: Expertise and data centre on French natural heritage, working for the Muséum national
+  d'Histoire naturelle, OFB, CNRS and IRD. It manages the national inventory INPN for those
+  bodies.
+facts:
+- claim: Carries out expertise and knowledge management for its four parent bodies.
+  url: https://www.patrinat.fr/
+  quote: PatriNat assure des missions d'expertise et de gestion des connaissances pour ses
+    quatre tutelles
+  fetched: '2026-10-31'
+- claim: Provides expertise and knowledge management for its four parent bodies.
+  url: http://www.patrinat.fr/fr
+  fetched: '2026-10-31'
+  quote: PatriNat assure des missions d’expertise et de gestion des connaissances pour ses
+    quatre tutelles
+- claim: The GBIF register lists it in Paris and says it was created in January 2017.
+  url: https://api.gbif.org/v1/organization/1928bdf0-f5d2-11dc-8c12-b8a03c50a862
+  fetched: '2026-10-31'
+  quote: Créée en janvier 2017, l’Unité d'appui à la recherche 2006 Patrimoine Naturel
+- claim: 'Carries out expertise and knowledge management for four parent bodies: MNHN, the
+    French Biodiversity Office, CNRS and IRD.'
+  url: https://www.patrinat.fr//fr
+  fetched: '2026-10-31'
+  quote: PatriNat assure des missions d’expertise et de gestion des connaissances pour ses
+    quatre tutelles, le Muséum national d’Histoire naturelle, l’Office français de la biodiversité,
+    le Centre national de la recherche scientifique et l’Institut de recherche pour le développement.
+found_by:
+- checklist:2
+- link-from:gbif-france
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: inventaire-national-du-patrimoine-naturel
+  url: http://www.patrinat.fr/fr/inventaire-national-du-patrimoine-naturel-inpn-6042
+  fetched: '2026-10-31'
+  quote: PatriNat assure le pilotage, l’animation, la gestion et le développement de l’INPN.
+- type: runs
+  to: systeme-dinformation-sur-la-biodiversite
+  url: http://www.patrinat.fr/fr/systeme-dinformation-sur-la-biodiversite-sib-6876
+  fetched: '2026-10-31'
+  quote: PatriNat est responsable du pilotage opérationnel du SIB
+- type: runs
+  to: inpn-especes
+  url: http://www.patrinat.fr/fr/inpn-especes-lapplication-pour-decouvrir-la-biodiversite-qui-nous-entoure-6258
+  fetched: '2026-10-31'
+  quote: le programme national de sciences participatives sur les espèces sauvages développé
+    par PatriNat

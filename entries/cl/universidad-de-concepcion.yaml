@@ -1,0 +1,55 @@
+id: universidad-de-concepcion
+kind: organisation
+name: Universidad de Concepción
+also_known_as:
+- University of Concepción
+- UdeC
+scope: cl
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+hq: unknown
+countries:
+- cl
+scale: national
+status: active
+summary: A university with authors listed in OpenAlex on papers about deep learning in silviculture
+  and wildfire susceptibility, and Hidden Markov Models for blue whale call detection.
+facts:
+- claim: OpenAlex lists a 2022 paper with University of Concepción authors comparing deep
+    learning models with UAVs in silviculture.
+  url: https://api.openalex.org/works?filter=authorships.countries:countries/cl,concepts.id:C119857082|C108583219|C154945302,primary_topic.id:T12640|T11164|T10111|T10199|T11312|T11880|T12091|T13485|T10089|T10659|T13388,from_publication_date:2020-01-01&sort=cited_by_count:desc&per-page=60&select=id,doi,title,publication_year,cited_by_count,authorships
+  fetched: 2026-11-02
+  quote: 'Precision silviculture: use of UAVs and comparison of deep learning models'
+  ai_type: deep-learning
+- claim: Its engineering and forestry faculties developed Deep-Hub.
+  url: https://noticias.udec.cl/ia-desarrollada-por-la-udec-acelerara-proceso-de-monitoreo-de-terrenos-forestales/
+  fetched: '2026-11-02'
+  quote: fue desarrollado en conjunto por las facultades de Ingeniería y de Ciencias Forestales
+    de la Universidad de Concepción
+- claim: OpenAlex lists University of Concepción authors on a 2021 paper presenting a deep-learning
+    model for wildfire susceptibility mapping.
+  url: https://api.openalex.org/works/W3196247333?select=display_name,publication_year,authorships
+  fetched: 2026-11-02
+  quote: A deep learning ensemble model for wildfire susceptibility mapping
+- claim: OpenAlex lists University of Concepción authors, including the first author, on a
+    2019 paper on detecting blue whale calls off Chile.
+  url: https://api.openalex.org/works/W2910980169?select=display_name,publication_year,authorships
+  fetched: 2026-11-02
+  quote: An unsupervised Hidden Markov Model-based system for the detection and classification
+    of blue whale vocalizations off Chile
+ai_types:
+- deep-learning
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-02

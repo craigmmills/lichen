@@ -1,0 +1,58 @@
+id: forest-data-bank
+kind: dataset
+name: Forest Data Bank
+also_known_as:
+- Bank Danych o Lasach
+- BDL
+scope: pl
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- pl
+status: active
+summary: A portal gathering and sharing information on forests of all ownership types in Poland, with
+  an interactive map and report builder, run by the Bureau for Forest Management and Geodesy and funded
+  by Polish State Forests.
+facts:
+- claim: A 2019 agreement covered maintaining and developing its functions and modules.
+  url: https://www.gov.pl/web/klimat/przyszlosc-banku-danych-o-lasach-zagwarantowana
+  fetched: '2026-11-02'
+  quote: będą utrzymywane i rozwijane dotychczasowe funkcjonalności i moduły Banku Danych o Lasach (BDL)
+- claim: It is paid for from the forest fund of the State Forests' General Directorate.
+  url: https://wgik.dolnyslask.pl/images/dokumenty/Prezentacja_IMPULS_2023_Bank_Danych_o_Lasach_v2.pdf
+  fetched: '2026-11-02'
+  quote: Finansowany jest z tzw. funduszu leśnego Dyrekcji Generalnej LP
+- claim: Gathers and shares information on forests of all ownership types in Poland.
+  url: https://www.lasy.gov.pl/pl/nasze-lasy/bank-danych-o-lasach
+  fetched: '2026-11-02'
+  quote: Bank Danych o Lasach to rozbudowany system informatyczny gromadzący, przetwarzający i udostępniający
+    informacje dotyczące lasów wszystkich form własności na terenie Polski.
+- claim: Its main elements are an interactive map and a report builder.
+  url: https://www.lasy.gov.pl/pl/nasze-lasy/bank-danych-o-lasach
+  fetched: '2026-11-02'
+  quote: Głównymi elementami są mapa interaktywna oraz kreator zestawień.
+- claim: The portal is at www.bdl.lasy.gov.pl.
+  url: https://www.lasy.gov.pl/pl/nasze-lasy/bank-danych-o-lasach
+  fetched: '2026-11-02'
+  quote: Bank Danych o Lasach udostępnia swoje zasoby poprzez stronę www.bdl.lasy.gov.pl .
+links:
+- type: run-by
+  to: bureau-for-forest-management-and-geodesy
+  url: https://wgik.dolnyslask.pl/images/dokumenty/Prezentacja_IMPULS_2023_Bank_Danych_o_Lasach_v2.pdf
+  fetched: '2026-11-02'
+  quote: Bank Danych o Lasach prowadzony jest przez Biuro Urządzania Lasu i Geodezji Leśnej na zlecenie
+    Lasów Państwowych.
+- type: funded-by
+  to: polish-state-forests
+  url: https://www.gov.pl/web/klimat/przyszlosc-banku-danych-o-lasach-zagwarantowana
+  fetched: '2026-11-02'
+  quote: Lasy Państwowe przeznaczą 17,5 mln zł na rozwój Banku Danych o Lasach.
+  amount: 17500000
+  currency: PLN
+  year: 2019
+found_by:
+- checklist:2
+- link-from:state-forests-poland
+added_by: agent
+checked: '2026-11-02'

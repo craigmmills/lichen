@@ -1,0 +1,51 @@
+id: speciesnet
+kind: model
+name: SpeciesNet
+scope: global
+ai_label: ai
+ai_types: [ml-supervised, deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://github.com/google/cameratrapai
+summary: Open-source AI model from Google that classifies animal species in camera trap images, first used through Wildlife Insights and released openly in 2025.
+facts:
+- claim: Classifies nearly 2,500 animal categories, trained on 65 million labelled images from conservation partners.
+  url: https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/
+  fetched: &id001 2026-10-30
+  quote: This Google-developed AI model can classify nearly 2,500 animal categories in camera trap images, thanks to conservation partners who have provided 65M labelled images to train the model.
+- claim: Runs an object detector and then a species classifier.
+  url: https://github.com/google/cameratrapai
+  fetched: *id001
+  quote: 'This repository hosts code for running a cascade of two AI models: (1) an object detector that finds objects of interest in wildlife camera images, and (2) an image classifier that classifies those objects to the species level.'
+- claim: Has been used since 2019 through Wildlife Insights.
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: *id001
+  quote: Since 2019, thousands of wildlife biologists have used SpeciesNet through a Google Cloud-based tool called Wildlife Insights
+- claim: "SpeciesNet was trained on 65 million labelled images."
+  url: https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/
+  fetched: 2026-10-30
+  quote: "conservation partners who have provided 65M labelled images to train the model"
+  ai_type: ml-supervised
+- claim: "SpeciesNet uses deep learning."
+  url: https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/
+  fetched: 2026-10-30
+  quote: "SpeciesNet leverages deep learning to automatically identify animal species present in camera trap photos."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: google-research
+  url: https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/
+  fetched: *id001
+  quote: "One year ago SpeciesNet, a tool that uses AI to automatically identify species in camera trap images, went open-source. Now more people than ever are using the Google-developed tool"
+- type: partners-with
+  to: wildlife-insights
+  url: https://github.com/google/cameratrapai
+  fetched: *id001
+  quote: This approach is used for species recognition in the Wildlife Insights platform.
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

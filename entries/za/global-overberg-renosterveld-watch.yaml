@@ -1,0 +1,47 @@
+id: global-overberg-renosterveld-watch
+kind: programme
+name: Global Overberg Renosterveld Watch
+also_known_as: []
+scope: za
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+runner: unknown
+summary: Application built by Glenn Moncrieff on Global Forest Watch; the trust says it uses
+  satellite images and machine learning to detect land cover change, with models run every
+  five days in November 2021.
+facts:
+- claim: The Overberg Renosterveld Trust says it was developed from satellite images and machine
+    learning to detect land cover change such as illegal ploughing.
+  url: https://overbergrenosterveld.org.za/saeon-fynbos-node-launches-the-global-overberg-renosterveld-watch-application
+  fetched: 2026-11-09
+  quote: Using a combination of satellite imagery and machine learning, Glenn Moncrieff and
+    Marcel Gietzmann-Sanders have developed the Global Overberg Renosterveld Watch application
+- claim: In November 2021, the trust said the models were being run every five days when new
+    imagery arrived.
+  url: https://overbergrenosterveld.org.za/saeon-fynbos-node-launches-the-global-overberg-renosterveld-watch-application
+  fetched: 2026-11-09
+  quote: At present, these models are being run every five days.
+- claim: The trust describes machine learning trained to tell renosterveld from transformed
+    farmland.
+  url: https://overbergrenosterveld.org.za/saeon-fynbos-node-launches-the-global-overberg-renosterveld-watch-application
+  fetched: 2026-11-09
+  quote: the application of machine learning to build algorhythms that teach the software
+    to identify the differences between Renosterveld vegetation and transformed agricultural
+    land
+  ai_type: ml-supervised
+links:
+- type: builds-on
+  to: global-forest-watch
+  url: https://overbergrenosterveld.org.za/saeon-fynbos-node-launches-the-global-overberg-renosterveld-watch-application
+  fetched: 2026-11-09
+  quote: The technology is developed based on the Global Forest Watch application
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

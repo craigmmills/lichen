@@ -1,0 +1,38 @@
+id: global-wetland-watch
+kind: project
+name: Global Wetland Watch
+scope: global
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://globalwetlandwatch.org
+summary: Alliance of DHI, UNEP-DHI and UNEP building a wetland information system that generates high-resolution maps and statistics, funded by Google.org through its call for projects using AI.
+facts:
+- claim: Says the system will generate high-resolution maps and statistics of change in wetland ecosystems.
+  url: https://globalwetlandwatch.org/
+  quote: This new wetland information system will generate high-resolution maps and statistics
+  fetched: 2026-10-30
+links:
+- type: led-by
+  to: dhi
+  url: https://globalwetlandwatch.org/partners-and-funding/
+  quote: "DHI will take the lead in the algorithm and system development and ongoing operational aspects of the system, including annual data updates and maintenance."
+  fetched: 2026-10-30
+- type: partners-with
+  to: united-nations-environment-programme
+  url: https://globalwetlandwatch.org/partners-and-funding/
+  quote: The Global Wetland Watch is an alliance between DHI A/S, UNEP-DHI and UNEP.
+  fetched: 2026-10-30
+- type: funded-by
+  to: google-org
+  url: https://globalwetlandwatch.org/partners-and-funding/
+  quote: The financial support for the development of the Global Wetland Watch comes from Google.org
+  fetched: 2026-10-30
+found_by:
+- link-from:ramsar-convention-secretariat
+added_by: agent
+checked: 2026-10-30

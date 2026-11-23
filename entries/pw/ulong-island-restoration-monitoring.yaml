@@ -1,0 +1,46 @@
+id: ulong-island-restoration-monitoring
+kind: project
+name: Ulong Island restoration monitoring
+scope: pw
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- pw
+status: active
+summary: Island Conservation reports collecting 528,310 camera-trap images and 14,796 recording hours
+  on Ulong Island over three years, with Conservation Metrics analysing acoustic calls using a neural
+  network.
+facts:
+- claim: Island Conservation says that over three years it collected 528,310 camera-trap images and 14,796
+    hours of acoustic recordings on Ulong Island.
+  url: https://www.islandconservation.org/remote-sensing-on-islands/
+  fetched: 2026-11-12
+  quote: Over three years, we collected 528,310 camera trap images and 14,796 hours of acoustic recordings.
+- claim: Conservation Metrics analyses the acoustic data with a convolutional neural network that detects
+    species-specific calls.
+  url: https://www.islandconservation.org/remote-sensing-on-islands/
+  fetched: 2026-11-12
+  quote: Partners like Conservation Metrics help us analyze acoustic data using a machine learning technique
+    called a Convolutional Neural Network (CNN)
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: island-conservation
+  url: https://www.islandconservation.org/remote-sensing-on-islands/
+  fetched: 2026-11-12
+  quote: Over three years, we collected 528,310 camera trap images and 14,796 hours of acoustic recordings.
+- type: partners-with
+  to: conservation-metrics
+  url: https://www.islandconservation.org/remote-sensing-on-islands/
+  fetched: 2026-11-12
+  quote: Partners like Conservation Metrics help us analyze acoustic data using a machine learning technique
+    called a Convolutional Neural Network (CNN)
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-12

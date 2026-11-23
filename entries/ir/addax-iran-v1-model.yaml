@@ -1,0 +1,34 @@
+id: addax-iran-v1-model
+kind: model
+name: Iran_v1
+scope: ir
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ir
+status: active
+runner: unknown
+summary: Camera-trap model identifying 14 species or higher taxa in Iran, trained on about one million
+  images and designed, per its model card, to speed up Iranian Cheetah Society monitoring.
+facts:
+- claim: Identifies 14 species or higher taxa present in Iran and was trained on about one million camera-trap
+    images.
+  url: https://huggingface.co/Addax-Data-Science/Iran_v1
+  fetched: 2026-11-03
+  quote: Model to identify 14 species or higher-level taxons present in Iran. The model was trained on
+    a set of approximately 1 million camera trap images.
+- claim: The model card says it was designed to speed up the Iranian Cheetah Society's monitoring.
+  url: https://huggingface.co/Addax-Data-Science/Iran_v1
+  fetched: 2026-11-03
+  quote: The model was designed to expedite the monitoring of the Iranian Cheetah Society.
+- claim: Published under the Addax-Data-Science account on Hugging Face, with a CC BY-NC-SA 4.0 licence.
+  url: https://huggingface.co/Addax-Data-Science/Iran_v1
+  fetched: 2026-11-03
+  quote: 'License: cc-by-nc-sa-4.0'
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-03

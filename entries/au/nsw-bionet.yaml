@@ -1,0 +1,46 @@
+id: nsw-bionet
+kind: dataset
+name: NSW BioNet
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- au
+status: active
+runner: unknown
+summary: New South Wales biodiversity database that receives verified species records,
+  including those from the Land Libraries project.
+facts:
+- claim: Receives verified species records from Land Libraries.
+  url: https://www.nsw.gov.au/departments-and-agencies/dcceew/nsw-biodiversity-conservation-trust/news/award-winning-land-libraries-pilot-showcases-citizen-science-explosion
+  fetched: '2026-10-31'
+  quote: 13,500 verified species records have been uploaded to the NSW BioNet database
+- claim: BioNet Atlas holds species names and sightings for New South Wales.
+  url: https://www.environment.nsw.gov.au/topics/animals-and-plants/biodiversity/nsw-bionet
+  fetched: '2026-10-31'
+  quote: BioNet Atlas is the NSW repository for species names, species sightings,
+    systematic survey and threatened biodiversity data.
+- claim: Holds species and survey data in BioNet Atlas.
+  url: https://environment.nsw.gov.au/node/45071
+  fetched: '2026-10-31'
+  quote: BioNet Atlas is the NSW repository for species names, species sightings,
+    systematic survey and threatened biodiversity data.
+found_by:
+- checklist:2
+- link-from:nsw-department-of-climate-change-energy-the-environment-and-water
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: run-by
+  to: nsw-department-of-climate-change-energy-the-environment-and-water
+  url: https://www.environment.nsw.gov.au/topics/animals-and-plants/biodiversity/nsw-bionet
+  fetched: '2026-10-31'
+  quote: biodiversity data products managed by the Department of Climate Change, Energy,
+    the Environment and Water
+- type: run-by
+  to: nsw-department-of-climate-change-energy-the-environment-and-water
+  url: https://environment.nsw.gov.au/node/45071
+  fetched: '2026-10-31'
+  quote: NSW BioNet is the repository for biodiversity data products managed by the
+    Department of Climate Change, Energy, the Environment and Water.

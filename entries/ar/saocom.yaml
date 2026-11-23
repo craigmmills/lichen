@@ -1,0 +1,62 @@
+id: saocom
+kind: project
+name: SAOCOM
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://www.argentina.gob.ar/ciencia/conae/productos-saocom
+countries:
+- ar
+summary: Argentine L-band radar satellite, built by national bodies and firms with INVAP as main contractor
+  and run by CONAE, designed in particular to detect soil moisture and part of SIASGE.
+facts:
+- claim: SAOCOM 1A is the fifth satellite made in Argentina by CONAE.
+  url: https://www.argentina.gob.ar/ciencia/conae/satelite-saocom-contribucion-argentina-al-sistema-siasge
+  fetched: '2026-11-03'
+  quote: SAOCOM 1A es el quinto satélite hecho en Argentina por la Comisión Nacional de Actividades Espaciales
+    (CONAE)
+- claim: It was developed and built with national bodies and firms including CNEA, VENG and INVAP, the
+    main contractor.
+  url: https://www.argentina.gob.ar/ciencia/conae/satelite-saocom-contribucion-argentina-al-sistema-siasge
+  fetched: '2026-11-03'
+  quote: la Comisión Nacional de Energía Atómica (CNEA), y las empresas VENG e INVAP, esta última contratista
+    principal del proyecto
+- claim: Carries L-band synthetic aperture radar designed in particular to detect soil moisture.
+  url: https://www.argentina.gob.ar/ciencia/conae/satelite-saocom-contribucion-argentina-al-sistema-siasge
+  fetched: '2026-11-03'
+  quote: radar de apertura sintética (SAR) en banda L , un instrumento activo especialmente diseñado para
+    detectar la humedad del suelo
+- claim: With the four Italian COSMO-SkyMed satellites it forms SIASGE, whose uses include monitoring
+    natural resources.
+  url: https://www.argentina.gob.ar/ciencia/conae/satelite-saocom-contribucion-argentina-al-sistema-siasge
+  fetched: '2026-11-03'
+  quote: para uso en agricultura, gestión de emergencias ambientales y monitoreo de recursos naturales
+- claim: Archive SAOCOM-1 products of Argentine territory can be downloaded from the SAOCOM catalogue
+    after accepting an online licence and registering.
+  url: https://www.argentina.gob.ar/ciencia/conae/productos-saocom
+  fetched: '2026-11-03'
+  quote: Mediante la simple aceptación de una Licencia online , le será posible acceder a productos SAOCOM-1
+    de archivo del territorio argentino
+links:
+- type: built-by
+  to: comision-nacional-de-actividades-espaciales
+  url: https://www.argentina.gob.ar/ciencia/conae/satelite-saocom-contribucion-argentina-al-sistema-siasge
+  fetched: '2026-11-03'
+  quote: SAOCOM 1A es el quinto satélite hecho en Argentina por la Comisión Nacional de Actividades Espaciales
+    (CONAE)
+- type: run-by
+  to: comision-nacional-de-actividades-espaciales
+  url: https://www.argentina.gob.ar/ciencia/conae/productos-saocom
+  fetched: '2026-11-03'
+  quote: el catálogo de productos de la misión satelital argentina de observación de la Tierra con radar
+    de microondas SAOCOM-1 , de la Comisión Nacional de Actividades Espaciales (CONAE)
+found_by:
+- link-from:committee-on-earth-observation-satellites
+added_by: agent
+checked: '2026-11-03'

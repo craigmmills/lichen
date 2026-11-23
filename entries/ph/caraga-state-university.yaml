@@ -1,0 +1,38 @@
+id: caraga-state-university
+kind: organisation
+name: Caraga State University
+scope: ph
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ph
+scale: local
+status: active
+summary: A university with OpenAlex-listed papers on machine learning classifiers for mapping
+  falcata plantations in Sentinel-2 images and, in 2022, on estimating plantation stand age
+  with Landsat.
+facts:
+- claim: OpenAlex lists a Caraga State University paper evaluating machine learning classifiers
+    for mapping falcata plantations in Sentinel-2 images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I87074743|I210563421,title_and_abstract.search:remote%20sensing%20machine%20learning,from_publication_date:2020-01-01&per-page=30&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: EVALUATION OF MACHINE LEARNING CLASSIFIERS FOR MAPPING FALCATA PLANTATIONS IN SENTINEL-2
+    IMAGE
+- claim: OpenAlex lists a 2022 paper on estimating tree plantation stand age with Landsat
+    and machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I87074743|I210563421,title_and_abstract.search:remote%20sensing%20machine%20learning,from_publication_date:2020-01-01&per-page=30&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'Satellite Remote Sensing for Stand Age Estimation in Tree Plantations: A Case Study
+    Using Landsat Images and Machine Learning Algorithms'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-07

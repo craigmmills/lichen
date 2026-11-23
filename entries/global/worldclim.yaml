@@ -1,0 +1,28 @@
+id: worldclim
+kind: dataset
+name: WorldClim
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+summary: Global climate surfaces for land areas, with bioclimatic variables used in species
+  distribution modelling.
+facts:
+- claim: The rspatial species distribution modelling tutorial uses bioclimatic variables from
+    the WorldClim database.
+  url: https://rspatial.org/sdm/4_sdm_envdata.html
+  quote: from the WorldClim database (Hijmans et al. , 2004)
+  fetched: '2026-10-30'
+- claim: OpenAlex lists Stephen E. Fick and Robert J. Hijmans of the University of California,
+    Davis, as authors of WorldClim 2.
+  url: https://api.openalex.org/works?filter=doi:10.1002/joc.5086&select=display_name,publication_year,authorships
+  quote: spatial resolution climate surfaces for global land areas
+  fetched: '2026-10-30'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

@@ -1,0 +1,57 @@
+id: greenpeace-bulgaria
+kind: organisation
+name: Greenpeace Bulgaria
+also_known_as:
+- Грийнпийс – България
+scope: bg
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: bg
+countries:
+- bg
+scale: national
+status: active
+website: https://www.greenpeace.org/bulgaria/
+summary: Organisation that recorded over 170 oil and ship-fuel slicks with SkyTruth in Bulgarian
+  Black Sea waters during July 2024 to June 2025, publishing satellite analysis near Burgas
+  in 2026.
+facts:
+- claim: An investigation by Greenpeace Bulgaria and SkyTruth recorded more than 170 oil and
+    ship-fuel slicks in Bulgarian Black Sea waters between 6 July 2024 and 26 June 2025, shown
+    in an interactive map.
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: Това показва разследване на „Грийнпийс“ – България и SkyTruth, обобщено в нова интерактивна
+    карта .
+- claim: In 2026 it published a satellite analysis, based on Sentinel-1, Sentinel-2 and PlanetScope
+    images, of dozens of oil slicks near the tanker Kairos off Burgas.
+  url: https://www.greenpeace.org/bulgaria/press/14038/nefteni-petna-kairos/
+  fetched: 2026-11-08
+  quote: Анализът се базира на изображения от сателитните платформи Sentinel-1, Sentinel-2
+    и PlanetScope.
+- claim: Its contact page gives an address in Sofia.
+  url: https://www.greenpeace.org/bulgaria/kontakti/
+  fetched: 2026-11-08
+  quote: 'Адрес: гр. София, ул. „Миджур“ №12, ет. 3-4'
+links:
+- type: uses
+  to: cerulean
+  url: https://www.greenpeace.org/bulgaria/press/11034/170-nefteni-petna-cherno-more/
+  fetched: 2026-11-08
+  quote: За да се засекат нефтените петна, е използвана системата SkyTruth Cerulean
+- type: uses
+  to: sentinel-2
+  url: https://www.greenpeace.org/bulgaria/press/14038/nefteni-petna-kairos/
+  fetched: 2026-11-08
+  quote: Анализът се базира на изображения от сателитните платформи Sentinel-1, Sentinel-2
+    и PlanetScope.
+found_by:
+- link-from:cerulean
+added_by: agent
+checked: 2026-11-08

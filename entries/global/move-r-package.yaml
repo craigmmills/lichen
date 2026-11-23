@@ -1,0 +1,36 @@
+id: move-r-package
+kind: programme
+name: move
+also_known_as:
+- move R package
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- other
+status: active
+runner: unknown
+website: https://cran.r-project.org/web/packages/move/
+summary: R package that uses Movebank, with functions to access movement data stored
+  there and to calculate dynamic Brownian Bridge Movement Models.
+facts:
+- claim: R package whose functions access movement data stored in Movebank.
+  url: https://cran.r-project.org/web/packages/move/
+  fetched: 2026-11-21
+  quote: Contains functions to access movement data stored in 'movebank.org'
+- claim: Includes functions to calculate dynamic Brownian Bridge Movement Models.
+  url: https://cran.r-project.org/web/packages/move/
+  fetched: 2026-11-21
+  quote: among others functions to calculate dynamic Brownian Bridge Movement Models.
+links:
+- type: uses
+  to: movebank
+  url: https://cran.r-project.org/web/packages/move/
+  fetched: 2026-11-21
+  quote: Contains functions to access movement data stored in 'movebank.org'
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

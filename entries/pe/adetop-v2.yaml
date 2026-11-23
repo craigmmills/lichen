@@ -1,0 +1,59 @@
+id: adetop-v2
+kind: model
+name: ADETOP v2
+scope: pe
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pe
+status: active
+summary: A Random Forest model using 10-metre Sentinel-2 imagery, built by OSINFOR and the universities
+  of Sheffield and Cambridge, and used by June 2026 to analyse 181 logging legality cases.
+facts:
+- claim: Uses the Random Forest machine learning method, trained on data from Peruvian Amazon forests
+    collected by OSINFOR drones.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: el ADETOP v2 utiliza el método del aprendizaje automático Random Forest, por ello, fue entrenado
+    con información proveniente de bosques amazónicos peruanos, recolectada por drones de alta resolución
+    utilizados por el OSINFOR
+  ai_type: ml-supervised
+- claim: Uses Sentinel-2 satellite imagery at 10 metres resolution.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: emplea imágenes del satélite Sentinel-2, que ofrecen una resolución espacial de 10 metros
+- claim: Its outputs can be downloaded as GeoJSON vector files.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: puede descargarse en formato vectorial GEOJSON
+- claim: By June 2026, the ADETOP v2 algorithm presented in July 2025 had been used to analyse 181 cases
+    to determine whether logging was legal.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1410811-arbor-la-ia-que-llega-al-peru-para-fortalecer-la-supervision-y-conservacion-del-shihuahuaco
+  fetched: 2026-11-03
+  quote: ha sido utilizado en el análisis de 181 casos para determinar si la tala fue legal o ilegal
+links:
+- type: built-by
+  to: organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: presentó ADETOP v2, un nuevo algoritmo de inteligencia artificial para detectar tala selectiva
+    desde el espacio. Desarrollado junto con las universidades de Sheffield y Cambridge
+- type: built-by
+  to: university-of-sheffield
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: Desarrollado junto con las universidades de Sheffield y Cambridge
+- type: built-by
+  to: university-of-cambridge
+  url: https://www.gob.pe/institucion/osinfor/noticias/1208816-osinfor-lanza-adetop-v2-el-algoritmo-que-detecta-tala-ilegal-desde-el-espacio
+  fetched: 2026-11-03
+  quote: Desarrollado junto con las universidades de Sheffield y Cambridge
+found_by:
+- link-from:organismo-de-supervision-de-los-recursos-forestales-y-de-fauna-silvestre
+added_by: agent
+checked: 2026-11-03

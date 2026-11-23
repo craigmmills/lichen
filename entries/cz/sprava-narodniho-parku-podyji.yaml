@@ -1,0 +1,55 @@
+id: sprava-narodniho-parku-podyji
+kind: organisation
+name: Správa Národního parku Podyjí
+scope: cz
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: cz
+countries:
+- cz
+scale: local
+status: active
+summary: State contributory organisation in Znojmo whose contracts register lists
+  monitoring of fish migration, beavers, golden jackal and Aesculapian snake, and
+  which is to take over the monitoring system developed by the BioReMo project.
+facts:
+- claim: Listed in the government directory as a state contributory organisation.
+  url: https://portal.gov.cz/organy-verejne-moci-interni/sprava-narodniho-parku-podyji-8933
+  fetched: 2026-11-12
+  quote: Státní příspěvková organizace
+- claim: Its address is in Znojmo.
+  url: https://portal.gov.cz/organy-verejne-moci-interni/sprava-narodniho-parku-podyji-8933
+  fetched: 2026-11-12
+  quote: 66902 Znojmo 2
+- claim: Its open contracts register lists monitoring of fish migration, beaver territories
+    and golden jackal.
+  url: https://opendata.nppodyji.cz/smlouvy.php?page=14
+  fetched: 2026-11-12
+  quote: PPK - monitoring šakala
+- claim: It contracted monitoring of Aesculapian snake populations in the national
+    park, with an assessment for conservation needs.
+  url: https://opendata.nppodyji.cz/smlouva.php?id=11928&page=127
+  fetched: 2026-11-12
+  quote: Monitoring populací užovky stromové (Zamenis longissimus) na území NP Podyjí
+    a vyhodnocení výskytu druhu z hlediska potřeb ochrany přírody
+- claim: The BioReMo project says the monitoring system it develops will be taken
+    over and used by both national parks, Thayatal and Podyjí.
+  url: https://vuk.gov.cz/project/bioremo-interreg-at-cz/
+  fetched: 2026-11-12
+  quote: Vzniklý jednotný systém monitoringu bude převzat a používán oběma NP (Thayathal
+    / Podyjí)
+links:
+- type: partners-with
+  to: bioremo-interreg-at-cz
+  url: https://vuk.gov.cz/project/bioremo-interreg-at-cz/
+  fetched: 2026-11-12
+  quote: Správa Národního parku Podyjí
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

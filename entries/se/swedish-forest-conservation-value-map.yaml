@@ -1,0 +1,62 @@
+id: swedish-forest-conservation-value-map
+kind: dataset
+name: AI map of Swedish forests with high conservation value
+scope: se
+ai_label: ai
+realms:
+- land
+status: active
+runner: unknown
+summary: Active machine learning map covering 22 million one-hectare areas in Sweden
+  with at least 50 percent forest, showing probability of high conservation value,
+  built on 128 open geographic variables and validated with independent data.
+facts:
+- claim: The map covers 22 million one-hectare areas in Sweden with at least 50 percent
+    forest and shows the probability of forest and forest landscapes with high conservation
+    value.
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: Totalt omfattar kartan 22 miljoner hektarytor med minst 50 procent skog.
+- claim: Built with machine learning on 128 independent variables from open geographic
+    data, at one-hectare resolution with a value from 0 to 100.
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: Modellen har tagits fram med hjälp av maskininlärning och baseras på 128
+    oberoende variabler från öppet tillgängliga geografiska datakällor på bestånds-
+    och landskapsnivå.
+- claim: Validated with independent data from the Swedish National Forest Inventory
+    and stand data from Sveaskog.
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: oberoende data från Riksskogstaxeringen och beståndsdata från statliga Sveaskog
+links:
+- type: built-by
+  to: mid-sweden-university
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: Ett forskarteam från Mittuniversitetet, Sveriges lantbruksuniversitet (SLU),
+    Norges Inlandsuniversitet och Polska vetenskapsakademin har tagit fram en ny metod
+    för analys och planering av skog och skogslandskap i Sverige.
+- type: built-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: Ett forskarteam från Mittuniversitetet, Sveriges lantbruksuniversitet (SLU),
+    Norges Inlandsuniversitet och Polska vetenskapsakademin har tagit fram en ny metod
+    för analys och planering av skog och skogslandskap i Sverige.
+- type: built-by
+  to: inland-norway-university-of-applied-sciences
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: Ett forskarteam från Mittuniversitetet, Sveriges lantbruksuniversitet (SLU),
+    Norges Inlandsuniversitet och Polska vetenskapsakademin har tagit fram en ny metod
+    för analys och planering av skog och skogslandskap i Sverige.
+- type: funded-by
+  to: swedish-environmental-protection-agency
+  url: https://internt.slu.se/nyheter-originalen/2024/5/nytt-ai-verktyg-hjalper-att-hitta-svenska-skogar-med-hoga-naturvarden/
+  fetched: '2026-11-08'
+  quote: Projektet är finansierat av Naturvårdsverket.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

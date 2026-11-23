@@ -1,0 +1,43 @@
+id: vrije-universiteit-amsterdam
+kind: organisation
+name: Vrije Universiteit Amsterdam
+also_known_as:
+- VU Amsterdam
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+- species-distribution
+hq: unknown
+scale: national
+status: active
+summary: University whose affiliated researcher Inger de Jonge was first author of a 2025
+  preprint reporting over 40% lichen cover on an Antarctic island where remote sensing showed
+  0.23%.
+facts:
+- claim: Inger de Jonge, affiliated with the Amsterdam Institute for Life and Environment
+    at VU Amsterdam, was first author of a 2025 preprint on Antarctic lichen cover.
+  url: https://api.openalex.org/works/W4410329218?select=id,display_name,doi,publication_year,authorships
+  quote: Amsterdam Institute for Life and Environment, VU Amsterdam
+  fetched: '2026-11-08'
+- claim: The preprint says vegetation mapping on an island found over 40% lichen cover where
+    remote sensing showed 0.23%.
+  url: https://doi.org/10.21203/rs.3.rs-6579357/v1
+  quote: Vegetation mapping on an apparently bare Antarctic Island reveals > 40% lichen cover
+    where remote sensing indicates 0.23% cover.
+  fetched: '2026-11-08'
+- claim: The authors used a Dirichlet regression model to predict lichen distribution across
+    the island.
+  url: https://doi.org/10.21203/rs.3.rs-6579357/v1
+  quote: We then employed a Dirichlet regression model [ 11 ], well-suited for compositional
+    data
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

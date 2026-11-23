@@ -1,0 +1,33 @@
+id: niva-aquamonitor
+kind: dataset
+name: NIVA Aquamonitor
+also_known_as:
+- Aquamonitor
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+techniques:
+- other
+countries:
+- 'no'
+scale: national
+status: active
+summary: NIVA's web solution for showing monitoring and research data, run by the Norwegian Institute
+  for Water Research.
+facts:
+- claim: NIVA's web solution for showing monitoring and research data.
+  url: https://www.niva.no/aquamonitor
+  fetched: '2026-11-02'
+  quote: Aquamonitor er NIVAs web-løsning for å vise overvåkings- og forskningsdata.
+links:
+- type: run-by
+  to: norwegian-institute-for-water-research
+  url: https://www.niva.no/aquamonitor
+  fetched: '2026-11-02'
+  quote: Aquamonitor er NIVAs web-løsning for å vise overvåkings- og forskningsdata.
+found_by:
+- link-from:norwegian-institute-for-water-research
+added_by: agent
+checked: '2026-11-02'

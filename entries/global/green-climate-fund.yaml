@@ -1,0 +1,35 @@
+id: green-climate-fund
+kind: organisation
+name: Green Climate Fund
+scope: global
+sector: multilateral
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: kr
+scale: global
+status: active
+website: https://www.greenclimate.fund
+summary: International climate fund and a member of the Leads Group of the Global Forest Observations
+  Initiative.
+facts:
+- claim: A member of the GFOI Leads Group.
+  url: https://www.fao.org/gfoi/about/leads-group/en
+  quote: the Green Climate Fund (GCF) and the World Bank
+  fetched: '2026-10-30'
+- claim: Its site refers to a headquarters agreement with the Republic of Korea.
+  url: https://www.greenclimate.fund/about
+  fetched: 2026-10-30
+  quote: apart from the Headquarters Agreement with the Republic of Korea
+links:
+- type: partners-with
+  to: global-forest-observations-initiative
+  url: https://www.fao.org/gfoi/about/leads-group/en
+  quote: the Green Climate Fund (GCF) and the World Bank
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

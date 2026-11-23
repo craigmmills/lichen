@@ -1,0 +1,50 @@
+id: university-of-exeter
+kind: organisation
+name: University of Exeter
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with authors on automatic species identification in camera trap images,
+  and home of the Centre for Environmental Intelligence.
+facts:
+- claim: 'OpenAlex lists authors at University of Exeter on this work: Augmentation Improves
+    Automatic Species Identification in Camera Trap Images'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Augmentation Improves Automatic Species Identification in Camera Trap Images
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.exeter.ac.uk/contact/
+  quote: Exeter EX4 4PY
+  fetched: '2026-10-30'
+- claim: Hosts the Simmons Lab.
+  url: https://www.simmonslab.com/
+  quote: the Simmons Lab at the University of Exeter
+  fetched: &id001 2026-10-30
+- claim: Hosts the Centre for Environmental Intelligence.
+  url: https://environmentalintelligence.org.uk/about
+  quote: At the University of Exeter, we have established strengths in climate and sustainability
+    research
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://www.exeter.ac.uk/contact
+  quote: Exeter EX4 4PY
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+- link-from:uk-research-and-innovation
+website: https://www.exeter.ac.uk
+scope: gb
+added_by: agent
+checked: '2026-10-30'

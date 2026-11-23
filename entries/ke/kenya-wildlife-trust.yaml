@@ -1,0 +1,60 @@
+id: kenya-wildlife-trust
+kind: organisation
+name: Kenya Wildlife Trust
+scope: ke
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: ke
+website: https://www.kenyawildlifetrust.org/
+countries:
+- ke
+scale: local
+status: active
+summary: NGO named by Microsoft as a user of its satellite-based boma and cattle detection
+  in the Maasai Mara.
+facts:
+- claim: Named as an NGO that the boma detection work supports.
+  url: https://www.microsoft.com/en-us/research/video/wildlife-conflict-resolution-boma-cattle-detection-in-the-masai-mara-using-ai/?lang=zh-cn
+  quote: empowers NGOs like the Kenya Wildlife Trust to design targeted interventions
+  fetched: '2026-10-30'
+- claim: Mapped more than 25,000 structures in the Mara with Microsoft using AI.
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: Through this, KWT and Microsoft have successfully utilized AI to map over 25,000
+    structures in the Mara
+- claim: A founding member of the Africa AI Innovation Council launched by Microsoft's AI
+    for Good Lab.
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: is among the founding members of the newly established Africa AI Innovation Council
+- claim: Gives a postal address in Nairobi.
+  url: https://www.kenyawildlifetrust.org/
+  fetched: '2026-10-31'
+  quote: P.O. Box 86 – 00502, Nairobi, Kenya
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- KWT
+links:
+- type: partners-with
+  to: microsoft-ai-for-good-lab
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: Kenya Wildlife Trust (KWT) is among the founding members of the newly established
+    Africa AI Innovation Council, a multi-stakeholder partnership launched by Microsoft's
+    AI for Good Lab.
+- type: runs
+  to: maasai-mara-boma-mapping
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: Through this, KWT and Microsoft have successfully utilized AI to map over 25,000
+    structures in the Mara

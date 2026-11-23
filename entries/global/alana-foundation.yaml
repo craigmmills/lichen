@@ -1,0 +1,36 @@
+id: alana-foundation
+kind: organisation
+name: Alana Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: br
+scale: global
+status: active
+website: https://alana.org.br/en/
+summary: Part of Alana, a social and environmental impact group. It sponsored the XPRIZE Rainforest
+  competition on autonomous biodiversity monitoring.
+facts:
+- claim: Named as sponsor of the Rainforest XPRIZE.
+  url: https://www.xprize.org/prizes/rainforest
+  quote: Alana Foundation Sponsor of the Rainforest XPRIZE
+  fetched: &id001 2026-10-30
+- claim: Alana describes itself as a group with an institute, a foundation and an impact entertainment
+    business.
+  url: https://alana.org.br/en/
+  quote: An Institute , a Foundation , and an Impact Entertainment Business
+  fetched: *id001
+links:
+- type: funds
+  to: xprize-rainforest
+  url: https://www.xprize.org/prizes/rainforest
+  quote: Alana Foundation Sponsor of the Rainforest XPRIZE
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

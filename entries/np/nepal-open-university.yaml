@@ -1,0 +1,37 @@
+id: nepal-open-university
+kind: organisation
+name: Nepal Open University
+also_known_as: []
+scope: np
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+scale: national
+hq: unknown
+countries:
+- np
+status: active
+summary: A university whose Faculty of Health, Science and Technology is listed by OpenAlex as an affiliation
+  of Prayon Joshi, first author of a paper on monitoring chlorophyll-a in Phewa Lake using satellite images.
+facts:
+- claim: OpenAlex lists a paper on monitoring chlorophyll-a in Phewa Lake using satellite images and ensemble-based
+    learning.
+  url: https://api.openalex.org/works/W7129043809?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Monitoring chlorophyll-a in Phewa Lake, Nepal using satellite images and ensemble-based learning
+- claim: OpenAlex gives the paper's first author, Prayon Joshi, an affiliation with the Faculty of Health,
+    Science and Technology, Nepal Open University, as well as Kathmandu University.
+  url: https://api.openalex.org/works/W7129043809?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: Faculty of Health, Science and Technology, Nepal Open University
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

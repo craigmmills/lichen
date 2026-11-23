@@ -1,0 +1,73 @@
+id: armenian-data-cube
+kind: dataset
+name: Armenian Data Cube
+scope: am
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- am
+status: unknown
+runner: unknown
+summary: Remote-sensing repository for Armenia's landscapes, being developed by two national institutes
+  and the University of Geneva in 2022, when it held the full Landsat and Sentinel-2 archive.
+facts:
+- claim: Being developed by the Center for Ecological-Noosphere Studies and the Institute for Informatics
+    and Automation Problems of the National Academy of Sciences with the University of Geneva, for remote-sensing
+    monitoring of Armenia's landscapes (2022 report).
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: Центр экологаносферных исследований НАН Армении и Институт проблем информатики и автоматизации
+    НАН Армении совместно с Женевским университетом, Швейцария, разрабатывают многомерную информационную
+    система сбора и обработки спутниковых фотографий
+- claim: The 2022 report says the repository held the full Landsat and Sentinel-2 archive and drone images,
+    and a Python algorithm had been developed to delineate water bodies.
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: включающее в себя полный архив спутниковых снимков Landsat и Sentinel-2, а также снимки, полученные
+    с дронов
+- claim: Built in the project Armenian Data Cube for Sustainable Development, funded by the Swiss State
+    Secretariat for Education, Research and Innovation.
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: Работа была выполнена в рамках проекта «Армянский куб данных для устойчивого развития — ADC4SD».
+links:
+- type: built-by
+  to: center-for-ecological-noosphere-studies
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: Центр экологаносферных исследований НАН Армении и Институт проблем информатики и автоматизации
+    НАН Армении совместно с Женевским университетом, Швейцария, разрабатывают
+- type: built-by
+  to: institute-for-informatics-and-automation-problems
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: Центр экологаносферных исследований НАН Армении и Институт проблем информатики и автоматизации
+    НАН Армении совместно с Женевским университетом, Швейцария, разрабатывают
+- type: built-by
+  to: university-of-geneva
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: совместно с Женевским университетом, Швейцария, разрабатывают
+- type: builds-on
+  to: landsat
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: полный архив спутниковых снимков Landsat и Sentinel-2
+- type: builds-on
+  to: sentinel-2
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: полный архив спутниковых снимков Landsat и Sentinel-2
+- type: funded-by
+  to: swiss-state-secretariat-for-education-research-and-innovation
+  url: https://www.ra.am/archives/77134
+  fetched: 2026-11-08
+  quote: Он финансировался Государственным секретариатом Швейцарии по научному образованию и инновациям
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

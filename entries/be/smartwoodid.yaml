@@ -1,0 +1,56 @@
+id: smartwoodid
+kind: project
+name: SmartwoodID
+scope: be
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- cd
+status: closed
+summary: Closed 2021–2024 project led by Hans Beeckman, using deep learning and aiming to
+  automate wood identification for DR Congo timber, with a final report published in 2025.
+facts:
+- claim: The 2021–2024 project aimed to automate wood identification by applying AI to wood
+    anatomical images of timber species of the DR Congo.
+  url: https://www.africamuseum.be/en/research/discover/projects/prj_detail?prjid=756
+  fetched: '2026-11-02'
+  quote: applying artificial intelligence techniques for the analysis of wood anatomical images
+    of timber species of the Democratic Republic of the Congo
+- claim: The 2021–2024 project used deep learning approaches for wood identification.
+  url: https://www.africamuseum.be/en/research/discover/projects/prj_detail?prjid=756
+  fetched: '2026-11-02'
+  quote: The project also takes advantage of the power of modern deep learning approaches.
+  ai_type: deep-learning
+- claim: The 2021–2024 project aimed to automate part of wood identification with AI analysis
+    of wood anatomical images of timber species of the Democratic Republic of the Congo.
+  url: https://www.africamuseum.be/fr/research/discover/projects/prj_detail?prjid=756
+  fetched: &id001 2026-11-02
+  quote: The project aims at automating part of the wood identification process by applying
+    artificial intelligence techniques for the analysis of wood anatomical images of timber
+    species of the Democratic Republic of the Congo.
+- claim: The project planned to use scans and anatomical descriptions as annotated training
+    data for a wood identification key assisted by deep learning.
+  ai_type: deep-learning
+  url: https://www.africamuseum.be/fr/research/discover/projects/prj_detail?prjid=756
+  fetched: *id001
+  quote: The scans and anatomical descriptions will therefore serve as annotated training
+    data to develop a machine learning assisted illustrated key for wood identification.
+- claim: The project page set a focus on 1190 Central African timbers for a database of scans
+    and anatomical descriptions.
+  url: https://www.africamuseum.be/fr/research/discover/projects/prj_detail?prjid=756
+  fetched: *id001
+  quote: The project focusses on 1190 Central African Timbers
+- claim: Its final report was published by the Belgian Science Policy Office in 2025.
+  url: https://www.belspo.be/belspo/brain2-be/projects/FinalReports/SmartwoodID_FinRep.pdf
+  fetched: *id001
+  quote: Published in 2025 by the Belgian Science Policy Office
+found_by:
+- checklist:7
+- link-from:royal-museum-for-central-africa
+added_by: agent
+checked: '2026-11-02'

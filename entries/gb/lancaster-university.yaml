@@ -1,0 +1,61 @@
+id: lancaster-university
+kind: organisation
+name: Lancaster University
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with authors on deep learning for satellite monitoring of large mammal
+  populations.
+facts:
+- claim: 'OpenAlex lists authors at Lancaster University on this work: Deep learning enables
+    satellite-based monitoring of large populations of terrestrial mammals across heterogeneous
+    landsc'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Deep learning enables satellite-based monitoring of large populations of terrestrial
+    mammals across heterogeneous landsc
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.lancaster.ac.uk/
+  quote: LA1 4YW
+  fetched: '2026-10-30'
+- claim: Lancaster Environment Centre has a Data Science and Artificial Intelligence partner
+    research centre listed.
+  url: https://www.lancaster.ac.uk/lec/
+  quote: Data Science and Artificial Intelligence
+  fetched: '2026-10-30'
+- claim: BEACON sits in its Environment Centre.
+  url: https://hr-jobs.lancs.ac.uk/Upload/vacancies/files/13756/RIA1_BEACON_lec_JD.docx
+  quote: Department/College:Lancaster Environment Centre
+  via: webfetch
+  fetched: '2026-10-30'
+- claim: Environment theme addresses climate change and biodiversity loss.
+  url: https://www.lancaster.ac.uk/data-science-and-artificial-intelligence/research/environment/
+  quote: aims to develop new understanding and innovative solutions to the dual crises of
+    climate change and biodiversity loss
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+- link-from:beacon-lancaster
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: beacon-lancaster
+  url: https://www.lancaster.ac.uk/dsi/about-us/members/sally-anne-keith
+  quote: 'DSI: BEACON: Behavioural Ecology AI for CONservation Action'
+  fetched: '2026-10-31'
+website: https://www.lancaster.ac.uk/

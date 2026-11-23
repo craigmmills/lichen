@@ -1,0 +1,43 @@
+id: egyptian-ministry-of-water-resources-and-irrigation
+kind: organisation
+name: Ministry of Water Resources and Irrigation
+also_known_as: []
+scope: eg
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.mwri.gov.eg
+summary: Ministry listed by OpenAlex as the affiliation of Ahmed Y. Abed, first author of
+  a 2026 paper on land cover change in the Bahr El Jebel Basin using remote sensing.
+facts:
+- claim: OpenAlex lists the 2026 paper Investigating Spatiotemporal Land Cover Changes in
+    the Bahr El Jebel Basin Using Remote Sensing, with Ahmed Y. Abed as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:044geq124,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Investigating Spatiotemporal Land Cover Changes in the Bahr El
+    Jebel Basin Using Remote Sensing", "publication_year": 2026, "authorships": [{"author_position":
+    "first", "author": {"id": "https://openalex.org/A5043697064", "display_name": "Ahmed Y.
+    Abed"'
+- claim: OpenAlex gives the first author's affiliation as the Ministry of Water Resources
+    and Irrigation.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:044geq124,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Ahmed Y. Abed", "raw_affiliation_strings": ["Nile Water Sector
+    , Ministry of Water Resources and Irrigation , Cairo , Egypt"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

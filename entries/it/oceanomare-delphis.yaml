@@ -1,0 +1,61 @@
+id: oceanomare-delphis
+kind: organisation
+name: Oceanomare Delphis
+scope: it
+sector: ngo
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+- computer-vision
+hq: unknown
+scale: regional
+status: active
+website: https://oceanomaredelphis.org/
+summary: Non-profit working on cetacean conservation in the Mediterranean. It collects data
+  on behaviour and acoustics, runs the Ischia Dolphin Project and has uploaded photo-identification
+  data to Intercet.
+facts:
+- claim: Says it is a nonprofit dedicated to the conservation of cetaceans in the Mediterranean.
+  url: https://oceanomaredelphis.org/en/association/
+  fetched: 2026-10-31
+  quote: Oceanomare Delphis is a nonprofit organization dedicated to the conservation of cetaceans
+    in the Mediterranean Sea.
+- claim: Says its archive holds information on movements, group size, photo-identification,
+    behaviour and acoustics.
+  url: https://oceanomaredelphis.org/en/association/
+  fetched: 2026-10-31
+  quote: We collect data on the behavioral ecology and acoustics of cetaceans
+- claim: A non-profit dedicated to cetacean conservation in the Mediterranean.
+  url: https://oceanomaredelphis.org/association/
+  fetched: '2026-10-31'
+  quote: Oceanomare Delphis è una organizzazione non profit dedicata alla conservazione dei
+    cetacei nel Mediterraneo.
+- claim: Developed neural network models that identify sperm whales from flukes and flanks.
+  url: https://oceanomaredelphis.org/whale-vision/
+  fetched: '2026-10-31'
+  quote: Abbiamo sviluppato modelli di reti neurali in grado di identificare i capodogli
+  ai_type: deep-learning
+links:
+- type: uses
+  to: intercet
+  url: https://oceanomaredelphis.org/en/?p=3746
+  fetched: 2026-10-31
+  quote: ODO sent all data (routes, sighting coordinates, photographic material for photo-id
+    analysis)
+- type: partners-with
+  to: centro-interdisciplinare-di-bioacustica-universita-di-pavia
+  url: https://oceanomaredelphis.org/en/association/
+  fetched: 2026-10-31
+  quote: Since 2015, Oceanomare Delphis has been collaborating with CIBRA
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: 2026-10-31
+ai_types:
+- deep-learning

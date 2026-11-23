@@ -1,0 +1,62 @@
+id: mobiko
+kind: project
+name: MoBiKo
+also_known_as:
+- Mountain Biodiversity Knowledge Graph
+- MOBIKO
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+status: active
+summary: An active project, selected in the SDSC national calls to start in 2025, that proposes extracting
+  mountain biodiversity knowledge from literature into a graph database.
+facts:
+- claim: Proposes to extract mountain biodiversity knowledge from literature into a graph database.
+  url: https://www.gmba.unibe.ch/research/projects/index_eng.html
+  quote: by extracting knowledge about mountain biodiversity status and trends from literature and store
+    it in a graph database for analysis
+  fetched: '2026-11-02'
+- claim: Listed by the Swiss Data Science Center among its environment projects.
+  url: https://www.datascience.ch/domains/energy-climate-environment
+  quote: Mountain Biodiversity Knowledge Graph
+  fetched: '2026-11-02'
+- claim: Aims at knowledge trapped in publications as unstructured text.
+  url: https://www.datascience.ch/projects/mobiko
+  fetched: '2026-11-02'
+  quote: Much knowledge about mountain biodiversity is “trapped” inside scientific publications as unstructured
+    text
+- claim: Selected in the SDSC national calls for projects to start in 2025.
+  url: https://datascience.ch/articles/first-national-calls-for-projects-50-projects-to-start-in-2025
+  fetched: '2026-11-02'
+  quote: 'MoBiKo : Mountain Biodiversity Knowledge Graph'
+- claim: Listed as in progress on the SDSC climate and environment page.
+  url: https://www.datascience.ch/domains/energy-climate-environment
+  fetched: '2026-11-02'
+  quote: MOBIKO In Progress Mountain Biodiversity Knowledge Graph
+links:
+- type: partners-with
+  to: plazi
+  url: https://www.datascience.ch/projects/mobiko
+  fetched: '2026-11-02'
+  quote: 'PI | Partners:
+
+    Global Mountain Biodiversity Assessment (GMBA), PLAZI, Swiss Institute of Bioinformatics'
+- type: partners-with
+  to: swiss-data-science-center
+  url: https://www.datascience.ch/projects/mobiko
+  fetched: '2026-11-02'
+  quote: The Swiss Data Science Center (SDSC) contributes to the MoBiKo project by designing and implementing
+    a robust, scalable pipeline that transforms unstructured biodiversity literature into structured,
+    machine-interpretable knowledge.
+found_by:
+- checklist:3
+- checklist:7
+- link-from:swiss-data-science-center
+added_by: agent
+checked: '2026-11-02'
+runner: unknown
+countries:
+- ch

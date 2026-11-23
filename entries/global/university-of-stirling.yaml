@@ -1,0 +1,42 @@
+id: university-of-stirling
+kind: organisation
+name: University of Stirling
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+scale: global
+website: https://www.stir.ac.uk
+status: active
+summary: Scottish university whose researchers built Mbaza AI, an open camera trap image classifier
+  used in Gabon.
+countries:
+- ga
+- gb
+facts:
+- claim: Researchers built Mbaza AI with Appsilon, Panthera and Gabon's National Parks Agency.
+  url: https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/
+  fetched: '2026-10-30'
+  quote: Appsilon assisted researchers from the University of Stirling in their collaboration
+    with Panthera Corp. and the National Parks Agency in Gabon
+- claim: Based in Scotland.
+  url: https://www.stir.ac.uk
+  fetched: '2026-10-30'
+  quote: Study in Scotland, UK | Home | University of Stirling
+links:
+- type: runs
+  to: mbaza-ai
+  url: https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/
+  fetched: '2026-10-30'
+  quote: researchers at the University of Stirling successfully implemented one such solution
+    tackling the latter issue - the Mbaza AI.
+found_by:
+- link-from:mbaza-ai
+added_by: agent
+checked: '2026-10-30'

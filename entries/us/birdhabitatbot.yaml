@@ -1,0 +1,43 @@
+id: birdhabitatbot
+kind: organisation
+name: BirdHabitatBot
+also_known_as:
+- BIRDHABITATBOT LLC
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: conservation-tech
+realms:
+- land
+hq: us
+scale: national
+status: unknown
+summary: Willimantic, Connecticut company funded by NSF SBIR to develop a mobile robot that
+  removes invasive plants.
+facts:
+- claim: SBIR Phase I for a robotic system removing invasive plants.
+  url: https://api.nsf.gov/services/v1/awards/2126637.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  A robotic system for removal of invasive plant species'
+- claim: The NSF award record gives its address as 515 Pleasant St, Willimantic, Connecticut.
+  url: https://api.nsf.gov/services/v1/awards/2126637.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"515 PLEASANT ST FL 2"'
+- claim: UConn Today covers the robot, using AI to control understory invasive plants.
+  url: https://today.uconn.edu/2021/12/seeing-beneath-the-trees-using-robots-and-ai-to-control-understory-invasive-plants/
+  fetched: '2026-10-31'
+  quote: 'Seeing Beneath the Trees: Using Robots and AI to Control Understory Invasive Plants'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2126637.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  A robotic system for removal of invasive plant species'
+  amount: 240060
+  year: 2021
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'

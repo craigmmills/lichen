@@ -1,0 +1,64 @@
+id: protected-areas-photo-bank
+kind: dataset
+name: Photo bank of the protected-area system
+scope: ru
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ru
+status: active
+summary: A dataset of protected-area photos, free to publish with credit and an accepted offer agreement,
+  built by Roszapovedcentr on a camera-trap neural network and tagging animals and birds from 49 orders.
+facts:
+- claim: Photos may be published free in social media and the press and used for educational and scientific
+    work, subject to accepting the site’s offer agreement and crediting the author and source.
+  url: https://habr.com/ru/articles/865074
+  quote: все фото доступны для свободной публикации в соцсетях и СМИ и использования в просветительских
+    и научных работах.
+  fetched: '2026-10-31'
+- claim: A YOLO 11 neural network was used for the AI solution.
+  url: https://habr.com/ru/articles/865074
+  quote: применялась нейросеть Yolo 11
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: A built-in neural network identifies and tags photos of animals and birds from 49 orders.
+  url: https://www.sostav.ru/publication/fotobank-71863.html
+  fetched: 2026-10-31
+  quote: Встроенная в фотобанк нейросеть определяет и размечает тегами фото животных и птиц из 49 отрядов
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: yandex-cloud
+  url: https://habr.com/ru/articles/865074
+  quote: Фотобанк создан в сотрудничестве с Yandex Cloud и Центром пространственных исследований «Геоинтеллект»
+  fetched: '2026-10-31'
+- type: partners-with
+  to: geointellect-centre-for-spatial-research
+  url: https://habr.com/ru/articles/865074
+  quote: Фотобанк создан в сотрудничестве с Yandex Cloud и Центром пространственных исследований «Геоинтеллект»
+  fetched: '2026-10-31'
+- type: builds-on
+  to: sailyugemsky-camera-trap-neural-network
+  url: https://www.techinsider.ru/news/news-1669661-cifrovoi-zapovednik-zapushchen-besplatnyi-fotobank-so-snimkami-redkih-jivotnyh-rossii-na-osnove-iskusstvennogo-intellekta/
+  quote: Для разработки решения на базе искусственного интеллекта использовалась нейросеть Yolo 11 и нейросеть
+    для распознавания разных видов животных, разработанная в 2023 году Yandex Cloud и студентами ШАДа
+    для ученых Сайлюгемского национального парка.
+  fetched: '2026-10-31'
+- type: built-by
+  to: roszapovedtsentr
+  url: https://www.sostav.ru/publication/fotobank-71863.html
+  fetched: 2026-10-31
+  quote: Росзаповедцентр Минприроды и Центр технологий для общества Yandex Cloud совместно с Центром пространственных
+    исследований («Геоинтеллект») запустили фотобанк
+found_by:
+- checklist:7
+- checklist:2
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- фотобанк заповедной системы России

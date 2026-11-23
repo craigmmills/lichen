@@ -1,0 +1,35 @@
+id: batangas-state-university-department-of-electronics-engineering
+kind: organisation
+name: Department of Electronics Engineering, Batangas State University
+scope: ph
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: ph
+countries:
+- ph
+scale: local
+status: active
+summary: Electronics engineering department in Batangas, listed as an affiliation
+  by the first author of a 2025 paper on a machine-vision monitoring system for mangrove
+  habitat.
+facts:
+- claim: The first author of a 2025 paper on an integrated monitoring system for mangrove
+    habitat based on machine-vision technologies lists this department as an affiliation.
+  url: https://api.openalex.org/works/W4415594780?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Integrated Monitoring System for Mangrove Habitat based on Machine-Vision
+    Technologies
+- claim: The authors' affiliation is the department, in Batangas.
+  url: https://api.openalex.org/works/W4415594780?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: ECE Department of Electronics Engineering,Batangas,Philippines
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

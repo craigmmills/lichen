@@ -1,0 +1,39 @@
+id: department-of-computer-science-virtual-university-of-chad
+kind: organisation
+name: Department of Computer Science, Virtual University of Chad
+scope: td
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+hq: td
+countries:
+- td
+scale: national
+status: active
+summary: University department in N'Djamena, listed as the first author's affiliation
+  on a chapter on elephant monitoring in Zakouma National Park, which benchmarked
+  Faster R-CNN, Mask R-CNN and YOLO models.
+facts:
+- claim: The first author's raw affiliation on the published chapter Towards Elephants
+    Intelligent Monitoring in Zakouma National Park, Chad, is the Department of Computer
+    Science, Virtual University of Chad, N'Djamena.
+  url: https://api.openalex.org/works/W4409537601?select=id,title,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: Department of Computer Science, Virtual University of Chad
+- claim: The study benchmarked detection and segmentation models including Faster
+    R-CNN, Mask R-CNN and YOLO versions.
+  url: https://www.american-cse.org/static/CSCE24-book-abstracts.pdf
+  fetched: 2026-11-13
+  quote: on detection and segmentation algorithms such as Faster RCNN, Mask R -CNN,
+    YOLO V7, YOLO V8 and YOLO NAS.
+  ai_type: deep-learning
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

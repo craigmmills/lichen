@@ -1,0 +1,69 @@
+id: earthshot-labs
+kind: organisation
+name: Earthshot Labs
+also_known_as:
+- EARTHSHOT Labs PBC
+scope: us
+sector: company
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: us
+scale: national
+status: active
+summary: Sebastopol, California public benefit company building an ecosystem forecasting platform
+  for reforestation, with NSF SBIR funding, and a phone app using computer vision to measure
+  trees.
+facts:
+- claim: SBIR Phase II award to advance an ecosystem forecasting platform.
+  url: https://api.nsf.gov/services/v1/awards/2335244.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II: Advancing an Ecosystem Forecasting Platform to Restore Nature at
+    Planetary Scale'
+- claim: SBIR Phase I for a mobile app using computer vision to measure trees.
+  url: https://api.nsf.gov/services/v1/awards/2212767.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: building a mobile app that uses computer vision and augmented reality to make measuring
+    trees much easier
+- claim: Develops and finances nature-based carbon projects.
+  url: https://blog.google/outreach-initiatives/entrepreneurs/google-for-startups-ai-for-nature-cohort/
+  fetched: '2026-10-30'
+  quote: They develop and finance nature-based carbon projects globally
+- claim: Supports land stewards to develop and finance nature-based carbon projects.
+  url: https://earthshot.eco
+  fetched: '2026-10-31'
+  quote: Earthshot supports land stewards to develop and finance nature-based carbon projects.
+- claim: The NSF award record gives an address in Sebastopol, California.
+  url: https://api.nsf.gov/services/v1/awards/2335244.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"640 WAGNON RD"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2335244.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II: Advancing an Ecosystem Forecasting Platform to Restore Nature at
+    Planetary Scale'
+  amount: 897042
+  year: 2024
+  currency: USD
+- type: partners-with
+  to: google-for-startups-accelerator-ai-for-nature
+  url: https://blog.google/outreach-initiatives/entrepreneurs/google-for-startups-ai-for-nature-cohort/
+  fetched: '2026-10-30'
+  quote: Earthshot Labs ’ (United States) mission is to restore and protect nature at planetary
+    scale.
+found_by:
+- checklist:5
+- link-from:google-for-startups-accelerator-ai-for-nature
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+website: https://earthshot.eco

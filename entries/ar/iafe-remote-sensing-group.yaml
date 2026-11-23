@@ -1,0 +1,51 @@
+id: iafe-remote-sensing-group
+kind: organisation
+name: Remote Sensing Group, Instituto de Astronomía y Física del Espacio
+also_known_as:
+- IAFE Remote Sensing Lab
+scope: ar
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ar
+scale: national
+status: active
+summary: Research group whose 2019 paper used convolutional networks on EVI time series to
+  detect breakpoints for online deforestation monitoring in the Chaco forest, followed by
+  a 2020 lab paper on monthly deforestation prediction.
+facts:
+- claim: OpenAlex lists a 2019 paper by the group on breakpoint detection in EVI time series
+    with convolutional networks for online deforestation monitoring in the Chaco forest.
+  url: https://api.openalex.org/works/W2982019221?select=id,title,doi,publication_year,authorships,primary_location
+  quote: EVI Time-Series Breakpoint Detection Using Convolutional Networks for Online Deforestation
+    Monitoring in Chaco Forest
+  ai_type: deep-learning
+  fetched: '2026-11-03'
+- claim: The authors of the 2019 paper give their affiliation as the Remote Sensing Group
+    of IAFE, Buenos Aires.
+  url: https://api.openalex.org/works/W2982019221?select=id,title,doi,publication_year,authorships,primary_location
+  quote: Remote Sensing Group, Institute of Astronomy and Space Physics (IAFE), Buenos Aires,
+    Argentina
+  fetched: '2026-11-03'
+- claim: OpenAlex lists a 2020 paper by the group's lab on monthly deforestation prediction
+    with extreme gradient boosting on MODIS EVI time series.
+  url: https://api.openalex.org/works/W3195760776?select=id,title,doi,publication_year,authorships
+  quote: Monthly Deforestation Prediction using eXtreme Gradient Boosting based on MODIS EVI
+    time series
+  ai_type: ml-supervised
+  fetched: '2026-11-03'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,165 @@
+id: mapbiomas-indonesia
+kind: programme
+name: MapBiomas Indonesia
+scope: id
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- id
+status: active
+website: https://indonesia.mapbiomas.org/
+summary: Civil society network mapping Indonesian land cover change year by year. Collection
+  1.0 covered 2000 to 2019; its fire product uses deep learning.
+facts:
+- claim: Released Collection 1.0 of land cover dynamics for 2000 to 2019 in November 2021.
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: MapBiomas Indonesia released Collection 1.0 showing land cover dynamics in Indonesia
+    from 2000–2019 on 10 November 2021.
+- claim: Its fire methodology applies deep learning using a deep neural network.
+  url: https://auriga.or.id/resource/reference/metodologi-fire-koleksi-2.pdf
+  fetched: '2026-10-31'
+  quote: visual menggunakan Deep Neural Network (DNN).
+  ai_type: deep-learning
+- claim: Calls itself an Indonesian civil society network formed to encourage land cover transparency.
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: MapBiomas Indonesia is an Indonesian civil society network formed in an effort to
+    encourage land cover transparency
+- claim: Released Collection 2.0 in October 2023, with 11 land cover classes for 2000 to 2022.
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: Collection 2.0, which contains year-on-year changes for 11 land cover classes in
+    Indonesia over the 2000–2022 period, was released on 23 October 2023.
+- claim: Its fire method uses machine learning on Google Earth Engine and a Deep Neural Network
+    for visual pattern recognition.
+  url: https://auriga.or.id/resource/reference/metodologi-fire-koleksi-2.pdf
+  fetched: '2026-10-31'
+  quote: penerapan deep learning untuk pengenalan pola visual menggunakan Deep Neural Network
+    (DNN)
+  ai_type: deep-learning
+- claim: All maps are pixel-by-pixel classifications of Landsat imagery using machine learning
+    on Google Earth Engine.
+  url: https://landy.mapbiomas.id/id/atbd
+  fetched: '2026-10-31'
+  quote: Setiap prosesnya menggunakan algoritma machine learning berbasis cloud ( cloud processing
+    ) pada platform Google Earth Engine .
+- claim: Maps 13 land cover classes from 1990 to 2024.
+  url: https://landy.mapbiomas.id/id/faq
+  fetched: '2026-10-31'
+  quote: Mapbiomas Indonesia saat ini telah selesai memetakan 13 kelas tutupan lahan pada
+    rentang 1990 – 2024 di Indonesia.
+- claim: Uses supervised classification on Landsat mosaics.
+  url: https://landy.mapbiomas.id/id/atbd
+  fetched: '2026-10-31'
+  quote: Klasifikasi terbimbing ( supervised classification ) dilakukan terhadap mosaik Landsat
+  ai_type: ml-supervised
+- claim: Its fire initiative maps burned area with a deep learning approach.
+  url: https://indonesia.mapbiomas.org/id
+  fetched: '2026-10-31'
+  quote: pendekatan deep learning terhadap citra satelit
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: auriga-nusantara
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: Auriga Nusantara initiated the application of this mapping technology and knowledge
+    in Indonesia
+- type: builds-on
+  to: mapbiomas
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: MapBiomas was first developed by a civil society network in Brazil in 2015, and later
+    spread to other countries.
+- type: builds-on
+  to: google-earth-engine
+  url: https://auriga.or.id/resource/reference/metodologi-fire-koleksi-2.pdf
+  fetched: '2026-10-31'
+  quote: computing) melalui Google Earth Engine, serta
+- type: partners-with
+  to: auriga-nusantara
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: In 2017, Auriga Nusantara initiated the application of this mapping technology and
+    knowledge in Indonesia
+- type: partners-with
+  to: haka
+  url: https://indonesia.mapbiomas.org/en/about
+  fetched: '2026-10-31'
+  quote: The MapBiomas Indonesia network comprises HAKA Aceh
+- type: run-by
+  to: auriga-nusantara
+  url: https://landy.mapbiomas.id/id/faq
+  fetched: '2026-10-31'
+  quote: diaplikasikan di Indonesia oleh Auriga Nusantara dan masyarakat sipil jaringannya
+- type: partners-with
+  to: mapbiomas
+  url: https://landy.mapbiomas.id/id/faq
+  fetched: '2026-10-31'
+  quote: MapBiomas Indonesia adalah bagian dari Mapbiomas Global Network.
+- type: partners-with
+  to: haka
+  url: https://landy.mapbiomas.id/id/faq
+  fetched: '2026-10-31'
+  quote: kolaborasi antara Auriga Nusantara dengan lembaga jaringan di 9 regional meliputi
+    HAKA Aceh
+- type: partners-with
+  to: woods-and-wayside-international
+  url: https://landy.mapbiomas.id/id/atbd
+  fetched: '2026-10-31'
+  quote: Di tim ini ada Auriga Nusantara dan Woods and Wayside International.
+- type: partners-with
+  to: hutan-kita-institute
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: HAKI South Sumatra
+  fetched: '2026-10-31'
+- type: partners-with
+  to: genesis-bengkulu
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: GENESIS Bengkulu
+  fetched: '2026-10-31'
+- type: partners-with
+  to: sampan-kalimantan
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: SAMPAN West Kalimantan
+  fetched: '2026-10-31'
+- type: partners-with
+  to: save-our-borneo
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: Save Our Borneo (SOB) Central Kalimantan
+  fetched: '2026-10-31'
+- type: partners-with
+  to: green-of-borneo
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: Green of Borneo (GOB) North Kalimantan
+  fetched: '2026-10-31'
+- type: partners-with
+  to: komiu
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: KOMIU Central Sulawesi
+  fetched: '2026-10-31'
+- type: partners-with
+  to: mnukwar-papua
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: MNUKWAR Papua
+  fetched: '2026-10-31'
+- type: partners-with
+  to: jerat-papua
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: JERAT Papua
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:mapbiomas
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- Mapbiomas Landy

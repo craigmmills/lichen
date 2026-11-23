@@ -1,0 +1,48 @@
+id: notes-of-life
+kind: programme
+name: Notes of Life
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: App from the Institute of Zoology that identifies plants and animals from
+  a photo, built on Baidu's PaddlePaddle framework.
+facts:
+- claim: Lets people upload a photo to identify an unknown plant or animal.
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: It allows people to take a photo and upload it to the app to identify an
+    unknown plant or animal
+- claim: Developed by the Institute of Zoology's biodiversity informatics group to
+    support citizen science.
+  url: http://www.sp2000.org.cn/
+  fetched: '2026-10-31'
+  quote: 生物记是由中国科学院动物研究所生物多样性信息学研究组开发的APP与网络平台，旨在推动公民科学
+links:
+- type: run-by
+  to: institute-of-zoology-cas
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: Developed by the Institute of Zoology under the CAS
+- type: builds-on
+  to: paddlepaddle
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: the app is built on Baidu's PaddlePaddle, an open-source AI framework
+- type: run-by
+  to: institute-of-zoology-cas
+  url: http://www.sp2000.org.cn/
+  fetched: '2026-10-31'
+  quote: 生物记是由中国科学院动物研究所生物多样性信息学研究组开发的APP与网络平台
+found_by:
+- checklist:5
+- link-from:queue-cn
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn
+also_known_as:
+- 生物记

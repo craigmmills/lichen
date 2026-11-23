@@ -1,0 +1,44 @@
+id: rmit-university
+kind: organisation
+name: RMIT University
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: Australian university whose authors lead 2026 papers on AI-assisted acoustic monitoring
+  of birds and frogs with BirdNET and VicFrogNET, and on software bottlenecks in passive acoustic
+  monitoring.
+facts:
+- claim: An RMIT author leads a 2026 paper on the performance of AI-assisted passive acoustic
+    monitoring of birds and frogs with BirdNET and VicFrogNET.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I82951845,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'Promise and pitfalls: Variable performance of AI-assisted passive acoustic monitoring
+    of birds and frogs using BirdNET and VicFrogNET'
+  fetched: '2026-11-08'
+- claim: The lead author is listed with the Centre for Nature Positive Solutions, Department
+    of Biology, RMIT University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I82951845,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Centre for Nature Positive Solutions, Department of Biology, School of Science, RMIT
+    University, Melbourne, VIC 3000, Australia
+  fetched: '2026-11-08'
+- claim: An RMIT author leads a 2026 expert consensus paper on software bottlenecks in passive
+    acoustic monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I82951845,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'Overcoming software bottlenecks for scalable passive acoustic monitoring: A survey-informed
+    expert consensus'
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

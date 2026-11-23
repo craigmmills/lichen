@@ -1,0 +1,36 @@
+id: industrial-university-of-ho-chi-minh-city
+kind: organisation
+name: Industrial University of Ho Chi Minh City
+also_known_as: []
+scope: vn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- vn
+scale: national
+status: active
+funding_at_risk: false
+summary: University with an author listed in OpenAlex as first author of a paper on turning
+  a land cover map into a land use map, using Landsat data and a random forest classifier.
+facts:
+- claim: 'OpenAlex lists an author at the Industrial University of Ho Chi Minh City as first
+    author of the paper titled "From Land Cover Map to Land Use Map: A Combined Pixel-Based
+    and Object-Based Approach Using Multi-Temporal Landsat Data, a Random Forest Classifier,
+    and Decision Rules".'
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00waaqh38|05ezss144|04qva2324|0071qz696|03t0zs859|04r9s1v23|03mj71j26|05hzn5427|03anxx281|0360g3z42|04wgyjv21|02ryrf141|019sx5d52|010y5b925|05hhz4s12|00tean533|05xpj2n48|01abaah21|006qk6d61|04afshy24|052dmdr17|01rw3qm79|01351mb48|0244cgm12|01cs0jg44|03030f487|02b2dfs85|05kdc4973|004axh929|01f1fsr30|04bm3wy68|044deqz63,concepts.id:C62649853,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: 'From Land Cover Map to Land Use Map: A Combined Pixel-Based and Object-Based Approach
+    Using Multi-Temporal Landsat Data, a Random Forest Classifier, and Decision Rules'
+links: []
+found_by:
+- register:vn
+- checklist:3
+added_by: agent
+checked: 2026-11-08

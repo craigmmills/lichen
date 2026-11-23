@@ -1,0 +1,112 @@
+id: institute-of-marine-research
+kind: organisation
+name: Institute of Marine Research
+also_known_as:
+- Havforskningsinstituttet
+- HI
+- IMR
+- Norwegian Institute of Marine Research
+scope: 'no'
+summary: Bergen-based marine research institute with about 1,030 employees, whose researchers
+  used deep learning to count and identify fish in trawl images; it runs the Norwegian Marine
+  Data Centre.
+facts:
+- claim: One of the largest marine research institutes in Europe, with about 1,030 employees.
+  url: https://nifes.no/en/hi/about-us
+  fetched: '2026-11-02'
+  quote: is one of the largest marine research institutes in Europe, with about 1,030 employees
+- claim: Headquarters in Bergen.
+  url: https://nifes.no/en/hi/about-us
+  fetched: '2026-11-02'
+  quote: Our headquarters are located in Bergen.
+- claim: NR says it works with the institute on marine acoustics, aerial and microscopic images.
+  url: https://nr.no/en/about/research-centres/visual-intelligence/
+  fetched: '2026-11-02'
+  quote: We work with The Institute for Marine Research (IMR) to analyse different types of
+    image data, including marine acoustics, aerial and microscopic images.
+- claim: Published a 2021 report of a workshop on machine learning in fisheries acoustics.
+  url: https://www.hi.no/templates/reporteditor/report-pdf?id=42975
+  fetched: '2026-11-02'
+  quote: Report from the COGMAR/CRIMAC workshop on machine learning methods in fisheries acoustics
+- claim: Says it is one of Europe's largest marine research institutes, with about 1,030 staff,
+    and that its main work is research, advice and monitoring.
+  url: http://www.imr.no
+  fetched: '2026-11-02'
+  quote: Havforskningsinstituttet (HI) er et av de største marine forskningsinstituttene i
+    Europa med ca. 1030 ansatte.
+- claim: Its GBIF publisher record gives an address at Nordnesgaten 50, Bergen.
+  url: https://api.gbif.org/v1/organization/ff265032-b806-411a-b4b8-15a27b767dce
+  fetched: '2026-11-02'
+  quote: Nordnesgaten 50
+- claim: Its researchers used deep learning to count and identify fish in trawl images.
+  url: https://www.hi.no/en/hi/news/2022/january/computer-trained-to-identify-fish-species-in-trawl-images
+  fetched: '2026-11-02'
+  quote: Allken and her colleagues have now tried to solve this challenge with the help of
+    so-called deep learning.
+  ai_type: deep-learning
+- claim: Its researchers trained an AI system to count and identify fish photographed in the
+    trawl.
+  url: https://www.hi.no/hi/nyheter/2022/januar/datamaskin-lerte-a-sja-forskjell-pa-sild-og-makrell-i-tralen
+  fetched: '2026-11-02'
+  quote: Havforskarane har lært opp eit kunstig intelligent system til å telja og kjenna igjen
+    arten på fisk som blir fotografert i trålen under vatn.
+- claim: Part of the MAREANO Executive Group that carries out field sampling.
+  url: https://mareano.no/en/about_mareano
+  fetched: '2026-11-02'
+  quote: The Institute of Marine Research, the Geological Survey of Norway and the Norwegian
+    Mapping Authority comprise the Executive Group which is responsible for carrying out the
+    MAREANO field sampling and other scientific activities.
+- claim: Its GBIF publisher record calls it Norway's largest centre of marine science, with
+    a staff of almost 750.
+  url: https://api.gbif.org/v1/organization/ff265032-b806-411a-b4b8-15a27b767dce
+  fetched: &id001 2026-11-02
+  quote: With a staff of almost 750, the Institute of Marine Research is Norway's largest
+    centre of marine science.
+- claim: Its GBIF publisher record says its main task is advising Norwegian authorities on
+    aquaculture and the ecosystems of Norwegian seas.
+  url: https://api.gbif.org/v1/organization/ff265032-b806-411a-b4b8-15a27b767dce
+  fetched: *id001
+  quote: The main task is to provide advice to Norwegian authorities on aquaculture and the
+    ecosystems of the Barents Sea
+- claim: The GBIF publisher record gives its address in Bergen, Norway.
+  url: https://api.gbif.org/v1/organization/ff265032-b806-411a-b4b8-15a27b767dce
+  fetched: *id001
+  quote: '"city":"Bergen","province":"Vestland","country":"NO"'
+links:
+- type: funded-by
+  to: norwegian-ministry-of-trade-industry-and-fisheries
+  url: https://nifes.no/en/hi/about-us
+  fetched: '2026-11-02'
+  quote: which provides 40% of our funding
+- type: runs
+  to: norwegian-marine-data-centre
+  url: https://www.hi.no/en/hi/forskning/research-groups-1/the-norwegian-marine-data-centre-nmd
+  fetched: '2026-11-02'
+  quote: The Norwegian Marine Data Centre (NMD) at the Institute of Marine Research was established
+    as a national data centre
+found_by:
+- checklist:3
+- link-from:hub-ocean
+- link-from:seabee
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: government
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+techniques:
+- bioacoustics
+- computer-vision
+website: https://www.hi.no
+countries:
+- 'no'
+ai_types:
+- deep-learning

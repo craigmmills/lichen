@@ -1,0 +1,52 @@
+id: st-petersburg-state-university
+kind: organisation
+name: St Petersburg State University
+also_known_as:
+- Санкт-Петербургский государственный университет
+- СПбГУ
+scope: ru
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: University that runs a Centre for Sustainable Territorial Development, named
+  on the SmartLeo page as developer of an AI assistant for Far Eastern leopard conservation,
+  which it built with VTB.
+facts:
+- claim: The SmartLeo page lists a news item saying the university and VTB developed
+    an AI assistant to help conserve the Far Eastern leopard.
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-11-09
+  quote: СПбГУ и ВТБ разработали ИИ‑ассистента для помощи в сохранении дальневосточного
+    леопарда
+- claim: The SmartLeo page names the Centre for Sustainable Territorial Development
+    of the university's Graduate School of Management as the developer.
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-11-09
+  quote: Центр устойчивого развития территорий Института «Высшая школа менеджмента»
+    Санкт-Петербургского государственного университета при консультационной поддержке
+    ВТБ.
+links:
+- type: runs
+  to: gsom-spbu-centre-for-sustainable-territorial-development
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-11-09
+  quote: Научно-образовательное подразделение ВШМ СПбГУ
+- type: builds
+  to: smartleo
+  url: https://ssdlab.gsom.spbu.ru/smartleo
+  fetched: 2026-11-09
+  quote: СПбГУ и ВТБ разработали ИИ‑ассистента для помощи в сохранении дальневосточного
+    леопарда
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,44 @@
+id: senghor-university
+kind: organisation
+name: Senghor University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.usenghor-francophonie.org/
+summary: University that OpenAlex lists among the first author's affiliations on a 2026 remote
+  sensing study of mangrove landscape change in Coubalan, Casamance, Senegal.
+facts:
+- claim: 'OpenAlex lists the 2026 paper Evolution of Mangrove Landscapes in the Coubalan Municipality
+    (Casamance, Senegal, West Africa): A Diachronic Analysis Using Remote Sensing.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00a5t5d16,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Evolution of Mangrove Landscapes in the Coubalan Municipality (Casamance,
+    Senegal, West Africa): A Diachronic Analysis Using Remote Sensing", "publication_year":
+    2026, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Papa Diène Faye, affiliations including Senghor
+    University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00a5t5d16,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Papa Diene Faye", "raw_affiliation_strings": ["Higher Institute
+    for Agricultural and Rural Training (ISFAR), Alioune Diop University, Bambey, Senegal,
+    Interdisciplinary Doctoral School, Senghor University, Alexandria, Egypt and Regional
+    Postgraduate School for Integrated'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,33 @@
+id: kookmin-university
+kind: organisation
+name: Kookmin University
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+summary: University whose authors appear on a 2026 forest monitoring paper and a 2025 deep
+  learning mangrove mapping paper listed in OpenAlex.
+facts:
+- claim: OpenAlex lists a 2026 paper on forest monitoring with Kookmin University authors.
+  url: https://api.openalex.org/works?filter=authorships.countries:KR,title_and_abstract.search:forest%20satellite%20deep%20learning%20mapping,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,cited_by_count,authorships
+  fetched: '2026-11-02'
+  quote: Enhanced forest monitoring through mapping with integrated seasonal canopy and spectral
+    reflectance features
+- claim: OpenAlex lists a 2025 paper on deep learning mangrove mapping with Kookmin University
+    authors.
+  url: https://api.openalex.org/works?filter=authorships.countries:KR,title_and_abstract.search:forest%20satellite%20deep%20learning%20mapping,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,cited_by_count,authorships
+  fetched: '2026-11-02'
+  quote: 'Enhanced Rapid Mangrove Habitat Mapping Approach to Setting Protected Areas Using
+    Satellite Indices and Deep Learning: A Case Study of the Solomon Islands'
+found_by:
+- checklist:3
+scope: kr
+status: active
+hq: unknown
+added_by: agent
+checked: '2026-11-02'

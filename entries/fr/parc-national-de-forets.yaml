@@ -1,0 +1,50 @@
+id: parc-national-de-forets
+kind: organisation
+name: Parc national de forêts
+scope: fr
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- fr
+scale: local
+status: active
+website: https://forets-parcnational.fr/
+summary: National park that runs 28 camera traps in its core area and analyses the images
+  with CNRS's DeepFaune software to identify species.
+facts:
+- claim: Runs 28 camera traps across the park, installed only in the core of the national
+    park.
+  url: https://forets-parcnational.fr/nos-actions/etudier-et-partager/le-reseau-des-pieges-photo-dans-le-parc-national-de-forets
+  fetched: '2026-11-07'
+  quote: Au total, 28 pièges photos sont placés sur l’ensemble du Parc national de forêts,
+    installés uniquement en Cœur de Parc national
+- claim: Analyses the camera trap images with DeepFaune, a CNRS software, to determine the
+    species.
+  url: https://forets-parcnational.fr/nos-actions/etudier-et-partager/le-reseau-des-pieges-photo-dans-le-parc-national-de-forets
+  fetched: '2026-11-07'
+  quote: Celle-ci se fait à l’aide d’un logiciel du CNRS, appelé « Deep Faune », aidant à
+    déterminer l’espèce qui a été photographiée.
+- claim: Its site includes a section on communes joining the park's charter.
+  url: https://forets-parcnational.fr/nos-actions/etudier-et-partager/le-reseau-des-pieges-photo-dans-le-parc-national-de-forets
+  fetched: '2026-11-07'
+  quote: Comment s'est passée l'adhésion des communes à la Charte du Parc national de forêts
+    ?
+links:
+- type: uses
+  to: deepfaune
+  url: https://forets-parcnational.fr/nos-actions/etudier-et-partager/le-reseau-des-pieges-photo-dans-le-parc-national-de-forets
+  fetched: '2026-11-07'
+  quote: Celle-ci se fait à l’aide d’un logiciel du CNRS, appelé « Deep Faune », aidant à
+    déterminer l’espèce qui a été photographiée.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

@@ -1,0 +1,33 @@
+id: silva-database
+kind: dataset
+name: SILVA
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+status: active
+website: https://www.arb-silva.de
+summary: Quality-checked and regularly updated data sets of aligned ribosomal RNA sequences for all three domains of life, used for taxonomic assignment in environmental DNA work.
+facts:
+- claim: Datasets of aligned ribosomal RNA sequences.
+  url: https://www.arb-silva.de/
+  fetched: '2026-10-30'
+  quote: SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small
+- claim: Global Core Biodata Resource.
+  url: https://www.arb-silva.de/
+  fetched: '2026-10-30'
+  quote: SILVA is a Global Core Biodata Resource and ELIXIR Core Data Resource
+links:
+- type: run-by
+  to: leibniz-institute-dsmz
+  url: https://www.arb-silva.de/
+  fetched: '2026-10-30'
+  quote: The Leibniz Institute DSMZ establishes an integrated suite of scientific databases
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

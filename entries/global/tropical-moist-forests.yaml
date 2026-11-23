@@ -1,0 +1,29 @@
+id: tropical-moist-forests
+kind: dataset
+name: Tropical Moist Forests
+also_known_as:
+- JRC TMF
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://forobs.jrc.ec.europa.eu/TMF
+summary: European Commission Joint Research Centre dataset of forest cover change in tropical moist forests, from 43 years of Landsat time series at 30 m.
+facts:
+- claim: Developed by the Joint Research Centre from 43 years of Landsat.
+  url: https://forobs.jrc.ec.europa.eu/TMF
+  fetched: '2026-10-30'
+  quote: using 43 years of Landsat time series
+links:
+- type: run-by
+  to: joint-research-centre
+  url: https://forobs.jrc.ec.europa.eu/TMF
+  fetched: '2026-10-30'
+  quote: The European Commission's Joint Research Centre developed this new dataset
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

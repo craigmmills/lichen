@@ -1,0 +1,45 @@
+id: biotablero
+kind: programme
+name: BioTablero
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- co
+summary: National biodiversity tool from the Instituto Humboldt that takes in species
+  distribution outputs and has a community-based monitoring module.
+facts:
+- claim: Has a community-based monitoring module, in code published by the Humboldt
+    Institute's knowledge directorate.
+  url: https://github.com/PEM-Humboldt
+  quote: Backend for the community base monitoring module of BioTablero
+  fetched: '2026-10-31'
+- claim: Named as a national tool that receives Humboldt's climate refugia and species
+    distribution maps.
+  url: https://proyectos.humboldt.org.co/cambioclimatico/?p=665
+  quote: to inform the Colombia Biodiversity Observation Network (Colombia BON), SIM-SINAP
+    , BioTablero , and other national tools
+  fetched: '2026-10-31'
+- claim: Listed on the institute’s tools page.
+  url: https://www.humboldt.org.co/consulta
+  fetched: '2026-10-31'
+  quote: Tablero de control de indicadores de Biodiversidad para Colombia.
+links:
+- type: run-by
+  to: instituto-humboldt
+  url: https://github.com/PEM-Humboldt
+  quote: Bienvenido a la organización de la Dirección de Conocimiento del Iinstituto
+    Humboldt
+  fetched: '2026-10-31'
+- type: run-by
+  to: instituto-humboldt
+  url: https://www.humboldt.org.co/consulta
+  fetched: '2026-10-31'
+  quote: Tablero de control de indicadores de Biodiversidad para Colombia.
+found_by:
+- checklist:2
+- link-from:instituto-humboldt
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active

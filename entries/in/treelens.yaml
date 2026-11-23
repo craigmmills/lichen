@@ -1,0 +1,66 @@
+id: treelens
+kind: model
+name: TreeLens
+also_known_as:
+- TreeLens Detectron2
+scope: in
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- in
+status: active
+summary: Open tree detection model built on Detectron2 that maps tree crowns in aerial
+  orthomosaics and estimates crown width, height and biomass.
+facts:
+- claim: Its model page describes what it detects and estimates.
+  url: https://huggingface.co/farmersforforests/TreeLens-detectron2
+  quote: It is designed to detect and map tree crowns in high-resolution aerial orthomosaics
+    and estimate tree biophysical parameters like crown width, height, and biomass
+  fetched: '2026-10-31'
+- claim: Counts and geotags trees from drone imagery and identifies species.
+  url: https://farmersforforests.org/our-technology/
+  fetched: '2026-10-31'
+  quote: TreeLens analyzes drone imagery to count and geo‑tag every tree, identify
+    species, estimate carbon sequestration, and assess health.
+- claim: Its tree detection model is built on Detectron2.
+  url: https://huggingface.co/farmersforforests/TreeLens-detectron2
+  fetched: '2026-10-31'
+  quote: built on Detectron2
+  ai_type: deep-learning
+- claim: The makers report over 90% accuracy in mature tree detection.
+  url: https://farmersforforests.org/our-technology/
+  fetched: '2026-10-31'
+  quote: showing over 90% accuracy in mature tree detection
+- claim: Counts and geo-tags trees from drone imagery and identifies species.
+  quote: TreeLens analyzes drone imagery to count and geo‑tag every tree, identify
+    species, estimate carbon sequestration, and assess health.
+  url: https://farmersforforests.com/our-technology/
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: farmers-for-forests
+  url: https://huggingface.co/farmersforforests/TreeLens-detectron2
+  quote: Developed by Farmers for Forests
+  fetched: '2026-10-31'
+- type: run-by
+  to: farmers-for-forests
+  url: https://farmersforforests.org/our-technology/
+  fetched: '2026-10-31'
+  quote: We’ve published a white paper detailing TreeLens’ AI models
+- type: run-by
+  to: farmers-for-forests
+  quote: TreeLens analyzes drone imagery to count and geo‑tag every tree
+  url: https://farmersforforests.com/our-technology/
+  fetched: '2026-10-31'
+found_by:
+- checklist:5
+- link-from:farmers-for-forests
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

@@ -1,0 +1,63 @@
+id: instituto-de-pesquisas-jardim-botanico-do-rio-de-janeiro
+kind: organisation
+name: Instituto de Pesquisas Jardim Botânico do Rio de Janeiro
+also_known_as:
+- JBRJ
+- Rio de Janeiro Botanical Garden
+- Jardim Botânico do Rio de Janeiro
+scope: br
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: br
+scale: national
+status: active
+website: https://www.gov.br/jbrj/pt-br
+summary: Federal research institute that has a laboratory coordination on the flora and fungi
+  of Brazil and hosts the National Centre for Flora Conservation (CNCFlora).
+facts:
+- claim: Its site lists CNCFlora.
+  url: https://www.gov.br/jbrj/pt-br
+  fetched: '2026-10-30'
+  quote: CNCFlora
+- claim: Has a coordination of research laboratories on Brazil's flora and fungi.
+  url: https://www.gov.br/jbrj/pt-br/composicao/diretoria-de-pesquisa-cientifica-dipeq/coordenacao-de-laboratorios-de-pesquisa-sobre-a-flora-e-funga-do-brasil
+  fetched: '2026-10-30'
+  quote: Coordenação de Laboratórios de Pesquisa sobre a Flora e Funga do Brasil
+- claim: Offers web service access to the Flora e Funga do Brasil and Reflora databases.
+  url: https://www.gov.br/jbrj/pt-br/acesso-a-informacao/dados-abertos-1/servicos-web
+  fetched: '2026-10-30'
+  quote: Consulta, via web service ao banco de dados da Flora e Funga do Brasil e Herbário
+    Virtual REFLORA
+- claim: Publishes the Catalogue of Plants of Brazil's Conservation Units on GBIF, a checklist
+    of protected flora.
+  url: https://api.gbif.org/v1/dataset/021cf0d3-aae6-417d-8682-ae535d17de89
+  fetched: '2026-10-30'
+  quote: Catálogo de Plantas das Unidades de Conservação do Brasil
+- claim: Hosts CNCFlora, the national centre for plant conservation.
+  url: https://www.gov.br/jbrj/pt-br/assuntos/conservacao/cncflora
+  fetched: '2026-10-30'
+  quote: CNCFlora
+- claim: The environment ministry's addresses page gives its head office at Rua Jardim Botânico,
+    Rio de Janeiro.
+  url: https://www.gov.br/mma/pt-br/canais_atendimento/fale-conosco
+  quote: Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ) Rua Jardim Botânico,
+    1008 Rio de Janeiro - RJ CEP 22.460-000
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: flora-e-funga-do-brasil
+  url: https://ferramentasreflora.jbrj.gov.br/noticia/nova-pagina-reflora
+  fetched: '2026-10-30'
+  quote: Novo espaço do JBRJ integra acesso a dados, publicações e conteúdos de divulgação
+    produzidos pela rede de especialistas da Flora e Funga do Brasil
+countries:
+- br

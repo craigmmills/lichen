@@ -1,0 +1,33 @@
+id: nemo-net
+kind: programme
+name: NeMO-Net
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: NASA Ames citizen science game and neural network in which players classify corals
+  to train a global coral map.
+facts:
+- claim: Players identify and classify corals in a game.
+  url: https://www.nasa.gov/?p=52526
+  fetched: '2026-10-30'
+  quote: a video game in which players identify and classify corals using these 3D images
+- claim: Ved Chirayath at Ames developed the neural network.
+  url: https://www.nasa.gov/?p=52526
+  fetched: '2026-10-30'
+  quote: Principal investigator Ved Chirayath at Ames developed the neural network behind
+    the game
+links:
+- type: run-by
+  to: nasa
+  url: https://www.nasa.gov/?p=52526
+  fetched: '2026-10-30'
+  quote: Principal investigator Ved Chirayath at Ames developed the neural network behind
+    the game
+found_by:
+- link-from:nasa
+added_by: agent
+checked: '2026-10-30'

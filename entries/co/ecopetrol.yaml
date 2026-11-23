@@ -1,0 +1,53 @@
+id: ecopetrol
+kind: organisation
+name: Ecopetrol
+sector: company
+roles:
+- funds
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+summary: Company that worked with the Colombian Air Force on the launch of FACSAT-2, to monitor
+  natural resources and greenhouse gases.
+facts:
+- claim: With the Colombian Air Force launched a satellite to measure greenhouse gases in
+    Colombia, according to Radio Nacional.
+  url: https://www.radionacional.co/actualidad/ciencia/lanzan-satelite-colombiano-para-monitorear-ecosistemas-del-pais
+  quote: Ecopetrol junto con la Fuerza Aérea Colombiana lanzaron esta madrugada desde la base
+    espacial Vandenberg
+  fetched: '2026-10-31'
+- claim: Says it makes biological records from rapid surveys, camera traps and permanent monitoring,
+    through SiB Colombia and GBIF.
+  url: https://www.ecopetrol.com.co/wps/portal/Home/sostecnibilidad/ambiental/biodiversidad/gestion-conocimiento-cultura
+  fetched: '2026-10-31'
+  quote: por medio de monitoreos rápidos de biodiversidad en Ecoreservas, estudios de impacto,
+    cámaras trampa, monitoreos permanentes
+- claim: Says products for decision-making at country scale have been generated with digital
+    tools and AI.
+  url: https://www.ecopetrol.com.co/wps/portal/Home/sostecnibilidad/ambiental/biodiversidad/gestion-conocimiento-cultura
+  fetched: '2026-10-31'
+  quote: A través del uso de herramientas digitales avanzadas e inteligencia artificial
+links:
+- type: partners-with
+  to: facsat
+  url: https://www.radionacional.co/actualidad/ciencia/lanzan-satelite-colombiano-para-monitorear-ecosistemas-del-pais
+  quote: Ecopetrol junto con la Fuerza Aérea Colombiana lanzaron esta madrugada desde la base
+    espacial Vandenberg
+  fetched: '2026-10-31'
+- type: partners-with
+  to: instituto-humboldt
+  url: https://www.ecopetrol.com.co/wps/portal/Home/sostecnibilidad/ambiental/biodiversidad/gestion-conocimiento-cultura
+  fetched: '2026-10-31'
+  quote: por medio del proyecto de Red de Ecoreservas en alianza con el Instituto Humboldt
+found_by:
+- checklist:5
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active

@@ -1,0 +1,58 @@
+id: nigerian-oil-spill-monitor
+kind: programme
+name: Nigerian Oil Spill Monitor
+scope: ng
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+countries:
+- ng
+status: active
+summary: Platform for managing and sharing oil spill data, built on paper Joint Investigation Visit records,
+  run by NOSDRA and built by Stakeholder Democracy Network, with a warning that company data can be incomplete.
+facts:
+- claim: Describes itself as a platform for managing and sharing oil spill data.
+  url: https://sdn4nigeria.github.io/monitoring-platform/about
+  fetched: '2026-11-03'
+  quote: This site is a platform for managing, visualizing, and sharing data about oil spills and the
+    oil industry across Nigeria.
+- claim: UN-SPIDER lists it as a webmap with archive and near-real-time coverage of Nigeria.
+  url: https://un-spider.org/fr/node/11304
+  fetched: '2026-11-03'
+  quote: 'Temporal coverage: Archive, Near-real time'
+- claim: Based on the paper records of Joint Investigation Visits and kept up to date by NOSDRA.
+  url: https://nosdra.oilspillmonitor.ng/data.html
+  fetched: 2026-11-03
+  quote: It is kept up to date by NOSDRA.
+- claim: The site warns that data from oil companies and others can be incomplete.
+  url: https://nosdra.oilspillmonitor.ng/data.html
+  fetched: 2026-11-03
+  quote: Data submitted by oil companies and others can also be incomplete, for example missing geolocation
+    data.
+links:
+- type: run-by
+  to: national-oil-spill-detection-and-response-agency
+  url: https://sdn4nigeria.github.io/monitoring-platform/about
+  fetched: '2026-11-03'
+  quote: Managed by the National Oil Spill Detection and Response Agency (NOSDRA), this platform enables
+    government agencies, oil companies, and civil society groups to share and collaborate around oil spill
+    data.
+- type: run-by
+  to: national-oil-spill-detection-and-response-agency
+  url: https://nosdra.oilspillmonitor.ng/data.html
+  fetched: 2026-11-03
+  quote: This initiative is managed by NOSDRA
+- type: built-by
+  to: stakeholder-democracy-network
+  url: https://nosdra.oilspillmonitor.ng/data.html
+  fetched: 2026-11-03
+  quote: It was created by Stakeholder Democracy Network with project management by WebGeospatial and
+    software development by Sentido-labs
+found_by:
+- checklist:2
+- checklist:7
+added_by: agent
+checked: '2026-11-03'
+also_known_as: []

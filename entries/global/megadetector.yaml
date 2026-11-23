@@ -1,0 +1,41 @@
+id: megadetector
+kind: model
+name: MegaDetector
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://github.com/microsoft/MegaDetector
+summary: Open-source AI model that detects animals, people and vehicles in camera trap images so that researchers can skip empty frames; it does not classify species.
+facts:
+- claim: Used by more than 80 conservation organisations worldwide, according to its repository.
+  url: https://github.com/microsoft/MegaDetector
+  fetched: &id001 2026-10-30
+  quote: Used by more than 80 conservation organizations worldwide
+- claim: It is an animal detector and not a species classifier.
+  url: https://github.com/microsoft/MegaDetector
+  fetched: *id001
+  quote: It is an animal detector, not a species classifier.
+- claim: Versions 1 to 5 were originally developed by Dan Morris at Microsoft.
+  url: https://github.com/microsoft/MegaDetector
+  fetched: *id001
+  quote: MegaDetector V1–V5 were originally developed by Dan Morris at Microsoft.
+- claim: "The MegaDetector repository is tagged deep-learning."
+  url: https://github.com/microsoft/MegaDetector
+  fetched: 2026-10-30
+  quote: "camera-traps computer-vision conservation conservation-ai deep-learning ecology"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: microsoft-ai-for-good-lab
+  url: https://github.com/microsoft/MegaDetector
+  fetched: *id001
+  quote: MegaDetector is an open-source AI model from the Microsoft AI for Good Lab
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

@@ -1,0 +1,36 @@
+id: renew
+kind: project
+name: RENEW
+scope: gb
+ai_label: ai
+realms:
+- land
+- freshwater
+status: active
+website: https://environmentalintelligence.org.uk/work/renew
+summary: Partnership with the National Trust, landowners and communities using environmental
+  intelligence decision tools to restore woodlands, wetlands and farmland across the
+  UK.
+facts:
+- claim: Partnership using decision-support tools to restore woodlands, wetlands and
+    farmland.
+  url: https://environmentalintelligence.org.uk/work/renew
+  quote: Partnership with the National Trust, landowners, businesses, and communities,
+    utilising EI driven decision-support tools
+  fetched: &id001 2026-10-30
+links:
+- type: partners-with
+  to: national-trust
+  url: https://environmentalintelligence.org.uk/work/renew
+  quote: Partnership with the National Trust
+  fetched: *id001
+- type: partners-with
+  to: centre-for-environmental-intelligence-exeter
+  url: https://environmentalintelligence.org.uk/work/renew
+  fetched: 2026-10-30
+  quote: "Environmental Intelligence theme: core ‘technical engine’ of RENEW"
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001
+runner: unknown

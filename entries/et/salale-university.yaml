@@ -1,0 +1,35 @@
+id: salale-university
+kind: organisation
+name: Salale University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University that OpenAlex lists as the affiliation of the first author of a 2025 paper
+  on explainable machine learning and cloud-based remote sensing for monitoring terrace degradation
+  and restoration.
+facts:
+- claim: OpenAlex lists a 2025 paper on explainable machine learning and cloud-based remote
+    sensing for monitoring terrace degradation and restoration in mountain landscapes.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=7
+  fetched: '2026-11-08'
+  quote: An Explainable Machine Learning and Cloud\u2010Based Remote Sensing Framework for
+    Monitoring Terrace Degradation and Restoration in Mountain Landscapes
+- claim: OpenAlex lists Gadisa Fayera Gemechu, first author of that paper, at Salale University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=7
+  fetched: '2026-11-08'
+  quote: College of Natural Sciences Salale University  Fiche Ethiopia
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,72 @@
+id: imageomics-institute
+kind: organisation
+name: Imageomics Institute
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+techniques:
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://imageomics.org
+summary: US research institute that applies machine learning to images of organisms, publisher
+  of BioCLIP, TreeOfLife-10M and biobench.
+facts:
+- claim: Institute with the strapline bringing machine learning to life.
+  url: https://github.com/Imageomics
+  fetched: '2026-10-30'
+  quote: 'Imageomics: Bringing machine learning to life.'
+- claim: The institute builds on biology-guided neural networks.
+  url: https://github.com/Imageomics
+  fetched: '2026-10-30'
+  quote: Biology-Guided Neural Networks for Discovering Phenotypic Traits
+  ai_type: deep-learning
+- claim: BioCLIP 2 is a biological foundation model.
+  url: https://github.com/Imageomics
+  fetched: '2026-10-30'
+  quote: BioCLIP 2 is a biological foundation model trained on TreeOfLife-200M.
+  ai_type: foundation-models
+- claim: Ohio State University was awarded a $15 million National Science Foundation grant
+    to lead the creation of the institute.
+  url: https://news.osu.edu/new-15-million-nsf-grant-launches-ohio-state-imageomics-institute/
+  quote: The Ohio State University has been awarded a $15 million grant from the National
+    Science Foundation to lead the creation of a new, interdisciplinary institute
+  fetched: '2026-10-30'
+- claim: The BioCLIP paper says the institute is funded under the NSF Harnessing the Data
+    Revolution programme, Award 2118240.
+  url: https://imageomics.github.io/bioclip
+  quote: the Imageomics Institute , which is funded by the US National Science Foundation's
+    Harnessing the Data Revolution (HDR) program under Award
+  fetched: '2026-10-30'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://imageomics.github.io/bioclip
+  quote: the Imageomics Institute , which is funded by the US National Science Foundation's
+    Harnessing the Data Revolution (HDR) program under Award
+  amount: 15000000
+  currency: USD
+  fetched: '2026-10-30'
+- type: led-by
+  to: ohio-state-university
+  url: https://news.osu.edu/new-15-million-nsf-grant-launches-ohio-state-imageomics-institute/
+  quote: The Ohio State University has been awarded a $15 million grant from the National
+    Science Foundation to lead the creation of a new, interdisciplinary institute
+  fetched: '2026-10-30'
+- type: partners-with
+  to: rensselaer-polytechnic-institute
+  url: https://www.eurekalert.org/news-releases/930545
+  fetched: 2026-10-30
+  quote: the project team includes biologist and computer scientist co-investigators from
+    Tulane University, Virginia Tech, Duke University and Rensselaer Polytechnic Institute
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

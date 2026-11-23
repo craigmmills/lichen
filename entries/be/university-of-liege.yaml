@@ -1,0 +1,67 @@
+id: university-of-liege
+kind: organisation
+name: University of Liège
+also_known_as:
+- ULiège
+- Université de Liège
+scope: be
+sector: academic
+roles:
+- builds-ai
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+hq: be
+countries:
+- be
+scale: national
+status: active
+summary: University with work on mapping tree species proportions from Sentinel-2 using a
+  convolutional neural network, and strategic AI and satellite image support to Conservation
+  From the Sky.
+ai_types:
+- deep-learning
+facts:
+- claim: A University of Liège paper proposes a convolutional neural network to map tree species
+    proportions from Sentinel-2.
+  url: https://orbi.uliege.be/handle/2268/294969
+  fetched: 2026-11-02
+  quote: A convolutional neural network was usedto quantify the per-pixel basal area proportions
+    of tree species
+  ai_type: deep-learning
+- claim: Its Laboratory of Functional and Evolutionary Morphology is listed on the MOOBYF
+    project.
+  url: https://www.biodiversa.eu/2024/04/15/moobyf/
+  fetched: '2026-11-02'
+  quote: Laboratory of Functional and Evolutionary Morphology, University of Liège, Liège,
+    Belgium
+- claim: Gives strategic support to Conservation From the Sky on AI and satellite image analysis.
+  url: https://asfbelgium.org/en/our-projects/conservation-from-the-sky/conservation-from-the-sky
+  fetched: '2026-11-02'
+  quote: The programme benefits from strategic support from the University of Liège – Gembloux
+    Agro-Bio Tech for artificial intelligence and satellite image analysis
+links:
+- type: partners-with
+  to: moobyf
+  url: https://www.biodiversa.eu/2024/04/15/moobyf/
+  fetched: '2026-11-02'
+  quote: Laboratory of Functional and Evolutionary Morphology, University of Liège, Liège,
+    Belgium
+- type: partners-with
+  to: conservation-from-the-sky
+  url: https://www.pairidaiza.eu/en/together-for-the-animals/foundation-vision/fondation-projects/conservation-from-the-sky/
+  fetched: '2026-11-02'
+  quote: with Aviation Sans Frontières Belgium and the University of Liège – Gembloux Agro-Bio
+    Tech
+found_by:
+- checklist:3
+- link-from:moobyf
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

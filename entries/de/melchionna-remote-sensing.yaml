@@ -1,0 +1,33 @@
+id: melchionna-remote-sensing
+kind: organisation
+name: Melchionna - Remote Sensing
+scope: de
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Company listed by the CopWald service as active in forest remote sensing, with a
+  stated field of satellite-based thematic maps of deforestation, vegetation and forest fire.
+facts:
+- claim: Listed by the CopWald service as a provider active in forest remote sensing.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hier ist eine alphabetische Liste von Behörden und kommerziellen Dienstleistern,
+    die im Bereich Wald-Fernerkundung tätig sind.
+- claim: CopWald gives its field as satellite-based thematic maps, with land-use maps of deforestation,
+    vegetation and forest fire.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: 'Erstellung satellitenbasierter thematischer Karten Leistungen: Thematische Landnutzungskarten:
+    Entwaldung, Vegetation, Waldbrand'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

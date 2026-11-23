@@ -1,0 +1,53 @@
+id: agricultural-research-education-and-extension-organization
+kind: organisation
+name: Agricultural Research, Education and Extension Organization
+also_known_as:
+- AREEO
+- Agricultural Research & Education Organization
+scope: ir
+sector: government
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: ir
+scale: national
+status: active
+website: http://www.areo.ir/
+summary: Organisation in Iran, headed by a deputy minister, whose authors appear in OpenAlex
+  on 2023 and 2026 machine learning papers on Hyrcanian forest biodiversity.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2023 machine learning paper: Machine learning
+    prediction of tree species diversity using forest structure and environmental factors:
+    a case study from the Hyrcanian forest, Iran.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: 'Machine learning prediction of tree species diversity using forest structure and
+    environmental factors: a case study from the Hyrcanian forest, Iran'
+- claim: 'Its authors are listed by OpenAlex on a 2026 machine learning paper: Interpretable
+    metaheuristic-optimized machine learning for predicting biodiversity indices in the Hyrcanian
+    forest.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Interpretable metaheuristic-optimized machine learning for predicting biodiversity
+    indices in the Hyrcanian forest
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Research Institute of Forests and Rangelands, Agricultural Research, Education and
+    Extension Organization (AREEO), Tehran, 1496793612, Iran
+- claim: Its own site names the organisation.
+  url: http://www.areo.ir/
+  fetched: '2026-11-03'
+  quote: کلیه حقوق این وب سایت متعلق به سازمان تحقیقات، آموزش و ترویج کشاورزی می باشد.
+- claim: Its site heads the organisation with a deputy minister who is head of the organisation.
+  url: http://www.areo.ir/
+  fetched: '2026-11-03'
+  quote: معاون وزیر و رئيس سازمان
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

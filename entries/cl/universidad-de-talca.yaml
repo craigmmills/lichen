@@ -1,0 +1,31 @@
+id: universidad-de-talca
+kind: organisation
+name: Universidad de Talca
+scope: cl
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: cl
+scale: national
+status: active
+website: http://www.utalca.cl/
+summary: University with an address in Talca, listed in OpenAlex with a first author on a
+  2021 paper assessing forest degradation using multivariate and machine-learning methods.
+facts:
+- claim: OpenAlex lists a Universidad de Talca author first on a 2021 paper assessing forest
+    degradation with multivariate and machine-learning methods.
+  url: https://api.openalex.org/works/W3213604232?select=display_name,publication_year,authorships
+  fetched: 2026-11-02
+  quote: Assessing forest degradation using multivariate and machine
+- claim: Gives an address in Talca.
+  url: http://www.utalca.cl/
+  fetched: 2026-11-02
+  quote: Av. Lircay s/n, Talca - Chile
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: 2026-11-02

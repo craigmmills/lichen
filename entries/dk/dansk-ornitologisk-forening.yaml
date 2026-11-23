@@ -1,0 +1,96 @@
+id: dansk-ornitologisk-forening
+kind: organisation
+name: Dansk Ornitologisk Forening
+also_known_as:
+- DOF BirdLife
+- DOF
+- Dansk Ornitologisk Forening
+- Danish Ornithological Society
+- BirdLife Denmark
+scope: dk
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: dk
+scale: national
+status: active
+website: https://www.dof.dk
+summary: Danish partner in BirdLife International, a Copenhagen NGO of about 16,000 members
+  that runs DOFbasen and in May 2024 reported developing a point count recording app.
+facts:
+- claim: Danish partner in BirdLife International.
+  url: https://www.dof.dk/images/projekter/atlas3/dokumenter/132709_Atlasfolder.pdf
+  fetched: '2026-11-02'
+  quote: DOF er den danske partner i BirdLife International.
+- claim: The 2017 agreement required DOF to carry out the point count programme during 2018–2020.
+  url: https://pub.dof.dk/notater/6/download/2017-aftale-mellem-dansk-ornitologisk-forening-og-miljoe-og-foedevareministeriet-om-samarbejde-om-bevaring-og-overvaagning-af-fugle-2018-2020
+  fetched: '2026-11-02'
+  quote: DOF gennemfører punkttællingsprogrammet i overensstemmelse med rapporten
+- claim: Atlas III was its third mapping of the distribution of Danish birds.
+  url: https://www.dof.dk/images/projekter/atlas3/dokumenter/132709_Atlasfolder.pdf
+  fetched: '2026-11-02'
+  quote: Atlas III - Dansk Ornitologisk Forening
+- claim: Its own site lists the point count programme among its questions and answers.
+  url: https://www.dof.dk/om-dof/nyheder?nyhed_id=2299
+  fetched: '2026-11-02'
+  quote: Hvad er punkttællingsprogrammet, og hvad fortæller det os?
+- claim: An NGO of about 16,000 members.
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: DOF is a NGO with ca. 16,000 members
+- claim: Collects data on birds through volunteers.
+  url: https://www.dof.dk
+  fetched: '2026-11-02'
+  quote: Gennem frivillighed og samarbejde indsamler vi data om fugle
+- claim: GBIF's record gives an address in Copenhagen.
+  url: https://api.gbif.org/v1/organization/8b734449-479a-4924-8f7a-9a2a64112f8f
+  fetched: '2026-11-02'
+  quote: Vesterbrogade 140
+- claim: Address in Copenhagen.
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: DOF Vesterbrogade 140 1620
+- claim: Founded in 1906.
+  url: https://www.dof.dk/en/about-us
+  fetched: &id001 2026-11-02
+  quote: Founded in 1906, DOF BirdLife, is one of the oldest nature conservation organizations
+    in Denmark
+- claim: Says almost 2,000 volunteers work on fieldwork and bird data.
+  url: https://www.dof.dk/en/about-us
+  fetched: *id001
+  quote: Engaging almost 2,000 volunteers in day-to-day fieldwork and collation of bird data
+- claim: In May 2024, reported developing an app for recording birds on point counts in the
+    field.
+  url: https://www.dof.dk/om-dof/nyheder?nyhed_id=2266
+  fetched: *id001
+  quote: har Dansk Ornitologisk Forening (DOF BirdLife) udviklet en app, der kan downloades
+    og bruges til at indtaste de fugle, man ser og hører på en punkttælling
+- claim: In May 2024, said about 500 members had taken part in annual point counts in the
+    preceding years.
+  url: https://www.dof.dk/om-dof/nyheder?nyhed_id=2266
+  fetched: *id001
+  quote: Rundt regnet 500 af DOF’s medlemmer har de senere år deltaget i de årlige punkttællinger
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:global-biodiversity-information-facility
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+links:
+- type: runs
+  to: dofbasen
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: DOFbasen is an online database for bird observations in Denmark (www.dofbasen.dk),
+    administrated by Dansk Ornitologisk Forening DOF/BirdLife Denmark.
+- type: partners-with
+  to: birdlife-international
+  url: https://www.dof.dk/en/about-us
+  fetched: *id001
+  quote: a fully-fledged member of BirdLife International

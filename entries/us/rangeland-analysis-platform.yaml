@@ -1,0 +1,50 @@
+id: rangeland-analysis-platform
+kind: programme
+name: Rangeland Analysis Platform
+also_known_as:
+- RAP
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://rangelands.app
+summary: Online platform combining satellite imagery with field vegetation measurements
+  from BLM, NPS and NRCS, using cloud computing and machine learning to map US rangeland
+  vegetation.
+facts:
+- claim: Combines satellite imagery with field measurements using machine learning.
+  url: https://rangelands.app/
+  fetched: '2026-10-30'
+  quote: The Rangeland Analysis Platform combines satellite imagery with thousands
+    of on-the-ground vegetation measurements collected by BLM, NPS, and NRCS.
+- claim: The platform combines satellite imagery with field measurements and uses
+    cloud computing and machine learning to map US vegetation.
+  url: https://rangelands.app/
+  quote: The power of cloud computing and machine learning technology allows the platform
+    to easily map vegetation across the United States.
+  fetched: '2026-10-30'
+- claim: The 30 metre cover estimates combine 75,000 field plots with the Landsat
+    record.
+  url: https://rangelands.app/products
+  quote: The estimates were produced by combining 75,000 field plots collected by
+    BLM, NPS, and NRCS with the historical Landsat satellite record.
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: run-by
+  to: university-of-montana
+  url: https://www.tdworld.com/vegetation-management/tools-technology/article/20972116/technology-revolutionizes-rangeland-monitoring
+  fetched: '2026-10-30'
+  quote: Created by the University of Montana in partnership with USDA and U.S. Department
+    of Interior (DOI)
+- type: builds-on
+  to: landsat
+  url: https://rangelands.app/products
+  quote: the historical Landsat satellite record
+  fetched: '2026-10-30'

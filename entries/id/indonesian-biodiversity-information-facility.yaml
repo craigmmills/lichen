@@ -1,0 +1,58 @@
+id: indonesian-biodiversity-information-facility
+kind: dataset
+name: Indonesian Biodiversity Information Facility
+also_known_as:
+- InaBIF
+- Indonesia Biodiversity Information Facilities
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+countries:
+- id
+status: active
+summary: GBIF national node for Indonesia, listed with Observer status and an address
+  at Cibinong Science Center. GBIF's record names no current host.
+facts:
+- claim: GBIF's registry gives this as Indonesia's country node, with Observer status.
+  url: https://api.gbif.org/v1/node/country/ID
+  fetched: '2026-10-31'
+  quote: '"participationStatus":"OBSERVER"'
+- claim: GBIF lists the node title.
+  url: https://api.gbif.org/v1/node/country/ID
+  fetched: '2026-10-31'
+  quote: '"title":"Indonesian Biodiversity Information Facility"'
+- claim: GBIF lists the address at Cibinong Science Center.
+  url: https://api.gbif.org/v1/node/country/ID
+  fetched: '2026-10-31'
+  quote: Cibinong Science Center
+- claim: 'An article on F1000 says the Indonesian Institute of Sciences launched it.'
+  url: https://www.f1000.com/open_thinking/open-research-management-for-biodiversity/
+  fetched: '2026-10-31'
+  quote: 'the Indonesian Institute of Sciences, currently under the National Research and Innovation Agency (BRIN), launched the Indonesia Biodiversity Information Facility (InaBIF)'
+- claim: Wikipedia says LIPI fused into BRIN.
+  url: https://en.wikipedia.org/wiki/Indonesian_Institute_of_Sciences
+  fetched: '2026-10-31'
+  quote: All of those agencies fused into the newly formed National Research and Innovation
+    Agency
+- claim: Named in the national biodiversity strategy's list of abbreviations.
+  url: https://www.cbd.int/doc/world/id/id-nbsap-v4-id.pdf
+  fetched: '2026-10-31'
+  quote: InaBIF Indonesia Biodiversity Information Facilities
+- claim: Listed in the strategy as a BRIN website with inactive status.
+  url: https://www.cbd.int/doc/world/id/id-nbsap-v4-id.pdf
+  fetched: '2026-10-31'
+  quote: InaBIF Website BRIN Tidak Aktif
+found_by:
+- checklist:2
+- keyword:id-b
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: run-by
+  to: badan-riset-dan-inovasi-nasional
+  url: https://www.cbd.int/doc/world/id/id-nbsap-v4-id.pdf
+  fetched: '2026-10-31'
+  quote: InaBIF Website BRIN Tidak Aktif

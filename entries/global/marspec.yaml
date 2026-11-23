@@ -1,0 +1,26 @@
+id: marspec
+kind: dataset
+name: MARSPEC
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+techniques:
+- species-distribution
+summary: Ocean climate layers for marine spatial ecology.
+facts:
+- claim: Published as ocean climate layers for marine spatial ecology by Sbrocco and Barber.
+  url: https://www.esapubs.org/archive/ecol/E094/086
+  quote: 'MARSPEC: Ocean climate layers for marine spatial ecology'
+  fetched: '2026-10-30'
+links:
+- type: led-by
+  to: elizabeth-j-sbrocco
+  url: https://www.esapubs.org/archive/ecol/E094/086
+  quote: Elizabeth J. Sbrocco and Paul H. Barber
+  fetched: '2026-10-30'
+found_by:
+- link-from:bio-oracle
+added_by: agent
+checked: '2026-10-30'

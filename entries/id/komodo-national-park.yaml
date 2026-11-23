@@ -1,0 +1,50 @@
+id: komodo-national-park
+kind: organisation
+name: Komodo National Park
+also_known_as:
+- Balai Taman Nasional Komodo
+- BTNK
+scope: id
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: unknown
+scale: local
+status: active
+summary: National park run by the forestry directorate; CNBC Indonesia reports the
+  ministry citing monitoring with Yayasan Komodo Survival Program, including Padar
+  island population estimates, with 2025 data still being analysed.
+facts:
+- claim: CNBC Indonesia reports the ministry citing monitoring by the park office
+    with Yayasan Komodo Survival Program, including population estimates with confidence
+    intervals for Padar island.
+  url: https://www.cnbcindonesia.com/news/20250916110555-4-667319/kementerian-kehutanan-pastikan-tn-komodo-dikelola-sesuai-prosedur
+  fetched: '2026-11-09'
+  quote: mengacu pada monitoring yang dilakukan Balai Taman Nasional Komodo bersama
+    Yayasan Komodo Survival Program (KSP)
+- claim: CNBC Indonesia reports that 2025 monitoring data were still being analysed
+    before release.
+  url: https://www.cnbcindonesia.com/news/20250916110555-4-667319/kementerian-kehutanan-pastikan-tn-komodo-dikelola-sesuai-prosedur
+  fetched: '2026-11-09'
+  quote: pengungkapan data hasil monitoring tahun 2025 ke publik masih menunggu hasil
+    analisis keseluruhan.
+links:
+- type: run-by
+  to: direktorat-jenderal-ksdae
+  url: https://ksdae.kehutanan.go.id/
+  fetched: '2026-11-09'
+  quote: Balai TN Komodo
+- type: partners-with
+  to: komodo-survival-program
+  url: https://www.cnbcindonesia.com/news/20250916110555-4-667319/kementerian-kehutanan-pastikan-tn-komodo-dikelola-sesuai-prosedur
+  fetched: '2026-11-09'
+  quote: monitoring yang dilakukan Balai Taman Nasional Komodo bersama Yayasan Komodo
+    Survival Program (KSP)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

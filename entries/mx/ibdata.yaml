@@ -1,0 +1,40 @@
+id: ibdata
+kind: dataset
+name: IBdata
+scope: mx
+ai_label: data-infrastructure
+countries:
+- mx
+status: active
+summary: A web system, built and run by the Unidad de Informática para la Biodiversidad, for viewing records
+  of the Instituto de Biología (UNAM) national collections, giving access to more than 1.7 million specimens,
+  mainly from Mexico.
+facts:
+- claim: A web system for viewing records of the national collections held by the Instituto de Biología,
+    UNAM.
+  url: https://www.ib.unam.mx/ib/unidades-servicio/unibio/
+  fetched: 2026-11-03
+  quote: IBdata es un sistema web que permite visualizar los registros de las Colecciones Nacionales resguardadas
+    por el Instituto de Biología de la UNAM.
+- claim: Gives access to more than 1.7 million specimens, mainly collected in Mexico.
+  url: https://www.ib.unam.mx/ib/unidades-servicio/unibio/
+  fetched: 2026-11-03
+  quote: Actualmente se provee acceso a más de 1.7 millones de ejemplares, principalmente colectados en
+    México.
+links:
+- type: built-by
+  to: unidad-de-informatica-para-la-biodiversidad
+  url: https://www.ib.unam.mx/ib/unidades-servicio/unibio/
+  fetched: 2026-11-03
+  quote: La plataforma web IBdata desarrollada por la UNIBIO permite la consulta de la información para
+    investigación o difusión.
+- type: run-by
+  to: unidad-de-informatica-para-la-biodiversidad
+  url: https://www.ib.unam.mx/ib/unidades-servicio/unibio/
+  fetched: 2026-11-03
+  quote: Administración de la base de datos de las colecciones biológicas del IBUNAM, incluyendo captura
+    y digitalización.
+found_by:
+- link-from:unidad-de-informatica-para-la-biodiversidad
+added_by: agent
+checked: 2026-11-03

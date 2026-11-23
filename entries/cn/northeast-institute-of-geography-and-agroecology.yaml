@@ -1,0 +1,55 @@
+id: northeast-institute-of-geography-and-agroecology
+kind: organisation
+name: Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences
+also_known_as:
+- 中国科学院东北地理与农业生态研究所
+- 东北地理所
+scope: cn
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- freshwater
+- ocean
+- land
+techniques:
+- remote-sensing
+scale: national
+website: https://iga.cas.cn
+hq: unknown
+status: active
+countries:
+- cn
+summary: A Chinese Academy of Sciences institute that has mapped China's wetlands from Landsat
+  images and mapped mangrove canopy height at 10 metres with an XGBoost model.
+facts:
+- claim: Its team mapped Chinese coastal mangrove canopy height at 10 metres using an XGBoost
+    regression model.
+  ai_type: ml-supervised
+  url: https://iga.cas.cn/news/research/202504/t20250402_7586341.html
+  fetched: '2026-10-31'
+  quote: 基于 XGBoost 回归模型率先绘制了 10 米空间分辨率中国滨海红树林冠层高度数据集（ CMCH ）
+- claim: Its wetland remote sensing team built a 30 metre national wetland dataset from more
+    than 53,000 Landsat scenes.
+  url: https://neigae.cas.cn/news/cmsm/202502/t20250227_7535552.html
+  fetched: '2026-10-31'
+  quote: 构建了30米空间分辨率的中国国家尺度湿地空间分布数据集(China_Wetlands)
+links:
+- type: runs
+  to: china-wetlands-dataset
+  url: https://neigae.cas.cn/news/cmsm/202502/t20250227_7535552.html
+  fetched: '2026-10-31'
+  quote: 构建了30米空间分辨率的中国国家尺度湿地空间分布数据集(China_Wetlands)
+- type: runs
+  to: china-mangrove-canopy-height-dataset
+  url: https://iga.cas.cn/news/research/202504/t20250402_7586341.html
+  fetched: '2026-10-31'
+  quote: 基于 XGBoost 回归模型率先绘制了 10 米空间分辨率中国滨海红树林冠层高度数据集（ CMCH ）
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

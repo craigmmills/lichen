@@ -1,0 +1,31 @@
+id: zoobank
+kind: dataset
+name: ZooBank
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+status: active
+website: https://www.iczn.org/zoobank/
+summary: Official registry of zoological nomenclature, recording publications, authors and names. zoobank.org refuses the fetcher, so this rests on the ICZN's pages.
+facts:
+- claim: The official registry of zoological nomenclature.
+  url: https://www.iczn.org/zoobank/
+  quote: ZooBank is the official registry of Zoological Nomenclature, according to the International Commission on Zoological Nomenclature (ICZN)
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: international-commission-on-zoological-nomenclature
+  url: https://www.iczn.org/assets/About/5d5a317ab3/ICZN-Constitution-2022.pdf
+  quote: The Commission shall maintain ZooBank, the Official Register of Zoological Nomenclature.
+  fetched: '2026-10-31'
+- type: partners-with
+  to: plazi
+  url: https://plazi.org/about/partners/
+  quote: Zoobank and Plazi cooperate in linking nomenclatorial acts
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

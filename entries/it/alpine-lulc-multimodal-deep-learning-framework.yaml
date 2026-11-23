@@ -1,0 +1,61 @@
+id: alpine-lulc-multimodal-deep-learning-framework
+kind: model
+name: A Multi-Modal Deep Learning Framework for High-Resolution Alpine Land Use/Land
+  Cover
+scope: it
+ai_label: ai
+ai_types:
+- deep-learning
+- multimodal
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+summary: A deep learning model for high-resolution Alpine land use and land cover
+  maps, built by ARPA Valle d'Aosta, Politecnico di Torino and DigiSky, fusing several
+  data types and reaching a mIoU of 0.777 across 14 classes.
+facts:
+- claim: Developed by ARPA Valle d'Aosta with the Politecnico di Torino and DigiSky,
+    and published in Remote Sensing.
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: sviluppato da ARPA Valle d'Aosta insieme al Politecnico di Torino e a DigiSky
+  ai_type: deep-learning
+- claim: Combines several kinds of information about the same ground; the multimodal
+    fusion is the core of the method.
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: Questa fusione multimodale è il cuore del metodo.
+  ai_type: multimodal
+- claim: Experts drew 2,517 polygons on the orthophotos and the model inferred the
+    rest.
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: Qui gli esperti hanno tracciato sulle ortofoto 2.517 poligoni, ciascuno associato
+    a una classe, e il modello ha dedotto da solo il resto
+- claim: Reaches a mIoU of 0.777 across the 14 classes.
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: Sulle 14 classi il modello raggiunge 0,777
+links:
+- type: built-by
+  to: arpa-valle-d-aosta
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: sviluppato da ARPA Valle d'Aosta insieme al Politecnico di Torino e a DigiSky
+- type: built-by
+  to: politecnico-di-torino
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: sviluppato da ARPA Valle d'Aosta insieme al Politecnico di Torino e a DigiSky
+- type: built-by
+  to: digisky
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: sviluppato da ARPA Valle d'Aosta insieme al Politecnico di Torino e a DigiSky
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

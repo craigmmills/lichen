@@ -1,0 +1,34 @@
+id: oso-land-cover
+kind: dataset
+name: OSO land cover map
+also_known_as:
+- Occupation des Sols
+- Cartographie de l'occupation du sol OSO
+scope: fr
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Land cover map of France produced by automatic classification of Sentinel-2
+  image time series by CESBIO, within the Theia hub.
+facts:
+- claim: Produced by automatic classification of Sentinel-2 time series by CESBIO
+    in the Theia hub.
+  url: https://www.data.gouv.fr/datasets/cartographie-de-loccupation-du-sol-oso
+  quote: Cette cartographie de l'occupation du sol est produite par classification
+    automatique de séries temporelles d'images optiques Sentinel-2 par l'UMR CESBIO
+    dans le cadre du CES OSO du pôle Theia.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: cesbio
+  url: https://www.data.gouv.fr/datasets/cartographie-de-loccupation-du-sol-oso
+  quote: est produite par classification automatique de séries temporelles d'images
+    optiques Sentinel-2 par l'UMR CESBIO
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,53 @@
+id: deforestation-prediction-system
+kind: model
+name: Deforestation Prediction System
+also_known_as:
+- Sistema de Previsão de Desmatamento na Amazônia
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+website: https://terrabrasilis.dpi.inpe.br
+summary: AI model on TerraBrasilis that forecasts the areas at highest risk of deforestation
+  and burning in the Amazon up to 15 days ahead, made by INPE, the environment ministry, Ibama
+  and PUC-Rio.
+facts:
+- claim: The update comes from a partnership of INPE, the environment ministry, IBAMA and
+    PUC-Rio.
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-de-prevencao-a-desmatamentos-na-amazonia-e-atualizado-e-fica-ainda-mais-preciso
+  fetched: '2026-10-30'
+  quote: fruto de uma parceria entre o INPE, o MMA, o Instituto Brasileiro do Meio Ambiente
+    e dos Recursos Naturais Renováveis (Ibama) e a PUC-Rio
+- claim: Said to reduce about 75% of the errors of the earlier version.
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-de-prevencao-a-desmatamentos-na-amazonia-e-atualizado-e-fica-ainda-mais-preciso
+  fetched: '2026-10-30'
+  quote: reduziu cerca de 75% dos erros da versão anterior
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-de-prevencao-a-desmatamentos-na-amazonia-e-atualizado-e-fica-ainda-mais-preciso
+  fetched: '2026-10-30'
+  quote: O Instituto Nacional de Pesquisas Espaciais (INPE) realizou uma nova atualização
+    no seu sistema para previsão de desmatamento na Amazônia.
+- type: partners-with
+  to: pontificia-universidade-catolica-do-rio-de-janeiro
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-de-prevencao-a-desmatamentos-na-amazonia-e-atualizado-e-fica-ainda-mais-preciso
+  fetched: '2026-10-30'
+  quote: fruto de uma parceria entre o INPE, o MMA, o Instituto Brasileiro do Meio Ambiente
+    e dos Recursos Naturais Renováveis (Ibama) e a PUC-Rio
+- type: partners-with
+  to: instituto-brasileiro-do-meio-ambiente-e-dos-recursos-naturais-renovaveis
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-de-prevencao-a-desmatamentos-na-amazonia-e-atualizado-e-fica-ainda-mais-preciso
+  fetched: '2026-10-30'
+  quote: fruto de uma parceria entre o INPE, o MMA, o Instituto Brasileiro do Meio Ambiente
+    e dos Recursos Naturais Renováveis (Ibama) e a PUC-Rio
+found_by:
+- link-from:food-and-agriculture-organization
+- checklist:1
+added_by: agent
+checked: '2026-10-30'

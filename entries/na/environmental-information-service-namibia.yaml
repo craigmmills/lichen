@@ -1,0 +1,57 @@
+id: environmental-information-service-namibia
+kind: dataset
+name: Environmental Information Service
+also_known_as:
+- EIS
+- EIS Namibia
+- Environmental Information Service of Namibia
+scope: na
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- na
+status: active
+website: https://the-eis.com/
+summary: Public environmental information service for Namibia, funded by the Namibian Chamber of Environment
+  and built and run by JARO Consultancy, with biodiversity atlasing, a bird information system and a free
+  GIS e-library.
+facts:
+- claim: Describes itself as a one-stop shop for public environmental information in Namibia, providing
+    data directly and linking to other sources.
+  url: https://the-eis.com/elibrary/about-us
+  fetched: 2026-11-08
+  quote: The Environmental Information Service is Namibia's 'one-stop shop' for public environmental information,
+    both through providing data directly and by providing links to other sources of information.
+- claim: Its components include biodiversity atlasing and a bird information system.
+  url: https://the-eis.com/elibrary/about-us
+  fetched: 2026-11-08
+  quote: BIODIVERSITY ATLASING
+- claim: Its e-library includes GIS data and other environmental information, free to download.
+  url: https://the-eis.com/elibrary/about-us
+  fetched: 2026-11-08
+  quote: This includes literature, reports, GIS data and other environmental information.
+links:
+- type: funded-by
+  to: namibian-chamber-of-environment
+  url: https://the-eis.com/elibrary/about-us
+  fetched: 2026-11-08
+  quote: From August 2016 the development of the Environmental Information Service has been supported
+    through funding from the Namibian Chamber of Environment (NCE)
+- type: built-by
+  to: jaro-consultancy
+  url: https://the-eis.com/elibrary/about-us
+  fetched: &id001 2026-11-08
+  quote: EIS Namibia is developed and maintained by JARO Consultancy
+- type: run-by
+  to: jaro-consultancy
+  url: https://the-eis.com/elibrary/about-us
+  fetched: *id001
+  quote: 'EIS Namibia is developed and maintained by
+
+    JARO Consultancy'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

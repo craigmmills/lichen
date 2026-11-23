@@ -1,0 +1,38 @@
+id: tmsi-acoustic-research-laboratory
+kind: organisation
+name: Acoustic Research Laboratory, Tropical Marine Science Institute
+scope: sg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- sg
+scale: national
+status: active
+summary: Tropical Marine Science Institute laboratory listed by OpenAlex as lead affiliation
+  on a 2024 paper on a cloud-enabled passive acoustic monitoring array for detecting
+  marine mammals in real time, with NParks' Karenne Tun as last author.
+facts:
+- claim: Lead (first-author) affiliation on a 2024 paper on a cloud-enabled passive
+    acoustic monitoring array for detecting marine mammals in real time, per OpenAlex;
+    NParks' Karenne Tun is the last author.
+  url: https://api.openalex.org/works/W4404688923?select=authorships
+  fetched: 2026-11-12
+  quote: Tropical Marine Science Institute, National University of Singapore,Acoustic
+    Research Laboratory
+- claim: OpenAlex lists the paper's title.
+  url: https://api.openalex.org/works?filter=institutions.country_code:SG,from_publication_date:2022-01-01,title.search:acoustic%20monitoring&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: Cloud-Enabled Passive Acoustic Monitoring Array for Real-Time Detection of
+    Marine Mammals
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

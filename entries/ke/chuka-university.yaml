@@ -1,0 +1,34 @@
+id: chuka-university
+kind: organisation
+name: Chuka University
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: ke
+website: https://www.chuka.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university whose computer scientists publish on deep learning for wildlife
+  identification.
+facts:
+- claim: Authors there compared ResNet-101 and Inception v3 for wildlife object detection.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:%22deep%20learning%22%20wildlife&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: A Comparative Evaluation of ResNet-101 and Inception v3 Architectures for Wildlife
+    Object Detection
+  fetched: &id001 2026-10-31
+- claim: Its Vice Chancellor's office gives Ndagani Main Campus, P.O. Box 109, Chuka.
+  url: https://vc.chuka.ac.ke/?p=6421
+  fetched: '2026-10-31'
+  quote: P.O. BOX 109 CHUKA, 60400, CHUKA
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

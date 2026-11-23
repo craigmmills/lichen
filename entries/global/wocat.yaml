@@ -1,0 +1,38 @@
+id: wocat
+kind: organisation
+name: WOCAT
+also_known_as:
+- World Overview of Conservation Approaches and Technologies
+scope: global
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+scale: global
+status: active
+website: https://wocat.net
+summary: Global network launched in 1992 that documents sustainable land management. The UNCCD
+  recognises its Global SLM Database as its primary recommended database.
+facts:
+- claim: Launched in 1992 as a global network on sustainable land management.
+  url: https://wocat.net/en/about-wocat/
+  quote: Launched in 1992, The World Overview of Conservation Approaches and Technologies
+    (WOCAT) is a global Network
+  fetched: '2026-10-31'
+- claim: ISRIC is a consortium member.
+  url: https://isric.org/about/partnerships-and-memberships/
+  quote: ISRIC is a consortium member and active partner of WOCAT
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: isric-world-soil-information
+  url: https://isric.org/about/partnerships-and-memberships/
+  quote: ISRIC is a consortium member and active partner of WOCAT
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

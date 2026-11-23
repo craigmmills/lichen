@@ -1,0 +1,138 @@
+id: sovon-vogelonderzoek-nederland
+kind: organisation
+name: Sovon Vogelonderzoek Nederland
+also_known_as:
+- Sovon
+- Sovon Dutch Centre for Field Ornithology
+- Dutch Centre for Field Ornithology
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: nl
+scale: national
+status: active
+website: https://www.sovon.nl/
+summary: Provides knowledge on the numbers, distribution and ecology of bird populations in
+  the Netherlands, coordinates national bird monitoring schemes, and has tested AudioMoth
+  recorders for passive acoustic monitoring.
+scope: nl
+facts:
+- claim: Says it provides society with knowledge of bird populations in the Netherlands.
+  url: https://www.sovon.nl/
+  fetched: '2026-10-31'
+  quote: Sovon voorziet de maatschappij van kennis over aantallen, verspreiding en ecologie
+    van vogelpopulaties in Nederland
+- claim: Statistics Netherlands lists it as field coordinator of the breeding bird network.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Broedvogels SOVON 1990
+- claim: Tested the AudioMoth recorder in the field.
+  url: https://www.sovon.nl/sites/default/files/2024-02/PAM%20Sovon%20Nieuws%203-2023.pdf
+  fetched: '2026-10-31'
+  quote: Sovon nam de proef op de som met een test in het
+- claim: With thousands of volunteers, maps developments in bird numbers and distribution.
+  url: https://www.sovon.nl/en
+  fetched: &id001 2026-10-31
+  quote: Samen met duizenden vrijwilligers brengt Sovon de ontwikkelingen in aantallen en
+    verspreiding van vogels in kaart.
+- claim: Runs the coming Vogelatlas counts from December 2026 to November 2030.
+  url: https://www.sovon.nl/en
+  fetched: *id001
+  quote: Van 1 december 2026 tot en met 30 november 2030 brengen honderden vogelaars de verspreiding
+    van wintervogels, broedvogels en jaarrondvogels in kaart.
+- claim: Based in Nijmegen.
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: *id001
+  quote: Sovon Dutch Centre for Field Ornithology, Nijmegen, Netherlands
+- claim: Maps bird numbers and distribution with thousands of volunteers.
+  url: https://www.sovon.nl/over-sovon
+  fetched: '2026-10-31'
+  quote: Samen met duizenden vrijwilligers brengt Sovon de ontwikkelingen in aantallen en
+    verspreiding van vogels in kaart.
+- claim: Has about 80 staff under a management team.
+  url: https://sovon.nl/over-sovon/medewerkers
+  fetched: '2026-10-31'
+  quote: Sovon heeft circa 80 medewerkers in dienst.
+- claim: In 2024 ran a pilot with Lumax from which a machine learning model was developed.
+  url: https://sovon.nl/actueel/nieuwsberichten/vogelgriep-detecteren-met-behulp-van-drones
+  fetched: '2026-10-31'
+  quote: In 2024 heeft Sovon samen met Eelke Folmer van Lumax een pilotproject uitgevoerd
+- claim: The model can recognise several kinds of chicks and dead birds.
+  url: https://sovon.nl/actueel/nieuwsberichten/vogelgriep-detecteren-met-behulp-van-drones
+  fetched: '2026-10-31'
+  quote: Hieruit is een machine learning-model ontwikkeld, dat inmiddels verschillende soorten
+    kuikens en dode vogels kan herkennen.
+- claim: Coordinates fieldwork for several Netwerk Ecologische Monitoring bird networks.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: SOVON
+- claim: Describes itself as the knowledge centre for the distribution and trends of wild
+    birds in the Netherlands.
+  url: https://www.sovon.nl/en
+  fetched: '2026-10-31'
+  quote: Sovon is het kenniscentrum voor verspreiding en trends van in het wild levende vogels
+    in Nederland.
+- claim: Ran a passive acoustic monitoring pilot in which recordings were scored automatically
+    by BirdNET and by hand.
+  url: https://www.sovon.nl/sites/default/files/2024-02/PAM%20Sovon%20Nieuws%203-2023.pdf
+  fetched: '2026-10-31'
+  quote: opnames werden daarna automatisch beoordeeld met algoritmes van het programma BirdNET
+    en handmatig geanalyseerd
+- claim: Has an address in Nijmegen.
+  url: https://www.sovon.nl/en
+  fetched: '2026-10-31'
+  quote: 6525 ED Nijmegen
+links:
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: links naar de organisaties die de meetnetten coördineren
+- type: partners-with
+  to: tabmon
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: *id001
+  quote: Sovon Dutch Centre for Field Ornithology, Nijmegen, Netherlands
+- type: partners-with
+  to: european-bird-census-council
+  url: https://www.ebcc.info/partners/
+  fetched: *id001
+  quote: Dutch Centre for Field Ornithology (SOVON)
+- type: partners-with
+  to: lumax
+  url: https://sovon.nl/actueel/nieuwsberichten/vogelgriep-detecteren-met-behulp-van-drones
+  fetched: '2026-10-31'
+  quote: In 2024 heeft Sovon samen met Eelke Folmer van Lumax een pilotproject uitgevoerd
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Ook bevat de tabel links naar de organisaties die de meetnetten coördineren.
+- type: uses
+  to: birdnet
+  url: https://www.sovon.nl/sites/default/files/2024-02/PAM%20Sovon%20Nieuws%203-2023.pdf
+  fetched: '2026-10-31'
+  quote: opnames werden daarna automatisch beoordeeld met algoritmes van het programma BirdNET
+- type: uses
+  to: audiomoth
+  url: https://www.sovon.nl/sites/default/files/2024-02/PAM%20Sovon%20Nieuws%203-2023.pdf
+  fetched: '2026-10-31'
+  quote: De AudioMoths werden onder andere in de Noord-Brabantse Maasheggen en Schijndelse
+    Heide getest.
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:tabmon
+- register:nl
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+techniques:
+- computer-vision
+- bioacoustics

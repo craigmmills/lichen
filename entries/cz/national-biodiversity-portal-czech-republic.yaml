@@ -1,0 +1,28 @@
+id: national-biodiversity-portal-czech-republic
+kind: dataset
+name: National Biodiversity Portal
+scope: cz
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- cz
+status: active
+summary: A Czech portal run by the Nature Conservation Agency that, according to GBIF's publisher record
+  for the agency, holds data about species and habitats.
+facts:
+- claim: GBIF's publisher record for the agency says the portal holds data about species and habitats.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: including the National Biodiversity Portal (comprising data about species and habitats)
+links:
+- type: run-by
+  to: nature-conservation-agency-of-the-czech-republic
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: One of the main tasks is biodiversity monitoring, data management and governance, including the
+    National Biodiversity Portal
+found_by:
+- link-from:nature-conservation-agency-of-the-czech-republic
+added_by: agent
+checked: 2026-11-07

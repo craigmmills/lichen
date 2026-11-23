@@ -1,0 +1,48 @@
+id: mavis-chat
+kind: model
+name: MAviS-Chat
+scope: ae
+ai_label: ai
+ai_types:
+- multimodal
+- large-language-models
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+status: active
+runner: unknown
+summary: A multimodal large language model for audio, vision and text, built by Yevheniia
+  Kryklyvets and aimed at fine-grained bird species understanding, introduced alongside a
+  dataset covering over 1,000 bird species.
+facts:
+- claim: The paper introduces the MAviS-Dataset, integrating image, audio and text for over
+    1,000 bird species.
+  url: https://arxiv.org/abs/2603.07294
+  fetched: 2026-11-12
+  quote: we introduce the MAviS-Dataset, a large-scale multimodal avian species dataset that
+    integrates image, audio, and text modalities for over 1,000 bird species
+- claim: MAviS-Chat is a multimodal LLM supporting audio, vision and text, designed for fine-grained
+    species understanding and multimodal question answering.
+  url: https://arxiv.org/abs/2603.07294
+  fetched: 2026-11-12
+  quote: we introduce MAviS-Chat, a multimodal LLM that supports audio, vision, and text and
+    is designed for fine-grained species understanding
+  ai_type: multimodal
+- claim: Described as a multimodal large language model addressing the limits of existing
+    ones on avian species.
+  url: https://arxiv.org/abs/2603.07294
+  fetched: 2026-11-12
+  quote: existing multimodal large language models face challenges when it comes to specialized
+    topics like avian species
+  ai_type: large-language-models
+- claim: OpenAlex records the first named author, Yevheniia Kryklyvets, with the affiliation
+    MBZUAI.
+  url: https://api.openalex.org/works/W7106818868
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Kryklyvets, Yevheniia","raw_affiliation_strings":["MBZUAI"]'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,57 @@
+id: sociedad-espanola-para-la-conservacion-y-estudio-de-los-mamiferos
+kind: organisation
+name: Sociedad Española para la Conservación y Estudio de los Mamíferos
+also_known_as:
+- SECEM
+- Sociedad Ibérica para la Conservación y Estudio de los Mamíferos
+scope: es
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- computer-vision
+hq: es
+scale: national
+status: active
+website: https://secem.es/
+summary: Spanish mammal society that publishes open camera trap data from its MOMAT project
+  through GBIF.ES.
+facts:
+- claim: Publishes the MOMAT camera trap dataset.
+  url: https://ipt.gbif.es/resource?r=mammals_camera_trap_spain&request_locale=es&v=2.2
+  fetched: '2026-10-31'
+  quote: publicado por Sociedad Ibérica para la Conservación y Estudio de los Mamíferos (SECEM)
+    el abr 28, 2026
+- claim: Lists mammal monitoring on its site.
+  url: https://secem.es/
+  fetched: '2026-10-31'
+  quote: Monitorización de mamíferos
+- claim: Developed MOMAT, a monitoring plan for terrestrial mammals, with TRAGSATEC.
+  url: https://secem.es/estudios/programas/proyecto-momat
+  fetched: '2026-10-31'
+  quote: En este contexto surge el proyecto desarrollado por la SECEM junto con TRAGSATEC
+    (2024–2025)
+- claim: Publishes MOMAT camera-trap detections from more than 1,700 sites on GBIF.
+  url: https://api.gbif.org/v1/organization/8f6e5296-c1f6-427f-b289-bf62812e646e/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: gathered by the MOMAT project of SECEM at more than 1 700 sites
+links:
+- type: runs
+  to: momat-camera-trap-surveys
+  url: https://ipt.gbif.es/resource?r=mammals_camera_trap_spain&request_locale=es&v=2.2
+  fetched: '2026-10-31'
+  quote: gathered by the MOMAT project of SECEM
+- type: runs
+  to: momat
+  url: https://secem.es/estudios/programas/proyecto-momat
+  fetched: '2026-10-31'
+  quote: En este contexto surge el proyecto desarrollado por la SECEM junto con TRAGSATEC
+    (2024–2025)
+found_by:
+- checklist:4
+- register:es
+added_by: agent
+checked: '2026-10-31'

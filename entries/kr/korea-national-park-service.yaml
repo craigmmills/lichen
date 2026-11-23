@@ -1,0 +1,81 @@
+id: korea-national-park-service
+kind: organisation
+name: Korea National Park Service
+scope: kr
+sector: government
+roles:
+- governs
+- builds-ai
+- supplies-data
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+summary: Park agency under the ministry that builds Bandal Lens AI, which it said in October
+  2026 would identify 17 mammal species in camera-trap footage at over 90% accuracy.
+facts:
+- claim: A KDI summary of its October 2026 announcement lists it under the ministry and gives
+    the source as its conservation policy unit.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014
+  fetched: '2026-11-02'
+  quote: 기후에너지환경부 국립공원공단 자원보전처 보전정책부
+- claim: Its October 2026 announcement says video analysis work averages about 4.7 million
+    items a year.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014
+  fetched: '2026-11-02'
+  quote: 연평균 470만 건에 달하는 영상 분석 업무의 자동화를 통해
+- claim: The release is issued by its conservation department under the Ministry of Climate,
+    Energy and Environment.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014&pg=&pp=20&topic=O
+  fetched: '2026-11-02'
+  quote: 기후에너지환경부 국립공원공단 자원보전처 보전정책부
+- claim: In October 2026, the service said introducing Bandal Lens AI would enable automatic
+    identification of 17 mammal species in national-park camera-trap footage at over 90% accuracy.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014&pg=&pp=20&topic=O
+  fetched: '2026-11-02'
+  quote: 이번 시스템 도입으로 전국 국립공원 내 무인센서카메라 영상에서 반달가슴곰, 산양, 여우 등 포유류 17종을 90% 이상의 정확도로 자동 동정할 수
+    있게 됨.
+- claim: EcoBank lists it among related sites.
+  url: https://www.nie-ecobank.kr/cmmn/about.do
+  fetched: '2026-11-02'
+  quote: Korea National Park Service (새창 열기)
+- claim: Announced on 13 October 2026 that it had developed an automatic species identification
+    system and plans to apply it in the field.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014&pg=&pp=20&topic=O
+  fetched: '2026-11-02'
+  quote: 국립공원공단은 ’26.10.13.(화) 인공지능(AI) 자동 동정 영상 분석 시스템(반달렌즈 AI)을 개발하고 이를 현장에 적용할 계획을 발표하였다.
+- claim: Listed among the ministry's public institutions.
+  url: https://m.mcee.go.kr/home/web/index.do?menuId=10429
+  fetched: '2026-11-02'
+  quote: 국립공원공단
+- claim: Its site says it opens public data in 13 areas, including roadkill and species data.
+  url: https://search.knps.or.kr/search/jsp/search.jsp
+  fetched: '2026-11-02'
+  quote: 공공데이터 분석 가이드라인 배포 국립공원 공공데이터 분석 가이드라인은 공단이 개방하는 13 개 영역의 생태 · 안전 데이터 ( 로드킬 , 생물종
+    , 탐방로 등 ) 를 누구나 쉽게 분석
+links:
+- type: builds
+  to: bandal-lens-ai
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014
+  fetched: '2026-11-02'
+  quote: 국립공원공단은 ’26.10.13.(화) 인공지능(AI) 자동 동정 영상 분석 시스템(반달렌즈 AI)을 개발하고 이를 현장에 적용할 계획을 발표하였다.
+- type: builds
+  to: bandal-lens-ai
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=288014&pg=&pp=20&topic=O
+  fetched: '2026-11-02'
+  quote: 인공지능(AI) 자동 동정 영상 분석 시스템(반달렌즈 AI)을 개발하고
+found_by:
+- checklist:1
+- link-from:national-institute-of-ecology-korea
+also_known_as:
+- KNPS
+- 국립공원공단
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr

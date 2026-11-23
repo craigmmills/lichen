@@ -1,0 +1,48 @@
+id: naturalit-remote-sensing-habitat-monitoring-study
+kind: project
+name: 'Mokslinė studija: buveinių ir agrarinės aplinkosaugos priemonių stebėsena nuotoliniais
+  metodais (LIFE IP NATURALIT, action C7.2)'
+scope: lt
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- lt
+status: closed
+runner: unknown
+summary: Closed study within the LIFE IP NATURALIT project, written by Donatas Jonikavičius,
+  on remote sensing for habitat monitoring, including a Sentinel-2 image classified
+  into four classes with Random Forest.
+facts:
+- claim: The report's English summary says it discusses the possibilities of applying
+    remote sensing in forest and open area habitat monitoring.
+  url: https://naturalit.lt/wp-content/uploads/2022/10/C_7_2_monitoring-remote-sensing_report-with-summary.pdf
+  fetched: 2026-11-15
+  quote: The report discusses the possibilities of applying remote sensing in both
+    forest and open area habitat
+- claim: The report says carrying out the scientific study is one of the activities
+    of the NATURALIT project.
+  url: https://naturalit.lt/wp-content/uploads/2022/10/C_7_2_monitoring-remote-sensing_report-with-summary.pdf
+  fetched: 2026-11-15
+  quote: Viena iš proje kto NATURALIT veiklų yra atlikti mokslinę studiją, kur būtų
+    atsakyta į
+- claim: The report shows a Sentinel-2 image classified into four classes with the
+    Random Forest algorithm.
+  ai_type: ml-supervised
+  url: https://naturalit.lt/wp-content/uploads/2022/10/C_7_2_monitoring-remote-sensing_report-with-summary.pdf
+  fetched: 2026-11-15
+  quote: 3.5 pav. Kosminis Sentinel 2 misijos vaizdas suklasifikuotas į 4 klases naudojant
+    Random Forest algoritmą.
+- claim: The report names Donatas Jonikavičius as its author.
+  url: https://naturalit.lt/wp-content/uploads/2022/10/C_7_2_monitoring-remote-sensing_report-with-summary.pdf
+  fetched: 2026-11-15
+  quote: 'Ataskaitą parengė: Donatas Jonikavičius'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

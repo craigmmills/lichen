@@ -1,0 +1,56 @@
+id: wildeye-conservation
+kind: organisation
+name: WildEye Conservation
+also_known_as:
+- WildEye
+scope: global
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: za
+scale: regional
+status: active
+website: https://wildeyeconservation.org
+summary: Organisation that applies machine vision to wildlife conservation. It maintains TrapTagger
+  for camera-trap images and runs AI-driven aerial surveys.
+facts:
+- claim: Says it has used AI technologies to help the conservation community since 2014.
+  url: https://wildeyeconservation.org
+  quote: Since 2014 we have been dedicated to aiding the conservation community at large by
+    leveraging the latest AI technologies
+  fetched: '2026-10-30'
+- claim: Says its AI-driven aerial survey projects have served park management and survey
+    practitioners.
+  url: https://wildeyeconservation.org
+  quote: our AI-driven aerial survey projects have served a wide variety of park management,
+    organisations, and survey practitioners
+  fetched: '2026-10-30'
+- claim: Its contact page gives an address in Gauteng, South Africa.
+  url: https://wildeyeconservation.org/contact
+  quote: Hangar 27, Springs Airfield, Olympia Road, Dal Fouche, Springs, Gauteng, South Africa,
+    1559
+  fetched: '2026-10-30'
+- claim: WildEye lists an evaluation of elephant detection using deep neural networks.
+  url: https://wildeyeconservation.org/surveyscope-documentation/
+  fetched: '2026-10-30'
+  quote: Evaluation of the Detection of Elephants Using Deep Neural Networks
+  ai_type: deep-learning
+links:
+- type: runs
+  to: traptagger
+  url: https://github.com/WildEyeConservation/TrapTagger
+  quote: This repo is maintained by WildEye Conservation - an organisation dedicated to using
+    technology, and machine vision in particular, to further the conservation and protection
+    of wildlife.
+  fetched: '2026-10-30'
+found_by:
+- link-from:traptagger
+added_by: agent
+checked: '2026-10-30'

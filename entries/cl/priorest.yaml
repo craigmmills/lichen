@@ -1,0 +1,50 @@
+id: priorest
+kind: project
+name: PrioRest
+scope: cl
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- cl
+scale: regional
+status: active
+summary: Active project led and built by Susana Paula, whose January 2026 proof of concept
+  maps restoration interventions from fire details but cannot yet be applied nationwide.
+facts:
+- claim: In January 2026, its proof of concept generated maps identifying zones and types
+    of restoration intervention from a fire's coordinates, area and dates; it was not applicable
+    across the whole country.
+  url: https://legadochile.cl/2026/01/29/incendios-forestales-en-el-biobio-entrevista-a-susana-paula/
+  fetched: 2026-11-09
+  quote: Al ingresar estos datos en la plataforma, se generan automáticamente mapas del área
+    incendiada, en los que se indica qué zonas requieren algún tipo de intervención y de qué
+    tipo
+- claim: In January 2026 it was a proof of concept that could not yet be applied to the whole
+    country.
+  url: https://legadochile.cl/2026/01/29/incendios-forestales-en-el-biobio-entrevista-a-susana-paula/
+  fetched: 2026-11-09
+  quote: Actualmente, PrioRest está diseñado como una prueba de concepto y, lamentablemente,
+    todavía no se puede aplicar a todo el territorio nacional.
+- claim: A July 2024 announcement proposed a first phase addressing impacts on vegetation,
+    biological invasions, soil and water.
+  url: https://www.minciencia.gob.cl/noticias/estos-son-los-12-proyectos-con-los-que-la-ciencia-chilena-contribuira-a-la-prevencion-y-recuperacion-de-los-incendios-forestales/
+  fetched: 2026-11-09
+  quote: en su primera fase abordará los impactos en la vegetación, las invasiones biológicas,
+    el suelo y el agua
+links:
+- type: led-by
+  to: instituto-de-ecologia-y-biodiversidad
+  url: https://www.minciencia.gob.cl/noticias/estos-son-los-12-proyectos-con-los-que-la-ciencia-chilena-contribuira-a-la-prevencion-y-recuperacion-de-los-incendios-forestales/
+  fetched: 2026-11-09
+  quote: será llevado a cabo por un equipo de investigación internacional, liderado por el
+    IEB
+- type: funded-by
+  to: agencia-nacional-de-investigacion-y-desarrollo
+  url: https://www.minciencia.gob.cl/noticias/estos-son-los-12-proyectos-con-los-que-la-ciencia-chilena-contribuira-a-la-prevencion-y-recuperacion-de-los-incendios-forestales/
+  fetched: 2026-11-09
+  quote: En total, 720 millones de pesos serán entregados para investigación .
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

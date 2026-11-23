@@ -1,0 +1,34 @@
+id: harmonized-landsat-sentinel-2
+kind: dataset
+name: Harmonized Landsat Sentinel-2
+also_known_as:
+- HLS
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://hls.gsfc.nasa.gov
+summary: NASA project that combines Landsat and Sentinel-2 data into consistent surface reflectance products, and the training data behind the Prithvi models.
+facts:
+- claim: Combines Landsat 8 and 9 with Sentinel-2.
+  url: https://hls.gsfc.nasa.gov/
+  fetched: '2026-10-30'
+  quote: initiative that combines data from Landsats 8 & 9 with the European Space Agency’s Sentinel-2A & 2B satellites
+links:
+- type: run-by
+  to: nasa
+  url: https://hls.gsfc.nasa.gov/
+  fetched: '2026-10-30'
+  quote: NASA’s Harmonized Landsat and Sentinel-2 (HLS) project
+- type: builds-on
+  to: european-space-agency
+  url: https://hls.gsfc.nasa.gov/
+  fetched: '2026-10-30'
+  quote: the European Space Agency’s Sentinel-2A & 2B satellites
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,40 @@
+id: dynland
+kind: model
+name: Dynland
+scope: lv
+ai_label: ai
+ai_types:
+- ml-unsupervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- lv
+status: active
+summary: Land use and land cover classification approach for remote sensing images, run by the Institute
+  of Electronics and Computer Science, built around a clustering algorithm for multispectral pixels.
+facts:
+- claim: A land use and land cover classification approach for making maps from remote sensing images.
+  url: https://www.edi.lv/en/solutions/zemes-parklajuma-klasifikacijas-tehnologija-dynland
+  fetched: 2026-11-09
+  quote: Dynland is a new Land Use / Land Cover (LULC) classification approach developed for the practicable
+    creation of LULC maps from remote sensing images.
+- claim: Its core is a clustering algorithm that groups multispectral pixels without parametric assumptions.
+  url: https://www.edi.lv/en/solutions/zemes-parklajuma-klasifikacijas-tehnologija-dynland
+  fetched: 2026-11-09
+  quote: The key element of the approach is a unique clustering algorithm that forms clusters of multispectral
+    pixels in a non-parametric way
+  ai_type: ml-unsupervised
+links:
+- type: run-by
+  to: institute-of-electronics-and-computer-science
+  url: https://www.edi.lv/en/projects/uz-objektiem-un-kontekstu-orientets-pasmacoss-tikls-zemes-parklajuma-klasifikacijai-dynland-2
+  fetched: 2026-11-09
+  quote: to augment our self-learning land cover classification technology Dynland with capabilities to
+    perform object based context aware classification
+found_by:
+- register:lv
+- link-from:institute-of-electronics-and-computer-science
+added_by: agent
+checked: 2026-11-09

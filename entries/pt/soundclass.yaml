@@ -1,0 +1,35 @@
+id: soundclass
+kind: project
+name: soundClass
+scope: pt
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning
+countries:
+- pt
+status: active
+summary: An active machine learning tool for biodiversity monitoring, built by Bruno Silva,
+  that trains convolutional neural networks to classify sound events in recordings.
+facts:
+- claim: The paper introduces it as a tool to train convolutional neural networks and classify
+    sound events in recordings.
+  url: https://rdpc.uevora.pt/handle/10174/33324
+  fetched: 2026-11-02
+  quote: We introduce the r package soundClass, a tool to train convolutional neural networks,
+    and employ them to classify sound events in recordings.
+  ai_type: deep-learning
+- claim: An automatic sound classification tool for biodiversity monitoring using machine
+    learning.
+  url: https://rdpc.uevora.pt/handle/10174/33324
+  fetched: 2026-11-02
+  quote: 'soundClass: An automatic sound classification tool for biodiversity monitoring using
+    machine learning'
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

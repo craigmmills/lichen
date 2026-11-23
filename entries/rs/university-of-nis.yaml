@@ -1,0 +1,45 @@
+id: university-of-nis
+kind: organisation
+name: University of Niš
+scope: rs
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: rs
+countries:
+- rs
+scale: national
+status: active
+website: https://www.ni.ac.rs/
+summary: Serbian university recorded by OpenAlex as an education institution, linked
+  to a 2023 study on UAV-assisted monitoring of aquatic vegetation in the middle Danube,
+  co-authored by someone in its Faculty of Sciences and Mathematics.
+facts:
+- claim: OpenAlex records it as an education institution in Serbia with this homepage.
+  url: https://api.openalex.org/institutions?filter=country_code:RS,type:education&per-page=10&select=id,display_name,works_count,homepage_url
+  fetched: 2026-11-12
+  quote: '"display_name": "University of Nis", "works_count": 28329, "homepage_url":
+    "https://www.ni.ac.rs/"'
+- claim: OpenAlex lists works since 2022 with a University of Niš author and the remote
+    sensing concept, among them a 2023 study towards UAV-assisted monitoring of aquatic
+    vegetation in the middle Danube.
+  url: https://api.openalex.org/works?filter=institutions.id:I152518017,concepts.id:C62649853,from_publication_date:2022-01-01&per-page=12&select=id,title,publication_year
+  fetched: 2026-11-12
+  quote: TOWARDS UAV ASSISTED MONITORING OF AQUATIC VEGETATION WITHIN LARGE RIVERS
+- claim: A co-author of that study is affiliated with the Department of Biology and
+    Ecology of its Faculty of Sciences and Mathematics.
+  url: https://api.openalex.org/works/W4383264956?select=id,title,authorships
+  fetched: 2026-11-12
+  quote: University of Ni\u0161, Faculty of Sciences and Mathematics, Department of
+    Biology and Ecology
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

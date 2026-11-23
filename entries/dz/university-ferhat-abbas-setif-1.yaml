@@ -1,0 +1,59 @@
+id: university-ferhat-abbas-setif-1
+kind: organisation
+name: Ferhat Abbas University Setif 1
+also_known_as:
+- University Ferhat Abbas of Setif
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: University whose affiliated authors studied vegetation and land surface temperature
+  at Mount Babor in 2024 and vegetation and water dynamics in semi-arid watersheds
+  using remote sensing in 2025.
+facts:
+- claim: Affiliation of the first and corresponding author of the 2024 paper on land
+    surface temperature and vegetation cover at the Mount Babor forest area.
+  url: https://api.openalex.org/works/W4396610185?select=id,authorships
+  fetched: 2026-11-15
+  quote: Department of Biology and Plant Ecology, Faculty of Natural and Life Sciences,
+    Ferhat Abbas University, Setif 1, 19000, Setif, Algeria
+- claim: The 2024 paper's title names vegetation cover at the Mount Babor forest area
+    and a geospatial modelling approach.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I40193446,publication_year:2022-2026,primary_topic.subfield.id:2303&select=id,title,publication_year&per-page=50
+  fetched: 2026-11-15
+  quote: 'Association of temporal variation of land surface temperature and vegetation
+    cover at the Mount Babor forest area, Algeria: a geospatial modeling approach'
+- claim: OpenAlex lists among the university's ecology works a 2023 paper on forest
+    cover change detection with NDVI in the Oued Bouhamdane watershed.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I40193446,publication_year:2022-2026,primary_topic.subfield.id:2303&select=id,title,publication_year&per-page=50
+  fetched: 2026-11-15
+  quote: Forest cover change detection using Normalized Difference Vegetation Index
+    in the Oued Bouhamdane watershed, Algeria - A case study
+- claim: The first author of a 2025 paper on vegetation and water dynamics in semi-arid
+    watersheds using remote sensing is affiliated with the university's Department
+    of Earth Sciences.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7114922148|W4403877414|W4407757847&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Department of Earth Sciences, Institute of Architecture and Earth Sciences,
+    Farhat Abbas University, El Bez, Setif 19000, Algeria
+- claim: The 2025 paper is titled 'Assessing Climate Change Impacts on Vegetation
+    and Water Dynamics in Semi-Arid Watersheds Using Remote Sensing Techniques'.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7114922148|W4403877414|W4407757847&select=id,title,publication_year,authorships
+  fetched: 2026-11-15
+  quote: Assessing Climate Change Impacts on Vegetation and Water Dynamics in Semi-Arid
+    Watersheds Using Remote Sensing Techniques
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

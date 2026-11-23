@@ -1,0 +1,73 @@
+id: ghana-biodiversity-information-facility
+kind: programme
+name: Ghana Biodiversity Information Facility
+also_known_as:
+- GBIF Ghana node
+- GhaBIF
+scope: gh
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- gh
+status: active
+runner: unknown
+summary: Ghana's GBIF country node, with observer status and hosted by the University of Ghana's Department
+  of Botany, which JRS Biodiversity Foundation says supported the 2019 African Biodiversity Challenge
+  win.
+facts:
+- claim: GBIF's registry lists the Ghana Biodiversity Information Facility as Ghana's node with observer
+    status.
+  url: https://api.gbif.org/v1/node/b5633b75-6a86-4fdf-9cfc-506047fb9dc7
+  fetched: 2026-11-08
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"AFRICA","continent":"AFRICA","title":"Ghana Biodiversity
+    Information Facility"'
+- claim: JRS Biodiversity Foundation says the node supported the Ghana team that won the African Biodiversity
+    Challenge in 2019 by publishing 23,362 records to GBIF.
+  url: https://jrsbiodiversity.org/and-the-winner-of-the-african-biodiversity-challenge-is-ghana/
+  fetched: 2026-11-08
+  quote: the Ghana Team was awarded first place for publishing an impressive 23,362 biodiversity data
+    records to the Global Biodiversity Information Facility (GBIF)
+- claim: GBIF's registry lists it as the country node for Ghana.
+  url: https://api.gbif.org/v1/node/b5633b75-6a86-4fdf-9cfc-506047fb9dc7
+  fetched: '2026-11-08'
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER","gbifRegion":"AFRICA","continent":"AFRICA","title":"Ghana
+    Biodiversity Information Facility"'
+- claim: The registry gives its address as the Department of Botany, Legon.
+  url: https://api.gbif.org/v1/node/b5633b75-6a86-4fdf-9cfc-506047fb9dc7
+  fetched: '2026-11-08'
+  quote: '"address":["Department of Botany\nLegon-Accra\nGhana"]'
+- claim: GBIF's registry shows the Ghana Herbarium as a publisher endorsed by this node.
+  url: https://api.gbif.org/v1/organization/a3790e34-ad24-4d74-b7d4-ad77a84c5e61
+  fetched: '2026-11-08'
+  quote: '"endorsingNodeKey":"b5633b75-6a86-4fdf-9cfc-506047fb9dc7","endorsementApproved":true,"endorsementStatus":"ENDORSED","title":"Ghana
+    Herbarium"'
+- claim: GBIF's registry describes GhaBIF as the Ghana national GBIF node, hosted by the Department of
+    Botany, University of Ghana.
+  url: https://api.gbif.org/v1/organization/4bc4943a-c94f-4bd4-9aa3-2a9cae94398a
+  fetched: 2026-11-08
+  quote: GhaBIF is the Ghana national GBIF Node hosted by the Department of Botany, University of Ghana
+- claim: GBIF's node registry lists Ghana's participation in GBIF as observer status, under the title
+    Ghana Biodiversity Information Facility.
+  url: https://api.gbif.org/v1/node/b5633b75-6a86-4fdf-9cfc-506047fb9dc7
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER","gbifRegion":"AFRICA","continent":"AFRICA","title":"Ghana
+    Biodiversity Information Facility","participantTitle":"Ghana"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/b5633b75-6a86-4fdf-9cfc-506047fb9dc7
+  fetched: '2026-11-08'
+  quote: '"participantTitle":"Ghana"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/organization/4bc4943a-c94f-4bd4-9aa3-2a9cae94398a
+  fetched: 2026-11-08
+  quote: GhaBIF is the Ghana national GBIF Node
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

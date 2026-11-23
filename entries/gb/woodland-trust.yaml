@@ -1,0 +1,53 @@
+id: woodland-trust
+kind: organisation
+name: Woodland Trust
+sector: ngo
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.woodlandtrust.org.uk
+summary: The UK's largest woodland conservation charity, which runs the Ancient Tree Inventory.
+facts:
+- claim: The UK's largest woodland conservation charity.
+  url: https://www.woodlandtrust.org.uk/about-us/
+  quote: We are the UK's largest woodland conservation charity.
+  fetched: '2026-10-30'
+- claim: Site refers to an Ancient Tree Inventory.
+  url: https://www.woodlandtrust.org.uk/
+  fetched: '2026-10-30'
+  quote: Ancient Tree Inventory
+- claim: Publishes the dataset "Woodland Trust Fingle Woods Invertebrate Records 2017–2021"
+    on GBIF.
+  url: https://api.gbif.org/v1/organization/36c1fe88-2734-4831-8009-b85fd888fa71/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Woodland Trust Fingle Woods Invertebrate Records 2017–2021
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/36c1fe88-2734-4831-8009-b85fd888fa71/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+- claim: Cares for over 1,000 woods, which are open to the public.
+  url: https://www.woodlandtrust.org.uk/about-us/who-we-are/
+  quote: We care for over 1,000 woods, keeping them open for you to explore and enjoy
+  fetched: '2026-11-16'
+links:
+- type: runs
+  to: ancient-tree-inventory
+  url: https://ati.woodlandtrust.org.uk/
+  quote: Ancient Tree Inventory - Woodland Trust
+  fetched: '2026-10-30'
+found_by:
+- checklist:4
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- species-distribution

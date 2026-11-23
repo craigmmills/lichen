@@ -1,0 +1,69 @@
+id: escuela-superior-politecnica-del-litoral
+kind: organisation
+name: Escuela Superior Politécnica del Litoral
+also_known_as:
+- ESPOL
+scope: ec
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- computer-vision
+- remote-sensing
+hq: ec
+countries:
+- ec
+scale: national
+status: active
+summary: Guayaquil university whose authors and posters cover deep learning for bird audio,
+  animal biodiversity and marine wildlife, plus land cover classification around Guayaquil,
+  with CIDIS as a research centre.
+facts:
+- claim: An ESPOL project poster describes recognising bird audio from the Bosque Protector
+    La Prosperina with deep learning.
+  url: https://idear.espol.edu.ec/sites/default/files/posters/edicion_x/TECH-337-MI-Bosque%20Protector-POSTER.pdf
+  fetched: 2026-11-02
+  quote: Reconocimiento de audios de aves del Bosque Protector La Prosperina utilizando técnicas
+    de Aprendizaje Profundo
+  ai_type: deep-learning
+- claim: OpenAlex lists a paper with ESPOL authors on deep learning for marine and coastal
+    wildlife.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: Leveraging Deep Learning Techniques for Marine and Coastal Wildlife Using Instance
+    Segmentation
+- claim: Its technology office lists CIDIS as a research and development centre.
+  url: https://www.espol-tech.espol.edu.ec/servicios/centro-de-investigacion-desarrollo-e-innovacion-de-sistemas-computacionales-cidis
+  fetched: '2026-11-02'
+  quote: El CIDIS es un centro de I+D+i enfocado en desarrollar tecnologías inteligentes mediante
+    el uso y aplicación de técnicas de visión por computador
+- claim: A poster describes an observatory of animal biodiversity in the Bosque Protector
+    La Prosperina using deep learning.
+  url: https://idear.espol.edu.ec/sites/default/files/posters/edicion_x/Poster%20P2%20Ruberth%20Cadena.pdf
+  quote: MEDIANTE TÉCNICAS DE APRENDIZAJE PROFUNDO Y VIDEOVIGILANCIA
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: ESPOL authors published a comparison of supervised classification algorithms for
+    land use and land cover around Guayaquil.
+  url: https://api.openalex.org/works/W7171816456
+  quote: Comparison of Supervised Classification Algorithms for Land Use Land Cover in Guayaquil
+  ai_type: ml-supervised
+  fetched: '2026-11-02'
+- claim: The paper gives an ESPOL campus address in Guayaquil.
+  url: https://api.openalex.org/works/W7171816456
+  quote: Perimetral, Guayaquil
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+- checklist:register-d
+added_by: agent
+checked: 2026-11-02

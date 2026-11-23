@@ -1,0 +1,113 @@
+id: marint-naturkart
+kind: project
+name: Marint naturkart
+scope: 'no'
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- 'no'
+scale: national
+status: active
+summary: Active 2025 to 2026 project, run by NIVA for the Norwegian Environment Agency, aiming
+  to map marine habitat types along mainland Norway's coast using drones, machine learning
+  and satellites.
+facts:
+- claim: Aims at a complete national map of marine habitat types out to one nautical mile
+    beyond the baseline.
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Marint Naturkart skal utvikle et heldekkende, nasjonalt kart over marine naturtyper
+- claim: Integrates high-resolution drone mapping and machine learning through SeaBee, with
+    satellite upscaling.
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Arbeidet integrerer høyoppløselig dronekartlegging og maskinlæring via SeaBee-infrastrukturen
+- claim: Carried out by NIVA on commission from the Norwegian Environment Agency.
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: som NIVA nå utfører på oppdrag fra Miljødirektoratet
+- claim: The dataset is to follow open standards, with code, models and metadata published
+    through a GitHub repository.
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Datasettet skal følge åpne standarder
+- claim: Aims to map marine nature types along mainland Norway’s coast out to one nautical
+    mile beyond the baseline, with probability maps and documented uncertainty.
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Marint Naturkart skal utvikle et heldekkende, nasjonalt kart over marine naturtyper
+    for hele kyst- og havområdet ut til én nautisk mil utenfor grunnlinjen
+- claim: Project period 2025 to 2026.
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: &id001 2026-11-02
+  quote: Prosjektperiode 2025 - 2026
+- claim: The Norwegian Environment Agency's Naturkart page gives the marine part as developed
+    by NIVA with Norsk Regnesentral and Field.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: *id001
+  quote: 'Marint: utvikles av Norsk institutt for vannforskning (NIVA) i samarbeid med Norsk
+    regnesentral og Field.'
+- claim: Drone maps are used to train satellite-based algorithms that map the whole coast
+    with some coarse nature types.
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens
+  fetched: *id001
+  quote: Dronekartene brukes til å trene satellittbaserte algoritmer, slik at disse kan kartlegge
+    hele kysten med noen grove naturtyper.
+links:
+- type: led-by
+  to: norwegian-institute-for-water-research
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: NIVA leder prosjektet.
+- type: partners-with
+  to: norwegian-computing-center
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Norsk Regnesentral (NR) – KI/ML for drone- og satellittbasert klassifisering
+- type: partners-with
+  to: field-geospatial
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Field Geospatial - satellittbasert kartlegging, batymetrisk LiDAR, GEOML-plattform
+- type: uses
+  to: seabee
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Arbeidet integrerer høyoppløselig dronekartlegging og maskinlæring via SeaBee-infrastrukturen
+- type: run-by
+  to: norwegian-institute-for-water-research
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens?trk=public_post_comment-text
+  fetched: '2026-11-02'
+  quote: NIVA nå utfører på oppdrag fra Miljødirektoratet . NIVA leder prosjektet.
+- type: funded-by
+  to: norwegian-environment-agency
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: '2026-11-02'
+  quote: Miljødirektoratet
+- type: funded-by
+  to: norwegian-environment-agency
+  url: https://www.niva.no/prosjekter/marint-naturkart
+  fetched: *id001
+  quote: Finansiering Miljødirektoratet Totalbudsjett 15 000 000
+  amount: 15000000
+  currency: NOK
+- type: partners-with
+  to: norwegian-computing-center
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens
+  fetched: *id001
+  quote: De andre partnerne er Field Geospatial og Norsk Regnesentral.
+- type: partners-with
+  to: field-geospatial
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens
+  fetched: *id001
+  quote: De andre partnerne er Field Geospatial og Norsk Regnesentral.
+found_by:
+- link-from:seabee
+- checklist:7
+- link-from:norwegian-institute-for-water-research
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,46 @@
+id: pampal
+kind: programme
+name: PAMpal
+scope: us
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: unknown
+runner: unknown
+website: https://taikisan21.github.io/PAMpal/
+summary: An R package for processing passive acoustic data collected with PAMGuard,
+  organising detections into events and exporting them for the BANTER classifier,
+  within NOAA's FOSSA package set.
+facts:
+- claim: An R package for processing passive acoustic data, currently supporting data
+    collected with PAMGuard.
+  url: https://taikisan21.github.io/PAMpal/
+  fetched: 2026-11-21
+  quote: This is a package for processing passive acoustic data. Currently only supports
+- claim: Is built to organise acoustic detections into events.
+  url: https://taikisan21.github.io/PAMpal/
+  fetched: 2026-11-21
+  quote: is built to organize your acoustic detections into events
+- claim: Can export data for BANTER, the event-based classifier in the same FOSSA
+    package set.
+  url: https://taikisan21.github.io/PAMpal/
+  fetched: 2026-11-21
+  quote: A guide to getting started with BANTER
+- claim: One of the software packages that make up FOSSA, from NOAA's Southwest Fisheries
+    Science Center.
+  url: https://www.fisheries.noaa.gov/west-coast/science-data/fossa
+  fetched: 2026-11-21
+  quote: 'PAMpal : functions to extract acoustic metadata, integrate ancillary data,
+    and generate output for downstream analyses.'
+links:
+- type: uses
+  to: pamguard
+  url: https://taikisan21.github.io/PAMpal/
+  fetched: 2026-11-21
+  quote: The database (or multiple) created by Pamguard
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

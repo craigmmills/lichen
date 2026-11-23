@@ -1,0 +1,37 @@
+id: the-boring-fund
+kind: programme
+name: The Boring Fund
+scope: global
+roles: [funds]
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+scale: global
+status: active
+website: https://wildlabs.net/funding-opportunity/boring-fund-2025-apply-today
+summary: WILDLABS fund, supported by Arm, for the overlooked foundations of conservation technology such as training materials, infrastructure upkeep and curating data. The 2025 round gave $80,000 in grants.
+facts:
+- claim: In 2025 a total of $80,000 in grants went to foundational activities in conservation technology.
+  url: https://wildlabs.net/funding-opportunity/boring-fund-2025-apply-today
+  quote: In 2025, a total of $80,000 in grants will go to critical, foundational activities
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: wildlabs
+  url: https://wildlabs.net/funding-opportunity/boring-fund-2025-apply-today
+  quote: Last year, we launched The Boring Fund
+  fetched: *id001
+- type: funded-by
+  to: arm
+  amount: 80000
+  currency: USD
+  year: 2025
+  url: https://wildlabs.net/funding-opportunity/boring-fund-2025-apply-today
+  quote: With the continued support of Arm , the company building the future of computing, we’re increasing the number of projects we can support by expanding the total grant funding to $80,000.
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

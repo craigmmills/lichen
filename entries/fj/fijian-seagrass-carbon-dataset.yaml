@@ -1,0 +1,31 @@
+id: fijian-seagrass-carbon-dataset
+kind: dataset
+name: Fijian seagrass dataset with soil carbon, geomorphic variables and seagrass probability
+  map
+scope: fj
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- fj
+summary: Dataset published through CSIRO in 2026 with 135 soil cores from 47 sites and a 10
+  m seagrass probability map for Fiji from Sentinel-2.
+facts:
+- claim: Holds 135 soil cores from 47 sites.
+  url: https://api.datacite.org/dois/10.25919/95am-hz02
+  fetched: '2026-10-31'
+  quote: Data from 135 soil cores collected from 47 sites across Vanua Levu, the Lau Group,
+    and the Moala subgroup.
+- claim: Includes a seagrass probability map at 10 m from Sentinel-2, 2022 to 2024.
+  url: https://api.datacite.org/dois/10.25919/95am-hz02
+  fetched: '2026-10-31'
+  quote: Seagrass probability map for Fiji generated using Sentinel-2 multispectral satellite
+    imagery (10m resolution) from 2022-2024
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

@@ -1,0 +1,42 @@
+id: centre-d-etudes-de-recherche-et-de-formation-forestieres
+kind: organisation
+name: Centre d'Etudes de Recherche et de Formation Forestières
+also_known_as:
+- CERF
+scope: bj
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: bj
+countries:
+- bj
+scale: national
+status: active
+summary: Public body under the Ministère du Cadre de vie et du Développement Durable that
+  contributes to forest policy and science, holding national inventory data and publishing
+  GBIF datasets including an animal census and a Lama forest plant inventory.
+facts:
+- claim: Public body belonging to the Ministère du Cadre de vie et du Développement Durable
+    that contributes to national forest policy and science.
+  url: https://api.gbif.org/v1/organization/76f68a9a-c7e9-4628-8ed2-fca4f81fe87d
+  fetched: '2026-11-08'
+  quote: Le CERF est une structure publique appartenant au Ministère du Cadre de vie et du
+    Développement Durable.
+- claim: Holds occurrence data from studies, including inventories, across the national territory.
+  url: https://api.gbif.org/v1/organization/76f68a9a-c7e9-4628-8ed2-fca4f81fe87d
+  fetched: '2026-11-08'
+  quote: le CERF dispose fréquemment de données d'occurrences issues des études diverses réalisées
+    y compris les inventaires sur le territoire national
+- claim: Its GBIF datasets include an animal census database for Benin and a plant species
+    inventory of Lama forest made with SOS Biodiversity.
+  url: https://api.gbif.org/v1/organization/76f68a9a-c7e9-4628-8ed2-fca4f81fe87d/publishedDataset?limit=20
+  fetched: '2026-11-08'
+  quote: 'Census of animal of Benin: Database 1'
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

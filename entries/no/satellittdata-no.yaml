@@ -1,0 +1,41 @@
+id: satellittdata-no
+kind: dataset
+name: satellittdata.no
+also_known_as: []
+scope: 'no'
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- 'no'
+website: https://www.satellittdata.no/nb
+summary: Sentinel data service run by the Norwegian Meteorological Institute, partnered with the Norwegian
+  Space Agency, giving simpler access to Sentinel data and storing data over Norwegian areas of interest.
+facts:
+- claim: Gives users simpler access to Sentinel data and stores data over Norwegian areas of interest.
+  url: https://romdirektoratet.no/tilgang-til-satellittdata-2/satellittdata-no
+  fetched: '2026-11-02'
+  quote: Satellittdata.no gir brukarar forenkla tilgang til Sentinel-data
+- claim: ColHub holds all Sentinel products over Norwegian areas.
+  url: https://romdirektoratet.no/tilgang-til-satellittdata-2/satellittdata-no
+  fetched: '2026-11-02'
+  quote: ColHub inneheld til ei kvar tid alle Copernicus Sentinel-produkt over norske område
+links:
+- type: run-by
+  to: norwegian-meteorological-institute
+  url: https://romdirektoratet.no/tilgang-til-satellittdata-2/satellittdata-no
+  fetched: '2026-11-02'
+  quote: Tenesta vert driven av Meteorologisk institutt, i samarbeid med Direktoratet for romverksemd.
+- type: partners-with
+  to: norwegian-space-agency
+  url: https://romdirektoratet.no/tilgang-til-satellittdata-2/satellittdata-no
+  fetched: '2026-11-02'
+  quote: Tenesta vert driven av Meteorologisk institutt, i samarbeid med Direktoratet for romverksemd.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

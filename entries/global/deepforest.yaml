@@ -1,0 +1,39 @@
+id: deepforest
+kind: model
+name: DeepForest
+scope: global
+ai_label: ai
+ai_types: [ml-semi-supervised, deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+website: https://deepforest.readthedocs.io
+summary: Open-source library for object detection and geospatial analysis in ecology, specifically for analysing forest canopy data.
+facts:
+- claim: Open-source library for object detection in forest canopy data.
+  url: https://deepforest.readthedocs.io/
+  fetched: '2026-10-30'
+  quote: DeepForest is an open-source library providing tools for object detection and geospatial analysis in ecology, specifically for analyzing forest canopy data.
+- claim: "DeepForest uses deep learning object detection networks."
+  url: https://github.com/weecology/DeepForest
+  fetched: '2026-10-30'
+  quote: "DeepForest uses deep learning object detection networks to predict bounding boxes corresponding to individual trees in RGB imagery."
+  ai_type: deep-learning
+- claim: "The DeepForest paper is titled as using semi-supervised deep learning neural networks."
+  url: https://github.com/weecology/DeepForest
+  fetched: '2026-10-30'
+  quote: "Individual Tree-Crown Detection in RGB Imagery Using Semi-Supervised Deep Learning Neural Networks."
+  ai_type: ml-semi-supervised
+links:
+- type: run-by
+  to: weecology
+  url: https://github.com/weecology/DeepForest
+  fetched: '2026-10-30'
+  quote: GitHub - weecology/DeepForest
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

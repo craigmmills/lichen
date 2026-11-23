@@ -1,0 +1,37 @@
+id: detectree2
+kind: model
+name: Detectree2
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+summary: Open-source software that delineates individual tree crowns from aerial photographs,
+  built at the Coomes Lab in Cambridge.
+facts:
+- claim: Remote sensing project using computer vision to segment trees from aerial
+    photographs.
+  url: https://www.hpc.cam.ac.uk/forest-canopies-project
+  quote: Detectree2 is a remote sensing project using computer vision tools to segment
+    trees from aerial photographs.
+  fetched: &id001 2026-10-30
+- claim: Detects tree crowns with the RCNN algorithm of detectron2.
+  url: https://www.hpc.cam.ac.uk/forest-canopies-project
+  quote: detecting individual tree crowns using detectron2's RCNN algorithm
+  ai_type: deep-learning
+  fetched: *id001
+links:
+- type: run-by
+  to: coomes-lab
+  url: https://www.hpc.cam.ac.uk/forest-canopies-project
+  quote: The team behind Detectree2 is based at the Coomes Lab
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

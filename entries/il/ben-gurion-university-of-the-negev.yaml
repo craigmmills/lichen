@@ -1,0 +1,44 @@
+id: ben-gurion-university-of-the-negev
+kind: organisation
+name: Ben-Gurion University of the Negev
+scope: il
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: Active university that is the grantee for the AI wildfire-spread platform in KKL-JNF's
+  2025 call, with 2021 papers led by its authors on random forests and insect deep learning.
+facts:
+- claim: Grantee institution for the AI wildfire-spread platform in KKL-JNF's 2025 call.
+  url: https://www.kkl.org.il/files/call-for-1442-25-list.pdf
+  fetched: '2026-11-08'
+  quote: אוניברסיטת בן גוריון בנגב פלטפורמה מונחית בינה מלאכותית לחיזוי כיוון התפשטות שריפות
+    יער באמצעות חישה מרחוק
+- claim: A 2021 paper led by a Ben-Gurion University author is a case study of random forests
+    in conservation machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05tkyf982,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Conservation machine learning: a case study of random forests'
+- claim: A 2021 paper led by a Ben-Gurion University author applies deep learning to insect
+    ecoinformatics.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05tkyf982,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: High Throughput Data Acquisition and Deep Learning for Insect Ecoinformatics
+  ai_type: deep-learning
+links: []
+found_by:
+- checklist:3
+- link-from:keren-kayemeth-leisrael-jewish-national-fund
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'
+ai_types:
+- deep-learning

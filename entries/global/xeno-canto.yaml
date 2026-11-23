@@ -1,0 +1,36 @@
+id: xeno-canto
+kind: dataset
+name: Xeno-canto
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://xeno-canto.org
+summary: Online database and sound archive of wildlife recordings shared by a worldwide community, widely used to train bird sound models.
+facts:
+- claim: Online database and sound archive of wildlife recordings.
+  url: https://api.gbif.org/v1/dataset/search?q=xeno-canto&limit=2
+  fetched: '2026-10-30'
+  quote: is an online database and sound archive that provides access to sound recordings of wildlife from around the world
+- claim: Launched on 30 May 2005 by Bob Planqué.
+  url: https://en.wikipedia.org/wiki/Xeno-canto
+  fetched: '2026-10-30'
+  quote: xeno-canto was launched on May 30, 2005, by Bob Planqué
+links:
+- type: run-by
+  to: xeno-canto-foundation-for-nature-sounds
+  url: https://api.gbif.org/v1/dataset/search?q=xeno-canto&limit=2
+  fetched: '2026-10-30'
+  quote: "XC is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands"
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/dataset/search?q=xeno-canto&limit=2
+  fetched: '2026-10-30'
+  quote: Xeno-canto - Soundscapes from around the world
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

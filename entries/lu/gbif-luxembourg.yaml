@@ -1,0 +1,48 @@
+id: gbif-luxembourg
+kind: programme
+name: GBIF Luxembourg
+scope: lu
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- lu
+status: active
+runner: unknown
+website: http://www.mnhn.lu
+summary: Luxembourg's country GBIF node, run by the National Museum of Natural History, with Luxembourg
+  becoming a voting participant on 15 November 2017 after associate participation.
+facts:
+- claim: GBIF's registry lists GBIF Luxembourg as a country node with voting participation.
+  url: https://api.gbif.org/v1/node/country/LU
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- claim: Luxembourg changed from associate to voting participant on 15 November 2017.
+  url: https://api.gbif.org/v1/node/country/LU
+  fetched: 2026-11-08
+  quote: Changed from Associate to Voting Participant on 15 November 2017
+- claim: The node record gives the museum's website as its homepage.
+  url: https://api.gbif.org/v1/node/country/LU
+  fetched: 2026-11-08
+  quote: '"homepage":["http://www.mnhn.lu"]'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/LU
+  fetched: 2026-11-08
+  quote: Changed from Associate to Voting Participant on 15 November 2017
+- type: run-by
+  to: musee-national-dhistoire-naturelle-luxembourg
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: The MNHNL serves as Luxembourg’s national node for the Global Biodiversity Information Facility
+    (GBIF)
+found_by:
+- link-from:global-biodiversity-information-facility
+- register:lu
+- link-from:national-museum-of-natural-history-luxembourg
+added_by: agent
+checked: 2026-11-08

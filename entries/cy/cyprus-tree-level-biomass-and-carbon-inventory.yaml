@@ -1,0 +1,59 @@
+id: cyprus-tree-level-biomass-and-carbon-inventory
+kind: dataset
+name: Cyprus nationwide tree-level biomass and carbon inventory
+scope: cy
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- cy
+status: active
+summary: Reported by Politis as Cyprus's first nationwide tree biomass and carbon
+  inventory, it was developed by The Cyprus Institute, combining AI with Department
+  of Forests field measurements.
+facts:
+- claim: Politis reports that Cyprus now has its first nationwide inventory of the
+    biomass and carbon stored by individual trees, developed by researchers at The
+    Cyprus Institute to improve forest monitoring.
+  url: https://en.politis.com.cy/news/environment/1023624/cyprus-gets-first-nationwide-tree-level-biomass-and-carbon-inventory
+  fetched: '2026-11-12'
+  quote: Cyprus now has its first nationwide inventory measuring the biomass and carbon
+    stored by individual trees. Developed by researchers at The Cyprus Institute,
+    the new tool is designed to improve forest monitoring
+- claim: The inventory combines an AI-based method with Department of Forests field
+    measurements and allows repeated monitoring of tree biomass and carbon stocks.
+  url: https://en.politis.com.cy/news/environment/1023624/cyprus-gets-first-nationwide-tree-level-biomass-and-carbon-inventory
+  fetched: '2026-11-12'
+  quote: The inventory combines a new artificial intelligence-based methodology with
+    field measurements collected by the Cyprus Department of Forests.
+- claim: A 2025 Frontiers in Remote Sensing paper presents a deep learning neural
+    network applied to 10 cm airborne images to segment tree crowns and count trees
+    in Cyprus, and says it lays the foundation for a tree-level inventory.
+  url: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1498217/full
+  fetched: '2026-11-12'
+  quote: This work lays the foundation for establishing a tree-level inventory for
+    Cyprus using airborne remote-sensing.
+- claim: The paper describes the model as a deep learning neural network applied to
+    high-resolution airborne images.
+  url: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1498217/full
+  fetched: '2026-11-12'
+  quote: This study presents a deep learning neural network model applied to high
+    resolution (10 cm) airborne images collected during the year 2019
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: the-cyprus-institute
+  url: https://en.politis.com.cy/news/environment/1023624/cyprus-gets-first-nationwide-tree-level-biomass-and-carbon-inventory
+  fetched: '2026-11-12'
+  quote: Developed by researchers at The Cyprus Institute, the new tool is designed
+    to improve forest monitoring
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

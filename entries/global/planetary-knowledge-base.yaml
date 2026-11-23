@@ -1,0 +1,46 @@
+id: planetary-knowledge-base
+kind: project
+name: Planetary Knowledge Base
+also_known_as:
+- PKB
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+status: active
+summary: Graph of life built by the Natural History Museum, London from collections and literature,
+  intended for global research use. AWS described it as a prototype in 2024.
+facts:
+- claim: AWS says NHM plans to make it available globally and that it was still in the prototyping
+    phase.
+  url: https://aws.amazon.com/blogs/publicsector/building-nhm-londons-planetary-knowledge-base-with-amazon-neptune-and-the-registry-of-open-data-on-aws
+  fetched: '2026-10-30'
+  quote: Although still in the prototyping phase, NHM plans to make this scientific resource,
+    named the Planetary Knowledge Base (PKB), available globally
+- claim: One of three focus areas of the NHM AI and Innovation team.
+  url: https://nhmuk.github.io/ddi/teams/ai-innovation
+  fetched: '2026-10-30'
+  quote: Building a planetary knowledge base, a graph of life constructed from collections
+    and literature.
+- claim: NHM applies graph neural networks to its knowledge graph.
+  url: https://aws.amazon.com/blogs/publicsector/building-nhm-londons-planetary-knowledge-base-with-amazon-neptune-and-the-registry-of-open-data-on-aws
+  fetched: '2026-10-30'
+  quote: applying graph neural networks (GNNs) on that graph
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: natural-history-museum-london
+  url: https://aws.amazon.com/blogs/publicsector/building-nhm-londons-planetary-knowledge-base-with-amazon-neptune-and-the-registry-of-open-data-on-aws
+  fetched: '2026-10-30'
+  quote: NHM plans to make this scientific resource, named the Planetary Knowledge Base (PKB),
+    available globally
+found_by:
+- link-from:natural-history-museum-london
+added_by: agent
+checked: '2026-10-30'

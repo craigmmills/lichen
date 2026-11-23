@@ -1,0 +1,64 @@
+id: gbif-madagascar
+kind: programme
+name: GBIF Madagascar
+scope: mg
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- mg
+status: active
+summary: Madagascar's voting participant node in GBIF's Africa region, registered in Antananarivo, which
+  the Centre National de Recherches sur l'Environnement says it hosts and which endorses MadBIF as a publisher.
+facts:
+- claim: GBIF's registry lists GBIF Madagascar as a voting participant node in the Africa region.
+  url: https://api.gbif.org/v1/node/country/MG
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Madagascar"'
+- claim: The node's registered address is in Antananarivo.
+  url: https://api.gbif.org/v1/node/country/MG
+  fetched: 2026-11-08
+  quote: Antananarivo\n101\nMadagascar"],"country":"MG"
+- claim: GBIF's registry lists GBIF Madagascar as the country node for Madagascar, with voting status.
+  url: https://api.gbif.org/v1/node/2dbfc5c5-51b5-4494-9dfc-4d3f013a3b64
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Madagascar","participantTitle":"Madagascar"'
+- claim: The Centre National de Recherches sur l'Environnement says, in its GBIF publisher record, that
+    it hosts the Madagascar node.
+  url: https://api.gbif.org/v1/organization/3e2af53b-218c-4345-8aa6-90e9415523bc
+  fetched: 2026-11-08
+  quote: Hosting Madagascar BIF Node
+- claim: GBIF's node record for Madagascar is titled GBIF Madagascar and gives madbif.mg as its home page.
+  url: https://api.gbif.org/v1/node/2dbfc5c5-51b5-4494-9dfc-4d3f013a3b64
+  fetched: 2026-11-08
+  quote: GBIF Madagascar
+- claim: GBIF lists Madagascar Biodiversity Information Facility (MadBIF) as a publisher endorsed by that
+    node.
+  url: https://api.gbif.org/v1/organization/c8ce072d-9c61-4ec8-b8e7-0c36a8122791
+  fetched: 2026-11-08
+  quote: Madagascar Biodiversity Information Facility
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/2dbfc5c5-51b5-4494-9dfc-4d3f013a3b64
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- type: partners-with
+  to: centre-national-de-recherches-sur-lenvironnement
+  url: https://api.gbif.org/v1/organization/3e2af53b-218c-4345-8aa6-90e9415523bc
+  fetched: 2026-11-08
+  quote: Hosting Madagascar BIF Node
+runner: unknown
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+also_known_as:
+- MadBIF
+- GBIF Madagascar
+roles:
+- supplies-data

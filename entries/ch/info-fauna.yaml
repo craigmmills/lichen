@@ -1,0 +1,69 @@
+id: info-fauna
+kind: organisation
+name: info fauna
+also_known_as:
+- CSCF
+- Info Fauna
+scope: ch
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: ch
+scale: national
+status: active
+website: https://www.infofauna.ch
+summary: The national data and information centre on Swiss fauna, which publishes free 5 by
+  5 km distribution maps of animal species and is a member of Info Species.
+facts:
+- claim: Receives butterfly, snail and aquatic invertebrate data from Biodiversity Monitoring
+    Switzerland.
+  url: https://biodiversitymonitoring.ch/index.php/en/about-us/our-organisation
+  quote: data on butterflies, snails and aquatic invertebrates to info fauna
+  fetched: '2026-11-02'
+- claim: National data and information centre on the fauna of Switzerland.
+  url: https://www.infofauna.ch
+  quote: Centre national de données et d’informations sur la faune de Suisse
+  fetched: '2026-11-02'
+- claim: Its July 2026 news teaser says the work is far from finished when an observation
+    is entered in Webfauna.
+  url: https://www.infofauna.ch
+  quote: Lorsqu'une observation est saisie dans Webfauna, le travail est loin d'être terminé.
+  fetched: '2026-11-02'
+- claim: A study analysed more than 1.2 million observations from its database.
+  url: https://www.infofauna.ch
+  quote: En analysant plus de 1,2 million de données d'observation issues de la banque de
+    données d’info fauna
+  fetched: '2026-11-02'
+- claim: The GBIF node record gives a Neuchâtel address for GBIF Switzerland staff care of
+    Info Fauna.
+  url: https://api.gbif.org/v1/node/169eb292-376b-4cc6-8e31-9c2c432de0ad
+  quote: CH-2000 Neuchâtel
+  fetched: '2026-11-02'
+- claim: Publishes distribution maps of Swiss animal species at 5 by 5 km resolution free
+    of charge.
+  url: https://www.infofauna.ch/de/daten/daten-beziehen
+  fetched: '2026-11-02'
+  quote: Info fauna stellt die Verbreitungskarten der Tierarten der Schweiz kostenlos zur
+    Verfügung (Auflösung 5x5 km).
+- claim: Listed as a member of Info Species.
+  url: https://naturwissenschaften.ch/biodiversity-explained/beobachten_dokumentieren/daten/datenzentren_der_schweiz
+  fetched: '2026-11-02'
+  quote: Info Fauna - Centre suisse de cartographie de la faune
+links:
+- type: partners-with
+  to: infospecies
+  url: https://naturwissenschaften.ch/biodiversity-explained/beobachten_dokumentieren/daten/datenzentren_der_schweiz
+  fetched: '2026-11-02'
+  quote: Info Fauna - Centre suisse de cartographie de la faune
+found_by:
+- checklist:2
+- link-from:gbif-switzerland
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision

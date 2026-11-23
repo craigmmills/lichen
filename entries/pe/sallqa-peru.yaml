@@ -1,0 +1,41 @@
+id: sallqa-peru
+kind: organisation
+name: Asociación para la Conservación y el Desarrollo Sostenible Sallqa Perú
+also_known_as:
+- Sallqa Perú
+scope: pe
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+hq: pe
+scale: national
+status: active
+website: https://sallqaperu.org
+summary: A Peruvian nonprofit, listed by OpenAlex, whose site describes MashUPerú as Peru's
+  first bat sound library of acoustically characterised species calls.
+facts:
+- claim: Its site describes MashUPerú as a library for viewing the calls of acoustically characterised
+    bat species and their georeferenced variations.
+  url: https://sallqaperu.org
+  fetched: '2026-11-03'
+  quote: MashUPerú es una biblioteca que permite visualizar los llamados de las diferentes
+    especies de murciélagos caracterizados acústicamente y sus variaciones georeferenciadas.
+- claim: Its site names MashUPerú as Peru's first bat sound library.
+  url: https://sallqaperu.org
+  fetched: '2026-11-03'
+  quote: Primera Sonoteca de Perú para murciélagos MashUPerú
+- claim: OpenAlex lists it as a nonprofit in Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "https://sallqaperu.org", "country_code": "PE", "type": "nonprofit"'
+links: []
+found_by:
+- register:openalex-institution
+- checklist:4
+added_by: agent
+checked: '2026-11-03'

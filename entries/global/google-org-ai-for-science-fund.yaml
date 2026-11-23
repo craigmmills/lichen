@@ -1,0 +1,28 @@
+id: google-org-ai-for-science-fund
+kind: programme
+name: Google.org AI for Science fund
+scope: global
+ai_label: ai
+realms:
+- land
+status: active
+summary: $20 million Google.org fund for academic, nonprofit and startup organisations using AI on scientific problems; its biodiversity recipients include UNEP-WCMC, mapping plant species, and The Rockefeller University, sequencing genomes.
+facts:
+- claim: UNEP-WCMC uses language models to map all 350,000 known plant species.
+  url: https://blog.google/company-news/outreach-and-initiatives/google-org/announcing-ai-for-science-awardees/
+  fetched: &id001 2026-10-30
+  quote: creating a definitive distribution map of all 350,000 known plant species
+- claim: Rockefeller University uses AI to speed genomic blueprints for 1.8 million species.
+  url: https://blog.google/company-news/outreach-and-initiatives/google-org/announcing-ai-for-science-awardees/
+  fetched: *id001
+  quote: accelerating the production of high-quality genomic blueprints for the planet’s 1.8 million species
+links:
+- type: run-by
+  to: google-org
+  url: https://blog.google/company-news/outreach-and-initiatives/google-org/announcing-ai-for-science-awardees/
+  fetched: *id001
+  quote: Google.org created a $20 million AI for Science fund
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

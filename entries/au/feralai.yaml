@@ -1,0 +1,27 @@
+id: feralai
+kind: model
+name: FeralAI
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: KJR software that identifies and categorises animals by species in thermal
+  drone images.
+facts:
+- claim: Identifies and categorises animals by species.
+  url: https://kjr.com.au/feral-ai/
+  fetched: '2026-10-31'
+  quote: This software identifies and categorises animals by species
+links:
+- type: run-by
+  to: kjr
+  url: https://kjr.com.au/feral-ai/
+  fetched: '2026-10-31'
+  quote: our proprietary FeralAI software
+found_by:
+- link-from:kjr
+added_by: agent
+checked: '2026-10-31'

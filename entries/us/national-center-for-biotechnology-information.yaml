@@ -1,0 +1,41 @@
+id: national-center-for-biotechnology-information
+kind: organisation
+name: National Center for Biotechnology Information
+also_known_as:
+- NCBI
+scope: us
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+hq: us
+scale: global
+status: active
+summary: US public genetic data body that publishes RefSeq targeted loci sets and NCBI Taxonomy
+  through GBIF. Its own site refused us.
+facts:
+- claim: Publishes a curated reference sequence set with partner databases.
+  url: https://api.gbif.org/v1/organization/2f2e4f28-d929-4609-937b-9a8ebd265159/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: a curated and comprehensive set of complete and near full length Reference Sequence
+    records
+- claim: Publishes NCBI Taxonomy through GBIF.
+  url: https://api.gbif.org/v1/organization/2f2e4f28-d929-4609-937b-9a8ebd265159/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: NCBI Taxonomy
+- claim: Gives an address in Bethesda, Maryland.
+  url: https://www.ncbi.nlm.nih.gov/home/about/contact/
+  fetched: '2026-10-31'
+  quote: Bethesda, MD 20894
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+website: https://www.ncbi.nlm.nih.gov/

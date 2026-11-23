@@ -1,0 +1,37 @@
+id: landsteward
+kind: model
+name: LandSteward
+also_known_as: []
+scope: ca
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ca
+summary: A platform using remote sensing data and AI analysis tools to monitor changes
+  in the landscape. It was created with Island Nature Trust and is sold by Korotu
+  Technology.
+facts:
+- claim: Uses remote sensing data and AI analysis tools to monitor landscape change.
+  url: https://islandnaturetrust.ca/?p=13312
+  fetched: '2026-10-31'
+  quote: a cutting edge technology utilizing remote sensing data and artificial intelligence
+    driven analysis tools to monitor changes in the landscape
+links:
+- type: run-by
+  to: korotu-technology
+  url: https://clean50.com/honourees/korotu-team/
+  fetched: '2026-10-31'
+  quote: "These three leaders are working together to solve this with a software platform, LandSteward, that monitors nature from satellites, drones and ground sensors"
+- type: partners-with
+  to: island-nature-trust
+  url: https://islandnaturetrust.ca/?p=13312
+  fetched: '2026-10-31'
+  quote: INT collaborated with Korotu Technology Inc. (Korotu)
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'

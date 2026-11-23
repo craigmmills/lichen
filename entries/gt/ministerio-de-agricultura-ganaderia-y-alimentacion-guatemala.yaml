@@ -1,0 +1,46 @@
+id: ministerio-de-agricultura-ganaderia-y-alimentacion-guatemala
+kind: organisation
+name: Ministerio de Agricultura, Ganadería y Alimentación
+also_known_as:
+- MAGA
+scope: gt
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- gt
+scale: national
+hq: unknown
+status: active
+summary: Guatemala's agriculture ministry, which builds the 2025 vegetation cover
+  and land use map at 1:50,000, described in its catalogue as validated in all 22
+  departments.
+facts:
+- claim: The ministry's catalogue describes the 2025 vegetation cover and land use
+    map of Guatemala, at 1:50,000, as an update by the Ministerio de Agricultura,
+    Ganadería y Alimentación (MAGA) through DIGEGR.
+  url: https://apps.maga.gob.gt/sieagro/Normativas?categoriaId=204&clasificacionId=21&page=1&sortOrder=FechaDocumento_desc&tipoId=1
+  fetched: 2026-11-15
+  quote: EL MAPA DE COBERTURA VEGETAL Y USO DE LA TIERRA 2025 DE GUATEMALA, A ESCALA
+    1:50,000, ES UNA ACTUALIZACION ESTRATEGICA DEL MINISTERIO DE AGRICULTURA, GANADERIA
+    Y ALIMENTACION (MAGA) A TRAVES DE LA DIGEGR.
+- claim: The catalogue says the map is validated in the 22 departments and details
+    forests, farmland and urban areas.
+  url: https://apps.maga.gob.gt/sieagro/Normativas?categoriaId=204&clasificacionId=21&page=1&sortOrder=FechaDocumento_desc&tipoId=1
+  fetched: 2026-11-15
+  quote: VALIDADA EN LOS 22 DEPARTAMENTOS, DETALLA BOSQUES, TIERRAS AGRICOLAS Y AREAS
+    URBANAS
+links:
+- type: builds
+  to: mapa-de-cobertura-vegetal-y-uso-de-la-tierra-2025-guatemala
+  url: https://apps.maga.gob.gt/sieagro/Normativas?categoriaId=204&clasificacionId=21&page=1&sortOrder=FechaDocumento_desc&tipoId=1
+  fetched: 2026-11-15
+  quote: ES UNA ACTUALIZACION ESTRATEGICA DEL MINISTERIO DE AGRICULTURA, GANADERIA
+    Y ALIMENTACION (MAGA) A TRAVES DE LA DIGEGR
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

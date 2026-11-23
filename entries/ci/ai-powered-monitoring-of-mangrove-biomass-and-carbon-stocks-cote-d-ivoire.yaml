@@ -1,0 +1,108 @@
+id: ai-powered-monitoring-of-mangrove-biomass-and-carbon-stocks-cote-d-ivoire
+kind: project
+name: AI-powered Monitoring of Mangrove Biomass and Carbon Stocks (Côte d'Ivoire)
+scope: ci
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ci
+- sn
+status: active
+summary: A mangrove biomass and carbon monitoring pilot at Fresco and Sassandra, led and built by data354,
+  using satellite imagery and machine learning calibrated with 300 field plots, now expanding to Senegal.
+facts:
+- claim: ITU's AI for Good report describes Sentinel-1 radar, Sentinel-2 optical and GEDI LiDAR imagery
+    with Random Forest and XGBoost models calibrated with 300 field inventory plots, and potential CNN-based
+    models.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page196.html
+  fetched: 2026-11-08
+  quote: Calibrated with 300 field inventory plots
+- claim: The report gives the pilot sites as the Fresco and Sassandra mangroves in Côte d'Ivoire, with
+    a new pilot in Senegal for 2025 to 2026.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page196.html
+  fetched: 2026-11-08
+  quote: Côte d'Ivoire (Fresco and Sassandra mangroves)
+- claim: The report gives its status as ongoing pilots in Côte d'Ivoire in 2024 to 2025, with expansion
+    to Senegal under way.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: 'Use Case Status: Ongoing pilots in Côte d''Ivoire (2024–2025), expansion to Senegal underway
+    (2025–2026)'
+- claim: The report describes supervised machine learning models trained with 300 ground-truth inventory
+    plots.
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: Supervised machine learning models trained with 300 ground-truth inventory plots
+  ai_type: ml-supervised
+- claim: An ONF International note says the project was funded by the French-Ivorian C2D programme, under
+    ONF International's responsibility, drawing on IGN, IGNFI, SODEFOR, OIPR and ANADER.
+  url: https://ci.chm-cbd.net/sites/ci/files/2022-05/ONFI_IFFN_Cote_Ivoire-1.pdf
+  fetched: 2026-11-08
+  quote: financé par le programme C2D franco-ivoirien, sous la responsabilité du bureau d'études ONF Internatio-
+    nal 1, s'appuyant d'une part sur l'IGN et son ancienne filiale internationale IGNFI
+- claim: The note says the results were presented in Abidjan on 29 June 2021.
+  url: https://ci.chm-cbd.net/sites/ci/files/2022-05/ONFI_IFFN_Cote_Ivoire-1.pdf
+  fetched: 2026-11-08
+  quote: Les résultats de ce projet d'Inventaire Forestier et Faunique National (IFFN) ont été présentés
+    à Abidjan le 29 juin 2021
+- claim: The note says the forest inventory rests on 1,387 sampling units.
+  url: https://ci.chm-cbd.net/sites/ci/files/2022-05/ONFI_IFFN_Cote_Ivoire-1.pdf
+  fetched: 2026-11-08
+  quote: L'inventaire forestier repose sur 1387 unités d'échantil -
+- claim: The note says the inventory data were handed to the Ministry of Water and Forests, which aims
+    to run the next inventory itself.
+  url: https://ci.chm-cbd.net/sites/ci/files/2022-05/ONFI_IFFN_Cote_Ivoire-1.pdf
+  fetched: 2026-11-08
+  quote: de l'inventaire ont été livrées au MINEF qui s'est donné l'objectif d'assumer le prochain inventaire
+    en créant
+- claim: African Sustainability Matters reports that the 2021 inventory estimated national forest cover
+    at 2.97 million hectares, 9.2% of the territory.
+  url: https://africasustainabilitymatters.com/cote-divoire-turns-to-ai-and-satellite-data-to-strengthen-forest-monitoring-and-climate-finance/
+  fetched: 2026-11-08
+  quote: The National Forest and Wildlife Inventory published in 2021 estimated national forest cover
+    at 2.97 million hectares, equivalent to 9.2% of the country's territory.
+links:
+- type: led-by
+  to: data354
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: data354 – Lead partner (AI model development, field integration, remote sensing)
+- type: built-by
+  to: data354
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: data354 – Lead partner (AI model development, field integration, remote sensing)
+- type: funded-by
+  to: lacuna-fund
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: Lacuna Fund – Funding via "Climate and Forests Machine Learning Datasets" program
+- type: partners-with
+  to: actumdev
+  url: https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/files/basic-html/page197.html
+  fetched: 2026-11-08
+  quote: ActumDev – Local field data collection teams in Côte d'Ivoire
+- type: run-by
+  to: onf-international
+  url: https://ci.chm-cbd.net/sites/ci/files/2022-05/ONFI_IFFN_Cote_Ivoire-1.pdf
+  fetched: 2026-11-08
+  quote: sous la responsabilité du bureau d'études ONF Internatio-
+- type: funded-by
+  to: contrat-de-desendettement-et-de-developpement
+  url: https://ci.chm-cbd.net/sites/ci/files/2022-05/ONFI_IFFN_Cote_Ivoire-1.pdf
+  fetched: 2026-11-08
+  quote: financé par le programme C2D franco-ivoirien
+found_by:
+- checklist:7
+- checklist:2
+added_by: agent
+checked: 2026-11-08
+also_known_as:
+- IFFN
+- National Forest and Wildlife Inventory

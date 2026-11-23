@@ -1,0 +1,39 @@
+id: erisnet
+kind: model
+name: ERISNET
+scope: mx
+ai_label: ai
+status: unknown
+runner: unknown
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- mx
+summary: Model that ECOSUR calls the first sargassum detection system based on AI and satellite technology,
+  built by El Colegio de la Frontera Sur; its status is unknown.
+facts:
+- claim: ECOSUR calls it the first sargassum detection system based on AI and satellite technology.
+  url: https://www.ecosur.mx/erisnet-deteccion-del-sargazo-en-las-costas-del-caribe-mexicano/
+  fetched: '2026-11-03'
+  quote: el primer sistema de detección de sargazo basado en inteligencia artificial y tecnología satelital
+- claim: OpenAlex gives the title of the paper as a deep neural network for Sargassum detection along
+    the coastline of the Mexican Caribbean.
+  url: https://api.openalex.org/works?filter=doi:10.7717/peerj.6842&select=display_name,authorships
+  fetched: 2026-11-03
+  quote: 'ERISNet: deep neural network for Sargassum detection along the coastline of the Mexican Caribbean'
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: el-colegio-de-la-frontera-sur
+  url: https://www.ecosur.mx/erisnet-deteccion-del-sargazo-en-las-costas-del-caribe-mexicano/
+  fetched: '2026-11-03'
+  quote: investigadores de ECOSUR desarrollaron ERISNET
+found_by:
+- checklist:3
+- link-from:el-colegio-de-la-frontera-sur
+added_by: agent
+checked: '2026-11-03'
+ai_types:
+- deep-learning

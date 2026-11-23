@@ -1,0 +1,44 @@
+id: kastamonu-university
+kind: organisation
+name: Kastamonu University
+also_known_as:
+- Kastamonu Üniversitesi
+scope: tr
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: tr
+scale: national
+status: active
+summary: University whose academic data system lists a 2018 paper using artificial neural
+  networks and regression with Landsat 8 OLI data to predict Crimean pine stand attributes.
+facts:
+- claim: Its academic data system lists a 2018 paper by a Kastamonu University professor on
+    artificial intelligence to predict forest stand attributes from Landsat 8 OLI data.
+  url: https://unis.kastamonu.edu.tr/yayin-detay/2_D3OtC0_29/artificial-intelligence-applications-for-predicting-some-stand-attributes-using-landsat-8-oli-satellite-data-a-case-study-from-turkey/pdf%3D1
+  fetched: '2026-11-03'
+  quote: 'Artificial intelligence applications for predicting some stand attributes using
+    Landsat 8 OLI satellite data: A case study from Turkey'
+- claim: The study fitted stand parameters of Crimean pine stands with multiple linear regression
+    and artificial neural networks.
+  ai_type: ml-supervised
+  url: https://unis.kastamonu.edu.tr/yayin-detay/2_D3OtC0_29/artificial-intelligence-applications-for-predicting-some-stand-attributes-using-landsat-8-oli-satellite-data-a-case-study-from-turkey/pdf%3D1
+  fetched: '2026-11-03'
+  quote: The multiple linear regression analysis and artificial neural networks (ANN) were
+    utilized to fit stand parameters using texture values.
+- claim: The page gives the rectorate address at the Kuzeykent campus in Kastamonu.
+  url: https://unis.kastamonu.edu.tr/yayin-detay/2_D3OtC0_29/artificial-intelligence-applications-for-predicting-some-stand-attributes-using-landsat-8-oli-satellite-data-a-case-study-from-turkey/pdf%3D1
+  fetched: '2026-11-03'
+  quote: Kastamonu Üniversitesi Rektörlüğü, Kuzeykent Kampüsü, Merkez/Kastamonu
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

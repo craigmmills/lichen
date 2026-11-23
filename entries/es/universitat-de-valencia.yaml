@@ -1,0 +1,40 @@
+id: universitat-de-valencia
+kind: organisation
+name: Universitat de València
+also_known_as:
+- UV
+- University of Valencia
+scope: es
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Spanish university that runs an Image Processing Laboratory, whose author is first
+  author of a 2025 paper on generative networks for gap filling of Sentinel-2 reflectances.
+facts:
+- claim: An author at the university's Image Processing Laboratory, Maria Gonzalez-Calabuig,
+    is first author of a 2025 paper on generative networks for gap filling of Sentinel-2 reflectances.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I16097986,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Generative networks for spatio-temporal gap filling of Sentinel-2 reflectances
+- claim: The first author's affiliation is the Image Processing Laboratory of the university.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I16097986,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Image Processing Laboratory, Universitat de Valencia
+links:
+- type: runs
+  to: image-processing-laboratory-valencia
+  url: https://news.pcuv.es/home-pcuv-institutos-pcuv-ipl-jos%C3%A9-antonio-sobrino-nuevo-director-del-image-processing-laboratory-de-la-universitat-de-val%C3%A8ncia
+  fetched: '2026-11-08'
+  quote: Image Processing Laboratory (IPL) de la Universitat de València (UV)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

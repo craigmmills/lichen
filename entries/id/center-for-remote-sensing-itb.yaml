@@ -1,0 +1,44 @@
+id: center-for-remote-sensing-itb
+kind: organisation
+name: Center for Remote Sensing, Institut Teknologi Bandung
+also_known_as:
+- CRS-ITB
+scope: id
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: id
+scale: national
+status: active
+summary: Research centre at ITB whose authors publish on decision tree and random forest classification
+  for mangrove mapping.
+facts:
+- claim: Authors list this affiliation on a paper on mangrove mapping in Sembilang National
+    Park.
+  url: https://api.openalex.org/works/W4313467527?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Center for Remote Sensing, Institut Teknologi Bandung, Jl. Ganesha No. 10, Bandung
+    40132, Indonesia
+- claim: Paper title.
+  url: https://api.openalex.org/works/W4313467527?select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Decision Tree and Random Forest Classification Algorithms for Mangrove Forest Mapping
+    in Sembilang National Park
+  ai_type: ml-supervised
+- claim: OpenAlex places Bandung Institute of Technology in Bandung.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=Institut%20Teknologi%20Bandung
+  quote: '"display_name": "Bandung Institute of Technology", "homepage_url": "https://itb.ac.id/",
+    "geo": {"city": "Bandung"'
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

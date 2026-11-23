@@ -1,0 +1,34 @@
+id: scratchpads
+kind: programme
+name: Scratchpads
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+status: unknown
+runner: unknown
+website: http://scratchpads.eu/
+summary: Application for research communities to manage, share and publish taxonomic
+  data online. Its own site refused the fetcher; this is what GBIF says.
+facts:
+- claim: GBIF describes it as an application for publishing taxonomic data.
+  url: https://api.gbif.org/v1/organization/315b3c03-4a0a-424e-83a5-d25aa748e666
+  fetched: '2026-10-30'
+  quote: enable communities of researchers to manage, share and publish taxonomic
+    data online
+- claim: Publishes the dataset "Myriatrix" on GBIF.
+  url: https://api.gbif.org/v1/organization/315b3c03-4a0a-424e-83a5-d25aa748e666/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Myriatrix
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/315b3c03-4a0a-424e-83a5-d25aa748e666/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

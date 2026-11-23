@@ -1,0 +1,29 @@
+id: global-lakes-and-wetlands-database
+kind: dataset
+name: Global Lakes and Wetlands Database
+also_known_as:
+- GLWD
+scope: global
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://www.hydrosheds.org/products/glwd
+summary: Global map of inland surface waters distinguished into 33 waterbody and wetland types.
+facts:
+- claim: Global map with 33 waterbody and wetland types.
+  url: https://www.hydrosheds.org/products/glwd
+  fetched: '2026-10-30'
+  quote: provides a comprehensive and seamless global map of inland surface waters distinguished into 33 waterbody and wetland types
+links:
+- type: run-by
+  to: hydrosheds
+  url: https://www.hydrosheds.org/products/glwd
+  fetched: '2026-10-30'
+  quote: The Global Lakes and Wetlands Database (GLWD) version 2
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

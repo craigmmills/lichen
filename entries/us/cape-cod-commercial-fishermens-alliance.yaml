@@ -1,0 +1,44 @@
+id: cape-cod-commercial-fishermens-alliance
+kind: organisation
+name: Cape Cod Commercial Fishermen's Alliance
+scope: us
+sector: community
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+scale: local
+website: https://capecodfishermen.org/
+countries:
+- us
+status: active
+summary: Fishing community organisation on Cape Cod and NFWF grantee developing AI to identify
+  sea scallop reproductive stages from electronic monitoring images.
+facts:
+- claim: Grant for AI on sea scallop research data.
+  url: https://www.nfwf.org/sites/default/files/2025-07/nfwf-emr-20250714-gs.pdf
+  fetched: '2026-10-30'
+  quote: Developing Artificial Intelligence for Sea Scallop Research
+- claim: Its about page gives 1566 Main Street, Chatham, Massachusetts.
+  url: https://capecodfishermen.org/about
+  fetched: '2026-10-31'
+  quote: 1566 Main Street
+- claim: The IRS exempt organisation record, through ProPublica, lists Cape Cod Commericial
+    Fishermens Alliance Inc at Chatham, Massachusetts.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/43138784.json
+  fetched: '2026-10-31'
+  quote: '"city":"Chatham","state":"MA"'
+links:
+- type: funded-by
+  to: national-fish-and-wildlife-foundation
+  url: https://www.nfwf.org/sites/default/files/2025-07/nfwf-emr-20250714-gs.pdf
+  fetched: '2026-10-30'
+  quote: 'Grantee: Cape Cod Commercial Fishermen’s Alliance'
+found_by:
+- link-from:national-fish-and-wildlife-foundation
+added_by: agent
+checked: '2026-10-30'

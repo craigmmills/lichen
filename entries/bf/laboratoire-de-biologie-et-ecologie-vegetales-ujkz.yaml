@@ -1,0 +1,57 @@
+id: laboratoire-de-biologie-et-ecologie-vegetales-ujkz
+kind: organisation
+name: Laboratoire de Biologie et Ecologie Végétales, Université Joseph Ki-Zerbo
+also_known_as:
+- Laboratory of Plant Biology and Ecology, University Joseph Ki-Zerbo
+scope: bf
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+- species-distribution
+hq: bf
+countries:
+- bf
+scale: national
+status: active
+summary: University laboratory in Burkina Faso, listed on a 2022 Dori land cover study
+  that found natural formations fell 16.86% between 1995 and 2015, and on a 2024 paper
+  on Detarium microcarpum distribution under climate change.
+facts:
+- claim: OpenAlex gives the laboratory as the only affiliation of the first author
+    of a 2022 paper on land use and land cover change in the commune of Dori.
+  url: https://api.openalex.org/works/W4223469372?select=id,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-15'
+  quote: Laboratory of Plant Biology and Ecology, University Joseph Ki-Zerbo, Ouagadougou,
+    Burkina Faso
+- claim: The Dori study interpreted Landsat images from 1995, 2006 and 2015.
+  url: https://doi.org/10.25081/jaa.2022.v8.7248
+  fetched: '2026-11-15'
+  quote: The methodological approach is based on the interpretation of Landsat images
+    from three periods (1995, 2006 and 2015).
+- claim: It found the area of natural formations fell by 16.86%.
+  url: https://doi.org/10.25081/jaa.2022.v8.7248
+  fetched: '2026-11-15'
+  quote: Cartographic data analysis revealed a decrease in the area of natural formations
+    by 16.86%
+- claim: OpenAlex gives the laboratory as the first affiliation of the first author
+    of a 2024 paper on the potential distribution of Detarium microcarpum in Burkina
+    Faso under climate change scenarios.
+  url: https://api.openalex.org/works/W4402667370?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-15'
+  quote: Laboratory of Plant Biology and Ecology, University Joseph Ki-Zerbo, 03 B.P.
+    7021, Ouagadougou 03, Burkina Faso
+- claim: Title of the 2024 paper.
+  url: https://api.openalex.org/works/W4402667370?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-15'
+  quote: Potential distribution of Detarium microcarpum under different climate change
+    scenarios in Burkina Faso
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

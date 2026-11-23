@@ -1,0 +1,57 @@
+id: cambridge-centre-for-earth-observation
+kind: organisation
+name: Cambridge Centre for Earth Observation
+also_known_as: []
+scope: gb
+sector: academic
+roles:
+- builds-ai
+- convenes
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+hq: gb
+scale: local
+status: active
+website: https://eo.conservation.cam.ac.uk/
+summary: Central resource for remote sensing research at the University of Cambridge and its
+  partners, listing TESSERA among its projects and forest AI researchers among its members.
+facts:
+- claim: Says it exists to monitor environmental change and human effects on the planet.
+  url: https://eo.conservation.cam.ac.uk/
+  fetched: '2026-10-31'
+  quote: Never has it been so important to monitor environmental change and understand the
+    consequences of human activities on planetary processes.
+- claim: Lists TESSERA under its projects.
+  url: https://eo.conservation.cam.ac.uk/
+  fetched: '2026-10-31'
+  quote: Projects TESSERA
+- claim: Member Emily Lines publishes deep learning work on forest canopy imagery.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7214235161|W4414900871|W4412055412&select=id,title,publication_year,authorships&per_page=10
+  fetched: '2026-10-31'
+  quote: Deep Learning-Based Segmentation Performance
+  ai_type: deep-learning
+- claim: Monitoring environmental change.
+  url: https://eo.conservation.cam.ac.uk/
+  quote: Never has it been so important to monitor environmental change
+  fetched: '2026-10-30'
+- claim: Co-directed by Emily Lines.
+  url: https://www.cam.ac.uk/stories/ai-flight-forest-monitoring
+  quote: Dr Emily Lines, Co-Director of the Cambridge Centre for Earth Observation
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: university-of-cambridge
+  url: https://eo.conservation.cam.ac.uk/about/
+  fetched: '2026-10-31'
+  quote: The Centre for Earth Observation showcases that expertise, providing a central resource
+    for discovering more about the research conducted by University and partner organisations
+found_by:
+- checklist:research
+- link-from:emily-lines
+added_by: agent
+checked: '2026-10-31'

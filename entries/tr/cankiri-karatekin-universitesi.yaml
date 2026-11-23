@@ -1,0 +1,57 @@
+id: cankiri-karatekin-universitesi
+kind: organisation
+name: Çankırı Karatekin Üniversitesi
+also_known_as:
+- Çankırı Karatekin University
+scope: tr
+sector: academic
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+hq: unknown
+countries:
+- tr
+scale: national
+status: active
+summary: University whose forestry researchers are named on a 2020 deep-learning paper on
+  tree height and diameter, and a machine learning tree species mapping study using Sentinel-2
+  in Bolu Aladağ.
+facts:
+- claim: A 2020 paper by İlker Ercanlı, affiliated with its Faculty of Forestry, concerns
+    deep-learning applications for predicting relationships between tree height and diameter
+    at breast height.
+  url: https://api.openalex.org/works/W3031105282?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Innovative deep learning artificial intelligence applications for predicting relationships
+    between individual tree height and diameter at breast height
+  ai_type: deep-learning
+- claim: Faculty of Forestry address in the paper's affiliation line.
+  url: https://api.openalex.org/works/W3031105282?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Karatekin University, Faculty of Forestry, 18200
+- claim: A paper on machine learning tree species mapping from Sentinel-2 data says the study
+    was part of a PhD carried out in its Department of Forest Engineering.
+  url: https://dergipark.org.tr/en/pub/ajfr/article/1907573
+  fetched: '2026-11-03'
+  quote: This study was carried out as part of the Ph.D. research of Arif Aksüt conducted
+    at Çankırı Karatekin University, Graduate School of Natural and Applied Sciences, Department
+    of Forest Engineering.
+- claim: The paper maps tree species with machine learning from multi-temporal Sentinel-2
+    data in the Bolu Aladağ forest.
+  url: https://dergipark.org.tr/en/pub/ajfr/article/1907573
+  fetched: '2026-11-03'
+  quote: 'Machine learning based tree species mapping from multi-temporal Sentinel-2 data:
+    Bolu Aladağ forest'
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03
+techniques:
+- remote-sensing

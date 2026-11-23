@@ -1,0 +1,44 @@
+id: western-sydney-university
+kind: organisation
+name: Western Sydney University
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- computer-vision
+- other
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: Australian university whose author leads 2025 computer vision and machine learning
+  research on turtle roadkill; a School of Science author leads 2026 research on platypus
+  behaviour from accelerometry.
+facts:
+- claim: A Western Sydney University author leads a 2025 paper using computer vision and machine
+    learning to mitigate roadkill of turtles in Australia.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I63525965,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'Mitigating Roadkill Using Computer Vision and Machine Learning Techniques: A Case
+    Study on Turtles in Australia'
+  fetched: '2026-11-08'
+- claim: The lead author is listed with the School of Computer, Data and Mathematical Sciences
+    at Western Sydney University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I63525965,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Western Sydney University,School of Computer, Data and Mathematical Sciences,Penrith,Australia
+  fetched: '2026-11-08'
+- claim: A School of Science author leads a 2026 paper on resolving platypus behaviour from
+    accelerometry.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I63525965,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'Resolving platypus behaviour from accelerometry: frequency-domain features improve
+    detection of rhythmic behaviours'
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

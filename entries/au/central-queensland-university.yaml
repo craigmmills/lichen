@@ -1,0 +1,51 @@
+id: central-queensland-university
+kind: organisation
+name: Central Queensland University
+also_known_as:
+- CQUniversity
+scope: au
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: University with authors leading a 2025 paper comparing YOLO and RT-DETR models for
+  coral bleaching detection and a 2026 paper on drone mapping of invasive rangeland plants.
+facts:
+- claim: A CQU author leads a 2025 paper comparing YOLO and RT-DETR machine learning models
+    for coral bleaching detection.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I74899385,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Comparative Evaluation of YOLO and RT-DETR Machine Learning Models for Coral Bleaching
+    Detection
+  fetched: '2026-11-08'
+- claim: The coral bleaching paper's lead author is listed with the School of Engineering
+    and Technology, Central Queensland University, Mackay.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I74899385,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: School of Engineering and Technology, Central Queensland University,Mackay,Queensland,Australia
+  fetched: '2026-11-08'
+- claim: An author from its Centre of Machine Learning, Networking, and Education Technologies
+    leads a 2026 paper on drone mapping of invasive plants in Australian rangelands.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I74899385,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: A Hybrid UAV Ground-Truthing Methodology for Mapping Invasive Plant Species in Australian
+    Rangelands.
+  fetched: '2026-11-08'
+- claim: OpenAlex lists that author with the Centre of Machine Learning, Networking, and Education
+    Technologies at Central Queensland University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I74899385,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Centre of Machine Learning , Networking, and Education Technologies , School of Engineering
+    and Technology , Central Queensland University
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

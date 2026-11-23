@@ -1,0 +1,73 @@
+id: instituto-cubano-de-biodiversidad
+kind: organisation
+name: Instituto Cubano de Biodiversidad
+also_known_as:
+- ICB
+- Cuban Institute of Biodiversity
+scope: cu
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: cu
+countries:
+- cu
+scale: national
+status: active
+summary: A Cuban body formed in 2025 by joining the Instituto de Ecología y Sistemática and the national
+  natural history museum, publishing amphibian and Lepidoptera checklists through GBIF.
+facts:
+- claim: Formed in 2025 by joining the Instituto de Ecología y Sistemática (IES) and the Museo Nacional
+    de Historia Natural de Cuba.
+  url: https://api.gbif.org/v1/organization?country=CU&limit=100
+  fetched: 2026-11-09
+  quote: The Cuban Institute of Biodiversity (ICB) was established in 2025 through the integration of
+    the Institute of Ecology and Systematics (IES) and the National Museum of Natural History of Cuba
+    (MNHNC)
+- claim: Publishes through GBIF an updated taxonomic checklist of the amphibians of Cuba.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63/publishedDataset?limit=20
+  fetched: 2026-11-09
+  quote: Se presenta una lista taxonómica actualizada de los anfibios presentes en Cuba
+- claim: Publishes through GBIF an updated checklist of the Lepidoptera of Cuba, with 1587 taxa.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63/publishedDataset?limit=20
+  fetched: 2026-11-09
+  quote: El resultado es un total de 1587 taxones
+- claim: The IUCN SSC Cuban Plant Specialist Group's member list places the Instituto de Ecología y Sistemática,
+    one of the two bodies joined into the ICB, under the Agencia de Medio Ambiente.
+  url: https://cubanplantsiucn.planta.ngo/inicio/
+  fetched: 2026-11-09
+  quote: Instituto de Ecología y Sistemática Agencia de Medio Ambiente
+- claim: Formed in 2025 by joining the Institute of Ecology and Systematics (IES) and the National Museum
+    of Natural History of Cuba, which worked on the taxonomy, ecology and conservation of Cuban nature.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63
+  fetched: 2026-11-09
+  quote: The Cuban Institute of Biodiversity (ICB) was established in 2025 through the integration of
+    the Institute of Ecology and Systematics (IES) and the National Museum of Natural History of Cuba
+    (MNHNC)
+- claim: Holds what its GBIF record calls the country's largest natural history and palaeontology collections.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63
+  fetched: 2026-11-09
+  quote: The ICB safeguards the country's most extensive and representative natural history and paleontology
+    collections
+- claim: Publishes an updated checklist of the amphibians of Cuba, 71 species and 9 subspecies with endemism
+    and threat status, through GBIF.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63/publishedDataset
+  fetched: 2026-11-09
+  quote: Se presenta una lista taxonómica actualizada de los anfibios presentes en Cuba, compilada a partir
+    de fuentes taxonómicas especializadas. Incluye 71 especies y 9 subespecies
+- claim: Publishes a checklist of the Lepidoptera of Cuba, 1,587 taxa, through GBIF.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63/publishedDataset
+  fetched: 2026-11-09
+  quote: Este recurso presenta la lista actualizada de las especies del orden Lepidoptera de Cuba
+- claim: Gives its address as Obispo 61, Plaza de Armas, Habana Vieja.
+  url: https://api.gbif.org/v1/organization/135e7e8a-69bb-47f0-8742-6a24d7127f63
+  fetched: 2026-11-09
+  quote: Obispo
+found_by:
+- link-from:queue-cu
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-09

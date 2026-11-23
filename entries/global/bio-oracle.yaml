@@ -1,0 +1,30 @@
+id: bio-oracle
+kind: dataset
+name: Bio-ORACLE
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- species-distribution
+status: active
+website: https://bio-oracle.org
+summary: Marine physical, chemical, biological and topographic data layers with global extent
+  for modelling the distribution of marine biodiversity.
+facts:
+- claim: Data layers for modelling marine biodiversity.
+  url: https://bio-oracle.org/
+  fetched: '2026-10-30'
+  quote: Bio-ORACLE offers essential physical, chemical, biological and topographic data layers
+    with global extent and uniform resolution for modelling the distribution of marine biodiversity.
+links:
+- type: partners-with
+  to: flanders-marine-institute
+  url: https://bio-oracle.org/
+  fetched: '2026-10-30'
+  quote: website hosted by VLIZ
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

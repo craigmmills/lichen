@@ -1,0 +1,47 @@
+id: toya-lake-station
+kind: organisation
+name: Toya Lake Station, Field Science Center for Northern Biosphere, Hokkaido University
+also_known_as:
+- 洞爺臨湖実験所
+scope: jp
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques: []
+hq: unknown
+scale: local
+status: active
+summary: Hokkaido University station that runs long-term environmental monitoring
+  on Lake Toya for food web research and is listed for the Lake Toya JaLTER associate
+  site.
+facts:
+- claim: Runs long-term environmental monitoring on Lake Toya for food web research.
+  url: https://www.fsc.hokudai.ac.jp/suiken/contents02.html
+  fetched: '2026-11-09'
+  quote: '''Learning by doing''をモットーに、洞爺湖で食物網研究のための長期環境モニタリングを行っている他'
+- claim: Listed for the Lake Toya JaLTER associate site.
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Toya Lake Station, Field Science Center for Northern Biosphere, Hokkaido
+    University
+links:
+- type: run-by
+  to: hokkaido-university
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Toya Lake Station, Field Science Center for Northern Biosphere, Hokkaido
+    University
+- type: partners-with
+  to: jalter
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Toya Lake Station, Field Science Center for Northern Biosphere, Hokkaido
+    University
+found_by:
+- rule:checklist-misses
+- link-from:jalter
+added_by: agent
+checked: '2026-11-09'

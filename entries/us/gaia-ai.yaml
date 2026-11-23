@@ -1,0 +1,65 @@
+id: gaia-ai
+kind: organisation
+name: Gaia AI
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: us
+scale: national
+status: active
+website: https://www.gaia-ai.eco
+summary: Somerville, Massachusetts forestry data company combining below-canopy, above-canopy
+  and satellite sensors with machine learning for forest inventories.
+facts:
+- claim: NSF SBIR Phase II award for forest inventories from fused sensor streams.
+  url: https://api.nsf.gov/services/v1/awards/2423614.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II: Registration of Below-Canopy, Above-Canopy, and Satellite Sensor
+    Streams for Forest Inventories'
+- claim: Uses sensors and machine learning to speed up forest data collection.
+  url: https://api.nsf.gov/services/v1/awards/2234077.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: This project uses recent advances in sensors and machine learning to greatly improve
+    data collection speed
+- claim: Space Capital describes its platform as using GPS, satellite imagery and lidar.
+  url: https://www.spacecapital.com/company/gaia-ai
+  fetched: '2026-10-30'
+  quote: Gaia AI is developing an AI-based data platform
+- claim: Uses drones, LiDAR and computer vision on forests.
+  url: https://www.greentownlabs.com/members/gaia-ai
+  fetched: '2026-10-30'
+  quote: Gaia AI is an MIT & Harvard startup using drones, LiDAR, and computer vision to collect
+    high-quality biomass data in forests
+- claim: The NSF award record gives its address as 444 Somerville Ave, Somerville, Massachusetts.
+  url: https://api.nsf.gov/services/v1/awards/2423614.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"444 SOMERVILLE AVE"'
+- claim: Says it simplifies forest data collection and analysis with AI tools and sensors.
+  url: https://www.gaia-ai.eco/
+  fetched: '2026-10-31'
+  quote: Gaia AI simplifies forest data collection and analysis using AI-powered tools and
+    sensor technology
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2423614.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II: Registration of Below-Canopy, Above-Canopy, and Satellite Sensor
+    Streams for Forest Inventories'
+  amount: 1000000
+  year: 2024
+  currency: USD
+found_by:
+- checklist:5
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us

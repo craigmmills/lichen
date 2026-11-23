@@ -1,0 +1,63 @@
+id: grenada-land-cover-and-forest-formations-map
+kind: dataset
+name: Grenada land cover and forest formations map (IITF_CJS44_grenada_landcov)
+also_known_as:
+- IITF_CJS44_grenada_landcov.img
+scope: gd
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: Raster map of Grenada's land cover and forest formations, made by decision
+  tree classification of cloud-cleared Landsat imagery, mostly from November 2001,
+  and funded by USAID and the International Institute of Tropical Forestry.
+facts:
+- claim: The USDA Forest Service FSGeodata Clearinghouse lists the raster map of land
+    cover and forest formations developed for Grenada, with the Landsat image mosaics.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: This file is the raster map developed for Grenada.
+- claim: The map was made by decision tree classification of cloud-cleared satellite
+    imagery, as the cited 2008 paper by Helmer and others describes.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: Land cover and forest formation distributions for St. Kitts, Nevis, St. Eustatius,
+    Grenada and Barbados from decision tree classification of cloud-cleared satellite
+    imagery.
+- claim: The most cloud-free image, the basis for most of the map, was Landsat ETM+
+    imagery dated November 2001.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: The most cloud-free image, which is the basis for most of the map, was dated
+    November 2001.
+- claim: USAID and the International Institute of Tropical Forestry funded the work.
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: USAID and the International Institute of Tropical Forestry provided funding
+    for this work.
+links:
+- type: funded-by
+  to: united-states-agency-for-international-development
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: USAID and the International Institute of Tropical Forestry provided funding
+    for this work.
+- type: partners-with
+  to: forestry-department-grenada
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: Cooperating institutions included the Grenada Ministry of Agriculture, including
+    the Forestry and National Parks Department and the Land Use Division.
+- type: partners-with
+  to: land-use-division-grenada
+  url: https://data.fs.usda.gov/geodata/rastergateway/caribbean/Grenada/IITF_CJS44_grenada_landcov_metadata.php
+  fetched: 2026-11-15
+  quote: Cooperating institutions included the Grenada Ministry of Agriculture, including
+    the Forestry and National Parks Department and the Land Use Division.
+runner: unknown
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

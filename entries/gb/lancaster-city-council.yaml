@@ -1,0 +1,36 @@
+id: lancaster-city-council
+kind: organisation
+name: Lancaster City Council
+scope: gb
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- gb
+scale: local
+summary: District council in Lancashire testing AI habitat mapping for Local Plan biodiversity
+  assessments.
+facts:
+- claim: Named on the pilot with AiDASH.
+  url: https://lancaster.gov.uk/news/2026/jul/lancaster-city-council-selected-for-national-innovation-project-to-modernise-planning-to-support-future-homes-jobs-and-infrastructure-in-the-district
+  quote: will see it work with Newark and Sherwood District Council and BNGAI™ by AiDASH
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: bngai-land-availability-pilot
+  url: https://lancaster.gov.uk/news/2026/jul/lancaster-city-council-selected-for-national-innovation-project-to-modernise-planning-to-support-future-homes-jobs-and-infrastructure-in-the-district
+  quote: 'the pilot project called BNGAI: AI-Powered Biodiversity Assessments for Strategic
+    Housing and Economic Land Availability Assessments'
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

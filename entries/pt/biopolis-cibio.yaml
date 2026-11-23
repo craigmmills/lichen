@@ -1,0 +1,138 @@
+id: biopolis-cibio
+kind: organisation
+name: BIOPOLIS/CIBIO-InBIO
+scope: pt
+also_known_as:
+- CIBIO
+- Research Centre in Biodiversity and Genetic Resources
+- BIOPOLIS
+- CIBIO-InBIO
+- BIOPOLIS-CIBIO
+sector: academic
+roles:
+- supplies-data
+- convenes
+- builds-ai
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+- computer-vision
+- remote-sensing
+hq: pt
+countries:
+- pt
+scale: national
+status: active
+website: https://www.cibio.up.pt/
+summary: A research organisation at Vairão, run by Associação BIOPOLIS, that ran a 2023 ecology
+  machine learning course and advertised an eDNA workshop for 22 May 2026.
+facts:
+- claim: Its eDNA Week 2026 page announced a workshop on environmental DNA for wildlife monitoring
+    for 22 May 2026.
+  url: https://www.biopolis.pt/en/news-and-events/biopolis-cibio-edna-week-2026-workshop-invisible-biodiversity-advances-in-wildlife-monitoring-through-environmental-dna/
+  fetched: 2026-11-02
+  quote: features a workshop comprising a series of lectures delivered by international experts
+    on environmental DNA (eDNA) for wildlife monitoring
+- claim: Its mission is research in biodiversity and evolutionary biology.
+  url: https://www.cibio.up.pt/en/about/mission/
+  fetched: '2026-11-02'
+  quote: The mission of the Research Centre in Biodiversity and Genetic Resources is to develop
+    world-class research in the areas of biodiversity and evolutionary biology.
+- claim: Says its researchers were part of an international team presenting a method to identify
+    individual birds.
+  url: https://www.cibio.up.pt/en/media/researchers-build-first-ai-tool-capable-of-identifying-individual-birds/
+  fetched: '2026-11-02'
+  quote: An article in which an international team, including CIBIO-InBIO researchers, present
+    a method capable of identifying individual birds
+- claim: Ran a 2023 course on applying machine learning in ecology and behavioural studies.
+  url: https://www.cibio.up.pt/en/events/artificial-intelligence-applied-to-ecology-and-behavioural-studies/
+  fetched: '2026-11-02'
+  quote: Students will learn how to apply machine learning to answer relevant questions in
+    ecology and behavioural studies.
+- claim: The course taught deep learning-based algorithms.
+  url: https://www.cibio.up.pt/en/events/artificial-intelligence-applied-to-ecology-and-behavioural-studies/
+  fetched: '2026-11-02'
+  quote: how to create deep learning-based algorithms
+  ai_type: deep-learning
+- claim: Advertised an eDNA workshop for 22 May 2026 on wildlife monitoring.
+  url: https://www.cibio.up.pt/en/events/biopolis-cibio-edna-week-2026-workshop-invisible-biodiversity-advances-in-wildlife-monitoring-through-environmental-dna/
+  fetched: '2026-11-02'
+  quote: The BIOPOLIS/CIBIO eDNA Week 2026 features a workshop comprising a series of lectures
+    delivered by international experts on environmental DNA (eDNA) for wildlife monitoring.
+- claim: Its GBIF publisher record gives an address at Vairão.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: Rua do Crasto, nº 765
+- claim: A non-profit private institution that manages CIBIO-InBIO.
+  url: https://www.cibio.up.pt/en/about/
+  fetched: 2026-11-02
+  quote: CIBIO-InBIO is managed by Associação BIOPOLIS, a non-profit private institution
+- claim: Environment and biodiversity assessment and monitoring is one of its priorities.
+  url: https://www.biopolis.pt/en/
+  fetched: 2026-11-02
+  quote: Environment and biodiversity assessment and monitoring
+- claim: A research unit in biological sciences working on genes, species and ecosystems.
+  url: https://www.cibio.up.pt/en/about/
+  fetched: 2026-11-02
+  quote: is an internationally recognized Research Unit in biological sciences conducting
+    basic and applied research on the three main components of biodiversity
+- claim: A former member profile lists a CIBIO-InBIO address on the University of Porto campus
+    at Vairão.
+  url: https://www.cibio.up.pt/en/people/details/ana-sofia-vaz/
+  fetched: 2026-11-02
+  quote: CIBIO-InBIO, Universidade do Porto, Campus de Vairão, Rua Padre Armando Quintas.
+    4485-661 Vairão, Portugal
+- claim: A 2025 advanced course at BIOPOLIS-CIBIO covered AI, citizen science and remote sensing
+    for invasive species.
+  url: https://www.cibio.up.pt/en/events/tackling-current-challenges-in-ecology-novel-tools-and-technologies-applications-to-invasion-science/
+  fetched: 2026-11-02
+  quote: 'delves into the latest advancements and practical applications of tools and technologies:
+    artificial intelligence, citizen science and iEcology, Remote Sensing'
+- claim: OpenAlex lists a paper using deep learning on pangolin images among works by authors
+    affiliated with CIBIO.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:i4390039289,concepts.id:C119857082|C108583219,concepts.id:C18903297,from_publication_date:2019-01-01&sort=cited_by_count:desc&per_page=8&select=title,publication_year,doi,cited_by_count
+  fetched: '2026-11-02'
+  quote: 'Detecting wildlife trafficking in images from online platforms: A test case using
+    deep learning with pangolin images'
+  ai_type: deep-learning
+- claim: A CIBIO page gives a location for its courses at Vairão, Portugal.
+  url: http://cibio.up.pt
+  fetched: '2026-11-02'
+  quote: BIOPOLIS-CIBIO, Vairão, Portugal
+found_by:
+- checklist:3
+- link-from:dnaquaimg
+- link-from:gbif-portugal
+- checklist:register
+added_by: agent
+checked: 2026-11-02
+ai_types:
+- deep-learning
+links:
+- type: run-by
+  to: associacao-biopolis
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: CIBIO has been fully managed by Associação BIOPOLIS
+- type: partners-with
+  to: dnaquaimg
+  url: https://www.cibio.up.pt/en/projects/dnaquaimg-innovating-transnational-aquatic-biodiversity-monitoring-using-high-throughput-dna-tools-and-automated-image-recognition/
+  fetched: '2026-11-02'
+  quote: CIBIO - Centro de Investigação em Biodiversidade e Recursos Genéticos
+- type: run-by
+  to: associacao-biopolis
+  url: https://www.cibio.up.pt/en/about/
+  fetched: 2026-11-02
+  quote: CIBIO-InBIO is managed by Associação BIOPOLIS
+- type: partners-with
+  to: movetech-telemetry
+  url: https://www.cibio.up.pt/en/media/new-technology-for-biodiversity-tracking-highlighted-by-national-media/
+  fetched: '2026-11-02'
+  quote: a collaborative project between the University of East Anglia (UEA), the British
+    Trust for Ornithology (BTO), CIBIO-InBIO

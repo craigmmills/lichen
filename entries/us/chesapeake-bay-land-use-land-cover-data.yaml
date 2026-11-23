@@ -1,0 +1,35 @@
+id: chesapeake-bay-land-use-land-cover-data
+kind: dataset
+name: Chesapeake Bay Land Use/Land Cover and Change Data
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://chesapeakeconservancy.org/conservation-innovation-center/
+summary: High-resolution land use and land cover data for the Chesapeake watershed,
+  used to track tree canopy and change over time.
+facts:
+- claim: Partners use it to track tree canopy across the watershed.
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: partners can track tree canopy across the watershed and measure change over
+    time
+- claim: Uses aerial imagery, LiDAR and machine learning for 1-metre land cover maps.
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: Leveraging aerial imagery, LiDAR elevation data, and machine learning to
+    produce 1-meter resolution land cover maps
+links:
+- type: run-by
+  to: chesapeake-conservancy
+  url: https://chesapeakeconservancy.org/conservation-innovation-center/
+  fetched: '2026-10-30'
+  quote: Using Chesapeake Conservancy’s high-resolution land use and land cover data
+found_by:
+- checklist:2
+- link-from:chesapeake-conservancy
+added_by: agent
+checked: '2026-10-30'

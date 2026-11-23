@@ -1,0 +1,86 @@
+id: makerere-university
+kind: organisation
+name: Makerere University
+also_known_as: []
+scope: ug
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+hq: ug
+countries:
+- ug
+scale: national
+status: active
+summary: University that hosted the National Biodiversity Data Bank from 1990, has two departments
+  publishing to GBIF, and received a JRS grant (October 2019 to December 2022) to build a
+  public pollinator database.
+facts:
+- claim: The National Biodiversity Data Bank was established at Makerere University in 1990.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914
+  fetched: 2026-11-08
+  quote: was established in 1990 at Makerere University
+- claim: OpenAlex lists a 2025 paper by Makerere University authors on interpretable class
+    activation maps for vision-based deforestation detection.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4412362411|W4410605741|W4385804082|W7126098287|W4417350218
+  fetched: 2026-11-08
+  quote: Interpretable Class Activation Maps for Vision-Based Deforestation Detection
+- claim: OpenAlex lists a 2025 paper by Makerere University and Muni University authors on
+    explainable machine vision for land use classification.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4412362411|W4410605741|W4385804082|W7126098287|W4417350218
+  fetched: 2026-11-08
+  quote: Explainable Machine Vision Techniques for Geo-spatial Land Use Classification
+- claim: Two Makerere departments publish data to GBIF, the Department of Zoology, Entomology
+    and Fisheries Sciences and the Department of Plant Science, Microbiology and Biotechnology.
+  url: https://api.gbif.org/v1/organization?country=UG&limit=100
+  fetched: 2026-11-08
+  quote: Department of Zoology, Entomology and Fisheries Sciences
+- claim: JRS says Makerere University aimed to build a new public web database to mobilise
+    pollinator information for Uganda.
+  url: https://jrsbiodiversity.org/grants/makerere-2019/
+  fetched: 2026-11-08
+  quote: Makerere University aims to solve this problem by creating a new, public, web-based
+    database to mobilize pollinator information.
+- claim: The JRS grant ran from October 2019 to December 2022.
+  url: https://jrsbiodiversity.org/grants/makerere-2019/
+  fetched: 2026-11-08
+  quote: 1 Oct 2019 - 31 Dec 2022
+- claim: GBIF's record says the National Biodiversity Data Bank was established at Makerere
+    University in 1990.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914
+  fetched: 2026-11-08
+  quote: was established in 1990 at Makerere University with the aim of having a central repository
+    for biodiversity data and information for Uganda
+- claim: OpenAlex lists a 2012 remote sensing study of land cover change in the Kagera Basin
+    whose first author, Ejiet John Wasige, is affiliated with Makerere University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03dmz0111,concepts.id:C119857082|C154945302|C62649853|C108583219,primary_topic.subfield.id:2309|1105|2303|2302|2305|2306&per_page=50&sort=cited_by_count:desc
+  fetched: 2026-11-08
+  quote: Monitoring basin-scale land cover changes in Kagera Basin of Lake Victoria using
+    ancillary data and remote sensing
+- claim: OpenAlex lists a 2022 study of land cover change on the fringes of Mount Elgon National
+    Park whose first author, Hosea Opedes, is at Makerere University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03dmz0111,concepts.id:C119857082|C154945302|C62649853|C108583219,primary_topic.subfield.id:2309|1105|2303|2302|2305|2306&per_page=50&sort=cited_by_count:desc
+  fetched: 2026-11-08
+  quote: Land Cover Change Detection and Subsistence Farming Dynamics in the Fringes of Mount
+    Elgon National Park, Uganda from 1978
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/grants/makerere-2019/
+  fetched: 2026-11-08
+  quote: 'Grant Amount: $ 275,000.00'
+  amount: 275000
+  currency: USD
+  year: 2019
+found_by:
+- checklist:3
+- link-from:jrs-biodiversity-foundation
+- register:ug
+added_by: agent
+checked: 2026-11-08

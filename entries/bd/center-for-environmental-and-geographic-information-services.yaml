@@ -1,0 +1,47 @@
+id: center-for-environmental-and-geographic-information-services
+kind: organisation
+name: Center for Environmental and Geographic Information Services
+also_known_as:
+- CEGIS
+scope: bd
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Dhaka non-profit whose researchers wrote a 2023 paper on forest land-use changes
+  in the Madhupur Sal forests, and were among co-authors of a 2019 land cover map overview.
+facts:
+- claim: OpenAlex records it as a non-profit institution.
+  url: https://api.openalex.org/institutions/ror:02v3q4f93?select=id,display_name,type,homepage_url,geo,works_count
+  fetched: 2026-11-07
+  quote: '"display_name":"Center for Environmental and Geographic Information Services","type":"nonprofit"'
+- claim: Three of its researchers, including the first and last authors, wrote a 2023 paper
+    quantifying forest land-use changes in the Madhupur Sal forests with remote sensing and
+    a CA-ANN model.
+  url: https://api.openalex.org/works/W4366978101?select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Quantifying forest land-use changes using remote-sensing and CA-ANN model of Madhupur
+    Sal Forests, Bangladesh
+- claim: The paper gives its address as Dhaka.
+  url: https://api.openalex.org/works/W4366978101?select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Center for Environmental and Geographic Information Services (CEGIS), Dhaka, Bangladesh
+- claim: Researchers affiliated with it were among the many co-authors of a 2019 overview
+    of Bangladesh's National Land Representation System and Land Cover Map 2015.
+  url: https://api.openalex.org/works/W2989259581?select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'Toward Efficient Land Cover Mapping: An Overview of the National Land Representation
+    System and Land Cover Map 2015 of Bangladesh'
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-07

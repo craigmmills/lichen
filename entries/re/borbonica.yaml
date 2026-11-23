@@ -1,0 +1,36 @@
+id: borbonica
+kind: dataset
+name: Borbonica
+also_known_as:
+- SINP 974
+- SINP de La Réunion
+scope: re
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+countries:
+- re
+status: active
+runner: unknown
+summary: Data platform that is the SINP of La Réunion, where a government procedure page says access requests
+  are now made in the application, after the separate form closed on 6 November 2026.
+facts:
+- claim: A government procedure page says requests for access to the data on the Borbonica platform, the
+    SINP of La Réunion, are now made directly in the application.
+  url: https://demarche.numerique.gouv.fr/commencer/formulaire-de-demande-d-acces-aux-donnees-du-sinp-974
+  fetched: 2026-11-12
+  quote: Les demandes d'accès aux données disponibles sur la plateforme Borbonica, le SINP de La Réunion,
+    se font désormais directement dans l'application, via une procédure intégrée.
+- claim: The separate data access form closed on 6 November 2026.
+  url: https://demarche.numerique.gouv.fr/commencer/formulaire-de-demande-d-acces-aux-donnees-du-sinp-974
+  fetched: 2026-11-12
+  quote: Procedure Formulaire de demande d'accès aux données du SINP 974 is closed since 06 November 2026
+links: []
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

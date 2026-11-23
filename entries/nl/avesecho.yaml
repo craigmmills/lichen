@@ -1,0 +1,78 @@
+id: avesecho
+kind: model
+name: AvesEcho
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+summary: An open birdsong recognition algorithm specialised in European birds, developed at
+  Naturalis and running live in Xeno-canto.
+facts:
+- claim: Specialised in European birds and open for anyone to review and use.
+  url: https://www.naturalis.nl/en/follow-our-stories/a-birdsong-ai-joins-worlds-biggest-bird-sound-forum
+  fetched: &id001 2026-10-31
+  quote: 'What’s different about this new AI, called AvesEcho, is that it is specialised in
+    European birds. It is also completely open: anyone can review the code and use it.'
+- claim: Developed through deep learning methods.
+  url: https://www.naturalis.nl/en/follow-our-stories/a-birdsong-ai-joins-worlds-biggest-bird-sound-forum
+  fetched: *id001
+  quote: We developed this new birdsong recognition algorithm by investigating many of the
+    latest deep learning techniques.
+  ai_type: deep-learning
+- claim: Built as part of the GUARDEN project.
+  url: https://www.naturalis.nl/en/follow-our-stories/a-birdsong-ai-joins-worlds-biggest-bird-sound-forum
+  fetched: *id001
+  quote: The algorithm is developed by Naturalis researcher Dr. Burooj Ghani as part of the
+    " GUARDEN " project.
+- claim: A bird song recognition algorithm running live on Xeno-canto.
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33042
+  fetched: '2026-10-31'
+  quote: Een nieuw vogelzangherkenningsalgoritme draait nu live online op Xeno-canto
+- claim: Named AvesEcho and specialised in European birds, with open code.
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33042
+  fetched: '2026-10-31'
+  quote: Wat anders is aan deze nieuwe AI, genaamd AvesEcho, is dat het zich specialiseert
+    in Europese vogels.
+- claim: Developed at Naturalis as part of the GUARDEN project.
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33042
+  fetched: '2026-10-31'
+  quote: Het algoritme is ontwikkeld door Naturalis-onderzoeker dr. Burooj Ghani als onderdeel
+    van het ' GUARDEN '-project.
+links:
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/follow-our-stories/a-birdsong-ai-joins-worlds-biggest-bird-sound-forum
+  fetched: *id001
+  quote: the algorithm - developed at Naturalis - gives suggestions of which European bird
+    is likely.
+- type: builds-on
+  to: xeno-canto-foundation-for-nature-sounds
+  url: https://www.naturalis.nl/en/follow-our-stories/a-birdsong-ai-joins-worlds-biggest-bird-sound-forum
+  fetched: *id001
+  quote: If you have an app on your phone that recognizes bird song, its AI is powered by
+    Xeno-canto.
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33042
+  fetched: '2026-10-31'
+  quote: ontwikkeld bij Naturalis
+- type: partners-with
+  to: guarden
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33042
+  fetched: '2026-10-31'
+  quote: als onderdeel van het ' GUARDEN '-project
+- type: used-by
+  to: xeno-canto
+  url: https://www.naturetoday.com/nl/nl/nature-reports/message/?msg=33042
+  fetched: '2026-10-31'
+  quote: draait nu live online op Xeno-canto
+found_by:
+- link-from:naturalis-biodiversity-center
+- checklist:3
+scope: nl
+added_by: agent
+checked: *id001

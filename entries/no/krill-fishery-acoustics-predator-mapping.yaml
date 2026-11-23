@@ -1,0 +1,40 @@
+id: krill-fishery-acoustics-predator-mapping
+kind: project
+name: Krill fishery acoustics predator mapping
+scope: 'no'
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+countries:
+- 'no'
+scale: regional
+status: closed
+runner: unknown
+summary: Closed project that applied machine learning to krill fishery acoustic data shared by Aker QRILL
+  Company, running a trained model on more than 30,000 hours of fisheries acoustics.
+facts:
+- claim: Applied machine learning to krill fishery acoustic data shared by Aker QRILL Company.
+  url: https://www.hubocean.earth/press/news/blog-listening-to-the-antarctic-what-krill-fishing-acoustics-reveal-about-predators-and-biodiversity
+  fetched: '2026-11-02'
+  quote: Using raw acoustic fishery data shared by Aker QRILL Company
+- claim: A trained model was run on more than 30,000 hours of fisheries acoustics.
+  url: https://www.hubocean.earth/press/news/blog-listening-to-the-antarctic-what-krill-fishing-acoustics-reveal-about-predators-and-biodiversity
+  fetched: '2026-11-02'
+  quote: We then applied the trained model to more than 30,000 hours of fisheries acoustics
+- claim: The blog names Dominik Bahlburg and Sebastian Menze as authors, with Gustav Kågesten of HUB Ocean.
+  url: https://www.hubocean.earth/press/news/blog-listening-to-the-antarctic-what-krill-fishing-acoustics-reveal-about-predators-and-biodiversity
+  fetched: '2026-11-02'
+  quote: By Dominik Bahlburg, Sebastian Menze, in collaboration with Gustav Kågesten (HUB Ocean)
+links:
+- type: uses
+  to: ocean-data-platform
+  url: https://www.hubocean.earth/press/news/blog-listening-to-the-antarctic-what-krill-fishing-acoustics-reveal-about-predators-and-biodiversity
+  fetched: '2026-11-02'
+  quote: applying machine learning methods to krill fisheries acoustics data hosted by HUB Ocean and accessed
+    through their Ocean Data Platform.
+found_by:
+- link-from:hub-ocean
+added_by: agent
+checked: '2026-11-02'

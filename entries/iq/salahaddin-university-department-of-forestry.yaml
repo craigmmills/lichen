@@ -1,0 +1,54 @@
+id: salahaddin-university-department-of-forestry
+kind: organisation
+name: Department of Forestry, College of Agricultural Engineering Sciences, Salahaddin
+  University-Erbil
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: iq
+countries:
+- iq
+scale: regional
+status: active
+summary: A forestry department at Salahaddin University-Erbil, lead affiliation on
+  a 2026 preprint forecasting the Enhanced Vegetation Index with deep learning and
+  a 2024 paper mapping forest cover with RapidEye indices and terrain variables.
+facts:
+- claim: Lead affiliation of the sole author of a 2026 preprint on deep learning forecasts
+    of the Enhanced Vegetation Index for vegetation health monitoring in the Kurdistan
+    Region of Iraq.
+  url: https://api.openalex.org/works/W7133673818?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Deep Learning-Based EVI Forecasting for Vegetation Health Monitoring in the
+    Kurdistan Region of Iraq
+  ai_type: deep-learning
+- claim: The affiliation gives the department, college and university, with postcode
+    44002 in Iraq.
+  url: https://api.openalex.org/works/W7133673818?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Department of Forestry , College of Agricultural Engineering Sciences , Salahaddin
+    University-Erbil , 44002 , Iraq
+- claim: The work was posted in 2026 as a preprint on Preprints.org.
+  url: https://api.openalex.org/works/W7133673818?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: '"publication_year":2026'
+- claim: Lead affiliation on a 2024 paper combining terrain variables and RapidEye
+    satellite vegetation indices to identify forest cover area and density in the
+    mountainous Kurdistan Region.
+  url: https://api.openalex.org/works/W4391916826?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Integrate Terrain Variables and RapidEye Satellite in Vegetation Indices,
+    for Identifying Forest Cover Area and Density
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

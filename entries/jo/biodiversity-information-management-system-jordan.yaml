@@ -1,0 +1,43 @@
+id: biodiversity-information-management-system-jordan
+kind: dataset
+name: Biodiversity Information Management System and Monitoring Program (Jordan)
+also_known_as:
+- BIMS
+- National Biodiversity Database
+scope: jo
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+countries:
+- jo
+status: unknown
+summary: National biodiversity information and monitoring system described by RSCN as planned on a GIS
+  platform integrated with protected-area and partner databases.
+facts:
+- claim: RSCN's page describes the system as a national system for biodiversity information and monitoring,
+    to be led and maintained by RSCN.
+  url: https://www.rscn.org.jo/national-biodiversity-database?lang=en
+  fetched: 2026-11-08
+  quote: The project is to develop and maintain a national system for biodiversity information and a monitoring
+    system, to be led and maintained in the future by the RSCN
+- claim: RSCN's page says BIMS will be developed on a GIS platform, aligned with its national database
+    and integrated with databases of protected areas it manages and other key partners.
+  url: https://www.rscn.org.jo/national-biodiversity-database?lang=en
+  fetched: 2026-11-08
+  quote: The BIMS will be developed on a GIS platform, aligned with the RSCN national Database and integrated
+    with databases that exist for each of the PAs managed by the organization and other key partners.
+links:
+- type: partners-with
+  to: united-nations-development-programme
+  url: https://www.rscn.org.jo/national-biodiversity-database?lang=en
+  fetched: 2026-11-08
+  quote: an agreement was signed between the GEF/UNDP and the RSCN to develop a national “Biodiversity
+    Information Management System and Monitoring Program”
+found_by:
+- checklist:2
+- link-from:royal-society-for-the-conservation-of-nature
+added_by: agent
+checked: 2026-11-08
+runner: unknown

@@ -1,0 +1,43 @@
+id: protected-landscapes-partnership
+kind: organisation
+name: Protected Landscapes Partnership
+scope: gb
+sector: government
+roles:
+- convenes
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Forum of the National Landscapes Association, National Parks England, National Trails
+  UK and Natural England, whose project Landscape Observatory uses AI mapping.
+facts:
+- claim: Brings together four bodies to support England's Protected Landscapes.
+  url: https://www.gov.uk/government/news/independent-chair-of-the-protected-landscapes-partnership-appointed
+  quote: The Protected Landscapes Partnership brings together the National Landscapes Association,
+    National Parks England, National Trails UK, and Natural England
+  fetched: &id001 2026-10-30
+- claim: National Landscapes says it funds the Landscape Observatory, with Defra support.
+  url: https://national-landscapes.org.uk/news/the-landscape-observatory-launches-new-website
+  quote: The Landscape Observatory is a new project funded by the Protected Landscape Partnership,
+    supported by Defra.
+  fetched: '2026-10-31'
+- claim: The Landscape Observatory site calls itself a project of the Partnership.
+  url: https://www.landscapeobservatory.org.uk/about-landscape-observatory/
+  quote: Landscape Observatory is a bold new project from the Protected Landscapes Partnership
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: natural-england
+  url: https://www.gov.uk/government/news/independent-chair-of-the-protected-landscapes-partnership-appointed
+  quote: The Protected Landscapes Partnership brings together the National Landscapes Association,
+    National Parks England, National Trails UK, and Natural England
+  fetched: *id001
+found_by:
+- link-from:landscape-observatory
+added_by: agent
+checked: '2026-10-31'

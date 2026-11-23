@@ -1,0 +1,50 @@
+id: gbif-suriname
+kind: programme
+name: GBIF Suriname
+scope: sr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- sr
+status: active
+runner: unknown
+summary: Country node for Suriname in GBIF, with associate participation status; in August 2025 GBIF recorded
+  transferring NeoWild's endorsement to it from the Participant Node Managers Committee.
+facts:
+- claim: GBIF's node registry lists GBIF Suriname as a country node with associate participation status.
+  url: https://api.gbif.org/v1/node/country/SR
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+- claim: The registry names the node GBIF Suriname, for the participant Suriname, Republic of.
+  url: https://api.gbif.org/v1/node/country/SR
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Suriname","participantTitle":"Suriname, Republic of"'
+- claim: GBIF lists GBIF Suriname as the country node for Suriname, an associate participant.
+  url: https://api.gbif.org/v1/node/country/SR
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Suriname","participantTitle":"Suriname, Republic of"'
+- claim: GBIF lists Roian Atmopawiro as node manager.
+  url: https://api.gbif.org/v1/node/country/SR
+  fetched: 2026-11-08
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Roian","lastName":"Atmopawiro"'
+- claim: In August 2025, GBIF recorded transferring NeoWild’s endorsement from the Participant Node Managers
+    Committee to the national node.
+  url: https://api.gbif.org/v1/organization/41b097fd-180c-4836-baa3-db959436aee6
+  fetched: 2026-11-08
+  quote: re-connecting endorsement from the PNMC to the national node
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/SR
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Suriname"'

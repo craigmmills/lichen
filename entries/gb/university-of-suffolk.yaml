@@ -1,0 +1,33 @@
+id: university-of-suffolk
+kind: organisation
+name: University of Suffolk
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on TropiCam-AI, an automated classifier of Neotropical
+  arboreal mammals and birds from camera traps.
+facts:
+- claim: 'OpenAlex lists authors at University of Suffolk on this work: Introducing TropiCam'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Introducing TropiCam
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.uos.ac.uk/
+  quote: IP4 1QJ
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.uos.ac.uk/

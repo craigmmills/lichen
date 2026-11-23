@@ -1,0 +1,51 @@
+id: izrk-metadata-portal
+kind: dataset
+name: IZRK Metadata Portal
+scope: si
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- si
+status: active
+runner: unknown
+summary: GeoNetwork-based metadata portal built at the Karst Research Institute's
+  Data Centre in 2021 and 2022, following FAIR principles, with openly accessible
+  metadata and research data open only to the institute.
+facts:
+- claim: The portal was developed at the Data Centre of the Karst Research Institute
+    ZRC SAZU in 2021 and 2022 on the GeoNetwork platform.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: The IZRK Metadata Portal was developed at the Data Centre of the Karst Research
+    Institute ZRC SAZU from 2021 to 2022 using the GeoNetwork platform
+- claim: The portal follows FAIR data principles and collects and maps datasets, databases,
+    research sites and instruments, virtual laboratories, workflows and codes.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: is collecting and mapping various datasets, databases, research sites and
+    instruments, virtual laboratories, workflows, and codes
+- claim: The karstological database's metadata collection is openly accessible on
+    the portal, while the research data are in the IZRK Data Cloud, open only to the
+    institute.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: a digital metadata collection that is openly accessible on the IZRK Metadata
+    Portal
+- claim: The portal is designed to link sites and their data within the eLTER RI (2020
+    to 2025) and other EU infrastructure projects.
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: eLTER RI (2020 - 2025)
+links:
+- type: built-by
+  to: karst-research-institute-zrc-sazu
+  url: https://izrkp.zrc-sazu.si/en/zbirka/karstological-database
+  fetched: '2026-11-15'
+  quote: The IZRK Metadata Portal was developed at the Data Centre of the Karst Research
+    Institute ZRC SAZU from 2021 to 2022 using the GeoNetwork platform
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

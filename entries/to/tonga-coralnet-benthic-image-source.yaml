@@ -1,0 +1,59 @@
+id: tonga-coralnet-benthic-image-source
+kind: dataset
+name: Tonga benthic image source on CoralNet
+also_known_as: []
+scope: to
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- to
+scale: national
+status: unknown
+runner: unknown
+summary: A public CoralNet source of 15,926 baseline benthic images from about 300
+  Tongan sites, collected in 2017 and 2018, with a classifier last trained on it in
+  May 2021.
+facts:
+- claim: The source is a baseline benthic dataset for about 300 sites, with images
+    from Vava'u collected in 2017 and from Ha'apai and Tongatapu in 2018.
+  url: https://coralnet.ucsd.edu/source/1388
+  fetched: 2026-11-15
+  quote: Tonga baseline benthic data set for ~300 sites. Images from Vava'u were collected
+    in 2017 and annotated in 2018.
+- claim: The source holds 15,926 images.
+  url: https://coralnet.ucsd.edu/source/1388
+  fetched: 2026-11-15
+  quote: '15926'
+- claim: The source's visibility is public.
+  url: https://coralnet.ucsd.edu/source/1388
+  fetched: 2026-11-15
+  quote: Public
+- claim: The page lists James Cook University as the source's affiliation.
+  url: https://coralnet.ucsd.edu/source/1388
+  fetched: 2026-11-15
+  quote: James Cook University
+- claim: A classifier was last trained on the source in May 2021, using a VGG16 feature
+    extractor.
+  ai_type: ml-supervised
+  url: https://coralnet.ucsd.edu/source/1388
+  fetched: 2026-11-15
+  quote: 'Last classifier trained: May 18, 2021, 3:10 p.m.'
+links:
+- type: uses
+  to: coralnet
+  url: https://coralnet.ucsd.edu/source/1388
+  fetched: 2026-11-15
+  quote: 'Last classifier trained: May 18, 2021, 3:10 p.m.
+
+    Feature extractor: VGG16 (legacy)
+
+    Confidence threshold: 80%'
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

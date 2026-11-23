@@ -1,0 +1,56 @@
+id: canada-centre-for-mapping-and-earth-observation
+kind: organisation
+name: Canada Centre for Mapping and Earth Observation
+also_known_as:
+- CCMEO
+scope: ca
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: ca
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+summary: Unit of Natural Resources Canada and Canada's national mapping and Earth observation
+  centre. It produces national land cover maps from satellite imagery.
+facts:
+- claim: Uses satellite imagery to make a 30-metre land cover map of Canada.
+  url: https://atlas.gc.ca/land-cover/Atlas_LandCover_EN.html
+  fetched: '2026-10-31'
+  quote: has used satellite imagery to create a land cover map of Canada at a resolution of
+    30 metres
+- claim: Keeps an archive of core geospatial data layers on land, water and infrastructure.
+  url: https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-mapping-earth-observation
+  fetched: '2026-10-31'
+  quote: Our scientists gather an accurate, authoritative archive of core geospatial data
+    layers
+links:
+- type: run-by
+  to: natural-resources-canada
+  url: https://www.canada.ca/en/space-agency/news/2025/02/wildfiresat-72-million-for-critical-canadian-space-infrastructure-for-wildfires.html
+  fetched: '2026-10-31'
+  quote: Natural Resources Canada's Canadian Forest Service and Canada Centre for Mapping
+    and Earth Observation
+  via: webfetch
+- type: runs
+  to: land-cover-of-canada
+  url: https://atlas.gc.ca/land-cover/Atlas_LandCover_EN.html
+  fetched: '2026-10-31'
+  quote: has used satellite imagery to create a land cover map of Canada at a resolution of
+    30 metres
+- type: run-by
+  to: natural-resources-canada
+  url: https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-mapping-earth-observation
+  fetched: '2026-10-31'
+  quote: Canada Centre for Mapping and Earth Observation - Natural Resources Canada
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

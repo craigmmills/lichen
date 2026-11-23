@@ -1,0 +1,27 @@
+id: south-pacific-regional-herbarium
+kind: dataset
+name: South Pacific Regional Herbarium
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+status: active
+website: https://www.usp.ac.fj/index.php?id=ias_herbarium0
+summary: Herbarium established in 1993 as the Fiji Herbarium, now maintained by the University of the South Pacific, whose records are published through GBIF.
+facts:
+- claim: Established in 1993 by the Fiji Department of Agriculture and known then as the Fiji Herbarium (Suva).
+  url: https://api.gbif.org/v1/organization/d3ab0cb3-38e8-489b-9164-abc6a63fdc83
+  fetched: '2026-10-30'
+  quote: The South Pacific Regional Herbarium (SPRH) was established in 1993 by the Fiji Department of Agriculture
+links:
+- type: run-by
+  to: university-of-the-south-pacific
+  url: https://api.gbif.org/v1/organization/d3ab0cb3-38e8-489b-9164-abc6a63fdc83
+  fetched: '2026-10-30'
+  quote: The University of the South Pacific (USP), through theInstitute of Applied Sciences, assumed responsibility for the maintenance and administratio
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

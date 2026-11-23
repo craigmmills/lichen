@@ -1,0 +1,61 @@
+id: nationalparkverwaltung-hainich
+kind: organisation
+name: Nationalparkverwaltung Hainich
+also_known_as:
+- Hainich National Park administration
+scope: de
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: de
+scale: local
+status: active
+summary: National park administration listed as a participating area in KI-Nationalpark, where
+  a 2022 report says camera-trap monitoring had already been carried out before a federal
+  wildlife monitoring project.
+facts:
+- claim: Listed as a participating area in the KI-Nationalpark project, with this postal address.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Nationalparkverwaltung Hainich Bei der Marktkirche 9 99947 Bad Langensalza
+- claim: The list marks every area as taking part in the camera programme, some in the audio
+    programme as well.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Weiß = nur Teilnahme am Kameraprogramm
+- claim: In KI-Nationalpark the protected-area administrations are trained on site and involved
+    in setting up the monitoring.
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Neben der technischen Entwicklung werden die Schutzgebietsverwaltungen vor Ort geschult
+    und in den Aufbau des Monitorings eingebunden.
+- claim: A 2022 report in the Hunsrück-Hochwald National Park research series says camera-trap
+    monitoring had been carried out in this park before a federal research project on wildlife
+    monitoring.
+  url: https://www.nlphh.de/hdwcore/uploads/2022/01/B-11_aus_NLPHH_Forschungsband.pdf
+  fetched: '2026-11-07'
+  quote: Kamerafallenmonitoring in den Nationalparken Bayerischer Wald, Hunsrück-Hochwald,
+    Kellerwald-Eder - see, Unteres Odertal, Schwarzwald und Hainich durch - geführt
+- claim: Has around 40 people responsible for promoting the purposes of the national park
+    and protecting its nature.
+  url: https://www.nationalpark-hainich.de/en/national-park/national-park-authority/about-us.html
+  quote: Around 40 people are responsible for promoting the purposes of the national park
+    and work to protect its valuable nature.
+  fetched: '2026-11-17'
+links:
+- type: partners-with
+  to: ai-national-park
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Teilnehmende Gebiete am KI-Nationalpark Projekt
+found_by:
+- rule:checklist-misses
+- link-from:ai-national-park
+added_by: agent
+checked: '2026-11-07'

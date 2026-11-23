@@ -1,0 +1,61 @@
+id: environmental-data-science-innovation-and-impact-lab
+kind: organisation
+name: Environmental Data Science Innovation & Impact Lab
+also_known_as:
+- ESIIL
+scope: us
+sector: academic
+roles:
+- convenes
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: us
+scale: national
+status: active
+website: https://esiil.org
+summary: NSF synthesis centre led by the University of Colorado Boulder with CyVerse at the
+  University of Arizona and the University of Oslo, enabling environmental data scientists
+  to use emerging analytics.
+facts:
+- claim: An NSF data synthesis centre.
+  url: https://esiil.org/
+  fetched: '2026-10-30'
+  quote: is a next-generation NSF data synthesis center
+- claim: Led by CU Boulder with CyVerse and the University of Oslo.
+  url: https://api.nsf.gov/services/v1/awards/2153040.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: is a next-generation NSF synthesis center led by the University of Colorado Boulder
+    in collaboration with NSF’s CyVerse at the University of Arizona and the University of
+    Oslo
+- claim: 2026 Innovation Summit on AI for Sustainability, per Earth Lab.
+  url: https://www.colorado.edu/earthlab/
+  fetched: '2026-10-30'
+  quote: 2026 ESIIL Innovation Summit, AI for Sustainability
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2153040.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: Environmental Data Science Innovation and Impact Lab (ESIIL)
+  amount: 19831200
+  year: 2022
+  currency: USD
+- type: funded-by
+  to: national-science-foundation
+  url: https://esiil.org/
+  fetched: '2026-10-30'
+  quote: 'ESIIL is funded by the National Science Foundation (NSF) under grant #2153040.'
+- type: partners-with
+  to: earth-lab
+  url: https://esiil.org/
+  fetched: '2026-10-30'
+  quote: Additional support is provided by Earth Lab
+found_by:
+- checklist:3
+- link-from:earth-lab
+added_by: agent
+checked: '2026-10-30'

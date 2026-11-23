@@ -1,0 +1,42 @@
+id: tartu-observatory
+kind: organisation
+name: Tartu Observatory
+scope: ee
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ee
+scale: national
+status: active
+summary: Estonian research body whose authors, per OpenAlex, appear on papers about Sentinel-2 water quality
+  retrieval and validation and on GLORIA, a global hyperspectral water dataset.
+facts:
+- claim: OpenAlex lists Tartu Observatory authors on a paper retrieving chlorophyll a from Sentinel-2
+    MSI data for the EU Water Framework Directive.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I2802841028,publication_year:>2017,primary_topic.field.id:23&per-page=25&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Retrieval of Chlorophyll a from Sentinel-2 MSI Data for the European Union Water Framework
+- claim: OpenAlex lists Tartu Observatory authors on GLORIA, a globally representative hyperspectral in
+    situ dataset for optical sensing of water.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I2802841028,publication_year:>2017,primary_topic.field.id:23&per-page=25&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: GLORIA - A globally representative hyperspectral in situ dataset for optical sensing of water
+    quality
+- claim: OpenAlex lists Tartu Observatory authors on a paper validating water quality products in Baltic
+    lakes using Sentinel-2.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I2802841028,publication_year:>2017,primary_topic.field.id:23&per-page=25&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Validation and Comparison of Water Quality Products in Baltic Lakes Using Sentinel-2 MSI
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-08

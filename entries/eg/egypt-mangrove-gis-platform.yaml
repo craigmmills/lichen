@@ -1,0 +1,36 @@
+id: egypt-mangrove-gis-platform
+kind: dataset
+name: Egypt Mangrove GIS Knowledge Platform
+scope: eg
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- eg
+status: active
+summary: An active GIS platform, built by the Mangrove Ecosystem Restoration Solution
+  project, giving data on mangrove distribution, health, biodiversity indicators and
+  restoration site monitoring, with story maps, decision-support dashboards and downloadable
+  datasets.
+facts:
+- claim: The platform provides data on mangrove distribution and health, biodiversity
+    indicators and restoration site monitoring.
+  url: https://sse.aucegypt.edu/centers-labs/cares/community-initiatives/mangrove-ecosystem-restoration
+  fetched: 2026-11-12
+  quote: Restoration site monitoring
+- claim: It offers story maps, decision-support dashboards and downloadable datasets.
+  url: https://sse.aucegypt.edu/centers-labs/cares/community-initiatives/mangrove-ecosystem-restoration
+  fetched: 2026-11-12
+  quote: The platform features Story Maps, decision-support dashboards, and downloadable
+    datasets for researchers, policymakers, conservation groups, and tourism operators.
+links:
+- type: built-by
+  to: mangrove-ecosystem-restoration-solution
+  url: https://sse.aucegypt.edu/centers-labs/cares/community-initiatives/mangrove-ecosystem-restoration
+  fetched: 2026-11-12
+  quote: MERS launched Egypt’s first mangrove-focused GIS platform
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

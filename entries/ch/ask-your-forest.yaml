@@ -1,0 +1,31 @@
+id: ask-your-forest
+kind: model
+name: Ask Your Forest
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ch
+status: active
+website: https://operal.solutions/de/blog/ask-your-forest-satellite-ai
+summary: A model built by Operal that analyses satellite and LiDAR data on demand, including swisstopo
+  canopy height data.
+facts:
+- claim: Analyses satellite and LiDAR data on demand, including swisstopo canopy height data.
+  url: https://operal.solutions/de/blog/ask-your-forest-satellite-ai
+  fetched: '2026-11-02'
+  quote: und liest die Kronenhöhen-Veränderung aus dem 1-m-LiDAR-Vegetationshöhenmodell von swisstopo
+    als Biomasse-Proxy.
+links:
+- type: built-by
+  to: operal
+  url: https://operal.solutions/de/blog/ask-your-forest-satellite-ai
+  fetched: '2026-11-02'
+  quote: 'Also haben wir Ask Your Forest gebaut:'
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'

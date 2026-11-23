@@ -1,0 +1,37 @@
+id: norwegian-orca-id-catalogue
+kind: dataset
+name: Norwegian Orca ID Catalogue
+scope: 'no'
+summary: Dataset of 1,500+ identified killer whales, recognised from the fin and saddle patch, built and
+  run by the Norwegian Orca Survey.
+facts:
+- claim: Individuals are recognised from the fin and saddle patch.
+  url: https://www.norwegianorca-id.no
+  fetched: '2026-11-02'
+  quote: The shape of its dorsal fin, nicks, scars and saddle patch allow us to recognize individuals
+- claim: The site gives 1,500+ identified killer whales.
+  url: https://www.norwegianorca-id.no
+  fetched: '2026-11-02'
+  quote: 1,500+ IDENTIFIED KILLER WHALES
+links:
+- type: built-by
+  to: norwegian-orca-survey
+  url: https://www.norwegianorca-id.no
+  fetched: '2026-11-02'
+  quote: Norwegian Orca Survey brings together photographs collected by researchers and the public to
+    build a long-term record of Norway's killer whales.
+- type: run-by
+  to: norwegian-orca-survey
+  url: https://www.norwegianorca-id.no
+  fetched: '2026-11-02'
+  quote: We'll use the dorsal fins and saddle patches to identify the whales you've seen, and add your
+    sighting to their histories.
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-11-02'
+ai_label: conservation-tech
+status: active
+realms:
+- ocean
+website: https://www.norwegianorca-id.no

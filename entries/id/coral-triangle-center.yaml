@@ -1,0 +1,50 @@
+id: coral-triangle-center
+kind: organisation
+name: Coral Triangle Center
+also_known_as:
+- CTC
+scope: id
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: id
+scale: regional
+status: unknown
+summary: Bali-based organisation listed as a partner in the CORA(i)L coral health AI project.
+facts:
+- claim: Listed as a foundation or NGO partner of CORA(i)L.
+  url: https://msi.univ-cotedazur.eu/support-for-research-projects/current-projects/corail
+  fetched: '2026-10-31'
+  quote: CTC - Coral Triangle Center. Bali, Indonesia
+- claim: Trialled image-based reef monitoring at Nusa Penida with automated image analysis
+    by deep learning.
+  url: https://coraltrianglecenter.org/image-based-approaches-with-artificial-intelligence-for-reef-health-monitoring-at-nusa-penida-marine-protected-area-mpa/
+  quote: automated image analysis using machine learning algorithms known as Deep Learning
+    Neural Networks
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: Uses Reef Cloud, built by the Australian Institute of Marine Science, to annotate
+    images.
+  url: https://coraltrianglecenter.org/image-based-approaches-with-artificial-intelligence-for-reef-health-monitoring-at-nusa-penida-marine-protected-area-mpa/
+  quote: Reef Cloud was developed by the Australian Institute of Marine Science (AIMS) and
+    has built in AI features
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: cora-i-l
+  url: https://msi.univ-cotedazur.eu/support-for-research-projects/current-projects/corail
+  fetched: '2026-10-31'
+  quote: CTC - Coral Triangle Center. Bali, Indonesia
+found_by:
+- queue:id
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+website: https://coraltrianglecenter.org/
+ai_types:
+- deep-learning

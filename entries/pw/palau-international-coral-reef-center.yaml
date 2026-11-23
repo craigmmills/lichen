@@ -1,0 +1,61 @@
+id: palau-international-coral-reef-center
+kind: organisation
+name: Palau International Coral Reef Center
+also_known_as:
+- PICRC
+scope: pw
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: pw
+countries:
+- pw
+scale: national
+status: active
+summary: Established as a non-profit public corporation wholly owned by Palau’s National Government, it
+  uses ReefCloud and, Island Times reports, has monitored Palau’s reefs since 2001.
+facts:
+- claim: Palau law establishes the centre as a non-profit public corporation.
+  url: https://faolex.fao.org/docs/pdf/pau31528.pdf
+  fetched: 2026-11-12
+  quote: (a) The Palau International Coral Reef Center is established as a non profit public corporation
+    which shall operate in the
+- claim: The same Act defines a public corporation as an autonomous entity wholly owned by the National
+    Government.
+  url: https://faolex.fao.org/docs/pdf/pau31528.pdf
+  fetched: 2026-11-12
+  quote: (h) "Public Corporation" means an autonomous entity wholly -owned by the National Government.
+- claim: Island Times reports that PICRC has monitored Palau's reefs since 2001, building one of the longest
+    coral reef datasets in the region.
+  url: https://islandtimes.org/picrc-completes-coral-reef-monitoring-in-31-sites-across-palaus-main-islands/
+  fetched: 2026-11-12
+  quote: PICRC has been monitoring Palau’s reefs since 2001, building one of the longest and most comprehensive
+    coral reef datasets in the region.
+- claim: In April 2026 PICRC ran a ReefCloud training workshop in Kosrae, Federated States of Micronesia,
+    covering AI tools for coral reef monitoring and validation of the machine learning model.
+  url: https://islandtimes.org/picrc-leads-regional-coral-monitoring-workshop-in-kosrae/
+  fetched: 2026-11-12
+  quote: PICRC strengthens regional coral reef monitoring capacity through AI-powered training
+- claim: The training covered validating the accuracy and results of ReefCloud's machine learning model.
+  url: https://islandtimes.org/picrc-leads-regional-coral-monitoring-workshop-in-kosrae/
+  fetched: 2026-11-12
+  quote: 'Model Validation: In-depth presentations on validating the accuracy and results of the machine
+    learning model for reporting.'
+links:
+- type: uses
+  to: reefcloud
+  url: https://islandtimes.org/picrc-leads-regional-coral-monitoring-workshop-in-kosrae/
+  fetched: 2026-11-12
+  quote: 'Technical Exercises: Hands-on training for setting up ReefCloud projects, using ReefCloud and
+    interpreting data from the public dashboards.'
+found_by:
+- checklist:2
+- checklist:4
+added_by: agent
+checked: 2026-11-12

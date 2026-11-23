@@ -1,0 +1,54 @@
+id: s2glc-land-cover-maps
+kind: dataset
+name: S2GLC land cover maps
+also_known_as:
+- S2GLC
+- S2GLC PL
+- Sentinel-2 Global Land Cover
+scope: pl
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pl
+status: active
+summary: Land cover maps built by the Space Research Centre PAN from Sentinel-2 data using a Random Forest
+  classifier, including a 2017 map of Europe made by automated machine learning processing.
+facts:
+- claim: The 2017 map of Europe was made by automated processing of Sentinel-2 data using machine learning.
+  url: https://polsa.gov.pl/?p=18604
+  fetched: '2026-11-02'
+  quote: This map was developed based on automated processing of multispectral data from Sentinel-2 satellites,
+    using machine learning.
+- claim: The Earth Observation Department of CBK PAN classifies land cover for all of Poland each year
+    for the Polish Space Agency.
+  url: https://www.iopan.pl/KNK2025/a/KNK2025_Lewinski_abstract.pdf
+  fetched: '2026-11-02'
+  quote: PAN) na zlecenie Polskiej Agencji Kosmicznej POLSA co roku wykonuje klasyfikację pokrycia terenu
+    całej Polski.
+- claim: The maps use a Random Forest classifier.
+  url: https://www.iopan.pl/KNK2025/a/KNK2025_Lewinski_abstract.pdf
+  fetched: '2026-11-02'
+  quote: Zastosowano klasyfikator Random Forest.
+  ai_type: ml-supervised
+links:
+- type: built-by
+  to: space-research-centre-polish-academy-of-sciences
+  url: https://polsa.gov.pl/?p=18604
+  fetched: '2026-11-02'
+  quote: The methodology developed by The Space Research Centre of the Polish Academy of Sciences (CBK
+    PAN)
+- type: builds-on
+  to: sentinel-2
+  url: https://polsa.gov.pl/?p=18604
+  fetched: '2026-11-02'
+  quote: automated classification process of multispectral Sentinel-2 satellite images
+found_by:
+- checklist:2
+- checklist:3
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,125 @@
+id: wildlife-insights
+kind: programme
+name: Wildlife Insights
+scope: global
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://www.wildlifeinsights.org
+summary: Online platform where people upload camera trap images, have species identified automatically
+  by AI, and share wildlife data. It runs SpeciesNet, and Google is a core partner.
+countries:
+- co
+facts:
+- claim: Anyone can upload images for automatic species identification.
+  url: https://www.wildlifeinsights.org/about
+  fetched: &id002 2026-10-30
+  quote: Anyone can upload their images to the Wildlife Insights platform so that species
+    can be automatically identified using artificial intelligence.
+- claim: Released in 2019 by seven conservation organisations and Google.
+  url: https://blog.google/products/earth/ai-finds-where-the-wild-things-are/
+  fetched: &id001 2026-10-30
+  quote: Seven leading conservation organizations and Google released Wildlife Insights to
+    better protect wildlife.
+- claim: Wildlife Insights' initial model is a deep convolutional neural network.
+  url: https://arxiv.org/abs/2009.11433
+  fetched: 2026-10-30
+  quote: an initial deep convolutional neural network model
+  ai_type: deep-learning
+- claim: Identifies animals in photos with machine learning.
+  url: https://www.wildlifeinsights.org
+  fetched: 2026-10-30
+  quote: Animals in your photos are automatically identified using machine learning technology.
+- claim: Lets people share wildlife data.
+  url: https://www.wildlifeinsights.org/about
+  fetched: 2026-10-30
+  quote: to enable people everywhere to share wildlife data
+links:
+- type: run-by
+  to: conservation-international
+  url: https://blog.google/products/earth/ai-finds-where-the-wild-things-are/
+  fetched: *id001
+  quote: seven organizations, led by Conservation International , and Google have mapped more
+    than 4.5 million animals in the wild using photos taken from motion-activated cameras
+    known as camera traps. The photos are all part of Wildlife Insights
+- type: partners-with
+  to: google
+  url: https://wildlifeinsights.org/node/135
+  fetched: *id002
+  quote: Google
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://sustainability.google/stories/wildlife-insights/
+  fetched: *id001
+  quote: Wildlife Conservation Society
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://sustainability.google/stories/wildlife-insights/
+  fetched: *id001
+  quote: Wildlife Insights tool by using Google Cloud AI Platform Predictions, a custom AI
+    model and images from conservation partners Wildlife Conservation Society, Smithsonian
+    Conservation Biology Institute, North Carolina Museum of Natural Sciences, WWF,
+- type: partners-with
+  to: zoological-society-of-london
+  url: https://sustainability.google/stories/wildlife-insights/
+  fetched: *id001
+  quote: Wildlife Insights tool by using Google Cloud AI Platform Predictions, a custom AI
+    model and images from conservation partners Wildlife Conservation Society, Smithsonian
+    Conservation Biology Institute, North Carolina Museum of Natural Sciences, WWF, Zoological
+    Society of London,
+- type: partners-with
+  to: north-carolina-museum-of-natural-sciences
+  url: https://sustainability.google/stories/wildlife-insights/
+  fetched: *id001
+  quote: Wildlife Insights tool by using Google Cloud AI Platform Predictions, a custom AI
+    model and images from conservation partners Wildlife Conservation Society, Smithsonian
+    Conservation Biology Institute, North Carolina Museum of Natural Sciences,
+- type: partners-with
+  to: smithsonian-conservation-biology-institute
+  url: https://sustainability.google/stories/wildlife-insights/
+  fetched: *id001
+  quote: Wildlife Insights tool by using Google Cloud AI Platform Predictions, a custom AI
+    model and images from conservation partners Wildlife Conservation Society, Smithsonian
+    Conservation Biology Institute,
+- type: partners-with
+  to: map-of-life
+  url: https://www.wildlifeinsights.org/about
+  fetched: 2026-10-30
+  quote: FOUNDING & CORE PARTNERS PARTNERS & SUPPORTERS
+  logo: https://www.mol.org/
+- type: partners-with
+  to: max-planck-institute-of-animal-behavior
+  url: https://www.wildlifeinsights.org/about
+  fetched: 2026-10-30
+  quote: FOUNDING & CORE PARTNERS PARTNERS & SUPPORTERS
+  logo: https://www.ab.mpg.de/
+- type: partners-with
+  to: gordon-and-betty-moore-foundation
+  url: https://www.wildlifeinsights.org/about
+  fetched: 2026-10-30
+  quote: FOUNDING & CORE PARTNERS PARTNERS & SUPPORTERS
+  logo: https://www.moore.org/
+- type: partners-with
+  to: lyda-hill-philanthropies
+  url: https://www.wildlifeinsights.org/about
+  fetched: 2026-10-30
+  quote: FOUNDING & CORE PARTNERS PARTNERS & SUPPORTERS
+  logo: https://lydahillphilanthropies.org/
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://www.wildlifeinsights.org/about
+  fetched: 2026-10-30
+  quote: FOUNDING & CORE PARTNERS PARTNERS & SUPPORTERS
+  logo: https://www.iucn.org/theme/protected-areas/our-work/iucn-green-list-protected-and-conserved-areas
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id002

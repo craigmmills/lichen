@@ -1,0 +1,48 @@
+id: comision-nacional-para-la-gestion-de-la-biodiversidad
+kind: organisation
+name: Comisión Nacional para la Gestión de la Biodiversidad
+also_known_as:
+- CONAGEBIO
+scope: cr
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: cr
+scale: national
+status: active
+summary: San José body that, according to its GBIF record, develops and monitors the national
+  biodiversity strategy and manages access requests to biodiversity resources, and which runs
+  BIODATACR.
+facts:
+- claim: Its GBIF publisher record says it develops the national biodiversity strategy and
+    monitors its implementation.
+  url: https://api.gbif.org/v1/organization/0a5343a6-8e13-44bb-aee0-d88f712915ec
+  fetched: '2026-11-08'
+  quote: Develop the national biodiversity strategy and monitor its implementation.
+- claim: Its GBIF publisher record says it manages requests for access to biodiversity resources
+    in Costa Rica.
+  url: https://api.gbif.org/v1/organization/0a5343a6-8e13-44bb-aee0-d88f712915ec
+  fetched: '2026-11-08'
+  quote: is in charge of managing requests for access to biodiversity resources in Costa Rica
+- claim: Its GBIF publisher record gives an address in San José.
+  url: https://api.gbif.org/v1/organization/0a5343a6-8e13-44bb-aee0-d88f712915ec
+  fetched: '2026-11-08'
+  quote: Avenida 8 y 10, Calle 27 A,  Barrio Francisco Peralta, Catedral, San José.
+links:
+- type: runs
+  to: biodatacr
+  url: https://cran.r-project.org/web/packages/rbiodatacr/vignettes/introduccion.html
+  fetched: '2026-11-08'
+  quote: the national biodiversity information platform of Costa Rica managed by the Technical
+    Office of CONAGEBIO
+found_by:
+- checklist:1
+- checklist:2
+added_by: agent
+checked: '2026-11-08'

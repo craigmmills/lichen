@@ -1,0 +1,71 @@
+id: university-of-oslo
+kind: organisation
+name: University of Oslo
+also_known_as:
+- UiO
+scope: 'no'
+summary: Oslo university whose Natural History Museum hosts GBIF Norway, and which advertised
+  in 2022 for an engineer on the Horizon Europe-funded BioDT project.
+facts:
+- claim: Its 2022 job advert sought an engineer to help deliver UiO’s responsibilities for
+    the Horizon Europe-funded Biodiversity Digital Twin (BioDT) project.
+  url: https://stilling.forskning.no/ingenior-job-ads-oslo/senior-engineer-biodiversity-research-infrastructure-data-mobilization/2059929
+  fetched: '2026-11-02'
+  quote: delivering the responsibilities of UiO for the Horizon Europe-funded Biodiversity
+    Digital Twin (BioDT) project
+- claim: A founder of the SmartForest centre with NIBIO and NMBU, according to NIBIO.
+  url: https://nibio.no/en/news/increased-digitization-with-smartforest
+  fetched: '2026-11-02'
+  quote: NIBIO, the Norwegian University of Life Sciences (NMBU) and the University of Oslo,
+    three foreign partners and 16 companies
+- claim: Its GBIF publisher record says the Natural History Museum is part of the university
+    and holds over 6 million objects.
+  url: https://api.gbif.org/v1/organization/f314b0b0-e3dc-11d9-8d81-b8a03c50a862
+  fetched: '2026-11-02'
+  quote: The UiO Natural History Museum is part of the University of Oslo
+- claim: Its record gives an Oslo address.
+  url: https://api.gbif.org/v1/organization/f314b0b0-e3dc-11d9-8d81-b8a03c50a862
+  fetched: '2026-11-02'
+  quote: Problemveien 7, NO-0315 Oslo
+- claim: Its GBIF publisher record says the Natural History Museum's scientific collections
+    comprise over 6 million objects.
+  url: https://api.gbif.org/v1/organization/f314b0b0-e3dc-11d9-8d81-b8a03c50a862
+  fetched: &id001 2026-11-02
+  quote: Our scientific collections comprise over 6 million objects
+- claim: Hosts GBIF Norway at its Natural History Museum.
+  url: https://www.nhm.uio.no/english/research/projects/gbif/
+  fetched: *id001
+  quote: is hosted by the Natural History Museum of the University in Oslo (NHM, UiO)
+- claim: GBIF Norway names a UiO research group for Machine-Readable Nature (MaNa), writing
+    its affiliation as 'UiO NHN'.
+  url: https://gbif.no/
+  fetched: *id001
+  quote: the UiO NHN research group for Machine-Readable Nature (MaNa)
+- claim: The GBIF publisher record gives its address in Oslo, Norway.
+  url: https://api.gbif.org/v1/organization/f314b0b0-e3dc-11d9-8d81-b8a03c50a862
+  fetched: *id001
+  quote: '"city":"Oslo","country":"NO"'
+links: []
+found_by:
+- checklist:3
+- link-from:gbif-norway
+- link-from:visual-intelligence
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- land
+- ocean
+- freshwater
+countries:
+- 'no'
+techniques:
+- computer-vision

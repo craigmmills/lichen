@@ -1,0 +1,27 @@
+id: ornitho-at
+kind: dataset
+name: ornitho.at
+scope: at
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+status: active
+summary: Bird observation dataset run by BirdLife Österreich, receiving over a million records a year
+  through its website or the NaturaList app.
+facts:
+- claim: Receives over a million records a year, submitted by website or the NaturaList app.
+  url: https://www.birdlife.at/
+  fetched: 2026-11-07
+  quote: Mit über einer Million Meldungen pro Jahr liefert sie wertvolle Daten für den Vogelschutz.
+links:
+- type: run-by
+  to: birdlife-oesterreich
+  url: https://www.birdlife.at/
+  fetched: 2026-11-07
+  quote: Unsere Meldeplattform ornitho.at ermöglicht ehrenamtlichen Vogelbeobachter:innen, ihre Beobachtungen
+    per Website oder App NaturaList zu melden.
+found_by:
+- link-from:birdlife-osterreich
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,59 @@
+id: university-of-bari-aldo-moro
+kind: organisation
+name: University of Bari Aldo Moro
+also_known_as:
+- Università degli Studi di Bari Aldo Moro
+scope: it
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University with partner link to Global Fishing Watch, whose authors have OpenAlex-listed
+  papers on deep learning for dolphin photo-identification, bark beetle mapping in Sentinel-2
+  data, and coastal seagrass monitoring.
+facts:
+- claim: OpenAlex lists a paper by its authors on ARIANNA, a deep learning system that analyses
+    fin contours to recognise individual dolphins.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I5561750,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2022-01-01&select=id,title,publication_year,authorships&per_page=20
+  fetched: 2026-11-08
+  quote: 'ARIANNA: A novel deep learning-based system for fin contours analysis in individual
+    recognition of dolphins'
+  ai_type: deep-learning
+- claim: OpenAlex lists a paper by its authors on computer vision and deep learning for cetacean
+    photo-identification.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I5561750,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2022-01-01&select=id,title,publication_year,authorships&per_page=20
+  fetched: 2026-11-08
+  quote: Computer Vision and Deep Learning Applied to the Photo-identification of Cetaceans
+- claim: OpenAlex lists a paper by its authors on mapping bark beetle outbreaks in Sentinel-2
+    data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I5561750,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2022-01-01&select=id,title,publication_year,authorships&per_page=20
+  fetched: 2026-11-08
+  quote: Deep Change Vector Analysis to Map Bark Beetle Outbreaks in Open Sentinel-2 Data
+- claim: OpenAlex lists a paper by its authors on deep learning segmentation for coastal monitoring
+    and seagrass banquette detection.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I5561750,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2022-01-01&select=id,title,publication_year,authorships&per_page=20
+  fetched: 2026-11-08
+  quote: Deep learning-based segmentation techniques for coastal monitoring and seagrass banquette
+    detection
+links:
+- type: partners-with
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/annual-report-2025/
+  fetched: 2026-11-08
+  quote: Together with partners Pew Bertarelli Ocean Legacy, World Wildlife Fund for Nature,
+    and the University of Bari
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

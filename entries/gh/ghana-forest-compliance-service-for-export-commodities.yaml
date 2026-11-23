@@ -1,0 +1,51 @@
+id: ghana-forest-compliance-service-for-export-commodities
+kind: programme
+name: Ghana Forest Compliance Service for Export Commodities
+scope: gh
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gh
+status: active
+summary: A service run by the Forestry Commission and Ecometrica using the enhanced
+  land cover map, which in September 2021 the UK Space Agency blog said could give
+  cocoa-sourcing companies government certification.
+facts:
+- claim: The Forestry Commission partnered with Ecometrica to provide the service.
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The Ghana Forestry Commission partnered with Ecometrica to provide the Ghana
+    Forest Compliance Service for Export Commodities .
+- claim: In September 2021, the UK Space Agency blog said companies sourcing cocoa
+    from Ghana could receive government certification by using the service.
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: any companies sourcing their cocoa from Ghana can now receive a certification
+    from the Ghanaian Government by using this comprehensive yet easy to use service
+links:
+- type: run-by
+  to: forestry-commission-ghana
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The Ghana Forestry Commission partnered with Ecometrica to provide the Ghana
+    Forest Compliance Service for Export Commodities .
+- type: run-by
+  to: ecometrica
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: The Ghana Forestry Commission partnered with Ecometrica to provide the Ghana
+    Forest Compliance Service for Export Commodities .
+- type: uses
+  to: enhanced-land-use-land-cover-map-of-ghana
+  url: https://space.blog.gov.uk/2021/09/29/using-satellites-to-monitor-deforestation-in-cocoa-crops/
+  fetched: 2026-11-12
+  quote: this land map will enable the Ghana Forestry Commision to ensure cocoa is
+    not grown on land responsible for deforestation
+found_by:
+- rule:checklist-misses
+- link-from:enhanced-land-use-land-cover-map-of-ghana
+added_by: agent
+checked: 2026-11-12

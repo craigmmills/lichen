@@ -1,0 +1,42 @@
+id: wild-dolphin-project
+kind: organisation
+name: Wild Dolphin Project
+also_known_as:
+- WDP
+scope: global
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: us
+scale: regional
+status: active
+website: https://www.wilddolphinproject.org
+summary: Non-profit dolphin research project whose field recordings underpin Google's DolphinGemma
+  model. It runs the CHAT research work on dolphin communication.
+facts:
+- claim: Lists CHAT research and dolphin communication among its work.
+  url: https://www.wilddolphinproject.org/about/
+  quote: CHAT Research Dolphin Communication
+  fetched: 2026-10-30
+- claim: Listed in North Palm Beach, Florida in ProPublica's Nonprofit Explorer.
+  url: https://projects.propublica.org/nonprofits/api/v2/search.json?q=Wild+Dolphin+Project
+  quote: '"name":"Wild Dolphin Project Inc","sub_name":"Wild Dolphin Project Inc","city":"North
+    Palm Beach","state":"FL"'
+  fetched: 2026-10-30
+links:
+- type: partners-with
+  to: dolphingemma
+  url: https://blog.google/technology/ai/dolphingemma/
+  quote: 'in collaboration with researchers at Georgia Tech and the field research of the
+    Wild Dolphin Project (WDP), is announcing progress on DolphinGemma:'
+  fetched: 2026-10-30
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

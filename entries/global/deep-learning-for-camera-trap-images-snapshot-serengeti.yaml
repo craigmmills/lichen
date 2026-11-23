@@ -1,0 +1,42 @@
+id: deep-learning-for-camera-trap-images-snapshot-serengeti
+kind: model
+name: Deep learning for camera-trap images (Snapshot Serengeti models)
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images
+summary: Code and pre-trained models for extracting information from camera-trap images,
+  trained on Snapshot Serengeti data and accompanying a paper on identifying, counting
+  and describing wild animals with deep learning.
+facts:
+- claim: The repository holds code and pre-trained models for extracting information
+    from camera-trap images, trained on Snapshot Serengeti.
+  url: https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images
+  fetched: 2026-11-21
+  quote: This repo contains code+pre-trained models for extracting information from
+    camera-trap images. The pre-trained models have been trained on the Snapshot Serengeti
+    dataset.
+- claim: The code accompanies a paper on identifying, counting and describing wild
+    animals in camera-trap images with deep learning.
+  url: https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images
+  fetched: 2026-11-21
+  quote: Automatically identifying, counting, and describing wild animals in camera-trap
+    images with deep learning
+  ai_type: deep-learning
+links:
+- type: uses
+  to: snapshot-serengeti
+  url: https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images
+  fetched: 2026-11-21
+  quote: The pre-trained models have been trained on the Snapshot Serengeti dataset.
+runner: unknown
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

@@ -1,0 +1,98 @@
+id: national-institute-of-environmental-research-korea
+kind: organisation
+name: National Institute of Environmental Research
+scope: kr
+sector: government
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+scale: national
+hq: kr
+status: active
+summary: Institute in Incheon that runs an algal bloom forecast and real-time algal bloom
+  monitoring; on 3 May 2026 it announced AI forecasts for summer blooms starting 4 May.
+facts:
+- claim: On 3 May 2026 it announced that AI forecasts for summer algal blooms would start
+    on 4 May.
+  url: https://www.heraldk.com/article/2026050314293857470
+  fetched: '2026-11-02'
+  quote: 기후에너지환경부 소속 국립환경과학원은 여름철 녹조 발생에 선제적으로 대응하기 위해 4일부터 AI 기술을 활용한 녹조 정밀 예측 정보를 제공한다고
+    밝혔다.
+- claim: Plans to apply the AI model at all water-supply alert sites by 2030.
+  url: https://www.heraldk.com/article/2026050314293857470
+  fetched: '2026-11-02'
+  quote: 2030년까지 전국 상수원 조류경보제 지점 전체로 적용할 방침이다.
+- claim: A January 2023 report said it surveyed the main biota of public waters on a three-year
+    cycle.
+  url: https://www.newsis.com/view/NISX20230118_0002164128
+  fetched: '2026-11-02'
+  quote: 국립환경과학원은 하천과 호소 등 공공수역에서 수생태계 건강성 실태를 파악하기 위해 주요 생물상을 3년 주기로 조사하고 있다.
+- claim: Its Environmental Satellite Center operates the GEMS air quality mission and says
+    it is expanding research to ecosystem impacts.
+  url: https://nesc.nier.go.kr/en/html/cntnts/44/introduction/greeting.do
+  fetched: '2026-11-02'
+  quote: Building on these data, we are expanding our research to address broader challenges,
+    including climate change, ecosystem impacts, and human health.
+- claim: Its address is in Incheon.
+  url: https://www.nier.go.kr/eng/
+  fetched: '2026-11-02'
+  quote: National Institute of Environmental Research, Hwangyeong-ro 42, Seohae-gu. Incheon.
+    Republic of Korea (Zipcode 22689)
+- claim: Press report says the institute, under the ministry, is pushing wide-area algal bloom
+    monitoring that fuses hyperspectral sensors, satellite remote sensing and AI.
+  url: https://www.newsis.com/view/NISX20260701_0003692262
+  fetched: '2026-11-02'
+  quote: 기후에너지환경부 소속 국립환경과학원이 초분광 센서와 인공위성 원격탐사 기술에 인공지능(AI) 기술을 융합해 실시간 광역형 녹조 모니터링 고도화를
+    추진한다고 2일 밝혔다.
+- claim: Sensor data are analysed with an AI deep learning model.
+  url: https://www.newsis.com/view/NISX20260701_0003692262
+  fetched: '2026-11-02'
+  quote: 초분광 센서가 관측한 정보는 수질 센서 및 기상측정장비, CCTV 등과 연계하고 인공지능 기반 심층학습 모델로 분석한다.
+  ai_type: deep-learning
+links:
+- type: runs
+  to: nier-algal-bloom-forecast
+  url: https://www.heraldk.com/article/2026050314293857470
+  fetched: '2026-11-02'
+  quote: 4일부터 AI 기술을 활용한 녹조 정밀 예측 정보를 제공한다고 밝혔다.
+- type: builds
+  to: harmful-cyanobacteria-automatic-analysis
+  url: https://www.ajunews.com/view/20260614153616346
+  fetched: '2026-11-02'
+  quote: 기후에너지환경부 산하 국립환경과학원은 측정·분석기기 전문기업 이솔루션즈와 공동으로 개발한 AI 기반 유해남조류 자동 분석 기술을 대청호에 처음 적용한다고
+    15일 밝혔다.
+- type: partners-with
+  to: committee-on-earth-observation-satellites
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: '2026-11-02'
+  quote: National Institute of Environmental Research (NIER) Republic of Korea 2018
+- type: builds
+  to: aquatic-ecosystem-health-map-korea
+  url: https://www.newsis.com/view/NISX20230118_0002164128
+  fetched: '2026-11-02'
+  quote: 평가 결과를 토대로 만든 '수생태계 건강성 지도'를 물환경정보시스템을 통해 공개한다고 19일 밝혔다.
+- type: runs
+  to: ministry-of-oceans-and-fisheries-korea
+  url: https://www.newsis.com/view/NISX20260701_0003692262
+  fetched: '2026-11-02'
+  quote: 녹조 관측 고도화는 ▲고정형 초분광 타워 기반 실시간 녹조 관측 ▲인공위성 기반 광역 녹조 감시체계 구축의 두축으로 진행된다.
+found_by:
+- checklist:2
+- link-from:queue-kr
+- checklist:7
+also_known_as:
+- NIER
+- 국립환경과학원
+realms:
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr
+ai_types:
+- deep-learning

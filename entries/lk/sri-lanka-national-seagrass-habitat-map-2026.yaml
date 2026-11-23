@@ -1,0 +1,53 @@
+id: sri-lanka-national-seagrass-habitat-map-2026
+kind: dataset
+name: Sri Lanka national seagrass habitat map (OCPP, 2026)
+scope: lk
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- lk
+status: active
+runner: unknown
+summary: Described as Sri Lanka’s first standardised national-scale seagrass map in
+  a 2026 OCPP report, using Google Earth Engine Random Forest classification, with
+  Blue Resources Trust supporting accuracy assessment.
+facts:
+- claim: The 2026 report says this work under the Ocean Country Partnership Programme
+    produced the first standardised, national-scale seagrass map for Sri Lanka.
+  url: https://data.jncc.gov.uk/data/ec03c9e2-08b0-4865-982c-28fb3703fea1/ocpp-sri-lanka-seagrass-mapping-2026.pdf
+  fetched: 2026-11-12
+  quote: This work, as part of OCPP, has produced the first standardised, national-scale
+    seagrass
+- claim: The report says the map was produced with a Random Forest classification
+    run in Google Earth Engine with 200 trees.
+  url: https://data.jncc.gov.uk/data/ec03c9e2-08b0-4865-982c-28fb3703fea1/ocpp-sri-lanka-seagrass-mapping-2026.pdf
+  fetched: 2026-11-12
+  quote: The Random Forest classification was conducted in Google Earth Engine using
+    200 trees.
+  ai_type: ml-supervised
+- claim: The report names Matthew Floyd and Holly K. East of Northumbria University
+    as its authors.
+  url: https://data.jncc.gov.uk/data/ec03c9e2-08b0-4865-982c-28fb3703fea1/ocpp-sri-lanka-seagrass-mapping-2026.pdf
+  fetched: 2026-11-12
+  quote: 'Authors: Matthew Floyd & Holly K. East (Northumbria University).'
+- claim: The report says the accuracy assessment used field data collected with Blue
+    Resources Trust.
+  url: https://data.jncc.gov.uk/data/ec03c9e2-08b0-4865-982c-28fb3703fea1/ocpp-sri-lanka-seagrass-mapping-2026.pdf
+  fetched: 2026-11-12
+  quote: accuracy assessment with field data collected in collaboration with Blue
+    Resources Trust.
+links:
+- type: partners-with
+  to: blue-resources-trust
+  url: https://data.jncc.gov.uk/data/ec03c9e2-08b0-4865-982c-28fb3703fea1/ocpp-sri-lanka-seagrass-mapping-2026.pdf
+  fetched: 2026-11-12
+  quote: in collaboration with in-country partners at Blue Resources Trust and IUCN.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,118 @@
+id: nature-conservation-agency-of-the-czech-republic
+kind: organisation
+name: Nature Conservation Agency of the Czech Republic
+also_known_as:
+- Agentura ochrany přírody a krajiny ČR
+- AOPK ČR
+- NCA CR
+- NCA
+scope: cz
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+hq: cz
+countries:
+- cz
+scale: national
+status: active
+website: https://aopk.gov.cz/web/en
+summary: Czech governmental body established in 2015 that runs the Nature Conservation Finds
+  Database and National Biodiversity Portal and is registered as a GBIF data publisher.
+facts:
+- claim: Its English site covers the Czech Republic's 27 protected landscape areas and 4 national
+    parks.
+  url: https://aopk.gov.cz/web/en
+  fetched: 2026-11-07
+  quote: There are 27 Protected Landscape Areas (IUCN Category V) and 4 National Parks (Category
+    II) in the Czech Republic
+- claim: Designates nature reserves; its site reports the new Číhan Fen Meadows Nature Reserve
+    designated by the agency.
+  url: https://aopk.gov.cz/web/en
+  fetched: 2026-11-07
+  quote: This forms the new Číhan Fen Meadows Nature Reserve in the Mariánské Lázně region,
+    designated by the Nature Conservation Agency of the Czech Republic (NCA CR)
+- claim: The national biodiversity strategy says the agency operates the nationwide nature
+    conservation information system (ISOP), with unified monitoring methods, and makes all
+    its data public.
+  url: https://mzp.gov.cz/system/files/2026-05/ODOIMZ-SOBR_CR_2026-2050_a_AP_2026-2030_20260519.pdf
+  fetched: 2026-11-07
+  quote: AOPK ČR provozuje celostátní systém (ISOP) vč. sjednocených metodik monitoringu a
+    veškerá data veřejně poskytuje.
+- claim: Registered as a GBIF data publisher.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=100
+  fetched: 2026-11-07
+  quote: Nature Conservation Agency Czech Republic
+- claim: GBIF's publisher record describes it as a governmental body set up in 2015 to protect
+    nature and landscape across the country.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: The Nature Conservation Agency of the Czech Republic (NCA) is a governmental body
+    established in 2015 under the Conservation of Nature and Landscape Act.
+- claim: The same record says its tasks include biodiversity monitoring and data management,
+    including the National Biodiversity Portal.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: One of the main tasks is biodiversity monitoring, data management and governance,
+    including the National Biodiversity Portal (comprising data about species and habitats).
+- claim: The record gives its address in Prague.
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: Kaplanova 1931/1
+- claim: Its English site says it serves as the Convention on Biological Diversity Clearing-House
+    Mechanism for the Czech Republic.
+  url: https://aopk.gov.cz/web/en
+  fetched: 2026-11-07
+  quote: This webpage serves as the Clearing-House Mechanism of the Convention on Biological
+    Diversity in the Czech Republic.
+- claim: Its GBIF publisher record describes it as a governmental body established in 2015
+    under the Conservation of Nature and Landscape Act.
+  url: https://api.gbif.org/v1/organization/59a972bb-0096-4aa4-824b-289c927209f9
+  fetched: 2026-11-07
+  quote: The Nature Conservation Agency of the Czech Republic (NCA) is a governmental body
+    established in 2015 under the Conservation of Nature and Landscape Act.
+- claim: Its GBIF publisher record says biodiversity monitoring, data management and the National
+    Biodiversity Portal are among its main tasks.
+  url: https://api.gbif.org/v1/organization/59a972bb-0096-4aa4-824b-289c927209f9
+  fetched: 2026-11-07
+  quote: One of the main tasks is biodiversity monitoring, data management and governance,
+    including the National Biodiversity Portal (comprising data about species and habitats).
+- claim: Its GBIF publisher record gives its address in Prague 11.
+  url: https://api.gbif.org/v1/organization/59a972bb-0096-4aa4-824b-289c927209f9
+  fetched: 2026-11-07
+  quote: '"address":["Kaplanova 1931/1"],"city":"Praha 11","country":"CZ"'
+- claim: It designated the Číhan Fen Meadows Nature Reserve in the Slavkovský Les Protected
+    Landscape Area.
+  url: https://aopk.gov.cz/web/en
+  fetched: 2026-11-07
+  quote: designated by the Nature Conservation Agency of the Czech Republic (NCA CR) following
+    several years of preparation
+links:
+- type: runs
+  to: nature-conservation-finds-database
+  url: https://mzp.gov.cz/system/files/2026-05/ODOIMZ-SOBR_CR_2026-2050_a_AP_2026-2030_20260519.pdf
+  fetched: 2026-11-07
+  quote: Základními zdroji informací je ISOP, konkrétně Nálezová databáze ochrany přírody
+    (NDOP) a vrstva mapování biotopů, které spravuje AOPK ČR.
+- type: runs
+  to: national-biodiversity-portal-czech-republic
+  url: https://api.gbif.org/v1/organization?country=CZ&limit=200
+  fetched: 2026-11-07
+  quote: One of the main tasks is biodiversity monitoring, data management and governance,
+    including the National Biodiversity Portal
+- type: partners-with
+  to: biodiversa-plus
+  url: https://www.biodiversa.eu/partners/
+  fetched: 2026-11-07
+  quote: Czech Republic NCA CR Nature Conservation Agency of the Czech Republic
+found_by:
+- checklist:1
+- link-from:masaryk-university
+- register:cz
+added_by: agent
+checked: 2026-11-07

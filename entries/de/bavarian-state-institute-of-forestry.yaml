@@ -1,0 +1,62 @@
+id: bavarian-state-institute-of-forestry
+kind: organisation
+name: Bavarian State Institute of Forestry
+also_known_as:
+- Bayerische Landesanstalt für Wald und Forstwirtschaft
+- LWF
+sector: government
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: local
+status: active
+summary: Bavarian state forestry institute that studies AI and remote sensing for crown damage
+  in the ForstEO project and works with the University of Bayreuth on AI4Wildlife.
+facts:
+- claim: Waldwissen says the LWF studies AI and remote sensing for detecting crown damage
+    across large areas in ForstEO.
+  url: https://www.waldwissen.net/de/lebensraum-wald/naturschutz/ki-biodiversitaetsforschung-naturschutz
+  quote: Im Forschungsprojekt ForstEO (2023–2026) untersucht die LWF gemeinsam mit Partnern
+    den Einsatz von Künstlicher Intelligenz und Fernerkundung zur großflächigen Erkennung
+    von Kronenschäden im Wald.
+  fetched: '2026-10-31'
+- claim: Its wildlife research and monitoring data underpin wildlife management.
+  url: https://www.lwf.bayern.de/wildtierbiologie/index.php
+  fetched: '2026-10-31'
+  quote: wildbiologischen Forschung und Monitoringdaten bilden die Grundlagen für das Management
+    von Wildtieren und ihren Lebensräumen
+- claim: Led the KIHBA project on deep learning for tree species classification.
+  url: https://www.lwf.bayern.de/informationstechnologie/fernerkundung/320500/index.php
+  fetched: '2026-10-31'
+  quote: 'Projektleiterin: Dr. Adelheid Wallner (Abt. 1, LWF)'
+links:
+- type: runs
+  to: forsteo
+  url: https://www.waldwissen.net/de/lebensraum-wald/naturschutz/ki-biodiversitaetsforschung-naturschutz
+  quote: Im Forschungsprojekt ForstEO (2023–2026) untersucht die LWF gemeinsam mit Partnern
+  fetched: '2026-10-31'
+- type: runs
+  to: kihba
+  url: https://www.lwf.bayern.de/informationstechnologie/fernerkundung/320500/index.php
+  fetched: '2026-10-31'
+  quote: 'Projektleiterin: Dr. Adelheid Wallner (Abt. 1, LWF)'
+- type: runs
+  to: ai4wildlife
+  url: https://www.lwf.bayern.de/wildtierbiologie/wildtierforschung/343312/index.php
+  fetched: '2026-10-31'
+  quote: 'Projektleitung: Dr. Hendrik Edelhoff / Dr. Wibke Peters'
+found_by:
+- checklist:1
+- link-from:ai4wildlife
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'

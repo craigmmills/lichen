@@ -1,0 +1,36 @@
+id: birda
+kind: organisation
+name: Birda
+scope: global
+sector: company
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+scale: global
+status: active
+website: https://birda.org/
+summary: Birdwatching app with an AI-powered bird identifier, which sends the sightings it
+  collects to the Global Biodiversity Information Facility.
+facts:
+- claim: Offers an AI-powered tool that identifies birds from an uploaded photo.
+  url: https://birda.org/
+  fetched: '2026-10-30'
+  quote: Identify birds by uploading a photo of your bird to the AI-powered bird ID tool
+- claim: Sends its sightings data to GBIF.
+  url: https://birda.org/
+  fetched: '2026-10-30'
+  quote: Birda sends all of the sightings data it collects to the Global Biodiversity Informa
+- claim: The GBIF publisher record places it in London.
+  url: https://api.gbif.org/v1/organization/0c6d40e3-5d96-4a2d-9342-b02833aaa766
+  fetched: '2026-10-30'
+  quote: '"city":"London"'
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

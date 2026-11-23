@@ -1,0 +1,68 @@
+id: ai-reefshield
+kind: project
+name: AI-REEFSHIELD
+also_known_as: []
+scope: de
+ai_label: ai
+realms:
+- ocean
+techniques:
+- other
+- computer-vision
+status: active
+countries:
+- de
+runner: unknown
+summary: KI-Leuchtturm project to monitor offshore marine habitats with AI in a way
+  that spares reefs and reduces crewed ship trips.
+facts:
+- claim: To monitor offshore marine habitats with ai in a way that spares reefs and
+    reduces crewed ship trips.
+  url: https://www.bundesumweltministerium.de/pressemitteilung/kuenstliche-intelligenz-im-einsatz-fuer-den-natuerlichen-klimaschutz
+  fetched: '2026-10-31'
+  quote: Ziel des Projekts AI-REEFSHIELD ist es, Offshore-Meeresbiotope mithilfe Künstlicher
+    Intelligenz riff-schonend zu überwachen
+- claim: Develops an AI learning and robotics system to record and assess marine restoration
+    sites.
+  url: https://www.awi.de/forschung/biowissenschaften/oekologie-der-schelfmeere/schwerpunkte/europaeische-auster/ai-reefshield.html
+  fetched: '2026-10-31'
+  quote: Das Projekt „AI-REEFSHIELD“ entwickelt ein KI-gestütztes Lern- und Robotiksystem
+    zur Erfassung und Bewertung mariner Renaturierungsflächen.
+- claim: Its system combines machine vision and reinforcement learning, among other
+    methods.
+  url: https://www.awi.de/forschung/biowissenschaften/oekologie-der-schelfmeere/schwerpunkte/europaeische-auster/ai-reefshield.html
+  fetched: '2026-10-31'
+  quote: Das System kombiniert Ansätze aus dem maschinellen Sehen, Reinforcement Learning,
+    erklärbarer KI (XAI) sowie modellbasierten Lernverfahren.
+  ai_type: ml-reinforcement
+links:
+- type: funded-by
+  to: ki-leuchttuerme
+  url: https://www.bundesumweltministerium.de/pressemitteilung/kuenstliche-intelligenz-im-einsatz-fuer-den-natuerlichen-klimaschutz
+  fetched: '2026-10-31'
+  quote: Acht neue KI-Leuchtturmprojekte werden aus dem Aktionsprogramm Natürlicher
+    Klimaschutz gefördert
+- type: run-by
+  to: german-research-center-for-artificial-intelligence
+  url: https://www.awi.de/forschung/biowissenschaften/oekologie-der-schelfmeere/schwerpunkte/europaeische-auster/ai-reefshield.html
+  fetched: '2026-10-31'
+  quote: 'Weitere Informationen zum Gesamtprojekt finden sich beim Projektkoordinator:
+    DFKI Projektseite AI-REEFSHIELD'
+- type: partners-with
+  to: alfred-wegener-institute
+  url: https://www.awi.de/forschung/biowissenschaften/oekologie-der-schelfmeere/schwerpunkte/europaeische-auster/ai-reefshield.html
+  fetched: '2026-10-31'
+  quote: Das AWI ist als mariner Anwendungspartner zentral in die Projektarbeit eingebunden
+- type: funded-by
+  to: german-federal-ministry-for-the-environment
+  url: https://www.awi.de/forschung/biowissenschaften/oekologie-der-schelfmeere/schwerpunkte/europaeische-auster/ai-reefshield.html
+  fetched: '2026-10-31'
+  quote: durch das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare
+    Sicherheit gefördert
+found_by:
+- link-from:ki-leuchtturme
+- checklist:7
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- ml-reinforcement

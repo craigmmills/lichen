@@ -1,0 +1,34 @@
+id: aist-sar-foundation-model
+kind: model
+name: AIST SAR foundation model for Japan
+also_known_as:
+- 国土に特化したSAR基盤モデル
+scope: jp
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- foundation-models
+countries:
+- jp
+status: active
+summary: SAR foundation model for Japan, built by the National Institute of Advanced Industrial Science
+  and Technology from JAXA Daichi-2 data on AIST's ABCI system.
+facts:
+- claim: A SAR foundation model for Japan, built from JAXA Daichi-2 data on AIST's ABCI system.
+  url: https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250603/pr20250603.html
+  fetched: 2026-11-02
+  quote: 土地利用・土地被覆の偏りを均等化して構築した学習データセットを用いて日本の国土に特化したSAR基盤モデルを構築
+  ai_type: foundation-models
+links:
+- type: built-by
+  to: national-institute-of-advanced-industrial-science-and-technology
+  url: https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250603/pr20250603.html
+  fetched: 2026-11-02
+  quote: 人工衛星「だいち2号」の観測データを活用して国土に特化したSAR基盤モデルを構築
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

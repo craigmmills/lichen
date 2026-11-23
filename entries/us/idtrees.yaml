@@ -1,0 +1,56 @@
+id: idtrees
+kind: project
+name: IDTReeS (Integrating Data science with Trees and Remote Sensing)
+also_known_as:
+- IDTReeS
+scope: us
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+website: https://idtrees.org/
+summary: Project funded by the National Science Foundation that combines remote sensing,
+  surveys and data science to study forests, and has published tree crown detection
+  work including the DeepForest package.
+facts:
+- claim: Combines remote sensing imagery, large-scale surveys and data science methods
+    to understand forests from individual trees to continents.
+  url: https://idtrees.org/
+  fetched: 2026-11-21
+  quote: We are combining remote sensing imagery, large scale surveys, and data science
+    methods, to help understand forests at scales from individual trees to entire
+    continents.
+- claim: Publishes data sets, code and protocols, and ran a data science challenge
+    using ecological data.
+  url: https://idtrees.org/
+  fetched: 2026-11-21
+  quote: We are also actively producing data sets, code, and protocols to allow for
+    other researchers to easily build from what we have done.
+- claim: Has published deep learning work for tree crown detection, including the
+    DeepForest Python package.
+  url: https://idtrees.org/products/
+  fetched: 2026-11-21
+  quote: 'DeepForest: A Python package for RGB deep learning tree crown delineation.'
+  ai_type: deep-learning
+- claim: Offers 115 million tree predictions from the National Ecological Observatory
+    Network for viewing.
+  url: https://idtrees.org/
+  fetched: 2026-11-21
+  quote: View 115 million tree predictions from NEON (select NEON Predictions)
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://idtrees.org/
+  fetched: 2026-11-21
+  quote: This research is supported by the National Science Foundation through grant
+    1926542
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+runner: unknown

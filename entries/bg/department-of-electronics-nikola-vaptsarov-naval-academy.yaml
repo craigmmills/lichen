@@ -1,0 +1,37 @@
+id: department-of-electronics-nikola-vaptsarov-naval-academy
+kind: organisation
+name: Department of Electronics, Nikola Vaptsarov Naval Academy
+scope: bg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- bg
+scale: local
+status: active
+summary: Naval Academy department in Varna, named as the first author's affiliation
+  on a 2025 conference paper listed in OpenAlex on forest degradation and bird habitat
+  stress using satellite data.
+facts:
+- claim: OpenAlex lists a 2025 conference paper, Spatiotemporal Analysis of Forest
+    Degradation and Avian Habitat Stress in the Varna Region Using Satellite Data.
+  url: https://api.openalex.org/works/W7124177299?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-12'
+  quote: Spatiotemporal Analysis of Forest Degradation and Avian Habitat Stress in
+    the Varna Region Using Satellite Data
+- claim: The first author's affiliation is the Department of Electronics, Nikola Vaptsarov
+    Naval Academy, Varna.
+  url: https://api.openalex.org/works/W7124177299?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-12'
+  quote: Nikola Vaptsarov Naval Academy,Dept. of Electronics,Varna,Bulgaria
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

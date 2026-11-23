@@ -1,0 +1,53 @@
+id: deutscher-jagdverband
+kind: organisation
+name: Deutscher Jagdverband
+scope: de
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: de
+scale: national
+status: active
+website: https://www.jagdverband.de
+summary: German hunters' association, whose WILD monitoring collects counts and surveys from
+  hunting districts through an online portal.
+facts:
+- claim: WILD monitoring runs surveys and counts at the level of hunting districts.
+  url: https://wild.jagdverband.de/de/p/hilfefaq-52.html
+  fetched: '2026-10-31'
+  quote: Die Flächendeckenden Erfassungen und Zählungen in Referenzgebieten finden auf Ebene
+    der Jagdreviere statt.
+- claim: Umbrella body of 15 state hunting associations with about 250,000 hunters.
+  url: https://www.jagdverband.de/der-djv
+  fetched: '2026-10-31'
+  quote: Der Deutsche Jagdverband (DJV) ist der Dachverband der 15 Landesjagdverbände (ausgenommen
+    Bayern) mit rund 250.000 Jägern.
+- claim: Its address is in Berlin.
+  url: https://www.jagdverband.de/wild-monitoring
+  fetched: '2026-10-31'
+  quote: Chausseestr. 37, 10115 Berlin
+found_by:
+- checklist:4
+- rule:ngo-broad
+- register:de
+added_by: agent
+checked: '2026-10-31'
+countries:
+- de
+also_known_as:
+- DJV
+links:
+- type: runs
+  to: wildtier-informationssystem-der-lander-deutschlands
+  url: https://www.jagdverband.de/wild-monitoring
+  fetched: '2026-10-31'
+  quote: WILD ist ein Projekt des Deutschen Jagdverbandes e. V. (DJV) und seiner Landesjagdverbände.
+- type: runs
+  to: tierfund-kataster
+  url: https://api.gbif.org/v1/organization/63ed155b-d511-4026-b474-8945d0a36b13
+  fetched: '2026-10-31'
+  quote: the association has been operating a Germany-wide animal register to record animals
+    found dead

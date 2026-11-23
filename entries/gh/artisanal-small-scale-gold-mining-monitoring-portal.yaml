@@ -1,0 +1,52 @@
+id: artisanal-small-scale-gold-mining-monitoring-portal
+kind: programme
+name: Artisanal Small Scale Gold Mining Monitoring Portal
+scope: gh
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- gh
+status: active
+summary: Built and run by CERSGIS with USAID and NASA support under SERVIR West Africa,
+  this portal maps galamsey in Ghana’s high forest zone according to its code repository.
+facts:
+- claim: Developed by CERSGIS with USAID and NASA support as part of the SERVIR West
+    Africa Program.
+  url: https://appcenter.servirglobal.net/detail/65
+  fetched: 2026-11-12
+  quote: This online portal has been developed by the Center for Remote Sensing and
+    Geographic Information Services (CERSGIS), with the support of USAID and NASA
+    as part of the SERVIR West Africa Program.
+- claim: CERSGIS produces and updates the information with national partner institutions.
+  url: https://appcenter.servirglobal.net/detail/65
+  fetched: 2026-11-12
+  quote: The information is produced and updated by CERSGIS in collaboration with
+    national partner institutions.
+- claim: The code repository says the methods map galamsey in Ghana's high forest
+    zone, which it calls a driver of forest and land degradation and deforestation.
+  url: https://github.com/CERSGIS/Small-Scale-Mining-Sites-Monitoring/blob/main/README.md
+  fetched: 2026-11-12
+  quote: the extent of galamsey activities in the high forest zone of Ghana, where
+    these activities are widespread.
+links:
+- type: built-by
+  to: centre-for-remote-sensing-and-geographic-information-services
+  url: https://appcenter.servirglobal.net/detail/65
+  fetched: 2026-11-12
+  quote: This online portal has been developed by the Center for Remote Sensing and
+    Geographic Information Services (CERSGIS)
+- type: run-by
+  to: centre-for-remote-sensing-and-geographic-information-services
+  url: https://appcenter.servirglobal.net/detail/65
+  fetched: 2026-11-12
+  quote: The information is produced and updated by CERSGIS in collaboration with
+    national partner institutions.
+found_by:
+- rule:checklist-misses
+- link-from:centre-for-remote-sensing-and-geographic-information-services
+added_by: agent
+checked: 2026-11-12

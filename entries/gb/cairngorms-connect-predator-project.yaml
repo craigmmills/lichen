@@ -1,0 +1,56 @@
+id: cairngorms-connect-predator-project
+kind: project
+name: Cairngorms Connect Predator Project
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+status: active
+website: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+summary: Research project on mammalian predator communities in the Cairngorms Connect
+  landscape, using AI-assisted monitoring with camera traps and audio units.
+facts:
+- claim: Uses AI-assisted monitoring with camera traps and audio units.
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: Through AI-assisted monitoring with camera traps and audio units
+  fetched: &id001 2026-10-30
+- claim: Led by the Universities of Aberdeen, St Andrews and UHI.
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: is collaborative research project led by the Universities of Aberdeen, St
+    Andrews, and UHI
+  fetched: *id001
+links:
+- type: led-by
+  to: university-of-st-andrews
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: is collaborative research project led by the Universities of Aberdeen, St
+    Andrews, and UHI
+  fetched: *id001
+- type: led-by
+  to: university-of-aberdeen
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: is collaborative research project led by the Universities of Aberdeen, St
+    Andrews, and UHI
+  fetched: *id001
+- type: partners-with
+  to: forestry-and-land-scotland
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: in partnership with Forestry and Land Scotland (FLS), RSPB Scotland
+  fetched: *id001
+- type: partners-with
+  to: royal-society-for-the-protection-of-birds
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: in partnership with Forestry and Land Scotland (FLS), RSPB Scotland
+  fetched: *id001
+- type: uses
+  to: mammalweb
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: "We host all our current camera trap deployments on MammalWeb"
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

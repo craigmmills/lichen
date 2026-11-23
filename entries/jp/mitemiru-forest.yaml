@@ -1,0 +1,33 @@
+id: mitemiru-forest
+kind: programme
+name: MiteMiru Forest
+scope: jp
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- jp
+status: active
+summary: Programme run by PASCO Corporation that uses satellite images and AI interpretation to monitor
+  logging and reforestation areas, adopted by 53 municipalities as of October 2024.
+facts:
+- claim: Adopted by 53 municipalities as of October 2024.
+  url: https://earth.jaxa.jp/conseo/en/casestudy/pdf/UC_PASCO_2_e.pdf
+  fetched: 2026-11-02
+  quote: adopted by 53 municipalities (as of October 2024)
+- claim: Uses satellite images and AI interpretation to monitor logging and reforestation areas.
+  url: https://earth.jaxa.jp/conseo/en/casestudy/pdf/UC_PASCO_2_e.pdf
+  fetched: 2026-11-02
+  quote: utilizes satellite images and AI interpretation
+links:
+- type: run-by
+  to: pasco-corporation
+  url: https://earth.jaxa.jp/conseo/en/casestudy/pdf/UC_PASCO_2_e.pdf
+  fetched: 2026-11-02
+  quote: Providing “MiteMiru Forest” service by utilizing the Satellite × AI
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-02

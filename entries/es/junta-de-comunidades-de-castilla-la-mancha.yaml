@@ -1,0 +1,40 @@
+id: junta-de-comunidades-de-castilla-la-mancha
+kind: organisation
+name: Junta de Comunidades de Castilla-La Mancha
+also_known_as:
+- JCCM
+scope: es
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+summary: Regional government that GBIF's record for IREC names as one of the institute's three
+  founders.
+facts:
+- claim: GBIF's record for IREC names the regional government as one of its three founders.
+  url: https://api.gbif.org/v1/organization/2e5b488d-52e2-4f80-862b-0a60517e3f50
+  fetched: '2026-11-08'
+  quote: the regional authority Junta de Comunidades de Castilla-La Mancha (JCCM)
+- claim: Acts as the managing body, through its Directorate General of Forests and Natural
+    Areas, for the La Mancha Húmeda biosphere reserve.
+  url: https://www.miteco.gob.es/es/parques-nacionales-oapn/reservas-biosfera-mab/programa-mab-espana/nuestras-reservas-de-la-biosfera/mancha-humeda.html
+  quote: 'Entidad gestora : Dirección General de Montes y Espacios Naturales. Consejería de
+    Agricultura. Junta de Comunidades de Castilla-La Mancha.'
+  fetched: '2026-11-17'
+links:
+- type: builds
+  to: institute-for-game-and-wildlife-research
+  url: https://api.gbif.org/v1/organization/2e5b488d-52e2-4f80-862b-0a60517e3f50
+  fetched: '2026-11-08'
+  quote: It is a mixed centre, founded by the Spanish National Research Council (CSIC), the
+    University of Castilla-La Mancha (UCLM) and the regional authority Junta de Comunidades
+    de Castilla-La Mancha (JCCM).
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,54 @@
+id: atlantic-forest-information-system
+kind: dataset
+name: Atlantic Forest Information System
+also_known_as:
+- Flora Regional
+scope: br
+ai_label: data-infrastructure
+status: unknown
+realms:
+- land
+countries:
+- br
+summary: Online database built by IPÊ in 2011 and, per JRS's April 2022 page, still maintained
+  by it; a follow-on grant aimed to add an API, and São Paulo State's native forest programme
+  has incorporated it.
+facts:
+- claim: IPÊ built the online database system in 2011; JRS’s page, last updated in April 2022,
+    says IPÊ continues to maintain it.
+  url: https://jrsbiodiversity.org/grants/instituto-de-pesquisas-ecologicas-2013/
+  fetched: '2026-11-09'
+  quote: In 2011, IPÊ built a successful online database system that provides information
+    in a format and language accessible to general public, one which they continue to maintain.
+- claim: The follow-on grant aimed to build an API so users can search and retrieve information.
+  url: https://jrsbiodiversity.org/grants/instituto-de-pesquisas-ecologicas-2013/
+  fetched: '2026-11-09'
+  quote: To increase interoperability of data in system by building an API to enable users
+    to more easily search and retrieve specific information
+- claim: The system has been incorporated into São Paulo State's official programme for conserving
+    native forests.
+  url: https://jrsbiodiversity.org/grants/instituto-de-pesquisas-ecologicas-2013/
+  fetched: '2026-11-09'
+  quote: has been incorporated by the official program of conservation of Native Forests of
+    the government of São Paulo State
+links:
+- type: built-by
+  to: instituto-de-pesquisas-ecologicas
+  url: https://jrsbiodiversity.org/grants/instituto-de-pesquisas-ecologicas-2013/
+  fetched: '2026-11-09'
+  quote: In 2011, IPÊ built a successful online database system
+- type: run-by
+  to: instituto-de-pesquisas-ecologicas
+  url: https://jrsbiodiversity.org/grants/instituto-de-pesquisas-ecologicas-2013/
+  fetched: '2026-11-09'
+  quote: one which they continue to maintain
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/grants/instituto-de-pesquisas-ecologicas-2013/
+  fetched: '2026-11-09'
+  quote: This follow-on grant seeks to build on these accomplishments, connecting the information
+    to users
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

@@ -1,0 +1,54 @@
+id: artskart
+kind: dataset
+name: Artskart
+scope: 'no'
+summary: A web map service of Norwegian species finds, built on GBIF and Darwin Core, holding over 50
+  million records of 68,222 taxa as of September 2025, with a 2025 Sabima presentation giving 55.1 million.
+facts:
+- claim: 55.1 million records, according to a 2025 Sabima presentation.
+  url: https://www.ardal.kommune.no/_f/p1/icd98d437-273c-4216-8b9a-d5927f04dd99/artsobservasjoner_kristoffer_bohn_sabima_ardal_2842025.pdf
+  fetched: '2026-11-02'
+  quote: 55,1 millioner poster
+- claim: Combines located species information from many data owners, based on GBIF and the Darwin Core
+    standard.
+  url: https://data.norge.no/en/datasets/cd2e780b-f2fc-4c3a-b219-bfdd1f0de758/artskart-funn-av-arter
+  fetched: &id001 2026-11-02
+  quote: Artskartdatasettet er en samlet formidling av stedfestet artsinformasjon fra en stor mengde dataeiere
+    basert på GBIF
+- claim: Holds over 50 million records of 68,222 taxa as of September 2025, updated continuously.
+  url: https://data.norge.no/en/datasets/cd2e780b-f2fc-4c3a-b219-bfdd1f0de758/artskart-funn-av-arter
+  fetched: *id001
+  quote: Datasettet oppdateres kontinuerlig og inneholder per september 2025 over 50 millioner funn av
+    68222 ulike takson.
+- claim: The University of Oslo's GBIF page calls it a service from the Norwegian Biodiversity Information
+    Centre.
+  url: https://www.nhm.uio.no/english/research/projects/gbif/
+  fetched: *id001
+  quote: Norwegian Species Map Service (Artskart) which is a very popular service from NBIC
+links:
+- type: built-by
+  to: norwegian-biodiversity-information-centre
+  url: https://data.norge.no/en/datasets/54e64995-06a3-4af9-b8f0-ce1ce66f4ec7/artskart
+  fetched: *id001
+  quote: Artsdatabanken og GBIF-Norge har sammen med dataeierne laget denne tjenesten
+- type: built-by
+  to: gbif-norway
+  url: https://data.norge.no/en/datasets/54e64995-06a3-4af9-b8f0-ce1ce66f4ec7/artskart
+  fetched: *id001
+  quote: Artsdatabanken og GBIF-Norge har sammen med dataeierne laget denne tjenesten
+found_by:
+- checklist:2
+- link-from:norwegian-biodiversity-information-centre
+added_by: agent
+checked: '2026-11-02'
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+runner: unknown
+countries:
+- 'no'
+also_known_as:
+- Norwegian Species Map Service

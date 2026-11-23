@@ -1,0 +1,38 @@
+id: ministry-of-science-and-ict-korea
+kind: organisation
+name: Ministry of Science and ICT
+scope: kr
+sector: government
+roles:
+- funds
+- governs
+ai_label: data-infrastructure
+scale: national
+hq: unknown
+status: active
+summary: Korean ministry named as funder of AI-BioDynamics.
+facts:
+- claim: Named as the Korean funder of AI-BioDynamics.
+  url: https://websites.fraunhofer.de/ai-biodynamics/
+  fetched: '2026-11-02'
+  quote: Funded by Germany’s BMBF and Korea’s MSIT with a budget of €1.3 million
+- claim: Operates AI-Hub.
+  url: https://www.aihub.or.kr/intrcn/intrcn.do
+  fetched: '2026-11-02'
+  quote: AI 허브는 과학기술정보통신부와 한국지능정보사회진흥원이 운영하는 국가 AI 개발 지원 플랫폼으로
+links:
+- type: funds
+  to: ai-biodynamics
+  url: https://websites.fraunhofer.de/ai-biodynamics/
+  fetched: '2026-11-02'
+  quote: Funded by Germany’s BMBF and Korea’s MSIT with a budget of €1.3 million
+found_by:
+- checklist:6
+- link-from:ai-hub-korea
+also_known_as:
+- MSIT
+- 과학기술정보통신부
+added_by: agent
+checked: '2026-11-02'
+realms:
+- land

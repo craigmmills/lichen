@@ -1,0 +1,41 @@
+id: itagra
+kind: organisation
+name: ITAGRA
+scope: es
+also_known_as:
+- ITAGRA.CT
+- Itagra CT
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: es
+scale: local
+status: active
+website: https://www.itagra.com
+summary: Agricultural and agri-food technology centre in Palencia that built the AgroForChange
+  land change software.
+facts:
+- claim: Listed in RetechFOR as a technology centre.
+  url: https://retechfor.es/consorcio/
+  fetched: '2026-10-31'
+  quote: Centro Tecnológico Agrario y Agroalimentario (ITAGRA)
+- claim: Its address is Avda. de Madrid 44, Palencia.
+  url: https://www.itagra.com
+  fetched: '2026-10-31'
+  quote: Avda. de Madrid, 44 (Palencia)
+- claim: Leads AgroForChange, which uses Random Forest on satellite time series.
+  url: https://retechfor.es/agroforchange-afc/
+  fetched: '2026-10-31'
+  quote: Inteligencia Artificial (Random Forest)
+  ai_type: ml-supervised
+found_by:
+- link-from:retechfor
+added_by: agent
+checked: '2026-10-31'

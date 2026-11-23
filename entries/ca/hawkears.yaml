@@ -1,0 +1,53 @@
+id: hawkears
+kind: model
+name: HawkEars
+also_known_as: []
+scope: ca
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ca
+summary: Software that identifies bird and amphibian species in audio recordings, trained
+  on species that occur in Canada. It was created by Jan Huus and is being refined with Elly
+  Knight, with support from the Alberta Biodiversity Monitoring Institute.
+facts:
+- claim: Analyses audio recordings to identify bird and amphibian species and is trained on
+    species occurring in Canada.
+  url: https://www.ualberta.ca/en/folio/2025/06/tuning-in-to-the-sounds-of-canadas-wildlife.html
+  fetched: '2026-10-31'
+  quote: HawkEars is a software package that analyzes audio recordings to identify bird and
+    amphibian species, and it is trained on species that occur in Canada
+- claim: Researchers confirmed it is more accurate because it focuses on a smaller regional
+    set of species.
+  url: https://www.ualberta.ca/en/folio/2025/06/tuning-in-to-the-sounds-of-canadas-wildlife.html
+  fetched: '2026-10-31'
+  quote: HawkEars focuses on a smaller set of regional species, so it’s more accurate
+- claim: Described as a deep learning model for 328 Canadian bird species and 13 amphibians.
+  url: https://wildlabs.net/article/hawkears-high-performance-bird-sound-classifier-canada
+  fetched: '2026-10-31'
+  quote: HawkEars is a deep learning model designed specifically to recognize the calls of
+    328 Canadian bird species and 13 amphibians.
+  ai_type: deep-learning
+- claim: The WILDLABS article says it detected more species per minute than BirdNET and Perch
+    on expert-labelled datasets.
+  url: https://wildlabs.net/article/hawkears-high-performance-bird-sound-classifier-canada
+  fetched: '2026-10-31'
+  quote: HawkEars detected an average of two more species per minute than global classifiers,
+    BirdNET and Perch.
+links:
+- type: partners-with
+  to: alberta-biodiversity-monitoring-institute
+  url: https://wildlabs.net/article/hawkears-high-performance-bird-sound-classifier-canada
+  fetched: '2026-10-31'
+  quote: with support from the ABMI and Biodiversity Pathways
+found_by:
+- checklist:3
+- link-from:alberta-biodiversity-monitoring-institute
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

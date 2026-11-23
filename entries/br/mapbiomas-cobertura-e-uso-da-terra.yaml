@@ -1,0 +1,36 @@
+id: mapbiomas-cobertura-e-uso-da-terra
+kind: dataset
+name: MapBiomas Brasil land cover and land use collection
+also_known_as:
+- MapBiomas Cobertura e uso da terra
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+summary: Annual maps of native vegetation, farming, urban areas and other classes
+  for Brazil, made mainly with random forests, with U-Net convolutional networks for
+  some classes such as aquaculture and mining.
+facts:
+- claim: Annual maps of native vegetation, farming and urban areas.
+  url: https://brasil.mapbiomas.org/
+  fetched: '2026-10-30'
+  quote: Mapas anuais de vegetação nativa, agropecuária, áreas urbanizadas e mais
+- claim: U-Net was used for some classes alongside random forests.
+  url: https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/02/ATBD-Collection-9-versao2-v2.pdf
+  fetched: '2026-10-30'
+  quote: U-Net  (Aquaculture,  Irrigation,  Mining,  Rice,  and  Citrus)
+links:
+- type: run-by
+  to: mapbiomas
+  url: https://brasil.mapbiomas.org/
+  fetched: '2026-10-30'
+  quote: Mapas anuais de vegetação nativa, agropecuária, áreas urbanizadas e mais
+found_by:
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-10-30'

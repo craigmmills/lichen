@@ -1,0 +1,50 @@
+id: ai4er-cdt
+kind: programme
+name: UKRI Centre for Doctoral Training in AI for the study of Environmental Risks
+ai_label: ai
+summary: University of Cambridge doctoral training centre that trains researchers
+  to apply AI to environmental challenges.
+facts:
+- claim: Trains researchers in computational approaches to environmental challenges.
+  url: https://ai4er-cdt.esc.cam.ac.uk
+  quote: The UKRI Centre for Doctoral Training (CDT) in the Application of Artificial
+    Intelligence to the study of Environmental Risks (AI4ER) trains researchers
+  fetched: '2026-10-30'
+- claim: Trains researchers to apply computational approaches to environmental challenges.
+  url: https://ai4er-cdt.esc.cam.ac.uk/
+  quote: trains researchers to develop and apply leading edge computational approaches
+    to address the critical environmental challenges
+  fetched: &id001 2026-10-30
+- claim: PhD project on bioacoustics and machine learning with BTO as partner.
+  url: https://ai4er-cdt.esc.cam.ac.uk/research/ecology-and-biodiversity/ecology-and-biodiversity-students
+  quote: Monitoring Ghanaian forests with bioacoustics, machine learning and indigenous
+    knowledge. – Partner BTO
+  fetched: *id001
+- claim: PhD project on automated tree species classification.
+  url: https://ai4er-cdt.esc.cam.ac.uk/research/ecology-and-biodiversity/ecology-and-biodiversity-students
+  quote: Automated tree species classification from forest terrestrial laser scanning
+    data
+  fetched: *id001
+links:
+- type: run-by
+  to: university-of-cambridge
+  url: https://ai4er-cdt.esc.cam.ac.uk
+  quote: "Contact Information Department of Earth Sciences Madingley Rise House, Madingley Road Cambridge CB3 0EZ"
+  fetched: '2026-10-30'
+- type: partners-with
+  to: british-trust-for-ornithology
+  url: https://ai4er-cdt.esc.cam.ac.uk/research/ecology-and-biodiversity/ecology-and-biodiversity-students
+  quote: "Monitoring Ghanaian forests with bioacoustics, machine learning and indigenous knowledge. – Partner BTO"
+  fetched: *id001
+found_by:
+- link-from:university-of-cambridge
+- checklist:3
+also_known_as:
+- AI4ER
+website: https://ai4er-cdt.esc.cam.ac.uk
+realms:
+- land
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

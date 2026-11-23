@@ -1,0 +1,81 @@
+id: biomon
+kind: project
+name: BioMon
+also_known_as:
+- БіоМон
+- biomon.app
+scope: ua
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+countries:
+- ua
+status: active
+website: https://biomon.app/en/about
+summary: Project developing a semi-automatic, public biodiversity monitoring system for Ukrainian
+  protected areas, using Deepfaune and BirdNET neural networks and funded by the German Federal
+  Environmental Foundation (DBU).
+facts:
+- claim: Project to develop a semi-automatic and publicly available biodiversity monitoring
+    system for Ukrainian protected areas.
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: 'Project: Developing a semi-automatic and publicly available biodiversity monitoring
+    system for Ukrainian protected areas.'
+- claim: Uses neural networks for automated identification of mammals (Deepfaune) and birds
+    (BirdNET).
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: 'Artificial Intelligence: Utilizing neural networks for automated identification
+    of mammals (Deepfaune) and birds (BirdNET).'
+  ai_type: deep-learning
+- claim: Aims to expand camera traps and acoustic recorders in Roztochya Strict Nature Reserve
+    and Yavoriv National Nature Park.
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: within the Roztochya Strict Nature Reserve and Yavoriv National Nature Park
+- claim: Funded by the German Federal Environmental Foundation (DBU) under its funding initiative
+    for Ukrainian scientists.
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: This project is implemented with the financial support of the German Federal Environmental
+    Foundation (Deutsche Bundesstiftung Umwelt - DBU)
+- claim: Its own model AnuraSearch detects amphibians in sound recordings.
+  url: https://ukraine.fzs.org/biomon
+  fetched: 2026-11-03
+  quote: а також власна розробка AnuraSearch, яка здатна виявляти амфібій
+links:
+- type: uses
+  to: deepfaune
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: automated identification of mammals (Deepfaune)
+- type: uses
+  to: birdnet
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: and birds (BirdNET)
+- type: funded-by
+  to: deutsche-bundesstiftung-umwelt
+  url: https://biomon.app/en/about
+  fetched: 2026-11-03
+  quote: This project is implemented with the financial support of the German Federal Environmental
+    Foundation (Deutsche Bundesstiftung Umwelt - DBU)
+- type: partners-with
+  to: frankfurt-zoological-society
+  url: https://ukraine.fzs.org/biomon
+  fetched: 2026-11-03
+  quote: А тестування системи на практиці здійснювали на даних Природного заповідника “Розточчя”,
+    силами команди моніторингу біорізноманіття Франкфуртського зоологічного товариства.
+found_by:
+- checklist:4
+- checklist:7
+added_by: agent
+checked: 2026-11-03

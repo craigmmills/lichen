@@ -1,0 +1,78 @@
+id: ntt-docomo-business
+kind: organisation
+name: NTT Docomo Business
+also_known_as:
+- NTTドコモビジネス
+- NTT Communications
+- NTTドコモソリューションズ
+- NTT Comware
+- Nippon Telegraph and Telephone Corporation
+- NTT株式会社
+scope: jp
+sector: company
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://www.ntt.com/
+summary: Formerly NTT Communications, it launched a solution with NTT Docomo Solutions and
+  Biome and partners with Biome.
+facts:
+- claim: Formerly NTT Communications; launched the solution with NTT Docomo Solutions and
+    Biome.
+  url: https://www.ntt.com/about-us/press-releases/news/article/2026/0528_2.html
+  fetched: 2026-11-02
+  quote: NTTドコモビジネス株式会社(旧 NTTコミュニケーションズ株式会社、以下 NTTドコモビジネス)
+- claim: Handles engineering and operation and developed the vegetation estimation AI based
+    on satellite images.
+  url: https://www.ntt.com/about-us/press-releases/news/article/2026/0528_2.html
+  fetched: 2026-11-02
+  quote: NTTドコモソリューションズ：エンジニアリング・運用、衛星画像を基にした植生推定AI(特許出願中)の開発
+- claim: Manages the overall project with Biome.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: 'NTT Corp: 　　　　　Overall project management'
+- claim: NTT Group provides satellite data under its NTT C89 space business brand.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: NTT Group provides satellite data under its space business brand "NTT C89,"
+- claim: Plans and sells the solution.
+  url: https://biome.co.jp/news/press_20260528/
+  fetched: '2026-11-02'
+  quote: NTTドコモビジネス：ソリューションの企画、本ソリューションの提供・販売
+- claim: Handles engineering and operation, and developed the vegetation estimation AI.
+  url: https://biome.co.jp/news/press_20260528/
+  fetched: '2026-11-02'
+  quote: NTTドコモソリューションズ：エンジニアリング・運用、衛星画像を基にした植生推定AI（特許出願中）の開発
+- claim: JAXA says NTT is working with it on AI seaweed bed monitoring.
+  url: https://www.satnavi.jaxa.jp/ja/news/2026/04/02/12125/index.html
+  fetched: '2026-11-02'
+  quote: そこでJAXAとNTTは、衛星画像とAI技術を組み合わせ、藻場モニタリングの作業負担を減らす研究に取り組んでいます。
+- claim: Biome says the NTT group and Biome have run trials on estimating vegetation and species
+    from satellite images.
+  url: https://biome.co.jp/news/press_20260528/
+  fetched: '2026-11-02'
+  quote: NTTグループ (※5) とバイオームは、「衛星画像データを活用した、植生および生物の広域推定技術の開発( ※6) 」に関する実証に取り組んできました。
+links:
+- type: partners-with
+  to: biome-inc
+  url: https://www.ntt.com/about-us/press-releases/news/article/2026/0528_2.html
+  fetched: 2026-11-02
+  quote: 「自然資本モニタリングソリューション」(以下 本ソリューション)の提供を本日より開始します。
+found_by:
+- checklist:5
+- link-from:queue-jp
+- link-from:biome-inc
+- checklist:7
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing

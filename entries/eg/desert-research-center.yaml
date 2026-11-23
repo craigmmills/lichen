@@ -1,0 +1,81 @@
+id: desert-research-center
+kind: organisation
+name: Desert Research Center
+also_known_as:
+- DRC
+- مركز بحوث الصحراء
+scope: eg
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- eg
+scale: national
+status: active
+website: https://drc.gov.eg/
+summary: Says it explores Egyptian desert resources and reports a remote sensing and GIS unit
+  opened in 1988 and a gene bank storing 2,500 rare wild medicinal plants.
+facts:
+- claim: Says it aims to explore the natural resources of the Egyptian desert and plan their
+    use for sustainable development.
+  url: https://drc.gov.eg/en/about-us/
+  fetched: 2026-11-08
+  quote: Desert Research Centre aims to explore the natural resources in the Egyptian desert,
+    and to develop plans to invest these resources to achieve sustainable development
+- claim: Says its remote sensing and GIS unit opened in 1988, and that in 1991 it set up a
+    ground station to receive NOAA satellite images to monitor climate and desertification
+    at local and regional level.
+  url: https://drc.gov.eg/%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%B9%D8%A7%D8%B1-%D8%B9%D9%86-%D8%A8%D8%B9%D8%AF-%D9%88%D9%86%D8%B8%D9%85-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7/
+  fetched: 2026-11-08
+  quote: افتتحت هذه الوحدة عام 1988، وفى عام 1991 أنشأت محطة أرضية لاستقبال الصور الفضائية
+    من الأقمار الصناعية NOAA الأمريكية بهدف رصد المظاهر المناخية ومظاهر التصحر على المستوى
+    المحلى والإقليمي
+- claim: Says its gene bank, set up in 1977, has collected and stored 2,500 rare wild medicinal
+    plants.
+  url: https://drc.gov.eg/en/genebank/
+  fetched: 2026-11-08
+  quote: Since its establishment in 1977, it has collected and stored 2,500 rare wild medicinal
+    plants.
+- claim: Says the HERD project, which it implemented with IUCN and CEDARE, designed a natural
+    and rangeland database for research and decision makers.
+  url: https://drc.gov.eg/en/herd-project/
+  fetched: 2026-11-08
+  quote: Design of the natural and rangeland data-base for research purposes and decision
+    makers.
+- claim: OpenAlex lists the 2021 paper Predictive mapping of plant diversity in an arid mountain
+    environment (Gebel Elba, Egypt), with Maged M. Abutaha as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04dzf3m45,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Predictive mapping of plant diversity in an arid mountain environment
+    (Gebel Elba, Egypt)", "publication_year": 2021, "authorships": [{"author_position": "first",
+    "author": {"id": "https://openalex.org/A5026709048", "display_name": "Maged M. Abutaha"'
+- claim: OpenAlex gives the first author's affiliations as including the Desert Research Center.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04dzf3m45,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Maged M. Abutaha", "raw_affiliation_strings": ["Department of
+    Plant Ecology and Range Management, Desert Research Center, Cairo, Egypt", "Institute
+    of Plant Science and Microbiology, Hamburg University, Hamburg, Germany"]'
+- claim: Its own site says the Desert Research Center is one of the first research centres
+    in Egypt and aims to explore and study the natural resources of the Egyptian desert.
+  url: https://drc.gov.eg/
+  fetched: '2026-11-08'
+  quote: يعد مركز بحوث الصحراء من أوائل المراكز البحثية في مصر، ويهدف إلى استكشاف ودراسة الموارد
+    الطبيعية في الصحراء المصرية
+links:
+- type: partners-with
+  to: gmes-and-africa
+  url: https://gmes4africa.blogspot.com/p/consortia.html?m=0
+  fetched: 2026-11-08
+  quote: Desert Research Center (DRC) - Egypt, https://drc.gov.eg/
+found_by:
+- link-from:gmes-and-africa
+- register:eg
+- checklist:3
+added_by: agent
+checked: 2026-11-08

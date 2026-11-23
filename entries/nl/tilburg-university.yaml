@@ -1,0 +1,34 @@
+id: tilburg-university
+kind: organisation
+name: Tilburg University
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: Its Department of Cognitive Science and AI is a partner in TABMON, a project on acoustic
+  biodiversity monitoring across Europe.
+facts:
+- claim: Its Department of Cognitive Science and AI is a TABMON partner.
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: &id001 2026-10-31
+  quote: Department of Cognitive Science and AI, Tilburg University, Netherlands
+links:
+- type: partners-with
+  to: tabmon
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: *id001
+  quote: Department of Cognitive Science and AI, Tilburg University, Netherlands
+found_by:
+- link-from:tabmon
+scope: nl
+added_by: agent
+checked: *id001

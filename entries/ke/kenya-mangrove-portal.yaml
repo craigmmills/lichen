@@ -1,0 +1,36 @@
+id: kenya-mangrove-portal
+kind: dataset
+name: Kenya Mangrove Portal
+scope: ke
+also_known_as: []
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+website: https://nfms.kenyaforestservice.org/apps/mangrove-portal
+summary: Application on Kenya's National Forest Monitoring System platform for mangrove
+  information.
+facts:
+- claim: Sits on the national forest platform.
+  url: https://nfms.kenyaforestservice.org/apps/mangrove-portal
+  fetched: '2026-10-31'
+  quote: Kenya Mangrove Portal | Kenya NFMS-FIP
+links:
+- type: run-by
+  to: kenya-forest-service
+  url: https://nfms.kenyaforestservice.org/apps/mangrove-portal
+  fetched: '2026-10-31'
+  quote: Kenya Forest Service Karura Forest, off Kiambu Road
+- type: builds-on
+  to: national-forest-monitoring-system-kenya
+  url: https://nfms.kenyaforestservice.org/apps/mangrove-portal
+  fetched: '2026-10-31'
+  quote: "Kenya Mangrove Portal | Kenya NFMS-FIP"
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

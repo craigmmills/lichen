@@ -1,0 +1,110 @@
+id: providence
+kind: project
+name: Providence
+also_known_as:
+- Projeto Providence
+- Sistema de Monitoramento da Biodiversidade e Vigilância Territorial da Amazônia
+- Providence Plus
+- Providence
+- Providence+
+scope: br
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+status: active
+summary: AI sensor system for monitoring Amazon biodiversity in real time, developed by Instituto
+  Mamirauá with the Polytechnic University of Catalonia and a finalist team in XPRIZE Rainforest.
+facts:
+- claim: A sensor-based biodiversity monitoring solution with AI.
+  url: https://redeondadigital.com.br/amazonas/projeto-desenvolvido-no-instituto-mamiraua-e-um-dos-finalistas-em-competicao-internacional
+  fetched: '2026-10-30'
+  quote: é uma solução tecnológica de monitoramento da biodiversidade baseada em sensores
+    com inteligência artificial
+- claim: The Providence Plus team was one of six XPRIZE Rainforest finalists.
+  url: https://redeondadigital.com.br/amazonas/projeto-desenvolvido-no-instituto-mamiraua-e-um-dos-finalistas-em-competicao-internacional
+  fetched: '2026-10-30'
+  quote: é um dos seis finalistas e o único representante amazonense na premiação internacional
+    XPRIZE Rainforest
+- claim: Sensors installed at Mamirauá and Amanã reserves identify animals by image and sound.
+  url: https://www.upc.edu/en/press-room/news/researchers-from-upc-brazil-and-australia-get-the-first-images-and-sounds-of-an-observatory-installed-in-the-amazon
+  fetched: '2026-10-30'
+  quote: have installed in the Brazilian reserves of Mamirauá and Amanã the first two sensors
+    for real-time monitoring of biodiversity in the Amazon
+- claim: Started seven years before the 2024 report, to monitor Amazon biodiversity in real
+    time.
+  url: https://observatoriocientifico.ufc.br/pt/tecnologia-que-utiliza-inteligencia-artificial-amplia-area-de-monitoramento-da-biodiversidade-na-amazonia/
+  fetched: '2026-10-30'
+  quote: desenvolver uma tecnologia automatizada que pudesse monitorar em tempo real a biodiversidade
+    da Amazônia
+- claim: Its third phase plans about one hundred automated modules in 30 places.
+  url: https://observatoriocientifico.ufc.br/pt/tecnologia-que-utiliza-inteligencia-artificial-amplia-area-de-monitoramento-da-biodiversidade-na-amazonia/
+  fetched: '2026-10-30'
+  quote: instalar cerca de cem módulos automatizados de monitoramento em 30 localidades
+- claim: A study within the project used passive acoustic monitoring with AI for Amazonian
+    manatee conservation.
+  url: https://mamiraua.org.br/noticias/conservacao-peixe-boi/
+  fetched: '2026-10-30'
+  quote: Estudo inédito é parte do Projeto Providence, iniciativa Brasil-Espanha de monitoramento
+    da biodiversidade em tempo real, através de IA e aprendizagem de máquina
+- claim: A study used hydrophones and convolutional neural networks to classify river dolphin
+    sounds.
+  url: https://brasil.mongabay.com/2023/09/ia-revela-segredos-do-comportamento-de-golfinhos-da-amazonia-sem-necessidade-de-tags/
+  fetched: '2026-10-30'
+  quote: empregaram redes neurais convolucionais (CNN, na sigla em inglês)
+  ai_type: deep-learning
+- claim: Neural networks run on the module in the forest and classify species before transmitting.
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: Redes neurais rodam dentro do próprio módulo, na floresta, classificando espécies
+    antes de transmitir
+  ai_type: deep-learning
+- claim: Began in 2016, with the first field tests in 2017.
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: Começou em 2016, com os primeiros testes de campo em 2017
+- claim: Has 20 second-generation stations installed.
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: Estações de segunda geração instaladas
+- claim: An extended version, Providence+, added drones and environmental DNA and was one
+    of six finalists in XPRIZE Rainforest.
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: foi uma das seis finalistas do XPRIZE Rainforest
+links:
+- type: run-by
+  to: instituto-de-desenvolvimento-sustentavel-mamiraua
+  url: https://redeondadigital.com.br/amazonas/projeto-desenvolvido-no-instituto-mamiraua-e-um-dos-finalistas-em-competicao-internacional
+  fetched: '2026-10-30'
+  quote: uma parceria desenvolvida entre pesquisadores do Instituto Mamirauá e da Universidade
+    Politécnica da Catalunha
+- type: run-by
+  to: instituto-de-desenvolvimento-sustentavel-mamiraua
+  url: https://observatoriocientifico.ufc.br/pt/tecnologia-que-utiliza-inteligencia-artificial-amplia-area-de-monitoramento-da-biodiversidade-na-amazonia/
+  fetched: '2026-10-30'
+  quote: iniciaram o projeto Providence
+- type: run-by
+  to: instituto-de-desenvolvimento-sustentavel-mamiraua
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: uma parceria de dez anos entre o Instituto Mamirauá, em Tefé, e o Laboratório de
+    Bioacústica Aplicada da Universitat Politècnica de Catalunya
+- type: partners-with
+  to: universitat-politecnica-de-catalunya
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: Em parceria com a Universitat Politècnica de Catalunya
+found_by:
+- checklist:7
+- link-from:amazon-ia
+- checklist:register
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br
+ai_types:
+- deep-learning

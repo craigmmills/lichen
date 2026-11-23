@@ -1,0 +1,31 @@
+id: forest-insect-museum-ibadan
+kind: dataset
+name: Forest Insect Museum Ibadan
+also_known_as:
+- FIMI
+scope: ng
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ng
+status: active
+summary: Active dataset, run by the Forestry Research Institute of Nigeria, holding about 40,123 forest
+  insect specimens of 1,512 species.
+facts:
+- claim: Holds about 40,123 forest insect specimens of 1,512 species.
+  url: https://api.gbif.org/v1/organization/3dc9105b-6792-4d2f-8872-c60dded8ae20/publishedDataset?limit=30
+  fetched: 2026-11-03
+  quote: Forest Insect Museum Ibadan (FIMI) is both institutional and public research museum holding about
+    40,123 forest insect specimens consisting of 1,512 species
+links:
+- type: run-by
+  to: forestry-research-institute-of-nigeria
+  url: https://api.gbif.org/v1/organization/3dc9105b-6792-4d2f-8872-c60dded8ae20/publishedDataset?limit=30
+  fetched: 2026-11-03
+  quote: FIMI is run by the Entomology section, Department of Forest Conservation and Protection, Forestry
+    Research Institu
+found_by:
+- link-from:forestry-research-institute-of-nigeria
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,51 @@
+id: national-forest-inventory-georgia
+kind: project
+name: National Forest Inventory of Georgia
+also_known_as:
+- NFI
+scope: ge
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ge
+status: closed
+summary: Closed national forest inventory reported in November 2022 as carried out
+  across the country, using a methodology developed under a Georgia-Germany memorandum;
+  run by the environment ministry and GIZ.
+facts:
+- claim: In November 2022, the National Forestry Agency reported that a national forest
+    inventory had been carried out throughout the country.
+  url: https://forestry.gov.ge/En/News/Details/169
+  fetched: 2026-11-12
+  quote: National forest inventory was carried out throughout the country
+- claim: The inventory fieldwork involved collecting and processing statistical information
+    on quantitative and qualitative indicators of forests.
+  url: https://forestry.gov.ge/En/News/Details/169
+  fetched: 2026-11-12
+  quote: The fieldwork of the National forest inventory involves the collection and
+    processing of statistical information about the quantitative and qualitative indicators
+    of forests.
+- claim: Its methodology was developed with Georgian and international experts under
+    a memorandum between the governments of Georgia and Germany.
+  url: https://forestry.gov.ge/En/News/Details/169
+  fetched: 2026-11-12
+  quote: The National forest inventory methodology was developed with the involvement
+    of Georgian and international experts
+links:
+- type: run-by
+  to: ministry-of-environmental-protection-and-agriculture-of-georgia
+  url: https://forestry.gov.ge/En/News/Details/169
+  fetched: 2026-11-12
+  quote: jointly implemented by the Ministry of Environmental Protection and Agriculture
+    and the German Society for International Cooperation (GIZ).
+- type: run-by
+  to: deutsche-gesellschaft-fur-internationale-zusammenarbeit
+  url: https://forestry.gov.ge/En/News/Details/169
+  fetched: 2026-11-12
+  quote: jointly implemented by the Ministry of Environmental Protection and Agriculture
+    and the German Society for International Cooperation (GIZ).
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

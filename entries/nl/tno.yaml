@@ -1,0 +1,70 @@
+id: tno
+kind: organisation
+name: TNO
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+scale: national
+status: active
+summary: Develops the sensor field stations for Automated Biodiversity Monitoring, the Dutch
+  national sensor and AI monitoring initiative.
+scope: nl
+facts:
+- claim: Naturalis says TNO will focus on the technical development of the field stations.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: TNO will focus on the technical development of these field stations (sensors)
+- claim: The Dutch government names it among the TO2 applied research organisations.
+  url: https://www.rijksoverheid.nl/actueel/nieuws/2023/11/02/14-nederlandse-onderzoeksfaciliteiten-krijgen-184-miljoen-euro-ondersteuning
+  fetched: '2026-10-31'
+  quote: TO2-organisaties (TNO, MARIN, NLR en Wageningen Research)
+- claim: Its senior scientist cites expertise in sensor networks and technology valorisation.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: &id001 2026-10-31
+  quote: With our expertise in sensor networks and technology valorisation
+- claim: Provides independent validation for the bat radar test at Eemshaven.
+  url: https://www.tno.nl/en/newsroom/insights/2026/09/smart-radar-protects-bats-eemshaven-wind/
+  fetched: '2026-10-31'
+  quote: The combination of Dopplium's radar technology, RWE's operational context and TNO's
+    independent validation methodology
+- claim: Reports WTBird as a way of detecting collisions of small birds and bats with wind
+    turbines.
+  url: https://www.tno.nl/en/newsroom/2026/04/realtime-bird-detection-wind-turbines/
+  fetched: '2026-10-31'
+  quote: 'WTBird: breakthrough for nature-inclusive wind energy'
+- claim: Developed with the Jaczon fishery a sonar system that differentiates fish species.
+  url: https://www.tno.nl/en/safe/maritime-defence-security/ocean-resilience-transparency/sonar-distinguishes-fish-species/
+  fetched: '2026-10-31'
+  quote: TNO has developed a system that uses a special onboard sonar to differentiate fish
+    species.
+links:
+- type: partners-with
+  to: automated-biodiversity-monitoring
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center, TNO, RIVM, and Rijkswaterstaat are joining forces
+    to protect biodiversity.
+- type: partners-with
+  to: automated-biodiversity-monitoring
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: Together with our partners TNO, RIVM, and Rijkswaterstaat
+- type: partners-with
+  to: dopplium
+  url: https://www.tno.nl/en/newsroom/insights/2026/09/smart-radar-protects-bats-eemshaven-wind/
+  fetched: '2026-10-31'
+  quote: The combination of Dopplium's radar technology, RWE's operational context and TNO's
+    independent validation methodology
+found_by:
+- checklist:7
+- link-from:naturalis-biodiversity-center
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl

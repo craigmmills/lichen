@@ -1,0 +1,47 @@
+id: v-n-karazin-kharkiv-national-university
+kind: organisation
+name: V. N. Karazin Kharkiv National University
+also_known_as:
+- Karazin Kharkiv National University
+scope: ua
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ua
+countries:
+- ua
+scale: national
+status: active
+summary: A university hosting the CWU herbarium, founded in 1825 with about 300,000 specimens,
+  and publishing myxomycete datasets to GBIF with 5,036 georeferenced occurrences of 339 taxa,
+  mostly from literature of 1842 to 2023.
+facts:
+- claim: Hosts one of Ukraine's major herbaria, CWU, founded in 1825 with about 300,000 specimens.
+  url: https://api.gbif.org/v1/organization/b835f634-e4ed-4d54-bbcf-e0e6344a8c88
+  fetched: 2026-11-03
+  quote: The herbarium (acronym CWU) was founded in 1825 and now preserves ca. 300 000 specimens
+    of plants, fungi and lichens
+- claim: Publishes to GBIF a comprehensive checklist with occurrence and reference datasets
+    of myxomycetes of Ukraine.
+  url: https://api.gbif.org/v1/organization/b835f634-e4ed-4d54-bbcf-e0e6344a8c88/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: The comprehensive checklist and extended occurrence and reference datasets of myxomycetes
+    of Ukraine
+- claim: The myxomycete datasets hold 5,036 georeferenced occurrences of 339 taxa, mostly
+    extracted from literature from 1842 to 2023.
+  url: https://api.gbif.org/v1/dataset/7f90f977-1004-40f8-a471-7bbf517a006d
+  fetched: 2026-11-03
+  quote: The datasets include 5036 georeferenced occurrences, 339 taxa and 91 literature sources.
+- claim: Publishes a dataset on the flora of war-damaged pine forests in Izium Forestry, surveyed
+    on foot where safe and by UAV where dangerous, from a project whose principal research
+    organisation is the National University of Life and Environmental Sciences of Ukraine.
+  url: https://api.gbif.org/v1/dataset/0511fd17-93e6-4510-b38c-d8553427649c
+  fetched: 2026-11-03
+  quote: UAV surveys (in territories which are dangerous for manual and eye-based studies)
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

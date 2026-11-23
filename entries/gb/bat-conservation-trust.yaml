@@ -1,0 +1,50 @@
+id: bat-conservation-trust
+kind: organisation
+name: Bat Conservation Trust
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: http://www.bats.org.uk/
+summary: UK bat charity that publishes bat survey datasets on GBIF, including a passive acoustic
+  survey. Its own site refused the fetcher.
+facts:
+- claim: GBIF record describes it as an NGO for bats.
+  url: https://api.gbif.org/v1/organization/a6cb65d4-c47c-434e-9d32-be0689b96d8e
+  fetched: '2026-10-30'
+  quote: We are the leading NGO solely devoted to the conservation of bats
+- claim: Publishes the dataset "Forestry England Passive Acoustic Bat Survey" on GBIF.
+  url: https://api.gbif.org/v1/organization/a6cb65d4-c47c-434e-9d32-be0689b96d8e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Forestry England Passive Acoustic Bat Survey
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/a6cb65d4-c47c-434e-9d32-be0689b96d8e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Registered at Companies House as THE BAT CONSERVATION TRUST, company number 02712823,
+    registered office Studio 15, Cloisters House Cloisters Business Centre, 8 Battersea Park
+    Road, London, England, SW8 4BG.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=bat+conservation+trust
+  quote: THE BAT CONSERVATION TRUST 02712823 - Incorporated on 7 May 1992 Studio 15, Cloisters
+    House Cloisters Business Centre, 8 Battersea Park Road, London, England, SW8 4BG
+  fetched: '2026-10-31'
+- claim: The Charity Commission register gives its London address and website.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1012361/contact-information
+  quote: 8 BATTERSEA PARK ROAD LONDON SW8 4BG
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+links: null

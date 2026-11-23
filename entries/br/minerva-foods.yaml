@@ -1,0 +1,43 @@
+id: minerva-foods
+kind: organisation
+name: Minerva Foods
+scope: br
+sector: company
+roles:
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: br
+countries:
+- br
+scale: global
+website: https://minervafoods.com
+summary: Meatpacker with a geospatial monitoring system for supplier farms in South America,
+  audited annually, and the SMGeo Prospec app for producers.
+facts:
+- claim: Brazil Journal, in brand content, says its geospatial monitoring system is audited
+    each year.
+  url: https://braziljournal.com/brands/as-acoes-da-minerva-foods-no-combate-ao-desmatamento-ilegal/
+  quote: a Minerva Foods se diferencia pela confiabilidade de seu sistema de monitoramento
+    geoespacial, que é auditado anualmente
+  fetched: '2026-10-31'
+- claim: Its own site gives the CNPJ of Minerva Foods SA.
+  url: https://minervafoods.com/
+  quote: © 2026 Minerva Foods SA 67.620.377/0001-14
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: smgeo-prospec
+  url: https://braziljournal.com/brands/as-acoes-da-minerva-foods-no-combate-ao-desmatamento-ilegal/
+  quote: a empresa lançou, em parceria com a Niceplanet Geotecnologia, o aplicativo móvel
+    SMGeo Prospec
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

@@ -1,0 +1,54 @@
+id: potential-oecm-cases-platform-china
+kind: dataset
+name: Potential OECM Cases Platform
+also_known_as:
+- 潜力OECM案例平台
+- 潜力OECMs案例平台
+- 中石油OECMs保护地生物多样性智慧监测平台
+scope: cn
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+countries:
+- cn
+status: active
+runner: unknown
+website: https://oecms.com.cn/
+summary: Online collection of potential other effective area-based conservation measures
+  in China, with 84 cases covering 2,219 square kilometres by February 2026. It says
+  it is not the official OECM reporting platform.
+facts:
+- claim: By February 2026 it had collected 84 potential cases covering 2,219 square
+    kilometres.
+  url: https://oecms.com.cn/
+  fetched: '2026-10-31'
+  quote: 收集的 84 个OECMs
+- claim: It states that it is not the official OECM reporting platform.
+  url: https://oecms.com.cn/
+  fetched: '2026-10-31'
+  quote: 本平台不是官方OECMs申报平台
+- claim: Huawei's TECH4ALL team has supported PetroChina in AI biodiversity monitoring
+    at two OECM sites in Daqing since 2024.
+  url: https://www.huawei.com/cn/tech4all/stories/sensing-connectivity-ai-biodiversity-daqing
+  fetched: '2026-10-31'
+  quote: 自2024年起，华为TECH4ALL数字包容团队支持中石油在大庆老虎山、果午湖两处OECM保护地开展AI+生物多样性智慧监测实践
+links:
+- type: partners-with
+  to: shan-shui-conservation-center
+  url: https://oecms.com.cn/
+  fetched: '2026-10-31'
+  quote: 山水自然保护中心官网
+- type: partners-with
+  to: tech4all
+  url: https://www.huawei.com/cn/tech4all/stories/sensing-connectivity-ai-biodiversity-daqing
+  fetched: '2026-10-31'
+  quote: 自2024年起，华为TECH4ALL数字包容团队支持中石油在大庆老虎山、果午湖两处OECM保护地开展AI+生物多样性智慧监测实践
+found_by:
+- link-from:shan-shui-conservation-center
+- checklist:7
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision

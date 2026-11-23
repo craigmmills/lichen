@@ -1,0 +1,45 @@
+id: lifewatch-plankton-imaging
+kind: programme
+name: LifeWatch Belgium plankton imaging
+scope: be
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- be
+status: active
+runner: unknown
+summary: Programme producing plankton abundance and biomass time series for Belgian
+  marine food webs, classifying ZooSCAN and FlowCAM images semi-automatically with
+  machine learning, with datasets released yearly.
+facts:
+- claim: Generates high-resolution time series of plankton abundance and biomass for
+    Belgium's marine food webs.
+  url: https://www.lifewatch.be/plankton-imaging-0
+  fetched: 2026-11-08
+  quote: High resolution time series of plankton abundances and biomass are being
+    generated, contributing to knowledge of Belgium’s marine food webs.
+- claim: Laboratory images from ZooSCAN and FlowCAM are classified by semi-automatic
+    processing, with a machine learning algorithm giving high recognition levels.
+  url: https://www.lifewatch.be/plankton-imaging-0
+  fetched: 2026-11-08
+  quote: The latest machine learning algorithm allows high recognition levels; complementary
+    manual sorting is recommended to achieve a high number of taxonomic groups.
+- claim: Zooplankton is sampled monthly at 9 onshore stations and seasonally at 17
+    onshore and offshore stations.
+  url: https://www.lifewatch.be/plankton-imaging-0
+  fetched: 2026-11-08
+  quote: During monthly campaigns, zooplankton is sampled at 9 onshore stations; during
+    seasonal campaigns, zooplankton is sampled at 17 on and offshore stations.
+- claim: Fixed datasets are released every year.
+  url: https://www.lifewatch.be/plankton-imaging-0
+  fetched: 2026-11-08
+  quote: Finally, fixed datasets are released on a yearly basis further contributing
+    to FAIR data
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

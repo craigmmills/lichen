@@ -1,0 +1,42 @@
+id: gebze-technical-university
+kind: organisation
+name: Gebze Technical University
+scope: tr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+hq: tr
+scale: national
+status: active
+summary: A university in Gebze, Kocaeli, which OpenAlex lists with papers on ensemble learning
+  for land cover classification and a 2024 wildfire susceptibility mapping study using XGBoost,
+  Random Forest and AdaBoost.
+facts:
+- claim: OpenAlex lists a paper comparing ensemble learning algorithms for land cover classification
+    from WorldView-2, Sentinel-2 and ROSIS imagery.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I109297418,title_and_abstract.search:(%22deep%20learning%22%20OR%20%22machine%20learning%22%20OR%20%22convolutional%22)%20AND%20(biodiversity%20OR%20wildlife%20OR%20%22tree%20species%22%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20%22forest%20cover%22%20OR%20%22bird%22%20OR%20%22ecological%22)&sort=cited_by_count:desc&per_page=10&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: A comparative evaluation of state-of-the-art ensemble learning algorithms for land
+    cover classification using WorldView-2, Sentinel-2 and ROSIS imagery
+- claim: OpenAlex lists a 2024 paper mapping wildfire susceptibility in a Mediterranean ecosystem
+    with XGBoost, Random Forest and AdaBoost.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I109297418,title_and_abstract.search:(%22deep%20learning%22%20OR%20%22machine%20learning%22%20OR%20%22convolutional%22)%20AND%20(biodiversity%20OR%20wildlife%20OR%20%22tree%20species%22%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20%22forest%20cover%22%20OR%20%22bird%22%20OR%20%22ecological%22)&sort=cited_by_count:desc&per_page=10&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: 'Susceptibility Mapping of Wildfires Using XGBoost, Random Forest and AdaBoost: A
+    Case Study of Mediterranean Ecosystem'
+- claim: GBIF's publisher record gives its address in Gebze, Kocaeli.
+  url: https://api.gbif.org/v1/organization/d9d8121f-37ee-41d0-bcd4-e3a73d802cd9
+  fetched: '2026-11-03'
+  quote: Gebze Technical University 41400 Gebze/KOCAELİ TURKEY
+links: []
+found_by:
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

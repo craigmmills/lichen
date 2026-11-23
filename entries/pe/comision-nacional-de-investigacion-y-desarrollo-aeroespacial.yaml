@@ -1,0 +1,68 @@
+id: comision-nacional-de-investigacion-y-desarrollo-aeroespacial
+kind: organisation
+name: Comisión Nacional de Investigación y Desarrollo Aeroespacial
+also_known_as:
+- CONIDA
+- Agencia Espacial del Perú
+scope: pe
+sector: government
+roles:
+- governs
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Peru's governing body for space activities and seat of the Peruvian Space Agency,
+  which controlled PerúSAT-1 in January 2018 and launched GeoAPP in August 2025.
+facts:
+- claim: Leads space activities in Peru and is the seat of the Peruvian Space Agency.
+  url: https://www.gob.pe/institucion/conida/institucional
+  fetched: 2026-11-03
+  quote: Conida es el órgano rector de las actividades Espaciales en el Perú y sede de la
+    Agencia Espacial del Perú
+- claim: Has a National Centre for Satellite Image Operations (CNOIS).
+  url: https://www.gob.pe/institucion/conida/institucional
+  fetched: 2026-11-03
+  quote: Centro Nacional de Operaciones de Imágenes Satelitales Desde el Centro Nacional de
+    Operaciones de Imágenes Satelitales (CNOIS) se programa, monitorea y...
+- claim: In January 2018, CONIDA said it controlled PerúSAT-1, which generated images at 70
+    centimetres resolution.
+  url: https://www.gob.pe/institucion/conida/noticias/84706-perusat-1-satelite-de-observacion-de-la-tierra
+  fetched: 2026-11-03
+  quote: La Agencia Espacial del Perú – CONIDA, tiene a su cargo el control del Sistema Satelital
+    Peruano PerúSAT-1
+- claim: Launched GeoAPP in August 2025.
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: la Agencia Espacial del Perú (CONIDA) ha dado un paso histórico con el lanzamiento
+    de GeoAPP
+- claim: Its site says CONIDA is the governing body for space activities in Peru and the seat
+    of the Peruvian Space Agency.
+  url: https://www.conida.gob.pe
+  fetched: '2026-11-03'
+  quote: La Comisión Nacional de Investigación y Desarrollo Aeroespacial (CONIDA) es el órgano
+    rector de las actividades Espaciales en el Perú y sede de la Agencia Espacial del Perú.
+- claim: OpenAlex lists it as a government body in Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "https://www.conida.gob.pe", "country_code": "PE", "type": "government"'
+links:
+- type: runs
+  to: perusat-1
+  url: https://www.gob.pe/institucion/conida/noticias/84706-perusat-1-satelite-de-observacion-de-la-tierra
+  fetched: 2026-11-03
+  quote: La Agencia Espacial del Perú – CONIDA, tiene a su cargo el control del Sistema Satelital
+    Peruano PerúSAT-1
+found_by:
+- checklist:1
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03

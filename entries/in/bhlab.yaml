@@ -1,0 +1,44 @@
+id: bhlab
+kind: programme
+name: BHlab
+also_known_as:
+- Bilal Habib's lab
+scope: in
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://github.com/bhlab
+summary: Bilal Habib's lab at the Wildlife Institute of India, a collaborator on MegaDetector
+  that publishes SpSeg, a machine-learning tool for sorting camera-trap images by species.
+facts:
+- claim: Bilal Habib's lab at the Wildlife Institute of India is a collaborator in the development,
+    evaluation and use of MegaDetector.
+  url: https://github.com/bhlab/SpSeg
+  fetched: 2026-11-22
+  quote: Dr Bilal Habib's lab ( BHlab ) at Wildlife Institute India , Dehradun, India is a
+    collaborator in the development, evaluation and use of MegaDetector model.
+- claim: Publishes SpSeg, a machine-learning tool that sorts camera-trap images by species.
+  url: https://github.com/bhlab/SpSeg
+  fetched: 2026-11-22
+  quote: '''SpSeg'' (short for ''Species Segregator) is a Machine-learning tool for species-level
+    segregation of camera-trap images'
+- claim: Trained SpSeg with CNN architectures from keras.
+  url: https://github.com/bhlab/SpSeg
+  fetched: 2026-11-22
+  quote: We initially trained different CNN architecture models from keras
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: wildlife-institute-of-india
+  url: https://github.com/bhlab/SpSeg
+  fetched: 2026-11-22
+  quote: Dr Bilal Habib's lab ( BHlab ) at Wildlife Institute India
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

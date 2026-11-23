@@ -1,0 +1,60 @@
+id: elephantvoices
+kind: organisation
+name: ElephantVoices
+scope: global
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+hq: us
+scale: regional
+status: active
+website: https://www.elephantvoices.org
+summary: Elephant research and conservation organisation with field studies in Amboseli, Maasai
+  Mara and Gorongosa. It publishes on machine learning work on elephant vocal communication.
+facts:
+- claim: Field studies in Amboseli, Maasai Mara and Gorongosa.
+  url: https://www.elephantvoices.org/about-us/
+  quote: Our field studies in Amboseli, Maasai Mara & Gorongosa
+  fetched: 2026-10-30
+- claim: Reports machine learning detecting individually specific vocal labels in elephants.
+  url: https://www.elephantvoices.org/news-and-views/elephants-may-have-names-and-ai-is-helping-us-hear-them
+  quote: A landmark study found that wild African elephants appear to use individually specific
+    vocal labels, and machine learning helped researchers detect them.
+  fetched: 2026-10-30
+- claim: Listed in Washington, DC in ProPublica's Nonprofit Explorer.
+  url: https://projects.propublica.org/nonprofits/api/v2/search.json?q=ElephantVoices
+  quote: '"name":"Elephantvoices","sub_name":"Elephantvoices","city":"Washington","state":"DC"'
+  fetched: 2026-10-30
+- claim: Researchers fed elephant rumble features into a Random Forest.
+  url: https://www.elephantvoices.org/news-and-views/elephants-may-have-names-and-ai-is-helping-us-hear-them
+  fetched: 2026-10-30
+  quote: into a Random Forest
+  ai_type: ml-supervised
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://www.elephantvoices.org/our-supporters
+  fetched: 2026-10-30
+  quote: JRS Biodiversity Foundation, USA
+- type: funded-by
+  to: international-fund-for-animal-welfare
+  url: https://www.elephantvoices.org/our-supporters
+  fetched: 2026-10-30
+  quote: International Fund for Animal Welfare (IFAW)
+- type: funded-by
+  to: national-geographic-society
+  url: https://www.elephantvoices.org/our-supporters
+  fetched: 2026-10-30
+  quote: National Geographic;
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

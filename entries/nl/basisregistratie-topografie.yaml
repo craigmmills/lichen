@@ -1,0 +1,33 @@
+id: basisregistratie-topografie
+kind: dataset
+name: Basisregistratie Topografie
+also_known_as:
+- BRT
+scope: nl
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+countries:
+- nl
+summary: Digital topographic files of the Netherlands at several scales, available
+  as open data from the Kadaster.
+facts:
+- claim: Digital topographic files at several scales.
+  url: https://www.kadaster.nl/zakelijk/registraties/basisregistraties/brt
+  fetched: '2026-10-31'
+  quote: De BRT bestaat uit digitale topografische bestanden op verschillende schaalniveaus.
+- claim: Maps and object files are available as open data.
+  url: https://www.kadaster.nl/zakelijk/registraties/basisregistraties/brt
+  fetched: '2026-10-31'
+  quote: beschikbaar als open data
+links:
+- type: run-by
+  to: kadaster
+  url: https://www.kadaster.nl/zakelijk/registraties/basisregistraties/brt
+  fetched: '2026-10-31'
+  quote: Het Kadaster is houder van de Basisregistratie Topografie (BRT).
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,78 @@
+id: royal-society-for-the-protection-of-birds
+kind: organisation
+name: Royal Society for the Protection of Birds
+also_known_as:
+- RSPB
+- Royal Society for the Protection of Birds
+- RSPB Scotland
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- bioacoustics
+- other
+- species-distribution
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.rspb.org.uk
+summary: Charity for the conservation of birds and nature.
+facts:
+- claim: A charity for the conservation of birds and nature.
+  url: https://www.rspb.org.uk/about-us
+  quote: The RSPB is a charity for the conservation of birds and nature.
+  fetched: '2026-10-30'
+- claim: Collaborates on machine learning for land use.
+  url: https://ai.conservation.cam.ac.uk/calculating-optimal-land-choices-for-a-greener-britain/
+  quote: In collaboration with the RSPB and researchers in the Conservation Research Institute,
+    Dr Robert Edwin Rouse is working on developing machine learning approaches
+  fetched: '2026-10-30'
+- claim: RSPB Scotland worked to automate seabird monitoring.
+  url: https://smeef.scot/projects/rspb-scotland-puffins-petrels-and-kittiwakes/
+  quote: The aim of the project was to enable new methodological advances in automating the
+    monitoring of seabirds
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.rspb.org.uk/
+  quote: '© The Royal Society for the Protection of Birds (RSPB) is a registered charity:
+    England and Wales no. 207076, Scotland no. SC037654'
+  fetched: 2026-10-30
+- claim: Has a team of almost 100 scientific and support staff.
+  url: https://www.rspb.org.uk/helping-nature/what-we-do/science
+  fetched: '2026-10-30'
+  quote: We have a team of almost 100 scientific and support staff
+- claim: Publishes the dataset "2025 Slavonian Grebe Annual Monitoring" on GBIF.
+  url: https://api.gbif.org/v1/organization/c71f0513-c95a-4e98-abad-0c222b87ec66/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: 2025 Slavonian Grebe Annual Monitoring
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/c71f0513-c95a-4e98-abad-0c222b87ec66/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Manages more than 200 nature reserves in the UK.
+  url: https://www.rspb.org.uk/about-us/who-we-are
+  quote: We manage more than 200 nature reserves in the UK from the Shetlands to the Suffolk
+    coast.
+  fetched: '2026-11-16'
+found_by:
+- checklist:4
+- link-from:optimal-land-choices-greener-britain
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: partners-with
+  to: cairngorms-connect-predator-project
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: in partnership with Forestry and Land Scotland (FLS), RSPB Scotland
+  fetched: *id001

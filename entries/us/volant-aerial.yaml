@@ -1,0 +1,46 @@
+id: volant-aerial
+kind: organisation
+name: Volant Aerial
+also_known_as:
+- VOLANT AERIAL INC
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: us
+scale: national
+status: unknown
+summary: Scottsdale, Arizona company funded by NSF SBIR for AI-enabled cameras that detect
+  forest fires.
+facts:
+- claim: SBIR Phase I for AI cameras for fire detection.
+  url: https://api.nsf.gov/services/v1/awards/2014890.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  AI Enabled Cameras for Fire Detection'
+- claim: Sells DeepRed, an AI fire detection system.
+  url: https://volantaerial.com
+  fetched: '2026-10-31'
+  quote: DeepRed by Volant
+- claim: The NSF award record gives an address in Scottsdale, Arizona.
+  url: https://api.nsf.gov/services/v1/awards/2014890.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"22218 N CHURCH RD"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2014890.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  AI Enabled Cameras for Fire Detection'
+  amount: 244830
+  year: 2020
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'
+website: https://volantaerial.com

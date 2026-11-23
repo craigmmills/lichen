@@ -1,0 +1,57 @@
+id: universidad-austral-de-chile
+kind: organisation
+name: Universidad Austral de Chile
+also_known_as:
+- UACh
+scope: cl
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+hq: unknown
+countries:
+- cl
+scale: national
+status: active
+summary: University whose work includes a Fondecyt project reported in May 2023 to have increased
+  image processing speed tenfold, camera-trap image classification, a bioacoustics thesis
+  using a deep neural network, and the CONAF-commissioned SAT project.
+facts:
+- claim: A CONAF release says one of its researchers has worked on classifying camera-trap
+    images.
+  url: https://www.conaf.cl/aplican-inteligencia-artificial-en-fotomonitoreo-con-camaras-trampa-dentro-de-areas-silvestres-protegidas/
+  fetched: '2026-11-02'
+  quote: director de la Escuela de Graduados de la Facultad de Ciencias Forestales y Recursos
+    Naturales de la Universidad Austral
+- claim: The Flanders Marine Institute says researchers and volunteers linked to it collect
+    data on species at sea in southern Chile.
+  url: https://www.vliz.be/en/support-us/realisations/protect-marine-life-chile
+  fetched: '2026-11-02'
+  quote: researchers and volunteers affiliated to the local Universidad Austral de Chile collect
+    data on the presence of species and their habitats during fieldwork
+- claim: A thesis in its acoustics master's programme used a deep neural network for annual
+    bioacoustic monitoring of birds.
+  url: https://ingenieria.uach.cl/noticias/mediante-monitoreo-bioacustico-detectan-presencia-de-ave-de-la-que-no-habia-registro-en-humedales-de-valdivia/
+  fetched: '2026-11-02'
+  quote: Método para el monitoreo bioacústico anual de aves en humedales urbanos usando red
+    neuronal profunda
+  ai_type: deep-learning
+found_by:
+- checklist:3
+- link-from:corporacion-nacional-forestal
+- checklist:register
+added_by: agent
+checked: 2026-11-02
+ai_types:
+- deep-learning

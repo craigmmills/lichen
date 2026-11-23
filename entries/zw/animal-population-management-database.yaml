@@ -1,0 +1,35 @@
+id: animal-population-management-database
+kind: dataset
+name: Animal Population Management Database
+also_known_as:
+- APMD
+scope: zw
+ai_label: conservation-tech
+realms:
+- land
+status: active
+summary: Database run by the Malilangwe Trust, recording GPS-referenced wildlife sightings, mortalities,
+  movements, nests and poaching activity, and reportedly being integrated with QGIS to map queried events.
+facts:
+- claim: Records include rhino and other wildlife sightings, herd structure, mortalities, movements, raptor
+    and vulture nests and poaching activity, each with a GPS co-ordinate.
+  url: https://www.malilangwe.org/contributions-to-science/animal-population-management-database/
+  fetched: 2026-11-09
+  quote: Records include sightings of rhinos and other wildlife; the size and age and sex structure of
+    herds; mortalities and their causes; movements of wildlife into and out of the reserve; raptor and
+    vulture nests
+- claim: The Trust says the database is being integrated with QGIS to map queried events.
+  url: https://www.malilangwe.org/contributions-to-science/animal-population-management-database/
+  fetched: 2026-11-09
+  quote: The APMD is in the process of being integrated with Quantum GIS so that maps showing the spatial
+    distribution of queried events can be automatically displayed.
+links:
+- type: run-by
+  to: malilangwe-trust
+  url: https://www.malilangwe.org/contributions-to-science/animal-population-management-database/
+  fetched: 2026-11-09
+  quote: Our managers can access the information and use custom-built queries to draft reports.
+found_by:
+- link-from:gonarezhou-conservation-trust
+added_by: agent
+checked: 2026-11-09

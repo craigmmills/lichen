@@ -1,0 +1,39 @@
+id: land-cover-map-of-catalonia
+kind: dataset
+name: Land Cover Map of Catalonia
+scope: es
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Land-cover-map-Catalonia
+summary: Land cover map of Catalonia published by ICGC. The 2022 version was updated
+  by photointerpretation of recent orthophotos, and the 2009 version derives from
+  one prepared by CREAF.
+facts:
+- claim: The 2022 edition updates the 2018 layer by photointerpretation of recent
+    orthophotos.
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Land-cover-map-Catalonia
+  fetched: '2026-10-31'
+  quote: The 2022 Land Cover corresponds to the update of the previous layer (2018).
+- claim: The 2009 edition simplifies a CREAF map to 41 classes.
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Land-cover-map-Catalonia
+  fetched: '2026-10-31'
+  quote: prepared by CREAF
+links:
+- type: run-by
+  to: institut-cartografic-i-geologic-de-catalunya
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Land-cover-map-Catalonia
+  fetched: '2026-10-31'
+  quote: Land cover map of Catalonia | icgc
+- type: partners-with
+  to: creaf
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/Land-cover-map-Catalonia
+  fetched: '2026-10-31'
+  quote: of the Land Cover Map of Catalonia v4 of 2009 prepared by CREAF
+found_by:
+- link-from:institut-cartografic-i-geologic-de-catalunya
+added_by: agent
+checked: '2026-10-31'

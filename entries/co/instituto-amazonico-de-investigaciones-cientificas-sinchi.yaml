@@ -1,0 +1,94 @@
+id: instituto-amazonico-de-investigaciones-cientificas-sinchi
+kind: organisation
+name: Instituto Amazónico de Investigaciones Científicas SINCHI
+also_known_as:
+- Instituto SINCHI
+- SINCHI
+- Instituto Sinchi
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: co
+scale: national
+website: https://www.sinchi.org.co
+summary: Public research corporation for the Colombian Amazon, linked to the environment ministry.
+  It lists the SIAT-AC environmental information system among its services and is a partner
+  in Project Guacamaya.
+facts:
+- claim: A public science and technology corporation created by Law 99 of 1993 and linked
+    to the environment ministry.
+  url: https://www.sinchi.org.co/files/EstudiosPreviosCPPlataformaMoSCAL_v1.1-1.pdf
+  quote: El Instituto Amazónico de Investigaciones Científicas – SINCHI es una entidad creada
+    por el artículo 20 de la Ley 99
+  fetched: '2026-10-31'
+- claim: States its purpose as carrying out and publishing scientific studies on the Amazon
+    region.
+  url: https://sinchi.org.co/quienes-somos
+  fetched: '2026-10-31'
+  quote: El Objeto del Instituto Amazónico de Investigaciones Científicas SINCHI es la realización,
+    coordinación y divulgación de estudios e investigaciones científicas de alto nivel
+- claim: Main office is in Leticia.
+  url: https://sinchi.org.co/
+  fetched: '2026-10-31'
+  quote: 'Sede principal Leticia: avenida Vásquez Cobo entre calles 15 y 16'
+- claim: SIAT-AC says SIMCOBA is led by the Instituto Sinchi.
+  url: https://siatac.co/simcoba/
+  fetched: '2026-10-31'
+  quote: El SIMCOBA es el sistema liderado por el Instituto Sinchi
+- claim: SIAT-AC gives a Bogotá office address.
+  url: https://siatac.co/
+  fetched: '2026-10-31'
+  quote: 'SEDE BOGOTÁ: CALLE 20 # 5 – 44'
+- claim: Its purpose is to carry out and publish scientific studies on the biological, social
+    and ecological reality of the Amazon region.
+  url: https://www.sinchi.org.co/quienes-somos
+  quote: es la realización, coordinación y divulgación de estudios e investigaciones científicas
+    de alto nivel relacionados con la realidad biológica, social y ecológica de la región
+    amazónica
+  fetched: '2026-10-31'
+- claim: Says it is organised as a public non-profit civil corporation under private law.
+  url: https://www.sinchi.org.co/quienes-somos
+  quote: se organizó como una corporación civil sin ánimo de lucro, de carácter público
+  fetched: '2026-10-31'
+- claim: A contract study plans a geospatial AI agent for SIAT-AC, along with a chatbot and
+    a new map viewer. This is a stated requirement, not a working system.
+  url: https://www.sinchi.org.co/files/EstudiosPreviosCPPlataformaMoSCAL_v1.1-1.pdf
+  quote: Un agente de inteligencia artificial geoespacial del SIAT-AC
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: project-guacamaya
+  url: https://news.microsoft.com/source/latam/features/ia/amazonas-ia-selva-tropical-deforestacion/
+  quote: incluido el Centro de Investigación CinfonIA de la Universidad de los Andes, el Instituto
+    Sinchi y Microsoft AI for Good Lab para crear el Proyecto Guacamaya
+  fetched: '2026-10-31'
+- type: runs
+  to: siat-ac
+  url: https://siatac.co/
+  fetched: '2026-10-31'
+  quote: Con esta plataforma el Instituto SINCHI gestiona la información ambiental de la Amazonia
+    colombiana
+- type: partners-with
+  to: project-guacamaya
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: '2026-10-31'
+  quote: Project Guacamaya is a joint effort of the CinfonIA Research Center at Universidad
+    de los Andes , Instituto SINCHI
+found_by:
+- checklist:1
+- link-from:project-guacamaya
+- checklist:2
+- register:gbif-publisher
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+countries:
+- co

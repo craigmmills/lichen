@@ -1,0 +1,44 @@
+id: aspecto-as
+kind: organisation
+name: Aspecto AS
+scope: 'no'
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+hq: 'no'
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.aspecto.no/
+summary: An organisation in Leirfjord, Norway, whose GBIF record says it specialises in autonomous
+  underwater vehicle surveys, mapping the seabed at high resolution with image processing.
+facts:
+- claim: Its GBIF publisher record says it specialises in autonomous underwater vehicle surveys
+    for high-resolution marine environmental data.
+  url: https://api.gbif.org/v1/organization/875433cd-ea85-4c90-85e3-bafe769358a3
+  fetched: &id001 2026-11-02
+  quote: Aspecto specializes in autonomous underwater vehicle (AUV) surveys for the collection
+    of high-resolution marine environmental data.
+- claim: Says it maps the seabed at high resolution with autonomous systems combined with
+    image processing.
+  url: https://www.aspecto.no/
+  fetched: *id001
+  quote: i kombinasjon med bildebehandling kartlegger vi havbunnen i høy oppløsning.
+- claim: Says that mapping vulnerable nature types at sea is one of its specialist fields.
+  url: https://www.aspecto.no/
+  fetched: *id001
+  quote: Det er et økt fokus på kartlegging av sårbare naturtyper i sjø, som er ett av våre
+    spesialfelt.
+- claim: The GBIF publisher record gives its address in Leirfjord, Norway.
+  url: https://api.gbif.org/v1/organization/875433cd-ea85-4c90-85e3-bafe769358a3
+  fetched: *id001
+  quote: '"city":"Leirfjord","country":"NO"'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: *id001

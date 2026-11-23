@@ -1,0 +1,63 @@
+id: smart-birdwatching-armenia
+kind: project
+name: 'Smart Birdwatching: Urban Nature Through the Eyes of Youth'
+also_known_as:
+- Smart Birdwatching
+scope: am
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- am
+status: active
+summary: Active project, run by Sunchild NGO with Ucom, in which ten BirdBuddy smart
+  feeder cameras in Armenian schools and communities let students watch birds live
+  and identify species using artificial intelligence.
+facts:
+- claim: Ten BirdBuddy smart feeder cameras have been installed in schools and communities
+    across Armenia.
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: 2026-11-12
+  quote: As part of the program, ten BirdBuddy smart feeder cameras have been installed
+    in various schools and communities across Armenia.
+- claim: Students observe birds in real time and use artificial intelligence to identify
+    species.
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: 2026-11-12
+  quote: Through these devices, students observe birds in real time and use artificial
+    intelligence to identify different species.
+links:
+- type: run-by
+  to: sunchild-ngo
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: &id001 2026-11-12
+  quote: With the support of Ucom, the SunChild NGO is implementing the educational
+    program
+- type: partners-with
+  to: ucom
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: &id002 2026-11-12
+  quote: With the support of Ucom, the SunChild NGO is implementing the educational
+    program
+- type: uses
+  to: bird-buddy
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: 2026-11-12
+  quote: ten BirdBuddy smart feeder cameras have been installed in various schools
+    and communities across Armenia
+- type: built-by
+  to: sunchild-ngo
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: *id001
+  quote: Ucom and SunChild Launch the “Smart Birdwatching” Educational Program
+- type: built-by
+  to: ucom
+  url: https://armenpress.am/en/article/1238006/amp
+  fetched: *id002
+  quote: Ucom and SunChild Launch the “Smart Birdwatching” Educational Program
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

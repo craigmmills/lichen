@@ -1,0 +1,50 @@
+id: research-institute-of-environment-and-nature-conservation-technologies
+kind: organisation
+name: Research Institute of Environment and Nature Conservation Technologies
+scope: uz
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: Research institute that, in August 2024, was reported to be fitting GPS trackers
+  to a vulture and a black vulture with the Institute of Zoology, and is the affiliation
+  of a 2024 Ugam-Chatkal vegetation paper's first author.
+facts:
+- claim: In August 2024, the environment ministry reported that the institute, then
+    under the ministry, was working with the Institute of Zoology to monitor migratory
+    birds of prey by fitting GPS trackers.
+  url: https://gov.uz/en/eco/news/view/17654
+  fetched: 2026-11-13
+  quote: The Research Institute of Environment and Nature Conservation Technologies
+    under the Ministry of Ecology, Environment Protection, Environmental Protection,
+    and Climate Change, together with the Institute of Zoology of the Academy of Sciences
+- claim: In August 2024, GPS trackers were reported fitted to a vulture and a black
+    vulture; the devices transmitted information every hour and were powered by solar
+    panels.
+  url: https://gov.uz/en/eco/news/view/17654
+  fetched: 2026-11-13
+  quote: At this stage, GPS trackers were attached to the vulture and the black vulture.
+- claim: The first author of a 2024 paper on vegetation cover change in Ugam-Chatkal
+    National Park from 1991 to 2022 gives the institute as his affiliation.
+  url: https://api.openalex.org/works?filter=openalex_id:W4392895133|W4382727257|W4388991052|W4402064167|W7134906507&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Vegetation cover change in Ugam Chatkal National Park, Uzbekistan, in relation
+    to climate variables during the post-Soviet period (1991-2022)
+links:
+- type: partners-with
+  to: institute-of-zoology-academy-of-sciences-uzbekistan
+  url: https://gov.uz/en/eco/news/view/17654
+  fetched: 2026-11-13
+  quote: together with the Institute of Zoology of the Academy of Sciences, are conducting
+    work on monitoring predatory migratory birds by fixing GPS trackers on them.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

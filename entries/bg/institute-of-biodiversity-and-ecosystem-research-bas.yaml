@@ -1,0 +1,74 @@
+id: institute-of-biodiversity-and-ecosystem-research-bas
+kind: organisation
+name: Institute of Biodiversity and Ecosystem Research, Bulgarian Academy of Sciences
+also_known_as:
+- IBER-BAS
+scope: bg
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: bg
+countries:
+- bg
+scale: national
+status: active
+summary: Bulgarian Academy of Sciences institute in Sofia that runs DiSSCo-BG, aiming to digitise
+  a significant part of its collections by 2027, and has authors on remote sensing papers
+  listed in OpenAlex.
+facts:
+- claim: OpenAlex lists a 2023 review on remote sensing methods for monitoring wildlife populations
+    with an author affiliated to the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210127464,concepts.id:C119857082|C108583219|C62649853,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Application of remote sensing methods for monitoring wild life populations: a review'
+- claim: OpenAlex lists a 2025 paper testing a drone-based method for detecting beaver activity
+    in Bulgaria with an author affiliated to the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210127464,concepts.id:C119857082|C108583219|C62649853,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Characteristics of Beaver Activity in Bulgaria and Testing of a UAV-Based Method
+    for Its Detection
+- claim: OpenAlex lists a 2025 paper on remote sensing for mapping and monitoring the Srebarna
+    Lake ecosystem with an author affiliated to the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210127464,concepts.id:C119857082|C108583219|C62649853,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Integrated Remote Sensing for Mapping and Monitoring Srebarna Lake Ecosystem, Bulgaria
+- claim: DiSSCo's Bulgaria page gives the institute's collections as about 500,000 lots.
+  url: https://dissco.eu/bg
+  fetched: 2026-11-08
+  quote: 'Collections: c. 500,000 lots (Herbarium, Mycological, Palaeobotany/Palynology, Zoological).'
+- claim: Listed among the partners of the DiSSCo Transition project.
+  url: https://www.dissco.eu/partners/
+  fetched: 2026-11-08
+  quote: Institute of Biodiversity and Ecosystem Research at the Bulgarian Academy of Sciences
+- claim: DiSSCo-BG aims to digitise a significant part of its herbarium, mycological, zoological,
+    palaeontological and palynological collections and live plant collection by 2027.
+  url: https://www.dissco-bg.eu/en/news/1
+  fetched: 2026-11-08
+  quote: herbarium, mycological, zoological, paleontological and palynological collections
+    and the collection of live plants of the IBER-BAS
+links:
+- type: partners-with
+  to: dissco
+  url: https://dissco.eu/bg
+  fetched: 2026-11-08
+  quote: – Institute of Biodiversity and Ecosystem Research – Bulgarian Academy of Sciences
+    (IBER-BAS)
+- type: runs
+  to: dissco-bg
+  url: https://www.dissco-bg.eu/en/news/1
+  fetched: 2026-11-08
+  quote: With a new joint project, the National Museum of Natural History and the Institute
+    of Biodiversity and Ecosystem Research at the Bulgarian Academy of Sciences, will digitalize
+    one of the largest collections
+found_by:
+- checklist:3
+- link-from:dissco
+added_by: agent
+checked: 2026-11-08

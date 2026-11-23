@@ -1,0 +1,78 @@
+id: koninklijk-nederlands-instituut-voor-onderzoek-der-zee
+kind: organisation
+name: Royal Netherlands Institute for Sea Research
+also_known_as:
+- NIOZ
+- Koninklijk Nederlands Instituut voor Onderzoek der Zee
+- Royal Netherlands Institute for Sea Research
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+hq: nl
+scale: national
+status: active
+website: https://www.nioz.nl
+summary: The national oceanographic institute of the Netherlands, which runs the WATLAS bird
+  tracking project and is a partner in Waakvogels.
+scope: nl
+facts:
+- claim: Describes itself as the national oceanographic institute and centre of expertise.
+  url: https://www.nioz.nl/en/research/projects/watlas
+  fetched: '2026-10-31'
+  quote: NIOZ is the national oceanographic institute and centre of expertise in the Netherlands
+    for the ocean, sea and coast.
+- claim: Its Department of Coastal Systems in Den Burg is a BioBoost+ partner.
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: &id001 2026-10-31
+  quote: Department of Coastal Systems, Royal Netherlands Institute for Sea Research (NIOZ),
+    Den Burg, Netherlands
+- claim: A founder of BiodiversityXL.
+  url: https://biodiversityxl.nl/
+  fetched: *id001
+  quote: the Royal Netherlands Institute for Sea Research (NIOZ-NWO) and Westerdijk Fungal
+    Biodiversity Institute-KNAW have launched BiodiversityXL
+- claim: The national oceanographic institute of the Netherlands.
+  url: https://www.nioz.nl/nl/onderzoek/projecten/watlas-live-vogelbewegingen-volgen-in-de-waddenzee
+  fetched: '2026-10-31'
+  quote: NIOZ is het nationale oceanografische instituut en het expertisecentrum van Nederland
+    voor oceaan, zee en kust.
+- claim: A department listed as an affiliation on a paper on an open workflow for plankton
+    imager classification.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1882482/full
+  fetched: '2026-10-31'
+  quote: Department of Estuarine and Delta Systems, Royal Netherlands Institute for Sea Research
+    (NIOZ), Yerseke, Netherlands
+links:
+- type: runs
+  to: watlas
+  url: https://nioz.nl/watlas
+  fetched: '2026-10-31'
+  quote: Met het project WATLAS onderzoeken we sinds 2017 waar vogels heen gaan en waarom
+- type: partners-with
+  to: waakvogels
+  url: https://www.rug.nl/news/2023/07/vogels-gaan-verhaal-van-het-wad-vertellen?lang=en
+  fetched: '2026-10-31'
+  quote: The University of Groningen, the Royal Netherlands Institute for Sea Research (NIOZ),
+    and the University of Amsterdam want to find out what is going wrong
+- type: partners-with
+  to: bioboost-plus
+  url: https://www.biodiversa.eu/2024/04/15/bioboost/
+  fetched: *id001
+  quote: Department of Coastal Systems, Royal Netherlands Institute for Sea Research (NIOZ),
+    Den Burg, Netherlands
+- type: runs
+  to: watlas
+  url: https://www.nioz.nl/nl/onderzoek/projecten/watlas-live-vogelbewegingen-volgen-in-de-waddenzee
+  fetched: '2026-10-31'
+  quote: Met het project WATLAS onderzoeken we sinds 2017 waar vogels heen gaan en waarom
+found_by:
+- checklist:7
+- link-from:bioboost-plus
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl

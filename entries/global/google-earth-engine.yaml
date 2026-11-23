@@ -1,0 +1,50 @@
+id: google-earth-engine
+kind: programme
+name: Google Earth Engine
+also_known_as:
+- Earth Engine
+scope: global
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://earthengine.google.com
+summary: Cloud platform that combines a multi-petabyte catalogue of satellite imagery and geospatial datasets with analysis tools, free for academic and research use.
+facts:
+- claim: Combines a satellite imagery catalogue with planetary-scale analysis.
+  url: https://earthengine.google.com/
+  fetched: &id001 2026-10-30
+  quote: Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities.
+- claim: Available for commercial use and free for academic and research use.
+  url: https://earthengine.google.com/
+  fetched: *id001
+  quote: Earth Engine is now available for commercial use, and remains free for academic and research use.
+- claim: Public archive holds over eighty petabytes of geospatial data.
+  url: https://earthengine.google.com/
+  fetched: *id001
+  quote: It contains over eighty petabytes of geospatial data instantly available for analysis.
+- claim: 'Gives access to petabytes of data through a web-based code editor.'
+  url: https://earthengine.google.com
+  fetched: 2026-10-30
+  quote: 'instant access to petabytes of data'
+links:
+- type: run-by
+  to: google
+  url: https://earthengine.google.com/
+  fetched: *id001
+  quote: Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets
+- type: partners-with
+  to: group-on-earth-observations
+  url: https://opportunities.spaceinafrica.com/?p=5747
+  fetched: 2026-10-30
+  quote: "The Group on Earth Observations (GEO) has partnered with Google to offer 25 licenses for the sustained use of Google Earth Engine (GEE)"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

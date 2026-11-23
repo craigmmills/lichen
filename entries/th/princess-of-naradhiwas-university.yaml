@@ -1,0 +1,29 @@
+id: princess-of-naradhiwas-university
+kind: organisation
+name: Princess of Naradhiwas University
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: ai
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: http://www.pnu.ac.th/
+summary: University with an OpenAlex-listed 2019 paper whose first author, S. Chuenjai, gives
+  an affiliation there; the facts give nothing further.
+facts:
+- claim: OpenAlex lists a 2019 paper whose first author, S. Chuenjai, gives an affiliation
+    at Princess of Naradhiwas University.
+  url: https://api.openalex.org/works?filter=institutions.ror:03s336c88,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=50&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Temperatures and normalized difference vegetation index forecasting in the tropical
+    rainforest: Hala-Bala wildlife sanctuary, Thailand using artificial neural networks'
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

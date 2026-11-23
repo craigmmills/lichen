@@ -1,0 +1,45 @@
+id: adama-science-and-technology-university
+kind: organisation
+name: Adama Science and Technology University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+ai_types:
+- deep-learning
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2024 paper
+  on deep learning to identify Ethiopian indigenous medicinal plant species.
+facts:
+- claim: OpenAlex lists a 2024 paper on deep learning for identifying Ethiopian indigenous
+    medicinal plant species.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: Deep learning for Ethiopian indigenous medicinal plant species identification and
+    classification
+- claim: OpenAlex lists Mulugeta Adibaru Kiflie, first author of that paper, at Adama Science
+    and Technology University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: '"display_name": "Mulugeta Adibaru Kiflie", "orcid": "https://orcid.org/0009-0008-9621-4527",
+    "observed_orcids": ["https://orcid.org/0009-0008-9621-4527"]}, "institutions": [{"id":
+    "https://openalex.org/I865572129", "display_name": "Adama Science and Technology University"'
+- claim: The paper's title names deep learning as its method.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: Deep learning for Ethiopian indigenous medicinal plant species identification and
+    classification
+  ai_type: deep-learning
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

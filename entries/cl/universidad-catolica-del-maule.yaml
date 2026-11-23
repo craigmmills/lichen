@@ -1,0 +1,43 @@
+id: universidad-catolica-del-maule
+kind: organisation
+name: Universidad Católica del Maule
+scope: cl
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+- remote-sensing
+hq: cl
+scale: regional
+status: active
+summary: University whose Talca bioacoustics laboratory aims to support acoustic monitoring
+  for conservation, and whose researcher is the investigator on a drone-based hualo
+  forest damage project.
+facts:
+- claim: Its Laboratorio de Ecología y Bioacústica, in the Facultad de Ciencias Básicas
+    in Talca, aims to contribute to acoustic monitoring as a conservation tool.
+  url: https://www.ecobioacustica.com/
+  fetched: 2026-11-09
+  quote: Laboratorio de Ecología y Bioacústica, Facultad de Ciencias Básicas, Universidad
+    Católica del Maule, Talca, Chile
+- claim: A Universidad Católica del Maule researcher is the investigator on Fondo
+    de Investigación del Bosque Nativo project 003/2022, on drone-borne remote sensors
+    to detect defoliator damage in hualo forests.
+  url: https://investigacion.conaf.cl/expediente/expediente.php?id_expediente=1139683
+  fetched: 2026-11-09
+  quote: Antonio María Cabrera Ariza Universidad Católica del Maule
+links:
+- type: runs
+  to: laboratorio-de-ecologia-y-bioacustica-ucm
+  url: https://www.ecobioacustica.com/
+  fetched: 2026-11-09
+  quote: Laboratorio de Ecología y Bioacústica, Facultad de Ciencias Básicas, Universidad
+    Católica del Maule, Talca, Chile
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

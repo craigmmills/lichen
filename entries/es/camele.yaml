@@ -1,0 +1,73 @@
+id: camele
+kind: model
+name: CAMELE
+also_known_as:
+- Consensus for Automated Marine Ecosystem Labelling and Evaluation
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+status: active
+countries:
+- es
+summary: Deep learning framework that maps Posidonia oceanica and other seabed habitats from
+  satellite imagery, trained on PlanetScope images and 19 years of Balearic government habitat
+  data.
+facts:
+- claim: Uses deep learning on high-resolution satellite imagery to detect and map Posidonia
+    oceanica and other benthic habitats.
+  url: https://www.ceab.csic.es/en/?p=18354
+  quote: uses deep learning techniques applied to high-resolution satellite imagery to automatically
+    detect and map Posidonia oceanica and other benthic habitats
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: Trained on PlanetScope images with 19 years of habitat data from the Government of
+    the Balearic Islands.
+  url: https://www.ceab.csic.es/en/?p=18354
+  quote: combined with 19 years of detailed habitat data provided by the Government of the
+    Balearic Islands
+  fetched: '2026-10-31'
+- claim: Uses deep learning on high-resolution satellite images to detect and map Posidonia.
+  url: https://ifisc.uib-csic.es/en/news/artificial-intelligence-from-space/
+  fetched: '2026-10-31'
+  quote: uses deep learning techniques applied to high-resolution satellite imagery to automatically
+    detect and map Posi
+  ai_type: deep-learning
+- claim: The trained models and an online visualisation platform are freely available.
+  url: https://ifisc.uib-csic.es/en/news/artificial-intelligence-from-space/
+  fetched: '2026-10-31'
+  quote: The trained models and an online visualization platform are freely available
+links:
+- type: builds-on
+  to: planet-labs
+  url: https://www.ceab.csic.es/en/?p=18354
+  quote: trained on high-resolution multispectral images from PlanetScope
+  fetched: '2026-10-31'
+- type: partners-with
+  to: ifisc
+  url: https://www.ceab.csic.es/en/?p=18354
+  quote: A team of researchers from the Institute for Cross-Disciplinary Physics and Complex
+    Systems (IFISC, CSIC-UIB) and the Centre d’Estudis Avançats de Blanes (CEAB-CSIC) has
+    developed a new artificial intelligence framework
+  fetched: '2026-10-31'
+- type: partners-with
+  to: centre-destudis-avancats-de-blanes
+  url: https://www.ceab.csic.es/en/?p=18354
+  quote: A team of researchers from the Institute for Cross-Disciplinary Physics and Complex
+    Systems (IFISC, CSIC-UIB) and the Centre d’Estudis Avançats de Blanes (CEAB-CSIC) has
+    developed a new artificial intelligence framework
+  fetched: '2026-10-31'
+- type: run-by
+  to: ifisc
+  url: https://ifisc.uib-csic.es/en/news/artificial-intelligence-from-space/
+  fetched: '2026-10-31'
+  quote: has developed a new artificial intelligence framework
+runner: unknown
+found_by:
+- checklist:3
+scope: es
+added_by: agent
+checked: '2026-10-31'

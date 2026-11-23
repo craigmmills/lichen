@@ -1,0 +1,46 @@
+id: science-hub-nepal
+kind: organisation
+name: Science Hub Nepal
+also_known_as:
+- Science Hub
+scope: np
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+hq: unknown
+countries:
+- np
+status: active
+website: https://sciencehub.org.np
+summary: A Kathmandu non-profit that describes itself as using geospatial tools and Earth system models
+  for questions including biodiversity, and lists land cover mapping and agriculture monitoring among
+  its work.
+facts:
+- claim: Describes itself as a non-profit in Kathmandu using geospatial tools and Earth system models
+    on questions including natural resource management and biodiversity.
+  url: https://sciencehub.org.np
+  fetched: 2026-11-08
+  quote: It uses cutting-edge geospatial tools and Earth system models to answer the most pressing questions
+    of agriculture, climate change and livelihood, natural resources management and biodiversity and water
+    and disaster risk management.
+- claim: Lists land cover mapping and agriculture monitoring among its work.
+  url: https://sciencehub.org.np
+  fetched: 2026-11-08
+  quote: Land cover mapping and agriculture monitoring
+- claim: OpenAlex lists an editorial on remote sensing and data science for mapping climate change impacts
+    in mountain regions whose first author, Bhogendra Mishra, is affiliated with Science Hub.
+  url: https://api.openalex.org/works/W7211867447?select=id,display_name,authorships
+  fetched: 2026-11-08
+  quote: 'Editorial: Remote sensing and data science for mapping climate change impacts in mountainous
+    regions'
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

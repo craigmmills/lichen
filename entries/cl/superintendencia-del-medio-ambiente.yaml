@@ -1,0 +1,59 @@
+id: superintendencia-del-medio-ambiente
+kind: organisation
+name: Superintendencia del Medio Ambiente
+also_known_as:
+- SMA
+scope: cl
+sector: government
+roles:
+- governs
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- cl
+scale: national
+status: active
+summary: Environment regulator whose enforcement coverage SAMSARA was designed to improve;
+  BiOceanOr says it partnered with the regulator in 2023 to pilot a predictive risk tool.
+facts:
+- claim: The SAMSARA system was designed to improve the spatial and temporal coverage of the
+    regulator's enforcement.
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: 2026-11-02
+  quote: con el objetivo de mejorar los esfuerzos de cobertura espacial y temporal de fiscalización
+    de la Superintendencia del Medio Ambiente (SMA)
+- claim: BiOceanOr says the SMA and BiOceanOr partnered in 2023 to pilot a predictive risk
+    tool.
+  url: https://bioceanor.com/predimar-predictive-intelligence-for-sustainable-salmon-farming-in-chile/
+  fetched: '2026-11-02'
+  quote: back in 2023, the SMA and BiOceanOr partnered to pilot a predictive risk management
+    solution
+- claim: Its portal gives consolidated information on each regulated unit, including inspections
+    and sanction procedures.
+  url: https://portal.sma.gob.cl/
+  fetched: '2026-11-02'
+  quote: incluyendo ubicación, instrumentos aplicables (normativa) e historial de fiscalizaciones
+    y procedimientos sancionatorios
+- claim: In August 2021, superintendent Cristóbal De La Maza said Guardianes del Bosque was
+    part of the body's environmental intelligence strategy.
+  url: https://portal.sma.gob.cl/index.php/alianza-publico-privada-protegera-a-zorro-de-darwin-a-traves-de-monitoreo-basado-en-inteligencia-artificial/
+  fetched: '2026-11-02'
+  quote: Esta iniciativa es parte de nuestra estrategia de inteligencia ambiental
+found_by:
+- checklist:1
+- link-from:bioceanor
+added_by: agent
+checked: 2026-11-02
+links:
+- type: partners-with
+  to: bioceanor
+  url: https://bioceanor.com/predimar-predictive-intelligence-for-sustainable-salmon-farming-in-chile/
+  fetched: '2026-11-02'
+  quote: the SMA and BiOceanOr partnered to pilot a predictive risk management solution

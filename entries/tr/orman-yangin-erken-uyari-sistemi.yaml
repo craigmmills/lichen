@@ -1,0 +1,67 @@
+id: orman-yangin-erken-uyari-sistemi
+kind: project
+name: Orman Yangınları Erken Uyarı Sistemi
+also_known_as:
+- OYEUS
+- Orman Yangın Uyarı Sistemi
+scope: tr
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- tr
+status: unknown
+summary: Forest fire early warning system developed by OGM and Bilkent University with TÜBİTAK ARDEB funding,
+  which in 2013 was reported to detect fires within 15 to 25 seconds using 154 cameras.
+facts:
+- claim: Developed through a collaboration of OGM and Bilkent University and funded by TÜBİTAK ARDEB.
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: Orman Genel Müdürlüğü ve Bilkent Üniversitesi iş birliğiyle geliştirilen projeyi TÜBİTAK ARDEB
+    finanse ederek destekledi.
+- claim: A May 2013 report says the system analysed camera images of forest within a 15 km diameter and
+    detected fires within 15 to 25 seconds.
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: Kameralarla 15 km çapındaki orman görüntüleri analiz edilerek 15-25 saniye arasında en ufak yangın
+    tespit edip alarm veriliyor.
+- claim: In May 2013, the OGM project officer said 154 cameras on 77 lookout towers covered 3.2 million
+    hectares of forest.
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: 77 adet yangın gözetleme kulesinde 154 PZT kamera ile 3.2 milyon hektar orman alanının takip
+    edildiğini belirtti.
+- claim: The May 2013 report says images were processed by software developed by a Bilkent University
+    team headed by Prof. Dr. Enis Çetin.
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: Bilkent Üniversitesinden Prof. Dr. Enis Çetin başkanlığındaki bir ekip tarafından geliştirilen
+    bir yazılımla işleniyor.
+links:
+- type: built-by
+  to: orman-genel-mudurlugu
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: Orman Genel Müdürlüğü ve Bilkent Üniversitesi iş birliğiyle geliştirilen projeyi
+- type: built-by
+  to: bilkent-universitesi
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: Orman Genel Müdürlüğü ve Bilkent Üniversitesi iş birliğiyle geliştirilen projeyi
+- type: funded-by
+  to: tubitak
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: projeyi TÜBİTAK ARDEB finanse ederek destekledi
+- type: run-by
+  to: orman-genel-mudurlugu
+  url: https://tubitak.gov.tr/en/node/15137
+  fetched: 2026-11-03
+  quote: Sistemin Orman Genel Müdürlüğünün ‘Dijital Gözleri’ olduğunu söyleyen Aydın, sistemin her yıl
+    yangın başlama mevsimi olan Mayıs ayında ekipler tarafından kulelere kurulduğunu
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-03

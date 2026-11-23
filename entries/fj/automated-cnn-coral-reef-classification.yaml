@@ -1,0 +1,28 @@
+id: automated-cnn-coral-reef-classification
+kind: model
+name: Automated CNN based coral reef classification
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- fj
+status: unknown
+summary: 2021 paper with University of the South Pacific authors on classifying coral reef
+  images with a convolutional neural network and image augmentation. No page read says who
+  holds or runs the model.
+facts:
+- claim: OpenAlex lists the paper, published in 2021, with this title.
+  url: https://api.openalex.org/works/W3198346319?select=id,title,publication_year,authorships
+  fetched: '2026-10-31'
+  quote: Automated CNN based coral reef classification using imageaugmentation and deep learning
+  ai_type: deep-learning
+found_by:
+- link-from:university-of-the-south-pacific
+scope: fj
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

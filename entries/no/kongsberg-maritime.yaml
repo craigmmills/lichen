@@ -1,0 +1,48 @@
+id: kongsberg-maritime
+kind: organisation
+name: Kongsberg Maritime
+scope: 'no'
+sector: company
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+scale: global
+status: active
+summary: An industrial partner of CRIMAC, a project to automate interpretation of broadband
+  acoustic data from research and fishing vessels using AI, drones and inspection technology;
+  five of its staff are listed.
+facts:
+- claim: Named as an industrial partner of CRIMAC.
+  url: https://www.hi.no/en/hi/forskning/projects/crimac
+  fetched: '2026-11-08'
+  quote: 'Industrial partners: Kongsberg Maritime, Scantrol, Scantrol Deep Vision, CodeLab
+    Bergen, Norway Royal Salmon, Liegruppen fiskeri and Eros.'
+- claim: CRIMAC will automate the interpretation of broadband acoustic data from research
+    vessels and fishing boats using artificial intelligence, drones and inspection technology.
+  url: https://www.hi.no/en/hi/forskning/projects/crimac
+  fetched: '2026-11-08'
+  quote: CRIMAC will improve and automate the interpretation of data and images from modern
+    broadband acoustics on research vessels and fishing boats by using cruises and experimental
+    field research, artificial intelligence, drones and inspection technology.
+- claim: The CRIMAC page lists five Kongsberg Maritime staff on the project.
+  url: https://www.hi.no/en/hi/forskning/projects/crimac
+  fetched: '2026-11-08'
+  quote: 'Kongsberg Maritime: Olav Vittersø, Lars Nonboe Andersen, Ivar Wangen, Martin Tollefsen,
+    Thor Barhaugen'
+links:
+- type: partners-with
+  to: crimac
+  url: https://www.hi.no/en/hi/forskning/projects/crimac
+  fetched: '2026-11-08'
+  quote: 'Industrial partners: Kongsberg Maritime, Scantrol, Scantrol Deep Vision, CodeLab
+    Bergen, Norway Royal Salmon, Liegruppen fiskeri and Eros.'
+found_by:
+- rule:checklist-misses
+- link-from:crimac
+added_by: agent
+checked: '2026-11-08'

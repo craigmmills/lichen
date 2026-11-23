@@ -1,0 +1,38 @@
+id: wild-bee-nest-drone-detection
+kind: project
+name: Wild bee nest detection with camera drones
+scope: ch
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: closed
+summary: Completed pilot study run by Agroscope, reported in February 2026, testing deep learning on drone
+  images to tell bee nest mounds from other soil deposits, tested on a 120 square metre area.
+facts:
+- claim: In February 2026, Agroscope reported a completed pilot study testing deep learning on drone images
+    to distinguish bee nest mounds from other soil deposits.
+  url: https://www.agroscope.admin.ch/en/counting-wild-bee-nests-with-camera-drones
+  quote: In a pilot study, Agroscope researchers tested the feasibility of analysing drone images with
+    Deep Learning
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: The model was tested on a 120 square metre area.
+  url: https://www.agroscope.admin.ch/en/counting-wild-bee-nests-with-camera-drones
+  quote: The model achieved a high level of accuracy on a 120 m² area
+  fetched: '2026-11-02'
+links:
+- type: run-by
+  to: agroscope
+  url: https://www.agroscope.admin.ch/en/counting-wild-bee-nests-with-camera-drones
+  quote: In a pilot study, Agroscope researchers tested the feasibility of analysing drone images with
+    Deep Learning
+  fetched: '2026-11-02'
+found_by:
+- link-from:agroscope
+added_by: agent
+checked: '2026-11-02'

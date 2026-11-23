@@ -1,0 +1,37 @@
+id: newsserow
+kind: model
+name: NewsSerow
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+status: unknown
+summary: Language model pipeline that filters news for conservation relevance from a handful
+  of examples, made for low-resource languages. WWF deployed it for media monitoring in Nepal,
+  by the 2024 paper; no later page was read, so whether it still runs is not known.
+countries:
+- np
+facts:
+- claim: A pipeline of summarisation, few-shot classification and self-reflection using large
+    language models.
+  url: https://arxiv.org/abs/2402.11818
+  fetched: &id001 2026-10-30
+  quote: large language models
+  ai_type: large-language-models
+- claim: WWF deployed it for media monitoring in Nepal, according to the authors.
+  url: https://arxiv.org/abs/2402.11818
+  fetched: *id001
+  quote: The World Wide Fund for Nature (WWF) has deployed NewsSerow for media monitoring
+    in Nepal, significantly reducing their operational burden
+links:
+- type: partners-with
+  to: world-wide-fund-for-nature
+  url: https://arxiv.org/abs/2402.11818
+  fetched: *id001
+  quote: The World Wide Fund for Nature (WWF) has deployed NewsSerow for media monitoring
+    in Nepal
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001
+runner: unknown

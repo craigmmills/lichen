@@ -1,0 +1,73 @@
+id: pontificia-universidad-catolica-del-peru
+kind: organisation
+name: Pontificia Universidad Católica del Perú
+also_known_as:
+- PUCP
+scope: pe
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Peruvian university that an OpenAlex count of works since 2020 ranks first among
+  Peruvian institutions for works tagged with AI or machine learning and ecology, biodiversity
+  or remote sensing.
+facts:
+- claim: An OpenAlex count of works since 2020 by Peruvian institutions tagged with machine
+    learning or AI and with ecology, biodiversity or remote sensing puts PUCP (OpenAlex I65285256)
+    first.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PE,concepts.id:C119857082|C154945302|C108583219,concepts.id:C18903297|C130217890|C62649853,from_publication_date:2020-01-01&group_by=authorships.institutions.id
+  fetched: 2026-11-03
+  quote: '"group_by": [{"key": "https://openalex.org/I65285256"'
+- claim: OpenAlex lists a 2021 paper led by PUCP researchers using machine learning to predict
+    deforestation linked to road construction.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PE,from_publication_date:2019-01-01,title_and_abstract.search:(machine%20learning%20OR%20deep%20learning%20OR%20neural%20network%20OR%20random%20forest)%20AND%20(species%20OR%20biodiversity%20OR%20forest%20OR%20deforestation%20OR%20wildlife%20OR%20bird%20OR%20fish)&sort=cited_by_count:desc&per_page=80&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Exploring machine learning techniques to predict deforestation to enhance the decision
+- claim: OpenAlex lists a 2024 review with PUCP authors on AI algorithms to detect macroplastics
+    in aquatic environments.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PE,from_publication_date:2019-01-01,title_and_abstract.search:(machine%20learning%20OR%20deep%20learning%20OR%20neural%20network%20OR%20random%20forest)%20AND%20(species%20OR%20biodiversity%20OR%20forest%20OR%20deforestation%20OR%20wildlife%20OR%20bird%20OR%20fish)&sort=cited_by_count:desc&per_page=80&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: 'The use of artificial intelligence algorithms to detect macroplastics in aquatic
+    environments: A critical review'
+- claim: OpenAlex lists Pontificia Universidad Católica del Perú as an education institution
+    in Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "http://www.pucp.edu.pe/", "country_code": "PE", "type": "education"'
+- claim: OpenAlex lists a 2025 paper with PUCP authors on deep learning to detect and quantify
+    macroplastics in Peruvian rivers.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I65285256,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Advanced deep learning strategies for detection and quantification of macroplastics
+    in rivers along the Peruvian coast
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2022 paper with PUCP authors using machine learning to analyse alluvial
+    gold mining expansion in the Peruvian Amazon.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I65285256,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Methodological Approach to Analyze Predictive Behavior of Alluvial Gold Mining Expansion
+    in the Peruvian Amazon Using a Machine Learning Approach
+- claim: OpenAlex lists a 2021 paper with PUCP authors on machine learning to predict deforestation
+    for road projects.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I65285256,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Exploring machine learning techniques to predict deforestation to enhance the decision
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

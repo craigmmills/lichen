@@ -1,0 +1,51 @@
+id: bioclip-2
+kind: model
+name: BioCLIP 2
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://imageomics.github.io/bioclip-2/
+summary: Biological image foundation model trained on TreeOfLife-200M, a dataset of biology images, for species classification and trait patterns.
+facts:
+- claim: Its page says the authors released TreeOfLife-200M and that BioCLIP 2 improves species classification over BioCLIP.
+  url: https://imageomics.github.io/bioclip-2/
+  quote: Through training at scale, BioCLIP 2 improves species classification by 18.1% over BioCLIP.
+  fetched: '2026-10-30'
+- claim: Its page names Tanya Berger-Wolf among the authors.
+  url: https://imageomics.github.io/bioclip-2/
+  quote: Tanya Berger-Wolf
+  fetched: '2026-10-30'
+- claim: "The BioCLIP 2 page describes it as a foundation model trained at scale."
+  url: https://imageomics.github.io/bioclip-2/
+  fetched: '2026-10-30'
+  quote: "BioCLIP 2 Foundation models trained at scale exhibit emergent properties beyond their initial training objectives."
+  ai_type: foundation-models
+- claim: "The newest BioCLIP 2.5 is a ViT model trained on TreeOfLife-200M."
+  url: https://imageomics.github.io/bioclip-2/
+  fetched: '2026-10-30'
+  quote: "a ViT-H/14 model trained on an expanded TreeOfLife-200M dataset"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: imageomics-institute
+  url: https://imageomics.github.io/bioclip-2/
+  quote: "title = {{BioCLIP 2}}, url = {https://github.com/Imageomics/bioclip-2}"
+  fetched: '2026-10-30'
+- type: builds-on
+  to: bioclip
+  url: https://imageomics.github.io/bioclip-2/
+  quote: 'Previous Version: BioCLIP'
+  fetched: '2026-10-30'
+found_by:
+- link-from:nvidia
+added_by: agent
+checked: '2026-10-30'

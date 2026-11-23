@@ -1,0 +1,55 @@
+id: maestro
+kind: model
+name: Maestro
+also_known_as:
+- MAESTRO
+scope: fr
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: A geographic foundation model built by IGN from aerial and satellite images
+  with a time dimension, released as open source and aimed first at the third version
+  of the French forest database.
+facts:
+- claim: Maestro aims to develop a geographic foundation model trained on IGN aerial
+    and satellite images and time series.
+  url: https://www.lemondeinformatique.fr/actualites/lireamp-l-ign-developpe-un-modele-ia-pour-observer-les-forets-francaises-99781.html
+  quote: Maestro vise à développer un modèle de fondation géographique entraîné sur
+    des bases de photos aériennes et satellitaires de l'IGN
+  ai_type: foundation-models
+  fetched: '2026-10-31'
+- claim: IGN's repository describes it as masked autoencoders for multimodal, multitemporal
+    and multispectral Earth observation data.
+  url: https://github.com/ignf/maestro
+  quote: Masked Autoencoders for Multimodal, Multitemporal, and Multispectral Earth
+    Observation Data
+  fetched: '2026-10-31'
+- claim: A foundation model pre-trained on large volumes of unlabelled data that can
+    then specialise in target tasks.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: 'MAESTRO est un modèle de fondation : pré-entraîné sur de vastes volumes
+    de données non annotées, il peut ensuite se spécialiser rapidement sur des tâches
+    cibles'
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.lemondeinformatique.fr/actualites/lireamp-l-ign-developpe-un-modele-ia-pour-observer-les-forets-francaises-99781.html
+  quote: l'IGN a développé son propre modèle de fondation IA
+  fetched: '2026-10-31'
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: "Conçu pour traiter des données complexes, MAESTRO atteint des performances de pointe sur plusieurs domaines clés de l'institut"
+found_by:
+- checklist:2
+- link-from:institut-national-de-linformation-geographique-et-forestiere
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,64 @@
+id: sib-ec-gbif-ecuador
+kind: programme
+name: GBIF Ecuador (SIB-EC)
+also_known_as:
+- SIB-EC
+- SiB-Ec
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ec
+status: active
+website: https://gbif.ambiente.gob.ec/
+runner: unknown
+summary: Active national GBIF node run by the ministry, dating to 2010, with an INABIO address and a site
+  listing a capacity project selected in GBIF’s 2023 call.
+facts:
+- claim: The site presents itself as GBIF Ecuador and invites users to explore the country's biodiversity.
+  url: https://gbif.ambiente.gob.ec/
+  fetched: 2026-11-02
+  quote: Explora la biodiversidad de Ecuador | GBIF Ecuador
+- claim: The site lists a capacity project for national portals selected in GBIF's 2023 call.
+  url: https://gbif.ambiente.gob.ec/
+  fetched: 2026-11-02
+  quote: Proyecto CESP Portales nacionales abordando desafíos nacionales
+- claim: GBIF gives the node's address at the National Institute of Biodiversity.
+  url: https://api.gbif.org/v1/node/2dc472f1-c3d9-486d-b3c1-12ca7ba1ed22
+  fetched: '2026-11-02'
+  quote: National Institute of Biodiversity (INABIO)
+- claim: The node dates back to 2010 and the Ecuador Continental Ecosystem Map project.
+  url: https://gbif.ambiente.gob.ec/about/
+  fetched: '2026-11-02'
+  quote: La creación del nodo nacional se remonta a 2010
+- claim: The ministry signed the GBIF memorandum of understanding in September 2016.
+  url: https://gbif.ambiente.gob.ec/about/
+  fetched: '2026-11-02'
+  quote: En septiembre de 2016, el Ministerio firmó el Memorando de Entendimiento con GBIF
+- claim: The site names itself the Biodiversity Information System of Ecuador.
+  url: https://biodiversidad.ambiente.gob.ec/biodiversidad-web/inicio/index.html
+  fetched: '2026-11-02'
+  quote: Sistema de Información de Biodiversidad de Ecuador
+- claim: It says its content is under permanent review and update.
+  url: https://biodiversidad.ambiente.gob.ec/biodiversidad-web/inicio/index.html
+  fetched: '2026-11-02'
+  quote: La información que se presenta en esta sección se encuentra en permanente revisión y actualización
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-02
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/2dc472f1-c3d9-486d-b3c1-12ca7ba1ed22
+  fetched: '2026-11-02'
+  quote: Signed as Voting Participant from 24 November 2022.
+- type: run-by
+  to: ministerio-de-ambiente-y-energia-ecuador
+  url: https://gbif.ambiente.gob.ec/about/
+  fetched: '2026-11-02'
+  quote: como miembro de GBIF y administrador del nodo nacional

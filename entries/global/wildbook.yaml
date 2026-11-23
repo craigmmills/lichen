@@ -1,0 +1,39 @@
+id: wildbook
+kind: programme
+name: Wildbook
+scope: global
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://www.wildme.org
+summary: Open-source software platform that combines AI and citizen science to re-identify individual animals across images.
+facts:
+- claim: Open-source platform to re-identify individual animals.
+  url: https://www.conservationxlabs.com/wild-me
+  fetched: '2026-10-30'
+  quote: An open-source software platform that combines AI and citizen science to re-identify individual animals across images
+- claim: 'Wild Me''s platforms include named Wildbooks that apply AI to individual species.'
+  url: https://www.wildme.org/platforms
+  fetched: 2026-10-30
+  quote: 'MantaMatcher: AI for Giant Mantas and Rays'
+links:
+- type: run-by
+  to: wild-me-lab
+  url: https://www.conservationxlabs.com/wild-me
+  fetched: '2026-10-30'
+  quote: Wildbook for Wildlife Population Monitoring
+- type: partners-with
+  to: ai-for-earth
+  url: https://www.wildme.org/supporters.html
+  fetched: 2026-10-30
+  quote: 'On June 14, 2018, Wild Me became a featured partner of Microsoft''s AI for Earth program. This deep level of investment and engagement has enabled Wildbook to more effectively and efficiently use AI to combat extinction.'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

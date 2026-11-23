@@ -1,0 +1,47 @@
+id: species-file-group
+kind: organisation
+name: Species File Group
+scope: us
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: Group that endows and maintains TaxonWorks, an open-source web workbench for taxonomists.
+facts:
+- claim: Maintains TaxonWorks.
+  url: https://taxonworks.org/
+  fetched: '2026-10-30'
+  quote: Endowed and maintained by the Species File Group.
+- claim: Develops Species File Software.
+  url: https://api.gbif.org/v1/organization/47a779a6-a230-4edd-b787-19c3d2c80ab5
+  fetched: '2026-10-30'
+  quote: The Species File Group develops Species File Software, a web-based system to store,
+    maintain and share nomenclatural and associated data for animal taxa
+- claim: Species File Software is a collection of programs.
+  url: http://software.speciesfile.org
+  fetched: '2026-10-30'
+  quote: SFS is a collection of programs
+- claim: The GBIF publisher record gives an address at the Illinois Natural History Survey,
+    University of Illinois Urbana-Champaign.
+  url: https://api.gbif.org/v1/organization/47a779a6-a230-4edd-b787-19c3d2c80ab5
+  fetched: '2026-10-31'
+  quote: 1816 S. Oak Street
+links:
+- type: runs
+  to: taxonworks
+  url: https://taxonworks.org/
+  fetched: '2026-10-30'
+  quote: Endowed and maintained by the Species File Group.
+found_by:
+- link-from:queue-us
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+website: https://speciesfilegroup.org

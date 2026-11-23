@@ -1,0 +1,30 @@
+id: q42
+kind: organisation
+name: Q42
+sector: company
+roles:
+- funds
+ai_label: conservation-tech
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: The company in which Hack the Planet began as a hackathon project, and which backed
+  it with funding, engineering time and a home.
+facts:
+- claim: Hack the Planet says it began inside Q42 as a hackathon project.
+  url: https://www.hack-the-planet.io/partners/
+  fetched: &id001 2026-10-31
+  quote: Hack The Planet was born inside Q42. It started as a hackathon project
+links:
+- type: funds
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/partners/
+  fetched: *id001
+  quote: Q42 backed the idea with funding, engineering time and a home
+found_by:
+- link-from:hack-the-planet
+scope: nl
+added_by: agent
+checked: *id001

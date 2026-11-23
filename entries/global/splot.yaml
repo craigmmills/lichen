@@ -1,0 +1,25 @@
+id: splot
+kind: dataset
+name: sPlot
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://www.idiv.de/research/splot/
+summary: Repository of plant community data with more than 2.5 million vegetation plot records, run as a research platform of iDiv.
+facts:
+- claim: More than 2.5 million records.
+  url: https://www.idiv.de/research/splot/
+  fetched: '2026-10-30'
+  quote: sPlot contains more than 2.5 million records with full lists of plant species co-occurring in small areas
+links:
+- type: run-by
+  to: german-centre-for-integrative-biodiversity-research
+  url: https://www.idiv.de/research/splot/
+  fetched: '2026-10-30'
+  quote: then assumed as an iDiv research platform
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

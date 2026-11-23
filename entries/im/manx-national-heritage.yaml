@@ -1,0 +1,65 @@
+id: manx-national-heritage
+kind: organisation
+name: Manx National Heritage
+also_known_as:
+- MNH
+- Manx Museum and National Trust
+scope: im
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+hq: im
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+summary: Described by Wikipedia as a statutory heritage agency and charity, publishes
+  Calf of Man occurrence data (1959–2004) and is a core Manx Biological Recording
+  Partnership partner.
+facts:
+- claim: Wikipedia describes it as the Isle of Man's statutory heritage agency and
+    an Isle of Man registered charity.
+  url: https://en.wikipedia.org/wiki/Manx_National_Heritage
+  fetched: 2026-11-13
+  quote: It is the Isle of Man's statutory heritage agency and an Isle of Man registered
+    charity
+- claim: Its GBIF publisher record says it was set up by Tynwald, its trustees are
+    appointed by Tynwald, and it has charitable status.
+  url: https://api.gbif.org/v1/organization/d7daeaec-a572-406f-ac6f-d7798ce2a4c3
+  fetched: 2026-11-13
+  quote: The organisation is supported by the Isle of Man Government and Trustees
+    are appointed by Tynwald.
+- claim: Its GBIF publisher record gives an address in Douglas, Isle of Man.
+  url: https://api.gbif.org/v1/organization/d7daeaec-a572-406f-ac6f-d7798ce2a4c3
+  fetched: 2026-11-13
+  quote: '"city":"Kingswood Grove","province":"Douglas","country":"IM","postalCode":"IM1
+    3LY"'
+- claim: Publishes the Calf of Man Bird Observatory daily logs for 1959 to 2004 as
+    an occurrence dataset, with a project under way to transcribe and make available
+    all the daily logs through the NBN Atlas.
+  url: https://api.gbif.org/v1/organization/d7daeaec-a572-406f-ac6f-d7798ce2a4c3/publishedDataset
+  fetched: 2026-11-13
+  quote: A project is underway to transcribe and continue to make available all of
+    the daily logs through the NBN Atlas Isle of Man and NBN Atlas.
+- claim: Named as one of three core partners in the 2024 statement of intent, which
+    says the Manx Biological Recording Partnership will be managed by a steering group
+    including those partners.
+  url: https://isleofman.nbnatlas.org/wp-content/uploads/2025/09/Statement-of-Intent-MBRP-2024.pdf
+  fetched: 2026-11-13
+  quote: be managed by a Steering Group made up of at least the three Core Partners
+    (DEFA, MNH,
+links:
+- type: partners-with
+  to: manx-biological-recording-partnership
+  url: https://isleofman.nbnatlas.org/wp-content/uploads/2025/09/Statement-of-Intent-MBRP-2024.pdf
+  fetched: 2026-11-13
+  quote: be managed by a Steering Group made up of at least the three Core Partners
+    (DEFA, MNH,
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

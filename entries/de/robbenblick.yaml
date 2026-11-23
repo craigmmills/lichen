@@ -1,0 +1,39 @@
+id: robbenblick
+kind: project
+name: RobbenBlick
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: unknown
+summary: WWF Germany pilot from 2025 on AI monitoring of grey seals in the Baltic.
+facts:
+- claim: WWF Germany's annual report describes AI-supported monitoring of grey seals.
+  url: https://www.lobbyregister.bundestag.de/media/b8/65/738010/WWF_Jahresbericht-25-WEB-DoS-4.pdf
+  quote: KI-GESTÜTZTES MONITORING VON KEGELROBBEN
+  fetched: '2026-10-31'
+- claim: Seal populations are indicators of marine ecosystems, and manual surveillance
+    is demanding.
+  url: https://civic-data.de/machen/projektsammlung/projekt/robbenblick/
+  fetched: '2026-10-31'
+  quote: Die manuelle Überwachung der Robbenbestände ist derzeit sehr aufwendig.
+links:
+- type: run-by
+  to: wwf-germany
+  url: https://www.lobbyregister.bundestag.de/media/b8/65/738010/WWF_Jahresbericht-25-WEB-DoS-4.pdf
+  quote: "startete das WWF-Büro Ostsee 2025 das Pilotprojekt „RobbenBlick“, zusammen mit der Jade Hochschule Wilhelmshaven"
+  fetched: '2026-10-31'
+- type: partners-with
+  to: jade-hochschule
+  url: https://www.lobbyregister.bundestag.de/media/b8/65/738010/WWF_Jahresbericht-25-WEB-DoS-4.pdf
+  quote: mit der Jade Hochschule Wilhelmshaven und der
+  fetched: '2026-10-31'
+found_by:
+- link-from:wwf-germany
+- checklist:7
+scope: de
+added_by: agent
+checked: '2026-10-31'
+countries:
+- de

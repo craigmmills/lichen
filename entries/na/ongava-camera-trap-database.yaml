@@ -1,0 +1,39 @@
+id: ongava-camera-trap-database
+kind: dataset
+name: Ongava Research Centre camera trap database
+scope: na
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- na
+status: active
+summary: Camera trap image database run by Ongava Research Centre, which says it has
+  keyworded and stored over 6.5 million wildlife images since 2009, mainly from waterholes,
+  and invites researchers to use them.
+facts:
+- claim: ORC says it has keyworded and stored more than 6.5 million wildlife images
+    since 2009, mainly from the reserve's permanent artificial waterholes.
+  url: https://orc.eco/camera-trap-database/
+  fetched: 2026-11-12
+  quote: Since 2009, ORC has keyworded and stored well over 6 500 000 wildlife images,
+    predominantly from the reserve’s permanent artificial water holes.
+- claim: Invites researchers to analyse and use the images and their metadata.
+  url: https://orc.eco/camera-trap-database/
+  fetched: 2026-11-12
+  quote: We invite researchers to analyse and use these images and their associated
+    meta-data for their own studies.
+- claim: Covers Ongava Game Reserve and has been ongoing since 2009.
+  url: https://orc.eco/camera-trap-database/
+  fetched: 2026-11-12
+  quote: 'Study area: Ongava Game Reserve Duration: Ongoing since 2009'
+links:
+- type: run-by
+  to: ongava-research-centre
+  url: https://orc.eco/camera-trap-database/
+  fetched: 2026-11-12
+  quote: Since 2009, ORC has keyworded and stored well over 6 500 000 wildlife images
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

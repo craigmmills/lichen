@@ -1,0 +1,43 @@
+id: tay-do-university
+kind: organisation
+name: Tay Do University
+also_known_as: []
+scope: vn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+hq: unknown
+countries:
+- vn
+scale: national
+status: active
+funding_at_risk: false
+summary: University with OpenAlex-listed first authors of papers on underwater fish detection
+  and segmentation using YOLOv8, RF-DETR and SAM 2.1, and acoustic machine learning for Pantanal
+  species identification.
+facts:
+- claim: 'OpenAlex lists an author at Tay Do University as first author of the paper titled
+    "A Dual-Pipeline Approach for Underwater Fish Detection and Segmentation: Integrating
+    YOLOv8 and RF-DETR with SAM 2.1".'
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05hdqw609|01mywhy53|03zzgjc77|03drjj511|0227kwk61|036xsg644|02k550c65|03gvjya19|04j5g5g52|03g6wh580|0289ve942|056kdz329|00v416254|00y8rfx07|0434r1180|0031x3y66|04gwjz789|05pq46g90|03j8s2d17|00vbzs544|02w2wps72|01gff7046|00a4nhr72|05dp8mg49|04vtp9n41|02scpdz59|045jvzr81|00z3jw597|03gmpnw94|054s6pa38|02b9zqw68,concepts.id:C62649853,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: 'A Dual-Pipeline Approach for Underwater Fish Detection and Segmentation: Integrating
+    YOLOv8 and RF-DETR with SAM 2.1'
+- claim: OpenAlex lists an author at Tay Do University as first author of the paper titled
+    "Acoustic Machine Learning for Multi-Species Identification in the Pantanal Wetlands".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05hdqw609|01mywhy53|03zzgjc77|03drjj511|0227kwk61|036xsg644|02k550c65|03gvjya19|04j5g5g52|03g6wh580|0289ve942|056kdz329|00v416254|00y8rfx07|0434r1180|0031x3y66|04gwjz789|05pq46g90|03j8s2d17|00vbzs544|02w2wps72|01gff7046|00a4nhr72|05dp8mg49|04vtp9n41|02scpdz59|045jvzr81|00z3jw597|03gmpnw94|054s6pa38|02b9zqw68,concepts.id:C62649853,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: Acoustic Machine Learning for Multi-Species Identification in the Pantanal Wetlands
+links: []
+found_by:
+- register:vn
+- checklist:3
+added_by: agent
+checked: 2026-11-08

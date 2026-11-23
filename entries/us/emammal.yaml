@@ -1,0 +1,26 @@
+id: emammal
+kind: dataset
+name: eMammal
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Smithsonian camera trap database that archives SNAPSHOT USA data.
+facts:
+- claim: Smithsonian database archiving SNAPSHOT USA.
+  url: https://www.eurekalert.org/news-releases/642862
+  fetched: '2026-10-30'
+  quote: All the data are archived at the Smithsonian Institution's eMammal database
+links:
+- type: run-by
+  to: smithsonian-institution
+  url: https://www.eurekalert.org/news-releases/642862
+  fetched: '2026-10-30'
+  quote: the Smithsonian Institution's eMammal database
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

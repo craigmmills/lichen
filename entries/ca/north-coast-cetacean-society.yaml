@@ -1,0 +1,59 @@
+id: north-coast-cetacean-society
+kind: organisation
+name: North Coast Cetacean Society
+also_known_as:
+- BC Whales
+scope: ca
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+countries: []
+scale: regional
+status: active
+website: https://bcwhales.org/
+summary: Self-described non-profit whale research organisation on British Columbia’s
+  northern coast, with four Squally Channel hydrophones and software classifying whale
+  calls to species.
+facts:
+- claim: Describes itself as a non-profit whale research organisation on the northern
+    coast of British Columbia.
+  url: https://bcwhales.org/research/bc-hydrophone-network/
+  fetched: 2026-11-08
+  quote: BC Whales (the North Coast Cetacean Society) is a non-profit whale-research
+    organization dedicated to the research and protection of cetaceans along the northern
+    coast of British Columbia.
+- claim: Runs four hydrophones in Squally Channel with software that detects and classifies
+    whale calls to species.
+  url: https://bcwhales.org/research/land-based-research/
+  fetched: 2026-11-08
+  quote: The strategic placement of each hydrophone coupled with specialized software
+    enables us to record, detect, and classify whale calls to a species level.
+links:
+- type: builds
+  to: bc-hydrophone-network
+  url: https://bcwhales.org/research/bc-hydrophone-network/
+  fetched: 2026-11-08
+  quote: Together we have developed a BC coast-wide acoustic underwater monitoring
+    network with the use of standardized hydrophone stations.
+- type: partners-with
+  to: swag-ships-whales-acoustics-gitgaat-territory
+  url: https://bcwhales.org/research/land-based-research/
+  fetched: 2026-11-08
+  quote: a collaboration between ourselves, the Gitga’at First Nation, and WWF-Canada
+    under the Ships, Whales, and Acoustics in Gitga’at Territory (SWAG) project
+- type: partners-with
+  to: wwf-canada
+  url: https://bcwhales.org/research/land-based-research/
+  fetched: 2026-11-08
+  quote: a collaboration between ourselves, the Gitga’at First Nation, and WWF-Canada
+found_by:
+- rule:checklist-misses
+- link-from:swag-ships-whales-acoustics-gitgaat-territory
+added_by: agent
+checked: 2026-11-08

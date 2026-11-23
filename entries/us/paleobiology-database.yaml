@@ -1,0 +1,29 @@
+id: paleobiology-database
+kind: dataset
+name: Paleobiology Database
+also_known_as:
+- PaleoBioDB
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: http://paleobiodb.org/
+runner: unknown
+summary: Non-profit public resource of global occurrence and taxonomic data for organisms
+  of all geological ages, with data services for others to build on.
+facts:
+- claim: Provides global occurrence and taxonomic data.
+  url: https://api.gbif.org/v1/organization/b711353c-44d7-4e8b-90c5-16fea0d247e0
+  fetched: '2026-10-30'
+  quote: Its purpose is to provide global, collection-based occurrence and taxonomic
+    data for organisms of all geological ages
+- claim: Non-profit public resource.
+  url: https://api.gbif.org/v1/organization/b711353c-44d7-4e8b-90c5-16fea0d247e0
+  fetched: '2026-10-30'
+  quote: is a non-governmental, non-profit public resource for paleontological data
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

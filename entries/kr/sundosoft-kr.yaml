@@ -1,0 +1,35 @@
+id: sundosoft-kr
+kind: organisation
+name: ㈜선도소프트
+scope: kr
+sector: company
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Company that was lead contractor for the AI Hub national park change detection
+  monitoring dataset, and is named in a Ministry of Education listing alongside a
+  satellite-based carbon sink time series.
+facts:
+- claim: Lead contractor for the AI Hub national park change detection monitoring
+    dataset.
+  url: https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=23&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71363
+  fetched: '2026-11-09'
+  quote: '수행기관(주관) : ㈜선도소프트'
+- claim: A Ministry of Education data listing names it with a satellite-based time
+    series of carbon sinks including forest, grassland and wetland.
+  url: https://data.edmgr.kr/dataView.do?id=aihub_71363
+  fetched: '2026-11-09'
+  quote: ㈜선도소프트 - 자연기반 탄소흡수원 시계열 데이터
+links: []
+found_by:
+- rule:checklist-misses
+- link-from:national-park-change-detection-monitoring-data-kr
+added_by: agent
+checked: '2026-11-09'

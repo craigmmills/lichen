@@ -1,0 +1,96 @@
+id: museo-nacional-de-ciencias-naturales
+kind: organisation
+name: Museo Nacional de Ciencias Naturales
+also_known_as:
+- MNCN
+- MNCN-CSIC
+- National Museum of Natural Sciences
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: es
+scale: national
+status: active
+website: https://www.mncn.csic.es
+summary: Spanish natural history museum that coordinates the national node of DiSSCo, the
+  European infrastructure for natural science collections.
+facts:
+- claim: Coordinates the Spanish national node of DiSSCo.
+  url: https://www.mncn.csic.es/sites/default/files/2024-07/Rsultados_2023-2024_Colecciones.pdf
+  quote: El MNCN es el coordinador del Nodo nacional de DiSSCo en España
+  fetched: '2026-10-31'
+- claim: Holds scientific collections, including tissues and DNA.
+  url: https://www.mncn.csic.es/en
+  fetched: '2026-10-31'
+  quote: Tissues and DNA
+- claim: Helped CSIC start GBIF coordination in Spain.
+  url: https://gbif.es/en/about-gbif-es/
+  fetched: '2026-10-31'
+  quote: The CSIC, with support and advice of the Museo Nacional de Ciencias Naturales
+- claim: Founded in 1771.
+  url: https://www.mncn.csic.es/es/quienes_somos/presentacion
+  fetched: '2026-10-31'
+  quote: Fundado en 1771, el Museo Nacional de Ciencias Naturales
+- claim: Its address is in Madrid.
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: C/ José Gutiérrez Abascal, 2 28006. Madrid
+- claim: A team at the museum developed TropiCam-AI.
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: Un equipo de investigación del Museo Nacional de Ciencias Naturales (MNCN-CSIC) ha
+    desarrollado TropiCam-AI
+- claim: Describes itself as one of the emblematic centres of CSIC, with over 70 researchers.
+  url: https://api.gbif.org/v1/organization/3059a14b-7b43-41ce-beef-873999911dfe
+  fetched: '2026-10-31'
+  quote: the Museum is one of the emblematic centres of the Spanish National Research Council
+    (CSIC)
+- claim: The GBIF record names the Fonoteca Zoológica as part of the museum.
+  url: https://api.gbif.org/v1/organization/68209dd2-7f9c-4176-8135-d93f3321d3d3/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: 'Fonoteca Zoológica, Museo Nacional de Ciencias Naturales, Madrid: FZ_AVES'
+links:
+- type: partners-with
+  to: dissco
+  url: https://www.mncn.csic.es/sites/default/files/2024-07/Rsultados_2023-2024_Colecciones.pdf
+  quote: El MNCN es el coordinador del Nodo nacional de DiSSCo en España
+  fetched: '2026-10-31'
+- type: partners-with
+  to: gbif-spain
+  url: https://gbif.es/en/about-gbif-es/
+  fetched: '2026-10-31'
+  quote: The CSIC, with support and advice of the Museo Nacional de Ciencias Naturales
+- type: runs
+  to: tropicam-ai
+  url: https://www.mncn.csic.es/es/Comunicaci%C3%B3n/desarrollan-el-primer-algoritmo-de-inteligencia-artificial-capaz-de-identificar
+  fetched: '2026-10-31'
+  quote: Un equipo de investigación del Museo Nacional de Ciencias Naturales (MNCN-CSIC) ha
+    desarrollado TropiCam-AI
+- type: run-by
+  to: consejo-superior-de-investigaciones-cientificas
+  url: https://api.gbif.org/v1/organization/3059a14b-7b43-41ce-beef-873999911dfe
+  fetched: '2026-10-31'
+  quote: the Museum is one of the emblematic centres of the Spanish National Research Council
+    (CSIC)
+- type: runs
+  to: fonoteca-zoologica
+  url: https://api.gbif.org/v1/organization/68209dd2-7f9c-4176-8135-d93f3321d3d3/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: 'Fonoteca Zoológica, Museo Nacional de Ciencias Naturales, Madrid: FZ_AVES'
+found_by:
+- checklist:2
+- link-from:gbif-spain
+- checklist:3
+- register:es
+scope: es
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- edna-genomics
+- computer-vision
+- bioacoustics

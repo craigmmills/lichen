@@ -1,0 +1,38 @@
+id: atlas-of-bird-distribution-in-new-zealand
+kind: dataset
+name: Atlas of bird distribution in New Zealand
+scope: nz
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+countries:
+- nz
+status: active
+summary: A dataset built by the Ornithological Society of New Zealand, covering 1999 to 2004, with more
+  than 2,100 maps of over 200 bird species, reproduced as Webatlas maps on New Zealand Birds Online.
+facts:
+- claim: The 1999–2004 atlas has more than 2,100 maps covering over 200 bird species.
+  url: https://nzbirdsonline.org.nz/osnz
+  fetched: 2026-11-07
+  quote: With some 530 pages and more than 2100 maps
+- claim: Its maps are reproduced as Webatlas maps on New Zealand Birds Online.
+  url: https://nzbirdsonline.org.nz/osnz
+  fetched: 2026-11-07
+  quote: The Webatlas maps published in New Zealand Birds Online are derived from the Atlas of bird distribution
+    in New Zealand 1999-2004
+links:
+- type: built-by
+  to: ornithological-society-of-new-zealand
+  url: https://nzbirdsonline.org.nz/osnz
+  fetched: 2026-11-07
+  quote: The Ornithological Society of NZ, Inc. (OSNZ) launched the most comprehensive survey of New Zealand’s
+    avifauna in August 2007.
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-07

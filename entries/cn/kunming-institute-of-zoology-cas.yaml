@@ -1,0 +1,58 @@
+id: kunming-institute-of-zoology-cas
+kind: organisation
+name: Kunming Institute of Zoology, Chinese Academy of Sciences
+also_known_as:
+- 中国科学院昆明动物研究所
+- KIZ
+scope: cn
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: cn
+scale: national
+status: active
+website: http://www.kiz.cas.cn/
+summary: Chinese Academy of Sciences institute in Kunming with a biodiversity big data centre.
+  It hosts the bird monitoring network of Sino BON.
+facts:
+- claim: Its biodiversity big data centre handles submission, sharing and service of the institute's
+    scientific data.
+  url: http://www.kiz.ac.cn/info/
+  fetched: '2026-10-31'
+  quote: 负责研究所科学数据的汇交、共享与服务
+- claim: Its address is in Panlong District, Kunming.
+  url: http://www.kiz.ac.cn/info/
+  fetched: '2026-10-31'
+  quote: 云南省昆明市盘龙区茨坝街道龙欣路17号
+- claim: Host body of the biodiversity subcentre of the National Genomics Data Center, set
+    up in December 2023.
+  url: https://ngdc.cncb.ac.cn/subcenter/1
+  fetched: '2026-10-31'
+  quote: 国家基因组科学数据中心生物多样性分中心于2023年12月成立，依托单位为中国科学院昆明动物研究所。
+- claim: Named for the bird network of Sino BON.
+  url: https://www.plantplus.cn/cn/news/71
+  fetched: '2026-10-31'
+  quote: 3 鸟类生物多样性监测专项网 中国科学院昆明动物研究所 杨晓君
+links:
+- type: partners-with
+  to: sino-bon
+  url: https://www.plantplus.cn/sinobon/news/71
+  fetched: '2026-10-31'
+  quote: 鸟类生物多样性监测专项网 中国科学院昆明动物研究所
+- type: runs
+  to: ngdc-biodiversity-subcenter
+  url: https://ngdc.cncb.ac.cn/subcenter/1
+  fetched: '2026-10-31'
+  quote: 国家基因组科学数据中心生物多样性分中心于2023年12月成立，依托单位为中国科学院昆明动物研究所。
+found_by:
+- link-from:sino-bon
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn
+techniques:
+- edna-genomics

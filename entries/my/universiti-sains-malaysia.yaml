@@ -1,0 +1,46 @@
+id: universiti-sains-malaysia
+kind: organisation
+name: Universiti Sains Malaysia
+also_known_as:
+- USM
+scope: my
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: Malaysian university with 26 OpenAlex-listed works on AI in ecology subfields since
+  2018, including a 2026 paper by two authors comparing AI-integrated and conventional camera
+  traps.
+facts:
+- claim: OpenAlex lists a 2026 paper by two of its authors comparing AI-integrated and conventional
+    camera traps.
+  url: https://api.openalex.org/works/W7220357538
+  fetched: 2026-11-03
+  quote: Comparative evaluation of artificial intelligence-integrated and conventional camera
+    traps for small mammal monitoring
+- claim: OpenAlex counts 26 works with its authors on AI in ecology subfields since 2018.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: Universiti Sains Malaysia
+- claim: OpenAlex lists a 2020 paper by USM authors on deep learning for fish segmentation
+    in underwater videos.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:coral%20reef%20deep%20learning,from_publication_date:2020-01-01&per_page=10&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: Improved deep learning framework for fish segmentation in underwater videos
+  ai_type: deep-learning
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- deep-learning

@@ -1,0 +1,52 @@
+id: institut-cartografic-i-geologic-de-catalunya
+kind: organisation
+name: Institut Cartogràfic i Geològic de Catalunya
+scope: es
+also_known_as:
+- ICGC
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: local
+status: active
+website: https://www.icgc.cat/en
+summary: Mapping and geology body of Catalonia. It publishes the Land Cover Map of Catalonia
+  and GeoAI-Cubes, a dataset for training geospatial AI models.
+facts:
+- claim: Publishes GeoAI-Cubes for training AI on Earth observation data.
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: The dataset is optimized to efficiently train artificial intelligence models focused
+    on geospatial applications.
+- claim: Takes part in PCP-WISE use case definition with IEEC and i2CAT.
+  url: https://ieec.cat/en/project/69/pcp-wise
+  fetched: '2026-10-31'
+  quote: together with the ICGC (Institut Cartogràfic i Geològic de Catalunya) and i2Cat
+- claim: Publishes GeoAI-Cubes on training AI for Earth observation.
+  url: https://www.icgc.cat/en/Thematic-areas/Earth-Observation
+  fetched: '2026-10-31'
+  quote: 'GeoAI-Cubes: training Artificial Intelligence for Earth Observation'
+links:
+- type: partners-with
+  to: pcp-wise
+  url: https://ieec.cat/en/project/69/pcp-wise
+  fetched: '2026-10-31'
+  quote: together with the ICGC (Institut Cartogràfic i Geològic de Catalunya) and i2Cat,
+    is participating in the project
+- type: runs
+  to: catlc
+  url: https://www.icgc.cat/ca/Geoinformacio-i-mapes/Mapes/Conjunt-de-dades-multi-resolucio-pel-Mapa-de-cobertes-de-Catalunya-CatLC
+  fetched: '2026-10-31'
+  quote: Conjunt de dades multi-resolució pel Mapa de cobertes de Catalunya (CatLC)
+found_by:
+- link-from:pcp-wise
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

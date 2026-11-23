@@ -1,0 +1,46 @@
+id: university-of-sulaimani
+kind: organisation
+name: University of Sulaimani
+also_known_as:
+- Sulaymaniyah University
+scope: iq
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- iq
+scale: national
+status: active
+summary: Iraqi university whose professors reportedly launched a wildlife water and
+  camera monitoring project by November 2024, and whose authors wrote a 2026 Penjween
+  wildfire and deforestation assessment.
+facts:
+- claim: In November 2024, 964media reported that two professors at its College of
+    Science had launched a project supplying water to wildlife and monitoring the
+    sites with cameras.
+  url: https://en.964media.com/28027/
+  fetched: 2026-11-12
+  quote: Soran Hama Ali Ahmed and Soma Ismail Majid, professors at the College of
+    Science at Sulaymaniyah University, launched the project
+- claim: OpenAlex lists the University of Sulaimani as the sole affiliation of each
+    author on a 2026 remote sensing assessment of wildfire and deforestation in Penjween;
+    the first author's raw affiliation misspells it as 'univeristy of Sulaimani'.
+  url: https://api.openalex.org/works/W7155724067?select=authorships
+  fetched: 2026-11-12
+  quote: univeristy of Sulaimani
+- claim: OpenAlex lists the Penjween paper's title.
+  url: https://api.openalex.org/works?filter=institutions.country_code:IQ,from_publication_date:2022-01-01,title.search:forest%20remote%20sensing&per-page=25&select=id,display_name,publication_year
+  fetched: 2026-11-12
+  quote: 'Wildfire Impact and Forest Flux in Penjween, Iraq: A Remote Sensing-Based
+    Deforestation Assessment'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

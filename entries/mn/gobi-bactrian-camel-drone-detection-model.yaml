@@ -1,0 +1,35 @@
+id: gobi-bactrian-camel-drone-detection-model
+kind: model
+name: Bactrian camel detection model for drone imagery in the Gobi Desert
+scope: mn
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- mn
+status: unknown
+runner: unknown
+summary: Automated detection system for Bactrian camels in Gobi Desert drone imagery, which
+  the paper's authors developed and validated using YOLOv8 and 1,479 images.
+facts:
+- claim: The paper's authors developed and validated an automated detection system using YOLOv8
+    and 1,479 drone images of Bactrian camels.
+  url: https://ciencia.iscte-iul.pt/publications/can-artificial-intelligence-support-bactrian-camel-conservation-testing-machine-learning-on-aerial/114101?lang=en
+  fetched: 2026-11-08
+  quote: Using YOLOv8 and a dataset of 1479 high-resolution drone-captured images of Bactrian
+    camels, we developed and validated an automated detection system.
+- claim: The study evaluates deep learning for automated camel detection in drone imagery
+    of the Gobi Desert.
+  url: https://ciencia.iscte-iul.pt/publications/can-artificial-intelligence-support-bactrian-camel-conservation-testing-machine-learning-on-aerial/114101?lang=en
+  fetched: 2026-11-08
+  quote: This study evaluates the effectiveness of deep learning for automated Bactrian camel
+    detection in drone imagery across the complex desert terrain of the Gobi Desert of Mongolia.
+  ai_type: deep-learning
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

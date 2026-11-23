@@ -1,0 +1,53 @@
+id: estonian-nature-observations-database
+kind: dataset
+name: Estonian Nature Observations Database
+also_known_as: []
+scope: ee
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ee
+status: active
+runner: unknown
+website: http://loodusvaatlused.eelis.ee
+summary: Active observations database on GBIF, mostly of butterflies, birds, vascular plants and mammals,
+  published under CC BY 4.0 with the Estonian Environment Information Centre named as publisher.
+facts:
+- claim: Its GBIF record describes it as an observations database for reporting nature observations, mostly
+    of butterflies, birds, vascular plants and mammals.
+  url: https://api.gbif.org/v1/dataset/c6bbb6ef-ad16-4f3c-99e2-f693760173e0
+  fetched: 2026-11-08
+  quote: Observations database for reporting of nature observations. Main observed species groups are
+    butterflies, birds, vascular plants and mammals.
+- claim: Its GBIF citation names the Estonian Environment Information Centre as publisher.
+  url: https://api.gbif.org/v1/dataset/c6bbb6ef-ad16-4f3c-99e2-f693760173e0
+  fetched: 2026-11-08
+  quote: Roasto R (2019). Estonian Nature Observations Database. Version 87.15. Estonian Environment Information
+    Centre.
+- claim: Published under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/dataset/c6bbb6ef-ad16-4f3c-99e2-f693760173e0
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Published on GBIF under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/organization/6d2a7654-1ed0-4924-b22e-9bc221ab2124/publishedDataset?limit=10
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: GBIF's citation names the Estonian Environment Information Centre as publisher.
+  url: https://api.gbif.org/v1/dataset/c6bbb6ef-ad16-4f3c-99e2-f693760173e0
+  fetched: 2026-11-08
+  quote: Estonian Environment Information Centre. Occurrence dataset
+- claim: GBIF's record names a nature conservation specialist at the Estonian Environment Agency as originator
+    of the dataset.
+  url: https://api.gbif.org/v1/dataset/c6bbb6ef-ad16-4f3c-99e2-f693760173e0
+  fetched: 2026-11-08
+  quote: '"position":["Specialist of Nature Conservation"],"email":[],"phone":[],"homepage":[],"organization":"Estonian
+    Environment Agency"'
+links: []
+found_by:
+- link-from:gbif-estonia
+- link-from:estonian-environment-information-centre
+added_by: agent
+checked: 2026-11-08
+roles:
+- supplies-data

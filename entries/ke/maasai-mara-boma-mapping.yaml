@@ -1,0 +1,37 @@
+id: maasai-mara-boma-mapping
+kind: project
+name: Maasai Mara boma and structure mapping
+scope: ke
+also_known_as: []
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- ke
+status: unknown
+summary: Kenya Wildlife Trust and Microsoft work using AI to map structures in the
+  Maasai Mara, including livestock enclosures.
+facts:
+- claim: Mapped more than 25,000 structures.
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: utilized AI to map over 25,000 structures in the Mara, including 5,000 empty
+    bomas
+links:
+- type: run-by
+  to: kenya-wildlife-trust
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: "Through this, KWT and Microsoft have successfully utilized AI to map over 25,000 structures in the Mara"
+- type: partners-with
+  to: microsoft-ai-for-good-lab
+  url: https://www.kenyawildlifetrust.org/wp-content/uploads/2024/07/KWT-ANNUAL-REPORT-2023-web-final3.pdf
+  fetched: '2026-10-31'
+  quote: Through this, KWT and Microsoft have successfully utilized AI
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

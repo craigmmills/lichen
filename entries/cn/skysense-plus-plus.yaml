@@ -1,0 +1,74 @@
+id: skysense-plus-plus
+kind: model
+name: SkySense++
+scope: cn
+ai_label: ai
+ai_types:
+- foundation-models
+- multimodal
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Multi-modal remote sensing foundation model from Wuhan University and Ant Group,
+  trained on 27 million images from 11 satellite payloads and published in Nature Machine
+  Intelligence.
+facts:
+- claim: Described as a next-generation semantic-enhanced multi-modal remote sensing foundation
+    model.
+  url: https://en.whu.edu.cn/info/4661/55581.htm
+  fetched: '2026-10-31'
+  quote: SkySense++, a next-generation semantic-enhanced multi-modal remote sensing foundation
+    model
+  via: webfetch
+  ai_type: foundation-models
+- claim: The same description names a multi-modal model.
+  url: https://en.whu.edu.cn/info/4661/55581.htm
+  fetched: '2026-10-31'
+  quote: SkySense++, a next-generation semantic-enhanced multi-modal remote sensing foundation
+    model
+  via: webfetch
+  ai_type: multimodal
+- claim: Trained on 27 million images from 11 satellite payloads.
+  url: https://en.whu.edu.cn/info/4661/55581.htm
+  fetched: '2026-10-31'
+  quote: Trained on 27 million remote sensing images from 11 satellite payloads
+  via: webfetch
+- claim: A two-billion-parameter multimodal remote sensing foundation model from the Wuhan
+    University and Ant Group joint laboratory, accepted at CVPR 2024.
+  ai_type: foundation-models
+  url: https://news.whu.edu.cn/info/1015/453267.htm
+  fetched: '2026-10-31'
+  quote: 武汉大学-蚂蚁集团智能遥感联合实验室的最新研发成果——20亿参数多模态遥感基础大模型SkySense
+- claim: Described as a multimodal model.
+  ai_type: multimodal
+  url: https://news.whu.edu.cn/info/1015/453267.htm
+  fetched: '2026-10-31'
+  quote: 20亿参数多模态遥感基础大模型SkySense
+links:
+- type: run-by
+  to: wuhan-university
+  url: https://en.whu.edu.cn/info/4661/55581.htm
+  fetched: '2026-10-31'
+  quote: Wuhan University (WHU) and Ant Group have unveiled SkySense++
+  via: webfetch
+- type: run-by
+  to: ant-group
+  url: https://en.whu.edu.cn/info/4661/55581.htm
+  fetched: '2026-10-31'
+  quote: Wuhan University (WHU) and Ant Group have unveiled SkySense++
+  via: webfetch
+- type: run-by
+  to: whu-ant-intelligent-remote-sensing-joint-laboratory
+  url: https://news.whu.edu.cn/info/1015/453267.htm
+  fetched: '2026-10-31'
+  quote: 武汉大学-蚂蚁集团智能遥感联合实验室的最新研发成果——20亿参数多模态遥感基础大模型SkySense
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn
+also_known_as:
+- SkySense++

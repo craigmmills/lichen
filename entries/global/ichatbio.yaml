@@ -1,0 +1,52 @@
+id: ichatbio
+kind: programme
+name: iChatBio
+scope: global
+ai_label: ai
+ai_types:
+- agentic-ai
+- large-language-models
+status: active
+website: https://ichatbio.org
+summary: University of Florida chatbot with specialist agents that find and retrieve biodiversity
+  records, media and literature from iDigBio, GBIF, iNaturalist, BHL, OBIS and ALA. Pages
+  show it presented to researchers and open to new agents; no page read gives user numbers.
+facts:
+- claim: An agentic system built on language models, with a general chat agent handing requests
+    to expert agents.
+  url: https://biss.pensoft.net/article_preview.php?id=181968
+  fetched: &id001 2026-10-30
+  quote: we have created iChatBio, an agentic system specifically designed to
+  ai_type: agentic-ai
+- claim: Uses language models such as OpenAI's GPT-4.1 as its natural language interface.
+  url: https://biss.pensoft.net/article_preview.php?id=181968
+  fetched: *id001
+  quote: iChatBio makes integrated data services more easily accessible through its LLM-powered
+    natural language interface.
+  ai_type: large-language-models
+- claim: Connects to expert agents for six biodiversity data services, with more being added.
+  url: https://biss.pensoft.net/article_preview.php?id=181968
+  fetched: *id001
+  quote: iChatBio currently connects with expert agents that access data served by iDigBio
+- claim: Its makers published a software kit so that others can add expert agents.
+  url: https://biss.pensoft.net/article_preview.php?id=181968
+  fetched: *id001
+  quote: we have assembled an iChatBio Software Development Kit (iChatBio SDK), available
+    in the Python Package Index
+- claim: Presented at the 2025 SPNHC meeting as a chatbot at ichatbio.org for biodiversity
+    researchers.
+  url: https://www.acis.ufl.edu/members-of-the-acis-laboratory-attend-the-40th-annual-meeting-of-the-society-for-the-preservation-of-natural-history-collections-spnhc-in-lawrence-ks-may-27-31-2025/
+  fetched: *id001
+  quote: a chatbot designed to assist biodiversity researchers with discovering and exploring
+    scientific data and derived information
+links:
+- type: run-by
+  to: university-of-florida
+  url: https://www.acis.ufl.edu/members-of-the-acis-laboratory-attend-the-40th-annual-meeting-of-the-society-for-the-preservation-of-natural-history-collections-spnhc-in-lawrence-ks-may-27-31-2025/
+  fetched: *id001
+  quote: '[We] presented iChatBio ( ichatbio.org ), a chatbot designed to assist biodiversity
+    researchers with discovering and exploring scientific data'
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

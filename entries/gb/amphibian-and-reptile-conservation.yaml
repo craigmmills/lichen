@@ -1,0 +1,42 @@
+id: amphibian-and-reptile-conservation
+kind: organisation
+name: Amphibian and Reptile Conservation
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: http://www.arc-trust.org/
+summary: UK amphibian and reptile conservation charity that publishes species datasets on
+  GBIF.
+facts:
+- claim: Uses GIS and statistical models at landscape and national scale.
+  url: https://www.arc-trust.org/Pages/Category/science-data/
+  fetched: '2026-10-30'
+  quote: At ARC we use Geographical Information Systems (GIS) and statistical approaches to
+    model at both the landscape and national scales.
+- claim: Publishes the dataset "ARC Species Data - Beautiful Burial Grounds" on GBIF.
+  url: https://api.gbif.org/v1/organization/d4b5490a-3267-4e96-94b3-9b93ea167051/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: ARC Species Data - Beautiful Burial Grounds
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/d4b5490a-3267-4e96-94b3-9b93ea167051/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+- claim: Manages 80 nature reserves covering over 2,000 hectares across Britain.
+  url: https://www.arc-trust.org/about-arc
+  quote: ARC manages 80 nature reserves, covering over 2,000 hectares across Britain.
+  fetched: '2026-11-17'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

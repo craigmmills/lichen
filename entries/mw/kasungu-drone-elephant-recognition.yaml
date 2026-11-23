@@ -1,0 +1,47 @@
+id: kasungu-drone-elephant-recognition
+kind: project
+name: Evaluating machine learning-based elephant recognition in complex African landscapes
+  using drone imagery
+scope: mw
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- mw
+status: closed
+runner: unknown
+summary: A completed study using about 3,180 drone images from Kasungu National Park
+  to evaluate three machine learning object detection models, Faster R-CNN, RetinaNet
+  and Mask R-CNN, for elephant recognition.
+facts:
+- claim: The study used about 3,180 drone images from Kasungu National Park, analysed
+    with three machine learning algorithms.
+  url: https://doi.org/10.1088/2515-7620/ad9380
+  fetched: 2026-11-13
+  quote: Our study utilizes approximately 3,180 drone-captured images from Kasungu
+    National Park in Malawi, encompassing various terrains including dense forests
+    and open bushlands.
+- claim: It evaluated the object detection models Faster R-CNN, RetinaNet and Mask
+    R-CNN.
+  ai_type: deep-learning
+  url: https://doi.org/10.1088/2515-7620/ad9380
+  fetched: 2026-11-13
+  quote: 'We evaluated three machine learning algorithms: Faster R-CNN, RetinaNet,
+    and Mask R-CNN, chosen for their effectiveness in object detection and potential
+    for adaptation to wildlife identification.'
+- claim: The paper's first author gives an affiliation at LUANAR's Department of Forestry,
+    Bunda College campus.
+  url: https://api.openalex.org/works/W4404408723?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Lilongwe University of Agriculture and Natural Resources (LUANAR), Bunda
+    College of Agriculture Campus, Department of Forestry, PO Box 219, Lilongwe, Malawi
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

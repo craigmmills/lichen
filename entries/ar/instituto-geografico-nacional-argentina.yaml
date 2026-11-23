@@ -1,0 +1,116 @@
+id: instituto-geografico-nacional-argentina
+kind: organisation
+name: Instituto Geográfico Nacional (Argentina)
+also_known_as:
+- IGN
+- Ambiente Nación
+scope: ar
+sector: government
+roles:
+- governs
+- supplies-data
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+website: https://www.ign.gob.ar/
+summary: National mapping body in Buenos Aires that builds a national land cover map using
+  supervised Random Forest classification in Google Earth Engine.
+facts:
+- claim: Its mission includes the official representation of the national territory.
+  url: https://www.ign.gob.ar/AreaInstitucional/Mision
+  fetched: 2026-11-03
+  quote: Entender en la representación oficial del territorio nacional y en la elaboración
+    de los marcos normativos para su realización
+- claim: A paper by its staff gives the address of its Dirección de Información Geoespacial
+    in Buenos Aires.
+  url: https://opendata.fi.uncoma.edu.ar/jornadasIDERA/trabajos2023/Gaviola_etal.pdf
+  fetched: 2026-11-03
+  quote: Dirección de Información Geoespacial del Instituto Geográfico Nacional (IGN). Avenida
+    Cabildo 381, CABA.
+- claim: Presented a new land cover map, made with supervised Random Forest classification
+    in Google Earth Engine.
+  url: https://www.ign.gob.ar/content/nuevo-mapa-de-cobertura-de-suelos-del-ign
+  fetched: 2026-11-03
+  quote: Se utilizó la plataforma Google Earth Engine, realizando una clasificación supervisada
+    bajo el algoritmo Random Forest.
+  ai_type: ml-supervised
+- claim: Its remote sensing work includes optical and radar satellite image mosaics.
+  url: https://www.ign.gob.ar/
+  fetched: 2026-11-03
+  quote: Mosaicos de imágenes satelitales radar
+- claim: Its page gives its address in Buenos Aires.
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente
+  fetched: 2026-11-03
+  quote: 'Dirección: San Martín 451, Ciudad Autónoma de Buenos Aires'
+- claim: Says it works for the transition to a sustainable model of development.
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente
+  fetched: 2026-11-03
+  quote: Trabajamos para impulsar la transición hacia un modelo de desarrollo sostenible y
+    sustentable.
+- claim: Its information systems include SInIA, the integrated environmental information system,
+    and SIMARCC, the climate change risk map system.
+  url: https://www.argentina.gob.ar/jefatura/turismo-y-ambiente/ambiente
+  fetched: 2026-11-03
+  quote: Sistema Integrado de Información Ambiental
+- claim: The Subsecretaría is the national authority under the native forests law, and runs
+    the deforestation early warning system's monitoring.
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: 2026-11-03
+  quote: Mejorar el sistema de monitoreo que lleva adelante la Subsecretaría de Ambiente de
+    Nación como Autoridad Nacional de la Ley de Bosques
+- claim: Produces the official bicontinental map of Argentina, which by law must be displayed
+    in national and provincial bodies.
+  url: https://www.argentina.gob.ar/pais/territorio/cartografia
+  fetched: 2026-11-03
+  quote: el mapa bicontinental de la República Argentina, confeccionado por el Instituto Geográfico
+    Nacional - IGN , debe ser exhibido públicamente en todos los organismos nacionales y provinciales
+- claim: Its site offers open data, geodesy resources and a digital elevation model.
+  url: https://www.ign.gob.ar/
+  fetched: 2026-11-03
+  quote: Modelo Digital de Elevaciones
+- claim: Its page states it works towards a sustainable development model and lists its information
+    systems, SInIA and SIMARCC.
+  url: https://www.argentina.gob.ar/jefatura/turismo-ambiente-y-deportes/ambiente?idseccion=6
+  fetched: 2026-11-03
+  quote: Trabajamos para impulsar la transición hacia un modelo de desarrollo sostenible y
+    sustentable.
+- claim: Its address is San Martín 451, Ciudad Autónoma de Buenos Aires.
+  url: https://www.argentina.gob.ar/jefatura/turismo-ambiente-y-deportes/ambiente?idseccion=6
+  fetched: 2026-11-03
+  quote: 'Dirección: San Martín 451, Ciudad Autónoma de Buenos Aires'
+- claim: The government describes it as the national authority under the forest law.
+  url: https://www.argentina.gob.ar/node/466374
+  fetched: 2026-11-03
+  quote: Mejorar el sistema de monitoreo que lleva adelante la Subsecretaría de Ambiente de
+    Nación como Autoridad Nacional de la Ley de Bosques
+links:
+- type: builds
+  to: ign-mapa-nacional-de-cobertura-de-suelo
+  url: https://www.ign.gob.ar/content/nuevo-mapa-de-cobertura-de-suelos-del-ign
+  fetched: 2026-11-03
+  quote: el Instituto Geográfico Nacional presentó un nuevo Mapa de Cobertura de Suelos
+- type: runs
+  to: sistema-de-alerta-temprana-de-deforestacion
+  url: https://www.argentina.gob.ar/ambiente/bosques/sistema-de-alerta-temprana-de-deforestacion
+  fetched: 2026-11-03
+  quote: Mejorar el sistema de monitoreo que lleva adelante la Subsecretaría de Ambiente de
+    Nación como Autoridad Nacional de la Ley de Bosques
+- type: builds
+  to: sistema-de-alerta-temprana-de-deforestacion
+  url: https://www.argentina.gob.ar/node/466374
+  fetched: 2026-11-03
+  quote: La Subsecretaría de Ambiente de Nación comenzó la implementación del SAT
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-03

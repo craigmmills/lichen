@@ -1,0 +1,63 @@
+id: gbif-dominican-republic
+kind: programme
+name: GBIF Dominican Republic
+scope: do
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- do
+status: active
+runner: unknown
+summary: Dominican Republic's GBIF associate participant node, managed by José Alberto Melendez Juan,
+  which has endorsed five data publishers including Grupo Jaragua.
+facts:
+- claim: GBIF's directory lists the Dominican Republic as an associate participant with a node titled
+    GBIF Dominican Republic.
+  url: https://api.gbif.org/v1/node/country/DO
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Dominican Republic"'
+- claim: GBIF lists the Dominican Republic as an associate participant with a country node called GBIF
+    Dominican Republic.
+  url: https://api.gbif.org/v1/node/country/DO
+  fetched: 2026-11-09
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Dominican Republic","participantTitle":"Dominican Republic"'
+- claim: GBIF's directory lists José Alberto Melendez Juan as node manager.
+  url: https://api.gbif.org/v1/node/country/DO
+  fetched: 2026-11-09
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"José Alberto","lastName":"Melendez
+    Juan"'
+- claim: GBIF's directory lists Francis Omar Reyes Polanco as head of the Dominican Republic's delegation.
+  url: https://api.gbif.org/v1/node/country/DO
+  fetched: 2026-11-09
+  quote: '"type":"HEAD_OF_DELEGATION","primary":false,"userId":[],"firstName":"Francis Omar","lastName":"Reyes
+    Polanco"'
+- claim: The node has endorsed five data publishers.
+  url: https://api.gbif.org/v1/node/62869b60-d122-4125-bdbf-47d14cc0a0bf/organization
+  fetched: 2026-11-09
+  quote: '"endOfRecords":true,"count":5'
+- claim: GBIF's record shows Grupo Jaragua as a publisher endorsed by the Dominican node.
+  url: https://api.gbif.org/v1/node/62869b60-d122-4125-bdbf-47d14cc0a0bf/organization
+  fetched: 2026-11-09
+  quote: '"endorsingNodeKey":"62869b60-d122-4125-bdbf-47d14cc0a0bf","endorsementApproved":true,"endorsementStatus":"ENDORSED","title":"Grupo
+    Jaragua"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/DO
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/DO
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

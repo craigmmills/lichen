@@ -1,0 +1,41 @@
+id: junta-de-andalucia
+kind: organisation
+name: Junta de Andalucía
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: regional
+status: active
+summary: Andalusia's regional government. Its environmental portal publishes the REDIAM environmental
+  information network, and it forms the Sierra Nevada Global Change Observatory with the University
+  of Granada.
+facts:
+- claim: Its portal carries the Andalusian Environmental Information Network.
+  url: https://www.juntadeandalucia.es/medioambiente/portal/acceso-rediam
+  quote: Red de Información Ambiental de Andalucía - Portal Ambiental de Andalucía
+  fetched: '2026-10-31'
+- claim: Its sustainability and environment department is named on the portal.
+  url: https://www.juntadeandalucia.es/medioambiente/portal/acceso-rediam
+  quote: Consejería de Sostenibilidad y Medio Ambiente
+  fetched: '2026-10-31'
+- claim: Its Regional Ministry for the Environment is named on REDIAM's GBIF publisher record.
+  url: https://api.gbif.org/v1/organization/799acb53-2764-4e89-9792-5fdb6f7d7d29
+  fetched: '2026-10-31'
+  quote: Environmental Information Network of Andalusia (REDIAM)
+found_by:
+- checklist:1
+- link-from:lifewatch-eric
+scope: es
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- Regional Government of Andalusia

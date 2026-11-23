@@ -1,0 +1,71 @@
+id: icomp-ai-research-group-ufam
+kind: organisation
+name: IComp AI Research Group, Federal University of Amazonas
+also_known_as:
+- LAPIAM
+- Amazon Research Lab
+scope: br
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-reinforcement
+- multimodal
+- large-language-models
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+hq: br
+scale: regional
+website: https://lapiam.github.io/
+status: active
+summary: Research group at the Federal University of Amazonas applying AI to biodiversity
+  conservation and environmental monitoring in the Amazon, with work on camera traps, bioacoustics
+  and multimodal models.
+facts:
+- claim: Applies AI to ecological, environmental and social challenges, especially in the
+    Amazon rainforest.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: dedicated to leveraging cutting-edge Artificial Intelligence technologies to tackle
+    ecological, environmental, and social challenges
+- claim: ARTES uses reinforcement learning for autonomous navigation of an aerostat.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: utilizing reinforcement learning for autonomous navigation
+  ai_type: ml-reinforcement
+- claim: EcoLMM uses large language models on audio and visual inputs.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: Multimodal biodiversity monitoring using Large Language Models (LLMs)
+  ai_type: multimodal
+- claim: EcoLMM uses large language models.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: using Large Language Models (LLMs) to analyze diverse data types
+  ai_type: large-language-models
+- claim: The federal company register, as shown on cnpj-api.com, lists the Federal University
+    of Amazonas, which hosts the group, in Manaus.
+  url: https://cnpj-api.com/en/cnpj/04378626000197
+  quote: Street Address AVENIDA GEN RODRIGO OCTAVIO J R 3000 Neighborhood ALEIXO Zip Code
+    69077-000 City / State MANAUS / AM
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: ecolmm
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: 'EcoLMM: Multimodal biodiversity monitoring'
+- type: runs
+  to: artes-aerostat
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: 'ARTES: AI-controlled Aerostat for large-scale environmental monitoring of the Amazon'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

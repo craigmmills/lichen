@@ -1,0 +1,38 @@
+id: giz-whisp-chatbot
+kind: project
+name: GIZ chatbot for Open Foris Whisp
+also_known_as: []
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+countries: []
+summary: Chatbot developed by GIZ that connects directly to Open Foris Whisp, according
+  to an FAO blog on AI in forest monitoring.
+facts:
+- claim: FAO says GIZ has developed a chatbot connected to Open Foris Whisp.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: has developed a chatbot that connects directly to Open Foris Whisp services
+    through a conversational
+links:
+- type: run-by
+  to: deutsche-gesellschaft-fur-internationale-zusammenarbeit
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: The German Agency for International Cooperation (GIZ), for example, has developed
+    a chatbot
+- type: uses
+  to: whisp
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: has developed a chatbot that connects directly to Open Foris Whisp services
+    through a conversational
+found_by:
+- link-from:whisp
+- link-from:queue-de
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,45 @@
+id: pakistan-climate-sentinel
+kind: programme
+name: Pakistan Climate Sentinel
+also_known_as:
+- PCS
+scope: pk
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: active
+website: https://pakistanclimatesentinel.com/
+summary: Active tool led by Muhammad Hashir Suleman that retrieves Google Earth Engine imagery
+  for a chosen area and runs flood or deforestation models, saying outputs are not official
+  warnings.
+facts:
+- claim: Offers deforestation monitoring from 2018 onward using XGBoost.
+  url: https://pakistanclimatesentinel.com/
+  fetched: 2026-11-03
+  quote: Deforestation monitoring from 2018 onward with XGBoost and transparent fallbacks
+  ai_type: ml-supervised
+- claim: Retrieves Google Earth Engine imagery for a chosen area and runs flood or deforestation
+    models.
+  url: https://pakistanclimatesentinel.com/
+  fetched: 2026-11-03
+  quote: Earth Engine imagery or features for the chosen dates or years, run flood or deforestation
+- claim: Says its outputs support research and planning and are not official warnings.
+  url: https://pakistanclimatesentinel.com/
+  fetched: 2026-11-03
+  quote: Outputs support research and planning and are not official
+links:
+- type: uses
+  to: google-earth-engine
+  url: https://pakistanclimatesentinel.com/
+  fetched: 2026-11-03
+  quote: Earth Engine imagery or features for the chosen dates or years
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-03

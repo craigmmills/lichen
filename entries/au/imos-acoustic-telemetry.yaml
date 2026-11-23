@@ -1,0 +1,45 @@
+id: imos-acoustic-telemetry
+kind: programme
+name: IMOS Acoustic Telemetry
+scope: au
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+countries:
+- au
+status: active
+summary: Programme run by the Integrated Marine Observing System that uses acoustic
+  receivers around Australia, in 14 arrays, to detect and track tagged animals, with
+  detections held in the Animal Tracking Database.
+facts:
+- claim: Uses a network of acoustic receivers around Australia to detect and track
+    tagged animals.
+  url: https://imos.org.au/acoustictelemetry.html
+  quote: Acoustic Telemetry uses a large network of strategically located acoustic
+    receivers in waters around Australia to detect and track tagged animals.
+  fetched: '2026-11-08'
+- claim: The national receiver network has 14 arrays.
+  url: https://imos.org.au/acoustictelemetry.html
+  quote: The IMOS national receiver network consists of 14 arrays deployed in collaboration
+    with several partner organisations.
+  fetched: '2026-11-08'
+- claim: The Animal Tracking Database is a central repository of acoustic tag detections
+    and metadata from Australia.
+  url: https://imos.org.au/acoustictelemetry.html
+  quote: the Animal Tracking Database provides a central repository of acoustic tag
+    detections and metadata from Australia
+  fetched: '2026-11-08'
+links:
+- type: run-by
+  to: integrated-marine-observing-system
+  url: https://imos.org.au/acoustictelemetry.html
+  quote: The IMOS national receiver network consists of 14 arrays
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'
+also_known_as:
+- Australian Animal Acoustic Telemetry Database

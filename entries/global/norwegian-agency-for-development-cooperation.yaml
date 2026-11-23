@@ -1,0 +1,47 @@
+id: norwegian-agency-for-development-cooperation
+kind: organisation
+name: Norwegian Agency for Development Cooperation
+also_known_as:
+- Norad
+scope: global
+sector: government
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- land
+hq: 'no'
+scale: global
+status: active
+website: https://www.norad.no
+summary: Norwegian aid agency that manages the civil society call under Norway's International
+  Climate and Forest Initiative for the Ministry of Climate and Environment.
+facts:
+- claim: Publishes the call for NICFI civil society funding.
+  url: https://www.norad.no/en/for-partners/guides-and-tools/calls-for-proposals2/norways-international-climate-and-forest-initiative-nicfi--civil-society/
+  quote: Norway’s International Climate and Forest Initiative (NICFI) Civil Society - Stage
+    2 (by invitation only) | Norad.no
+  fetched: &id001 2026-10-30
+- claim: Manages the NICFI civil society call on behalf of the Ministry of Climate and Environment.
+  url: https://www.norad.no/en/for-partners/guides-and-tools/calls-for-proposals2/norways-international-climate-and-forest-initiative-nicfi--civil-society/
+  fetched: 2026-10-30
+  quote: Norad manages the call on behalf of the Ministry of Climate
+- claim: Wikipedia says it is a directorate under the Norwegian Ministry of Foreign Affairs.
+  url: https://en.wikipedia.org/wiki/Norwegian_Agency_for_Development_Cooperation
+  quote: is a directorate under the Norwegian Ministry of Foreign Affairs
+  fetched: '2026-10-30'
+- claim: The Stockholm Environment Institute says Norad manages the NICFI grant for Trase.
+  url: https://www.sei.org/tools/trase/
+  quote: The grant from NICFI, managed by Norad
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: norways-international-climate-and-forest-initiative
+  url: https://www.norad.no/en/for-partners/guides-and-tools/calls-for-proposals2/norways-international-climate-and-forest-initiative-nicfi--civil-society/
+  quote: Norway’s International Climate and Forest Initiative (NICFI) Civil Society - Stage
+    2 (by invitation only) | Norad.no
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

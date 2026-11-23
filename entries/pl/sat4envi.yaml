@@ -1,0 +1,70 @@
+id: sat4envi
+kind: project
+name: Sat4Envi
+scope: pl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- pl
+status: closed
+website: https://sat4envi.imgw.pl
+runner: unknown
+summary: Completed project led by the Institute of Meteorology and Water Management with Polish partners,
+  creating Sentinel data infrastructure to support access to Copernicus and other satellite data.
+facts:
+- claim: The project created infrastructure for automatically downloading, storing and sharing Sentinel
+    data. Cyfronet lists it as completed.
+  url: https://www.cyfronet.pl/en/projects/national-projects/sat4envi
+  fetched: '2026-11-02'
+  quote: The project created an infrastructure for automatically downloading data directly from satellites
+- claim: Its main aim was to make Copernicus data and data from other environmental and meteorological
+    satellites available.
+  url: https://sat4envi.imgw.pl/wp-content/uploads/2019/02/2018-09-13-imgw-ulotka-zatwierdzona.pdf
+  fetched: '2026-11-02'
+  quote: Celem głównym projektu Sat4Envi jest udostępnienie satelitarnych danych programu Copernicus
+- claim: The main goal is to make Copernicus and other environmental and meteorological satellite data
+    available.
+  url: https://sat4envi.imgw.pl/?page_id=39
+  fetched: '2026-11-02'
+  quote: Celem głównym projektu Sat4Envi jest udostępnienie satelitarnych danych programu Copernicus oraz
+    danych pochodzących z innych satelitów środowiskowych i meteorologicznych.
+links:
+- type: run-by
+  to: institute-of-meteorology-and-water-management-poland
+  url: https://sat4envi.imgw.pl/wp-content/uploads/2019/02/2018-09-13-imgw-ulotka-zatwierdzona.pdf
+  fetched: '2026-11-02'
+  quote: Beneficjent projektu, którego głównym zadaniem jest udostępnienie
+- type: run-by
+  to: academic-computer-centre-cyfronet-agh
+  url: https://sat4envi.imgw.pl/wp-content/uploads/2019/02/2018-09-13-imgw-ulotka-zatwierdzona.pdf
+  fetched: '2026-11-02'
+  quote: Akademickie Centrum Komputerowe Cyfronet AGH pełni w projekcie podwójną
+- type: run-by
+  to: space-research-centre-polish-academy-of-sciences
+  url: https://sat4envi.imgw.pl/wp-content/uploads/2019/02/2018-09-13-imgw-ulotka-zatwierdzona.pdf
+  fetched: '2026-11-02'
+  quote: W ramach projektu Centrum Informacji Kryzysowej CBK PAN jest
+- type: led-by
+  to: chief-inspectorate-of-environmental-protection-poland
+  url: https://sat4envi.imgw.pl/?page_id=39
+  fetched: '2026-11-02'
+  quote: Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy (Beneficjent – Lider)
+- type: partners-with
+  to: space-research-centre-polish-academy-of-sciences
+  url: https://sat4envi.imgw.pl/?page_id=39
+  fetched: '2026-11-02'
+  quote: Centrum Badań Kosmicznych Polskiej Akademii Nauk (Partner)
+- type: partners-with
+  to: polish-space-agency
+  url: https://sat4envi.imgw.pl/?page_id=39
+  fetched: '2026-11-02'
+  quote: Polska Agencja Kosmiczna (Partner)
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

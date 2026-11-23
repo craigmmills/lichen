@@ -1,0 +1,39 @@
+id: queen-mary-university-of-london
+kind: organisation
+name: Queen Mary University of London
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on deep learning for tree species classification, and home
+  of the Machine Listening Lab, which hosted a visit on machine learning for acoustic bird
+  monitoring data.
+facts:
+- claim: 'OpenAlex lists authors at Queen Mary University of London on this work: Tree species
+    classification from complex laser scanning data in Mediterranean forests using deep learning'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Tree species classification from complex laser scanning data in Mediterranean forests
+    using deep learning
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.qmul.ac.uk/
+  quote: London E1 4NS
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+- link-from:uk-research-and-innovation
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.qmul.ac.uk/

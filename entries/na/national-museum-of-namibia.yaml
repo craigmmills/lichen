@@ -1,0 +1,64 @@
+id: national-museum-of-namibia
+kind: organisation
+name: National Museum of Namibia
+scope: na
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: na
+countries:
+- na
+scale: national
+status: active
+summary: Museum whose natural science collections are, per its GBIF record, the official national reference
+  collections for most Namibian fauna, and which publishes amphibian, entomology and scorpion datasets
+  to GBIF.
+facts:
+- claim: Its GBIF publisher record says its natural science collections are the official national reference
+    collections for most Namibian fauna.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952
+  fetched: '2026-11-08'
+  quote: which are the official national reference collections for most Namibian fauna
+- claim: Its GBIF publisher record gives an address on Robert Mugabe Avenue, Windhoek.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952
+  fetched: '2026-11-08'
+  quote: '"address":["Robert Mugabe Ave"],"city":"Windhoek"'
+- claim: Publishes amphibian, entomology and scorpion collection datasets to GBIF under CC BY 4.0.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952/publishedDataset
+  fetched: '2026-11-08'
+  quote: National Museum of Namibia Scorpiones Collection Data 2022
+- claim: Its GBIF publisher record says its natural sciences collections are the official national reference
+    collections for most Namibian fauna.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952
+  fetched: 2026-11-08
+  quote: which are the official national reference collections for most Namibian fauna.
+- claim: Its GBIF publisher record says it maintains and adds to collections of mammals, birds, amphibians,
+    reptiles, fish, insects and other invertebrates.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952
+  fetched: 2026-11-08
+  quote: The museum maintains and actively adds to its mammal, bird, amphibian, reptile, fish, insect,
+    arachnid, myriapod, and marine/freshwater invertebrate collections
+- claim: A comment dated 14 February 2022 in its GBIF publisher record says it expected to publish verified
+    species occurrence records based on specimens in or previously in its collection.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952
+  fetched: 2026-11-08
+  quote: Verified species occurrence records based on specimens in the collection or previously in the
+    collection.
+- claim: In a 27 February 2026 post, the Namibia Nature Foundation reports that a museum field expedition
+    to Warmbad collected specimens and biodiversity data for conservation planning in the Gariep Centre
+    of Endemism.
+  url: http://nnf.org.na
+  fetched: 2026-11-08
+  quote: The National Museum of Namibia’s recent Warmbad field expedition strengthens conservation planning
+    in the Gariep Centre of Endemism by collecting vital specimens and biodiversity data
+links: []
+found_by:
+- link-from:queue-na
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

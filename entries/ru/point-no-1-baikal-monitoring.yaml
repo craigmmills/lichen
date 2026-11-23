@@ -1,0 +1,103 @@
+id: point-no-1-baikal-monitoring
+kind: project
+name: Point No. 1
+scope: ru
+also_known_as:
+- Точка №1
+- Точка № 1
+- Point No. 1 Baikal plankton monitoring
+ai_label: ai
+realms:
+- freshwater
+countries:
+- ru
+status: active
+summary: Baikal monitoring project run continuously since 1945 with more than 5 million
+  records, in which Yandex says a system processed over 250,000 images from 811 samples
+  with 87% zooplankton detection accuracy.
+facts:
+- claim: Has run continuously since 1945.
+  url: https://www.interfax.ru/russia/773314
+  quote: который непрерывно реализуется с 1945 года
+  fetched: '2026-10-31'
+- claim: More than 5 million records.
+  url: https://www.interfax.ru/russia/773314
+  quote: За эти годы накоплено более 5 млн записей
+  fetched: '2026-10-31'
+- claim: Yandex says the project has monitored Baikal since 1945.
+  url: https://ir.yandex.ru/press-releases?id=21-07-2026-01&year=2026
+  fetched: 2026-10-31
+  quote: проекта «Точка № 1», который ведёт экологический мониторинг Байкала с 1945
+    года
+- claim: Yandex says the system has processed more than 250,000 images from 811 samples,
+    with zooplankton detection accuracy of 87%.
+  url: https://ir.yandex.ru/press-releases?id=21-07-2026-01&year=2026
+  fetched: 2026-10-31
+  quote: За это время система обработала более 250 тыс. изображений из 811 проб. Точность
+    обнаружения зоопланктона достигла 87%
+- claim: Yandex Cloud says the method uses YOLO V11 for detection and vision transformers
+    for classification.
+  url: https://yandex.cloud/ru/blog/baikal-monitoring-update-2026
+  fetched: 2026-10-31
+  quote: обнаружение объектов (с использованием алгоритма YOLO V11), классификация
+    объектов (с применением визуальных трансформеров и метрического обучения)
+  ai_type: deep-learning
+- claim: Yandex Cloud gives the project name and start date.
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  fetched: '2026-10-31'
+  quote: Изначально нейросеть разрабатывалась для проекта «Точка № 1», который длится с 1945
+    года.
+- claim: Yandex Cloud calls it the longest plankton monitoring project.
+  url: https://yandex.cloud/ru/special/baikal/
+  fetched: '2026-10-31'
+  quote: Это самый длительный проект экологического мониторинга планктона в истории науки.
+links:
+- type: run-by
+  to: institute-of-biology-irkutsk-state-university
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  quote: Учёные НИИ биологии Иркутского государственного университета более 75 лет
+    анализируют фито- и зоопланктон Байкала для мониторинга состояния озера вручную.
+  fetched: '2026-10-31'
+- type: funded-by
+  to: lake-baikal-foundation
+  url: https://www.interfax.ru/russia/773314
+  quote: В настоящее время проект финансирует Фонд поддержки прикладных экологических
+    разработок и исследований "Озеро Байкал".
+  fetched: '2026-10-31'
+- type: run-by
+  to: institute-of-biology-irkutsk-state-university
+  url: https://baikalfoundation.ru/ourwork/sokhranenie-vodnykh-resursov/tochka-1/
+  fetched: 2026-10-31
+  quote: один из ключевых проектов НИИ биологии озера Байкал — программу долговременного
+    экологического мониторинга озера Байкал «Точка №1»
+- type: uses
+  to: yandex-cloud
+  url: https://ir.yandex.ru/press-releases?id=21-07-2026-01&year=2026
+  fetched: 2026-10-31
+  quote: Система работает на мощностях Yandex Cloud
+- type: funded-by
+  to: lake-baikal-foundation
+  url: https://baikalfoundation.ru/ourwork/sokhranenie-vodnykh-resursov/tochka-1/
+  fetched: 2026-10-31
+  quote: Частный фонд продолжит финансирование проекта мониторинга Байкала
+- type: run-by
+  to: institute-of-biology-irkutsk-state-university
+  url: https://yandex.cloud/ru/special/baikal/
+  fetched: '2026-10-31'
+  quote: С 1945 года ученые НИИ биологии Иркутского университета следят за состоянием фито-
+    и зоопланктона озера Байкал.
+- type: uses
+  to: baikal-plankton-neural-network
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  fetched: '2026-10-31'
+  quote: Нейросеть помогла автоматизировать и ускорить весь цикл исследований.
+found_by:
+- checklist:2
+- checklist:7
+- link-from:yandex-cloud
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+ai_types:
+- deep-learning

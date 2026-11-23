@@ -1,0 +1,42 @@
+id: ahsanullah-university-of-science-and-technology
+kind: organisation
+name: Ahsanullah University of Science and Technology
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+techniques:
+- edna-genomics
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Dhaka university whose computer science and engineering department had a researcher
+  lead a 2019 paper on identifying species from DNA barcode sequences using supervised learning
+  methods.
+facts:
+- claim: A researcher in its Department of Computer Science and Engineering was first author
+    of a 2019 paper on species identification from DNA barcode sequences with supervised learning
+    methods.
+  url: https://api.openalex.org/works/W2938496417?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Species Identification using DNA Barcode Sequences through Supervised Learning Methods
+- claim: OpenAlex gives the first author's affiliation as the Department of Computer Science
+    and Engineering, Ahsanullah University of Science & Technology, Dhaka.
+  url: https://api.openalex.org/works/W2938496417?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Department of Computer Science and Engineering, Ahsanullah University of Science
+    & Technology, Dhaka, Bangladesh
+- claim: The paper's title names the method (ml-supervised).
+  url: https://api.openalex.org/works/W2938496417?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Species Identification using DNA Barcode Sequences through Supervised Learning Methods
+  ai_type: ml-supervised
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-07'

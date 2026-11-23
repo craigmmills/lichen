@@ -1,0 +1,65 @@
+id: wild-salmon-center
+kind: organisation
+name: Wild Salmon Center
+scope: us
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+- ocean
+techniques:
+- computer-vision
+hq: us
+scale: regional
+website: https://wildsalmoncenter.org
+countries:
+- us
+status: active
+summary: Portland-based NGO protecting salmon rivers across the North Pacific. It developed
+  Salmon Vision, a deep learning model that counts fish at weirs, with First Nations and other
+  partners.
+facts:
+- claim: Mailing address in Portland, Oregon.
+  url: https://wildsalmoncenter.org/about/
+  fetched: '2026-10-30'
+  quote: Portland, OR 97296
+- claim: NFWF grantee training AI on Chignik River weir video in Alaska.
+  url: https://www.nfwf.org/sites/default/files/2025-07/nfwf-emr-20250714-gs.pdf
+  fetched: '2026-10-30'
+  quote: Designing Computer-vision Artificial Intelligence Systems
+- claim: Salmon Vision is a computer deep learning model.
+  ai_type: deep-learning
+  url: https://wildsalmoncenter.org/2023/10/18/artificial-intelligence-meet-indigenous-fishing-technology/
+  fetched: '2026-10-30'
+  quote: the Salmon Vision computer deep learning model
+- claim: Lists a Portland, Oregon address.
+  url: https://wildsalmoncenter.org/2023/10/17/heart-of-steel-part-iii/
+  quote: Portland, OR 97296
+  fetched: '2026-10-30'
+- claim: Salmon Vision names it as a partner developing AI tools for automated salmon counting.
+  url: https://salmonvision.org/about/
+  quote: Salmon Vision is a collaborative effort by the Pacific Salmon Foundation, Wild Salmon
+    Center, Simon Fraser University computing sciences, and Lumax Ecological Analytics
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: salmon-vision
+  url: https://wildsalmoncenter.org/2023/10/18/artificial-intelligence-meet-indigenous-fishing-technology/
+  fetched: '2026-10-30'
+  quote: With First Nations and other key partners, Wild Salmon Center launches “Salmon Vision”
+    to track fish returns in real-time.
+- type: funded-by
+  to: national-fish-and-wildlife-foundation
+  url: https://www.nfwf.org/sites/default/files/2025-07/nfwf-emr-20250714-gs.pdf
+  fetched: '2026-10-30'
+  quote: 'Grantee: Wild Salmon Center'
+found_by:
+- link-from:walton-family-foundation
+- checklist:4
+added_by: agent
+checked: '2026-10-30'

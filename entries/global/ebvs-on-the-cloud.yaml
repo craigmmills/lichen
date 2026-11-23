@@ -1,0 +1,34 @@
+id: ebvs-on-the-cloud
+kind: programme
+name: EBVs on the Cloud
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: unknown
+summary: Grant programme from Microsoft's AI for Earth and GEO BON, announced in 2020, for projects that produce cloud-based biodiversity data, with free software from Esri.
+facts:
+- claim: A grant programme from Microsoft and GEO BON; Esri made its software available to recipients.
+  url: https://www.esri.com/about/newsroom/announcements/esri-donates-free-software-to-geo-bon-grant-recipients
+  fetched: &id001 2026-10-30
+  quote: recipients of EBVs on the Cloud, a grant program from Microsoft and the Group on Earth Observations Biodiversity Observation Network ( GEO BON )
+links:
+- type: run-by
+  to: ai-for-earth
+  url: https://www.esri.com/about/newsroom/announcements/esri-donates-free-software-to-geo-bon-grant-recipients
+  fetched: *id001
+  quote: "Microsoft’s AI for Earth program and the GEO BON Secretariat are launching a new $1 million grant program to support projects that strengthen monitoring of Earth’s biodiversity."
+- type: partners-with
+  to: geo-bon
+  url: https://www.esri.com/about/newsroom/announcements/esri-donates-free-software-to-geo-bon-grant-recipients
+  fetched: *id001
+  quote: "EBVs on the Cloud, a grant program from Microsoft and the Group on Earth Observations Biodiversity Observation Network ( GEO BON )."
+- type: partners-with
+  to: esri
+  url: https://www.esri.com/about/newsroom/announcements/esri-donates-free-software-to-geo-bon-grant-recipients
+  fetched: *id001
+  quote: it will be making its software available to recipients of EBVs on the Cloud
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

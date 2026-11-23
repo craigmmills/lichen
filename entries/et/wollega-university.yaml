@@ -1,0 +1,37 @@
+id: wollega-university
+kind: organisation
+name: Wollega University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+summary: University with a listed 2026 paper, by first author Gedefa Adugna Tamene, using
+  machine learning to predict forest cover change and carbon stock under the Green Legacy
+  Initiative.
+facts:
+- claim: OpenAlex lists a 2026 paper on machine learning to predict forest cover change and
+    carbon stock under the Green Legacy Initiative.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=7
+  fetched: '2026-11-08'
+  quote: Integration of machine learning and geospatial technologies for predicting forest
+    cover change and carbon stock under Ethiopian Green Legacy Initiative
+- claim: OpenAlex lists Gedefa Adugna Tamene, first author of that paper, at Wollega University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=7
+  fetched: '2026-11-08'
+  quote: '"display_name": "Gedefa Adugna Tamene", "orcid": "https://orcid.org/0009-0001-4228-5089",
+    "observed_orcids": ["https://orcid.org/0009-0001-4228-5089"]}, "institutions": [{"id":
+    "https://openalex.org/I301615471", "display_name": "Wollega University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

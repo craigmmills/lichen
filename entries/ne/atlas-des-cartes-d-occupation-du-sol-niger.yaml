@@ -1,0 +1,38 @@
+id: atlas-des-cartes-d-occupation-du-sol-niger
+kind: dataset
+name: Atlas des cartes d'occupation du sol (Niger)
+also_known_as:
+- Atlas d'occupation des sols du Niger
+scope: ne
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ne
+status: unknown
+runner: unknown
+summary: Land cover atlas of 354 pages dated 2015, built by the CNSEE and cited in
+  Niger's national inventory report, which says it used the atlas statistics to readjust
+  Collect Earth area estimates from satellite images.
+facts:
+- claim: Niger's national inventory report on the UNFCCC site cites a 354-page land
+    cover atlas by the CNSEE dated 2015.
+  url: https://unfccc.int/sites/default/files/resource/NIR_NIGER_BTR_2024.pdf
+  fetched: '2026-11-15'
+  quote: 26. CNSEE, 2015. Atlas des cartes d’occupation du sol, 354p.
+- claim: The report says areas estimated from satellite images with Collect Earth
+    were readjusted with the atlas's statistics.
+  url: https://unfccc.int/sites/default/files/resource/NIR_NIGER_BTR_2024.pdf
+  fetched: '2026-11-15'
+  quote: satellitaires avec Collect Earth. Elle est réajustée avec les statistiques
+    de l ’Atlas
+links:
+- type: built-by
+  to: centre-national-de-surveillance-ecologique-et-environnementale
+  url: https://unfccc.int/sites/default/files/resource/NIR_NIGER_BTR_2024.pdf
+  fetched: '2026-11-15'
+  quote: d’occupation des sols réalisé par le CNSEE en 2015
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

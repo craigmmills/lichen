@@ -1,0 +1,33 @@
+id: ami-trap-monitoring-in-nature-national-parks
+kind: project
+name: AMI trap monitoring in nature national parks
+scope: dk
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- dk
+status: proposed
+summary: Proposed project, run by the Danish Centre for Environment and Energy, providing for two AMI
+  traps in each nature national park, though the trap concept is still development work.
+facts:
+- claim: The note provides for two AMI traps in each nature national park.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: &id001 2026-11-02
+  quote: Der opsættes to AMI-fælder i hver NNP.
+- claim: The note says the AMI trap concept is still development work.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: AMI-fælde-konceptet er et udviklingsarbejde
+links:
+- type: run-by
+  to: danish-centre-for-environment-and-energy
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: for en pakkeløsning, hvor DCE sørger for opstilling og nedtagning af fælder,
+found_by:
+- link-from:danish-centre-for-environment-and-energy
+added_by: agent
+checked: *id001

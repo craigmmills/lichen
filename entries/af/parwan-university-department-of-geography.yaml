@@ -1,0 +1,38 @@
+id: parwan-university-department-of-geography
+kind: organisation
+name: Department of Geography, Parwan University
+also_known_as: []
+scope: af
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: local
+status: unknown
+summary: A university department whose affiliated first author appears on a 2024 paper,
+  recorded in OpenAlex, assessing vegetation in Yakawalang against precipitation using
+  satellite data and remote sensing.
+facts:
+- claim: OpenAlex records a 2024 paper assessing vegetation in Yakawalang against
+    precipitation using satellite data and remote sensing.
+  url: https://api.openalex.org/works/W4402963861?select=title,publication_year,authorships,keywords
+  fetched: 2026-11-13
+  quote: '"title":"Assessing Precipitation Impact on Vegetation Using Satellite Data
+    and Remote Sensing Techniques: A Case Study of Yakawalang-Afghanistan","publication_year":2024'
+- claim: OpenAlex lists the first author of the 2024 paper, Sayed Jawad Hedayat, with
+    an affiliation to the Department of Geography, Parwan University.
+  url: https://api.openalex.org/works/W4402963861?select=title,publication_year,authorships,keywords
+  fetched: 2026-11-13
+  quote: '"raw_author_name":"Sayed Jawad Hedayat","raw_affiliation_strings":["Parwan
+    University, Department of Geography, Afghanistan"]'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

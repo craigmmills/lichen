@@ -1,0 +1,54 @@
+id: danbif
+kind: programme
+name: DanBIF
+also_known_as:
+- Danish Biodiversity Information Facility
+- DanBIF
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- dk
+scale: national
+status: active
+summary: Denmark's GBIF participant node, listed for a voting country, which is named as endorsing
+  the Lepidopterological Society as a data publisher.
+facts:
+- claim: GBIF lists DanBIF as the node for Denmark, a voting country participant.
+  url: https://api.gbif.org/v1/node/4ddd294f-02b7-4359-ac33-0806a9ca9c6b
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF gives its title.
+  url: https://api.gbif.org/v1/node/4ddd294f-02b7-4359-ac33-0806a9ca9c6b
+  fetched: '2026-11-02'
+  quote: DanBIF - Danish Biodiversity Information Facility
+- claim: Named as the body endorsing the Lepidopterological Society as a GBIF data publisher.
+  url: https://danbif.au.dk/ipt/resource?r=bugbase
+  fetched: &id001 2026-11-02
+  quote: is itself registered in GBIF as a data publisher endorsed by DanBIF - Danish Biodiversity
+    Information Facility
+- claim: GBIF's registry lists a node manager and data curator as its administrative contact.
+  url: https://api.gbif.org/v1/organization/299958e0-4c06-11d8-b290-b8a03c50a862
+  fetched: *id001
+  quote: Node manager & Data Curator
+- claim: Took part in developing Arter.
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Udviklingen af Arter er sket som et samarbejde mellem Statens Naturhistoriske Museum,
+    Miljøstyrelsen, Naturhistorisk Museum Aarhus og DanBIF.
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/4ddd294f-02b7-4359-ac33-0806a9ca9c6b
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

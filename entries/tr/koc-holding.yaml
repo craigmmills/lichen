@@ -1,0 +1,45 @@
+id: koc-holding
+kind: organisation
+name: Koç Holding
+scope: tr
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- tr
+scale: global
+status: active
+summary: Conglomerate leading FireAId, whose chief executive said in January 2023 it was ready
+  to share the forest fire prediction algorithm and source code free of charge.
+facts:
+- claim: Its chief executive said the Koç Group operates in 61 countries.
+  url: https://www.forbes.com.tr/yapay-zeka/koc-holding-in-yangin-tahmin-projesi-akdeniz-e-ornek-oldu
+  fetched: 2026-11-03
+  quote: Koç Topluluğu’nun 61 ülkede faaliyet gösterdiğini
+- claim: Developed the AI-supported forest fire prediction model FireAId.
+  url: https://www.forbes.com.tr/yapay-zeka/koc-holding-in-yangin-tahmin-projesi-akdeniz-e-ornek-oldu
+  fetched: 2026-11-03
+  quote: Koç Holding’in orman yangınlarına karşı geliştirdiği yapay zeka destekli tahmin modeli
+    FireAId’i tanıttı.
+- claim: Its chief executive said in January 2023 that Koç Holding was ready to share the
+    algorithm and source code used in FireAId without charge and that FireAId was not a commercial
+    project.
+  url: https://www.koc.com.tr/medya-merkezi/haberler/2023/koc-holding-orman-yanginlariyla-mucadele-projesiyle-davos-zirvesine-damga-vurdu
+  fetched: 2026-11-03
+  quote: FireAId ticari bir proje değil; kullandığımız algoritma ve kaynak kodlarını bir karşılık
+    beklemeden iş birliği içinde paylaşmaya hazırız.
+links:
+- type: leads
+  to: fireaid
+  url: https://www.koc.com.tr/medya-merkezi/haberler/2023/koc-holding-orman-yanginlariyla-mucadele-projesiyle-davos-zirvesine-damga-vurdu
+  fetched: 2026-11-03
+  quote: Koç Holding’in öncülük ettiği “FireAId” projesi
+found_by:
+- checklist:5
+- link-from:fireaid
+added_by: agent
+checked: 2026-11-03

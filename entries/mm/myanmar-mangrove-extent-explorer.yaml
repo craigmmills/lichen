@@ -1,0 +1,52 @@
+id: myanmar-mangrove-extent-explorer
+kind: programme
+name: Myanmar Mangrove Extent Explorer
+also_known_as: []
+scope: mm
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- mm
+status: active
+runner: unknown
+summary: Tool mapping mangrove extent in all of Myanmar's mangrove regions for 2016 and 2021 and the change
+  between them, using supervised random forest, with maps to view and raster data to download.
+facts:
+- claim: Maps mangrove extent across all of Myanmar's mangrove regions for 2016 and 2021 and the change
+    between them.
+  url: https://un-redd.org/satellite-monitoring-system-myanmar-mangroves
+  fetched: 2026-11-12
+  quote: The extension of mangroves for the years 2016 and 2021 has been mapped for all the regions in
+    the country with mangrove presence, as well as the changes between both years.
+- claim: The maps were classified with a supervised random forest approach trained on global and national
+    datasets.
+  ai_type: ml-supervised
+  url: https://un-redd.org/satellite-monitoring-system-myanmar-mangroves
+  fetched: 2026-11-12
+  quote: a supervised classification approach based on Random Forest
+- claim: The explorer lets users view the maps and download the data as raster files.
+  url: https://un-redd.org/satellite-monitoring-system-myanmar-mangroves
+  fetched: 2026-11-12
+  quote: Data can be downloaded in raster (.tif) format.
+links:
+- type: builds-on
+  to: global-mangrove-watch
+  url: https://un-redd.org/satellite-monitoring-system-myanmar-mangroves
+  fetched: 2026-11-12
+  quote: These datasets included the Global Mangrove Watch of 2016 ( Bunting et al. 2018 )
+- type: uses
+  to: sepal
+  url: https://un-redd.org/satellite-monitoring-system-myanmar-mangroves
+  fetched: 2026-11-12
+  quote: Use of time series analysis with the CCDC algorithm in SEPAL and sampling data collection in
+    Collect Earth
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

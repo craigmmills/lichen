@@ -1,0 +1,50 @@
+id: dragonfly-nasa-forest-mapping-project
+kind: project
+name: Dragonfly and NASA forest mapping of Aotearoa
+scope: nz
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- nz
+status: active
+summary: A three-year, $1 million MBIE Catalyst Fund project with NASA to build a 3D forest map using
+  NISAR radar and a public, open-access forest monitoring tool.
+facts:
+- claim: A three-year, $1 million project awarded under MBIE's Catalyst Fund to build a 3D forest map
+    from NISAR synthetic aperture radar.
+  url: https://www.dragonfly.co.nz/news/2025-07-01-mapping-trees
+  fetched: 2026-11-07
+  quote: The three-year, $1-million project, awarded under the Catalyst Fund by the Ministry of Business,
+    Innovation & Employment
+- claim: Dragonfly says it is the first project to build a public, open-access forest monitoring tool
+    for all New Zealanders.
+  url: https://www.dragonfly.co.nz/news/2025-07-01-mapping-trees
+  fetched: 2026-11-07
+  quote: It is also the first project to build a public, open-access forest monitoring tool for all New
+    Zealanders.
+links:
+- type: uses
+  to: nisar
+  url: https://www.dragonfly.co.nz/news/2025-07-01-mapping-trees
+  fetched: 2026-11-07
+  quote: will use spaceborne NISAR (L-band and S-band synthetic aperture radar) technology
+- type: partners-with
+  to: nasa
+  url: https://www.dragonfly.co.nz/news/2025-07-01-mapping-trees
+  fetched: 2026-11-07
+  quote: Dragonfly Data Science and NASA are joining forces to map every single tree across Aotearoa
+- type: funded-by
+  to: catalyst-fund
+  url: https://www.dragonfly.co.nz/news/2025-07-01-mapping-trees
+  fetched: 2026-11-07
+  quote: awarded under the Catalyst Fund by the Ministry of Business, Innovation & Employment
+  amount: 1000000
+  currency: NZD
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-07
+runner: unknown

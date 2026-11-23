@@ -1,0 +1,39 @@
+id: al-azhar-university
+kind: organisation
+name: Al-Azhar University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.azhar.edu.eg
+summary: University listed by OpenAlex as the affiliation of Emad El-Aydi, first author of
+  a 2026 work on how many reefs and seasons a coral-bleaching model needs for the Red Sea.
+facts:
+- claim: 'OpenAlex lists the 2026 work Data and code for: How many reefs and seasons does
+    a calibrated coral-bleaching model need? A simulation-based adequacy analysis for the
+    Red Sea.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05fnp1145,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Data and code for: How many reefs and seasons does a calibrated
+    coral-bleaching model need? A simulation-based adequacy analysis for the Red Sea", "publication_year":
+    2026, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Emad El-Aydi, the affiliation Al-Azhar University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05fnp1145,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "El-Aydi, Emad", "raw_affiliation_strings": ["Al-Azhar University",
+    "General Organization for the Conservation of Coral Reefs and Turtles in the Red Sea (SHAMS)"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

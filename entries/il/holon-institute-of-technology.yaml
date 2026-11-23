@@ -1,0 +1,34 @@
+id: holon-institute-of-technology
+kind: organisation
+name: Holon Institute of Technology
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+ai_types:
+- ml-supervised
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: Active institute where an author led a 2022 paper correcting a bias in behavioural
+  time budgets based on supervised learning.
+facts:
+- claim: A 2022 paper led by a Holon author corrects a bias in behavioural time budgets based
+    on supervised learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03syp5w68|01539v588|024hcay96|04hwjfc40|00sfwx025|05dhprc49|004af2v94|02prqh017|002kenh51|011aa4g29|05tg57g61,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Correcting a bias in the computation of behavioural time budgets that are based on
+    supervised learning
+  ai_type: ml-supervised
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

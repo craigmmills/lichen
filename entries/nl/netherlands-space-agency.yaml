@@ -1,0 +1,64 @@
+id: netherlands-space-agency
+kind: organisation
+name: Netherlands Space Agency
+also_known_as:
+- NLSA
+sector: government
+roles:
+- governs
+- funds
+- supplies-data
+ai_label: data-infrastructure
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: The Dutch space agency, listed as a member of the Committee on Earth Observation
+  Satellites since 2011.
+facts:
+- claim: Listed by CEOS with the year 2011.
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: &id001 2026-10-31
+  quote: Netherlands Space Agency (NLSA) Netherlands 2011
+- claim: The Innovation Impact Challenge gives four consortia financial support for a feasibility
+    study in phase 1.
+  url: https://www.nlsa.nl/projecten/haalbaarheidsstudies-biodiversiteit-in-en-rond-water-monitoren-met-satellietdata/
+  fetched: '2026-10-31'
+  quote: In fase 1 krijgen vier consortia financiële steun om een haalbaarheidsstudie uit
+    te voeren.
+- claim: Four Dutch consortia studied mapping biodiversity around and under water with satellite
+    data.
+  url: https://www.nlsa.nl/projecten/haalbaarheidsstudies-biodiversiteit-in-en-rond-water-monitoren-met-satellietdata/
+  fetched: '2026-10-31'
+  quote: Vier Nederlandse consortia onderzochten de mogelijkheden in het kader van de Innovation
+    Impact Challenge.
+links:
+- type: partners-with
+  to: committee-on-earth-observation-satellites
+  url: https://ceos.org/about-ceos/agencies/
+  fetched: *id001
+  quote: Netherlands Space Agency (NLSA) Netherlands 2011
+- type: runs
+  to: satellietdataportaal
+  url: https://www.nlsa.nl/en/what-does-nlsa-do/endorse-the-use-of-satellite-data/satellite-dataportal/
+  fetched: '2026-10-31'
+  quote: The Satellite Data Portal is an initiative of the Netherlands Space Agency.
+- type: funds
+  to: terramira
+  url: https://www.nlsa.nl/projecten/haalbaarheidsstudies-biodiversiteit-in-en-rond-water-monitoren-met-satellietdata/
+  fetched: '2026-10-31'
+  quote: In fase 1 krijgen vier consortia financiële steun om een haalbaarheidsstudie uit
+    te voeren.
+found_by:
+- link-from:committee-on-earth-observation-satellites
+- checklist:1
+scope: nl
+added_by: agent
+checked: *id001
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing

@@ -1,0 +1,35 @@
+id: manchester-metropolitan-university
+kind: organisation
+name: Manchester Metropolitan University
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on deep learning for land use and land cover mapping.
+facts:
+- claim: 'OpenAlex lists authors at Manchester Metropolitan University on this work: Land
+    Use and Land Cover Mapping Using RapidEye Imagery Based on a Novel Band Attention Deep
+    Learning Method in the Three'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Land Use and Land Cover Mapping Using RapidEye Imagery Based on a Novel Band Attention
+    Deep Learning Method in the Three
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.mmu.ac.uk/
+  quote: M15 6BX
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.mmu.ac.uk/

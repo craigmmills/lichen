@@ -1,0 +1,61 @@
+id: copphil-benthic-habitat-classification-map
+kind: dataset
+name: CopPhil Benthic Habitat Classification Map
+scope: ph
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- ph
+status: active
+summary: A dataset of shallow coastal habitat classes, including coral reefs and seagrass beds, at 10-metre
+  resolution, combining Sentinel data with in situ observations from Filipino partners and built by CopPhil.
+facts:
+- claim: Identifies shallow coastal habitat classes including coral reefs, seagrass beds, sand and deep
+    water at 10-metre resolution.
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: The first product is the Benthic Habitat Classification Map , a mapping product which identifies
+    shallow coastal habitat classes, including coral reefs, seagrass beds, sand, and deep-water areas
+    at 10 m resolution.
+- claim: The service combines Sentinel data with in situ observations from Filipino partners.
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: CopPhil’s Benthic Habitat Monitoring Service combines Copernicus Sentinel satellite data with
+    in situ observations provided by Filipino partners to generate detailed and accurate coastal habitat
+    information.
+- claim: A second product, a satellite-derived bathymetry dataset, gives water depth for shallow waters
+    from 0 to 20 metres.
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: The second product is the Satellite-derived Bathymetry (SDB) dataset, which provides water depth
+    information for shallow coastal waters ranging from 0 to 20 m, also at 10 m resolution.
+links:
+- type: built-by
+  to: copphil
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: One of the services co-developed by CopPhil is the Benthic Habitat Monitoring Service
+- type: partners-with
+  to: philippine-space-agency
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: Key partnerships include cooperation with the Philippine Space Agency (PhilSA) on field data
+    collection activities
+- type: partners-with
+  to: national-mapping-and-resource-information-authority
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: the National Mapping and Resource Information Authority (NAMRIA) on providing bathymetry survey
+    data to improve coastal mapping accuracy
+- type: partners-with
+  to: university-of-the-philippines
+  url: https://copphil.philsa.gov.ph/blog/monitoring-benthic-habitats-across-the-philippines-with-copphil/
+  fetched: 2026-11-08
+  quote: the University of the Philippines on scientific and technical validation
+found_by:
+- link-from:copphil
+added_by: agent
+checked: 2026-11-08

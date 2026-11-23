@@ -1,0 +1,75 @@
+id: gbif-sweden
+kind: programme
+name: GBIF Sweden
+scope: se
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- se
+status: active
+summary: The self-described Swedish GBIF node, museum-hosted since 2003, supporting biodiversity
+  data publication and sharing and reporting the Insect Biome Atlas as Sweden's third-largest
+  GBIF contribution.
+facts:
+- claim: Supports institutions and researchers across Sweden in publishing and sharing biodiversity
+    data.
+  url: https://biodiversitydata.se/uploads/SBDI-Organizational-and-Technical-Overview.pdf
+  fetched: '2026-11-02'
+  quote: responsible for supporting institutions and researchers across Sweden in publishing
+    and sharing biodiversity data
+- claim: Says it is the Swedish participant node in GBIF.
+  url: https://www.gbif.se/
+  fetched: 2026-11-02
+  quote: GBIF Sweden is the Swedish participant node in the Global Biodiversity Information
+    Facility, GBIF .
+- claim: The Swedish Museum of Natural History has hosted the node since 2003.
+  url: https://www.gbif.se/gbif-sweden/
+  fetched: 2026-11-02
+  quote: The Swedish Museum of Natural History in Stockholm has hosted the Swedish participant
+    node since the Swedish GBIF node was established in 2003.
+- claim: Provider hosted at the Swedish Museum of Natural History.
+  url: https://api.gbif.org/v1/organization/4c415e40-1e21-11de-9e40-a0d6ecebb8bf
+  fetched: '2026-11-02'
+  quote: Provider hosted at the Swedish Museum of Natural History, Stockholm.
+- claim: Reports the Insect Biome Atlas as the third-largest contribution from Sweden to GBIF.
+  url: https://www.gbif.se/news/2025/groundbreaking-study-reveals-insect-diversity-in-sweden-and-madagascar-data-now-available-via-gbif/
+  fetched: '2026-11-02'
+  quote: the IBA datasets represent the third-largest contribution from Sweden to GBIF
+links:
+- type: run-by
+  to: swedish-biodiversity-data-infrastructure
+  url: https://biodiversitydata.se/uploads/SBDI-Organizational-and-Technical-Overview.pdf
+  fetched: '2026-11-02'
+  quote: 'SBDI operations are organized in five modules: 1) Management, 2) Communication and
+    User Support,
+
+    3) Data Mobilization and Interoperability, 4) Integrated Analysis Service and 5) International
+
+    Collaboration (GBIF Sweden)'
+- type: led-by
+  to: swedish-museum-of-natural-history
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: NRM is responsible for the core technical infrastructure and leads the Swedish node
+    of the Global Biodiversity Information Facility
+- type: funded-by
+  to: swedish-research-council
+  url: https://www.gbif.se/gbif-sweden/
+  fetched: 2026-11-02
+  quote: The Swedish GBIF Node is mainly funded by the Swedish Research Council
+- type: builds
+  to: gbif-gap-finder
+  url: https://www.gbif.se/news/2026/gbif-sweden-launches-gap-finder-turning-biodiversity-data-gaps-into-action/
+  fetched: 2026-11-02
+  quote: GBIF Sweden has officially launched the GBIF Gap Finder
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+roles:
+- supplies-data

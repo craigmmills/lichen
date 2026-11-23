@@ -1,0 +1,47 @@
+id: hala-bala-wildlife-research-station
+kind: organisation
+name: Hala-Bala Wildlife Research Station
+also_known_as:
+- Halabala Wildlife Research Station
+scope: th
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- th
+scale: local
+status: active
+summary: Research station that Panthera says has collaborated with Panthera Thailand
+  on ecological studies, and which authors of a 2026 leech eDNA metabarcoding paper
+  give as their affiliation.
+facts:
+- claim: Panthera says the station and Panthera Thailand have been collaborating on
+    ecological studies, and that the flat-headed cat photographs and data are results
+    of this ongoing research.
+  url: https://panthera.org/newsroom/endangered-flat-headed-cat-rediscovered-thailand-after-nearly-three-decades
+  fetched: 2026-11-13
+  quote: The Hala-Bala Wildlife Research Station and Panthera Thailand have been collaborating
+    on such ecological studies for some time, and the photographs and data recently
+    released represent results of this ongoing research.
+- claim: Authors of a 2026 leech eDNA metabarcoding paper give the station, in the
+    Wildlife Research Division of the Department of National Parks, Wildlife and Plant
+    Conservation, Narathiwat, as affiliation.
+  url: https://api.openalex.org/works?filter=doi:10.1002/edn3.70331&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Wildlife Research Division Halabala Wildlife Research Station  Narathiwat
+    Thailand
+links:
+- type: partners-with
+  to: panthera
+  url: https://panthera.org/newsroom/endangered-flat-headed-cat-rediscovered-thailand-after-nearly-three-decades
+  fetched: 2026-11-13
+  quote: The Hala-Bala Wildlife Research Station and Panthera Thailand have been collaborating
+    on such ecological studies for some time
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

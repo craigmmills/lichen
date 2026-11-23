@@ -1,0 +1,27 @@
+id: global-surface-water-explorer
+kind: dataset
+name: Global Surface Water Explorer
+scope: global
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://global-surface-water.appspot.com
+summary: Dataset from the European Commission's Joint Research Centre mapping the location and distribution of water surfaces worldwide over four decades from Landsat imagery.
+facts:
+- claim: Developed by the Joint Research Centre under Copernicus.
+  url: https://global-surface-water.appspot.com/
+  fetched: '2026-10-30'
+  quote: The European Commission's Joint Research Centre developed this water dataset in the framework of the Copernicus Programme.
+links:
+- type: run-by
+  to: joint-research-centre
+  url: https://global-surface-water.appspot.com/
+  fetched: '2026-10-30'
+  quote: The European Commission's Joint Research Centre developed this water dataset
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

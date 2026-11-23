@@ -1,0 +1,33 @@
+id: mapbiomas-fogo
+kind: dataset
+name: MapBiomas Fogo
+also_known_as:
+- MapBiomas Fire
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+summary: Maps of burned areas in Brazil's biomes from January 1985, made from Landsat
+  imagery with a deep neural network on Google Earth Engine.
+facts:
+- claim: Detects and maps burned areas across Brazilian biomes from Landsat imagery
+    with a deep neural network.
+  url: https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/06/ATBD-MapBiomas-Fogo-Colecao-4.pdf
+  fetched: '2026-10-30'
+  quote: (DNN) model to detect and map burned areas within the Brazilian biomes from
+    January 1985 to
+links:
+- type: run-by
+  to: mapbiomas
+  url: https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/06/ATBD-MapBiomas-Fogo-Colecao-4.pdf
+  fetched: '2026-10-30'
+  quote: "The entire process was carried out collaboratively by institutions within the MapBiomas network"
+found_by:
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-10-30'

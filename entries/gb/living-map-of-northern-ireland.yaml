@@ -1,0 +1,29 @@
+id: living-map-of-northern-ireland
+kind: project
+name: Living Map of Northern Ireland
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: NIEA project developing habitat mapping from satellite data, to improve evidence
+  on habitat extent and change.
+facts:
+- claim: NIEA project on habitat mapping from satellite data.
+  url: https://www.daera-ni.gov.uk/sites/default/files/publications/daera/NIEA%20Annual%20Report%20%26%20Accounts%202023-24_0.PDF
+  quote: habitat mapping capabilities from satellite data through the Living Map of
+    Northern Ireland
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: department-of-agriculture-environment-and-rural-affairs-ni
+  url: https://www.daera-ni.gov.uk/sites/default/files/publications/daera/NIEA%20Annual%20Report%20%26%20Accounts%202023-24_0.PDF
+  quote: habitat mapping capabilities from satellite data through the Living Map of
+    Northern Ireland
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

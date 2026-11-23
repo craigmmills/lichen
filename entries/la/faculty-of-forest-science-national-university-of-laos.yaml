@@ -1,0 +1,51 @@
+id: faculty-of-forest-science-national-university-of-laos
+kind: organisation
+name: Faculty of Forest Science, National University of Laos
+also_known_as: []
+scope: la
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: la
+countries:
+- la
+scale: national
+status: active
+summary: Academic faculty named as the first author's affiliation on two 2026 papers,
+  one mapping 2015 to 2025 forest cover change with Random Forest and Planet NICFI
+  imagery, one on restoration site suitability.
+facts:
+- claim: The first author's affiliation on a 2026 paper mapping forest cover change
+    in the Phou Pha Nang NBCA from 2015 to 2025.
+  url: https://doi.org/10.4236/gep.2026.147013
+  fetched: 2026-11-15
+  quote: 1 The Faculty of Forest Science, National University of Laos, Vientiane,
+    Laos .
+- claim: The 2026 Phou Pha Nang study applied a Random Forest machine learning classifier,
+    trained on reference data from ESA WorldCover, to Planet NICFI imagery to make
+    annual forest masks.
+  url: https://doi.org/10.4236/gep.2026.147013
+  fetched: 2026-11-15
+  quote: An automated Random Forest machine learning classifier, trained using reference
+    data derived from the ESA WorldCover, was applied to generate annual binary forest
+    masks to track spatiotemporal deforestation patterns.
+  ai_type: ml-supervised
+- claim: The first author's affiliation on a 2026 paper on restoration site suitability
+    in the Nam Kading NBCA, which used remote sensing and GIS analysis and February
+    2023 fieldwork involving the faculty's experts.
+  url: https://doi.org/10.4236/nr.2026.171002
+  fetched: 2026-11-15
+  quote: These teams operated under a collaborative governance structure, integrating
+    experts from the Faculty of Forest Science, National University of Laos.
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

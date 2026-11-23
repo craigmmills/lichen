@@ -1,0 +1,38 @@
+id: wallonia-forest-composition-map-2021
+kind: dataset
+name: Wallonia forest composition map 2021
+scope: be
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+countries:
+- be
+summary: Freely accessible map of Walloon forest composition, available through Forestimator, with species
+  predicted by a PointNet++ AI model trained on nearly 315,000 reference trees.
+runner: unknown
+facts:
+- claim: Species are predicted by a PointNet++ AI model trained on nearly 315,000 reference trees.
+  url: https://orbi.uliege.be/handle/2268/347553
+  fetched: 2026-11-02
+  quote: une segmentation du nuage de points (algorithme PTrees), une prédiction des essences par intelligence
+    artificielle (modèle PointNet++) entraînée sur près de 315.000 arbres de référence
+  ai_type: deep-learning
+- claim: The map is freely accessible through Forestimator.
+  url: https://orbi.uliege.be/handle/2268/347553
+  fetched: 2026-11-02
+  quote: La carte est librement accessible via la plateforme Forestimator
+links:
+- type: used-by
+  to: forestimator
+  url: https://orbi.uliege.be/handle/2268/347553
+  fetched: 2026-11-02
+  quote: La carte est librement accessible via la plateforme Forestimator
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,54 @@
+id: k-water-research-institute
+kind: organisation
+name: K-water Research Institute
+scope: kr
+sector: government
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- agentic-ai
+- physics-informed
+realms:
+- freshwater
+hq: kr
+scale: national
+status: active
+website: https://www.kwater.or.kr/kiwe/main.do
+summary: Research institute run by K-water, in Daejeon, whose AI lab lists raw water quality
+  prediction, agentic AI for water management and physics-informed AI among its work.
+facts:
+- claim: Its AI lab lists prediction of raw water quality, including algae and manganese,
+    among its work.
+  url: https://www.kwater.or.kr/kiwe/field/sub05/tech01Page.do?s_mid=2061
+  fetched: 2026-11-02
+  quote: 취수원 수질(녹조, 망간 등) 예측
+- claim: Its AI lab lists research on applying agentic AI to water management.
+  ai_type: agentic-ai
+  url: https://www.kwater.or.kr/kiwe/field/sub05/tech01Page.do?s_mid=2061
+  fetched: 2026-11-02
+  quote: MLOps, Agentic AI의 물관리 적용 연구
+- claim: Its AI lab lists research using physics-informed AI to improve prediction models.
+  ai_type: physics-informed
+  url: https://www.kwater.or.kr/kiwe/field/sub05/tech01Page.do?s_mid=2061
+  fetched: 2026-11-02
+  quote: Physics-informed AI 기술 활용 예측모델 성능 제고를 위한 연구
+- claim: K-water says its algae reports and data are freely available on the institute's website.
+  url: https://www.kwater.or.kr/eng/busi/water01/prevention04Page.do?s_mid=1906
+  fetched: 2026-11-02
+  quote: the reports and data are freely available on the K-water’s Research Institute website
+- claim: A June 2026 report places the institute in Yuseong-gu, Daejeon.
+  url: https://biz.heraldcorp.com/article/10775257
+  fetched: 2026-11-02
+  quote: at the K-water Research Institute in Yuseong-gu, Daejeon, on Monday.
+links:
+- type: run-by
+  to: k-water
+  url: https://www.kwater.or.kr/eng/busi/water01/prevention04Page.do?s_mid=1906
+  fetched: 2026-11-02
+  quote: the reports and data are freely available on the K-water’s Research Institute website
+found_by:
+- register:kr
+added_by: agent
+checked: 2026-11-02

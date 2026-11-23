@@ -1,0 +1,85 @@
+id: stichting-ravon
+kind: organisation
+name: RAVON
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: nl
+scale: national
+status: active
+summary: Dutch species organisation listed by Statistics Netherlands as coordinating the field
+  work of the national reptile and amphibian monitoring networks.
+scope: nl
+facts:
+- claim: Statistics Netherlands says RAVON directs the data collection for reptiles.
+  url: https://www.cbs.nl/nl-nl/nieuws/2023/51/reptielenpopulaties-afgelopen-12-jaar-afgenomen/netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: De gegevensverzameling voor reptielen wordt aangestuurd door RAVON.
+- claim: The knowledge organisation for reptiles, amphibians and fish in the Netherlands.
+  url: https://www.ravon.nl/over-ons
+  fetched: '2026-10-31'
+  quote: RAVON is de kennisorganisatie voor reptielen, amfibieën en vissen in Nederland.
+- claim: Uses DNA research to trace species.
+  url: https://www.ravon.nl/thema/onderzoek/edna-en-dna/
+  fetched: '2026-10-31'
+  quote: RAVON gebruikt DNA-onderzoek om soorten sneller, nauwkeuriger en minder verstorend
+    op te sporen
+- claim: Has a partnership with SPYGEN on environmental DNA.
+  url: https://www.environmental-dna.nl/nl-nl/Contact
+  fetched: '2026-10-31'
+  quote: RAVON heeft een partnerschap met SPYGEN uit Frankrijk gesloten om samen te werken
+    aan environmental DNA
+- claim: Follows the seven native reptile species each year through its Meetprogramma Reptielen.
+  url: http://www.ravon.nl
+  fetched: '2026-10-31'
+  quote: Nederland telt zeven inheemse reptielensoorten, die jaarlijks worden gevolgd via
+    het Meetprogramma Reptielen van RAVON.
+- claim: Says it applied the eDNA method for the first time in the Netherlands in 2011, with
+    SPYGEN.
+  url: https://www.ravon.nl/thema/onderzoek/edna-en-dna/edna/
+  fetched: '2026-10-31'
+  quote: RAVON heeft samen met het Franse SPYGEN de eDNA-methode in 2011 voor het eerst in
+    Nederland toegepast.
+- claim: Its 2026 RAVON-dag programme lists a talk by Rolf van Leeningen of RAVON on an AI
+    model that recognises individual adders by their head scales. The page does not say who
+    built the model.
+  url: https://www.ravon.nl/thema/ravon-dag/
+  fetched: '2026-10-31'
+  quote: Daarom is er een AI-model ontwikkeld dat individuele adders herkent aan hun kopschilden.
+- claim: Located in the Natuurplaza building at Radboud University.
+  url: http://www.ravon.nl
+  fetched: '2026-10-31'
+  quote: Gebouw Radboud Universiteit Mercator III, 1e etage (Natuurplaza)
+links:
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/nieuws/2023/51/reptielenpopulaties-afgelopen-12-jaar-afgenomen/netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: De gegevensverzameling voor reptielen wordt aangestuurd door RAVON.
+- type: partners-with
+  to: spygen
+  url: https://www.ravon.nl/thema/onderzoek/edna-en-dna/edna/
+  fetched: '2026-10-31'
+  quote: Sindsdien werken beide organisaties samen aan onderzoek naar nieuwe toepassingen
+- type: run-by
+  to: stichting-natuur-onderzoek-nederland
+  url: http://www.ravon.nl
+  fetched: '2026-10-31'
+  quote: RAVON is onderdeel van Stichting Natuur Onderzoek Nederland
+found_by:
+- checklist:4
+- rule:ngo-broad
+- register:nl
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- edna-genomics
+also_known_as:
+- Reptielen Amfibieën Vissen Onderzoek Nederland
+- Reptile, Amphibian and Fish Conservation Netherlands
+countries:
+- nl

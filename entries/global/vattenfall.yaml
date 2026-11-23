@@ -1,0 +1,35 @@
+id: vattenfall
+kind: organisation
+name: Vattenfall
+scope: global
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- gb
+scale: global
+summary: Energy company that ran an AI seabird monitoring trial at its Aberdeen Bay offshore
+  wind farm with Spoor and the British Trust for Ornithology.
+facts:
+- claim: Vattenfall says the project is a collaboration with Spoor and the BTO.
+  url: https://group.vattenfall.com/uk/newsroom/pressreleases/2023/vattenfall-launches-an-expanded-trial-of-spoor-ai-technology-at-aberdeen-bay-offshore-wind-farm
+  quote: The project is a unique collaboration between Vattenfall
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: aberdeen-bay-spoor-seabird-ai-trial
+  url: https://group.vattenfall.com/uk/newsroom/pressreleases/2023/vattenfall-launches-an-expanded-trial-of-spoor-ai-technology-at-aberdeen-bay-offshore-wind-farm
+  quote: The project is a unique collaboration between Vattenfall
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

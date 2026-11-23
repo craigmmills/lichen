@@ -1,0 +1,47 @@
+id: corine-land-cover-iceland
+kind: dataset
+name: CORINE Land Cover Iceland
+also_known_as: []
+scope: is
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- is
+status: active
+runner: unknown
+summary: Icelandic part of the pan-European CORINE land cover classification, run
+  by the Natural Science Institute of Iceland, with classifications for 2000, 2006,
+  2012 and 2018 and change layers for 2006, 2012 and 2018.
+facts:
+- claim: The Natural Science Institute's land cover page says CORINE is a pan-European
+    land cover classification project, part of the Copernicus monitoring programme,
+    updated every few years using new imagery.
+  url: https://www.natt.is/en/resources/geospatial-data/land-cover
+  fetched: 2026-11-15
+  quote: The CORINE land cover classification is updated every few years using new
+    imagery.
+- claim: The page says the European Environment Agency oversees CORINE and the Natural
+    Science Institute of Iceland carries out the work for Iceland.
+  url: https://www.natt.is/en/resources/geospatial-data/land-cover
+  fetched: 2026-11-15
+  quote: The European Environment Agency oversees CORINE, and the Natural Science
+    Institute of Iceland carries out the work for Iceland.
+- claim: The page lists classifications for 2000, 2006, 2012 and 2018 and change layers
+    for 2006, 2012 and 2018.
+  url: https://www.natt.is/en/resources/geospatial-data/land-cover
+  fetched: 2026-11-15
+  quote: CORINE land cover classification changes 2018
+links:
+- type: run-by
+  to: natural-science-institute-of-iceland
+  url: https://www.natt.is/en/resources/geospatial-data/land-cover
+  fetched: 2026-11-15
+  quote: The European Environment Agency oversees CORINE, and the Natural Science
+    Institute of Iceland carries out the work for Iceland.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

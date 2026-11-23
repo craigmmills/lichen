@@ -1,0 +1,45 @@
+id: department-of-museums-and-monuments-malawi
+kind: organisation
+name: Department of Museums and Monuments
+also_known_as:
+- Museums of Malawi
+scope: mw
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: mw
+countries:
+- mw
+scale: national
+status: active
+summary: Government department mandated to collect, preserve and research Malawi's natural and cultural
+  history, which publishes bird specimen and Scarabaeoidea beetle records through GBIF.
+facts:
+- claim: Its GBIF registration describes it as a government department whose mandate covers collecting,
+    preserving and researching the natural and cultural history of Malawi.
+  url: https://api.gbif.org/v1/organization/680699a5-43a7-46d7-9ca4-90c41dc1d47a
+  fetched: 2026-11-08
+  quote: Its mandate is to collect, preserve and carry out research on natural and cultural history of
+    Malawi
+- claim: Publishes bird specimen records collected in many places in Malawi through GBIF.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=680699a5-43a7-46d7-9ca4-90c41dc1d47a&limit=20
+  fetched: 2026-11-08
+  quote: This is Bird biodiversity data records currently at The Department of Museums and Monuments collected
+    by various collectors in a number of places in Malawi.
+- claim: Publishes a database of Scarabaeoidea beetle records collected in Malawi through GBIF.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=680699a5-43a7-46d7-9ca4-90c41dc1d47a&limit=20
+  fetched: 2026-11-08
+  quote: This is a database of insect supper family Scarabaeoidea created by Professor Cornell Dudley
+    which includes collection records of various collectors who have been collecting in Malawi
+- claim: Its GBIF registration gives an address in Chichiri, Blantyre.
+  url: https://api.gbif.org/v1/organization/680699a5-43a7-46d7-9ca4-90c41dc1d47a
+  fetched: 2026-11-08
+  quote: The Museums of Malawi, P.O. Box 30360, Chichiri, Blantyre 3, Malawi
+links: []
+found_by:
+- register:mw
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,35 @@
+id: ml-fire-danger-framework-indian-forests
+kind: model
+name: Machine learning based fire danger assessment framework for Indian forests
+scope: in
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- in
+scale: national
+status: unknown
+runner: unknown
+summary: Country-scale forest fire risk framework by Barik and Baidya Roy, presented
+  at EGU 2024, using vegetation indices, topography and population data, and meant
+  as a step towards an operational system for India.
+facts:
+- claim: The abstract says the framework is a step towards an operational fire risk
+    assessment system.
+  url: https://meetingorganizer.copernicus.org/EGU24/EGU24-14686.html
+  quote: serves as a foundational step towards establishing an operational fire risk
+    assessment system for India
+  fetched: '2026-10-31'
+links:
+- type: represented-by
+  to: indian-institute-of-technology-delhi
+  url: https://meetingorganizer.copernicus.org/EGU24/EGU24-14686.html
+  quote: Centre for Atmospheric Sciences, Indian Institute of Technology Delhi, Hauz
+    Khas, India
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,36 @@
+id: forest-mix-rate-nfi
+kind: dataset
+name: Forest mix rate NFI
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ch
+status: active
+website: https://www.geo.admin.ch/en/dataset-13012025
+runner: unknown
+summary: Dataset using Sentinel-1 and Sentinel-2 data at 10-metre resolution and machine learning, building
+  on Sentinel-2.
+facts:
+- claim: Uses Sentinel-1 and Sentinel-2 data at 10-metre resolution.
+  url: https://www.geo.admin.ch/en/dataset-13012025
+  fetched: '2026-11-02'
+  quote: the proportion of deciduous and coniferous trees is evaluated nationwide in grid cells with a
+    spatial resolution of 10 metres.
+- claim: Uses machine learning.
+  url: https://www.geo.admin.ch/en/dataset-13012025
+  fetched: '2026-11-02'
+  quote: A machine learning method is used for this purpose.
+links:
+- type: builds-on
+  to: sentinel-2
+  url: https://www.geo.admin.ch/en/dataset-13012025
+  fetched: '2026-11-02'
+  quote: Based on the freely available Copernicus (ESA) Sentinel-1 and -2 satellite data
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

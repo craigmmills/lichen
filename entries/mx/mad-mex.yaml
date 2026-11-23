@@ -1,0 +1,72 @@
+id: mad-mex
+kind: programme
+name: MAD-Mex
+also_known_as:
+- Monitoring Activity Data for the Mexican REDD+ program
+- MAD-MEX
+- MAD-mex
+- MAD-Mex
+- Sistema de Monitoreo de Cobertura de Suelo MAD-MEX
+scope: mx
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mx
+status: unknown
+runner: unknown
+summary: CONABIO's land cover monitoring system, built with Steffen Gebhardt, which used decision
+  tree classification of satellite data for Mexico's 2015 land-cover map and reached overall
+  accuracies of up to 76% in a 2014 paper.
+facts:
+- claim: The paper names the system and describes an automatic wall-to-wall application.
+  url: https://meetingorganizer.copernicus.org/ISRSE36/ISRSE36-144-1.pdf
+  fetched: 2026-11-03
+  quote: system called MAD-Mex (Monitoring Activity Data for the Mexican REDD+ program)
+- claim: The paper's keywords include automatic classification of Landsat time series.
+  url: https://meetingorganizer.copernicus.org/ISRSE36/ISRSE36-144-1.pdf
+  fetched: 2026-11-03
+  quote: Landsat time series, Automatic classification
+- claim: Its classification of 2015 RapidEye satellite data, with 31 land-cover classes, was
+    used for Mexico's 2015 land-cover map.
+  url: https://www.gob.mx/conabio/prensa/nuevo-mapa-de-la-cobertura-del-suelo-de-mexico-2015
+  fetched: '2026-11-03'
+  quote: se utilizó la clasificación de datos satelitales Rapideye del año 2015, producto
+    del sistema MAD-Mex (Monitoring Activity Data for the Mexican REDD+ program), originalmente
+    con 31 clases de cobertura de suelo
+- claim: A 2014 paper describes it as the operational land cover monitoring system for Mexico,
+    using automatic image classification.
+  url: https://www.woodwellclimate.org/wp-content/uploads/2015/09/GebhardtetalRemSens.14.pdf
+  fetched: 2026-11-03
+  quote: This paper describes the operational land cover monitoring system for Mexico.
+- claim: The 2014 paper reports classification with supervised C5.0 decision tree algorithms.
+  url: https://www.woodwellclimate.org/wp-content/uploads/2015/09/GebhardtetalRemSens.14.pdf
+  fetched: 2026-11-03
+  quote: Classification was performed with supervised C5.0 decision tree algorithms
+  ai_type: ml-supervised
+- claim: The paper reports overall accuracies of up to 76% and advises against reporting change
+    from the annual land cover products alone.
+  url: https://www.woodwellclimate.org/wp-content/uploads/2015/09/GebhardtetalRemSens.14.pdf
+  fetched: 2026-11-03
+  quote: However, reporting of change is ill-advised based on the annual land cover products
+- claim: CONABIO lists it among the systems, platforms and tools it has developed and makes
+    available.
+  url: http://www.conabio.gob.mx/web/transparencia.html
+  fetched: 2026-11-03
+  quote: Sistema de Monitoreo de Cobertura de Suelo MAD-MEX
+found_by:
+- checklist:2
+- link-from:comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+added_by: agent
+checked: 2026-11-03
+ai_types:
+- ml-supervised
+links:
+- type: built-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: https://www.woodwellclimate.org/wp-content/uploads/2015/09/GebhardtetalRemSens.14.pdf
+  fetched: 2026-11-03
+  quote: MAD-MEX system has been designed and impl emented at the National Commission for
+    the Knowledge and Use of Biodive rsity (CONABIO)

@@ -1,0 +1,47 @@
+id: artenfinder
+kind: programme
+name: ArtenFinder
+scope: de
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- de
+status: active
+website: https://www.artenfinder.rlp.de
+summary: Citizen science platform and app for reporting animals, plants and fungi,
+  run in Rhineland-Palatinate and Berlin, with data passed to nature conservation
+  authorities and a web service interface.
+facts:
+- claim: A platform for nature observations whose data go to nature conservation.
+  url: https://www.artenfinder.rlp.de
+  fetched: '2026-10-31'
+  quote: Gemeinsam mit Ihnen dokumentieren wir Fauna und Flora und stellen die Daten
+    dem Naturschutz zur Verfügung.
+- claim: Rhineland-Palatinate portal is a cooperation between the state and the Stiftung
+    Natur und Umwelt Rheinland-Pfalz.
+  url: https://www.artenfinder.rlp.de
+  fetched: '2026-10-31'
+  quote: Das ArtenFinder Service-Portal ist ein Kooperationsprojekt des Landes Rheinland-Pfalz
+    mit der Stiftung Natur und Umwelt Rheinland-Pfalz
+- claim: The Berlin portal gives its data to the conservation authorities.
+  url: https://berlin.artenfinder.net
+  fetched: '2026-10-31'
+  quote: stellen die Daten dem behördlichen Naturschutz zur Verfügung
+links:
+- type: run-by
+  to: stiftung-natur-und-umwelt-rheinland-pfalz
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-10-31'
+  quote: The ArtenFinder project is a cooperation of the Stiftung Natur und Umwelt
+    Rheinland-Pfalz (SNU RLP) and the Stiftung Naturschutz Berlin (SNB).
+- type: run-by
+  to: stiftung-naturschutz-berlin
+  url: https://api.gbif.org/v1/organization/2754e9c0-0e43-4f65-968a-6f16b9c378ce
+  fetched: '2026-10-31'
+  quote: Both organizations are non-governmental, committed to wildlife and nature
+    and operate ArtenFinder platforms.
+found_by:
+- register:de
+added_by: agent
+checked: '2026-10-31'

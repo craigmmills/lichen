@@ -1,0 +1,27 @@
+id: sitamar
+kind: dataset
+name: SITAMAR
+scope: br
+ai_label: data-infrastructure
+status: unknown
+realms:
+- ocean
+countries:
+- br
+website: https://www.tamar.org.br
+runner: unknown
+summary: Sea turtle database of Projeto Tamar, with more than 30 years of data and recapture
+  records.
+facts:
+- claim: Holds more than 30 years of data.
+  url: https://www.tamar.org.br/publicacoes_html/pdf/2016/2016_Conservacao_de_Tartarugas_Marinhas_no_Nordeste_do_Brasil.pdf
+  quote: dados por mais de 30 anos, faz com que o SITAMAR seja reco
+  fetched: '2026-10-31'
+- claim: Also records recaptures of turtles tagged by Tamar.
+  url: https://www.tamar.org.br/publicacoes_html/pdf/2016/2016_Conservacao_de_Tartarugas_Marinhas_no_Nordeste_do_Brasil.pdf
+  quote: as ameaças às populações de tartarugas marinhas que ocorrem na costa brasileira
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,48 @@
+id: japan-international-cooperation-agency
+kind: organisation
+name: Japan International Cooperation Agency
+also_known_as:
+- JICA
+scope: global
+sector: government
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: jp
+scale: global
+status: active
+website: https://www.jica.go.jp/english/
+summary: Japanese aid agency that launched the JJ-FAST tropical deforestation monitoring service
+  with the Japan Aerospace Exploration Agency in 2016.
+facts:
+- claim: Launched the JICA-JAXA Forest Early Warning System in the Tropics with JAXA.
+  url: https://global.jaxa.jp/press/2016/11/20161114_jjfast.html
+  quote: the Japan International Cooperation Agency (JICA) and the Japan Aerospace Exploration
+    Agency (JAXA) launched the “JICA-JAXA Forest Early Warning System in the Tropics” (JJ-FAST)
+    service
+  fetched: &id001 2026-10-30
+- claim: Says JICA and JAXA set up the tropical forest monitoring programme to help conserve
+    forests in developing countries and contribute to climate action and biodiversity conservation.
+  url: https://www.jica.go.jp/activities/issues/natural_env/jjfast/index.html
+  quote: その結果、JICAとJAXAの連携の下、開発途上国の森林資源の保全及びそれを通じた気候変動対策や生物多様性保全への貢献を目的とし
+  fetched: '2026-10-30'
+- claim: Says the system published forest change for 78 tropical countries about every 45
+    days from April 2016 to March 2024.
+  url: https://www.jica.go.jp/activities/issues/natural_env/jjfast/index.html
+  quote: 中南米、東南アジア、アフリカの熱帯林78か国の森林変化を約45日おきにウェブサイトで公開するシステムとして、2016年4月から2024年3月まで
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: jj-fast
+  url: https://global.jaxa.jp/press/2016/11/20161114_jjfast.html
+  quote: the Japan International Cooperation Agency (JICA) and the Japan Aerospace Exploration
+    Agency (JAXA) launched the “JICA-JAXA Forest Early Warning System in the Tropics” (JJ-FAST)
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

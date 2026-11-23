@@ -1,0 +1,36 @@
+id: saveforest-ai
+kind: project
+name: Saveforest.ai
+scope: id
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+countries:
+- id
+status: unknown
+summary: Prototype AI forest and land fire detector built by a Universitas Gadjah Mada student
+  team, using gas sensors and a thermal camera carried on a drone. It sends data to a web
+  dashboard.
+facts:
+- claim: It is designed as an AI-based forest and land fire detector.
+  url: https://ugm.ac.id/id/berita/mahasiswa-ugm-mengembangkan-alat-pendeteksi-kebakaran-hutan-dan-lahan-berbasis-artificial-intelligence/
+  fetched: '2026-10-31'
+  quote: Saveforest.ai didesain sebagai alat pendeteksi kebakaran hutan dan lahan berbasis
+    artificial intelligence
+- claim: It uses gas sensors and a thermal camera.
+  url: https://ugm.ac.id/id/berita/mahasiswa-ugm-mengembangkan-alat-pendeteksi-kebakaran-hutan-dan-lahan-berbasis-artificial-intelligence/
+  fetched: '2026-10-31'
+  quote: menggunakan berbagai sensor gas dan thermal camera
+- claim: The prototype runs its AI algorithm on a Raspberry Pi and sends data to a server
+    in real time.
+  url: https://ugm.ac.id/id/berita/mahasiswa-ugm-mengembangkan-alat-pendeteksi-kebakaran-hutan-dan-lahan-berbasis-artificial-intelligence/
+  fetched: '2026-10-31'
+  quote: Raspberry Pi untuk menjalankan algoritma AI serta mengirimkan data realtime ke database
+    server
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

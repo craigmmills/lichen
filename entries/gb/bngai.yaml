@@ -1,0 +1,32 @@
+id: bngai
+kind: programme
+name: BNGAI
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.bng.ai/
+summary: Platform from AiDASH that uses satellite imagery and AI to support biodiversity
+  net gain assessments in England.
+facts:
+- claim: Applies satellite imagery and AI to biodiversity net gain.
+  url: https://www.bng.ai/
+  quote: Streamline biodiversity net gain (BNG) with satellite imagery and AI
+  fetched: &id001 2026-10-30
+- claim: Used by Amazon on development sites in England.
+  url: https://www.bng.ai/blog/amazon-scales-biodiversity-assessment-with-bngai/
+  quote: to assess and manage biodiversity across development sites in England
+  fetched: *id001
+links:
+- type: run-by
+  to: aidash
+  url: https://www.bng.ai/blog/amazon-scales-biodiversity-assessment-with-bngai/
+  quote: the AI-powered nature intelligence platform developed by AiDASH
+  fetched: *id001
+found_by:
+- checklist:5
+added_by: agent
+checked: *id001

@@ -1,0 +1,35 @@
+id: university-of-veterinary-medicine-vienna
+kind: organisation
+name: University of Veterinary Medicine Vienna
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Vienna veterinary university whose authors published a 2025 paper classifying wild
+  boar behaviour from accelerometers and a 2021 paper on video analysis of bird movements
+  and behaviour.
+facts:
+- claim: A 2025 paper first-authored by Thomas Ruf of the University of Veterinary Medicine
+    Vienna classifies behaviour of female wild boar from low-frequency accelerometers.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I150540706,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Classification of behaviour with low-frequency accelerometers in female wild boar
+- claim: A 2021 paper first-authored by Judith Janisch of the University of Veterinary Medicine
+    Vienna covers video recording and analysis of bird movements and behaviour.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I150540706,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'Video Recording and Analysis of Avian Movements and Behavior: Insights from Courtship
+    Case Studies'
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-07

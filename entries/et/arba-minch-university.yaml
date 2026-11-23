@@ -1,0 +1,36 @@
+id: arba-minch-university
+kind: organisation
+name: Arba Minch University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- other
+hq: et
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2026 paper
+  using explainable machine learning to assess eutrophication in Lakes Ziway and Langano.
+facts:
+- claim: OpenAlex lists a 2026 paper on explainable machine learning to assess eutrophication
+    in Lakes Ziway and Langano.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: 'Integrating Multivariate Analysis and Explainable Machine Learning to Assess Eutrophication:
+    Chlorophyll-a and Dissolved Oxygen Dynamics in Ziway and Langano Lakes, Ethiopia'
+- claim: OpenAlex lists A.A Awasho, first author of that paper, at Arba Minch University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "A.A Awasho", "orcid": null, "observed_orcids": []}, "institutions":
+    [{"id": "https://openalex.org/I42869670", "display_name": "Arba Minch University", "ror":
+    "https://ror.org/00ssp9h11", "country_code": "ET"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

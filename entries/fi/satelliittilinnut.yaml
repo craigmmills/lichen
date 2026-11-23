@@ -1,0 +1,33 @@
+id: satelliittilinnut
+kind: programme
+name: Satelliittilinnut
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Programme run by the Finnish Museum of Natural History, offering a public
+  platform to follow bird tracking projects that use satellite transmitters and other
+  positioning devices.
+facts:
+- claim: The museum offers research projects that track birds with positioning devices
+    a platform where the public can follow the projects and the birds' movements.
+  url: https://www.helsinki.fi/fi/luomus/havainnot-ja-seurannat/satelliittilinnut
+  fetched: '2026-11-08'
+  quote: Luomus tarjoaa paikanninseurantaa tekeville tutkimushankkeille alustan
+- claim: Satellite transmitters and other positioning devices give detailed information
+    on individual birds' migration, wintering and hunting areas and territories.
+  url: https://www.helsinki.fi/fi/luomus/havainnot-ja-seurannat/satelliittilinnut
+  fetched: '2026-11-08'
+  quote: Satelliittilähettimien ja muiden modernien paikannuslaitteiden avulla saadaan
+    selville yksityiskohtaista tietoa lintuyksilöiden vuodenkierrosta
+links:
+- type: run-by
+  to: finnish-museum-of-natural-history
+  url: https://www.helsinki.fi/fi/luomus/havainnot-ja-seurannat/satelliittilinnut
+  fetched: '2026-11-08'
+  quote: Luomus tarjoaa paikanninseurantaa tekeville tutkimushankkeille alustan
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

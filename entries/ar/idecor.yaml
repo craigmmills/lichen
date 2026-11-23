@@ -1,0 +1,54 @@
+id: idecor
+kind: organisation
+name: IDECOR
+also_known_as:
+- Infraestructura de Datos Espaciales de la Provincia de Córdoba
+scope: ar
+sector: government
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ar
+scale: local
+status: active
+website: https://www.idecor.gob.ar/
+summary: Organisation that presented the third edition of Córdoba province's land cover and
+  land use map, for 2022-2023, in December 2023, made from Sentinel-2 images with artificial
+  intelligence classification.
+facts:
+- claim: Presented the third edition of the land cover and land use map of Córdoba province,
+    for 2022-2023, in December 2023.
+  url: https://www.idecor.gob.ar/cuales-son-las-mejoras-en-nuestros-mapas-de-cobertura-del-suelo/
+  fetched: 2026-11-03
+  quote: En diciembre de 2023, IDECOR presentó el Mapa de Cobertura y Uso del suelo de la
+    provincia de Córdoba 2022-2023
+- claim: The maps are built from Sentinel-2 images, classified with georeferenced field data
+    and artificial intelligence algorithms.
+  url: https://www.idecor.gob.ar/cuales-son-las-mejoras-en-nuestros-mapas-de-cobertura-del-suelo/
+  fetched: 2026-11-03
+  quote: Para la clasificación de dichas imágenes se utilizan datos de terreno georreferenciados,
+    que permiten relacionarlos con las imágenes capturadas y realizar estimaciones mediante
+    algoritmos de Inteligencia Artificial (IA).
+- claim: Field data for the 2023 edition were gathered partly with the Land Collect app, developed
+    by IDECOR.
+  url: https://www.idecor.gob.ar/cuales-son-las-mejoras-en-nuestros-mapas-de-cobertura-del-suelo/
+  fetched: 2026-11-03
+  quote: la utilización de la aplicación Land Collect, desarrollada por IDECOR
+links:
+- type: uses
+  to: sentinel-2
+  url: https://www.idecor.gob.ar/cuales-son-las-mejoras-en-nuestros-mapas-de-cobertura-del-suelo/
+  fetched: 2026-11-03
+  quote: La construcción de estos productos se realiza a partir de imágenes satelitales capturadas
+    por los satélites Sentinel 2
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

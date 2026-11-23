@@ -1,0 +1,89 @@
+id: joint-nature-conservation-committee
+kind: organisation
+name: Joint Nature Conservation Committee
+also_known_as:
+- JNCC
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://jncc.gov.uk
+summary: The statutory nature adviser to all four countries of the UK. Its site carries the
+  UK's 7th National Report to the Convention on Biological Diversity, which assesses progress
+  against targets aligned with the Kunming-Montreal framework.
+facts:
+- claim: The only statutory nature adviser to all four UK countries.
+  url: https://jncc.gov.uk/about-jncc/
+  quote: the only statutory nature advisor to all four countries of the UK
+  fetched: '2026-10-30'
+- claim: JNCC reports that the UK's 7th National Report assesses progress against 23 targets
+    aligned with the Kunming-Montreal framework.
+  url: https://jncc.gov.uk/news/uk-publishes-progress-report-on-biodiversity-targets/
+  quote: The report assesses the UK's progress against 23 national biodiversity targets which
+    are aligned with the 23 targets in the Kunming-Montreal Global Biodiversity Framework
+    (GBF).
+  fetched: '2026-10-30'
+- claim: Uses Earth observation for evidence on biodiversity.
+  url: https://jncc.gov.uk/our-work/earth-observation/
+  quote: JNCC has expertise in the field of Earth Observation (EO) and uses this to provide
+    high-quality evidence on biodiversity and ecosystems
+  fetched: '2026-10-30'
+- claim: Member of the Defra EO Centre of Excellence.
+  url: https://jncc.gov.uk/our-work/earth-observation/
+  quote: JNCC is a member of the Defra EO Centre of Excellence
+  fetched: '2026-10-30'
+- claim: Uses open Sentinel satellite data to provide evidence on biodiversity and ecosystems.
+  url: https://jncc.gov.uk/our-work/earth-observation/
+  quote: Through using open data available from the Sentinel satellites
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://jncc.gov.uk/
+  quote: © Joint Nature Conservation Committee, Quay House, 2 East Station Road, Fletton Quays,
+    Peterborough, PE2 8YY
+  fetched: 2026-10-30
+- claim: Uses Earth observation for biodiversity evidence.
+  url: https://jncc.defra.gov.uk/monitoring/earth-observation/
+  fetched: '2026-10-30'
+  quote: We have considerable expertise in the field of Earth observation (EO) and use this
+    expertise to provide high-quality evidence on biodiversity and ecosystems
+- claim: Publishes the dataset "Scotland Otter Survey Database" on GBIF.
+  url: https://api.gbif.org/v1/organization/bb108780-00da-49a7-ba12-40a25192a626/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Scotland Otter Survey Database
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/bb108780-00da-49a7-ba12-40a25192a626/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:1
+- link-from:department-for-environment-food-and-rural-affairs
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- remote-sensing
+- species-distribution
+links:
+- type: partners-with
+  to: national-centre-for-earth-observation
+  url: https://jncc.gov.uk/our-work/earth-observation/
+  quote: Through developing partnerships with the National Centre for Earth Observation (NCEO)
+    and SMEs
+  fetched: '2026-10-30'
+- type: partners-with
+  to: defra-earth-observation-centre-of-excellence
+  url: https://jncc.gov.uk/our-work/earth-observation/
+  quote: JNCC is a member of the Defra EO Centre of Excellence
+  fetched: *id001

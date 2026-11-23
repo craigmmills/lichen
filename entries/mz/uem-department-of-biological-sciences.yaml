@@ -1,0 +1,39 @@
+id: uem-department-of-biological-sciences
+kind: organisation
+name: Department of Biological Sciences, Eduardo Mondlane University
+scope: mz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: mz
+countries:
+- mz
+scale: national
+status: active
+summary: Eduardo Mondlane University department, named as the first author's affiliation
+  on a 2023 paper combining drones and machine learning to find dugong foraging hotspots
+  at Inhaca Island.
+facts:
+- claim: An affiliation of the first author of the 2023 paper on drones and machine
+    learning for monitoring dugong feeding grounds.
+  url: https://api.openalex.org/works/W4382993019?select=id,display_name,publication_year,primary_location,authorships
+  fetched: 2026-11-13
+  quote: Department of Biological Sciences, Eduardo Mondlane University, 257 Maputo,
+    Mozambique
+- claim: The study combined drone imaging with machine learning to identify dugong
+    foraging hotspots from feeding trails and seagrass beds at Inhaca Island.
+  url: https://doi.org/10.3354/meps14361
+  fetched: 2026-11-13
+  quote: we combined the use of unmanned aerial vehicle-based imaging (drones) with
+    machine-learning to develop a monitoring method for identifying hotspots of dugong
+    foraging based on their feeding trails and associated seagrass beds.
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

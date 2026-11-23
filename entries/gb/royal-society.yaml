@@ -1,0 +1,45 @@
+id: royal-society
+kind: organisation
+name: The Royal Society
+scope: gb
+sector: funder
+roles:
+- funds
+- convenes
+ai_label: ai
+techniques:
+- other
+hq: gb
+scale: national
+status: active
+website: https://royalsociety.org/
+summary: UK scientific fellowship and grant funder whose 2026 University Research Fellowships
+  include a project on AI for biodiversity recovery.
+facts:
+- claim: Registered charity.
+  url: https://royalsociety.org/about-us/
+  quote: Registered charity number 207043
+  fetched: &id001 2026-10-30
+- claim: Provides grant schemes to support the UK scientific community.
+  url: https://royalsociety.org/about-us/
+  quote: The Royal Society provides a range of grant schemes to support the UK scientific
+    community
+  fetched: *id001
+- claim: Says its 2026 fellowship projects include using AI to predict how wildlife responds
+    to climate change.
+  url: https://royalsociety.org/news/2026/09/university-research-fellowships-2026/
+  quote: from using AI to predict how wildlife is responding to climate change
+  fetched: *id001
+- claim: University Research Fellows are awarded up to £1.87m over eight years.
+  url: https://royalsociety.org/news/2026/09/university-research-fellowships-2026/
+  quote: University Research Fellows are awarded up to £1.87m over eight years.
+  fetched: *id001
+- claim: The University of Sheffield reports the 2026 fellowship cohort.
+  url: https://sheffield.ac.uk/science/news/university-sheffield-scientists-secure-prestigious-royal-society-fellowships
+  quote: The Royal Society has announced the 2026 cohort of early career researchers, including
+    three from
+  fetched: '2026-10-31'
+found_by:
+- checklist:6
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,43 @@
+id: ami-system
+kind: project
+name: UKCEH AMI system
+also_known_as:
+- Automated Monitoring of Insects system
+- AMI-trap
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Open-source, non-lethal camera system for monitoring nocturnal insects; nearly
+  200 have been deployed in over 30 countries.
+facts:
+- claim: Paper describes the system as non-lethal and scalable.
+  url: https://nora.nerc.ac.uk/id/eprint/542184/
+  fetched: '2026-10-30'
+  quote: 'Automated monitoring of insects system: building a non-lethal and scalable
+    solution for monitoring of nocturnal insects'
+- claim: Nearly 200 systems deployed in over 30 countries.
+  url: https://nora.nerc.ac.uk/id/eprint/542184/1/N542184JA.pdf
+  fetched: '2026-10-30'
+  quote: Nearly 200 UKCEH AMI-systems have been deployed to date in over 30 countries
+- claim: The first version of the AMI system is described in a paper on deep learning.
+  url: https://nora.nerc.ac.uk/id/eprint/542184/
+  fetched: '2026-10-30'
+  quote: An Automated Light Trap to Monitor Moths (Lepidoptera) Using Computer Vision-Based
+    Tracking and Deep Learning.
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://nora.nerc.ac.uk/id/eprint/542184/1/N542184JA.pdf
+  fetched: '2026-10-30'
+  quote: Nearly 200 UKCEH AMI-systems have been deployed to date in over 30 countries
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

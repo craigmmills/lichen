@@ -1,0 +1,46 @@
+id: copperbelt-university
+kind: organisation
+name: Copperbelt University
+scope: zm
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: zm
+countries:
+- zm
+scale: national
+status: active
+summary: University in Kitwe, Zambia, whose affiliated authors wrote a 2024 paper,
+  listed in OpenAlex, on seasonal home ranges and habitat selection of elephants in
+  the Kabompo landscape.
+facts:
+- claim: OpenAlex lists a 2024 paper on seasonal home ranges and habitat selection
+    of elephants in Zambia's Kabompo landscape, with its first author at Copperbelt
+    University.
+  url: https://api.openalex.org/works/W4402679258?select=id,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: Seasonal variation of home range size and habitat selection of elephants
+    in the Kabompo landscape of Zambia
+- claim: The first author's affiliation is the School of Graduate Studies, Copperbelt
+    University, Kitwe.
+  url: https://api.openalex.org/works/W4402679258?select=id,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: School of Graduate Studies, Copperbelt University, Jambo Drive, P. O. Box
+    21692, Riverside, Kitwe, Zambia
+- claim: The other authors are in the Departments of Plant and Environmental Sciences
+    and of Zoology and Aquatic Sciences in its School of Natural Resources.
+  url: https://api.openalex.org/works/W4402679258?select=id,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: Department of Zoology and Aquatic Sciences, School of Natural Resources,
+    Copperbelt University
+links: []
+found_by:
+- rule:checklist-misses
+- checklist:3
+added_by: agent
+checked: 2026-11-12

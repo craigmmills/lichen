@@ -1,0 +1,64 @@
+id: field-museum
+kind: organisation
+name: Field Museum
+scope: us
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: US natural history museum listed as an institutional member of Biodiversity Information
+  Standards (TDWG).
+facts:
+- claim: Listed as a TDWG member.
+  url: https://www.tdwg.org/about/membership/
+  fetched: '2026-10-30'
+  quote: Field Museum
+- claim: 'Roboflow case study: the museum team developed DrawerDissect.'
+  url: https://roboflow.com/case-studies/field-museum
+  fetched: '2026-10-30'
+  quote: This prompted the Field Museum team, along with researchers from several other institutions,
+    to develop custom software called DrawerDissect
+- claim: 'Roboflow case study: DrawerDissect uses computer vision and large language models.'
+  url: https://roboflow.com/case-studies/field-museum
+  fetched: '2026-10-30'
+  quote: This solution uses a combination of computer vision and large language models
+  ai_type: large-language-models
+- claim: Its home page gives 1400 S. DuSable Lake Shore Drive, Chicago.
+  url: https://www.fieldmuseum.org/
+  fetched: '2026-10-31'
+  quote: 1400 S. DuSable Lake Shore Drive, Chicago, IL 60605
+- claim: The IRS exempt organisation record, through ProPublica, lists Field Museum Of Natural
+    History at Chicago, Illinois.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/362167011.json
+  fetched: '2026-10-31'
+  quote: '"city":"Chicago","state":"IL"'
+links:
+- type: partners-with
+  to: biodiversity-information-standards
+  url: https://www.tdwg.org/about/membership/
+  fetched: '2026-10-30'
+  quote: Field Museum
+- type: runs
+  to: drawerdissect
+  url: https://roboflow.com/case-studies/field-museum
+  fetched: '2026-10-30'
+  quote: This prompted the Field Museum team, along with researchers from several other institutions,
+    to develop custom software called DrawerDissect.
+found_by:
+- link-from:queue-us
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- computer-vision
+ai_types:
+- large-language-models
+website: https://www.fieldmuseum.org/

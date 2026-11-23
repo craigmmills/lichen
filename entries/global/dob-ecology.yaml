@@ -1,0 +1,42 @@
+id: dob-ecology
+kind: organisation
+name: DOB Ecology
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: nl
+scale: global
+status: active
+website: https://www.dobecology.nl
+summary: Dutch non-profit foundation set up by an entrepreneurial family that gives grants
+  to NGOs for nature conservation. It is named as a supporter of Global Mangrove Watch.
+countries:
+- nl
+facts:
+- claim: A non-profit foundation set up in the Netherlands by an entrepreneurial family.
+  url: https://www.dobecology.nl/about-us/
+  quote: DOB Ecology is a non-profit foundation set-up in the Netherlands by an entrepreneurial
+    family.
+  fetched: &id001 2026-10-30
+- claim: Resource Watch lists it as a partner and describes it as a foundation initiated by
+    a Dutch entrepreneurial family.
+  url: https://resourcewatch.org/about/partners/dob-ecology
+  quote: DOB Ecology is a foundation that has been initiated by a Dutch entrepreneurial family.
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: global-mangrove-watch
+  url: https://www.decadeonrestoration.org/fr/node/10260
+  quote: Global Mangrove Watch is managed by Wetlands International in cooperation with The
+    Nature Conservancy, SoloEO and Aberystwyth University. We are grateful for the support
+    from the Postcode Loterij, Oak Foundation, COmON Foundation and DOB Ecology.
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

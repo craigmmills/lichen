@@ -1,0 +1,35 @@
+id: inventaire-des-ressources-naturelles-gabon
+kind: dataset
+name: Inventaire des Ressources Naturelles
+also_known_as:
+- IRN
+scope: ga
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ga
+status: active
+summary: A dataset attributed to ANPN by a CNC official, with SalvaTerra reporting 338 permanent plots
+  measured and 81 being defined for 2025 for CAFI and the CNC.
+facts:
+- claim: A SalvaTerra framing note for CAFI and the CNC reports 338 permanent plots measured under the
+    Inventaire des Ressources Naturelles and 81 being defined for 2025.
+  url: https://www.salvaterra.fr/wp-content/uploads/2026/02/13558-Rapport-25-07-24-GA-CAFI-CNC-Diag-PNAT_L1-Note-de-cadrage_VF.pdf
+  fetched: 2026-11-08
+  quote: 338 placettes permanentes mesurées dans le cadre de l'Inventaire des Ressources Naturelles, et
+    81 placettes en cours de définition pour 2025.
+- claim: The same note records a CNC official saying the IRN data on carbon stocks are produced by ANPN.
+  url: https://www.salvaterra.fr/wp-content/uploads/2026/02/13558-Rapport-25-07-24-GA-CAFI-CNC-Diag-PNAT_L1-Note-de-cadrage_VF.pdf
+  fetched: 2026-11-08
+  quote: les données IRN produites par l'ANPN sur les stocks de carbone
+links:
+- type: built-by
+  to: agence-nationale-des-parcs-nationaux
+  url: https://www.salvaterra.fr/wp-content/uploads/2026/02/13558-Rapport-25-07-24-GA-CAFI-CNC-Diag-PNAT_L1-Note-de-cadrage_VF.pdf
+  fetched: 2026-11-08
+  quote: les données IRN produites par l'ANPN sur les stocks de carbone
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

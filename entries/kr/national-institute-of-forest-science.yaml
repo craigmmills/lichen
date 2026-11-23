@@ -1,0 +1,92 @@
+id: national-institute-of-forest-science
+kind: organisation
+name: National Institute of Forest Science
+scope: kr
+sector: government
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+scale: national
+hq: kr
+status: active
+summary: Seoul forest institute run by Korea Forest Service that reportedly developed LiDAR
+  tree classification AI and made a national forest carbon map using machine learning.
+facts:
+- claim: Announced an initiative to assess and safeguard the Baekdudaegan.
+  url: https://www.koreatimes.co.kr/amp/southkorea/20260526/ai-reshapes-conservation-efforts-for-koreas-ecological-backbone
+  fetched: '2026-11-02'
+  quote: announced a major technological initiative to systematically assess and safeguard
+    the Baekdudaegan
+- claim: Has begun building an intelligent operating system for the agriculture and forestry
+    satellite.
+  url: https://newsseoul.co.kr/news/view/1065586231937234
+  fetched: '2026-11-02'
+  quote: 이에 따라 국립산림과학원은 위성 데이터를 스스로 분석하고 실시간으로 문제를 해결하는 ‘지능형 농림위성 운영 체계’ 구축을 본격화하고 있다.
+- claim: An August 2025 report said it had developed AI to classify main Korean tree species
+    from terrestrial LiDAR point clouds.
+  url: https://m.etnews.com/20250801000023
+  fetched: '2026-11-02'
+  quote: 국립산림과학원(원장 김용관)이 지상 라이다(LiDAR) 센서를 활용해 취득한 3차원 점군(Point Cloud) 정보로 우리나라 대표 수종을 분류할
+    수 있는 인공지능(AI) 기반 자동화 기술을 개발했다.
+- claim: An August 2022 report said it held a forum on 25 July about combining remote sensing
+    and AI in forestry.
+  url: https://vig.kist.re.kr//?bmode=view&idx=12518335
+  fetched: '2026-11-02'
+  quote: 산림청 국립산림과학원(원장 박현)은 산림에 원격탐사를 활용한 디지털 정보구축과 인공지능(AI) 기술 활용 방안을 모색하기 위해
+- claim: Made a national forest carbon map with a machine learning algorithm combining flux
+    tower data, satellite images and ecosystem modelling.
+  url: https://www.pcccr.go.kr/base/board/read?boardManagementNo=43&boardNo=5855&menuLevel=&menuNo=&page=12&searchCategory=&searchType=&searchWord=
+  fetched: '2026-11-02'
+  quote: 플럭스타워 관측자료, 위성 영상, 생태계 모델링 등을 결합한 기계학습 기반 AI 알고리즘을 통해, 2000년부터 현재까지 산림의 연간 탄소흡수량을
+    정량화한 ‘산림 탄소지도’를 전국 단위로 제작했다.
+- claim: Press report says it developed AI that classifies tree species from ground LiDAR
+    point clouds.
+  url: https://m.etnews.com/20250801000023
+  fetched: '2026-11-02'
+  quote: 지상 라이다(LiDAR) 센서를 활용해 취득한 3차원 점군(Point Cloud) 정보로 우리나라 대표 수종을 분류할 수 있는 인공지능(AI) 기반
+    자동화 기술을 개발했다.
+- claim: Address is in Dongdaemun-gu, Seoul.
+  url: https://eng-nifos.forest.go.kr/kfsweb/kfi/kfs/cms/cmsView.do?cmsId=FC_003736&mn=UEFR_04_06_03_06
+  fetched: '2026-11-02'
+  quote: 57, Hoegi-ro, Dongdaemun-gu, Seoul, Republic of Korea
+links:
+- type: run-by
+  to: korea-forest-service
+  url: https://www.koreatimes.co.kr/amp/southkorea/20260526/ai-reshapes-conservation-efforts-for-koreas-ecological-backbone
+  fetched: '2026-11-02'
+  quote: The National Institute of Forest Science (NIFOS), an agency under the Korea Forest
+    Service
+- type: builds
+  to: baekdudaegan-species-distribution-mapping
+  url: https://www.koreatimes.co.kr/amp/southkorea/20260526/ai-reshapes-conservation-efforts-for-koreas-ecological-backbone
+  fetched: '2026-11-02'
+  quote: After aggregating this massive volume of data, researchers applied advanced statistical
+    techniques alongside nine distinct machine-learning models.
+- type: builds
+  to: nifos-lidar-tree-species-classification
+  url: https://m.etnews.com/20250801000023
+  fetched: '2026-11-02'
+  quote: 인공지능(AI) 기반 자동화 기술을 개발했다.
+- type: builds
+  to: ministry-of-oceans-and-fisheries-korea
+  url: https://www.pcccr.go.kr/base/board/read?boardManagementNo=43&boardNo=5855&menuLevel=&menuNo=&page=12&searchCategory=&searchType=&searchWord=
+  fetched: '2026-11-02'
+  quote: ‘산림 탄소지도’를 전국 단위로 제작했다.
+found_by:
+- checklist:2
+- link-from:national-land-satellite-center-korea
+also_known_as:
+- NIFoS
+- NIFOS
+- 국립산림과학원
+realms:
+- land
+techniques:
+- remote-sensing
+- species-distribution
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr

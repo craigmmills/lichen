@@ -1,0 +1,41 @@
+id: flovegsi
+kind: dataset
+name: FloVegSi (Fauna, Flora and Vegetation of Slovenia)
+also_known_as:
+- Database FloVegSi
+scope: si
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+countries:
+- si
+status: active
+summary: Database of more than 1.5 million faunistic, floristic and vegetation records,
+  mostly from Slovenia and nearby areas, created from 1987 onward, with mapping and
+  GIS export.
+facts:
+- claim: Holds more than 1.5 million faunistic, floristic and vegetation records,
+    mostly from Slovenia and nearby parts of Central and Southeastern Europe.
+  url: https://bijh.zrc-sazu.si/en/zbirka/database-flovegsi-fauna-flora-and-vegetation-of-slovenia-bijh-zrc-sazu
+  fetched: 2026-11-12
+  quote: The collection contains more than 1.5 million records of faunistic, floristic
+    and phytocoenological data (relevés), mostly from Slovenia and adjacent areas
+    of Central- and Southeastern Europe.
+- claim: Created from 1987 onward.
+  url: https://bijh.zrc-sazu.si/en/zbirka/database-flovegsi-fauna-flora-and-vegetation-of-slovenia-bijh-zrc-sazu
+  fetched: 2026-11-12
+  quote: Period of creating since 1987
+- claim: Outputs maps on UTM or Central European quadrants or precise locations, and
+    exports data for GIS applications.
+  url: https://bijh.zrc-sazu.si/en/zbirka/database-flovegsi-fauna-flora-and-vegetation-of-slovenia-bijh-zrc-sazu
+  fetched: 2026-11-12
+  quote: Data output is made in the form of maps at UTM or Central-European quadrants
+    or precise locations
+links: []
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

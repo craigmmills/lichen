@@ -1,0 +1,83 @@
+id: servicio-nacional-forestal-y-de-fauna-silvestre
+kind: organisation
+name: Servicio Nacional Forestal y de Fauna Silvestre
+also_known_as:
+- SERFOR
+- Serfor
+scope: pe
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Peru's national forest and wildlife authority, attached to the agrarian ministry
+  and working since 2014, which runs the SNIFFS forest and wildlife information system.
+facts:
+- claim: Describes itself as the national forest and wildlife authority.
+  url: https://www.gob.pe/institucion/serfor/institucional
+  fetched: 2026-11-03
+  quote: Somos la Autoridad Nacional Forestal y de Fauna Silvestre y tenemos como función
+    principal promover la gestión sostenible de la flora y fauna silvestre del país.
+- claim: Attached to the Ministerio de Desarrollo Agrario y Riego and governs the national
+    forest and wildlife management system (Sinafor); began work in 2014.
+  url: https://www.gob.pe/institucion/serfor/institucional
+  fetched: 2026-11-03
+  quote: El Servicio Nacional Forestal y de Fauna Silvestre (SERFOR) es el órgano adscrito
+    al Ministerio de Desarrollo Agrario y Riego. Es el ente rector del Sistema Nacional de
+    Gestión Forestal y de Fauna Silvestre (Sinafor) .
+- claim: Offers access to the national forest and wildlife information system (SNIFFS).
+  url: https://www.gob.pe/institucion/serfor/institucional
+  fetched: 2026-11-03
+  quote: Acceder al Sistema Nacional de Información Forestal y de Fauna Silvestre (SNIFFS)
+- claim: Registered as a GBIF data publisher endorsed by GBIF Peru.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040/organization?limit=200
+  fetched: 2026-11-03
+  quote: '"title":"Servicio Nacional Forestal y de Fauna Silvestre"'
+- claim: Offers SNIFFS as a service to public, private, regional and civil society users of
+    forest and wildlife information.
+  url: https://www.gob.pe/institucion/serfor/pages/10303-acceder-al-sistema-nacional-de-informacion-forestal-y-de-fauna-silvestre-sniffs
+  fetched: 2026-11-03
+  quote: puedes usar este servicio del Servicio Nacional Forestal y de Fauna Silvestre (Serfor)
+- claim: Its GBIF record calls it the national authority for forestry and wildlife in Peru.
+  url: https://api.gbif.org/v1/organization/06899e5a-7450-4ccc-a7ba-52885a3cf624
+  fetched: '2026-11-03'
+  quote: The National Forestry and Wildlife Service (SERFOR) is the national authority for
+    forestry and wildlife in Peru
+- claim: Its GBIF record says its research includes population assessments of flora and fauna
+    and evaluations of ecosystems and habitats.
+  url: https://api.gbif.org/v1/organization/06899e5a-7450-4ccc-a7ba-52885a3cf624
+  fetched: '2026-11-03'
+  quote: it carries out research studies that include the development of population assessments
+    of flora and fauna species
+- claim: Its GBIF record gives an address in La Molina.
+  url: https://api.gbif.org/v1/organization/06899e5a-7450-4ccc-a7ba-52885a3cf624
+  fetched: '2026-11-03'
+  quote: '"city":"La Molina","province":"Lima","country":"PE"'
+links:
+- type: partners-with
+  to: geobosques
+  url: https://www.gob.pe/966-plataforma-de-monitoreo-de-bosques-geobosques
+  fetched: 2026-11-03
+  quote: se encuentra bajo la coordinación del Ministerio del Ambiente (MINAM) en colaboración
+    con el Servicio Nacional Forestal y de Fauna Silvestre (SERFOR)
+- type: runs
+  to: sistema-nacional-de-informacion-forestal-y-de-fauna-silvestre
+  url: https://www.gob.pe/institucion/serfor/pages/10303-acceder-al-sistema-nacional-de-informacion-forestal-y-de-fauna-silvestre-sniffs
+  fetched: 2026-11-03
+  quote: puedes usar este servicio del Servicio Nacional Forestal y de Fauna Silvestre (Serfor)
+found_by:
+- checklist:1
+- link-from:gbif-peru
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03
+techniques:
+- remote-sensing

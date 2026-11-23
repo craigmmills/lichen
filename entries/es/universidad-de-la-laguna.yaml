@@ -1,0 +1,36 @@
+id: universidad-de-la-laguna
+kind: organisation
+name: Universidad de La Laguna
+also_known_as:
+- ULL
+- University of La Laguna
+scope: es
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+scale: regional
+status: active
+summary: Spanish university whose Department of Industrial Engineering is the first author's
+  affiliation on a 2026 paper describing an edge AI pipeline for real-time detection and classification
+  of killer whale vocalisations.
+facts:
+- claim: Jonas Philipp Luke is first author of a 2026 paper on an edge AI pipeline for real-time
+    detection and classification of killer whale vocalisations.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I158438070,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: An Edge AI Pipeline for Real-Time Detection, Discrimination, and Classification of
+    Killer Whale Vocalizations
+- claim: The first author's affiliation is the university's Department of Industrial Engineering.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I158438070,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Industrial, Universidad de La Laguna
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

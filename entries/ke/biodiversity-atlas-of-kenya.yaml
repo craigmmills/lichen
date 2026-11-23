@@ -1,0 +1,51 @@
+id: biodiversity-atlas-of-kenya
+kind: dataset
+name: Biodiversity Atlas of Kenya
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+- remote-sensing
+countries:
+- ke
+status: unknown
+website: http://www.biodiversityatlaskenya.org
+summary: Web portal of Kenyan biodiversity data for decisions at national and county
+  level, built by the African Conservation Centre with JRS funding.
+facts:
+- claim: The project built a web platform to support biodiversity assessment and decisions
+    in Kenya.
+  url: https://jrsbiodiversity.org/grants/african-conservation-centre-2018/
+  quote: build and populate the web-based platform, the Biodiversity Atlas of Kenya
+  fetched: &id001 2026-10-31
+- claim: All data compiled for the Natural Capital atlas were put on the portal.
+  url: https://jrsbiodiversity.org/grants/african-conservation-centre-2018/
+  quote: has made all biodiversity data compiled for the Natural capital atlas available
+    on the online portal
+  fetched: *id001
+- claim: A web platform for biodiversity assessment in Kenya.
+  url: https://jrsbiodiversity.org/grants/african-conservation-centre-2018/
+  fetched: '2026-10-31'
+  quote: to build and populate the web-based platform, the Biodiversity Atlas of Kenya,
+    to facilitate biodiversity information assessment and decision making at different
+    scales in Kenya.
+links:
+- type: run-by
+  to: african-conservation-centre
+  url: https://jrsbiodiversity.org/grants/african-conservation-centre-2018/
+  quote: African Conservation Centre
+  fetched: *id001
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/grants/african-conservation-centre-2018/
+  quote: African Conservation Centre (2018) - JRS Biodiversity Foundation
+  fetched: *id001
+found_by:
+- checklist:2
+added_by: agent
+checked: *id001
+also_known_as:
+- Kenya Biodiversity Atlas
+- BioAtlas

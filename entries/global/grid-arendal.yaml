@@ -1,0 +1,36 @@
+id: grid-arendal
+kind: organisation
+name: GRID-Arendal
+scope: global
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: 'no'
+scale: global
+status: active
+website: https://www.grida.no
+summary: Norwegian non-profit environmental organisation that works with UNEP. Store norske
+  leksikon says it was set up to collect environmental data and communicate it to decision-makers.
+facts:
+- claim: Describes itself as a non-profit that collaborates with UNEP and the Norwegian government.
+  url: https://www.grida.no/about
+  quote: We collaborate closely with UNEP, the Norwegian government
+  fetched: '2026-10-30'
+- claim: Gives an address at Teaterplassen 3, Norway.
+  url: https://www.grida.no/about
+  quote: Teaterplassen 3
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: united-nations-environment-programme
+  url: https://www.grida.no/about
+  quote: We collaborate closely with UNEP, the Norwegian government
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,47 @@
+id: university-of-birmingham
+kind: organisation
+name: University of Birmingham
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- other
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with a NERC doctoral award on monitoring and predicting biodiversity loss
+  with AI.
+facts:
+- claim: Gives its address at Edgbaston, Birmingham.
+  url: https://www.birmingham.ac.uk/contact
+  quote: B15 2TT
+  fetched: '2026-10-30'
+- claim: Developed the AI.
+  url: https://www.eurekalert.org/news-releases/1071292
+  quote: pioneering AI technology developed at the University of Birmingham
+  fetched: '2026-10-30'
+- claim: AI for Sustainability theme covers climate change, biodiversity loss and water resource
+    management.
+  url: https://www.birmingham.ac.uk/research/centres-institutes/birmingham-institute-for-sustainability-and-climate-action-bisca/ai-for-sustainability
+  quote: in addressing the world’s most pressing environmental challenges, including climate
+    change, biodiversity loss, and water resource management
+  fetched: &id001 2026-10-30
+- claim: Address on the theme page.
+  url: https://www.birmingham.ac.uk/research/centres-institutes/birmingham-institute-for-sustainability-and-climate-action-bisca/ai-for-sustainability
+  quote: Birmingham, B15 2TT
+  fetched: *id001
+found_by:
+- checklist:7
+- link-from:ai-to-detect-pollutants-harmful-to-lake-biodiversity
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.birmingham.ac.uk/

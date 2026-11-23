@@ -1,0 +1,39 @@
+id: flora-d-andorra-gbif-dataset
+kind: dataset
+name: Flora d'Andorra
+scope: ad
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ad
+scale: national
+status: unknown
+runner: unknown
+summary: GBIF dataset compiled by CENMA of the Institut d'Estudis Andorrans, containing
+  60,202 records of flora observed in Andorra, mostly from bibliographic citations,
+  and revised in March 2016.
+facts:
+- claim: GBIF's record says the dataset compiles flora data observed in Andorra.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50
+  fetched: 2026-11-15
+  quote: Los datos “Flora d’Andorra” son una recopilación de los datos de flora que
+    se han observado en territorio andorrano.
+- claim: The compilation was made by CENMA of the Institut d'Estudis Andorrans.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50
+  fetched: 2026-11-15
+  quote: Tal recopilación ha sido realizada por el Centre d’Estudis de la Neu i de
+    la Muntanya d’Andorra de l’Institut d’Estudis Andorrans (CENMA-IEA).
+- claim: It was revised and updated in March 2016 and holds 60,202 records.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50
+  fetched: 2026-11-15
+  quote: Este conjunto de datos fue revisado y actualizado en marzo de 2016 y contiene
+    un total de 60202 registros.
+- claim: Most records come from bibliographic citations.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AD&limit=50
+  fetched: 2026-11-15
+  quote: La gran mayoría de los datos provienen de citas bibliográficas
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

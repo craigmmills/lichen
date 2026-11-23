@@ -1,0 +1,44 @@
+id: uk-polar-data-centre
+kind: programme
+name: UK Polar Data Centre
+scope: gb
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+status: active
+website: https://www.bas.ac.uk/data/uk-pdc/
+summary: UK focal point for Arctic and Antarctic environmental data management, based
+  at the British Antarctic Survey.
+facts:
+- claim: Focal point for polar environmental data management.
+  url: https://www.bas.ac.uk/data/uk-pdc/
+  fetched: '2026-10-30'
+  quote: The UK Polar Data Centre (UK PDC) is the focal point for Arctic and Antarctic
+    environmental data management in the United Kingdom.
+- claim: Aims to make polar data available to all.
+  url: https://www.bas.ac.uk/data/uk-pdc/
+  fetched: '2026-10-30'
+  quote: are made available and accessible to all
+- claim: Publishes the dataset "KRILLBASE-length frequency database, a compilation
+    of scientific net sampling data on length, sex and maturity stage of " on GBIF.
+  url: https://api.gbif.org/v1/organization/80420c96-95d0-44eb-9f77-339ac92051fb/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: KRILLBASE-length frequency database, a compilation of scientific net sampling
+    data on length, sex and maturity stage of Euphausia superba around the Southern
+    Ocean, 1926 to 2016
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/80420c96-95d0-44eb-9f77-339ac92051fb/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: run-by
+  to: british-antarctic-survey
+  url: https://www.bas.ac.uk/data/uk-pdc/
+  fetched: '2026-10-30'
+  quote: UK PDC is based at the British Antarctic Survey
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

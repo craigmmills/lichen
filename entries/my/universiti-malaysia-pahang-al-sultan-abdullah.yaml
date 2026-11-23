@@ -1,0 +1,44 @@
+id: universiti-malaysia-pahang-al-sultan-abdullah
+kind: organisation
+name: Universiti Malaysia Pahang Al-Sultan Abdullah
+also_known_as:
+- UMPSA
+scope: my
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+- land
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: University that signed an agreement on 17 April 2025 with East Automation & Engineering
+  for AI river water quality monitoring, and is the first author's affiliation on a 2025 YOLOv8n
+  elephant intrusion detector paper.
+facts:
+- claim: Signed an agreement with East Automation & Engineering on 17 April 2025 for a project
+    to develop AI for river water quality monitoring.
+  url: https://ftkee.umpsa.edu.my/index.php/news-event/moa-signing-ceremony-pprn-grant-awarded-to-ftkee-umpsa
+  fetched: 2026-11-03
+  quote: A Memorandum of Agreement (MOA) was successfully signed between Universiti Malaysia
+    Pahang Al-Sultan Abdullah (UMPSA) and East Automation & Engineering Sdn. Bhd. (EAESB)
+    on 17 April 2025.
+- claim: OpenAlex lists a 2025 paper on an elephant intrusion detector based on YOLOv8n, with
+    a first author at this university.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:camera%20trap%20deep%20learning,from_publication_date:2020-01-01&per_page=15&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: 'YOLO-FES: An Improved Elephant Intrusion Detector Based on YOLOv8n'
+  ai_type: deep-learning
+found_by:
+- checklist:7
+- checklist:3
+added_by: agent
+checked: 2026-11-03
+techniques:
+- computer-vision
+ai_types:
+- deep-learning

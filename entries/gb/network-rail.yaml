@@ -1,0 +1,54 @@
+id: network-rail
+kind: organisation
+name: Network Rail
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: Owner of the UK rail network, which ExplorersWeb reports worked with ZSL on AI wildlife
+  monitoring on its land.
+facts:
+- claim: ExplorersWeb reports it owns 52,000 hectares of land.
+  url: https://explorersweb.com/ai-to-track-british-wildlife/
+  quote: Network Rail owns 52,000 hectares
+  fetched: '2026-10-30'
+- claim: Registered at Companies House as NETWORK RAIL LIMITED, company number 04402220.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=network+rail+limited
+  quote: 04402220 - Incorporated on 22 March 2002
+  fetched: '2026-10-30'
+- claim: Committed to biodiversity net gain on its land by 2035.
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: Network Rail’s commitment to achieve biodiversity net gain on its land by 2035
+  fetched: '2026-10-30'
+- claim: Surveyed its estate by satellite.
+  url: https://www.networkrail.co.uk/sustainability/biodiversity-on-britains-railway/
+  quote: using satellites to survey the whole of our estate
+  fetched: 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.networkrail.co.uk/contact
+  quote: 'Write to us: Network Rail, Waterloo General Office, London, SE1 8SW'
+  fetched: 2026-10-30
+- claim: Listed in the CIEEM 2024 Best Practice Innovation award for remote biodiversity monitoring
+    along the railway.
+  url: https://cieem.net/about-cieem/cieem-awards/2024-awards/
+  quote: Revolutionising technology-enabled remote biodiversity monitoring along the railway
+    network - Network Rail
+  fetched: '2026-10-31'
+found_by:
+- checklist:4
+- link-from:network-rail-lineside-vegetation-ai
+- rule:checklist-misses
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- remote-sensing
+website: https://www.networkrail.co.uk/

@@ -1,0 +1,42 @@
+id: reefnet
+kind: dataset
+name: ReefNet
+scope: global
+runner: unknown
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Public coral reef image dataset and benchmark with point labels mapped to the World Register of Marine Species, built
+  from 76 CoralNet sources and a site in the Red Sea.
+facts:
+- claim: Aggregates imagery from 76 curated CoralNet sources and a site at Al-Wajh in the Red Sea.
+  url: https://arxiv.org/html/2510.16822v2
+  quote: ReefNet aggregates imagery from 76 curated CoralNet sources
+  fetched: '2026-10-30'
+- claim: Lead institution on the paper is King Abdullah University of Science and Technology.
+  url: https://arxiv.org/html/2510.16822v2
+  quote: 1 King Abdullah University of Science and Technology (KAUST)
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: king-abdullah-university-of-science-and-technology
+  url: https://arxiv.org/html/2510.16822v2
+  quote: 1 King Abdullah University of Science and Technology (KAUST)
+  fetched: '2026-10-30'
+- type: builds-on
+  to: coralnet
+  url: https://arxiv.org/html/2510.16822v2
+  quote: ReefNet aggregates imagery from 76 curated CoralNet sources
+  fetched: '2026-10-30'
+- type: builds-on
+  to: world-register-of-marine-species
+  url: https://arxiv.org/html/2510.16822v2
+  quote: "We introduce ReefNet, a large public coral reef image dataset with point-label annotations mapped to the World Register of Marine Species (WoRMS)."
+  fetched: '2026-10-30'
+found_by:
+- link-from:coralnet
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,75 @@
+id: amur-tiger-recognition-system
+kind: project
+name: Amur tiger recognition system
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ru
+status: unknown
+summary: System that identifies Amur tigers by stripe pattern in camera-trap images;
+  Ecotech-Pro says it distinguishes 90 tigers, while one report says it needed more
+  training time.
+facts:
+- claim: Identifies tigers by the pattern of stripes.
+  url: https://eco-tourism.expert/en/news/ai-to-the-rescue-new-system-speeds-up-amur-tiger-identification
+  quote: The identification of rare predators is carried out according to the unique
+    pattern of stripes on the skin.
+  fetched: '2026-10-31'
+- claim: The report says the model already identifies tigers but the system needed
+    more training time.
+  url: https://eco-tourism.expert/en/news/ai-to-the-rescue-new-system-speeds-up-amur-tiger-identification
+  quote: The AI model already identifies tigers, but the system takes time to be trained.
+  fetched: '2026-10-31'
+- claim: The centre says the program finds tigers in camera-trap images and identifies
+    individuals already in its database; previously unidentified tigers get a new
+    passport.
+  url: https://amur-tiger.ru/news/sistema-raspoznavaniya-tigrov-nominirovana-na-prestijnyiy-mejdunarodnyiy-konkurs-1347
+  fetched: 2026-10-31
+  quote: Изображения с фотоловушек загружаются в программу, которая уже самостоятельно
+    определяет, есть ли в кадре тигр
+- claim: Ecotech-Pro says the system distinguishes 90 Amur tigers and offers the five
+    most similar individuals.
+  url: https://ecotech-pro.ru/projects/sokhranenie-bioraznoobraziya/sistema-identifikatsii-i-klassifikatsii-dikikh-zhivotnykh-po-fotolovushkam/
+  fetched: 2026-10-31
+  quote: Система уже различает 90 амурских тигров
+links:
+- type: built-by
+  to: amur-tiger-center
+  url: https://eco-tourism.expert/en/news/ai-to-the-rescue-new-system-speeds-up-amur-tiger-identification
+  quote: Therefore, the Amur Tiger Center decided to develop a new product jointly
+    with Sberbank, which has expertise in the field of artificial intelligence.
+  fetched: '2026-10-31'
+- type: partners-with
+  to: sber
+  url: https://eco-tourism.expert/en/news/ai-to-the-rescue-new-system-speeds-up-amur-tiger-identification
+  quote: Therefore, the Amur Tiger Center decided to develop a new product jointly
+    with Sberbank, which has expertise in the field of artificial intelligence.
+  fetched: '2026-10-31'
+- type: partners-with
+  to: far-eastern-ai-centre
+  url: https://eco-tourism.expert/en/news/ai-to-the-rescue-new-system-speeds-up-amur-tiger-identification
+  quote: is being implemented jointly with Sberbank and the Far Eastern Artificial
+    Intelligence Center of the Far Eastern Federal University
+  fetched: '2026-10-31'
+- type: partners-with
+  to: sber
+  url: https://amur-tiger.ru/news/sistema-raspoznavaniya-tigrov-nominirovana-na-prestijnyiy-mejdunarodnyiy-konkurs-1347
+  fetched: 2026-10-31
+  quote: реализуется совместно со Сбером и Дальневосточным центром искусственного
+    интеллекта ДВФУ
+- type: partners-with
+  to: far-eastern-federal-university
+  url: https://amur-tiger.ru/news/sistema-raspoznavaniya-tigrov-nominirovana-na-prestijnyiy-mejdunarodnyiy-konkurs-1347
+  fetched: 2026-10-31
+  quote: реализуется совместно со Сбером и Дальневосточным центром искусственного
+    интеллекта ДВФУ
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- Система распознавания амурского тигра

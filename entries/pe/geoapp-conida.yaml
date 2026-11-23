@@ -1,0 +1,54 @@
+id: geoapp-conida
+kind: programme
+name: GeoAPP
+scope: pe
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- pe
+status: active
+summary: Platform built and run by CONIDA that gives institutions, researchers and citizens high-resolution
+  satellite imagery, mainly from PerúSAT-1, and which CONIDA says uses AI to detect land-use change.
+facts:
+- claim: Gives public institutions, researchers and citizens access to high-resolution satellite imagery,
+    for problems including illegal mining and deforestation.
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: la primera plataforma nacional que permite a cualquier institución pública, investigador o ciudadano
+    acceder a imágenes satelitales de alta resolución
+- claim: CONIDA says the platform uses AI to detect changes in land use, water bodies or deforestation.
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: La plataforma integra inteligencia artificial para detectar cambios en uso de suelo, cuerpos
+    de agua o deforestación en lapsos muy cortos
+- claim: Built with free software; its main data source is PerúSAT-1.
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: GeoAPP ha sido desarrollada con herramientas de software libre y capacidades técnicas nacionales.
+    Su principal fuente de datos es el PeruSAT-1
+links:
+- type: built-by
+  to: comision-nacional-de-investigacion-y-desarrollo-aeroespacial
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: la Agencia Espacial del Perú (CONIDA) ha dado un paso histórico con el lanzamiento de GeoAPP
+- type: run-by
+  to: comision-nacional-de-investigacion-y-desarrollo-aeroespacial
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: Nueva plataforma de CONIDA permitirá acceder, desde cualquier lugar, a imágenes satelitales de
+    alta resolución
+- type: builds-on
+  to: perusat-1
+  url: https://www.gob.pe/institucion/conida/noticias/1225540-geoapp-el-satelite-peruano-que-vigila-y-protege-el-futuro-del-pais
+  fetched: 2026-11-03
+  quote: Su principal fuente de datos es el PeruSAT-1
+found_by:
+- checklist:1
+- link-from:comision-nacional-de-investigacion-y-desarrollo-aeroespacial
+added_by: agent
+checked: 2026-11-03

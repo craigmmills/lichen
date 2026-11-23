@@ -1,0 +1,59 @@
+id: universidad-nacional-de-ingenieria
+kind: organisation
+name: Universidad Nacional de Ingeniería
+also_known_as:
+- UNI
+- National University of Engineering
+scope: pe
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+ai_types:
+- deep-learning
+website: https://portal.uni.edu.pe/
+summary: A university whose researchers are carrying out OSINFOR's Edge AI forest fire detection
+  pilot together with OSINFOR.
+facts:
+- claim: A team of its researchers is carrying out OSINFOR's Edge AI forest fire detection
+    pilot with OSINFOR.
+  url: https://www.gob.pe/institucion/osinfor/noticias/1386117-el-osinfor-innova-en-la-deteccion-temprana-de-incendios-forestales-en-la-amazonia
+  fetched: 2026-11-03
+  quote: se viene ejecutando en colaboración con un equipo de investigadores de la Universidad
+    Nacional de Ingeniería (UNI)
+- claim: OpenAlex lists National University of Engineering as an education institution in
+    Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "https://portal.uni.edu.pe/", "country_code": "PE", "type": "education"'
+- claim: OpenAlex lists a 2018 paper with its authors on segmenting Mauritia flexuosa palms
+    in drone imagery with deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I62520931,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Automatic Segmentation of Mauritia flexuosa in Unmanned Aerial Vehicle (UAV) Imagery
+    Using Deep Learning
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2023 paper with its authors on identifying Peruvian timber species
+    with convolutional neural networks.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I62520931,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Identification of Peruvian timber species based on image processing and convolutional
+    neural networks
+links: []
+found_by:
+- link-from:osinfor-edge-ai-forest-fire-pilot
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-03

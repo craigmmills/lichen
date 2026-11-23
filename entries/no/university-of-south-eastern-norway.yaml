@@ -1,0 +1,36 @@
+id: university-of-south-eastern-norway
+kind: organisation
+name: University of South-Eastern Norway
+also_known_as:
+- USN
+scope: 'no'
+summary: University whose affiliated researchers, including Simone Santoro, appear in OpenAlex
+  on a 2025 paper and a 2026 review about AI and image processing in camera trap data.
+facts:
+- claim: 'OpenAlex lists Simone Santoro, affiliated with the university, as first author of
+    the 2025 paper "Essential tools but overlooked bias: Artificial intelligence and citizen
+    science classification affect camera trap data".'
+  url: https://api.openalex.org/works?filter=authorships.countries:NO,publication_year:%3E2019,primary_topic.id:T10895%7CT12640%7CT10199%7CT10319%7CT12713%7CT10765%7CT10302%7CT10226,concepts.id:C119857082%7CC108583219&per-page=50&select=title,publication_year,doi,authorships
+  fetched: '2026-11-02'
+  quote: 'Essential tools but overlooked bias: Artificial intelligence and citizen science
+    classification affect camera trap data'
+- claim: 'OpenAlex lists Simone Santoro and Andreas Zedrosser, affiliated with the university,
+    on the 2026 review "More Tools Than Users: A Scoping Review of Image-Processing Automation
+    in Mammal Camera Trapping".'
+  url: https://api.openalex.org/works?filter=authorships.countries:NO,publication_year:%3E2019,primary_topic.id:T10895%7CT12640%7CT10199%7CT10319%7CT12713%7CT10765%7CT10302%7CT10226,concepts.id:C119857082%7CC108583219&per-page=50&select=title,publication_year,doi,authorships
+  fetched: '2026-11-02'
+  quote: 'More Tools Than Users: A Scoping Review of Image'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- unknown
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+realms:
+- land

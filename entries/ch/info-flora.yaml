@@ -1,0 +1,54 @@
+id: info-flora
+kind: organisation
+name: Info Flora
+also_known_as:
+- InfoFlora
+- National Data and Information Center on the Swiss Flora
+scope: ch
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: ch
+scale: national
+status: active
+website: https://www.infoflora.ch
+summary: A non-profit foundation with offices in Geneva, Bern and Lugano, serving as the national
+  data centre for Swiss wild plants, with FlorApp for reporting observations.
+facts:
+- claim: WSL says users of its FlorApp can share observations for scientific purposes.
+  url: https://wsl.ch/en/news/plant-diversity-accurate-distribution-maps-thanks-to-participatory-science-and-ai
+  quote: Users of InfoFlora's popular FlorApp can share their observations for scientific
+    purposes.
+  fetched: '2026-11-02'
+- claim: The national data and information centre for the Swiss flora.
+  url: https://naturwissenschaften.ch/biodiversity-explained/beobachten_dokumentieren/daten/datenzentren_der_schweiz
+  fetched: '2026-11-02'
+  quote: Info Flora – Nationales Daten- und Informationszentrum der Schweizer Flora
+- claim: FlorApp lets botanists report plant observations to the data centre and now helps
+    identify plants.
+  url: https://www.wsl.ch/en/news/a-new-app-to-identify-plants-more-precisely/
+  fetched: '2026-11-02'
+  quote: With Info Flora's FlorApp, botany enthusiasts have been able to report their plant
+    observations from the field to the data centre.
+links:
+- type: partners-with
+  to: infospecies
+  url: https://naturwissenschaften.ch/biodiversity-explained/beobachten_dokumentieren/daten/datenzentren_der_schweiz
+  fetched: '2026-11-02'
+  quote: Info Flora – Nationales Daten- und Informationszentrum der Schweizer Flora
+- type: uses
+  to: florid
+  url: https://www.wsl.ch/en/news/a-new-app-to-identify-plants-more-precisely/
+  fetched: '2026-11-02'
+  quote: The FlorID image recognition tool developed by WSL researchers makes this possible.
+found_by:
+- checklist:2
+- link-from:infospecies
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision

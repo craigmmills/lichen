@@ -1,0 +1,31 @@
+id: samoa-biodiversity-database
+kind: dataset
+name: Samoa Biodiversity Database
+also_known_as: []
+scope: ws
+ai_label: data-infrastructure
+realms:
+- land
+status: unknown
+summary: Dataset on GBIF, maintained by the environment ministry, that aggregates historic occurrence
+  records from many contributors and has approximately 7,539 occurrences.
+facts:
+- claim: The GBIF dataset record says it aggregates historic occurrence records from many contributors
+    and is maintained by MNRE.
+  url: https://api.gbif.org/v1/dataset/ed7d4c25-b00a-4b7f-b84b-1f5286bfba8f
+  fetched: 2026-11-12
+  quote: This dataset is an aggregation of historic occurrence records collected by many contributors.
+- claim: GBIF gives an approximate count of 7,539 occurrences.
+  url: https://api.gbif.org/v1/dataset/ed7d4c25-b00a-4b7f-b84b-1f5286bfba8f
+  fetched: 2026-11-12
+  quote: '"occurrenceCount":7539'
+links:
+- type: run-by
+  to: ministry-of-natural-resources-and-environment-samoa
+  url: https://api.gbif.org/v1/dataset/ed7d4c25-b00a-4b7f-b84b-1f5286bfba8f
+  fetched: 2026-11-12
+  quote: It is maintained by the Samoan  Ministry of Natural Resources and Environment (MNRE).
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

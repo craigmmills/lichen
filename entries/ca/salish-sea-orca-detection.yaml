@@ -1,0 +1,46 @@
+id: salish-sea-orca-detection
+kind: project
+name: Salish Sea orca sound detection
+also_known_as: []
+scope: ca
+ai_label: ai
+status: unknown
+realms:
+- ocean
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning
+countries:
+- ca
+runner: unknown
+summary: Google, Fisheries and Oceans Canada and Rainforest Connection used deep neural
+  networks to monitor Southern Resident killer whales in the Salish Sea from audio
+  at 12 locations.
+facts:
+- claim: Google used deep neural networks with Fisheries and Oceans Canada and Rainforest
+    Connection to track orcas.
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: we used deep neural networks to track, monitor and observe the orcas’ behavior
+    in the Salish Sea
+  ai_type: deep-learning
+- claim: The model analyses live sound at 12 locations.
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: The model is used to analyze live sounds that DFO monitors across 12 locations
+links:
+- type: partners-with
+  to: fisheries-and-oceans-canada
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: Teaming up with DFO and Rainforest Connection
+- type: partners-with
+  to: rainforest-connection
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: Teaming up with DFO and Rainforest Connection
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

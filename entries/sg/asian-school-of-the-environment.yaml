@@ -1,0 +1,88 @@
+id: asian-school-of-the-environment
+kind: organisation
+name: Asian School of the Environment
+also_known_as:
+- ASE
+- NTU Asian School of the Environment
+scope: sg
+sector: academic
+roles:
+- unknown
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+hq: sg
+countries:
+- sg
+scale: regional
+status: active
+website: https://www.ntu.edu.sg/ase
+summary: Interdisciplinary school within Nanyang Technological University, run by it, researching ecology
+  and biodiversity conservation; in May 2024 NTU reported 10 moth monitoring stations placed around Singapore.
+facts:
+- claim: Its GBIF publisher record describes it as an interdisciplinary school within Nanyang Technological
+    University addressing environmental challenges in Southeast Asia.
+  url: https://api.gbif.org/v1/organization/bcca26a2-c260-4784-96f7-fda23a2761fd
+  fetched: '2026-11-08'
+  quote: The Asian School of the Environment is an interdisciplinary school within Nanyang Technological
+    University
+- claim: Its GBIF publisher record gives an address at 50 Nanyang Avenue, Singapore.
+  url: https://api.gbif.org/v1/organization/bcca26a2-c260-4784-96f7-fda23a2761fd
+  fetched: '2026-11-08'
+  quote: 50 Nanyang Avenue Singapore 639798
+- claim: The NTU and Smithsonian Tropical Research Institute partnership, begun in 2015, aims to develop
+    the school as a major scientific hub for the Smithsonian's ForestGEO programme in the region.
+  url: https://www.ntu.edu.sg/ase/ntu-smithsonian-partnership
+  fetched: '2026-11-08'
+  quote: Expand and develop the Asian School of the Environment as a major scientific hub for the Smithsonian’s
+    ForestGEO program in the region with the necessary laboratory and field infrastructure.
+- claim: Says its research covers ecology and the conservation of environment and biodiversity, among
+    other topics.
+  url: https://www.ntu.edu.sg/ase
+  fetched: '2026-11-08'
+  quote: conservation of environment and biodiversity
+- claim: Its research topics include ecology and the conservation of environment and biodiversity.
+  url: https://www.ntu.edu.sg/ase
+  fetched: 2026-11-08
+  quote: We conduct cutting-edge research on topics that include ecology, geohazards, climate change,
+    sea-level rise, environmental sustainability, conservation of environment and biodiversity
+- claim: NTU reported in May 2024 that 10 remote moth monitoring stations, each with an ultraviolet light
+    and a camera, had been placed around Singapore; AI could identify moth species in real time after
+    establishing a local database using iNaturalist images.
+  url: https://www.ntu.edu.sg/news/detail/scientists-turn-to-moths-to-assess-health-of-ecosystems
+  fetched: 2026-11-08
+  quote: 10 remote monitoring stations have been placed around the island, each fitted with an ultraviolet
+    (UV) light source to attract the insects and a camera to photograph them automatically.
+- claim: NTU says the data from the monitoring systems will feed into a larger study led by the UK Centre
+    for Ecology and Hydrology and the Alan Turing Institute, part of the AMBER project.
+  url: https://www.ntu.edu.sg/news/detail/scientists-turn-to-moths-to-assess-health-of-ecosystems
+  fetched: 2026-11-08
+  quote: The data from the monitoring systems will feed into a larger study helmed by Britain’s Centre
+    for Ecology and Hydrology and the Alan Turing Institute
+- claim: Publishes dung beetle occurrence and sampling-event datasets for Singapore and Sabah on GBIF
+    under a CC BY-NC 4.0 licence.
+  url: https://api.gbif.org/v1/organization/bcca26a2-c260-4784-96f7-fda23a2761fd/publishedDataset
+  fetched: 2026-11-08
+  quote: 'Sampling Event and Occurrence Records of Dung Beetles (Coleoptera: Scarabaeidae: Scarabaeinae)
+    from Sabah, Malaysia Borneo'
+links:
+- type: run-by
+  to: nanyang-technological-university
+  url: https://api.gbif.org/v1/organization/bcca26a2-c260-4784-96f7-fda23a2761fd
+  fetched: '2026-11-08'
+  quote: The Asian School of the Environment is an interdisciplinary school within Nanyang Technological
+    University
+- type: run-by
+  to: nanyang-technological-university
+  url: https://www.ntu.edu.sg/news/detail/scientists-turn-to-moths-to-assess-health-of-ecosystems
+  fetched: 2026-11-08
+  quote: NTU Asian School of the Environment
+found_by:
+- link-from:smithsonian-tropical-research-institute
+- register:sg
+added_by: agent
+checked: '2026-11-08'
+techniques:
+- computer-vision

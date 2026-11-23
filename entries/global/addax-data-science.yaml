@@ -1,0 +1,54 @@
+id: addax-data-science
+kind: organisation
+name: Addax Data Science
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: nl
+scale: global
+status: active
+website: https://addaxdatascience.com
+summary: Offers custom coding for ecologists and makes AddaxAI, open-source software for identifying
+  animals in camera-trap images.
+facts:
+- claim: Lists a KVK number, the Dutch company register.
+  url: https://addaxdatascience.com/about/
+  fetched: '2026-10-30'
+  quote: 'KVK : 91094720'
+- claim: Offers custom coding for ecologists.
+  url: https://addaxdatascience.com/
+  fetched: '2026-10-30'
+  quote: Addax Data Science - Customised coding solutions for ecologists
+- claim: AddaxAI, which it makes, offers DINOv2 ViT embedding models.
+  url: https://addaxdatascience.com/addaxai/
+  fetched: '2026-10-30'
+  quote: DINOv2 ViT-S/14
+  ai_type: deep-learning
+- claim: The Journal of Open Source Software describes AddaxAI as a no-code platform to train
+    and deploy object detection models.
+  url: https://www.theoj.org/joss-papers/joss.05581/10.21105.joss.05581.pdf
+  quote: 'AddaxAI: A no-code platform to train and deploy'
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: addaxai
+  url: https://addaxdatascience.com/about/
+  fetched: '2026-10-30'
+  quote: I’ve also created the open-source AI platform AddaxAI
+- type: partners-with
+  to: smart-parks
+  url: https://addaxdatascience.com/addaxai/
+  fetched: '2026-10-30'
+  quote: AddaxAI is a collaboration between Addax Data Science and Smart Parks,
+found_by:
+- global:nature-tech-companies
+added_by: agent
+checked: '2026-10-30'

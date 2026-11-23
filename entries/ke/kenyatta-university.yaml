@@ -1,0 +1,50 @@
+id: kenyatta-university
+kind: organisation
+name: Kenyatta University
+scope: ke
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: ke
+website: https://www.ku.ac.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university, a local partner in the WildDrone project on autonomous drones
+  and computer vision for wildlife monitoring.
+facts:
+- claim: A local partner in WildDrone.
+  url: https://www.sdu.dk/en/forskning/sduuascenter/newslist/sdu-forskere-tester-banebrydende-teknologi-i-kenya
+  quote: The WildDrone project is built on close collaboration with Kenyan authorities, researchers,
+    and students from Kenyatta University
+  fetched: '2026-10-30'
+- claim: Involved in the CO-KENDAI seed funding project.
+  url: https://dfcentre.com/co-designing-kenyan-danish-ai-and-robotics-for-sustainability-and-impact/
+  fetched: '2026-10-31'
+  quote: involves Kenyatta University (KU) and University of Southern Denmark (SDU)
+- claim: Gives P.O. Box 43844 in Nairobi as its contact address.
+  url: https://www.ku.ac.ke/
+  fetched: '2026-10-31'
+  quote: P.O. Box 43844 – 00100, Nairobi, Kenya
+links:
+- type: partners-with
+  to: wilddrone
+  url: https://www.sdu.dk/en/forskning/sduuascenter/newslist/sdu-forskere-tester-banebrydende-teknologi-i-kenya
+  quote: Local partners include Ol Pejeta Conservancy, Kenyatta University, Kenya Flying Labs
+  fetched: '2026-10-30'
+- type: partners-with
+  to: co-kendai
+  url: https://dfcentre.com/co-designing-kenyan-danish-ai-and-robotics-for-sustainability-and-impact/
+  fetched: '2026-10-31'
+  quote: 4APioneer as secondary partner co-leading the project together with KU and SDU
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

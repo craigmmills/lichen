@@ -1,0 +1,35 @@
+id: dunn-family-charitable-foundation
+kind: organisation
+name: Dunn Family Charitable Foundation
+scope: us
+sector: funder
+roles:
+- funds
+ai_label: ai
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: US grant maker recorded in tax filings data on Grantable as funding Conservation
+  X Labs.
+facts:
+- claim: Grantable records grants to Conservation X Labs.
+  url: https://grantable.co/nonprofits/conservation-x-labs-inc-morg_2f5c4858d95b4563bca2b21fbd32dccc
+  fetched: '2026-10-30'
+  quote: Dunn Family Charitable Foundation $10,000 1 2022
+- claim: ProPublica lists US foundations with this name, in Massachusetts and Florida; the
+    page does not say which one made the grant.
+  url: https://projects.propublica.org/nonprofits/api/v2/search.json?q=Dunn+Family+Charitable+Foundation
+  fetched: '2026-10-31'
+  quote: Dunn Family Charitable Foundation
+links:
+- type: funds
+  to: conservation-x-labs
+  url: https://grantable.co/nonprofits/conservation-x-labs-inc-morg_2f5c4858d95b4563bca2b21fbd32dccc
+  fetched: '2026-10-30'
+  quote: Dunn Family Charitable Foundation $10,000 1 2022
+found_by:
+- link-from:conservation-x-labs
+added_by: agent
+checked: '2026-10-30'

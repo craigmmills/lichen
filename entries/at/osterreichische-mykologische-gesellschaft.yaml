@@ -1,0 +1,42 @@
+id: osterreichische-mykologische-gesellschaft
+kind: organisation
+name: Österreichische Mykologische Gesellschaft
+also_known_as:
+- Austrian Mycological Society
+- ÖMG
+scope: at
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Austrian mycological society that manages a mycological database of fungal observations,
+  mainly from Austria and recorded since the 1980s, with experts checking the plausibility
+  of species identifications.
+facts:
+- claim: Its dataset holds fungal observations mainly from Austria, recorded since the 1980s
+    by members and citizen scientists of the Pilzfinder.at project.
+  url: https://api.gbif.org/v1/organization/839f8ed0-bafb-11d9-8e53-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: Findings were recorded beginning in the 1980ies by members of the Austrian Mycological
+    Society and Citizen Scientists of the Pilzfinder.at project.
+- claim: Manages the mycological database.
+  url: https://api.gbif.org/v1/organization/839f8ed0-bafb-11d9-8e53-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: The mycological database is managed by the ÖMG.
+- claim: A team of experts, including professional mycologists, checks the plausibility of
+    species identifications.
+  url: https://api.gbif.org/v1/organization/839f8ed0-bafb-11d9-8e53-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-07
+  quote: The plausibility of species identification is checked by a team of experts of the
+    ÖMG, which also includes professional mycologists.
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

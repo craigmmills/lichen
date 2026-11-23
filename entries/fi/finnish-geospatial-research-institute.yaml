@@ -1,0 +1,73 @@
+id: finnish-geospatial-research-institute
+kind: organisation
+name: Finnish Geospatial Research Institute
+also_known_as:
+- FGI
+sector: government
+roles:
+- uses-ai
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Research and expert institute for spatial data infrastructures, run by the National
+  Land Survey of Finland, named as a BiodiLogDef research partner; deep learning on dense
+  laser scanning identified nine tree species at 92% average accuracy.
+facts:
+- claim: Named as a research partner in BiodiLogDef on the National Land Survey of Finland's
+    website.
+  url: https://www.maanmittauslaitos.fi/en/node/20831
+  fetched: '2026-11-02'
+  quote: Research partners are the University of Eastern Finland (UEF), the University of
+    Turku (UTU), Natural Resources Institute Finland (Luke) and Finnish Geospatial Research
+    Institute (FGI).
+- claim: OpenAlex lists a paper by its researchers on tree health decline detected by neural
+    network from drone images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:FI,primary_topic.subfield.id:2303|2309|1105|1107|1104,concepts.id:C119857082|C108583219,from_publication_date:2022-01-01&sort=cited_by_count:desc&per_page=60&select=title,publication_year,cited_by_count,doi,authorships
+  fetched: '2026-11-02'
+  quote: Estimating Tree Health Decline Caused by Ips typographus L. from UAS RGB Images Using
+    a Deep One-Stage Object Detection Neural Network
+- claim: A research and expert institute for spatial data infrastructures.
+  url: https://www.maanmittauslaitos.fi/en/research/about-us/organisation
+  quote: The Finnish Geospatial Research Institute (FGI) is a research and expert institute
+    that carries out research and development for spatial data infrastructures.
+  fetched: '2026-11-02'
+- claim: Deep learning on dense laser scanning data identified nine tree species with an average
+    accuracy of 92%.
+  url: https://www.maanmittauslaitos.fi/en/topical_issues/accurate-aerial-identification-tree-species-new-method-boosts-forestry-productivity
+  fetched: '2026-11-02'
+  quote: through deep learning, which identified nine tree species
+  ai_type: deep-learning
+- claim: Average identification accuracy was 92%.
+  url: https://www.maanmittauslaitos.fi/en/topical_issues/accurate-aerial-identification-tree-species-new-method-boosts-forestry-productivity
+  fetched: '2026-11-02'
+  quote: The average identification accuracy of these trees was 92%
+found_by:
+- checklist:3
+- checklist:1
+- checklist:register
+scope: fi
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: run-by
+  to: national-land-survey-of-finland
+  url: https://www.terramonitor.com/labs/
+  quote: The Finnish Geospatial Research Institute (FGI), part of the National Land Survey
+    of Finland (NLS)
+  fetched: '2026-11-02'
+- type: run-by
+  to: national-land-survey-of-finland
+  url: https://www.maanmittauslaitos.fi/en/topical_issues/data-individual-trees-become-available-forest-sector-benefits-also-forest-act
+  fetched: '2026-11-02'
+  quote: Finnish Geospatial Research Institute (FGI) of the National Land Survey of Finland
+countries:
+- fi
+ai_types:
+- deep-learning

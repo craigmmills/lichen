@@ -1,0 +1,25 @@
+id: indiasat
+kind: dataset
+name: IndiaSAT
+scope: in
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- in
+status: unknown
+runner: unknown
+summary: An open pixel-level land cover dataset for India, for training classifiers
+  on Landsat 7, Landsat 8 and Sentinel-2 imagery.
+facts:
+- claim: An open pixel-level dataset for land cover classification in India.
+  quote: Presenting an open pixel-level dataset for land-cover classification in India
+    that can be used to train classifiers for Landsat-7, Landsat-8, and Sentinel-2
+  url: https://github.com/ChahatBansal8060/IndiaSat
+  fetched: '2026-10-31'
+found_by:
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'

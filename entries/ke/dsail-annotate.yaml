@@ -1,0 +1,60 @@
+id: dsail-annotate
+kind: project
+name: DSAIL-Annotate
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ke
+status: active
+summary: Application in development at DSAIL, with Mugie Conservancy, that processes
+  large sets of camera trap images and reports species statistics.
+facts:
+- claim: An application in development that processes camera trap images.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: A screenshot of DSAIL-Annotate, an application in development that processes
+    large sets of camera trap images
+  fetched: '2026-10-30'
+- claim: Runs a cascade of models.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: runs the processing behind the scenes using a cascade of models
+  fetched: '2026-10-30'
+- claim: DSAIL says its wider camera trap work aims to combine animal detection, species
+    classification and individual animal re-identification.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  fetched: '2026-10-31'
+  quote: By combining animal detection, species classification, and individual animal
+    re-identification, we aim to build tools
+- claim: Says DSAIL-Annotate is an application in development that summarises species
+    prevalence.
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  fetched: '2026-10-30'
+  quote: A screenshot of DSAIL-Annotate, an application in development
+- claim: DSAIL reports one Grévy's zebra for typically three plains zebras at Mugie
+    Wildlife Conservancy.
+  url: https://dekut-dsail.github.io/Blogs/LeedsVisit.html
+  fetched: '2026-10-30'
+  quote: The images found that for one Grévy's zebra there were typically three Plain
+    zebras at Mugie Wildlife Conservancy.
+links:
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: In partnership with Mugie Conservancy in Laikipia, Northern Kenya we are developing
+    an application to process large sets of camera trap images.
+  fetched: '2026-10-31'
+- type: partners-with
+  to: mugie-conservancy
+  url: https://dekut-dsail.github.io/projects/mugie.html
+  quote: In partnership with Mugie Conservancy in Laikipia
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+- link-from:university-of-leeds
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- DSAIL-Annotate

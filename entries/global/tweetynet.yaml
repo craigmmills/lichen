@@ -1,0 +1,33 @@
+id: tweetynet
+kind: model
+name: TweetyNet
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+status: unknown
+runner: unknown
+website: https://github.com/yardencsGitHub/tweetynet
+summary: Neural network using hybrid convolutional-recurrent layers to annotate birdsong
+  and other vocalisations by segmenting and labelling spectrograms.
+facts:
+- claim: Neural network that annotates birdsong and other vocalisations by segmenting
+    and labelling spectrograms.
+  url: https://github.com/yardencsGitHub/tweetynet
+  fetched: 2026-11-21
+  quote: that automates annotation of birdsong and other vocalizations by segmenting
+    spectrograms,
+- claim: Uses hybrid convolutional-recurrent neural networks.
+  url: https://github.com/yardencsGitHub/tweetynet
+  fetched: 2026-11-21
+  quote: Hybrid convolutional-recurrent neural networks for segmentation of birdsong
+    and classification of elements
+  ai_type: deep-learning
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

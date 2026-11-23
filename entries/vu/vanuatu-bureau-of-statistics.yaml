@@ -1,0 +1,68 @@
+id: vanuatu-bureau-of-statistics
+kind: organisation
+name: Vanuatu Bureau of Statistics
+also_known_as:
+- VBoS
+- Vanuatu National Statistics Office
+- VNSO
+scope: vu
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: vu
+countries: []
+scale: national
+status: active
+summary: National statistics body that leads a project launched in 2024 using satellite
+  imagery processed through Digital Earth Pacific to produce annual land cover and
+  coral reef health maps, with models validated on field data.
+facts:
+- claim: Its project page says the Vanuatu Data Science Driving Innovation in Climate
+    Change and Natural Disasters project is led by the Vanuatu Bureau of Statistics
+    and was launched in 2024.
+  url: https://vbos.gov.vu/index.php/en/data-publications/disaster-climate-project
+  fetched: 2026-11-15
+  quote: The Vanuatu Data Science Driving Innovation in Climate Change and Natural
+    Disasters project is a pioneering initiative led by the Vanuatu Bureau of Statistics
+    (VBoS).
+- claim: The page says satellite imagery is processed through Digital Earth Pacific
+    to generate annual maps, among them land use and land cover and coral reef health.
+  url: https://vbos.gov.vu/index.php/en/data-publications/disaster-climate-project
+  fetched: 2026-11-15
+  quote: Satellite imagery processed via Digital Earth Pacific to generate annual
+    maps on
+- claim: The page says its models are trained and validated with field data.
+  url: https://vbos.gov.vu/index.php/en/data-publications/disaster-climate-project
+  fetched: 2026-11-15
+  quote: Models are trained, validated with field data, and iteratively improved.
+  ai_type: ml-supervised
+- claim: A UN SIAP page on an April 2024 training in machine learning and GIS for
+    land cover estimation at VBoS says the land cover work VBoS had done in partnership
+    with Radiant Earth uses the Forest Inventory, supplied by the Department of Forestry,
+    as a ground truth dataset.
+  url: https://www.unsiap.or.jp/event/2024-04-15-GIS.html
+  fetched: 2026-11-15
+  quote: This utilises the Forest Inventory as a ground truth dataset, which was made
+    available to VBoS by the Department of Forestry.
+  ai_type: ml-supervised
+- claim: The same page says land cover data for VBoS's land accounts was proposed
+    to build on the work VBoS had done in partnership with Radiant Earth.
+  url: https://www.unsiap.or.jp/event/2024-04-15-GIS.html
+  fetched: 2026-11-15
+  quote: For Land cover data, it is proposed to build on the work that VBoS has done
+    in partnership with Radiant Earth, subject to review of the sources, methods and
+    code.
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

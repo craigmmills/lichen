@@ -1,0 +1,57 @@
+id: naturhistorisk-museum-aarhus
+kind: organisation
+name: Naturhistorisk Museum Aarhus
+also_known_as:
+- Natural History Museum Aarhus
+scope: dk
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: dk
+scale: national
+status: active
+website: https://www.naturhistoriskmuseum.dk
+summary: Aarhus natural history museum, named as a partner in Arter and in a planned three-year
+  mammal monitoring project, which lists faunistics and bioacoustics among its research areas.
+facts:
+- claim: Named as a partner in Arter.
+  url: https://arter.dk/
+  fetched: '2026-11-02'
+  quote: Arter er et samarbejde mellem Styrelsen for Grøn Arealomlægning og Vandmiljø, Statens
+    Naturhistoriske Museum og Naturhistorisk Museum Aarhus.
+- claim: Its address is in Aarhus.
+  url: https://www.naturhistoriskmuseum.dk/
+  fetched: &id001 2026-11-02
+  quote: Wilhelm Meyers Allé 10
+- claim: Lists faunistics among its research areas.
+  url: https://www.naturhistoriskmuseum.dk/viden-forskning/forskning
+  fetched: *id001
+  quote: Faunistik (læren om dyrearters udbredelse inden for et bestemt område)
+- claim: Its site lists bioacoustics among its research areas.
+  url: https://www.naturhistoriskmuseum.dk/viden-forskning/samlinger/hvirveldyr
+  fetched: *id001
+  quote: Bioakustik
+- claim: Says its vertebrate collection is used for work including biodiversity monitoring.
+  url: https://www.naturhistoriskmuseum.dk/viden-forskning/samlinger/hvirveldyr
+  fetched: *id001
+  quote: Samlingen anvendes til taksonomi, artsbestemmelse, populationsstudier, overvågning
+    af biodiversitet
+- claim: Named as a partner in a planned three-year mammal monitoring project with Danmarks
+    Jægerforbund, in an undated release.
+  url: https://www.avjf.dk/pressemeddelelser/8123/
+  fetched: *id001
+  quote: Projektet er et samarbejde mellem Danmarks Jægerforbund, Nationalt Center for Miljø
+    og Energi (Institut for Ecoscience, Aarhus Universitet), Naturhistorisk Museum Aarhus
+    og Statens Naturhistoriske Museum.
+found_by:
+- checklist:2
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+techniques:
+- bioacoustics

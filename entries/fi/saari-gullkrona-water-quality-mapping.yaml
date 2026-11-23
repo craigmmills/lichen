@@ -1,0 +1,45 @@
+id: saari-gullkrona-water-quality-mapping
+kind: project
+name: SAARI
+also_known_as: []
+scope: fi
+ai_label: conservation-tech
+realms:
+- ocean
+status: closed
+summary: Closed project, run by the Baltic Sea Action Group and Pro Litore, that measured
+  water quality at about 3,000 points in 2023 and 2024 using the automatic, moving
+  Coastrider method.
+facts:
+- claim: Measured water quality at about 3,000 points in spring, summer and autumn
+    of 2023 and 2024.
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: The project measures water quality from approximately 3000 measuring points
+    during the spring, summer and fall of 2023 and 2024.
+- claim: Pro Litore carried out the measurements with the Coastrider method, an automatic,
+    moving measuring system.
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: Pro Litore ry will carry this out with the Coastrider method, which measures
+    the water quality using an automatic, moving measuring system.
+- claim: The measurements form a basis for monitoring the protection in the future.
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: This also creates a strong basis for monitoring the protection in the future.
+links:
+- type: run-by
+  to: baltic-sea-action-group
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: SAARI is a joint project between Pro Litore ry and BSAG.
+- type: run-by
+  to: pro-litore
+  url: https://www.bsag.fi/en/projects/saari/
+  fetched: '2026-11-08'
+  quote: Pro Litore ry will carry this out with the Coastrider method
+found_by:
+- rule:checklist-misses
+- link-from:baltic-sea-action-group
+added_by: agent
+checked: '2026-11-08'

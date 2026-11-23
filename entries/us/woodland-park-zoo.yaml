@@ -1,0 +1,62 @@
+id: woodland-park-zoo
+kind: organisation
+name: Woodland Park Zoo
+scope: us
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: us
+scale: local
+countries:
+- us
+status: active
+summary: Seattle zoo running the Seattle Urban Carnivore Project, with a Microsoft AI for
+  Good award for AI on wildlife camera and acoustic data.
+facts:
+- claim: Awardee for the Seattle Urban Carnivore Project.
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: 'Awardee : Woodland Park Zoo'
+- claim: Received a grant from Microsoft's AI for Good Lab and is testing SPARROW.
+  url: https://news.microsoft.com/source/features/ai/could-ai-help-save-one-of-the-pacific-northwests-most-vulnerable-animals/
+  quote: Woodland Park Zoo is among 20 organizations to receive a grant earlier this year
+    from Microsoft’s AI for Good Lab
+  fetched: '2026-10-30'
+- claim: Gives its address in Seattle.
+  url: https://www.zoo.org/contact
+  fetched: '2026-10-31'
+  quote: 'Mailing Address: 5500 Phinney Ave. N., Seattle, WA 98103'
+- claim: The IRS exempt organisation record, through ProPublica, lists Woodland Park Zoological
+    Society in Seattle, Washington.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/916070005.json
+  fetched: '2026-10-31'
+  quote: '"city":"Seattle","state":"WA"'
+links:
+- type: runs
+  to: seattle-urban-carnivore-project
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: 'Awardee : Woodland Park Zoo'
+- type: funded-by
+  to: microsoft-ai-for-good-lab
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: 'Awardee : Woodland Park Zoo'
+- type: funded-by
+  to: microsoft-ai-for-good-lab
+  url: https://news.microsoft.com/source/features/ai/could-ai-help-save-one-of-the-pacific-northwests-most-vulnerable-animals/
+  quote: Woodland Park Zoo is among 20 organizations to receive a grant earlier this year
+    from Microsoft’s AI for Good Lab
+  fetched: '2026-10-30'
+found_by:
+- link-from:microsoft-ai-for-good-lab
+- checklist:4
+added_by: agent
+checked: '2026-10-30'
+website: https://www.zoo.org

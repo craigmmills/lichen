@@ -1,0 +1,48 @@
+id: swissnatcoll
+kind: programme
+name: SwissNatColl
+also_known_as:
+- Swiss Natural History Collections
+- SwissNatColl
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+scale: national
+status: active
+website: https://swissnatcoll.ch
+runner: unknown
+summary: A programme whose portal offers open access to specimen data from collections preserved in Switzerland,
+  and which is listed among the GBIF node's publishers.
+facts:
+- claim: The portal offers open access to specimen data from collections preserved in Switzerland.
+  url: https://swissnatcoll.ch
+  quote: This portal offers open access to their specimen data.
+  fetched: '2026-11-02'
+- claim: The GBIF node's list of publishers includes it.
+  url: https://api.gbif.org/v1/node/169eb292-376b-4cc6-8e31-9c2c432de0ad/organization?limit=300
+  quote: '"title":"Swiss Natural History Collections - SwissNatColl"'
+  fetched: '2026-11-02'
+- claim: Offers open access to specimen data.
+  url: https://swissnatcoll.ch/
+  fetched: '2026-11-02'
+  quote: This portal offers open access to their specimen data.
+found_by:
+- link-from:gbif-switzerland
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+countries:
+- ch
+links:
+- type: partners-with
+  to: gbif-swiss-node
+  url: https://swissnatcoll.ch/en/about-partners
+  fetched: '2026-11-02'
+  quote: Maintenance infrastructure and technical support are provided by the GBIF Swiss Node
+- type: partners-with
+  to: gbif-switzerland
+  url: https://swissnatcoll.ch
+  fetched: '2026-11-02'
+  quote: GBIF Swiss Node / info fauna

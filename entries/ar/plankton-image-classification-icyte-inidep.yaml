@@ -1,0 +1,34 @@
+id: plankton-image-classification-icyte-inidep
+kind: project
+name: Deep learning for large-scale plankton image classification (ICYTE and INIDEP)
+scope: ar
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- ar
+scale: local
+status: unknown
+summary: Deep learning study on large-scale plankton image classification, listed by OpenAlex as a 2025
+  paper with co-authors affiliated with INIDEP, Argentina's national fisheries research institute.
+facts:
+- claim: OpenAlex lists a 2025 paper on deep learning for large-scale plankton image classification.
+  url: https://api.openalex.org/works/W4415214000?select=id,title,doi,publication_year,authorships
+  quote: Deep Learning for Large-Scale Plankton Image Classification
+  ai_type: deep-learning
+  fetched: '2026-11-03'
+- claim: Co-authors give affiliations at INIDEP, Argentina's national fisheries research and development
+    institute.
+  url: https://api.openalex.org/works/W4415214000?select=id,title,doi,publication_year,authorships
+  quote: Pesquero (INIDEP), Buenos Aires, Argentina
+  fetched: '2026-11-03'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+runner: unknown

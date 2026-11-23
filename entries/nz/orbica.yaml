@@ -1,0 +1,56 @@
+id: orbica
+kind: organisation
+name: Orbica
+also_known_as: []
+scope: nz
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: nz
+countries:
+- nz
+scale: national
+status: active
+summary: Christchurch geospatial company whose work for Fire and Emergency New Zealand,
+  reported in 2021, used a convolutional neural network and open satellite data to
+  classify wildfire fuel types.
+facts:
+- claim: ChristchurchNZ's listing describes Orbica as a geospatial company and gives
+    an address in Christchurch Central City.
+  url: https://www.christchurchnz.com/business/growth-sectors/christchurch-antarctic-gateway/christchurch-antarctic-network/listing/orbica
+  fetched: 2026-11-15
+  quote: Orbica is a different kind of geospatial company.
+- claim: A Fire and Emergency New Zealand research report (report 181, 2021) sets
+    out work Orbica did for the agency on identifying wildfire fuel types from open-access
+    satellite data.
+  url: https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-181-The-use-of-open-access-satellite-data-to-identify-wildfire-fuel-types-2021.pdf
+  fetched: 2026-11-15
+  quote: This document reports on the findings of work undertaken by Orbica for Fire
+    and Emergency
+- claim: The report used a convolutional neural network deep learning model to classify
+    fuel types.
+  url: https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-181-The-use-of-open-access-satellite-data-to-identify-wildfire-fuel-types-2021.pdf
+  fetched: 2026-11-15
+  quote: The deep learning AI model uses a convolutional neural network algorithm
+    (CNN) to classify
+  ai_type: deep-learning
+- claim: A case study in the 2021 report showed that gorse and broom could be separated
+    using Sentinel-2 data and differences in their flowering times.
+  url: https://www.fireandemergency.nz/assets/Documents/Research-and-reports/Report-181-The-use-of-open-access-satellite-data-to-identify-wildfire-fuel-types-2021.pdf
+  fetched: 2026-11-15
+  quote: 'We have shown that by using a range of techniques the separation of Gorse
+    vs Broom is
+
+    possible using Sentinel-2 data.'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

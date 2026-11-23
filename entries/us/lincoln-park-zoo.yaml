@@ -1,0 +1,46 @@
+id: lincoln-park-zoo
+kind: organisation
+name: Lincoln Park Zoo
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+hq: us
+scale: local
+countries:
+- us
+status: active
+summary: Chicago zoo whose Urban Wildlife Institute runs camera monitoring stations across
+  the region, with Zooniverse volunteers classifying images in Chicago Wildlife Watch.
+facts:
+- claim: Urban Wildlife Institute has monitoring stations in the Chicago area, per Zooniverse.
+  url: https://www.zooniverse.org/projects/zooniverse/chicago-wildlife-watch/about/research
+  fetched: '2026-10-30'
+  quote: Lincoln Park Zoo’s Urban Wildlife Institute has established monitoring stations within
+    city parks
+- claim: Its home page gives its administration offices at 2001 North Clark Street, Chicago.
+  url: https://www.lpzoo.org/
+  fetched: '2026-10-31'
+  quote: 'Administration Offices: 2001 North Clark Street'
+- claim: The IRS exempt organisation record, through ProPublica, lists Lincoln Park Zoological
+    Society at Chicago, Illinois.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/362512404.json
+  fetched: '2026-10-31'
+  quote: '"city":"Chicago","state":"IL"'
+links:
+- type: uses
+  to: zooniverse
+  url: https://www.zooniverse.org/projects/zooniverse/chicago-wildlife-watch/about/research
+  fetched: '2026-10-30'
+  quote: Lincoln Park Zoo’s Urban Wildlife Institute has established monitoring stations within
+    city parks
+found_by:
+- link-from:zooniverse
+added_by: agent
+checked: '2026-10-30'
+website: https://www.lpzoo.org/

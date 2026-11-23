@@ -1,0 +1,36 @@
+id: tay-nguyen-university
+kind: organisation
+name: Tay Nguyen University
+also_known_as: []
+scope: vn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- vn
+scale: national
+status: active
+funding_at_risk: false
+summary: University with an author listed in OpenAlex as first author of a paper on predicting
+  land use and land cover change from multi-temporal satellite imagery with a multi-layer
+  perceptron Markov model.
+facts:
+- claim: OpenAlex lists an author at Tay Nguyen University as first author of the paper titled
+    "LAND USE/LAND COVER CHANGE PREDICTION USING MULTI-TEMPORAL SATELLITE IMAGERY AND MULTI-LAYER
+    PERCEPTRON MARKOV MODEL".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:047van922|05h7nhz20|011c0vt04|003szmg30|04k1add31|03z9fzp04|00qpm2f14|05n473c60|01s7bde64|023pm6532|04h4y6q56|014cke235|00m9h6b62|01fj37d94|00gjkwr85|00st18g74|028zxrr95|02v5ef260|03zq1xf40|00dd6af44|00gxs8147|052yjgk16|04gv3mr75|00tp4wm41|03nypmk85|01jxtqc31|02vwfma54|009mr2428|00c72nj97|0164qgj37|04yzbtf37|01j85cs18,concepts.id:C62649853,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: LAND USE/LAND COVER CHANGE PREDICTION USING MULTI-TEMPORAL SATELLITE IMAGERY AND
+    MULTI-LAYER PERCEPTRON MARKOV MODEL
+links: []
+found_by:
+- register:vn
+- checklist:3
+added_by: agent
+checked: 2026-11-08

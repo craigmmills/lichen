@@ -1,0 +1,26 @@
+id: scanneredge
+kind: programme
+name: ScannerEdge
+ai_label: conservation-tech
+realms:
+- land
+status: active
+summary: A passive radio-frequency detector from Hack the Planet that warns rangers
+  of phones and radios in zones where there should be none.
+facts:
+- claim: Listens for signals from phones, VHF radios and sat-phones.
+  url: https://www.hack-the-planet.io/products/
+  fetched: &id001 2026-10-31
+  quote: ScannerEdge is a passive RF detector that quietly listens for the signals
+    every phone, VHF radio and sat-phone unavoidably emits.
+links:
+- type: run-by
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/products/
+  fetched: *id001
+  quote: "Field-proven hardware and software, built alongside the rangers, NGOs and research teams who use it every day."
+found_by:
+- link-from:hack-the-planet
+scope: nl
+added_by: agent
+checked: *id001

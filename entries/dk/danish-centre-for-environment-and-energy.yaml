@@ -1,0 +1,116 @@
+id: danish-centre-for-environment-and-energy
+kind: organisation
+name: DCE - Danish Centre for Environment and Energy
+also_known_as:
+- DCE
+- Nationalt Center for Miljø og Energi
+scope: dk
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: dk
+scale: national
+status: active
+website: https://dce.au.dk
+summary: A central Aarhus University unit carrying out some NOVANA monitoring, which published
+  2026 notes on AI image recognition for moth traps and alternative data sources.
+facts:
+- claim: Says the eight data centres sit at two departments of Aarhus University and that
+    it carries out some of the monitoring.
+  url: https://dce.au.dk/en/monitoring
+  fetched: '2026-11-02'
+  quote: just as DCE carries out some of the monitoring for NOVANA
+- claim: Central unit of Aarhus University.
+  url: https://dce.au.dk/en/about-dce
+  fetched: '2026-11-02'
+  quote: DCE is Aarhus University's central unit for knowledge exchange within the areas of
+    nature, environment, climate and energy.
+- claim: Runs eight scientific data centres under NOVANA.
+  url: https://dce.au.dk/en/monitoring
+  fetched: '2026-11-02'
+  quote: DCE runs eight scientific data centres for the Danish Ministry of the Environment
+    under NOVANA
+- claim: Reorganised from the former National Environmental Research Institute, which closed
+    on 30 June 2011.
+  url: https://dce.au.dk/en/monitoring
+  fetched: '2026-11-02'
+  quote: DCE has been reorganised from the former National Environmental Research Institute
+    (NERI) which was closed on 30 June 2011.
+- claim: Runs eight specialist data centres under NOVANA for the environment ministry and
+    carries out part of the monitoring.
+  url: https://dce.au.dk/overvaagning
+  fetched: '2026-11-02'
+  quote: DCE driver for Miljøministeriet otte fagdatacentre under Det nationale overvågningsprogram
+    for vandmiljø og natur (NOVANA), ligesom DCE udfører en del af overvågningen under NOVANA.
+- claim: Says it supports policy-making with research and specialist knowledge.
+  url: http://dce.au.dk/en/
+  fetched: &id001 2026-11-02
+  quote: We support policy-making with research and specialist knowledge
+- claim: Published a 2026 note on AI-assisted image recognition with AMI traps for night-flying
+    moths.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: AI-assisteret billedgenkendelse – AMI-fælder og natsommerfugle
+- claim: The note says DCE would set up, maintain and process data from the traps as a package.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: for en pakkeløsning, hvor DCE sørger for opstilling og nedtagning af fælder,
+- claim: Aarhus University's 2025 to 2028 nature and water service agreement lists developing
+    methods for monitoring and recognising species with AI.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Rammeaftale/ya-au-natur-og-vand-2025-2028.pdf
+  fetched: *id001
+  quote: Udvikling af metoder til monitering og genkendelse af arter ved hjælp af kunstig
+    intelligens
+- claim: The same agreement has Aarhus University writing an annual NOVANA report on species
+    and habitats.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Rammeaftale/ya-au-natur-og-vand-2025-2028.pdf
+  fetched: *id001
+  quote: AU udarbejder årlig NOVANA rapport vedr. arter og naturtyper
+- claim: Published a 2026 screening of alternative data sources for monitoring terrestrial
+    habitats in NOVANA.
+  url: http://dce.au.dk/en/
+  fetched: *id001
+  quote: Alternative datakilder til overvågning af terrestriske naturtyper. Opdateret screening
+    af muligheder for NOVANA-programmet.
+links:
+- type: run-by
+  to: aarhus-university
+  url: https://ecos.au.dk/en/researchconsultancy/topic-centres
+  fetched: '2026-11-02'
+  quote: The Department of Ecoscience provides independent, research-based consultancy to
+    authorities and businesses through DCE - Danish Centre For Environment And Energy
+- type: run-by
+  to: aarhus-university
+  url: https://dce.au.dk/en/about-dce
+  fetched: '2026-11-02'
+  quote: DCE is Aarhus University's central unit for knowledge exchange within the areas of
+    nature, environment, climate and energy.
+- type: run-by
+  to: aarhus-university
+  url: https://dce.au.dk/overvaagning
+  fetched: '2026-11-02'
+  quote: 'DCE - Nationalt Center for Miljø og Energi
+
+    Aarhus Universitet'
+- type: run-by
+  to: aarhus-university
+  url: http://dce.au.dk/en/
+  fetched: *id001
+  quote: Aarhus Universitet, DCE – Nationalt Center for Miljø og Energi
+found_by:
+- checklist:2
+- link-from:aarhus-university
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+- gl
+techniques:
+- computer-vision

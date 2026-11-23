@@ -1,0 +1,41 @@
+id: eskisehir-technical-university
+kind: organisation
+name: Eskisehir Technical University
+scope: tr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: University with OpenAlex-listed deep learning papers, including DiatomNet for diatom
+  classification (2024), shoreline segmentation from Landsat 8 (2020) and beehive monitoring
+  models (2021).
+facts:
+- claim: OpenAlex lists a 2024 paper presenting DiatomNet, a lightweight convolutional neural
+    network for diatom classification.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210091955,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: 'A lightweight convolutional neural network (CNN) model for diatom classification:
+    DiatomNet'
+- claim: OpenAlex lists a 2020 paper on an ensemble deep learning approach to shoreline segmentation
+    from Landsat 8 images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210091955,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: An ensemble deep learning based shoreline segmentation approach (WaterNet) from Landsat
+    8 OLI images
+- claim: OpenAlex lists a 2021 paper on deep learning classification models for beehive monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210091955,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219&sort=cited_by_count:desc&per_page=8&select=id,display_name,publication_year
+  fetched: '2026-11-03'
+  quote: Deep learning-based classification models for beehive monitoring
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

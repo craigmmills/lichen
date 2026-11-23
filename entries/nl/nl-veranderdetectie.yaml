@@ -1,0 +1,41 @@
+id: nl-veranderdetectie
+kind: project
+name: NL Veranderdetectie
+scope: nl
+ai_label: ai
+status: active
+runner: unknown
+realms:
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- nl
+summary: Dutch pilot that uses AI on recent aerial photographs to detect changes in
+  watercourses for a digital water map.
+facts:
+- claim: AI detects changes in watercourses from the latest aerial photographs, and
+    they appear on the map after a check.
+  url: https://publicaties.stowa.nl/stowa-ter-info-97/digitale-transformatie-vanuit-de-lucht-hoe-ziet-dat-eruit
+  fetched: '2026-10-31'
+  quote: AI detecteert wijzigingen in waterlopen op basis van de meest recente luchtfoto’s
+- claim: STOWA ter Info lists eleven water boards, Rijkswaterstaat and Het Waterschapshuis
+    in its facts box.
+  url: https://publicaties.stowa.nl/stowa-ter-info-97/digitale-transformatie-vanuit-de-lucht-hoe-ziet-dat-eruit
+  fetched: '2026-10-31'
+  quote: Elf waterschappen, RWS en het Waterschapshuis
+links:
+- type: partners-with
+  to: het-waterschapshuis
+  url: https://publicaties.stowa.nl/stowa-ter-info-97/digitale-transformatie-vanuit-de-lucht-hoe-ziet-dat-eruit
+  fetched: '2026-10-31'
+  quote: Elf waterschappen, RWS en het Waterschapshuis
+- type: partners-with
+  to: rijkswaterstaat
+  url: https://publicaties.stowa.nl/stowa-ter-info-97/digitale-transformatie-vanuit-de-lucht-hoe-ziet-dat-eruit
+  fetched: '2026-10-31'
+  quote: Elf waterschappen, RWS en het Waterschapshuis
+found_by:
+- link-from:stowa
+added_by: agent
+checked: '2026-10-31'

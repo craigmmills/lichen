@@ -1,0 +1,42 @@
+id: siberian-federal-university
+kind: organisation
+name: Siberian Federal University
+scope: ru
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+scale: national
+hq: ru
+status: active
+summary: Krasnoyarsk university whose authors, all affiliated with it, developed a convolutional
+  neural network model to detect forest fires, according to a 2024 International Research
+  Journal article.
+facts:
+- claim: The International Research Journal (2024) says its authors, all at the university,
+    developed a convolutional neural network model to detect forest fires.
+  url: https://research-journal.org/media/articles/15095.pdf
+  fetched: '2026-10-31'
+  quote: разработана свёрточная нейросетевая модель
+  ai_type: deep-learning
+- claim: The article gives the university as every author's affiliation.
+  url: https://research-journal.org/media/articles/15095.pdf
+  fetched: '2026-10-31'
+  quote: 1, 2, 3, 4, 5, 6, 7 Сибирский федеральный университет, Красноярск, Российская Федерация
+- claim: Its GBIF publisher record gives its address in Krasnoyarsk.
+  url: https://api.gbif.org/v1/organization/f22f4f50-5def-4327-aacf-ff4519d6562a
+  fetched: '2026-10-31'
+  quote: 660041, Krasnoyarsk region, Krasnoyarsk city, Svobodny Prospekt, 79
+also_known_as:
+- СФУ
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+website: https://www.sfu-kras.ru/
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

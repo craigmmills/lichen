@@ -1,0 +1,42 @@
+id: project-seeker
+kind: project
+name: Project SEEKER
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- gb
+status: unknown
+summary: Microsoft AI model trained to spot illegally trafficked wildlife items in
+  luggage and cargo scans, trialled at Heathrow Airport with UK Border Force and Smiths
+  Detection.
+facts:
+- claim: Microsoft says it trialled the model at Heathrow Airport, scanning up to
+    250,000 bags a day.
+  url: https://ukstories.microsoft.com/features/first-of-its-kind-multispecies-ai-model-to-detect-illegal-wildlife-trafficking-is-ready-to-roll-out-to-airports/
+  quote: Microsoft has trialled the Azure-based technology at Heathrow Airport, where
+    it scanned up to 250,000 bags a day.
+  fetched: &id001 2026-10-30
+- claim: Developed by a United Kingdom and United States team.
+  url: https://www.microsoft.com/en-us/microsoft-cloud/blog/public-safety-and-justice/2022/01/31/project-seeker-using-artificial-intelligence-for-good/
+  quote: developed by a United Kingdom and United States team
+  fetched: *id001
+- claim: CGI describes it as a partnership between Heathrow Airport, Microsoft, UK
+    Border Force and Smiths Detection.
+  url: https://www.cgi.com/uk/en-gb/case-study/aerospace/project-seeker-ai-model-detect-illegal-wildlife-trafficking-borders
+  quote: a partnership between Heathrow Airport , Microsoft , UK Border Force and
+    Smiths Detection
+  fetched: *id001
+links:
+- type: run-by
+  to: microsoft
+  url: https://ukstories.microsoft.com/features/first-of-its-kind-multispecies-ai-model-to-detect-illegal-wildlife-trafficking-is-ready-to-roll-out-to-airports/
+  quote: has been developed by Microsoft
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

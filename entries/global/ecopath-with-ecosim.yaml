@@ -1,0 +1,27 @@
+id: ecopath-with-ecosim
+kind: model
+name: Ecopath with Ecosim
+also_known_as:
+- EwE
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://ecopath.org
+summary: Ecological modelling software suite with static, time-dynamic and spatial modules. DITTO lists it as a science partner.
+facts:
+- claim: An ecological modelling software suite built up since the early 1990s.
+  url: https://ecopath.org/about/
+  quote: Ecopath with Ecosim (EwE) is an ecological modeling software suite
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: ecopath-international-initiative
+  url: https://ecopathinternational.org/project/ewe/
+  quote: Ecopath International Initiative is the development headquarters of the Ecopath with Ecosim food web modelling approach
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

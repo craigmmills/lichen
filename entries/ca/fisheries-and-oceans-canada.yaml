@@ -1,0 +1,99 @@
+id: fisheries-and-oceans-canada
+kind: organisation
+name: Fisheries and Oceans Canada
+also_known_as:
+- DFO
+scope: ca
+sector: government
+roles:
+- funds
+- supplies-data
+- governs
+- uses-ai
+ai_label: ai
+scale: national
+hq: ca
+status: active
+realms:
+- ocean
+- freshwater
+techniques:
+- bioacoustics
+summary: Federal department that monitors marine species. It supplied audio and labels for
+  a machine learning model that detects orcas and gave financial support to the smartWhales
+  detection project.
+facts:
+- claim: Provided 1,800 hours of underwater audio and 68,000 labels to train an orca sound
+    model, according to Google.
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: DFO provided 1,800 hours of underwater audio and 68,000 labels that identified the
+    origin of the sound
+- claim: The Ocean Tracking Network says it receives funding from the department.
+  url: https://oceantrackingnetwork.org/funding-partners/
+  fetched: '2026-10-31'
+  quote: Transport Canada, and Fisheries and Oceans Canada
+- claim: The Whale Detection Initiative provides $9.1 million over five years to develop and
+    test technologies to detect whales in near-real time.
+  url: https://www.dfo-mpo.gc.ca/species-especes/mammals-mammiferes/cetacean-cetaces/protecting-protection/index-eng.html
+  fetched: '2026-10-31'
+  quote: This initiative will provide $9.1 million over 5 years to develop and test technologies
+    to detect whales in near-real time
+- claim: One funded project improves AI tools that detect Southern Resident killer whale calls.
+  url: https://www.dfo-mpo.gc.ca/species-especes/mammals-mammiferes/cetacean-cetaces/protecting-protection/index-eng.html
+  fetched: '2026-10-31'
+  quote: will build upon existing artificial intelligence strategies and improve tools able
+    to automatically detect Southern Resident killer whale calls
+- claim: Whale Insight displays detections of North Atlantic right whales in eastern Canadian
+    waters.
+  url: https://www.dfo-mpo.gc.ca/species-especes/mammals-mammiferes/narightwhale-baleinenoirean/alert-alerte/index-eng.html
+  fetched: '2026-10-31'
+  quote: Whale Insight is an interactive visualization tool that displays detections of North
+    Atlantic right whales
+- claim: Describes itself as the federal lead for managing fisheries, oceans and freshwater
+    resources.
+  url: https://api.gbif.org/v1/organization/c98a8d0d-cab2-4506-8c0f-c91a5e4996b9
+  fetched: '2026-10-31'
+  quote: is the federal lead for safeguarding our waters and managing Canada's fisheries,
+    oceans and freshwater resources
+- claim: Google says DFO provided 1,800 hours of underwater audio and 68,000 labels to train
+    a machine learning model.
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: DFO provided 1,800 hours of underwater audio and 68,000 labels
+- claim: Google says the model analyses live sounds that DFO monitors across 12 locations.
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: The model is used to analyze live sounds that DFO monitors across 12 locations
+links:
+- type: funds
+  to: smartwhales-space-based-detection-system
+  url: https://hatfieldgroup.com/news/hatfield-altaml-smartwhales/
+  fetched: '2026-10-31'
+  quote: undertaken with the financial support of the Canadian Space Agency and Fisheries
+    and Oceans Canada
+- type: funds
+  to: ocean-tracking-network
+  url: https://oceantrackingnetwork.org/funding-partners/
+  fetched: '2026-10-31'
+  quote: OTN also receives funding from the National Sciences and Engineering Research Council
+    of Canada (NSERC), Research Nova Scotia, Transport Canada, and Fisheries and Oceans Canada
+- type: partners-with
+  to: google
+  url: https://blog.google/innovation-and-ai/products/protecting-orcas/
+  fetched: '2026-10-31'
+  quote: partnering with Fisheries and Oceans Canada (DFO)
+- type: runs
+  to: obis-canada
+  url: https://dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html
+  fetched: '2026-10-31'
+  quote: Fisheries and Oceans Canada supports OBIS by managing the OBIS Canada node and contributing
+    datasets.
+found_by:
+- checklist:1
+- link-from:ocean-tracking-network
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

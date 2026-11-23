@@ -1,0 +1,21 @@
+id: ecoregions-2017
+kind: dataset
+name: Ecoregions 2017
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+website: https://ecoregions.appspot.com
+summary: Map of terrestrial ecoregions from the 2017 paper An Ecoregion-Based Approach to
+  Protecting Half the Terrestrial Realm, by Eric Dinerstein and co-authors.
+facts:
+- claim: OpenAlex lists the 2017 paper.
+  url: https://api.openalex.org/works?filter=doi:10.1093/biosci/bix014&select=display_name,publication_year,authorships
+  quote: An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm
+  fetched: '2026-10-30'
+found_by:
+- link-from:global-safety-net
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

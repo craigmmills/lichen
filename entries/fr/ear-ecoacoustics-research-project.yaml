@@ -1,0 +1,57 @@
+id: ear-ecoacoustics-research-project
+kind: programme
+name: EAR (ecoacoustics research project)
+also_known_as:
+- ear
+scope: fr
+ai_label: ai
+ai_types:
+- ml-unsupervised
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://ear.cnrs.fr/
+summary: Ecoacoustic research site from members of a Paris institute at the Muséum national
+  d'Histoire naturelle and CNRS, offering open-access tools such as scikit-maad and running
+  the sonosylva project.
+facts:
+- claim: The site is dedicated to ecoacoustic research by members of the Institut de Systématique
+    Evolution et Biodiversité, from the Muséum national d'Histoire naturelle and CNRS in Paris.
+  url: https://ear.cnrs.fr/
+  fetched: 2026-11-22
+  quote: ecoacoustic research conducted by members of the Institut de Systématique Evolution
+    et Biodiversité
+- claim: Develops open-access tools to conduct ecoacoustic research.
+  url: https://ear.cnrs.fr/tools/
+  fetched: 2026-11-22
+  quote: We develop open-access tools to conduct ecoacoustic research.
+- claim: One of its tools, scikit-maad, is a toolbox for unsupervised classification of sounds.
+  url: https://ear.cnrs.fr/tools/
+  fetched: 2026-11-22
+  quote: scikit-maad is an open source python-R toolbox to run unsupervised classification
+    of sounds.
+  ai_type: ml-unsupervised
+- claim: Lists current projects by site, among them dB@Nouragues, alongside the sonosylva
+    project.
+  url: https://ear.cnrs.fr/
+  fetched: 2026-11-22
+  quote: dB@Nouragues
+- claim: A 2026 news item reports a paper defining Contrastive Ecoacoustic Indices built on
+    the Contrastive Language-Audio Pretraining (CLAP) model.
+  url: https://ear.cnrs.fr/
+  fetched: 2026-11-22
+  quote: Building upon Contrastive Language-Audio Pretraining (CLAP) model, we defined novel
+    Contrastive Ecoacoustic Indices (CEI)
+links:
+- type: runs
+  to: sonosylva
+  url: https://ear.cnrs.fr/
+  fetched: 2026-11-22
+  quote: Adrien Gosse, who is a CentraleSupélec Ingineer, joins EAR, and more specifically
+    our sonosylva project.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

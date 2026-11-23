@@ -1,0 +1,69 @@
+id: wwf-australia
+kind: organisation
+name: WWF-Australia
+scope: au
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- computer-vision
+- edna-genomics
+hq: unknown
+scale: national
+status: active
+website: https://wwf.org.au
+summary: Australian arm of WWF, which uses Wildlife Insights on camera images, set up the
+  First Nations-led Eyes on Country project and works with Indigenous rangers on AI drone
+  koala surveys.
+facts:
+- claim: Used Wildlife Insights, which it says identifies over 700 species in seconds.
+  url: https://wwf.org.au/blogs/ai-helps-protect-australian-wildlife-in-fire-affected-areas
+  fetched: '2026-10-31'
+  quote: With the Wildlife Insights platform
+  ai_type: we can now identify over 700 species of wildlife in seconds
+- claim: Eyes on Recovery captured 8.5 million images in 17 surveys across four states.
+  url: https://wwf.org.au/what-we-do/species/eye-on-recovery
+  fetched: '2026-10-31'
+  quote: The Eyes on Recovery cameras were located across four Australian states and included
+    17 unique monitoring surveys.
+- claim: States that it uses AI where it helps its mission and that human judgement stays
+    essential.
+  url: https://wwf.org.au/blogs/wwf-australia-is-testing-and-applying-responsible-uses-of-ai-to-unlock-new-ways-to-protect-and-regenerate-nature
+  fetched: '2026-10-31'
+  quote: At WWF-Australia, we use AI where it helps advance our mission to protect and regenerate
+    nature.
+links:
+- type: uses
+  to: wildlife-insights
+  url: https://wwf.org.au/blogs/ai-helps-protect-australian-wildlife-in-fire-affected-areas
+  fetched: '2026-10-31'
+  quote: With the Wildlife Insights platform
+  logo: we can now identify over 700 species of wildlife in seconds
+- type: runs
+  to: eyes-on-country
+  url: https://wwf.org.au/news/2025/spotting-ngunba-the-moment-rangers-jumped-for-joy
+  fetched: '2026-10-31'
+  quote: ‘Eyes on Country’, a First Nations-led project established by the World Wide Fund
+    for Nature-Australia with funding support from Google.org
+- type: partners-with
+  to: fireproofing-koalas
+  url: https://wwf.org.au/news/2024/indigenous-rangers-using-ai-and-drones-to-fireproof-minjerribahs-remarkable/
+  fetched: '2026-10-31'
+  quote: The World Wide Fund for Nature-Australia and WWF-Denmark are collaborating with QYAC
+    on the unique project
+- type: runs
+  to: eyes-on-recovery
+  url: https://wwf.org.au/what-we-do/species/eye-on-recovery
+  fetched: '2026-10-31'
+  quote: Eyes on Recovery was WWF-Australia's large-scale camera sensor initiative
+found_by:
+- queue:au
+- link-from:eyes-on-recovery
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,32 @@
+id: deep-vision-fish-dataset
+kind: dataset
+name: Deep Vision fish dataset
+scope: 'no'
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- 'no'
+scale: national
+status: active
+summary: Curated fish image data and backgrounds, synthetic image tools and annotated real
+  data for testing classifiers, built from Deep Vision images from two surveys by Vaneeda
+  Allken.
+facts:
+- claim: A curated set of fish image data and backgrounds, tools to generate synthetic images,
+    and annotated real data to test classifiers.
+  url: https://metadata.nmdc.no/metadata-api/landingpage/01d102345aef4639f063a13ea20cd3f3
+  fetched: '2026-11-02'
+  quote: We provide a curated set of fish image data and backgrounds, the necessary software
+    tools to generate synthetic images and annotations
+- claim: Built from images taken with the Deep Vision system during two surveys.
+  url: https://metadata.nmdc.no/metadata-api/landingpage/01d102345aef4639f063a13ea20cd3f3
+  fetched: '2026-11-02'
+  quote: The data set is constructed from images collected using the Deep Vision system during
+    two surveys from 2017 and 2018
+found_by:
+- link-from:institute-of-marine-research
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,30 @@
+id: e-surveyor
+kind: programme
+name: e-Surveyor
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://esurveyor.ceh.ac.uk/
+summary: Free UKCEH mobile app for farmers and landowners to assess habitat quality, with
+  AI-based species identification from images.
+facts:
+- claim: Uses AI-based identification tools to identify species from images.
+  url: https://irecord.org.uk/resources-verify/e-Surveyor
+  quote: e-Surveyor uses AI-based identification tools to support users to identify a range
+    of species from images
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://irecord.org.uk/resources-verify/e-Surveyor
+  quote: e-Surveyor is a free mobile app developed by the UK Centre for Ecology and Hydrology
+    (UKCEH)
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

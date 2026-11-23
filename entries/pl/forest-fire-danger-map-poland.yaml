@@ -1,0 +1,31 @@
+id: forest-fire-danger-map-poland
+kind: dataset
+name: Zagrożenie pożarowe lasu
+scope: pl
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- pl
+status: active
+website: https://www.bdl.lasy.gov.pl/portal/zagrozenie-pozarowe
+summary: A forest fire danger map for Poland whose data are updated several times a day and which uses
+  the Forest Research Institute.
+facts:
+- claim: The data are updated several times a day.
+  url: https://www.bdl.lasy.gov.pl/portal/zagrozenie-pozarowe
+  fetched: '2026-11-02'
+  quote: Dane te są aktualizowane kilka razy dziennie
+links:
+- type: uses
+  to: forest-research-institute-poland
+  url: https://www.bdl.lasy.gov.pl/portal/zagrozenie-pozarowe
+  fetched: '2026-11-02'
+  quote: 'jest na podstawie informacji przygotowanej przez Laboratorium Ochrony
+
+    Przeciwpożarowej Lasu IBL'
+found_by:
+- link-from:forest-research-institute-poland
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

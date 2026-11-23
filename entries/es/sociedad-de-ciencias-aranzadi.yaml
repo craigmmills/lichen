@@ -1,0 +1,46 @@
+id: sociedad-de-ciencias-aranzadi
+kind: organisation
+name: Sociedad de Ciencias Aranzadi
+scope: es
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+scale: regional
+hq: es
+status: active
+also_known_as:
+- Aranzadi
+- Aranzadi Science Society
+- Aranzadi Zientzia Elkartea
+realms:
+- land
+website: https://www.aranzadi.eus/
+summary: Non-profit science society in Donostia-San Sebastián. It runs biodiversity monitoring
+  programmes, the ornitho.eus citizen science portal and a bird ringing scheme.
+facts:
+- claim: Says it is a pioneer in running biodiversity monitoring programmes.
+  url: https://www.aranzadi.eus/
+  fetched: '2026-10-31'
+  quote: Somos pioneros en la gestión de programas monitorización de biodiversidad
+- claim: ornitho.eus is a citizen science portal started by Aranzadi and linked to the Basque
+    nature information system.
+  url: https://api.gbif.org/v1/organization/823818f6-0696-4e29-bc4c-b6f3817535a7/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Es una iniciativa de la Sociedad de Ciencias Aranzadi vinculada al Sistema de Información
+    de la Naturaleza de Euskadi
+- claim: Its INBIOPYR project aims at cross-border harmonisation of fauna data collection
+    in the Pyrenees.
+  url: https://www.aranzadi.eus/Inbiopyr
+  fetched: '2026-10-31'
+  quote: contribuir a la armonización transfronteriza en la recogida de datos de fauna
+links:
+- type: runs
+  to: ornitho-eus
+  url: https://api.gbif.org/v1/organization/823818f6-0696-4e29-bc4c-b6f3817535a7/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Es una iniciativa de la Sociedad de Ciencias Aranzadi
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'

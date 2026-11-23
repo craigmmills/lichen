@@ -1,0 +1,53 @@
+id: akkeshi-marine-station
+kind: organisation
+name: Akkeshi Marine Station, Field Science Center for Northern Biosphere, Hokkaido
+  University
+also_known_as:
+- 厚岸臨海実験所
+scope: jp
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques: []
+hq: unknown
+scale: local
+status: active
+summary: Hokkaido University field station that has recorded air and water temperature
+  and other weather and ocean data at its pier continuously since 1950, and is listed
+  for the Akkeshi JaLTER core site.
+facts:
+- claim: Has observed air and water temperature and other weather and ocean data at
+    its pier continuously since 1950.
+  url: https://www.fsc.hokudai.ac.jp/akkeshi/about.html
+  fetched: '2026-11-09'
+  quote: 実験所では，1950年（昭和25年）より継続して，実験所桟橋前の気温や水温などの気象・海洋データを観測しています．
+- claim: Its 2026 international course plan includes long-term monitoring of seagrass
+    beds in Akkeshi Bay.
+  url: https://www.research.kobe-u.ac.jp/rcis-kurcis/station/2026/1akkeshi2.pdf
+  fetched: '2026-11-09'
+  quote: ② 厚岸湾の海草藻場における長期モニタリング
+- claim: Listed for the Akkeshi JaLTER core site.
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Akkeshi Marine Station, Field Science Center for Northern Biosphere, Hokkaido
+    University
+links:
+- type: run-by
+  to: hokkaido-university
+  url: https://www.research.kobe-u.ac.jp/rcis-kurcis/station/2026/1akkeshi2.pdf
+  fetched: '2026-11-09'
+  quote: 開講大学・施設名 北海道大学北方生物圏フィールド科学センター厚岸臨海実験所
+- type: partners-with
+  to: jalter
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Akkeshi Marine Station, Field Science Center for Northern Biosphere, Hokkaido
+    University
+found_by:
+- rule:checklist-misses
+- link-from:jalter
+added_by: agent
+checked: '2026-11-09'

@@ -1,0 +1,43 @@
+id: tealwaters
+kind: project
+name: TealWaters
+scope: us
+ai_label: ai
+realms:
+- freshwater
+status: active
+summary: NSF Convergence Accelerator project mapping current and past US wetlands and their
+  value.
+facts:
+- claim: Maps current and past wetlands and illustrates their value.
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: TealWaters maps current and past wetlands and illustrates their value.
+- claim: Provides tools for wetlands planning, and plans to test AI models.
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: TealWaters plans to support AI model testing beyond the scope of its existing tools
+links:
+- type: run-by
+  to: terrainworks
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: TERRAINWORKS, INC.
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'NSF Convergence Accelerator Future Water Systems: TealWaters'
+  amount: 4000000
+  year: 2025
+  currency: USD
+- type: funded-by
+  to: microsoft-ai-for-good-lab
+  url: https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/
+  fetched: '2026-10-30'
+  quote: 'Awardee : TealWaters'
+found_by:
+- checklist:7
+- link-from:microsoft-ai-for-good-lab
+added_by: agent
+checked: '2026-10-30'

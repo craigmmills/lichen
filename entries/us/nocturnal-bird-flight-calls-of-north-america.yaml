@@ -1,0 +1,55 @@
+id: nocturnal-bird-flight-calls-of-north-america
+kind: dataset
+name: Nocturnal Bird Flight Calls of North America
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://nocturnalflightcalls.com/
+summary: Reference dataset of nocturnal flight calls of North American birds from
+  remote recordings, with initial calls from Nova Scotia stations, and identifications
+  stated to be putative and possibly wrong.
+facts:
+- claim: A quick reference to the nocturnal flight calls of many North American birds,
+    collected by remote acoustic recordings.
+  url: https://nocturnalflightcalls.com/
+  fetched: 2026-11-21
+  quote: This website is a quick reference to the nocturnal flight calls of many North
+    American birds.
+- claim: The initial calls were collected at nocturnal monitoring stations in Nova
+    Scotia and identified by John Kearney of the Listening Together Project.
+  url: https://nocturnalflightcalls.com/about
+  fetched: 2026-11-21
+  quote: collected through a series of nocturnal monitoring stations in Nova Scotia
+    and identified by John Kearney of the Listening Together Project
+- claim: Made to encourage research into nocturnal flight call identification, and
+    states that identifications are putative and some may be wrong.
+  url: https://nocturnalflightcalls.com/about
+  fetched: 2026-11-21
+  quote: encourage research into nocturnal flight call identification
+- claim: Funded in part by the Gordon and Betty Moore Foundation, the University of
+    Pittsburgh Department of Biological Sciences and Canadian government sources.
+  url: https://nocturnalflightcalls.com/credits
+  fetched: 2026-11-21
+  quote: the Gordon and Betty Moore Foundation
+links:
+- type: partners-with
+  to: kitzes-lab
+  url: https://nocturnalflightcalls.com/credits
+  fetched: 2026-11-21
+  quote: 'This website is a collaboration between the Listening Together Project ,
+    the Kitzes Lab at the University of Pittsburgh, and the Phil Taylor Lab at Acadia
+    University:'
+- type: funded-by
+  to: gordon-and-betty-moore-foundation
+  url: https://nocturnalflightcalls.com/credits
+  fetched: 2026-11-21
+  quote: the Gordon and Betty Moore Foundation
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+runner: unknown

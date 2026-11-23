@@ -1,0 +1,43 @@
+id: point-blue-conservation-science
+kind: organisation
+name: Point Blue Conservation Science
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: us
+scale: regional
+website: https://www.pointblue.org
+countries:
+- us
+status: active
+summary: California conservation science NGO studying birds and other indicators, using long-term
+  data from sites such as Palomarin and the Farallon Islands, and a partner in Whale Safe.
+facts:
+- claim: Uses long-term data from field stations.
+  url: https://www.pointblue.org/about-us/
+  fetched: '2026-10-30'
+  quote: Using our long-term data from the Palomarin Field Station, the Farallon Islands
+- claim: Lists keystone datasets on its site.
+  url: https://www.pointblue.org/
+  fetched: '2026-10-30'
+  quote: Keystone Datasets
+- claim: The IRS exempt organisation record, through ProPublica, lists it as Point Reyes Bird
+    Observatory in Petaluma, California.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/941594250.json
+  fetched: '2026-10-31'
+  quote: '"city":"Petaluma","state":"CA"'
+links:
+- type: partners-with
+  to: whale-safe
+  url: https://www.whalesafe.com/about/
+  fetched: '2026-10-30'
+  quote: Point Blue Conservation Science
+found_by:
+- link-from:whale-safe
+added_by: agent
+checked: '2026-10-30'

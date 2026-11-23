@@ -1,0 +1,60 @@
+id: barbados-benthic-habitat-map
+kind: dataset
+name: Benthic habitat classification scheme and island-wide map for Barbados
+scope: bb
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- bb
+status: unknown
+runner: unknown
+summary: A shallow marine habitat map of Barbados to 40 m depth, described in a 2019
+  CERMES report, using WorldView-2 imagery, LiDAR bathymetry and 361 ground-truthing
+  sites for coastal adaptation.
+facts:
+- claim: The 2019 CERMES report describes producing a comprehensive shallow marine
+    habitat map for Barbados, from the shoreline to a depth of 40 m.
+  url: https://www.cavehill.uwi.edu/cermes/docs/technical_reports/baldwin_et_al_2019_benthic_habitat_classification_.aspx
+  fetched: 2026-11-15
+  quote: wide scale, in order to produce a comprehensive shallow (shoreline to a depth
+    of 40 m) marine
+- claim: A total of 361 sites were visited and surveyed for ground-truthing.
+  url: https://www.cavehill.uwi.edu/cermes/docs/technical_reports/baldwin_et_al_2019_benthic_habitat_classification_.aspx
+  fetched: 2026-11-15
+  quote: A total of 361 sites were visited and surveyed.
+- claim: The map was made from WorldView-2 satellite imagery and LiDAR bathymetry
+    using object-oriented classification.
+  url: https://www.cavehill.uwi.edu/cermes/docs/technical_reports/baldwin_et_al_2019_benthic_habitat_classification_.aspx
+  fetched: 2026-11-15
+  quote: In this study, an object-oriented classification was employed to delineate
+    habitat “bodies”,
+- claim: The project was completed for the Ecosystem Based Adaptation Pilot Project,
+    a component of the Barbados Coastal Risk Assessment and Management Program executed
+    by the Coastal Zone Management Unit.
+  url: https://www.cavehill.uwi.edu/cermes/docs/technical_reports/baldwin_et_al_2019_benthic_habitat_classification_.aspx
+  fetched: 2026-11-15
+  quote: Pilot Project, which is one component of the Barbados Coastal Risk Assessment
+    and Management
+links:
+- type: built-by
+  to: centre-for-resource-management-and-environmental-studies
+  url: https://www.cavehill.uwi.edu/cermes/docs/technical_reports/baldwin_et_al_2019_benthic_habitat_classification_.aspx
+  fetched: 2026-11-15
+  quote: 'As a result , CERMES was solicited by the project
+
+    consultants, W.F. Baird & Associates , to take the lead in the production'
+- type: built-by
+  to: coastal-zone-management-unit-barbados
+  url: https://www.cavehill.uwi.edu/cermes/docs/technical_reports/baldwin_et_al_2019_benthic_habitat_classification_.aspx
+  fetched: 2026-11-15
+  quote: 'Twelve-class benthic habitat classification scheme developed by the CZMU
+    and CERMES in May
+
+    2015.'
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

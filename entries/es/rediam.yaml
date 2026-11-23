@@ -1,0 +1,78 @@
+id: rediam
+kind: programme
+name: Red de Información Ambiental de Andalucía
+also_known_as:
+- REDIAM
+- Red de Información Ambiental de Andalucía
+- Environmental Information Network of Andalusia
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- remote-sensing
+status: active
+countries:
+- es
+website: https://www.juntadeandalucia.es/medioambiente/portal/acceso-rediam
+summary: Andalusia's environmental information network, with a data catalogue, satellite
+  observation of the territory and a drought monitoring system.
+facts:
+- claim: Published a monthly bulletin of catalogue updates in May 2026.
+  url: https://www.juntadeandalucia.es/medioambiente/portal/boletin-rediam/-/blogs/boletin-rediam-de-mayo-2026-nuevas-integraciones-y-actualizaciones-en-el-catalogo
+  quote: 'Boletín REDIAM de mayo 2026: nuevas integraciones y actualizaciones en el
+    catálogo'
+  fetched: '2026-10-31'
+- claim: Offers an integrated system for monitoring drought at district scale.
+  url: https://www.juntadeandalucia.es/medioambiente/portal/acceso-rediam/observacion-caracterizacion-territorio/observacion
+  quote: Sistema integral de seguimiento de la sequía con información a escala comarcal
+  fetched: '2026-10-31'
+- claim: Named on its GBIF publisher record as part of the Regional Ministry for the
+    Environment.
+  url: https://api.gbif.org/v1/organization/799acb53-2764-4e89-9792-5fdb6f7d7d29
+  fetched: '2026-10-31'
+  quote: Environmental Information Network of Andalusia (REDIAM), Regional Ministry
+    for the Environment, Regional Government of Andalusia
+- claim: Created by Law 7/2007 to integrate information on the Andalusian environment.
+  url: https://www.ideandalucia.es/portal/nodo-rediam
+  fetched: '2026-10-31'
+  quote: creada por Ley 7/2007, de 9 de julio, de Gestión Integrada de la Calidad
+    Ambiental
+- claim: Its aim is to integrate all environmental information with a spatial reference
+    produced in Andalusia.
+  url: https://www.miteco.gob.es/en/ceneam/recursos/pag-web/portales-buscadores/rediam.html
+  fetched: '2026-10-31'
+  quote: La REDIAM tiene como objetivo la integración de toda la información que sobre
+    el medio ambiente se produce con referencia espacial en Andalucía
+- claim: The Secretaría General de Medio Ambiente y Cambio Climático organises and
+    manages the network under Decree 170/2024.
+  url: https://www.juntadeandalucia.es/medioambiente/portal/acerca-de/quien-es-quien-en-la-informacion-ambiental
+  fetched: '2026-10-31'
+  quote: es la encargada de la organización, gestión, estructuración y funcionamiento
+    de la Red de Información Ambiental (REDIAM)
+links:
+- type: run-by
+  to: junta-de-andalucia
+  url: https://www.juntadeandalucia.es/medioambiente/portal/acceso-rediam
+  quote: "RED DE INFORMACIÓN AMBIENTAL (REDIAM) Consejería de Sostenibilidad y Medio Ambiente"
+  fetched: '2026-10-31'
+- type: run-by
+  to: junta-de-andalucia
+  url: https://api.gbif.org/v1/organization/799acb53-2764-4e89-9792-5fdb6f7d7d29
+  fetched: '2026-10-31'
+  quote: Environmental Information Network of Andalusia (REDIAM), Regional Ministry
+    for the Environment, Regional Government of Andalusia
+- type: run-by
+  to: secretaria-general-de-medio-ambiente-y-cambio-climatico-de-andalucia
+  url: https://www.juntadeandalucia.es/medioambiente/portal/acerca-de/quien-es-quien-en-la-informacion-ambiental
+  fetched: '2026-10-31'
+  quote: es la encargada de la organización, gestión, estructuración y funcionamiento
+    de la Red de Información Ambiental (REDIAM)
+found_by:
+- checklist:2
+- link-from:gbif-spain
+- register:es
+scope: es
+added_by: agent
+checked: '2026-10-31'

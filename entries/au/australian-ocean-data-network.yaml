@@ -1,0 +1,54 @@
+id: australian-ocean-data-network
+kind: dataset
+name: Australian Ocean Data Network
+also_known_as:
+- AODN
+scope: au
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- au
+status: active
+runner: unknown
+website: https://portal.aodn.org.au
+summary: Portal described as the gateway to Australian marine and climate science
+  data, offering open access to ocean data.
+facts:
+- claim: Describes itself as the gateway to Australian marine and climate science
+    data.
+  url: https://portal.aodn.org.au/
+  fetched: '2026-10-31'
+  quote: The gateway to Australian marine and climate science data
+- claim: Operates online infrastructure for marine and climate data resources.
+  url: https://imos.org.au/data/about-the-australian-ocean-data-network
+  fetched: '2026-10-31'
+  quote: The Australian Ocean Data Network (AODN) operates online infrastructure for
+    marine and climate data resources.
+- claim: An accredited IODE National Oceanographic Data Centre.
+  url: https://imos.org.au/data/about-the-australian-ocean-data-network
+  fetched: '2026-10-31'
+  quote: The AODN is an accredited IODE National Oceanographic Data Centre.
+found_by:
+- checklist:2
+- link-from:integrated-marine-observing-system
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: run-by
+  to: integrated-marine-observing-system
+  url: https://imos.org.au/
+  fetched: '2026-10-31'
+  quote: South Australian coastal mooring data now available in the IMOS Australian
+    Ocean Data Network
+- type: run-by
+  to: integrated-marine-observing-system
+  url: https://imos.org.au/data/about-the-australian-ocean-data-network
+  fetched: '2026-10-31'
+  quote: "About the Australian Ocean Data Network - IMOS"
+- type: run-by
+  to: integrated-marine-observing-system
+  url: https://imos.org.au/news/imos-is-improving-our-data-discoverability
+  fetched: '2026-10-31'
+  quote: Our team at the IMOS AODN are working on a project to redesign the AODN Portal

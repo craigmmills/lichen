@@ -1,0 +1,64 @@
+id: africat-foundation
+kind: organisation
+name: The AfriCat Foundation
+also_known_as:
+- AfriCat
+scope: na
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- na
+scale: local
+status: active
+website: https://africat.org/
+summary: Namibian conservation body whose Okonjima reserve camera trap network of almost 200 cameras produces
+  about 50,000 images a month, processed with TrapTagger, with GPS data collected through LoRaWAN gateways.
+facts:
+- claim: Maintains a network of camera traps throughout the Okonjima Nature Reserve.
+  url: https://africat.org/methodology/
+  fetched: 2026-11-08
+  quote: AfriCat has established and maintains an extensive network of camera traps throughout the ONR.
+- claim: Its camera trap system has almost 200 cameras producing about 50,000 images a month, processed
+    with TrapTagger.
+  url: https://africat.org/methodology/
+  fetched: 2026-11-08
+  quote: AfriCat’s camera trap system on the ONR currently consists of almost 200 camera traps and generates
+    about 50,000 images per month. AfriCat uses TrapTagger, an open-source web application that applies
+    the latest artificial intelligence technologies
+- claim: GPS data from tracked animals is picked up by LoRaWAN gateways in the reserve.
+  url: https://africat.org/methodology/
+  fetched: 2026-11-08
+  quote: The GPS data is picked up by a network of LoRaWAN (long range wide area network) gateways installed
+    within the Reserve.
+- claim: A camera-trap lure study started at Okonjima in May 2025 and was scheduled to run until October
+    2025, implemented by NUST student Victoria Mulyuu with the Ongava Research Centre and AfriCat; the
+    page also names a collaborator as the University of George.
+  url: https://africat.org/methodology/
+  fetched: 2026-11-08
+  quote: The study is being implemented by Victoria Mulyuu, a Namibian student from the Namibian University
+    of Science and Technology, in collaboration with the Ongava Research Centre, the University of George
+    and AfriCat.
+links:
+- type: uses
+  to: traptagger
+  url: https://africat.org/methodology/
+  fetched: 2026-11-08
+  quote: AfriCat uses TrapTagger, an open-source web application that applies the latest artificial intelligence
+    technologies to manage, process and identify the species in the images.
+- type: uses
+  to: earthranger
+  url: https://africat.org/methodology/
+  fetched: 2026-11-08
+  quote: AfriCat uses EarthRanger, another open-source software, for aggregating and visualizing wildlife,
+    people and assets fitted with LoRa devices within the ONR.
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-08

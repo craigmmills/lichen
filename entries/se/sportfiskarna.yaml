@@ -1,0 +1,40 @@
+id: sportfiskarna
+kind: organisation
+name: Sportfiskarna
+also_known_as:
+- Swedish Anglers’ Association
+scope: se
+sector: ngo
+roles:
+- supplies-data
+- funds
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+scale: national
+status: active
+website: https://www.sportfiskarna.se
+summary: Organisation that carried out commissioned electrofishing in summer 2020, with results
+  entered into SERS, and co-finances the Säveån camera project with others.
+facts:
+- claim: Carried out electrofishing on commission in summer 2020.
+  url: https://docs.miljo.stockholm.se/vatten/elprovfiske-ballstaan-2020.pdf
+  fetched: '2026-11-02'
+  quote: Under sommaren 2020 genomförde Sportfiskarna, på uppdrag av Stockholm
+- claim: Results were entered into SERS.
+  url: https://docs.miljo.stockholm.se/vatten/elprovfiske-ballstaan-2020.pdf
+  fetched: '2026-11-02'
+  quote: databasen för provfiske i vattendrag, SERS.
+- claim: Co-finances the Säveån camera project with others.
+  url: https://www.sportfiskarna.se/om-oss/aktuellt/nyheter/nyhet/nu-kan-fiskvandringen-i-savean-foljas-med-ai-kameror/
+  fetched: '2026-11-02'
+  quote: Sportfiskarna, Naturskyddsföreningen, olika fiskevårdsföreningar och lokala sportfiskeföreningar
+    är med och medfinansierar projektet.
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision

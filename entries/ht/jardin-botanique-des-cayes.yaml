@@ -1,0 +1,55 @@
+id: jardin-botanique-des-cayes
+kind: organisation
+name: Jardin Botanique des Cayes
+also_known_as:
+- Cayes Botanical Garden
+- JBC
+scope: ht
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: ht
+countries:
+- ht
+scale: national
+status: closed
+website: https://www.jardinbotaniquecayeshaiti.org
+summary: Botanical garden and NGO in Les Cayes that keeps floristic inventories, maps and databases and
+  has an MOU with ANAP for research, but says it has been closed by force for over eight months.
+facts:
+- claim: Says its science work covers scientific research, botanical studies and ecological monitoring.
+  url: https://www.jardinbotaniquecayeshaiti.org
+  fetched: 2026-11-12
+  quote: Recherche scientifique, études botaniques et suivi écologique pour mieux comprendre notre biodiversité.
+- claim: Says it keeps floristic inventories, maps and databases.
+  url: https://www.jardinbotaniquecayeshaiti.org
+  fetched: 2026-11-12
+  quote: Inventaires floristiques, cartographies et bases de données pour guider des décisions solides.
+- claim: Its GBIF publisher record calls it an NGO in Les Cayes and gives an address there.
+  url: https://api.gbif.org/v1/organization?country=HT&limit=50
+  fetched: 2026-11-12
+  quote: Cayes Botanical Garden is a NGO that is located in the southwestern city of Les Cayes
+- claim: The GBIF record says an MOU with ANAP lets the garden do research in Haiti's protected areas.
+  url: https://api.gbif.org/v1/organization?country=HT&limit=50
+  fetched: 2026-11-12
+  quote: A MOU between ANAP ( National Agency for Protected Area) and JBC was signed and JBC has to do
+    research in Protected areas in Haiti.
+- claim: The garden's own site says it has been closed by force for more than eight months, with no researcher
+    able to enter.
+  url: https://jardinbotaniquecayeshaiti.org/en/dossier-jbc-en
+  fetched: 2026-11-12
+  quote: For more than eight months , the Cayes Botanical Garden has been closed by force.
+links:
+- type: partners-with
+  to: agence-nationale-des-aires-protegees
+  url: https://api.gbif.org/v1/organization?country=HT&limit=50
+  fetched: 2026-11-12
+  quote: A MOU between ANAP ( National Agency for Protected Area) and JBC was signed
+found_by:
+- checklist:2
+- checklist:4
+added_by: agent
+checked: 2026-11-12

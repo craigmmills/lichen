@@ -1,0 +1,48 @@
+id: base-de-datos-de-especies-snap
+kind: dataset
+name: Base de Datos de Especies (SNAP)
+scope: uy
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+countries:
+- uy
+status: unknown
+runner: unknown
+summary: Species database first made in 2013 for Uruguay’s protected area system,
+  mapping species with conservation priorities, potential distributions and museum,
+  botanical garden and university collections as sources.
+facts:
+- claim: The database was made by the Ministry of Housing and Land Planning (MVOT)
+    and the Ministry of Livestock, Agriculture and Fisheries (MGAP), through the SNAP
+    project, DINAMA's biodiversity and environmental information units and MGAP's
+    Responsible Production Project.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/tramites-y-servicios/servicios/base-datos-especies
+  fetched: 2026-11-13
+  quote: Esta base de datos es una realización de los Ministerios de Vivienda, Ordenamiento
+    Territorial (MVOT) y de Ganadería, Agricultura y Pesca (MGAP)
+- claim: Its initial version dates from 2013.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/tramites-y-servicios/servicios/base-datos-especies
+  fetched: 2026-11-13
+  quote: La información contenida en la base de datos en su versión inicial (2013)
+- claim: It holds the identification and mapping of species to be represented in the
+    SNAP, with conservation priority criteria and their potential distribution in
+    the ecosystems identified for representation.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/tramites-y-servicios/servicios/base-datos-especies
+  fetched: 2026-11-13
+  quote: 'La base de datos integra algunos de los resultados de dicho proceso: la
+    identificación y mapeo de especies que deben estar representadas en el SNAP'
+- claim: It draws on the collections of the national natural history museum, the Montevideo
+    botanical garden and museum, and three Universidad de la República faculties.
+  url: https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/tramites-y-servicios/servicios/base-datos-especies
+  fetched: 2026-11-13
+  quote: Estos trabajos integran la información de las colecciones del Museo Nacional
+    de Historia Natural (MNHN)
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

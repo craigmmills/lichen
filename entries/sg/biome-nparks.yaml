@@ -1,0 +1,30 @@
+id: biome-nparks
+kind: dataset
+name: BIOME
+scope: sg
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- sg
+summary: Biodiversity database run by the National Parks Board, where users can explore and submit sightings
+  of flora or fauna.
+facts:
+- claim: The National Parks Board's home page lists BIOME as a biodiversity database where users can explore
+    and submit sightings of flora or fauna.
+  url: https://www.nparks.gov.sg/
+  fetched: '2026-11-08'
+  quote: Explore this biodiversity database and submit sightings of flora or fauna
+links:
+- type: run-by
+  to: national-parks-board
+  url: https://www.nparks.gov.sg/
+  fetched: '2026-11-08'
+  quote: Glide over to our other websites
+found_by:
+- link-from:national-parks-board
+added_by: agent
+checked: '2026-11-08'

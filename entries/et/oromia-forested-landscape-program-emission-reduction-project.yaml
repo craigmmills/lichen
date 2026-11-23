@@ -1,0 +1,37 @@
+id: oromia-forested-landscape-program-emission-reduction-project
+kind: project
+name: Oromia Forested Landscape Program - Emission Reduction Project
+scope: et
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+countries:
+- et
+summary: Project run by Ethiopian Forestry Development to generate verified emission reductions from reduced
+  deforestation and degradation in Oromia, including an MRV system; active, closing at the end of 2028.
+facts:
+- claim: The World Bank record says the project will generate measured, reported and verified emission
+    reductions from reduced deforestation and forest degradation in Oromia State.
+  url: https://search.worldbank.org/api/v2/projects?format=json&id=P151294&fl=id,project_name,status,pdo,impagency,borrower,totalamt,boardapprovaldate,closingdate
+  fetched: '2026-11-08'
+  quote: The project will generate measured, reported and verified Emissions Reductions (ER) from reduced
+    deforestation, forest degradation,enhancement of forest carbon stocks (REDD+)
+- claim: One component is a comprehensive MRV system, including improving it.
+  url: https://search.worldbank.org/api/v2/projects?format=json&id=P151294&fl=id,project_name,status,pdo,impagency,borrower,totalamt,boardapprovaldate,closingdate
+  fetched: '2026-11-08'
+  quote: (ii) Improvement of the Comprehensive Measurement, Reporting and Verification system.
+- claim: The record lists it as active, closing at the end of 2028.
+  url: https://search.worldbank.org/api/v2/projects?format=json&id=P151294&fl=id,project_name,status,pdo,impagency,borrower,totalamt,boardapprovaldate,closingdate
+  fetched: '2026-11-08'
+  quote: '"closingdate":"12/31/2028 12:00:00 AM","url":"https://projects.worldbank.org/en/projects-operations/project-detail/P151294","status":"Active"'
+links:
+- type: run-by
+  to: ethiopian-forestry-development
+  url: https://search.worldbank.org/api/v2/projects?format=json&id=P151294&fl=id,project_name,status,pdo,impagency,borrower,totalamt,boardapprovaldate,closingdate
+  fetched: '2026-11-08'
+  quote: '"impagency":"Ethiopia Forest Development"'
+found_by:
+- link-from:world-bank
+added_by: agent
+checked: '2026-11-08'

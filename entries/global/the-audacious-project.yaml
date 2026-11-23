@@ -1,0 +1,46 @@
+id: the-audacious-project
+kind: programme
+name: The Audacious Project
+scope: global
+roles: [funds]
+ai_label: ai
+realms:
+- ocean
+scale: global
+status: active
+website: https://www.audaciousproject.org
+summary: Giving programme housed within TED that picks a group of projects each year and connects them with donors. It raised $60 million over five years for Global Fishing Watch to apply AI and satellite data to the ocean.
+countries:
+- us
+facts:
+- claim: Housed within TED, it selects a cohort of projects each year and connects them with donors.
+  url: https://globalfishingwatch.org/?p=36130
+  quote: The Audacious Project selects a cohort of projects every year
+  fetched: &id001 2026-10-30
+- claim: 'Describes itself as a collaborative funding initiative.'
+  url: https://www.audaciousproject.org/about
+  fetched: 2026-10-30
+  quote: 'The Audacious Project is a collaborative funding initiative'
+links:
+- type: run-by
+  to: ted
+  url: https://globalfishingwatch.org/?p=36130
+  quote: Housed within TED, a nonprofit dedicated to
+  fetched: *id001
+- type: funds
+  to: global-fishing-watch
+  amount: 60000000
+  currency: USD
+  year: 2023
+  url: https://globalfishingwatch.org/?p=36130
+  quote: "Global Fishing Watch has received a five-year USD $60 million commitment through The Audacious Project"
+  fetched: *id001
+- type: funds
+  to: the-ocean-cleanup
+  url: https://www.audaciousproject.org/grantees
+  fetched: 2026-10-30
+  quote: 'The Ocean Cleanup Intercepting 1/3 of river plastic before it reaches oceans'
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

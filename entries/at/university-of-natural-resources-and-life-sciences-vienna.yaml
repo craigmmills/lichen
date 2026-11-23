@@ -1,0 +1,76 @@
+id: university-of-natural-resources-and-life-sciences-vienna
+kind: organisation
+name: Universität für Bodenkultur Wien
+also_known_as:
+- BOKU
+- BOKU University
+- University of Natural Resources and Life Sciences, Vienna
+scope: at
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+website: http://www.boku.ac.at/en/
+summary: Vienna university of natural resources (BOKU) that publishes data through GBIF, partners
+  with DNAquaIMG and Umweltbundesamt, and has authors on 2023 and 2025 machine learning forest
+  papers.
+facts:
+- claim: Its Department of Water, Atmosphere and Environment is listed as a partner of DNAquaIMG.
+  url: https://www.biodiversa.eu/2024/04/15/dnaquaimg/
+  fetched: 2026-11-07
+  quote: Department of Water, Atmosphere and Environment, University of Natural Resources
+    and Life Sciences, Vienna, Austria
+- claim: Publishes data through GBIF.
+  url: https://api.gbif.org/v1/organization?country=AT&limit=200
+  fetched: 2026-11-07
+  quote: '"title":"University of Natural Resources and Life Sciences, Vienna"'
+- claim: Named by the Environment Agency Austria among its partners.
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: universities such as the University of Natural Resources and Life Sciences, Vienna
+- claim: A 2023 paper with Tim Ritter and Sonja Vospernik of BOKU examines forest structural
+    diversity indicators with machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I92869138,primary_topic.subfield.id:1107|1707,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning,title_and_abstract.search:forest|biodiversity|wildlife|species&sort=cited_by_count:desc&per_page=8&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'Insights in forest structural diversity indicators with machine learning: what is
+    indicated?'
+- claim: A 2025 paper first-authored by Andreas Tockner of BOKU classifies tree species from
+    intensity patterns in individual tree point clouds.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I92869138,primary_topic.subfield.id:1107|1707,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning,title_and_abstract.search:forest|biodiversity|wildlife|species&sort=cited_by_count:desc&per_page=8&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Tree species classification using intensity patterns from individual tree point clouds
+- claim: A 2025 paper with Markus Immitzer of BOKU maps above-ground biomass in old-growth
+    deciduous forests from open satellite data, field plots and machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I92869138,primary_topic.subfield.id:1107|1707,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning,title_and_abstract.search:forest|biodiversity|wildlife|species&sort=cited_by_count:desc&per_page=8&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Mapping above-ground biomass in old-growth deciduous forests using open-access satellite
+    data, field plots, and machine learning algorithms
+links:
+- type: partners-with
+  to: dnaquaimg
+  url: https://www.biodiversa.eu/2024/04/15/dnaquaimg/
+  fetched: 2026-11-07
+  quote: Department of Water, Atmosphere and Environment, University of Natural Resources
+    and Life Sciences, Vienna, Austria
+- type: partners-with
+  to: umweltbundesamt-gmbh
+  url: https://www.umweltbundesamt.at/en/about-us
+  fetched: 2026-11-07
+  quote: universities such as the University of Natural Resources and Life Sciences, Vienna
+found_by:
+- link-from:dnaquaimg
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-07
+techniques:
+- remote-sensing

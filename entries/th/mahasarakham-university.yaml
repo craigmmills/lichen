@@ -1,0 +1,29 @@
+id: mahasarakham-university
+kind: organisation
+name: Mahasarakham University
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: https://inter.msu.ac.th
+summary: University with an OpenAlex-listed 2019 paper whose first author, Warong Suksavate,
+  gives an affiliation there; the facts give nothing further.
+facts:
+- claim: OpenAlex lists a 2019 paper whose first author, Warong Suksavate, gives an affiliation
+    at Mahasarakham University.
+  url: https://api.openalex.org/works?filter=institutions.ror:0453j3c58,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=50&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Quantifying landscape connectivity for wild Asian elephant populations among fragmented
+    habitats in Thailand
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

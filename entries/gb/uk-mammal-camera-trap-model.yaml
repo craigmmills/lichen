@@ -1,0 +1,25 @@
+id: uk-mammal-camera-trap-model
+kind: model
+name: Open-source UK mammal camera trap detection model
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://arxiv.org/abs/2606.10940
+summary: Open-source object detection model for 31 classes, including 28 common UK mammal
+  and bird species, released in a June 2026 preprint.
+facts:
+- claim: Open-source object detection model for 31 classes including 28 common UK mammal and
+    bird species.
+  url: https://arxiv.org/abs/2606.10940
+  quote: we release an open-source object detection model for 31 classes, 28 common UK mammal
+    and bird species
+  fetched: &id001 2026-10-30
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001
+runner: unknown

@@ -1,0 +1,107 @@
+id: mara-elephant-project
+kind: organisation
+name: Mara Elephant Project
+also_known_as:
+- MEP
+scope: ke
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: ke
+website: https://maraelephantproject.org/
+countries:
+- ke
+scale: local
+status: active
+summary: Conservation organisation in Kenya's Maasai Mara that uses drones, some with thermal
+  imaging, to manage human-elephant conflict and monitor herds.
+facts:
+- claim: Nomad Africa reports it has nine drones, three with thermal imaging.
+  url: https://nomad.africa/inspiration/mara-elephant-project-drone-technology
+  quote: Equipped with nine drones, including three with thermal imaging
+  fetched: '2026-10-30'
+- claim: Sponsored the Youth Conservation Tech Award.
+  url: https://africasciencenews.org/kenyan-innovator-wins-top-youth-conservation-tech-award-at-gctdf-2026
+  quote: The award, sponsored by the Mara Elephant Project
+  fetched: '2026-10-30'
+- claim: Established in 2011 to protect elephants in the Maasai Mara ecosystem, according
+    to EarthRanger.
+  url: https://www.earthranger.com/partners
+  fetched: '2026-10-30'
+  quote: Mara Elephant Project (MEP) was established in 2011 with the mission of protecting
+    elephants to conserve the Maasai Mara ecosystem
+- claim: Capital FM reports it uses drones for wildlife monitoring and rapid response to human-elephant
+    conflict.
+  url: https://www.capitalfm.co.ke/business/2026/02/mara-elephant-project-partners-with-global-conservation-tech-forum
+  fetched: '2026-10-30'
+  quote: particularly through the use of drones for wildlife monitoring and rapid response
+    to human–elephant conflict
+- claim: Nawiri Group reports it sets geo-fences that alert staff when collared elephants
+    enter farmland.
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: These virtual boundaries, set around farmlands and communities, trigger alerts when
+    collared elephants breach them
+- claim: Gaia describes it as operating an AI chatbot for reporting conflict.
+  url: https://www.gaia.eco/african-elephant-kenya/conservation
+  fetched: '2026-10-31'
+  quote: MEP also operates a community-facing AI chatbot
+- claim: An arXiv paper says ElephantBook is in use there.
+  url: https://arxiv.org/abs/2106.15083
+  fetched: '2026-10-31'
+  quote: Our system is currently in use at the Mara Elephant Project
+- claim: The Charity Commission lists a sister charity, Mara Elephant Project UK, number 1208374.
+  url: https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5226350/full-print
+  fetched: '2026-10-31'
+  quote: MARA ELEPHANT PROJECT UK - 1208374
+links:
+- type: partners-with
+  to: global-conservation-tech-and-drone-forum
+  url: https://citizen.digital/article/mara-elephant-project-named-conservation-partner-for-global-conservation-tech-drone-forum-2026-n377222
+  quote: has been confirmed as a conservation partner for the Global Conservation Tech & Drone
+    Forum
+  fetched: '2026-10-30'
+- type: builds-on
+  to: earthranger
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: MEP has developed EcoScope, an open-source analysis module for EarthRanger.
+- type: partners-with
+  to: global-conservation-tech-and-drone-forum
+  url: https://www.capitalfm.co.ke/business/2026/02/mara-elephant-project-partners-with-global-conservation-tech-forum
+  fetched: '2026-10-30'
+  quote: The Mara Elephant Project (MEP) has confirmed its partnership with the Global Conservation
+    Tech & Drone Forum
+- type: runs
+  to: ecoscope
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: MEP has developed EcoScope
+- type: runs
+  to: elephantbook
+  url: https://www.nawirigroup.com/impact/the-silicon-savannah
+  fetched: '2026-10-30'
+  quote: ElephantBook, MEP’s in-house developed software
+- type: uses
+  to: elephantbook
+  url: https://arxiv.org/abs/2106.15083
+  fetched: '2026-10-31'
+  quote: Our system is currently in use at the Mara Elephant Project
+- type: runs
+  to: virtualranger
+  url: https://www.gaia.eco/african-elephant-kenya/conservation
+  fetched: '2026-10-31'
+  quote: MEP also operates a community-facing AI chatbot
+found_by:
+- checklist:4
+- link-from:earthranger
+- link-from:save-the-elephants
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- computer-vision
+- other

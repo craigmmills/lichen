@@ -1,0 +1,31 @@
+id: artes-aerostat
+kind: project
+name: ARTES
+scope: br
+ai_label: ai
+ai_types:
+- ml-reinforcement
+realms:
+- land
+countries:
+- br
+status: active
+summary: Federal University of Amazonas project for an AI-controlled aerostat for
+  large-scale environmental monitoring of the Amazon.
+facts:
+- claim: An AI-controlled aerostat using reinforcement learning.
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: utilizing reinforcement learning for autonomous navigation
+  ai_type: ml-reinforcement
+links:
+- type: run-by
+  to: icomp-ai-research-group-ufam
+  url: https://lapiam.github.io/
+  fetched: '2026-10-30'
+  quote: 'ARTES: AI-controlled Aerostat for large-scale environmental monitoring of
+    the Amazon'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

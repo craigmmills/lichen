@@ -1,0 +1,51 @@
+id: plantbert
+kind: model
+name: Pl@ntBERT
+scope: fr
+ai_label: ai
+ai_types:
+- large-language-models
+realms:
+- land
+status: active
+runner: unknown
+summary: Language model for plants, trained on more than a million European vegetation
+  plots, that predicts plant species assemblages and helps map natural habitats.
+facts:
+- claim: A language model applied to plants, from a study led by Cirad, Inria, the
+    University of Montpellier and partners.
+  url: https://www.cirad.fr/espace-presse/communiques-de-presse/2025/pl-ntbert-intelligence-artificielle-biodiversite
+  fetched: '2026-10-31'
+  quote: Une étude menée par le Cirad, Inria, l'Université de Montpellier et plusieurs
+    partenaires français et européens montre l’intérêt d’un modèle de langage appliqué
+    aux végétaux
+  ai_type: large-language-models
+- claim: Trained on more than a million European vegetation plots.
+  url: https://www.cirad.fr/espace-presse/communiques-de-presse/2025/pl-ntbert-intelligence-artificielle-biodiversite
+  fetched: '2026-10-31'
+  quote: en la nourrissant de plus d’un million de relevés de végétation européens
+links:
+- type: funded-by
+  to: guarden
+  url: https://www.cirad.fr/espace-presse/communiques-de-presse/2025/pl-ntbert-intelligence-artificielle-biodiversite
+  fetched: '2026-10-31'
+  quote: soutenue financièrement par les projets européens GUARDEN et MAMBO
+- type: funded-by
+  to: mambo-project
+  url: https://www.cirad.fr/espace-presse/communiques-de-presse/2025/pl-ntbert-intelligence-artificielle-biodiversite
+  fetched: '2026-10-31'
+  quote: soutenue financièrement par les projets européens GUARDEN et MAMBO
+- type: partners-with
+  to: cirad
+  url: https://www.cirad.fr/espace-presse/communiques-de-presse/2025/pl-ntbert-intelligence-artificielle-biodiversite
+  fetched: '2026-10-31'
+  quote: Une étude menée par le Cirad, Inria, l'Université de Montpellier
+- type: partners-with
+  to: inria
+  url: https://www.cirad.fr/espace-presse/communiques-de-presse/2025/pl-ntbert-intelligence-artificielle-biodiversite
+  fetched: '2026-10-31'
+  quote: Une étude menée par le Cirad, Inria, l'Université de Montpellier
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

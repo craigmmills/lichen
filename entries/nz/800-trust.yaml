@@ -1,0 +1,70 @@
+id: 800-trust
+kind: organisation
+name: 800 Trust
+scope: nz
+sector: ngo
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- nz
+scale: national
+status: active
+summary: A Taranaki-based charity that builds the Hark acoustic monitors, which run Google's
+  Perch v2 model on solar-powered devices to identify over 100 bird, bat and pest species,
+  and is in an AI-for-the-planet accelerator cohort.
+facts:
+- claim: Its Hark Pro device uses a bioacoustics AI model and has onboard AI detection for
+    birds, possums and bats.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/goal-tactics-and-new-technology/tools-to-market
+  fetched: 2026-11-07
+  quote: This 24/7 acoustic monitoring device has onboard AI detection for birds, possums
+    and bats.
+- claim: Its Hark Lite device detects possum calls with real-time onboard AI.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/goal-tactics-and-new-technology/tools-to-market
+  fetched: 2026-11-07
+  quote: A real-time onboard AI audio device for detecting possum calls.
+- claim: Developed HARK, which Predator Free NZ Trust describes as an edge AI acoustic wildlife
+    monitor; the trust is described there as a Taranaki-based ecological organisation.
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: Taranaki-based ecological organisation 800 Trust developed HARK to be the world’s
+    first true edge AI acoustic wildlife monitor.
+- claim: Listed in the accelerator cohort for using AI and bioacoustics to monitor biodiversity
+    and detect environmental threats.
+  url: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/
+  fetched: 2026-11-07
+  quote: '800 Trust (New Zealand): Using AI and bioacoustics to continuously monitor biodiversity
+    and detect environmental threats'
+- claim: DOC lists its Hark Pro, an audio detection device using a bioacoustics AI model.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: 'Hark Pro: audio detection tool (800 Trust) Using an advanced bioacoustics AI model,
+    this device can capture the full acoustic scene'
+- claim: DOC lists its Hark Lite, a device with onboard AI for detecting possum calls.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: 'Hark Lite: possum audio detection (800 Trust) A real-time onboard AI audio device
+    for detecting possum calls.'
+links:
+- type: builds
+  to: hark
+  url: https://predatorfreenz.org/research/24-7-monitoring-device-listens-for-birds-possums-and-bats/
+  fetched: 2026-11-07
+  quote: Taranaki-based ecological organisation 800 Trust developed HARK
+- type: partners-with
+  to: google-deepmind-accelerator-ai-for-the-planet-apac
+  url: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/
+  fetched: 2026-11-07
+  quote: '800 Trust (New Zealand): Using AI and bioacoustics to continuously monitor biodiversity
+    and detect environmental threats'
+found_by:
+- checklist:4
+- link-from:wildlife-ai
+added_by: agent
+checked: 2026-11-07

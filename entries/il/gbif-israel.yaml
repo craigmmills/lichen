@@ -1,0 +1,47 @@
+id: gbif-israel
+kind: programme
+name: GBIF Israel
+scope: il
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: Active programme listed by GBIF as the country node for Israel with observer status, whose registry
+  home page is the BioGIS site.
+facts:
+- claim: Registered as an observer participant of GBIF.
+  url: https://api.gbif.org/v1/node/country/IL
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"OBSERVER"'
+- claim: The registry record gives BioGIS as the node's homepage.
+  url: https://api.gbif.org/v1/node/country/IL
+  fetched: '2026-11-08'
+  quote: '"homepage":["http://www.biogis.huji.ac.il"]'
+- claim: The registry address is the Division of Science and Conservation in Jerusalem.
+  url: https://api.gbif.org/v1/node/country/IL
+  fetched: '2026-11-08'
+  quote: Division of Science and Conservation
+- claim: GBIF lists GBIF Israel as the country node for Israel, with observer status.
+  url: https://api.gbif.org/v1/node/8cb55387-7802-40e8-86d6-d357a583c596
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Israel","participantTitle":"Israel"'
+- claim: GBIF lists the node's home page as the BioGIS site.
+  url: https://api.gbif.org/v1/node/8cb55387-7802-40e8-86d6-d357a583c596
+  fetched: 2026-11-08
+  quote: '"homepage":["http://www.biogis.huji.ac.il"]'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/8cb55387-7802-40e8-86d6-d357a583c596
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Israel","participantTitle":"Israel"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

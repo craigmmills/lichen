@@ -1,0 +1,53 @@
+id: tropisco
+kind: programme
+name: TropiSCO
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+runner: unknown
+website: https://tropisco.org/
+summary: A deforestation detection platform, online and open since 27 June 2022, that
+  uses Sentinel-1 radar images to detect deforestation 6 to 12 days after the event,
+  depending on the area.
+facts:
+- claim: The tropisco.org platform has been online and open since 27 June 2022.
+  url: https://www.spaceclimateobservatory.org/fr/tropisco
+  fetched: '2026-11-07'
+  quote: La plateforme tropisco.org est en ligne et en accès libre depuis le 27 juin
+    2022.
+- claim: Detects deforestation 6 to 12 days after the event, depending on the area,
+    from Sentinel-1 radar images.
+  url: https://www.spaceclimateobservatory.org/fr/tropisco
+  fetched: '2026-11-07'
+  quote: Le principal avantage de ce projet réside dans le court délai entre l’évènement
+    en forêt et la détection par l’algorithme, entre 6 et 12 jours en fonction de
+    la zone considérée.
+links:
+- type: built-by
+  to: centre-national-detudes-spatiales
+  url: https://www.spaceclimateobservatory.org/fr/tropisco
+  fetched: '2026-11-07'
+  quote: grâce à une collaboration du CNES, du laboratoire CESBIO et de la startup
+    GlobEO, une approche novatrice a été développée
+- type: built-by
+  to: cesbio
+  url: https://www.spaceclimateobservatory.org/fr/tropisco
+  fetched: '2026-11-07'
+  quote: grâce à une collaboration du CNES, du laboratoire CESBIO et de la startup
+    GlobEO, une approche novatrice a été développée
+- type: built-by
+  to: globeo
+  url: https://www.spaceclimateobservatory.org/fr/tropisco
+  fetched: '2026-11-07'
+  quote: grâce à une collaboration du CNES, du laboratoire CESBIO et de la startup
+    GlobEO, une approche novatrice a été développée
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

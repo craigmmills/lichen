@@ -1,0 +1,32 @@
+id: anurasearch
+kind: model
+name: AnuraSearch
+scope: ua
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+countries:
+- ua
+status: active
+runner: unknown
+summary: Model used by BioMon to detect amphibians in sound recordings, alongside the BirdNET 2.4 network
+  for birds.
+facts:
+- claim: BioMon's own development, able to detect amphibians, alongside the BirdNET 2.4 network for birds.
+  url: https://ukraine.fzs.org/biomon
+  fetched: 2026-11-03
+  quote: класифікує звукозаписи нейромережа BirdNET 2.4, яка виявляє птахів, а також власна розробка AnuraSearch,
+    яка здатна виявляти амфібій
+links:
+- type: used-by
+  to: biomon
+  url: https://ukraine.fzs.org/biomon
+  fetched: 2026-11-03
+  quote: БіоМон в кінці об’єднує, аналізує та візуалізує результати детекцій цих нейромереж.
+found_by:
+- link-from:biomon
+added_by: agent
+checked: 2026-11-03

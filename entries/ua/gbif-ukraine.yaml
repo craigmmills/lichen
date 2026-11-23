@@ -1,0 +1,70 @@
+id: gbif-ukraine
+kind: programme
+name: GBIF Ukraine
+scope: ua
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ua
+status: active
+summary: Country node for Ukraine with associate participation in GBIF’s Europe region and
+  Oleksii Marushchak as node manager, with GBIF’s registry listing 42 Ukraine-based publishing
+  organisations.
+facts:
+- claim: GBIF lists GBIF Ukraine as the country node for Ukraine, an associate participant
+    in the Europe region.
+  url: https://api.gbif.org/v1/node/country/UA
+  fetched: 2026-11-03
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Ukraine"'
+- claim: GBIF's registry lists 42 publishing organisations based in Ukraine.
+  url: https://api.gbif.org/v1/organization?country=UA&limit=100
+  fetched: 2026-11-03
+  quote: '"count":42'
+- claim: GBIF's node directory lists GBIF Ukraine as a country node with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/d4b39e46-c0b7-496d-af28-c7767308e8c0
+  fetched: 2026-11-03
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Ukraine"'
+- claim: The directory names Oleksii Marushchak as node manager.
+  url: https://api.gbif.org/v1/node/d4b39e46-c0b7-496d-af28-c7767308e8c0
+  fetched: 2026-11-03
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Oleksii","lastName":"Marushchak"'
+- claim: GBIF's directory lists GBIF Ukraine as the country node, with associate participation
+    status.
+  url: https://api.gbif.org/v1/node?q=Ukraine
+  fetched: 2026-11-03
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Ukraine"'
+- claim: Oleksii Marushchak is listed as node manager.
+  url: https://api.gbif.org/v1/node?q=Ukraine
+  fetched: 2026-11-03
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Oleksii","lastName":"Marushchak"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/UA
+  fetched: 2026-11-03
+  quote: '"participantTitle":"Ukraine"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/d4b39e46-c0b7-496d-af28-c7767308e8c0
+  fetched: 2026-11-03
+  quote: '"type":"GBIF_PARTICIPANT","identifier":"441"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node?q=Ukraine
+  fetched: 2026-11-03
+  quote: '"participationStatus":"ASSOCIATE"'
+runner: unknown
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-03
+roles:
+- supplies-data

@@ -1,0 +1,27 @@
+id: north-atlantic-right-whale-catalog
+kind: dataset
+name: North Atlantic Right Whale Catalog
+scope: us
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Photo catalogue of individual North Atlantic right whales, against which
+  NOAA and others match new photographs.
+facts:
+- claim: Researchers compare photographs with the catalogue to identify individuals.
+  url: https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/using-artificial-intelligence-study-protected-species
+  fetched: '2026-10-30'
+  quote: compare those photographs to those in the North Atlantic Right Whale Catalog
+links:
+- type: run-by
+  to: new-england-aquarium
+  url: https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/using-artificial-intelligence-study-protected-species
+  fetched: '2026-10-30'
+  quote: the North Atlantic Right Whale Catalog curated by the New England Aquarium
+found_by:
+- link-from:noaa-fisheries
+added_by: agent
+checked: '2026-10-30'

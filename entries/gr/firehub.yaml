@@ -1,0 +1,76 @@
+id: firehub
+kind: programme
+name: FireHUB
+scope: gr
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised
+countries:
+- gr
+status: active
+website: https://beyond-eocenter.eu/firehub.html
+summary: An automated forest fire management system built and run by BEYOND, offering risk forecasting,
+  detection and burnt area mapping, with the mapping covering Greece from 1984 to the present.
+facts:
+- claim: An automated system for forest fire management covering risk assessment, active fire detection,
+    fire spread and burned area mapping in Greece and beyond.
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: '2026-11-03'
+  quote: It supports risk assessment, active fire detection, fire spread estimation, and burned area mapping,
+    applied within the Greek territory and Beyond.
+- claim: The daily fire risk forecast uses Random Forest, Extra Trees, XGBoost and neural networks.
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: '2026-11-03'
+  quote: The forecast is based on advanced artificial intelligence methods and a multi-model approach,
+    using algorithms such as Random Forest, Extra Trees, XGBoost, and neural networks, selected based
+    on performance.
+  ai_type: ml-supervised
+- claim: Its burned area mapping covers the Greek territory from 1984 to the present.
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: '2026-11-03'
+  quote: It applies multi-temporal analysis to estimate burned areas and environmental impacts from 1984
+    to the present.
+- claim: All its services are open through the web interface.
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: '2026-11-03'
+  quote: All FireHUB services are fully open and accessible via the web interface.
+- claim: Integrated into the Global Fire Monitoring Center under UNDRR since 2018.
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: '2026-11-03'
+  quote: Since 2018, FireHUB has been integrated into the Global Fire Monitoring Center under the United
+    Nations International Strategy for Disaster Reduction (UNDRR).
+- claim: Offers burned area mapping from 1984 to the present.
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: 2026-11-03
+  quote: a long-term burned area mapping service for recording and analyzing historical data from 1984
+    to the present
+links:
+- type: built-by
+  to: beyond-centre-of-earth-observation-research
+  url: https://research-and-innovation.ec.europa.eu/events/special-features/science4eu/partners/beyond-advancing-europes-vision-science-serving-society_en
+  fetched: '2026-11-03'
+  quote: Building on the expertise of its researchers, BEYOND created and operates FireHUB.
+- type: run-by
+  to: beyond-centre-of-earth-observation-research
+  url: https://research-and-innovation.ec.europa.eu/events/special-features/science4eu/partners/beyond-advancing-europes-vision-science-serving-society_en
+  fetched: '2026-11-03'
+  quote: BEYOND created and operates FireHUB
+- type: run-by
+  to: beyond-centre-of-earth-observation-research
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: 2026-11-03
+  quote: The FireHUB system of the BEYOND EO Centre in the National Observatory of Athens, is an innovative,
+    automated system for integrated forest fire management.
+- type: uses
+  to: sentinel-2
+  url: https://beyond-eocenter.eu/firehub.html
+  fetched: 2026-11-03
+  quote: providing near real-time information from Sentinel-1, Sentinel-2, and Sentinel-3 satellites
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-03'

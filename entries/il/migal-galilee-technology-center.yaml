@@ -1,0 +1,37 @@
+id: migal-galilee-technology-center
+kind: organisation
+name: Migal - Galilee Technology Center
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: Research centre whose author led a 2026 paper using deep learning on drone imagery
+  to detect crane mortality hotspots during an H5N1 outbreak.
+facts:
+- claim: A 2026 paper led by a Migal author uses deep learning on drone imagery to detect
+    crane mortality hotspots during an H5N1 outbreak.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:04kaqnt29,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Rapid UAV-based detection of crane (Grus grus) mortality hotspots during an H5N1
+    avian influenza outbreak using deep learning
+  ai_type: deep-learning
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

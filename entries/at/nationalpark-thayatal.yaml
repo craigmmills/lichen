@@ -1,0 +1,50 @@
+id: nationalpark-thayatal
+kind: organisation
+name: Nationalpark Thayatal
+also_known_as:
+- Thayatal National Park
+scope: at
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: local
+status: active
+website: https://www.np-thayatal.at/
+summary: National park protecting the Thaya valley with the neighbouring Czech Podyjí National
+  Park, publishing data through GBIF and reporting a research project surveying bats and ground
+  beetles in Lower Austria.
+facts:
+- claim: Protects the Thaya valley together with the neighbouring Czech Podyjí National Park.
+  url: https://www.np-thayatal.at/
+  fetched: 2026-11-07
+  quote: Der Nationalpark Thayatal bewahrt gemeinsam mit dem benachbarten tschechischen Národní
+    park Podyjí eine der letzten naturnahen Tallandschaften Mitteleuropas.
+- claim: Its site reports the start of a research project surveying bats and ground beetles
+    in Lower Austria.
+  url: https://www.np-thayatal.at/
+  fetched: 2026-11-07
+  quote: Forschungsprojekt zur Erhebung der Fledermäuse und Laufkäfer in Niederösterreich
+    gestartet
+- claim: Publishes data through GBIF.
+  url: https://api.gbif.org/v1/organization?country=AT&limit=200
+  fetched: 2026-11-07
+  quote: '"title":"Nationalpark Thayatal"'
+links:
+- type: partners-with
+  to: bikos
+  url: https://www.donauauen.at/aktuelles/blog/fledermausforschung-in-der-au
+  fetched: 2026-11-07
+  quote: Nationalpark Thayatal und Nationalpark Donau-Auen beteiligt sind.
+found_by:
+- link-from:gbif-austria
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

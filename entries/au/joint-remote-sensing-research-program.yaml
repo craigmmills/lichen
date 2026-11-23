@@ -1,0 +1,40 @@
+id: joint-remote-sensing-research-program
+kind: programme
+name: Joint Remote Sensing Research Program
+also_known_as:
+- JRSRP
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- au
+status: active
+runner: unknown
+summary: Programme that is a partner in Queensland's Statewide Landcover and Trees
+  Study, with seasonal Sentinel-2 fractional cover produced by its version 3.0 algorithm,
+  a multilayer perceptron model.
+facts:
+- claim: A partner in the Statewide Landcover and Trees Study run by the Queensland
+    Department of the Environment, Tourism, Science and Innovation.
+  url: https://www.qld.gov.au/environment/land/management/mapping/statewide-monitoring/slats/slats-explained
+  quote: in partnership with the Department of Natural Resources and Mines, Manufacturing
+    and Regional and Rural Development and the Joint Remote Sensing Research Program
+  fetched: '2026-11-08'
+- claim: Seasonal fractional cover from Sentinel-2 is produced with the JRSRP algorithm
+    version 3.0.
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: Seasonal Fractional Cover - Sentinel-2, JRSRP Algorithm Version 3.0, Eastern
+    and Central Australia Coverage
+  fetched: '2026-11-08'
+- claim: The fractional cover model is a multilayer perceptron.
+  url: https://researchdata.edu.au/seasonal-fractional-cover-australia-coverage/2029700
+  quote: A multilayer perceptron (MLP) model is used to estimate percentage cover
+    in three fractions
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

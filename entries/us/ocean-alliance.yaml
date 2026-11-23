@@ -1,0 +1,45 @@
+id: ocean-alliance
+kind: organisation
+name: Ocean Alliance
+scope: us
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: conservation-tech
+realms:
+- ocean
+hq: us
+countries:
+- us
+scale: global
+summary: Whale research nonprofit in Gloucester, Massachusetts, known for the SnotBot drones
+  that collect whale breath samples. Its own site refused us, so these facts come from CBS
+  Boston and an Intel announcement.
+facts:
+- claim: CBS Boston says it is in Gloucester, Massachusetts and uses drones in whale conservation.
+  url: https://www.cbsnews.com/boston/news/ocean-alliance-gloucester-whale-snotbot-drone-research
+  quote: He's head of Ocean Alliance, located in Gloucester, Massachusetts. His group is taking
+    whale conservation to new heights using drones.
+  fetched: '2026-10-31'
+- claim: An Intel announcement on TelecomTV says Intel worked with Parley and Ocean Alliance
+    on AI and drones for whale health research.
+  url: https://www.telecomtv.com/content/tracker/snotbots-and-intel-ai-technology-part-of-mission-to-save-the-world-s-oceans-27187
+  quote: Intel is working with Parley for the Oceans and the Ocean Alliance to provide Intel
+    artificial intelligence and drone technologies
+  fetched: '2026-10-31'
+- claim: A finalist for the Ocean Exchange 2026 awards, per Ocean News.
+  url: https://oceannews.com/news/milestones/ocean-exchange-names-finalists-for-its-2026-awards-competition/
+  quote: Ocean Alliance (US)
+  fetched: '2026-10-31'
+- claim: The IRS exempt organisation record, through ProPublica, lists Ocean Alliance Inc
+    at Gloucester, Massachusetts.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/222573677.json
+  fetched: '2026-10-31'
+  quote: '"city":"Gloucester","state":"MA"'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

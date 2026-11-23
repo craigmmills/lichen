@@ -1,0 +1,69 @@
+id: centre-d-observation-de-surveillance-et-d-information-environnementales
+kind: organisation
+name: Centre d'Observation de Surveillance et d'Information Environnementales
+also_known_as:
+- COSIE
+scope: gn
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: gn
+countries:
+- gn
+scale: national
+status: active
+summary: Central directorate of Guinea's environment administration that publishes three datasets on GBIF,
+  including plant inventories, and hosts the datasets published from Guinea, including the national herbarium's.
+facts:
+- claim: GBIF's publisher record says COSIE ranks as a directorate of the central administration and applies
+    the department's policy on environmental observation, information, education, communication and documentation.
+  url: https://api.gbif.org/v1/organization?country=GN&limit=50
+  fetched: 2026-11-08
+  quote: Le COSIE, de niveau hiérarchique équivalent à celui d’une Direction de l’Administration Centrale
+    a pour mission l'application de la politique du Département en matière d’observation, d’information
+- claim: GBIF lists three datasets published by COSIE.
+  url: https://api.gbif.org/v1/organization?country=GN&limit=50
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":3'
+- claim: One of its datasets inventories and locates plant species in the Vèrè and Nalon catchments.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GN&limit=60
+  fetched: 2026-11-08
+  quote: Bassins versants de vere et nalon (BID-AF2015-0066-REG)
+- claim: GBIF names COSIE as the hosting organisation of the datasets published from Guinea, including
+    the national herbarium's.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GN&limit=60
+  fetched: 2026-11-08
+  quote: '"hostingOrganizationTitle":"Centre d''Observation de Surveillance et d''Information Environnementales
+    (COSIE)"'
+- claim: Its GBIF publisher record says it has the rank of a central administration directorate and applies
+    the department's policy on environmental observation and information.
+  url: https://api.gbif.org/v1/organization/1c905e09-830d-43d6-bea7-32b9275364bf
+  fetched: 2026-11-08
+  quote: de niveau hiérarchique équivalent à celui d’une Direction de l’Administration Centrale a pour
+    mission l'application de la politique du Département en matière d’observation, d’information
+- claim: Publishes on GBIF a list of flowering plants recorded in the Nimba Mountains, the result of a
+    plant inventory published in 2008.
+  url: https://api.gbif.org/v1/organization/1c905e09-830d-43d6-bea7-32b9275364bf/publishedDataset
+  fetched: 2026-11-08
+  quote: La présente liste, publiée en 2008, est le résultat de l'inventaire des phanérogames.
+- claim: Also publishes on GBIF a dataset of plant species inventories in two watersheds, the Vèrè in
+    Guinée Forestière and the Nalon in Haute Guinée.
+  url: https://api.gbif.org/v1/organization/1c905e09-830d-43d6-bea7-32b9275364bf/publishedDataset
+  fetched: 2026-11-08
+  quote: C'est un jeu de données d'inventaires et de localisations des espèces végétales de deux bassins
+    versants dont la Vèrè en Guinée Forestière et le Nalon en Haute Guinée
+- claim: The National Herbarium of Guinea lists MEEF-COSIE among the competent authorities represented
+    at the closing workshop of its Darwin Initiative project on Tropical Important Plant Areas.
+  url: http://www.herbierguinee.org
+  fetched: 2026-11-08
+  quote: des représentants des autorités compétentes MEEF, MEEF-COSIE, OGUIPAR et MESRS
+links: []
+found_by:
+- link-from:gbif-guinea
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

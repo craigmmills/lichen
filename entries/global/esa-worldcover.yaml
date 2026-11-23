@@ -1,0 +1,38 @@
+id: esa-worldcover
+kind: dataset
+name: ESA WorldCover
+also_known_as:
+- WorldCover
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://esa-worldcover.org/en
+summary: Global land cover products for 2020 and 2021 at 10 m resolution based on Sentinel-1 and Sentinel-2 data, developed by a consortium of European providers.
+facts:
+- claim: Provides global land cover products for 2020 and 2021 at 10 m resolution.
+  url: https://esa-worldcover.org/en
+  fetched: 2026-10-30
+  quote: WorldCover provides the first global land cover products for 2020 and 2021 at 10 m resolution
+- claim: Developed by a consortium of European service providers and research organisations.
+  url: https://esa-worldcover.org/en
+  fetched: 2026-10-30
+  quote: The WorldCover product is developed by a consortium consisting of a group of highly experienced major European service providers and research organizations
+links:
+- type: run-by
+  to: european-space-agency
+  url: https://esa-worldcover.org/en/about/about
+  fetched: 2026-10-30
+  quote: "the European Space Agency (ESA) initiated the WorldCover project"
+- type: partners-with
+  to: vito
+  url: https://esa-worldcover.org/en
+  fetched: 2026-10-30
+  quote: Copyright 2020 - 2026 VITO NV
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

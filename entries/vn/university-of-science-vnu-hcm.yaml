@@ -1,0 +1,72 @@
+id: university-of-science-vnu-hcm
+kind: organisation
+name: University of Science, Vietnam National University Ho Chi Minh City
+also_known_as:
+- Trường Đại học Khoa học tự nhiên, ĐHQG-HCM
+- HCMUS
+- Ho Chi Minh City University of Science
+scope: vn
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: vn
+countries:
+- vn
+scale: national
+status: active
+website: https://www.hcmus.edu.vn/
+summary: Publishes lichen and bryophyte datasets from its PHH Herbarium, which GBIF describes
+  as holding Vietnam’s largest cryptogam collection; an author has a bird sound classification
+  paper.
+facts:
+- claim: Its GBIF publisher record says the PHH Herbarium of the University of Science holds
+    thousands of plant specimens.
+  url: https://api.gbif.org/v1/organization/8dba2e07-0a91-4728-9ea7-39102c5ee8b9
+  fetched: '2026-11-08'
+  quote: The PHH Herbarium of University of Science holds thousands of plant specimens since
+    the finding of the University of Science, Vietnam.
+- claim: Publishes a GBIF dataset of more than 3,000 lichen specimens collected in Vietnam
+    and held in the PHH Herbarium.
+  url: https://api.gbif.org/v1/organization/8dba2e07-0a91-4728-9ea7-39102c5ee8b9/publishedDataset
+  fetched: '2026-11-08'
+  quote: This dataset contains more than 3000 specimens of lichens which were collected in
+    Vietnam. All of specimens are deposited in PHH Herbarium, Cryptogam collection.
+- claim: Publishes a GBIF dataset of nearly 4,000 bryophyte specimens collected in Vietnam
+    and held in the PHH Herbarium.
+  url: https://api.gbif.org/v1/dataset/f36e1dc7-3c7f-48fa-a4d0-c84546d7309a
+  fetched: '2026-11-08'
+  quote: This dataset contains nearly 4000 specimens of bryophytes which were collected in
+    Vietnam. All of the specimens are deposited in PHH Herbarium, Cryptogam collection.
+- claim: Its home page gives its first campus at 227 Nguyen Van Cu, Ho Chi Minh City.
+  url: https://www.hcmus.edu.vn/
+  fetched: '2026-11-08'
+  quote: 'Cơ sở 1: 227 đường Nguyễn Văn Cừ, Phường Chợ Quán, Thành phố Hồ Chí Minh'
+- claim: GBIF's publisher record says the PHH Herbarium holds the largest cryptogam collection
+    in Vietnam.
+  url: https://api.gbif.org/v1/organization/8dba2e07-0a91-4728-9ea7-39102c5ee8b9
+  fetched: 2026-11-08
+  quote: PHH Herbarium also holds the largest cryptogam collection in Vietnam
+- claim: Publishes on GBIF a dataset of more than 3,000 lichen specimens collected in Vietnam.
+  url: https://api.gbif.org/v1/organization/8dba2e07-0a91-4728-9ea7-39102c5ee8b9/publishedDataset
+  fetched: 2026-11-08
+  quote: This dataset contains more than 3000 specimens of lichens which were collected in
+    Vietnam.
+- claim: OpenAlex lists an author at Ho Chi Minh City University of Science as first author
+    of the paper titled "Improving Bird Sounds Classification with Additional Fine-tuning
+    on Augmented Data".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02wsd5p50|00waaqh38|04nyv3z04|02jmfj006|02wdwrr89|01drq0835|05ezss144|04qva2324|0071qz696|05jfbgm49|03t0zs859|05w54hk79|00qaa6j11|04r9s1v23|03mj71j26|03ecpp171|05hzn5427|03anxx281|0360g3z42|03dth0f39|04wgyjv21|03esj4g97|02ryrf141|019sx5d52|02128gy91|010y5b925|05hhz4s12|00tean533|05xpj2n48,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships&page=4
+  fetched: 2026-11-08
+  quote: Improving Bird Sounds Classification with Additional Fine-tuning on Augmented Data
+found_by:
+- link-from:global-biodiversity-information-facility
+- register:vn
+- checklist:2
+- checklist:3
+added_by: agent
+checked: '2026-11-08'
+techniques:
+- bioacoustics

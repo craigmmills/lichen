@@ -1,0 +1,45 @@
+id: assiniboine-park-conservancy
+kind: organisation
+name: Assiniboine Park Conservancy
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+hq: ca
+countries:
+- ca
+scale: local
+status: active
+website: https://www.assiniboinepark.ca/
+summary: Winnipeg park and zoo body whose zoo researchers created the Beluga Bits citizen
+  science project and used neural networks to filter beluga imagery.
+facts:
+- claim: A Frontiers paper with authors from its zoo reports CNN models that predicted whether
+    belugas were present.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: the CNN models were more accurate than citizen scientists in predicting whether belugas
+    were present
+  ai_type: deep-learning
+- claim: The paper gives the zoo department address in Winnipeg.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: Conservation and Research Department, Assiniboine Park Zoo, Winnipeg, MB, Canada
+links:
+- type: runs
+  to: beluga-bits
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: citizen science research project created and managed by Assiniboine Park Zoo researchers
+found_by:
+- register:ca
+added_by: agent
+checked: '2026-10-31'

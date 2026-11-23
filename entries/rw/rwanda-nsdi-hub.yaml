@@ -1,0 +1,41 @@
+id: rwanda-nsdi-hub
+kind: dataset
+name: Rwanda National Spatial Data Infrastructure Hub
+also_known_as:
+- NSDI Hub
+- geodata.rw
+scope: rw
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- rw
+status: active
+summary: National open platform launched in November 2021, built and run by the National Land Authority,
+  that hosts and publishes harmonised fundamental geospatial datasets from different institutions.
+facts:
+- claim: Launched in November 2021 as a national open platform to host and publish geospatial data.
+  url: https://www.lands.rw/land-use-and-mapping
+  fetched: 2026-11-08
+  quote: This NSDI hub was launched in November 2021 as a national open platform to host and publish geospatial
+    data and information relevant to sectoral planning and implementation.
+- claim: Holds harmonised and standardised fundamental geospatial datasets from different institutions.
+  url: https://www.lands.rw/land-use-and-mapping
+  fetched: 2026-11-08
+  quote: The hub contains mainly harmonized and standardized fundamental geospatial datasets from different
+    institutions.
+links:
+- type: built-by
+  to: national-land-authority-rwanda
+  url: https://www.lands.rw/land-use-and-mapping
+  fetched: 2026-11-08
+  quote: it was developed and managed by Rwandan National Land Authority
+- type: run-by
+  to: national-land-authority-rwanda
+  url: https://www.lands.rw/land-use-and-mapping
+  fetched: 2026-11-08
+  quote: it was developed and managed by Rwandan National Land Authority
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

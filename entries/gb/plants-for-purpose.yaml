@@ -1,0 +1,38 @@
+id: plants-for-purpose
+kind: programme
+name: Plants for Purpose
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://www.rhs.org.uk/science/articles/ai-to-create-plants-for-purpose
+summary: Five-year RHS programme from 2025 developing, with the University of Nottingham,
+  a deep learning tool to find useful traits among UK plant cultivars.
+facts:
+- claim: Develops a deep learning tool with the University of Nottingham.
+  url: https://www.rhs.org.uk/science/articles/ai-to-create-plants-for-purpose
+  quote: Plants for Purpose will see the RHS work in collaboration with the University of
+    Nottingham to develop a deep learning tool
+  ai_type: deep-learning
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: royal-horticultural-society
+  url: https://www.rhs.org.uk/science/articles/ai-to-create-plants-for-purpose
+  quote: Plants for Purpose will see the RHS work in collaboration with the University of
+    Nottingham
+  fetched: *id001
+- type: partners-with
+  to: university-of-nottingham
+  url: https://www.rhs.org.uk/science/articles/ai-to-create-plants-for-purpose
+  quote: in collaboration with the University of Nottingham
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

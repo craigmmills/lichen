@@ -1,0 +1,24 @@
+id: deephl
+kind: model
+name: DeepHL
+scope: jp
+ai_label: ai
+realms:
+- land
+- ocean
+ai_types:
+- deep-learning
+status: unknown
+summary: Deep learning method named in a paper title, with no further details given and its status unknown.
+facts:
+- claim: Paper title names the deep learning method.
+  url: https://api.openalex.org/works/doi:10.1038/s41467-020-19105-0?select=display_name,publication_year,doi,authorships
+  fetched: 2026-11-02
+  quote: Deep learning-assisted comparative analysis of animal trajectories with DeepHL
+  ai_type: deep-learning
+links: []
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

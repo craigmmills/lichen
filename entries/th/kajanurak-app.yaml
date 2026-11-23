@@ -1,0 +1,57 @@
+id: kajanurak-app
+kind: programme
+name: Kajanurak
+also_known_as:
+- Kajanurak app
+scope: th
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+scale: national
+status: active
+runner: unknown
+summary: An app built by True Digital Group which, True says, uses AI to identify
+  elephants in images from SIM-equipped cameras and passes sightings to conservation
+  units or village representatives.
+countries: []
+facts:
+- claim: True says the app uses AI to identify elephants in images from SIM-equipped
+    cameras.
+  url: https://www.true.th/blog/en/ai-driven-monitoring-hec/
+  fetched: 2026-11-12
+  quote: The Kajanurak app, powered by AI technology, is highly effective in identifying
+    elephant figures with great precision
+- claim: Sightings are passed to elephant conservation units or village representatives
+    through the app.
+  url: https://www.true.th/blog/en/ai-driven-monitoring-hec/
+  fetched: 2026-11-12
+  quote: communicates the latest elephant sighting information to elephant conservation
+    units or village representatives responsible for elephant conservation through
+    the Kajanurak app
+- claim: The Google Play listing describes it as an app for notifying elephant sightings
+    near national reserved forests.
+  url: https://play.google.com/store/apps/details?hl=en&id=com.kajanurak.co.th
+  fetched: 2026-11-12
+  quote: It is a medium that helps in notifying when elephants are seen.
+links:
+- type: built-by
+  to: true-digital-group
+  url: https://play.google.com/store/apps/details?hl=en&id=com.kajanurak.co.th
+  fetched: 2026-11-12
+  quote: 'About the developer
+
+    TRUE DIGITAL GROUP COMPANY LIMITED'
+- type: used-by
+  to: elephant-smart-early-warning-system
+  url: https://www.true.th/blog/en/ai-driven-monitoring-hec/
+  fetched: 2026-11-12
+  quote: At this stage, AI filters the data before alerting the staff at the elephant
+    monitoring center, which then communicates the latest elephant sighting information
+    to elephant conservation units or village representatives responsible for elephant
+    conservation through the Kajanurak app.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

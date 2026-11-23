@@ -1,0 +1,35 @@
+id: sistema-de-apoio-ao-monitoramento-de-mamiferos-marinhos
+kind: dataset
+name: Sistema de Apoio ao Monitoramento de Mamíferos Marinhos
+also_known_as:
+- SIMMAM
+scope: br
+ai_label: data-infrastructure
+status: unknown
+realms:
+- ocean
+countries:
+- br
+runner: unknown
+summary: System giving access to marine mammal monitoring information, built by Universidade
+  do Vale do Itajaí, whose data are described as a valuable collection.
+facts:
+- claim: A system giving access to marine mammal monitoring information.
+  url: https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/relatorios/relatorio_anual_de_atividades_cma_2020.pdf
+  fetched: '2026-11-09'
+  quote: O SIMMAM é um sistema que possibilita acessar informações de monitoramento
+- claim: Its data are described as a valuable collection.
+  url: https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/relatorios/relatorio_anual_de_atividades_cma_2020.pdf
+  fetched: '2026-11-09'
+  quote: Os dados do SIMMAM constituem um acervo valioso
+links:
+- type: built-by
+  to: universidade-do-vale-do-itajai
+  url: https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/relatorios/relatorio_anual_de_atividades_cma_2020.pdf
+  fetched: '2026-11-09'
+  quote: O SIMMAM foi desenvolvido pelo Centro de Ciências Tecnológicas da Terra e
+    do Mar – CTTMar, da Universidade do Vale do Itajaí – UNIVALI
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

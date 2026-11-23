@@ -1,0 +1,33 @@
+id: deepcoi
+kind: model
+name: DeepCOI
+scope: kr
+ai_label: ai
+status: active
+summary: A 2025 paper describes this as a large language model-driven framework for fast and accurate
+  taxonomic assignment in animal metabarcoding.
+facts:
+- claim: The paper title calls it a large language model-driven framework for animal metabarcoding.
+  url: https://api.openalex.org/works/doi:10.1186/s13059-025-03861-7?select=id,title,publication_year,authorships
+  fetched: '2026-11-02'
+  quote: 'DeepCOI: a large language model-driven framework for fast and accurate taxonomic assignment
+    in animal metabarcoding'
+  ai_type: large-language-models
+- claim: A 2025 paper describes DeepCOI as a large language model-driven framework for fast and accurate
+    taxonomic assignment in animal metabarcoding.
+  url: https://api.openalex.org/works?filter=authorships.countries:KR,concepts.id:C130217890,concepts.id:C119857082|C108583219|C154945302,from_publication_date:2020-01-01&sort=cited_by_count:desc&per_page=40&select=id,title,publication_year,cited_by_count,authorships
+  fetched: '2026-11-02'
+  quote: 'DeepCOI: a large language model-driven framework for fast and accurate taxonomic assignment
+    in animal metabarcoding'
+  ai_type: large-language-models
+found_by:
+- checklist:3
+runner: unknown
+ai_types:
+- large-language-models
+techniques:
+- edna-genomics
+added_by: agent
+checked: '2026-11-02'
+realms:
+- land

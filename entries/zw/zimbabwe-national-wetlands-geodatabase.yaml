@@ -1,0 +1,34 @@
+id: zimbabwe-national-wetlands-geodatabase
+kind: dataset
+name: Zimbabwe national wetlands map and geo-database
+scope: zw
+ai_label: data-infrastructure
+realms:
+- freshwater
+status: active
+runner: unknown
+summary: Wetlands inventory built by the national geospatial agency, reported by The Herald in 2021 as
+  a national map, 10 provincial and 63 district maps, a geo-database and an interactive GIS web map.
+facts:
+- claim: The Herald reported in 2021 that the inventory comprises a national wetlands map, 10 provincial
+    and 63 district wetlands maps, a national wetlands geo-database and an interactive GIS web map.
+  url: https://www.herald.co.zw/national-wetlands-master-plan-complete/
+  fetched: 2026-11-09
+  quote: It is made up of the Zimbabwe national wetlands map, 10 provincial wetlands maps and 63 district
+    wetlands maps, plus the field wetlands maps, the national wetlands geo-database
+- claim: The same report says the inventory and maps are available in hard copy and electronic format.
+  url: https://www.herald.co.zw/national-wetlands-master-plan-complete/
+  fetched: 2026-11-09
+  quote: The inventory of Zimbabwe’s wetlands together with the accompanying maps is now available in
+    hard copy and electronic format
+links:
+- type: built-by
+  to: zimbabwe-national-geospatial-and-space-agency
+  url: https://www.herald.co.zw/national-wetlands-master-plan-complete/
+  fetched: 2026-11-09
+  quote: the Cabinet taskforce gave the job of mapping all of Zimbabwe’s wetlands to Zimbabwe National
+    Geospatial and Space Agency (ZINGSA)
+found_by:
+- link-from:zimbabwe-national-geospatial-and-space-agency
+added_by: agent
+checked: 2026-11-09

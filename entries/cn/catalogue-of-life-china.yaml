@@ -1,0 +1,70 @@
+id: catalogue-of-life-china
+kind: dataset
+name: Catalogue of Life China
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: Annual checklist of species in China, free to download and released each year by
+  the Biodiversity Committee of the Chinese Academy of Sciences.
+facts:
+- claim: The 2026 checklist is freely available to download.
+  url: https://english.cas.cn/newsroom/news-updates/202605/t20260522_1159773.shtml
+  fetched: '2026-10-31'
+  quote: This comprehensive and updated inventory is now freely available for global users
+    to download at http://www.sp2000.org.cn
+- claim: Published annually by the Chinese Academy of Sciences since 2008.
+  url: http://ioz.cas.cn/gb2018/cg/sjk/
+  fetched: '2026-10-31'
+  quote: 自2008年开始，中国科学院每年向全球发布《中国生物物种名录》年度名录
+- claim: The 2026 edition was issued in Beijing in May 2026.
+  url: http://www.sp2000.org.cn/
+  fetched: '2026-10-31'
+  quote: 《中国生物物种名录》2026版年度版于2026年5月编辑完成，于2026年5月在北京正式发布
+- claim: The 2026 edition holds 168,871 species and infraspecific taxa.
+  url: https://www.cas.cn/yx/202605/t20260522_5110306.shtml
+  fetched: '2026-10-31'
+  quote: 2026版名录共收录物种及种下单元168871个
+- claim: Released by the Biodiversity Committee of the Chinese Academy of Sciences and free
+    for users worldwide to download.
+  url: https://www.cas.cn/yx/202605/t20260522_5110306.shtml
+  fetched: '2026-10-31'
+  quote: 中国科学院生物多样性委员会在中国科学院植物研究所召开中国生物物种编目研讨会，正式发布《中国生物物种名录2026版》
+links:
+- type: run-by
+  to: biodiversity-committee-cas
+  url: https://english.cas.cn/newsroom/news-updates/202605/t20260522_1159773.shtml
+  fetched: '2026-10-31'
+  quote: the Biodiversity Committee of the Chinese Academy of Sciences (BC-CAS) officially
+    released the "Catalogue of Life China 2026 Annual Checklist."
+- type: run-by
+  to: biodiversity-committee-cas
+  url: http://www.sp2000.org.cn/
+  fetched: '2026-10-31'
+  quote: 在中国科学院生物多样性委员会的组织下
+- type: partners-with
+  to: species-2000
+  url: http://www.sp2000.org.cn/sp2000/
+  fetched: '2026-10-31'
+  quote: 物种2000中国节点的主要任务是，按照物种2000标准数据格式，对在中国分布的所有生物物种的分类学信息进行整理和核对，建立和维护中国生物物种名录
+- type: run-by
+  to: biodiversity-committee-cas
+  url: https://www.cas.cn/yx/202605/t20260522_5110306.shtml
+  fetched: '2026-10-31'
+  quote: 中国科学院生物多样性委员会在中国科学院植物研究所召开中国生物物种编目研讨会，正式发布《中国生物物种名录2026版》
+found_by:
+- checklist:2
+- link-from:institute-of-zoology-chinese-academy-of-sciences
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn
+also_known_as:
+- 中国生物物种名录
+- CoL China
+- Species 2000 China
+techniques:
+- other

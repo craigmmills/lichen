@@ -1,0 +1,28 @@
+id: seabird-surveillance-system
+kind: project
+name: Seabird surveillance system
+scope: se
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- se
+summary: Active project, built by Jonas Hentati-Sundberg, that uses a deep learning algorithm
+  trained on annotated images.
+facts:
+- claim: Uses a deep learning algorithm trained on annotated images.
+  url: https://research.chalmers.se/en/publication/535132
+  fetched: '2026-11-02'
+  quote: The system uses a deep learning algorithm for object detection (YOLOv5) that has
+    been trained on annotated images of adult birds, chicks and eggs
+  ai_type: deep-learning
+found_by:
+- register:gbif-publisher
+- link-from:swedish-university-of-agricultural-sciences
+added_by: agent
+checked: '2026-11-02'
+ai_types:
+- deep-learning

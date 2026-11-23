@@ -1,0 +1,55 @@
+id: instituto-nacional-de-pesquisas-da-amazonia
+kind: organisation
+name: Instituto Nacional de Pesquisas da Amazônia
+also_known_as:
+- INPA
+scope: br
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+hq: br
+countries:
+- br
+scale: national
+status: active
+website: https://www.gov.br/inpa/pt-br
+summary: National Amazon research institute. It is a named partner in Amazon.ia and the Brazilian
+  Team of XPRIZE Rainforest, and a data contributor to Google's Forest Listeners bioacoustic
+  experiment.
+facts:
+- claim: Partner in Amazon.ia.
+  url: https://cyprusshippingnews.com/2026/09/29/planet-announces-amazon-ia-a-new-tool-that-combines-satellite-data-science-and-ai-to-protect-the-amazon/
+  fetched: '2026-10-30'
+  quote: Instituto Nacional de Pesquisas da Amazônia (INPA)
+- claim: Credited with audio data on Forest Listeners.
+  url: https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA
+  fetched: '2026-10-30'
+  quote: Instituto Nacional de Pesquisas da Amazônia (INPA)
+  via: webfetch
+- claim: Its own site gives its address in Manaus, Amazonas.
+  url: https://www.gov.br/inpa/pt-br/canais_atendimento/fale-conosco
+  quote: Av. André Araújo, 2936, Aleixo, CEP 69060-001, Manaus - AM
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: amazon-ia
+  url: https://cyprusshippingnews.com/2026/09/29/planet-announces-amazon-ia-a-new-tool-that-combines-satellite-data-science-and-ai-to-protect-the-amazon/
+  fetched: '2026-10-30'
+  quote: Instituto Nacional de Pesquisas da Amazônia (INPA)
+- type: used-by
+  to: forest-listeners
+  url: https://artsandculture.google.com/experiment/forest-listeners/jAHbryPWSLc1rA
+  fetched: '2026-10-30'
+  quote: 'Audio recordings and data contributed by:'
+  via: webfetch
+found_by:
+- link-from:amazon-ia
+added_by: agent
+checked: '2026-10-31'

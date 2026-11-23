@@ -1,0 +1,34 @@
+id: atlas-des-oiseaux-du-senegal
+kind: dataset
+name: Atlas des oiseaux du Sénégal
+also_known_as:
+- Senegal Bird Atlas
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- sn
+status: active
+website: https://senegal.birdmap.africa/
+summary: Bird atlas for Senegal and a member of the African Bird Atlas Project. Observers
+  submit records online or through the BirdLasser mobile app.
+scope: sn
+facts:
+- claim: Described as a member of the African Bird Atlas Project.
+  url: https://senegal.birdmap.africa/howto
+  fetched: '2026-10-31'
+  quote: a member of the African Bird Atlas Project
+  via: webfetch
+- claim: Observers can submit data through the BirdLasser app.
+  url: https://senegal.birdmap.africa/howto
+  fetched: '2026-10-31'
+  quote: BirdLasser is a mobile app with which you can record and submit data.
+  via: webfetch
+found_by:
+- checklist:2
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+links: []
+runner: unknown

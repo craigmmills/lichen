@@ -1,0 +1,57 @@
+id: gbif-france
+kind: programme
+name: GBIF France
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.gbif.fr/
+summary: The French node of the Global Biodiversity Information Facility, which passes biodiversity
+  data collected by French bodies to the international network, drawing on the SINP, Récolnat
+  and the PNDB.
+facts:
+- claim: Exists to make biodiversity data collected by French actors available to international
+    GBIF.
+  url: https://www.gbif.fr/
+  quote: Le GBIF France a pour vocation de mettre à disposition du GBIF international toutes
+    les données de biodiversité collectées par les acteurs français
+  fetched: '2026-10-31'
+- claim: Relies on three main systems, the SINP, Récolnat and the PNDB.
+  url: https://www.gbif.fr/
+  quote: Le GBIF France s'appuie sur trois dispositifs principaux
+  fetched: '2026-10-31'
+- claim: Makes biodiversity data collected by French bodies available to international GBIF.
+  url: http://www.gbif.fr
+  fetched: '2026-10-31'
+  quote: Le GBIF France a pour vocation de mettre à disposition du GBIF international toutes
+    les données de biodiversité collectées par les acteurs français
+- claim: Listed by GBIF with an address in Paris.
+  url: https://api.gbif.org/v1/node/da44cd31-5901-4687-a106-6d1c7734ee3a
+  fetched: '2026-10-31'
+  quote: 57 rue Cuvier
+- claim: Takes part in the pilot phase of the Metabarcoding Data Toolkit for eDNA resources.
+  url: http://www.gbif.fr
+  fetched: '2026-10-31'
+  quote: Le GBIF France participe à la phase pilote de l’initiative et gère une instance d’un
+    nouvel outil - le Metabarcoding Data Toolkit (MDT)
+- claim: The GBIF registry describes it as the French node of GBIF.
+  url: https://api.gbif.org/v1/organization/5d5e5d82-076c-4e9a-b5b0-c88d1b691a6a
+  fetched: '2026-10-31'
+  quote: Point nodal français du GBIF
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+hq: fr
+roles:
+- supplies-data
+techniques:
+- species-distribution
+also_known_as:
+- Global Biodiversity Information Facility France
+runner: unknown

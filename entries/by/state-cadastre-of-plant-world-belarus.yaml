@@ -1,0 +1,40 @@
+id: state-cadastre-of-plant-world-belarus
+kind: dataset
+name: State Cadastre of the Plant World (Belarus)
+also_known_as:
+- Государственный кадастр растительного мира
+scope: by
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- by
+status: unknown
+summary: Electronic database of plants living in Belarus, run by the environment ministry,
+  which a 2016 news item says is open apart from state secrets and other restricted
+  information.
+facts:
+- claim: A 2016 news item on the national legal portal says the state cadastres of
+    the animal and plant world are electronic databases placed on the internet and
+    kept for animals and plants living in Belarus.
+  url: https://pravo.by/novosti/novosti-pravo-by/2016/april/10534/
+  fetched: 2026-11-12
+  quote: Согласно документам кадастры представляют собой электронные базы данных (государственные
+    информационные ресурсы «Государственный кадастр животного мира» и «Государственный
+    кадастр растительного мира»), размещенные в глобальной компьютерной сети Интернет
+- claim: The same item says the cadastres' data are open, apart from state secrets
+    and other restricted information.
+  url: https://pravo.by/novosti/novosti-pravo-by/2016/april/10534/
+  fetched: 2026-11-12
+  quote: Данные кадастров носят открытый характер
+links:
+- type: run-by
+  to: ministry-of-natural-resources-and-environmental-protection-belarus
+  url: https://pravo.by/novosti/novosti-pravo-by/2016/april/10534/
+  fetched: 2026-11-12
+  quote: Ведение кадастров осуществляется Министерством природных ресурсов и охраны
+    окружающей среды
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

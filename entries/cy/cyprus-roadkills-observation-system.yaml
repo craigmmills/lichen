@@ -1,0 +1,39 @@
+id: cyprus-roadkills-observation-system
+kind: dataset
+name: Cyprus Roadkills Observation System
+also_known_as:
+- CyROS
+scope: cy
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- cy
+status: unknown
+runner: unknown
+summary: Intended to record citizens' and volunteers' observations of dead wild animals
+  on the island's roads, with species, location and photographs; funded by the Open
+  University of Cyprus.
+facts:
+- claim: Is intended to record citizens' and volunteers' observations of dead wild
+    animals across the island's road network, including species, GPS location, date,
+    time and photographs.
+  url: https://temlab.ouc.ac.cy/projects/spatial-analysis-species-habitats-services
+  fetched: 2026-11-12
+  quote: The Cyprus Roadkill Observation System will be used for recording citizens’
+    and volunteers’ observations of dead wild fauna throughout the island’s road network.
+- claim: A summary of all roadkill recorded is publicly available on the CyROS database.
+  url: https://temlab.ouc.ac.cy/projects/spatial-analysis-species-habitats-services
+  fetched: 2026-11-12
+  quote: A summary of the above information is publicly available on the CyROS database,
+    for all roadkill recorded throughout the island.
+links:
+- type: funded-by
+  to: open-university-of-cyprus
+  url: https://temlab.ouc.ac.cy/projects/spatial-analysis-species-habitats-services
+  fetched: 2026-11-12
+  quote: 'CyROS: Cyprus Roadkills Observation System (funded by OUC)'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

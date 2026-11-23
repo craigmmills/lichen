@@ -1,0 +1,40 @@
+id: corine-turkiye
+kind: dataset
+name: CORINE Arazi Örtüsü Türkiye
+scope: tr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- tr
+status: active
+website: http://corine.tarimorman.gov.tr/corineportal/araziortususiniflari.html
+summary: Land cover dataset for Türkiye, run by the Tarım ve Orman Bakanlığı, mapped from satellite images
+  by computer-assisted visual interpretation for 1990, 2000, 2006, 2012 and 2018.
+facts:
+- claim: Maps are made from satellite images by computer-assisted visual interpretation, following the
+    European Environment Agency's land cover and land use classification.
+  url: https://corine.tarimorman.gov.tr/corineportal/files/metaveri.pdf
+  fetched: 2026-11-03
+  quote: üzerinden bilgisayar destekli görsel yorumlama metodu ile üretilen arazi örtüsü/kullanımını gösteren
+- claim: Twelve fourth-level sub-classes were defined for Türkiye.
+  url: https://corine.tarimorman.gov.tr/corineportal/files/metaveri.pdf
+  fetched: 2026-11-03
+  quote: Buna istinaden Türkiye için 4. Seviyede 12 adet alt sınıf tanımlanmış tır.
+- claim: Covers the years 1990, 2000, 2006, 2012 and 2018.
+  url: https://corine.tarimorman.gov.tr/corineportal/files/metaveri.pdf
+  fetched: 2026-11-03
+  quote: 'Zaman kapsamı: 1990-2000-2006-2012-2018'
+links:
+- type: run-by
+  to: tarim-ve-orman-bakanligi
+  url: https://corine.tarimorman.gov.tr/corineportal/files/metaveri.pdf
+  fetched: 2026-11-03
+  quote: dağıtımına ilişkin sorumluluk Tarım ve Orman  Bakanlığı Bilgi İşlem Dairesi Başkanlığı’ndadır.
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

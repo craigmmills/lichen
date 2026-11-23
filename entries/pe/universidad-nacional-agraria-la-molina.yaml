@@ -1,0 +1,58 @@
+id: universidad-nacional-agraria-la-molina
+kind: organisation
+name: Universidad Nacional Agraria La Molina
+also_known_as:
+- UNALM
+scope: pe
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: pe
+countries:
+- pe
+scale: national
+status: active
+summary: Peruvian education institution whose researchers, per OpenAlex, have published on
+  Andean land cover mapping, timber identification and soil carbon mapping, and whose academics,
+  ACCA reports, joined a 2023 TensorFlow training.
+facts:
+- claim: OpenAlex lists a 2022 paper led by UNALM researchers mapping land cover types of
+    highland Andean ecosystems in Peru with Google Earth Engine.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PE,from_publication_date:2019-01-01,title_and_abstract.search:(machine%20learning%20OR%20deep%20learning%20OR%20neural%20network%20OR%20random%20forest)%20AND%20(species%20OR%20biodiversity%20OR%20forest%20OR%20deforestation%20OR%20wildlife%20OR%20bird%20OR%20fish)&sort=cited_by_count:desc&per_page=80&select=id,title,publication_year,authorships
+  fetched: 2026-11-03
+  quote: Mapping Land Cover Types for Highland Andean Ecosystems in Peru Using Google Earth
+    Engine
+- claim: ACCA reports that academics from UNALM took part in the 2023 TensorFlow training
+    with SERVIR-Amazonia.
+  url: https://acca.org.pe/inteligencia-artificial-y-machine-learning-innovaciones-claves-para-la-preservacion-de-la-amazonia/
+  fetched: 2026-11-03
+  quote: académicos de la UCS y UNALM se reunieron en este intercambio de conocimientos
+- claim: OpenAlex lists Universidad Nacional Agraria La Molina as an education institution
+    in Peru.
+  url: https://api.openalex.org/institutions?filter=ror:00013q465|0323wfn23|00vr49948|006vs7897|03gsd6w61|03kqcyw85|01gbk3827|01kq4t285|039vhkg84|01ff0t864|042gqkw69|05sv9g179|0596exr16|04v27rh38|00yxgk394|025nas141|0572mqn31|006v63s16|047xrr705&select=display_name,ror,homepage_url,country_code,type,geo&per-page=50
+  fetched: '2026-11-03'
+  quote: '"homepage_url": "https://www.lamolina.edu.pe", "country_code": "PE", "type": "education"'
+- claim: OpenAlex lists a 2021 paper with its authors on field-deployable computer vision
+    for identifying Peruvian timbers.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I79080234,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: Field-Deployable Computer Vision Wood Identification of Peruvian Timbers
+- claim: OpenAlex lists a 2026 paper with its authors mapping soil organic carbon on Peru's
+    northern coast with ensemble machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I79080234,title_and_abstract.search:(%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22neural%20network%22%20OR%20%22convolutional%22)%20AND%20(deforestation%20OR%20biodiversity%20OR%20wildlife%20OR%20%22land%20cover%22%20OR%20%22species%20distribution%22%20OR%20ecosystem%20OR%20mangrove%20OR%20glacier%20OR%20amazon%20OR%20%22tree%20species%22)&select=id,title,publication_year&per-page=50&sort=publication_year:desc
+  fetched: '2026-11-03'
+  quote: 'Soil organic carbon content mapping along the coast of northern Peru: an ensemble
+    machine learning approach'
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-03

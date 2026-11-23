@@ -1,0 +1,36 @@
+id: wellspring-philanthropic-fund
+kind: organisation
+name: Wellspring Philanthropic Fund
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.wpfund.org/
+summary: Fund listed as a funder of the MapBiomas Project from 2019 to 2022.
+facts:
+- claim: Listed in the history of funders of the MapBiomas Project.
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Wellspring Philanthropic Fund / 2019 – 2022
+  fetched: &id001 2026-10-30
+- claim: Its site says, in the past tense, that it supported human rights and social and economic
+    justice.
+  url: https://www.wpfund.org/
+  quote: Wellspring Philanthropic Fund supported the realization of human rights and social
+    and economic justice for all people.
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Wellspring Philanthropic Fund / 2019 – 2022
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

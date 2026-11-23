@@ -1,0 +1,34 @@
+id: ahmadu-bello-university
+kind: organisation
+name: Ahmadu Bello University
+scope: ng
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ng
+scale: local
+status: active
+funding_at_risk: false
+summary: The university has an affiliated first author of a 2023 machine learning forest mapping
+  paper and publishes a GBIF dataset of plant specimens from its Botany Herbarium.
+facts:
+- claim: First author of a 2023 paper on machine learning forest type mapping from remote
+    sensing data is at Ahmadu Bello University.
+  url: https://api.openalex.org/works/W4391408643?select=id,doi,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-03'
+  quote: Machine Learning-Based Forest Type Mapping from Multi-Temporal Remote Sensing Data
+- claim: Publishes a GBIF dataset of plant specimen records from its Botany Herbarium.
+  url: https://api.gbif.org/v1/organization/96c71c8f-af48-4313-ba1c-80cbf9315dda/publishedDataset?limit=50
+  fetched: '2026-11-03'
+  quote: Plant Specimen Records from the ABU Botany Herbarium, Nigeria
+found_by:
+- register:ng
+added_by: agent
+checked: '2026-11-03'

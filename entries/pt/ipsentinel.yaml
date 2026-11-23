@@ -1,0 +1,50 @@
+id: ipsentinel
+kind: dataset
+name: IPSentinel
+scope: pt
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+scale: national
+status: active
+summary: A platform providing Copernicus Sentinel satellite images to Portugal, which Portugal Space says
+  is coordinated by DGT and IPMA.
+facts:
+- claim: Portugal Space says DGT and IPMA coordinate the platform, which provides Copernicus Sentinel
+    images to Portugal.
+  url: https://ptspace.pt/earth-observation/
+  fetched: '2026-11-02'
+  quote: DGT coordinates the IPSentinel platform that provides satellite images within Copernicus Program
+    (i.e. Sentinels) to Portugal
+- claim: The Portuguese Space Agency says DGT and IPMA coordinate the platform, which provides satellite
+    images within the Copernicus programme.
+  url: https://ptspace.pt/earth-observation/
+  fetched: 2026-11-02
+  quote: DGT coordinates the IPSentinel platform that provides satellite images within Copernicus Program
+links:
+- type: run-by
+  to: direcao-geral-do-territorio
+  url: https://ptspace.pt/earth-observation/
+  fetched: '2026-11-02'
+  quote: DGT coordinates the IPSentinel platform
+- type: run-by
+  to: instituto-portugues-do-mar-e-da-atmosfera
+  url: https://ptspace.pt/earth-observation/
+  fetched: '2026-11-02'
+  quote: Together with the Portuguese Institute for Sea and Atmosphere ( IPMA), DGT coordinates the IPSentinel
+    platform
+- type: run-by
+  to: direcao-geral-do-territorio
+  url: https://ptspace.pt/earth-observation/
+  fetched: 2026-11-02
+  quote: DGT coordinates the IPSentinel platform that provides satellite images within Copernicus Program
+found_by:
+- checklist:2
+- link-from:portuguese-space-agency
+added_by: agent
+checked: '2026-11-02'
+countries:
+- pt

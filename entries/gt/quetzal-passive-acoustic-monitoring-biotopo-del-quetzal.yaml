@@ -1,0 +1,63 @@
+id: quetzal-passive-acoustic-monitoring-biotopo-del-quetzal
+kind: project
+name: Passive acoustic monitoring of the resplendent quetzal in the Biotopo Universitario
+  para la Conservación del Quetzal
+also_known_as: []
+scope: gt
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- gt
+status: closed
+runner: unknown
+summary: A closed study, reported by La Hora, that used passive acoustic monitoring
+  and BirdNET to describe resplendent quetzal vocal activity and habitat use over
+  a full year in a Purulhá biotope.
+facts:
+- claim: La Hora reports that the research took place in the Biotopo Universitario
+    para la Conservación del Quetzal, in Purulhá, Baja Verapaz.
+  url: https://lahora.gt/nacionales/dleon/2026/10/18/nuevo-estudio-sobre-la-actividad-sonora-del-quetzal-podria-ayudar-a-mejorar-la-conservacion-de-su-habitat/
+  fetched: 2026-11-15
+  quote: La investigación tuvo lugar en el Biotopo Universitario para la Conservación
+    del Quetzal, en Purulhá, Baja Verapaz.
+- claim: La Hora reports that the study assessed the quetzal's vocal activity and
+    habitat use through passive acoustic monitoring, and names its authors as Michelle
+    Bustamante Castillo, Pablo Bolaños Sittler, Diego Lionel Lima Núñez and José Luis
+    Echeverría-Tello.
+  url: https://lahora.gt/nacionales/dleon/2026/10/18/nuevo-estudio-sobre-la-actividad-sonora-del-quetzal-podria-ayudar-a-mejorar-la-conservacion-de-su-habitat/
+  fetched: 2026-11-15
+  quote: Este texto, realizado por Michelle Bustamante Castillo, Pablo Bolaños Sittler,
+    Diego Lionel Lima Núñez y José Luis Echeverría-Tello, evaluó la actividad vocal
+    y el uso del hábitat del quetzal resplandeciente por medio del monitoreo de acústicas
+    pasivo
+- claim: La Hora reports that BirdNET, which it describes as a deep learning system
+    for sound recognition, was used to describe the quetzal's vocal activity patterns
+    over a full year.
+  url: https://lahora.gt/nacionales/dleon/2026/10/18/nuevo-estudio-sobre-la-actividad-sonora-del-quetzal-podria-ayudar-a-mejorar-la-conservacion-de-su-habitat/
+  fetched: 2026-11-15
+  quote: En este caso fue BirdNET, que sirve para el reconocimiento de sonidos, el
+    cual se utilizó para describir los patrones de actividad vocal del quetzal durante
+    un año completo.
+- claim: La Hora describes BirdNET as a deep learning system.
+  ai_type: deep-learning
+  url: https://lahora.gt/nacionales/dleon/2026/10/18/nuevo-estudio-sobre-la-actividad-sonora-del-quetzal-podria-ayudar-a-mejorar-la-conservacion-de-su-habitat/
+  fetched: 2026-11-15
+  quote: Este sistema de aprendizaje profundo puede ser utilizado luego de aprender
+    las características requeridas en el entrenamiento manual.
+links:
+- type: uses
+  to: birdnet
+  url: https://lahora.gt/nacionales/dleon/2026/10/18/nuevo-estudio-sobre-la-actividad-sonora-del-quetzal-podria-ayudar-a-mejorar-la-conservacion-de-su-habitat/
+  fetched: 2026-11-15
+  quote: En este caso fue BirdNET, que sirve para el reconocimiento de sonidos, el
+    cual se utilizó para describir los patrones de actividad vocal del quetzal durante
+    un año completo.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

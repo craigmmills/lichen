@@ -1,0 +1,58 @@
+id: miti360
+kind: dataset
+name: Miti360
+also_known_as:
+- Mti360
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+summary: Multi-modal machine learning dataset from DSAIL at Dedan Kimathi University
+  of Technology, built from a 770-hectare reforested stand in Kieni Forest in the
+  Aberdare ecosystem.
+facts:
+- claim: The dataset provides a framework for monitoring forest health at scale.
+  url: https://dekut-dsail.github.io/Blogs/DSAILResearchDay2025.html
+  quote: Miti360 dataset, which provides a robust framework for monitoring forest
+    health at scale
+  fetched: '2026-10-30'
+- claim: DSAIL says it holds high-resolution drone orthophotos and precise ground
+    measurements.
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: This dataset has high-resolution drone orthophotos,
+- claim: Says it is a dataset for machine learning in African forestry.
+  url: https://miti360.github.io/
+  fetched: '2026-10-31'
+  quote: A high-resolution, multi-modal dataset for machine learning in African forestry
+- claim: Holds drone orthophotos, ground measurements and species labels.
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-31'
+  quote: high-resolution drone orthophotos
+links:
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/Blogs/DSAILResearchDay2025.html
+  quote: a significant portion of the day was dedicated to the Miti360 initiative
+  fetched: '2026-10-30'
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: Miti360
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://miti360.github.io/
+  fetched: '2026-10-31'
+  quote: developed by the Centre for Data Science and Artificial Intelligence (DSAIL)
+found_by:
+- checklist:3
+- link-from:university-of-leeds
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,73 @@
+id: dofbasen
+kind: dataset
+name: DOFbasen
+scope: dk
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- dk
+scale: national
+status: active
+summary: Online database of bird observations in Denmark, started in 2002 according
+  to a 2017 agreement, run by Dansk Ornitologisk Forening, with records shared through
+  GBIF.
+facts:
+- claim: A 2017 agreement says it was started in 2002 and is Denmark's largest bird
+    database.
+  url: https://pub.dof.dk/notater/6/download/2017-aftale-mellem-dansk-ornitologisk-forening-og-miljoe-og-foedevareministeriet-om-samarbejde-om-bevaring-og-overvaagning-af-fugle-2018-2020
+  fetched: '2026-11-02'
+  quote: DOFbasen iværksat fra 2002 er Danmarks største fugledatabase
+- claim: The Atlas III leaflet said results from its 2014–2017 survey would be entered
+    in an online database at dofbasen.dk/atlas.
+  url: https://www.dof.dk/images/projekter/atlas3/dokumenter/132709_Atlasfolder.pdf
+  fetched: '2026-11-02'
+  quote: Resultaterne indtastes løbende i en online
+- claim: Everyone can search it; data can be entered by web or app.
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: Data can be entered either directly via the web or via an app
+- claim: Online database of bird observations in Denmark.
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: DOFbasen is an online database for bird observations in Denmark
+- claim: Records can be entered on the web or through an app.
+  url: https://dofbasen.dk/english
+  fetched: &id001 2026-11-02
+  quote: Data can be entered either directly via the web or via an app
+- claim: Its records are shared through GBIF and shown on Arter.
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Det samme gør eksempelvis DOFbasen, Bugbase og iNaturalist, og derfor kan
+    fund fra disse databaser vises på Arter.
+links:
+- type: run-by
+  to: dansk-ornitologisk-forening
+  url: https://pub.dof.dk/notater/6/download/2017-aftale-mellem-dansk-ornitologisk-forening-og-miljoe-og-foedevareministeriet-om-samarbejde-om-bevaring-og-overvaagning-af-fugle-2018-2020
+  fetched: '2026-11-02'
+  quote: 'DOF´s fugledata skal kunne tilgås fra den fællesoffentlige naturdatabase
+    under Danmarks
+
+    Miljøportal og Artsportalen.'
+- type: run-by
+  to: dansk-ornitologisk-forening
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: DOFbasen is an online database for bird observations in Denmark (www.dofbasen.dk),
+    administrated by Dansk Ornitologisk Forening DOF/BirdLife Denmark.
+- type: run-by
+  to: dansk-ornitologisk-forening
+  url: https://dofbasen.dk/english/
+  fetched: '2026-11-02'
+  quote: administrated by Dansk Ornitologisk Forening DOF/BirdLife Denmark
+- type: run-by
+  to: dansk-ornitologisk-forening
+  url: https://dofbasen.dk/english
+  fetched: *id001
+  quote: DOFbasen is an online database for bird observations in Denmark (www.dofbasen.dk),
+    administrated by Dansk Ornitologisk Forening DOF/BirdLife Denmark.
+found_by:
+- checklist:2
+- link-from:dof-birdlife
+added_by: agent
+checked: '2026-11-02'

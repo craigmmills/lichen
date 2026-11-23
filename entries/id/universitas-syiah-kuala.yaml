@@ -1,0 +1,42 @@
+id: universitas-syiah-kuala
+kind: organisation
+name: Universitas Syiah Kuala
+also_known_as:
+- USK
+scope: id
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: id
+scale: national
+status: active
+summary: Banda Aceh university whose marine and fisheries research centre has an AI application
+  for measuring coral transplant growth and coral cover.
+facts:
+- claim: OpenAlex places Universitas Syiah Kuala in Banda Aceh.
+  url: https://api.openalex.org/institutions?per-page=1&select=display_name,homepage_url,geo&search=Universitas%20Syiah%20Kuala
+  quote: '"display_name": "Universitas Syiah Kuala", "homepage_url": "https://usk.ac.id",
+    "geo": {"city": "Banda Aceh"'
+  fetched: '2026-10-31'
+- claim: The university says its research centre team produced the AICOM application, launched
+    in 2023.
+  url: https://usk.ac.id/usk-luncurkan-aicom-aplikasi-pengukuran-karang-berbasis-kecerdasan-buatan/
+  fetched: '2026-10-31'
+  quote: Ia menyampaikan selamat kepada tim AICOM PRKP USK yang telah berhasil menghasilkan
+    inovasi AICOM.
+links:
+- type: runs
+  to: ai-coral-monitoring
+  url: https://penjuru.co.id/usk-memperkenalkan-aplikasi-pemantauan-terumbu-karang-berbasis-teknologi-ai/
+  fetched: '2026-10-31'
+  quote: Tim PRKP, Universitas Syiah Kuala (USK) Banda Aceh meluncurkan aplikasi AICOM
+found_by:
+- keyword:id-b
+added_by: agent
+checked: '2026-10-31'
+website: https://usk.ac.id

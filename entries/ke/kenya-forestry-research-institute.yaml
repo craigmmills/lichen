@@ -1,0 +1,85 @@
+id: kenya-forestry-research-institute
+kind: organisation
+name: Kenya Forestry Research Institute
+also_known_as:
+- KEFRI
+scope: ke
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: ke
+countries:
+- ke
+scale: national
+status: active
+website: https://www.kefri.org
+summary: Kenya's forestry research institute, named by the Global Forest Observations Initiative
+  among bodies with experience in forest inventories and remote sensing.
+facts:
+- claim: An author there is on an African tree allometry dataset.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2019-01-01,title_and_abstract.search:%22machine%20learning%22%20AND%20(wildlife%20OR%20biodiversity%20OR%20forest%20OR%20ecosystem)&select=id,title,publication_year,authorships&per_page=100&sort=publication_date:desc
+  quote: Allometry Dataset for Monitoring Trees Outside Forests and Landscape Restoration
+  fetched: 2026-10-31
+- claim: Named among institutions with experience in Kenya's forest monitoring.
+  url: https://www.fao.org/gfoi/country-led-planning/kenya/en
+  quote: the Kenya Forestry Research Institute (KEFRI)
+  fetched: '2026-10-30'
+- claim: Listed as a statutory institution under the environment ministry.
+  url: https://environment.go.ke/background
+  quote: Kenya Forestry Research Institute (KEFRI)
+  fetched: '2026-10-30'
+- claim: Strathmore names it as a project partner.
+  url: https://strathmore.edu/news-articles/strathmore-university-makes-strides-in-ai-powered-environmental-protection/
+  fetched: '2026-10-30'
+  quote: Anthony Mwangi from the Kenya Forestry Research Institute
+- claim: Developed KEFRIApp.
+  url: https://kefri.org/components/KEFRIApp/kefriapp.html
+  fetched: '2026-10-31'
+  quote: KEFRI developed a mobile and web based application called KEFRIApp.
+- claim: Developed KEFRIApp.
+  url: https://www.kefri.org/components/KEFRIApp/kefriapp.html
+  fetched: '2026-10-31'
+  quote: KEFRI developed a mobile and web based application called KEFRIApp
+- claim: Holds a natural history collection of forest plants and invertebrates.
+  url: https://api.gbif.org/v1/organization/f3c700e9-858d-40c0-b9ff-4708440dba6c
+  fetched: '2026-10-31'
+  quote: hosts a vast natural history collection of biodiversity of plants and invertebrates
+    of Forest Ecosystems
+- claim: KLISC says its headquarters are at Muguga.
+  url: https://klisc.or.ke/membership/kenya-forestry-research-institute
+  fetched: '2026-10-31'
+  quote: KEFRI headquarters is situated at Muguga.
+- claim: KLISC gives a Nairobi postal code for it.
+  url: https://klisc.or.ke/membership/kenya-forestry-research-institute
+  fetched: '2026-10-31'
+  quote: 20412-00200 Nairobi, Kenya.
+found_by:
+- checklist:1
+- link-from:climate-change-ai-innovation-grants
+- checklist:register
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: partners-with
+  to: curbing-illegal-logging-patterns-using-sound-based-detection-techniques
+  url: https://strathmore.edu/news-articles/strathmore-university-makes-strides-in-ai-powered-environmental-protection/
+  fetched: '2026-10-30'
+  quote: the project is a collaborative effort involving Strathmore University, Université
+    de Neuchâtel, the Kenya Forestry Research Institute, and the University of Huddersfield
+- type: runs
+  to: kefriapp
+  url: https://kefri.org/components/KEFRIApp/kefriapp.html
+  fetched: '2026-10-31'
+  quote: KEFRI developed a mobile and web based application called KEFRIApp.
+- type: runs
+  to: kefriapp
+  url: https://www.kefri.org/components/KEFRIApp/kefriapp.html
+  fetched: '2026-10-31'
+  quote: KEFRI developed a mobile and web based application called KEFRIApp

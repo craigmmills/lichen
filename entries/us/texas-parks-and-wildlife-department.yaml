@@ -1,0 +1,38 @@
+id: texas-parks-and-wildlife-department
+kind: organisation
+name: Texas Parks and Wildlife Department
+also_known_as:
+- TPWD
+scope: us
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+hq: us
+scale: local
+status: active
+summary: Texas state wildlife agency that works with the Harte Research Institute on bloom
+  warning and has presented a neural network model for detecting prairie dog colonies from
+  satellite imagery.
+facts:
+- claim: A TPWD webinar discussed a convolutional neural network deployed in Google Earth
+    Engine to detect black-tailed prairie dog colonies.
+  url: https://content.govdelivery.com/accounts/TXPWD/bulletins/38415e3
+  quote: We implement a convolutional neural network (CNN) model, built in Python API in Colab
+    and deployed in Google Earth Engine
+  ai_type: deep-learning
+  fetched: '2026-10-30'
+- claim: Gives its address in Austin, Texas.
+  url: https://tpwd.texas.gov
+  fetched: '2026-10-31'
+  quote: 4200 Smith School Rd. Austin, TX 78744
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-30'
+website: https://tpwd.texas.gov

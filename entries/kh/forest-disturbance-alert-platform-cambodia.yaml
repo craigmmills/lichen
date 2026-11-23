@@ -1,0 +1,51 @@
+id: forest-disturbance-alert-platform-cambodia
+kind: programme
+name: Forest Disturbance Alert Platform (Cambodia)
+scope: kh
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries: []
+status: active
+summary: A platform built by Open Development Cambodia that sends forest disturbance
+  alerts through Telegram, using GFW, JJ-FAST and SERVIR-SEA data, generally 12 to
+  15 days after detection, and does not monitor wildlife.
+facts:
+- claim: ODC's launch post says the platform gives users near real-time forest disturbance
+    alerts through Telegram channels for their selected areas of interest.
+  url: https://opendevelopmentcambodia.net/odc-launches-forest-disturbance-alert-platform-to-strengthen-accessible-forest-monitoring-in-cambodia/
+  fetched: 2026-11-13
+  quote: The newly launched platform provides users with near real-time forest disturbance
+    alerts through Telegram Channels based on their selected Areas of Interest (AOIs).
+- claim: The post says it integrates satellite forest monitoring data from Global
+    Forest Watch, JJ-FAST and SERVIR-SEA.
+  url: https://opendevelopmentcambodia.net/odc-launches-forest-disturbance-alert-platform-to-strengthen-accessible-forest-monitoring-in-cambodia/
+  fetched: 2026-11-13
+  quote: By integrating satellite-derived forest monitoring data from Global Forest
+    Watch (GFW), JICA-JAXA Forest Early Warning System in the Tropics (JJ-FAST), and
+    SERVIR-SEA
+- claim: The post says alerts are generally available 12 to 15 days after a disturbance
+    is detected, and that the platform does not monitor wildlife.
+  url: https://opendevelopmentcambodia.net/odc-launches-forest-disturbance-alert-platform-to-strengthen-accessible-forest-monitoring-in-cambodia/
+  fetched: 2026-11-13
+  quote: ODC clarified that the platform currently focuses on forest disturbance detection
+    and does not monitor wildlife.
+links:
+- type: built-by
+  to: open-development-cambodia
+  url: https://opendevelopmentcambodia.net/odc-launches-forest-disturbance-alert-platform-to-strengthen-accessible-forest-monitoring-in-cambodia/
+  fetched: 2026-11-13
+  quote: On 24 June 2026, Open Development Cambodia (ODC), with support from Norwegian
+    People’s Aid (NPA), Global Forest Watch (GFW), and Heinrich Böll Stiftung Cambodia
+    (HBS), officially launched the Forest Disturbance Alert Platform
+- type: builds-on
+  to: jj-fast
+  url: https://opendevelopmentcambodia.net/odc-launches-forest-disturbance-alert-platform-to-strengthen-accessible-forest-monitoring-in-cambodia/
+  fetched: 2026-11-13
+  quote: JICA-JAXA Forest Early Warning System in the Tropics (JJ-FAST)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

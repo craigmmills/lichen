@@ -1,0 +1,73 @@
+id: instituto-nacional-de-investigacao-e-desenvolvimento-agrario
+kind: organisation
+name: Instituto Nacional de Investigação e Desenvolvimento Agrário
+also_known_as:
+- INIDA
+scope: cv
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: cv
+scale: national
+status: active
+summary: A Cabo Verdean state agrarian research service, seated on Santiago, whose
+  researchers have used satellite imagery and Random Forest classification to study
+  land use change on Maio between 1957 and 2021.
+facts:
+- claim: The 2018 statutes define INIDA as a state service with public legal personality
+    and administrative, financial and property autonomy.
+  url: https://boe.incv.cv/Bulletins/Download/2538
+  fetched: '2026-11-13'
+  quote: é um serviço personalizado do Estado, gozando da personalidade coletiva pública
+    e da inerente autonomia administrativa, financeira e patrimonial.
+- claim: The statutes give INIDA a seat at São Jorge dos Órgãos on Santiago island.
+  url: https://boe.incv.cv/Bulletins/Download/2538
+  fetched: '2026-11-13'
+  quote: O INIDA tem sede em São Jorge dos Órgãos, ilha de Santiago
+- claim: The statutes give INIDA research, experimentation and development in agrarian
+    sciences and technologies and in natural resources.
+  url: https://boe.incv.cv/Bulletins/Download/2538
+  fetched: '2026-11-13'
+  quote: A investigação, experimentação e desenvolvimento no campo das ciências e
+    tecnologias agrárias e
+- claim: A 2022 presentation by INIDA researcher Jacques Tavares studies land use
+    and land cover change on Maio island, Cabo Verde, under climate change.
+  url: https://drrf.azores.gov.pt/wp-content/uploads/Areas/Eventos/Files/X_Jornadas_Florestais_Macaronesia/Dia-16-BT3-5-Jacques.pdf
+  fetched: '2026-11-13'
+  quote: Avaliação dos impactos das mudanças climáticas sobre a cobertura
+- claim: The presentation says the work is the product of a group of INIDA researchers.
+  url: https://drrf.azores.gov.pt/wp-content/uploads/Areas/Eventos/Files/X_Jornadas_Florestais_Macaronesia/Dia-16-BT3-5-Jacques.pdf
+  fetched: '2026-11-13'
+  quote: Este trabalho é fruto de um grupo de investigadores do INIDA.
+- claim: The method collects satellite images, listing Landsat 7 and 8, Sentinel 2
+    and Google Earth Engine as sources.
+  url: https://drrf.azores.gov.pt/wp-content/uploads/Areas/Eventos/Files/X_Jornadas_Florestais_Macaronesia/Dia-16-BT3-5-Jacques.pdf
+  fetched: '2026-11-13'
+  quote: 'Procura e recolha de imagens de satélites:'
+- claim: The method includes a vegetation index (NDVI) calculation.
+  url: https://drrf.azores.gov.pt/wp-content/uploads/Areas/Eventos/Files/X_Jornadas_Florestais_Macaronesia/Dia-16-BT3-5-Jacques.pdf
+  fetched: '2026-11-13'
+  quote: Cálculo do índice da vegetação (NDVI)
+- claim: The presentation's method includes a supervised Random Forest classification
+    of land use and land cover classes.
+  ai_type: ml-supervised
+  url: https://drrf.azores.gov.pt/wp-content/uploads/Areas/Eventos/Files/X_Jornadas_Florestais_Macaronesia/Dia-16-BT3-5-Jacques.pdf
+  fetched: '2026-11-13'
+  quote: Classificação supervisionada (Random Forest)
+- claim: The presentation reports the change in land use classes on Maio between 1957
+    and 2021.
+  url: https://drrf.azores.gov.pt/wp-content/uploads/Areas/Eventos/Files/X_Jornadas_Florestais_Macaronesia/Dia-16-BT3-5-Jacques.pdf
+  fetched: '2026-11-13'
+  quote: Evolução das formas de UOS da ilha de Maio entre 1957-2021
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-13'

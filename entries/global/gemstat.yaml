@@ -1,0 +1,27 @@
+id: gemstat
+kind: dataset
+name: GEMStat
+also_known_as:
+- Global Freshwater Quality Database
+scope: global
+ai_label: data-infrastructure
+realms:
+- freshwater
+status: active
+website: https://www.gemstat.org
+summary: Global freshwater quality database giving data on the state and trend of inland water quality, hosted by the GEMS/Water Data Centre in Koblenz.
+facts:
+- claim: Provides data on the state and trend of global inland water quality.
+  url: https://www.gemstat.org/
+  fetched: 2026-10-30
+  quote: The Global Freshwater Quality Database GEMStat provides scientifically-sound data and information on the state and trend of global inland water quality.
+links:
+- type: run-by
+  to: gems-water
+  url: https://www.gemstat.org/
+  fetched: 2026-10-30
+  quote: GEMStat is hosted by the GEMS/Water Data Centre (GWDC)
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

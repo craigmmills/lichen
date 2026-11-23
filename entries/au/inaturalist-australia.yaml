@@ -1,0 +1,36 @@
+id: inaturalist-australia
+kind: programme
+name: iNaturalist Australia
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- au
+status: active
+summary: Programme run by the Atlas of Living Australia, which calls it its local
+  node and a major contributor of records, with Australian observations passing 9
+  million in 2024.
+facts:
+- claim: The ALA calls iNaturalist Australia its local node and a major contributor
+    to ALA records.
+  url: https://www.ala.org.au/blogs-news/an-inaturalist-australia-milestone/
+  quote: our local iNaturalist Australia node is a heavyweight on the global stage
+    and, as a major contributor to Atlas of Living Australia (ALA) records
+  fetched: '2026-11-08'
+- claim: Australian iNaturalist observations passed 9 million in 2024.
+  url: https://www.ala.org.au/blogs-news/an-inaturalist-australia-milestone/
+  quote: Since June, this figure has now surpassed 9 million records!
+  fetched: '2026-11-08'
+links:
+- type: run-by
+  to: atlas-of-living-australia
+  url: https://www.ala.org.au/blogs-news/an-inaturalist-australia-milestone/
+  quote: our local iNaturalist Australia node
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

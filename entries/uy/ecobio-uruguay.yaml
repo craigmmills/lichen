@@ -1,0 +1,39 @@
+id: ecobio-uruguay
+kind: organisation
+name: ECOBIO Uruguay
+scope: uy
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: uy
+countries:
+- uy
+scale: national
+status: active
+summary: Montevideo organisation whose GBIF record says its databases include roadkill and camera-trap
+  records and that it has worked on biodiversity nationally for 15 years.
+facts:
+- claim: Its GBIF publisher record says its record databases include wildlife roadkill and camera-trap
+    records from its projects and lines of research.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: Dentro de las bases de datos de registros tenemos atropellos de fauna y registros en cámaras
+    trampa de los diferentes proyectos y lineas de investigación que estamos realizando.
+- claim: The same record says it has worked on biodiversity at national level for 15 years.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: ECOBIO Uruguay hace 15 años viene trabajando con biodiversidad a nivel nacional contando con
+    registros de especies.
+- claim: GBIF's registry gives its address as Andres Aguiar 1575, Montevideo.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"address":["Andres Aguiar 1575"],"city":"Montevideo"'
+links: []
+found_by:
+- link-from:gbif-uruguay
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-08

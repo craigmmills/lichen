@@ -1,0 +1,40 @@
+id: forest-change-monitoring-service
+kind: programme
+name: Forest change monitoring service
+also_known_as:
+- Сервис мониторинга лесоизменений
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: unknown
+summary: A service of unknown status that says it found 8,643 forest change objects in 2018 to 2020, using
+  Planet, Sentinel and Landsat imagery.
+facts:
+- claim: Says it found 8,643 forest change objects in 2018 to 2020.
+  url: https://ai.innopolis.university/aiforest/
+  fetched: 2026-10-31
+  quote: 8 643 объектов лесоизменений обнаружено за 2018-2020 гг.
+- claim: Says it uses imagery from Planet, Sentinel and Landsat.
+  url: https://ai.innopolis.university/aiforest/
+  fetched: 2026-10-31
+  quote: использованию съемки трех спутников (Planet, Sentinel, Landsat)
+links:
+- type: uses
+  to: planet-labs
+  url: https://ai.innopolis.university/aiforest/
+  fetched: 2026-10-31
+  quote: использованию съемки трех спутников (Planet, Sentinel, Landsat)
+- type: uses
+  to: landsat
+  url: https://ai.innopolis.university/aiforest/
+  fetched: 2026-10-31
+  quote: использованию съемки трех спутников (Planet, Sentinel, Landsat)
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-10-31
+runner: unknown

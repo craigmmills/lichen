@@ -1,0 +1,69 @@
+id: mapbiomas
+kind: organisation
+name: MapBiomas
+scope: global
+sector: ngo
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: br
+scale: global
+status: active
+website: https://mapbiomas.org
+summary: Multi-institutional network of NGOs, universities and technology companies that produces
+  annual land cover and land use maps from satellite imagery, with a secretariat in Brazil
+  and country networks across Latin America, Asia and Africa.
+countries:
+- br
+facts:
+- claim: A multi-institutional network of NGOs, universities and technology companies.
+  url: https://mapbiomas.org/en/quem-somos/
+  quote: O MapBiomas é uma rede multi-institucional composta por ONGs, universidades e empresas
+    de tecnologia.
+  fetched: 2026-10-30
+- claim: Produces annual land cover and land use maps pixel by pixel.
+  url: https://mapbiomas.org/en/quem-somos/
+  quote: Produzimos mapas anuais de cobertura e uso da terra com detalhamento pixel a pixel.
+  fetched: 2026-10-30
+- claim: The secretariat is based in Brazil, with support from Fundacion Avina.
+  url: https://mapbiomas.org/en/conheca-a-rede/
+  quote: pelo secretariado sediado no Brasil, e contam com o apoio institucional da Fundación
+    Avina
+  fetched: 2026-10-30
+- claim: MapBiomas applied a Random Forest classifier to Amazon biome land cover maps.
+  url: https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Amazon-Appendix-ATBD-Collection-10-v1.pdf
+  fetched: 2026-10-30
+  quote: the Random Forest Classifier (RFC) was applied to build land use and land cover maps
+  ai_type: ml-supervised
+- claim: A World Bank report says it provides all its data, methods and source code free and
+    open to the public.
+  url: https://documents1.worldbank.org/curated/en/099050110132219903/pdf/P159233078d5bf0620954f04be898140cc6.pdf
+  fetched: 2026-10-30
+  quote: All MapBiomas data, methods, and source codes are provided free and open to the public
+links:
+- type: partners-with
+  to: google
+  url: https://sites.mapbiomas.org/conheca-o-mapbiomas/quem-somos/
+  fetched: 2026-10-30
+  quote: 'Technology Partners: Google'
+- type: funded-by
+  to: rewild
+  url: https://mapbiomas.org/conheca-a-rede/
+  fetched: 2026-10-31
+  quote: Global Wildlife Conservation (GWC)
+- type: funded-by
+  to: the-audacious-project
+  url: https://mapbiomas.org/conheca-a-rede/
+  fetched: 2026-10-31
+  quote: Skoll Foundation The Audacious Project
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

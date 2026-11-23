@@ -1,0 +1,59 @@
+id: lorestan-university
+kind: organisation
+name: Lorestan University
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+ai_types:
+- deep-learning
+- ml-supervised
+techniques:
+- computer-vision
+- remote-sensing
+hq: ir
+scale: national
+status: active
+website: https://www.lu.ac.ir
+summary: A university in Iran whose authors OpenAlex lists on a 2020 deep learning paper on
+  carp species identification and a 2026 paper on wetland land cover mapping with imbalanced
+  training data.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2020 machine learning paper: Deep learning-based
+    appearance features extraction for automated carp species identification.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Deep learning-based appearance features extraction for automated carp species identification
+- claim: 'Its authors are listed by OpenAlex on a 2026 paper: Hybrid Data Augmentation and
+    Object-Based Analysis for LULC Mapping with Imbalanced Training Data in Complex Wetlands.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Hybrid Data Augmentation and Object-Based Analysis for LULC Mapping with Imbalanced
+    Training Data in Complex Wetlands
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Department of Animal Sciences, Lorestan University, Khorramabad, Iran
+- ai_type: deep-learning
+  claim: The paper title names deep learning or convolutional neural networks.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Deep learning-based appearance features extraction for automated carp species identification
+- claim: Its own site names the organisation.
+  url: https://www.lu.ac.ir
+  fetched: '2026-11-03'
+  quote: دانشگاه لرستان
+- ai_type: ml-supervised
+  claim: The title names land cover mapping with imbalanced training data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Hybrid Data Augmentation and Object-Based Analysis for LULC Mapping with Imbalanced
+    Training Data in Complex Wetlands
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

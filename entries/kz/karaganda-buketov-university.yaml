@@ -1,0 +1,58 @@
+id: karaganda-buketov-university
+kind: organisation
+name: Karaganda National Research University named after academician Ye.A. Buketov
+also_known_as:
+- Karaganda Buketov University
+scope: kz
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+hq: kz
+countries:
+- kz
+scale: national
+status: active
+website: https://buketov.edu.kz/en
+summary: University in Karaganda that publishes 29 datasets through GBIF, including a national earthworm
+  checklist, White-headed Duck records and a Karkaraly park flora inventory.
+facts:
+- claim: Its GBIF publisher record says it carries out research on assessing the biological diversity
+    of Kazakhstan and holds seed bank, herbarium and museum collections.
+  url: https://api.gbif.org/v1/organization/fcfa64a2-a7f0-4331-9431-86df15c76ad7
+  fetched: 2026-11-08
+  quote: releases research in the field of assessment of biological diversity of Kazakhstan
+- claim: Its GBIF publisher record gives an address in Karaganda.
+  url: https://api.gbif.org/v1/organization/fcfa64a2-a7f0-4331-9431-86df15c76ad7
+  fetched: 2026-11-08
+  quote: '"address":["University street, 28"],"city":"Karaganda"'
+- claim: Publishes 29 datasets through GBIF, including a national checklist of earthworm species.
+  url: https://api.gbif.org/v1/organization/fcfa64a2-a7f0-4331-9431-86df15c76ad7/publishedDataset?limit=40
+  fetched: 2026-11-08
+  quote: Checklist of earthworm species (Oligochaeta, Lumbricidae) of Kazakhstan
+- claim: Its published datasets include records of the White-headed Duck across Central Asia.
+  url: https://api.gbif.org/v1/organization/fcfa64a2-a7f0-4331-9431-86df15c76ad7/publishedDataset?limit=40
+  fetched: 2026-11-08
+  quote: Records of White-headed Duck (Oxyura leucocephala) in Central Asia
+- claim: Its home page names the university.
+  url: https://buketov.edu.kz/en
+  fetched: 2026-11-08
+  quote: Karaganda Buketov University
+- claim: It publishes a checklist of the earthworm species of Kazakhstan on GBIF.
+  url: https://api.gbif.org/v1/organization/fcfa64a2-a7f0-4331-9431-86df15c76ad7/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Checklist of earthworm species (Oligochaeta, Lumbricidae) of Kazakhstan
+- claim: It publishes a flora inventory of Karkaraly State National Natural Park from new monitoring sites.
+  url: https://api.gbif.org/v1/organization/fcfa64a2-a7f0-4331-9431-86df15c76ad7/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Species composition clarification at new monitoring sites
+links: []
+found_by:
+- link-from:queue-kz-gbif-publishers
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

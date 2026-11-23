@@ -1,0 +1,34 @@
+id: hrlulc-japan-jaxa
+kind: dataset
+name: High-Resolution Land Use and Land Cover Map of Japan
+also_known_as:
+- 日本域高解像度土地利用土地被覆図
+scope: jp
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.eorc.jaxa.jp/ALOS/jp/dataset/lulc/lulc_v2504_j.htm
+summary: A land use and land cover map of Japan, version 25.04, covering 2020, 2022 and 2024 from Sentinel-2,
+  Landsat-8 and ALOS-2, intended as base information for ecosystem assessment and disaster response.
+facts:
+- claim: Version 25.04 covers 2020, 2022 and 2024 and uses Sentinel-2, Landsat-8 and ALOS-2.
+  url: https://www.eorc.jaxa.jp/ALOS/jp/dataset/lulc/lulc_v2504_j.htm
+  fetched: '2026-11-02'
+  quote: 使用衛星およびセンサは欧州のSentinel-2/MSIおよび米国のLandsat-8/OLI (いずれも光学センサ), 日本のALOS-2/PALSAR-2 (合成開口レーダ) です。
+- claim: Intended as base information for ecosystem assessment, resource management and disaster response.
+  url: https://www.eorc.jaxa.jp/ALOS/jp/dataset/lulc/lulc_v2504_j.htm
+  fetched: '2026-11-02'
+  quote: これらは生態系評価 (動植物の生育・生息域, 各種生態系サービス) , 資源管理 (農林水産業, 景観等) , 災害対策 (洪水・土砂災害等) 等
+links:
+- type: built-by
+  to: japan-aerospace-exploration-agency
+  url: https://www.eorc.jaxa.jp/ALOS/jp/dataset/lulc/lulc_v2504_j.htm
+  fetched: '2026-11-02'
+  quote: 宇宙航空研究開発機構 (JAXA) 地球観測研究センター (EORC) は, 人工衛星で観測されたデータを活用して, 地域や国レベルを対象とした高解像度の土地利用土地被覆図を作成しています。
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

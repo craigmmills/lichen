@@ -1,0 +1,36 @@
+id: biodiversitatsdatenbank-nationalpark-hohe-tauern
+kind: dataset
+name: Biodiversity database of the High Tauern National Park
+scope: at
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+summary: Database run by Haus der Natur Salzburg covering the distribution, biology, ecology and prevalence
+  of animals and plants in the High Tauern National Park's zones and surroundings.
+facts:
+- claim: Covers the distribution, biology, ecology and prevalence of the animals and plants in the national
+    park's zones and surroundings.
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: The database contains detailed information about the distribution, biology, and ecology as well
+    as the prevalence of all the animals and plants in the national park’s central zone, outer zone, and
+    surroundings.
+links:
+- type: run-by
+  to: haus-der-natur-salzburg
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: the Haus der Natur also maintains an extensive database documenting the animal and plant species
+    of the High Tauern.
+- type: partners-with
+  to: nationalpark-hohe-tauern
+  url: https://www.hausdernatur.at/en/biodiversity-database.html
+  fetched: 2026-11-07
+  quote: on behalf of High Tauern National Park and in close collaboration with the national park administrations
+    of Kärnten, Salzburg, and Tirol
+found_by:
+- link-from:haus-der-natur-salzburg
+added_by: agent
+checked: 2026-11-07

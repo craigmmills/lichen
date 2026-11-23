@@ -1,0 +1,39 @@
+id: schmidt-sciences
+kind: organisation
+name: Schmidt Sciences
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- ocean
+- land
+hq: us
+scale: global
+status: active
+website: https://www.schmidtsciences.org
+summary: Non-profit founded in 2024 by Eric and Wendy Schmidt to fund science and technology.
+  It runs the Eric and Wendy Schmidt AI in Science Postdoctoral Scholars initiative.
+facts:
+- claim: Founded in 2024 by Eric and Wendy Schmidt.
+  url: https://www.schmidtsciences.org/faq
+  quote: Schmidt Sciences is a nonprofit organization founded in 2024 by Eric and Wendy Schmidt
+  fetched: &id001 2026-10-30
+- claim: Wikipedia describes it as a philanthropic organisation established in 2024 to fund
+    unconventional research in science and technology.
+  url: https://en.wikipedia.org/wiki/Schmidt_Sciences
+  quote: is a philanthropic organization established in 2024 to fund unconventional research
+    in science and technology
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellows
+  url: https://www.news.cornell.edu/stories/2026/02/11-new-researchers-become-eric-and-wendy-schmidt-ai-science-postdoctoral-fellows
+  quote: Eric and Wendy Schmidt AI in Science Postdoctoral Scholars initiative, a Schmidt
+    Sciences program
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

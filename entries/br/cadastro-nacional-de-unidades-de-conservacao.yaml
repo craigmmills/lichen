@@ -1,0 +1,41 @@
+id: cadastro-nacional-de-unidades-de-conservacao
+kind: dataset
+name: Cadastro Nacional de Unidades de Conservação da Natureza
+also_known_as:
+- CNUC
+- Cadastro Nacional de Unidades de Conservação
+scope: br
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- br
+website: https://cnuc.mma.gov.br/
+summary: Official data platform on all conservation units in the SNUC, run by the
+  environment and climate ministry, with georeferenced data downloadable as shapefile
+  or KML.
+facts:
+- claim: The official data platform on all conservation units in the SNUC.
+  url: https://www.gov.br/pt-br/servicos/obter-informacoes-sobre-as-unidades-de-conservacao-ambiental-nacionais
+  fetched: '2026-11-09'
+  quote: O Cadastro Nacional de Unidades de Conservação da Natureza é a plataforma
+    oficial de dados sobre todas as Unidades de Conservação (UCs) que integram o Sistema
+    Nacional de Unidades de Conservação da Natureza (SNUC)
+- claim: Georeferenced data can be downloaded as shapefile or KML.
+  url: https://www.gov.br/pt-br/servicos/obter-informacoes-sobre-as-unidades-de-conservacao-ambiental-nacionais
+  fetched: '2026-11-09'
+  quote: Dados georreferenciados podem ser baixados em formato shp ou kml
+links:
+- type: run-by
+  to: ministerio-do-meio-ambiente-e-mudanca-do-clima
+  url: https://www.gov.br/pt-br/servicos/obter-informacoes-sobre-as-unidades-de-conservacao-ambiental-nacionais
+  fetched: '2026-11-09'
+  quote: É gerido pelo Ministério do Meio Ambiente e Mudança do Clima (MMA), com colaboração
+    dos órgãos gestores em cada nível de governo.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

@@ -1,0 +1,30 @@
+id: land-cover-map-2015-of-bangladesh
+kind: dataset
+name: Land Cover Map 2015 of Bangladesh
+scope: bd
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- bd
+status: unknown
+runner: unknown
+summary: Dataset of unknown status, described in a 2019 paper that overviews the National
+  Land Representation System; OpenAlex gives the first author's affiliation as FAO
+  in Rome.
+facts:
+- claim: A 2019 paper gives an overview of the National Land Representation System
+    and the Land Cover Map 2015 of Bangladesh.
+  url: https://api.openalex.org/works/W2989259581?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: 'Toward Efficient Land Cover Mapping: An Overview of the National Land Representation
+    System and Land Cover Map 2015 of Bangladesh'
+- claim: OpenAlex gives the first author's affiliation as FAO in Rome.
+  url: https://api.openalex.org/works/W2989259581?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Food and Agriculture Organization (FAO) of the United Nations, Rome, Italy
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

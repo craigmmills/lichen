@@ -1,0 +1,43 @@
+id: bd-foret-v3
+kind: dataset
+name: BD Forêt v3
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: The third version of IGN's forest map of mainland France, published as a
+  beta test dataset in June 2026. IGN aims to cover the whole of mainland France within
+  one year.
+facts:
+- claim: IGN's project team has published a test dataset.
+  url: https://www.data.gouv.fr/datasets/jeu-de-donnees-test-bd-foret-v3-juin-2026-beta
+  quote: de l'IGN met à votre disposition un nouveau jeu de données
+  fetched: '2026-10-31'
+- claim: A technological turning point compared with earlier versions.
+  url: https://www.data.gouv.fr/datasets/jeu-de-donnees-test-bd-foret-v3-juin-2026-beta
+  quote: marque cependant un tournant technologique par rapport aux versions précédentes
+    de la BD Forêt
+  fetched: '2026-10-31'
+- claim: Le Monde Informatique reports that Maestro's first aim is the third version
+    of the French forest database.
+  url: https://www.lemondeinformatique.fr/actualites/lireamp-l-ign-developpe-un-modele-ia-pour-observer-les-forets-francaises-99781.html
+  quote: la publication en 2026 de la 3e version de la base de do
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.data.gouv.fr/datasets/jeu-de-donnees-test-bd-foret-v3-juin-2026-beta
+  quote: L'équipe projet BD Forêt v3 de l'IGN
+  fetched: '2026-10-31'
+- type: builds-on
+  to: maestro
+  url: https://www.lemondeinformatique.fr/actualites/lireamp-l-ign-developpe-un-modele-ia-pour-observer-les-forets-francaises-99781.html
+  quote: la publication en 2026 de la 3e version de la base de do
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

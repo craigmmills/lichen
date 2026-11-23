@@ -1,0 +1,46 @@
+id: sad-cerrado
+kind: programme
+name: SAD Cerrado
+also_known_as:
+- Sistema de Alerta de Desmatamento do Cerrado
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Monthly deforestation alert system for all native vegetation in the Cerrado,
+  using advanced detection algorithms, from IPAM with MapBiomas and LAPIG.
+facts:
+- claim: Uses advanced algorithms to detect deforestation.
+  url: https://www.ecycle.com.br/ipam-lanca-novo-sistema-de-alerta-de-desmatamento-do-cerrado/amp/
+  fetched: '2026-10-30'
+  quote: Com algoritmos avançados para detecção de desmatamento, o Sistema de Alerta
+    de Desmatamento do Cerrado (SAD Cerrado)
+- claim: Aims at monthly alerts for clearings above one hectare.
+  url: https://www.ecycle.com.br/ipam-lanca-novo-sistema-de-alerta-de-desmatamento-do-cerrado/amp/
+  fetched: '2026-10-30'
+  quote: alertas de desmatamentos maiores de 1 hectare, atualizados mês a mês
+links:
+- type: run-by
+  to: instituto-de-pesquisa-ambiental-da-amazonia
+  url: https://www.ecycle.com.br/ipam-lanca-novo-sistema-de-alerta-de-desmatamento-do-cerrado/amp/
+  fetched: '2026-10-30'
+  quote: pelo IPAM (Instituto de Pesquisa Ambiental da Amazônia), em parceria com
+    a rede MapBiomas
+- type: partners-with
+  to: mapbiomas
+  url: https://www.ecycle.com.br/ipam-lanca-novo-sistema-de-alerta-de-desmatamento-do-cerrado/amp/
+  fetched: '2026-10-30'
+  quote: em parceria com a rede MapBiomas
+- type: partners-with
+  to: laboratorio-de-processamento-de-imagens-e-geoprocessamento
+  url: https://www.ecycle.com.br/ipam-lanca-novo-sistema-de-alerta-de-desmatamento-do-cerrado/amp/
+  fetched: '2026-10-30'
+  quote: e com o Lapig (Laboratório de Processamento de Imagens e Geoprocessamento),
+    da UFG
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-30'

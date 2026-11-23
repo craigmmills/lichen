@@ -1,0 +1,46 @@
+id: lantmateriet
+kind: organisation
+name: Lantmäteriet
+scope: se
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: se
+scale: national
+status: active
+website: https://www.lantmateriet.se
+summary: Swedish mapping, cadastral and land registration authority that supplies maps, images
+  and geographic information, including national laser scanning that Skogsstyrelsen says Skogliga
+  grunddata draws on.
+facts:
+- claim: Its mission includes securing property ownership information and making geodata available.
+  url: https://www.lantmateriet.se/globalassets/om-lantmateriet/om-oss/lantmateriets-hallbarhetsrapport-2022-2023.pdf
+  fetched: '2026-11-02'
+  quote: Lantmäteriets uppdrag är att säkra information om ägandet av fastigheter och göra
+    geodata tillgängligt för samhället
+- claim: Says it is the Swedish mapping, cadastral and land registration authority.
+  url: https://www.lantmateriet.se/about-lantmateriet
+  fetched: 2026-11-02
+  quote: Lantmäteriet is the name of the Swedish mapping, cadastral and land registration
+    authority.
+- claim: Maps Sweden and supplies society with maps, images and other geographic information.
+  url: https://www2.lantmateriet.se/sv/kartor/
+  fetched: '2026-11-02'
+  quote: Lantmäteriet kartlägger Sverige och förser samhället med kartor, bilder och annan
+    geografisk information.
+- claim: Skogsstyrelsen says Skogliga grunddata draws on Lantmäteriet's national laser scanning.
+  url: https://www.skogsstyrelsen.se/e-tjanster-och-kartor/karttjanster/skogliga-grunddata/
+  fetched: '2026-11-02'
+  quote: Skogliga grunddata tas till stor del fram genom att kombinera Lantmäteriets nationella
+    laserskanning
+found_by:
+- checklist:1
+- link-from:swedish-space-data-lab
+added_by: agent
+checked: '2026-11-02'

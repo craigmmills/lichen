@@ -1,0 +1,36 @@
+id: tragsatec
+kind: organisation
+name: TRAGSATEC
+scope: es
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: Company that designed the MOMAT land mammal monitoring plan with SECEM in 2024 and
+  2025, as a MITECO commission funded by NextGenerationEU.
+facts:
+- claim: Designed the MOMAT land mammal monitoring plan with SECEM in 2024 and 2025.
+  url: https://secem.es/estudios/programas/proyecto-momat
+  fetched: '2026-11-08'
+  quote: En este contexto surge el proyecto desarrollado por la SECEM junto con TRAGSATEC
+    (2024–2025)
+- claim: The work was a MITECO commission to TRAGSATEC funded by NextGenerationEU.
+  url: https://secem.es/estudios/programas/proyecto-momat
+  fetched: '2026-11-08'
+  quote: TRAGSATEC. Encargo 3088153 / MITECO
+links:
+- type: builds
+  to: momat
+  url: https://secem.es/estudios/programas/proyecto-momat
+  fetched: '2026-11-08'
+  quote: En este contexto surge el proyecto desarrollado por la SECEM junto con TRAGSATEC
+    (2024–2025)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

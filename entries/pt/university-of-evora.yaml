@@ -1,0 +1,47 @@
+id: university-of-evora
+kind: organisation
+name: University of Évora
+also_known_as:
+- Universidade de Évora
+scope: pt
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pt
+countries:
+- pt
+scale: national
+status: active
+summary: University hosting MED, of which LABscape says it is part, with OpenAlex listing
+  a 2023 machine learning paper on vegetation fuel in southern Portugal and a 2025 abstract
+  on ICESat-2 fuel variables.
+facts:
+- claim: LABscape says it is part of MED at the University of Évora.
+  url: https://www.med.uevora.pt/med-units/52-labscape/
+  fetched: 2026-11-08
+  quote: We are part of MED- Mediterranean Institute for Agriculture, Environment and Development
+    ( https://www.med.uevora.pt/ ), at the University of Évora
+- claim: The MED unit page gives an address at the University of Évora's Mitra campus.
+  url: https://www.med.uevora.pt/med-units/52-labscape/
+  fetched: 2026-11-08
+  quote: Apartado 94, 7006-554 Évora Portugal
+- claim: OpenAlex lists a 2023 paper on vegetation fuel characterisation with machine learning
+    over southern Portugal whose first author is at the University of Évora.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I21803372,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Vegetation fuel characterization using machine learning approach over southern Portugal
+- claim: OpenAlex lists a 2025 abstract on using ICESat-2 data to retrieve fuel-related variables
+    whose first author is at the University of Évora.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I21803372,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Assessing the potential of ICESat-2 data to retrieve fuel-related variables
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

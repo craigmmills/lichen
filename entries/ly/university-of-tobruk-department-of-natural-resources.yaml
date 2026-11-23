@@ -1,0 +1,40 @@
+id: university-of-tobruk-department-of-natural-resources
+kind: organisation
+name: Department of Natural Resources, Faculty of Natural Resources and Environmental
+  Sciences, University of Tobruk
+also_known_as: []
+scope: ly
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ly
+countries:
+- ly
+scale: local
+status: active
+summary: University department named in OpenAlex as the first author's affiliation
+  on a paper using GIS and remote sensing to study how topography influences vegetation
+  cover in the Akramah region, eastern Libya.
+facts:
+- claim: 'OpenAlex gives the department as first author Salih Ayad Jebaly''s affiliation
+    on Topographic Influence on Vegetation Cover in the Akramah Region, Eastern Libya:
+    A GIS and Remote Sensing Approach.'
+  url: https://api.openalex.org/works?filter=ids.openalex:W7167222103|W4293200335|W4391474453|W4414453837&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: Department of Natural Resources, Faculty of Natural Resources and Environmental
+    Sciences, University of Tobruk, Libya
+- claim: The paper studies topographic influence on vegetation cover in the Akramah
+    region with GIS and remote sensing.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7167222103|W4293200335|W4391474453|W4414453837&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: 'Topographic Influence on Vegetation Cover in the Akramah Region, Eastern
+    Libya: A GIS and Remote Sensing Approach'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

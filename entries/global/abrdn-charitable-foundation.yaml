@@ -1,0 +1,46 @@
+id: abrdn-charitable-foundation
+kind: organisation
+name: abrdn Charitable Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+hq: gb
+scale: global
+status: active
+summary: Corporate charitable foundation of abrdn that committed £1 million to a research
+  programme with The Alan Turing Institute and the UK Centre for Ecology & Hydrology on AI
+  monitoring of biodiversity.
+facts:
+- claim: Committed £1 million to a global research programme with The Alan Turing Institute
+    on biodiversity monitoring.
+  url: https://www.aberdeenplc.com/en-gb/news-and-insights/abrdn-funds-critical-research-harnessing-ai-to-monitor-biodiversity
+  quote: The abrdn Charitable Foundation committed £1 million of funding to enable a global
+    research programme with The Alan Turing Institute
+  fetched: &id001 2026-10-30
+- claim: abrdn describes a two-year collaboration in which foundation funding enables a global
+    research programme to collect and monitor biodiversity data.
+  url: https://www.abrdn.com/en-gb/corporate/news/all-news/abrdn-announces-new-powerful-partnership-with-the-alan-turing-institute
+  quote: The two-year collaboration will see funding from the abrdn Charitable Foundation
+    (aCF) enable a global research programme to collect and monitor biodiversity data
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: alan-turing-institute
+  amount: 1000000
+  currency: GBP
+  year: 2023
+  url: https://www.aberdeenplc.com/en-gb/news-and-insights/abrdn-funds-critical-research-harnessing-ai-to-monitor-biodiversity
+  quote: The abrdn Charitable Foundation committed £1 million of funding to enable a global
+    research programme with The Alan Turing Institute
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

@@ -1,0 +1,64 @@
+id: gbif-us
+kind: programme
+name: GBIF-US
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.gbif.us
+summary: The US node of the Global Biodiversity Information Facility, managed by the
+  USGS Science Analytics and Synthesis Program with NSF funding. BISON provided the
+  foundation for its current form.
+facts:
+- claim: The US node for GBIF.
+  url: https://www.gbif.us/about/
+  fetched: '2026-10-30'
+  quote: GBIF-US is the US node for the Global Biodiversity Information Facility (GBIF)
+- claim: BISON provided the foundation for GBIF-US.
+  url: https://www.gbif.us/about/
+  fetched: '2026-10-30'
+  quote: The Biodiversity Information Serving Our Nation (BISON) project provided
+    the foundation for the current implementation of GBIF-US.
+- claim: Co-managers include representatives from USGS, iDigBio, VertNet, Symbiota
+    Support Hub and the Vermont Atlas of Life.
+  url: https://www.gbif.us/about/
+  quote: Currently co-managers include representatives from USGS, iDigBio, VertNet,
+    Symbiota Support Hub, and the Vermont Atlas of Life
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: united-states-geological-survey
+  url: https://www.gbif.us/about/
+  fetched: '2026-10-30'
+  quote: The Science Analytics and Synthesis Program (SAS) of the U.S. Geological
+    Survey (USGS) manages GBIF-US
+- type: funded-by
+  to: national-science-foundation
+  url: https://www.gbif.us/about/
+  fetched: '2026-10-30'
+  quote: Funding for GBIF-US comes from the National Science Foundation.
+- type: builds-on
+  to: biodiversity-information-serving-our-nation
+  url: https://www.gbif.us/about/
+  quote: The Biodiversity Information Serving Our Nation (BISON) project provided
+    the foundation for the current implementation of GBIF-US
+  fetched: '2026-10-30'
+- type: partners-with
+  to: idigbio
+  url: https://www.gbif.us/about/
+  quote: Currently co-managers include representatives from USGS, iDigBio, VertNet,
+    Symbiota Support Hub, and the Vermont Atlas of Life
+  fetched: '2026-10-30'
+- type: partners-with
+  to: vertnet
+  url: https://www.gbif.us/about/
+  quote: Currently co-managers include representatives from USGS, iDigBio, VertNet,
+    Symbiota Support Hub, and the Vermont Atlas of Life
+  fetched: '2026-10-30'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

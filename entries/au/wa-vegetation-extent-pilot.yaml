@@ -1,0 +1,47 @@
+id: wa-vegetation-extent-pilot
+kind: project
+name: WA Vegetation Extent Pilot
+also_known_as:
+- WAVE Pilot
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- au
+status: active
+summary: Pilot run by the Department of Water and Environmental Regulation showing
+  deep learning on satellite imagery can map native vegetation, though confined to
+  three Western Australian pilot regions.
+facts:
+- claim: A pilot study by the Department of Water and Environmental Regulation on
+    machine learning to map native vegetation.
+  url: https://www.wa.gov.au/service/environment/environment-information-services/wa-vegetation-extent
+  quote: It’s a pilot study by the Department of Water and Environmental Regulation
+    designed to investigate the potential of machine learning to map our native vegetation.
+  fetched: '2026-11-08'
+- claim: Has demonstrated that deep learning models applied to satellite imagery can
+    map native vegetation in WA pilot areas.
+  url: https://www.wa.gov.au/service/environment/environment-information-services/wa-vegetation-extent
+  quote: The WAVE Pilot has demonstrated that deep learning models applied to satellite
+    imagery, combined with a focus on training data development, can effectively map
+    native vegetation in Pilot areas in WA.
+  fetched: '2026-11-08'
+- claim: Confined to three pilot regions.
+  url: https://www.wa.gov.au/service/environment/environment-information-services/wa-vegetation-extent
+  quote: The WAVE Pilot project has narrowed down the size of the task to three pilot
+    regions
+  fetched: '2026-11-08'
+links:
+- type: run-by
+  to: department-of-water-and-environmental-regulation
+  url: https://www.wa.gov.au/service/environment/environment-information-services/wa-vegetation-extent
+  quote: It’s a pilot study by the Department of Water and Environmental Regulation
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

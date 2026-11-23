@@ -1,0 +1,42 @@
+id: biofokus
+kind: organisation
+name: Biofokus
+scope: 'no'
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+hq: 'no'
+scale: national
+status: active
+funding_at_risk: false
+website: https://biofokus.no/
+summary: Oslo-based foundation that contributes to knowledge-based management of Norwegian
+  nature and says it has recorded half a million species records in national databases.
+facts:
+- claim: A commercial foundation (næringsdrivende stiftelse) that contributes to knowledge-based
+    management of Norwegian nature.
+  url: https://biofokus.no/om-biofokus/
+  fetched: &id001 2026-11-02
+  quote: Biofokus er en næringsdrivende stiftelse som bidrar til kunnskapsbasert forvaltning
+    av norsk natur.
+- claim: Its GBIF publisher record describes it as a non-profit organisation.
+  url: https://api.gbif.org/v1/organization/b2c1126d-e3b4-4619-9f94-b236dcc0a947
+  fetched: *id001
+  quote: Biofokus is a non-profit organization
+- claim: Says it has recorded half a million species records in national databases.
+  url: https://biofokus.no/om-biofokus/
+  fetched: *id001
+  quote: Vi har registrert en halv million artsfunn i nasjonale databaser
+- claim: The GBIF publisher record gives its address in Oslo, Norway.
+  url: https://api.gbif.org/v1/organization/b2c1126d-e3b4-4619-9f94-b236dcc0a947
+  fetched: *id001
+  quote: '"city":"Oslo","country":"NO"'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: *id001

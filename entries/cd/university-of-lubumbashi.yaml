@@ -1,0 +1,51 @@
+id: university-of-lubumbashi
+kind: organisation
+name: University of Lubumbashi
+also_known_as:
+- Université de Lubumbashi
+- UNILU
+scope: cd
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- cd
+scale: national
+status: active
+website: https://www.unilu.ac.cd
+summary: A university with OpenAlex papers from 2020 and 2025 using remote sensing to study Miombo woodland
+  change in the Lufira reserve, land cover classification methods, and land cover change on Idjwi Island.
+facts:
+- claim: OpenAlex lists a 2020 paper with a first author at the University of Lubumbashi analysing 39
+    years of Miombo woodland change in the Lufira Biosphere Reserve from Landsat images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: A 39-years analysis based on Landsat images
+- claim: OpenAlex lists a 2025 paper with a first author at the University of Lubumbashi evaluating classification
+    methods and algorithms for mapping land cover change.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:1702|1707&per_page=100&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Evaluation of classification methods and algorithms for mapping land cover change in a mining
+    locality in Southeastern D.R. Congo
+- claim: OpenAlex lists a 2025 paper with a first author at the University of Lubumbashi on land cover
+    change on Idjwi Island using remote sensing and landscape metrics.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&page=2&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Thirty-three years of land cover change analysis on Idjwi Island (DRC) using remote sensing and
+    landscape metrics
+- claim: Its website is headed Université de Lubumbashi.
+  url: https://www.unilu.ac.cd
+  fetched: 2026-11-08
+  quote: Université de Lubumbashi
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

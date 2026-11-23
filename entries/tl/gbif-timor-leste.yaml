@@ -1,0 +1,38 @@
+id: gbif-timor-leste
+kind: programme
+name: GBIF Timor-Leste
+scope: tl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- tl
+status: active
+runner: unknown
+summary: Country node of GBIF with associate participant status, created in GBIF's directory in February
+  2024, with no publishing organisation based in Timor-Leste listed in the registry.
+facts:
+- claim: GBIF's directory lists GBIF Timor-Leste as a country node with associate participant status.
+  url: https://api.gbif.org/v1/node/c2690fde-5930-4c9b-b477-2e480d8659a3
+  fetched: 2026-11-12
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+- claim: The node record was created in GBIF's directory in February 2024.
+  url: https://api.gbif.org/v1/node/c2690fde-5930-4c9b-b477-2e480d8659a3
+  fetched: 2026-11-12
+  quote: '"created":"2024-02-06T05:34:51.837+00:00"'
+- claim: GBIF's registry lists no publishing organisation based in Timor-Leste.
+  url: https://api.gbif.org/v1/organization?country=TL&limit=50
+  fetched: 2026-11-12
+  quote: '"count":0,"results":[]'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/c2690fde-5930-4c9b-b477-2e480d8659a3
+  fetched: 2026-11-12
+  quote: '"title":"GBIF Timor-Leste","participantTitle":"Timor-Leste, Democratic Republic of"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

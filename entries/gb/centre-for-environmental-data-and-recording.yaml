@@ -1,0 +1,62 @@
+id: centre-for-environmental-data-and-recording
+kind: organisation
+name: Centre for Environmental Data and Recording
+also_known_as:
+- CEDaR
+scope: gb
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+hq: gb
+scale: national
+status: active
+website: https://www.nationalmuseumsni.org/cedar
+summary: Northern Ireland's only Local Environmental Record Centre. Collects, stores and releases
+  wildlife records for Northern Ireland and its coastal waters.
+facts:
+- claim: Northern Ireland's only Local Environmental Record Centre.
+  url: https://www.nationalmuseumsni.org/cedar
+  quote: is Northern Ireland’s only Local Environmental Record Centre
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.nationalmuseumsni.org/
+  quote: Cultra, Holywood Northern Ireland BT18 0EU
+  fetched: 2026-10-30
+- claim: GBIF says it is the records centre for Northern Ireland.
+  url: https://api.gbif.org/v1/organization/db20bedc-20f1-42dd-9051-a445139f8e51
+  fetched: '2026-10-30'
+  quote: is the Local Records Centre (LRC) for Northern Ireland
+- claim: Publishes the dataset "Northern Ireland Environment Agency (NIEA) Collated Species
+    Records" on GBIF.
+  url: https://api.gbif.org/v1/organization/db20bedc-20f1-42dd-9051-a445139f8e51/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Northern Ireland Environment Agency (NIEA) Collated Species Records
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/db20bedc-20f1-42dd-9051-a445139f8e51/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: partners-with
+  to: department-of-agriculture-environment-and-rural-affairs-ni
+  url: https://www.nationalmuseumsni.org/cedar
+  quote: CEDaR works in partnership with Northern Ireland Environment Agency, National Museums
+    NI and the recording community
+  fetched: *id001
+- type: partners-with
+  to: national-museums-ni
+  url: https://www.nationalmuseumsni.org/cedar
+  quote: CEDaR works in partnership with Northern Ireland Environment Agency, National Museums
+    NI and the recording community
+  fetched: *id001
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: *id001
+techniques:
+- species-distribution

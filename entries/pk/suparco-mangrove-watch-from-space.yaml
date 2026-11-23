@@ -1,0 +1,45 @@
+id: suparco-mangrove-watch-from-space
+kind: project
+name: Mangrove Watch from Space Project
+scope: pk
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- pk
+status: unknown
+summary: A project built by SUPARCO that mapped Indus Delta mangroves from Landsat and GF-2 imagery for
+  2000 to 2021, classifying them with a Random Forest technique at 88% overall accuracy.
+facts:
+- claim: Mapped Indus Delta mangroves from Landsat and GF-2 imagery for 2000 to 2021.
+  url: https://suparco.gov.pk/products-services/forestry/
+  fetched: 2026-11-03
+  quote: to map mangroves in the Indus Delta region using Landsat and high resolution GF-2 satellite datasets
+    for the years 2000 - 2021
+- claim: Classified the imagery with a Random Forest technique at 88% overall accuracy.
+  url: https://suparco.gov.pk/products-services/forestry/
+  fetched: 2026-11-03
+  quote: using Random Forest technique with overall accuracy of 88%
+  ai_type: ml-supervised
+links:
+- type: built-by
+  to: pakistan-space-and-upper-atmosphere-research-commission
+  url: https://suparco.gov.pk/products-services/forestry/
+  fetched: 2026-11-03
+  quote: Pakistan Space and Upper Atmosphere Research Commission (SUPARCO) initiated a collaborative research
+    study
+- type: partners-with
+  to: asia-pacific-space-cooperation-organization
+  url: https://suparco.gov.pk/products-services/forestry/
+  fetched: 2026-11-03
+  quote: initiated a collaborative research study with Asia Pacific Space Cooperation Organization (APSCO)
+    and its Member States (MS) to map mangroves
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-03

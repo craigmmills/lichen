@@ -1,0 +1,109 @@
+id: norwegian-institute-of-bioeconomy-research
+kind: organisation
+name: Norwegian Institute of Bioeconomy Research
+also_known_as:
+- NIBIO
+- Norsk institutt for bioøkonomi
+scope: 'no'
+summary: Ås-based institute that reported training tree-recognition models on laser scanning
+  data in May 2025 and signed an agreement with NMBU in June 2026 to set up AI for Nature.
+facts:
+- claim: Advertised a postdoctoral post in 2025 on deep learning for forest laser data, including
+    biodiversity.
+  url: https://www.finn.no/432329038
+  fetched: '2026-11-02'
+  quote: Utvikle dyplæringsalgoritmer for 3D-laserdata fra skog for å karakterisere skogstruktur
+    og biologisk mangfold
+  ai_type: deep-learning
+- claim: Its head office is at Ås, south of Oslo.
+  url: https://www.finn.no/432329038
+  fetched: '2026-11-02'
+  quote: NIBIOs hovedkontor på Ås, 30 km syd for Oslo
+- claim: Its site lists forest monitoring programmes, including ICP Forests Level I.
+  url: https://nibio.no/tema/skog/skogskadeovervaking-i-norge
+  fetched: '2026-11-02'
+  quote: Landsrepresentativ skogovervåking (ICP Forests Level I)
+- claim: Says it is one of Norway's largest research institutes, with about 750 employees.
+  url: https://www.nibio.no/en
+  fetched: '2026-11-02'
+  quote: NIBIO is one of Norway's largest research institutes with approximately 750 employees.
+- claim: In May 2025, NIBIO reported that its forest and AI specialists were training models
+    to recognise individual trees from laser scanning data.
+  url: https://www.nibio.no/nyheter/laerer-ki-a-se-hvert-enkelt-tre-i-skogen
+  fetched: '2026-11-02'
+  quote: NIBIOs eksperter på skog og kunstig intelligens (KI) trener opp datamodeller til
+    å kjenne igjen enkelttrær i skogen.
+- claim: In November 2020, NIBIO reported testing machine learning to update land resource
+    maps, with about 90 per cent accuracy in a test phase.
+  url: https://www.nibio.no/nyheter/stordata-og-kunstig-intelligens-gir-bedre-arealkart
+  fetched: '2026-11-02'
+  quote: NIBIO tester for tiden bruk av kunstig intelligens (maskinlæring) for oppdatering
+    av arealressurskart.
+- claim: Its GBIF publisher record places it at Ås.
+  url: https://api.gbif.org/v1/organization/819352ad-c630-44e6-9356-d2c7aaf9866d
+  fetched: '2026-11-02'
+  quote: '"city":"Ås"'
+- claim: Signed an agreement with NMBU on 30 June 2026 to set up AI for Nature.
+  url: https://nibio.no/nyheter/2026/nytt-senter-skal-styrke-naturforstaelsen-med-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: I dag, tirsdag 30. juni 2026, signerte NIBIO og NMBU en avtale om å etablere senteret
+    AI for Nature.
+- claim: A contact for SR16 is based at the Ås office.
+  url: https://www.nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: '2026-11-02'
+  quote: Ås - Bygg H8
+- claim: In December 2025, the ARC project was described as led by NIBIO in collaboration
+    with NORCE and Biodrone.
+  url: https://www.norceresearch.no/en/news/raskere-reintelling-med-droner-og-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: The ARC (Aerial Reindeer Count) project, led by NIBIO in collaboration with NORCE
+    and Biodrone on behalf of the Norwegian Agriculture Agency
+- claim: Its GBIF publisher record says it is owned by the Ministry of Agriculture and Food.
+  url: https://api.gbif.org/v1/organization/819352ad-c630-44e6-9356-d2c7aaf9866d
+  fetched: &id001 2026-11-02
+  quote: NIBIO is owned by the Ministry of Agriculture and Food
+- claim: The SR16 product sheet gives the institute under its owner and contact heading.
+  url: https://dokument.geonorge.no/produktark/sr16/20230508/sr16-produktark-20230508.pdf
+  fetched: *id001
+  quote: Norsk institutt for bioøkonomi (NIBIO)
+- claim: Its SR16 page lists a 2020 paper on updating forest cover maps with object-based
+    image analysis and machine learning.
+  url: https://nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: *id001
+  quote: AUTOMATED UPDATING OF FOREST COVER MAPS FROM CLOUD-FREE SENTINEL-2 MOSAIC IMAGES
+    USING OBJECT-BASED IMAGE ANALYSIS AND MACHINE LEARNING METHODS
+- claim: The GBIF publisher record gives its address in Ås, Norway.
+  url: https://api.gbif.org/v1/organization/819352ad-c630-44e6-9356-d2c7aaf9866d
+  fetched: *id001
+  quote: '"city":"Ås","country":"NO"'
+links:
+- type: partners-with
+  to: norwegian-university-of-life-sciences
+  url: https://www.nibio.no/nyheter/2026/nytt-senter-skal-styrke-naturforstaelsen-med-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: signerte NIBIO og NMBU en avtale om å etablere senteret AI for Nature
+found_by:
+- checklist:2
+- queue:no
+- link-from:smartforest
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+website: https://www.nibio.no
+countries:
+- 'no'

@@ -1,0 +1,53 @@
+id: digital-earth-australia
+kind: programme
+name: Digital Earth Australia
+also_known_as:
+- DEA
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- au
+status: active
+website: https://www.ga.gov.au/scientific-topics/dea
+summary: Geoscience Australia programme that makes free and open satellite data products
+  for Australia, including land cover, mangroves, intertidal and fractional cover
+  products.
+facts:
+- claim: A programme of Geoscience Australia creating free and open satellite data
+    products.
+  url: https://www.ga.gov.au/scientific-topics/dea/about
+  fetched: '2026-10-31'
+  quote: Digital Earth Australia is a program of Geoscience Australia
+  ai_type: an agency of the Australian Government. We create free and open satellite
+    data products for the benefit of Australia.
+- claim: Its land and vegetation products include DEA Land Cover.
+  url: https://knowledge.dea.ga.gov.au/data/theme/land-and-vegetation/
+  fetched: '2026-10-31'
+  quote: DEA Land Cover
+- claim: Its land and vegetation products include DEA Mangroves.
+  url: https://knowledge.dea.ga.gov.au/data/theme/land-and-vegetation/
+  fetched: '2026-10-31'
+  quote: DEA Mangroves
+links:
+- type: run-by
+  to: geoscience-australia
+  url: https://www.ga.gov.au/scientific-topics/dea/about
+  fetched: '2026-10-31'
+  quote: Digital Earth Australia is a program of Geoscience Australia
+- type: uses
+  to: open-data-cube
+  url: https://www.ga.gov.au/scientific-topics/dea/about/open-data-cube
+  fetched: '2026-10-31'
+  quote: The Open Data Cube is the platform that makes our satellite imagery and data
+    accessible.
+found_by:
+- link-from:open-data-cube
+- link-from:geoscience-australia
+added_by: agent
+checked: '2026-10-31'

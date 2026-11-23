@@ -1,0 +1,40 @@
+id: gorgan-university-of-agricultural-sciences-and-natural-resources
+kind: organisation
+name: Gorgan University of Agricultural Sciences and Natural Resources
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+hq: ir
+scale: national
+status: active
+summary: Iranian university whose authors appear in OpenAlex on two machine learning papers,
+  from 2023 on rangeland species mapping and 2025 on habitat suitability for the herb Salvia
+  leriifolia.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2025 machine learning paper: Modeling habitat
+    suitability for endangered herb (Salvia leriifolia Benth) using Innovative hybrid machine
+    learning algorithms.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Modeling habitat suitability for endangered herb (Salvia leriifolia Benth) using
+    Innovative hybrid machine learning algorithms
+- claim: 'Its authors are listed by OpenAlex on a 2023 machine learning paper: Rangeland species
+    potential mapping using machine learning algorithms.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Rangeland species potential mapping using machine learning algorithms
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Department of Watershed and Arid Zone Management, Gorgan University of Agricultural
+    Sciences & Natural Resources, Gorgan, Iran
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

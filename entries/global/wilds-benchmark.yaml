@@ -1,0 +1,33 @@
+id: wilds-benchmark
+kind: dataset
+name: WILDS
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+website: https://wilds.stanford.edu
+summary: Curated collection of benchmark data sets for distribution shifts, which includes a camera trap variant of iWildCam and satellite image tasks.
+facts:
+- claim: Curated collection of benchmark datasets.
+  url: https://wilds.stanford.edu/datasets/
+  fetched: '2026-10-30'
+  quote: WILDS is a curated collection of benchmark datasets that represent distribution shifts faced in the wild.
+links:
+- type: builds-on
+  to: iwildcam
+  url: https://wilds.stanford.edu/datasets/
+  fetched: '2026-10-30'
+  quote: We study this shift on a variant of the iWildCam 2020 dataset
+- type: run-by
+  to: stanford-university
+  url: https://wilds.stanford.edu/team/
+  fetched: '2026-10-30'
+  quote: "Team Shiori Sagawa Stanford Pang Wei Koh Stanford Tony Lee Stanford Henrik Marklund Stanford Sang Michael Xie Stanford Irena Gao Stanford"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

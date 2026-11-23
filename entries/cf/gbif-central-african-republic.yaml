@@ -1,0 +1,61 @@
+id: gbif-central-african-republic
+kind: programme
+name: GBIF Central African Republic
+also_known_as: []
+scope: cf
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- cf
+scale: national
+status: active
+runner: unknown
+summary: Country node of GBIF in the Central African Republic, with associate participant status, based
+  at CERPHAMETA in Bangui; the registry lists no publishing organisations in the country.
+facts:
+- claim: The GBIF registry lists GBIF Central African Republic as the country node, with the Central African
+    Republic as an associate participant.
+  url: https://api.gbif.org/v1/node/country/CF
+  fetched: 2026-11-09
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Central
+    African Republic"'
+- claim: The registry gives the node's address as plant biology at CERPHAMETA in Bangui.
+  url: https://api.gbif.org/v1/node/country/CF
+  fetched: 2026-11-09
+  quote: '"address":["Biologie végétale'
+- claim: The GBIF registry lists no publishing organisations registered in the Central African Republic.
+  url: https://api.gbif.org/v1/organization?country=CF&limit=50
+  fetched: 2026-11-09
+  quote: '"count":0,"results":[]'
+- claim: The GBIF registry lists GBIF Central African Republic as a country node with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/country/CF
+  fetched: '2026-11-09'
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Central African Republic"'
+- claim: The registry gives the node's address at CERPHAMETA, Bangui.
+  url: https://api.gbif.org/v1/node/country/CF
+  fetched: '2026-11-09'
+  quote: Biologie végétale\nCERPHAMETA\nP.O. Box 1450\nBangui
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/CF
+  fetched: 2026-11-09
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/CF
+  fetched: '2026-11-09'
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Central
+    African Republic"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-09
+hq: cf
+roles:
+- unknown

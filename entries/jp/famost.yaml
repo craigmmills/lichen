@@ -1,0 +1,42 @@
+id: famost
+kind: programme
+name: FAMOST
+also_known_as:
+- Forest and Agriculture Monitoring Observation with Satellite Technology
+- 森林変化点抽出プログラム
+scope: jp
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.rinya.maff.go.jp/j/keikaku/shinrinsettou.mudanbassai_bousi.html
+summary: Programme that the Forestry Agency says it built to identify felled sites from free satellite
+  data using Google Earth Engine, with a fiscal 2025 technician manual published alongside the source
+  code.
+facts:
+- claim: The agency says it builds the program to identify felled sites from free satellite data.
+  url: https://www.rinya.maff.go.jp/j/keikaku/shinrinsettou.mudanbassai_bousi.html
+  fetched: '2026-11-02'
+  quote: 伐採箇所（森林変化点）を把握するプログラムであるFAMOST
+- claim: A fiscal 2025 manual for technicians is published with the source code.
+  url: https://www.rinya.maff.go.jp/j/keikaku/shinrinsettou.mudanbassai_bousi.html
+  fetched: '2026-11-02'
+  quote: プログラムのソースコードも含め公開します。
+links:
+- type: built-by
+  to: forestry-agency-japan
+  url: https://www.rinya.maff.go.jp/j/keikaku/shinrinsettou.mudanbassai_bousi.html
+  fetched: '2026-11-02'
+  quote: 林野庁では、Google Earth Engine（原則有償）と無償利用可能な衛星データを組み合わせて、伐採箇所（森林変化点）を把握するプログラムであるFAMOST（ Forest and
+    Agriculture Monitoring Observation with Satellite Technologyの略） を作成しています。
+- type: uses
+  to: google-earth-engine
+  url: https://www.rinya.maff.go.jp/j/keikaku/shinrinsettou.mudanbassai_bousi.html
+  fetched: '2026-11-02'
+  quote: 林野庁では、Google Earth Engine（原則有償）と無償利用可能な衛星データを組み合わせて
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,42 @@
+id: copernicus-observia-ai
+kind: project
+name: Copernicus Observia AI
+also_known_as:
+- Ask Copernicus
+- Observia
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+realms:
+- land
+status: active
+summary: AI assistant in public beta, built on the European Environment Agency's GPT-LAB platform, that helps people find, understand and use Copernicus data products, including land monitoring data. Runs on a Mistral language model on the agency's own servers.
+facts:
+- claim: Launched as a beta demonstrator of an AI assistant for finding, understanding and using Copernicus products.
+  url: https://land.copernicus.eu/en/news/copernicus-observia-ai-launched-to-guide-users-through-copernicus-data
+  fetched: &id001 2026-10-30
+  quote: We are excited to announce the launch of the beta demonstrator ‘Copernicus Observia AI’, a powerful AI assistant designed to help users to find, understand and use Copernicus products.
+- claim: Powered by Mistral, chosen because it can run entirely offline.
+  url: https://land.copernicus.eu/en/news/copernicus-observia-ai-launched-to-guide-users-through-copernicus-data
+  fetched: *id001
+  quote: Observia is powered by the European open-source large language model Mistral
+  ai_type: large-language-models
+- claim: Open to anyone to try, with feedback buttons on each reply.
+  url: https://land.copernicus.eu/en/news/copernicus-observia-ai-launched-to-guide-users-through-copernicus-data
+  fetched: *id001
+  quote: Please feel free to try the beta release for yourself
+- claim: Still in beta on the Sentinel documentation site, where it is called Ask Copernicus.
+  url: https://sentiwiki.copernicus.eu/web/ask-copernicus-ai-data-guide
+  fetched: *id001
+  quote: Currently in Beta, the Observia AI platform, known as Ask Copernicus
+links:
+- type: run-by
+  to: european-environment-agency
+  url: https://sentiwiki.copernicus.eu/web/ask-copernicus-ai-data-guide
+  fetched: *id001
+  quote: the European Environment Agency developed an AI chatbot to help find, understand, and use Copernicus data products.
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

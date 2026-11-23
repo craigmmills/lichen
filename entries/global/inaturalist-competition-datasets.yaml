@@ -1,0 +1,34 @@
+id: inaturalist-competition-datasets
+kind: dataset
+name: iNaturalist Competition Datasets
+scope: global
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: unknown
+website: https://github.com/visipedia/inat_comp
+summary: Species image classification competition data sets drawn from iNaturalist, released for 2017, 2018, 2019 and 2021.
+facts:
+- claim: Competitions listed for 2017, 2018, 2019 and 2021.
+  url: https://github.com/visipedia/inat_comp
+  fetched: '2026-10-30'
+  quote: iNaturalist Competition Datasets
+links:
+- type: run-by
+  to: visipedia
+  url: https://github.com/visipedia/inat_comp
+  fetched: '2026-10-30'
+  quote: 'GitHub - visipedia/inat_comp: iNaturalist competition details'
+- type: builds-on
+  to: inaturalist
+  url: https://github.com/visipedia/inat_comp
+  fetched: '2026-10-30'
+  quote: iNaturalist competition details
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

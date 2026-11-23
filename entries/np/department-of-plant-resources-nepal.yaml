@@ -1,0 +1,50 @@
+id: department-of-plant-resources-nepal
+kind: organisation
+name: Department of Plant Resources
+scope: np
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: np
+countries:
+- np
+scale: national
+status: active
+summary: A government department in Thapathali, Kathmandu, registered with GBIF as a data publisher, publishing
+  datasets on the endemic and alien flora of Nepal held at KATH.
+facts:
+- claim: GBIF registers the Department of Plant Resources, MoFE, Government of Nepal, as a data publisher.
+  url: https://api.gbif.org/v1/organization?country=NP&limit=100
+  fetched: 2026-11-08
+  quote: Department of Plant Resources, MoFE, Government of Nepal
+- claim: It publishes a dataset of the endemic flora of Nepal held at KATH.
+  url: https://api.gbif.org/v1/organization/dcde691a-53ee-461d-a84f-382d27fed500/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Endemic flora of Nepal at KATH
+- claim: It publishes a dataset of the alien flora of Nepal held at KATH.
+  url: https://api.gbif.org/v1/organization/dcde691a-53ee-461d-a84f-382d27fed500/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Alien Flora of Nepal at KATH
+- claim: Its site gives its address as Thapathali, Kathmandu.
+  url: https://www.dpr.gov.np
+  fetched: 2026-11-08
+  quote: थापाथली, काठमाडौं
+- claim: Its home page links a Plant Database, the Flora of Nepal, a Traditional Knowledge Database of
+    Nepal and the MAPChem Database.
+  url: https://www.dpr.gov.np
+  fetched: 2026-11-08
+  quote: MAPChem Database
+- claim: Its site header places it under the Ministry of Agriculture, Forests and Environment.
+  url: https://www.dpr.gov.np
+  fetched: 2026-11-08
+  quote: कृषि, वन तथा पर्यावरण मन्त्रालय
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+also_known_as:
+- वनस्पति विभाग

@@ -1,0 +1,43 @@
+id: murraylands-and-riverland-landscape-board
+kind: organisation
+name: Murraylands and Riverland Landscape Board
+scope: au
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- au
+scale: local
+status: active
+summary: Landscape board whose remote cameras send images to eVorta, a tool it uses to identify
+  pigs and estimate group size.
+facts:
+- claim: Its remote cameras send images to eVorta, which identifies pigs and estimates group
+    size.
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: An array of 4G remote sensor cameras, powered by solar and rechargeable batteries,
+    send images directly to eVorta, which rapidly identifies pigs, estimates group size and
+    assesses group composition.
+  fetched: '2026-11-08'
+- claim: The page credits the board with the photo of its remote activated trap system.
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: 'Remote activated trap system with captured feral pigs in the Riverland. Credit:
+    Murraylands and Riverland Landscape Board.'
+  fetched: '2026-11-08'
+links:
+- type: uses
+  to: evorta
+  url: https://www.landscape.sa.gov.au/news/how-smart-tech-is-reshaping-feral-pest-control-across-sas-landscapes
+  quote: send images directly to eVorta, which rapidly identifies pigs
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

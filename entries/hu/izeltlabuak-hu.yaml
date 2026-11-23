@@ -1,0 +1,43 @@
+id: izeltlabuak-hu
+kind: programme
+name: izeltlabuak.hu
+also_known_as: []
+scope: hu
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+countries:
+- hu
+status: active
+website: https://www.izeltlabuak.hu/
+summary: Citizen science web application, run by Közösen a Természetért Alapítvány, where users upload
+  arthropod photos with place and date for expert identification, with open data exportable in Darwin
+  Core.
+facts:
+- claim: Its GBIF publisher record describes it as a citizen science web application for recording arthropod
+    observations with metadata.
+  url: https://api.gbif.org/v1/organization/1ecaad1e-29a1-4af8-8098-40d942ae522d
+  fetched: 2026-11-08
+  quote: izeltlabuak.hu (izeltlabuak means arthropods) is a popular citizen science web application where
+    users can record their arthropod observations with related metadata.
+- claim: The records are mostly under a CC BY licence.
+  url: https://api.gbif.org/v1/organization/1ecaad1e-29a1-4af8-8098-40d942ae522d
+  fetched: 2026-11-08
+  quote: The records are mostly under CC BY license.
+- claim: A citizen science web application where users record arthropod observations.
+  url: https://api.gbif.org/v1/organization/1ecaad1e-29a1-4af8-8098-40d942ae522d
+  fetched: 2026-11-08
+  quote: is a popular citizen science web application where users can record their arthropod observations
+    with related metadata
+links:
+- type: run-by
+  to: kozosen-a-termeszetert-alapitvany
+  url: https://api.gbif.org/v1/organization/1ecaad1e-29a1-4af8-8098-40d942ae522d
+  fetched: 2026-11-08
+  quote: The maintainer of the website is Közösen a Természetért Alapítvány (Together for Nature Foundation).
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

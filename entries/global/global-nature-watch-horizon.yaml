@@ -1,0 +1,69 @@
+id: global-nature-watch-horizon
+kind: programme
+name: Global Nature Watch Horizon
+also_known_as:
+- GNW Horizon
+scope: global
+roles: [builds-ai, supplies-data]
+ai_label: ai
+ai_types: [large-language-models, agentic-ai]
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://horizon.globalnaturewatch.org/
+summary: AI-driven platform, in preview, that answers plain-language questions about land ecosystems using data from Land & Carbon Lab and Global Nature Watch.
+countries:
+- bo
+- br
+- ci
+- co
+- es
+- ke
+- kh
+- mn
+- pe
+- pt
+facts:
+- claim: Available in preview since September 2026, alongside the existing forest monitoring product.
+  url: https://www.wri.org/news/release-global-forest-watch-becomes-global-nature-watch-expanding-cover-more-land-ecosystems
+  quote: During the preview period, Horizon will be available alongside Global Nature Watch’s existing forest monitoring product.
+  fetched: 2026-10-30
+- claim: Uses a system of AI agents to answer questions.
+  url: https://horizon.globalnaturewatch.org/
+  quote: When you ask Horizon a question, our system of agents work together to understand your request
+  fetched: 2026-10-30
+- claim: Uses several AI models, not one.
+  url: https://help.horizon.globalnaturewatch.org/support/faqs
+  quote: GNW Horizon uses a multi-model AI system rather than a single model.
+  fetched: 2026-10-30
+- claim: "Horizon documentation refers to a large language model."
+  url: https://help.horizon.globalnaturewatch.org/support/faqs
+  fetched: 2026-10-30
+  quote: "This approach (sometimes called CodeAct ) ensures that results are computed from source data, not inferred by a large language model alone."
+  ai_type: large-language-models
+- claim: "Horizon uses AI agents to select datasets and run analyses."
+  url: https://help.horizon.globalnaturewatch.org/support/faqs
+  fetched: 2026-10-30
+  quote: "The AI agents are used to select the relevant datasets and run the appropriate pre-defined analysis"
+  ai_type: agentic-ai
+- claim: 'Describes itself as an open, AI-powered system that turns land monitoring data into intelligence.'
+  url: https://horizon.globalnaturewatch.org/
+  fetched: 2026-10-30
+  quote: 'Global Nature Watch Horizon is an open, AI-powered system that transforms cutting-edge land monitoring data into intelligence'
+links:
+- type: run-by
+  to: land-and-carbon-lab
+  url: https://horizon.globalnaturewatch.org/
+  quote: Horizon is developed by Land & Carbon Lab
+  fetched: 2026-10-30
+- type: partners-with
+  to: global-nature-watch
+  url: https://horizon.globalnaturewatch.org/
+  quote: Horizon is developed by Land & Carbon Lab, a research initiative convened by the Bezos Earth Fund and World Resources Institute, in collaboration with Global Nature Watch (formerly Global Forest Watch)
+  fetched: 2026-10-30
+found_by:
+- holdout:hand-review
+added_by: agent
+checked: 2026-10-30

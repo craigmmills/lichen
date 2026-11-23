@@ -1,0 +1,42 @@
+id: checklist-of-introduced-taxa-in-cyprus
+kind: dataset
+name: Checklist of introduced taxa in Cyprus
+scope: cy
+ai_label: data-infrastructure
+status: active
+countries:
+- cy
+summary: Public domain (CC0) dataset of 1,500 introduced taxa in Cyprus, run by The Cyprus Institute,
+  usable for invasion research and management and for alien species registries.
+facts:
+- claim: Covers 1,500 introduced taxa occurring in Cyprus.
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: It contains information on 1500 introduced taxa occurring in Cyprus.
+- claim: Can be used for research and management of biological invasions, and for compiling regional and
+    national registries of alien species.
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: The dataset can be used for researching and managing biological invasions or compiling regional
+    and national registries of alien species.
+- claim: Released to the public domain under a CC0 waiver.
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: We have released this dataset to the public domain under a CC0 waiver.
+links:
+- type: run-by
+  to: the-cyprus-institute
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: The checklist of introduced taxa in Cyprus is a species checklist dataset managed by the Cyprus
+    Institute.
+- type: builds-on
+  to: cyprus-database-of-alien-species
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: The dataset is based on and supplementing the Cyprus Database of Alien Species (CyDAS).
+found_by:
+- register:cy
+- link-from:the-cyprus-institute
+added_by: agent
+checked: 2026-11-08

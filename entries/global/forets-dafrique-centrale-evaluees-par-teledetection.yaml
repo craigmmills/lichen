@@ -1,0 +1,41 @@
+id: forets-dafrique-centrale-evaluees-par-teledetection
+kind: dataset
+name: Forêts d'Afrique Centrale Evaluées par Télédétection
+also_known_as:
+- FACET
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Atlases of forest cover and forest cover loss made from Landsat data, published for DR Congo, the Republic of Congo and Gabon.
+facts:
+- claim: OSFAC and partners released the FACET atlas of forest cover and forest cover loss for DR Congo in Kinshasa on 5 April 2011.
+  url: https://carpe.umd.edu/sites/default/files/documentsarchive/facet_launch_press_release_english.pdf
+  quote: atlas of forest cover and forest cover loss for the Democratic Republic of Congo on the 5th of April 2011
+  fetched: '2026-10-30'
+- claim: The DR Congo atlas readme describes it as an atlas of forest cover and change for 2000 to 2010.
+  url: https://glad.umd.edu/users/Alexandra/FACET/DRC/DRC_FACET_Atlas/readme.pdf
+  quote: Atlas of forest cover and change 2000-2010 in the Democratic Republic of the Congo
+  fetched: '2026-10-30'
+- claim: OSFAC lists FACET products for DR Congo, Congo and Gabon.
+  url: https://www.osfac.net
+  quote: FACET DR Congo FACET Congo FACET Gabon
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: observatoire-satellital-des-forets-dafrique-centrale
+  url: https://glad.umd.edu/users/Alexandra/FACET/DRC/DRC_FACET_Atlas/readme.pdf
+  quote: 'Prepared by: Observatoire satellital des forêts d’Afrique centrale (OSFAC), South Dakota State University (SDSU), University of Maryland (UMD)'
+  fetched: '2026-10-30'
+- type: partners-with
+  to: university-of-maryland
+  url: https://glad.umd.edu/users/Alexandra/FACET/DRC/DRC_FACET_Atlas/readme.pdf
+  quote: 'Prepared by: Observatoire satellital des forêts d’Afrique centrale (OSFAC), South Dakota State University (SDSU), University of Maryland (UMD)'
+  fetched: '2026-10-30'
+found_by:
+- link-from:observatoire-satellital-des-forets-dafrique-centrale
+added_by: agent
+checked: '2026-10-30'

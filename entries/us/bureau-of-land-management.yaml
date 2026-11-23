@@ -1,0 +1,48 @@
+id: bureau-of-land-management
+kind: organisation
+name: Bureau of Land Management
+also_known_as:
+- BLM
+scope: us
+sector: government
+roles:
+- supplies-data
+- governs
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: us
+scale: national
+status: active
+website: https://www.blm.gov
+summary: US federal land management agency that runs the Assessment, Inventory, and Monitoring
+  strategy for public lands.
+facts:
+- claim: Sets standards for assessing natural resource conditions on BLM-managed lands.
+  url: https://www.blm.gov/aim
+  fetched: '2026-10-30'
+  quote: provides a set of standards for assessing natural resource conditions and trends
+    on BLM-managed public lands
+- claim: BLM, with NRCS and the University of Montana, developed the Rangeland Analysis Platform
+    and supplies field measurements to it.
+  url: https://rangelands.app/products
+  quote: Developed in partnership by the USDA Natural Resources Conservation Service (NRCS),
+    the Bureau of Land Management (BLM), and the University of Montana (UMT)
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: assessment-inventory-and-monitoring-strategy
+  url: https://www.blm.gov/aim
+  fetched: '2026-10-30'
+  quote: Assessment, Inventory, and Monitoring (AIM) | Bureau of Land Management
+- type: partners-with
+  to: rangeland-analysis-platform
+  url: https://rangelands.app/products
+  quote: Developed in partnership by the USDA Natural Resources Conservation Service (NRCS),
+    the Bureau of Land Management (BLM), and the University of Montana (UMT)
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-30'

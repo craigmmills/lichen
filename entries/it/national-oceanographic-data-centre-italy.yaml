@@ -1,0 +1,87 @@
+id: national-oceanographic-data-centre-italy
+kind: dataset
+name: National Oceanographic Data Centre, Italy
+also_known_as:
+- NODC
+- Centro Nazionale Dati Oceanografici
+- National Oceanographic Data Centre
+- OGS NODC
+scope: it
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- it
+scale: national
+status: active
+website: https://nodc.ogs.it/
+summary: Italian reference centre in the IOC-UNESCO data exchange system, at OGS, which manages
+  and freely redistributes marine data, with more than 300,000 water-column profiles.
+facts:
+- claim: Italian reference in the IOC-UNESCO international oceanographic data exchange system.
+  url: https://www.inogs.it/it/centro-nazionale-di-dati-oceanografici-nodc
+  fetched: '2026-10-31'
+  quote: è il riferimento italiano nel Sistema Internazionale di Scambio di Dati Oceanografici
+    della Commissione Oceanografica Intergovernativa dell’UNESCO
+- claim: Holds more than 300,000 water-column profiles.
+  url: https://www.inogs.it/it/centro-nazionale-di-dati-oceanografici-nodc
+  fetched: '2026-10-31'
+  quote: La banca dati contiene più di 300 mila profili della colonna d’acqua
+- claim: Manages the largest multidisciplinary archive in Italy of coastal and open-sea marine
+    information.
+  url: https://www.ogs.it/it/centro-nazionale-di-dati-oceanografici-nodc
+  fetched: '2026-10-31'
+  quote: Il Centro gestisce il più grande archivio multidisciplinare in Italia di informazioni
+    sull’ambiente marino costiero e di mare aperto.
+- claim: Italian reference in the IOC data exchange system.
+  url: https://www.ogs.it/en/national-oceanographic-data-centre-nodc
+  fetched: '2026-10-31'
+  quote: The National Oceanographic Data Centre is the Italian reference in the International
+    Oceanographic Data Exchange System of the UNESCO Intergovernmental Oceanographic Commission.
+- claim: Manages and freely redistributes marine data.
+  url: https://www.ogs.it/en/national-oceanographic-data-centre-nodc
+  fetched: '2026-10-31'
+  quote: The Data Centre is responsible for the management and free redistribution of marine
+    data from the national and international scientific community
+- claim: Manages European marine litter data through three databases.
+  url: https://www.ogs.it/en/national-oceanographic-data-centre-nodc
+  fetched: '2026-10-31'
+  quote: NODC manages the collection of European marine litter data based on the monitoring
+    provided for in the Marine Strategy Framework Directive
+links:
+- type: run-by
+  to: istituto-nazionale-di-oceanografia-e-di-geofisica-sperimentale
+  url: https://nodc.ogs.it/about/datacentre
+  fetched: '2026-10-31'
+  quote: The National Oceanographic Data Centre, at OGS, manages the most comprehensive marine
+    data archive in Italy.
+- type: run-by
+  to: istituto-nazionale-di-oceanografia-e-di-geofisica-sperimentale
+  url: https://www.ogs.it/it/centro-nazionale-di-dati-oceanografici-nodc
+  fetched: '2026-10-31'
+  quote: Centro nazionale di dati oceanografici - NODC | OGS
+- type: partners-with
+  to: international-oceanographic-data-and-information-exchange
+  url: https://www.ogs.it/it/centro-nazionale-di-dati-oceanografici-nodc
+  fetched: '2026-10-31'
+  quote: è il riferimento italiano nel Sistema Internazionale di Scambio di Dati Oceanografici
+    della Commissione Oceanografica Intergovernativa dell’UNESCO
+- type: run-by
+  to: istituto-nazionale-di-oceanografia-e-di-geofisica-sperimentale
+  url: https://www.ogs.it/en/news/marine-and-ocean-observation-nodc-new-eu-expert-group
+  fetched: '2026-10-31'
+  quote: Head of the National Oceanographic Data Centre of the OGS
+- type: partners-with
+  to: seadatanet
+  url: https://www.ogs.it/en/national-oceanographic-data-centre-nodc
+  fetched: '2026-10-31'
+  quote: The Data Centre's information system is integrated into the pan-European SeaDataNet
+    infrastructure for integrated marine data management
+found_by:
+- link-from:national-institute-of-oceanography-and-applied-geophysics
+- checklist:2
+- link-from:istituto-nazionale-di-oceanografia-e-di-geofisica-sperimentale
+added_by: agent
+checked: '2026-10-31'
+roles:
+- supplies-data

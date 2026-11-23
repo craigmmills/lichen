@@ -1,0 +1,53 @@
+id: png-multi-purpose-national-forest-inventory
+kind: programme
+name: Papua New Guinea Multi-Purpose National Forest Inventory
+also_known_as:
+- MNFI
+- PNG NFI
+scope: pg
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- pg
+status: active
+summary: A national forest inventory begun in 2016, aiming for 1000 permanent sample
+  plots, with a faunal biodiversity component and field data validated in Open Foris
+  Collect before moving to Open Foris Arena.
+facts:
+- claim: The inventory was initiated in 2016 and aimed to establish 1000 permanent
+    sample plots nationwide, collecting data on forest resources, biodiversity, carbon
+    stocks and land use.
+  url: https://microdata.fao.org/index.php/catalog/2943
+  fetched: 2026-11-15
+  quote: The NFI aimed to establish 1000 permanent sample plots nationwide. Field
+    data collection includes biophysical measurements, biodiversity assessments, and
+    socio-economic surveys, supported by Open Foris tools.
+- claim: Its scope includes a faunal biodiversity component following a Faunal Biodiversity
+    Protocol developed in 2023.
+  url: https://microdata.fao.org/index.php/catalog/2943
+  fetched: 2026-11-15
+  quote: the scope includes a faunal biodiversity component, implemented in accordance
+    with the Faunal Biodiversity Protocol developed in 2023
+- claim: The FAO microdata catalogue lists the PNG Forest Authority as the producer.
+  url: https://microdata.fao.org/index.php/catalog/2943
+  fetched: 2026-11-15
+  quote: Producer(s) Papua New Guinea Forest Authority
+- claim: Field data go to the National Forest Inventory Unit for checking and cleaning,
+    and validated data move from Open Foris Collect to Open Foris Arena.
+  url: https://microdata.fao.org/index.php/catalog/2943
+  fetched: 2026-11-15
+  quote: the data management workflow includes the migration of validated datasets
+    from Open Foris Collect to Open Foris Arena
+links:
+- type: uses
+  to: open-foris
+  url: https://microdata.fao.org/index.php/catalog/2943
+  fetched: 2026-11-15
+  quote: The use of the Open Foris Collect data collection tool enabled the application
+    of predefined validation rules and logical checks during field data entry
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15
+runner: unknown

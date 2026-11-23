@@ -1,0 +1,51 @@
+id: oesterreichische-waldinventur
+kind: programme
+name: Österreichische Waldinventur
+also_known_as:
+- ÖWI
+- Austrian Forest Inventory
+scope: at
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- at
+scale: national
+status: active
+summary: Austrian national forest inventory, run by the Federal Research Centre for Forests, surveying
+  about 11,000 sample plots with expert teams and imagery, with latest results presented in January 2025.
+facts:
+- claim: Surveys about 11,000 sample plots with expert teams, using satellite and digital aerial images.
+  url: https://www.bmluk.gv.at/themen/wald/wald-in-oesterreich/wald-und-zahlen/oesterreichswaldinzeitendesklimawandels.html
+  fetched: 2026-11-07
+  quote: Dafür werden an rund 11.000 Probeflächen Erhebungen durch Expertenteams vorgenommen. Dabei kommen
+    modernste Techniken wie Satelliten- und digitale Luftbilder zum Einsatz.
+- claim: The latest results were presented in January 2025.
+  url: https://www.bmluk.gv.at/themen/wald/wald-in-oesterreich/wald-und-zahlen/oesterreichswaldinzeitendesklimawandels.html
+  fetched: 2026-11-07
+  quote: Im Jänner 2025 wurden die neuesten Ergebnisse vorgestellt.
+- claim: The ministry’s account of the results presented in January 2025 reports standing deadwood, a
+    biodiversity indicator, at 10.5 cubic metres per hectare in commercial forest.
+  url: https://www.bmluk.gv.at/themen/wald/wald-in-oesterreich/wald-und-zahlen/oesterreichswaldinzeitendesklimawandels.html
+  fetched: 2026-11-07
+  quote: der stehende Totholzvorrat im Ertragswald steigt weiter an und liegt laut aktuellen ÖWI Zahlen
+    bei 10,5 Vfm/ha
+- claim: A 2007 article on waldwissen.net says the BFW's Institute of Forest Inventory produced the first
+    Austria-wide satellite-based forest map using ÖWI plot data, classifying Landsat images with the kNN
+    method, with software from BOKU's IVFL.
+  url: https://www.waldwissen.net/de/technik-und-planung/waldinventur/erste-oesterreichweite-oewi-waldkarte
+  fetched: 2026-11-07
+  quote: Das Projekt wurde in Zusammenarbeit mit dem Institut für Vermessung, Fernerkundung und Landinformation
+    (IVFL) der BOKU durchgeführt, wo auch die verwendete Software entwickelt wurde.
+links:
+- type: run-by
+  to: bundesforschungszentrum-fuer-wald
+  url: https://www.bmluk.gv.at/themen/wald/wald-in-oesterreich/wald-und-zahlen/oesterreichswaldinzeitendesklimawandels.html
+  fetched: 2026-11-07
+  quote: Die organisatorische und technische Abwicklung wird vom BFW durchgeführt.
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-07

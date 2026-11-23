@@ -1,0 +1,44 @@
+id: fiji-forest-invasive-species-mapping
+kind: project
+name: Forest invasive species mapping in Fiji
+scope: fj
+ai_label: ai
+status: unknown
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fj
+ai_types:
+- ml-supervised
+summary: Machine learning work on Digital Earth Pacific to map invasive trees such as African
+  tulip in Fiji, using field surveys, Sentinel-2 and a random forest classifier.
+facts:
+- claim: A 2026 paper maps Spathodea campanulata in a forest plot at Korotari, Fiji.
+  url: https://isprs-archives.copernicus.org/articles/XLVIII-4-W20-2025/1/2026/
+  fetched: '2026-10-31'
+  quote: 'Applying replicable open-source workflows to identify invasive flora: Spathodea
+    campanulata in a small-scale forest plot in Korotari, Fiji'
+- claim: The paper's keywords include random forest.
+  url: https://isprs-archives.copernicus.org/articles/XLVIII-4-W20-2025/1/2026/
+  fetched: '2026-10-31'
+  quote: Spathodea campanulata, invasive tree species, random forest, Fiji
+  ai_type: ml-supervised
+- claim: Models were trained on seasonal plant trends to track invasive species.
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: '2026-10-31'
+  quote: Phenological characteristics and seasonal trends in plant vegetation were used to
+    train the models to detect and track invasive species
+links:
+- type: builds-on
+  to: digital-earth-pacific
+  url: https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/
+  fetched: '2026-10-31'
+  quote: Using Digital Earth Pacific, we are better able to monitor the sprawling expansion
+    of these invasive species.
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

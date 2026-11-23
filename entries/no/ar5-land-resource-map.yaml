@@ -1,0 +1,38 @@
+id: ar5-land-resource-map
+kind: dataset
+name: AR5
+also_known_as:
+- Arealressurskart AR5
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- 'no'
+scale: national
+status: active
+summary: A dataset run by NIBIO that it calls the most detailed map of Norway's land resources, which
+  municipalities updated routinely and NIBIO periodically updated for missed changes, as reported in November
+  2020.
+facts:
+- claim: NIBIO calls AR5 the most detailed map of Norway's land resources.
+  url: https://www.nibio.no/nyheter/stordata-og-kunstig-intelligens-gir-bedre-arealkart
+  fetched: '2026-11-02'
+  quote: Arealressurskartet AR5 er det mest detaljerte kartet vi har over arealressursene i Norge.
+- claim: NIBIO reported in November 2020 that municipalities updated AR5 routinely and NIBIO periodically
+    updated changes they missed.
+  url: https://www.nibio.no/nyheter/stordata-og-kunstig-intelligens-gir-bedre-arealkart
+  fetched: '2026-11-02'
+  quote: mens endringer som kommunene ikke oppdager periodisk ajourføres av NIBIO
+links:
+- type: run-by
+  to: norwegian-institute-of-bioeconomy-research
+  url: https://www.nibio.no/nyheter/stordata-og-kunstig-intelligens-gir-bedre-arealkart
+  fetched: '2026-11-02'
+  quote: mens endringer som kommunene ikke oppdager periodisk ajourføres av NIBIO
+found_by:
+- link-from:norwegian-institute-of-bioeconomy-research
+added_by: agent
+checked: '2026-11-02'

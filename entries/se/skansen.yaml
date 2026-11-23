@@ -1,0 +1,41 @@
+id: skansen
+kind: organisation
+name: Skansen
+scope: se
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- edna-genomics
+hq: unknown
+scale: local
+status: active
+website: https://www.skansen.se/en/
+summary: Active organisation that contributed to a project on mapping animals through airborne
+  RNA and coordinates and takes part in Arctic fox fieldwork, partnering with Stockholm University.
+facts:
+- claim: Contributed to a project on mapping animals through airborne RNA.
+  url: https://www.skansen.se/en/about-skansen/vision-and-mission/mission-of-the-zoo/research/
+  fetched: '2026-11-02'
+  quote: Skansen has contributed to a research project exploring how airborne RNA can be used
+    to map the presence of animals.
+- claim: Coordinates and takes part in Arctic fox fieldwork, including tagging pups and mapping
+    dens.
+  url: https://www.skansen.se/en/about-skansen/vision-and-mission/mission-of-the-zoo/research/
+  fetched: '2026-11-02'
+  quote: Skansen coordinates and takes part in fieldwork that includes tagging and weighing
+    pups and mapping dens.
+links:
+- type: partners-with
+  to: stockholm-university
+  url: https://www.skansen.se/en/about-skansen/vision-and-mission/mission-of-the-zoo/research/
+  fetched: '2026-11-02'
+  quote: Skansen actively participates in Stockholm University’s Arctic Fox Project
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,53 @@
+id: parc-national-des-ecrins
+kind: organisation
+name: Parc national des Écrins
+scope: fr
+sector: government
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: local
+status: active
+summary: French national park that developed the open source GeoNature-atlas tool behind its
+  Biodiv'Écrins atlas, and tested camera traps with AI classification for monitoring visitor
+  numbers.
+facts:
+- claim: A 2023 placement report looked at the feasibility of monitoring visitor numbers with
+    camera traps and AI classification.
+  url: https://data.ecrins-parcnational.fr/documents/stages/2023-09-rapport-stage-Aurelien-Coste-photos-IA-frequentation.pdf
+  quote: photographiques et classification automatisée des médias (images et vidéos) par
+  fetched: '2026-10-31'
+- claim: GeoNature-atlas can be offered under another brand, for example Biodiv'Ecrins.
+  url: https://www.natural-solutions.eu/geonature
+  fetched: '2026-10-31'
+  quote: pour la diffusion des données, (peut être proposé en marque blanche, exemple Biodiv’Ecrins)
+- claim: Develops AI image analysis for monitoring visitor numbers.
+  url: https://www.parcs-naturels-regionaux.fr/offres-emploi/consolidation-et-montee-en-puissance-de-loutil-cairn-pour-le-suivi-de-la
+  fetched: '2026-10-31'
+  quote: Le Parc national des Écrins développe des dispositifs innovants pour mieux connaître
+    la fréquentation des espaces naturels
+links:
+- type: runs
+  to: geonature-atlas
+  url: https://biodiversite.ecrins-parcnational.fr/static/custom/images/2016-11-CPRESSE-Biodiv-Ecrins-PNE.pdf
+  quote: utilise l'outil opensource GeoNature-atlas développé par le Parc national des Écrins
+  fetched: '2026-10-31'
+- type: uses
+  to: geonature
+  url: https://www.natural-solutions.eu/geonature
+  fetched: '2026-10-31'
+  quote: exemple Biodiv’Ecrins
+found_by:
+- checklist:1
+- link-from:natural-solutions
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

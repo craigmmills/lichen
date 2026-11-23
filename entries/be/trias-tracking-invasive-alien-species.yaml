@@ -1,0 +1,51 @@
+id: trias-tracking-invasive-alien-species
+kind: project
+name: Tracking Invasive Alien Species
+also_known_as:
+- TrIAS
+- Tracking Invasive Alien Species
+scope: be
+ai_label: data-infrastructure
+status: unknown
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+countries:
+- be
+summary: Belgian project building an open data-driven framework with data mobilisation and risk evaluation
+  components, using GBIF services; its current status is unknown.
+runner: unknown
+facts:
+- claim: A Belgian project building an open data-driven framework.
+  url: https://zenodo.org/communities/trias/about
+  fetched: 2026-11-02
+  quote: TrIAS is a Belgian project building an open data-driven framework to support policy on invasive
+    species.
+- claim: Two components, data mobilisation and risk evaluation.
+  url: https://zenodo.org/communities/trias/about
+  fetched: 2026-11-02
+  quote: the development of data-driven procedures for risk evaluation based on risk modelling, risk mapping
+    and risk assessment
+- claim: Developing a risk assessment process based on risk modelling and mapping under future climate
+    scenarios, according to the Adapt2Climate portal.
+  url: https://www.adapt2climate.be/casestudy/tracking-invasive-alien-species-trias/?lang=en
+  fetched: '2026-11-02'
+  quote: TrIAS project is developing a risk assessment process based on risk modelling and mapping, taking
+    into account different future climate scenarios.
+- claim: Its GitHub organisation describes an open data-driven framework.
+  url: https://github.com/trias-project/
+  fetched: '2026-11-02'
+  quote: Building an open data-driven framework to support policy on invasive species
+links:
+- type: uses
+  to: global-biodiversity-information-facility
+  url: https://zenodo.org/communities/trias/about
+  fetched: 2026-11-02
+  quote: TrIAS uses services from the Global Biodiversity Information Facility ( GBIF )
+found_by:
+- checklist:7
+- link-from:belgian-biodiversity-platform
+added_by: agent
+checked: 2026-11-02

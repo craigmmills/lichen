@@ -1,0 +1,60 @@
+id: uwi-st-augustine-department-of-life-sciences
+kind: organisation
+name: Department of Life Sciences, The University of the West Indies, St. Augustine
+scope: tt
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+hq: tt
+countries:
+- tt
+scale: national
+status: active
+summary: Organises the Trinidad and Tobago Bioblitz with the Field Naturalists' Club, runs the UWI Zoology
+  Museum, and is lead affiliation on a 2026 paper on passive acoustic monitoring of anurans.
+facts:
+- claim: Lead affiliation on a 2026 paper evaluating passive acoustic monitoring for detecting anurans
+    in Caribbean tropical forests.
+  url: https://api.openalex.org/works/W7148965264?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Evaluating the Effectiveness of Passive Acoustic Monitoring at Detecting Anurans in Caribbean
+    Tropical Forests
+- claim: All three authors give the department at St Augustine as their affiliation.
+  url: https://api.openalex.org/works/W7148965264?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Department of Life Sciences, The University of the West Indies, St. Augustine, Trinidad and Tobago
+- claim: Organises the Trinidad and Tobago Bioblitz, with the Trinidad and Tobago Field Naturalists' Club
+    as partner.
+  url: https://sta.uwi.edu/fst/lifesciences/node/355
+  fetched: '2026-11-09'
+  quote: Organized by the Department of Life Sciences , Faculty of Science and Technology , The University
+    of the West Indies , St. Augustine Campus
+- claim: The department and the Field Naturalists' Club have partnered on the Bioblitz for 14 years running
+    as of 2025.
+  url: https://sta.uwi.edu/news/releases/release.asp?id=23045
+  fetched: '2026-11-09'
+  quote: For the 14th consecutive year, the Trinidad and Tobago Field Naturalists’ Club (TTFNC) and the
+    Department of Life Sciences at The University of the West Indies have partnered
+- claim: Its pages give its address at UWI St. Augustine.
+  url: https://sta.uwi.edu/fst/lifesciences/uwi-zoology-museum
+  fetched: '2026-11-09'
+  quote: UWI / St. Augustine / Faculty of Science & Technology / The Department of Life Sciences
+links:
+- type: runs
+  to: uwi-zoology-museum
+  url: https://api.gbif.org/v1/organization?country=TT&limit=100
+  fetched: '2026-11-09'
+  quote: It is run by the Department of Life Sciences at the UWI campus in St. Augustine.
+found_by:
+- checklist:3
+- link-from:uwi-zoology-museum
+added_by: agent
+checked: 2026-11-09

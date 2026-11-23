@@ -1,0 +1,57 @@
+id: geo-informed
+kind: project
+name: GEO.INFORMED
+also_known_as:
+- GEO-INFORMED
+scope: be
+ai_label: ai
+status: closed
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+countries:
+- be
+summary: A closed 2020 to 2024 project, built by VITO, INBO, Digitaal Vlaanderen and
+  KU Leuven, that aimed to link deep learning on remote sensing data, including Sentinel-2,
+  with Flemish policy needs.
+runner: unknown
+facts:
+- claim: Aimed to connect deep learning research with the needs of Flemish policy-makers.
+  url: https://zenodo.org/records/18837577
+  fetched: 2026-11-02
+  quote: aimed to bridge the gap between academic innovations in Deep Learning and
+    the practical needs of Flemish policy-makers
+  ai_type: deep-learning
+- claim: Used Sentinel-2 data, with a use case on the Biological Valuation Map.
+  url: https://zenodo.org/records/18837577
+  fetched: 2026-11-02
+  quote: By utilizing Sentinel-2 satellite data, various methodologies were developed
+    for large-scale environmental monitoring.
+- claim: Aimed to develop deep learning workflows for environmental policy agencies
+    during a four-year project.
+  url: https://geo-informed.be/
+  fetched: '2026-11-02'
+  quote: we aim at developing deep learning workflows that can transform Copernicus
+    Sentinel data into the information that is needed by environmental policy agencies.
+  ai_type: deep-learning
+links:
+- type: funded-by
+  to: research-foundation-flanders
+  url: https://geo-informed.be/
+  fetched: '2026-11-02'
+  quote: a 4-year project funded by Research Foundation-Flanders (FWO)
+- type: uses
+  to: vlaamse-bosinventarisatie
+  url: https://geo-informed.be/?page_id=531
+  fetched: '2026-11-02'
+  quote: The main source of reference data for this use case is the Flemish Forest
+    Inventory
+found_by:
+- checklist:7
+- link-from:research-institute-for-nature-and-forest
+added_by: agent
+checked: 2026-11-02

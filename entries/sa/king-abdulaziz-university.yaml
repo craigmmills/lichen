@@ -1,0 +1,48 @@
+id: king-abdulaziz-university
+kind: organisation
+name: King Abdulaziz University
+also_known_as: []
+scope: sa
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: sa
+scale: national
+status: active
+website: https://www.kau.edu.sa/
+summary: A Saudi university in Jeddah whose geomatics researchers authored a 2026 paper on
+  monitoring mangrove deforestation with Google Earth Engine and a random forest machine learning
+  algorithm.
+facts:
+- claim: OpenAlex lists it as an education body in Saudi Arabia.
+  url: https://api.openalex.org/institutions/ror:02ma4wv74?select=id,display_name,display_name_alternatives,type,country_code,homepage_url,geo
+  fetched: '2026-11-03'
+  quote: '"type":"education","country_code":"SA"'
+- claim: OpenAlex records a 2026 paper on monitoring mangrove deforestation using Google Earth
+    Engine and a random forest machine learning algorithm.
+  url: https://api.openalex.org/works/W7162294668?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Monitoring Mangrove Deforestation Using Google Earth Engine and Random Forest Machine
+    Learning Algorithm
+- claim: Authors of the mangrove paper give the university's Department of Geomatics in Jeddah
+    as their affiliation.
+  url: https://api.openalex.org/works/W7162294668?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Department of Geomatics, Faculty of Architecture and Planning, King Abdulaziz University,
+    Jeddah 21589, Saudi Arabia
+- claim: An author of the mangrove paper gives the university's Centre of Excellence in Environmental
+    Studies as affiliation.
+  url: https://api.openalex.org/works/W7162294668?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-03'
+  quote: Centre of Excellence in Environmental Studies, King Abdulaziz University, Jeddah
+    21589, Saudi Arabia
+links: []
+found_by:
+- register:sa
+added_by: agent
+checked: '2026-11-03'

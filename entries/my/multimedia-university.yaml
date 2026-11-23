@@ -1,0 +1,40 @@
+id: multimedia-university
+kind: organisation
+name: Multimedia University
+also_known_as:
+- MMU
+scope: my
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: Active university whose authors are listed by OpenAlex on a 2022 paper on visual
+  and audio fusion for wildlife surveillance and a 2024 paper on coral type classification.
+facts:
+- claim: OpenAlex lists a 2022 paper by its authors on visual and audio fusion for wildlife
+    surveillance.
+  url: https://api.openalex.org/works/W4307980095
+  fetched: 2026-11-03
+  quote: Fusion of Visual and Audio Signals for Wildlife Surveillance
+- claim: OpenAlex lists a 2024 paper by Multimedia University authors on coral type classification
+    with residual networks.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:coral%20reef%20deep%20learning,from_publication_date:2020-01-01&per_page=10&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: 'Deep or Shallow Networks: Coral Types Classification Using Residual Network Models'
+  ai_type: deep-learning
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03
+techniques:
+- computer-vision
+ai_types:
+- deep-learning

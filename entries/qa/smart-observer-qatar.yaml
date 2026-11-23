@@ -1,0 +1,53 @@
+id: smart-observer-qatar
+kind: project
+name: Smart Observer marine monitoring boat (Qatar)
+also_known_as: []
+scope: qa
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+status: active
+summary: A marine monitoring boat built and run by Qatar's environment ministry, which
+  uses remote operation and sensing to collect data automatically; the ministry reported
+  in August 2026 that its pilot succeeded and expansion was under way.
+facts:
+- claim: QNA reported in August 2026 that the ministry showed the Smart Observer boat,
+    designed to monitor the marine environment and collect samples and data from marine
+    sites.
+  url: https://qna.org.qa/en/News-Area/News/2026-8/6/mecc-showcases-smart-observer-boat-for-marine-environment-monitoring
+  fetched: 2026-11-15
+  quote: which is designed to monitor the marine environment and equipped with advanced
+    systems to track environmental changes and collect samples and data from marine
+    sites.
+- claim: The boat uses remote operation and sensing systems to collect environmental
+    data automatically and periodically.
+  url: https://qna.org.qa/en/News-Area/News/2026-8/6/mecc-showcases-smart-observer-boat-for-marine-environment-monitoring
+  fetched: 2026-11-15
+  quote: The boat uses remote operation technologies and advanced sensing systems
+    to automatically and periodically collect environmental data
+- claim: In August 2026, an assistant director of the ministry's Environmental Monitoring
+    and Inspection Department said the pilot phase had been successful and the department
+    was expanding the project.
+  url: https://qna.org.qa/en/News-Area/News/2026-8/6/mecc-showcases-smart-observer-boat-for-marine-environment-monitoring
+  fetched: 2026-11-15
+  quote: He confirmed that the pilot phase was successful and that the Environmental
+    Monitoring and Inspection Department is now expanding the project
+links:
+- type: run-by
+  to: ministry-of-environment-and-climate-change-qatar
+  url: https://qna.org.qa/en/News-Area/News/2026-8/6/mecc-showcases-smart-observer-boat-for-marine-environment-monitoring
+  fetched: &id001 2026-11-15
+  quote: He confirmed that the pilot phase was successful and that the Environmental
+    Monitoring and Inspection Department is now expanding the project
+- type: built-by
+  to: ministry-of-environment-and-climate-change-qatar
+  url: https://qna.org.qa/en/News-Area/News/2026-8/6/mecc-showcases-smart-observer-boat-for-marine-environment-monitoring
+  fetched: *id001
+  quote: the launch of the “Smart Observer” project by the Ministry of Environment
+    and Climate Change (MECC)
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

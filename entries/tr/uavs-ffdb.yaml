@@ -1,0 +1,29 @@
+id: uavs-ffdb
+kind: dataset
+name: UAVs-FFDB
+also_known_as:
+- UAVs-based forest fire database
+scope: tr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- tr
+status: unknown
+runner: unknown
+summary: High-resolution drone image dataset for forest fire detection and monitoring, presented in a
+  2024 dataset paper.
+facts:
+- claim: A 2024 dataset paper presents UAVs-FFDB, a high-resolution drone image dataset for forest fire
+    detection and monitoring.
+  url: https://api.openalex.org/works/W4400270201?select=id,title,doi,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-03
+  quote: 'UAVs-FFDB: A high-resolution dataset for advancing forest fire detection and monitoring using
+    unmanned aerial vehicles (UAVs)'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,65 @@
+id: natural-resources-wales
+kind: organisation
+name: Natural Resources Wales
+also_known_as:
+- Cyfoeth Naturiol Cymru
+- NRW
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://naturalresourceswales.gov.uk
+summary: Environment body for Wales. Its State of Natural Resources Report 2025 maps Wales'
+  eight broad ecosystems from Living Wales satellite data.
+ai_types:
+- large-language-models
+facts:
+- claim: The ecosystem map in its State of Natural Resources Report 2025 is based on Living
+    Wales data.
+  url: https://naturalresourceswales.gov.uk/evidence-and-data/research-and-reports/state-of-natural-resources-report-2025/sonarr-2025-map-of-wales-eight-broad-ecosystems/?lang=en
+  quote: The map is based on data created by Living Wales, a project by the Department of
+    Geography and Earth Sciences, Aberystwyth University which is funded by Welsh Government.
+  fetched: '2026-10-30'
+- claim: Named partner on the AI Librarian for Ecological Archives.
+  url: https://environmentalintelligence.org.uk/work/ai-librarian-ecological-archives
+  quote: Natural Resources Wales
+  fetched: 2026-10-30
+- claim: Publishes the dataset "Species Licence Returns Data 2017-2025" on GBIF.
+  url: https://api.gbif.org/v1/organization/ee45975b-3d89-42b5-ac7a-c03f47b6dcb4/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Species Licence Returns Data 2017-2025
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/ee45975b-3d89-42b5-ac7a-c03f47b6dcb4/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: The AI Librarian for Ecological Archives, on which Natural Resources Wales is a named
+    partner, lists large language models among its methods.
+  url: https://environmentalintelligence.org.uk/work/ai-librarian-ecological-archives
+  fetched: '2026-10-31'
+  quote: Large Language Models, Machine learning
+  ai_type: large-language-models
+links:
+- type: builds-on
+  to: living-wales
+  url: https://naturalresourceswales.gov.uk/evidence-and-data/research-and-reports/state-of-natural-resources-report-2025/sonarr-2025-map-of-wales-eight-broad-ecosystems/?lang=en
+  quote: The map is based on data created by Living Wales
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- species-distribution

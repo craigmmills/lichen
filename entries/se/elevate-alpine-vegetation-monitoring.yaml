@@ -1,0 +1,50 @@
+id: elevate-alpine-vegetation-monitoring
+kind: project
+name: ELEVATE
+also_known_as:
+- 'Förbättrad effektivitet i övervakning och förändringsdetektion av alpina vegetationer:
+  Integration av avancerad teknik med pågående Monitoring program (ELEVATE)'
+scope: se
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+status: active
+runner: unknown
+summary: Project led by Sven Adler, funded by the Swedish Environmental Protection Agency,
+  to improve alpine vegetation monitoring in Sweden by combining deep learning with drone,
+  aerial, LiDAR and satellite data.
+facts:
+- claim: Aims to improve alpine vegetation monitoring in Sweden by integrating deep learning
+    image analysis with drone, aerial, LiDAR and satellite data.
+  ai_type: deep-learning
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: integrera Deep Learning bildanalys med data från drönare, flygbilder, LIDAR och satelliter
+- claim: Drone images could reduce fieldwork by automating estimates of species cover that
+    are made visually today.
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: De har också potential att minska fältarbetet genom att automatisera skattningar
+    av täckningsgrader för olika arter, som görs idag visuellt.
+- claim: Funded in the Framtidens miljöövervakning research programme, which funds eight projects
+    from March 2025 to February 2028.
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: Åtta projekt finansieras under perioden mars 2025 - februari 2028.
+links:
+- type: funded-by
+  to: swedish-environmental-protection-agency
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: 'Finansiering
+
+    Naturvårdsverkets miljöforskningsanslag'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

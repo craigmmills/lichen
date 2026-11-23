@@ -1,0 +1,45 @@
+id: reserva-nacional-matses
+kind: organisation
+name: Reserva Nacional Matsés
+scope: pe
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: pe
+countries:
+- pe
+scale: local
+status: active
+summary: A national reserve that, according to an October 2017 report, had implemented
+  surveillance tools including SMART since 2015 with WCS support, with GPS data to
+  be cleaned for entry after ranger training.
+facts:
+- claim: An October 2017 report said the reserve had implemented surveillance and
+    control tools, including SMART, since 2015, with WCS support.
+  url: https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/10563/Se-capacitaron-guardaparques-de-la-Reserva-Nacional-Matses.aspx
+  fetched: 2026-11-09
+  quote: desde 2015 , la Reserva Nacional Matsés, con apoyo de WCS, implementa instrumentos
+    de vigilancia y control
+- claim: After ranger training in September 2017, planned next steps included organising
+    and cleaning GPS data for entry into SMART.
+  url: https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/10563/Se-capacitaron-guardaparques-de-la-Reserva-Nacional-Matses.aspx
+  fetched: 2026-11-09
+  quote: para ingresarla de forma correcta a la herramienta SMART.
+links:
+- type: uses
+  to: smart-spatial-monitoring-and-reporting-tool
+  url: https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/10563/Se-capacitaron-guardaparques-de-la-Reserva-Nacional-Matses.aspx
+  fetched: 2026-11-09
+  quote: herramientas de monitoreo espacial como SMART
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/10563/Se-capacitaron-guardaparques-de-la-Reserva-Nacional-Matses.aspx
+  fetched: 2026-11-09
+  quote: la Reserva Nacional Matsés, con apoyo de WCS
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

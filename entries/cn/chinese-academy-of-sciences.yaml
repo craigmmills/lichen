@@ -1,0 +1,91 @@
+id: chinese-academy-of-sciences
+kind: organisation
+name: Chinese Academy of Sciences
+also_known_as:
+- 中国科学院
+- CAS
+scope: cn
+sector: academic
+roles:
+- supplies-data
+- convenes
+- funds
+- builds-ai
+ai_label: ai
+hq: cn
+scale: national
+status: active
+website: https://english.cas.cn/
+summary: China's national science academy. It launched the Sino BON monitoring network and
+  runs the institutes that hold many of China's biodiversity records and models.
+facts:
+- claim: Launched the China Biodiversity Observation and Research Network in 2013.
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: In 2013, the CAS launched the Chinese Biodiversity Observation and Research Network
+    (Sino BON)
+- claim: Founded in 1949.
+  url: http://english.cas.cn/about-cas/profile/
+  fetched: '2026-10-31'
+  quote: Founded in 1949, the Chinese Academy of Sciences (CAS) is China’s highest academic
+    institution and national think tank in science and technology
+- claim: Its address is in Xicheng District, Beijing.
+  url: http://english.cas.cn/about-cas/contact/
+  fetched: '2026-10-31'
+  quote: No. 52, Sanlihe Road, Xicheng District, Beijing 100864, China
+- claim: A conference abstract says it launched a programme in 2018 to integrate species diversity
+    information systems, including tools based on big data and AI.
+  url: https://biss.pensoft.net/article_preview.php?id=26516
+  fetched: '2026-10-31'
+  quote: A program to integrate species diversity information systems was launched by the
+    Chinese Academy of Sciences (CAS) in January 2018
+- claim: Started building the China Biodiversity Observation Network (Sino BON) in 2013.
+  url: https://www.plantplus.cn/cn/news/71
+  fetched: '2026-10-31'
+  quote: “中国生物多样性监测与研究网络”（Sino BON）由中国科学院按照“科学规划、统一布局”的原则于 2013 年启动建设。
+- claim: Its GBIF account lists the Catalogue of Life China checklist.
+  url: https://api.gbif.org/v1/organization/a2fa5b68-3ebf-4845-abc5-f456d251386f/publishedDataset?limit=20
+  fetched: '2026-10-31'
+  quote: Catalogue of Life China 2023 Annual Checklist
+- claim: Its GBIF account lists camera-trap surveys of mammals.
+  url: https://api.gbif.org/v1/organization/a2fa5b68-3ebf-4845-abc5-f456d251386f/publishedDataset?limit=20
+  fetched: '2026-10-31'
+  quote: Camera-trap survey of mammal diversity and activity rhythms in Nanhua Mountain National
+    Nature Reserve, China
+- claim: Its GBIF account lists aerial waterbird surveys.
+  url: https://api.gbif.org/v1/organization/a2fa5b68-3ebf-4845-abc5-f456d251386f/publishedDataset?limit=20
+  fetched: '2026-10-31'
+  quote: A Sampling-event Dataset from Aerial Surveys of Northern Eurasian Waterbirds, 2014–2024
+links:
+- type: runs
+  to: sino-bon
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: In 2013, the CAS launched the Chinese Biodiversity Observation and Research Network
+    (Sino BON)
+- type: runs
+  to: sino-bon
+  url: https://www.plantplus.cn/cn/news/71
+  fetched: '2026-10-31'
+  quote: “中国生物多样性监测与研究网络”（Sino BON）由中国科学院按照“科学规划、统一布局”的原则于 2013 年启动建设。
+- type: partners-with
+  to: sino-bon
+  url: https://www.biodiversity-science.net/CN/10.17520/biods.2022434
+  fetched: '2026-10-31'
+  quote: was launched in 2013 with strong support from the Chinese Academy of Sciences and
+    the Ministry of Finance
+found_by:
+- checklist:3
+- link-from:queue-cn
+- checklist:2
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- cn
+techniques:
+- other

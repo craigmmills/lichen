@@ -1,0 +1,74 @@
+id: estacion-biologica-de-donana
+kind: organisation
+name: Estación Biológica de Doñana
+also_known_as:
+- EBD-CSIC
+- Doñana Biological Station
+- Estación Biológica de Doñana
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+hq: es
+scale: national
+status: active
+summary: CSIC research station at Doñana. Its researchers work on AI for camera traps with
+  the Seville microelectronics institute and on the BIRDeep birdsong model with U-tad.
+facts:
+- claim: Researchers from the station and IMSE-CNM proposed AI in camera traps, according
+    to a CSIC press release.
+  url: https://csic.es/sites/default/files/26septiembre2024ia_fauna.pdf
+  quote: de la Estación Biológica de Doñana (EBD -CSIC)
+  fetched: '2026-10-31'
+- claim: Partner in the ANTENNA project.
+  url: https://www.biodiversa.eu/2024/04/15/antenna/
+  fetched: '2026-10-31'
+  quote: Doñana Biological Station, Spanish National Research Council, Seville, Spain
+- claim: Listed by GBIF as Estación Biológica de Doñana (CSIC), Sevilla.
+  url: https://api.gbif.org/v1/organization?country=ES&limit=8&q=Do%C3%B1ana
+  fetched: '2026-10-31'
+  quote: Estación Biológica de Doñana (CSIC)
+- claim: IMSE-CNM and Estación Biológica de Doñana researchers propose a new way of using
+    AI to improve animal detection in isolated areas, as reported by Fundación Descubre.
+  url: https://fundaciondescubre.es/noticias/proponen-el-uso-de-inteligencia-artificial-para-mejorar-la-deteccion-de-animales-en-zonas-aisladas/
+  fetched: '2026-10-31'
+  quote: Investigadores del Instituto de Microelectrónica de Sevilla (IMSE-CNM) , centro mixto
+    del CSIC y la Universidad de Sevilla , y de la Estación Biológica de Doñana (EBD-CSIC)
+    , proponen en una nueva investigación
+- claim: CSIC's September 2024 release says its researchers and IMSE-CNM propose using AI
+    to improve camera traps.
+  url: https://csic.es/sites/default/files/26septiembre2024ia_fauna.pdf
+  fetched: '2026-10-31'
+  quote: proponen en una nueva investigación emplear inteligencia artificial en la mejora
+    de las cámaras trampa
+- claim: Curates the BIRDeep Audio Annotations dataset with the Universidad de Córdoba.
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: 'Curated by: Estación Biológica de Doñana (CSIC) and Universidad de Córdoba'
+links:
+- type: partners-with
+  to: antenna-pollinator-monitoring
+  url: https://www.biodiversa.eu/2024/04/15/antenna/
+  fetched: '2026-10-31'
+  quote: Doñana Biological Station, Spanish National Research Council, Seville, Spain
+- type: runs
+  to: birdeep-audio-annotations
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: 'Curated by: Estación Biológica de Doñana (CSIC) and Universidad de Córdoba'
+found_by:
+- checklist:3
+- link-from:antenna-pollinator-monitoring
+- register:es
+scope: es
+added_by: agent
+checked: '2026-10-31'

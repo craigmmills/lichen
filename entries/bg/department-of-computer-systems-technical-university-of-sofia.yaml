@@ -1,0 +1,35 @@
+id: department-of-computer-systems-technical-university-of-sofia
+kind: organisation
+name: Department of Computer Systems, Technical University of Sofia
+scope: bg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: bg
+countries:
+- bg
+scale: national
+status: active
+summary: University department named as the first author's affiliation on a 2026 paper
+  listed in OpenAlex, Time Series Analysis of the Behavior of Wild Animals Using Camera
+  Traps.
+facts:
+- claim: OpenAlex lists a 2026 paper, Time Series Analysis of the Behavior of Wild
+    Animals Using Camera Traps.
+  url: https://api.openalex.org/works/W7171422763?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-12'
+  quote: Time Series Analysis of the Behavior of Wild Animals Using Camera Traps
+- claim: The first author's affiliation is the Department of Computer Systems, Faculty
+    of Computer Science and Technologies, Technical University of Sofia.
+  url: https://api.openalex.org/works/W7171422763?select=id,title,publication_year,authorships,primary_location
+  fetched: '2026-11-12'
+  quote: Department of Computer systems, Faculty of Computer Science and Technologies,
+    Technical University of Sofia, blvd. Kl. Ohridski 8, 1000 Sofia, Bulgaria
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

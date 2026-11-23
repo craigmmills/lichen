@@ -1,0 +1,42 @@
+id: ubd-school-of-digital-science
+kind: organisation
+name: School of Digital Science, Universiti Brunei Darussalam
+also_known_as: []
+scope: bn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: bn
+countries: []
+scale: national
+status: active
+summary: School at Universiti Brunei Darussalam in Gadong, whose author is the corresponding author on
+  a 2023 OpenAlex-listed paper mapping highway forest cover change in Brunei with deep learning and Sentinel-2.
+facts:
+- claim: OpenAlex lists a 2023 paper on mapping forest vegetation cover change along highways in Brunei
+    with deep learning and Sentinel-2, with its corresponding author at the School of Digital Science.
+  url: https://api.openalex.org/works/W4384038057?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Spatial-temporal mapping of forest vegetation cover changes along highways in Brunei using deep
+    learning techniques and Sentinel-2 images
+- claim: The paper's title names deep learning as its method.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works/W4384038057?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: using deep learning techniques and Sentinel-2 images
+- claim: OpenAlex gives the school's address in Gadong, Brunei.
+  url: https://api.openalex.org/works/W4384038057?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: School of Digital Science, Universiti Brunei Darussalam, Gadong BE1410, Brunei
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

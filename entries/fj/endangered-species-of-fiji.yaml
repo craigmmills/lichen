@@ -1,0 +1,31 @@
+id: endangered-species-of-fiji
+kind: dataset
+name: Endangered Species of Fiji
+scope: fj
+ai_label: data-infrastructure
+status: unknown
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+countries:
+- fj
+summary: A 2007 NatureFiji-MareqetiViti resource that a UN data flows report treats
+  as the equivalent of a national red list for Fiji.
+facts:
+- claim: The UN data flows compilation calls it the equivalent of a national red list.
+  url: https://unstats.un.org/sdgs/files/meetings/iaeg-sdgs-meeting-06/Data%20Flows%20Case%20Studies%20Compilation%209-11-17_for%20web.pdf
+  fetched: '2026-10-31'
+  quote: represents an equivalent of a national red list of the Fijian biota
+links:
+- type: run-by
+  to: naturefiji-mareqetiviti
+  url: https://unstats.un.org/sdgs/files/meetings/iaeg-sdgs-meeting-06/Data%20Flows%20Case%20Studies%20Compilation%209-11-17_for%20web.pdf
+  fetched: '2026-10-31'
+  quote: "leading processes analogous to national red listing: NatureFiji- MareqetiFiji (https://naturefiji.org/) through the Endangered Species of Fiji"
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

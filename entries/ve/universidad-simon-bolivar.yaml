@@ -1,0 +1,41 @@
+id: universidad-simon-bolivar
+kind: organisation
+name: Universidad Simón Bolívar
+also_known_as:
+- USB
+scope: ve
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ve
+scale: national
+status: active
+summary: University whose Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental is attached
+  to its Department of Environmental Studies, according to the laboratory’s GBIF record.
+facts:
+- claim: Its Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental co-created the first
+    MapBiomas Venezuela collection.
+  url: https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2023/11/ES_Nota-de-prensa_MBVenezuela-.pdf
+  fetched: 2026-11-08
+  quote: el Laboratorio de Sistemas deInformación Geográfica y Modelado Ambiental (LSIGMA) de la Universidad
+    Simón Bolívar
+- claim: LSIGMA-USB's GBIF record says the laboratory is attached to the university's Department of Environmental
+    Studies.
+  url: https://api.gbif.org/v1/organization/5e690d82-fcde-43c2-ab7e-9578ccfc4030
+  fetched: 2026-11-08
+  quote: adscrito al Laboratorio al Departamento de Estudios Ambientales de la Universidad Simón Bolívar
+links: []
+found_by:
+- link-from:mapbiomas-venezuela
+- register:openalex-institution
+- link-from:laboratorio-de-sistemas-de-informacion-geografica-y-modelado-ambiental
+added_by: agent
+checked: 2026-11-08

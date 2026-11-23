@@ -1,0 +1,40 @@
+id: atenil
+kind: organisation
+name: Atenil S.A.
+also_known_as: []
+scope: py
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: py
+countries: []
+scale: local
+status: active
+summary: Private-sector organisation in Asunción whose Chaco Vivo REDD+ project runs biodiversity monitoring
+  including camera trapping and field surveys, and which expects to publish camera-trap records with coordinates
+  generalised to protect sensitive species.
+facts:
+- claim: Its GBIF publisher record describes it as a private-sector organisation whose Chaco Vivo REDD+
+    project runs systematic biodiversity monitoring, including camera trapping and ecological field surveys.
+  url: https://api.gbif.org/v1/organization?country=PY&limit=50
+  fetched: 2026-11-12
+  quote: Through its REDD+ project “Chaco Vivo,” the organization conducts systematic biodiversity monitoring
+    using standardized methodologies, including camera trapping and ecological field surveys.
+- claim: The record gives an address in Asunción.
+  url: https://api.gbif.org/v1/organization?country=PY&limit=50
+  fetched: 2026-11-12
+  quote: '"address":["RI3 Corrales 659"],"city":"Asunción","country":"PY"'
+- claim: The data it expects to publish are camera-trap sampling-event records from the Chaco Vivo REDD+
+    project, with coordinates generalised to protect sensitive species.
+  url: https://api.gbif.org/v1/organization?country=PY&limit=50
+  fetched: 2026-11-12
+  quote: This dataset includes biodiversity monitoring data from the Chaco Vivo REDD+ project in the Paraguayan
+    Chaco. Data were collected using camera traps and structured as sampling-event records
+links: []
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-12

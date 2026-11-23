@@ -1,0 +1,74 @@
+id: centro-nacional-de-alta-tecnologia
+kind: organisation
+name: Centro Nacional de Alta Tecnología
+also_known_as:
+- CeNAT
+scope: cr
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+hq: cr
+scale: national
+status: active
+summary: Interuniversity research and innovation centre of five laboratories, including the
+  Earth observation laboratory PRIAS, which runs MOCUPP and has researchers on a 2024 manatee
+  call counting paper and a 2020 forest cover classification paper.
+facts:
+- claim: Its 2023 report describes PRIAS as a geomatics laboratory focused on Earth observation,
+    attached to CeNAT, a CONARE programme.
+  url: https://www.conare.ac.cr/wp-content/uploads/archivos/informes-institucionales/02%20Informes%20Anuales%20Labores%20Programas/Informe%20de%20Labores%20CeNAT/Informe%202023%20Espa%C3%B1ol.pdf
+  fetched: '2026-11-08'
+  quote: PRIAS es un laboratorio de Geomática con énfasis en la Observación de la Tierra
+- claim: Its 2023 report says PRIAS is attached to CeNAT, which is a programme of CONARE.
+  url: https://www.conare.ac.cr/wp-content/uploads/archivos/informes-institucionales/02%20Informes%20Anuales%20Labores%20Programas/Informe%20de%20Labores%20CeNAT/Informe%202023%20Espa%C3%B1ol.pdf
+  fetched: '2026-11-08'
+  quote: como Laboratorio al Centro Nacional de Alta Tecnología (CeNAT), el cual es un programa
+    del Consejo Nacional de Rectores (CONARE)
+- claim: OpenAlex lists a 2024 paper by CeNAT researchers on an AI pipeline for counting manatees
+    from their tonal calls.
+  url: https://api.openalex.org/works/W4404445566
+  fetched: '2026-11-08'
+  quote: An Effective Artificial Intelligence Pipeline for Automatic Manatee Count Using Their
+    Tonal Vocalizations
+- claim: Describes itself as an interuniversity space for outreach, research and innovation.
+  url: https://www.cenat.ac.cr
+  fetched: 2026-11-08
+  quote: The CeNAT, as an interuniversity space dedicated to outreach, research, and innovation
+- claim: Says it is made up of five laboratories; PRIAS is among those listed.
+  url: https://www.cenat.ac.cr
+  fetched: 2026-11-08
+  quote: El CeNAT se compone de cinco laboratorios, cada uno con un área de estudio diferente.
+- claim: OpenAlex lists a 2020 paper evaluating four classification algorithms for identifying
+    forest cover in fragmented Costa Rican landscapes, whose first author, Iván Ávila Pérez,
+    is affiliated with CeNAT and the Instituto Tecnológico de Costa Rica.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0529rbt18|05tkvpg69|02tkjx303|05byh2e17|02s4dhq46|00cxrw595|004yr7j39,publication_year:>2017,primary_topic.subfield.id:1702|1707,topics.subfield.id:1105|2303|2309&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-08
+  quote: de cobertura boscosa en paisajes altamente fragmentados en Costa Rica
+- claim: The first author's affiliations include the Centro Nacional de Alta Tecnología.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0529rbt18|05tkvpg69|02tkjx303|05byh2e17|02s4dhq46|00cxrw595|004yr7j39,publication_year:>2017,primary_topic.subfield.id:1702|1707,topics.subfield.id:1105|2303|2309&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-08
+  quote: Centro Nacional de Alta Tecnolog
+links:
+- type: runs
+  to: mocupp
+  url: https://planet.com/pulse/analyzing-the-impact-of-agricultural-activity-on-ecosystems
+  fetched: '2026-11-08'
+  quote: The National Center for High Technology (CeNAT)’s Monitoring of Change of Use in
+    Productive Landscapes project
+found_by:
+- checklist:3
+- checklist:7
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'
+countries:
+- cr

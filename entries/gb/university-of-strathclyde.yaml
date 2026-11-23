@@ -1,0 +1,36 @@
+id: university-of-strathclyde
+kind: organisation
+name: University of Strathclyde
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with an author on machine learning for monitoring aquatic weeds in wetlands.
+facts:
+- claim: 'OpenAlex lists authors at University of Strathclyde on this work: Monitoring Aquatic
+    Weeds in Indian Wetlands Using Multitemporal Remote Sensing Data with Machine Learning
+    Techniques'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Monitoring Aquatic Weeds in Indian Wetlands Using Multitemporal Remote Sensing Data
+    with Machine Learning Techniques
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.strath.ac.uk/
+  quote: The University of Strathclyde is a charitable body, registered in Scotland, number
+    SC015263.
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.strath.ac.uk/

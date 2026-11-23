@@ -1,0 +1,43 @@
+id: pakistan-forest-agbd-30m-2020
+kind: dataset
+name: Wall-to-Wall 30 m Above-Ground Biomass Density (AGBD) Dataset for Pakistan's Forests
+  (2020)
+scope: pk
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: active
+summary: Openly licensed dataset described as the first baseline wall-to-wall 30 m above-ground
+  biomass map of Pakistan's forests for 2020, built by Hammad Gilani, with a Classification
+  and Regression Tree model performing best.
+facts:
+- claim: Described as the first baseline wall-to-wall 30 m above-ground biomass density dataset
+    for Pakistan's forests, for 2020.
+  url: https://zenodo.org/records/20056623
+  fetched: 2026-11-03
+  quote: Developed the first baseline wall-to-wall 30 m Above-Ground Biomass Density (AGBD)
+    dataset for Pakistan’s forests for the year 2020 using multi-source remote sensing and
+    national forest inventory data.
+- claim: Several machine learning approaches were tested; a Classification and Regression
+    Tree model performed best.
+  url: https://zenodo.org/records/20056623
+  fetched: 2026-11-03
+  quote: Applied and evaluated multiple machine learning approaches, with the Classification
+    and Regression Tree (CART) model achieving the best performance
+  ai_type: ml-supervised
+- claim: Published openly under a Creative Commons Attribution licence.
+  url: https://zenodo.org/records/20056623
+  fetched: 2026-11-03
+  quote: The Creative Commons Attribution license allows re-distribution and re-use of a licensed
+    work on the condition that the creator is appropriately credited.
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

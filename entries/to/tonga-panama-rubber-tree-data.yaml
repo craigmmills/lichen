@@ -1,0 +1,43 @@
+id: tonga-panama-rubber-tree-data
+kind: dataset
+name: Tonga Panama Rubber Tree Data
+also_known_as: []
+scope: to
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- to
+scale: national
+status: active
+summary: Baseline dataset of 133 records on Panama rubber distribution, for its eradication,
+  collected by a Department of Environment team led by Viliami Hakaumotu and published in
+  July 2023.
+facts:
+- claim: The dataset is a baseline collection of data on the distribution of Panama rubber,
+    for its eradication.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=43160fcd-f183-4d8f-b629-d13c982f1abe&limit=20
+  fetched: 2026-11-14
+  quote: Baseline collection of data to find the distribution for the eradication of panama
+    rubber.
+- claim: The data were collected by a Department of Environment field team led by Viliami
+    Hakaumotu.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=43160fcd-f183-4d8f-b629-d13c982f1abe&limit=20
+  fetched: 2026-11-14
+  quote: The data collection was performed by Department of Environment field team led by
+    Mr. Viliami Hakaumotu (PBIF Ambassador)
+- claim: It holds 133 records and was published in July 2023.
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=43160fcd-f183-4d8f-b629-d13c982f1abe&limit=20
+  fetched: 2026-11-14
+  quote: '"publicationDate":"2023-07-26T12:00:00.000+00:00"'
+links:
+- type: built-by
+  to: department-of-environment-tonga
+  url: https://api.gbif.org/v1/dataset/search?publishingOrg=43160fcd-f183-4d8f-b629-d13c982f1abe&limit=20
+  fetched: 2026-11-14
+  quote: The data collection was performed by Department of Environment field team led by
+    Mr. Viliami Hakaumotu
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

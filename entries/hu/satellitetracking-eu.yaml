@@ -1,0 +1,47 @@
+id: satellitetracking-eu
+kind: dataset
+name: SATELLITETRACKING.EU
+also_known_as:
+- satellitetracking.eu
+scope: hu
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+status: active
+website: https://satellitetracking.eu/
+summary: Site built by MME with EU LIFE and European Regional Development Fund funding,
+  aiming to collate regional satellite bird-tracking results and restricting sensitive
+  locations when coordinators deem necessary.
+facts:
+- claim: The site aims to gather into one database, and display, the results of projects
+    tracking birds by satellite in the Central and South-Eastern European region.
+  url: https://satellitetracking.eu/
+  fetched: 2026-11-15
+  quote: A satellitetracking.eu honlap célja, hogy egységes adatbázisba gyűjtse és
+    megjelenítse azoknak a projekteknek az eredményeit, amelyek madarak műholdas nyomkövetésével
+    foglalkoznak
+- claim: For sensitive species, where the project coordinator judges it necessary
+    for conservation, locations are shown only to a tenth of a degree.
+  url: https://satellitetracking.eu/
+  fetched: 2026-11-15
+  quote: a madarak előfordulási adatai csak tizedfok pontossággal jelennek meg
+- claim: MME made the site with funding from the EU LIFE Programme (imperial eagle
+    conservation in Hungary, LIFE10NAT/HU/019) and the European Regional Development
+    Fund (HUSK/1101/2.2.1/0336).
+  url: https://satellitetracking.eu/
+  fetched: 2026-11-15
+  quote: Készítette a Magyar Madártani és Természetvédelmi Egyesület az Európai Unió
+    LIFE Programja (A parlagi sas védelme Magyarországon - LIFE10NAT/HU/019)
+links:
+- type: built-by
+  to: magyar-madartani-es-termeszetvedelmi-egyesulet
+  url: https://satellitetracking.eu/
+  fetched: 2026-11-15
+  quote: Készítette a Magyar Madártani és Természetvédelmi Egyesület
+runner: unknown
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

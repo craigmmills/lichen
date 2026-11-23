@@ -1,0 +1,39 @@
+id: british-oceanographic-data-centre
+kind: dataset
+name: British Oceanographic Data Centre
+ai_label: data-infrastructure
+summary: UK marine data centre managed and operated by the National Oceanography Centre.
+facts:
+- claim: Managed by the National Oceanography Centre.
+  url: https://www.bodc.ac.uk/
+  quote: Marine data sharing and preservation, managed & operated by the National
+    Oceanography Centre
+  fetched: '2026-10-30'
+- claim: Part of the National Oceanography Centre, with over 130,000 data sets.
+  url: https://www.bodc.ac.uk/
+  fetched: '2026-10-30'
+  quote: Part of the UK's National Oceanography Centre, BODC provide instant access
+    to over 130,000 unique data sets.
+links:
+- type: run-by
+  to: national-oceanography-centre
+  url: https://www.bodc.ac.uk/
+  quote: managed & operated by the National Oceanography Centre
+  fetched: '2026-10-30'
+found_by:
+- link-from:general-bathymetric-chart-of-the-oceans
+- register:gbif-publisher
+also_known_as:
+- BODC
+website: https://www.bodc.ac.uk
+realms:
+- ocean
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active
+hq: gb
+roles:
+- supplies-data
+techniques:
+- other

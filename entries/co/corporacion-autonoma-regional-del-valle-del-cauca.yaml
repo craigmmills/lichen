@@ -1,0 +1,56 @@
+id: corporacion-autonoma-regional-del-valle-del-cauca
+kind: organisation
+name: Corporación Autónoma Regional del Valle del Cauca
+also_known_as:
+- CVC
+scope: co
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- co
+scale: local
+status: active
+summary: Regional environmental authority in Valle del Cauca. El País says it leads the part
+  of the OTUS camera trap network in the department, with 171 cameras.
+facts:
+- claim: El País reports 171 camera traps in the department.
+  url: https://www.elpais.com.co/valle/camaras-trampa-captan-mas-de-339-especies-en-colombia-valle-del-cauca-destaca-con-mas-de-20000-imagenes-2731.html
+  fetched: '2026-10-31'
+  quote: En este departamento se han instalado 171 cámaras trampa
+- claim: Conservación Internacional Colombia reports that the CVC announced the 200 camera
+    traps it had acquired and where they would go, for fauna monitoring.
+  url: https://www.conservation.org.co/Noticias/lista-de-noticias/cvc-fortalece-la-red-otus-con-la-instalaci%C3%B3n-de-200-c%C3%A1maras-trampa-para-monitorear-la-fauna-del-valle
+  fetched: '2026-10-31'
+  quote: dio a conocer las 200 cámaras trampa que acaba de adquirir
+- claim: El País reports that 171 camera traps have been installed in Valle del Cauca, recording
+    more than 20,000 images and 126 species.
+  url: https://www.elpais.com.co/valle/camaras-trampa-captan-mas-de-339-especies-en-colombia-valle-del-cauca-destaca-con-mas-de-20000-imagenes-2731.html
+  quote: En este departamento se han instalado 171 cámaras trampa, que han captado más de
+    20.000 imágenes y permitido identificar 126 especies
+  fetched: '2026-10-31'
+- claim: El País reports that Valle del Cauca's part in the Otus network is led by CVC.
+  url: https://www.elpais.com.co/valle/camaras-trampa-captan-mas-de-339-especies-en-colombia-valle-del-cauca-destaca-con-mas-de-20000-imagenes-2731.html
+  quote: el Valle del Cauca se destaca por su participación en la red, liderada por la Corporación
+    Autónoma Regional del Valle del Cauca (CVC)
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: red-otus
+  url: https://www.elpais.com.co/valle/camaras-trampa-captan-mas-de-339-especies-en-colombia-valle-del-cauca-destaca-con-mas-de-20000-imagenes-2731.html
+  fetched: '2026-10-31'
+  quote: el Valle del Cauca se destaca por su participación en la red, liderada por la Corporación
+    Autónoma Regional del Valle del Cauca (CVC)
+found_by:
+- link-from:red-otus
+- checklist:1
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,48 @@
+id: red-sea-coral-cover-svm-model
+kind: model
+name: Generalised machine learning model for long-term coral reef monitoring in the Red Sea
+scope: sa
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- sa
+status: unknown
+summary: 2024 paper proposing a generalised machine learning approach to monitor Red Sea coral cover over
+  2000 to 2018, using a support vector machine trained on Landsat data and validated against Umluj ground
+  truth.
+facts:
+- claim: Proposes a generalised machine learning approach to monitor Red Sea coral reef cover over 2000
+    to 2018.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.heliyon.2024.e38249&resultType=core&format=json
+  fetched: 2026-11-03
+  quote: This study focuses on the Red Sea, proposing a generalized machine learning approach to detect
+    and monitor changes in coral reef cover over an 18-year period (2000-2018).
+- claim: A support vector machine classifier was trained on Landsat 7 and 8 data and validated against
+    ground truth from Umluj.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.heliyon.2024.e38249&resultType=core&format=json
+  fetched: 2026-11-03
+  quote: Using Landsat 7 and 8 data, a Support Vector Machine (SVM) classifier was trained on depth-invariant
+    indices (DII) derived from the Gulf of Aqaba and validated against ground truth data from Umluj.
+  ai_type: ml-supervised
+- claim: The 2024 paper lists co-authors Surya P. Tiwari at KFUPM’s Center for Environment and Water and
+    Mohamed A. Qurban at the National Center for Wildlife.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.heliyon.2024.e38249&resultType=core&format=json
+  fetched: 2026-11-03
+  quote: Gapper JJ, Maharjan S, Li W, Linstead E, Tiwari SP, Qurban MA, El-Askary H.
+links:
+- type: built-by
+  to: justin-j-gapper
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.heliyon.2024.e38249&resultType=core&format=json
+  fetched: 2026-11-03
+  quote: Using Landsat 7 and 8 data, a Support Vector Machine (SVM) classifier was trained on depth-invariant
+    indices (DII) derived from the Gulf of Aqaba and validated against ground truth data from Umluj.
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

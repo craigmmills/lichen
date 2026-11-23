@@ -1,0 +1,47 @@
+id: xunta-de-galicia
+kind: organisation
+name: Xunta de Galicia
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: unknown
+scale: regional
+status: active
+summary: Galicia's regional government, which has built AI smoke detection on surveillance
+  cameras into its Xeocode fire management platform.
+facts:
+- claim: Galicia is deploying AI with an expanded satellite and camera network to detect wildfires
+    earlier, according to Euronews.
+  url: https://www.euronews.com/2026/07/24/spains-galicia-region-bets-big-on-ai-and-satellites-to-prevent-summer-megafires
+  quote: Galicia is deploying artificial intelligence and an expanded satellite and camera
+    network to detect wildfires earlier
+  fetched: '2026-10-31'
+- claim: Developed 24 projects for observing and monitoring biodiversity with unmanned vehicles
+    and systems, within the Plan Complementario.
+  url: https://www.xunta.gal/notas-de-prensa/-/nova/020512/galicia-desarrollo-24-proyectos-para-observacion-vigilancia-biodiversidad-basados
+  fetched: '2026-10-31'
+  quote: A Xunta de Galicia desenvolveu 24 proxectos para a observación e vixilancia da biodiversidade
+- claim: Acts as the managing body, through its Directorate General of Natural Heritage, for
+    the Ribeira Sacra e Serras do Oribio e Courel biosphere reserve.
+  url: https://www.miteco.gob.es/es/parques-nacionales-oapn/reservas-biosfera-mab/programa-mab-espana/nuestras-reservas-de-la-biosfera/ribeirasacraeserrasdooribioecourel.html
+  quote: 'Entidad gestora : Dirección General de Patrimonio Natural Consellería de Medio Ambiente,
+    Territorio y Vivienda'
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: xeocode
+  url: https://www.euronews.com/2026/07/24/spains-galicia-region-bets-big-on-ai-and-satellites-to-prevent-summer-megafires
+  quote: Xeocode, the region's internal fire management platform
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+scope: es
+added_by: agent
+checked: '2026-10-31'

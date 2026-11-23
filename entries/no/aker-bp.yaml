@@ -1,0 +1,38 @@
+id: aker-bp
+kind: organisation
+name: Aker BP
+also_known_as:
+- AkerBP ASA
+scope: 'no'
+summary: An organisation that GeoExpro says collaborated on DeepSee, where the paper names
+  the firm Bergverk AS, and one author of the paper worked for it, located at Lysaker.
+facts:
+- claim: GeoExpro says it collaborated with the company it calls Bergwerk; the research paper
+    names it Bergverk AS.
+  url: https://geoexpro.com/seabed-mapping-let-ai-do-the-work/
+  fetched: '2026-11-02'
+  quote: an oil and gas company with a strong presence on the Norwe­gian Continental Shelf
+- claim: One author of the DeepSee paper was employed by it.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1470424/full
+  fetched: '2026-11-02'
+  quote: Author EH was employed by company AkerBP ASA.
+- claim: The paper gives its location as Lysaker, Norway.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1470424/full
+  fetched: '2026-11-02'
+  quote: AkerBP ASA, Lysaker, Norway
+links: []
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision

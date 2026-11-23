@@ -1,0 +1,52 @@
+id: herdnet
+kind: model
+name: HerdNet
+scope: be
+ai_label: ai
+status: unknown
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+ai_types:
+- deep-learning
+summary: Point-based CNN architecture inspired by crowd counting, reported in 2023 to reach
+  a global F1 score of 73.6% on oblique aerial images of livestock herds in Ennedi reserve,
+  Chad.
+runner: unknown
+facts:
+- claim: The paper introduces HerdNet as a new point-based CNN architecture inspired by crowd
+    counting.
+  url: https://orbi.uliege.be/handle/2268/299905
+  fetched: 2026-11-02
+  quote: this study introduces a new point-based CNN architecture, HerdNet, inspired by crowd
+    counting.
+  ai_type: deep-learning
+- claim: The 2023 paper reported a global F1 score of 73.6% on 24 megapixel oblique aerial
+    images of livestock herds in the Ennedi reserve, Chad.
+  url: https://orbi.uliege.be/handle/2268/299905
+  fetched: 2026-11-02
+  quote: HerdNet achieved a global F1 score of 73.6 % on 24 megapixels images
+- claim: A point-based object detector.
+  url: https://orbi.uliege.be/handle/2268/321482
+  fetched: &id001 2026-11-02
+  quote: HerdNet is a point-based object detector inspired by crowd-counting techniques.
+- claim: The thesis calls it a novel deep learning architecture.
+  ai_type: deep-learning
+  url: https://orbi.uliege.be/handle/2268/321482
+  fetched: *id001
+  quote: I developed a novel deep learning architecture named HerdNet
+- claim: Used on 12 animal species in the Queen Elizabeth Protected Area, Uganda.
+  url: https://orbi.uliege.be/handle/2268/321482
+  fetched: *id001
+  quote: HerdNet was used to detect, count and identify 12 animal species in the Queen Elizabeth
+    Protected Area, Uganda
+found_by:
+- checklist:3
+- link-from:university-of-liege
+added_by: agent
+checked: 2026-11-02
+countries:
+- ug
+- td

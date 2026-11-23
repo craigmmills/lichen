@@ -1,0 +1,46 @@
+id: ufz-waldzustandsmonitor
+kind: dataset
+name: UFZ-Waldzustandsmonitor
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Satellite-based monitor of forest condition in Germany, shown as maps at
+  20 metre resolution, from a research team coordinated by the Helmholtz Centre for
+  Environmental Research.
+facts:
+- claim: Shows the condition of forest areas as maps at 20 metre resolution, according
+    to the Leipziger Zeitung.
+  url: https://www.l-iz.de/bildung/forschung/2024/08/neuer-ufz-waldzustandsmonitor-zustand-deutscher-wald-599637
+  quote: der den Zustand von Waldflächen als Karten mit einer räumlichen Auflösung
+    von 20 Metern darstellt.
+  fetched: '2026-10-31'
+- claim: Provides spatially explicit information on German forest condition from 2016
+    to 2022.
+  url: https://www.ufz.de/index.php?de=50400
+  fetched: '2026-10-31'
+  quote: The UFZ Forest Condition Monitor is now live. It provides spatially explicit
+    information about the condition of Germany's forests from 2016 to 2022.
+links:
+- type: run-by
+  to: helmholtz-centre-for-environmental-research
+  url: https://www.l-iz.de/bildung/forschung/2024/08/neuer-ufz-waldzustandsmonitor-zustand-deutscher-wald-599637
+  quote: ein vom Helmholtz-Zentrum für Umweltforschung (UFZ) koordiniertes Forschungsteam
+  fetched: '2026-10-31'
+- type: run-by
+  to: helmholtz-centre-for-environmental-research
+  url: https://www.ufz.de/index.php?de=50400
+  fetched: '2026-10-31'
+  quote: Der Waldzustandsmonitor ist ein von der Helmholtz-Gemeinschaft finanziertes
+    Projekt in der Arbeitsgruppe Landbedeckung & Dynamik
+found_by:
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'
+countries:
+- de
+also_known_as:
+- Waldzustandsmonitor

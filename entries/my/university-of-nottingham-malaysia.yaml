@@ -1,0 +1,61 @@
+id: university-of-nottingham-malaysia
+kind: organisation
+name: University of Nottingham Malaysia
+also_known_as:
+- UNMC
+- University of Nottingham Malaysia Campus
+scope: my
+sector: academic
+roles:
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- edna-genomics
+hq: my
+countries:
+- my
+scale: national
+status: active
+website: https://www.nottingham.edu.my/
+summary: A university campus that runs the Management and Ecology of Malaysian Elephants project,
+  has authors on the WildTechAlert paper and partners with ConservationDrones.
+facts:
+- claim: OpenAlex lists WildTechAlert, a deep learning paper on detecting elephants by sound,
+    with authors at this campus.
+  url: https://api.openalex.org/works/W4398180406
+  fetched: 2026-11-03
+  quote: 'WildTechAlert: Deep Learning Models for Real-Time Detection of Elephant Presence
+    Using Bioacoustics in an Early Warning System to Support Human-Elephant Coexistence'
+- claim: Listed as the partner organisation of the APN mangrove eDNA project.
+  url: https://www.apn-gcr.org/project/development-of-environmental-dna-reference-database-for-coastal-resource-management-of-southeast-asian-mangroves/
+  quote: Partner organisation University of Nottingham Malaysia Campus
+  fetched: 2026-11-03
+- claim: Its Department of Electrical Engineering and School of Computer Science collaborate
+    on the elephant early warning prototype.
+  url: https://ace-coalition.com/our-research/
+  fetched: 2026-11-03
+  quote: This is an on-going collaboration with the Department of Electrical Engineering and
+    School of Computer Science at University of Nottingham Malaysia, and several international
+    research groups.
+links:
+- type: runs
+  to: management-and-ecology-of-malaysian-elephants
+  url: https://www.nottingham.edu.my/NewsEvents/News/2017/Yayasan-Sime-Darby-extends-sponsorship-for-the-Management-and-Ecology-of-Malaysian-Elephants.aspx
+  fetched: 2026-11-03
+  quote: The University of Nottingham is proud of MEME, one of our most visible and potentially
+    impactful research projects.
+- type: partners-with
+  to: conservation-drones
+  url: https://conservationdrones.org/partners/
+  quote: 'Malaysia: University of Nottingham-Malaysia Campus'
+  fetched: 2026-11-03
+found_by:
+- checklist:3
+- link-from:conservation-drones
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,34 @@
+id: eve-earth-virtual-expert
+kind: model
+name: EVE
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+status: active
+website: https://www.esa.int/ESA_Multimedia/Images/2026/10/Meet_the_technical_team_behind_EVE
+summary: AI question-and-answer platform for Earth observation built by ESA Φ-lab with Pi School, Mistral and Imperative Space.
+facts:
+- claim: A large language model developed by ESA Φ-lab with Pi School, Mistral and Imperative Space.
+  url: https://www.esa.int/ESA_Multimedia/Images/2026/10/Meet_the_technical_team_behind_EVE
+  fetched: 2026-10-30
+  quote: Together they developed EVE, a large language model (LLM)
+- claim: Gives information in a question-and-answer format.
+  url: https://www.esa.int/ESA_Multimedia/Images/2026/10/Meet_the_technical_team_behind_EVE
+  fetched: 2026-10-30
+  quote: EVE is an AI-based platform that provides information in a question-and-answer format
+- claim: "EVE is a large language model."
+  url: https://www.esa.int/ESA_Multimedia/Images/2026/10/Meet_the_technical_team_behind_EVE
+  fetched: 2026-10-30
+  quote: "Together they developed EVE, a large language model (LLM), which summarises, translates and presents huge amounts of data in accessible ways."
+  ai_type: large-language-models
+links:
+- type: run-by
+  to: phi-lab
+  url: https://www.esa.int/ESA_Multimedia/Images/2026/10/Meet_the_technical_team_behind_EVE
+  fetched: 2026-10-30
+  quote: Together they developed EVE, a large language model (LLM)
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

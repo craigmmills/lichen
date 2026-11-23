@@ -1,0 +1,75 @@
+id: mohammed-v-university
+kind: organisation
+name: Mohammed V University in Rabat
+also_known_as:
+- Université Mohammed V de Rabat
+- Mohamed V University
+scope: ma
+sector: academic
+roles:
+- uses-ai
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- remote-sensing
+- edna-genomics
+hq: ma
+countries:
+- ma
+scale: national
+status: active
+summary: A Rabat university that OpenAlex lists with papers on fish detection in underwater
+  videos, deep neural network land cover classification, forest stand dynamics and deep learning
+  for plant identification.
+facts:
+- claim: A researcher at its CNRST-associated LRIT laboratory was first author of a 2021 paper
+    on fish detection in underwater videos using two convolutional neural network detectors,
+    according to OpenAlex.
+  url: https://api.openalex.org/works/W3122592650
+  fetched: 2026-11-08
+  quote: Multi-stream fish detection in unconstrained underwater videos by the fusion of two
+    convolutional neural network detectors
+  ai_type: deep-learning
+- claim: OpenAlex lists the affiliation as the LRIT-CNRST laboratory in the Faculty of Sciences.
+  url: https://api.openalex.org/works/W3122592650
+  fetched: 2026-11-08
+  quote: LRIT-CNRST URAC 29, Faculty of Sciences, Mohammed V University in Rabat, Rabat, Morocco
+- claim: A researcher at the university was last author of a 2023 paper comparing hyperparameter
+    optimisation approaches for deep neural network land cover classification, with co-authors
+    from Université Ibn-Tofail and the École Nationale Forestière d'Ingénieurs, according
+    to OpenAlex.
+  url: https://api.openalex.org/works/W4387534567
+  fetched: 2026-11-08
+  quote: Enhancing Land Cover/Land Use (LCLU) classification through a comparative analysis
+    of hyperparameters optimization approaches for deep neural network (DNN)
+  ai_type: deep-learning
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "http://www.um5.ac.ma", "country_code": "MA"'
+- claim: OpenAlex lists a 2025 paper with first author Faouzi Farhani, with Mohammed V University
+    as their affiliation, on forest stand dynamics in the Timekssaouine forest using statistical
+    and machine learning approaches.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Assessment of forest stand dynamics in the Timekssaouine forest (northern Morocco)
+    using statistical and machine learning approaches
+- claim: OpenAlex lists a 2025 paper with first author Kawtar Lhayani, with Mohammed V University
+    as their affiliation, on deep learning for Fabaceae identification from molecular and
+    morphological data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01ejxf797|03cdvht47|058gnfy87|051hckb40|01t9czq80|00675rp98|05jp6at49|01ec0jk73|05y503v71|02gjqpv16,primary_topic.subfield.id:2309|1105|2303,publication_year:>2021&per-page=100&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Deep learning for Fabaceae identification by integrating molecular and morphological
+    data and a solution for barcode selection
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

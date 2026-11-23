@@ -1,0 +1,43 @@
+id: lyda-hill-philanthropies
+kind: organisation
+name: Lyda Hill Philanthropies
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+website: https://lydahillphilanthropies.org
+summary: Funds advances in science and nature, and is a named donor to the Audacious Project
+  raise for Global Fishing Watch.
+facts:
+- claim: Says it funds advances in science and nature.
+  url: https://lydahillphilanthropies.org/
+  quote: We catalyze and fund game-changing advances in science and nature
+  fetched: &id001 2026-10-30
+- claim: Named as a donor to the $60 million raised for Global Fishing Watch through The Audacious
+    Project.
+  url: https://globalfishingwatch.org/?p=36130
+  quote: The project will receive $60 million in funding from multiple donors, including the
+    Acton Family Giving, Ballmer Group, Becht Foundation, Oak Foundation, Laura and Gary Lauder
+    and Family, Lyda Hill Philanthropies, MacKenzie Scott, Sea Grape Foundation and Valhalla
+    Foundation
+  fetched: *id001
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/?p=36130
+  fetched: 2026-10-30
+  quote: The project will receive $60 million in funding from multiple donors, including the
+    Acton Family Giving, Ballmer Group, Becht Foundation, Oak Foundation, Laura and Gary Lauder
+    and Family, Lyda Hill Philanthropies, MacKenzie Scott, Sea Grape Foundation and Valhalla
+    Foundation
+  year: 2023
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

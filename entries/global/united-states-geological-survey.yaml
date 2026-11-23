@@ -1,0 +1,128 @@
+id: united-states-geological-survey
+kind: organisation
+name: U.S. Geological Survey
+also_known_as:
+- USGS
+- United States Geological Survey
+scope: global
+sector: government
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+hq: us
+countries:
+- us
+scale: global
+ai_types:
+- deep-learning
+summary: United States agency that manages the Landsat programme jointly with NASA. Read through
+  NASA and other pages because usgs.gov refuses this project.
+facts:
+- claim: NASA says Landsat is jointly managed with the USGS.
+  url: https://landsat.gsfc.nasa.gov/data/where-get-data
+  quote: The Landsat program consists of a series of Earth-observing satellite missions jointly
+    managed by NASA and the U.S. Geological Survey (USGS).
+  fetched: '2026-10-31'
+- claim: Wikipedia says Landsat imagery can be viewed through the USGS EarthExplorer website.
+  url: https://en.wikipedia.org/wiki/Landsat_program
+  quote: can be viewed through the U.S. Geological Survey (USGS) "EarthExplorer" website
+  fetched: '2026-10-31'
+- claim: Manages GBIF-US through its Science Analytics and Synthesis Program, according to
+    GBIF-US.
+  url: https://www.gbif.us/about/
+  fetched: '2026-10-30'
+  quote: The Science Analytics and Synthesis Program (SAS) of the U.S. Geological Survey (USGS)
+    manages GBIF-US to facilitate access to species occurrence data.
+- claim: MRLC says its Land Cover program draws on NLCD and LCMAP.
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: The U.S. Geological Survey (USGS)’s Land Cover program has leveraged methodologies
+    from legacy land cover projects
+- claim: NASA describes the NASA/USGS Landsat programme.
+  url: https://landsat.gsfc.nasa.gov/
+  fetched: '2026-10-30'
+  quote: The NASA/USGS Landsat program provides the longest continuous space-based record
+    of Earth’s land in existence.
+- claim: BOEM names its Upper Midwest Environmental Sciences Center.
+  url: https://boem.gov/environment/environmental-studies/20-02-1
+  fetched: '2026-10-30'
+  quote: Upper Midwest Environmental Sciences Center-USGS under study NT-19-04 to train deep
+- claim: The US Interior inspector general reports that USGS uses machine learning to help
+    protect and manage Pacific walruses at its Alaska Science Center.
+  url: https://www.oversight.gov/sites/default/files/documents/reports/2025-07/FLASH%20REPORT%20-%20Artificial%20Intelligence%20and%20Machine%20Learning%20Development%20In%20the%20U.S.%20Department%20of%20the%20Interior.pdf
+  quote: USGS uses ML to help protect and manage Pacific walruses at the Alaska
+  fetched: '2026-10-30'
+- claim: Its Science Analytics and Synthesis Program manages GBIF-US, according to the GBIF-US
+    site.
+  url: https://www.gbif.us/about/
+  quote: The Science Analytics and Synthesis Program (SAS) of the U.S. Geological Survey (USGS)
+    manages GBIF-US
+  fetched: '2026-10-30'
+- claim: The MRLC consortium reports a USGS team releasing weekly maps of exotic annual grass
+    under RCMAP.
+  url: https://www.mrlc.gov/product-information
+  quote: The U.S. Geological Survey Rangeland Condition Monitoring Assessment and Projection
+    (RCMAP) Exotic Annual Grass (EAG) team
+  fetched: '2026-10-30'
+- claim: Tethys lists USGS among the affiliations on NABat ML, which uses convolutional neural
+    networks.
+  url: https://tethys.pnnl.gov/publications/nabat-ml-utilizing-deep-learning-enable-crowdsourced-development-automated-scalable
+  fetched: '2026-10-30'
+  quote: US Geological Survey (USGS)
+- claim: The Tethys record says NABat ML combines signal processing and convolutional neural
+    networks to classify bat calls.
+  url: https://tethys.pnnl.gov/publications/nabat-ml-utilizing-deep-learning-enable-crowdsourced-development-automated-scalable
+  fetched: '2026-10-30'
+  quote: This model combines signal processing techniques and convolutional neural networks
+    (CNNs)
+  ai_type: deep-learning
+- claim: Publishes a national Bird Banding Lab dataset through GBIF.
+  url: https://api.gbif.org/v1/organization/c3ad790a-d426-4ac1-8e32-da61f81f0117/publishedDataset?limit=200
+  fetched: '2026-10-30'
+  quote: USGS PWRC - Bird Banding Lab - US State Centroid - 1960-2010
+- claim: USAGov calls it the nation's largest water, earth and biological science and civilian
+    mapping agency.
+  url: https://www.usa.gov/agencies/u-s-geological-survey
+  fetched: '2026-10-31'
+  quote: The U.S. Geological Survey (USGS) is the nation's largest water, earth, and biological
+    science and civilian mapping agency.
+- claim: USAGov lists its main address as 12201 Sunrise Valley Dr, Reston.
+  url: https://www.usa.gov/agencies/u-s-geological-survey
+  fetched: '2026-10-31'
+  quote: 12201 Sunrise Valley Dr.
+links:
+- type: partners-with
+  to: nasa
+  url: https://landsat.gsfc.nasa.gov/data/where-get-data
+  quote: Calibration and Validation (Cal/Val) teams from NASA and the U.S. Geological Survey
+    (USGS) collaborate on Landsat calibration
+  fetched: '2026-10-31'
+- type: runs
+  to: landsat
+  url: https://landsat.gsfc.nasa.gov/
+  fetched: '2026-10-30'
+  quote: The NASA/USGS Landsat program
+- type: runs
+  to: gbif-us
+  url: https://www.gbif.us/about/
+  quote: The Science Analytics and Synthesis Program (SAS) of the U.S. Geological Survey (USGS)
+    manages GBIF-US
+  fetched: '2026-10-30'
+found_by:
+- rule:checklist-misses
+- checklist:1
+- link-from:queue-us
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

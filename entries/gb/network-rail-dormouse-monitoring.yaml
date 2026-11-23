@@ -1,0 +1,62 @@
+id: network-rail-dormouse-monitoring
+kind: project
+name: Network Rail dormouse monitoring with ZSL and Google Cloud
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+countries:
+- gb
+status: unknown
+runner: unknown
+summary: Collaboration of Network Rail, the Zoological Society of London and Google
+  Cloud monitoring dormice beside railway lines, training algorithms on images, video
+  and audio.
+facts:
+- claim: A collaboration between Network Rail, ZSL and Google Cloud.
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: a collaborative effort between Network Rail, Zoological Society of London
+    (ZSL) and Google Cloud
+  fetched: &id001 2026-10-30
+- claim: Data are stored and analysed on Google Cloud with AI and machine learning
+    models.
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: All this data is stored and analyzed on Google Cloud using AI and machine
+    learning models
+  fetched: *id001
+- claim: Collected images, video and audio train the algorithms.
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: collected images, videos and audio are used to train algorithms on Google
+    Cloud
+  fetched: *id001
+links:
+- type: partners-with
+  to: network-rail
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: a collaborative effort between Network Rail, Zoological Society of London
+    (ZSL) and Google Cloud
+  fetched: *id001
+- type: partners-with
+  to: zoological-society-of-london
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: a collaborative effort between Network Rail, Zoological Society of London
+    (ZSL) and Google Cloud
+  fetched: *id001
+- type: partners-with
+  to: google
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: a collaborative effort between Network Rail, Zoological Society of London
+    (ZSL) and Google Cloud
+  fetched: *id001
+- type: partners-with
+  to: peoples-trust-for-endangered-species
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/protecting-the-humble-dormouse-from-extinction-using-ai-and-machine-learning/
+  quote: Partnering with the People's Trust for Endangered Species
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

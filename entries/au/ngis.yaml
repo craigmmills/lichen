@@ -1,0 +1,43 @@
+id: ngis
+kind: organisation
+name: NGIS
+scope: au
+sector: company
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- au
+scale: national
+status: active
+summary: Partner with the Murray-Darling Basin Authority and FrontierSI on machine learning
+  mapping of vegetation species.
+facts:
+- claim: Named as a collaborator on the Murray-Darling Basin vegetation mapping project.
+  url: https://frontiersi.com.au/project/native-vegetation-mapping-in-the-murray-darling-basin-using-satellite-imagery/
+  fetched: '2026-10-31'
+  quote: The project was a collaboration between the Murray–Darling Basin Authority , FrontierSI,
+    and NGIS .
+- claim: Developed EOWater with the NSW department.
+  url: https://ngis.com.au/case-studies/murray-darling-basin/
+  fetched: '2026-10-31'
+  quote: NGIS, in collaboration with NSW DCCEEW, developed EOWater
+found_by:
+- link-from:frontiersi
+- checklist:5
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: eowater
+  url: https://ngis.com.au/case-studies/murray-darling-basin/
+  fetched: '2026-10-31'
+  quote: NGIS, in collaboration with NSW DCCEEW, developed EOWater

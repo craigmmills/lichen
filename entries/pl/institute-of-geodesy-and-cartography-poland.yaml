@@ -1,0 +1,101 @@
+id: institute-of-geodesy-and-cartography-poland
+kind: organisation
+name: Institute of Geodesy and Cartography (Poland)
+also_known_as:
+- Instytut Geodezji i Kartografii
+- IGiK
+scope: pl
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: pl
+scale: national
+status: active
+summary: A Warsaw institute whose Remote Sensing Centre uses aerial and satellite images,
+  including Sentinel-2, for work such as Biebrza peatlands, grassland management, Natura 2000
+  land cover change and forest mapping with machine learning.
+facts:
+- claim: Its Remote Sensing Centre led the research on Biebrza peatlands, reported by the
+    Copernicus Sentinels site.
+  url: https://sentinels.copernicus.eu/web/success-stories/-/copernicus-sentinels-key-to-tracking-carbon-flux-in-peatlands
+  fetched: '2026-11-02'
+  quote: led by the Remote Sensing Centre at the Institute of Geodesy and Cartography
+- claim: Authors at the institute published on mapping grassland management intensity with
+    Sentinel-1 and Sentinel-2 images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:PL,primary_topic.id:T10111,concepts.id:C154945302,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,doi,title,publication_year,authorships,cited_by_count
+  fetched: '2026-11-02'
+  quote: Mapping management intensity types in grasslands with synergistic use of Sentinel-1
+    and Sentinel-2 satellite images
+- claim: Its address is in Warsaw.
+  url: https://grassat.eu/o-nas/igik/
+  fetched: '2026-11-02'
+  quote: Siedziba Instytutu mieści się w Warszawie, na Mokotowie, przy ulicy Z. Modzelewskiego
+    27
+- claim: Its Remote Sensing Centre works on land cover change on Natura 2000 areas.
+  url: https://grassat.eu/o-nas/igik/
+  fetched: '2026-11-02'
+  quote: 'ZMIAN POKRYCIA TERENU: na obszarach Natura 2000, obszarach rolniczych, obszarach
+    traw i obszarach zurbanizowanych'
+- claim: Lists forest monitoring among its research areas.
+  url: https://www.igik.edu.pl/pl/
+  fetched: '2026-11-02'
+  quote: Monitoring rolniczy Monitoring lasów Badania mokradeł
+- claim: Reports a new meteorological station in Biebrza National Park.
+  url: https://www.igik.edu.pl/pl/
+  fetched: '2026-11-02'
+  quote: Nowa stacja meteorologiczna Instytutu Geodezji i Kartografii w Biebrzańskim Parku
+    Narodowym
+- claim: Makes remote sensing measurements of chlorophyll fluorescence in the Biebrza valley
+    to monitor vegetation condition.
+  url: https://www.igik.edu.pl/pl/nauka-i-badania/obszary-badawcze/mokradla-i-laki/
+  fetched: '2026-11-02'
+  quote: wykonujemy teledetekcyjne pomiary fluorescencji chlorofilu w Dolinie Biebrzy i torfowiskach
+    Biebrzy, monitorując kondycję roślinności
+- claim: The centre uses aerial and satellite images to obtain information on the Earth's
+    surface.
+  url: https://www.igik.edu.pl/pl/nauka-i-badania/centra-naukowe/centrum-teledetekcji/
+  fetched: '2026-11-02'
+  quote: Centrum Teledetekcji ma wieloletnie doświadczenie w prowadzeniu badań naukowych i
+    prac badawczo-rozwojowych w zakresie wykorzystywania zdjęć lotniczych i satelitarnych
+- claim: Its topics include land-cover change in Natura 2000 areas.
+  url: https://www.igik.edu.pl/pl/nauka-i-badania/centra-naukowe/centrum-teledetekcji/
+  fetched: '2026-11-02'
+  quote: Zmian pokrycia terenu na obszarach Natura 2000, obszarach rolniczych, obszarach traw
+    i obszarach zurbanizowanych.
+- claim: Forest mapping used machine learning, including deep learning.
+  url: https://www.igik.edu.pl/en/identification-of-forests-on-post-agricultural-land/
+  fetched: '2026-11-02'
+  quote: a modern classification method with the use of machine learning algorithms was applied,
+    using not only static classifiers, but also deep learning.
+  ai_type: deep-learning
+- claim: Its page gives an address on Modzelewskiego street.
+  url: https://www.igik.edu.pl/pl/nauka-i-badania/centra-naukowe/centrum-teledetekcji/
+  fetched: '2026-11-02'
+  quote: ul. Zygmunta Modzelewskiego 27
+links:
+- type: uses
+  to: sentinel-2
+  url: https://sentinels.copernicus.eu/web/success-stories/-/copernicus-sentinels-key-to-tracking-carbon-flux-in-peatlands
+  fetched: '2026-11-02'
+  quote: The study drew on data delivered by Sentinel-2 and Sentinel-3 of the European Union’s
+    Copernicus Programme
+- type: partners-with
+  to: european-association-of-remote-sensing-laboratories
+  url: https://earsel.org/members/page/5
+  fetched: '2026-11-02'
+  quote: Spatial Information and Remote Sensing Centre Institute of Geodesy & Cartography
+    (IGIK) Poland
+found_by:
+- checklist:3
+- link-from:european-association-of-remote-sensing-laboratories
+added_by: agent
+checked: '2026-11-02'
+ai_types:
+- deep-learning

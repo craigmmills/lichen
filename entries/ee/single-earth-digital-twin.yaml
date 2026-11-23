@@ -1,0 +1,53 @@
+id: single-earth-digital-twin
+kind: model
+name: Single.Earth Digital Twin
+also_known_as: []
+scope: ee
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries: []
+status: active
+website: https://www.single.earth/digital-twin-of-earth
+summary: Model built and run by Single.Earth that, it says, monitors forest canopy on its platform every
+  two weeks using Sentinel-1 data and machine learning, and covers land use, land cover and ecosystem
+  parameters.
+facts:
+- claim: Single.Earth says it monitors the forest canopy of lands on its platform every two weeks with
+    an in-house tool using Sentinel-1 satellite data and machine learning models.
+  url: https://www.single.earth/digital-twin-of-earth
+  fetched: 2026-11-08
+  quote: Bi-weekly, we monitor the intactness of the forest canopy cover of the lands onboarded to the
+    Single.Earth platform with our in-house monitoring tool that utilizes satellite data (Sentinel-1)
+    and machine learning models.
+- claim: Says the digital twin is defined by models of land use, land cover and ecosystem parameters such
+    as carbon and biodiversity status.
+  url: https://www.single.earth/digital-twin-of-earth
+  fetched: 2026-11-08
+  quote: Such a system state is defined by models representing current land use, land cover, and ecosystem
+    parameters (such as carbon removal and storage and biodiversity status)
+links:
+- type: built-by
+  to: single-earth
+  url: https://www.single.earth/digital-twin-of-earth
+  fetched: 2026-11-08
+  quote: the endless effort of our scientific and technology teams who constantly experiment and develop
+    new solutions in collaboration with partners
+- type: run-by
+  to: single-earth
+  url: https://www.single.earth/digital-twin-of-earth
+  fetched: 2026-11-08
+  quote: Bi-weekly, we monitor the intactness of the forest canopy cover of the lands onboarded to the
+    Single.Earth platform with our in-house monitoring tool
+- type: uses
+  to: global-forest-change
+  url: https://www.single.earth/digital-twin-of-earth
+  fetched: 2026-11-08
+  quote: Single.Earth uses annually updated global forest loss datasets from Landsat time-series imagery
+    to monitor forest cover. These datasets, referred to as the Hansen map
+found_by:
+- link-from:single-earth
+added_by: agent
+checked: 2026-11-08

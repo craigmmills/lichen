@@ -1,0 +1,91 @@
+id: natuurpunt
+kind: organisation
+name: Natuurpunt
+scope: be
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+hq: be
+countries:
+- be
+scale: national
+status: active
+summary: Flanders' largest nature conservation NGO by its own description, which coordinates
+  volunteer observations, runs Waarnemingen.be, uses ObsIdentify, and reportedly received
+  €40,000 from Brabants Woud National Park for AI insect traps.
+facts:
+- claim: Brussels Morning reported that Natuurpunt Leuven received the largest 2025 award
+    from Brabants Woud National Park, for a project using AI insect traps.
+  url: https://brusselsmorning.com/leuven-natuurpunt-gets-e40k-for-ai-insect-tracking-project/74594/
+  fetched: 2026-11-02
+  quote: In 2025, Natuurpunt Leuven got the biggest award, which was €40,000.
+- claim: Describes itself in its GBIF publisher record as the largest nature conservation
+    NGO in Flanders.
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: '2026-11-02'
+  quote: Natuurpunt is Flanders largest NGO in nature conservation.
+- claim: Says in its GBIF record that it coordinates volunteers collecting information about
+    wild biodiversity.
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: '2026-11-02'
+  quote: We coordinate and support volunteers in collecting information about wild biodiversity
+    in Flanders of all taxonomic groups.
+- claim: Its GBIF record gives the address Coxiestraat 11, Mechelen.
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: '2026-11-02'
+  quote: '"address":["Coxiestraat 11"],"city":"Mechelen"'
+- claim: Brussels Morning reports that Natuurpunt Leuven got €40,000 from the park to use
+    AI insect traps.
+  url: https://brusselsmorning.com/leuven-natuurpunt-gets-e40k-for-ai-insect-tracking-project/74594/
+  fetched: '2026-11-02'
+  quote: Leuven Natuurpunt got €40,000 from Brabants Woud National Park to use AI insect traps.
+- claim: Meetnetten.be says monitoring takes place in close cooperation with Natuurpunt.
+  url: https://www.meetnetten.be/
+  fetched: '2026-11-02'
+  quote: samenwerking met Natuurpunt, dat de vrijwilligers binnen dit project
+- claim: Its GBIF record says waarnemingen.be collects over 6 million observation records
+    a year.
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: 2026-11-02
+  quote: With our database www.waarnemingen.be we collect over 6 million observation records
+    per year.
+- claim: A January 2019 report said Natuurpunt managed 24,968 hectares, of which 17,228 hectares
+    (69 per cent) were recognised as nature reserve.
+  url: https://vilt.be/nl/nieuws/755-hectare-natuurgebied-van-natuurpunt-erkend
+  quote: Van de 24.968 hectare die Natuurpunt beheert, is nu 17.228 hectare of 69 procent
+    erkend als natuurreservaat.
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: waarnemingen-be
+  url: https://api.gbif.org/v1/organization/4d3ceea8-5699-439d-a899-decac9cbbdac
+  fetched: '2026-11-02'
+  quote: With our database www.waarnemingen.be we collect over 6 million observation records
+    per year.
+- type: funded-by
+  to: brabants-woud-national-park
+  url: https://www.brabantsewouden.be/nieuws/winnaars-innovatiewedstrijd
+  fetched: '2026-11-02'
+  quote: Natuurpunt Studie won the grand prize of €40,000 with non-lethal insect traps
+  amount: 40000
+  currency: EUR
+- type: partners-with
+  to: ghent-university
+  url: https://lifeb4b.be/remote-sensing-protect-nature
+  fetched: '2026-11-02'
+  quote: Ghent University (UGent) and Natuurpunt are using drone-based remote sensing
+found_by:
+- checklist:4
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-02

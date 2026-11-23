@@ -1,0 +1,53 @@
+id: nies-lake-biwa-branch-office
+kind: organisation
+name: Lake Biwa Branch Office, National Institute for Environmental Studies
+also_known_as:
+- 国立環境研究所 琵琶湖分室
+scope: jp
+sector: government
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: local
+status: active
+summary: National Institute for Environmental Studies branch office that develops
+  Lake Biwa monitoring methods using remote sensing, including satellite, fixed-camera
+  and drone images of aquatic plants, and points to a specimen database.
+facts:
+- claim: Develops monitoring methods such as aquatic plant distribution mapping in
+    the south basin using remote sensing, with satellite images, time-lapse fixed
+    cameras and drone photographs.
+  url: https://www.nies.go.jp/biwakobranch/projects/aquaticplants.html
+  fetched: '2026-11-09'
+  quote: 遠隔計測技術 を用い、南湖における水草分布マッピングなど、モニタリング・評価・予測に使える手法の開発を進めています。
+- claim: Develops an image analysis method that applies spectral indices to fixed-camera
+    images taken hourly during daylight to pick out areas of aquatic plant growth.
+  url: https://www.nies.go.jp/biwakobranch/projects/aquaticplants.html
+  fetched: '2026-11-09'
+  quote: JPEG形式で撮影された画像（左）に、幾つかの分光指標を適用して右に示すように水草が繁茂しているエリアを抽出できるような画像解析方法を開発しています。
+- claim: Mapped NDVI from Sentinel-2 imagery dated 10 August 2015 of the northern
+    part of Lake Biwa’s south basin.
+  url: https://www.nies.go.jp/biwakobranch/projects/aquaticplants.html
+  fetched: '2026-11-09'
+  quote: 図4 琵琶湖の南湖北部におけるSentinel2衛星画像（2015年8月10日）から得られたNDVIマップ
+- claim: Its home page points to the Lake Biwa biological specimen database, which
+    publishes images, collection sites and gene sequences of specimens collected by
+    NIES in the Lake Biwa basin.
+  url: https://www.nies.go.jp/biwakobranch/
+  fetched: '2026-11-09'
+  quote: 琵琶湖生物標本データベースでは、国立環境研究所が採集した琵琶湖水系にすむ生物標本の画像や採集地、遺伝子配列などの情報を公開しています
+links:
+- type: run-by
+  to: national-institute-for-environmental-studies
+  url: https://www.nies.go.jp/biwakobranch/
+  fetched: '2026-11-09'
+  quote: 国立環境研究所琵琶湖分室は、 地域環境保全領域 と 生物多様性領域 との共同管理する研究室で、 滋賀県琵琶湖環境科学研究センター 建物内に設置されています。
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

@@ -1,0 +1,36 @@
+id: uvlm
+kind: dataset
+name: Underwater Video-Language Multimodal dataset
+also_known_as:
+- UVLM
+scope: cn
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- large-language-models
+status: active
+runner: unknown
+summary: Benchmark for video language models on underwater scenes, with 0.9 million
+  frames and 419 biological categories.
+facts:
+- claim: Has 0.9 million frames and 419 biological categories.
+  url: https://arxiv.org/html/2507.02373v1
+  fetched: '2026-10-31'
+  quote: The final dataset comprises 0.9M frames, 419 distinct biological categories
+- claim: Names marine biodiversity monitoring as an application.
+  url: https://arxiv.org/html/2507.02373v1
+  fetched: '2026-10-31'
+  quote: marine biodiversity monitoring, ecosystem health assessment
+- claim: Benchmark for large language models on video.
+  url: https://arxiv.org/html/2507.02373v1
+  fetched: '2026-10-31'
+  quote: 'UVLM: Benchmarking Video Language Model for Underwater World Understanding'
+  ai_type: large-language-models
+links: []
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

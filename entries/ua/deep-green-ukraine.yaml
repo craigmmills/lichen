@@ -1,0 +1,91 @@
+id: deep-green-ukraine
+kind: project
+name: Deep Green Ukraine
+scope: ua
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ua
+status: closed
+summary: Closed illegal logging project, dated 2020–2021 or August 2020–March 2022, comparing satellite
+  changes with public data, whose co-founder reported training a neural network on radar and optical imagery.
+facts:
+- claim: Aimed to build a monitoring system for illegal deforestation from open data of the State Forest
+    Agency and State Land Cadastre and from satellite data.
+  url: https://mmda.ipt.kpi.ua/en/2021/03/01/587/
+  fetched: 2026-11-03
+  quote: The project aims to implement a monitoring system of the illegal deforestation presence based
+    on open data from the State Agency of Forest Resources of Ukraine, the State Land Cadastre and satellite
+    data.
+- claim: Ran from 2020 to 2021.
+  url: https://mmda.ipt.kpi.ua/en/2021/03/01/587/
+  fetched: 2026-11-03
+  quote: 'Duration: 2020 – 2021'
+- claim: The acquirer was the Ministry of Digital Transformation with the USAID and UK aid TAPAS project,
+    the Eastern Europe Foundation and the 1991 Open Data Incubator.
+  url: https://mmda.ipt.kpi.ua/en/2021/03/01/587/
+  fetched: 2026-11-03
+  quote: 'Acquirer: Ministry of Digital Transformation of Ukraine in partnership with the USAID / UK aid
+    project “Transparency and Accountability in Public Management and Services / TAPAS”, Eastern Europe
+    Foundation and 1991 Open Data Incubator'
+- claim: The department's project leader was Leonid Shumilo, then a graduate student.
+  url: https://mmda.ipt.kpi.ua/en/2021/03/01/587/
+  fetched: 2026-11-03
+  quote: 'Project leader of department: graduate student of the Institute of Physics and Technology in
+    2020 Leonid Shumilo'
+- claim: The project ran from August 2020 to March 2022 and aimed to build an illegal logging and deforestation
+    alert system comparing satellite forest changes with public data such as logging tickets.
+  url: https://www.forestcom.org.ua/en/project/deepgreenukraine
+  fetched: 2026-11-03
+  quote: The system intends to analyze satellite data on forest cover changes and compare it with open
+    source data published by public institutions
+- claim: The project described development in Kyiv, Lviv, Zakarpattia and Odesa pilot regions, with nationwide
+    scaling planned.
+  url: https://www.forestcom.org.ua/en/project/deepgreenukraine
+  fetched: 2026-11-03
+  quote: 'The system is being developed on the basis of pilot regions: Kyiv, Lviv, Zakarpattia and Odessa'
+- claim: In the interview, co-founder Leonid Shumilo said the team was training a deep neural network
+    with a long short-term memory architecture on radar and optical image time series to detect logging.
+  url: https://www.kunsht.com.ua/articles/11955-2
+  fetched: 2026-11-03
+  quote: Ми навчаємо глибоку нейронну мережу на основі long short-term memory архітектури
+  ai_type: deep-learning
+- claim: Development followed winning the Open Data Challenge run within the USAID/UK aid TAPAS project
+    with the Ministry of Digital Transformation.
+  url: https://www.forestcom.org.ua/en/project/deepgreenukraine
+  fetched: 2026-11-03
+  quote: Development of the Deep Green Ukraine system became possible as a result of winning the Open
+    Data Challenge competition
+links:
+- type: run-by
+  to: department-of-mathematical-modelling-and-data-analysis-kpi
+  url: https://mmda.ipt.kpi.ua/en/2021/03/01/587/
+  fetched: 2026-11-03
+  quote: 'Organisations: National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”'
+- type: run-by
+  to: space-research-institute-nasu-ssau
+  url: https://www.forestcom.org.ua/en/project/deepgreenukraine
+  fetched: 2026-11-03
+  quote: The Deep Green Ukraine project is implemented jointly by Space Research Institute of the NASU
+    and SSAU
+- type: run-by
+  to: forest-initiatives-and-communities
+  url: https://www.forestcom.org.ua/en/project/deepgreenukraine
+  fetched: 2026-11-03
+  quote: '"Authorities Monitoring Center" and "ForestCom" NGOs.'
+- type: run-by
+  to: authorities-monitoring-center
+  url: https://www.forestcom.org.ua/en/project/deepgreenukraine
+  fetched: 2026-11-03
+  quote: '"Authorities Monitoring Center" and "ForestCom" NGOs.'
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-03
+roles:
+- builds-ai
+ai_types:
+- deep-learning

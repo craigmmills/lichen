@@ -1,0 +1,56 @@
+id: land-cover-atlas-of-the-republic-of-south-sudan
+kind: dataset
+name: Land Cover Atlas of the Republic of South Sudan
+scope: ss
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ss
+status: active
+summary: FAO-built land cover dataset for South Sudan, published in 2023 as an update
+  to the 2011 edition, classified from Sentinel-2 imagery (December 2016 to November
+  2017) with Random Forest.
+facts:
+- claim: FAO developed an updated Land Cover Atlas of South Sudan a decade after the
+    first edition of 2011.
+  url: https://www.fao.org/3/cc6216en/cc6216en.pdf
+  fetched: 2026-11-14
+  quote: Now a decade later, FAO has developed an updated Land Cover Atlas of
+- claim: The first Land Cover Atlas of South Sudan was produced in 2011.
+  url: https://www.fao.org/3/cc6216en/cc6216en.pdf
+  fetched: 2026-11-14
+  quote: In 2011, the first Land Cover Atlas
+- claim: The atlas published in 2023 used Sentinel-2 satellite data, with acquisitions
+    investigated for December 2016 to November 2017.
+  url: https://www.fao.org/3/cc6216en/cc6216en.pdf
+  fetched: 2026-11-14
+  quote: 'Over these tiles, the availability of multi-
+
+    temporal acquisitions for the period December 2016 – November 2017 was investigated.'
+- claim: The classification was a supervised land cover classification using the Random
+    Forest algorithm.
+  url: https://www.fao.org/3/cc6216en/cc6216en.pdf
+  fetched: 2026-11-14
+  quote: then used to perform a supervised land cover classification based on Random
+    Forest algorithm.
+  ai_type: ml-supervised
+- claim: The atlas contains the land cover dataset for South Sudan.
+  url: https://www.fao.org/3/cc6216en/cc6216en.pdf
+  fetched: 2026-11-14
+  quote: This atlas contains the land cover dataset for South Sudan
+links:
+- type: built-by
+  to: food-and-agriculture-organization
+  url: https://www.fao.org/3/cc6216en/cc6216en.pdf
+  fetched: 2026-11-14
+  quote: Now a decade later, FAO has developed an updated Land Cover Atlas of
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

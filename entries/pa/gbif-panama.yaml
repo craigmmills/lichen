@@ -1,0 +1,51 @@
+id: gbif-panama
+kind: programme
+name: GBIF Panama
+scope: pa
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- pa
+status: active
+summary: Panama's country node of GBIF with associate participation status, led by Darío Luque,
+  and the route through which the environment ministry ran an October 2025 biodiversity data
+  publishing workshop.
+facts:
+- claim: Listed by the GBIF directory as Panama's country node, with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/country/PA
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Panama"'
+- claim: The environment ministry ran a workshop in October 2025 on standardising, checking
+    and publishing biodiversity data through the node.
+  url: https://miambiente.gob.pa/miambiente-promueve-taller-para-sistematizar-datos-sobre-la-biodiversidad/?print=pdf
+  fetched: 2026-11-08
+  quote: de Datos de Biodiversidad a través del nodo GBIF Panamá inició el Ministerio de Ambiente
+    (MiAMBIENTE)
+- claim: GBIF's directory lists GBIF Panama as the country node for Panama, with associate
+    participation status.
+  url: https://api.gbif.org/v1/node/18aacf1e-738e-4172-a28d-15b639abb1a8
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Panama","participantTitle":"Panama"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/PA
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/18aacf1e-738e-4172-a28d-15b639abb1a8
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Panama"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

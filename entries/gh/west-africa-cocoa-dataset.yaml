@@ -1,0 +1,49 @@
+id: west-africa-cocoa-dataset
+kind: dataset
+name: West Africa Cocoa Dataset
+scope: gh
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ci
+- gh
+status: active
+runner: unknown
+summary: Database of mapped cocoa plot locations compiled from data collected by 19 companies, to be distributed
+  as a heat map rather than plot boundaries, to respect farmer privacy.
+facts:
+- claim: A database of mapped cocoa plot locations compiled from data collected by 19 companies.
+  url: https://www.wri.org/research/mapping-cocoa-assessing-deforestation-risk-cocoa-cote-divoire-ghana
+  fetched: '2026-11-08'
+  quote: First is the West Africa Cocoa dataset, a database of mapped cocoa plot locations compiled from
+    data collected by 19 companies.
+- claim: Will be distributed as a heat map and not made publicly available as plot boundaries, to respect
+    farmer privacy.
+  url: https://www.wri.org/research/mapping-cocoa-assessing-deforestation-risk-cocoa-cote-divoire-ghana
+  fetched: '2026-11-08'
+  quote: the West Africa Cocoa dataset will be distributed as a heat map so that the presence of cocoa
+    can be seen without revealing the precise boundaries of each plot.
+links:
+- type: built-by
+  to: world-resources-institute
+  url: https://www.wri.org/research/mapping-cocoa-assessing-deforestation-risk-cocoa-cote-divoire-ghana
+  fetched: '2026-11-08'
+  quote: World Resources Institute (WRI), in partnership with the World Cocoa Foundation (WCF) and Climate
+    Focus, developed two resources to help tackle these challenges.
+- type: built-by
+  to: world-cocoa-foundation
+  url: https://www.wri.org/research/mapping-cocoa-assessing-deforestation-risk-cocoa-cote-divoire-ghana
+  fetched: '2026-11-08'
+  quote: World Resources Institute (WRI), in partnership with the World Cocoa Foundation (WCF) and Climate
+    Focus, developed two resources to help tackle these challenges.
+- type: built-by
+  to: climate-focus
+  url: https://www.wri.org/research/mapping-cocoa-assessing-deforestation-risk-cocoa-cote-divoire-ghana
+  fetched: '2026-11-08'
+  quote: World Resources Institute (WRI), in partnership with the World Cocoa Foundation (WCF) and Climate
+    Focus, developed two resources to help tackle these challenges.
+found_by:
+- link-from:global-restoration-initiative
+added_by: agent
+checked: '2026-11-08'

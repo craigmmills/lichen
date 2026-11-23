@@ -1,0 +1,43 @@
+id: plantnet
+kind: project
+name: Pl@ntNet
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://plantnet.org
+summary: Citizen science project and app that identifies plants from pictures, governed by
+  a consortium of four French research bodies, and the source of the Pl@ntNet-300K and GeoPlant
+  data.
+facts:
+- claim: Citizen science project available as an app.
+  url: https://plantnet.org/en/
+  fetched: '2026-10-30'
+  quote: is a citizen science project available as an app that helps you identify plants thanks
+    to your pictures.
+- claim: Governed by CIRAD, Inria, INRAE and IRD.
+  url: https://plantnet.org/en/consortium/
+  fetched: '2026-10-30'
+  quote: consortium composé de quatre organismes de recherche ( CIRAD , Inria , INRAE et IRD
+    )
+- claim: Pl@ntNet introduced convolutional neural networks.
+  url: https://publications.cirad.fr/une_notice.php?dk=585562
+  fetched: '2026-10-30'
+  quote: the introduction of convolutional neural networks did improve the whole workflow
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: cirad
+  url: https://plantnet.org/en/consortium/
+  fetched: '2026-10-30'
+  quote: consortium composé de quatre organismes de recherche ( CIRAD , Inria , INRAE et IRD
+    )
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

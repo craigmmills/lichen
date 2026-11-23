@@ -1,0 +1,30 @@
+id: mgnify
+kind: dataset
+name: MGnify
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+website: https://www.ebi.ac.uk/metagenomics
+summary: Microbiome sequence data analysis resource at EMBL-EBI.
+facts:
+- claim: 'OpenAlex lists the paper titled MGnify: the microbiome sequence data analysis resource in 2023.'
+  url: https://api.openalex.org/works?search=MGnify%20the%20microbiome%20sequence%20data%20analysis%20resource%20in%202023&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: 'MGnify: the microbiome sequence data analysis resource in 2023'
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: european-bioinformatics-institute
+  url: https://www.ebi.ac.uk/about/teams/microbiome-informatics/
+  quote: Our MGnify service enables researchers to submit sequence data and associated descriptive metadata about environmental
+    samples to public nucleotide archives.
+  fetched: '2026-10-30'
+found_by:
+- link-from:global-biodiversity-portal
+added_by: agent
+checked: '2026-10-30'

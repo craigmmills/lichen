@@ -1,0 +1,38 @@
+id: litio-laboratory-university-of-oran-1
+kind: organisation
+name: LITIO Laboratory, University of Oran 1
+also_known_as:
+- LITIO
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: University of Oran 1 laboratory affiliated with the first and corresponding
+  authors of a paper whose title names mapping and monitoring of desertification patterns
+  in Algeria's arid transition zone.
+facts:
+- claim: Affiliation of the first author and of the corresponding author of the desertification
+    mapping paper.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4414307673|W4392948545|W4400223223|W4386195689&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Mejdi Kaddour", "raw_affiliation_strings": ["LITIO Laboratory,
+    University of Oran 1, Oran, Algeria"]'
+- claim: The paper's title names mapping and monitoring of spatiotemporal desertification
+    patterns in Algeria's arid transition zone.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4414307673|W4392948545|W4400223223|W4386195689&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Mapping and monitoring spatiotemporal desertification patterns in the arid
+    transition zone of Algeria over the period 2002
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

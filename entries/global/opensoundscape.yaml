@@ -1,0 +1,35 @@
+id: opensoundscape
+kind: model
+name: OpenSoundscape
+also_known_as:
+- OPSO
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://opensoundscape.org
+summary: Free and open source Python library for analysing bioacoustic data, developed by the Kitzes Lab.
+facts:
+- claim: Free and open source Python library for bioacoustic data.
+  url: https://opensoundscape.org/
+  fetched: '2026-10-30'
+  quote: OpenSoundscape (OPSO) is free and open source Python utility library analyzing bioacoustic data.
+- claim: "The OpenSoundscape documentation shows how to use a CNN to recognise sounds."
+  url: https://opensoundscape.org
+  fetched: '2026-10-30'
+  quote: "Use a CNN to recognize sounds"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: kitzes-lab
+  url: https://opensoundscape.org/
+  fetched: '2026-10-30'
+  quote: OpenSoundcape is developed and maintained by the Kitzes Lab at the University of Pittsburgh.
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

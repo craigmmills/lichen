@@ -1,0 +1,31 @@
+id: land-change-analysis-tool
+kind: project
+name: Land Change Analysis Tool
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: USDA tool that uses a learning classifier to produce high resolution land
+  cover maps from aerial or satellite imagery and publishes them as an image service.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Farm Production and Conservation - Land Change Analysis Tool Employ
+    learning classifier to produce high resolution land cover maps from aerial and
+    / or satellite imagery and publish results through publicly available Image
+links:
+- type: run-by
+  to: usda-farm-production-and-conservation
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Farm Production and Conservation - Land Change Analysis Tool Employ
+    learning classifier to produce high resolution land cover maps from aerial and
+    / or satellite imagery and publish results through publicly available Image
+found_by:
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'

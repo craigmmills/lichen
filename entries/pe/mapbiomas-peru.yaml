@@ -1,0 +1,74 @@
+id: mapbiomas-peru
+kind: programme
+name: MapBiomas Perú
+scope: pe
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://peru.mapbiomas.org/
+countries:
+- pe
+summary: Programme run by Instituto del Bien Común that maps Peru's annual land cover and
+  use, 1985 to 2025, at 30 metres from Landsat using machine learning.
+facts:
+- claim: Produces annual land cover and land use maps of Peru for 1985 to 2025 at 30 m from
+    Landsat imagery in Google Earth Engine, using machine learning.
+  url: https://peru.mapbiomas.org/iniciativas-y-productos/cobertura-y-uso-del-suelo/cobertura/
+  fetched: 2026-11-03
+  quote: utilizando imágenes Landsat procesadas en Google Earth Engine. La metodología integra
+    variables espectrales, temporales, texturales y topográficas, aplicando técnicas de aprendizaje
+    automático y trabajo manual para cada bioma y clase
+- claim: Says its team maps land cover and water surface with remote sensing, GIS, programming
+    and artificial intelligence.
+  url: https://peru.mapbiomas.org/conoce-mapbiomas/
+  fetched: 2026-11-03
+  quote: Somos un equipo multidisciplinario altamente capacitado en mapeo de coberturas, superficie
+    de agua y modelamiento geoespacial aplicando sensores remotos, SIG, programación y uso
+    de la inteligencia artificial .
+- claim: The latest land cover collection, Collection 4, maps 26 classes from 1985 to 2025.
+  url: https://peru.mapbiomas.org/iniciativas-y-productos/cobertura-y-uso-del-suelo/cobertura/
+  fetched: 2026-11-03
+  quote: La colección más reciente de este producto es la Colección 4, con 26 clases mapeadas
+    y una serie histórica de 1985 a 2025.
+- claim: Its land cover team is listed under IBC, with Zuley Cáceres responsible for the initiative.
+  url: https://peru.mapbiomas.org/conoce-mapbiomas/
+  fetched: 2026-11-03
+  quote: Equipo Cobertura Y Uso Zuley Cáceres Responsable de iniciativa IBC
+- claim: Describes itself as a collaborative network monitoring land cover and land use, water,
+    glaciers, fire and deforestation, with free data produced with partner institutions across
+    Peru.
+  url: https://peru.mapbiomas.org/
+  fetched: 2026-11-03
+  quote: MapBiomas Perú es una red colaborativa que integra ciencia y tecnología geoespacial
+    para monitorear los cambios en la cobertura y el uso del suelo, el agua, los glaciares,
+    el fuego y la deforestación.
+- claim: Announced that MapBiomas Alerta has come to Peru to process and validate deforestation
+    alerts.
+  url: https://peru.mapbiomas.org/
+  fetched: 2026-11-03
+  quote: MapBiomas Alerta llega al Perú para procesar y validar las alertas de deforestación
+links:
+- type: run-by
+  to: instituto-del-bien-comun
+  url: https://ibcperu.org/
+  fetched: 2026-11-03
+  quote: 'Proyectos Especiales
+
+    Una Amazonía
+
+    Ciencia y saber indígena por la Amazonía
+
+    MAPBIOMAS Perú'
+- type: uses
+  to: google-earth-engine
+  url: https://peru.mapbiomas.org/iniciativas-y-productos/cobertura-y-uso-del-suelo/cobertura/
+  fetched: 2026-11-03
+  quote: utilizando imágenes Landsat procesadas en Google Earth Engine
+found_by:
+- link-from:instituto-del-bien-comun
+added_by: agent
+checked: 2026-11-03

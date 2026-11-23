@@ -1,0 +1,42 @@
+id: university-of-bucharest
+kind: organisation
+name: University of Bucharest
+scope: ro
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+hq: unknown
+countries:
+- ro
+scale: national
+status: active
+website: https://unibuc.ro/
+summary: A university that publishes the GBIF dataset "Alien vertebrates in Romania", originated first
+  by Iulia V. Miu of its Center for Environmental Research, and runs the checklist of introduced taxa
+  in Romania.
+facts:
+- claim: Publishes on GBIF the dataset "Alien vertebrates in Romania", whose first named originator is
+    Iulia V. Miu of the university's Center for Environmental Research.
+  url: https://api.gbif.org/v1/organization/4233d792-b0f9-4a32-9d4e-e8b9bfaf97b1/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: 'Alien vertebrates in Romania: distribution, temporal trends, and introduction pathways'
+- claim: The dataset contacts name the university's Center for Environmental Research.
+  url: https://api.gbif.org/v1/organization/4233d792-b0f9-4a32-9d4e-e8b9bfaf97b1/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: University of Bucharest, Center for Environmental Research
+links:
+- type: runs
+  to: checklist-of-introduced-taxa-in-romania
+  url: https://api.gbif.org/v1/organization/daa17ab3-845b-49fb-b8b8-2615a27ab7e3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: is a taxa checklist dataset managed by the University of Constanta and University of Bucharest,
+    Romania
+found_by:
+- register:ro
+added_by: agent
+checked: 2026-11-08

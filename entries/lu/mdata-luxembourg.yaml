@@ -1,0 +1,44 @@
+id: mdata-luxembourg
+kind: project
+name: Mdata
+also_known_as:
+- mdata.mnhn.lu
+scope: lu
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- lu
+status: active
+summary: Online application for nature conservation professionals, run by the Luxembourg natural history
+  museum, that aggregates Luxembourg observation data from several citizen science platforms, GBIF and
+  the museum's databases, and uses iNaturalist.
+facts:
+- claim: An online application for nature conservation professionals.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: Mdata is an online application designed for nature conservation professionals.
+- claim: Aggregates observation data for Luxembourg from several citizen science platforms, GBIF and the
+    museum's databases.
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: It aggregates observation data for Luxembourg from iNaturalist, Observation.org, Ornitho.lu,
+    GBIF, and all information stored in the MNHNL databases.
+links:
+- type: run-by
+  to: musee-national-dhistoire-naturelle-luxembourg
+  url: https://data.public.lu/fr/datasets/mdata-mnhn-lu-biodiversity-data-aggregator-portal-of-the-mnhnl/
+  fetched: 2026-11-08
+  quote: Mdata.mnhn.lu biodiversity data aggregator portal of the MNHNL
+- type: uses
+  to: inaturalist
+  url: https://mnhn.public.lu/en/collections/donnees-observations.html
+  fetched: 2026-11-08
+  quote: It aggregates observation data for Luxembourg from iNaturalist, Observation.org, Ornitho.lu,
+    GBIF, and all information stored in the MNHNL databases.
+found_by:
+- register:lu
+- link-from:national-museum-of-natural-history-luxembourg
+added_by: agent
+checked: 2026-11-08

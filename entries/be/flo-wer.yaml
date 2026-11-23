@@ -1,0 +1,36 @@
+id: flo-wer
+kind: organisation
+name: Flo.Wer
+scope: be
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- be
+scale: regional
+status: active
+summary: Organisation that GBIF names as an initiator, alongside INBO and the National Botanic
+  Garden of Belgium, of the Florabank1 database.
+facts:
+- claim: GBIF names it as an initiator of the Florabank1 database, with INBO and the National
+    Botanic Garden of Belgium.
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: (http://www.plantenwerkgroep.be), the Research Institute for Nature and Forest (INBO)
+    (http://www.inbo.be) and the National Botanic Garden of Belgium (http://www.br.fgov.be)
+links:
+- type: builds
+  to: florabank1
+  url: https://api.gbif.org/v1/dataset/271c444f-f8d8-4986-b748-e7367755c0c1
+  fetched: 2026-11-08
+  quote: The database is an initiative of &#34;Flo.Wer&#34; (http://www.plantenwerkgroep.be),
+    the Research Institute for Nature and Forest (INBO) (http://www.inbo.be) and the National
+    Botanic Garden of Belgium (http://www.br.fgov.be).
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

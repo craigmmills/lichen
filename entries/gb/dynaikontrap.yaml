@@ -1,0 +1,40 @@
+id: dynaikontrap
+kind: project
+name: DynAIkonTrap
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://dynaikon.com/trap-docs/
+summary: Camera trap with public documentation on preparing a Raspberry Pi and installing,
+  running and tuning the trap.
+facts:
+- claim: Has public documentation for preparing the Raspberry Pi and installing, running
+    and tuning the trap.
+  url: https://dynaikon.com/trap-docs/
+  fetched: 2026-11-21
+  quote: Preparing the Raspberry Pi Installing DynAikonTrap Running the Trap Web Viewer
+    Tuning the Trap
+- claim: In September 2022 DynAikon described FASTCAT-Edge as a service for building
+    a do-it-yourself camera trap that records videos and pictures of wildlife activity.
+  url: https://dynaikon.com/
+  fetched: 2026-11-21
+  quote: FASTCAT-Edge, a service to build a do-it-yourself camera trap that records
+    videos and pictures of wildlife activity
+- claim: DynAikon published a paper in 2022 on motion vectors and deep neural networks
+    for video camera traps.
+  url: https://dynaikon.com/
+  fetched: 2026-11-21
+  quote: Motion vectors and deep neural networks for video camera
+  ai_type: deep-learning
+links: []
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+runner: unknown

@@ -1,0 +1,40 @@
+id: samarkand-state-university
+kind: organisation
+name: Samarkand State University named after Sharof Rashidov
+also_known_as:
+- Samarkand State University
+scope: uz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: uz
+countries: []
+scale: national
+status: active
+summary: University named as one of two affiliations of the first author of a 2024
+  paper on monitoring and mapping rangeland health in Samarkand using remote sensing
+  and GIS.
+facts:
+- claim: The first author of a 2024 paper on monitoring and mapping rangeland health
+    with remote sensing and GIS in Samarkand gives the university as one of his two
+    affiliations.
+  url: https://api.openalex.org/works?filter=openalex_id:W4392895133|W4382727257|W4388991052|W4402064167|W7134906507&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: 'Monitoring and Mapping rangeland health using remote sensing and GIS methods:
+    A case study in the foothill Artemisia-ephemeral rangeland region in Samarkand'
+- claim: The first author's affiliation gives the university's address on Samarkand
+    Boulevard.
+  url: https://api.openalex.org/works?filter=openalex_id:W4392895133|W4382727257|W4388991052|W4402064167|W7134906507&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Samarkand State University named after Sharof Rashidov 140104, Uzbekistan,
+    Samarkand Boulevard, 15
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,28 @@
+id: jrs-benin-project-gbif-benin
+kind: project
+name: JRS Benin project (GBIF Benin data mobilisation)
+scope: bj
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- bj
+status: unknown
+summary: Data mobilisation project under which GBIF Benin publishes datasets, including data from the
+  Lama Forest reserve.
+facts:
+- claim: GBIF Benin publishes datasets mobilised in the framework of a JRS Biodiversity Foundation project.
+  url: https://api.gbif.org/v1/organization/b2db85d5-c5fe-4125-9e36-590a5f651829/publishedDataset
+  fetched: 2026-11-08
+  quote: Inventory of Dogo-Kétou forest (South-Benin). Data mobilized in the framework of JRS Biodiversity
+    Foundation project
+- claim: Data from the Lama Forest reserve were published under the JRS Benin project.
+  url: https://api.gbif.org/v1/organization/b2db85d5-c5fe-4125-9e36-590a5f651829/publishedDataset
+  fetched: 2026-11-08
+  quote: Lama Forest reserve Inventory, South Benin. Data published in the framework of JRS Benin project
+runner: unknown
+links: []
+found_by:
+- link-from:gbif-benin
+added_by: agent
+checked: 2026-11-08

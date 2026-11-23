@@ -1,0 +1,37 @@
+id: registros-de-biodiversidad-sma
+kind: dataset
+name: Registros de biodiversidad del Sistema de Seguimiento Ambiental
+scope: cl
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- cl
+status: active
+summary: A dataset run by the Superintendencia del Medio Ambiente, which made more than 12 million biodiversity
+  records public on the SNIFA open data portal.
+facts:
+- claim: The regulator made more than 12 million biodiversity records public.
+  url: https://www.24horas.cl/conciencia-24-7/sostenibilidad/sma-12-millones-registros-biodiversidad
+  fetched: 2026-11-02
+  quote: la Superintendencia del Medio Ambiente (SMA) puso a disposición pública más de 12 millones de
+    registros de biodiversidad
+- claim: The data is on the SNIFA open data portal.
+  url: https://www.24horas.cl/conciencia-24-7/sostenibilidad/sma-12-millones-registros-biodiversidad
+  fetched: 2026-11-02
+  quote: ahora está disponible en el portal de datos abiertos del Sistema Nacional de Información de Fiscalización
+    Ambiental (SNIFA)
+links:
+- type: run-by
+  to: superintendencia-del-medio-ambiente
+  url: https://www.24horas.cl/conciencia-24-7/sostenibilidad/sma-12-millones-registros-biodiversidad
+  fetched: 2026-11-02
+  quote: Desde la SMA señalaron que esta base de datos de biodiversidad seguirá actualizándose de forma
+    progresiva , a medida que se integren nuevos reportes provenientes del seguimiento ambiental de proyectos
+    en distintas regiones del país.
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-02

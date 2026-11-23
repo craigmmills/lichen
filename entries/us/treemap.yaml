@@ -1,0 +1,31 @@
+id: treemap
+kind: dataset
+name: TreeMap
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: Forest Service tree-level model of US forests that matches Forest Inventory
+  and Analysis plots to a 30 metre grid.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - TreeMap 2016 TreeMap 2016 provides a tree- level model
+    of the forests of the conterminous United States. It matches forest plot data
+    from Forest Inventory and Analysis (FIA) to a 30 x30 meter (m) grid.
+links:
+- type: run-by
+  to: us-forest-service
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - TreeMap 2016 TreeMap 2016 provides a tree- level model
+    of the forests of the conterminous United States. It matches forest plot data
+    from Forest Inventory and Analysis (FIA) to a 30 x30 meter (m) grid.
+found_by:
+- link-from:us-forest-service
+added_by: agent
+checked: '2026-10-30'

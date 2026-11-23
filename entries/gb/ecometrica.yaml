@@ -1,0 +1,53 @@
+id: ecometrica
+kind: organisation
+name: Ecometrica
+sector: company
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: unknown
+summary: Edinburgh company that led the UK Space Agency's Forests 2020 satellite forest monitoring
+  project.
+facts:
+- claim: The UK government names it as project lead on Forests 2020.
+  url: https://www.gov.uk/government/case-studies/ecometrica-forest-monitoring-systems
+  quote: Project lead Ecometrica
+  fetched: '2026-10-30'
+- claim: Registered at Companies House as ECOMETRICA LIMITED, company number SC339323.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=ecometrica
+  quote: SC339323 - Incorporated on 11 March 2008
+  fetched: '2026-10-30'
+- claim: Led SEOS.
+  url: https://business.esa.int/projects/seos
+  quote: SEOS is an initiative led by Ecometrica
+  fetched: &id001 2026-10-30
+- claim: Registered office on the Companies House register.
+  url: https://find-and-update.company-information.service.gov.uk/company/SC339323
+  quote: Orchard Brae House, 30 Queensferry Road, Edinburgh, Scotland, EH4 2HS
+  fetched: 2026-10-30
+- claim: Its web address now serves EcoOnline ESG software, described as powered by Ecometrica.
+  url: https://ecometrica.com/
+  quote: With ESG software Powered by Ecometrica
+  fetched: 2026-10-30
+found_by:
+- checklist:6
+- checklist:5
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: leads
+  to: seos
+  url: https://business.esa.int/projects/seos
+  quote: SEOS is an initiative led by Ecometrica
+  fetched: *id001
+website: https://ecometrica.com/

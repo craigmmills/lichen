@@ -1,0 +1,59 @@
+id: nationalparkverwaltung-eifel
+kind: organisation
+name: Nationalparkverwaltung Eifel
+also_known_as:
+- Eifel National Park administration
+scope: de
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: de
+scale: local
+status: active
+summary: National park administration listed as a participating area in KI-Nationalpark, run
+  by the Landesamt für Natur, Umwelt und Klima Nordrhein-Westfalen, with staff trained on
+  site.
+facts:
+- claim: Listed as a participating area in the KI-Nationalpark project, with this postal address.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Landesamt für Natur, Umwelt und Klima NRW Nationalparkverwaltung Eifel Urftseestraße
+    34 53937 Schleiden-Gemünd
+- claim: The list marks every area as taking part in the camera programme, some in the audio
+    programme as well.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Weiß = nur Teilnahme am Kameraprogramm
+- claim: In KI-Nationalpark the protected-area administrations are trained on site and involved
+    in setting up the monitoring.
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Neben der technischen Entwicklung werden die Schutzgebietsverwaltungen vor Ort geschult
+    und in den Aufbau des Monitorings eingebunden.
+- claim: Administers the national park through the Nationalparkforstamt Eifel, under the park
+    regulation.
+  url: https://www.nationalpark-eifel.de/cache/dl-Nationalpark-Verordnung-a5ce54c6e9b804c55efe7915e042733f.pdf
+  quote: Die Nationalparkverwaltung obliegt dem Nationalparkforstamt Eifel.
+  fetched: '2026-11-17'
+links:
+- type: partners-with
+  to: ai-national-park
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Teilnehmende Gebiete am KI-Nationalpark Projekt
+- type: run-by
+  to: landesamt-fur-natur-umwelt-und-klima-nordrhein-westfalen
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Landesamt für Natur, Umwelt und Klima NRW Nationalparkverwaltung Eifel
+found_by:
+- rule:checklist-misses
+- link-from:ai-national-park
+added_by: agent
+checked: '2026-11-07'

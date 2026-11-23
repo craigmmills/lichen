@@ -1,0 +1,40 @@
+id: university-of-lincoln
+kind: organisation
+name: University of Lincoln
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with a NERC award for automated habitat assessment using AI.
+facts:
+- claim: Gives its postcode in Lincoln.
+  url: https://www.lincoln.ac.uk/contact/
+  quote: LN6 7TS
+  fetched: '2026-10-30'
+- claim: AVAIL is based in its School of Engineering & Physical Sciences.
+  url: https://avail.lincoln.ac.uk/
+  quote: is an interdisciplinary research group based within the School of Engineering & Physical
+    Sciences at the University of Lincoln
+  fetched: &id001 2026-10-30
+- claim: Delivers AI-Hab with UKCEH.
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: AI-Hab is an innovative project being delivered by UKCEH and the University of Lincoln
+  fetched: *id001
+found_by:
+- checklist:7
+- link-from:uk-research-and-innovation
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.lincoln.ac.uk/

@@ -1,0 +1,49 @@
+id: siose
+kind: dataset
+name: Sistema de Información sobre Ocupación del Suelo en España
+also_known_as:
+- SIOSE
+- Land Cover and Land Use Information System of Spain
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+countries:
+- es
+summary: Spain's national land cover and land use information system, part of the
+  National Land Monitoring Plan.
+facts:
+- claim: A national system in continuous evaluation, joining data from the regions
+    and the central government.
+  url: https://www.ign.es/resources/siose/desktop/Help/what_is_siose.htm
+  quote: It’s a national homogeneous system in continuous evaluation
+  fetched: '2026-10-31'
+- claim: SIOSE aims to generate a harmonised, detailed land cover database for all
+    of Spain.
+  url: https://www.siose.es/presentacion
+  fetched: '2026-10-31'
+  quote: Su objetivo principal es la generación de una base de datos armonizada y
+    detallada sobre la ocupación del suelo
+- claim: Production is decentralised and coordinated among several administrations.
+  url: https://www.siose.es/presentacion
+  fetched: '2026-10-31'
+  quote: La producción del SIOSE sigue un modelo descentralizado y coordinado
+links:
+- type: run-by
+  to: instituto-geografico-nacional-spain
+  url: https://www.ign.es/resources/siose/desktop/Help/what_is_siose.htm
+  quote: which coordinates and manages the National Geographic Institute (IGN)
+  fetched: '2026-10-31'
+- type: run-by
+  to: instituto-geografico-nacional-spain
+  url: https://www.siose.es/presentacion
+  fetched: '2026-10-31'
+  quote: La Dirección Técnica del proyecto SIOSE está a cargo del Instituto Geográfico
+    Nacional (IGN)
+found_by:
+- checklist:2
+scope: es
+added_by: agent
+checked: '2026-10-31'

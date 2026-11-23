@@ -1,0 +1,52 @@
+id: mahidol-university
+kind: organisation
+name: Mahidol University
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- th
+scale: national
+status: active
+summary: University whose Kanchanaburi campus is the affiliation of a paper's first
+  author on remote sensing of vegetation recovery in karst forests, and whose researchers,
+  EarthRanger says, use its elephant early warning data.
+facts:
+- claim: The first author of a paper on remote sensing indicators of vegetation recovery
+    in tropical karst forests of western Thailand gives Mahidol University's Kanchanaburi
+    campus as affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W7225467662|W4415098542|W7162469822&select=id,display_name,authorships
+  fetched: 2026-11-13
+  quote: Environmental Engineering and Disaster Management Program, School of Interdisciplinary
+    Studies, Mahidol University Kanchanaburi Campus
+- claim: The paper is on remote sensing indicators of vegetation recovery.
+  url: https://api.openalex.org/works?filter=openalex:W7225467662|W4415098542|W7162469822&select=id,display_name,authorships
+  fetched: 2026-11-13
+  quote: Remote sensing indicators of vegetation recovery and its spatial and climatic
+    controls in tropical karst forests of Western Thailand
+- claim: EarthRanger says researchers at Mahidol University and KMUTT use the early
+    warning system's data to identify corridors, timing and conditions that predict
+    raiding events.
+  url: https://www.earthranger.com/success-stories/when-the-forest-calls-ai-and-community-science-build-thailands-elephant-early-warning-system
+  fetched: 2026-11-13
+  quote: Researchers at Mahidol University and KMUTT are using this data to identify
+    the corridors, timing, and conditions that predict raiding events
+links:
+- type: partners-with
+  to: thailand-elephant-early-warning-system-earthranger
+  url: https://www.earthranger.com/success-stories/when-the-forest-calls-ai-and-community-science-build-thailands-elephant-early-warning-system
+  fetched: 2026-11-13
+  quote: Mahidol University, King Mongkut's University of Technology (KMUTT), farming
+    communities, conservation scientists, and the EarthRanger’s Asian team around
+    a shared goal
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

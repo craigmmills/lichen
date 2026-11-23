@@ -1,0 +1,42 @@
+id: green-university-of-bangladesh
+kind: organisation
+name: Green University of Bangladesh
+also_known_as: []
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Dhaka university whose computer science and engineering researcher led a 2025 paper
+  on acoustic recognition of marine mammals using deep learning.
+facts:
+- claim: A researcher in its Department of Computer Science and Engineering was first author
+    of a 2025 paper on acoustic recognition of marine mammals with deep learning.
+  url: https://api.openalex.org/works/W7128015400?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Acoustic Recognition of Marine Mammals Using Deep Learning Approaches
+- claim: OpenAlex gives the first author's affiliation as the Department of Computer Science
+    and Engineering, Green University of Bangladesh, Dhaka.
+  url: https://api.openalex.org/works/W7128015400?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Green University of Bangladesh,Department of Computer Science and Engineering,Dhaka,Bangladesh
+- claim: The paper's title names the method (deep-learning).
+  url: https://api.openalex.org/works/W7128015400?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Acoustic Recognition of Marine Mammals Using Deep Learning Approaches
+  ai_type: deep-learning
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-07'

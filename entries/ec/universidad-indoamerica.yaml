@@ -1,0 +1,61 @@
+id: universidad-indoamerica
+kind: organisation
+name: Universidad Indoamérica
+scope: ec
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- land
+techniques:
+- species-distribution
+- remote-sensing
+- other
+hq: ec
+countries:
+- ec
+scale: national
+status: active
+summary: University with papers on forest change drivers using random forests (2019) and species
+  distribution modelling using deep learning (2026), whose first author gives a Quito affiliation.
+facts:
+- claim: OpenAlex lists a 2026 paper by Fabián Santos of Universidad Indoamérica on deep learning
+    for species distribution modelling.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,title_and_abstract.search:deep%20learning%20species%7Cconvolutional%20wildlife%7Cmachine%20learning%20deforestation%7Cmachine%20learning%20mangrove%7CGalapagos%20machine%20learning,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: An integrated sequential deep learning framework with experience replay for large-scale
+    species distribution modeling under data scarcity
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2019 paper by the same first author on forest change drivers using
+    random forests.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ec,concepts.id:C119857082,concepts.id:C18903297,from_publication_date:2018-01-01&sort=cited_by_count:desc&per_page=50&select=display_name,publication_year,cited_by_count,doi,authorships
+  fetched: 2026-11-02
+  quote: A geographically weighted random forest approach for evaluate forest change drivers
+    in the Northern Ecuadorian Amazon
+- claim: OpenAlex lists a 2019 paper with Universidad Indoamérica authors on geographically
+    weighted random forests for forest-change drivers in the Northern Ecuadorian Amazon.
+  url: https://api.openalex.org/works/W2998363839
+  fetched: '2026-11-02'
+  quote: A geographically weighted random forest approach for evaluate forest change drivers
+    in the Northern Ecuadorian Amazon
+  ai_type: ml-supervised
+- claim: The first author gives the university's research centre in Quito as his affiliation.
+  url: https://api.openalex.org/works/W2998363839
+  quote: Research Center for the Territory and Sustainable Habitat
+  fetched: '2026-11-02'
+- claim: Its site lists campuses including Quito and Latacunga as well as Ambato.
+  url: https://indoamerica.edu.ec/
+  quote: Sede Ambato - Manuela Sáenz Sede Quito Sede Latacunga
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+- checklist:register-d
+added_by: agent
+checked: 2026-11-02
+also_known_as:
+- Universidad Indoamérica

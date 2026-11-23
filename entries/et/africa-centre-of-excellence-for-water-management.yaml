@@ -1,0 +1,39 @@
+id: africa-centre-of-excellence-for-water-management
+kind: organisation
+name: Africa Centre of Excellence for Water Management
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Centre at Addis Ababa University, listed as one affiliation of the first author of
+  a 2026 paper on Bi-LSTM deep learning and Sentinel-2 water quality monitoring.
+facts:
+- claim: OpenAlex lists a 2026 paper on Bi-LSTM deep learning and Sentinel-2 remote sensing
+    for water quality monitoring.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: Integrating Bi-LSTM deep learning and Sentinel-2 remote sensing for advanced spatiotemporal
+    water quality monitoring and anomaly detection
+  ai_type: deep-learning
+- claim: OpenAlex gives one affiliation of its first author, W. Adugna, as the centre at Addis
+    Ababa University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: African Center of Excellence for Water Management, Water Science & Technology, Addis
+    Ababa University, Addis Ababa, Ethiopia
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

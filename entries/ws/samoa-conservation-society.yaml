@@ -1,0 +1,80 @@
+id: samoa-conservation-society
+kind: organisation
+name: Samoa Conservation Society
+also_known_as:
+- SCS
+- Sosaiete Faasao o Samoa
+scope: ws
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: Conservation NGO that a 2025 Mongabay commentary says has sought help applying AI to manumea
+  calls; a 2025 preprint tested a detection pipeline on its 2021 to 2023 recordings.
+facts:
+- claim: Describes itself as a local non-governmental organisation promoting the conservation of Samoa's
+    biological diversity and natural heritage.
+  url: https://www.impactpool.org/organizations/330568/samoaconservationsociety
+  fetched: 2026-11-12
+  quote: We are a local non-governmental organisation dedicated to promoting the conservation of Samoa’s
+    biological diversity and natural heritage.
+- claim: In May 2022, Talanei reported manumea sightings at Uafato on Upolu by teams from the Samoa Conservation
+    Society and IUCN’s BIOPAMA programme.
+  url: https://talanei.com/?p=77288
+  fetched: 2026-11-12
+  quote: This follows the recent sightings of the Samoan native bird on the eastern rainforests at Uafato
+    village on Upolu island by teams of conservationists from the Samoa Conservation Society and the Biodiversity
+    and Protected Areas Management [BIOPAMA] programme
+- claim: A 2025 Mongabay commentary says the society has continued field surveys, controlled rats in a
+    key conservation area and created community conservation areas.
+  url: https://news.mongabay.com/2025/09/funding-is-needed-save-samoas-little-dodo-from-extinction-commentary
+  fetched: 2026-11-12
+  quote: The SFS has made commendable progress in recent years — raising awareness at the national level,
+    controlling rats within a key conservation area, creating new community conservation areas, and continuing
+    field surveys.
+- claim: The same commentary says the society, with BirdLife and IUCN support, has sought help from Cornell
+    University and Colossal Biosciences to apply AI and machine learning to identifying the manumea's
+    call; it says the lack of confirmed recordings is the main barrier.
+  url: https://news.mongabay.com/2025/09/funding-is-needed-save-samoas-little-dodo-from-extinction-commentary
+  fetched: 2026-11-12
+  quote: Moe and the SFS, now with support from BirdLife and the IUCN, have sought help from Cornell University
+    and Colossal Biosciences to apply artificial intelligence and machine learning to the problem.
+- claim: IUCN reports that the society's Kiwa-backed project monitors native tree growth and invasive
+    alien species at three photopoints, with rounds every six months since 2023, and that community rangers
+    carry out biodiversity monitoring at project sites.
+  url: https://iucn.org/node/47804?language=fr
+  fetched: 2026-11-12
+  quote: Native tree growth and invasive alien species monitoring is a crucial component of the project,
+    with three photopoints having been established to support this work. The first monitoring round was
+    completed in 2023 and is regularly updated every 6 months.
+- claim: A 2025 arXiv preprint, with Moeumu Uili and James Atherton among its authors, says its manumea-call
+    detection pipeline was tested on field recordings from the society, which it calls the “Samoan Conservation
+    Society”; the recorders were deployed across Samoa from 2021 to 2023.
+  url: https://arxiv.org/html/2504.16276v1
+  fetched: 2026-11-12
+  quote: 'Real-World Application: Our results demonstrate the detection pipeline’s effectiveness, tested
+    on real-world field recordings from the Samoan Conservation Society.'
+links:
+- type: partners-with
+  to: birdlife-international
+  url: https://talanei.com/?p=77288
+  fetched: 2026-11-12
+  quote: Samoa Conservation Society’s Manumea Project in partnership with Birdlife International
+- type: funded-by
+  to: kiwa-initiative
+  url: https://iucn.org/node/47804?language=fr
+  fetched: 2026-11-12
+  quote: The Kiwa Initiative is making all of this possible, equipping communities and practitioners with
+    targeted technical support and funding to address key environmental challenges through locally led,
+    sustainable solutions.
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-12

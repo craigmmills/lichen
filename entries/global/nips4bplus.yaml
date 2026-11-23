@@ -1,0 +1,33 @@
+id: nips4bplus
+kind: dataset
+name: NIPS4Bplus
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+status: unknown
+website: https://arxiv.org/abs/1811.02275
+summary: Birdsong audio dataset that its paper presents as richly annotated with species
+  tags and temporal annotations, and suggests using to train models for bird population
+  monitoring and species classification.
+facts:
+- claim: The paper presents NIPS4Bplus as a richly annotated birdsong audio dataset
+    with species tags and temporal annotations.
+  url: https://arxiv.org/abs/1811.02275
+  fetched: 2026-11-21
+  quote: we present NIPS4Bplus, the first richly annotated birdsong audio dataset
+- claim: The paper suggests using the dataset to train models for bird population
+    monitoring and species classification.
+  url: https://arxiv.org/abs/1811.02275
+  fetched: 2026-11-21
+  quote: NIPS4Bplus could be used in various ecoacoustic tasks, such as training models
+    for bird population monitoring, species classification, birdsong vocalisation
+    detection and classification.
+links: []
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21
+runner: unknown

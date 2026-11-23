@@ -1,0 +1,68 @@
+id: bioclip
+kind: model
+name: BioCLIP
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+- multimodal
+- foundation-models
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://imageomics.github.io/bioclip/
+summary: Vision foundation model for the tree of life, a CLIP model trained on 10 million
+  images of organisms with fine-grained taxonomic labels.
+facts:
+- claim: CLIP model trained on a 10M-image dataset of organisms.
+  url: https://github.com/Imageomics/bioclip
+  fetched: '2026-10-30'
+  quote: BioCLIP is a CLIP model trained on a new 10M-image dataset of biological organisms
+    with fine-grained taxonomic labels.
+- claim: BioCLIP is described as a large-scale multimodal model.
+  url: https://imageomics.github.io/bioclip/
+  fetched: '2026-10-30'
+  quote: We develop the first large-scale multimodal model, BioCLIP , for general biology
+    questions on images.
+  ai_type: multimodal
+- claim: The BioCLIP paper calls it a vision foundation model.
+  url: https://github.com/Imageomics/bioclip
+  fetched: '2026-10-30'
+  quote: A Vision Foundation Model for the Tree of Life
+  ai_type: foundation-models
+- claim: The BioCLIP model is a ViT (vision transformer) pre-trained with the CLIP objective.
+  url: https://github.com/Imageomics/bioclip
+  fetched: '2026-10-30'
+  quote: The BioCLIP model is a ViT-B/16 pre-trained with the CLIP objective.
+  ai_type: deep-learning
+- claim: BioCLIP was trained on images carrying fine-grained taxonomic labels.
+  url: https://github.com/Imageomics/bioclip
+  fetched: '2026-10-30'
+  quote: BioCLIP is a CLIP model trained on a new 10M-image dataset of biological organisms
+    with fine-grained taxonomic labels.
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: imageomics-institute
+  url: https://github.com/Imageomics/bioclip
+  fetched: '2026-10-30'
+  quote: GitHub - Imageomics/bioclip
+- type: partners-with
+  to: ohio-state-university
+  url: https://imageomics.github.io/bioclip/
+  fetched: '2026-10-30'
+  quote: 1 The Ohio State University
+- type: builds-on
+  to: treeoflife-10m
+  url: https://imageomics.github.io/bioclip/
+  fetched: '2026-10-30'
+  quote: We train BioCLIP on TreeOfLife-10M and release the weights for public use.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

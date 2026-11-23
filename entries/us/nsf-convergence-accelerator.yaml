@@ -1,0 +1,27 @@
+id: nsf-convergence-accelerator
+kind: programme
+name: NSF Convergence Accelerator
+scope: us
+ai_label: conservation-tech
+status: active
+summary: NSF programme funding use-driven projects, including TealWaters on wetlands
+  and Digital Reefs on coral reefs.
+facts:
+- claim: Funds TealWaters.
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'NSF Convergence Accelerator Future Water Systems: TealWaters'
+- claim: Funds Digital Reefs.
+  url: https://api.nsf.gov/services/v1/awards/2230734.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'NSF Convergence Accelerator Track E: Digital Reefs'
+links:
+- type: run-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2452159.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: NSF Convergence Accelerator
+found_by:
+- checklist:6
+added_by: agent
+checked: '2026-10-30'

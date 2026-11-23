@@ -1,0 +1,81 @@
+id: museum-fur-naturkunde-berlin
+kind: organisation
+name: Museum für Naturkunde Berlin
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: de
+scale: national
+status: active
+website: https://www.museumfuernaturkunde.berlin
+summary: Integrated research museum in the Leibniz Association, in Berlin, that runs the Naturblick
+  app, whose AI recognises species, and holds GBIF Germany's nodes for insects and fossils.
+facts:
+- claim: Describes itself as an integrated research museum within the Leibniz Association.
+  url: https://www.museumfuernaturkunde.berlin/en/museum/media/press/naturblick-now-offers-digital-access-nature-all-german-cities
+  quote: is an outstanding, integrated research museum within the Leibniz Association
+  fetched: '2026-10-31'
+- claim: GBIF Germany lists MfN Berlin as responsible for insects.
+  url: https://www.gbif.de/homeenglish
+  quote: MfN Berlin responsible for Insects
+  fetched: '2026-10-31'
+- claim: A data centre for collection, observation, taxonomic and trait data.
+  url: https://www.nfdi4biodiversity.org/de/datenzentren/
+  fetched: '2026-10-31'
+  quote: Das Museum für Naturkunde (MfN) Berlin fokussiert sich auf Sammlungs- und Beobachtungsdaten
+    sowie taxonomische und Merkmalsdaten
+- claim: Researchers developed a method to read label information from digitised insect specimens.
+  url: https://idw-online.de/de/news865528
+  fetched: '2026-10-31'
+  quote: Forschende des Museums für Naturkunde Berlin haben gemeinsam mit Datenwissenschaftler:innen
+    eine neue Methode entwickelt, um Etiketteninformationen aus digitalisierten Insektenpräparaten
+    weitgehend automatisiert auszulesen.
+- claim: Says signal processing and pattern recognition increasingly allow automated species
+    identification from animal sounds.
+  url: https://www.museumfuernaturkunde.berlin/en/research/collection/animal-sound-archive
+  fetched: '2026-10-31'
+  quote: Advances in signal processing and pattern recognition are increasingly enabling automated
+    methods for species identification.
+- claim: Its address is in Berlin.
+  url: https://www.museumfuernaturkunde.berlin/en/research/collection/animal-sound-archive
+  fetched: '2026-10-31'
+  quote: Invalidenstr. 43
+links:
+- type: runs
+  to: naturblick
+  url: https://www.museumfuernaturkunde.berlin/en/explore/citizen-science/discover-urban-nature-with-the-naturblick-app/
+  quote: the Naturblick app is one of the Museum für Naturkunde Berlin's "bestsellers"
+  fetched: '2026-10-31'
+- type: runs
+  to: animal-sound-archive
+  url: https://www.museumfuernaturkunde.berlin/en/research/collection/animal-sound-archive
+  fetched: '2026-10-31'
+  quote: Our Animal Sound Archive is one of the oldest of its kind and the third-largest bioacoustic
+    collection in the world.
+- type: runs
+  to: naturblick
+  url: https://naturblick.museumfuernaturkunde.berlin/
+  fetched: '2026-10-31'
+  quote: Naturblick 2020 Museum für Naturkunde Berlin
+found_by:
+- checklist:4
+- link-from:queue-de
+- checklist:5
+- register:de
+scope: de
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- Leibniz Institute for Evolution and Biodiversity Science
+- MfN
+- Museum für Naturkunde - Leibniz-Institut für Evolutions- und Biodiversitätsforschung
+countries:
+- de
+techniques:
+- bioacoustics
+- computer-vision

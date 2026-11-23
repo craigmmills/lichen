@@ -1,0 +1,105 @@
+id: forest-research-institute-malaysia
+kind: organisation
+name: Forest Research Institute Malaysia
+also_known_as:
+- FRIM
+- FRIM Inc.
+scope: my
+sector: government
+roles:
+- unknown
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: my
+countries:
+- my
+scale: national
+status: active
+website: https://www.frim.gov.my/
+summary: A forestry research institution in Kepong, Selangor, established in 1926, whose staff
+  paper in 2021 tested drone hyperspectral imaging with Random Forest and Support Vector Machine
+  classifiers to identify six tree species.
+facts:
+- claim: Named with the ministry and the Malaysia Biodiversity Centre in the website citation
+    for MyBIS.
+  url: https://www.mybis.gov.my/art/15
+  fetched: 2026-11-03
+  quote: Ministry of Natural Resources and Environmental Sustainability, Malaysia Biodiversity
+    Centre & Forest Research Institute Malaysia.
+- claim: OpenAlex counts 5 works with its authors on AI in ecology subfields since 2018.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: Forest Research Institute Malaysia
+- claim: Its Director General said in 2018 that MyWood-ID was meant to help the authorities,
+    the timber industry and the public identify wood.
+  url: https://www.frim.gov.my/frim-organises-mywood-id-tech-talk/
+  fetched: 2026-11-03
+  quote: It is hoped that MyWood-ID Application technology will help the authorities, the
+    timber industry and the public in identifying the wood quickly and accurately
+- claim: Xinhua, in The Star, calls it the commercial subsidiary of the Forest Research Institute
+    Malaysia.
+  url: https://www.thestar.com.my/news/world/2025/11/04/malaysia-to-develop-ai-driven-carbon-intelligence
+  fetched: 2026-11-03
+  quote: the Forest Research Institute Malaysia's commercial subsidiary FRIM Incorporated
+    Sdn Bhd
+- claim: Founded in 1926 and made a full statutory body in 1985.
+  url: https://www.frim.gov.my/about-us/overview/
+  quote: Founded in 1926, the former Forest Research Institute became a full-fledged statutory
+    body
+  fetched: 2026-11-03
+- claim: Its forest biodiversity area aims to give scientific knowledge to safeguard biodiversity
+    and ecosystem services in Malaysia.
+  url: https://www.frim.gov.my/rd-focus/forestry-biodiversity/
+  quote: To provide and develop key scientific knowledge to safeguard biodiversity and ecosystem
+    services in Malaysia for their wise management and sustainable utilisation.
+  fetched: 2026-11-03
+- claim: Developed the Malaysia Biological Diversity CHM (MyCHM) website.
+  url: https://www.frim.gov.my/about-us/overview/
+  quote: the Malaysia Biological Diversity CHM (MyCHM) website, developed by FRIM
+  fetched: 2026-11-03
+- claim: Based at Kepong, Selangor.
+  url: https://www.frim.gov.my/rd-focus/forestry-biodiversity/
+  quote: 52109 Kepong, Selangor Darul Ehsan, Malaysia.
+  fetched: 2026-11-03
+- claim: A research institution for forestry, established in 1926.
+  url: https://www.frim.gov.my/
+  fetched: 2026-11-03
+  quote: Established in 1926, FRIM has played a pivotal role in the development and management
+    of Malaysia’s forest resources
+- claim: Located on a 545-hectare site in Kepong.
+  url: https://www.frim.gov.my/
+  fetched: 2026-11-03
+  quote: Located on a 545-hectare site in Kepong, FRIM is home to a wide range of facilities
+    and research programmes, including a herbarium, arboretum, ecotourism spots and laboratories.
+- claim: A 2021 paper by staff of its Forestry and Environment Division tested a drone hyperspectral
+    imager for identifying six tree species on the institute's campus.
+  url: https://jagst.utm.my/index.php/jagst/article/download/17/9
+  fetched: '2026-11-03'
+  quote: of Forest Research Institute Malaysia (FRIM). This study attempts to compare data
+    types and classification approaches to find
+- claim: The paper's classifiers were Random Forest and Support Vector Machine.
+  url: https://jagst.utm.my/index.php/jagst/article/download/17/9
+  fetched: '2026-11-03'
+  quote: Keywords - OCITM-F Hyperspectral Imager, Species Identification, Random Forest, Support
+    Vector Machine.
+  ai_type: ml-supervised
+links:
+- type: partners-with
+  to: sastena-technology
+  url: https://www.thestar.com.my/news/world/2025/11/04/malaysia-to-develop-ai-driven-carbon-intelligence
+  fetched: 2026-11-03
+  quote: have formed an artificial intelligence (AI)-driven carbon intelligence partnership
+found_by:
+- checklist:3
+- checklist:5
+- link-from:queue-my
+- checklist:register
+added_by: agent
+checked: 2026-11-03
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised

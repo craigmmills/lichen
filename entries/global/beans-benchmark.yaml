@@ -1,0 +1,30 @@
+id: beans-benchmark
+kind: dataset
+name: BEANS
+also_known_as:
+- Benchmark of Animal Sounds
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+status: active
+website: https://github.com/earthspecies/beans
+summary: Benchmark of bioacoustics classification and detection tasks built from 12 public datasets, used to measure machine learning methods on animal sounds.
+facts:
+- claim: Includes 12 datasets covering birds, mammals, anurans and insects.
+  url: https://github.com/earthspecies/beans
+  fetched: '2026-10-30'
+  quote: It includes 12 datasets covering various species, including birds, land and marine mammals, anurans, and insects.
+links:
+- type: run-by
+  to: earth-species-project
+  url: https://github.com/earthspecies/beans
+  fetched: '2026-10-30'
+  quote: 'GitHub - earthspecies/beans: BEANS: The Benchmark of Animal Sounds'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

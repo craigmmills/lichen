@@ -1,0 +1,37 @@
+id: animal-scanner
+kind: programme
+name: Animal Scanner
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://pmc.ncbi.nlm.nih.gov/articles/PMC6392355/
+summary: Software that classifies humans, animals and empty frames in camera-trap images,
+  using background subtraction across sequences to find moving objects and a deep convolutional
+  network to classify regions.
+facts:
+- claim: Software for classifying humans, animals and empty frames in camera-trap images.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6392355/
+  fetched: 2026-11-21
+  quote: 'Animal Scanner: Software for classifying humans, animals, and empty frames in camera
+    trap images.'
+- claim: Uses a deep convolutional neural network to classify segmented regions of each frame.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6392355/
+  fetched: 2026-11-21
+  quote: segmenting each frame into regions using the DCNN feature maps and classify each
+    region with a faster DCNN model
+  ai_type: deep-learning
+- claim: Uses sequence-level background subtraction to locate moving objects.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6392355/
+  fetched: 2026-11-21
+  quote: Our sequence‐level background subtraction shows an effective approach to localize
+    the moving objects.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

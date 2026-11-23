@@ -1,0 +1,96 @@
+id: birdlife-australia
+kind: organisation
+name: BirdLife Australia
+scope: au
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- governs
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+- other
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: Bird conservation organisation that deployed acoustic monitors which found the Eastern
+  Bristlebird in South East Queensland.
+facts:
+- claim: Deployed acoustic monitors in surveys that found the Eastern Bristlebird.
+  url: https://www.hlw.org.au/news/ai-finds-eastern-bristlebird-in-seq-music-to-the-ears-of-bird-enthusiasts
+  fetched: '2026-10-31'
+  quote: This finding was made by BirdLife Australia, who deployed acoustic monitors as part
+    of surveys supported by Healthy Land & Water and the Australian Government.
+- claim: Gives an address in Collingwood, Victoria.
+  url: https://birdlife.org.au/about/partners/
+  fetched: '2026-10-31'
+  quote: 54 Wellington Street, Collingwood VIC 3066
+- claim: A member of BirdLife International.
+  url: https://birdlife.org.au/about/partners/
+  fetched: '2026-10-31'
+  quote: BirdLife Australia is a member of the world’s largest conservation partnership
+  ai_type: BirdLife International
+- claim: Runs Birdata.
+  url: https://www.birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is BirdLife Australia’s online Bird Monitoring Platform.
+- claim: Describes Birdata as a national bird monitoring platform with over 30 million records.
+  url: https://birdlife.org.au/
+  fetched: '2026-10-31'
+  quote: Birdata is Australia's online national bird monitoring platform.
+- claim: Its monitoring programme is on Birdata.
+  url: https://birdata.birdlife.org.au/
+  fetched: '2026-10-31'
+  quote: BirdLife Australia’s national bird monitoring program
+- claim: Manages and operates Gluepot Reserve entirely with volunteers, with the sole purpose
+    of conserving the region's unique ecosystem.
+  url: https://birdlife.org.au/places/gluepot-reserve/
+  quote: Gluepot Reserve is managed and operated entirely by volunteers with the sole purpose
+    to conserve this region’s unique ecosystem
+  fetched: '2026-11-17'
+links:
+- type: partners-with
+  to: healthy-land-and-water
+  url: https://www.hlw.org.au/news/ai-finds-eastern-bristlebird-in-seq-music-to-the-ears-of-bird-enthusiasts
+  fetched: '2026-10-31'
+  quote: This finding was made by BirdLife Australia, who deployed acoustic monitors as part
+    of surveys supported by Healthy Land & Water and the Australian Government.
+- type: runs
+  to: birdata
+  url: https://birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is BirdLife Australia’s online Bird Monitoring Platform.
+- type: partners-with
+  to: birdlife-international
+  url: https://birdlife.org.au/about/partners/
+  fetched: '2026-10-31'
+  quote: BirdLife Australia is a member of the world’s largest conservation partnership
+  logo: BirdLife International
+- type: partners-with
+  to: queensland-university-of-technology
+  url: https://birdlife.org.au/about/partners/
+  fetched: '2026-10-31'
+  quote: Queensland University of Technology
+- type: runs
+  to: birdata
+  url: https://www.birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is BirdLife Australia’s online Bird Monitoring Platform.
+- type: runs
+  to: birdata
+  url: https://birdata.birdlife.org.au/
+  fetched: '2026-10-31'
+  quote: BirdLife Australia’s national bird monitoring program
+found_by:
+- checklist:4
+- queue:au
+- link-from:australian-acoustic-observatory
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

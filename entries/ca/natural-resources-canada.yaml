@@ -1,0 +1,63 @@
+id: natural-resources-canada
+kind: organisation
+name: Natural Resources Canada
+also_known_as:
+- NRCan
+scope: ca
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: ai
+scale: national
+hq: ca
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+website: https://natural-resources.canada.ca
+summary: Federal department that publishes national forest and land cover data, through the
+  Canadian Forest Service and the Canada Centre for Mapping and Earth Observation.
+facts:
+- claim: Listed as publisher of the Canada Landsat Disturbance dataset.
+  url: https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad
+  fetched: '2026-10-31'
+  quote: Government of Canada; Natural Resources Canada; Canadian Forest Service
+- claim: Its site says the Canada Centre for Mapping and Earth Observation has produced national
+    land cover products.
+  url: https://natural-resources.canada.ca/science-data/science-research/earth-sciences-land-cover
+  fetched: '2026-10-31'
+  quote: The Canada Centre for Mapping and Earth Observation (CCMEO) has produced a number
+    of national scale and northern land cover products
+- claim: Mila says it maps wildfire hazards with the Canadian BurnP3/BurnP3+ simulator.
+  url: https://mila.quebec/en/ai4humanity/applied-projects/accelerating-wildfire-hazard-mapping-across-canada-with-ai
+  fetched: '2026-10-31'
+  quote: Natural Resources Canada (NRCan) maps wildfire hazards on both regional and national
+    scales
+- claim: Its Canada Centre for Mapping and Earth Observation develops geographic information
+    working with satellites and space agencies.
+  url: https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-mapping-earth-observation
+  fetched: '2026-10-31'
+  quote: develops essential geographic information and location-based data using innovative
+    research working with satellites and space agencies
+links:
+- type: runs
+  to: canada-centre-for-mapping-and-earth-observation
+  url: https://www.canada.ca/en/space-agency/news/2025/02/wildfiresat-72-million-for-critical-canadian-space-infrastructure-for-wildfires.html
+  fetched: '2026-10-31'
+  quote: Natural Resources Canada's Canadian Forest Service and Canada Centre for Mapping
+    and Earth Observation
+  via: webfetch
+- type: partners-with
+  to: ai-wildfire-hazard-mapping-canada
+  url: https://mila.quebec/en/ai4humanity/applied-projects/accelerating-wildfire-hazard-mapping-across-canada-with-ai
+  fetched: '2026-10-31'
+  quote: Mila’s applied research team and NRCan scientists collaborated for over a year
+found_by:
+- checklist:1
+- link-from:mila-quebec-ai-institute
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

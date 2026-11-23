@@ -1,0 +1,44 @@
+id: gbif-pakistan
+kind: programme
+name: GBIF Pakistan
+scope: pk
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- pk
+status: unknown
+runner: unknown
+summary: Pakistan's observer participant node in GBIF, listed in the registry at the Zoological Sciences
+  Division, Shakarparian, Islamabad, with a home page on the Pakistan Museum of Natural History site.
+facts:
+- claim: The GBIF registry lists GBIF Pakistan as an observer participant node.
+  url: https://api.gbif.org/v1/node/country/PK
+  fetched: 2026-11-03
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"ASIA","continent":"ASIA","title":"GBIF Pakistan"'
+- claim: The registry gives the node's address as the Zoological Sciences Division, Shakarparian, Islamabad.
+  url: https://api.gbif.org/v1/node/country/PK
+  fetched: 2026-11-03
+  quote: Zoological Sciences Division\nGarden Avenue \nShakarparian \nIslamabad
+- claim: The registry gives a home page on the Pakistan Museum of Natural History site.
+  url: https://api.gbif.org/v1/node/country/PK
+  fetched: 2026-11-03
+  quote: '"homepage":["http://www.pmnh.gov.pk/htm/bgn.html"]'
+- claim: The node's GBIF record gives an address at the Zoological Sciences Division, Garden Avenue, Shakarparian,
+    Islamabad.
+  url: https://api.gbif.org/v1/node/country/PK
+  fetched: '2026-11-03'
+  quote: Zoological Sciences Division
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/PK
+  fetched: '2026-11-03'
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-03

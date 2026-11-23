@@ -1,0 +1,48 @@
+id: papua-new-guinea-forest-monitoring-portal
+kind: project
+name: Papua New Guinea Forest Monitoring Portal
+scope: pg
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pg
+status: unknown
+summary: University of PNG portal that an archived 2015 EU page described as mapping
+  recent clearing, logging and fire from Landsat, SPOT and MODIS imagery, with a real-time
+  fire watch website already online.
+facts:
+- claim: The archived EU page dated 20 October 2015 described the University of PNG’s
+    Forest Monitoring Portal as collecting satellite imagery and mapping recent clearing,
+    logging and fire.
+  url: https://www.eeas.europa.eu/node/12267_en
+  fetched: 2026-11-12
+  quote: The Forest Monitoring Portal of the University of PNG collects satellite
+    imagery of forests, maps recent areas of clearing, logging and fire.
+- claim: The 2015 page reported use of Landsat, SPOT and MODIS imagery in CLASlite
+    to identify recent deforestation or logging, and use of the MODIS fire detection
+    product.
+  url: https://www.eeas.europa.eu/node/12267_en
+  fetched: 2026-11-12
+  quote: Use of Landsat, SPOT and MODIS imagery in the CLASlite software to regularly
+    identify areas of recent change in the form of deforestation or logging, use of
+    the MODIS satellite’s fire detection product.
+- claim: The 2015 page said a fire watch website was already online showing forest
+    fires, updated in real time.
+  url: https://www.eeas.europa.eu/node/12267_en
+  fetched: 2026-11-12
+  quote: A fire watch website is already online that shows the location of forest
+    fires, updated in real time.
+links:
+- type: run-by
+  to: university-of-papua-new-guinea
+  url: https://www.eeas.europa.eu/node/12267_en
+  fetched: 2026-11-12
+  quote: The Forest Monitoring Portal of the University of PNG collects satellite
+    imagery of forests, maps recent areas of clearing, logging and fire.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,40 @@
+id: predacam
+kind: model
+name: PredaCAM
+scope: nz
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- nz
+status: active
+summary: Rat-detecting camera using infrared and a cloud-based AI model with mobile network alerts, built
+  by ASG Technologies, funded by DOC, and reported in 2024 as over 80% accurate in initial field trials.
+facts:
+- claim: Uses infrared technology and a cloud-based AI model that detects rats and relays alerts over
+    the mobile network.
+  url: https://www.doc.govt.nz/news/media-releases/2024-media-releases/new-ai-predator-detection-tools-available/
+  fetched: 2026-11-07
+  quote: ASG Technologies PredaCAM uses infrared technology and a cloud-based AI model that detects rats
+    and relays instant alerts using the existing mobile network.
+- claim: Achieved over 80% accuracy in detecting rats in initial field trials, as reported in 2024.
+  url: https://www.doc.govt.nz/news/media-releases/2024-media-releases/new-ai-predator-detection-tools-available/
+  fetched: 2026-11-07
+  quote: In initial field trials, the PredaCAM achieved over 80% accuracy in detecting rats in the images.
+links:
+- type: built-by
+  to: asg-technologies
+  url: https://www.doc.govt.nz/news/media-releases/2024-media-releases/new-ai-predator-detection-tools-available/
+  fetched: 2026-11-07
+  quote: ASG Technologies Ltd’s ‘PredaCAM’
+- type: funded-by
+  to: department-of-conservation-new-zealand
+  url: https://www.doc.govt.nz/news/media-releases/2024-media-releases/new-ai-predator-detection-tools-available/
+  fetched: 2026-11-07
+  quote: DOC funded development of the PredaCAM camera hardware
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,56 @@
+id: gbif-nigeria
+kind: programme
+name: GBIF Nigeria
+scope: ng
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ng
+status: active
+runner: unknown
+summary: Active programme that is the GBIF country node for Nigeria, an associate participant,
+  led by Omokafe Alaba Ugbogu, with 17 endorsed publishers.
+facts:
+- claim: GBIF lists Nigeria as an associate participant, with GBIF Nigeria as its country
+    node.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335
+  fetched: 2026-11-03
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Nigeria"'
+- claim: The node has endorsed 17 publishers.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335/organization?limit=100
+  fetched: 2026-11-03
+  quote: '"endOfRecords":true,"count":17'
+- claim: The node's listed homepage is ngbif.org.ng.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335
+  fetched: 2026-11-03
+  quote: '"homepage":["http://www.ngbif.org.ng/"]'
+- claim: GBIF's directory lists GBIF Nigeria as the node for Nigeria, an associate participant.
+  url: https://api.gbif.org/v1/node?q=Nigeria
+  fetched: 2026-11-03
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Nigeria"'
+- claim: The GBIF country node for Nigeria.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335
+  fetched: '2026-11-03'
+  quote: '"title":"GBIF Nigeria","participantTitle":"Nigeria, Federal Republic of"'
+- claim: Participation status is associate.
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335
+  fetched: '2026-11-03'
+  quote: '"participationStatus":"ASSOCIATE"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/6529bcb5-a542-4fda-be87-54a624515335
+  fetched: 2026-11-03
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Nigeria"'
+found_by:
+- queue:ng
+- checklist:2
+- register:ng
+added_by: agent
+checked: 2026-11-03

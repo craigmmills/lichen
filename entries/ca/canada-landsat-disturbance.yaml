@@ -1,0 +1,34 @@
+id: canada-landsat-disturbance
+kind: dataset
+name: Canada Landsat Disturbance
+also_known_as:
+- CanLaD
+scope: ca
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ca
+summary: A Canada-wide 30-metre record of areas affected by fire or harvest from 1984
+  to 2015, made from Landsat mosaics.
+facts:
+- claim: Identifies areas affected by fire or harvest at the level of individual 30-metre
+    pixels.
+  url: https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad
+  fetched: '2026-10-31'
+  quote: This data publication contains a set of files in which areas affected by
+    fire or by harvest from 1984 to 2015 are identified at the level of individual
+    30m pixe
+links:
+- type: run-by
+  to: canadian-forest-service
+  url: https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad
+  fetched: '2026-10-31'
+  quote: Government of Canada; Natural Resources Canada; Canadian Forest Service
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

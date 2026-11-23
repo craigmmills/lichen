@@ -1,0 +1,49 @@
+id: strathmore-university
+kind: organisation
+name: Strathmore University
+scope: ke
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: ke
+website: https://strathmore.edu/
+countries:
+- ke
+scale: national
+status: active
+summary: Nairobi university whose researchers publish on bioacoustic feature extraction and
+  machine learning for insect sounds.
+facts:
+- claim: Authors there published on noise-resilient bioacoustics feature extraction.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: Noise-Resilient Bioacoustics Feature Extraction Methods
+  fetched: &id001 2026-10-31
+- claim: Authors there reviewed machine learning for insect bioacoustics.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:KE,from_publication_date:2018-01-01,title_and_abstract.search:bioacoustic%20OR%20%22acoustic%20monitoring%22&select=id,title,publication_year,authorships&per_page=60&sort=publication_date:desc
+  quote: 'Automatic synthesis of insects bioacoustics using machine learning: a systematic
+    review'
+  fetched: *id001
+- claim: Says the logging project sits in its SCES Makerspace Lab.
+  url: https://strathmore.edu/news-articles/qa-with-dr-henry-muchiri-ai-and-the-fight-against-illegal-logging/
+  fetched: '2026-10-30'
+  quote: At Strathmore University, the project is handled under the SCES Makerspace Lab
+- claim: Gives its address on Ole Sangale Road, Madaraka Estate, Nairobi.
+  url: https://strathmore.edu/contact-us/
+  fetched: '2026-10-31'
+  quote: Madaraka Estate, Ole Sangale Road, Nairobi, Kenya.
+found_by:
+- checklist:3
+- link-from:climate-change-ai-innovation-grants
+added_by: agent
+checked: *id001
+links:
+- type: runs
+  to: curbing-illegal-logging-patterns-using-sound-based-detection-techniques
+  url: https://strathmore.edu/news-articles/qa-with-dr-henry-muchiri-ai-and-the-fight-against-illegal-logging/
+  fetched: '2026-10-30'
+  quote: the primary research team at Strathmore

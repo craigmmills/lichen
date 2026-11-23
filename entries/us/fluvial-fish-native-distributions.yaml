@@ -1,0 +1,31 @@
+id: fluvial-fish-native-distributions
+kind: dataset
+name: Fluvial Fish Native Distributions for the Conterminous United States
+scope: us
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- species-distribution
+status: unknown
+summary: Interior Department species distribution models for 271 river fish species
+  using boosted regression trees.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Fluvial Fish Native Distributions for the Conterminous United States
+    using the NHDPlusV2 .1 and Boosted Regression Tree (BRT) Models Develops species
+    distribution models for 271 fluvial fish species in their native ranges of
+links:
+- type: run-by
+  to: us-department-of-the-interior
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Fluvial Fish Native Distributions for the Conterminous United States
+    using the NHDPlusV2 .1 and Boosted Regression Tree (BRT) Models Develops species
+    distribution models for 271 fluvial fish species in their native ranges of
+found_by:
+- link-from:us-department-of-the-interior
+added_by: agent
+checked: '2026-10-30'

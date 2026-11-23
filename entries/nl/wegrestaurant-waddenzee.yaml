@@ -1,0 +1,41 @@
+id: wegrestaurant-waddenzee
+kind: project
+name: 'Wegrestaurant Waddenzee: komen trekvogels aan hun trekken?'
+ai_label: data-infrastructure
+status: unknown
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+countries:
+- nl
+summary: Project in which Geodelta wants to model, using radar satellite data, how
+  long Wadden Sea sandbanks fall dry and what birds find there; the feasibility study
+  found sandbanks and mussel beds sometimes hard to tell apart.
+facts:
+- claim: Geodelta wants to use radar satellite data to model how long Wadden Sea sandbanks
+    fall dry and what birds can find there.
+  url: https://www.nlsa.nl/projecten/haalbaarheidsstudies-biodiversiteit-in-en-rond-water-monitoren-met-satellietdata/
+  quote: Met radarsatellietdata wil Geodelta modelleren hoe lang zandplaten in de
+    Waddenzee droogvallen en wat daar voor vogels te halen valt.
+  fetched: '2026-11-08'
+- claim: The feasibility study found it sometimes hard to tell a sandbank from a mussel
+    bed.
+  url: https://www.nlsa.nl/projecten/haalbaarheidsstudies-biodiversiteit-in-en-rond-water-monitoren-met-satellietdata/
+  quote: Uit de haalbaarheidsstudie blijkt het soms lastig om bijvoorbeeld een zandplaat
+    van een mosselbank te onderscheiden.
+  fetched: '2026-11-08'
+links:
+- type: partners-with
+  to: delft-university-of-technology
+  url: https://www.nlsa.nl/projecten/haalbaarheidsstudies-biodiversiteit-in-en-rond-water-monitoren-met-satellietdata/
+  quote: Het werkt daarbij samen met de TU Delft, die een slimme manier ontwikkelde
+    om de timing van de getijden in het model op te nemen.
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

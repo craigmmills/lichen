@@ -1,0 +1,32 @@
+id: norppa
+kind: model
+name: NORPPA
+also_known_as:
+- NOvel Ringed seal re-identification by Pelage Pattern Aggregation
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- computer-vision
+status: unknown
+runner: unknown
+summary: A method for identifying seals from their pelage pattern, extracted with a U-net
+  encoder-decoder, using content-based image retrieval, and built by Ekaterina Nepovinnykh.
+facts:
+- claim: A method using the seals' pelage pattern and content-based image retrieval.
+  url: https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/html/Nepovinnykh_NORPPA_NOvel_Ringed_Seal_Re-Identification_by_Pelage_Pattern_Aggregation_WACVW_2024_paper.html
+  quote: utilizes the permanent and unique pelage pattern of Saimaa ringed seals and content-based
+    image retrieval techniques
+  fetched: '2026-11-02'
+- claim: The pelage pattern is extracted with a U-net encoder-decoder based method.
+  url: https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/html/Nepovinnykh_NORPPA_NOvel_Ringed_Seal_Re-Identification_by_Pelage_Pattern_Aggregation_WACVW_2024_paper.html
+  quote: the seal's pelage pattern is extracted using a U-net encoder-decoder based method
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+scope: fi
+added_by: agent
+checked: '2026-11-02'

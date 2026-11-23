@@ -1,0 +1,55 @@
+id: utt-centre-for-maritime-and-ocean-studies
+kind: organisation
+name: Centre for Maritime and Ocean Studies, University of Trinidad and Tobago
+scope: tt
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: tt
+countries:
+- tt
+scale: national
+status: active
+summary: Lead affiliation on a 2024 Caroni Swamp mangrove mapping paper and a 2025 Tobago digital twin
+  paper; its authors also co-authored a 2025 Matura Beach thermal drone paper on sea turtles.
+facts:
+- claim: Lead affiliation on a 2024 paper mapping mangrove species in the Caroni Swamp with Sentinel-1/2
+    data in Google Earth Engine.
+  url: https://api.openalex.org/works/W4404060541?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Integrating a High-Resolution Canopy Height Model With a Sentinel-1/2 Fused Product in Google
+    Earth Engine for Mangrove Species Mapping in the Caroni Swamp
+- claim: The paper's first author gives the centre at the Chaguaramas campus as affiliation.
+  url: https://api.openalex.org/works/W4404060541?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-09
+  quote: Centre for Maritime and Ocean Studies, The University of Trinidad and Tobago, Chaguaramas Campus,
+    Chaguaramas, Carenage, Trinidad and Tobago
+- claim: Lead affiliation on a 2025 paper describing a digital twin for monitoring land use, land cover
+    and coastal change in Tobago.
+  url: https://api.openalex.org/works?filter=openalex:W4412799784|W4410501670|W7161719911|W4391928378&select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: A digital twin for monitoring land use/cover and coastal change in Tobago
+- claim: The first author of the digital twin paper is affiliated with the Centre for Maritime and Ocean
+    Studies at UTT's Chaguaramas campus.
+  url: https://api.openalex.org/works?filter=openalex:W4412799784|W4410501670|W7161719911|W4391928378&select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: Centre for Maritime and Ocean Studies, The University of Trinidad and Tobago, Chaguaramas, Trinidad
+    & Tobago
+- claim: Authors affiliated with the centre co-authored a 2025 paper on sea-turtle observations at Matura
+    Beach using thermal drone imagery; the first author was affiliated with Nature Seekers.
+  url: https://api.openalex.org/works?filter=openalex:W4412799784|W4410501670|W7161719911|W4391928378&select=id,title,publication_year,authorships
+  fetched: 2026-11-09
+  quote: 'turtle observations at Matura Beach, Trinidad, using thermal UAS imagery: A strategy to support
+    monitoring and conservation efforts'
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-09

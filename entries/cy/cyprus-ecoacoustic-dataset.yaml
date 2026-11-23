@@ -1,0 +1,36 @@
+id: cyprus-ecoacoustic-dataset
+kind: dataset
+name: Ecoacoustic dataset collected on the island of Cyprus
+scope: cy
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- cy
+status: unknown
+runner: unknown
+summary: Ecoacoustic dataset from Cyprus, described in a 2025 paper listed in OpenAlex,
+  with first author Christos Mammides of Frederick University's Nature Conservation
+  Unit and a co-author affiliated with BirdLife Cyprus.
+facts:
+- claim: OpenAlex lists a 2025 paper titled "An ecoacoustic dataset collected on the
+    island of Cyprus in the Mediterranean Basin biodiversity hotspot".
+  url: https://api.openalex.org/works?filter=openalex:W4408591630&select=id,title,publication_year,authorships
+  fetched: '2026-11-15'
+  quote: An ecoacoustic dataset collected on the island of Cyprus in the Mediterranean
+    Basin biodiversity hotspot
+- claim: The first author, Christos Mammides, gives the Nature Conservation Unit,
+    Frederick University, Nicosia, as an affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W4408591630&select=id,title,publication_year,authorships
+  fetched: '2026-11-15'
+  quote: Nature Conservation Unit, Frederick University, Nicosia, 1036, Cyprus
+- claim: A co-author, Christina Ieronymidou, gives BirdLife Cyprus as an affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W4408591630&select=id,title,publication_year,authorships
+  fetched: '2026-11-15'
+  quote: BirdLife Cyprus, Nicosia, 2340, Cyprus
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

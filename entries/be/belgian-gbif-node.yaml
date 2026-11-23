@@ -1,0 +1,83 @@
+id: belgian-gbif-node
+kind: programme
+name: Belgian GBIF Node
+also_known_as:
+- GBIF.be
+- GBIF Belgium
+- Belgian GBIF Node
+scope: be
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- be
+website: https://gbif.biodiversity.be
+summary: Team designated by Belgium to coordinate a biodiversity data network, run by the
+  Belgian Biodiversity Platform and hosting a portal of Belgian data shared through GBIF.
+facts:
+- claim: Designated by Belgium to coordinate a network that produces, manages and uses biodiversity
+    data.
+  url: https://gbif.biodiversity.be/about
+  fetched: 2026-11-02
+  quote: The Belgian GBIF Node is a team designated by Belgium to coordinate a network of
+    people and institutions that produce, manage and use biodiversity data
+- claim: The hosted portal covers open biodiversity data about Belgium shared through GBIF.
+  url: https://gbif.biodiversity.be/about
+  fetched: 2026-11-02
+  quote: This is all biodiversity data occurring in Belgium and openly shared through the
+    Global Biodiversity Information Facility( GBIF )
+- claim: Node staff are based in federal and regional research institutes, with data officers
+    at INBO, SPW-DEMNA and RBINS.
+  url: https://gbif.biodiversity.be/post/2024/node-staff/
+  fetched: 2026-11-02
+  quote: The Belgian Node team consists of a mix of IT & Data Experts based in federal and
+    regional research institutes
+- claim: A team designated by Belgium to coordinate a network that produces, manages and uses
+    biodiversity data.
+  url: https://gbif.biodiversity.be/about/
+  fetched: '2026-11-02'
+  quote: The Belgian GBIF Node is a team designated by Belgium to coordinate a network of
+    people and institutions that produce, manage and use biodiversity data
+- claim: GBIF.be hosted portal lets users explore open biodiversity data about Belgium.
+  url: https://gbif.biodiversity.be/about/
+  fetched: '2026-11-02'
+  quote: GBIF.be Hosted Portal let you explore Open Biodiversity Data about Belgium
+- claim: Says Belgium has been a Voting Participant in GBIF since 2001.
+  url: https://gbif.biodiversity.be/
+  fetched: '2026-11-02'
+  quote: very active Voting Participant since 2001
+- claim: The portal holds biodiversity data occurring in Belgium and shared through GBIF.
+  url: https://gbif.biodiversity.be/about
+  fetched: &id001 2026-11-02
+  quote: This is all biodiversity data occurring in Belgium and openly shared through the
+    Global Biodiversity Information Facility
+links:
+- type: run-by
+  to: belgian-biodiversity-platform
+  url: https://gbif.biodiversity.be/about
+  fetched: 2026-11-02
+  quote: We are part of the Belgian Biodiversity Platform (BBPf)
+- type: uses
+  to: global-biodiversity-information-facility
+  url: https://gbif.biodiversity.be/about
+  fetched: 2026-11-02
+  quote: This site is our contribution to GBIF Hosted Portals
+- type: run-by
+  to: belgian-biodiversity-platform
+  url: https://gbif.biodiversity.be/about/
+  fetched: '2026-11-02'
+  quote: We are part of the Belgian Biodiversity Platform (BBPf)
+- type: uses
+  to: global-biodiversity-information-facility
+  url: https://www.biodiversity.be/1767
+  fetched: *id001
+  quote: The GBIF.be Hosted Portal is a simple website hosted and maintained on the GBIF infrastructure
+found_by:
+- checklist:2
+- link-from:consortium-of-european-taxonomic-facilities
+- link-from:belgian-biodiversity-platform
+added_by: agent
+checked: 2026-11-02

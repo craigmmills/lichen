@@ -1,0 +1,45 @@
+id: national-park-change-detection-monitoring-data-kr
+kind: dataset
+name: AI기반 국립공원 변화탐지 모니터링 플랫폼 구축
+scope: kr
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+summary: CC0-licensed national park land cover training dataset built by Sundosoft
+  from drone and satellite imagery, used for segmentation and change detection models,
+  including a SegFormer-based segmentation model.
+facts:
+- claim: Land cover training images from drone and satellite imagery (SkySat, Sentinel-2,
+    Landsat) of national parks, used to develop segmentation and change detection
+    AI models.
+  url: https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=23&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71363
+  fetched: '2026-11-09'
+  quote: 국립공원 내 변화를 효율적으로 탐지하기 위한 토지 피복 자동분할(Segmentation) 및 변화지역 탐지 AI 알고리즘 모델 개발에
+    사용됨
+- claim: Aimed at a monitoring platform for changes in national parks such as landslides,
+    logging, cultivation and illegal structures.
+  url: https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=23&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71363
+  fetched: '2026-11-09'
+  quote: 자연보호지역인 국립공원 변화(산사태 발생, 벌목, 경작, 불법 시설물 설치 등)에 대한 모니터링 플랫폼 환경을 구축
+- claim: A segmentation model based on SegFormer was developed with the data.
+  url: https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=23&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71363
+  fetched: '2026-11-09'
+  quote: 인공지능 기반 토지피복 구획화 모델 SegFormer 선정
+- claim: A Ministry of Education data listing gives the licence as CC0.
+  url: https://data.edmgr.kr/dataView.do?id=aihub_71363
+  fetched: '2026-11-09'
+  quote: cc-zero
+links:
+- type: built-by
+  to: sundosoft-kr
+  url: https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=23&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71363
+  fetched: '2026-11-09'
+  quote: '수행기관(주관) : ㈜선도소프트'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

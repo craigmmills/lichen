@@ -1,0 +1,62 @@
+id: base-de-donnees-occupation-des-terres-burkina-faso
+kind: dataset
+name: Base de Données de l'Occupation des Terres (BDOT)
+also_known_as:
+- BDOT
+scope: bf
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bf
+status: active
+runner: unknown
+summary: Burkina Faso land cover dataset, built by the national geographic and forest
+  information institute, with 1992 and 2002 national databases at 1:200,000 from Landsat
+  imagery, later reused in forest reference levels and the second national forest
+  inventory.
+facts:
+- claim: A 2007 presentation by the Institut Géographique du Burkina says the BDOT
+    project made two databases from Landsat TM images of 1992 and ETM images of 2002
+    covering the whole country at 1:200,000.
+  url: https://www.unoosa.org/documents/pdf/psa/activities/2007/morocco/presentations/4-6.pdf
+  fetched: '2026-11-15'
+  quote: Ce projet a permis la réalisation de deux bases de données à partir des images
+    Landsat TM de1992 et ETM de 2002, sur tout le territoire national à l’échelle
+    1/200000
+- claim: The project was financed by the Kingdom of Denmark and commissioned by the
+    Programme National de Gestion des Terroirs (PNGT).
+  url: https://www.unoosa.org/documents/pdf/psa/activities/2007/morocco/presentations/4-6.pdf
+  fetched: '2026-11-15'
+  quote: Le projet BDOT financé par le Royaume du Danemark, a été commandité par le
+    Programme National de Gestion des Terroirs (PNGT)
+- claim: The presentation names monitoring of natural areas and national parks among
+    its applications.
+  url: https://www.unoosa.org/documents/pdf/psa/activities/2007/morocco/presentations/4-6.pdf
+  fetched: '2026-11-15'
+  quote: (évolution des milieux naturels, suivi des Parcs Naturels)
+- claim: The 2025 forest reference level submission says the previous reference level
+    (2020) used the BDOT databases of 1992, 2002 and 2014, obtained by supervised
+    processing of Landsat satellite images.
+  url: https://redd.unfccc.int/media/nrf_bf_modifi_vf_12_06_2025.pdf
+  fetched: '2026-11-15'
+  quote: L’élaboration du précédent NRF (2020) avait nécessité l’utilisation des bases
+    d’occupation des terres
+- claim: The submission says the BDOT 2012 was used in the second national forest
+    inventory.
+  url: https://redd.unfccc.int/media/nrf_bf_modifi_vf_12_06_2025.pdf
+  fetched: '2026-11-15'
+  quote: BDOT 2012 utilisée lors de l’IFN 2
+links:
+- type: built-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.unoosa.org/documents/pdf/psa/activities/2007/morocco/presentations/4-6.pdf
+  fetched: '2026-11-15'
+  quote: réalisé par IGN-France en partenariat avec l’Institut Géographique du Burkina
+    (IGB)
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'

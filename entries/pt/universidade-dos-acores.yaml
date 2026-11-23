@@ -1,0 +1,52 @@
+id: universidade-dos-acores
+kind: organisation
+name: Universidade dos Açores
+also_known_as:
+- University of the Azores
+scope: pt
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: pt
+scale: national
+status: active
+website: http://novoportal.uac.pt/
+summary: Active university in Ponta Delgada that its GBIF record calls the only public university
+  in the Azores, and which hosts the Azores Bioportal.
+facts:
+- claim: Its GBIF publisher record calls it the only public university in the Azores.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: The University of the Azores is the only public university in the Autonomous Region
+    of the Azores
+- claim: Its GBIF publisher record says it hosts the Azores Bioportal.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: The University of Azores hosts the Azores Bioportal
+- claim: Its GBIF publisher record gives an address in Ponta Delgada.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: Rua Madre de Deus, sn
+- claim: OpenAlex lists a paper on recurrent neural networks for biodiversity among works
+    by authors affiliated with the university.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:i115891769,concepts.id:C119857082|C108583219,concepts.id:C18903297,from_publication_date:2019-01-01&sort=cited_by_count:desc&per_page=8&select=title,publication_year,doi,cited_by_count
+  fetched: '2026-11-02'
+  quote: 'Artificial intelligence for biodiversity: Exploring the potential of recurrent neural
+    networks in forecasting arthropod dynamics based on time series'
+  ai_type: deep-learning
+links: []
+found_by:
+- link-from:gbif-portugal
+- link-from:air-centre
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- other
+ai_types:
+- deep-learning

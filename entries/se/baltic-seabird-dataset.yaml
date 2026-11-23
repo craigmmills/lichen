@@ -1,0 +1,49 @@
+id: baltic-seabird-dataset
+kind: dataset
+name: Baltic seabird dataset
+scope: se
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- se
+status: active
+runner: unknown
+summary: An active dataset of 2,000 hours of guillemot video from a ledge on Stora Karlsö, with annotated
+  frames, available to AI Sweden partners and used by SLU with AI to automate behaviour documentation.
+facts:
+- claim: Holds 2,000 hours of video of guillemots on a ledge on Stora Karlsö.
+  url: https://www.ai.se/en/ai-labs/technology-infrastructure/datasets/baltic-seabird-dataset
+  fetched: '2026-11-02'
+  quote: The dataset consists of 2000 hours of video footage of guillemots on a ledge on Stora Karlsö
+    , Sweden.
+- claim: SLU has used it with AI to study and automate documentation of the birds' behaviour.
+  url: https://www.ai.se/en/ai-labs/technology-infrastructure/datasets/baltic-seabird-dataset
+  fetched: '2026-11-02'
+  quote: Using AI, SLU has utilized the dataset to study and automate documentation of the birds' behaviors.
+- claim: 2,000 hours of video.
+  url: https://www.ai.se/en/ai-labs/technology-infrastructure/datasets/baltic-seabird-dataset
+  fetched: '2026-11-02'
+  quote: The dataset consists of 2000 hours of video footage of guillemots on a ledge on Stora Karlsö
+- claim: Annotated frames.
+  url: https://www.ai.se/en/ai-labs/technology-infrastructure/datasets/baltic-seabird-dataset
+  fetched: '2026-11-02'
+  quote: 2300 still frames annotated with bounding boxes
+- claim: Available to AI Sweden partners.
+  url: https://www.ai.se/en/ai-labs/technology-infrastructure/datasets/baltic-seabird-dataset
+  fetched: '2026-11-02'
+  quote: The dataset is available for all AI Sweden partners.
+links:
+- type: used-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.ai.se/en/ai-labs/technology-infrastructure/datasets/baltic-seabird-dataset
+  fetched: '2026-11-02'
+  quote: Using AI, SLU has utilized the dataset to study and automate documentation of the birds' behaviors.
+found_by:
+- checklist:7
+- register:gbif-publisher
+- link-from:swedish-university-of-agricultural-sciences
+added_by: agent
+checked: '2026-11-02'

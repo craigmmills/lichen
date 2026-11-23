@@ -1,0 +1,55 @@
+id: refik-anadol-studio
+kind: organisation
+name: Refik Anadol Studio
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- multimodal
+- generative-ai
+realms:
+- land
+- ocean
+hq: us
+scale: global
+status: active
+website: https://refikanadolstudio.com/
+summary: Los Angeles media art studio, established in 2014, that built the Large Nature Model
+  and leads DATALAND.
+facts:
+- claim: Established in 2014 and based in Los Angeles.
+  url: https://dataland.art/about
+  fetched: '2026-10-30'
+  quote: the Los Angeles-based Refik Anadol Studio
+- claim: DATALAND's flagship is under the studio's artistic leadership.
+  url: https://dataland.art/about
+  fetched: '2026-10-30'
+  quote: under the artistic leadership of Refik Anadol Studio
+- claim: The studio developed the Large Nature Model, called a generative AI model.
+  url: https://refikanadol.com/?p=3742
+  fetched: '2026-10-30'
+  quote: the world’s first open-source generative AI model devoted to nature
+  ai_type: generative-ai
+- claim: The Large Nature Model is described as multimodal.
+  url: https://dataland.art/blog/large-nature-model-data-collection
+  fetched: '2026-10-30'
+  quote: a nature-based multimodal AI model trained on one of the world's largest ecological
+    archives
+  ai_type: multimodal
+- claim: Its own site calls it Refik Anadol Studio and shows images generated with a GAN.
+  url: https://refikanadolstudio.com/
+  quote: A snapshot of the GAN generated images in the studio's custom latent browser
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: large-nature-model
+  url: https://dataland.art/about
+  fetched: '2026-10-30'
+  quote: Learn about the world’s first open source AI model based solely on nature data pioneered
+    by Refik Anadol Studio.
+found_by:
+- link-from:large-nature-model
+added_by: agent
+checked: '2026-10-30'

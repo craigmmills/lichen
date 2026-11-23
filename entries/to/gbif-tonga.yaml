@@ -1,0 +1,32 @@
+id: gbif-tonga
+kind: programme
+name: GBIF Tonga
+also_known_as: []
+scope: to
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+countries:
+- to
+scale: national
+status: active
+runner: unknown
+summary: Tonga's country node in the Global Biodiversity Information Facility, listed in GBIF's directory
+  with voting participation status.
+facts:
+- claim: GBIF's directory lists GBIF Tonga as a country node with voting participation status.
+  url: https://api.gbif.org/v1/node/61865b24-70a8-4e04-a53c-a6c1ebe2fd48
+  fetched: 2026-11-12
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"OCEANIA","continent":"OCEANIA","title":"GBIF
+    Tonga"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/61865b24-70a8-4e04-a53c-a6c1ebe2fd48
+  fetched: 2026-11-12
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

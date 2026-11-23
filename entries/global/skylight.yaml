@@ -1,0 +1,131 @@
+id: skylight
+kind: programme
+name: Skylight
+scope: global
+roles:
+- builds-ai
+ai_label: ai
+ai_types: [foundation-models, large-language-models, agentic-ai]
+realms:
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://www.skylight.global
+summary: Ai2's maritime monitoring service that uses AI to flag illegal, unreported and unregulated fishing; it is free to government, regional and non-governmental organisations.
+facts:
+- claim: Gives AI-powered real-time intelligence on illegal, unreported and unregulated fishing.
+  url: https://www.skylight.global/
+  fetched: &id001 2026-10-30
+  quote: Skylight provides AI-powered, real-time intelligence to stop illegal, unreported, and unregulated (IUU) fishing and protect our oceans.
+- claim: Free to government, regional and non-governmental organisations.
+  url: https://www.skylight.global/
+  fetched: *id001
+  quote: Skylight’s technology is free to government, regional, and nongovernmental organizations worldwide
+- claim: Works with nearly 150 organisations, according to Ai2.
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: *id001
+  quote: Skylight brings that same reach across nearly 150 organizations
+- claim: Skylight's agent Shippy combines language models with its maritime data.
+  url: https://skylight.helpjuice.com/en_US/what-is-shippy
+  fetched: 2026-10-30
+  quote: combining modern LLM capabilities with dedicated maritime expertise
+  ai_type: large-language-models
+- claim: Ai2 calls Shippy, built by the Skylight team, a maritime AI agent.
+  url: https://allenai.org/blog/shippy-deep-dive
+  fetched: 2026-10-30
+  quote: Shippy is a maritime AI agent built for high-stakes decisions, where the wrong answer has real impacts.
+  ai_type: agentic-ai
+- claim: "Ai2 says its OlmoEarth foundation models are at the heart of Skylight."
+  url: https://allenai.org/olmoearth
+  fetched: 2026-10-30
+  quote: "Our OlmoEarth foundation models are at the heart of Skylight"
+  ai_type: foundation-models
+- claim: 'Provides AI-powered intelligence on illegal fishing.'
+  url: https://www.skylight.global
+  fetched: 2026-10-30
+  quote: 'Skylight provides AI-powered, real-time intelligence'
+links:
+- type: run-by
+  to: allen-institute-for-ai
+  url: https://allenai.org/ai-for-the-environment
+  fetched: *id001
+  quote: Skylight is part of Ai2’s commitment to rejuvenating the health of our ocean
+- type: builds-on
+  to: olmoearth
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: *id001
+  quote: Skylight, powered by the same technology in OlmoEarth
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'IUCN Fast-Tracking the High Seas Treaty'
+- type: partners-with
+  to: minderoo-foundation
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Minderoo Foundation Detecting Smaller Fishing Vessels'
+- type: partners-with
+  to: schmidt-marine-technology-partners
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Schmidt Marine Trialing Skylight to Task Autonomous Underwater Vehicles'
+- type: partners-with
+  to: blue-ventures
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://blueventures.org/"
+- type: partners-with
+  to: earthranger
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://www.earthranger.com"
+- type: partners-with
+  to: global-fishing-watch
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://globalfishingwatch.org/"
+- type: partners-with
+  to: national-geographic-society
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://www.nationalgeographic.org/society/"
+- type: partners-with
+  to: oceanmind
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://www.oceanmind.global/"
+- type: partners-with
+  to: oceans-5
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://www.oceans5.org/"
+- type: partners-with
+  to: trygg-mat-tracking
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://www.tm-tracking.org/"
+- type: partners-with
+  to: wildaid
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://wildaid.org/"
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://www.skylight.global/partners
+  fetched: 2026-10-30
+  quote: 'Our Partners Collaborating with national authorities, regional partners, and non-governmental organizations is pivotal for Skylight to advance AI and technology.'
+  logo: "https://www.wcs.org/"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

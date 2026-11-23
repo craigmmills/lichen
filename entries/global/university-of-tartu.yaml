@@ -1,0 +1,37 @@
+id: university-of-tartu
+kind: organisation
+name: University of Tartu
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+hq: ee
+scale: global
+status: active
+website: https://ut.ee
+summary: Public research university in Tartu, Estonia, named on the governance page of the
+  UNITE fungal DNA database and a participant in the BioDT project.
+facts:
+- claim: Public research university in Tartu.
+  url: https://en.wikipedia.org/wiki/University_of_Tartu
+  fetched: '2026-10-30'
+  quote: is a public research university in Tartu , Estonia
+- claim: Its name appears on the UNITE governance page.
+  url: https://unite.ut.ee/governance.php
+  fetched: '2026-10-30'
+  quote: University of Tartu, Estonia
+links:
+- type: partners-with
+  to: charles-university
+  url: https://ut.ee/en/content/partner-universities
+  fetched: 2026-10-30
+  quote: Charles University in Prague
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

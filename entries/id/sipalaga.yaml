@@ -1,0 +1,35 @@
+id: sipalaga
+kind: dataset
+name: Sipalaga
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+countries:
+- id
+status: unknown
+summary: Real-time platform for peat water level, soil moisture and rainfall from
+  sensor stations, developed by the peat restoration agency to anticipate fires.
+facts:
+- claim: Mongabay describes it as a real-time data platform from water level monitors.
+  url: https://mongabay.co.id/2019/01/28/brg-kembangkan-sistem-pemantauan-muka-air-gambut/
+  fetched: '2026-10-31'
+  quote: Ia merupakan platform pemantau data real-time dari alat pemantau tinggi muka
+    air
+- claim: Stations record parameters every 10 minutes.
+  url: https://mongabay.co.id/2019/01/28/brg-kembangkan-sistem-pemantauan-muka-air-gambut/
+  fetched: '2026-10-31'
+  quote: Alat pemantau ini akan merekam parameter tinggi muka air, kelembaban tanah
+    dan curah hujan per 10 menit.
+links:
+- type: run-by
+  to: badan-restorasi-gambut-dan-mangrove
+  url: https://mongabay.co.id/2019/01/28/brg-kembangkan-sistem-pemantauan-muka-air-gambut/
+  fetched: '2026-10-31'
+  quote: BRG mengembangkan sistem pemantau air di lahan gambut (Sipalaga)
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

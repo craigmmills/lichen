@@ -1,0 +1,38 @@
+id: save-our-seas-foundation
+kind: organisation
+name: Save Our Seas Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- ocean
+hq: ch
+scale: global
+status: active
+website: https://saveourseas.com
+summary: Geneva-based foundation that has supported over 300 research, conservation and education
+  projects worldwide since 2003. OpenAlex records it as a funder on published environmental
+  DNA monitoring research.
+countries:
+- ch
+facts:
+- claim: Has supported over 300 research, conservation and education projects since 2003.
+  url: https://saveourseas.com/about/
+  quote: Since 2003, the Save Our Seas Foundation has supported and funded over 300 research,
+    conservation and education Projects worldwide
+  fetched: &id002 2026-10-30
+- claim: Registered as a foundation in Switzerland, with an address in Geneva.
+  url: https://saveourseas.com/about/
+  fetched: &id001 2026-10-30
+  quote: Registered international not-for-profit foundation in Switzerland
+- claim: OpenAlex lists it among funders of papers on eDNA metabarcoding and biodiversity
+    monitoring.
+  url: https://api.openalex.org/works?filter=title_and_abstract.search:eDNA%20metabarcoding%20biodiversity%20monitoring,from_publication_date:2018-01-01&group_by=funders.id&per_page=200
+  fetched: *id001
+  quote: Save Our Seas Foundation
+found_by:
+- global:funders
+added_by: agent
+checked: *id002

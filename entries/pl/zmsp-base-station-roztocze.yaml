@@ -1,0 +1,50 @@
+id: zmsp-base-station-roztocze
+kind: organisation
+name: Stacja Bazowa ZMŚP Roztocze
+also_known_as:
+- Stacja Bazowa Zintegrowanego Monitoringu Środowiska Przyrodniczego ROZTOCZE
+scope: pl
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- pl
+scale: local
+status: active
+summary: Base station run by Roztocze National Park, which says it was appointed in October
+  2010 as Poland's ninth and measures the Świerszcz stream catchment, and which partners with
+  the ZMŚP programme.
+facts:
+- claim: Says the station is an internal unit of Roztocze National Park, appointed by the
+    Chief Inspector of Environmental Protection on 8 October 2010 as Poland's ninth base station.
+  url: https://rpn.gov.pl/monitoring-przyrodniczy
+  fetched: 2026-11-08
+  quote: Stacja Bazowa Zintegrowanego Monitoringu Środowiska Przyrodniczego ROZTOCZE funkcjonuje
+    jako wewnętrzna komórka organizacyjna Roztoczańskiego Parku Narodowego
+- claim: Says comprehensive measurements under the basic ZMŚP programme are made in the representative
+    catchment of the Świerszcz stream, using equipment installed in the field and in the laboratory.
+  url: https://rpn.gov.pl/monitoring-przyrodniczy
+  fetched: 2026-11-08
+  quote: zlewnia reprezentatywna strumienia Świerszcz, gdzie prowadzone są kompleksowe pomiary
+    w ramach programu podstawowego ZMŚP
+links:
+- type: run-by
+  to: roztocze-national-park
+  url: https://rpn.gov.pl/monitoring-przyrodniczy
+  fetched: 2026-11-08
+  quote: funkcjonuje jako wewnętrzna komórka organizacyjna Roztoczańskiego Parku Narodowego
+- type: partners-with
+  to: zintegrowany-monitoring-srodowiska-przyrodniczego
+  url: https://rpn.gov.pl/monitoring-przyrodniczy
+  fetched: 2026-11-08
+  quote: jako dziewiąta Stacja Bazowa w Polsce, stanowiąca ogniwo krajowego systemu monitoringu
+    przyrody realizowanego w ramach Państwowego Monitoringu Środowiska
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

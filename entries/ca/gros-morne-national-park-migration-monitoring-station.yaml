@@ -1,0 +1,45 @@
+id: gros-morne-national-park-migration-monitoring-station
+kind: programme
+name: Gros Morne National Park Migration Monitoring Station
+also_known_as: []
+scope: ca
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+countries:
+- ca
+status: active
+summary: Migration monitoring station in a spruce and tamarack bog, run by Parks Canada
+  and listed as a station of the Canadian Migration Monitoring Network.
+facts:
+- claim: Operated by Parks Canada; the migration monitoring site is in a spruce and
+    tamarack bog.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: Operated by Parks Canada, the migration monitoring site is located in a spruce/tamarack
+    bog and spruce headland.
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: run-by
+  to: parks-canada
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: Operated by Parks Canada, the migration monitoring site is located in a spruce/tamarack
+    bog and spruce headland.
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

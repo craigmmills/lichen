@@ -1,0 +1,69 @@
+id: swiss-national-forest-inventory
+kind: programme
+name: Swiss National Forest Inventory
+also_known_as:
+- NFI
+- LFI
+- Landesforstinventar
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+- other
+status: active
+website: https://lfi.ch
+summary: A WSL-run programme collaborating with the Federal Office for the Environment, in its fifth inventory
+  during 2018–2026, with field teams collecting data on about 6,500 sample plots.
+facts:
+- claim: Fifth inventory running from 2018 to 2026.
+  url: https://lfi.ch/en/about-the-nfi/purpose-and-aims
+  quote: 'Currently, the fifth inventory is underway (NFI5: 2018–2026).'
+  fetched: '2026-11-02'
+- claim: Provides data for international climate and forest reporting.
+  url: https://lfi.ch/en/about-the-nfi/purpose-and-aims
+  quote: It also provides data for international climate and forest reporting
+  fetched: '2026-11-02'
+- claim: Its methods include aerial photo interpretation.
+  url: https://lfi.ch/en/about-the-nfi/purpose-and-aims
+  quote: Aerial photo interpretation
+  fetched: '2026-11-02'
+- claim: Field teams collect data on approximately 6,500 sample plots.
+  url: https://www.wsl.ch/en/forest/forest-development-and-monitoring/lfi/
+  quote: NFI field teams collect data on trees and forest stands on approximately 6500 sample plots
+  fetched: '2026-11-02'
+- claim: WSL is responsible for research, planning, data collection and analysis, and FOEN for forest
+    policy implementation.
+  url: https://www.wsl.ch/en/forest/forest-development-and-monitoring/lfi/
+  fetched: '2026-11-02'
+  quote: The WSL is responsible for research and development, planning, data collection, analysis and
+    scientific interpretation, while the FOEN is responsible for implementation in terms of forest policy.
+links:
+- type: run-by
+  to: wsl-swiss-federal-research-institute
+  url: https://lfi.ch/en/about-the-nfi/purpose-and-aims
+  quote: The NFI is run by the Swiss Federal Institute for Forest, Snow and Landscape Research ( WSL )
+  fetched: '2026-11-02'
+- type: partners-with
+  to: federal-office-for-the-environment
+  url: https://lfi.ch/en/about-the-nfi/purpose-and-aims
+  quote: in collaboration with the Federal Office for the Environment ( FOEN )
+  fetched: '2026-11-02'
+- type: run-by
+  to: wsl-swiss-federal-research-institute
+  url: https://www.wsl.ch/en/forest/forest-development-and-monitoring/lfi/
+  quote: WSL carries out NFI in collaboration with the Federal Office for the Environment (FOEN).
+  fetched: '2026-11-02'
+- type: partners-with
+  to: federal-office-for-the-environment
+  url: https://www.wsl.ch/en/forest/forest-development-and-monitoring/lfi/
+  quote: WSL carries out NFI in collaboration with the Federal Office for the Environment (FOEN).
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+- link-from:wsl-swiss-federal-research-institute
+added_by: agent
+checked: '2026-11-02'
+countries:
+- ch

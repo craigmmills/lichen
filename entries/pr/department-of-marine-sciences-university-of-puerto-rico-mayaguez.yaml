@@ -1,0 +1,35 @@
+id: department-of-marine-sciences-university-of-puerto-rico-mayaguez
+kind: organisation
+name: Department of Marine Sciences, University of Puerto Rico-Mayagüez
+also_known_as: []
+scope: pr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: University department named in the first author's affiliation on a 2026 paper, listed in OpenAlex,
+  describing "Coral Intel", a YOLOv8 deep learning framework for monitoring Caribbean corals.
+facts:
+- claim: OpenAlex lists a 2026 paper titled "Coral Intel", a YOLOv8 deep learning framework for monitoring
+    Caribbean corals.
+  url: https://api.openalex.org/works/W7163669664?select=id,display_name,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-12
+  quote: 'Coral Intel: a YOLOv8 deep learning framework for monitoring Caribbean corals'
+  ai_type: deep-learning
+- claim: The first author's affiliation on that paper includes this department.
+  url: https://api.openalex.org/works/W7163669664?select=id,display_name,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Department of Marine Sciences, University of Puerto Rico-Mayag
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

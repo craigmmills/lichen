@@ -1,0 +1,39 @@
+id: faculty-of-forestry-sciences-agricultural-university-of-tirana
+kind: organisation
+name: Faculty of Forestry Sciences, Agricultural University of Tirana
+also_known_as: []
+scope: al
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- al
+scale: national
+status: active
+summary: A university faculty listed as the affiliation of three authors of a 2022
+  paper on remote sensing and GIS for burned areas and severity in Dajti Mountain
+  National Park.
+facts:
+- claim: OpenAlex lists a 2022 paper on remote sensing and GIS for detecting burned
+    areas and severity in Dajti Mountain National Park, whose three authors all give
+    the Faculty of Forestry Sciences, Agricultural University of Tirana.
+  url: https://api.openalex.org/works/W4307164632?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Application of Remote Sensing and GIS techniques for detecting burned areas
+    and severity
+- claim: The first author's affiliation line in OpenAlex reads Agricultural University
+    of Tirana, Faculty of Forestry Sciences.
+  url: https://api.openalex.org/works/W4307164632?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Agricultural University of Tirana, Faculty of Forestry Sciences
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

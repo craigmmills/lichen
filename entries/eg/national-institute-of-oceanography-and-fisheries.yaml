@@ -1,0 +1,55 @@
+id: national-institute-of-oceanography-and-fisheries
+kind: organisation
+name: National Institute of Oceanography and Fisheries
+also_known_as:
+- NIOF
+scope: eg
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- freshwater
+hq: unknown
+countries:
+- eg
+scale: national
+status: active
+summary: Egyptian institute listed among the members of the Partnership for Observation of
+  the Global Ocean, and the first author's affiliation on a 2020 paper on GIS and remote sensing
+  in lakes and coastal areas.
+facts:
+- claim: Listed for Egypt among the members of the Partnership for Observation of the Global
+    Ocean.
+  url: https://pogo-ocean.org/who-is-pogo/members/
+  fetched: 2026-11-08
+  quote: Egypt National Institute of Oceanography and Fisheries (NIOF)
+- claim: OpenAlex lists the 2020 paper GIS and Remote Sensing Studies in Lakes, Coastal Areas
+    and Tracking Regions Most Vulnerable to Diseases, with El-Alfy MA as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:052cjbe24,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "GIS and Remote Sensing Studies in Lakes, Coastal Areas and Tracking
+    Regions Most Vulnerable to Diseases", "publication_year": 2020, "authorships": [{"author_position":
+    "first", "author": {"id": "https://openalex.org/A5008121456", "display_name": "El-Alfy
+    MA"'
+- claim: OpenAlex gives the first author's affiliation as the National Institute of Oceanography
+    and Fisheries.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:052cjbe24,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "El-Alfy MA", "raw_affiliation_strings": ["Department of Marine
+    Pollution, National Institute of Oceanography & Fisheries, Alexandria, Egypt"]'
+links:
+- type: partners-with
+  to: partnership-for-observation-of-the-global-ocean
+  url: https://pogo-ocean.org/who-is-pogo/members/
+  fetched: 2026-11-08
+  quote: Egypt National Institute of Oceanography and Fisheries (NIOF)
+found_by:
+- link-from:partnership-for-observation-of-the-global-ocean
+- register:eg
+- checklist:3
+added_by: agent
+checked: 2026-11-08
+techniques:
+- remote-sensing

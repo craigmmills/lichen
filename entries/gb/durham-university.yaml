@@ -1,0 +1,50 @@
+id: durham-university
+kind: organisation
+name: Durham University
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University that runs the MammalWeb camera trap project and is a partner in the National
+  Hedgehog Monitoring Programme.
+facts:
+- claim: Partner in the National Hedgehog Monitoring Programme.
+  url: https://dur.ac.uk/news-events/latest-news/2024/03/national-hedgehog-monitoring-programme/
+  quote: Durham University and our MammalWeb project are partners in the National Hedgehog
+    Monitoring Programme (NHMP).
+  fetched: '2026-10-30'
+- claim: OpenAlex lists Durham authors on bird classification from camera trap images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Removing Human Bottlenecks in Bird Classification Using Camera Trap Images and Deep
+    Learning
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.durham.ac.uk/
+  quote: DH1 3LE
+  fetched: '2026-10-30'
+- claim: Developed recognition algorithms.
+  url: https://dur.ac.uk/research/research-impact-at-durham/case-studies/mammalweb/
+  quote: Our researchers have developed advanced algorithms to automatically recognise animals
+    in camera trap images
+  fetched: '2026-10-30'
+- claim: MammalWeb is described as developed by Durham University.
+  url: https://dur.ac.uk/research/research-impact-at-durham/case-studies/mammalweb/
+  quote: MammalWeb, a citizen science project developed by Durham University
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+- link-from:mammalweb
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.durham.ac.uk/

@@ -1,0 +1,93 @@
+id: korean-biodiversity-information-facility
+kind: organisation
+name: Korean Biodiversity Information Facility
+scope: kr
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: kr
+status: active
+summary: Korea's GBIF country node with voting status, run by the National Science Museum
+  of Korea, where its secretariat was set up in January 2008.
+facts:
+- claim: GBIF's registry lists it as the country node for Korea with voting participation.
+  url: https://api.gbif.org/v1/node?q=Korea&limit=3
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF's registry gives an address in Daejeon.
+  url: https://api.gbif.org/v1/node?q=Korea&limit=3
+  fetched: '2026-11-02'
+  quote: 481 Daedeokdae-ro, Yuseong-gu
+- claim: GBIF lists it as the node for the Republic of Korea, with voting status.
+  url: https://api.gbif.org/v1/node/e0a1e772-0177-4800-94b4-2d023fe6cdf4
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF names it and gives Korea as participant.
+  url: https://api.gbif.org/v1/node/e0a1e772-0177-4800-94b4-2d023fe6cdf4
+  fetched: '2026-11-02'
+  quote: '"title":"Korean Biodiversity Information Facility","participantTitle":"Korea, Republic
+    of"'
+- claim: A 27 May 2025 report said the 37th joint field survey of plants, animals and geology
+    was scheduled in Taean for 26–30 May, with experts from national and private institutions.
+  url: https://v.daum.net/v/zS3isY9HXR
+  fetched: '2026-11-02'
+  quote: 국립중앙과학관·국립생태원·국립수목원·대학 등 국공립 및 사립기관 소속 생물다양성 전문가들이 모여 태안지역의 생물 및 지질을 조사하게 된다.
+- claim: KBIF is the Korean Secretariat of GBIF and a national central node.
+  url: https://naris.science.go.kr/intd/kbif/selectKbifIntroduce.do
+  fetched: '2026-11-02'
+  quote: KBIF, the Korean Secretariat of GBIF, is a national central node
+- claim: Secretariat set up in the National Science Museum in January 2008.
+  url: https://naris.science.go.kr/intd/kbif/selectKbifIntroduce.do
+  fetched: '2026-11-02'
+  quote: the GBIF Korean Secretariat was established in the National Science Museum in January
+    2008.
+- claim: GBIF's node record lists it as the Republic of Korea's voting participant.
+  url: https://api.gbif.org/v1/node/e0a1e772-0177-4800-94b4-2d023fe6cdf4
+  fetched: 2026-11-02
+  quote: '"participationStatus":"VOTING","gbifRegion":"ASIA","continent":"ASIA","title":"Korean
+    Biodiversity Information Facility","participantTitle":"Korea, Republic of"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node?q=Korea&limit=3
+  fetched: '2026-11-02'
+  quote: '"title":"Korean Biodiversity Information Facility","participantTitle":"Korea, Republic
+    of"'
+- type: run-by
+  to: national-science-museum-of-korea
+  url: https://v.daum.net/v/zS3isY9HXR
+  fetched: '2026-11-02'
+  quote: 우리나라는 2001년 정회원 국가로 참여해 과학기술정보통신부 국립중앙과학관이 한국사무국을 담당하고 있다.
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/e0a1e772-0177-4800-94b4-2d023fe6cdf4
+  fetched: '2026-11-02'
+  quote: '"participationStatus":"VOTING"'
+- type: run-by
+  to: national-science-museum-of-korea
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=284020
+  fetched: 2026-11-02
+  quote: 국립중앙과학관은 GBIF 한국사무국(KBIF)으로서 생물다양성 데이터의 체계적 수집·표준화·공유·확대를 지원 중임.
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/e0a1e772-0177-4800-94b4-2d023fe6cdf4
+  fetched: 2026-11-02
+  quote: '"participationStatus":"VOTING","gbifRegion":"ASIA","continent":"ASIA","title":"Korean
+    Biodiversity Information Facility","participantTitle":"Korea, Republic of"'
+found_by:
+- checklist:2
+- link-from:queue-kr
+- register:kr
+also_known_as:
+- KBIF
+- 한국생물다양성정보기구
+added_by: agent
+checked: '2026-11-02'
+countries:
+- kr
+realms:
+- land
+- freshwater
+- ocean

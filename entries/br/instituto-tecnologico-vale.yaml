@@ -1,0 +1,115 @@
+id: instituto-tecnologico-vale
+kind: organisation
+name: Instituto Tecnológico Vale
+also_known_as:
+- ITV
+- Vale Institute of Technology
+- Vale Technological Institute
+- ITV DS
+- Instituto Tecnológico Vale Desenvolvimento Sustentável
+scope: br
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+- remote-sensing
+- bioacoustics
+hq: br
+scale: national
+status: active
+website: https://www.itv.org/
+summary: Research institute of the mining company Vale that partners with ICMBio on Environmental
+  DNA, a project for the genetic mapping of Brazilian species.
+facts:
+- claim: Signed a partnership with ICMBio to launch Environmental DNA.
+  url: https://saladeimprensa.vale.com/w/vale-and-icmbio-launch-unparalleled-project-to-map-dna-of-brazilian-biodiversity
+  fetched: '2026-10-30'
+  quote: The Vale Institute of Technology (ITV) and Chico Mendes institute for Biodiversity
+    Conservation (ICMBio) have signed a partnership to launch “Environmental DNA,”
+- claim: A scientific and technological research centre with mining and sustainable development
+    units.
+  url: https://www.itv.org/
+  fetched: '2026-10-30'
+  quote: Com unidades focadas em Mineração (ITV MI) e Desenvolvimento Sustentável (ITV DS)
+- claim: Coordinates coastal zone and mining mapping in MapBiomas with Solved.
+  url: https://sites.mapbiomas.org/conheca-o-mapbiomas/quem-somos/
+  fetched: '2026-10-30'
+  quote: Coastal Zone and Mining – Vale Technological Institute (ITV) / Solved
+- claim: Co-leads the Brazilian biodiversity genomics initiative with ICMBio since late 2022.
+  url: https://www.itv.org/projeto-genomica-da-biodiversidade-brasileira/
+  fetched: '2026-10-30'
+  quote: Desde o final de 2022, o Instituto Tecnológico Vale (ITV) e o Instituto Chico Mendes
+    de Conservação da Biodiversidade (ICMBio) lideram
+- claim: A private, non-profit science, technology and innovation institution operating since
+    2010.
+  url: https://api.gbif.org/v1/organization/e0b232a5-af00-4d26-a3a3-f0730ff71696
+  fetched: '2026-10-30'
+  quote: We are a private, non-profit science, technology, and innovation institution
+- claim: Has a project to develop a deep learning algorithm that identifies bat species from
+    their calls.
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: visa o desenvolvimento de um algoritmo de aprendizado profundo capaz de identificar
+    espécies de morcegos
+  ai_type: deep-learning
+- claim: Uses remote sensing maps to analyse land cover and carbon dynamics on Vale's areas.
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: usamos informações de mapas de sensoriamento remoto para analisar toda cobertura
+    do uso do solo
+- claim: Has tried combining ten years of field data with satellite images and AI to estimate
+    water health in the Itacaiúnas basin.
+  url: https://www.itv.org/comunicacao/newsletter-itv-ds-se-une-a-inteligencia-artificial-para-a-sustentabilidade-global/
+  fetched: '2026-10-30'
+  quote: passando para o algoritmo de IA, vamos conseguir saber a saúde das águas daquela
+    Bacia
+- claim: Its address on GBIF is in Belém, Pará.
+  url: https://api.gbif.org/v1/organization/e0b232a5-af00-4d26-a3a3-f0730ff71696
+  fetched: '2026-10-30'
+  quote: Rua Boaventura da Silva 955
+- claim: A SciELO author record gives its address in Nazaré, Belém.
+  url: https://www.scielo.br/j/aabc/a/QTtVFdHRhVqb4XBySMtwgff/abstract/?lang=en
+  quote: Instituto Tecnológico Vale, Rua Boaventura da Silva, 955, Nazaré 66055-090 Belém,
+    PA, Brazil
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: environmental-dna-itv-icmbio
+  url: https://saladeimprensa.vale.com/w/vale-and-icmbio-launch-unparalleled-project-to-map-dna-of-brazilian-biodiversity
+  fetched: '2026-10-30'
+  quote: The Vale Institute of Technology (ITV) and Chico Mendes institute for Biodiversity
+    Conservation (ICMBio) have signed a partnership
+- type: runs
+  to: genomica-da-biodiversidade-brasileira
+  url: https://www.itv.org/
+  fetched: '2026-10-30'
+  quote: Destaques do nosso trabalho Itv Ds ITV + ICMBio Projeto Genômica da Biodiversidade
+    Brasileira – GBB
+- type: partners-with
+  to: mapbiomas
+  url: https://sites.mapbiomas.org/conheca-o-mapbiomas/quem-somos/
+  fetched: '2026-10-30'
+  quote: Coastal Zone and Mining – Vale Technological Institute (ITV) / Solved
+- type: runs
+  to: biolink-itv
+  url: https://www.itv.org/comunicacao/entrevista-dados-inteligencia-artificial-e-biodiversidade/
+  fetched: '2026-10-30'
+  quote: Criamos o Biolink para ajudar nesse inventário
+found_by:
+- checklist:3
+- link-from:mapbiomas
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+countries:
+- br
+ai_types:
+- deep-learning

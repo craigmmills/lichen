@@ -1,0 +1,35 @@
+id: taiwan-roadkill-observation-network-dataset
+kind: dataset
+name: The Taiwan Roadkill Observation Network Data Set
+scope: tw
+ai_label: data-infrastructure
+status: active
+runner: unknown
+realms:
+- land
+countries: []
+summary: Dataset of 46,416 georeferenced roadkill occurrences from 2011 to December 2017, collected by
+  TaiRON citizen scientists, with each record having at least one photo checked by managers and experts.
+facts:
+- claim: Holds 46,416 georeferenced roadkill occurrences from 2011 to December 2017, collected by TaiRON
+    citizen scientists.
+  url: https://api.gbif.org/v1/dataset/db09684b-0fd1-431e-b5fa-4c1532fbdb14
+  fetched: 2026-11-12
+  quote: This data set includes 46,416 geospatially referenced occurrence points of wildlife found on
+    road networks in Taiwan starting in 2011 and until Dec. 2017.
+- claim: Each observation has at least one photo, identified by project managers and group experts.
+  url: https://api.gbif.org/v1/dataset/db09684b-0fd1-431e-b5fa-4c1532fbdb14
+  fetched: 2026-11-12
+  quote: Each observation includes at least one photo, species name, and date and time of collection,
+    Project managers and group experts identify each photograph and label them with vernacular and scientific
+    names.
+- claim: GBIF's citation names the Taiwan Biodiversity Research Institute as publisher of version 1.11
+    (2026).
+  url: https://api.gbif.org/v1/dataset/db09684b-0fd1-431e-b5fa-4c1532fbdb14
+  fetched: 2026-11-12
+  quote: Version 1.11. Taiwan Biodiversity Research Institute. Occurrence dataset
+links: []
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-12

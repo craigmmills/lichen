@@ -1,0 +1,75 @@
+id: sistema-de-informacion-y-monitoreo-de-bosques
+kind: dataset
+name: Sistema de Información y Monitoreo de Bosques
+also_known_as:
+- SIMB
+scope: bo
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bo
+status: active
+website: https://simb.produccion.gob.bo/simb/
+summary: Official forest monitoring platform of Bolivia's forest directorate, offering
+  deforestation alerts, automatic heat hotspot detection, burn scar maps from MODIS,
+  VIIRS, Landsat 8 and Sentinel-2, and MapBiomas land-use maps.
+facts:
+- claim: The site calls SIMB the official platform of the Dirección General de Gestión
+    y Desarrollo Forestal, under the Ministerio de Planificación del Desarrollo y
+    Medio Ambiente, centralising monitoring of Bolivia's forests.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: El SIMB es la plataforma oficial de la Dirección General de Gestión y Desarrollo
+    Forestal (DGGDF), dependiente del Ministerio de Planificación del Desarrollo y
+    Medio Ambiente (MPDyMA).
+- claim: Has a deforestation subsystem giving alerts and quantifying forest loss.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: 'Subsistema de Deforestación: Alertas y cuantificación de la pérdida de bosques.'
+- claim: Detects heat hotspots automatically and intersects them with protected areas,
+    forest reserves and forest types.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: 'Subsistema de Focos de Calor: Detección automática intersecada con Áreas
+    Protegidas, Reservas Forestales y Tipos de Bosques.'
+- claim: Maps burn scars daily from MODIS and VIIRS, monthly from Landsat 8 and precisely
+    from Sentinel-2.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: Imágenes Sentinel 2 para delimitación exacta del área afectada.
+- claim: Its repository offers land-use maps from MapBiomas Bolivia.
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: Mapas e información de uso de suelo (MapBiomas Bolivia).
+- claim: BITS says it built and validated a biodiversity module of SIMB in 2019 and
+    implemented it in the platform.
+  url: https://bits.bo/projects-details.php?id=6
+  fetched: 2026-11-12
+  quote: Construcción y validación funcional del módulo de biodiversidad, asegurando
+    estabilidad, usabilidad y consistencia en los procesos de monitoreo.
+links:
+- type: run-by
+  to: direccion-general-de-gestion-y-desarrollo-forestal-bolivia
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: El SIMB es la plataforma oficial de la Dirección General de Gestión y Desarrollo
+    Forestal (DGGDF)
+- type: built-by
+  to: direccion-general-de-gestion-y-desarrollo-forestal-bolivia
+  url: https://simb.produccion.gob.bo/simb/
+  fetched: 2026-11-12
+  quote: 'El Ministerio de Medio Ambiente y Agua (MMAyA) a través de la Dirección
+    General de
+
+    Gestión y Desarrollo Forestal (DGGDF), ve la importancia de difundir información
+    de
+
+    calidad, por ello ha creado este sitio'
+found_by:
+- rule:checklist-misses
+- checklist:2
+added_by: agent
+checked: 2026-11-12

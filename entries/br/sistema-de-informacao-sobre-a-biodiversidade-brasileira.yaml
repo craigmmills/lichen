@@ -1,0 +1,54 @@
+id: sistema-de-informacao-sobre-a-biodiversidade-brasileira
+kind: programme
+name: Sistema de Informação sobre a Biodiversidade Brasileira
+also_known_as:
+- SiBBr
+- Brazilian Biodiversity Information System
+scope: br
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.sibbr.gov.br/
+summary: Brazil's online platform, conducted by the science ministry, that gathers
+  biodiversity and ecosystem data from different sources and makes it available for
+  reuse.
+facts:
+- claim: Onçafari describes it as a public archive coordinated by the Ministry of
+    Science.
+  url: https://oncafari.org/por-onde-andam-os-felinos/
+  fetched: '2026-10-30'
+  quote: coordenado pelo Ministério da Ciência
+- claim: Established by ministerial order and integrates national and international
+    biodiversity data.
+  url: https://www.gov.br/mma/pt-br/acesso-a-informacao/informacoes-ambientais/conjunto-de-dados-ambientais/dados-ambientais-biodiversidade
+  fetched: '2026-10-30'
+  quote: instituído pela Portaria MCTIC nº 6.223/2018, integra dados nacionais e internacionais
+    sobre biodiversidade
+links:
+- type: run-by
+  to: ministerio-da-ciencia-tecnologia-e-inovacao
+  url: https://agencia.fapesp.br/brazil-joins-the-global-biodiversity-information-facility/16523
+  fetched: '2026-10-30'
+  quote: the initiative is conducted by MCTI in partnership with the Global Environment
+    Fund (GEF)
+- type: partners-with
+  to: global-environment-facility
+  url: https://agencia.fapesp.br/brazil-joins-the-global-biodiversity-information-facility/16523
+  fetched: '2026-10-30'
+  quote: "the initiative is conducted by MCTI in partnership with the Global Environment Fund (GEF)"
+- type: run-by
+  to: ministerio-da-ciencia-tecnologia-e-inovacao
+  url: https://mamiraua.org.br/noticias/oficina-no-instituto-mamiraua-capacita-pesquisadores-para-organizacao-e-divulgacao-de-dados-sobre-a-biodiversidade-amazonica/
+  fetched: '2026-10-30'
+  quote: plataforma vinculada ao Ministério da Ciência, Tecnologia e Inovação (MCTI)
+found_by:
+- checklist:2
+- link-from:oncafari
+- checklist:register
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

@@ -1,0 +1,42 @@
+id: university-of-szeged
+kind: organisation
+name: University of Szeged
+scope: hu
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: A university whose researchers first-authored papers on mapping wetland water cover from Sentinel-1
+  (2020) and monitoring plants with drone imagery (2023 and 2026).
+facts:
+- claim: A 2020 paper first-authored at the university detects water cover on wetlands from Sentinel-1
+    imagery with Google Earth Engine.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01pnej532,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Sentinel-1-Imagery-Based High-Resolution Water Cover Detection on Wetlands, Aided by Google Earth
+    Engine
+- claim: A 2023 paper first-authored at the university identifies and monitors two invasive alien plant
+    species in open sand grasslands from drone images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01pnej532,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Drone-Based Identification and Monitoring of Two Invasive Alien Plant Species in Open Sand Grasslands
+    by Six RGB Vegetation Indices
+- claim: A 2026 paper first-authored at the university monitors a rare Pannonian steppe plant with drone
+    imagery.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01pnej532,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Cost-effective monitoring of a rare Pannonian steppe plant using drone imagery
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,55 @@
+id: terratorch
+kind: programme
+name: TerraTorch
+scope: global
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/torchgeo/terratorch
+summary: Python toolkit for fine-tuning geospatial foundation models, built on PyTorch Lightning and TorchGeo. The IBM/terratorch address now serves the torchgeo/terratorch repository.
+facts:
+- claim: A Python toolkit for fine-tuning geospatial foundation models.
+  url: https://github.com/IBM/terratorch
+  fetched: &id001 2026-10-30
+  quote: A Python toolkit for fine-tuning Geospatial Foundation Models (GFMs).
+- claim: Based on PyTorch Lightning and TorchGeo.
+  url: https://github.com/IBM/terratorch
+  fetched: *id001
+  quote: TerraTorch is a PyTorch domain library based on PyTorch Lightning and the TorchGeo domain library
+- claim: "The TerraTorch repository is tagged deep-learning."
+  url: https://github.com/IBM/terratorch
+  fetched: 2026-10-30
+  quote: "computer-vision deep-learning earth-observation foundation-models"
+  ai_type: deep-learning
+- claim: "TerraTorch fine-tunes geospatial foundation models."
+  url: https://github.com/IBM/terratorch
+  fetched: 2026-10-30
+  quote: "A Python toolkit for fine-tuning Geospatial Foundation Models (GFMs)."
+  ai_type: foundation-models
+- claim: 'Provides tools for fine-tuning and using pretrained models.'
+  url: https://github.com/torchgeo/terratorch
+  fetched: 2026-10-30
+  quote: 'TerraTorch provides tools for fine-tuning and using pretrained models.'
+links:
+- type: run-by
+  to: ibm
+  url: https://research.ibm.com/publications/terratorch-an-open-source-framework-for-fine-tuning-geospatial-foundation-models
+  fetched: *id001
+  quote: "Here, we present TerraTorch ( https://github.com/IBM/terratorch ), an open-source library"
+- type: builds-on
+  to: torchgeo
+  url: https://github.com/IBM/terratorch
+  fetched: *id001
+  quote: TerraTorch is a PyTorch domain library based on PyTorch Lightning and the TorchGeo domain library
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

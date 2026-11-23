@@ -1,0 +1,78 @@
+id: geo-trees
+kind: programme
+name: GEO-TREES
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+website: https://geo-trees.org
+summary: Initiative for high-accuracy ground data to support satellite-derived biomass mapping.
+facts:
+- claim: OpenAlex lists a 2024 abstract on the initiative.
+  url: https://api.openalex.org/works?search=GEO-TREES%20high-quality%20forest%20biomass%20reference&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: 'The GEO-TREES initiative: high-accuracy ground data for satellite-derived biomass mapping'
+  fetched: '2026-10-30'
+links:
+- type: represented-by
+  to: iris-dion
+  url: https://api.openalex.org/works?search=GEO-TREES%20high-quality%20forest%20biomass%20reference&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: Iris Dion
+  fetched: '2026-10-30'
+- type: funded-by
+  to: bezos-earth-fund
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'Donors France Centre National de la Recherche Scientifique (CNRS) Government of France (GF) United States Bezos Earth Fund (Bezos Earth Fund)'
+- type: funded-by
+  to: gordon-and-betty-moore-foundation
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'Donors France Centre National de la Recherche Scientifique (CNRS) Government of France (GF) United States Bezos Earth Fund (Bezos Earth Fund) Gordon and Betty Moore Foundation (Moore Foundation)'
+- type: funded-by
+  to: smithsonian-tropical-research-institute
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'Donors France Centre National de la Recherche Scientifique (CNRS) Government of France (GF) United States Bezos Earth Fund (Bezos Earth Fund) Gordon and Betty Moore Foundation (Moore Foundation) Smithsonian Tropical Research Institute (STRI)'
+- type: funded-by
+  to: european-space-agency
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'Donors France Centre National de la Recherche Scientifique (CNRS) Government of France (GF) United States Bezos Earth Fund (Bezos Earth Fund) Gordon and Betty Moore Foundation (Moore Foundation) Smithsonian Tropical Research Institute (STRI) European Space Agency (ESA)'
+- type: partners-with
+  to: csiro
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'Partners GEO Members Australia Commonwealth Scientific and Industrial Research Organisation (CSIRO)'
+- type: partners-with
+  to: cirad
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'French Agricultural Research Centre for International Development (CIRAD)'
+- type: partners-with
+  to: university-of-leeds
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'University of Leeds (UoL)'
+- type: partners-with
+  to: smithsonian-institution
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'Smithsonian Institution (Smithsonian)'
+- type: partners-with
+  to: forestgeo
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'the three founding partner networks: ForestGEO, ForestPlots.net, and TmFO'
+- type: partners-with
+  to: forestplots-net
+  url: https://earthobservations.org/groups/forest-biomass-reference-system-from-tree-by-tree-inventory-data
+  fetched: 2026-10-30
+  quote: 'the three founding partner networks: ForestGEO, ForestPlots.net, and TmFO'
+found_by:
+- link-from:esa-cci-biomass
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

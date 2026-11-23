@@ -1,0 +1,43 @@
+id: my-naturesound
+kind: project
+name: My Naturesound
+also_known_as:
+- Minu loodusheli
+- My naturesounds - nature observations with sound recordings
+scope: ee
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+runner: unknown
+summary: Ongoing project, active since August 2015, using an app to record animal
+  sounds, moderate them and publish observations to GBIF through PlutoF; its dataset
+  holds about 2,956 occurrences.
+facts:
+- claim: An ongoing project, active from August 2015, that uses an app to record and
+    upload animal sound recordings, moderates them and publishes observations to GBIF
+    through PlutoF.
+  url: https://eu-citizen.science/project/94
+  fetched: 2026-11-12
+  quote: An ongoing biodiversity observation project which uses a specific application
+    to record and upload animal sound recordings, provide expert moderation to the
+    database and publish observations to Global Biodiversity Information Facility
+    through Estonian publishing system PlutoF.
+- claim: Every observation in its GBIF dataset carries a sound recording used to identify
+    the species; the dataset holds about 2,956 occurrences.
+  url: https://api.gbif.org/v1/dataset/cb6e66f1-3056-404d-a341-bb856762c57c
+  fetched: 2026-11-12
+  quote: All observations are provided with sound recording which is used to identify
+    the species.
+links:
+- type: uses
+  to: plutof
+  url: https://api.gbif.org/v1/dataset/cb6e66f1-3056-404d-a341-bb856762c57c
+  fetched: 2026-11-12
+  quote: observation record with sound files is transferred to PlutoF cloud database
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

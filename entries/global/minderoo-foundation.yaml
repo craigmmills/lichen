@@ -1,0 +1,53 @@
+id: minderoo-foundation
+kind: organisation
+name: Minderoo Foundation
+scope: global
+sector: funder
+roles:
+- funds
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+hq: au
+scale: global
+status: active
+website: https://www.minderoo.org
+summary: Australian philanthropy that set up the OceanOmics programme in 2020 and funds environmental
+  DNA work in marine protected areas, including AU$3.5 million for UNESCO's eDNA Expeditions
+  Phase II. It is a listed funder of Global Fishing Watch.
+facts:
+- claim: Describes itself as an Australian philanthropy.
+  url: https://www.minderoo.org/
+  quote: Minderoo is a proudly Australian philanthropy
+  fetched: &id001 2026-10-30
+- claim: Will provide AU$3.5 million for eDNA Expeditions Phase II with UNESCO, at 25 marine
+    protected areas.
+  url: https://cdn.minderoo.org/media/minderoo-foundation-joins-forces-with-unesco-to-turbocharge-ocean-conservation-through-edna/
+  quote: eDNA Expeditions Phase II – for which Minderoo Foundation will provide AU$3.5 million
+  fetched: *id001
+links:
+- type: runs
+  to: oceanomics
+  url: https://cdn.minderoo.org/media/minderoo-foundation-joins-forces-with-unesco-to-turbocharge-ocean-conservation-through-edna/
+  quote: In 2020, Minderoo Foundation established its OceanOmics program
+  fetched: *id001
+- type: funds
+  to: edna-expeditions
+  amount: 3500000
+  currency: AUD
+  year: 2025
+  url: https://cdn.minderoo.org/media/minderoo-foundation-joins-forces-with-unesco-to-turbocharge-ocean-conservation-through-edna/
+  quote: eDNA Expeditions Phase II – for which Minderoo Foundation will provide AU$3.5 million
+  fetched: *id001
+- type: funds
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/?p=13515
+  quote: Minderoo Foundation
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

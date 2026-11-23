@@ -1,0 +1,26 @@
+id: mangroveleaf
+kind: model
+name: MangroveLEAF
+scope: ph
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+countries:
+- ph
+status: unknown
+summary: Model introduced in a 2025 paper that OpenAlex lists, found in a query on remote sensing and
+  machine learning; its status is unknown.
+facts:
+- claim: OpenAlex lists the 2025 paper introducing MangroveLEAF, found in a query on remote sensing and
+    machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I87074743|I210563421,title_and_abstract.search:remote%20sensing%20machine%20learning,from_publication_date:2020-01-01&per-page=30&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'MangroveLEAF: A New Comprehensive Conservation Tool for Modeling Mangrove Loss, Analyzing Its
+    Drivers, and Projecting Future Impacts'
+links: []
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-07

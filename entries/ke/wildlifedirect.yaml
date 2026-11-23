@@ -1,0 +1,49 @@
+id: wildlifedirect
+kind: organisation
+name: WildlifeDirect
+scope: ke
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ke
+website: https://www.wildlifedirect.org/
+countries:
+- ke
+scale: national
+summary: Kenyan non-profit behind the Eyes in the Courtroom monitoring of wildlife crime trials,
+  whose court data are published as the Wildlife Crime Kenya Dataset.
+facts:
+- claim: A Frontiers paper calls it a nonprofit organisation in Kenya that surveyed courts.
+  url: https://www.frontiersin.org/journals/conservation-science/articles/10.3389/fcosc.2025.1626061/full
+  quote: WildlifeDirect, a nonprofit organization in Kenya, carried out court surveys
+  fetched: '2026-10-31'
+- claim: Save the Elephants reports the Elephant Crisis Fund funded an earlier study.
+  url: https://savetheelephants.org/news/eyes-in-the-courtroom/
+  quote: The project, funded by the Elephant Crisis Fund (ECF), highlighted several major
+    concerns within Kenya's legal system
+  fetched: '2026-10-31'
+- claim: Wikipedia calls it a Kenya and US registered charity with its main office in Nairobi.
+  url: https://en.wikipedia.org/wiki/WildlifeDirect
+  fetched: '2026-10-31'
+  quote: WildlifeDirect is a Kenya and US registered charitable organisation founded by African
+    conservationist Richard Leakey . Its main office is located in Nairobi , Kenya.
+- claim: The Whitley Fund for Nature calls Paula Kahumbu CEO of the Kenya-based NGO.
+  url: https://whitleyaward.org/winners/justice-for-people-and-wildlife/
+  fetched: '2026-10-31'
+  quote: Paula Kahumbu, CEO of Kenya-based NGO Wildlife Direct
+links:
+- type: partners-with
+  to: eyes-in-the-courtroom
+  url: https://www.frontiersin.org/journals/conservation-science/articles/10.3389/fcosc.2025.1626061/full
+  quote: the Eyes in the Courtroom Project, a partnership between WildlifeDirect and the Judiciary
+    Training Institute
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

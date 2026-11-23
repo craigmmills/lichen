@@ -1,0 +1,29 @@
+id: banco-de-datos-de-la-biodiversidad-de-la-comunitat-valenciana
+kind: dataset
+name: Banco de Datos de la Biodiversidad de la Comunitat Valenciana
+scope: es
+ai_label: data-infrastructure
+status: active
+also_known_as:
+- Banc de Dades de Biodiversitat
+- BDB
+realms:
+- land
+- freshwater
+- ocean
+website: https://bdb.gva.es/
+summary: Regional platform of the Generalitat Valenciana that gathers and publishes
+  expert-validated distribution records of wild species, with a mobile app.
+facts:
+- claim: Describes itself as the largest virtual platform for current data on wild
+    species distribution in the Valencian Community.
+  url: https://api.gbif.org/v1/organization/ebda1cab-dda8-418b-8f25-df1e71ff5bc2/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: es la mayor plataforma virtual de recopilación de datos actuales sobre la
+    distribución geográfica de las especies silvestres
+links: []
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

@@ -1,0 +1,30 @@
+id: greenmeter
+kind: programme
+name: Greenmeter
+scope: ee
+ai_label: conservation-tech
+realms:
+- land
+status: active
+summary: Application, built by the University of Tartu Landscape Biodiversity Group,
+  that calculates how good a location within a 500 metre radius is for biodiversity
+  and gives recommendations.
+facts:
+- claim: Calculates how good a location within a 500 metre radius is for biodiversity
+    and gives recommendations.
+  url: https://landscape.ut.ee/greenmeter/?lang=en
+  fetched: 2026-11-12
+  quote: To use the greenmeter, you must select a point on the map and then the greenmeter
+    calculates how good the selected location within a radius of 500 meters is for
+    biodiversity.
+links:
+- type: built-by
+  to: ut-landscape-biodiversity-group
+  url: https://landscape.ut.ee/greenmeter/?lang=en
+  fetched: 2026-11-12
+  quote: Our work group, together with the macroecology work group, developed an application
+    called greenmeter
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

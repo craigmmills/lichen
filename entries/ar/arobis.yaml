@@ -1,0 +1,35 @@
+id: arobis
+kind: programme
+name: ArOBIS Centro Nacional Patagónico
+also_known_as:
+- ArOBIS
+scope: ar
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques: []
+countries:
+- ar
+status: unknown
+runner: unknown
+summary: Argentine node of the Ocean Biogeographic Information System, according to GBIF's registry, which
+  publishes datasets on GBIF including satellite-tracked locations of southern elephant seals from Península
+  Valdés.
+facts:
+- claim: GBIF's registry describes it as the Argentine node of the Ocean Biogeographic Information System.
+  url: https://api.gbif.org/v1/organization/d6bc1312-f24f-4258-b117-a13243b915ff
+  fetched: 2026-11-03
+  quote: ArOBIS Centro Nacional Patagónico is the Argentinean node of the Ocean Biogeographic Information
+    System.
+- claim: Publishes datasets on GBIF including satellite-tracked locations of southern elephant seals from
+    Península Valdés.
+  url: https://api.gbif.org/v1/organization/d6bc1312-f24f-4258-b117-a13243b915ff/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: This resource contains satellite-tracked locations obtained through Argos system from juveniles
+    of southern elephant seal of Península Valdés, Argentina
+links: []
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

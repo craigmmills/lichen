@@ -1,0 +1,28 @@
+id: mesoscan
+kind: project
+name: MESOSCAN
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://www.forestresearch.gov.uk/research/mesoscan-machine-learning-for-soil-biodiversity-identification/
+summary: Forest Research project developing a machine learning dataset and tool for
+  automatically identifying soil mites and springtails.
+facts:
+- claim: Machine learning dataset and tool for automatically identifying soil biodiversity.
+  url: https://www.forestresearch.gov.uk/research/mesoscan-machine-learning-for-soil-biodiversity-identification/
+  quote: dataset and tool for automatically identifying soil biodiversity
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: forest-research
+  url: https://www.forestresearch.gov.uk/research/mesoscan-machine-learning-for-soil-biodiversity-identification/
+  quote: 'MESOSCAN: Machine learning for soil biodiversity identification'
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

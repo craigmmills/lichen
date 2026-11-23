@@ -1,0 +1,26 @@
+id: treescanpl10k
+kind: dataset
+name: TreeScanPL10K
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pl
+status: unknown
+runner: unknown
+summary: Dataset published in 2026 of annotated terrestrial laser scanning point clouds of Central European
+  tree species.
+facts:
+- claim: Published in 2026 as a dataset of annotated terrestrial laser scanning point clouds of Central
+    European tree species.
+  url: https://api.openalex.org/works/W7160031414?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: A Central European tree species dataset of annotated terrestrial laser scanning point clouds
+    - TreeScanPL10K
+  fetched: '2026-11-02'
+scope: pl
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

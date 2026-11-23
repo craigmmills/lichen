@@ -1,0 +1,52 @@
+id: laboratoire-d-ecologie-et-d-ecotoxicologie-universite-de-lome
+kind: organisation
+name: Laboratoire d'Écologie et d'Écotoxicologie
+also_known_as:
+- LaEE
+- Laboratory of Ecology and Ecotoxicology
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: Université de Lomé laboratory in the Faculté des Sciences, led by Guillaume Koffivi
+  Ketoh, linked to a 2022 camera-trap mammal study and a 30 August 2022 session sharing Fazao-Malfakassa
+  National Park inventory results.
+facts:
+- claim: Listed among the Université de Lomé's research structures, in the Faculté des Sciences.
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-13
+  quote: Laboratoire d’Écologie & d’Ecotoxicologie (LaEE)
+- claim: The first author of a 2022 paper on medium and large mammals in flooded forests near
+    the Mono river gives the laboratory as affiliation.
+  url: https://api.openalex.org/works?filter=doi:10.3390/ani12213041&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: Laboratory of Ecology and Ecotoxicology, Faculty of Sciences
+- claim: The paper's methods include camera trapping.
+  url: https://api.openalex.org/works?filter=doi:10.3390/ani12213041&select=id,display_name,publication_year,authorships,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: camera-trapping
+- claim: On 30 August 2022 the laboratory and Agbo-Zégué held a session sharing the results
+    of the camera-trap mammal inventory of Fazao-Malfakassa National Park.
+  url: https://agbozegue.org/bilan-de-deux-annees-dinventaire-des-mammiferes-du-parc-national-de-fazao-malfakassa-par-les-cameras-trap/
+  fetched: 2026-11-13
+  quote: le Laboratoire d’Ecologie et d’Ecotoxicologie de l’Université de Lomé LaEE et l’
+    ONG AGBO-ZEGUE ont organisé une séance de partage d’information sur le résultat de l’inventaire
+    des mammifères
+links:
+- type: run-by
+  to: universite-de-lome
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-13
+  quote: Laboratoire d’Écologie & d’Ecotoxicologie (LaEE)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

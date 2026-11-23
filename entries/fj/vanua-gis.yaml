@@ -1,0 +1,32 @@
+id: vanua-gis
+kind: dataset
+name: VanuaGIS
+scope: fj
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+countries:
+- fj
+summary: Government web portal and repository for Fiji's geospatial information, managed
+  by the lands ministry.
+facts:
+- claim: Described as the government's repository for geospatial information.
+  url: https://www.fijitimes.com.fj/vanuagis-changes-information-access/
+  fetched: '2026-10-31'
+  quote: The VanuaGIS will act as Government’s repository for geospatial information
+- claim: A UN-GGIM presentation gives its aim as centralising government datasets
+    on one platform.
+  url: https://ggim.un.org/meetings/2024/Suva_Fiji/documents/Day4_UNGGIM_Vanua_GIS2.pdf
+  fetched: '2026-10-31'
+  quote: Centralise all datasets for government under one platform
+links:
+- type: run-by
+  to: ministry-of-lands-and-mineral-resources-fiji
+  url: https://www.fijitimes.com.fj/vanuagis-changes-information-access/
+  fetched: '2026-10-31'
+  quote: will be updated by data custodians and managed by the Lands Ministry
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

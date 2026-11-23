@@ -1,0 +1,72 @@
+id: taiwan-biodiversity-research-institute
+kind: organisation
+name: Taiwan Biodiversity Research Institute
+also_known_as:
+- TBRI
+- Taiwan Endemic Species Research Institute
+- TESRI
+- Endemic Species Research Institute
+- ESRI
+scope: tw
+sector: government
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+hq: tw
+countries: []
+scale: national
+status: active
+website: https://www.tbri.gov.tw
+summary: Government institute renamed from the Taiwan Endemic Species Research Institute in August 2023,
+  which describes itself as contributing to national conservation strategy and builds the SILIC sound
+  identification model.
+facts:
+- claim: Describes itself on GBIF as a key governmental entity contributing to Taiwan's national biodiversity
+    conservation strategy.
+  url: https://api.gbif.org/v1/organization/7c07cec1-2925-443c-81f1-333e4187bdea
+  fetched: 2026-11-12
+  quote: The Taiwan Biodiversity Research Institute (TBRI) is a key governmental entity in Taiwan, entrusted
+    with contributing to the national biodiversity conservation strategy founded on rigorous scientific
+    evidence.
+- claim: Renamed from the Taiwan Endemic Species Research Institute in August 2023.
+  url: https://api.gbif.org/v1/organization/7c07cec1-2925-443c-81f1-333e4187bdea
+  fetched: 2026-11-12
+  quote: In August 2023, due to governmental reformation, the institute transitioned from its former name,
+    TESRI, to TBRI
+- claim: Operates four field research stations across elevations and coastal ecosystems.
+  url: https://api.gbif.org/v1/organization/7c07cec1-2925-443c-81f1-333e4187bdea
+  fetched: 2026-11-12
+  quote: it operates four field research stations, each emphasizing distinct ecological strata, spanning
+    from low to high elevations, and encompassing Taiwan's coastal ecosystems.
+- claim: Its address is No. 1 Minsheng East Road, Jiji Town, Nantou County.
+  url: https://api.gbif.org/v1/organization/7c07cec1-2925-443c-81f1-333e4187bdea
+  fetched: 2026-11-12
+  quote: No.1, Minsheng East Road, Jiji Town
+- claim: A dataset it publishes says SILIC was developed by ESRI, the institute's former name.
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: SILIC (Sound Identification and Labeling Intelligence for Creatures) which was developed by ESRI
+- claim: The SILIC repository lists a dataset paper on acoustic detection of birds using a deep learning
+    approach.
+  url: https://github.com/RedbirdTaiwan/silic
+  fetched: 2026-11-12
+  quote: An acoustic detection dataset of birds (Aves) in montane forests using a deep learning approach.
+  ai_type: deep-learning
+links:
+- type: builds
+  to: silic
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: SILIC (Sound Identification and Labeling Intelligence for Creatures) which was developed by ESRI
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

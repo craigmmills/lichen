@@ -1,0 +1,39 @@
+id: pasco-corporation
+kind: organisation
+name: PASCO Corporation
+also_known_as:
+- 株式会社パスコ
+scope: jp
+sector: company
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://www.pasco.co.jp/
+summary: Company that runs Mitemiru Forest, a service which, according to a JAXA case study,
+  uses its own AI technology for image interpretation.
+facts:
+- claim: The JAXA case study says the service uses the company's own AI technology for image
+    interpretation.
+  url: https://earth.jaxa.jp/conseo/en/casestudy/pdf/UC_PASCO_2_e.pdf
+  fetched: 2026-11-02
+  quote: learning technology that won first prize for satellite image
+links:
+- type: runs
+  to: mitemiru-forest
+  url: https://earth.jaxa.jp/conseo/en/casestudy/pdf/UC_PASCO_2_e.pdf
+  fetched: 2026-11-02
+  quote: Providing “MiteMiru Forest” service by utilizing the Satellite × AI
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-02

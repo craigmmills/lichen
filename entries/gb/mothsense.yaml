@@ -1,0 +1,36 @@
+id: mothsense
+kind: programme
+name: MothSense
+ai_label: ai
+summary: Wilder Sensing tool, built on UKCEH's LepiSense, that captures images to identify
+  and monitor moths at scale for biodiversity reporting.
+facts:
+- claim: AI-enabled image capture for nocturnal insects.
+  url: https://www.ceh.ac.uk/news-and-media/news/new-partnership-expands-access-ai-powered-insect-monitoring-technology
+  quote: is an innovative AI-enabled technology that captures images to identify and monitor
+    nocturnal insects, particularly moths, at scale
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: wilder-sensing
+  url: https://www.ceh.ac.uk/news-and-media/news/new-partnership-expands-access-ai-powered-insect-monitoring-technology
+  quote: Wilder Sensing’s MothSense tool
+  fetched: '2026-10-30'
+- type: builds-on
+  to: lepisense
+  url: https://www.ceh.ac.uk/news-and-media/news/new-partnership-expands-access-ai-powered-insect-monitoring-technology
+  quote: the UKCEH developed LepiSense system to be built into Wilder Sensing’s MothSense
+    tool
+  fetched: '2026-10-30'
+found_by:
+- link-from:lepisense
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- gb
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

@@ -1,0 +1,32 @@
+id: vigie-chiro
+kind: programme
+name: Vigie-Chiro
+scope: fr
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+runner: unknown
+summary: A French acoustic monitoring programme running since 2006 for bats, bush-crickets
+  and other sound-making animals, identified by the Tadarida software.
+facts:
+- claim: Acoustic monitoring since 2006 of bats, bush-crickets and others.
+  url: https://ecoinfofair2024.sciencesconf.org/data/pages/YvesBas_EIF2024.pdf
+  quote: 'Vigie-Chiro : suivi acoustique depuis 2006 (chauves-souris, sauterelles,
+    etc)'
+  fetched: '2026-10-31'
+links:
+- type: uses
+  to: tadarida
+  url: https://ecoinfofair2024.sciencesconf.org/data/pages/YvesBas_EIF2024.pdf
+  quote: Fonctionnement de Vigie-Chiro / Tadarida
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:vigie-nature
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

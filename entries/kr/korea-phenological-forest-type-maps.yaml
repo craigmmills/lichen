@@ -1,0 +1,38 @@
+id: korea-phenological-forest-type-maps
+kind: dataset
+name: Korea phenological forest-type maps
+scope: kr
+ai_label: ai
+status: active
+summary: Dataset of national forest-type maps for 2019 to 2021, made with a U-Net on Sentinel-2
+  data and reaching 83.13 percent overall accuracy.
+facts:
+- claim: A U-Net classified forests across South Korea for national maps of 2019, 2020 and
+    2021.
+  url: https://www.nv5geospatialsoftware.com/Learn/Case-Studies/Case-Studies-Detail/south-korea-improves-forest-greenhouse-gas-reporting-with-remote-sensing-and-deep-learning
+  fetched: '2026-11-02'
+  quote: they trained a U-Net model to classify forests as coniferous or broadleaf across
+    the entire country, producing national maps for 2019, 2020, and 2021
+  ai_type: deep-learning
+- claim: Overall accuracy of 83.13 percent.
+  url: https://www.nv5geospatialsoftware.com/Learn/Case-Studies/Case-Studies-Detail/south-korea-improves-forest-greenhouse-gas-reporting-with-remote-sensing-and-deep-learning
+  fetched: '2026-11-02'
+  quote: forest-type maps with 83.13 percent overall accuracy
+links:
+- type: builds-on
+  to: sentinel-2
+  url: https://www.nv5geospatialsoftware.com/Learn/Case-Studies/Case-Studies-Detail/south-korea-improves-forest-greenhouse-gas-reporting-with-remote-sensing-and-deep-learning
+  fetched: '2026-11-02'
+  quote: using Sentinel-2 imagery
+found_by:
+- checklist:3
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- kr
+added_by: agent
+checked: '2026-11-02'

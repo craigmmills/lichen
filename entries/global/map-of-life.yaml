@@ -1,0 +1,39 @@
+id: map-of-life
+kind: dataset
+name: Map of Life
+also_known_as:
+- MOL
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+- remote-sensing
+status: active
+website: https://mol.org
+summary: Global resource on the distributions of species and their change, whose indicators
+  are used to track progress under the Global Biodiversity Framework.
+facts:
+- claim: Map of Life indicators are adopted in the Global Biodiversity Framework.
+  url: https://mol.org/
+  fetched: '2026-10-30'
+  quote: Map of Life's GBF-adopted indicators are used to track global, national, and regional
+    progress
+- claim: Global resource on species distributions.
+  url: https://earthobservations.org/about-us/events/2024-un-biodiversity-conference/schedule/species-focused-indicators-and-decision-support-map-life-and-half-earth-project-map
+  fetched: '2026-10-30'
+  quote: are global resources addressing the geographic distributions of species and their
+    change
+links:
+- type: run-by
+  to: yale-center-for-biodiversity-and-global-change
+  url: https://bgc.yale.edu/
+  fetched: '2026-10-30'
+  quote: With partners worldwide, we advance ‘Map of Life’, a platform that aims to support
+    effective biodiversity monitoring, research, and decision making
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

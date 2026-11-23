@@ -1,0 +1,57 @@
+id: institut-de-recherches-agronomiques-et-forestieres
+kind: organisation
+name: Institut de Recherches Agronomiques et Forestières
+also_known_as:
+- IRAF
+scope: ga
+sector: government
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+hq: unknown
+countries:
+- ga
+scale: national
+status: active
+summary: A public institution under three ministries that holds Gabon's largest fish
+  collection, about 10,000 specimens, and publishes a 2,784-record ichthyology dataset
+  through GBIF, with FPBG small-grant funding for lagoon megafauna study.
+facts:
+- claim: A public institution under the ministries of higher education and research,
+    agriculture, and water and forests.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GA&limit=50&q=Gabon
+  fetched: 2026-11-12
+  quote: Institut de Recherches Agronomiques et Forestières est une institution publique
+- claim: Holds Gabon's largest fish collection, of about 10,000 specimens.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GA&limit=50&q=Gabon
+  fetched: 2026-11-12
+  quote: héberge la plus grande collection de poissons du Gabon, avec environ 10 000
+    spécimens.
+- claim: Publishes an ichthyology observations dataset of 2,784 records through GBIF
+    under CC BY 4.0.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=GA&limit=50&q=Gabon
+  fetched: 2026-11-12
+  quote: Institut de Recherches Agronomiques et Forestières - Ichthyology Observations
+- claim: FPBG lists IRAF's study of aquatic megafauna in the Iguela and Banio lagoons
+    with 49,769,400 FCFA financed under its small grants.
+  url: https://fpbg.org/wp-content/uploads/2026/03/liste-des-beneficiaires-des-petites-subventions.pdf
+  fetched: 2026-11-12
+  quote: IRAF-029-SG Institut de Recherches agronomique et forestières Etude de la
+    mégafaune aquatique de la lagune Iguela et la lagune Banio pour une conservation
+    et une gestion durable
+links:
+- type: funded-by
+  to: fonds-de-preservation-de-la-biodiversite-au-gabon
+  url: https://fpbg.org/wp-content/uploads/2026/03/liste-des-beneficiaires-des-petites-subventions.pdf
+  fetched: 2026-11-12
+  quote: IRAF-029-SG Institut de Recherches agronomique et forestières Etude de la
+    mégafaune aquatique de la lagune Iguela et la lagune Banio
+  amount: 49769400
+  currency: XAF
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

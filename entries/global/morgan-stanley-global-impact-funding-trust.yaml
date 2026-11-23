@@ -1,0 +1,36 @@
+id: morgan-stanley-global-impact-funding-trust
+kind: organisation
+name: Morgan Stanley Global Impact Funding Trust
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- ocean
+- land
+hq: us
+scale: global
+status: active
+summary: Donor-advised giving trust recorded as giving Earth Species Project $3.2 million
+  across nine grants from 2022 to 2024.
+facts:
+- claim: Recorded as giving Earth Species Project $3,175,000 across nine grants from 2022
+    to 2024. Grantable table compiled from IRS Form 990 filings.
+  url: https://grantable.co/nonprofits/the-earth-species-project-morg_8037bb9169f342129cd38771621f845c
+  quote: Morgan Stanley Global Impact Funding Trust Inc $3,175,000 9 2022–2024
+  fetched: &id001 2026-10-30
+links:
+- type: funds
+  to: earth-species-project
+  url: https://grantable.co/nonprofits/the-earth-species-project-morg_8037bb9169f342129cd38771621f845c
+  quote: Earth Species Project between 2020-2025. Funder Total given Grants Years Aphorism
+    Foundation $10,005,300 1 2024 Morgan Stanley Global Impact Funding Trust Inc $3,175,000
+    9 2022-2024
+  amount: 3175000
+  currency: USD
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

@@ -1,0 +1,78 @@
+id: department-of-ecoscience-aarhus-university
+kind: organisation
+name: Department of Ecoscience, Aarhus University
+also_known_as:
+- AU Ecoscience
+- Institut for Ecoscience
+scope: dk
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+- edna-genomics
+- computer-vision
+hq: dk
+countries:
+- dk
+- gl
+scale: national
+status: active
+website: https://ecos.au.dk/en/
+summary: Aarhus University unit responsible for national monitoring of waterbirds, coordinating
+  marine mammal monitoring and developing automated localisation from sound.
+facts:
+- claim: Responsible for national monitoring of waterbirds.
+  url: https://ecos.au.dk/en/researchconsultancy/research-areas/wildlife-ecology
+  fetched: '2026-11-02'
+  quote: We are responsible for the national monitoring of waterbirds
+- claim: Coordinates national monitoring of marine mammals.
+  url: https://ecos.au.dk/en/researchconsultancy/research-areas/marine-mammal-research
+  fetched: '2026-11-02'
+  quote: The section for Marine Mammal Research is responsible for coordinating and conducting
+    the national monitoring of the Danish marine mammals.
+- claim: Develops automated localisation from sound.
+  url: https://ecos.au.dk/en/researchconsultancy/research-areas/wildlife-ecology
+  fetched: '2026-11-02'
+  quote: we develop automated methods for localization
+- claim: Its address is in Aarhus.
+  url: https://ecos.au.dk/forskningraadgivning/temasider/redlistframe
+  fetched: '2026-11-02'
+  quote: bygning 1110, 1120, 1130 & 1131, Aarhus
+- claim: Its site presents the Danish Red List 2019, covering about 13,300 species.
+  url: https://ecos.au.dk/en/
+  fetched: &id001 2026-11-02
+  quote: Den danske Rødliste 2019 er en samlet oversigt over ca. 13.300 danske arter.
+- claim: The authors of the 2026 AMI trap note are given as from the department.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: 'Institution: Aarhus Universitet, Institut for Ecoscience'
+- claim: The 2026 AMI note describes automated recognition of night-flying insects, with the
+    proposed monitoring running from April to November.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: 'Fælderne er aktive 4 timer hver nat
+
+    (23:00-03:00) alle måneder fra 1. april til 30. november.'
+links:
+- type: run-by
+  to: aarhus-university
+  url: https://ecos.au.dk/en/researchconsultancy/research-areas
+  fetched: '2026-11-02'
+  quote: AU Ecoscience - Research Areas
+- type: run-by
+  to: aarhus-university
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: 'Institution: Aarhus Universitet, Institut for Ecoscience'
+found_by:
+- link-from:aarhus-university
+- checklist:register
+added_by: agent
+checked: '2026-11-02'

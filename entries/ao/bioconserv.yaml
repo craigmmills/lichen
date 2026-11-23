@@ -1,0 +1,58 @@
+id: bioconserv
+kind: organisation
+name: Bioconserv
+scope: ao
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+- ocean
+techniques: []
+hq: ao
+countries: []
+scale: national
+status: active
+summary: Angolan NGO working mainly with wetland birds, which coordinated Angola's
+  2020 waterbird count and, per EcoAngola, helped identify over 30 sites important
+  to migratory birds; it drew up a management plan for Ilhéu dos Pássaros, awaiting
+  approval in October 2020.
+facts:
+- claim: Its GBIF publisher record describes it as an NGO working mainly with wetland
+    birds, with an address in Talatona, Luanda.
+  url: https://api.gbif.org/v1/organization/7c294a90-dea8-4e31-8ec4-1a6fca33fc00
+  fetched: 2026-11-12
+  quote: Bioconserv is a non-governmental organization for the conservation of biodiversity
+    aiming at sustainable development. Essentially working with wetland birds
+- claim: The Wadden Sea Flyway Initiative's 2020 census report says the 2020 count
+    in Angola was coordinated by Bioconserv.
+  url: https://flyway.waddensea-worldheritage.org/sites/default/files/2022-06/2020_Flyway%20census%20report.pdf
+  fetched: 2026-11-12
+  quote: nated by the NGO BIOCONSERV with institutional
+- claim: EcoAngola reports that Bioconserv's wetland bird counts, with INBAC, the
+    Wadden Sea Flyway Initiative and Wetlands International, identified more than
+    30 sites important to migratory birds in Angola.
+  url: https://ecoangola.com/observacao-de-aves-e-o-ecoturismo-como-funciona/
+  fetched: 2026-11-12
+  quote: Como resultado destes trabalhos feitos pela ONG Bioconserv, em colaboração
+    com o Instituto Nacional da Biodiversidade e Áreas de Conservação (INBAC), Wadden
+    Sea Flyway Initiative e a Wetlands International
+- claim: EcoAngola reported in October 2020 that Bioconserv had drawn up the Ilhéu
+    dos Pássaros management plan, which was awaiting approval.
+  url: https://ecoangola.com/observacao-de-aves-e-o-ecoturismo-como-funciona/
+  fetched: 2026-11-12
+  quote: É de realçar que foi elaborado pela Bioconserv o Plano de Gestão do Ilhéu
+    dos Pássaros, estando apenas à espera da aprovação para que seja implementado
+links:
+- type: partners-with
+  to: instituto-nacional-da-biodiversidade-e-areas-de-conservacao
+  url: https://ecoangola.com/observacao-de-aves-e-o-ecoturismo-como-funciona/
+  fetched: 2026-11-12
+  quote: Como resultado destes trabalhos feitos pela ONG Bioconserv, em colaboração
+    com o Instituto Nacional da Biodiversidade e Áreas de Conservação (INBAC)
+found_by:
+- rule:checklist-misses
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-12

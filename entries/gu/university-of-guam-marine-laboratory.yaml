@@ -1,0 +1,54 @@
+id: university-of-guam-marine-laboratory
+kind: organisation
+name: University of Guam Marine Laboratory
+also_known_as:
+- UOGML
+scope: gu
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: gu
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: https://uog.edu/ml/ltmp
+summary: A university laboratory running the Guam Long-term Coral Reef Monitoring Program, affiliated
+  with the first author of a 2024 paper on photoquadrat analyses and underwater hyperspectral imaging
+  validation.
+facts:
+- claim: The Guam Long Term Monitoring Program, a NOAA Coral Reef Conservation Program-funded project,
+    is housed at the Marine Laboratory.
+  url: https://uog.edu/ml/ltmp
+  fetched: 2026-11-12
+  quote: housed the University of Guam Marine Laboratory (UOGML)
+- claim: A 2024 paper whose first author lists the Marine Laboratory as an affiliation concerns photoquadrat
+    analyses and validation of underwater hyperspectral imaging for reef monitoring in Guam.
+  url: https://api.openalex.org/works/W4392970604?select=id,title,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Temporal photoquadrat analyses and validation of underwater hyperspectral imaging for resource-efficient
+    monitoring in Guam
+- claim: Located at the University of Guam, Mangilao.
+  url: https://uog.edu/ml/ltmp
+  fetched: 2026-11-12
+  quote: 303 University Drive
+links:
+- type: runs
+  to: guam-long-term-coral-reef-monitoring-program
+  url: https://www.fisheries.noaa.gov/inport/item/47781
+  fetched: 2026-11-12
+  quote: is a NOAA-funded project currently coordinated through the University of Guam Marine Laboratory
+- type: run-by
+  to: university-of-guam
+  url: https://uog.edu/ml/ltmp
+  fetched: 2026-11-12
+  quote: University of Guam Marine Laboratory (UOGML)
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

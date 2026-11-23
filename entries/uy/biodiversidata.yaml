@@ -1,0 +1,62 @@
+id: biodiversidata
+kind: project
+name: Biodiversidata
+also_known_as:
+- Consorcio de Datos de Biodiversidad del Uruguay
+- Uruguayan Consortium of Biodiversity Data
+scope: uy
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+runner: unknown
+countries:
+- uy
+website: https://biodiversidata.org/
+summary: Collaborative project aiming to improve knowledge of Uruguay's biodiversity through open data,
+  with nine datasets listed in GBIF's registry.
+facts:
+- claim: Describes itself as a collaborative project that aims to improve knowledge of Uruguay's biodiversity
+    by making open data available.
+  url: https://biodiversidata.org/
+  fetched: 2026-11-08
+  quote: Biodiversidata es un proyecto colaborativo que busca mejorar el conocimiento sobre la biodiversidad
+    en el Uruguay a través de la disponibilización de datos abiertos
+- claim: Says it helps collect, standardise and publish biodiversity data derived from scientific research.
+  url: https://biodiversidata.org/
+  fetched: 2026-11-08
+  quote: Biodiversidata facilita la recopilación, estandarización y publicación de datos de biodiversidad
+    derivados de la investigación científica.
+- claim: Its GBIF publisher record describes it as the Uruguayan Consortium of Biodiversity Data, a collaborative
+    research community.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: Biodiversidata (the Uruguayan Consortium of Biodiversity Data) is a collaborative research community
+    with the aim of improving Uruguay’s biodiversity knowledge.
+- claim: GBIF's registry lists nine datasets published by Biodiversidata.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"address":["Montevideo"],"city":"Montevideo","country":"UY","numPublishedDatasets":9'
+- claim: Its GBIF publisher record says its plan is to collect data on vertebrate, invertebrate and plant
+    species and make the data available free and open.
+  url: https://api.gbif.org/v1/organization/862f7ec3-3134-4dce-ab5a-03c81f54bd72
+  fetched: 2026-11-08
+  quote: The plan is to collect the maximum possible amount of data from vertebrate, invertebrate and
+    plant species, use it to collaborative generate global impact scientific research and make the data
+    available free and open.
+- claim: A 2020 comment in its GBIF publisher record says it had an occurrence dataset of vertebrates
+    from Uruguay combining different types of sources.
+  url: https://api.gbif.org/v1/organization/862f7ec3-3134-4dce-ab5a-03c81f54bd72
+  fetched: 2026-11-08
+  quote: Today we have an occurrence data dataset of vertebrates from Uruguay that combines different
+    types of sources
+links: []
+found_by:
+- link-from:gbif-uruguay
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+hq: unknown
+roles:
+- supplies-data

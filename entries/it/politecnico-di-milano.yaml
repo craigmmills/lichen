@@ -1,0 +1,47 @@
+id: politecnico-di-milano
+kind: organisation
+name: Politecnico di Milano
+scope: it
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: it
+scale: national
+status: active
+summary: Italian technical university that takes part in the ALP-AI project, where it is to
+  train AI to recognise and count animals in drone thermal images.
+facts:
+- claim: DronEzine reports that it will use the thermal camera images to train AI for recognising
+    and counting animals.
+  url: https://www.dronezine.it/?p=459570
+  fetched: 2026-10-31
+  quote: saranno utilizzate dal Politecnico di Milano per addestrare algoritmi di intelligenza
+    artificiale dedicati al riconoscimento e al conteggio automatico degli animali
+- claim: Coordinates WatchEDGE, part of the PNRR RESTART programme.
+  url: https://www.polimi.it/ricerca/news-e-comunicati/dettaglio/watchedge-ai-e-sensori-per-il-monitoraggio-della-fauna-selvatica
+  fetched: '2026-10-31'
+  quote: coordinato dal Politecnico di Milano
+- claim: Address in Milan.
+  url: https://www.polimi.it/ricerca/news-e-comunicati/dettaglio/watchedge-ai-e-sensori-per-il-monitoraggio-della-fauna-selvatica
+  fetched: '2026-10-31'
+  quote: Politecnico di Milano, Piazza Leonardo da Vinci 32, 20133 Milano
+links:
+- type: partners-with
+  to: alp-ai
+  url: https://www.dronezine.it/?p=459570
+  fetched: 2026-10-31
+  quote: al quale Arpa Lombardia partecipa dall’inizio del 2026 insieme al Politecnico di
+    Milano
+found_by:
+- link-from:alp-ai
+- checklist:7
+added_by: agent
+checked: 2026-10-31
+also_known_as:
+- Polimi

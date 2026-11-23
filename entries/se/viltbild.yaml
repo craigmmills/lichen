@@ -1,0 +1,113 @@
+id: viltbild
+kind: programme
+name: Viltbild
+also_known_as:
+- Viltbild.se
+scope: se
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- se
+status: active
+summary: Wildlife camera image platform with AI species identification, built by hunting
+  organisations and SLU; a February 2025 page planned limited release in 2025 and
+  opening to everyone in 2026.
+facts:
+- claim: Designed to streamline collection, storage and analysis of wildlife camera
+    images.
+  url: https://jagareforbundet.se/contentassets/686b6af183d943be9b7dbef49aa0178f/aterrapportering-digital-viltforvaltning--2025.pdf
+  fetched: '2026-11-02'
+  quote: Viltbild.se är utformad för att effektivisera insamling, lagring och analys
+    av viltkamerabilder, både från förbundets egna kameror och från jägare.
+- claim: In April 2022, FACE described Viltbild data as intended for Swedish government
+    and EU-level reporting, while saying the platform would be ready in 2024.
+  url: https://www.face.eu/?p=24150
+  fetched: '2026-11-02'
+  quote: The Viltbild data are then used by the Swedish government, which in turn
+    use it for EU-level reporting.
+- claim: On upload, AI identifies the species in each image.
+  url: https://jagareforbundet.se/contentassets/686b6af183d943be9b7dbef49aa0178f/aterrapportering-digital-viltforvaltning--2025.pdf
+  fetched: '2026-11-02'
+  quote: Vid uppladdning analyseras samtliga bilder automatiskt av AI, som identifierar
+    vilken art som förekommer på varje bild.
+- claim: The page says uploaded images will be analysed by AI to identify the species
+    captured.
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: När bilderna har laddats upp kommer de analyseras av AI så du snabbt kan
+    få reda på vilka arter som fångats på bild.
+- claim: The February 2025 page planned a limited release during 2025 and opening
+    to everyone during 2026.
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: Viltbild släpps i begränsad omfattning under 2025 och planeras att öppnas
+    upp för samtliga under 2026.
+- claim: Images first go through MegaDetector.
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: '2026-11-02'
+  quote: När bilderna laddas upp går de igenom en första AI modell, modellen heter
+    Megadetector och är framtaget av microsoft.
+links:
+- type: built-by
+  to: swedish-association-for-hunting-and-wildlife-management
+  url: https://www.face.eu/?p=24150
+  fetched: '2026-11-02'
+  quote: The Swedish Association for Hunting and Wildlife Management (SJF) and the
+    Swedish University of Agricultural Sciences (SLU) are now collaborating to develop
+    Viltbild
+- type: built-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.face.eu/?p=24150
+  fetched: '2026-11-02'
+  quote: The Swedish Association for Hunting and Wildlife Management (SJF) and the
+    Swedish University of Agricultural Sciences (SLU) are now collaborating to develop
+    Viltbild
+- type: built-by
+  to: swedish-association-for-hunting-and-wildlife-management
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: Svenska jägareförbundet påbörjade därför ett samarbete med Sveriges lantbruksuniversitet
+    att ta fram en plattform, viltbild.se
+- type: built-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: Svenska jägareförbundet påbörjade därför ett samarbete med Sveriges lantbruksuniversitet
+    att ta fram en plattform, viltbild.se
+- type: uses
+  to: deepfaune
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: Trapper med sin TrapperAI möjliggör integreringen av modellen Deepfaune i
+    Viltbild.se.
+- type: uses
+  to: trapper
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: Trapper med sin TrapperAI möjliggör integreringen av modellen Deepfaune i
+    Viltbild.se.
+- type: built-by
+  to: swedish-association-for-hunting-and-wildlife-management
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: '2026-11-02'
+  quote: nu skapar vi nästa webbapplikation för viltkamerabilder – Viltbild.se.
+- type: uses
+  to: megadetector
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: '2026-11-02'
+  quote: går de igenom en första AI modell, modellen heter Megadetector
+- type: partners-with
+  to: swedish-university-of-agricultural-sciences
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: '2026-11-02'
+  quote: Svenska jägareförbundet påbörjade därför ett samarbete med Sveriges lantbruksuniversitet
+    att ta fram en plattform, viltbild.se,
+found_by:
+- checklist:4
+- link-from:swedish-hunters-association
+- checklist:7
+added_by: agent
+checked: '2026-11-02'

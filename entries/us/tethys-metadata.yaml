@@ -1,0 +1,55 @@
+id: tethys-metadata
+kind: programme
+name: Tethys Metadata
+also_known_as:
+- Tethys
+scope: us
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://tethys.sdsu.edu/
+summary: Free open source database for acoustic recording metadata, built by NOAA
+  and Scripps Institution of Oceanography, designed mainly for marine mammals, with
+  schemata begun in 2011 and PAMGuard export support.
+facts:
+- claim: A freely available open source temporal-spatial database for metadata related
+    to acoustic recordings.
+  url: https://tethys.sdsu.edu/
+  fetched: 2026-11-21
+  quote: Tethys is a freely available open source temporal-spatial database for metadata
+    related to acoustic recordings.
+- claim: Designed primarily for acoustic metadata from marine mammals, and general
+    enough to support terrestrial passive acoustic monitoring.
+  url: https://tethys.sdsu.edu/
+  fetched: 2026-11-21
+  quote: While Tethys is designed primarily for acoustic metadata from marine mammals
+- claim: Its schemata started in 2011 and were a starting point for a standard on
+    information to retain for passive acoustic monitoring.
+  url: https://tethys.sdsu.edu/
+  fetched: 2026-11-21
+  quote: It served as a starting point for the development of standard ASA/ANSI S3/SC1.7-2026
+- claim: PAMGuard can export data to Tethys.
+  url: https://tethys.sdsu.edu/
+  fetched: 2026-11-21
+  quote: supports data export to Tethys
+links:
+- type: built-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://tethys.sdsu.edu/
+  fetched: 2026-11-21
+  quote: started in 2011 with a large team from NOAA, Scripps Insitution of Oceanography,
+    and San Diego State University
+- type: built-by
+  to: scripps-institution-of-oceanography
+  url: https://tethys.sdsu.edu/
+  fetched: 2026-11-21
+  quote: started in 2011 with a large team from NOAA, Scripps Insitution of Oceanography,
+    and San Diego State University
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

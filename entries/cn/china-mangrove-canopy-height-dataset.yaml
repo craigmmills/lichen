@@ -1,0 +1,36 @@
+id: china-mangrove-canopy-height-dataset
+kind: dataset
+name: China Mangrove Canopy Height dataset
+also_known_as:
+- CMCH
+- 中国滨海红树林冠层高度数据集
+scope: cn
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+techniques:
+- remote-sensing
+scale: national
+status: active
+countries:
+- cn
+summary: A 10 metre map of mangrove canopy height along China's coast, made with drone
+  LiDAR, SDGSAT-1 and Sentinel images and an XGBoost regression model.
+facts:
+- claim: Mapped with an XGBoost regression model, with an R squared of 0.84.
+  ai_type: ml-supervised
+  url: https://iga.cas.cn/news/research/202504/t20250402_7586341.html
+  fetched: '2026-10-31'
+  quote: 基于 XGBoost 回归模型率先绘制了 10 米空间分辨率中国滨海红树林冠层高度数据集（ CMCH ）
+links:
+- type: run-by
+  to: northeast-institute-of-geography-and-agroecology
+  url: https://iga.cas.cn/news/research/202504/t20250402_7586341.html
+  fetched: '2026-10-31'
+  quote: 中国科学院东北地理与农业生态研究所贾明明副研究员团队联合多家科研单位
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

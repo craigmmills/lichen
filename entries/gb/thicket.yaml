@@ -1,0 +1,39 @@
+id: thicket
+kind: project
+name: THICKET
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.aac-clyde.space/articles/aac-clyde-space-supports-wildlife-friendly-farming-with-satellite-powered-tool
+summary: Biodiversity mapping tool from AAC Clyde Space that shows farmers the habitats on
+  their land from its own satellite constellation.
+facts:
+- claim: Biodiversity mapping tool.
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: 'THICKET: a biodiversity mapping tool'
+  fetched: &id001 2026-10-30
+- claim: Developed in Glasgow, giving imagery of the habitats on each field.
+  url: https://www.aac-clyde.space/articles/aac-clyde-space-supports-wildlife-friendly-farming-with-satellite-powered-tool
+  quote: showing exactly what habitats are available on each field or parcel of land
+  fetched: 2026-10-30
+links:
+- type: run-by
+  to: aac-clyde-space
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: AAC Clyde Space in Glasgow is creating a tool that helps farmers support wildlife
+    on their land
+  fetched: *id001
+- type: funded-by
+  to: uk-space-agency
+  url: https://www.gov.uk/government/news/new-projects-use-satellite-data-to-drive-public-service-innovation
+  quote: will use satellite data to help transform the delivery of public services, thanks
+    to new funding from the UK Space Agency
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

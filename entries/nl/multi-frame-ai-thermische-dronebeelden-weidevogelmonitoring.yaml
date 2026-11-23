@@ -1,0 +1,42 @@
+id: multi-frame-ai-thermische-dronebeelden-weidevogelmonitoring
+kind: project
+name: Multi-frame AI-analyse van thermische dronebeelden voor weidevogelmonitoring
+ai_label: ai
+status: unknown
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- nl
+runner: unknown
+summary: Dutch Research Council funded project studying whether combining successive
+  thermal drone images lets AI detect meadow bird nests better, with the main applicant
+  at NHL Stenden Hogeschool.
+facts:
+- claim: Studies how AI can improve detection of meadow bird nests in thermal drone
+    images by combining successive images.
+  url: https://nwopen-api.nwo.nl/NWOpen-API/api/Projects?project_id=HT.KIEM.03.021
+  quote: In dit project onderzoeken we hoe kunstmatige intelligentie kan helpen om
+    nesten van weidevogels beter te herkennen in warmtebeelden van drones.
+  fetched: '2026-11-08'
+- claim: The main applicant is at NHL Stenden Hogeschool.
+  url: https://nwopen-api.nwo.nl/NWOpen-API/api/Projects?project_id=HT.KIEM.03.021
+  quote: '"role": "Main Applicant", "member_id": 328043, "last_name": "Vries", "initials":
+    "M.J.", "first_name": "Meintsje", "prefix": "de", "organisation": "NHL Stenden
+    Hogeschool",'
+  fetched: '2026-11-08'
+links:
+- type: funded-by
+  to: dutch-research-council
+  amount: 40000
+  currency: EUR
+  year: 2026
+  url: https://nwopen-api.nwo.nl/NWOpen-API/api/Projects?project_id=HT.KIEM.03.021
+  quote: '"award_amount": 40000, "grant_id": "https://doi.org/10.61686/VWYOK00322",'
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

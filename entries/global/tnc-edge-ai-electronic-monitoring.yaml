@@ -1,0 +1,32 @@
+id: tnc-edge-ai-electronic-monitoring
+kind: project
+name: TNC edge AI electronic monitoring
+scope: global
+ai_label: ai
+ai_types: [ml-supervised]
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Open-source system from The Nature Conservancy that puts AI directly on fishing vessels' electronic monitoring systems to verify longline tuna catch in near real time.
+facts:
+- claim: The first end-to-end, open-source system embedding AI on electronic monitoring systems, according to TNC.
+  url: https://www.nature.org/en-us/newsroom/tnc-launches-edge-ai-reports/
+  quote: TNC has developed the first end‑to‑end, open‑source system that embeds artificial intelligence directly onto electronic monitoring systems to deliver near real‑time data.
+  fetched: 2026-10-30
+- claim: "The repository fine-tunes a fish detection model on an annotated dataset."
+  url: https://github.com/tnc-ca-geo/em_edge_review
+  fetched: 2026-10-30
+  quote: "fine-tune and evaluate a fish detection model using your own annotated dataset"
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: the-nature-conservancy
+  url: https://www.nature.org/en-us/newsroom/tnc-launches-edge-ai-reports/
+  quote: The Nature Conservancy released its full AI-powered electronic monitoring solution as open source
+  fetched: 2026-10-30
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

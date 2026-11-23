@@ -1,0 +1,54 @@
+id: j-bmp
+kind: project
+name: J-BMP
+also_known_as:
+- 日本の生物多様性地図化プロジェクト
+- J-BMP
+scope: jp
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+countries:
+- jp
+status: unknown
+website: https://biodiversity-map.thinknature-japan.com
+summary: A Japan biodiversity mapping project operated by Think Nature, whose marine maps cover Japan's
+  waters from coast to deep sea and whose coastal maps cover 14 taxonomic groups on a 10 km mesh.
+facts:
+- claim: Marine maps cover Japan's waters from coast to deep sea.
+  url: https://think-nature.jp/en/news/j-bmp20260606/
+  fetched: '2026-11-02'
+  quote: These maps visualize the biodiversity of Japan’s waters, from coastal areas to the deep sea,
+    at high resolution
+- claim: Coastal maps cover 14 taxonomic groups on a 10 km mesh.
+  url: https://think-nature.jp/en/news/j-bmp20260606/
+  fetched: '2026-11-02'
+  quote: on a 10 km mesh basis
+- claim: Think Nature calls it a biodiversity mapping project that it operates, and says it published
+    new marine maps there.
+  url: https://think-nature.jp/news/j-bmp20260606/
+  fetched: '2026-11-02'
+  quote: 当社が運用する日本の生物多様性地図化プロジェクト「J-BMP」にて新たに公開しました。
+- claim: The maps cover Japan's waters from coast to deep sea and identify areas important for conservation.
+  url: https://think-nature.jp/news/j-bmp20260606/
+  fetched: '2026-11-02'
+  quote: 沿岸域から深海域に至る日本の海域の生物多様性を高解像度で可視化するとともに、保全上重要な地域を特定したものであり
+runner: unknown
+found_by:
+- link-from:think-nature
+added_by: agent
+checked: 2026-11-02
+techniques:
+- species-distribution
+links:
+- type: run-by
+  to: think-nature
+  url: https://think-nature.jp/en/news/j-bmp20260606/
+  fetched: '2026-11-02'
+  quote: the Japan Biodiversity Mapping Project operated by Think Nature
+- type: run-by
+  to: think-nature
+  url: https://think-nature.jp/news/j-bmp20260606/
+  fetched: '2026-11-02'
+  quote: 当社が運用する日本の生物多様性地図化プロジェクト「J-BMP」にて新たに公開しました。

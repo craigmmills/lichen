@@ -1,0 +1,55 @@
+id: royal-botanic-garden-edinburgh
+kind: organisation
+name: Royal Botanic Garden Edinburgh
+also_known_as:
+- RBGE
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.rbge.org.uk
+summary: Botanic garden and research body with a Darwin Tree of Life page in its biodiversity
+  genomics work.
+facts:
+- claim: Publishes a Darwin Tree of Life page under its biodiversity genomics science.
+  url: https://www.rbge.org.uk/science/biodiversity-genomics-and-analytics/biodiversity-genomics-infrastructure/darwin-tree-of-life
+  quote: Darwin Tree of Life | Royal Botanic Garden Edinburgh
+  fetched: '2026-10-30'
+- claim: Delivers biodiversity research.
+  url: https://www.rbge.org.uk/science-and-conservation/
+  quote: We deliver world-class biodiversity research underpinning the protection, restoration
+    and sustainable use of the world’s plants
+  fetched: '2026-10-30'
+- claim: Uses genomics to monitor biodiversity.
+  url: https://www.rbge.org.uk/science-and-conservation/
+  quote: Harnessing innovations in genomics to uncover the diversity, properties, and functions
+    of wild plants and fungi
+  fetched: '2026-10-30'
+- claim: Builds genomic tools.
+  url: https://www.rbge.org.uk/science-and-conservation/biodiversity-genomics-and-analytics/
+  fetched: '2026-10-30'
+  quote: We build tools to harness genomic data for biodiversity understanding and conservation.
+- claim: Publishes the dataset "Edinburgh (E) Herbarium Specimens" on GBIF.
+  url: https://api.gbif.org/v1/organization/98e934b0-5f31-11de-b67e-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Edinburgh (E) Herbarium Specimens
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/98e934b0-5f31-11de-b67e-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+found_by:
+- checklist:2
+- link-from:biodiversity-meets-data
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'

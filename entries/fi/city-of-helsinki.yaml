@@ -1,0 +1,56 @@
+id: city-of-helsinki
+kind: organisation
+name: City of Helsinki
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: unknown
+scale: local
+status: active
+summary: City authority that tested AI on satellite data in summer 2025 to identify overgrown
+  lawns and invasive plants, and has used Crowdsorsa since 2024.
+facts:
+- claim: Tested AI on satellite data to identify overgrown lawns and invasive plants in summer
+    2025.
+  url: https://forumvirium.fi/en/release/satellite-data-and-ai-help-to-maintain-green-spaces-in-helsinki/
+  fetched: '2026-11-02'
+  quote: This summer, the City of Helsinki has been testing how artificial intelligence (AI)
+    can improve the maintenance of green spaces.
+- claim: Has used Crowdsorsa since 2024.
+  url: https://www.hel.fi/en/news/fight-invasive-species-by-playing-a-mobile-game-once-again-and-make-money-at-the-same-time
+  fetched: '2026-11-02'
+  quote: Crowdsorsa has been in use in Helsinki since 2024
+- claim: Says it joined the Muuttolintujen kevät citizen science project in spring 2024.
+  url: https://www.hel.fi/static/kanslia/Julkaisut/2024/ymparistoraportti-2023-en.pdf
+  fetched: '2026-11-02'
+  quote: As of spring 2024, Helsinki is involved in the national Muuttolintujen kevät
+- claim: Its Nature Information System gives information on nature in Helsinki.
+  url: https://www.hel.fi/en/urban-environment-and-traffic/protection-of-the-environment-and-nature/nature-conservation-and-biodiversity/nature-information-system
+  fetched: '2026-11-02'
+  quote: The Nature Information System provides information on the biodiverse nature in Helsinki
+links:
+- type: uses
+  to: crowdsorsa
+  url: https://www.hel.fi/en/news/fight-invasive-species-by-playing-a-mobile-game-once-again-and-make-money-at-the-same-time
+  fetched: '2026-11-02'
+  quote: Crowdsorsa has been in use in Helsinki since 2024
+- type: uses
+  to: muuttolintujen-kevat
+  url: https://www.hel.fi/static/kanslia/Julkaisut/2024/ymparistoraportti-2023-en.pdf
+  fetched: '2026-11-02'
+  quote: Helsinki is involved in the national Muuttolintujen kevät
+found_by:
+- checklist:7
+- checklist:register
+scope: fi
+added_by: agent
+checked: '2026-11-02'
+countries:
+- fi

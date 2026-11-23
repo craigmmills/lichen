@@ -1,0 +1,57 @@
+id: fifth-national-natural-environment-survey-vegetation-data
+kind: dataset
+name: 5th National Natural Environment Survey vegetation data
+also_known_as:
+- 국립생태원_제5차전국자연환경조사_식생자료
+scope: kr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+status: active
+summary: Spatial dataset built and run by the National Institute of Ecology from the
+  vegetation results of the 5th National Natural Environment Survey (2019 to 2020),
+  using field surveys and imagery; the institute says it is pursuing ongoing updates.
+facts:
+- claim: The public data portal record says the dataset is spatial data built from
+    the vegetation results of the 5th National Natural Environment Survey (2019 to
+    2020) carried out by the National Institute of Ecology.
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: 본 데이터는 국립생태원이 수행한 제5차 전국자연환경조사(2019~2020년) 식생 분야의 조사 결과를 바탕으로 구축된 공간정보 자료입니다.
+- claim: The survey methods included field surveys, interpretation of aerial and satellite
+    imagery and analysis on digital topographic maps.
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: 조사 방법은 현장 기초조사, 항공영상 및 위성자료 해석, 수치지형도 기반 분석 등을 활용하였으며
+- claim: The record says the institute is pursuing ongoing updates and strengthening
+    regular data provision and sharing for public, academic and private users.
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: 국립생태원은 식생자료의 정확도와 최신성을 유지하기 위해 지속적인 현행화 작업을 추진하고 있으며
+- claim: The record gives a last modification date of 25 September 2026.
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: '"dateModified":"2026-09-25"'
+links:
+- type: built-by
+  to: national-institute-of-ecology-korea
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: 본 데이터는 국립생태원이 수행한 제5차 전국자연환경조사(2019~2020년) 식생 분야의 조사 결과를 바탕으로 구축된 공간정보 자료입니다.
+- type: run-by
+  to: national-institute-of-ecology-korea
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: 국립생태원은 식생자료의 정확도와 최신성을 유지하기 위해 지속적인 현행화 작업을 추진하고 있으며
+- type: builds-on
+  to: national-ecosystem-survey-korea
+  url: https://data.go.kr/catalog/15098001/fileData.json
+  fetched: '2026-11-12'
+  quote: 제5차 전국자연환경조사(2019~2020년) 식생 분야의 조사 결과를 바탕으로 구축된 공간정보 자료입니다.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

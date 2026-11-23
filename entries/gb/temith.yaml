@@ -1,0 +1,40 @@
+id: temith
+kind: project
+name: Total Ecosystem Management of the InterTidal Habitat
+also_known_as:
+- TEMITH
+scope: gb
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+status: unknown
+website: https://eo4society.esa.int/projects/temith/
+summary: Project in the Solent that trained neural networks to detect sediment disturbance
+  and map intertidal habitat from drone, aerial and satellite imagery.
+facts:
+- claim: Trained U-Net convolutional neural network models on sediment disturbance.
+  url: https://eo4society.esa.int/projects/temith/
+  quote: Six U-Net convolutional neural network models were trained
+  ai_type: deep-learning
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: deimos-space-uk
+  url: https://eo4society.esa.int/projects/temith/
+  quote: "Prime contractor DEIMOS SPACE UK LTD (GB)"
+  fetched: *id001
+- type: partners-with
+  to: university-of-portsmouth
+  url: https://eo4society.esa.int/projects/temith/
+  quote: TEMITH was an inter-disciplinary collaboration between Deimos Space UK and
+    the University of Portsmouth
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

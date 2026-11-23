@@ -1,0 +1,71 @@
+id: universidade-estadual-de-campinas
+kind: organisation
+name: Universidade Estadual de Campinas
+also_known_as:
+- UNICAMP
+- Unicamp
+- University of Campinas
+scope: br
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+hq: br
+scale: national
+status: active
+website: https://unicamp.br/
+summary: São Paulo state university whose zoology museum holds the Fonoteca Neotropical Jacques
+  Vielliard sound archive.
+facts:
+- claim: Its zoology museum holds the sound archive.
+  url: https://ipt1.cria.org.br/ipt/resource?r=fnjv
+  fetched: '2026-10-30'
+  quote: associada ao Museu de Zoologia "Adão José Cardoso" da Universidade Estadual de Campinas
+    (UNICAMP)
+- claim: Its Biology Institute curates the Fonoteca Neotropical Jacques Vielliard.
+  url: https://agencia.fapesp.br/project-recovers-archive-of-animal-sounds-at-unicamp/16839
+  fetched: '2026-10-30'
+  quote: curated by the Universidade Estadual de Campinas Biology Institute (IB/Unicamp)
+- claim: Holds the sound library, described as the largest scientific collection of animal
+    sounds in Latin America.
+  url: https://specieslink.net/col/FNJV/
+  fetched: '2026-10-30'
+  quote: is one of the five largest scientific collections of animal sounds in the world,
+    as well as the largest in Latin America
+- claim: Publishes the Fonoteca Neotropical Jacques Vielliard on GBIF.
+  url: https://api.gbif.org/v1/dataset/ca2e422f-be48-42a5-bca5-a37cada435c8
+  fetched: '2026-10-30'
+  quote: associada ao Museu de Zoologia
+- claim: The Fonoteca is linked to the university's Museu de Zoologia Adão José Cardoso.
+  url: https://api.gbif.org/v1/dataset/ca2e422f-be48-42a5-bca5-a37cada435c8
+  fetched: '2026-10-30'
+  quote: da Universidade Estadual de Campinas (UNICAMP), fundada em 1978
+- claim: Its own site gives its address in Campinas, São Paulo state.
+  url: https://unicamp.br/
+  quote: 'Avenida Albert Einstein, n° 901 - Cidade Universitária "Zeferino Vaz" Barão Geraldo
+    - Campinas, SP - CEP: 13083-852'
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+- link-from:xprize-rainforest
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+countries:
+- br
+links:
+- type: runs
+  to: fonoteca-neotropical-jacques-vielliard
+  url: https://agencia.fapesp.br/project-recovers-archive-of-animal-sounds-at-unicamp/16839
+  fetched: '2026-10-30'
+  quote: curated by the Universidade Estadual de Campinas Biology Institute (IB/Unicamp)
+- type: runs
+  to: fonoteca-neotropical-jacques-vielliard
+  url: https://api.gbif.org/v1/dataset/ca2e422f-be48-42a5-bca5-a37cada435c8
+  fetched: '2026-10-30'
+  quote: da Universidade Estadual de Campinas (UNICAMP), fundada em 1978

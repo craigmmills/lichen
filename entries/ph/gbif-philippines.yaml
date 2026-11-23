@@ -1,0 +1,30 @@
+id: gbif-philippines
+kind: programme
+name: GBIF Philippines
+scope: ph
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- ph
+status: unknown
+summary: Programme listed in GBIF's registry as the Philippines' observer participant, with a partnership
+  link to the Global Biodiversity Information Facility; its current status is unknown.
+facts:
+- claim: GBIF's registry lists the Philippines as an observer participant.
+  url: https://api.gbif.org/v1/node/country/PH
+  fetched: 2026-11-07
+  quote: '"participationStatus":"OBSERVER"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/PH
+  fetched: 2026-11-07
+  quote: '"title":"GBIF Philippines"'
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-07

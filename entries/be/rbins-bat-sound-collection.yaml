@@ -1,0 +1,33 @@
+id: rbins-bat-sound-collection
+kind: dataset
+name: RBINS bat sound collection
+also_known_as: []
+scope: be
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+countries:
+- be
+status: active
+summary: A dataset of bat occurrences and sounds recorded with bat detectors, including North Sea recordings
+  made to monitor wind farm effects on bat migration routes.
+facts:
+- claim: Holds bat occurrences and sounds recorded with bat detectors.
+  url: https://api.gbif.org/v1/dataset/ac4f02e9-ce6a-4132-892a-b478bc79ed14
+  fetched: &id001 2026-11-02
+  quote: This dataset holds the bat occurrences and sounds recorded with bat detectors
+- claim: Includes recordings in the North Sea made to monitor the effect of wind farms on bat migration
+    routes.
+  url: https://api.gbif.org/v1/dataset/ac4f02e9-ce6a-4132-892a-b478bc79ed14
+  fetched: *id001
+  quote: Data has been gathered in various locations in the countryside and in the North Sea to monitor
+    the impact of windmill parks on bat migration routes.
+links: []
+found_by:
+- link-from:institute-of-natural-sciences
+added_by: agent
+checked: *id001
+runner: unknown

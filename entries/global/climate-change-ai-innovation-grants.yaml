@@ -1,0 +1,58 @@
+id: climate-change-ai-innovation-grants
+kind: programme
+name: Climate Change AI Innovation Grants
+scope: global
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+- ocean
+scale: global
+status: active
+website: https://www.climatechange.ai/press_releases/2026-04-29/release
+summary: Grants from Climate Change AI for teams applying AI to climate challenges and creating public datasets and tools. Past rounds have funded nature work including a plant trait database, forest logging detection and kelp reef monitoring.
+countries:
+- gh
+facts:
+- claim: Awarded $1.7 million to projects worldwide in April 2026.
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  quote: Climate Change AI Innovation Grants Award $1.7M to Projects Worldwide
+  fetched: &id001 2026-10-30
+- claim: Supports projects that also create publicly available datasets and tools.
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  quote: while also creating publicly available datasets and tools to catalyze further work.
+  fetched: *id001
+- claim: A 2023 round project aimed to build a global database of plant traits from natural history collections using computer vision and language processing.
+  url: https://www.climatechange.ai/press_releases/2024-06-26/release
+  quote: The project aims to create a comprehensive global database of plant traits related to climate and habitat, utilizing computer vision and natural language processing techniques
+  fetched: *id001
+- claim: A 2023 round project aimed to use machine learning on underwater imagery to assess sea urchin expansion and kelp decline.
+  url: https://www.climatechange.ai/press_releases/2024-06-26/release
+  quote: this project aims to develop machine learning to rapidly analyze underwater imagery to assess sea urchin expansion and kelp decline
+  fetched: *id001
+- claim: 'Awards funding to projects.'
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  fetched: 2026-10-30
+  quote: 'Funding was awarded to the following projects'
+links:
+- type: run-by
+  to: climate-change-ai
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  quote: Today, Climate Change AI announced awardees in its Innovation Grants program
+  fetched: *id001
+- type: funded-by
+  to: quadrature-climate-foundation
+  year: 2026
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  quote: "This round of the Climate Change AI Innovation Grants program was made possible thanks to the support of Quadrature Climate Foundation"
+  fetched: *id001
+- type: funded-by
+  to: google-deepmind
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  fetched: 2026-10-30
+  quote: 'made possible thanks to the support of Quadrature Climate Foundation , Google DeepMind , and the Global Methane Hub'
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

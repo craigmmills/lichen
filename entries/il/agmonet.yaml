@@ -1,0 +1,44 @@
+id: agmonet
+kind: model
+name: AgmoNET
+scope: il
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+countries:
+- il
+status: closed
+summary: A completed piece of research on long-term monitoring of bird vocal activity, building
+  a deep learning bird-call classifier from more than two years of recordings at two stations,
+  with no further development planned.
+facts:
+- claim: Described as long-term monitoring of bird vocal activity with deep learning.
+  url: https://moshebashan.com/projects/agmonet/
+  fetched: 2026-11-12
+  quote: Long-term monitoring of bird vocal activity with deep learning.
+  ai_type: deep-learning
+- claim: The research developed and evaluated a bird-call classifier and used recordings from
+    two stations over more than two years.
+  url: https://moshebashan.com/projects/agmonet/
+  fetched: 2026-11-12
+  quote: Using recordings from two stations over more than two years, I examined when different
+    species were vocally active and how those patterns varied between sites.
+- claim: It was built in Python with TensorFlow and librosa, using Mel spectrograms and deep
+    learning models.
+  url: https://moshebashan.com/projects/agmonet/
+  fetched: 2026-11-12
+  quote: Built in Python with TensorFlow and librosa, combining audio processing, Mel spectrograms
+    and deep learning models with ecological data analysis and visualization.
+- claim: The research is complete, with no further development planned.
+  url: https://moshebashan.com/projects/agmonet/
+  fetched: 2026-11-12
+  quote: The research is complete, with no further development currently planned.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

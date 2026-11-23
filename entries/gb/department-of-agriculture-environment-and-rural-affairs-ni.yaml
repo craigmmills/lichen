@@ -1,0 +1,63 @@
+id: department-of-agriculture-environment-and-rural-affairs-ni
+kind: organisation
+name: Department of Agriculture, Environment and Rural Affairs (Northern Ireland)
+also_known_as:
+- DAERA
+- NIEA
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.daera-ni.gov.uk
+summary: Northern Ireland department responsible for environmental, fisheries, forestry and
+  sustainability policy. Its executive agencies are the Northern Ireland Environment Agency
+  and the Forest Service.
+facts:
+- claim: Responsible for environmental, fisheries, forestry and sustainability policy in Northern
+    Ireland.
+  url: https://www.daera-ni.gov.uk/about-daera
+  quote: has responsibility for food, farming, environmental, fisheries, forestry and sustainability
+    policy and the development of the rural sector in Northern Ireland
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.daera-ni.gov.uk/contact
+  quote: BT49 9HP
+  fetched: '2026-10-30'
+- claim: One of DAERA's two executive agencies.
+  url: https://www.daera-ni.gov.uk/about-daera
+  quote: Northern Ireland Environment Agency (NIEA)
+  fetched: '2026-10-30'
+- claim: Continues to develop habitat mapping from satellite data through the Living Map of
+    Northern Ireland project.
+  url: https://www.daera-ni.gov.uk/sites/default/files/publications/daera/NIEA%20Annual%20Report%20%26%20Accounts%202023-24_0.PDF
+  quote: habitat mapping capabilities from satellite data through the Living Map of Northern
+    Ireland
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.daera-ni.gov.uk/
+  quote: BT49 9HP
+  fetched: 2026-10-30
+links:
+- type: runs
+  to: living-map-of-northern-ireland
+  url: https://www.daera-ni.gov.uk/sites/default/files/publications/daera/NIEA%20Annual%20Report%20%26%20Accounts%202023-24_0.PDF
+  quote: NIEA continues to develop habitat mapping capabilities from satellite data through
+    the Living Map of Northern Ireland
+  fetched: *id001
+found_by:
+- checklist:1
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- remote-sensing

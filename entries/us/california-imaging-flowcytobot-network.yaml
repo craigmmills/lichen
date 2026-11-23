@@ -1,0 +1,38 @@
+id: california-imaging-flowcytobot-network
+kind: programme
+name: California Imaging FlowCytobot Network
+also_known_as:
+- CA IFCB Network
+scope: us
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- us
+website: https://sccoos.org/ifcb/
+runner: unknown
+summary: Statewide network of 12 Imaging FlowCytobots photographing water particles, with
+  machine learning used to classify species for early warning of harmful algal blooms.
+facts:
+- claim: Twelve instruments photograph particles and machine learning classifies the species.
+  url: https://sccoos.org/ifcb/
+  quote: Machine learning algorithms are then applied to classify the species present.
+  fetched: '2026-10-31'
+- claim: A statewide network for early warning of harmful algal blooms.
+  url: https://sccoos.org/ifcb/
+  quote: The California Imaging Flowcytobot Network (CA IFCB Network) is a statewide network
+    of automated in situ phytoplankton measurements
+  fetched: '2026-10-31'
+links:
+- type: uses
+  to: mclane-research-laboratories
+  url: https://sccoos.org/ifcb/
+  quote: "Imaging FlowCytobots (IFCBs) developed by McLane Research Laboratories Inc."
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,33 @@
+id: work-for-humankind
+kind: project
+name: Work for Humankind
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- cl
+status: active
+summary: Lenovo initiative that gave Island Conservation internet links and edge servers on Robinson Crusoe Island so that camera trap data could be analysed on site to guide removal of invasive coatis.
+facts:
+- claim: Edge servers let the team run machine learning on image data on the island.
+  url: https://lenovo.com/ca/en/case-studies-customer-success-stories/island-conservation
+  fetched: &id001 2026-10-30
+  quote: so we can run machine learning to expedite image processing and take decision time from three months to a matter of weeks
+links:
+- type: run-by
+  to: lenovo
+  url: https://lenovo.com/ca/en/case-studies-customer-success-stories/island-conservation
+  fetched: *id001
+  quote: Island Conservation worked with Lenovo’s Work for Humankind initiative
+- type: partners-with
+  to: island-conservation
+  url: https://lenovo.com/ca/en/case-studies-customer-success-stories/island-conservation
+  fetched: *id001
+  quote: Island Conservation worked with Lenovo’s Work for Humankind initiative
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

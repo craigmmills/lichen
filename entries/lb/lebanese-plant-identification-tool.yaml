@@ -1,0 +1,106 @@
+id: lebanese-plant-identification-tool
+kind: project
+name: Lebanese plant species identification tool (AUB and Shouf Biosphere Reserve)
+also_known_as:
+- Mitigating the taxonomic impediment problem of plants using ML and citizen science
+scope: lb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- lb
+status: active
+summary: The incubator is developing a plant app with Shouf Biosphere Reserve and $3,810 from
+  APS; IEEE reports 90 training classes with about 400 images each.
+facts:
+- claim: EPICS in IEEE says a team of American University of Beirut students is creating a
+    real-time plant identification tool as a smartphone application with the Shouf Biosphere
+    Reserve.
+  url: https://epics.ieee.org/project/mitigating-the-taxonomic-impediment-problem-of-plants-using-ml-and-citizen-science-lebanon/
+  fetched: 2026-11-09
+  quote: A team of students from American University Beirut took note of this issue, and with
+    the Shouf Biosphere Reserve (SBR), are creating a real-time planet identification tool
+    via a smartphone application.
+- claim: Says that since May 2024, 110 student volunteers have collected plant images on weekly
+    field trips, and that the training dataset had 90 species classes with about 400 images
+    each.
+  url: https://epics.ieee.org/project/mitigating-the-taxonomic-impediment-problem-of-plants-using-ml-and-citizen-science-lebanon/
+  fetched: 2026-11-09
+  quote: So far, the training dataset contains 90 classes (plant species) with approximately
+    400 images per class.
+- claim: Says the project received $3,810 from APS, an EPICS in IEEE partner.
+  url: https://epics.ieee.org/project/mitigating-the-taxonomic-impediment-problem-of-plants-using-ml-and-citizen-science-lebanon/
+  fetched: 2026-11-09
+  quote: This project was made possible by $3,810.00 in funding from APS an EPICS in IEEE
+    partner.
+- claim: Is building a real-time plant recognition smartphone app based on machine learning
+    and computer vision.
+  url: https://sites.aub.edu.lb/slbcenterincubator/our-research-projects/
+  fetched: 2026-11-09
+  quote: Our team is working on a real-time and accessible plant recognition smartphone application
+    based on Machine Learning (ML) and Computer Vision (CV).
+- claim: AUB says the app's images, each recording the plant's location, are used to build
+    an evolving image dataset to track species.
+  url: https://www.aub.edu.lb/communications/aub%40work/Pages/2025/6/Can-Machine-Learning-Save-Lebanon%E2%80%99s-Iconic-Cedars.aspx
+  fetched: 2026-11-09
+  quote: This enables AUB researchers to build a massive and evolving image dataset that can
+    accurately track specific species
+- claim: Received $3,810 from the American Physical Society through EPICS in IEEE in March
+    2024.
+  url: https://sites.aub.edu.lb/slbcenterincubator/awarded-projects/
+  fetched: 2026-11-09
+  quote: received $3,810 in funding from the American Physical Society (APS), an EPICS in
+    IEEE partner
+- claim: OpenAlex lists a 2026 Scientific Data paper on an annotated image dataset of native
+    Lebanese plants whose authors include Dany Abou Jaoude, Ibrahim Issa and Salma N. Talhouk,
+    affiliated with the incubator.
+  url: https://api.openalex.org/works/W7164191904?select=id,title,publication_year,doi,authorships,primary_location
+  fetched: 2026-11-09
+  quote: A Manually Annotated and Curated Mediterranean Plant Image Dataset of Native Species
+    from Lebanon
+links:
+- type: built-by
+  to: saving-lebanese-biodiversity-center-incubator
+  url: https://sites.aub.edu.lb/slbcenterincubator
+  fetched: 2026-11-09
+  quote: Documenting plant species trends by the creation of an Artificial Intelligence-enabled
+    classification and recognition tool for Lebanese plant species
+- type: partners-with
+  to: shouf-biosphere-reserve
+  url: https://epics.ieee.org/project/mitigating-the-taxonomic-impediment-problem-of-plants-using-ml-and-citizen-science-lebanon/
+  fetched: 2026-11-09
+  quote: with the Shouf Biosphere Reserve (SBR), are creating a real-time planet identification
+    tool
+- type: run-by
+  to: saving-lebanese-biodiversity-center-incubator
+  url: https://sites.aub.edu.lb/slbcenterincubator/our-research-projects/
+  fetched: &id001 2026-11-09
+  quote: Our team is working on a real-time and accessible plant recognition smartphone application
+- type: funded-by
+  to: american-physical-society
+  url: https://sites.aub.edu.lb/slbcenterincubator/awarded-projects/
+  fetched: 2026-11-09
+  quote: received $3,810 in funding from the American Physical Society (APS)
+  amount: 3810
+  currency: USD
+  year: 2024
+- type: partners-with
+  to: shouf-biosphere-reserve
+  url: https://sites.aub.edu.lb/slbcenterincubator/awarded-projects/
+  fetched: 2026-11-09
+  quote: In collaboration with the Shouf Biosphere Reserve (SBR), the team is developing a
+    smartphone app tailored to Lebanon's flora.
+- type: built-by
+  to: saving-lebanese-biodiversity-center-incubator
+  url: https://sites.aub.edu.lb/slbcenterincubator/our-research-projects/
+  fetched: *id001
+  quote: Our team is working on a real-time and accessible plant recognition smartphone application
+    based on Machine Learning (ML) and Computer Vision (CV).
+found_by:
+- checklist:7
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-09

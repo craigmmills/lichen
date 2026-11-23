@@ -1,0 +1,37 @@
+id: endangered-deer-uav-deep-learning-monitoring
+kind: project
+name: Endangered deer monitoring with UAV imagery and deep learning (Universidad de San Andrés)
+scope: ar
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- ar
+scale: local
+status: unknown
+summary: Project known from a 2024 paper listed in OpenAlex on monitoring endangered deer with UAV imagery
+  and deep learning, whose first author is affiliated with Universidad de San Andrés.
+facts:
+- claim: OpenAlex lists a 2024 paper on monitoring endangered deer species with UAV aerial imagery and
+    deep learning.
+  url: https://api.openalex.org/works/W4404036914?select=id,title,doi,publication_year,authorships
+  quote: Efficient Endangered Deer Species Monitoring with UAV Aerial Imagery and Deep Learning
+  ai_type: deep-learning
+  fetched: '2026-11-03'
+- claim: The first author gives his affiliation as the Artificial Intelligence and Robotics Lab of Universidad
+    de San Andrés.
+  url: https://api.openalex.org/works/W4404036914?select=id,title,doi,publication_year,authorships
+  quote: '"raw_author_name":"Agust\u00edn Roca","raw_affiliation_strings":["Universidad de San Andr&#x00E9;s,Laboratorio
+    de Inteligencia Artificial y Rob&#x00F3;tica,Buenos Aires,Argentina"'
+  fetched: '2026-11-03'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+runner: unknown

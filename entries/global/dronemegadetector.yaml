@@ -1,0 +1,27 @@
+id: dronemegadetector
+kind: model
+name: DroneMegaDetector
+scope: global
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+summary: General-purpose AI model for detecting animals in drone imagery across species, habitats and survey conditions, from
+  a study led by Chaim Chai Elchik.
+facts:
+- claim: Described as a general-purpose AI model for detecting animals across species, habitats and survey conditions.
+  url: https://conservationdrones.org/2026/10/14/dronemegadetector-ai-for-detecting-wildlife-in-drone-imagery/
+  quote: a general-purpose AI model designed to detect animals across different species, habitats and drone survey conditions
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: conservation-drones
+  url: https://conservationdrones.org/2026/10/14/dronemegadetector-ai-for-detecting-wildlife-in-drone-imagery/
+  quote: In a study led by Chaim Chai Elchik, we developed DroneMegaDetector
+  fetched: '2026-10-30'
+found_by:
+- link-from:conservation-drones
+added_by: agent
+checked: '2026-10-30'

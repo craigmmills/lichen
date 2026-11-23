@@ -1,0 +1,55 @@
+id: universitaet-innsbruck
+kind: organisation
+name: Universität Innsbruck
+also_known_as:
+- University of Innsbruck
+scope: at
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+website: https://www.uibk.ac.at
+summary: Austrian university whose Institute of Ecology hosts Viel-Falter monitoring, and
+  whose ecologist trained butterfly identification models on its LEO5 supercomputer, alongside
+  Sentinel-2 forest mapping papers from 2024 and 2026.
+facts:
+- claim: Viel-Falter monitoring is based at the university's Institute of Ecology.
+  url: https://www.uibk.ac.at/de/newsroom/2025/eins-zwei-drei-viele-falter/
+  fetched: 2026-11-07
+  quote: Das Viel-Falter Monitoring ist am Institut für Ökologie der Universität Innsbruck
+    beheimatet
+- claim: A university ecologist trained machine learning models for butterfly identification
+    on the university's supercomputer LEO5.
+  url: https://www.uibk.ac.at/de/newsroom/2025/biodiversitat-ein-supercomputer-als-schmetterlingsexperte/
+  fetched: 2026-11-07
+  quote: Die Forscherin startete auf dem Supercomputer der Universität Innsbruck, LEO5.
+- claim: A 2024 paper first-authored by Benedikt Hiebl of the University of Innsbruck maps
+    evergreen broad-leaved species cover in Italian forests from Sentinel-2 time series with
+    deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I190249584,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Mapping evergreen broad-leaved species spatial cover in Italian forests from Sentinel-2
+    time series using Deep Learning
+- claim: A 2026 paper first-authored by Benedikt Hiebl of the University of Innsbruck combines
+    Sentinel-2 time series features with AlphaEarth Foundations for forest type mapping.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I190249584,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Combining specialized Sentinel-2 time series features with AlphaEarth Foundations
+    for forest type mapping
+links: []
+found_by:
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

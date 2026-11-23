@@ -1,0 +1,34 @@
+id: ami-dataset
+kind: dataset
+name: AMI Dataset
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Dataset for identifying insects in images from camera traps, described in the paper
+  Insect Identification in the Wild, by Aditya Jain and 27 other authors.
+facts:
+- claim: Paper describes the dataset, by Aditya Jain and 27 other authors.
+  url: https://arxiv.org/abs/2406.12452
+  quote: 'Insect Identification in the Wild: The AMI Dataset, by Aditya Jain and 27 other
+    authors'
+  fetched: '2026-10-30'
+- claim: Contains 2.5 million images from GBIF and 14,105 specimens from traps, as described
+    by the AquaMonitor paper.
+  url: https://arxiv.org/html/2505.22065v1
+  quote: The overall dataset contains 2.5M images collected from the GBIF database, with 14,105
+    identified specimens from actual traps.
+  fetched: '2026-10-30'
+- claim: Related software and algorithms sit in the Rolnick Lab repository.
+  url: https://github.com/RolnickLab/ami-ml
+  quote: Software, algorithms and documentation related to the Automated Monitoring of Insects
+    using deep learning
+  fetched: '2026-10-30'
+found_by:
+- link-from:antenna-insect-data-platform
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

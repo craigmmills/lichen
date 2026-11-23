@@ -1,0 +1,49 @@
+id: universite-mustapha-stambouli-de-mascara
+kind: organisation
+name: Université Mustapha Stambouli de Mascara
+also_known_as:
+- University of Mascara
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A university that is the affiliation of the first author of a paper whose
+  title covers optical and radar remote sensing for monitoring wetland dynamics in
+  western Algeria.
+facts:
+- claim: Affiliation of Youcef Fekir, the first author of the paper on monitoring
+    wetland dynamics in western Algeria with optical and radar remote sensing.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4414760330|W4416133824|W7116786226&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Youcef Fekir", "raw_affiliation_strings": ["University
+    of Mustapha Stambouli, BP 305 Route de Mamounia, Mascara 29000, Algeria"]'
+- claim: The paper’s title names optical and radar remote sensing for monitoring wetland
+    dynamics in western Algeria.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4414760330|W4416133824|W7116786226&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Contribution of optical and radar remote sensing to the monitoring of wetland
+    dynamics in western Algeria
+- claim: LIS2T at the University of Mascara is the affiliation of Ibrahim Farouk Bouguenna,
+    first author of the paper on deep learning for fire and smoke detection in forests.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Artificial Intelligence Laboratory for Embedded Systems, Advanced Telecommunications,
+    and Telemedicine (LIS2T), Electrotechnical Department, University of Mascara,
+    Mascara 29000, ALGERIA
+links: []
+found_by:
+- rule:checklist-misses
+- link-from:lis2t-laboratory-university-of-mascara
+added_by: agent
+checked: 2026-11-12

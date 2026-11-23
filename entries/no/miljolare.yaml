@@ -1,0 +1,32 @@
+id: miljolare
+kind: programme
+name: Miljolare.no
+also_known_as:
+- Miljølære.no
+scope: 'no'
+ai_label: conservation-tech
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+countries:
+- 'no'
+scale: national
+website: https://www.miljolare.no/
+summary: Environment monitoring platform for schools and individuals, built and run by the University
+  of Bergen with ministry funding, where participants investigate their local area and the data they collect
+  becomes available to others.
+facts:
+- claim: Its GBIF publisher record calls it an environment monitoring platform for schools and individuals.
+  url: https://api.gbif.org/v1/organization/76e6d2c0-1be0-4cf0-b73b-1f10e3bf444c
+  fetched: &id001 2026-11-02
+  quote: is an environment monitoring platform for schools and individuals
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: *id001
+runner: unknown

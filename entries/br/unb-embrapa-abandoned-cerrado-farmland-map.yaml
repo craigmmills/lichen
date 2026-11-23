@@ -1,0 +1,39 @@
+id: unb-embrapa-abandoned-cerrado-farmland-map
+kind: project
+name: Abandoned Cerrado farmland map
+scope: br
+ai_label: ai
+status: unknown
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+countries:
+- br
+runner: unknown
+summary: Research by the University of Brasília and Embrapa mapping abandoned farmland in
+  the Cerrado from satellite images with deep learning.
+facts:
+- claim: Maps abandoned farmland in the Cerrado with AI, according to Brasil de Fato.
+  url: https://www.brasildefato.com.br/2026/06/18/pesquisa-da-unb-e-embrapa-mapeia-terras-agricolas-abandonadas-no-cerrado-bioma-e-o-mais-devastado-do-pais/
+  quote: conduziram uma pesquisa que mapeia terras agrícolas abandonadas no Cerrado com auxílio
+    de inteligência artificial
+  fetched: '2026-10-31'
+- claim: Used deep learning on satellite images.
+  url: https://www.brasildefato.com.br/2026/06/18/pesquisa-da-unb-e-embrapa-mapeia-terras-agricolas-abandonadas-no-cerrado-bioma-e-o-mais-devastado-do-pais/
+  quote: Para identificar as áreas abandonadas, os pesquisadores utilizaram técnicas de deep
+    learning
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: empresa-brasileira-de-pesquisa-agropecuaria
+  url: https://www.brasildefato.com.br/2026/06/18/pesquisa-da-unb-e-embrapa-mapeia-terras-agricolas-abandonadas-no-cerrado-bioma-e-o-mais-devastado-do-pais/
+  quote: "Pesquisa da UnB e Embrapa mapeia terras agrícolas abandonadas no Cerrado"
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,35 @@
+id: global-canopy-height-2020
+kind: dataset
+name: Global Canopy Height 2020
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://langnico.github.io/globalcanopyheight/
+summary: Global canopy top height map for 2020 at 10 m from Sentinel-2, produced with a deep
+  learning model trained on sparse GEDI lidar data, from ETH Zurich.
+facts:
+- claim: Deep learning model retrieves canopy height from Sentinel-2.
+  url: https://langnico.github.io/globalcanopyheight/
+  fetched: '2026-10-30'
+  quote: A probabilistic deep learning model has been developed to retrieve canopy top height
+    from Sentinel-2 images anywhere on Earth.
+links:
+- type: run-by
+  to: eth-zurich
+  url: https://ethz.ch/content/dam/ethz/special-interest/baug/department/departement/dokumente/jahresberichte/baug_report_2022_mobile.pdf
+  fetched: '2026-10-31'
+  quote: Nico Lang, one of the researchers at the lab, created the first vegetation height
+    map covering the entire Earth using a neural network approach.
+- type: builds-on
+  to: global-ecosystem-dynamics-investigation
+  url: https://langnico.github.io/globalcanopyheight/
+  fetched: '2026-10-30'
+  quote: sparse supervision from GEDI LIDAR
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-31'

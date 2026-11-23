@@ -1,0 +1,48 @@
+id: biospharenpark-wienerwald
+kind: organisation
+name: Biosphärenpark Wienerwald
+also_known_as:
+- Wienerwald Biosphere Reserve
+- BPWW
+scope: at
+sector: government
+roles:
+- supplies-data
+- convenes
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- at
+scale: local
+status: active
+website: https://www.bpww.at
+summary: Biosphere reserve organisation that lists research and environmental observation
+  among its aims, publishes data through GBIF and is a partner in the BiKoS project.
+facts:
+- claim: Lists support for research, environmental observation and education among its aims.
+  url: https://www.bpww.at
+  fetched: 2026-11-07
+  quote: Unterstützung von Forschung, Umweltbeobachtung und Bildungsaktivitäten für besseres
+    Verstehen von Wechselwirkungen zwischen Mensch und Natur
+- claim: Publishes data through GBIF as the Wienerwald Biosphere Reserve.
+  url: https://api.gbif.org/v1/organization?country=AT&limit=200
+  fetched: 2026-11-07
+  quote: '"title":"Wienerwald Biosphere Reserve"'
+- claim: Names Harald Brenner as team leader for natural area management and head of the research
+    section.
+  url: https://www.bpww.at
+  fetched: 2026-11-07
+  quote: Teamleiter Naturraummanagement, Fachbereichsleitung Forschung Biosphärenpark Wienerwald
+links:
+- type: partners-with
+  to: bikos
+  url: https://www.donauauen.at/aktuelles/blog/fledermausforschung-in-der-au
+  fetched: 2026-11-07
+  quote: Biosphärenpark Wienerwald
+found_by:
+- link-from:bikos
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,50 @@
+id: ghana-tree-based-systems-transfer-learning-model
+kind: model
+name: Transfer Learning To Detect Natural, Monoculture, and Agroforestry Tree-Based Systems
+  in Ghana
+scope: gh
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gh
+status: active
+runner: unknown
+summary: Model built by Jessica Ertel that classifies natural, agroforestry, monoculture and
+  other land from Sentinel imagery, demonstrated in 26 priority Ghanaian districts as a 10-metre
+  map for 2020.
+facts:
+- claim: Uses a CatBoost classifier on Sentinel imagery, texture features and learned spatial
+    embeddings to classify natural, agroforestry, monoculture and other land.
+  url: https://www.wri.org/research/transfer-learning-detect-natural-monoculture-and-agroforestry-tree-based-systems-ghana
+  fetched: '2026-11-08'
+  quote: 'We apply a CatBoost classifier to a combination of Sentinel imagery, gray-level
+    co-occurrence matrix (GLCM) texture features, and learned spatial embeddings to classify
+    four land use classes: natural, agroforestry, monoculture, and other (background).'
+  ai_type: ml-supervised
+- claim: Repurposes spatial embeddings from an existing convolutional neural network.
+  url: https://www.wri.org/research/transfer-learning-detect-natural-monoculture-and-agroforestry-tree-based-systems-ghana
+  fetched: '2026-11-08'
+  quote: By repurposing spatial embeddings from an existing convolutional neural network,
+    the study improves tree system classification accuracy
+  ai_type: deep-learning
+- claim: Demonstrated across 26 priority districts in Ghana, giving a 10-metre land use map
+    for 2020.
+  url: https://www.wri.org/research/transfer-learning-detect-natural-monoculture-and-agroforestry-tree-based-systems-ghana
+  fetched: '2026-11-08'
+  quote: The method is demonstrated across 26 priority districts in Ghana, resulting in a
+    10-meter resolution land use map for 2020.
+- claim: Published by WRI as a technical note on 12 December 2025, part of the Global Restoration
+    Initiative.
+  url: https://www.wri.org/research/transfer-learning-detect-natural-monoculture-and-agroforestry-tree-based-systems-ghana
+  fetched: '2026-11-08'
+  quote: This Technical Note is part of Global Restoration Initiative within Forests .
+found_by:
+- link-from:global-restoration-initiative
+added_by: agent
+checked: '2026-11-08'

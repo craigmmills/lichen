@@ -1,0 +1,120 @@
+id: goulandris-natural-history-museum
+kind: organisation
+name: Goulandris Natural History Museum
+also_known_as:
+- Μουσείο Γουλανδρή Φυσικής Ιστορίας
+- Goulandris Natural History Museum
+- NMNHG
+- National Museum of Natural History Goulandris
+- NMNHG-EKBY
+- Εθνικό Μουσείο Φυσικής Ιστορίας Γουλανδρή
+scope: gr
+sector: ngo
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: gr
+countries:
+- gr
+scale: national
+status: active
+website: https://www.gnhm.gr
+summary: Private non-profit museum founded in 1964, holding 357,000 specimens according to
+  GBIF, which runs the Greek Biotope/Wetland Centre and runs and builds a portal for nature
+  and biodiversity.
+facts:
+- claim: Its GBIF publisher record describes it as a private non-profit institution with 357,000
+    specimens, founded in 1964.
+  url: https://api.gbif.org/v1/organization/931807ed-6acd-48f7-9176-13be26e5bf97
+  fetched: '2026-11-03'
+  quote: The Goulandris Natural History Museum is a private, non profit institution that hosts
+    357.000 specimens, dealing with biodiversity and geodiversity.
+- claim: Its GBIF publisher record gives an address in Kifissia.
+  url: https://api.gbif.org/v1/organization/931807ed-6acd-48f7-9176-13be26e5bf97
+  fetched: '2026-11-03'
+  quote: Levidou 13, Kifissia
+- claim: Supports iNaturalistGR, which iSea manages, according to a University of Crete guide.
+  url: https://news.uoc.gr/news/2025/08-05/%CE%9F%CE%94%CE%97%CE%93%CE%99%CE%95%CE%A3_BIOBLITZ.pdf
+  fetched: '2026-11-03'
+  quote: την οποία διαχειρίζεται η iSea με την υποστήριξη του Μουσείου Γουλανδρή Φυσικής Ιστορίας.
+- claim: A non-profit foundation with a mission to conduct research, provide education and
+    protect nature.
+  url: https://www.gnhm.gr/en/the-museum/the-museum-today/
+  fetched: '2026-11-03'
+  quote: The National Museum of Natural History Goulandris is a non-profit foundation with
+    a mission to conduct research, provide education, and protect nature.
+- claim: Its aims include monitoring the natural environment and the impacts of climate change.
+  url: https://www.gnhm.gr/en/the-museum/the-museum-today/
+  fetched: '2026-11-03'
+  quote: Monitoring of the natural environment and the impacts of climate change, protection
+    of ecosystems
+- claim: Founded the Greek Biotope/Wetland Centre in 1991, on the recommendation of the European
+    Commission and the Greek environment ministry.
+  url: https://ekby.gr/en/profile/history-2/
+  fetched: '2026-11-03'
+  quote: In 1991, the Goulandris Natural History Museum decided, at the recommendation of
+    the European Commission and the Hellenic Ministry for the Environment, Physical Planning
+    and Public Works, to create in Greece a special body
+- claim: Listed as a GBIF publisher in Greece.
+  url: https://api.gbif.org/v1/organization?country=GR&limit=50
+  fetched: 2026-11-03
+  quote: Goulandris Natural History Museum
+- claim: Its Greek Biotope/Wetland Centre (EKBY) was a partner in LIFE EL-BIOS, contributing
+    to all stages of developing the Biodiversity Information System.
+  url: https://ekby.gr/en/our-actions/research-monitoring/life-el-bios/
+  fetched: 2026-11-03
+  quote: is a project partner; it contributes to all stages of development of the Biodiversity
+    Information System
+- claim: Lists a National Lakes Monitoring Network among its actions.
+  url: https://ekby.gr/en/our-actions/research-monitoring/life-el-bios/
+  fetched: 2026-11-03
+  quote: National Lakes Monitoring Network
+- claim: Its GBIF publisher record describes it as a private non-profit institution holding
+    357,000 specimens, founded in 1964.
+  url: https://api.gbif.org/v1/organization/931807ed-6acd-48f7-9176-13be26e5bf97
+  fetched: 2026-11-03
+  quote: The Goulandris Natural History Museum is a private, non profit institution that hosts
+    357.000 specimens
+- claim: Says it has started a research programme on urban biodiversity through bird ringing,
+    studying the birds of Attica and especially north-east Attica.
+  url: https://www.gnhm.gr/announcements/deltio-typou-i-astiki-viopoikilotita-mesa-apo-ti-meleti-ton-poulion-me-ti-methodo-tis-daktyliosis/
+  fetched: 2026-11-03
+  quote: Το πρόγραμμα στοχεύει στη συστηματική μελέτη της ορνιθοπανίδας της Αττικής και ιδιαίτερα
+    της βορειοανατολικής Αττικής
+links:
+- type: runs
+  to: greek-biotope-wetland-centre
+  url: https://www.gnhm.gr/en/the-museum/branches/
+  fetched: '2026-11-03'
+  quote: The Greek Biotope/Wetland Centre (EKBY) is a branch of the Goulandris National History
+    Museum in Thessaloniki.
+- type: runs
+  to: portal-for-nature-and-biodiversity
+  url: https://biodiversity-info.gr/en/about/
+  fetched: &id001 2026-11-03
+  quote: The upgrade of the website and the other open-access services of NMNHG -EKBY were
+    carried out in 2026
+- type: builds
+  to: portal-for-nature-and-biodiversity
+  url: https://biodiversity-info.gr/en/about/
+  fetched: *id001
+  quote: which was implemented by the Goulandris Museum of Natural History / Greek Biotope-Wetland
+    Centre
+- type: partners-with
+  to: a-g-leventis-foundation
+  url: https://www.gnhm.gr/announcements/deltio-typou-i-astiki-viopoikilotita-mesa-apo-ti-meleti-ton-poulion-me-ti-methodo-tis-daktyliosis/
+  fetched: 2026-11-03
+  quote: με τη στήριξη του Ιδρύματος Α. Γ. Λεβέντη
+found_by:
+- checklist:2
+- queue:gr
+- register:gbif-publisher
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-03'
+techniques:
+- remote-sensing

@@ -1,0 +1,86 @@
+id: centraal-bureau-voor-de-statistiek
+kind: organisation
+name: Centraal Bureau voor de Statistiek
+also_known_as:
+- CBS
+- Statistics Netherlands
+- Centraal Bureau voor de Statistiek
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: unknown
+scale: national
+status: active
+website: https://www.cbs.nl
+summary: The Dutch statistics office. It produces nature statistics from the Netwerk Ecologische
+  Monitoring, and publishes species population trends and indicators.
+scope: nl
+facts:
+- claim: Says it has produced nature statistics for half a century.
+  url: https://www.cbs.nl/nl-nl/corporate/2023/21/cbs-meet-biodiversiteit-op-grote-schaal
+  fetched: '2026-10-31'
+  quote: De natuurstatistieken van het CBS bestaan al een halve eeuw.
+- claim: Uses Netwerk Ecologische Monitoring data to show Dutch biodiversity.
+  url: https://www.cbs.nl/nl-nl/corporate/2023/21/cbs-meet-biodiversiteit-op-grote-schaal
+  fetched: '2026-10-31'
+  quote: Om de biodiversiteit van Nederland in kaart te brengen gebruikt het CBS de data van
+    het Netwerk Ecologische Monitoring (NEM).
+- claim: Calculates yearly indices and trends of species and publishes them online.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: &id001 2026-10-31
+  quote: Het CBS bewaakt de kwaliteit van de gegevensbestanden, berekent de jaarlijkse indexen
+    en trends van soorten en publiceert deze op internet.
+- claim: Responsible for quality control of the NEM.
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: Het CBS is verantwoordelijk voor de kwaliteitsbewaking van het NEM.
+- claim: Keeps about 300 of the Compendium's roughly 600 indicators.
+  url: https://www.cbs.nl/nl-nl/maatschappij/natuur-en-milieu/compendium-voor-de-leefomgeving
+  fetched: '2026-10-31'
+  quote: waarvan het CBS er zo’n 300 bijhoudt
+- claim: Its Natural Capital Accounts maps are published on RIVM's Atlas Natuurlijk Kapitaal.
+  url: https://www.cbs.nl/nl-nl/maatschappij/natuur-en-milieu/natuurlijk-kapitaal/atlas-natuurlijk-kapitaal
+  fetched: '2026-10-31'
+  quote: De kaarten van de Natuurlijk kapitaalrekeningen zijn te vinden op de Atlas Natuurlijk
+    Kapitaal van het RIVM.
+links:
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/nieuws/2023/51/reptielenpopulaties-afgelopen-12-jaar-afgenomen/netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: de provincies en enkele overheidsorganisaties, waaronder het CBS
+- type: uses
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/corporate/2023/21/cbs-meet-biodiversiteit-op-grote-schaal
+  fetched: '2026-10-31'
+  quote: Om de biodiversiteit van Nederland in kaart te brengen gebruikt het CBS de data van
+    het Netwerk Ecologische Monitoring (NEM).
+- type: partners-with
+  to: tabmon
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: *id001
+  quote: Department of Socio-economic and spatial statistics (SER), Statistics Netherlands,
+    Netherlands
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: *id001
+  quote: Dit is een samenwerkingsverband tussen een aantal ministeries (LNV, V&W, VROM), het
+    RIVM, de provincies en het CBS.
+- type: partners-with
+  to: european-bird-census-council
+  url: https://www.ebcc.info/partners/
+  fetched: *id001
+  quote: Statistics Netherlands (Centraal Bureau voor de Statistiek)
+found_by:
+- checklist:2
+- link-from:tabmon
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl

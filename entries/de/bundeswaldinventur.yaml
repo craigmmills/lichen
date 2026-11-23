@@ -1,0 +1,42 @@
+id: bundeswaldinventur
+kind: dataset
+name: Bundeswaldinventur
+also_known_as:
+- BWI
+- German National Forest Inventory
+scope: de
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- de
+status: active
+website: https://www.bundeswaldinventur.de/ansprechpartner
+summary: Germany's national forest inventory, a joint federal and state project coordinated
+  by the agriculture ministry, with the Thünen Institute for Forest Ecosystems as
+  inventory lead.
+facts:
+- claim: A joint project of the federal government and the states, coordinated by
+    the agriculture ministry.
+  url: https://www.bundeswaldinventur.de/ansprechpartner
+  fetched: '2026-10-31'
+  quote: Die Bundeswaldinventur ist ein Gemeinschaftsprojekt von Bund und Ländern.
+    Das Bundesministerium für Landwirtschaft, Ernährung und Heimat (BMLEH) koordiniert
+    die Inventur.
+links:
+- type: run-by
+  to: thunen-institut
+  url: https://www.bundeswaldinventur.de/ansprechpartner
+  fetched: '2026-10-31'
+  quote: Das Thünen-Institut für Waldökosysteme als Inventurleitung entwickelt in
+    enger Zusammenarbeit mit anderen Forschungseinrichtungen die Methoden
+- type: partners-with
+  to: bundesministerium-fur-landwirtschaft-ernahrung-und-heimat
+  url: https://www.bundeswaldinventur.de/ansprechpartner
+  fetched: '2026-10-31'
+  quote: Das Bundesministerium für Landwirtschaft, Ernährung und Heimat (BMLEH) koordiniert
+    die Inventur.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

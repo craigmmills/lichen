@@ -1,0 +1,63 @@
+id: malawi-forest-reference-level
+kind: dataset
+name: Malawi REDD+ National Forest Reference Level
+also_known_as:
+- Malawi interim National Forest Reference Level (2019)
+- Malawi second national REDD+ forest reference level
+scope: mw
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mw
+status: active
+summary: Malawi's REDD+ forest reference level, which in its interim 2019 form estimated
+  88,474 hectares deforested in 2006 to 2016 within a sampling frame covering 22%
+  of the country, later expanded to all forests.
+facts:
+- claim: The March 2019 document served as an interim Malawi National Forest Reference
+    Level.
+  url: https://redd.unfccc.int/files/government_of_malawi_forest_reference_level_report.pdf
+  fetched: '2026-11-15'
+  quote: This document serves as an interim Malawi National Forest Reference Level
+- claim: The 2019 report estimated deforestation during 2006–2016 from visually interpreted
+    forest-loss plots within a sampling frame covering 22% of Malawi, focused on protected
+    areas, forest reserves and some highly forested customary lands, excluding government
+    timber plantations.
+  url: https://redd.unfccc.int/files/government_of_malawi_forest_reference_level_report.pdf
+  fetched: '2026-11-15'
+  quote: landscape based on the proportion of visually-interpreted plots showing forest
+    loss between the
+- claim: The 2019 report estimated 88,474 hectares deforested during 2006–2016 within
+    its study sampling frame, which covered 22% of Malawi’s land area.
+  url: https://redd.unfccc.int/files/government_of_malawi_forest_reference_level_report.pdf
+  fetched: '2026-11-15'
+  quote: The sampling-based land cover change analysis revealed that 88,474 ha were
+    deforested in Malawi
+- claim: The second submission says the Collect Earth tool was used to visually interpret
+    satellite imagery.
+  url: https://redd.unfccc.int/media/malawi_second_national_redd_forest_reference_level_report_final_submitted.pdf
+  fetched: '2026-11-15'
+  quote: The Collect Earth Tool was used to visually interpret satellite imagery.
+- claim: The modified submission expanded data collection to all of Malawi's forests.
+  url: https://redd.unfccc.int/media/malawi_second_national_redd_forest_reference_level_report_final_submitted.pdf
+  fetched: '2026-11-15'
+  quote: The modified FRL submission expanded data collection to all Malawi
+links:
+- type: builds-on
+  to: malawi-national-forest-inventory
+  url: https://redd.unfccc.int/media/malawi_second_national_redd_forest_reference_level_report_final_submitted.pdf
+  fetched: '2026-11-15'
+  quote: Emission factors were calculated using national forest inventory data
+- type: builds-on
+  to: collect-earth
+  url: https://redd.unfccc.int/media/malawi_second_national_redd_forest_reference_level_report_final_submitted.pdf
+  fetched: '2026-11-15'
+  quote: The Collect Earth Tool was used to visually interpret satellite imagery.
+found_by:
+- rule:round-3
+added_by: agent
+checked: '2026-11-15'
+runner: unknown

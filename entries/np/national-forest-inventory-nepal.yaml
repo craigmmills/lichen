@@ -1,0 +1,62 @@
+id: national-forest-inventory-nepal
+kind: project
+name: National Forest Inventory Nepal
+also_known_as:
+- Forest Resource Assessment (FRA) Nepal
+- NFI Nepal
+scope: np
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- np
+status: closed
+summary: A closed forest resource assessment (2010 to 2014) run by FRTC with Finnish
+  support, combining remote sensing and ground sampling, with data used in Nepal's
+  forest reference levels and MRV.
+facts:
+- claim: FAO's microdata catalogue says FRTC implemented the Forest Resource Assessment
+    Nepal project (2010 to 2014) with financial and technical assistance from the
+    Government of Finland.
+  url: https://microdata.fao.org/index.php/catalog/2704
+  fetched: '2026-11-12'
+  quote: The Forest Research and Training Centre (FRTC) implemented Forest Resource
+    Assessment (FRA) Nepal Project (2010–2014) with financial and technical assistance
+    from the Government of Finland.
+- claim: The record says forest resource information is gathered with remote sensing
+    and ground-based inventory sampling, with Open Foris Collect used for data entry.
+  url: https://microdata.fao.org/index.php/catalog/2704
+  fetched: '2026-11-12'
+  quote: Forest resource information are gathered using both Remote Sensing and ground-based
+    inventory sampling. Open Foris Collect is used for data entry
+- claim: The record says the assessment covers forest cover, growing stock, biomass,
+    carbon, biodiversity and forest disturbances, and established permanent sample
+    plots for regular monitoring.
+  url: https://microdata.fao.org/index.php/catalog/2704
+  fetched: '2026-11-12'
+  quote: This assessment established permanent sample plots for regular monitoring.
+- claim: The record says the inventory data are used in Nepal's forest reference levels
+    and MRV for emission reduction programmes.
+  url: https://microdata.fao.org/index.php/catalog/2704
+  fetched: '2026-11-12'
+  quote: The NFI datasets are consistently used in Nepal's Forest reference levels,
+    UNFCCC national communications as well as on MRV process
+links:
+- type: run-by
+  to: forest-research-and-training-centre
+  url: https://microdata.fao.org/index.php/catalog/2704
+  fetched: '2026-11-12'
+  quote: The Forest Research and Training Centre (FRTC) implemented Forest Resource
+    Assessment (FRA) Nepal Project (2010–2014)
+- type: uses
+  to: open-foris
+  url: https://microdata.fao.org/index.php/catalog/2704
+  fetched: '2026-11-12'
+  quote: Open Foris Collect is used for data entry, R and excel tools are used for
+    analysis for carbon stock and biomass.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

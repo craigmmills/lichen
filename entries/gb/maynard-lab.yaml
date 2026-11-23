@@ -1,0 +1,46 @@
+id: maynard-lab
+kind: organisation
+name: Maynard Lab
+scope: gb
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.maynardlab.co.uk/
+summary: UCL group studying ecological communities with computational, theoretical and statistical
+  methods, including deep learning on forest resilience.
+facts:
+- claim: Located at UCL East, within the Centre for Biodiversity and Environment Research.
+  url: https://www.maynardlab.co.uk/
+  quote: We’re located at the People & Nature Lab at UCL’s East Campus
+  fetched: &id001 2026-10-30
+- claim: A PhD researcher applies deep learning to the drivers of forest resilience.
+  url: https://www.maynardlab.co.uk/
+  quote: applying deep learning methods to quantify and detect the drivers of forest resilience
+  fetched: *id001
+- claim: Address at UCL East.
+  url: https://www.maynardlab.co.uk/
+  quote: People & Nature Lab, UCL East, 1 Pool St, London E20 2AF, UK
+  fetched: *id001
+- claim: UCL's Faculty of Life Sciences reports his appointment as Associate Professor in
+    Quantitative Ecology.
+  url: https://www.ucl.ac.uk/biosciences/news/2023/aug/associate-professor-appointment-dr-daniel-maynard
+  quote: Dr. Daniel Maynard has been appointed Associate Professor in Quantitative Ecology
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: ucl-people-and-nature-lab
+  url: https://www.maynardlab.co.uk/
+  quote: We’re located at the People & Nature Lab at UCL’s East Campus
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

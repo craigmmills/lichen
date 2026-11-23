@@ -1,0 +1,77 @@
+id: siat-ac
+kind: programme
+name: SIAT-AC
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- co
+runner: unknown
+summary: Network of institutions that agree common objectives for managing environmental
+  information on the Colombian Amazon. A SINCHI procurement document sets out a planned
+  chatbot and a geospatial AI agent for it.
+facts:
+- claim: Described by SINCHI as a process in which institutions agree common objectives
+    on environmental information for the Colombian Amazon.
+  url: https://en.sinchi.org.co:443/servicios
+  quote: SIAT-AC is a process in which a set of actors (institutions) establish agreements,
+    with common objectives about environmental information management of the Colombian
+    Amazon
+  fetched: '2026-10-31'
+- claim: A SINCHI procurement document specifies a geospatial AI agent for the system.
+  url: https://www.sinchi.org.co/files/EstudiosPreviosCPPlataformaMoSCAL_v1.1-1.pdf
+  quote: incorporación de capacidades de inteligencia artificial geoespacial y analítica
+    avanzada
+  fetched: '2026-10-31'
+- claim: Describes itself as the window for managing and sharing environmental information
+    on the Colombian Amazon, with an open data portal.
+  url: https://sinchi.org.co/sistema-de-informacion-ambiental-territorial-de-la-amazonia-colombiana-siat-ac
+  fetched: '2026-10-31'
+  quote: Es la ventana de gestión y difusión de la información ambiental para la Amazonia
+    colombiana
+- claim: Tracks hot spots daily in the Colombian Amazon.
+  url: https://siatac.co/
+  fetched: '2026-10-31'
+  quote: Seguimiento diario a los puntos de calor en la Amazonia colombiana
+- claim: Tracks burn scars periodically.
+  url: https://siatac.co/
+  fetched: '2026-10-31'
+  quote: Seguimiento periódico de las cicatrices que dejan los incendios de vegetación
+    en el territorio
+- claim: SINCHI manages environmental information on the Colombian Amazon with this
+    platform.
+  url: https://siatac.co/
+  quote: Con esta plataforma el Instituto SINCHI gestiona la información ambiental
+    de la Amazonia colombiana
+  fetched: '2026-10-31'
+- claim: It shows heat spots detected daily in the Colombian Amazon.
+  url: https://siatac.co/
+  quote: Información de los puntos de calor detectados diariamente en la Amazonia
+    colombiana.
+  fetched: '2026-10-31'
+- claim: MoSCAL is its module for following local forest conservation agreements.
+  url: https://www.sinchi.org.co/sistema-de-informacion-ambiental-territorial-de-la-amazonia-colombiana-siat-ac
+  quote: Módulo del SIAT-AC para el seguimiento a los Acuerdos locales de conservación
+    del Bosque
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:instituto-sinchi
+- register:gbif-publisher
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+also_known_as:
+- SIAT-AC
+- SIATAC
+links:
+- type: run-by
+  to: instituto-amazonico-de-investigaciones-cientificas-sinchi
+  url: https://siatac.co/
+  fetched: '2026-10-31'
+  quote: Con esta plataforma el Instituto SINCHI gestiona la información ambiental
+    de la Amazonia colombiana

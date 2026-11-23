@@ -1,0 +1,45 @@
+id: the-earthshot-prize
+kind: organisation
+name: The Earthshot Prize
+also_known_as:
+- Earthshot Prize
+scope: global
+sector: funder
+roles:
+- funds
+- convenes
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: gb
+scale: global
+status: active
+website: https://earthshotprize.org
+summary: Annual prize that awards £1 million to each of five winners across nature, air, oceans,
+  waste and climate. NatureMetrics, which works in environmental DNA, won in the Protect &
+  Restore Nature category in 2024.
+facts:
+- claim: Five finalists each win £1 million every year.
+  url: https://earthshotprize.org/
+  quote: culminating with five Earthshot Finalists each winning £1 million to accelerate the
+    impact of their innovative solutions.
+  fetched: &id001 2026-10-30
+- claim: Based at Kensington Palace in London.
+  url: https://en.wikipedia.org/wiki/Earthshot_Prize
+  quote: Location Kensington Palace
+  fetched: *id001
+links:
+- type: funds
+  to: naturemetrics
+  amount: 1000000
+  currency: GBP
+  year: 2024
+  url: https://naturemetrics.com/news/naturemetrics-wins-the-2024-earthshot-prize
+  quote: Each year, five winning solutions are chosen, with each winner awarded £1 million
+    to advance their work.
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

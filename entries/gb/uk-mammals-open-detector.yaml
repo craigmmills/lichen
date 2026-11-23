@@ -1,0 +1,41 @@
+id: uk-mammals-open-detector
+kind: model
+name: Open-source UK mammals camera trap model
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- gb
+status: active
+summary: Open-weights object detector for 31 classes, 28 of them common UK mammals and birds,
+  released with a 2026 preprint from the Conservation AI and Trap Tracker work.
+facts:
+- claim: Detects 31 classes, 28 of them common UK mammal and bird species.
+  url: https://arxiv.org/abs/2606.10940
+  quote: open-source object detection model for 31 classes, 28 common UK mammal and bird species
+  fetched: '2026-10-31'
+- claim: Trained on 48,165 labelled instances.
+  url: https://arxiv.org/abs/2606.10940
+  quote: a curated dataset of 48,165 labelled instances
+  fetched: '2026-10-31'
+- claim: A YOLO26x detector.
+  url: https://arxiv.org/abs/2606.10940
+  quote: The model, a YOLO26x detector
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+links:
+- type: builds-on
+  to: trap-tracker
+  url: https://arxiv.org/abs/2606.10940
+  quote: operational deployment through Conservation AI and its successor, Trap Tracker
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

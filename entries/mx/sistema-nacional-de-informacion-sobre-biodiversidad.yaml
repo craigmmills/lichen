@@ -1,0 +1,75 @@
+id: sistema-nacional-de-informacion-sobre-biodiversidad
+kind: dataset
+name: Sistema Nacional de Información sobre Biodiversidad
+also_known_as:
+- SNIB
+scope: mx
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- mx
+status: active
+summary: A dataset on the biological diversity of Mexico, run and built by CONABIO, which began with scientific
+  collections of plants and animals and offers specimen records and taxonomic catalogues as CSV downloads.
+facts:
+- claim: CONABIO says its work is mainly to build and keep this system up to date.
+  url: https://www.gob.mx/conabio/prensa/conabio-y-conanp-impulsan-ciencia-y-conciencia-ciudadana-hacia-la-conservacion
+  fetched: 2026-11-03
+  quote: conformar y mantener actualizado el Sistema Nacional de Información sobre Biodiversidad (SNIB)
+- claim: Began by gathering biological information from scientific collections of plants and animals.
+  url: https://www.gob.mx/conabio/prensa/crece-como-la-espuma-naturalista-la-red-de-ciencia-ciudadana-mas-grande-de-mexico?idiom=es
+  fetched: '2026-11-03'
+  quote: El SNIB se inició hace casi tres décadas reuniendo la información biológica de colecciones científicas
+- claim: Specimen records and taxonomic catalogues can be downloaded as CSV files.
+  url: https://www.snib.mx/ejemplares/faq/
+  fetched: '2026-11-03'
+  quote: Las descargas de ejemplares y catálogos taxonómicos del SNIB incluyen un archivo en formato CSV
+- claim: Holds information on the biological diversity of Mexico.
+  url: http://www.conabio.gob.mx/web/transparencia.html
+  fetched: 2026-11-03
+  quote: Sistema Nacional de Información sobre Biodiversidad (SNIB) Contiene información sobre la diversidad
+    biológica de México, consultable de distintas maneras
+- claim: Its Geoportal was last updated on 23 September 2026 when read.
+  url: http://www.conabio.gob.mx/informacion/gis/
+  fetched: 2026-11-03
+  quote: 'Última actualización: 23-09-2026'
+- claim: The Carlos Slim Foundation describes SNIB information as taken from hundreds of scientific collections,
+    with millions of species location records.
+  url: https://fundacioncarlosslim.org/english/mexico-reaches-5-million-observations-of-plants-animals-and-fungi-in-naturalista/
+  fetched: 2026-11-03
+  quote: taken from hundreds of scientific collections with millions of records of locations of species
+    in Mexico
+links:
+- type: run-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: https://www.gob.mx/conabio/prensa/conabio-y-conanp-impulsan-ciencia-y-conciencia-ciudadana-hacia-la-conservacion
+  fetched: &id001 2026-11-03
+  quote: conformar y mantener actualizado el Sistema Nacional de Información sobre Biodiversidad (SNIB)
+- type: built-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: https://www.gob.mx/conabio/prensa/conabio-y-conanp-impulsan-ciencia-y-conciencia-ciudadana-hacia-la-conservacion
+  fetched: *id001
+  quote: conformar y mantener actualizado el Sistema Nacional de Información sobre Biodiversidad (SNIB)
+- type: run-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: https://www.gob.mx/conabio/prensa/crece-como-la-espuma-naturalista-la-red-de-ciencia-ciudadana-mas-grande-de-mexico?idiom=es
+  fetched: '2026-11-03'
+  quote: se dedica principalmente a conformar y mantener actualizado el Sistema Nacional de Información
+    sobre Biodiversidad (SNIB)
+- type: run-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: http://www.conabio.gob.mx/web/transparencia.html
+  fetched: 2026-11-03
+  quote: Instrumentar y operar el Sistema Nacional de Información sobre la Biodiversidad (SNIB), para
+    brindar datos, información y asesoría a diversos usuarios.
+found_by:
+- checklist:2
+- link-from:comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+- checklist:register
+added_by: agent
+checked: 2026-11-03
+techniques:
+- other

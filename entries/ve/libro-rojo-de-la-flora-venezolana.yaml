@@ -1,0 +1,47 @@
+id: libro-rojo-de-la-flora-venezolana
+kind: dataset
+name: Libro Rojo de la Flora Venezolana
+also_known_as: []
+scope: ve
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ve
+status: unknown
+summary: Red list of Venezuelan plants, built by the Instituto Experimental Jardín
+  Botánico, which Provita says shows 559 threatened species, 117 of them Critically
+  Endangered, and which Provita supported in two editions.
+facts:
+- claim: Provita says it supported the Jardín Botánico of the Universidad Central
+    de Venezuela to publish the Libro Rojo de la Flora Venezolana, which shows 559
+    threatened plant species, 117 of them Critically Endangered.
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-12
+  quote: Así, sabemos que existen 559 especies de plantas amenazadas de extinción,
+    de las cuales 117 se encuentran en Peligro Crítico.
+- claim: Provita says it supported the Jardín Botánico de Caracas in publishing two
+    editions.
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-12
+  quote: Apoyamos al Jardín Botánico de Caracas en la publicación de dos ediciones
+    del Libro Rojo de la Flora Venezolana.
+links:
+- type: built-by
+  to: instituto-experimental-jardin-botanico-dr-tobias-lasser
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-12
+  quote: Provita también ha apoyado al Instituto Experimental Jardín Botánico “Dr.
+    Tobías Lasser” de la Universidad Central de Venezuela (UCV) para publicar el Libro
+    Rojo de la Flora Venezolana.
+- type: partners-with
+  to: provita
+  url: https://www.provita.org.ve/programas/lista-roja-de-especies-amenazadas/
+  fetched: 2026-11-12
+  quote: Apoyamos al Jardín Botánico de Caracas en la publicación de dos ediciones
+    del Libro Rojo de la Flora Venezolana.
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

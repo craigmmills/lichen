@@ -1,0 +1,41 @@
+id: national-forest-monitoring-system-viet-nam
+kind: programme
+name: Viet Nam National Forest Monitoring System
+also_known_as:
+- NFMS
+scope: vn
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- vn
+status: active
+runner: unknown
+summary: National forest monitoring system of four subsystems set up under the 2017
+  Law on Forestry, updating forest change annually from satellite and field data,
+  with a 2025 GFOI presentation noting no unified operating protocol.
+facts:
+- claim: A 2025 GFOI presentation describes the NFMS as four integrated subsystems.
+  url: https://gfoi-rd.gfz.de/fileadmin/gfoird/documents/2025_10_JointComponent/Presentation6.pdf
+  fetched: 2026-11-12
+  quote: '• 4 integrated subsystems: FORMIS III, FRMS, NFI, and MRV/DMS'
+- claim: It says the NFMS was established under the 2017 Law on Forestry.
+  url: https://gfoi-rd.gfz.de/fileadmin/gfoird/documents/2025_10_JointComponent/Presentation6.pdf
+  fetched: 2026-11-12
+  quote: • NFMS established under Law on Forestry (2017) and Decision
+- claim: Forest change is updated annually from Sentinel-1 and -2, Planet imagery
+    and field data.
+  url: https://gfoi-rd.gfz.de/fileadmin/gfoird/documents/2025_10_JointComponent/Presentation6.pdf
+  fetched: 2026-11-12
+  quote: • Annual forest-change updates via Sentinel-1/2, Planet, and ﬁeld
+- claim: The presentation names a lack of a unified operating protocol for the NFMS
+    across the ministry.
+  url: https://gfoi-rd.gfz.de/fileadmin/gfoird/documents/2025_10_JointComponent/Presentation6.pdf
+  fetched: 2026-11-12
+  quote: '- Lack of uniﬁed NFMS operation protocol across MAE'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

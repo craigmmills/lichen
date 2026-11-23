@@ -1,0 +1,32 @@
+id: pureforest
+kind: dataset
+name: PureForest
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+summary: IGN lidar dataset on forest tree species, with 135,000 images covering 449
+  forests in 40 French departments.
+facts:
+- claim: IGN describes it as the largest lidar dataset in the world on forest tree
+    species.
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: couvrant 449 forêts de 40 départements français sur un total de 339 km2,
+    PureForest est le plus grand jeu de données LiDAR au monde sur les essences forestières.
+links:
+- type: run-by
+  to: institut-national-de-linformation-geographique-et-forestiere
+  url: https://www.ign.fr/institut/ia-en-vigie-du-territoire
+  fetched: '2026-10-31'
+  quote: PureForest est le plus grand jeu de données LiDAR au monde sur les essences
+    forestières.
+found_by:
+- link-from:institut-national-de-linformation-geographique-et-forestiere
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,109 @@
+id: direcao-geral-do-territorio
+kind: organisation
+name: Direção-Geral do Território
+scope: pt
+also_known_as:
+- DGT
+- Directorate-General for the Territory
+- Directorate-General for Territory
+sector: government
+roles:
+- governs
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+hq: pt
+countries:
+- pt
+scale: national
+status: active
+website: https://www.dgterritorio.gov.pt
+summary: Central state service for spatial planning and geographic databases that runs and
+  built the land use monitoring system, and is cited by Portugal Space as having substantial
+  Earth observation experience.
+facts:
+- claim: Its stated mission is public policy on spatial planning and urbanism and creating
+    and keeping the reference geographic databases.
+  url: https://www.dgterritorio.gov.pt/sites/default/files/documentos-publicos/Plano_Atividades_DGT_2025.pdf
+  fetched: 2026-11-02
+  quote: manutenção das bases de dados geográficos de referência
+- claim: Its 2025 activity plan gives its address as Rua Artilharia Um, 107, Lisbon.
+  url: https://www.dgterritorio.gov.pt/sites/default/files/documentos-publicos/Plano_Atividades_DGT_2025.pdf
+  fetched: 2026-11-02
+  quote: Rua Artilharia Um, 107 | 1099-052 Lisboa
+- claim: A DGT presentation lists training or fine-tuning deep learning models for image segmentation
+    as a step in landscape-level analysis.
+  url: https://www.dgterritorio.gov.pt/sites/default/files/ficheiros-artigos/Painel-inovacao-evento-julho.pdf
+  fetched: 2026-11-02
+  quote: modelos de deep learning para segmentação das imagens
+  ai_type: deep-learning
+- claim: Is a central service of the direct administration of the State.
+  url: https://www.dgterritorio.gov.pt/dgt/organica-interna
+  fetched: '2026-11-02'
+  quote: é um serviço central da administração direta do Estado
+- claim: Has a directorate for geodesy, cartography and geographic information.
+  url: https://www.dgterritorio.gov.pt/dgt/organica-interna
+  fetched: '2026-11-02'
+  quote: Direção de Serviços de Geodesia, Cartografia e Informação Geográfica
+- claim: Portugal Space calls it one of the few public bodies with substantial Earth observation
+    experience.
+  url: https://ptspace.pt/earth-observation/
+  fetched: '2026-11-02'
+  quote: DGT (Directorate of Territory) is one of the few entities in the public administration
+    with substantial experience in Earth Observation
+- claim: Copernicus Portugal says it has responsibilities for official land use and land cover
+    cartography, as the European Environment Agency's national reference centre.
+  url: https://copernicusportugal.ptspace.pt/sistema-de-monitorizacao-da-ocupacao-do-solo-smos/
+  fetched: '2026-11-02'
+  quote: A DGT é o Centro Nacional de Referência para a ocupação e uso do solo da Agência
+    Europeia do Ambiente, tendo responsabilidades na produção oficial de cartografia de uso
+    e ocupação do solo.
+- claim: Gives a Lisbon address.
+  url: https://www.dgterritorio.gov.pt/Contactos
+  fetched: '2026-11-02'
+  quote: Rua Artilharia Um, 107, 1099-052 Lisboa
+- claim: A central state service within the territorial cohesion area of government.
+  url: https://www.dgterritorio.gov.pt/dgt/organica-interna
+  fetched: 2026-11-02
+  quote: é um serviço central da administração direta do Estado dotado de autonomia administrativa
+- claim: The Portuguese Space Agency says DGT and IPMA coordinate the IPSentinel platform,
+    which provides Sentinel images to Portugal.
+  url: https://ptspace.pt/earth-observation/
+  fetched: 2026-11-02
+  quote: Together with the Portuguese Institute for Sea and Atmosphere ( IPMA), DGT coordinates
+    the IPSentinel platform that provides satellite images within Copernicus Program
+links:
+- type: runs
+  to: sistema-de-monitorizacao-de-ocupacao-do-solo
+  url: https://www.dgterritorio.gov.pt/sites/default/files/documentos-publicos/Plano_Atividades_DGT_2025.pdf
+  fetched: 2026-11-02
+  quote: O SMOS continuará a ser dinamizado para garantir a produção e disponibilização de
+    dados de observação
+- type: partners-with
+  to: ai-moonshot-challenge
+  url: https://ptspace.pt/the-second-edition-of-the-ai-moonshot-challenge-observes-the-earth-but-also-looks-to-space/
+  fetched: '2026-11-02'
+  quote: the collaboration of the Directorate-General for the Territory
+- type: runs
+  to: sistema-de-monitorizacao-de-ocupacao-do-solo
+  url: https://smos.dgterritorio.gov.pt/index.php/governanca
+  fetched: 2026-11-02
+  quote: entidade responsável pela coordenação do sistema, pela operacionalização e gestão
+    da plataforma tecnológica
+- type: builds
+  to: sistema-de-monitorizacao-de-ocupacao-do-solo
+  url: https://smos.dgterritorio.gov.pt/sobre-o-smos
+  fetched: 2026-11-02
+  quote: concebida e desenvolvida pela Direção-Geral do Território
+found_by:
+- checklist:1
+- link-from:portuguese-space-agency
+added_by: agent
+checked: 2026-11-02

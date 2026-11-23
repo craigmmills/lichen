@@ -1,0 +1,43 @@
+id: avif-czech-bird-database
+kind: dataset
+name: Avif
+also_known_as:
+- Faunistická databáze ČSO
+- Avif bird database
+scope: cz
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- cz
+status: active
+summary: Bird observation database run by the Czech Society for Ornithology, which calls it the largest
+  such data source in the country; in 2025, 3,072 people entered 594,503 observations.
+facts:
+- claim: In 2025, 3,072 people used it and entered 594,503 observations.
+  url: https://www.birdlife.cz/wp-content/uploads/2026/07/Vyrocni_zprava_CSO_2025.pdf
+  fetched: 2026-11-07
+  quote: V roce 2025 ji aktivně využilo 3 072 lidí, kteří zadali 594 503 jednotlivých pozorování.
+- claim: The Czech Society for Ornithology calls it the largest source of data on bird observation in
+    the Czech Republic.
+  url: https://www.birdlife.cz/en/
+  fetched: 2026-11-07
+  quote: Since 2010, CSO has maintained the Avif bird database on the website birds.cz, which is the largest
+    source of data on bird observation in the Czech Republic.
+links:
+- type: run-by
+  to: czech-society-for-ornithology
+  url: https://www.birdlife.cz/wp-content/uploads/2026/07/Vyrocni_zprava_CSO_2025.pdf
+  fetched: 2026-11-07
+  quote: Faunistická databáze ČSO (Avif), je základním informačním zdrojem o ptactvu České republiky.
+- type: run-by
+  to: czech-society-for-ornithology
+  url: https://www.birdlife.cz/en/
+  fetched: 2026-11-07
+  quote: Since 2010, CSO has maintained the Avif bird database on the website birds.cz
+found_by:
+- checklist:2
+- link-from:czech-society-for-ornithology
+added_by: agent
+checked: 2026-11-07

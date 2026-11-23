@@ -1,0 +1,50 @@
+id: fapbm-indice-d-integrite-biotique
+kind: model
+name: Indice d'Intégrité Biotique (FAPBM)
+also_known_as:
+- IBI
+scope: mg
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+countries:
+- mg
+status: active
+summary: A biotic integrity index in FAPBM's monitoring and evaluation plan, calculated
+  from manager-supplied data on habitat area and target species abundance, which FAPBM's
+  2024 report says rose from 2.59 in 2021 to 2.94 in 2024.
+facts:
+- claim: FAPBM adopted the biotic integrity index in its monitoring and evaluation
+    plan.
+  url: https://www.fapbm.org/app/uploads/2020/11/Indice_dintegrite_biologique-IBI.pdf
+  fetched: 2026-11-15
+  quote: L’utilisation de l’indice d’intégrité biotique (IBI) a été adoptée dans ce
+    plan de suivi
+- claim: The data needed to calculate it are supplied by the protected area managers
+    themselves.
+  url: https://www.fapbm.org/app/uploads/2020/11/Indice_dintegrite_biologique-IBI.pdf
+  fetched: 2026-11-15
+  quote: Les données nécessaires à son calcul sont fournies par les gestionnaires
+    des aires protégées
+- claim: Its components track annual changes in natural habitat area and the abundance
+    of target conservation species in protected areas.
+  url: https://www.fapbm.org/app/uploads/2020/11/Indice_dintegrite_biologique-IBI.pdf
+  fetched: 2026-11-15
+  quote: 'ICEC : indice de conservation des espèces cibles (abondance des espèces
+    exprimée en nombre)'
+- claim: FAPBM's 2024 annual report says the index rose from 2.59 in 2021 to 2.94
+    in 2024.
+  url: https://www.fapbm.org/app/uploads/2025/09/A4-rapport-annuel-FAPBM-2024-FR-5.pdf
+  fetched: 2026-11-15
+  quote: Biotique (IBI), passé de 2,59 en 2021 à 2,94 en 2024,
+links:
+- type: run-by
+  to: fondation-pour-les-aires-protegees-et-la-biodiversite-de-madagascar
+  url: https://www.fapbm.org/app/uploads/2025/09/A4-rapport-annuel-FAPBM-2024-FR-5.pdf
+  fetched: 2026-11-15
+  quote: d’Intégrité Biotique (IBI) de la Fondation,
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

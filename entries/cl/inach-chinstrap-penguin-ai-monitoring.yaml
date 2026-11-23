@@ -1,0 +1,39 @@
+id: inach-chinstrap-penguin-ai-monitoring
+kind: project
+name: INACH chinstrap penguin camera-trap AI monitoring
+scope: cl
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+countries:
+- cl
+status: active
+ai_types:
+- deep-learning
+summary: Active project run by the Instituto Antártico Chileno and led by Magdalena Marquez
+  Diaz, using camera traps and neural networks so an AI algorithm can count adults and chicks
+  autonomously.
+facts:
+- claim: The AI algorithm allows autonomous counts that distinguish adults from chicks.
+  url: https://www.theclinic.cl/2026/04/10/esto-es-un-punto-de-inicio-adaptan-aplicacion-de-inteligencia-artificial-para-monitorear-al-pinguino-barbijo-en-antartica/
+  fetched: 2026-11-02
+  quote: Esta herramienta permite realizar conteos autónomos para diferenciar entre ejemplares
+    adultos y polluelos
+- claim: The team uses camera traps and neural networks.
+  url: https://www.theclinic.cl/2026/04/10/esto-es-un-punto-de-inicio-adaptan-aplicacion-de-inteligencia-artificial-para-monitorear-al-pinguino-barbijo-en-antartica/
+  fetched: 2026-11-02
+  quote: A través del uso de cámaras trampa y redes neuronales
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: instituto-antartico-chileno
+  url: https://www.theclinic.cl/2026/04/10/esto-es-un-punto-de-inicio-adaptan-aplicacion-de-inteligencia-artificial-para-monitorear-al-pinguino-barbijo-en-antartica/
+  fetched: 2026-11-02
+  quote: Esta iniciativa es parte del programa de Áreas Marinas Protegidas (AMP)
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-02

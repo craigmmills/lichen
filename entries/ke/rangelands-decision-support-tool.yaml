@@ -1,0 +1,41 @@
+id: rangelands-decision-support-tool
+kind: project
+name: Rangelands Decision Support Tool
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: unknown
+summary: Web tool built by SERVIR-Eastern and Southern Africa at the Regional Centre for Mapping
+  of Resources for Development, which makes downloadable maps of vegetation condition from
+  MODIS NDVI for Kenyan rangelands.
+facts:
+- claim: A 2019 paper describes MODIS NDVI monitoring of Kenyan rangelands through a web tool.
+  url: https://www.frontiersin.org/articles/10.3389/fenvs.2019.00187
+  quote: Application of MODIS NDVI for Monitoring Kenyan Rangelands Through a Web Based Decision
+    Support Tool
+  fetched: '2026-10-31'
+- claim: Users can select indices and produce downloadable maps.
+  url: https://www.frontiersin.org/articles/10.3389/fenvs.2019.00187
+  quote: It allows users to select indices, the necessary ancillary data, and produce downloadable
+    maps.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: regional-centre-for-mapping-of-resources-for-development
+  url: https://www.frontiersin.org/articles/10.3389/fenvs.2019.00187
+  quote: "RCMRD and its SERVIR East & Southern Africa project, to promote development of technologies, products and tools for decision making"
+  fetched: '2026-10-31'
+- type: partners-with
+  to: northern-rangelands-trust
+  url: https://www.frontiersin.org/articles/10.3389/fenvs.2019.00187
+  quote: "Development of the tool adopted a consultative needs assessment method, where rangeland actors were involved to identify gaps and challenges in their decision-making processes. Initial consultations engaged three groups from NRT, LWF and FEWSNET"
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

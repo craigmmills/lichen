@@ -1,0 +1,52 @@
+id: the-data-lab
+kind: organisation
+name: The Data Lab
+sector: academic
+roles:
+- funds
+- convenes
+ai_label: ai
+summary: Scottish data and AI innovation centre, part of the University of Edinburgh, that
+  supported SEA-AI and hosted work with Space Intelligence and NatureScot.
+facts:
+- claim: Part of the University of Edinburgh.
+  url: https://thedatalab.com/collaborate-and-innovate/satellite-technology-and-scotlands-biodiversity-a-collaboration-between-space-intelligence-and-naturescot/
+  quote: The Data Lab is part of the University of Edinburgh
+  fetched: '2026-10-30'
+- claim: Supported SEA-AI.
+  url: https://www.sustainableaquaculture.com/projects/project-list/improving-seabed-monitoring-through-standardised-imaging-and-ai-analysis-sea-ai/
+  quote: Supported by SAIC and The Data Lab
+  fetched: '2026-10-30'
+- claim: Scotland's Innovation Centre for Data and AI.
+  url: https://thedatalab.com/about-us/
+  quote: The Data Lab is Scotland’s Innovation Centre for Data and AI
+  fetched: &id001 2026-10-30
+- claim: Case study on NatureScot and deep learning for camera traps.
+  url: https://www.hie.co.uk/case-studies/case-studies/the-data-lab-naturescot/
+  quote: Deep learning helps NatureScot protect Scotland’s wildlife
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://thedatalab.com/
+  quote: The Data Lab is part of the University of Edinburgh, a charitable body registered
+    in Scotland with registration number SC005336.
+  fetched: 2026-10-30
+links:
+- type: partners-with
+  to: naturescot
+  url: https://www.hie.co.uk/case-studies/case-studies/the-data-lab-naturescot/
+  quote: Find out how NatureScot overcame limitations of motion-activated camera traps using
+    artificial intelligence (AI)
+  fetched: *id001
+found_by:
+- link-from:sea-ai
+- checklist:6
+website: https://thedatalab.com
+realms:
+- ocean
+- land
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+hq: gb
+status: active
+scale: national

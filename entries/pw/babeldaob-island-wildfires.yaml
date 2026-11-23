@@ -1,0 +1,51 @@
+id: babeldaob-island-wildfires
+kind: dataset
+name: Babeldaob Island wildfires (2012+)
+scope: pw
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pw
+status: active
+runner: unknown
+summary: Dataset of wildfire locations and repeat-fire areas on Babeldaob Island,
+  Palau, for 2012 to 2025, mapped from satellite imagery only from 2016; third edition
+  published in 2026 in the Forest Service archive.
+facts:
+- claim: The dataset holds wildfire locations and areas of repeated wildfire on Babeldaob
+    Island, Palau, from 2012 to 2025.
+  url: https://www.fs.usda.gov/rds/archive/catalog/RDS-2022-0039-3
+  fetched: 2026-11-14
+  quote: This data publication contains wildfire locations as well as areas of repeated
+    wildfires on Babeldaob Island, Palau from 2012 to 2025.
+- claim: From 2016 onwards the fires were mapped from satellite imagery only.
+  url: https://www.fs.usda.gov/rds/archive/catalog/RDS-2022-0039-3
+  fetched: 2026-11-14
+  quote: From 2016 onwards, only satellite imagery mapping was used.
+- claim: The third edition was published in 2026 in the Forest Service Research Data
+    Archive.
+  url: https://www.fs.usda.gov/rds/archive/catalog/RDS-2022-0039-3
+  fetched: 2026-11-14
+  quote: 'Babeldaob Island wildfires (2012+). 3rd Edition. Fort Collins, CO: Forest
+    Service Research Data Archive.'
+- claim: The Coral Reef Research Foundation's page says the Babeldaob wildfire data
+    from the wildfire mapping program it describes are published in the USFS data
+    archive.
+  url: https://coralreefpalau.org/terrestrial-environments/
+  fetched: 2026-11-14
+  quote: Publication of the corresponding Babeldaob wildfire data in the USFS data
+    archive can be found here .
+links:
+- type: uses
+  to: palau-automated-land-and-resource-information-system
+  url: https://www.fs.usda.gov/rds/archive/catalog/RDS-2022-0039-3
+  fetched: 2026-11-14
+  quote: roads (obtained from Palau Automated Land and Resource Information Service
+    (PALARIS) and updated with 2015 imagery)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

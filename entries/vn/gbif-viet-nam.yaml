@@ -1,0 +1,51 @@
+id: gbif-viet-nam
+kind: programme
+name: GBIF Viet Nam
+scope: vn
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- vn
+status: active
+runner: unknown
+summary: Country node for Viet Nam in the GBIF registry with observer participation status, which endorses
+  the Center for Biodiversity Conservation and Endangered Species as a publisher.
+facts:
+- claim: The GBIF registry lists GBIF Viet Nam as a country node with observer participation status.
+  url: https://api.gbif.org/v1/node/7f4b5eab-2edf-4b46-9360-d9574ab0f1d7
+  fetched: 2026-11-08
+  quote: '"participationStatus":"OBSERVER"'
+- claim: The registry record is titled GBIF Viet Nam.
+  url: https://api.gbif.org/v1/node/7f4b5eab-2edf-4b46-9360-d9574ab0f1d7
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Viet Nam"'
+- claim: The GBIF registry lists GBIF Viet Nam as a country node for Viet Nam with observer participation
+    status.
+  url: https://api.gbif.org/v1/node/7f4b5eab-2edf-4b46-9360-d9574ab0f1d7
+  fetched: '2026-11-08'
+  quote: '"type":"COUNTRY","participationStatus":"OBSERVER","gbifRegion":"ASIA","continent":"ASIA","title":"GBIF
+    Viet Nam"'
+- claim: It is the endorsing node for the Center for Biodiversity Conservation and Endangered Species,
+    a publisher in Ho Chi Minh City.
+  url: https://api.gbif.org/v1/organization/457fbdb9-ef71-4d0f-b5c7-e67b01372cd9
+  fetched: '2026-11-08'
+  quote: '"endorsingNodeKey":"7f4b5eab-2edf-4b46-9360-d9574ab0f1d7","endorsementApproved":true'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/7f4b5eab-2edf-4b46-9360-d9574ab0f1d7
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Viet Nam"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/7f4b5eab-2edf-4b46-9360-d9574ab0f1d7
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"OBSERVER","gbifRegion":"ASIA"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

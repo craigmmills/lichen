@@ -1,0 +1,31 @@
+id: mapbiomas-arida
+kind: project
+name: MapBiomas Árida
+scope: br
+runner: unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+summary: Deforestation alert system for drylands that GeoDatin lists among its projects
+  and describes as using artificial intelligence algorithms.
+facts:
+- claim: GeoDatin describes it as the first deforestation alert system for drylands
+    using AI algorithms.
+  url: https://geodatin.com
+  fetched: '2026-10-30'
+  quote: The first deforestation alert system for drylands using
+links:
+- type: partners-with
+  to: geodatin
+  url: https://geodatin.com
+  fetched: '2026-10-30'
+  quote: "MapBiomas Árida The first deforestation alert system for drylands using artificial intelligence algorithms"
+found_by:
+- link-from:mapbiomas
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,43 @@
+id: fieldkit
+kind: project
+name: FieldKit
+scope: us
+ai_label: conservation-tech
+realms:
+- freshwater
+- land
+techniques:
+- other
+status: active
+website: https://www.fieldkit.org/
+summary: Open firmware and hardware sensor project, run by conservify, that measures
+  water and weather variables and began in 2016 from a network built for National
+  Geographic's Okavango Wilderness Project.
+facts:
+- claim: Is built on open firmware and hardware standards.
+  url: http://conservify.org/
+  fetched: 2026-11-21
+  quote: Built on open firmware and hardware standards (I²C sensor interfaces, SAMD51P
+    microcontroller) for reproducibility and customization
+- claim: Measures dissolved oxygen, temperature, pH, conductivity, level and weather.
+  url: http://conservify.org/
+  fetched: 2026-11-21
+  quote: Robust performance across dissolved oxygen, temperature, pH, conductivity,
+    distance/level, and weather in a portable, low-power package
+- claim: Began in 2016 from a sensor network built for National Geographic's Okavango
+    Wilderness Project.
+  url: https://www.fieldkit.org/about/
+  fetched: 2026-11-21
+  quote: our founders, Shah Selbe and Jer Thorp, were working alongside National Geographic’s
+    Okavango Wilderness Project
+links:
+- type: run-by
+  to: conservify
+  url: https://www.fieldkit.org/privacy-policy/
+  fetched: 2026-11-21
+  quote: Application means the software program provided by the Company downloaded
+    by You on any electronic device, named FieldKit
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

@@ -1,0 +1,40 @@
+id: justdiggit
+kind: organisation
+name: Justdiggit
+scope: global
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: nl
+scale: global
+status: active
+website: https://justdiggit.org
+summary: Dutch non-profit that helps landowners restore degraded land by regreening, and gives
+  free tailored advice through its Greener.Land app.
+countries:
+- ke
+- nl
+- tz
+facts:
+- claim: Dutch non-profit helping landowners worldwide restore ecosystems, by the OutSystems
+    account.
+  url: https://www.outsystems.com/videos/justdiggit-ai-assistant
+  fetched: &id001 2026-10-30
+  quote: Dutch non-profit Justdiggit empowers landowners worldwide to restore ecosystems.
+- claim: An international NGO founded in the Netherlands and registered in 2010.
+  url: https://justdiggit.org/contact/frequently-asked-questions/
+  fetched: 2026-10-30
+  quote: Justdiggit is an international NGO founded in the Netherlands, and officially registered
+    in 2010
+- claim: UNCCD's civil society list gives its address in Amsterdam.
+  url: https://www.unccd.int/cso/stichting-justdiggit-foundation
+  fetched: 2026-10-30
+  quote: Prins Hendrikkade 25, 1012 TM, Amsterdam, The Netherlands
+links: []
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

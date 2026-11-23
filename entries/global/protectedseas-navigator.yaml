@@ -1,0 +1,24 @@
+id: protectedseas-navigator
+kind: dataset
+name: ProtectedSeas Navigator
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+summary: Free interactive map of over 21,000 marine protected and managed areas across 220 countries and territories, with their regulations.
+facts:
+- claim: Free interactive map of over 21,000 marine protected and managed areas across 220 countries and territories, according to a EurekAlert release.
+  url: https://www.eurekalert.org/news-releases/992407
+  quote: Navigator is a free, interactive map of over 21,000 marine protected and managed areas across 220 countries and territories
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: protectedseas
+  url: https://www.eurekalert.org/news-releases/992407
+  quote: "said Virgil Zetterlind, director of ProtectedSeas. “We created this one-of-a-kind tool to assist international ocean conservation planning and assessment.”"
+  fetched: '2026-10-30'
+found_by:
+- link-from:protectedseas
+added_by: agent
+checked: '2026-10-30'

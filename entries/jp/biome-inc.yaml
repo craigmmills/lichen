@@ -1,0 +1,116 @@
+id: biome-inc
+kind: organisation
+name: Biome Inc.
+also_known_as:
+- 株式会社バイオーム
+- Biome
+scope: jp
+sector: company
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://biome.co.jp/en/
+summary: Kyoto company, established 31 May 2017, that builds and runs the Biome app, which
+  names species from photos; in April 2026 it said it was stepping up overseas work.
+facts:
+- claim: Its Biome app uses its own name identification AI to name species from users' photos,
+    and covers about 100,000 species in Japan.
+  url: https://biome.co.jp/news/press-20260424/
+  fetched: 2026-11-02
+  quote: 独自の名前判定AIによって、ユーザーが撮影した写真から生物の名前を判定します。
+- claim: In April 2026 it said it was stepping up overseas work, including Indonesia, the
+    Philippines and Palau.
+  url: https://biome.co.jp/news/press-20260424/
+  fetched: 2026-11-02
+  quote: バイオームは、インドネシア、フィリピンやパラオをはじめとした海外展開を、さらに本格化しています。
+- claim: Says it has built Japan's largest real-time biological distribution database.
+  url: https://biome.co.jp/en/
+  fetched: 2026-11-02
+  quote: Japan's largest real-time biological distribution database.
+- claim: Head office is in Shimogyo-ku, Kyoto.
+  url: https://biome.co.jp/en/about/
+  fetched: 2026-11-02
+  quote: Head Office ASTEM Building 8F, 134 Chudoji Minamimachi, Shimogyo-ku, Kyoto
+- claim: Head office in Kyoto; established on 31 May 2017.
+  url: https://biome.co.jp/en/about-us/
+  fetched: '2026-11-02'
+  quote: Head Office ASTEM Building 8F, 134 Chudoji Minamimachi, Shimogyo-ku, Kyoto
+- claim: Says it builds a real-time biological distribution dataset through products such
+    as the Biome app.
+  url: https://biome.co.jp/en/
+  fetched: '2026-11-02'
+  quote: Through products like the Biome app, we build big data that continues to capture
+    changes in nature.
+- claim: Says its services connect species presence and distribution predictions to measures
+    such as extinction risk.
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: Our services connect species presence and distribution predictions to key metrics
+    such as extinction risks, ecosystem condition indicators, and impact analyses.
+- claim: Says it has planned projects with over 170 companies and more than 60 municipalities
+    and government agencies.
+  url: https://biome.co.jp/en/about-us/
+  fetched: '2026-11-02'
+  quote: We have a proven track record of project planning with over 170 companies and more
+    than 60 municipalities and government agencies.
+- claim: Says it holds real-time species distribution big data, gathered from observations
+    posted to its app.
+  url: https://biome.co.jp/about/
+  fetched: '2026-11-02'
+  quote: 国内最大級のリアルタイム生物分布ビッグデータとして蓄積され
+- claim: Claims project planning with more than 170 companies and more than 60 local governments
+    and agencies.
+  url: https://biome.co.jp/about/
+  fetched: '2026-11-02'
+  quote: すでに170社を超える企業、60以上の自治体・官公庁とのプロジェクト立案実績があり
+- claim: A release names BiomeDB, a database of more than 10 million records.
+  url: https://biome.co.jp/news/press_20260528/
+  fetched: '2026-11-02'
+  quote: バイオームが保有する国内最大級 1,000 万件以上のリアルタイム生物データベース 「BiomeDB」
+links:
+- type: runs
+  to: biome-app
+  url: https://biome.co.jp/en/about/
+  fetched: &id001 2026-11-02
+  quote: Development and operation of biological apps
+- type: partners-with
+  to: ntt-docomo-business
+  url: https://www.ntt.com/about-us/press-releases/news/article/2026/0528_2.html
+  fetched: 2026-11-02
+  quote: 「自然資本モニタリングソリューション」(以下 本ソリューション)の提供を本日より開始します。
+- type: builds
+  to: biome-app
+  url: https://biome.co.jp/en/about/
+  fetched: *id001
+  quote: Development and operation of biological apps
+- type: funded-by
+  to: ntt-docomo-ventures
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: NTT DOCOMO Ventures, an NTT Group corporate venture capital firm, has invested in
+    Biome through a fund it manages
+- type: partners-with
+  to: ntt-docomo-business
+  url: https://group.ntt/en/newsrelease/2025/03/27/250327a.html
+  fetched: '2026-11-02'
+  quote: NTT Corporation, Biome Inc., NTT Com, NTT COMWARE, NTT DATA and NTT DOCOMO announced
+    today that they have jointly begun developing technology
+found_by:
+- checklist:5
+- link-from:queue-jp
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision
+- species-distribution

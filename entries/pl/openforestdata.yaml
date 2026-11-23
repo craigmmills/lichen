@@ -1,0 +1,28 @@
+id: openforestdata
+kind: dataset
+name: OpenForestData.pl
+scope: pl
+ai_label: data-infrastructure
+status: active
+summary: A forest data platform built by e-puszcza, through which published data can be searched and viewed.
+realms:
+- land
+countries:
+- pl
+website: https://openforestdata.pl
+facts:
+- claim: Data are published through the platform, where they can be searched and viewed.
+  url: https://www.gov.pl/web/cppc/e-puszcza---podlaskie-cyfrowe-repozytorium-przyrodniczych-danych-naukowych
+  fetched: '2026-11-02'
+  quote: Obecnie dane te upubliczniane są za pomocą platformy OpenForestData.pl, gdzie można je dowolnie
+    wyszukiwać i przeglądać.
+links:
+- type: built-by
+  to: e-puszcza
+  url: https://www.gov.pl/web/cppc/e-puszcza---podlaskie-cyfrowe-repozytorium-przyrodniczych-danych-naukowych
+  fetched: '2026-11-02'
+  quote: Głównym produktem projektu jest platforma OpenForestData.pl
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

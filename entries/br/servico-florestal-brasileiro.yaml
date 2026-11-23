@@ -1,0 +1,53 @@
+id: servico-florestal-brasileiro
+kind: organisation
+name: Serviço Florestal Brasileiro
+also_known_as:
+- SFB
+- Brazilian Forest Service
+scope: br
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: br
+scale: national
+status: active
+website: https://www.gov.br/florestal/pt-br
+summary: Federal forest service that coordinates the National Forest Inventory and whose data
+  feed the National Forest Information System.
+facts:
+- claim: Coordinates the National Forest Inventory.
+  url: https://www.gov.br/florestal/pt-br/assuntos/ifn
+  fetched: '2026-10-30'
+  quote: O IFN é coordenado pelo Serviço Florestal Brasileiro
+- claim: Recorded more than one million rural registrations analysed by states by June 2026
+    through the Dynamic Analysis module.
+  url: https://www.gov.br/florestal/pt-br/assuntos/noticias/2026/junho/sfb-apoia-estados-na-analise-de-mais-de-um-milhao-de-cadastros-rurais
+  fetched: '2026-10-30'
+  quote: a marca de mais de um milhão de cadastros ambientais rurais (CAR) analisados
+- claim: Signed a technical cooperation agreement with the management ministry and Google
+    on high-resolution satellite images for 2008.
+  url: https://www.gov.br/gestao/pt-br/assuntos/noticias/2026/abril/especialistas-apresentam-avancos-na-analise-do-car-com-uso-de-novas-tecnologias-e-dados
+  fetched: '2026-10-30'
+  quote: Acordo de Cooperação Técnica (ACT) entre o Ministério da Gestão e da Inovação em
+    Serviços Públicos (MGI), o Serviço Florestal Brasileiro (SFB) e o Google
+- claim: Its own site gives its address at SCEN Trecho 2, Brasília.
+  url: https://www.gov.br/florestal/pt-br/acesso-a-informacao/institucional/horario-de-atendimento
+  quote: 'Endereço: SCEN Trecho 2, L4 Norte, Bloco C, Serviço Florestal Brasileiro, Brasília/DF,
+    CEP 70818-900.'
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: inventario-florestal-nacional
+  url: https://www.gov.br/florestal/pt-br/assuntos/ifn
+  fetched: '2026-10-30'
+  quote: O IFN é coordenado pelo Serviço Florestal Brasileiro
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

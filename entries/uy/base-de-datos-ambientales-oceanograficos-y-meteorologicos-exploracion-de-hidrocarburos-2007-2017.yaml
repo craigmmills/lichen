@@ -1,0 +1,45 @@
+id: base-de-datos-ambientales-oceanograficos-y-meteorologicos-exploracion-de-hidrocarburos-2007-2017
+kind: dataset
+name: Base de datos ambientales, oceanográficos y meteorológicos generados en proyectos de exploración
+  de hidrocarburos 2007-2017
+scope: uy
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+countries:
+- uy
+summary: Dataset of visual and acoustic marine megafauna detections recorded in Uruguay's exclusive economic
+  zone between 2007 and 2017, built by ANCAP, published by the Ministry of Environment under CC BY 4.0.
+facts:
+- claim: Compiles visual and acoustic detections of marine megafauna by marine megafauna observers and
+    passive acoustic monitoring operators, recorded between 2007 and 2017 in Uruguay's exclusive economic
+    zone.
+  url: https://api.gbif.org/v1/dataset/bb37f9d3-0f70-4279-8f6b-7bb9b33011bc
+  fetched: 2026-11-08
+  quote: Este conjunto de datos corresponde a un compilado de la información recabada por Observadores
+    de Megafauna Marina (OMF) y operadores de Acústica Pasiva (PAM), y refiere a eventos de detección
+    visual y acústica registrados entre 2007 y 2017
+- claim: Its citation names the Dirección Nacional de Biodiversidad y Servicios Ecosistémicos of the Ministry
+    of Environment as publisher.
+  url: https://api.gbif.org/v1/dataset/bb37f9d3-0f70-4279-8f6b-7bb9b33011bc
+  fetched: 2026-11-08
+  quote: Version 1.4. Dirección Nacional de Biodiversidad y Servicios Ecosistémicos, Ministerio de Ambiente
+    / National Direction of Biodiversity and Ecosystem Services, Ministry of Environment.
+- claim: Released under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/dataset/bb37f9d3-0f70-4279-8f6b-7bb9b33011bc
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: built-by
+  to: ancap
+  url: https://api.gbif.org/v1/dataset/bb37f9d3-0f70-4279-8f6b-7bb9b33011bc
+  fetched: 2026-11-08
+  quote: '"type":"ORIGINATOR","primary":true,"userId":[],"lastName":"Administración Nacional de Combustibles
+    Alcohol y Pórtland (ANCAP)"'
+found_by:
+- link-from:direccion-nacional-de-biodiversidad-y-servicios-ecosistemicos
+added_by: agent
+checked: 2026-11-08

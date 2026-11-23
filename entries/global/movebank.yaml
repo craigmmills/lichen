@@ -1,0 +1,38 @@
+id: movebank
+kind: dataset
+name: Movebank
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.movebank.org
+summary: Online platform for managing, sharing, analysing and archiving animal tracking data,
+  hosted by the Max Planck Institute of Animal Behavior.
+countries:
+- ke
+facts:
+- claim: Platform for animal tracking data.
+  url: https://www.movebank.org/cms/movebank-content/about-movebank
+  fetched: '2026-10-30'
+  quote: Movebank is an online platform helping thousands of researchers and wildlife managers
+    worldwide to manage, share, analyze and archive animal tracking and other animal-borne
+    sensor data.
+links:
+- type: run-by
+  to: max-planck-institute-of-animal-behavior
+  url: https://www.movebank.org/cms/movebank-content/about-movebank
+  fetched: '2026-10-30'
+  quote: Movebank is hosted by the Max Planck Institute of Animal Behavior
+- type: funded-by
+  to: max-planck-society
+  url: https://www.movebank.org/cms/movebank-content/about-movebank
+  fetched: '2026-10-30'
+  quote: Movebank has long-term funding through the Max Planck Society and the University
+    of Konstanz
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

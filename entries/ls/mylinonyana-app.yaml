@@ -1,0 +1,43 @@
+id: mylinonyana-app
+kind: project
+name: MyLINONYANA App
+also_known_as:
+- Lesotho Ornithological App
+scope: ls
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- ls
+status: unknown
+runner: unknown
+summary: Web-based bird visualisation app developed in Lesotho with R Shiny, showing
+  bird species sightings in Lesotho using species data from GBIF.
+facts:
+- claim: The app is a web-based app developed in Lesotho with the R Shiny framework.
+  url: https://github.com/ocaes/Lesotho-Ornithological-App
+  fetched: 2026-11-15
+  quote: This MyLINONYANA App is a web-based app developed in Lesotho using the R
+    Shiny framework.
+- claim: It shows bird species sightings in Lesotho, using species data from GBIF.
+  url: https://github.com/ocaes/Lesotho-Ornithological-App
+  fetched: 2026-11-15
+  quote: This app uses bird species data acquired from the Global Biodiversity Information
+    Facility(GBIF). It shows bird species sightings in Lesotho.
+- claim: The repository describes it as a bird visualisation app for Lesotho data
+    extracted from GBIF.
+  url: https://github.com/ocaes/Lesotho-Ornithological-App
+  fetched: 2026-11-15
+  quote: This is bird visualization app for Lesotho data extracted from Global Biodiversity
+    Information Facility
+links:
+- type: uses
+  to: global-biodiversity-information-facility
+  url: https://github.com/ocaes/Lesotho-Ornithological-App
+  fetched: 2026-11-15
+  quote: This app uses bird species data acquired from the Global Biodiversity Information
+    Facility(GBIF).
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

@@ -1,0 +1,35 @@
+id: vihiga-county-government
+kind: organisation
+name: Vihiga County Government
+scope: ke
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ke
+scale: local
+summary: County government in western Kenya that monitors forest degradation with Sentinel
+  satellite imagery, according to a report on its governor's data work.
+facts:
+- claim: TalkAfrica reports the county monitors forest degradation with Sentinel imagery.
+  url: https://www.talkafrica.co.ke/?p=36903
+  quote: the county began monitoring forest degradation using Sentinel satellite imagery
+  fetched: '2026-10-31'
+- claim: Its GIS laboratory sits in the office of the governor, according to the Council of
+    Governors.
+  url: https://maarifa.cog.go.ke/article/gis-dashboards-data
+  quote: Laboratory is a service directorate anchored in the office of the Governor
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

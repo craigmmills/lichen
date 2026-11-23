@@ -1,0 +1,60 @@
+id: fiji-national-university
+kind: organisation
+name: Fiji National University
+scope: fj
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+hq: fj
+scale: national
+status: active
+realms:
+- freshwater
+- land
+techniques:
+- other
+- remote-sensing
+website: https://www.fnu.ac.fj/
+also_known_as:
+- FNU
+summary: Fijian university with authors on machine learning papers about rivers and groundwater.
+  It was a partner on the forest monitoring project for Fiji's forestry ministry.
+facts:
+- claim: Registered with the Fiji Higher Education Commission.
+  url: https://www.fnu.ac.fj/
+  fetched: '2026-10-31'
+  quote: Registered with the Fiji Higher Education Commission as a University under the Higher
+    Education Act 2008.
+- claim: An author at the university published work on forecasting river temperature with
+    explainable AI.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:FJ,from_publication_date:2017-01-01,primary_topic.id:T11490&per_page=100&sort=publication_date:desc&select=id,title,publication_year,authorships,doi
+  fetched: '2026-10-31'
+  quote: Forecasting River Water Temperature Using Explainable Artificial Intelligence and
+    Hybrid Machine Learning
+- claim: Its forestry department was a partner on the 2017 to 2019 forest monitoring project.
+  url: https://www.biologie.uni-hamburg.de/forschung/weltforstwirtschaft/projekte-aktiv-weltw/03-projekt-fiji.html
+  fetched: '2026-10-31'
+  quote: Fiji National University, Department of Forestry, College of Agriculture, Fisheries
+    and Forestry, Fiji
+- claim: A staff profile describes research that puts AI into environment and hydrology work.
+  url: https://www.fnu.ac.fj/engineering-science-technology/research-office/supervisor/dr-salvin-sanjesh-prasad/
+  fetched: '2026-10-31'
+  quote: research that integrates AI-driven predictive technology into the realms of health,
+    meteorology, climatology, energy, environment, hydrology
+- claim: Its 2024 research report lists a master's project on groundwater using machine learning
+    in Nadi.
+  url: https://www.fnu.ac.fj/engineering-science-technology/wp-content/uploads/sites/4/2025/03/Annual-Reseach-Report-CETVET-2024.pdf
+  fetched: '2026-10-31'
+  quote: Artificial Intelligence (Machine Learning), And Geophysics Survey
+- claim: Its 2024 research report lists a paper on forecasting river water temperature with
+    AI.
+  url: https://www.fnu.ac.fj/engineering-science-technology/wp-content/uploads/sites/4/2025/03/Annual-Reseach-Report-CETVET-2024.pdf
+  fetched: '2026-10-31'
+  quote: Forecasting river water temperature using explainable artificial intelligence and
+    hybrid
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

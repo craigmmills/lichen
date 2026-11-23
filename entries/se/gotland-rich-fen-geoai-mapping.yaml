@@ -1,0 +1,63 @@
+id: gotland-rich-fen-geoai-mapping
+kind: project
+name: GeoAI och biologisk mångfald, Gotland rich fen mapping
+scope: se
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+- ml-supervised
+status: closed
+summary: Completed Sweco project, led by Marianne Melander Åkerholm, that mapped potential
+  rich fens on Gotland from orthophotos by training a deep learning model on classic image
+  classification output.
+facts:
+- claim: Sweco's task was to map unknown potential rich fens and say something about their
+    ecological status, using GeoAI and remote sensing on orthophotos.
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: För att göra det så användes GeoAI och fjärranalys för att analysera geometriskt
+    korrigerade flygbilder såkallade ortofoton.
+- claim: Used the output of classic image classification as training data for a deep learning
+    model, a combined method.
+  ai_type: deep-learning
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Därför testades hela klassningen från den traditionella metoden som träningsdata
+    för djupinlärningsmodellen, vilket gav bra resultat. En kombinerad metod blev vägen framåt.
+- claim: Classic image classification, based on machine learning, needed training data adjusted
+    after each classification.
+  ai_type: ml-supervised
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Först ”klassisk bildklassificering”, som bygger på maskininlärning. Detta är en prövad
+    metod inom fjärranalys, men den kräver mycket handpåläggning och är en iterativ process
+    där man ofta går fram och tillbaka för att justera träningsdata
+- claim: The final delivery was a geodatabase mapping saw-sedge, rich fens, water, shrubs
+    and trees.
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Den slutliga leveransen bestod av en geodatabas som innehöll detaljerade karteringar
+    av ag, rikkärr, vatten, buskar och träd.
+links:
+- type: built-by
+  to: sweco
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Genom metoden kunde Sweco automatisera processen för att identifiera rikkärr och
+    vegetationsstrukturer.
+- type: run-by
+  to: sweco
+  url: https://www.sweco.se/projekt/geoai-och-biologisk-mangfald/
+  fetched: '2026-11-08'
+  quote: Swecos uppdrag var att kartera okända potentiella rikkärr utanför de redan kända
+    rikkärren
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

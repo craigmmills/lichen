@@ -1,0 +1,29 @@
+id: indian-bird-visual-acoustic-fusion
+kind: model
+name: Indian bird species visual-acoustic fusion classifier
+scope: in
+ai_label: ai
+ai_types:
+- multimodal
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+countries:
+- in
+status: unknown
+runner: unknown
+summary: Method that combines images and sound to classify Indian bird species, from a paper
+  by authors at Vellore Institute of Technology.
+facts:
+- claim: The paper's title names the visual-acoustic fusion.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI:10.3389/frai.2025.1527299
+  quote: 'A novel approach to Indian bird species identification: employing visual-acoustic
+    fusion techniques for improved classification accuracy.'
+  ai_type: multimodal
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

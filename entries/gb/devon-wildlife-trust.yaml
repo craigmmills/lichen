@@ -1,0 +1,38 @@
+id: devon-wildlife-trust
+kind: organisation
+name: Devon Wildlife Trust
+scope: gb
+sector: ngo
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: gb
+scale: national
+status: active
+website: https://www.devonwildlifetrust.org
+summary: Wildlife charity and partner in the North Devon Biosphere birdsong project, which
+  identifies species from sound with AI.
+facts:
+- claim: Partner in the Birdsong project.
+  url: https://www.northdevonbiosphere.org.uk/birdsong.html
+  quote: Devon Wildlife Trust
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.devonwildlifetrust.org/
+  quote: Registered Charity no. 213224, Company number 733321, VAT no. 585 4735 01
+  fetched: 2026-10-30
+- claim: Manages more than 50 nature reserves, from heathlands to internationally important
+    Culm grassland.
+  url: https://www.devonwildlifetrust.org/our-work
+  quote: DWT manages more than 50 nature reserves for people and wildlife, from heathlands
+    to internationally important Culm grassland.
+  fetched: '2026-11-17'
+found_by:
+- checklist:4
+added_by: agent
+checked: *id001

@@ -1,0 +1,67 @@
+id: cinfonia
+kind: organisation
+name: CinfonIA
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+hq: unknown
+scale: national
+summary: AI research centre of the Universidad de los Andes and a partner in Project Guacamaya.
+facts:
+- claim: Microsoft names it as a Universidad de los Andes research centre that helped create
+    Project Guacamaya.
+  url: https://news.microsoft.com/source/latam/features/ia/amazonas-ia-selva-tropical-deforestacion/
+  quote: el Centro de Investigación CinfonIA de la Universidad de los Andes
+  fetched: '2026-10-31'
+- claim: Named in Microsoft’s release as the Universidad de los Andes centre in Project Guacamaya.
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: '2026-10-31'
+  quote: Project Guacamaya is a joint effort of the CinfonIA Research Center at Universidad
+    de los Andes
+- claim: Its director named three research areas for Guacamaya.
+  url: https://www.uniandes.edu.co/es/noticias/ingenieria/inteligencia-artificial-para-la-proteccion-del-amazonas
+  fetched: '2026-10-31'
+  quote: análisis de cámaras trampa, bioacústica y monitoreo de imágenes satelitales
+links:
+- type: run-by
+  to: universidad-de-los-andes
+  url: https://news.microsoft.com/source/latam/features/ia/amazonas-ia-selva-tropical-deforestacion/
+  quote: el Centro de Investigación CinfonIA de la Universidad de los Andes
+  fetched: '2026-10-31'
+- type: partners-with
+  to: project-guacamaya
+  url: https://news.microsoft.com/source/latam/features/ia/amazonas-ia-selva-tropical-deforestacion/
+  quote: incluido el Centro de Investigación CinfonIA de la Universidad de los Andes, el Instituto
+    Sinchi y Microsoft AI for Good Lab para crear el Proyecto Guacamaya
+  fetched: '2026-10-31'
+- type: partners-with
+  to: project-guacamaya
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: '2026-10-31'
+  quote: Project Guacamaya is a joint effort of the CinfonIA Research Center at Universidad
+    de los Andes
+- type: run-by
+  to: universidad-de-los-andes
+  url: https://www.uniandes.edu.co/es/noticias/ingenieria/inteligencia-artificial-para-la-proteccion-del-amazonas
+  fetched: '2026-10-31'
+  quote: Centro de Investigación y Formación en Inteligencia Artificial (CinfonIA) de la Universidad
+    de los Andes
+found_by:
+- checklist:3
+- link-from:project-guacamaya
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+countries:
+- co
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+also_known_as:
+- CinfonIA

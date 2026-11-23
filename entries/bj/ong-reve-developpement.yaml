@@ -1,0 +1,45 @@
+id: ong-reve-developpement
+kind: organisation
+name: ONG Rêve Développement
+also_known_as: []
+scope: bj
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: bj
+countries:
+- bj
+scale: national
+status: active
+summary: Non-profit working on natural resource conservation that publishes plant species
+  lists for Benin on GBIF, including a gallery forest management plans dataset mobilised in
+  a JRS Biodiversity Foundation project.
+facts:
+- claim: Non-profit NGO working on the conservation of natural resources.
+  url: https://api.gbif.org/v1/organization/4903a06b-38a2-4abc-a56a-3876c5eec91a
+  fetched: '2026-11-08'
+  quote: L'ONG Rêve Développement est une organisation non gouvernementale à caractère non
+    lucratif qui intervient dans la conservation des ressources naturelles
+- claim: Publishes on GBIF a list of plant species inventoried across Benin.
+  url: https://api.gbif.org/v1/organization/4903a06b-38a2-4abc-a56a-3876c5eec91a/publishedDataset?limit=15
+  fetched: '2026-11-08'
+  quote: List of plant species inventoried through Benin (West Africa)
+- claim: Published a species census for a directory of Benin's sacred forests, gallery forests,
+    savannas and other plant formations.
+  url: https://api.gbif.org/v1/organization/4903a06b-38a2-4abc-a56a-3876c5eec91a/publishedDataset?limit=15
+  fetched: '2026-11-08'
+  quote: Recensement des espèces en vue de l'élaboration du répertoire des forêts sacrées,
+    forêts galeries, savanes et autres formation floristique du Bénin.
+- claim: One dataset, on management plans for gallery forests in Ouémé-Plateau, was mobilised
+    in a JRS Biodiversity Foundation project in Benin.
+  url: https://api.gbif.org/v1/organization/4903a06b-38a2-4abc-a56a-3876c5eec91a/publishedDataset?limit=15
+  fetched: '2026-11-08'
+  quote: Data mobilized in the framework of a JRS Biodiversity Foundation project in Benin
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

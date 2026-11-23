@@ -1,0 +1,30 @@
+id: bearid-project
+kind: project
+name: BearID Project
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+website: https://bearresearch.org/
+summary: Project developing machine learning software to identify individual bears from face
+  recognition, for use with camera trap imagery.
+facts:
+- claim: Says it is developing software tools that identify bears, starting with face recognition.
+  url: https://bearresearch.org/
+  quote: we are developing software tools that can identify bears (Ursidae), starting with
+    individual ID using face recognition
+  fetched: '2026-10-30'
+- claim: BearID's research page describes deep learning.
+  url: https://bearresearch.org/
+  fetched: '2026-10-30'
+  quote: Deep learning is a form of machine learning, typically employing large neural networks
+  ai_type: deep-learning
+found_by:
+- link-from:hack-the-planet
+added_by: agent
+checked: '2026-10-30'

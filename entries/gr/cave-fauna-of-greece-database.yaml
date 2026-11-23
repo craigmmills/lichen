@@ -1,0 +1,46 @@
+id: cave-fauna-of-greece-database
+kind: dataset
+name: Cave Fauna of Greece database
+scope: gr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+website: https://database.inspee.gr/
+summary: A free online database run by the Hellenic Institute of Speleological Research, holding 8,880
+  records on more than 980 cave species and more than 780 caves across all 14 regions.
+facts:
+- claim: Holds data on more than 980 species and more than 780 caves from all 14 administrative regions,
+    with 8,880 records in total.
+  url: https://database.inspee.gr/statistics/
+  fetched: '2026-11-03'
+  quote: The census includes a total of 8,880 records.
+- claim: Crete is the most studied region, with 31% of the caves.
+  url: https://database.inspee.gr/statistics/
+  fetched: '2026-11-03'
+  quote: Kriti (Crete) is the most studied Region of Greece (31% of the caves).
+- claim: The institute's GBIF record describes it as a free online data infrastructure on the taxonomy,
+    distribution, conservation status and literature of all cave-dwelling animal species in Greece.
+  url: https://api.gbif.org/v1/organization/c8d8261f-c09e-4597-a8c0-96e22c72bf14
+  fetched: 2026-11-03
+  quote: a free online data infrastructure that provides reliable information on the taxonomy, distribution,
+    conservation status, and referenced literature for all cavernicolous animal species in Greece
+- claim: The database site carries the institute's name and lets users search fauna, caves and references.
+  url: https://database.inspee.gr/
+  fetched: 2026-11-03
+  quote: Hellenic Institute of Speleological Research
+links:
+- type: run-by
+  to: hellenic-institute-of-speleological-research
+  url: https://api.gbif.org/v1/organization/c8d8261f-c09e-4597-a8c0-96e22c72bf14
+  fetched: 2026-11-03
+  quote: It mentains the Cave Fauna of Greece Database
+found_by:
+- link-from:hellenic-institute-of-speleological-research
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-03'
+runner: unknown
+countries:
+- gr

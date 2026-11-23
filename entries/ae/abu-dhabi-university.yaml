@@ -1,0 +1,40 @@
+id: abu-dhabi-university
+kind: organisation
+name: Abu Dhabi University
+scope: ae
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: ae
+scale: national
+status: active
+ai_types:
+- deep-learning
+summary: University listed as affiliation of the first author of a 2019 IEEE Access paper on estimating
+  vegetation cover with convolutional neural networks, a deep learning method.
+facts:
+- claim: A 2019 IEEE Access paper on estimating vegetation cover with convolutional neural networks lists
+    its first author at the university’s Electrical and Computer Engineering Department.
+  url: https://api.openalex.org/works/W2973047971
+  fetched: '2026-11-08'
+  quote: Vegetation Cover Estimation Using Convolutional Neural Networks
+- claim: The paper's first author gives the Electrical and Computer Engineering Department, Abu Dhabi
+    University, as affiliation.
+  url: https://api.openalex.org/works/W2973047971
+  fetched: '2026-11-08'
+  quote: Electrical and Computer Engineering Department, Abu Dhabi University, Abu Dhabi, United Arab
+    Emirates
+- claim: The paper uses convolutional neural networks, a deep learning method.
+  url: https://api.openalex.org/works/W2973047971
+  fetched: '2026-11-08'
+  quote: Vegetation Cover Estimation Using Convolutional Neural Networks
+  ai_type: deep-learning
+found_by:
+- register:ae
+added_by: agent
+checked: '2026-11-08'

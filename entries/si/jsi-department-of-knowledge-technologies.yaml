@@ -1,0 +1,49 @@
+id: jsi-department-of-knowledge-technologies
+kind: organisation
+name: Department of Knowledge Technologies, Jožef Stefan Institute
+scope: si
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+hq: unknown
+countries:
+- si
+scale: national
+status: active
+summary: Slovenian research department whose affiliation appears on a 2022 Ecological
+  Modelling paper, listed by OpenAlex, presenting BEFANA, a network-analysis tool
+  for assessing biodiversity-ecosystem functioning.
+facts:
+- claim: OpenAlex lists a paper in Ecological Modelling presenting BEFANA, a tool
+    for biodiversity-ecosystem functioning assessment by network analysis.
+  url: https://api.openalex.org/works?filter=openalex_id:W4285792183&select=id,title,primary_location,authorships
+  fetched: '2026-11-13'
+  quote: 'BEFANA: A tool for biodiversity-ecosystem functioning assessment by network
+    analysis'
+- claim: OpenAlex gives the first author's affiliation as the Jožef Stefan Institute's
+    Department of Knowledge Technologies.
+  url: https://api.openalex.org/works?filter=openalex_id:W4285792183&select=id,title,primary_location,authorships
+  fetched: '2026-11-13'
+  quote: Jozef Stefan Institute, Department of Knowledge Technologies, University
+    of Ljubljana, Slovenia
+- claim: OpenAlex lists the paper among Jožef Stefan Institute works published from
+    2022 to 2026 in ecology and nature conservation, with 2022 as its year.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05060sz93,publication_year:2022-2026,primary_topic.subfield.id:2303|2309&per-page=50&select=id,title,publication_year
+  fetched: '2026-11-13'
+  quote: 'BEFANA: A tool for biodiversity-ecosystem functioning assessment by network
+    analysis'
+- claim: The Jožef Stefan Institute's home page reports research by its departments
+    (odseki) and gives the institute's address in Ljubljana.
+  url: https://ijs.si/ijsw
+  fetched: '2026-11-13'
+  quote: Institut "Jožef Stefan", Jamova cesta 39, 1000 Ljubljana, Slovenija
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-13'

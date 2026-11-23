@@ -1,0 +1,50 @@
+id: environmental-defense-fund
+kind: organisation
+name: Environmental Defense Fund
+also_known_as:
+- EDF
+scope: us
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://www.edf.org
+summary: US environmental NGO with more than 3 million members. Developed SmartPass, using
+  shore cameras and AI to count fishing vessels.
+facts:
+- claim: More than 3 million members.
+  url: https://www.edf.org/media/edf-launches-smartpass-initiative-help-manage-ocean-fishing
+  fetched: '2026-10-30'
+  quote: With more than 3 million members, Environmental Defense Fund creates transformational
+    solutions
+- claim: Listed as an Earth Fire Alliance partner.
+  url: https://www.earthfirealliance.org/partners
+  fetched: '2026-10-30'
+  quote: Environmental Defense Fund
+links:
+- type: runs
+  to: smartpass
+  url: https://www.edf.org/media/edf-launches-smartpass-initiative-help-manage-ocean-fishing
+  fetched: '2026-10-30'
+  quote: EDF Launches SmartPass Initiative to Help Manage Ocean Fishing
+- type: partners-with
+  to: earth-fire-alliance
+  url: https://www.earthfirealliance.org/partners
+  fetched: '2026-10-30'
+  quote: Environmental Defense Fund
+found_by:
+- checklist:4
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us

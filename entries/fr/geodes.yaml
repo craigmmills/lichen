@@ -1,0 +1,43 @@
+id: geodes
+kind: programme
+name: GEODES
+scope: fr
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+website: https://geodes.cnes.fr/
+summary: The CNES portal for Earth observation space data, run by the French space
+  agency, whose environment catalogue lists a service for near real-time tracking
+  of tropical deforestation.
+facts:
+- claim: The CNES portal for Earth observation space data serving science and innovation.
+  url: https://geodes.cnes.fr/
+  fetched: '2026-11-07'
+  quote: Bienvenue sur le portail des données spatiales Observation de la Terre du
+    CNES au service de la Science et de l’Innovation !
+- claim: Its environment and biodiversity catalogue lists a service for near real-time
+    tracking of tropical deforestation.
+  url: https://geodes.cnes.fr/services/environnement-et-biodiversite/
+  fetched: '2026-11-07'
+  quote: Suivre la déforestation tropicale en temps quasi réel. TropiSCO est une plateforme
+    qui suit la déforestation tropicale en temps quasi réel.
+links:
+- type: run-by
+  to: centre-national-detudes-spatiales
+  url: https://geodes.cnes.fr/
+  fetched: '2026-11-07'
+  quote: Bienvenue sur le portail des données spatiales Observation de la Terre du
+    CNES au service de la Science et de l’Innovation !
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

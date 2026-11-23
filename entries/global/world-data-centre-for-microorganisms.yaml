@@ -1,0 +1,31 @@
+id: world-data-centre-for-microorganisms
+kind: dataset
+name: World Data Centre for Microorganisms
+also_known_as:
+- WDCM
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+status: active
+website: http://www.wdcm.org/
+summary: Data centre for the World Federation for Culture Collections, giving a view of culture collections and their holdings.
+facts:
+- claim: Provides a view of culture collections and their holdings.
+  url: https://api.gbif.org/v1/organization/8273e420-46f3-11d8-aa2e-b8a03c50a862
+  fetched: '2026-10-30'
+  quote: WDCM provides a comprehensive view on culture collections and their holdings
+links:
+- type: run-by
+  to: world-federation-for-culture-collections
+  url: https://api.gbif.org/v1/organization/8273e420-46f3-11d8-aa2e-b8a03c50a862
+  fetched: '2026-10-30'
+  quote: The WDCM is now the data center for the WFCC
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

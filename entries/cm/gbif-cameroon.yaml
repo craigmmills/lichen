@@ -1,0 +1,71 @@
+id: gbif-cameroon
+kind: programme
+name: GBIF Cameroon
+scope: cm
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- cm
+status: active
+summary: Cameroon's associate participant node in GBIF, with an address in Yaoundé, which is also registered
+  as a data publisher with two published datasets.
+facts:
+- claim: The GBIF registry lists GBIF Cameroon as an associate participant node.
+  url: https://api.gbif.org/v1/node/country/CM
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Cameroon"'
+- claim: The registry gives its address in Yaoundé.
+  url: https://api.gbif.org/v1/node/country/CM
+  fetched: 2026-11-08
+  quote: '"address":["BP 1601\nYaoundé\nCameroon"]'
+- claim: GBIF's node registry lists GBIF Cameroon as a country node with associate participation status.
+  url: https://api.gbif.org/v1/node/cfe0cad9-2bf4-4d16-ae33-c3dfb0da1ed9
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Cameroon","participantTitle":"Cameroon"'
+- claim: The registry gives the node's address as BP 1601, Yaoundé.
+  url: https://api.gbif.org/v1/node/cfe0cad9-2bf4-4d16-ae33-c3dfb0da1ed9
+  fetched: 2026-11-08
+  quote: '"address":["BP 1601\nYaoundé\nCameroon"]'
+- claim: GBIF's registry lists GBIF Cameroon as a country node for the participant Cameroon, with associate
+    participation status.
+  url: https://api.gbif.org/v1/node/cfe0cad9-2bf4-4d16-ae33-c3dfb0da1ed9
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+- claim: The node record gives a postal address in Yaoundé.
+  url: https://api.gbif.org/v1/node/cfe0cad9-2bf4-4d16-ae33-c3dfb0da1ed9
+  fetched: 2026-11-08
+  quote: BP 1601\nYaoundé\nCameroon
+- claim: GBIF Cameroon is also registered as a data publisher, with two published datasets.
+  url: https://api.gbif.org/v1/organization/14c9828d-3f1f-4be2-8598-cd0861d69081
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Cameroon","language":"eng"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/CM
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Cameroon"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/cfe0cad9-2bf4-4d16-ae33-c3dfb0da1ed9
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/cfe0cad9-2bf4-4d16-ae33-c3dfb0da1ed9
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Cameroon","participantTitle":"Cameroon"'
+runner: unknown
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+- register:cm
+added_by: agent
+checked: 2026-11-08
+hq: cm
+roles:
+- supplies-data

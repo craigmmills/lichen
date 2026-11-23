@@ -1,0 +1,85 @@
+id: earthranger
+kind: programme
+name: EarthRanger
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- other
+status: active
+website: https://www.earthranger.com
+summary: Software platform from Ai2 that brings field reports, sensors and tracking data together so that protected area managers can see wildlife and teams in real time. It now sits within the SMART-EarthRanger Conservation Alliance.
+countries:
+- ke
+- za
+facts:
+- claim: Used across more than 900 protected areas in 95 countries, according to Ai2.
+  url: https://allenai.org/blog/earth-day-2026
+  fetched: &id001 2026-10-30
+  quote: across more than 900 protected areas in 95 countries
+- claim: Now part of the SMART-EarthRanger Conservation Alliance.
+  url: https://www.earthranger.com/
+  fetched: *id001
+  quote: EarthRanger is now part of the SMART–EarthRanger Conservation Alliance (SERCA)
+links:
+- type: run-by
+  to: allen-institute-for-ai
+  url: https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/25320/The-SMART-Partnership-and-EarthRanger-Announce-New-Global-Alliance-to-Transform-Conservation.aspx
+  fetched: *id001
+  quote: EarthRanger , a product of Ai2
+- type: partners-with
+  to: frankfurt-zoological-society
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Frankfurt Zoological Society is an international conservation organisation'
+- type: partners-with
+  to: save-the-elephants
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Save the Elephants (STE) works to secure a future for elephants.'
+- type: partners-with
+  to: smart-partnership
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'The SMART Partnership is a coalition of conservation organizations'
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'WCS has been a key partner from EarthRanger''s beginning'
+- type: partners-with
+  to: esri
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Esri and EarthRanger share a common vision'
+- type: partners-with
+  to: microsoft
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Microsoft'
+- type: partners-with
+  to: connected-conservation-foundation
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Connected Conservation is a critical EarthRanger partner'
+- type: partners-with
+  to: conservation-international
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Conservation International-GEF Project Agency'
+- type: partners-with
+  to: movebank
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'EarthRanger and Movebank are partnering'
+- type: partners-with
+  to: global-environment-facility
+  url: https://www.earthranger.com/partners
+  fetched: 2026-10-30
+  quote: 'Conservation International-GEF Project Agency'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

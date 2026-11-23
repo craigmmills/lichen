@@ -1,0 +1,52 @@
+id: influences-project-burkina-faso
+kind: project
+name: INFLUENCES project
+scope: bf
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bf
+status: active
+summary: ANR-funded project, started March 2023, studying soil and vegetation regeneration
+  in Burkina Faso; random forest classification of Pléiades images from 2013-14 and
+  2021 mapped tree cover, grass and bare soil on 64 northern plots.
+facts:
+- claim: The abstract says the INFLUENCES project, funded by the ANR, started in March
+    2023 to study the changes brought by soil and vegetation regeneration programmes
+    in Burkina Faso.
+  url: https://ica-abs.copernicus.org/articles/10/87/2025/ica-abs-10-87-2025.pdf
+  fetched: '2026-11-12'
+  quote: the INFLUENCES project (funded by the ANR) started in March 2023
+- claim: For each protected plot it runs an object-oriented supervised classification
+    with the random forest algorithm to map tree cover, grass cover and bare soil.
+  url: https://ica-abs.copernicus.org/articles/10/87/2025/ica-abs-10-87-2025.pdf
+  fetched: '2026-11-12'
+  quote: supervised classification is performed using the random forest algorithm
+  ai_type: ml-supervised
+- claim: The analysis used Pléiades images from 2013-14 and 2021 over 64 protected
+    plots in northern Burkina Faso.
+  url: https://ica-abs.copernicus.org/articles/10/87/2025/ica-abs-10-87-2025.pdf
+  fetched: '2026-11-12'
+  quote: quantifying changes in vegetation cover in 64 MEDs in northern Burkina Faso
+- claim: The abstract says the project will continue with a similar analysis in four
+    villages of the southern zone.
+  url: https://ica-abs.copernicus.org/articles/10/87/2025/ica-abs-10-87-2025.pdf
+  fetched: '2026-11-12'
+  quote: The INFLUENCES project will continue with a similar analysis in the protected
+    areas of the southern zone
+links:
+- type: funded-by
+  to: agence-nationale-de-la-recherche
+  url: https://ica-abs.copernicus.org/articles/10/87/2025/ica-abs-10-87-2025.pdf
+  fetched: '2026-11-12'
+  quote: The authors thank ANR for the funding of this research.
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

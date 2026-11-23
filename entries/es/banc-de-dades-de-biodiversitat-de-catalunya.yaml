@@ -1,0 +1,35 @@
+id: banc-de-dades-de-biodiversitat-de-catalunya
+kind: dataset
+name: Banc de Dades de Biodiversitat de Catalunya
+scope: es
+also_known_as:
+- Biocat
+- BIOCAT
+- Banco de datos de biodiversidad de Cataluña
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: http://biodiver.bio.ub.es/biocat/homepage.html
+runner: unknown
+summary: Biodiversity data bank of Catalonia, hosted at the University of Barcelona
+  and registered as a GBIF publisher.
+facts:
+- claim: Registered with GBIF, with its address in Barcelona.
+  url: https://api.gbif.org/v1/organization/7b4f2f30-a456-11d9-8049-b8a03c50a862
+  fetched: '2026-10-31'
+  quote: Banc de dades de biodiversitat de Catalunya
+- claim: Its site is titled Banc de Dades de Biodiversitat de Catalunya.
+  url: http://biodiver.bio.ub.es/biocat/homepage.html
+  fetched: '2026-10-31'
+  quote: Banc de Dades de Biodiversitat de Catalunya
+- claim: FloraCat records observations of vascular plants in the specialist literature
+    for Catalonia.
+  url: https://api.gbif.org/v1/organization/7b4f2f30-a456-11d9-8049-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: FloraCat es un banco de datos que recoge las observaciones sobre Cormófitos
+found_by:
+- link-from:gbif-spain
+- register:es
+added_by: agent
+checked: '2026-10-31'

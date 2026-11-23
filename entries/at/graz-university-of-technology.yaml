@@ -1,0 +1,28 @@
+id: graz-university-of-technology
+kind: organisation
+name: Graz University of Technology
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: University whose researcher Thomas Pock is listed among the authors of a 2023 paper
+  on deep learning tools for mapping and monitoring biological soil crusts.
+facts:
+- claim: A 2023 paper on deep learning tools to map and monitor biological soil crusts lists
+    Thomas Pock of Graz University of Technology among its authors.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4092182,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Utilization of deep learning tools to map and monitor biological soil crusts
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,73 @@
+id: iq-wasser
+kind: project
+name: IQ-Wasser
+ai_label: ai
+realms:
+- freshwater
+status: active
+countries:
+- de
+summary: BiodivKI project on methods for forecasting biodiversity and water quality in reservoirs.
+facts:
+- claim: Named by Projektträger Jülich among the nine BiodivKI consortia.
+  url: https://www.ptj.de/veroeffentlichungen/aktuelles/kuenstliche-itelligenz-fuer-die-artenvielfalt-gefoerderte-forschungsprojekte-starten
+  quote: IQ-Wasser erforscht Methoden zur Prognose der Biodiversität und Wasserqualität in
+    Reservoirs.
+  fetched: '2026-10-31'
+- claim: Links molecular methods with AI.
+  url: https://www.feda.bio/de/forschung/biodivki/iq-wasser/
+  fetched: '2026-10-31'
+  quote: Ziel des Projekts IQ-Wasser ist die Verknüpfung neuer molekularbiologischer Methoden
+    wie eDNA-, Metabarcoding- und Metagenom-Analysen mit der Nutzung von KI-Verfahren
+- claim: Uses AI methods to detect changes in water quality earlier and to forecast them,
+    in drinking water reservoirs.
+  url: https://www.fona.de/medien/pdf/PSB_FONA_BiodivKI_final.pdf
+  fetched: '2026-10-31'
+  quote: Im Projekt IQ-Wasser sollen durch den Einsatz von KI-Verfahren Veränderungen der
+    Wasserqualität früher erkannt und Prognosen ermöglicht werden.
+- claim: Listed with a funding period of 1 November 2023 to the end of October 2024 under
+    the BiodivKI funding measure.
+  url: https://www.fona.de/medien/pdf/PSB_FONA_BiodivKI_final.pdf
+  fetched: '2026-10-31'
+  quote: Projektlaufzeit 01.11.2023 bis 31.10.2024
+links:
+- type: funded-by
+  to: biodivki
+  url: https://www.ptj.de/veroeffentlichungen/aktuelles/kuenstliche-itelligenz-fuer-die-artenvielfalt-gefoerderte-forschungsprojekte-starten
+  quote: IQ-Wasser erforscht Methoden zur Prognose der Biodiversität und Wasserqualität in
+    Reservoirs.
+  fetched: '2026-10-31'
+- type: funded-by
+  to: biodivki
+  url: https://www.feda.bio/de/forschung/biodivki/
+  fetched: '2026-10-31'
+  quote: IQ-Wasser | KI-gestützte Erfassung und Prognose der Biodiversität und Wasserqualität
+    in Trinkwasser-Reservoiren
+- type: run-by
+  to: dvgw-deutscher-verein-des-gas-und-wasserfaches
+  url: https://www.fona.de/medien/pdf/PSB_FONA_BiodivKI_final.pdf
+  fetched: '2026-10-31'
+  quote: Verbundkoordination/Projektleitung DVGW Deutscher Verein des Gas- und Wasserfaches
+    e.V. - Technisch-wissenschaftlicher Verein Prof. Dr. Andreas Tiehm
+- type: funded-by
+  to: federal-ministry-of-research-technology-and-space
+  url: https://www.fona.de/medien/pdf/PSB_FONA_BiodivKI_final.pdf
+  fetched: '2026-10-31'
+  quote: Mit der Fördermaßnahme zum Thema „Methoden der Künstlichen Intelligenz als Instrument
+    der Biodiversitäts- forschung“ (BiodivKI) verfolgt das BMBF das Ziel
+- type: funded-by
+  to: biodivki
+  url: https://www.fona.de/medien/pdf/PSB_FONA_BiodivKI_final.pdf
+  fetched: '2026-10-31'
+  quote: Mit der Fördermaßnahme zum Thema „Methoden der Künstlichen Intelligenz als Instrument
+    der Biodiversitäts- forschung“ (BiodivKI) verfolgt das BMBF das Ziel
+runner: unknown
+found_by:
+- link-from:biodivki
+- checklist:7
+scope: de
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- edna-genomics
+- other

@@ -1,0 +1,30 @@
+id: china-wetlands-dataset
+kind: dataset
+name: China_Wetlands
+scope: cn
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+scale: national
+status: active
+countries:
+- cn
+summary: A 30 metre national dataset of wetland distribution in China, built by the
+  Northeast Institute of Geography and Agroecology from more than 53,000 Landsat scenes.
+facts:
+- claim: Built from more than 53,000 Landsat scenes at 30 metre resolution.
+  url: https://neigae.cas.cn/news/cmsm/202502/t20250227_7535552.html
+  fetched: '2026-10-31'
+  quote: 进一步分析5.3万余景Landsat系列遥感影像，构建了30米空间分辨率的中国国家尺度湿地空间分布数据集(China_Wetlands)
+links:
+- type: run-by
+  to: northeast-institute-of-geography-and-agroecology
+  url: https://neigae.cas.cn/news/cmsm/202502/t20250227_7535552.html
+  fetched: '2026-10-31'
+  quote: 该所构建了高精度、长时序中国湿地空间分布数据集
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

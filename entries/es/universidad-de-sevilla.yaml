@@ -1,0 +1,39 @@
+id: universidad-de-sevilla
+kind: organisation
+name: Universidad de Sevilla
+also_known_as:
+- University of Seville
+scope: es
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+hq: unknown
+scale: national
+status: active
+summary: Spanish university whose Department of Statistics and Operations Research is the
+  first author's affiliation on a 2023 paper on re-identifying individual undulate skates
+  with few-shot deep learning.
+facts:
+- claim: Nuria Gómez-Vargas is first author of a 2023 paper on re-identifying individual undulate
+    skates with deep learning in a few-shot setting.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I79238269,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: Re-identification of fish individuals of undulate skate via deep learning within
+    a few-shot context
+  ai_type: deep-learning
+- claim: The first author's affiliation is the university's Department of Statistics and Operations
+    Research.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I79238269,primary_topic.subfield.id:1105|2303|2309,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2023-01-01&per-page=25
+  fetched: '2026-11-08'
+  quote: University of Seville, Department of Statistics and Operations Research
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

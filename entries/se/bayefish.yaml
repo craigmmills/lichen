@@ -1,0 +1,44 @@
+id: bayefish
+kind: project
+name: BAYeFISH
+also_known_as:
+- Hierarkisk Bayesiansk modellering för optimering av noggrannhet och effektivitet i elfiskeundersökningar
+scope: se
+ai_label: data-infrastructure
+realms:
+- freshwater
+status: active
+runner: unknown
+summary: Project, led by Rebecca Whitlock, to build a hierarchical Bayesian model for electrofishing
+  data and a Shiny web tool, funded by the Swedish Environmental Protection Agency for March
+  2025 to February 2028.
+facts:
+- claim: Will develop a hierarchical Bayesian model for electrofishing data, using quantitative
+    surveys to strengthen estimates from simple qualitative ones.
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: Projektet BAYeFISH ska utveckla en hierarkisk Bayesiansk modell för elfiskedata som
+    nyttjar data från kvantitativa fisken för att stärka skattningar från enkla kvalitativa
+    fisken.
+- claim: A user-friendly interactive web tool (Shiny app) is to be built so others can use
+    the model.
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: Ett användarvänligt interaktivt webbverktyg (Shiny-app) ska tas fram
+- claim: Funded in the Framtidens miljöövervakning research programme, which funds eight projects
+    from March 2025 to February 2028.
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: Åtta projekt finansieras under perioden mars 2025 - februari 2028.
+links:
+- type: funded-by
+  to: swedish-environmental-protection-agency
+  url: https://www.naturvardsverket.se/om-miljoarbetet/forskning/miljoforskning/forskningssatsningar-samhalle/framtidens-miljoovervakning/
+  fetched: '2026-11-08'
+  quote: 'Finansiering
+
+    Naturvårdsverkets miljöforskningsanslag'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

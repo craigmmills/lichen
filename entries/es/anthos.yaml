@@ -1,0 +1,41 @@
+id: anthos
+kind: dataset
+name: Anthos
+scope: es
+ai_label: data-infrastructure
+status: active
+also_known_as:
+- Sistema de Información de las Plantas de España
+realms:
+- land
+website: http://www.anthos.es/
+summary: Information system on the plants of Spain, built from distribution data extracted
+  from the literature at the Real Jardín Botánico.
+facts:
+- claim: Grew from a project to extract plant distribution data from the literature,
+    continued through the ANTHOS programme from 1999.
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: se continuó el trabajo a través del programa ANTHOS
+- claim: Published on GBIF as the information system for the plants of Spain.
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: CSIC-Real Jardín Botánico-Anthos. Sistema de Información de las Plantas de
+    España
+links:
+- type: run-by
+  to: real-jardin-botanico-csic
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: El Real Jardín Botánico ha desarrollado y mantenido diversas bases de datos
+    sobre las plantas de la Península Ibérica
+- type: funded-by
+  to: fundacion-biodiversidad
+  url: https://api.gbif.org/v1/organization/0363cbd4-f666-455e-8e86-0bbddcf51950/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: financiado por la Fundación Biodiversidad
+found_by:
+- register:es
+- link-from:real-jardin-botanico
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,61 @@
+id: vnu-university-of-science
+kind: organisation
+name: VNU University of Science
+also_known_as:
+- University of Science
+- University of Science, Vietnam National University Hanoi
+scope: vn
+sector: academic
+roles:
+- unknown
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: vn
+countries:
+- vn
+scale: national
+status: active
+summary: University whose author, Tien Dat Pham, is listed in OpenAlex as first author of
+  a 2020 paper comparing machine learning methods for mangrove above-ground biomass estimation
+  in the Red River Delta.
+facts:
+- claim: OpenAlex lists a 2020 paper, first author Tien Dat Pham of VNU University of Science,
+    comparing machine learning methods for estimating mangrove above-ground biomass from remote
+    sensing data in the Red River Delta Biosphere Reserve.
+  url: https://api.openalex.org/works/W3020552235?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Comparison of Machine Learning Methods for Estimating Mangrove Above-Ground Biomass
+    Using Multiple Source Remote Sensing Data in the Red River Delta Biosphere Reserve, Vietnam
+- claim: The OpenAlex record gives the first author's affiliation as VNU University of Science,
+    Hanoi.
+  url: https://api.openalex.org/works/W3020552235?select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Faculty of Chemistry, VNU University of Science, Vietnam National University, Hanoi,
+    19 Le Thanh Tong, Hoan Kiem, Hanoi 100000, Vietnam
+- claim: OpenAlex lists an author at VNU University of Science as first author of the paper
+    titled "Comparison of Machine Learning Methods for Estimating Mangrove Above-Ground Biomass
+    Using Multiple Source Remote Sensing Data in the Red River Delta Biosphere Reserve, Vietnam".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02wsd5p50|00waaqh38|04nyv3z04|02jmfj006|02wdwrr89|01drq0835|05ezss144|04qva2324|0071qz696|05jfbgm49|03t0zs859|05w54hk79|00qaa6j11|04r9s1v23|03mj71j26|03ecpp171|05hzn5427|03anxx281|0360g3z42|03dth0f39|04wgyjv21|03esj4g97|02ryrf141|019sx5d52|02128gy91|010y5b925|05hhz4s12|00tean533|05xpj2n48,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: Comparison of Machine Learning Methods for Estimating Mangrove Above-Ground Biomass
+    Using Multiple Source Remote Sensing Data in the Red River Delta Biosphere Reserve, Vietnam
+- claim: GBIF's publisher record says the Faculty of Biology's academic staff deposited most
+    specimens from their studies of Vietnam's fauna and flora in the faculty's Biological
+    Museum.
+  url: https://api.gbif.org/v1/organization/26436826-4777-475c-b087-c5280cf704fe
+  fetched: 2026-11-08
+  quote: Its academic staff has published numerous studies on the fauna and flora of Vietnam,
+    and deposited most specimens in these studies in its Biological Museum of the Faculty
+    of Biology.
+links: []
+found_by:
+- checklist:3
+- register:vn
+added_by: agent
+checked: 2026-11-08

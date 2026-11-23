@@ -1,0 +1,72 @@
+id: joanneum-research
+kind: organisation
+name: JOANNEUM RESEARCH Forschungsgesellschaft mbH
+also_known_as:
+- JOANNEUM RESEARCH
+scope: at
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Research company with over 500 staff across six sites that coordinated DeerAI, partnered
+  in RestorEO and derives satellite monitoring schemes, with a Sentinel-2 toolbox developed
+  for MeadowTypes.
+facts:
+- claim: 'OpenAlex lists a 2025 preprint, Habitat and Land Cover Change Detection in Alpine
+    Protected Areas: A Comparison of AI Architectures, whose last author Manuela Hirschmugl
+    is affiliated with Joanneum Research.'
+  url: https://api.openalex.org/works/W4415935395?select=id,display_name,publication_year,type,authorships
+  fetched: 2026-11-07
+  quote: '"display_name":"Manuela Hirschmugl","orcid":"https://orcid.org/0000-0002-5224-0992","observed_orcids":["https://orcid.org/0000-0002-5224-0992"]},"institutions":[{"id":"https://openalex.org/I13402291","display_name":"Joanneum
+    Research"'
+- claim: Title of the 2025 preprint on AI change detection in alpine protected areas.
+  url: https://api.openalex.org/works/W4415935395?select=id,display_name,publication_year,type,authorships
+  fetched: 2026-11-07
+  quote: 'Habitat and Land Cover Change Detection in Alpine Protected Areas: A Comparison
+    of AI Architectures'
+- claim: Has over 500 staff at six sites and forms a research axis with the provinces of Styria,
+    Carinthia and Burgenland.
+  url: https://www.joanneum.at/
+  fetched: 2026-11-07
+  quote: Mit über 500 Mitarbeitenden an sechs Standorten bilden wir mit den Ländern Steiermark,
+    Kärnten und Burgenland eine starke und hochinnovative Forschungsachse Süd.
+- claim: Derives monitoring systems and classification schemes from satellite images as a
+    basis for protecting ecosystems and restoring biodiversity.
+  url: https://www.joanneum.at/fernerkundung-und-ki-biodiversitaet-von-oben-betrachtet/
+  fetched: 2026-11-07
+  quote: Die JOANNEUM RESEARCH leitet daraus Monitoringsysteme und Klassifikationsschemata
+    ab. Diese dienen als Grundlage, um Ökosysteme zu schützen beziehungsweise die Biodiversität
+    wiederherzustellen.
+- claim: In the MeadowTypes project, meadow types are classified with a machine learning model
+    using spectral information from satellite data.
+  url: https://www.joanneum.at/fernerkundung-und-ki-biodiversitaet-von-oben-betrachtet/
+  fetched: 2026-11-07
+  quote: Die eigentliche Klassifizierung basiert auf einem Modell des maschinellen Lernens,
+    das spektrale Informationen aus den Satellitendaten nutzt
+- claim: Its experts developed a software toolbox to process Sentinel-2 data for the classification.
+  url: https://www.joanneum.at/fernerkundung-und-ki-biodiversitaet-von-oben-betrachtet/
+  fetched: 2026-11-07
+  quote: Um die Klassifizierung zu automatisieren und zu vereinfachen, haben die Expert*innen
+    eine spezielle Software-Toolbox entwickelt.
+links:
+- type: partners-with
+  to: restoreo
+  url: https://www.joanneum.at/fernerkundung-und-ki-biodiversitaet-von-oben-betrachtet/
+  fetched: 2026-11-07
+  quote: In Kooperation mit dem Umweltbundesamt, der Universität Graz und dem Institut E.C.O.
+    wird hier ein Monitoringsystem entwickelt
+found_by:
+- checklist:5
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-07

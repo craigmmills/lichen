@@ -1,0 +1,76 @@
+id: animal-flight-group
+kind: organisation
+name: Animal Flight Group (University of Haifa)
+scope: il
+sector: academic
+roles:
+- builds-ai
+- unknown
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+- remote-sensing
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+website: https://animalflight.haifa.ac.il/
+summary: Active University of Haifa research group that published a fully automated deep-learning
+  algorithm to identify, count and map breeding seabirds, with university-linked papers on
+  bat and bird radar detection.
+facts:
+- claim: A research group in the University of Haifa's Department of Evolutionary and Environmental
+    Biology.
+  url: https://animalflight.haifa.ac.il/
+  fetched: '2026-11-08'
+  quote: We are a research group at the Department of Evolutionary and Environmental Biology
+    at the University of Haifa.
+- claim: Published a fully automated deep-learning algorithm to identify, count and map breeding
+    seabirds.
+  url: https://animalflight.haifa.ac.il/?p=2802
+  fetched: '2026-11-08'
+  quote: we developed a fully automated deep-learning-based algorithm to identify, count,
+    and map breeding seabirds
+  ai_type: deep-learning
+- claim: AI4Biodiversity's principal investigators are in University of Haifa departments.
+  url: https://ai4biodiversity.haifa.ac.il/team/
+  fetched: '2026-11-08'
+  quote: Prof. Dan Malkinson, Project's PI. Department of Geography and Environmental Studies,
+    University of Haifa.
+- claim: Schmidt Marine lists the University of Haifa among current ocean observing partners,
+    developing Sea-Thru.
+  url: https://schmidtmarine.org/ocean-monitoring/
+  fetched: 2026-11-08
+  quote: University of Haifa Haifa, Israel Developing Sea-Thru, a lidar-based platform to
+    image real colors underwater in real-time
+- claim: An IOLR scientist's page names the university's Charney School of Marine Sciences.
+  url: https://www.ocean.org.il/gil-rilov/
+  fetched: 2026-11-08
+  quote: the Marine Biology Department at the Charney School of Marine Sciences at the University
+    of Haifa
+- claim: A 2023 paper whose first author is affiliated with the University of Haifa presents
+    BATScan, a radar classification tool revealing large-scale bat migration patterns.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02f009v59,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'BATScan: A radar classification tool reveals large'
+- claim: A 2023 paper whose first author is affiliated with the University of Haifa concerns
+    automatic detection of migrating soaring bird flocks using weather radars and deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02f009v59,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Automatic detection of migrating soaring bird flocks using weather radars by deep
+    learning
+  ai_type: deep-learning
+links: []
+found_by:
+- checklist:3
+- link-from:schmidt-marine-technology-partners
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'

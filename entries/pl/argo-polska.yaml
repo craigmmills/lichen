@@ -1,0 +1,34 @@
+id: argo-polska
+kind: programme
+name: Argo Polska
+scope: pl
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- pl
+status: active
+website: https://ecp.iopan.pl/hydrodynamics/po/Argo/argo_pl.html
+summary: Programme run by the Institute of Oceanology, described as Poland's component of the global Argo
+  float network for in situ ocean observation.
+facts:
+- claim: Described as a component of the global network of in situ ocean observation based on Argo floats.
+  url: https://ecp.iopan.pl/hydrodynamics/po/Argo/argo_pl.html
+  fetched: '2026-11-02'
+  quote: Argo Polska jest komponentem globalnej sieci obserwacji in situ oceanu światowego bazującej na
+    autonomicznych pływakach ARGO.
+- claim: The institute represents Poland in Argo.
+  url: https://ecp.iopan.pl/hydrodynamics/po/Argo/argo_pl.html
+  fetched: '2026-11-02'
+  quote: Instytut Oceanologii Polskiej Akademii Nauk (IO PAN) reprezentuje Polskę w międzynarodowym programie
+    Argo.
+links:
+- type: run-by
+  to: institute-of-oceanology-polish-academy-of-sciences
+  url: https://ecp.iopan.pl/hydrodynamics/po/Argo/argo_pl.html
+  fetched: '2026-11-02'
+  quote: Instytut Oceanologii PAN - koordynator
+found_by:
+- link-from:institute-of-oceanology-pas
+added_by: agent
+checked: '2026-11-02'

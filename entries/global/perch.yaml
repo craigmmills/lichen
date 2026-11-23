@@ -1,0 +1,68 @@
+id: perch
+kind: model
+name: Perch
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+- foundation-models
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: Open bioacoustics model from Google that identifies species from audio; version 2.0 covers birds, mammals, amphibians and sound from coral reefs and can be adapted to new species and habitats.
+facts:
+- claim: Version 2.0 is released as an open model on Kaggle.
+  url: https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/
+  fetched: &id001 2026-10-30
+  quote: we’re releasing this new version of Perch as an open model and making it available on Kaggle
+- claim: The first version has been downloaded over 250,000 times since 2023.
+  url: https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/
+  fetched: *id001
+  quote: Since it was first launched in 2023, the initial version of Perch has already been downloaded over 250,000 times
+- claim: Helped the University of Hawaiʻi LOHE lab find honeycreeper sounds nearly 50 times faster.
+  url: https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/
+  fetched: *id001
+  quote: Perch helped the LOHE Lab find honeycreeper sounds nearly 50x faster than their usual methods
+- claim: Its vector search library is part of Cornell's BirdNet Analyzer.
+  url: https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/
+  fetched: *id001
+  quote: Perch’s vector search library is now part of Cornell's widely-used BirdNet Analyzer
+- claim: "Perch 2.0 was trained in supervised fashion."
+  url: https://arxiv.org/abs/2508.04665
+  fetched: 2026-10-30
+  quote: "It was trained in supervised fashion"
+  ai_type: ml-supervised
+- claim: "Perch 2.0's embedding model is a convolutional residual network."
+  url: https://arxiv.org/html/2508.04665v1
+  fetched: 2026-10-30
+  quote: "a convolutional residual network"
+  ai_type: deep-learning
+- claim: "Google DeepMind says Perch 2.0 is available as a foundational model."
+  url: "https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/"
+  fetched: "2026-10-31"
+  quote: "is also available as a foundational model"
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: google-deepmind
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: *id001
+  quote: we recently released Perch 2.0 - an update to our animal vocalization classifier
+- type: partners-with
+  to: cornell-lab-of-ornithology
+  url: https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/
+  fetched: *id001
+  quote: "We also thank our collaborators Amanda Navine and Pat Hart at the University of Hawaiʻi, and Holger Klinck, Stefan Kahl and the BirdNet team at the Cornell Lab of Ornithology."
+- type: builds-on
+  to: forest-listeners
+  url: https://blog.google/company-news/outreach-and-initiatives/arts-culture/forest-listeners/
+  fetched: 2026-10-30
+  quote: "These contributions are helping to fine tune Perch , an AI model from Google DeepMind"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

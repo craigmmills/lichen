@@ -1,0 +1,47 @@
+id: korean-bioresource-information-system
+kind: dataset
+name: Korean Bioresource Information System
+also_known_as:
+- KOBIS
+ai_label: data-infrastructure
+realms:
+- land
+summary: Dataset run and built by the Korean Bioinformation Center, which collects, processes, analyses
+  and distributes bioresources data.
+facts:
+- claim: Maintained by KOBIC, which collects, processes, analyses and distributes bioresources data.
+  url: https://www.cbd-chm.go.kr/eng/content/view.do;jsessionid=E661405CE732EC136873B64EAB73896B?contentKey=286&menuKey=1086
+  fetched: '2026-11-02'
+  quote: Other tasks include the collection, processing, analysis, statistical representation and distribution
+    of bioresources data from home and abroad.
+- claim: A 2018 abstract gives its holdings and the number of collaborating institutions.
+  url: https://biss.pensoft.net/article_preview.php?id=26286
+  fetched: 2026-11-02
+  quote: KOBIS contains more than 109,000 species and 12.1 million occurrence records from 107 collaborating
+    institutions from four ministries.
+links:
+- type: run-by
+  to: korean-bioinformation-center
+  url: https://www.cbd-chm.go.kr/eng/content/view.do;jsessionid=E661405CE732EC136873B64EAB73896B?contentKey=286&menuKey=1086
+  fetched: '2026-11-02'
+  quote: KOBIC is responsible for maintaining the Korean Bioresource Information System (KOBIS)
+- type: built-by
+  to: korean-bioinformation-center
+  url: https://biss.pensoft.net/article_preview.php?id=26286
+  fetched: &id001 2026-11-02
+  quote: KOBIC has undertaken the mission to collect and integrate the scattered biological data in Korea.
+    We first made a biological data format for exchanging data between government agencies. After that,
+    the Korean Bio-resource Information System (KOBIS) has been developed.
+- type: run-by
+  to: korean-bioinformation-center
+  url: https://biss.pensoft.net/article_preview.php?id=26286
+  fetched: *id001
+  quote: We will continue to focus our efforts on the management of KOBIS for facilitation of information
+    sharing, distribution, and service towards mining biological data.
+found_by:
+- checklist:2
+- register:kr
+scope: kr
+status: active
+added_by: agent
+checked: '2026-11-02'

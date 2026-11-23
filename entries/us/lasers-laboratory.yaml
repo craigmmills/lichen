@@ -1,0 +1,47 @@
+id: lasers-laboratory
+kind: organisation
+name: Lidar Applications for the Study of Ecosystems with Remote Sensing Laboratory
+also_known_as:
+- LASERS Lab
+scope: us
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+hq: us
+scale: local
+status: active
+website: https://lasers.tamu.edu/about/
+summary: Texas A&M University laboratory developing algorithms and tools for lidar and multi-sensor
+  data on forest structure and biomass.
+facts:
+- claim: Works on remote sensing for natural resources at Texas A&M.
+  url: https://lasers.tamu.edu/about/
+  fetched: '2026-10-31'
+  quote: specializes in the research and academic advancement of remote sensing and spatial
+    sciences
+- claim: Develops tools that estimate forest parameters from lidar.
+  url: https://lasers.tamu.edu/about/
+  fetched: '2026-10-31'
+  quote: enable the estimation of forest biophysical parameters
+- claim: Its principal investigator's recent papers use deep learning and machine learning
+    on forests.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4412934696|W4411922614|W4386068720&select=id,title,publication_year,authorships&per_page=10
+  fetched: '2026-10-31'
+  quote: Estimation of tropical forest aboveground biomass in Nepal using multiple remotely
+    sensed data and deep learning
+  ai_type: deep-learning
+- claim: Gives its address at Texas A&M University in College Station.
+  url: https://lasers.tamu.edu/contact/
+  fetched: '2026-10-31'
+  quote: 2120 TAMU Texas A&M University College Station, TX 77843-2120
+found_by:
+- checklist:research
+added_by: agent
+checked: '2026-10-31'

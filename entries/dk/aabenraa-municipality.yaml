@@ -1,0 +1,44 @@
+id: aabenraa-municipality
+kind: organisation
+name: Aabenraa Municipality
+also_known_as:
+- Aabenraa Kommune
+scope: dk
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: local
+status: active
+summary: Danish municipality whose nature officer, quoted on Koordinat's site, says it reviews
+  changes in protected nature with the VERNA tool and uploads them to Miljøportalen.
+facts:
+- claim: A municipal nature officer quoted on Koordinat's site says the municipality reviews
+    changes in protected nature with Koordinat's VERNA tool and uploads them to Miljøportalen.
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: Programmet gør det let og smidigt at foretage en gennemgang og uploade ændringerne
+    direkte til Miljøportalen.
+- claim: Koordinat's site names Aabenraa Kommune among the Danish municipalities quoted on
+    its use.
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: Aabenraa Kommune
+links:
+- type: uses
+  to: verna
+  url: https://koordinat.ai
+  fetched: '2026-11-08'
+  quote: VERNA er let at bruge og meget intuitivt.
+found_by:
+- rule:checklist-misses
+- link-from:koordinat
+added_by: agent
+checked: '2026-11-08'

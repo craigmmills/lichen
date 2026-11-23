@@ -1,0 +1,39 @@
+id: mitsubishi-electric
+kind: organisation
+name: Mitsubishi Electric
+scope: jp
+sector: company
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- jp
+scale: global
+status: active
+summary: Company that says it developed ALOS-2 and that its ME Innovation Fund invested in
+  Archeda, which it funds.
+found_by:
+- link-from:archeda
+facts:
+- claim: Says its ME Innovation Fund invested in Archeda.
+  url: https://www.mitsubishielectric.com/en/pr/2025/0610/
+  fetched: '2026-11-02'
+  quote: its ME Innovation Fund has invested in Archeda, Inc.
+- claim: Says it developed ALOS-2.
+  url: https://www.mitsubishielectric.com/en/pr/2025/0610/
+  fetched: '2026-11-02'
+  quote: Advanced Land Observing Satellite-2 “DAICHI-2” (ALOS-2), which was developed by Mitsubishi
+    Electric
+links:
+- type: funds
+  to: archeda
+  url: https://www.mitsubishielectric.com/en/pr/2025/0610/
+  fetched: '2026-11-02'
+  quote: its ME Innovation Fund has invested in Archeda, Inc.
+added_by: agent
+checked: '2026-11-02'

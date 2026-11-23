@@ -1,0 +1,41 @@
+id: national-marine-environmental-monitoring-center
+kind: organisation
+name: National Marine Environmental Monitoring Center
+also_known_as:
+- 国家海洋环境监测中心
+scope: cn
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-reinforcement
+realms:
+- ocean
+techniques:
+- remote-sensing
+scale: national
+website: https://www.nmemc.org.cn
+hq: cn
+status: active
+countries:
+- cn
+summary: A national centre building a marine ecological environment remote sensing platform
+  that uses AI to process large volumes of satellite data, including for typical ecosystem
+  change.
+facts:
+- claim: Is building a marine ecological environment remote sensing management platform using
+    deep reinforcement learning.
+  ai_type: ml-reinforcement
+  url: https://www.nmemc.org.cn/hyyw/202504/t20250429_1118566.shtml
+  fetched: '2026-10-31'
+  quote: 平台通过海量遥感数据自动处理、深度强化学习实时分析
+- claim: Its AI work covers beach litter, river water quality and typical ecosystem change.
+  url: https://www.nmemc.org.cn/hyyw/202504/t20250429_1118566.shtml
+  fetched: '2026-10-31'
+  quote: 在海滩垃圾解译、入海河流水质监测、典型生态系统变化监测、入海排污口识别及温排水监测等方面取得了阶段性进展。
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

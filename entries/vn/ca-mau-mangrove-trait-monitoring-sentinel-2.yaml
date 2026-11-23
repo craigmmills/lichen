@@ -1,0 +1,49 @@
+id: ca-mau-mangrove-trait-monitoring-sentinel-2
+kind: project
+name: Satellite mangrove health monitoring system (Cà Mau)
+scope: vn
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- vn
+status: active
+runner: unknown
+summary: Active satellite monitoring system combining Sentinel-2 imagery, Google Earth
+  Engine, PROSAIL and Gaussian Processes Regression, which has produced forest condition
+  maps for Mũi Cà Mau National Park and the Ngọc Hiển shrimp-forest model.
+facts:
+- claim: The ministry describes a new mangrove monitoring system based on satellite
+    data and cloud computing.
+  url: https://mae.gov.vn/ve-tinh-theo-doi-suc-khoe-rung-ngap-man-18323.htm
+  fetched: 2026-11-15
+  quote: Một hệ thống giám sát rừng ngập mặn mới, dựa trên dữ liệu vệ tinh và điện
+    toán đám mây
+- claim: The research group uses Sentinel-2 imagery and Google Earth Engine to monitor
+    mangrove ecological traits.
+  url: https://mae.gov.vn/ve-tinh-theo-doi-suc-khoe-rung-ngap-man-18323.htm
+  fetched: 2026-11-15
+  quote: nhóm nghiên cứu sử dụng ảnh vệ tinh Sentinel-2 cùng nền tảng Google Earth
+    Engine để theo dõi liên tục và toàn diện các đặc tính sinh thái của rừng ngập
+    mặn
+- claim: The group combines the PROSAIL radiative transfer model with Gaussian Processes
+    Regression, which the page calls a machine learning technique.
+  url: https://mae.gov.vn/ve-tinh-theo-doi-suc-khoe-rung-ngap-man-18323.htm
+  fetched: 2026-11-15
+  quote: kết hợp mô hình truyền bức xạ PROSAIL với thuật toán Gaussian Processes Regression
+    (GPR). Đây là một kỹ thuật học máy tiên tiến để phân tích ảnh vệ tinh.
+  ai_type: ml-supervised
+- claim: It has produced detailed forest condition maps for Mũi Cà Mau National Park
+    and the shrimp-forest model in Ngọc Hiển district.
+  url: https://mae.gov.vn/ve-tinh-theo-doi-suc-khoe-rung-ngap-man-18323.htm
+  fetched: 2026-11-15
+  quote: công trình đã tạo ra bản đồ chi tiết về tình trạng rừng
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

@@ -1,0 +1,50 @@
+id: tessera
+kind: model
+name: TESSERA
+also_known_as:
+- Temporal Embeddings of Surface Spectra for Earth Representation and Analysis
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/ucam-eo/tessera
+summary: Foundation model from the University of Cambridge that processes satellite time series
+  and produces embeddings for uses such as habitat mapping, land classification and canopy
+  height prediction.
+facts:
+- claim: Foundation model developed at the University of Cambridge.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: TESSERA is a foundation model that can process time-series satellite imagery
+- claim: TESSERA is a foundation model.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: TESSERA is a foundation model that can process time-series satellite imagery
+  ai_type: foundation-models
+- claim: TESSERA uses self-supervised learning.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: It uses self-supervised learning to summarise petabytes of Earth observation data.
+  ai_type: ml-unsupervised
+- claim: TESSERA's encoder is a transformer.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: transformer d_model=768
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: university-of-cambridge
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: Developed at the University of Cambridge
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,46 @@
+id: universidad-tecnologica-de-bolivar
+kind: organisation
+name: Universidad Tecnológica de Bolívar
+scope: co
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+ai_types:
+- deep-learning
+summary: University whose authors include the first author of a 2026 deep learning
+  study of tree cover loss and gain in Cundinamarca and of a 2022 Landsat and GIS
+  forest loss assessment.
+facts:
+- claim: An author at its Instituto de Estudios en Desarrollo, Economía y Sostenibilidad
+    (IDEEAS) is the first author of a 2026 paper on the balance of tree cover loss
+    and gain in Cundinamarca using deep learning land use and land cover maps.
+  url: https://api.openalex.org/works/W7127370499?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Balance in Cundinamarca (Colombia) Using Deep Learning
+- claim: OpenAlex gives the first author's affiliation as this university.
+  url: https://api.openalex.org/works/W7127370499?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Sostenibilidad (IDEEAS), Universidad Tecnol
+- claim: The paper uses deep learning based land use and land cover maps.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works/W7127370499?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Balance in Cundinamarca (Colombia) Using Deep Learning
+- claim: An author at the university is the first author of a 2022 paper assessing
+    forest cover loss in a Colombian protected area with Landsat images and GIS.
+  url: https://api.openalex.org/works/W4297900973?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Assessing Forest Cover Loss Using Landsat Images and GIS: A Case Study in
+    Colombian Protected Area'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

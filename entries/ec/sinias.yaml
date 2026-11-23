@@ -1,0 +1,37 @@
+id: sinias
+kind: dataset
+name: Sistema Nacional de Indicadores Ambientales y Sostenibilidad
+also_known_as:
+- SINIAS
+scope: ec
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ec
+status: active
+website: https://sinias.ambiente.gob.ec/proyecto-sinias-web/start.jsf
+summary: Active national dataset of environmental statistics and indicators by theme, run by the environment
+  ministry and listed under its Strategic Information Directorate.
+facts:
+- claim: It shows environmental statistics and indicators by theme.
+  url: https://sinias.ambiente.gob.ec/proyecto-sinias-web/start.jsf
+  fetched: '2026-11-02'
+  quote: Muestra una base de información actualizada, en la cual se visualizan las estadísticas e indicadores
+    ambientales
+- claim: It is listed under the ministry's Strategic Information Directorate.
+  url: https://sinias.ambiente.gob.ec/proyecto-sinias-web/start.jsf
+  fetched: '2026-11-02'
+  quote: Dirección de Información Estratégica
+links:
+- type: run-by
+  to: ministerio-de-ambiente-y-energia-ecuador
+  url: https://sinias.ambiente.gob.ec/proyecto-sinias-web/start.jsf
+  fetched: '2026-11-02'
+  quote: Proporciona los últimos productos generados por el Ministerio de Ambiente y Energía dentro del
+    Sistema Nacional de Indicadores Ambientales y Sostenibilidad
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-03'

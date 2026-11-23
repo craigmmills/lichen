@@ -1,0 +1,39 @@
+id: the-cyprus-institute
+kind: organisation
+name: The Cyprus Institute
+also_known_as:
+- CyI
+scope: cy
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+hq: unknown
+countries: []
+scale: regional
+status: active
+website: https://www.cyi.ac.cy/
+summary: Non-profit research and educational institution, according to GBIF, which runs the checklist
+  of introduced taxa in Cyprus, covering 1,500 introduced taxa.
+facts:
+- claim: GBIF's publisher record describes it as a non-profit research and educational institution.
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583
+  fetched: 2026-11-08
+  quote: non-profit research and educational institution with a strong scientific and technological orientation
+- claim: GBIF's dataset record says it manages the checklist of introduced taxa in Cyprus, which covers
+    1,500 introduced taxa.
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: The checklist of introduced taxa in Cyprus is a species checklist dataset managed by the Cyprus
+    Institute. It contains information on 1500 introduced taxa occurring in Cyprus.
+links:
+- type: runs
+  to: checklist-of-introduced-taxa-in-cyprus
+  url: https://api.gbif.org/v1/organization/3cd7d905-0e69-40d0-ae28-6f5f62b32583/publishedDataset
+  fetched: 2026-11-08
+  quote: The checklist of introduced taxa in Cyprus is a species checklist dataset managed by the Cyprus
+    Institute.
+found_by:
+- register:cy
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,43 @@
+id: satellite-embedding-dataset
+kind: dataset
+name: Satellite Embedding dataset
+scope: global
+runner: unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+summary: Annual embeddings produced by AlphaEarth Foundations and published in Google Earth Engine, at 10 metres per pixel.
+ai_types:
+- foundation-models
+facts:
+- claim: Holds over 1.4 trillion embedding footprints per year.
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: &id001 2026-10-30
+  quote: the Satellite Embedding dataset in Google Earth Engine is one of the largest of its kind with over 1.4 trillion embedding footprints per year
+- claim: Packs a year of multi-source data into every 10-metre pixel.
+  url: https://earthengine.google.com/
+  fetched: *id001
+  quote: We've packed a year of multi-source data into every 10m pixel, making it analysis-ready.
+- claim: Used by organisations including FAO, Harvard Forest, GEO and MapBiomas.
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: *id001
+  quote: including the United Nations’ Food and Agriculture Organization , Harvard Forest , Group on Earth Observations , MapBiomas , Oregon State University , the Spatial Informatics Group and Stanford University
+- claim: "Earth Engine says the Satellite Embedding Dataset is powered by the AlphaEarth Foundations model."
+  url: "https://earthengine.google.com/"
+  fetched: "2026-10-31"
+  quote: "Satellite Embedding Dataset, powered by the AlphaEarth Foundations AI model"
+  ai_type: foundation-models
+links:
+- type: builds-on
+  to: alphaearth-foundations
+  url: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+  fetched: *id001
+  quote: Powered by AlphaEarth Foundations, the Satellite Embedding dataset in Google Earth Engine
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

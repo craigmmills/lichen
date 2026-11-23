@@ -1,0 +1,39 @@
+id: marinext
+kind: model
+name: MariNeXt
+scope: gr
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning
+status: active
+website: https://marine-pollution.github.io
+summary: Deep learning segmentation framework built by Katerina Kikaki, whose authors report
+  beating all baselines by at least 12 per cent in F1 and mIoU on the MADOS test set.
+facts:
+- claim: A deep learning framework for semantic segmentation that its authors report outperformed
+    all baselines by at least 12 per cent in F1 and mIoU on the MADOS test set.
+  url: https://marine-pollution.github.io
+  fetched: '2026-11-03'
+  quote: we propose a novel Deep Learning (DL) framework named MariNeXt, based on recent state-of-the-art
+    architectural advancements for semantic segmentation, which outperforms all baselines
+    by at least 12% in F1 and mIoU metrics
+  ai_type: deep-learning
+- claim: The dataset, code and trained models are openly available.
+  url: https://marine-pollution.github.io
+  fetched: '2026-11-03'
+  quote: Our dataset, code and trained models are openly available to stimulate further research.
+links:
+- type: builds-on
+  to: mados
+  url: https://marine-pollution.github.io
+  fetched: '2026-11-03'
+  quote: Evaluation of MariNeXt against baselines on MADOS test set
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'

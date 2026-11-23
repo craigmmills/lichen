@@ -1,0 +1,41 @@
+id: dnv
+kind: organisation
+name: DNV
+scope: 'no'
+summary: Organisation in Høvik, Norway that offers risk assessments, surveys, monitoring and
+  restoration measures, with surveys combining sampling, eDNA analysis and imagery.
+facts:
+- claim: Offers risk assessments, surveys, monitoring and restoration measures.
+  url: https://www.dnv.com/services/biodiversity-and-coexistence/
+  fetched: '2026-11-02'
+  quote: We provide risk assessments, baseline and habitat surveys, monitoring, and restoration
+    measures across marine, freshwater, and terrestrial ecosystems.
+- claim: Its surveys combine sampling with eDNA analysis and imagery.
+  url: https://www.dnv.com/services/biodiversity-and-coexistence/
+  fetched: '2026-11-02'
+  quote: combining chemical and biological sampling with eDNA analysis and seabed, lake, and
+    river imagery
+- claim: The GBIF publisher record gives its address in Høvik, Norway.
+  url: https://api.gbif.org/v1/organization/efc5d3c7-2fec-42dd-85de-078a73973bd1
+  fetched: 2026-11-02
+  quote: '"city":"Høvik","province":"Akershus","country":"NO"'
+links: []
+found_by:
+- checklist:5
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+scale: national
+hq: 'no'
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+website: https://www.dnv.com

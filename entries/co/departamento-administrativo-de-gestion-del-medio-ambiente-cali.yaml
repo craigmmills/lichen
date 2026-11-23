@@ -1,0 +1,88 @@
+id: departamento-administrativo-de-gestion-del-medio-ambiente-cali
+kind: organisation
+name: Departamento Administrativo de Gestión del Medio Ambiente de Cali
+also_known_as:
+- Dagma
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: co
+scale: local
+summary: Cali's environment authority. Its forest guards and staff load photographs from the
+  city's camera traps on to Wildlife Insights, as part of Red Otus.
+facts:
+- claim: Its staff and forest guards are trained to load camera-trap photographs on to Wildlife
+    Insights.
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  quote: encargados de incorporar las fotografías generadas por este monitoreo a la plataforma
+    ‘Wildlife Insights’
+  fetched: '2026-10-31'
+- claim: The city says the Wildlife Insights tool serves the local environmental authority
+    among others.
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  fetched: '2026-10-31'
+  quote: guardabosques y a la misma autoridad ambiental local, gestionar, analizar y compartir
+    los datos obtenidos por las cámaras trampa
+- claim: Dagma staff are responsible for putting the monitoring photographs into Wildlife
+    Insights, which runs on AI.
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  fetched: 2026-10-31
+  quote: encargados de incorporar las fotografías generadas por este monitoreo a la plataforma
+    ‘Wildlife Insights’ , que basa su funcionamiento en el uso de la inteligencia artificial
+    ( IA )
+- claim: A Dagma coordinator says it is the first urban environmental authority to join the
+    Otus network, with 120 cameras.
+  url: https://www.cali.gov.co/publicaciones/189423/cali-adquiere-120-camaras-trampa-y-entra-en-la-red-otus-para-monitorear-su-fauna-silvestre/
+  fetched: 2026-10-31
+  quote: somos la primera autoridad ambiental urbana que se suma a la Red Otus, a la que entramos
+    con 120 cámaras
+- claim: Its directory gives an office address in the city, on Avenida 5AN.
+  url: https://www.cali.gov.co/directorio/38/departamento-administrativo-de-gestion-del-medio-ambiente-dagma/
+  fetched: 2026-10-31
+  quote: 'Dirección: Avenida 5AN # 20N-08 Piso 11'
+links:
+- type: uses
+  to: wildlife-insights
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  quote: encargados de incorporar las fotografías generadas por este monitoreo a la plataforma
+    ‘Wildlife Insights’
+  fetched: '2026-10-31'
+- type: partners-with
+  to: camaras-trampa-de-cali
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  fetched: '2026-10-31'
+  quote: una iniciativa sin antecedentes liderada por la Alcaldía de Cali, en cabeza de Alejandro
+    Eder, haciendo equipo con el Departamento Administrativo de Gestión del Medio Ambiente
+- type: partners-with
+  to: instituto-humboldt
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  fetched: 2026-10-31
+  quote: una alianza entre la Alcaldía de Cali, el Dagma , el Instituto Humboldt y Conservación
+    Internacional
+- type: partners-with
+  to: conservation-international
+  url: https://www.cali.gov.co/publicaciones/190098/los-ojos-de-miles-de-calenos-monitorean-la-biodiversidad-ya-se-han-instalado-cerca-de-100-camaras-trampa/
+  fetched: 2026-10-31
+  quote: una alianza entre la Alcaldía de Cali, el Dagma , el Instituto Humboldt y Conservación
+    Internacional
+- type: partners-with
+  to: red-otus
+  url: https://www.cali.gov.co/publicaciones/189423/cali-adquiere-120-camaras-trampa-y-entra-en-la-red-otus-para-monitorear-su-fauna-silvestre/
+  fetched: 2026-10-31
+  quote: somos la primera autoridad ambiental urbana que se suma a la Red Otus
+found_by:
+- checklist:1
+- link-from:wildlife-insights
+- register:gbif-publisher
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+countries:
+- co

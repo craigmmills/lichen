@@ -1,0 +1,44 @@
+id: whisp
+kind: project
+name: Open Foris Whisp
+also_known_as:
+- Whisp
+- What's in that plot?
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://openforis.org/solutions/whisp/
+summary: Free, open-source FAO tool for plot-level analysis of land use and deforestation risk, using geospatial datasets and satellite information, with AI-generated summaries through Earth Map.
+facts:
+- claim: Developed by FAO for rapid plot-level analysis of land use and deforestation risk.
+  url: https://openforis.org/solutions/whisp/
+  fetched: 2026-10-30
+  quote: is a free and open-source solution developed by the Food and Agriculture Organization (FAO) to support rapid, plot-level analysis of land use and deforestation risk
+- claim: Produces AI-generated summaries for each analysed point and polygon through its link with Earth Map.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: 2026-10-30
+  quote: Through its connection with EarthMap, Open Foris Whisp now provides automated, AI-generated summaries for each point and polygon
+links:
+- type: run-by
+  to: food-and-agriculture-organization
+  url: https://openforis.org/solutions/whisp/
+  fetched: 2026-10-30
+  quote: developed by the Food and Agriculture Organization (FAO)
+- type: run-by
+  to: aim4commodities
+  url: https://openforis.org/solutions/whisp/
+  fetched: 2026-10-30
+  quote: Whisp is developed under the AIM4Commodities programme
+- type: builds-on
+  to: earth-map
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: 2026-10-30
+  quote: "Through its connection with EarthMap, Open Foris Whisp now provides automated, AI-generated summaries for each point and polygon analysed"
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

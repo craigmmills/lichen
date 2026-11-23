@@ -1,0 +1,129 @@
+id: universite-d-abomey-calavi
+kind: organisation
+name: Université d'Abomey-Calavi
+also_known_as:
+- UAC
+- University of Abomey-Calavi
+- Forest Sciences Laboratory
+- FSL
+- Université d'Abomey-Calavi
+scope: bj
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+ai_types:
+- ml-supervised
+hq: bj
+countries:
+- bj
+scale: national
+status: active
+summary: Beninese university that publishes 62 biodiversity datasets on GBIF, received JRS
+  funding in 2014 to develop Benin's biodiversity portal, and runs a Laboratory of Applied
+  Ecology.
+facts:
+- claim: In 2014 JRS awarded funding to the Université d'Abomey-Calavi to continue developing
+    Benin's biodiversity information portal.
+  url: https://jrsbiodiversity.org/benin-and-tulane-grant-announcement/
+  fetched: 2026-11-08
+  quote: JRS awards funding to the Université d’Abomey-Calavi (Benin) and to Tulane University
+    (USA)
+- claim: The GBIF Benin node gives its address at the university's Faculty of Agricultural
+    Sciences.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: GBIF Benin ● Université d'Abomey-Calavi, Faculté des Sciences Agronomiques ● BP 1493
+    – Calavi – Benin
+- claim: OpenAlex lists a 2024 paper with authors at the university comparing random forest
+    variants for predicting species abundance.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:bj,concepts.id:C119857082|C108583219,concepts.id:C18903297|C86803240|C62649853,from_publication_date:2020-01-01&per-page=50&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Predicting species abundance using machine learning approach: a comparative assessment
+    of random forest spatial variants and performance metrics'
+  ai_type: ml-supervised
+- claim: Describes itself on GBIF as working in biodiversity conservation, ecological niche
+    modelling and forest sciences.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef
+  fetched: 2026-11-08
+  quote: Academic and research institution in the field of biodiversity conservation, ecological
+    niche modelling, Forest sciences
+- claim: Sixty-two datasets are listed under it as publisher on GBIF.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef/publishedDataset
+  fetched: 2026-11-08
+  quote: '"count":62'
+- claim: Publishes a checklist compiled from plant data published on GBIF through a BID project.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef/publishedDataset
+  fetched: 2026-11-08
+  quote: Checklist derived from plant species published on GBIF through BID project (BID-AF2020-083-USE)
+- claim: Publishes occurrence datasets collected for spatial distribution and ecological niche
+    modelling.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef/publishedDataset
+  fetched: 2026-11-08
+  quote: Occurrences data collection of Simulium damnosum (Theobald, 1903) for spatial distribution
+    and ecological niche modeling
+- claim: Its Laboratory of Applied Ecology is part of the Faculty of Agronomic Sciences.
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08
+  fetched: 2026-11-08
+  quote: the Laboratory of Applied Ecology (LEA) is part of the Faculty of Agronomic Sciences
+    (FSA) at the University of Abomey-Calavi (UAC-Benin)
+- claim: GBIF Benin's site announced a master's degree in biodiversity informatics at the
+    faculty.
+  url: http://www.gbifbenin.org/
+  fetched: 2026-11-08
+  quote: Master en biodiversité informatique / Faculté des Sciences Agronomiques / Université
+    D'Abomey-Calavi / BENIN
+- claim: Publishes 62 datasets on GBIF.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef/publishedDataset?limit=70
+  fetched: '2026-11-08'
+  quote: '"count":62'
+- claim: Published occurrence data collected for spatial distribution and ecological niche
+    modelling of disease vectors.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef/publishedDataset?limit=70
+  fetched: '2026-11-08'
+  quote: Occurrences data collection of Simulium damnosum (Theobald, 1903) for spatial distribution
+    and ecological niche modeling
+- claim: Published a census of the species of Benin, with data mobilised in a JRS Biodiversity
+    Foundation project of Benin.
+  url: https://api.gbif.org/v1/organization/5ca9a113-2397-4540-84b4-41114a1404ef/publishedDataset?limit=70
+  fetched: '2026-11-08'
+  quote: Census of the species of Benin. Data mobilized in the framework of JRS Benin project
+    and funded by JRS Biodiversity Foundation
+- claim: Its Faculty of Sciences and Techniques says its researchers make animal and plant
+    collections that can be published to improve natural resource management in Benin.
+  url: https://api.gbif.org/v1/organization/65fffa9e-53b3-40cd-9dbb-727c1cb2a431
+  fetched: '2026-11-08'
+  quote: les chercheurs de cette Faculté font beaucoup de collections d’animaux et végétaux
+    qui peuvent être publiées pour une meilleure gestion des ressources naturelles au Bénin
+- claim: GBIF lists the GBIF Benin node's address at the university's Faculty of Agricultural
+    Sciences.
+  url: https://api.gbif.org/v1/node/efb9c00e-f802-45dd-8826-a52ec45b89ff
+  fetched: '2026-11-08'
+  quote: '"address":["University of Abomey-Calavi,'
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/benin-and-tulane-grant-announcement/
+  fetched: 2026-11-08
+  quote: Faculté des Sciences Agronomiques de l’Université d’Abomey-Calavi – Benin NBIS Implementation,
+    $150,000.
+  amount: 150000
+  currency: USD
+  year: 2014
+- type: runs
+  to: laboratoire-d-ecologie-appliquee-uac
+  url: https://api.gbif.org/v1/organization/633602e8-4c6f-4619-b433-c4968da3ed08
+  fetched: 2026-11-08
+  quote: the Laboratory of Applied Ecology (LEA) is part of the Faculty of Agronomic Sciences
+    (FSA) at the University of Abomey-Calavi (UAC-Benin)
+found_by:
+- checklist:3
+- queue:bj
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

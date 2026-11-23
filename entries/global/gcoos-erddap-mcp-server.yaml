@@ -1,0 +1,39 @@
+id: gcoos-erddap-mcp-server
+kind: project
+name: GCOOS ERDDAP MCP Server
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+realms:
+- ocean
+status: active
+summary: Open-source connector from GCOOS that lets AI assistants such as Claude and ChatGPT
+  search and read ocean data on ERDDAP servers from plain-language questions. Anyone can install
+  it; no page read gives user numbers.
+facts:
+- claim: Open-source tool that connects AI assistants to scientific data servers.
+  url: https://gcoos.org/making-data-access-easier/
+  fetched: &id001 2026-10-30
+  quote: a new open-source tool released by GCOOS that connects AI assistants to scientific
+    data servers
+- claim: Works with assistants including Claude and ChatGPT.
+  url: https://gcoos.org/making-data-access-easier/
+  fetched: *id001
+  quote: The tool works with popular AI assistants including Claude and ChatGPT
+  ai_type: large-language-models
+- claim: Users search ERDDAP datasets, read metadata and analyse variables through natural
+    language.
+  url: https://gcoos.org/making-data-access-easier/
+  fetched: *id001
+  quote: search ERDDAP datasets, retrieve metadata
+links:
+- type: run-by
+  to: gulf-of-america-coastal-ocean-observing-system
+  url: https://gcoos.org/making-data-access-easier/
+  fetched: *id001
+  quote: a new open-source tool released by GCOOS
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

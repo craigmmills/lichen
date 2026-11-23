@@ -1,0 +1,28 @@
+id: soldierflies-and-allies-recording-scheme
+kind: programme
+name: Soldierflies and Allies Recording Scheme
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+runner: unknown
+website: http://www.brc.ac.uk/soldierflies-and-allies/home
+summary: British recording scheme for soldierflies and allied flies, whose verified
+  records are published on GBIF.
+facts:
+- claim: Publishes the dataset "Soldierflies and Allies Recording Scheme - data verified
+    via iRecord" on GBIF.
+  url: https://api.gbif.org/v1/organization/293a2f8d-ab04-4765-83e9-b2426f439f9d/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Soldierflies and Allies Recording Scheme - data verified via iRecord
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/293a2f8d-ab04-4765-83e9-b2426f439f9d/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

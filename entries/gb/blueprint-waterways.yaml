@@ -1,0 +1,42 @@
+id: blueprint-waterways
+kind: project
+name: BluePrint
+also_known_as:
+- WaterWatch
+scope: gb
+ai_label: ai
+realms:
+- freshwater
+- ocean
+status: active
+website: https://engageenvironmentagency.uk.engagementhq.com/blueprintandwaterwatch
+summary: Environment Agency digital tool for reporting on rivers, lakes and beaches
+  by phone, built on the WaterWatch pilot of an AI conversation platform.
+facts:
+- claim: Lets people report on the health of rivers, lakes and beaches by phone.
+  url: https://environmentagency.blog.gov.uk/2026/02/17/launching-blueprint-expanding-citizen-science-across-englands-waterways
+  quote: lets you report on the health of your local rivers, lakes and beaches in
+    real-time
+  fetched: &id001 2026-10-30
+- claim: WaterWatch pilot tested an AI conversation as a tool for collecting citizen
+    science.
+  url: https://engageenvironmentagency.uk.engagementhq.com/blueprintandwaterwatch
+  quote: This pilot tested the Hello Lamp Post platforms AI conversation as a tool
+  fetched: *id001
+links:
+- type: run-by
+  to: environment-agency-england
+  url: https://environmentagency.blog.gov.uk/2026/02/17/launching-blueprint-expanding-citizen-science-across-englands-waterways
+  quote: BluePrint, developed by the Environment Agency in partnership with Hello
+    Lamp Post
+  fetched: *id001
+- type: partners-with
+  to: hello-lamp-post
+  url: https://environmentagency.blog.gov.uk/2026/02/17/launching-blueprint-expanding-citizen-science-across-englands-waterways
+  quote: BluePrint, developed by the Environment Agency in partnership with Hello
+    Lamp Post
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

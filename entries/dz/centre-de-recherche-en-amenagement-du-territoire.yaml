@@ -1,0 +1,41 @@
+id: centre-de-recherche-en-amenagement-du-territoire
+kind: organisation
+name: Centre de Recherche en Aménagement du Territoire
+also_known_as:
+- CRAT
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A research centre named as the lead affiliation of the first author of a
+  paper whose title covers remote sensing data and machine learning for forest fire
+  hazard assessment in Jijel.
+facts:
+- claim: Lead affiliation of the first author on the paper whose title is quoted in
+    the next fact.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Zakaria Matougui", "raw_affiliation_strings": ["Centre
+    de Recherche en Am\u00e9nagement du Territoire (CRAT), Campus Universitaire Zouaghi
+    Slimane, Route de Ain el Bey , Constantine , Alg\u00e9rie"]'
+- claim: The paper's title names remote sensing data and machine learning for forest
+    fire hazard assessment in Jijel.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: Forest Fire Hazard Assessment using Remote Sensing Data and Machine Learning,
+    Case Study of Jijel, Algeria
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,27 @@
+id: tarkka
+kind: dataset
+name: Tarkka
+also_known_as:
+- Tarkka service
+scope: fi
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://tarkka.syke.fi
+summary: Active dataset that gives the latest satellite observations.
+facts:
+- claim: Gives the latest satellite observations.
+  url: https://www.syke.fi/en/environmental-data/maps-and-information-services/satellite-observations
+  quote: The latest satellite observations can be found Tarkka service (Tarkka.syke.fi)
+  fetched: '2026-11-02'
+links: []
+found_by:
+- link-from:finnish-environment-institute
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

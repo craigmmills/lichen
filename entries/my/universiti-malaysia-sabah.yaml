@@ -1,0 +1,44 @@
+id: universiti-malaysia-sabah
+kind: organisation
+name: Universiti Malaysia Sabah
+also_known_as:
+- UMS
+scope: my
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- my
+scale: regional
+status: active
+summary: University whose computer science PhD student was working on AI to recognise orang-utan
+  nests in drone images in August 2023, with 13 OpenAlex-counted AI or machine learning ecology
+  works since 2018.
+facts:
+- claim: In August 2023, its computer science PhD student Amanda Amran was working on AI to
+    recognise orang-utan nests in drone images.
+  url: https://www.thestar.com.my/news/nation/2023/08/19/counting-on-ai-to-keep-tabs-on-orang-utan-numbers
+  fetched: 2026-11-03
+  quote: UMS computer science PhD student Amanda Amran, who is currently working on the project
+- claim: OpenAlex counts 13 works with its authors on machine learning or AI in ecology subfields
+    since 2018, under the name 'Universiti of Malaysia Sabah'.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: Universiti of Malaysia Sabah
+links:
+- type: builds
+  to: orang-utan-nest-ai-sabah
+  url: https://www.thestar.com.my/news/nation/2023/08/19/counting-on-ai-to-keep-tabs-on-orang-utan-numbers
+  fetched: 2026-11-03
+  quote: WWF Malaysia and Universiti Malaysia Sabah (UMS) are working together to create an
+    AI technology
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

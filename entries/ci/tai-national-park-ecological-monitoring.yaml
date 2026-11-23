@@ -1,0 +1,38 @@
+id: tai-national-park-ecological-monitoring
+kind: programme
+name: Suivi écologique du Parc national de Taï
+scope: ci
+ai_label: conservation-tech
+realms:
+- land
+status: active
+summary: Annual ecological monitoring of Taï National Park, run by OIPR's South-West
+  directorate, with systematic sampling improved in 2015 and use of the SMART tool
+  marking phase 12.
+facts:
+- claim: The 2016 phase 11 report describes systematic sampling carried out annually,
+    with a design improved in 2015.
+  url: https://oipr-ci.org/wp-content/uploads/2025/04/rapportbiomonitoring2016phase110.pdf
+  fetched: 2026-11-12
+  quote: Le dispositif basé sur u n échantillonnage systématique mis en œuvre annuellement
+    et amélioré
+- claim: Phase 12 of the monitoring was marked by the use of the SMART tool.
+  url: https://obapao.org/sites/default/files/2019-03/Rapport_biomonitoring_du_PNT_PHASE_12_6TIZH8d.pdf
+  fetched: 2026-11-12
+  quote: La phase 12 de suivi écologique a été marquée la pratique de l’outil SMART.
+links:
+- type: run-by
+  to: oipr-direction-de-zone-sud-ouest
+  url: https://oipr-ci.org/wp-content/uploads/2025/04/rapportbiomonitoring2016phase110.pdf
+  fetched: 2026-11-12
+  quote: Mis en œuvre par la Direction de Zone Sud-ouest (DZSO) de l’Office Ivoirien
+    des Parcs et Réserve
+- type: uses
+  to: smart-spatial-monitoring-and-reporting-tool
+  url: https://obapao.org/sites/default/files/2019-03/Rapport_biomonitoring_du_PNT_PHASE_12_6TIZH8d.pdf
+  fetched: 2026-11-12
+  quote: L’utilisation des tablettes et du logiciel SMART ( Spatial
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

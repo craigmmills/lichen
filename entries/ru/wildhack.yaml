@@ -1,0 +1,35 @@
+id: wildhack
+kind: project
+name: WildHack
+scope: ru
+ai_label: ai
+status: closed
+summary: A closed hackathon, run by Kronotsky State Nature Reserve, that ended in December 2021 with 102
+  teams, about 500 people, and a student neural network for recognising animals and removing empty camera-trap
+  frames.
+facts:
+- claim: 102 teams, about 500 people, took part in the hackathon that ended in December 2021.
+  url: https://kronoki.ru/ru/news/newswire/2937.html
+  fetched: '2026-10-31'
+  quote: Всего в разработке цифровых решений участвовало 102 команды — около 500 человек
+- claim: At the hackathon that ended in December 2021, a student team built a neural network solution
+    for recognising animals and removing empty camera-trap frames.
+  url: https://kronoki.ru/ru/news/newswire/2937.html
+  fetched: '2026-10-31'
+  quote: разработала решение для автоматизированного распознавания на фото и видео животных с помощью
+    нейросети
+links:
+- type: run-by
+  to: kronotsky-state-nature-reserve
+  url: https://kronoki.ru/ru/news/newswire/2937.html
+  fetched: '2026-10-31'
+  quote: Завершился хакатон WildHack, организованный Кроноцким заповедником и компанией КРОК
+found_by:
+- link-from:kronotsky-state-nature-reserve
+techniques:
+- computer-vision
+realms:
+- land
+- ocean
+added_by: agent
+checked: '2026-10-31'

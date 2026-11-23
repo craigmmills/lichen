@@ -1,0 +1,54 @@
+id: nationalparkamt-kellerwald-edersee
+kind: organisation
+name: Nationalparkamt Kellerwald-Edersee
+also_known_as:
+- Kellerwald-Edersee National Park office
+scope: de
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: de
+scale: local
+status: active
+summary: National park authority listed as a participating area in KI-Nationalpark, where
+  a 2022 report says camera-trap monitoring had already been carried out before a federal
+  wildlife monitoring project.
+facts:
+- claim: Listed as a participating area in the KI-Nationalpark project, with this postal address.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Nationalparkamt Kellerwald- Edersee Laustraße 8 34537 Bad Wildungen
+- claim: The list marks every area as taking part in the camera programme, some in the audio
+    programme as well.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Weiß = nur Teilnahme am Kameraprogramm
+- claim: In KI-Nationalpark the protected-area administrations are trained on site and involved
+    in setting up the monitoring.
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Neben der technischen Entwicklung werden die Schutzgebietsverwaltungen vor Ort geschult
+    und in den Aufbau des Monitorings eingebunden.
+- claim: A 2022 report in the Hunsrück-Hochwald National Park research series says camera-trap
+    monitoring had been carried out in this park before a federal research project on wildlife
+    monitoring.
+  url: https://www.nlphh.de/hdwcore/uploads/2022/01/B-11_aus_NLPHH_Forschungsband.pdf
+  fetched: '2026-11-07'
+  quote: Kamerafallenmonitoring in den Nationalparken Bayerischer Wald, Hunsrück-Hochwald,
+    Kellerwald-Eder - see, Unteres Odertal, Schwarzwald und Hainich durch - geführt
+links:
+- type: partners-with
+  to: ai-national-park
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Teilnehmende Gebiete am KI-Nationalpark Projekt
+found_by:
+- rule:checklist-misses
+- link-from:ai-national-park
+added_by: agent
+checked: '2026-11-07'

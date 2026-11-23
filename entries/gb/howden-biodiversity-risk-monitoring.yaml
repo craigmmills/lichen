@@ -1,0 +1,56 @@
+id: howden-biodiversity-risk-monitoring
+kind: project
+name: Howden biodiversity risk monitoring tool
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+status: unknown
+summary: UK Space Agency funded project in the Howden Resilience Laboratory, with PCI Geomatics,
+  to monitor biodiversity risk on land sites from satellite data and AI. The fact comes from
+  Insurance Business.
+facts:
+- claim: Insurance Business reports a system combining satellite data, AI and land classification
+    models.
+  url: https://www.insurancebusinessmag.com/uk/news/technology/howden-wins-uk-space-agency-grant-to-build-aipowered-biodiversity-risk-tool-551566.aspx
+  quote: will combine satellite data, artificial intelligence, and land classification models
+    to identify habitat boundaries
+  fetched: '2026-10-30'
+- claim: Insurance Business reports the grant call.
+  url: https://www.insurancebusinessmag.com/uk/news/technology/howden-wins-uk-space-agency-grant-to-build-aipowered-biodiversity-risk-tool-551566.aspx
+  quote: Unlocking Space for Business Grant Call 2
+  fetched: '2026-10-30'
+- claim: CATALYST (PCI Geomatics) and DUAL say they completed a pilot using satellite imagery
+    and AI to assess biodiversity risk across the UK.
+  url: https://eijournal.com/?p=467718
+  quote: have successfully completed a pilot project that uses satellite imagery and artificial
+    intelligence to assess biodiversity risk
+  fetched: '2026-10-31'
+- claim: Outputs include habitat maps aligned to UK Habitat Classification categories.
+  url: https://eijournal.com/?p=467718
+  quote: Outputs include habitat classification maps aligned to UK Habitat Classification
+    (UKHab) categories
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+- rule:checklist-misses
+links:
+- type: run-by
+  to: howden
+  url: https://www.insurancebusinessmag.com/uk/news/technology/howden-wins-uk-space-agency-grant-to-build-aipowered-biodiversity-risk-tool-551566.aspx
+  quote: The project will be carried out in the Howden Resilience Laboratory in partnership
+    with PCI Geomatics
+  fetched: '2026-10-30'
+- type: funded-by
+  to: uk-space-agency
+  url: https://www.insurancebusinessmag.com/uk/news/technology/howden-wins-uk-space-agency-grant-to-build-aipowered-biodiversity-risk-tool-551566.aspx
+  quote: Howden has secured funding from the UK Space Agency
+  fetched: '2026-10-30'
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- DUAL and CATALYST biodiversity risk pilot

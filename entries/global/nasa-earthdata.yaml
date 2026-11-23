@@ -1,0 +1,60 @@
+id: nasa-earthdata
+kind: programme
+name: NASA Earthdata
+scope: global
+roles: [supplies-data]
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+website: https://www.earthdata.nasa.gov
+summary: NASA's portal for Earth observation data and tools, including Earthdata Search, Worldview and FIRMS.
+facts:
+- claim: Lists tools including Earthdata Search, Worldview and FIRMS.
+  url: https://www.earthdata.nasa.gov/
+  quote: Fire Information for Resource Management System (FIRMS)
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: nasa
+  url: https://www.earthdata.nasa.gov/
+  quote: Earth Observation Data | NASA Earthdata
+  fetched: '2026-10-30'
+- type: partners-with
+  to: amazon-web-services
+  url: https://www.earthdata.nasa.gov/engage/partnerships
+  fetched: 2026-10-30
+  quote: 'Through an ongoing SAA, NASA and AWS are collaborating on cloud-based discovery, access, and use of high-value science datasets'
+- type: partners-with
+  to: google
+  url: https://www.earthdata.nasa.gov/engage/partnerships
+  fetched: 2026-10-30
+  quote: 'Through an ongoing SAA, NASA and Google are collaborating on the discovery, access, and use of high-value NASA science datasets'
+- type: partners-with
+  to: ibm
+  url: https://www.earthdata.nasa.gov/engage/partnerships
+  fetched: 2026-10-30
+  quote: 'ESDS is completing SAAs with IBM Research and Microsoft to jointly work on common research problems'
+- type: partners-with
+  to: microsoft
+  url: https://www.earthdata.nasa.gov/engage/partnerships
+  fetched: 2026-10-30
+  quote: 'ESDS is completing SAAs with IBM Research and Microsoft to jointly work on common research problems'
+- type: partners-with
+  to: committee-on-earth-observation-satellites
+  url: https://www.earthdata.nasa.gov/engage/partnerships
+  fetched: 2026-10-30
+  quote: 'One of the primary organizations is the Committee on Earth Observation Satellites ( CEOS )'
+- type: partners-with
+  to: japan-aerospace-exploration-agency
+  url: https://www.earthdata.nasa.gov/engage/partnerships
+  fetched: 2026-10-30
+  quote: 'Other partners include NOAA, the Japan Aerospace Exploration Agency'
+found_by:
+- link-from:global-ecosystem-dynamics-investigation
+added_by: agent
+checked: '2026-10-30'

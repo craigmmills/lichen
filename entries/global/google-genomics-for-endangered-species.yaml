@@ -1,0 +1,55 @@
+id: google-genomics-for-endangered-species
+kind: project
+name: Google genomics work for endangered species
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- edna-genomics
+status: active
+summary: Google's technical support, through AI tools such as DeepPolisher and DeepVariant, for sequencing endangered animals with the Vertebrate Genomes Project, with Google.org funding to The Rockefeller University for 150 more species.
+facts:
+- claim: Says the collaboration has aided genome projects for 17 critically endangered species.
+  url: https://blog.google/innovation-and-ai/technology/research/ten-years-google-genomics/
+  fetched: &id001 2026-10-30
+  quote: Our collaboration has already aided genome projects for 17 critically endangered species
+- claim: Reported to use DeepPolisher, DeepVariant and DeepConsensus.
+  url: https://insiderph.com/google-taps-ai-to-help-save-endangered-species-in-ph
+  fetched: *id001
+  quote: Google is deploying AI-powered technologies—DeepPolisher, DeepVariant, and DeepConsensus—to make genome sequencing faster
+- claim: Google.org funded The Rockefeller University to sequence 150 additional species.
+  url: https://insiderph.com/google-taps-ai-to-help-save-endangered-species-in-ph
+  fetched: *id001
+  quote: Google.org has awarded funding through its AI for Science program to The Rockefeller University, enabling the sequencing of 150 additional species.
+- claim: "Google researchers applied deep learning to genome sequencing."
+  url: https://blog.google/innovation-and-ai/technology/research/ten-years-google-genomics/
+  fetched: 2026-10-30
+  quote: "A small team of researchers at Google decided to apply deep learning to various genome sequencing challenges"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: google
+  url: https://blog.google/innovation-and-ai/technology/research/ten-years-google-genomics/
+  fetched: *id001
+  quote: "Google provides technical and computational support for an ambitious initiative to sequence all eukaryotic life. Our collaboration has already aided genome projects for 17 critically endangered species"
+- type: partners-with
+  to: vertebrate-genomes-project
+  url: https://insiderph.com/google-taps-ai-to-help-save-endangered-species-in-ph
+  fetched: *id001
+  quote: "Through a partnership with the Vertebrate Genomes Project (VGP), Google is providing advanced AI tools and funding to help scientists sequence the genetic codes of threatened animals"
+- type: partners-with
+  to: rockefeller-university
+  url: https://insiderph.com/google-taps-ai-to-help-save-endangered-species-in-ph
+  fetched: *id001
+  quote: to The Rockefeller University, enabling the sequencing of 150 additional species
+- type: funded-by
+  to: google-org
+  url: https://insiderph.com/google-taps-ai-to-help-save-endangered-species-in-ph
+  fetched: *id001
+  quote: Google.org has awarded funding through its AI for Science program
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

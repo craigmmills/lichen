@@ -1,0 +1,54 @@
+id: canadian-wetland-inventory-map
+kind: dataset
+name: Canadian Wetland Inventory Map
+also_known_as:
+- CWIM
+scope: ca
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ca
+status: active
+runner: unknown
+ai_types:
+- ml-supervised
+summary: National 10-metre wetland map of Canada made from multi-source satellite
+  imagery with a random forest classification on Google Earth Engine. Version 3A is
+  the third generation.
+facts:
+- claim: The third generation covers about one billion hectares at 10 metres.
+  url: https://open.canada.ca/data/en/dataset/87127901-bd6d-46de-9142-e1362d980174
+  fetched: '2026-10-31'
+  quote: The third generation of high resolution 10-m wetland inventory map of Canada
+- claim: Over 8,800 wetland polygons were processed in an object-based random forest
+    classification.
+  url: https://open.canada.ca/data/en/dataset/87127901-bd6d-46de-9142-e1362d980174
+  fetched: '2026-10-31'
+  quote: were processed within an object-based random forest classification scheme
+  ai_type: ml-supervised
+links:
+- type: partners-with
+  to: c-core
+  url: https://open.canada.ca/data/en/dataset/87127901-bd6d-46de-9142-e1362d980174
+  fetched: '2026-10-31'
+  quote: The first national CWIM was produced 2018-2019 as a collaboration between
+    Memorial University, C-CORE, and Natural Resources Canada
+- type: partners-with
+  to: natural-resources-canada
+  url: https://open.canada.ca/data/en/dataset/87127901-bd6d-46de-9142-e1362d980174
+  fetched: '2026-10-31'
+  quote: The first national CWIM was produced 2018-2019 as a collaboration between
+    Memorial University, C-CORE, and Natural Resources Canada
+- type: funded-by
+  to: environment-and-climate-change-canada
+  url: https://open.canada.ca/data/en/dataset/87127901-bd6d-46de-9142-e1362d980174
+  fetched: '2026-10-31'
+  quote: which was significantly funded by Environment and Climate Change Canada
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

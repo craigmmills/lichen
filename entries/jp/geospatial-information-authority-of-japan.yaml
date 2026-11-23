@@ -1,0 +1,49 @@
+id: geospatial-information-authority-of-japan
+kind: organisation
+name: Geospatial Information Authority of Japan
+also_known_as:
+- 国土地理院
+- GSI
+scope: jp
+sector: government
+roles:
+- governs
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: Japan’s only national administrative body for surveying and maps produced the GSI
+  Dataset through fiscal 2018–2022 research on automatic feature extraction with AI.
+facts:
+- claim: The only national administrative body for surveying and maps in Japan.
+  url: https://www.mlit.go.jp/saiyojoho/data/r02gyoumu_12.pdf
+  fetched: 2026-11-02
+  quote: 国土地理院は、我が国の測量・地図に係る唯一の国家行政機関として、土地の測量及び地図の調製に関する
+- claim: An MLIT document says it was secretariat of the Global Map international steering
+    committee.
+  url: https://www.mlit.go.jp/common/000028036.pdf
+  fetched: 2026-11-02
+  quote: プロジェクトの進行管理は地球地図国際運営委員会（事務局：国土地理院）が担当。
+- claim: Ran a special research project on automatic feature extraction with AI from fiscal
+    2018 to fiscal 2022, which produced the GSI Dataset.
+  url: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+  fetched: '2026-11-02'
+  quote: 本データセットは、国土地理院の特別研究「ＡＩを活用した地物自動抽出に関する研究（平成30年度～令和４年度）」の研究成果として作成されたものです。
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing
+links:
+- type: builds
+  to: gsi-dataset
+  url: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+  fetched: '2026-11-02'
+  quote: 本データセットは、国土地理院の特別研究「ＡＩを活用した地物自動抽出に関する研究（平成30年度～令和４年度）」の研究成果として作成されたものです。

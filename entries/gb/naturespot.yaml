@@ -1,0 +1,41 @@
+id: naturespot
+kind: organisation
+name: NatureSpot
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+hq: gb
+scale: local
+status: active
+website: https://www.naturespot.org.uk
+summary: Community wildlife recording website for Leicestershire and Rutland, which takes
+  records through the iRecord app.
+facts:
+- claim: Publishes the dataset "All taxa records for Leicestershire and Rutland" on GBIF.
+  url: https://api.gbif.org/v1/organization/1c6f1c68-6ba9-4e36-97c7-8a58315d8698/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: All taxa records for Leicestershire and Rutland
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/1c6f1c68-6ba9-4e36-97c7-8a58315d8698/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Companies House lists NATURESPOT, company number 07036856, as converted/Closed on
+    17 April 2026.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=naturespot
+  quote: NATURESPOT 07036856 - Converted/Closed on 17 April 2026 71 Church Lane, Ratby, Leicestershire,
+    LE6 0JF
+  fetched: '2026-10-31'
+- claim: The Charity Commission register lists it as charity 1138852 at Ratby, Leicestershire.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5013441/contact-information
+  quote: 69-71 Church Lane Ratby Leicester LE6 0JF
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

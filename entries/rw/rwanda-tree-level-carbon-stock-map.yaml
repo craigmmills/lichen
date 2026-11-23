@@ -1,0 +1,65 @@
+id: rwanda-tree-level-carbon-stock-map
+kind: dataset
+name: Nation-wide map of tree-level aboveground carbon stocks in Rwanda
+scope: rw
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- rw
+status: active
+runner: unknown
+summary: National dataset mapping carbon stock of individual trees in Rwanda, built by the
+  University of Copenhagen and Maurice Mugabowindekwe; a 2022 release reported over 350 million
+  trees mapped, with natural forests holding about 51% of tree carbon.
+facts:
+- claim: A University of Copenhagen release dated 22 December 2022 said Rwanda was the first
+    country with a national inventory based on mapping the carbon stock of each individual
+    tree, using a method its researchers developed with Rwandan authorities and researchers.
+  url: https://www.eurekalert.org/news-releases/975097
+  fetched: '2026-11-12'
+  quote: As the first country, Rwanda can now present a national inventory based on a mapping
+    of the carbon stock of each individual tree.
+- claim: The release says the model was trained on about 97,500 manually delineated tree crowns
+    across the country.
+  url: https://www.eurekalert.org/news-releases/975097
+  fetched: '2026-11-12'
+  quote: In the Rwandan study, the computer was trained on a set of some 97,500 manually delineated
+    tree crowns
+  ai_type: ml-supervised
+- claim: The release says the 2008 and 2009 images at 0.25 m resolution came from the Rwanda
+    Land Management and Use Authority and the University of Rwanda, and more than 350 million
+    trees were mapped.
+  url: https://www.eurekalert.org/news-releases/975097
+  fetched: '2026-11-12'
+  quote: These images were collected in June-August 2008 and 2009 and were provided by the
+    Rwanda Land Management and Use Authority and the University of Rwanda. More than 350 million
+    trees were mapped.
+- claim: The release says natural forests hold 11% of the trees but about 51% of Rwanda's
+    national tree carbon stock.
+  url: https://www.eurekalert.org/news-releases/975097
+  fetched: '2026-11-12'
+  quote: the relatively small proportion of trees which are found in natural forests – 11
+    % of the total tree count – comprise about 51 % of the national carbon stock of Rwanda
+- claim: The release says Rwandan authorities asked Mugabowindekwe for an updated mapping
+    from 2019 aerial images, then under way.
+  url: https://www.eurekalert.org/news-releases/975097
+  fetched: '2026-11-12'
+  quote: He was immediately tasked by the Rwandan authorities with an updated mapping based
+    on newer aerial images acquired in 2019.
+links:
+- type: built-by
+  to: university-of-copenhagen
+  url: https://www.eurekalert.org/news-releases/975097
+  fetched: '2026-11-12'
+  quote: Researchers at University of Copenhagen have developed a method to achieve this task
+    in collaboration with Rwandan authorities and researchers.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

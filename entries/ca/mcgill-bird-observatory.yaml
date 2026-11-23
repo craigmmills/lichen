@@ -1,0 +1,47 @@
+id: mcgill-bird-observatory
+kind: programme
+name: McGill Bird Observatory
+also_known_as: []
+scope: ca
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+countries:
+- ca
+status: active
+summary: A Migration Research Foundation project with a migration monitoring station
+  on McGill-owned land, listed as a station of the Canadian Migration Monitoring Network.
+facts:
+- claim: A project of the Migration Research Foundation that operates a migration
+    monitoring station on McGill-owned land.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: McGill Bird Observatory is a project of the Migration Research Foundation,
+    and has affiliations with McGill University in Montreal, Quebec. MBO operates
+    a migration monitoring station
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: run-by
+  to: migration-research-foundation
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: McGill Bird Observatory is a project of the Migration Research Foundation,
+    and has affiliations with McGill University in Montreal, Quebec. MBO operates
+    a migration monitoring station
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

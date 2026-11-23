@@ -1,0 +1,70 @@
+id: sokoine-university-of-agriculture
+kind: organisation
+name: Sokoine University of Agriculture
+also_known_as:
+- SUA
+scope: tz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: tz
+countries:
+- tz
+scale: national
+status: active
+summary: A public university in Morogoro listing the National Carbon Monitoring Centre, with
+  an affiliated first author of a 2025 paper comparing machine learning models for drone-derived
+  miombo biomass estimates.
+facts:
+- claim: Says it is a public university in Morogoro.
+  url: https://suanet.ac.tz/project/establishing-national-carbon-monitoring-centre-tanzania-ncmc
+  fetched: 2026-11-08
+  quote: Sokoine University of Agriculture (SUA) is a public University based in Morogoro
+    Municipality Tanzania.
+- claim: Lists the National Carbon Monitoring Centre among its research centres.
+  url: https://suanet.ac.tz/project/establishing-national-carbon-monitoring-centre-tanzania-ncmc
+  fetched: 2026-11-08
+  quote: Research Centres National Carbon Monitoring Centre (NCMC)
+- claim: EAMCEF says SUA was among the institutions leading five applied biodiversity and
+    climate change research projects it funded in 2024/2025.
+  url: https://easternarc.or.tz/eamcef-2024-2025-grant-awards-investing-in-the-future-of-the-eastern-arc-mountains/
+  fetched: 2026-11-08
+  quote: Additionally, five Applied Biodiversity and Climate Change Research initiatives led
+    by institutions like Sokoine University of Agriculture were granted Tsh 146 million to
+    drive data-led conservation strategies.
+- claim: A 2025 paper compares machine learning models for estimating biomass from drone data
+    in miombo woodlands.
+  url: https://api.openalex.org/works/W4407724886?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Comparative evaluation of machine learning models for UAV-derived biomass estimation
+    in Miombo Woodlands
+- claim: The first author of the 2025 paper, Goodluck S. Melitha, gave an affiliation in SUA's
+    College of Forest, Wildlife and Tourism in Morogoro.
+  url: https://api.openalex.org/works/W4407724886?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Department of Forest Resources Assessment and Management, College of Forest Wildlife
+    and Tourism, Sokoine University Agriculture, Morogoro, Tanzania
+- claim: Its Department of Ecosystems and Conservation lists a project developing curricula
+    for biodiversity monitoring in Tanzania.
+  url: http://www.cfwt.sua.ac.tz/forestrybiology/
+  fetched: 2026-11-08
+  quote: Developing curricula for biodiversity monitoring and conservation in Tanzania (CONTAN)
+links:
+- type: funded-by
+  to: eastern-arc-mountains-conservation-endowment-fund
+  url: https://easternarc.or.tz/eamcef-2024-2025-grant-awards-investing-in-the-future-of-the-eastern-arc-mountains/
+  fetched: 2026-11-08
+  quote: Additionally, five Applied Biodiversity and Climate Change Research initiatives led
+    by institutions like Sokoine University of Agriculture were granted Tsh 146 million to
+    drive data-led conservation strategies.
+  year: 2025
+found_by:
+- link-from:national-carbon-monitoring-centre-tanzania
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08
+techniques:
+- remote-sensing

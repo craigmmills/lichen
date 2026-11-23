@@ -1,0 +1,32 @@
+id: atlantic-cloud
+kind: dataset
+name: Atlantic Cloud
+scope: pt
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- remote-sensing
+scale: regional
+status: active
+summary: Dataset run by the AIR Centre, which says it is making Atlantic basin geospatial data freely
+  available; its catalogue holds 14 MODIS collections.
+facts:
+- claim: The AIR Centre says it is making geospatial data from across the Atlantic basin freely available.
+  url: https://aircentre.org/en/news/open-access-to-earth-observation-meteorology-and-ocean-data-on-the-atlantic-cloud
+  fetched: '2026-11-02'
+  quote: The AIR Centre is making geospatial data from across the Atlantic basin freely available
+- claim: Its catalogue holds 14 MODIS collections.
+  url: https://aircentre.org/en/news/open-access-to-earth-observation-meteorology-and-ocean-data-on-the-atlantic-cloud
+  fetched: '2026-11-02'
+  quote: The catalogue currently holds 14 MODIS collections
+links:
+- type: run-by
+  to: air-centre
+  url: https://aircentre.org/en/news/open-access-to-earth-observation-meteorology-and-ocean-data-on-the-atlantic-cloud
+  fetched: '2026-11-02'
+  quote: The AIR Centre is making geospatial data from across the Atlantic basin freely available
+found_by:
+- link-from:air-centre
+added_by: agent
+checked: '2026-11-02'

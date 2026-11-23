@@ -1,0 +1,39 @@
+id: universidad-mayor-de-san-andres
+kind: organisation
+name: Universidad Mayor de San Andrés
+scope: bo
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- bo
+scale: national
+status: active
+summary: Bolivian university that OpenAlex gives as the first author's institution
+  on a 2024 remote-sensing paper about asaí, majo and cacao, and as host of the journal
+  CIBUM SCIENTIA.
+facts:
+- claim: OpenAlex gives the university as the institution of the first author of a
+    2024 remote-sensing paper on asaí, majo and cacao spectral signatures in the northern
+    Amazon of La Paz.
+  url: https://api.openalex.org/works/W4407687839?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: Instituto de Investigaciones Geogr\u00e1ficas , Carrera de Ingenier\u00eda
+    Geogr\u00e1fica , Universidad Mayor de San Andr\u00e9s , Bolivia
+- claim: OpenAlex lists the university as host of the journal CIBUM SCIENTIA, where
+    the paper appeared.
+  url: https://api.openalex.org/works/W4407687839?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-12
+  quote: '"display_name":"CIBUM SCIENTIA"'
+links: []
+found_by:
+- rule:checklist-misses
+- checklist:3
+added_by: agent
+checked: 2026-11-12

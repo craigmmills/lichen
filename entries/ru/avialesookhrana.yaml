@@ -1,0 +1,40 @@
+id: avialesookhrana
+kind: organisation
+name: Avialesookhrana
+also_known_as:
+- ФБУ «Авиалесоохрана»
+scope: ru
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: According to a March 2026 report by the 360 television channel, it manages
+  ISDM-Rosleshoz, a remote monitoring system that tracks fires in real time.
+facts:
+- claim: A March 2026 report by the 360 television channel says the ISDM-Rosleshoz
+    remote monitoring information system is managed by Avialesookhrana and tracks
+    fires in real time.
+  url: https://360.ru/news/mosobl/spetsialisty-mosoblkomlesa-izuchili-sistemu-monitoringa-lesnyh-pozharov/
+  fetched: '2026-11-09'
+  quote: Эксперты ознакомились с возможностями информационной системы дистанционного
+    мониторинга (ИДСМ-Рослесхоз), управляемой ФБУ «Авиалесоохрана». Эта система позволяет
+    отслеживать возгорания в реальном времени
+links:
+- type: runs
+  to: isdm-rosleshoz
+  url: https://360.ru/news/mosobl/spetsialisty-mosoblkomlesa-izuchili-sistemu-monitoringa-lesnyh-pozharov/
+  fetched: '2026-11-09'
+  quote: информационной системы дистанционного мониторинга (ИДСМ-Рослесхоз), управляемой
+    ФБУ «Авиалесоохрана»
+found_by:
+- rule:checklist-misses
+- link-from:isdm-rosleshoz
+added_by: agent
+checked: '2026-11-09'

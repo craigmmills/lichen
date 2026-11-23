@@ -1,0 +1,54 @@
+id: faunabit
+kind: organisation
+name: Faunabit
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: Produces, sells, leases and supports the DIOPSIS insect camera.
+scope: nl
+facts:
+- claim: Listed on the DIOPSIS site as responsible for production, sale, lease and support
+    of the camera.
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Productie, verkoop, lease en support van de DIOPSIS insectencamera.
+- claim: Produces, leases and sells the DIOPSIS cameras.
+  url: https://diopsis.eu/en/diopsis-insectencamera-update-mei-2021/
+  fetched: &id001 2026-10-31
+  quote: De start-up Faunabit produceert, least en verkoopt de camera’s.
+- claim: Runs the DIOPSIS web portal through which users monitor their insect cameras.
+  url: https://diopsis.eu/en/insectencamera/
+  fetched: '2026-10-31'
+  quote: Via het DIOPSIS webportaal van Faunabit kunnen gebruikers hun insectencamera’s monitoren.
+- claim: Its website gives details and ordering for the camera.
+  url: https://diopsis.eu/en/insectencamera/
+  fetched: '2026-10-31'
+  quote: Kijk voor meer informatie over de DIOPSIS insectencamera en de bestelmogelijkheden
+    op de website van Faunabit.
+links:
+- type: partners-with
+  to: diopsis
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Productie, verkoop, lease en support van de DIOPSIS insectencamera.
+- type: partners-with
+  to: diopsis
+  url: https://diopsis.eu/en/diopsis-insectencamera-update-mei-2021/
+  fetched: *id001
+  quote: De start-up Faunabit produceert, least en verkoopt de camera’s.
+found_by:
+- checklist:5
+- link-from:naturalis-biodiversity-center
+- link-from:diopsis
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl

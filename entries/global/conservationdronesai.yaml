@@ -1,0 +1,32 @@
+id: conservationdronesai
+kind: programme
+name: ConservationDronesAI
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Work by the Conservation Drones team on deep learning models that detect animals, their signs and objects such as cars and people, with models shared on GitHub.
+facts:
+- claim: The Conservation Drones team says it develops deep learning models to detect animals, their signs and objects of relevance.
+  url: https://conservationdrones.org/conservationdronesai
+  quote: The conservationdrones team is involved in developing deep learning models for detection of animals, their signs, and objects of relevance such as cars, people to support conservation efforts.
+  fetched: '2026-10-30'
+- claim: "The team develops deep learning models for detecting animals and their signs."
+  url: https://conservationdrones.org/conservationdronesai
+  fetched: '2026-10-30'
+  quote: "is involved in developing deep learning models for detection of animals"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: conservation-drones
+  url: https://conservationdrones.org/conservationdronesai
+  quote: "ConservationDronesAI The conservationdrones team is involved in developing deep learning models"
+  fetched: '2026-10-30'
+found_by:
+- link-from:conservation-drones
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,30 @@
+id: salesforce
+kind: organisation
+name: Salesforce
+scope: global
+sector: company
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+hq: us
+scale: global
+status: active
+website: https://www.salesforce.com
+summary: Software company that funds nature-based work through its Accelerator for Nature
+  and related grants, including remote sensing and acoustic monitoring projects.
+facts:
+- claim: Announced nearly $3 million in additional nature-related grants at COP15.
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: &id001 2026-10-30
+  quote: Salesforce also announced nearly $3 million in additional nature-related grants
+- claim: Headquartered in San Francisco.
+  url: https://en.wikipedia.org/wiki/Salesforce
+  fetched: 2026-10-30
+  quote: Salesforce Tower in San Francisco, the headquarters of Salesforce
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

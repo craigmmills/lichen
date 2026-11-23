@@ -1,0 +1,29 @@
+id: fish-and-climate-change-database
+kind: dataset
+name: Fish and Climate Change Database
+scope: us
+ai_label: ai
+realms:
+- freshwater
+status: unknown
+summary: Interior Department database that uses natural language processing to automate
+  parts of its literature review.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Fish and Climate Change Database (FiCli) Automates certain portions of
+    the review process to increase efficiency in maintaining and updating the database
+    . Natural Language Processing Organization & Efficiency Ongoing project
+links:
+- type: run-by
+  to: us-department-of-the-interior
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: DOI Fish and Climate Change Database (FiCli) Automates certain portions of
+    the review process to increase efficiency in maintaining and updating the database
+    . Natural Language Processing Organization & Efficiency Ongoing project
+found_by:
+- link-from:us-department-of-the-interior
+added_by: agent
+checked: '2026-10-30'

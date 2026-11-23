@@ -1,0 +1,74 @@
+id: instituto-homem-pantaneiro
+kind: organisation
+name: Instituto Homem Pantaneiro
+also_known_as:
+- IHP
+scope: br
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+hq: br
+scale: local
+status: active
+website: https://institutohomempantaneiro.org.br/
+summary: Pantanal organisation that uses the Pantera AI camera system to detect fire, working
+  from Corumbá.
+facts:
+- claim: Uses AI to monitor and fight fires in the Pantanal, covering about 1.3 million hectares
+    in Brazil and Bolivia.
+  url: https://www.tribunadosertao.com.br/brasil/2025/02/11/716799-guardia-do-pantanal-ia-e-usada-para-monitorar-bioma-do-espaco-a-terra-video
+  fetched: '2026-10-30'
+  quote: O sistema cobre cerca de 1,3 milhão de hectares, incluindo áreas no Brasil e na Bolívia
+- claim: Its headquarters is on Ladeira José Bonifácio in central Corumbá.
+  url: https://www.campograndenews.com.br/cidades/interior/abrace-pantanal-sera-lancado-nesta-4a-para-monitorar-2-5-milhoes-de-hectares
+  fetched: '2026-10-30'
+  quote: na sede do IHP, que fica na Ladeira José Bonifácio, Centro de Corumbá
+- claim: Its headquarters are named as being in Corumbá.
+  url: https://institutohomempantaneiro.org.br/mpms-e-ihp-firmam-acordo-para-uso-de-ia-para-combater-incendios-no-pantanal/
+  fetched: '2026-10-30'
+  quote: na sede do IHP, em Corumbá (MS)
+- claim: Maintains the Pantera monitoring system with Um Grau e Meio.
+  url: https://institutohomempantaneiro.org.br/mpms-e-ihp-firmam-acordo-para-uso-de-ia-para-combater-incendios-no-pantanal/
+  fetched: '2026-10-30'
+  quote: que é mantido pelo IHP em parceria com a startup Um Grau e Meio
+- claim: Its own site gives its address in Corumbá, Mato Grosso do Sul.
+  url: https://institutohomempantaneiro.org.br/contato/
+  quote: Rua Ladeira José Bonifácio, 171 - Porto Geral Corumbá - MS
+  fetched: '2026-10-31'
+- claim: Its own site says it operates the Pantera AI monitoring system.
+  url: https://institutohomempantaneiro.org.br/
+  quote: O Sistema Pantera, tecnologia de monitoramento com inteligência artificial operada
+    pelo Instituto Homem Pantaneiro
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: umgrauemeio
+  url: https://www.campograndenews.com.br/cidades/interior/abrace-pantanal-sera-lancado-nesta-4a-para-monitorar-2-5-milhoes-de-hectares
+  fetched: '2026-10-30'
+  quote: uma parceria articulada entre a empresa de tecnologia paulista, “Um grau e meio”,
+    a Brigada Aliança, o IHP (Instituto Homem Pantaneiro)
+- type: partners-with
+  to: abrace-o-pantanal
+  url: https://www.campograndenews.com.br/cidades/interior/abrace-pantanal-sera-lancado-nesta-4a-para-monitorar-2-5-milhoes-de-hectares
+  fetched: '2026-10-30'
+  quote: uma parceria articulada entre a empresa de tecnologia paulista, “Um grau e meio”,
+    a Brigada Aliança, o IHP (Instituto Homem Pantaneiro)
+- type: runs
+  to: pantera
+  url: https://institutohomempantaneiro.org.br/mpms-e-ihp-firmam-acordo-para-uso-de-ia-para-combater-incendios-no-pantanal/
+  fetched: '2026-10-30'
+  quote: que é mantido pelo IHP em parceria com a startup Um Grau e Meio
+found_by:
+- checklist:4
+- link-from:umgrauemeio
+added_by: agent
+checked: '2026-10-31'
+countries:
+- br
+- bo

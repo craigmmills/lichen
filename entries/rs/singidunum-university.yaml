@@ -1,0 +1,52 @@
+id: singidunum-university
+kind: organisation
+name: Singidunum University
+also_known_as:
+- Univerzitet Singidunum
+scope: rs
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- rs
+scale: national
+status: active
+summary: Belgrade university whose affiliated authors published 2025 and 2026 papers
+  using convolutional networks to classify bird calls from audio for African, South
+  American and Australian birds.
+facts:
+- claim: The first author of a 2025 paper on optimising convolutional networks to
+    identify African bird calls is affiliated with Singidunum University.
+  url: https://api.openalex.org/works/W4415602109?select=id,title,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Convolutional Network Optimization for Call Identification of African Bird
+    Species Using Modified Metaheuristics
+- claim: The authors' affiliation on that paper is Singidunum University, Belgrade.
+  url: https://api.openalex.org/works/W4415602109?select=id,title,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Singidunum University, Belgrade, Serbia
+- claim: A staff profile on the university's site lists a 2026 paper classifying South
+    American birds from audio with convolutional networks and boosting models.
+  url: https://eng.singidunum.ac.rs/profile/nbacanindzakula
+  fetched: 2026-11-13
+  quote: Classifying birds of South America via audio analysis using convolutional
+    networks and boosting models optimized by metaheuristics
+- claim: A staff profile lists a 2025 paper on classifying Australian birds from audio
+    with convolutional networks optimised by metaheuristics.
+  url: https://eng.singidunum.ac.rs/profile/nbacanindzakula
+  fetched: 2026-11-13
+  quote: Classifying Birds of Australia via Audio Analysis with Convolutional Networks
+    Optimized by Metaheuristics
+  ai_type: deep-learning
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

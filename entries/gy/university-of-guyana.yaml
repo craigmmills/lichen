@@ -1,0 +1,40 @@
+id: university-of-guyana
+kind: organisation
+name: University of Guyana
+scope: gy
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- gy
+scale: national
+status: active
+summary: Guyanese university affiliated with all four authors of a 2024 mangrove remote
+  sensing paper, whose graduate research school appears in a 2023 logging roads mammal
+  paper.
+facts:
+- claim: All four authors of the 2024 mangrove remote sensing paper are affiliated
+    with the University of Guyana.
+  url: https://api.openalex.org/works?filter=doi:10.2112/jcr-si113-107.1|10.1016/j.foreco.2023.121401&select=display_name,publication_year,doi,authorships
+  fetched: '2026-11-12'
+  quote: Spatio-Temporal Analysis of Mangrove Ecosystems and Hydrological Regimes
+    in Coastal Guyana Using Remote Sensing
+- claim: The first author of a 2023 paper on terrestrial mammals' use of logging roads
+    in Guyana lists Iwokrama and the University of Guyana's School of Graduate Studies
+    and Research.
+  url: https://api.openalex.org/works?filter=doi:10.2112/jcr-si113-107.1|10.1016/j.foreco.2023.121401&select=display_name,publication_year,doi,authorships
+  fetched: '2026-11-12'
+  quote: School of Graduate Studies and Research, University of Guyana, Turkeyen,
+    Guyana
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

@@ -1,0 +1,37 @@
+id: kotebe-university-of-education
+kind: organisation
+name: Kotebe University of Education
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University that OpenAlex lists as the affiliation of the first author of a 2024 paper
+  on machine learning models to assess and project land use and land cover change in the Guder
+  watershed.
+facts:
+- claim: OpenAlex lists a 2024 paper on machine learning models to assess and project land
+    use and land cover change in the Guder watershed.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: Assessing and projecting land use land cover changes using machine learning models
+    in the Guder watershed, Ethiopia
+- claim: OpenAlex lists Sintayehu Fetene Demessie, first author of that paper, at Kotebe University
+    of Education.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=4
+  fetched: '2026-11-08'
+  quote: College of Business, Technology and Vocational Education, Kotebe University of Education,
+    P.O. Box 31248, Addis Ababa, Ethiopia
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

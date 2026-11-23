@@ -1,0 +1,38 @@
+id: kenya-natural-resource-atlas
+kind: dataset
+name: Kenya Natural Resource Atlas and Geoportal
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ke
+status: active
+summary: National atlas and online geoportal that maps and documents Kenya's natural resources,
+  launched by the National Land Commission and FAO. Counties were asked to use it as a baseline
+  for their own atlases.
+facts:
+- claim: Seeks to identify, map and document all natural resources in Kenya.
+  url: https://landcommission.go.ke/?p=19998
+  quote: Identify, map and document all natural resources in Kenya
+  fetched: '2026-10-31'
+- claim: County governments were asked to use it as a baseline.
+  url: https://landcommission.go.ke/?p=19998
+  quote: I want call upon the County Governments to use the information in the atlas as baseline
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: national-land-commission
+  url: https://landcommission.go.ke/?p=19998
+  quote: The National Land Commission in collaboration with the Food and Agriculture Organization
+    of the United Nations
+  fetched: '2026-10-31'
+- type: partners-with
+  to: food-and-agriculture-organization
+  url: https://landcommission.go.ke/?p=19998
+  quote: in collaboration with the Food and Agriculture Organization of the United Nations
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

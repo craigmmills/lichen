@@ -1,0 +1,81 @@
+id: instituto-de-hidrologia-meteorologia-y-estudios-ambientales
+kind: organisation
+name: Instituto de Hidrología, Meteorología y Estudios Ambientales
+also_known_as:
+- IDEAM
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: co
+scale: national
+website: https://www.ideam.gov.co
+summary: Colombia's hydrology, meteorology and environmental studies institute. With the environment
+  ministry it set up the Sistema de Monitoreo de Bosques y Carbono.
+facts:
+- claim: With the environment ministry, set up the SMByC as the official scientific tool for
+    continuous monitoring.
+  url: https://visionamazonia.minambiente.gov.co/content/uploads/2023/04/SMByC_Resumen-ejecutivo.pdf
+  quote: como la herramienta científica oficial
+  fetched: '2026-10-31'
+- claim: Its forest monitoring system generates official information on forest area and change
+    and early deforestation alerts.
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  fetched: '2026-10-31'
+  quote: Generar la información oficial sobre la superficie y cambios del bosque natural y
+    alertas tempranas de deforestación.
+- claim: Microsoft says IDEAM provides the official deforestation reports for Colombia and
+    will use Project Guacamaya models in its reporting.
+  url: https://news.microsoft.com/source/2024/09/25/project-guacamaya-uses-daily-satellite-images-amazon-specific-ai-models-in-battle-against-deforestation/
+  fetched: '2026-10-31'
+  quote: which provides the official deforestation reports for Colombia, will now use Project
+    Guacamaya’s models in its reporting
+- claim: Office address in Bogotá.
+  url: https://www.ideam.gov.co/
+  fetched: '2026-10-31'
+  quote: 'Dirección ventanilla única de radicación: Calle 25 D No. 96 B - 70 Bogotá D.C.'
+- claim: Says it leads the production and update of national land-cover maps, in coordination
+    with bodies of the national environmental system.
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/coberturas-de-la-tierra
+  fetched: '2026-10-31'
+  quote: El IDEAM lidera la generación y actualización de los mapas nacionales de coberturas
+    de la tierra
+- claim: Publishes advances on deforestation risk maps for the Colombian Amazon.
+  url: https://ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/riesgo-de-deforestacion-en-la-amazonia-colombiana
+  fetched: '2026-10-31'
+  quote: avances en la construcción de mapas de riesgo
+links:
+- type: runs
+  to: sistema-de-monitoreo-de-bosques-y-carbono
+  url: https://www.minambiente.gov.co/modernizacion-en-el-monitoreo-de-bosques-una-de-las-claves-para-frenar-la-deforestacion/
+  quote: El Sistema de Monitoreo de Bosques y Carbono (SMByC) del Instituto de Hidrología,
+    Meteorología y Estudios Ambientales (Ideam)
+  fetched: '2026-10-31'
+- type: runs
+  to: sistema-de-monitoreo-de-bosques-y-carbono
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  fetched: '2026-10-31'
+  quote: Sistema de monitoreo de bosques y carbono | Instituto de Hidrología, Meteorología
+    y Estudios Ambientales
+- type: runs
+  to: sistema-de-monitoreo-de-bosques-y-carbono
+  url: https://www.ideam.gov.co/nuestra-entidad/ecosistemas-e-informacion-ambiental/sistema-monitoreo-bosques-carbono
+  quote: El Sistema de Monitoreo de Bosques y Carbono (SMByC) es el conjunto de procesos,
+    metodologías, protocolos y herramientas
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:project-guacamaya
+- register:gbif-publisher
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+countries:
+- co

@@ -1,0 +1,49 @@
+id: microsoft
+kind: organisation
+name: Microsoft
+scope: global
+sector: company
+roles:
+- builds-ai
+- supplies-data
+- funds
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+hq: us
+scale: global
+status: active
+website: https://www.microsoft.com
+summary: Technology company whose AI for Good Lab builds open biodiversity models and devices,
+  and which runs the Planetary Computer and ran the AI for Earth grant programme.
+facts:
+- claim: Launched AI for Earth in 2017 as a programme on water, agriculture, biodiversity
+    and climate change.
+  url: https://blogs.microsoft.com/on-the-issues/2017/07/12/announcing-ai-earth-microsofts-new-program-put-ai-work-future-planet/
+  fetched: &id001 2026-10-30
+  quote: we announced a new program called AI for Earth
+- claim: Says it wants to put AI in the hands of researchers working on water, agriculture,
+    biodiversity and climate change.
+  url: https://blogs.microsoft.com/on-the-issues/2017/07/12/announcing-ai-earth-microsofts-new-program-put-ai-work-future-planet/
+  fetched: *id001
+  quote: important issues related to water, agriculture, biodiversity and climate change
+- claim: Headquartered in Redmond, Washington.
+  url: https://en.wikipedia.org/wiki/Microsoft
+  fetched: 2026-10-30
+  quote: Headquarters Microsoft campus, Redmond, Washington
+- claim: PyTorch-Wildlife is a Microsoft deep learning framework.
+  url: https://github.com/microsoft/Pytorch-Wildlife
+  fetched: 2026-10-30
+  quote: The Microsoft collaborative deep learning framework for conservation.
+  ai_type: deep-learning
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

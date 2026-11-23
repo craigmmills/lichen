@@ -1,0 +1,78 @@
+id: sr16
+kind: dataset
+name: SR16 forest resource map
+also_known_as:
+- SR16
+- Skogressurskart
+- Norwegian Forest Resource Map
+- Skogressurskart SR16
+- Forest resource map SR16
+- SkogRessurskart
+scope: 'no'
+summary: A nationwide dataset of Norway's forest resources on a 16 by 16 metre grid, combining field plots
+  with remote sensing data, run by the Norwegian Institute of Bioeconomy Research.
+facts:
+- claim: Gives detailed information about Norway's forest at a 16 by 16 metre grid.
+  url: https://nibio.no/en/news/digital-forest-maps-provide-new-opportunities
+  fetched: '2026-11-02'
+  quote: SR16 stands for "SkogRessurskart" (forest resource map), on which the pixel size (grid) is 16
+    x 16 meters.
+- claim: Combines field plots with remote sensing data.
+  url: https://nibio.no/en/news/digital-forest-maps-provide-new-opportunities
+  fetched: '2026-11-02'
+  quote: It is based on a combination of the National Forest Inventory's ground-based field sample plots
+    and remote sensing data.
+- claim: Made by automatic processing of remote sensing, terrain and map data.
+  url: https://nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: '2026-11-02'
+  quote: Datasettet er fremstilt gjennom automatisk prosessering av 3D fjernmålingsdata (fotogrammetri
+    og laser), terrengmodeller, satellittdata, eksisterende kartdata (AR5) og data fra Landsskogflater.
+- claim: Available from Kilden and for download on Geonorge.
+  url: https://nibio.no/en/news/digital-forest-maps-provide-new-opportunities
+  fetched: '2026-11-02'
+  quote: is available from Kilden and for download on Geonorge
+- claim: A complete dataset giving an overview of the extent and properties of Norway's forest resources.
+  url: https://www.nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: '2026-11-02'
+  quote: SR16 er et heldekkende datasett som gir oversikt over utbredelsen og egenskaper ved landets skogressurser.
+- claim: Produced through automatic processing of 3D remote sensing data, terrain models, satellite data
+    and existing map data.
+  url: https://www.nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: '2026-11-02'
+  quote: Datasettet er fremstilt gjennom automatisk prosessering av 3D fjernmålingsdata
+- claim: A nationwide dataset showing the distribution and characteristics of Norway's forest resources.
+  url: https://nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: &id001 2026-11-02
+  quote: SR16 er et heldekkende datasett som gir oversikt over utbredelsen og egenskaper ved landets skogressurser.
+- claim: Based on National Forest Inventory plots and remote sensing data, with information on tree species,
+    biomass, stand age and other characteristics.
+  url: https://nibio.no/en/news/digital-forest-maps-provide-new-opportunities
+  fetched: *id001
+  quote: It includes information on tree species, biomass, stand age and other forest characteristics.
+links:
+- type: run-by
+  to: norwegian-institute-of-bioeconomy-research
+  url: https://www.nibio.no/nyheter/digitale-skogkart-gir-unike-muligheter-for-skognaeringen
+  fetched: '2026-11-02'
+  quote: Da vil NIBIOs digitale og oppdaterte skogressurskart komme til god nytte
+- type: uses
+  to: sentinel-2
+  url: https://nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+  fetched: *id001
+  quote: Laserinformasjon fra norsk detaljert høydemodell og Sentinel-2 data er viktige grunnlagsdata
+    i produksjonen av SR16.
+found_by:
+- checklist:2
+- link-from:norwegian-institute-of-bioeconomy-research
+added_by: agent
+checked: '2026-11-02'
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+website: https://nibio.no/tema/skog/kart-over-skogressurser/skogressurskart-sr16
+runner: unknown
+countries:
+- 'no'

@@ -1,0 +1,38 @@
+id: ecosystem-insights-hub
+kind: programme
+name: Ecosystem Insights Hub
+scope: global
+ai_label: ai
+ai_types: [ml-supervised, deep-learning]
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://connectedconservation.foundation/ecosystem-insights-hub/
+summary: Connected Conservation Foundation hub that helps local organisations integrate very high-resolution satellite imagery, AI and in-situ data for conservation.
+facts:
+- claim: Says it helps local organisations integrate very high-resolution imagery, AI and in-situ data.
+  url: https://connectedconservation.foundation/ecosystem-insights-hub/
+  quote: An overview of how we help local organisations integrate VHR satellite imagery, AI, and in-situ data to enhance conservation
+  fetched: 2026-10-30
+- claim: "Mask R-CNN was used to detect settlements in a hub case study."
+  url: https://connectedconservation.foundation/ecosystem-insights-hub/community-coexistence-for-endangered-ethiopian-wolves-in-the-bale-mountains-national-park-with-ai-driven-settlement-mapping/
+  fetched: 2026-10-30
+  quote: "The AI tool, Mask R-CNN, was used to detect settlements"
+  ai_type: deep-learning
+- claim: "The Mask R-CNN model was trained on manually annotated imagery."
+  url: https://connectedconservation.foundation/ecosystem-insights-hub/community-coexistence-for-endangered-ethiopian-wolves-in-the-bale-mountains-national-park-with-ai-driven-settlement-mapping/
+  fetched: 2026-10-30
+  quote: "a Mask R-CNN model was trained on manually annotated satellite imagery"
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: connected-conservation-foundation
+  url: https://connectedconservation.foundation/ecosystem-insights-hub/
+  quote: "Welcome to the Ecosystem Insights Hub An overview of how we help local organisations integrate VHR satellite imagery, AI, and in-situ data to enhance conservation, the Hub’s purpose, and a navigation guide."
+  fetched: 2026-10-30
+found_by:
+- link-from:connected-conservation-foundation
+added_by: agent
+checked: 2026-10-30

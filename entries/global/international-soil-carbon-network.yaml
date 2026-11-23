@@ -1,0 +1,32 @@
+id: international-soil-carbon-network
+kind: programme
+name: International Soil Carbon Network
+also_known_as:
+- ISCN
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://iscn.fluxdata.org
+runner: unknown
+summary: Science-based network that assembles soil carbon databases and shares data. It has a data-sharing agreement with ISRIC.
+facts:
+- claim: Facilitates data sharing and assembles soil carbon databases.
+  url: https://iscn.fluxdata.org/leadership-and-history/
+  quote: is a science-based network that facilitates data sharing, assembles databases
+  fetched: '2026-10-31'
+- claim: ISRIC reports a formal data-sharing agreement.
+  url: https://isric.org/about/partnerships-and-memberships/
+  quote: ISRIC and ISCN have a formal data-sharing agreement
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: isric-world-soil-information
+  url: https://isric.org/about/partnerships-and-memberships/
+  quote: ISRIC and ISCN have a formal data-sharing agreement
+  fetched: '2026-10-30'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

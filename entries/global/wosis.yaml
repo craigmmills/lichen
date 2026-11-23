@@ -1,0 +1,27 @@
+id: wosis
+kind: dataset
+name: World Soil Information Service
+also_known_as:
+- WoSIS
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+website: https://www.isric.org/explore/wosis
+summary: Centralised global soil database managed by ISRIC.
+facts:
+- claim: Described by ISRIC as a centralised global soil database.
+  url: https://www.isric.org/explore/wosis
+  quote: centralised global soil database, that is managed by ISRIC
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: isric-world-soil-information
+  url: https://www.isric.org/explore/wosis
+  quote: centralised global soil database, that is managed by ISRIC
+  fetched: '2026-10-30'
+found_by:
+- link-from:soilgrids
+added_by: agent
+checked: '2026-10-30'

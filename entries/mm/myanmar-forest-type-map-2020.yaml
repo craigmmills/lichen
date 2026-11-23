@@ -1,0 +1,45 @@
+id: myanmar-forest-type-map-2020
+kind: dataset
+name: Myanmar Forest Type Map 2020
+also_known_as: []
+scope: mm
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- mm
+status: active
+runner: unknown
+summary: Dataset showing nine forest types across Myanmar for 2020 at about 20 m resolution, made in Google
+  Earth Engine with a random forest algorithm and funded by a NASA programme.
+facts:
+- claim: Shows the distribution of nine forest types in Myanmar for 2020 at about 20 m resolution.
+  url: https://lcluc.umd.edu/metadatafiles/LCLUC-2017-PI-Leimgruber/Myanmar%20Forest%20Type%20Map%202020/READ%20ME.txt
+  fetched: 2026-11-12
+  quote: It shows the distribution of nine forest types in Myanmar for the year 2020.
+- claim: Developed in Google Earth Engine with a random forest algorithm.
+  ai_type: ml-supervised
+  url: https://lcluc.umd.edu/metadatafiles/LCLUC-2017-PI-Leimgruber/Myanmar%20Forest%20Type%20Map%202020/READ%20ME.txt
+  fetched: 2026-11-12
+  quote: The dataset was developed in Google Earth Engine using multiple input datasets and Random Forest
+    algorithm.
+- claim: Its citation credits the National Zoo and Smithsonian Conservation Biology Institute, with Myat
+    Su Mon among the authors.
+  url: https://lcluc.umd.edu/metadatafiles/LCLUC-2017-PI-Leimgruber/Myanmar%20Forest%20Type%20Map%202020/READ%20ME.txt
+  fetched: 2026-11-12
+  quote: 'Biswas, Sumalika; Huang, Qiongyu; Aung, Myint; Arnold, Franz; Mon, Myat Su; Leimgruber, Peter
+    (2021): Myanmar Forest Type Map 2020. National Zoo and Smithsonian Conservation Biology Institute.'
+links:
+- type: funded-by
+  to: nasa-land-cover-and-land-use-change-program
+  url: https://lcluc.umd.edu/metadatafiles/LCLUC-2017-PI-Leimgruber/Myanmar%20Forest%20Type%20Map%202020/READ%20ME.txt
+  fetched: 2026-11-12
+  quote: NASA Land Cover and Land Use Change Program, Grant no. NNX17AI14G
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,38 @@
+id: mygardenbird
+kind: dataset
+name: MyGardenBird
+scope: my
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- my
+status: active
+runner: unknown
+website: https://doi.org/10.5281/zenodo.20306876
+summary: A dataset of twelve bird species from Peninsular Malaysia and the wider region, holding 7,200
+  manually reviewed clips, with CNN baselines reported across three architectures.
+facts:
+- claim: Contains twelve bird species from Peninsular Malaysia and the wider region.
+  url: https://doi.org/10.5281/zenodo.20306876
+  fetched: 2026-11-03
+  quote: MyGardenBird is a machine-learning-ready bioacoustic dataset of twelve common bird species from
+    Peninsular Malaysia and the wider Indo-Malayan region.
+- claim: Holds 7,200 manually reviewed clips.
+  url: https://doi.org/10.5281/zenodo.20306876
+  fetched: 2026-11-03
+  quote: The primary release contains 7,200 manually reviewed three-second audio clips
+- claim: The record reports CNN baselines across three architectures.
+  url: https://doi.org/10.5281/zenodo.20306876
+  fetched: 2026-11-03
+  quote: CNN baselines across three architectures achieve 92–96% test
+  ai_type: deep-learning
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,44 @@
+id: izaak-walton-league
+kind: organisation
+name: Izaak Walton League of America
+also_known_as:
+- Izaak Walton League
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: us
+countries:
+- us
+scale: national
+website: https://www.iwla.org
+summary: US conservation group behind Save Our Streams, a volunteer stream monitoring programme
+  founded in 1969, and the Clean Water Hub water quality database.
+facts:
+- claim: Says Save Our Streams, founded in 1969, is the first and largest US community science
+    programme.
+  url: https://www.iwla.org/water
+  quote: Save Our Streams, founded in 1969, is the nation’s first and largest community science
+    program.
+  fetched: '2026-10-31'
+- claim: The IRS exempt organisation record, through ProPublica, lists Izaak Walton League
+    Of America Inc at Gaithersburg, Maryland.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/361930035.json
+  fetched: '2026-10-31'
+  quote: '"city":"Gaithersburg","state":"MD"'
+links:
+- type: runs
+  to: clean-water-hub
+  url: https://www.iwla.org/water
+  quote: Find out in the Clean Water Hub, a first-of-its-kind resource for information about
+    water quality across America.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

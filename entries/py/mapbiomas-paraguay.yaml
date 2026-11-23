@@ -1,0 +1,69 @@
+id: mapbiomas-paraguay
+kind: programme
+name: MapBiomas Paraguay
+also_known_as: []
+scope: py
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- py
+scale: national
+status: active
+summary: Active land cover mapping programme led by WWF Paraguay and Guyra Paraguay,
+  using Google Earth Engine, whose Collection 2 methods document describes random
+  forest classification and Landsat imagery.
+facts:
+- claim: The Collection 2 methods document says MapBiomas Paraguay is an initiative
+    of WWF and Guyra Paraguay.
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: MapBiomas Paraguay is an initiative of WWF and Guyra Paraguay.
+- claim: The document describes the steps used to produce MapBiomas Paraguay Collection
+    2.
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: steps to produce MapBiomas Paraguay Collection 2 and describe the datasets
+    and
+- claim: For the Oriental Region, random forest classification was applied year by
+    year for each subregion, using training samples.
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: subset of variables to train the respective random forest classifier.
+  ai_type: ml-supervised
+- claim: For the Occidental Region's Chaco workflow, the imagery used is Landsat Collection
+    2 Tier 1 Level-2 surface reflectance data.
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: All imagery corresponds to Landsat Collection 2 Tier 1 Level -2 surface reflectance
+    data
+- claim: The Collection 2 dataset is produced by integrating two biome-level collections.
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: Paraguay Collection 2 dataset is therefore produced by integrating these
+    two biome-level
+links:
+- type: led-by
+  to: wwf-paraguay
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: WWF Paraguay and Guyra Paraguay assumed joint co-leadership, harmonizing
+- type: led-by
+  to: guyra-paraguay
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: WWF Paraguay and Guyra Paraguay assumed joint co-leadership, harmonizing
+- type: uses
+  to: google-earth-engine
+  url: https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/04/ATBD-Paraguay-Col2.pdf
+  fetched: 2026-11-14
+  quote: classification tasks, and statistical analysis were all performed in Earth
+    Engine Python API.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

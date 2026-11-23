@@ -1,0 +1,49 @@
+id: banche-dati-naturalistiche-piemonte
+kind: dataset
+name: Banche Dati Naturalistiche
+also_known_as:
+- BDN
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+status: active
+summary: A database of Piedmont fauna and flora records from surveys, literature and
+  collections, supplied by volunteers and institutions, built by IPLA and the Gruppo
+  Piemontese Studi Ornitologici, with a tiered-access web platform.
+facts:
+- claim: Holds fauna and flora records collected over the years by the Piedmont region
+    from field surveys and observations, literature and collections.
+  url: https://www.regione.piemonte.it/web/temi/ambiente-territorio/biodiversita-aree-naturali/servizi-informativi-biodiversita-aree-naturali
+  fetched: 2026-11-08
+  quote: Le Banche Dati Naturalistiche (BDN) sono costituite dalle informazioni faunistiche
+    e floristiche raccolte nel corso degli anni da Regione Piemonte
+- claim: Records are supplied by volunteers, professionals, collaborators, protected-area
+    bodies and other institutions.
+  url: https://www.regione.piemonte.it/web/temi/ambiente-territorio/biodiversita-aree-naturali/servizi-informativi-biodiversita-aree-naturali
+  fetched: 2026-11-08
+  quote: Le informazioni contenute nelle BDN sono fornite da volontari, professionisti,
+    collaboratori, Enti di gestione delle aree protette
+- claim: Includes a web platform with access at different levels of detail for citizens
+    and public bodies.
+  url: https://www.regione.piemonte.it/web/temi/ambiente-territorio/biodiversita-aree-naturali/servizi-informativi-biodiversita-aree-naturali
+  fetched: 2026-11-08
+  quote: Il sistema delle BDN comprende una piattaforma web per la fruizione dei dati
+links:
+- type: built-by
+  to: ipla
+  url: https://www.regione.piemonte.it/web/temi/ambiente-territorio/biodiversita-aree-naturali/servizi-informativi-biodiversita-aree-naturali
+  fetched: 2026-11-08
+  quote: Il sistema delle BDN è stato sviluppato con la collaborazione di IPLA S.p.A
+    e del Gruppo Piemontese Studi Ornitologici ( GPSO )
+- type: built-by
+  to: gruppo-piemontese-studi-ornitologici
+  url: https://www.regione.piemonte.it/web/temi/ambiente-territorio/biodiversita-aree-naturali/servizi-informativi-biodiversita-aree-naturali
+  fetched: 2026-11-08
+  quote: Il sistema delle BDN è stato sviluppato con la collaborazione di IPLA S.p.A
+    e del Gruppo Piemontese Studi Ornitologici ( GPSO )
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

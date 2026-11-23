@@ -1,0 +1,28 @@
+id: underground-atlas
+kind: dataset
+name: Underground Atlas
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+- species-distribution
+status: active
+website: https://www.spun.earth
+summary: Interactive map and downloadable data of mycorrhizal fungal diversity created by SPUN and colleagues.
+facts:
+- claim: Interactive map created by SPUN and colleagues.
+  url: https://www.spun.earth/
+  fetched: '2026-10-30'
+  quote: A new interactive map, created by SPUN and colleagues
+links:
+- type: run-by
+  to: society-for-the-protection-of-underground-networks
+  url: https://www.spun.earth/underground-atlas
+  fetched: '2026-10-30'
+  quote: "These data products were developed jointly by the following contributors (in order of research article authorship): Michael E. Van Nuland (Society for the Protection of Underground Networks (SPUN)"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

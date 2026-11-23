@@ -1,0 +1,35 @@
+id: phenocam-network
+kind: programme
+name: PhenoCam Network
+also_known_as:
+- PhenoCam
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+website: https://phenocam.nau.edu/webcam/
+status: active
+summary: Cooperative phenological observatory that uses networked digital cameras
+  to track vegetation across North America and elsewhere, used to validate models
+  and satellite products.
+facts:
+- claim: Uses imagery from networked digital cameras.
+  url: https://phenocam.nau.edu/webcam/
+  fetched: '2026-10-30'
+  quote: uses imagery from networked digital cameras to track vegetation phenology
+- claim: Used for model validation and evaluating satellite data.
+  url: https://phenocam.nau.edu/webcam/
+  fetched: '2026-10-30'
+  quote: evaluation of satellite remote sensing data products
+links:
+- type: run-by
+  to: northern-arizona-university
+  url: https://phenocam.nau.edu/webcam/
+  fetched: '2026-10-30'
+  quote: Northern Arizona University
+found_by:
+- link-from:national-ecological-observatory-network
+added_by: agent
+checked: '2026-10-30'

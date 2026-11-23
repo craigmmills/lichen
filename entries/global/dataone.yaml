@@ -1,0 +1,38 @@
+id: dataone
+kind: programme
+name: DataONE
+scope: global
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.dataone.org
+summary: Community-driven programme giving access to Earth and environmental data across member repositories, administered at the National Center for Ecological Analysis and Synthesis.
+facts:
+- claim: Community driven programme across member repositories.
+  url: https://www.dataone.org/about/
+  fetched: '2026-10-30'
+  quote: DataONE is a community driven program providing access to data across multiple member repositories
+- claim: 'Gives access to data across member repositories.'
+  url: https://www.dataone.org/about/
+  fetched: 2026-10-30
+  quote: 'DataONE is a community driven program providing access to data across multiple member repositories'
+links:
+- type: run-by
+  to: national-center-for-ecological-analysis-and-synthesis
+  url: https://www.dataone.org/about/
+  fetched: '2026-10-30'
+  quote: "A new management team is formed and administrative oversight of DataONE begins transition to the National Center for Ecological Analysis and Synthesis at UC Santa Barbara."
+- type: funded-by
+  to: national-science-foundation
+  url: https://www.dataone.org/about/
+  fetched: 2026-10-30
+  quote: 'DataONE funded as a part of the NSF DataNet program'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,29 @@
+id: ornitho-eus
+kind: programme
+name: ornitho.eus
+scope: es
+ai_label: conservation-tech
+status: active
+realms:
+- land
+website: http://www.ornitho.eus/
+summary: Citizen science portal that gathers and shares naturalist records for the
+  Basque Country.
+facts:
+- claim: A citizen science portal for collecting and sharing naturalist information
+    in the Basque Autonomous Community.
+  url: https://api.gbif.org/v1/organization/823818f6-0696-4e29-bc4c-b6f3817535a7/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: es un portal de ciencia ciudadana dedicado a la recopilación y difusión de
+    información naturalista en la Comunidad Autónoma del País Vasco
+links:
+- type: run-by
+  to: sociedad-de-ciencias-aranzadi
+  url: https://api.gbif.org/v1/organization/823818f6-0696-4e29-bc4c-b6f3817535a7/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Es una iniciativa de la Sociedad de Ciencias Aranzadi
+found_by:
+- register:es
+- link-from:sociedad-de-ciencias-aranzadi
+added_by: agent
+checked: '2026-10-31'

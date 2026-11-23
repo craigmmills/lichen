@@ -1,0 +1,59 @@
+id: plymouth-marine-laboratory
+kind: organisation
+name: Plymouth Marine Laboratory
+also_known_as:
+- PML
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+- remote-sensing
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: Marine research body with NERC awards for decentralised learning in biodiversity
+  monitoring and for valuing marine biodiversity.
+facts:
+- claim: Registered at Companies House as PLYMOUTH MARINE LABORATORY LIMITED, company number
+    04114737.
+  url: https://find-and-update.company-information.service.gov.uk/search/companies?q=plymouth+marine+laboratory
+  quote: 04114737 - Incorporated on 27 November 2000
+  fetched: '2026-10-30'
+- claim: Is a charity doing marine research.
+  url: https://pml.ac.uk/news/funding-secured-for-automated-image-analysis-biodi
+  quote: PML is a charity, undertaking innovative, cutting-edge marine research
+  fetched: '2026-10-30'
+- claim: Names artificial intelligence and machine learning as a research area.
+  url: https://pml.ac.uk/news/funding-secured-for-automated-image-analysis-biodi
+  quote: Artificial intelligence and machine learning
+  fetched: '2026-10-30'
+- claim: A charity doing marine research.
+  url: https://pml.ac.uk/sciencetopics/autonomy-technology-and-digitisation/artificial-intelligence-and-machine-learning/
+  quote: PML is a charity, undertaking innovative, cutting-edge marine research
+  fetched: &id001 2026-10-30
+- claim: Applies AI and machine learning to environmental challenges.
+  url: https://pml.ac.uk/sciencetopics/autonomy-technology-and-digitisation/artificial-intelligence-and-machine-learning/
+  quote: We apply artificial intelligence and machine learning techniques to address environmental
+    challenges
+  fetched: *id001
+found_by:
+- checklist:3
+- link-from:partnership-for-observation-of-the-global-ocean
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: runs
+  to: automated-plankton-imaging-classification
+  url: https://pml.ac.uk/news/advanced-monitoring-of-plankton-using-ai-technolog/
+  quote: PML has been awarded £651k for its bespoke
+  fetched: *id001
+website: https://pml.ac.uk/

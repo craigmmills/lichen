@@ -1,0 +1,130 @@
+id: baikal-plankton-neural-network
+kind: model
+name: Baikal plankton neural network
+scope: ru
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- freshwater
+techniques:
+- computer-vision
+countries:
+- ru
+status: active
+summary: Neural network for telling zooplankton species apart in water-sample images,
+  published on GitHub under Apache 2.0; Yandex Cloud said in 2022 it worked with 70
+  plankton forms.
+facts:
+- claim: Published on GitHub under the Apache 2.0 licence.
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  quote: Алгоритм опубликован на GitHub по открытой лицензии Apache 2.0.
+  fetched: '2026-10-31'
+- claim: In December 2022, Yandex Cloud said the algorithm worked with 70 forms of
+    plankton.
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  quote: Сейчас алгоритм умеет работать с 70 формами планктона
+  fetched: '2026-10-31'
+- claim: Described as a neural network developed for Point No. 1.
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  quote: Изначально нейросеть разрабатывалась для проекта «Точка № 1»
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: In September 2022, Yandex Cloud said the network analysed images of water
+    samples and worked with 70 forms of plankton most often found in the samples.
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: Уже сейчас нейросеть умеет работать с 70 формами планктона, которые чаще
+    всего встречаются в пробах.
+- claim: Yandex Cloud names a neural network trained to tell zooplankton species apart.
+  url: https://yandex.cloud/ru/special/baikal/
+  fetched: '2026-10-31'
+  quote: В сервисе Yandex DataSphere обучили нейросеть различать виды байкальского
+    зоопланктона.
+  ai_type: deep-learning
+- claim: In September 2022, Snob reported that the programme could work with 70 forms
+    of plankton most often found in the samples, citing the company press service.
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: программа уже может работать с 70 формами планктона
+links:
+- type: built-by
+  to: yandex-cloud
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  quote: нейросеть разрабатывали компания MaritimeAI, команда платформы Yandex Cloud
+    и Фонд поддержки прикладных экологических разработок и исследований «Озеро Байкал».
+  fetched: '2026-10-31'
+- type: built-by
+  to: maritimeai
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  quote: нейросеть разрабатывали компания MaritimeAI, команда платформы Yandex Cloud
+    и Фонд поддержки прикладных экологических разработок и исследований «Озеро Байкал».
+  fetched: '2026-10-31'
+- type: built-by
+  to: institute-of-biology-irkutsk-state-university
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  quote: Вместе с учёными НИИ биологии Иркутского государственного университета
+  fetched: '2026-10-31'
+- type: built-by
+  to: lake-baikal-foundation
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  quote: нейросеть разрабатывали компания MaritimeAI, команда платформы Yandex Cloud
+    и Фонд поддержки прикладных экологических разработок и исследований «Озеро Байкал».
+  fetched: '2026-10-31'
+- type: built-by
+  to: yandex-cloud
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: нейросеть разрабатывали компания MaritimeAI, команда платформы Yandex Cloud
+    и Фонд поддержки прикладных экологических разработок и исследований «Озеро Байкал».
+- type: built-by
+  to: maritimeai
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: нейросеть разрабатывали компания MaritimeAI, команда платформы Yandex Cloud
+    и Фонд поддержки прикладных экологических разработок и исследований «Озеро Байкал».
+- type: built-by
+  to: lake-baikal-foundation
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: нейросеть разрабатывали компания MaritimeAI, команда платформы Yandex Cloud
+    и Фонд поддержки прикладных экологических разработок и исследований «Озеро Байкал».
+- type: built-by
+  to: institute-of-biology-irkutsk-state-university
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: Вместе с учёными НИИ биологии Иркутского государственного университета
+- type: built-by
+  to: irkutsk-state-university
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: Разработкой нейросети занимались команда Yandex Cloud, специалисты НИИ биологии
+    Иркутского государственного университета, компания MaritimeAI и Фонд поддержки
+    прикладных экологических разработок и исследований «Озеро Байкал»
+- type: built-by
+  to: yandex-cloud
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: Разработкой нейросети занимались команда Yandex Cloud, специалисты НИИ биологии
+    Иркутского государственного университета, компания MaritimeAI и Фонд поддержки
+    прикладных экологических разработок и исследований «Озеро Байкал»
+- type: built-by
+  to: maritimeai
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: Разработкой нейросети занимались команда Yandex Cloud, специалисты НИИ биологии
+    Иркутского государственного университета, компания MaritimeAI и Фонд поддержки
+    прикладных экологических разработок и исследований «Озеро Байкал»
+- type: built-by
+  to: lake-baikal-foundation
+  url: https://snob.ru/news/nejroset-pomozhet-uchenym-kontrolirovat-kachestvo-vody-bajkala/
+  fetched: '2026-10-31'
+  quote: Разработкой нейросети занимались команда Yandex Cloud, специалисты НИИ биологии
+    Иркутского государственного университета, компания MaritimeAI и Фонд поддержки
+    прикладных экологических разработок и исследований «Озеро Байкал»
+found_by:
+- checklist:7
+- link-from:yandex-cloud
+- link-from:irkutsk-state-university
+added_by: agent
+checked: '2026-10-31'

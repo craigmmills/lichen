@@ -1,0 +1,46 @@
+id: universidad-tecnologica-de-el-salvador-direccion-de-investigaciones
+kind: organisation
+name: Dirección de Investigaciones, Universidad Tecnológica de El Salvador
+also_known_as: []
+scope: sv
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: sv
+countries:
+- sv
+scale: local
+status: active
+summary: University research directorate listed as first author's affiliation on a
+  paper using remote sensing and GIS to analyse mangrove cover change in the Jiquilisco
+  Bay Ramsar site.
+facts:
+- claim: OpenAlex gives the directorate as the first author's affiliation on the paper
+    about mangrove cover dynamics in Jiquilisco Bay.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7162322298|W7223129869|W4388125297|W7168086568&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: Universidad Tecnol\u00f3gica de El Salvador, Direcci\u00f3n de Investigaciones,
+    San Salvador, El Salvador
+- claim: The paper analyses mangrove cover change in the Jiquilisco Bay Ramsar site
+    with remote sensing and GIS.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7162322298|W7223129869|W4388125297|W7168086568&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: Temporal Analysis of Mangrove Cover Dynamics Using Remote Sensing and GIS
+    in the Ramsar Site of Jiquilisco Bay, El Salvador
+- claim: OpenAlex lists Omar Otoniel Flores-Cortez, affiliated with Universidad Tecnológica
+    de El Salvador, as first author of a remote sensing study of mangrove cover changes
+    in the Barra de Santiago reserve.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7162322298|W7223129869|W4388125297|W7168086568&select=id,display_name,doi,authorships&per-page=10
+  fetched: 2026-11-12
+  quote: Remote Sensing Temporal Study of Mangrove Cover Changes in the Barra de Santiago
+    Reserve, El Salvador
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,69 @@
+id: wwf-mexico
+kind: organisation
+name: WWF México
+sector: ngo
+roles:
+- uses-ai
+- unknown
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: national
+status: active
+countries:
+- mx
+website: https://www.wwf.org.mx/
+summary: Organisation that says it uses AI for local mangrove carbon models and aims to automate
+  aquatic fauna identification, and which began monarch colony monitoring in 2004 and runs
+  Manglaria.
+scope: mx
+facts:
+- claim: Says it and its partners installed weather stations and camera traps and used drone
+    flights in two protected areas in Mexico.
+  url: https://www.wwf.org.mx/nuestro_trabajo/cambio_climatico/iniciativas_de_adaptacion/monitoreo_de_ecosistemas/
+  fetched: '2026-11-03'
+  quote: WWF y sus socios han instalado en campo una serie de sensores, como estaciones meteorológicas,
+    cámaras trampa y vuelos de dron en dos áreas naturales protegidas en México
+- claim: Says it uses AI to build local models of mangrove carbon capture.
+  url: https://www.wwf.org.mx/nuestro_trabajo/cambio_climatico/iniciativas_de_adaptacion/monitoreo_de_ecosistemas/
+  fetched: '2026-11-03'
+  quote: usamos la IA para construir modelos locales que nos ayudan a entender la respuesta
+    del ecosistema y su capacidad de captura de CO2
+- claim: Says it aims to develop algorithms to identify aquatic fauna automatically from photographs.
+  url: https://www.wwf.org.mx/nuestro_trabajo/cambio_climatico/iniciativas_de_adaptacion/monitoreo_de_ecosistemas/
+  fetched: '2026-11-03'
+  quote: Buscamos desarrollar algoritmos de identificación automática de fauna acuática a
+    partir del análisis de fotografías
+- claim: Began systematic scientific monitoring of overwintering monarch colonies in 2004.
+  url: https://www.wwf.org.mx/nuestro_trabajo/ecosistemas_terrestres/conservacion_de_la_mariposa_monarca/monitoreo_cientifico/
+  fetched: '2026-11-03'
+  quote: al iniciar el monitoreo sistemático y científico de las colonias de hibernación
+links:
+- type: partners-with
+  to: sistema-de-monitoreo-de-manglares-de-mexico
+  url: https://www.wwf.org.mx/nuestro_trabajo/programa_oceanos/manglares/
+  fetched: '2026-11-03'
+  quote: WWF ha colaborado en el fortalecimiento del Sistema de Monitoreo de Manglares de
+    México de la CONABIO
+- type: runs
+  to: manglaria
+  url: https://www.wwf.org.mx/nuestro_trabajo/cambio_climatico/iniciativas_de_adaptacion/monitoreo_de_ecosistemas/
+  fetched: '2026-11-03'
+  quote: Con este proyecto, nuestro objetivo es crear un modelo de recolección y análisis
+    de datos
+- type: partners-with
+  to: comision-nacional-de-areas-naturales-protegidas
+  url: https://www.wwf.org.mx/nuestro_trabajo/ecosistemas_terrestres/conservacion_de_la_mariposa_monarca/monitoreo_cientifico/
+  fetched: '2026-11-03'
+  quote: en coordinación con la Comisión Nacional de Áreas Naturales Protegidas (CONANP)
+found_by:
+- link-from:manglaria
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-03'

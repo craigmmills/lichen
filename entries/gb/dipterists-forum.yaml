@@ -1,0 +1,35 @@
+id: dipterists-forum
+kind: organisation
+name: Dipterists Forum
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.dipterists.org.uk/
+summary: UK society for the study of flies that publishes field week and recording scheme
+  datasets on GBIF.
+facts:
+- claim: Society for the study of flies.
+  url: https://www.dipterists.org.uk/
+  fetched: '2026-10-30'
+  quote: Dipterists Forum - the society for the study of flies (Diptera)
+- claim: 'Publishes the dataset "Dipterists Forum: Field Week 2022 (Norfolk)" on GBIF.'
+  url: https://api.gbif.org/v1/organization/b663df19-4d5d-4139-96bb-32a83e24113f/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: 'Dipterists Forum: Field Week 2022 (Norfolk)'
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/b663df19-4d5d-4139-96bb-32a83e24113f/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

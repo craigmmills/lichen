@@ -1,0 +1,33 @@
+id: gbif-es-biodiversity-data-portal
+kind: dataset
+name: GBIF.ES Biodiversity Data Portal
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- es
+website: https://datos.gbif.es/
+summary: Spain's national biodiversity data portal, holding records from Spanish data
+  providers under a common standard and open-access licences.
+facts:
+- claim: Data are shared under a common standard with quality control and open-access
+    licences.
+  url: https://gbif.es/en/about-gbif-es/
+  quote: under a common standard that includes quality control procedures, open-access
+    licenses, and mechanisms for giving credit to data sources (DOIs)
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: gbif-spain
+  url: https://gbif.es/en/about-gbif-es/
+  quote: Through its Biodiversity Data Portal ( https://datos.gbif.es/ ), GBIF.ES
+    is sharing more than 57 million biodiversity records
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+scope: es
+added_by: agent
+checked: '2026-10-31'

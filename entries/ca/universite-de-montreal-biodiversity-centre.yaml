@@ -1,0 +1,50 @@
+id: universite-de-montreal-biodiversity-centre
+kind: organisation
+name: Université de Montréal Biodiversity Centre
+also_known_as:
+- Centre sur la Biodiversité
+scope: ca
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: ca
+status: active
+realms:
+- land
+summary: University of Montreal centre from which Canadensys, a national network for biological
+  collection data, is operated.
+facts:
+- claim: Canadensys is operated from the centre, which has a Montréal address.
+  url: https://canadensys.net/about
+  fetched: '2026-10-31'
+  quote: Canadensys, operated from the Université de Montréal Biodiversity Centre
+- claim: Canadensys is operated from the centre.
+  url: https://www.canadensys.net/about/
+  fetched: '2026-10-31'
+  quote: Canadensys, operated from the Université de Montréal Biodiversity Centre
+- claim: GBIF record places it at the Montréal Botanical Garden, as headquarters of the Canadensys
+    network.
+  url: https://api.gbif.org/v1/organization/ff7bd5db-b724-4932-b496-10ea298851f9
+  fetched: '2026-10-31'
+  quote: Situated at the heart of the Montréal Botanical Garden
+links:
+- type: runs
+  to: canadensys
+  url: https://canadensys.net/about
+  fetched: '2026-10-31'
+  quote: Canadensys, operated from the Université de Montréal Biodiversity Centre
+- type: runs
+  to: canadensys
+  url: https://irbv.umontreal.ca/research/major-research-projects/canadensys/?lang=en
+  fetched: '2026-10-31'
+  quote: Managed by the Université de Montréal’s Centre sur la Biodiversité, the Canadensys
+    network
+found_by:
+- checklist:2
+- register:ca
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca

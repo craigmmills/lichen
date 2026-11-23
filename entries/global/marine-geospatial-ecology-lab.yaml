@@ -1,0 +1,37 @@
+id: marine-geospatial-ecology-lab
+kind: organisation
+name: Marine Geospatial Ecology Lab
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+hq: us
+scale: global
+status: active
+website: https://seamap.env.duke.edu/
+summary: Duke University laboratory named as copyright holder of OBIS-SEAMAP, the marine megavertebrate
+  data system.
+facts:
+- claim: Holds the copyright of the OBIS-SEAMAP site.
+  url: https://seamap.env.duke.edu/content/about
+  fetched: '2026-10-30'
+  quote: © 2002-2026 Marine Geospatial Ecology Lab at Duke University
+- claim: The GBIF record for OBIS-SEAMAP places it in Durham, United States.
+  url: https://api.gbif.org/v1/organization/67b2263f-6990-4d9d-b32b-20aa72ef4fbc
+  fetched: '2026-10-30'
+  quote: '"city":"Durham"'
+links:
+- type: runs
+  to: obis-seamap
+  url: https://seamap.env.duke.edu/content/about
+  fetched: '2026-10-30'
+  quote: © 2002-2026 Marine Geospatial Ecology Lab at Duke University
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

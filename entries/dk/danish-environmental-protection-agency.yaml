@@ -1,0 +1,95 @@
+id: danish-environmental-protection-agency
+kind: organisation
+name: Miljøstyrelsen
+also_known_as:
+- Danish Environmental Protection Agency
+- Danish EPA
+- DEPA
+scope: dk
+sector: government
+roles:
+- governs
+ai_label: ai
+realms:
+- freshwater
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: dk
+scale: national
+status: active
+website: https://mst.dk
+summary: A national agency under the environment ministry, headquartered in Odense, which
+  DCE says has overall responsibility for NOVANA and which in 2023 said a new University of
+  Copenhagen map base could support better forest management.
+facts:
+- claim: Describes itself as the authority for the environment, fisheries, and coastal and
+    marine nature.
+  url: https://mst.dk/
+  fetched: '2026-11-02'
+  quote: Vi er myndighed på miljø, fiskeri, kyst- og havnaturområdet.
+- claim: Its 2022 leaflet gives a head office in Odense and an address at Tolderlundsvej 5.
+  url: https://sgavmst.dk/media/gsbmlbbw/novana-pjece-maj-22.pdf
+  fetched: '2026-11-02'
+  quote: Tolderlundsvej 5
+- claim: DCE says the agency has overall responsibility for NOVANA.
+  url: https://dce.au.dk/en/monitoring
+  fetched: '2026-11-02'
+  quote: The Danish Environmental Protection Agency has the overall responsibility for NOVANA.
+- claim: National agency with its head office in Odense.
+  url: https://eng.mst.dk/about-the-danish-epa/about-us
+  fetched: '2026-11-02'
+  quote: The Danish EPA is a national agency, and the head quarter is located in Odense.
+- claim: Covers the authority of Danish environment and nature.
+  url: https://eng.mst.dk/about-the-danish-epa/about-us
+  fetched: '2026-11-02'
+  quote: We cover the authority of Danish environment and nature
+- claim: WildDrone says its regional branch works in NOVANA and has drones.
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: '2026-11-02'
+  quote: DEPA’s regional branch, MST-Syd, is operative in the Danish monitoring program for
+    water and nature (NOVANA)
+- claim: Agency under Miljøministeriet.
+  url: https://mim.dk/om-ministeriet
+  fetched: '2026-11-02'
+  quote: Departementet og Miljøstyrelsen hører under Miljøministeriet.
+- claim: Aarhus University's DCE says Miljøstyrelsen has overall responsibility for NOVANA.
+  url: https://dce.au.dk/overvaagning
+  fetched: '2026-11-02'
+  quote: Miljøstyrelsen har det overordnede ansvar for NOVANA.
+- claim: In 2023 it said a new map base from University of Copenhagen work could support better
+    forest management.
+  url: https://mst.dk/nyheder/2023/marts/fremtidens-skovkort-kommer-fra-rummet
+  fetched: '2026-11-02'
+  quote: Miljøstyrelsen og Styrelsen for Dataforsyning og Infrastruktur forventer, at det
+    nye kortgrundlag kan bidrage til drivhusgasopgørelser på skovområdet.
+links:
+- type: run-by
+  to: ministry-of-environment-denmark
+  url: https://sgavmst.dk/media/gsbmlbbw/novana-pjece-maj-22.pdf
+  fetched: '2026-11-02'
+  quote: Miljøstyrelsen hører under Miljøministeriet.
+- type: partners-with
+  to: wilddrone
+  url: https://wilddrone.eu/consortium-wilddrone/
+  fetched: '2026-11-02'
+  quote: DEPA’s regional branch, MST-Syd, is operative in the Danish monitoring program for
+    water and nature (NOVANA)
+- type: runs
+  to: novana
+  url: https://dce.au.dk/en/monitoring
+  fetched: '2026-11-02'
+  quote: The Danish Environmental Protection Agency has the overall responsibility for NOVANA.
+- type: run-by
+  to: ministry-of-environment-denmark
+  url: https://mim.dk/om-ministeriet
+  fetched: '2026-11-02'
+  quote: Departementet og Miljøstyrelsen hører under Miljøministeriet.
+found_by:
+- checklist:1
+- link-from:wilddrone
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk

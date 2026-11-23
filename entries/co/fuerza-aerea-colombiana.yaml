@@ -1,0 +1,60 @@
+id: fuerza-aerea-colombiana
+kind: organisation
+name: Fuerza Aérea Colombiana
+also_known_as:
+- FAC
+- Fuerza Aérea Colombiana
+sector: government
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+hq: unknown
+scale: national
+summary: Colombia's air force. It runs the FACSAT Earth observation satellites, and Colombia's
+  statement to COPUOS in 2023 described software using deep neural networks on their images
+  to detect open-pit illegal mining.
+facts:
+- claim: Colombia's 2023 COPUOS statement says software was developed to detect illegal open-pit
+    mining with deep neural networks applied to FACSAT images.
+  url: https://www.unoosa.org/documents/pdf/copuos/2023/Statements/8_AM/14_Colombia_8_Jun_AM.pdf
+  quote: se ha desarrollado un software para la detección de patrones de minería ilegal a
+    cielo abierto, utilizando redes neuronales profundas aplicadas a imágenes satelitales
+    capturadas por el FACSAT-1
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+- claim: The Universidad de los Andes register describes FACTSAT-1 as identifying patterns
+    of illegal mining with satellite images and neural networks.
+  url: https://algoritmos.uniandes.edu.co/factsat-1-deteccion-de-patrones-de-mineria-ilegal-a-cielo-abierto-utilizando-redes-neuronales-profundas-aplicadas-a-imagenes-satelitales/
+  fetched: '2026-10-31'
+  quote: patrones de minería ilegal a cielo abierto utilizando redes neuronales profundas
+    aplicadas a imágenes satelitales
+  ai_type: deep-learning
+- claim: The register names it as the public body.
+  url: https://algoritmos.uniandes.edu.co/factsat-1-deteccion-de-patrones-de-mineria-ilegal-a-cielo-abierto-utilizando-redes-neuronales-profundas-aplicadas-a-imagenes-satelitales/
+  fetched: '2026-10-31'
+  quote: Entidad pública Fuerza Aérea Colombiana (FAC)
+links:
+- type: runs
+  to: facsat
+  url: https://www.unoosa.org/documents/pdf/copuos/2023/Statements/8_AM/14_Colombia_8_Jun_AM.pdf
+  quote: La Fuerza Aérea, a través de programas como el FACSAT
+  fetched: '2026-10-31'
+- type: partners-with
+  to: instituto-de-hidrologia-meteorologia-y-estudios-ambientales
+  url: https://www.ideam.gov.co/index.php/sala-de-prensa/noticia/fac-e-ideam-se-unen-para-fortalecer-la-deteccion-temprana-de-deforestacion-en-colombia
+  fetched: '2026-10-31'
+  quote: firmaron un convenio orientado a la cooperación académica, investigativa y técnica
+found_by:
+- checklist:1
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active

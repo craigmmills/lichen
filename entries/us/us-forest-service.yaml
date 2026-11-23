@@ -1,0 +1,78 @@
+id: us-forest-service
+kind: organisation
+name: USDA Forest Service
+also_known_as:
+- USFS
+- US Forest Service
+scope: us
+sector: government
+roles:
+- supplies-data
+- uses-ai
+- governs
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: us
+scale: national
+status: active
+summary: US federal forest agency that builds the Landscape Change Monitoring System and the
+  Tree Canopy Cover dataset, and runs Forest Inventory and Analysis. Its research site refuses
+  automated reading, so these facts come from partner pages.
+facts:
+- claim: Named by the MRLC as builder of the National Tree Canopy Cover dataset through its
+    Geospatial Office and Forest Inventory and Analysis.
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: The USDA Forest Service Geospatial Office (GO) and Research and Development - Forest
+    Inventory and Analysis (FIA) builds and maintains the National Tree Canopy Cover (TCC)
+    dataset
+- claim: Pacific Northwest Research Station runs a large passive acoustic monitoring programme.
+  url: https://www.adventurescientists.org/usfs-adventure-scientists-pnw-bioacoustics/
+  fetched: '2026-10-30'
+  quote: we’ve built one of the largest passive acoustic monitoring programs in the world
+- claim: Its Geospatial Office and Forest Inventory and Analysis programme build and maintain
+    the National Tree Canopy Cover dataset.
+  url: https://www.mrlc.gov/product-information
+  quote: The USDA Forest Service Geospatial Office (GO) and Research and Development - Forest
+    Inventory and Analysis (FIA) builds and maintains the National Tree Canopy Cover (TCC)
+    dataset
+  fetched: '2026-10-30'
+- claim: 'Open Net Zero catalogue: FIA covers the nation''s forest land.'
+  url: https://opennetzero.org/united-states-department-of-agriculture/forest-inventory-and-analysis-database
+  fetched: '2026-10-30'
+  quote: FIA's primary objective is to determine the extent, condition, volume, growth, and
+    depletion of timber on the Nation's forest land
+- claim: 'Open Net Zero catalogue: the Forest Service provides the data for further analysis.'
+  url: https://opennetzero.org/united-states-department-of-agriculture/forest-inventory-and-analysis-database
+  fetched: '2026-10-30'
+  quote: the Forest Service also provides data collected in each inventory to those interested
+    in further analysis
+- claim: 'ESIIL data library: FIA is a Forest Service programme.'
+  url: https://cu-esiil.github.io/FCC24_Group_3/data-library/fia
+  fetched: '2026-10-30'
+  quote: The Forest Inventory and Analysis (FIA) program of the USDA Forest Service Research
+    and Development Branch
+- claim: USAGov gives its main address in Washington, DC.
+  url: https://www.usa.gov/federal-agencies/forest-service
+  fetched: '2026-10-31'
+  quote: 1400 Independence Ave., SW
+found_by:
+- checklist:1
+- link-from:adventure-scientists
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+links:
+- type: runs
+  to: pnw-bioacoustics-research-lab
+  url: https://www.adventurescientists.org/usfs-adventure-scientists-pnw-bioacoustics/
+  fetched: '2026-10-30'
+  quote: the US Forest Service’s Pacific Northwest (PNW) Bioacoustics Research Lab
+website: https://www.fs.usda.gov

@@ -1,0 +1,38 @@
+id: vespai
+kind: model
+name: VespAI
+ai_label: ai
+summary: University of Exeter automated system that attracts hornets to a monitoring
+  station and identifies invasive Asian hornets.
+facts:
+- claim: Automated hornet identification, as reported by Labmate Online.
+  url: https://labmate-online.com/news/Laboratory-research-news/126/university-of-exeter/ai-monitors-invasive-hornet-species/62841
+  quote: An automated system that attracts hornets to a monitoring station has been
+    able to identify invasive Asian hornets with almost perfect accuracy, according
+    to researchers at the University of Exeter.
+  fetched: '2026-10-30'
+- claim: Automated system that captures images at a monitoring station and identifies
+    hornets.
+  url: https://news.exeter.ac.uk/research/ai-helps-to-detect-invasive-asian-hornets/
+  quote: University of Exeter researchers have developed VespAI, an automated system
+    that attracts hornets to a monitoring station
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: university-of-exeter
+  url: https://news.exeter.ac.uk/research/ai-helps-to-detect-invasive-asian-hornets/
+  quote: University of Exeter researchers have developed VespAI
+  fetched: *id001
+found_by:
+- link-from:hornetai
+- checklist:7
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- gb
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

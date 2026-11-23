@@ -1,0 +1,29 @@
+id: ecospat
+kind: programme
+name: ecospat
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+website: https://cran.uni-muenster.de/web/packages/ecospat/index.html
+summary: Programme offering an R package for spatial analyses and modelling of species niches
+  and distributions, built by Antoine Guisan and run by the University of Lausanne.
+facts:
+- claim: Supports spatial ecology analyses, including species distribution.
+  url: https://cran.uni-muenster.de/web/packages/ecospat/index.html
+  quote: Collection of R functions and data sets for the support of spatial ecology analyses
+    with a focus on pre, core and post modelling analyses of species distribution
+  fetched: '2026-11-02'
+found_by:
+- checklist:3
+- link-from:university-of-lausanne
+added_by: agent
+checked: '2026-11-02'
+hq: unknown
+roles:
+- supplies-data
+also_known_as:
+- Ecospat

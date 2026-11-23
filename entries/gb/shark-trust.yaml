@@ -1,0 +1,40 @@
+id: shark-trust
+kind: organisation
+name: Shark Trust
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+hq: gb
+scale: global
+status: active
+website: https://www.sharktrust.org
+summary: Shark conservation charity that runs the Shark Trust App and a data portal for its
+  citizen science projects.
+facts:
+- claim: The app replaced the Great Eggcase Hunt app.
+  url: https://www.sharktrust.org/citizen-science/app
+  fetched: '2026-10-30'
+  quote: has been in development for over a year and replaces our “Great Eggcase Hunt” app
+- claim: Holds citizen science data in a portal.
+  url: https://www.sharktrust.org/citizen-science/science-and-data
+  fetched: '2026-10-30'
+  quote: This portal holds all the data from our citizen science projects
+- claim: Publishes the dataset "Great Eggcase Hunt - global citizen science observations of
+    chondrichthyian eggcases" on GBIF.
+  url: https://api.gbif.org/v1/organization/62115872-5bc9-4552-8749-5c38b17cbab7/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Great Eggcase Hunt - global citizen science observations of chondrichthyian eggcases
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/62115872-5bc9-4552-8749-5c38b17cbab7/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

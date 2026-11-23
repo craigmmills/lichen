@@ -1,0 +1,40 @@
+id: pytorch-wildlife
+kind: model
+name: PyTorch-Wildlife
+also_known_as:
+- Pytorch-Wildlife
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+status: closed
+website: https://github.com/microsoft/Pytorch-Wildlife
+summary: Deep learning framework and model zoo for conservation from the Microsoft AI for Good Lab. It is no longer maintained; its inference work continues in SPARROW-Engine.
+facts:
+- claim: Version 1.3.1 is the final release.
+  url: https://github.com/microsoft/Pytorch-Wildlife
+  fetched: &id001 2026-10-30
+  quote: PyTorch-Wildlife is no longer maintained. Version 1.3.1 is the final release.
+- claim: Its inference work continues in SPARROW-Engine.
+  url: https://github.com/microsoft/Pytorch-Wildlife
+  fetched: *id001
+  quote: Its inference work continues in SPARROW-Engine
+- claim: "PyTorch-Wildlife is a deep learning framework."
+  url: https://github.com/microsoft/Pytorch-Wildlife
+  fetched: 2026-10-30
+  quote: "The Microsoft collaborative deep learning framework for conservation."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: microsoft-ai-for-good-lab
+  url: https://github.com/microsoft/Pytorch-Wildlife
+  fetched: *id001
+  quote: Maintained by Microsoft AI for Good Lab.
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

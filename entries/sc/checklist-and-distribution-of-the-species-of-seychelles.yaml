@@ -1,0 +1,45 @@
+id: checklist-and-distribution-of-the-species-of-seychelles
+kind: dataset
+name: Checklist and distribution of the species of Seychelles for conservationists
+also_known_as: []
+scope: sc
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- sc
+status: active
+runner: unknown
+summary: GBIF dataset aiming to share a nationally agreed species index for Seychelles
+  with conservation, invasiveness and distribution data, building on an existing database;
+  the first version covers plants only, with extension planned.
+facts:
+- claim: The GBIF record gives the dataset's aims as sharing a nationally agreed taxonomic
+    index of all species recorded in Seychelles, with conservation and invasiveness
+    data and distribution records.
+  url: https://api.gbif.org/v1/dataset/d0b7cc29-8ce3-49ad-b1b6-675fd39412ee
+  fetched: 2026-11-15
+  quote: To share a nationally agreed taxonomic index of all species recorded in the
+    country
+- claim: The record says the first version is restricted to plants, with a plan to
+    extend it to all taxonomic groups.
+  url: https://api.gbif.org/v1/dataset/d0b7cc29-8ce3-49ad-b1b6-675fd39412ee
+  fetched: 2026-11-15
+  quote: this dataset is restricted to plants, but in future the plan is to extend
+    it to all taxonomic groups
+- claim: The record names a Key Biodiversity Areas National Coordination Group as
+    the dataset's collective author.
+  url: https://api.gbif.org/v1/dataset/d0b7cc29-8ce3-49ad-b1b6-675fd39412ee
+  fetched: 2026-11-15
+  quote: which is the collective author of this dataset
+links:
+- type: builds-on
+  to: seychelles-holistic-biodiversity-database
+  url: https://api.gbif.org/v1/dataset/d0b7cc29-8ce3-49ad-b1b6-675fd39412ee
+  fetched: 2026-11-15
+  quote: This dataset compiles most of the data from the &#34;BIO&#34; database for
+    the Seychelles islands.
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

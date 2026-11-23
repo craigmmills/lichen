@@ -1,0 +1,50 @@
+id: climate-solutions-exchange
+kind: organisation
+name: Climate Solutions Exchange
+sector: company
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+summary: Company that built machine learning for forestry and woodland into a map-based platform
+  for financial services.
+facts:
+- claim: Works with Teesside University on AI for peatland condition monitoring.
+  url: https://www.tees.ac.uk/sections/business/news_story.cfm?story_id=8365
+  quote: to develop an artificial intelligence system to improve peatland condition monitoring
+    and assessment
+  fetched: &id001 2026-10-30
+- claim: Registered office on the Companies House register.
+  url: https://find-and-update.company-information.service.gov.uk/company/12413888
+  quote: 384 Linthorpe Road, Middlesbrough, England, TS5 6HA
+  fetched: 2026-10-30
+- claim: Says it uses algorithms for woodland biomass and peatland carbon and bird bioacoustic
+    biodiversity monitoring.
+  url: https://csxcarbon.com/about-us/
+  quote: algorithms for woodland aboveground biomass and carbon, peatland carbon, water table
+    loggers to assess peatland health and bird bioacoustic biodiversity monitoring
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: teesside-university
+  url: https://www.tees.ac.uk/sections/business/news_story.cfm?story_id=8365
+  quote: Academics at the University will work with Northallerton-based Climate Solutions
+    Exchange Ltd (CSX)
+  fetched: *id001
+found_by:
+- link-from:uk-research-and-innovation
+- checklist:5
+realms:
+- land
+techniques:
+- remote-sensing
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+hq: gb
+status: active
+scale: national
+also_known_as:
+- CSX
+- CSX Carbon
+website: https://csxcarbon.com/

@@ -1,0 +1,41 @@
+id: department-of-zoology-and-environmental-sciences-university-of-colombo
+kind: organisation
+name: Department of Zoology and Environmental Sciences, University of Colombo
+also_known_as: []
+scope: lk
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: lk
+countries:
+- lk
+scale: national
+status: active
+summary: University department that is the lead affiliation of the first and corresponding
+  author on a paper on elephants crossing electric fences at Udawalawe, using camera
+  traps on 18 posts and a gate over 605 days from 2016 to 2019.
+facts:
+- claim: Lead affiliation of the first and corresponding author on a paper on electric
+    fence crossing by elephants at Udawalawe, Sri Lanka.
+  url: https://api.openalex.org/works/W4402340536?select=title,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"A. D. G. Ranjeewa","raw_affiliation_strings":["Department
+    of Zoology and Environmental Sciences University of Colombo  Colombo Sri Lanka"]'
+- claim: The paper's abstract says the authors used camera traps to monitor 18 fence
+    posts and an open gate over 605 days from 2016 to 2019.
+  url: https://api.openalex.org/works/W4402340536?select=title,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"Using":[39],"camera":[40],"traps,":[41],"we":[42],"monitored":[43],"18":[44]'
+- claim: Paper title.
+  url: https://api.openalex.org/works/W4402340536?select=title,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: How did the elephant cross the fence? Electric fence crossing by elephants
+    in Udawalawe, Sri Lanka
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

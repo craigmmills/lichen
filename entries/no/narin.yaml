@@ -1,0 +1,37 @@
+id: narin
+kind: dataset
+name: NARIN
+also_known_as:
+- Narin-kart
+scope: 'no'
+ai_label: conservation-tech
+status: active
+realms:
+- land
+techniques:
+- other
+countries:
+- 'no'
+scale: national
+summary: Digital map solution for forest area surveys, built by Biofokus, with all forest survey data
+  and fact sheets for 2004 to 2020 available on Narin-kart.
+facts:
+- claim: A digital map solution for forest area surveys.
+  url: https://biofokus.no/skogkartlegging/
+  fetched: &id001 2026-11-02
+  quote: Narin-kart som er en digital kartløsning for skogområdesundersøkelser som Biofokus har utviklet.
+- claim: All data from forest surveys with fact sheets for 2004 to 2020 are available on Narin-kart.
+  url: https://biofokus.no/skogkartlegging/
+  fetched: *id001
+  quote: Alle data fra skogkartlegging med tilhørende faktaark i perioden 2004-2020 er tilgjengelige på
+    Narin-kart
+links:
+- type: built-by
+  to: biofokus
+  url: https://biofokus.no/skogkartlegging/
+  fetched: *id001
+  quote: Narin-kart som er en digital kartløsning for skogområdesundersøkelser som Biofokus har utviklet.
+found_by:
+- link-from:biofokus
+added_by: agent
+checked: *id001

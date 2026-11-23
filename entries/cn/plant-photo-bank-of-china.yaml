@@ -1,0 +1,36 @@
+id: plant-photo-bank-of-china
+kind: dataset
+name: Plant Photo Bank of China
+also_known_as:
+- PPBC
+- 中国植物图像库
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://ppbc.iplant.cn/
+summary: "Image bank of Chinese plants started in 2008 by the Institute of Botany, covering about 77% of the species in the national plant checklist, with species identified by taxonomists."
+facts:
+- claim: Says it is the most comprehensive plant-specific image bank in China.
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: the most comprehensive and authoritative plant-specific image bank in China
+- claim: Says it has 72,000 registered users and holds 99.4% of families, 95.4% of
+    genera and 77.4% of species in the Chinese plant checklist.
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: 已收录《中国植物物种名录》中99.4%的科，95.4%的属，77.4%的物种
+links:
+- type: run-by
+  to: institute-of-botany-cas
+  url: https://ppbc.iplant.cn/about
+  fetched: '2026-10-31'
+  quote: initiated and operated by the Institute of Botany, Chinese Academy of Sciences
+    (IBCAS) in 2008
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,50 @@
+id: forest-management-bureau
+kind: organisation
+name: Forest Management Bureau
+also_known_as:
+- FMB
+scope: ph
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ph
+scale: national
+status: active
+summary: Government bureau, run by the Department of Environment and Natural Resources, which
+  the Philippines' forest reference level submission names as responsible for developing it
+  and for the 2013 to 2019 Forest Resource Assessment.
+facts:
+- claim: The Philippines' forest reference level submission says the FMB is responsible for
+    developing it.
+  url: https://redd.unfccc.int/files/philippine_frl_document_final_6dec2022.pdf
+  fetched: 2026-11-07
+  quote: Resources (DENR) is responsible for developing the Forest Reference Level (FRL).
+- claim: The same document says the FMB conducted the Forest Resource Assessment from 2013
+    to 2019.
+  url: https://redd.unfccc.int/files/philippine_frl_document_final_6dec2022.pdf
+  fetched: 2026-11-07
+  quote: conducted from 2013 to 2019 by the Forest Management Bureau of t he DENR
+links:
+- type: run-by
+  to: department-of-environment-and-natural-resources
+  url: https://redd.unfccc.int/files/philippine_frl_document_final_6dec2022.pdf
+  fetched: 2026-11-07
+  quote: The Forest Management Bureau (FMB) of the Department of Environment and Natural
+- type: partners-with
+  to: copphil-forest-mapping-service
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-07
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB),
+    and the Mindanao Development Authority (MinDA)
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-07

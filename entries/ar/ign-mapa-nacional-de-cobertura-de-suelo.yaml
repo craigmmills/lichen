@@ -1,0 +1,81 @@
+id: ign-mapa-nacional-de-cobertura-de-suelo
+kind: dataset
+name: Mapa Nacional de Cobertura de Suelo (IGN)
+also_known_as:
+- Mapa de Cobertura de Suelos del IGN
+scope: ar
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ar
+scale: national
+status: active
+summary: Land cover map of Argentina excluding Antarctica for 2021, with 13 categories across
+  six regions, classified by Random Forest on Google Earth Engine at about 83% overall accuracy.
+facts:
+- claim: Uses supervised classification with the Random Forest algorithm on Google Earth Engine,
+    with overall accuracy of about 83%.
+  url: https://www.ign.gob.ar/content/nuevo-mapa-de-cobertura-de-suelos-del-ign
+  fetched: 2026-11-03
+  quote: Se utilizó la plataforma Google Earth Engine, realizando una clasificación supervisada
+    bajo el algoritmo Random Forest. Los resultados obtenidos muestran un índice de precisión
+    general de aproximadamente el 83%
+  ai_type: ml-supervised
+- claim: Covers all of Argentina except Antarctica, divided into six regions.
+  url: https://www.ign.gob.ar/content/nuevo-mapa-de-cobertura-de-suelos-del-ign
+  fetched: 2026-11-03
+  quote: La metodología se implementó en todo el territorio Argentino, excluyendo la Antártida.
+- claim: The map is reached through the "Relieve y suelo" layer of the IGN map viewer.
+  url: https://www.ign.gob.ar/content/nuevo-mapa-de-cobertura-de-suelos-del-ign
+  fetched: 2026-11-03
+  quote: 'Accedé al Mapa de Cobertura de Suelos haciendo click en la capa “Relieve y suelo”
+    en: https://mapa.ign.gob.ar'
+- claim: The method paper uses Copernicus Sentinel imagery through Google Earth Engine, for
+    the year 2021.
+  url: https://opendata.fi.uncoma.edu.ar/jornadasIDERA/trabajos2023/Gaviola_etal.pdf
+  fetched: 2026-11-03
+  quote: son provistas por Copernicus Sentinel Data [12]. El periodo analizado fue para el
+    año 2021.
+- claim: Classifies Argentina excluding Antarctica into 13 land cover categories across six
+    regions, using supervised Random Forest classification on Google Earth Engine, with overall
+    accuracy of about 83%.
+  url: https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/mapa-nacional-de-cobertura-de-suelo
+  fetched: 2026-11-03
+  quote: Se utilizó la plataforma Google Earth Engine, realizando una clasificación supervisada
+    bajo el algoritmo Random Forest.
+  ai_type: ml-supervised
+- claim: The IGN uses satellite information to develop methods for updating and studying land
+    cover and land use change over time.
+  url: https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/mapa-nacional-de-cobertura-de-suelo
+  fetched: 2026-11-03
+  quote: Utilizando información satelital, se enfoca una línea de trabajo para el desarrollo
+    de metodologías que permitan la actualización constante y el estudio de cambios en las
+    coberturas y usos de suelo a lo largo del tiempo.
+links:
+- type: built-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.ign.gob.ar/content/nuevo-mapa-de-cobertura-de-suelos-del-ign
+  fetched: 2026-11-03
+  quote: el Instituto Geográfico Nacional presentó un nuevo Mapa de Cobertura de Suelos
+- type: built-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/mapa-nacional-de-cobertura-de-suelo
+  fetched: 2026-11-03
+  quote: Utilizando información satelital, se enfoca una línea de trabajo para el desarrollo
+    de metodologías que permitan la actualización constante y el estudio de cambios en las
+    coberturas y usos de suelo a lo largo del tiempo.
+- type: builds-on
+  to: google-earth-engine
+  url: https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/mapa-nacional-de-cobertura-de-suelo
+  fetched: 2026-11-03
+  quote: Se utilizó la plataforma Google Earth Engine, realizando una clasificación supervisada
+    bajo el algoritmo Random Forest.
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-03

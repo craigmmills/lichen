@@ -1,0 +1,21 @@
+id: guillemot-object-detection-dataset
+kind: dataset
+scope: se
+name: Common guillemots in the Baltic Sea studied with video surveillance and object detection
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: Dataset on common guillemots in the Baltic Sea, built by Jonas Hentati Sundberg,
+  in which a YOLOv4 model was trained to detect adult birds, chicks and eggs in video.
+facts:
+- claim: A YOLOv4 model was trained to detect adult birds, chicks and eggs.
+  url: https://zenodo.org/record/6760988
+  fetched: 2026-11-02
+  quote: a YOLOv4 model has been trained to detect adult birds, chicks and eggs.
+found_by:
+- link-from:auklab
+added_by: agent
+checked: 2026-11-02

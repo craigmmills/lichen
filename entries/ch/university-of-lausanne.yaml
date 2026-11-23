@@ -1,0 +1,56 @@
+id: university-of-lausanne
+kind: organisation
+name: University of Lausanne
+also_known_as:
+- UNIL
+- Université de Lausanne
+scope: ch
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+hq: ch
+scale: national
+status: active
+summary: A university whose members wrote the ecospat R package for species niche and distribution
+  modelling, and which co-hosts the Global Mountain Biodiversity Assessment's International
+  Project Office and lists the N-SDM platform.
+facts:
+- claim: The ecospat package was written by current and former members and collaborators of
+    Antoine Guisan’s ecospat group at the University of Lausanne.
+  url: https://cran.uni-muenster.de/web/packages/ecospat/index.html
+  quote: Written by current and former members and collaborators of the ecospat group of Antoine
+    Guisan
+  fetched: '2026-11-02'
+- claim: Co-hosts the International Project Office of the Global Mountain Biodiversity Assessment.
+  url: https://www.gmba.unibe.ch/about/structure
+  quote: located at the University of Bern, Switzerland and co-hosted by the University of
+    Lausanne, Switzerland.
+  fetched: '2026-11-02'
+- claim: OpenAlex lists an affiliated 2025 paper on coral reef surveys with DeepReefMap.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I97565354,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2021-01-01&per_page=6&select=id,title,publication_year,doi,authorships&sort=cited_by_count:desc
+  fetched: '2026-11-02'
+  quote: Rapid consistent reef surveys with DeepReefMap
+- claim: Its Laboratory for Conservation Biology is named on the KORA Monitoring Centre.
+  url: https://monitoring.kora.ch/
+  fetched: '2026-11-02'
+  quote: the Laboratory for Conservation Biology of the University of Lausanne
+found_by:
+- checklist:3
+- link-from:global-mountain-biodiversity-assessment
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: partners-with
+  to: impact-parasite-monitoring
+  url: https://www.biodiversa.eu/2024/04/15/impact/
+  quote: Institute of Geography and Sustainability, University of Lausanne, Lausanne, Switzerland
+  fetched: '2026-11-02'

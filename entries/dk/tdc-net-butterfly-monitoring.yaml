@@ -1,0 +1,41 @@
+id: tdc-net-butterfly-monitoring
+kind: project
+name: TDC NET and Ericsson butterfly monitoring
+scope: dk
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- dk
+status: active
+summary: Butterfly monitoring project built by Ericsson and TDC NET, which Welcome.AI says uses two models
+  and replaced manual surveys.
+facts:
+- claim: Welcome.AI describes the two models.
+  url: https://welcome.ai/content/ai-and-5g-enhance-butterfly-monitoring-for-biodiversity-conservation
+  fetched: '2026-11-02'
+  quote: An AI model first detects the presence of a butterfly, followed by a second model that identifies
+    the species.
+- claim: Welcome.AI says the system replaced manual surveys.
+  url: https://welcome.ai/content/ai-and-5g-enhance-butterfly-monitoring-for-biodiversity-conservation
+  fetched: '2026-11-02'
+  quote: This innovative approach transformed traditional manual surveys into real-time, continuous tracking
+links:
+- type: built-by
+  to: ericsson
+  url: https://welcome.ai/content/ai-and-5g-enhance-butterfly-monitoring-for-biodiversity-conservation
+  fetched: '2026-11-02'
+  quote: Ericsson, in collaboration with TDC NET, developed an AI- and 5G-powered solution to monitor
+    butterfly populations
+- type: built-by
+  to: tdc-net
+  url: https://welcome.ai/content/ai-and-5g-enhance-butterfly-monitoring-for-biodiversity-conservation
+  fetched: '2026-11-02'
+  quote: Ericsson, in collaboration with TDC NET, developed an AI- and 5G-powered solution to monitor
+    butterfly populations
+found_by:
+- link-from:tdc-net
+added_by: agent
+checked: '2026-11-02'

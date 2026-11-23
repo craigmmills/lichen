@@ -1,0 +1,43 @@
+id: leona-m-and-harry-b-helmsley-charitable-trust
+kind: organisation
+name: The Leona M. and Harry B. Helmsley Charitable Trust
+also_known_as:
+- Helmsley Charitable Trust
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://helmsleytrust.org
+summary: Charitable trust that funds Digital Earth Africa alongside the Australian Government,
+  which gives free Earth observation data and products to users across Africa.
+facts:
+- claim: Supports Digital Earth Africa in its third phase, with the Australian Government.
+  url: https://www.digitalearthafrica.org/about
+  quote: Now in its third phase, Digital Earth Africa receives support from the Leona M. and
+    Harry B. Helmsley Charitable Trust and the Australian Government
+  fetched: &id001 2026-10-30
+- claim: Describes itself as a global philanthropy.
+  url: https://helmsleytrust.org/about/
+  quote: The Leona M. and Harry B. Helmsley Charitable Trust is a global philanthropy
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: digital-earth-africa
+  url: https://www.digitalearthafrica.org/about
+  quote: Digital Earth Africa Funders Now in its third phase, Digital Earth Africa receives
+    support from the Leona M. and Harry B. Helmsley Charitable Trust
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

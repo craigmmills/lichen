@@ -1,0 +1,58 @@
+id: automated-plankton-imaging-classification
+kind: project
+name: Automated Plankton Imaging and Classification System
+also_known_as:
+- APICS
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- gb
+status: active
+summary: Plymouth Marine Laboratory project using autonomous imaging of plankton and an automated
+  classifier.
+facts:
+- claim: James Clark's profile describes the project.
+  url: https://pml.ac.uk/People/Dr-James-Clark
+  quote: Automated Plankton Imaging and Classification System (APICS)
+  fetched: '2026-10-30'
+- claim: NERC awarded PML £651k for AI plankton monitoring at the Western Channel Observatory.
+  url: https://www.pml.ac.uk/support-us
+  quote: NERC awards PML £651k for AI-powered plankton monitoring at the Western Channel Observatory
+  fetched: '2026-10-30'
+- claim: Awarded 651,000 pounds in a NERC equipment funding package.
+  url: https://pml.ac.uk/news/advanced-monitoring-of-plankton-using-ai-technolog/
+  quote: PML has been awarded £651k for its bespoke
+  fetched: &id001 2026-10-30
+found_by:
+- checklist:7
+- link-from:uk-research-and-innovation
+links:
+- type: run-by
+  to: plymouth-marine-laboratory
+  url: https://pml.ac.uk/People/Dr-James-Clark
+  quote: Jim is the project lead for PML’s Automated Plankton Imaging and Classification System
+    (APICS)
+  fetched: '2026-10-30'
+- type: funded-by
+  to: natural-environment-research-council
+  url: https://www.pml.ac.uk/support-us
+  quote: NERC awards PML £651k for AI-powered plankton monitoring at the Western Channel Observatory
+  fetched: '2026-10-30'
+  amount: 651000
+  currency: GBP
+- type: run-by
+  to: plymouth-marine-laboratory
+  url: https://pml.ac.uk/news/advanced-monitoring-of-plankton-using-ai-technolog/
+  quote: PML has been awarded £651k for its bespoke
+  fetched: *id001
+- type: funded-by
+  to: natural-environment-research-council
+  url: https://pml.ac.uk/news/advanced-monitoring-of-plankton-using-ai-technolog/
+  quote: Natural Environment Research Council (NERC) funding package
+  fetched: *id001
+scope: gb
+added_by: agent
+checked: '2026-10-30'

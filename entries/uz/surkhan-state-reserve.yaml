@@ -1,0 +1,75 @@
+id: surkhan-state-reserve
+kind: organisation
+name: Surkhan State Reserve
+also_known_as:
+- Surkhanskiy State Nature Reserve
+- Surkhan State Nature Reserve
+- Surhanskiy State Nature Reserve
+scope: uz
+sector: government
+roles:
+- unknown
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: uz
+countries:
+- uz
+scale: local
+status: active
+summary: Protected reserve in Sherabad, Uzbekistan, established in 1986, which has introduced SMART patrolling,
+  installed camera traps and publishes a CC BY 4.0 dataset of 108 mammal phenology records from 2010 to
+  2014 on GBIF.
+facts:
+- claim: SMART patrolling has been introduced in the reserve.
+  url: https://gov.uz/en/eco/news/view/193170
+  fetched: 2026-11-08
+  quote: In Uzbekistan, SMART patrolling has already been introduced in the South Ustyurt National Park,
+    the "Saigachiy" Complex Landscape Reserve, and the Surkhan State Reserve, and now it is the turn of
+    "Zarafshan".
+- claim: Registered as a data publisher in the GBIF registry.
+  url: https://api.gbif.org/v1/organization?country=UZ&limit=100
+  fetched: 2026-11-08
+  quote: '"title":"Surhanskiy State Nature Reserve"'
+- claim: A July 2025 news item says camera traps installed throughout the reserve have captured footage
+    of its wildlife.
+  url: https://gov.uz/en/eco/news/view/74298
+  fetched: 2026-11-08
+  quote: This is confirmed by unique footage captured by camera traps installed throughout the reserve.
+- claim: Established in 1986 in the Sherabad District of Surkhandarya Region.
+  url: https://gov.uz/en/eco/news/view/74298
+  fetched: 2026-11-08
+  quote: The Surkhan State Nature Reserve was established on September 8, 1986, in the Sherabad District
+    of the Surkhandarya Region.
+- claim: Its GBIF dataset holds 108 mammal phenology records collected from 2010 to 2014 under the Chronicle
+    of Nature programme in the reserve.
+  url: https://api.gbif.org/v1/dataset/4c06b9f4-19ad-42c0-b832-17e1b96ba699
+  fetched: 2026-11-08
+  quote: Mammals Phenology dataset compiled in the context of Chronicle of Nature program in Surhanskiy
+    State Nature Reserve (Uzbekistan)
+- claim: The dataset is published under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/dataset/4c06b9f4-19ad-42c0-b832-17e1b96ba699
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: Its GBIF publisher record says its Aral-Paigambar site was created to protect the tugai ecosystem
+    and its characteristic fauna, and describes that site's activity as frozen.
+  url: https://api.gbif.org/v1/organization/fa912be7-93f9-4b6a-8400-505448a30f10
+  fetched: 2026-11-08
+  quote: The reserve was created to save the unique tugai ecosystem, with its characteristic fauna.
+- claim: Its GBIF publisher record gives Sherabad, Uzbekistan, as its location.
+  url: https://api.gbif.org/v1/organization/fa912be7-93f9-4b6a-8400-505448a30f10
+  fetched: 2026-11-08
+  quote: '"city":"Sherabad","country":"UZ"'
+links:
+- type: run-by
+  to: national-committee-on-ecology-and-climate-change-uzbekistan
+  url: https://gov.uz/en/eco/news/view/74298
+  fetched: 2026-11-08
+  quote: The fauna of the Surkhan State Nature Reserve, overseen by the Ministry of Ecology, Environmental
+    Protection and Climate Change
+found_by:
+- checklist:4
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

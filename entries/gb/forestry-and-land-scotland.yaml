@@ -1,0 +1,55 @@
+id: forestry-and-land-scotland
+kind: organisation
+name: Forestry and Land Scotland
+also_known_as:
+- FLS
+scope: gb
+sector: government
+roles:
+- uses-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+scale: national
+status: active
+website: https://forestryandland.gov.scot
+summary: Scottish public body whose rangers use thermal micro drones with AI from DroneWild
+  to locate animals, and which trialled heavy-lift drones for wildlife management.
+facts:
+- claim: Ran drone trials with DroneWild through CivTech.
+  url: https://forestryandland.gov.scot/media-centre/press-releases/heavy-lift-drones-tested-for-forestry-and-wildlife-management
+  quote: Carried out in partnership with DroneWild
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://forestryandland.gov.scot/contact
+  quote: IV3 8NW
+  fetched: 2026-10-30
+- claim: CivTech says DroneWild provides its rangers with AI thermal drones.
+  url: https://www.civtech.scot/demo-day-9-dronewild
+  quote: DroneWild is providing Forestry and Land Scotland rangers with thermal micro drones,
+    with built in customised software and AI
+  fetched: '2026-10-31'
+- claim: Cairngorms Connect names it as a partner in its predator project.
+  url: https://cairngormsconnect.org.uk/science-and-monitoring/predator-project
+  quote: in partnership with Forestry and Land Scotland (FLS), RSPB Scotland
+  fetched: '2026-10-31'
+- claim: The Scottish Government agency responsible for managing Scotland's national forests
+    and land.
+  url: https://forestryandland.gov.scot/about-us/who-we-are
+  quote: We're the Scottish Government agency responsible for managing Scotland’s national
+    forests and land.
+  fetched: '2026-11-16'
+links:
+- type: partners-with
+  to: dronewild
+  url: https://forestryandland.gov.scot/media-centre/press-releases/heavy-lift-drones-tested-for-forestry-and-wildlife-management
+  quote: Carried out in partnership with DroneWild
+  fetched: *id001
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

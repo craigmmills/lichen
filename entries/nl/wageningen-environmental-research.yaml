@@ -1,0 +1,53 @@
+id: wageningen-environmental-research
+kind: organisation
+name: Wageningen Environmental Research
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: unknown
+scale: national
+status: active
+countries:
+- nl
+summary: A member of the knowledge team of Biodiversity in Focus, a Dutch project on biodiversity
+  measurement strategy. It is also listed as a GBIF publisher in the queue, which was not
+  read because GBIF refuses the fetcher.
+facts:
+- claim: Witteveen+Bos lists it in the Biodiversity in Focus knowledge team.
+  url: https://www.witteveenbos.com/news/launch-of-the-biodiversity-in-focus-research-project
+  fetched: &id001 2026-10-31
+  quote: comprising Deltares, Wageningen Environmental Research, Naturalis Biodiversity Center,
+    IUCN NL and Deltaplan Biodiversity Restoration
+- claim: LARCH is an ecological model combining habitat viability, connectivity and species
+    demands.
+  url: https://www.wur.nl/en/Research-Results/Research-Institutes/Environmental-Research.htm
+  fetched: '2026-10-31'
+  quote: LARCH is an ecological model that combines information about habitat viability, landscape
+    connectivity, and the demands of local populations and species into valuable insights.
+- claim: EBEO helps water authorities diagnose causes of insufficient water quality.
+  url: https://www.wur.nl/en/Research-Results/Research-Institutes/Environmental-Research.htm
+  fetched: '2026-10-31'
+  quote: EBEO helps water authorities to diagnose the possible causes behind insufficient
+    water quality
+links:
+- type: partners-with
+  to: biodiversity-in-focus
+  url: https://www.witteveenbos.com/news/launch-of-the-biodiversity-in-focus-research-project
+  fetched: *id001
+  quote: comprising Deltares, Wageningen Environmental Research, Naturalis Biodiversity Center,
+    IUCN NL and Deltaplan Biodiversity Restoration
+- type: run-by
+  to: wageningen-university-and-research
+  url: https://www.wur.nl/en/Research-Results/Research-Institutes/Environmental-Research.htm
+  fetched: '2026-10-31'
+  quote: Read more about the institute Wageningen Environmental Research
+found_by:
+- link-from:wageningen-university-and-research
+- register:nl
+scope: nl
+added_by: agent
+checked: *id001

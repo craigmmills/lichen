@@ -1,0 +1,42 @@
+id: action-for-cheetahs-in-kenya
+kind: organisation
+name: Action for Cheetahs in Kenya
+scope: ke
+also_known_as:
+- ACK
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+website: https://www.actionforcheetahs.org/
+summary: Kenyan cheetah conservation group that runs the Gr8 Cheetah Census, identifying individuals
+  from photographs with ArgusWild software.
+facts:
+- claim: Identifies cheetahs with ArgusWild software.
+  url: https://www.actionforcheetahs.org/gr8-cheetah-census
+  fetched: '2026-10-31'
+  quote: Each cheetah is identified through careful visual and automated learning software
+    (ArgusWild) comparison of unique spot patterns
+links:
+- type: uses
+  to: arguswild-ai
+  url: https://www.actionforcheetahs.org/gr8-cheetah-census
+  fetched: '2026-10-31'
+  quote: automated learning software (ArgusWild)
+- type: runs
+  to: gr8-cheetah-census
+  url: https://www.actionforcheetahs.org/gr8-cheetah-census
+  fetched: '2026-10-31'
+  quote: The Gr8 Cheetah Census is a complementary program to Action for Cheetahs in Kenya's
+    National Cheetah Survey.
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

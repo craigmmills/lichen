@@ -1,0 +1,39 @@
+id: national-research-centre-egypt
+kind: organisation
+name: National Research Centre
+also_known_as: []
+scope: eg
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+countries: []
+scale: national
+status: unknown
+funding_at_risk: false
+website: https://www.nrc.sci.eg/
+summary: Research centre in Giza that OpenAlex gives as an affiliation of the first author
+  of a 2021 paper using machine learning to track microeukaryotes in a Chinese watershed.
+facts:
+- claim: OpenAlex lists the 2021 paper Tracking microeukaryotic footprint in a peri-urban
+    watershed, China through machine-learning approaches, with Mahmoud Afw Gad as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02n85j827,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Tracking microeukaryotic footprint in a peri-urban watershed, China
+    through machine-learning approaches", "publication_year": 2021, "authorships": [{"author_position":
+    "first", "author": {"id": "https://openalex.org/A5064137587", "display_name": "Mahmoud
+    Afw Gad"'
+- claim: OpenAlex gives an affiliation of the first author as the Water Pollution Research
+    Department, National Research Centre, Giza.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02n85j827,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Water Pollution Research Department, National Research Centre, Giza 12622, Egypt
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

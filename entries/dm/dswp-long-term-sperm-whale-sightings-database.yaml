@@ -1,0 +1,40 @@
+id: dswp-long-term-sperm-whale-sightings-database
+kind: dataset
+name: DSWP long-term sperm whale sightings database
+also_known_as: []
+scope: dm
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- dm
+status: active
+summary: Long-term sperm whale sightings database, run by the Dominica Sperm Whale
+  Project, combined with AIS vessel data to study whale, shipping and fish-aggregating
+  device interactions off Dominica; the project's page says this facilitated national
+  shipping lanes.
+facts:
+- claim: The project's research page says it uses the DSWP's long-term sperm whale
+    sightings database with AIS vessel position data to evaluate interactions between
+    whales, ship traffic and fish-aggregating devices off Dominica.
+  url: https://thespermwhaleproject.org/research
+  fetched: 2026-11-13
+  quote: By using the DSWP's long-term sperm whale sightings database in conjunction
+    with AIS vessel position data, we can evaluate the degree of interaction between
+    whales, ship traffic, and fish-aggregating devices off Dominica.
+- claim: The page says this work has facilitated the creation of national shipping
+    lanes.
+  url: https://thespermwhaleproject.org/research
+  fetched: 2026-11-13
+  quote: This has facilitated the creation of national shipping lanes
+links:
+- type: run-by
+  to: dominica-sperm-whale-project
+  url: https://thespermwhaleproject.org/research
+  fetched: 2026-11-13
+  quote: By using the DSWP's long-term sperm whale sightings database in conjunction
+    with AIS vessel position data
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,135 @@
+id: institut-des-sciences-de-l-environnement-ucad
+kind: organisation
+name: Institut des Sciences de l'Environnement
+also_known_as:
+- ISE
+- UCAD
+- Cheikh Anta Diop University
+scope: sn
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+- remote-sensing
+- computer-vision
+hq: sn
+countries:
+- sn
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.ucad.sn
+summary: Environmental science institute in the Faculty of Science at Université Cheikh Anta
+  Diop. It publishes the largest set of Senegal's biodiversity datasets on GBIF, including
+  national plant and bird lists and waterbird counts.
+facts:
+- claim: GBIF lists it at UCAD's Faculty of Science in Dakar, with a stated aim of mobilising
+    and managing biodiversity information.
+  url: https://api.gbif.org/v1/organization/24faa081-ab14-4fa6-a646-a99af3fcc5f5
+  fetched: '2026-10-31'
+  quote: Biodiversity information mobilisation and management
+- claim: Publishes a national bird list on GBIF.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=SN&limit=40
+  fetched: '2026-10-31'
+  quote: Liste d'oiseaux du Sénégal
+- claim: Publishes national waterbird counts on GBIF.
+  url: https://api.gbif.org/v1/dataset/665edebe-8d21-49bd-9435-155ef2789ab0
+  fetched: '2026-10-31'
+  quote: Dénombrement des oiseaux d'eau du Sénégal de 2016 à 2018
+- claim: OpenAlex shows 104 works from 2018 with AI and environment concepts and a Senegal
+    author at UCAD.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:SN,concepts.id:C119857082|C108583219|C154945302,concepts.id:C39432304|C18903297|C62649853,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage&per_page=50
+  fetched: '2026-10-31'
+  quote: Cheikh Anta Diop University
+- claim: Researchers compared deep learning estimators for chlorophyll-a off West Africa.
+  url: https://api.openalex.org/works/W2993161334
+  fetched: '2026-10-31'
+  quote: Modeling the Chlorophyll-a from Sea Surface Reflectance in West Africa by Deep Learning
+    Methods
+  ai_type: deep-learning
+- claim: Researchers studied deep learning land use change detection for Richard Toll.
+  url: https://api.openalex.org/works/W4399885906
+  fetched: '2026-10-31'
+  quote: Deep Learning-based Land Use and Land Cover Changes Detection from Satellite Imagery
+- claim: Listed by ANR as a partner in the AIME consortium.
+  url: https://anr.fr/en/latest-news/read/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/
+  fetched: '2026-10-31'
+  quote: Université Cheick Anta Diop (Sénégal)
+- claim: GBIF lists it at Université Cheikh Anta Diop in Dakar, working on biodiversity information
+    mobilisation.
+  url: https://api.gbif.org/v1/organization/24faa081-ab14-4fa6-a646-a99af3fcc5f5
+  fetched: '2026-10-31'
+  quote: Université Cheikh Anta Diop, Faculté des Sciences et Techniques
+- claim: Published the Senegal waterbird counts for 2016 to 2018.
+  url: https://api.gbif.org/v1/organization/24faa081-ab14-4fa6-a646-a99af3fcc5f5/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Dénombrement des oiseaux d'eau du Sénégal de 2016 à 2018
+- claim: Published an illustrated flora of Senegal and neighbouring regions.
+  url: https://api.gbif.org/v1/organization/24faa081-ab14-4fa6-a646-a99af3fcc5f5/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Flore illustrée du Sénégal et des régions voisines
+- claim: Hosts the DiCentre4AI laboratory.
+  url: https://senego.com/developpement-durable-et-ia-lucad-inaugure-des-laboratoires-dexcellence_1800136.html
+  fetched: '2026-10-31'
+  quote: les laboratoires de recherche DiCentre4AI pour l’Université Cheikh Anta Diop de Dakar
+- claim: ANR lists it in the AIME consortium.
+  url: https://anr.fr/fr/actus/details/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/?cHash=d6757fb10db4aa5c409c35778b765489&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News
+  fetched: '2026-10-31'
+  quote: Université Gaston Berger de Saint-Louis et Université Cheick Anta Diop (Sénégal)
+- claim: Authors at its Polytechnic Higher School published a fish detection model.
+  url: https://thehive.icipe.org/rsif-all-scholars-publications/235/
+  fetched: '2026-10-31'
+  quote: Polytechnic Higher School, Cheikh Anta Diop University, Dakar, Senegale
+- claim: Hosts a centre for innovation and applied research in AI.
+  url: https://www.dicentre4ai.sn/projets-enagrowatch/
+  fetched: '2026-10-31'
+  quote: Centre d’innovation et de recherche appliquée en IA à l’UCAD.
+- claim: Publishes a checklist of the birds of Senegal on GBIF, covering the country's regions.
+  url: https://api.gbif.org/v1/dataset/c0d879f3-66e0-4bf0-8288-107d74cbfca2
+  fetched: '2026-10-31'
+  quote: Le jeu de données couvre les différentes régions du Sénégal
+- claim: That checklist is offered under a Creative Commons non-commercial licence.
+  url: https://api.gbif.org/v1/dataset/c0d879f3-66e0-4bf0-8288-107d74cbfca2
+  fetched: '2026-10-31'
+  quote: creativecommons.org/licenses/by-nc/4.0
+- claim: Publishes a checklist of herbaceous species of Senegal on GBIF.
+  url: https://api.gbif.org/v1/dataset/233ba52e-46d8-423c-bee3-e716dd8f3abf
+  fetched: '2026-10-31'
+  quote: Les données couvrent le Sénégal
+- claim: Lists the Institut Fondamental d'Afrique Noire as its research institute with faculty
+    rank.
+  url: https://www.ucad.sn/institutrecherche
+  fetched: '2026-10-31'
+  quote: Institut fondamental d’Afrique noire - Cheikh Anta Diop
+- claim: Its research directorate is at Fann, Dakar.
+  url: https://recherche.ucad.sn
+  fetched: '2026-10-31'
+  quote: UCAD,Fann, BP 5005 Dakar, Sénégal
+links:
+- type: run-by
+  to: universite-cheikh-anta-diop
+  url: https://api.gbif.org/v1/organization/24faa081-ab14-4fa6-a646-a99af3fcc5f5
+  fetched: '2026-10-31'
+  quote: Université Cheikh Anta Diop, Faculté des Sciences et Techniques
+- type: runs
+  to: denombrement-des-oiseaux-d-eau-du-senegal
+  url: https://api.gbif.org/v1/dataset/665edebe-8d21-49bd-9435-155ef2789ab0
+  fetched: '2026-10-31'
+  quote: Institut des Sciences de l'Environnement
+found_by:
+- checklist:2
+- checklist:3
+- link-from:global-biodiversity-information-facility
+- link-from:institut-de-recherche-pour-le-developpement
+- checklist:register-d
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

@@ -1,0 +1,42 @@
+id: institut-botanique-ake-assi-d-andokoi
+kind: organisation
+name: Institut Botanique Aké-Assi d'Andokoi
+also_known_as:
+- IBAAN
+scope: ci
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: ci
+countries:
+- ci
+scale: national
+status: active
+summary: A botanical institute whose GBIF dataset reports 7,054 herbarium occurrence records from specimens
+  collected in 1905–2018, with a publisher record describing a collection of about 10,000 West African
+  specimens.
+facts:
+- claim: GBIF’s publisher record, created in February 2017, describes a collection of about 10,000 West
+    African specimens and plans to clean and standardise the data for publication.
+  url: https://api.gbif.org/v1/organization/970fd0a8-8beb-4375-859e-ee19927f52a0
+  fetched: '2026-11-08'
+  quote: has a collection of about 10,000 specimens of West Africa
+- claim: Its herbarium dataset description on GBIF reports 7,054 occurrence records from specimens collected
+    in 1905–2018 across Côte d’Ivoire’s phytogeographic zones and in other countries in Africa, Europe
+    and the Americas.
+  url: https://api.gbif.org/v1/organization/970fd0a8-8beb-4375-859e-ee19927f52a0/publishedDataset?limit=10
+  fetched: '2026-11-08'
+  quote: toutes les zones phytogéographiques de la Côte d'Ivoire allant des forêts denses humides (Sud)
+    aux savanes soudaniennes (Nord du pays)
+- claim: Publishes the dataset under the title of occurrences of plant samples from its herbarium.
+  url: https://api.gbif.org/v1/organization/970fd0a8-8beb-4375-859e-ee19927f52a0/publishedDataset?limit=10
+  fetched: '2026-11-08'
+  quote: Occurrences des échantillons de plantes de l'Herbier de l'Institut Botanique Aké-Assi d'Andokoi
+    (IBAAN), Côte d'Ivoire
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

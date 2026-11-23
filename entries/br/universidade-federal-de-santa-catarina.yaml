@@ -1,0 +1,48 @@
+id: universidade-federal-de-santa-catarina
+kind: organisation
+name: Universidade Federal de Santa Catarina
+scope: br
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: br
+status: active
+also_known_as:
+- UFSC
+realms:
+- ocean
+countries:
+- br
+website: http://ufsc.br/
+summary: Federal university in Florianópolis. It passes the register test because it publishes
+  NONATObase, a polychaete database for the Southwestern Atlantic, and long-term reef monitoring
+  data from Brazil's oceanic islands.
+facts:
+- claim: Publishes NONATObase on GBIF.
+  url: https://api.gbif.org/v1/dataset/8c763ac2-74ab-44d1-979b-3dcb422ae581
+  fetched: '2026-10-30'
+  quote: 'UFSC | NONATObase: a database for Polychaeta (Annelida) from the Southwestern Atlantic
+    Ocean'
+- claim: Its GBIF address is the Reitor João David Ferreira Lima campus in Florianópolis.
+  url: https://api.gbif.org/v1/organization/d254f613-d4dd-4553-9fe3-b9485ca28371
+  fetched: '2026-10-30'
+  quote: Campus Reitor João David Ferreira Lima
+- claim: The federal company register, as shown on cnpj-api.com, gives its address in Trindade,
+    Florianópolis.
+  url: https://cnpj-api.com/en/cnpj/83899526000182
+  quote: Street Address RUA ROBERTO SAMPAIO GONZAGA S/N Neighborhood TRINDADE Zip Code 88040-900
+    City / State FLORIANOPOLIS / SC
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: nonatobase
+  url: https://api.gbif.org/v1/dataset/8c763ac2-74ab-44d1-979b-3dcb422ae581
+  fetched: '2026-10-30'
+  quote: 'UFSC | NONATObase: a database for Polychaeta (Annelida) from the Southwestern Atlantic
+    Ocean. Version 2.2. Universidade Federal de Santa Catarina.'
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

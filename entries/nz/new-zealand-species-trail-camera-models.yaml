@@ -1,0 +1,38 @@
+id: new-zealand-species-trail-camera-models
+kind: model
+name: New Zealand invasives and species AI models (AddaxAI)
+scope: nz
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: AI models trained on about 2 million camera trap images, embedded in AddaxAI and built by Weka
+  Research.
+facts:
+- claim: Trained on about 2 million camera trap images.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: The model s were trained on approximately 2 million camera trap images from a diverse range of
+    habitats
+- claim: Embedded in AddaxAI.
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: The models have been embedded into AddaxAI.
+links:
+- type: uses
+  to: addaxai
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: The models have been embedded into AddaxAI.
+- type: built-by
+  to: weka-research
+  url: https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/science-and-innovation/
+  fetched: 2026-11-07
+  quote: AI classification models (AddaxAI and Weka Research) Development of a New Zealand invasives and
+    a New Zealand species AI model to classify trail camera images.
+found_by:
+- link-from:department-of-conservation
+added_by: agent
+checked: 2026-11-07

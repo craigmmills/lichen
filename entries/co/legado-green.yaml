@@ -1,0 +1,39 @@
+id: legado-green
+kind: organisation
+name: Legado Green
+scope: co
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- co
+scale: regional
+status: active
+summary: Organisation managing an area of 13 million acres in eastern Colombia. EOS Data Analytics
+  made it land cover, biomass and deforestation maps using machine learning models.
+facts:
+- claim: EOS Data Analytics says it oversees 13 million acres in eastern Colombia.
+  url: https://eos.com/blog/eosda-analyzes-land-use-for-legado-green-in-colombia/
+  fetched: '2026-10-31'
+  quote: oversees an area of 13 million acres in eastern Colombia
+- claim: EOS Data Analytics says its land cover map used an in-house machine learning model.
+  url: https://eos.com/blog/eosda-analyzes-land-use-for-legado-green-in-colombia/
+  fetched: '2026-10-31'
+  quote: The 2023 map of land cover classification produced by EOSDA using an in-house machine
+    learning model.
+links:
+- type: uses
+  to: eos-data-analytics
+  url: https://eos.com/blog/eosda-analyzes-land-use-for-legado-green-in-colombia/
+  fetched: '2026-10-31'
+  quote: they turned to EOS Data Analytics for a solution
+found_by:
+- link-from:eos-data-analytics
+added_by: agent
+checked: '2026-10-31'

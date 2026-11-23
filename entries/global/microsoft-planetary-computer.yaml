@@ -1,0 +1,45 @@
+id: microsoft-planetary-computer
+kind: programme
+name: Microsoft Planetary Computer
+also_known_as:
+- Planetary Computer
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://planetarycomputer.microsoft.com
+summary: Microsoft platform announced in 2020 to give access to environmental datasets and a computing platform to analyse them, with a paid Azure service, Planetary Computer Pro, for managing geospatial data.
+facts:
+- claim: Announced as a platform for access to environmental datasets and computing to analyse them.
+  url: https://www.esri.com/about/newsroom/announcements/esri-donates-free-software-to-geo-bon-grant-recipients
+  fetched: 2026-10-30
+  quote: a Planetary Computer that will provide access to the world’s critical environmental datasets, and a computing platform to analyze those datasets on
+- claim: Planetary Computer Pro is a geospatial data management service built on Azure.
+  url: https://learn.microsoft.com/en-us/azure/planetary-computer/microsoft-planetary-computer-pro-overview
+  fetched: &id001 2026-10-30
+  quote: Microsoft Planetary Computer Pro is a geospatial data management service built on top of Azure's hyperscale infrastructure and ecosystem.
+links:
+- type: run-by
+  to: microsoft
+  url: https://learn.microsoft.com/en-us/azure/planetary-computer/microsoft-planetary-computer-pro-overview
+  fetched: *id001
+  quote: Microsoft Planetary Computer's vision is to empower every organization to unlock the full potential of geospatial data.
+- type: partners-with
+  to: the-nature-conservancy
+  url: https://devblogs.microsoft.com/premier-developer/the-microsoft-planetary-computer/
+  fetched: 2026-10-30
+  quote: "Microsoft and TNC are enabling more equitable access to the Marxan Planning Platform"
+- type: partners-with
+  to: esri
+  url: https://events.greenbiz.com/article/microsoft-building-planetary-computer-protect-biodiversity
+  fetched: 2026-10-30
+  quote: "the geospatial expertise of its long-time partner, Esri"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

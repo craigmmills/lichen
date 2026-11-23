@@ -1,0 +1,69 @@
+id: inaturalist
+kind: organisation
+name: iNaturalist
+scope: global
+sector: ngo
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+ai_types:
+- generative-ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+- species-distribution
+hq: us
+scale: global
+status: active
+website: https://www.inaturalist.org
+summary: Non-profit social network where people record and identify observations of species,
+  with an automated species identification tool, and whose research-grade records feed GBIF.
+facts:
+- claim: American 501(c)(3) nonprofit social network.
+  url: https://en.wikipedia.org/wiki/INaturalist
+  fetched: '2026-10-30'
+  quote: iNaturalist is an American 501(c)(3) nonprofit social network of naturalists
+- claim: Includes an automated species identification tool.
+  url: https://en.wikipedia.org/wiki/INaturalist
+  fetched: '2026-10-30'
+  quote: iNaturalist includes an automated species identification tool
+- claim: iNaturalist was awarded a grant to use generative AI.
+  url: https://en.wikipedia.org/wiki/INaturalist
+  fetched: '2026-10-30'
+  quote: was awarded a philanthropic grant to use generative AI
+  ai_type: generative-ai
+- claim: Bay Nature reports that iNaturalist separated from the California Academy of Sciences
+    and National Geographic Society and became its own 501(c)(3) non-profit in 2023.
+  url: https://baynature.org/2023/09/12/inaturalist-strikes-out-on-its-own/
+  quote: With the help of a $10 million startup grant, the organization that started as a
+    UC Berkeley master’s project separated from the California Academy of Sciences
+  fetched: '2026-10-30'
+- claim: Bay Nature reports that the Gordon and Betty Moore Foundation gave the newly independent
+    iNaturalist a $10 million grant.
+  url: https://baynature.org/2023/09/12/inaturalist-strikes-out-on-its-own/
+  quote: The Gordon and Betty Moore Foundation, a longtime iNaturalist donor with a $9.5 billion
+    endowment, gave the newly independent iNaturalist a $10 million grant
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/dataset/search?q=iNaturalist%20research-grade&limit=2
+  fetched: '2026-10-30'
+  quote: iNaturalist Research-grade Observations
+- type: funded-by
+  to: gordon-and-betty-moore-foundation
+  url: https://baynature.org/2023/09/12/inaturalist-strikes-out-on-its-own/
+  quote: The Gordon and Betty Moore Foundation, a longtime iNaturalist donor with a $9.5 billion
+    endowment, gave the newly independent iNaturalist a $10 million grant
+  amount: 10000000
+  currency: USD
+  year: 2023
+  fetched: '2026-10-30'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

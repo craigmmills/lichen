@@ -1,0 +1,35 @@
+id: geo360-azercosmos
+kind: programme
+name: GEO360
+scope: az
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+countries:
+- az
+summary: Active cloud-based platform, run by Azercosmos, that brings its AI tools
+  together so users can upload satellite imagery and apply models such as deforestation
+  detection in a browser.
+facts:
+- claim: A cloud-based data processing platform that unifies Azercosmos's AI tools;
+    users upload satellite imagery and apply AI models such as deforestation detection
+    in a browser.
+  url: https://azercosmos.az/en/earth-observation/ai-products
+  fetched: 2026-11-12
+  quote: Users can upload satellite imagery and apply multiple AI models—such as deforestation
+    and building detection—directly through a web browser, without the need for additional
+    computing resources.
+links:
+- type: run-by
+  to: azercosmos
+  url: https://azercosmos.az/en/earth-observation/ai-products
+  fetched: 2026-11-12
+  quote: GEO360 is a cloud-based data processing platform that unifies our AI tools
+    in one place.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

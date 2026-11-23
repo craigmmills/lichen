@@ -1,0 +1,60 @@
+id: ccmar
+kind: organisation
+name: Centro de Ciências do Mar do Algarve
+scope: pt
+also_known_as:
+- CCMAR
+- Centre of Marine Sciences of the Algarve
+- Centro de Ciências do Mar
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- species-distribution
+- remote-sensing
+hq: pt
+countries:
+- pt
+scale: national
+status: active
+website: https://ccmar.ualg.pt/en/ccmar
+summary: An independent non-profit research organisation in the University of Algarve system,
+  with a Biodiversity Data Science group using AI and machine learning, and an E-services
+  marine data platform.
+facts:
+- claim: OpenAlex lists a 2024 paper with authors at CCMAR titled Range map data of marine
+    ecosystem structuring species under global climate change.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:pt,from_publication_date:2020-01-01,title_and_abstract.search:species%20%22machine%20learning%22%20conservation&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,cited_by_count,authorships
+  fetched: 2026-11-02
+  quote: Range map data of marine ecosystem structuring species under global climate change
+- claim: GBIF's publisher record describes it as an independent non-profit research organisation
+    within the University of Algarve system.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: is an independent non-profit research organization within the University of Algarve
+    system
+- claim: Its GBIF publisher record gives an address on the Gambelas campus at Faro.
+  url: https://api.gbif.org/v1/node/673f7038-4262-4149-b753-5658a4e912f6/organization?limit=200
+  fetched: '2026-11-02'
+  quote: Universidade do Algarve, Campus de Gambelas
+- claim: OpenAlex lists a paper using convolutional neural networks to map kelp forests among
+    works by authors affiliated with CCMAR.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:i4387154462,concepts.id:C119857082|C108583219,concepts.id:C18903297,from_publication_date:2019-01-01&sort=cited_by_count:desc&per_page=8&select=title,publication_year,doi,cited_by_count
+  fetched: '2026-11-02'
+  quote: Artificial intelligence convolutional neural networks map giant kelp forests from
+    satellite imagery
+  ai_type: deep-learning
+found_by:
+- checklist:3
+- link-from:partnership-for-observation-of-the-global-ocean
+- checklist:register
+added_by: agent
+checked: 2026-11-02
+links: []
+ai_types:
+- deep-learning

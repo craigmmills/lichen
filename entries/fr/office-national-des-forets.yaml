@@ -1,0 +1,65 @@
+id: office-national-des-forets
+kind: organisation
+name: Office national des forêts
+also_known_as:
+- ONF
+scope: fr
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: The public body that manages public forests in France, with 8,200 staff. It has a
+  research, development and innovation department that has presented on operational uses of
+  remote sensing.
+facts:
+- claim: Has 8,200 staff, according to the state's public service recruitment site.
+  url: https://choisirleservicepublic.gouv.fr/employeurs/onf/
+  quote: Être ONF, c'est rejoindre les 8200 femmes et hommes
+  fetched: '2026-10-31'
+- claim: Manages public forests.
+  url: https://choisirleservicepublic.gouv.fr/employeurs/onf/
+  quote: la gestion durable des forêts publiques intègre les différentes fonctions de la forêt
+  fetched: '2026-10-31'
+- claim: Anne Jolly of its research, development and innovation department presented at a
+    Theia forest event.
+  url: https://www.theia-land.fr/wp-content/uploads/2021/12/03-THEIA-FORET-ONF-A.Jolly_.pdf
+  quote: Département Recherche, Développement et Innovation
+  fetched: '2026-10-31'
+- claim: Its site describes the Sonosylva campaigns, whose results will be studied with AI.
+  url: https://www.onf.fr/vivre-la-foret/%2B/280e%3A%3Asonosylva-une-technologie-pour-ecouter-et-comprendre-la-vie-en-foret.html?lang=fr
+  fetched: '2026-10-31'
+  quote: Les résultats seront étudiés à l’aide de l’ intelligence artificielle
+- claim: Applies a deep learning method to map forest dieback in French Guiana.
+  url: https://www.onfinternational.org/projet/guyane-cartographie-du-deperissement-forestier-avec-lintelligence-artificielle/
+  fetched: '2026-10-31'
+  quote: Mettre en œuvre une méthode basée sur l’apprentissage profond (deep learning) , plus
+    robuste et capable de s’adapter à différentes zones de Guyane et à d’autres forêts tropicales.
+  ai_type: deep-learning
+- claim: The international subsidiary of the ONF.
+  url: https://www.onfinternational.org/
+  fetched: '2026-10-31'
+  quote: Filiale internationale de l’ONF
+found_by:
+- checklist:2
+- checklist:1
+- checklist:7
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: partners-with
+  to: monitor-pepr-forestt
+  url: https://www.pepr-forestt.fr/eng/projects/monitor
+  fetched: '2026-10-31'
+  quote: 'Partner institutions: Université de Picardie Jules Verne , CNRS , CIRAD , INRAE
+    , CEA , ONF , CNES'
+ai_types:
+- deep-learning

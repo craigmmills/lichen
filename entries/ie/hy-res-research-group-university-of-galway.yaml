@@ -1,0 +1,36 @@
+id: hy-res-research-group-university-of-galway
+kind: organisation
+name: Hy-Res Research Group, University of Galway
+scope: ie
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ie
+countries:
+- ie
+scale: national
+status: active
+summary: University of Galway research group, affiliation of the first and corresponding authors of a
+  paper using remote sensing and machine learning to observe variability within peatlands.
+facts:
+- claim: Affiliation of the first author of "Observations of intra-peatland variability using multiple
+    spatially coincident remotely sensed data sources and machine learning" (OpenAlex record).
+  url: https://api.openalex.org/works?filter=doi:10.1007/s10113-023-02116-0|10.1016/j.ecolind.2024.112265|10.1016/j.geoderma.2023.116348|10.1111/ibi.13317|10.1016/j.ecoinf.2025.103242|10.3390/rs17050879&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: '"display_name": "Observations of intra-peatland variability using multiple spatially coincident
+    remotely sensed data sources and machine learning", "authorships": [{"author_position": "first"'
+- claim: The first and corresponding authors' affiliation is the Hy-Res Research Group, Earth and Ocean
+    Sciences and Ryan Institute, University of Galway.
+  url: https://api.openalex.org/works?filter=doi:10.1007/s10113-023-02116-0|10.1016/j.ecolind.2024.112265|10.1016/j.geoderma.2023.116348|10.1111/ibi.13317|10.1016/j.ecoinf.2025.103242|10.3390/rs17050879&select=display_name,authorships
+  fetched: 2026-11-09
+  quote: Hy-Res Research Group, Earth and Ocean Sciences and Ryan Institute, College of Science and Engineering,
+    University of Galway, Galway H91 TK33, Ireland
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-09

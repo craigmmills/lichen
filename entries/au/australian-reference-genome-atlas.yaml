@@ -1,0 +1,61 @@
+id: australian-reference-genome-atlas
+kind: dataset
+name: Australian Reference Genome Atlas
+also_known_as:
+- ARGA
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- edna-genomics
+countries:
+- au
+status: active
+runner: unknown
+summary: Genomic atlas intended to let researchers find genomic data for Australian
+  species in one place, listed among the Atlas of Living Australia's current projects.
+facts:
+- claim: Lets researchers discover genomic data for Australian species in one place.
+  url: https://ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: The new genomic atlas will mean that researchers can easily discover and
+    access genomic data for Australian species in one place
+- claim: Lets researchers discover, select and access genomics data.
+  url: https://arga.org.au/
+  fetched: '2026-10-31'
+  quote: Empowering Australia’s researchers to discover, select and access
+- claim: Consolidates Australian genomic data held across international repositories,
+    museums and labs.
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: The new genomic atlas will mean that researchers can easily discover and
+    access genomic data for Australian species in one place
+links:
+- type: partners-with
+  to: atlas-of-living-australia
+  url: https://ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: Australian Reference Genome Atlas Project
+- type: partners-with
+  to: atlas-of-living-australia
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: are collaborating on ARGA, the Australian Reference Genome Atlas.
+- type: partners-with
+  to: bioplatforms-australia
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: are collaborating on ARGA, the Australian Reference Genome Atlas.
+- type: partners-with
+  to: australian-research-data-commons
+  url: https://www.ala.org.au/current-projects/
+  fetched: '2026-10-31'
+  quote: are collaborating on ARGA, the Australian Reference Genome Atlas.
+found_by:
+- checklist:2
+- link-from:atlas-of-living-australia
+added_by: agent
+checked: '2026-10-31'

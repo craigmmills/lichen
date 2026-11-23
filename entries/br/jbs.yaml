@@ -1,0 +1,46 @@
+id: jbs
+kind: organisation
+name: JBS
+scope: br
+sector: company
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: br
+countries:
+- br
+scale: national
+status: active
+website: https://jbs.com.br/
+summary: Conglomerate that sponsored the equipment for Abrace Pantanal, the AI fire detection
+  project in the Pantanal.
+facts:
+- claim: Sponsored the purchase of the equipment for Abrace Pantanal.
+  url: https://www.campograndenews.com.br/cidades/interior/abrace-pantanal-sera-lancado-nesta-4a-para-monitorar-2-5-milhoes-de-hectares
+  fetched: '2026-10-30'
+  quote: com patrocínio do conglomerado JBS para a compra do equipamento
+- claim: The federal company register, as shown on cnpj-api.com, lists JBS S/A.
+  url: https://cnpj-api.com/en/cnpj/02916265000160
+  quote: Legal Name JBS S/A Trade Name JBS S/A
+  fetched: '2026-10-31'
+- claim: The federal company register, as shown on cnpj-api.com, gives this address.
+  url: https://cnpj-api.com/en/cnpj/02916265000160
+  quote: Street Address AVENIDA MARGINAL DIREITA DO TIETE 500 Neighborhood VILA JAGUARA Zip
+    Code 05118-100 City / State SAO PAULO / SP
+  fetched: '2026-10-31'
+- claim: Its investor relations site is headed JBS N.V.
+  url: https://ri.jbs.com.br/
+  quote: JBS N.V. – Relacionamento com Investidores
+  fetched: '2026-10-31'
+links:
+- type: funds
+  to: abrace-o-pantanal
+  url: https://www.campograndenews.com.br/cidades/interior/abrace-pantanal-sera-lancado-nesta-4a-para-monitorar-2-5-milhoes-de-hectares
+  fetched: '2026-10-30'
+  quote: com patrocínio do conglomerado JBS para a compra do equipamento
+found_by:
+- link-from:umgrauemeio
+added_by: agent
+checked: '2026-10-31'

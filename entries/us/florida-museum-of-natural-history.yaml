@@ -1,0 +1,59 @@
+id: florida-museum-of-natural-history
+kind: organisation
+name: Florida Museum of Natural History
+scope: us
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: us
+countries:
+- us
+scale: national
+status: active
+summary: University of Florida natural history museum listed as a TDWG member, whose Soltis
+  lab co-authored deep learning work on herbarium specimens.
+facts:
+- claim: Listed as a TDWG member.
+  url: https://www.tdwg.org/about/membership/
+  fetched: '2026-10-30'
+  quote: Florida Museum of Natural History
+- claim: Lab page reports phenological annotation models on herbarium data.
+  url: https://www.floridamuseum.ufl.edu/soltis-lab/2019/03/29/toward-a-large-scale-and-deep-phenological-stage-annotation-of-herbarium-specimens-case-studies-from-temperate-tropical-and-equatorial-floras/
+  fetched: '2026-10-30'
+  quote: Phenological annotation models computed on large‐scale herbarium data sets were developed
+    and tested in this study.
+- claim: Its AI curators develop machine learning tools.
+  url: https://news.ufl.edu/2024/09/ai-curators/
+  fetched: '2026-10-30'
+  quote: are tasked with developing machine learning tools to study specimens
+- claim: Porto built a computer vision program called Deep Bryo.
+  url: https://news.ufl.edu/2024/09/ai-curators/
+  fetched: '2026-10-30'
+  quote: Porto developed a program called Deep Bryo
+  ai_type: deep-learning
+- claim: Gives an address in Gainesville, Florida.
+  url: https://floridamuseum.ufl.edu/science/contact/
+  fetched: '2026-10-31'
+  quote: Gainesville, FL 32611-7800
+links:
+- type: partners-with
+  to: biodiversity-information-standards
+  url: https://www.tdwg.org/about/membership/
+  fetched: '2026-10-30'
+  quote: Florida Museum of Natural History
+found_by:
+- link-from:queue-us
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+also_known_as:
+- Florida Museum
+website: https://floridamuseum.ufl.edu

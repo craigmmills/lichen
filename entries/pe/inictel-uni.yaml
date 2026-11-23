@@ -1,0 +1,45 @@
+id: inictel-uni
+kind: organisation
+name: Instituto Nacional de Investigación y Capacitación de Telecomunicaciones de la Universidad
+  Nacional de Ingeniería
+also_known_as:
+- INICTEL-UNI
+scope: pe
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+countries:
+- pe
+scale: national
+status: active
+summary: Telecommunications research institute of the Universidad Nacional de Ingeniería,
+  listed as executing entity of a 2024 PROCIENCIA grant for an aguajal remote sensing platform.
+facts:
+- claim: OpenAlex lists a 2018 paper by authors affiliated with INICTEL-UNI on deep learning
+    segmentation of Mauritia flexuosa palms in drone imagery.
+  url: https://api.openalex.org/works/W2903052844?select=id,title,publication_year,authorships,primary_location
+  fetched: 2026-11-03
+  quote: Automatic Segmentation of Mauritia flexuosa in Unmanned Aerial Vehicle (UAV) Imagery
+    Using Deep Learning
+  ai_type: deep-learning
+- claim: Listed as the executing entity of PROCIENCIA grant PE501091526-2024 for an aguajal
+    remote sensing platform.
+  url: https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8JiGZ/pe501091526-2024
+  fetched: 2026-11-03
+  quote: UNIDAD EJECUTORA 002 - INICTEL-UNI
+links: []
+found_by:
+- checklist:3
+- link-from:plataforma-de-teledeteccion-para-aguajales-inictel-uni
+added_by: agent
+checked: 2026-11-03

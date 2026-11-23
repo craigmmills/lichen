@@ -1,0 +1,58 @@
+id: clay-foundation-model
+kind: model
+name: Clay Foundation Model
+also_known_as:
+- Clay
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+- foundation-models
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+status: active
+website: https://clay-foundation.github.io/model/
+summary: Open foundation model of Earth that takes satellite imagery with location and time and outputs embeddings for downstream nature and climate applications.
+facts:
+- claim: Takes satellite imagery and outputs embeddings.
+  url: https://clay-foundation.github.io/model/index.html
+  fetched: '2026-10-30'
+  quote: Clay’s model takes satellite imagery, along with information about location and time, as an input, and outputs embeddings
+- claim: Versions v0 to v1.5 were a fiscally sponsored project of Radiant Earth.
+  url: https://clay-foundation.github.io/model/index.html
+  fetched: '2026-10-30'
+  quote: CLAY model v0 to v1.5 was a fiscal sponsored project of the 501c3 non-profit Radiant Earth
+- claim: "The Clay documentation describes foundation models trained on Earth observation data."
+  url: https://clay-foundation.github.io/model/
+  fetched: '2026-10-30'
+  quote: "Foundation models trained on earth observation (EO) data can efficiently distill and synthesize vast amounts of environmental data, allowing them to generalize this knowledge to specific, downstream applications."
+  ai_type: foundation-models
+- claim: "Clay uses a Vision Transformer architecture."
+  url: https://clay-foundation.github.io/model/
+  fetched: '2026-10-30'
+  quote: "It uses a Vision Transformer architecture adapted to understand geospatial and temporal relations on Earth Observation data."
+  ai_type: deep-learning
+- claim: "Clay is trained by self-supervised learning with a masked autoencoder."
+  url: https://clay-foundation.github.io/model/
+  fetched: '2026-10-30'
+  quote: "The model is trained via Self-supervised learning (SSL) using a Masked Autoencoder (MAE) method."
+  ai_type: ml-unsupervised
+links:
+- type: partners-with
+  to: radiant-earth
+  url: https://clay-foundation.github.io/model/index.html
+  fetched: '2026-10-30'
+  quote: "CLAY model v0 to v1.5 was a fiscal sponsored project of the 501c3 non-profit Radiant Earth"
+- type: run-by
+  to: ode-clay
+  url: https://madewithclay.org/
+  fetched: '2026-10-30'
+  quote: We spent the last two years developing the Clay foundation model of Earth data
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

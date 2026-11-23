@@ -1,0 +1,38 @@
+id: macaulay-library
+kind: dataset
+name: Macaulay Library
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- bioacoustics
+status: active
+website: https://www.macaulaylibrary.org
+summary: Scientific archive of natural history audio, video and photographs, rooted
+  in birds, which also holds recordings of amphibians, fishes and mammals.
+facts:
+- claim: Scientific archive of natural history audio, video and photographs.
+  url: https://www.macaulaylibrary.org/about/
+  fetched: '2026-10-30'
+  quote: is the world’s premier scientific archive of natural history audio, video,
+    and photographs
+links:
+- type: run-by
+  to: cornell-lab-of-ornithology
+  url: https://en.wikipedia.org/wiki/Macaulay_Library
+  fetched: '2026-10-30'
+  quote: The Library is part of Cornell Lab of Ornithology of Cornell University
+- type: partners-with
+  to: ebird
+  url: https://www.macaulaylibrary.org/about/
+  fetched: '2026-10-30'
+  quote: via the eBird/Macaulay Library media upload tool
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- Macaulay Library at the Cornell Lab of Ornithology

@@ -1,0 +1,48 @@
+id: coastvision
+kind: project
+name: CoastVision
+also_known_as:
+- Computer vision to expand monitoring and accelerate assessment of coastal fish
+scope: 'no'
+ai_label: ai
+status: closed
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- 'no'
+scale: national
+ai_types:
+- deep-learning
+summary: Closed project, 2020 to 2025, that aimed to apply deep learning to detect and size coastal fish
+  caught on camera, led by the Institute of Marine Research.
+facts:
+- claim: The 2020–2025 project aimed to apply deep learning to develop automated detection and sizing
+    of coastal fish caught on camera.
+  url: https://hi.no/en/hi/forskning/projects/coastvision
+  fetched: &id001 2026-11-02
+  quote: CoastVision will apply deep learning to develop automated detection and sizing of coastal fish
+    caught on camera.
+  ai_type: deep-learning
+- claim: Period 1 January 2020 to 31 December 2025.
+  url: https://hi.no/en/hi/forskning/projects/coastvision
+  fetched: *id001
+  quote: 01. januar 2020 - 31. desember 2025
+links:
+- type: led-by
+  to: institute-of-marine-research
+  url: https://hi.no/en/hi/forskning/projects/coastvision
+  fetched: *id001
+  quote: Projects is lead by Institute of Marine Research
+- type: funded-by
+  to: research-council-of-norway
+  url: https://hi.no/en/hi/forskning/projects/coastvision
+  fetched: *id001
+  quote: 'The Research Council of Norway, Oceans Program: 12 mNOK'
+  amount: 12000000
+  currency: NOK
+found_by:
+- link-from:institute-of-marine-research
+added_by: agent
+checked: *id001

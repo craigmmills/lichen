@@ -1,0 +1,56 @@
+id: accellarise
+kind: project
+name: AccellARISE
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- edna-genomics
+countries:
+- nl
+status: active
+summary: A five-year upgrade of the ARISE infrastructure, funded by a 3.2-million-euro NWO
+  grant, that lets Naturalis and the Westerdijk Fungal Biodiversity Institute identify small
+  and hidden Dutch species faster.
+facts:
+- claim: A five-year upgrade funded with a 3.2-million-euro grant.
+  url: https://www.naturalis.nl/en/technological-upgrade-for-arise-accelerates-recognition-of-hidden-dutch-nature
+  fetched: &id001 2026-10-31
+  quote: A 3.2-million-euro grant makes the five-year AccellARISE upgrade possible.
+- claim: AI models are being optimised to recognise rare species better.
+  url: https://www.naturalis.nl/en/technological-upgrade-for-arise-accelerates-recognition-of-hidden-dutch-nature
+  fetched: *id001
+  quote: AI models are being optimized to better recognize rare species
+links:
+- type: funded-by
+  to: dutch-research-council
+  url: https://www.naturalis.nl/en/technological-upgrade-for-arise-accelerates-recognition-of-hidden-dutch-nature
+  fetched: *id001
+  quote: the Dutch Research Council (NWO) has awarded the AccellARISE grant
+  amount: 3200000
+  currency: EUR
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/technological-upgrade-for-arise-accelerates-recognition-of-hidden-dutch-nature
+  fetched: *id001
+  quote: With this funding, Naturalis Biodiversity Center and the Westerdijk Fungal Biodiversity
+    Institute can use new technologies
+- type: partners-with
+  to: westerdijk-fungal-biodiversity-institute
+  url: https://www.naturalis.nl/en/technological-upgrade-for-arise-accelerates-recognition-of-hidden-dutch-nature
+  fetched: *id001
+  quote: With this funding, Naturalis Biodiversity Center and the Westerdijk Fungal Biodiversity
+    Institute can use new technologies
+- type: builds-on
+  to: arise-biodiversity
+  url: https://www.naturalis.nl/en/technological-upgrade-for-arise-accelerates-recognition-of-hidden-dutch-nature
+  fetched: *id001
+  quote: a targeted expansion of the existing ARISE infrastructure
+found_by:
+- link-from:naturalis-biodiversity-center
+scope: nl
+added_by: agent
+checked: *id001
+runner: unknown

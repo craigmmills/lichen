@@ -1,0 +1,54 @@
+id: the-ocean-cleanup
+kind: organisation
+name: The Ocean Cleanup
+scope: global
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- freshwater
+techniques:
+- computer-vision
+hq: nl
+scale: global
+status: active
+website: https://theoceancleanup.com
+summary: Organisation that removes plastic from oceans and rivers. Its research team uses
+  AI to map plastic density in remote ocean areas.
+countries:
+- do
+facts:
+- claim: Uses AI tools to map plastic densities in remote ocean locations.
+  url: https://theoceancleanup.com/updates/using-artificial-intelligence-to-monitor-plastic-density-in-the-ocean/
+  quote: New technology and tools that use artificial intelligence (AI) are helping us to
+    create detailed maps of plastic densities in remote ocean locations.
+  fetched: 2026-10-30
+- claim: Headquartered in Rotterdam.
+  url: https://en.wikipedia.org/wiki/The_Ocean_Cleanup
+  quote: Headquarters Rotterdam , Netherlands
+  fetched: 2026-10-30
+- claim: The Ocean Cleanup's object detection uses an artificial neural network.
+  url: https://theoceancleanup.com/updates/using-artificial-intelligence-to-monitor-plastic-density-in-the-ocean/
+  fetched: 2026-10-30
+  quote: The working mechanism behind object detection in images is an artificial neural network.
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: the-audacious-project
+  url: https://theoceancleanup.com/our-partners/
+  fetched: 2026-10-30
+  quote: Launched in 2018, The Audacious Project is a collaborative funding platform
+- type: partners-with
+  to: united-nations-development-programme
+  url: https://theoceancleanup.com/updates/the-ocean-cleanup-and-the-united-nations-partnering-with-undp/
+  fetched: 2026-10-30
+  quote: 'The Ocean Cleanup and the United Nations: Partnering with UNDP'
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

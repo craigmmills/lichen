@@ -1,0 +1,52 @@
+id: trapscan
+kind: programme
+name: TrapScan
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- de
+status: active
+website: https://www.idmt.fraunhofer.de/de/forschungsthemen/analyse-annotation-audio-video/videoanalyse/wwf-deutschland-trapscan-wildtier-monitoring.html
+summary: AI tool that analyses camera-trap videos, finds animal movement and classifies
+  species, developed by Fraunhofer IDMT with WWF Germany and used on the Middle Elbe
+  since January 2026.
+facts:
+- claim: Developed with WWF Germany; analyses camera-trap video and classifies the
+    animals with trained AI models.
+  url: https://www.idmt.fraunhofer.de/de/forschungsthemen/analyse-annotation-audio-video/videoanalyse/wwf-deutschland-trapscan-wildtier-monitoring.html
+  fetched: '2026-10-31'
+  quote: Gemeinsam mit dem WWF Deutschland haben wir die KI-gestützte Monitoring-Lösung
+    »TrapScan« entwickelt.
+- claim: Species are classified with an open-source AI model from the University of
+    Marburg.
+  url: https://www.wwf.de/2026/maerz/kuenstliche-intelligenz-fuer-wilde-auen
+  fetched: '2026-10-31'
+  quote: mit Hilfe eines Open Source-KI-Modells der Universität Marburg nach Tierarten
+    klassifiziert.
+links:
+- type: run-by
+  to: fraunhofer-idmt
+  url: https://www.idmt.fraunhofer.de/de/forschungsthemen/analyse-annotation-audio-video/videoanalyse/wwf-deutschland-trapscan-wildtier-monitoring.html
+  fetched: '2026-10-31'
+  quote: Gemeinsam mit dem WWF Deutschland haben wir die KI-gestützte Monitoring-Lösung
+    »TrapScan« entwickelt.
+- type: partners-with
+  to: wwf-germany
+  url: https://www.idmt.fraunhofer.de/de/forschungsthemen/analyse-annotation-audio-video/videoanalyse/wwf-deutschland-trapscan-wildtier-monitoring.html
+  fetched: '2026-10-31'
+  quote: Gemeinsam mit dem WWF Deutschland haben wir die KI-gestützte Monitoring-Lösung
+    »TrapScan« entwickelt.
+- type: builds-on
+  to: philipps-universitat-marburg
+  url: https://www.wwf.de/2026/maerz/kuenstliche-intelligenz-fuer-wilde-auen
+  fetched: '2026-10-31'
+  quote: mit Hilfe eines Open Source-KI-Modells der Universität Marburg nach Tierarten
+    klassifiziert.
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

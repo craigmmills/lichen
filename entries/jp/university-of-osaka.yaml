@@ -1,0 +1,69 @@
+id: university-of-osaka
+kind: organisation
+name: The University of Osaka
+also_known_as:
+- Osaka University
+- 大阪大学
+scope: jp
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://resou.osaka-u.ac.jp/en
+summary: A January 2024 release reports researchers created a seabird video bio-logger; its
+  laboratory lists theses on bird-call identification, bat acoustic monitoring and drone-based
+  forest monitoring.
+facts:
+- claim: A January 2024 university release says researchers created a small data logger that
+    automatically detects and records video of infrequent behaviours in wild seabirds.
+  url: https://resou.osaka-u.ac.jp/en/research/2024/20240116_3
+  fetched: 2026-11-02
+  quote: researchers from Osaka University have created a small sensor-based data logger (called
+    a bio-logger) that automatically detects and records video of infrequent behaviors in
+    wild seabirds
+- claim: A 2020 release reports the joint group developed the device.
+  url: https://resou.osaka-u.ac.jp/ja/research/2020/20201030_1
+  fetched: '2026-11-02'
+  quote: 人工知能を搭載したバイオロギング デバイスを開発し
+- claim: The laboratory's thesis list includes deep learning identification of bird calls
+    for bird monitoring.
+  url: http://www.see.eng.osaka-u.ac.jp/seege/seege/thesis.html
+  fetched: 2026-11-02
+  quote: 鳥類モニタリングのための深層学習による鳥類の鳴き声自動識別システムに関する研究
+- claim: The list includes an acoustic monitoring system for biodiversity assessment that
+    identifies bat species from echolocation calls.
+  url: http://www.see.eng.osaka-u.ac.jp/seege/seege/thesis.html
+  fetched: 2026-11-02
+  quote: 生物多様性評価のための音響モニタリングシステムの開発
+- claim: The list includes applying a large bird identification AI model to several groups
+    of Japanese organisms.
+  url: http://www.see.eng.osaka-u.ac.jp/seege/seege/thesis.html
+  fetched: 2026-11-02
+  quote: AI技術を用いた生物音響モニタリング
+- claim: The list includes a drone-based forest monitoring method.
+  url: http://www.see.eng.osaka-u.ac.jp/seege/seege/thesis.html
+  fetched: 2026-11-02
+  quote: 森林管理の効率化に向けたUAV-SfMによる森林モニタリング手法の開発
+links:
+- type: builds
+  to: osaka-ai-video-bio-logger
+  url: https://resou.osaka-u.ac.jp/en/research/2024/20240116_3
+  fetched: 2026-11-02
+  quote: researchers from Osaka University have created a small sensor-based data logger
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- other
+- bioacoustics
+- remote-sensing

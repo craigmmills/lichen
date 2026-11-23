@@ -1,0 +1,34 @@
+id: university-of-warwick
+kind: organisation
+name: University of Warwick
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: University with authors on semi-supervised learning for rare and endangered species.
+facts:
+- claim: 'OpenAlex lists authors at University of Warwick on this work: 4S-Classifier: Empowering
+    Conservation through Semi-Supervised Learning for Rare and Endangered Species'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C130217890,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: '4S-Classifier: Empowering Conservation through Semi-Supervised Learning for Rare
+    and Endangered Species'
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://warwick.ac.uk/
+  quote: CV4 7AL
+  fetched: '2026-10-30'
+found_by:
+- checklist:3
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://warwick.ac.uk/

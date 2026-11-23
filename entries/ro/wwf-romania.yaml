@@ -1,0 +1,107 @@
+id: wwf-romania
+kind: organisation
+name: WWF Romania
+also_known_as:
+- WWF-România
+- WWF Romania Association
+- World Wide Fund for Nature România
+scope: ro
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+hq: ro
+countries:
+- ro
+scale: national
+status: active
+website: https://wwf.ro/
+summary: The Romanian arm of WWF, working there since 2006, which coordinates the COOP4SAFE bear-detection
+  initiative as reported by Interreg NEXT, and in November 2026 announced a plan for AI wildlife monitoring
+  in Râșnov.
+facts:
+- claim: An Interreg NEXT programme article says WWF-Romania coordinates the COOP4SAFE initiative, whose
+    system uses AI to detect brown bears and alert intervention teams.
+  url: https://next.huskroua-cbc.eu/smart-early-warning-system-successfully-tested-to-help-prevent-human-brown-bear-conflict-coop4safes/
+  fetched: 2026-11-08
+  quote: The initiative is coordinated by WWF-Romania in partnership with Sensing Clues and AJVPS Maramureș
+- claim: It is registered as a data publisher with GBIF, with Romania as its country.
+  url: https://api.gbif.org/v1/organization?country=RO&limit=100
+  fetched: 2026-11-08
+  quote: '"title":"WWF Romania"'
+- claim: In May 2024 it wrote that the Forest Guards were using artificial intelligence to analyse photos
+    attached to timber transport permits in SUMAL, and called for a SUMAL 3.0.
+  url: https://wwf.ro/paduri/artificial-intelligence-can-objectively-defend-romanias-forests/
+  fetched: 2026-11-08
+  quote: the Forest Guards have intensified their thematic inspections, following a risk-based approach,
+    and are analyzing, including with the help of artificial intelligence programs, the photos attached
+    to the timber transport permits through SUMAL
+- claim: WWF has worked in Romania since 2006 on protected areas, forests, brown bears, bison, the Danube
+    Delta and sturgeons.
+  url: https://wwf.ro/despre-wwf/wwf-romania/
+  fetched: 2026-11-08
+  quote: 'În România, WWF lucrează din anul 2006 pentru protejarea mediului sălbatic din Munții Carpați
+    și din lungul Dunării: arii protejate, păduri, urși bruni, zimbri, Delta Dunării, sturioni.'
+- claim: Its head office is in Bucharest.
+  url: https://wwf.ro/despre-wwf/wwf-romania/
+  fetched: 2026-11-08
+  quote: Sediul central se află în Bucureşti
+- claim: Hack the Planet says it monitors brown bears with WWF Romania in real time.
+  url: https://www.hack-the-planet.io/partners/
+  fetched: 2026-11-08
+  quote: We monitor brown bears with them in real time, so their researchers know which species turned
+    up where within seconds instead of at the end of a field season.
+- claim: A partnership with the town of Râșnov, announced in November 2026, plans an AI-based monitoring
+    system with video cameras that identify wild species automatically and send real-time alerts.
+  url: https://wwf.ro/noutati/wwf-romania-si-primaria-orasului-rasnov-isi-unesc-eforturile-pentru-dezvoltarea-unei-comunitati-bear-smart-si-reducerea-conflictelor-dintre-oameni-si-ursi/
+  fetched: 2026-11-08
+  quote: O componentă importantă a colaborării vizează dezvoltarea unui sistem inteligent de monitorizare
+    și prevenție, bazat pe inteligență artificială. Prin intermediul unor camere video capabile să identifice
+    automat speciile sălbatice și să transmită alerte în timp real
+- claim: Says WWF has worked in Romania since 2006 to protect wild nature in the Carpathians and along
+    the Danube, including protected areas, forests, brown bears, bison, the Danube Delta and sturgeon.
+  url: https://wwf.ro/
+  fetched: 2026-11-08
+  quote: În România, WWF lucrează din anul 2006 pentru protejarea mediului sălbatic din Munții Carpați
+    și din lungul Dunării
+- claim: Gives its address as Strada Delea Nouă 36, Bucharest.
+  url: https://wwf.ro/
+  fetched: 2026-11-08
+  quote: Strada Delea Nouă 36, București 030925
+- claim: The LIFE with Bison project page lists a conservation and monitoring work package, including
+    an annual review of birth and death rates and examination of genetic diversity in the wild population
+    in the Țarcu Mountains.
+  url: https://wwf.ro/ce-facem/specii/zimbrul-old-page/life-with-bison/
+  fetched: 2026-11-08
+  quote: o revizuire anuală a ratelor de natalitate și mortalitate, examinarea diversității genetice în
+    populația sălbatică
+- claim: The same page lists the development of improved monitoring protocols.
+  url: https://wwf.ro/ce-facem/specii/zimbrul-old-page/life-with-bison/
+  fetched: 2026-11-08
+  quote: Dezvoltarea unor protocoale de monitorizare îmbunătățite
+links:
+- type: partners-with
+  to: monstur-in-the-danube
+  url: https://wwfcee.org/news/danube-countries-start-a-joint-sturgeon-monitoring-initiative-to-save-europes-migratory-giants
+  fetched: 2026-11-08
+  quote: WWF Romania Association
+- type: partners-with
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/partners/
+  fetched: 2026-11-08
+  quote: The best deployments come from co-design with people on the ground, like WWF Romania , GRI ,
+    CSL , ZSL and Foundation Conservation Carpathia .
+found_by:
+- checklist:4
+- link-from:hack-the-planet
+- register:ro
+- rule:ngo-broad
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,53 @@
+id: seto-marine-biological-laboratory
+kind: organisation
+name: Seto Marine Biological Laboratory, Kyoto University
+also_known_as:
+- 瀬戸臨海実験所
+scope: jp
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+techniques: []
+hq: unknown
+scale: local
+status: active
+summary: Kyoto University laboratory that runs three long-term monitoring surveys
+  on Hatakejima, recording 86 large benthic species in 43 sections, and is listed
+  for the Shirahama JaLTER core site.
+facts:
+- claim: Runs three long-term monitoring surveys on Hatakejima under a century-long
+    survey of shore communities.
+  url: https://www.seto.kyoto-u.ac.jp/smbl/hatakejima_experimental_field/
+  fetched: '2026-11-09'
+  quote: 当実験地では、「海岸生物群集一世紀間調査」として、3つの長期モニタリング調査が行われています。
+- claim: Records the distribution density of 86 large benthic species in 43 sections
+    of Hatakejima.
+  url: https://www.seto.kyoto-u.ac.jp/smbl/hatakejima_experimental_field/
+  fetched: '2026-11-09'
+  quote: 全島調査では、畠島の43区域において、指定された大型底生動物86種の分布密度を記録し、動物相の長期変化を観測しています。
+- claim: Listed for the Shirahama JaLTER core site.
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Seto Marine Biological Laboratory, Field Science Education and Research Center,
+    Kyoto University
+links:
+- type: run-by
+  to: kyoto-university
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Seto Marine Biological Laboratory, Field Science Education and Research Center,
+    Kyoto University
+- type: partners-with
+  to: jalter
+  url: https://www.jalter.org/en/researchsites/
+  fetched: '2026-11-09'
+  quote: Seto Marine Biological Laboratory, Field Science Education and Research Center,
+    Kyoto University
+found_by:
+- rule:checklist-misses
+- link-from:jalter
+added_by: agent
+checked: '2026-11-09'

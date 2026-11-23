@@ -1,0 +1,54 @@
+id: kinsecta
+kind: project
+name: KInsecta
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+summary: Open source project of the Technische Hochschule Berlin and the Listhof environmental
+  education centre in Reutlingen on low-cost AI insect monitoring with a camera and
+  an optical wing beat sensor.
+facts:
+- claim: An arXiv paper presents a multisensor approach that uses AI-based data fusion
+    for insect classification.
+  url: https://arxiv.org/abs/2404.18504
+  quote: This paper presents a multisensor approach that uses AI-based data fusion
+    for insect classification.
+  fetched: '2026-10-31'
+- claim: A multisensor system built after two years of work, for data to train the
+    AI.
+  url: https://kinsecta.org/multisensorsystem/
+  fetched: '2026-10-31'
+  quote: Nach zwei Jahren Forschung und Entwicklung wurde ein Multisensorsystem fertig
+    gestellt
+- claim: Named by goldflam as a BHT Berlin and Listhof project.
+  url: https://www.goldflam.de/projekte/kinsecta/
+  fetched: '2026-10-31'
+  quote: BHT Berlin & Umweltbildungszentrum Listhof e.V. KInsecta · Citizen Science
+links:
+- type: run-by
+  to: technische-hochschule-berlin
+  url: https://www.schulministerium.nrw/kinsecta-insekten-zaehlen-und-erkennen-mit-ki
+  quote: KInsecta ist ein Open Source-Projekt der Technischen Hochschule Berlin und
+    des Umweltbildungszentrums Listhof in Reutlingen
+  fetched: '2026-10-31'
+- type: funded-by
+  to: ki-leuchttuerme
+  url: https://www.schulministerium.nrw/kinsecta-insekten-zaehlen-und-erkennen-mit-ki
+  quote: wird im Rahmen der KI-Leuchtturmprojekte vom Bundesministerium für Umwelt,
+    Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) gefördert.
+  fetched: '2026-10-31'
+- type: run-by
+  to: berliner-hochschule-fur-technik
+  url: https://www.goldflam.de/projekte/kinsecta/
+  fetched: '2026-10-31'
+  quote: "Hinter dem Forschungsprojekt stehen die Berliner Hochschule für Technik und das Umweltbildungszentrum Listhof."
+found_by:
+- checklist:7
+scope: de
+added_by: agent
+checked: '2026-10-31'
+countries:
+- de

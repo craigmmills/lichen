@@ -1,0 +1,55 @@
+id: threatened-species-index
+kind: dataset
+name: Threatened Species Index
+also_known_as:
+- TSX
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- au
+status: active
+website: https://tsx.org.au/
+summary: Index of trends in Australia's threatened species populations, set up to report on
+  conservation at national, state and regional levels and now managed by TERN.
+facts:
+- claim: Established by the NESP Threatened Species Recovery Hub, the University of Queensland
+    and BirdLife Australia.
+  url: https://tsx.org.au/about
+  fetched: '2026-10-31'
+  quote: It was established by the National Environmental Science Program’s Threatened Species
+    Recovery Hub
+  ai_type: The University of Queensland and Birdlife Australia.
+- claim: Based on the Living Planet Index method.
+  url: https://tsx.org.au/about
+  fetched: '2026-10-31'
+  quote: The method by which Australia’s TSX has been created is based on the Living Planet
+    Index
+- claim: Managed by TERN.
+  url: https://tsx.org.au/terms-of-use/
+  fetched: '2026-10-31'
+  quote: managed by the NCRIS-funded Terrestrial Ecosystem Research Network (TERN)
+links:
+- type: run-by
+  to: terrestrial-ecosystem-research-network
+  url: https://tsx.org.au/about
+  fetched: '2026-10-31'
+  quote: The TSX is managed by the NCRIS-funded Terrestrial Ecosystem Research Network (TERN)
+    at The University of Queensland
+- type: partners-with
+  to: australian-department-of-climate-change-energy-the-environment-and-water
+  url: https://tsx.org.au/about
+  fetched: '2026-10-31'
+  quote: supported by the Australian Government Department of Climate Change
+  logo: Energy
+- type: run-by
+  to: terrestrial-ecosystem-research-network
+  url: https://tsx.org.au/terms-of-use/
+  fetched: '2026-10-31'
+  quote: managed by the NCRIS-funded Terrestrial Ecosystem Research Network (TERN)
+found_by:
+- link-from:terrestrial-ecosystem-research-network
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

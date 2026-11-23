@@ -1,0 +1,42 @@
+id: df-scanner
+kind: model
+name: DF Scanner
+scope: jp
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- jp
+status: active
+summary: AI tool built by DeepForest Technologies that detects trees, identifies species and estimates
+  stem volume from drone orthoimages and point cloud data, and includes a crown-species diversity assessment.
+facts:
+- claim: Uses AI to detect trees, identify species and estimate stem volume from drone orthoimages and
+    point cloud data.
+  url: https://agri.mynavi.jp/prtimes/2025_06_16_319444/
+  fetched: 2026-11-02
+  quote: ドローンで取得したオルソ画像や点群データをもとに、AIによる樹木検出・樹種識別・幹材積推定などを可能にする解析ソフトウェア「DF Scanner」
+- claim: Identifies tree species with AI deep learning from drone images.
+  url: https://deepforest-tech.co.jp/df-scanner/
+  fetched: '2026-11-02'
+  quote: ドローンの画像情報をもとにAI（ディープラーニング）による樹種識別が可能です。
+  ai_type: deep-learning
+- claim: Includes a diversity assessment based on crown species.
+  url: https://deepforest-tech.co.jp/df-scanner/
+  fetched: '2026-11-02'
+  quote: 多様性評価では、樹冠の樹種情報を元にα多様性
+links:
+- type: built-by
+  to: deepforest-technologies
+  url: https://agri.mynavi.jp/prtimes/2025_06_16_319444/
+  fetched: 2026-11-02
+  quote: 森林解析に特化したDeepForest Technologies株式会社が開発した「DFシリーズ」5製品の取り扱いを開始いたしました。
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-02
+ai_types:
+- deep-learning

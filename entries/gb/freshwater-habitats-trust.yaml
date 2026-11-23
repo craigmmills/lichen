@@ -1,0 +1,50 @@
+id: freshwater-habitats-trust
+kind: organisation
+name: Freshwater Habitats Trust
+scope: gb
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: gb
+scale: national
+status: active
+website: https://freshwaterhabitats.org.uk
+summary: NGO that uses environmental DNA to monitor freshwater biodiversity across England
+  and Wales.
+facts:
+- claim: Uses eDNA to monitor freshwater biodiversity in England and Wales.
+  url: https://freshwaterhabitats.org.uk/advice-resources/survey-methods-hub/edna/
+  quote: to monitor freshwater biodiversity in waterbodies across England and Wales
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://freshwaterhabitats.org.uk/
+  quote: OX3 9HY
+  fetched: 2026-10-30
+- claim: Shares its monitoring results freely.
+  url: https://freshwaterhabitats.org.uk/our-work/research-and-monitoring/waternet-data-hub/
+  fetched: '2026-10-30'
+  quote: Our philosophy has always been to make our results freely available for the benefit
+    of freshwater wildlife.
+- claim: Runs an eDNA monitoring scheme.
+  url: http://freshwaterhabitats.org.uk/
+  fetched: '2026-10-30'
+  quote: National Great Crested Newt eDNA monitoring scheme
+- claim: Publishes the dataset "PondNet data 2012-2014" on GBIF.
+  url: https://api.gbif.org/v1/organization/dce2ae55-627a-4e88-b738-5f71a812f60e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: PondNet data 2012-2014
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/dce2ae55-627a-4e88-b738-5f71a812f60e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:4
+- register:gbif-publisher
+added_by: agent
+checked: *id001

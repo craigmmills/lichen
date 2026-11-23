@@ -1,0 +1,80 @@
+id: skogliga-grunddata
+kind: dataset
+name: Skogliga grunddata
+also_known_as:
+- Skogliga skattningar av laserdata
+- Skogliga grunddata
+- National Forest Attribute Maps
+scope: se
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- se
+status: active
+runner: unknown
+summary: Active nationwide forest and land geodata, built by the Swedish University
+  of Agricultural Sciences, with six map layers estimating volume, basal area, height,
+  diameter and biomass from laser scanning and field measurements.
+facts:
+- claim: Six map layers describing volume, basal area, height, diameter and biomass.
+  url: https://www.skogsstyrelsen.se/globalassets/om-oss/regeringsuppdrag/uppdatering-av-skogliga-grundata/skogliga-grunddata---produktbeskrivning.pdf
+  fetched: '2026-11-02'
+  quote: I produkten ingår sex kartskikt som beskriver volym, grundyta, grundytevägd
+    medelhöjd, grundytevägd medeldiameter och biomassa.
+- claim: Nationwide geodata describing forest and land.
+  url: https://www.skogsstyrelsen.se/e-tjanster-och-kartor/karttjanster/skogliga-grunddata/
+  fetched: '2026-11-02'
+  quote: Skogliga grunddata är rikstäckande geodata som beskriver skogen och marken.
+- claim: Values come from statistical models combining laser scanning with field measurements.
+  url: https://www.skogsstyrelsen.se/e-tjanster-och-kartor/karttjanster/skogliga-grunddata/
+  fetched: '2026-11-02'
+  quote: tas fram genom statistiska modeller där information från laserskanningen
+    kombineras med mätningar i fält
+- claim: Maps estimate forest volume, basal area-weighted mean height, basal area,
+    basal area-weighted mean diameter and biomass.
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: National maps provide forest estimates of volume, basal area-weighted mean
+    height, basal area, basal area-weighted mean diameter, and biomass.
+links:
+- type: builds-on
+  to: swedish-national-forest-inventory
+  url: https://www.skogsstyrelsen.se/globalassets/om-oss/regeringsuppdrag/uppdatering-av-skogliga-grundata/skogliga-grunddata---produktbeskrivning.pdf
+  fetched: '2026-11-02'
+  quote: 'sambearbetning av data från Lantmäteriets nationella laserskanning och provytor
+    från
+
+    Riksskogstaxeringen (SLU).'
+- type: builds-on
+  to: swedish-national-forest-inventory
+  url: https://www.skogsstyrelsen.se/e-tjanster-och-kartor/karttjanster/skogliga-grunddata/
+  fetched: '2026-11-02'
+  quote: kombinera Lantmäteriets nationella laserskanning med fältdata från Riksskogstaxeringen
+- type: built-by
+  to: swedish-university-of-agricultural-sciences
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: The project group works continuously to develop remote sensing methods for
+    the creation of national raster databases containing estimated forest variables.
+    These activities include map products such as the Swedish Open National Forest
+    Attribute Maps and the SLU Forest Map.
+- type: partners-with
+  to: swedish-forest-agency
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: The Swedish Open National Forest Attribute Maps are a collaborative initiative
+    between SLU and the Swedish Forest Agency, based on laser scanning data from Lantmäteriet.
+- type: builds-on
+  to: swedish-national-forest-inventory
+  url: https://www.slu.se/en/about-slu/organisation/departments/forest-resource-management/research/forest-remote-sensing/forest-mapping/
+  fetched: '2026-11-02'
+  quote: The maps are produced through the joint processing of Lantmäteriet's airborne
+    laser scanning data and field surveys from SLU's National Forest Inventory.
+found_by:
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'

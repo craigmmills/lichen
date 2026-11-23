@@ -1,0 +1,37 @@
+id: seefar
+kind: dataset
+name: SeeFar
+scope: ca
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.coastalcarbon.ai/seefar
+summary: Collection of multi-resolution satellite images from public and commercial
+  satellites, curated for training geospatial foundation models.
+facts:
+- claim: Described as a collection of multi-resolution satellite images from public
+    and commercial satellites.
+  url: https://www.coastalcarbon.ai/seefar
+  fetched: '2026-10-31'
+  quote: SeeFar is an evolving collection of multi-resolution satellite images from
+    public and commercial satellites.
+- claim: Curated for training geospatial foundation models.
+  url: https://www.coastalcarbon.ai/seefar
+  fetched: '2026-10-31'
+  quote: training geospatial foundation models unconstrained by satellite type
+  ai_type: foundation-models
+links:
+- type: run-by
+  to: coastal-carbon
+  url: https://www.coastalcarbon.ai/seefar
+  fetched: '2026-10-31'
+  quote: We specifically curated this dataset
+found_by:
+- link-from:coastal-carbon
+added_by: agent
+checked: '2026-10-31'

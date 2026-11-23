@@ -1,0 +1,60 @@
+id: coralnet
+kind: programme
+name: CoralNet
+scope: global
+runner: unknown
+roles: [builds-ai]
+ai_label: ai
+ai_types: [ml-supervised, deep-learning]
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://coralnet.ucsd.edu
+summary: Resource for benthic image analysis that uses deep neural networks for automated annotation, and also serves as a data repository and collaboration platform.
+facts:
+- claim: Deploys deep neural networks for annotation.
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: The site deploys deep neural networks which allow fully and semi automated annotation of images.
+- claim: "CoralNet deploys deep neural networks."
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: "The site deploys deep neural networks which allow fully and semi automated annotation of images."
+  ai_type: deep-learning
+- claim: "CoralNet trains an automated annotator on manually annotated images."
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: "When enough images are manually annotated, an automated annotator is trained."
+  ai_type: ml-supervised
+links:
+- type: partners-with
+  to: university-of-california-san-diego
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: "The CoralNet Alpha server was developed by then UCSD undergrads Stephen Chan and Devang Sampat along with Oscar Beijbom."
+- type: partners-with
+  to: pacific-blue-foundation
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: "CoralNet is open source and free to use thanks to the Pacific Blue Foundation, NOAA, NSF, and the Wildlife Conservation Society."
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://coralnet.ucsd.edu/about/
+  fetched: '2026-10-30'
+  quote: "CoralNet is open source and free to use thanks to the Pacific Blue Foundation, NOAA, NSF, and the Wildlife Conservation Society."
+- type: funded-by
+  to: national-science-foundation
+  url: https://coralnet.ucsd.edu/blog/partnership-coralnet-and-mermaid/
+  fetched: 2026-10-30
+  quote: 'CoralNet has been supported by NSF, NOAA and the Pacific Blue Foundation'
+- type: partners-with
+  to: mermaid
+  url: https://coralnet.ucsd.edu/blog/partnership-coralnet-and-mermaid/
+  fetched: 2026-10-30
+  quote: 'A partnership built on open-source technology'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

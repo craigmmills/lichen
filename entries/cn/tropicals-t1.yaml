@@ -1,0 +1,50 @@
+id: tropicals-t1
+kind: model
+name: Tropicals-T1
+scope: cn
+ai_label: ai
+realms:
+- land
+countries:
+- cn
+scale: global
+runner: unknown
+website: https://tropicals.cn/models
+status: active
+summary: An open model from Tropicals.cn that aligns Chinese species names with Latin
+  names and ranks across 419,950 taxa, with open weights, training data and benchmarks.
+facts:
+- claim: Covers 419,950 taxa and aligns Chinese names with Latin names and ranks.
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 首个版本 Tropicals-T1 覆盖 419,950 个类群
+- claim: Weights, training data and benchmarks are open.
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 权重、训练数据与评测基准全部开放。
+- claim: Takes any Chinese name and retrieves the scientific name from 419,950 taxa.
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 输入任意中文名，在 419,950 个类群中检索对应学名。
+- claim: Weights, training data and benchmark are open.
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 权重、训练数据与评测基准全部开放
+- claim: The page says the next layer aligns the text tower to a biological vision
+    model, for photo identification.
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 下一层把这个文本塔对齐到生物视觉基座，走向拍照识别
+found_by:
+- checklist:5
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- other
+links:
+- type: run-by
+  to: tropicals-cn
+  url: https://tropicals.cn/models
+  fetched: '2026-10-31'
+  quote: 由 Tropicals.cn 在自建语料上训练

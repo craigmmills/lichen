@@ -1,0 +1,51 @@
+id: copphil-forest-mapping-service
+kind: programme
+name: CopPhil Forest Mapping Service
+scope: ph
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ph
+status: active
+summary: A CopPhil service whose Forest Area and Type product maps three forest classes yearly at 10 metres
+  using machine learning, alongside a yearly Tree Cover Density product at 50 metres.
+facts:
+- claim: The Forest Area and Type product maps three forest classes yearly from Sentinel-1 and Sentinel-2
+    at 10 metres, produced with machine learning.
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-07
+  quote: Generated from Sentinel-1 and Sentinel-2 satellite imagery at a resolution of 10 metres and produced
+    using a machine learning approach
+- claim: The Tree Cover Density product is updated yearly at 50 metres from Sentinel-2.
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-07
+  quote: is updated annually at a spatial resolution of 50 metres using Sentinel-2 satellite imagery
+links:
+- type: partners-with
+  to: philippine-space-agency
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-07
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+- type: partners-with
+  to: national-mapping-and-resource-information-authority
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-07
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+- type: partners-with
+  to: forest-management-bureau
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-07
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-07
+runner: unknown

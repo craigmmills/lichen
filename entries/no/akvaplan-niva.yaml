@@ -1,0 +1,93 @@
+id: akvaplan-niva
+kind: organisation
+name: Akvaplan-niva
+scope: 'no'
+summary: A Tromsø-based Norwegian not-for-profit research and consulting company owned by
+  NIVA, with more than 130 researchers and advisers, whose reported work includes machine
+  learning on plastic litter images and autonomous vehicle surveys.
+facts:
+- claim: A Norwegian not-for-profit research and consulting company.
+  url: https://akvaplan.niva.no/en/om
+  fetched: '2026-11-02'
+  quote: Akvaplan-niva is a Norwegian not-for profit research and consulting company.
+- claim: Owned by NIVA, with headquarters in Tromsø.
+  url: https://niva.no/en/about
+  fetched: '2026-11-02'
+  quote: NIVA owns the research company Akvaplan-niva with headquarters in Tromsø
+- claim: In January 2021, the Fram Centre reported its use of machine learning to analyse
+    plastic litter in drone and satellite images.
+  url: https://framsenteret.no/hunting-for-plastic-new-digital-technology-to-find-and-map-marine-litter/
+  fetched: '2026-11-02'
+  quote: The first results from using artificial intelligence to analyse satellite images
+    clearly demonstrate that lost fishing gear can be detected and identified.
+- claim: GBIF's publisher record says it specialises in sampling, processing, identification
+    and reporting of marine sediment samples.
+  url: https://api.gbif.org/v1/organization/620e3d31-d433-4154-9cf6-232a6a6b5e3f
+  fetched: '2026-11-02'
+  quote: specializes in sampling, processing, identification and reporting of marine sediment
+    samples
+- claim: The record gives an address at Framsenteret, Tromsø.
+  url: https://api.gbif.org/v1/organization/620e3d31-d433-4154-9cf6-232a6a6b5e3f
+  fetched: '2026-11-02'
+  quote: Framsenteret, Postboks 6606, Langnes, 9296 Tromsø
+- claim: Leads the eDepthNA project with NIVA.
+  url: https://akvaplan.niva.no/no/nyhet/2026-06-08/autonomous-gliders-in-the-quest-for-ocean-biodiversity-the-edepthna-project-509271
+  fetched: '2026-11-02'
+  quote: The eDepthNA project is led by Akvaplan-niva in collaboration with the Norwegian
+    Institute for Water Research (NIVA).
+- claim: Its GBIF publisher record describes more than 130 researchers and advisers in environment
+    and aquaculture.
+  url: https://api.gbif.org/v1/organization/620e3d31-d433-4154-9cf6-232a6a6b5e3f
+  fetched: &id001 2026-11-02
+  quote: more than 130 researchers and advisers in the field of environment and aquaculture
+- claim: In the GLIDER project, three autonomous surface and underwater vehicles were deployed
+    off Lofoten and Vesterålen in 2018.
+  url: https://akvaplan.no/en/news/autonomous-vehicles-for-ecosystem-monitoring-in-the-arctic-435582
+  fetched: *id001
+  quote: three autonomous surface and underwater vehicles were deployed along the Lofoten–Vesterålen
+    (LoVe) shelf-slope-oceanic system, in Arctic Norway.
+- claim: From March to September 2018, the vehicles mapped zooplankton and recorded cetacean
+    vocalisations and man-made noise.
+  url: https://akvaplan.no/en/news/autonomous-vehicles-for-ecosystem-monitoring-in-the-arctic-435582
+  fetched: *id001
+  quote: map the spatiotemporal distribution of zooplankton, and record cetacean vocalizations
+    and anthropogenic noise.
+- claim: In a 2021 release it says it operated a Sailbuoy with an echosounder to identify
+    adult fish around a wind farm for Equinor.
+  url: https://akvaplan.no/en/pressrelease/2021-10-02/akvaplan-niva-operates-autonomous-glider-to-map-fish-presence-and-biomass-quantity-around-hywind-scotland-for-equinor-3133013
+  fetched: *id001
+  quote: The Sailbuoy, operated by Akvaplan-niva, is equipped with an echosounder to identify
+    adult fish.
+- claim: The GBIF publisher record gives its address in Tromsø, Norway.
+  url: https://api.gbif.org/v1/organization/620e3d31-d433-4154-9cf6-232a6a6b5e3f
+  fetched: *id001
+  quote: '"city":"Tromsø","country":"NO"'
+links: []
+found_by:
+- checklist:5
+- link-from:norwegian-ships-of-opportunity-program
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: company
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+- unknown
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+- freshwater
+techniques:
+- edna-genomics
+- remote-sensing
+- bioacoustics
+- other
+website: https://akvaplan.niva.no
+countries:
+- 'no'

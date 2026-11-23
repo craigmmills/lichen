@@ -1,0 +1,69 @@
+id: up-marine-science-institute
+kind: organisation
+name: University of the Philippines Marine Science Institute
+also_known_as:
+- UP MSI
+scope: ph
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: ph
+countries:
+- ph
+scale: national
+status: active
+summary: Constituent institute of the UP College of Science studying marine ecosystems from
+  Diliman and Bolinao, whose MBRIS lists a marine biodiversity data analytics platform among
+  its aims and whose director Newsbytes names as a Fish-i developer.
+facts:
+- claim: Newsbytes credits the photo of Fish-i to the UP Marine Science Institute and names
+    its director as a developer.
+  url: https://newsbytes.ph/2026/08/31/up-profs-develop-ai-powered-system-for-fish-census-in-ph/
+  fetched: 2026-11-08
+  quote: The Fish-i (Photo from UP Marine Science Institute)
+- claim: Registered as a publishing organisation with GBIF.
+  url: https://api.gbif.org/v1/organization?country=PH&limit=100
+  fetched: 2026-11-07
+  quote: Marine Science Institute, University of the Philippines
+- claim: A constituent institute of the University of the Philippines College of Science,
+    studying marine ecosystems from Diliman and the Bolinao Marine Laboratory.
+  url: https://msi.upd.edu.ph
+  fetched: 2026-11-08
+  quote: A constituent institute of the University of the Philippines’ College of Science,
+    the UP MSI studies marine ecosystems in its main compound in the National Science Complex
+    and the Bolinao Marine Laboratory in Bolinao, Pangasinan.
+- claim: Its Marine Biodiversity Resources and Information System (MBRIS) lists among its
+    aims to develop a marine biodiversity data analytics platform.
+  url: https://msi.upd.edu.ph/facilities/mbris/
+  fetched: 2026-11-08
+  quote: Develop a marine biodiversity data analytics platform
+- claim: MBRIS lists biodiversity informatics as a research theme, through ocean-to-cloud
+    data pipelines and analytics.
+  url: https://msi.upd.edu.ph/facilities/mbris/
+  fetched: 2026-11-08
+  quote: Bridging marine biodiversity information with resources management and decision-making
+    through ocean-to-cloud data pipelines and analytics.
+- claim: Its Ocean Color and Coastal Oceanography Laboratory works through quantitative modelling,
+    remote sensing and GIS.
+  url: https://msi.upd.edu.ph/research/laboratory/ocean-color-and-coastal-oceanography-laboratory/
+  fetched: 2026-11-08
+  quote: explores the interactions between ocean physics, climate change, and coastal ecosystems
+    primarily through quantitative modelling, remote sensing, and GIS techniques
+links:
+- type: run-by
+  to: university-of-the-philippines-diliman
+  url: https://api.gbif.org/v1/organization/32baad74-dbe2-4ad9-8388-7533dc41a035
+  fetched: 2026-11-08
+  quote: The UP Marine Science Institute (UP MSI) is one of seven academic institutions of
+    the University of the Philippines’ College of Science. It is housed in its own building
+    complex within the UP Diliman Campus in Quezon City.
+found_by:
+- checklist:3
+- register:ph
+added_by: agent
+checked: 2026-11-08
+techniques:
+- remote-sensing

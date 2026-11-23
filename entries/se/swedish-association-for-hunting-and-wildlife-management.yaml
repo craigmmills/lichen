@@ -1,0 +1,65 @@
+id: swedish-association-for-hunting-and-wildlife-management
+kind: organisation
+name: Swedish Association for Hunting and Wildlife Management
+also_known_as:
+- Svenska Jägareförbundet
+- SJF
+- Swedish Association for Hunting and Wildlife Management
+scope: se
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: se
+scale: national
+status: active
+website: https://jagareforbundet.se
+summary: Organisation at Öster Malma, Nyköping, administering six reference areas established
+  in 2023 with 36 cameras each, and reporting responsibility for some state wildlife monitoring
+  since 1938.
+facts:
+- claim: Set up six reference areas in 2023, each with 36 cameras.
+  url: https://jagareforbundet.se/contentassets/686b6af183d943be9b7dbef49aa0178f/aterrapportering-digital-viltforvaltning--2025.pdf
+  fetched: '2026-11-02'
+  quote: 36 kameror placerades ut enligt metodiken
+- claim: Address at Öster Malma, Nyköping.
+  url: https://jagareforbundet.se/contentassets/686b6af183d943be9b7dbef49aa0178f/aterrapportering-digital-viltforvaltning--2025.pdf
+  fetched: '2026-11-02'
+  quote: Öster Malma, SE-611 91 Nyköping
+- claim: Says it has been responsible for parts of wildlife monitoring on behalf of the state
+    since 1938.
+  url: https://qr.jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/viltbild/
+  fetched: 2026-11-02
+  quote: SJF har sedan 1938 ansvarat för delar av viltövervakningen på uppdrag av staten.
+- claim: Says it has run a digital wildlife monitoring project for some years.
+  url: https://jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/om-digital-viltovervakning/
+  fetched: 2026-11-02
+  quote: Svenska Jägareförbundet har under några år nu drivit projektet digital viltövervakning
+- claim: Administers wildlife camera reference areas.
+  url: https://jagareforbundet.se/vilt/viltovervakning/digital-viltovervakning/om-digital-viltovervakning/
+  fetched: '2026-11-02'
+  quote: Områdena styrs och administreras av jägareförbundet
+found_by:
+- checklist:4
+- link-from:trapper
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: partners-with
+  to: open-science-conservation-fund
+  url: https://os-conservation.org/projects/
+  fetched: 2026-11-02
+  quote: As part of a collaboration between the Open Science Conservation Fund (OSCF) and
+    the Swedish Hunters’ Association (Svenska Jägareförbundet)
+- type: uses
+  to: trapper
+  url: https://os-conservation.org/projects/
+  fetched: 2026-11-02
+  quote: Its first implementation in Sweden marked the initial deployment of TRAPPER AI ,
+    intended to support a nationwide wildlife monitoring system.

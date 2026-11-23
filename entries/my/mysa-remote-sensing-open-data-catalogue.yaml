@@ -1,0 +1,34 @@
+id: mysa-remote-sensing-open-data-catalogue
+kind: dataset
+name: MYSA Remote Sensing Open Data Catalogue
+scope: my
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+countries:
+- my
+status: active
+website: https://rsopendata.mysa.gov.my
+summary: A catalogue run by the Malaysian Space Agency offering satellite data with spatial resolution
+  greater than 5 metres, subject to availability, non-commercial use and satellite-owner licence terms.
+facts:
+- claim: Offers remote sensing satellite data with spatial resolution greater than 5 metres, subject to
+    availability, non-commercial use and satellite-owner licence terms.
+  url: https://rsopendata.mysa.gov.my/
+  fetched: 2026-11-03
+  quote: Explore unrestricted remote sensing satellite data distributed under the MYSA Open Data Initiative,
+    with spatial resolutions greater than 5 metres.
+links:
+- type: run-by
+  to: malaysian-space-agency
+  url: https://rsopendata.mysa.gov.my/
+  fetched: 2026-11-03
+  quote: Satellite data under the MYSA Open Data Initiative are satellite raster data received at the
+    MYSA Satellite Data Receiver Station in Temerloh, Pahang or from other external sources.
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

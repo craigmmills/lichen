@@ -1,0 +1,31 @@
+id: bigmap
+kind: project
+name: BigMAP
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: Forest Service project using machine learning on Landsat time series, climatic
+  and topographic data to map US forest resources from national inventory data.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - BigMAP project The project uses machine learning, along
+    with features derived from dense time series of Landsat imagery as well as climatic
+    and topographic data, to impute attributes from national forest
+links:
+- type: run-by
+  to: us-forest-service
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - BigMAP project The project uses machine learning, along
+    with features derived from dense time series of Landsat imagery as well as climatic
+    and topographic data, to impute attributes from national forest
+found_by:
+- link-from:us-forest-service
+added_by: agent
+checked: '2026-10-30'

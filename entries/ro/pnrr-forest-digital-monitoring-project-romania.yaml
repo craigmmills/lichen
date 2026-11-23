@@ -1,0 +1,53 @@
+id: pnrr-forest-digital-monitoring-project-romania
+kind: project
+name: PNRR forest digital monitoring project (Romania)
+scope: ro
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+countries:
+- ro
+status: closed
+summary: Recovery-plan project run by the environment ministry, reported by Forbes România as finished
+  and worth 272.605 million lei, combining satellite alerts, 350 AI video monitoring points for timber
+  transport and LiDAR scanning.
+facts:
+- claim: Forbes România reported that Romania had finished the PNRR project for digital forest monitoring,
+    worth 272.605 million lei and connected to SUMAL.
+  url: https://www.forbes.ro/romania-isi-monitorizeaza-padurile-din-satelit-518721
+  fetched: 2026-11-08
+  quote: România a finalizat proiectul PNRR pentru monitorizarea digitală a pădurilor, sistemul reunind
+    trei tehnologii menite să identifice mai rapid tăierile suspecte și transporturile ilegale de lemn.
+    Proiectul are o valoare totală de 272,605 milioane de lei și este interconectat cu SUMAL.
+- claim: The first component monitors about 70,000 km² of forest vegetation by satellite and raises alerts
+    where vegetation changes with no permit.
+  url: https://www.forbes.ro/romania-isi-monitorizeaza-padurile-din-satelit-518721
+  fetched: 2026-11-08
+  quote: Prima componentă permite monitorizarea prin satelit a aproximativ 70.000 de kilometri pătrați
+    de vegetație forestieră. Sistemul compară imaginile satelitare și generează alerte atunci când detectează
+    modificări ale vegetației în zone în care nu există avize.
+- claim: The project includes installing 350 video monitoring points, with AI cameras designed to analyse
+    timber transports against SUMAL declarations.
+  url: https://www.forbes.ro/romania-isi-monitorizeaza-padurile-din-satelit-518721
+  fetched: 2026-11-08
+  quote: Camerele folosesc inteligența artificială pentru a analiza transporturile și pentru a corela
+    informațiile captate cu datele declarate în SUMAL.
+- claim: The project includes LiDAR for scanning the forest stock, with the collected data intended to
+    enable a digital model of Romania’s forests.
+  url: https://www.forbes.ro/romania-isi-monitorizeaza-padurile-din-satelit-518721
+  fetched: 2026-11-08
+  quote: Cea de-a treia tehnologie este LiDAR, utilizată pentru scanarea fondului forestier. Datele colectate
+    vor permite realizarea unui model digital al pădurilor României
+links:
+- type: run-by
+  to: ministry-of-environment-waters-and-forests-romania
+  url: https://www.forbes.ro/romania-isi-monitorizeaza-padurile-din-satelit-518721
+  fetched: 2026-11-08
+  quote: Am finalizat la Ministerul Mediului proiectul din PNRR privind monitorizarea pădurilor!
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

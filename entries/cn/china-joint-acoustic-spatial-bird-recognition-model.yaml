@@ -1,0 +1,35 @@
+id: china-joint-acoustic-spatial-bird-recognition-model
+kind: model
+name: Joint acoustic and spatial bird call recognition model for China
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- species-distribution
+status: active
+summary: Bird call recognition model for China built with transfer learning and combined with
+  a city-scale distribution model drawn from citizen birdwatching data. The paper reports
+  accuracy up to 16.8% above the acoustic model alone.
+facts:
+- claim: A joint model integrates acoustic and spatial distribution information.
+  url: https://www.biodiversity-science.net/CN/10.17520/biods.2026063
+  fetched: '2026-10-31'
+  quote: a joint bird vocalization recognition model integrating acoustic and spatial distribution
+    information via a Sigmoid function was developed
+- claim: Authors report accuracy up to 16.8% higher than the acoustic model.
+  url: https://www.biodiversity-science.net/CN/10.17520/biods.2026063
+  fetched: '2026-10-31'
+  quote: 准确度最高提升了16.8%
+links:
+- type: funded-by
+  to: national-natural-science-foundation-of-china
+  url: https://www.biodiversity-science.net/CN/10.17520/biods.2026063
+  fetched: '2026-10-31'
+  quote: 'Supported by: National Natural Science Foundation of China(42277472)'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

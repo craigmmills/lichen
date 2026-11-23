@@ -1,0 +1,57 @@
+id: k-n-toosi-university-of-technology
+kind: organisation
+name: K. N. Toosi University of Technology
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+ai_types:
+- ml-supervised
+techniques:
+- remote-sensing
+hq: ir
+scale: national
+status: active
+website: https://kntu.ac.ir
+summary: Iranian university whose authors appear in OpenAlex on two machine learning papers,
+  from 2022 on mangrove mapping with neural networks and 2026 on wetland classification in
+  arid coastal environments.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2022 machine learning paper: Application
+    of Artificial Neural Networks for Mangrove Mapping Using Multi-Temporal and Multi-Source
+    Remote Sensing Imagery.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Application of Artificial Neural Networks for Mangrove Mapping Using Multi-Temporal
+    and Multi-Source Remote Sensing Imagery
+- claim: 'Its authors are listed by OpenAlex on a 2026 machine learning paper: Optimized Wetland
+    Classification in Arid Coastal Environments: Integrating Sentinel-2 Imagery with Hyperparameter-Tuned
+    Machine Learning Algorithms.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: 'Optimized Wetland Classification in Arid Coastal Environments: Integrating Sentinel-2
+    Imagery with Hyperparameter-Tuned Machine Learning Algorithms'
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Department of Photogrammetry and Remote Sensing, Faculty of Geodesy and Geomatics
+    Engineering, K. N. Toosi University of Technology, Tehran 19967-15433, Iran
+- claim: Its own site names the organisation.
+  url: https://kntu.ac.ir
+  fetched: '2026-11-03'
+  quote: صفحه اصلی - دانشگاه صنعتی خواجه نصیرالدین طوسی
+- ai_type: ml-supervised
+  claim: The title names wetland classification with hyperparameter-tuned machine learning
+    algorithms.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: 'Optimized Wetland Classification in Arid Coastal Environments: Integrating Sentinel-2
+    Imagery with Hyperparameter-Tuned Machine Learning Algorithms'
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

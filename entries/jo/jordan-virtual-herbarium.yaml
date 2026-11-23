@@ -1,0 +1,38 @@
+id: jordan-virtual-herbarium
+kind: dataset
+name: Virtual Herbarium of the Royal Botanic Garden (Jordan)
+scope: jo
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+countries:
+- jo
+status: active
+summary: Active electronic library of digital samples of wild Jordanian plants, including scanned specimens
+  from three named institutions, run by the Royal Botanic Garden.
+facts:
+- claim: The garden describes it as an electronic library of digital samples of wild Jordanian plants.
+  url: https://royalbotanicgarden.org/en/conservation/3
+  fetched: 2026-11-08
+  quote: The virtual herbarium is an electronic library containing a collection of digital samples of
+    wild Jordanian plants.
+- claim: The garden says it has scanned specimens from the National Center for Agricultural Research,
+    the Ministry of Agriculture's Forestry Department and Yarmouk University.
+  url: https://royalbotanicgarden.org/en/conservation/3
+  fetched: 2026-11-08
+  quote: 'Forestry Department / Ministry of Agriculture: 2,207 plant samples were processed and converted
+    into digital samples.'
+links:
+- type: run-by
+  to: royal-botanic-garden-jordan
+  url: https://royalbotanicgarden.org/en/conservation/3
+  fetched: 2026-11-08
+  quote: The virtual herbarium represents one of the important research units in the Royal Botanic Garden
+    and is part of the Jordan National Herbarium.
+found_by:
+- checklist:2
+- link-from:royal-botanic-garden-jordan
+added_by: agent
+checked: 2026-11-08

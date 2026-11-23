@@ -1,0 +1,40 @@
+id: urbasolar-biodiversity-chatbot
+kind: project
+name: Urbasolar biodiversity chatbot
+scope: global
+ai_label: ai
+realms:
+- land
+status: active
+summary: Internal chatbot used since March 2025 by Urbasolar's project teams and environmental
+  specialists to ask plain-language questions of the biodiversity reports for its solar sites.
+  Built on Azure OpenAI Service; the account is Microsoft's own.
+ai_types:
+- large-language-models
+facts:
+- claim: Internal AI chatbot in use since March 2025, built on Microsoft Azure.
+  url: https://news.microsoft.com/source/emea/features/ki-zum-schutz-der-artenvielfalt-wie-urbasolar-eine-nachhaltige-solarentwicklung-unterstuetzt/?lang=gs
+  fetched: &id001 2026-10-30
+  quote: Seit März 2025 begegnet Urbasolar dieser Herausforderung mit einem KI-Chatbot, der
+    auf dem Microsoft-Azure-Ökosystem aufgebaut ist.
+- claim: Project teams and environmental specialists ask questions in natural language and
+    get answers from existing biodiversity reports.
+  url: https://news.microsoft.com/source/emea/features/ki-zum-schutz-der-artenvielfalt-wie-urbasolar-eine-nachhaltige-solarentwicklung-unterstuetzt/?lang=gs
+  fetched: *id001
+  quote: Fragen in natürlicher Sprache zu stellen und kontextualisierte Antworten auf der
+    Grundlage vorhandener Biodiversitätsberichte zu erhalten.
+- claim: Built with Azure OpenAI Service, Azure AI Search and SharePoint.
+  ai_type: large-language-models
+  url: https://news.microsoft.com/source/emea/features/ki-zum-schutz-der-artenvielfalt-wie-urbasolar-eine-nachhaltige-solarentwicklung-unterstuetzt/?lang=gs
+  fetched: *id001
+  quote: Die Lösung wurde mit Azure OpenAI Service , Azure AI Search und SharePoint entwickelt
+links:
+- type: run-by
+  to: urbasolar
+  url: https://news.microsoft.com/source/emea/features/ki-zum-schutz-der-artenvielfalt-wie-urbasolar-eine-nachhaltige-solarentwicklung-unterstuetzt/?lang=gs
+  fetched: *id001
+  quote: hat Urbasolar einen internen KI-gestützten Chatbot entwickelt
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

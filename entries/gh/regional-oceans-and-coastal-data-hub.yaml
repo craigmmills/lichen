@@ -1,0 +1,44 @@
+id: regional-oceans-and-coastal-data-hub
+kind: project
+name: Regional Oceans & Coastal Data Hub
+also_known_as:
+- ROC Data Hub
+scope: gh
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+countries:
+- gh
+status: active
+website: https://rocdatahub.ucc.edu.gh/
+summary: A data hub run by the University of Cape Coast's Centre for Coastal Management,
+  which has published 24 datasets on it, including phytoplankton and lagoon water
+  quality, all reusable under CC BY 4.0.
+facts:
+- claim: Run by the Centre for Coastal Management, University of Cape Coast.
+  url: https://rocdatahub.ucc.edu.gh/data-partner/centre-for-coastal-management
+  fetched: 2026-11-12
+  quote: The Regional Oceans & Coastal Data Hub, run by the Centre for Coastal Management,
+    University of Cape Coast, Ghana.
+- claim: Every dataset is free to reuse under CC BY 4.0.
+  url: https://rocdatahub.ucc.edu.gh/data-partner/centre-for-coastal-management
+  fetched: 2026-11-12
+  quote: Every dataset is free to reuse under CC BY 4.0
+- claim: The Centre for Coastal Management has published 24 datasets on it, including
+    phytoplankton and lagoon water quality data.
+  url: https://rocdatahub.ucc.edu.gh/data-partner/centre-for-coastal-management
+  fetched: 2026-11-12
+  quote: Phytoplankton composition of two coastal lagoons in Ghana, West Africa
+links:
+- type: run-by
+  to: centre-for-coastal-management-ucc
+  url: https://rocdatahub.ucc.edu.gh/data-partner/centre-for-coastal-management
+  fetched: 2026-11-12
+  quote: The Regional Oceans & Coastal Data Hub, run by the Centre for Coastal Management,
+    University of Cape Coast, Ghana.
+found_by:
+- rule:checklist-misses
+- link-from:centre-for-coastal-management-ucc
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,65 @@
+id: comision-nacional-forestal
+kind: organisation
+name: Comisión Nacional Forestal
+also_known_as:
+- CONAFOR
+- Conafor
+scope: mx
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: mx
+countries:
+- mx
+scale: national
+status: active
+website: https://www.gob.mx/conafor
+summary: Forestry commission, based in Zapopan, that developed and runs the Satellite Forest
+  Monitoring System and makes the National Forest Monitoring System available.
+facts:
+- claim: Its forest monitoring management published a 2021 technical note on the methods of
+    its satellite forest monitoring system for estimating deforestation.
+  url: https://www.gob.mx/cms/uploads/attachment/file/617474/NOTA_T_CNICA_SAMOF_ENFOQUES_VF_compressed.pdf
+  fetched: 2026-11-03
+  quote: Gerencia de Sistema de Monitoreo Forestal (GSNMF)
+- claim: Makes the National Forest Monitoring System and its components available.
+  url: https://www.gob.mx/conafor/es/documentos/uso-aplicacion-y-difusion-de-los-productos-del-sistema-nacional-de-monitoreo-forestal
+  fetched: '2026-11-03'
+  quote: la información que conforma el acervo del Sistema Nacional de Monitoreo Forestal
+    y de sus componentes, como el Inventario Nacional Forestal y de Suelos, el sistema Satelital
+    de Monitoreo Forestal (SAMOF)
+- claim: Developed the Satellite Forest Monitoring System.
+  url: https://www.gob.mx/conafor/articulos/enfoques-para-el-monitoreo-de-la-cobertura-forestal-en-mexico?idiom=es
+  fetched: '2026-11-03'
+  quote: la Conafor desarrolló el Sistema Satelital de Monitoreo Forestal (SAMOF)
+links:
+- type: builds
+  to: sistema-satelital-de-monitoreo-forestal
+  url: https://www.gob.mx/cms/uploads/attachment/file/617474/NOTA_T_CNICA_SAMOF_ENFOQUES_VF_compressed.pdf
+  fetched: &id001 2026-11-03
+  quote: 'Forestal (CONAFOR) ha
+
+    desarrollado el Sistema Satelital de
+
+    Monitoreo Forestal (SAMOF), que'
+- type: runs
+  to: sistema-satelital-de-monitoreo-forestal
+  url: https://www.gob.mx/cms/uploads/attachment/file/617474/NOTA_T_CNICA_SAMOF_ENFOQUES_VF_compressed.pdf
+  fetched: *id001
+  quote: 'del Sistema Satelital de
+
+    Monitoreo Forestal de la
+
+    CONAFOR'
+found_by:
+- checklist:2
+- checklist:1
+- link-from:sistema-nacional-de-monitoreo-de-la-biodiversidad
+added_by: agent
+checked: 2026-11-03

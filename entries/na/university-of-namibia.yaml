@@ -1,0 +1,52 @@
+id: university-of-namibia
+kind: organisation
+name: University of Namibia
+also_known_as:
+- UNAM
+scope: na
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: na
+countries:
+- na
+scale: national
+status: active
+website: https://www.unam.edu.na/
+summary: Windhoek university that publishes researchers' biodiversity data on GBIF and received a 2022
+  JRS Biodiversity Foundation grant of $249,929 over 36 months for national spatial biodiversity data
+  products.
+facts:
+- claim: Its GBIF publisher record says it publishes biodiversity data collected by its researchers.
+  url: https://api.gbif.org/v1/organization/73c582d5-70b7-4fd5-960d-4001d349c5b6
+  fetched: '2026-11-08'
+  quote: aids this cause through the publication of biodiversity data collected by its
+- claim: Its GBIF publisher record places it in Windhoek.
+  url: https://api.gbif.org/v1/organization/73c582d5-70b7-4fd5-960d-4001d349c5b6
+  fetched: '2026-11-08'
+  quote: '"city":"Windhoek"'
+- claim: JRS Biodiversity Foundation lists a 2022 grant of $249,929 over 36 months to it for sustained
+    production of national spatial biodiversity data products.
+  url: https://jrsbiodiversity.org/our-grants/
+  fetched: '2026-11-08'
+  quote: 'University of Namibia (2022) Establishing Capacity for Sustained Production of National Spatial
+    Biodiversity Data Products: Guiding Progress towards the post2020 Global Biodiversity Framework Goals
+    and Targets $249,929 (36 Months)'
+links:
+- type: funded-by
+  to: jrs-biodiversity-foundation
+  url: https://jrsbiodiversity.org/our-grants/
+  fetched: '2026-11-08'
+  quote: University of Namibia (2022) Establishing Capacity for Sustained Production of National Spatial
+    Biodiversity Data Products
+  amount: 249929
+  currency: USD
+  year: 2022
+found_by:
+- link-from:queue-na
+- link-from:jrs-biodiversity-foundation
+added_by: agent
+checked: '2026-11-08'

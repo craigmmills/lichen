@@ -1,0 +1,46 @@
+id: belmont-forum
+kind: organisation
+name: Belmont Forum
+scope: global
+sector: funder
+roles:
+- funds
+- convenes
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+- freshwater
+hq: pa
+scale: global
+status: active
+website: https://belmontforum.org
+summary: Partnership of funding agencies, international scientific councils and regional consortia
+  that funds transnational research on global environmental change through coordinated calls,
+  and promotes open data access.
+facts:
+- claim: A partnership of funding agencies, international scientific councils and regional
+    consortia.
+  url: https://belmontforum.org/about
+  quote: The Belmont Forum is a partnership of funding agencies, international scientific
+    councils, and regional consortia
+  fetched: &id001 2026-10-30
+- claim: Mobilises funding and promotes open data access.
+  url: https://belmontforum.org/about
+  quote: The Belmont Forum mobilizes funding, promotes open data access
+  fetched: *id001
+- claim: Its secretariat is hosted by the Inter-American Institute for Global Change Research
+    in Clayton, Panama.
+  url: https://belmontforum.org/about
+  quote: The Belmont Forum Secretariat is hosted by the Inter-American institute for Global
+    Change Research (IAI)
+  fetched: *id001
+- claim: France's ANR says it joined BiodivERsA and the Belmont Forum in a call on biodiversity
+    scenarios, with 25 funders from 23 countries.
+  url: https://anr.fr/en/call-for-proposals-details/call/international-joint-call-of-biodiversa-and-belmont-forum-on-scenarios-of-biodiversity-and-ecosystem/
+  quote: 25 national/regional funding organisations from 23 countries are joining this call
+  fetched: '2026-10-30'
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

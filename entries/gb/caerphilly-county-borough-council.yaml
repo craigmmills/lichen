@@ -1,0 +1,38 @@
+id: caerphilly-county-borough-council
+kind: organisation
+name: Caerphilly County Borough Council
+scope: gb
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- gb
+scale: local
+summary: Local authority paired with City Science Corporation on an Innovate UK nature positive
+  project.
+facts:
+- claim: Paired with City Science Corporation on a funded project.
+  url: https://www.ukri.org/news/successful-impact-of-nature-positive-ai-projects/
+  quote: City Science Corporation and Caerphilly County Borough Council
+  fetched: '2026-10-31'
+- claim: GOV.UK names it as a local authority and points to its site.
+  url: https://www.gov.uk/find-local-council/caerphilly
+  quote: Your local authority is Caerphilly County Borough Council
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: city-science-corporation
+  url: https://www.ukri.org/news/successful-impact-of-nature-positive-ai-projects/
+  quote: City Science Corporation and Caerphilly County Borough Council
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false
+website: https://www.caerphilly.gov.uk/

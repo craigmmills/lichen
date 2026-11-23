@@ -1,0 +1,40 @@
+id: siren-application-ammco
+kind: programme
+name: Siren
+also_known_as:
+- Application Siren
+scope: cm
+ai_label: conservation-tech
+realms:
+- ocean
+- freshwater
+countries:
+- cm
+status: active
+summary: Application built by AMMCO for volunteer fishers to report opportunistic
+  observations of aquatic animals, with reports checked and validated by an expert.
+facts:
+- claim: Siren is an application developed by AMMCO and used by volunteer fishers
+    to report opportunistic observations of aquatic animals.
+  url: https://api.gbif.org/v1/dataset/496ca8cb-dd98-4a87-8482-1bfaff86fb34
+  fetched: 2026-11-12
+  quote: Siren est une application qui a été dévelopée par AMMCO et est actuellement
+    utilisée par les pêcheurs volontaires pour repporter les observations opportunistiques
+    des animaux aquatiques
+- claim: Reports received through the Siren network are checked and validated by an
+    expert.
+  url: https://api.gbif.org/v1/dataset/496ca8cb-dd98-4a87-8482-1bfaff86fb34
+  fetched: 2026-11-12
+  quote: Les données du réseau Siren sont reçues par le serveur, vérifiées et validées
+    par un expert.
+links:
+- type: built-by
+  to: african-marine-mammal-conservation-organization
+  url: https://api.gbif.org/v1/dataset/496ca8cb-dd98-4a87-8482-1bfaff86fb34
+  fetched: 2026-11-12
+  quote: Siren est une application qui a été dévelopée par AMMCO
+runner: unknown
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

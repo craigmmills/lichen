@@ -1,0 +1,51 @@
+id: bangor-university
+kind: organisation
+name: Bangor University
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- edna-genomics
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: Welsh university with authors on machine learning and remote sensing for forest biomass
+  and land cover.
+facts:
+- claim: 'OpenAlex lists authors at Bangor University on this work: Evaluation of machine
+    learning methods and multi-source remote sensing data combinations to construct forest
+    above-groun'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C62649853,concepts.id:C119857082|C108583219,concepts.id:C39432304|C18903297,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: Evaluation of machine learning methods and multi-source remote sensing data combinations
+    to construct forest above-groun
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.bangor.ac.uk/
+  quote: Bangor, Gwynedd, LL57 2DG, UK
+  fetched: '2026-10-30'
+- claim: Took part in ASPEN.
+  url: https://www.york.ac.uk/assuring-autonomy/news/blog/2024/aspen-ai-forest-management/
+  quote: along with researchers from Bangor University
+  fetched: '2026-10-30'
+- claim: Researcher in the theme works on autonomous drones for woodland management.
+  url: https://www.bangor.ac.uk/conservation-and-restoration-of-resilient-ecosystems
+  quote: the use of autonomous drones to aid woodland management
+  fetched: &id001 2026-10-30
+- claim: Address on its site.
+  url: https://www.bangor.ac.uk/conservation-and-restoration-of-resilient-ecosystems
+  quote: Bangor, Gwynedd, LL57 2DG, UK
+  fetched: *id001
+found_by:
+- checklist:3
+- link-from:aspen-autonomous-systems-for-forest-protection
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.bangor.ac.uk/

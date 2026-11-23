@@ -1,0 +1,41 @@
+id: the-leatherback-project
+kind: organisation
+name: The Leatherback Project
+scope: ec
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- other
+hq: ec
+countries:
+- ec
+scale: global
+status: active
+website: https://www.leatherbackproject.org/
+summary: Nonprofit describing itself as a 501(c)(3) protecting leatherback sea turtles and
+  other endangered marine species, reporting nests monitored under Proyecto Yaug Galu, with
+  a GBIF publisher record listing Jaramijó, Manabí.
+facts:
+- claim: Describes itself as a 501(c)(3) nonprofit working to protect leatherback sea turtles
+    and other endangered marine species.
+  url: https://www.leatherbackproject.org/
+  quote: The Leatherback Project is a 501(c)(3) nonprofit working to protect leatherback sea
+    turtles and other endangered marine species
+  fetched: '2026-11-02'
+- claim: Reports nests monitored under its Proyecto Yaug Galu.
+  url: https://www.leatherbackproject.org/
+  quote: leatherback sea turtle nests monitored
+  fetched: '2026-11-02'
+- claim: The GBIF publisher record lists Jaramijó, Manabí.
+  url: https://api.gbif.org/v1/organization/1e8f627b-6895-4bdf-a851-c49ba6bf06c4
+  quote: '"city":"Jaramijó"'
+  fetched: '2026-11-02'
+found_by:
+- checklist:register-d
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,47 @@
+id: kyoto-university
+kind: organisation
+name: Kyoto University
+scope: jp
+sector: academic
+roles:
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: University with 14 OpenAlex-listed works since 2021 in Ecology under a Japanese affiliation,
+  ranking second among listed Japanese institutions, and a staff profile listing dugong drone-image
+  and sound detection papers.
+facts:
+- claim: OpenAlex groups 14 works since 2021 with a Japanese author affiliation in Ecology
+    and concept C119857082 under Kyoto University, second among the listed Japanese institutions.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,concepts.id:C119857082,primary_topic.subfield.id:2303,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage&per_page=40
+  fetched: 2026-11-02
+  quote: Kyoto University
+- claim: A staff profile lists a paper on deep neural network extraction of dugong feeding
+    trails from drone images.
+  url: https://kdb.iimc.kyoto-u.ac.jp/profile/ja.ebf4e7796fd5cb33.html
+  fetched: 2026-11-02
+  quote: Deep neural networks based automated extraction of dugong feeding trails from UAV
+    images in the intertidal seagrass beds
+- claim: The same profile lists a paper on automatic detection of dugong feeding sounds.
+  url: https://kdb.iimc.kyoto-u.ac.jp/profile/ja.ebf4e7796fd5cb33.html
+  fetched: 2026-11-02
+  quote: Development of an automatic detection method for dugong feeding sounds in an intertidal
+    seagrass bed
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision
+- bioacoustics
+also_known_as:
+- 京都大学

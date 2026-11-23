@@ -1,0 +1,41 @@
+id: pohjolan-voima
+kind: organisation
+name: Pohjolan Voima
+also_known_as: []
+scope: fi
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+website: https://www.pohjolanvoima.fi
+summary: Has used the Fishheart fishway at Raasakka on the Iijoki River since 2023, saying
+  it supports its efforts to promote biodiversity.
+facts:
+- claim: Has used the Fishheart fishway at Raasakka on the Iijoki River since 2023, as part
+    of its efforts to promote biodiversity.
+  url: https://www.pohjolanvoima.fi/en/responsibility/fish-stocks-and-water-environment/raasakkas-fishheart-fishway/
+  fetched: '2026-11-08'
+  quote: Fishheart has been in use in Raasakka since 2023.
+- claim: Says the fishway supports its efforts to promote biodiversity.
+  url: https://www.pohjolanvoima.fi/en/responsibility/fish-stocks-and-water-environment/raasakkas-fishheart-fishway/
+  fetched: '2026-11-08'
+  quote: The hydraulic Fishheart fishway in Raasakka on the Iijoki River supports Pohjolan
+    Voima's efforts to promote biodiversity.
+links:
+- type: uses
+  to: fishheart
+  url: https://www.pohjolanvoima.fi/en/responsibility/fish-stocks-and-water-environment/raasakkas-fishheart-fishway/
+  fetched: '2026-11-08'
+  quote: Fishheart has been in use in Raasakka since 2023.
+found_by:
+- rule:checklist-misses
+- link-from:fishheart
+added_by: agent
+checked: '2026-11-08'

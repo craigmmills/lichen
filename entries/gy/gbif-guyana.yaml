@@ -1,0 +1,53 @@
+id: gbif-guyana
+kind: organisation
+name: GBIF Guyana
+scope: gy
+sector: government
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: unknown
+countries:
+- gy
+scale: national
+status: active
+summary: Guyana's country node in GBIF, listed with voting participation status, created in
+  the directory in May 2026, led by Yohan Parmanand and based on Ganges Street, Georgetown.
+facts:
+- claim: GBIF lists the Guyana node as a country node with voting participation status.
+  url: https://api.gbif.org/v1/node/country/GY
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"LATIN_AMERICA"'
+- claim: The node record was created in GBIF's directory in May 2026.
+  url: https://api.gbif.org/v1/node/country/GY
+  fetched: 2026-11-08
+  quote: '"created":"2026-05-20T05:34:19.706+00:00"'
+- claim: GBIF lists Guyana as a voting participant, with a country node titled GBIF Guyana.
+  url: https://api.gbif.org/v1/node/country/GY
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Guyana","participantTitle":"Guyana"'
+- claim: The node's contacts are listed at Ganges Street, Sophia, Georgetown.
+  url: https://api.gbif.org/v1/node/country/GY
+  fetched: 2026-11-08
+  quote: '"organization":"GBIF Guyana","address":["Ganges Street\nSophia\nGeorgetown"]'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/GY
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/GY
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

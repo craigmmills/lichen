@@ -1,0 +1,93 @@
+id: agroscope
+kind: organisation
+name: Agroscope
+scope: ch
+sector: government
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: ch
+scale: national
+status: active
+website: https://www.agroscope.admin.ch
+summary: Swiss agricultural research centre, affiliated with the Federal Office for Agriculture,
+  that builds ALL-EMA and aims to develop biodiversity recording with remote sensing, AI,
+  insect radar and acoustic ecology.
+facts:
+- claim: Develops foundations for preserving biodiversity in agricultural environments.
+  url: https://www.agroscope.admin.ch/en/all-ema-agricultural-species-and-habitats-monitoring-programme
+  quote: Agroscope develops foundations for preserving biodiversity in agricultural environments
+    and maintaining diverse agricultural landscapes.
+  fetched: '2026-11-02'
+- claim: Swiss centre of excellence for agricultural research, affiliated with the Federal
+    Office for Agriculture.
+  url: https://www.agroscope.admin.ch
+  quote: Agroscope is the Swiss centre of excellence for agricultural research, and is affiliated
+    with the Federal Office for Agriculture (FOAG).
+  fetched: '2026-11-02'
+- claim: Its researchers tested analysing drone images with deep learning to tell bee nest
+    mounds from other soil deposits.
+  url: https://www.agroscope.admin.ch/en/counting-wild-bee-nests-with-camera-drones
+  quote: Agroscope researchers tested the feasibility of analysing drone images with Deep
+    Learning to distinguish bee tumuli
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: An Agroscope team uses Earth observation with drones and satellites, read with process
+    models and machine learning.
+  url: https://www.agroscope.admin.ch/en/earth-observation-of-agroecosystems
+  quote: We use local-to-continental-scale Earth Observation (EO) technology with a focus
+    on drones for ecophysiological experiments and satellites for continental-scale monitoring.
+  fetched: '2026-11-02'
+- claim: A research programme aims to combine existing datasets with advanced environmental
+    monitoring and AI methods to analyse the Swiss agroecosystem.
+  url: https://www.agroscope.admin.ch/en/36-spatial-data-science-and-ai-for-the-analysis-of-agroecosystems-impacted-by-climate-and-land-use-changes
+  quote: by combining existing datasets with advanced environmental monitoring and AI methods
+  fetched: '2026-11-02'
+- claim: Wikipedia gives its headquarters as Bern.
+  url: https://en.wikipedia.org/wiki/Agroscope
+  quote: Headquarters Bern
+  fetched: '2026-11-02'
+- claim: Carries out farmland biodiversity monitoring on a mandate from the federal agriculture
+    and environment offices.
+  url: https://www.agroscope.admin.ch/fr/41-monitoring-de-la-biodiversite
+  fetched: '2026-11-02'
+  quote: Sur mandat de l'OFAG et de l'OFEV, Agroscope réalise le monitoring de la biodiversité
+    dans le paysage agricole (ALL-EMA)
+- claim: Has an objective to further develop biodiversity recording through remote sensing,
+    AI, insect radar and acoustic ecology.
+  url: https://www.agroscope.admin.ch/en/41-biodiversity-monitoring
+  fetched: '2026-11-02'
+  quote: Further develop measures to record biodiversity by means of remote sensing, AI, insect
+    radar, acoustic ecology
+- claim: OpenAlex lists a 2022 paper by Agroscope authors on flower mapping in grasslands
+    with drones and deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I4210139035,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2021-01-01&per_page=6&select=id,title,publication_year,doi,authorships&sort=cited_by_count:desc
+  fetched: '2026-11-02'
+  quote: Flower Mapping in Grasslands With Drones and Deep Learning
+links:
+- type: builds
+  to: all-ema
+  url: https://www.bafu.admin.ch/de/biodiversitaet-monitoringprogramme
+  quote: entwickelt Agroscope das Langzeitmonitoringprogramm
+  fetched: '2026-11-02'
+- type: partners-with
+  to: hirad
+  url: https://www.biodiversa.eu/2024/04/15/hirad/
+  quote: Agroscope, Zurich, Switzerland
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+- link-from:hirad
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- remote-sensing
+- computer-vision
+ai_types:
+- deep-learning

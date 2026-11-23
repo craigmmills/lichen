@@ -1,0 +1,42 @@
+id: surfrider-foundation
+kind: organisation
+name: Surfrider Foundation
+scope: us
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+hq: us
+countries:
+- us
+scale: national
+website: https://www.surfrider.org
+summary: Coastal conservation group whose Blue Water Task Force labs test bacteria at more
+  than 600 sites and publish all results in a public database.
+facts:
+- claim: Publishes all Blue Water Task Force results in a public database.
+  url: https://www.surfrider.org/pages/communicating-bwtf-results
+  quote: All Blue Water Task Force results are publicly available on its public database -
+    bwtf.surfrider.org .
+  fetched: '2026-10-31'
+- claim: The IRS exempt organisation record, through ProPublica, lists Surfrider Foundation
+    at San Clemente, California.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/953941826.json
+  fetched: '2026-10-31'
+  quote: '"city":"San Clemente","state":"CA"'
+links:
+- type: runs
+  to: blue-water-task-force
+  url: https://www.surfrider.org/programs/blue-water-task-force
+  quote: Surfrider chapters use this water testing program to raise awareness of local pollution
+    problems
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

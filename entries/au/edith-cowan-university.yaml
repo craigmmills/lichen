@@ -1,0 +1,49 @@
+id: edith-cowan-university
+kind: organisation
+name: Edith Cowan University
+scope: au
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: University described as a research collaborator with Landgate on MyFireWatch, with
+  authors leading 2023 and 2025 papers on museum specimen collections and recreational fisheries
+  survey trends.
+facts:
+- claim: MyFireWatch is described as the result of a research collaboration between Landgate
+    and Edith Cowan University.
+  url: https://myfirewatch.landgate.wa.gov.au/help.html
+  quote: It is the result of a research collaboration between Landgate and Edith Cowan University.
+  fetched: '2026-11-08'
+- claim: An ECU School of Science author leads a 2023 paper on the declining capacity of museum
+    specimen collections for global change research, with urban reptiles as a case study.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I12079687,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'Going, Going, Gone The Diminishing Capacity of Museum Specimen Collections to Address
+    Global Change Research: A Case Study on Urban Reptiles'
+  fetched: '2026-11-08'
+- claim: That author is listed with the School of Science, Edith Cowan University, Joondalup.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I12079687,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: School of Science, Edith Cowan University, 100 Joondalup Drive, Joondalup, WA 6027,
+    Australia
+  fetched: '2026-11-08'
+- claim: An ECU author leads a 2025 paper on estimating trends from irregular recreational
+    fisheries surveys.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I12079687,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: 'Robust Trend Estimation From Temporally Irregular Recreational Fisheries Surveys:
+    A Panel Modeling Framework for Sparse Time Series'
+  fetched: '2026-11-08'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

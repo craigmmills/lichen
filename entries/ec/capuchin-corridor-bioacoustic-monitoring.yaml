@@ -1,0 +1,41 @@
+id: capuchin-corridor-bioacoustic-monitoring
+kind: programme
+name: Capuchin Corridor bioacoustic monitoring
+scope: ec
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ec
+status: active
+summary: Sound monitoring programme built by Third Millennium Alliance, which deployed over 50 AudioMoths
+  across nine transects, producing more than two million recordings, with calls identified by a convolutional
+  neural network.
+facts:
+- claim: TMA and partners deployed more than 50 AudioMoths across nine transects.
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: Our team deployed more than 50 AudioMoths across nine transects
+- claim: The design has produced more than two million recordings.
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: has produced more than two million recordings to date
+- claim: The network identifying the calls is a convolutional neural network.
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: we trained a Convolutional Neural Network (CNN)
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: third-millennium-alliance
+  url: https://www.tma.earth/2025/12/11/listening-to-the-forest/
+  fetched: '2026-11-02'
+  quote: Beginning in 2020, TMA and our partners built an automated monitoring program
+found_by:
+- link-from:tma
+added_by: agent
+checked: '2026-11-03'

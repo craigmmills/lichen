@@ -1,0 +1,78 @@
+id: norwegian-university-of-life-sciences
+kind: organisation
+name: Norwegian University of Life Sciences
+also_known_as:
+- NMBU
+- Norges miljø- og biovitenskapelige universitet
+scope: 'no'
+summary: Signed an agreement with NIBIO on 30 June 2026 to set up the AI for Nature centre.
+facts:
+- claim: A founder of SmartForest, according to NIBIO.
+  url: https://nibio.no/en/news/increased-digitization-with-smartforest
+  fetched: '2026-11-02'
+  quote: the Norwegian University of Life Sciences (NMBU) and the University of Oslo, three
+    foreign partners and 16 companies from the Norwegian forestry sector have established
+    the SmartForest knowledge center
+- claim: Signed an agreement with NIBIO on 30 June 2026 to set up the AI for Nature centre.
+  url: https://www.nibio.no/nyheter/2026/nytt-senter-skal-styrke-naturforstaelsen-med-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: I dag, tirsdag 30. juni 2026, signerte NIBIO og NMBU en avtale om å etablere senteret
+    AI for Nature.
+- claim: Its registered organisation number is shown on its own site.
+  url: https://www.nmbu.no/en
+  fetched: '2026-11-02'
+  quote: 'Organization number : 969159570'
+- claim: In a 2017-2018 project, developed coverage maps and area estimates of natural forest
+    in Oslo and Akershus using remote sensing.
+  url: https://www.nmbu.no/forskning/prosjekter/kartlegging-naturskog
+  fetched: '2026-11-02'
+  quote: NMBU har utviklet dekningskart og arealestimater av naturskog innenfor Oslo og Akershus
+    ved hjelp av fjernmålingsdata.
+- claim: Signed an agreement with NIBIO to set up AI for Nature.
+  url: https://nibio.no/nyheter/2026/nytt-senter-skal-styrke-naturforstaelsen-med-kunstig-intelligens
+  fetched: '2026-11-02'
+  quote: signerte NIBIO og NMBU en avtale om å etablere senteret AI for Nature
+- claim: Runs a course on big data and machine learning in remote sensing, including machine
+    learning and deep learning methods.
+  url: https://www.nmbu.no/emne/gmfm350
+  fetched: &id001 2026-11-02
+  quote: Maskinlæring (ML) og dyplærings (DL) metoder og algoritmer i fjernmåling.
+- claim: A PhD candidate in SmartForest works on remote sensing and AI in forest mapping.
+  url: https://www.nmbu.no/om/ansatte/kim-andre-anstensen-nielsen
+  fetched: *id001
+  quote: Jeg er PhD-kandidat i SmartForest innen bruk av fjernmåling og kunstig intelligens
+    i skogkartlegging.
+- claim: An OpenAlex query for deep learning works with an author at the university returns
+    a 2026 paper benchmarking individual tree age estimation.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I54108979,concepts.id:C108583219,primary_topic.field.id:23|11,from_publication_date:2021-01-01&per-page=25&sort=cited_by_count:desc&select=id,title,publication_year,doi
+  fetched: *id001
+  quote: 'FOR-age: Benchmarking individual tree age estimation using 3D deep learning on dense
+    laser scanning data'
+- claim: The GBIF publisher record gives its address in Ås, Norway.
+  url: https://api.gbif.org/v1/organization/8256e897-3a17-4a2d-8bf8-54cf22b624bd
+  fetched: *id001
+  quote: '"city":"Ås","province":"Akershus","country":"NO"'
+links: []
+found_by:
+- checklist:3
+- link-from:ai-for-nature
+- link-from:smartforest
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- unknown
+- builds-ai
+- supplies-data
+- convenes
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- land
+countries:
+- 'no'
+techniques:
+- remote-sensing

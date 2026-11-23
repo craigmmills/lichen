@@ -1,0 +1,86 @@
+id: swedish-meteorological-and-hydrological-institute
+kind: organisation
+name: Swedish Meteorological and Hydrological Institute
+also_known_as:
+- SMHI
+- Swedish Meteorological and Hydrological Institute
+scope: se
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- freshwater
+hq: se
+scale: national
+status: active
+website: https://www.smhi.se
+summary: Government agency in Norrköping that operates Sweden's National Oceanographic Data
+  Centre, serves as national marine data host, and identifies plankton with AI-supported image
+  recognition.
+facts:
+- claim: National data host for marine physical, chemical and biological data.
+  url: https://www.smhi.se/data/oceanografi/datavardskap-oceanografi-och-marinbiologi/sharkweb
+  fetched: '2026-11-02'
+  quote: Havs- och Vattenmyndigheten har utsett SMHI till nationell datavärd för marina fysikaliska,
+    kemiska och biologiska data.
+- claim: SBDI says it operates Sweden's National Oceanographic Data Centre, which receives
+    data from marine monitoring programmes.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SMHI operates Sweden’s National Oceanographic Data Centre, which receives data from
+    national and regional marine monitoring programs.
+- claim: The Swedish Agency for Marine and Water Management appointed it national data host
+    for marine data.
+  url: https://www.smhi.se/data/hav-och-havsmiljo/datavardskap-oceanografi-och-marinbiologi
+  fetched: 2026-11-02
+  quote: Havs- och Vattenmyndigheten har utsett SMHI till nationell datavärd för marina fysikaliska,
+    kemiska och biologiska data.
+- claim: SBDI says it works on making automated image-based, video-based and DNA data available,
+    mainly plankton data.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: SMHI also works on making automated image- and video-based data and DNA-data available
+    to the infrastructure, primarily plankton data.
+- claim: Took part in AMIME field work and analyses of Imaging FlowCytobot and DNA metabarcoding
+    results during the January 2023–December 2025 project.
+  url: https://www.smhi.se/en/research/our-research/research-projects/our-research-projects/amime---artificial-intelligence-assisted-plankton-monitoring-with-imaging-flow-cytometry-and-metabarcoding
+  fetched: '2026-11-02'
+  quote: SMHI is involved in field work, analyses of results from Imaging FlowCytobot and
+    from DNA metabarcoding.
+- claim: A government agency under the Ministry of Climate and Enterprise.
+  url: https://www.smhi.se/en/about-smhi
+  fetched: '2026-11-02'
+  quote: SMHI is a government agency under the Ministry of Climate and Enterprise.
+- claim: Operates Sweden's National Oceanographic Data Centre.
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: '2026-11-02'
+  quote: SMHI operates Sweden's National Oceanographic Data Centre, which receives data from
+    national and regional marine monitoring programs.
+- claim: Plankton species are identified and counted with AI-supported image recognition.
+  url: https://www.smhi.se/data/hav-och-havsmiljo/datavardskap-oceanografi-och-marinbiologi/om-datavardskap-for-oceanografi-och-marinbiologi/uppdateringar/uppdateringar-i-datavardskapet-for-oceanografi-och-marinbiologi/2025-06-17-planktondata-insamlad-med-ai-baserad-bildigenkanning
+  fetched: '2026-11-02'
+  quote: Med AI-stödd bildigenkänning artbestäms och kvantifieras de mikroskopiska djur- och
+    växtplankton som finns i havet.
+- claim: Address in Norrköping.
+  url: https://www.smhi.se/en/about-smhi
+  fetched: '2026-11-02'
+  quote: SE-601 76 Norrköping
+found_by:
+- checklist:2
+- link-from:swedish-biodiversity-data-infrastructure
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+links:
+- type: partners-with
+  to: swedish-space-data-lab
+  url: https://www.ai.se/en/project/swedish-space-data-lab-30
+  fetched: 2026-11-02
+  quote: 'Co-operation partners: Skogsstyrelsen , Statens Geotekniska Institut (SIG) , SMHI'
+countries:
+- se
+techniques:
+- computer-vision

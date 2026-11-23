@@ -1,0 +1,35 @@
+id: samsung
+kind: organisation
+name: Samsung
+scope: global
+sector: company
+roles:
+- uses-ai
+ai_label: conservation-tech
+realms:
+- land
+hq: kr
+scale: global
+status: active
+website: https://www.samsung.com
+summary: Electronics company that created the Wildlife Watch anti-poaching livestream pilot
+  with Africam.
+facts:
+- claim: Created Wildlife Watch with Africam.
+  url: https://samsungmobilepress.com/feature-stories/wildlife-watch-turning-the-world-into-virtual-rangers-to-help-fight-poaching
+  fetched: &id001 2026-10-30
+  quote: Samsung joined forces with tech pioneer Africam to create Wildlife Watch
+- claim: Samsung Electronics is headquartered in Suwon, South Korea.
+  url: https://en.wikipedia.org/wiki/Samsung_Electronics
+  fetched: 2026-10-30
+  quote: Headquarters Samsung Digital City [ ko ] , Samsung-ro 129, Maetan-dong, Yeongtong
+    District , Suwon
+- claim: Its UK site has a page on Wildlife Watch, described as fighting poaching with Samsung
+    technology.
+  url: https://www.samsung.com/uk/explore/photography/anti-poaching-wildlife-watch/
+  quote: Wildlife Watch - Fight poaching with Samsung Technology
+  fetched: '2026-10-30'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

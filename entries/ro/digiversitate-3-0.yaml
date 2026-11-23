@@ -1,0 +1,51 @@
+id: digiversitate-3-0
+kind: project
+name: Digiversitate 3.0
+scope: ro
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+countries:
+- ro
+status: closed
+summary: Closed project led by Theodor Sebastian Topliceanu, whose December 2025 final report
+  describes analysing wildlife camera photos with DeepFaune and AudioMoth recordings with
+  BirdNET, giving 57 bird species across two quarries.
+facts:
+- claim: Photos from the wildlife cameras were analysed with DeepFaune, which uses artificial
+    intelligence to recognise species automatically.
+  url: https://www.aosr.ro/wp-content/uploads/2026/04/5.-Digiversitate-3.0.-Analiza-re-colonizarii-biodiversitatii-in-carierele-abandonate-prin-metode-digitale-concept-practici-si-provocari-Raport-4.pdf
+  fetched: 2026-11-08
+  quote: am folosit programul DeepFaune ce folosește inteligența artificială pentru a recunoaște
+    automat speciile prezente în fotografii
+- claim: AudioMoth recordings were analysed with BirdNET Analyzer, giving 57 bird species
+    across the two quarries.
+  url: https://www.aosr.ro/wp-content/uploads/2026/04/5.-Digiversitate-3.0.-Analiza-re-colonizarii-biodiversitatii-in-carierele-abandonate-prin-metode-digitale-concept-practici-si-provocari-Raport-4.pdf
+  fetched: 2026-11-08
+  quote: Audiomoth-uri cu ajutorul aplicației BirdNET Analyzer. Rezultatele ne-au arătat un
+    total de 57 de specii de păsări în cele două cariere
+- claim: The document is the final report of the AOȘR TEAMS 2024-2025 round, dated December
+    2025.
+  url: https://www.aosr.ro/wp-content/uploads/2026/04/5.-Digiversitate-3.0.-Analiza-re-colonizarii-biodiversitatii-in-carierele-abandonate-prin-metode-digitale-concept-practici-si-provocari-Raport-4.pdf
+  fetched: 2026-11-08
+  quote: RAPORT FINAL AOSR TEAMS 2024 – 2025 DECEMBRIE, 2025
+links:
+- type: uses
+  to: deepfaune
+  url: https://www.aosr.ro/wp-content/uploads/2026/04/5.-Digiversitate-3.0.-Analiza-re-colonizarii-biodiversitatii-in-carierele-abandonate-prin-metode-digitale-concept-practici-si-provocari-Raport-4.pdf
+  fetched: 2026-11-08
+  quote: am folosit programul DeepFaune ce folosește inteligența artificială
+- type: uses
+  to: birdnet
+  url: https://www.aosr.ro/wp-content/uploads/2026/04/5.-Digiversitate-3.0.-Analiza-re-colonizarii-biodiversitatii-in-carierele-abandonate-prin-metode-digitale-concept-practici-si-provocari-Raport-4.pdf
+  fetched: 2026-11-08
+  quote: Audiomoth-uri cu ajutorul aplicației BirdNET Analyzer
+runner: unknown
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

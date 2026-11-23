@@ -1,0 +1,51 @@
+id: japan-fisheries-research-and-education-agency
+kind: organisation
+name: Japan Fisheries Research and Education Agency
+also_known_as:
+- 国立研究開発法人水産研究・教育機構
+- FRA
+- 水産研究・教育機構
+scope: jp
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://www.fra.go.jp/
+summary: Agency reporting stock surveys; a ministry evaluation of its fiscal 2024 work reports
+  DINO as the most accurate model for detecting harmful bloom plankton in training images.
+facts:
+- claim: Its home page reports stock surveys.
+  url: https://www.fra.go.jp/
+  fetched: 2026-11-02
+  quote: トド資源調査の結果概要に令和7年度分を掲載しました。
+- claim: Listed as a joint implementing body on a Fisheries Agency-commissioned report that
+    covers image analysis for stock assessment.
+  url: https://www.jfa.maff.go.jp/j/gyosei/supply/seika/attach/pdf/R04_ippan-88.pdf
+  fetched: 2026-11-02
+  quote: 国立研究開発法人水産研究・教育機構
+- claim: The Ministry of Agriculture, Forestry and Fisheries evaluation of its fiscal 2024
+    work reports testing detection models on training images of harmful bloom plankton, with
+    the DINO model the most accurate.
+  url: https://www.fra.go.jp/home/kokaijoho/johoteikyo/files/R06_minister_hyouka.pdf
+  fetched: 2026-11-02
+  quote: DINO モデルが最も検出精度が高いことが示された
+- claim: The same evaluation records work on a new monitoring method based on image information.
+  url: https://www.fra.go.jp/home/kokaijoho/johoteikyo/files/R06_minister_hyouka.pdf
+  fetched: 2026-11-02
+  quote: 画像情報に基づく新規モニタリング手法について検討した
+found_by:
+- checklist:1
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- computer-vision

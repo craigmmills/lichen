@@ -1,0 +1,106 @@
+id: instituto-de-desenvolvimento-sustentavel-mamiraua
+kind: organisation
+name: Instituto de Desenvolvimento Sustentável Mamirauá
+also_known_as:
+- IDSM
+- Instituto Mamirauá
+- Mamirauá Institute
+- Instituto de Desenvolvimento Sustentável Mamirauá
+scope: br
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- bioacoustics
+hq: br
+scale: national
+status: active
+website: https://mamiraua.org.br/
+summary: Research unit linked to the science ministry, in the Amazon, that developed the Providence
+  system for AI-based, real-time biodiversity monitoring.
+facts:
+- claim: A social organisation; created in 1999.
+  url: https://mamiraua.org.br/wp-content/uploads/2026/07/Edital-07.2026-Diretor-Geral-IDSM-versao-aprovada-pelo-CA-2.pdf
+  fetched: '2026-10-30'
+  quote: Criado em 1999
+- claim: A research centre linked to the Ministry of Science, Technology and Innovation.
+  url: https://www.mamiraua.org.br
+  fetched: '2026-10-30'
+  quote: CENTRO DE PESQUISA DE EXCELÊNCIA VINCULADO AO MINISTÉRIO DA CIÊNCIA, TECNOLOGIA E
+    INOVAÇÃO (MCTI)
+  via: webfetch
+- claim: Monitored Amazonian manatee calls with underwater recorders and a convolutional neural
+    network.
+  url: https://portalamazonia.com/amazonas/ia-conservacao-peixe-boi-amazonas/
+  fetched: '2026-10-30'
+  quote: monitoraram os chamados do peixe-boi usando gravadores subaquáticos e um modelo de
+    rede neural convolucional (CNN)
+  ai_type: deep-learning
+- claim: Described as a research unit attached to the science ministry.
+  url: https://observatoriocientifico.ufc.br/pt/tecnologia-que-utiliza-inteligencia-artificial-amplia-area-de-monitoramento-da-biodiversidade-na-amazonia/
+  fetched: '2026-10-30'
+  quote: unidade de pesquisa vinculada ao Ministério da Ciência, Tecnologia e Inovação (MCTI)
+- claim: Created in April 1999 as a social organisation supervised by the Ministry of Science,
+    Technology and Innovation.
+  url: https://mamiraua.org.br/o-instituto/
+  fetched: '2026-10-30'
+  quote: foi criado em abril de 1999. É uma Organização Social fomentada e supervisionada
+    pelo Ministério da Ciência, Tecnologia e Inovação
+- claim: Its main site is at Tefé in Amazonas.
+  url: https://mamiraua.org.br/o-instituto/
+  fetched: '2026-10-30'
+  quote: Sede em Tefé (AM)
+- claim: Its researchers used underwater recorders and a convolutional neural network to detect
+    Amazonian manatee calls, with up to 98% accuracy.
+  url: https://mamiraua.org.br/noticias/conservacao-peixe-boi/
+  fetched: '2026-10-30'
+  quote: usando gravadores subaquáticos e um modelo de rede neural convolucional (CNN)
+  ai_type: deep-learning
+- claim: It holds eight biological collections and runs an integrated monitoring programme.
+  url: https://mamiraua.org.br/noticias/oficina-no-instituto-mamiraua-capacita-pesquisadores-para-organizacao-e-divulgacao-de-dados-sobre-a-biodiversidade-amazonica/
+  fetched: '2026-10-30'
+  quote: O Instituto Mamirauá possui um acervo de oito coleções biológicas
+- claim: In October 2026 it trained researchers to publish its data to SiBBr in the Darwin
+    Core standard.
+  url: https://mamiraua.org.br/noticias/oficina-no-instituto-mamiraua-capacita-pesquisadores-para-organizacao-e-divulgacao-de-dados-sobre-a-biodiversidade-amazonica/
+  fetched: '2026-10-30'
+  quote: utilizando o padrão internacional Darwin Core
+links:
+- type: runs
+  to: providence
+  url: https://redeondadigital.com.br/amazonas/projeto-desenvolvido-no-instituto-mamiraua-e-um-dos-finalistas-em-competicao-internacional
+  fetched: '2026-10-30'
+  quote: uma parceria desenvolvida entre pesquisadores do Instituto Mamirauá e da Universidade
+    Politécnica da Catalunha
+- type: runs
+  to: providence
+  url: https://observatoriocientifico.ufc.br/pt/tecnologia-que-utiliza-inteligencia-artificial-amplia-area-de-monitoramento-da-biodiversidade-na-amazonia/
+  fetched: '2026-10-30'
+  quote: iniciaram o projeto Providence
+- type: partners-with
+  to: amazon-ia
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: O Instituto Mamirauá é parceiro do Amazon.ia
+- type: runs
+  to: providence
+  url: https://mamiraua.org.br/amazon-ia-v2/
+  fetched: '2026-10-30'
+  quote: Chama-se Projeto Providence, e é por ele que o Instituto Mamirauá chega ao Amazon.ia
+found_by:
+- checklist:3
+- link-from:amazon-ia
+- checklist:register
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br
+ai_types:
+- deep-learning

@@ -1,0 +1,45 @@
+id: isfahan-university-of-technology
+kind: organisation
+name: Isfahan University of Technology
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+hq: ir
+scale: national
+status: active
+website: https://english.iut.ac.ir/
+summary: Iranian university whose authors appear in OpenAlex on two papers, from 2021 on Ferula
+  ovina habitat using machine learning and 2023 on species distribution model parameterisation.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2023 paper: MaxEnt brings comparable results
+    when the input data are being completed; Model parameterization of four species distribution
+    models.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: MaxEnt brings comparable results when the input data are being completed; Model parameterization
+    of four species distribution models
+- claim: 'Its authors are listed by OpenAlex on a 2021 machine learning paper: Identifying
+    the determinant habitat characteristics influencing the spatial distribution of Ferula
+    ovina (Boiss.) in semiarid rangelands of Iran using machine learning methods.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Identifying the determinant habitat characteristics influencing the spatial distribution
+    of Ferula ovina (Boiss.) in semiarid rangelands of Iran using machine learning methods
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Department of Natural Resources, Isfahan University of Technology, Isfahan, Iran
+- claim: Its own site names the organisation.
+  url: https://english.iut.ac.ir/
+  fetched: '2026-11-03'
+  quote: Home | Isfahan University of Technology
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

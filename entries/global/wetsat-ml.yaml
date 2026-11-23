@@ -1,0 +1,48 @@
+id: wetsat-ml
+kind: programme
+name: WetSAT-ML
+also_known_as:
+- Wetlands flooding extent and trends using SATellite observations and Machine Learning
+scope: global
+roles:
+- builds-ai
+ai_label: ai
+ai_types: [ml-supervised, ml-unsupervised]
+realms:
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://www.sei.org/tools/wetsat-ml/
+summary: Open tool from the Stockholm Environment Institute that uses radar satellite data and machine learning to show when, where and how wetlands change.
+countries:
+- co
+facts:
+- claim: Uses radar satellite data and machine learning models on wetlands.
+  url: https://www.sei.org/tools/wetsat-ml/
+  fetched: '2026-10-30'
+  quote: WetSAT-ML is an open and free tool that uses radar satellite data and machine-learning models to reveal when, where, and how wetlands change over time.
+- claim: "WetSAT-ML has a pre-trained Random Forest model."
+  url: https://www.sei.org/tools/wetsat-ml/
+  fetched: '2026-10-30'
+  quote: "Currently, the tool has two pre-trained machine learning models (Random Forest and K-means)."
+  ai_type: ml-supervised
+- claim: "WetSAT-ML has a pre-trained K-means model."
+  url: https://www.sei.org/tools/wetsat-ml/
+  fetched: '2026-10-30'
+  quote: "Currently, the tool has two pre-trained machine learning models (Random Forest and K-means)."
+  ai_type: ml-unsupervised
+- claim: 'A tool that uses radar satellite data and machine-learning models.'
+  url: https://www.sei.org/tools/wetsat-ml/
+  fetched: 2026-10-30
+  quote: 'WetSAT-ML is an open and free tool that uses radar satellite data and machine-learning models'
+links:
+- type: run-by
+  to: stockholm-environment-institute
+  url: https://www.sei.org/tools/wetsat-ml/
+  fetched: '2026-10-30'
+  quote: "Building on SEI-Latin America’s prior experience and partnerships, WetSAT-ML is an open-source, machine learning-based tool"
+found_by:
+- link-from:stockholm-environment-institute
+added_by: agent
+checked: '2026-10-30'

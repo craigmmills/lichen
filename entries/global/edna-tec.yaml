@@ -1,0 +1,59 @@
+id: edna-tec
+kind: organisation
+name: eDNAtec
+scope: global
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+- freshwater
+- land
+techniques:
+- edna-genomics
+hq: ca
+scale: global
+status: active
+website: https://www.ednatec.com
+summary: Provides environmental genomics services for biodiversity and ecological health across
+  offshore, onshore and terrestrial settings.
+facts:
+- claim: Address in St. John's, Newfoundland and Labrador.
+  url: https://www.ednatec.com/contact
+  fetched: '2026-10-30'
+  quote: eDNAtec 14 International Place St. John's NL A1A 0R6
+- claim: Describes itself as working in environmental genomics.
+  url: https://www.ednatec.com
+  fetched: '2026-10-30'
+  quote: analysing biodiversity and ecological health across all offshore, onshore
+- claim: Canada's Ocean Supercluster says it leads the Enhancing Environmental DNA Through
+    Artificial Intelligence project.
+  url: https://oceansupercluster.ca/?p=11716
+  quote: announced the Enhancing Environmental DNA Through Artificial Intelligence Project
+    led by eDNAtec Inc.
+  fetched: '2026-10-30'
+- claim: Canada's Ocean Supercluster says it leads the OceanDNA System with Energy Research
+    & Innovation Newfoundland & Labrador, the Nunavut Fisheries Association and Fisheries
+    and Oceans Canada.
+  url: https://oceansupercluster.ca/?p=1641
+  quote: Led by eDNAtec Inc. together with partners Energy Research & Innovation Newfoundland
+    & Labrador, Nunavut Fisheries Association, and Fisheries and Oceans Canada
+  fetched: '2026-10-30'
+- claim: MTEC says it runs an AI-assisted platform for interpreting eDNA data.
+  url: https://mtec-sc.org/life-sciences/ednatec
+  quote: A software platform that incorporates AI/ML tools to assist in analyzing large eDNA
+    sequencing datasets and generating decision‑oriented outputs.
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: esri
+  url: https://oceansupercluster.ca/?p=11716
+  quote: St. John’s, NL-based eDNAtec along with collaborator Toronto-based ESRI Canada will
+    work together
+  fetched: '2026-10-30'
+found_by:
+- global:nature-tech-companies
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-30'

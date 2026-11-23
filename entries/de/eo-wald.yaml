@@ -1,0 +1,30 @@
+id: eo-wald
+kind: dataset
+name: EO Wald
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Free DLR web service with interactive maps of forest canopy cover loss across
+  Germany, monthly since September 2017 at 10 metre resolution, based on satellite
+  data.
+facts:
+- claim: Offers free interactive maps of canopy cover loss for all of Germany, monthly
+    since September 2017 at ten metre resolution.
+  url: https://www.dlr.de/de/aktuelles/nachrichten/2025/satellitendaten-fuer-deutsche-waelder-in-not
+  quote: Erfasst sind die Verluste im Monatstakt seit September 2017, mit einer räumlichen
+    Auflösung von zehn Metern.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: german-aerospace-center
+  url: https://www.dlr.de/de/aktuelles/nachrichten/2025/satellitendaten-fuer-deutsche-waelder-in-not
+  quote: EO Wald wurde am Earth Observation Center des DLR entwickelt
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'

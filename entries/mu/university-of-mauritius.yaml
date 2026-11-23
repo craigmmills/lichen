@@ -1,0 +1,77 @@
+id: university-of-mauritius
+kind: organisation
+name: University of Mauritius
+also_known_as:
+- UoM
+scope: mu
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+- land
+hq: mu
+countries:
+- mu
+scale: national
+status: active
+summary: A university at Reduit whose researchers study reef buoy data, according to Huawei; OpenAlex
+  lists papers with its authors on starfish, bird songs, marine creatures and mangroves.
+facts:
+- claim: Huawei says data from the Pointe-aux-Feuilles coral reef monitoring buoys are studied by researchers
+    at the University of Mauritius.
+  url: https://www.huawei.com/en/tech4all/stories/restoring-mauritius-coral-reef-ecosystem
+  fetched: 2026-11-09
+  quote: The data is then analyzed on a cloud platform and studied by researchers at the University of
+    Mauritius.
+- claim: The Mauritius Mangrove Atlas thanks the university for logistics and transport for its mapping
+    work.
+  url: https://sites.google.com/view/mangrovesmu/
+  fetched: 2026-11-09
+  quote: We are grateful to the University of Mauritius (UoM) for providing the necessary logistics and
+    transport to support this project.
+- claim: Gives its address as Reduit, Mauritius.
+  url: https://www.uom.ac.mu
+  fetched: 2026-11-09
+  quote: University of Mauritius | Reduit 80837, Mauritius
+- claim: OpenAlex lists a 2023 paper with a University of Mauritius author on identifying crown-of-thorns
+    starfish with a convolutional neural network.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05cyprz33,title_and_abstract.search:%28%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22remote%20sensing%22%20OR%20%22neural%20network%22%20OR%20%22random%20forest%22%29%20AND%20%28coral%20OR%20forest%20OR%20species%20OR%20biodiversity%20OR%20mangrove%20OR%20seagrass%20OR%20wetland%20OR%20lagoon%20OR%20reef%20OR%20vegetation%29&select=id,title,publication_year,doi&per-page=50&sort=publication_year:desc
+  fetched: 2026-11-09
+  quote: Identification of Crown of Thorns Starfish (COTS) using Convolutional Neural Network (CNN) and
+    attention model
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2021 paper with a University of Mauritius author on a deep transfer learning
+    model to identify bird songs in Mauritius.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05cyprz33,title_and_abstract.search:%28%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22remote%20sensing%22%20OR%20%22neural%20network%22%20OR%20%22random%20forest%22%29%20AND%20%28coral%20OR%20forest%20OR%20species%20OR%20biodiversity%20OR%20mangrove%20OR%20seagrass%20OR%20wetland%20OR%20lagoon%20OR%20reef%20OR%20vegetation%29&select=id,title,publication_year,doi&per-page=50&sort=publication_year:desc
+  fetched: 2026-11-09
+  quote: 'A Deep Transfer Learning Model for the Identification of Bird Songs: A Case Study for Mauritius'
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2024 paper with a University of Mauritius author on recognising marine creatures
+    with deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05cyprz33,title_and_abstract.search:%28%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22remote%20sensing%22%20OR%20%22neural%20network%22%20OR%20%22random%20forest%22%29%20AND%20%28coral%20OR%20forest%20OR%20species%20OR%20biodiversity%20OR%20mangrove%20OR%20seagrass%20OR%20wetland%20OR%20lagoon%20OR%20reef%20OR%20vegetation%29&select=id,title,publication_year,doi&per-page=50&sort=publication_year:desc
+  fetched: 2026-11-09
+  quote: Automatic Recognition of Marine Creatures using Deep Learning
+- claim: OpenAlex lists a 2023 paper with a University of Mauritius author on remote sensing monitoring
+    of mangrove growth at planted sites in Mauritius.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05cyprz33,title_and_abstract.search:%28%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22remote%20sensing%22%20OR%20%22neural%20network%22%20OR%20%22random%20forest%22%29%20AND%20%28coral%20OR%20forest%20OR%20species%20OR%20biodiversity%20OR%20mangrove%20OR%20seagrass%20OR%20wetland%20OR%20lagoon%20OR%20reef%20OR%20vegetation%29&select=id,title,publication_year,doi&per-page=50&sort=publication_year:desc
+  fetched: 2026-11-09
+  quote: Remote sensing monitoring of mangrove growth rate at selected planted sites in Mauritius
+- claim: OpenAlex lists a 2026 paper with a University of Mauritius author on a ground-truthed national
+    atlas of mangroves in Mauritius.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:05cyprz33,title_and_abstract.search:%28%22machine%20learning%22%20OR%20%22deep%20learning%22%20OR%20%22remote%20sensing%22%20OR%20%22neural%20network%22%20OR%20%22random%20forest%22%29%20AND%20%28coral%20OR%20forest%20OR%20species%20OR%20biodiversity%20OR%20mangrove%20OR%20seagrass%20OR%20wetland%20OR%20lagoon%20OR%20reef%20OR%20vegetation%29&select=id,title,publication_year,doi&per-page=50&sort=publication_year:desc
+  fetched: 2026-11-09
+  quote: A ground-truthed national atlas of mangroves in Mauritius
+links: []
+found_by:
+- checklist:3
+- register:mu
+added_by: agent
+checked: 2026-11-09
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+ai_types:
+- deep-learning

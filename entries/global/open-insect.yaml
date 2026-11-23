@@ -1,0 +1,39 @@
+id: open-insect
+kind: dataset
+name: Open-Insect
+also_known_as:
+- Open-Insects
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://github.com/RolnickLab/Open-Insect
+summary: Fine-grained insect image dataset and benchmark for detecting unknown species, across
+  Northeastern North America, Western Europe and Central America.
+facts:
+- claim: A dataset for evaluating unknown species detection across geographic regions.
+  url: https://arxiv.org/html/2503.01691v2
+  quote: a large-scale, fine-grained dataset to evaluate unknown species detection across
+    different geographic regions
+  fetched: '2026-10-30'
+- claim: Covers three regions.
+  url: https://arxiv.org/html/2503.01691v2
+  quote: 'three geographical regions: Northeastern North America, Western Europe, and Central
+    America'
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: mila-quebec-ai-institute
+  url: https://arxiv.org/html/2503.01691v2
+  quote: 'Open-Insect: Benchmarking Open-Set Recognition of Novel Species in Biodiversity
+    Monitoring Yuyan Chen Affiliation: McGill University Affiliation: Mila - Quebec Artificial
+    Intelligence Institute'
+  fetched: '2026-10-30'
+found_by:
+- link-from:biobench
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

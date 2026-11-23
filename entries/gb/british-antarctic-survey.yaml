@@ -1,0 +1,96 @@
+id: british-antarctic-survey
+kind: organisation
+name: British Antarctic Survey
+also_known_as:
+- BAS
+scope: gb
+sector: government
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- other
+hq: gb
+scale: national
+status: active
+website: https://www.bas.ac.uk
+summary: The UK's national polar research institute, part of the Natural Environment Research
+  Council. Its Wildlife from Space project counts polar animals in satellite images, using
+  AI.
+facts:
+- claim: Describes itself as the UK's national polar research institute.
+  url: https://www.bas.ac.uk/about/
+  fetched: '2026-10-31'
+  quote: British Antarctic Survey (BAS) is the UK's national polar research institute.
+- claim: Part of the Natural Environment Research Council.
+  url: https://www.bas.ac.uk/about/
+  fetched: '2026-10-31'
+  quote: We are part of Natural Environment Research Council (NERC)
+- claim: Headquartered in Cambridge.
+  url: https://www.bas.ac.uk/about/
+  fetched: '2026-10-31'
+  quote: our Cambridge headquarters
+- claim: Published a dataset of satellite images of whales to support AI systems.
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  fetched: '2026-10-31'
+  quote: A new dataset featuring hundreds of satellite images of whales has been published
+    to support the development of artificial intelligence systems
+- claim: Reports penguin research.
+  url: https://www.bas.ac.uk/
+  quote: New research reveals the loss of half a million chinstrap penguins from the Antarctic
+    island of Zavodovski
+  fetched: '2026-10-30'
+- claim: GMA News reports a BAS AI Lab tool that labels deep-sea species in images.
+  url: https://www.gmanetwork.com/news/scitech/technology/963719/how-ai-is-unlocking-secrets-of-antarctica-s-deep-sea-creatures/story
+  quote: The AI tool, developed by the BAS AI Lab, processes high-resolution photographs and
+    video from underwater cameras
+  fetched: '2026-10-30'
+- claim: Scientists led work using satellites to identify, count and monitor species.
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  quote: BAS scientists have led investigations using satellite technology to identify, count
+    and monitor different species in Antarctica and elsewhere
+  fetched: &id001 2026-10-30
+- claim: Its AI for Earth Observation project uses multimodal machine learning.
+  url: https://www.bas.ac.uk/project/ai-for-earth-observation/
+  quote: The team uses multimodal machine learning approaches, trained on large satellite
+    datasets
+  ai_type: multimodal
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://www.bas.ac.uk/contact
+  quote: CB3 0ET
+  fetched: 2026-10-30
+- claim: Tracks penguins, seals and seabirds.
+  url: https://www.bas.ac.uk/science/long-term-monitoring/
+  fetched: '2026-10-30'
+  quote: we track populations of penguins, seals and seabirds
+- claim: Publishes the dataset "KRILLBASE_antarctickrillssalpsdensity_1926_2016" on GBIF.
+  url: https://api.gbif.org/v1/organization/94458240-4e38-11db-985b-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: KRILLBASE_antarctickrillssalpsdensity_1926_2016
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/94458240-4e38-11db-985b-b8a03c50a862/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+links:
+- type: runs
+  to: wildlife-from-space
+  url: https://www.bas.ac.uk/project/wildlife-from-space/
+  fetched: '2026-10-31'
+  quote: BAS scientists have led investigations using satellite technology
+found_by:
+- checklist:research
+- link-from:partnership-for-observation-of-the-global-ocean
+- checklist:3
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- multimodal

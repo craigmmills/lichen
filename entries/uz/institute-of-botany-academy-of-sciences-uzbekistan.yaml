@@ -1,0 +1,93 @@
+id: institute-of-botany-academy-of-sciences-uzbekistan
+kind: organisation
+name: Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan
+also_known_as:
+- Botanical Institute of the Academy of Sciences of the Republic of Uzbekistan
+- Botanika instituti
+scope: uz
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: uz
+countries:
+- uz
+scale: national
+status: active
+summary: Tashkent research institute that publishes 100 datasets through GBIF and holds the National Herbarium
+  of Uzbekistan (TASH), and ran the first national IUCN Red List training in 2025 with IUCN.
+facts:
+- claim: The GBIF registry lists 100 datasets published by the institute.
+  url: https://api.gbif.org/v1/organization/e605f64f-2091-41b6-92d4-8c71008de217/publishedDataset?limit=100
+  fetched: 2026-11-08
+  quote: '"count":100'
+- claim: Houses the National Herbarium of Uzbekistan (TASH), with over 1.5 million specimens, and publishes
+    its type collection as an open dataset.
+  url: https://api.gbif.org/v1/dataset/0c1237c3-be8c-498b-bb2d-d5cf3c930dec
+  fetched: 2026-11-08
+  quote: The National Herbarium of Uzbekistan (TASH), housed in the Institute of Botany of the Academy
+    of Sciences of Uzbekistan in Tashkent, is the largest botanical collection in Central Asia included
+    in the top-100 greatest herbaria of the world.
+- claim: One of its 2026 datasets was produced within a 'Digital Nature' State Program of the institute.
+  url: https://api.gbif.org/v1/dataset/2b432dab-3640-4b2d-8fc4-9afe0a899fd6
+  fetched: 2026-11-08
+  quote: Within the framework of the ‘Digital Nature’ State Program of the Institute of Botany of the
+    Academy of Sciences of the Republic of Uzbekistan
+- claim: Publishes 100 datasets through GBIF.
+  url: https://api.gbif.org/v1/organization/e605f64f-2091-41b6-92d4-8c71008de217
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":100'
+- claim: Holds the National Herbarium of Uzbekistan (TASH).
+  url: https://api.gbif.org/v1/organization/e605f64f-2091-41b6-92d4-8c71008de217
+  fetched: 2026-11-08
+  quote: The structure of the Institute includes the National Herbarium of Uzbekistan (TASH), which is
+    one of the largest botanical collections in Central Asia.
+- claim: Its stated research areas include monitoring, a national database, the Red Book of Uzbekistan
+    and the state cadastre of flora.
+  url: https://api.gbif.org/v1/organization/e605f64f-2091-41b6-92d4-8c71008de217
+  fetched: 2026-11-08
+  quote: formation of a national database, maintenance of the Red Book of the Republic of Uzbekistan and
+    the state cadastre of flora
+- claim: Address in Tashkent.
+  url: https://api.gbif.org/v1/organization/e605f64f-2091-41b6-92d4-8c71008de217
+  fetched: 2026-11-08
+  quote: '"address":["100125, Tashkent, Durmon Yuli, 32"]'
+- claim: Former name recorded by GBIF.
+  url: https://api.gbif.org/v1/organization/e605f64f-2091-41b6-92d4-8c71008de217
+  fetched: 2026-11-08
+  quote: 'Update done (was previously: \"Botanical Institute of the Academy of Sciences of the Republic
+    of Uzbekistan\")'
+- claim: Ran the first national training on the IUCN Red List Categories and Criteria in 2025, in collaboration
+    with IUCN.
+  url: https://iucn.org/news/202506/uzbekistan-hosts-first-iucn-red-list-training-strengthen-biodiversity-conservation
+  fetched: 2026-11-08
+  quote: The Institute of Botany of the Academy of Sciences of Uzbekistan, in collaboration with IUCN,
+    welcomed participants from across the country to the first national training on applying the IUCN
+    Red List Categories and Criteria.
+- claim: Has a Laboratory of Flora of Uzbekistan and a laboratory of the cadastre of natural plant resources.
+  url: https://botany.uz
+  fetched: 2026-11-08
+  quote: LABORATORY OF CADASTRE OF NATURAL PLANT RESOURCES AND POPULATION BIOLOGY
+- claim: Its site lists a catalogue of plants.
+  url: https://botany.uz
+  fetched: 2026-11-08
+  quote: Catalog of plants
+- claim: Address in Tashkent.
+  url: https://botany.uz
+  fetched: 2026-11-08
+  quote: 100125, Tashkent, Durmon yuli Str, 32
+found_by:
+- checklist:2
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08
+links:
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://iucn.org/news/202506/uzbekistan-hosts-first-iucn-red-list-training-strengthen-biodiversity-conservation
+  fetched: 2026-11-08
+  quote: The Institute of Botany of the Academy of Sciences of Uzbekistan, in collaboration with IUCN

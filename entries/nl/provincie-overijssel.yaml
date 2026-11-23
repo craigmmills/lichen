@@ -1,0 +1,33 @@
+id: provincie-overijssel
+kind: organisation
+name: Provincie Overijssel
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+scale: regional
+status: active
+summary: Dutch province whose Geoportaal offers maps, GIS files and services, and which publishes
+  a subsidy map for nature management drawn from the Natuurbeheerplan 2027 management type
+  map.
+facts:
+- claim: The Geoportaal van Overijssel offers maps, other data, GIS files and services.
+  url: https://www.geoportaaloverijssel.nl/
+  quote: In het Geoportaal van Overijssel vindt u kaarten (pdf's), overige data, ruimtelijke
+    (GIS) bestanden en services.
+  fetched: '2026-11-08'
+- claim: Publishes the subsidy map for nature management, a selection of the management type
+    map that belongs to the Natuurbeheerplan 2027.
+  url: https://www.geoportaaloverijssel.nl/
+  quote: De Subsidiekaart SNLn is een selectie van de ‘Geconsolideerde Beheertypenkaart’ behorende
+    bij het Natuurbeheerplan 2027.
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

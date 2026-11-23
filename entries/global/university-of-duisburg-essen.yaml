@@ -1,0 +1,40 @@
+id: university-of-duisburg-essen
+kind: organisation
+name: University of Duisburg-Essen
+scope: global
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- edna-genomics
+- computer-vision
+hq: de
+scale: global
+status: active
+website: https://www.uni-due.de/
+summary: German university whose Aquatic Ecosystem Research group leads DNAquaIMG, a European
+  project on DNA-based and automated image-based monitoring of freshwater invertebrates and
+  diatoms.
+facts:
+- claim: Its Aquatic Ecosystem Research group at Essen leads DNAquaIMG.
+  url: https://www.biodiversa.eu/2024/04/15/dnaquaimg/
+  fetched: '2026-10-30'
+  quote: Aquatic Ecosystem Research, University of Duisburg-Essen, Essen, Germany
+- claim: Its Aquatic Ecosystem Research group says it studies how human stressors change biodiversity.
+  url: https://www.uni-due.de/aquatische_oekosystemforschung/
+  quote: wie anthropogene Stressfaktoren die Biodiversität verändern
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: dnaquaimg
+  url: https://www.DNAquaIMG.eu
+  fetched: '2026-10-30'
+  quote: The coordinator of the project is University of Duisburg-Essen, Germany.
+found_by:
+- link-from:dnaquaimg
+added_by: agent
+checked: '2026-10-30'

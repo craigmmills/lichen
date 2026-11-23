@@ -1,0 +1,64 @@
+id: black-sea-biosphere-reserve
+kind: organisation
+name: Black Sea Biosphere Reserve of the National Academy of Sciences of Ukraine
+also_known_as:
+- Black Sea Biosphere Reserve
+- Чорноморський біосферний заповідник
+scope: ua
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- species-distribution
+- remote-sensing
+hq: ua
+countries:
+- ua
+scale: local
+status: active
+website: https://bsbr.in.ua/
+summary: Nature reserve covering 109,254.8 hectares on the Kherson and Mykolaiv coast, monitoring
+  since 1953 and publishing bird and jerboa burrow datasets, whose website reports staff continue
+  working despite war.
+facts:
+- claim: A nature conservation and research institution on the coast of Kherson and partly
+    Mykolaiv regions, covering 109,254.8 hectares.
+  url: https://api.gbif.org/v1/organization/5fb77211-f225-4c9d-89a0-df5998459513
+  fetched: 2026-11-03
+  quote: The total area of the reserve is 109,254.8 hectares.
+- claim: Monitoring under the Chronicle of Nature programme has been carried out in its areas
+    since 1953.
+  url: https://api.gbif.org/v1/organization/5fb77211-f225-4c9d-89a0-df5998459513
+  fetched: 2026-11-03
+  quote: monitoring studies of these areas under the Chronicle of Nature programme have been
+    conducted since 1953
+- claim: Its dataset of jerboa burrows in the Oleshky Sands was made for a 2026 study modelling
+    the species' distribution with Maxent and Landsat remote sensing data.
+  url: https://api.gbif.org/v1/dataset/5a56fa98-4228-466e-bcf7-8832cb9eb3e2
+  fetched: 2026-11-03
+  quote: Spatial distribution modelling of Stylodipus telum falzfeini (Rodentia, Dipodidae)
+    in the Oleshky Sands using Maxent and Landsat remote sensing data
+- claim: Publishes GBIF datasets of bird surveys in its Yagorlytsky Kut section for individual
+    years from 2008 to 2021.
+  url: https://api.gbif.org/v1/organization/5fb77211-f225-4c9d-89a0-df5998459513/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: Bird Surveys in the Yagorlytsky Kut Section (Black Sea Biosphere Reserve) in 2021
+- claim: Its site says war and occupation have continued for a fifth year and that its staff
+    continue to work.
+  url: https://bsbr.in.ua/
+  fetched: 2026-11-03
+  quote: Вже 5-й рік триває війна і окупація
+- claim: Its site carries a map of the zone flooded after the destruction of the Kakhovka
+    dam.
+  url: https://bsbr.in.ua/
+  fetched: 2026-11-03
+  quote: Карта зони затоплення внаслідок підриву Каховської ГЕС
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

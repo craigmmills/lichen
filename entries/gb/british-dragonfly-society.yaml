@@ -1,0 +1,44 @@
+id: british-dragonfly-society
+kind: organisation
+name: British Dragonfly Society
+also_known_as:
+- British Dragonfly Society Recording Scheme
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://british-dragonflies.org.uk
+summary: Runs the national dragonfly recording scheme, with a public database of verified
+  records.
+facts:
+- claim: Runs the national scheme.
+  url: https://british-dragonflies.org.uk/recording-scheme/
+  fetched: '2026-10-30'
+  quote: We run the national recording scheme for Dragonflies
+- claim: Database is public.
+  url: https://british-dragonflies.org.uk/recording-scheme/
+  fetched: '2026-10-30'
+  quote: is publicly available and can be accessed by anyone
+- claim: Publishes the dataset "Odonata, including both dragonfly and damselfly records, collected
+    and collated by the BDS Recording Scheme, belonging t" on GBIF.
+  url: https://api.gbif.org/v1/organization/980451bb-e9d8-4984-8d68-0d9772ea1582/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Odonata, including both dragonfly and damselfly records, collected and collated by
+    the BDS Recording Scheme, belonging to the British Dragonfly Society, for Great Britain
+    covering the period 1800-2025.
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/980451bb-e9d8-4984-8d68-0d9772ea1582/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

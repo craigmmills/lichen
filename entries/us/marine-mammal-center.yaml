@@ -1,0 +1,30 @@
+id: marine-mammal-center
+kind: organisation
+name: The Marine Mammal Center
+scope: us
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- ocean
+hq: us
+scale: local
+status: active
+website: https://www.marinemammalcenter.org/
+summary: Marine mammal organisation that published the launch of Whale Safe off the San Francisco
+  coast.
+facts:
+- claim: Published the announcement of Whale Safe's launch off San Francisco.
+  url: https://www.marinemammalcenter.org/news/whale-safe-to-launch-off-the-san-francisco-coastline
+  quote: an AI-enabled System to Prevent Ship Collisions with Whales
+  fetched: '2026-10-30'
+- claim: The IRS exempt organisation record, through ProPublica, lists Marine Mammal Center
+    in Sausalito, California.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/510144434.json
+  fetched: '2026-10-31'
+  quote: '"city":"Sausalito","state":"CA"'
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-30'

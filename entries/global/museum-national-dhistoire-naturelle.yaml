@@ -1,0 +1,38 @@
+id: museum-national-dhistoire-naturelle
+kind: organisation
+name: Muséum national d'Histoire naturelle
+also_known_as:
+- MNHN
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: fr
+scale: global
+status: active
+summary: Paris natural history museum and research institution. Its Eco-Anthropologie unit
+  is the lead affiliation on DeepForestVision, a camera trap classifier for African tropical
+  forests.
+facts:
+- claim: Lead affiliation on the DeepForestVisionV2 paper, in Paris.
+  url: https://arxiv.org/html/2606.20223
+  fetched: '2026-10-30'
+  quote: UMR7206 Eco-Anthropologie, MNHN, Paris, France
+links:
+- type: partners-with
+  to: one-forest-vision-initiative
+  url: https://www.oneforestvision.org
+  fetched: '2026-10-30'
+  quote: Cette initiative a été préfigurée par 6 grands organismes de recherche français (CEA,
+    CIRAD, CNRS, INRAE, IRD, MNHN)
+found_by:
+- link-from:deepforestvision
+added_by: agent
+checked: '2026-10-30'

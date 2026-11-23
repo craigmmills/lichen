@@ -1,0 +1,32 @@
+id: unique-land-use
+kind: organisation
+name: unique land use
+scope: de
+sector: company
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Provider listed by the CopWald service as active in forest remote sensing, with services
+  including forest inventories, forest management information systems and bark beetle monitoring.
+facts:
+- claim: Listed by the CopWald service as a provider active in forest remote sensing.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hier ist eine alphabetische Liste von Behörden und kommerziellen Dienstleistern,
+    die im Bereich Wald-Fernerkundung tätig sind.
+- claim: CopWald lists forest inventories, forest management and information systems and bark
+    beetle monitoring among its services.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Bereitstellung forstlicher Management- und Informationssysteme, Borkenkäfermonitoring
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

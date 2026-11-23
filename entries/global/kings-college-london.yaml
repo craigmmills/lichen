@@ -1,0 +1,51 @@
+id: kings-college-london
+kind: organisation
+name: King's College London
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gb
+scale: global
+website: https://www.kcl.ac.uk
+status: active
+summary: London university whose Department of Geography led the development of Terra-i, a
+  land cover change monitoring system that uses a neural network.
+countries:
+- bo
+- ec
+facts:
+- claim: Terra-i's development was led from its Department of Geography.
+  url: https://www.eurekalert.org/news-releases/762746
+  fetched: '2026-10-30'
+  quote: The development of the Terra-i system was led Louis Reymondin, PhD student in the
+    Department of Geography at King's College London
+- claim: King's College led Terra-i, which trained a computational neural network.
+  url: https://www.eurekalert.org/news-releases/762746
+  fetched: '2026-10-30'
+  quote: We developed a computational neural network
+  ai_type: deep-learning
+- claim: Says it and partners developed Co$tingNature and WaterWorld, online systems that
+    give digital maps and analysis for land use questions, with Mark Mulligan as lead researcher.
+  url: https://www.kcl.ac.uk/news/spotlight/helping-balance-conservation-needs-with-pressures-for-land
+  quote: The two online systems developed by King's and partners, Co$tingNature and WaterWorld
+    , produce dynamic and accessible “digital maps” and analyses
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: terra-i
+  url: https://www.eurekalert.org/news-releases/762746
+  fetched: '2026-10-30'
+  quote: The development of the Terra-i system was led Louis Reymondin, PhD student in the
+    Department of Geography at King's College London
+found_by:
+- link-from:terra-i
+added_by: agent
+checked: '2026-10-30'

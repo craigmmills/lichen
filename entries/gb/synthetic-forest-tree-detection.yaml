@@ -1,0 +1,30 @@
+id: synthetic-forest-tree-detection
+kind: project
+name: Synthetic forest tree detection
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.conservation.cam.ac.uk/news/cambridge-researchers-teach-ai-drones-count-trees
+summary: Cambridge research that trained AI on a synthetic forest built in a videogame engine
+  to recognise individual trees in drone lidar scans.
+facts:
+- claim: Built a synthetic forest in a videogame engine to train AI on drone lidar scans.
+  url: https://www.conservation.cam.ac.uk/news/cambridge-researchers-teach-ai-drones-count-trees
+  quote: built a fully synthetic forest inside a videogame engine to train AI systems to recognise
+    individual trees from drone lidar scans
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: university-of-cambridge
+  url: https://www.conservation.cam.ac.uk/news/cambridge-researchers-teach-ai-drones-count-trees
+  quote: Cambridge PhD researcher Yihang She built a fully synthetic forest inside a videogame
+    engine
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

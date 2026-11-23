@@ -1,0 +1,38 @@
+id: enviam
+kind: organisation
+name: enviaM
+scope: de
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: Company listed by the CopWald service as active in forest remote sensing, offering
+  Forest Health, a drone-flight vitality analysis to detect forest damage.
+facts:
+- claim: Listed by the CopWald service as a provider active in forest remote sensing.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hier ist eine alphabetische Liste von Behörden und kommerziellen Dienstleistern,
+    die im Bereich Wald-Fernerkundung tätig sind.
+- claim: CopWald gives its field as high-resolution drone imagery and AI analysis for vitality
+    monitoring.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hochauflösenden Drohnenaufnahmen und leistungsstarke Analysen durch künstliche Intelligenz
+    zum Vitalitätsmonitoring
+- claim: Offers Forest Health, a vitality analysis from flights over forest to detect damage.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: 'Forest Health - Vitalitätsanalyse: Befliegung der Waldfläche zur Schaderkennung'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

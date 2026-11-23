@@ -1,0 +1,59 @@
+id: agence-nationale-de-la-recherche
+kind: organisation
+name: Agence nationale de la recherche
+also_known_as:
+- ANR
+scope: fr
+sector: government
+roles:
+- funds
+ai_label: ai
+hq: fr
+scale: national
+status: active
+website: https://anr.fr/
+summary: The French agency that funds research by project. It runs the Challenge IA-Biodiv
+  with AFD and funds AI for forest monitoring and eDNA research.
+facts:
+- claim: The French agency for project-based research funding.
+  url: https://anr.fr/Projet-ANR-22-FAI1-0002
+  quote: L'ANR est l'agence française de financement de la recherche sur projets
+  fetched: '2026-10-31'
+- claim: French agency for project-based research funding.
+  url: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+  fetched: '2026-10-31'
+  quote: L’ANR est l’agence française de financement de la recherche sur projets
+- claim: The French agency for funding research by project.
+  url: https://anr.fr/Projet-ANR-21-AAFI-0002
+  fetched: '2026-10-31'
+  quote: L’ANR est l’agence française de financement de la recherche sur projets
+- claim: The main state operator for France 2030 in higher education and research.
+  url: https://anr.fr/Projet-ANR-21-AAFI-0002
+  fetched: '2026-10-31'
+  quote: L’ANR est le principal opérateur de l’Etat pour la gestion des PIA et de France 2030
+links:
+- type: runs
+  to: ia-biodiv-challenge
+  url: https://anr.fr/fr/actus/details/news/challenge-ia-biodiv-quand-lintelligence-artificielle-se-met-au-service-de-la-biodiversite-marine/
+  quote: Porté par l'Agence Nationale de la Recherche (ANR)
+  fetched: '2026-10-31'
+- type: runs
+  to: ia-biodiv-challenge
+  url: https://anr.fr/fr/detail/call/challenge-ia-biodiv-recherche-en-intelligence-artificielle-dans-le-champ-de-la-biodiversite/
+  fetched: '2026-10-31'
+  quote: Le challenge est lancé par l’Agence Nationale de la Recherche (ANR) en partenariat
+    avec l’Agence Française de Développement (AFD)
+- type: funds
+  to: smart-biodiv
+  url: https://anr.fr/Projet-ANR-21-AAFI-0002
+  fetched: '2026-10-31'
+  quote: Aide de l'ANR 486 018 euros
+found_by:
+- checklist:6
+- link-from:ia-biodiv-challenge
+added_by: agent
+checked: '2026-10-31'
+realms:
+- land
+- freshwater
+- ocean

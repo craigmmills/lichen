@@ -1,0 +1,26 @@
+id: nf-core-ampliseq
+kind: programme
+scope: se
+name: nf-core/ampliseq
+ai_label: data-infrastructure
+techniques:
+- edna-genomics
+status: active
+summary: Pipeline for post-processing metabarcoding data, as SBDI describes it, built by Linnaeus University.
+facts:
+- claim: SBDI describes it as a pipeline for post-processing metabarcoding data.
+  url: https://biodiversitydata.se/explore-data/
+  fetched: 2026-11-02
+  quote: nfcore/ampliseq is a pipeline for postprocessing of amplicon sequencing (metabarcoding) data
+    from markers such as 16S, 18S, ITS, and CO1
+links:
+- type: built-by
+  to: linnaeus-university
+  url: https://biodiversitydata.se/about/organization/consortium-partners/
+  fetched: 2026-11-02
+  quote: LnU particularly focuses on development of the Nextflow amplicon denoising pipeline nf-core/Ampliseq
+    .
+found_by:
+- link-from:swedish-biodiversity-data-infrastructure
+added_by: agent
+checked: 2026-11-02

@@ -1,0 +1,59 @@
+id: marine-biological-association
+kind: organisation
+name: Marine Biological Association of the United Kingdom
+also_known_as:
+- MBA
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+- other
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.mba.ac.uk
+summary: Registered charity that conducts and supports research into life in the sea, and
+  a partner in Darwin Tree of Life.
+facts:
+- claim: A registered charity conducting scientific research into life in the sea.
+  url: https://www.mba.ac.uk/about/
+  quote: The Marine Biological Association conducts, promotes and supports scientific research
+    into all aspects of life in the sea.
+  fetched: '2026-10-30'
+- claim: Uses technologies and long-term datasets.
+  url: https://www.mba.ac.uk/
+  quote: we use both innovative technologies and unique long-term datasets to inform policy,
+    conservation, and sustainable ocean stewardship
+  fetched: '2026-10-30'
+- claim: Leads on marine data through NMBL, MarLIN and DASSH.
+  url: https://www.mba.ac.uk/what-we-do/data-and-information/
+  fetched: '2026-10-30'
+  quote: The MBA is a leader in the management and provision of marine data and information
+- claim: Publishes the dataset "1956-1960 Port Erin Marine Laboratory (PEML) Scallop mark
+    recapture survey" on GBIF.
+  url: https://api.gbif.org/v1/organization/f6b48504-1651-4a49-a88d-c2bc6178694d/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: 1956-1960 Port Erin Marine Laboratory (PEML) Scallop mark recapture survey
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/f6b48504-1651-4a49-a88d-c2bc6178694d/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:2
+- link-from:partnership-for-observation-of-the-global-ocean
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+links:
+- type: runs
+  to: continuous-plankton-recorder-survey
+  url: https://www.cprsurvey.org/
+  fetched: '2026-10-30'
+  quote: Operated by the Marine Biological Association,

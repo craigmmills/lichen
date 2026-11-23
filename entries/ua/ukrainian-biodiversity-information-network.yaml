@@ -1,0 +1,74 @@
+id: ukrainian-biodiversity-information-network
+kind: project
+name: Ukrainian Biodiversity Information Network
+also_known_as:
+- UkrBIN
+- Національна мережа інформації з біорізноманіття
+scope: ua
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ua
+status: unknown
+summary: Volunteer-supported crowdsourcing platform for biodiversity data, with records from field observations,
+  text mining and museums; its site returned a database error when fetched on 3 November 2026.
+facts:
+- claim: Its GBIF publisher record describes it as a web project and application documenting biodiversity,
+    launched in cooperation with the Institute of Zoology of the National Academy of Sciences.
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: Ukrainian Biodiversity Information Network (UkrBIN) is a web project and application documenting
+    biodiversity.
+- claim: Besides field observations, a large part of its records come from text mining of scientific publications
+    and from natural history museums.
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: Besides the field observations, a significant part of records is derived from the text mining
+    of scientific publications and from the natural history museums.
+- claim: Its community crowdsources the identification of submitted photo observations.
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: UkrBIN community facilitates crowdsourcing identification of submitted photo-observations.
+- claim: Described on Ukraine's Nature Reserve Fund portal as a crowdsourcing platform for collecting,
+    storing and sharing biodiversity data.
+  url: https://wownature.in.ua/articles/yak-sposterihaty-za-pryrodoiu-z-servisom-ukrbin/
+  fetched: 2026-11-03
+  quote: краудсорсингова інтернет-платформа для збирання, накопичення та обміну даними з біорізноманіття
+- claim: A public project supported by volunteers and funded by the community.
+  url: https://wownature.in.ua/articles/yak-sposterihaty-za-pryrodoiu-z-servisom-ukrbin/
+  fetched: 2026-11-03
+  quote: UkrBIN є громадським проєктом, який підтримується волонтерами та фінансується спільнотою.
+- claim: Registered as a data publisher in GBIF.
+  url: https://wownature.in.ua/articles/yak-sposterihaty-za-pryrodoiu-z-servisom-ukrbin/
+  fetched: 2026-11-03
+  quote: UkrBIN зареєстрований видавцем даних у міжнародній мережі GBIF
+- claim: Besides field observations, a significant part of its records comes from text mining of scientific
+    publications and from natural history museums.
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: a significant part of records is derived from the text mining of scientific publications and
+    from the natural history museums
+- claim: Its GBIF record says participants reported more than 16.5 thousand observations in Ukraine in
+    May 2017 alone.
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: only in May 2017, participants reported more than 16.5 thousand observations in Ukraine
+links:
+- type: partners-with
+  to: i-i-schmalhausen-institute-of-zoology
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: Launched in cooperation with the Institute of Zoology of the National Academy of Sciences
+- type: partners-with
+  to: schmalhausen-institute-of-zoology
+  url: https://api.gbif.org/v1/organization/89c61752-4bcd-48ce-b63a-0c36793020b6
+  fetched: 2026-11-03
+  quote: Launched in cooperation with the Institute of Zoology of the National Academy of Sciences
+runner: unknown
+found_by:
+- checklist:2
+- link-from:gbif-ukraine
+added_by: agent
+checked: 2026-11-03

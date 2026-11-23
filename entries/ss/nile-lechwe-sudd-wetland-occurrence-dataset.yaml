@@ -1,0 +1,52 @@
+id: nile-lechwe-sudd-wetland-occurrence-dataset
+kind: dataset
+name: Population status, Distribution and Threats to the Nile lechwe in the Sudd Wetland,
+  South Sudan (2012)
+also_known_as: []
+scope: ss
+ai_label: data-infrastructure
+realms:
+- freshwater
+- land
+techniques:
+- other
+countries:
+- ss
+status: active
+summary: GBIF dataset of 61 Nile lechwe occurrence records from aerial surveys of about 70,456
+  square kilometres of the Sudd Wetland, between January and March 2010, published by the
+  Ministry of Environment and Forestry.
+facts:
+- claim: GBIF lists the dataset as published by the Ministry of Environment and Forestry,
+    with 61 occurrence records.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=SS&limit=20
+  fetched: 2026-11-14
+  quote: '"publishingOrganizationTitle":"Ministry of Environment and Forestry"'
+- claim: The data come from aerial surveys of the Sudd Wetland using Systematic Reconnaissance
+    Flight.
+  url: https://api.gbif.org/v1/dataset/dbca12a3-a1d0-42bf-8535-c30aa349faa7
+  fetched: 2026-11-14
+  quote: Aerial surveys were conducted in the Sudd Wetland.
+- claim: The study ran between January and March 2010 over about 70,456 square kilometres
+    of the Sudd Wetland.
+  url: https://api.gbif.org/v1/dataset/dbca12a3-a1d0-42bf-8535-c30aa349faa7
+  fetched: 2026-11-14
+  quote: The study was conducted between January and March 2010, within an area covering about
+    70,456 km2 of the Sudd Wetland in South Sudan
+- claim: The record names the funding as the Charlotte Fellowship Program through the African
+    Wildlife Foundation and the Wildlife Conservation Society's Southern Sudan Program.
+  url: https://api.gbif.org/v1/dataset/dbca12a3-a1d0-42bf-8535-c30aa349faa7
+  fetched: 2026-11-14
+  quote: Charlotte Fellowship Program through African Wildlife Foundation (AWF) and Wildlife
+    Conservation Society (WCS), Southern Sudan Program
+links:
+- type: funded-by
+  to: african-wildlife-foundation
+  url: https://api.gbif.org/v1/dataset/dbca12a3-a1d0-42bf-8535-c30aa349faa7
+  fetched: 2026-11-14
+  quote: Charlotte Fellowship Program through African Wildlife Foundation (AWF)
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

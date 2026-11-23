@@ -1,0 +1,61 @@
+id: instituto-nacional-de-biodiversidad
+kind: organisation
+name: Instituto Nacional de Biodiversidad
+also_known_as:
+- INBio
+- National Biodiversity Institute
+scope: cr
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- cr
+scale: national
+status: unknown
+summary: Heredia-based GBIF publisher of national datasets on Costa Rican insects, plants
+  and fungi under a CC0 waiver; GBIF marks the insect dataset as orphaned, awaiting adoption.
+facts:
+- claim: GBIF lists it as an endorsed publisher in Heredia.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862
+  fetched: '2026-11-08'
+  quote: '"title":"Instituto Nacional de Biodiversidad (INBio)'
+- claim: GBIF lists national datasets published by INBio, including Insecta, Plantae and Fungi
+    of Costa Rica.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862/publishedDataset?limit=50
+  fetched: '2026-11-08'
+  quote: '"title":"Insecta of Costa Rica (INBio)"'
+- claim: The insect dataset holds records collected, identified, digitised and published by
+    INBio.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862/publishedDataset?limit=1
+  fetched: '2026-11-08'
+  quote: Occurrence records of the Insecta class collected, identified, digitized, and published
+    by the National Biodiversity Institute (INBio) of Costa Rica.
+- claim: GBIF marks the insect dataset as orphaned and awaiting adoption.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862/publishedDataset?limit=1
+  fetched: '2026-11-08'
+  quote: Orphaned dataset awaiting adoption.
+- claim: Publishes an occurrence dataset of Costa Rican insects that it collected, identified,
+    digitised and published.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Occurrence records of the Insecta class collected, identified, digitized, and published
+    by the National Biodiversity Institute (INBio) of Costa Rica.
+- claim: Also publishes a Plantae of Costa Rica dataset.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Plantae of Costa Rica (INBio)
+- claim: Its datasets carry a CC0 public domain waiver.
+  url: https://api.gbif.org/v1/organization/5c7a5c20-1bd0-11d8-a2da-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+links: []
+found_by:
+- link-from:queue-cr
+- register:gbif-publisher
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-08'

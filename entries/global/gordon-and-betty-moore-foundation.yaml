@@ -1,0 +1,76 @@
+id: gordon-and-betty-moore-foundation
+kind: organisation
+name: Gordon and Betty Moore Foundation
+also_known_as:
+- Moore Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: us
+scale: global
+status: active
+website: https://www.moore.org
+summary: Foundation set up by Gordon and Betty Moore, with an Environmental Conservation Program.
+  It has funded biodiversity data work including a $10 million grant to iNaturalist, and is
+  a listed funder of Global Fishing Watch and MapBiomas.
+facts:
+- claim: Established by Gordon and Betty Moore.
+  url: https://www.moore.org/about
+  quote: Gordon and Betty Moore established the foundation to create positive outcomes for
+    future generations.
+  fetched: &id001 2026-10-30
+- claim: Runs an Environmental Conservation Program.
+  url: https://www.moore.org/programs/environmental-conservation
+  quote: Our Environmental Conservation Program balances long-term conservation with sustainable
+    use.
+  fetched: *id001
+- claim: Gave iNaturalist a $10 million grant in 2023, the largest in iNaturalist's history.
+  url: https://nbn.org.uk/news/inaturalist-receives-10-million-grant/
+  quote: it has now received a generous $10 million grant from the Gordon and Betty Moore
+    Foundation!
+  fetched: *id001
+links:
+- type: funds
+  to: inaturalist
+  amount: 10000000
+  currency: USD
+  year: 2023
+  url: https://nbn.org.uk/news/inaturalist-receives-10-million-grant/
+  quote: it has now received a generous $10 million grant from the Gordon and Betty Moore
+    Foundation! Challenge and Opportunity This grant-the largest in iNaturalist's
+  fetched: *id001
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: Gordon E and Betty I Moore Foundation $2,009,084 4 2020–2024
+  fetched: *id001
+  amount: 2009084
+  currency: USD
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Gordon & Betty Moore Foundation / 2020 – 2023
+  fetched: *id001
+- type: funds
+  to: wild-me-lab
+  url: https://www.wildme.org/supporters.html
+  fetched: 2026-10-30
+  quote: The Gordon and Betty Moore Foundation Featured sponsor
+- type: funds
+  to: conservation-x-labs
+  url: https://grantable.co/nonprofits/conservation-x-labs-inc-morg_2f5c4858d95b4563bca2b21fbd32dccc
+  fetched: 2026-10-30
+  quote: Conservation X Labs Inc between 2020-2025. Funder Total given Grants Years Gordon
+    E and Betty I Moore Foundation $9,618,100 12 2020-2024
+  amount: 9618100
+  currency: USD
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

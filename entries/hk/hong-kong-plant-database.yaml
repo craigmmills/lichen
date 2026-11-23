@@ -1,0 +1,37 @@
+id: hong-kong-plant-database
+kind: dataset
+name: Hong Kong Plant Database
+also_known_as: []
+scope: hk
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques: []
+countries: []
+summary: Database run by the Hong Kong Herbarium recording more than 3,300 Hong Kong
+  plants, based mainly on herbarium specimen records, with over 11,700 high-resolution
+  images.
+facts:
+- claim: Records more than 3,300 plants of Hong Kong, based mainly on the Hong Kong
+    Herbarium's specimen records.
+  url: https://www.afcd.gov.hk/english/conservation/con_flo/con_flo_hkh/con_flo_hkh.html
+  fetched: 2026-11-14
+  quote: Hong Kong Plant Database records more than 3,300 plants of Hong Kong (including
+    native and exotic species that have been recorded in Hong Kong) which based primarily
+    on the specimen records of the Hong Kong Herbarium.
+- claim: Includes more than 11,700 high-resolution images.
+  url: https://www.afcd.gov.hk/english/conservation/con_flo/con_flo_hkh/con_flo_hkh.html
+  fetched: 2026-11-14
+  quote: 'Colour Photographs: more than 11,700 high-resolution images'
+links:
+- type: run-by
+  to: hong-kong-herbarium
+  url: https://www.afcd.gov.hk/english/conservation/con_flo/con_flo_hkh/con_flo_hkh.html
+  fetched: 2026-11-14
+  quote: Whilst the Hong Kong Herbarium endeavours to ensure the accuracy of the information
+    of the Hong Kong Plant Database
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

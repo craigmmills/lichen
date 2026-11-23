@@ -1,0 +1,31 @@
+id: cook-inlet-beluga-acoustic-ml
+kind: project
+name: Passive acoustic analysis using ML in Cook Inlet
+scope: us
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: unknown
+summary: NOAA analysis of passive acoustic data using neural networks to detect beluga
+  whales and classify their signals.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Passive acoustic analysis using ML in Cook Inlet, AK Passive
+    acoustic data is analyzed for detection of beluga whales and classification of
+    the different signals emitted by these species. Neural Networks
+links:
+- type: run-by
+  to: national-oceanic-and-atmospheric-administration
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDOC NOAA - Passive acoustic analysis using ML in Cook Inlet, AK Passive
+    acoustic data is analyzed for detection of beluga whales and classification of
+    the different signals emitted by these species. Neural Networks
+found_by:
+- link-from:national-oceanic-and-atmospheric-administration
+added_by: agent
+checked: '2026-10-30'

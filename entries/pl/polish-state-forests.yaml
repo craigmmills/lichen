@@ -1,0 +1,66 @@
+id: polish-state-forests
+kind: organisation
+name: State Forests National Forest Holding
+also_known_as:
+- Lasy Państwowe
+- Państwowe Gospodarstwo Leśne Lasy Państwowe
+- PGL LP
+scope: pl
+sector: government
+roles:
+- governs
+- funds
+- uses-ai
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+website: https://www.lasy.gov.pl
+summary: Organisation managing almost 7.6 million hectares of forest, which a 2025 press report
+  says signed a PLN 11 million contract with SmokeD for monitoring forest land.
+facts:
+- claim: It manages almost 7.6 million hectares of forest.
+  url: https://nurzec.bialystok.lasy.gov.pl/en/nasze-lasy
+  fetched: '2026-11-02'
+  quote: almost 7,6 million hectares are managed by the State Forests National Forest Holding
+- claim: A 2025 press report says it signed a PLN 11 million contract with SmokeD for monitoring
+    forest land in Poland.
+  url: https://xyz.pl/miliony-za-lasy-domy-a-nawet-kopalnie-zlota-polski-startup-osiagnal-rentownosc-chroniac-przed-pozarami/
+  fetched: '2026-11-02'
+  quote: Startup podpisał niedawno z Lasami Państwowymi nowy kontrakt na monitoring powierzchni
+    leśnej w Polsce o wartości 11 mln zł.
+- claim: Its site presents the Forest Data Bank as covering forests of all ownership types.
+  url: https://www.lasy.gov.pl/pl/nasze-lasy/bank-danych-o-lasach
+  fetched: '2026-11-02'
+  quote: Bank Danych o Lasach to rozbudowany system informatyczny gromadzący, przetwarzający
+    i udostępniający informacje dotyczące lasów wszystkich form własności na terenie Polski.
+- claim: The project covers Natura 2000 areas managed by State Forests and the Ministry of
+    National Defence.
+  url: https://projekty-rozwojowe.lasy.gov.pl/en/projekty-rozwojowe/-/asset_publisher/7PcENrBXlBZJ/content/system-zarzadzania-i-monitoringu-obszarow-natura-2000
+  fetched: '2026-11-02'
+  quote: o powierzchni ponad 3,1 mln ha, znajdujących się w zarządzie Lasów Państwowych i
+    MON
+links:
+- type: funds
+  to: forest-data-bank
+  url: https://www.gov.pl/web/klimat/przyszlosc-banku-danych-o-lasach-zagwarantowana
+  fetched: '2026-11-02'
+  quote: Lasy Państwowe przeznaczą 17,5 mln zł na rozwój Banku Danych o Lasach.
+  amount: 17500000
+  currency: PLN
+  year: 2019
+- type: uses
+  to: smoked
+  url: https://xyz.pl/miliony-za-lasy-domy-a-nawet-kopalnie-zlota-polski-startup-osiagnal-rentownosc-chroniac-przed-pozarami/
+  fetched: '2026-11-02'
+  quote: Startup podpisał niedawno z Lasami Państwowymi nowy kontrakt na monitoring powierzchni
+    leśnej w Polsce
+found_by:
+- checklist:1
+- checklist:2
+- link-from:forest-research-institute-poland
+added_by: agent
+checked: '2026-11-02'

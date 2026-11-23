@@ -1,0 +1,32 @@
+id: copepod
+kind: dataset
+name: COPEPOD
+also_known_as:
+- Coastal and Oceanic Plankton Ecology, Production, and Observation Database
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://www.st.nmfs.noaa.gov/copepod/
+summary: Global plankton database project, the Coastal and Oceanic Plankton Ecology, Production, and Observation Database.
+facts:
+- claim: The global plankton database project.
+  url: https://www.st.nmfs.noaa.gov/copepod/
+  quote: COPEPOD - the global plankton database project
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: noaa-fisheries
+  url: https://www.st.nmfs.noaa.gov/copepod/about/
+  quote: COPEPOD is an effort by the National Marine Fisheries Service
+  fetched: '2026-10-30'
+- type: partners-with
+  to: pelagic-size-structure-database
+  url: https://pssdb.net/
+  quote: PSSdb is part of the COPEPOD Project
+  fetched: '2026-10-30'
+found_by:
+- link-from:pelagic-size-structure-database
+added_by: agent
+checked: '2026-10-30'

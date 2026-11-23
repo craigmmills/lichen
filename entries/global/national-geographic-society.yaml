@@ -1,0 +1,72 @@
+id: national-geographic-society
+kind: organisation
+name: National Geographic Society
+scope: global
+sector: ngo
+roles:
+- funds
+- convenes
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: us
+scale: global
+status: active
+website: https://nationalgeographic.org
+summary: Non-profit that has awarded more than 16,000 grants since 1888 and now runs its grants
+  through specific requests for proposals. With Microsoft it launched the $1 million AI for
+  Earth Innovation Grant in 2018.
+facts:
+- claim: Microsoft says funding for the 11 chosen AI for Earth Innovation Grant projects was
+    raised from a planned $1 million to more than $1.28 million.
+  url: https://news.microsoft.com/source/2018/12/11/11-changemakers-chosen-as-recipients-of-microsoft-and-national-geographic-ai-for-earth-innovation-grants/
+  quote: prompted Microsoft and National Geographic to increase the funding for the 11 chosen
+    projects from the initially planned $1 million to more than $1.28 million
+  fetched: '2026-10-30'
+- claim: Wikipedia says its media arm, National Geographic Partners, is a joint venture between
+    the Walt Disney Company and the society.
+  url: https://en.wikipedia.org/wiki/National_Geographic_Society
+  quote: a joint venture between the Walt Disney Company and the society
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: ai-for-earth-innovation-grant
+  url: https://news.microsoft.com/source/2018/07/16/microsoft-and-national-geographic-form-ai-for-earth-innovation-grant-partnership/
+  quote: Applications are open as of today and must be submitted by Oct. 8, 2018. Recipients
+    will be announced in December 2018. Those who want more information and to apply can visit
+    https://www.nationalgeographic.org/grants/grant-opportunities/
+  fetched: &id001 2026-10-30
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  fetched: 2026-10-30
+  quote: National Geographic Society $375,500 3 2022–2025
+  amount: 375500
+  currency: USD
+- type: funds
+  to: conservation-x-labs
+  url: https://grantable.co/nonprofits/conservation-x-labs-inc-morg_2f5c4858d95b4563bca2b21fbd32dccc
+  fetched: 2026-10-30
+  quote: National Geographic Society $388,000 3 2023–2025
+  amount: 388000
+  currency: USD
+- type: funds
+  to: earth-species-project
+  url: https://grantable.co/nonprofits/the-earth-species-project-morg_8037bb9169f342129cd38771621f845c
+  fetched: 2026-10-30
+  quote: National Geographic Society $100,000 1 2022
+  amount: 100000
+  currency: USD
+- type: partners-with
+  to: microsoft
+  url: https://news.microsoft.com/source/2018/07/16/microsoft-and-national-geographic-form-ai-for-earth-innovation-grant-partnership/
+  quote: Microsoft Corp. and National Geographic announced a new partnership to advance scientific
+    exploration and research on critical environmental challenges with the power of artificial
+    intelligence
+  fetched: '2026-10-30'
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

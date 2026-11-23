@@ -1,0 +1,47 @@
+id: shahjalal-university-of-science-and-technology
+kind: organisation
+name: Shahjalal University of Science and Technology
+also_known_as:
+- SUST
+scope: bd
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: bd
+countries:
+- bd
+scale: national
+status: active
+summary: University whose authors published a 2023 deep neural network study of mangrove and
+  swamp forest tree species and a 2025 machine learning assessment of ecosystem health in
+  Sylhet Sadar.
+facts:
+- claim: Its Department of Forestry and Environmental Science is the affiliation of authors
+    of a 2023 deep neural network study of mangrove and swamp forest tree species.
+  url: https://api.openalex.org/works/W4376619308
+  fetched: 2026-11-07
+  quote: Department of Forestry and Environmental Science, Shahjalal University of Science
+    and Technology, Sylhet 3114, Bangladesh
+- claim: Authors from its Department of Geography and Environment wrote a 2025 paper combining
+    geospatial indicators and machine learning to assess ecosystem health in Sylhet Sadar.
+  url: https://api.openalex.org/works/W4416305813?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: 'Integrating geospatial indicators and machine learning for ecosystem health assessment:
+    a case study of Sylhet Sadar, Bangladesh'
+- claim: OpenAlex gives the authors' affiliation as the Department of Geography and Environment
+    at the university.
+  url: https://api.openalex.org/works/W4416305813?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Department of Geography and Environment, Shahjalal University of Science and Technology
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-07

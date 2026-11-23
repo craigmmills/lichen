@@ -1,0 +1,86 @@
+id: remote-sensing-forest-inventory-of-ukraine
+kind: project
+name: Remote-sensing-based forest inventory of Ukraine
+also_known_as:
+- ДЗЗ-інвентаризація
+scope: ua
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ua
+status: active
+summary: Forest inventory using Sentinel-2 time series for 2017 to 2023 and random forest classification
+  to map forest cover and dominant species, supported by Ukrainian and German partners.
+facts:
+- claim: Built on Sentinel-2 satellite image time series for 2017 to 2023.
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: ДЗЗ-інвентаризація розроблена на основі часових рядів супутникових знімків Sentinel 2 за 2017–2023
+    роки.
+- claim: Maps forest cover and dominant tree species with the random forest machine learning algorithm.
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: Алгоритм машинного навчання «випадковий ліс»
+  ai_type: ml-supervised
+- claim: Described as a joint initiative supported by the State Forest Agency, Ukrderzhlisproekt, GFA
+    Consulting Group, unique land use GmbH and IAK Agrar Consulting GmbH.
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: розвитку GFA Consulting Group, консалтинговими компаніями unique land use GmbH та IAK Agrar Consulting
+    GmbH.
+- claim: The booklet was prepared with support from the SFI project, part of the bilateral cooperation
+    programme of Germany's Federal Ministry of Food and Agriculture (BMEL).
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: (BCP) Федерального міністерства продовольства та сільського господарства Німеччини (BMEL).
+- claim: A 2024 paper led by Viktor Myroniuk of NULES sets out a nationwide remote sensing framework for
+    forest resource assessment in war-affected Ukraine.
+  url: https://api.openalex.org/works/W4400966171
+  fetched: 2026-11-03
+  quote: Nationwide remote sensing framework for forest resource assessment in war-affected Ukraine
+links:
+- type: partners-with
+  to: ukrderzhlisproekt
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: сів України,  ВО «Укрдержліспроект», парнером з
+- type: partners-with
+  to: state-agency-for-forest-resources-of-ukraine
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: ДЗЗ-інвентаризація є спільною ініціативою, під- триманою Державним агентством лісових ресур-
+    сів України
+- type: partners-with
+  to: gfa-consulting-group
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: розвитку GFA Consulting Group, консалтинговими компаніями unique land use GmbH та IAK Agrar Consulting
+    GmbH.
+- type: partners-with
+  to: unique-land-use
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: розвитку GFA Consulting Group, консалтинговими компаніями unique land use GmbH та IAK Agrar Consulting
+    GmbH.
+- type: partners-with
+  to: iak-agrar-consulting
+  url: https://nfi.lisproekt.gov.ua/wp-content/uploads/2024/05/booklet_ua-20x20_e-book.pdf
+  fetched: 2026-11-03
+  quote: розвитку GFA Consulting Group, консалтинговими компаніями unique land use GmbH та IAK Agrar Consulting
+    GmbH.
+- type: builds-on
+  to: national-forest-inventory-of-ukraine
+  url: https://nfi.lisproekt.gov.ua/
+  fetched: 2026-11-03
+  quote: а наявні дані з обстежених інвентаризаційних ділянок були використані для калібрування інформації
+    з супутникових знімків.
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-03

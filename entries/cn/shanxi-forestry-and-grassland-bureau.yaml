@@ -1,0 +1,37 @@
+id: shanxi-forestry-and-grassland-bureau
+kind: organisation
+name: Shanxi Provincial Forestry and Grassland Bureau
+also_known_as:
+- 山西省林业和草原局
+scope: cn
+sector: government
+roles:
+- builds-ai
+- governs
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: cn
+scale: local
+status: active
+countries:
+- cn
+summary: A provincial forestry agency that has set up an AI species identification platform
+  for camera-trap images, using a two-stage process and its own knowledge base to help write
+  reports.
+facts:
+- claim: Set up an AI species identification platform for infrared camera images.
+  url: https://www.forestry.gov.cn/c/www/kjkjxw/672849.jhtml
+  fetched: '2026-10-31'
+  quote: 山西省林业和草原局依托AI人工智能技术，建立了红外相机AI物种识别平台
+- claim: The platform first finds animals and identifies species, then uses a self-built knowledge
+    base to help generate reports.
+  url: https://www.forestry.gov.cn/c/www/kjkjxw/672849.jhtml
+  fetched: '2026-10-31'
+  quote: 第一阶段先从海量的影像中发现动物、识别物种；第二阶段再结合自建生态环境行业知识库，归纳识别结果并辅助生成专业报告。
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

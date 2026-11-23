@@ -1,0 +1,58 @@
+id: selo-verde
+kind: programme
+name: SeloVerde
+also_known_as:
+- Selo Verde Pará
+- SeloVerde Pará
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.semas.pa.gov.br/seloverde/
+summary: Public online system from the Pará state government, built with the Territorial
+  Intelligence Centre at the Federal University of Minas Gerais, for rural property
+  traceability and monitoring of deforestation.
+facts:
+- claim: AWS says version 2.1 monitors deforestation using AI, ML and open source
+    data.
+  url: https://aws.amazon.com/blogs/publicsector/seloverde-uses-geospatial-big-data-and-ai-ml-to-monitor-deforestation-in-supply-chains-powered-by-aws
+  fetched: '2026-10-30'
+  quote: SeloVerde 2.1 monitors deforestation by leveraging AI, ML, and open source
+    data
+- claim: Uses geospatial big data and AI/ML to mitigate the impact of deforestation.
+  url: https://aws.amazon.com/blogs/publicsector/seloverde-uses-geospatial-big-data-and-ai-ml-to-monitor-deforestation-in-supply-chains-powered-by-aws
+  fetched: '2026-10-30'
+  quote: The SeloVerde 2.1 project is designed to use geospatial big data and AI/ML
+    to mitigate the impact of deforestation.
+- claim: First public system able to monitor direct and indirect suppliers, according
+    to AWS.
+  url: https://aws.amazon.com/blogs/publicsector/seloverde-uses-geospatial-big-data-and-ai-ml-to-monitor-deforestation-in-supply-chains-powered-by-aws
+  fetched: '2026-10-30'
+  quote: It is the first public system able to monitor direct and indirect suppliers
+links:
+- type: partners-with
+  to: climate-and-land-use-alliance
+  url: https://aws.amazon.com/blogs/publicsector/seloverde-uses-geospatial-big-data-and-ai-ml-to-monitor-deforestation-in-supply-chains-powered-by-aws
+  fetched: '2026-10-30'
+  quote: with support from the Climate and Land Use Alliance
+- type: run-by
+  to: centro-de-inteligencia-territorial-ufmg
+  url: https://aws.amazon.com/blogs/publicsector/seloverde-uses-geospatial-big-data-and-ai-ml-to-monitor-deforestation-in-supply-chains-powered-by-aws
+  fetched: '2026-10-30'
+  quote: which allowed CIT to design and develop the latest version of SeloVerde 2.1
+    that it deployed in the AWS Cloud in 2023
+- type: funded-by
+  to: amazon-sustainability-data-initiative
+  url: https://aws.amazon.com/blogs/publicsector/seloverde-uses-geospatial-big-data-and-ai-ml-to-monitor-deforestation-in-supply-chains-powered-by-aws
+  fetched: '2026-10-30'
+  quote: "Amazon provides grant funding to accelerate sustainability research and innovation through the RNCF and the Amazon Sustainability Data Initiative ’s (ASDI) Promotional Credit Program. The Center for Territorial Intelligence (CIT), an AWS Partner, benefited from this funding"
+found_by:
+- checklist:7
+- link-from:amazon-sustainability-data-initiative
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

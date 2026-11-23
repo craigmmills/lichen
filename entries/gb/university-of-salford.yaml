@@ -1,0 +1,33 @@
+id: university-of-salford
+kind: organisation
+name: University of Salford
+scope: gb
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+techniques:
+- bioacoustics
+hq: gb
+scale: national
+status: active
+website: https://www.salford.ac.uk/
+summary: University where staff work on ecoacoustics, biodiversity monitoring and machine
+  learning.
+facts:
+- claim: A staff researcher works on ecoacoustics, biodiversity monitoring and machine learning.
+  url: https://www.salford.ac.uk/our-staff/helen-whitehead
+  quote: biodiversity monitoring, biodiversity net gain, ecoacoustics, machine learning
+  fetched: &id001 2026-10-30
+- claim: Gives its location as Manchester.
+  url: https://www.salford.ac.uk/
+  quote: University of Salford, Manchester
+  fetched: *id001
+- claim: The ICO register gives its address at Crescent House.
+  url: https://ico.org.uk/ESDWebPages/Entry/Z469563X
+  quote: University of Salford Address Ground Floor Crescent House Manchester M5 4WT
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

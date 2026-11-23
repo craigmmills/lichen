@@ -1,0 +1,36 @@
+id: university-of-salzburg
+kind: organisation
+name: University of Salzburg
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+website: https://www.plus.ac.at/
+summary: Austrian university whose authors published a 2024 paper on drone-based forest health
+  monitoring with machine learning and a 2022 paper predicting wildlife-vehicle collision
+  risk.
+facts:
+- claim: A 2024 paper with Dirk Tiede of the University of Salzburg presents species-specific
+    machine learning models for drone-based forest health monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I182212641,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Species-specific machine learning models for UAV-based forest health monitoring
+- claim: A 2022 paper first-authored by Raphaela Pagany of the University of Salzburg presents
+    machine learning risk prediction of wildlife-vehicle collisions.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I182212641,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: A spatiotemporal risk prediction of wildlife-vehicle collisions using machine learning
+    for dynamic warnings
+found_by:
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-07

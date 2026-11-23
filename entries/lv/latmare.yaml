@@ -1,0 +1,59 @@
+id: latmare
+kind: dataset
+name: LatMare
+also_known_as:
+- LatMare marine monitoring database
+- LATMARE datu bāze
+scope: lv
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- lv
+status: active
+summary: Open Latvian marine monitoring dataset from 1995, built and run by the Latvian Institute of Aquatic
+  Ecology, set up within HELCOM's Baltic Data Flows project.
+facts:
+- claim: Listed on the Latvian Institute of Aquatic Ecology's home page.
+  url: https://www.lhei.lv/en
+  fetched: 2026-11-09
+  quote: LATMARE data base
+- claim: Holds observations of hydrobiological parameters, namely zooplankton, zoobenthos and phytoplankton,
+    as well as hydrochemistry and contaminants in fish.
+  url: https://lhei.lv/zinatniska-darbiba/latmare-datu-baze/
+  fetched: 2026-11-09
+  quote: Hidrobioloģijas parametru novērojumu uzskaiti – zooplanktons, zoobentoss un fitoplanktons;
+- claim: Publishes the institute's open datasets automatically through an API to the Latvian open data
+    portal and the European data portal.
+  url: https://lhei.lv/zinatniska-darbiba/latmare-datu-baze/
+  fetched: 2026-11-09
+  quote: Datu uzglabāšanas sistēma LATMARE ar lietojumprogrammu saskarnes (API) starpniecību automātiski
+    publicē LHEI atvērtās datu kopas Latvijas Atvērto datu portālā
+- claim: Was set up within the Baltic Data Flows project, whose lead partner was HELCOM, with co-funding
+    from the EU Connecting Europe Facility.
+  url: https://lhei.lv/zinatniska-darbiba/latmare-datu-baze/
+  fetched: 2026-11-09
+  quote: ir izveidota projekta Baltic Data Flows ietvaros (vadošais partneris HELCOM) ar Eiropas Savienības
+    Eiropas Infrastruktūras Savienošanas Instrumenta (Connecting Europe Facility – CEF) līdzfinansējumu
+- claim: Created to store, use and manage the observation data the Latvian Institute of Aquatic Ecology
+    has gathered.
+  url: https://lhei.lv/zinatniska-darbiba/latmare-datu-baze/
+  fetched: 2026-11-09
+  quote: LHEI uzkrāto datu uzglabāšanai, lietošanai un pārvaldībai ir izveidota datu uzglabāšanas sistēma
+    LATMARE.
+- claim: Was set up within the Baltic Data Flows project, whose lead partner was HELCOM.
+  url: https://lhei.lv/zinatniska-darbiba/latmare-datu-baze/
+  fetched: 2026-11-09
+  quote: ir izveidota projekta Baltic Data Flows ietvaros (vadošais partneris HELCOM)
+links:
+- type: run-by
+  to: latvian-institute-of-aquatic-ecology
+  url: https://lhei.lv/zinatniska-darbiba/latmare-datu-baze/
+  fetched: 2026-11-09
+  quote: LHEI speciālisti veic sistēmā uzglabāto datu kvalitātes pārbaudi
+found_by:
+- checklist:2
+- link-from:latvian-institute-of-aquatic-ecology
+- register:lv
+added_by: agent
+checked: 2026-11-09

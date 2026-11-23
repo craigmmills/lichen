@@ -1,0 +1,50 @@
+id: landscape-change-monitoring-system
+kind: dataset
+name: Landscape Change Monitoring System
+also_known_as:
+- LCMS
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: USDA Forest Service dataset of annual landscape change, land cover and land
+  use for the United States, built from an ensemble of remote sensing models.
+facts:
+- claim: Provides annual data on landscape change, land cover and land use for the
+    US.
+  url: https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2024-10
+  fetched: '2026-10-30'
+  quote: provides annual data on landscape change, land cover, and land use for the
+    United States
+- claim: Uses an ensemble of remote sensing models.
+  url: https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2024-10
+  fetched: '2026-10-30'
+  quote: The LCMS utilizes an ensemble of remote sensing models and ancillary datasets
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - Landscape Change Monitoring System (LCMS) National
+    Landsat/sentinel remote sensing-based data produced by the USDA Forest Service
+    for mapping and monitoring changes related to vegetation canopy cover, as
+links:
+- type: run-by
+  to: us-forest-service
+  url: https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2024-10
+  fetched: '2026-10-30'
+  quote: USDA Forest Service (USFS) Field Services and Innovation Center Geospatial
+    Office (FSIC-GO)
+- type: run-by
+  to: us-forest-service
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - Landscape Change Monitoring System (LCMS) National
+    Landsat/sentinel remote sensing-based data produced by the USDA Forest Service
+    for mapping and monitoring changes related to vegetation canopy cover, as
+found_by:
+- checklist:2
+- link-from:us-forest-service
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,64 @@
+id: bfw-austrian-tree-species-model-sentinel-2
+kind: model
+name: Austrian forest tree species mapping model (BFW, Sentinel-2)
+scope: at
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+countries:
+- at
+scale: national
+status: active
+summary: Deep learning model built by BFW that maps 26 forest tree species classes across Austria from
+  Sentinel-2 data, with 55 per cent overall accuracy against National Forest Inventory data.
+facts:
+- claim: ESA's Sentinel Online says a BFW team and partner universities showed that Sentinel-2 data with
+    neural-network modelling can map forest tree species across Austria.
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: An innovative research team from the Austrian Research Centre for Forests (BFW) and partner universities
+    has now shown that Copernicus Sentinel-2 data, combined with advanced neural-network modelling and
+    profound local expert knowledge, can map forest tree species across Austria
+- claim: Each model had more than 340,000 trainable parameters and was trained on about 570,000 labelled
+    Sentinel-2 pixels, giving a deep learning system.
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: The result is a deep-learning system capable of recognising subtle seasonal and structural differences
+    among species while generalising across Austria's highly varied landscapes.
+  ai_type: deep-learning
+- claim: Validated against independent National Forest Inventory data, overall accuracy was 55 per cent.
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: Using truly independent NFI data, the overall accuracy reached 55 %
+- claim: Uses 26 classes, including eight pure species and eleven mixed combinations.
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: 'In total, 26 classes were defined: eight pure species, eleven mixed combinations, four sparse-canopy
+    types'
+links:
+- type: built-by
+  to: bundesforschungszentrum-fuer-wald
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: To address this, the BFW team introduced a mixed-class framework, in which each class may contain
+    up to two species
+- type: builds-on
+  to: sentinel-2
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: The BFW team employed Sentinel-2 time-series imagery spanning several years to monitor the seasonal
+    phenology of vegetation.
+- type: uses
+  to: oesterreichische-waldinventur
+  url: https://sentinels.copernicus.eu/web/success-stories/-/mapping-austria-s-forest-diversity-with-sentinel-2
+  fetched: 2026-11-07
+  quote: Independent Probability Sample (IPS) – a gold-standard approach using Austria's National Forest
+    Inventory (NFI)
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-07

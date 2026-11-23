@@ -1,0 +1,33 @@
+id: satudata-kemenlh
+kind: dataset
+name: SATUDATA KemenLH
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- id
+status: active
+website: https://satudata.kemenlh.go.id
+summary: The environment ministry's official open data portal, covering environmental
+  quality, biodiversity and climate change.
+facts:
+- claim: The ministry's official portal, with open access to environmental, biodiversity
+    and climate data.
+  url: https://satudata.kemenlh.go.id/tentang/faq
+  fetched: '2026-10-31'
+  quote: SATUDATA KemenLH adalah portal data resmi Kementerian Lingkungan Hidup yang
+    menyediakan akses terbuka terhadap data lingkungan hidup, keanekaragaman hayati,
+    perubahan iklim, dan sektor terkait.
+links:
+- type: run-by
+  to: kementerian-lingkungan-hidup
+  url: https://satudata.kemenlh.go.id/tentang/faq
+  fetched: '2026-10-31'
+  quote: portal data resmi Kementerian Lingkungan Hidup
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

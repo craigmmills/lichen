@@ -1,0 +1,50 @@
+id: visipedia
+kind: organisation
+name: Visipedia
+scope: global
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+techniques:
+- computer-vision
+- bioacoustics
+hq: us
+scale: global
+status: active
+website: https://github.com/visipedia
+summary: GitHub organisation that publishes the iNaturalist, iNatSounds and iWildCam competition
+  data sets.
+facts:
+- claim: Publishes the iNaturalist competition repository.
+  url: https://github.com/visipedia
+  fetched: '2026-10-30'
+  quote: iNaturalist competition details
+- claim: Caltech says Perona and Belongie conceived Visipedia as a visual encyclopedia, developed
+    by Perona's vision group at Caltech and Belongie's group at Cornell University.
+  url: https://www.eas.caltech.edu/news/pietro-peronas-vision-visipedia-and-its-lasting-impact-on-computer-vision
+  quote: through a lot of mathematical and computational work by Perona's vision group at
+    Caltech and Belongie's group, which had moved to Cornell University
+  fetched: '2026-10-30'
+- claim: Caltech says algorithms from this line of work underpin the Merlin Bird ID app and
+    iNaturalist.
+  url: https://www.eas.caltech.edu/news/pietro-peronas-vision-visipedia-and-its-lasting-impact-on-computer-vision
+  quote: underpin two hugely successful ecological apps used by millions of people
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: california-institute-of-technology
+  url: https://www.eas.caltech.edu/news/pietro-peronas-vision-visipedia-and-its-lasting-impact-on-computer-vision
+  quote: 'Pietro Perona''s Vision: Visipedia and Its Lasting Impact on Computer Vision'
+  fetched: '2026-10-30'
+- type: partners-with
+  to: cornell-university
+  url: https://www.eas.caltech.edu/news/creature-cataloging-contest-for-computers
+  quote: Caltech and Cornell teamed up to create the iNaturalist Challenge , a competition
+    to create the best machine-learning algorithm for identifying the world's plant and animal
+    species. The contest was an outgrowth of the institutions' previous work together on Visipedia
+  fetched: '2026-10-30'
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

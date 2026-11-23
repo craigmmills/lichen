@@ -1,0 +1,46 @@
+id: madargyuruzesi-kozpont
+kind: programme
+name: Madárgyűrűzési Központ
+also_known_as:
+- MME Gyűrűző Központ
+scope: hu
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- hu
+status: active
+summary: Bird Ringing Centre run by MME, hosted since 1976, which archives ringing
+  data; its databank held 8,461,207 records on 31 January 2025, with 312 active ringers
+  in 2024.
+facts:
+- claim: MME has hosted the Bird Ringing Centre since 1976; it organises, digitises
+    and archives incoming ringing data and keeps contact with foreign centres.
+  url: https://mme.hu/a_madargyuruzes
+  fetched: 2026-11-12
+  quote: A Madárgyűrűzési Központnak 1976 óta ad otthont az MME.
+- claim: The Hungarian bird ringing databank held 8,461,207 records on 31 January
+    2025.
+  url: https://mme.hu/sites/default/files/2026-01/Madargyuruzesi_Kozpont_2024._evi_beszamoloja_0.pdf
+  fetched: 2026-11-12
+  quote: Összesen 8 461 207 adatrekordot tartalmaz a Magyar Madárgyűrűzési Adatbank.
+- claim: The databank is managed through the Tringa application.
+  url: https://mme.hu/sites/default/files/2026-01/Madargyuruzesi_Kozpont_2024._evi_beszamoloja_0.pdf
+  fetched: 2026-11-12
+  quote: 'A Madárgyűrűzési Adatbank kezelőfelületének (Tringa alkalmazás: T-ring Application,
+    https://tringa.mme.hu/mme/)'
+- claim: In 2024 there were 312 active ringers.
+  url: https://mme.hu/sites/default/files/2026-01/Madargyuruzesi_Kozpont_2024._evi_beszamoloja_0.pdf
+  fetched: 2026-11-12
+  quote: Az aktív státuszú gyűrűzők száma 202 4-ben 312 fő volt.
+links:
+- type: run-by
+  to: magyar-madartani-es-termeszetvedelmi-egyesulet
+  url: https://mme.hu/a_madargyuruzes
+  fetched: 2026-11-12
+  quote: Karcza Zsolttal, az MME Gyűrűző Központjának vezetőjével beszélgettünk
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

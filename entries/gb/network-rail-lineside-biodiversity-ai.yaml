@@ -1,0 +1,39 @@
+id: network-rail-lineside-biodiversity-ai
+kind: project
+name: Network Rail lineside biodiversity AI
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+summary: Trials using AI to identify trees and other plants from on-train camera photographs
+  of railway lineside vegetation.
+facts:
+- claim: Trials used AI on photographs from on-train cameras.
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: Trials in using artificial intelligence (AI) to identify species of trees
+    and other plants, from photographs taken by on-train cameras
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: "the UK Centre for Ecology & Hydrology (UKCEH) and technology firm Keen AI have been working with Network Rail, to develop innovative solutions to remotely monitor biodiversity"
+  fetched: *id001
+- type: partners-with
+  to: keen-ai
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: and technology firm Keen AI have been working with Network Rail
+  fetched: *id001
+- type: partners-with
+  to: network-rail
+  url: https://www.ceh.ac.uk/ai-holds-key-improving-biodiversity-britains-railway-tracks
+  quote: and technology firm Keen AI have been working with Network Rail
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

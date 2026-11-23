@@ -1,0 +1,83 @@
+id: uit-the-arctic-university-of-norway
+kind: organisation
+name: UiT The Arctic University of Norway
+also_known_as:
+- UiT
+- UiT Norges arktiske universitet
+scope: 'no'
+summary: Tromsø-based university that hosts Visual Intelligence and a Machine Learning research
+  group, and has been a partner in DIMARC and MASSIMAL.
+facts:
+- claim: Named first among Visual Intelligence partners by NR.
+  url: https://nr.no/en/about/research-centres/visual-intelligence/
+  fetched: '2026-11-02'
+  quote: 'Partners: UiT Arctic University of Norway'
+- claim: Named as a DIMARC partner by Akvaplan-niva in August 2020.
+  url: https://akvaplan.niva.no/en/pressrelease/2020-08-11/the-hunt-for-plastic-in-the-arctic-3025597
+  fetched: '2026-11-02'
+  quote: SALT, TerraNor and UiT the Arctic University of Norway
+- claim: Host organisation of Visual Intelligence, with a Machine Learning research group.
+  url: https://www.visual-intelligence.no/about/partners
+  fetched: '2026-11-02'
+  quote: UiT is the host organization of Visual Intelligence
+- claim: Its GBIF publisher record gives a Tromsø address.
+  url: https://api.gbif.org/v1/organization/689b40c4-ff31-4cd0-83a5-a7a828f1cd92
+  fetched: '2026-11-02'
+  quote: Hansine Hansens veg 18, Tromsø
+- claim: The Ocean Data Foundation, REV Ocean and the university signed a partnership agreement,
+    described on HUB Ocean's site.
+  url: https://www.hubocean.earth/press/news/partnership-with-the-arctic-university
+  fetched: '2026-11-02'
+  quote: the Ocean Data Foundation signed a partnership agreement together with REV Ocean
+    and The Arctic University of Tromsø
+- claim: Has a Machine Learning Group, where Robert Jenssen is professor.
+  url: https://en.uit.no/ansatte/person?p_dimension_id=156422&p_document_id=41060
+  fetched: '2026-11-02'
+  quote: UiT Machine Learning Group
+- claim: Was a partner in MASSIMAL, which mapped coastal habitats with hyperspectral imaging
+    and machine learning.
+  url: https://en.uit.no/project/massimal
+  fetched: '2026-11-02'
+  quote: The project was a collaboration between UiT the Arctic University of Norway, the
+    Norwegian Institute for Water Research
+- claim: A 2023 advert for a postdoctoral post in the UiT Machine Learning Group covered developing
+    deep learning methods for images related to marine sciences.
+  url: https://stilling.forskning.no/job-ads-jobads-postdoc/postdoctoral-research-fellow-in-deep-learning-for-image-analysis-and-marine-sciences/2201458
+  fetched: &id001 2026-11-02
+  quote: providing new solutions for extracting important information from images in general,
+    and from images related to the marine sciences in particular.
+- claim: An OpenAlex query for deep learning works with an author at the university returns
+    a 2022 paper on age prediction from Greenland halibut otolith images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I78037679,concepts.id:C108583219,primary_topic.field.id:23|11,from_publication_date:2021-01-01&per-page=25&sort=cited_by_count:desc&select=id,title,publication_year,doi
+  fetched: *id001
+  quote: Age prediction by deep learning applied to Greenland halibut (Reinhardtius hippoglossoides)
+    otolith images
+- claim: The GBIF publisher record gives its address in Tromsø, Norway.
+  url: https://api.gbif.org/v1/organization/689b40c4-ff31-4cd0-83a5-a7a828f1cd92
+  fetched: *id001
+  quote: '"city":"Tromsø","country":"NO"'
+links: []
+found_by:
+- checklist:3
+- link-from:hub-ocean
+- link-from:visual-intelligence
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- uses-ai
+- builds-ai
+- supplies-data
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- 'no'

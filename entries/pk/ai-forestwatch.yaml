@@ -1,0 +1,35 @@
+id: ai-forestwatch
+kind: model
+name: AI-ForestWatch
+scope: pk
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: unknown
+runner: unknown
+summary: A semantic segmentation framework for forest estimation and change detection from multispectral
+  imagery, recorded in OpenAlex as the subject of a paper and built by Annus Zulfiqar.
+facts:
+- claim: OpenAlex records a paper presenting AI-ForestWatch, a semantic segmentation framework for forest
+    estimation and change detection from multispectral imagery.
+  url: https://api.openalex.org/works/W3172975293?select=id,title,abstract_inverted_index,authorships
+  fetched: 2026-11-03
+  quote: 'AI-ForestWatch: semantic segmentation based end-to-end framework for forest estimation and change
+    detection using multi-spectral remote sensing imagery'
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: annus-zulfiqar
+  url: https://api.openalex.org/works/W3172975293?select=id,title,abstract_inverted_index,authorships
+  fetched: 2026-11-03
+  quote: '"raw_author_name":"Annus Zulfiqar"'
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

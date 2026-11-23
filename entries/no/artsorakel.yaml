@@ -1,0 +1,80 @@
+id: artsorakel
+kind: model
+name: Artsorakel
+also_known_as:
+- Artsoraklet
+scope: 'no'
+summary: An AI tool run by the Norwegian Biodiversity Information Centre that tries to identify wild species
+  from images, free and without an account, and builds on the Artsobservasjoner image archive.
+facts:
+- claim: The listing says it tries to identify species from images with AI, free and with no account.
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Artsdatabankens Artsorakel prøver å artsbestemme bilder ved hjelp av kunstig intelligens. Uten
+    konto og helt gratis.
+- claim: It knows only wild species, and answers at species level and for some subspecies.
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Den kjenner altså kun viltlevende arter
+- claim: The App Store listing says Artsorakel tries to identify species from images using AI, free and
+    with no account.
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Artsdatabankens Artsorakel prøver å artsbestemme bilder ved hjelp av kunstig intelligens.
+- claim: The listing says the app improves with images from Artsobservasjoner.no.
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Appen er i forbedres kontinuerlig ved hjelp av bilder fra Artsobservasjoner.no
+links:
+- type: run-by
+  to: norwegian-biodiversity-information-centre
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Artsdatabankens Artsorakel
+- type: built-by
+  to: naturalis-biodiversity-center
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: gjenkjenningsmodellen er utviklet i samarbeid med Naturalis Biodiversity Center
+- type: builds-on
+  to: artsobservasjoner
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: forbedres kontinuerlig ved hjelp av bilder fra Artsobservasjoner.no
+- type: built-by
+  to: norwegian-biodiversity-information-centre
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: 'Developer
+
+    NBIC Artsdatabanken'
+- type: run-by
+  to: norwegian-biodiversity-information-centre
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Artsdatabankens Artsorakel prøver å artsbestemme bilder ved hjelp av kunstig intelligens.
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: gjenkjenningsmodellen er utviklet i samarbeid med Naturalis Biodiversity Center.
+- type: builds-on
+  to: artsobservasjoner
+  url: https://apps.apple.com/no/app/artsorakel/id1522271415
+  fetched: '2026-11-02'
+  quote: Appen er i forbedres kontinuerlig ved hjelp av bilder fra Artsobservasjoner.no
+found_by:
+- checklist:2
+- link-from:norwegian-biodiversity-information-centre
+added_by: agent
+checked: '2026-11-02'
+ai_label: ai
+status: active
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+countries:
+- 'no'

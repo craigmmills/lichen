@@ -1,0 +1,98 @@
+id: openbiomaps
+kind: programme
+name: OpenBioMaps
+also_known_as:
+- OBM
+scope: hu
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+countries:
+- hu
+- ro
+- kg
+status: active
+runner: unknown
+website: https://openbiomaps.org
+summary: An open-source biodiversity data management platform founded in Hungary in 2011, reported by
+  Interreg Europe in 2019 to be used by six national parks and about 20 research projects.
+facts:
+- claim: EOSC describes it as an open-source, self-hosted platform for national parks and research laboratories
+    to collect and manage biodiversity monitoring data.
+  url: https://eosc.eu/use-case/openbiomaps
+  fetched: 2026-11-08
+  quote: OpenBioMaps is an opensource, self-hosted biological data management platform developed for national
+    parks and research laboratories to collect and manage biodiversity monitoring data.
+- claim: Listed by the GBIF API among publishing organisations registered in Hungary.
+  url: https://api.gbif.org/v1/organization?country=HU&limit=100
+  fetched: 2026-11-08
+  quote: OpenBioMaps
+- claim: Describes itself as an open-source data management system co-developed by conservation professionals
+    and researchers.
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: OpenBioMaps is an open-source data management system co-developed by conservation professionals
+    and researchers.
+- claim: Provides a PostgreSQL-based database that works with tools such as QGIS or R.
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: The system provides a PostgreSQL -based database that integrates easily with other tools
+- claim: Offers a mobile app and servers that host databases free of charge.
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: Servers to freely host databases
+- claim: Lists contributors from 2015 to 2026, including the Hungarian agriculture and living environment
+    ministry, national park directorates, universities, WWF Hungary and Milvus Group in Romania.
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: Openbiomaps Contributors 2015 - 2026 Ministry of Agriculture / Ministry for the Living Environment,
+    Hungary
+- claim: An open-source data management system co-developed by conservation professionals and researchers.
+  url: https://openbiomaps.org
+  fetched: 2026-11-08
+  quote: OpenBioMaps is an open-source data management system co-developed by conservation professionals
+    and researchers.
+- claim: Its GBIF publisher record says its service nodes run in Hungary, Romania and Kyrgyzstan and hold
+    monitoring data.
+  url: https://api.gbif.org/v1/organization/4c932cdb-5ac2-4898-a89c-94e69e7999d7
+  fetched: 2026-11-08
+  quote: OpenBioMaps service nodes are currently operational in Hungary, Romania and Kyrgyzstan and contain
+    a variety of monitoring data from around the world.
+- claim: Its GBIF publisher record describes it as a data management platform for conservationists and
+    biodiversity researchers.
+  url: https://api.gbif.org/v1/organization/4c932cdb-5ac2-4898-a89c-94e69e7999d7
+  fetched: 2026-11-08
+  quote: OpenBioMaps is a data management platform for conservationists and biodiversity researchers.
+links:
+- type: partners-with
+  to: eotvos-lorand-university
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: Eötvös Lóránd University, Hungary
+- type: partners-with
+  to: university-of-debrecen
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: University of Debrecen, Hungary
+- type: partners-with
+  to: wwf-magyarorszag
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: World Wildlife Fund for Nature (WWF) Hungary, Hungary
+- type: partners-with
+  to: hortobagyi-nemzeti-park-igazgatosag
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: Hortobágy National Park Directorate, Hungary
+- type: partners-with
+  to: kiskunsag-national-park-directorate
+  url: https://openbiomaps.org/
+  fetched: 2026-11-08
+  quote: Kiskunság National Park Directorate, Hungary
+found_by:
+- checklist:2
+- link-from:queue-hu
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

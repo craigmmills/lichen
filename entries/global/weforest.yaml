@@ -1,0 +1,69 @@
+id: weforest
+kind: organisation
+name: WeForest
+scope: global
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: be
+scale: global
+status: active
+website: https://www.weforest.org
+summary: Non-profit forest restoration organisation with its head office in Belgium. The Airbus
+  Foundation says it has provided imagery and funding since 2025 to assess reforestation in
+  Ethiopia through machine learning.
+countries:
+- be
+- et
+- zm
+facts:
+- claim: Describes itself as a non-profit organisation.
+  url: https://www.weforest.org/
+  quote: WeForest is a non-profit organisation
+  fetched: 2026-10-30
+- claim: Its site gives its Belgian head office.
+  url: https://www.weforest.org/
+  quote: 'HQ (BE): WeForest asbl/vzw'
+  fetched: 2026-10-30
+- claim: IllustrationX says it has enabled more than 1.9 million trees in Zambia and the Ethiopian
+    Rift Valley with WeForest and 1% For the Planet.
+  url: https://www.illustrationx.com/news/5774/10_million_trees
+  quote: In partnership with WeForest and 1% For the Planet we're thrilled to share that together,
+    we've enabled the growth of more than 1.9 million trees in Zambia and the Ethiopian Rift
+    Valley!
+  fetched: '2026-10-30'
+- claim: GIS Cloud describes its mapping tool as used in WeForest's restoration work in Zambia.
+  url: https://www.giscloud.com/?p=13591
+  quote: WeForest – Improving the Forest Restoration Process in Zambia with GIS Cloud
+  fetched: '2026-10-30'
+links:
+- type: funded-by
+  to: airbus-foundation
+  url: https://www.foundation.airbus.com/en/our-partners
+  quote: We have partnered with WeForest since 2025, providing satellite imagery and funding
+    to assess the impact of reforestation efforts in Ethiopia through machine learning.
+  fetched: 2026-10-30
+- type: partners-with
+  to: restor
+  url: https://www.weforest.org/about-us/our-network/
+  fetched: 2026-10-31
+  quote: Restor is the largest network of restoration and conservation sites across the globe.
+- type: partners-with
+  to: nationale-postcode-loterij
+  url: https://www.weforest.org/partner-with-us/case-studies/
+  fetched: 2026-10-31
+  quote: 'Growing Impact Through Trust: WeForest and the Dutch Postcode Lottery'
+- type: partners-with
+  to: oceanium-de-dakar
+  url: https://www.weforest.org/annual-report-2023/
+  fetched: 2026-10-31
+  quote: Eclosio and Oceanium, partners in our mangroves projects
+found_by:
+- link-from:airbus-foundation
+added_by: agent
+checked: 2026-10-30

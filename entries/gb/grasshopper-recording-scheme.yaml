@@ -1,0 +1,35 @@
+id: grasshopper-recording-scheme
+kind: programme
+name: Grasshoppers and Related Insects Recording Scheme of Britain and Ireland
+also_known_as:
+- Grasshopper Recording Scheme
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+runner: unknown
+website: http://www.orthoptera.org.uk
+summary: National recording scheme for grasshoppers, crickets and related insects,
+  started in 1968.
+facts:
+- claim: Covers grasshoppers, crickets and related species.
+  url: http://www.orthoptera.org.uk
+  fetched: '2026-10-30'
+  quote: 'The recording scheme includes these and also the related species: cockroaches,
+    earwigs, stick-insects and mantids.'
+- claim: Publishes the dataset "Orthoptera and Allied Insects of the British Isles
+    data from iRecord" on GBIF.
+  url: https://api.gbif.org/v1/organization/d7fdac0a-fb87-46a4-91bc-633addb541a9/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Orthoptera and Allied Insects of the British Isles data from iRecord
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/d7fdac0a-fb87-46a4-91bc-633addb541a9/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

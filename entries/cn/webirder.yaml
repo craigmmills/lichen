@@ -1,0 +1,29 @@
+id: webirder
+kind: programme
+name: WeBirder
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Weixin mini programme that identifies birds through the camera, from a database
+  of 1,500 species.
+facts:
+- claim: Identifies a bird from the camera, drawing on information on 1,500 species.
+  url: https://www.tencent.com/en-us/articles/2201337.html
+  fetched: '2026-10-31'
+  quote: WeBirder quickly identifies the bird from its comprehensive database that
+    stores information on 1,500 bird species
+links:
+- type: run-by
+  to: tencent-charity-foundation
+  url: https://www.tencent.com/en-us/articles/2201337.html
+  fetched: '2026-10-31'
+  quote: WeBirder is developed by Tencent Charity Foundation and Chinese National
+    Geography Magazine
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-31'

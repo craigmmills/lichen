@@ -1,0 +1,27 @@
+id: esa-cci-land-cover
+kind: dataset
+name: ESA CCI Land Cover
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://climate.esa.int/en/projects/land-cover/
+summary: European Space Agency Climate Change Initiative project producing global land cover maps, with a team that includes UCLouvain and Brockmann Consult.
+facts:
+- claim: Generation of the land cover essential climate variable.
+  url: https://climate.esa.int/en/projects/land-cover/
+  fetched: '2026-10-30'
+  quote: the Land Cover project is concerned with the generation of the land cover ECV
+links:
+- type: run-by
+  to: european-space-agency
+  url: https://climate.esa.int/en/projects/land-cover/
+  fetched: '2026-10-30'
+  quote: As part of the ESA Climate Change Initiative (CCI)
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

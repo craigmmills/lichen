@@ -1,0 +1,54 @@
+id: sistema-integral-de-informacion-para-la-gestion-de-fuego-guatemala
+kind: programme
+name: Sistema Integral de Información para la Gestión de Fuego en Guatemala
+scope: gt
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Fire information platform, built and run by INAB, that La Hora reports records forest fires and
+  area burnt, monitors heat points by satellite, helps coordinate field response and is open to public
+  consultation.
+facts:
+- claim: La Hora reports that the platform records forest fires and area burnt during the fire season
+    and is part of INAB.
+  url: https://lahora.gt/?p=968423
+  fetched: 2026-11-08
+  quote: Sistema Integral de Información para la Gestión de Fuego en Guatemala del Instituto Nacional
+    de Bosques (Inab)
+- claim: The system monitors heat points with satellite tools and helps coordinate field response.
+  url: https://lahora.gt/?p=968423
+  fetched: 2026-11-08
+  quote: El sistema permite monitorear puntos de calor mediante herramientas satelitales y coordinar acciones
+    de respuesta en campo.
+- claim: Members of the public can consult its fire information as well as response agencies.
+  url: https://lahora.gt/?p=968423
+  fetched: 2026-11-08
+  quote: la plataforma también permite a los ciudadanos consultar información pública sobre incendios
+    forestales.
+links:
+- type: built-by
+  to: instituto-nacional-de-bosques-guatemala
+  url: https://lahora.gt/?p=968423
+  fetched: &id001 2026-11-08
+  quote: a través de la plataforma interactiva desarrollada por el Inab, en coordinación con el Consejo
+    Nacional de Áreas Protegidas (Conap) y la Coordinadora Nacional para la Reducción de Desastres (Conred).
+- type: partners-with
+  to: consejo-nacional-de-areas-protegidas-guatemala
+  url: https://lahora.gt/?p=968423
+  fetched: 2026-11-08
+  quote: a través de la plataforma interactiva desarrollada por el Inab, en coordinación con el Consejo
+    Nacional de Áreas Protegidas (Conap) y la Coordinadora Nacional para la Reducción de Desastres (Conred).
+- type: run-by
+  to: instituto-nacional-de-bosques-guatemala
+  url: https://lahora.gt/?p=968423
+  fetched: *id001
+  quote: Sistema Integral de Información para la Gestión de Fuego en Guatemala del Instituto Nacional
+    de Bosques (Inab)
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

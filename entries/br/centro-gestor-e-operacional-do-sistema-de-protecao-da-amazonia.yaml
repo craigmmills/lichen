@@ -1,0 +1,62 @@
+id: centro-gestor-e-operacional-do-sistema-de-protecao-da-amazonia
+kind: organisation
+name: Centro Gestor e Operacional do Sistema de Proteção da Amazônia
+also_known_as:
+- Censipam
+scope: br
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: br
+scale: national
+status: active
+website: https://www.gov.br/censipam/pt-br
+summary: Federal body providing environmental information for monitoring the Legal Amazon,
+  including the SipamSAR radar deforestation alert system.
+facts:
+- claim: Its 2024-2027 plan sets the aim of providing environmental information to monitor
+    the Legal Amazon.
+  url: https://www.gov.br/censipam/pt-br/acesso-a-informacao/auditorias/PLANO_DE_ACAO___PEI_24_27___VERSAO_FINAL_PARA_PUBLICACAO1.pdf/@@display-file/file
+  fetched: '2026-10-30'
+  quote: Prover informações ambientais para o monitoramento da Amazônia Legal.
+- claim: Subordinate to the Ministry of Defence.
+  url: https://www.gov.br/censipam/pt-br/atuacao
+  fetched: '2026-10-30'
+  quote: subordinado ao Ministério da Defesa
+- claim: Developed a deforestation monitoring system for the Amazon called SipamSAR.
+  url: https://www.gov.br/censipam/pt-br/atuacao/monitoramento-do-desmatamento
+  fetched: '2026-10-30'
+  quote: O Censipam desenvolveu um sistema de monitoramento do desmatamento na Amazônia chamado
+    de SipamSAR
+- claim: Its own site gives the address of its general coordination centre in Brasília.
+  url: https://www.gov.br/censipam/pt-br/canais_atendimento/enderecos
+  quote: Centro de Coordenação-Geral (CCG) Setor Policial (SPO) - Área 5 - Quadra 3 - Bloco
+    K 70610-200 – Brasília – DF
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: sipamsar
+  url: https://www.gov.br/censipam/pt-br/acesso-a-informacao/auditorias/PLANO_DE_ACAO___PEI_24_27___VERSAO_FINAL_PARA_PUBLICACAO1.pdf/@@display-file/file
+  fetched: '2026-10-30'
+  quote: Aprimorar o Sistema Integrado de Alerta de Desmatamento (SIPAMSar)
+- type: partners-with
+  to: ia-fogobio
+  url: https://revistatopicos.com.br/generate/pdf_zenodo/pub_785877084.pdf
+  fetched: '2026-10-30'
+  quote: em parceria com o Centro Gestor e Operacional do Sistema de Proteção da Amazônia
+- type: runs
+  to: sipam-mar
+  url: https://www.gov.br/censipam/pt-br/central-de-conteudos/noticias/censipam-testa-primeiro-sistema-totalmente-nacional-para-deteccao-de-manchas-de-oleo-no-mar
+  fetched: '2026-10-30'
+  quote: capacitar servidores no uso do SIPAM Mar
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

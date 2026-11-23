@@ -1,0 +1,42 @@
+id: mangrove-cover-dataset-of-pakistan-1990-2020
+kind: dataset
+name: Mangrove Cover Dataset of Pakistan on 5-Year Interval (1990-2020)
+scope: pk
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: active
+runner: unknown
+website: https://zenodo.org/records/10732690
+summary: A dataset covering all five mangrove areas in Pakistan at five-year intervals from
+  1990 to 2020, built by Hammad Gilani using a random forest classifier on Landsat images
+  in Google Earth Engine.
+facts:
+- claim: Covers all five mangrove areas in Pakistan from 1990 to 2020 at five-year intervals.
+  url: https://zenodo.org/records/10732690
+  fetched: 2026-11-03
+  quote: The first comprehensive mangrove cover dataset from 1990 to 2020, at five-year intervals,
+    across all five mangrove areas in Pakistan
+- claim: Made with a random forest classifier applied to Landsat images in Google Earth Engine.
+  url: https://zenodo.org/records/10732690
+  fetched: 2026-11-03
+  quote: Random Forest (RF) classifier was applied on Landsat 30 m spatial resolution satellite
+    images
+  ai_type: ml-supervised
+links:
+- type: uses
+  to: google-earth-engine
+  url: https://zenodo.org/records/10732690
+  fetched: 2026-11-03
+  quote: Using the Google Earth Engine (GEE) geospatial cloud computing platform
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

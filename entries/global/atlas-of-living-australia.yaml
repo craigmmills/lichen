@@ -1,0 +1,31 @@
+id: atlas-of-living-australia
+kind: dataset
+name: Atlas of Living Australia
+also_known_as:
+- ALA
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- au
+status: active
+website: https://www.ala.org.au
+summary: Australia's open biodiversity data infrastructure, hosted by CSIRO and the country's GBIF node.
+facts:
+- claim: Hosted by CSIRO; Australian node of GBIF.
+  url: https://www.ala.org.au/about-ala/
+  fetched: '2026-10-30'
+  quote: The ALA is made possible by contributions from its partners, is supported by NCRIS , is hosted by CSIRO , and is the Australian node of GBIF .
+links:
+- type: run-by
+  to: csiro
+  url: https://www.ala.org.au/about-ala/
+  fetched: '2026-10-30'
+  quote: is hosted by the Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

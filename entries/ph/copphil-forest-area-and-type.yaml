@@ -1,0 +1,62 @@
+id: copphil-forest-area-and-type
+kind: dataset
+name: CopPhil Forest Area and Type
+scope: ph
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ph
+status: active
+summary: A dataset mapping annual extent of mangrove, open and closed forest across the Philippines at
+  10-metre resolution, produced with machine learning from Sentinel-1 and Sentinel-2 imagery and built
+  by CopPhil.
+facts:
+- claim: Maps the annual extent of mangrove, open and closed forest across the Philippines.
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-08
+  quote: 'The Forest Area and Type product maps the annual extent of three forest classes across the Philippines:
+    Mangrove Forest , Open Forest , and Closed Forest .'
+- claim: Produced with a machine learning approach from Sentinel-1 and Sentinel-2 imagery at 10-metre
+    resolution.
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-08
+  quote: Generated from Sentinel-1 and Sentinel-2 satellite imagery at a resolution of 10 metres and produced
+    using a machine learning approach
+links:
+- type: built-by
+  to: copphil
+  url: https://copphil.philsa.gov.ph/about/
+  fetched: 2026-11-08
+  quote: the CopPhil Centre has co-developed Earth Observation-based services and products together with
+    Philippine stakeholders
+- type: partners-with
+  to: philippine-space-agency
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-08
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+- type: partners-with
+  to: national-mapping-and-resource-information-authority
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-08
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+- type: partners-with
+  to: forest-management-bureau
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-08
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+- type: partners-with
+  to: mindanao-development-authority
+  url: https://copphil.philsa.gov.ph/forest-mapping-service/
+  fetched: 2026-11-08
+  quote: Developed in collaboration with PhilSA , NAMRIA , the Forest Management Bureau (FMB), and the
+    Mindanao Development Authority (MinDA)
+found_by:
+- link-from:copphil
+added_by: agent
+checked: 2026-11-08

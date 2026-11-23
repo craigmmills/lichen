@@ -1,0 +1,40 @@
+id: bismal
+kind: dataset
+name: Biological Information System for Marine Life
+also_known_as:
+- BISMaL
+scope: jp
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- jp
+status: active
+summary: Web-based biodiversity information system run by JAMSTEC, serving as the system of J-OBIS and
+  the Japan node of OBIS.
+facts:
+- claim: A web-based data system to accumulate and publish biodiversity information.
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: 2026-11-02
+  quote: BISMaL is a web-based data system to accumulate and publish biodiversity information
+- claim: Also works as the Japan node of OBIS.
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: 2026-11-02
+  quote: the Japan node of the Ocean Biodiversity Information System (OBIS)
+- claim: Also works as the system of J-OBIS and the Japan node of OBIS.
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: '2026-11-02'
+  quote: it also works as a system of the Japan Ocean Biodiversity Information System Center (J-OBIS)
+    and the Japan node of the Ocean Biodiversity Information System (OBIS)
+links:
+- type: run-by
+  to: japan-agency-for-marine-earth-science-and-technology
+  url: https://www.jamstec.go.jp/sdgs/e/case/023.html
+  fetched: 2026-11-02
+  quote: The Data and information Technology Development Group(DiG) operates The Biological Information
+    System for Marine Life (BISMaL)
+found_by:
+- checklist:2
+- link-from:japan-agency-for-marine-earth-science-and-technology
+added_by: agent
+checked: 2026-11-02

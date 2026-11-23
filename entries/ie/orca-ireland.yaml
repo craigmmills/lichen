@@ -1,0 +1,94 @@
+id: orca-ireland
+kind: organisation
+name: Ocean Research and Conservation Association Ireland
+also_known_as:
+- ORCA Ireland
+scope: ie
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+hq: ie
+countries:
+- ie
+scale: national
+status: active
+summary: Cork-based non-profit running Smart Whale Sounds, whose website describes an AI-enabled smart
+  buoy and use of deep learning models to identify cetacean species from vocalisations.
+facts:
+- claim: In March 2021, the Irish Examiner described it as a Cork-based non-profit undertaking the Smart
+    Whale Sounds project.
+  url: https://www.irishexaminer.com/news/munster/arid-40246895.html
+  fetched: 2026-11-09
+  quote: The Smart Whale Sounds project is being undertaken by Ocean Research and Conservation Association
+    (ORCA) Ireland, a non-profit organisation based in Cork
+- claim: According to the Irish Examiner, a voluntary organisation that aims to improve knowledge of marine
+    megafauna in Irish waters through conservation, research and education.
+  url: https://www.irishexaminer.com/news/munster/arid-40246895.html
+  fetched: 2026-11-09
+  quote: ORCAIreland is a voluntary organisation that aims to enhance scientific knowledge and understanding
+    of marine megafauna in Irish waters through conservation, research and education.
+- claim: In October 2023, Afloat reported that its executive director told the OceanTech Summit the project
+    was using AI and machine learning to detect animals and call types in the soundscape.
+  url: https://afloat.ie/marine-environment/marine-wildlife/item/60817-oceantech-summit-hears-update-on-project-using-data-buoy-and-ai-to-detect-marine-wildlife
+  fetched: 2026-11-09
+  quote: explained to the summit how the project is using AI and machine learning algorithms “to detect
+    different animals within the soundscape and to pick out different call types
+- claim: Describes itself as a technology-focused environmental NGO committed to monitoring and minimising
+    disturbance to marine megafauna.
+  url: https://orcaireland.org/
+  fetched: 2026-11-09
+  quote: is Ireland's leading technology focused eNGO, committed to
+- claim: Runs long-term monitoring of marine megafauna across Ireland through boat-based and aerial surveys
+    and cetacean bioacoustic monitoring.
+  url: https://orcaireland.org/
+  fetched: 2026-11-09
+  quote: This involves population monitoring through boat-based, aerial surveys, and cetacean bio-acoustic
+    monitoring.
+- claim: Lists its office at the Rubicon Innovation Centre, Bishopstown, Cork; the page calls the institution
+    "Munster Technology University (MTU)".
+  url: https://orcaireland.org/
+  fetched: 2026-11-09
+  quote: Rubicon Innovation Centre,
+- claim: Says it developed a static acoustic monitoring smart buoy that uses AI to detect cetacean calls
+    in near real time.
+  url: http://www.orcaireland.org/smartwhalesounds
+  fetched: 2026-11-09
+  quote: This long-term near real-time automated cetacean acoustic detector, is driven by Artificial Intelligence
+    (AI).
+- claim: Uses deep learning models to automatically detect and identify cetacean species from their vocalisations.
+  url: http://www.orcaireland.org/smartwhalesounds
+  fetched: 2026-11-09
+  quote: to use sophisticated
+  ai_type: deep-learning
+links:
+- type: runs
+  to: smart-whale-sounds
+  url: https://www.irishexaminer.com/news/munster/arid-40246895.html
+  fetched: 2026-11-09
+  quote: The Smart Whale Sounds project is being undertaken by Ocean Research and Conservation Association
+    (ORCA) Ireland
+- type: partners-with
+  to: rainforest-connection
+  url: http://www.orcaireland.org/smartwhalesounds
+  fetched: 2026-11-09
+  quote: In partnership with ORCAIreland and supported by Huawei,
+- type: uses
+  to: arbimon
+  url: http://www.orcaireland.org/smartwhalesounds
+  fetched: 2026-11-09
+  quote: Recordings were transferred to Huawei's Cloud Server in real-time, where they are automatically
+    uploaded to ARBIMON for identification.
+found_by:
+- checklist:4
+- link-from:nature-guardian
+added_by: agent
+checked: 2026-11-09
+ai_types:
+- deep-learning

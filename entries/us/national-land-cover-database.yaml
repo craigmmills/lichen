@@ -1,0 +1,65 @@
+id: national-land-cover-database
+kind: dataset
+name: National Land Cover Database
+also_known_as:
+- NLCD
+- Annual NLCD
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.mrlc.gov
+summary: Public domain national land cover dataset for the US, published through the
+  MRLC consortium, with a tree canopy cover layer from the USDA Forest Service.
+facts:
+- claim: Provides nationally complete, public domain land cover information.
+  url: https://www.mrlc.gov/about
+  fetched: '2026-10-30'
+  quote: The primary objective of the MRLC NLCD is to provide the Nation with nationally
+    complete, current, consistent and public domain information on the Nation's land
+    cover.
+- claim: USGS uses geospatial deep learning with NLCD and LCMAP methods.
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: together with modern innovations in geospatial deep learning technologies
+- claim: USGS combined NLCD and LCMAP methods with geospatial deep learning technologies.
+  url: https://catalog.data.gov/dataset/annual-national-land-cover-database-nlcd-conterminous-united-states-collection-1-2-land-co
+  quote: together with modern innovations in geospatial deep learning technologies
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: multi-resolution-land-characteristics-consortium
+  url: https://www.mrlc.gov/about
+  fetched: '2026-10-30'
+  quote: "The creation of this consortium has resulted in the mapping of the lower 48 United States, Hawaii, Alaska and Puerto Rico into a comprehensive land cover product termed, the National Land Cover Database (NLCD)"
+- type: run-by
+  to: united-states-geological-survey
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: The U.S. Geological Survey (USGS)’s Land Cover program has leveraged methodologies
+    from legacy land cover projects
+- type: partners-with
+  to: us-forest-service
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: The USDA Forest Service Geospatial Office (GO) and Research and Development
+    - Forest Inventory and Analysis (FIA) builds and maintains the National Tree Canopy
+    Cover (TCC) dataset
+- type: run-by
+  to: united-states-geological-survey
+  url: https://catalog.data.gov/dataset/annual-national-land-cover-database-nlcd-conterminous-united-states-collection-1-2-land-co
+  quote: Published by U.S. Geological Survey
+  fetched: '2026-10-30'
+- type: builds-on
+  to: landsat
+  url: https://catalog.data.gov/dataset/annual-national-land-cover-database-nlcd-conterminous-united-states-collection-1-2-land-co
+  quote: harness the remotely sensed Landsat data record
+  fetched: '2026-10-30'
+found_by:
+- checklist:2
+- link-from:united-states-geological-survey
+added_by: agent
+checked: '2026-10-30'

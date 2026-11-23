@@ -1,0 +1,51 @@
+id: newtcam
+kind: project
+name: NewtCam
+scope: lu
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+scale: global
+status: active
+summary: A newt monitoring device built by Xavier Mestdagh, prototyped from 2016 at LIST,
+  where AI image processing distinguished newt species at test sites in Luxembourg and southern
+  France, with LIST and NHBS now developing it for market.
+facts:
+- claim: The Wildlife Society reports that Xavier Mestdagh and colleagues at LIST began developing
+    the prototype in 2016.
+  url: https://wildlife.org/wild-cam-underwater-newtcam-identifies-species-using-ai/
+  fetched: 2026-11-12
+  quote: In 2016, Mestdagh and his colleagues started to develop a new prototype system.
+- claim: Follow-up image processing with AI software distinguished the newt species at the
+    test sites in Luxembourg and southern France.
+  url: https://wildlife.org/wild-cam-underwater-newtcam-identifies-species-using-ai/
+  fetched: 2026-11-12
+  quote: Follow-up image processing with artificial intelligence software in the lab then
+    differentiated between the different species of newts found in the areas where it was
+    tested in Luxembourg and at a site in southern France.
+- claim: Early users have validated it in the US, Brazil, Hong Kong and elsewhere in Europe.
+  url: https://wildlife.org/wild-cam-underwater-newtcam-identifies-species-using-ai/
+  fetched: 2026-11-12
+  quote: Early users have already validated the NewtCam in places as varied as the U.S., Brazil,
+    Hong Kong and elsewhere in Europe.
+- claim: LIST researchers are developing the device and software further with the Natural
+    History Book Service to put them on the market.
+  url: https://wildlife.org/wild-cam-underwater-newtcam-identifies-species-using-ai/
+  fetched: 2026-11-12
+  quote: In collaboration with the Natural History Book Service, the researchers are further
+    developing the device and the related software to place on the market for use by other
+    researchers
+links:
+- type: partners-with
+  to: nhbs
+  url: https://wildlife.org/wild-cam-underwater-newtcam-identifies-species-using-ai/
+  fetched: 2026-11-12
+  quote: In collaboration with the Natural History Book Service, the researchers are further
+    developing the device and the related software to place on the market for use by other
+    researchers
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

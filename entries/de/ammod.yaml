@@ -1,0 +1,53 @@
+id: ammod
+kind: project
+name: AMMOD
+ai_label: ai
+realms:
+- land
+status: unknown
+countries:
+- de
+summary: German project described by Microsoft as a kind of weather station for biodiversity.
+  The project's own page could not be read.
+facts:
+- claim: Microsoft describes AMMOD as a kind of weather station for species diversity.
+  url: https://news.microsoft.com/de-de/mit-shazam4nature-der-natur-auf-der-spur/
+  quote: wirkt bereits bei AMMOD mit, einer Art ‚Wetterstation für die Artenvielfalt‘
+  fetched: '2026-10-31'
+- claim: A network of automated stations for flora and fauna, modelled on weather
+    stations.
+  url: https://www.fkie.fraunhofer.de/en/departments/sdf/ammod.html
+  fetched: '2026-10-31'
+  quote: a network of automated stations for monitoring flora and fauna will be built
+    up. The network will be modelled on Germany's automated weather stations.
+runner: unknown
+found_by:
+- checklist:7
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+- bioacoustics
+- edna-genomics
+also_known_as:
+- Automated Multisensor Stations for Monitoring of BioDiversity
+links:
+- type: run-by
+  to: leibniz-institute-for-the-analysis-of-biodiversity-change
+  url: https://www.fkie.fraunhofer.de/en/departments/sdf/ammod.html
+  fetched: '2026-10-31'
+  quote: Through AMMOD, 17 universities and institutions, led by the Museum König
+    Bonn, in collaboration with Fraunhofer FKIE
+- type: partners-with
+  to: fraunhofer-fkie
+  url: https://www.fkie.fraunhofer.de/en/departments/sdf/ammod.html
+  fetched: '2026-10-31'
+  quote: Through AMMOD, 17 universities and institutions, led by the Museum König
+    Bonn, in collaboration with Fraunhofer FKIE
+- type: partners-with
+  to: federal-ministry-of-research-technology-and-space
+  url: https://www.fkie.fraunhofer.de/en/departments/sdf/ammod.html
+  fetched: '2026-10-31'
+  quote: The mission of the BMBF-supported AMMOD project

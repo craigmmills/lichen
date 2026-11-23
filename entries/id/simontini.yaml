@@ -1,0 +1,57 @@
+id: simontini
+kind: dataset
+name: Simontini
+also_known_as:
+- Sistem Informasi Tutupan dan Izin di Indonesia
+- Simotini
+- Indonesia Land Cover and License Information System
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- id
+status: active
+website: https://simontini.id/
+summary: Public information system on land cover and permits in Indonesia, with maps
+  and deforestation data. GoodStats reports that the 2025 Auriga deforestation figure
+  came from analysis on this platform. No page read states who operates it.
+facts:
+- claim: Its site calls itself an information system for land cover and permits in
+    Indonesia.
+  url: https://simontini.id/
+  fetched: '2026-10-31'
+  quote: SISTEM INFORMASI TUTUPAN DAN IZIN DI INDONESIA
+- claim: Its site gives the 2024 deforestation figure.
+  url: https://simontini.id/
+  fetched: '2026-10-31'
+  quote: Deforestasi Indonesia pada 2024 teridentifikasi seluas 261.575 hektare
+- claim: Holds Auriga's deforestation maps and analyses.
+  url: https://auriga.or.id/press_release/detail/65/status-deforestasi-indonesia-2025
+  fetched: '2026-10-31'
+  quote: its deforestation maps and analyses are made available through the publicly
+    accessible Simontini
+- claim: Its data is open to the public under a Creative Commons licence.
+  url: https://simontini.id/id/download
+  fetched: '2026-10-31'
+  quote: Data dalam Simontini bersifat terbuka dan dapat diakses oleh publik sesuai
+    lisensi Creative Commons CC-CY-SA
+found_by:
+- checklist:2
+- queue:id
+- link-from:trase
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: run-by
+  to: auriga-nusantara
+  url: https://auriga.or.id/press_release/detail/65/status-deforestasi-indonesia-2025
+  fetched: '2026-10-31'
+  quote: "its deforestation maps and analyses are made available through the publicly accessible Simontini"
+- type: run-by
+  to: auriga-nusantara
+  url: https://simontini.id/id/download
+  fetched: '2026-10-31'
+  quote: Auriga Nusantara. 2026. Status Deforestasi Indonesia 2025

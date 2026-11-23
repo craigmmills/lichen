@@ -1,0 +1,42 @@
+id: distance-estimation-toolbox
+kind: project
+name: Distance Estimation Toolbox
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://timm.haucke.xyz/publications/distance-estimation-animal-abundance
+summary: Code and graphical interface built by Timm Haucke on MegaDetector 5.0, based on 2022
+  research proposing automatic camera-to-animal distance measurement that reduced manual effort
+  more than twenty-onefold.
+facts:
+- claim: Proposes an automatic pipeline using monocular depth estimation to measure camera-to-animal
+    distances, cutting manual effort by a factor of more than 21.
+  url: https://timm.haucke.xyz/publications/distance-estimation-animal-abundance
+  fetched: 2026-11-22
+  quote: this study proposes an automatized pipeline utilizing monocular depth estimation
+    and depth image calibration methods. We are able to reduce the manual effort required
+    by a factor greater than 21.
+- claim: Provides code and a graphical user interface built on MegaDetector 5.0.
+  url: https://timm.haucke.xyz/publications/distance-estimation-animal-abundance
+  fetched: 2026-11-22
+  quote: We provide an updated implementation of our methodology using MegaDetector 5.0 together
+    with a graphical user interface on GitHub
+- claim: The research behind the toolbox was published in Ecological Informatics in 2022 and
+    funded in part by the German Federal Ministry of Education and Research.
+  url: https://timm.haucke.xyz/publications/distance-estimation-animal-abundance
+  fetched: 2026-11-22
+  quote: This research has been funded in part by the Federal Ministry of Education and Research
+links:
+- type: uses
+  to: megadetector
+  url: https://timm.haucke.xyz/publications/distance-estimation-animal-abundance
+  fetched: 2026-11-22
+  quote: using MegaDetector 5.0
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

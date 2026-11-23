@@ -1,0 +1,102 @@
+id: norwegian-institute-for-water-research
+kind: organisation
+name: Norwegian Institute for Water Research
+also_known_as:
+- NIVA
+- Norsk institutt for vannforskning
+scope: 'no'
+summary: Oslo-based water and environment research institute that leads SeaBee, runs NIVA
+  AquaMonitor and leads a 24-organisation European biodiversity and ecosystems consortium
+  under a 2023 to 2026 agreement.
+facts:
+- claim: Describes itself as Norway's premier research institute for water and the environment.
+  url: https://niva.no/en/about
+  fetched: '2026-11-02'
+  quote: is Norway's premier research institute in the fields of water and the environment
+- claim: Headquartered in Oslo.
+  url: https://niva.no/en/about
+  fetched: '2026-11-02'
+  quote: NIVA is headquartered in Oslo
+- claim: Has national tasks assigned by the Ministry of Climate and Environment.
+  url: https://niva.no/en/about
+  fetched: '2026-11-02'
+  quote: NIVA has national tasks assigned by the Ministry of Climate and Environment.
+- claim: Uses SeaBee image data to train AI and machine learning algorithms.
+  url: https://www.niva.no/en/labs/dronelab
+  fetched: '2026-11-02'
+  quote: The collected image data and other products are used to train AI/ML algorithms for
+    object and nature type identification
+- claim: Says it is responsible for carrying out several of the Norwegian Environment Agency's
+    national monitoring assignments.
+  url: https://www.niva.no/
+  fetched: '2026-11-02'
+  quote: Vi er ansvarlig for gjennomføring av flere av Miljødirektoratets nasjonale overvåkningsoppdrag.
+- claim: Its Oslo head office address from 1 June 2026 is Sognsveien 72, Oslo.
+  url: https://www.niva.no/aquamonitor
+  fetched: '2026-11-02'
+  quote: Sognsveien 72, 0855 Oslo.
+- claim: Leads a consortium of 24 European organisations forming the European Topic Centre
+    on Biodiversity and Ecosystems, with the European Environment Agency, under a framework
+    agreement for 2023 to 2026.
+  url: https://www.niva.no/prosjekter/european-topic-centre-biodiversity-and-ecosystems-etc-be
+  fetched: '2026-11-02'
+  quote: et konsortium bestående av 24 europeiske organisasjoner, ledet av NIVA
+- claim: Leads SeaBee.
+  url: https://www.niva.no/prosjekter/seabee
+  fetched: '2026-11-02'
+  quote: Prosjektet ledes av NIVA, og har en rekke samarbeidspartnere.
+- claim: Its head office is in Oslo.
+  url: https://www.niva.no/prosjekter/seabee
+  fetched: '2026-11-02'
+  quote: NIVA flytter hovedkontoret i Oslo til Campus Ullevål
+- claim: Its team has long experience of genetic analysis of environmental DNA samples.
+  url: https://www.niva.no/tema/miljo-dna
+  fetched: '2026-11-02'
+  quote: NIVAs team består av forskere og laboratorieingeniører som har lang erfaring med
+    genetiske analyser av et bredt spekter av ulike miljø-DNA-prøvetyper
+- claim: Its GBIF publisher record describes its work on freshwater and marine ecosystems.
+  url: https://api.gbif.org/v1/organization/83e4aa5c-7612-4a93-9d54-80ed52fc44f8
+  fetched: &id001 2026-11-02
+  quote: We are experts on ecosystems in both freshwater and marine environments
+- claim: Says that SeaBee drones photograph the seabed and AI is used to analyse the images
+    and recognise nature types.
+  url: https://www.niva.no/nyheter/na-skal-norsk-havbunn-kartlegges-med-droner-og-kunstig-intelligens
+  fetched: *id001
+  quote: Dronene flyr over vannet og tar detaljerte bilder av havbunnen, og kunstig intelligens
+    brukes til å analysere bildene og gjenkjenne ulike naturtyper
+- claim: The GBIF publisher record gives its address in Oslo, Norway.
+  url: https://api.gbif.org/v1/organization/83e4aa5c-7612-4a93-9d54-80ed52fc44f8
+  fetched: *id001
+  quote: '"city":"Oslo","country":"NO"'
+links:
+- type: runs
+  to: niva-aquamonitor
+  url: https://www.niva.no/aquamonitor
+  fetched: '2026-11-02'
+  quote: Aquamonitor er NIVAs web-løsning for å vise overvåkings- og forskningsdata.
+found_by:
+- checklist:3
+- link-from:seabee
+- link-from:grid-arendal
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+scale: national
+hq: 'no'
+status: active
+realms:
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+- edna-genomics
+website: https://www.niva.no
+countries:
+- 'no'

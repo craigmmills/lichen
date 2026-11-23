@@ -1,0 +1,60 @@
+id: institute-of-biology-irkutsk-state-university
+kind: organisation
+name: Research Institute of Biology, Irkutsk State University
+scope: ru
+also_known_as:
+- НИИ биологии ИГУ
+- НИИ биологии озера Байкал
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- freshwater
+hq: unknown
+countries:
+- ru
+scale: national
+status: active
+summary: Institute running Baikal plankton monitoring since 1945, according to Yandex Cloud,
+  with a neural network reported in 2022 as intended to analyse Baikal water samples.
+facts:
+- claim: In December 2022, Yandex Cloud said its scientists had analysed Baikal phytoplankton
+    and zooplankton by hand for more than 75 years.
+  url: https://yandex.cloud/ru/blog/posts/2022/12/baikal-ecosystem
+  quote: Учёные НИИ биологии Иркутского государственного университета более 75 лет анализируют
+    фито- и зоопланктон Байкала для мониторинга состояния озера вручную.
+  fetched: '2026-10-31'
+- claim: Yandex Cloud says the institute has monitored Baikal plankton since 1945.
+  url: https://yandex.cloud/ru/special/baikal/
+  fetched: '2026-10-31'
+  quote: С 1945 года ученые НИИ биологии Иркутского университета следят за состоянием фито-
+    и зоопланктона озера Байкал.
+- claim: In September 2022, Irkutsk State University said a neural network developed by the
+    institute’s scientists with Yandex.Cloud would analyse Baikal water samples.
+  url: https://isu.ru/ru/news/2022/details/news-id2022-00437/
+  fetched: 2026-10-31
+  quote: Нейросеть, разработанная учеными НИИ биологии ИГУ совместно с облачной платформой
+    Yandex.Cloud, будет самостоятельно анализировать пробы воды из озера Байкал
+found_by:
+- checklist:3
+- link-from:yandex-cloud
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+links:
+- type: runs
+  to: point-no-1-baikal-monitoring
+  url: https://yandex.cloud/ru/special/baikal/
+  fetched: '2026-10-31'
+  quote: С 1945 года ученые НИИ биологии Иркутского университета следят за состоянием фито-
+    и зоопланктона озера Байкал.
+- type: runs
+  to: point-no-1-baikal-monitoring
+  url: https://baikalfoundation.ru/ourwork/sokhranenie-vodnykh-resursov/tochka-1/
+  fetched: 2026-10-31
+  quote: один из ключевых проектов НИИ биологии озера Байкал — программу долговременного экологического
+    мониторинга озера Байкал «Точка №1»

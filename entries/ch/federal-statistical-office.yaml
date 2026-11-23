@@ -1,0 +1,64 @@
+id: federal-statistical-office
+kind: organisation
+name: Federal Statistical Office
+also_known_as:
+- FSO
+- BFS
+scope: ch
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: Runs Swiss land use statistics and ADELE, which Netzwoche calls a deep learning model;
+  the office reports automatic classification of about a quarter of sample points from 2022.
+facts:
+- claim: Netzwoche reports that the office uses the deep learning model Adele to produce its
+    area statistics.
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: setzt das BFS das Deep-Learning-Modell "Adele" zur Erstellung der Arealstatistik
+    ein
+  fetched: '2026-11-02'
+- claim: Has produced data on the state and development of land use in Switzerland since the
+    1980s.
+  url: https://statistik.admin.ch/en/understanding-data-statistics/surveys/area
+  fetched: '2026-11-02'
+  quote: Since the 1980s, the Federal Statistical Office (FSO) has been producing data on
+    the state and development of land use in Switzerland through the Land Use Statistics.
+- claim: The ADELE work allowed automatic classification of about a quarter of sample points
+    from 2022.
+  url: https://statistik.admin.ch/en/innovative-and-interactive-statistics/expstat/projects/adele
+  fetched: '2026-11-02'
+  quote: allowed, from 2022, the automatic classification of about a quarter of sample points
+- claim: The page names deep learning as the method for land use and cover statistics.
+  url: https://statistik.admin.ch/en/innovative-and-interactive-statistics/expstat/projects/adele
+  fetched: '2026-11-02'
+  quote: Deep Learning is particularly adapted to statistics on land use and cover
+  ai_type: deep-learning
+links:
+- type: runs
+  to: adele
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: setzt das BFS das Deep-Learning-Modell "Adele" zur Erstellung der Arealstatistik
+    ein
+  fetched: '2026-11-02'
+- type: runs
+  to: swiss-land-use-statistics
+  url: https://www.netzwoche.ch/news/2023-09-07/bund-nutzt-erstmals-ki-zur-landschaftsanalyse
+  quote: Laut Mitteilung setzt das BFS das Deep-Learning-Modell "Adele" zur Erstellung der
+    Arealstatistik ein.
+  fetched: '2026-11-02'
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-11-02'
+ai_types:
+- deep-learning

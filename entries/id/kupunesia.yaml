@@ -1,0 +1,42 @@
+id: kupunesia
+kind: dataset
+name: Kupunesia
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- id
+status: active
+summary: Citizen science mobile app for identifying and recording butterflies across Indonesia,
+  free on Google Play since November 2022.
+facts:
+- claim: A citizen science app for identifying and recording butterflies across Indonesia,
+    free since 1 November 2022.
+  url: https://km.aseanbiodiversity.org/resources/kupunesia.63/
+  quote: Kupunesia is a citizen science mobile application developed for the identification
+    and recording of butterflies across Indonesia, available for free on the Google Play Store
+    since 1 November 2022.
+  fetched: '2026-10-31'
+- claim: The paper in BRIN's repository presents it as a way to bring citizen scientists into
+    butterfly research.
+  url: https://karya.brin.go.id/id/eprint/14430/
+  quote: 'Kupunesia App for citizen science: new way of mainstreaming interest and study of
+    Indonesian butterflies'
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: birdpacker-indonesia
+  url: https://birdpacker.org/privacy-policy-2/
+  quote: "Contoh Layanan dari Birdpacker Indonesia: Burungnesia, Kupunesia"
+  fetched: '2026-10-31'
+- type: partners-with
+  to: badan-riset-dan-inovasi-nasional
+  url: https://km.aseanbiodiversity.org/resources/kupunesia.63/
+  quote: National Research and Innovation Agency (BRIN), Brawijaya University, Yayasan Negeri
+    Kupu-Kupu Lestari Indonesia (NEKTAR Indonesia)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

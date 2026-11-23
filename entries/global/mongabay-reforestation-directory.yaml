@@ -1,0 +1,50 @@
+id: mongabay-reforestation-directory
+kind: dataset
+name: Mongabay Reforestation Directory
+also_known_as:
+- Reforestation.app
+- Mongabay Reforestation Catalog
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://reforestation.app/
+summary: Global directory of reforestation and tree-planting projects, run by Mongabay,
+  recording 36 criteria in five categories to show how much each project discloses
+  through self-reporting.
+facts:
+- claim: A global directory of reforestation and tree-planting projects.
+  url: https://reforestation.app/
+  fetched: 2026-11-22
+  quote: Mongabay’s global directory of reforestation and tree-planting projects is
+    a starting point for people wanting to support reforestation
+- claim: Records 36 criteria in five categories and shows how much each project discloses,
+    based on self-reporting.
+  url: https://reforestation.app/
+  fetched: 2026-11-22
+  quote: Our project database is based entirely on an organization’s self-reporting.
+- claim: Criteria were gathered by Mongabay and grouped into contextual, ecological,
+    economic, social and institutional categories.
+  url: https://reforestation.app/
+  fetched: 2026-11-22
+  quote: Mongabay gathered information on 36 criteria that experts say are key to
+    success
+links:
+- type: built-by
+  to: mongabay
+  url: https://reforestation.app/
+  fetched: &id001 2026-11-22
+  quote: Mongabay gathered information on 36 criteria that experts say are key to
+    success
+- type: run-by
+  to: mongabay
+  url: https://reforestation.app/
+  fetched: *id001
+  quote: To share a new project with Mongabay’s editors, please fill in the form accessible
+    via the Submit Project button at the top of every page. We’ll review them once
+    a month.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

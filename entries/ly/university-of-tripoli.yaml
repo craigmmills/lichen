@@ -1,0 +1,61 @@
+id: university-of-tripoli
+kind: organisation
+name: University of Tripoli
+also_known_as: []
+scope: ly
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- other
+hq: ly
+countries:
+- ly
+scale: national
+status: active
+summary: University that OpenAlex lists as authors’ affiliation on work covering Libyan
+  loggerhead turtles, winter waterbird counts, citizen science, social media mining
+  and marine fish surveys.
+facts:
+- claim: OpenAlex gives the Biology Department of the university's Faculty of Education
+    as first author Abdulmaula Hamza's affiliation on a 2025 paper on monitoring loggerhead
+    turtles along the Libyan coast under the IMAP programme.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4409912891|W4367021221&select=id,display_name,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Biology Department, Faculty of Education, University of Tripoli
+- claim: The 2025 paper is a comparative study of loggerhead turtle monitoring and
+    conservation along the Libyan coast under the IMAP programme.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4409912891|W4367021221&select=id,display_name,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: 'Monitoring and Conservation of Loggerhead Sea Turtles (Caretta Caretta)
+    Along the Libyan Coast: A Comparative Study Under the IMAP Programme.'
+- claim: OpenAlex gives the Department of Zoology of the university's Faculty of Science
+    as first author Khaled Etayeb's affiliation on the results of the eighteenth winter
+    waterbird census in Libya, January 2022.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4409912891|W4367021221&select=id,display_name,publication_year,authorships&per-page=10
+  fetched: 2026-11-15
+  quote: Department of Zoology, Faculty of Science, University of Tripoli, Tripoli,
+    Libya
+- claim: OpenAlex gives the University of Tripoli as the sole author's affiliation
+    on a 2026 review comparing citizen science, social media mining and field surveys
+    in monitoring Libyan marine biodiversity.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7165575712|W7225709061&select=id,display_name,doi,publication_year,authorships,primary_location&per-page=10
+  fetched: 2026-11-15
+  quote: 'Seven years and going strong: a comparative review of citizen Science, social
+    media mining and field surveys in monitoring Libyan marine biodiversity'
+- claim: OpenAlex gives the Department of Aquaculture of the university's Faculty
+    of Agriculture as first author Jamila Rizgalla's affiliation on a 2026 paper using
+    field surveys and citizen science to trace non-indigenous and range-expanding
+    fish in Libyan waters.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7165575712|W7225709061&select=id,display_name,doi,publication_year,authorships,primary_location&per-page=10
+  fetched: 2026-11-15
+  quote: Department of Aquaculture, Faculty of Agriculture, University of Tripoli,
+    Tripoli, Libya
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

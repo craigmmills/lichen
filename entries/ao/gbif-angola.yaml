@@ -1,0 +1,41 @@
+id: gbif-angola
+kind: organisation
+name: GBIF Angola
+scope: ao
+sector: government
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: ao
+countries:
+- ao
+scale: national
+status: active
+summary: Country node for Angola in GBIF, a voting participant, which lists INBAC as a publisher endorsed
+  by the node.
+facts:
+- claim: GBIF's node directory lists GBIF Angola as the country node for the Republic of Angola, a voting
+    participant.
+  url: https://api.gbif.org/v1/node/country/AO
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Angola","participantTitle":"Angola,
+    Republic of"'
+- claim: GBIF's record lists INBAC as a publisher endorsed by the Angolan node.
+  url: https://api.gbif.org/v1/organization/7ba6190f-1fcd-4092-9b58-3c166e093127
+  fetched: '2026-11-08'
+  quote: '"endorsingNodeKey":"a4d35bb9-3d44-46ff-a96f-e60714280bd5","endorsementApproved":true,"endorsementStatus":"ENDORSED","title":"INBAC"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/AO
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF Angola"'
+found_by:
+- checklist:2
+- link-from:instituto-nacional-da-biodiversidade-e-areas-de-conservacao
+added_by: agent
+checked: 2026-11-08

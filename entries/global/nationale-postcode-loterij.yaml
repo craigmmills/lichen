@@ -1,0 +1,51 @@
+id: nationale-postcode-loterij
+kind: organisation
+name: Nationale Postcode Loterij
+also_known_as:
+- Dutch Postcode Lottery
+- Postcode Loterij
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: nl
+scale: global
+status: active
+website: https://www.postcodeloterij.nl
+summary: Dutch charity lottery that supports 150 charities. It is named as a supporter of
+  Global Mangrove Watch.
+facts:
+- claim: Supports 150 charities.
+  url: https://www.postcodeloterij.nl/goede-doelen
+  quote: Postcode Loterij steunt 150 Goede Doelen
+  fetched: &id001 2026-10-30
+- claim: WeForest says the lottery has supported charitable causes since 1989.
+  url: https://www.weforest.org/blog/press-release/weforest-announces-major-funding-from-nationale-postcode-loterij/
+  quote: has supported charitable causes since its inception in 1989
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: global-mangrove-watch
+  url: https://www.decadeonrestoration.org/fr/node/10260
+  quote: Global Mangrove Watch is managed by Wetlands International in cooperation with The
+    Nature Conservancy, SoloEO and Aberystwyth University. We are grateful for the support
+    from the Postcode Loterij, Oak Foundation, COmON Foundation and DOB Ecology.
+  fetched: *id001
+- type: funds
+  to: weforest
+  url: https://www.weforest.org/blog/press-release/weforest-announces-major-funding-from-nationale-postcode-loterij/
+  quote: WeForest announces major funding from Nationale Postcode Loterij
+  fetched: '2026-10-30'
+- type: partners-with
+  to: wetlands-international
+  url: https://www.wetlands.org/working-together-nationale-postcode-loterij/
+  quote: Wetlands International are proud to be partnered with the National Postcode Lottery
+  fetched: '2026-10-30'
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

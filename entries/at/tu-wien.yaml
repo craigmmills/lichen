@@ -1,0 +1,40 @@
+id: tu-wien
+kind: organisation
+name: TU Wien
+also_known_as:
+- Technische Universität Wien
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Vienna technical university whose authors published 2023 papers predicting salt pan
+  inundation in the western Pannonian basin from remote sensing data and classifying Danube
+  biological status with bacterial bioindicators.
+facts:
+- claim: A 2023 paper first-authored by Henri Isidor Schauer of TU Wien predicts the inundation
+    and desiccation state of salt pans in the western Pannonian basin from remote sensing,
+    groundwater and meteorological data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I145847075,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Desiccation State Prediction for Salt Pans in the Western Pannonian Basin Using Remote
+    Sensing
+- claim: A 2023 paper with authors at TU Wien uses bacterial bioindicators to classify biological
+    status along the Danube.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I145847075,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Bacterial bioindicators enable biological status classification along the continental
+    Danube river
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,51 @@
+id: gbif-namibia
+kind: programme
+name: GBIF Namibia
+scope: na
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- na
+status: active
+runner: unknown
+summary: Country node listed as an associate participant in the GBIF Africa region, which
+  endorsed the National Museum of Namibia as a GBIF data publisher.
+facts:
+- claim: The GBIF registry lists GBIF Namibia as an associate country participant in the Africa
+    region.
+  url: https://api.gbif.org/v1/node/country/NA
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA"'
+- claim: The registry entry has the title GBIF Namibia and no homepage.
+  url: https://api.gbif.org/v1/node/country/NA
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Namibia","participantTitle":"Namibia"'
+- claim: The GBIF directory lists GBIF Namibia as a country node with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/0077b530-99d9-472c-9d59-2ad3b0897447
+  fetched: '2026-11-08'
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Namibia"'
+- claim: It endorsed the National Museum of Namibia as a GBIF data publisher.
+  url: https://api.gbif.org/v1/organization/bfa6315e-a73f-46dc-8cc8-877ada697952
+  fetched: '2026-11-08'
+  quote: '"endorsingNodeKey":"0077b530-99d9-472c-9d59-2ad3b0897447","endorsementApproved":true,"endorsementStatus":"ENDORSED","title":"National
+    Museum of Namibia"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/NA
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/0077b530-99d9-472c-9d59-2ad3b0897447
+  fetched: '2026-11-08'
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Namibia"'
+found_by:
+- checklist:2
+- link-from:queue-na
+added_by: agent
+checked: 2026-11-08

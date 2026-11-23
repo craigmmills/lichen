@@ -1,0 +1,28 @@
+id: naresuan-university
+kind: organisation
+name: Naresuan University
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: ai
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: https://www.nu.ac.th/
+summary: University with an OpenAlex-listed 2023 paper whose first author, Bhattarapong Somwong,
+  gives an affiliation there; the facts give nothing further.
+facts:
+- claim: OpenAlex lists a 2023 paper whose first author, Bhattarapong Somwong, gives an affiliation
+    at Naresuan University.
+  url: https://api.openalex.org/works?filter=institutions.ror:03e2qe334,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=200&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Acoustic Monitoring System with AI Threat Detection System for Forest Protection
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

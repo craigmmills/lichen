@@ -1,0 +1,31 @@
+id: ecosystem-management-decision-support-system
+kind: programme
+name: Ecosystem Management Decision Support System
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+summary: Forest Service spatial decision support system for landscape analysis and
+  planning, listed with machine learning in the federal AI inventory.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - Ecosystem Management Decision Support System (EMDS)
+    EMDS is a spatial decision support system for landscape analysis and planning
+    that runs as a component of ArcGIS and QGIS. Machine Learning ( Type Unknown
+links:
+- type: run-by
+  to: us-forest-service
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: USDA Forest Service - Ecosystem Management Decision Support System (EMDS)
+    EMDS is a spatial decision support system for landscape analysis and planning
+    that runs as a component of ArcGIS and QGIS. Machine Learning ( Type Unknown
+found_by:
+- link-from:us-forest-service
+added_by: agent
+checked: '2026-10-30'

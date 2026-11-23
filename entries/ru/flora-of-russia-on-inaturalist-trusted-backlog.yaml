@@ -1,0 +1,25 @@
+id: flora-of-russia-on-inaturalist-trusted-backlog
+kind: dataset
+name: 'Flora of Russia on iNaturalist: a trusted backlog'
+scope: ru
+ai_label: data-infrastructure
+realms:
+- land
+status: unknown
+runner: unknown
+summary: A dataset of unknown status, described by GBIF as a trusted backlog and built on iNaturalist.
+facts:
+- claim: GBIF describes the backlog.
+  url: https://api.gbif.org/v1/dataset/47cac062-7224-4570-8141-c822320627fd
+  fetched: '2026-10-31'
+  quote: It includes only field records from the selected members of a professional community
+links:
+- type: builds-on
+  to: inaturalist
+  url: https://api.gbif.org/v1/dataset/47cac062-7224-4570-8141-c822320627fd
+  fetched: '2026-10-31'
+  quote: from the &#34;Flora of Russia&#34; project on iNaturalist
+found_by:
+- link-from:lomonosov-moscow-state-university
+added_by: agent
+checked: '2026-10-31'

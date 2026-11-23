@@ -1,0 +1,45 @@
+id: french-institute-of-pondicherry
+kind: organisation
+name: French Institute of Pondicherry
+also_known_as:
+- IFP
+- Institut Français de Pondichéry
+scope: in
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: in
+countries:
+- in
+scale: national
+status: active
+website: https://www.ifpindia.org/
+summary: Research institution under France's foreign ministry and CNRS, in the core group
+  of the India Biodiversity Portal, which publishes its herbarium on GBIF. Its site refused
+  the fetcher.
+facts:
+- claim: GBIF publisher record gives its joint supervision.
+  url: https://api.gbif.org/v1/organization/b9ae0aa9-7f74-4f8c-b335-960d1f2f76bc
+  fetched: '2026-10-31'
+  quote: is a research institution under the joint supervision of the French Ministry of Foreign
+    Affairs and the French National Centre for Scientific Research (CNRS)
+- claim: Address in its GBIF publisher record.
+  url: https://api.gbif.org/v1/organization/b9ae0aa9-7f74-4f8c-b335-960d1f2f76bc
+  fetched: '2026-10-31'
+  quote: 11, saint Louis street, French Institute of Pondicherry
+- claim: Publishes its herbarium on GBIF.
+  url: https://api.gbif.org/v1/organization/b9ae0aa9-7f74-4f8c-b335-960d1f2f76bc/publishedDataset?limit=50
+  fetched: '2026-10-31'
+  quote: Herbarium of the French Institute of Pondicherry
+- claim: A CEPF project report says it worked with Strand Life Sciences on the portal.
+  url: https://www.cepf.net/resources/final-project-report/final-project-report-239
+  fetched: '2026-10-31'
+  quote: This was a collaborative project between Strand Life Sciences (SLS) and IFP.
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

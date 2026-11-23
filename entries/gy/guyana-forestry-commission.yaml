@@ -1,0 +1,55 @@
+id: guyana-forestry-commission
+kind: organisation
+name: Guyana Forestry Commission
+also_known_as:
+- GFC
+scope: gy
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- gy
+scale: national
+status: active
+summary: Runs Guyana's MRVS, whose 2020 report describes deforestation mapping largely
+  using Sentinel-2 imagery, and was reported by Esri to be developing an ArcGIS deforestation
+  dashboard.
+facts:
+- claim: A 2020 MRVS project report says deforestation estimates are based on mapping
+    by the GFC using largely Sentinel-2 imagery.
+  url: https://www.guyanareddfund.org/wp-content/uploads/2023/10/MRVS-Phase-2-Project-Report-2020.pdf
+  fetched: '2026-11-12'
+  quote: The estimates of deforestation based on the mapping undertaken by the GFC
+    using largely
+- claim: The same report describes the GFC as a legally mandated cadastral organisation.
+  url: https://www.guyanareddfund.org/wp-content/uploads/2023/10/MRVS-Phase-2-Project-Report-2020.pdf
+  fetched: '2026-11-12'
+  quote: legally mandated cadastral organizations such as the GFC
+- claim: Esri reported that the GFC was developing an ArcGIS dashboard to report on
+    deforestation.
+  url: https://www.esri.com/about/newsroom/arcwatch/forest-watch
+  fetched: '2026-11-12'
+  quote: The Guyana Forestry Commission (GFC) is developing a dashboard created with
+    ArcGIS Dashboards that will generate reports about deforestation
+- claim: Esri reported that staff at GFC field stations would use mobile apps to record
+    mining, forestry, wildfire and other drivers of deforestation and degradation.
+  url: https://www.esri.com/about/newsroom/arcwatch/forest-watch
+  fetched: '2026-11-12'
+  quote: Esri mobile apps such as ArcGIS Field Maps and ArcGIS Survey123 also will
+    be used by staff at GFC field stations to collect location data
+links:
+- type: runs
+  to: guyana-mrvs
+  url: https://www.guyanareddfund.org/wp-content/uploads/2023/10/MRVS-Phase-2-Project-Report-2020.pdf
+  fetched: '2026-11-12'
+  quote: conduct the verification of GFC’s MRVS reporting.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

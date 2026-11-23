@@ -1,0 +1,80 @@
+id: rivm
+kind: organisation
+name: RIVM
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: unknown
+scale: national
+status: active
+website: https://www.rivm.nl
+summary: Runs the Integrale Milieumonitoring in Natuur network, which has followed the effects
+  of air pollutants in Dutch nature areas since 2020, and is a partner in Automated Biodiversity
+  Monitoring, where it installs field stations in its monitoring networks.
+scope: nl
+facts:
+- claim: Describes the first three years of results from the Integrale Milieumonitoring in
+    Natuur network.
+  url: https://www.rivm.nl/publicaties/integrale-milieumonitoring-in-natuur-meetresultaten-2020-2022
+  fetched: '2026-10-31'
+  quote: Het RIVM beschrijft de meetresultaten van de eerste drie jaar van het meetnet Integrale
+    Milieumonitoring in Natuur (IMN).
+- claim: The network has followed the effects of air pollutants in Dutch nature areas since
+    2020.
+  url: https://www.rivm.nl/publicaties/integrale-milieumonitoring-in-natuur-meetresultaten-2020-2022
+  fetched: '2026-10-31'
+  quote: Dit meetnet volgt sinds 2020 de effecten van luchtvervuilende stoffen
+- claim: Naturalis says RIVM and Rijkswaterstaat will install the Automated Biodiversity Monitoring
+    stations in their monitoring networks.
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: RIVM and Rijkswaterstaat will be responsible for installing these stations within
+    their monitoring networks
+- claim: Has followed the effects of air pollutants in a number of Dutch nature areas since
+    2020 through the IMN network.
+  url: https://www.rivm.nl/nieuws/meer-meetpunten-nodig-om-effecten-stikstofdepositie-op-natuur-beter-in-beeld-te-krijgen
+  fetched: &id001 2026-10-31
+  quote: Het RIVM volgt sinds 2020 de effecten van luchtvervuilende stoffen in een aantal
+    natuurgebieden in Nederland.
+- claim: Takes part in the Netwerk Ecologische Monitoring with ministries, provinces and Statistics
+    Netherlands.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: *id001
+  quote: Dit is een samenwerkingsverband tussen een aantal ministeries (LNV, V&W, VROM), het
+    RIVM, de provincies en het CBS.
+- claim: CBS says the Atlas Natuurlijk Kapitaal is RIVM's.
+  url: https://www.cbs.nl/nl-nl/maatschappij/natuur-en-milieu/natuurlijk-kapitaal/atlas-natuurlijk-kapitaal
+  fetched: '2026-10-31'
+  quote: de Atlas Natuurlijk Kapitaal van het RIVM
+links:
+- type: partners-with
+  to: automated-biodiversity-monitoring
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: '2026-10-31'
+  quote: Naturalis Biodiversity Center, TNO, RIVM, and Rijkswaterstaat are joining forces
+    to protect biodiversity.
+- type: partners-with
+  to: automated-biodiversity-monitoring
+  url: https://www.naturalis.nl/en/node/20130
+  fetched: *id001
+  quote: RIVM and Rijkswaterstaat will be responsible for installing these stations within
+    their monitoring networks
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: *id001
+  quote: Dit is een samenwerkingsverband tussen een aantal ministeries (LNV, V&W, VROM), het
+    RIVM, de provincies en het CBS.
+found_by:
+- checklist:2
+- link-from:naturalis-biodiversity-center
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+also_known_as:
+- RIVM

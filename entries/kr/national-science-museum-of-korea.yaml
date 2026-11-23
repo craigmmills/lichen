@@ -1,0 +1,81 @@
+id: national-science-museum-of-korea
+kind: organisation
+name: National Science Museum of Korea
+also_known_as:
+- NSM
+- 국립중앙과학관
+scope: kr
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: kr
+countries:
+- kr
+scale: national
+status: active
+website: https://naris.science.go.kr/main.do
+summary: Museum that runs NARIS, the Korean Biodiversity Information Facility and a natural
+  history research information system, and acts as GBIF's Korean secretariat; GBIF lists 244
+  published datasets for it.
+facts:
+- claim: Korea's CBD clearing house says it maintains NARIS, hosts KBIF and operates the Korean
+    Biodiversity Consortium.
+  url: https://www.cbd-chm.go.kr/eng/content/view.do?contentKey=286&menuKey=1086
+  fetched: '2026-11-02'
+  quote: The NSM is tasked with maintaining the Korea Natural History Research Information
+    System (NARIS). It also leads the collection, conservation and management of information
+    about Korea’s biodiversity, hosts the Korean Biodiversity Information Facility and operates
+    the Korean Biodiversity Consortium.
+- claim: GBIF lists 244 published datasets for it.
+  url: https://api.gbif.org/v1/organization/eb07eeb0-3db9-11d9-8439-b8a03c50a862
+  fetched: '2026-11-02'
+  quote: '"numPublishedDatasets":244'
+- claim: Maintains NARIS, hosts KBIF and operates the Korean Biodiversity Consortium.
+  url: https://www.cbd-chm.go.kr/eng/content/view.do;jsessionid=E661405CE732EC136873B64EAB73896B?contentKey=286&menuKey=1086
+  fetched: '2026-11-02'
+  quote: It also leads the collection, conservation and management of information about Korea’s
+    biodiversity, hosts the Korean Biodiversity Information Facility and operates the Korean
+    Biodiversity Consortium.
+- claim: A science ministry release says the museum, as GBIF's Korean secretariat, supports
+    the collection, standardisation and sharing of biodiversity data.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=284020
+  fetched: 2026-11-02
+  quote: 국립중앙과학관은 GBIF 한국사무국(KBIF)으로서 생물다양성 데이터의 체계적 수집·표준화·공유·확대를 지원 중임.
+- claim: The science ministry announced the 2026 GBIF Asia node meeting and regional symposium
+    at the museum on 8 and 9 July 2026.
+  url: https://eiec.kdi.re.kr/policy/materialView.do?num=284020
+  fetched: 2026-11-02
+  quote: 과학기술정보통신부는 ’26.7.8.(수)부터 7.9.(목)까지 국립중앙과학관에서 「2026 GBIF 아시아 노드 회의 및 아시아 지역 국제 심포지엄」을
+    개최한다.
+- claim: NARIS gives the museum's address in Daejeon.
+  url: https://naris.science.go.kr/main.do
+  fetched: 2026-11-02
+  quote: National Science Museum,481 Daedeokdaero Yuseong-gu Daejeon, KOREA.
+links:
+- type: runs
+  to: naris-korea
+  url: https://v.daum.net/v/zS3isY9HXR
+  fetched: '2026-11-02'
+  quote: 조사를 통해 수집된 정보는 국립중앙과학관이 운영하는 국가자연사연구정보시스템(NARIS) 누리집(naris.science.go.kr)
+- type: runs
+  to: korean-biodiversity-information-facility
+  url: https://v.daum.net/v/zS3isY9HXR
+  fetched: '2026-11-02'
+  quote: 우리나라는 2001년 정회원 국가로 참여해 과학기술정보통신부 국립중앙과학관이 한국사무국을 담당하고 있다.
+- type: runs
+  to: naris-korea
+  url: https://www.cbd-chm.go.kr/eng/content/view.do;jsessionid=E661405CE732EC136873B64EAB73896B?contentKey=286&menuKey=1086
+  fetched: '2026-11-02'
+  quote: The NSM is tasked with maintaining the Korea Natural History Research Information
+    System (NARIS).
+found_by:
+- link-from:queue-kr
+- checklist:2
+- register:kr
+added_by: agent
+checked: '2026-11-02'

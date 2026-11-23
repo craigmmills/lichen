@@ -1,0 +1,66 @@
+id: danish-mycological-society
+kind: organisation
+name: Danish Mycological Society
+scope: dk
+sector: ngo
+roles:
+- builds-ai
+- unknown
+- convenes
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: dk
+scale: national
+status: active
+summary: A fungi community founded on 1 October 1905, based in Hillerød according to Biodiversa+,
+  named as a partner in Svampeatlas 2.0 and listed in 2021 on the species council advising
+  Arter.
+facts:
+- claim: Named as a partner in the Svampeatlas 2.0 project.
+  url: https://apps.apple.com/dk/app/atlas-of-danish-fungi/id1467728588
+  fetched: '2026-11-02'
+  quote: Danish Mycological Society and MycoKey
+- claim: Describes itself as a community for everyone interested in fungi.
+  url: https://svampe.dk
+  fetched: '2026-11-02'
+  quote: Svampeforeningen er et fællesskab for alle, der er interesserede i svampe.
+- claim: Biodiversa+ places it in Hillerød.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Danish Mycological Society, Hillerød, Denmark
+- claim: Founded on 1 October 1905.
+  url: https://www.svampe.dk/en/foreningen
+  fetched: &id001 2026-11-02
+  quote: Foreningen til Svampekundskabens Fremme blev stiftet den 1. oktober 1905
+- claim: Listed in 2021 as a member of the species council that advises Arter.
+  url: https://www.avjf.dk/wp-content/uploads/2021/05/Arter-beskrivelse.pdf
+  fetched: *id001
+  quote: Svampeforeningen – Foreningen til Svampekundskabens Fremme
+found_by:
+- checklist:4
+- link-from:fundive
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+also_known_as:
+- Foreningen til Svampekundskabens Fremme
+- Svampeforeningen
+- Danish Mycological Society
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-02'
+  quote: Danish Mycological Society, Hillerød, Denmark
+- type: partners-with
+  to: atlas-of-danish-fungi
+  url: https://apps.apple.com/dk/app/atlas-of-danish-fungi/id1467728588
+  fetched: *id001
+  quote: which is a collaborative effort between Center for Makroecology, Evolution and Climate
+    (CMEC) at the Natural History Museum of Denmark (SNM, University of Copenhagen), Danish
+    Mycological Society and MycoKey.

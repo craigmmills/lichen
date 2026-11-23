@@ -1,0 +1,39 @@
+id: wolaita-sodo-university
+kind: organisation
+name: Wolaita Sodo University
+scope: et
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+summary: University with a listed 2026 dataset record, by first author Alefu Chinasho, combining
+  geostatistics and machine learning to predict soil organic carbon in lakeside wetlands of
+  southern Ethiopia.
+facts:
+- claim: OpenAlex lists a 2026 dataset record for work integrating geostatistics and machine
+    learning to predict soil organic carbon in tropical lakeside wetlands of southern Ethiopia.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: Dataset used for Integrating Geostatistics and Machine Learning to Predict Soil Organic
+    Carbon and Uncover Its Sequestration Drivers in Tropical Lakeside Wetlands of Southern
+    Ethiopia
+- claim: OpenAlex lists Alefu Chinasho, first author of that dataset record, at Wolaita Sodo
+    University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Alefu Chinasho", "orcid": "https://orcid.org/0000-0003-2325-4284",
+    "observed_orcids": ["https://orcid.org/0000-0003-2325-4284"]}, "institutions": [{"id":
+    "https://openalex.org/I4210101494", "display_name": "Wolaita Sodo University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

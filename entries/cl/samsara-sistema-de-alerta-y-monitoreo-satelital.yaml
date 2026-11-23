@@ -1,0 +1,68 @@
+id: samsara-sistema-de-alerta-y-monitoreo-satelital
+kind: project
+name: SAMSARA, Sistema de Alerta y Monitoreo Satelital de Áreas de Relevancia Ambiental
+also_known_as:
+- SAMSARA
+scope: cl
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- cl
+status: closed
+summary: A closed FONDEF project run by UAI, the environment regulator and Data Observatory,
+  with UAI researchers developing automatic satellite monitoring of sclerophyllous forest
+  and scrub.
+facts:
+- claim: The report covers the end of the FONDEF project, carried out by UAI researchers with
+    the environment regulator, Data Observatory and others.
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: 2026-11-02
+  quote: En el marco de la finalización del proyecto FONDEF IDEA I+D
+- claim: The researchers developed an automatic system for monitoring satellite images of
+    sclerophyllous forest and scrub.
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: 2026-11-02
+  quote: los académicos desarrollaron un sistema automático de monitoreo de imágenes satelitales
+    de bosque esclerófilo y matorrales
+- claim: A project researcher said they studied how changes group together using a supervised
+    algorithm.
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: 2026-11-02
+  quote: estudiamos el contexto de cómo se agrupan mediante un algoritmo supervisado
+  ai_type: ml-supervised
+ai_types:
+- ml-supervised
+links:
+- type: built-by
+  to: universidad-adolfo-ibanez
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: &id001 2026-11-02
+  quote: los académicos desarrollaron un sistema automático de monitoreo de imágenes satelitales
+- type: run-by
+  to: superintendencia-del-medio-ambiente
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: 2026-11-02
+  quote: realizado por investigadores de la Facultad de Ingeniería y Ciencias y la Escuela
+    de Gobierno de la Universidad Adolfo Ibáñez (UAI), junto con la Superintendencia del Medio
+    Ambiente y el Data Observatory
+- type: run-by
+  to: data-observatory
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: 2026-11-02
+  quote: realizado por investigadores de la Facultad de Ingeniería y Ciencias y la Escuela
+    de Gobierno de la Universidad Adolfo Ibáñez (UAI), junto con la Superintendencia del Medio
+    Ambiente y el Data Observatory
+- type: run-by
+  to: universidad-adolfo-ibanez
+  url: https://www.diarioestrategia.cl/texto-diario/mostrar/4689670/academicos-uai-trabajan-plataforma-permite-usar-imagenes-satelitales-fiscalizacion-medioambiental
+  fetched: *id001
+  quote: realizado por investigadores de la Facultad de Ingeniería y Ciencias y la Escuela
+    de Gobierno de la Universidad Adolfo Ibáñez (UAI)
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-02

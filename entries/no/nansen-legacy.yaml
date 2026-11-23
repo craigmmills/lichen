@@ -1,0 +1,54 @@
+id: nansen-legacy
+kind: project
+name: The Nansen Legacy
+also_known_as:
+- Arven etter Nansen
+scope: 'no'
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- 'no'
+scale: regional
+status: closed
+website: https://arvenetternansen.com/
+runner: unknown
+summary: Closed Arctic marine climate and ecosystem research project, running 2018 to 2023 according to
+  GBIF, with about 280 people from ten institutions, 53 published datasets and final reports approved
+  in March 2025.
+facts:
+- claim: GBIF describes the Nansen Legacy as an Arctic research project on the changing marine climate
+    and ecosystem, running from 2018 to 2023.
+  url: https://api.gbif.org/v1/organization/028abbad-5db9-48a3-98dd-9ee456b60f0d
+  fetched: '2026-11-02'
+  quote: The Nansen Legacy runs for six years (2018–2023)
+- claim: The record says the 2018–2023 project united about 280 researchers, students and technicians
+    from ten Norwegian research institutions.
+  url: https://api.gbif.org/v1/organization/028abbad-5db9-48a3-98dd-9ee456b60f0d
+  fetched: '2026-11-02'
+  quote: unites about 280 researchers, students, and technicians from ten Norwegian research institutions
+- claim: Calls itself Norway’s largest research project in 2018–2024, with final reports approved by the
+    Research Council of Norway in March 2025.
+  url: https://arvenetternansen.com/2025/03/07/final-report-approved/
+  fetched: &id001 2026-11-02
+  quote: The Nansen Legacy project (2018-2024) has been the largest research project in Norway, and the
+    final reports are now approved by the Research Council of Norway.
+- claim: The University of Oslo lists the project as completed.
+  url: https://www.mn.uio.no/english/research/collaboration/the-nansen-legacy/index.html
+  fetched: *id001
+  quote: The Nansen Legacy / Arven etter Nansen (completed)
+- claim: Says data has been shared for new and wider use.
+  url: https://arvenetternansen.com/2025/03/07/final-report-approved/
+  fetched: *id001
+  quote: Data has also been shared for new and wider use.
+- claim: Its GBIF publisher record gives 53 published datasets.
+  url: https://api.gbif.org/v1/organization/028abbad-5db9-48a3-98dd-9ee456b60f0d
+  fetched: *id001
+  quote: '"numPublishedDatasets":53'
+found_by:
+- link-from:gbif-norway
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- other

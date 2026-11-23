@@ -1,0 +1,28 @@
+id: seos
+kind: project
+name: SEOS
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+website: https://business.esa.int/projects/seos
+summary: ESA-listed project that developed forest and vegetation condition reports
+  for forestry companies from satellite data, airborne LiDAR and machine learning.
+facts:
+- claim: Used satellite data, airborne LiDAR and machine learning.
+  url: https://business.esa.int/projects/seos
+  quote: leveraging satellite data, airborne LiDAR data and machine learning
+  fetched: &id001 2026-10-30
+links:
+- type: led-by
+  to: ecometrica
+  url: https://business.esa.int/projects/seos
+  quote: SEOS is an initiative led by Ecometrica
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

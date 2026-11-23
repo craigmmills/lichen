@@ -1,0 +1,46 @@
+id: freshwater-biological-association
+kind: organisation
+name: Freshwater Biological Association
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: gb
+countries:
+- gb
+scale: national
+summary: Hosts the open-access national database of riverfly monitoring data, reached through
+  the Riverfly Partnership website.
+facts:
+- claim: Hosts the open-access database of riverfly data.
+  url: https://www.frontiersin.org/articles/10.3389/fenvs.2023.1218055/full
+  quote: Data nationwide is stored in an open-access database hosted by the Freshwater Biological
+    Association and accessible through the Riverfly Partnership website.
+  fetched: '2026-10-31'
+- claim: Its site gives its address in Cumbria and its charity number.
+  url: https://www.fba.org.uk/
+  quote: Quarry Warehouse, Quarry Lane, Sandside, Milnthorpe, Cumbria, LA7 7HG Registered
+    charity number 214440
+  fetched: '2026-10-31'
+- claim: The Charity Commission register lists it at Far Sawrey, an older address than its
+    own site gives.
+  url: https://register-of-charities.charitycommission.gov.uk/en/about-the-register-of-charities/-/charity-details/214440/full-print
+  quote: The Ferry Landing Far Sawrey AMBLESIDE LA22 0LP
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: riverfly-recording-schemes
+  url: https://www.frontiersin.org/articles/10.3389/fenvs.2023.1218055/full
+  quote: Data nationwide is stored in an open-access database hosted by the Freshwater Biological
+    Association and accessible through the Riverfly Partnership website
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false
+website: https://www.fba.org.uk/

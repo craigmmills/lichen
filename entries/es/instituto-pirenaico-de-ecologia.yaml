@@ -1,0 +1,39 @@
+id: instituto-pirenaico-de-ecologia
+kind: organisation
+name: Instituto Pirenaico de Ecología
+scope: es
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: national
+hq: es
+status: active
+also_known_as:
+- IPE-CSIC
+realms:
+- freshwater
+website: http://www.ipe.csic.es/
+summary: CSIC research institute at Jaca. It publishes FRIAS, a global dataset of freshwater
+  non-native species, and a checklist of freshwater non-native species for Spain.
+facts:
+- claim: Publishes the FRIAS global compilation of more than 3,800 freshwater non-native species.
+  url: https://api.gbif.org/v1/organization/dfa60bf9-be17-4b11-bdd1-23734e6dbfbd/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: dataset is a global compilation of more than 3,800 freshwater non-native species
+    derived from 94 online data sources
+- claim: Publishes a checklist of freshwater non-native species of Spain.
+  url: https://api.gbif.org/v1/organization/dfa60bf9-be17-4b11-bdd1-23734e6dbfbd/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Checklist of Freshwater Non Native Species of Spain
+links:
+- type: runs
+  to: frias-global-dataset-of-freshwater-invasive-and-alien-species
+  url: https://api.gbif.org/v1/organization/dfa60bf9-be17-4b11-bdd1-23734e6dbfbd/publishedDataset?limit=30
+  fetched: '2026-10-31'
+  quote: Global Dataset of Freshwater Invasive and Alien Species. Version 2.3. Instituto Pirenaico
+    de Ecología (CSIC).
+found_by:
+- register:es
+added_by: agent
+checked: '2026-10-31'

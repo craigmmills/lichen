@@ -1,0 +1,36 @@
+id: pan-african-university
+kind: organisation
+name: Pan-African University
+scope: cm
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries: []
+scale: regional
+status: active
+website: https://pau-au.africa
+summary: University whose Department of Electrical Engineering in Kenya is the affiliation of Michael
+  Mutwiri, first author of a 2022 paper, according to OpenAlex, on wildlife detection using image analysis
+  on a wireless sensor node.
+facts:
+- claim: A 2022 paper on wildlife species detection using an image analysis system deployed on a wireless
+    sensor node has Michael Mutwiri as its first author, according to OpenAlex.
+  url: https://api.openalex.org/works/W4226199037?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Wildlife Species Detection Using an Image Analysis System Deployed on a Wireless Sensor Node
+- claim: The first author's affiliation is the Pan African University Department of Electrical Engineering,
+    Kenya.
+  url: https://api.openalex.org/works/W4226199037?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Pan African University - Department of Electrical Engineering, Kenya
+found_by:
+- register:cm
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,53 @@
+id: inventario-florestal-nacional-angola
+kind: project
+name: Inventário Florestal Nacional de Angola
+also_known_as:
+- IFN
+scope: ao
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+scale: national
+status: unknown
+summary: National forest inventory begun in 2009 with FAO support, described in a
+  2022 decree as Angola's first with national coverage; its first of three phases
+  was completed in 2015, with further data collection planned.
+facts:
+- claim: A 2022 government decree says work on the national forest inventory began
+    in 2009 with FAO technical support and was the first inventory in Angola with
+    national coverage.
+  url: https://faolex.fao.org/docs/pdf/ang212520.pdf
+  fetched: 2026-11-12
+  quote: Em 2009 iniciaram-se os trabalhos no âmbito do Inventário Florestal Nacional
+    (IFN) com o apoio técnico da FAO, o
+- claim: The 2022 decree describes three phases, with the first completed in 2015
+    and further data collection planned for the next phases.
+  url: https://faolex.fao.org/docs/pdf/ang212520.pdf
+  fetched: 2026-11-12
+  quote: primeiro inventário feito em Angola com cobertura nacional. Este programa
+    executado em três fases, tem como objectivo
+- claim: FAO's field guide describes the inventory project, under FAO codes TCP/ANG/3103
+    and UTF/ANG/040/ANG, as a response to forest policy and management questions.
+  url: https://www.fao.org/4/ap156p/ap156p.pdf
+  fetched: 2026-11-12
+  quote: O projecto de Inventário Florestal Nacional (IFN) de Angola (TCP/ANG/3103
+    e
+links:
+- type: run-by
+  to: instituto-de-desenvolvimento-florestal
+  url: https://www.fao.org/4/ap156p/ap156p.pdf
+  fetched: 2026-11-12
+  quote: 'O IDF é designado como
+
+    instituição coordenadora.'
+- type: partners-with
+  to: food-and-agriculture-organization
+  url: https://faolex.fao.org/docs/pdf/ang212520.pdf
+  fetched: 2026-11-12
+  quote: Em 2009 iniciaram-se os trabalhos no âmbito do Inventário Florestal Nacional
+    (IFN) com o apoio técnico da FAO, o
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

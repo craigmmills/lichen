@@ -1,0 +1,46 @@
+id: ndege-zetu
+kind: dataset
+name: Ndege Zetu
+scope: ke
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ke
+summary: More than 20 hours of recordings from the Mount Kenya ecosystem annotated
+  by expert ornithologists, published by DSAIL.
+status: active
+facts:
+- claim: DSAIL says it holds over 20 hours of recordings.
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: This is a dataset of over 20 hours of recordings obtained from the
+- claim: Audio used to demonstrate deep learning models for species recognition.
+  url: https://datadryad.org/dataset/doi%3A10.5061/dryad.d51c5b0c7
+  fetched: '2026-10-31'
+  quote: These audio recordings are used to demonstrate the use of large deep learning
+    models to recognise species in the Mt Kenya ecosystem.
+- claim: Covers two sites.
+  url: https://datadryad.org/dataset/doi%3A10.5061/dryad.d51c5b0c7
+  fetched: '2026-10-31'
+  quote: The two sites are the Dedan Kimathi University Wildlife Conservancy (DeKUWC)
+    and the Mt Kenya National Park (MKNP).
+- claim: Holds over 20 hours of annotated recordings.
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-31'
+  quote: This is a dataset of over 20 hours of recordings obtained from the Mt Kenya
+    ecosystem and annotated by expert ornithologists.
+links:
+- type: run-by
+  to: centre-for-data-science-and-artificial-intelligence-dekut
+  url: https://dekut-dsail.github.io/datasets.html
+  fetched: '2026-10-30'
+  quote: NDEGE ZETU
+found_by:
+- link-from:university-of-leeds
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

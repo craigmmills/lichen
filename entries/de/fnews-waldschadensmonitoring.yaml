@@ -1,0 +1,32 @@
+id: fnews-waldschadensmonitoring
+kind: project
+name: FNEWs
+also_known_as:
+- Waldschadensmonitoring FNEWs
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Forest damage monitoring from Sentinel-2 imagery. A factsheet says implementation
+  started at the Thünen Institute of Forest Ecosystems from 2024, extending the method
+  to all of Germany.
+facts:
+- claim: Forest damage is recorded with Sentinel-2 imagery and evaluated by a uniform
+    method.
+  url: https://joanneum.at/digital/wp-content/uploads/sites/3/2024/08/2024-07_Waldschadensmonitoring_FNEWs_Factsheet.pdf
+  quote: mit Sentinel-2-Satellitenbilddaten aufgenommen und einem einheit -
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: thuenen-institute
+  url: https://joanneum.at/digital/wp-content/uploads/sites/3/2024/08/2024-07_Waldschadensmonitoring_FNEWs_Factsheet.pdf
+  quote: Ab 2024 startet die Implementierungsphase des Walds chadenmonitoringsys-
+    tems am Thünen-Institut für Waldökosysteme.
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+scope: de
+added_by: agent
+checked: '2026-10-31'

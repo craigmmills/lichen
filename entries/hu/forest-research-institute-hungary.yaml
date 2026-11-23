@@ -1,0 +1,34 @@
+id: forest-research-institute-hungary
+kind: organisation
+name: Forest Research Institute
+scope: hu
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Hungarian research institute with which the first author of a 2024 paper on forest disturbance
+  monitoring and a 2025 forest health survey, both using Sentinel-2 imagery, is affiliated.
+facts:
+- claim: A 2024 paper whose first author is affiliated with the Forest Research Institute monitors forest
+    disturbance with Sentinel-2 imagery and machine learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01sjh9112,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Forest Disturbance Monitoring Using Cloud-Based Sentinel-2 Satellite Imagery and Machine Learning
+- claim: A 2025 paper with the same first author surveys forest health on ICP Forests Level I and II plots
+    in Hungary from Sentinel-2.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01sjh9112,primary_topic.subfield.id:1105|2303|2309,topics.subfield.id:1702|1707,publication_year:>2017&per-page=25&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Sentinel-2-Based Forest Health Survey of ICP Forests Level I and II Plots in Hungary
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

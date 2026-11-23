@@ -1,0 +1,39 @@
+id: university-of-graz
+kind: organisation
+name: University of Graz
+also_known_as:
+- Universität Graz
+scope: at
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+website: https://www.uni-graz.at/en/
+summary: Austrian university whose authors published a 2023 paper on deep learning to map
+  biological soil crusts and a 2025 paper on deep learning to distinguish Riccia spores.
+facts:
+- claim: A 2023 paper first-authored by Stefan Herdy, with Bettina Weber, of the University
+    of Graz uses deep learning tools to map and monitor biological soil crusts.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I15766117,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: Utilization of deep learning tools to map and monitor biological soil crusts
+- claim: A 2025 paper first-authored by Stefan Herdy of the University of Graz concerns adapting
+    deep learning models to distinguish spores of the genus Riccia with strongly overlapping
+    characteristics.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I15766117,primary_topic.subfield.id:2303|2309|1105,publication_year:2021-2026,title_and_abstract.search:machine%20learning|deep%20learning|neural%20network&sort=cited_by_count:desc&per_page=6&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: 'Adaptation of deep learning models to distinguish species with strongly overlapping
+    characteristics: the example of spores of the genus Riccia'
+links: []
+found_by:
+- register:gbif-publisher
+- checklist:3
+added_by: agent
+checked: 2026-11-07

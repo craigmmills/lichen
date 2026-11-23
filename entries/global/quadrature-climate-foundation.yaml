@@ -1,0 +1,49 @@
+id: quadrature-climate-foundation
+kind: organisation
+name: Quadrature Climate Foundation
+also_known_as:
+- Quadrature Charitable Foundation
+- QCF
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: gb
+scale: global
+status: active
+website: https://qc.foundation
+summary: UK charitable foundation that funds the Climate Change AI Innovation Grants and is
+  a listed past funder of MapBiomas. Its site now uses the name Quadrature Charitable Foundation.
+countries:
+- gb
+facts:
+- claim: Registered charity and company in England and Wales, using the name Quadrature Charitable
+    Foundation.
+  url: https://qc.foundation/
+  quote: Quadrature Charitable Foundation (QCF) is a registered charity with charity number
+    1187301
+  fetched: &id001 2026-10-30
+- claim: Supported the 2026 round of Climate Change AI Innovation Grants.
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  quote: was made possible thanks to the support of Quadrature Climate Foundation
+  fetched: *id001
+links:
+- type: funds
+  to: climate-change-ai-innovation-grants
+  year: 2026
+  url: https://www.climatechange.ai/press_releases/2026-04-29/release
+  quote: This round of the Climate Change AI Innovation Grants program was made possible thanks
+    to the support of Quadrature Climate Foundation
+  fetched: *id001
+- type: funds
+  to: mapbiomas
+  url: https://alerta.mapbiomas.org/en/?p=151
+  quote: Quadrature Climate Foundation (QCF) / 2022 – 2024
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

@@ -1,0 +1,39 @@
+id: formspot
+kind: dataset
+name: FORMSpoT
+also_known_as:
+- Forest Mapping with SPOT Time series
+scope: fr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: A decade-long map of forest canopy height for mainland France at 1.5 metre resolution
+  from 2014 to 2024, with yearly disturbance polygons, derived from SPOT-6/7 images with a
+  transformer model trained on airborne laser data.
+facts:
+- claim: A nationwide map of forest canopy height at 1.5 metre resolution for 2014 to 2024.
+  url: https://arxiv.org/html/2512.17021v1
+  quote: a decade-long (2014–2024) nationwide mapping of forest canopy height at 1.5 m resolution
+  fetched: '2026-10-31'
+- claim: Heights were derived with a hierarchical transformer model.
+  url: https://arxiv.org/html/2512.17021v1
+  quote: using a hierarchical transformer model (PVTv2) trained on high-resolution airborne
+    laser scanning (ALS) data
+  ai_type: deep-learning
+  fetched: '2026-10-31'
+links:
+- type: builds-on
+  to: dinamis
+  url: https://arxiv.org/html/2512.17021v1
+  quote: open-data initiatives such as DINAMIS for monitoring forests under climate change
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

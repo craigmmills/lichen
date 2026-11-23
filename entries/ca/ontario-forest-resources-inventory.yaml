@@ -1,0 +1,32 @@
+id: ontario-forest-resources-inventory
+kind: dataset
+name: Forest Resources Inventory (Ontario)
+also_known_as:
+- FRI
+scope: ca
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ca
+summary: A large-scale survey of Ontario's forests and wetlands, now combining lidar,
+  aerial imagery and field data to generate predictive models of forest attributes.
+facts:
+- claim: Combines lidar and field data to generate predictive models and forest attributes.
+  url: https://ontario.ca/page/forest-resources-inventory
+  fetched: '2026-10-31'
+  quote: Combining LiDAR and field data to generate predictive models and forest attributes.
+links:
+- type: run-by
+  to: ontario-ministry-of-natural-resources
+  url: https://ontario.ca/page/forest-resources-inventory
+  fetched: '2026-10-31'
+  quote: Every 10 years, the ministry creates a new forest management plan where inventory
+    data is updated
+found_by:
+- rule:provincial-agencies
+added_by: agent
+checked: '2026-10-31'

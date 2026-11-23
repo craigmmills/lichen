@@ -1,0 +1,75 @@
+id: australian-museum
+kind: organisation
+name: Australian Museum
+scope: au
+sector: government
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+- land
+- ocean
+techniques:
+- bioacoustics
+hq: au
+countries:
+- au
+scale: national
+status: active
+website: https://australian.museum
+summary: Museum that runs FrogID, a national citizen science project on frog calls, with a
+  beta that identifies the recordings by machine.
+facts:
+- claim: Runs FrogID.
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: FrogID is a national citizen science project run by the Australian Museum.
+- claim: Registered with an Australian Business Number.
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: ABN 85 407 224 698
+- claim: Has a Centre for Citizen Science.
+  url: https://australian.museum/get-involved/citizen-science/
+  fetched: '2026-10-31'
+  quote: The Australian Museum Centre for Citizen Science
+- claim: Runs FrogID.
+  url: https://www.frogid.net.au/science/frogid-ai/
+  fetched: '2026-10-31'
+  quote: for the Australian Museum’s FrogID project purposes only
+- claim: A New South Wales Government funded cultural institution.
+  url: http://australian.museum/
+  fetched: '2026-10-31'
+  quote: The Australian Museum is a New South Wales Government funded cultural institution.
+links:
+- type: runs
+  to: frogid
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: FrogID is a national citizen science project run by the Australian Museum.
+- type: partners-with
+  to: atlassian-foundation
+  url: https://australian.museum/blog/amri-news/frogid-atlassian/
+  fetched: '2026-10-31'
+  quote: The Australian Museum collaborated with Atlassian Foundation through the Engage4Good
+    program
+- type: leads
+  to: frogid
+  url: https://australian.museum/learn/news/blog/frogid_data_for_conservation/
+  fetched: '2026-10-31'
+  quote: FrogID is a national citizen science project led by the Australian Museum.
+- type: runs
+  to: frogid
+  url: https://www.frogid.net.au/science/frogid-ai/
+  fetched: '2026-10-31'
+  quote: the Australian Museum’s FrogID project
+found_by:
+- checklist:rule-zoos-museums
+- queue:au
+- link-from:open-ecoacoustics
+- checklist:4
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

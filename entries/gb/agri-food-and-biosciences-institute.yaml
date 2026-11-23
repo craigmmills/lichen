@@ -1,0 +1,36 @@
+id: agri-food-and-biosciences-institute
+kind: organisation
+name: Agri-Food and Biosciences Institute
+sector: government
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- other
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+summary: Northern Ireland research institute with an author on a review of machine learning
+  in marine ecology.
+facts:
+- claim: 'OpenAlex lists authors at Agri-Food and Biosciences Institute on this work: Machine
+    learning in marine ecology: an overview of techniques and applications'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:GB,concepts.id:C18903297,concepts.id:C119857082|C108583219,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=100&select=id,title,publication_year,authorships
+  quote: 'Machine learning in marine ecology: an overview of techniques and applications'
+  fetched: '2026-10-30'
+- claim: Its contact page names Newforge as its headquarters.
+  url: https://www.afbini.gov.uk/contact
+  quote: Newforge (Headquarters)
+  fetched: '2026-10-31'
+found_by:
+- checklist:3
+also_known_as:
+- AFBI
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+website: https://www.afbini.gov.uk/

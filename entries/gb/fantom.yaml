@@ -1,0 +1,46 @@
+id: fantom
+kind: project
+name: FANTOM
+also_known_as:
+- Future Analytics for Nature Through Observation and Modelling
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://earthi.space/research-and-development-projects/fantom-transforming-land-monitoring-with-satellite-intelligence/
+summary: Earth-i and Specto Natura project building a UK database of agricultural and biodiversity
+  markers from satellite images, supported by the ESA InCubed programme.
+facts:
+- claim: Builds a database of agricultural and biodiversity markers from satellite imagery.
+  url: https://incubed.esa.int/esa-incubed-and-uksa-fund-five-earth-observation-projects/
+  quote: It builds a database of agricultural and biodiversity markers, creating novel environmental
+    indicators directly from satellite imagery
+  fetched: &id001 2026-10-30
+- claim: Will provide analytics to the Rural Payments Agency.
+  url: https://incubed.esa.int/esa-incubed-and-uksa-fund-five-earth-observation-projects/
+  quote: FANTOM will provide analytics directly to the Rural Payments Agency
+  fetched: *id001
+links:
+- type: run-by
+  to: earth-i
+  url: https://incubed.esa.int/esa-incubed-and-uksa-fund-five-earth-observation-projects/
+  quote: FANTOM (Future Analytics for Nature Through Observation and Modelling) is a project
+    from Earth-i and Specto Natura
+  fetched: *id001
+- type: partners-with
+  to: specto-natura
+  url: https://earthi.space/press/fantom-project-launches-to-support-uk-agriculture-and-environmental-policy/
+  quote: Earth-i is collaborating with Specto Natura
+  fetched: *id001
+- type: funded-by
+  to: european-space-agency
+  url: https://incubed.esa.int/esa-incubed-and-uksa-fund-five-earth-observation-projects/
+  quote: The joint ESA InCubed/UKSA funding call has awarded over £ 2.5 million to five projects
+  fetched: *id001
+found_by:
+- checklist:7
+added_by: agent
+checked: *id001

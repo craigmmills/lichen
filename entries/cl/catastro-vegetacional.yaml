@@ -1,0 +1,41 @@
+id: catastro-vegetacional
+kind: dataset
+name: Catastro Vegetacional
+ai_label: data-infrastructure
+status: active
+summary: Dataset run and built by CONAF, started in 1993 as a national survey of land use and plant formations,
+  with recent updates using higher-resolution satellite imagery.
+website: https://www.conaf.cl/regulacion/informacion-geografica-o-territorial/catastro-vegetacional/
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cl
+facts:
+- claim: Started in 1993 as a national survey of land use and plant formations.
+  url: https://www.conaf.cl/regulacion/informacion-geografica-o-territorial/catastro-vegetacional/
+  fetched: '2026-11-02'
+  quote: dio inicio en el año 1993 al proyecto “Catastro y Evaluación de los Recursos Vegetacionales Nativos
+    de Chile”
+- claim: Recent updates use higher-resolution satellite imagery.
+  url: https://www.conaf.cl/regulacion/informacion-geografica-o-territorial/catastro-vegetacional/
+  fetched: '2026-11-02'
+  quote: imágenes satelitales de mejor resolución espacial
+links:
+- type: run-by
+  to: corporacion-nacional-forestal
+  url: https://www.conaf.cl/regulacion/informacion-geografica-o-territorial/catastro-vegetacional/
+  fetched: '2026-11-02'
+  quote: La información proporcionada por el Catastro es periódicamente actualizada por CONAF
+- type: built-by
+  to: corporacion-nacional-forestal
+  url: https://www.conaf.cl/regulacion/informacion-geografica-o-territorial/catastro-vegetacional/
+  fetched: '2026-11-02'
+  quote: la Corporación Nacional Forestal (CONAF) dio inicio en el año 1993 al proyecto “Catastro y Evaluación
+    de los Recursos Vegetacionales Nativos de Chile”
+found_by:
+- link-from:corporacion-nacional-forestal
+scope: cl
+added_by: agent
+checked: '2026-11-02'

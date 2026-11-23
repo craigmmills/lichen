@@ -1,0 +1,42 @@
+id: asmspotter
+kind: project
+name: ASMSpotter
+scope: de
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+website: https://dida.do/asmspotter-demo
+summary: AI tool for detecting artisanal mining from public Sentinel-2 data, built
+  by dida Datenschmiede; its demo case study reports increased deforestation in Brokopondo,
+  Suriname since 2017, and it won the Microsoft AI Award 2020.
+facts:
+- claim: Tool to detect artisanal mining activity using AI and public Sentinel-2 data.
+  url: https://dida.do/asmspotter-demo
+  fetched: 2026-11-21
+  quote: We developed ASMSpotter, a tool to automatically detect artisanal mining
+    activity using artificial intelligence. We use public data from the Sentinel 2
+    satellites.
+- claim: Its demo case study reports that deforestation in Brokopondo, Suriname, had
+    increased since 2017.
+  url: https://dida.do/asmspotter-demo
+  fetched: 2026-11-21
+  quote: The ASMSpotter demo case study shows that deforestation in Brokopondo has
+    increased since 2017
+- claim: Won the Microsoft AI Award 2020.
+  url: https://dida.do/asmspotter-demo
+  fetched: 2026-11-21
+  quote: ASMSpotter wins Microsoft AI Award 2020
+links:
+- type: built-by
+  to: dida-datenschmiede
+  url: https://dida.do/asmspotter-demo
+  fetched: 2026-11-21
+  quote: We developed ASMSpotter, a tool to automatically detect artisanal mining
+    activity using artificial intelligence.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

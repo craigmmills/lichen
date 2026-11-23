@@ -1,0 +1,122 @@
+id: mapbiomas-bolivia
+kind: programme
+name: MapBiomas Bolivia
+scope: bo
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- bo
+status: active
+website: https://bolivia.mapbiomas.org/
+summary: Programme producing annual Bolivian land cover maps since 1985 from 30-metre
+  Landsat imagery using machine learning, led by FAN, with 2025 alerts and burned
+  area maps, and seven local institutions in its network up to 2026.
+facts:
+- claim: Produces annual land cover and land use maps of all Bolivia since 1985 from
+    Landsat imagery at 30 metres, processed in Google Earth Engine.
+  url: https://bolivia.mapbiomas.org/iniciativas-y-productos/cobertura-y-uso-del-suelo/cobertura/
+  fetched: 2026-11-15
+  quote: Los mapas son producidos a partir de imágenes Landsat, con resolución espacial
+    de 30 metros, mediante procesamiento en Google Earth Engine
+- claim: The method applies machine learning techniques and manual work for each biome
+    and class.
+  url: https://bolivia.mapbiomas.org/iniciativas-y-productos/cobertura-y-uso-del-suelo/cobertura/
+  fetched: 2026-11-15
+  quote: aplicando técnicas de aprendizaje automático y trabajo manual para cada bioma
+    y clase
+- claim: The Collection 2 method document says sample locations were used to train
+    a Random Forest classifier.
+  url: https://bolivia.mapbiomas.org/wp-content/uploads/sites/5/2024/07/ATBD_General_MapBiomas_Bolivia_-_Coleccion_2.pdf
+  fetched: 2026-11-15
+  quote: ubicación sirvieron de insumo para entrenar el clasificador Random Forest.
+  ai_type: ml-supervised
+- claim: Its timeline lists the 2025 launch of native vegetation loss alerts for Bolivia
+    and a first MapBiomas Fuego collection of burned area maps for 1995 to 2025.
+  url: https://bolivia.mapbiomas.org/conoce-mapbiomas/
+  fetched: 2026-11-15
+  quote: MapBiomas Alerta Lanzamiento de las alertas de pérdida de vegetación nativa
+    en Bolivia.
+- claim: Says that up to 2026 the network is made up of seven local institutions monitoring
+    land change through its four initiatives.
+  url: https://bolivia.mapbiomas.org/conoce-mapbiomas/
+  fetched: 2026-11-15
+  quote: Hasta 2026, la red está integrada por siete instituciones locales que colaboran
+    en el monitoreo de las transformaciones del territorio
+links:
+- type: led-by
+  to: fundacion-amigos-de-la-naturaleza
+  url: https://bolivia.mapbiomas.org/conoce-mapbiomas/
+  fetched: 2026-11-15
+  quote: La Fundación Amigos de la Naturaleza (FAN) es la institución coordinadora
+    de las iniciativas que conforman MapBiomas Bolivia.
+- type: partners-with
+  to: mapbiomas
+  url: https://bolivia.mapbiomas.org/conoce-mapbiomas/
+  fetched: 2026-11-15
+  quote: MapBiomas Bolivia forma parte de la Red MapBiomas
+- type: built-by
+  to: fundacion-amigos-de-la-naturaleza
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: Co – creadores Fundación Amigos de la Naturaleza (FAN)
+- type: built-by
+  to: conservacion-amazonica-aceaa
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: Co – creadores Fundación Amigos de la Naturaleza (FAN) Conservación Amazónica
+    (ACEAA)
+- type: built-by
+  to: raisg
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: Red Amazónica de Información Socioambiental Georreferenciada (RAISG)
+- type: built-by
+  to: museo-de-historia-natural-noel-kempff-mercado
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: Museo de Historia Natural Noel Kempff Mercado (MHNNKM)
+- type: built-by
+  to: universidad-autonoma-gabriel-rene-moreno
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: Universidad Autónoma Gabriel René Moreno (UAGRM)
+- type: funded-by
+  to: the-audacious-project
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: 'Financiamiento: Audacious Project'
+- type: funded-by
+  to: quadrature-climate-foundation
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: 'Financiamiento: Audacious Project Quadrature Climate Foundation'
+- type: funded-by
+  to: skoll-foundation
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: 'Financiamiento: Audacious Project Quadrature Climate Foundation Skoll Fundation'
+- type: funded-by
+  to: gordon-and-betty-moore-foundation
+  url: https://bolivia.alerta.mapbiomas.org/quienes-somos/
+  fetched: 2026-11-15
+  quote: 'Financiamiento:
+
+    Audacious Project
+
+    Quadrature Climate Foundation
+
+    Skoll Fundation
+
+    Embajada de Suecia – Unión Europea
+
+    La Fundación Gordon y Betty Moore'
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

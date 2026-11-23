@@ -1,0 +1,49 @@
+id: komiu
+kind: organisation
+name: Yayasan Kompas Peduli Hutan
+also_known_as:
+- KOMIU
+- Komiu
+scope: id
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- id
+scale: local
+summary: Central Sulawesi environmental group and member of the MapBiomas Indonesia network.
+  It has calculated land lost to nickel mining.
+facts:
+- claim: Listed as a member of the MapBiomas Indonesia network for Central Sulawesi.
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: KOMIU Central Sulawesi from the Sulawesi region
+  fetched: '2026-10-31'
+- claim: The Pulitzer Center report says it calculated land lost to nickel mining up to 2021
+    at 36,000 hectares.
+  url: https://1619education.org/node/26035
+  quote: Komiu, a Central Sulawesi environmental non-government organization, calculated that
+    irrecoverable land due to nickel mining until 2021 reaches 36 thousand hectares
+  fetched: '2026-10-31'
+- claim: Merdeka reports that it pressed for a mining ban zone after finding a migratory bird
+    route in Palu Bay.
+  url: https://www.merdeka.com/peristiwa/read/8065462/penemuan-jalur-transit-burung-migrasi-di-teluk-palu-yayasan-komiu-desak-penetapan-zona-larangan-tambang
+  quote: Yayasan Komiu Desak Penetapan Zona Larangan Tambang
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: mapbiomas-indonesia
+  url: https://indonesia.mapbiomas.org/en/about
+  quote: KOMIU Central Sulawesi from the Sulawesi region
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

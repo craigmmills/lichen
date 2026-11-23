@@ -1,0 +1,33 @@
+id: donor-advised-charitable-giving
+kind: organisation
+name: Donor Advised Charitable Giving
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+summary: San Francisco donor-advised giving body named among recent grant makers to Global
+  Fishing Watch in 2024.
+facts:
+- claim: Named among the bodies that gave Global Fishing Watch grants in 2024.
+  url: https://impala.digital/public/profiles/81-5461345
+  quote: received grants from NATIONAL PHILANTHROPIC TRUST, THE CARL VICTOR PAGE MEMORIAL
+    FOUNDATION, and DONOR ADVISED CHARITABLE GIVING INC
+  fetched: &id001 2026-10-30
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://impala.digital/public/profiles/81-5461345
+  quote: GLOBAL FISHING WATCH INC received grants from NATIONAL PHILANTHROPIC TRUST, THE CARL
+    VICTOR PAGE MEMORIAL FOUNDATION, and DONOR ADVISED CHARITABLE GIVING INC
+  year: 2024
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

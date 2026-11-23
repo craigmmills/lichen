@@ -1,0 +1,45 @@
+id: boulder-imaging
+kind: organisation
+name: Boulder Imaging
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://boulderimaging.com
+summary: Machine vision company in Louisville, Colorado, that makes IdentiFlight, a system
+  for detecting sensitive bird species at wind farms.
+facts:
+- claim: Its site gives a Louisville, Colorado address.
+  url: https://boulderimaging.com
+  quote: Louisville, CO 80027
+  fetched: '2026-10-30'
+- claim: Says IdentiFlight combines optical systems with machine vision and AI software.
+  url: https://www.identiflight.com
+  quote: IdentiFlight’s technology combines high-performance optical systems with proprietary
+    machine vision and artificial intelligence software.
+  fetched: '2026-10-30'
+- claim: IdentiFlight uses neural network technologies.
+  url: https://www.identiflight.com
+  fetched: '2026-10-30'
+  quote: proprietary software, and neural network technologies process images
+  ai_type: deep-learning
+links:
+- type: runs
+  to: identiflight
+  url: https://www.cbsnews.com/colorado/news/identiflight-boulder-imaging-wind-turbines-windfarm-energy-environment
+  quote: IdentiFlight is a product of Boulder Imaging.
+  fetched: '2026-10-30'
+found_by:
+- link-from:identiflight
+added_by: agent
+checked: '2026-10-30'

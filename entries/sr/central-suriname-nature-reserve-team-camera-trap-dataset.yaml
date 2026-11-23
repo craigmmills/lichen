@@ -1,0 +1,40 @@
+id: central-suriname-nature-reserve-team-camera-trap-dataset
+kind: dataset
+name: Central Suriname Nature Reserve TEAM camera-trap dataset
+scope: sr
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- sr
+status: dormant
+runner: unknown
+summary: Legacy camera-trap dataset from 2008 to 2017 TEAM Network surveys, with 60
+  traps giving 54,060 trap-days, analysed with Wildlife Insights tools; the page says
+  nothing is recorded after 2017 and monitoring should resume.
+facts:
+- claim: Camera-trap surveys were run between 2008 and 2017 under the TEAM Network
+    protocol, with 60 camera traps giving 54,060 trap-days.
+  url: https://www.wildlifeinsights.org/stories/long-term-monitoring-baselines-provide-insights-protect-against-emerging-threats-suriname
+  fetched: 2026-11-12
+  quote: Between 2008 and 2017, camera trap surveys were systematically conducted
+    under the standardized Tropical Ecology Assessment and Monitoring (TEAM) Network
+    protocol.
+- claim: The Nature Conservation Division, with support from WWF-Guianas, analysed
+    the legacy dataset using Wildlife Insights tools.
+  url: https://www.wildlifeinsights.org/stories/long-term-monitoring-baselines-provide-insights-protect-against-emerging-threats-suriname
+  fetched: 2026-11-12
+  quote: With technical and facilitation support from WWF-Guianas, NCD analyzed the
+    legacy dataset using Wildlife Insights tools to generate species accumulation
+    curves and analyze jaguar activity patterns.
+- claim: The page says there are no data after 2017 and that standardised monitoring
+    should resume.
+  url: https://www.wildlifeinsights.org/stories/long-term-monitoring-baselines-provide-insights-protect-against-emerging-threats-suriname
+  fetched: 2026-11-12
+  quote: the absence of post-2017 data limits the ability to assess recent impacts
+    from logging and increased access. Resuming standardized monitoring is therefore
+    critical.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

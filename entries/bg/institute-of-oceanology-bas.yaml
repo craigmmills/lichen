@@ -1,0 +1,133 @@
+id: institute-of-oceanology-bas
+kind: organisation
+name: Institute of Oceanology "Fridtjof Nansen", Bulgarian Academy of Sciences
+also_known_as:
+- IO-BAS
+- Institute of Oceanology - Bulgarian Academy of Sciences
+scope: bg
+sector: academic
+roles:
+- unknown
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: bg
+countries:
+- bg
+scale: national
+status: active
+summary: Varna-based Bulgarian Academy of Sciences institute describing itself as a national
+  marine research centre, with an oceanographic data centre, coastal monitoring at Shkorpilovtsi
+  and GBIF data publisher registration.
+facts:
+- claim: OpenAlex gives the affiliation as the Institute of Oceanology of the Bulgarian Academy
+    of Sciences, Varna.
+  url: https://api.openalex.org/works/W7221525394
+  fetched: 2026-11-08
+  quote: Bulgarian Academy of Sciences, Varna, Bulgaria
+- claim: OpenAlex lists a 2026 paper by authors affiliated to the institute presenting a regional
+    Black Sea phytoplankton image dataset for automated flow cytometric monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210158346,concepts.id:C119857082|C108583219|C62649853,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Annotated Regional Black Sea Phytoplankton Image Dataset for Automated Flow Cytometric
+    Monitoring
+- claim: OpenAlex lists a 2026 paper on the development and long-term operation of automated
+    coastal monitoring stations in the LTER-BG network, with an author affiliated to the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210158346,concepts.id:C119857082|C108583219|C62649853,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Development and Long-Term Operation of Automated Coastal Monitoring Stations in the
+    LTER-BG Network
+- claim: Its marine biology and ecology department works on monitoring and assessment of water
+    quality and the state of the marine environment, and on Black Sea biodiversity.
+  url: https://io-bas.bg/en/marine-biology-and-ecology-en/
+  fetched: 2026-11-08
+  quote: monitoring and assessment of the ecological status of the water and the status of
+    the marine environment
+- claim: Its address is 40 Parvi May Street, Varna.
+  url: https://io-bas.bg/en/headquarters-en/
+  fetched: 2026-11-08
+  quote: 'Адрес: България, гр. Варна 9000, ул. “Първи май” № 40, ПК 152'
+- claim: Its site lists a Bulgarian National Oceanographic Data Centre.
+  url: https://io-bas.bg/
+  fetched: 2026-11-08
+  quote: Bulgarian National Oceanographic Data Centre
+- claim: In the BLACKBOX project, IO-BAS contributes coastal FerryBox observations and Bulgarian
+    monitoring data, drawing on its coastal monitoring infrastructure at Shkorpilovtsi.
+  url: https://io-bas.bg/en/international-projects/
+  fetched: 2026-11-08
+  quote: As the Bulgarian research partner, IO-BAS contributes to coastal FerryBox observations
+    and the integration of Bulgarian monitoring data into the regional initiative.
+- claim: Registered as a data publisher with GBIF.
+  url: https://api.gbif.org/v1/organization?country=BG&limit=100
+  fetched: 2026-11-08
+  quote: Institute of Oceanology - Bulgarian Academy of Sciences
+- claim: Describes itself as a national marine research and expert centre.
+  url: https://io-bas.bg/en/mission-en/
+  fetched: 2026-11-08
+  quote: National Marine Research and Expert Center integrated in the European scientific
+    space
+- claim: Its research aims at sustainable management of the Black Sea ecosystem.
+  url: https://io-bas.bg/en/mission-en/
+  fetched: 2026-11-08
+  quote: developing a strategy for sustainable development and management of the Black Sea
+    ecosystem
+- claim: Its national projects page lists agreements with the environment ministry, from 2017
+    to 2020, for IO-BAS to carry out monitoring under the Water Framework Directive and the
+    Marine Strategy Framework Directive.
+  url: https://io-bas.bg/en/national-projects/
+  fetched: 2026-11-08
+  quote: Agreement between MOEW and IO-BAS for fulfillment of the obligations of IO-BAS, arising
+    under art. 171, para 2, item 3 of the Water Act (WA) for implementation of the monitoring
+    requirements of the Water Framework Directive (WFD) and the Marine Strategy Framework
+    Directive (MFSD)
+- claim: Its national projects page lists a 2017 to 2019 project mapping the seabed of the
+    southern Bulgarian Black Sea coast for habitat classification.
+  url: https://io-bas.bg/en/national-projects/
+  fetched: 2026-11-08
+  quote: Seabed mapping of the southern Bulgarian Black Sea coastal zone for habitat classification
+- claim: Its site menu lists the Bulgarian National Oceanographic Data Centre under "Data
+    center".
+  url: https://io-bas.bg/en/mission-en/
+  fetched: 2026-11-08
+  quote: Data center Bulgarian National Oceanographic Data Centre
+- claim: Its address is in Varna, Bulgaria.
+  url: https://io-bas.bg/en/mission-en/
+  fetched: 2026-11-08
+  quote: България, гр. Варна 9000
+links:
+- type: partners-with
+  to: watchreeffish
+  url: https://io-bas.bg/en/international-projects/
+  fetched: 2026-11-08
+  quote: Institute of oceanology “Prof. Fridtjof Nansen”, Bulgarian Academy of Sciences (IO-BAS),
+    Bulgaria; Central Fisheries Research Institute (SUMAE), Türkiye.
+- type: partners-with
+  to: anemone-plus
+  url: https://io-bas.bg/en/international-projects/
+  fetched: 2026-11-08
+  quote: Ecological Nonguvernamental Organization Mare Nostrum, Romania; Institute of oceanology
+    – BAS (IO-BAS), Bulgaria
+- type: partners-with
+  to: blackbox-ferrybox-black-sea
+  url: https://io-bas.bg/en/international-projects/
+  fetched: 2026-11-08
+  quote: As the Bulgarian research partner, IO-BAS contributes to coastal FerryBox observations
+    and the integration of Bulgarian monitoring data into the regional initiative.
+- type: partners-with
+  to: watchreeffish
+  url: https://io-bas.bg/en/international-projects/
+  fetched: 2026-11-08
+  quote: Institute of oceanology "Prof. Fridtjof Nansen", Bulgarian Academy of Sciences (IO-BAS),
+    Bulgaria; Central Fisheries Research Institute (SUMAE)
+- type: partners-with
+  to: anemone-plus
+  url: https://io-bas.bg/en/international-projects/
+  fetched: 2026-11-08
+  quote: Institute of oceanology - BAS (IO-BAS), Bulgaria
+found_by:
+- checklist:3
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

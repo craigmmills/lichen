@@ -1,0 +1,42 @@
+id: birdex
+kind: organisation
+name: Birdex
+scope: gb
+sector: company
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+hq: gb
+scale: national
+status: active
+website: https://birdexapp.com
+summary: Gamified birdwatching app with AI sound and photo identification, which publishes
+  its sightings on GBIF.
+facts:
+- claim: Describes itself as a gamified birdwatching app.
+  url: https://birdexapp.com/pages/app-terms-of-service
+  fetched: '2026-10-30'
+  quote: Birdex is a gamified birdwatching app available on iOS and Android
+- claim: Includes AI identification from sound and photographs.
+  url: https://birdexapp.com/pages/app-terms-of-service
+  fetched: '2026-10-30'
+  quote: 'Birdex includes AI-powered identification features: Sound ID (identifying birds
+    from songs and calls, processed on your device)'
+- claim: Publishes the dataset "Birdex Bird Sightings" on GBIF.
+  url: https://api.gbif.org/v1/organization/87c115fe-dfcb-427f-a1fd-86a24bd9edf5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Birdex Bird Sightings
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/87c115fe-dfcb-427f-a1fd-86a24bd9edf5/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

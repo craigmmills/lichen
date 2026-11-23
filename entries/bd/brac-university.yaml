@@ -1,0 +1,33 @@
+id: brac-university
+kind: organisation
+name: BRAC University
+also_known_as: []
+scope: bd
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: bd
+countries: []
+scale: national
+status: active
+summary: Dhaka university whose researchers wrote a 2025 paper comparing the effects of light
+  pollution on moths using machine learning and explainable AI.
+facts:
+- claim: Its researchers wrote a 2025 paper comparing the effects of light pollution on moths
+    using machine learning and explainable AI.
+  url: https://api.openalex.org/works/W4413860021?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: A Comparative Study of Light Pollution Effects on Moths Using Machine Learning and
+    Explainable AI
+- claim: OpenAlex gives all five authors' affiliation as Brac University, Dhaka.
+  url: https://api.openalex.org/works/W4413860021?select=id,title,publication_year,authorships
+  fetched: '2026-11-07'
+  quote: Brac University, Dhaka, Bangladesh
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-07'

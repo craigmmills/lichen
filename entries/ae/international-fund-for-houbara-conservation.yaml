@@ -1,0 +1,46 @@
+id: international-fund-for-houbara-conservation
+kind: organisation
+name: International Fund for Houbara Conservation
+scope: ae
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: ae
+scale: regional
+status: active
+website: https://houbarafund.gov.ae
+summary: Houbara bustard conservation body that says it has used science for over forty years; OpenAlex
+  lists a 2011 satellite tracking paper and a 2010 Kazakhstan population assessment tied to it or its
+  avian research centre.
+facts:
+- claim: Says it has used science for more than forty years to restore wild populations of the houbara
+    bustard.
+  url: https://houbarafund.gov.ae
+  fetched: '2026-11-08'
+  quote: IFHC is a global leader in pre-emptive species conservation, which, for more than forty years,
+    has used science to pioneer ground-breaking techniques to restore wild populations of the houbara
+    bustard.
+- claim: OpenAlex lists a 2011 PLoS ONE paper on 15 years of satellite tracking of Asian houbara bustards,
+    whose first author gave the Fund as affiliation.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:https://ror.org/03r7weh48&per-page=25
+  fetched: '2026-11-08'
+  quote: 'Migratory Pathways and Connectivity in Asian Houbara Bustards: Evidence from 15 Years of Satellite
+    Tracking'
+- claim: OpenAlex lists a 2010 ten-year assessment of Asian houbara populations in Kazakhstan, whose first
+    author gave the Fund's National Avian Research Center as affiliation.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:https://ror.org/03r7weh48&per-page=25
+  fetched: '2026-11-08'
+  quote: 'A 10-year assessment of Asian Houbara Bustard populations: trends in Kazakhstan reveal important
+    regional differences'
+- claim: Gives a PO Box address in Abu Dhabi.
+  url: https://houbarafund.gov.ae
+  fetched: '2026-11-08'
+  quote: 129555, Abu Dhabi, United Arab Emirates
+found_by:
+- register:ae
+- rule:ngo-broad
+added_by: agent
+checked: '2026-11-08'

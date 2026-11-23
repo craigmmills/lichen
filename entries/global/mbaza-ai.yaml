@@ -1,0 +1,39 @@
+id: mbaza-ai
+kind: model
+name: Mbaza AI
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ga
+status: active
+summary: Open camera trap image classifier built by University of Stirling researchers with Appsilon's machine learning team, for the National Parks Agency in Gabon with support from Panthera.
+facts:
+- claim: Built by University of Stirling researchers with help from Appsilon's ML team.
+  url: https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/
+  fetched: '2026-10-30'
+  quote: researchers at the University of Stirling successfully implemented one such solution tackling the latter issue - the Mbaza AI.
+- claim: "The Mbaza AI modelling repository records staying with ResNet50."
+  url: https://github.com/Appsilon/gabon_wildlife_training
+  fetched: '2026-10-30'
+  quote: "stuck to ResNet50"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: university-of-stirling
+  url: https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/
+  fetched: '2026-10-30'
+  quote: "researchers at the University of Stirling successfully implemented one such solution tackling the latter issue - the Mbaza AI."
+- type: partners-with
+  to: panthera
+  url: https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/
+  fetched: '2026-10-30'
+  quote: "with support from the Panthera Corp and funding from the Google for Education fund. ‍ The goal was to resolve the aforementioned barriers and create an easy-to-use, open-source, and scalable software tool called Mbaza AI"
+found_by:
+- checklist:regional-research-networks
+added_by: agent
+checked: '2026-10-30'

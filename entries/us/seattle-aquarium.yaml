@@ -1,0 +1,58 @@
+id: seattle-aquarium
+kind: organisation
+name: Seattle Aquarium
+scope: us
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: us
+countries:
+- us
+scale: local
+website: https://www.seattleaquarium.org
+summary: Public aquarium whose research team surveys kelp forests by remotely operated vehicle
+  and uses open-source AI to read the images.
+facts:
+- claim: Uses AI to interpret images and video from its ROV surveys in Elliott Bay.
+  url: https://www.seattleaquarium.org/stories/ai-goes-below-surface-using-technology-make-difference-local-kelp/
+  quote: we’re harnessing the power of artificial intelligence (AI) to interpret the still
+    images and video being captured by ROV Nereo’s cameras
+  fetched: '2026-10-31'
+- claim: Trains models in the open-source CoralNet-Toolbox software on its ROV images.
+  url: https://www.zooniverse.org/projects/zhrandell/kelp-quest-seattle-aquarium/about/research
+  quote: we trained our model to examine small sections of our ROV images and predict which
+    of 28 benthic categories appears at a specific point
+  fetched: '2026-10-31'
+- claim: Its about page gives 1483 Alaskan Way, Pier 59, Seattle.
+  url: https://www.seattleaquarium.org/about/
+  fetched: '2026-10-31'
+  quote: 1483 Alaskan Way, Pier 59
+- claim: The IRS exempt organisation record, through ProPublica, lists Seattle Aquarium Society-seas
+    at Seattle, Washington.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/911189249.json
+  fetched: '2026-10-31'
+  quote: '"city":"Seattle","state":"WA"'
+links:
+- type: runs
+  to: kelp-quest
+  url: https://www.zooniverse.org/projects/zhrandell/kelp-quest-seattle-aquarium/about/research
+  quote: Kelp Quest (Seattle Aquarium)
+  fetched: '2026-10-31'
+- type: partners-with
+  to: port-of-seattle
+  url: https://www.seattleaquarium.org/stories/ai-goes-below-surface-using-technology-make-difference-local-kelp/
+  quote: Now the Seattle Aquarium is partnering with the Port of Seattle to study kelp forests
+    in Elliott Bay using a remotely operated vehicle
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

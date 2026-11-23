@@ -1,0 +1,48 @@
+id: wildobs-qld-wet-tropics-model
+kind: model
+name: WildObs QLD Wet Tropics model
+scope: au
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+website: https://www.wildobs.org.au/cv-models
+summary: Region-specific computer vision model for wildlife camera-trap images from
+  the Australian Wet Tropics, fine-tuned from SpeciesNet.
+facts:
+- claim: Trained on about 30,000 curated and labelled images from a dataset of about
+    2.18 million images and 121 species.
+  url: https://www.wildobs.org.au/cv-models
+  fetched: '2026-10-31'
+  quote: 'Underlying dataset : 454 camera deployments, ~2.18 million images, 121 recorded
+    species'
+- claim: WildObs reports evaluation results frequently above 95% F1-score.
+  url: https://www.wildobs.org.au/cv-models
+  fetched: '2026-10-31'
+  quote: evaluation results frequently exceeding 95% F1-score
+links:
+- type: run-by
+  to: wildlife-observatory-of-australia
+  url: https://www.wildobs.org.au/cv-models
+  fetched: '2026-10-31'
+  quote: WildObs provides region-specific computer vision models optimised for particular
+    environments and species assemblages.
+- type: builds-on
+  to: speciesnet
+  url: https://www.wildobs.org.au/cv-models
+  fetched: '2026-10-31'
+  quote: Trained on a curated subset of tagged images from the WildObs repository
+    and fine-tuned using SpeciesNet
+- type: builds-on
+  to: wildobs-tagged-image-repository
+  url: https://www.wildobs.org.au/cv-models
+  fetched: '2026-10-31'
+  quote: Trained on a curated subset of tagged images from the WildObs repository
+found_by:
+- link-from:wildlife-observatory-of-australia
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,55 @@
+id: fundemar-manatee-drone-photo-identification
+kind: project
+name: Manatee photo-identification project (FUNDEMAR)
+scope: do
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- do
+status: active
+summary: An active project run and built by FUNDEMAR, partnered with the environment
+  ministry, that began in June 2023 using drones to photograph manatees; identification
+  was manual, with matching software only a planned partnership.
+facts:
+- claim: Diario Libre reports that FUNDEMAR began a manatee photo-identification project
+    in the second week of June 2023.
+  url: https://www.diariolibre.com/planeta/medioambiente/2023/07/20/un-proyecto-para-identificar-manaties-republica-dominicana/2408120
+  fetched: 2026-11-12
+  quote: en la segunda semana de junio de 2023 se inició un proyecto de foto identificación
+    de manatíes por parte de Fundemar.
+- claim: In July 2023, the project was flying drones to photograph each animal's tail,
+    back and face, and recording population density, behaviour and habitat conditions.
+  url: https://www.diariolibre.com/planeta/medioambiente/2023/07/20/un-proyecto-para-identificar-manaties-republica-dominicana/2408120
+  fetched: 2026-11-12
+  quote: El proyecto consiste en hacer vuelos con drones de última generación para
+    tomar fotos de la cola, lomo y cara de cada animal
+- claim: Identification was manual in 2023, with FUNDEMAR working on partnerships
+    to develop matching software, an announced plan.
+  url: https://www.diariolibre.com/planeta/medioambiente/2023/07/20/un-proyecto-para-identificar-manaties-republica-dominicana/2408120
+  fetched: 2026-11-12
+  quote: pero estamos trabajando en alianzas para desarrollar ese software.
+links:
+- type: run-by
+  to: fundemar
+  url: https://www.diariolibre.com/planeta/medioambiente/2023/07/20/un-proyecto-para-identificar-manaties-republica-dominicana/2408120
+  fetched: &id001 2026-11-12
+  quote: El proyecto de Fundemar pretende dar seguimiento a los manatíes en la costa
+    dominicana
+- type: partners-with
+  to: ministerio-de-medio-ambiente-y-recursos-naturales-republica-dominicana
+  url: https://www.diariolibre.com/planeta/medioambiente/2023/07/20/un-proyecto-para-identificar-manaties-republica-dominicana/2408120
+  fetched: 2026-11-12
+  quote: Además el proyecto cuenta con el apoyo del Ministerio de Medio Ambiente
+- type: built-by
+  to: fundemar
+  url: https://www.diariolibre.com/planeta/medioambiente/2023/07/20/un-proyecto-para-identificar-manaties-republica-dominicana/2408120
+  fetched: *id001
+  quote: en la segunda semana de junio de 2023 se inició un proyecto de foto identificación
+    de manatíes por parte de Fundemar.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

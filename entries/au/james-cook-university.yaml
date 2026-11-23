@@ -1,0 +1,57 @@
+id: james-cook-university
+kind: organisation
+name: James Cook University
+scope: au
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+hq: unknown
+countries:
+- au
+scale: national
+status: active
+summary: University named as recipient of an ARC Discovery grant on acoustics for biodiversity
+  assessment, and as a Reef Restoration and Adaptation Program partner.
+facts:
+- claim: Named as grant recipient on the GrantConnect record.
+  url: https://www.grants.gov.au/Ga/Show/92dbb55d-8b28-4738-ae33-e264d29fe709
+  fetched: '2026-10-31'
+  quote: James Cook University
+- claim: Named as an RRAP partner.
+  url: https://gbrrestoration.org/the-program/
+  fetched: '2026-10-31'
+  quote: Partners include the Great Barrier Reef Foundation, the Australian Institute of Marine
+    Science, CSIRO, James Cook University
+- claim: The Australian Acoustic Observatory says the lab developed call recognisers for the
+    red fox and dingo.
+  url: https://acousticobservatory.org/use-cases/
+  fetched: '2026-10-31'
+  quote: We have also developed call recognisers for the Red fox and the Dingo
+found_by:
+- checklist:3
+- link-from:australian-acoustic-observatory
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- JCU
+links:
+- type: partners-with
+  to: australian-acoustic-observatory
+  url: https://acousticobservatory.org/partners/
+  fetched: '2026-10-31'
+  quote: This leading collaborative research also involves important relationships with the
+    universities represented by the Chief Investigators —Charles Sturt University (CSU), James
+    Cook University (JCU)
+- type: partners-with
+  to: open-ecoacoustics
+  url: https://ardc.edu.au/project/open-ecoacoustics/
+  fetched: '2026-10-31'
+  quote: Current partners QUT (project lead) ARDC James Cook University

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<style>
+/* Ink on paper, PT Serif for reading, Barlow Condensed for labels. Flat fills, square corners, no shadows.
+   Orange is used once: the fix button on the open record. */
+@font-face { font-family: "PT Serif"; src: local("PT Serif"), url(fonts/PTSerif-Regular.woff2) format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: local("PT Serif Bold"), url(fonts/PTSerif-Bold.woff2) format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: local("PT Serif Italic"), url(fonts/PTSerif-Italic.woff2) format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: local("Barlow Condensed Medium"), url(fonts/BarlowCondensed-Medium.woff2) format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: local("Barlow Condensed SemiBold"), url(fonts/BarlowCondensed-SemiBold.woff2) format("woff2"); font-weight: 600; font-display: swap; }
+:root {
+  --ink: #262a2b; --paper: #f5f2ea; --slate: #4e5a63; --orange: #d94f26; --concrete: #d9d3c3; --rule: #d8d2c4; --tint: #ece8dc;
+  --serif: "PT Serif", Georgia, "Times New Roman", serif;
+  --label: "Barlow Condensed", "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; padding: 2.5rem 1.5rem 4rem; background: var(--paper); color: var(--ink); font: 18px/1.6 var(--serif); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 52rem; margin: 0 auto; display: flex; flex-direction: column; gap: 1.6rem; }
+.masthead { border-bottom: 1px solid var(--ink); padding-bottom: .7rem; font: 700 1.6rem/1 var(--serif); letter-spacing: -.01em; }
+h1 { font: 700 clamp(1.8rem, 4.4vw, 2.7rem)/1.12 var(--serif); letter-spacing: -.012em; margin: 1.2rem 0 1rem; text-wrap: balance; }
+.lede { font-size: 1.1rem; margin: 0; max-width: 40rem; text-wrap: pretty; }
+.totals { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; font: 600 .85rem/1.6 var(--label); text-transform: uppercase; letter-spacing: .1em; color: var(--slate); }
+.totals b { font: 700 1.25rem/1 var(--serif); letter-spacing: 0; color: var(--ink); margin-right: .25rem; font-variant-numeric: tabular-nums; }
+[hidden] { display: none !important; }
+input, select, button { font: 400 1rem/1.3 var(--serif); color: var(--ink); background: var(--paper); border: 1px solid var(--ink); border-radius: 0; padding: .55rem .7rem; min-width: 0; }
+select { font: 600 .9rem/1.3 var(--label); letter-spacing: .04em; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+.find { display: flex; flex-direction: column; gap: .6rem; }
+#q { font-size: 1.15rem; padding: .85rem 1rem; width: 100%; border-width: 2px; }
+#q::placeholder { color: var(--slate); font-style: italic; }
+.filters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.filters select { flex: 1 1 9rem; max-width: 100%; }
+.count { font: 600 .85rem/1.5 var(--label); text-transform: uppercase; letter-spacing: .12em; color: var(--slate); }
+.list { display: flex; flex-direction: column; border-top: 1px solid var(--ink); }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) max-content; gap: .1rem 1rem; padding: .7rem .3rem; border: 0; border-bottom: 1px solid var(--rule); text-align: left; background: transparent; width: 100%; }
+.row:hover, .row[aria-expanded="true"] { background: var(--tint); }
+.row b { font-weight: 700; overflow-wrap: anywhere; }
+.row small { grid-column: 1; font: 500 .85rem/1.5 var(--label); letter-spacing: .06em; text-transform: uppercase; color: var(--slate); }
+.chip { grid-row: 1 / span 2; grid-column: 2; align-self: center; font: 600 .72rem/1.5 var(--label); text-transform: uppercase; letter-spacing: .1em; color: var(--slate); border: 1px solid var(--concrete); padding: .1rem .5rem; white-space: nowrap; }
+.open { padding: 1rem .3rem 1.6rem; border-bottom: 1px solid var(--ink); display: flex; flex-direction: column; gap: .7rem; font-size: 1rem; min-width: 0; }
+.open p { margin: 0; max-width: 40rem; text-wrap: pretty; }
+.open h3 { font: 600 .85rem/1.5 var(--label); text-transform: uppercase; letter-spacing: .12em; color: var(--slate); margin: .8rem 0 0; }
+a { color: var(--ink); text-underline-offset: .2em; overflow-wrap: anywhere; }
+blockquote { margin: .3rem 0 0; padding-left: .9rem; border-left: 2px solid var(--concrete); color: var(--slate); font-style: italic; font-size: .95rem; max-width: 40rem; overflow-wrap: anywhere; }
+.src { font: 500 .85rem/1.5 var(--label); letter-spacing: .04em; color: var(--slate); }
+.links { display: flex; flex-wrap: wrap; gap: .4rem; } .links button { font: 500 .85rem/1.3 var(--label); letter-spacing: .04em; padding: .25rem .6rem; border-color: var(--concrete); }
+.links button:hover { border-color: var(--ink); }
+.act { display: inline-block; font: 700 1.05rem/1 var(--serif); text-decoration: none; color: var(--ink); background: none; border: 2px solid var(--ink); padding: .75rem 1.1rem; }
+.fix .act { color: var(--paper); background: var(--orange); border-color: var(--orange); }
+.fix { display: flex; flex-direction: column; gap: .4rem; align-items: flex-start; margin-top: .3rem; }
+#more { align-self: flex-start; font: 600 .9rem/1 var(--label); text-transform: uppercase; letter-spacing: .1em; padding: .7rem 1rem; }
+#more:hover { background: var(--ink); color: var(--paper); }
+.add { border-top: 1px solid var(--ink); padding-top: 1.4rem; display: flex; flex-direction: column; gap: .7rem; align-items: flex-start; }
+.add p { margin: 0; max-width: 40rem; }
+.note { font-size: .92rem; color: var(--slate); max-width: 40rem; margin: 0; text-wrap: pretty; }
+#foot { border-top: 1px solid var(--ink); padding-top: .75rem; max-width: none; font: 600 .72rem/1.5 var(--label); text-transform: uppercase; letter-spacing: .12em; }
+code { font: 600 .9em var(--label); letter-spacing: .03em; background: var(--tint); padding: .05rem .35rem; overflow-wrap: anywhere; }
+@media (max-width: 44rem) { body { padding: 1.5rem 1.1rem 3rem; font-size: 17px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="masthead">lichen</div>
+    <h1 id="t-title"></h1>
+    <p class="lede" id="t-lede"></p>
+  </header>
+  <div class="totals" id="totals"></div>
+  <section class="find">
+    <input type="search" id="q" autocomplete="off" placeholder="Type the name of an organisation, project or dataset" aria-label="Search records by name">
+    <div class="filters">
+      <select id="f-place" aria-label="Country"></select><select id="f-kind" aria-label="Kind"></select><select id="f-sector" aria-label="Sector"></select><select id="f-label" aria-label="Technology"></select>
+    </div>
+    <div class="count" id="count">Loading records</div>
+  </section>
+  <div class="list" id="list"></div>
+  <button id="more" hidden>Show more</button>
+  <section class="add" id="add">
+    <p><b>Can't find it?</b> If an organisation, project, dataset or model is missing, send its name, its website and a public page that shows what it does with data or AI for nature.</p>
+    <a class="act" id="addbtn">Add a record by email</a>
+    <p class="src" id="addalt"></p>
+  </section>
+  <p class="note">How corrections work: an AI agent reads each email and checks the change against the public page you link to. A change goes in only when a public page supports it, so the quickest route is to make sure the fact is on your own website. Requests to remove a record are read by a person. Your email address is kept private and used only to reply.</p>
+  <p class="note">How to read a record: AI agents built these records from public pages in October and November 2026, and no person has reviewed them one by one. In blind samples about one record in ten had a fault. "None shown" means the pages read showed no technology, which is weaker than saying there is none. Records of individual people are left out.</p>
+  <p class="note" id="foot"></p>
+</div>
+<script>
+const C = /*CONFIG*/{}, S = /*STATS*/{};
+const $ = id => document.getElementById(id);
+const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
+const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
+const fmt = n => n.toLocaleString("en-GB");
+const KIND = ["Organisation", "Project", "Programme", "Dataset", "Model"];
+const SECTOR = ["Government", "NGO", "Academic", "Company", "Indigenous and community", "Funder", "Multilateral"];
+const ROLE = ["Builds AI", "Uses AI", "Supplies data", "Manages a place", "Funds", "Convenes"];
+const LABEL = ["AI", "Technology, no AI", "Nature data", "None shown"];
+const mail = (subject, body) => `mailto:${C.address}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+const FIXBODY = "What is wrong or out of date:\n\n\nWhat it should say:\n\n\nPublic page that shows it (link):\n\n\nYour connection to this record (optional):\n\n";
+const ADDBODY = "Name:\n\nWebsite:\n\nCountry:\n\nWhat it does with data or AI for nature, in a sentence or two:\n\n\nPublic page that shows it (link):\n\n\nYour connection to it (optional):\n\n";
+
+$("t-title").textContent = C.title; $("t-lede").textContent = C.lede;
+$("totals").innerHTML = [[fmt(S.records), "records"], [S.countries, "countries and territories"], [fmt(S.facts), "quoted facts"], [fmt(S.sites), "websites read"]].map(([b, s]) => `<span><b>${b}</b> ${s}</span>`).join("");
+$("foot").innerHTML = `Built ${esc(S.built)}.` + (C.repo ? ` The data, and how to count from it, is at <a href="${esc(C.repo)}">${esc(C.repo.replace(/^https?:\/\//, ""))}</a>.` : "");
+$("addbtn").href = mail("[lichen new] ", ADDBODY);
+$("addalt").innerHTML = `If the button does nothing, write to <code>${esc(C.address)}</code> with <code>[lichen new]</code> in the subject.`;
+
+let ROWS = null, shown = 40, openId = null; const cache = {};
+const scopeName = Object.fromEntries(S.scopes.map(([s, n]) => [s, n]));
+function fill(id, first, opts) { $(id).innerHTML = `<option value="">${esc(first)}</option>` + opts.map(([v, t]) => `<option value="${esc(v)}">${esc(t)}</option>`).join(""); }
+fill("f-place", "Everywhere", S.scopes.map(([s, n, k]) => [s, `${n} (${fmt(k)})`]));
+fill("f-kind", "All kinds", KIND.map((k, i) => [i, k + "s"])); fill("f-sector", "All sectors", SECTOR.map((k, i) => [i, k])); fill("f-label", "Any technology", LABEL.map((k, i) => [i, k]));
+["f-place", "f-kind", "f-sector", "f-label"].forEach(i => $(i).addEventListener("change", () => { shown = 40; render(); }));
+let timer; $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => { shown = 40; render(); }, 120); });
+$("more").addEventListener("click", () => { shown += 100; render(); });
+
+function matches() {
+  const words = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean), p = $("f-place").value, k = $("f-kind").value, s = $("f-sector").value, l = $("f-label").value;
+  const m = ROWS.filter(x => (!p || x[3] === p) && (k === "" || x[2] === +k) && (s === "" || x[4] === +s) && (l === "" || x[6] === +l) && words.every(w => x[8].includes(w)));
+  if (words.length) { const q = words.join(" "); const rank = x => { const n = x[1].toLowerCase(); return n === q ? 0 : n.startsWith(q) ? 1 : n.includes(q) ? 2 : 3; }; m.sort((a, b) => rank(a) - rank(b)); }
+  return m;
+}
+function render() {
+  if (!ROWS) return;
+  const m = matches();
+  $("count").textContent = m.length === ROWS.length ? `${fmt(m.length)} records` : `${fmt(m.length)} of ${fmt(ROWS.length)} records`;
+  const L = $("list"); L.innerHTML = "";
+  if (!m.length) L.append(el("p", "note", "No record matches. Try fewer words, or add it with the button below."));
+  m.slice(0, shown).forEach(x => {
+    const b = el("button", "row"); b.setAttribute("aria-expanded", openId === x[0]);
+    b.innerHTML = `<b>${esc(x[1])}</b><small>${[KIND[x[2]], x[4] >= 0 ? SECTOR[x[4]] : null, scopeName[x[3]]].filter(Boolean).map(esc).join(" · ")}</small><span class="chip">${LABEL[x[6]]}</span>`;
+    b.addEventListener("click", () => { openId = openId === x[0] ? null : x[0]; history.replaceState(null, "", openId ? "#" + openId : location.pathname + location.search); render(); });
+    L.append(b);
+    if (openId === x[0]) L.append(detail(x));
+  });
+  $("more").hidden = m.length <= shown;
+}
+function detail(x) {
+  const d = el("div", "open"), ref = `[lichen ${x[3]}/${x[0]}]`, put = rec => {
+    if (!rec) { d.innerHTML = "<p>Could not load this record. Try again in a moment.</p>"; return; }
+    const [sum, web, facts, links] = rec; let h = `<p>${esc(sum)}</p>`;
+    const roles = ROLE.filter((_, i) => (x[5] >> i) & 1); if (roles.length) h += `<p class="src">${roles.map(esc).join(" · ")}</p>`;
+    if (/^https?:\/\//.test(web)) h += `<p><a href="${esc(web)}" target="_blank" rel="noopener">${esc(web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></p>`;
+    h += `<div class="fix"><a class="act" href="${esc(mail(`${ref} ${x[1]}`, FIXBODY))}">Suggest a fix by email</a><p class="src">If the button does nothing, write to <code>${esc(C.address)}</code> and put <code>${esc(ref)}</code> in the subject.</p></div>`;
+    if (facts.length) h += "<h3>What the pages say</h3>" + facts.map(f => `<div><p>${esc(f[0])}</p><blockquote>${esc(f[2])}</blockquote><p class="src">${/^https?:\/\//.test(f[1]) ? `<a href="${esc(f[1])}" target="_blank" rel="noopener">${esc((f[1].match(/^https?:\/\/(?:www\.)?([^/]+)/) || [0, f[1]])[1])}</a>` : esc(f[1])}, read ${esc(f[3])}</p></div>`).join("");
+    d.innerHTML = h;
+    if (links.length) { d.append(el("h3", "", "Linked records")); const w = el("div", "links");
+      links.forEach(l => { const b = el("button", "", `${esc(l[0].replace(/-/g, " "))}: ${esc(l[2])}`); b.addEventListener("click", () => go(l[1])); w.append(b); }); d.append(w); }
+  };
+  const key = x[0][0];
+  if (cache[key]) put(cache[key][x[0]]);
+  else { d.innerHTML = '<p class="src">Loading</p>'; fetch(`data/s/${key}.json`).then(r => r.json()).then(j => { cache[key] = j; put(j[x[0]]); }).catch(() => put(null)); }
+  return d;
+}
+function go(id) {
+  const x = ROWS.find(r => r[0] === id); if (!x) return;
+  ["f-place", "f-kind", "f-sector", "f-label"].forEach(i => $(i).value = ""); $("q").value = x[1]; openId = id; shown = 40;
+  history.replaceState(null, "", "#" + id); render();
+}
+fetch("data/index.json").then(r => r.json()).then(j => {
+  j.forEach(x => x[8] = (x[1] + " " + x[7]).toLowerCase()); ROWS = j;
+  const id = decodeURIComponent(location.hash.slice(1)); if (id && ROWS.some(r => r[0] === id)) go(id); else render();
+}).catch(() => { $("count").textContent = "Could not load the records. Try reloading the page."; });
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+id: fire-scout
+kind: model
+name: Fire Scout
+scope: kr
+ai_label: ai
+status: active
+summary: Detects smoke and other anomalies in real time from mountain cameras, and a 2023 report says
+  California uses it on about 1,000 cameras.
+facts:
+- claim: Detects smoke and other anomalies in real time from cameras on mountains.
+  url: https://www.newsis.com/view/NISX20230412_0002263831
+  fetched: '2026-11-02'
+  quote: AI가 실시간으로 산을 비추는 카메라 영상에서 연기 등 이상상황을 감지한다.
+- claim: A 2023 report says California uses it on about 1,000 cameras.
+  url: https://www.newsis.com/view/NISX20230412_0002263831
+  fetched: '2026-11-02'
+  quote: 전역에 분포한 1000여 대의 카메라를 통해 재난을 예측·대응하고 있다.
+links: []
+found_by:
+- checklist:5
+also_known_as:
+- 파이어 스카우트
+realms:
+- land
+techniques:
+- computer-vision
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

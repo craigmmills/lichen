@@ -1,0 +1,48 @@
+id: ilam-university
+kind: organisation
+name: Ilam University
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+ai_types:
+- ml-supervised
+techniques:
+- computer-vision
+- remote-sensing
+hq: ir
+scale: national
+status: active
+summary: Iranian university whose authors appear in OpenAlex on two machine learning papers,
+  from 2021 on medicinal plant leaf recognition with a neural network classifier and 2024
+  on forest restoration from satellite images.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2021 machine learning paper: Recognition
+    of leaves of different medicinal plant species using a robust image processing algorithm
+    and artificial neural networks classifier.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Recognition of leaves of different medicinal plant species using a robust image processing
+    algorithm and artificial neural networks classifier
+- claim: 'Its authors are listed by OpenAlex on a 2024 machine learning paper: Machine Learning
+    for Modeling Vegetation Restoration of Forests Using Satellite Images.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Machine Learning for Modeling Vegetation Restoration of Forests Using Satellite Images
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Mechanical Engineering of Biosystems Department, Ilam University, Ilam, Iran
+- ai_type: ml-supervised
+  claim: The title names an artificial neural network classifier.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Recognition of leaves of different medicinal plant species using a robust image processing
+    algorithm and artificial neural networks classifier
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

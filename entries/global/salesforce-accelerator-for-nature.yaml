@@ -1,0 +1,50 @@
+id: salesforce-accelerator-for-nature
+kind: programme
+name: Salesforce Accelerator for Nature
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- bioacoustics
+status: active
+summary: Salesforce grant programme announced at COP27 that gave $1 million to four nonprofits to test nature-based solutions; recipients included Rainforest Connection, Island Conservation and GreenWave. Current status not checked.
+facts:
+- claim: Provides $1 million to help four nonprofits.
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: &id001 2026-10-30
+  quote: Accelerator funding will provide $1 million to help four nonprofits test and scale nature-based solutions
+- claim: Recipients explore ocean farming, remote sensing and acoustic monitoring.
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: *id001
+  quote: regenerative ocean farming, remote sensing and modeling systems, and acoustic monitoring technologies
+links:
+- type: run-by
+  to: salesforce
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: *id001
+  quote: the first four recipients of Salesforce’s Accelerator for Nature
+- type: funds
+  to: rainforest-connection
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: *id001
+  quote: Through the Accelerator, Rainforest Connection will build a scalable, real-time monitoring system
+  year: 2022
+- type: funds
+  to: island-conservation
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: *id001
+  quote: Through the Accelerator, Island Conservation will build an interactive system to monitor island forest carbon using remote sensing and modeling.
+  year: 2022
+- type: funds
+  to: greenwave
+  url: https://www.salesforce.com/news/stories/salesforce-accelerator-for-nature/
+  fetched: *id001
+  quote: Through the Accelerator, GreenWave will build a scalable data collection
+  year: 2022
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

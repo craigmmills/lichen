@@ -1,0 +1,44 @@
+id: politecnico-di-torino
+kind: organisation
+name: Politecnico di Torino
+scope: it
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: A university partnering with ARPA Valle d'Aosta on Alpine land cover research, with
+  a 2023 OpenAlex-listed paper by its authors on AI forecasting of FAPAR.
+facts:
+- claim: ARPA Valle d'Aosta says the deep learning framework for Alpine land use and land
+    cover was developed with the Politecnico di Torino.
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: Lo studio, “A Multi-Modal Deep Learning Framework for High-Resolution Alpine Land
+    Use/Land Cover” , sviluppato da ARPA Valle d'Aosta insieme al Politecnico di Torino e
+    a DigiSky
+  ai_type: deep-learning
+- claim: OpenAlex lists a 2023 paper by Politecnico di Torino authors on using AI to forecast
+    the seasonal Earth observation signal (FAPAR).
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I177477856,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2022-01-01&select=id,title,publication_year,authorships&per_page=20
+  fetched: 2026-11-08
+  quote: 'Ai4Fapar: How artificial intelligence can help to forecast the seasonal earth observation
+    signal'
+links:
+- type: partners-with
+  to: arpa-valle-d-aosta
+  url: https://www.arpa.vda.it/notizie/clima/come-unintelligenza-artificiale-impara-a-leggere-il-paesaggio-alpino
+  fetched: 2026-11-08
+  quote: sviluppato da ARPA Valle d'Aosta insieme al Politecnico di Torino e a DigiSky
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

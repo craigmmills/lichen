@@ -1,0 +1,67 @@
+id: eawag
+kind: organisation
+name: Eawag
+also_known_as:
+- Swiss Federal Institute of Aquatic Science and Technology
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- ml-semi-supervised
+- deep-learning
+realms:
+- freshwater
+techniques:
+- computer-vision
+hq: ch
+scale: global
+status: active
+website: https://www.eawag.ch/en/
+summary: Swiss water research institute whose Plankifier project built deep learning classifiers
+  for lake plankton images.
+countries:
+- bt
+- ch
+- ug
+facts:
+- claim: Swiss water research institute with headquarters in Dübendorf.
+  url: https://en.wikipedia.org/wiki/Eawag
+  fetched: '2026-10-30'
+  quote: Eawag's Headquarter at Forum Chriesbach, in Dübendorf
+- claim: Plankifier uses deep learning to classify zooplankton from lakes.
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: Deep learning classification of Lake Zooplankton
+- claim: Eawag proposes a semi-supervised classification strategy.
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: based on semi-supervised, active, and ensemble learning
+  ai_type: ml-semi-supervised
+- claim: Eawag publishes on data-efficient vision transformers.
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: Ensembles of data-efficient vision transformers
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: wsl-swiss-federal-research-institute
+  url: https://www.eawag.ch/fileadmin/Domain1/About/Portraet/Jahresbericht/2023/geschaeftsbericht_2023_e.pdf
+  fetched: 2026-10-30
+  quote: The Blue-Green Biodiversity research initiative in collaboration with WSL
+- type: partners-with
+  to: ecole-polytechnique-federale-de-lausanne
+  url: https://www.eawag.ch/fileadmin/Domain1/About/Portraet/Jahresbericht/Reports/jb_22e.pdf
+  fetched: 2026-10-30
+  quote: LéXPLORE is a joint project of Eawag and the EPFL
+- type: partners-with
+  to: eth-zurich
+  url: https://www.eawag.ch/fileadmin/Domain1/About/Portraet/Jahresbericht/2025/geschaeftsbericht_e.pdf
+  fetched: 2026-10-30
+  quote: Together with ETH Zurich, Eawag also welcomed 24 students
+found_by:
+- link-from:eth-zurich
+added_by: agent
+checked: '2026-10-30'

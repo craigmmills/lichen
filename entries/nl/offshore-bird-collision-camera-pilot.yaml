@@ -1,0 +1,44 @@
+id: offshore-bird-collision-camera-pilot
+kind: project
+name: Hollandse Kust Zuid bird collision camera pilot
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- nl
+status: unknown
+summary: A year-long pilot initiated by Vattenfall at the Hollandse Kust Zuid offshore
+  wind farm, with Wildlife Imaging Systems and Wageningen University & Research, testing
+  thermal cameras and AI to observe potential bird collisions.
+facts:
+- claim: A year-long pilot showed that thermal cameras and AI can be used to observe
+    potential collisions directly.
+  url: https://www.wur.nl/en/news/camera-system-sheds-new-light-bird-collisions-sea
+  fetched: &id001 2026-10-31
+  quote: A year-long pilot at an offshore wind turbine has shown that thermal cameras
+    and artificial intelligence can be used to directly observe potential collisions
+    at sea.
+links:
+- type: partners-with
+  to: vattenfall
+  url: https://www.wur.nl/en/news/camera-system-sheds-new-light-bird-collisions-sea
+  fetched: *id001
+  quote: The pilot, initiated by Vattenfall
+- type: partners-with
+  to: wageningen-university-and-research
+  url: https://www.wur.nl/en/news/camera-system-sheds-new-light-bird-collisions-sea
+  fetched: *id001
+  quote: in a collaboration between Wildlife Imaging Systems (WIS) and Wageningen
+    University & Research (WUR)
+- type: run-by
+  to: wildlife-imaging-systems-wur-pilot
+  url: https://www.wur.nl/en/news/camera-system-sheds-new-light-bird-collisions-sea
+  fetched: *id001
+  quote: "The pilot, initiated by Vattenfall, was carried out at the Hollandse Kust Zuid offshore wind farm in a collaboration between Wildlife Imaging Systems (WIS) and Wageningen University & Research (WUR)"
+found_by:
+- link-from:wageningen-university-and-research
+scope: nl
+added_by: agent
+checked: *id001

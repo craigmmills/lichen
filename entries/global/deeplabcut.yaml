@@ -1,0 +1,47 @@
+id: deeplabcut
+kind: project
+name: DeepLabCut
+also_known_as: []
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://www.deeplabcut.org/
+summary: Software package for animal pose estimation across species and behaviours, using
+  transfer learning with deep neural networks, with a quadruped model trained on images including
+  elephants and gazelles.
+facts:
+- claim: Describes DeepLabCut as a software package for animal pose estimation that works
+    across species and behaviours.
+  url: https://www.deeplabcut.org/
+  fetched: 2026-11-22
+  quote: 'DeepLabCut™: a software package for animal pose estimation'
+- claim: The method is based on transfer learning with deep neural networks.
+  url: https://www.deeplabcut.org/
+  fetched: 2026-11-22
+  quote: based on transfer learning with deep neural networks
+  ai_type: deep-learning
+- claim: Its SuperAnimal-Quadruped model was trained on images of four-legged animals that
+    include elephants and gazelles.
+  url: https://www.deeplabcut.org/
+  fetched: 2026-11-22
+  quote: Trained on over 40,000 images of four-legged animals, from mice, rats, horses, dogs
+    and cats to elephants and gazelles.
+- claim: Offers a combined MegaDetector and DeepLabCut route on the Model Zoo page.
+  url: https://www.deeplabcut.org/
+  fetched: 2026-11-22
+  quote: MegaDetector + DeepLabCut
+- claim: The GitHub page says it was originally developed by Alexander Mathis and Mackenzie
+    Mathis.
+  url: https://github.com/DeepLabCut/DeepLabCut
+  fetched: 2026-11-22
+  quote: DeepLabCut was originally developed by Alexander Mathis & Mackenzie Mathis
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

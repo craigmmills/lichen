@@ -1,0 +1,35 @@
+id: canopee-forets-vivantes
+kind: organisation
+name: Canopée
+scope: fr
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+website: https://www.canopee.ong/
+summary: French forest NGO that publishes L'Observatoire des coupes rases, a satellite-based
+  tracking of clear-cuts built on FORMS-T deep learning products.
+facts:
+- claim: Published the method for tracking clear-cuts with satellite imagery.
+  url: https://www.canopee.ong/publications/methode-observatoire-coupes-rases/
+  fetched: '2026-10-31'
+  quote: Ce rapport décrit la méthodologie utilisée pour suivre et analyser la dynamique des
+    coupes rases à l’aide de l’imagerie satellitaire.
+links:
+- type: uses
+  to: forms-t
+  url: https://www.canopee.ong/publications/methode-observatoire-coupes-rases/
+  fetched: '2026-10-31'
+  quote: L’approche repose sur
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

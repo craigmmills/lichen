@@ -1,0 +1,58 @@
+id: taina
+kind: project
+name: Tainá
+also_known_as:
+- Taina
+- Dora the Explorer
+scope: global
+ai_label: ai
+ai_types:
+- generative-ai
+- large-language-models
+realms:
+- land
+status: active
+summary: GainForest's Telegram assistant, co-designed with Indigenous and local communities
+  around Manaus, which takes voice recordings, images and video from community members and
+  stores species data and traditional knowledge. GainForest also built a sister language model,
+  Poli.
+facts:
+- claim: A Telegram chatbot into which community members send voice recordings, images and
+    videos, according to Atmos.
+  url: https://atmos.earth/indigenous-groups-are-safeguarding-culture-with-their-own-chatgpt/
+  fetched: &id001 2026-10-30
+  quote: Indigenous community members send voice recordings, images, and videos
+- claim: Ships on Telegram after being co-designed with four Indigenous and local communities
+    around Manaus.
+  url: https://gainforest-app.vercel.app/about
+  fetched: *id001
+  quote: co-designed with four Indigenous and local communities around Manaus, ships its first
+    version on Telegram.
+- claim: GainForest says it was made with generative AI for local data collection.
+  url: https://gainforest.substack.com/p/meettaina-gainforests-new-ai-bot
+  fetched: *id001
+  quote: Leveraging advancements in Generative AI, we created Dora the Explorer, a Telegram-based
+    AI bot designed for local data collection.
+  ai_type: generative-ai
+- claim: Atmos describes a sister language model, Poli, holding what the community chooses
+    to share publicly.
+  url: https://atmos.earth/indigenous-groups-are-safeguarding-culture-with-their-own-chatgpt/
+  fetched: *id001
+  quote: GainForest built a sister language model called Poli
+  ai_type: large-language-models
+- claim: An Indigenous Mura leader is reported using it in 2024.
+  url: https://atmos.earth/indigenous-groups-are-safeguarding-culture-with-their-own-chatgpt/
+  fetched: *id001
+  quote: she turned to an artificially intelligent chatbot, only it wasn’t ChatGPT, Gemini,
+    or any other large language model produced by American Big Tech.
+links:
+- type: run-by
+  to: gainforest
+  url: https://atmos.earth/indigenous-groups-are-safeguarding-culture-with-their-own-chatgpt/
+  fetched: *id001
+  quote: Gatto is also a member of GainForest, a Zurich-based science nonprofit that started
+    Tainá
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

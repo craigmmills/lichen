@@ -1,0 +1,32 @@
+id: pr2-database
+kind: dataset
+name: Protist Ribosomal Reference database
+also_known_as:
+- PR2
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+- freshwater
+techniques:
+- edna-genomics
+website: https://pr2-database.org
+summary: Set of interconnected 18S rRNA reference databases for metabarcoding, focused on protists, started in the Plankton
+  Group of the Station Biologique of Roscoff.
+facts:
+- claim: Three interconnected 18S rRNA databases useful for metabarcoding.
+  url: https://pr2-database.org/
+  quote: database ecosystem is a set of three interconnected 18S rRNA databases that are useful in particular for metabarcoding
+    applications
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: station-biologique-de-roscoff
+  url: https://pr2-database.org/
+  quote: in the Plankton Group of the Station Biologique of Roscoff
+  fetched: '2026-10-30'
+found_by:
+- link-from:silva-database
+added_by: agent
+checked: '2026-10-30'

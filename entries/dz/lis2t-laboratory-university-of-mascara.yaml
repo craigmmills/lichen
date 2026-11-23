@@ -1,0 +1,44 @@
+id: lis2t-laboratory-university-of-mascara
+kind: organisation
+name: Artificial Intelligence Laboratory for Embedded Systems, Advanced Telecommunications,
+  and Telemedicine (LIS2T), University of Mascara
+also_known_as:
+- LIS2T
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A university laboratory for embedded systems, telecommunications and telemedicine,
+  and the affiliation of the first author of a paper whose title covers deep learning
+  for real-time fire and smoke detection in forests.
+facts:
+- claim: Affiliation of Ibrahim Farouk Bouguenna, the first author of the paper on
+    real-time fire and smoke detection in forests.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Ibrahim Farouk Bouguenna", "raw_affiliation_strings":
+    ["Artificial Intelligence Laboratory for Embedded Systems, Advanced Telecommunications,
+    and Telemedicine (LIS2T), Electrotechnical Department, University of Mascara,
+    Mascara 29000, ALGERIA"]'
+- claim: The paper's title names deep learning approaches for real-time fire and smoke
+    detection in forests.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: 'Deep Learning Approaches for Real-Time Fire and Smoke Detection in Forests:
+    A Performance Analysis'
+  ai_type: deep-learning
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,36 @@
+id: ai-earth
+kind: programme
+name: AI Earth
+also_known_as:
+- Analytical Insight of Earth
+- AI Earth Geoscience Cloud Platform
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+status: active
+summary: Alibaba Cloud platform from DAMO Academy for retrieving, processing and analysing remote sensing data and for training and deploying models.
+facts:
+- claim: A one-stop platform for remote sensing data and models.
+  url: https://help.aliyun.com/en/document_detail/128318.html
+  fetched: &id001 2026-10-30
+  quote: A one-stop platform to retrieve, process, and analyze remote sensing data, and to train and deploy models.
+- claim: "AI Earth is built on Alibaba DAMO Academy expertise in deep learning."
+  url: https://help.aliyun.com/en/document_detail/128318.html
+  fetched: 2026-10-30
+  quote: "is built on the expertise of the Alibaba DAMO Academy in deep learning, computer vision, and geospatial analysis."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: alibaba-cloud
+  url: https://help.aliyun.com/en/document_detail/128318.html
+  fetched: *id001
+  quote: "The platform is powered by the immense computing power of Alibaba Cloud and proprietary operators from DAMO Academy."
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

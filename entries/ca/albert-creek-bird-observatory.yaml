@@ -1,0 +1,45 @@
+id: albert-creek-bird-observatory
+kind: programme
+name: Albert Creek Bird Observatory
+also_known_as: []
+scope: ca
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+countries:
+- ca
+status: active
+summary: Migration monitoring station run by the Southeast Yukon Proper Land Use Society,
+  listed as a station of the Canadian Migration Monitoring Network.
+facts:
+- claim: A project of the Southeast Yukon Proper Land Use Society that operates a
+    migration monitoring station.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: Albert Creek Bird Observatory is a project of the Southeast Yukon Proper
+    Land Use Society. ACBO operates a migration monitoring station in southeast Yukon
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: run-by
+  to: southeast-yukon-proper-land-use-society
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: Albert Creek Bird Observatory is a project of the Southeast Yukon Proper
+    Land Use Society. ACBO operates a migration monitoring station in southeast Yukon
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

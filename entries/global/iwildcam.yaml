@@ -1,0 +1,37 @@
+id: iwildcam
+kind: dataset
+name: iWildCam
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://github.com/visipedia/iwildcam_comp
+summary: Camera trap competition data sets run with the FGVC workshop at CVPR, used to test generalisation across cameras and sites; the 2022 edition focused on counting animals.
+facts:
+- claim: 2022 competition was part of FGVC9 and sponsored by Wildlife Insights.
+  url: https://github.com/visipedia/iwildcam_comp
+  fetched: '2026-10-30'
+  quote: This competition is part of the FGVC9 workshop at CVPR 2022 and is sponsored by Wildlife Insights
+links:
+- type: partners-with
+  to: wildlife-insights
+  url: https://github.com/visipedia/iwildcam_comp
+  fetched: '2026-10-30'
+  quote: "This competition is part of the FGVC9 workshop at CVPR 2022 and is sponsored by Wildlife Insights"
+- type: run-by
+  to: visipedia
+  url: https://github.com/visipedia/iwildcam_comp
+  fetched: '2026-10-30'
+  quote: 'GitHub - visipedia/iwildcam_comp: iWildCam competition details'
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://github.com/visipedia/iwildcam_comp
+  fetched: '2026-10-30'
+  quote: Data is primarily provided by the Wildlife Conservation Society (WCS) and iNaturalist
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

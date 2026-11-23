@@ -1,0 +1,36 @@
+id: lacoscope
+kind: project
+name: Lacoscope
+scope: fr
+ai_label: ai
+status: active
+summary: Citizen science project that monitors plankton in Alpine lakes with the PlanktoScope
+  portable microscope, and collects samples to help train an AI that recognises species.
+facts:
+- claim: Uses citizen science and the PlanktoScope portable microscope to monitor
+    plankton in Alpine lakes.
+  url: https://lacoscope.cnrs.fr/
+  fetched: '2026-10-31'
+  quote: Suivi du plancton des lacs alpins
+- claim: A 2025 outing took plankton samples to follow populations and contribute
+    to training an AI for species recognition.
+  url: https://lacoscope.cnrs.fr/2025/06/19/randonnee-participative/
+  fetched: '2026-10-31'
+  quote: contribuer à l’entraînement d’une intelligence artificielle dédiée à la reconnaissance
+    des espèces.
+realms:
+- freshwater
+techniques:
+- computer-vision
+website: https://lacoscope.cnrs.fr/
+runner: unknown
+links:
+- type: uses
+  to: planktoscope
+  url: https://lacoscope.cnrs.fr/2025/06/19/randonnee-participative/
+  fetched: '2026-10-31'
+  quote: prélever des échantillons de plancton, grâce à un PlanktoScope
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

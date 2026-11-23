@@ -1,0 +1,35 @@
+id: natural-forests-of-the-world-2020
+kind: dataset
+name: Natural Forests of the World 2020
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Global 10-metre map of the probability of natural forest in 2020, separating natural forest from planted forest, tree crops and other land cover, to support uses such as the EU Deforestation Regulation.
+facts:
+- claim: Gives a global 10-metre map of natural forest probability in 2020.
+  url: https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection
+  fetched: &id001 2026-10-30
+  quote: The Natural Forests of the World 2020 dataset provides a global 10-meter resolution map showing the probability of natural forests in 2020.
+- claim: Licensed CC-BY 4.0 ShareAlike with attribution to Google.
+  url: https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection
+  fetched: *id001
+  quote: The dataset is licensed under CC-BY 4.0 ShareAlike and requires attribution to Google.
+links:
+- type: run-by
+  to: google-deepmind
+  url: https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/
+  fetched: *id001
+  quote: "together with Google DeepMind , we’re releasing Natural Forests of the World 2020 , a new map and dataset"
+- type: run-by
+  to: google-research
+  url: https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/
+  fetched: *id001
+  quote: "together with Google DeepMind , we’re releasing Natural Forests of the World 2020 , a new map and dataset"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

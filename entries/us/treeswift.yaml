@@ -1,0 +1,60 @@
+id: treeswift
+kind: organisation
+name: Treeswift
+also_known_as:
+- TreeSwift Inc
+scope: us
+sector: company
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: national
+status: active
+summary: Philadelphia company using swarms of autonomous lidar drones for forest inventory,
+  funded by NSF SBIR awards.
+facts:
+- claim: SBIR Phase II award for robotic forest inventory and mapping.
+  url: https://api.nsf.gov/services/v1/awards/2222426.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II:  Robotic Forest Inventory and Mapping'
+- claim: Its multi-drone teams replace the tape measure rather than the forester.
+  url: https://api.nsf.gov/services/v1/awards/2222426.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: multi-Unmanned Aerial Vehicle (UAV) teams replace the tape measure, not the forester
+- claim: Forest monitoring systems for carbon and deforestation.
+  url: https://grasp.upenn.edu/startups/treeswift
+  fetched: '2026-10-30'
+  quote: Treeswift is building the next generation of forest monitoring systems.
+- claim: The NSF award record gives its address as 3401 Grays Ferry Ave, Philadelphia.
+  url: https://api.nsf.gov/services/v1/awards/2222426.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"3401 GRAYS FERRY AVE BLDG 450"'
+- claim: Pennovation Works says it is building forest monitoring systems with robotics and
+    machine learning.
+  url: https://pennovation.upenn.edu/the-community/innovators/treeswift
+  fetched: '2026-10-31'
+  quote: Treeswift is building the next generation of forest monitoring systems through the
+    utilization of state-of-the-art robotic and machine learning technology.
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2222426.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase II:  Robotic Forest Inventory and Mapping'
+  amount: 1000000
+  year: 2023
+  currency: USD
+found_by:
+- checklist:5
+- link-from:ncx
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us
+website: https://www.treeswift.com/

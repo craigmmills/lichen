@@ -1,0 +1,40 @@
+id: department-of-agronomic-and-veterinary-sciences-ziane-achour-university-of-djelfa
+kind: organisation
+name: Department of Agronomic and Veterinary Sciences, Ziane Achour University of
+  Djelfa
+also_known_as: []
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A university department named as the lead affiliation of the first author
+  of a paper whose title covers remote sensing for monitoring deforestation in the
+  Djelfa forests.
+facts:
+- claim: Lead affiliation of the first author on the paper whose title is quoted in
+    the next fact.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "M''hammed Khader", "raw_affiliation_strings": ["Department
+    of Agronomic and Veterinary Sciences , Ziane Achour University , Djelfa , Algeria"]'
+- claim: The paper's title names remote sensing for monitoring deforestation in the
+    Djelfa forests.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4292527406|W4411779959|W7165474104|W7168371631|W4408993601&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: USE OF REMOTE SENSING FOR MONITORING OF THE DEFORESTATION IN SEMI-ARID REGION
+    CASE OF THE DJELFA FORESTS (ALGERIA)
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

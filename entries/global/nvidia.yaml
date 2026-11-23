@@ -1,0 +1,39 @@
+id: nvidia
+kind: organisation
+name: NVIDIA
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: us
+scale: global
+status: active
+website: https://www.nvidia.com
+summary: Chip and AI company whose hardware and software are used by conservation groups such
+  as Conservation AI. No dedicated nature programme was found.
+facts:
+- claim: Says conservation developers use its GPUs and software, including to track black
+    rhinos.
+  url: https://blogs.nvidia.com/blog/earth-day-ai-accelerated-computing/
+  fetched: &id001 2026-10-30
+  quote: They’re using NVIDIA GPUs and software to track endangered African black rhinos
+- claim: Headquartered in Santa Clara, California.
+  url: https://en.wikipedia.org/wiki/Nvidia
+  fetched: 2026-10-30
+  quote: Headquarters Santa Clara, California
+links:
+- type: partners-with
+  to: conservation-ai
+  url: https://blogs.nvidia.com/blog/earth-day-ai-accelerated-computing/
+  fetched: *id001
+  quote: Conservation AI, a U.K.-based nonprofit, has deployed 70+ cameras around the world
+    powered by NVIDIA Jetson modules for edge AI.
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

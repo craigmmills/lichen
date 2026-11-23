@@ -1,0 +1,49 @@
+id: arbimon
+kind: programme
+name: Arbimon
+scope: global
+roles:
+- builds-ai
+ai_label: ai
+ai_types: [ml-supervised, ml-unsupervised, deep-learning]
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+website: https://arbimon.org
+summary: Ecoacoustic analysis platform for uploading, storing and analysing large amounts of acoustic data with AI tools.
+facts:
+- claim: Ecoacoustic analysis platform.
+  url: https://arbimon.org/
+  fetched: '2026-10-30'
+  quote: Arbimon is an ecoacoustic analysis platform empowering scientists and conservationists
+- claim: "Arbimon's detection models are deep-learning audio recognition models."
+  url: https://arbimon.org/howitworks
+  fetched: '2026-10-30'
+  quote: "Our deep-learning audio recognition models are trained to automate the detection of known species in raw soundscape recordings."
+  ai_type: deep-learning
+- claim: "Arbimon offers supervised AI detection models."
+  url: https://arbimon.org/howitworks
+  fetched: '2026-10-30'
+  quote: "Supervised AI Detection Models"
+  ai_type: ml-supervised
+- claim: "Arbimon offers unsupervised event detection and clustering."
+  url: https://arbimon.org/howitworks
+  fetched: '2026-10-30'
+  quote: "Unsupervised Automated Event Detection & Clustering"
+  ai_type: ml-unsupervised
+- claim: 'AI for biodiversity research on acoustic data.'
+  url: https://arbimon.org
+  fetched: 2026-10-30
+  quote: 'AI empowered biodiversity research & conservation action'
+links:
+- type: run-by
+  to: rainforest-connection
+  url: https://arbimon.org/
+  fetched: '2026-10-30'
+  quote: "An initiative by Rainforest Connection™"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

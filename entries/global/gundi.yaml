@@ -1,0 +1,35 @@
+id: gundi
+kind: programme
+name: Gundi
+also_known_as:
+- Project Gundi
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+status: active
+summary: Open-source tool that takes data from wildlife trackers, camera traps and acoustic monitors, puts it into a common format and sends it on for analysis. Mongabay reported it in use at 600 sites in 2024.
+facts:
+- claim: Takes data from different sources, transforms it into a common format and sends it to different destinations; Mongabay reported 600 sites.
+  url: https://news.mongabay.com/2024/03/gundi-tool-gets-conservation-hardware-and-software-talking-the-same-language/
+  quote: Currently being used at 600 sites, Gundi takes data from different sources
+  fetched: '2026-10-31'
+- claim: EarthRanger describes it as its integration and data-sharing platform.
+  url: https://earthranger-support.helpjuice.com/en_US/earthranger-glossary
+  quote: EarthRanger's integration and data-sharing platform.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: earthranger
+  url: https://earthranger-support.helpjuice.com/en_US/earthranger-glossary
+  quote: EarthRanger's integration and data-sharing platform.
+  fetched: '2026-10-31'
+- type: partners-with
+  to: wildlife-conservation-society
+  url: https://news.mongabay.com/2024/03/gundi-tool-gets-conservation-hardware-and-software-talking-the-same-language/
+  quote: "is a result of a collaboration between EarthRanger and the nonprofit organizations Wildlife Protection Solutions and the Wildlife Conservation Society"
+  fetched: '2026-10-31'
+found_by:
+- rule:sweep2
+added_by: agent
+checked: '2026-10-31'

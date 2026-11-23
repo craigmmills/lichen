@@ -1,0 +1,90 @@
+id: national-herbarium-and-botanic-gardens-of-malawi
+kind: organisation
+name: National Herbarium and Botanic Gardens of Malawi
+also_known_as:
+- NHBG
+- National Herbarium & Botanic Gardens of Malawi
+scope: mw
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+hq: mw
+countries:
+- mw
+scale: national
+status: active
+funding_at_risk: false
+summary: Parastatal botanical institution in Zomba, described in its GBIF record as the principal botanical
+  authority; it holds over 90,000 plant specimens, being digitised in BRAHMS, and has 26 GBIF datasets.
+facts:
+- claim: Its GBIF publisher record describes it as a parastatal botanical institution and the principal
+    authority on botanical matters in Malawi.
+  url: https://api.gbif.org/v1/organization/ef048156-6927-4ebf-a10c-131aa6a17966
+  fetched: 2026-11-08
+  quote: The National Herbarium and Botanic Gardens of Malawi (NHBG) is a parastatal botanical institution.
+    It is the principal authority on botanical and related matters in Malawi.
+- claim: The herbarium holds over 90,000 plant specimens collected across Malawi and is being digitised
+    in the BRAHMS database.
+  url: https://api.gbif.org/v1/organization/ef048156-6927-4ebf-a10c-131aa6a17966
+  fetched: 2026-11-08
+  quote: The herbarium therefore is Malawi's plant data bank and hence is very important for plant identification,
+    taxonomic research, reference and loan exchange of herbarium specimens between herbaria. The collection
+    is being digitized in BRAHMS database.
+- claim: Its record gives an address in Zomba.
+  url: https://api.gbif.org/v1/organization/ef048156-6927-4ebf-a10c-131aa6a17966
+  fetched: 2026-11-08
+  quote: '"address":["PO Box 528, Zomba, Malawi"],"city":"Zomba","country":"MW"'
+- claim: Named among national stakeholders in the UNBL-GBF Mapping Project in Malawi; the report calls
+    it the National Herbarium and Botanical Gardens of Malawi, rather than Botanic Gardens.
+  url: https://unbiodiversitylab.org/wp-content/uploads/2026/02/UNBL-GBF-Mapping-Project-Technical-Report-Malawi-FNL.pdf
+  fetched: 2026-11-08
+  quote: the National Herbarium and Botanical Gardens of Malawi (NHBG)
+- claim: Its GBIF publisher record describes it as a parastatal botanical institution and the principal
+    authority on botanical matters in Malawi.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: The National Herbarium and Botanic Gardens of Malawi (NHBG) is a parastatal botanical institution.
+    It is the principal authority on botanical and related matters in Malawi.
+- claim: The record says the herbarium holds over 90,000 plant specimens collected across Malawi.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: The National herbarium houses over 90, 000 plant specimens (including mushrooms, ferns, mosses,
+    algae, lichens) collected all over Malawi
+- claim: The record calls the herbarium Malawi's plant data bank.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: The herbarium therefore is Malawi's plant data bank
+- claim: The record says the collection is being digitised in the BRAHMS database.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: The collection is being digitized in BRAHMS database.
+- claim: The GBIF registry lists 26 datasets published by it, at an address in Zomba.
+  url: https://api.gbif.org/v1/organization?country=MW&limit=50
+  fetched: 2026-11-08
+  quote: '"address":["PO Box 528, Zomba, Malawi"],"city":"Zomba","country":"MW","latitude":-15.37230,"longitude":35.32377,"numPublishedDatasets":26'
+- claim: Its GBIF registration says the herbarium holds over 90,000 plant specimens collected all over
+    Malawi.
+  url: https://api.gbif.org/v1/organization/ef048156-6927-4ebf-a10c-131aa6a17966
+  fetched: 2026-11-08
+  quote: The National herbarium houses over 90, 000 plant specimens (including mushrooms, ferns, mosses,
+    algae, lichens) collected all over Malawi
+- claim: Its GBIF registration says the collection is being digitised in a BRAHMS database.
+  url: https://api.gbif.org/v1/organization/ef048156-6927-4ebf-a10c-131aa6a17966
+  fetched: 2026-11-08
+  quote: The collection is being digitized in BRAHMS database.
+- claim: Its GBIF registration gives an address in Zomba.
+  url: https://api.gbif.org/v1/organization/ef048156-6927-4ebf-a10c-131aa6a17966
+  fetched: 2026-11-08
+  quote: PO Box 528, Zomba, Malawi
+links: []
+found_by:
+- checklist:2
+- link-from:gbif-malawi
+- link-from:queue-mw
+- register:mw
+added_by: agent
+checked: 2026-11-08

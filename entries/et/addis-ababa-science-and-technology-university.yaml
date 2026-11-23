@@ -1,0 +1,36 @@
+id: addis-ababa-science-and-technology-university
+kind: organisation
+name: Addis Ababa Science and Technology University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2022 paper
+  on random forest and support vector machine classifiers for regional land cover mapping.
+facts:
+- claim: OpenAlex lists a 2022 paper on random forest and support vector machine classifiers
+    for regional land cover mapping.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Comparison of Random Forest and Support Vector Machine Classifiers for Regional Land
+    Cover Mapping Using Coarse Resolution FY-3C Images
+- claim: OpenAlex lists Tesfaye Adugna, first author of that paper, at Addis Ababa Science
+    and Technology University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: College of Applied Sciences, Addis Ababa Science and Technology University (AASTU),
+    Addis Ababa P.O. Box 16417, Ethiopia
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

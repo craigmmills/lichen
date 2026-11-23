@@ -1,0 +1,27 @@
+id: pelagic-size-structure-database
+kind: dataset
+name: Pelagic Size Structure Database
+also_known_as:
+- PSSdb
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+website: https://pssdb.net/
+summary: Database of plankton size structure, part of the COPEPOD Project.
+facts:
+- claim: Described as part of the COPEPOD Project.
+  url: https://pssdb.net/
+  quote: PSSdb is part of the COPEPOD Project
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: copepod
+  url: https://pssdb.net/
+  quote: PSSdb is part of the COPEPOD Project
+  fetched: '2026-10-30'
+found_by:
+- link-from:planktonzilla
+added_by: agent
+checked: '2026-10-30'

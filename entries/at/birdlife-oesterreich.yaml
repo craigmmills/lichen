@@ -1,0 +1,80 @@
+id: birdlife-oesterreich
+kind: organisation
+name: BirdLife Österreich
+also_known_as:
+- BirdLife Austria
+scope: at
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: national
+status: active
+summary: Organisation running ornitho.at and Austrian breeding bird monitoring, counting common
+  species since 1998 mainly with volunteers, which developed a woodland bird index with BFW
+  in 2014.
+facts:
+- claim: A 2022 Farmland Bird Index report says the breeding bird monitoring programme for
+    common species is carried out by BirdLife Österreich, mainly with volunteers.
+  url: https://eu-cap-network.ec.europa.eu/sites/default/files/publications/2025-02/ev-at-report-farmland-bird-index-2022.pdf
+  fetched: 2026-11-07
+  quote: ein Bestandserfassungsprogramm für häufige Vogelarten, das von BirdLife Österreich
+    durchgeführt wird und das sich überwiegend auf die M itarbeit Freiwilliger stützt
+- claim: Listed by GBIF Austria as one of its data providers.
+  url: https://www.gbif.at
+  fetched: 2026-11-07
+  quote: Birdlife Österreich
+- claim: Has monitored the populations of common Austrian breeding birds since 1998, with
+    counts at fixed points across Austria twice each spring.
+  url: https://www.birdlife.at/vogelschutz/forschung-und-monitoring/monitoring-der-brutvoegel-oesterreichs/
+  fetched: 2026-11-07
+  quote: Dazu erfolgen seit 1998 zweimal pro Frühjahr Zählungen an festgelegten Punkten in
+    ganz Österreich.
+- claim: Runs the ornitho.at recording platform, which receives over a million records a year.
+  url: https://www.birdlife.at/
+  fetched: 2026-11-07
+  quote: Unsere Meldeplattform ornitho.at ermöglicht ehrenamtlichen Vogelbeobachter:innen,
+    ihre Beobachtungen per Website oder App NaturaList zu melden. Mit über einer Million Meldungen
+    pro Jahr liefert sie wertvolle Daten für den Vogelschutz.
+- claim: Fits imperial eagles, marsh harriers and other raptors with GPS transmitters, and
+    uses the data to show illegal persecution.
+  url: https://www.birdlife.at/vogelschutz/forschung-und-monitoring/telemetrie/
+  fetched: 2026-11-07
+  quote: Vor allem Kaiseradler (Aquila heliaca) und Rohrweihen (Circus aeruginosus), aber
+    auch häufigere Arten wie der Mäusebussarde werden mit im Rahmen von verschieden Projekten
+    oder Programmen mit leichten GPS-Sendern und Ringen ausgestattet.
+links:
+- type: partners-with
+  to: aimbiodat
+  url: https://forschungsinfrastruktur.bmfwf.gv.at/de/mapping/?id=4963
+  fetched: 2026-11-07
+  quote: Birdlife Österreich
+- type: runs
+  to: monitoring-der-brutvoegel-oesterreichs
+  url: https://www.birdlife.at/vogelschutz/forschung-und-monitoring/monitoring-der-brutvoegel-oesterreichs/
+  fetched: 2026-11-07
+  quote: Seit 1998 überwachen wir im Rahmen des Brutvogel-Monitorings die Bestände häufiger
+    österreichischer Brutvogelarten.
+- type: runs
+  to: ornitho-at
+  url: https://www.birdlife.at/
+  fetched: 2026-11-07
+  quote: Unsere Meldeplattform ornitho.at
+- type: builds
+  to: woodland-bird-index-austria
+  url: https://www.birdlife.at/vogelschutz/forschung-und-monitoring/monitoring-der-brutvoegel-oesterreichs/
+  fetched: 2026-11-07
+  quote: 'Gemeinsam mit dem Bundesforschungszentrum für Wald haben wir im Jahr 2014 den sogenannten
+    „Woodland Bird Index“ (kurz: WBI) entwickelt.'
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:gbif-austria
+added_by: agent
+checked: 2026-11-07

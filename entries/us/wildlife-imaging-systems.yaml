@@ -1,0 +1,45 @@
+id: wildlife-imaging-systems
+kind: organisation
+name: Wildlife Imaging Systems
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: us
+scale: national
+status: unknown
+summary: Hinesburg, Vermont company developing automated processing of images and video for
+  wildlife conservation, with NSF SBIR awards.
+facts:
+- claim: SBIR Phase I for automated image and video processing for wildlife conservation.
+  url: https://api.nsf.gov/services/v1/awards/2126184.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  Automated processing of images and video for wildlife conservation'
+- claim: Develops computer vision and machine learning software for wildlife professionals.
+  url: https://www.wildlifeimagingsystems.com
+  fetched: '2026-10-31'
+  quote: Wildlife Imaging Systems develops advanced computer vision and machine learning software
+    for wildlife professionals.
+- claim: The NSF award record gives an address in Hinesburg, Vermont.
+  url: https://api.nsf.gov/services/v1/awards/2126184.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"328 MECHANICSVILLE RD"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2126184.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  Automated processing of images and video for wildlife conservation'
+  amount: 255993
+  year: 2022
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'
+website: https://www.wildlifeimagingsystems.com

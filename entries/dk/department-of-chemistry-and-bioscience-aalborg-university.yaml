@@ -1,0 +1,36 @@
+id: department-of-chemistry-and-bioscience-aalborg-university
+kind: organisation
+name: Department of Chemistry and Bioscience, Aalborg University
+also_known_as: []
+scope: dk
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: dk
+countries:
+- dk
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.en.bio.aau.dk/about-the-department
+summary: Unit based in Aalborg and Esbjerg with 230 employees as of 1 March 2026, where Microflora
+  Danica was carried out.
+facts:
+- claim: Based in Aalborg and Esbjerg, with 230 employees as of 1 March 2026.
+  url: https://www.en.bio.aau.dk/about-the-department
+  fetched: &id001 2026-11-02
+  quote: 'Location: Aalborg and Esbjerg'
+- claim: Microflora Danica was carried out at the department.
+  url: https://www.en.bio.aau.dk/research/projects
+  fetched: *id001
+  quote: The project is carried out at the Department of Chemistry and Bioscience at Aalborg
+    University
+links: []
+found_by:
+- checklist:register
+added_by: agent
+checked: *id001

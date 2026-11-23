@@ -1,0 +1,81 @@
+id: netflora
+kind: project
+name: Netflora
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+status: active
+summary: Embrapa Acre method that combines drones and AI for forest inventories, which identified
+  604 Brazil nut trees in a flight of just over two hours.
+facts:
+- claim: In one flight of just over two hours it identified 604 Brazil nut trees.
+  url: https://www.band.com.br/agro/noticias/inteligencia-artificial-identifica-mais-de-600-castanheiras-nativas-na-amazonia-202504221026
+  fetched: '2026-10-30'
+  quote: a metodologia Netflora, desenvolvida pela Embrapa Acre, identificou 604 castanheiras-da-amazônia
+- claim: The work belongs to the Geoflora project, funded by Fundo JBS pela Amazônia.
+  url: https://www.band.com.br/agro/noticias/inteligencia-artificial-identifica-mais-de-600-castanheiras-nativas-na-amazonia-202504221026
+  fetched: '2026-10-30'
+  quote: integra o Projeto Geoflora, financiado com recursos do Fundo JBS pela Amazônia
+- claim: Identified 604 Brazil nut trees and over 14,000 other trees in 1,150 hectares in
+    a flight of a little over two hours.
+  url: https://portalamazonia.com/amazonia/ia-identifica-castanheiras-amazonia/
+  fetched: '2026-10-30'
+  quote: identificou 604 castanheiras-da-amazônia ( Bertholletia excelsa ) e mais de 14 mil
+    árvores de outras espécies arbóreas em uma área de 1150 hectares
+- claim: The Uatumã mapping was part of the Geoflora project, paid for by the Fundo JBS pela
+    Amazônia.
+  url: https://portalamazonia.com/amazonia/ia-identifica-castanheiras-amazonia/
+  fetched: '2026-10-30'
+  quote: integra o Projeto Geoflora , financiado com recursos do Fundo JBS pela Amazônia
+- claim: Said to have mapped more than 70,000 hectares of Amazon forest about a year after
+    launch.
+  url: https://agenciagov.ebc.com.br/noticias/202504/aplicativo-brasileiro-ia-mapeia-3-5-mil-hectares-amazonia-por-dia
+  fetched: '2026-10-30'
+  quote: Netflora já mapeou mais de 70 mil hectares de florestas na Amazônia
+- claim: Trained on images from RGB drone cameras, starting with about 30,000 images.
+  url: https://agenciagov.ebc.com.br/noticias/202504/aplicativo-brasileiro-ia-mapeia-3-5-mil-hectares-amazonia-por-dia
+  fetched: '2026-10-30'
+  quote: Os primeiros treinamentos dos algoritmos começaram com cerca de 30 mil imagens
+links:
+- type: run-by
+  to: empresa-brasileira-de-pesquisa-agropecuaria
+  url: https://www.band.com.br/agro/noticias/inteligencia-artificial-identifica-mais-de-600-castanheiras-nativas-na-amazonia-202504221026
+  fetched: '2026-10-30'
+  quote: a metodologia Netflora, desenvolvida pela Embrapa Acre
+- type: funded-by
+  to: fundo-jbs-pela-amazonia
+  url: https://www.band.com.br/agro/noticias/inteligencia-artificial-identifica-mais-de-600-castanheiras-nativas-na-amazonia-202504221026
+  fetched: '2026-10-30'
+  quote: integra o Projeto Geoflora, financiado com recursos do Fundo JBS pela Amazônia
+- type: run-by
+  to: empresa-brasileira-de-pesquisa-agropecuaria
+  url: https://portalamazonia.com/amazonia/ia-identifica-castanheiras-amazonia/
+  fetched: '2026-10-30'
+  quote: a metodologia Netflora , desenvolvida pela Embrapa Acre (AC)
+- type: funded-by
+  to: fundo-jbs-pela-amazonia
+  url: https://portalamazonia.com/amazonia/ia-identifica-castanheiras-amazonia/
+  fetched: '2026-10-30'
+  quote: financiado com recursos do Fundo JBS pela Amazônia
+- type: run-by
+  to: empresa-brasileira-de-pesquisa-agropecuaria
+  url: https://agenciagov.ebc.com.br/noticias/202504/aplicativo-brasileiro-ia-mapeia-3-5-mil-hectares-amazonia-por-dia
+  fetched: '2026-10-30'
+  quote: a metodologia Netflora , desenvolvida pela Embrapa Acre (AC)
+- type: funded-by
+  to: fundo-jbs-pela-amazonia
+  url: https://agenciagov.ebc.com.br/noticias/202504/aplicativo-brasileiro-ia-mapeia-3-5-mil-hectares-amazonia-por-dia
+  fetched: '2026-10-30'
+  quote: A atividade, conduzida em fevereiro, integra o Projeto Geoflora, financiado com recursos
+    do Fundo JBS pela Amazônia
+found_by:
+- checklist:7
+- link-from:ai-for-nature-and-climate-grant-fund
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

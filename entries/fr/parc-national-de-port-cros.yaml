@@ -1,0 +1,49 @@
+id: parc-national-de-port-cros
+kind: organisation
+name: Parc national de Port-Cros
+scope: fr
+sector: government
+roles:
+- uses-ai
+- governs
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+- bioacoustics
+hq: fr
+scale: local
+status: active
+summary: French national park that worked with BSB Marine on EYESEA AMP, an AI vision system
+  for automated surveillance of marine protected areas.
+facts:
+- claim: The park and BSB Marine joined to develop an AI system for marine protected areas.
+  url: https://www.portcros-parcnational.fr/sites/portcros-parcnational.fr/files/documents/news/eyesea_press_pnpc_bassedef.pdf
+  quote: Le Parc national de Port-Cros et BSB Marine s'associent pour développer une
+  fetched: '2026-10-31'
+- claim: Biodiversa lists its Sea Research Department as an EUROPAM partner.
+  url: https://www.biodiversa.eu/2023/04/19/europam/
+  fetched: '2026-10-31'
+  quote: Sea Research Department, The National Park of Port-Cros, Parc National de Port Cros,
+    Perols, France
+links:
+- type: partners-with
+  to: bsb-marine
+  url: https://www.portcros-parcnational.fr/sites/portcros-parcnational.fr/files/documents/news/eyesea_press_pnpc_bassedef.pdf
+  quote: Le Parc national de Port-Cros et BSB Marine s'associent pour développer une
+  fetched: '2026-10-31'
+- type: partners-with
+  to: europam
+  url: https://www.biodiversa.eu/2023/04/19/europam/
+  fetched: '2026-10-31'
+  quote: Sea Research Department, The National Park of Port-Cros, Parc National de Port Cros,
+    Perols, France
+found_by:
+- checklist:1
+- link-from:europam
+added_by: agent
+checked: '2026-10-31'
+countries:
+- fr

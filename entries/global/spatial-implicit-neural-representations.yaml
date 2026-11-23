@@ -1,0 +1,40 @@
+id: spatial-implicit-neural-representations
+kind: model
+name: Spatial Implicit Neural Representations
+also_known_as:
+- SINR
+scope: global
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+status: active
+website: https://github.com/elijahcole/sinr
+summary: Models for global-scale species range estimation, trained with iNaturalist data,
+  from a team that includes iNaturalist staff.
+facts:
+- claim: Code for global-scale species range estimation.
+  url: https://github.com/elijahcole/sinr
+  fetched: '2026-10-30'
+  quote: Code for training and evaluating global-scale species range estimation models.
+- claim: The SINR repository is tagged deep-learning.
+  url: https://github.com/elijahcole/sinr
+  fetched: '2026-10-30'
+  quote: Spatial Implicit Neural Representations for Global-Scale Species Mapping
+  ai_type: deep-learning
+links:
+- type: builds-on
+  to: inaturalist
+  url: https://github.com/elijahcole/sinr
+  fetched: '2026-10-30'
+  quote: predictions from one of our SINR models trained on data from iNaturalist
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

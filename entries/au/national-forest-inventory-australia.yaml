@@ -1,0 +1,23 @@
+id: national-forest-inventory-australia
+kind: programme
+name: National Forest Inventory of Australia
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- au
+status: active
+runner: unknown
+summary: Australia's national forest inventory, which holds the national forest cover
+  dataset used in the State of the Forests Report.
+facts:
+- claim: Confidence classes are assigned to the National Forest Inventory forest cover
+    dataset.
+  url: https://www.rinya.maff.go.jp/j/kaigai/kyoryoku/pdf/7_howell.pdf
+  fetched: '2026-10-31'
+  quote: Confidence classes (high, moderate or low) assigned to the
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

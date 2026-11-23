@@ -1,0 +1,65 @@
+id: mosj
+kind: programme
+name: Environmental Monitoring of Svalbard and Jan Mayen
+also_known_as:
+- MOSJ
+scope: 'no'
+summary: Environmental monitoring system for Svalbard and Jan Mayen, built and run by the Norwegian Polar
+  Institute, drawing key indicators from thematic land, air and sea programmes and normally assessing
+  the state of the environment each year.
+facts:
+- claim: An environmental monitoring system and part of the government's environmental monitoring.
+  url: https://mosj.no/en/about-mosj/
+  fetched: '2026-11-02'
+  quote: is an environmental monitoring system and part of the Government’s environmental monitoring in
+    Norway
+- claim: Draws on thematic programmes on land, in the air and in the sea.
+  url: https://mosj.no/en/about-mosj/
+  fetched: '2026-11-02'
+  quote: MOSJ obtains relevant information from these programmes on land, in the air and in the sea.
+- claim: Normally carries out state of the environment assessments each year.
+  url: https://mosj.no/en/about-mosj/
+  fetched: '2026-11-02'
+  quote: MOSJ normally undertakes such assessments of the state of the environment annually
+- claim: An environmental monitoring system and part of the Government's environmental monitoring in Norway.
+  url: https://mosj.no/en/about-mosj/
+  fetched: &id001 2026-11-02
+  quote: MOSJ (Environmental Monitoring of Svalbard and Jan Mayen) is an environmental monitoring system
+    and part of the Government’s environmental monitoring in Norway.
+- claim: Takes a selection of key indicators from thematic monitoring programmes.
+  url: https://mosj.no/en/about-mosj/
+  fetched: *id001
+  quote: MOSJ employs a selection of key indicators from the various thematic programmes
+links:
+- type: run-by
+  to: norwegian-polar-institute
+  url: https://mosj.no/en/about-mosj/
+  fetched: '2026-11-02'
+  quote: is the secretariat for MOSJ and consequently has principal responsibility for developing and
+    operating the system
+- type: built-by
+  to: norwegian-polar-institute
+  url: https://mosj.no/en/about-mosj/
+  fetched: '2026-11-02'
+  quote: has principal responsibility for developing and operating the system
+- type: run-by
+  to: norwegian-polar-institute
+  url: https://mosj.no/en/about-mosj/
+  fetched: *id001
+  quote: The Section for Environmental Management at the Norwegian Polar Institute is the secretariat
+    for MOSJ and consequently has principal responsibility for developing and operating the system.
+found_by:
+- checklist:2
+- link-from:norwegian-polar-institute
+added_by: agent
+checked: '2026-11-02'
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- ocean
+website: https://mosj.no
+countries:
+- 'no'
+techniques:
+- other

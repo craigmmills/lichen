@@ -1,0 +1,47 @@
+id: simba-asiatic-lion-identification
+kind: model
+name: SIMBA
+scope: in
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- in
+scale: local
+status: active
+summary: AI photo-identification software for Asiatic lions, housed in the Gir Hi-Tech
+  Monitoring Unit at Sasan-Gir.
+facts:
+- claim: IndiaAI reports where it is housed.
+  url: https://indiaai.gov.in/news/gujarat-forest-department-introduce-simba-for-the-identification-and-conservation-of-asiatic-lions
+  quote: SIMBA is now housed in the recently established “Gir Hi-Tech Monitoring Unit”
+    at Sasan-Gir.
+  fetched: '2026-10-31'
+- claim: eGov Review describes pairwise comparison by machine learning to automate
+    individual identification.
+  quote: SIMBA functions using the Machine Learning technique that enables a pairwise
+    comparison that automates the individual identifications.
+  url: https://www.egovreview.com/article/news/513/indian-state-forest-department-introduce-simba-identification-asiatic-lion
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: gujarat-forest-department
+  url: https://indiaai.gov.in/news/gujarat-forest-department-introduce-simba-for-the-identification-and-conservation-of-asiatic-lions
+  quote: Gujarat Forest Department introduce 'SIMBA' for the identification and conservation
+    of Asiatic Lions
+  fetched: '2026-10-31'
+- type: run-by
+  to: gujarat-forest-department
+  quote: Gujarat Forest Department introduced Software with Intelligent Marking Based
+    Identification of Asiatic Lions (SIMBA)
+  url: https://www.egovreview.com/article/news/513/indian-state-forest-department-introduce-simba-identification-asiatic-lion
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- Software with Intelligent Marking Based Identification of Asiatic Lions

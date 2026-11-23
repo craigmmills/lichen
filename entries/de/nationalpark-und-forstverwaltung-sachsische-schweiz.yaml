@@ -1,0 +1,53 @@
+id: nationalpark-und-forstverwaltung-sachsische-schweiz
+kind: organisation
+name: Nationalpark- und Forstverwaltung Sächsische Schweiz
+also_known_as:
+- Saxon Switzerland National Park and forest administration
+scope: de
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: de
+scale: local
+status: active
+summary: Park and forest administration listed as a participating area in KI-Nationalpark,
+  run by Staatsbetrieb Sachsenforst, with staff trained on site and involved in setting up
+  monitoring.
+facts:
+- claim: Listed as a participating area in the KI-Nationalpark project, with this postal address.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Staatsbetrieb Sachsenforst Nationalpark- und Forstverwaltung Sächsische Schweiz An
+    der Elbe 4 01814 Bad Schandau
+- claim: The list marks every area as taking part in the camera programme, some in the audio
+    programme as well.
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Weiß = nur Teilnahme am Kameraprogramm
+- claim: In KI-Nationalpark the protected-area administrations are trained on site and involved
+    in setting up the monitoring.
+  url: https://www.nationalpark-harz.de/de/aktuelles/2025/2025_12_08_KI%20Nationalpark/?js=false&page-style=schwarz
+  fetched: '2026-11-07'
+  quote: Neben der technischen Entwicklung werden die Schutzgebietsverwaltungen vor Ort geschult
+    und in den Aufbau des Monitorings eingebunden.
+links:
+- type: partners-with
+  to: ai-national-park
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Teilnehmende Gebiete am KI-Nationalpark Projekt
+- type: run-by
+  to: staatsbetrieb-sachsenforst
+  url: https://nationale-naturlandschaften.de/wp-content/blogs.dir/29/files/2026/02/Teilnehmende-Gebiete-am-KI.pdf
+  fetched: '2026-11-07'
+  quote: Staatsbetrieb Sachsenforst Nationalpark- und Forstverwaltung Sächsische Schweiz
+found_by:
+- rule:checklist-misses
+- link-from:ai-national-park
+added_by: agent
+checked: '2026-11-07'

@@ -1,0 +1,34 @@
+id: mammals-of-montenegro
+kind: dataset
+name: Mammals of Montenegro
+scope: me
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- me
+status: active
+summary: Dataset built by Wildlife Montenegro, holding more than 1,700 mammal occurrences
+  from Montenegro, drawn from human observations, camera traps and audio recordings.
+facts:
+- claim: Holds more than 1,700 mammal occurrences from Montenegro.
+  url: https://api.gbif.org/v1/organization/8b0e355f-e02d-471d-b03a-e6ff4657dd1f/publishedDataset
+  fetched: 2026-11-13
+  quote: This dataset provides more than 1700 occurrences from Mammals in Montenegro
+- claim: Its records come from human observations, camera traps and audio recordings.
+  url: https://api.gbif.org/v1/organization/8b0e355f-e02d-471d-b03a-e6ff4657dd1f/publishedDataset
+  fetched: 2026-11-13
+  quote: The occurrences are derived from Human observations, camera traps, audio
+    recordings
+links:
+- type: built-by
+  to: wildlife-montenegro
+  url: https://api.gbif.org/v1/organization/8b0e355f-e02d-471d-b03a-e6ff4657dd1f/publishedDataset
+  fetched: 2026-11-13
+  quote: the Wildlife Montenegro team has been working hard on recording mammal species
+    present in the country
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

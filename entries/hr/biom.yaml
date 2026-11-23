@@ -1,0 +1,57 @@
+id: biom
+kind: organisation
+name: Biom
+also_known_as:
+- BIOM
+scope: hr
+sector: ngo
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: hr
+countries:
+- hr
+scale: national
+status: active
+website: https://www.biom.hr
+summary: Organisation based in Zagreb that says it tested MegaDetector on about 70,000 photographs and
+  videos from LIFE Artina seabird nests, and whose 2025 report describes GPS-transmitter bird monitoring.
+facts:
+- claim: Says it turned to artificial intelligence to process camera-trap data from seabird colonies.
+  url: https://www.biom.hr/en/2025/12/05/using-ai-to-protect-adriatic-seabirds/
+  fetched: 2026-11-08
+  quote: For this reason, we turned to artificial intelligence as a new method of data processing in order
+    to build upon existing knowledge of seabirds.
+- claim: Says it tested MegaDetector on about 70,000 photographs and videos from LIFE Artina seabird nests.
+  url: https://www.biom.hr/en/2025/12/05/using-ai-to-protect-adriatic-seabirds/
+  fetched: 2026-11-08
+  quote: we decided to test MegaDetector, one of the most widely used artificial-intelligence models for
+    wildlife detection.
+- claim: Its 2025 annual report says the LIFE Artina project carried out systematic field research and
+    monitoring of birds using GPS transmitters.
+  url: https://www.biom.hr/wp-content/uploads/2026/03/Annual-report_2025_eng.pdf
+  fetched: 2026-11-08
+  quote: systematic field research and monitoring of birds
+- claim: Gives a Zagreb office address.
+  url: https://www.biom.hr/en/projects/
+  fetched: 2026-11-08
+  quote: 'Zagreb: Čazmanska 2, 10000 Zagreb'
+links:
+- type: uses
+  to: megadetector
+  url: https://www.biom.hr/en/2025/12/05/using-ai-to-protect-adriatic-seabirds/
+  fetched: 2026-11-08
+  quote: Over several months of work, MegaDetector processed all of the prepared photographs
+- type: partners-with
+  to: birdlife-international
+  url: https://www.biom.hr/wp-content/uploads/2026/03/Annual-report_2025_eng.pdf
+  fetched: 2026-11-08
+  quote: As a BirdLife partner, we
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-08

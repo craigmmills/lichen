@@ -1,0 +1,54 @@
+id: enmap
+kind: programme
+name: EnMAP
+also_known_as:
+- Environmental Mapping and Analysis Program
+scope: de
+ai_label: data-infrastructure
+roles:
+- supplies-data
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+status: active
+countries:
+- de
+website: http://www.enmap.org
+runner: unknown
+summary: German hyperspectral satellite mission that measures variables on the status
+  and evolution of land and water ecosystems.
+facts:
+- claim: A German hyperspectral satellite mission.
+  url: http://www.enmap.org
+  fetched: '2026-10-31'
+  quote: The Environmental Mapping and Analysis Program (EnMAP) is a German hyperspectral
+    satellite mission that
+- claim: Gives information on terrestrial and aquatic ecosystems.
+  url: http://www.enmap.org
+  fetched: '2026-10-31'
+  quote: variables providing information on the status and evolution of terrestrial
+    and aquatic ecosystems
+- claim: Analysis-ready products are available through EOC-Geoservice.
+  url: http://www.enmap.org
+  fetched: '2026-10-31'
+  quote: Users can now download pre-processed EnMAP L1B ARD and L1C ARD products
+- claim: Led by the German Space Agency at DLR in Bonn for the federal economics ministry.
+  url: https://www.dlr.de/de/forschung-und-transfer/projekte-und-missionen/enmap
+  fetched: '2026-10-31'
+  quote: Die Umweltmission EnMAP wird von der Deutschen Raumfahrtagentur im Deutschen
+    Zentrum für Luft- und Raumfahrt (DLR) in Bonn
+links:
+- type: run-by
+  to: german-aerospace-center
+  url: https://www.dlr.de/de/forschung-und-transfer/projekte-und-missionen/enmap
+  fetched: '2026-10-31'
+  quote: Die Umweltmission EnMAP wird von der Deutschen Raumfahrtagentur im Deutschen
+    Zentrum für Luft- und Raumfahrt (DLR) in Bonn
+found_by:
+- link-from:queue-de
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

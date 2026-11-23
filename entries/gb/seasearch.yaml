@@ -1,0 +1,35 @@
+id: seasearch
+kind: organisation
+name: Seasearch
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: http://www.seasearch.org.uk/
+summary: Volunteer diver recording scheme whose species data are available to use and download
+  from the NBN Atlas.
+facts:
+- claim: Data are available through the NBN Atlas.
+  url: https://www.seasearch.org.uk/data-management/
+  fetched: '2026-10-30'
+  quote: are available to use and download from the National Biodiversity Network (NBN) Atlas
+- claim: Publishes the dataset "Seasearch Marine Surveys in England" on GBIF.
+  url: https://api.gbif.org/v1/organization/5d662340-07fa-41b7-a3fc-e2e63ca50800/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Seasearch Marine Surveys in England
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/5d662340-07fa-41b7-a3fc-e2e63ca50800/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,84 @@
+id: belarusian-bird-sound-recognition-system
+kind: project
+name: AI-Powered Bird Sound Recognition System for Monitoring Avian Biodiversity in
+  Belarus
+also_known_as:
+- Система распознавания голосов птиц для мониторинга биоразнообразия фауны Беларуси
+- Information and Analytical Centre for Continuous Monitoring
+scope: by
+ai_label: ai
+ai_types:
+- deep-learning
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- by
+status: active
+runner: unknown
+summary: A 2025 paper describes a deep-learning system for monitoring Belarusian birds
+  by sound, with an annotated dataset of over 2,500 recordings of 116 species, a convolutional
+  neural network and a public platform.
+facts:
+- claim: A 2025 paper in the OSTIS conference proceedings, held in the BSUIR repository,
+    describes a system for automated recognition of bird vocalisations for continuous
+    monitoring of bird species in Belarus.
+  url: https://libeldoc.bsuir.by/handle/123456789/59777?mode=full
+  fetched: 2026-11-15
+  quote: Developing an AI-Powered Bird Sound Recognition System for Monitoring Avian
+    Biodiversity in Belarus
+- claim: The system comprises an annotated dataset of Belarusian bird sounds, a convolutional
+    neural network trained for multi-label species identification, and a publicly
+    available software platform.
+  url: https://libeldoc.bsuir.by/handle/123456789/59777?mode=full
+  fetched: 2026-11-15
+  quote: It presents a novel system comprising a large, annotated dataset of Belarusian
+    bird sounds, a convolutional neural network model trained for multi-label species
+    identification, and a publicly available software platform.
+  ai_type: ml-supervised
+- claim: The record says the system is built on deep learning of convolutional neural
+    network models.
+  url: https://libeldoc.bsuir.by/handle/123456789/59777?mode=full
+  fetched: 2026-11-15
+  quote: в частности глубокого обучения моделей на основе сверточных нейронных сетей
+  ai_type: deep-learning
+- claim: The database holds more than 2,500 audio recordings of the vocalisations
+    of 116 bird species.
+  url: https://libeldoc.bsuir.by/handle/123456789/59777?mode=full
+  fetched: 2026-11-15
+  quote: Созданная обширная база данных из более чем 2500 аудиозаписей содержит вокализации
+    116 видов птиц
+- claim: The paper's first-listed authors give their affiliation as the United Institute
+    of Informatics Problems of the National Academy of Sciences of Belarus; two co-authors
+    are at BSUIR.
+  url: https://libeldoc.bsuir.by/bitstream/123456789/59777/1/Zianouka_Developing.pdf
+  fetched: 2026-11-15
+  quote: United Institute of Informatics Problems
+- claim: The paper calls the experimental recognition software the Information and
+    Analytical Centre for Continuous Monitoring (IAC), with database software, training
+    datasets and a website.
+  url: https://libeldoc.bsuir.by/bitstream/123456789/59777/1/Zianouka_Developing.pdf
+  fetched: 2026-11-15
+  quote: and Analytical Centre for Continuous Monitoring (IAC).
+- claim: A 2025 paper in the Proceedings of the National Academy of Sciences of Belarus,
+    Biological series, describes an EfficientNetB3-based model for a passive acoustic
+    monitoring system for bird diversity in forested areas of Belarus, with authors
+    at the United Institute of Informatics Problems and the NAS Bioresources Centre.
+  url: https://vestibio.belnauka.by/jour/article/download/967/814
+  fetched: 2026-11-15
+  quote: EfficientNetB3-based model for a PAM system to monitor bird diversity in
+    the forested areas of interest in Belarus
+  ai_type: deep-learning
+- claim: The same paper says the system is meant to use acoustic data collected at
+    monitoring stations across Belarus.
+  url: https://vestibio.belnauka.by/jour/article/download/967/814
+  fetched: 2026-11-15
+  quote: meant to use natural acoustic data collected at monitoring stations across
+    Belarus
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

@@ -1,0 +1,39 @@
+id: kim-il-sung-university
+kind: organisation
+name: Kim Il Sung University
+also_known_as:
+- Kim Il-sung University
+scope: kp
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: kp
+countries:
+- kp
+scale: national
+status: active
+summary: Pyongyang university that OpenAlex gives as the affiliation for a 2023 neural-network chlorophyll
+  a paper from MODIS data and a 2024 ensemble-learning paper on forest aboveground biomass.
+facts:
+- claim: OpenAlex gives Kim Il Sung University, Pyongyang, as the affiliation of both authors of a 2023
+    paper on neural-network estimation of chlorophyll a from MODIS data in Sinpho Bay.
+  url: https://api.openalex.org/works/W4381335072?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Faculty of Earth and Environmental Sciences, Kim Il Sung University, Pyongyang
+- claim: OpenAlex gives its Faculty of Forest Science as an affiliation of the first author of a 2024
+    paper on ensemble learning for forest aboveground biomass.
+  url: https://api.openalex.org/works/W4391786300?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Faculty of Forest Science, Kim Il Sung University, Pyongyang, Democratic People's Republic of
+    Korea
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

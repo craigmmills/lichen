@@ -1,0 +1,30 @@
+id: parkserve
+kind: dataset
+name: ParkServe
+scope: us
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+countries:
+- us
+website: https://www.tpl.org/parkserve/about
+summary: Downloadable US dataset of park polygons, 10-minute walk service areas and priority
+  areas for over 15,000 cities and towns.
+facts:
+- claim: Covers over 15,000 cities and towns and can be downloaded.
+  url: https://www.tpl.org/park-data-downloads
+  quote: The ParkServe ® dataset includes data for over 15,000 cities and towns across the
+    U.S. and can be downloaded in a variety of formats.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: trust-for-public-land
+  url: https://www.tpl.org/parkserve/about
+  quote: Trust for Public Land has mapped park access for every urban area in the U.S., including
+    Puerto Rico.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

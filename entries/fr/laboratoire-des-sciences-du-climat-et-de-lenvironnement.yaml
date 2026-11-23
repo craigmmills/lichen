@@ -1,0 +1,55 @@
+id: laboratoire-des-sciences-du-climat-et-de-lenvironnement
+kind: organisation
+name: Laboratory for Sciences of Climate and Environment
+also_known_as:
+- LSCE
+scope: fr
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: CEA laboratory that works with INRAE on deep learning estimates of forest height
+  at 10 metres from Sentinel and GEDI data, and on the One Forest Vision remote sensing work
+  for the Congo basin.
+facts:
+- claim: Works with INRAE using deep learning at 10 metre scale.
+  url: https://www.inrae.fr/en/news/ai-and-remote-sensing-potent-combination-supporting-research-save-tropical-forests
+  fetched: '2026-10-31'
+  quote: The CEA’s Laboratory for Sciences of Climate and Environment (LSCE) currently works
+    with INRAE using an AI Deep Learning approach at 10 m scale.
+  ai_type: deep-learning
+- claim: Named by the ANR as the coordinating unit of AI4Forest through Philippe Ciais.
+  url: https://anr.fr/Project-ANR-22-FAI1-0002
+  fetched: '2026-10-31'
+  quote: Philippe Ciais (Laboratoire des Sciences du Climat et de l'Environnement UMR 8212)
+- claim: Cited as author of the FORMS-T collection.
+  url: https://doi.theia.data-terra.org/FormsT/
+  fetched: '2026-10-31'
+  quote: 'LSCE. (2026): FORMS-T: Forest Multiple Source height, wood volume, and biomass time-series
+    (2018-present) in France at 10 to 30 m resolution.'
+links:
+- type: partners-with
+  to: inrae
+  url: https://www.inrae.fr/en/news/ai-and-remote-sensing-potent-combination-supporting-research-save-tropical-forests
+  fetched: '2026-10-31'
+  quote: The CEA’s Laboratory for Sciences of Climate and Environment (LSCE) currently works
+    with INRAE using an AI Deep Learning approach
+- type: represents
+  to: forms-t
+  url: https://doi.theia.data-terra.org/FormsT/
+  fetched: '2026-10-31'
+  quote: 'LSCE. (2026): FORMS-T: Forest Multiple Source height, wood volume, and biomass time-series
+    (2018-present) in France at 10 to 30 m resolution.'
+found_by:
+- link-from:inrae
+- checklist:3
+added_by: agent
+checked: '2026-10-31'

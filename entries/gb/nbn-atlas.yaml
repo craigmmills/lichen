@@ -1,0 +1,71 @@
+id: nbn-atlas
+kind: dataset
+name: NBN Atlas
+also_known_as:
+- National Biodiversity Network Atlas
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- gb
+status: active
+website: https://nbnatlas.org
+summary: UK wildlife records portal, built on the Atlas of Living Australia platform,
+  with separate atlases for Scotland, Wales, Northern Ireland and the Isle of Man.
+facts:
+- claim: Based on the Atlas of Living Australia infrastructure.
+  url: https://nbnatlas.org/about-nbn-atlas/
+  quote: The NBN Atlas is based on the Atlas of Living Australia infrastructure.
+  fetched: '2026-10-30'
+- claim: Has atlases for Scotland, Wales, the Isle of Man and Northern Ireland.
+  url: https://nbnatlas.org/about-nbn-atlas/
+  quote: The NBN Atlas Scotland , NBN Atlas Wales , NBN Atlas Isle of Man and NBN
+    Atlas Northern Ireland are all based on the same system
+  fetched: '2026-10-30'
+- claim: Holds more than 387 million occurrence records.
+  url: https://nbn.org.uk/news/sphere-ppl-applying-ai-forecasting-to-species-distribution-modelling-using-the-nbn-atlas/
+  quote: bringing together more than 387 million species occurrence records from over
+    190 data partners
+  fetched: '2026-10-30'
+- claim: Holds more than 300 million wildlife records.
+  url: https://nbn.org.uk/about-us/where-we-are/the-global-perspective/
+  quote: more than 300 million wildlife records available through the NBN Atlas
+  fetched: &id001 2026-10-30
+- claim: Describes the Atlas as the UK biodiversity data portal.
+  url: https://nbn.org.uk/
+  fetched: '2026-10-30'
+  quote: The NBN Atlas, the UK's biodiversity data portal, holds over 385 million
+    UK species occurrence records
+links:
+- type: run-by
+  to: national-biodiversity-network-trust
+  url: https://nbnatlas.org/about-nbn-atlas/
+  quote: The National Biodiversity Network Trust has taken this open source platform
+  fetched: '2026-10-30'
+- type: run-by
+  to: national-biodiversity-network-trust
+  url: https://nbn.org.uk/
+  quote: "We are the UK’s largest partnership for nature, with over 200 members and more than 300 million wildlife records available through the NBN Atlas."
+  fetched: '2026-10-30'
+- type: run-by
+  to: national-biodiversity-network-trust
+  url: https://nbn.org.uk/wp-content/uploads/2025/10/NBN-Atlas-Strategy-2025-2030-final-A4-23-July-25-with-cover.pdf
+  quote: The NBN Atlas is managed and developed by the National Biodiversity Network
+    Trust (NBN Trust), a UK charity
+  fetched: *id001
+- type: run-by
+  to: national-biodiversity-network-trust
+  url: https://nbn.org.uk/about-us/
+  fetched: '2026-10-30'
+  quote: "We are the UK’s largest partnership for nature, with over 200 members and more than 300 million wildlife records available through the NBN Atlas."
+found_by:
+- checklist:2
+- link-from:national-biodiversity-network-trust
+- link-from:national-biodiversity-network
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- species-distribution

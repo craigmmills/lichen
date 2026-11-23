@@ -1,0 +1,71 @@
+id: forestmap
+kind: programme
+name: ForestMap
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: unknown
+countries:
+- es
+summary: Web service that calculates forest inventories automatically from national
+  aerial LiDAR and forest inventory plots, for selected Spanish provinces.
+facts:
+- claim: Uses LiDAR from the national aerial orthophoto plan and plot databases including
+    the National Forest Inventory.
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  quote: utilizan datos del LiDAR del Plan Nacional de Ortofotografía Aérea (PNOA)
+    y bases de datos de parcelas internas y externas (del Inventario Forestal Nacional)
+  fetched: '2026-10-31'
+- claim: Calculates forest inventories online.
+  url: https://forestmap.eu/
+  fetched: '2026-10-31'
+  quote: The online platform for calculating forest inventories by Agresta S. Coop.
+- claim: FAO describes it as combining LiDAR, Sentinel-2 satellite imagery and AI
+    algorithms.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: which combines LiDAR, Sentinel-2 satellite imagery, and AI algorithms
+- claim: Received EU Horizon 2020 funding under grant 858664.
+  url: https://forestmap.eu/project/
+  fetched: '2026-10-31'
+  quote: grant agreement No. 858664
+- claim: Available in several regions of Spain.
+  url: https://forestmap.eu/project/
+  fetched: '2026-10-31'
+  quote: is now available in several regions of Spain
+- claim: Described in a CONAMA paper as continuous forest inventories at national
+    scale based on sensors.
+  url: https://www.conama.org/conama/download/files/conama2024/AEs%202024/AE-6_Teledetecci%C3%B3n%20y%20sensores%20medioambientales.pdf
+  fetched: '2026-10-31'
+  quote: FORESTMAP, Inventarios Forestales continuos a escala nacional basados en
+    Sensores
+links:
+- type: run-by
+  to: agresta
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  quote: "Autor / Desarrollador: Agresta"
+  fetched: '2026-10-31'
+- type: builds-on
+  to: inventario-forestal-nacional
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  quote: bases de datos de parcelas internas y externas (del Inventario Forestal Nacional)
+  fetched: '2026-10-31'
+- type: run-by
+  to: agresta
+  url: https://forestmap.eu/
+  fetched: '2026-10-31'
+  quote: The online platform for calculating forest inventories by Agresta S. Coop.
+- type: run-by
+  to: agresta
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  fetched: '2026-10-31'
+  quote: "Autor / Desarrollador: Agresta"
+found_by:
+- checklist:7
+- link-from:food-and-agriculture-organization
+- checklist:5
+scope: es
+added_by: agent
+checked: '2026-10-31'

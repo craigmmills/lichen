@@ -1,0 +1,47 @@
+id: scientific-centre-for-aerospace-research-of-the-earth
+kind: organisation
+name: Scientific Centre for Aerospace Research of the Earth
+also_known_as:
+- CASRE
+scope: ua
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ua
+scale: national
+status: active
+summary: Kyiv facility listed by OpenAlex whose researchers published papers on war-related
+  fires in 2023, biotope monitoring in a reserve in 2020, and forest disturbance risk in 2021.
+facts:
+- claim: OpenAlex lists it as a facility in Kyiv.
+  url: https://api.openalex.org/institutions/I4210116529
+  fetched: 2026-11-03
+  quote: '"display_name":"Scientific Centre for Aerospace Research of the Earth"'
+- claim: Its researchers published a 2023 paper on assessing and monitoring fires caused by
+    the war at landscape scale.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210116529,from_publication_date:2019-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-03
+  quote: Assessment and monitoring of fires caused by the War in Ukraine on Landscape scale
+- claim: Its researchers published a 2020 paper on remote sensing monitoring of biotope distribution
+    in a nature reserve.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210116529,from_publication_date:2019-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-03
+  quote: Remote Sensing Monitoring of Biotopes Distribution within Nature Reserve Area
+- claim: Its researchers published a 2021 paper on the risk of disturbance to primeval and
+    managed forests from Earth observation data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I4210116529,from_publication_date:2019-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-03
+  quote: Assessment of the Risk of Disturbance Impact on Primeval and Managed Forests Based
+    on Earth Observation Data
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

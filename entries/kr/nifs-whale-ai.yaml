@@ -1,0 +1,39 @@
+id: nifs-whale-ai
+kind: model
+name: NIFS whale photo identification AI
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+scale: national
+website: https://www.nifs.go.kr/whaleAi/
+summary: Photo identification model built by the National Institute of Fisheries Science for ten marine
+  mammal species common in Korean seas, trained on 20 years of survey images, with a location-based monitoring
+  system planned.
+facts:
+- claim: Identifies ten marine mammal species seen often in Korean seas.
+  url: https://nifs.go.kr/news/actionNewsView.do?MENU_ID=M0000307&NEWS_D_DATE_BEGIN=2010-01-01&NEWS_D_DATE_END=2025-11-10&NEWS_D_SUBJECT=&NEWS_SEQ=4736&PARENT_NEWS_HG_CODE=&selectPage=
+  fetched: '2026-11-02'
+  quote: 이 서비스는 현재 우리나라 바다에서 자주 관찰되는 10 종의 해양포유류를 구분할 수 있다 .
+- claim: Trained on 20 years of survey photographs and video.
+  url: https://nifs.go.kr/news/actionNewsView.do?MENU_ID=M0000307&NEWS_D_DATE_BEGIN=2010-01-01&NEWS_D_DATE_END=2025-11-10&NEWS_D_SUBJECT=&NEWS_SEQ=4736&PARENT_NEWS_HG_CODE=&selectPage=
+  fetched: '2026-11-02'
+  quote: 국립수산과학원 고래연구소가 지난 20 년간 우리 해역에서 수행된 고래 관찰 조사를 통해 모아온 사진 및 영상자료를 바탕으로 AI 가 학습을 통해 종을 구분할 수 있게
+    된 것이다 .
+- claim: A monitoring system using location data is planned.
+  url: https://nifs.go.kr/news/actionNewsView.do?MENU_ID=M0000307&NEWS_D_DATE_BEGIN=2010-01-01&NEWS_D_DATE_END=2025-11-10&NEWS_D_SUBJECT=&NEWS_SEQ=4736&PARENT_NEWS_HG_CODE=&selectPage=
+  fetched: '2026-11-02'
+  quote: 향후 위치 정보와도 결합해 , 우리바다의 해양포유류 분포를 실시간에 가깝게 확인할 수 있도록 모니터링 체계를 구축할 계획이다 .
+links:
+- type: built-by
+  to: national-institute-of-fisheries-science
+  url: https://nifs.go.kr/news/actionNewsView.do?MENU_ID=M0000307&NEWS_D_DATE_BEGIN=2010-01-01&NEWS_D_DATE_END=2025-11-10&NEWS_D_SUBJECT=&NEWS_SEQ=4736&PARENT_NEWS_HG_CODE=&selectPage=
+  fetched: '2026-11-02'
+  quote: 관련 사진만 올리면 고래나 물범 같은 해양포유류의 종류를 알려주는 인공지능 (AI) 서비스를 선보인다고 밝혔다
+found_by:
+- checklist:2
+scope: kr
+status: active
+added_by: agent
+checked: '2026-11-02'

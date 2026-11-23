@@ -1,0 +1,42 @@
+id: simmons-lab
+kind: organisation
+name: Simmons Lab
+scope: gb
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+techniques:
+- computer-vision
+- bioacoustics
+hq: gb
+scale: national
+status: active
+website: https://www.simmonslab.com/
+summary: University of Exeter research group developing methods for using AI to count nature
+  at scale from camera traps and acoustic sensors.
+facts:
+- claim: Uses AI and technology to understand and reverse biodiversity loss.
+  url: https://www.simmonslab.com/
+  quote: We use AI and technology to help understand and reverse biodiversity loss
+  fetched: &id001 2026-10-30
+- claim: Works with camera traps and acoustic sensors.
+  url: https://www.simmonslab.com/
+  quote: We work with monitoring technologies, such as camera traps and acoustic sensors
+  fetched: *id001
+- claim: University of Exeter address.
+  url: https://www.exeter.ac.uk/contact
+  quote: Exeter EX4 4PY
+  fetched: 2026-10-30
+links:
+- type: run-by
+  to: university-of-exeter
+  url: https://www.simmonslab.com/
+  quote: the Simmons Lab at the University of Exeter
+  fetched: *id001
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001
+also_known_as:
+- Benno Simmons's Lab

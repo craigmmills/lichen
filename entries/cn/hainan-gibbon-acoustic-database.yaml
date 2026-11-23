@@ -1,0 +1,44 @@
+id: hainan-gibbon-acoustic-database
+kind: project
+name: Hainan gibbon acoustic database
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+summary: Acoustic monitoring of the Hainan gibbon in which 50 devices in trees record and
+  transmit gibbon calls in real time, built on Huawei's Tech4Nature technology.
+facts:
+- claim: Calls are recorded and transmitted in real time by 50 devices.
+  url: https://regional.chinadaily.com.cn/hainan/2022-01/30/c_704516.htm
+  fetched: '2026-10-31'
+  quote: are currently being recorded and transmitted in real time to a cloud-storage terminal
+    by 50 high-tech devices mounted in the trees
+- claim: The devices automatically recognise the sound of Hainan gibbons.
+  url: https://regional.chinadaily.com.cn/hainan/2022-01/30/c_704516.htm
+  fetched: '2026-10-31'
+  quote: are capable of automatically recognizing the sound of Hainan gibbons
+links:
+- type: run-by
+  to: hainan-national-park-research-institute
+  url: https://regional.chinadaily.com.cn/hainan/2022-01/30/c_704516.htm
+  fetched: '2026-10-31'
+  quote: The Hainan National Park Research Institute and the International Union for Conservation
+    of Nature launched the acoustic database project in January last year
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://regional.chinadaily.com.cn/hainan/2022-01/30/c_704516.htm
+  fetched: '2026-10-31'
+  quote: The Hainan National Park Research Institute and the International Union for Conservation
+    of Nature launched the acoustic database project in January last year
+- type: uses
+  to: tech4nature
+  url: https://regional.chinadaily.com.cn/hainan/2022-01/30/c_704516.htm
+  fetched: '2026-10-31'
+  quote: The devices are based on Huawei's Tech4Nature technology
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

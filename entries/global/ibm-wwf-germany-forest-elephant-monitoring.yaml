@@ -1,0 +1,31 @@
+id: ibm-wwf-germany-forest-elephant-monitoring
+kind: project
+name: IBM and WWF-Germany forest elephant monitoring
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Project announced in 2024 by IBM and WWF-Germany to identify individual African forest elephants from camera trap photos with AI-powered visual inspection.
+facts:
+- claim: Designed to identify individual elephants from camera trap photos.
+  url: https://newsroom.ibm.com/2024-08-12-IBM-and-WWF-Germany-to-Build-New-AI-Solution-to-Support-Conservation-of-Keystone-Species
+  fetched: &id001 2026-10-30
+  quote: supporting the accurate identification of individual elephants from camera trap photos
+links:
+- type: run-by
+  to: ibm
+  url: https://newsroom.ibm.com/2024-08-12-IBM-and-WWF-Germany-to-Build-New-AI-Solution-to-Support-Conservation-of-Keystone-Species
+  fetched: *id001
+  quote: "IBM and WWF-Germany to Build New AI Solution to Support Conservation of Keystone Species"
+- type: partners-with
+  to: wwf-germany
+  url: https://newsroom.ibm.com/2024-08-12-IBM-and-WWF-Germany-to-Build-New-AI-Solution-to-Support-Conservation-of-Keystone-Species
+  fetched: *id001
+  quote: the World Wide Fund For Nature - Germany (WWF)
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

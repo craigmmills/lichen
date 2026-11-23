@@ -1,0 +1,28 @@
+id: gbif-kenya
+kind: programme
+name: GBIF Kenya
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+countries:
+- ke
+status: active
+runner: unknown
+summary: Kenya's national node in the GBIF network, listed by GBIF with observer status
+  and a Nairobi postal address.
+facts:
+- claim: Listed by GBIF as the Kenya country node with observer status.
+  url: https://api.gbif.org/v1/node/country/KE
+  quote: '"participationStatus":"OBSERVER"'
+  fetched: '2026-10-30'
+- claim: Listed under the title GBIF Kenya.
+  url: https://api.gbif.org/v1/node/country/KE
+  quote: '"title":"GBIF Kenya"'
+  fetched: '2026-10-30'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

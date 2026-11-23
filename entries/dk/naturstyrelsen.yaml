@@ -1,0 +1,91 @@
+id: naturstyrelsen
+kind: organisation
+name: Naturstyrelsen
+also_known_as:
+- Danish Nature Agency
+scope: dk
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+realms:
+- land
+hq: dk
+scale: national
+status: active
+website: https://naturstyrelsen.dk
+summary: Agency in the Ministry of Nature and Animal Welfare that reported managing about
+  212,000 hectares in 2025 and commissioned the 2026 DCE note on AMI traps.
+facts:
+- claim: Its 2025 annual report says it managed about 212000 hectares of state-owned forest
+    and nature land.
+  url: https://naturstyrelsen.dk/media/elhncu00/nst-aarsrapport-2025.pdf
+  fetched: '2026-11-02'
+  quote: Naturstyrelsen for valter ca. 212.000 h a statsejede
+- claim: Its 2025 annual report says it was working to establish 21 nature national parks
+    and one urban nature national park on West Amager.
+  url: https://naturstyrelsen.dk/media/elhncu00/nst-aarsrapport-2025.pdf
+  fetched: '2026-11-02'
+  quote: ligeledes på at etablere i alt 21 naturnationalparker
+- claim: Its 2025 annual report gives a head office in Randbøl.
+  url: https://naturstyrelsen.dk/media/elhncu00/nst-aarsrapport-2025.pdf
+  fetched: '2026-11-02'
+  quote: tilknyttet hovedkontoret i Randbøl
+- claim: Manages about 210,000 hectares of state nature areas.
+  url: https://naturstyrelsen.dk/om-naturstyrelsen
+  fetched: '2026-11-02'
+  quote: Naturstyrelsen forvalter vores fælles naturarv i form af ca. 210.000 hektar statslige
+    naturområder over hele landet
+- claim: Its nature national parks page lists material on automated biodiversity monitoring.
+  url: https://naturstyrelsen.dk/vildere-natur/naturnationalparker
+  fetched: '2026-11-02'
+  quote: Automatiseret biodiversitetsovervågning i Danmarks naturnationalparker
+- claim: Its nature national parks page links to a note on AI-assisted image recognition with
+    AMI traps and moths.
+  url: https://naturstyrelsen.dk/vildere-natur/naturnationalparker
+  fetched: '2026-11-02'
+  quote: AI-assisteret billedgenkendelse – AMI-fælder og natsommerfugle
+- claim: An agency in the Ministry of Nature and Animal Welfare that looks after state nature
+    areas.
+  url: https://naturstyrelsen.dk/om-naturstyrelsen
+  fetched: &id001 2026-11-02
+  quote: Naturstyrelsen er en styrelse i Ministeriet for Natur og Dyrevelfærd, der tager vare
+    på statslige naturområder og skaber ny natur over hele landet.
+- claim: Manages state nature areas as nature national park, untouched forest, close-to-nature
+    forestry or open nature.
+  url: https://naturstyrelsen.dk/om-naturstyrelsen
+  fetched: *id001
+  quote: De statslige naturområder forvaltes som enten naturnationalpark, urørt skov, naturnær
+    skovdrift eller lysåben natur.
+- claim: Commissioned the 2026 DCE note on AMI traps in nature national parks.
+  url: https://dce.au.dk/fileadmin/dce.au.dk/Udgivelser/Notater_2026/N2026_36.pdf
+  fetched: *id001
+  quote: 'Rekvirent: Naturstyrelsen'
+- claim: Manages about 200,000 hectares of forests and natural areas.
+  url: https://eng.naturstyrelsen.dk/
+  fetched: '2026-11-02'
+  quote: The Danish Nature Agency manages the Ministry's approximately 200,000 hectares of
+    forests and natural areas
+- claim: Headquarters in Randbøl.
+  url: https://eng.naturstyrelsen.dk/
+  fetched: '2026-11-02'
+  quote: around 130 based at the headquarters in Randbøl
+links:
+- type: run-by
+  to: ministry-of-nature-and-animal-welfare-denmark
+  url: https://naturstyrelsen.dk/media/elhncu00/nst-aarsrapport-2025.pdf
+  fetched: '2026-11-02'
+  quote: Naturstyrelsen er en styrelse under Ministeriet for Grøn Trepart
+- type: run-by
+  to: ministry-of-nature-and-animal-welfare-denmark
+  url: https://naturstyrelsen.dk/om-naturstyrelsen
+  fetched: '2026-11-02'
+  quote: Naturstyrelsen er en styrelse i Ministeriet for Natur og Dyrevelfærd
+found_by:
+- checklist:1
+- checklist:register
+- link-from:ministry-for-nature-and-animal-welfare
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk

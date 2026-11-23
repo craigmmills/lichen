@@ -1,0 +1,54 @@
+id: yellowstone-wolf-project
+kind: project
+name: Yellowstone Wolf Project
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+status: active
+runner: unknown
+summary: Long-running study of Yellowstone wolves, working with the Colossal Foundation
+  and Yellowstone Forever on cameras that record howls and AI that classifies them.
+facts:
+- claim: Partnership uses cameras and AI to classify wolf howls.
+  url: https://www.discovermagazine.com/planet-earth/artificial-intelligence-could-help-unlock-the-secrets-of-yellowstone-wolf
+  fetched: '2026-10-30'
+  quote: using cameras to monitor acoustic (audio) data and AI algorithms to classify
+    howls
+- claim: 25 camera units deployed near wolf den sites.
+  url: https://www.discovermagazine.com/planet-earth/artificial-intelligence-could-help-unlock-the-secrets-of-yellowstone-wolf
+  fetched: '2026-10-30'
+  quote: will allow 25 camera units to be deployed near wolf denning sites
+- claim: Among its work is creating protocols and AI models for bioacoustic research.
+  url: https://www.yellowstone.org/wolf-project/
+  quote: Creating effective data collection protocols and AI models for bioacoustic
+    research in Yellowstone and beyond.
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: colossal-foundation
+  url: https://www.discovermagazine.com/planet-earth/artificial-intelligence-could-help-unlock-the-secrets-of-yellowstone-wolf
+  fetched: '2026-10-31'
+  quote: "has announced a partnership with non-profit Yellowstone Forever and the Yellowstone Wolf Project"
+- type: partners-with
+  to: yellowstone-forever
+  url: https://www.discovermagazine.com/planet-earth/artificial-intelligence-could-help-unlock-the-secrets-of-yellowstone-wolf
+  fetched: '2026-10-30'
+  quote: has announced a partnership with non-profit Yellowstone Forever and the Yellowstone
+    Wolf Project
+- type: uses
+  to: grizcam
+  url: https://www.discovermagazine.com/planet-earth/artificial-intelligence-could-help-unlock-the-secrets-of-yellowstone-wolf
+  fetched: '2026-10-30'
+  quote: "will allow 25 camera units to be deployed near wolf denning sites. The camera technology, called GrizCam"
+- type: funded-by
+  to: colossal-foundation
+  url: https://colossalfoundation.org/project/decoding-the-howl-using-ai-to-understand-the-language-of-yellowstones-wolves/
+  quote: "The Colossal Foundation’s support of the Wolf Project’s bioacoustics effort has led to the procurement of 25 additional GrizCam units"
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

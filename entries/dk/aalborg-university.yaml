@@ -1,0 +1,75 @@
+id: aalborg-university
+kind: organisation
+name: Aalborg University
+scope: dk
+sector: academic
+roles:
+- uses-ai
+- unknown
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+hq: dk
+scale: global
+status: active
+summary: University whose researchers report using thermal drones since 2022, with AI analysing
+  recordings, and which CORDIS lists as AquaINFRA coordinator.
+facts:
+- claim: Researchers there say they have worked with thermal drones to monitor mammals since
+    2022.
+  url: https://aktuelnaturvidenskab.dk/fileadmin/Aktuel_Naturvidenskab/nr-2/AN2-2026-droner-ai-og-dyr.pdf
+  fetched: '2026-11-02'
+  quote: Universitet (AAU) arbejdet med termiske droner til
+- claim: Researchers there say AI turns the recordings into quantitative data on animal behaviour.
+  url: https://aktuelnaturvidenskab.dk/fileadmin/Aktuel_Naturvidenskab/nr-2/AN2-2026-droner-ai-og-dyr.pdf
+  fetched: '2026-11-02'
+  quote: Svaret er droner med termiske kameraer samt kunstig intelligens
+- claim: Its research portal lists a study of a thermal drone for recognising wild mammals
+    on a moor in Denmark.
+  url: https://vbn.aau.dk/da/publications/drone-with-mounted-thermal-infrared-cameras-for-monitoring-terres/
+  fetched: '2026-11-02'
+  quote: This study investigates the use of a drone equipped with a thermal camera for recognizing
+    wild mammal species in open areas
+- claim: OpenAlex lists a 2023 paper on YOLO object detection for hare and roe deer in thermal
+    aerial video.
+  url: https://api.openalex.org/works/W4390176445?select=id,title,publication_year,authorships
+  fetched: '2026-11-02'
+  quote: Using YOLO Object Detection to Identify Hare and Roe Deer in Thermal Aerial Video
+    Footage
+- claim: OpenAlex gives the first author's institution as Aalborg University.
+  url: https://api.openalex.org/works/W4390176445?select=id,title,publication_year,authorships
+  fetched: '2026-11-02'
+  quote: Aalborg University
+- claim: CORDIS lists it as coordinator of AquaINFRA, at Fredrik Bajers Vej 7K.
+  url: https://cordis.europa.eu/project/id/101094434
+  fetched: '2026-11-02'
+  quote: FREDRIK BAJERS VEJ 7K
+- claim: CORDIS lists it among OBAMA-NEXT participants.
+  url: https://cordis.europa.eu/project/id/101081642
+  fetched: '2026-11-02'
+  quote: AALBORG UNIVERSITET
+- claim: An August 2026 report says a university team used drones, thermal cameras and AI
+    to study Denmark's nocturnal predators.
+  url: https://www.bio.aau.dk/drones-and-ai-help-researchers-understand-our-predators-n175473
+  fetched: '2026-11-02'
+  quote: Using advanced drones, thermal cameras and artificial intelligence, a team of researchers
+    from Aalborg University has studied the nocturnal activities of Denmark’s native predators.
+- claim: Address in Aalborg.
+  url: https://www.ai.aau.dk/collaboration/animal-behavioral-analysis-using-ai
+  fetched: '2026-11-02'
+  quote: Fredrik Bajers Vej 7K
+found_by:
+- checklist:3
+- link-from:aquainfra
+added_by: agent
+checked: '2026-11-02'
+countries:
+- dk
+also_known_as:
+- Aalborg Universitet
+- AAU

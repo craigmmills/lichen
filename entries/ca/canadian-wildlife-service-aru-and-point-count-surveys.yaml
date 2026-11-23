@@ -1,0 +1,34 @@
+id: canadian-wildlife-service-aru-and-point-count-surveys
+kind: dataset
+name: Canadian Wildlife Service ARU and point count survey locations
+also_known_as: []
+scope: ca
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ca
+summary: A national map layer of Canadian Wildlife Service autonomous recording unit
+  and point count survey locations, 1993 to 2025. The Service deploys the recorders
+  to monitor migratory birds and other wildlife.
+facts:
+- claim: The Canadian Wildlife Service deploys autonomous recording units and point
+    counts across Canada to monitor migratory birds and other wildlife.
+  url: https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/SurveyARUPointCountCanada1993to2025/MapServer/1?f=pjson
+  fetched: '2026-10-31'
+  quote: The Canadian Wildlife Service deploys autonomous acoustic recording units
+    (ARUs) and point count surveys in a variety of habitats throughout Canada
+links:
+- type: run-by
+  to: environment-and-climate-change-canada
+  url: https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/SurveyARUPointCountCanada1993to2025/MapServer/1?f=pjson
+  fetched: '2026-10-31'
+  quote: 'Author: Environment and Climate Change Canada / Environnement et Changement
+    climatique Canada'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

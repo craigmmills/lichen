@@ -1,0 +1,43 @@
+id: ibbi
+kind: programme
+name: ibbi
+scope: 'no'
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- 'no'
+scale: national
+summary: App built by Blåst Spel AS whose AI, according to its description, helps users find the right
+  species, and whose users can share findings with GBIF.
+facts:
+- claim: The app description says its AI helps users find the right species.
+  url: https://apps.apple.com/se/app/ibbi/id1608355964
+  fetched: &id001 2026-11-02
+  quote: Our AI will help you find the right species.
+- claim: The App Store gives the developer as Blaast and the provider as Blast Spel AS.
+  url: https://apps.apple.com/se/app/ibbi/id1608355964
+  fetched: *id001
+  quote: Leverantör Blast Spel AS
+- claim: Users can share their findings with GBIF.
+  url: https://apps.apple.com/se/app/ibbi/id1608355964
+  fetched: *id001
+  quote: You can also share your findings with the Global Biodiversity Information Facility (GBIF)
+- claim: Release notes say the AI states how sure it is, and picks genus or family when unsure of the
+    species.
+  url: https://apps.apple.com/se/app/ibbi/id1608355964
+  fetched: *id001
+  quote: The AI says honestly how sure it is, and picks genus or family when unsure of the species
+links:
+- type: built-by
+  to: blast-spel-as
+  url: https://apps.apple.com/se/app/ibbi/id1608355964
+  fetched: *id001
+  quote: Utvecklare Blaast
+found_by:
+- link-from:blast-spel-as
+added_by: agent
+checked: *id001

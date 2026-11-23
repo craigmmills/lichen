@@ -1,0 +1,52 @@
+id: svalbard-italian-observatory
+kind: programme
+name: Svalbard Italian Observatory
+scope: sj
+ai_label: conservation-tech
+realms:
+- ocean
+status: active
+summary: Active observatory run by the CNR Institute of Polar Sciences, with four
+  monitoring sites (three in the Kongsfjorden-Krossfjorden system, one in the Fram
+  Strait) collecting physical, biogeochemical and biological water column data.
+facts:
+- claim: The CNR Institute of Polar Sciences' GBIF publisher record says the observatory
+    comprises four monitoring sites, three in the Kongsfjorden-Krossfjorden system
+    and one oceanic site in the Fram Strait.
+  url: https://api.gbif.org/v1/organization?q=Svalbard&limit=20
+  fetched: 2026-11-15
+  quote: 'The Svalbard Italian Observatory comprises four monitoring sites: three
+    within the Kongsfjorden-Krossfjorden system (KIM, MDI, MAP) and one oceanic site,
+    S1, in the Fram Strait.'
+- claim: The same record says the observatory collects physical, biogeochemical and
+    biological data from various depths of the water column.
+  url: https://api.gbif.org/v1/organization?q=Svalbard&limit=20
+  fetched: 2026-11-15
+  quote: This Observatory collects comprehensive physical, biogeochemical, and biological
+    data from various depths within the water column.
+- claim: The CNR Institute of Polar Sciences' GBIF publisher record says it expects
+    to publish data and metadata from a long time series of zooplankton and benthic
+    organisms sampled with automated sediment traps at the observatory's MDI site
+    in Kongsfjorden.
+  url: https://api.gbif.org/v1/organization?q=Svalbard&limit=20
+  fetched: 2026-11-15
+  quote: a long time series of swimmers (zooplankton and benthic organisms) continuously
+    sampled using automated sediment traps anchored at the MDI observatory site in
+    Kongsfjorden
+links:
+- type: run-by
+  to: cnr-istituto-di-scienze-polari
+  url: https://api.gbif.org/v1/organization?q=Svalbard&limit=20
+  fetched: 2026-11-15
+  quote: 'the ISP-Bologna manages two major marine infrastructures: one in the Svalbard
+    Islands and another in the southern Adriatic Sea.'
+- type: partners-with
+  to: svalbard-integrated-arctic-earth-observing-system
+  url: https://api.gbif.org/v1/organization?q=Svalbard&limit=20
+  fetched: 2026-11-15
+  quote: As part of the Svalbard Integrated Arctic Earth Observing System (SIOS),
+    it provides valuable insights into Arctic marine environments
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

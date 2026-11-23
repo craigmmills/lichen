@@ -1,0 +1,38 @@
+id: eowater
+kind: programme
+name: EOWater
+scope: au
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+status: active
+summary: Google Earth Engine toolkit that uses satellite imagery to monitor water
+  surface areas in the Murray-Darling Basin.
+facts:
+- claim: Built on Google Earth Engine.
+  url: https://ngis.com.au/case-studies/murray-darling-basin/
+  fetched: '2026-10-31'
+  quote: developed EOWater, a Google Earth Engine (GEE)-based toolkit that enables
+    large-scale monitoring of water surface areas.
+links:
+- type: run-by
+  to: ngis
+  url: https://ngis.com.au/case-studies/murray-darling-basin/
+  fetched: '2026-10-31'
+  quote: NGIS, in collaboration with NSW DCCEEW, developed EOWater
+- type: partners-with
+  to: nsw-department-of-climate-change-energy-the-environment-and-water
+  url: https://ngis.com.au/case-studies/murray-darling-basin/
+  fetched: '2026-10-31'
+  quote: NGIS, in collaboration with NSW DCCEEW, developed EOWater
+- type: builds-on
+  to: google-earth-engine
+  url: https://ngis.com.au/case-studies/murray-darling-basin/
+  fetched: '2026-10-31'
+  quote: a Google Earth Engine (GEE)-based toolkit
+found_by:
+- link-from:ngis
+added_by: agent
+checked: '2026-10-31'

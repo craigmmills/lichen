@@ -1,0 +1,65 @@
+id: nanjing-institute-of-environmental-sciences
+kind: organisation
+name: Nanjing Institute of Environmental Sciences
+also_known_as:
+- 南京环境科学研究所
+- 生态环境部南京环境科学研究所
+scope: cn
+sector: government
+roles:
+- supplies-data
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: cn
+scale: national
+status: active
+summary: Research institute of China's environment ministry that leads the China Biodiversity
+  Observing Network and its camera-trap mammal network.
+facts:
+- claim: GEO BON says the institute has organised about 3,500 trained biologists, protected
+    area managers and volunteers for field monitoring of biodiversity.
+  url: https://geobon.org/china-bon-network/
+  fetched: '2026-10-31'
+  quote: Nanjing Institute of Environmental Sciences affiliated to MEP has organized approximately
+    3500 trained biologists
+- claim: Describes its smart biodiversity monitoring system as based on AI, big data, the
+    internet of things and eDNA, with AI species identification and automatic reports.
+  url: https://www.nies.org/xwyl/kydt/202403/t20240329_1069624.html
+  fetched: '2026-10-31'
+  quote: 生物多样性智慧监测体系是一种基于人工智能、大数据、物联网、 eDNA 等前沿技术
+- claim: Works with companies including Unitree to develop a robot dog for biodiversity monitoring.
+  url: https://www.nies.org/xwyl/kydt/202605/t20260520_1154870.html
+  fetched: '2026-10-31'
+  quote: 联合宇树科技等企业，研发移动式智慧监测设备——生物多样性监测智能机器狗。
+links:
+- type: leads
+  to: china-biodiversity-observing-network
+  url: https://www.biodiversity-science.net/CN/Y2020/V28/I9/1115
+  fetched: '2026-10-31'
+  quote: organized by the Ministry of Ecology and Environment and led by the Nanjing Institute
+    of Environmental Sciences
+- type: run-by
+  to: ministry-of-ecology-and-environment-china
+  url: https://www.nies.org/zzjg/kypt/swzdsys/sysgk/sysjs/
+  fetched: '2026-10-31'
+  quote: 主办：生态环境部南京环境科学研究所
+- type: partners-with
+  to: unitree-robotics
+  url: https://www.nies.org/xwyl/kydt/202605/t20260520_1154870.html
+  fetched: '2026-10-31'
+  quote: 联合宇树科技等企业，研发移动式智慧监测设备——生物多样性监测智能机器狗。
+found_by:
+- checklist:2
+- checklist:1
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn
+techniques:
+- computer-vision
+- bioacoustics
+- edna-genomics

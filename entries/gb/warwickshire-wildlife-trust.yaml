@@ -1,0 +1,43 @@
+id: warwickshire-wildlife-trust
+kind: organisation
+name: Warwickshire Wildlife Trust
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+- governs
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- gb
+scale: local
+website: https://www.warwickshirewildlifetrust.org.uk
+summary: County wildlife charity that manages the Natural Capital Assessment Partnership,
+  a long-running habitat dataset for Warwickshire, Coventry and Solihull.
+facts:
+- claim: Manages the partnership.
+  url: https://www.warwickshirewildlifetrust.org.uk/HBA
+  quote: Managed by Warwickshire Wildlife Trust, the project is predominantly funded by local
+    authorities across Warwickshire, Coventry and Solihull.
+  fetched: '2026-10-31'
+- claim: Manages over 65 nature reserves across Warwickshire.
+  url: https://www.warwickshirewildlifetrust.org.uk/about-us
+  quote: Managing Nature Reserves - with over 65 nature reserves across Warwickshire, a large
+    portion of our role is the management of these havens for wildlife and people.
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: natural-capital-assessment-partnership
+  url: https://www.warwickshirewildlifetrust.org.uk/HBA
+  quote: Managed by Warwickshire Wildlife Trust
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

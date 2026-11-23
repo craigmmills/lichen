@@ -1,0 +1,41 @@
+id: fiji-lulc
+kind: dataset
+name: Fiji LULC
+also_known_as:
+- Fiji national land use and land cover map
+scope: fj
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fj
+status: unknown
+summary: National annual land use and land cover maps of Fiji at 10 m resolution, made by
+  a random forests model from Sentinel-2 and topographic layers. Maps for 2019 to 2022 are
+  open on the Pacific Data Hub.
+facts:
+- claim: A random forests model trained on labelled points turns Sentinel-2 data and topographic
+    layers into an annual map.
+  url: https://doaj.org/api/search/articles/doi:10.1016%2Fj.jag.2024.104260
+  quote: These data were used to train a random forests model
+  fetched: '2026-10-31'
+- claim: The authors report higher overall accuracy than three global 10 m land cover products.
+  url: https://doaj.org/api/search/articles/doi:10.1016%2Fj.jag.2024.104260
+  quote: The Fiji LULC had a higher overall accuracy than the three global LULC products
+  fetched: '2026-10-31'
+- claim: National maps for 2019 to 2022 are open products on the Pacific Data Hub.
+  url: https://doaj.org/api/search/articles/doi:10.1016%2Fj.jag.2024.104260
+  quote: national-scale maps for Fiji have been produced for 2019 to 2022 and are available
+    as open source products on the Pacific Data Hub
+  fetched: '2026-10-31'
+- claim: Two of the eight authors are listed at Fiji's Ministry of Agriculture and Waterways.
+  url: https://doaj.org/api/search/articles/doi:10.1016%2Fj.jag.2024.104260
+  quote: Ministry of Agriculture and Waterways, Government of Fiji, Hugh Robinson Complex
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

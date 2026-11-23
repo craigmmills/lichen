@@ -1,0 +1,42 @@
+id: firesat
+kind: programme
+name: FireSat
+scope: global
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.earthfirealliance.org/
+summary: Satellite constellation programme for wildfire data, the flagship programme of Earth Fire Alliance.
+facts:
+- claim: Earth Fire Alliance was established in 2024 with FireSat as its flagship programme.
+  url: https://www.earthfirealliance.org/about/
+  quote: Earth Fire Alliance was established with FireSat as its flagship program.
+  fetched: '2026-10-30'
+- claim: The first three operational FireSats launched in July 2026.
+  url: https://www.earthfirealliance.org/about/
+  quote: The first three operational FireSats launched in July 2026
+  fetched: '2026-10-30'
+- claim: 'A satellite programme that has delivered sample datasets.'
+  url: https://earthfirealliance.org/about-firesat/
+  fetched: 2026-10-30
+  quote: 'On-orbit flight test validates system architecture and delivers sample datasets.'
+links:
+- type: run-by
+  to: earth-fire-alliance
+  url: https://www.earthfirealliance.org/about/
+  quote: Earth Fire Alliance was established with FireSat as its flagship program.
+  fetched: '2026-10-30'
+- type: partners-with
+  to: satellites-on-fire
+  url: https://earthfirealliance.org/partners/
+  fetched: 2026-10-30
+  quote: 'Satellites on Fire'
+found_by:
+- link-from:earth-fire-alliance
+added_by: agent
+checked: '2026-10-30'

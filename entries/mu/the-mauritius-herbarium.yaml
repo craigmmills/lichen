@@ -1,0 +1,57 @@
+id: the-mauritius-herbarium
+kind: organisation
+name: The Mauritius Herbarium
+also_known_as: []
+scope: mu
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: mu
+countries:
+- mu
+scale: national
+status: unknown
+summary: A herbarium at Reduit that describes itself as the main repository of Mascarene plant specimens.
+facts:
+- claim: Describes itself to GBIF as the world's main repository of plant specimens of the Mascarenes.
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c
+  fetched: 2026-11-09
+  quote: It is the world’s main repository of plant specimens of the Mascarenes (Mauritius, Rodrigues
+    and Réunion)
+- claim: Its GBIF record gives Reduit, Mauritius, as its city and country.
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c
+  fetched: 2026-11-09
+  quote: '"city":"Reduit","country":"MU"'
+- claim: Its GBIF record gives a homepage on the agriculture ministry's government site.
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c
+  fetched: 2026-11-09
+  quote: http://agriculture.govmu.org/English/Pages/Agronomy/The-Mauritius-Herbarium.aspx
+- claim: Publishes a checklist of the native flowering plants of the island of Mauritius, which it prepared.
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c/publishedDataset
+  fetched: 2026-11-09
+  quote: This dataset is the checklist of the native flowering species of the island of Mauritius, Indian
+    Ocean. This checklist is prepared by The Mauritius Herbarium
+- claim: Its databasing of the Rodrigues checklist was funded by a BID Africa 2017 grant.
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c/publishedDataset
+  fetched: 2026-11-09
+  quote: This databasing effort has been funded by BID Africa Call 2017, grant BID-AF2017-SMA_0316
+- claim: Prepared a checklist of the native flowering plant species of the island of Rodrigues, published
+    through GBIF.
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c/publishedDataset
+  fetched: 2026-11-09
+  quote: This dataset is the checklist of the native flowering species of the island of Rodrigues, Indian
+    Ocean. This checklist is prepared by The Mauritius Herbarium
+links:
+- type: funded-by
+  to: biodiversity-information-for-development
+  url: https://api.gbif.org/v1/organization/98bb2db4-4405-4e77-a568-fc596f29177c/publishedDataset
+  fetched: 2026-11-09
+  quote: This databasing effort has been funded by BID Africa Call 2017, grant BID-AF2017-SMA_0316
+found_by:
+- checklist:2
+- register:mu
+added_by: agent
+checked: 2026-11-09

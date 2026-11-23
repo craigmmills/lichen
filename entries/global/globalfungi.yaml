@@ -1,0 +1,29 @@
+id: globalfungi
+kind: dataset
+name: GlobalFungi
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- edna-genomics
+website: https://globalfungi.com
+summary: Global database of fungal occurrences from high-throughput-sequencing metabarcoding studies, from a team at the Czech
+  Academy of Sciences.
+facts:
+- claim: OpenAlex lists the paper describing the database.
+  url: https://api.openalex.org/works?search=GlobalFungi%20a%20global%20database%20of%20fungal%20occurrences&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: GlobalFungi, a global database of fungal occurrences from high-throughput-sequencing metabarcoding studies
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: institute-of-microbiology-czech-academy-of-sciences
+  url: https://api.openalex.org/works?search=GlobalFungi%20a%20global%20database%20of%20fungal%20occurrences&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: Institute of Microbiology of the Czech Academy of Sciences
+  fetched: '2026-10-30'
+found_by:
+- link-from:unite-database
+added_by: agent
+checked: '2026-10-30'

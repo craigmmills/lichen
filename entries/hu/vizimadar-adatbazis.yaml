@@ -1,0 +1,56 @@
+id: vizimadar-adatbazis
+kind: dataset
+name: Vízimadár adatbázis
+scope: hu
+ai_label: data-infrastructure
+realms:
+- freshwater
+countries:
+- hu
+status: active
+summary: Waterbird database built and run by MME's Monitoring Centre staff, aiming
+  at current data on waterbird numbers and distribution in Hungary from monthly counts,
+  set up under a cross-border project.
+facts:
+- claim: Staff of MME's Monitoring Centre develop and operate the database.
+  url: https://vizimadaradatbazis.mme.hu/page/introduction
+  fetched: 2026-11-12
+  quote: Az adatbázis fejlesztését és működtetését az MME Monitoring Központjának
+    munkatársai végzik.
+- claim: The programme's main aim is up-to-date data on the size and distribution
+    of waterbird populations gathering, migrating through or wintering in Hungary,
+    and long-term trends for the species surveyed.
+  url: https://vizimadaradatbazis.mme.hu/page/programme
+  fetched: 2026-11-12
+  quote: A program elsődleges célja, hogy naprakész adatokat nyerjünk a Magyarország
+    területén gyülekező, átvonuló, illetve telelő vízimadár populációk nagyságáról
+    és elterjedéséről
+- claim: Counts are made at least once a month, on the Saturday nearest the middle
+    of the month.
+  url: https://vizimadaradatbazis.mme.hu/page/programme
+  fetched: 2026-11-12
+  quote: Minimálisan havi egy alkalommal (a hónap közepéhez eső hétvége szombatján)
+    végzett számlálásokkal.
+- claim: The database was set up under a cross-border project for a shared online
+    ornithological database (HUSK 08/01/148).
+  url: https://vizimadaradatbazis.mme.hu/page/programme
+  fetched: 2026-11-12
+  quote: Az adatbázis kialakítását és fejlesztését a Közös online madártani adatbázis
+    létrehozása (HUSK 08/01/148) projekt keretében végeztük.
+links:
+- type: run-by
+  to: magyar-madartani-es-termeszetvedelmi-egyesulet
+  url: https://vizimadaradatbazis.mme.hu/page/introduction
+  fetched: 2026-11-12
+  quote: Az adatbázis fejlesztését és működtetését az MME Monitoring Központjának
+    munkatársai végzik.
+- type: built-by
+  to: magyar-madartani-es-termeszetvedelmi-egyesulet
+  url: https://vizimadaradatbazis.mme.hu/page/introduction
+  fetched: 2026-11-12
+  quote: Az adatbázis fejlesztését és működtetését az MME Monitoring Központjának
+    munkatársai végzik.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

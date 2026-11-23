@@ -1,0 +1,68 @@
+id: brazil-data-cube
+kind: project
+name: Brazil Data Cube
+also_known_as:
+- BDC
+scope: br
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://data.inpe.br/bdc/
+summary: INPE project running since January 2019 that builds analysis-ready data cubes of
+  medium-resolution satellite images for all of Brazil and generates land use and cover information
+  from them with machine learning.
+facts:
+- claim: Developed by INPE since January 2019.
+  url: https://data.inpe.br/bdc/?p=507
+  fetched: '2026-10-30'
+  quote: Brazil Data Cube is a project that is being developed by Brazil’s National Institute
+    for Space Research (INPE ), since January 2019
+- claim: Land cover and land use maps are generated with AI algorithms.
+  url: https://data.inpe.br/bdc/en/land-use-and-land-cover-classification/
+  fetched: '2026-10-30'
+  quote: Classified land cover and land use maps generated automatically with artificial intelligence
+    algorithms.
+- claim: TerraClass 2024 mapping used BDC and INPE's Satellite Image Time Series package.
+  url: https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/terraclass-divulga-dados-atualizados-sobre-cobertura-e-uso-da-terra-no-bioma-amazonia
+  fetched: '2026-10-30'
+  quote: desenvolvidos e disponibilizados gratuitamente pelo INPE (Brazil Data Cube-BDC
+- claim: Develops a computational platform to process these data with artificial intelligence,
+    machine learning and image time series analysis.
+  url: https://data.inpe.br/bdc/en/about-brazil-data-cube-2/
+  fetched: '2026-10-30'
+  quote: developing a computational platform to process and analyze these data sets using
+    artificial intelligence, machine learning and image time series analysis
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://data.inpe.br/bdc/?p=507
+  fetched: '2026-10-30'
+  quote: Brazil Data Cube is a project that is being developed by Brazil’s National Institute
+    for Space Research (INPE )
+- type: funded-by
+  to: fundo-amazonia
+  url: https://data.inpe.br/bdc/?p=507
+  fetched: '2026-10-30'
+  quote: funded by the Amazon Fund through the financial collaboration of the Brazilian Development
+    Bank (BNDES)
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://data.inpe.br/bdc/en/about-brazil-data-cube-2/
+  fetched: '2026-10-30'
+  quote: Brazil Data Cube is a research, development and technological innovation project
+    of the National Institute for Space Research (INPE), Brazil
+- type: funded-by
+  to: fundo-amazonia
+  url: https://data.inpe.br/bdc/en/about-brazil-data-cube-2/
+  fetched: '2026-10-30'
+  quote: funded by the Amazon Fund through the financial collaboration of the Brazilian Development
+    Bank (BNDES) and the Foundation for Science, Technology and Space Applications (FUNCATE)
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-30'
+countries:
+- br

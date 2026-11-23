@@ -1,0 +1,34 @@
+id: miewid
+kind: model
+name: MiewID
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+- ocean
+techniques:
+- computer-vision
+status: active
+website: https://www.wildme.org/miewid
+summary: AI model from Wild Me Lab that identifies individual animals from photographs, used as the main matching algorithm in Wildbook.
+facts:
+- claim: Wild Me Lab describes it as its model for identifying individual animals from photographs.
+  url: https://www.wildme.org/miewid
+  quote: 'MiewID is Wild Me Lab’s state-of-the-art AI model for visual mark-recapture: identifying individual animals from photographs across marine and terrestrial species.'
+  fetched: '2026-10-30'
+- claim: "Wild Me's page lists MIEW-ID, a deep learning algorithm for identifying individuals."
+  url: https://www.wildme.org/flukebook.html
+  fetched: '2026-10-30'
+  quote: "MIEW-ID (µID) is a modern deep learning algorithm used to identify individuals."
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: wild-me-lab
+  url: https://www.wildme.org/miewid
+  quote: MiewID is Wild Me Lab’s state-of-the-art AI model for visual mark-recapture
+  fetched: '2026-10-30'
+found_by:
+- link-from:wild-me-lab
+added_by: agent
+checked: '2026-10-30'

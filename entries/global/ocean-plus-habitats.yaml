@@ -1,0 +1,29 @@
+id: ocean-plus-habitats
+kind: dataset
+name: Ocean+ Habitats
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://habitats.oceanplus.org
+summary: Source of information on the status and conservation of coastal habitats from UNEP-WCMC. The related Ocean+ Data Viewer and Ocean+ Library have been retired, with data moved to the UNEP-WCMC GIS Portal.
+facts:
+- claim: Describes itself as a source on the status and conservation of coastal habitats.
+  url: https://habitats.oceanplus.org/
+  fetched: 2026-10-30
+  quote: Ocean+ Habitats is a trusted source of authoritative information on the status and conservation of the world's coastal habitats.
+- claim: Ocean+ Data Viewer and Ocean+ Library were retired.
+  url: https://habitats.oceanplus.org/
+  fetched: 2026-10-30
+  quote: The Ocean+ Data Viewer and Ocean+ Library platforms have now been retired.
+links:
+- type: run-by
+  to: unep-wcmc
+  url: https://habitats.oceanplus.org/
+  fetched: 2026-10-30
+  quote: "Ocean+ Data Viewer's datasets are now available through the Ocean+ tag on UNEP-WCMC GIS Portal . This is our recommended platform for users who wish to download the data"
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

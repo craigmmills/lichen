@@ -1,0 +1,40 @@
+id: bird-count-india
+kind: programme
+name: Bird Count India
+scope: in
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- in
+scale: national
+status: active
+runner: unknown
+website: https://birdcount.in/
+summary: Partnership of groups that collates birdwatchers' lists to build knowledge of bird
+  distribution and populations in India.
+facts:
+- claim: The Nature Conservation Foundation says the partnership seeks to increase knowledge
+    of bird distribution and populations.
+  url: https://www.ncf-india.org/education-and-public-engagement/bird-count-india
+  quote: The Bird Count India partnership seeks to increase our collective knowledge of bird
+    distribution and populations
+  fetched: '2026-10-31'
+- claim: Runs or helps run events including the Onam Bird Count in Kerala.
+  url: https://www.ncf-india.org/education-and-public-engagement/bird-count-india
+  fetched: '2026-10-31'
+  quote: The Onam Bird Count in Kerala
+links:
+- type: uses
+  to: ebird
+  url: https://www.ncf-india.org/education-and-public-engagement/bird-count-india
+  fetched: '2026-10-31'
+  quote: works with the global platform eBird
+found_by:
+- checklist:2
+- link-from:ebird
+- register:gbif-publisher
+- link-from:nature-conservation-foundation
+added_by: agent
+checked: '2026-10-31'

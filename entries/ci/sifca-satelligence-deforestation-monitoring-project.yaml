@@ -1,0 +1,48 @@
+id: sifca-satelligence-deforestation-monitoring-project
+kind: project
+name: Projet Satelligence de surveillance satellitaire de la déforestation (SIFCA)
+also_known_as: []
+scope: ci
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Satellite deforestation monitoring run by the SIFCA group since 2021 across
+  its palm oil, rubber and sugar supply chain in Côte d'Ivoire and Liberia, extended
+  to Ghana from 2023.
+facts:
+- claim: Since 2021 the SIFCA group has run satellite monitoring of deforestation
+    in its palm oil, rubber and sugar supply chain in Côte d'Ivoire and Liberia.
+  url: https://siph.groupesifca.com/projet-satelligence-de-surveillance-satellitaire-de-la-deforestation
+  fetched: 2026-11-12
+  quote: le groupe SIFCA met en œuvre, depuis 2021, un projet de suivi par satellite
+    de la déforestation dans sa chaîne d'approvisionnement (Huile de palme, Hévéa,
+    Sucre) en Côte d'Ivoire et au Liberia
+- claim: Extended to Ghana from 2023.
+  url: https://siph.groupesifca.com/projet-satelligence-de-surveillance-satellitaire-de-la-deforestation
+  fetched: 2026-11-12
+  quote: Depuis 2023 ce programme s’étend au Ghana.
+- claim: Aims to detect deforestation and bush fires in its areas of activity and
+    supply.
+  url: https://siph.groupesifca.com/projet-satelligence-de-surveillance-satellitaire-de-la-deforestation
+  fetched: 2026-11-12
+  quote: Détecter toute forme de déforestation et l'apparition de feux de brousse
+    dans ses zones d'activité et d'approvisionnement en matières premières.
+links:
+- type: run-by
+  to: groupe-sifca
+  url: https://siph.groupesifca.com/projet-satelligence-de-surveillance-satellitaire-de-la-deforestation
+  fetched: 2026-11-12
+  quote: le groupe SIFCA met en œuvre, depuis 2021, un projet de suivi par satellite
+    de la déforestation
+- type: uses
+  to: satelligence
+  url: https://siph.groupesifca.com/projet-satelligence-de-surveillance-satellitaire-de-la-deforestation
+  fetched: 2026-11-12
+  quote: Projet Satelligence de surveillance satellitaire de la déforestation
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

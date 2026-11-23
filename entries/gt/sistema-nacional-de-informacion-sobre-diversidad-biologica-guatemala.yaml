@@ -1,0 +1,66 @@
+id: sistema-nacional-de-informacion-sobre-diversidad-biologica-guatemala
+kind: programme
+name: Sistema Nacional de Información sobre Diversidad Biológica de Guatemala
+also_known_as:
+- SNIBgt
+- GBIF Guatemala
+- National Information System on Biological Diversity of Guatemala
+scope: gt
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: National biodiversity information system, SNIBgt, listed by GBIF as the GBIF Guatemala node and
+  as a data publisher, with Guatemala an associate participant.
+facts:
+- claim: GBIF's directory lists the national biodiversity information system SNIBgt as the GBIF Guatemala
+    node.
+  url: https://api.gbif.org/v1/node?q=Guatemala
+  fetched: 2026-11-08
+  quote: National Information System on Biological Diversity of Guatemala -SNIBgt
+- claim: Guatemala takes part in GBIF as an associate participant.
+  url: https://api.gbif.org/v1/node?q=Guatemala
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- claim: GBIF's publisher list for Guatemala includes the system as a data publisher.
+  url: https://api.gbif.org/v1/organization?country=GT&limit=100
+  fetched: 2026-11-08
+  quote: Sistema Nacional de Información sobre Diversidad Biológica de Guatemala
+- claim: GBIF's publisher record describes it as a biodiversity information exchange mechanism that answers
+    the country's commitments under the Convention on Biological Diversity.
+  url: https://api.gbif.org/v1/organization/6fea41f8-96bd-425f-a8a0-766abe0e8101
+  fetched: '2026-11-08'
+  quote: Mecanismo de intercambio de información sobre diversidad biológica, responde a los compromisos
+    adquiridos de país frente al Convenio sobre Diversidad Biológica.
+- claim: GBIF's node record for GBIF Guatemala gives the SNIB site as its homepage and SNIBgt as its address.
+  url: https://api.gbif.org/v1/node/769169cc-930b-444f-92dd-60a309d1f5eb
+  fetched: '2026-11-08'
+  quote: '"homepage":["https://snib.conap.gob.gt/"],"address":["National Information System on Biological
+    Diversity of Guatemala -SNIBgt"]'
+- claim: GBIF lists Guatemala as an associate participant.
+  url: https://api.gbif.org/v1/node/769169cc-930b-444f-92dd-60a309d1f5eb
+  fetched: '2026-11-08'
+  quote: '"participationStatus":"ASSOCIATE"'
+- claim: The GBIF participant node record for Guatemala, titled GBIF Guatemala, gives SNIBgt as its address.
+  url: https://api.gbif.org/v1/node/769169cc-930b-444f-92dd-60a309d1f5eb
+  fetched: 2026-11-08
+  quote: National Information System on Biological Diversity of Guatemala -SNIBgt
+runner: unknown
+found_by:
+- checklist:2
+- link-from:red-bioma
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08
+countries:
+- gt
+roles:
+- supplies-data
+links:
+- type: partners-with
+  to: red-bioma
+  url: https://csuca.org/en/?p=6952
+  fetched: '2026-11-08'
+  quote: Sistema Nacional de Información sobre Diversidad Biológica “SNIBgt”

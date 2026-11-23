@@ -1,0 +1,35 @@
+id: rapidbenthos
+kind: model
+name: RapidBenthos
+scope: au
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+countries:
+- au
+status: active
+summary: Method from the Australian Institute of Marine Science that automatically segments
+  and classifies coral reef photomosaics.
+facts:
+- claim: Extracts data from photomosaics of coral reefs.
+  url: https://ecomagazine.com/news/coastal/new-ai-monitoring-tool-improves-coral-reef-data-processing/
+  fetched: '2026-10-31'
+  quote: This new method, RapidBenthos, has the capability to extract an unprecedented level
+    of data from photomosaics of coral reefs.
+- claim: AIMS is looking at using it with ReefScan.
+  url: https://ecomagazine.com/news/coastal/new-ai-monitoring-tool-improves-coral-reef-data-processing/
+  fetched: '2026-10-31'
+  quote: AIMS is investigating how RapidBenthos can be used in conjunction with ReefScan
+links:
+- type: partners-with
+  to: reef-restoration-and-adaptation-program
+  url: https://ecomagazine.com/news/coastal/new-ai-monitoring-tool-improves-coral-reef-data-processing/
+  fetched: '2026-10-31'
+  quote: The research was supported by the Reef Restoration and Adaptation Program
+found_by:
+- link-from:australian-institute-of-marine-science
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

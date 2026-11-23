@@ -1,0 +1,31 @@
+id: distrib-ii
+kind: project
+name: 'DISTRIB-II: Habitat Suitability of Eastern United States Trees'
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+status: unknown
+summary: Forest Service model of habitat suitability for 125 eastern US tree species
+  under current and projected climates.
+facts:
+- claim: A copy of the US federal AI use case inventory lists it.
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: 'USDA Forest Service - DISTRIB-II: Habitat Suitability of Eastern United
+    States Trees Habitat suitability is modeled for 125 eastern United States trees
+    species under 1981 -2010 climate conditions and 8 projected future conditions'
+links:
+- type: run-by
+  to: us-forest-service
+  url: https://huggingface.co/spaces/carolanderson/us_govt_ai/blame/main/Agency%20Inventory%20AI%20Usage%20-%20Sheet1.tsv
+  fetched: '2026-10-30'
+  quote: 'USDA Forest Service - DISTRIB-II: Habitat Suitability of Eastern United
+    States Trees Habitat suitability is modeled for 125 eastern United States trees
+    species under 1981 -2010 climate conditions and 8 projected future conditions'
+found_by:
+- link-from:us-forest-service
+added_by: agent
+checked: '2026-10-30'

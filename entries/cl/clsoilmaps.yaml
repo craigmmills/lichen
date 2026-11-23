@@ -1,0 +1,23 @@
+id: clsoilmaps
+kind: dataset
+name: CLSoilMaps
+scope: cl
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- cl
+scale: national
+status: active
+runner: unknown
+summary: Recorded by OpenAlex in a 2023 publication, this dataset covers gridded physical and hydraulic
+  soil properties for Chile.
+facts:
+- claim: OpenAlex records the title and the 2023 publication.
+  url: https://api.openalex.org/works/W4386802578?select=id,doi,title,publication_year
+  fetched: '2026-11-02'
+  quote: 'CLSoilMaps: A national soil gridded database of physical and hydraulic soil properties for Chile'
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

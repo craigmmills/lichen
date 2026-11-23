@@ -1,0 +1,41 @@
+id: ardhi-university
+kind: organisation
+name: Ardhi University
+scope: tz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: tz
+countries:
+- tz
+scale: national
+status: active
+summary: A university whose Department of Geospatial Sciences and Technology is the stated
+  affiliation of the first author of a 2018 paper assessing supervised classifiers for land
+  cover mapping from ALOS PALSAR and Landsat data.
+facts:
+- claim: A 2018 paper assesses supervised classifiers for land cover classification from combined
+    ALOS PALSAR and Landsat data.
+  url: https://api.openalex.org/works/W2801040658?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Assessment of Supervised Classifiers for Land Cover Categorization Based on Integration
+    of ALOS PALSAR and Landsat Data
+  ai_type: ml-supervised
+- claim: The paper's first author, Dorothea Deus, gave an affiliation in Ardhi University's
+    Department of Geospatial Sciences and Technology.
+  url: https://api.openalex.org/works/W2801040658?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Department of Geospatial Sciences and Technology, School of Earth Sciences, Real
+    Estate, Business Studies and Informatics (SERBI), Ardhi University, Dar es Salaam, Tanzania
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

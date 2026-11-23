@@ -1,0 +1,47 @@
+id: bumblebee-conservation-trust
+kind: organisation
+name: Bumblebee Conservation Trust
+scope: gb
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://www.bumblebeeconservation.org
+summary: UK charity based in Stirling delivering a moss carder bee recovery project that uses
+  AI-powered species distribution modelling with the University of Cambridge.
+facts:
+- claim: Delivers the moss carder bee project with the University of Cambridge.
+  url: https://www.bumblebeeconservation.org/moss-carder-bee-recovery-in-england/
+  quote: The project is being delivered by the Bumblebee Conservation Trust in partnership
+    with the University of Cambridge
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.bumblebeeconservation.org/
+  quote: Registered Charity No. 1115634 / Scottish Charity No. SC042830
+  fetched: 2026-10-30
+- claim: Runs BeeWalk.
+  url: https://www.bumblebeeconservation.org/what-we-do/
+  fetched: '2026-10-30'
+  quote: Find out more about getting involved with our BeeWalk scheme
+- claim: Publishes the dataset "BeeWalk bumblebee distributions for Great Britain 2008-2022"
+    on GBIF.
+  url: https://api.gbif.org/v1/organization/4ae6aa70-3374-49d3-b0e8-47c2da4fb69a/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: BeeWalk bumblebee distributions for Great Britain 2008-2022
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/4ae6aa70-3374-49d3-b0e8-47c2da4fb69a/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- checklist:4
+- register:gbif-publisher
+added_by: agent
+checked: *id001

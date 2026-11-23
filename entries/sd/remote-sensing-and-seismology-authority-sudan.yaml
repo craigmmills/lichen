@@ -1,0 +1,46 @@
+id: remote-sensing-and-seismology-authority-sudan
+kind: organisation
+name: Remote Sensing and Seismology Authority
+also_known_as:
+- RSSA
+scope: sd
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: sd
+countries: []
+scale: national
+status: active
+summary: Sudanese authority that Sudan's MRV document lists among relevant national institutions, with
+  a role in applying remote sensing to natural resources, and lead affiliation on a 2025 paper on forest
+  tree volume from radar.
+facts:
+- claim: Sudan's MRV system document lists it among relevant national institutions.
+  url: https://www.fao.org/fileadmin/user_upload/faoweb/Themes__pages/Forests/REDD-NFM/Sudan_MRV/Sudan_MRV_System.pdf
+  fetched: 2026-11-12
+  quote: '84. Remote Sensing and Seismology Authority (RSSA): The RSSA was established in the'
+- claim: The document describes its role in implementing and applying remote sensing technology for natural
+    resources.
+  url: https://www.fao.org/fileadmin/user_upload/faoweb/Themes__pages/Forests/REDD-NFM/Sudan_MRV/Sudan_MRV_System.pdf
+  fetched: 2026-11-12
+  quote: application of remote sensing technology for natural resource
+- claim: Lead affiliation, given as part of the National Center for Research in Khartoum, on a 2025 paper
+    estimating forest tree volume in central Sudan from synthetic aperture radar.
+  url: https://api.openalex.org/works/W4406178175?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Remote Sensing and Seismology Authority-National Center for Research (NCR), Khartoum, Sudan
+- claim: The 2025 paper is titled "Inference of forest tree volume using synthetic aperture in central
+    Sudan".
+  url: https://api.openalex.org/works/W4406178175?select=id,title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Inference of forest tree volume using synthetic aperture in central Sudan
+links: []
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-12

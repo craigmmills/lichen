@@ -1,0 +1,52 @@
+id: agencia-nacional-de-aguas-e-saneamento-basico
+kind: organisation
+name: Agência Nacional de Águas e Saneamento Básico
+also_known_as:
+- ANA
+- National Water and Basic Sanitation Agency
+scope: br
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: br
+scale: national
+status: active
+website: https://www.gov.br/ana/pt-br
+summary: Brazil's federal water agency, which publishes the HidroSat satellite hydrological
+  monitoring system.
+facts:
+- claim: Its site names the agency.
+  url: https://www.gov.br/ana/pt-br
+  fetched: '2026-10-30'
+  quote: Agência Nacional de Águas e Saneamento Básico (ANA)
+- claim: Develops space hydrology with the French institute IRD.
+  url: https://www.gov.br/ana/pt-br/acesso-a-informacao/acoes-e-programas/cooperacao-internacional/agua-no-mundo/monitoramento-hidrologico-por-satelite/monitoramento-hidrologico-por-satelite
+  fetched: '2026-10-30'
+  quote: denominada Hidrologia Espacial, em parceria com a entidade francesa Institut de Recherche
+    pour le Développement (IRD)
+- claim: Its own site gives its head office in the Setor Policial, Brasília.
+  url: https://www.gov.br/ana/pt-br/fale-conosco-1
+  quote: SEDE DA ANA | Setor Policial (SPO), Área 5, Quadra 3, Blocos B, L, M, N, O e T -
+    Brasília (DF), 70610-200.
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: hidrosat
+  url: https://hidrosat.ana.gov.br/
+  fetched: '2026-10-30'
+  quote: Mapa - Sistema HidroSat (ANA)
+- type: runs
+  to: hidrosat
+  url: https://hidrosat.ana.gov.br/Painel
+  fetched: '2026-10-30'
+  quote: HidroSat - Monitoramento Hidrológico por Satélite
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-31'

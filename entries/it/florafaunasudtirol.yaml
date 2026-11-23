@@ -1,0 +1,28 @@
+id: florafaunasudtirol
+kind: dataset
+name: FloraFaunaSüdtirol
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: http://www.florafauna.it
+summary: Internet portal to the distribution of plant and animal species in South Tyrol, giving
+  an insight into the scientific database of the Museum of Nature South Tyrol.
+facts:
+- claim: Provides an insight into the museum database and creates distribution maps.
+  url: https://natura.museum/it/?p=1992
+  fetched: '2026-10-31'
+  quote: This provides an insight in the scientific database of the museum and serves for
+    creating maps
+links:
+- type: run-by
+  to: museum-of-nature-south-tyrol
+  url: https://natura.museum/it/?p=1992
+  fetched: '2026-10-31'
+  quote: the Museum of Nature since February 2014 is online with the Internet portal FloraFaunaSüdtirol
+    (www.florafauna.it)
+found_by:
+- link-from:museum-of-nature-south-tyrol
+added_by: agent
+checked: '2026-10-31'

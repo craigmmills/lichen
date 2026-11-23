@@ -1,0 +1,56 @@
+id: trees-outside-woodland-map
+kind: dataset
+name: Trees Outside Woodland map
+also_known_as:
+- EOTW
+- Trees Outside Woodlands map
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+status: active
+summary: Dataset of lone trees, tree groups and small woodlands in England beyond
+  the National Forest Inventory woodland map, built with remote sensing and geospatial
+  algorithms.
+facts:
+- claim: Maps trees in England beyond the National Forest Inventory woodland map.
+  url: https://www.forestresearch.gov.uk/about-us/our-work/natural-capital-ecosystem-assessment-programme-ncea/our-projects/
+  quote: The Trees Outside Woodland (TOW) dataset maps lone trees, tree groups and
+    small woodlands in England beyond the National Forest Inventory woodland map,
+    using remote sensing and geospatial algorithms.
+  fetched: '2026-10-30'
+- claim: Freely available.
+  url: https://www.gov.uk/government/news/englands-non-woodland-trees-freely-mapped-for-first-time
+  quote: England’s trees outside woodlands have been mapped by satellite and laser are freely
+    available for first time
+  fetched: '2026-10-30'
+- claim: Meta says Forest Research is using DINOv2 to build a model that improves these maps.
+  url: https://ai.meta.com/blog/forest-research-dino/
+  quote: Forest Research is now using DINOv2 to build a model that will enhance the accuracy of their maps.
+  fetched: '2026-10-31'
+links:
+- type: builds-on
+  to: canopy-height-maps
+  url: https://ai.meta.com/blog/forest-research-dino/
+  quote: The high-resolution canopy height model based on DINOv2
+  fetched: '2026-10-31'
+- type: run-by
+  to: forest-research
+  url: https://www.forestresearch.gov.uk/about-us/our-work/natural-capital-ecosystem-assessment-programme-ncea/our-projects/
+  quote: Trees Outside Woodland map (EOTW)
+  fetched: '2026-10-30'
+- type: run-by
+  to: forest-research
+  url: https://www.gov.uk/government/news/englands-non-woodland-trees-freely-mapped-for-first-time
+  quote: "the country’s top tree scientists at the UK Government’s Forest Research agency built a comprehensive picture of non-woodland trees across England"
+  fetched: '2026-10-30'
+found_by:
+- checklist:2
+- link-from:forest-research
+- rule:checklist-misses
+scope: gb
+added_by: agent
+checked: '2026-10-30'

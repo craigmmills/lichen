@@ -1,0 +1,33 @@
+id: vertnet
+kind: programme
+name: VertNet
+scope: global
+runner: unknown
+roles: [supplies-data]
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: http://vertnet.org/
+summary: Provides tools and services for finding, publishing and using biodiversity data.
+facts:
+- claim: Says it provides tools and services to make data easy to find, publish and use.
+  url: http://vertnet.org/about/
+  fetched: '2026-10-30'
+  quote: We provide tools and services to make data easy to find, easy to publish, and easy to use.
+- claim: 'Makes biodiversity data free and available on the web.'
+  url: http://vertnet.org/about
+  fetched: 2026-10-30
+  quote: 'makes biodiversity data free and available on the web'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: http://vertnet.org/about
+  fetched: 2026-10-30
+  quote: 'VertNet is a collaborative project, formerly funded by the U.S. National Science Foundation'
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

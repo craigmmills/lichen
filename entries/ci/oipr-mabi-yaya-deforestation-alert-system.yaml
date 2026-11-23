@@ -1,0 +1,54 @@
+id: oipr-mabi-yaya-deforestation-alert-system
+kind: programme
+name: OIPR deforestation alert and monitoring system for the Mabi-Yaya Nature Reserve
+scope: ci
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ci
+status: unknown
+runner: unknown
+summary: Deforestation monitoring system used by OIPR, with Mabi-Yaya as its test
+  case; Nitidæ reports training about fifteen agents in late 2022 and verifying seven
+  alerts in the field.
+facts:
+- claim: Nitidæ says OIPR asked it to train about fifteen agents from 28 November
+    to 2 December 2022 to use a deforestation alert and monitoring system Nitidæ designed
+    specifically for OIPR.
+  url: https://www.nitidae.org/en/a-la-une/actualites/formation-avancee-en-teledetection-pour-la-mise-en-place-de-systeme-de-suivi-des-defrichements-de-la-reserve-naturelle-de-mabi-yaya-en-cote-d-ivoire
+  fetched: '2026-11-12'
+  quote: to train them to master and use a deforestation alert and monitoring system
+    designed by Nitidæ specifically for OIPR
+- claim: The Mabi-Yaya Nature Reserve was the application case, and the system is
+    described as applicable to any protected area or classified forest in Côte d'Ivoire.
+  url: https://www.nitidae.org/en/a-la-une/actualites/formation-avancee-en-teledetection-pour-la-mise-en-place-de-systeme-de-suivi-des-defrichements-de-la-reserve-naturelle-de-mabi-yaya-en-cote-d-ivoire
+  fetched: '2026-11-12'
+  quote: The Mabi-Yaya Nature Reserve in the Mé region was chosen as an application
+    case for this proposed monitoring system.
+- claim: During the November–December 2022 training's field phase in OIPR's Biéby
+    and Kossandji sectors, seven alerts were verified, five from Global Forest Watch
+    and two from IMAGES, all linked to cocoa growing.
+  url: https://www.nitidae.org/en/a-la-une/actualites/formation-avancee-en-teledetection-pour-la-mise-en-place-de-systeme-de-suivi-des-defrichements-de-la-reserve-naturelle-de-mabi-yaya-en-cote-d-ivoire
+  fetched: '2026-11-12'
+  quote: This mission also went well with the verification of 7 alerts including 5
+    GFW alerts and 2 IMAGES alerts.
+- claim: The work was carried out under the PRM2 project, which Nitidæ says is supported
+    by the FFEM and the EU Delegation in Côte d'Ivoire.
+  url: https://www.nitidae.org/en/a-la-une/actualites/formation-avancee-en-teledetection-pour-la-mise-en-place-de-systeme-de-suivi-des-defrichements-de-la-reserve-naturelle-de-mabi-yaya-en-cote-d-ivoire
+  fetched: '2026-11-12'
+  quote: These trainings and supports are carried out within the framework of the
+    PRM2 project
+links:
+- type: used-by
+  to: office-ivoirien-des-parcs-et-reserves
+  url: https://www.nitidae.org/en/a-la-une/actualites/formation-avancee-en-teledetection-pour-la-mise-en-place-de-systeme-de-suivi-des-defrichements-de-la-reserve-naturelle-de-mabi-yaya-en-cote-d-ivoire
+  fetched: '2026-11-12'
+  quote: Finally, the office phase ended on the third day with the production in QGIS
+    of deforestation alert bulletins by the participants.
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

@@ -1,0 +1,51 @@
+id: universitat-de-les-illes-balears
+kind: organisation
+name: Universitat de les Illes Balears
+also_known_as:
+- UIB
+- University of the Balearic Islands
+scope: es
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: unknown
+scale: regional
+status: active
+summary: Spanish university that runs a computer vision and robotics group, whose DETECPOS
+  project (2020 to 2023) planned to automate Posidonia mapping with underwater robotics and
+  deep learning; it is also a SEAGHOSTS beneficiary at 90,750 euros.
+facts:
+- claim: The Systems, Robotics and Vision group at UIB has more than 25 years of work in computer
+    vision and mobile robotics.
+  url: https://ai4seaproject.es/partners/
+  fetched: '2026-11-08'
+  quote: For more than 25 years, the Systems, Robotics and Vision (SRV) group at UIB
+- claim: The group’s DETECPOS project ran from 2020 to 2023 and planned to automate Posidonia
+    mapping with underwater robotics and deep learning using convolutional neural networks.
+  url: https://srv.uib.es/project/detecpos/
+  fetched: '2026-11-08'
+  quote: thanks to the use of underwater robotics and artificial intelligence (deep learning
+    using convolutional neural networks)
+  ai_type: deep-learning
+- claim: Listed as a beneficiary of SEAGHOSTS in Fundación Biodiversidad's BiodivMon award
+    resolution, with 90,750 euros.
+  url: https://fundacion-biodiversidad.es/wp-content/uploads/2023/09/Resolucion-Direccion_BiodivMon.pdf
+  fetched: '2026-11-08'
+  quote: Illes Balears Q0718001A 36 90.750,00 €
+ai_types:
+- deep-learning
+links:
+- type: runs
+  to: systems-robotics-and-vision-group-uib
+  url: https://ai4seaproject.es/partners/
+  fetched: '2026-11-08'
+  quote: For more than 25 years, the Systems, Robotics and Vision (SRV) group at UIB
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

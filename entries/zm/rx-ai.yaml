@@ -1,0 +1,51 @@
+id: rx-ai
+kind: programme
+name: RX AI
+scope: zm
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- zm
+status: active
+summary: A programme run and built by Rinato Space that combines up to 39 data layers, with 94.5% of assessed
+  restoration sites reported stable or improving, at medium confidence pending field validation.
+facts:
+- claim: Combines satellite-derived signals to measure change on each site against its own history.
+  url: https://digitalearthafrica.org/pt/monitoring-32000-hectares-from-lusaka-rinato-space-and-the-satellite-data-behind-zambias-landscape-recovery/
+  fetched: 2026-11-08
+  quote: Its platform, RX AI, pulls together satellite-derived signals to track what is happening on the
+    ground and measure it rigorously against each site’s own history.
+- claim: Combines up to 39 computed data layers, each calibrated to a crop at a growth stage.
+  url: https://digitalearthafrica.org/pt/monitoring-32000-hectares-from-lusaka-rinato-space-and-the-satellite-data-behind-zambias-landscape-recovery/
+  fetched: 2026-11-08
+  quote: RX AI combines up to 39 computed data layers
+- claim: Digital Earth Africa reports that 94.5% of the assessed landscape restoration sites are stable
+    or improving, with confidence held at medium pending field validation.
+  url: https://digitalearthafrica.org/pt/monitoring-32000-hectares-from-lusaka-rinato-space-and-the-satellite-data-behind-zambias-landscape-recovery/
+  fetched: 2026-11-08
+  quote: Across the assessed landscape sites, 94.5% are stable or improving. Rinato holds confidence at
+    medium and treats field validation as the next step
+links:
+- type: run-by
+  to: rinato-space
+  url: https://digitalearthafrica.org/pt/monitoring-32000-hectares-from-lusaka-rinato-space-and-the-satellite-data-behind-zambias-landscape-recovery/
+  fetched: 2026-11-08
+  quote: Its platform, RX AI, pulls together satellite-derived signals
+- type: built-by
+  to: rinato-space
+  url: https://digitalearthafrica.org/pt/monitoring-32000-hectares-from-lusaka-rinato-space-and-the-satellite-data-behind-zambias-landscape-recovery/
+  fetched: 2026-11-08
+  quote: The algorithms Rinato Space has developed are not Zambia-specific.
+- type: uses
+  to: digital-earth-africa
+  url: https://digitalearthafrica.org/pt/monitoring-32000-hectares-from-lusaka-rinato-space-and-the-satellite-data-behind-zambias-landscape-recovery/
+  fetched: 2026-11-08
+  quote: Rather than querying a remote API request by request, Rinato Space could download bulk imagery
+    for Zambia and process it locally
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,43 @@
+id: gbif-togo
+kind: programme
+name: GBIF Togo
+scope: tg
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- tg
+status: active
+summary: Togo's country node of GBIF, a voting participant based at the Faculty of Sciences
+  in Lomé, with Raoufou Pierre Radji listed as node manager.
+facts:
+- claim: GBIF's registry lists GBIF Togo as the country node of Togo, a voting participant.
+  url: https://api.gbif.org/v1/node/country/TG
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- claim: The node's address is the Faculty of Sciences, Boulevard Eyadema, Lomé.
+  url: https://api.gbif.org/v1/node/country/TG
+  fetched: 2026-11-08
+  quote: Boulevard Eyadema
+- claim: GBIF's registry gives the node's address as the Faculty of Sciences, Boulevard Eyadema,
+    Lomé.
+  url: https://api.gbif.org/v1/node/country/TG
+  fetched: 2026-11-08
+  quote: '"address":["Faculté des Sciences'
+- claim: GBIF's registry lists Raoufou Pierre Radji as the node manager.
+  url: https://api.gbif.org/v1/node/country/TG
+  fetched: 2026-11-08
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Raoufou Pierre","lastName":"RADJI"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/TG
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

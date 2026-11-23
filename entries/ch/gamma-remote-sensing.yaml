@@ -1,0 +1,46 @@
+id: gamma-remote-sensing
+kind: organisation
+name: GAMMA Remote Sensing
+also_known_as:
+- GAMMA Remote Sensing AG
+scope: ch
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ch
+scale: global
+status: active
+website: https://www.gamma-rs.ch/
+summary: Organisation based in Gümligen, Switzerland, that builds ESA CCI+ Biomass and has
+  the technical lead on it, including generation of the global biomass products.
+facts:
+- claim: Address in Gümligen, Switzerland.
+  url: https://www.gamma-rs.ch/files/annual-report/annual_report_2025.pdf
+  fetched: '2026-11-02'
+  quote: GAMMA Remote Sensing AG, Worbstrasse 225, CH-3073 Gümligen, Switzerland
+- claim: Has the technical lead on ESA CCI+ Biomass, including generation of the global biomass
+    products.
+  url: https://www.gamma-rs.ch/files/annual-report/annual_report_2025.pdf
+  fetched: '2026-11-02'
+  quote: GAMMA has the technical lead, with responsibilities in the algorithm development,
+    system engineering, system implementation and the generation of the global biomass products.
+links:
+- type: builds
+  to: esa-cci-biomass
+  url: https://www.gamma-rs.ch/files/annual-report/annual_report_2025.pdf
+  fetched: '2026-11-02'
+  quote: 'GAMMA
+
+    has the technical lead, with responsibilities in the algorithm development, system engineering,
+    system
+
+    implementation and the generation of the global biomass products.'
+found_by:
+- checklist:rule-eo-providers
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,36 @@
+id: korea-national-arboretum
+kind: organisation
+name: Korea National Arboretum
+also_known_as:
+- 국립수목원
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: kr
+scale: national
+summary: Arboretum in Pocheon that builds Bioblitz Korea, publishes a national vascular plant
+  checklist through GBIF, and per a press report started a citizen plant phenology app in
+  September 2025.
+facts:
+- claim: GBIF's registry lists it as publisher of the Checklist of Vascular Plants in Korea,
+    a national dataset.
+  url: https://api.gbif.org/v1/organization/ce3cfcc0-6d56-11db-a819-b8a03c50a862/publishedDataset?limit=8
+  fetched: 2026-11-02
+  quote: '"title":"Checklist of Vascular Plants in Korea","description":"Copyright ⓒ 2024
+    Korea National Arboretum'
+- claim: GBIF's record for the DMZ Botanic Garden describes the garden as a branch of the
+    arboretum.
+  url: https://api.gbif.org/v1/organization/f4a99f5b-a46a-44fe-a34d-b9f6b3294037
+  fetched: 2026-11-02
+  quote: The DMZ Botanic Garden is a branch of the Korea National Arboretum
+links: []
+found_by:
+- checklist:2
+- register:kr
+scope: kr
+status: active
+added_by: agent
+checked: '2026-11-02'

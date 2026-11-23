@@ -1,0 +1,39 @@
+id: european-food-safety-authority
+kind: organisation
+name: European Food Safety Authority
+also_known_as:
+- EFSA
+scope: it
+sector: multilateral
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: it
+scale: regional
+status: active
+website: https://www.efsa.europa.eu/en
+summary: EU agency in Parma that says it is financially assisting the move of the EU Bee Partnership's
+  prototype data platform to the EU Pollinator Hub.
+facts:
+- claim: Address in Parma.
+  url: https://api.gbif.org/v1/organization/edb608fc-230b-42d0-802a-99e292e52106
+  fetched: '2026-10-31'
+  quote: '"address":["Via Carlo Magno 1/A"],"city":"Parma"'
+- claim: EFSA is financially assisting the EU Pollinator Hub.
+  url: https://www.efsa.europa.eu/en/topics/insect-pollinator-health
+  fetched: '2026-10-31'
+  quote: 'EFSA is financially assisting the transformation of the prototype platform into
+    a fully operational tool: the EU Pollinator Hub'
+links:
+- type: funds
+  to: eu-pollinator-hub
+  url: https://www.efsa.europa.eu/en/topics/insect-pollinator-health
+  fetched: '2026-10-31'
+  quote: 'EFSA is financially assisting the transformation of the prototype platform into
+    a fully operational tool: the EU Pollinator Hub'
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,54 @@
+id: ohb-hellas
+kind: organisation
+name: OHB-Hellas
+scope: gr
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+countries:
+- gr
+scale: national
+status: active
+funding_at_risk: false
+website: https://www.ohb-hellas.gr/
+summary: Company whose Satellite-as-a-Service platform includes on-board fire detection using
+  U-NetV2 and Sentinel-2 data, with stated uses in forest monitoring, agricultural fire control
+  and governmental risk assessment.
+facts:
+- claim: Developed a high-performance on-board fire detection system as part of its Satellite-as-a-Service
+    platform.
+  url: https://www.ohb-hellas.gr/fire-detection/
+  fetched: 2026-11-03
+  quote: we have extended our AI capabilities by developing a high-performance, on-board fire
+    detection system, optimized for embedded hardware
+- claim: Says the system delivers insights for forest monitoring, agricultural fire control
+    and governmental risk assessment.
+  url: https://www.ohb-hellas.gr/fire-detection/
+  fetched: 2026-11-03
+  quote: delivers critical insights for forest monitoring, agricultural fire control, and
+    governmental risk assessment
+- claim: The model is based on U-NetV2, a convolutional encoder-decoder for semantic segmentation.
+  url: https://www.ohb-hellas.gr/fire-detection/
+  fetched: 2026-11-03
+  quote: Our fire detection model is based on U-NetV2 , a powerful convolutional encoder-decoder
+    architecture widely used for semantic segmentation.
+  ai_type: deep-learning
+links:
+- type: uses
+  to: sentinel-2
+  url: https://www.ohb-hellas.gr/fire-detection/
+  fetched: 2026-11-03
+  quote: our solution uses 10-band multispectral Sentinel-2 data
+found_by:
+- checklist:5
+added_by: agent
+checked: 2026-11-03

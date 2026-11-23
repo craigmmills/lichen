@@ -1,0 +1,75 @@
+id: google
+kind: organisation
+name: Google
+scope: global
+sector: company
+roles:
+- builds-ai
+- supplies-data
+- funds
+- convenes
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+realms:
+- land
+- ocean
+- freshwater
+techniques:
+- remote-sensing
+- computer-vision
+- bioacoustics
+- species-distribution
+hq: us
+scale: global
+status: active
+website: https://about.google
+summary: Technology company that builds Earth Engine, geospatial and nature AI models and
+  datasets, and runs an accelerator and grant funding for nature AI through its programmes
+  and Google.org.
+facts:
+- claim: Says it has built tools for partners on nature and biodiversity loss for more than
+    two decades.
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: &id001 2026-10-30
+  quote: For more than two decades, we’ve been building tools and technology that enable partners,
+    NGOs, governments and academics around the world to help address nature and biodiversity
+    loss.
+- claim: Names Earth Engine, SpeciesNet and Perch among its products addressing the decline
+    of the natural world.
+  url: https://blog.google/outreach-initiatives/entrepreneurs/google-for-startups-ai-for-nature-cohort/
+  fetched: *id001
+  quote: Earth Engine for geospatial analysis, SpeciesNet for analyzing photos from camera
+    traps, and our bioacoustics model Perch
+- claim: Headquartered in Mountain View, California.
+  url: https://en.wikipedia.org/wiki/Google
+  fetched: 2026-10-30
+  quote: Headquarters Googleplex , Mountain View, California
+- claim: Google says SpeciesNet uses deep learning.
+  url: https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/
+  fetched: 2026-10-30
+  quote: SpeciesNet leverages deep learning to automatically identify animal species present
+    in camera trap photos.
+  ai_type: deep-learning
+- claim: States its mission as organising the world's information.
+  url: https://about.google/company-info/
+  quote: Our mission is to organize the world’s information and make it universally accessible
+    and useful
+  fetched: '2026-10-30'
+- claim: Google says Google Earth AI includes a suite of geospatial foundation models.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: '2026-10-31'
+  quote: we shared a suite of geospatial foundation models
+  ai_type: foundation-models
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001
+links:
+- type: partners-with
+  to: forest-data-partnership
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: 2026-10-30
+  quote: Under the auspices of the Forest Data Partnership (FDaP) , Google released openly
+    licensed ML community models

@@ -1,0 +1,49 @@
+id: aquabol-sk
+kind: programme
+name: AquaBOL.SK
+also_known_as:
+- Barcoding aquatic biota of Slovakia
+scope: sk
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- edna-genomics
+countries:
+- sk
+status: active
+runner: unknown
+website: https://aquabol.sk/
+summary: Slovak programme aiming at a full library of standardised DNA barcodes for
+  all aquatic species in the country, published in the public BOLD database, with
+  a third year of MinION sequencing reported in May 2024.
+facts:
+- claim: Its long-term goal is an exhaustive library of standardised DNA barcodes
+    of all aquatic species in Slovakia, accessible in the BOLD database.
+  url: https://aquabol.sk/
+  fetched: 2026-11-12
+  quote: The main mission and long-term goal of the initiative is to record and identify
+    genetic diversity and to create an exhaustive library of standardized DNA sequences
+    (DNA barcodes) of all aquatic species
+- claim: The data it acquires are published in the public Barcode of Life Data System.
+  url: https://aquabol.sk/
+  fetched: 2026-11-12
+  quote: The data acquired is published in a publicly available database Barcode of
+    Life Data System (BOLD) .
+- claim: In May 2024 it reported a third year of sequencing samples with an Oxford
+    Nanopore MinION sequencer.
+  url: https://aquabol.sk/
+  fetched: 2026-11-12
+  quote: For the third year we have been successfully using the next generation Oxford
+    Nanopore MinION sequencer to sequence DNA from our samples.
+links:
+- type: uses
+  to: barcode-of-life-data-systems
+  url: https://aquabol.sk/
+  fetched: 2026-11-12
+  quote: The data acquired is published in a publicly available database Barcode of
+    Life Data System (BOLD) .
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

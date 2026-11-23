@@ -1,0 +1,35 @@
+id: university-of-hull
+kind: organisation
+name: University of Hull
+scope: gb
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: unknown
+countries:
+- gb
+scale: national
+summary: University that developed an eDNA metabarcoding tool for assessing the ecological
+  status of lakes from their fish communities.
+facts:
+- claim: Says its research produced a tool for assessing lakes from fish eDNA.
+  url: https://results2021.ref.ac.uk/impact/176d8575-398b-4ae2-8bdf-ac0e12c79021/pdf
+  quote: has produced a novel tool for monitoring and assessing the ecological status of lakes
+    based on environmental DNA (eDNA) metabarcoding of fish communities
+  fetched: '2026-10-31'
+- claim: OpenAlex lists Hull authors on a machine learning classifier for elasmobranch behaviour.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I191240316,from_publication_date:2018-01-01,concepts.id:C119857082|C108583219|C31972630,primary_topic.subfield.id:2309|2303|1105|1104|1107|2306&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  quote: Development and application of a machine learning algorithm for classification of
+    elasmobranch
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

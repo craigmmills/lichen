@@ -1,0 +1,37 @@
+id: university-of-gondar
+kind: organisation
+name: University of Gondar
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: et
+scale: national
+status: active
+summary: University with a listed 2023 paper, by first author Getahun Sisay, on a neural network
+  and cellular automata model of land use and land cover change in the Goang watershed.
+facts:
+- claim: OpenAlex lists a 2023 paper on an artificial neural network and cellular automata
+    model of land use and land cover change in the Goang watershed.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: Modeling of land use/land cover dynamics using artificial neural network and cellular
+    automata Markov chain algorithms in Goang watershed, Ethiopia
+- claim: OpenAlex lists Getahun Sisay, first author of that paper, at University of Gondar.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: '"display_name": "Getahun Sisay", "orcid": "https://orcid.org/0000-0002-1656-3604",
+    "observed_orcids": ["https://orcid.org/0000-0002-1656-3604"]}, "institutions": [{"id":
+    "https://openalex.org/I8764889", "display_name": "University of Gondar", "ror": "https://ror.org/0595gz585",
+    "country_code": "ET"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

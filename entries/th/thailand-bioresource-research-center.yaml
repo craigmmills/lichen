@@ -1,0 +1,54 @@
+id: thailand-bioresource-research-center
+kind: organisation
+name: Thailand Bioresource Research Center
+also_known_as:
+- TBRC
+scope: th
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: th
+countries: []
+scale: national
+status: active
+website: https://www.tbrcnetwork.org/
+summary: A centre under BIOTEC and NSTDA that has developed microbial diversity databases
+  and publishes a GBIF occurrence dataset from 2021 Mekong River bacterial metabarcoding.
+facts:
+- claim: Its GBIF publisher record says it operates under BIOTEC and NSTDA, part of
+    the Ministry of Higher Education, Science, Research and Innovation.
+  url: https://api.gbif.org/v1/organization?country=TH&limit=50
+  fetched: 2026-11-15
+  quote: Thailand Bioresource Research Center (TBRC) operates under the jurisdiction
+    of the National Center for Genetic Engineering and Biotechnology (BIOTEC), National
+    Science and Technology Development Agency (NSTDA), Ministry of Higher Education,
+    Science, Research and Innovation (MHESI).
+- claim: Its site says it has developed databases on microbial diversity in Thailand
+    and ASEAN.
+  url: https://www.tbrcnetwork.org/
+  fetched: 2026-11-15
+  quote: microbial diversity in Thailand and ASEAN
+- claim: It publishes on GBIF an occurrence dataset of bacterial diversity in the
+    Mekong River in Thailand from March to December 2021, derived from 16S rRNA metabarcode
+    sequences.
+  url: https://api.gbif.org/v1/organization/793b035f-e8c9-4b0a-b5dc-46ba0146d28f/publishedDataset
+  fetched: 2026-11-15
+  quote: Bacterial diversity of the Mekong River in Thailand during March - early
+    December 2021 was derived from 16S rRNA metabarcode sequences.
+- claim: Its June 2022 GBIF registration says it expected to publish an occurrence
+    dataset from eDNA metabarcoding of Mekong River samples, associated with GBIF-funded
+    project BIFA6_030.
+  url: https://api.gbif.org/v1/organization?country=TH&limit=50
+  fetched: 2026-11-15
+  quote: An occurrences dataset derived from metabarcoding of eDNA (primarily 16S
+    rDNA and ITS metabarcoding) from the Mekong River samples.
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

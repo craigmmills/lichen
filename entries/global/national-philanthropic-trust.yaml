@@ -1,0 +1,60 @@
+id: national-philanthropic-trust
+kind: organisation
+name: National Philanthropic Trust
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+hq: us
+scale: global
+status: active
+website: https://www.nptrust.org/
+summary: Grant maker based in Pennsylvania and the largest recorded US funder of Global Fishing
+  Watch, with $16.5 million across four grants from 2020 to 2025. It also appears as a funder
+  of Conservation X Labs and Earth Species Project.
+facts:
+- claim: Recorded as giving Global Fishing Watch $16,526,282 across four grants from 2020
+    to 2025. Grantable table compiled from IRS Form 990 filings.
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: National Philanthropic Trust $16,526,282 4 2020–2025
+  fetched: &id001 2026-10-30
+- claim: Says it was founded in 1996 out of Pitcairn, a family office based in Jenkintown,
+    PA.
+  url: https://www.nptrust.org/about-us/
+  quote: National Philanthropic Trust was founded in 1996 out of Pitcairn, a family office
+    based in Jenkintown, PA.
+  fetched: '2026-10-30'
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: Global Fishing Watch Inc between 2020-2025. Funder Total given Grants Years National
+    Philanthropic Trust $16,526,282 4 2020-2025
+  amount: 16526282
+  currency: USD
+  fetched: *id001
+- type: funds
+  to: conservation-x-labs
+  url: https://grantable.co/nonprofits/conservation-x-labs-inc-morg_2f5c4858d95b4563bca2b21fbd32dccc
+  quote: Conservation X Labs Inc between 2020-2025. Funder Total given Grants Years Gordon
+    E and Betty I Moore Foundation $9,618,100 12 2020-2024 The Schmidt Family Foundation $5,800,885
+    7 2020-2024 Mathesar Foundation Inc $1,986,146 1 2020 National Philanthropic Trust $1,919,440
+    5 2020-2025
+  amount: 1919440
+  currency: USD
+  fetched: *id001
+- type: funds
+  to: earth-species-project
+  url: https://grantable.co/nonprofits/the-earth-species-project-morg_8037bb9169f342129cd38771621f845c
+  quote: National Philanthropic Trust $135,000 4 2022–2025
+  amount: 135000
+  currency: USD
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

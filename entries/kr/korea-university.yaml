@@ -1,0 +1,51 @@
+id: korea-university
+kind: organisation
+name: Korea University
+scope: kr
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+scale: national
+hq: unknown
+status: active
+summary: University whose team, a vendor case study says, mapped national forest types with
+  a U-Net, and which OpenAlex ranks second for Korean deep learning and ecology works since
+  2021.
+facts:
+- claim: A vendor case study says a Korea University team mapped national forest types with
+    a U-Net.
+  url: https://www.nv5geospatialsoftware.com/Learn/Case-Studies/Case-Studies-Detail/south-korea-improves-forest-greenhouse-gas-reporting-with-remote-sensing-and-deep-learning
+  fetched: '2026-11-02'
+  quote: Joon Kim and the team at Korea University developed a Phenological Classification
+    Framework (PCF) in ENVI
+- claim: OpenAlex groups Korean deep learning and ecology works since 2021 by institution,
+    with Korea University second.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:kr,concepts.id:C18903297,concepts.id:C108583219,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage
+  fetched: '2026-11-02'
+  quote: Korea University
+- claim: A December 2025 university article names Lee Woo-kyun as director of its KU OJEong
+    Resilience Institute.
+  url: https://www.korea.edu/bbs/en/66/121251/artclView.do
+  fetched: '2026-11-02'
+  quote: At the KU OJEong Resilience Institute (Director Lee Woo-kyun, Division of Environmental
+    Science and Ecological Engineering)
+- claim: OpenAlex lists a 2025 paper on deep learning mangrove mapping with a Korea University
+    author.
+  url: https://api.openalex.org/works?filter=authorships.countries:KR,title_and_abstract.search:forest%20satellite%20deep%20learning%20mapping,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,cited_by_count,authorships
+  fetched: '2026-11-02'
+  quote: 'Enhanced Rapid Mangrove Habitat Mapping Approach to Setting Protected Areas Using
+    Satellite Indices and Deep Learning: A Case Study of the Solomon Islands'
+  ai_type: deep-learning
+found_by:
+- checklist:3
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+added_by: agent
+checked: '2026-11-02'
+ai_types:
+- deep-learning

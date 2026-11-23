@@ -1,0 +1,45 @@
+id: sari-agricultural-sciences-and-natural-resources-university
+kind: organisation
+name: Sari Agricultural Sciences and Natural Resources University
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: ir
+scale: national
+status: active
+website: https://sanru.ac.ir
+summary: A university in Iran whose authors OpenAlex lists on a 2021 paper on biodiversity
+  index and a 2023 paper on tree species diversity, both using machine learning.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2021 machine learning paper: Assessing Biotic
+    and Abiotic Effects on Biodiversity Index Using Machine Learning.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Assessing Biotic and Abiotic Effects on Biodiversity Index Using Machine Learning
+- claim: 'Its authors are listed by OpenAlex on a 2023 machine learning paper: Machine learning
+    prediction of tree species diversity using forest structure and environmental factors:
+    a case study from the Hyrcanian forest, Iran.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: 'Machine learning prediction of tree species diversity using forest structure and
+    environmental factors: a case study from the Hyrcanian forest, Iran'
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Department of Forestry, Faculty of Natural Resources, Sari Agriculture Sciences and
+    Natural Resource University, Sari 48181-66996, Iran
+- claim: Its own site's title names the university in Persian, with missing letters in the
+    saved text.
+  url: https://sanru.ac.ir
+  fetched: '2026-11-03'
+  quote: انشگاه علوم کشاورزی و منابع بیعی ساری
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

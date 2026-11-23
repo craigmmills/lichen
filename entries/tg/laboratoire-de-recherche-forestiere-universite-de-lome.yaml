@@ -1,0 +1,47 @@
+id: laboratoire-de-recherche-forestiere-universite-de-lome
+kind: organisation
+name: Laboratoire de Recherche Forestière
+also_known_as:
+- LRF
+- Laboratory of Forestry Research
+scope: tg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- tg
+scale: local
+status: active
+summary: Université de Lomé laboratory, led by Kouami Kokou and listing biodiversity informatics
+  among its themes, affiliated with a 2023 study mapping Mono Transboundary Biosphere Reserve
+  land cover for 1986, 2000 and 2015 and predicting it to 2070.
+facts:
+- claim: Listed among the Université de Lomé's research structures, with biodiversity informatics
+    among its themes.
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-13
+  quote: Informatique de la biodiversité
+- claim: The first author of a 2023 paper on the Mono Transboundary Biosphere Reserve gives
+    the laboratory as affiliation.
+  url: https://api.openalex.org/works?filter=openalex:W4380151546|W4387738920&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-13
+  quote: Laboratory of Forestry Research, Faculty of Science, University of Lome, Lome, Togo
+- claim: The study mapped land use and land cover in the reserve in 1986, 2000 and 2015 and
+    predicted future land cover up to 2070 with Markov chain analysis.
+  url: https://api.openalex.org/works/W4387738920?select=id,display_name,abstract_inverted_index
+  fetched: 2026-11-13
+  quote: '"using":[123],"Markovian":[124],"chain":[125],"analysis.":[126]'
+links:
+- type: run-by
+  to: universite-de-lome
+  url: https://univ-lome.tg/structure-de-recherche/
+  fetched: 2026-11-13
+  quote: Laboratoire de Recherche Forestière (LRF)
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

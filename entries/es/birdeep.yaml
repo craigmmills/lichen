@@ -1,0 +1,47 @@
+id: birdeep
+kind: project
+name: BIRDeep
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning
+status: active
+countries:
+- es
+summary: Birdsong monitoring project in Doñana that uses deep learning on recorder audio to
+  follow bird species abundance and changes to migration periods.
+facts:
+- claim: Aims to optimise detection and classification of bird species in audio recordings
+    using deep learning.
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: which aims to optimize the detection and classification of bird species in audio
+    recordings using deep learning techniques
+  ai_type: deep-learning
+- claim: Uses low-cost autonomous recorders and AI tools to identify birds in audio automatically.
+  url: https://www.upo.es/ceicambio/evento/martes-ornitologico-mayo/
+  fetched: '2026-10-31'
+  quote: que utiliza grabadoras autónomas de bajo coste y herramientas de inteligencia artificial
+links:
+- type: funded-by
+  to: agencia-estatal-de-investigacion
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: BIRDeep project (TED2021-129871A-I00), which is funded by MICIU/AEI/10.13039/501100011033
+- type: funded-by
+  to: next-generation-eu
+  url: https://huggingface.co/datasets/GrunCrow/BIRDeep_AudioAnnotations
+  fetched: '2026-10-31'
+  quote: which is funded by MICIU/AEI/10.13039/501100011033 and the 'European Union NextGenerationEU/PRTR'
+runner: unknown
+found_by:
+- checklist:7
+- register:es
+- link-from:estacion-biologica-de-donana
+scope: es
+added_by: agent
+checked: '2026-10-31'

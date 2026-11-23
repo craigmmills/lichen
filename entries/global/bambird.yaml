@@ -1,0 +1,48 @@
+id: bambird
+kind: programme
+name: bambird
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+status: unknown
+runner: unknown
+website: https://github.com/ear-team/bambird
+summary: Python package offering a workflow to build a labelling function that separates
+  bird song from noise, using DBSCAN or BirdNET, and tested on songs from 44 West-Palearctic
+  bird species.
+facts:
+- claim: Python package giving a workflow to build a labelling function for cleaner
+    bird song datasets.
+  url: https://github.com/ear-team/bambird
+  fetched: 2026-11-21
+  quote: we propose bambird , an open source Python package that provides a complete
+    workflow to create your own labelling function to build cleaner bird song recording
+    dataset.
+- claim: The labelling workflow described in the README classifies sound units as
+    bird song or noise using either unsupervised DBSCAN or supervised BirdNET.
+  url: https://github.com/ear-team/bambird
+  fetched: 2026-11-21
+  quote: classification of each sound unit as bird song or noise with either an unsupervised
+    DBSCAN algorithm or the supervised BirdNET neural network.
+  ai_type: ml-unsupervised
+- claim: Names the BirdNET neural network as one classifier option.
+  url: https://github.com/ear-team/bambird
+  fetched: 2026-11-21
+  quote: the supervised BirdNET neural network
+  ai_type: deep-learning
+- claim: The labelling function was tested on songs from 44 common West-Palearctic
+    bird species.
+  url: https://github.com/ear-team/bambird
+  fetched: 2026-11-21
+  quote: The labelling function was optimized, validated, and tested on the songs
+    of 44 West-Palearctic common bird species.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

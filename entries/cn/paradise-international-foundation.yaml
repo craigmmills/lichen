@@ -1,0 +1,67 @@
+id: paradise-international-foundation
+kind: organisation
+name: Paradise International Foundation
+also_known_as:
+- 桃花源生态保护基金会
+- 深圳市桃花源生态保护基金会
+- 桃花源基金会
+scope: cn
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+- funds
+- governs
+ai_label: ai
+realms:
+- land
+hq: cn
+scale: national
+status: active
+summary: Chinese conservation foundation that manages the Laohegou site in Sichuan under government
+  commission and wholly owns Montek, a conservation technology company.
+facts:
+- claim: A published profile, which reads as promotional, says the foundation manages Laohegou
+    in Sichuan under government commission.
+  url: https://i.ifeng.com/c/8xW481j65wb
+  fetched: '2026-10-31'
+  quote: 老河沟由桃花源受政府委托管理，位于四川平武，面积153平方公里，位于大熊猫国家公园核心区
+- claim: A foundation set up in 2015 by entrepreneurs including Jack Ma and Pony Ma.
+  url: https://www.pfi.org.cn/en/
+  fetched: '2026-10-31'
+  quote: 由马云、马化腾等企业家于 2015 年联合发起
+- claim: Contributed 31,000 infrared camera records to Tencent's Wild Friends Plan and helped
+    design its AI recognition process.
+  url: https://m.thepaper.cn/newsDetail_forward_30694258
+  fetched: '2026-10-31'
+  quote: 桃花源基金会为这一计划贡献了31000份一线红外相机数据，并参与设计了AI识别的技术流程。
+- claim: Manages and operates three protected areas, Sichuan Laohegou, Sichuan Bayuelin and
+    Anhui Jiulongfeng, with a managed area of over 300 square kilometres.
+  url: https://www.pfi.org.cn/projects
+  quote: 现管理运营四川老河沟、四川八月林及安徽九龙峰三个自然保护地，管护面积超过300平方公里。
+  fetched: '2026-11-17'
+links:
+- type: runs
+  to: montek
+  url: https://i.ifeng.com/c/8xW481j65wb
+  fetched: '2026-10-31'
+  quote: 山思科技诞生于四川平武高村乡，是桃花源生态保护基金会的全资子公司
+- type: partners-with
+  to: shan-shui-conservation-center
+  url: https://en.shanshui.org/about/partner/
+  fetched: '2026-10-31'
+  quote: Paradise International Foundation
+- type: runs
+  to: montek
+  url: https://www.montek.tech/faq
+  fetched: '2026-10-31'
+  quote: 山思生态科技（四川）有限公司，是深圳市桃花源生态保护基金会全资子公司
+found_by:
+- checklist:4
+- link-from:shan-shui-conservation-center
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- computer-vision
+countries:
+- cn

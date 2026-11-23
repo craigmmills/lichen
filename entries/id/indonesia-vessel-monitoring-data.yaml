@@ -1,0 +1,37 @@
+id: indonesia-vessel-monitoring-data
+kind: dataset
+name: Indonesia vessel monitoring system data
+also_known_as:
+- Indonesia VMS data
+scope: id
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- id
+status: unknown
+summary: Indonesia's national fishing vessel monitoring data, made public through
+  Global Fishing Watch in 2017. The pages read do not show whether it continues.
+facts:
+- claim: ECO Magazine reports the data was published in Global Fishing Watch at the
+    2017 Ocean Conference.
+  url: https://ecomagazine.com/news/policy/indonesia-s-fishing-vessel-tracking-data-made-available-to-public/
+  fetched: '2026-10-31'
+  quote: On 8 June 2017, at The Ocean Conference at the United Nations, the Republic
+    of Indonesia made its fishing activity data public
+links:
+- type: run-by
+  to: kementerian-kelautan-dan-perikanan
+  url: https://ecomagazine.com/news/policy/indonesia-s-fishing-vessel-tracking-data-made-available-to-public/
+  fetched: '2026-10-31'
+  quote: "the head of Indonesia's Ministry of Marine Affairs and Fisheries (the Kementerian Kelautan dan Perikanan RI, or KKP, for short), believes that making government fisheries data visible to the public"
+- type: partners-with
+  to: global-fishing-watch
+  url: https://ecomagazine.com/news/policy/indonesia-s-fishing-vessel-tracking-data-made-available-to-public/
+  fetched: '2026-10-31'
+  quote: "Read the Joint Statement by The Republic of Indonesia and Global Fishing Watch"
+found_by:
+- checklist:2
+- link-from:global-fishing-watch
+added_by: agent
+checked: '2026-10-31'

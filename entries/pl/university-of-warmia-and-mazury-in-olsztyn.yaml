@@ -1,0 +1,41 @@
+id: university-of-warmia-and-mazury-in-olsztyn
+kind: organisation
+name: University of Warmia and Mazury in Olsztyn
+scope: pl
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- pl
+scale: national
+status: active
+summary: University that OpenAlex lists as the first-author affiliation on two 2021 papers,
+  one reviewing tree species classification from airborne LiDAR and one applying game theory-based
+  machine learning to lagoon climate effects.
+facts:
+- claim: OpenAlex lists a 2021 review of tree species classification from airborne LiDAR data
+    and classifiers with a first-author affiliation to the University of Warmia and Mazury
+    in Olsztyn.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I47996466,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: A Review of Tree Species Classification Based on Airborne LiDAR Data and Applied
+    Classifiers
+- claim: OpenAlex lists a 2021 paper applying game theory-based machine learning to assess
+    climate effects on lagoon ecosystem parameters with a first-author affiliation to the
+    University of Warmia and Mazury in Olsztyn.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I47996466,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: The application of game theory-based machine learning modelling to assess climate
+    variability effects on the sensitivity of lagoon ecosystem parameters
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

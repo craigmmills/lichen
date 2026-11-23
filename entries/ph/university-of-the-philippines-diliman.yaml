@@ -1,0 +1,52 @@
+id: university-of-the-philippines-diliman
+kind: organisation
+name: University of the Philippines Diliman
+also_known_as:
+- UP Diliman
+scope: ph
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- computer-vision
+hq: ph
+countries:
+- ph
+scale: national
+status: active
+summary: Quezon City campus with 15 OpenAlex works since 2020 on remote sensing and machine
+  learning, the most of any Philippine institution in that query, and an AI Program chaired
+  by a Fish-i developer.
+facts:
+- claim: OpenAlex returns 15 works since 2020 on remote sensing and machine learning with
+    a UP Diliman affiliation, the most of any Philippine institution in that query.
+  url: https://api.openalex.org/works?filter=institutions.country_code:PH,title_and_abstract.search:remote%20sensing%20machine%20learning,from_publication_date:2020-01-01&group_by=authorships.institutions.id
+  fetched: 2026-11-07
+  quote: University of the Philippines Diliman
+- claim: OpenAlex lists a UP Diliman paper on supervised classification for coral bleaching
+    detection from Sentinel-2.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I87074743|I210563421,title_and_abstract.search:remote%20sensing%20machine%20learning,from_publication_date:2020-01-01&per-page=30&select=id,title,publication_year,authorships
+  fetched: 2026-11-07
+  quote: SUPERVISED IMAGE CLASSIFICATION MODEL FOR CORAL BLEACHING DETECTION USING A BI-TEMPORAL
+    SENTINEL-2 IMAGE STACK
+- claim: Its AI Program is chaired by Prospero Naval Jr., a developer of Fish-i.
+  url: https://newsbytes.ph/2026/08/31/up-profs-develop-ai-powered-system-for-fish-census-in-ph/
+  fetched: 2026-11-08
+  quote: Dr. Prospero C. Naval Jr., chair of the UP Diliman Artificial Intelligence Program
+- claim: The UP Marine Science Institute is housed within the UP Diliman campus in Quezon
+    City.
+  url: https://api.gbif.org/v1/organization/32baad74-dbe2-4ad9-8388-7533dc41a035
+  fetched: 2026-11-08
+  quote: It is housed in its own building complex within the UP Diliman Campus in Quezon City.
+links: []
+found_by:
+- checklist:3
+- register:ph
+added_by: agent
+checked: 2026-11-08

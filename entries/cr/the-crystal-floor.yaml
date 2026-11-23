@@ -1,0 +1,76 @@
+id: the-crystal-floor
+kind: project
+name: The Crystal Floor
+scope: cr
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+- other
+countries:
+- cr
+status: unknown
+summary: Photogrammetry project built by Innoceana, launched in 2020 per Earth.Org,
+  making 3D models of coral to assess health; a CoralNet source says it monitors Cocos
+  Island reefs with SINAC.
+facts:
+- claim: Earth.Org reports that Innoceana launched The Crystal Floor in 2020, using
+    photogrammetry to create 3D models of Costa Rica's coral colonies to evaluate
+    their health.
+  url: https://earth.org/exploring-costa-ricas-trailblazing-efforts-to-save-coral-reefs
+  fetched: '2026-11-12'
+  quote: In 2020, Innoceana launched the ” The Crystal Floor ” project, which sees
+    the use of photogrammetry to create detailed 3D models of Costa Rica’s coral colonies,
+    aiding in evaluating their health
+- claim: Its CoralNet source says the project monitors Cocos Island's coral reefs
+    with photogrammetry in collaboration with park rangers and SINAC.
+  url: https://coralnet.ucsd.edu/source/4754
+  fetched: '2026-11-12'
+  quote: We collaborate with park rangers and SINAC to monitor Cocos Island's coral
+    reefs with photogrammetry.
+- claim: Twice-yearly expeditions aligned with the PRONAMEC protocol capture 3D models
+    of coral and rocky reefs, and aerial drones capture 2D models for long-term reef
+    coverage.
+  url: https://coralnet.ucsd.edu/source/4754
+  fetched: '2026-11-12'
+  quote: Biannual expeditions, aligned with the PRONAMEC protocol (led by the rangers),
+    involve capturing 3D models of coral and rocky reefs
+links:
+- type: built-by
+  to: innoceana
+  url: https://earth.org/exploring-costa-ricas-trailblazing-efforts-to-save-coral-reefs
+  fetched: '2026-11-12'
+  quote: In 2020, Innoceana launched the ” The Crystal Floor ” project
+- type: partners-with
+  to: sistema-nacional-de-areas-de-conservacion
+  url: https://coralnet.ucsd.edu/source/4754
+  fetched: '2026-11-12'
+  quote: We collaborate with park rangers and SINAC to monitor Cocos Island's coral
+    reefs with photogrammetry.
+- type: uses
+  to: coralnet
+  url: https://coralnet.ucsd.edu/source/4754
+  fetched: '2026-11-12'
+  quote: 'Image Status
+
+    Unclassified:
+
+    1
+
+    Unconfirmed:
+
+    0
+
+    Confirmed:
+
+    0
+
+    Total images:
+
+    1'
+runner: unknown
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

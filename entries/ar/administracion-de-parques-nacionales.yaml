@@ -1,0 +1,90 @@
+id: administracion-de-parques-nacionales
+kind: organisation
+name: Administración de Parques Nacionales
+also_known_as:
+- Parques Nacionales
+- APN
+- Parques Nacionales Argentina
+scope: ar
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+website: https://www.argentina.gob.ar/parquesnacionales
+summary: Argentine national parks body with a conservation mission for protected areas, which
+  runs a biodiversity information system receiving national deforestation alerts every two
+  weeks since November 2021.
+facts:
+- claim: Says it manages the country's most important protected areas for conservation, research,
+    sustainable tourism and local development.
+  url: https://www.argentina.gob.ar/parquesnacionales
+  fetched: 2026-11-03
+  quote: Gestionamos las áreas protegidas más importantes del país como espacios de conservación
+    del patrimonio natural y cultural, investigación, turismo sostenible y desarrollo local.
+- claim: Says it is studying a maned wolf pair living with their cubs in Ansenuza National
+    Park.
+  url: https://www.argentina.gob.ar/parquesnacionales
+  fetched: 2026-11-03
+  quote: Estamos estudiando a una pareja de aguará guazú que habita junto a sus cachorros
+    en el Parque Nacional Ansenuza.
+- claim: Its page lists the project Recuperación Sustentable de Paisajes y Medios de Vida
+    en Argentina.
+  url: https://www.argentina.gob.ar/parquesnacionales
+  fetched: 2026-11-03
+  quote: Recuperación Sustentable de Paisajes y Medios de Vida en Argentina
+- claim: The body whose mission is to ensure the conservation of biodiversity in national
+    protected areas.
+  url: https://www.argentina.gob.ar/parquesnacionales/sib
+  fetched: '2026-11-03'
+  quote: siendo la Administración de Parques Nacionales el organismo cuya misión es asegurar
+    la conservación de la biodiversidad en las áreas protegidas de orden nacional
+- claim: Prepared a GEF-funded biodiversity conservation project for Argentina that included
+    a biodiversity information management component.
+  url: https://www.argentina.gob.ar/parquesnacionales/sib
+  fetched: '2026-11-03'
+  quote: El Proyecto Conservación de la Biodiversidad de la República Argentina, elaborado
+    por la Administración de Parques Nacionales y financiado con los llamados Fondos Globales
+    Ambientales (GEF)
+- claim: Since November 2021 it has received the national deforestation alerts inside national
+    protected areas every two weeks, through its biodiversity information system.
+  url: https://sib.gob.ar/novedades/sat-apn
+  fetched: 2026-11-03
+  quote: Desde noviembre de 2021, la APN mediante el SIB comenzó a recibir quincenalmente
+    informes y coberturas geográficas de las alertas
+- claim: Publishes on GBIF records of vertebrates of special value in protected areas, recorded
+    by park rangers and technical staff.
+  url: https://api.gbif.org/v1/organization/979dd240-16f7-11df-b5b3-b8a03c50a862/publishedDataset?limit=40
+  fetched: 2026-11-03
+  quote: Avistajes de vertebrados de valor especial en las áreas protegidas de la Argentina,
+    registrados por guardaparques y técnicos del sistema de áreas protegidas.
+links:
+- type: runs
+  to: sistema-de-informacion-de-biodiversidad-apn
+  url: https://sib.gob.ar/
+  fetched: 2026-11-03
+  quote: En el SIB recopilamos, clasificamos, ordenamos, cartografiamos y ponemos a disposición
+    pública la información de carácter ambiental, biológico y socio-cultural de las áreas
+    protegidas de Argentina.
+- type: uses
+  to: argentinat
+  url: https://www.argentina.gob.ar/noticias/la-administracion-de-parques-nacionales-se-suma-la-plataforma-comunitaria-de-registro-e
+  fetched: 2026-11-03
+  quote: Parques Nacionales creó 52 "proyectos" , uno por cada área protegida nacional, los
+    cuales permiten agrupar y mostrar de forma ordenada todos los registros que se realizan
+    dentro de cada una.
+found_by:
+- checklist:1
+- link-from:global-biodiversity-information-facility
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-03

@@ -1,0 +1,49 @@
+id: biogro-parco-delle-groane
+kind: project
+name: BioGro
+also_known_as:
+- 'BioGro : Monitoraggio integrato degli impollinatori del Parco delle Groane'
+scope: it
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+status: active
+runner: unknown
+summary: A project that uses a neural network system called Flora, with ESA, to monitor
+  the park's plants from satellite images, and the Spectrum IoT sensor to monitor
+  its insects.
+facts:
+- claim: Uses Flora, a neural network system for analysing plant biodiversity, in
+    collaboration with ESA, to monitor the park's flora from satellite images.
+  url: https://www.biodiversitygateway.it/azioni-di-biodiversita/biogro-monitoraggio-integrato-degli-impollinatori-del-parco-delle-groane/
+  fetched: '2026-11-08'
+  quote: Grazie all’utilizzo di Flora, un sistema di Reti neurali per l’analisi delle
+    biodiversità vegetali, in collaborazione con ESA
+  ai_type: deep-learning
+- claim: Uses the Spectrum IoT sensor to monitor the park's insects.
+  url: https://www.biodiversitygateway.it/azioni-di-biodiversita/biogro-monitoraggio-integrato-degli-impollinatori-del-parco-delle-groane/
+  fetched: '2026-11-08'
+  quote: 'sensore IoT Spectrum : si concentra sul monitoraggio della entomofauna nel
+    parco utilizzando la tecnologia Spectrum'
+links:
+- type: partners-with
+  to: 3bee
+  url: https://www.biodiversitygateway.it/azioni-di-biodiversita/biogro-monitoraggio-integrato-degli-impollinatori-del-parco-delle-groane/
+  fetched: '2026-11-08'
+  quote: Partner Consulenti 3bee s.r.l., Università degli Studi di Milano, Università
+    degli Studi di Torino.
+- type: partners-with
+  to: university-of-milan
+  url: https://www.biodiversitygateway.it/azioni-di-biodiversita/biogro-monitoraggio-integrato-degli-impollinatori-del-parco-delle-groane/
+  fetched: '2026-11-08'
+  quote: Partner Consulenti 3bee s.r.l., Università degli Studi di Milano, Università
+    degli Studi di Torino.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

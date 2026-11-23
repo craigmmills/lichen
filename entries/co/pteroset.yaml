@@ -1,0 +1,53 @@
+id: pteroset
+kind: dataset
+name: Pteroset
+scope: co
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- co
+status: active
+runner: unknown
+website: https://zenodo.org/records/18563039
+summary: Open passive acoustic dataset of Neotropical bird sounds recorded in Colombia between
+  2023 and 2025, with 563 recordings and 15,372 bird-event annotations. Its authors are at
+  Microsoft AI for Good, Instituto Humboldt, Louisiana State University and Universidad de
+  Los Andes.
+facts:
+- claim: 'Zenodo record: bird vocalisations recorded in Colombia between 2023 and 2025.'
+  url: https://zenodo.org/records/18563039
+  fetched: '2026-10-31'
+  quote: curated passive acoustic monitoring dataset of Neotropical bird vocalizations recorded
+    in Colombia (Puerto Asis, Putumayo; Pijavay, Magdalena) between 2023 and 2025
+- claim: 563 recordings totalling 73.62 hours.
+  url: https://zenodo.org/records/18563039
+  fetched: '2026-10-31'
+  quote: yielding 563 recordings (73.62 hours total)
+- claim: 15,372 bird-event annotations.
+  url: https://zenodo.org/records/18563039
+  fetched: '2026-10-31'
+  quote: producing 15,372 bird-event annotations at the taxonomic-group level
+- claim: Processing code is published under microsoft/PteroSet.
+  url: https://zenodo.org/records/18563039
+  fetched: '2026-10-31'
+  quote: All code used for data processing and technical validation is available at microsoft/PteroSet
+- claim: arXiv record, submitted 20 May 2026.
+  url: https://arxiv.org/abs/2605.20578
+  fetched: '2026-10-31'
+  quote: A strongly annotated passive acoustic dataset for tropical bird monitoring
+links:
+- type: builds-on
+  to: audiomoth
+  url: https://zenodo.org/records/18563039
+  fetched: '2026-10-31'
+  quote: Audio was collected with autonomous AudioMoth recorders
+found_by:
+- link-from:project-guacamaya
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+also_known_as:
+- PteroSet

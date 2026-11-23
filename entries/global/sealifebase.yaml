@@ -1,0 +1,40 @@
+id: sealifebase
+kind: dataset
+name: SeaLifeBase
+scope: global
+ai_label: data-infrastructure
+status: active
+realms:
+- ocean
+website: https://www.sealifebase.ca
+summary: Global online database on the taxonomy, distribution and ecology of marine species
+  other than finfish.
+countries:
+- my
+facts:
+- claim: Wikipedia describes it as a global online database of marine life.
+  url: https://en.wikipedia.org/wiki/SeaLifeBase
+  quote: SeaLifeBase is a global online database of information about marine life
+  fetched: '2026-10-30'
+- claim: Wikipedia names partners at WorldFish and the University of British Columbia, with
+    Daniel Pauly as principal investigator.
+  url: https://en.wikipedia.org/wiki/SeaLifeBase
+  quote: SeaLifeBase is in partnership with the WorldFish Center in Malaysia and the UBC Institute
+    for the Oceans and Fisheries
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: university-of-british-columbia
+  url: https://en.wikipedia.org/wiki/SeaLifeBase
+  quote: SeaLifeBase is in partnership with the WorldFish Center in Malaysia and the UBC Institute
+    for the Oceans and Fisheries at the University of British Columbia
+  fetched: '2026-10-30'
+- type: builds-on
+  to: fishbase
+  url: https://en.wikipedia.org/wiki/SeaLifeBase
+  quote: The long-term goal of the project is develop an information system modelled on FishBase
+  fetched: '2026-10-30'
+found_by:
+- link-from:fishbase
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,52 @@
+id: gbif-peru
+kind: programme
+name: GBIF Peru
+scope: pe
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- pe
+status: active
+runner: unknown
+summary: Peru's country node in GBIF, registered as a voting participant, with its address at the Ministry
+  of the Environment in Lima.
+facts:
+- claim: GBIF's registry lists GBIF Peru as a country node with voting participant status.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040
+  fetched: 2026-11-03
+  quote: '"participationStatus":"VOTING"'
+- claim: GBIF's registry gives the node's address at the Ministry of the Environment.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040
+  fetched: 2026-11-03
+  quote: Ministerio del Ambiente - MINAM
+- claim: Registered with GBIF as Peru's country node.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040
+  fetched: 2026-11-03
+  quote: '"title":"GBIF Peru","participantTitle":"Peru"'
+- claim: The node's registered address is the Ministerio del Ambiente (MINAM) in Lima.
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040
+  fetched: 2026-11-03
+  quote: '"address":["Ministerio del Ambiente - MINAM'
+- claim: Peru is a voting participant in GBIF, with a country node titled GBIF Peru.
+  url: https://api.gbif.org/v1/node/country/PE
+  fetched: 2026-11-03
+  quote: '"participationStatus":"VOTING","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Peru","participantTitle":"Peru"'
+- claim: GBIF's registry gives the node's address as the environment ministry in Lima.
+  url: https://api.gbif.org/v1/node/country/PE
+  fetched: 2026-11-03
+  quote: Ministerio del Ambiente - MINAM\nAv. Antonio Miró Quesada 425, Magdalena del Mar
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/46e3639a-27f8-45af-bfbe-d19b77efb040
+  fetched: 2026-11-03
+  quote: '"participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:queue-pe
+added_by: agent
+checked: 2026-11-03

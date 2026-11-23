@@ -1,0 +1,31 @@
+id: deep-learning-satellite-genetic-diversity-model
+kind: model
+name: Deep learning model predicting genetic diversity from satellite imagery (IIMyC)
+scope: ar
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- edna-genomics
+countries:
+- ar
+scale: local
+status: unknown
+summary: Deep learning model linked to IIMyC, known from a 2021 paper listed in OpenAlex showing satellite
+  imagery can predict genetic diversity and differentiation; its current status is unknown.
+facts:
+- claim: OpenAlex lists a 2021 paper showing deep learning and satellite imagery predicting genetic diversity
+    and differentiation.
+  url: https://api.openalex.org/works/W4226178454?select=id,title,doi,publication_year,authorships
+  quote: Deep learning and satellite imagery predict genetic diversity and differentiation
+  ai_type: deep-learning
+  fetched: '2026-11-03'
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-11-03'
+runner: unknown

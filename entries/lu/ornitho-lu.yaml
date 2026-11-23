@@ -1,0 +1,41 @@
+id: ornitho-lu
+kind: dataset
+name: ornitho.lu
+also_known_as: []
+scope: lu
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+scale: national
+status: active
+website: https://www.ornitho.lu
+summary: A bird watching and survey portal for Germany and Luxembourg, run by natur&ëmwelt,
+  which collates bird data in verified form for science and conservation, accepting
+  all Luxembourg observations since 2011.
+facts:
+- claim: An internet portal for bird watching and population surveys in Germany and
+    Luxembourg, which collates bird data and makes it available in verified form for
+    scientific evaluation and conservation.
+  url: https://www.ornitho.lu
+  fetched: 2026-11-12
+  quote: Ornitho.de / lu aim to collate data on bird life, make it available in a
+    verified form for scientific evaluation and use it for nature conservation purposes.
+- claim: natur&ëmwelt says all bird observations in Luxembourg can be entered on ornitho.lu
+    since 2011.
+  url: https://www.naturemweltasbl.lu/centrale-ornithologique/
+  fetched: 2026-11-12
+  quote: Depuis 2011, toutes les observations d’oiseaux au Luxembourg peuvent être
+    saisies sur la plateforme Internet www.ornitho.lu .
+links:
+- type: run-by
+  to: natur-emwelt
+  url: https://www.ornitho.lu
+  fetched: 2026-11-12
+  quote: It is run by the Dachverband Deutscher Avifaunisten (DDA) e.V. (Federation
+    of German Avifaunists) and natur&ëmwelt , respectively
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,34 @@
+id: nkhotakota-camera-traps
+kind: dataset
+name: Nkhotakota Camera Traps
+scope: mw
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- mw
+status: active
+runner: unknown
+summary: A dataset of annotated camera trap images published on LILA BC, from mammal
+  monitoring in Nkhotakota Wildlife Reserve that uses computer vision models to process
+  data.
+facts:
+- claim: Cara Appel's project page says the monitoring programme uses camera traps
+    to monitor mammal populations in Nkhotakota Wildlife Reserve, with computer vision
+    models to process the data.
+  url: https://appelc.github.io/projects/nkhotakota_camera_traps
+  fetched: 2026-11-13
+  quote: We are using remote camera traps to monitor mammal populations in the reserve,
+    along with computer vision models to process the data.
+- claim: The annotated images were published on LILA BC as Nkhotakota Camera Traps.
+  url: https://appelc.github.io/projects/nkhotakota_camera_traps
+  fetched: 2026-11-13
+  quote: We also published our dataset of annotated images on LILA BC ( Nkhotakota
+    Camera Traps ).
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

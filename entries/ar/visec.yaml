@@ -1,0 +1,64 @@
+id: visec
+kind: project
+name: VISEC
+scope: ar
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- ar
+scale: national
+status: closed
+summary: Closed soy and beef traceability platform for Argentine agro-industry, run by CIARA and funded
+  by LIF; in 2023 reported as a three-year project, launched May 2022, checking deforestation-free status
+  by satellite.
+facts:
+- claim: In 2023, Dialogue Earth described VISEC as a three-year project managed by CIARA and funded by
+    LIF, aiming to trace soy in priority conservation areas in the Gran Chaco.
+  url: https://dialogue.earth/en/food/362061-argentinas-soy-producers-push-for-traceability-to-combat-deforestation/
+  quote: 'The LIF is also funding an ambitious three-year project, managed by CIARA, called VISEC : a
+    monitoring platform for the soy supply chain in Argentina'
+  fetched: '2026-11-03'
+- claim: Dialogue Earth reports it was launched in May 2022.
+  url: https://dialogue.earth/en/food/362061-argentinas-soy-producers-push-for-traceability-to-combat-deforestation/
+  quote: Launched in May 2022, the VISEC system aims to bring together monitoring and verification data
+    for all the soy traded in Argentina on one unified platform
+  fetched: '2026-11-03'
+- claim: Describes itself as the social and environmental traceability platform of Argentine agro-industry,
+    monitoring, reporting and verifying attributes along the soy and beef chains.
+  url: https://www.visec.com.ar/
+  fetched: 2026-11-03
+  quote: Un sistema integral que permite monitorear, reportar y verificar (MRV) atributos ambientales,
+    sociales y legales a lo largo de las cadenas de soja y ganadería bovina.
+- claim: When a production unit is registered, the system analyses its polygon with integrated satellite
+    image providers and checks legality and deforestation-free status.
+  url: https://www.visec.com.ar/guia/
+  fetched: 2026-11-03
+  quote: Dada de alta la UP, el sistema analiza el polígono con proveedores de imágenes satelitales integrados
+    y verifica los indicadores de sustentabilidad —legalidad y libre de deforestación—
+- claim: Its MRV page says VISEC will issue a deforestation-free product certificate for each shipment
+    of soy and its by-products.
+  url: https://www.bcr.com.ar/es/servicios/servicios-digitales/visec-mrv
+  fetched: 2026-11-03
+  quote: VISEC emitirá por cada embarque un Certificado de Producto Libre de Deforestación (CLD)
+links:
+- type: run-by
+  to: ciara-argentine-edible-oil-association
+  url: https://dialogue.earth/en/food/362061-argentinas-soy-producers-push-for-traceability-to-combat-deforestation/
+  quote: The LIF is also funding an ambitious three-year project, managed by CIARA, called VISEC
+  fetched: '2026-11-03'
+- type: funded-by
+  to: land-innovation-foundation
+  url: https://dialogue.earth/en/food/362061-argentinas-soy-producers-push-for-traceability-to-combat-deforestation/
+  quote: The LIF is also funding an ambitious three-year project, managed by CIARA, called VISEC
+  fetched: '2026-11-03'
+found_by:
+- checklist:7
+- checklist:5
+added_by: agent
+checked: '2026-11-03'
+techniques:
+- remote-sensing
+also_known_as:
+- ViSeC
+- Visec MRV

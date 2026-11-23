@@ -1,0 +1,29 @@
+id: surfnet
+kind: model
+name: Surfnet
+scope: fr
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+status: active
+summary: AI model developed by Surfrider to count litter on river banks from video.
+  Open source, within the Plastic Origins project.
+facts:
+- claim: An AI model developed by Surfrider to count litter on river banks from a
+    video.
+  url: https://www.surfrider.fr/wp-content/uploads/2025/05/Livre_Blanc_IA_quantifier_dechets_riviere-PlasticOrigins_SurfriderFoundationEurope.pdf
+  fetched: '2026-10-31'
+  quote: déchets sur les berges de rivière à partir d’une vidéo.
+links:
+- type: run-by
+  to: surfrider-foundation-europe
+  url: https://www.surfrider.fr/wp-content/uploads/2025/05/Livre_Blanc_IA_quantifier_dechets_riviere-PlasticOrigins_SurfriderFoundationEurope.pdf
+  fetched: '2026-10-31'
+  quote: Nom du modèle d'intelligence artificielle développé spécifiquement par Surfrider
+    pour compter les
+found_by:
+- link-from:surfrider-foundation-europe
+added_by: agent
+checked: '2026-10-31'

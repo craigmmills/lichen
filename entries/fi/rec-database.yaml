@@ -1,0 +1,35 @@
+id: rec-database
+kind: dataset
+name: REC database
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- fi
+status: active
+summary: A collection of datasets with long-term species observations, built and run by the Research Centre
+  for Ecological Change, for the exclusive use of its researchers.
+facts:
+- claim: A collection of datasets with long-term species observations for the exclusive use of REC researchers.
+  url: https://www.helsinki.fi/en/researchgroups/research-centre-for-ecological-change/rec-database
+  quote: The REC database is a collection of datasets with long-term species observations in Finland for
+    the exclusive use of REC researchers.
+  fetched: '2026-11-02'
+links:
+- type: built-by
+  to: research-centre-for-ecological-change
+  url: https://www.helsinki.fi/en/researchgroups/research-centre-for-ecological-change/rec-database
+  quote: These datasets have been curated into a single harmonized format by REC at the University of
+    Helsinki.
+  fetched: '2026-11-02'
+- type: run-by
+  to: research-centre-for-ecological-change
+  url: https://www.helsinki.fi/en/researchgroups/research-centre-for-ecological-change/rec-database
+  quote: REC is continually updating the existing data and adding new datasets.
+  fetched: '2026-11-02'
+found_by:
+- checklist:2
+scope: fi
+added_by: agent
+checked: '2026-11-02'

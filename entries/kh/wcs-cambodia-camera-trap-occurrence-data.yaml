@@ -1,0 +1,47 @@
+id: wcs-cambodia-camera-trap-occurrence-data
+kind: dataset
+name: WCS Cambodia camera trap occurrence data
+scope: kh
+ai_label: data-infrastructure
+realms:
+- land
+techniques: []
+countries: []
+status: active
+summary: A GBIF-funded dataset of selected WCS Cambodia camera-trap records from 2001
+  to 2018, covering 101 species, described as the first GBIF publication of occurrence
+  data by a Cambodian organisation.
+facts:
+- claim: The GBIF dataset record says it holds occurrence records from selected WCS
+    Cambodia camera-trap surveys across the Eastern Plains, the Northern Plains, the
+    Tonle Sap flooded forests and coastal Koh Kong.
+  url: https://api.gbif.org/v1/dataset/423e89b5-3c05-4ebe-8671-ddade9409b11
+  fetched: 2026-11-13
+  quote: Occurrence records extracted from selected WCS Cambodia camera trap survey
+    data across four landscapes
+- claim: The record gives temporal coverage from 2001 to 2018 and 101 species recorded.
+  url: https://api.gbif.org/v1/dataset/423e89b5-3c05-4ebe-8671-ddade9409b11
+  fetched: 2026-11-13
+  quote: Temporal coverage from 2001 to 2018, with a total of 101 species recorded.
+- claim: The record says it was the first publication through GBIF of occurrence data
+    by any Cambodian organisation.
+  url: https://api.gbif.org/v1/dataset/423e89b5-3c05-4ebe-8671-ddade9409b11
+  fetched: 2026-11-13
+  quote: This data represents the first publication of occurrence data through GBIF
+    of any Cambodian organisation.
+links:
+- type: built-by
+  to: wcs-cambodia
+  url: https://api.gbif.org/v1/dataset/423e89b5-3c05-4ebe-8671-ddade9409b11
+  fetched: 2026-11-13
+  quote: Occurrence records extracted from selected WCS Cambodia camera trap survey
+    data across four landscapes
+- type: funded-by
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/dataset/423e89b5-3c05-4ebe-8671-ddade9409b11
+  fetched: 2026-11-13
+  quote: Data mobilization project funded by GBIF BIFA 3, project BIFA3_037.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

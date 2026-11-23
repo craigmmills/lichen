@@ -1,0 +1,45 @@
+id: long-point-bird-observatory
+kind: programme
+name: Long Point Bird Observatory
+also_known_as: []
+scope: ca
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+countries:
+- ca
+status: active
+summary: A migration monitoring station that has been a local programme of Birds Canada
+  since 1998 and is listed as a station of the Canadian Migration Monitoring Network.
+facts:
+- claim: Since 1998, LPBO has continued as a local programme of the body now called
+    Birds Canada; the page misspells its former name as “Burd Studies Canada”.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: Since 1998, LPBO has continued to operate as a local program of Burd Studies
+    Canada.
+- claim: Listed as a station of the Canadian Migration Monitoring Network on the network's
+    NatureCounts page.
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+links:
+- type: run-by
+  to: birds-canada
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: Since 1998, LPBO has continued to operate as a local program of Burd Studies
+    Canada.
+- type: partners-with
+  to: canadian-migration-monitoring-network
+  url: https://naturecounts.ca/nc/cmmn/partners.jsp
+  fetched: 2026-11-08
+  quote: The Canadian Migration Monitoring Network (CMMN) involves the cooperation
+    of many bird observatories across the country.
+found_by:
+- rule:checklist-misses
+- link-from:canadian-migration-monitoring-network
+added_by: agent
+checked: 2026-11-08

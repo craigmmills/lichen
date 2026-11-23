@@ -1,0 +1,35 @@
+id: interuniversity-institute-for-marine-sciences-in-eilat
+kind: organisation
+name: Interuniversity Institute for Marine Sciences in Eilat
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: Marine research institute in Eilat, where authors led a 2026 annotated plankton image
+  dataset and a 2024 dataset of 3D artificial reef models, both from the northern Red Sea.
+facts:
+- claim: A 2026 dataset led by an author there is an annotated plankton image library from
+    the northern Red Sea.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00pvs0d78,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Annotated IFCB plankton image library from the Northern Red Sea
+- claim: A 2024 paper led by an author there releases a dataset of 3D models of artificial
+    reefs from the northern Red Sea.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00pvs0d78,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Releasing a dataset of 3D models of artificial reefs from the northern red-sea
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

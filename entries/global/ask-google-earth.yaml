@@ -1,0 +1,56 @@
+id: ask-google-earth
+kind: programme
+name: Ask Google Earth
+also_known_as:
+- Geospatial Reasoning agent
+- Google Earth AI Geospatial Reasoning agent
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+- agentic-ai
+realms:
+- land
+status: active
+summary: Chat panel in Google Earth, powered by Google's Geospatial Reasoning agent, that answers spatial questions in natural language using Gemini and Earth AI models and data. Experimental, in early access; the partner tests named are in health and disaster work, one of which used forest loss data.
+countries:
+- cd
+facts:
+- claim: An interactive chat in Google Earth for complex spatial questions in natural language, offered as an early-access preview.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: &id001 2026-10-30
+  quote: This provides an interactive chat experience where you can ask complex spatial questions in natural language
+- claim: The Geospatial Reasoning agent connects Gemini to Earth AI's foundation models and planet-scale data.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: *id001
+  quote: The agent connects Gemini to the capabilities of Earth AI’s foundation models
+  ai_type: large-language-models
+- claim: The agent plans a multi-step workflow, then selects and runs tools and models.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: *id001
+  quote: Our Geospatial Reasoning agent responds to a user’s question by first planning a multistep workflow
+  ai_type: agentic-ai
+- claim: WHO's Africa office used the agent during the 2026 Ebola outbreak in the DRC, cross-referencing forest loss with mining and population data.
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: *id001
+  quote: cross-referencing forest loss (from satellite images), mining sites (from maps and web data), and population data
+links:
+- type: run-by
+  to: google-research
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: *id001
+  quote: "we’re also expanding experimental agent access via Ask Google Earth and an Agent-to-Agent (A2A) service."
+- type: builds-on
+  to: google-earth-ai
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: *id001
+  quote: The agent connects Gemini to the capabilities of Earth AI’s foundation models
+- type: builds-on
+  to: alphaearth-foundations
+  url: https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+  fetched: *id001
+  quote: "The agent connects Gemini to the capabilities of Earth AI’s foundation models — including WeatherNext , Flood Forecasting , the Population Dynamics Foundation Model (PDFM) , AlphaEarth Foundations and Remote Sensing Foundations"
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

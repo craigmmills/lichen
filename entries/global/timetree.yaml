@@ -1,0 +1,27 @@
+id: timetree
+kind: dataset
+name: TimeTree
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://timetree.org
+summary: Public knowledge base on the evolutionary timescale of life, assembled from thousands of published studies, at the Center of Biodiversity at Temple University.
+facts:
+- claim: Public knowledge-base on the evolutionary timescale.
+  url: https://timetree.org/
+  fetched: '2026-10-30'
+  quote: TimeTree is a public knowledge-base for information on the evolutionary timescale of life.
+links:
+- type: run-by
+  to: temple-university
+  url: https://timetree.org/
+  fetched: '2026-10-30'
+  quote: "Institute for Genomics and Evolutionary Medicine Center of Biodiversity Temple University"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

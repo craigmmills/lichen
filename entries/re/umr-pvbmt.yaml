@@ -1,0 +1,64 @@
+id: umr-pvbmt
+kind: organisation
+name: PVBMT Research Unit
+also_known_as:
+- UMR PVBMT
+- Peuplements végétaux et bioagresseurs en milieu tropical
+scope: re
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+hq: re
+countries:
+- re
+scale: local
+status: active
+website: https://umr-pvbmt.cirad.fr/
+summary: Research unit in Saint-Pierre, Réunion, formed from University of Réunion
+  and CIRAD teams, with four datasets on GBIF and a 2025 paper on predicting invasive
+  plant spread.
+facts:
+- claim: Its GBIF publisher record says the laboratory was created from the merger
+    of two University of Réunion teams and four CIRAD teams.
+  url: https://api.gbif.org/v1/organization?country=RE&limit=50
+  fetched: 2026-11-14
+  quote: PVBMT laboratory was created from the merger of two teams from the University
+    of Réunion and four teams from CIRAD.
+- claim: One of its three teams works on ecological dynamics in island environments.
+  url: https://api.gbif.org/v1/organization?country=RE&limit=50
+  fetched: 2026-11-14
+  quote: Ecological dynamics in island environments.
+- claim: The record lists four published datasets.
+  url: https://api.gbif.org/v1/organization?country=RE&limit=50
+  fetched: 2026-11-14
+  quote: '"numPublishedDatasets":4'
+- claim: The record gives its address in Saint-Pierre, Réunion.
+  url: https://api.gbif.org/v1/organization?country=RE&limit=50
+  fetched: 2026-11-14
+  quote: '"city":"Saint-Pierre","province":"Reunion","country":"RE"'
+- claim: Datasets it published on GBIF in 2026 include an inventory of vascular plants
+    in a permanent plot on the Piton de la Fournaise.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=RE&limit=20
+  fetched: 2026-11-14
+  quote: Inventory of vascular plants in a permanent plot on the Piton de la Fournaise,
+    La Réunion (France)
+- claim: PVBMT is the first author's affiliation on a 2025 paper predicting the spread
+    of invasive plant species on Réunion from spatio-temporal modelling.
+  url: https://api.openalex.org/works/W4411200426?select=id,display_name,publication_year,doi,authorships
+  fetched: 2026-11-14
+  quote: Massive spread of invasive plant species predicted from spatio-temporal modelling
+    on Reunion Island
+- claim: The first author's affiliation line names UMR PVBMT at Saint-Pierre.
+  url: https://api.openalex.org/works/W4411200426?select=id,display_name,publication_year,doi,authorships
+  fetched: 2026-11-14
+  quote: CIRAD, UMR PVBMT, F-97410 St Pierre
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

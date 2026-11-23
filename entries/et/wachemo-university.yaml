@@ -1,0 +1,37 @@
+id: wachemo-university
+kind: organisation
+name: Wachemo University
+scope: et
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: et
+scale: national
+status: active
+summary: University with a listed 2026 work, by first author Teshale Tirulo, on remote sensing
+  and machine learning for land use and land cover change detection and climate model bias
+  correction.
+facts:
+- claim: OpenAlex lists a 2026 work on remote sensing and machine learning for land use and
+    land cover change detection and climate model bias correction.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: 'Advances in Remote Sensing and Machine Learning for Land Use/Land Cover Change Detection
+    and Climate Model Bias Correction: Methods and Applications'
+- claim: OpenAlex lists Teshale Tirulo, first author of that paper, at Wachemo University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Teshale Tirulo", "orcid": null, "observed_orcids": []}, "institutions":
+    [{"id": "https://openalex.org/I4388446371", "display_name": "Wachemo University", "ror":
+    "https://ror.org/0058xky36", "country_code": "ET"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,92 @@
+id: baysenseai
+kind: project
+name: BaySenseAI
+ai_label: ai
+realms:
+- land
+status: unknown
+summary: Bavarian project on a scalable biodiversity observation and prediction platform based
+  on community sensors and AI, led by Florian Hartig and funded by the Bavarian science ministry.
+facts:
+- claim: A scalable biodiversity observation and prediction platform based on novel community
+    sensors and AI.
+  url: https://www.uni-regensburg.de/biologie-vorklinische-medizin/forschen/arbeitsgruppen/ag-hartig/forschung/projects-and-networks/baysenseai
+  quote: BaySenseAI - A scalable biodiversity observation and prediction platform based on
+    novel community sensors and artificial intelligence
+  fetched: '2026-10-31'
+- claim: A scalable platform to observe and predict biodiversity with community sensors and
+    AI.
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: Eine skalierbare Plattform zur Beobachtung und Vorhersage von Biodiversität auf Basis
+    neuartiger Gemeinschaftssensoren und künstlicher Intelligenz
+- claim: Developed and tested in Berchtesgaden National Park.
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: Entwickelt und erprobt wird die Plattform im Nationalpark Berchtesgaden
+- claim: Uses foundation models that bring together several data sources.
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: Im Zentrum stehen sogenannte Foundation-Modelle – leistungsfähige KI-Modelle, die
+    multimodale Datenquellen integrieren können
+  ai_type: multimodal
+- claim: Names foundation models as the centre of the platform.
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: Im Zentrum stehen sogenannte Foundation-Modelle
+  ai_type: foundation-models
+- claim: Foundation models at its core.
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: Im Zentrum stehen sogenannte Foundation-Modelle – leistungsfähige KI-Modelle, die
+    multimodale Datenquellen integrieren können.
+  ai_type: foundation-models
+- claim: The models integrate images, time series and text.
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: Foundation-Modelle können Bilder, Zeitreihen und Textinformationen gleichzeitig verarbeiten
+  ai_type: multimodal
+links:
+- type: partners-with
+  to: technical-university-of-munich
+  url: https://www.uni-regensburg.de/biologie-vorklinische-medizin/forschen/arbeitsgruppen/ag-hartig/forschung/projects-and-networks/baysenseai
+  quote: 'Partners: Prof. Rupert Seidl (TUM and National Park Berchtesgaden)'
+  fetched: '2026-10-31'
+- type: partners-with
+  to: berchtesgaden-national-park
+  url: https://bayklif2.de/baysenseai/
+  fetched: '2026-10-31'
+  quote: BaySenseAI arbeitet eng mit dem Nationalpark Berchtesgaden zusammen
+- type: funded-by
+  to: bayerisches-staatsministerium-fur-wissenschaft-und-kunst
+  url: https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/die-vermessung-der-vielfalt
+  fetched: '2026-10-31'
+  quote: Für ihr neues Projekt BaySenseAI im Bayerischen Klimaforschungsnetzwerk bayklif2,
+    gefördert durch das Bayerische Wissenschaftsministerium
+- type: partners-with
+  to: technical-university-of-munich
+  url: https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/die-vermessung-der-vielfalt
+  fetched: '2026-10-31'
+  quote: wollen Seidl und Senf gemeinsam mit Forschenden der Universität Regensburg
+- type: partners-with
+  to: universitat-regensburg
+  url: https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/die-vermessung-der-vielfalt
+  fetched: '2026-10-31'
+  quote: wollen Seidl und Senf gemeinsam mit Forschenden der Universität Regensburg
+found_by:
+- checklist:7
+- link-from:queue-de
+scope: de
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- remote-sensing
+- species-distribution
+- bioacoustics
+- computer-vision
+- edna-genomics
+ai_types:
+- foundation-models
+- multimodal
+countries:
+- de

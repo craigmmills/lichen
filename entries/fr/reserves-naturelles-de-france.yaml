@@ -1,0 +1,49 @@
+id: reserves-naturelles-de-france
+kind: organisation
+name: Réserves naturelles de France
+also_known_as:
+- RNF
+scope: fr
+sector: ngo
+roles:
+- uses-ai
+- convenes
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: unknown
+scale: national
+status: active
+website: https://reserves-naturelles.org/
+summary: The association of French nature reserves. It runs the Thalera moth monitoring test,
+  in which identification is partly automated with AI.
+facts:
+- claim: Thalera tests whether AI identification is reliable on French fauna.
+  url: https://reserves-naturelles.org/projet-thalera-papillons-de-nuit/
+  quote: de tester la fiabilité de l'intelligence artificielle sur la faune française
+  fetched: '2026-10-31'
+- claim: Thalera tests a protocol on a network of 16 sites in Bourgogne-Franche-Comté and
+    2 in Pyrénées-Orientales.
+  url: https://reserves-naturelles.org/projet-thalera-papillons-de-nuit/
+  fetched: '2026-10-31'
+  quote: Le test sera effectué sur un réseau de 16 sites en Bourgogne-Franche-Comté et 2 en
+    Pyrénées-Orientales
+links:
+- type: runs
+  to: thalera
+  url: https://reserves-naturelles.org/projet-thalera-papillons-de-nuit/
+  quote: Pour ce projet, RNF a bénéficié du soutien financier
+  fetched: '2026-10-31'
+- type: partners-with
+  to: life-biodiv-france
+  url: https://reserves-naturelles.org/projet-life-biodivfrance/
+  fetched: '2026-10-31'
+  quote: porté par un consortium de 30 participants, dont RNF fait partie.
+found_by:
+- checklist:4
+- rule:ngo-broad
+added_by: agent
+checked: '2026-10-31'

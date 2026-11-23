@@ -1,0 +1,54 @@
+id: ai-hab
+kind: project
+name: 'AI-Hab: Using artificial intelligence for automated habitat assessment'
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- gb
+status: unknown
+summary: NERC award to the University of Lincoln for automated habitat assessment using AI.
+facts:
+- claim: UKCEH describes the method.
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: automating habitat classification using ground-level imagery
+  fetched: '2026-10-30'
+- claim: Delivered by UKCEH and the University of Lincoln to assess and monitor UK habitats.
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: AI-Hab is an innovative project being delivered by UKCEH and the University of Lincoln
+  fetched: &id001 2026-10-30
+- claim: Classifies habitats from ground-level imagery with deep neural networks.
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: AI-HAB habitat classification from ground level imagery using deep neural networks
+  ai_type: deep-learning
+  fetched: *id001
+found_by:
+- checklist:7
+- link-from:uk-research-and-innovation
+links:
+- type: run-by
+  to: uk-centre-for-ecology-and-hydrology
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: AI-Hab is an innovative project being delivered by UKCEH and the University of Lincoln
+  fetched: *id001
+- type: partners-with
+  to: university-of-lincoln
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: AI-Hab is an innovative project being delivered by UKCEH and the University of Lincoln
+  fetched: *id001
+- type: funded-by
+  to: natural-environment-research-council
+  url: https://www.ceh.ac.uk/our-science/projects/ai-hab
+  quote: 'AI-Hab is funded through the NERC funding opportunity: Tools for automating image
+    analysis for biodiversity monitoring'
+  fetched: *id001
+also_known_as:
+- AI-Hab
+- Using artificial intelligence for automated habitat assessment
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+ai_types:
+- deep-learning

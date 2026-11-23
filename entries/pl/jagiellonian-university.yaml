@@ -1,0 +1,86 @@
+id: jagiellonian-university
+kind: organisation
+name: Jagiellonian University
+also_known_as:
+- Uniwersytet Jagielloński
+- UJ
+scope: pl
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: A university that builds an AI lynx identification system from camera-trap images
+  with Gorce and Babia Góra national parks, with analysis of a recording reported to take
+  one to two minutes.
+facts:
+- claim: The university uses AI to study lynx from camera-trap images.
+  url: https://www.radiokrakow.pl/aktualnosci/krakow/sztuczna-inteligencja-pomaga-tropic-rysie-projekt-naukowcow-z-uj/
+  fetched: '2026-11-02'
+  quote: Uniwersytet Jagielloński wykorzystuje sztuczną inteligencję do badania rysi.
+- claim: Nauka w Polsce reports the university's researchers use AI to identify lynx from
+    camera traps with two national parks.
+  url: https://naukawpolsce.pl/aktualnosci/news%2C113477%2Cnaukowcy-z-uj-wykorzystuja-ai-do-identyfikacji-rysi-i-ochrony-ich-populacji
+  fetched: '2026-11-02'
+  quote: Naukowcy Uniwersytetu Jagiellońskiego wspólnie z Babiogórskim i Gorczańskim Parkiem
+    Narodowym wykorzystują sztuczną inteligencję do identyfikacji rysi na podstawie zdjęć
+    z fotopułapek.
+- claim: Research is carried out by its Institute of Environmental Sciences.
+  url: https://naukawpolsce.pl/aktualnosci/news%2C113477%2Cnaukowcy-z-uj-wykorzystuja-ai-do-identyfikacji-rysi-i-ochrony-ich-populacji
+  fetched: '2026-11-02'
+  quote: Badania prowadzone są przez Instytut Nauk o Środowisku Uniwersytetu Jagiellońskiego
+- claim: The system analyses camera trap material and recognises individuals by spot pattern.
+  url: https://naukawpolsce.pl/aktualnosci/news%2C113477%2Cnaukowcy-z-uj-wykorzystuja-ai-do-identyfikacji-rysi-i-ochrony-ich-populacji
+  fetched: '2026-11-02'
+  quote: System opracowywany przez badaczy analizuje materiały z fotopułapek i rozpoznaje
+    konkretne osobniki na podstawie charakterystycznego układu cętek na futrze.
+- claim: The director of the Jagiellonian Centre for AI says analysis of a recording takes
+    one to two minutes.
+  url: https://naukawpolsce.pl/aktualnosci/news%2C113477%2Cnaukowcy-z-uj-wykorzystuja-ai-do-identyfikacji-rysi-i-ochrony-ich-populacji
+  fetched: '2026-11-02'
+  quote: „Analiza takiego nagrania od wrzucenia filmu do aplikacji aż do predykcji osobnika
+    trwa od jednej do dwóch minut”
+- claim: Radio Kraków reports that the university uses AI to study lynx, developing a monitoring
+    programme with Babia Góra and Gorce national parks.
+  url: https://www.radiokrakow.pl/aktualnosci/krakow/sztuczna-inteligencja-pomaga-tropic-rysie-projekt-naukowcow-z-uj/
+  quote: Uniwersytet Jagielloński wykorzystuje sztuczną inteligencję do badania rysi. Naukowcy,
+    wspólnie z Babiogórskim i Gorczańskim Parkiem Narodowym, rozwijają program monitorujący
+    drapieżniki
+  fetched: '2026-11-02'
+- claim: A 2020 paper with a first author at the university evaluates machine learning for
+    mapping forest stand species in the Polish Carpathians.
+  url: https://api.openalex.org/works/W3088522164?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Evaluation of machine learning algorithms for forest stand species mapping using
+    Sentinel-2 imagery and environmental data in the Polish Carpathians
+  fetched: '2026-11-02'
+links:
+- type: builds
+  to: jagiellonian-lynx-identification
+  url: https://www.radiokrakow.pl/aktualnosci/krakow/sztuczna-inteligencja-pomaga-tropic-rysie-projekt-naukowcow-z-uj/
+  fetched: '2026-11-02'
+  quote: rozwijany przez Uniwersytet Jagielloński system
+- type: partners-with
+  to: gorce-national-park
+  url: https://naukawpolsce.pl/aktualnosci/news%2C113477%2Cnaukowcy-z-uj-wykorzystuja-ai-do-identyfikacji-rysi-i-ochrony-ich-populacji
+  fetched: '2026-11-02'
+  quote: we współpracy z Gorczańskim Parkiem Narodowym od 2000 roku
+- type: partners-with
+  to: babia-gora-national-park
+  url: https://naukawpolsce.pl/aktualnosci/news%2C113477%2Cnaukowcy-z-uj-wykorzystuja-ai-do-identyfikacji-rysi-i-ochrony-ich-populacji
+  fetched: '2026-11-02'
+  quote: od siedmiu lat również z Babiogórskim Parkiem Narodowym
+found_by:
+- checklist:3
+- checklist:7
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+countries:
+- pl

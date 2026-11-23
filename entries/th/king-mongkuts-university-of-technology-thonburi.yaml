@@ -1,0 +1,37 @@
+id: king-mongkuts-university-of-technology-thonburi
+kind: organisation
+name: King Mongkut's University of Technology Thonburi
+scope: th
+sector: academic
+roles:
+- unknown
+ai_label: ai
+hq: unknown
+countries:
+- th
+scale: national
+status: unknown
+website: https://www.kmutt.ac.th
+summary: University given as the affiliation of first authors of papers listed in OpenAlex
+  from 2014 and 2026, the later one on mapping deciduous dipterocarp forests at 10 m resolution
+  in the Indo-Burma region.
+facts:
+- claim: OpenAlex lists a 2014 paper whose first author, Naruemon Tantipisanuh, gives an affiliation
+    at King Mongkut's University of Technology Thonburi.
+  url: https://api.openalex.org/works?filter=institutions.ror:0057ax056,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=200&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Bayesian networks for habitat suitability modeling: a potential tool for conservation
+    planning with scarce resources'
+- claim: OpenAlex lists a 2026 paper on mapping and classifying deciduous dipterocarp forests
+    at 10 m resolution in the Indo-Burma region, whose first author, Maliwan Namkhan, gives
+    an affiliation at King Mongkut's University of Technology Thonburi.
+  url: https://api.openalex.org/works?filter=institutions.ror:0057ax056,concepts.id:C18903297,concepts.id:C119857082|C62649853|C154945302|C108583219&per_page=200&sort=cited_by_count:desc&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: High-resolution (10 m) spatial distribution and structural classification of Deciduous
+    Dipterocarp Forests (DDFs) in the Indo-Burma Region
+links: []
+found_by:
+- register:th
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,43 @@
+id: edito-ai-chatbot
+kind: project
+name: EDITO AI chatbot
+scope: global
+ai_label: ai
+realms:
+- ocean
+status: active
+website: https://edito.eu/
+summary: AI chatbot on EDITO, the European Digital Twin Ocean led by Mercator Ocean International,
+  for users with questions about the ocean. Shown to the public in June 2026; no page read
+  says which model it uses or how many people use it.
+facts:
+- claim: EDITO offers an AI chatbot for users with questions about the ocean.
+  url: https://www.euronews.com/2026/06/10/how-ai-and-satellites-can-help-protect-our-oceans-euronews-tech-talks
+  fetched: &id001 2026-10-30
+  quote: EDITO also proposes an AI chatbot for its users who have questions about the ocean.
+- claim: Presented to the public at Digital Ocean Week in Brussels in June 2026.
+  url: https://www.euronews.com/2026/06/10/how-ai-and-satellites-can-help-protect-our-oceans-euronews-tech-talks
+  fetched: *id001
+  quote: EDITO’s AI chatbot was presented to the public during the Digital Ocean Week held
+    in Brussels this week.
+- claim: Available only on EDITO for now, according to Alain Arnaud of Mercator Ocean International.
+  url: https://www.euronews.com/2026/06/10/how-ai-and-satellites-can-help-protect-our-oceans-euronews-tech-talks
+  fetched: *id001
+  quote: for now, the AI chatbot is only available on EDITO
+- claim: Mercator Ocean International tendered for an agentic, marine-specialised assistant
+    for EDITO. No page read says whether this is the chatbot shown in June 2026.
+  url: https://www.mercator-ocean.eu/?p=23466
+  fetched: *id001
+  quote: develop an agentic, marine-domain-specialized Artificial Intelligence (AI) assistant
+    and orchestration layer
+links:
+- type: run-by
+  to: mercator-ocean-international
+  url: https://www.euronews.com/2026/06/10/how-ai-and-satellites-can-help-protect-our-oceans-euronews-tech-talks
+  fetched: *id001
+  quote: EDITO is a European Union (EU) initiative led by Mercator and the Flanders Marine
+    Institute.
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

@@ -1,0 +1,47 @@
+id: sber-biodiversity-model
+kind: model
+name: Sber Biodiversity model
+also_known_as:
+- Модель Biodiversity
+scope: ru
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Model that Ecotech-Pro says sorts camera-trap images by species, including
+  an other animals category; built by Sberbank, with the Severtsov Institute and Sailyugemsky
+  National Park as partners.
+facts:
+- claim: Ecotech-Pro says the Biodiversity model sorts animals in camera-trap images
+    by species, including an other animals category.
+  url: https://ecotech-pro.ru/projects/sokhranenie-bioraznoobraziya/sistema-identifikatsii-i-klassifikatsii-dikikh-zhivotnykh-po-fotolovushkam/
+  fetched: 2026-10-31
+  quote: Модель Biodiversity автоматически распределяет животных, попавших в объектив
+    фотоловушки, по видам
+links:
+- type: built-by
+  to: sber
+  url: https://ecotech-pro.ru/projects/sokhranenie-bioraznoobraziya/sistema-identifikatsii-i-klassifikatsii-dikikh-zhivotnykh-po-fotolovushkam/
+  fetched: 2026-10-31
+  quote: Специалисты Сбера в сотрудничестве с учёными из Института проблем экологии
+    и эволюции им. А.Н. Северцова РАН и Салюгемским национальным парком разработали
+    классификатор видов животных
+- type: partners-with
+  to: severtsov-institute-of-ecology-and-evolution
+  url: https://ecotech-pro.ru/projects/sokhranenie-bioraznoobraziya/sistema-identifikatsii-i-klassifikatsii-dikikh-zhivotnykh-po-fotolovushkam/
+  fetched: 2026-10-31
+  quote: Специалисты Сбера в сотрудничестве с учёными из Института проблем экологии
+    и эволюции им. А.Н. Северцова РАН
+- type: partners-with
+  to: sailyugemsky-national-park
+  url: https://ecotech-pro.ru/projects/sokhranenie-bioraznoobraziya/sistema-identifikatsii-i-klassifikatsii-dikikh-zhivotnykh-po-fotolovushkam/
+  fetched: 2026-10-31
+  quote: Специалисты Сбера в сотрудничестве с учёными из Института проблем экологии
+    и эволюции им. А.Н. Северцова РАН и Салюгемским национальным парком разработали
+    классификатор видов животных дальнего Востока России и Алтая.
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-10-31

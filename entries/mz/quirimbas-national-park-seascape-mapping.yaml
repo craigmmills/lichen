@@ -1,0 +1,67 @@
+id: quirimbas-national-park-seascape-mapping
+kind: project
+name: Mapping and Monitoring the Quirimbas National Park Seascape
+scope: mz
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- mz
+status: unknown
+summary: November 2020 report describing WWF Germany’s Sentinel-2 and Google Earth Engine workflow for
+  mapping Quirimbas coral reef habitats using Random Forests and WWF-Mozambique field surveys from 2018
+  and 2019.
+facts:
+- claim: The report is dated November 2020.
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: Date  November 2020
+- claim: The November 2020 report describes a workflow using Sentinel-2 data in Google Earth Engine to
+    map near-shore coral reef habitats in Quirimbas National Park.
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: developed a semi-automated workflow that uses freely available Sentinel-2 data
+- claim: Benthic habitat maps were made with a Random Forests machine learning classification.
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: To create the map of benthic habitat types, we applied a Random Forests (RF) machine learning
+    classification method
+- claim: The report names the random forest supervised method for assessing changes in benthic habitats.
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: either via the random forest supervised
+  ai_type: ml-supervised
+- claim: Field data came from snorkel, boat and drone surveys in expeditions led by WWF-Mozambique in
+    2018 and 2019.
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: we collected data from snorkel swims, boat, and drone surveys in expeditions led by WWF-Mozambique
+links:
+- type: built-by
+  to: wwf-germany
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: WWF-Germany, with support from partners from FORTH and DLR, have developed a semi-automated workflow
+- type: partners-with
+  to: wwf-mozambique
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: Partners  WWF-Mozambique, WWF-Germany, WWF Oceans Practice,
+- type: uses
+  to: google-earth-engine
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: work within the Google Earth Engine cloud-based geospatial platform
+- type: uses
+  to: sentinel-2
+  url: https://space-science.wwf.de/quirimbas/WWF_Quirimbas_Report_web.pdf
+  fetched: 2026-11-08
+  quote: developed a semi-automated workflow that uses freely available Sentinel-2 data
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

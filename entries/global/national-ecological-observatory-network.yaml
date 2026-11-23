@@ -1,0 +1,72 @@
+id: national-ecological-observatory-network
+kind: programme
+name: National Ecological Observatory Network
+also_known_as:
+- NEON
+scope: global
+roles: [supplies-data]
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://www.neonscience.org/
+summary: Continental-scale ecological observation facility in the United States, funded by the National Science Foundation and operated by Battelle. A deep learning tree crown dataset was built from its airborne data.
+countries:
+- us
+facts:
+- claim: Continental-scale observation facility operated by Battelle.
+  url: https://www.neonscience.org/about/about
+  fetched: '2026-10-30'
+  quote: The U.S. National Science Foundation's National Ecological Observatory Network is a continental-scale observation facility operated by Battelle
+- claim: A Zenodo record publishes a NEON tree crowns dataset.
+  url: https://zenodo.org/record/3765872
+  fetched: '2026-10-30'
+  quote: NEON Tree Crowns Dataset
+links:
+- type: run-by
+  to: battelle
+  url: https://www.neonscience.org/about/about
+  fetched: '2026-10-30'
+  quote: NEON is operated by Battelle
+- type: funded-by
+  to: national-science-foundation
+  url: https://www.neonscience.org/about/overview
+  fetched: '2026-10-30'
+  quote: Funded by the U.S. National Science Foundation (NSF) and proudly operated by Battelle
+- type: partners-with
+  to: center-for-global-discovery-and-conservation-science
+  url: https://www.neonscience.org/get-involved/partners
+  fetched: 2026-10-30
+  quote: 'Arizona State University Center for Global Discovery and Conservation Science Global Airborne Observatory'
+- type: partners-with
+  to: barcode-of-life-data-systems
+  url: https://www.neonscience.org/get-involved/partners
+  fetched: 2026-10-30
+  quote: 'Barcode of Life Data System (BOLD)'
+- type: partners-with
+  to: dataone
+  url: https://www.neonscience.org/get-involved/partners
+  fetched: 2026-10-30
+  quote: 'Data Observation Network for Earth (DataONE)'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://www.neonscience.org/get-involved/partners
+  fetched: 2026-10-30
+  quote: 'Global Biodiversity Information Facility'
+- type: partners-with
+  to: biodiversity-information-standards
+  url: https://www.neonscience.org/get-involved/partners
+  fetched: 2026-10-30
+  quote: 'Biodiversity Information Standards (TDWG)'
+- type: partners-with
+  to: try-plant-trait-database
+  url: https://www.neonscience.org/get-involved/partners
+  fetched: 2026-10-30
+  quote: 'TRY Plant Trait Database'
+found_by:
+- link-from:national-science-foundation
+added_by: agent
+checked: '2026-10-30'

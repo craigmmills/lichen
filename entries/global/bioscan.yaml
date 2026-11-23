@@ -1,0 +1,33 @@
+id: bioscan
+kind: project
+name: BIOSCAN
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+status: active
+website: https://ibol.org/bioscan
+summary: International Barcode of Life project that builds DNA-based systems for species discovery and aims to lay the foundation for a global biodiversity monitoring system.
+facts:
+- claim: Says it is laying the foundation for a global biodiversity monitoring system.
+  url: https://ibol.org/bioscan
+  quote: BIOSCAN is laying the foundation for a global biodiversity monitoring system
+  fetched: '2026-10-30'
+- claim: Says it will analyse more than 10 million specimens from freshwater, marine and terrestrial ecosystems.
+  url: https://ibol.org/bioscan
+  quote: BIOSCAN will analyze more than 10 million specimens gathered from freshwater, marine, and terrestrial ecosystems
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: international-barcode-of-life
+  url: https://ibol.org/bioscan
+  quote: "the International Barcode of Life Consortium activated BIOSCAN in June 2019. Coordinated from the Centre for Biodiversity Genomics"
+  fetched: '2026-10-30'
+found_by:
+- link-from:international-barcode-of-life
+added_by: agent
+checked: '2026-10-30'

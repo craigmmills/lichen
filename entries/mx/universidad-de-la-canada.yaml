@@ -1,0 +1,50 @@
+id: universidad-de-la-canada
+kind: organisation
+name: Universidad de la Cañada
+also_known_as:
+- UNCA
+scope: mx
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- mx
+scale: local
+status: active
+summary: University whose data science laboratory presents a deep learning approach
+  to recognise Neobuxbaumia tetetzo in aerial images of the Tehuacán-Cuicatlán Valley,
+  and lists a 2025 paper on classifying columnar cacti.
+facts:
+- claim: Its data science laboratory presents a deep learning approach to recognise
+    Neobuxbaumia tetetzo in aerial images from the Tehuacán-Cuicatlán Valley, with
+    the aim of later extending it to other species.
+  url: https://labcid.unca.edu.mx/proyectos
+  fetched: '2026-11-09'
+  quote: Debido a la rica diversidad de especies de cactus y la falta de un conjunto
+    de datos específico, se ha seleccionado a Neobuxbaumia tetetzo como el objetivo
+    a reconocer en este primer estudio.
+  ai_type: deep-learning
+- claim: The laboratory lists a 2025 paper on classifying columnar cacti with visual
+    transformers.
+  url: https://labcid.unca.edu.mx/proyectos
+  fetched: '2026-11-09'
+  quote: Classification of columnar cacti using visual transformers.
+links:
+- type: runs
+  to: laboratorio-de-ciencia-de-datos-unca
+  url: https://labcid.unca.edu.mx/proyectos
+  fetched: '2026-11-09'
+  quote: Laboratorio de Ciencia de Datos. Universidad de la Cañada
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-09'

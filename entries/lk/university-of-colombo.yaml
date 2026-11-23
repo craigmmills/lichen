@@ -1,0 +1,49 @@
+id: university-of-colombo
+kind: organisation
+name: University of Colombo
+also_known_as: []
+scope: lk
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: lk
+countries:
+- lk
+scale: national
+status: active
+summary: University whose department is the lead affiliation on an Udawalawe elephant
+  fence-crossing paper and which is the first author’s affiliation on a Mangrove Quality
+  Index paper.
+facts:
+- claim: Its Department of Zoology and Environmental Sciences is the lead affiliation
+    on a paper on elephants crossing the Udawalawe National Park fence.
+  url: https://api.openalex.org/works/W4402340536?select=title,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"A. D. G. Ranjeewa","raw_affiliation_strings":["Department
+    of Zoology and Environmental Sciences University of Colombo  Colombo Sri Lanka"]'
+- claim: The paper's abstract says the authors used camera traps on the fence from
+    2016 to 2019.
+  url: https://api.openalex.org/works/W4402340536?select=title,authorships,abstract_inverted_index
+  fetched: 2026-11-12
+  quote: '"Using":[39],"camera":[40],"traps,":[41],"we":[42],"monitored":[43],"18":[44]'
+- claim: Lead affiliation on a paper on a Mangrove Quality Index for detecting mangrove
+    forest cover.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4376649831|W4301595395&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: 'The Implementation of the Mangrove Quality Index: A Way to Overcome Overestimation
+    and Classification Concerns in Detecting Mangrove Forest Cover'
+- claim: The first author of the Mangrove Quality Index paper gives the University
+    of Colombo as affiliation.
+  url: https://api.openalex.org/works?filter=ids.openalex:W4376649831|W4301595395&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "M. D. K. L. Gunathilaka", "raw_affiliation_strings":
+    ["University of Colombo"]'
+links: []
+found_by:
+- rule:checklist-misses
+- link-from:department-of-zoology-and-environmental-sciences-university-of-colombo
+added_by: agent
+checked: 2026-11-12

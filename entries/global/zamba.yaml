@@ -1,0 +1,45 @@
+id: zamba
+kind: model
+name: Zamba
+scope: global
+ai_label: ai
+ai_types:
+- ml-supervised
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://zamba.drivendata.org
+summary: Python package and cloud service from DrivenData that identifies animals,
+  trains custom models and estimates distance from camera trap videos and images.
+facts:
+- claim: Package for identifying animals and estimating distance from camera trap
+    footage.
+  url: https://github.com/drivendataorg/zamba
+  fetched: '2026-10-30'
+  quote: A Python package for identifying hundreds of kinds of animals, training custom
+    models, and estimating distance from camera trap videos and images
+- claim: Zamba Cloud trains custom models on the user's labelled data.
+  url: https://zamba.drivendata.org
+  fetched: '2026-10-30'
+  quote: Train a custom model with your own labeled data
+  ai_type: ml-supervised
+- claim: The Zamba repository is tagged deep-learning.
+  url: https://github.com/drivendataorg/zamba
+  fetched: '2026-10-30'
+  quote: conservation deep-learning ecology
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: drivendata
+  url: https://github.com/drivendataorg/zamba
+  fetched: '2026-10-30'
+  quote: GitHub - drivendataorg/zamba
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'
+also_known_as:
+- Zamba Cloud

@@ -1,0 +1,65 @@
+id: agricultural-university-of-athens
+kind: organisation
+name: Agricultural University of Athens
+also_known_as:
+- AUA
+scope: gr
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: gr
+countries:
+- gr
+scale: national
+status: active
+website: https://www2.aua.gr/en
+summary: A Greek university established in 1920 as the Highest Agricultural School of Athens,
+  with laboratories working on microbiology, environmental biotechnology and biodiversity
+  data, and a partner in FunDive.
+facts:
+- claim: Established by law in 1920 as the Highest Agricultural School of Athens and renamed
+    the Agricultural University of Athens in 1989.
+  url: https://www2.aua.gr/en/info/history-aua
+  fetched: '2026-11-03'
+  quote: In 1989, the H.A.S.A. was renamed the Agricultural University of Athens
+- claim: Its Laboratory of General and Agricultural Microbiology is a partner in FunDive.
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-03'
+  quote: Laboratory of General and Agricultural Microbiology, Agricultural University of Athens,
+    Athens, Greece
+- claim: Its Laboratory of Environmental Biotechnology, set up in March 2025, lists ecosystem
+    biodiversity among its research subjects.
+  url: https://envbiotechlab.aua.gr/
+  fetched: 2026-11-03
+  quote: This research focuses on cognitive subjects encompassing Ecosystem Biodiversity ,
+    Environmental Biotechnology , and Environmental Biochemistry .
+- claim: The lab says it analyses environmental big data from genomics, transcriptomics and
+    metabolomics, including for ecosystem biodiversity in terrestrial and aquatic environments.
+  url: https://envbiotechlab.aua.gr/
+  fetched: 2026-11-03
+  quote: 'Utilization of Omics technologies : This involves the analysis of Environmental
+    Big Data derived from methodologies such as Genomics, Transcriptomics and Metabolomics'
+- claim: Its GBIF publisher record describes its Mycological Herbarium of fungi from Greece
+    and gives an address on Iera Odos, Athens.
+  url: https://api.gbif.org/v1/organization/44573c2e-7a52-46c5-9fb0-9e2b8ce9e90d
+  fetched: 2026-11-03
+  quote: ACAM specializes in collections of fungi belonging to Basidiomycota and larger Ascomycota
+    from Greece.
+links:
+- type: partners-with
+  to: fundive
+  url: https://www.biodiversa.eu/2024/04/15/fundive/
+  fetched: '2026-11-03'
+  quote: Laboratory of General and Agricultural Microbiology, Agricultural University of Athens,
+    Athens, Greece
+found_by:
+- link-from:fundive
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-03'
+techniques:
+- edna-genomics

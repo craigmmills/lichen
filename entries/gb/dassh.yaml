@@ -1,0 +1,37 @@
+id: dassh
+kind: dataset
+name: DASSH
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- gb
+status: active
+website: https://www.dassh.ac.uk
+summary: Marine data service with a data mapper, an image submission tool and a data
+  publishing tool. Its site also hosts MEDIN metadata tools.
+facts:
+- claim: Accepts data submissions and runs a mapper.
+  url: https://www.dassh.ac.uk/
+  quote: Submitting data to DASSH
+  fetched: '2026-10-30'
+- claim: Hosts the DASSH Mapper.
+  url: https://www.dassh.ac.uk/
+  quote: DASSH Mapper
+  fetched: '2026-10-30'
+- claim: The MEDIN Data Archive Centre for marine fauna and habitats, and the UK node for the Ocean Biodiversity Information System.
+  url: https://www.mba.ac.uk/dassh/
+  quote: the MEDIN Data Archive Centre (DAC) for marine fauna and habitats
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: marine-biological-association
+  url: https://www.mba.ac.uk/dassh/
+  quote: The Archive for Marine Species and Habitats Data (DASSH) hosted by the Marine Biological Association (MBA)
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- rule:checklist-misses
+scope: gb
+added_by: agent
+checked: '2026-10-30'

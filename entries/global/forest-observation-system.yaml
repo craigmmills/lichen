@@ -1,0 +1,29 @@
+id: forest-observation-system
+kind: dataset
+name: Forest Observation System
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+website: https://forest-observation-system.net
+summary: Global reference dataset for remote sensing of forest biomass, from a team led at the International Institute for
+  Applied Systems Analysis. Its site now redirects to data.geo-trees.org.
+facts:
+- claim: OpenAlex lists the 2019 paper.
+  url: https://api.openalex.org/works?search=Forest%20Observation%20System%20building%20a%20global%20reference%20dataset%20for%20remote%20sensing%20of%20forest%20biomass&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: The Forest Observation System, building a global reference dataset for remote sensing of forest biomass
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: international-institute-for-applied-systems-analysis
+  url: https://api.openalex.org/works?search=Forest%20Observation%20System%20building%20a%20global%20reference%20dataset%20for%20remote%20sensing%20of%20forest%20biomass&per-page=1&select=display_name,publication_year,doi,authorships
+  quote: "Ecosystems Services and Management Program, International Institute for Applied Systems Analysis, Laxenburg, A-2361, Austria"
+  fetched: '2026-10-30'
+found_by:
+- link-from:esa-cci-biomass
+added_by: agent
+checked: '2026-10-30'

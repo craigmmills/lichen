@@ -1,0 +1,32 @@
+id: programa-nacional-de-deteccion-de-incendios-colombia
+kind: project
+name: National wildfire detection pilot, Colombia
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- co
+runner: unknown
+summary: National pilot using OroraTech's Wildfire Solution platform, which combines
+  thermal satellite imagery and AI-driven analytics to detect wildfires, with the
+  stated aim of protecting critical ecosystems.
+facts:
+- claim: Combines thermal satellite imagery and AI-driven analytics.
+  url: https://www.firehouse.com/operations-training/wildland/press-release/55327216/colombia-launches-national-wildfire-monitoring-program
+  quote: combines thermal satellite imagery and AI-driven analytics to detect and
+    monitor wildfires nearly in real time
+  fetched: '2026-10-31'
+links:
+- type: uses
+  to: ororatech
+  url: https://www.firehouse.com/operations-training/wildland/press-release/55327216/colombia-launches-national-wildfire-monitoring-program
+  quote: a national pilot program that uses OroraTech’s Wildfire Solution (WFS) platform
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active

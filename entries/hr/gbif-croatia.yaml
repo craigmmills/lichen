@@ -1,0 +1,35 @@
+id: gbif-croatia
+kind: programme
+name: GBIF Croatia
+scope: hr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- hr
+status: active
+summary: Croatia's country node in GBIF's register, with voting participation status and a node manager
+  based in Zagreb.
+facts:
+- claim: Listed in GBIF's node register as Croatia's country node, with voting participation status.
+  url: https://api.gbif.org/v1/node/4bae30c8-ee96-44ca-9bbe-b5b4e28d188c
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Croatia","participantTitle":"Croatia, Republic of"'
+- claim: The node register names Luka Katušić as node manager, at an address in Zagreb.
+  url: https://api.gbif.org/v1/node/4bae30c8-ee96-44ca-9bbe-b5b4e28d188c
+  fetched: 2026-11-08
+  quote: '"type":"NODE_MANAGER","primary":false,"userId":[],"firstName":"Luka","lastName":"Katušić"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/4bae30c8-ee96-44ca-9bbe-b5b4e28d188c
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Croatia","participantTitle":"Croatia, Republic of"'
+runner: unknown
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

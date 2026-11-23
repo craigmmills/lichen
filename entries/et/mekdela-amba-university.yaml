@@ -1,0 +1,38 @@
+id: mekdela-amba-university
+kind: organisation
+name: Mekdela Amba University
+scope: et
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+hq: unknown
+scale: national
+status: active
+summary: University that OpenAlex lists as the affiliation of the first author of a 2026 systematic
+  review and meta-analysis on AI-based prediction of mycorrhizal colonisation in seedlings
+  and afforestation systems.
+facts:
+- claim: OpenAlex lists a 2026 paper on AI-based prediction of mycorrhizal colonisation in
+    seedlings and afforestation systems (a systematic review and meta-analysis).
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: 'Artificial intelligence-based prediction for mycorrhizal colonization efficiency
+    in seedlings and afforestation systems: a systematic review and meta-analysis'
+- claim: OpenAlex lists Akale Assamere Habtemariam, first author of that paper, at Mekdela
+    Amba University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=11
+  fetched: '2026-11-08'
+  quote: '"display_name": "Akale Assamere Habtemariam", "orcid": "https://orcid.org/0000-0003-3435-6067",
+    "observed_orcids": ["https://orcid.org/0000-0003-3435-6067"]}, "institutions": [{"id":
+    "https://openalex.org/I4405255390", "display_name": "Mekdela Amba University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

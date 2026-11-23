@@ -1,0 +1,36 @@
+id: terra-i
+kind: programme
+name: Terra-i
+scope: global
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: Satellite forest loss monitor that trains a neural network on normal vegetation greenness patterns, described by CGIAR as open data used by scientists and governments in the tropics.
+facts:
+- claim: CGIAR says a neural network is trained on normal changes in vegetation greenness.
+  url: https://www.cgiar.org/innovations/real-time-mapping-of-deforestation/
+  fetched: '2026-10-30'
+  quote: A so-called computational neural network is “ trained ” to understand the normal pattern of changes in vegetation greenness
+- claim: Created an open-data user manual in 2019.
+  url: https://www.cgiar.org/innovations/real-time-mapping-of-deforestation/
+  fetched: '2026-10-30'
+  quote: Terra-i’s developers in 2019 created an open-data user manual
+- claim: "Terra-i trains a neural network on normal vegetation greenness."
+  url: https://www.cgiar.org/innovations/real-time-mapping-of-deforestation/
+  fetched: '2026-10-30'
+  quote: "A so-called computational neural network is"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: alliance-of-bioversity-international-and-ciat
+  url: https://www.cgiar.org/innovations/real-time-mapping-of-deforestation/
+  fetched: '2026-10-30'
+  quote: "CGIAR researchers at the International Center for Tropical Agriculture (CIAT , now part of the Alliance of Bioversity International and CIAT ) developed Terra- i"
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

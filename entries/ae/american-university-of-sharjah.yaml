@@ -1,0 +1,49 @@
+id: american-university-of-sharjah
+kind: organisation
+name: American University of Sharjah
+scope: ae
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- bioacoustics
+hq: ae
+scale: national
+status: active
+ai_types:
+- ml-supervised
+summary: University listed as affiliation on a 2020 paper mapping Northern Emirates mangrove change, 1990
+  to 2019, with random forest and other models, and a 2024 Bat2Web paper.
+facts:
+- claim: A 2020 Frontiers in Environmental Science paper from its GIS and Mapping Lab mapped mangrove
+    change in the Northern Emirates from 1990 to 2019 with random forest and other models.
+  url: https://api.openalex.org/works/W3043805921
+  fetched: '2026-11-08'
+  quote: Spatiotemporal Mapping and Monitoring of Mangrove Forests Changes From 1990 to 2019 in the Northern
+    Emirates, UAE Using Random Forest, Kernel Logistic Regression and Naive Bayes Tree Models
+- claim: The mangrove paper's first author gives the GIS and Mapping Lab in the College of Engineering
+    as affiliation.
+  url: https://api.openalex.org/works/W3043805921
+  fetched: '2026-11-08'
+  quote: GIS and Mapping Lab, College of Engineering, American University of Sharjah, Sharjah, United
+    Arab Emirates
+- claim: A 2024 Sensors paper presents Bat2Web, a framework for real-time classification of bat species
+    echolocation signals; its first author lists the university’s Department of Computer Science and Engineering.
+  url: https://api.openalex.org/works/W4396552538
+  fetched: '2026-11-08'
+  quote: 'Bat2Web: A Framework for Real-Time Classification of Bat Species Echolocation Signals Using
+    Audio Sensor Data'
+- claim: The mangrove paper names random forest, kernel logistic regression and naive Bayes tree models,
+    which are supervised learning methods.
+  url: https://api.openalex.org/works/W3043805921
+  fetched: '2026-11-08'
+  quote: Using Random Forest, Kernel Logistic Regression and Naive Bayes Tree Models
+  ai_type: ml-supervised
+found_by:
+- register:ae
+added_by: agent
+checked: '2026-11-08'

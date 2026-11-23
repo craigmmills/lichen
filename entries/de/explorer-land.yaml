@@ -1,0 +1,48 @@
+id: explorer-land
+kind: project
+name: explorer.land
+scope: de
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://openforests.com
+summary: Geospatial platform built and run by openforests for mapping, monitoring
+  and sharing restoration and conservation work, which says more than 2,000 projects
+  worldwide use it.
+facts:
+- claim: A geospatial platform for mapping, monitoring and sharing restoration and
+    conservation work.
+  url: https://openforests.com
+  fetched: 2026-11-22
+  quote: explorer.land is a geospatial platform developed by OpenForests to help organisations
+    map, monitor and share their restoration and conservation work.
+- claim: Says more than 2,000 projects worldwide use it.
+  url: https://openforests.com
+  fetched: 2026-11-22
+  quote: More than 2,000 projects worldwide use explorer.land, and you can get started
+    for free.
+- claim: Brings project information, satellite imagery, monitoring data and field
+    updates together.
+  url: https://openforests.com
+  fetched: 2026-11-22
+  quote: It brings project information, satellite imagery, monitoring data and field
+    updates together in one place.
+links:
+- type: built-by
+  to: openforests
+  url: https://openforests.com
+  fetched: &id001 2026-11-22
+  quote: explorer.land is a geospatial platform developed by OpenForests
+- type: run-by
+  to: openforests
+  url: https://openforests.com
+  fetched: *id001
+  quote: We combine expertise in ecology, environmental data and technology to provide
+    consultancy, custom software and our geospatial platform, explorer.land.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-22

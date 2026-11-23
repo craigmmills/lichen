@@ -1,0 +1,74 @@
+id: gbif-italy-node
+kind: programme
+name: Italian GBIF node
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: Italy's national node of the Global Biodiversity Information Facility, set up after
+  Italy joined in October 2025 and coordinated by the CNR department DSSTTA.
+facts:
+- claim: Italian national node of GBIF; Italy joined as a voting member in October 2025.
+  url: https://www.gbif.it/en/what
+  fetched: '2026-10-31'
+  quote: GBIF Italia is the Italian National Node of GBIF. Italy joined GBIF as a voting member
+    in October 2025.
+- claim: Began publishing datasets in December 2025.
+  url: https://www.gbif.it/en/what
+  fetched: '2026-10-31'
+  quote: The Italian Node began publishing datasets in December 2025
+- claim: The GBIF node record lists Italy as a voting participant.
+  url: https://api.gbif.org/v1/node/7d5ac566-d4e2-4edd-982f-d6823f7eb30b
+  fetched: '2026-10-31'
+  quote: '"participationStatus":"VOTING"'
+- claim: Established by CNR, mandated by the Ministry of University and Research.
+  url: https://www.gbif.it/
+  fetched: '2026-10-31'
+  quote: GBIF Italia was established by the National Research Council (CNR), mandated by the
+    Ministry of University and Research (MUR).
+- claim: Its task is to make primary data on biological diversity from Italian collections
+    and observation databases freely available.
+  url: https://api.gbif.org/v1/organization/bb305fb5-d6f3-4631-98b7-112158e7a4a0
+  fetched: '2026-10-31'
+  quote: Our main task is to make primary data on biological diversity from the Italian collections
+    and observation databases freely available
+links:
+- type: run-by
+  to: consiglio-nazionale-delle-ricerche
+  url: https://www.gbif.it/en/governance
+  fetched: '2026-10-31'
+  quote: It is managed by the National Research Council (CNR) on behalf of the Ministry of
+    University and Research (MUR).
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://www.gbif.it/en/what
+  fetched: '2026-10-31'
+  quote: GBIF Italia is the Italian National Node of GBIF.
+- type: run-by
+  to: consiglio-nazionale-delle-ricerche
+  url: https://www.gbif.it/
+  fetched: '2026-10-31'
+  quote: GBIF Italia was established by the National Research Council (CNR), mandated by the
+    Ministry of University and Research (MUR).
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/organization/bb305fb5-d6f3-4631-98b7-112158e7a4a0
+  fetched: '2026-10-31'
+  quote: The Italian participant node in the Global Biodiversity Information Facility, GBIF.
+found_by:
+- checklist:2
+- queue:it
+- link-from:global-biodiversity-information-facility
+- checklist:register
+added_by: agent
+checked: 2026-10-31
+countries:
+- it
+roles:
+- supplies-data
+also_known_as:
+- GBIF Italy
+- Italian GBIF node

@@ -1,0 +1,44 @@
+id: georgian-biodiversity-database
+kind: dataset
+name: Georgian Biodiversity Database
+also_known_as: []
+scope: ge
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- ge
+status: unknown
+summary: Database of species from different taxonomic groups ever recorded in Georgia's terrestrial and
+  freshwater ecosystems, arranged by taxonomy and run by Ilia State University's Institute of Ecology.
+facts:
+- claim: GBIF's record for the Institute of Ecology says the database lists species from different taxonomic
+    groups ever recorded in Georgia's terrestrial and freshwater ecosystems.
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: The resource includes the lists of the species from different taxonomic groups ever recorded
+    in terrestrial and freshwater ecosystems of Georgia, arranged in the taxonomic hierarchical system.
+- claim: Lists the species from different taxonomic groups ever recorded in the terrestrial and freshwater
+    ecosystems of Georgia, arranged by taxonomy.
+  url: https://api.gbif.org/v1/organization/f676f380-af3e-4643-a263-9a9441b53995
+  fetched: 2026-11-09
+  quote: The resource includes the lists of the species from different taxonomic groups ever recorded
+    in terrestrial and freshwater ecosystems of Georgia, arranged in the taxonomic hierarchical system.
+links:
+- type: run-by
+  to: institute-of-ecology-ilia-state-university
+  url: https://api.gbif.org/v1/organization?country=GE&limit=50
+  fetched: 2026-11-09
+  quote: Institute of ecology administers Georgian Biodiversity Database
+- type: run-by
+  to: institute-of-ecology-ilia-state-university
+  url: https://api.gbif.org/v1/organization/f676f380-af3e-4643-a263-9a9441b53995
+  fetched: 2026-11-09
+  quote: Institute of ecology administers Georgian Biodiversity Database
+found_by:
+- link-from:institute-of-ecology-ilia-state-university
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,53 @@
+id: university-of-burundi
+kind: organisation
+name: Université du Burundi
+also_known_as:
+- University of Burundi
+scope: bi
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+hq: bi
+countries:
+- bi
+scale: national
+status: active
+website: http://www.ub.edu.bi
+summary: Public higher education and research institute in Bujumbura, whose six authors of a paper on
+  plant species reported as anti-malaria and mosquito repellents give it as their affiliation, with no
+  GBIF datasets published when read.
+facts:
+- claim: GBIF's publisher record describes it as a public institute for higher education and research.
+  url: https://api.gbif.org/v1/organization/c8ccae23-0a83-4b19-9a5b-739382d353ac
+  fetched: 2026-11-09
+  quote: The University of Burundi is a public higher institute for Education and research
+- claim: GBIF's publisher record gives its address as Avenue de l'UNESCO no 2, Bujumbura.
+  url: https://api.gbif.org/v1/organization/c8ccae23-0a83-4b19-9a5b-739382d353ac
+  fetched: 2026-11-09
+  quote: '"address":["Avenue de l''UNESCO no 2"],"city":"Bujumbura"'
+- claim: GBIF's publisher record gives its website.
+  url: https://api.gbif.org/v1/organization/c8ccae23-0a83-4b19-9a5b-739382d353ac
+  fetched: 2026-11-09
+  quote: '"title":"University of Burundi","description":"http://www.ub.edu.bi'
+- claim: GBIF's publisher record showed no published datasets when read.
+  url: https://api.gbif.org/v1/organization/c8ccae23-0a83-4b19-9a5b-739382d353ac
+  fetched: 2026-11-09
+  quote: '"numPublishedDatasets":0'
+- claim: All six authors of the paper Modelling the geographical distribution of plant species reported
+    as anti-malaria and mosquito repellents in Burundi give the University of Burundi as their affiliation.
+  url: https://api.openalex.org/works/W4386706330?select=id,title,doi,authorships
+  fetched: 2026-11-09
+  quote: Modelling the geographical distribution of plant species reported as anti-malaria and mosquito
+    repellents in Burundi
+links: []
+found_by:
+- register:gbif-publisher
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-09

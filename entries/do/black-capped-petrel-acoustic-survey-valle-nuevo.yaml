@@ -1,0 +1,47 @@
+id: black-capped-petrel-acoustic-survey-valle-nuevo
+kind: project
+name: Black-capped Petrel acoustic survey, Valle Nuevo
+also_known_as: []
+scope: do
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- do
+status: closed
+summary: A closed 2015–2016 acoustic survey run by Grupo Jaragua, in which seven sensors
+  were deployed and petrel calls were reported detected at four of 14 exploratory
+  Valle Nuevo sites.
+facts:
+- claim: The 2016 Conservation Metrics report says Grupo Jaragua deployed seven acoustic
+    sensors at exploratory sites in Valle Nuevo during the 2015–2016 survey.
+  url: https://www.birdscaribbean.org/wp-content/uploads/2015/10/ConservationMetricsBCPE_2016_ReportFINAL.pdf
+  fetched: 2026-11-12
+  quote: Grupo Jaragua deployed seven acoustic sensors at exploratory sites in Valle
+    Nuevo in the
+- claim: The 2016 report says Black-capped Petrel calls were detected at four of the
+    14 exploratory sites in Valle Nuevo.
+  url: https://www.birdscaribbean.org/wp-content/uploads/2015/10/ConservationMetricsBCPE_2016_ReportFINAL.pdf
+  fetched: 2026-11-12
+  quote: Black-capped Petrel calls were detected at four of the 14 exploratory survey
+    sites in Valle
+- claim: The report says the call detection method uses deep neural networks.
+  url: https://www.birdscaribbean.org/wp-content/uploads/2015/10/ConservationMetricsBCPE_2016_ReportFINAL.pdf
+  fetched: 2026-11-12
+  quote: interest on field recordings.  The method leverages Deep Neural Network (DNN)
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: grupo-jaragua
+  url: https://www.birdscaribbean.org/wp-content/uploads/2015/10/ConservationMetricsBCPE_2016_ReportFINAL.pdf
+  fetched: 2026-11-12
+  quote: Grupo Jaragua deployed seven acoustic sensors at exploratory sites in Valle
+    Nuevo in the
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

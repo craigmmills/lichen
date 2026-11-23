@@ -1,0 +1,70 @@
+id: anomaloglossus-blanci-bioacoustic-study
+kind: project
+name: Phénologie de l'activité de chant d'Anomaloglossus blanci par l'utilisation
+  de la bioacoustique
+also_known_as: []
+scope: gf
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- gf
+status: closed
+summary: A closed project, run by Association Trésor and funded by DGTM Guyane, that
+  ran from late 2023 to early 2025 and, per its report, built an annotated database
+  to train a neural-network acoustic detector.
+facts:
+- claim: The report says the project, funded from the 2023 green fund, ran from late
+    2023 to early 2025.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: Ce projet, financé sur le fonds vert 2023 qui s’est déroulé de fin 2023 à
+    début 2025
+- claim: The report gives the study's title.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: 'Titre : Phénologie de l’activité de chant d’Anomaloglossus blanci (amphibien)
+    par l’utilisation de la'
+- claim: The report names Association Trésor as maître d'œuvre and ENIA as contractor.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: 'Maître d’œuvre : Association Trésor'
+- claim: The report describes an acoustic detector based on a neural network.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: détecteur acoustique basé sur un réseau de neurones.
+  ai_type: ml-supervised
+- claim: The report says an annotated database was first built, and that it was used
+    for training.
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: été utilisée pour l'entraînement (90% des
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: association-tresor
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: 'Maître d’œuvre : Association Trésor'
+- type: funded-by
+  to: dgtm-guyane
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: 'Cette étude a été financée dans le cadre du fonds vert par la Délégation
+    Générale
+
+    des Territoires et de la Mer de la Guyane (DGTM).'
+- type: partners-with
+  to: office-national-des-forets
+  url: https://www.reserve-tresor.fr/wp-content/uploads/2025/05/20250324_Rapport_etude_Pheno_Blanci.pdf
+  fetched: 2026-11-14
+  quote: 'Structures associées : Réserve naturelle nationale de Kaw-Roura (RNNKR),
+    Office national des forêts'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

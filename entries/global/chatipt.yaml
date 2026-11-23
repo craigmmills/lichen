@@ -1,0 +1,50 @@
+id: chatipt
+kind: programme
+name: ChatIPT
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+- agentic-ai
+status: active
+website: https://chatipt.svc.gbif.no/
+summary: GBIF Norway's chatbot that takes a spreadsheet from a first-time data publisher,
+  cleans it, writes basic metadata and publishes it to GBIF as a Darwin Core Archive. A new
+  version was released for testing in 2025.
+facts:
+- claim: Won first prize in the 2024 Ebbe Nielsen Challenge as a conversational aid for first-time
+    data publishers.
+  url: https://biodiversitydata.se/news/2024/innovative-ai-tools-simplify-biodiversity-data-publishing-and-digitization/
+  fetched: &id001 2026-10-30
+  quote: provides conversation-style support to students and researchers who hold biodiversity
+    data but are first-time or infrequent data publishers.
+- claim: A chatbot from GBIF Norway, with a new version available for testing.
+  url: https://biodiversitydata.se/news/2025/new-version-of-chatipt-facilitates-data-publication-to-gbif/
+  fetched: *id001
+  quote: A new version of ChatIPT, a chatbot developed by GBIF Norway, is now available for
+    testing.
+- claim: The 2025 version added ORCID login, dataset management and editing after publication.
+  url: https://biodiversitydata.se/news/2025/new-version-of-chatipt-facilitates-data-publication-to-gbif/
+  fetched: *id001
+  quote: The latest release introduces several new features, including ORCID login, dataset
+    management, post-publication editing, and improved overall functionality.
+- claim: The code routes work to OpenAI models, including a model for general agentic work.
+  url: https://github.com/gbif-norway/publishgpt
+  fetched: *id001
+  quote: general agentic work to
+  ai_type: agentic-ai
+- claim: The code names OpenAI GPT models for its tiers of work.
+  url: https://github.com/gbif-norway/publishgpt
+  fetched: *id001
+  quote: general agentic work to gpt-6.1-sol
+  ai_type: large-language-models
+links:
+- type: run-by
+  to: gbif-norway
+  url: https://biodiversitydata.se/news/2025/new-version-of-chatipt-facilitates-data-publication-to-gbif/
+  fetched: *id001
+  quote: a chatbot developed by GBIF Norway
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: *id001

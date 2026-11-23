@@ -1,0 +1,27 @@
+id: baikal-plankton-image-dataset
+kind: dataset
+name: Baikal plankton image dataset
+scope: ru
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- computer-vision
+status: unknown
+runner: unknown
+summary: Labelled image dataset that Yandex Cloud says is freely available; it says biologists provided
+  almost 50,000 images, of which 20,000 were used for training.
+facts:
+- claim: Yandex Cloud says the labelled image dataset is freely available.
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: в свободном доступе уже есть датасет изображений проб с разметкой
+- claim: Yandex Cloud says biologists provided almost 50,000 images, of which 20,000 were used for training.
+  url: https://yandex.cloud/ru/blog/posts/2022/09/neural-network-baikal-monitoring
+  fetched: '2026-10-31'
+  quote: Биологи предоставили почти 50 тыс. изображений проб, из которых 20 тыс. было использовано для
+    обучения алгоритмов.
+found_by:
+- link-from:yandex-cloud
+added_by: agent
+checked: '2026-10-31'

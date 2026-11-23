@@ -1,0 +1,52 @@
+id: namib-desert-v1
+kind: model
+name: Namib-Desert-v1
+scope: na
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- na
+status: active
+summary: Camera-trap image classifier built by Addax Data Science for 30 species or higher taxa in Skeleton
+  Coast National Park, reporting 95.3% validation accuracy and 93.4% on out-of-sample 2023 images.
+facts:
+- claim: Classifies camera-trap images into 30 species or higher taxa present in Skeleton Coast National
+    Park.
+  url: https://huggingface.co/Addax-Data-Science/Namib-Desert-v1/blob/main/README.md
+  fetched: 2026-11-08
+  quote: This is a species classification model for camera trap images to identify 30 species or higher
+    level taxons present in the Skeleton Coast National Park.
+- claim: Trained on more than 850,000 images, about a fifth of them from the client's project area.
+  url: https://addaxdatascience.com/projects/2023-01-dlc/
+  fetched: 2026-11-08
+  quote: The model was trained on a set of more than 850,000 images, of which ± 20% were provided by the
+    client
+- claim: Reports overall validation accuracy of 95.3%, and 93.4% on out-of-sample images from 2023.
+  url: https://addaxdatascience.com/projects/2023-01-dlc/
+  fetched: 2026-11-08
+  quote: The metrics derived from this dataset are slightly lower, with an overall accuracy of 93.4%,
+    a precision of 93.8%, and a recall of 93.2%.
+- claim: Freely available through the EcoAssist camera-trap analysis platform.
+  url: https://addaxdatascience.com/projects/2023-01-dlc/
+  fetched: 2026-11-08
+  quote: The model described here is freely available through our open-source camera trap analysis platform,
+    EcoAssist .
+links:
+- type: built-by
+  to: addax-data-science
+  url: https://addaxdatascience.com/projects/2023-01-dlc/
+  fetched: 2026-11-08
+  quote: The model was trained on a set of more than 850,000 images, of which ± 20% were provided by the
+    client (see fig. 2).
+- type: builds-on
+  to: megadetector
+  url: https://huggingface.co/Addax-Data-Science/Namib-Desert-v1/blob/main/README.md
+  fetched: 2026-11-08
+  quote: It is designed to be used in conjunction with MegaDetector as a feature extractor.
+found_by:
+- checklist:4
+added_by: agent
+checked: 2026-11-08

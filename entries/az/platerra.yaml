@@ -1,0 +1,39 @@
+id: platerra
+kind: model
+name: Platerra
+scope: az
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- az
+status: active
+summary: An AI tool built by Azercosmos that, according to Report.az citing Azercosmos, processes satellite
+  imagery automatically into geospatial data, including detecting forest areas and water body surface
+  area.
+facts:
+- claim: Report.az, citing Azercosmos, says Platerra uses AI to process satellite imagery automatically
+    and turn it into geospatial data.
+  url: https://report.az/en/ict/azercosmos-launches-ai-powered-platerra-for-satellite-image-analysis
+  fetched: 2026-11-09
+  quote: Platerra automatically processes satellite imagery using artificial intelligence and converts
+    it into geospatial data that can be used for decision-making.
+- claim: Its tools include detecting forest areas and identifying the surface area of water bodies.
+  url: https://report.az/en/ict/azercosmos-launches-ai-powered-platerra-for-satellite-image-analysis
+  fetched: 2026-11-09
+  quote: The platform combines AI-based solutions for enhancing satellite image quality, detecting forest
+    areas, identifying the surface area of water bodies
+links:
+- type: built-by
+  to: azercosmos
+  url: https://report.az/en/ict/azercosmos-launches-ai-powered-platerra-for-satellite-image-analysis
+  fetched: 2026-11-09
+  quote: The Azerbaijan Space Agency ( Azercosmos ) has launched Platerra , an AI-powered product for
+    satellite image analysis.
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-11-09

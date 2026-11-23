@@ -1,0 +1,98 @@
+id: swiss-data-cube
+kind: dataset
+name: Swiss Data Cube
+also_known_as:
+- SDC
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.swissdatacube.org
+summary: A dataset of Landsat and Sentinel-2 data, run by several bodies including the University
+  of Geneva and built by it and GRID-Geneva, meant to support Swiss government environmental
+  monitoring and reporting.
+facts:
+- claim: Holds Landsat and Sentinel-2 data used for an atlas of landscape change.
+  url: https://www.swissdatacube.org/index.php/wp-json/wp/v2/posts/2798
+  quote: We analysed Landsat and Sentinel-2 data, available in the Swiss Data Cube
+  fetched: '2026-11-02'
+- claim: Its main objectives are to support the Swiss government on environmental monitoring
+    and reporting and to help Swiss scientific institutions use the data.
+  url: https://www.swissdatacube.org/index.php/about/
+  fetched: '2026-11-02'
+  quote: The main objectives of the Swiss Data Cube (SDC) is to support the Swiss government
+    for environmental monitoring and reporting
+links:
+- type: built-by
+  to: grid-geneva
+  url: https://swissdatacube.org/index.php/team
+  quote: The Swiss Data Cube is jointly developed & managed by a team from the GRID-Geneva
+    and the University of Geneva .
+  fetched: '2026-11-02'
+- type: run-by
+  to: grid-geneva
+  url: https://swissdatacube.org/index.php/team
+  quote: The Swiss Data Cube is jointly developed & managed by a team from the GRID-Geneva
+    and the University of Geneva .
+  fetched: '2026-11-02'
+- type: built-by
+  to: university-of-geneva
+  url: https://swissdatacube.org/index.php/team
+  quote: The Swiss Data Cube is jointly developed & managed by a team from the GRID-Geneva
+    and the University of Geneva .
+  fetched: '2026-11-02'
+- type: run-by
+  to: university-of-geneva
+  url: https://swissdatacube.org/index.php/team
+  quote: The Swiss Data Cube is jointly developed & managed by a team from the GRID-Geneva
+    and the University of Geneva .
+  fetched: '2026-11-02'
+- type: partners-with
+  to: wsl-swiss-federal-research-institute
+  url: https://swissdatacube.org/index.php/team
+  quote: The Swiss Data Cube is a collaborative effort together with the Swiss Federal Institute
+    for Forest, Snow and Landscape Research (WSL)
+  fetched: '2026-11-02'
+- type: partners-with
+  to: university-of-zurich
+  url: https://swissdatacube.org/index.php/team
+  quote: and the University of Zurich, Department of Geography, Remote Sensing Laboratories
+    (RSL)
+  fetched: '2026-11-02'
+- type: run-by
+  to: university-of-geneva
+  url: https://www.swissdatacube.org/index.php/what-is-the-swiss-data-cube/
+  fetched: '2026-11-02'
+  quote: The Swiss Data Cube (operated by the University of Geneva and the United Nations
+    Environment Programme/GRID-Geneva together with the University of Zurich and the Federal
+    Institute for Forest, Snow and Landscape Research – WSL)
+- type: run-by
+  to: united-nations-environment-programme
+  url: https://www.swissdatacube.org/index.php/what-is-the-swiss-data-cube/
+  fetched: '2026-11-02'
+  quote: The Swiss Data Cube (operated by the University of Geneva and the United Nations
+    Environment Programme/GRID-Geneva together with the University of Zurich and the Federal
+    Institute for Forest, Snow and Landscape Research – WSL)
+- type: run-by
+  to: university-of-zurich
+  url: https://www.swissdatacube.org/index.php/what-is-the-swiss-data-cube/
+  fetched: '2026-11-02'
+  quote: The Swiss Data Cube (operated by the University of Geneva and the United Nations
+    Environment Programme/GRID-Geneva together with the University of Zurich and the Federal
+    Institute for Forest, Snow and Landscape Research – WSL)
+- type: run-by
+  to: wsl-swiss-federal-research-institute
+  url: https://www.swissdatacube.org/index.php/what-is-the-swiss-data-cube/
+  fetched: '2026-11-02'
+  quote: The Swiss Data Cube (operated by the University of Geneva and the United Nations
+    Environment Programme/GRID-Geneva together with the University of Zurich and the Federal
+    Institute for Forest, Snow and Landscape Research – WSL)
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'
+countries:
+- ch

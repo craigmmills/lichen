@@ -1,0 +1,85 @@
+id: allen-institute-for-ai
+kind: organisation
+name: Allen Institute for AI
+also_known_as:
+- Ai2
+- Allen Institute for Artificial Intelligence
+scope: global
+sector: ngo
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- foundation-models
+- large-language-models
+- agentic-ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: us
+scale: global
+status: active
+website: https://allenai.org
+summary: Seattle non-profit AI research institute founded by Paul Allen that builds OlmoEarth,
+  EarthRanger, Skylight and Satlas.
+countries:
+- ke
+facts:
+- claim: A Seattle non-profit AI research institute founded in 2014.
+  url: https://allenai.org/about
+  fetched: &id001 2026-10-30
+  quote: We are a Seattle based non-profit AI research institute founded in 2014 by the late
+    Paul Allen.
+- claim: Says it builds AI for a range of environmental challenges.
+  url: https://allenai.org/ai-for-the-environment
+  fetched: *id001
+  quote: We build advanced AI to drive transformative solutions across a broad spectrum of
+    environmental challenges
+- claim: Ai2 built Shippy, a maritime agent, on a language model chosen in its configuration.
+  url: https://allenai.org/blog/shippy-deep-dive
+  fetched: 2026-10-30
+  quote: which LLM to use (currently, Shippy relies on Claude Opus 4.6)
+  ai_type: large-language-models
+- claim: Ai2 describes building a maritime AI agent, Shippy, and carrying the lessons into
+    its other environmental platforms.
+  url: https://allenai.org/blog/shippy-deep-dive
+  fetched: 2026-10-30
+  quote: Shippy is a maritime AI agent built for high-stakes decisions, where the wrong answer
+    has real impacts.
+  ai_type: agentic-ai
+- claim: Ai2 builds the OlmoEarth foundation models.
+  url: https://allenai.org/olmoearth
+  fetched: 2026-10-30
+  quote: Our OlmoEarth foundation models are at the heart of Skylight
+  ai_type: foundation-models
+- claim: GeekWire reports that Ai2 says it trained the OlmoEarth models on millions of Earth
+    observations, roughly 10 terabytes of data.
+  url: https://www.geekwire.com/2025/ai2-loosens-big-techs-grip-on-earth-insights-with-open-source-ai-models-for-climate-and-conservation/
+  quote: which Ai2 says it trained on millions of Earth observations totaling roughly 10 terabytes
+    of data
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: national-science-foundation
+  url: https://allenai.org
+  fetched: 2026-10-30
+  quote: Our partnership with the NSF supports the Open Multimodal AI Infrastructure to Accelerate
+    Science project
+- type: partners-with
+  to: google
+  url: https://allenai.org
+  fetched: 2026-10-30
+  quote: Our partnership with Google Cloud supports development of our state-of-the-art, truly
+    open AI models
+- type: partners-with
+  to: university-of-washington
+  url: https://allenai.org
+  fetched: 2026-10-30
+  quote: We partner with the UW's Paul G. Allen School of Computer Science & Engineering
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

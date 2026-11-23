@@ -1,0 +1,87 @@
+id: netwerk-ecologische-monitoring
+kind: programme
+name: Netwerk Ecologische Monitoring
+also_known_as:
+- NEM
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- nl
+runner: unknown
+summary: Collaboration of Dutch species organisations, ministries, provinces and government
+  bodies including Statistics Netherlands, whose monitoring programmes follow species
+  populations. Volunteers supply most of the data.
+scope: nl
+facts:
+- claim: Statistics Netherlands describes it as a collaboration of species organisations,
+    two ministries, the provinces and some government bodies.
+  url: https://www.cbs.nl/nl-nl/nieuws/2023/51/reptielenpopulaties-afgelopen-12-jaar-afgenomen/netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Dit is een samenwerkingsverband tussen soortenorganisaties, het ministerie
+    van Landbouw, Natuur en Voedselkwaliteit, het ministerie van Infrastructuur &
+    Waterstaat, de provincies en enkele overheidsorganisaties, waaronder het CBS.
+- claim: Statistics Netherlands says volunteers supply most of the data.
+  url: https://www.cbs.nl/nl-nl/nieuws/2023/51/reptielenpopulaties-afgelopen-12-jaar-afgenomen/netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Vrijwilligers leveren de meeste gegevens aan
+- claim: Dutch nature monitoring networks are part of it.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: &id001 2026-10-31
+  quote: De natuurmeetnetten in Nederland maken onderdeel uit van het Netwerk Ecologische
+    Monitoring (NEM).
+- claim: The partnership of government organisations for monitoring nature in the
+    Netherlands.
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: is het samenwerkingsverband van overheidsorganisaties voor de monitoring
+    van de natuur in Nederland
+- claim: Anchored in an agreement in 1999.
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: De samenwerking in het NEM is in 1999 verankerd in een overeenkomst.
+- claim: Not a separate organisation reporting on the monitoring networks itself.
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: Het NEM is geen aparte organisatie
+links:
+- type: partners-with
+  to: centraal-bureau-voor-de-statistiek
+  url: https://www.cbs.nl/nl-nl/nieuws/2023/51/reptielenpopulaties-afgelopen-12-jaar-afgenomen/netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: de provincies en enkele overheidsorganisaties, waaronder het CBS
+- type: partners-with
+  to: centraal-bureau-voor-de-statistiek
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: *id001
+  quote: Dit is een samenwerkingsverband tussen een aantal ministeries (LNV, V&W,
+    VROM), het RIVM, de provincies en het CBS.
+- type: partners-with
+  to: rivm
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende-onderzoeksomschrijvingen/netwerk-ecologische-monitoring
+  fetched: *id001
+  quote: Dit is een samenwerkingsverband tussen een aantal ministeries (LNV, V&W,
+    VROM), het RIVM, de provincies en het CBS.
+- type: funded-by
+  to: ministerie-van-landbouw-visserij-voedselzekerheid-en-natuur
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: financiert het grootste deel van het NEM
+- type: funded-by
+  to: rijkswaterstaat
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: Andere financiers zijn Rijkswaterstaat en de provincies.
+- type: partners-with
+  to: centraal-bureau-voor-de-statistiek
+  url: https://www.netwerkecologischemonitoring.nl/organisatie
+  fetched: '2026-10-31'
+  quote: Het CBS is verantwoordelijk voor de kwaliteitsbewaking van het NEM.
+found_by:
+- checklist:2
+- link-from:statistics-netherlands
+added_by: agent
+checked: '2026-10-31'

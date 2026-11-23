@@ -1,0 +1,57 @@
+id: national-park-bavarian-forest
+kind: organisation
+name: Bavarian Forest National Park
+also_known_as:
+- Nationalpark Bayerischer Wald
+- Nationalparkverwaltung Bayerischer Wald
+sector: government
+roles:
+- uses-ai
+- governs
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: de
+scale: local
+status: active
+summary: German national park that has used camera traps since 1997, and runs joint biodiversity
+  monitoring with Berchtesgaden National Park since 2021.
+facts:
+- claim: Its first camera trap image of a lynx was taken in 1997.
+  url: https://nationalpark-bayerischer-wald.bayern.de/service/downloads/doc/broschuere/wildtieren_auf_der_spur.pdf
+  quote: Ein Luchs an einem Rotwildkadaver war das erste Fotofallenbild, welches 1997
+  fetched: '2026-10-31'
+- claim: Runs joint biodiversity monitoring with Berchtesgaden National Park since 2021.
+  url: https://nationalpark-berchtesgaden.de/english/research/monitoring/biodiversity/index.htm
+  quote: have been conducting joint biodiversity monitoring in both national parks since 2021
+  fetched: '2026-10-31'
+- claim: Research centres on long-term observation of natural developments in the park.
+  url: https://www.nationalpark-bayerischer-wald.de/forschung/netzwerk/index.htm
+  fetched: '2026-10-31'
+  quote: Im Kern der Forschung steht die langfristige Beobachtung der natürlichen Entwicklungen
+    im Nationalpark
+- claim: Runs the Interreg project AI-Klima on forest health.
+  url: https://www.nationalpark-bayerischer-wald.bayern.de/forschung/projekte/ai_klima.htm
+  fetched: '2026-10-31'
+  quote: Das Untersuchungsgebiet umfasst den Nationalpark Bayerischer Wald sowie den benachbarten
+    Nationalpark Šumava in Tschechien
+- claim: Its ranger team worked on BirdNET Live in RangerSound.
+  url: https://www.tu-chemnitz.de/tu/pressestelle/2026/07.27-10.05.html
+  fetched: '2026-10-31'
+  quote: das Ranger-Team des Nationalparks Bayerischer Wald
+found_by:
+- checklist:1
+- link-from:big-picture-camera-trapping
+scope: de
+added_by: agent
+checked: '2026-10-31'
+links:
+- type: partners-with
+  to: big-picture-camera-trapping
+  url: https://www.biodiversa.eu/2024/04/15/big_picture/
+  fetched: '2026-10-31'
+  quote: Department for National Park Monitoring, Bavarian Forest National Park, Grafenau,
+    Germany

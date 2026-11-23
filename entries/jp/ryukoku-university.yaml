@@ -1,0 +1,40 @@
+id: ryukoku-university
+kind: organisation
+name: Ryukoku University
+scope: jp
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: Japanese university whose works since 2022 OpenAlex groups under topic T12640 (44
+  works), and whose biodiversity centre head took part in a joint eDNA study sampling 528
+  coastal sites.
+facts:
+- claim: OpenAlex groups 44 works since 2022 with a Japanese author affiliation in topic T12640
+    under this institution.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,primary_topic.id:T12640,from_publication_date:2022-01-01&group_by=authorships.institutions.lineage&per_page=15
+  fetched: 2026-11-02
+  quote: Ryukoku University
+- claim: Says water was sampled by the environmental DNA method at 528 coastal sites across
+    Japan, in a joint study in which the head of its biodiversity science research centre
+    took part.
+  url: https://biodiversity.ryukoku.ac.jp/news/260217/
+  fetched: 2026-11-02
+  quote: 日本全国528地点の環境DNA調査×大規模データ解析で解き明かす、日本沿岸魚類の分布構造。
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- edna-genomics
+also_known_as:
+- 龍谷大学

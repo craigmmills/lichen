@@ -1,0 +1,43 @@
+id: fulbright-university-vietnam
+kind: organisation
+name: Fulbright University Vietnam
+also_known_as: []
+scope: vn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms: []
+techniques:
+- other
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- vn
+scale: national
+status: active
+funding_at_risk: false
+summary: University where, per OpenAlex, an author (among other affiliations) is first author
+  of a paper on extracting reproductive condition and habitat information from text with a
+  transformer-based pipeline.
+facts:
+- claim: OpenAlex lists an author at Fulbright University Vietnam (among other affiliations)
+    as first author of the paper titled "Extracting Reproductive Condition and Habitat Information
+    from Text Using a Transformer-based Information Extraction Pipeline".
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0227kwk61|036xsg644|02k550c65|03gvjya19|04j5g5g52|03g6wh580|0289ve942|056kdz329|00v416254|00y8rfx07|0434r1180|0031x3y66|04gwjz789|05pq46g90|03j8s2d17|00vbzs544|02w2wps72|01gff7046|00a4nhr72|05dp8mg49|04vtp9n41|02scpdz59|02ygfdv70|045jvzr81|00z3jw597|03gmpnw94|054s6pa38|02b9zqw68,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: Extracting Reproductive Condition and Habitat Information from Text Using a Transformer-based
+    Information Extraction Pipeline
+- claim: The paper's title names a transformer method.
+  ai_type: deep-learning
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0227kwk61|036xsg644|02k550c65|03gvjya19|04j5g5g52|03g6wh580|0289ve942|056kdz329|00v416254|00y8rfx07|0434r1180|0031x3y66|04gwjz789|05pq46g90|03j8s2d17|00vbzs544|02w2wps72|01gff7046|00a4nhr72|05dp8mg49|04vtp9n41|02scpdz59|02ygfdv70|045jvzr81|00z3jw597|03gmpnw94|054s6pa38|02b9zqw68,concepts.id:C18903297|C130217890,concepts.id:C119857082|C108583219|C154945302,publication_year:>2019&per-page=200&select=id,title,authorships
+  fetched: 2026-11-08
+  quote: Extracting Reproductive Condition and Habitat Information from Text Using a Transformer-based
+    Information Extraction Pipeline
+links: []
+found_by:
+- register:vn
+- checklist:3
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,45 @@
+id: hokkaido-university
+kind: organisation
+name: Hokkaido University
+also_known_as:
+- 北海道大学
+scope: jp
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+summary: A saved OpenAlex query groups 60 works since 2021 with Japanese affiliations and
+  primary topic T10199 under it; university research applies remote sensing, GIS and machine
+  learning.
+facts:
+- claim: A saved OpenAlex query groups 60 works published since 2021 with Japanese affiliations
+    and primary topic T10199 under Hokkaido University.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,primary_topic.id:T10199,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage&per_page=12
+  fetched: 2026-11-02
+  quote: Hokkaido University
+- claim: A university article says Associate Professor Ram Avtar uses remote sensing and GIS
+    to track progress towards the Sustainable Development Goals.
+  url: https://www.global.hokudai.ac.jp/climate-change/article/949
+  fetched: 2026-11-02
+  quote: he uses remote sensing and geographic information systems (GIS) to track progress
+    towards the SDGs
+- claim: A thesis at the university supervised by Dr Ram Avtar used Random Forest and Symbolic
+    Regression machine learning models.
+  url: https://eprints.lib.hokudai.ac.jp/repo/huscap/all/92724/ANAK_SUAB_Stanley.pdf
+  fetched: 2026-11-02
+  quote: machine learning (ML) models of Random Forest (RF), Symbolic Regression (SR), and
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing

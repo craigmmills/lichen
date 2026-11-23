@@ -1,0 +1,27 @@
+id: galapagos-geoportal
+kind: dataset
+name: Galapagos Geoportal
+scope: ec
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+- ocean
+website: https://www.darwinfoundation.org/en/research-hub/datazone/
+summary: Online geoportal, run by the Charles Darwin Foundation, where users can explore maps and download
+  data.
+facts:
+- claim: Lets users explore maps and download data.
+  url: https://www.darwinfoundation.org/en/research-hub/datazone/
+  fetched: '2026-11-02'
+  quote: where you can explore maps and download data
+links:
+- type: run-by
+  to: fundacion-charles-darwin
+  url: https://www.darwinfoundation.org/en/research-hub/datazone/
+  fetched: '2026-11-02'
+  quote: Dive into our Galapagos Geoportal
+found_by:
+- link-from:charles-darwin-foundation
+added_by: agent
+checked: '2026-11-02'

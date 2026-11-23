@@ -1,0 +1,47 @@
+id: libyan-authority-for-scientific-research
+kind: organisation
+name: Libyan Authority for Scientific Research
+also_known_as: []
+scope: ly
+sector: government
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: ly
+countries:
+- ly
+scale: national
+status: active
+website: https://www.aonsrt.ly
+summary: Government body affiliated with the lead author of a 2024 vegetation change paper using Google
+  Earth Engine, reportedly discussing a national CubeSat project in August 2026.
+facts:
+- claim: OpenAlex gives the Authority as the lead author's affiliation on a 2024 paper using Google Earth
+    Engine to detect vegetation cover change in north-west Libya.
+  url: https://api.openalex.org/works/W4402349580?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name":"Mubaraka S. Alghariani","raw_affiliation_strings":["Libyan Authority for
+    Scientific Research, Tripoli, Libya"]'
+- claim: The 2024 paper is titled Google Earth Engine (GEE) to Detect Vegetation Cover Changes in Northwest
+    of Libya.
+  url: https://api.openalex.org/works/W4402349580?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: '"title":"Google Earth Engine (GEE) to Detect Vegetation Cover Changes in Northwest of Libya","publication_year":2024'
+- claim: OpenAlex records the Authority as a government institution.
+  url: https://api.openalex.org/works/W4402349580?select=id,title,publication_year,doi,authorships
+  fetched: 2026-11-12
+  quote: '"display_name":"Libyan Authority for Scientific Research","ror":"https://ror.org/01kp25r74","country_code":"LY","type":"government"'
+- claim: Space in Africa reported in August 2026 that the Authority held a meeting to discuss a project
+    for Libya's first national satellite, a CubeSat for climate monitoring and combating desertification;
+    the project is at the discussion stage.
+  url: https://spaceinafrica.com/2026/08/09/libya-takes-its-first-steps-towards-launching-a-national-satellite/
+  fetched: 2026-11-12
+  quote: The Libyan Authority for Scientific Research (LASR) has held a meeting at its Tripoli headquarters
+    to discuss a project to launch Libya’s first national satellite, a CubeSat dedicated to climate monitoring
+    and the fight against desertification.
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

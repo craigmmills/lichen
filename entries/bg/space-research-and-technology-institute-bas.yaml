@@ -1,0 +1,55 @@
+id: space-research-and-technology-institute-bas
+kind: organisation
+name: Space Research and Technology Institute, Bulgarian Academy of Sciences
+also_known_as:
+- SRTI-BAS
+- ИКИТ-БАН
+- Институт за космически изследвания и технологии
+scope: bg
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- bg
+scale: national
+status: active
+website: http://www.space.bas.bg/
+summary: Bulgarian Academy of Sciences institute for space physics and remote sensing, with
+  environmental monitoring as a priority and affiliated authors on 2024 papers on canopy fuels
+  and vegetation productivity.
+facts:
+- claim: Its mission covers fundamental and applied research in space physics, remote sensing
+    of the Earth and planets, and aerospace technology.
+  url: http://www.space.bas.bg/
+  fetched: 2026-11-08
+  quote: Мисията на ИКИТ-БАН е извършване на фундаментални и приложни изследвания в областта
+    на физиката на Космоса, дистанционните изследвания на Земята и планетите и аерокосмическите
+    технологии.
+- claim: One of its priorities is regional and global environmental monitoring through remote
+    sensing.
+  url: http://www.space.bas.bg/
+  fetched: 2026-11-08
+  quote: Регионален и глобален мониторинг на околната среда и сигурност.
+- claim: OpenAlex lists a 2024 paper on satellite-based mapping of canopy fuels across Europe
+    with an author affiliated to the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I2802805805,concepts.id:C119857082,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Satellite-based mapping of canopy fuels at the pan-European scale
+- claim: OpenAlex lists a 2024 review on remotely sensed optical time series for monitoring
+    vegetation productivity with an author affiliated to the institute.
+  url: https://api.openalex.org/works?filter=authorships.institutions.id:I2802805805,concepts.id:C119857082,from_publication_date:2020-01-01&per-page=50&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Reviews and syntheses: Remotely sensed optical time series for monitoring vegetation
+    productivity'
+links: []
+found_by:
+- checklist:1
+- checklist:3
+added_by: agent
+checked: 2026-11-08

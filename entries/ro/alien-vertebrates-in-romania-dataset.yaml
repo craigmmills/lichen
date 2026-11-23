@@ -1,0 +1,33 @@
+id: alien-vertebrates-in-romania-dataset
+kind: dataset
+name: 'Alien vertebrates in Romania: distribution, temporal trends, and introduction pathways'
+scope: ro
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques: []
+countries:
+- ro
+status: active
+runner: unknown
+summary: Open dataset, described as the first national-scale FAIR-compliant one of its kind,
+  holding 8,154 georeferenced records of 53 alien vertebrate species in Romania, with distribution,
+  native ranges and introduction pathways.
+facts:
+- claim: Its description calls it the first national-scale, FAIR-compliant, openly available
+    dataset of the distribution, temporal patterns, native ranges and introduction pathways
+    of alien vertebrates recorded in Romania.
+  url: https://api.gbif.org/v1/organization/4233d792-b0f9-4a32-9d4e-e8b9bfaf97b1/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: we present the first national-scale FAIR-compliant, openly available dataset documenting
+    the distribution
+- claim: Holds 8,154 georeferenced occurrence records of 53 alien species.
+  url: https://api.gbif.org/v1/organization/4233d792-b0f9-4a32-9d4e-e8b9bfaf97b1/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: 8,154 georeferenced occurrence records of 53 alien species
+found_by:
+- register:ro
+- link-from:university-of-bucharest
+added_by: agent
+checked: 2026-11-08

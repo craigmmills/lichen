@@ -1,0 +1,38 @@
+id: roskilde-university
+kind: organisation
+name: Roskilde University
+also_known_as:
+- Roskilde Universitet
+scope: dk
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+hq: dk
+scale: national
+status: active
+summary: University with authors on a 2023 paper comparing earthworm biodiversity estimated
+  by DNA metabarcoding and by morphology, whose first author is affiliated with it and Aarhus
+  University.
+facts:
+- claim: Mille Anna Lilja, affiliated with Roskilde University and Aarhus University, is first
+    author of a 2023 paper comparing earthworm biodiversity estimated by DNA metabarcoding
+    and by morphology; two further authors are at Roskilde University.
+  url: https://api.openalex.org/works/W4320535805?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Comparing earthworm biodiversity estimated by DNA metabarcoding and morphology-based
+    approaches
+- claim: The first author's affiliation on the paper is the Department of Science and Environment,
+    Roskilde University, Universitetsvej 1, 4000 Roskilde.
+  url: https://api.openalex.org/works/W4320535805?select=id,title,doi,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Department of Science and Environment, Roskilde University, Universitetsvej 1, 4000
+    Roskilde, Denmark
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

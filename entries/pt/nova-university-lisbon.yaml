@@ -1,0 +1,51 @@
+id: nova-university-lisbon
+kind: organisation
+name: NOVA University Lisbon
+also_known_as:
+- Universidade Nova de Lisboa
+scope: pt
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- pt
+scale: national
+status: active
+summary: University whose NOVA FCT researchers lead Floresta Limpa, which uses artificial
+  intelligence to monitor wildfire fuel management zones, and whose affiliated first authors
+  appear in OpenAlex on satellite machine learning and land cover papers.
+facts:
+- claim: NOVA FCT says the Floresta Limpa project, which uses artificial intelligence to monitor
+    wildfire fuel management zones, is led by researchers from NOVA LINCS at NOVA FCT.
+  url: https://www.fct.unl.pt/en/news/2025/03/project-floresta-limpa-nova-fct-uses-artificial-intelligence-prevent-wildfires
+  fetched: 2026-11-08
+  quote: led by researchers from NOVA LINCS – Laboratory for Computer Science and Informatics
+    at NOVA FCT
+- claim: The NOVA FCT page names NOVA University Lisbon.
+  url: https://www.fct.unl.pt/en/news/2025/03/project-floresta-limpa-nova-fct-uses-artificial-intelligence-prevent-wildfires
+  fetched: 2026-11-08
+  quote: NOVA University Lisbon
+- claim: OpenAlex lists a 2024 review and meta-analysis of satellite-based machine learning
+    for ecosystem services indicators whose first author is affiliated with Universidade Nova
+    de Lisboa and the University of the Azores.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I83558840,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: 'Satellite-based Machine Learning modelling of Ecosystem Services indicators: A review
+    and meta-analysis'
+- claim: OpenAlex lists a 2021 paper on land cover change and carbon stock trends in Kenya
+    for REDD+ whose first author is at Universidade Nova de Lisboa.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I83558840,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Impact of land cover changes on carbon stock trends in Kenya for spatial implementation
+    of REDD+ policy
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

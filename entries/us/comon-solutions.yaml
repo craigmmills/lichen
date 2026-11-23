@@ -1,0 +1,39 @@
+id: comon-solutions
+kind: organisation
+name: Comon Solutions
+scope: us
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: national
+status: unknown
+summary: Pacific Grove, California company funded by NSF SBIR to produce high-resolution vegetation
+  maps with image segmentation for natural resource management.
+facts:
+- claim: SBIR Phase I for high-resolution image segmentation.
+  url: https://api.nsf.gov/services/v1/awards/2112419.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  High-Resolution Image Segmentation for Natural Resource Management'
+- claim: The NSF award record gives its address as 519 Congress Ave, Pacific Grove, California.
+  url: https://api.nsf.gov/services/v1/awards/2112419.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-31'
+  quote: '"awardeeAddress":"519 CONGRESS AVE"'
+links:
+- type: funded-by
+  to: national-science-foundation
+  url: https://api.nsf.gov/services/v1/awards/2112419.json?printFields=id,title,awardeeName,awardeeCity,awardeeStateCode,pdPIName,poName,fundProgramName,fundsObligatedAmt,startDate,expDate,abstractText
+  fetched: '2026-10-30'
+  quote: 'SBIR Phase I:  High-Resolution Image Segmentation for Natural Resource Management'
+  amount: 256000
+  year: 2021
+  currency: USD
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-10-30'

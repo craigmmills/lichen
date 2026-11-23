@@ -1,0 +1,42 @@
+id: institute-for-marine-and-antarctic-studies
+kind: organisation
+name: Institute for Marine and Antarctic Studies
+also_known_as:
+- IMAS
+scope: au
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: au
+countries:
+- au
+scale: national
+status: active
+summary: University of Tasmania institute whose authors led a 2022 paper on Myctobase, a circumpolar
+  mesopelagic fish database, and the 2025 image annotation manual for the National Reef Monitoring
+  Network.
+facts:
+- claim: An IMAS author leads a 2022 paper on Myctobase, a circumpolar database of mesopelagic
+    fishes.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I4394709165,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Myctobase, a circumpolar database of mesopelagic fishes for new insights into deep
+    pelagic prey fields
+  fetched: '2026-11-08'
+- claim: That author is listed with the Institute for Marine and Antarctic Studies, University
+    of Tasmania, Hobart.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I4394709165,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, 7004,
+    Australia
+  fetched: '2026-11-08'
+- claim: An IMAS author leads the 2025 image annotation protocol manual of the National Reef
+    Monitoring Network sub-facility.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I4394709165,primary_topic.subfield.id:2309|1105|2303|1104,concepts.id:C119857082|C108583219|C31972630,from_publication_date:2021-01-01&sort=cited_by_count:desc&per_page=25&select=id,title,publication_year,authorships
+  quote: National Reef Monitoring Network Sub-Facility - Image Annotation Protocol Manual
+  fetched: '2026-11-08'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

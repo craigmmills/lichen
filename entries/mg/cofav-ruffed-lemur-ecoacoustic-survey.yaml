@@ -1,0 +1,41 @@
+id: cofav-ruffed-lemur-ecoacoustic-survey
+kind: project
+name: Ecoacoustic machine learning survey of black-and-white ruffed lemurs in the COFAV
+scope: mg
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- species-distribution
+countries:
+- mg
+status: closed
+summary: Closed survey in which recorders at 30 COFAV sites, December 2021 to June 2022, fed
+  a neural network detecting ruffed lemur calls in 550,000 minutes; the preprint is not peer
+  reviewed.
+facts:
+- claim: Autonomous recorders were deployed at 30 sites across the COFAV from December 2021
+    to June 2022.
+  url: https://ecoevorxiv.org/repository/view/12503/
+  fetched: 2026-11-08
+  quote: We deployed autonomous recorders at 30 sites across the COFAV from December 2021
+    to June 2022.
+- claim: The authors trained a convolutional neural network to detect ruffed lemur calls in
+    550,000 recording minutes.
+  url: https://ecoevorxiv.org/repository/view/12503/
+  fetched: 2026-11-08
+  quote: training a convolutional neural network to automatically detect these calls in the
+    full dataset (550,000 recording minutes)
+  ai_type: deep-learning
+- claim: The preprint has not been peer reviewed.
+  url: https://ecoevorxiv.org/repository/view/12503/
+  fetched: 2026-11-08
+  quote: This is a Preprint and has not been peer reviewed.
+ai_types:
+- deep-learning
+runner: unknown
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

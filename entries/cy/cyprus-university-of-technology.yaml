@@ -1,0 +1,56 @@
+id: cyprus-university-of-technology
+kind: organisation
+name: Cyprus University of Technology
+scope: cy
+sector: academic
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- cy
+scale: national
+status: active
+summary: University that runs and co-funds the ERATOSTHENES Centre of Excellence, which describes itself
+  as a centre of the university in Limassol.
+facts:
+- claim: The ERATOSTHENES Centre of Excellence is a centre of the Cyprus University of Technology in Limassol.
+  url: https://eratosthenes.org.cy/
+  fetched: 2026-11-08
+  quote: Ready to work at ERATOSTHENES CoE of the Cyprus University of Technology in Limassol?
+- claim: Co-funds the ERATOSTHENES Centre of Excellence.
+  url: https://eratosthenes.org.cy/
+  fetched: 2026-11-08
+  quote: This project is co-funded by the Cyprus University of Technology.
+- claim: The ERATOSTHENES Centre of Excellence describes itself as a centre of the Cyprus University of
+    Technology in Limassol.
+  url: https://eratosthenes.org.cy
+  fetched: 2026-11-08
+  quote: Ready to work at ERATOSTHENES CoE of the Cyprus University of Technology in Limassol?
+- claim: Co-funds the ERATOSTHENES Centre of Excellence.
+  url: https://eratosthenes.org.cy
+  fetched: 2026-11-08
+  quote: This project is co-funded by the Cyprus University of Technology.
+links:
+- type: runs
+  to: eratosthenes-centre-of-excellence
+  url: https://eratosthenes.org.cy/
+  fetched: &id001 2026-11-08
+  quote: Ready to work at ERATOSTHENES CoE of the Cyprus University of Technology in Limassol?
+- type: funds
+  to: eratosthenes-centre-of-excellence
+  url: https://eratosthenes.org.cy/
+  fetched: *id001
+  quote: This project is co-funded by the Cyprus University of Technology.
+- type: funds
+  to: eratosthenes-centre-of-excellence
+  url: https://eratosthenes.org.cy
+  fetched: 2026-11-08
+  quote: This project is co-funded by the Cyprus University of Technology.
+found_by:
+- link-from:eratosthenes-centre-of-excellence
+- register:cy
+added_by: agent
+checked: 2026-11-08

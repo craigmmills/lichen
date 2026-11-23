@@ -1,0 +1,95 @@
+id: instituto-nacional-de-tecnologia-agropecuaria
+kind: organisation
+name: Instituto Nacional de Tecnología Agropecuaria
+also_known_as:
+- INTA
+scope: ar
+sector: government
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ar
+countries:
+- ar
+scale: national
+status: active
+summary: Argentine agricultural technology institute and MapBiomas Argentina member whose
+  researchers used deep learning and machine learning to classify satellite images for 2000,
+  2010 and 2020.
+facts:
+- claim: OpenAlex lists a 2020 paper by INTA authors on recent land use and land cover change
+    in the Gran Chaco Americano.
+  url: https://api.openalex.org/works/W3049532313?select=id,title,doi,publication_year,authorships
+  quote: Recent Land Use and Land Cover Change Dynamics in the Gran Chaco Americano
+  fetched: '2026-11-03'
+- claim: Its first author gives his affiliation as INTA's Instituto de Clima y Agua in Hurlingham.
+  url: https://api.openalex.org/works/W3049532313?select=id,title,doi,publication_year,authorships
+  quote: '"raw_author_name":"S. Banchero","raw_affiliation_strings":["Instituto de Clima y
+    Agua, Instituto Nacional de Tecnolog\u00eda Agropecuaria (INTA), Hurlingham, Argentina"'
+  fetched: '2026-11-03'
+- claim: Unidiversidad reports INTA specialists gave technical support to MapBiomas Argentina's
+    Collection 1.
+  url: https://www.unidiversidad.com.ar/argentina-perdio-76-millones-de-hectareas-de-vegetacion-natural-en-los-ultimos-25-anos
+  quote: y de especialistas del INTA y la Facultad de Ciencias Agrarias de la Universidad
+    Nacional de Cuyo (UNCUYO).
+  fetched: '2026-11-03'
+- claim: Listed as a member of the MapBiomas Argentina network.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Facultad de Agronomía de la UBA, el Instituto Nacional de Tecnología Agropecuaria,Geosimple
+- claim: MapBiomas says Collection 3 of its Argentina maps is the work of 25 institutions
+    and professionals from across the country.
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: es el resultado de la colaboración de 25 instituciones y profesionales de todo el
+    país
+- claim: Its page lists INTA Geo, a geospatial platform for managing geographic information
+    for the agricultural sector.
+  url: https://www.argentina.gob.ar/inta
+  fetched: '2026-11-03'
+  quote: INTA Geo Plataforma geoespacial para la gestión integral de información geográfica
+    destinada al sector agropecuario
+- claim: INTA researchers produced land use and land cover maps of Argentina for 2000, 2010
+    and 2020, classifying Landsat, MODIS and Sentinel images with deep learning and machine
+    learning algorithms.
+  url: https://www.argentina.gob.ar/noticias/se-publico-el-trabajo-de-investigacion-dinamica-de-la-cobertura-y-uso-del-suelo-en
+  fetched: 2026-11-03
+  quote: La clasificación de las imágenes se realizó mediante algoritmos de aprendizaje profundo
+    y automático, lo que permitió identificar de manera precisa y rápida los diferentes usos
+    y coberturas del suelo.
+  ai_type: deep-learning
+- claim: The work was carried out by INTA's Salta-Jujuy regional centre and other INTA units
+    with CONICET and the Universidad Nacional de Luján.
+  url: https://www.argentina.gob.ar/noticias/se-publico-el-trabajo-de-investigacion-dinamica-de-la-cobertura-y-uso-del-suelo-en
+  fetched: 2026-11-03
+  quote: El trabajo fue realizado por INTA Centro Regional Salta-Jujuy.
+- claim: Takes part in MapBiomas Argentina.
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: participan 63 técnicos de 18 instituciones y organizaciones de ciencia y técnica,
+    entre las cuales se encuentra el INTA
+links:
+- type: partners-with
+  to: mapbiomas-argentina
+  url: https://mapbiomas.org/blog/2026/10/05/argentina-tiene-mas-superficie-agropecuaria-que-bosques-los-nuevos-datos-de-mapbiomas-muestran-como-cambio-el-territorio-desde-1985/
+  fetched: '2026-11-03'
+  quote: Facultad de Agronomía de la UBA, el Instituto Nacional de Tecnología Agropecuaria,Geosimple
+- type: partners-with
+  to: mapbiomas-argentina
+  url: https://www.argentina.gob.ar/node/425748
+  fetched: 2026-11-03
+  quote: participan 63 técnicos de 18 instituciones y organizaciones de ciencia y técnica,
+    entre las cuales se encuentra el INTA
+found_by:
+- checklist:7
+- link-from:mapbiomas
+- checklist:2
+added_by: agent
+checked: '2026-11-03'
+ai_types:
+- deep-learning

@@ -1,0 +1,31 @@
+id: obis-seamap
+kind: dataset
+name: OBIS-SEAMAP
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- species-distribution
+status: active
+website: https://seamap.env.duke.edu/
+summary: Thematic node of the Ocean Biodiversity Information System on the distribution and ecology of marine mammals, seabirds, sea turtles and other marine megavertebrates.
+facts:
+- claim: A thematic node of OBIS on the distribution and ecology of marine mammals, seabirds and sea turtles.
+  url: https://api.gbif.org/v1/organization/67b2263f-6990-4d9d-b32b-20aa72ef4fbc
+  fetched: '2026-10-30'
+  quote: a thematic node of the Ocean Biodiversity Information System (OBIS), is aimed at augmenting our understanding of the distribution and the ecology of marine mammals, seabirds, sea turtles
+- claim: Says its data are regularly uploaded to OBIS as well as GBIF.
+  url: https://seamap.env.duke.edu/content/about
+  fetched: '2026-10-30'
+  quote: OBIS-SEAMAP data are regularly uploaded to OBIS as well as GBIF
+links:
+- type: run-by
+  to: marine-geospatial-ecology-lab
+  url: https://seamap.env.duke.edu/content/about
+  fetched: '2026-10-30'
+  quote: © 2002-2026 Marine Geospatial Ecology Lab at Duke University
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'

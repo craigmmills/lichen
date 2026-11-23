@@ -1,0 +1,34 @@
+id: tree-equity-score
+kind: programme
+name: Tree Equity Score
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://www.treeequityscore.org
+summary: Public scoring tool for urban tree cover in the US, now covering Puerto Rico
+  and the US Virgin Islands.
+facts:
+- claim: National explorer now covers Puerto Rico and the US Virgin Islands.
+  url: https://www.treeequityscore.org/
+  fetched: '2026-10-30'
+  quote: Tree Equity Scores are now available for Puerto Rico and the U.S. Virgin
+    Islands in the National Explorer.
+- claim: Covers all urban areas in the United States.
+  url: https://americanforests.org/our-work/tree-equity-score
+  fetched: '2026-10-30'
+  quote: Tree Equity Score covers all urban areas in United States
+links:
+- type: run-by
+  to: american-forests
+  url: https://americanforests.org/our-work/tree-equity-score
+  fetched: '2026-10-30'
+  quote: "One of the ways we are doing this is with our Tree Equity Score tool"
+found_by:
+- checklist:7
+- link-from:american-forests
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- remote-sensing

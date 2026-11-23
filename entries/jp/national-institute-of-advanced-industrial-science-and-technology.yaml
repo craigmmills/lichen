@@ -1,0 +1,51 @@
+id: national-institute-of-advanced-industrial-science-and-technology
+kind: organisation
+name: National Institute of Advanced Industrial Science and Technology
+also_known_as:
+- AIST
+- 産業技術総合研究所
+- 産総研
+scope: jp
+sector: government
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- jp
+scale: national
+status: active
+website: https://www.aist.go.jp/
+summary: Organisation that built a Japan-specific SAR foundation model from Daichi-2 data;
+  a 2020 release said its radar images could help monitor illegal logging, stated as an expectation.
+facts:
+- claim: Built a SAR foundation model specific to Japan using data from the Daichi-2 satellite.
+  url: https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250603/pr20250603.html
+  fetched: 2026-11-02
+  quote: 人工衛星「だいち2号」の観測データを活用して国土に特化したSAR基盤モデルを構築
+- claim: A 2020 press release says it processed PALSAR radar data on the ABCI AI cloud and
+    released colour radar images.
+  url: https://www.aist.go.jp/aist_j/press_release/pr2020/pr20200522/pr20200522.html
+  fetched: 2026-11-02
+  quote: AI向けクラウドABCIで処理した衛星のレーダー画像をカラー化し公開
+- claim: The release says the images could help monitor large-scale illegal logging, stated
+    as an expectation.
+  url: https://www.aist.go.jp/aist_j/press_release/pr2020/pr20200522/pr20200522.html
+  fetched: 2026-11-02
+  quote: 大規模違法伐採監視や広域での米の生産量管理の他
+links:
+- type: builds
+  to: aist-sar-foundation-model
+  url: https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250603/pr20250603.html
+  fetched: 2026-11-02
+  quote: 人工衛星「だいち2号」の観測データを活用して国土に特化したSAR基盤モデルを構築
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02

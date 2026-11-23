@@ -1,0 +1,50 @@
+id: laboratoire-d-observation-des-forets-de-madagascar
+kind: organisation
+name: Laboratoire d'Observation des Forêts de Madagascar
+also_known_as:
+- LOFM
+scope: mg
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- mg
+scale: national
+status: unknown
+summary: Forest observation laboratory whose 2021 procedure covers data collection for sample-based visual
+  interpretation, mainly from remote sensing, and which uses Collect Earth; its 2019 reference grid guidance
+  is cited under BNCCREDD+.
+facts:
+- claim: Its 2021 procedure covers setting up and running data collection for sample-based visual interpretation,
+    mainly from remote sensing data.
+  url: https://www.environnement.mg/wp-content/uploads/2024/07/12.SOP_3_COLLECTE_DONNEES.pdf
+  fetched: 2026-11-08
+  quote: Cette POS détaille comment configurer et exécuter la collecte de données pour une interprétation
+    visuelle basée sur des échantillons en utilisant principalement des données de télédétection
+- claim: The procedures are issued in the name of the laboratory.
+  url: https://www.environnement.mg/wp-content/uploads/2024/07/13.SOP_1_ECHANTILLONNAGE.pdf
+  fetched: 2026-11-08
+  quote: Laboratoire d’Observation des Forêts de Madagascar (LOFM), 2021
+- claim: Its 2019 guidance on the national reference grid is cited under BNCCREDD+ and the Ministry of
+    Environment and Sustainable Development.
+  url: https://www.environnement.mg/wp-content/uploads/2024/07/13.SOP_1_ECHANTILLONNAGE.pdf
+  fetched: 2026-11-08
+  quote: Laboratoire d’Observation des Forêts de Madagascar (LOFM), Bureau National des Changements Climatiques
+    et de la Réduction des Émissions dues à la Déforestation et à la Dégradation des Forêts (BNCCREDD+)
+    - Ministère de l’Environnement et du Développement Durable. 2019.
+links:
+- type: uses
+  to: collect-earth
+  url: https://www.environnement.mg/wp-content/uploads/2024/07/12.SOP_3_COLLECTE_DONNEES.pdf
+  fetched: 2026-11-08
+  quote: Travail de collecte de données dans Collect Earth (CE)
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

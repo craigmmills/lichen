@@ -1,0 +1,33 @@
+id: ia-monitoramento-biodiversidade-florestal-biomas-brasileiros
+kind: project
+name: Inteligência Artificial para o Monitoramento da Biodiversidade Florestal em Biomas Brasileiros
+scope: br
+ai_label: ai
+ai_types:
+- ml-semi-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+status: unknown
+summary: FGV research project that uses satellite and drone imagery with a weakly labelled
+  learning method, LLP-Co, to monitor deforestation in the Amazon and study its biodiversity.
+facts:
+- claim: Uses Learning from Label Proportions with Prototypical Contrastive Clustering on
+    drone and satellite data.
+  url: https://agendadoclima.fgv.br/iniciativa/inteligencia-artificial-para-o-monitoramento-da-biodiversidade-florestal-em-biomas
+  fetched: '2026-10-30'
+  quote: Learning from Label Proportions with Prototypical Contrastive Clustering (LLP-Co)
+  ai_type: ml-semi-supervised
+links:
+- type: run-by
+  to: fundacao-getulio-vargas
+  url: https://agendadoclima.fgv.br/iniciativa/inteligencia-artificial-para-o-monitoramento-da-biodiversidade-florestal-em-biomas
+  fetched: '2026-10-30'
+  quote: 'Escola de Matemática Aplicada da FGV (EMAP) Pesquisador: Dário Augusto Borges Oliveira'
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-30'

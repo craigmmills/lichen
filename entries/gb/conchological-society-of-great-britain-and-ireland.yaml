@@ -1,0 +1,37 @@
+id: conchological-society-of-great-britain-and-ireland
+kind: organisation
+name: Conchological Society of Great Britain and Ireland
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: http://www.conchsoc.org/
+summary: Society for the study of molluscs that publishes mollusc records on GBIF.
+facts:
+- claim: Works on mollusc recording.
+  url: https://www.conchsoc.org/recording/recording.php
+  fetched: '2026-10-30'
+  quote: Helping to understand, identify, record, and conserve molluscs
+- claim: 'Publishes the dataset "Conchological Society of Great Britain & Ireland: non-marine
+    molluscs (Channel Islands)" on GBIF.'
+  url: https://api.gbif.org/v1/organization/dccfcdcf-d272-45c8-85cb-e3dbf18b8a34/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: 'Conchological Society of Great Britain & Ireland: non-marine molluscs (Channel Islands)'
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/dccfcdcf-d272-45c8-85cb-e3dbf18b8a34/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

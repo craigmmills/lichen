@@ -1,0 +1,47 @@
+id: timelapse-image-analyser
+kind: programme
+name: Timelapse
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://timelapse.ucalgary.ca/
+summary: Software for turning camera trap images into data, with image recognition that can
+  identify empty images and select recognised entities.
+facts:
+- claim: Says it uses image recognition to select recognised entities, including empty images.
+  url: https://timelapse.ucalgary.ca/
+  fetched: '2026-10-30'
+  quote: You use image recognition to see and select subsets of recognized entities on images
+    and videos, including identifying empty images.
+links:
+- type: builds-on
+  to: megadetector
+  url: https://timelapse.ucalgary.ca/about/
+  fetched: '2026-10-30'
+  quote: Microsoft’s AI for Earth MegaDetector project
+- type: funded-by
+  to: microsoft
+  url: https://timelapse.ucalgary.ca/about/
+  fetched: 2026-10-30
+  quote: Past contributors include Microsoft and Google, where they provided modest funding
+    as grants via the University of Calgary.
+- type: funded-by
+  to: google
+  url: https://timelapse.ucalgary.ca/about/
+  fetched: 2026-10-30
+  quote: Past contributors include Microsoft and Google, where they provided modest funding
+    as grants via the University of Calgary.
+- type: partners-with
+  to: addaxai
+  url: https://timelapse.ucalgary.ca/about/
+  fetched: 2026-10-30
+  quote: Saul collaborated with the creator of AddaxAI
+found_by:
+- checklist:targeted-searches
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

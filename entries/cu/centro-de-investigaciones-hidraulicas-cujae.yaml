@@ -1,0 +1,39 @@
+id: centro-de-investigaciones-hidraulicas-cujae
+kind: organisation
+name: Centro de Investigaciones Hidráulicas, Universidad Tecnológica de La Habana
+  José Antonio Echeverría
+scope: cu
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- cu
+scale: local
+status: active
+summary: Hydraulics research centre at a Havana university, whose affiliated researcher
+  is first author of a 2026 paper, listed in OpenAlex, on remote sensing for mangrove
+  monitoring on the south coast of Artemisa and Mayabeque.
+facts:
+- claim: OpenAlex lists a 2026 paper on remote sensing for environmental monitoring
+    of mangroves on the south coast of Artemisa and Mayabeque.
+  url: https://api.openalex.org/works/W7223547370?select=id,title,publication_year,doi,authorships
+  fetched: '2026-11-12'
+  quote: como herramienta para el monitoreo ambiental del manglar en la costa sur
+    de Artemisa y Mayabeque, Cuba
+- claim: The paper's first author is affiliated with the Centro de Investigaciones
+    Hidráulicas of the Universidad Tecnológica de La Habana José Antonio Echeverría.
+  url: https://api.openalex.org/works/W7223547370?select=id,title,publication_year,doi,authorships
+  fetched: '2026-11-12'
+  quote: Centro de Investigaciones Hidr\u00e1ulicas, Universidad Tecnol\u00f3gica
+    de La Habana
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-12'

@@ -1,0 +1,50 @@
+id: national-tree-canopy-cover
+kind: dataset
+name: National Tree Canopy Cover
+also_known_as:
+- TCC
+scope: us
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+summary: US tree canopy dataset built by the USDA Forest Service Geospatial Office
+  and Forest Inventory and Analysis as part of the National Land Cover Database.
+facts:
+- claim: Built as part of NLCD.
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: builds and maintains the National Tree Canopy Cover (TCC) dataset as part
+    of the National Land Cover Database (NLCD)
+- claim: Built from Landsat and Sentinel-2 imagery and FIA data at 30 metres.
+  url: https://www.mrlc.gov/product-information
+  quote: The TCC datasets are derived from Landsat and Sentinel-2 imagery along with
+    USDA Forest Service FIA data, based on a spatial resolution of 30 meters.
+  fetched: '2026-10-30'
+- claim: Each value is determined using photo interpretation and machine learning
+    models.
+  url: https://www.mrlc.gov/product-information
+  quote: determined using photo interpretation methods and machine learning models
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: us-forest-service
+  url: https://www.mrlc.gov/
+  fetched: '2026-10-30'
+  quote: The USDA Forest Service Geospatial Office (GO) and Research and Development
+    - Forest Inventory and Analysis (FIA) builds and maintains the National Tree Canopy
+    Cover (TCC) dataset
+- type: run-by
+  to: us-forest-service
+  url: https://www.mrlc.gov/product-information
+  quote: The USDA Forest Service Geospatial Office (GO) and Research and Development
+    - Forest Inventory and Analysis (FIA) builds and maintains the National Tree Canopy
+    Cover (TCC) dataset
+  fetched: '2026-10-30'
+found_by:
+- link-from:us-forest-service
+- checklist:2
+added_by: agent
+checked: '2026-10-30'

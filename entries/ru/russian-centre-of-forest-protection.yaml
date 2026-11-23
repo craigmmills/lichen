@@ -1,0 +1,54 @@
+id: russian-centre-of-forest-protection
+kind: organisation
+name: Russian Centre of Forest Protection
+also_known_as:
+- ФБУ «Российский центр защиты леса»
+- Рослесозащита
+- Roslesozashchita
+scope: ru
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+website: https://rcfh.ru
+summary: Forest protection centre that in September 2026 described testing trained YOLOv26
+  and U-Net models on satellite data to find forest changes; it partners with VNIILM and Geoscan.
+facts:
+- claim: Reported on a September 2026 working meeting with VNIILM on testing the results of
+    joint research.
+  url: https://habarovsk.rcfh.ru/presscenter/novosti/iskusstvennyy-intellekt-na-sluzhbe-zashchity-lesa-sostoyalos-soveshchanie-po-vnedreniyu-neyrosetey-v/
+  fetched: 2026-10-31
+  quote: 15 сентября 2026 года состоялось рабочее совещание специалистов ФБУ «Рослесозащита»
+    и ФБУ ВНИИЛМ
+- claim: In September 2026, it described testing trained YOLOv26 and U-Net models to analyse
+    satellite data and find changes in forests.
+  url: https://habarovsk.rcfh.ru/presscenter/novosti/iskusstvennyy-intellekt-na-sluzhbe-zashchity-lesa-sostoyalos-soveshchanie-po-vnedreniyu-neyrosetey-v/
+  fetched: 2026-10-31
+  quote: 'практическое применение уже обученных ИИ‑моделей YOLOv26 и U‑Net: они помогают анализировать
+    данные и выявлять изменения в лесах'
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: vniilm
+  url: https://habarovsk.rcfh.ru/presscenter/novosti/iskusstvennyy-intellekt-na-sluzhbe-zashchity-lesa-sostoyalos-soveshchanie-po-vnedreniyu-neyrosetey-v/
+  fetched: 2026-10-31
+  quote: посвященное апробации результатов совместной научно-исследовательской работы
+- type: partners-with
+  to: geoscan
+  url: https://www.cnews.ru/news/line/2026-02-25_geoskan_i_roslesozashchita
+  fetched: 2026-10-31
+  quote: Компания «Геоскан» и ФБУ «Российский центр защиты леса» ( ФБУ «Рослесозащита» ) заключили
+    соглашение о сотрудничестве
+found_by:
+- checklist:1
+added_by: agent
+checked: 2026-10-31

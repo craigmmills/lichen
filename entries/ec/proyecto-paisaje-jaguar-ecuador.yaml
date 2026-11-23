@@ -1,0 +1,56 @@
+id: proyecto-paisaje-jaguar-ecuador
+kind: project
+name: Proyecto Paisaje Jaguar
+scope: ec
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- ec
+scale: national
+status: active
+summary: Jaguar conservation project run by WCS Ecuador and funded by the Global Environment
+  Facility, which placed over 120 camera traps at 62 Esmeraldas stations in late 2023
+  and trained Yasuní staff in July 2025.
+facts:
+- claim: On 9–10 July 2025, WCS trained Yasuní park technicians and rangers in camera-trap
+    data analysis with ArcGIS, Agouti and R, using data from the first priority landscape
+    in Esmeraldas under Paisaje Jaguar.
+  url: https://programs.wcs.org/ecuador/Recursos/Noticias/articleType/ArticleView/articleId/25154/WCS-fortalece-el-monitoreo-de-fauna-silvestre-con-camaras-trampa-en-la-Reserva-de-Biosfera-Yasuni.aspx
+  fetched: 2026-11-09
+  quote: utilizando como referencia datos del primer paisaje priorizado en Esmeraldas
+    en el marco del proyecto Paisaje Jaguar ejecutado por WCS
+- claim: More than 120 camera traps were placed between October and November 2023
+    at 62 stations in Esmeraldas to monitor priority jaguar sites. WCS technicians,
+    MAATE park rangers and local community members later returned to retrieve them.
+  url: https://ecuador.wcs.org/Recursos/Noticias/articleType/ArticleView/articleId/22657/WCS-avanza-en-la-recopilacion-de-datos-mediante-fototrampeo-para-promover-la-conservacion-del-jaguar-en-Esmeraldas.aspx
+  fetched: '2026-11-09'
+  quote: retirar más de 120 trampas cámara colocadas entre octubre y noviembre de
+    2023 para monitorear los sitios prioritarios que frecuenta el jaguar
+- claim: Co-executed by MAATE, UNDP Ecuador as GEF implementing agency and WCS Ecuador
+    as executing partner.
+  url: https://ecuador.wcs.org/Recursos/Noticias/articleType/ArticleView/articleId/22657/WCS-avanza-en-la-recopilacion-de-datos-mediante-fototrampeo-para-promover-la-conservacion-del-jaguar-en-Esmeraldas.aspx
+  fetched: '2026-11-09'
+  quote: El proyecto Paisaje Jaguar es una iniciativa coejecutada por el Ministerio
+    del Ambiente, Agua y Transición Ecológica (MAATE)
+links:
+- type: run-by
+  to: wcs-ecuador
+  url: https://programs.wcs.org/ecuador/Recursos/Noticias/articleType/ArticleView/articleId/25154/WCS-fortalece-el-monitoreo-de-fauna-silvestre-con-camaras-trampa-en-la-Reserva-de-Biosfera-Yasuni.aspx
+  fetched: 2026-11-09
+  quote: el proyecto Paisaje Jaguar ejecutado por WCS
+- type: funded-by
+  to: global-environment-facility
+  url: https://programs.wcs.org/ecuador/Recursos/Noticias/articleType/ArticleView/articleId/25154/WCS-fortalece-el-monitoreo-de-fauna-silvestre-con-camaras-trampa-en-la-Reserva-de-Biosfera-Yasuni.aspx
+  fetched: 2026-11-09
+  quote: Paisaje Jaguar financiado por el Fondo para el Medio Ambiente Mundial (GEF)
+- type: partners-with
+  to: united-nations-development-programme
+  url: https://ecuador.wcs.org/Recursos/Noticias/articleType/ArticleView/articleId/22657/WCS-avanza-en-la-recopilacion-de-datos-mediante-fototrampeo-para-promover-la-conservacion-del-jaguar-en-Esmeraldas.aspx
+  fetched: '2026-11-09'
+  quote: el Programa de las Naciones Unidas para el Desarrollo (PNUD Ecuador) como
+    agencia implementadora GEF
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

@@ -1,0 +1,42 @@
+id: plankifier
+kind: project
+name: Plankifier
+scope: global
+ai_label: ai
+ai_types: [ml-semi-supervised, deep-learning]
+realms:
+- freshwater
+techniques:
+- computer-vision
+status: active
+website: https://www.eawag.ch/en/department/siam/projects/plankifier/
+summary: Eawag project on deep learning classification of plankton images, whose models were also compared on ZooScan, Imaging FlowCytobot and ISIIS data.
+facts:
+- claim: Classifies lake zooplankton using deep learning.
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: Deep learning classification of Lake Zooplankton
+- claim: The paper compared its models on data from other imaging tools.
+  url: https://www.frontiersin.org/articles/10.3389/fmicb.2021.746297/pdf
+  fetched: '2026-10-30'
+  quote: (ZooScan, Imaging FlowCyt obot, and ISIIS)
+- claim: "Plankifier proposes semi-supervised, active and ensemble learning."
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: "based on semi-supervised, active, and ensemble learning"
+  ai_type: ml-semi-supervised
+- claim: "Eawag publishes on data-efficient vision transformers."
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: "Ensembles of data-efficient vision transformers"
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: eawag
+  url: https://www.eawag.ch/en/department/siam/projects/plankifier/
+  fetched: '2026-10-30'
+  quote: Plankifier - Eawag
+found_by:
+- link-from:eth-zurich
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,43 @@
+id: beluga-bits
+kind: project
+name: Beluga Bits
+also_known_as: []
+scope: ca
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- ca
+status: active
+summary: Citizen science project on Zooniverse, created and managed by Assiniboine Park Zoo
+  researchers, that classifies images of beluga whales.
+facts:
+- claim: Created and managed by Assiniboine Park Zoo researchers.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: Beluga Bits 2 citizen science research project created and managed by Assiniboine
+    Park Zoo researchers
+- claim: The study tested CNN models on the images.
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: 'Results summary for three CNN architectures: Alexnet, VGG-16, and ResNet-50.'
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: assiniboine-park-conservancy
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: created and managed by Assiniboine Park Zoo researchers
+- type: uses
+  to: zooniverse
+  url: https://www.frontiersin.org/articles/10.3389/fmars.2022.961095/full
+  fetched: '2026-10-31'
+  quote: The Beluga Bits project is hosted on the Zooniverse platform.
+found_by:
+- link-from:assiniboine-park-conservancy
+added_by: agent
+checked: '2026-10-31'

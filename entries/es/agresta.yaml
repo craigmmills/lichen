@@ -1,0 +1,74 @@
+id: agresta
+kind: organisation
+name: Agresta
+also_known_as:
+- Agresta S.Coop
+- Agresta
+sector: company
+roles:
+- builds-ai
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: es
+scale: national
+status: active
+summary: Spanish worker cooperative in forestry consulting, founded in 2000, that uses remote
+  sensing and runs the ForestMap automatic forest inventory service.
+facts:
+- claim: Established in 2000 by forestry engineering students.
+  url: https://www.cecop.coop/stories/agresta-spain
+  quote: Agresta was established in 2000 by a group of 10 forestry engineering students
+  fetched: '2026-10-31'
+- claim: With the Universities of Almería and Delaware, developed a method for a nationwide
+    aboveground carbon map, according to Copernicus.
+  url: https://land.copernicus.eu/en/use-cases/forest-tree-carbon-mapping
+  quote: has developed a methodological approach to improve a nationwide aboveground carbon
+    map
+  fetched: '2026-10-31'
+- claim: A forest technology services cooperative based in Spain, specialising in remote sensing
+    for forest resources.
+  url: https://forestmap.eu/project/
+  fetched: '2026-10-31'
+  quote: Agresta is a forest technology services cooperative based in Spain.
+- claim: Developed the DECAPIN-IA CYL AI system for detecting pine decline.
+  url: https://agresta.org/2026/07/22/decapin-ia-cyl-inteligencia-artificial-y-teledeteccion-para-la-deteccion-del-decaimiento-del-pino-resinero-pinus-pinaster/
+  fetched: '2026-10-31'
+  quote: desde AGRESTA hemos desarrollado el proyecto DECAPIN-IA CYL
+- claim: DECAPIN-IA CyL is an early warning system built on deep learning architectures.
+  url: https://retechfor.es/decapinia
+  fetched: '2026-10-31'
+  quote: basado en arquitecturas de aprendizaje profundo (Deep Learning)
+  ai_type: deep-learning
+- claim: Named as developer of Forestmap on the national open data portal.
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  fetched: '2026-10-31'
+  quote: Agresta
+links:
+- type: runs
+  to: forestmap
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  quote: 'Autor / Desarrollador: Agresta'
+  fetched: '2026-10-31'
+- type: runs
+  to: forestmap
+  url: https://datos.gob.es/es/aplicaciones/forestmap
+  fetched: '2026-10-31'
+  quote: 'Autor / Desarrollador: Agresta'
+- type: runs
+  to: firetwin
+  url: https://www.aee.gob.es/ca/Noticias/2026/septiembre/aee-esa-incubed.html
+  fetched: '2026-10-31'
+  quote: FireTwin (Agresta Sociedad Cooperativa)
+found_by:
+- checklist:5
+- link-from:food-and-agriculture-organization
+scope: es
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- deep-learning

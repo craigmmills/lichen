@@ -1,0 +1,24 @@
+id: sea-around-us
+kind: dataset
+name: Sea Around Us
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+summary: UBC-based platform giving reported and unreported fish catches for every country in the world.
+facts:
+- claim: Provides reported and unreported catches for every country.
+  url: https://science.ubc.ca/news/new-data-reported-and-unreported-marine-catches-now-available-online
+  fetched: '2026-10-30'
+  quote: the first comprehensive coverage of both reported and unreported fish caught by every country in the world
+links:
+- type: run-by
+  to: university-of-british-columbia
+  url: https://science.ubc.ca/news/new-data-reported-and-unreported-marine-catches-now-available-online
+  fetched: '2026-10-30'
+  quote: Researchers with UBC’s Sea Around Us project
+found_by:
+- link-from:university-of-british-columbia
+added_by: agent
+checked: '2026-10-30'

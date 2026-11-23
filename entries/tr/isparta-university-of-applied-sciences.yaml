@@ -1,0 +1,43 @@
+id: isparta-university-of-applied-sciences
+kind: organisation
+name: Isparta University of Applied Sciences
+scope: tr
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+- species-distribution
+hq: unknown
+scale: national
+status: active
+summary: A university whose staff publication list includes 2022 conference papers on camera
+  trap classification and species distribution modelling, and a 2019 abstract on BİÇEB biodiversity
+  analysis software.
+facts:
+- claim: A staff publication list on its research information system includes a 2022 conference
+    paper on classifying camera trap data with convolutional neural networks.
+  ai_type: deep-learning
+  url: https://avesis.isparta.edu.tr/halilsuel/yayinlar
+  fetched: '2026-11-03'
+  quote: Classification of Camera Trap Data Using Convolutional Neural Networks
+- claim: The same list includes a 2022 conference paper on modelling species distributions
+    with a deep learning method.
+  url: https://avesis.isparta.edu.tr/halilsuel/yayinlar
+  fetched: '2026-11-03'
+  quote: MODELING OF SPECIES DISTRIBUTIONS WITH DEEP LEARNING METHOD
+- claim: The same list includes a 2019 conference abstract introducing the first version of
+    BİÇEB, a biodiversity analysis software.
+  url: https://avesis.isparta.edu.tr/halilsuel/yayinlar
+  fetched: '2026-11-03'
+  quote: 'Biodiversity Analysis Software: Introduction of BİÇEB, the First Version'
+links: []
+found_by:
+- register:openalex-institution
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,90 @@
+id: national-museums-of-kenya
+kind: organisation
+name: National Museums of Kenya
+also_known_as:
+- NMK
+scope: ke
+sector: government
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- species-distribution
+- computer-vision
+hq: ke
+website: https://museums.or.ke/
+countries:
+- ke
+scale: national
+status: active
+summary: Kenya's national museum body, a GBIF data publisher and a joint runner of the Kenya
+  Bird Map through its Ornithology Section.
+facts:
+- claim: Listed by GBIF as a publishing organisation.
+  url: https://api.gbif.org/v1/organization?q=National%20Museums%20of%20Kenya&limit=3
+  quote: '"title":"National Museums of Kenya"'
+  fetched: '2026-10-30'
+- claim: Its Ornithology Section helps run the Kenya Bird Map.
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: National Museums of Kenya (Ornithology Section)
+  fetched: '2026-10-30'
+- claim: Mpala describes it as a state organisation responsible for museums, heritage sites
+    and scientific collections.
+  url: https://mpala.org/partners/
+  fetched: '2026-10-31'
+  quote: The National Museums of Kenya (NMK), a state organization responsible for Kenya’s
+    museums, heritage sites, and scientific collections
+- claim: GBIF's API lists 92 published datasets.
+  url: https://api.gbif.org/v1/organization/fd515d3a-b237-42de-bba6-760008580da5
+  fetched: '2026-10-31'
+  quote: '"numPublishedDatasets":92'
+- claim: Named as Kenya's GBIF country node.
+  url: https://www.biota-africa.org/PDF_BIOTACongress_Abstract/5_8_Spier_Biodiversity%20data%20nodes_Thiombiano2.pdf
+  fetched: '2026-10-31'
+  quote: 'Kenya''s GBIF country node: National Museums of Kenya (NMK)'
+- claim: Its Centre for Biodiversity was set up in 1994.
+  url: https://museums.or.ke/center-for-biodiversity/
+  fetched: '2026-10-31'
+  quote: The Centre for Biodiversity was set up by the Government of Kenya in 1994
+- claim: Imaged specimens for AI-based moth identification under the AMI-Kenya Project.
+  url: https://api.gbif.org/v1/dataset/14439805-9d5b-4414-875e-4717ff16eda5
+  fetched: '2026-10-31'
+  quote: Representative specimens were imaged for use in AI-based taxonomic identification
+    of species
+- claim: Manages the national scientific reference collection.
+  url: https://museums.or.ke/research-directorate-brief/
+  fetched: '2026-10-31'
+  quote: collecting and managing the national scientific reference collection
+- claim: Gives Museum Hill and P.O. Box 40658 on its contact page.
+  url: https://museums.or.ke/contact/
+  fetched: '2026-10-31'
+  quote: P.O. BOX 40658- 00100
+links:
+- type: runs
+  to: kenya-bird-map
+  url: https://www.birdmap.africa/docs/kenya_birdmap_starter_guide.pdf
+  quote: It is a collaborative project run jointly by the National Museums of Kenya (Ornithology
+    Section)
+  fetched: '2026-10-30'
+- type: runs
+  to: kenya-bird-map
+  url: https://kenya.birdmap.africa
+  fetched: '2026-10-31'
+  quote: Kenya Bird Map is a joint initiative of the National Museums of Kenya
+  via: webfetch
+- type: partners-with
+  to: ami-system
+  url: https://api.gbif.org/v1/dataset/14439805-9d5b-4414-875e-4717ff16eda5
+  fetched: '2026-10-31'
+  quote: Occurrence data of Geometridae within the Natural History Collection at The National
+    Museums of Kenya as part of the AMI-Kenya Project.
+found_by:
+- checklist:2
+- link-from:gbif
+- checklist:register
+added_by: agent
+checked: '2026-10-30'

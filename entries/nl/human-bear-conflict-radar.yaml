@@ -1,0 +1,56 @@
+id: human-bear-conflict-radar
+kind: model
+name: Human-Bear Conflict Radar
+also_known_as:
+- Risk Radar for Bears
+ai_label: ai
+ai_types:
+- digital-twins
+realms:
+- land
+status: active
+summary: A tool developed by Wageningen University & Research with Sensing Clues and
+  other Nature FIRST partners to monitor and predict conflicts with brown bears, first
+  shown live in Romania in October 2024.
+facts:
+- claim: Sensing Clues quotes a description of it as a human-wildlife conflict digital
+    twin.
+  url: https://www.sensingclues.org/success-stories/wageningenuniversity
+  fetched: &id001 2026-10-31
+  quote: Our Human-Bear Conflict Radar is the first human-wildlife conflict digital
+    twin at the deployment stage.
+  ai_type: digital-twins
+- claim: First demonstrated live in Romania in October 2024.
+  url: https://www.sensingclues.org/success-stories/wageningenuniversity
+  fetched: *id001
+  quote: The Risk Radar for Bears was first demonstrated live at the Tusnad EcoBear
+    Conference in Romania in October 2024.
+links:
+- type: run-by
+  to: wageningen-university-and-research
+  url: https://www.sensingclues.org/success-stories/wageningenuniversity
+  fetched: *id001
+  quote: Wageningen University & Research , in collaboration with Sensing Clues, the
+    Bulgarian Academy of Sciences , WWF Romania and Ukraine , and other Nature FIRST
+    partners , has developed an innovative Human-Bear Conflict Radar.
+- type: partners-with
+  to: sensing-clues
+  url: https://www.sensingclues.org/success-stories/wageningenuniversity
+  fetched: *id001
+  quote: in collaboration with Sensing Clues
+- type: partners-with
+  to: nature-first
+  url: https://www.sensingclues.org/success-stories/naturefirstproject
+  fetched: *id001
+  quote: a Human-Bear Conflict Radar that generates risk forecasts
+- type: funded-by
+  to: european-commission
+  url: https://www.sensingclues.org/success-stories/wageningenuniversity
+  fetched: *id001
+  quote: This project is funded by the European Commission under the HORIZON Research
+    and Innovation Actions
+found_by:
+- link-from:sensing-clues
+scope: nl
+added_by: agent
+checked: *id001

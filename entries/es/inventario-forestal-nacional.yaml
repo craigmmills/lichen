@@ -1,0 +1,59 @@
+id: inventario-forestal-nacional
+kind: dataset
+name: Inventario Forestal Nacional
+also_known_as:
+- IFN
+- Spanish National Forest Inventory
+- National Forest Inventory
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+countries:
+- es
+summary: Spain's continuous national forest inventory, built from repeated field plots
+  with the same measurements repeated every 10 years across the country, published
+  as tables, maps and databases.
+facts:
+- claim: A continuous inventory that repeats the same measurements every 10 years.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html
+  quote: se repiten las mismas mediciones cada 10 años, recorriéndose todo el territorio
+    nacional en cada ciclo decenal
+  fetched: '2026-10-31'
+- claim: Results are available as downloadable files.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html
+  quote: disponibles tanto en las publicaciones del IFN como en los ficheros descargables
+    a través de la web institucional
+  fetched: '2026-10-31'
+- claim: A continuous inventory with the province as its basic unit.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html
+  fetched: '2026-10-31'
+  quote: La unidad básica de trabajo es la provincia y, al ser un inventario continuo
+- claim: Started about 50 years before 2015.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html
+  fetched: '2026-10-31'
+  quote: En 2015 celebramos los 50 años de la puesta en marcha del Inventario Forestal
+    Nacional
+- claim: FAO calls it long-standing.
+  url: https://www.fao.org/forest-monitoring/blog/detail/blog/2026/02/06/artificial-intelligence-in-forest-monitoring--uses--applications--adoption--and-precautions/en
+  fetched: '2026-10-31'
+  quote: the long-standing National Forest Inventory (NFI)
+- claim: The method rests on data from plots sampled across forested land at provincial
+    level, and plots are repeated between cycles.
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html
+  fetched: '2026-10-31'
+  quote: La metodología del IFN se basa en la toma de datos de parcelas de un muestreo
+    realizado en la superficie forestal arbolada a nivel provincial
+links:
+- type: run-by
+  to: ministerio-para-la-transicion-ecologica-y-el-reto-demografico
+  url: https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html
+  quote: En 2015 celebramos los 50 años de la puesta en marcha del Inventario Forestal
+    Nacional
+  fetched: '2026-10-31'
+found_by:
+- checklist:2
+- link-from:food-and-agriculture-organization
+scope: es
+added_by: agent
+checked: '2026-10-31'

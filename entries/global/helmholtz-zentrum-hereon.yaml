@@ -1,0 +1,48 @@
+id: helmholtz-zentrum-hereon
+kind: organisation
+name: Helmholtz-Zentrum Hereon
+also_known_as:
+- Hereon
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- ocean
+techniques:
+- computer-vision
+hq: de
+scale: global
+website: https://hereon.de
+status: active
+summary: German Helmholtz research centre for coasts and climate. It coordinates AqQua, a
+  foundation AI model for pelagic imaging of plankton and organic particles.
+facts:
+- claim: Coordinates the AqQua project, which trains a foundational AI model for pelagic imaging.
+  url: https://idw-online.de/en/news841850
+  fetched: '2026-10-30'
+  quote: Dr. Klas Ove Möller, who coordinates the project at Hereon
+- claim: Says it works for the climate, the coast and people.
+  url: https://hereon.de/index.php.en
+  fetched: '2026-10-30'
+  quote: for the benefit of the climate, the coast and people
+- claim: The AqQua release, on the project it coordinates, explains foundation models.
+  url: https://idw-online.de/en/news841850
+  fetched: '2026-10-30'
+  quote: So-called Foundation models represent a new generation of AI models with a broad
+    knowledge base.
+  ai_type: foundation-models
+links:
+- type: partners-with
+  to: aqqua
+  url: https://idw-online.de/en/news841850
+  fetched: '2026-10-30'
+  quote: In the AqQua project Hereon is involved in monitoring global populations of organisms
+    in water
+found_by:
+- link-from:aqqua
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,33 @@
+id: riistakolmiot
+kind: programme
+name: Riistakolmiot
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+runner: unknown
+summary: Finnish wildlife triangle count pages reporting summer, winter and Upper
+  Lapland willow grouse results, nationally and by game management area, with 2026
+  hare, squirrel and fox track densities nearly halved.
+facts:
+- claim: The pages give results of the summer and winter wildlife triangle counts
+    and the Upper Lapland willow grouse counts; count observations are entered in
+    the oma.riistakolmiot.fi service.
+  url: https://www.luke.fi/fi/luonnonvaratieto/tiedetta-ja-tietoa/riistakolmiot
+  fetched: '2026-11-08'
+  quote: Laskennassa tehtyjen havaintojen syöttö ja laskentaohjeet löytyvät oma.riistakolmiot.fi-palvelusta.
+- claim: In 2026 track densities of hares, squirrel and fox had nearly halved across
+    the country, while mustelid track densities were close to 2025 levels.
+  url: https://www.luke.fi/fi/luonnonvaratieto/tiedetta-ja-tietoa/riistakolmiot
+  fetched: '2026-11-08'
+  quote: Jäniseläinten, oravan ja ketun jälkitiheydet ovat koko maassa liki puolittuneet
+- claim: Results are published nationally and by game management area and association.
+  url: https://www.luke.fi/fi/luonnonvaratieto/tiedetta-ja-tietoa/riistakolmiot
+  fetched: '2026-11-08'
+  quote: Valtakunnallisten tulosten lisäksi tulokset julkaistaan myös riistakeskusalueittain
+    ja riistakeskusyhdistyksittäin.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

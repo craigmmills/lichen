@@ -1,0 +1,39 @@
+id: integrated-taxonomic-information-system
+kind: dataset
+name: Integrated Taxonomic Information System
+also_known_as:
+- ITIS
+scope: global
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.itis.gov
+summary: Taxonomic information on plants, animals, fungi and microbes of North America and the world, and a founding partner of the Catalogue of Life.
+facts:
+- claim: Authoritative taxonomic information on plants, animals, fungi and microbes.
+  url: https://www.itis.gov/
+  fetched: '2026-10-30'
+  quote: authoritative taxonomic information on
+links:
+- type: run-by
+  to: united-states-geological-survey
+  url: https://en.wikipedia.org/wiki/Integrated_Taxonomic_Information_System
+  fetched: '2026-10-30'
+  quote: IT services are provided by a US Geological Survey facility in Denver
+- type: partners-with
+  to: smithsonian-institution
+  url: https://en.wikipedia.org/wiki/Integrated_Taxonomic_Information_System
+  fetched: '2026-10-30'
+  quote: "Member agencies [ edit ] Agriculture and Agri-Food Canada Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) National Oceanic and Atmospheric Administration National Park Service NatureServe Smithsonian Institution"
+- type: partners-with
+  to: catalogue-of-life
+  url: https://en.wikipedia.org/wiki/Catalogue_of_Life
+  fetched: '2026-10-30'
+  quote: "It was created in 2001 as a partnership between the global Species 2000 and the American Integrated Taxonomic Information System"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

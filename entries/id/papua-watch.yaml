@@ -1,0 +1,30 @@
+id: papua-watch
+kind: dataset
+name: Papua Watch
+scope: id
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- id
+status: active
+summary: Interactive story map published by Nusantara Atlas, showing satellite monitoring
+  of land clearing at 13 locations in West Papua.
+facts:
+- claim: An interactive story map of satellite-based monitoring of land clearing at 13 locations.
+  url: https://humanrightsmonitor.org/news/new-interactive-mapping-platform-exposes-accelerating-environmental-destruction-in-west-papua/
+  quote: an interactive story map that provides unprecedented access to satellite-based monitoring
+    of land clearing activities across 13 key locations in West Papua
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: nusantara-atlas
+  url: https://humanrightsmonitor.org/news/new-interactive-mapping-platform-exposes-accelerating-environmental-destruction-in-west-papua/
+  quote: "A comprehensive new study published by Nusantara Atlas"
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

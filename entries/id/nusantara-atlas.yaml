@@ -1,0 +1,64 @@
+id: nusantara-atlas
+kind: dataset
+name: Nusantara Atlas
+scope: id
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- id
+- my
+- bn
+- pg
+status: active
+website: https://nusantara-atlas.org/
+summary: Web platform for monitoring deforestation, fires, peatland degradation and forest
+  regeneration in Equatorial Asia, combining satellite images, RADD and GLAD alerts and concession
+  data.
+facts:
+- claim: For anyone monitoring deforestation, fires, peatland degradation and regeneration
+    in Equatorial Asia.
+  url: https://nusantara-atlas.org/about/
+  fetched: '2026-10-31'
+  quote: Nusantara Atlas is for anyone interested in monitoring deforestation, fires, peatlands
+    degradation and forest regeneration in Equatorial Asia.
+- claim: Brings together satellite images, near-real-time alerts and fire hotspots.
+  url: https://nusantara-atlas.org/about/
+  fetched: '2026-10-31'
+  quote: near-real-time deforestation alerts ( RADD ; GLAD )
+- claim: Tracks palm oil, pulp-and-paper, mining and timber producers.
+  url: https://nusantara-atlas.org/about/
+  fetched: '2026-10-31'
+  quote: This platform tracks the actions of palm oil, pulp-and-paper, mining and timber producers
+- claim: Added FireWatch, a fire season dashboard.
+  url: https://nusantara-atlas.org/indonesias-primary-forest-loss-slows-in-2024/
+  fetched: '2026-10-31'
+  quote: FireWatch, Nusantara Atlas’ new Fire Season Progress dashboard
+links:
+- type: run-by
+  to: thetreemap
+  url: https://nusantara-atlas.org/terms-of-use-premium/
+  fetched: '2026-10-31'
+  quote: The TreeMap has designed and developed Nusantara Atlas
+- type: builds-on
+  to: radd-forest-disturbance-alert
+  url: https://nusantara-atlas.org/about/
+  fetched: '2026-10-31'
+  quote: near-real-time deforestation alerts ( RADD ; GLAD )
+- type: builds-on
+  to: nicfi-satellite-data-program
+  url: https://nusantara-atlas.org/about/
+  fetched: '2026-10-31'
+  quote: Planet/NICFI
+- type: run-by
+  to: thetreemap
+  url: https://nimbo.earth/stories/tree-map-chooses-nimbo-imagery-forest-monitoring/
+  fetched: '2026-10-31'
+  quote: When The Tree Map launched Nusantara Atlas
+found_by:
+- checklist:2
+- keyword:id-b
+added_by: agent
+checked: '2026-10-31'

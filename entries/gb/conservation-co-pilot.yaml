@@ -1,0 +1,72 @@
+id: conservation-co-pilot
+kind: project
+name: Conservation Co-pilot
+also_known_as:
+- Conservation CoPilot
+scope: gb
+ai_label: ai
+ai_types:
+- large-language-models
+status: active
+website: https://www.ai.cam.ac.uk/projects/conservation-co-pilot-making-environmental-evidence-accessible/
+realms:
+- land
+summary: Cambridge project building an AI chat interface that retrieves and summarises Conservation
+  Evidence research to answer user questions.
+facts:
+- claim: AI-powered chat interface that retrieves, summarises and presents conservation evidence.
+  url: https://www.ai.cam.ac.uk/projects/conservation-co-pilot-making-environmental-evidence-accessible/
+  quote: an AI-powered chat interface that retrieves, summarises, and presents conservation
+    evidence
+  ai_type: large-language-models
+  fetched: &id001 2026-10-30
+- claim: Chatbot planned.
+  url: https://ai.conservation.cam.ac.uk/projects/ai-driven-conservation-copilot-revolutionising-biodiversity-solutions/
+  quote: The team are going to build a conversational chatbot, they call the “Conservation
+    CoPilot”.
+  fetched: '2026-10-30'
+- claim: AI model screens papers.
+  url: https://ai.conservation.cam.ac.uk/projects/ai-driven-conservation-copilot-revolutionising-biodiversity-solutions/
+  quote: The AI model will be able to determine if certain research is relevant and condense
+    it into an accessible summary
+  fetched: '2026-10-30'
+links:
+- type: builds-on
+  to: conservation-evidence
+  url: https://www.ai.cam.ac.uk/projects/conservation-co-pilot-making-environmental-evidence-accessible/
+  quote: With over 1 million users already accessing the Conservation Evidence database
+  fetched: *id001
+- type: run-by
+  to: university-of-cambridge
+  url: https://www.ai.cam.ac.uk/projects/conservation-co-pilot-making-environmental-evidence-accessible/
+  quote: Department of Zoology – Project Lead
+  fetched: *id001
+- type: run-by
+  to: university-of-cambridge
+  url: https://ai.conservation.cam.ac.uk/projects/ai-driven-conservation-copilot-revolutionising-biodiversity-solutions/
+  quote: The Conservation Evidence team, collaborating with members of the Computing Department,
+    are harnessing the power of Cambridge’s Dawn supercomputer to build an AI model
+  fetched: '2026-10-30'
+- type: builds-on
+  to: conservation-evidence
+  url: https://ai.conservation.cam.ac.uk/projects/ai-driven-conservation-copilot-revolutionising-biodiversity-solutions/
+  quote: This tool would allow users to interact with the Conservation Evidence database through
+    a chat interface
+  fetched: '2026-10-30'
+- type: represented-by
+  to: william-sutherland
+  url: https://ai.conservation.cam.ac.uk/projects/ai-driven-conservation-copilot-revolutionising-biodiversity-solutions/
+  quote: said Professor Bill Sutherland CBE FRS , who is Director of Research at the University
+    of Cambridge Department of Zoology.
+  fetched: '2026-10-30'
+- type: run-by
+  to: ai-for-climate-and-nature-cambridge
+  url: https://ai.conservation.cam.ac.uk/people/
+  quote: Project Leadership Anil Madhavapeddy Bill Sutherland David Coomes Emily Shuckburgh
+    AI-Driven Conservation CoPilot Alec Christie
+  fetched: '2026-10-30'
+found_by:
+- checklist:7
+- link-from:ai-for-climate-and-nature-cambridge
+added_by: agent
+checked: *id001

@@ -1,0 +1,46 @@
+id: lifewatch-camera-trap-network
+kind: programme
+name: LifeWatch Belgium camera trap network
+scope: be
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- be
+website: https://lifewatch.be/en/camera-trap-research-infrastructure-catrein
+summary: Camera trap network that began in 2017, run and built by LifeWatch Belgium, with images annotated
+  in Agouti by hand or with AI.
+facts:
+- claim: The network began in 2017.
+  url: https://lifewatch.be/en/camera-trap-research-infrastructure-catrein
+  fetched: 2026-11-02
+  quote: The camera trap network was started in 2017
+- claim: Images are annotated in Agouti, by hand or with AI.
+  url: https://lifewatch.be/en/camera-trap-research-infrastructure-catrein
+  fetched: 2026-11-02
+  quote: We then upload our images and videos to Agouti where images are classified in sequences and get
+    annotated, either manually or using AI.
+links:
+- type: run-by
+  to: lifewatch-belgium
+  url: https://lifewatch.be/en/camera-trap-research-infrastructure-catrein
+  fetched: 2026-11-02
+  quote: We then upload our images and videos to Agouti where images are classified in sequences and get
+    annotated, either manually or using AI.
+- type: built-by
+  to: lifewatch-belgium
+  url: https://lifewatch.be/en/camera-trap-research-infrastructure-catrein
+  fetched: 2026-11-02
+  quote: For LifeWatch, we have built a dynamic camera trap network
+- type: uses
+  to: agouti
+  url: https://lifewatch.be/en/camera-trap-research-infrastructure-catrein
+  fetched: 2026-11-02
+  quote: We then upload our images and videos to Agouti
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-02

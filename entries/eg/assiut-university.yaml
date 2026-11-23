@@ -1,0 +1,41 @@
+id: assiut-university
+kind: organisation
+name: Assiut University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.aun.edu.eg/
+summary: University listed by OpenAlex among the affiliations of Ragab Khalil, first author
+  of a 2024 paper on supervised NDVI composite thresholding for mapping arid region vegetation.
+facts:
+- claim: OpenAlex lists the 2024 paper Supervised NDVI Composite Thresholding for Arid Region
+    Vegetation Mapping, with Ragab Khalil as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01jaj8n65,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Supervised NDVI Composite Thresholding for Arid Region Vegetation
+    Mapping", "publication_year": 2024, "authorships": [{"author_position": "first", "author":
+    {"id": "https://openalex.org/A5023862767", "display_name": "Ragab Khalil"'
+- claim: OpenAlex gives the first author's affiliations as including Assiut University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01jaj8n65,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Ragab Khalil", "raw_affiliation_strings": ["Civil Engineering
+    Department, Faculty of Engineering, Assiut University, Egypt | Department of Civil Engineering,
+    College of Engineering and Information Technology, Onaizah Colleges, Saudi Arabia"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

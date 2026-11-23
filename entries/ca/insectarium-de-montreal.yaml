@@ -1,0 +1,42 @@
+id: insectarium-de-montreal
+kind: organisation
+name: Insectarium de Montréal
+also_known_as:
+- Montreal Insectarium
+scope: ca
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- ca
+scale: local
+status: active
+website: https://espacepourlavie.ca/en/insectarium
+summary: Insect museum in Montréal where, AFP reports, some of the data collection for the
+  Antenna AI insect monitoring project happens.
+facts:
+- claim: AFP reports that some Antenna data collection happens inside the insectarium.
+  url: https://www.gpsdaily.com/reports/Canada_AI_project_hopes_to_help_reverse_mass_insect_extinction_999.html
+  fetched: '2026-10-31'
+  quote: some of the data collection is happening inside the insectarium
+- claim: GBIF record describes its scientific collections.
+  url: https://api.gbif.org/v1/organization/d1596a2e-9c4f-46f7-a859-81d40fb35822
+  fetched: '2026-10-31'
+  quote: scientific collections are composed of more than 225
+links:
+- type: uses
+  to: antenna-insect-data-platform
+  url: https://www.gpsdaily.com/reports/Canada_AI_project_hopes_to_help_reverse_mass_insect_extinction_999.html
+  fetched: '2026-10-31'
+  quote: some of the data collection is happening inside the insectarium
+found_by:
+- register:ca
+added_by: agent
+checked: '2026-10-31'

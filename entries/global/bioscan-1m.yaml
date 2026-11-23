@@ -1,0 +1,28 @@
+id: bioscan-1m
+kind: dataset
+name: BIOSCAN-1M
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- edna-genomics
+status: active
+website: https://github.com/bioscan-ml/BioScan-1M
+summary: Data set of one million insect specimens with DNA barcodes, taxonomy and images, used in TreeOfLife-10M.
+facts:
+- claim: 1M insect specimens with DNA barcodes, taxonomy and images.
+  url: https://github.com/bioscan-ml/BioScan-1M
+  fetched: '2026-10-30'
+  quote: A dataset of 1M insect specimens with DNA barcodes, taxonomy, and images.
+links:
+- type: run-by
+  to: centre-for-biodiversity-genomics
+  url: https://biodiversitygenomics.net/projects/1m-insects/
+  fetched: '2026-10-30'
+  quote: "BIOSCAN-1M Insect Dataset Cataloging insect biodiversity with a new large dataset of hand-labelled insect images In an effort to catalog insect biodiversity, we propose a new large dataset"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

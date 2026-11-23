@@ -1,0 +1,37 @@
+id: imaging-flowcytobot-golfo-di-napoli
+kind: project
+name: Imaging FlowCytobot in the Gulf of Naples
+scope: it
+ai_label: ai
+realms:
+- ocean
+techniques:
+- computer-vision
+status: active
+summary: SZN's installation of an Imaging FlowCytobot on its Meda B buoy, the first in the
+  Mediterranean according to SZN. Machine learning identifies plankton from its images.
+facts:
+- claim: SZN says this is the first installation in the Mediterranean.
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: la prima installazione in assoluto nel Mar Mediterraneo
+- claim: Installed on the SZN Meda B buoy, capturing up to 30,000 images an hour.
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: L'IFCB è installato sulla boa elastica Meda B della SZN
+- claim: Machine learning algorithms identify species, shapes and sizes automatically.
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: la mole enorme di dati viene analizzata da algoritmi di machine learning che identificano
+    automaticamente specie, forme e dimensioni degli organismi
+links:
+- type: run-by
+  to: stazione-zoologica-anton-dohrn
+  url: https://szn.it/index.php/it/news/news/11793-la-stazione-zoologica-anton-dohrn-avvia-il-monitoraggio-robotizzato-del-plancton-nel-golfo-di-napoli
+  fetched: '2026-10-31'
+  quote: La Stazione Zoologica Anton Dohrn (SZN) mette in funzione l’ Imaging FlowCytobot
+    (IFCB) nel Golfo di Napoli
+found_by:
+- link-from:stazione-zoologica-anton-dohrn
+added_by: agent
+checked: '2026-10-31'

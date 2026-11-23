@@ -1,0 +1,29 @@
+id: ai-hub-wildlife-activity-video-data
+kind: dataset
+name: AI-Hub wildlife activity video data
+also_known_as:
+- 야생동물 활동 영상 데이터
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+summary: A dataset covering 11 species, with 500 hours of raw video and over 270,000 annotated images,
+  supplied with a YOLOv5 object detector as its model.
+facts:
+- claim: Covers 11 species with 500 hours of raw video and over 270,000 annotated images.
+  url: https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=120&dataSetSn=645&topMenu=
+  fetched: '2026-11-02'
+  quote: 총 11종에 대해 주/야간 및 장비 형태별로 원시데이터(영상) 500시간 수집 및 이미지 어노테이션 27만장 이상 구축
+- claim: Provided model is a YOLOv5 object detector.
+  url: https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=120&dataSetSn=645&topMenu=
+  fetched: '2026-11-02'
+  quote: Object Detection 모델로서 YOLOv5 모델을 활용, 야생동물 이미지를 학습하여 종을 판별
+links: []
+found_by:
+- checklist:2
+scope: kr
+status: active
+added_by: agent
+checked: '2026-11-02'
+runner: unknown

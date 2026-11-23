@@ -1,0 +1,31 @@
+id: technion-israel-institute-of-technology
+kind: organisation
+name: Technion – Israel Institute of Technology
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: An active organisation; a 2023 paper whose first author is affiliated with it concerns
+  estimating biodiversity from environmental drivers using machine and deep learning.
+facts:
+- claim: A 2023 paper whose first author is affiliated with Technion concerns biodiversity
+    estimation from environmental drivers using machine and deep learning.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03qryx823,concepts.id:C18903297,concepts.id:C119857082|C154945302|C108583219,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Biodiversity estimation by environment drivers using machine/deep learning for ecological
+    management
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

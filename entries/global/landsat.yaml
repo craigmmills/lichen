@@ -1,0 +1,41 @@
+id: landsat
+kind: programme
+name: Landsat
+scope: global
+roles: [supplies-data]
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+scale: global
+status: active
+website: https://landsat.gsfc.nasa.gov
+summary: Joint NASA and USGS satellite programme that provides the longest continuous space-based record of Earth's land.
+countries:
+- py
+facts:
+- claim: Provides the longest continuous space-based record of Earth's land.
+  url: https://landsat.gsfc.nasa.gov/
+  fetched: 2026-10-30
+  quote: The NASA/USGS Landsat program provides the longest continuous space-based record of Earth’s land in existence.
+- claim: 'Provides the longest continuous space-based record of Earth''s land.'
+  url: https://landsat.gsfc.nasa.gov
+  fetched: 2026-10-30
+  quote: 'The NASA/USGS Landsat program provides the longest continuous space-based record of Earth’s land in existence.'
+links:
+- type: run-by
+  to: nasa
+  url: https://landsat.gsfc.nasa.gov/
+  fetched: 2026-10-30
+  quote: The NASA/USGS Landsat program
+- type: run-by
+  to: united-states-geological-survey
+  url: https://landsat.gsfc.nasa.gov/
+  fetched: 2026-10-30
+  quote: The NASA/USGS Landsat program
+found_by:
+- global:multilaterals
+added_by: agent
+checked: 2026-10-30

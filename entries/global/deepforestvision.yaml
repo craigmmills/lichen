@@ -1,0 +1,45 @@
+id: deepforestvision
+kind: model
+name: DeepForestVision
+scope: global
+runner: unknown
+ai_label: ai
+ai_types: [deep-learning]
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- ga
+- ug
+status: active
+summary: Open camera trap classifier for African tropical forests, working on photos and videos offline. Version 2 was trained on a multi-country corpus.
+facts:
+- claim: The paper calls it the only open African forest camera trap tool with a matched offline workflow for photos and videos.
+  url: https://arxiv.org/html/2606.20223
+  fetched: '2026-10-30'
+  quote: DeepForestVision is the only one providing a matched offline workflow for both ph
+- claim: Built on a multi-country labelled corpus.
+  url: https://arxiv.org/html/2606.20223
+  fetched: '2026-10-30'
+  quote: We assembled a multi-country corpus of labeled camera-trap data from African tropical forests
+- claim: "DeepForestVision fine-tuned a pretrained ViT classifier."
+  url: https://arxiv.org/html/2606.20223
+  fetched: '2026-10-30'
+  quote: "For classification, we fine-tuned a pretrained DINOv3 ViT-B/16 on MegaDetector crops (threshold 0.5) in PyTorch."
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: museum-national-dhistoire-naturelle
+  url: https://arxiv.org/html/2606.20223
+  fetched: '2026-10-30'
+  quote: "DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests Hugo Magaldi Affiliation: UMR7206 Eco-Anthropologie, MNHN, Paris, France"
+- type: funded-by
+  to: one-forest-vision-initiative
+  url: https://arxiv.org/html/2606.20223
+  fetched: '2026-10-30'
+  quote: "The authors thank the Fondation pour la Nature et l’Homme, Fondation Prince Albert 2 de Monaco, Fonds Français pour l’Environnement Mondial, and the One Forest Vision initiative, funded by the French Ministry of Higher Education"
+found_by:
+- checklist:regional-research-networks
+added_by: agent
+checked: '2026-10-30'

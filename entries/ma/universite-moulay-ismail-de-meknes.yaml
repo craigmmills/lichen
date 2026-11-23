@@ -1,0 +1,56 @@
+id: universite-moulay-ismail-de-meknes
+kind: organisation
+name: Université Moulay Ismail de Meknès
+also_known_as:
+- Moulay Ismail University
+scope: ma
+sector: academic
+roles:
+- uses-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ma
+countries:
+- ma
+scale: national
+status: active
+summary: OpenAlex lists this Moroccan university in Meknès with affiliated papers on forest
+  fire mapping (2021), rosemary biomass (2021) and Azrou forest land cover (2018).
+facts:
+- claim: Its researchers were first and last authors of a 2021 paper applying remote sensing
+    and machine learning algorithms to forest fire mapping in a Mediterranean area, according
+    to OpenAlex.
+  url: https://api.openalex.org/works/W3166182933
+  fetched: 2026-11-08
+  quote: Application of remote sensing and machine learning algorithms for forest fire mapping
+    in a Mediterranean area
+- claim: OpenAlex lists the affiliation address as Moulay Ismail University, Zitoune, Meknès.
+  url: https://api.openalex.org/works/W3166182933
+  fetched: 2026-11-08
+  quote: Moulay Ismail University,Zitoune, Mekn
+- claim: OpenAlex lists it as an institution in Morocco.
+  url: https://api.openalex.org/institutions?filter=ror:02m8tb249|03xc55g68|04xf6nm78|05f8qcz72|03c4shz64|036kgyt43|006sgpv47|04cnscd67|00r8w8f84|001q4kn48|04efg9a07|02wj89n04|01z3b4937|01ejxf797|051hckb40&select=display_name,ror,homepage_url,country_code,type&per-page=50
+  fetched: '2026-11-08'
+  quote: '"homepage_url": "https://www.umi.ac.ma/", "country_code": "MA"'
+- claim: OpenAlex lists a 2021 paper with Hassan Chafik as first author, affiliated with Université
+    Moulay Ismail de Meknès, on machine learning and remote sensing for mapping rosemary cover
+    biomass.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: Machine Learning and Remote Sensing in Mapping and Estimating Rosemary Cover Biomass
+- claim: OpenAlex lists a 2018 paper with Meriame Mohajane as first author, affiliated with
+    Université Moulay Ismail de Meknès, on land use and land cover in the Azrou forest from
+    Landsat series.
+  url: https://api.openalex.org/works?filter=institutions.country_code:ma,primary_topic.subfield.id:2309|1105|2303,topics.subfield.id:1702|1707|1903,publication_year:>2017&per-page=100&select=id,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: in Azrou Forest, in the Central Middle Atlas of Morocco
+links: []
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

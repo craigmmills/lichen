@@ -1,0 +1,37 @@
+id: jimma-university
+kind: organisation
+name: Jimma University
+scope: et
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University that OpenAlex lists as the affiliation of the first author of a 2026 paper
+  on machine learning algorithms for land cover image classification in south-west Ethiopia.
+facts:
+- claim: OpenAlex lists a 2026 paper on machine learning algorithms for land cover image classification
+    in south-west Ethiopia.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=10
+  fetched: '2026-11-08'
+  quote: 'Relative performance of multiple machine learning algorithms for land cover image
+    classification in an urbanized landscape over Southwest Ethiopia: implications for landscape
+    management'
+- claim: OpenAlex lists Wakjira Takala Dibaba, first author of that paper, at Jimma University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=10
+  fetched: '2026-11-08'
+  quote: '"display_name": "Wakjira Takala Dibaba", "orcid": "https://orcid.org/0000-0002-9359-2142",
+    "observed_orcids": ["https://orcid.org/0000-0002-9359-2142"]}, "institutions": [{"id":
+    "https://openalex.org/I1443707", "display_name": "Jimma University"'
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

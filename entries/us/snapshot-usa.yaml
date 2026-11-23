@@ -1,0 +1,45 @@
+id: snapshot-usa
+kind: project
+name: SNAPSHOT USA
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+runner: unknown
+summary: Nationwide camera trap survey of US mammals involving more than 150 scientists,
+  with data archived in the Smithsonian's eMammal database.
+facts:
+- claim: First nationwide mammal survey, with data in eMammal.
+  url: https://www.eurekalert.org/news-releases/642862
+  fetched: '2026-10-30'
+  quote: All the data are archived at the Smithsonian Institution's eMammal database
+- claim: Coordinated by the Smithsonian since 2019.
+  url: https://www.uri.edu/news/2025/03/camera-trap-images-from-uris-north-woods-survey-contribute-to-nationwide-research-project/
+  fetched: '2026-10-30'
+  quote: Coordinated by the Smithsonian since 2019, Snapshot USA is a multi-contributor,
+    long-term effort to sample mammal populations.
+links:
+- type: uses
+  to: emammal
+  url: https://www.eurekalert.org/news-releases/642862
+  fetched: '2026-10-30'
+  quote: "All the data are archived at the Smithsonian Institution's eMammal database"
+- type: partners-with
+  to: smithsonian-conservation-biology-institute
+  url: https://www.eurekalert.org/news-releases/642862
+  fetched: '2026-10-30'
+  quote: "scientists from the North Carolina Museum of Natural Sciences and the Smithsonian Conservation Biology Institute recently collaborated with more than 150 scientists"
+- type: partners-with
+  to: north-carolina-museum-of-natural-sciences
+  url: https://www.eurekalert.org/news-releases/642862
+  fetched: '2026-10-30'
+  quote: scientists from the North Carolina Museum of Natural Sciences and the Smithsonian
+    Conservation Biology Institute recently collaborated with more than 150 scientists
+found_by:
+- checklist:7
+- link-from:smithsonian-conservation-biology-institute
+added_by: agent
+checked: '2026-10-30'

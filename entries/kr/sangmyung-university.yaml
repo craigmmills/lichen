@@ -1,0 +1,29 @@
+id: sangmyung-university
+kind: organisation
+name: Sangmyung University
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+scale: national
+summary: University whose authors appear on a 2022 paper listed in OpenAlex.
+facts:
+- claim: OpenAlex lists the 2022 paper with Sangmyung University authors.
+  url: https://api.openalex.org/works?filter=authorships.countries:KR,title_and_abstract.search:camera%20trap%20wildlife%20deep%20learning,from_publication_date:2020-01-01&sort=cited_by_count:desc&per_page=20&select=id,title,publication_year,cited_by_count,authorships
+  fetched: '2026-11-02'
+  quote: 'Image Classification of Amazon Parrots by Deep Learning: A Potentially Useful Tool
+    for Wildlife Conservation'
+  ai_type: deep-learning
+found_by:
+- checklist:3
+scope: kr
+status: active
+hq: unknown
+added_by: agent
+checked: '2026-11-02'

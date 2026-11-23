@@ -1,0 +1,108 @@
+id: direction-des-ressources-forestieres-togo
+kind: organisation
+name: Direction des ressources forestières
+also_known_as:
+- DRF
+scope: tg
+sector: government
+roles:
+- governs
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+- freshwater
+hq: tg
+countries:
+- tg
+scale: national
+status: active
+summary: Togolese forest directorate created within the environment ministry in 2013, coordinating wildlife
+  and plant inventories, with 27 GBIF datasets; its director is Togo’s primary CBD focal point.
+facts:
+- claim: Its director is listed by the CBD as Togo's primary national focal point for the Convention.
+  url: https://www.cbd.int/countries/nfp/?country=tg
+  fetched: 2026-11-08
+  quote: CBD Primary NFP
+- claim: The directorate has a division of protected areas and wildlife, whose head is Togo's SBSTTA and
+    protected areas focal point.
+  url: https://www.cbd.int/countries/nfp/?country=tg
+  fetched: 2026-11-08
+  quote: Chef division des aires protégées et de la faune
+- claim: Was the lead organisation of a 2020 to 2021 BIOPAMA grant to equip and train the surveillance
+    brigade of the Mono transboundary biosphere reserve.
+  url: https://action.biopama.org/wp-content/uploads/2021/01/STG_WA570_InfoFiche_RB_final.pdf
+  fetched: 2026-11-08
+  quote: Organisation principale
+- claim: Its GBIF registry description says it was created in 2013 as a technical directorate of the Ministry
+    of Environment and Forest Resources.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: est une direction technique du Ministère de l’environnement été des ressources forestières créée
+    en 2013
+- claim: The same description lists coordinating fauna and flora inventories among its duties.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: assurer la coordination des inventaires fauniques et floristiques
+- claim: The same description lists following the procedures for designating and de-designating protected
+    areas among its duties.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: assurer le suivi des procédures de classement et déclassement des aires protégées
+- claim: GBIF's registry gives its address as 52 Rue de la Kozah, Lomé.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: 52, QAD, Rue de la Kozah, BP 355, Lomé-Togo
+- claim: GBIF's registry lists 27 datasets published by it.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: '"numPublishedDatasets":27'
+- claim: Its GBIF record says it was formed from the merger of the Direction des Eaux et Forêts and the
+    Direction de la Faune et de la Chasse.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: Elle est donc issue de la fusion de deux directions techniques notamment la Direction des Eaux
+    et Forêts (DEF) et de la Direction de la Faune et de la Chasse (DFC).
+- claim: Its GBIF record says it coordinates wildlife and plant inventories.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: assurer la coordination des inventaires fauniques et floristiques ;
+- claim: Its GBIF record says it follows the procedures for classifying and declassifying protected areas.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: assurer le suivi des procédures de classement et déclassement des aires protégées ;
+- claim: Its GBIF record says it implements policies for protecting forest resources and managing fragile
+    ecosystems and wetlands.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: protection des ressources forestières et de gestion des écosystèmes fragiles et des zones humides
+    ;
+- claim: Publishes on GBIF the plant species recorded in the 2017 forest inventory of the Missahoe classified
+    forest.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Espèces végétales inventoriées dans les formations et strates de la forêt classée de Missahoe
+    au Togo en 2017.
+- claim: Publishes on GBIF Togo's data from the International Waterbird Census in Africa.
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: Données de Dénombrements Internationaux des Oiseaux d'Eau en Afrique(TOGO)
+links:
+- type: run-by
+  to: ministere-de-l-environnement-togo
+  url: https://action.biopama.org/wp-content/uploads/2021/01/STG_WA570_InfoFiche_RB_final.pdf
+  fetched: 2026-11-08
+  quote: Direction des ressources forestières; ministère de l'environnement, du développement durable
+    et de la protection de la nature
+- type: run-by
+  to: ministere-de-l-environnement-togo
+  url: https://api.gbif.org/v1/organization/50e959f4-fec1-44b7-9e03-04fab5cfd3c3
+  fetched: 2026-11-08
+  quote: est une direction technique du Ministère de l’environnement été des ressources forestières
+found_by:
+- checklist:1
+- link-from:gbif-togo
+- checklist:register
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,42 @@
+id: centre-for-geographic-information-systems-and-remote-sensing-university-of-rwanda
+kind: organisation
+name: Centre for Geographic Information Systems and Remote Sensing, University of
+  Rwanda
+also_known_as:
+- CGIS-UR
+scope: rw
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: rw
+countries:
+- rw
+scale: national
+status: active
+summary: Active University of Rwanda centre whose researchers, with Rwandan forestry
+  and space agency authors, appear on a 2026 paper on national scale tree counting
+  by remote sensing.
+facts:
+- claim: OpenAlex records the 2026 paper "A Remote Sensing-Based Solution for National
+    Scale Tree Counting" in the Journal of Remote Sensing, with first author Maurice
+    Mugabowindekwe affiliated first to this centre.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7168571083&select=id,display_name,publication_year,primary_location,authorships
+  fetched: '2026-11-12'
+  quote: Centre for Geographic Information Systems and Remote Sensing, College of
+    Science and Technology,
+- claim: The same record lists a second author from the centre, Elias Nyandwi, and
+    authors from the Rwanda Forestry Authority and the Rwanda Space Agency's Department
+    of Earth Observation.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7168571083&select=id,display_name,publication_year,primary_location,authorships
+  fetched: '2026-11-12'
+  quote: '"raw_author_name": "Elias Nyandwi"'
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

@@ -1,0 +1,62 @@
+id: national-university-of-mongolia
+kind: organisation
+name: National University of Mongolia
+also_known_as:
+- Монгол Улсын Их Сургууль
+- МУИС
+- NUM
+scope: mn
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- mn
+scale: national
+status: active
+website: https://www.num.edu.mn
+summary: Mongolian university describing itself as the country's first, 82 years old; a 2023 paper by
+  an affiliated author applied random forest machine learning to MODIS data on Dornod forest fires, and
+  its herbarium holds about 20,000 sheets.
+facts:
+- claim: Describes itself as Mongolia's first (oldest) university, 82 years old.
+  url: https://www.num.edu.mn
+  fetched: 2026-11-08
+  quote: 82 жил болж буй Монгол Улсын ууган их сургууль
+- claim: A 2023 Asian Conference on Remote Sensing paper with first author Tsolmonbayar Shagdar, affiliated
+    with NUM's School of Engineering and Applied Science, applies machine learning to predict and analyse
+    forest fires in Dornod province.
+  url: https://acrs-aars.org/proceeding/ACRS2023/Sensors%20and%20Platforms/ACRS2023407.pdf
+  fetched: 2026-11-08
+  quote: This paper focuses on predicting a machin e-learning method and analysing forest fires.
+- claim: The paper's first author, Tsolmonbayar Shagdar, is listed with affiliation 1, the School of Engineering
+    and Applied Science, National University of Mongolia.
+  url: https://acrs-aars.org/proceeding/ACRS2023/Sensors%20and%20Platforms/ACRS2023407.pdf
+  fetched: 2026-11-08
+  quote: 1School of Engineering and Applied Science, National University of Mongolia, Ulaanbaatar, Mongolia
+- claim: The paper uses random forest classification, a supervised machine learning method, on MODIS data.
+  ai_type: ml-supervised
+  url: https://acrs-aars.org/proceeding/ACRS2023/Sensors%20and%20Platforms/ACRS2023407.pdf
+  fetched: 2026-11-08
+  quote: 'KEY WORDS: Machine learning, random forest classification, MODIS'
+- claim: The paper trained the random forest model on data from 2015 and 2019.
+  url: https://acrs-aars.org/proceeding/ACRS2023/Sensors%20and%20Platforms/ACRS2023407.pdf
+  fetched: 2026-11-08
+  quote: Data from 2015 and 2019 were used to train the Random Forest classification model.
+- claim: Its Department of Biology herbarium (UBU) holds about 20,000 sheets, according to a note on a
+    national digital herbarium on the Botanic Garden and Research Institute's site.
+  url: https://cdn.gosmart.mn/a1OvFsCBkE_MtZ3ntAk__A/botany.admin/DynamicOffice/info_digital_herbarium_2020-11-10%281%29.pdf
+  fetched: 2026-11-08
+  quote: МУИС -ийн Биологийн тэнхимийн Ургамлын сан (Herbarium UB U) 20 мянган
+links: []
+found_by:
+- register:mn
+added_by: agent
+checked: 2026-11-08

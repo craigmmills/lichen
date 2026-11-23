@@ -1,0 +1,48 @@
+id: geoai-cubes
+kind: dataset
+name: GeoAI-Cubes
+scope: es
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+summary: Spatial and temporal database from several Earth observation sensors, aligned
+  by pixel and labelled with the Land Cover Map of Catalonia, for training AI models.
+facts:
+- claim: A spatial and temporal database from different sensors.
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: GeoAI-Cubes is a spatial and temporal database from different sensors designed
+    to provide pre-processed information from a variety of Earth observation systems
+- claim: Optimised for training geospatial AI models.
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: The dataset is optimized to efficiently train artificial intelligence models
+    focused on geospatial applications.
+- claim: An initiative promoted by the Catalonia Space 2030 Strategy.
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: Geoaicube is an initiative promoted by the Catalonia Space 2030 Strategy
+links:
+- type: run-by
+  to: institut-cartografic-i-geologic-de-catalunya
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: Contains Sentinel Copernicus data modified by the ICGC.
+- type: builds-on
+  to: land-cover-map-of-catalonia
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: with the labeling of the Land Cover Map of Catalonia
+- type: builds-on
+  to: sentinel-2
+  url: https://www.icgc.cat/en/Geoinformation-and-Maps/Maps/GeoAI-Cubes-training-Artificial-Intelligence-Earth-Observation
+  fetched: '2026-10-31'
+  quote: Contains Sentinel Copernicus data modified by the ICGC.
+found_by:
+- link-from:institut-cartografic-i-geologic-de-catalunya
+added_by: agent
+checked: '2026-10-31'

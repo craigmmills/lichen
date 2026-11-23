@@ -1,0 +1,35 @@
+id: astrazeneca
+kind: organisation
+name: AstraZeneca
+scope: global
+sector: company
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- ke
+scale: global
+summary: Pharmaceutical company whose AZ Forest programme funds tree planting in Kenya, reported
+  with an AI monitoring system.
+facts:
+- claim: Committed to planting up to six million trees in Kenya.
+  url: https://www.techinafrica.com/kenya-implements-groundbreaking-ai-system-to-nurture-6-million-trees/
+  quote: AstraZeneca has committed to planting up to six million trees in Kenya as part of
+    its AZ Forest program
+  fetched: '2026-10-31'
+links:
+- type: runs
+  to: az-forest-kenya
+  url: https://www.techinafrica.com/kenya-implements-groundbreaking-ai-system-to-nurture-6-million-trees/
+  quote: AstraZeneca has committed to planting up to six million trees in Kenya as part of
+    its AZ Forest program
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

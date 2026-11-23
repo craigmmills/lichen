@@ -1,0 +1,40 @@
+id: university-of-tras-os-montes-and-alto-douro
+kind: organisation
+name: University of Trás-os-Montes and Alto Douro
+also_known_as:
+- Universidade de Trás-os-Montes e Alto Douro
+- UTAD
+scope: pt
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- pt
+scale: national
+status: active
+summary: University whose affiliated first authors are listed by OpenAlex on a 2024 machine
+  learning paper on forest fire risk and a 2023 paper using pre-fire LiDAR to predict fire
+  severity in central Portugal.
+facts:
+- claim: OpenAlex lists a 2024 paper on forest fire risk prediction with machine learning
+    whose first author is at UTAD.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I155381812,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Forest Fire Risk Prediction Using Machine Learning
+- claim: OpenAlex lists a 2023 paper using pre-fire LiDAR to predict fire severity in central
+    Portugal whose first author is at UTAD.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I155381812,primary_topic.subfield.id:1104|1105|2303|2309|1910|2306|1903|1107,keywords.id:keywords/deep-learning|keywords/machine-learning|keywords/convolutional-neural-network|keywords/artificial-intelligence|keywords/random-forest,publication_year:>2017&per_page=25&sort=cited_by_count:desc&select=title,publication_year,doi,authorships
+  fetched: 2026-11-08
+  quote: Using Pre-Fire High Point Cloud Density LiDAR Data to Predict Fire Severity in Central
+    Portugal
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

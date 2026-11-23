@@ -1,0 +1,44 @@
+id: monitoreo-paso-del-jaguar
+kind: project
+name: Monitoreo Paso del Jaguar
+also_known_as: []
+scope: cr
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- species-distribution
+countries:
+- cr
+status: unknown
+summary: Camera-trap project run by Panthera Costa Rica in the Barbilla Destierro sub-corridor, monitoring
+  since 2009 with cameras from 2012; data fed a jaguar habitat use model.
+facts:
+- claim: Uses camera traps to gather information on animal populations in the Barbilla Destierro sub-corridor.
+  url: https://pantheracostarica.org/
+  fetched: 2026-11-08
+  quote: Por medio de cámaras trampa este proyecto constantemente recopila información sobre el estado
+    de las poblaciones animales en el Subcorredor Biológico Barbilla Destierro
+- claim: The project page says monitoring in the sub-corridor has run since 2009, with camera trap sampling
+    from 2012.
+  url: https://pantheracostarica.org/nuestros-proyectos/monitoreo-paso-del-jaguar/
+  fetched: 2026-11-08
+  quote: A partir del 2012 se inició el muestreo con cámaras-trampa, con el propósito de identificar mejor
+    a las distintas especies que frecuentan el área.
+- claim: The page says the data were used to build a habitat use probability model for the jaguar and
+    other species.
+  url: https://pantheracostarica.org/nuestros-proyectos/monitoreo-paso-del-jaguar/
+  fetched: 2026-11-08
+  quote: Los datos recopilados han permitido construir un modelo de probabilidad de uso de hàbitat para
+    el jaguar y otras especies de la zona.
+links:
+- type: run-by
+  to: panthera-costa-rica
+  url: https://pantheracostarica.org/
+  fetched: 2026-11-08
+  quote: Nuestros proyectos Monitoreo Paso del Jaguar
+found_by:
+- register:gbif-publisher
+- link-from:panthera-costa-rica
+added_by: agent
+checked: 2026-11-08

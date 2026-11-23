@@ -1,0 +1,33 @@
+id: bioko-wild-meat-market-survey-data
+kind: dataset
+name: Bioko wild meat market survey data
+scope: gq
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- other
+status: unknown
+summary: Wild meat survey data from Bioko public markets, counted as carcasses visible
+  on sale, collected by market monitors from 1998 to 2021 and curated by Bioko Biodiversity
+  Protection Program staff, according to a 2024 article.
+facts:
+- claim: The 2024 article says carcass counts were completed from visible products
+    on sale in public markets.
+  url: https://doi.org/10.1371/journal.pstr.0000139
+  fetched: 2026-11-13
+  quote: Data on carcass counts were completed based on visible products available
+    for sale in public markets.
+- claim: The article thanks wildlife market monitors for collecting wild meat survey
+    data from 1998 to 2021, and thanks the staff of the Bioko Biodiversity Protection
+    Program for curating the wildlife monitoring data.
+  url: https://doi.org/10.1371/journal.pstr.0000139
+  fetched: 2026-11-13
+  quote: We thank the staff of the Bioko Biodiversity Protection Program for curating
+    the wildlife monitoring data.
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13
+runner: unknown

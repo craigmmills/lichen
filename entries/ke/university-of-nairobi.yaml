@@ -1,0 +1,59 @@
+id: university-of-nairobi
+kind: organisation
+name: University of Nairobi
+scope: ke
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ke
+countries:
+- ke
+scale: national
+status: active
+summary: Kenyan university whose Department of Geospatial and Space Technology co-authored
+  deep learning land-cover mapping of Kenya, and a host of the Earth Observation Innovation
+  Labs.
+facts:
+- claim: Its Department of Geospatial and Space Technology has a Nairobi address.
+  url: https://isprs-archives.copernicus.org/articles/XLVIII-4-W21-2025/19/2026/
+  quote: Department of Geospatial and Space Technology, University of Nairobi, Nairobi P.O.
+    Box 30197-00100, Kenya
+  fetched: &id001 2026-10-31
+- claim: The paper's title.
+  url: https://isprs-archives.copernicus.org/articles/XLVIII-4-W21-2025/19/2026/
+  fetched: '2026-10-31'
+  quote: Deep Noisy-Label Learning Based Cross-Resolution Land-Cover Mapping in Kenya
+- claim: Space in Africa says it was chosen as a host for the inaugural Earth Observation
+    Innovation Labs.
+  url: https://spaceinafrica.com/2025/05/23/university-of-nairobi-and-taita-taveta-university-to-host-inaugural-earth-observation-innovation-labs/
+  fetched: '2026-10-31'
+  quote: the University of Nairobi and Taita Taveta University were chosen as the hosts for
+    the inaugural EO Innovation Labs
+- claim: KLISC gives P.O. Box 30197, Nairobi.
+  url: https://klisc.or.ke/membership/university-of-nairobi
+  fetched: '2026-10-31'
+  quote: P.O.Box 30197, GPO, Nairobi, Kenya
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: *id001
+links:
+- type: partners-with
+  to: asili-sensa
+  url: https://www.exeter.ac.uk/research/centres/environmental-intelligence/asili-sensa/
+  fetched: '2026-10-31'
+  quote: at University of Nairobi, Center for Ecosystem Restoration (Limuru), and Mpala Research
+    Center (Laikipia)
+- type: partners-with
+  to: earth-observation-innovation-laboratories
+  url: https://spaceinafrica.com/2025/05/23/university-of-nairobi-and-taita-taveta-university-to-host-inaugural-earth-observation-innovation-labs/
+  fetched: '2026-10-31'
+  quote: the University of Nairobi and Taita Taveta University were chosen as the hosts for
+    the inaugural EO Innovation Labs

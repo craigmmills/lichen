@@ -1,0 +1,35 @@
+id: ispot
+kind: project
+name: iSpot
+scope: gb
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+status: closed
+website: https://ispotnature.org/
+summary: Citizen science identification project developed and run by The Open University,
+  whose website has closed; its British Isles observations remain on GBIF.
+facts:
+- claim: Publishes the dataset "iSpot British Isles observations" on GBIF.
+  url: https://api.gbif.org/v1/organization/d8cff202-56a8-4a7b-beaf-783b7837187f/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: iSpot British Isles observations
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/d8cff202-56a8-4a7b-beaf-783b7837187f/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+links:
+- type: run-by
+  to: the-open-university
+  url: https://api.gbif.org/v1/organization/d8cff202-56a8-4a7b-beaf-783b7837187f
+  fetched: '2026-10-30'
+  quote: It is a citizen science project developed and run by The Open University
+    (OU).
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

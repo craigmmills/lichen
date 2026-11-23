@@ -1,0 +1,39 @@
+id: oceankind
+kind: organisation
+name: Oceankind
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+website: https://www.oceankind.org
+summary: Philanthropy whose stated mission is to improve the health of ocean ecosystems by
+  advancing policy, science and technology. It is a funder of Global Fishing Watch and a partner
+  in the sustainable fisheries initiative of Schmidt Marine Technology Partners.
+facts:
+- claim: States that it seeks to advance the policy, science and technology needed to reverse
+    threats to the ocean.
+  url: https://www.oceankind.org/
+  quote: We seek to advance the policy, science, and technology necessary to reverse the growing
+    threats facing our oceans.
+  fetched: &id001 2026-10-30
+- claim: Listed among the philanthropic partners and institutional donors on Global Fishing
+    Watch's financials page.
+  url: https://globalfishingwatch.org/?p=13515
+  quote: Oceankind
+  fetched: *id001
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://globalfishingwatch.org/?p=13515
+  quote: Oceankind
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

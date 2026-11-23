@@ -1,0 +1,42 @@
+id: catalogo-fotoidentificacion-ballenas-jorobadas-el-salvador
+kind: dataset
+name: Catálogo de fotoidentificación de Ballenas Jorobadas de El Salvador
+scope: sv
+ai_label: data-infrastructure
+realms:
+- ocean
+countries:
+- sv
+status: active
+summary: Dataset described in a report as El Salvador's first humpback whale photo-identification
+  catalogue, holding data collected up to 2023, built by Proyecto Megaptera El Salvador
+  and funded by FIAES.
+facts:
+- claim: A report on elsalvador.com describes it as El Salvador's first humpback whale
+    photo-identification catalogue.
+  url: https://www.elsalvador.com/?p=1135410
+  fetched: 2026-11-12
+  quote: El Salvador cuenta con el primer Catálogo de fotoidentificación de Ballenas
+    Jorobadas
+- claim: The report says the catalogue holds data collected up to 2023.
+  url: https://www.elsalvador.com/?p=1135410
+  fetched: 2026-11-12
+  quote: El documento contiene información recolectada hasta 2023.
+links:
+- type: built-by
+  to: proyecto-megaptera-el-salvador
+  url: https://www.elsalvador.com/?p=1135410
+  fetched: 2026-11-12
+  quote: El catálogo fue compilado por Proyecto Megaptera El Salvador (PMES)
+- type: funded-by
+  to: fondo-de-inversion-ambiental-de-el-salvador
+  url: https://www.elsalvador.com/?p=1135410
+  fetched: 2026-11-12
+  quote: El catálogo fue presentado recientemente por el Fondo de Inversión Ambiental
+    de El Salvador (FIAES) como un esfuerzo por abordar los desafíos ambientales que
+    enfrenta el país, a través del apoyo técnico y financiero otorgado a Fundación
+    Naturaleza El Salvador.
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

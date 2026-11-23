@@ -1,0 +1,50 @@
+id: cuba-coastline-vector-model-sentinel-2
+kind: dataset
+name: Vector model of the Cuban archipelago coastline from Sentinel-2
+also_known_as: []
+scope: cu
+ai_label: data-infrastructure
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+countries:
+- cu
+status: active
+summary: A vector model of the Cuban archipelago coastline made from Sentinel-2 imagery, reported by Prensa
+  Latina to reach 94 per cent overall accuracy at 1:25 000 scale, within ECOATLAS.
+facts:
+- claim: Prensa Latina reports that the vector model of the coastline was made from Sentinel-2 imagery
+    and remote sensing and published in the journal of the Centro Nacional de Áreas Protegidas.
+  url: https://www.prensa-latina.cu/?p=1726461
+  fetched: 2026-11-09
+  quote: Un modelo vectorial de la línea costera del archipiélago cubano, elaborado con imágenes del satélite
+    Sentinel-2 y técnicas de teledetección, fue publicado en la revista Espacios Naturales Protegidos
+    del Centro Nacional de Áreas Protegidas de Cuba.
+- claim: It reports an overall accuracy of 94 per cent at 1:25 000 scale.
+  url: https://www.prensa-latina.cu/?p=1726461
+  fetched: 2026-11-09
+  quote: alcanzó una exactitud global del 94 por ciento y una escala de 1:25 000
+- claim: The work is part of the international ECOATLAS project on mapping marine and coastal habitats.
+  url: https://www.prensa-latina.cu/?p=1726461
+  fetched: 2026-11-09
+  quote: La investigación forma parte del proyecto internacional ECOATLAS, orientado a fortalecer las
+    capacidades para la construcción de mapas de hábitats marino-costeros
+links:
+- type: led-by
+  to: centro-de-estudios-ambientales-de-cienfuegos
+  url: https://www.prensa-latina.cu/?p=1726461
+  fetched: 2026-11-09
+  quote: El estudio, liderado por el Centro de Estudios Ambientales de Cienfuegos (CEAC) junto al ENEA
+    – Centro Ricerche Ambiente Marino Santa Teresa de Italia
+- type: led-by
+  to: enea-centro-ricerche-ambiente-marino-santa-teresa
+  url: https://www.prensa-latina.cu/?p=1726461
+  fetched: 2026-11-09
+  quote: El estudio, liderado por el Centro de Estudios Ambientales de Cienfuegos (CEAC) junto al ENEA
+    – Centro Ricerche Ambiente Marino Santa Teresa de Italia
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-09

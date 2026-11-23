@@ -1,0 +1,64 @@
+id: cloudferro
+kind: organisation
+name: CloudFerro
+also_known_as:
+- CloudFerro S.A.
+scope: pl
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: pl
+scale: global
+status: active
+summary: Polish company that EGI says delivers cloud platforms for space, climate research
+  and science, and that runs and builds the Copernicus Data Space Ecosystem.
+facts:
+- claim: The Copernicus Data Space Ecosystem site says it stores Earth observation data repositories
+    of more than 100 PB and does AI-based processing of large datasets.
+  url: https://dataspace.copernicus.eu/node/563
+  fetched: '2026-11-02'
+  quote: CloudFerro specializes in storing and AI-based processing large-scale datasets, including
+    Earth Observation satellite data repositories with a total capacity exceeding 100 PB.
+- claim: A Polish government company listing gives a Warsaw address.
+  url: https://polishdefenceindustry.gov.pl/?p=9125
+  fetched: '2026-11-02'
+  quote: 00-446 Warszawa
+- claim: The government portal's profile says it designs, delivers and operates major platforms.
+  url: https://polishdefenceindustry.gov.pl/en/company/cloudferro-s-a-2/
+  fetched: '2026-11-02'
+  quote: We design, deliver, and operate major cloud-based platforms, including CREODIAS,
+    CODE-DE, WEkEO, the Copernicus Data Space Ecosystem, the Destination Earth Data Lake,
+    and EO-Lab.
+- claim: The AGH Space Technology Centre lists it in the Polish Partnership for Earth Observation.
+  url: https://ctk.agh.edu.pl/en/news/detail/polish-partnership-for-earth-observation-established
+  fetched: '2026-11-02'
+  quote: 'Seven companies have also joined the collaboration: CloudFerro, Creotech Instruments,
+    KP Labs, ITTI, Blue Dot Solutions, GISPartner, and Eycore.'
+links:
+- type: partners-with
+  to: copernicus-data-space-ecosystem
+  url: https://dataspace.copernicus.eu/node/563
+  fetched: '2026-11-02'
+  quote: Service provider CloudFerro
+- type: runs
+  to: copernicus-data-space-ecosystem
+  url: https://polishdefenceindustry.gov.pl/en/company/cloudferro-s-a-2/
+  fetched: '2026-11-02'
+  quote: We design, deliver, and operate major cloud-based platforms, including CREODIAS,
+    CODE-DE, WEkEO, the Copernicus Data Space Ecosystem
+- type: builds
+  to: copernicus-data-space-ecosystem
+  url: https://polishdefenceindustry.gov.pl/en/company/cloudferro-s-a-2/
+  fetched: '2026-11-02'
+  quote: We design, deliver, and operate major cloud-based platforms, including CREODIAS,
+    CODE-DE, WEkEO, the Copernicus Data Space Ecosystem
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'

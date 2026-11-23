@@ -1,0 +1,48 @@
+id: atlas-forestier-interactif-du-cameroun
+kind: dataset
+name: Atlas Forestier Interactif du Cameroun
+also_known_as:
+- Interactive Forest Atlas of Cameroon
+scope: cm
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- cm
+status: active
+summary: Interactive forest atlas of Cameroon, built by MINFOF and WRI, with a protected-area layer updated
+  as official documents appear and data licensed CC-BY 4.0.
+facts:
+- claim: Its protected-area layer is updated as new official documents become available.
+  url: https://gis.forest-atlas.org/server/rest/services/cmr/conservation_forestier_fr/MapServer/layers
+  fetched: 2026-11-08
+  quote: Cette couche est continuellement mise à jour, suivant la disponibilité des nouveaux documents
+    officiels
+- claim: The map service says the data are under a CC-BY 4.0 licence and were produced with support from
+    USAID, the Norwegian environment ministry and DFID.
+  url: https://gis.forest-atlas.org/server/rest/services/cmr/conservation_forestier_fr/MapServer/layers
+  fetched: 2026-11-08
+  quote: Ce jeu de données est sous licence Creative Commons Attribution 4.0 License international (CC-BY)
+- claim: A 2011 summary (version 3.0) described it as a forest information system hosted by MINFOF and
+    managed by a joint MINFOF and WRI team.
+  url: https://assets.forest-atlas.org/cmr/resources/reports/cmr_atlas_v3_fr.pdf
+  fetched: 2026-11-08
+  quote: de représentants du MINFOF et du World Resources Institute (WRI).
+links:
+- type: built-by
+  to: ministere-des-forets-et-de-la-faune-cameroun
+  url: https://gis.forest-atlas.org/server/rest/services/cmr/conservation_forestier_fr/MapServer/layers
+  fetched: 2026-11-08
+  quote: Ce jeu de données est produit par le MINFOF et WRI
+- type: built-by
+  to: world-resources-institute
+  url: https://gis.forest-atlas.org/server/rest/services/cmr/conservation_forestier_fr/MapServer/layers
+  fetched: 2026-11-08
+  quote: Ce jeu de données est produit par le MINFOF et WRI
+runner: unknown
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

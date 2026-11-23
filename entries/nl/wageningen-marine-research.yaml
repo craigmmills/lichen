@@ -1,0 +1,50 @@
+id: wageningen-marine-research
+kind: organisation
+name: Wageningen Marine Research
+sector: academic
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- ocean
+- freshwater
+techniques:
+- bioacoustics
+hq: nl
+scale: national
+status: active
+website: https://www.wur.nl/en/about-wur/our-research/wageningen-marine-research
+countries:
+- nl
+summary: Part of Wageningen University & Research, it studies marine, coastal and freshwater
+  systems and uses passive acoustic monitoring of harbour porpoises in monitoring programmes
+  for Dutch offshore wind farms.
+facts:
+- claim: Studies how marine, coastal and freshwater systems function, are used and can be
+    protected.
+  url: https://www.wur.nl/en/about-wur/our-research/wageningen-marine-research
+  fetched: &id001 2026-10-31
+  quote: Wageningen Marine Research studies how marine, coastal and freshwater systems function,
+    are used and can be protected.
+- claim: Has three research locations in the Netherlands.
+  url: https://www.wur.nl/en/about-wur/our-research/wageningen-marine-research
+  fetched: *id001
+  quote: Wageningen Marine Research has three research locations throughout the Netherlands
+    at its disposal.
+- claim: Says it holds the hardware and software to collect and analyse passive acoustic monitoring
+    data.
+  url: https://www.wur.nl/en/research/products-services/passive-acoustic-monitoring-harbour-porpoises-pam
+  fetched: *id001
+  quote: Wageningen Marine Research is an expert in the field of PAM and possesses all necessary
+    hardware and software to collect, analyse, interpret and report data.
+links:
+- type: run-by
+  to: wageningen-university-and-research
+  url: https://www.wur.nl/en/about-wur/our-research/wageningen-marine-research
+  fetched: *id001
+  quote: As part of Wageningen University & Research
+found_by:
+- link-from:wageningen-university-and-research
+scope: nl
+added_by: agent
+checked: *id001

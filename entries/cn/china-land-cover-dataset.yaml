@@ -1,0 +1,35 @@
+id: china-land-cover-dataset
+kind: dataset
+name: China Land Cover Dataset
+also_known_as:
+- CLCD
+scope: cn
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+scale: national
+runner: unknown
+status: active
+countries:
+- cn
+summary: A 30 metre annual land cover dataset for China from 1990 to 2019, published by Jie
+  Yang and Xin Huang of Wuhan University.
+facts:
+- claim: A 30 metre annual land cover dataset for China from 1990 to 2019.
+  url: https://doi.org/10.5194/ESSD-13-3907-2021
+  fetched: '2026-10-31'
+  quote: The 30 m annual land cover dataset and its dynamics in China from 1990 to 2019
+- claim: The paper names a random forest classifier.
+  url: https://essd.copernicus.org/articles/13/3907/2021/
+  fetched: '2026-10-31'
+  quote: and fed to the random forest classifier to obtain classification results
+  ai_type: ml-supervised
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-10-31'
+ai_types:
+- ml-supervised

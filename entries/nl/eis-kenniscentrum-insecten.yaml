@@ -1,0 +1,77 @@
+id: eis-kenniscentrum-insecten
+kind: organisation
+name: EIS Kenniscentrum Insecten
+sector: ngo
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: Dutch insect knowledge centre that provides entomological expertise to DIOPSIS and
+  annotates insect photographs used to train its algorithm.
+scope: nl
+facts:
+- claim: Provides entomological expertise and annotates insect photographs for training the
+    DIOPSIS algorithm.
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Entomologische expertise, annotatie van insectenfoto’s voor het trainen van het algoritme.
+- claim: Studies and publishes information on Dutch invertebrates.
+  url: https://www.naturalis.nl/en/science/researchers/roy-kleukers
+  fetched: &id001 2026-10-31
+  quote: EIS studies and publishes information on Dutch invertebrates.
+- claim: Listed among the species organisations on the NDFF site.
+  url: https://ndff.nl/natuurdata/waarnemen-en-aanleveren/soortenorganisaties/
+  fetched: '2026-10-31'
+  quote: EIS Kenniscentrum Insecten
+- claim: Worked on developing the DIOPSIS system from early 2019.
+  url: https://www.naturalis.nl/wetenschap/diopsis-insectencamera
+  fetched: '2026-10-31'
+  quote: wordt er door EIS Kenniscentrum Insecten, Naturalis Biodiversity Center, Radboud
+    Universiteit en COSMONiO gewerkt aan de ontwikkeling van een nieuw monitoringssysteem
+    voor insecten
+- claim: NatureToday reports that experts of Naturalis, Radboud University Nijmegen and EIS
+    trained the software.
+  url: https://www.naturetoday.com/intl/en/nature-reports/message/?msg=25214
+  fetched: '2026-10-31'
+  quote: experts of Naturalis Biodiversity Center, Radboud University Nijmegen and insect
+    knowledge center EIS got together and trained the software
+links:
+- type: partners-with
+  to: diopsis
+  url: https://diopsis.eu/en/partners/
+  fetched: '2026-10-31'
+  quote: Entomologische expertise, annotatie van insectenfoto’s voor het trainen van het algoritme.
+- type: partners-with
+  to: diopsis
+  url: https://www.naturalis.nl/en/science/diopsis-insect-camera
+  fetched: *id001
+  quote: Since the beginning of 2019, EIS Knowledge Center for Insects, Naturalis Biodiversity
+    Center, Radboud University and COSMONiO have been working on the development of a new
+    monitoring system for insects.
+- type: partners-with
+  to: naturalis-biodiversity-center
+  url: https://www.naturetoday.com/intl/en/nature-reports/message/?msg=25214
+  fetched: '2026-10-31'
+  quote: experts of Naturalis Biodiversity Center, Radboud University Nijmegen and insect
+    knowledge center EIS got together and trained the software
+found_by:
+- checklist:4
+- link-from:naturalis-biodiversity-center
+- link-from:diopsis
+- register:nl
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+also_known_as:
+- EIS Knowledge Center for Insects
+- EIS-Nederland
+- European Invertebrate Survey (EIS) - The Netherlands
+- EIS Nederland
+techniques:
+- computer-vision

@@ -1,0 +1,32 @@
+id: aima-mosquito-alert
+kind: model
+name: AIMA
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+countries:
+- es
+summary: AI algorithm in Mosquito Alert that identifies invasive species in citizens'
+  images in under five minutes and alerts health authorities to detections in new
+  areas.
+facts:
+- claim: Identifies invasive species in under five minutes.
+  url: https://www.ceab.csic.es/en/?p=17204
+  quote: The new artificial intelligence algorithm, AIMA, enables the identification
+    of invasive species in under five minutes
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: mosquito-alert
+  url: https://www.ceab.csic.es/en/?p=17204
+  quote: The Mosquito Alert initiative has launched a new system based on artificial
+    intelligence
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+scope: es
+added_by: agent
+checked: '2026-10-31'

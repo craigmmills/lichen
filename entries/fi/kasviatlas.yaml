@@ -1,0 +1,37 @@
+id: kasviatlas
+kind: dataset
+name: Kasviatlas
+also_known_as:
+- Suomen putkilokasvien levinneisyyskartasto
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+summary: Plant distribution atlas based on the Kastikka database, begun in the mid-1960s,
+  which held about 7.8 million plant observations by October 2022, with maps online
+  since 2007.
+facts:
+- claim: The atlas is based on the Kastikka plant database maintained by the museum's
+    botany and mycology unit.
+  url: https://www.helsinki.fi/fi/luomus/havainnot-ja-seurannat/kasviatlas
+  fetched: '2026-11-08'
+  quote: Kasviatlaksen eli Suomen putkilokasvien levinneisyyskartaston perustana on
+    Luonnontieteellisen keskusmuseon kasvi- ja sienitieteen yksikön ylläpitämä Kastikka-kasvistotietokanta.
+- claim: The database, begun in the mid-1960s, held about 7.8 million plant observations
+    by October 2022.
+  url: https://www.helsinki.fi/fi/luomus/havainnot-ja-seurannat/kasviatlas
+  fetched: '2026-11-08'
+  quote: lokakuuhun 2022 mennessä siihen oli tallennettu noin 7,8 miljoonaa kasvihavaintoa
+- claim: The maps have been available as a browser service directly from the Kastikka
+    database since 2007.
+  url: https://www.helsinki.fi/fi/luomus/havainnot-ja-seurannat/kasviatlas
+  fetched: '2026-11-08'
+  quote: Vuodesta 2007 lähtien kartat ovat olleet saatavilla selainkäyttöisenä palveluna
+    suoraan Kastikka-tietokannasta.
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'
+runner: unknown

@@ -1,0 +1,46 @@
+id: ethiopia-national-forest-monitoring-system
+kind: programme
+name: Ethiopia National Forest Monitoring System
+scope: et
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- et
+status: unknown
+runner: unknown
+summary: System described in a 2014 presentation as including satellite monitoring
+  and a forest inventory designed with 630 sampling units; an FAO summary reports
+  one inventory completed with 539 units.
+facts:
+- claim: A 2014 presentation by Ethiopia's National REDD+ Coordinator lists the NFMS
+    functions as a satellite land monitoring system, national forest inventory, greenhouse
+    gas inventory, remote sensing, web interface and community monitoring.
+  url: https://un-redd.org/sites/default/files/2021-10/03_09_05_Ethiopia%E2%80%99s%20National%20Forest%20Monitoring%20System%20for%20REDD%2B.pdf
+  fetched: 2026-11-12
+  quote: Satellite Land Monitoring System
+- claim: The 2014 presentation describes a systematic national forest inventory design
+    with 630 sampling units nationwide.
+  url: https://un-redd.org/sites/default/files/2021-10/03_09_05_Ethiopia%E2%80%99s%20National%20Forest%20Monitoring%20System%20for%20REDD%2B.pdf
+  fetched: 2026-11-12
+  quote: 630 SUs distributed nation-wide, each sampling units having a cluster of
+    plots and subplots.
+- claim: The 2014 presentation describes land use and land cover mapping in progress,
+    with wall-to-wall image analysis and Landsat 8, ERDAS and ArcGIS 10.1.
+  url: https://un-redd.org/sites/default/files/2021-10/03_09_05_Ethiopia%E2%80%99s%20National%20Forest%20Monitoring%20System%20for%20REDD%2B.pdf
+  fetched: 2026-11-12
+  quote: Landsat 8, ERDAS and ArcGIS 10.1
+- claim: An FAO project summary reports one national forest inventory completed with
+    data from 539 sampling units, and one national and four regional MRV systems.
+  url: https://openknowledge.fao.org/server/api/core/bitstreams/15e2c8f9-b126-4ee1-8123-919defe9f2df/content
+  fetched: 2026-11-12
+  quote: One NFI completed with data collected from 539 sampling units.
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

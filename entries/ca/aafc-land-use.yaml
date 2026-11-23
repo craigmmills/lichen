@@ -1,0 +1,33 @@
+id: aafc-land-use
+kind: dataset
+name: AAFC Land Use
+also_known_as:
+- AAFC Land Use Time Series
+scope: ca
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ca
+status: active
+summary: Time series that consolidates spatial datasets into a 30 m pixel history
+  of what happened on the land in Canada.
+facts:
+- claim: Described as a curated meta-analysis of spatial datasets produced between
+    2000 and 2021.
+  url: https://donnees.iriu.ca/fr/dataset/339b8b7c-8b4f-43d6-8c3b-362ba1da4a29
+  fetched: '2026-10-31'
+  quote: is a culmination and curated meta-analysis of several high-quality spatial
+    datasets produced between 2000 and 2021
+links:
+- type: run-by
+  to: agriculture-and-agri-food-canada
+  url: https://donnees.iriu.ca/fr/dataset/339b8b7c-8b4f-43d6-8c3b-362ba1da4a29
+  fetched: '2026-10-31'
+  quote: Agriculture and Agri-Food Canada | Agriculture et Agroalimentaire Canada
+found_by:
+- link-from:agriculture-and-agri-food-canada
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,92 @@
+id: naturkart
+kind: dataset
+name: Naturkart
+scope: 'no'
+summary: Dataset under early development by the Norwegian Environment Agency with five partners, using
+  remote sensing and AI to give a national map of possible nature types, with a first version expected
+  in spring 2027.
+facts:
+- claim: The goal is a national map giving the possible nature type for any area.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: Målet er å lage et nasjonalt kart der man for et hvert areal kan få informasjon om hvilken naturtype
+    som kan finnes der.
+- claim: A first version is expected in spring 2027.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: En første versjon er ventet å være klar våren 2027.
+- claim: AI models are trained on reference data with remote sensing data such as satellite images and
+    aerial photographs.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: Kunstig intelligens-modeller læres opp til å kjenne igjen naturtyper ved å bruke referansedataene,
+    sammen med fjernmålingsdata som for eksempel satellittbilder og flybilder.
+- claim: It follows up a measure in Norway's action plan for biodiversity.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: Utvikling av dette kartet følger opp tiltak i norsk handlingsplan for naturmangfold
+- claim: Remote sensing and AI are being used to develop the map.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: tas fjernmåling og kunstig intelligens i bruk for å utvikle kartet som vi kaller for naturkart.
+- claim: AI models learn to recognise nature types from reference data and remote sensing.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: Kunstig intelligens-modeller læres opp til å kjenne igjen naturtyper ved å bruke referansedataene
+- claim: Under development and at an early stage, with a first version expected in spring 2027.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: &id001 2026-11-02
+  quote: Naturkartet er under utvikling og er fortsatt i en tidlig fase. En første versjon er ventet å
+    være klar våren 2027.
+- claim: 'Developed in four parts: mountain, lowland, lime availability and marine.'
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: *id001
+  quote: 'Kalk: Et forbedret kalkkart skal vise områder hvor kalk er tilgjengelig for vegetasjon.'
+links:
+- type: built-by
+  to: norwegian-environment-agency
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: Miljødirektoratet utvikler nå testkart for de ulike delene av naturkart.
+- type: partners-with
+  to: field-geospatial
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: 'Lavland: utvikles av Field i samarbeid med Sàllir natur og Norce.'
+- type: partners-with
+  to: norce
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: 'Lavland: utvikles av Field i samarbeid med Sàllir natur og Norce.'
+- type: partners-with
+  to: geological-survey-of-norway
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: '2026-11-02'
+  quote: 'Kalk: utvikles i samarbeid med Norges Geologiske Undersøkelse (NGU).'
+- type: partners-with
+  to: norwegian-institute-for-water-research
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: *id001
+  quote: 'Marint: utvikles av Norsk institutt for vannforskning (NIVA) i samarbeid med Norsk regnesentral
+    og Field.'
+- type: partners-with
+  to: norwegian-computing-center
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+  fetched: *id001
+  quote: 'Marint: utvikles av Norsk institutt for vannforskning (NIVA) i samarbeid med Norsk regnesentral
+    og Field.'
+found_by:
+- checklist:2
+- link-from:norwegian-environment-agency
+added_by: agent
+checked: '2026-11-02'
+ai_label: ai
+status: active
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+website: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/naturkart/
+countries:
+- 'no'

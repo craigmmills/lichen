@@ -1,0 +1,29 @@
+id: wildtechalert
+kind: model
+name: WildTechAlert
+scope: my
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- my
+status: unknown
+runner: unknown
+summary: Deep learning models for real-time detection of elephants from sound, described in a 2024 paper
+  whose first author is Yen Yi Loo.
+facts:
+- claim: A 2024 paper with first author Yen Yi Loo describes deep learning models for real-time detection
+    of elephants from sound.
+  url: https://api.openalex.org/works/W4398180406
+  fetched: 2026-11-03
+  quote: 'WildTechAlert: Deep Learning Models for Real-Time Detection of Elephant Presence Using Bioacoustics
+    in an Early Warning System to Support Human-Elephant Coexistence'
+  ai_type: deep-learning
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

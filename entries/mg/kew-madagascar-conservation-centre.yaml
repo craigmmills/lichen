@@ -1,0 +1,40 @@
+id: kew-madagascar-conservation-centre
+kind: programme
+name: Kew Madagascar Conservation Centre
+also_known_as:
+- KMCC
+scope: mg
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- mg
+status: unknown
+runner: unknown
+summary: Kew programme in Madagascar listed by GBIF for research, collection holdings and biodiversity
+  information management, with datasets including a Poaceae checklist after Bosser's 1969 book and georeferenced
+  TAN herbarium grass specimens.
+facts:
+- claim: GBIF lists it under the title Kew Madagascar Conservation Centre - Royal Botanic Gardens Kew,
+    with a focus on research, collection holdings and biodiversity information management.
+  url: https://api.gbif.org/v1/organization/27b44945-6a9a-4d3d-a19e-81b5335592d2
+  fetched: 2026-11-08
+  quote: Research focus, collection holdings and biodiversity information management.
+- claim: One of its GBIF datasets is a checklist of all Poaceae species occurring in Madagascar according
+    to Jean Bosser's 1969 book.
+  url: https://api.gbif.org/v1/organization/27b44945-6a9a-4d3d-a19e-81b5335592d2/publishedDataset?limit=4
+  fetched: 2026-11-08
+  quote: This checklist contains all Poaceae species which occur in Madagascar according to the list in
+    Jean Bosser’s book.
+- claim: Another dataset holds records of grass specimens from the TAN herbarium at Tsimbazaza; the KMCC
+    team georeferenced the old specimens.
+  url: https://api.gbif.org/v1/organization/27b44945-6a9a-4d3d-a19e-81b5335592d2/publishedDataset?limit=4
+  fetched: 2026-11-08
+  quote: KMCC team have done the georeferencing of the old specimen by using the webs georeferencing tools
+links: []
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

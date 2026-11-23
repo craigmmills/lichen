@@ -1,0 +1,72 @@
+id: forest-research-and-management-organization
+kind: organisation
+name: Forest Research and Management Organization
+also_known_as:
+- 国立研究開発法人森林研究・整備機構
+- 森林総合研究所
+- FFPRI
+scope: jp
+sector: government
+roles:
+- unknown
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://www.ffpri.go.jp/
+summary: Tsukuba-based body whose statutory work covers forest research and surveys, and whose 2024 annual
+  report lists projects on tropical forest biodiversity from satellite images, wildlife monitoring methods
+  and AI-based land-use change detection; it runs the REDD-plus centre.
+facts:
+- claim: Its statutory work includes tests, research, surveys and analysis on forests and forestry.
+  url: https://www.ffpri.go.jp/outline/objective.html
+  fetched: 2026-11-02
+  quote: 森林及び林業に関する試験及び研究、調査、分析、鑑定並びに講習を行うこと。
+- claim: Address in Tsukuba.
+  url: https://www.ffpri.go.jp/outline/objective.html
+  fetched: 2026-11-02
+  quote: 〒305-8687　茨城県つくば市松の里1
+- claim: Its 2024 annual report lists a project on estimating tropical forest biodiversity from satellite
+    images and mapping it.
+  url: https://www.ffpri.go.jp/pubs/nenpo/documents/2024nenpo.pdf
+  fetched: 2026-11-02
+  quote: 衛星画像から広大な熱帯林の生物多様性を推定するモデルの開発と多様性情報の地図化
+- claim: Its 2024 annual report lists a project on establishing wildlife population monitoring methods.
+  url: https://www.ffpri.go.jp/pubs/nenpo/documents/2024nenpo.pdf
+  fetched: 2026-11-02
+  quote: 野生動物の個体数モニタリング手法の確立
+- claim: Its forest management department lists work on forest measurement, remote sensing and airborne
+    laser measurement.
+  url: https://www.ffpri.go.jp/research/1forestry/04f-manage/index.html
+  fetched: '2026-11-02'
+  quote: 森林計測、リモートセンシング、航空レーザ森林計測、ドローン
+- claim: Shows an estimate of felling over 35 years from satellite images.
+  url: https://www.ffpri.go.jp/research/1forestry/04f-manage/index.html
+  fetched: '2026-11-02'
+  quote: 衛星画像による過去35年間の伐採箇所の推定
+- claim: Its 2024 annual report says a project aims to develop a method for identifying land-use change
+    over time, by applying AI to satellite images and using satellite LiDAR data.
+  url: https://www.ffpri.go.jp/pubs/nenpo/documents/2024nenpo.pdf
+  fetched: 2026-11-02
+  quote: 衛星画像への AI の応用や衛星 LiDAR に
+links:
+- type: runs
+  to: ffpri-redd-plus-center
+  url: https://redd.ffpri.go.jp/technical/monitoring03_ja.html
+  fetched: 2026-11-02
+  quote: 国立研究開発法人 森林研究・整備機構 森林総合研究所
+found_by:
+- checklist:2
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02
+techniques:
+- remote-sensing
+- computer-vision

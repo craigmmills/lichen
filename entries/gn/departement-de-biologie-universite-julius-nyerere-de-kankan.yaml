@@ -1,0 +1,46 @@
+id: departement-de-biologie-universite-julius-nyerere-de-kankan
+kind: organisation
+name: Département de Biologie, Université Julius Nyerere de Kankan
+scope: gn
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gn
+countries:
+- gn
+scale: local
+status: active
+summary: University biology department named as the affiliation of first authors on
+  a 2022 Landsat study of sacred forests in the upper Niger basin of Guinea and a
+  2026 paper on fire dynamics in the Bonama protected forest.
+facts:
+- claim: OpenAlex records a 2022 paper using Landsat images for a diachronic analysis
+    of the spatial dynamics of sacred forests in the upper Niger basin of Guinea.
+  url: https://api.openalex.org/works/W4205832151?select=id,display_name,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: aux images LANDSAT de la dynamique spatiale des for
+- claim: The paper's first author is affiliated to the biology department of the Université
+    Julius Nyerere de Kankan.
+  url: https://api.openalex.org/works/W4205832151?select=id,display_name,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: partement de biologie/universit
+- claim: OpenAlex gives the publication year as 2022, with the first author in first
+    position.
+  url: https://api.openalex.org/works/W4205832151?select=id,display_name,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: '"publication_year":2022,"authorships":[{"author_position":"first"'
+- claim: The first author of a 2026 paper analysing fire dynamics in the Bonama protected
+    forest in Lola, Guinea, is affiliated to the department.
+  url: https://api.openalex.org/works/W7225125941?select=id,display_name,doi,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Department of Biology, Faculty of Natural Sciences, Julius Nyerere University
+    of Kankan (UJNK), Kankan, Guinea
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

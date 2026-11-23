@@ -1,0 +1,36 @@
+id: sami-shamoon-college-of-engineering
+kind: organisation
+name: Sami Shamoon College of Engineering
+also_known_as: []
+scope: il
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+hq: unknown
+countries:
+- il
+scale: national
+status: active
+summary: Engineering college whose affiliated first author wrote a 2022 paper on urban plant
+  classification using deep learning on a new dataset.
+facts:
+- claim: A 2022 paper whose first author is affiliated with Sami Shamoon College of Engineering
+    concerns urban plant classification with deep learning on a new dataset.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03syp5w68|01539v588|024hcay96|04hwjfc40|00sfwx025|05dhprc49|004af2v94|02prqh017|002kenh51|011aa4g29|05tg57g61,concepts.id:C18903297|C111368507,concepts.id:C119857082|C154945302|C108583219|C62649853,from_publication_date:2019-01-01&sort=cited_by_count:desc&per-page=50&select=id,doi,title,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: 'Urban Plants Classification Using Deep-Learning Methodology: A Case Study on a New
+    Dataset'
+  ai_type: deep-learning
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

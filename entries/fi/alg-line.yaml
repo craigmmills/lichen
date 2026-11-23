@@ -1,0 +1,34 @@
+id: alg-line
+kind: programme
+name: Alg@line
+scope: fi
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- other
+status: active
+summary: Syke-led monitoring network, which Syke says has operated for over thirty years, with ferryboxes
+  on ships collecting seawater data automatically.
+facts:
+- claim: Syke says the network has been operational for over thirty years.
+  url: https://www.syke.fi/en/about-us/news/condition-baltic-sea-has-been-monitored-ferries-over-30-years
+  quote: The Alg@line monitoring network, which automatically tracks the condition of the Baltic Sea,
+    has been operational for over thirty years.
+  fetched: '2026-11-02'
+- claim: Ferryboxes on ships collect seawater data automatically.
+  url: https://www.syke.fi/en/about-us/news/condition-baltic-sea-has-been-monitored-ferries-over-30-years
+  quote: The real-time observations are carried out with equipment installed on ships, known as Ferryboxes,
+    which automatically collect data of seawater as it flows through them while the ship moves.
+  fetched: '2026-11-02'
+links:
+- type: led-by
+  to: finnish-environment-institute
+  url: https://www.syke.fi/en/about-us/news/condition-baltic-sea-has-been-monitored-ferries-over-30-years
+  fetched: '2026-11-02'
+  quote: Coordinated by the Finnish Environment Institute, the Alg@line network integrates commercial
+    maritime traffic with real-time scientific observations.
+found_by:
+- link-from:finnish-environment-institute
+added_by: agent
+checked: '2026-11-02'

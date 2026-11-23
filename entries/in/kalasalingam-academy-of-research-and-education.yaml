@@ -1,0 +1,33 @@
+id: kalasalingam-academy-of-research-and-education
+kind: organisation
+name: Kalasalingam Academy of Research and Education
+scope: in
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+scale: national
+status: active
+summary: University named by OpenAlex as the affiliation of K. Madhav Varma, first
+  author of a 2026 paper on vision-based elephant behaviour and posture recognition.
+facts:
+- claim: OpenAlex lists K. Madhav Varma, affiliated with its computer science department,
+    as first author of a 2026 paper on vision-based elephant behaviour and posture
+    recognition for human-elephant conflict mitigation.
+  url: https://api.openalex.org/works/W7154339087?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Vision-Based Elephant Behavior and Posture Recognition for Early Human
+- claim: OpenAlex gives the first author's affiliation as this university.
+  url: https://api.openalex.org/works/W7154339087?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Dept of CSE , Kalasalingam Academy of Research and Education , Krishnankoil
+    , India
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

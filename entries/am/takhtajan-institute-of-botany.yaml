@@ -1,0 +1,64 @@
+id: takhtajan-institute-of-botany
+kind: organisation
+name: A.L. Takhtajan Institute of Botany
+also_known_as:
+- Institute of Botany of the National Academy of Sciences of Armenia
+- A.L.Takhtajan Institute of Botany Yerevan
+scope: am
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: am
+countries:
+- am
+scale: national
+status: active
+summary: Botany institute run by the National Academy of Sciences of Armenia; its GBIF record says its
+  herbarium holds over 500,000 specimens and is being digitised.
+facts:
+- claim: Its GBIF publisher record says the institute's ERE herbarium holds over 500,000 specimens, mainly
+    from Armenia and the Caucasus, and that the collection is being digitised.
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5
+  fetched: 2026-11-08
+  quote: The herbarium of the Institute of Botany (ERE) contains over 500.000 of herbarium specimens of
+    which collected mainly from Armenia and the Caucasus region, including numerous type specimens.
+- claim: Its GBIF publisher record says the herbarium is inventoried in the JACQ collection management
+    system.
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5
+  fetched: 2026-11-08
+  quote: Inventory of the herbarium is done using the JACQ collection management system and digitizing
+    of the collections is continuously made.
+- claim: Its GBIF publisher record lists studies of vegetation change in Armenia and publication of the
+    Flora of Armenia and the Red Data Book of Armenia among its main fields.
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5
+  fetched: 2026-11-08
+  quote: studies of the dynamics of the vegetation changes in Armenia 5) publication of the Flora of Armenia
+    and the Red Data Book of Armenia.
+- claim: The herbarium's specimen records are published on GBIF as an occurrence dataset under a CC BY
+    4.0 licence.
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5/publishedDataset
+  fetched: 2026-11-08
+  quote: National Academy of Sciences of Republic of Armenia - Institute of Botany - Herbarium ERE
+- claim: Its GBIF publisher record gives an address on Achyryan Street, Yerevan.
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5
+  fetched: 2026-11-08
+  quote: Achyryan Street 1
+links:
+- type: run-by
+  to: national-academy-of-sciences-of-armenia
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5
+  fetched: 2026-11-08
+  quote: The A.L. Takhtajan Institute of Botany of the Armenian National Academy of Sciences was established
+    in 1938.
+- type: uses
+  to: jacq
+  url: https://api.gbif.org/v1/organization/d3fa50b3-ed10-420a-a289-5c0a60dadbf5
+  fetched: 2026-11-08
+  quote: Inventory of the herbarium is done using the JACQ collection management system
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-08

@@ -1,0 +1,46 @@
+id: university-of-papua-new-guinea
+kind: organisation
+name: University of Papua New Guinea
+also_known_as:
+- UPNG
+scope: pg
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pg
+countries:
+- pg
+scale: national
+status: active
+summary: University whose Forest Monitoring Portal was described in an archived 2015
+  EU page as mapping clearing, logging and fire, and whose Centre for Biodiversity
+  and Natural Products is listed by GBIF as a data publisher.
+facts:
+- claim: An archived EU page dated 20 October 2015 described the university’s Forest
+    Monitoring Portal as collecting satellite imagery and mapping recent clearing,
+    logging and fire.
+  url: https://www.eeas.europa.eu/node/12267_en
+  fetched: 2026-11-12
+  quote: The Forest Monitoring Portal of the University of PNG collects satellite
+    imagery of forests, maps recent areas of clearing, logging and fire.
+- claim: GBIF lists its Centre for Biodiversity and Natural Products as a data publisher,
+    with an address at Biological Sciences, Box 320, University PO, Port Moresby.
+  url: https://api.gbif.org/v1/organization?country=PG&limit=50
+  fetched: 2026-11-12
+  quote: '"address":["Biological Sciences, Box 320, Uni PO"],"city":"Port Moresby"'
+- claim: GBIF describes the centre as a research establishment within the university
+    devoted to natural history collections, research and conservation.
+  url: https://api.gbif.org/v1/organization?country=PG&limit=50
+  fetched: 2026-11-12
+  quote: Centre for Biodiversity and Natural Products (CBNP) is a research establishment
+    within the University Papua New Guinea (UPNG)
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,52 @@
+id: forester-fire-suppression
+kind: project
+name: foRESTER
+also_known_as:
+- foRESTER - Data fusion of sensor networks and fire spread modelling for decision
+  support in forest fire suppression
+scope: pt
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+status: closed
+summary: Closed project funded by the Foundation for Science and Technology and run
+  by UNINOVA from March 2019 to January 2023, aiming to build a low-cost sensor network
+  supporting firefighting decisions.
+facts:
+- claim: DGT gives the project's status as concluded, its funder as the Foundation
+    for Science and Technology, and its period as March 2019 to January 2023.
+  url: https://www.dgterritorio.gov.pt/atividades/investigacao/projetos/foRESTER
+  fetched: 2026-11-08
+  quote: março 2019 - janeiro 2023
+- claim: Aimed to create a low-cost sensor network using new information systems technologies
+    to support decisions in firefighting.
+  url: https://www.dgterritorio.gov.pt/atividades/investigacao/projetos/foRESTER
+  fetched: 2026-11-08
+  quote: Criar uma rede sensorial de baixo custo utilizando novas tecnologias de sistemas
+    de informação para apoiar a tomada de decisões no contexto do combate ao fogo.
+- claim: DGT lists among the project's outputs a dissertation using recurrent neural
+    networks on a Sentinel-2 time series for land cover and land use classification.
+  url: https://www.dgterritorio.gov.pt/atividades/investigacao/projetos/foRESTER
+  fetched: 2026-11-08
+  quote: Using LUCAS survey and Recurrent Neural Networks to produce LCLU classification
+    based on a Satellite Image time series of Sentinel-2.
+  ai_type: deep-learning
+ai_types:
+- deep-learning
+links:
+- type: funded-by
+  to: fundacao-para-a-ciencia-e-a-tecnologia
+  url: https://www.dgterritorio.gov.pt/atividades/investigacao/projetos/foRESTER
+  fetched: 2026-11-08
+  quote: Fundação para a Ciência e Tecnologia
+- type: run-by
+  to: uninova
+  url: https://www.dgterritorio.gov.pt/atividades/investigacao/projetos/foRESTER
+  fetched: 2026-11-08
+  quote: Instituto de Desenvolvimento de Novas Tecnologias (UNINOVA/FCTUNL/UNL) (coordenação)
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

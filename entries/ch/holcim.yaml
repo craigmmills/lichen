@@ -1,0 +1,44 @@
+id: holcim
+kind: organisation
+name: Holcim
+scope: ch
+sector: company
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: global
+status: active
+website: https://holcim.com
+summary: Company that says it assessed its biodiversity baseline in all active and non-active
+  quarries in 2024 using BIRS, and plans to measure again by 2030.
+facts:
+- claim: Says it assessed its biodiversity baseline in all active and non-active quarries
+    in 2024 using BIRS.
+  url: https://holcim.com/biodiversity
+  fetched: '2026-11-08'
+  quote: In 2024 we achieved our goal of assessing 100% of our biodiversity baseline in all
+    our active and non-active quarries.
+- claim: Plans to measure its biodiversity level again by 2030.
+  url: https://holcim.com/biodiversity
+  fetched: '2026-11-08'
+  quote: We will measure our biodiversity level again by 2030.
+links:
+- type: uses
+  to: integrated-biodiversity-assessment-tool
+  url: https://holcim.com/biodiversity
+  fetched: '2026-11-08'
+  quote: We are using the Integrated Biodiversity Assessment Tool (IBAT) to support us in
+    prioritizing actions in high biodiversity areas.
+- type: partners-with
+  to: international-union-for-conservation-of-nature
+  url: https://holcim.com/biodiversity
+  fetched: '2026-11-08'
+  quote: We worked in partnership with the International Union for the Conservation of Nature
+    (IUCN) to develop a methodology to measure our biodiversity level.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

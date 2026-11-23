@@ -1,0 +1,44 @@
+id: naturbasen
+kind: project
+name: Naturbasen
+also_known_as:
+- Danmarks Nationale Artsportal
+scope: dk
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- dk
+scale: national
+status: active
+runner: unknown
+summary: Active citizen science project calling itself Denmark’s largest, reporting nationwide atlas surveys
+  and offering adult butterfly image recognition, with photographs requested for observations identified
+  using AI.
+facts:
+- claim: Calls itself Denmark's largest citizen science project.
+  url: https://apps.apple.com/dk/app/naturbasen/id531282316
+  fetched: '2026-11-02'
+  quote: Naturbasen er Danmarks største Citizen Science-projekt
+- claim: Runs nationwide atlas surveys.
+  url: https://apps.apple.com/dk/app/naturbasen/id531282316
+  fetched: '2026-11-02'
+  quote: Naturbasen kører en række landsdækkende atlaskortlægninger.
+- claim: Offers automatic image recognition for adult butterflies with five suggestions.
+  url: https://www.naturbasen.dk/hjaelp
+  fetched: '2026-11-02'
+  quote: kan du vælge at få hjælp af Naturbasens automatiske billedgenkendelse
+- claim: Tells users to submit a photograph if AI helped with identification.
+  url: https://www.naturbasen.dk/hjaelp
+  fetched: '2026-11-02'
+  quote: Hvis du har fået hjælp til bestemmelse af AI, bør du altid indberette din observationer med et
+    billede.
+found_by:
+- checklist:4
+- checklist:2
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision

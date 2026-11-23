@@ -1,0 +1,28 @@
+id: whoi-plankton
+kind: dataset
+name: WHOI-Plankton
+scope: global
+runner: unknown
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+summary: Benchmark dataset for fine-grained visual recognition of plankton, from a team including the Woods Hole Oceanographic
+  Institution.
+facts:
+- claim: Paper title gives it as a large-scale benchmark dataset for plankton classification.
+  url: https://ar5iv.labs.arxiv.org/html/1510.00745
+  quote: A Large Scale Fine Grained Visual Recognition Benchmark Dataset for Plankton Classification
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: woods-hole-oceanographic-institution
+  url: https://ar5iv.labs.arxiv.org/html/1510.00745
+  quote: Biology Department Woods Hole Oceanographic Institution
+  fetched: '2026-10-30'
+found_by:
+- link-from:planktonzilla
+added_by: agent
+checked: '2026-10-30'

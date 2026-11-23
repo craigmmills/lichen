@@ -1,0 +1,40 @@
+id: labri-sba-laboratory-esi-sidi-bel-abbes
+kind: organisation
+name: LabRI-SBA Laboratory, École Supérieure en Informatique de Sidi Bel Abbès
+also_known_as:
+- LabRI-SBA
+scope: dz
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+hq: dz
+countries:
+- dz
+scale: national
+status: active
+summary: A laboratory at a computer science school that is the affiliation of the
+  first author of a paper whose title covers deep transfer learning for forest fire
+  detection.
+facts:
+- claim: Affiliation of Achraf Nasser Eddine Belferd, the first author of the paper
+    on forest fire detection using deep transfer learning on a Raspberry Pi cluster.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: '"raw_author_name": "Achraf Nasser Eddine BELFERD", "raw_affiliation_strings":
+    ["LabRI-SBA Lab., Ecole Superieure en Informatique, Sidi Bel Abbes"]'
+- claim: The paper's title names deep transfer learning for forest fire detection.
+  url: https://api.openalex.org/works?filter=ids.openalex:W7147345949|W4412994205|W7165592860|W4415737320|W7147735129&select=id,title,authorships
+  fetched: 2026-11-12
+  quote: A scalable and cost-effective forest fire detection approach using deep transfer
+    learning on a Raspberry Pi cluster
+  ai_type: deep-learning
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

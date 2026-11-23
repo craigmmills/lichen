@@ -1,0 +1,69 @@
+id: deltares
+kind: organisation
+name: Deltares
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+scale: global
+status: active
+summary: Dutch research institute that developed Global Water Watch with the World Resources
+  Institute and WWF, using AI on earth observation data to give public information on freshwater
+  resources.
+scope: nl
+facts:
+- claim: PreventionWeb's republished notice calls it the Dutch research institute and developer
+    of Global Water Watch.
+  url: https://www.preventionweb.net/news/global-water-watch-platform-be-developed-deltares-wwf-and-wri-funded-google
+  fetched: '2026-10-31'
+  quote: To simulate access to water information, the Dutch research institute Deltares has
+- claim: The Dutch government says it will upgrade its basins with FTO support.
+  url: https://www.rijksoverheid.nl/actueel/nieuws/2025/11/14/105-miljoen-euro-voor-11-innovatieve-projecten-nederlandse-onderzoeksfaciliteiten
+  fetched: '2026-10-31'
+  quote: Deltares gaat met deze ondersteuning aan de slag voor een upgrade van haar bassins
+- claim: Named as co-initiator of Biodiversity in Focus.
+  url: https://www.witteveenbos.com/news/launch-of-the-biodiversity-in-focus-research-project
+  fetched: 2026-10-31
+  quote: an initiative by Witteveen+Bos and Deltares
+- claim: An independent knowledge institute for applied research on water and the subsurface.
+  url: https://www.deltares.nl/en/about-us
+  fetched: '2026-10-31'
+  quote: We are Deltares, an independent knowledge institute for applied research in the field
+    of water and subsurface.
+- claim: A non-profit foundation.
+  url: https://www.deltares.nl/en/about-us
+  fetched: '2026-10-31'
+  quote: Deltares is a non-profit foundation
+- claim: Works on several digital twin projects in Europe.
+  url: https://www.deltares.nl/en/expertise/projects/digital-twins
+  fetched: '2026-10-31'
+  quote: working on several key projects in Europe
+- claim: Uses AI (Random Forest) and Bayesian spatial models in a project on where oyster
+    and mussel reefs can recover.
+  url: https://www.deltares.nl/en/expertise/projects/ai-models-predict-where-reefs-can-recover
+  fetched: '2026-10-31'
+  quote: In this project, we use AI (Random Forest) and Bayesian spatial models
+  ai_type: ml-supervised
+links:
+- type: runs
+  to: global-water-watch
+  url: https://www.preventionweb.net/news/global-water-watch-platform-be-developed-deltares-wwf-and-wri-funded-google
+  fetched: '2026-10-31'
+  quote: 'Global Water Watch: a platform to be developed by Deltares, WWF and WRI funded by
+    Google'
+found_by:
+- checklist:3
+- link-from:wageningen-university-and-research
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+ai_types:
+- ml-supervised

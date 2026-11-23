@@ -1,0 +1,50 @@
+id: technische-universitat-berlin
+kind: organisation
+name: Technische Universität Berlin
+also_known_as:
+- TU Berlin
+- Technical University of Berlin
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+ai_types:
+- deep-learning
+- multimodal
+realms:
+- land
+techniques:
+- remote-sensing
+hq: de
+scale: global
+status: active
+website: https://www.tu.berlin
+summary: Public research university in Berlin where the BigEarthNet satellite image benchmark
+  for machine learning is run.
+facts:
+- claim: Public research university in Berlin, Germany.
+  url: https://en.wikipedia.org/wiki/Technical_University_of_Berlin
+  fetched: '2026-10-30'
+  quote: is a public research university located in Berlin , Germany
+- claim: BigEarthNet is run at TU Berlin.
+  url: https://bigearth.net/
+  fetched: '2026-10-30'
+  quote: at the Technische Universität Berlin (TU Berlin)
+- claim: The BigEarthNet ConfigILM library targets high-throughput deep learning.
+  url: https://bigearth.net/
+  fetched: '2026-10-30'
+  quote: 'Reference Maps: --> ConfigILM: A library that includes an optimized PyTorch Dataset
+    and Lightning Data Module for BigEarthNet (and other RS datasets) to achieve high-throughput
+    deep-learning.'
+  ai_type: deep-learning
+- claim: BigEarthNet keeps patches for multi-modal learning studies.
+  url: https://bigearth.net/
+  fetched: '2026-10-30'
+  quote: to allow multi-modal learning studies
+  ai_type: multimodal
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

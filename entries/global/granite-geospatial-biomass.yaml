@@ -1,0 +1,50 @@
+id: granite-geospatial-biomass
+kind: model
+name: granite-geospatial-biomass
+scope: global
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- deep-learning
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+summary: IBM geospatial foundation model fine-tuned to predict total above-ground biomass from Harmonized Landsat and Sentinel-2 imagery, using GEDI labels from 15 biomes.
+facts:
+- claim: Predicts total above-ground biomass from optical satellite imagery.
+  url: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+  fetched: &id001 2026-10-30
+  quote: The granite-geospatial-biomass model is a fine-tuned geospatial foundation model for predicting the total above ground biomass
+- claim: Fine-tuned using data from 15 biomes.
+  url: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+  fetched: *id001
+  quote: the model has been fine-tuned using HLS and GEDI data collected from 15 biomes across the globe
+- claim: "The Granite biomass model is a fine-tuned geospatial foundation model."
+  url: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+  fetched: 2026-10-30
+  quote: "The granite-geospatial-biomass model is a fine-tuned geospatial foundation model for predicting the total above ground biomass (i.e., living and dead plant material on the Earth's surface) using optical satellite imagery."
+  ai_type: foundation-models
+- claim: "Its base foundation model has a Swin-B transformer backbone."
+  url: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+  fetched: 2026-10-30
+  quote: "The base foundation model from which the granite-geospatial-biomass model is fine-tuned is similar to that described in this paper , with the exception that the backbone is a Swin-B transformer."
+  ai_type: deep-learning
+- claim: "The base foundation model was pretrained with a self-supervised strategy."
+  url: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+  fetched: 2026-10-30
+  quote: "efficiency hierarchical merging which provides a useful inductive bias The base foundation model was pretrained using SimMIM, a self-supervised learning strategy based on masking large parts of the input (HLS2) data which are then reconstructed by the model."
+  ai_type: ml-unsupervised
+links:
+- type: run-by
+  to: ibm
+  url: https://huggingface.co/ibm-granite/granite-geospatial-biomass
+  fetched: *id001
+  quote: ibm-granite/granite-geospatial-biomass
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

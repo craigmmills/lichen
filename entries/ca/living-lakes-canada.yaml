@@ -1,0 +1,50 @@
+id: living-lakes-canada
+kind: organisation
+name: Living Lakes Canada
+also_known_as: []
+scope: ca
+sector: ngo
+roles:
+- supplies-data
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: unknown
+countries: []
+scale: regional
+status: active
+website: https://livinglakescanada.ca/
+summary: Organisation that describes the Columbia Basin Water Monitoring Framework
+  as NGO-led and collaborative, lists the Columbia Basin Water Hub among its programmes,
+  and runs iTrackDNA.
+facts:
+- claim: Describes the Columbia Basin Water Monitoring Framework as an NGO-led, collaborative
+    project.
+  url: https://livinglakescanada.ca/our-programs/
+  fetched: 2026-11-08
+  quote: The Columbia Basin Water Monitoring Framework is an NGO-led, collaborative
+    project that
+- claim: Lists the Columbia Basin Water Hub, a central platform for water data, among
+    its programmes.
+  url: https://livinglakescanada.ca/our-programs/
+  fetched: 2026-11-08
+  quote: The Columbia Basin Water Hub is a central platform where water data
+- claim: Lists iTrackDNA and targeted eDNA among its programmes.
+  url: https://livinglakescanada.ca/our-programs/
+  fetched: 2026-11-08
+  quote: iTrackDNA & Targeted eDNA
+links:
+- type: runs
+  to: itrackdna
+  url: https://livinglakescanada.ca/our-programs/
+  fetched: 2026-11-08
+  quote: 'iTrackDNA & Targeted eDNA
+
+    Status: Active'
+found_by:
+- rule:checklist-misses
+- link-from:stream-sequencing-the-rivers
+added_by: agent
+checked: 2026-11-08

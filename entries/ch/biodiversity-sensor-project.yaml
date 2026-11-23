@@ -1,0 +1,61 @@
+id: biodiversity-sensor-project
+kind: project
+name: Biodiversity Sensor Project
+scope: ch
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+summary: Sensor built by Syngenta Group that uses machine learning to locate and count
+  bee pollinators in real time, identifying four species with over 90% accuracy.
+facts:
+- claim: The sensor uses AI and machine-learning algorithms to locate and quantify
+    bee pollinator species in real time.
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: Drawing from artificial intelligence (AI) and machine-learning algorithms,
+    the sensor locates and quantifies bee pollinator species in real time.
+- claim: The software identifies four pollinator species with over 90% accuracy, and
+    24 insect species with lower accuracy.
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: The software can identify and classify the species with an accuracy rate
+    of greater than 90% for four pollinator species
+- claim: The model was trained on annotated images from GBIF, iNaturalist and field
+    data.
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: The training dataset used in this machine learning process was from available
+    open-source biodiversity platforms
+- claim: Motion detection code is open source on GitHub.
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: Our open-sourced motion detection code is available on GitHub.
+links:
+- type: built-by
+  to: syngenta-group
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: Our open-sourced motion detection code is available on GitHub.
+- type: partners-with
+  to: indian-institute-of-technology-ropar
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: Designed in partnership with the Indian Institute of Technology Ropar (IIT
+    Ropar)
+- type: builds-on
+  to: global-biodiversity-information-facility
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: Global Biodiversity Information Facility (GBIF) and iNaturalist
+- type: builds-on
+  to: inaturalist
+  url: https://www.syngentagroup.com/sustainability/biodiversity-sensor
+  fetched: '2026-11-08'
+  quote: Global Biodiversity Information Facility (GBIF) and iNaturalist
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

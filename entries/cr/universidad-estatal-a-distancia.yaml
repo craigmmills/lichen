@@ -1,0 +1,52 @@
+id: universidad-estatal-a-distancia
+kind: organisation
+name: Universidad Estatal a Distancia
+also_known_as:
+- UNED
+- Distance State University
+scope: cr
+sector: academic
+roles:
+- builds-ai
+- unknown
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Distance university (UNED) whose affiliated authors appear in OpenAlex for a 2022
+  conference paper on automated bird acoustic detection and a 2018 paper on Guanacaste land
+  cover classification.
+facts:
+- claim: OpenAlex lists a 2022 conference paper on automated bird acoustic detection at Las
+    Arrieras Nature Reserve.
+  url: https://api.openalex.org/works/W4318969471
+  fetched: '2026-11-08'
+  quote: Automated bird acoustic detection at Las Arrieras Nature Reserve
+- claim: OpenAlex gives authors' affiliations at UNED's laboratory for research and technological
+    innovation and its school of exact and natural sciences.
+  url: https://api.openalex.org/works/W4318969471
+  fetched: '2026-11-08'
+  quote: UNED,Escuela de Ciencias Exactas y Naturales,San Jos
+- claim: OpenAlex lists a 2018 paper on multi-algorithm land cover classification in the Guanacaste
+    tropical dry forest whose first author, Daniela Vargas-Sanabria, is affiliated with UNED.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0529rbt18|05tkvpg69|02tkjx303|05byh2e17|02s4dhq46|00cxrw595|004yr7j39,publication_year:>2017,primary_topic.subfield.id:1702|1707,topics.subfield.id:1105|2303|2309&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-08
+  quote: coberturas de la tierra en el bosque seco tropical del
+- claim: The first author is listed with the Distance State University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:0529rbt18|05tkvpg69|02tkjx303|05byh2e17|02s4dhq46|00cxrw595|004yr7j39,publication_year:>2017,primary_topic.subfield.id:1702|1707,topics.subfield.id:1105|2303|2309&select=id,title,publication_year,authorships&per_page=50
+  fetched: 2026-11-08
+  quote: Daniela Vargas-Sanabria
+links: null
+found_by:
+- checklist:3
+- register:openalex-institution
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'
+countries:
+- cr

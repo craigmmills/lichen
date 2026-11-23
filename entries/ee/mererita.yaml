@@ -1,0 +1,64 @@
+id: mererita
+kind: project
+name: mereRITA
+also_known_as:
+- Development and testing of innovative analysis and assessment methods for Estonian
+  marine waters in a pilot area
+- Eesti mereala innovaatiliste analüüsi- ja hinnangumeetodite arendamine ning testimine
+  pilootalal
+scope: ee
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- ocean
+techniques:
+- remote-sensing
+- edna-genomics
+countries:
+- ee
+status: closed
+summary: Closed project run by the Estonian Marine Institute to develop monitoring
+  and assessment methods for Estonian marine waters, testing Sentinel-3 models and
+  machine learning for seabed habitat mapping, and producing 20 thematic reports.
+facts:
+- claim: Aimed to develop monitoring, analysis and assessment methods for Estonian
+    marine waters.
+  url: https://sisu.ut.ee/wp-content/uploads/sites/356/mererita_lopparuanne_versioon_2_31_mai_2022.pdf
+  fetched: 2026-11-12
+  quote: eesmärgiks o li arendada mereala seire -, analüüsi - ja hindamismeetodeid
+- claim: Compared models using Sentinel-3 OLCI images, including a model adapted for
+    the Baltic Sea in the project.
+  url: https://sisu.ut.ee/wp-content/uploads/sites/356/mererita_lopparuanne_versioon_2_31_mai_2022.pdf
+  fetched: 2026-11-12
+  quote: mudel-C2RCC (sisendid Sentinel-3 OLCI pildilt) ja mudel-RITA (sisendid Sentinel-3
+    OLCI pildilt ja
+- claim: Its report on optical remote sensing for seabed habitat mapping (activity
+    2.3.1) tested machine learning methods, among them boosted regression trees, random
+    forest and artificial neural networks.
+  url: https://sisu.ut.ee/wp-content/uploads/sites/356/2.3.1_aruanne_v2.pdf
+  fetched: 2026-11-12
+  quote: Machine learning methods – boosted regression trees, random forest, artificial
+    neural networks – were
+  ai_type: ml-supervised
+- claim: The project produced 20 thematic reports.
+  url: https://sisu.ut.ee/wp-content/uploads/sites/356/mererita_lopparuanne_versioon_2_31_mai_2022.pdf
+  fetched: 2026-11-12
+  quote: Projekti tulemusena valmisid 20 temaatilist aruannet
+links:
+- type: run-by
+  to: estonian-marine-institute
+  url: https://sisu.ut.ee/wp-content/uploads/sites/356/mererita_lopparuanne_versioon_2_31_mai_2022.pdf
+  fetched: 2026-11-12
+  quote: Projekti mereRITA juh tis Tartu Ülikooli Eesti Mereinstituudi merebioloogia
+    uurimisrühm.
+- type: funded-by
+  to: estonian-research-council
+  url: https://sisu.ut.ee/wp-content/uploads/sites/356/mererita_lopparuanne_versioon_2_31_mai_2022.pdf
+  fetched: 2026-11-12
+  quote: Uuringu tellis ja uuringut rahastab Eesti Teadusagentuur Euroopa Regionaalarengu
+    Fondist
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,52 @@
+id: museo-nacional-de-costa-rica
+kind: organisation
+name: Museo Nacional de Costa Rica
+also_known_as:
+- MNCR
+scope: cr
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- cr
+scale: national
+status: active
+website: http://www.museocostarica.go.cr/
+summary: Endorsed GBIF publisher that publishes its national zoology collection under CC BY
+  4.0, plus a herbarium dataset and a Flora Costa Rica metadata record.
+facts:
+- claim: GBIF lists it as an endorsed publisher with its site at museocostarica.go.cr.
+  url: https://api.gbif.org/v1/organization/036cdc50-e7f5-11d9-9a0e-b8a03c50a862
+  fetched: '2026-11-08'
+  quote: '"title":"Museo Nacional de Costa Rica"'
+- claim: Publishes its national zoology collection on GBIF.
+  url: https://api.gbif.org/v1/organization/036cdc50-e7f5-11d9-9a0e-b8a03c50a862/publishedDataset?limit=50
+  fetched: '2026-11-08'
+  quote: '"title":"Colección nacional de zoología","description":"Museo Nacional de Costa
+    Rica - MNCR"'
+- claim: Also publishes a Flora Costa Rica metadata record on GBIF.
+  url: https://api.gbif.org/v1/organization/036cdc50-e7f5-11d9-9a0e-b8a03c50a862/publishedDataset?limit=50
+  fetched: '2026-11-08'
+  quote: '"title":"Flora Costa Rica"'
+- claim: Its site advertises an exhibition of its natural history collections.
+  url: http://www.museocostarica.go.cr/
+  fetched: '2026-11-08'
+  quote: EXPOSICIÓN COLECCIONES DE HISTORIA NATURAL.
+- claim: Publishes the national zoology collection on GBIF under a CC BY 4.0 licence.
+  url: https://api.gbif.org/v1/organization/036cdc50-e7f5-11d9-9a0e-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Colección nacional de zoología
+- claim: Also publishes a herbarium dataset and a Flora Costa Rica metadata record.
+  url: https://api.gbif.org/v1/organization/036cdc50-e7f5-11d9-9a0e-b8a03c50a862/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: Flora Costa Rica
+links: []
+found_by:
+- link-from:queue-cr
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'

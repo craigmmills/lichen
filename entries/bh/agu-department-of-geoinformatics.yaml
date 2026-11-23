@@ -1,0 +1,36 @@
+id: agu-department-of-geoinformatics
+kind: organisation
+name: Department of Geoinformatics, Arabian Gulf University
+scope: bh
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: bh
+countries: []
+scale: national
+status: active
+summary: A unit at the Arabian Gulf University in Manama, whose affiliation appears on a 2022 paper assessing
+  change and carbon stock of Bahrain's mangroves using GIS and remote sensing data.
+facts:
+- claim: The first author of a 2022 paper assessing spatiotemporal change and carbon stock of Bahrain's
+    mangroves with GIS and remote sensing data was affiliated with this unit.
+  url: https://api.openalex.org/works/W4221002416?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Assessing the spatiotemporal changes, associated carbon stock, and potential emissions of mangroves
+    in Bahrain using GIS and remote sensing data
+- claim: The first author's affiliation gives the department and its Manama address.
+  url: https://api.openalex.org/works/W4221002416?select=title,publication_year,authorships
+  fetched: 2026-11-12
+  quote: Department of Geoinformatics, College of Graduate Studies, Arabian Gulf University, Manama 26671,
+    Bahrain
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-12

@@ -1,0 +1,74 @@
+id: centre-for-environment-fisheries-and-aquaculture-science
+kind: organisation
+name: Centre for Environment, Fisheries and Aquaculture Science
+also_known_as:
+- Cefas
+sector: government
+roles:
+- supplies-data
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+- freshwater
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.cefas.co.uk
+summary: Defra executive agency that collects, manages and interprets data on the aquatic
+  environment, biodiversity and fisheries. It helped install remote electronic monitoring
+  on a UK fishing vessel.
+facts:
+- claim: Collects, manages and interprets data on the aquatic environment, biodiversity and
+    fisheries.
+  url: https://www.gov.uk/government/organisations/centre-for-environment-fisheries-and-aquaculture-science
+  quote: collects, manages and interprets data on the aquatic environment, biodiversity and
+    fisheries
+  fetched: '2026-10-30'
+- claim: An executive agency sponsored by Defra.
+  url: https://www.gov.uk/government/organisations/centre-for-environment-fisheries-and-aquaculture-science
+  quote: Cefas is an executive agency, sponsored by the Department for Environment, Food &
+    Rural Affairs
+  fetched: '2026-10-30'
+- claim: Reports collaborative seabed mapping.
+  url: https://www.cefas.co.uk/
+  quote: Collaborative seabed mapping reveals rare coral colony in UK waters
+  fetched: '2026-10-30'
+- claim: Installed Remote Electronic Monitoring on its research vessel and wrote about using
+    AI on the footage.
+  url: https://marinescience.blog.gov.uk/2024/07/25/using-ai-to-improve-sustainable-fisheries-management
+  quote: 'Fish on Film: the challenges of using AI to improve sustainable fisheries management'
+  fetched: '2026-10-30'
+- claim: Authors of the RAPID paper are based at Cefas in Lowestoft.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+  quote: The Centre for Environment, Fisheries and Aquaculture Science, Lowestoft, United
+    Kingdom
+  fetched: &id001 2026-10-30
+- claim: RAPID uses Edge AI with a classification model.
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+  quote: This end-to-end pipeline for zooplankton data uses Edge AI
+  ai_type: deep-learning
+  fetched: *id001
+- claim: Address or registration shown on its own site.
+  url: https://www.cefas.co.uk/contact
+  quote: 'Pakefield Road, Lowestoft, Suffolk NR33 0HT Tel: +44 (0) 1502 562244'
+  fetched: 2026-10-30
+found_by:
+- checklist:1
+- link-from:arribada-initiative
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+links:
+- type: runs
+  to: rapid-plankton-dashboard
+  url: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1513463/full
+  quote: The system outlined above was deployed on the Cefas RV Endeavour
+  fetched: *id001

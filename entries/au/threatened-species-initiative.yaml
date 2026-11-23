@@ -1,0 +1,46 @@
+id: threatened-species-initiative
+kind: programme
+name: Threatened Species Initiative
+also_known_as:
+- TSI
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- edna-genomics
+countries:
+- au
+status: active
+website: https://threatenedspeciesinitiative.com/
+summary: National programme generating reference genomes and population data for Australia's
+  threatened species, with tools and training for species recovery, deployed across more than
+  60 projects.
+facts:
+- claim: A national programme using genomics and computational biology for species recovery.
+  url: https://threatenedspeciesinitiative.com/about-tsi/
+  fetched: '2026-10-31'
+  quote: The Threatened Species Initiative (TSI) is a national program aiming to assist the
+    conservation industry in managing species recovery
+- claim: Established in 2020 and deployed across more than 60 supported projects.
+  url: https://bioplatforms.com/projects/threatened-species/
+  fetched: '2026-10-31'
+  quote: Established in 2020, the TSI has aimed to support the integration of genomics information
+links:
+- type: partners-with
+  to: earth-biogenome-project
+  url: https://threatenedspeciesinitiative.com/about-tsi/
+  fetched: '2026-10-31'
+  quote: The Threatened Species Initiative is an affiliated project of the Earth BioGenome
+    Project
+- type: partners-with
+  to: bioplatforms-australia
+  url: https://bioplatforms.com/projects/threatened-species/
+  fetched: '2026-10-31'
+  quote: Threatened Species Initiative - Bioplatforms Australia
+found_by:
+- queue:au
+- link-from:earth-biogenome-project
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

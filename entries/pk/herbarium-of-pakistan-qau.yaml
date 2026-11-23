@@ -1,0 +1,78 @@
+id: herbarium-of-pakistan-qau
+kind: organisation
+name: Herbarium of Pakistan (ISL), Quaid-i-Azam University
+also_known_as:
+- ISL
+- Quaid-i-Azam University Herbarium
+scope: pk
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: pk
+countries:
+- pk
+scale: national
+status: active
+summary: Quaid-i-Azam University's herbarium, described in GBIF as Pakistan's largest with
+  over 180,000 specimens; by October 2020, 36,208 records were online, 24,368 of them georeferenced,
+  under a CC0 waiver.
+facts:
+- claim: Its GBIF record says it is the largest herbarium in Pakistan, with 180,000 specimens
+    collected from all over the country.
+  url: https://api.gbif.org/v1/organization/c254a6f2-87d8-440c-9da9-8f9161f47e3d
+  fetched: '2026-11-03'
+  quote: It is now the largest herbarium in Pakistan having 180,000 specimens.
+- claim: Its GBIF record gives an address in the Department of Plant Sciences, Quaid-i-Azam
+    University, Islamabad.
+  url: https://api.gbif.org/v1/organization/c254a6f2-87d8-440c-9da9-8f9161f47e3d
+  fetched: '2026-11-03'
+  quote: Department of Plant Sciences, Quaid-i-Azam University
+- claim: Its GBIF dataset says digitising and georeferencing began in 2018 with Biodiversity
+    Information Fund for Asia grants, and that 36,208 records were accessible through OpenHerbarium
+    and GBIF by October 2020.
+  url: https://api.gbif.org/v1/organization/c254a6f2-87d8-440c-9da9-8f9161f47e3d/publishedDataset
+  fetched: '2026-11-03'
+  quote: now (2020-Oct-20) there are 36,208 ISL records accessible via OpenHerbarium and the
+    Global Biodiversity Information Facility, of which 24,368 have been georeferenced
+- claim: Its GBIF publisher record gives its address as the Department of Plant Sciences,
+    Quaid-i-Azam University, Islamabad.
+  url: https://api.gbif.org/v1/organization/c254a6f2-87d8-440c-9da9-8f9161f47e3d
+  fetched: 2026-11-03
+  quote: '"address":["Department of Plant Sciences, Quaid-i-Azam University"]'
+- claim: Its GBIF dataset description says it is the largest herbarium in Pakistan, with over
+    180,000 specimens collected from throughout Pakistan.
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: It is now the largest herbarium in Pakistan having over 180,000 specimens, collected
+    from throughout Pakistan.
+- claim: Its GBIF dataset, the Quaid-i-Azam University Herbarium, is published under a CC0
+    public domain waiver.
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: '"license":"http://creativecommons.org/publicdomain/zero/1.0/legalcode"'
+- claim: By October 2020, 36,208 specimen records were available through OpenHerbarium and
+    GBIF, 24,368 of them georeferenced.
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: there are 36,208 ISL records accessible via OpenHerbarium and the Global Biodiversity
+    Information Facility, of which 24,368 have been georeferenced
+links:
+- type: funded-by
+  to: biodiversity-information-fund-for-asia
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: A second BIFA grant (BIFA04-046), enabled continuation of that effort
+- type: uses
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/dataset/6f40c8ec-2b95-47d5-9064-eda6a8ddf3fb
+  fetched: 2026-11-03
+  quote: there are 36,208 ISL records accessible via OpenHerbarium and the Global Biodiversity
+    Information Facility
+found_by:
+- link-from:global-biodiversity-information-facility
+- register:pk
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,27 @@
+id: world-register-of-marine-species
+kind: dataset
+name: World Register of Marine Species
+also_known_as:
+- WoRMS
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+status: active
+website: https://www.marinespecies.org
+summary: Register of marine species names, controlled by taxonomic experts and built on the Aphia database at the Flanders Marine Institute.
+facts:
+- claim: Authoritative list of marine organism names.
+  url: https://www.marinespecies.org/about.php
+  fetched: '2026-10-30'
+  quote: is to provide an authoritative and comprehensive
+links:
+- type: run-by
+  to: flanders-marine-institute
+  url: https://www.marinespecies.org/about.php
+  fetched: '2026-10-30'
+  quote: VLIZ developed a consolidated database called ‘Aphia’.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

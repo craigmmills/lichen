@@ -1,0 +1,113 @@
+id: eraift
+kind: organisation
+name: Ecole Régionale Postuniversitaire d'Aménagement et de Gestion intégrés des Forêts et Territoires
+  tropicaux
+also_known_as:
+- ERAIFT
+- Regional Post-Graduate Training School on Integrated Management of Tropical Forests and Lands
+scope: cd
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+- other
+ai_types:
+- ml-supervised
+hq: cd
+countries:
+- cd
+scale: regional
+status: active
+summary: A UNESCO category 2 postgraduate school on the University of Kinshasa campus, linked to a Sentinel-2
+  mangrove mapping paper, student drone training and the Yangambi flux tower.
+facts:
+- claim: OpenAlex lists ERAIFT authors on a 2025 paper mapping mangrove disturbance in the Parc Marin
+    des Mangroves with decision tree classification of Sentinel-2 data.
+  url: https://api.openalex.org/works/W4412808866
+  fetched: 2026-11-08
+  quote: Mapping mangrove disturbance state using decision tree classification based on Sentinel-2 surface
+    reflectance spectral indices, elevation, and salinity data in the Parc Marin des Mangroves (Moanda,
+    Democratic Republic of Congo)
+- claim: The paper uses decision tree classification based on Sentinel-2 surface reflectance spectral
+    indices, elevation and salinity data.
+  ai_type: ml-supervised
+  url: https://api.openalex.org/works/W4412808866
+  fetched: 2026-11-08
+  quote: decision tree classification based on Sentinel-2 surface reflectance spectral indices
+- claim: The DRC's CBD clearing-house carries a July 2026 video on training ERAIFT students to fly drones
+    for natural resource monitoring.
+  url: https://cd.chm-cbd.net/fr/video-distante/formation-des-apprenants-de-leraift-au-pilotage-des-drones-pour-le-suivi-des
+  fetched: 2026-11-08
+  quote: Formation des apprenants de l'ERAIFT au pilotage des drones pour le suivi des ressources naturelle
+- claim: Describes itself as a UNESCO category 2 centre with its campus at the University of Kinshasa.
+  url: https://eraift-rdc.org/fr/
+  fetched: 2026-11-08
+  quote: ERAIFT en sigle, Centre de catégorie 2 sous l’égide de l’UNESCO, accueille dans son campus situé
+    à l’Université de Kinshasa
+- claim: Teaches a course in terrestrial ecological monitoring in the Luki Biosphere Reserve.
+  url: https://eraift-rdc.org/fr/
+  fetched: 2026-11-08
+  quote: L’ERAIFT organise les enseignements du cours « Suivi écologique terrestre » dans la Réserve de
+    biosphère de Luki, au Kongo Central, en République démocratique du Congo
+- claim: Says the scientific coordination of the Yangambi project, running since 2019, is made up of eight
+    institutions.
+  url: https://eraift-rdc.org/fr/tour-a-flux-yangambi/coordination-scientifique
+  fetched: 2026-11-08
+  quote: 'La coordination scientifique du projet est fonctionnelle depuis 2019. Elle est composée de huit
+    institutions : UGent, INERA, MRAC, JBM, ULiège, CIRAD, CIFOR et ERAIFT.'
+- claim: Describes itself as a regional school under the auspices of UNESCO, as a Category 2 Center.
+  url: https://www.eraift-rdc.org
+  fetched: 2026-11-08
+  quote: is a regional school under the auspices of UNESCO (Category 2 Center)
+- claim: Gives its address as the University of Kinshasa campus in Kinshasa.
+  url: https://www.eraift-rdc.org
+  fetched: 2026-11-08
+  quote: Campus UNIKIN - BP 15373 - Kinshasa - Commune de Lemba - RD Congo
+- claim: OpenAlex lists a 2026 paper with a first author at ERAIFT using camera traps to assess habitat
+    use by two guenon species in a West African swamp forest.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:2306|2309|1105&per_page=200&page=4&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Assessment of habitat use and coexistence between two sympatric guenons using camera traps in
+    a West African swamp forest.
+links:
+- type: builds
+  to: yangambi-flux-tower
+  url: https://eraift-rdc.org/fr/tour-a-flux-yangambi
+  fetched: 2026-11-08
+  quote: Construite par l’Université de Gand, le Centre de recherche forestière internationale (CIFOR),
+    la société R&SD et l’École régionale post-universitaire d’aménagement et de gestion intégrés des forêts
+    tropicales (ERAIFT)
+- type: partners-with
+  to: cifor-icraf
+  url: https://eraift-rdc.org/fr/tour-a-flux-yangambi
+  fetched: 2026-11-08
+  quote: La coordination scientifique de ce projet est dirigée conjointement par le CIFOR et l’ERAIFT.
+- type: partners-with
+  to: institut-national-pour-l-etude-et-la-recherche-agronomiques
+  url: https://eraift-rdc.org/fr/tour-a-flux-yangambi/coordination-scientifique
+  fetched: 2026-11-08
+  quote: 'Elle est composée de huit institutions : UGent, INERA, MRAC, JBM, ULiège, CIRAD, CIFOR et ERAIFT.'
+- type: partners-with
+  to: cirad
+  url: https://eraift-rdc.org/fr/tour-a-flux-yangambi/coordination-scientifique
+  fetched: 2026-11-08
+  quote: 'Elle est composée de huit institutions : UGent, INERA, MRAC, JBM, ULiège, CIRAD, CIFOR et ERAIFT.'
+- type: funded-by
+  to: unesco
+  url: https://www.eraift-rdc.org
+  fetched: 2026-11-08
+  quote: 'It is financed by many financial partners including : The Democratic Republic of Congo, the
+    European Union, the Kingdom of Belgium, UNESCO'
+found_by:
+- checklist:3
+- link-from:centre-de-surveillance-de-la-biodiversite-kisangani
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-08

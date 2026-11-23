@@ -1,0 +1,56 @@
+id: university-of-hormozgan
+kind: organisation
+name: University of Hormozgan
+scope: ir
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+ai_types:
+- ml-supervised
+techniques:
+- remote-sensing
+hq: ir
+scale: national
+status: active
+website: https://www.hormozgan.ac.ir
+summary: Iranian university whose authors are listed by OpenAlex on 2023 and 2026 machine
+  learning papers about mangrove forests, covering satellite image classification and habitat
+  degradation in the Persian Gulf.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2023 machine learning paper: Spatio-Temporal
+    monitoring of Qeshm mangrove forests through machine learning classification of SAR and
+    optical images on Google Earth Engine.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Spatio-Temporal monitoring of Qeshm mangrove forests through machine learning classification
+    of SAR and optical images on Google Earth Engine
+- claim: 'Its authors are listed by OpenAlex on a 2026 machine learning paper: Integrating
+    InVEST and machine learning to model mangrove habitat degradation trend in in Northern
+    Persian Gulf, Iran.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Integrating InVEST and machine learning to model mangrove habitat degradation trend
+    in in Northern Persian Gulf, Iran
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: Department of Hormoz Studies and Research Center, University of Hormozgan, Bandar
+    Abbas, Iran
+- claim: Its own site names the organisation.
+  url: https://www.hormozgan.ac.ir
+  fetched: '2026-11-03'
+  quote: دانشگاه هرمزگان
+- ai_type: ml-supervised
+  claim: The title names machine learning classification of satellite images.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Spatio-Temporal monitoring of Qeshm mangrove forests through machine learning classification
+    of SAR and optical images on Google Earth Engine
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

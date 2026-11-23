@@ -1,0 +1,48 @@
+id: mywood-id
+kind: model
+name: MyWood-ID
+scope: my
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- my
+status: unknown
+summary: Smartphone wood identification system built by FRIM and Universiti Tunku Abdul Rahman, launched
+  on 2 February 2018 at FRIM, when its free trial identified 20 Malaysian wood types.
+facts:
+- claim: UTAR says MyWood-ID was launched at FRIM on 2 February 2018. FRIM’s separate tech-talk page incorrectly
+    expands UTAR as “Tunku Abdul Rahman University”; UTAR’s own page gives Universiti Tunku Abdul Rahman.
+  url: https://news.utar.edu.my/news/2018/March/13/02/02.html
+  fetched: 2026-11-03
+  quote: It was launched at Forest Research Institute Malaysia, Kepong on 2 Feb 2018
+- claim: At launch the free trial identified 20 types of Malaysian wood.
+  url: https://news.utar.edu.my/news/2018/March/13/02/02.html
+  fetched: 2026-11-03
+  quote: Currently, the free trial version of MyWood-ID is able to identify 20
+- claim: An arXiv paper from Universiti Tunku Abdul Rahman and the Forest Research Institute Malaysia
+    on a smartphone wood identification system describes the use of deep learning.
+  url: https://arxiv.org/pdf/1709.08154
+  fetched: 2026-11-03
+  quote: The capability of Deep Learning algorithm inspires us to apply it to solve the
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: forest-research-institute-malaysia
+  url: https://www.frim.gov.my/frim-organises-mywood-id-tech-talk/
+  fetched: 2026-11-03
+  quote: MyWood-ID application which uses iPhone and special lenses, has been developed by Nordahlia and
+    Omarali in collaboration with Tunku Abdul Rahman University (UTAR).
+- type: built-by
+  to: universiti-tunku-abdul-rahman
+  url: https://news.utar.edu.my/news/2018/March/13/02/02.html
+  fetched: 2026-11-03
+  quote: created a mobile wood identification system known as MyWood-ID
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

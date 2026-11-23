@@ -1,0 +1,40 @@
+id: korkeasaari-zoo
+kind: organisation
+name: Korkeasaari Zoo
+also_known_as:
+- Korkeasaari
+sector: ngo
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+scale: local
+status: active
+website: https://korkeasaari.fi
+summary: A zoo that monitors bird populations on its island year-round, uses a zoological
+  information management system, and partners with LIFEline4Fennicus.
+facts:
+- claim: Monitors bird populations on the island year-round.
+  url: https://korkeasaari.fi/en/animals-and-conservation/conservation-and-research/research-work/
+  quote: At Korkeasaari Zoo, bird populations are monitored year-round
+  fetched: '2026-11-02'
+links:
+- type: uses
+  to: zoological-information-management-system
+  url: https://korkeasaari.fi/en/animals-and-conservation/conservation-and-research/research-work/
+  quote: this includes animals currently or previously living at Korkeasaari Zoo.
+  fetched: '2026-11-02'
+- type: partners-with
+  to: lifeline4fennicus
+  url: https://www.metsa.fi/en/project/lifeline4fennicus/
+  quote: Project partners include the Natural Resources Institute Finland, Snowchange Cooperative,
+    Korkeasaari Zoo, and Ranua Wildlife Park.
+  fetched: '2026-11-02'
+found_by:
+- checklist:4
+- rule:ngo-broad
+scope: fi
+added_by: agent
+checked: '2026-11-02'

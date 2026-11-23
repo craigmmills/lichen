@@ -1,0 +1,34 @@
+id: mapa-de-bosques-y-uso-de-la-tierra-guatemala-2020
+kind: dataset
+name: Mapa de bosques y uso de la tierra, República de Guatemala 2020
+scope: gt
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gt
+status: active
+summary: Forest and land use map for Guatemala, led by INAB within GIMBUT and cited
+  as a data source for the forest indicator of the national development priorities.
+facts:
+- claim: The 2020 forest and land use map was produced under INAB's coordination within
+    GIMBUT, and is cited as a data source for the national development priorities'
+    forest indicator.
+  url: https://pnd.gt/Home/Indicadores?priori=1401
+  fetched: 2026-11-12
+  quote: Mapa de bosques y uso de la tierra. Republica de Guatemala 2020. bajo la
+    coordinacion del INAB en el marco del Grupo Interinstitucional de Monitoreo de
+    Bosques y Uso de la Tierra
+links:
+- type: led-by
+  to: instituto-nacional-de-bosques-guatemala
+  url: https://pnd.gt/Home/Indicadores?priori=1401
+  fetched: 2026-11-12
+  quote: Mapa de bosques y uso de la tierra. Republica de Guatemala 2020. bajo la
+    coordinacion del INAB
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

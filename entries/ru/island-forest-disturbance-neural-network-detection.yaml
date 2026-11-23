@@ -1,0 +1,43 @@
+id: island-forest-disturbance-neural-network-detection
+kind: project
+name: Neural-network detection of forest disturbance on Kunashir and Sakhalin
+also_known_as: []
+scope: ru
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: unknown
+runner: unknown
+summary: Russian Science Foundation-funded project, led by Kirill Korznikov, that Naked Science
+  reported in February 2021 trained U-Net-like neural networks on satellite images and masks
+  of windthrow and bark beetle damage from Kunashir and Sakhalin.
+facts:
+- claim: Naked Science reports that masks of windthrow and of dead trees attacked by the bark
+    beetle, from Kunashir and Sakhalin, were used with satellite images to train the networks.
+  url: https://naked-science.ru/article/column/nejroseti-pomogli-uchenym-ustanovit-prichinu
+  fetched: 2026-11-09
+  quote: Маски и соответствующие им спутниковые изображения стали исходными данными для обучения
+    нейронных сетей.
+- claim: The method reported by Naked Science in February 2021 used U-Net-like convolutional
+    neural networks.
+  url: https://naked-science.ru/article/column/nejroseti-pomogli-uchenym-ustanovit-prichinu
+  fetched: 2026-11-09
+  quote: применили сверточные нейронные сети U-Net-подобной архитектуры для распознавания
+    погибших лесов
+  ai_type: deep-learning
+links:
+- type: funded-by
+  to: russian-science-foundation
+  url: https://naked-science.ru/article/column/nejroseti-pomogli-uchenym-ustanovit-prichinu
+  fetched: 2026-11-09
+  quote: Результаты работы, поддержанной грантом Президентской программы Российского научного
+    фонда (РНФ), опубликованы в журнале Remote Sensing in Ecology and Conservation
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-09

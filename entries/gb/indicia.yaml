@@ -1,0 +1,32 @@
+id: indicia
+kind: programme
+name: Indicia
+scope: gb
+ai_label: conservation-tech
+countries:
+- gb
+status: active
+website: https://indicia.org.uk
+summary: Open source toolkit for building online biological recording websites, which the
+  Biological Records Centre says it helped create.
+runner: unknown
+facts:
+- claim: Provides the pieces to build online recording websites.
+  url: https://indicia-docs.readthedocs.io/en/latest/introduction/index.html
+  quote: Indicia provides the pieces you need to build online biological recording
+  fetched: '2026-10-31'
+- claim: The Biological Records Centre says it helped create Indicia.
+  url: https://www.brc.ac.uk/node/121
+  quote: BRC has helped create tools such as the Indicia software, for developers of online
+    recording systems
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: biological-records-centre
+  url: https://www.brc.ac.uk/node/121
+  quote: BRC has helped create tools such as the Indicia software
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

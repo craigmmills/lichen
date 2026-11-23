@@ -1,0 +1,46 @@
+id: ibm-kenya-adopt-a-water-tower
+kind: project
+name: Adopt-a-water-tower initiative
+scope: global
+runner: unknown
+ai_label: ai
+ai_types:
+- foundation-models
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+summary: IBM and Kenyan government initiative under the National Tree Growing and Restoration Campaign, with a digital platform that uses IBM's geospatial foundation model to track tree planting in water tower areas.
+facts:
+- claim: IBM signed a memorandum with the Kenyan government's office of the Special Envoy for Climate Change.
+  url: https://cioafrica.co/ibm-advances-geospatial-ai-to-address-climate-challenges
+  fetched: &id001 2026-10-30
+  quote: have signed a Memorandum of Understanding (MoU) to support the National Tree Growing and Restoration Campaign through a new “adopt-a-water-tower” initiative
+- claim: The platform tracks tree planting in specific water tower areas.
+  url: https://cioafrica.co/ibm-advances-geospatial-ai-to-address-climate-challenges
+  fetched: *id001
+  quote: to enable users to track and visualize tree planting and tree growing activities in specific water tower areas
+- claim: "IBM's work in Kenya applies its geospatial foundation model."
+  url: https://cioafrica.co/ibm-advances-geospatial-ai-to-address-climate-challenges
+  fetched: 2026-10-30
+  quote: "IBM’s geospatial foundation model developed in collaboration with NASA"
+  ai_type: foundation-models
+links:
+- type: partners-with
+  to: ibm
+  url: https://cioafrica.co/ibm-advances-geospatial-ai-to-address-climate-challenges
+  fetched: *id001
+  quote: "IBM and the Kenyan government’s office of the Special Envoy for Climate Change Ali Mohamed have signed a Memorandum of Understanding (MoU) to support the National Tree Growing and Restoration Campaign through a new “adopt-a-water-tower” initiative."
+- type: builds-on
+  to: prithvi
+  url: https://cioafrica.co/ibm-advances-geospatial-ai-to-address-climate-challenges
+  fetched: *id001
+  quote: "The effort will be fueled by a new digital platform that leverages IBM’s geospatial foundation model"
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

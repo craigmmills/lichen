@@ -1,0 +1,38 @@
+id: university-of-kolwezi
+kind: organisation
+name: University of Kolwezi
+also_known_as:
+- Université de Kolwezi
+- UNIKOL
+scope: cd
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: unknown
+countries:
+- cd
+scale: national
+status: active
+website: http://www.unikol.ac.cd
+summary: A university, also headed Université de Kolwezi, linked through OpenAlex to a 2026 paper on information
+  loss in forest compositional mapping in Lualaba Province, shared with the University of Lubumbashi.
+facts:
+- claim: OpenAlex lists a 2026 paper on information loss in forest compositional mapping in Lualaba Province,
+    whose first author's affiliations include the University of Kolwezi and the University of Lubumbashi.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:cd,publication_year:>2017,primary_topic.subfield.id:1702|1707&per_page=100&select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: 'Quantifying Categorical Information Loss in Forest Compositional Mapping: Implications for the
+    Accuracy of Forest Assessment in Lualaba Province (DR Congo)'
+- claim: Its website is headed Université de Kolwezi.
+  url: http://www.unikol.ac.cd
+  fetched: 2026-11-08
+  quote: Bienvenue à l'Université de Kolwezi
+links: []
+found_by:
+- register:openalex-institution
+- checklist:3
+added_by: agent
+checked: 2026-11-08

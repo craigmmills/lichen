@@ -1,0 +1,40 @@
+id: squ-department-of-soils-water-and-agricultural-engineering
+kind: organisation
+name: Department of Soils, Water and Agricultural Engineering, Sultan Qaboos University
+scope: om
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- om
+scale: national
+status: active
+summary: Sultan Qaboos University department, listed by OpenAlex as the first author's
+  affiliation on a 2025 paper assessing mangrove carbon stock using field measurements
+  and machine learning-based GIS and remote sensing.
+facts:
+- claim: OpenAlex lists the 2025 paper on mangrove carbon stock assessment using field
+    measurements and machine learning-based GIS and remote sensing, with a first author
+    in this department.
+  url: https://api.openalex.org/works?filter=doi:10.1016/j.scitotenv.2025.179805|10.3389/fenvs.2024.1366712|10.1016/j.isci.2025.114053&select=display_name,publication_year,doi,authorships
+  fetched: '2026-11-12'
+  quote: Carbon stock assessment of Mangrove habitat using field measurements and
+    using machine learning-based GIS and remote sensing techniques
+- claim: The first author's affiliation is the Department of Soils, Water and Agricultural
+    Engineering, Sultan Qaboos University.
+  url: https://api.openalex.org/works?filter=doi:10.1016/j.scitotenv.2025.179805|10.3389/fenvs.2024.1366712|10.1016/j.isci.2025.114053&select=display_name,publication_year,doi,authorships
+  fetched: '2026-11-12'
+  quote: Department of Soils, Water and Agricultural Engineering, Sultan Qaboos University,
+    Al-Khoud 123, Muscat, Oman
+links: []
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-12'

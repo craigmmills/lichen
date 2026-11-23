@@ -1,0 +1,40 @@
+id: peak-district-national-park-authority
+kind: organisation
+name: Peak District National Park
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+hq: unknown
+countries:
+- gb
+scale: local
+status: active
+summary: National park whose staff form the core team of Landscape Observatory, according
+  to the Landscape Institute. Its own site refuses us.
+facts:
+- claim: The Landscape Institute says the core team is based there.
+  url: https://campus.landscapeinstitute.org/event/landscape-observatory-ai-mapping-for-protected-landscapes/
+  quote: The core team are based at the Peak District National Park
+  fetched: '2026-10-30'
+- claim: GIM International reports its AI land cover work.
+  url: https://www.gim-international.com/content/news/english-peak-district-harnesses-ai-for-aerial-landscape-mapping
+  quote: The UK’s Peak District National Park Authority is pioneering the use of artificial
+    intelligence (AI) to automate the production of highly detailed land cover maps
+  fetched: '2026-10-30'
+- claim: Developed a deep learning network that classifies the landscape into land cover classes.
+  url: https://www.agi.org.uk/peak-district-pioneers-ai-landscape-mapping-using-bluesky-aerial-images/
+  quote: the Authority has developed a new variant of deep-learning network that automatically
+    classifies the landscape into different land cover classes
+  fetched: 2026-10-30
+found_by:
+- checklist:7
+- link-from:landscape-observatory
+scope: gb
+added_by: agent
+checked: '2026-10-31'

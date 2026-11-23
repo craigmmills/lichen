@@ -1,0 +1,42 @@
+id: inventario-nacional-de-glaciares
+kind: dataset
+name: Inventario Nacional de Glaciares
+also_known_as:
+- ING
+scope: ar
+ai_label: data-infrastructure
+realms:
+- freshwater
+status: active
+website: https://www.argentina.gob.ar/ambiente/agua/glaciares/inventario-nacional
+countries:
+- ar
+summary: Glacier inventory carried out by IANIGLA and coordinated by the Subsecretaría de Ambiente, whose
+  first level records the number, location and area of ice bodies and is updated every five years.
+facts:
+- claim: Carried out by IANIGLA, coordinated by the Subsecretaría de Ambiente.
+  url: https://www.argentina.gob.ar/ambiente/agua/glaciares/inventario-nacional
+  fetched: '2026-11-03'
+  quote: Su realización se encuentra a cargo del Instituto Argentino de Nivología, Glaciología y Ciencias
+    Ambientales (IANIGLA) , con la coordinación de la Subsecretaría de Ambiente de la Nación.
+- claim: Its first level records the number, location and area of ice bodies and is updated every five
+    years.
+  url: https://www.argentina.gob.ar/ambiente/agua/glaciares/inventario-nacional
+  fetched: '2026-11-03'
+  quote: El primer nivel es un relevamiento del estado general que se actualiza cada 5 años.
+links:
+- type: run-by
+  to: instituto-argentino-de-nivologia-glaciologia-y-ciencias-ambientales
+  url: https://www.argentina.gob.ar/ambiente/agua/glaciares/inventario-nacional
+  fetched: '2026-11-03'
+  quote: Su realización se encuentra a cargo del Instituto Argentino de Nivología, Glaciología y Ciencias
+    Ambientales (IANIGLA)
+- type: run-by
+  to: instituto-geografico-nacional-argentina
+  url: https://www.argentina.gob.ar/ambiente/agua/glaciares/inventario-nacional
+  fetched: '2026-11-03'
+  quote: con la coordinación de la Subsecretaría de Ambiente de la Nación
+found_by:
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-03'

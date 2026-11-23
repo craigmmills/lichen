@@ -1,0 +1,63 @@
+id: climate-change-and-development-authority
+kind: organisation
+name: Climate Change and Development Authority
+also_known_as:
+- CCDA
+scope: pg
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: pg
+countries:
+- pg
+scale: national
+status: active
+website: https://www.ccda.gov.pg
+summary: PNG Government statutory body based in Hohola, Port Moresby, which runs and
+  built the PNG Forest and Land Use Monitoring Geo-Portal and is responsible for publishing
+  and updating its online information.
+facts:
+- claim: Its site says it is a PNG Government statutory body.
+  url: https://www.ccda.gov.pg
+  fetched: 2026-11-12
+  quote: Climate Change and Development Authority (CCDA) is a PNG Government Statutory
+    Body.
+- claim: Its site gives an address in Hohola, Port Moresby.
+  url: https://www.ccda.gov.pg
+  fetched: 2026-11-12
+  quote: Enchi Bldg, Fig Street Wards Road Hohola Port Moresby Papua New Guinea
+- claim: The geo-portal document says CCDA is responsible for publishing and updating
+    the portal's online information.
+  url: https://pngreddplus.org/wp-content/uploads/2024/05/PNG_Forest-LU_Monitoring_Geo-Portal_Document_final.pdf
+  fetched: 2026-11-12
+  quote: CCDA who is responsible for publishing and updating the online information
+    including the
+- claim: The same document describes a land use map produced from work CCDA conducted
+    in 2015.
+  url: https://pngreddplus.org/wp-content/uploads/2024/05/PNG_Forest-LU_Monitoring_Geo-Portal_Document_final.pdf
+  fetched: 2026-11-12
+  quote: conducted by CCDA in 2015. This land use map was developed
+links:
+- type: runs
+  to: png-forest-and-land-use-monitoring-geo-portal
+  url: https://pngreddplus.org/wp-content/uploads/2024/05/PNG_Forest-LU_Monitoring_Geo-Portal_Document_final.pdf
+  fetched: &id001 2026-11-12
+  quote: CCDA who is responsible for publishing and updating the online information
+    including the
+- type: builds
+  to: png-forest-and-land-use-monitoring-geo-portal
+  url: https://pngreddplus.org/wp-content/uploads/2024/05/PNG_Forest-LU_Monitoring_Geo-Portal_Document_final.pdf
+  fetched: *id001
+  quote: 'PNG’s Forest and Land Use Monitoring Geo-Portal was developed jointly by
+    PNG  CCDA and
+
+    PNGFA with CCDA as the core implementing partner.'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

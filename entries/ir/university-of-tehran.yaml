@@ -1,0 +1,55 @@
+id: university-of-tehran
+kind: organisation
+name: University of Tehran
+scope: ir
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+ai_types:
+- deep-learning
+techniques:
+- computer-vision
+- species-distribution
+- remote-sensing
+hq: ir
+scale: national
+status: active
+summary: Iranian university whose authors are listed by OpenAlex on machine learning papers
+  from 2020, 2023 and 2026, covering carp identification, rangeland species mapping and mangrove
+  mapping.
+facts:
+- claim: 'Its authors are listed by OpenAlex on a 2020 machine learning paper: Deep learning-based
+    appearance features extraction for automated carp species identification.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Deep learning-based appearance features extraction for automated carp species identification
+- claim: 'Its authors are listed by OpenAlex on a 2023 machine learning paper: Rangeland species
+    potential mapping using machine learning algorithms.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=2
+  fetched: '2026-11-03'
+  quote: Rangeland species potential mapping using machine learning algorithms
+- claim: 'Its authors are listed by OpenAlex on a 2026 machine learning paper: Mapping Mangrove
+    Ecosystems Using Multi-Sensor Spectral-Temporal Metrics: SAR-Optical Integration and Machine
+    Learning Performance in an Arid Coastal Environment.'
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=3
+  fetched: '2026-11-03'
+  quote: 'Mapping Mangrove Ecosystems Using Multi-Sensor Spectral-Temporal Metrics: SAR-Optical
+    Integration and Machine Learning Performance in an Arid Coastal Environment'
+- claim: An author affiliation on one of these papers, in Iran.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Department of Mechanical Engineering of Agricultural Machinery, University of Tehran,
+    Karaj, Iran
+- ai_type: deep-learning
+  claim: The paper title names deep learning or convolutional neural networks.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:ir,concepts.id:C119857082,title_and_abstract.search:species%20OR%20wildlife%20OR%20biodiversity%20OR%20habitat%20OR%20vegetation%20OR%20mangrove%20OR%20rangeland,from_publication_date:2020-01-01&select=id,display_name,publication_year,doi,authorships&sort=cited_by_count:desc&per-page=200&page=1
+  fetched: '2026-11-03'
+  quote: Deep learning-based appearance features extraction for automated carp species identification
+found_by:
+- register:ir
+added_by: agent
+checked: '2026-11-03'

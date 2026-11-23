@@ -1,0 +1,60 @@
+id: google-org
+kind: organisation
+name: Google.org
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: ai
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.google.org
+summary: Google's philanthropic arm, which funded AI-enabled nature solutions in Brazil through
+  Instituto Clima e Sociedade and runs a $20 million AI for Science fund with biodiversity
+  recipients.
+countries:
+- br
+facts:
+- claim: Created a $20 million AI for Science fund.
+  url: https://blog.google/company-news/outreach-and-initiatives/google-org/announcing-ai-for-science-awardees/
+  fetched: &id001 2026-10-30
+  quote: Google.org created a $20 million AI for Science fund
+- claim: Google.org's home page lists an AI Collaborative on wildfires, using AI to help communities
+    track them.
+  url: https://www.google.org/
+  quote: Using AI to help communities track wildfires
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: google
+  url: https://www.google.org/
+  fetched: *id001
+  quote: 'Google.org: Google''s philanthropy'
+- type: funds
+  to: unep-wcmc
+  url: https://blog.google/company-news/outreach-and-initiatives/google-org/announcing-ai-for-science-awardees/
+  fetched: *id001
+  quote: UNEP-WCMC is filling critical “data deserts” by using LLMs to scan millions of scientific
+    records
+  year: 2026
+- type: funds
+  to: rockefeller-university
+  url: https://blog.google/company-news/outreach-and-initiatives/google-org/announcing-ai-for-science-awardees/
+  fetched: *id001
+  quote: The Rockefeller University is overhauling the genome sequencing pipeline with AI
+  year: 2026
+- type: funds
+  to: instituto-clima-e-sociedade
+  url: https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/
+  fetched: *id001
+  quote: Google.org has provided $3M to iCS
+  amount: 3000000
+  currency: USD
+  year: 2025
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

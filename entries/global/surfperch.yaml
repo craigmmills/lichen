@@ -1,0 +1,37 @@
+id: surfperch
+kind: model
+name: SurfPerch
+scope: global
+ai_label: ai
+realms:
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: AI system from Google for finding fish sounds and assessing reef activity in underwater audio, fine-tuned on data from the Calling in Our Corals listening project.
+countries:
+- ph
+facts:
+- claim: Built to help marine scientists answer ecological questions from reef audio.
+  url: https://blog.google/outreach-initiatives/arts-culture/a-new-ai-tool-to-help-monitor-coral-reef-health/
+  fetched: &id001 2026-10-30
+  quote: We built SurfPerch, an AI led system that will make it faster and easier for marine scientists to find answers to ecological questions.
+- claim: A first trial showed differences between protected and unprotected reefs in the Philippines.
+  url: https://blog.google/outreach-initiatives/arts-culture/a-new-ai-tool-to-help-monitor-coral-reef-health/
+  fetched: *id001
+  quote: has already revealed a difference between protected and unprotected reefs in the Philippines
+links:
+- type: run-by
+  to: google
+  url: https://blog.google/outreach-initiatives/arts-culture/a-new-ai-tool-to-help-monitor-coral-reef-health/
+  fetched: *id001
+  quote: "a new AI-powered tool called SurfPerch created with Google Research and DeepMind"
+- type: builds-on
+  to: calling-in-our-corals
+  url: https://blog.google/outreach-initiatives/arts-culture/a-new-ai-tool-to-help-monitor-coral-reef-health/
+  fetched: *id001
+  quote: Our first trial combining Calling in Our Corals with SurfPerch
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

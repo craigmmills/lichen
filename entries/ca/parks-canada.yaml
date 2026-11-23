@@ -1,0 +1,82 @@
+id: parks-canada
+kind: organisation
+name: Parks Canada
+also_known_as:
+- Parks Canada Agency
+scope: ca
+sector: government
+roles:
+- governs
+ai_label: conservation-tech
+scale: national
+hq: ca
+status: active
+realms:
+- land
+- freshwater
+- ocean
+website: https://parks.canada.ca
+summary: Federal agency that protects and presents national parks, national historic sites
+  and national marine conservation areas, and is Canada's protected-area agency. It uses RADARSAT
+  data to track the state of national parks.
+facts:
+- claim: Its mandate is to protect and present nationally significant natural and cultural
+    heritage.
+  url: https://parks.canada.ca/agence-agency/dp-pd/transition/-/media/60EFD5C8E0424E9CA13D495DFA40BF0F.ashx
+  fetched: '2026-10-31'
+  quote: Parks Canada’s mandate is to protect and present nationally significant examples
+    of
+- claim: Uses RADARSAT data to track the state and health of national parks, according to
+    the Canadian Space Agency.
+  url: https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp
+  fetched: '2026-10-31'
+  quote: EO data is used for tracking the state and health of our national parks.
+- claim: The Centre for Biodiversity Genomics refers to Parks Canada's ecosystem management
+    program.
+  url: https://biodiversitygenomics.net/projects/cnp/
+  fetched: '2026-10-31'
+  quote: contributes to Parks Canada’s ecosystem management program
+- claim: Timelapse lists the Canadian National Park Service among its users.
+  url: https://timelapse.ucalgary.ca/who-uses-timelapse/
+  fetched: '2026-10-31'
+  quote: Federal Parks Agencies (e.g., US National Park Service, Canadian National Park Service
+    and others)
+- claim: Says tracking how park species and ecosystems change over time is the job of monitoring.
+  url: https://www.parcs.canada.ca/nature/science/controle-monitoring
+  fetched: '2026-10-31'
+  quote: we also need to know how the number or health of park species or ecosystems are changing
+    over time - this is the job of monitoring
+- claim: A privacy assessment covered the proposed use of computer vision and machine learning
+    software for wildlife camera trap projects.
+  url: https://www.parks.canada.ca/agence-agency/dp-pd/baiprp-atipo/efp-pia/cameras-telesurveillance-remote-camera
+  fetched: '2026-10-31'
+  quote: evaluate the proposed use of computer vision and machine learning software solutions
+- claim: The assessment found low or no risk.
+  url: https://www.parks.canada.ca/agence-agency/dp-pd/baiprp-atipo/efp-pia/cameras-telesurveillance-remote-camera
+  fetched: '2026-10-31'
+  quote: are low or non-existent, with no compliance issues identified
+links:
+- type: uses
+  to: radarsat-constellation-mission
+  url: https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp
+  fetched: '2026-10-31'
+  quote: Parks Canada uses RADARSAT-2 data, and is gradually transitioning to RCM data
+- type: uses
+  to: timelapse-image-analyser
+  url: https://timelapse.ucalgary.ca/who-uses-timelapse/
+  fetched: '2026-10-31'
+  quote: Canadian National Park Service
+- type: partners-with
+  to: canadian-national-parks-malaise-program
+  url: https://biodiversitygenomics.net/projects/cnp/
+  fetched: '2026-10-31'
+  quote: a collaboration between the Centre for Biodiversity Genomics (CBG) and Parks Canada
+found_by:
+- checklist:1
+- link-from:centre-for-biodiversity-genomics
+added_by: agent
+checked: '2026-10-31'
+countries:
+- ca
+techniques:
+- computer-vision

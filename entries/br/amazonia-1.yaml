@@ -1,0 +1,35 @@
+id: amazonia-1
+kind: programme
+name: Amazonia-1
+scope: br
+ai_label: data-infrastructure
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- br
+summary: Brazilian Earth observation satellite whose images were released by INPE and are
+  used in DETER Cerrado.
+facts:
+- claim: INPE released the first images taken by the satellite.
+  url: https://revistapesquisa.fapesp.br/en/first-images-from-amazonia-1/
+  quote: The Brazilian National Institute for Space Research (INPE) has released the first
+    images taken by Brazilian satellite Amazonia-1.
+  fetched: '2026-10-31'
+- claim: An INPE presentation lists it among the sources for DETER Cerrado.
+  url: https://terrabrasilis.github.io/treinamento-dados-aplicacoes/apresentacoes/gomes/COEAM_Projetos_e_atividades.pdf
+  quote: Satélites CBERS-4, CBERS- 4A e Amazonia-1, sensor AWFI.
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: instituto-nacional-de-pesquisas-espaciais
+  url: https://revistapesquisa.fapesp.br/en/first-images-from-amazonia-1/
+  quote: The Brazilian National Institute for Space Research (INPE) has released the first
+    images taken by Brazilian satellite Amazonia-1.
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

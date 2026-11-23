@@ -1,0 +1,85 @@
+id: centre-for-environmental-intelligence-exeter
+kind: organisation
+name: Centre for Environmental Intelligence
+also_known_as:
+- CEI
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.exeter.ac.uk/research/environmental-intelligence/
+summary: University of Exeter research centre using AI and data science for environmental
+  problems, with a theme on biodiversity, ecosystems and nature.
+facts:
+- claim: An interdisciplinary centre at Exeter using AI and data science.
+  url: https://www.exeter.ac.uk/research/environmental-intelligence/
+  quote: The Centre for Environmental Intelligence at the University of Exeter is an interdisciplinary
+    research centre using responsible AI and data science to address urgent environmental
+    challenges.
+  fetched: '2026-10-30'
+- claim: Has a theme on biodiversity, ecosystems and nature.
+  url: https://www.exeter.ac.uk/research/environmental-intelligence/
+  quote: Biodiversity, ecosystems & nature
+  fetched: '2026-10-30'
+- claim: Gives a UK address or registration on its own site.
+  url: https://www.exeter.ac.uk/contact/
+  quote: Exeter EX4 4PY
+  fetched: '2026-10-30'
+- claim: Uses AI and data science on environmental challenges.
+  url: https://www.exeter.ac.uk/research/centres/environmental-intelligence/workwithus
+  quote: is an interdisciplinary research centre using responsible AI and data science to
+    address urgent environmental challenges
+  fetched: '2026-10-30'
+- claim: Work on biodiversity.
+  url: https://www.exeter.ac.uk/research/centres/environmental-intelligence/workwithus
+  quote: Providing insights and solutions to support biodiversity, ecosystem health, and nature
+    recovery
+  fetched: '2026-10-30'
+- claim: Defines environmental intelligence as the responsible use of data science and AI
+    on environmental and sustainability challenges.
+  url: https://environmentalintelligence.org.uk/about
+  quote: Environmental Intelligence (EI) is the responsible use of data science and artificial
+    intelligence (AI) to address environmental and sustainability challenges
+  fetched: &id001 2026-10-30
+- claim: Lists chatbots, smart agents and LLMs among the methods on its Living Wales work.
+  url: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+  quote: Chatbots, smart agents, LLMs
+  ai_type: large-language-models
+  fetched: *id001
+links:
+- type: run-by
+  to: university-of-exeter
+  url: https://www.exeter.ac.uk/research/environmental-intelligence/
+  quote: The Centre for Environmental Intelligence at the University of Exeter
+  fetched: '2026-10-30'
+- type: run-by
+  to: university-of-exeter
+  url: https://www.exeter.ac.uk/research/centres/environmental-intelligence/workwithus
+  quote: The Centre for Environmental Intelligence at the University of Exeter
+  fetched: '2026-10-30'
+- type: runs
+  to: chatbot-for-living-wales
+  url: https://environmentalintelligence.org.uk/work/chatbot-for-living-wales
+  quote: This project is developing a web-based chatbot that allows people to ask questions
+    about the environment in Wales using plain language
+  fetched: *id001
+found_by:
+- checklist:3
+- link-from:university-of-exeter
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+techniques:
+- remote-sensing
+ai_types:
+- large-language-models

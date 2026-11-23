@@ -1,0 +1,41 @@
+id: suez-canal-university
+kind: organisation
+name: Suez Canal University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: unknown
+funding_at_risk: false
+website: https://suez.edu.eg/ar/
+summary: University that OpenAlex gives as the first author's affiliation on a 2017 paper
+  presenting a new approach to estimating mangrove canopy cover from Landsat 8 imagery.
+facts:
+- claim: OpenAlex lists the 2017 paper A new approach for estimating mangrove canopy cover
+    using Landsat 8 imagery, with Hesham Abd-El Monsef as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02m82p074,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "A new approach for estimating mangrove canopy cover using Landsat
+    8 imagery", "publication_year": 2017, "authorships": [{"author_position": "first", "author":
+    {"id": "https://openalex.org/A5012226790", "display_name": "Hesham Abd-El Monsef"'
+- claim: OpenAlex gives the first author's affiliation as Suez Canal University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:02m82p074,concepts.id:C62649853,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Hesham Abd-El Monsef", "raw_affiliation_strings": ["Suez Canal
+    University, Faculty of Science, Geology Department, Ismailia, Egypt"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,33 @@
+id: gs-donor-advised-philanthropy-fund
+kind: organisation
+name: GS Donor Advised Philanthropy Fund for Wealth Management
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- ocean
+hq: us
+scale: global
+status: active
+summary: New York donor-advised fund recorded as giving Global Fishing Watch $2 million in
+  2023 and 2024.
+facts:
+- claim: Recorded as giving Global Fishing Watch $2,000,000 across two grants in 2023 and
+    2024. Grantable table compiled from IRS Form 990 filings.
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: GS Donor Advised Philanthropy Fund for Wealth Management Inc $2,000,000 2 2023–2024
+  fetched: &id001 2026-10-30
+links:
+- type: funds
+  to: global-fishing-watch
+  url: https://grantable.co/nonprofits/global-fishing-watch-inc-morg_fe5d362fa8734796816bdf1f81ca01d0
+  quote: GS Donor Advised Philanthropy Fund for Wealth Management Inc $2,000,000 2 2023–2024
+  amount: 2000000
+  currency: USD
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

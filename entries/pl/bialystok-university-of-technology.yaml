@@ -1,0 +1,57 @@
+id: bialystok-university-of-technology
+kind: organisation
+name: Białystok University of Technology
+scope: pl
+sector: academic
+roles:
+- supplies-data
+- convenes
+- uses-ai
+ai_label: ai
+scale: regional
+hq: unknown
+status: active
+summary: University whose faculty announced a 26 March 2025 event on AI and GIS in nature
+  monitoring, describes the BioLoc citizen science app, and partners with E-Puszcza.
+also_known_as:
+- Politechnika Białostocka
+realms:
+- land
+website: https://pb.edu.pl
+facts:
+- claim: Its faculty announced an event for 26 March 2025 on AI and GIS in nature monitoring.
+  url: https://pb.edu.pl/2025/03/18/wydzial-informatyki-politechniki-bialostockiej-przedstawi-w-kawiarni-naukowej-prelekcje-na-temat-puszczy-krzemowej/
+  fetched: '2026-11-02'
+  quote: Sztuczna inteligencja i systemy informacji geograficznej wykorzystywane w monitorowaniu
+    i ochronie przyrody będą tematami spotkania Kawiarni Naukowej.
+- claim: A faculty page describes BioLoc, a citizen science app for the Białowieża Forest.
+  url: https://wb.pb.edu.pl/2021/01/12/bioloc-aplikacja-dla-milosnikow-puszczy-bialowieskiej/
+  fetched: '2026-11-02'
+  quote: Powstała mobilna aplikacja do gromadzenia danych naukowych z terenu Puszczy Białowieskiej.
+- claim: A 2021 paper with its first author and two other authors at the university covers
+    recognising mammal species in camera trap images using AI.
+  url: https://api.openalex.org/works/W3138871341?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: A First Step Towards Automated Species Recognition from Camera Trap Images of Mammals
+    Using AI in a European Temperate Forest
+  fetched: '2026-11-02'
+- claim: A 2023 paper with its first author at the university covers insect detection using
+    deep learning.
+  url: https://api.openalex.org/works/W4386729063?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Insect Detection on High-Resolution Images Using Deep Learning
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+links:
+- type: partners-with
+  to: e-puszcza
+  url: https://www.gov.pl/web/cppc/e-puszcza---podlaskie-cyfrowe-repozytorium-przyrodniczych-danych-naukowych
+  fetched: '2026-11-02'
+  quote: parterami dwie jednostki Politechniki Białostockiej
+found_by:
+- checklist:3
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- computer-vision
+ai_types:
+- deep-learning

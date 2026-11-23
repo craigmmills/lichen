@@ -1,0 +1,40 @@
+id: amazon-conservation
+kind: organisation
+name: Amazon Conservation
+also_known_as:
+- Amazon Conservation Association
+scope: global
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: regional
+status: active
+website: https://www.maapprogram.org
+summary: Non-profit working in the Amazon that runs the Monitoring of the Andes Amazon Program,
+  which uses satellites and automated forest loss alerts to detect deforestation.
+facts:
+- claim: Runs MAAP, launched in 2015.
+  url: https://www.maapprogram.org/about/
+  quote: Launched in 2015, Amazon Conservation’s Monitoring of the Andes Amazon Program (MAAP)
+  fetched: 2026-10-30
+- claim: Listed in Washington, DC in ProPublica's Nonprofit Explorer.
+  url: https://projects.propublica.org/nonprofits/api/v2/search.json?q=Amazon+Conservation+Association
+  quote: '"city":"Washington","state":"DC"'
+  fetched: 2026-10-30
+links:
+- type: runs
+  to: monitoring-of-the-andes-amazon-program
+  url: https://www.maapprogram.org/about/
+  quote: Launched in 2015, Amazon Conservation’s Monitoring of the Andes Amazon Program (MAAP)
+  fetched: 2026-10-30
+found_by:
+- global:ngos-networks
+added_by: agent
+checked: 2026-10-30

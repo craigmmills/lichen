@@ -1,0 +1,69 @@
+id: nationalpark-kalkalpen
+kind: organisation
+name: Nationalpark Kalkalpen
+also_known_as:
+- National Park Kalkalpen
+scope: at
+sector: government
+roles:
+- supplies-data
+- governs
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+hq: unknown
+countries:
+- at
+scale: local
+status: active
+website: https://www.kalkalpen.at
+summary: National park protecting Austria's largest continuous forest wilderness, which has
+  monitored lynx since 1998, mostly by camera traps and telemetry, and publishes data through
+  GBIF.
+facts:
+- claim: Has run lynx monitoring since 1998, together with the ARGE LUKA working group on
+    supporting the lynx population.
+  url: https://www.kalkalpen.at/luchs
+  fetched: 2026-11-07
+  quote: führt der Nationalpark Kalkalpen seit 1998 ein Luchsmonitoring durch und setzt gemeinsam
+    mit der ARGE LUKA Maßnahmen zur Luchsbestandstützung um.
+- claim: The lynx monitoring is done mostly with camera traps and telemetry.
+  url: https://www.kalkalpen.at/luchs
+  fetched: 2026-11-07
+  quote: Das Monitoring erfolgt Großteils über Fotofallen und Telemetrie.
+- claim: National park staff carry out the weekly sampling and maintenance at the Zöbelboden
+    research site.
+  url: https://www.kalkalpen.at/integrated-monitoring
+  fetched: 2026-11-07
+  quote: Die wöchentlichen Probenahmen, diverse Wartungsarbeiten und die Probenaufarbeitung
+    im Nationalpark Zentrum Molln werden von Nationalpark Mitarbeiter:innen durchgeführt.
+- claim: Publishes data through GBIF as National Park Kalkalpen.
+  url: https://api.gbif.org/v1/organization?country=AT&limit=200
+  fetched: 2026-11-07
+  quote: '"title":"National Park Kalkalpen"'
+- claim: Protects Austria's largest continuous forest wilderness, in the south-east of Upper
+    Austria.
+  url: https://www.kalkalpen.at
+  fetched: 2026-11-07
+  quote: Der Nationalpark Kalkalpen schützt Österreichs größte zusammenhängende Waldwildnis.
+- claim: Its website has a section on research priorities.
+  url: https://www.kalkalpen.at
+  fetched: 2026-11-07
+  quote: Forschungsschwerpunkte
+- claim: Its website has a knowledge database.
+  url: https://www.kalkalpen.at
+  fetched: 2026-11-07
+  quote: Wissensdatenbank
+links:
+- type: partners-with
+  to: zobelboden-integrated-monitoring
+  url: https://www.kalkalpen.at/integrated-monitoring
+  fetched: 2026-11-07
+  quote: Die wöchentlichen Probenahmen, diverse Wartungsarbeiten und die Probenaufarbeitung
+    im Nationalpark Zentrum Molln werden von Nationalpark Mitarbeiter:innen durchgeführt.
+found_by:
+- link-from:gbif-austria
+- register:gbif-publisher
+added_by: agent
+checked: 2026-11-07

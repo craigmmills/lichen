@@ -1,0 +1,35 @@
+id: gulu-university
+kind: organisation
+name: Gulu University
+also_known_as: []
+scope: ug
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- ug
+scale: national
+status: active
+summary: University with a researcher listed by OpenAlex as first author of a 2024 paper on
+  land-use and land-cover change modelling and a 2025 spatial analysis of land use change
+  in the Mount Elgon region.
+facts:
+- claim: OpenAlex lists a 2024 paper on modelling land-use and land-cover change whose first
+    author, Isdore Paterson Guma, is at Gulu University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:042vepq05,concepts.id:C119857082|C154945302|C62649853|C108583219,primary_topic.subfield.id:2309|1105|2303|2302|2305|2306&per_page=50&sort=cited_by_count:desc
+  fetched: 2026-11-08
+  quote: Modeling Land-Use Land-Cover Change Complexity
+- claim: OpenAlex lists a 2025 spatial analysis of land use change in the Mount Elgon region
+    by the same Gulu University first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:042vepq05,concepts.id:C119857082|C154945302|C62649853|C108583219,primary_topic.subfield.id:2309|1105|2303|2302|2305|2306&per_page=50&sort=cited_by_count:desc
+  fetched: 2026-11-08
+  quote: Leveraging Spatial Analysis for Sustainable Land Use Change Management
+links: []
+found_by:
+- register:ug
+added_by: agent
+checked: 2026-11-08

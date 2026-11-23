@@ -1,0 +1,33 @@
+id: ministere-des-ressources-naturelles-et-des-forets
+kind: organisation
+name: Ministère des Ressources naturelles et des Forêts
+also_known_as: []
+scope: ca
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+scale: regional
+hq: ca
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+summary: Quebec ministry listed as the source of the open Carte dendrométrique lidar, a map
+  of forest stand characteristics derived from lidar.
+facts:
+- claim: Listed on Données Québec as the organisation behind the lidar dendrometric map.
+  url: https://www.donneesquebec.ca/recherche/dataset/carte_dendrometrique_lidar
+  fetched: '2026-10-31'
+  quote: Ministère des Ressources naturelles et des Forêts
+links:
+- type: runs
+  to: carte-dendrometrique-lidar
+  url: https://www.donneesquebec.ca/recherche/dataset/carte_dendrometrique_lidar
+  fetched: '2026-10-31'
+  quote: Ministère des Ressources naturelles et des Forêts
+found_by:
+- rule:provincial-agencies
+added_by: agent
+checked: '2026-10-31'

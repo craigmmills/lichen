@@ -1,0 +1,75 @@
+id: institute-for-biodiversity-and-ecosystem-dynamics
+kind: organisation
+name: Institute for Biodiversity and Ecosystem Dynamics
+also_known_as:
+- IBED
+sector: academic
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- computer-vision
+- bioacoustics
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+website: https://ibed.uva.nl/
+countries:
+- nl
+summary: An institute of the University of Amsterdam whose researchers built the automated
+  wildlife camera network in the Amsterdam Water Supply Dunes and which is a partner in TABMON
+  and HiRAD.
+facts:
+- claim: Named as an institute of the University of Amsterdam.
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: &id001 2026-10-31
+  quote: Researchers at the University of Amsterdam Institute for Biodiversity and Ecosystem
+    Dynamics (IBED)
+- claim: A department uses theoretical and advanced computational approaches on ecological
+    systems.
+  url: http://ibed.uva.nl/
+  fetched: '2026-10-31'
+  quote: Research in the Department of Theoretical and Computational Ecology focuses on understanding
+    the complexity of ecological systems by using theoretical and advanced computational approaches.
+- claim: Its home page carries an item on real-time radar and weather data predicting bird
+    migration.
+  url: http://ibed.uva.nl/
+  fetched: '2026-10-31'
+  quote: Real-time radar and weather data help predict bird migration and improve flight safety
+links:
+- type: run-by
+  to: university-of-amsterdam
+  url: https://www.uva.nl/shared-content/uva/en/news/news/2024/11/revolutionizing-biodiversity-monitoring-with-a-network-of-automated-wildlife-cameras.html
+  fetched: *id001
+  quote: Researchers at the University of Amsterdam Institute for Biodiversity and Ecosystem
+    Dynamics (IBED)
+- type: partners-with
+  to: tabmon
+  url: https://www.biodiversa.eu/2024/04/15/tabmon/
+  fetched: *id001
+  quote: Institute for Biodiversity and Ecosystem Dynamics (IBED), University of Amsterdam,
+    Netherlands
+- type: partners-with
+  to: hirad
+  url: https://www.biodiversa.eu/2024/04/15/hirad/
+  fetched: *id001
+  quote: Institute of Biodiversity and Ecosystem Dynamics, University of Amsterdam (UvA),
+    Amsterdam, Netherlands
+- type: run-by
+  to: university-of-amsterdam
+  url: http://ibed.uva.nl/
+  fetched: '2026-10-31'
+  quote: Researchers at the University of Amsterdam’s Institute for Biodiversity and Ecosystem
+    Dynamics (IBED)
+found_by:
+- link-from:university-of-amsterdam
+- register:nl
+scope: nl
+added_by: agent
+checked: *id001

@@ -1,0 +1,29 @@
+id: harpia
+kind: model
+name: Harpia
+also_known_as: []
+scope: ca
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries: []
+status: active
+summary: Open-source workflow from the Kanopia team that automates high-resolution drone photography
+  of forest canopies, with AI algorithms delineating tree crowns.
+facts:
+- claim: An open-source workflow automating high-resolution canopy photography.
+  url: https://mila.quebec/fr/article/kanopia-surveiller-les-forets-avec-lia-et-les-drones
+  fetched: '2026-10-31'
+  quote: un flux de travail en code source libre qui automatise l'acquisition de photos à
+    haute résolution de la canopée
+- claim: AI algorithms detect and delineate individual tree crowns.
+  url: https://mila.quebec/fr/article/kanopia-surveiller-les-forets-avec-lia-et-les-drones
+  fetched: '2026-10-31'
+  quote: Des algorithmes d'IA détectent et délimitent ensuite la couronne des arbres individuels
+found_by:
+- link-from:kanopia
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

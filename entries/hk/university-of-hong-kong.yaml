@@ -1,0 +1,72 @@
+id: university-of-hong-kong
+kind: organisation
+name: The University of Hong Kong
+scope: hk
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+- freshwater
+- land
+techniques:
+- edna-genomics
+- remote-sensing
+hq: unknown
+countries: []
+scale: local
+status: active
+summary: University that runs the Swire Institute of Marine Science and is corresponding
+  institution on studies from 2024 to 2026 on eDNA metabarcoding, satellite monitoring
+  of migration and otter persistence.
+facts:
+- claim: The Swire Institute of Marine Science is a research facility of its Faculty
+    of Science.
+  url: https://api.gbif.org/v1/organization?country=HK&limit=30
+  fetched: 2026-11-14
+  quote: The Swire Institute of Marine Science (SWIMS) is a research facility of The
+    University of Hong Kong's Faculty of Science
+- claim: Corresponding institution on a 2025 study quantifying the temporal dynamics
+    of marine biodiversity under human impacts with eDNA metabarcoding.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I889458895,publication_year:2022-2026,primary_topic.id:T12640&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: Quantifying the Temporal Dynamics of Marine Biodiversity Under Anthropogenic
+    Impacts Using eDNA Metabarcoding
+- claim: Corresponding institution on a 2024 study of riverine biodiversity using
+    eDNA metabarcoding.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I889458895,publication_year:2022-2026,primary_topic.id:T12640&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: An integrated spatio-temporal view of riverine biodiversity using environmental
+    DNA metabarcoding
+- claim: Corresponding institution on a 2026 paper on building DNA barcodes and eDNA
+    metabarcoding as foundations for biodiversity monitoring.
+  url: https://api.openalex.org/works?filter=corresponding_institution_ids:I889458895,publication_year:2022-2026,primary_topic.id:T12640&per_page=25&select=id,title,publication_year
+  fetched: 2026-11-14
+  quote: 'From DNA Barcodes to eDNA Metabarcoding: Building the Foundations for Biodiversity
+    Monitoring'
+- claim: One of the corresponding institutions on a 2024 study monitoring the world's
+    largest terrestrial mammal migration from satellites with deep learning.
+  url: https://api.openalex.org/works?filter=institutions.country_code:hk,publication_year:2022-2026,primary_topic.id:T10199&per_page=40&select=id,title,publication_year,corresponding_institution_ids
+  fetched: 2026-11-14
+  quote: terrestrial mammal migration using deep learning
+  ai_type: deep-learning
+- claim: Corresponding institution on a 2024 study using satellite remote sensing
+    of fish pond area to study Eurasian otter persistence in Hong Kong.
+  url: https://api.openalex.org/works?filter=institutions.country_code:hk,publication_year:2022-2026,primary_topic.id:T10199&per_page=40&select=id,title,publication_year,corresponding_institution_ids
+  fetched: 2026-11-14
+  quote: Satellite Remote Sensing Shows Maintenance of Fish Pond Area Improves Persistence
+    of Eurasian Otters in Hong Kong
+links:
+- type: runs
+  to: swire-institute-of-marine-science
+  url: https://api.gbif.org/v1/organization?country=HK&limit=30
+  fetched: 2026-11-14
+  quote: The Swire Institute of Marine Science (SWIMS) is a research facility of The
+    University of Hong Kong's Faculty of Science
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-14

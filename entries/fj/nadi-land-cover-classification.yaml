@@ -1,0 +1,35 @@
+id: nadi-land-cover-classification
+kind: project
+name: Nadi land cover classification and change detection
+scope: fj
+ai_label: ai
+status: unknown
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fj
+ai_types:
+- deep-learning
+- ml-unsupervised
+summary: Study of land use change in Nadi, Fiji, from 2013 to 2024, using Landsat-8, Google
+  Earth Engine, k-means clustering and convolutional neural networks.
+facts:
+- claim: Used convolutional neural networks to classify land cover.
+  url: https://arxiv.org/html/2509.13388v2
+  fetched: '2026-10-31'
+  quote: We used convolutional neural networks for classifying the land cover types of the
+    selected regions.
+  ai_type: deep-learning
+- claim: Used unsupervised k-means clustering to generate the land cover map.
+  url: https://arxiv.org/html/2509.13388v2
+  fetched: '2026-10-31'
+  quote: We used Google Earth Engine and an unsupervised machine learning via k-means clustering
+    for generating the land cover map.
+  ai_type: ml-unsupervised
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

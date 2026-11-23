@@ -1,0 +1,51 @@
+id: flora-and-fauna-web
+kind: dataset
+name: NParks Flora & Fauna Web
+also_known_as:
+- Flora & Fauna Web
+scope: sg
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- sg
+status: active
+website: https://www.nparks.gov.sg/florafaunaweb
+summary: Information portal run by the National Parks Board on plants grown in the region and animals
+  found in Singapore, with data updated regularly.
+facts:
+- claim: Describes itself as a one-stop information portal on plants grown in the region and animals found
+    in Singapore.
+  url: https://www.nparks.gov.sg/florafaunaweb/who-we-are
+  fetched: '2026-11-08'
+  quote: NParks Flora & Fauna Web is a user-friendly one-stop information portal which allows users to
+    search for information on both plants grown in this region and animals that can be found in Singapore.
+- claim: Data is updated regularly on native and cultivated plants and on terrestrial, freshwater and
+    marine fauna.
+  url: https://www.nparks.gov.sg/florafaunaweb/who-we-are
+  fetched: '2026-11-08'
+  quote: Data is updated regularly with new photos and information on native and cultivated plants as
+    well as terrestrial, freshwater and marine fauna.
+- claim: The National Parks Board's home page lists Flora & Fauna Web as an information portal for plants
+    and animals in Singapore.
+  url: https://www.nparks.gov.sg/
+  fetched: '2026-11-08'
+  quote: Browse this information portal for plants and animals in Singapore
+links:
+- type: run-by
+  to: national-parks-board
+  url: https://www.nparks.gov.sg/florafaunaweb/who-we-are
+  fetched: '2026-11-08'
+  quote: NParks Flora & Fauna Web is a user-friendly one-stop information portal
+- type: run-by
+  to: national-parks-board
+  url: https://www.nparks.gov.sg/
+  fetched: '2026-11-08'
+  quote: Glide over to our other websites
+found_by:
+- checklist:2
+- link-from:national-parks-board
+added_by: agent
+checked: '2026-11-08'

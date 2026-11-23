@@ -1,0 +1,51 @@
+id: birdata
+kind: dataset
+name: Birdata
+scope: au
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- au
+status: active
+website: https://birdata.birdlife.org.au/
+summary: BirdLife Australia's online bird monitoring platform, which holds more than
+  30 million bird sighting records from professional researchers and citizen scientists.
+facts:
+- claim: Says it is Australia's longest running digital database for bird sightings,
+    with more than 30 million records.
+  url: https://birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is Australia's longest running digital database for bird sightings
+    with more than 30 million records
+- claim: Holds more than 30 million bird records.
+  url: https://www.birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is Australia's longest running digital database for bird sightings
+    with more than 30 million records (and counting).
+- claim: More than 30 million records.
+  url: https://birdlife.org.au/
+  fetched: '2026-10-31'
+  quote: Birdata is Australia's longest running digital database for bird sightings
+    with more than 30 million records
+links:
+- type: run-by
+  to: birdlife-australia
+  url: https://birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is BirdLife Australia’s online Bird Monitoring Platform.
+- type: run-by
+  to: birdlife-australia
+  url: https://www.birdlife.org.au/programs/birdata/
+  fetched: '2026-10-31'
+  quote: Birdata is BirdLife Australia’s online Bird Monitoring Platform.
+- type: run-by
+  to: birdlife-australia
+  url: https://birdata.birdlife.org.au/
+  fetched: '2026-10-31'
+  quote: BirdLife Australia’s national bird monitoring program
+found_by:
+- link-from:birdlife-australia
+added_by: agent
+checked: '2026-10-31'

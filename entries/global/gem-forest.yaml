@@ -1,0 +1,31 @@
+id: gem-forest
+kind: dataset
+name: GEM-Forest
+scope: global
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+summary: Global satellite embedding-based dataset at 10 m resolution for 2020, classifying
+  forests and tree crops.
+ai_types:
+- foundation-models
+facts:
+- claim: Preprint describes a global satellite embedding-based dataset at 10 m for 2020.
+  url: https://essd.copernicus.org/preprints/essd-2026-495/essd-2026-495.pdf
+  quote: at 10 m spatial resolution for 2020
+  fetched: '2026-10-30'
+- claim: The GEM-Forest preprint builds its classification on AlphaEarth Foundations satellite
+    embeddings.
+  url: https://essd.copernicus.org/preprints/essd-2026-495/essd-2026-495.pdf
+  fetched: '2026-10-31'
+  quote: lightweight classifiers applied to satellite embeddings from the Google DeepMind
+    Alpha Earth Foundation (AEF)
+  ai_type: foundation-models
+found_by:
+- link-from:global-forest-cover-2020
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

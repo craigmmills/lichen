@@ -1,0 +1,33 @@
+id: instant-detect
+kind: programme
+name: Instant Detect
+also_known_as:
+- InstantDetect
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://www.hack-the-planet.io/products/instant-detect/
+summary: AI camera traps that run species recognition on each camera and send images through
+  a satellite-connected base station. Hack the Planet adopted the technology from ZSL.
+facts:
+- claim: Runs species recognition on each camera and links them to a satellite-connected base
+    station.
+  url: https://www.hack-the-planet.io/products/
+  fetched: &id001 2026-10-31
+  quote: Instant Detect runs species-recognition AI on each camera, links them with a single
+    satellite-connected Base Station
+links:
+- type: run-by
+  to: hack-the-planet
+  url: https://www.hack-the-planet.io/partners/
+  fetched: *id001
+  quote: We adopted Instant Detect from them and are deploying and improving the technology
+    ever since.
+found_by:
+- link-from:hack-the-planet
+scope: nl
+added_by: agent
+checked: *id001

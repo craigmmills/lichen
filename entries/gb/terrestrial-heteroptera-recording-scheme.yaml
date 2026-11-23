@@ -1,0 +1,44 @@
+id: terrestrial-heteroptera-recording-scheme
+kind: programme
+name: Terrestrial Heteroptera Recording Scheme
+also_known_as:
+- Plantbugs and allied species recording scheme
+- Shieldbugs and allied species recording scheme
+scope: gb
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+status: active
+runner: unknown
+website: https://www.britishbugs.org.uk/
+summary: British recording scheme for plantbugs, shieldbugs and allied species, whose
+  records verified through iRecord are published on GBIF.
+facts:
+- claim: Associated online guide to UK Hemiptera.
+  url: https://www.britishbugs.org.uk/
+  fetched: '2026-10-30'
+  quote: British Bugs Home - An online identification guide to UK Hemiptera
+- claim: Publishes the dataset "Plant bugs and allied species records, from iRecord"
+    on GBIF.
+  url: https://api.gbif.org/v1/organization/bcecc656-f757-4637-83ce-c1f44f17c77d/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Plant bugs and allied species records, from iRecord
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/bcecc656-f757-4637-83ce-c1f44f17c77d/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: 'Publishes the dataset "iSpot (2008-2010): Shieldbugs & allied species" on
+    GBIF.'
+  url: https://api.gbif.org/v1/organization/a86070d3-15cf-43df-b5a9-6949901963d3/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: 'iSpot (2008-2010): Shieldbugs & allied species'
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/a86070d3-15cf-43df-b5a9-6949901963d3/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

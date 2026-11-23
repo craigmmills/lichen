@@ -1,0 +1,36 @@
+id: zerbis-geo-it
+kind: organisation
+name: ZERBIS Geo-IT GmbH
+scope: de
+sector: company
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: Provider listed by the CopWald service for forest remote sensing, working on integrated
+  fire management and offering firemaps.net, burnt area mapping and fire emission estimates.
+facts:
+- claim: Listed by the CopWald service as a provider active in forest remote sensing.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Hier ist eine alphabetische Liste von Behörden und kommerziellen Dienstleistern,
+    die im Bereich Wald-Fernerkundung tätig sind.
+- claim: CopWald gives its field as integrated fire management with active fire detection.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: Umsetzung eines integrierten Brandmanagements mit Daten und Dokumentation; - aktive
+    Branderkennung und -anzeige
+- claim: Offers firemaps.net, mapping of burnt areas and fire emission estimates.
+  url: https://copwald.thuenen.de/zum-nachschlagen/dienstleister
+  fetched: '2026-11-07'
+  quote: firemaps.net, Kartierung verbrannter Bereiche, Schätzung von Brandemissionen
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-07'

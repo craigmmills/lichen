@@ -1,0 +1,31 @@
+id: harper-adams-university
+kind: organisation
+name: Harper Adams University
+scope: gb
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: gb
+scale: national
+status: active
+website: https://www.harper-adams.ac.uk
+summary: Shropshire university running the Green Box bird monitoring project with smart sensors
+  and AI.
+facts:
+- claim: Uses the Green Box initiative for species observation.
+  url: https://newsroom.shropshire.gov.uk/2026/02/national-trust-in-tune-with-digital-bird-monitoring-project/
+  quote: which has been in use by Harper Adams for several months
+  fetched: &id001 2026-10-30
+- claim: Address or registration shown on its own site.
+  url: https://www.harper-adams.ac.uk/
+  quote: Shropshire TF10 8NB
+  fetched: 2026-10-30
+found_by:
+- checklist:3
+added_by: agent
+checked: *id001

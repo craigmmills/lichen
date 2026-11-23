@@ -1,0 +1,27 @@
+id: soilgrids
+kind: dataset
+name: SoilGrids
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- other
+status: active
+website: https://www.isric.org/explore/soilgrids
+summary: ISRIC system for global digital soil mapping that uses machine learning to map the spatial distribution of soil properties.
+facts:
+- claim: Uses machine learning to map soil properties across the globe.
+  url: https://docs.isric.org/globaldata/soilgrids/
+  fetched: '2026-10-30'
+  quote: is a system for global digital soil mapping that uses state-of-the-art machine learning methods to map the spatial distribution of soil properties across the globe
+links:
+- type: run-by
+  to: isric-world-soil-information
+  url: https://www.isric.org/explore/soilgrids
+  fetched: '2026-10-30'
+  quote: SoilGrids is one of ISRIC’s flagship products.
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

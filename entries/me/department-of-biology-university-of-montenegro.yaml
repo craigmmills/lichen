@@ -1,0 +1,41 @@
+id: department-of-biology-university-of-montenegro
+kind: organisation
+name: Department of Biology, Faculty of Science, University of Montenegro
+scope: me
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- edna-genomics
+hq: me
+countries:
+- me
+scale: national
+status: active
+summary: University of Montenegro department in Podgorica, run by the university,
+  listed as the affiliation of the first and corresponding author of a paper on Corsican
+  water mites.
+facts:
+- claim: 'The first and corresponding author of Water mites of Corsica: DNA barcode
+    and morphological evidences lists the Department of Biology, University of Montenegro
+    as his affiliation.'
+  url: https://api.openalex.org/works/W4283164786?select=id,display_name,authorships
+  fetched: 2026-11-13
+  quote: 'Water mites of Corsica: DNA barcode and morphological evidences'
+- claim: The paper gives the department's address in Podgorica.
+  url: https://api.openalex.org/works/W4283164786?select=id,display_name,authorships
+  fetched: 2026-11-13
+  quote: Department of Biology, University of Montenegro, Podgorica, Montenegro
+links:
+- type: run-by
+  to: university-of-montenegro
+  url: https://api.openalex.org/works/W4283164786?select=id,display_name,authorships
+  fetched: 2026-11-13
+  quote: Department of Biology, University of Montenegro, Podgorica, Montenegro
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

@@ -1,0 +1,47 @@
+id: torchgeo
+kind: programme
+name: TorchGeo
+scope: global
+ai_label: ai
+ai_types: [deep-learning, multimodal]
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://github.com/torchgeo/torchgeo
+summary: PyTorch library of datasets, samplers, transforms and pre-trained models for geospatial data. The repository at microsoft/torchgeo now redirects to the torchgeo organisation.
+facts:
+- claim: A PyTorch domain library for geospatial data.
+  url: https://github.com/torchgeo/torchgeo
+  fetched: &id001 2026-10-30
+  quote: TorchGeo is a PyTorch domain library, similar to torchvision , providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
+- claim: The microsoft/torchgeo address serves the torchgeo/torchgeo repository.
+  url: https://github.com/microsoft/torchgeo
+  fetched: *id001
+  quote: 'GitHub - torchgeo/torchgeo: TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data'
+- claim: "The TorchGeo repository is tagged deep-learning."
+  url: https://github.com/torchgeo/torchgeo
+  fetched: 2026-10-30
+  quote: "Topics computer-vision datasets deep-learning earth-observation"
+  ai_type: deep-learning
+- claim: "TorchGeo can combine image sources for multimodal learning."
+  url: https://github.com/torchgeo/torchgeo
+  fetched: 2026-10-30
+  quote: "Combine datasets for multiple image sources for multimodal learning or data fusion"
+  ai_type: multimodal
+links:
+- type: run-by
+  to: microsoft-ai-for-good-lab
+  url: https://www.microsoft.com/en-us/research/publication/torchgeo-deep-learning-with-geospatial-data/
+  fetched: *id001
+  quote: "https://github.com/microsoft/torchgeo. Opens in a new tab GitHub Publication Groups AI For Good Lab"
+- type: partners-with
+  to: radiant-earth
+  url: https://github.com/sponsors/torchgeo
+  fetched: 2026-10-30
+  quote: 'TorchGeo is a fiscally sponsored program of Radiant Earth, a 501(c)(3) public charity'
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

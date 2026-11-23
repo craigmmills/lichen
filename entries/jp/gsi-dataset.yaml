@@ -1,0 +1,43 @@
+id: gsi-dataset
+kind: dataset
+name: GSI Dataset
+also_known_as:
+- ＧＳＩデータセット
+scope: jp
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+status: active
+website: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+summary: A machine learning dataset for extracting features from 20 cm aerial photographs by semantic
+  segmentation, with classes including natural vegetation such as broadleaf and coniferous forest.
+facts:
+- claim: A machine learning dataset for extracting features from 20 cm aerial photographs by semantic
+    segmentation.
+  url: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+  fetched: '2026-11-02'
+  quote: セマンティックセグメンテーションという手法で抽出する際に用いる機械学習用のデータセットです。
+- claim: Its classes include natural vegetation such as broadleaf and coniferous forest.
+  url: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+  fetched: '2026-11-02'
+  quote: 広葉樹林や針葉樹林などの自然植生、水田や畑などの既耕地も対象としています。
+- claim: Its formal name is a teaching dataset for feature extraction by convolutional neural network.
+  url: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+  fetched: '2026-11-02'
+  quote: 正式名称は「CNNによる地物抽出用教師データセット」
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: geospatial-information-authority-of-japan
+  url: https://gisstar.gsi.go.jp/gsi-dataset/index_ja.html
+  fetched: '2026-11-02'
+  quote: 本データセットは、国土地理院の特別研究「ＡＩを活用した地物自動抽出に関する研究（平成30年度～令和４年度）」の研究成果として作成されたものです。
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-11-02'

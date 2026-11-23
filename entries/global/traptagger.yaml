@@ -1,0 +1,36 @@
+id: traptagger
+kind: programme
+name: TrapTagger
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://github.com/WildEyeConservation/TrapTagger
+summary: Web application for processing camera-trap imagery with AI classification and manual annotation, maintained by WildEye Conservation and developed with the Wildlife Conservation Research Unit at Oxford.
+facts:
+- claim: Its repository says it combines automatic AI classifications with manual annotations.
+  url: https://github.com/WildEyeConservation/TrapTagger
+  quote: TrapTagger allows for a hybridised approach between automatic AI classifications and manual annotations
+  fetched: '2026-10-30'
+- claim: Its repository says it was developed with the Wildlife Conservation Research Unit at Oxford University.
+  url: https://github.com/WildEyeConservation/TrapTagger
+  quote: TrapTagger was developed in conjunction with the Wildlife Conservation Research Unit (WildCRU)
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: wildeye-conservation
+  url: https://github.com/WildEyeConservation/TrapTagger
+  quote: This repo is maintained by WildEye Conservation
+  fetched: '2026-10-30'
+- type: partners-with
+  to: university-of-oxford
+  url: https://github.com/WildEyeConservation/TrapTagger
+  fetched: 2026-10-30
+  quote: 'It has been developed in close collaboration with the University of Oxford’s Wildlife Conservation Research'
+found_by:
+- link-from:earthranger
+added_by: agent
+checked: '2026-10-30'

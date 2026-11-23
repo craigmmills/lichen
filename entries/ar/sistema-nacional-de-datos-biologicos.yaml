@@ -1,0 +1,58 @@
+id: sistema-nacional-de-datos-biologicos
+kind: programme
+name: Sistema Nacional de Datos Biológicos
+also_known_as:
+- SNDB
+scope: ar
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+countries:
+- ar
+runner: unknown
+summary: Programme introduced in 2009 by the science ministry and active until the end of 2020, funding
+  digitised biological databases that must publish all records through its portal; it is the GBIF Argentina
+  node's homepage.
+facts:
+- claim: GBIF lists GBIF Argentina as a voting participant node, with the SNDB site as its homepage.
+  url: https://api.gbif.org/v1/node/2426a871-9feb-40a1-96c6-0c593a76b835
+  fetched: '2026-11-03'
+  quote: '"participationStatus":"VOTING","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Argentina"'
+- claim: GBIF gives the SNDB address as the GBIF Argentina node's homepage.
+  url: https://api.gbif.org/v1/node/2426a871-9feb-40a1-96c6-0c593a76b835
+  fetched: '2026-11-03'
+  quote: '"homepage":["http://www.sndb.mincyt.gob.ar"]'
+- claim: Funds digitised databases at member institutions, and every funded project must publish all its
+    records through the system's portal.
+  url: https://www.argentina.gob.ar/ciencia/sact/financiamiento-datos-biologicos/fortalecimiento-de-bases-de-datos
+  fetched: '2026-11-03'
+  quote: Todo proyecto presentado para su financiamiento ante el SNDB implicará el compromiso expreso
+    de hacer públicos a través del Portal del Sistema la totalidad de los registros
+- claim: Funds training in digitisation standards and in tools for supplying data to the national portal.
+  url: https://www.argentina.gob.ar/ciencia/sact/financiamiento-datos-biologicos/formacion-de-recursos-humanos
+  fetched: '2026-11-03'
+  quote: entrenamiento en la instalación, configuración y uso de herramientas de captura y provisión de
+    datos al portal nacional
+- claim: Introduced by the Ministerio de Ciencia, Tecnología e Innovación Productiva in 2009 and active
+    until the end of 2020.
+  url: https://biodiversidad.ar/acerca-de/
+  fetched: 2026-11-03
+  quote: En 2009, el Ministerio de Ciencia, Tecnología e Innovación Productiva introdujo el Sistema Nacional
+    de Datos Biológicos (SNDB) , el cual permaneció en actividad hasta fines del año 2020.
+links:
+- type: built-by
+  to: ministerio-de-ciencia-tecnologia-e-innovacion-productiva
+  url: https://biodiversidad.ar/acerca-de/
+  fetched: 2026-11-03
+  quote: En 2009, el Ministerio de Ciencia, Tecnología e Innovación Productiva introdujo el Sistema Nacional
+    de Datos Biológicos (SNDB)
+found_by:
+- link-from:global-biodiversity-information-facility
+- checklist:2
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-03'

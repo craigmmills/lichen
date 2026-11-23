@@ -1,0 +1,28 @@
+id: sufosat
+kind: dataset
+name: SUivi des FOrêts par SATellites
+also_known_as:
+- SUFOSAT
+scope: fr
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- fr
+status: active
+runner: unknown
+summary: Near-real-time map of clear-cuts in mainland French forests, made from Sentinel-1
+  radar data and distributed through the Theia data centre.
+facts:
+- claim: The clear-cut map is generated from Sentinel-1 radar data by a change detection
+    method.
+  url: https://www.theia-land.fr/blog/projects/suivi-des-forets-par-satellites-sufosat-suivi-mensuel-des-coupes-rases
+  fetched: '2026-10-31'
+  quote: La carte des coupes rases en France métropolitaine est générée à l’aide des
+    données radar Sentinel-1 par une méthode de détection de changement adaptée.
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

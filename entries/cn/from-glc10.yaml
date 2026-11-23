@@ -1,0 +1,34 @@
+id: from-glc10
+kind: dataset
+name: FROM-GLC10
+also_known_as: []
+scope: cn
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+status: active
+website: https://data-starcloud.pcl.ac.cn
+summary: Global 10 m land cover map for 2017, made from Sentinel-2 images by transferring
+  a 30 m sample set collected in 2015.
+facts:
+- claim: Global 10 m land cover product.
+  url: https://www.tsinghua.edu.cn/en/info/1244/2976.htm
+  fetched: '2026-10-31'
+  quote: The first 10-m resolution global land cover product (FROM-GLC10)
+- claim: Based on Sentinel-2 images.
+  url: https://www.tsinghua.edu.cn/en/info/1244/2976.htm
+  fetched: '2026-10-31'
+  quote: FROM-GLC10 2017 based on 10 m resolution Sentinel-2 images
+links:
+- type: run-by
+  to: tsinghua-university
+  url: https://www.tsinghua.edu.cn/en/info/1244/2976.htm
+  fetched: '2026-10-31'
+  quote: was successfully realized by the research team led by Prof. Gong Peng from the Department
+    of Earth System Science, Tsinghua University
+found_by:
+- checklist:register
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,47 @@
+id: bialowieza-national-park
+kind: organisation
+name: Białowieża National Park
+also_known_as:
+- Białowieski Park Narodowy
+scope: pl
+sector: government
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+hq: unknown
+scale: local
+status: active
+summary: Park that deployed forest acoustic monitoring with RFCx and Huawei and is listed
+  by Rainforest Connection as a partner in the March to June 2023 work.
+facts:
+- claim: The park, RFCx and Huawei deployed an acoustic monitoring system in the forest.
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: Białowieski Park Narodowy, startup Rainforest Connection (RFCx) oraz Huawei wdrożyły
+    system monitoringu akustycznego w Puszczy Białowieskiej
+- claim: Rainforest Connection lists the park as a partner in the acoustic monitoring carried
+    out from March to June 2023.
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: Partners Białowieża National Park Huawei TECH4ALL
+links:
+- type: runs
+  to: bialowieza-acoustic-monitoring
+  url: https://itwiz.pl/technologia-huawei-bada-bioroznorodnosc-bialowieskiego-parku-narodowego/
+  fetched: '2026-11-02'
+  quote: Białowieski Park Narodowy, startup Rainforest Connection (RFCx) oraz Huawei wdrożyły
+    system monitoringu akustycznego
+- type: partners-with
+  to: bialowieza-acoustic-monitoring
+  url: https://rfcx.org/projects/poland
+  fetched: '2026-11-02'
+  quote: Partners Białowieża National Park Huawei TECH4ALL
+found_by:
+- checklist:7
+- link-from:rainforest-connection
+added_by: agent
+checked: '2026-11-02'

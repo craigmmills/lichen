@@ -1,0 +1,39 @@
+id: fungus-conservation-trust
+kind: organisation
+name: Fungus Conservation Trust
+scope: gb
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- species-distribution
+hq: gb
+scale: national
+status: active
+website: https://fungustrust.org.uk
+summary: UK fungus conservation charity that publishes the CATE fungal records dataset on
+  GBIF. Its own site refused the fetcher.
+facts:
+- claim: GBIF record describes it as a mycological conservation charity.
+  url: https://api.gbif.org/v1/organization/5a863641-618b-4821-9040-a86ff65c6b7c
+  fetched: '2026-10-30'
+  quote: The UK's leading charity in mycological conservation
+- claim: Publishes the dataset "Fungus Conservation Trust - CATE" on GBIF.
+  url: https://api.gbif.org/v1/organization/5a863641-618b-4821-9040-a86ff65c6b7c/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Fungus Conservation Trust - CATE
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/5a863641-618b-4821-9040-a86ff65c6b7c/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+- claim: The Charity Commission search lists it as registered charity 1118651.
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/results/page/1/delta/20/keywords/fungus+conservation+trust
+  quote: 1118651 FUNGUS CONSERVATION TRUST Registered
+  fetched: '2026-10-31'
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'

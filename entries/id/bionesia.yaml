@@ -1,0 +1,41 @@
+id: bionesia
+kind: organisation
+name: BIONESIA
+also_known_as:
+- Indonesian Biodiversity Research Center
+scope: id
+sector: ngo
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+hq: id
+scale: national
+status: active
+summary: Bali nonprofit working on Indonesian biodiversity science; publishes a Savu Sea eDNA
+  dataset to GBIF. The website listed for it now shows an unrelated casino.
+facts:
+- claim: GBIF describes it as a non-profit organisation.
+  url: https://api.gbif.org/v1/organization?country=ID&limit=30
+  fetched: '2026-10-31'
+  quote: Bionesia is non-profit organization that works collaboratively with other organizations
+- claim: A Dryad study says the Indonesian Biodiversity Research Center is now BIONESIA.
+  url: https://datadryad.org/dataset/doi:10.5068/D12T1B
+  fetched: '2026-10-31'
+  quote: Indonesian Biodiversity Research Center
+- claim: GBIF's record gives its address in Denpasar.
+  url: https://api.gbif.org/v1/organization/94a9e7ba-07e3-4d56-8872-5b81a252b0d3
+  quote: Jl. Buluh Indah No.122, Pemecutan Kaja, Kec. Denpasar Utara,
+  fetched: '2026-10-31'
+- claim: The Asian Species Action Partnership page says it is a non-profit foundation based
+    in Denpasar.
+  url: https://speciesonthebrink.org/partners/bionesia
+  quote: Based in Denpasar, Bali
+  fetched: '2026-10-31'
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

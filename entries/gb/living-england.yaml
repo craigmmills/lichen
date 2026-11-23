@@ -1,0 +1,71 @@
+id: living-england
+kind: project
+name: Living England
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- ml-supervised
+countries:
+- gb
+status: active
+website: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+summary: Natural England's map of broad habitats across England, predicted with a
+  random forest model from Sentinel satellite imagery, lidar and field survey labels.
+facts:
+- claim: Maps habitats across England using satellite imagery, targeted field survey
+    and machine learning.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: Habitat mapping for the whole of England using satellite imagery, targeted
+    field survey and machine learning.
+  fetched: '2026-10-30'
+- claim: The model is a distributed random forest classifier.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: the use of a distributed random forest classification model
+  ai_type: ml-supervised
+  fetched: '2026-10-30'
+- claim: The 2022-23 edition reports 87% overall accuracy for modelled habitats.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: Living England 2022-23 reports an overall accuracy for modelled habitats
+    of 87%
+  fetched: '2026-10-30'
+- claim: Satellite-derived national habitat layer.
+  url: https://www.data.gov.uk/dataset/living-england-habitat-map-phase-4
+  quote: a multi-year programme delivering a satellite-derived national habitat layer
+  fetched: '2026-10-30'
+- claim: Classified with a random-forest model.
+  url: https://www.rgs.org/about-us/what-is-geography/impact-of-geography/living-england-habitat-map/
+  quote: classified using a distributed random‑forest model to map 16 habitat types
+    with an overall accuracy of 87%
+  fetched: '2026-10-30'
+- claim: Maps broad habitat extent across England using satellite imagery, targeted
+    field survey and machine learning.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: The Living England project is mapping broad habitat extent through the use
+    of satellite imagery, targeted field survey and machine learning
+  fetched: &id001 2026-10-30
+- claim: Map is updated and published every two years.
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: The map is updated and deployed every two years to create a new Living England
+    dataset for publication
+  fetched: *id001
+links:
+- type: run-by
+  to: natural-england
+  url: https://www.gov.uk/algorithmic-transparency-records/natural-england-living-england
+  quote: 'Natural England: Living England'
+  fetched: '2026-10-30'
+- type: led-by
+  to: natural-england
+  url: https://www.data.gov.uk/dataset/living-england-habitat-map-phase-4
+  quote: The Living England project, led by Natural England
+  fetched: '2026-10-30'
+found_by:
+- checklist:1
+- link-from:department-for-environment-food-and-rural-affairs
+- checklist:2
+scope: gb
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,76 @@
+id: wild-bird-society-of-japan
+kind: organisation
+name: Wild Bird Society of Japan
+also_known_as:
+- WBSJ
+- 日本野鳥の会
+scope: jp
+sector: ngo
+roles:
+- unknown
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://www.wbsj.org/
+summary: Founded in 1934, it reports over 50,000 members including supporters and 85 chapters,
+  started the Internet Swallow survey in 2012 and reportedly adopted Fujitsu’s owl-recording
+  software.
+facts:
+- claim: Started the Internet Swallow breeding survey in 2012 and says it keeps on monitoring
+    Barn Swallows.
+  url: https://mobile.wbsj.org/nature/research/tsubame/img/swallow-guide.pdf
+  fetched: 2026-11-02
+  quote: Internet Swallow breeding survey in 2012.
+- claim: Founded in 1934; its page reports over 50,000 members including financial supporters
+    and 85 chapters throughout Japan.
+  url: https://www.wbsj.org/en/utonai/index.html
+  fetched: 2026-11-02
+  quote: 1934 which has over 50,000 members including financial supporters and 85 chapters
+    throughout Japan.
+- claim: Japan partner of BirdLife International.
+  url: https://www.wbsj.org/en/utonai/index.html
+  fetched: 2026-11-02
+  quote: WBSJ is the Japan Partner of BirdLife International
+- claim: Address in Shinagawa, Tokyo.
+  url: https://www.wbsj.org/en/utonai/index.html
+  fetched: 2026-11-02
+  quote: 3-9-23 Nishi-gotanda, Shinagawa-ku,Tokyo 141-0031 Japan
+- claim: Founded on 11 March 1934.
+  url: https://www.wbsj.org/about-us/summary/about/
+  fetched: '2026-11-02'
+  quote: 1934（昭和 9）年 3月11日　創立
+- claim: Address in Shinagawa, Tokyo.
+  url: https://www.wbsj.org/about-us/summary/about/
+  fetched: '2026-11-02'
+  quote: 東京都品川区西五反田３丁目９番２３号
+- claim: Runs the general forest and grassland sites under contract.
+  url: https://www.wbsj.org/activity/conservation/research-study/monitoring1000/
+  fetched: '2026-11-02'
+  quote: 森林・草原一般サイトは当会が運営を受託し
+- claim: A report by the Japan International Forestry Promotion and Cooperation Center says
+    it had been checking owl recordings by hand and took up Fujitsu's software.
+  url: https://jifpro.or.jp/moriwaku/wp-content/uploads/2024/08/R06_ks_report.pdf
+  fetched: '2026-11-02'
+  quote: の手で試聴と目視確認を行っていたが、富士通が開発した「シマフクロウ音声認識ソフトウェア」を
+links:
+- type: uses
+  to: blakistons-fish-owl-voice-recognition-software
+  url: https://jifpro.or.jp/moriwaku/wp-content/uploads/2024/08/R06_ks_report.pdf
+  fetched: '2026-11-02'
+  quote: 富士通が開発した「シマフクロウ音声認識ソフトウェア」を
+found_by:
+- checklist:4
+- rule:ngo-broad
+- link-from:monitoring-sites-1000
+added_by: agent
+checked: 2026-11-02
+techniques:
+- bioacoustics

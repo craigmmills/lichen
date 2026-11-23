@@ -1,0 +1,59 @@
+id: chirohub
+kind: dataset
+name: CHIROHUB
+also_known_as:
+- ChiRoHub
+- Online database of Romanian and Moldovan bat data
+scope: ro
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ro
+- md
+status: unknown
+summary: Online bat database for Romania and Moldova, built by the bat centre, Moldova’s Institute
+  of Zoology and Szilárd-Lehel Bücs, with a planned autumn 2024 launch unconfirmed.
+facts:
+- claim: In May 2024 its creators said the database would contain over 30,000 observations
+    of Romanian and Moldovan bat species at launch, from over 300 sources covering 1850 to
+    2024.
+  url: https://lilieci.ro/en/news/chirohub-the-database-of-romanian-and-moldovan-bat-data/
+  fetched: 2026-11-15
+  quote: At launch, the database will contain over 30.000 individual observations of Romanian
+    (32) and Moldovan (25) bat species. The data originates from over 300 different sources
+    from the 1850-2024 period
+- claim: The May 2024 article planned 10 by 10 km species distribution maps and Natura 2000
+    species lists for registered users, who would also be able to add observations for expert
+    validation before inclusion.
+  url: https://lilieci.ro/en/news/chirohub-the-database-of-romanian-and-moldovan-bat-data/
+  fetched: 2026-11-15
+  quote: Each observation and data series uploaded by registered users will be checked and
+    validated by an expert from our team, before actual inclusion in the database.
+- claim: The May 2024 article said the database was ready and its official launch was planned
+    for autumn 2024; no page read confirms the launch.
+  url: https://lilieci.ro/en/news/chirohub-the-database-of-romanian-and-moldovan-bat-data/
+  fetched: 2026-11-15
+  quote: At the moment the database is ready for launch, and accessing it, viewing maps and
+    data, querying, will require user registration. The official launch is planned for autumn
+    2024.
+links:
+- type: built-by
+  to: centrul-pentru-cercetarea-si-conservarea-liliecilor
+  url: https://lilieci.ro/en/news/chirohub-the-database-of-romanian-and-moldovan-bat-data/
+  fetched: 2026-11-15
+  quote: The online database of Romanian and Moldovan bat data is created by a team composed
+    of experts from the Center for Bat Research and Conservation
+- type: built-by
+  to: institute-of-zoology-moldova
+  url: https://lilieci.ro/en/news/chirohub-the-database-of-romanian-and-moldovan-bat-data/
+  fetched: 2026-11-15
+  quote: The online database of Romanian and Moldovan bat data is created by a team composed
+    of experts from the Center for Bat Research and Conservation , the Myotis Bat Conservation
+    Group , as well as from the Institute of Zoology of the State University of the Republic
+    of Moldova.
+runner: unknown
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

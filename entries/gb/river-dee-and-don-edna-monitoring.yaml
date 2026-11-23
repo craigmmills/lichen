@@ -1,0 +1,36 @@
+id: river-dee-and-don-edna-monitoring
+kind: project
+name: River Dee and Don eDNA monitoring
+scope: gb
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- edna-genomics
+countries:
+- gb
+status: active
+website: https://naturemetrics.com/case-study/bp-and-river-dee-trust
+summary: eDNA sampling across the Dee and Don catchment by NatureMetrics with the River Dee
+  Trust, funded by bp, with the data shared through GBIF.
+facts:
+- claim: NatureMetrics designed an eDNA sampling programme with the trust across the catchment.
+  url: https://naturemetrics.com/case-study/bp-and-river-dee-trust
+  quote: NatureMetrics collaborated with the Trust to design and implement an eDNA sampling
+    program across the entire River Dee and Don catchment area.
+  fetched: '2026-10-31'
+- claim: The data are to be shared on GBIF.
+  url: https://naturemetrics.com/case-study/bp-and-river-dee-trust
+  quote: the eDNA data collected during this project will be shared and added to the GBIF
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: naturemetrics
+  url: https://naturemetrics.com/case-study/bp-and-river-dee-trust
+  quote: "NatureMetrics collaborated with the Trust to design and implement an eDNA sampling program"
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

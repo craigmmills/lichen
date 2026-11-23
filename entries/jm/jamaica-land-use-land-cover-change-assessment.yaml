@@ -1,0 +1,47 @@
+id: jamaica-land-use-land-cover-change-assessment
+kind: dataset
+name: Land Use-Land Cover Change Assessment (Jamaica)
+also_known_as:
+- LULCA
+scope: jm
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- jm
+status: active
+summary: Ten-yearly land use and land cover assessment built by the Forestry Department; the 2013 to 2023
+  round reported 88 per cent overall accuracy from 396 sample points.
+facts:
+- claim: Conducted every ten years; the latest round covers changes between 2013 and 2023.
+  url: https://forestry.gov.jm/newsDetails?newsID=110
+  fetched: 2026-11-09
+  quote: The Land Use-Land Cover Change Assessment (LULCA) , which is conducted every ten year s , was
+    concluded last year to identify changes in Jamaica’s forest cover between 2013 and 2023.
+- claim: The 2023 round used aerial images, 50 cm satellite imagery and 5 m NICFI imagery.
+  url: https://www.forestry.gov.jm/resourcedocs/FD_LULCA__Presentation_2024.pdf
+  fetched: 2026-11-09
+  quote: NICFI  - 5 meter
+- claim: Land cover was classed by supervised classification with the Feature Analyst extension to ArcGIS.
+  ai_type: ml-supervised
+  url: https://www.forestry.gov.jm/resourcedocs/FD_LULCA__Presentation_2024.pdf
+  fetched: 2026-11-09
+  quote: Supervised Classification - Feature Analyst
+- claim: Reported an overall accuracy of 88 per cent from 396 sample points.
+  url: https://www.forestry.gov.jm/resourcedocs/FD_LULCA__Presentation_2024.pdf
+  fetched: 2026-11-09
+  quote: Overall accuracy 88%
+links:
+- type: built-by
+  to: forestry-department-jamaica
+  url: https://www.forestry.gov.jm/resourcedocs/FD_LULCA__Presentation_2024.pdf
+  fetched: 2026-11-09
+  quote: Done by the Forestry Department,
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-09

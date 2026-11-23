@@ -1,0 +1,73 @@
+id: biodiversity-monitoring-in-kopacki-rit-nature-park
+kind: project
+name: Biodiversity Monitoring in Kopački Rit Nature Park
+scope: hr
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+countries:
+- hr
+status: unknown
+runner: unknown
+summary: Project with Rainforest Connection and partners that, it says, recorded at 95 sites in the park
+  in April to June 2023, reporting 75 species detected and training a neural network on spectrograms.
+facts:
+- claim: Rainforest Connection says recordings were made at 95 sites in the park from April to June 2023.
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: From April to June 2023, our on-ground partners collected data at 95 sampling sites in Kopački
+    Rit Nature Park using passive acoustic recorders.
+- claim: Rainforest Connection says it used validated detections to train a convolutional neural network
+    that classifies species from spectrogram images.
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: We used the validated PM detections as presence/absence data to train a Convolutional Neural
+    Network (CNN) model to classify species from spectrogram images.
+  ai_type: deep-learning
+- claim: Rainforest Connection reports 75 species detected across 95 sites between April and June 2023.
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: We detected 75 species (67 birds, 4 mammals, and 4 amphibians) across 95 sites
+links:
+- type: partners-with
+  to: rainforest-connection
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: Rainforest Connection (RFCx), Arbimon, Fakultet Agrobiotehničkih Znanosti Osijek, Kopački rit
+    Nature Park, and Huawei partnered on an impactful passive acoustic monitoring project in Kopački Rit
+    Nature Park, Croatia
+- type: partners-with
+  to: arbimon
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: Rainforest Connection (RFCx), Arbimon, Fakultet Agrobiotehničkih Znanosti Osijek, Kopački rit
+    Nature Park, and Huawei partnered on an impactful passive acoustic monitoring project in Kopački Rit
+    Nature Park, Croatia
+- type: partners-with
+  to: faculty-of-agrobiotechnical-sciences-osijek
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: Rainforest Connection (RFCx), Arbimon, Fakultet Agrobiotehničkih Znanosti Osijek, Kopački rit
+    Nature Park, and Huawei partnered on an impactful passive acoustic monitoring project in Kopački Rit
+    Nature Park, Croatia
+- type: partners-with
+  to: huawei
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: Rainforest Connection (RFCx), Arbimon, Fakultet Agrobiotehničkih Znanosti Osijek, Kopački rit
+    Nature Park, and Huawei partnered on an impactful passive acoustic monitoring project in Kopački Rit
+    Nature Park, Croatia
+- type: uses
+  to: arbimon
+  url: https://rfcx.org/projects/croatia
+  fetched: 2026-11-08
+  quote: Experienced biodiversity scientists from the RFCx science team reviewed recordings in Arbimon.
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

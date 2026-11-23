@@ -1,0 +1,43 @@
+id: vlakwa
+kind: organisation
+name: Vlakwa
+scope: be
+sector: ngo
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+hq: unknown
+countries:
+- be
+scale: regional
+status: active
+summary: Organisation that VITO named as a partner that executed Internet of Water Flanders,
+  whose sensors, VITO reported in January 2024, continuously measured water quality across
+  Flanders.
+facts:
+- claim: Named by VITO as one of the partners that executed Internet of Water Flanders.
+  url: https://vito.be/en/news/live-sensors-address-flanders-water-quality-challenges
+  fetched: 2026-11-08
+  quote: Internet of Water Flanders is a research and innovation project supported by VLAIO
+    and executed by imec, VITO, De Watergroep, Aquafin, the Flemish Environmental Agency,
+    and Vlakwa.
+- claim: VITO reported in January 2024 that the completed project’s sensors continuously measured
+    water quality in wastewater, groundwater and surface water across Flanders.
+  url: https://vito.be/en/news/live-sensors-address-flanders-water-quality-challenges
+  fetched: 2026-11-08
+  quote: 300 sensors spread across Flanders continuously measure parameters for water quality
+    in wastewater, groundwater, and surface water.
+links:
+- type: runs
+  to: internet-of-water-flanders
+  url: https://vito.be/en/news/live-sensors-address-flanders-water-quality-challenges
+  fetched: 2026-11-08
+  quote: Internet of Water Flanders is a research and innovation project supported by VLAIO
+    and executed by imec, VITO, De Watergroep, Aquafin, the Flemish Environmental Agency,
+    and Vlakwa.
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

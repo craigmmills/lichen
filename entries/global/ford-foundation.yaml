@@ -1,0 +1,38 @@
+id: ford-foundation
+kind: organisation
+name: Ford Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: data-infrastructure
+realms:
+- land
+hq: us
+scale: global
+status: active
+website: https://www.fordfoundation.org/
+summary: New York foundation, and a founding member in 2010 of the Climate and Land Use Alliance.
+countries:
+- br
+facts:
+- claim: A founding member of the Climate and Land Use Alliance.
+  url: https://fordfoundation.org/work/learning/program-evaluations/evaluation-of-the-climate-and-land-use-alliance
+  quote: In 2010, Ford and three other foundations — ClimateWorks, Gordon and Betty Moore,
+    and David and Lucile Packard — formed the Climate and Land Use Alliance (CLUA)
+  fetched: &id001 2026-10-30
+- claim: Its home page lists Natural Resources and Climate Justice among its areas.
+  url: https://www.fordfoundation.org/
+  quote: Natural Resources and Climate Justice
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: climate-and-land-use-alliance
+  url: https://fordfoundation.org/work/learning/program-evaluations/evaluation-of-the-climate-and-land-use-alliance
+  quote: In 2010, Ford and three other foundations — ClimateWorks, Gordon and Betty Moore,
+    and David and Lucile Packard — formed the Climate and Land Use Alliance (CLUA)
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

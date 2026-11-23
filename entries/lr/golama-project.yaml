@@ -1,0 +1,54 @@
+id: golama-project
+kind: project
+name: GOLAMA Project
+also_known_as: []
+scope: lr
+ai_label: conservation-tech
+realms:
+- land
+techniques: []
+countries:
+- lr
+status: unknown
+summary: A systematic biomonitoring programme in Gola, run by the RSPB and SCNL before
+  it became a national park, whose mammal dataset covers 2010 to 2016 and is published
+  under the Forestry Development Authority.
+facts:
+- claim: The Gola National Park Biomonitoring Data were collected under a systematic
+    biomonitoring programme carried out by the GOLAMA Project, implemented by the
+    RSPB and SCNL, before Gola became a national park.
+  url: https://api.gbif.org/v1/dataset/3187332f-77d0-4d34-9840-f26bcdb98a82
+  fetched: 2026-11-15
+  quote: Dataset was collected as part of a systematic biomonitoring program carried
+    out in Gola National Park, prior to its designation as a national park in Liberia,
+    by the GOLAMA Project
+- claim: The dataset's temporal coverage runs from 2010 to 2016.
+  url: https://api.gbif.org/v1/dataset/3187332f-77d0-4d34-9840-f26bcdb98a82
+  fetched: 2026-11-15
+  quote: '"start":"2010-01-01T00:00:00.001+00:00","end":"2016-12-31T00:00:00.001+00:00"'
+- claim: The dataset's taxonomic coverage is the class Mammalia.
+  url: https://api.gbif.org/v1/dataset/3187332f-77d0-4d34-9840-f26bcdb98a82
+  fetched: 2026-11-15
+  quote: '"scientificName":"Mammalia"'
+- claim: The dataset is published under the Forestry Development Authority.
+  url: https://api.gbif.org/v1/dataset/3187332f-77d0-4d34-9840-f26bcdb98a82
+  fetched: 2026-11-15
+  quote: Gola National Park Biomonitoring Data. Version 1.1. Forestry Development
+    Authority.
+links:
+- type: run-by
+  to: royal-society-for-the-protection-of-birds
+  url: https://api.gbif.org/v1/dataset/3187332f-77d0-4d34-9840-f26bcdb98a82
+  fetched: 2026-11-15
+  quote: by the GOLAMA Project implemented by the Royal Society the Protection of
+    Birds (RSPB) and the Society for Conservation of Nature of Liberia (SCNL).
+- type: run-by
+  to: society-for-the-conservation-of-nature-of-liberia
+  url: https://api.gbif.org/v1/dataset/3187332f-77d0-4d34-9840-f26bcdb98a82
+  fetched: 2026-11-15
+  quote: by the GOLAMA Project implemented by the Royal Society the Protection of
+    Birds (RSPB) and the Society for Conservation of Nature of Liberia (SCNL).
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

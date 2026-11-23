@@ -1,0 +1,50 @@
+id: national-forest-inventory
+kind: dataset
+name: National Forest Inventory
+also_known_as:
+- NFI
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- gb
+status: active
+website: https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/
+summary: Great Britain's woodland map and inventory, published by the Forestry Commission
+  and updated each year. It covers woodland over 0.5 hectare with at least 20% canopy
+  cover.
+facts:
+- claim: Covers forest and woodland over 0.5 hectare with a minimum of 20% canopy
+    cover.
+  url: https://www.data.gov.uk/dataset/64379a2a-d877-415e-9e8d-8553bf09faea/national-forest-inventory-gb-2024
+  quote: The National Forest Inventory (NFI) woodland map covers all forest and woodland
+    area over 0.5 hectare with a minimum of 20% canopy cover
+  fetched: '2026-10-30'
+- claim: Updated annually.
+  url: https://www.data.gov.uk/dataset/64379a2a-d877-415e-9e8d-8553bf09faea/national-forest-inventory-gb-2024
+  quote: The woodland map is updated on an annual basis
+  fetched: '2026-10-30'
+- claim: Rolling programme on the size, distribution, composition and condition of
+    forests and woodlands.
+  url: https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/about-the-nfi/
+  quote: is a rolling programme designed to provide accurate information about the
+    size, distribution, composition and condition of our forests and woodlands
+  fetched: &id001 2026-10-30
+links:
+- type: run-by
+  to: forestry-commission
+  url: https://www.data.gov.uk/dataset/64379a2a-d877-415e-9e8d-8553bf09faea/national-forest-inventory-gb-2024
+  quote: Publisher Forestry Commission
+  fetched: '2026-10-30'
+- type: run-by
+  to: forest-research
+  url: https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/about-the-nfi/
+  quote: We have carried out woodland surveys and compiled forest inventories
+  fetched: *id001
+found_by:
+- checklist:2
+scope: gb
+added_by: agent
+checked: '2026-10-30'

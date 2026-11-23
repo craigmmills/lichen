@@ -1,0 +1,55 @@
+id: deepforestsound
+kind: model
+name: DeepForestSound
+scope: global
+runner: unknown
+ai_label: ai
+ai_types: [ml-supervised, ml-unsupervised, ml-semi-supervised, deep-learning]
+realms:
+- land
+techniques:
+- bioacoustics
+countries:
+- ug
+status: active
+summary: Multi-species automatic detector for passive acoustic monitoring in African tropical forests, with a case study in Kibale National Park, Uganda.
+facts:
+- claim: A multi-species automatic detector for passive acoustic monitoring in African tropical forests.
+  url: https://arxiv.org/abs/2604.08087
+  fetched: '2026-10-30'
+  quote: 'DeepForestSound: a multi-species automatic detector for passive acoustic monitoring in African tropical forests, a case study in Kibale National Park'
+- claim: "DeepForestSound uses supervised fine-tuning of an audio transformer."
+  url: https://arxiv.org/abs/2604.08087
+  fetched: '2026-10-30'
+  quote: "DFS relies on a semi-supervised pipeline combining clustering of unannotated recordings with manual validation, followed by supervised fine-tuning of an Audio Spectrogram Transformer (AST) using low-rank adaptation, which is compared to a frozen-backbone linear"
+  ai_type: ml-supervised
+- claim: "DeepForestSound clusters unannotated recordings."
+  url: https://arxiv.org/abs/2604.08087
+  fetched: '2026-10-30'
+  quote: "DFS relies on a semi-supervised pipeline combining clustering of unannotated recordings with manual validation, followed by supervised fine-tuning of an Audio Spectrogram Transformer (AST)"
+  ai_type: ml-unsupervised
+- claim: "DeepForestSound relies on a semi-supervised pipeline."
+  url: https://arxiv.org/abs/2604.08087
+  fetched: '2026-10-30'
+  quote: "DFS relies on a semi-supervised pipeline combining clustering of unannotated recordings with manual validation, followed by supervised fine-tuning of an Audio"
+  ai_type: ml-semi-supervised
+- claim: "DeepForestSound fine-tunes an Audio Spectrogram Transformer."
+  url: https://arxiv.org/abs/2604.08087
+  fetched: '2026-10-30'
+  quote: "combining clustering of unannotated recordings with manual validation, followed by supervised fine-tuning of an Audio Spectrogram Transformer (AST) using low-rank adaptation, which is compared to a frozen-backbone linear baseline (DFS-Linear)."
+  ai_type: deep-learning
+links:
+- type: partners-with
+  to: museum-national-dhistoire-naturelle
+  url: https://arxiv.org/pdf/2604.08087
+  fetched: '2026-10-30'
+  quote: Eco-Anthropologie, Mus ´eum National d’Histoire Naturelle, UMR7206, Paris, France
+- type: partners-with
+  to: one-forest-vision-initiative
+  url: https://www.oneforestvision.org
+  fetched: '2026-10-30'
+  quote: 'DeepForestVision et DeepForestSound : l’IA à la rencontre des acteurs de la conservation à Libreville'
+found_by:
+- link-from:deepforestvision
+added_by: agent
+checked: '2026-10-30'

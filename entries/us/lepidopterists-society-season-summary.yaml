@@ -1,0 +1,27 @@
+id: lepidopterists-society-season-summary
+kind: dataset
+name: The Lepidopterists' Society Season Summary
+scope: us
+ai_label: data-infrastructure
+realms:
+- land
+status: active
+website: https://www.lepsoc.org/
+summary: Annual compilation of butterfly and moth records from Canada, Mexico and
+  the United States.
+facts:
+- claim: Annual compilation across three countries.
+  url: https://api.gbif.org/v1/organization/4cd08c7c-fd56-48d0-ab05-aac38aa4457e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: is an annual compilation of Lepidoptera records from Canada, Mexico, and
+    the United States
+links:
+- type: run-by
+  to: lepidopterists-society
+  url: https://api.gbif.org/v1/organization/4cd08c7c-fd56-48d0-ab05-aac38aa4457e/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Each year our members submit information regarding range extensions
+found_by:
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,46 @@
+id: granite-geospatial-ocean
+kind: model
+name: granite-geospatial-ocean
+scope: gb
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- gb
+status: active
+runner: unknown
+website: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+summary: Transformer-based geospatial foundation model trained on Sentinel-3 imagery, jointly developed by IBM and STFC with the University of Exeter and Plymouth Marine Laboratory.
+ai_types:
+- foundation-models
+facts:
+- claim: Jointly developed by IBM and STFC with the University of Exeter and Plymouth Marine Lab.
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: The granite-geospatial-ocean foundation model was jointly developed by IBM and STFC as part of a collaboration with the University of Exeter and Plymouth Marine Lab
+  fetched: '2026-10-31'
+- claim: Trained on Sentinel-3 images.
+  ai_type: foundation-models
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: The granite-geospatial-ocean model is a transformer-based geospatial foundation model trained on Sentinel-3
+  fetched: '2026-10-31'
+- claim: Use cases include ocean ecosystem health and fisheries management.
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: potential use cases in ocean ecosystem health, fisheries management, pollution
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: hartree-centre
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: "The granite-geospatial-ocean foundation model was jointly developed by IBM and STFC as part of a collaboration with the University of Exeter and Plymouth Marine Lab under the UK HNCDI programme."
+  fetched: '2026-10-31'
+- type: partners-with
+  to: plymouth-marine-laboratory
+  url: https://huggingface.co/ibm-granite/granite-geospatial-ocean
+  quote: as part of a collaboration with the University of Exeter and Plymouth Marine Lab
+  fetched: '2026-10-31'
+found_by:
+- link-from:hartree-centre
+added_by: agent
+checked: '2026-10-31'

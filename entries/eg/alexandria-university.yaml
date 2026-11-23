@@ -1,0 +1,43 @@
+id: alexandria-university
+kind: organisation
+name: Alexandria University
+also_known_as: []
+scope: eg
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- ocean
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+funding_at_risk: false
+website: http://www.alexu.edu.eg/index.php/en/
+summary: University listed by OpenAlex as the affiliation of Madiha Moustafa, first author
+  of a 2025 paper on monitoring coral reefs near Hurghada using remote sensing and acoustic
+  data.
+facts:
+- claim: OpenAlex lists the 2025 paper Monitoring coral reefs by remote sensing techniques
+    and acoustic data as a ground truth reference in Hurghada, Red Sea, Egypt, with Madiha
+    Moustafa as first author.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00mzz1w90,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Monitoring coral reefs by remote sensing techniques and acoustic
+    data as a ground truth reference in Hurghada, Red Sea, Egypt", "publication_year": 2025,
+    "authorships": [{"author_position": "first", "author": {"id": null, "display_name": "Madiha
+    Moustafa"'
+- claim: OpenAlex gives the first author's affiliation as Alexandria University.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:00mzz1w90,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Madiha Moustafa", "raw_affiliation_strings": ["Geology Department,
+    Faculty of Science, Alexandria University, Alexandria, Egypt"]'
+links: []
+found_by:
+- register:eg
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,37 @@
+id: nature-guardian
+kind: programme
+name: Nature Guardian
+scope: global
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+status: active
+summary: Huawei programme with Rainforest Connection that uses bioacoustic sensors, cloud and AI to monitor species and threats, including a smart buoy off the Irish coast with Ireland ORCA.
+facts:
+- claim: A smart buoy with bioacoustic sensors was deployed off the Irish coast.
+  url: https://www.euronews.com/green/2021/09/10/huawei-and-partners-help-protect-biodiversity-through-intelligent-technology
+  fetched: &id001 2026-10-30
+  quote: a "smart" buoy with bioacoustics sensors was deployed off the Irish coast
+links:
+- type: run-by
+  to: huawei
+  url: https://www.euronews.com/green/2021/09/10/huawei-and-partners-help-protect-biodiversity-through-intelligent-technology
+  fetched: *id001
+  quote: "Huawei's commitment to these partnerships is reflected in two significant programs currently underway: the Tech4Nature collaboration with the IUCN and the Nature Guardian program with Rainforest Connection (RFCx),"
+- type: partners-with
+  to: rainforest-connection
+  url: https://www.euronews.com/green/2021/09/10/huawei-and-partners-help-protect-biodiversity-through-intelligent-technology
+  fetched: *id001
+  quote: the Nature Guardian program with Rainforest Connection (RFCx)
+- type: partners-with
+  to: ireland-orca
+  url: https://www.euronews.com/green/2021/09/10/huawei-and-partners-help-protect-biodiversity-through-intelligent-technology
+  fetched: *id001
+  quote: In a partnership between the NGOs RFCx and Ireland ORCA, and Huawei
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

@@ -1,0 +1,59 @@
+id: sailyugemsky-national-park
+kind: organisation
+name: Sailyugemsky National Park
+scope: ru
+also_known_as:
+- Национальный парк «Сайлюгемский»
+- Sailugem National Park
+- Sailughem NP
+sector: government
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- ru
+scale: local
+status: active
+summary: Altai Republic national park where, its director says, staff study snow leopards
+  with camera traps; Yandex said in October 2023 that 24 of Altai's 44 snow leopards lived
+  there.
+facts:
+- claim: Yandex Cloud's project was for this park in the Altai Republic.
+  url: https://habr.com/ru/news/769240
+  quote: национального парка «Сайлюгемский» в Республике Алтай
+  fetched: '2026-10-31'
+- claim: Staff study snow leopards with motion-sensor camera traps, according to its director.
+  url: https://habr.com/ru/news/769240
+  quote: Специалисты исследуют повадки, перемещение, численность этих животных с помощью фотоловушек
+    с датчиками движения.
+  fetched: '2026-10-31'
+- claim: In October 2023, Yandex said that 24 of the 44 snow leopards found in Altai lived
+    in the park.
+  url: https://yandex.ru/company/news/01-23-10-2023
+  fetched: 2026-10-31
+  quote: На Алтае исследователи обнаружили 44 особи, из которых 24 обитают на территории национального
+    парка «Сайлюгемский»
+- claim: The Manul Working Group lists Sailugem NP among the organisations for its 2016–2018
+    Altai project.
+  url: https://savemanul.org/projects/russia/mwg-project-altai-rus-2016/
+  fetched: '2026-10-31'
+  quote: 'Organisation (s): MWG (Working Group for Pallas’s Cat Study and Conservation on
+    the Steppes of Northern Eurasia), Sibecocenter, Sailugem NP'
+links:
+- type: uses
+  to: sailyugemsky-camera-trap-neural-network
+  url: https://habr.com/ru/news/769240
+  quote: Программа выделяет животных на изображении, относит их к определённому типу, а потом
+    использует эту информацию, чтобы распределить снимки по папкам.
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+- link-from:manul-working-group
+added_by: agent
+checked: '2026-10-31'

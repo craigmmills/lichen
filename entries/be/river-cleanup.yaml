@@ -1,0 +1,57 @@
+id: river-cleanup
+kind: organisation
+name: River Cleanup
+scope: be
+sector: ngo
+roles:
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+- remote-sensing
+hq: be
+countries:
+- be
+scale: global
+status: active
+website: https://www.river-cleanup.org/en/imprint
+summary: A non-profit registered in Oudenaarde that combines drones, AI and citizen participation
+  to identify river pollution hotspots, and reports 125 km of riverbanks mapped in 2025.
+facts:
+- claim: A non-profit whose mission covers initiatives to identify, clean and avoid waste
+    around rivers.
+  url: https://www.river-cleanup.org/en/imprint
+  fetched: '2026-11-02'
+  quote: River Cleanup vzw is a non-profit organization and has a mission to develop and support
+    initiatives aiming to identify, clean, avoid and create awareness on waste
+- claim: Registered in Oudenaarde.
+  url: https://www.river-cleanup.org/en/imprint
+  fetched: '2026-11-02'
+  quote: The organization is registered under the number 0719.610.237 in Oudenaarde.
+- claim: Combines drones, AI and citizen participation to identify pollution hotspots.
+  url: https://www.futuregenerations.be/en/get-inspired/river-cleanup
+  fetched: '2026-11-02'
+  quote: By combining in-house expertise, drones, artificial intelligence and citizen participation
+- claim: Reports 125 km of riverbanks mapped in 2025.
+  url: https://www.futuregenerations.be/en/get-inspired/river-cleanup
+  fetched: '2026-11-02'
+  quote: 125 km of riverbanks were mapped in 2025
+links:
+- type: partners-with
+  to: inspire-river-plastics
+  url: https://vito.be/en/news/vito-river-cleanup-and-vliz-tackle-pollution-scheldt-together-european-pilot-project
+  fetched: '2026-11-02'
+  quote: The non-profit organisation River Cleanup shares expertise on clean-up actions
+- type: builds
+  to: river-watchers
+  url: https://vito.be/en/news/citizens-track-river-litter-ai-innovative-vito-and-river-cleanup-project
+  fetched: '2026-11-02'
+  quote: Today, VITO and River Cleanup are launching the River Watchers project.
+found_by:
+- link-from:vito
+- checklist:4
+added_by: agent
+checked: '2026-11-02'

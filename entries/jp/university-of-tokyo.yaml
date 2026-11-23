@@ -1,0 +1,53 @@
+id: university-of-tokyo
+kind: organisation
+name: The University of Tokyo
+scope: jp
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+- ocean
+techniques:
+- bioacoustics
+- edna-genomics
+- remote-sensing
+hq: jp
+countries:
+- jp
+scale: national
+status: active
+website: https://www.iis.u-tokyo.ac.jp/en/
+summary: Built Oze deer acoustic tracking; an OIST release credits its researchers and OIST
+  with developing an environmental DNA tool for detecting coral species in 2021.
+facts:
+- claim: In the saved OpenAlex query for works since 2021 with a Japanese author affiliation,
+    Ecology subfield 2303 and concept C119857082, the university has the highest grouped count,
+    20.
+  url: https://api.openalex.org/works?filter=authorships.countries:jp,concepts.id:C119857082,primary_topic.subfield.id:2303,from_publication_date:2021-01-01&group_by=authorships.institutions.lineage&per_page=40
+  fetched: 2026-11-02
+  quote: The University of Tokyo
+- claim: An OIST news release on EurekAlert says researchers from OIST and the University
+    of Tokyo developed an environmental DNA tool for detecting coral species in 2021.
+  url: https://www.eurekalert.org/news-releases/1084192
+  fetched: 2026-11-02
+  quote: In 2021, researchers from OIST and the University of Tokyo developed a new environmental
+    DNA-based tool for detecting coral species.
+- claim: A paper gives the address of its Institute of Industrial Science in Tokyo.
+  url: https://wtlab.iis.u-tokyo.ac.jp/wataru/publication/pdf/mangrove_agb_machine_learning.pdf
+  fetched: 2026-11-02
+  quote: Institute of Industrial Science, the University of Tokyo, 4-6-1 Komaba, Meguro-ku,
+    Tokyo 153-8505, Japan
+links:
+- type: builds
+  to: oze-deer-acoustic-tracking
+  url: https://www.iis.u-tokyo.ac.jp/en/news/3470/
+  fetched: 2026-11-02
+  quote: developed by researchers at the Institute of Industrial Science, a part of The University
+    of Tokyo.
+found_by:
+- checklist:3
+- register:openalex-institution
+added_by: agent
+checked: 2026-11-02

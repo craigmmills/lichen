@@ -1,0 +1,45 @@
+id: space-research-institute-ras
+kind: organisation
+name: Space Research Institute of the Russian Academy of Sciences
+also_known_as:
+- ИКИ РАН
+- IKI RAS
+- Институт космических исследований РАН
+scope: ru
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ru
+scale: national
+status: active
+website: https://iki.cosmos.ru
+summary: Russian Academy of Sciences institute that lists a section on satellite monitoring
+  of land ecosystems, runs Vega-Science and builds Vega-Pro.
+facts:
+- claim: Lists a section on satellite monitoring of land ecosystems.
+  url: https://iki.cosmos.ru/research/tekhnologii-sputnikovogo-monitoringa
+  fetched: 2026-10-31
+  quote: 'Спутникового мониторинга наземных экосистем. Руководитель: докт.тех.наук, профессор
+    Сергей Александрович БАРТАЛЁВ'
+links:
+- type: runs
+  to: vega-science
+  url: https://iki.cosmos.ru/research/missions/unu-vega-science
+  fetched: 2026-10-31
+  quote: 'Головная организация: ИКИ РАН'
+- type: builds
+  to: vega-pro
+  url: https://ssl.pro-vega.ru/eng/
+  fetched: 2026-10-31
+  quote: At present, the VEGA-PRO service development is provided by IKI jointly with the
+    Institute for Space Research of the Earth (IKIZ Ltd.) .
+found_by:
+- checklist:2
+- checklist:3
+added_by: agent
+checked: 2026-10-31

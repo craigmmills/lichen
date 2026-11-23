@@ -1,0 +1,45 @@
+id: university-of-maryland
+kind: organisation
+name: University of Maryland
+also_known_as:
+- UMD
+scope: global
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: global
+website: https://umd.edu
+status: active
+summary: US university whose Department of Geographical Sciences hosts the GLAD laboratory,
+  which studies global land surface change, and whose researchers operate the DIST-ALERT monitoring
+  system.
+facts:
+- claim: Its Department of Geographical Sciences hosts GLAD.
+  url: https://glad.umd.edu
+  fetched: '2026-10-30'
+  quote: The Global Land Analysis and Discovery (GLAD) laboratory in the Department of Geographical
+    Sciences at the University of Maryland
+- claim: Wikipedia says the Global Forest Change dataset of tree cover extent and change was
+    produced by researchers at the University of Maryland and collaborators.
+  url: https://en.wikipedia.org/wiki/Global_Forest_Change
+  quote: is a global remote sensing dataset of tree cover extent and change produced by researchers
+    at the University of Maryland and collaborators
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: global-land-analysis-and-discovery
+  url: https://glad.umd.edu
+  fetched: '2026-10-30'
+  quote: The Global Land Analysis and Discovery (GLAD) laboratory in the Department of Geographical
+    Sciences at the University of Maryland
+found_by:
+- link-from:global-land-analysis-and-discovery
+added_by: agent
+checked: '2026-10-30'

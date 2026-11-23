@@ -1,0 +1,38 @@
+id: adekunle-ajasin-university
+kind: organisation
+name: Adekunle Ajasin University
+scope: ng
+sector: academic
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- ng
+scale: local
+status: active
+funding_at_risk: false
+ai_types:
+- deep-learning
+summary: University listed, with NASRDA, for the first author of a 2026 paper that names deep
+  learning as its method for analysing deforestation.
+facts:
+- claim: First author of a 2026 paper on deep learning analysis of deforestation is listed
+    with this university and NASRDA.
+  url: https://api.openalex.org/works/W7172497954?select=id,doi,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-03'
+  quote: Bayesian-Enhanced Deep Learning and Multi-Sensor Fusion for Spatiotemporal Analysis
+    of Deforestation Frontiers and Landscape Structural Dynamics
+- claim: Names deep learning as the method.
+  url: https://api.openalex.org/works/W7172497954?select=id,doi,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-03'
+  quote: Bayesian-Enhanced Deep Learning
+  ai_type: deep-learning
+found_by:
+- register:ng
+added_by: agent
+checked: '2026-11-03'

@@ -1,0 +1,63 @@
+id: life-mires-estonia
+kind: project
+name: LIFE Mires Estonia
+also_known_as:
+- Conservation and Restoration of Mire Habitats
+- LIFE14 NAT/EE/000126
+scope: ee
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ee
+status: closed
+website: https://soo.elfond.ee/en/projektist/
+summary: Closed project that ran from September 2015 to December 2021 with a 2,815,576
+  euro eligible budget, restoring hydrology on 7,900 hectares and using drones and
+  Random Forest classification for vegetation mapping.
+facts:
+- claim: Ran from 1 September 2015 to 31 December 2021 with a total eligible budget
+    of 2,815,576 euros.
+  url: https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE14-NAT-EE-000126/conservation-and-restoration-of-mire-habitats
+  fetched: 2026-11-12
+  quote: 'End Date: 31/12/2021'
+- claim: Restored the hydrological regime on 7,900 hectares and set up a monitoring
+    programme to keep tracking its impacts.
+  url: https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE14-NAT-EE-000126/conservation-and-restoration-of-mire-habitats
+  fetched: 2026-11-12
+  quote: establishment of a monitoring programme to continue tracking the project's
+    impacts.
+- claim: Used unmanned aerial systems with RGB, multispectral and thermal cameras
+    for monitoring.
+  url: https://www.metsa.fi/wp-content/uploads/2019/10/Oulu_2019_Life_Mires_Estonia_Kohv-1.pdf
+  fetched: 2026-11-12
+  quote: Unmanned aerial systems for monitoring
+- claim: Classified drone vegetation maps with Random Forest, using RGB and multispectral
+    bands, surface and terrain models and vegetation indexes.
+  url: https://www.metsa.fi/wp-content/uploads/2019/10/Oulu_2019_Life_Mires_Estonia_Kohv-1.pdf
+  fetched: 2026-11-12
+  quote: Classification – Random Forest
+  ai_type: ml-supervised
+links:
+- type: funded-by
+  to: european-commission
+  url: https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE14-NAT-EE-000126/conservation-and-restoration-of-mire-habitats
+  fetched: 2026-11-12
+  quote: 'EU Contribution: 2,100,713 €'
+  amount: 2100713
+  currency: EUR
+- type: funded-by
+  to: environmental-investment-centre
+  url: https://soo.elfond.ee/en/projektist/
+  fetched: 2026-11-12
+  quote: 'Co-financer: Estonian Environmental Investment Centre'
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12
+runner: unknown

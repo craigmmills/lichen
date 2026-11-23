@@ -1,0 +1,65 @@
+id: google-research
+kind: organisation
+name: Google Research
+scope: global
+sector: company
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- deep-learning
+- foundation-models
+- generative-ai
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+- species-distribution
+hq: us
+scale: global
+status: active
+website: https://research.google
+summary: Research division of Google that co-develops nature models and datasets with Google
+  DeepMind, including ForestCast, Natural Forests of the World 2020 and Farmscapes 2020, and
+  publishes SpeciesNet.
+countries:
+- gb
+facts:
+- claim: Co-developed the 2025 nature research with Google DeepMind.
+  url: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+  fetched: &id001 2026-10-30
+  quote: This research was co-developed by Google DeepMind and Google Research.
+- claim: Released Farmscapes 2020, a map of hedgerows and linear woodland across England,
+    with the Leverhulme Centre for Nature Recovery.
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: the first large-scale, high-resolution map to identify overlooked features like hedgerows
+    and linear woodlands across England, in collaboration with the Leverhulme Centre for Nature
+    Recovery at the University of Oxford
+- claim: A Google Research post describes a high-resolution deep learning framework.
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: 2026-10-30
+  quote: We developed a high-resolution deep learning framework
+  ai_type: deep-learning
+- claim: Google's Geospatial Reasoning combines foundation models with generative AI.
+  url: https://research.google
+  fetched: 2026-10-30
+  quote: A research effort aiming to bring together foundation models with generative AI
+  ai_type: generative-ai
+- claim: Google's Geospatial Reasoning combines foundation models with generative AI.
+  url: https://research.google
+  fetched: 2026-10-30
+  quote: A research effort aiming to bring together foundation models with generative AI
+  ai_type: foundation-models
+links:
+- type: partners-with
+  to: leverhulme-centre-for-nature-recovery
+  url: https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/
+  fetched: *id001
+  quote: in collaboration with the Leverhulme Centre for Nature Recovery at the University
+    of Oxford
+found_by:
+- global:big-tech
+added_by: agent
+checked: *id001

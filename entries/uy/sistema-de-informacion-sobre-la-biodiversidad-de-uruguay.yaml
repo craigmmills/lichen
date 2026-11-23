@@ -1,0 +1,63 @@
+id: sistema-de-informacion-sobre-la-biodiversidad-de-uruguay
+kind: programme
+name: Sistema de Información sobre la Biodiversidad de Uruguay
+also_known_as:
+- SIB Uruguay
+- GBIF Uruguay
+scope: uy
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- uy
+status: active
+summary: Uruguay's GBIF node, run by the Ministerio de Ambiente, listed by GBIF as an associate participant
+  and hosting three DNA datasets from the barcoding project.
+facts:
+- claim: A Ministry of Education and Culture news item calls it Uruguay's GBIF node and a platform of
+    the Ministerio de Ambiente.
+  url: https://www.gub.uy/ministerio-educacion-cultura/comunicacion/noticias/nuevos-conjuntos-datos-adn-fortalecen-conocimiento-sobre-biodiversidad
+  fetched: 2026-11-08
+  quote: Sistema de Información sobre la Biodiversidad de Uruguay (SIB Uruguay, Nodo GBIF) , plataforma
+    del Ministerio de Ambiente
+- claim: Three DNA datasets from the Usina de códigos de barra de la vida project were published on it.
+  url: https://www.gub.uy/ministerio-educacion-cultura/comunicacion/noticias/nuevos-conjuntos-datos-adn-fortalecen-conocimiento-sobre-biodiversidad
+  fetched: 2026-11-08
+  quote: se publicaron recientemente tres conjuntos de datos de ADN en el Sistema de Información sobre
+    la Biodiversidad de Uruguay
+- claim: GBIF's directory lists GBIF Uruguay as an associate participant node.
+  url: https://api.gbif.org/v1/node?q=Uruguay
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA"'
+- claim: GBIF's registry lists GBIF Uruguay as the country node for Uruguay, with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE","gbifRegion":"LATIN_AMERICA","continent":"SOUTH_AMERICA","title":"GBIF
+    Uruguay","participantTitle":"Uruguay"'
+- claim: GBIF's registry lists 13 organisations endorsed by the Uruguay node, among them the Ministry
+    of Environment's biodiversity directorate, Biodiversidata and BoL-UY.
+  url: https://api.gbif.org/v1/node/a3ceb6dd-0a65-4f30-a385-30f6937c2096/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"count":13'
+links:
+- type: run-by
+  to: ministerio-de-ambiente-uruguay
+  url: https://www.gub.uy/ministerio-educacion-cultura/comunicacion/noticias/nuevos-conjuntos-datos-adn-fortalecen-conocimiento-sobre-biodiversidad
+  fetched: 2026-11-08
+  quote: Sistema de Información sobre la Biodiversidad de Uruguay (SIB Uruguay, Nodo GBIF) , plataforma
+    del Ministerio de Ambiente
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node?q=Uruguay
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Uruguay","participantTitle":"Uruguay"'
+found_by:
+- checklist:2
+- link-from:queue-uy
+added_by: agent
+checked: 2026-11-08

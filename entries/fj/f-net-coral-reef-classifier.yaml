@@ -1,0 +1,27 @@
+id: f-net-coral-reef-classifier
+kind: model
+name: F-Net
+scope: fj
+ai_label: ai
+status: active
+realms:
+- ocean
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+summary: Hybrid explainable convolutional neural network for telling bleached from healthy
+  coral reefs, published in 2026 with a University of the South Pacific co-author.
+facts:
+- claim: A hybrid explainable convolutional neural network for classifying bleached and healthy
+    reefs.
+  url: https://api.crossref.org/works/10.1109/jstars.2026.3688427
+  fetched: '2026-10-31'
+  quote: 'F-Net: A Hybrid Explainable Convolutional Neural Network for Classification of Bleached
+    and Healthy Coral Reefs'
+  ai_type: deep-learning
+found_by:
+- checklist:3
+added_by: agent
+checked: '2026-10-31'
+runner: unknown

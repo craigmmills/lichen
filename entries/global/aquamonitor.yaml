@@ -1,0 +1,23 @@
+id: aquamonitor
+kind: dataset
+name: AquaMonitor
+scope: global
+ai_label: ai
+status: active
+realms:
+- freshwater
+techniques:
+- computer-vision
+summary: Multimodal, multi-view image sequence dataset for monitoring aquatic invertebrate
+  biodiversity.
+facts:
+- claim: Paper title describes the dataset.
+  url: https://arxiv.org/abs/2505.22065
+  quote: 'AquaMonitor: A multimodal multi-view image sequence dataset for real-life aquatic
+    invertebrate biodiversity monitoring'
+  fetched: '2026-10-30'
+found_by:
+- link-from:biobench
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

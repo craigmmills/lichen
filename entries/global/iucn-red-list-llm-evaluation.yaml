@@ -1,0 +1,24 @@
+id: iucn-red-list-llm-evaluation
+kind: project
+name: Evaluating Large Language Models for IUCN Red List Species Information
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+status: active
+summary: Paper by Shinya Uryu evaluating large language models on IUCN Red List species information.
+facts:
+- claim: Paper title and author.
+  url: https://arxiv.org/abs/2510.02830
+  quote: Evaluating Large Language Models for IUCN Red List Species Information
+  fetched: '2026-10-30'
+- claim: The paper evaluates large language models.
+  url: https://arxiv.org/abs/2510.02830
+  fetched: '2026-10-30'
+  quote: These findings delineate clear boundaries for responsible LLM deployment
+  ai_type: large-language-models
+found_by:
+- link-from:bagel-benchmark
+added_by: agent
+checked: '2026-10-30'
+runner: unknown

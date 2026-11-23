@@ -1,0 +1,77 @@
+id: life-ip-paf-naturalit
+kind: project
+name: Optimizing the management of Natura 2000 network in Lithuania (LIFE IP PAF-NATURALIT)
+also_known_as:
+- Naturalit
+- Natura 2000 tinklo valdymo optimizavimas Lietuvoje
+- LIFE16 IPE/LT/016
+scope: lt
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- lt
+status: unknown
+website: https://naturalit.lt/
+summary: Project financed by the EU LIFE Programme and Lithuania, run by the Environmental Projects Management
+  Agency; its C.7.2 remote-sensing report classified a Sentinel-2 image into four classes with Random
+  Forest.
+facts:
+- claim: The project is financed by the EU LIFE Programme and the Republic of Lithuania.
+  url: https://naturalit.lt/
+  fetched: 2026-11-08
+  quote: The project “Optimizing the management of Natura 2000 network in Lithuania” (LIFE IP PAF-NATURALIT),
+    No. LIFE16 IPE/LT/016 is financed by the EU LIFE Programme and the Republic of Lithuania.
+- claim: Action C.7 set out to develop, test and standardise new methods for monitoring populations and
+    habitats.
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: Innovative methods will be developed, tested and standardized for monitoring of populations and
+    habitats.
+- claim: Action C.7 also planned to test and adapt remote monitoring tools for changes in habitat condition.
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: It is also planned to test and adapt remote monitoring tools for monitoring changes in the condition
+    of habitats and effectiveness of agri-environmental measures.
+- claim: The project's C.7.2 remote-sensing monitoring report classified a Sentinel-2 image into four
+    classes with a Random Forest algorithm.
+  url: https://naturalit.lt/wp-content/uploads/2022/10/C_7_2_monitoring-remote-sensing_report-with-summary.pdf
+  fetched: 2026-11-08
+  quote: Kosminis Sentinel 2 misijos vaizdas suklasifikuotas į 4 klases naudojant Random Forest algoritmą.
+  ai_type: ml-supervised
+links:
+- type: run-by
+  to: environmental-projects-management-agency-lithuania
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: 'Partner – action leader: Environmental Projects Management Agency under the Ministry of Environment
+    of the Republic of Lithuania'
+- type: partners-with
+  to: state-service-for-protected-areas-lithuania
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: 'Partner-action leader: State Service for Protected Areas under the Ministry of Environment'
+- type: partners-with
+  to: lithuania-ministry-of-environment
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: 'Partner – action leader: Ministry of Environment of the Republic of Lithuania'
+- type: partners-with
+  to: vytautas-magnus-university
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: 'Partner – action leader: Vytautas Magnus University Agriculture Academy'
+- type: partners-with
+  to: baltic-environmental-forum-lithuania
+  url: https://naturalit.lt/en/project-actions/
+  fetched: 2026-11-08
+  quote: 'Partner-action leader: NGO Baltic Environmental Forum'
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

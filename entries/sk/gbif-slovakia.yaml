@@ -1,0 +1,44 @@
+id: gbif-slovakia
+kind: programme
+name: GBIF Slovakia
+scope: sk
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- sk
+status: active
+summary: Slovakia's country node in GBIF, which has voting participation, is based at the
+  Institute of Botany in Bratislava, is led by Karol Marhold, and has ten endorsed publishers.
+facts:
+- claim: The GBIF registry lists GBIF Slovakia as a country node with voting participation.
+  url: https://api.gbif.org/v1/node/477b14bb-3d5c-474b-8dec-6bd73dd67dec
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Slovakia"'
+- claim: The registry gives the node's address at the Institute of Botany in Bratislava and
+    its homepage as ibot.sav.sk.
+  url: https://api.gbif.org/v1/node/477b14bb-3d5c-474b-8dec-6bd73dd67dec
+  fetched: 2026-11-08
+  quote: '"homepage":["http://ibot.sav.sk"],"address":["Institute of Botany'
+- claim: Slovakia is a voting participant in GBIF, with GBIF Slovakia as its country node.
+  url: https://api.gbif.org/v1/node/477b14bb-3d5c-474b-8dec-6bd73dd67dec
+  fetched: 2026-11-08
+  quote: '"participationStatus":"VOTING","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF
+    Slovakia","participantTitle":"Slovakia"'
+- claim: GBIF's registry lists ten publishers endorsed by the node.
+  url: https://api.gbif.org/v1/node/477b14bb-3d5c-474b-8dec-6bd73dd67dec/organization?limit=100
+  fetched: 2026-11-08
+  quote: '"count":10'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/477b14bb-3d5c-474b-8dec-6bd73dd67dec
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

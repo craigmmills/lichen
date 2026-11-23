@@ -1,0 +1,112 @@
+id: steinhardt-museum-of-natural-history
+kind: organisation
+name: Steinhardt Museum of Natural History
+scope: il
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+hq: il
+countries:
+- il
+scale: national
+status: active
+website: https://smnh.tau.ac.il/en/
+summary: A museum at Tel Aviv University and Israel's national biodiversity centre, holding
+  over 6 million specimens, over 600,000 digitised, with an open database and data published
+  to GBIF.
+facts:
+- claim: Over 6 million specimens, over 600,000 digitised.
+  url: https://smnh.tau.ac.il/en/
+  fetched: '2026-11-08'
+  quote: collections at the museum comprise over 6 million specimens representing ca. 12 million
+    animals and plants, of which over 600,000 are digitized.
+- claim: The digitised database is open to the public.
+  url: https://smnh.tau.ac.il/en/
+  fetched: '2026-11-08'
+  quote: The digitized database is open to the public.
+- claim: HaMaarag names it the Israel National Center for Biodiversity Studies in Tel Aviv
+    University.
+  url: http://www.hamaarag.org.il/en
+  fetched: '2026-11-08'
+  quote: the Steinhardt Museum of Nature History – the Israel National Center for Biodiversity
+    Studies in Tel Aviv University
+- claim: Publishes data to GBIF.
+  url: https://api.gbif.org/v1/organization?country=IL&limit=100
+  fetched: '2026-11-08'
+  quote: '"title":"The Steinhardt Museum of Natural History"'
+- claim: Says that, as the Israel national center for biodiversity studies, it is the largest
+    hub for documentation and science in this field in Israel.
+  url: https://smnh.tau.ac.il/en/about-2/
+  fetched: 2026-11-08
+  quote: As the Israel national center for biodiversity studies, the Museum is the largest
+    and most active hub for documentation and science in this field in Israel.
+- claim: Says its online collections data are open to the public, used for research and updated
+    every six months.
+  url: https://smnh.tau.ac.il/en/research/collections-database/
+  fetched: 2026-11-08
+  quote: The on-line data are open to the public, used for scientific research, and updated
+    every 6 months.
+- claim: Says the national natural history collections at the museum comprise over 6 million
+    specimens, over 600,000 of them digitised.
+  url: https://smnh.tau.ac.il/en/research/collections-database/
+  fetched: 2026-11-08
+  quote: The national natural history collections at the museum comprise over 6 million specimens
+    representing ca. 12 million animals and plants, of which over 600,000 are digitized.
+- claim: Says its marine scientists take part in surveying marine nature reserves and produce
+    a digitised database of marine organisms.
+  url: https://smnh.tau.ac.il/en/marine-biodiversity/
+  fetched: 2026-11-08
+  quote: they take an active part in surveying marine nature reserves; they provide crucial
+    taxonomic expertise to scientists and professionals who work in the Mediterranean Sea;
+    they produce a digitized database for the marine organisms of these environments.
+- claim: Its GBIF publisher record says it is a national research infrastructure with three
+    centres surveying and monitoring Israel's nature.
+  url: https://api.gbif.org/v1/organization/748bb006-8e16-4703-9936-8be1286aac30
+  fetched: '2026-11-08'
+  quote: With >90% of the country’s taxonomists and with three active Centers charged with
+    surveying and monitoring Israel’s nature
+- claim: Its GBIF publisher record says it holds more than 5.5 million scientific specimens.
+  url: https://api.gbif.org/v1/organization/748bb006-8e16-4703-9936-8be1286aac30
+  fetched: '2026-11-08'
+  quote: It is home of the National Collections of Natural History with over 5.5 million scientific
+    specimens
+links:
+- type: partners-with
+  to: hamaarag
+  url: http://www.hamaarag.org.il/en
+  fetched: '2026-11-08'
+  quote: founded in 2006 as a partnership framework between the Ministry of Environmental
+    Protection, the Jewish National Fund – Keren Kayemeth LeIsrael, the Israel Nature and
+    Parks Authority and the Steinhardt Museum
+- type: partners-with
+  to: israel-nature-and-parks-authority
+  url: https://smnh.tau.ac.il/en/about/donors_partners/
+  fetched: 2026-11-08
+  quote: National Organizations Keren Kayemet Le’Israel – The Jewish National Fund Israel
+    Nature and Parks Authority
+- type: partners-with
+  to: israeli-ministry-of-environmental-protection
+  url: https://smnh.tau.ac.il/en/about/donors_partners/
+  fetched: 2026-11-08
+  quote: Government Ministries The Planning and Budgeting Committee of the Council for Higher
+    Education The Ministry of Environmental Protection
+- type: partners-with
+  to: keren-kayemeth-leisrael-jewish-national-fund
+  url: https://smnh.tau.ac.il/en/about/donors_partners/
+  fetched: 2026-11-08
+  quote: National Organizations Keren Kayemet Le’Israel – The Jewish National Fund
+found_by:
+- checklist:2
+- link-from:consortium-of-european-taxonomic-facilities
+- register:gbif-publisher
+added_by: agent
+checked: '2026-11-08'
+also_known_as:
+- Israel National Center for Biodiversity Studies
+- Steinhardt Museum of Natural History
+- SMNHTAU

@@ -1,0 +1,53 @@
+id: lifewatch-italia
+kind: programme
+name: LifeWatch Italia
+also_known_as:
+- LifeWatch Italy
+- LifeWatch Italia
+- LW-ITA
+- LifeWatch-ITA
+- LW ITA
+scope: it
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+website: https://www.lifewatchitaly.eu/
+summary: Italy's distributed national biodiversity research institute within LifeWatch
+  ERIC. Its portal offers data, semantic resources, ICT services, virtual research
+  environments and a citizen science platform.
+facts:
+- claim: Its citizen science platform lets users build mini-sites and collect geo-referenced
+    observations.
+  url: https://citizenscience.lifewatchitaly.eu/
+  fetched: '2026-10-31'
+  quote: a web application, customisable by users and supporting any citizen-science
+    activity, that provides for the collection of geo-referenced observations;
+- claim: Its biomolecular centre provides tools for genomic and DNA barcoding analysis.
+  url: https://www.lifewatchitaly.eu/en/about-us/e-biodiversity-research-institute/
+  fetched: '2026-10-31'
+  quote: provides access to tools for analysing genomic, metagenomic, phylogenetic,
+    phylogeographic and DNA barcoding data
+links:
+- type: partners-with
+  to: lifewatch-eric
+  url: https://www.lifewatchitaly.eu/en/home-english/
+  fetched: '2026-10-31'
+  quote: We are a member of LifeWatch ERIC
+- type: partners-with
+  to: lifewatch-eric
+  url: https://www.lifewatchitaly.eu/chi-siamo/
+  fetched: '2026-10-31'
+  quote: La JRU coordina il contributo italiano a LifeWatch
+found_by:
+- checklist:2
+- link-from:lifewatch-eric
+added_by: agent
+checked: 2026-10-31
+countries:
+- it
+roles:
+- supplies-data
+runner: unknown

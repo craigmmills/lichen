@@ -1,0 +1,54 @@
+id: enciclovida
+kind: programme
+name: EncicloVida
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- other
+countries:
+- mx
+status: active
+summary: Programme created in 2016, run and built by CONABIO on the national biodiversity information
+  system, gathering specimen records from scientific collections and citizen science platforms.
+scope: mx
+facts:
+- claim: The C Minds toolkit attributes its jaguar page to CONABIO, for distribution and records in Mexico.
+  url: https://www.cminds.co/es/toolkits/tech4nature-mexico-conservacion-ia-v01/caja-de-herramientas
+  fetched: '2026-11-03'
+  quote: 'Jaguar en EncicloVida
+
+    CONABIO
+
+    Para qué sirve. Distribución y registros en México .'
+- claim: Combines CONABIO information with other sources.
+  url: https://enciclovida.mx/inicio/acerca
+  fetched: '2026-11-03'
+  quote: EncicloVida integra información de CONABIO y la complementa con información de otras fuentes
+- claim: Searches more than 119 thousand valid or accepted species and their synonyms.
+  url: http://www.enciclovida.mx/
+  fetched: 2026-11-03
+  quote: Busca entre más de 119 mil especies válidas o aceptadas y su sinonimia
+- claim: Integrates information CONABIO has gathered through the national biodiversity information system.
+  url: http://www.enciclovida.mx/
+  fetched: 2026-11-03
+  quote: ha reunido a través del Sistema Nacional de Información sobre Biodiversidad (SNIB)
+links:
+- type: built-by
+  to: comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+  url: http://www.enciclovida.mx/
+  fetched: 2026-11-03
+  quote: Es una plataforma web de consulta creada por la CONABIO, para conocer a las especies y grupos
+    que viven en México.
+- type: builds-on
+  to: sistema-nacional-de-informacion-sobre-biodiversidad
+  url: http://www.enciclovida.mx/
+  fetched: 2026-11-03
+  quote: ha reunido a través del Sistema Nacional de Información sobre Biodiversidad (SNIB)
+found_by:
+- link-from:comision-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad
+- checklist:2
+added_by: agent
+checked: '2026-11-03'

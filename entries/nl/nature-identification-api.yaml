@@ -1,0 +1,31 @@
+id: nature-identification-api
+kind: programme
+name: Nature Identification API
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+countries:
+- nl
+status: active
+summary: Naturalis's species identification service, whose 2023 multi-source image recognition
+  model includes about 40,000 European taxa and serves six biodiversity portals in Europe.
+facts:
+- claim: Its 2023 model includes about 40,000 European taxa and serves six biodiversity portals
+    in Europe.
+  url: https://www.naturalis.nl/en/ai
+  fetched: &id001 2026-10-31
+  quote: Our 2023 multi-source model for image recognition includes about 40,000 European
+    taxa and is serving six biodiversity portals in Europe.
+links:
+- type: run-by
+  to: naturalis-biodiversity-center
+  url: https://www.naturalis.nl/en/ai
+  fetched: *id001
+  quote: Our Nature Identification API is an established service
+found_by:
+- link-from:naturalis-biodiversity-center
+scope: nl
+added_by: agent
+checked: *id001

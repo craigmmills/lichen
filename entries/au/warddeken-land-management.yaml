@@ -1,0 +1,47 @@
+id: warddeken-land-management
+kind: organisation
+name: Warddeken Land Management
+scope: au
+sector: community
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- au
+scale: local
+status: active
+summary: Indigenous land manager in West Arnhem that runs the Mayh camera trap monitoring
+  program and applied the MegaDetector model to its images.
+facts:
+- claim: Research from Warddeken, Charles Darwin University and CSIRO explored AI in Indigenous-led
+    community-based monitoring.
+  url: https://www.cdu.edu.au/news/rangers-reimagine-ai-wildlife-monitoring
+  fetched: '2026-10-31'
+  quote: Recent research from Warddeken Land Management, Charles Darwin University (CDU) and
+    the Commonwealth Scientific and Industrial Research Organisation (CSIRO) explored how
+    AI could be applied to Indigenous-led community-based monitoring (ICBM).
+- claim: MegaDetector cut images needing analysis by 81.4 per cent.
+  url: https://www.cdu.edu.au/news/rangers-reimagine-ai-wildlife-monitoring
+  fetched: '2026-10-31'
+  quote: MegaDetector reduced the number of images needing analysis from 925,088 to 172,290
+links:
+- type: uses
+  to: megadetector
+  url: https://www.cdu.edu.au/news/rangers-reimagine-ai-wildlife-monitoring
+  fetched: '2026-10-31'
+  quote: AI animal detecting model MegaDetector was fed 1572 hours of data collected by daluk
+    and bininj rangers.
+- type: partners-with
+  to: charles-darwin-university
+  url: https://www.cdu.edu.au/news/rangers-reimagine-ai-wildlife-monitoring
+  fetched: '2026-10-31'
+  quote: Recent research from Warddeken Land Management, Charles Darwin University (CDU)
+found_by:
+- checklist:4
+added_by: agent
+checked: '2026-10-31'

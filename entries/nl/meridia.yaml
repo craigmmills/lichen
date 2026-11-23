@@ -1,0 +1,41 @@
+id: meridia
+kind: organisation
+name: Meridia
+sector: company
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: global
+status: active
+website: https://www.meridia.land/
+summary: Organisation whose Meridia Verify methodology checks geospatial and documentation
+  aspects of sourcing from protected areas and IPLC territories to identify EUDR legality
+  risks, and which uses Space Intelligence.
+facts:
+- claim: Meridia Verify's EUDR methodology is for risk assessment and mitigation in supply
+    chains.
+  url: https://www.meridia.land/methodology
+  quote: Meridia Verify’s EU Deforestation Regulation (EUDR) methodology sets the standard
+    for actionable risk assessment and mitigation.
+  fetched: '2026-11-08'
+- claim: The methodology checks selected geospatial and documentation aspects of sourcing
+    from protected areas and IPLC territories to identify legality risks.
+  url: https://www.meridia.land/methodology
+  quote: verifies whether sourcing from protected areas and IPLC territories is lawful
+  fetched: '2026-11-08'
+links:
+- type: uses
+  to: space-intelligence
+  url: https://www.meridia.land/methodology
+  quote: Verify utilises the latest commercial deforestation maps from Space Intelligence*.
+  fetched: '2026-11-08'
+scope: nl
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

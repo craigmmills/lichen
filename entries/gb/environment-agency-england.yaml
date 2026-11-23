@@ -1,0 +1,63 @@
+id: environment-agency-england
+kind: organisation
+name: Environment Agency
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.gov.uk/government/organisations/environment-agency
+summary: Executive non-departmental public body sponsored by Defra that works to create better
+  places for people and wildlife. Forest Research and others use its lidar data.
+facts:
+- claim: An executive non-departmental public body sponsored by Defra.
+  url: https://www.gov.uk/government/organisations/environment-agency
+  quote: The Environment Agency is an executive non-departmental public body, sponsored by
+    the Department for Environment, Food & Rural Affairs
+  fetched: '2026-10-30'
+- claim: Forest Research is investigating LiDAR data provided by the Environment Agency.
+  url: https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/remote-sensing/
+  quote: LiDAR data provided by the Environmental Agency is also being investigated.
+  fetched: '2026-10-30'
+- claim: Developed BluePrint with Hello Lamp Post.
+  url: https://environmentagency.blog.gov.uk/2026/02/17/launching-blueprint-expanding-citizen-science-across-englands-waterways
+  quote: BluePrint, developed by the Environment Agency in partnership with Hello Lamp Post
+  fetched: &id001 2026-10-30
+- claim: Publishes the dataset "Environment Agency England and Wales (2007) freshwater invertebrate
+    species (single species families)" on GBIF.
+  url: https://api.gbif.org/v1/organization/392ef839-10ae-4f22-a1ee-a45e535162b4/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Environment Agency England and Wales (2007) freshwater invertebrate species (single
+    species families)
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/392ef839-10ae-4f22-a1ee-a45e535162b4/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+- claim: GOV.UK gives its legal services address in Bristol.
+  url: https://www.gov.uk/government/organisations/environment-agency
+  quote: Horizon House, Deanery Road Bristol BS1 5AH
+  fetched: '2026-10-31'
+found_by:
+- checklist:1
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- species-distribution
+links:
+- type: runs
+  to: blueprint-waterways
+  url: https://environmentagency.blog.gov.uk/2026/02/17/launching-blueprint-expanding-citizen-science-across-englands-waterways
+  quote: BluePrint, developed by the Environment Agency in partnership with Hello Lamp Post
+  fetched: *id001

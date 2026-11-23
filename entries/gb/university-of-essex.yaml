@@ -1,0 +1,36 @@
+id: university-of-essex
+kind: organisation
+name: University of Essex
+scope: gb
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+realms:
+- ocean
+- freshwater
+techniques:
+- bioacoustics
+- edna-genomics
+hq: unknown
+countries:
+- gb
+scale: national
+summary: University where OpenAlex lists authors on machine learning for marine soundscapes
+  and eDNA catchment monitoring.
+facts:
+- claim: OpenAlex lists an Essex author on marine soundscape analysis.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I110002522,from_publication_date:2018-01-01,concepts.id:C119857082|C108583219|C31972630,primary_topic.subfield.id:2309|2303|1105|1104|1107|2306&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  quote: Enhancing automated analysis of marine soundscapes using ecoacoustic indices and
+    machine learni
+  fetched: '2026-10-31'
+- claim: OpenAlex lists Essex authors on catchment eDNA monitoring.
+  url: https://api.openalex.org/works?filter=authorships.institutions.lineage:I110002522,from_publication_date:2018-01-01,concepts.id:C119857082|C108583219|C31972630,primary_topic.subfield.id:2309|2303|1105|1104|1107|2306&sort=cited_by_count:desc&per_page=15&select=id,title,publication_year,authorships
+  quote: Can eDNA metabarcoding offer a catchment-based approach for biodiversity monitoring?
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false

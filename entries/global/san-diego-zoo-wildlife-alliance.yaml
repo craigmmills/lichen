@@ -1,0 +1,79 @@
+id: san-diego-zoo-wildlife-alliance
+kind: organisation
+name: San Diego Zoo Wildlife Alliance
+scope: global
+sector: ngo
+roles:
+- uses-ai
+- builds-ai
+ai_label: ai
+realms:
+- land
+- ocean
+hq: us
+countries:
+- ke
+- us
+scale: global
+summary: Conservation organisation that developed Twiga Walinzi, a community-led giraffe programme
+  in Kenya, per the Giraffe Conservation Foundation.
+facts:
+- claim: The Giraffe Conservation Foundation names it as developer of the programme.
+  url: https://giraffeconservation.org/programs/twiga-wetu/
+  quote: a community-led conservation program developed by the San Diego Zoo Wildlife Alliance
+    and local partners.
+  fetched: '2026-10-31'
+- claim: International nonprofit conservation organisation.
+  url: https://sandiegozoowildlifealliance.org/
+  fetched: '2026-10-30'
+  quote: San Diego Zoo Wildlife Alliance is an international, nonprofit conservation organization.
+- claim: Conservation nonprofit.
+  url: https://sdzwa.org/
+  fetched: '2026-10-30'
+  quote: San Diego Zoo Wildlife Alliance is an international, nonprofit conservation organization.
+- claim: Its Conservation Technology Lab trains and implements AI algorithms for its conservation
+    work.
+  url: https://sandiegozoowildlifealliance.org/story-hub/zoonooz/tech-support
+  quote: The San Diego Zoo Wildlife Alliance (SDZWA) Conservation Technology Lab has been
+    working on training and implementing AI algorithms
+  fetched: '2026-10-30'
+- claim: A digital twin of the Safari Park Biodiversity Reserve is under way, its vice president
+    of conservation science says.
+  url: https://today.ucsd.edu/story/scripps-institution-of-oceanography-and-san-diego-zoo-wildlife-alliance-partner-for-conservation
+  quote: The first prototype, a digital twin of the Safari Park Biodiversity Reserve, is already
+    underway
+  ai_type: digital-twins
+  fetched: '2026-10-30'
+links:
+- type: runs
+  to: twiga-walinzi
+  url: https://giraffeconservation.org/programs/twiga-wetu/
+  quote: a community-led conservation program developed by the San Diego Zoo Wildlife Alliance
+    and local partners.
+  fetched: '2026-10-31'
+- type: runs
+  to: conservation-technology-lab-sdzwa
+  url: https://stories.sdzwa.org/story-hub/2026/tech-lab-trail-cameras
+  quote: The Conservation Technology Lab at San Diego Zoo Wildlife Alliance
+  fetched: '2026-10-30'
+- type: partners-with
+  to: agile-restoration-and-conservation-hubs
+  url: https://today.ucsd.edu/story/scripps-institution-of-oceanography-and-san-diego-zoo-wildlife-alliance-partner-for-conservation
+  quote: announced a formal partnership through the Agile Restoration & Conservation Hubs
+    (ARCH) initiative
+  fetched: '2026-10-30'
+found_by:
+- rule:checklist-misses
+- checklist:4
+- link-from:queue-us
+added_by: agent
+checked: '2026-10-31'
+status: active
+funding_at_risk: false
+techniques:
+- computer-vision
+- bioacoustics
+ai_types:
+- digital-twins
+also_known_as:
+- SDZWA

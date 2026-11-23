@@ -1,0 +1,64 @@
+id: university-of-maroua
+kind: organisation
+name: University of Maroua
+also_known_as:
+- Université de Maroua
+scope: cm
+sector: academic
+roles:
+- supplies-data
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+hq: cm
+countries:
+- cm
+scale: national
+status: active
+summary: A public university in Maroua that publishes GBIF datasets on insect pollinators from four Cameroonian
+  protected areas and on bird diversity in the Kalfou forest reserve, and appears on a 2018 bat acoustics
+  paper.
+facts:
+- claim: Its GBIF publisher record describes it as a public university in Maroua.
+  url: https://api.gbif.org/v1/organization/0d8a8145-7f19-41fe-9581-e90b39b8f296
+  fetched: 2026-11-08
+  quote: The University of Maroua is a public university located in the city of Maroua in Cameroon.
+- claim: The record gives its address as PO Box 46, Maroua.
+  url: https://api.gbif.org/v1/organization/0d8a8145-7f19-41fe-9581-e90b39b8f296
+  fetched: 2026-11-08
+  quote: '"address":["PO Box 46, Maroua"]'
+- claim: It publishes a GBIF dataset of insect pollinators from four protected areas in Cameroon.
+  url: https://api.gbif.org/v1/organization/0d8a8145-7f19-41fe-9581-e90b39b8f296/publishedDataset
+  fetched: 2026-11-08
+  quote: Insect Pollinator Collection Records from Four Protected Areas in Cameroon
+- claim: It publishes a GBIF dataset on bird diversity in the Kalfou forest reserve, Far North region.
+  url: https://api.gbif.org/v1/organization/0d8a8145-7f19-41fe-9581-e90b39b8f296/publishedDataset
+  fetched: 2026-11-08
+  quote: Diversité de la faune aviaire dans la Réserve Forestière de Kalfou et sa zone périphérique, Extrême-Nord,
+    Cameroun
+- claim: A 2018 paper on acoustic identification of five insectivorous bats by their echolocation calls
+    in Far North Cameroon has Eric Moïse Bakwo Fils of the University of Maroua as its first author, according
+    to OpenAlex.
+  url: https://api.openalex.org/works/W2806672830?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Acoustic identification of five insectivorous bats by their echolocation calls in the Sahelian
+    zone of Far North Cameroon
+- claim: The first author's affiliation is the Department of Biological Sciences, Faculty of Sciences,
+    University of Maroua.
+  url: https://api.openalex.org/works/W2806672830?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Department of Biological Sciences, Faculty of Sciences, University of Maroua, Maroua, Cameroon
+- claim: Postal address given for its computer science laboratory on a 2021 paper.
+  url: https://api.openalex.org/works/W3215900571?select=id,title,publication_year,authorships
+  fetched: 2026-11-08
+  quote: Laboratoire de Recherche en Informatique (LaRI), University of Maroua, Maroua P.O. Box 46, Cameroon
+links: []
+found_by:
+- link-from:gbif-cameroon
+- register:cm
+- checklist:3
+added_by: agent
+checked: 2026-11-08
+techniques:
+- bioacoustics

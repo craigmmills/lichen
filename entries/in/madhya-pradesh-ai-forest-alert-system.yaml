@@ -1,0 +1,45 @@
+id: madhya-pradesh-ai-forest-alert-system
+kind: project
+name: Madhya Pradesh AI forest alert system
+scope: in
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- in
+scale: local
+status: active
+summary: Pilot in Madhya Pradesh that runs a custom model on satellite data in Google Earth
+  Engine to flag forest change, with field feedback by phone used to retrain it.
+facts:
+- claim: Indian Masterminds reports a pilot using satellite images, mobile feedback and machine
+    learning.
+  url: https://indianmasterminds.com/news/madhya-pradesh-becomes-first-state-to-use-ai-for-real-time-forest-monitoring-115044/
+  quote: AI-based real-time alert system on a pilot basis for active forest management using
+    satellite images, mobile feedback, and machine learning
+  fetched: '2026-10-31'
+- claim: Business Standard reports alerts shown on the Divisional Forest Officer's dashboard,
+    by beat and field post.
+  quote: The new process involves live monitoring on the Divisional Forest Officer's dashboard,
+    showing real-time alerts categorised by beat and field posts
+  url: https://www.business-standard.com/india-news/mp-first-state-to-launch-ai-based-real-time-forest-alert-system-officials-125042900640_1.html
+  fetched: '2026-10-31'
+links:
+- type: uses
+  to: google-earth-engine
+  url: https://indianmasterminds.com/news/madhya-pradesh-becomes-first-state-to-use-ai-for-real-time-forest-monitoring-115044/
+  quote: the AI system operates through Google Earth Engine
+  fetched: '2026-10-31'
+- type: run-by
+  to: madhya-pradesh-forest-department
+  url: https://indianmasterminds.com/news/madhya-pradesh-becomes-first-state-to-use-ai-for-real-time-forest-monitoring-115044/
+  quote: “This system empowers our staff not just to monitor, but to act in real time. It
+    is a game-changer in forest protection,” said a senior official from the Forest Department.
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+- checklist:in-c
+added_by: agent
+checked: '2026-10-31'

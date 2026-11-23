@@ -1,0 +1,38 @@
+id: western-himalaya-canopy-height-map-2020
+kind: dataset
+name: WHiCH (Western Himalaya Canopy Height) Map 2020, Pakistan
+also_known_as:
+- WHiCH
+scope: pk
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- pk
+status: active
+summary: A 10 m western Himalayan canopy height map for 2020, built by Adeel Ahmad using U-Net,
+  GEDI and Sentinel-2, reportedly outperforming global models regionally according to its
+  authors.
+facts:
+- claim: A 10 m canopy height map for 2020, estimated with a U-Net deep convolutional neural
+    network from GEDI and Sentinel-2 data.
+  url: https://zenodo.org/records/18056032
+  fetched: 2026-11-03
+  quote: In this work, we used a deep convolution neural networks model, U-Net, for estimating
+    canopy heights using Global Ecosystem Dynamics Investigation Mission (GEDI) with multi-band
+    Sentinel-2 datasets. We produced a 10 m canopy height map of the study region for 2020.
+  ai_type: deep-learning
+- claim: The authors report it outperformed existing global canopy height models in the region.
+  url: https://zenodo.org/records/18056032
+  fetched: 2026-11-03
+  quote: outperforming existing global canopy height models in this topographically challenging
+    region
+runner: unknown
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

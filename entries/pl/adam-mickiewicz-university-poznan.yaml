@@ -1,0 +1,52 @@
+id: adam-mickiewicz-university-poznan
+kind: organisation
+name: Adam Mickiewicz University in Poznań
+also_known_as:
+- Uniwersytet im. Adama Mickiewicza w Poznaniu
+- UAM
+- AMU
+scope: pl
+sector: academic
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: pl
+scale: national
+status: active
+summary: University that runs ecoserv-pol; its Faculty of Biology presented the AMUNATCOLL
+  assumptions in December 2016, and a 2026 paper with one author there used deep learning
+  on Bangwa Warbler acoustic patterns.
+facts:
+- claim: Its Faculty of Biology presented the assumptions of AMUNATCOLL on 8 December 2016.
+  url: https://bip.amu.edu.pl/__data/assets/pdf_file/0016/5344/AMUNATCOLL-protokol-z-publicznej-prezentacji.pdf
+  fetched: '2026-11-02'
+  quote: 'AMU Nature Collections – online (AMUNATCOLL): digitalizacja i udostępnianie zasobu
+    danych przyrodniczych Wydziału Biologii'
+- claim: The faculty's address is ul. Umultowska 89, Poznań.
+  url: https://bip.amu.edu.pl/__data/assets/pdf_file/0016/5344/AMUNATCOLL-protokol-z-publicznej-prezentacji.pdf
+  fetched: '2026-11-02'
+  quote: ul. Umultowska 89, Collegium Biologicum, 61-614 Poznań
+- claim: A 2026 two-author paper, with one author at the university, used deep learning to
+    closely reproduce expert-derived seasonal acoustic detection patterns for the Bangwa Warbler.
+  url: https://api.openalex.org/works/W7224548801?select=id,title,publication_year,doi,authorships,abstract_inverted_index
+  quote: Reproducing a year-round expert survey with deep learning
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+links:
+- type: runs
+  to: ecoserv-pol
+  url: https://www.gov.pl/web/klimat/uniwersytet-im-adama-mickiewicza-w-poznaniu
+  fetched: '2026-11-02'
+  quote: Projekt realizowany przez Uniwersytet im. Adama Mickiewicza w Poznaniu
+found_by:
+- checklist:2
+- checklist:register
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- bioacoustics
+ai_types:
+- deep-learning

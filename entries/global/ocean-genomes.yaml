@@ -1,0 +1,37 @@
+id: ocean-genomes
+kind: project
+name: Ocean Genomes
+scope: global
+ai_label: data-infrastructure
+realms:
+- ocean
+techniques:
+- edna-genomics
+status: active
+summary: Programme producing reference genomes for representatives of all marine vertebrate
+  families, to support environmental DNA monitoring of marine biodiversity.
+facts:
+- claim: Described in npj Biodiversity as a programme producing reference genome resources
+    for marine vertebrates.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12488967/fullTextXML
+  quote: We present Ocean Genomes, a program dedicated to producing reference genome resources
+    to facilitate improved monitoring approaches and management outcomes for marine vertebrate
+    biodiversity.
+  fetched: '2026-10-30'
+- claim: Its genomes are meant to support environmental DNA as a biodiversity sampling method.
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12488967/fullTextXML
+  quote: Ocean Genomes aims to generate high-quality reference genomic resources that can
+    support broader programme goals to develop environmental DNA (eDNA) as a scalable biodiversity
+    sampling solution.
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: oceanomics
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12488967/fullTextXML
+  quote: Marine vertebrates native to Australian waters and the Indo-Pacific region are the
+    primary focus of OceanOmics and thus Ocean Genomes
+  fetched: '2026-10-30'
+found_by:
+- link-from:earth-biogenome-project
+added_by: agent
+checked: '2026-10-30'

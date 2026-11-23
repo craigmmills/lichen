@@ -1,0 +1,52 @@
+id: debre-markos-university
+kind: organisation
+name: Debre Markos University
+scope: et
+sector: academic
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+- other
+hq: et
+countries:
+- et
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2025 paper
+  on deep learning to identify indigenous fish species in Lake Tana.
+facts:
+- claim: OpenAlex lists a paper by Debre Markos University authors on identifying Lake Tana's
+    indigenous fish species with deep learning.
+  url: https://api.openalex.org/works?filter=openalex_id:W4402012585|W4416865056|W7143840115|W4381839875|W7212135226&select=id,display_name,authorships,abstract_inverted_index,primary_location
+  fetched: 2026-11-08
+  quote: Identification of Indigenous fish species in lake Tana using deep learning
+- claim: OpenAlex lists a 2025 paper on deep learning to identify indigenous fish species
+    in Lake Tana.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=9
+  fetched: '2026-11-08'
+  quote: Identification of Indigenous fish species in lake Tana using deep learning
+- claim: OpenAlex lists Zelalem Adugna Terefe, first author of that paper, at Debre Markos
+    University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=9
+  fetched: '2026-11-08'
+  quote: '"display_name": "Zelalem Adugna Terefe", "orcid": null, "observed_orcids": []},
+    "institutions": [{"id": "https://openalex.org/I916065895", "display_name": "Debre Markos
+    University", "ror": "https://ror.org/04sbsx707", "country_code": "ET"'
+- claim: The paper's title names deep learning as its method.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=9
+  fetched: '2026-11-08'
+  quote: Identification of Indigenous fish species in lake Tana using deep learning
+  ai_type: deep-learning
+links: []
+found_by:
+- checklist:3
+- register:et
+added_by: agent
+checked: 2026-11-08
+ai_types:
+- deep-learning

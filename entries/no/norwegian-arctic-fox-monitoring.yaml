@@ -1,0 +1,48 @@
+id: norwegian-arctic-fox-monitoring
+kind: programme
+name: Overvåking av fjellrev
+also_known_as:
+- Norwegian Arctic fox monitoring programme
+- Overvåkingsprogrammet for fjellrev
+scope: 'no'
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- edna-genomics
+status: active
+summary: A monitoring programme run by NINA with the Norwegian Nature Inspectorate,
+  combining checks of known den sites with scat collection for DNA analysis, and since
+  2019 a yearly model-based population estimate.
+facts:
+- claim: Built on two parts, checks of known den sites and collection of scats for
+    DNA analysis.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/truede-arter/overvaking-av-fjellrev/
+  fetched: '2026-11-08'
+  quote: 'Overvåkingsprogrammet er bygget opp av to hovedkomponenter: Kontroll av
+    kjente hilokaliteter (aktivitet av fjellrev, antall kull og eventuelt kullstørrelse),
+    og innsamling av ekskrementer for DNA-analyse'
+- claim: Since 2019 the raw data also feed a model-based estimate of total population
+    size and trend, updated yearly.
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/truede-arter/overvaking-av-fjellrev/
+  fetched: '2026-11-08'
+  quote: Rådata fra overvåkingen brukes siden 2019 også inn i et modellbasert estimat
+    på total bestandsstørrelse og bestandsutvikling som oppdateres årlig.
+links:
+- type: run-by
+  to: norwegian-institute-for-nature-research
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/truede-arter/overvaking-av-fjellrev/
+  fetched: '2026-11-08'
+  quote: Nina kvalitetssikrer og harmonerer arbeidet som gjøres i felt, utfører DNA-analyser
+    og sammenstiller informasjonen i en årlig rapport.
+- type: partners-with
+  to: norwegian-nature-inspectorate
+  url: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/miljoovervaking/overvakingsprogrammer/truede-arter/overvaking-av-fjellrev/
+  fetched: '2026-11-08'
+  quote: Det praktiske arbeidet i felt gjennomføres av Statens naturoppsyn og deres
+    feltapparat, etter instruks og årlig prioritering satt av Norsk institutt for
+    naturforskning (Nina).
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

@@ -1,0 +1,60 @@
+id: westerdijk-fungal-biodiversity-institute
+kind: organisation
+name: Westerdijk Fungal Biodiversity Institute
+also_known_as:
+- Westerdijk Institute
+sector: academic
+roles:
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- edna-genomics
+hq: nl
+scale: national
+status: active
+website: http://www.wi.knaw.nl
+countries:
+- nl
+summary: An institute of biobanks for filamentous fungi, yeasts and bacteria in Utrecht, partner
+  in building ARISE and in the AccellARISE upgrade.
+facts:
+- claim: Gives its address as Uppsalalaan 8, Utrecht.
+  url: https://wi.knaw.nl/images/brochureServices/brochureServices.pdf
+  fetched: &id001 2026-10-31
+  quote: Uppsalalaan 8, 3584 CT Utrecht, The Netherlands
+- claim: Holds the CBS and NCCB biobanks.
+  url: https://wi.knaw.nl/images/brochureServices/brochureServices.pdf
+  fetched: *id001
+  quote: cbs and nccb biobanks for strains of
+- claim: Team develops computational techniques and AI to identify fungal biodiversity.
+  url: https://ubc.uu.nl/biodiversity-informatics-duong-vu/
+  fetched: '2026-10-31'
+  quote: We specialize in developing computational techniques and employing AI to rapidly
+    and accurately identify fungal biodiversity
+- claim: Listed as the team's department or institute.
+  url: https://ubc.uu.nl/biodiversity-informatics-duong-vu/
+  fetched: '2026-10-31'
+  quote: 'Department / Institute: Biobank / Westerdijk Fungal Biodiversity Institute'
+links:
+- type: partners-with
+  to: arise-biodiversity
+  url: https://www.naturalis.nl/en/knowing-nature-in-netherlands-arise-research-infrastructure-for-species-id
+  fetched: *id001
+  quote: This is a press release from Naturalis Biodiversity Center, also on behalf of the
+    University of Amsterdam, the University of Twente, and the Westerdijk Institute for fungal
+    biodiversity. The construction of ARISE is a joint project of these institutions
+- type: partners-with
+  to: arise-biodiversity
+  url: https://www.artis.nl/nl/zorg-samen-voor-natuur/onderzoek/biodiversiteit
+  fetched: '2026-10-31'
+  quote: ARISE is een samenwerking van Naturalis Biodiveristy Centre, Fungal Biodiversity
+    Institute Westerdijk, de Universiteit Twente en de Universiteit va
+found_by:
+- link-from:arise-biodiversity
+- checklist:3
+scope: nl
+added_by: agent
+checked: *id001

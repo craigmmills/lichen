@@ -1,0 +1,31 @@
+id: animl
+kind: programme
+name: Animl
+scope: global
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: active
+website: https://animl.camera
+summary: Web application for viewing and labelling camera trap data, with machine learning resources for camera trap data processing, from The Nature Conservancy.
+facts:
+- claim: Front-end web app for viewing and labelling camera trap data, published by The Nature Conservancy.
+  url: https://github.com/tnc-ca-geo/animl-frontend
+  quote: A frontend web app for viewing & labeling camera trap data by The Nature Conservancy.
+  fetched: '2026-10-30'
+- claim: The Nature Conservancy's GitHub organisation publishes machine learning resources for camera trap data processing under the same name.
+  url: https://github.com/tnc-ca-geo/animl-ml
+  fetched: 2026-10-30
+  quote: Machine Learning resources for camera trap data processing
+links:
+- type: run-by
+  to: the-nature-conservancy
+  url: https://github.com/tnc-ca-geo/animl-frontend
+  quote: "tnc-ca-geo/animl-frontend: A frontend web app for viewing & labeling camera trap data by The Nature Conservancy."
+  fetched: '2026-10-30'
+found_by:
+- link-from:the-nature-conservancy
+added_by: agent
+checked: '2026-10-30'

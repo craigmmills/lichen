@@ -1,0 +1,32 @@
+id: gbif-finland
+kind: programme
+name: GBIF Finland
+scope: fi
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+status: active
+summary: Programme under which GBIF lists Finland as a voting participant, partnering with
+  the Global Biodiversity Information Facility and led by Will Morris.
+facts:
+- claim: GBIF lists Finland as a voting country participant under the title GBIF Finland.
+  url: https://api.gbif.org/v1/node/dd514216-5c7c-45f3-910d-797424cb5be6
+  quote: '"participationStatus":"VOTING"'
+  fetched: '2026-11-02'
+- claim: The Research Council of Finland lists FinBIF and the Finnish Museum of Natural History
+    as further information sources under GBIF.
+  url: https://www.aka.fi/en/research-funding/funding-opportunities2/programmes-and-other-funding-schemes/research-infrastructures/finlands-memberships-in-international-research-infrastructures/
+  quote: Finnish Biodiversity Info Facility, Finnish Museum of Natural History
+  fetched: '2026-11-02'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/dd514216-5c7c-45f3-910d-797424cb5be6
+  fetched: '2026-11-02'
+  quote: '"title":"GBIF Finland"'
+found_by:
+- link-from:queue:fi
+added_by: agent
+checked: '2026-11-02'

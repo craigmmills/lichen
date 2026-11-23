@@ -1,0 +1,51 @@
+id: silic-yushan-acoustic-detections-dataset
+kind: dataset
+name: Acoustic detections of birds using the SILIC in Yushan National Park, Taiwan
+also_known_as: []
+scope: tw
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- bioacoustics
+countries: []
+summary: Dataset of bird acoustic detections from six passive monitoring stations in southern
+  Yushan National Park, built on SILIC, holding 802,670 records after summarising detections
+  per sound class per recording.
+facts:
+- claim: The data come from six PAM stations in the southern area of Yushan National Park,
+    built in 2020 with the park headquarters.
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: The data were collected by six PAM stations along the Southern Cross-Island Highway
+    in the Southern Area of YSNP.
+- claim: The stations were maintained by the park headquarters, and ESRI archived, managed,
+    analysed and opened the data.
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: The stations were maintained by YSNP Headquarters and the data were archived, managed,
+    analyzed and open-accessed by ESRI.
+- claim: The dataset holds 802,670 records after summarising detections per sound class per
+    recording.
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: the dataset has been summarized to the count of detections per sound class per recording
+    and resulted in 802,670 records in total.
+links:
+- type: run-by
+  to: taiwan-biodiversity-research-institute
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: The stations were maintained by YSNP Headquarters and the data were archived, managed,
+    analyzed and open-accessed by ESRI.
+- type: builds-on
+  to: silic
+  url: https://api.gbif.org/v1/dataset/4410edca-3bdd-4475-98a2-de823b2266bc
+  fetched: 2026-11-12
+  quote: We used the model exp24 of the SILIC (https://github.com/RedbirdTaiwan/silic) to
+    detect seven sound classes of seven bird species
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-12

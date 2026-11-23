@@ -1,0 +1,35 @@
+id: flightr
+kind: programme
+name: FLightR
+scope: global
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- other
+status: active
+runner: unknown
+website: https://github.com/eldarrak/FLightR
+summary: R package for positioning animals from solar geolocation archival tags, with
+  worked examples for red-backed shrike, black-tailed godwit and tree swallow data.
+facts:
+- claim: R package for positioning animals from solar geolocation archival tags.
+  url: https://github.com/eldarrak/FLightR
+  fetched: 2026-11-21
+  quote: The scope of the package is to position animal using data from solar geolocation
+    archival tags
+- claim: Worked examples cover red-backed shrike, black-tailed godwit and tree swallow
+    tag data.
+  url: https://github.com/eldarrak/FLightR
+  fetched: 2026-11-21
+  quote: workflow for black-tailed godwit example with Intigeo tag
+- claim: Described in a Methods in Ecology and Evolution paper as an R package for
+    reconstructing animal paths.
+  url: https://github.com/eldarrak/FLightR
+  fetched: 2026-11-21
+  quote: 'FLightR: An R package for reconstructing animal paths from solar geolocation
+    loggers.'
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

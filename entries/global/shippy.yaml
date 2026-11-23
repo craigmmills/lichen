@@ -1,0 +1,84 @@
+id: shippy
+kind: programme
+name: Shippy
+scope: global
+ai_label: ai
+ai_types:
+- large-language-models
+- agentic-ai
+realms:
+- ocean
+status: active
+website: https://skylight.global/meet-shippy
+summary: Skylight's AI agent for maritime analysts, which answers plain-language questions about vessels and ocean activity from live vessel-tracking and satellite data and cites its sources. Skylight is Ai2's ocean-monitoring service; Shippy is in early release to vetted users.
+facts:
+- claim: Launched by Skylight in June 2026, according to GeekWire, as an agent that answers maritime analysts' plain-language questions.
+  url: https://www.geekwire.com/2026/ai2s-skylight-project-launches-shippy-an-ai-agent-that-dives-into-ocean-data/
+  fetched: 2026-10-30
+  quote: launched an AI agent that gives maritime analysts answers to plain-language questions about what’s happening across the world’s oceans, from illegal fishing to vessels that have gone dark.
+- claim: In use now by a limited group of agencies and partners, including UNODC and the Joint Analytical Cell, for stress testing and validating results.
+  url: https://skylight.global/news/shippy-launch
+  fetched: 2026-10-30
+  quote: Right now, Shippy is available to a small group of trusted agencies, as well as partners such as the United Nations Office on Drugs and Crime (UNODC) and the Joint Analytical Cell.
+- claim: Skylight says it is available today to early adopters, with broader access later in 2026, and free to governments, regional fisheries bodies and qualifying NGOs.
+  url: https://skylight.global/meet-shippy
+  fetched: 2026-10-30
+  quote: Shippy will be free to governments, regional fisheries bodies, and qualifying NGOs. Available today to early adopters; broader access opens later in 2026.
+- claim: Access is limited to accounts vetted by Ai2 and Skylight; it is not a public tool.
+  url: https://skylight.helpjuice.com/en_US/what-is-shippy
+  fetched: 2026-10-30
+  quote: Shippy is not a public tool and is only accessible to users and organizations that have been vetted by Ai2 / Skylight and granted authorized accounts.
+- claim: Runs on Anthropic's Claude Opus 4.6, inside the open-source OpenClaw agent framework, according to Ai2 in July 2026.
+  url: https://allenai.org/blog/shippy-deep-dive
+  fetched: 2026-10-30
+  quote: which LLM to use (currently, Shippy relies on Claude Opus 4.6)
+  ai_type: large-language-models
+- claim: Works as an agent that turns questions into structured queries against Skylight's APIs and plans before pulling data on complex queries.
+  url: https://skylight.helpjuice.com/en_US/what-is-shippy
+  fetched: 2026-10-30
+  quote: Shippy translates these questions into structured queries against
+  ai_type: agentic-ai
+- claim: Ai2 calls it a maritime AI agent and says the lessons are being carried into its other environmental platforms.
+  url: https://allenai.org/blog/shippy-deep-dive
+  fetched: 2026-10-30
+  quote: Shippy is a maritime AI agent built for high-stakes decisions, where the wrong answer has real impacts.
+  ai_type: agentic-ai
+- claim: Tested regularly against published criteria, with scenarios scored by a language model judge against criteria set by subject experts.
+  url: https://skylight.helpjuice.com/en_US/what-is-shippy
+  fetched: 2026-10-30
+  quote: Each scenario is scored by an LLM judge against criteria defined by subject matter experts
+links:
+- type: run-by
+  to: skylight
+  url: https://skylight.global/meet-shippy
+  fetched: 2026-10-30
+  quote: Skylight’s new AI agent purpose-built for maritime domain awareness.
+- type: builds-on
+  to: skylight
+  url: https://skylight.global/news/shippy-launch
+  fetched: 2026-10-30
+  quote: Shippy is built directly to work with Skylight’s live data, including vessel tracks and satellite detections.
+- type: builds-on
+  to: global-fishing-watch
+  url: https://skylight.global/news/shippy-launch
+  fetched: 2026-10-30
+  quote: such as Global Fishing Watch and Trygg Mat Tracking’s vessel data
+- type: builds-on
+  to: trygg-mat-tracking
+  url: https://skylight.global/news/shippy-launch
+  fetched: 2026-10-30
+  quote: such as Global Fishing Watch and Trygg Mat Tracking’s vessel data
+- type: builds-on
+  to: skytruth
+  url: https://skylight.global/news/shippy-launch
+  fetched: 2026-10-30
+  quote: SkyTruth’s oil pollution data
+- type: builds-on
+  to: protectedseas-navigator
+  url: https://skylight.global/news/shippy-launch
+  fetched: 2026-10-30
+  quote: marine regulations from ProtectedSeas’ Navigator
+found_by:
+- rule:targeted-llm
+added_by: agent
+checked: 2026-10-30

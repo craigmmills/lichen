@@ -1,0 +1,44 @@
+id: stc-bocas-del-toro-sea-turtle-monitoring
+kind: project
+name: Sea Turtle Conservancy Bocas del Toro project
+also_known_as: []
+scope: pa
+ai_label: conservation-tech
+realms:
+- ocean
+status: active
+summary: Sea Turtle Conservancy project, run and built by the organisation, monitoring
+  hawksbill and leatherback nesting in Bocas del Toro and the Comarca Ngäbe-Buglé
+  since 2003, with community members.
+facts:
+- claim: STC began working in Bocas del Toro and the Comarca Ngäbe-Buglé in 2003;
+    the project is intensive monitoring of hawksbill and leatherback nesting, protection
+    of females and nests, and public education.
+  url: https://conserveturtles.org/project/bocas-del-toro/
+  fetched: 2026-11-12
+  quote: The project consists of intensive monitoring of hawksbill and leatherback
+    sea turtle nesting activity, protection of nesting females and their nests, and
+    public education in the region.
+- claim: STC has standardised monitoring, research and protection with members of
+    communities near the nesting beaches.
+  url: https://conserveturtles.org/project/bocas-del-toro/
+  fetched: 2026-11-12
+  quote: Within this region STC has standardized monitoring, research and protection
+    efforts in collaboration with members of communities close to the nesting beaches.
+links:
+- type: run-by
+  to: sea-turtle-conservancy
+  url: https://conserveturtles.org/project/bocas-del-toro/
+  fetched: &id001 2026-11-12
+  quote: STC is now directly protecting nests by relocating eggs to a hatchery where
+    they are monitored 24 hours a day.
+- type: built-by
+  to: sea-turtle-conservancy
+  url: https://conserveturtles.org/project/bocas-del-toro/
+  fetched: *id001
+  quote: Since STC established sea turtle monitoring programs in the Bocas del Toro
+    region, nesting numbers have steadily increased
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-12

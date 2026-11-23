@@ -1,0 +1,50 @@
+id: iran-land-cover-map-v1
+kind: dataset
+name: Iran Land Cover Map v1 13-class (2017)
+scope: ir
+ai_label: ai
+ai_types:
+- ml-supervised
+realms:
+- land
+- freshwater
+techniques:
+- remote-sensing
+countries:
+- ir
+status: active
+runner: unknown
+summary: 13-class land cover map of Iran for 2017 at 10-metre pixel size, made from Sentinel imagery in
+  Google Earth Engine with an object-based random forest method, by the KNTU lidar lab.
+facts:
+- claim: A 13-class land cover map of Iran for 2017, made from Sentinel imagery in Google Earth Engine.
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: The Iran Land Cover Map v1 dataset provides a 13-class land cover map of Iran for the year 2017,
+    generated using Sentinel imagery processed within Google Earth Engine.
+- claim: Classified with an object-based random forest method trained on reference samples.
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: The classification was performed using an object-based Random Forest method trained with a large
+    number of reference samples.
+  ai_type: ml-supervised
+- claim: Has a 10-metre pixel size and a CC BY 4.0 licence.
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+links:
+- type: built-by
+  to: kntu-lidar-lab
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: This dataset, developed by K.N. Toosi University of Technology LiDAR Lab, utilized over 2,500
+    Sentinel-1 and 11,000 Sentinel-2 images.
+- type: uses
+  to: google-earth-engine
+  url: https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1
+  fetched: 2026-11-03
+  quote: generated using Sentinel imagery processed within Google Earth Engine
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

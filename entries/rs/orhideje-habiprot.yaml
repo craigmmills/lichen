@@ -1,0 +1,34 @@
+id: orhideje-habiprot
+kind: dataset
+name: Orhideje
+scope: rs
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- rs
+status: active
+website: https://orhideje.habiprot.org.rs
+summary: Database of orchid observations in Serbia, run by HabiProt, which publishes the records to GBIF
+  and says results can be seen on the Orhideje website.
+facts:
+- claim: HabiProt publishes orchid observations from its Orhideje database in Serbia to GBIF, and says
+    results can be seen on the Orhideje website.
+  url: https://api.gbif.org/v1/organization/786d0d05-2e99-491a-81b7-54eaaf954b08/publishedDataset
+  fetched: 2026-11-08
+  quote: HabiProt is Serbian NGO making effort to collect data on orchids of Serbia. Results so far can
+    be seen at Orhideje web-site
+- claim: The GBIF dataset is titled Orchid observations derived from HabiProt Orhideje database in Serbia.
+  url: https://api.gbif.org/v1/organization/786d0d05-2e99-491a-81b7-54eaaf954b08/publishedDataset
+  fetched: 2026-11-08
+  quote: Orchid observations derived from HabiProt Orhideje database in Serbia
+links:
+- type: run-by
+  to: habiprot
+  url: https://api.gbif.org/v1/organization/786d0d05-2e99-491a-81b7-54eaaf954b08/publishedDataset
+  fetched: 2026-11-08
+  quote: Orchid observations derived from HabiProt Orhideje database in Serbia
+found_by:
+- link-from:habiprot
+added_by: agent
+checked: 2026-11-08

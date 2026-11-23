@@ -1,0 +1,139 @@
+id: smartforest
+kind: project
+name: SmartForest
+scope: 'no'
+summary: An eight-year forest research project, 2020 to 2028, with a NOK 234 million budget
+  per NIBIO, working on AI models for segmenting and classifying laser data.
+facts:
+- claim: NIBIO reported a budget of NOK 234 million in June 2020.
+  url: https://nibio.no/en/news/increased-digitization-with-smartforest
+  fetched: '2026-11-02'
+  quote: The SmartForest project has a budget of NOK 234 million.
+- claim: An eight-year research project that began in 2020.
+  url: https://kommunikasjon.ntb.no/pressemelding/18314030/kunstig-intelligens-testet-i-skogforvaltningen?publisherId=17848410
+  fetched: '2026-11-02'
+  quote: et åtteårig forskningsprosjekt som startet i 2020
+- claim: Works on AI models for segmenting and classifying laser data.
+  url: https://www.finn.no/432329038
+  fetched: '2026-11-02'
+  quote: utvikling og implementering av KI-modeller og metoder som forbedret segmentering
+    og klassifisering av laser data
+- claim: Part of the Research Council of Norway's Centres for Research-based Innovation scheme,
+    with a project period from 2020 to 2028.
+  url: https://smartforest.no/about-us/
+  fetched: '2026-11-02'
+  quote: with a project period from 2020 – 2028
+- claim: Its main aim is to improve the efficiency of the Norwegian forest sector through
+    digital change.
+  url: https://smartforest.no/
+  fetched: '2026-11-02'
+  quote: The primary objective of SmartForest is to improve the efficiency of the Norwegian
+    forest sector by enabling a digital revolution
+- claim: Total budget 234 million Norwegian kroner, per NIBIO's project page.
+  url: https://www.nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: '2026-11-02'
+  quote: Total budget 234 Mio. NOK
+- claim: In December 2022, NIBIO reported plans for researchers to develop ForestSens, a cloud
+    system using AI to analyse sensor data from forests.
+  url: https://www.nibio.no/nyheter/kunstig-intelligens-i-skyen-skal-hjelpe-skogsektoren-med-gode-beslutninger
+  fetched: '2026-11-02'
+  quote: Nå skal skogforskere utvikle skyløsningen ForestSens som gjør det mulig å bruke kunstig
+    intelligens til å analysere ulike data samlet i skogen.
+- claim: A work package consolidates AI development, including point-cloud and image models
+    and LLM-orchestrated decision-support layers.
+  url: https://nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: &id001 2026-11-02
+  quote: 'WP 5 consolidates AI development across modalities to support forest operations:
+    advanced point-cloud and image models, real-time lidar processing for robotic applications,
+    and LLM-orchestrated decision-support layers integrating model outputs and user inputs.'
+  ai_type: large-language-models
+- claim: A 2022 trade article says annotated point clouds are used to train deep learning
+    models aimed at segmenting trees.
+  url: https://www.geoweeknews.com/articles/norway-s-answer-to-the-smart-city-is-a-smart-forest/
+  fetched: *id001
+  quote: A part of the point clouds have been annotated and are used to train deep learning
+    models.
+  ai_type: deep-learning
+- claim: Status active, 1 October 2020 to 30 September 2028.
+  url: https://nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: *id001
+  quote: Status Active Start - end date 01.10.2020 - 30.09.2028
+links:
+- type: built-by
+  to: norwegian-institute-of-bioeconomy-research
+  url: https://nibio.no/en/news/increased-digitization-with-smartforest
+  fetched: '2026-11-02'
+  quote: NIBIO, the Norwegian University of Life Sciences (NMBU) and the University of Oslo,
+    three foreign partners and 16 companies from the Norwegian forestry sector have established
+    the SmartForest knowledge center
+- type: built-by
+  to: norwegian-university-of-life-sciences
+  url: https://nibio.no/en/news/increased-digitization-with-smartforest
+  fetched: '2026-11-02'
+  quote: NIBIO, the Norwegian University of Life Sciences (NMBU) and the University of Oslo,
+    three foreign partners and 16 companies from the Norwegian forestry sector have established
+    the SmartForest knowledge center
+- type: built-by
+  to: university-of-oslo
+  url: https://nibio.no/en/news/increased-digitization-with-smartforest
+  fetched: '2026-11-02'
+  quote: NIBIO, the Norwegian University of Life Sciences (NMBU) and the University of Oslo,
+    three foreign partners and 16 companies from the Norwegian forestry sector have established
+    the SmartForest knowledge center
+- type: partners-with
+  to: norwegian-university-of-life-sciences
+  url: https://www.nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: '2026-11-02'
+  quote: 'Norwegian research partners: Norwegian University of Life Science s (NMBU)'
+- type: partners-with
+  to: university-of-oslo
+  url: https://www.nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: '2026-11-02'
+  quote: University of Oslo (UiO).
+- type: funded-by
+  to: research-council-of-norway
+  url: https://www.nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: '2026-11-02'
+  quote: Funding source The Research Council of Norway
+- type: partners-with
+  to: field-geospatial
+  url: https://www.nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: '2026-11-02'
+  quote: Field Ge ospacial
+- type: funded-by
+  to: research-council-of-norway
+  url: https://nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: *id001
+  quote: Funding source The Research Council of Norway
+- type: partners-with
+  to: norwegian-university-of-life-sciences
+  url: https://nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: *id001
+  quote: 'Norwegian research partners: Norwegian University of Life Science s (NMBU) University
+    of Oslo (UiO).'
+- type: partners-with
+  to: university-of-oslo
+  url: https://nibio.no/en/projects/sfi-smartforest-bringing-industry-4.0-to-the-norwegian-forest-sector
+  fetched: *id001
+  quote: 'Norwegian research partners: Norwegian University of Life Science s (NMBU) University
+    of Oslo (UiO).'
+found_by:
+- checklist:7
+- link-from:norwegian-institute-of-bioeconomy-research
+added_by: agent
+checked: '2026-11-02'
+ai_label: ai
+status: active
+realms:
+- land
+techniques:
+- remote-sensing
+- computer-vision
+website: https://www.smartforest.no
+countries:
+- 'no'
+also_known_as:
+- SFI SmartForest
+ai_types:
+- large-language-models
+- deep-learning

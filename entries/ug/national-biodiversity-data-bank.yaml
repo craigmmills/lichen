@@ -1,0 +1,61 @@
+id: national-biodiversity-data-bank
+kind: organisation
+name: National Biodiversity Data Bank
+also_known_as:
+- NBDB
+scope: ug
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+hq: ug
+countries:
+- ug
+scale: national
+status: unknown
+summary: Central repository for Uganda's biodiversity data, set up at Makerere University
+  in 1990, which publishes a GBIF observation dataset; its listed web address showed only
+  a default server page on 8 November 2026.
+facts:
+- claim: Established in 1990 at Makerere University as a central repository for Uganda's biodiversity
+    data and information.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914
+  fetched: 2026-11-08
+  quote: The National Biodiversity Data Bank (NBDB)  was established in 1990 at Makerere University
+    with the aim of having a central repository for biodiversity data and information for
+    Uganda.
+- claim: Its data are analysed to produce State of Uganda's Biodiversity reports.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914
+  fetched: 2026-11-08
+  quote: These data are analysed to produce regular State of Uganda's Biodiversity reports
+    and other biodiversity reports and publications.
+- claim: Publishes a GBIF observation dataset titled “National Biodiversity Data Bank. Observation
+    records, 1900-2014”, clipped to the Albertine Rift boundaries.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914/publishedDataset?limit=20
+  fetched: 2026-11-08
+  quote: National Biodiversity Data Bank. Observation records, 1900-2014
+- claim: On 8 November 2026 the address its GBIF record gives (nbdb.mak.ac.ug) showed only
+    a default web server page.
+  url: http://www.nbdb.mak.ac.ug
+  fetched: 2026-11-08
+  quote: Apache2 Ubuntu Default Page
+- claim: GBIF's publisher record says it was set up at Makerere University in 1990 as a central
+    repository for Uganda's biodiversity data.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914
+  fetched: 2026-11-08
+  quote: was established in 1990 at Makerere University with the aim of having a central repository
+    for biodiversity data and information for Uganda
+- claim: The record gives an address at Makerere University in Kampala.
+  url: https://api.gbif.org/v1/organization/02d721e2-ea27-42a9-a189-6b441d78a914
+  fetched: 2026-11-08
+  quote: National Biodiversity Data Bank, Makerere University, PO Box 7298, Kampala
+links: []
+found_by:
+- link-from:gbif
+- checklist:2
+- register:ug
+added_by: agent
+checked: 2026-11-08

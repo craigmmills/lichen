@@ -1,0 +1,43 @@
+id: herbier-de-l-universite-de-lome
+kind: organisation
+name: Herbier de l'Université de Lomé
+also_known_as: []
+scope: tg
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+hq: unknown
+countries:
+- tg
+scale: national
+status: active
+summary: University of Lomé herbarium that acts as the national herbarium, refitted in 2008 with a temperature-controlled
+  room and a computerised database storing information on all species sampled.
+facts:
+- claim: Its GBIF record says it was refitted in 2008 with a temperature-controlled room and a computerised
+    database.
+  url: https://api.gbif.org/v1/organization/10d9c846-9b2d-4177-afdc-191c3e957c08
+  fetched: 2026-11-08
+  quote: l’herbier de l’Université de Lomé a été réaménagé en 2008 et est composé d’une salle conditionnée
+    en température et d’une data base informatisée.
+- claim: Its GBIF record says the database stores information on all the species sampled.
+  url: https://api.gbif.org/v1/organization/10d9c846-9b2d-4177-afdc-191c3e957c08
+  fetched: 2026-11-08
+  quote: dans la data base les informations sur toutes les espèces échantillonnées y sont stockées.
+- claim: A Université de Lomé dataset on GBIF says the herbarium acts as the national herbarium.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: the herbarium of the University of Lome, hosted in the Department of Botany of the Faculty of
+    Sciences, acts as national herbarium.
+- claim: A Université de Lomé dataset on GBIF names the Togo herbarium database RIHA.
+  url: https://api.gbif.org/v1/organization/d2583793-e5c1-41ae-83bd-86300d34e2cb/publishedDataset?limit=50
+  fetched: 2026-11-08
+  quote: The list of Asteraceae is an extraction of Togo herbarium database named RIHA.
+links: []
+found_by:
+- checklist:register
+added_by: agent
+checked: 2026-11-08

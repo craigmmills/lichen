@@ -1,0 +1,35 @@
+id: avifauna-do-parque-nacional-da-quicama
+kind: dataset
+name: Avifauna do Parque Nacional da Quiçama
+also_known_as: []
+scope: ao
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ao
+status: active
+runner: unknown
+summary: Bird dataset of 66 species from Quiçama National Park, drawn from data gathered
+  during a mammal survey by INBAC and the RWCP Angolan team between June and September
+  2017, with INBAC listed by GBIF as publisher.
+facts:
+- claim: The dataset comes from data gathered during a mammal survey by INBAC and
+    the RWCP Angolan team between June and September 2017.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AO&limit=50
+  fetched: 2026-11-15
+  quote: The present dataset is a result of collateral data gathered during a mammal
+    survey conducted by INBAC and RWCP Angolan team between June and September 2017.
+- claim: The dataset holds 66 bird species.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AO&limit=50
+  fetched: 2026-11-15
+  quote: Currently the dataset is composed by 66 species
+- claim: GBIF lists INBAC as the publishing organisation.
+  url: https://api.gbif.org/v1/dataset/search?publishingCountry=AO&limit=50
+  fetched: 2026-11-15
+  quote: '"publishingOrganizationTitle":"INBAC","publicationDate":"2018-10-15T12:00:00.000+00:00"'
+links: []
+found_by:
+- rule:round-3
+added_by: agent
+checked: 2026-11-15

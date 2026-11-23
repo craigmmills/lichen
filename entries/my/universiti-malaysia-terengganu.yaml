@@ -1,0 +1,46 @@
+id: universiti-malaysia-terengganu
+kind: organisation
+name: Universiti Malaysia Terengganu
+also_known_as:
+- UMT
+scope: my
+sector: academic
+roles:
+- supplies-data
+ai_label: ai
+realms:
+- ocean
+- land
+techniques:
+- computer-vision
+hq: unknown
+countries:
+- my
+scale: national
+status: active
+summary: Malaysian university whose authors have 29 OpenAlex-listed works on AI in ecology
+  subfields since 2018, including a 2023 review of deep learning for coral reef classification;
+  its Faculty of Science and Marine Environment is a GBIF publisher.
+facts:
+- claim: OpenAlex lists a 2023 review by its authors of deep learning for coral reef classification.
+  url: https://api.openalex.org/works/W4360783322
+  fetched: 2026-11-03
+  quote: A review of coral reef classification study using deep learning approach
+- claim: OpenAlex counts 29 works with its authors on AI in ecology subfields since 2018.
+  url: https://api.openalex.org/works?filter=authorships.institutions.country_code:my,primary_topic.subfield.id:2303|1105|2309|1107|1104,concepts.id:C154945302|C119857082|C108583219,from_publication_date:2018-01-01&group_by=authorships.institutions.lineage
+  fetched: 2026-11-03
+  quote: Universiti Malaysia Terengganu
+- claim: OpenAlex lists a 2023 review by UMT authors of coral reef classification with deep
+    learning.
+  url: https://api.openalex.org/works?filter=institutions.country_code:my,title_and_abstract.search:coral%20reef%20deep%20learning,from_publication_date:2020-01-01&per_page=10&select=title,doi,publication_year,authorships,cited_by_count
+  fetched: 2026-11-03
+  quote: A review of coral reef classification study using deep learning approach
+- claim: Its Faculty of Science and Marine Environment is registered as a GBIF publisher.
+  url: https://api.gbif.org/v1/organization?country=MY&limit=100
+  fetched: 2026-11-03
+  quote: Faculty of Science and Marine Environment, Universiti Malaysia Terengganu
+links: []
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-03

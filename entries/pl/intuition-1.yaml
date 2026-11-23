@@ -1,0 +1,35 @@
+id: intuition-1
+kind: project
+name: Intuition-1
+scope: pl
+ai_label: ai
+status: active
+summary: A satellite mission built by KP Labs, aiming to show AI on-board data processing and enable environmental
+  monitoring, and testing on-board deep-learning processing.
+realms:
+- land
+techniques:
+- remote-sensing
+ai_types:
+- deep-learning
+facts:
+- claim: The mission aims to show AI on-board data processing and enable environmental monitoring.
+  url: https://www.kplabs.space/projects-and-missions/intuition-1
+  fetched: '2026-11-02'
+  quote: The mission aims to demonstrate AI-based on-board data processing to reduce the amount of raw
+    data transmitted to Earth and enable environmental monitoring.
+- claim: It tests on-board deep-learning processing.
+  url: https://www.kplabs.space/projects-and-missions/intuition-1
+  fetched: '2026-11-02'
+  quote: medium-resolution hyperspectral imaging with onboard deep-learning-based processing
+  ai_type: deep-learning
+links:
+- type: built-by
+  to: kp-labs
+  url: https://www.kplabs.space/projects-and-missions/intuition-1
+  fetched: '2026-11-02'
+  quote: Intuition-1 is a 6U hyperspectral satellite developed by KP Labs
+found_by:
+- checklist:5
+added_by: agent
+checked: '2026-11-02'

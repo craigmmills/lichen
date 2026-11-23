@@ -1,0 +1,60 @@
+id: universidad-nacional-de-colombia
+kind: organisation
+name: Universidad Nacional de Colombia
+also_known_as:
+- UNAL
+sector: academic
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+summary: Colombian university. It worked with the environment ministry on the first natural
+  vegetation map of Colombia and is a member of the MapBiomas Colombia network.
+facts:
+- claim: Delivered the first natural vegetation map with the ministry and research institutes.
+  url: https://www.minambiente.gov.co/colombia-ya-cuenta-con-su-primer-mapa-de-vegetacion-natural/
+  quote: una novedosa herramienta de información que el Ministerio de Ambiente y Desarrollo
+    Sostenible, la Universidad Nacional y los Institutos de Investigación le entregan al país
+  fetched: '2026-10-31'
+- claim: Gaia Amazonas lists it in the MapBiomas Colombia network.
+  url: https://gaiaamazonas.org/noticias-y-comunicados/nueva-coleccion-3-0-mapbiomas-colombia/
+  fetched: '2026-10-31'
+  quote: integrada por la Universidad Nacional, la Universidad del Rosario, la Universidad
+    Javeriana
+- claim: GeCoVIDA says it is creating a permanent research and training centre there.
+  url: https://ciencias.bogota.unal.edu.co/gecovida/
+  fetched: '2026-10-31'
+  quote: la creación de un centro permanente de investigación y formación en la Universidad
+    Nacional de Colombia (UNAL)
+links:
+- type: partners-with
+  to: mapa-de-vegetacion-natural-de-colombia
+  url: https://www.minambiente.gov.co/colombia-ya-cuenta-con-su-primer-mapa-de-vegetacion-natural/
+  quote: una novedosa herramienta de información que el Ministerio de Ambiente y Desarrollo
+    Sostenible, la Universidad Nacional y los Institutos de Investigación le entregan al país
+  fetched: '2026-10-31'
+- type: partners-with
+  to: mapbiomas-colombia
+  url: https://gaiaamazonas.org/noticias-y-comunicados/nueva-coleccion-3-0-mapbiomas-colombia/
+  fetched: '2026-10-31'
+  quote: integrada por la Universidad Nacional, la Universidad del Rosario, la Universidad
+    Javeriana
+- type: partners-with
+  to: sib-colombia
+  url: https://biodiversidad.co/acercade/gobernanza/comite-directivo
+  fetched: '2026-10-31'
+  quote: Universidad Nacional de Colombia - Gonzalo Andrade, Director ICN
+found_by:
+- checklist:3
+- link-from:mapbiomas-colombia
+scope: co
+added_by: agent
+checked: '2026-10-31'
+status: active
+countries:
+- co

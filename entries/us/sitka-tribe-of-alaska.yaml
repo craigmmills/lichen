@@ -1,0 +1,53 @@
+id: sitka-tribe-of-alaska
+kind: organisation
+name: Sitka Tribe of Alaska
+scope: us
+sector: community
+roles:
+- uses-ai
+ai_label: ai
+realms:
+- freshwater
+techniques:
+- computer-vision
+hq: us
+scale: local
+countries:
+- us
+status: active
+summary: Alaska Tribe that Wild Salmon Center says is using Salmon Vision technology to sustain
+  fisheries on Redoubt Lake.
+facts:
+- claim: Wild Salmon Center says it uses Salmon Vision.
+  url: https://wildsalmoncenter.org/
+  fetched: '2026-10-30'
+  quote: The Sitka Tribe of Alaska is using Salmon Vision technology to sustain key fisheries
+    on Redoubt Lake.
+- claim: The EPA newsletter says the Tribe will install AI-enabled video chutes with Wild
+    Salmon Center and the US Forest Service.
+  url: https://www.epa.gov/system/files/documents/2025-01/fish-program-news-jan-2025.pdf
+  quote: The Sitka Tribe of Alaska will partner with Wild Salmon Center and the US Forest
+    Service to install artificial
+  fetched: '2026-10-30'
+- claim: The National Indian Law Library gives its website and address in Sitka, Alaska.
+  url: https://narf.org/nill/tribes/sitka.html
+  fetched: '2026-10-31'
+  quote: 456 Katlian Street Sitka, AK 99835-7505
+links:
+- type: uses
+  to: salmon-vision
+  url: https://wildsalmoncenter.org/
+  fetched: '2026-10-30'
+  quote: The Sitka Tribe of Alaska is using Salmon Vision technology
+- type: partners-with
+  to: wild-salmon-center
+  url: https://www.epa.gov/system/files/documents/2025-01/fish-program-news-jan-2025.pdf
+  quote: The Sitka Tribe of Alaska will partner with Wild Salmon Center and the US Forest
+    Service to install artificial
+  fetched: '2026-10-30'
+found_by:
+- link-from:wild-salmon-center
+- checklist:4
+added_by: agent
+checked: '2026-10-30'
+website: https://www.sitkatribe.org

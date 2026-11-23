@@ -1,0 +1,44 @@
+id: universidad-catolica-del-uruguay-department-of-engineering
+kind: organisation
+name: Department of Engineering, Universidad Católica del Uruguay
+also_known_as: []
+scope: uy
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- freshwater
+techniques:
+- remote-sensing
+hq: unknown
+countries: []
+scale: national
+status: active
+summary: Active engineering department in Montevideo, listed as the affiliation of
+  the first author of two IEEE LASCAS papers, from 2022 on UAVs versus satellites
+  for water quality and from 2024 on Sentinel 3 and machine learning for cyanobacteria.
+facts:
+- claim: The first author of the 2024 IEEE LASCAS paper Sentinel 3 OLCI and Machine
+    Learning for Cyanobacteria Bloom Detection Over Small Inland Water Target lists
+    the Department of Engineering, Universidad Católica del Uruguay, as his affiliation.
+  url: https://api.openalex.org/works/W4395679201?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Sentinel 3 OLCI and Machine Learning for Cyanobacteria Bloom Detection Over
+    Small Inland Water Target
+- claim: The affiliation given for the paper's first author is the Department of Engineering
+    in Montevideo.
+  url: https://api.openalex.org/works/W4395679201?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: Department of Engineering,Montevideo,Uruguay
+- claim: 'The first author of the 2022 IEEE LASCAS paper UAVs vs Satellites: Comparison
+    of tools for water quality monitoring lists the Department of Engineering, Universidad
+    Católica del Uruguay, as his affiliation.'
+  url: https://api.openalex.org/works/W4282600767?select=id,display_name,publication_year,authorships,primary_location
+  fetched: 2026-11-13
+  quote: 'UAVs vs Satellites: Comparison of tools for water quality monitoring'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-13

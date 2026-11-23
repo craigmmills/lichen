@@ -1,0 +1,37 @@
+id: deepdive
+kind: model
+name: DeepDive
+scope: ch
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+- ocean
+status: unknown
+runner: unknown
+summary: An open source model, free to use, that learns from synthetic fossil record datasets to estimate
+  global biodiversity patterns through time, with a 2024 paper listed by OpenAlex.
+facts:
+- claim: OpenAlex lists a 2024 paper on estimating global biodiversity patterns through time with deep
+    learning.
+  url: https://api.openalex.org/works?per-page=8&select=display_name,publication_year,authorships,doi&sort=cited_by_count:desc&filter=from_publication_date:2022-01-01,institutions.id:I154338468,title_and_abstract.search:biodiversity%20deep%20learning
+  quote: 'DeepDive: estimating global biodiversity patterns through time using deep learning'
+  ai_type: deep-learning
+  fetched: '2026-11-02'
+- claim: Generates synthetic datasets imitating the fossil record, from which an AI model learns.
+  url: https://www.unifr.ch/news/en/31060/artificial-intelligence-fills-in-gaps-in-the-fossil-record/
+  fetched: '2026-11-02'
+  quote: This new program generates hundreds of thousands of synthetic datasets imitating the fossil record.
+    From these an AI model learns
+- claim: Open source and free to use.
+  url: https://www.unifr.ch/news/en/31060/artificial-intelligence-fills-in-gaps-in-the-fossil-record/
+  fetched: '2026-11-02'
+  quote: The DeepDive program is open source and free to use
+found_by:
+- checklist:3
+- link-from:university-of-fribourg
+added_by: agent
+checked: '2026-11-02'
+techniques:
+- other

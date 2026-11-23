@@ -1,0 +1,60 @@
+id: national-authority-for-remote-sensing-and-space-sciences
+kind: organisation
+name: National Authority for Remote Sensing and Space Sciences
+also_known_as:
+- NARSS
+- الهيئة القومية للاستشعار من البعد وعلوم الفضاء
+scope: eg
+sector: government
+roles:
+- convenes
+- unknown
+ai_label: ai
+realms:
+- land
+- ocean
+techniques:
+- remote-sensing
+hq: eg
+countries:
+- eg
+scale: national
+status: active
+summary: An Egyptian body that ran NAFCOAST, was selected for GMES and Africa in 2017, and
+  organised a November 2023 course scheduled to cover vegetation monitoring with AI.
+facts:
+- claim: A June 2020 GMES and Africa post listed NARSS as the Egyptian partner of NAfCOAST
+    and said it had provided training on both services to the whole consortium.
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: Fig 1&2 - Examples of the training screens during the training workshops (conducted
+    on line) for both services of NAfCOAST provided by NARSS to the whole consortia
+- claim: The same post lists the partners as NARSS, CERT, CDU and IMROP, from Egypt, Tunisia,
+    Morocco and Mauritania in that order.
+  url: https://gmes4africa.blogspot.com/2020/06/towards-leveraging-eo-services-in-north-africa-with-GMES.html
+  fetched: 2026-11-08
+  quote: NAfCOAST gathered 4 partners (NARSS, CERT, CDU and IMROP) from 4 north African's
+    (Egypt, Tunisia, Morocco and Mauritania)
+- claim: OpenAlex lists the 2018 paper Mapping Mangroves Extents on the Red Sea Coastline
+    in Egypt using Polarimetric SAR and High Resolution Optical Remote Sensing Data.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03qv51n94,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"display_name": "Mapping Mangroves Extents on the Red Sea Coastline in Egypt using
+    Polarimetric SAR and High Resolution Optical Remote Sensing Data", "publication_year":
+    2018, "authorships": [{"author_position": "first"'
+- claim: OpenAlex gives the first author, Ayman Abdel-Hamid, affiliations including the Environmental
+    Studies Department of the National Authority for Remote Sensing and Space Sciences.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:03qv51n94,concepts.id:C119857082|C108583219|C154945302,primary_topic.subfield.id:2303|2309|1105|1104&sort=cited_by_count:desc&per_page=25&select=id,display_name,publication_year,authorships
+  fetched: '2026-11-08'
+  quote: '"raw_author_name": "Ayman Abdel-Hamid", "raw_affiliation_strings": ["Center for
+    Remote Sensing of Land Surfaces (ZFL), University of Bonn, 53113 Bonn, Germany", "Environmental
+    Studies Department, National Authority for Remote Sensing and Space Sciences (NARSS),
+    Cairo 1564, Egypt"]'
+links: []
+found_by:
+- checklist:1
+- link-from:gmes-and-africa
+- register:eg
+- checklist:3
+added_by: agent
+checked: 2026-11-08

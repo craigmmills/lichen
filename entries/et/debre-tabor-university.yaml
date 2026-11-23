@@ -1,0 +1,44 @@
+id: debre-tabor-university
+kind: organisation
+name: Debre Tabor University
+scope: et
+sector: academic
+roles:
+- unknown
+ai_label: ai
+realms:
+- land
+ai_types:
+- deep-learning
+techniques:
+- remote-sensing
+hq: unknown
+scale: national
+status: active
+summary: University listed in OpenAlex as the affiliation of the first author of a 2020 review
+  of deep learning methods for land cover and land use classification in remote sensing.
+facts:
+- claim: OpenAlex lists a 2020 paper on deep learning methods for land cover and land use
+    classification in remote sensing (a review).
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: 'Deep Learning Methods for Land Cover and Land Use Classification in Remote Sensing:
+    A Review'
+- claim: OpenAlex lists Abebaw Alem, first author of that paper, at Debre Tabor University.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: '"display_name": "Abebaw Alem", "orcid": "https://orcid.org/0000-0001-8154-4648",
+    "observed_orcids": ["https://orcid.org/0000-0001-8154-4648"]}, "institutions": [{"id":
+    "https://openalex.org/I4210117424", "display_name": "Debre Tabor University"'
+- claim: The review title names deep learning methods as its subject.
+  url: https://api.openalex.org/works?filter=institutions.country_code:et,concepts.id:C119857082|C108583219|C154945302,concepts.id:C18903297|C62649853|C130217890&per_page=200&select=id,title,publication_year,authorships&page=2
+  fetched: '2026-11-08'
+  quote: 'Deep Learning Methods for Land Cover and Land Use Classification in Remote Sensing:
+    A Review'
+  ai_type: deep-learning
+links: []
+found_by:
+- register:et
+- checklist:3
+added_by: agent
+checked: '2026-11-08'

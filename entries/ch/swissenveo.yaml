@@ -1,0 +1,33 @@
+id: swissenveo
+kind: dataset
+name: SwissEnvEO
+scope: ch
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ch
+status: active
+runner: unknown
+summary: A dataset repository of ready-to-use national products derived from satellite data, building
+  on the Swiss Data Cube.
+facts:
+- claim: A repository of ready-to-use national products derived from satellite data in the Swiss Data
+    Cube.
+  url: https://www.swissdatacube.org/index.php/platform/
+  fetched: '2026-11-02'
+  quote: SwissEnvEO is a digital repository that facilitates the publication and access of Ready to Use
+    information products, at national scale, derived from satellite EO data available from the Swiss Data
+    Cube
+links:
+- type: builds-on
+  to: swiss-data-cube
+  url: https://www.swissdatacube.org/index.php/platform/
+  fetched: '2026-11-02'
+  quote: derived from satellite EO data available from the Swiss Data Cube
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-02'

@@ -1,0 +1,70 @@
+id: defenders-of-wildlife
+kind: organisation
+name: Defenders of Wildlife
+scope: us
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+hq: us
+scale: national
+status: active
+website: https://defenders.org
+summary: US wildlife NGO whose Center for Conservation Innovation uses machine learning and
+  satellite imagery to monitor habitat under the Endangered Species Act.
+facts:
+- claim: Uses machine learning and satellite imagery for Endangered Species Act monitoring.
+  url: https://defenders.org/blog/2019/12/automated-change-detection-solution-esa-monitoring
+  fetched: '2026-10-30'
+  quote: At the Center for Conservation Innovation (CCI) at Defenders, we are using machine
+    learning and satellite imagery to improve monitoring effectiveness and efficiency under
+    the ESA.
+- claim: National headquarters in Washington DC.
+  url: https://defenders.org/contact-us
+  fetched: '2026-10-30'
+  quote: National Headquarters
+- claim: Its Center for Conservation Innovation is developing tools that apply AI to habitat
+    monitoring with satellite data.
+  url: https://defenders.org/newsroom/satellite-images-reveal-untold-habitat-loss
+  quote: Now Evans and CCI are developing new tools that apply advances in artificial intelligence
+    to habitat monitoring with satellite data.
+  fetched: '2026-10-30'
+- claim: Its Center for Conservation Innovation oversees its science, climate and technology
+    programmes.
+  url: https://defenders.org/people/regan-smyth
+  quote: where she leads the Center for Conservation Innovation, overseeing the organization's
+    science, climate, and technology programs.
+  fetched: '2026-10-30'
+- claim: The IRS exempt organisation record, through ProPublica, lists Defenders Of Wildlife
+    at Washington, DC.
+  url: https://projects.propublica.org/nonprofits/api/v2/organizations/530183181.json
+  fetched: '2026-10-31'
+  quote: '"city":"Washington","state":"DC"'
+links:
+- type: runs
+  to: center-for-conservation-innovation
+  url: https://defenders.org/blog/2019/12/automated-change-detection-solution-esa-monitoring
+  fetched: '2026-10-30'
+  quote: At the Center for Conservation Innovation (CCI) at Defenders
+- type: runs
+  to: habitat-patrol
+  url: https://defenders.org/newsroom/satellite-images-reveal-untold-habitat-loss
+  fetched: '2026-10-30'
+  quote: Defenders released the Habitat Patrol app
+- type: runs
+  to: center-for-conservation-innovation
+  url: https://defenders.org/CCI
+  fetched: '2026-10-30'
+  quote: In the Center for Conservation Innovation at Defenders of Wildlife
+found_by:
+- checklist:4
+- link-from:chesapeake-conservancy
+added_by: agent
+checked: '2026-10-30'
+countries:
+- us

@@ -1,0 +1,32 @@
+id: wildlife-crime-kenya-dataset
+kind: dataset
+name: Wildlife Crime Kenya Dataset
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- ke
+status: active
+website: https://data.mendeley.com/datasets/3t6xygny2f/1
+summary: Published dataset of 1,099 wildlife crime court cases from Kenyan magistrate courts,
+  from cases registered in 2018 and 2019.
+facts:
+- claim: DataCite records it as issued on Mendeley Data on 27 February 2025.
+  url: https://api.datacite.org/dois/10.17632/3t6xygny2f.1
+  quote: '"date":"2025-02-27T12:26:09Z","dateType":"Issued"'
+  fetched: '2026-10-31'
+- claim: Holds 1,099 cases from criminal cases registered in 2018 and 2019.
+  url: https://api.datacite.org/dois/10.17632/3t6xygny2f.1
+  quote: extracted 1099 wildlife crime court cases
+  fetched: '2026-10-31'
+links:
+- type: run-by
+  to: eyes-in-the-courtroom
+  url: https://api.datacite.org/dois/10.17632/3t6xygny2f.1
+  quote: This data is from Eyes in the Courtroom Project
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

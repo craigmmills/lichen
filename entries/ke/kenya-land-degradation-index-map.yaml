@@ -1,0 +1,42 @@
+id: kenya-land-degradation-index-map
+kind: dataset
+name: Land Degradation Index Map
+also_known_as:
+- LDIM
+scope: ke
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- ke
+status: active
+runner: unknown
+summary: Land degradation map products handed to Kenya's Directorate of Resource Surveys and
+  Remote Sensing by RCMRD under the GMES and Africa project, used to guide tree planting across
+  the 47 counties.
+facts:
+- claim: Handed to DRSRS by RCMRD.
+  url: https://www.the-star.co.ke/news/realtime/2025-06-19-kenya-adopts-cutting-edge-mapping-tools-to-fight-land-degradation
+  quote: the handing over of Land Degradation Index Map (LDIM) products
+  fetched: '2026-10-31'
+- claim: Guides priority areas for tree planting across the 47 counties.
+  url: https://www.the-star.co.ke/news/realtime/2025-06-19-kenya-adopts-cutting-edge-mapping-tools-to-fight-land-degradation
+  quote: priority areas for tree planting across the 47 counties
+  fetched: '2026-10-31'
+links:
+- type: partners-with
+  to: directorate-of-resource-surveys-and-remote-sensing
+  url: https://www.the-star.co.ke/news/realtime/2025-06-19-kenya-adopts-cutting-edge-mapping-tools-to-fight-land-degradation
+  quote: Directorate of Resource Surveys and Remote Sensing (DRSRS)
+  fetched: '2026-10-31'
+- type: partners-with
+  to: regional-centre-for-mapping-of-resources-for-development
+  url: https://www.the-star.co.ke/news/realtime/2025-06-19-kenya-adopts-cutting-edge-mapping-tools-to-fight-land-degradation
+  quote: Regional Centre for Mapping of Resources for Development (RCMRD)
+  fetched: '2026-10-31'
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-10-31'

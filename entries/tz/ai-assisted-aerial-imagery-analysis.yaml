@@ -1,0 +1,54 @@
+id: ai-assisted-aerial-imagery-analysis
+kind: model
+name: AI-assisted Aerial Imagery Analysis
+also_known_as:
+- AIAIA
+scope: tz
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- remote-sensing
+countries:
+- tz
+status: unknown
+summary: A workflow built by Development Seed and the Tanzania Wildlife Research Institute, which Development
+  Seed says uses an image classifier and three object detection models to count wildlife, livestock and
+  human activity.
+facts:
+- claim: Development Seed says the workflow uses an image classifier to filter aerial images, then three
+    object detection models to locate, classify and count wildlife, livestock and human activity.
+  url: https://developmentseed.org/blog/2021-02-18-ai-mapping-risks-to-wildlife-in-tanzania
+  fetched: 2026-11-08
+  quote: We then pass the remaining images through a set of three object detection models, AIAIA Detectors
+    , which locate, classify and count objects of interest within those images.
+- claim: Development Seed says TAWIRI supplied the annotators, working on a decade of TAWIRI aerial count
+    images.
+  url: https://developmentseed.org/blog/2021-02-18-ai-mapping-risks-to-wildlife-in-tanzania
+  fetched: 2026-11-08
+  quote: The Tanzania Wildlife Research Institute provided annotators (wildlife domain experts) at a small
+    annotation lab in Arusha, northern Tanzania, to process a database of images from RSO survey counts
+    in Tanzania collected by TAWIRI in the past decade.
+links:
+- type: built-by
+  to: development-seed
+  url: https://developmentseed.org/blog/2021-02-18-ai-mapping-risks-to-wildlife-in-tanzania
+  fetched: 2026-11-08
+  quote: To address this Development Seed and the Tanzania Wildlife Research Institute (TAWIRI), developed
+    an AI-assisted methodology
+- type: built-by
+  to: tanzania-wildlife-research-institute
+  url: https://developmentseed.org/blog/2021-02-18-ai-mapping-risks-to-wildlife-in-tanzania
+  fetched: 2026-11-08
+  quote: To address this Development Seed and the Tanzania Wildlife Research Institute (TAWIRI), developed
+    an AI-assisted methodology
+- type: funded-by
+  to: ai-for-earth
+  url: https://developmentseed.org/blog/2021-02-18-ai-mapping-risks-to-wildlife-in-tanzania
+  fetched: 2026-11-08
+  quote: This project was funded by Microsoft AI for Earth and Global Wildlife Conservation .
+found_by:
+- checklist:7
+added_by: agent
+checked: 2026-11-08

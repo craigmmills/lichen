@@ -1,0 +1,50 @@
+id: university-of-cambridge
+kind: organisation
+name: University of Cambridge
+scope: global
+sector: academic
+roles:
+- builds-ai
+ai_label: ai
+ai_types:
+- ml-unsupervised
+- foundation-models
+realms:
+- land
+techniques:
+- remote-sensing
+hq: gb
+scale: global
+status: active
+website: https://www.cam.ac.uk
+summary: Research university in Cambridge, England, where the Tessera Earth observation foundation
+  model was developed.
+facts:
+- claim: Collegiate public research university in Cambridge, England.
+  url: https://en.wikipedia.org/wiki/University_of_Cambridge
+  fetched: '2026-10-30'
+  quote: is a collegiate public research university in Cambridge , England
+- claim: Tessera was developed at the university.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: Developed at the University of Cambridge
+- claim: TESSERA is a foundation model.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: TESSERA is a foundation model that can process time-series satellite imagery
+  ai_type: foundation-models
+- claim: TESSERA uses self-supervised learning.
+  url: https://github.com/ucam-eo/tessera
+  fetched: '2026-10-30'
+  quote: It uses self-supervised learning to summarise petabytes of Earth observation data.
+  ai_type: ml-unsupervised
+- claim: Describes itself as a confederation of Schools, Faculties, Departments and Colleges,
+    with more than 20,000 students.
+  url: https://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work
+  quote: The University of Cambridge is a confederation of Schools, Faculties, Departments
+    and Colleges.
+  fetched: '2026-10-30'
+found_by:
+- global:research
+added_by: agent
+checked: '2026-10-30'

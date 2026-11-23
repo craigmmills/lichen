@@ -1,0 +1,37 @@
+id: camtrap-detector
+kind: programme
+name: CamTrap Detector
+scope: gb
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+status: unknown
+website: https://github.com/bencevans/camtrap-detector
+runner: unknown
+summary: Desktop interface for detecting animals, humans and vehicles in camera trap
+  images, powered by MegaDetector v5, that works offline so images need not be shared
+  with a third party.
+facts:
+- claim: Desktop interface for detecting animals, humans and vehicles in camera trap
+    images, powered by MegaDetector v5.
+  url: https://github.com/bencevans/camtrap-detector
+  fetched: 2026-11-21
+  quote: Detect Animals, Humans and Vehicles with a friendly graphical interface.
+    Powered by MegaDetector v5.
+- claim: Runs without an internet connection, so images need not be shared with a
+    third party.
+  url: https://github.com/bencevans/camtrap-detector
+  fetched: 2026-11-21
+  quote: 'Privacy Preserving : No need to share images with a 3rd party'
+links:
+- type: builds-on
+  to: megadetector
+  url: https://github.com/bencevans/camtrap-detector
+  fetched: 2026-11-21
+  quote: Powered by MegaDetector v5.
+found_by:
+- rule:directories
+added_by: agent
+checked: 2026-11-21

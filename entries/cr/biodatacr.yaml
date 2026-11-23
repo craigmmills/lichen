@@ -1,0 +1,55 @@
+id: biodatacr
+kind: programme
+name: BIODATACR
+also_known_as:
+- BiodataCR
+- Plataforma para la Gestión de Conocimiento e Información Nacional sobre Biodiversidad
+- PGCIB
+scope: cr
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- cr
+status: active
+website: http://biodiversidad.go.cr/
+summary: A system run by the Comisión Nacional para la Gestión de la Biodiversidad to systematise, document
+  and publish Costa Rica's biodiversity information, built on the Atlas of Living Australia API infrastructure
+  and offering geospatial layers.
+facts:
+- claim: Its home page describes it as a system to systematise, document and publish information on Costa
+    Rica's biodiversity.
+  url: http://biodiversidad.go.cr/
+  fetched: '2026-11-08'
+  quote: It is an information system aimed at systematizing, documenting and publishing information about
+    the biodiversity of Costa Rica.
+- claim: An R client's documentation says the platform is built on the Atlas of Living Australia API infrastructure.
+  url: https://cran.r-project.org/web/packages/rbiodatacr/vignettes/introduccion.html
+  fetched: '2026-11-08'
+  quote: 'The platform is built on the Atlas of Living Australia (ALA) API
+
+    infrastructure.'
+- claim: Its home page offers geospatial layers alongside its species data.
+  url: http://biodiversidad.go.cr/
+  fetched: '2026-11-08'
+  quote: Geospatial layers
+links:
+- type: run-by
+  to: comision-nacional-para-la-gestion-de-la-biodiversidad
+  url: https://cran.r-project.org/web/packages/rbiodatacr/vignettes/introduccion.html
+  fetched: '2026-11-08'
+  quote: the national biodiversity information platform of Costa Rica managed by the Technical Office
+    of CONAGEBIO
+- type: builds-on
+  to: atlas-of-living-australia
+  url: https://cran.r-project.org/web/packages/rbiodatacr/vignettes/introduccion.html
+  fetched: '2026-11-08'
+  quote: 'The platform is built on the Atlas of Living Australia (ALA) API
+
+    infrastructure.'
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-11-08'

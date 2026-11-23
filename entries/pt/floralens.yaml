@@ -1,0 +1,34 @@
+id: floralens
+kind: model
+name: Floralens
+scope: pt
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+ai_types:
+- deep-learning
+countries:
+- pt
+status: unknown
+website: https://www.dcc.fc.up.pt/~edrdo/publications/papers/floralens.pdf
+summary: A deep learning model trained on a dataset of Portuguese native flora, presented
+  in a paper, built by António Filgueiras and building on Flora-On.
+facts:
+- claim: The paper presents a dataset of Portuguese native flora and a deep learning model
+    trained on it.
+  url: https://www.dcc.fc.up.pt/~edrdo/publications/papers/floralens.pdf
+  fetched: 2026-11-02
+  quote: and a deep learning model named Floralens trained on this dataset
+  ai_type: deep-learning
+links:
+- type: builds-on
+  to: flora-on
+  url: https://www.dcc.fc.up.pt/~edrdo/publications/papers/floralens.pdf
+  fetched: 2026-11-02
+  quote: by the Sociedade Portuguesa de Botˆ anica [10], available online via a web
+found_by:
+- checklist:3
+added_by: agent
+checked: 2026-11-02

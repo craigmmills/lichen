@@ -1,0 +1,43 @@
+id: nnamdi-azikiwe-university
+kind: organisation
+name: Nnamdi Azikiwe University
+scope: ng
+sector: academic
+roles:
+- unknown
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+countries:
+- ng
+scale: national
+status: active
+summary: University with an author on a 2026 review of explainable machine learning for species
+  delimitation in Senna, whose herbarium records appear in a GBIF dataset published by the
+  Forestry Research Institute of Nigeria.
+facts:
+- claim: OpenAlex lists an author from the university on this paper.
+  url: https://api.openalex.org/works/doi:10.1016/j.ecoinf.2025.103500?select=id,title,authorships
+  fetched: '2026-11-03'
+  quote: Comparing machine learning algorithms for simultaneous prediction of tree diameter
+    distribution percentiles
+- claim: Authors at this university wrote a 2026 review on explainable machine learning for
+    species delimitation in Senna.
+  url: https://api.openalex.org/works/W7204623048?select=id,doi,title,publication_year,authorships,primary_location,abstract_inverted_index
+  fetched: '2026-11-03'
+  quote: Explainable Morphometric Machine Learning for Species Delimitation in Senna (Fabaceae)
+- claim: Records of its herbarium are in a GBIF dataset published by the Forestry Research
+    Institute of Nigeria.
+  url: https://api.gbif.org/v1/organization/3dc9105b-6792-4d2f-8872-c60dded8ae20/publishedDataset?limit=50
+  fetched: '2026-11-03'
+  quote: Plants Of Nnamdi Azikiwe University Herbarium (NAUH) Awka
+found_by:
+- checklist:3
+- register:ng
+added_by: agent
+checked: '2026-11-03'
+also_known_as: []
+techniques:
+- other

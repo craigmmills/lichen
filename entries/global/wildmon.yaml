@@ -1,0 +1,52 @@
+id: wildmon
+kind: organisation
+name: WildMon
+scope: global
+sector: ngo
+roles:
+- builds-ai
+- uses-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- bioacoustics
+- computer-vision
+- edna-genomics
+hq: us
+scale: global
+status: active
+website: https://wildmon.ai
+summary: Non-profit that combines ecoacoustics, camera traps, eDNA and other ecological data,
+  using AI-powered workflows, to report on ecosystem condition. A core partner of Wildlife
+  Insights.
+facts:
+- claim: Says it combines ecoacoustics, camera traps, eDNA and other ecological data.
+  url: https://wildmon.ai
+  quote: We combine multiple monitoring methods including ecoacoustics, camera traps, eDNA,
+    and other ecological data
+  fetched: '2026-10-30'
+- claim: Says it translates this data into conservation insights through AI-powered workflows.
+  url: https://wildmon.ai
+  quote: Through AI-powered workflows, we translate this data into conservation insights.
+  fetched: '2026-10-30'
+- claim: Registered as a US 501(c)(3) non-profit.
+  url: https://wildmon.ai/who-we-are
+  quote: WildMon is a 501(c)(3) non-profit
+  fetched: '2026-10-30'
+- claim: The Nature Tech Collective describes its work on a project in Kalimantan, Indonesia.
+  url: https://naturetechcollective.squarespace.com/stories/wildmon-measuring-conservation-impact-indonesia
+  quote: focusing on a particular project in Kalimantan, Indonesia
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: wildlife-insights
+  url: https://www.wildlifeinsights.org/about
+  quote: WildMon
+  via: webfetch
+  fetched: '2026-10-30'
+found_by:
+- link-from:wildlife-insights
+added_by: agent
+checked: '2026-10-30'

@@ -1,0 +1,40 @@
+id: gobierno-de-canarias
+kind: organisation
+name: Gobierno de Canarias
+scope: es
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- ocean
+hq: unknown
+scale: regional
+status: active
+website: https://www.gobiernodecanarias.org
+summary: Regional government that runs BIOCAN, the Biodiversity Service's information system
+  integrating its biodiversity databases, which include BIOTA, the Canary Islands biodiversity
+  data bank.
+facts:
+- claim: BIOCAN is the information system of the Biodiversity Service and integrates the Canary
+    Islands Government's biodiversity databases.
+  url: https://www.gobiernodecanarias.org/medioambiente/materias/biodiversidad/sistemas-de-informacion-en-biodiversidad/
+  fetched: '2026-11-08'
+  quote: 'BIOCAN: Plataforma que integra e interrelaciona los diferentes bancos de datos del
+    Gobierno de Canarias:'
+- claim: Its public databases include BIOTA, the Canary Islands biodiversity data bank.
+  url: https://www.gobiernodecanarias.org/medioambiente/materias/biodiversidad/sistemas-de-informacion-en-biodiversidad/
+  fetched: '2026-11-08'
+  quote: BIOTA. Banco de Datos de Biodiversidad de Canarias
+links:
+- type: runs
+  to: biocan
+  url: https://www.gobiernodecanarias.org/medioambiente/materias/biodiversidad/sistemas-de-informacion-en-biodiversidad/
+  fetched: '2026-11-08'
+  quote: El Banco del Inventario Natural de Canarias - BIOCAN es el sistema de información
+    del Servicio de Biodiversidad
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: '2026-11-08'

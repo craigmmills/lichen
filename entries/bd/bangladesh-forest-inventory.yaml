@@ -1,0 +1,70 @@
+id: bangladesh-forest-inventory
+kind: project
+name: Bangladesh Forest Inventory
+also_known_as:
+- BFI
+scope: bd
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- bd
+status: closed
+summary: Closed 2016 to 2019 forest inventory run by the Forest Department and built by FAO and SilvaCarbon,
+  which visited 1,781 field plots and surveyed 6,400 households, according to FAO's catalogue.
+facts:
+- claim: FAO's catalogue says the 2016–2019 inventory visited 1,781 field plots and surveyed 6,400 households,
+    using semi-automated land cover mapping and Open Foris tools.
+  url: https://microdata.fao.org/index.php/catalog/2651/study-description
+  fetched: 2026-11-07
+  quote: Biophysical inventory involved visiting of 1781 field plots, and the socioeconomic surveying
+    covered 6400 households.
+- claim: The catalogue says the inventory made its sample plots permanent for continuing monitoring.
+  url: https://microdata.fao.org/index.php/catalog/2651/study-description
+  fetched: 2026-11-07
+  quote: BFI made the sample plots as permanent for the continuous assessment of forest resources and
+    monitoring over time.
+links:
+- type: run-by
+  to: bangladesh-forest-department
+  url: https://microdata.fao.org/index.php/catalog/2651/study-description
+  fetched: 2026-11-07
+  quote: employed by the Forest Department under the Ministry of Environment, Forests and Climate Change
+    to establish the BFI as an accurate and replicable national forest assessment
+- type: built-by
+  to: food-and-agriculture-organization
+  url: https://microdata.fao.org/index.php/catalog/2651/study-description
+  fetched: 2026-11-07
+  quote: 'Producers
+
+    Name
+
+    Food and Agriculture Organization
+
+    Silvacarbon'
+- type: built-by
+  to: silvacarbon
+  url: https://microdata.fao.org/index.php/catalog/2651/study-description
+  fetched: 2026-11-07
+  quote: 'Producers
+
+    Name
+
+    Food and Agriculture Organization
+
+    Silvacarbon'
+- type: funded-by
+  to: united-states-agency-for-international-development
+  url: https://microdata.fao.org/index.php/catalog/2651/study-description
+  fetched: 2026-11-07
+  quote: 'Funding Agency/Sponsor
+
+    Name
+
+    United States Agency for International Development'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-07

@@ -1,0 +1,51 @@
+id: nhm-garden-sensor-network
+kind: project
+name: Natural History Museum garden sensor network
+ai_label: ai
+summary: Network of sensors in the Natural History Museum's gardens that records acoustic
+  and environmental data, using machine learning models to identify sound sources and Amazon
+  tools to query the data.
+facts:
+- claim: Network of sensors across the gardens.
+  url: https://www.computerweekly.com/feature/Natural-History-Museum-deploys-sensor-network-to-decode-urban-biodiversity-with-AWS
+  quote: The Natural History Museum has deployed a network of sensors across its newly revamped
+    gardens
+  fetched: '2026-10-30'
+- claim: Uses machine learning models for sound identification.
+  url: https://www.computerweekly.com/feature/Natural-History-Museum-deploys-sensor-network-to-decode-urban-biodiversity-with-AWS
+  quote: they are making use of machine learning models from Cornell Lab, including bird identification
+    app Merlin
+  fetched: '2026-10-30'
+- claim: Plans a generative AI query layer.
+  url: https://www.computerweekly.com/feature/Natural-History-Museum-deploys-sensor-network-to-decode-urban-biodiversity-with-AWS
+  quote: NHM plans to use the Amazon Q generative artificial intelligence (AI) to query this
+    data
+  ai_type: generative-ai
+  fetched: '2026-10-30'
+links:
+- type: run-by
+  to: natural-history-museum-london
+  url: https://www.computerweekly.com/feature/Natural-History-Museum-deploys-sensor-network-to-decode-urban-biodiversity-with-AWS
+  quote: The Natural History Museum has deployed a network of sensors
+  fetched: '2026-10-30'
+- type: uses
+  to: amazon-web-services
+  url: https://www.computerweekly.com/feature/Natural-History-Museum-deploys-sensor-network-to-decode-urban-biodiversity-with-AWS
+  quote: The data collected by the sensors will be fed into an Amazon Web Services (AWS) product
+    stack known as the Data Ecosystem Platform
+  fetched: '2026-10-30'
+found_by:
+- link-from:urban-nature-project
+ai_types:
+- generative-ai
+realms:
+- land
+- freshwater
+techniques:
+- bioacoustics
+countries:
+- gb
+scope: gb
+added_by: agent
+checked: '2026-10-30'
+status: active

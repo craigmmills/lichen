@@ -1,0 +1,37 @@
+id: bloomberg-ocean-initiative
+kind: programme
+name: Bloomberg Ocean Initiative
+scope: global
+roles: [funds]
+ai_label: ai
+realms:
+- ocean
+techniques:
+- remote-sensing
+scale: global
+status: active
+website: https://www.bloomberg.org/environment/protecting-the-oceans/
+summary: Bloomberg Philanthropies programme, launched in 2014, on marine protected areas and fisheries reform. It uses data collection, satellite monitoring and AI, and supports open platforms that track commercial fishing.
+facts:
+- claim: Uses data collection, satellite monitoring and artificial intelligence for transparency at sea.
+  url: https://www.bloomberg.org/environment/protecting-the-oceans/
+  quote: Through robust data collection and analysis, satellite monitoring, and artificial intelligence, the initiative improves transparency and accountability at sea.
+  fetched: &id001 2026-10-30
+- claim: Supports open platforms that track commercial fishing activity in real time.
+  url: https://www.bloomberg.org/environment/protecting-the-oceans/
+  quote: It also supports open, publicly accessible platforms that track commercial fishing activity in real time.
+  fetched: *id001
+- claim: 'Bloomberg Philanthropies says it has committed more than $635 million to ocean conservation since 2014.'
+  url: https://www.bloomberg.org/environment/protecting-the-oceans/
+  fetched: 2026-10-30
+  quote: 'Since 2014, Bloomberg Philanthropies has committed more than $635 million to ocean conservation'
+links:
+- type: run-by
+  to: bloomberg-philanthropies
+  url: https://www.bloomberg.org/environment/protecting-the-oceans/
+  quote: Launched in 2014, the Bloomberg Ocean Initiative partners with coastal communities
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

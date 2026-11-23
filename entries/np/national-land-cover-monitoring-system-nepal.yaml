@@ -1,0 +1,51 @@
+id: national-land-cover-monitoring-system-nepal
+kind: programme
+name: National Land Cover Monitoring System
+also_known_as:
+- NLCMS
+scope: np
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- np
+status: active
+summary: A programme built by the Forest Research and Training Centre and ICIMOD, with SERVIR as partner,
+  that an FRTC article says gives annual Nepal land cover information for 2000 to 2019 using Landsat and
+  Google Earth Engine.
+facts:
+- claim: An FRTC article says the system gives annual land cover information for Nepal between 2000 and
+    2019.
+  url: https://nepjol.info/index.php/BANKO/article/view/45429/34081
+  fetched: 2026-11-08
+  quote: National Land Cover Monitoring System (NLCMS) that gives accurate annual land cover
+- claim: Landsat images are analysed in Google Earth Engine with a machine learning algorithm.
+  url: https://nepjol.info/index.php/BANKO/article/view/45429/34081
+  fetched: 2026-11-08
+  quote: the machine learning algorithm following various Landsat specific processing methods.
+- claim: Reference data are collected in the field and with Collect Earth Online.
+  url: https://nepjol.info/index.php/BANKO/article/view/45429/34081
+  fetched: 2026-11-08
+  quote: Additional reference data are collected using Collect Earth Online
+links:
+- type: built-by
+  to: forest-research-and-training-centre
+  url: https://nepjol.info/index.php/BANKO/article/view/45429/34081
+  fetched: 2026-11-08
+  quote: In this context, the FRTC, in collaboration with ICIMOD, has recently developed a
+- type: built-by
+  to: international-centre-for-integrated-mountain-development
+  url: https://nepjol.info/index.php/BANKO/article/view/45429/34081
+  fetched: 2026-11-08
+  quote: FRTC in collaboration with ICIMOD and international experts through the SERVIR–HKH
+- type: partners-with
+  to: servir
+  url: https://nepjol.info/index.php/BANKO/article/view/45429/34081
+  fetched: 2026-11-08
+  quote: support of the SERVIR–HKH, FRTC was able to generate national–level land cover
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08

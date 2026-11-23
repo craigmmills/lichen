@@ -1,0 +1,85 @@
+id: naturescot
+kind: organisation
+name: NatureScot
+sector: government
+roles:
+- governs
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+countries:
+- gb
+scale: national
+status: active
+website: https://www.nature.scot
+summary: Scotland's nature agency, working to improve the natural environment in Scotland.
+facts:
+- claim: Describes itself as Scotland's nature agency.
+  url: https://www.nature.scot/about-naturescot
+  quote: We are Scotland’s nature agency.
+  fetched: '2026-10-30'
+- claim: Collaborated with Space Intelligence.
+  url: https://thedatalab.com/collaborate-and-innovate/satellite-technology-and-scotlands-biodiversity-a-collaboration-between-space-intelligence-and-naturescot/
+  quote: 'Satellite Technology and Scotland‘s Biodiversity: a collaboration between Space
+    Intelligence and NatureScot'
+  fetched: '2026-10-30'
+- claim: Describes itself as Scotland's nature agency.
+  url: https://www.nature.scot/about-naturescot
+  quote: We are Scotland’s nature agency
+  fetched: &id001 2026-10-30
+- claim: Developed an operational system for mapping wildfires and muirburn across Scotland,
+    with JNCC support.
+  url: https://www.gov.uk/government/publications/defra-earth-observation-centre-of-excellence-roadmap-2023-to-2028/roadmap-for-the-defra-earth-observation-centre-of-excellence-2023-to-2028-accessible-version
+  quote: have developed an operational system for mapping wildfires and muirburn across the
+    full extent of Scotland
+  fetched: *id001
+- claim: Used deep learning on camera trap images through a Data Lab placement.
+  url: https://www.hie.co.uk/case-studies/case-studies/the-data-lab-naturescot/
+  quote: Deep learning helps NatureScot protect Scotland’s wildlife
+  fetched: 2026-10-30
+  ai_type: deep-learning
+- claim: Handles species licensing in Scotland.
+  url: https://www.nature.scot/
+  fetched: '2026-10-30'
+  quote: NatureScot deal with almost all species licensing in Scotland
+- claim: Publishes the dataset "Loch Lomond NNR - Beaver Field Sign Survey and Sightings Data
+    - 2023-2024" on GBIF.
+  url: https://api.gbif.org/v1/organization/98ba8467-5081-4d15-b168-32d893e18b76/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: Loch Lomond NNR - Beaver Field Sign Survey and Sightings Data - 2023-2024
+- claim: That dataset carries a Creative Commons licence on GBIF.
+  url: https://api.gbif.org/v1/organization/98ba8467-5081-4d15-b168-32d893e18b76/publishedDataset?limit=30
+  fetched: '2026-10-30'
+  quote: http://creativecommons.org/licenses/by/4.0/legalcode
+found_by:
+- checklist:1
+- link-from:space-intelligence
+- register:gbif-publisher
+scope: gb
+added_by: agent
+checked: '2026-10-31'
+techniques:
+- remote-sensing
+- computer-vision
+- species-distribution
+links:
+- type: partners-with
+  to: space-intelligence
+  url: https://thedatalab.com/collaborate-and-innovate/satellite-technology-and-scotlands-biodiversity-a-collaboration-between-space-intelligence-and-naturescot/
+  quote: a collaboration between Space Intelligence and NatureScot
+  fetched: '2026-10-30'
+- type: partners-with
+  to: space-intelligence
+  url: https://www.data.gov.uk/dataset/fb20f816-d3cb-433b-9cd5-0e0b8eea7367/scotland-habitat-and-land-cover-map-2022
+  quote: Habitat and land cover map created using AI to classify satellite data to EUNIS by
+    Space Intelligence in partnership with NatureScot
+  fetched: *id001
+ai_types:
+- deep-learning
+also_known_as:
+- Scottish Natural Heritage

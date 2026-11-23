@@ -1,0 +1,60 @@
+id: international-nucleotide-sequence-database-collaboration
+kind: organisation
+name: International Nucleotide Sequence Database Collaboration
+also_known_as:
+- INSDC
+scope: global
+sector: government
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+techniques:
+- edna-genomics
+hq: global
+scale: global
+status: active
+website: https://www.insdc.org
+summary: Global collaboration of governmental and non-profit bodies that manage nucleotide
+  sequence databases and exchange data openly, including GenBank, the source of reference
+  sequences for eDNA work.
+countries:
+- us
+facts:
+- claim: Global collaboration of bodies that manage nucleotide sequence databases.
+  url: https://www.insdc.org/about-insdc/
+  fetched: '2026-10-30'
+  quote: is a global collaboration of independent governmental or non-profit organisations
+    that manage nucleotide sequence databases
+- claim: Wikipedia says it involves DNA Data Bank of Japan, GenBank in the United States and
+    the European Nucleotide Archive at EMBL-EBI.
+  url: https://en.wikipedia.org/wiki/International_Nucleotide_Sequence_Database_Collaboration
+  quote: It involves the following computerized databases
+  fetched: '2026-10-30'
+links:
+- type: partners-with
+  to: genbank
+  url: https://www.ncbi.nlm.nih.gov/genbank/
+  fetched: '2026-10-30'
+  quote: GenBank is part of the International Nucleotide Sequence Database Collaboration ,
+    which comprises the DNA DataBank of Japan (DDBJ), the European Nucleotide Archive (ENA),
+    and GenBank at NCBI.
+- type: partners-with
+  to: european-bioinformatics-institute
+  url: https://www.insdc.org/about-insdc/
+  quote: The European Molecular Biology Laboratory (EMBL), European Bioinformatics Institute
+    (EBI)
+  fetched: '2026-10-30'
+- type: partners-with
+  to: national-center-for-biotechnology-information
+  url: https://www.insdc.org/about-insdc/
+  fetched: 2026-10-31
+  quote: The National Library of Medicine (NLM), National Center for Biotechnology Information
+    (NCBI) at the National Institutes of Health
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

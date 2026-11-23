@@ -1,0 +1,36 @@
+id: sicna
+kind: dataset
+name: Sistema de Información sobre Comunidades Nativas de la Amazonía Peruana
+also_known_as:
+- SICNA
+scope: pe
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- pe
+status: active
+summary: A database run by the Instituto del Bien Común that, according to its January 2012 page, made
+  65 fields per native community, plus maps, publicly available.
+facts:
+- claim: IBC’s January 2012 page said SICNA made a database of 65 fields per community and maps publicly
+    available.
+  url: https://ibcperu.org/servicios/sicna
+  fetched: 2026-11-03
+  quote: El SICNA pone a disposición del público, a través de esta página web, una base de datos de 65
+    campos para cada comunidad
+- claim: IBC’s January 2012 page described georeferencing known, accessible community landmarks with GPS
+    and processing the information in GIS by IBC specialists.
+  url: https://ibcperu.org/servicios/sicna
+  fetched: 2026-11-03
+  quote: se georeferencia con el uso del GPS los hitos conocidos y accesibles
+links:
+- type: run-by
+  to: instituto-del-bien-comun
+  url: https://ibcperu.org/servicios/sicna
+  fetched: 2026-11-03
+  quote: El IBC tiene una política de amplia difusión de la información del SICNA.
+found_by:
+- link-from:instituto-del-bien-comun
+added_by: agent
+checked: 2026-11-03

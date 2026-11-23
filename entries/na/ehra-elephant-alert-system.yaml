@@ -1,0 +1,39 @@
+id: ehra-elephant-alert-system
+kind: programme
+name: Elephant Alert System
+scope: na
+ai_label: conservation-tech
+realms:
+- land
+countries:
+- na
+status: active
+summary: Programme run by Elephant Human Relations Aid which, EHRA says, uses GPS
+  tracking to give real-time warnings of approaching elephants, helping farmers anticipate
+  their presence.
+facts:
+- claim: EHRA says the Elephant Alert System uses GPS tracking to give real-time warnings
+    when elephants approach.
+  url: https://www.ehranamibia.org/about
+  fetched: 2026-11-12
+  quote: Combined with the Elephant Alert System, which uses GPS tracking to provide
+    real-time warnings when elephants approach, these initiatives reduce fear, prevent
+    conflict
+- claim: Says real-time alerts from the system help farmers anticipate elephant presence.
+  url: https://www.ehranamibia.org/about
+  fetched: 2026-11-12
+  quote: Real-time alerts from the Elephant Alert System help farmers anticipate elephant
+    presence and respond quickly
+links:
+- type: run-by
+  to: elephant-human-relations-aid
+  url: https://www.ehranamibia.org/about
+  fetched: 2026-11-12
+  quote: Combined with the Elephant Alert System, which uses GPS tracking to provide
+    real-time warnings when elephants approach, these initiatives reduce fear, prevent
+    conflict, and build the knowledge needed for long-term coexistence.
+found_by:
+- rule:checklist-misses
+- link-from:elephant-human-relations-aid
+added_by: agent
+checked: 2026-11-12

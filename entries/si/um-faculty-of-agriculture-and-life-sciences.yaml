@@ -1,0 +1,43 @@
+id: um-faculty-of-agriculture-and-life-sciences
+kind: organisation
+name: Faculty of Agriculture and Life Sciences, University of Maribor
+scope: si
+sector: academic
+roles:
+- unknown
+ai_label: conservation-tech
+realms:
+- land
+techniques:
+- remote-sensing
+hq: unknown
+countries:
+- si
+scale: national
+status: active
+summary: University of Maribor faculty whose affiliation appears on a 2025 Šumarski
+  list paper, listed by OpenAlex, on detecting bark beetle infestations in spruce
+  forests using drones and image analysis.
+facts:
+- claim: OpenAlex lists a 2025 paper in Šumarski list on detecting bark beetle infestations
+    by drone and image analysis in spruce forests.
+  url: https://api.openalex.org/works?filter=openalex_id:W4410098976&select=id,title,primary_location,authorships
+  fetched: '2026-11-13'
+  quote: Detection of bark beetle infestations by drone and image analysis in spruce
+    forests
+- claim: OpenAlex gives the first author's affiliation as the University of Maribor's
+    Faculty of Agriculture and Life Sciences.
+  url: https://api.openalex.org/works?filter=openalex_id:W4410098976&select=id,title,primary_location,authorships
+  fetched: '2026-11-13'
+  quote: University of Maribor, Faculty of Agriculture and Life Sciences
+- claim: OpenAlex lists the paper among University of Maribor works published from
+    2022 to 2026 in ecology and nature conservation, with 2025 as its year.
+  url: https://api.openalex.org/works?filter=authorships.institutions.ror:01d5jce07,publication_year:2022-2026,primary_topic.subfield.id:2303|2309&per-page=50&select=id,title,publication_year
+  fetched: '2026-11-13'
+  quote: Detection of bark beetle infestations by drone and image analysis in spruce
+    forests
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: '2026-11-13'

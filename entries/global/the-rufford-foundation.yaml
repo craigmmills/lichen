@@ -1,0 +1,36 @@
+id: the-rufford-foundation
+kind: organisation
+name: The Rufford Foundation
+also_known_as:
+- Rufford Foundation
+scope: global
+sector: funder
+roles:
+- funds
+ai_label: conservation-tech
+realms:
+- land
+- freshwater
+- ocean
+hq: gb
+scale: global
+status: active
+website: https://www.rufford.org
+summary: UK registered charity that funds nature conservation projects, chiefly through the
+  Rufford Small Grants Programme for individuals in developing countries. OpenAlex records
+  it as a funder on published camera trap and bioacoustics research.
+facts:
+- claim: A UK registered charity that funds nature conservation projects.
+  url: https://www.rufford.org/about/
+  quote: The Rufford Foundation is a UK registered charity which funds nature conservation
+    projects
+  fetched: &id001 2026-10-30
+- claim: OpenAlex lists the Rufford Foundation among funders of papers on camera traps and
+    machine learning.
+  url: https://api.openalex.org/works?filter=title_and_abstract.search:%22camera%20trap%22%20machine%20learning,from_publication_date:2018-01-01&group_by=funders.id&per_page=200
+  quote: Rufford Foundation
+  fetched: *id001
+found_by:
+- global:funders
+added_by: agent
+checked: *id001

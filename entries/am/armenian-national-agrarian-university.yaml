@@ -1,0 +1,35 @@
+id: armenian-national-agrarian-university
+kind: organisation
+name: Armenian National Agrarian University
+scope: am
+sector: academic
+roles:
+- unknown
+ai_label: data-infrastructure
+realms:
+- land
+techniques:
+- remote-sensing
+hq: am
+countries: []
+scale: national
+status: active
+summary: University given as the affiliation of the first author of a 2024 paper assessing
+  changes in NDVI and NDWI values in areas of rare plant species in Armenia.
+facts:
+- claim: Affiliation of the first author of a 2024 paper assessing changes in NDVI
+    and NDWI index values in areas of rare plant species in Armenia.
+  url: https://api.openalex.org/works?filter=openalex_id:W4389134186|W4402488055|W4404850287|W4412832364&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-12
+  quote: ASSESSMENT OF SPATIO-TEMPORAL CHANGES IN NDVI AND NDWI INDEX VALUES IN AREAS
+    OF RARE PLANT SPECIES OF RA
+- claim: The first author's affiliation is given as the Armenian National Agrarian
+    University.
+  url: https://api.openalex.org/works?filter=openalex_id:W4389134186|W4402488055|W4404850287|W4412832364&select=id,display_name,publication_year,authorships
+  fetched: 2026-11-12
+  quote: '"raw_affiliation_strings": ["ARMENIAN NATIONAL AGRARIAN UNIVERSITY"]'
+links: []
+found_by:
+- rule:round-2
+added_by: agent
+checked: 2026-11-12

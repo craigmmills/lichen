@@ -1,0 +1,55 @@
+id: gbif-armenia
+kind: programme
+name: GBIF Armenia
+also_known_as: []
+scope: am
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+countries:
+- am
+status: active
+runner: unknown
+summary: Armenia's national node in GBIF, where the country is an associate participant, which has endorsed
+  four data publishers including BirdLinks Armenia NGO.
+facts:
+- claim: GBIF lists Armenia as an associate participant with a country node called GBIF Armenia.
+  url: https://api.gbif.org/v1/node/country/AM
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- claim: GBIF's directory lists Armine Abrahamyan as node manager.
+  url: https://api.gbif.org/v1/node/country/AM
+  fetched: 2026-11-08
+  quote: '"type":"NODE_MANAGER"'
+- claim: Armenia is an associate participant in GBIF, with GBIF Armenia as its national node.
+  url: https://api.gbif.org/v1/node/country/AM
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"EUROPE","continent":"EUROPE","title":"GBIF Armenia","participantTitle":"Armenia,
+    Republic of"'
+- claim: The head of Armenia's GBIF delegation is listed at the Ministry of Environment's Department for
+    Specially Protected Areas of Nature and Biodiversity Policy.
+  url: https://api.gbif.org/v1/node/country/AM
+  fetched: 2026-11-08
+  quote: '"type":"HEAD_OF_DELEGATION","primary":false,"userId":[],"firstName":"Voskehat","lastName":"Grigoryan"'
+- claim: The node has endorsed four publishers, among them BirdLinks Armenia NGO and the Scientific Center
+    of Zoology and Hydroecology.
+  url: https://api.gbif.org/v1/node/1adad26d-6733-463b-ab2c-f6e9f47827d6/organization
+  fetched: 2026-11-08
+  quote: '"endOfRecords":true,"count":4'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/AM
+  fetched: 2026-11-08
+  quote: '"title":"GBIF Armenia","participantTitle":"Armenia, Republic of"'
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/country/AM
+  fetched: 2026-11-08
+  quote: '"type":"COUNTRY","participationStatus":"ASSOCIATE"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: 2026-11-08

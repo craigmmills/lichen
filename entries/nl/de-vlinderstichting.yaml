@@ -1,0 +1,72 @@
+id: de-vlinderstichting
+kind: organisation
+name: De Vlinderstichting
+sector: ngo
+roles:
+- supplies-data
+- uses-ai
+ai_label: ai
+realms:
+- land
+hq: unknown
+scale: national
+status: active
+summary: Dutch species organisation listed by Statistics Netherlands as coordinating the field
+  work of the national butterfly and dragonfly monitoring networks.
+scope: nl
+facts:
+- claim: Statistics Netherlands lists it as field coordinator for butterflies and dragonflies.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Dagvlinders De Vlinderstichting 1992
+- claim: Listed by CBS as coordinating fieldwork for monitoring networks.
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: De Vlinderstichting
+- claim: Developed the BIMAG monitoring network for farmland with BoerenNatuur and LTO Noord.
+  url: https://boerennatuur.nl/wat-we-doen/boeren-insectenmonitoring-agrarische-gebieden-bimag/
+  fetched: '2026-10-31'
+  quote: Dit is een initiatief van BoerenNatuur, LTO Noord en de Vlinderstichting.
+- claim: Listed among species organisations on the NDFF site.
+  url: https://ndff.nl/natuurdata/waarnemen-en-aanleveren/soortenorganisaties/
+  fetched: '2026-10-31'
+  quote: De Vlinderstichting
+- claim: Uses the name Dutch Butterfly Conservation outside the Netherlands and was founded
+    in 1983.
+  url: http://www.vlinderstichting.nl/english
+  fetched: '2026-10-31'
+  quote: Dutch Butterfly Conservation, the name De Vlinderstichting uses outside the Netherlands,
+    was founded in 1983
+- claim: A presentation on European moth monitoring by Chris van Swaay and Jurriën van Deijk
+    says photographed moths feed into the AI of Naturalis.
+  url: https://assets.vlinderstichting.nl/docs/3c4b8794-5b31-4aa2-bcfb-b2542cd8c171.pdf
+  fetched: '2026-10-31'
+  quote: feed into AI of Naturalis
+- claim: The same presentation says the Dutch scheme has 25 traps run more than three times
+    a week.
+  url: https://assets.vlinderstichting.nl/docs/3c4b8794-5b31-4aa2-bcfb-b2542cd8c171.pdf
+  fetched: '2026-10-31'
+  quote: In NL, 25 traps >3 times/week in different habitats
+links:
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: links naar de organisaties die de meetnetten coördineren
+- type: partners-with
+  to: netwerk-ecologische-monitoring
+  url: https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/meetnetten-netwerk-ecologische-monitoring
+  fetched: '2026-10-31'
+  quote: Ook bevat de tabel links naar de organisaties die de meetnetten coördineren.
+found_by:
+- checklist:4
+- rule:ngo-broad
+- register:nl
+added_by: agent
+checked: '2026-10-31'
+countries:
+- nl
+techniques:
+- computer-vision
+also_known_as:
+- Dutch Butterfly Conservation

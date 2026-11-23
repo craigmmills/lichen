@@ -1,0 +1,43 @@
+id: lifewatch-fish-acoustic-receiver-network
+kind: programme
+name: LifeWatch Belgium fish acoustic receiver network
+scope: be
+ai_label: data-infrastructure
+realms:
+- freshwater
+- ocean
+countries:
+- be
+status: active
+runner: unknown
+summary: Belgian network of acoustic receivers on buoys, shipwrecks, reefs and moorings
+  across rivers, estuaries and coast, allowing long-term monitoring of aquatic species,
+  with data recovered at least every six months.
+facts:
+- claim: Covers riverine, estuarine and coastal areas of Belgium and allows long-term
+    monitoring of aquatic species.
+  url: https://www.lifewatch.be/user-stories/tracking-fish-trails
+  fetched: 2026-11-08
+  quote: the permanent fish acoustic receiver network of the Belgian LifeWatch Observatory,
+    allows the long-term monitoring of various aquatic species.
+- claim: Receivers are installed on shipping buoys, shipwrecks, artificial reefs and
+    bottom moorings.
+  url: https://www.lifewatch.be/user-stories/tracking-fish-trails
+  fetched: 2026-11-08
+  quote: Acoustic receivers are installed on shipping buoys, ship wrecks, artificial
+    reefs and bottom moorings.
+- claim: Data from receivers are recovered at least every six months.
+  url: https://www.lifewatch.be/user-stories/tracking-fish-trails
+  fetched: 2026-11-08
+  quote: At least once every six months, the data stored on the receivers is recovered.
+links:
+- type: uses
+  to: european-tracking-network
+  url: https://www.lifewatch.be/user-stories/tracking-fish-trails
+  fetched: 2026-11-08
+  quote: Data of the sensor network are stored in the European Tracking Network (
+    ETN ) data portal
+found_by:
+- rule:checklist-misses
+added_by: agent
+checked: 2026-11-08

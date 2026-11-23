@@ -1,0 +1,34 @@
+id: biodiversity-information-system-of-mexico
+kind: programme
+name: Biodiversity Information System of Mexico
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- mx
+status: active
+runner: unknown
+summary: Programme listed by GBIF as the voting country node for Mexico, and linked as a partner of GBIF.
+scope: mx
+facts:
+- claim: Listed by GBIF as the voting country node for Mexico.
+  url: https://api.gbif.org/v1/node/b324e8e9-9a4c-44fa-8f1a-7f39ea7ab576
+  fetched: '2026-11-03'
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+- claim: The GBIF record titles the node “Biodiversity Information System of Mexico”.
+  url: https://api.gbif.org/v1/node/b324e8e9-9a4c-44fa-8f1a-7f39ea7ab576
+  fetched: '2026-11-03'
+  quote: '"title":"Biodiversity Information System of Mexico","participantTitle":"Mexico"'
+links:
+- type: partners-with
+  to: global-biodiversity-information-facility
+  url: https://api.gbif.org/v1/node/b324e8e9-9a4c-44fa-8f1a-7f39ea7ab576
+  fetched: '2026-11-03'
+  quote: '"type":"COUNTRY","participationStatus":"VOTING"'
+found_by:
+- checklist:2
+- link-from:global-biodiversity-information-facility
+added_by: agent
+checked: '2026-11-03'

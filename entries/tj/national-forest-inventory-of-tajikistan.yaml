@@ -1,0 +1,63 @@
+id: national-forest-inventory-of-tajikistan
+kind: project
+name: National Forest Inventory of Tajikistan
+scope: tj
+ai_label: ai
+realms:
+- land
+techniques:
+- remote-sensing
+countries:
+- tj
+status: active
+runner: unknown
+summary: Active inventory run by Aerogeodesy Dushanbe and Umweltdaten GmbH under a World Bank project,
+  mapping forest from Sentinel-2 and RapidEye data with machine learning and surveying with mobile LiDAR.
+facts:
+- claim: CAREC says the inventory is carried out by a consortium of the state enterprise Aerogeodesy Dushanbe
+    and the Austrian company Umweltdaten GmbH, within the World Bank's Tajikistan Resilient Landscape
+    Restoration Project.
+  url: https://carececo.org/en/main/news/ekspertnoe-mnenie-natsionalnaya-inventarizatsiya-lesov-tadzhikistana-vyzovy-tekhnologii-i-strategich/
+  fetched: 2026-11-08
+  quote: is carried out by a consortium consisting of the State Unitary Enterprise “Aerogeodesy Dushanbe”
+    and the Austrian company Umweltdaten GmbH.
+- claim: Forest areas are mapped from Sentinel-2 and RapidEye data and classified with machine learning
+    in GIS software.
+  url: https://carececo.org/en/main/news/ekspertnoe-mnenie-natsionalnaya-inventarizatsiya-lesov-tadzhikistana-vyzovy-tekhnologii-i-strategich/
+  fetched: 2026-11-08
+  quote: applying machine learning methods to achieve higher accuracy and enable automated classification
+    of forest formations
+- claim: Field surveys use mobile LiDAR laser systems as well as classical forest mensuration.
+  url: https://carececo.org/en/main/news/ekspertnoe-mnenie-natsionalnaya-inventarizatsiya-lesov-tadzhikistana-vyzovy-tekhnologii-i-strategich/
+  fetched: 2026-11-08
+  quote: but also mobile LiDAR laser systems
+- claim: The Times of Central Asia reports that the Forestry Agency's deputy director announced the inventory
+    on 15 July 2026, and that preliminary satellite work puts forest cover at about 4.7%.
+  url: https://timesca.com/tajikistan-turns-to-satellites-to-discover-how-much-forest-it-has-left/
+  fetched: 2026-11-08
+  quote: On July 15, Deputy Forestry Agency Director Davlatali Sharifzoda announced a national inventory
+    using satellite images and field inspections.
+links:
+- type: run-by
+  to: aerogeodesy-dushanbe
+  url: https://carececo.org/en/main/news/ekspertnoe-mnenie-natsionalnaya-inventarizatsiya-lesov-tadzhikistana-vyzovy-tekhnologii-i-strategich/
+  fetched: 2026-11-08
+  quote: is carried out by a consortium consisting of the State Unitary Enterprise “Aerogeodesy Dushanbe”
+    and the Austrian company Umweltdaten GmbH.
+- type: run-by
+  to: umweltdaten-gmbh
+  url: https://carececo.org/en/main/news/ekspertnoe-mnenie-natsionalnaya-inventarizatsiya-lesov-tadzhikistana-vyzovy-tekhnologii-i-strategich/
+  fetched: 2026-11-08
+  quote: is carried out by a consortium consisting of the State Unitary Enterprise “Aerogeodesy Dushanbe”
+    and the Austrian company Umweltdaten GmbH.
+- type: partners-with
+  to: institut-e-c-o
+  url: https://e-c-o.at/project-details-en/pid_480.html
+  fetched: 2026-11-08
+  quote: E.C.O. is supporting the development and implementation of the first National Forest Inventory
+    in Tajikistan as a technical partner.
+found_by:
+- checklist:2
+- checklist:7
+added_by: agent
+checked: 2026-11-08

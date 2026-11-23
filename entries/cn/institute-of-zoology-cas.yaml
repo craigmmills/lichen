@@ -1,0 +1,72 @@
+id: institute-of-zoology-cas
+kind: organisation
+name: Institute of Zoology, Chinese Academy of Sciences
+also_known_as:
+- 中国科学院动物研究所
+- IOZ
+scope: cn
+sector: academic
+roles:
+- builds-ai
+- supplies-data
+ai_label: ai
+realms:
+- land
+techniques:
+- computer-vision
+- bioacoustics
+hq: cn
+scale: national
+status: active
+summary: Chinese Academy of Sciences institute that developed the Notes of Life identification
+  app on Baidu's PaddlePaddle framework.
+facts:
+- claim: Developed the Notes of Life app.
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: Developed by the Institute of Zoology under the CAS
+- claim: Its address is in Chaoyang District, Beijing.
+  url: http://english.ioz.cas.cn/
+  fetched: '2026-10-31'
+  quote: 'Address: 1 Beichen West Road, Chaoyang District, Beijing 100101, P.R.China'
+- claim: The institute's data centre supports data management for the institute's research.
+  url: http://ioz.cas.cn/gb2018/sz/zcbm/202405/t20240516_7162946.html
+  fetched: '2026-10-31'
+  quote: 科学数据专业支撑机构
+- claim: A nationally ranked public research institute of the Chinese Academy of Sciences,
+    focused on basic animal science.
+  url: https://ioz.cas.cn/gb2018/xwdt/kyjz/202103/t20210324_5982854.html
+  fetched: '2026-10-31'
+  quote: 中国科学院动物研究所是以动物科学基础研究为主的社会公益型国家级科研机构。
+- claim: Leads the China Soundscape project.
+  url: https://soc.especies.cn/public/project-intro
+  fetched: '2026-10-31'
+  quote: “声景中国”项目由中国科学院动物研究所牵头
+links:
+- type: runs
+  to: notes-of-life
+  url: https://english.cas.cn/special-reports/5thwcbr/wcbrrn/202601/t20260105_1145093.shtml
+  fetched: '2026-10-31'
+  quote: Developed by the Institute of Zoology under the CAS
+- type: runs
+  to: cameradata
+  url: http://www.gscloud.cn/cameradata/
+  fetched: '2026-10-31'
+  quote: 中国科学院动物研究所组织研发的野生动物多样性监测图像数据管理系统
+- type: runs
+  to: notes-of-life
+  url: http://www.sp2000.org.cn/
+  fetched: '2026-10-31'
+  quote: 生物记是由中国科学院动物研究所生物多样性信息学研究组开发的APP与网络平台
+- type: leads
+  to: china-soundscape
+  url: https://soc.especies.cn/public/project-intro
+  fetched: '2026-10-31'
+  quote: “声景中国”项目由中国科学院动物研究所牵头
+found_by:
+- checklist:3
+- link-from:queue-cn
+added_by: agent
+checked: '2026-10-31'
+countries:
+- cn

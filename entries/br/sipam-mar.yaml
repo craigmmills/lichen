@@ -1,0 +1,46 @@
+id: sipam-mar
+kind: programme
+name: SIPAM Mar
+scope: br
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- ocean
+techniques:
+- remote-sensing
+countries:
+- br
+status: active
+summary: Brazilian web system from Censipam and the Federal University of Bahia that uses
+  radar images and neural algorithms to detect oil slicks at sea.
+facts:
+- claim: Combines radar images with artificial intelligence to identify signs of oil at the
+    sea surface automatically.
+  url: https://www.gov.br/censipam/pt-br/central-de-conteudos/noticias/censipam-testa-primeiro-sistema-totalmente-nacional-para-deteccao-de-manchas-de-oleo-no-mar
+  fetched: '2026-10-30'
+  quote: integra imagens de radar com recursos de inteligência artificial, capazes de identificar
+    automaticamente indícios de óleo na superfície do mar
+- claim: Uses neural algorithms to classify oil slicks in radar images.
+  url: https://www.gov.br/censipam/pt-br/central-de-conteudos/noticias/censipam-testa-primeiro-sistema-totalmente-nacional-para-deteccao-de-manchas-de-oleo-no-mar
+  fetched: '2026-10-30'
+  quote: algoritmos neurais exclusivos desenvolvidos para classificar manchas de óleo em imagens
+    de radar
+  ai_type: deep-learning
+links:
+- type: run-by
+  to: centro-gestor-e-operacional-do-sistema-de-protecao-da-amazonia
+  url: https://www.gov.br/censipam/pt-br/central-de-conteudos/noticias/censipam-testa-primeiro-sistema-totalmente-nacional-para-deteccao-de-manchas-de-oleo-no-mar
+  fetched: '2026-10-30'
+  quote: O Centro Gestor e Operacional do Sistema de Proteção da Amazônia (Censipam), em parceria
+    com a Universidade Federal da Bahia (UFBA), realizou nesta terça-feira (4) um treinamento
+    técnico-operacional para capacitar servidores no uso do SIPAM Mar
+- type: partners-with
+  to: universidade-federal-da-bahia
+  url: https://www.gov.br/censipam/pt-br/central-de-conteudos/noticias/censipam-testa-primeiro-sistema-totalmente-nacional-para-deteccao-de-manchas-de-oleo-no-mar
+  fetched: '2026-10-30'
+  quote: em parceria com a Universidade Federal da Bahia (UFBA)
+found_by:
+- checklist:1
+added_by: agent
+checked: '2026-10-30'

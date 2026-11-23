@@ -1,0 +1,38 @@
+id: pelican-conservation-neural-network
+kind: model
+name: Pelican count neural network
+scope: ru
+ai_label: ai
+realms:
+- freshwater
+- land
+techniques:
+- computer-vision
+countries:
+- ru
+status: unknown
+runner: unknown
+summary: Model that a September 2023 report said analysed quadcopter images to count pelicans, with the
+  team then planning to expand it and a chat-bot into a continuous monitoring tool.
+facts:
+- claim: A September 2023 report said the model analysed quadcopter images to count pelicans.
+  url: https://habr.com/ru/news/759970
+  quote: Модель занимается анализом снимков с квадрокоптеров и определяет количество особей популяции.
+  fetched: '2026-10-31'
+- claim: In September 2023, the team planned to expand its basic model and chat-bot into a full tool for
+    continuous monitoring.
+  url: https://habr.com/ru/news/759970
+  quote: В будущем команда проекта планирует перейти от MVP в виде базовой модели и чат‑бота к полноценному
+    инструменту.
+  fetched: '2026-10-31'
+links:
+- type: uses
+  to: vk-cloud
+  url: https://habr.com/ru/news/759970
+  quote: разработала нейросеть для программы «Сохранение кудрявого и розового пеликанов» на платформе
+    VK Cloud
+  fetched: '2026-10-31'
+found_by:
+- checklist:7
+added_by: agent
+checked: '2026-10-31'

@@ -1,0 +1,41 @@
+id: crane-migration-radar
+kind: model
+name: Crane Migration Radar
+ai_label: ai
+ai_types:
+- digital-twins
+realms:
+- land
+countries:
+- nl
+status: active
+summary: A digital twin from Nature FIRST that predicts migratory shifts of cranes
+  and shares observations and updates, integrated into the Sensing Clues platform.
+facts:
+- claim: Named among Nature FIRST's digital twins.
+  url: https://www.sensingclues.org/success-stories/naturefirstproject
+  fetched: &id001 2026-10-31
+  quote: a Crane Migration Radar that predicts migratory shifts
+  ai_type: digital-twins
+- claim: Its latest observations and updates are posted in a news section.
+  url: https://www.sensingclues.org/news/spring-2026-crane-migration
+  fetched: *id001
+  quote: Keep an eye on the Crane Migration Radar , where the latest observations
+    and updates are shared
+links:
+- type: run-by
+  to: sensing-clues
+  url: https://www.sensingclues.org/news/spring-2026-crane-migration
+  fetched: *id001
+  quote: as developers, we wanted to better understand how the radar is used in the
+    field
+- type: partners-with
+  to: nature-first
+  url: https://www.sensingclues.org/success-stories/naturefirstproject
+  fetched: *id001
+  quote: a Crane Migration Radar that predicts migratory shifts
+found_by:
+- link-from:sensing-clues
+scope: nl
+added_by: agent
+checked: *id001

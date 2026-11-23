@@ -1,0 +1,34 @@
+id: niokolo-base
+kind: dataset
+name: Niokolo-Base
+ai_label: data-infrastructure
+realms:
+- land
+countries:
+- sn
+status: active
+runner: unknown
+summary: Online digital library launched on 27 October 2026 that gives access to the
+  documentation on Niokolo-Koba National Park, built with support from Ucoopia.
+scope: sn
+facts:
+- claim: Launched on 27 October 2026 at the environment ministry.
+  url: https://ucoopia.org/lancement-de-la-bibliotheque-numerique-niokolo-base/
+  fetched: '2026-10-31'
+  quote: a été officiellement lancée le 27 octobre 2026 au ministère de l’Environnement
+    et de la Transition Ecologique du Sénégal
+- claim: Holds the documentation on Niokolo-Koba National Park, made with Ucoopia's
+    support.
+  url: https://ucoopia.org/lancement-de-la-bibliotheque-numerique-niokolo-base/
+  fetched: '2026-10-31'
+  quote: Cette base de données, réalisée avec l’appui d’Ucoopia
+links:
+- type: partners-with
+  to: ucoopia
+  url: https://ucoopia.org/lancement-de-la-bibliotheque-numerique-niokolo-base/
+  fetched: '2026-10-31'
+  quote: réalisée avec l’appui d’Ucoopia
+found_by:
+- checklist:2
+added_by: agent
+checked: '2026-10-31'

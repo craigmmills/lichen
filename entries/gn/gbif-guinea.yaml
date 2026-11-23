@@ -1,0 +1,45 @@
+id: gbif-guinea
+kind: programme
+name: GBIF Guinea
+scope: gn
+roles:
+- supplies-data
+ai_label: data-infrastructure
+realms:
+- land
+- freshwater
+- ocean
+countries:
+- gn
+status: active
+summary: Guinea's GBIF country node has associate status, a Conakry postal address and no
+  listed homepage; GBIF lists ten publishers registered in Guinea.
+facts:
+- claim: The GBIF registry lists GBIF Guinea as the node for Guinea, an associate participant.
+  url: https://api.gbif.org/v1/node/country/GN
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE","gbifRegion":"AFRICA","continent":"AFRICA","title":"GBIF
+    Guinea"'
+- claim: The registry lists no homepage for the node.
+  url: https://api.gbif.org/v1/node/country/GN
+  fetched: 2026-11-08
+  quote: '"homepage":[],"address":["BP 761\nConakry\nGuinea"]'
+- claim: GBIF lists GBIF Guinea as the country node for Guinea, with associate participation
+    status.
+  url: https://api.gbif.org/v1/node/country/GN
+  fetched: 2026-11-08
+  quote: '"participationStatus":"ASSOCIATE"'
+- claim: GBIF gives the node a postal address in Conakry.
+  url: https://api.gbif.org/v1/node/country/GN
+  fetched: 2026-11-08
+  quote: '"address":["BP 761'
+- claim: GBIF lists ten publishers registered in Guinea, among them the national herbarium,
+    the environmental observation centre COSIE and the national forestry directorate.
+  url: https://api.gbif.org/v1/organization?country=GN&limit=50
+  fetched: 2026-11-08
+  quote: '"count":10'
+found_by:
+- checklist:2
+added_by: agent
+checked: 2026-11-08
+hq: gn

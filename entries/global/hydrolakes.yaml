@@ -1,0 +1,28 @@
+id: hydrolakes
+kind: dataset
+name: HydroLAKES
+scope: global
+runner: unknown
+ai_label: data-infrastructure
+realms:
+- freshwater
+techniques:
+- remote-sensing
+status: active
+website: https://www.hydrosheds.org/products/hydrolakes
+summary: Shoreline polygons of global lakes of at least 10 hectares, covering 1.4 million lakes and reservoirs.
+facts:
+- claim: Covers 1.4 million lakes or reservoirs.
+  url: https://www.hydrosheds.org/products/hydrolakes
+  fetched: '2026-10-30'
+  quote: The global coverage of HydroLAKES encompasses 1.4 million individual lakes or reservoirs
+links:
+- type: builds-on
+  to: hydrosheds
+  url: https://www.hydrosheds.org/products/hydrolakes
+  fetched: '2026-10-30'
+  quote: "co-registered to the global river network of the HydroSHEDS database"
+found_by:
+- global:data-infrastructure
+added_by: agent
+checked: '2026-10-30'

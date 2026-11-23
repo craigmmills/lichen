@@ -1,0 +1,42 @@
+id: space-research-institute-kyiv
+kind: organisation
+name: Space Research Institute (Kyiv)
+scope: ua
+sector: academic
+roles:
+- unknown
+ai_label: ai
+ai_types:
+- deep-learning
+realms:
+- land
+techniques:
+- remote-sensing
+hq: ua
+countries:
+- ua
+scale: national
+status: active
+summary: Kyiv research facility listed by OpenAlex, whose works include a 2015 paper on retrospective
+  land cover for Ukraine and a 2017 paper on deep learning classification of land cover and
+  crops.
+facts:
+- claim: OpenAlex lists it as a research facility in Kyiv, Ukraine, with its homepage at ikd.kiev.ua.
+  url: https://api.openalex.org/institutions/I4210099374?select=id,display_name,homepage_url,ror,geo,type,works_count
+  fetched: 2026-11-03
+  quote: '"display_name":"Space Research Institute","homepage_url":"http://www.ikd.kiev.ua/","ror":"https://ror.org/015zbz228","geo":{"city":"Kyiv"'
+- claim: OpenAlex lists among its works with "land cover" in the title a 2015 paper on regional
+    retrospective high-resolution land cover for Ukraine.
+  url: https://api.openalex.org/works?filter=institutions.id:I4210099374,title.search:land%20cover&sort=cited_by_count:desc&per-page=8&select=id,display_name,publication_year
+  fetched: 2026-11-03
+  quote: 'Regional retrospective high resolution land cover for Ukraine: Methodology and results'
+- claim: OpenAlex lists among its works the 2017 paper "Deep Learning Classification of Land
+    Cover and Crop Types Using Remote Sensing Data".
+  ai_type: deep-learning
+  url: https://api.openalex.org/works?filter=institutions.id:I4210099374,title.search:land%20cover&sort=cited_by_count:desc&per-page=8&select=id,display_name,publication_year
+  fetched: 2026-11-03
+  quote: Deep Learning Classification of Land Cover and Crop Types Using Remote Sensing Data
+found_by:
+- link-from:natalya-kussul
+added_by: agent
+checked: 2026-11-03

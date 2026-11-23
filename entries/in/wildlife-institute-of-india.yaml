@@ -1,0 +1,131 @@
+id: wildlife-institute-of-india
+kind: organisation
+name: Wildlife Institute of India
+also_known_as:
+- WII
+scope: in
+sector: government
+roles:
+- uses-ai
+- supplies-data
+- builds-ai
+ai_label: ai
+realms:
+- land
+- freshwater
+techniques:
+- computer-vision
+- edna-genomics
+- remote-sensing
+- bioacoustics
+hq: in
+countries:
+- in
+scale: national
+status: active
+website: https://wii.gov.in/
+summary: Autonomous institute of the environment ministry in Dehradun. GBIF lists its address
+  as the contact for GBIF India, and it works with IIIT-Delhi on AI for the national tiger
+  census.
+facts:
+- claim: Autonomous institute of the environment ministry, at Chandrabani, Dehradun.
+  url: https://wii.gov.in/
+  quote: Wildlife Institute of India, an Autonomous Institute of MoEFCC, Govt. of India, Post
+    Box
+  fetched: '2026-10-31'
+- claim: The GBIF registry gives India's participation as observer and lists the institute's
+    Dehradun address for GBIF India.
+  url: https://api.gbif.org/v1/node/country/IN
+  quote: '"participationStatus":"OBSERVER"'
+  fetched: '2026-10-31'
+- claim: A government research listing says software from an IIIT-Delhi project will be integrated
+    with the systems the institute uses for the national tiger census.
+  url: https://www.indiascienceandtechnology.gov.in/research/artificial-intelligence-monitoring-wildlife-conservation-aim-wildlife-conservation
+  quote: will be integrated with systems that the Wildlife Institute of India uses for completing
+    the national tiger census
+  fetched: '2026-10-31'
+- claim: Autonomous institute of the environment ministry.
+  url: https://wii.gov.in/
+  fetched: '2026-10-31'
+  quote: Wildlife Institute of India, an Autonomous Institute of MoEFCC, Govt. of India
+- claim: Its Tiger Cell uses drones and AI-based species identification.
+  url: https://wii.gov.in/tiger-cell
+  fetched: '2026-10-31'
+  quote: It actively incorporates modern tools including drones, AI-based species identification,
+    mobile-based data collection apps, and GIS platforms
+- claim: Research at its technology laboratory includes machine learning models for species
+    identification and pattern recognition in camera-trap images.
+  quote: Research at the lab includes developing and applying machine learning models for
+    species identification, pattern recognition in camera trap images, and real-time data
+    processing.
+  url: https://wii.gov.in/wildlife-technology-lab
+  fetched: '2026-10-31'
+- claim: Says its projects increasingly use camera traps, telemetry, drones, remote sensing
+    and artificial intelligence.
+  url: https://www.wii.gov.in/ongoing-projects
+  quote: WII projects increasingly incorporate modern tools such as camera traps, radio telemetry,
+    drone-based surveys, GIS
+  fetched: '2026-10-31'
+- claim: Describes itself as a national agency for wildlife research and training.
+  url: https://wii.gov.in/
+  fetched: '2026-10-31'
+  quote: The Wildlife Institute of India is a nodal national agency for research and training
+    in the field of wildlife conservation.
+  via: webfetch
+- claim: Autonomous institution of the environment ministry, according to its GBIF publisher
+    record.
+  url: https://api.gbif.org/v1/organization/4a19e429-8f13-478e-86d7-93adb7534524
+  fetched: '2026-10-31'
+  quote: Wildlife Institute of India (WII) is an Autonomous Institution of Ministry of Environment
+    and Forests, Government of India.
+- claim: Address on its own site.
+  url: https://wii.gov.in/
+  fetched: '2026-10-31'
+  quote: 'Post Box #18, Chandrabani Dehradun 248001'
+  via: webfetch
+- claim: IndiaAI says WII uses CaTRAT to sort camera trap images by species.
+  url: https://indiaai.gov.in/case-study/iiit-delhi-develops-ai-model-to-save-tiger-population
+  fetched: '2026-10-31'
+  quote: is currently being used by WII for geotagging, coding and segregating the images
+    to individual species folders
+- claim: Publishes a camera trap dataset of tigers from Rajaji National Park on GBIF.
+  url: https://api.gbif.org/v1/organization/4a19e429-8f13-478e-86d7-93adb7534524/publishedDataset?limit=50
+  fetched: '2026-10-31'
+  quote: Camera trap database of Tiger from Rajaji National Park, Uttarakhand
+links:
+- type: uses
+  to: catrat
+  url: https://indiaai.gov.in/article/this-indian-ai-researcher-s-work-may-help-save-tiger-population
+  quote: this image processing software known as CaTRAT (Camera Trap Data Repository and Analysis
+    Tool) is currently being used by WII
+  fetched: '2026-10-31'
+- type: run-by
+  to: ministry-of-environment-forest-and-climate-change-india
+  url: https://wii.gov.in/
+  fetched: '2026-10-31'
+  quote: Wildlife Institute of India, an Autonomous Institute of MoEFCC, Govt. of India
+- type: uses
+  to: catrat
+  url: https://repository.iiitd.edu.in/jspui/handle/123456789/1371?show=full
+  fetched: '2026-10-31'
+  quote: which was used by theWildlife Institute of India (WII) for processing the camera
+    trap images during the All India Tiger Estimation 2022.
+- type: runs
+  to: wildlife-technology-laboratory
+  quote: The Wildlife Technology Laboratory at the Wildlife Institute of India (WII), Dehradun
+    is a specialized facility
+  url: https://wii.gov.in/wildlife-technology-lab
+  fetched: '2026-10-31'
+- type: uses
+  to: catrat
+  url: https://indiaai.gov.in/case-study/iiit-delhi-develops-ai-model-to-save-tiger-population
+  fetched: '2026-10-31'
+  quote: is currently being used by WII for geotagging, coding and segregating the images
+    to individual species folders
+found_by:
+- checklist:2
+- link-from:national-tiger-conservation-authority
+- checklist:in-c
+- register:gbif-publisher
+added_by: agent
+checked: '2026-10-31'
