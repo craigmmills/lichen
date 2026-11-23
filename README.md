@@ -103,7 +103,13 @@ itself. With another agent, start with "read AGENTS.md first". Then ask in plain
 Three habits make the answers better: ask for the base behind every percentage, ask for examples you
 can open, and ask the agent to try to break its own answer before it reports.
 
-## Using the data
+## Licence
 
-You are welcome to read it, query it and check it. If you plan to republish it or build on it,
-please get in touch first through the explorer site while the licence is being settled.
+The data is in the public domain under [CC0 1.0](LICENSE): the records, `records.csv`, the labels and
+the summaries. Use it for anything, with no need to ask or to credit, though a mention of where it
+came from helps others find it. The scripts in `tools/` and the skills are under the
+[MIT licence](LICENSE-CODE).
+
+Two things the licence does not cover. The short quotes in each fact are the words of the pages they
+came from and belong to their publishers; they are here as brief quotations with their source. The
+fonts in `tools/fonts/` and `docs/fonts/` carry their own open licence, included beside them.
