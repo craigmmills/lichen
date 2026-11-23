@@ -6,10 +6,12 @@
 <title>{{title}}</title>
 <meta name="description" content="{{description}}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="lichen">
 <meta property="og:title" content="{{title}}">
 <meta property="og:description" content="{{description}}">
 <meta property="og:url" content="{{site}}">
-<meta property="og:image" content="{{site}}og.png">
+<meta name="image" property="og:image" content="{{site}}og.png">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 <meta property="og:image:alt" content="Who works on data and AI for nature: one mark for each of 18,406 records.">
@@ -79,8 +81,8 @@ code { font: 600 .9em var(--label); letter-spacing: .03em; background: var(--tin
 <div class="wrap">
   <header>
     <div class="masthead">lichen</div>
-    <h1 id="t-title"></h1>
-    <p class="lede" id="t-lede"></p>
+    <h1 id="t-title">{{title}}</h1>
+    <p class="lede" id="t-lede">{{lede}}</p>
   </header>
   <div class="totals" id="totals"></div>
   <section class="find">
@@ -88,7 +90,7 @@ code { font: 600 .9em var(--label); letter-spacing: .03em; background: var(--tin
     <div class="filters">
       <select id="f-place" aria-label="Country"></select><select id="f-kind" aria-label="Kind"></select><select id="f-sector" aria-label="Sector"></select><select id="f-label" aria-label="Technology"></select>
     </div>
-    <div class="count" id="count">Loading records</div>
+    <div class="count" id="count">{{records}} records</div>
   </section>
   <div class="list" id="list"></div>
   <button id="more" hidden>Show more</button>

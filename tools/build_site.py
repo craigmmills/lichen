@@ -68,7 +68,8 @@ stats = {"built": date.today().isoformat(), "records": len(E), "countries": len(
          "scopes": sorted([[s, names.get(s, s), n] for s, n in scopes.items()], key=lambda r: (r[0] != "global", r[1]))}
 page = (ROOT / "tools/site_template.html").read_text()
 page = page.replace("/*CONFIG*/{}", dump(CONFIG).replace("</", "<\\/")).replace("/*STATS*/{}", dump(stats).replace("</", "<\\/"))
-for k in ("title", "site", "description"):
+page = page.replace("{{records}}", f"{len(E):,}")
+for k in ("title", "site", "description", "lede"):
     page = page.replace("{{" + k + "}}", html.escape(CONFIG[k], quote=True))
 (OUT / "index.html").write_text(page)
 
