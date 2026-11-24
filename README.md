@@ -8,11 +8,11 @@ This is a snapshot taken on 23 November 2026. It will be updated as the database
 
 ## What is in it
 
-- 18,406 records: 10,556 organisations, 3,787 projects, 2,669 programmes, 1,107 datasets
+- 18,407 records: 10,557 organisations, 3,787 projects, 2,669 programmes, 1,107 datasets
   and 287 models.
 - 207 countries and territories, plus a global layer for bodies that work across borders.
-- 53,724 quoted facts from about 24,600 web pages on about 10,000 websites.
-- Organisations by sector: government 3,092, NGO 2,452, academic 2,324, company 1,626,
+- 53,735 quoted facts from about 24,600 web pages on about 10,000 websites.
+- Organisations by sector: government 3,092, NGO 2,453, academic 2,324, company 1,626,
   Indigenous and community bodies 584, funders 371, multilateral 107.
 
 Records of individual people are left out of this copy.

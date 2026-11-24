@@ -27,7 +27,7 @@ CONFIG = {
     "address": "giarcsllim+lichen@gmail.com",
     "repo": "https://github.com/craigmmills/lichen",
     "site": "https://craigmmills.github.io/lichen/",
-    "description": "18,406 organisations, projects, datasets and models in 207 countries. Find yours, check it, and fix it if it is wrong.",
+    "description": "18,407 organisations, projects, datasets and models in 207 countries. Find yours, check it, and fix it if it is wrong.",
 }
 KINDS = ["organisation", "project", "programme", "dataset", "model"]
 SECTORS = ["government", "ngo", "academic", "company", "community", "funder", "multilateral"]

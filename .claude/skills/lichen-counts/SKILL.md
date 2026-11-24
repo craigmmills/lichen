@@ -16,7 +16,7 @@ at the top of `tools/build_db.py`. Allowed values for each label are in the READ
 
 ## Rules for any count you report
 
-1. State the base. "Of 10,556 organisations" or "of the 3,863 AI records", never a bare percentage.
+1. State the base. "Of 10,557 organisations" or "of the 3,863 AI records", never a bare percentage.
 2. Records overlap by design. A project and the organisation that runs it are separate records, so
    count one `kind` at a time unless the question is about records in general.
 3. Every count is a floor. The database holds what organisations publish on pages the searches reached.
