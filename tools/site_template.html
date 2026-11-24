@@ -104,7 +104,7 @@ code { font: 600 .9em var(--label); letter-spacing: .03em; background: var(--tin
   <p class="note" id="foot"></p>
 </div>
 <script>
-const C = /*CONFIG*/{}, S = /*STATS*/{};
+const C = /*CONFIG*/{}, S = /*STATS*/{}, VER = S.built + "-" + S.records + "-" + S.facts;
 const $ = id => document.getElementById(id);
 const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
 const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
@@ -167,7 +167,7 @@ function detail(x) {
   };
   const key = x[0][0];
   if (cache[key]) put(cache[key][x[0]]);
-  else { d.innerHTML = '<p class="src">Loading</p>'; fetch(`data/s/${key}.json`).then(r => r.json()).then(j => { cache[key] = j; put(j[x[0]]); }).catch(() => put(null)); }
+  else { d.innerHTML = '<p class="src">Loading</p>'; fetch(`data/s/${key}.json?v=${VER}`).then(r => r.json()).then(j => { cache[key] = j; put(j[x[0]]); }).catch(() => put(null)); }
   return d;
 }
 function go(id) {
@@ -175,7 +175,7 @@ function go(id) {
   ["f-place", "f-kind", "f-sector", "f-label"].forEach(i => $(i).value = ""); $("q").value = x[1]; openId = id; shown = 40;
   history.replaceState(null, "", "#" + id); render();
 }
-fetch("data/index.json").then(r => r.json()).then(j => {
+fetch("data/index.json?v=" + VER).then(r => r.json()).then(j => {
   j.forEach(x => x[8] = (x[1] + " " + x[7]).toLowerCase()); ROWS = j;
   const id = decodeURIComponent(location.hash.slice(1)); if (id && ROWS.some(r => r[0] === id)) go(id); else render();
 }).catch(() => { $("count").textContent = "Could not load the records. Try reloading the page."; });
